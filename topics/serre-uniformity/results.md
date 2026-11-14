@@ -612,3 +612,5 @@
 - **R637（已证明）**：[SS_j36_04原规范高度与整盘排除](results/R637-SS_j36_04-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2模47根[2, 6]与四同标签F3不相交。非CM SS累计54/105。
 
 - **R695（已证明约化）**：[原C的二次Gamma普通整除判据](results/R695-original-C-second-Gamma-ordinary-division.md)。完整P上普通H¹与原两标记cocycle给Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9；消去未知y且不假设m=43。每个κ都通过域整除，故仍须真正普通单位测试，未求原C/L。
+
+- **R694（已证明）**：[3处椭圆尾模型与原CM校准零靶](results/R694-three-adic-elliptic-tail-model-and-actual-CM-zero-orbit.md)。实际T=X(6p)/Q8在3处为一个中心加椭圆尾，边长1/4；中心及唯一CM项链尾商恒定，λ3(c1)=0、ω0=0。一般非CM尾φ_s仍未计算。实际p处Λ jet、赋值及统一全尾仍待求。
