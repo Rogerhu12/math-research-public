@@ -449,3 +449,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R604：原两来源的单位阶梯子式与二次接触上界](results/R604-original-staircase-minor-and-quadratic-contact-bound.md)：D<s时真实行n=hs+q与完整原列构成整单位块Vandermonde，给系数范数等式及原全前缀的明确空区间；固定模六素数定理进一步给最大接触Θ(D²)。同权实际整截面、零权/碰撞和全部非中央行保持，非连续子式不冒连续饱和旗标成本。
+
+
+- [R601：原Q两张量、全Y/W核心与真实十五维谱](results/R601-original-q-tensors-complete-y-w-cores-and-fifteen-source-spectrum.md)：实际Q投影拆同一完整补偿，两原张量在全五变量的一层Y/四层W核心精确负交换，中心相位、真实像和逆域全保。原Y来源完整15维谱含S/2、两参考及四外块，新E2312线投影零；合法S伴随行保原算术，但未交换混合切集或删余补。
