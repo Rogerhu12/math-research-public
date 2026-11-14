@@ -515,3 +515,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：完整解析Airy列与指数Fourier估计（2026-11-14 19:45:02 UTC）
 
 [A1–18 证明](results/R133-supplement-analytic-Airy-columns-and-complete-exponential-Fourier-bound.md)在真实复角条带直接估计全部列。完整离散权比含零输出：有限lag准确和加整条指数尾；真实负侧两ray与正侧X的逆条带为(1−j)σ。右半平面水平Volterra给精确归一化Airy branch和导数界，中央列保整个函数小argument界；central/high只按输入整数拆范数，不修改试函数或新增径向cutoff。由幅度复sup直接估H−4/3→H−5/3，原U20/U22的幅度角导需求从四阶降到两阶。root/tail全文独核，root核DLMF原归一化公式；正文SHA `3569172db9568d70fba2973660ceb790fb125432fad1d4823c3fbe422fe4d115`。所有复域、composition、指数尾与真实dr费须经公开消费者实付，尚不授return小门。
+
+### R133：原3/64条带的直接2×2角jets（2026-11-14 19:45:07 UTC）
+
+[J1–13 完整配方](results/R133-supplement-direct-angular-matrix-jets-for-analytic-Airy-sources.md)只消费已有L13/L14及leading角导表：H/Hinv/HD直接到角二阶，完整2×2非负矩阵相乘保非交换次序，Dfrak²不作标量替换。h/y/gd/qv及mean所需量全部原角jets可给；两个Airy分量分别进入A16–18，保b项真实R^(1/2)或R^(1/4)N^(−1/6)费用，不向a项计价。无新radial导数、target/ray/amplitude求解，也无额外Cauchy宽度损。root/tail全文独核，正文SHA `35025593b433132475f5b42065d9bcc01b33a501d5e932741df384eab33fbb3a`。待25pin公开消费者实际支付原逆phase宽(2−E)3/64及完整指数尾/六窗积分。

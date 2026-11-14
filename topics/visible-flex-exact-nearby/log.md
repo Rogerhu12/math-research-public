@@ -303,3 +303,7 @@ root全文读9819B报告、49990B过程及2751Bworker，核全部6case和scope�
 ### 2026-11-14 19:45:02 UTC — 解析Airy全列定理独推
 
 root核完整lag权比、整数四fold不等式、复inverse strip、Volterra符号/47/36常数及central/high组合；tail独核通过。原blob无修订，未作任何本地新数值。
+
+### 2026-11-14 19:45:07 UTC — 直接角矩阵jets独推
+
+root/tail核T三阶角导、Hinv二阶和Dfrak²乘法次序、h/y/gd/qv导数及两Airy分量完整性。原8159B证明未改，继续公开实际消费者。
