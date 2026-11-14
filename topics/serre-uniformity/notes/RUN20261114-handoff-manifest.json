@@ -1,0 +1,101 @@
+{
+  "result": "RUN20261114",
+  "kind": "Current local execution and actual interruption-prefix recovery",
+  "files": [
+    {
+      "file": "scripts/p41_recover_R470_moved_j9_ss47.py",
+      "bytes": 15261,
+      "sha256": "017f987f2ceadec7edbc22dccf0aeb3e9856d8148c167197014167b340ea52fb"
+    },
+    {
+      "file": "scripts/p41_resume_ramified_local47.py",
+      "bytes": 5079,
+      "sha256": "8fd9268fdcb9f344c77a5356040c4e95a344c5bed02e3c059006faed45ec9a3f"
+    },
+    {
+      "file": "scripts/verify_R470_moved_SS_principal_norm47.py",
+      "bytes": 10217,
+      "sha256": "7caacb73a8a4b95f1fd993f9d58c6a1989138b1eb9648fc6c4b42b8ff37fd54a"
+    },
+    {
+      "file": "scripts/verify_R470_moved_SS_F2_clearing_frame47.py",
+      "bytes": 28054,
+      "sha256": "52951dbf50cb96d5234651e67c99f4ede4905f8c92be2bae0b0e3b83aa3fe6f5"
+    },
+    {
+      "file": "notes/R470-recovery-adapter-source-diff.patch",
+      "bytes": 5661,
+      "sha256": "f185562badfcdd2409a4f74d005d77e815620e07834e8f35fc66af4cb4fe21bc"
+    },
+    {
+      "file": "notes/R470-recovery-adapter-sources.json",
+      "bytes": 859,
+      "sha256": "9a55b55db34f2afb07135c8291084fd1fdbb75aa516591fc1f2ecd2b3c91a264"
+    },
+    {
+      "file": "scripts/data/R620-actual-chain-prefix-189.tar.gz",
+      "bytes": 1692756,
+      "sha256": "e4d41c9a073093dc44cc9937e78d6b0213914c44d8392fdad97df2696108b528"
+    },
+    {
+      "file": "scripts/data/R621-actual-chain-prefix-182.tar.gz",
+      "bytes": 1647734,
+      "sha256": "e5c304cde56aa1a017b2ae25200830bd8b424358bf4214c25a202acf0165e84c"
+    }
+  ],
+  "snapshots": [
+    {
+      "result": "R620",
+      "disk_id": "SS_j0_09",
+      "complete_chain": false,
+      "saved_bits": 189,
+      "target_bits": 304,
+      "work_directory": "/workspace/scratch/76d0eb5f3db8/local-long/R620-SS_j0_09-parwzb1b",
+      "original_interruption_bits": 121,
+      "scope": "Actual saved prefix only; no terminal integral, Norm, height or disk exclusion.",
+      "archive": "scripts/data/R620-actual-chain-prefix-189.tar.gz",
+      "archive_sha256": "e4d41c9a073093dc44cc9937e78d6b0213914c44d8392fdad97df2696108b528"
+    },
+    {
+      "result": "R621",
+      "disk_id": "SS_j0_11",
+      "complete_chain": false,
+      "saved_bits": 182,
+      "target_bits": 304,
+      "work_directory": "/workspace/scratch/76d0eb5f3db8/local-long/R621-SS_j0_11-qi65k4lv",
+      "original_interruption_bits": 110,
+      "scope": "Actual saved prefix only; no terminal integral, Norm, height or disk exclusion.",
+      "archive": "scripts/data/R621-actual-chain-prefix-182.tar.gz",
+      "archive_sha256": "e5c304cde56aa1a017b2ae25200830bd8b424358bf4214c25a202acf0165e84c"
+    }
+  ],
+  "public_runner_disabled": true,
+  "new_ci_requests": false,
+  "mathematical_engines_changed": false,
+  "geometry_repeated_for_R470": false,
+  "all_jobs_complete": false,
+  "new_disk_exclusion_claimed": false,
+  "current_runs": [
+    "R620 SS_j0_09 resumed from saved prefix",
+    "R621 SS_j0_11 resumed from saved prefix",
+    "R655 original pair of CM4 chains"
+  ],
+  "prepared_moved_recoveries": {
+    "SS_j9_05": "R666",
+    "SS_j9_06": "R667",
+    "SS_j9_07": "R668",
+    "SS_j9_08": "R669",
+    "SS_j9_09": "R670",
+    "SS_j9_10": "R671",
+    "SS_j9_12": "R672",
+    "SS_j9_13": "R673",
+    "SS_j9_14": "R674",
+    "SS_j9_15": "R675",
+    "SS_j9_16": "R676",
+    "SS_j9_17": "R677",
+    "SS_j9_18": "R678",
+    "SS_j9_20": "R679",
+    "SS_j9_21": "R680",
+    "SS_j9_22": "R681"
+  }
+}

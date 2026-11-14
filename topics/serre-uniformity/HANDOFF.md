@@ -2,22 +2,22 @@
 
 ## 目标、授权和同步
 
-证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，QUEUE 进行中，持续研究，不等阶段回复。** 会话 serre-uniformity-resume3；日志 Asia/Taipei。
+证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，持续研究，不等阶段回复。** 会话 serre-uniformity-resume3；日志 Asia/Taipei。
 
-已读规则提交：65be19eee5cd08491179f296cb6cf10d8787f7f4
-最近实际pull：2026-11-14 14:08:47 Asia/Taipei；上游 65be19eee5cd08491179f296cb6cf10d8787f7f4；与上一规则基线相比两README无差异。
+已读规则提交：89e607745e031fff3c117c3a673101ce168ed283
+最近实际pull：2026-11-14 14:38:09 Asia/Taipei；上游 89e607745e031fff3c117c3a673101ce168ed283；与上一规则基线相比两README无差异。
 
-每次pull比较根/课题README差异并立刻采用，实际pull间隔≤1小时。正常终端commit/push main已授权；每条结论独立推送，非快进立即pull --rebase循环至成功。根规则14：长算走公开math-research-ci的ci-queue；请求只含调用，OUT_DIR结果回推。R617在新规前启动且现已完成。不force、不改写别人提交、不用API/GraphQL写git。令牌仅CLI临时环境。root独占tracked/git，代理写agent-global/、agent-qc/、agent-o6/。根README不改；本题log每条≤5实际内容行，不写根LOG。Markdown<100KB，HANDOFF<10KB，open/README<30KB，文件<5MB，数据>1MB gzip。
+每次pull比较根/课题README差异并立刻采用，实际pull间隔≤1小时。正常终端commit/push main已授权；每条结论独立推送，非快进立即pull --rebase循环至成功。根规则14已于2026-11-14 06:15 UTC停用公开runner；本题计算在当前环境做，不再ci-queue。34个旧请求已撤下，7个未推请求取消，恢复脚本保留。不force、不改写别人提交、不用API/GraphQL写git。令牌仅CLI临时环境。root独占tracked/git，代理写agent-global/、agent-qc/、agent-o6/。根README不改；本题log每条≤5实际内容行，不写根LOG。Markdown<100KB，HANDOFF<10KB，open/README<30KB，文件<5MB，数据>1MB gzip。
 
 旧交接和开放问题已逐字存 notes/2026-11-13-handoff-before-first-canonical-disk.md、notes/2026-11-13-open-before-first-canonical-disk.md；更早恢复依赖见其中链接。不得把归档中明确未完成的量冒充已求。
 
 ## 当前环境与恢复
 
-2026-11-14约11:28 Asia/Taipei旧scratch和functions缓存丢失，已在同路径重新filtered clone；shell明确bash、login:false。当前依赖math-deps已恢复。原209项未推队列及R583汇总须凭真实输入重建，不能当仍在。
+2026-11-14约11:28 Asia/Taipei运行区丢失后已同路径重建仓库和math-deps；shell bash/login:false。旧209项未推队列及R583须按真实输入重建。
 
 R389已由远端保全提交忠实恢复，原9文件SHA匹配；R472/R385早已main。其他恢复稿使用新hash，封存数学不为包装重算。Git自动gc关闭。
 
-环境/旧队列见notes/2026-11-14-runtime-restoration.md；此前完整交接见notes/2026-11-14-handoff-before-primitive-trace-publication.md及notes/2026-11-14-handoff-before-R619-and-CM-basis.md，保留全部更早恢复接口。
+完整前置状态见notes/2026-11-14-handoff-before-R657.md及其归档链接。
 
 ## O5：真实规范高度与整盘排除
 
@@ -27,7 +27,7 @@ R389已由远端保全提交忠实恢复，原9文件SHA匹配；R472/R385早已
 
 非CM SS已发布进度见notes/p41-SS-disk-progress.md：R389补完SS_j9_04的同分量F3；R606/R607/R609排除SS_j0_03/04/05；R610/R611排除SS_j0_06。累计47/105非CM SS盘排除，余58盘。旧R583本地129盘分类（121排除、8唯一CM）及未推证书丢失；忠实重建前不计作已发布定理，逐盘旧数字见前述归档。
 
-R435单位截面、R436 j0_01全Norm/高度、R470余16j9两flip、R552/R554两真CM4接口可直接复用；不为包装重跑封存数学。R612已发布SS_j0_07九阶段真实F2及独审，留y=[47126,45023]；R618已发布同标签单位z的真实F3整盘排除。R617已发布SS_j0_08真实F2无根，整盘排除。公开runner首批R620–R632为j0_09/11–22；第二批R635–R654为R435覆盖的20个j36盘（除02/06）。均恢复缺失原链/F2，必要时原链续F3，产物回ci-runs后逐条登记。R655已提交双CM4原1-bit前缀续链/二类积分；完整高度另接R554（留R656），不套普通分歧公式。请求不计作完成。driver区分私库source与workflow commit。2026-11-14 14:02左右手动dispatch遭GitHub403（PAT无Actions权限）；请求仍在队列，等配置的定时领取，理论及准备工作继续。旧R472–511逐盘编号不足，用新恢复号，不猜原编号。
+R435单位截面、R436 j0_01全Norm/高度、R470余16j9两flip、R552/R554两真CM4接口可直接复用；不为包装重跑封存数学。R612已发布SS_j0_07九阶段真实F2及独审，留y=[47126,45023]；R618已发布同标签单位z的真实F3整盘排除。R617已发布SS_j0_08真实F2无根，整盘排除。本地恢复编号：R620–R632为j0_09/11–22；R635–R654为R435覆盖的20个j36盘（除02/06）；R659–R665为j44_08/16/18–22。各盘恢复缺失原链/F2，必要时同链续F3。R655续双CM4原1-bit前缀/二类积分；完整高度接R554（留R656），不套普通分歧公式。余16个j9接R470两flip，留R666–R681。公开runner未运行这些任务；新规则下全部转本地，未完成不计定理。旧R472–511逐盘编号不足，用新恢复号，不猜原编号。
 
 ## O4：实际整性、变化导子与局部约束
 
@@ -45,7 +45,7 @@ R597已恢复实际图式：原X1/c1与Xd/c0两投影覆盖id/ι；公共九次�
 
 R602实际正号支p/D≥40+(20/3)log(1+logD)时全族L均值>1/(1+logD)，附本原预算得指定A−1,d秩零。R608已把实际族精确化为λ0ν、本原环类角色均值；真实整数迹及严格尾界给p59/d9971指定因子rank=dim=8与log同构，负号全族阈值改进为p≥40D；另有本原对数预算。R614已给新增可见射线的完整正/负核误差与radical充分区域，并以精确大素数证书验证两个分支。R598/R600及任意水平BFH–GZ–Nekovar接口已发布；一般radical、实际QC首项和D上界仍未证，正秩不等于零像。
 
-R593给固定η、真实加权迹及完整μ3范数后的平凡化/唯一截面、统一cclear·ctriv；新增q项0，even的2/3有限Ω与d无关，旧数值Ω/N/M禁止移植。R596给hY(P,η)=ℓh(logP)。R616证明原β=q1[c1−c0]非挠iff L′g+·Lg−非零，明确D-independent区域内A(Q)⊗Q=Fβ；固定Hecke像给原高度矩阵H_h和ρ=uᵀH_hu+2ℓ_h−λ_p∈同一Ω。R634续原矩阵/局部QC；一般p非消失及p单位性未证。
+R593给固定η、真实加权迹及完整μ3范数后的平凡化/唯一截面、统一cclear·ctriv；新增q项0，even的2/3有限Ω与d无关，旧数值Ω/N/M禁止移植。R596给hY(P,η)=ℓh(logP)。R616证明原β=q1[c1−c0]非挠iff L′g+·Lg−非零，明确D-independent区域内A(Q)⊗Q=Fβ；固定Hecke像给原高度矩阵H_h和ρ=uᵀH_hu+2ℓ_h−λ_p∈同一Ω。R634在同一前提下以c1校准和外积消去全部A高度矩阵，保持原因子度量/ρ/Ω；BMS给逐目标逐盘非恒零，AST给V首阶。ℓ/Ω数值、首项赋值和一般p非消失未证，R682续实际首项。
 
 ## O6：忠实单位Norm与实际L
 
@@ -53,7 +53,7 @@ R591已推实际反循环43层与原t/q标记：408bit多项式、完整43基，
 
 O6原始规范及R201–R377全部记录保存在notes/2026-11-14-handoff-after-R591-before-dependency-recovery.md。必须保持：真实Ω₂=ε(10−L)，忠实X生成1892次L+；R311仅构造正确Robert单位/正根，R322只给L的等价公式，规范相位尚未求。纯p值24和一阶10均不能代入原L。Cl(F)[43∞]=0和部分属商/塔abelianization已知，不等于原q分歧L/F的忠实Norm已求。原p43/776bitq已被Gaussian5排除，非曲线反例。
 
-R561已恢复scalar-p²全部Robert产物和真实普通类C，证明L=31−22iC。R613同祖先给C_r=C+34r、C∈iFp及42个混合扩张普通主化。R619证明Cl(LF_t)_χ=k、Norm_T同构/扩张零，并给实际辅助C_t=9；它不等于原C。R633已证kerNΓ=RΓ[T]c_t、完整普通单位presentation及两个Norm像，混合满秩/饱和缺口已闭合。R599续原Norm首矩；原C/J/b/λ/n/L及full LB长度仍未求，ℓ与rμ=−2ℓ不得混用。
+R561已恢复scalar-p²全部Robert产物和真实普通类C，证明L=31−22iC。R613同祖先给C_r=C+34r、C∈iFp及42个混合扩张普通主化。R619证明Cl(LF_t)_χ=k、Norm_T同构/扩张零，并给实际辅助C_t=9；它不等于原C。R633已证kerNΓ=RΓ[T]c_t、完整普通单位presentation和两个Norm像。R657给E_B=O[S,T]u_B、A_B=0及A_LB=RΓ/π^m，1≤m≤43，原s=1+iπ；m=43 iff 原y是普通单位Norm_S。域Norm始终成立，不能代替。实际m及C/J/b/λ/n/L未求；R599续原首矩，ℓ与rμ=−2ℓ不得混用。
 
 旧结果、R305正规整基及全部证明/SHA见results.md与逐条manifest；压缩前状态见notes/2026-11-13-research-state-through-R330.md。
 
@@ -61,8 +61,8 @@ R561已恢复scalar-p²全部Robert产物和真实普通类C，证明L=31−22iC
 
 R389已恢复；旧209项队列及R583/585/590缺失证书继续按真实输入重建。依赖缺失明确留缺，不用摘要冒充文件；固定p41完成也不能结束绝对目标。
 
-完整结论逐条单推，R619/R616/R633已登记。R594已恢复全p形式log分解、Kp=−3/Bp及p269宽范围反例；保全45末项，不重跑旧数学。R615已证完整六挠Kronecker递推、准确固定L常数与全惰性p的Cp整性；一般r2=cCp比较及r2r3/r′非消失转R658继续。
+R594已恢复全p形式log分解、Kp=−3/Bp及p269宽范围反例；45末项保全。R615完整六挠Kronecker递推、固定L常数及Cp整性已证；R658以真实乘法迹/奇偶性消全部O处差并处理p!，严格得r2=cCp。R683续实际r3，非消失仍开放。
 
-范围不可删：269≡8mod9不属R317，c0/c1不同；primitive零点不等于正秩QC零点。R595的Δ末因子勘误有效；R601给K0=K2=0，R605给K1=−B²r2/4及(pM2)²≡5184ζ²B⁵α⁻²r2r3。一般r2=cCp比较仍有O处差，整性/单点吻合均不给非消失。原O6未知量也不以纯p值24或10替代。
+范围不可删：269≡8mod9不属R317，c0/c1不同；primitive零点不等于正秩QC零点。R595的Δ末因子勘误有效；R601给K0=K2=0，R605给K1=−B²r2/4及(pM2)²≡5184ζ²B⁵α⁻²r2r3。R658给v(M2)=−1 iff Cp·r3≠0；整性和短计算不给全p非消失。原O6未知量也不以纯p值24或10替代。
 
-root持续恢复O5并推进全局排除；global继续R634固定β的真实CM高度，QC继续R658真实Cartier比较及r2/r3/r′结构，O6已完成R619/R633并继续R599原Norm首矩。推送成功凭远端main及root-recovery/published-R*.json。达到绝对主目标之前不以阶段报告停止。
+本地R620/R621从121/110位ENOSPC前缀续算，R655续双CM4；输出root-recovery/R*-local-output，链local-long/。真实前缀/新R470接口见notes/RUN20261114-handoff-manifest.json，R666–R681尚未算完。root:O5/git；global:R682首项；QC:R683/r3；O6:R599。主目标完成前持续研究。

@@ -30,7 +30,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 **已排范围与未付部分。** R235/R237/R255已排连续/a.e.+双边UI、保函数非负锥、Walsh对角/有限带/entrywise-ℓ1、合格乘积基块正态及E_√3范围；一般正常正有限秩仍开。R228的C平均可保同泛函而增秩，R229不许一般秩一纯化。真实右矩仍须ε_m||G_m||→0且φρ(T_mG_m)/h_m不消失，普通L²逼近不付此预算。完整原稿链接及端点保本次归档。
 
-**正常源与物理度量。** R230/R244保最小秩双参数和真实保锚源发散/归一弱零，hp/vp不换；真实密度头矩保τ、||v_p||≤10^(p/2)τ，真核δ_p无速率。R236实际MP/联合高幂保同ζ/ρ、原头carry、q1全row像及高q指定目标；MP上界失败不当费用下界。真实双侧正合同不能免费跨次数，全部式与旧入口保[本次全文](notes/2026-11-13-handoff-open-before-interior-node-publication-2220.md)。
+**正常源与物理度量。** R230/R244同ρ保锚源、hp/vp区分及无速率δ，R236同ζ/ρ高幂MP与原carry预算全部保[完整接口](notes/2026-11-14-open-before-serre-ci-789f.md)；双侧正合同不能免费跨次数，MP上界失败不作费用下界。
 
 **既有首列/正常尾接口。** 全树完整good列WOT0、原坏列与指数修复下界、固定尾normal/cb距离发散、单位逆及各层原上型/聚合量词均保[完整快照](notes/2026-11-14-open-before-serre-ci-789f.md)。精确支持、预算内修复、固定原理想廉价全层及统一正常锚仍未付，不把变化起点族当固定理想或用移动右测因式化。
 
@@ -104,29 +104,15 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；相邻矩阵序和高端其他出生仍开。证明细节/148例核对见正文，不能由消元前标量序跳到同源矩阵序。
 
+[R281 极强位全高度传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)把旧第n+1边回传至新第n边，保完整同源PSD块与有限强权阈值。全出生首边与全高度的最优普适常数相同；等权中央边迫该常数≥1，真实八位birth2首比22801/43836>1/2。一般上界1仍开；不能用强等权池压δ而省掉内部出生，真实密度只趋1/2上方。
+
+[R283 精确配对填充](results/R283-exact-singlet-padding-and-half-density-universality.md)以同时被D,D*消去的真实反对称对，令全部旧Γ成为新共同约化块，最高合法高度不变。对任意ε,δ0>0，全部有限问题均可精确嵌入δ<δ0且1/2<sδ<1/2+ε；因此该薄带的最优普适首边常数已与一般问题相同。未进入R279已付低占据区，不能省掉新增出生。
+
+[R279 全高度仿射 MP 比较](results/R279-bosonic-affine-primitive-gram-transfer-and-low-occupation-bounds.md)给 X_n≥I+(n/r)(X_r−I)，全有限合法范围/无限正 ℓ² 行均成立。全部低占据相邻常数改善，首边 sδ≤1/(2√2) 已得 c1；原慢尾范围 s≤(m+1)/(6√2)，未覆盖一般巨出生。真硬核 Γ2=2I+4L*L+M*M 的联合 M 能量仍缺平方下界；[共同 annihilator 反例](notes/2026-11-14-common-annihilator-affine-sharpness-789f-next.md)说明仅 Euler/全坐标不变性不足，反例不是 Boolean。
+
 [R275 一位全高MP/三次创新](results/R275-one-bit-full-primitive-schur-recursion-and-innovation.md)保任意旧正权、同源/顶硬端；旧两birth有c1则两对角继承。余完整创新正块(5.2)须由同一B与旧G/L支付。[联合占据附录](results/R275-appendix-joint-occupation-blocks-and-first-edge-necessary-bound.md)已付全高四项H、W/SI−W跨birth正块，并付a²≥Σb²/4时首边上左必要块；全首边交叉/一般高度仍开。[首边SOS](results/R275-appendix-first-edge-three-block-equivalence-and-parameter-free-sos.md)付真实3块等价，S1/S2加旧低birth第二边足全部新权，但两候选一般正性未证。任意birth1首/末边已由R271闭；高birth/graph仍开。 [R278 Serre积分](results/R278-boolean-serre-finite-top-integration-and-weighted-birth-traces.md)给全部真实跨birth桥的精确首边身份及加权迹消去；尚缺同一G1度量的正运输/Gram，不能删负桥项。
 
-[两物理头/真实两下降度量](results/R239-appendix-two-physical-heads-and-true-two-descent-metrics.md)只用Ae1=e0，保g=c+bA2=(A²)0,rest，左负Schur与完整/裸右分别准确化为D²真MP原像及全部kerD²自由项。右首源−x1−bx2保符号；裸j≥2为(D^j)†D^(j−2)g h，投影损失恰高返回。三实际费各与参照图在同一1+||D||²+||b||²≤38内Loewner比较，不除tiny头枢轴；非交换flat与实际负图不能据此免费替换。
-
-[同未来带付两头负图/连续两下降Schur](results/R239-appendix-paid-two-head-negative-graph-and-coupled-two-descent-schur.md)由λ≤c_Xα直接付真实缺陷sqrt(c_X²−1)||y||，不假X约化。首两头仅损ν≤1/m，完整正resolvent保全部窗/同w/归一累计费。真L+B两头Schur及所有flat交叉保持，原g=c+bA2准确接裸首源−x1−by=−g h_q；两下降自由量未删，余费继续。
-
-[全尾近共同前缀/增长多头负图](results/R239-appendix-near-common-full-tail-prefix-and-growing-negative-head-graph.md)以原V=1⊕V+和真幂首头观察免去基准项逆条件数，D0项与正次D项物理正交。故λ²≤(1+φ²)α²、φ=ν||V+||sqrtγ；可让K→∞且φ→0，保全部原尾阶。下一条逐列预算进一步锐化；两者均只给真实负图，非坐标截断。
-
-[逐列原头预算/立方根对数负前缀](results/R239-appendix-columnwise-head-budget-and-cubic-log-negative-prefix.md)对任意整数K保原相容V_m，完整链卷积付Ψ=Σ_(j<K)||V_m e_j||ν^j及λ²≤(1+Ψ²)α²，没有段数损失。Ve1=e1、j≥2列费≤e^(3536j4)，取K=max(2,1+floor((logm/7072)^(1/3)))即Ψ≤2/[m(1−m^-½)]。同未来带付整个原前K头L+B负图，保全部窗/原w/归一累计两费；全尾阶及反馈保持，非坐标截断。
-
-[原低头反馈/统一左核图/指定余算子](results/R239-appendix-actual-low-head-feedback-and-uniform-left-kernel-graph.md)原观察O_K=V_K^-1给x_p=e0u_p+ΣVe_j(−D)^j u_(p+j)−R_K h_p及D^K u_(p+K)=(-1)^K g_K h_p，保全部尾旗。整孔层导数费≤Ψ||u||，低头零源核恰近等距图、投影距≤Ψ/sqrt(1+Ψ²)。实际v→w族虽h,u→0，却R_K I h→−w；不免费删反馈。真L+B负图上的F_K和M_eff明确，实际||F_Ky||²≤C_m< M_eff y,y>且C_m d/窗数=O(1)足闭此路，该界未付。
-
-[完整接合核/首头正Gram及同裸Schur](results/R239-appendix-first-physical-head-quotient-gram-for-left-plus-bare.md)未来高出生取原共同不变商，全部同源(v,−a)恰T f=ΣVe_j(−δ)^j f，Γ=I+S*S、||S||≤Ψ_d对q一致。真源Bf给(L+B)^−1=BΓ^−1B*；负前K条件是Γf⊥B^−1X_K，保所有左孔及以后W_j。三角分孔直接得µ≤Ψ_d α，右Schur=Γ_R+B_R*LB_R；同一裸首头补全得λ²≤(1+Ψ_d²)α²。完整G同时表示，flat保GLr次序；全Ψ_d仍e^{O(d4)}，带状正Gram局部化未付。
-
-[原Boolean两带/首头商边界及Γ收缩](results/R239-appendix-boolean-two-band-quotient-commutator-boundaries-and-gram-contraction.md)原ad_D³D*=0给DW_h⊂W_(h−1)⊕W_(h−2)，首头域恰birth×height矩形。先全孔高出生商再限h≤d，ad_δ³δ*=B_birth+H_top；birth项范数≤12ν²||C||²、像在真零源C0，原Γ正规配对精确消去；top项≤5ν²||E||²、只读最高两height，仍保留。ℬδ=−Aℬ，Γ的birth带宽≤floor((d−1)/2)，δ*Γδ≤ν²Γ并降真Schur商，A*(L+B)A≤ν²(L+B)。原低侧逆传播费仍开。
-
-[真实头固定带与固定行四次费用](results/R239-appendix-fixed-head-bands-radius-collapse-and-quartic-low-row-cost.md)：固定带按本列对角归一仅多项式；两慢符号稳定级数半径零，真实V_(1,D−1)/V_(D−1,D−1)的log首项35D⁴/6。统一exp(O(DlogD))目标已排，继续原Γ Schur/D2桥。
-
-[原D2三次权MP桥/最高层正锚](results/R239-appendix-boolean-cubic-mp-bridge-top-layer-anchor-and-polynomial-top-cost.md)：D2*J_(t−2,a+1)=−t(t−1)J_(t,a)C_a，C=Σb_i³E_i；同高H正序保非交换次序。真实Θ顶锚趋零，顶部D2*以固定低carry付成d多项式；出生0的D1*另以Newton付清。一般正birth D1*顶边及原Γ合并仍开。
-
-[全尾低物理头/全深度宽源带](results/R239-appendix-full-tail-low-head-source-strip-and-bare-to-complete-right-bound.md)只限前K源头而保原d全部尾阶，真正裸幂投影与一次小头κ_K付λ≤κ_KsqrtΣν^(2i)α。Γ恰全深度宽K带，真M投影保负图；K≈d^(3/4)/4时可保至少半窗同w，C_Kd/窗数指数趋零。未归一累计费不声称必趋零，余图不是坐标零。
-
-[增长模型核幂/原同源可付图](results/R239-appendix-growing-model-kernel-powers-and-actual-paid-source-graph.md)对天然四块模型的全部kerT^K源，仅付Jordan每串底K层条件数。Jh+J3显式三串逐总度det−1，底K条件数≤18(K+2)^4；原低头Vn前缀真一致，保3≤ell≤n。由同p完整/裸运输及原flat配对，X={r:T^K B_TΓr=0}有µ²≤4Cχ²；K=H−2,H≈d^(3/4)/4给C≤e^(d³/16)。X同时包含旧全模型核旗与全深度低头带，无夹角；多数原窗同w/原累计预算保持，余图仍为真M正交。
+**其余已付的原头、完整图和共同费用接口。** 两物理头/两下降真 MP、同未来负图、全尾近共同前缀、逐列立方根对数头预算、统一左核图/低头反馈、完整接合正 Gram、Boolean 两带/Γ 收缩、固定低行四次费用、D2 三次权顶锚、全深度宽源带及增长模型核幂的准确公式、常数和每条原稿链接，保 [压缩前全文](notes/2026-11-14-open-before-R279-789f.md)。它们均保同一未来/同源/真正负图及原累计费，仍不支付固定测试局部 Gram O(Keff)、ordinary 右费、pure 深段与高 birth D1*/Γ 合并；不能把裸/完整 Schur 或坐标截断互换。
 
 ## 当前接口三：一般系数行、多个模式与中央域
 
@@ -144,7 +130,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** [泛参数全分类/有限Σ](results/R150-appendix-rank-one-mean-generic-complete-critical-classification-and-finite-exception-set.md)给M5泛秩4354、Σ={gΔ=0}外恰H=h y²,V=(6h−1)y³/4，Δ为全部4354子式gcd。[逐点秩控制](results/R150-appendix-rank-one-noncontact-centered-rank-controls-macaulay-projection.md)及完整数域重建器付rankP≤124+2rankAy。[P+](results/R150-appendix-rank-one-Pplus-means-complete-critical-classification.md)、[P−](results/R150-appendix-rank-one-Pminus-means-complete-critical-classification.md)、[E8](results/R150-appendix-rank-one-E8-means-complete-critical-classification.md)分别以固定D原大秩4352/不可约子式提升，全部十四共轭仅纯mean/T3=0。加四接触点的切向型，原Ay所有rank8参数已全17式闭，任意振幅/任意H,V秩均保。当前有限余集只可能g≠0且rankAy9，Δ尚未显式求尽或清空。已提交[参数域原理想证书CI](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)：特征0九个准确横向平方的原生成元lift及分母，另有限域作发现；尚无运行结论。其他mean秩的高ess仍另开。
+**高本质rank1原中心17式。** [泛参数全分类/有限Σ](results/R150-appendix-rank-one-mean-generic-complete-critical-classification-and-finite-exception-set.md)给M5泛秩4354、Σ={gΔ=0}外恰H=h y²,V=(6h−1)y³/4，Δ为全部4354子式gcd。[逐点秩控制](results/R150-appendix-rank-one-noncontact-centered-rank-controls-macaulay-projection.md)及完整数域重建器付rankP≤124+2rankAy。[P+](results/R150-appendix-rank-one-Pplus-means-complete-critical-classification.md)、[P−](results/R150-appendix-rank-one-Pminus-means-complete-critical-classification.md)、[E8](results/R150-appendix-rank-one-E8-means-complete-critical-classification.md)分别以固定D原大秩4352/不可约子式提升，全部十四共轭仅纯mean/T3=0。加四接触点的切向型，原Ay所有rank8参数已全17式闭，任意振幅/任意H,V秩均保。当前有限余集只可能g≠0且rankAy9，Δ尚未显式求尽或清空。[参数域原理想证书计算](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)已按新规由CI改当前环境：特征0九个准确横向平方的原生成元lift及分母，另有限域作发现；尚无运行结论。其他mean秩的高ess仍另开。
 
 **Cat1旧链。** 共3–5/重数/∞旧证书全保快照；rank1/ess3为空，不外推高本质。
 
@@ -160,6 +146,6 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 ## 其他仍开放的路线与不可互换的极限
 
-一般L²循环性、非标准主理想分类、完整A′核、外部紧交织继续。R12紧夹积/自伴链障碍及R14指定硬谱截断非紧与faithful弱极限已付；它们不排所有外部方法。family293仅超不变/有限因子投影范围，不是普通ISP答案。
+[R280](results/R280-odometer-weighted-factor-and-closed-sublattice-exclusion.md)已排任意可测复权的全部真加权因子不变空间，因而排闭逐点子格及相位共轭保正投影；每个非零轨道仅已证闭子格生成H。一般L²线性循环性、非标准主理想分类、完整A′核、外部紧交织继续。R12紧夹积/自伴链障碍及R14指定硬谱截断非紧与faithful弱极限已付；它们不排所有外部方法。family293仅超不变/有限因子投影范围，不是普通ISP答案。
 
 同一物理源、原核旗、自然域和正常预算按已付范围使用；环境/有限模型不替实际来源，全部旧限制保本次全文。继续上述未闭接口，完成标准不变。

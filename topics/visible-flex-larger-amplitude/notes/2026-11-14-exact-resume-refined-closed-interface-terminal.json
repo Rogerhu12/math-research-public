@@ -1,0 +1,25 @@
+{
+  "schema": "refined-closed-interface-terminal-v1",
+  "finished": true,
+  "closed_render_executed": false,
+  "plan": {
+    "actual_exit_code": 0,
+    "tool_session_id": 47395
+  },
+  "background": {
+    "actual_exit_code": 0,
+    "tool_session_id": 62813,
+    "seconds": 12.202519984
+  },
+  "interface_check": {
+    "actual_exit_code": 0,
+    "tool_session_id": 90129,
+    "seconds": 37.670234979999805
+  },
+  "artifacts": {
+    "2026-11-14-exact-resume-refined-closed-interface-background.json.gz": "751a890ea8511173e285da2476d88640f8ac9a245c47c228258d1e7766eae1dc",
+    "2026-11-14-exact-resume-refined-closed-interface-check.json": "13f00429b35224db1affa48214292526627bc8b597f7062a6fbd94535182c828",
+    "2026-11-14-exact-resume-refined-closed-interface-plan.json": "7cb4acce133381d9212f614d3f9e6cbbad0eca51a3000ae3a4a88b21483f99cf"
+  },
+  "scope": "Completed finite interface comparison. Long complete mean, closed meshes and all-phase spatial samples are prepared for CI, not reported as completed."
+}

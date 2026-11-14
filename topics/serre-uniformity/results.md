@@ -570,3 +570,9 @@
 - **R633**：[anti-pq层的完整普通单位格](results/R633-complete-ordinary-unit-lattice-in-the-anti-pq-layer.md)。实际c_q∉πkerNΓ和整Nakayama给kerNΓ=RΓ[T]c_t；完整单位格、唯一真实Robert关系、两个Norm像及H¹/H²模均明确。无需混合角色非消失前提；原C/J/b/L仍开放。
 
 - **R615**：[完整六挠Kronecker迹、准确L常数及Cp整性](results/R615-full-six-torsion-Kronecker-traces-and-integral-Cp.md)。保留完整1/σ，在三维有理代数内给全部递推、固定角色的准确阶乘/周期归一化，并证明所有惰性p的Cp整性。k5/11/41短算实际完成；一般r2=cCp及非消失仍未证。
+
+- **R634**：[同一CM点校准消去真实高度矩阵](results/R634-CM-calibration-eliminates-actual-height-matrix.md)。在R616真实本原非消失前提下，以c1和加权迹外积消去全部A高度；保留原因子度量及Ω，BMS给逐目标逐盘非恒零。给c1前两阶和V的真实首阶；未求首项赋值、ℓ/Ω数值或统一排除。
+
+- **R658**：[真实Cartier迹消差与Cp通道](results/R658-Cartier-trace-comparison-and-actual-Cp-channel.md)。保留completed-zeta平移相位，乘法迹和奇偶性消掉全部O处差；端项先整除p!。证明实际r2=cCp及v(M2)=−1 iff Cp·r3≠0，保留全p非消失缺口；附p47定向精确值。
+
+- **R657**：[完整普通类模与原y的精确单位Norm判据](results/R657-full-ordinary-class-module-and-exact-scalar-norm-criterion.md)。证明E_B=O[S,T]u_B、A_B=0及A_LB=RΓ/π^m（1≤m≤43），原标记s=1+iπ。端点m=43恰等价于原y是普通单位Norm_S；Hasse域Norm始终成立，不能代替该判据。m/J/C/b/λ/n/L仍未求。

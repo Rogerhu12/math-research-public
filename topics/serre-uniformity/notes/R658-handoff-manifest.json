@@ -1,0 +1,41 @@
+{
+  "result": "R658",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New full Cartier comparison on the actual R605 channel, using restored and published R594/R615.",
+  "source_proof_sha256": "490432f19b41ebe1d2b74fd1cb84d48de8c0eccfee9ce49729b1aff35cf837ad",
+  "root_review": "Read the complete new proof and the primary Bannai–Kobayashi–Tsuji Proposition 2.20. Checked completed-zeta translation factors, differential trace normalization, Cartier semilinearity and projection formula, sole-origin pole/constant elimination using N=4p-1, coefficientwise terminal p! cancellation, and the R594 integral parameter range. The combined regular theta series justifies the truncated exponential extraction; no isolated polar term is discarded. Saved p47 outputs support normalization only and were not rerun. Neither all-p nonvanishing nor a global modular quotient identification is claimed.",
+  "files": [
+    {
+      "file": "results/R658-Cartier-trace-comparison-and-actual-Cp-channel.md",
+      "bytes": 19733,
+      "sha256": "490432f19b41ebe1d2b74fd1cb84d48de8c0eccfee9ce49729b1aff35cf837ad"
+    },
+    {
+      "file": "scripts/data/R658_full_kronecker_k47_probe.json",
+      "bytes": 6990,
+      "sha256": "e9d47b016bd8f0daa61dde292ad9c2e82e098fba8cf813e1aba5fe708bc7997c"
+    },
+    {
+      "file": "scripts/data/R658_r2_prime47_probe.json",
+      "bytes": 1364,
+      "sha256": "c40799212377c1b6092e19e873f6c08672482b2f7633b6ef6aefe60d8a50a232"
+    },
+    {
+      "file": "scripts/data/R658_r2_Cp47_comparison.json",
+      "bytes": 126,
+      "sha256": "9f14f307ed4e706bf28e99411c2f3d373708bf9356bf79da41aed0392e071da2"
+    },
+    {
+      "file": "notes/R658-agent-Cartier-manifest.json",
+      "bytes": 6772,
+      "sha256": "ad56d1f4fc709b50444833816e237dbcfe0ececed1294080150b627d91219b12"
+    }
+  ],
+  "actual_r2_equals_cCp": true,
+  "origin_only_defect_eliminated": true,
+  "terminal_p_factorial_cancellation_in_integral_rational_ring": true,
+  "all_p_Cp_or_r3_nonzero_proved": false,
+  "global_QC_exclusion_proved": false,
+  "long_computation_started": false,
+  "sealed_mathematics_repeated_for_packaging": false
+}

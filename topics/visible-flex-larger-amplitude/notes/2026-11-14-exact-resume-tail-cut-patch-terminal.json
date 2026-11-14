@@ -1,0 +1,17 @@
+{
+  "schema": "actual-tail-cut-patch-terminal-record-v1",
+  "status": "completed",
+  "actual_exit_code": 0,
+  "tool_session_id": 88026,
+  "reported_wall_seconds": 14.291908622999472,
+  "run_source_sha256": "1e3f5715f50c380317df31e1085ea88587b485c030a8cfd472c00f2f26726a18",
+  "metric_helper_sha256": "b59ccf0bf68582189581efd7adecaa9a92a23f2dfdf1013a7abd3406f430296b",
+  "result_file": "2026-11-14-exact-resume-tail-cut-patch-r2.json",
+  "result_sha256": "3b4108b8aa7cd4d0c40dfc09d2ed4078b70c482137d55001a68ab872c6f4f5b0",
+  "preceding_attempt": {
+    "actual_exit_code": 1,
+    "tool_session_id": 93618,
+    "reason": "Base metric report predated horizontal_rr option; failed before patch evaluation with KeyError. New patch source now accepts only the known single-method base source SHA as nonuniform-difference."
+  },
+  "sidecars": "2305-node readout remains reproducible scratch/CI data; complete/background hashes are recorded in result."
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run independent exact critical-source searches on a four-core runner.
+"""Run independent exact critical-source searches with bounded local workers.
 
 Outputs are finite diagnostic matrices, not an infinite-prime claim.  The
 original small completed rectangle can be skipped without altering a case.
@@ -21,7 +21,9 @@ def main():
     parser.add_argument("--skip-D", type=int, default=8)
     parser.add_argument("--skip-J", type=int, default=3)
     parser.add_argument("--stop-after", type=int, default=3)
+    parser.add_argument("--workers", type=int, default=2)
     args = parser.parse_args()
+    assert args.workers >= 1
     args.out.mkdir(parents=True, exist_ok=True)
     src = Path(__file__).with_name("search-rank2-critical-source-defect.cpp")
     summary = []
@@ -43,7 +45,7 @@ def main():
             print(json.dumps(result), flush=True)
             return result
 
-        with ThreadPoolExecutor(max_workers=4) as pool:
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
             futures = [pool.submit(job, D) for D in range(2, args.max_D + 1)]
             for future in as_completed(futures):
                 summary.append(future.result())

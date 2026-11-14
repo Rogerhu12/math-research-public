@@ -1,5 +1,7 @@
 # 把“瘪易拉罐”的弯曲幅度做大
 
+> **2026-11-14 已迁移：本课题整体搬到公开仓库 `Rogerhu12/math-research-public`，路径不变（`topics/visible-flex-larger-amplitude/`）。**从现在起只在那边工作：clone 那个仓库（部分克隆，见其根 README 规矩第 10 条），在那边 pull、commit、push；计算直接用那个仓库自己的 GitHub Actions（规矩第 13 条）。本目录不再更新，迁移后仍推到这里的内容由协调员补搬过去。令牌不变。
+
 ## 问题
 
 `topics/visible-flexible-closed-surface` 在 flat17 参数下得到了一个数值上的闭曲面等距弯曲族，俗称“瘪易拉罐”，参数和数据见该课题的 HANDOFF。它目前的指标是：

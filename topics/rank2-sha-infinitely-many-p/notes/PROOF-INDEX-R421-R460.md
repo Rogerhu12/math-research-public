@@ -2,7 +2,21 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
-- [R426：原degree18唯一CM7线、二挠作用与负权单位](../results/R426-original-degree18-cm7-eigenlines-and-moving-inverse-fourth-branch.md)：完整七点特征零迹及固定整型块付唯一F/G线，真实半周期矩阵det−1；原ordinary锚付共同−λ core和实际移动负四型单位。辅助算术身份与固定逆二次矩未预付，U72谱另待完整证书。
+- [R436：原U72完整CM7四谱与准确质量](../results/R436-original-u72-complete-cm7-spectrum-and-exact-masses.md)：特征零全四幂及十三系数证书付四个真实投影，原b=17质量依次为∓1/(12096b)；完整ordinary核心、principal单位及各尺度log质量均保，辅助谱不认作原T倍数或新rank2曲线。
+
+- [R434：原角高轴固定坐标与carry单位Schur运输](../results/R434-original-angular-high-coordinates-and-carry-unit-schur-transport.md)：原Miller系数反向递推给实际u/v及其三位精度，完整t换参高尾保全中央Hensel；真方阵仅乘显示整单位，掉秩线上η不添额外高尾。实际行列式只含固定A0/A1及a、二次角色，未断跨p非零。
+
+- [R433：同一degree52小核的两深非零中央域](../results/R433-original-degree52-two-depth-nonzero-central-domains.md)：实际交替F/G输入中T²项只留G质量一与F移动负矩，完整Theta聚合保证任意深的真实W中央非零；域为Y深/Xunit，保原二次权、全部隐藏条件和与Yunit条件中央的区别。
+
+- [R432：原平衡两深非零与三条真实Hadamard管](../results/R432-original-balanced-two-depth-source-and-three-actual-hadamard-tubes.md)：完整聚合与K16四阶把原S非零域送入同一K的Σ表示，R双深时Y边际恰−2/3且W深/YX单位；B、C的真实管、变换输出和补支逐一保留，原条件中央零尚未传播到隐藏限制。
+
+- [R435：原degree16平方核心与真实双轴深度转移](../results/R435-original-degree16-square-core-and-exact-two-axis-depth-transfer.md)：完整Heisenberg中心及真实sigma4锚给K16²=½ΣE2−I与四阶；原R对角二挠不变支付偶深双轴交换，四倍深缩放等于真实隐藏限制，inverse尺度只在真深域上使用。
+
+- [R431：原小核完整degree52核心与固定十三模ray](../results/R431-original-degree52-full-core-and-fixed-thirteen-ray.md)：全52维含中心lift及真实sigma锚给绝对二挠核；同一K的六方向核心与全部正交深限制已付，W深拉回保完整连续测试及补域，不从原中央零推出隐藏域零。
+
+- [R430：原第二输出整反卷积与degree18完整混合行](../results/R430-original-integral-second-output-division-and-degree18-mixed-rows.md)：实际E20的Amice单位逆付完整测试转置，K=−2/3(S⊗G−C⊗F)保原条件中央和全部三零边际；可保第二轴独立隐藏因子，不能移第一轴内部条件。原Y/X核心与两混合矩族直接付，新W核心须按degree52另算。
+
+- [R426：原degree18唯一CM7线、二挠作用与负权单位](../results/R426-original-degree18-cm7-eigenlines-and-moving-inverse-fourth-branch.md)：完整七点特征零迹及固定整型块付唯一F/G线，真实半周期矩阵det−1；原ordinary锚付共同−λ core和实际移动负四型单位。辅助算术身份与固定逆二次矩未预付，U72完整谱及全部质量另见R436。
 
 - [R429：原两深度网格与倒sigma的严格非零](../results/R429-original-two-depth-grid-and-reciprocal-sigma-nonvanishing.md)：倒sigma每阶交替严格非零使真实Theta总聚合为准确K次多项式，有限选择m后只需两个深度仍有任意深原非零域。可将三项组成固定L/J12；非零不当单位，对角n=r及隐藏域运输仍另付。
 

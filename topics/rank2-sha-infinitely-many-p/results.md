@@ -4,7 +4,21 @@
 
 ## 新增结论
 
-- [R426：原degree18唯一CM7线、二挠作用与负权单位](results/R426-original-degree18-cm7-eigenlines-and-moving-inverse-fourth-branch.md)：F18/G18真实特征分别ωγ、ω²γ，完整型块唯一；二挠二维矩阵det−1，原ray真core都为−λ。G的principal质量1+λ单位，F的移动负矩I_(−(p−5))单位，固定I_(−2)及原中央仍未预付；U72待CI的四谱不计入本条。
+- [R436：原U72完整CM7四谱与准确质量](results/R436-original-u72-complete-cm7-spectrum-and-exact-masses.md)：特征零全四幂及十三系数证书付四个真实投影，原b=17质量依次为∓1/(12096b)；完整ordinary核心、principal单位及各尺度log质量均保，辅助谱不认作原T倍数或新rank2曲线。
+
+- [R434：原角高轴固定坐标与carry单位Schur运输](results/R434-original-angular-high-coordinates-and-carry-unit-schur-transport.md)：原Miller系数反向递推给实际u/v及其三位精度，完整t换参高尾保全中央Hensel；真方阵仅乘显示整单位，掉秩线上η不添额外高尾。实际行列式只含固定A0/A1及a、二次角色，未断跨p非零。
+
+- [R433：同一degree52小核的两深非零中央域](results/R433-original-degree52-two-depth-nonzero-central-domains.md)：实际交替F/G输入中T²项只留G质量一与F移动负矩，完整Theta聚合保证任意深的真实W中央非零；域为Y深/Xunit，保原二次权、全部隐藏条件和与Yunit条件中央的区别。
+
+- [R432：原平衡两深非零与三条真实Hadamard管](results/R432-original-balanced-two-depth-source-and-three-actual-hadamard-tubes.md)：完整聚合与K16四阶把原S非零域送入同一K的Σ表示，R双深时Y边际恰−2/3且W深/YX单位；B、C的真实管、变换输出和补支逐一保留，原条件中央零尚未传播到隐藏限制。
+
+- [R435：原degree16平方核心与真实双轴深度转移](results/R435-original-degree16-square-core-and-exact-two-axis-depth-transfer.md)：完整Heisenberg中心及真实sigma4锚给K16²=½ΣE2−I与四阶；原R对角二挠不变支付偶深双轴交换，四倍深缩放等于真实隐藏限制，inverse尺度只在真深域上使用。
+
+- [R431：原小核完整degree52核心与固定十三模ray](results/R431-original-degree52-full-core-and-fixed-thirteen-ray.md)：全52维含中心lift及真实sigma锚给绝对二挠核；同一K的六方向核心与全部正交深限制已付，W深拉回保完整连续测试及补域，不从原中央零推出隐藏域零。
+
+- [R430：原第二输出整反卷积与degree18完整混合行](results/R430-original-integral-second-output-division-and-degree18-mixed-rows.md)：沿X的质量一因子有整有界卷积逆，实际小核K∈S34⊗S18保三零边际和任意X测试中央；亦可合法保E20全部独立隐藏输入。真实Y/X core、两混合矩族和52/7956正交坐标已付，旧混合core不与反卷积免费交换。
+
+- [R426：原degree18唯一CM7线、二挠作用与负权单位](results/R426-original-degree18-cm7-eigenlines-and-moving-inverse-fourth-branch.md)：F18/G18真实特征分别ωγ、ω²γ，完整型块唯一；二挠二维矩阵det−1，原ray真core都为−λ。G的principal质量1+λ单位，F的移动负矩I_(−(p−5))单位，固定I_(−2)及原中央仍未预付；U72完整四谱和各自非零质量另见R436。
 
 - [R429：原两深度网格与倒sigma的严格非零](results/R429-original-two-depth-grid-and-reciprocal-sigma-nonvanishing.md)：原五sigma和全部Theta对各共一个深度；倒sigma的严格符号使真实聚合P_K(a)次数恰K，从K+1个展开次数选出非零系数。任意深两网格及任一指定相对深度区域都有原非零中央域，可选三倍展开接同一L/J12；不预付系数单位或完整中央零传播。
 

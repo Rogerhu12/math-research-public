@@ -1,0 +1,30 @@
+{
+  "result": "R657",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New full ordinary class-module theorem reconstructed without the missing R570/R573/R577 texts.",
+  "source_proof_sha256": "58bfe32682b05ea8a22b9b284f1e811eb442e7e191dc9278fc23c40887fc810a",
+  "root_review": "Read the full proof and its actual R561/R613/R619 marking dependencies, including w_minus(gamma)=-i and positive Frobenius 32. Checked the regular unit-lattice socle argument, full ordinary divisor cohomology, the distinction between field and ordinary-unit norms, coprime Delta-fixed lifts, tame commutation, cyclotomic order-p expansion, and class norm surjectivity for the genuinely ramified S extension. The endpoint m=43 is an equivalence, not a computed value. No original scalar or first moment is assigned and no sealed arithmetic was rerun.",
+  "files": [
+    {
+      "file": "results/R657-full-ordinary-class-module-and-exact-scalar-norm-criterion.md",
+      "bytes": 19198,
+      "sha256": "58bfe32682b05ea8a22b9b284f1e811eb442e7e191dc9278fc23c40887fc810a"
+    },
+    {
+      "file": "notes/R657-agent-ordinary-class-manifest.json",
+      "bytes": 809,
+      "sha256": "b32eb4a037a6e3ed7952dfad5d849b8d72adf6d1632801c8fb46ff1264a533d5"
+    },
+    {
+      "file": "notes/2026-11-14-handoff-before-R657.md",
+      "bytes": 9799,
+      "sha256": "bdbf4e0ebd97e89fb527da176db565f6bbad286bb1f9408d08e941a930ea9113"
+    }
+  ],
+  "full_ordinary_class_length_upper_bound": 43,
+  "actual_class_length_computed": false,
+  "original_y_unit_norm_decided": false,
+  "Hasse_field_norm_not_substituted_for_unit_norm": true,
+  "original_J_or_C_computed": false,
+  "mathematics_repeated_for_packaging": false
+}

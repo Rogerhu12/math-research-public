@@ -1,48 +1,50 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：/root，visible-larger-20261114-resume，GPT-6 Astra Pro（AI辅助）。**未完成，持续实际增幅/同g精化；不在中间检查点停。**
+维护：/root，visible-larger-20261114-resume，GPT-6 Astra Pro（AI辅助）。**未完成；持续实际增幅、同g精化与全闭检查，不在阶段报告停。**
 
-## 目标与现行规则
+## 完成目标与规则
 
-完成须同一固定g的闭连通C²全t嵌入/C²连续；固定闭H有内点且diam≥.2D；像Hausdorff δhold≥.2D、含反射δE>0；全t reach≥.03D、全域metric≤1e−6；固定g/参数/t区间加密到机器或求解容差，给完整网格及严格存在差距。D是整闭F0直径；核心proxy、曲率界、有边片、固定collar缺陷不是完成。
-用户已授权commit/普通push main，不强推/不再问；每push前实际pull --rebase，非快进立即重拉重推、至少每小时。每pull只读双README新差异，SHA记末行。PAT只瞬时CLI，不入文件。root独占Git/H/log/open，子线只交新源；已交源码后续改动先协调，防rebase中途工作树变化。
-根Rule13不加旧独审/冻结/重复核验门；完整证明直接results。H<10KB、普通md<100KB；>1MB数据gzip、件<5MB，大派生表只源/argv/hash；不写root LOG。
-**新Rule14已读生效**：长计算走公开Rogerhu12/math-research-ci，消费根ci-queue/<topic>--<短名>.json；4核16GB、20并发、timeout≤350min，OUT_DIR/题内结果自动回推。command不写未公开结论，私仓旧Actions计费故障不重试。当前短分析本地，长BVP/精化排队；请求不是运行成功。
+同一固定g，闭连通C²全t嵌入及C²连续；固定闭H有内点、diamH≥.2D；像Hausdorff δhold≥.2D、含反射δE>0；全t reach≥.03D；整面metric≤1e−6。固定g/参数/t范围加密到机器或求解容差，完整网格件<5MB，明确严格存在差距。D是整闭F0直径，不用核心proxy代替。H允许不连通（原定义README已核），可取上下固定帽并集。
+用户授权普通commit/push main，不强推、不重复询问。每push前实际pull --rebase，非快进立即重拉重推，至少每小时；每pull只读根/题README的新差异并记末行SHA。PAT只瞬时CLI，绝不入文件。root独占Git/H/log/open；子线交新文件，已交源后续改动先协调，避免rebase中途工作树变化。
+根Rule13：完整证明直接results，不增加独审/冻结/重跑门。H<10KB、普通md<100KB，>1MB数据gzip、每件<5MB；可重生大表只存源/argv/hash；不写root LOG。
+**06:15 UTC新Rule14**：math-research-ci公开代跑停用，五个旧queue均未运行且不会再运行，禁止新增。三个visible-flex课题将迁到Rogerhu12/visible-flex，等本题README宣布后切仓，用新仓自己的Actions。旧私仓Actions计费故障。迁移前继续本地实际计算。
 
-## 现场、恢复与原接受点A
+## 当前环境与恢复
 
-B=/workspace/scratch/ffc1334c1988；R=B/math-research；T=R/topics/visible-flex-larger-amplitude。B下有root-work/strong-work/exact-work/geometry-work。部分克隆+sparse，BLAS/OMP/MKL=1；本地9CPU，threaded RHS4。无大本地任务在跑，exact短GW/接缝除外；后续长任务用CI。
-91个固定依赖已由prepare-source-dependencies.py恢复到B/source-dependencies/topics/visible-flexible-closed-surface，revision869436630c99aa5a68afb55bd8877c826034d117，866846B。CI prepare可只fetch此revision并逐件核hash，不取整题。
-旧B=/workspace/scratch/d1aa462cfc02已消失。原R179–R224很多只落盘/入队未推，旧half-positive J/QR/iteration2已失，不伪称恢复。完整旧记录见notes/2026-11-14-root-environment-offline-recovery.md和handoff-legacy-recovery-checkpoint.md（同日期）；原manifest/成功数据实际存在才消费。
-真A主包SHA917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf，fixed-view cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa。7原raw已按原gzip recipe逐字节重构到B/strong-work/runtime/topics/visible-flex-larger-amplitude。M32/35设计参数/2590节点；生产前缀1280角，原RMS9.9224e−8/BC9.234e−13。完整mean物理metric6.733e−8、κ8.34551434，峰为loop outward turn。
-A全32模核心G=.2506381129076958；连续前缀D≥3.976755157289288，所以.2D≥.7953510314578576。没有新接受强解或20%闭面见证。
+B=/workspace/scratch/ffc1334c1988；R=B/math-research；T=R/topics/visible-flex-larger-amplitude。B有root-work/strong-work/exact-work/geometry-work。部分克隆、cone sparse-index；9CPU；BLAS/OMP/MKL=1，强线RHS4线程。
+ENOSPC已定位为重复Git pack；保留SHA1已核的fe5b607b0ac88c23bc51c82cad27fb0b61e4a232，全部220053唯一对象保留，去119重复包释放27.49GB。工作树/refs/loose不变，本clone禁自动repack；现27GB空闲。未推cutpatch另有root-work/shallow-migration-pending.patch；不需换clone。
+91个固定依赖已恢复到B/source-dependencies/topics/visible-flexible-closed-surface，revision869436630c99aa5a68afb55bd8877c826034d117、866846B，原prepare逐件核hash。source原README另读，H可不连通。
+旧B=/workspace/scratch/d1aa462cfc02已失；R179–R224多项只落盘/入队未推，旧half-positive J/QR/iter2不能恢复。见notes/2026-11-14-root-environment-offline-recovery.md、同日期handoff-legacy-recovery-checkpoint.md；未知退出不补造。旧open历史另存同日期open-before-current-continuations.md。
+真A主包SHA917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf，fixed-view cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa。7原raw按gzip recipe逐字节恢复到B/strong-work/runtime/topics/visible-flex-larger-amplitude。
 
-## 真实增幅：新13方向→full/half实际BVP
+## 强增幅：当前真正运行的任务
 
-新loop_curvature/radius/speed/terminal_peak_fraction必须同步prefix及有限bridge。r1缺参失败，r2桥未同步已停止不消费；修正后8双侧C²接口最大2.054e−15，tail物理cut其余键/参数全保。源strong_20261114_loop_bridge.py及loop_actual_bvp.py。
-r3真实exit0/1505.47s/峰511896KiB，8列全半与原后向门全过。terminal fraction相对差1.53035e−4<原2e−4，不能叫与其它列同稳定。13方向的旧9用原归档，新4core-held及3primary共7gzip/13.65MB；33个forcing/半步/J派生件明确未归档但源/argv/hash齐。见notes/2026-11-14-strong-resume-loop-response-complete.md。
-13方向compact LP首轮压扁bridge coast导致域失败/κD约105，已拒。加各物理段长度比0.7–1.5后，full warm G=.2732131264、κsample8.13839、Dproxy4.05014、κD32.96162；half G=.2619256197、κD33.09440；metric .00838/.00245，均未接受。只是小网格设计，改变profile即新g，候选定下后才锁g加密。
-full/half portable实际计划均prepare-only0：35参数/132BC，去旧H audited reuse，保full-flow新H predictor、1280角和原门。计划为notes/2026-11-14-strong-resume-loop-{full,half}-actual-ci-plan-r1.json。本轮将ci-queue/visible-flex-larger-amplitude--20261114-loop-{full,half}.json提交原完整非线性BVP，各340min/4线程。实际全warm、求解及审计读ci-runs；成功继续增幅，失败从真checkpoint缩步/修正。
+唯一已接受强解仍A：M32、35参数、2590节点、生产1280角；原RMS9.9224e−8/BC9.234e−13，完整mean metric6.733e−8、κ8.34551434（loop outward turn）。全32核G=.2506381129076958，连续prefix D≥3.976755157289288，所以.2D≥.7953510314578576；没有20%闭面见证。
+新13方向r3已实际exit0/1505.47s：loop K/r/v/terminal fraction同时改prefix和有限bridge，8列全半及原后向门通过。terminal fraction相对差1.53035e−4近原2e−4门，后续应增FD宽而不松门。7必要新gzip/13.65MB已main b1b9ea09535e1f2caa5e0c331c08c9427c3e0233；33可重生forcing/半步/J未归档，源/argv/hash齐。13输入notes/2026-11-14-strong-resume-thirteen-control-response-r1.json。
+13方向有限LP加真实段长比.7–1.5：full warm G=.2732131264、κDproxy32.9616、metric.00838；half G=.2619256197、metric.00245，均未解。原full/half完整计划保1280/132BC/新H尾，旧queue失效。
+新32.5预算warm G=.27049759954、κDproxy32.49564、metric.00904；trust2 warm G=.27436545721、κD32.2080、metric.01307。另有fixedsize计划，均只是可执行初猜。改变profile是设计新g，接受后才锁g精化。
+**margin325 r2真实退出1/51.74s**：strong-work/loop-margin325-actual-r2.log及稳定RT/new/loop-margin325-actual-r2*。旧full-flow tangent snapshot与新工厂完整tail/physical/backend/source身份不符，尚无prefix J/QR/非线性步；strong正定位并重建相符完整切线，绝不绕过身份检查。原4线程/1280/原门/maxnodes6000保留。r1只建QR目录前ENOSPC，亦非数学失败。修正后立即r3，后续按真残差继续。
+strong在新文件准备accepted-state连续驱动：真接受→原freeze-design-view+fullmean→新固定g精化/新13方向→继续真实求解；不消费warm为接受解。
 
-## 同g尾精化与接缝
+## 同g尾、接缝及整闭
 
-A尾stored factory：depth8、8 parts/cell×9segments，576stage/577nodes；M32、角512、RK12、linearFar48/steps2048、tol2e−9。不是另一题depth12/rational65/64 g；原160头身份单独保留。
-同完整32H/g/其它参数depth8→12已实际exit0/1643.73s，865节点，原Newton/Jac/全audit结束：残差8.362e−11，metric5.55153e−15/fullD3.61357e−12，minLeading.8635125，formalκ7.99811。同cut H差0、slope≤5.4211e−20、second≤1.0843e−19，完整mean一二jet差0；旧node8新Robin缺陷1.9757e−24。完整终态/恢复件notes/2026-11-14-exact-resume-fixed-H-depth12-r2/已推。不把不同内锚高度直接比较，不外推未来新H或∞尾。
-577×512节点已真读出/4411原检查，点metric1.479e−16、形式κ7.99349。R233已证明原/半转投影有限576片非平面，1154个Fraction四点det非零；不代连续metric/∞尾/reach。
-完整高度Hermite实际metric8.153e−4/κ13.17失败。保留原h0′=w/h0″=wr，只插值扰动，降至1.2465e−6/κ7.99427；背景积分校正版1.2476e−6，节点均值改动≤5.060e−10。source/数据见notes/2026-11-14-exact-resume-background-preserving-Hermite.md，已推。
-原RK12产生真实新内点，径向1→2→4固定g/H误差1.2476e−6→3.5847e−7→7.2923e−8，最后2305节点×39168径向样点×1024角；非新频率BVP。完整报告notes/2026-11-14-exact-resume-radial-refinement-r1/及同名前缀md本项已推。
-可选target-metric rr以Gauss–Weingarten补全共享水平rr，默认仍旧差分；min n_z=.92847，cardinal/point Fθ差≤7.664e−18。一级metric1.7054e−6反而较差，全1/2/4已测：1.7054e−6→5.6166e−7→1.18545e−7，均未优于原差分，不替换默认。该可选源/CI flag已随geo提交。
-实际原quintic前缀/尾cut同框三维2jet已轻量测：位置1.278e−10、Fr4.259e−10、Fθ7.155e−9、GW Frr4.126e−9、Frθ2.385e−8、Fθθ3.930e−7，仍未精确C²拼接。exact正在新文件试宽.01向量quintic接缝补丁并测同g误差。
+原stored factory保160保存头与原far：A depth8、576stage/577nodes、M32/角512/RK12/linearFar48/steps2048/tol2e−9，不换rational65/64 g。同完整H/g depth8→12已exit0/1643.73s，865终态、残差8.362e−11、metric5.552e−15、fullD3.614e−12；cut H差0、slope≤5.422e−20、second≤1.085e−19，mean一二jet差0。全恢复件notes/2026-11-14-exact-resume-fixed-H-depth12-r2/已推，不外推∞或新H。
+完整高度Hermite metric8.153e−4失败；改保源h0′=w/h0″=wr、只插值扰动后，真实RK12新内点径向1/2/4固定g/H：1.2476e−6→3.5847e−7→7.2923e−8，末级2305节点/39168径向×1024角。全部小报告已推；非新频率BVP。GW共享rr对照1.7054e−6→5.6166e−7→1.18545e−7较差，默认旧差分不改。
+真实quintic prefix和尾以固定宽.01向量quintic相接，补带metric≤6.218e−8，全尾最坏仍7.2923e−8、κ7.99426。直接消费prefix Fourier系数后六类cut二jet差≤4.46e−16，不重FFT造角二阶差。相关源码/报告逐项推；R233只是576片非平面证明，非全闭完成。
+固定原finite collar terminal系数准确转Fraction，Bernstein+Fourier界给全r/全θ metric贡献≤1.0013852088236555e−18；原宽.0005615866909020606不变。完整证明登记R234，不等于非轴∞尾存在。
+新可移植exact_20261114_ci_closed_assembly.py已写，但旧CI停用。独立副本B/exact-work/closed-local-r1本地实际exit0/57s：完整mean、3网格、9phase及R11全phase moving/fixed样点。cut mean1.96146775、cap H1.98415180；发现16个零面积显示三角形，exact正修取点重出，不称合格最终网格。活动相位RαF0(s,θ−α)，原材料角逆映射；上下反射、原R14弱固定帽。完整连续reach/δE/大幅与严格存在仍欠。
+RK24同g及1/2/4计划旧queue未执行，待本地或新仓续算；不能借排队说明精化完成。
 
-## R225大核心与两端转弯
+## R225真正大核心
 
-R225静态有理32核已证G≈.79999999999304549、Dcore2.690196、ρmin.305098；全闭还需D≤5G/球排除/reach。新入口固定L=.9/v=.3/k0=.2，M64→96→128同g metric5.731e−5→1.984e−6→3.8304e−8；M128 κ3.2776355、Dprefix3.31243、点域余量.63293，G球样本未遮挡。完整386实系数seed及7运行摘要在notes/2026-11-14-geometry-resume-R225-entrance-turn.md（已推）。
-同coast.05/K4转弯M128在s≈.96948 trial失败；97..128二jet增227倍而低模稳定。新两端BVP保前32核、放开33..M高核并施终端高增长投影：这是新候选，重算rho/材料角/G费用，定型后同g加密。已推20261114-r225-highcore-m48/m64两个ci-queue请求，end=.955/tol2e−6/maxnodes800；尚无实际成功回执。原本地384MiB人为限制中断不是科学失败，CI不加此门。首段成功立即续实际全turn和tail连接。
+R225有理32核G≈.79999999999304549、Dcore2.690196、ρmin.305098。原L=.9/v=.3/k0=.2入口M64/96/128同g metric5.731e−5→1.984e−6→3.8304e−8；M128 κ3.27764、Dprefix3.31243、点域余量.63293，完整386系数seed157KB已推。
+旧coast.05/K4 turn M128在s≈.96948失败，高97..128二jet增227倍。放开核33..M、保前32核的高模两端BVP M48/M64计划end=.955/tol2e−6/maxnodes800尚未完成；旧queue失效。续算adapter保adaptive旧节点，成功后应立即续全turn/尾。
+真实A纬线342×768说明陡降前aκlat,min≈.989，R225原入口仅.495。新外扩反馈用真实II的Schur界限制a″/主曲率，不用背景κ替代。M64从原s=.7续至.9075，aκmin到.62512、ap.52383、Dproxy3.33571、球见证≥.820476；metric约2.41e−5且反馈障碍失效，仍非接受解。geometry将已算a/ap/app冻结成同一个C²五次profile，冷启M64/96/128检验同g，已算段不机械重调反馈。
+紧凑双turn标量设计K1=3.2/K2=7.5去coast，接原loop/tail：反射背景尺寸采样3.915218、κ7.99426；只是背景预算，实际非轴全闭D≤5G、球排除与reach均未付。
 
-## CI、性能与接续
+## 接续顺序
 
-root_20261114_ci_prepare.py已实测恢复91源+7raw；ci_job.py执行5变量argv计划：PYTHON/RUNTIME_TOPIC/SOURCE_TOPIC/OUT_DIR/WORK。数值临时大侧件在RUNNER_TEMP，必要小结果/终态在OUT_DIR自动提交。固定g/H/RK24、径向1/2/4、1024角的20261114-tail-rk24请求已推；五已推请求尚在等runner，不能借05:20公开仓测试成功作本题成功。06:00前手动workflow_dispatch实际403（PAT无该权限），停止该触发路径，正常queue保留；公开API/CLI均只见05:20测试。
-原RHS4线程只深拷贝Flow并保原批/公式/门；生产1280角全部251230输出逐位同，108回调同，本次42.15s→17.43s。先前520只是显式低角试验，标签已纠正。5179节点/中点640/960对1280 RHS差≤2.165e−14，原全节点场不变；其报告/源本项已推，不能替最终1280验收。
-当前还待推：旧9compact筛选、径向真精化、A loop局部reach诊断、低角RHS比较。旧长log已归档notes/log-through-2026-11-14-pre-resume.md。参考旧R226–R232条件工具，但优先实际大幅/完整同g闭面。每项完成后继续open下一项，全部目标未成不停止。
+先消费正在运行的margin325与闭组装修正，同时完成R225固定profile实际精化；每个实际结论单独commit/push，失败按真残差继续。接受新强解即原fullmean审计、固定g精化、完整闭组装/全t几何，再继续增幅，不停在小步达门。迁移通知只能由课题README确认，之前不新增旧queue。
+生产RHS4线程全部251230输出逐位同、108回调同，42.15s→17.43s；640/960对1280在同5179节点/中点RHS差≤2.165e−14，不替最终1280验收。prepare/CI驱动仅执行器可移植，不以请求当结果。
 
-规则同步记录：2026-11-14T14:10:53+08:00 实际 pull --rebase；双 README 自 cefa59ed09c2e59d7eca9b14cfd55613857cb58b 无变化，已读提交 4e1bfcee19e600ed617de0f786f744c6c329600d。
+规则同步记录：2026-11-14T14:35:20+08:00 实际 pull --rebase；双 README 自 1f9444a8bcb1d7cd7bb61d635f4d497274604531 无变化，已读提交 fde020edd614b45f46244beb0cddcdb94a440915。

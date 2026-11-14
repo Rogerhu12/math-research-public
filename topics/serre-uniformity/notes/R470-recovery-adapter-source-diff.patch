@@ -1,0 +1,61 @@
+--- verify_moved_SS_principal_norm47.py
++++ verify_R470_moved_SS_principal_norm47.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""R399 independent exact replay of the complete moved principal expression and its F2 Norm.
++"""R470-block independent exact replay of the complete moved principal expression and its F2 Norm.
+ 
+ All arithmetic below is Python integer arithmetic. The archived geometric
+ sections and independently audited initial flips are inputs; this is not a
+@@ -24,7 +24,7 @@
+  x={k:v.read(p) for k,p in files.items()};flat=x['principal'];man=x['manifest'];fn=x['full_norm'];mult=x['multiply'];ab=x['Abel'];second=x['second']
+  sources={'second':'p41_moved_SS_second_kind_from_principal47.py','principal':'p41_moved_principal_chain_flatten47.py',
+   'T2_norm':'p41_moved_SS_T2_norm47.py','full_norm':'p41_moved_SS_F2_full_canonical_norm_clearing_frame47.py',
+-  'manifest':'p41_moved_SS_Abel_with_transports47.py'}
++  'manifest':'p41_j9_extended_Abel_with_transports47.py'}
+  for k,name in sources.items():assert x[k]['source_sha256']==v.sha(args.source_dir/name),(k,name)
+  assert all(x[k]['disk_id']==d for k in ['second','principal','T2_norm','full_norm','multiply','Abel','manifest'])
+  assert x['T2_support']['source_disk_id']==d
+@@ -52,7 +52,7 @@
+  assert fmove['sole_nonunit_source_rows_0based']==[point['original_source_is_exact_evaluation_row_0based']] and not fmove['unit_on_all820_source_points']
+  assert hmove['unit_on_all820_source_points'] and hmove['sole_nonunit_source_rows_0based']==[]
+  assert fmove['unit_on_all108_Abel_family_points'] and hmove['unit_on_all108_Abel_family_points']
+- ma=x['moving_audit'];assert ma['all_four_initial_moving_transports_independently_replayed']
++ ma=x['moving_audit'];assert ma['result']=='R470' and ma['all_selected_initial_moving_transports_independently_replayed'] and ma['selected_disk_count']==4 and d in ma['selected_disk_ids']
+  assert v.sha(args.based_points) in ma['input_sha256'].values()
+  mr=next(z for z in ma['records'] if z['disk_id']==d)
+  assert mr['actual_evaluation_row_0based']==point['original_source_is_exact_evaluation_row_0based'] and mr['chart_leading_unit_at_P']==tr['initial_function_chart_leading_unit_at_P']
+@@ -89,7 +89,7 @@
+  assert v.flatten(ab['actual_center_C_cyclic_coordinates_mod47cubed'])==v.flatten(knownabel['actual_center_C_cyclic_coordinates_mod47cubed'])
+  grad=v.flatten(ep['log_norm_derivative_at_family2_mod47four']);tiny=v.flatten(second['endpoint']['actual_second_kind_tiny_integrals_at_family1_mod47four'])
+  assert [(z+w)%v.Q for z,w in zip(grad,tiny)]==[m*z%v.Q for z in actualnu]
+- out={'result':'R399','disk_id':d,'complete_actual_moved_principal_and_F2_Norm_audit':True,'checked_nested_hash_edges':edges,
++ out={'result':'R470','disk_id':d,'complete_actual_moved_principal_and_F2_Norm_audit':True,'checked_nested_hash_edges':edges,
+   'retained_functions_verified':459,'nonformal_integer_SLP_relations_replayed':457,'actual_V2_functions':3,'actual_V3_functions':454,
+   'two_initial_move_functions_bound_to_complete_geometric_audit':True,'initial_function_order_and_leading_unit_at_P':{'order':-1,'unit':mr['chart_leading_unit_at_P']},
+   'actual_signed_multiplier':m,'moving_f_exponent':m,'moving_h_exponent':-m,'final_fc_exponent':0,'total_section_weight':0,
+@@ -100,5 +100,5 @@
+   'input_sha256':{str(p):v.sha(p) for p in files.values()},'dependency_sources_sha256':{str(args.source_dir/n):v.sha(args.source_dir/n) for n in sources.values()},
+   'independent_replay_helper_sha256':v.sha(v.__file__),'source_sha256':v.sha(__file__),
+   'scope':'Independent Python integer replay of saved459 functions, all457 exact integer SLP relations, all1371 T2 and10968 fixed/collision Weierstrass relations, all462 high canonical Norm factors, j tangent units and108 independent first-layer constants. No duplicate RR, torsion or long chain; no local height, disk exclusion or full Serre uniformity claim.'}
+- args.output.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print('PASS R399 actual moved principal/Norm audit',d,total,v.sha(args.output),flush=True)
++ args.output.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print('PASS R470 actual moved principal/Norm audit',d,total,v.sha(args.output),flush=True)
+ if __name__=='__main__':main()
+--- verify_moved_SS_F2_clearing_frame47.py
++++ verify_R470_moved_SS_F2_clearing_frame47.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""R399 moved-representative audit: two real V2 moves, all457 relations and six ideals.
++"""R470-block moved-representative audit: two real V2 moves, all457 relations and six ideals.
+ 
+ This does not claim a second RR, 41-torsion or 304-bit group-chain execution.
+ It independently combines the actual saved sections, integral exponents,
+@@ -318,7 +318,7 @@
+  assert hmove['unit_on_all820_source_points'] and hmove['sole_nonunit_source_rows_0based']==[]
+  assert fmove['unit_on_all108_Abel_family_points'] and hmove['unit_on_all108_Abel_family_points']
+  assert any(v==sha(names['based']) for v in x['moving_audit']['input_sha256'].values())
+- assert x['moving_audit']['all_four_initial_moving_transports_independently_replayed']
++ assert x['moving_audit']['result']=='R470' and x['moving_audit']['all_selected_initial_moving_transports_independently_replayed'] and x['moving_audit']['selected_disk_count']==4 and d in x['moving_audit']['selected_disk_ids']
+  moving_audit=next(z for z in x['moving_audit']['records'] if z['disk_id']==d)
+  assert moving_audit['actual_evaluation_row_0based']==point['original_source_is_exact_evaluation_row_0based']
+  assert moving_audit['chart_leading_unit_at_P']==tr['initial_function_chart_leading_unit_at_P']

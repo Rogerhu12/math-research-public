@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Recover one missing ramified SS disk on the README-rule-14 public runner.
+"""Recover one missing ramified SS disk in the current execution environment.
 
 Actual computation stays in RUNNER_TEMP. Only the complete mathematical outputs,
 principal functions, stage checkpoints and logs are copied to OUT_DIR. The checked-out
 source commit is read with Git; no Git mutation or credential read is performed here.
-The public runner owns publication.
+Root publishes completed conclusions through ordinary Git; the driver never publishes.
 """
 import argparse
 import datetime
@@ -89,7 +89,7 @@ def main():
     if not re.fullmatch(r'R\d+',args.result_id):
         ap.error('A reserved research result ID is required.')
     if not 1<=args.budget_minutes<=330:
-        ap.error('Internal budget must leave room before the runner deadline.')
+        ap.error('The work budget must be between 1 and 330 minutes; partial checkpoints are preserved.')
     S=Path(__file__).resolve().parent;D=S/'data';disk=args.disk_id
     frame=read(D/'p41_ramified_j_regular_height_derivative47.json.gz')
     covered={d for chart in frame['charts'] for d in chart['disk_ids']}
@@ -165,6 +165,7 @@ def main():
                  'elapsed_seconds':round(time.monotonic()-start,3),'stages':stages,
                  'finished_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),
                  'driver_sha256':digest(Path(__file__)),'python':sys.version,'packages':packages,
+                 'work_directory':str(scratch),'execution_environment':'local-after-rule14-20261114T0615Z',
                  'source_commit':source_commit,'runner_workflow_commit':os.environ.get('GITHUB_SHA'),
                  'F2_files':files_f2,'F3_files':files_f3,
                  'long_chain_repeated_for_F3':False,'complete':status==0,

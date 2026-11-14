@@ -2,6 +2,8 @@
 
 ## 新增结论
 
+- [R234](results/R234-fixed-finite-collar-global-metric-bound.md)（已证明，原固定有限collar全域metric界）：保存的完整binary Fourier二jet准确转Fraction；五次Bernstein及全角三角界给相对metric算子范数≤1.0013852088236555e−18，原宽度不变。只证明定义好的有限collar，不代准确无限尾存在或整面达标。
+
 - [R233](results/R233-A577-finite-tail-nonplanarity.md)（已证明，实际577节点的有限尾非平面性）：全部1154个原始/半转投影四点det以Fraction精确非零，576个径向开片各由解析恒等性排除开放平面片；原始与投影场分别覆盖，未支付投影误差/连续metric/无限尾/闭面reach。
 
 - [R232](results/R232-complete-mean-double-rank-Hermitian-energy.md)（已证明，完整mean与投影的双rank能量）：从R75准确消元并保原Π⊥项，真实〈k〉=0约束下正交压缩，投影输出列帽从1降为a/√(1+a²)，mean对偶范数与signed配对准确保留；联合只需完整4×4 Gram。旧full-K系统不重复加费，Galerkin/完整尾/径向门仍保，无新数值预算通过。

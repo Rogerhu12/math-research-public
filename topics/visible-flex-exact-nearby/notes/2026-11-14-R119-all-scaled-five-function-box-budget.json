@@ -1,0 +1,316 @@
+{
+  "status": "proved_new_exact_rational_budget",
+  "scope": "Same master controlled-tail family; complete all-scaled local Sym2 and full finite r/N band box; original radial middle and full two complex ports. Not a nonradial cluster or full-source inverse.",
+  "gate_count": 59,
+  "passed": true,
+  "gates": [
+    {
+      "name": "center_X_factors_for_all_kappa",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "center_Xt_factors_for_all_kappa",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "center_A22_complete_constant",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "center_complete_Frobenius_constant",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "transfer_matrix_inverse_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "transfer_matrix_L_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "observability_L_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "observability_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "gamma_all_scaled_bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "local_center_forward_first_row",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "local_center_forward_second_row",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "g_jet_L_power_safe",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_L_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_kappa_ratio_exponent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "rho_gamma_ratio_exponent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_scaled_support_function_L_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_scaled_support_M_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_scaled_support_B_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_scaled_support_Delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_scaled_support_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "band_M_positive_power_paid",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "radius_branch_B_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "radius_branch_kappa_ratio",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "radius_branch_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "complete_Hessian_relative_fraction",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "whole_box_denominator_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "whole_box_K_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "whole_box_before_scale_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "whole_box_before_scale_U_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "whole_box_before_scale_B_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "whole_box_before_scale_Delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "whole_box_before_scale_L_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_base_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_a_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_Delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "three_to_286_complete_bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_all_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_rounding",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_J_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_U_power_before_denominator",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_B_power_before_denominator",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_U_power_after_denominator",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_B_power_after_denominator",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_Delta_power_after_a",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "three_to_93_complete_bound",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_all_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_delta_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_J_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "original_middle_delta_inverse_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_final_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_integer_power_safe",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_complete_frequency_bits",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "low_scale_U_to_M_paid",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_final_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "high_scale_U_to_M_paid",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "unified_all_middle_power",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all_band_total_radius",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "bounds": {
+    "all_scaled_local_support": "2^-22000 M^50 B^-39 Delta^-103 (1+M^2/B)^-96",
+    "full_finite_box_all_middle": "2^-175000 M^-1891 I_2",
+    "full_finite_box_U_at_least_sqrtB": "2^-93000 M^-290 I_2",
+    "mode_coordinate": "r_U/N_band times its own theta_M; no common theta_band substitution"
+  },
+  "dependency_sha256": {
+    "results/R119-supplement-all-scaled-five-function-finite-box-generator.md": "545c007f81900e1670992bb92653e05a35ef39b3692410752072d82dafcff748",
+    "results/R119-supplement-actual-two-phase-five-function-Wronskian-and-low-scaled-control.md": "97c7cf4b168f4ce546534e871c966fbf1bdd0a4ca774ecb8f82c02c76efe1b6c",
+    "notes/2026-11-14-R119-actual-two-phase-five-function-budget.json": "88292eb93f0a12523ec9b84824562806812bd5632b7f0006e3456b71f4a50028",
+    "results/R119-supplement-scale-correct-polynomial-middle-scattering-generator.md": "93202284c7f51119a517c660bcf845dac7ee7bea0aaf990282e007c329bc3a32",
+    "scripts/fourfold_all_scaled_five_function_box_20261114.py": "f3ddec660d45c71938c12abcee30d2bbbf0544a4a21e57d0d16f8ee6cbb1b8c5"
+  }
+}

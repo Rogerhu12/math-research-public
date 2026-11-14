@@ -123,3 +123,36 @@
 
 
 - 2026-11-14 06:05 UTC｜visible-exact-astra-ac0d：实际Q=7+Bf、全部e>0及真两phase的5函数Wronskian准确消λ；77精确门正常0。低16≤M²≤B完整Sym2用四阶紧支方向给generator>2^-22016 M^50 B^-39 Δ^-103 K_j^-2；真实dt/双端规范/补偿二阶/完整源mean保。未授κ>1或实际nonradial全网络。 本条独立提交推送。
+
+
+- 2026-11-14 06:13 UTC｜visible-exact-astra-ac0d：同一个真实quartic及两phase的全κ五函数控制已成；59新增有理门正常0。原r/N与全部补偿Hessian盒中完整middle generator>2^-175000 M^-1891；U≥√B单独>2^-93000 M^-290。保独立θM/真实P′权限/源mean/非径向近簇缺口，未把径向PSD升成全F。 本条独立提交推送。
+
+
+- 2026-11-14 06:15 UTC｜visible-exact-astra-ac0d：真实rebase到c2792d5701fc03a93e4669a7f97eb1a54dee7521，只读根README新14差异，题README blob未变。公开代跑已因Actions条款停用，立即撤下未执行的本题ci-queue请求；保旧请求note/提交历史。等待本题README正式迁移通知后转Rogerhu12/visible-flex。既有本地完整计算持续，未绕用停用runner。
+
+
+- 2026-11-14 06:25 UTC｜visible-exact-astra-ac0d：实际原中心7296闭盒/6143接口全部齐，合并正常0/7.487s且仅新算2617缺接口；保右段7271零半宽域拒原记录。完整native SHA6f52030b…分3正常binary，RU/RV A0<2.267544e−7/4.159086e−7、L2<4.201205e−8/8.194504e−8；共同参数η=η0，非全邻域/非精确PDE。 本条独立提交推送。
+
+
+- 2026-11-14 06:27 UTC｜visible-exact-astra-ac0d：完整修复moving cap实际消费1341闭帽盒及全部mean/Hessian/跳/修复费用，正常0/1.74s/7门；新增反馈.00384016121<1/250，逆1.003854965，ordinary moving L2→physical7.220627/→moving L∞L2 294.706166。保真实共轭divergence源与同对象，非负侧全局逆。 本条独立提交推送。
+
+
+- 2026-11-14 06:27 UTC｜visible-exact-astra-ac0d：实际修复中心physical cap系数的全逆角/三阶径向jets与joint Σsup Fourier代数，N512/σ1/16/cut128、全alias/∞尾；tiny及真实wide闭盒均完成，全η0±1e−9。wide QB/QC全误差<2.165586e−10/3.658844e−9；未知余项保divergence源，未授全帽矩阵残差。 本条独立提交推送。
+
+
+- 2026-11-14 06:29 UTC｜visible-exact-astra-ac0d：实际完整7722共同闭盒/6143跳/两mean的角向缺陷消费17.044s完成；E<3.127699e−8/P<4.956566e−8，全Fφφ<5.970523，512角连续位置插值误差<7.024610e−6。完整native7a3dd2c1…无损4片；保model anchor缺陷，不授径向浮点积分/真实world anchor/非线性几何。 本条独立提交推送。
+
+
+- 2026-11-14 06:32 UTC｜visible-exact-astra-ac0d：全κ五函数真实补偿盒接同一个完整原径向网络，12个新有理门通过；同允许族一次公共选择使原canonical端口逆<2^175007 M^1894，同角宽/原local双侧权/好集>1−147/16384保。已转Nm单位的完整列剩29066幂且保2^175007Cζ；不授ordinary物理源转换/非径向簇/非线性逆。 本条独立提交推送。
+
+
+- 2026-11-14 06:32 UTC｜visible-exact-astra-ac0d：实际完整193态/6145径向节点/全部外Robin含m4的qν及伴随均完成73子进程、6144块FFT门与完整Hermite；相对残差2.5908e−11/3.1666e−11，full index ed42a71d…/c509df40…及4index/分片SHA/重构CLI全部保存。有限腰幅Schur8.181474仍只proposal，原全mean/Gram/物理转置保，待真实连续体/高壳/端图费用。 本条独立提交推送。
+
+
+- 2026-11-14 06:36 UTC｜visible-exact-astra-ac0d：实际全3071负盒+真root+连续修复消费12门：∫|dφ|<.036374621，两ray响应误差L2(E0)→C0<1.273240/普通L2<1.274436，保mean无q^-1。完整构造ν scalar/两端图/共轭平均推导，精确ρ*=(612575−√5)/2228182的bounded-CF给四次单位根principal gap1/(36|j|)；真ν/β/j/strong余项尚待，最终flex度量固定。 本条独立提交推送。
+
+
+- 2026-11-14 06:37 UTC｜visible-exact-astra-ac0d：实际完整193响应/两ray/真even mean/腰图浮点proposal正常21.64s，Ω′≈.0202241584；direct+.0393631446/state−.0005213003/mean−.0186176859且pointwise不单调。全128漂移模式和真实逆ray保，24模拟合共轭仅proposal；未授旋转数/ν可调范围/真Schur。 本条独立提交推送。
+
+
+- 2026-11-14 06:37 UTC｜visible-exact-astra-ac0d：保cap实际SIGBUS−7和660已成因子/forward104：175件逐SHA复制tmpfs并预分配同backing接续，不冒称错误原因或新完成。只清理已complete q/ψ可重建230MB QR seeds且全SHA保；body原plain/gzip错误零行保，三v2仅真实读取/身份入口变化、原数学门不变，7721格消费者已实际进行。 本条独立提交推送。

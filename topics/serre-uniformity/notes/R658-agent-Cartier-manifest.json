@@ -1,0 +1,133 @@
+{
+  "result": "R658",
+  "status": "proved",
+  "files": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R658-Cartier-trace-comparison-and-actual-Cp-channel.md",
+      "target": "results/R658-Cartier-trace-comparison-and-actual-Cp-channel.md",
+      "basename": "R658-Cartier-trace-comparison-and-actual-Cp-channel.md",
+      "bytes": 19733,
+      "sha256": "490432f19b41ebe1d2b74fd1cb84d48de8c0eccfee9ce49729b1aff35cf837ad"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R658_full_kronecker_k47_probe.json",
+      "target": "scripts/data/R658_full_kronecker_k47_probe.json",
+      "basename": "R658_full_kronecker_k47_probe.json",
+      "bytes": 6990,
+      "sha256": "e9d47b016bd8f0daa61dde292ad9c2e82e098fba8cf813e1aba5fe708bc7997c"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R658_r2_prime47_probe.json",
+      "target": "scripts/data/R658_r2_prime47_probe.json",
+      "basename": "R658_r2_prime47_probe.json",
+      "bytes": 1364,
+      "sha256": "c40799212377c1b6092e19e873f6c08672482b2f7633b6ef6aefe60d8a50a232"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-qc/R658_r2_Cp47_comparison.json",
+      "target": "scripts/data/R658_r2_Cp47_comparison.json",
+      "basename": "R658_r2_Cp47_comparison.json",
+      "bytes": 126,
+      "sha256": "9f14f307ed4e706bf28e99411c2f3d373708bf9356bf79da41aed0392e071da2"
+    }
+  ],
+  "prior_inputs": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R574-completed-zeta-Cartier-input.md",
+      "target": "results/R574-completed-zeta-Cartier-input.md",
+      "basename": "R574-completed-zeta-Cartier-input.md",
+      "bytes": 8860,
+      "sha256": "6d4fb8bde9faeed42de9e9dd48c840eb79cb0edcf35761418cc45b2b6a237f42"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R564-two-rational-kernels-Cartier-exchange.md",
+      "target": "results/R564-two-rational-kernels-Cartier-exchange.md",
+      "basename": "R564-two-rational-kernels-Cartier-exchange.md",
+      "bytes": 5464,
+      "sha256": "7d6f7e3ae1e037bf8b82b10116af9f4e732d0ccc27093f0b63d9841c68958592"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R594-formal-log-decomposition-and-wide-prime-c0-obstruction.md",
+      "target": "results/R594-formal-log-decomposition-and-wide-prime-c0-obstruction.md",
+      "basename": "R594-formal-log-decomposition-and-wide-prime-c0-obstruction.md",
+      "bytes": 11080,
+      "sha256": "7f02fe708589966f5c87115d550de8915e45bf042a09990b91477b93d2cf9cd3"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R615-full-six-torsion-Kronecker-traces-and-integral-Cp.md",
+      "target": "results/R615-full-six-torsion-Kronecker-traces-and-integral-Cp.md",
+      "basename": "R615-full-six-torsion-Kronecker-traces-and-integral-Cp.md",
+      "bytes": 14841,
+      "sha256": "e8090ef83b3d3e0b005464b2b007551c1e499714d8373acddbe85413ac2a8737"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/results/R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "target": "results/R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "basename": "R605-middle-CM-block-as-one-characteristic-p-coefficient.md",
+      "bytes": 11270,
+      "sha256": "6d12fca1ede4a9e74a108aa311d9533470a815f1cf55ef26f45366a16db79bcf"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/R615_full_six_torsion_kronecker.py",
+      "target": "scripts/R615_full_six_torsion_kronecker.py",
+      "basename": "R615_full_six_torsion_kronecker.py",
+      "bytes": 4613,
+      "sha256": "0dae7b9a0b69cb26a9a5b4455d7a43b06396b0238ddab3fa293d03beb80cdc23"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/R605_r2_coefficient.py",
+      "target": "scripts/R605_r2_coefficient.py",
+      "basename": "R605_r2_coefficient.py",
+      "bytes": 2785,
+      "sha256": "806f10c6a3e57784b666403f0514cdde80705e4aa24f1837466884489525a801"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/scripts/data/R615_full_kronecker_k41.json",
+      "target": "scripts/data/R615_full_kronecker_k41.json",
+      "basename": "R615_full_kronecker_k41.json",
+      "bytes": 5585,
+      "sha256": "eaed13ff79e40bebb2e94fea19fe6a1e9ab0a96376a96da7525c9711705e715c"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/math-research/topics/serre-uniformity/notes/R605_r2_prime41.json",
+      "target": "notes/R605_r2_prime41.json",
+      "basename": "R605_r2_prime41.json",
+      "bytes": 1255,
+      "sha256": "8a9344e387fa490e2a4463f15dbfc5fd8b5954cb88934e8793b1feee9a315bb7"
+    }
+  ],
+  "theorems": [
+    "For 0<=a<=p-1, Cartier(q^a Rminus omega)=c B^(-a) a! L_a omega, with complete integral terminal coefficient.",
+    "For p>=41 inert and 5<=k<=p, k=5 mod6, r_(p,k)=c*(-1/(3B))^(k-1)*C_k modp.",
+    "Actual r2=c C_p; actual c1 lowest valuation iff C_p*r3 is nonzero."
+  ],
+  "new_normalization_argument": "The exact multiplication trace including all completed-translation factors and the choice N=4p-1 eliminate the full O-only difference by parity.",
+  "terminal_factorial_argument": "Sum chi*S_p(k_Q,x(P+Q),y(P+Q)) is coefficientwise divisible by p since its reduction is -g(P)*sum chi.",
+  "coefficient_range": "Strictly below p^2; uses the published R594 full logarithm decomposition, not only leading Laurent terms.",
+  "executed_targeted_computation": {
+    "new_prime": 47,
+    "C47": "276294949782973985037265126347813459984/2989802261797564455633015625",
+    "C47_mod47": 35,
+    "c47": 21,
+    "r2_mod47": 30,
+    "B47": 10,
+    "K1_mod47": 2,
+    "exact_rational_runtime_seconds": 1.716971,
+    "old_torsion_orbit_repeated": false,
+    "prime_grid_run": false,
+    "long_computation_started": false
+  },
+  "scope_boundaries": {
+    "all_p_Cp_nonzero": false,
+    "all_p_r3_nonzero": false,
+    "fixed_high_weight_family_identified_with_modular_Jacobian_quotient": false,
+    "new_global_candidate_exclusion": false,
+    "global_QC_leading_coefficient_claimed": false
+  },
+  "README_observed": "af6f8d4d6ba739501182942bf907054e36748996: public runner disabled; no new ci-queue; local execution for subsequent calculations",
+  "primary_source": {
+    "url": "https://smf.emath.fr/system/files/2017-08/ens_ann-sc_43_185-234.pdf",
+    "locator": "Proposition 2.20 and its cited general Kronecker distribution relation",
+    "used_scope": "Complex multiplication distribution only. The new characteristic-p trace/parity proof is given in full."
+  }
+}

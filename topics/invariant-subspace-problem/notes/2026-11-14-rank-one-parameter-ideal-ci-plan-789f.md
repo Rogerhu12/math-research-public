@@ -2,7 +2,9 @@
 
 日期：2026-11-14 UTC。作者：normal_annihilator / Astra-ISP-789f。
 
-状态：计算准备；没有把待运行的 Gröbner 计算记成结论。
+**当前状态（06:15 UTC新规）：公开runner已停用，两项队列请求撤回；改在自己的执行环境运行下列同一脚本。文件名保留历史入口，§3是此前投递记录，不再向公开runner投递。** 尚无 Gröbner 运行结论。
+
+本地入口为 `node topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js --out /tmp/isp-789f-r150-q0 --characteristic 0 --coordinates original --algorithm slimgb --stage lift`；有限特征另用输出目录及32003。
 
 ## 1. 准确目标
 
@@ -45,3 +47,9 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 ## 5. 后继参数域覆盖
 
 如实际分母有额外因子，可用不同坐标/项序产生第二份原生成元证书，并按[逐目标 Bézout 拼接](2026-11-14-rank-one-certificate-open-cover-789f.md)取共同未覆盖根；该代数接口不预判当前CI结果。
+
+## 本地执行恢复（2026-11-14 06:34 UTC）
+
+官方通用 Linux 压缩包 `Singular-4.4.0-x86_64-Linux.tar.gz` 已在本环境用户可写目录解包，`Singular --version` 确认为4.4.0。来源：[官方用户目录安装说明](https://www.singular.uni-kl.de/public/pages/singular-download/109.html)、[官方二进制目录](https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/)。保持包内目录结构，未改变系统包权限、代理或TLS。
+
+本轮二进制位置 `/tmp/isp-789f-singular-runtime/singular-4.4.0/bin/Singular`；以临时 PATH 前置后运行本稿既有特征0命令，输出 `/tmp/isp-789f-r150-q0`。工具输出/receipt必须检查后才能判为完成；工作目录临时文件若失去，按上述官方来源重新解包，再从仓库脚本重放。有限域任务尚未启动，以免同时占用过多内存。

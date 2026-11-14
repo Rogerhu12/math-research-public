@@ -3,7 +3,7 @@
 Reconstruct the fixed-D original seventeen equations as polynomials in s,
 then ask Singular for exact ideal membership over Q(s), or over F_p(s)
 for discovery. No finite sample is interpreted as a characteristic-zero
-classification. Long computations belong on the public runner (README 14).
+classification. README rule 14 (2026-11-14 06:15 UTC): run in the current execution environment; the public runner is stopped.
 */
 const fs=require("node:fs"),path=require("node:path"),os=require("node:os"),
  crypto=require("node:crypto"),cp=require("node:child_process");

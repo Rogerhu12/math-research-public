@@ -1,0 +1,69 @@
+{
+  "result": "R634",
+  "status": "proved-under-explicit-R616-actual-primitive-nonvanishing",
+  "date": "2026-11-14",
+  "proof": {
+    "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R634-CM-calibration-eliminates-actual-height-matrix.md",
+    "bytes": 20877,
+    "sha256": "5ca8e03f218f52589d1755c36dd036f4fd75923f370113b0b87345d59fb3e360"
+  },
+  "dependencies": [
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R616-original-CM-point-difference-and-explicit-height-basis-v2.md",
+      "bytes": 23228,
+      "sha256": "702bacc4f1f796ab1e3d72814be93587faf91905a4aa97ed9cca489fcf68e3cf"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R593-actual-quotient-height-and-uniform-bad-place-support-reconstructed-v2.md",
+      "bytes": 17069,
+      "sha256": "22eed112cc84cb89ea102301b3e5f9c774998359fadb589db38b61703e28ad4a"
+    },
+    {
+      "path": "/workspace/scratch/76d0eb5f3db8/agent-global/R596-fixed-Chow-Heegner-class-log-factorization-reconstructed-v2.md",
+      "bytes": 17762,
+      "sha256": "3e7d3e752a2e9a29ecf0af13c0ae10daaad8bf720802fbdc26bdd1be93d93125"
+    }
+  ],
+  "claims": [
+    "Exact F-compatible splitting transport preserves original rho=Q+2ell-lambda and same finite Omega.",
+    "Same rational CM point c1 calibrates all F-balanced A heights modulo the actual polarization line Qp*kappa.",
+    "Exterior minors eliminate every unknown A height matrix and the remaining common scalar.",
+    "Every target minor is nonzero on every local disc by BMS Theorem 7.9 applied to actual corrected NS-kernel line bundles.",
+    "Actual primitive factor has g>=3, so the exterior space has dimension at least two.",
+    "Exact c1 coefficients through degree two and exact first order of the vector V, with no p-unit claim."
+  ],
+  "boundaries": [
+    "R616 nonvanishing not proved for all p.",
+    "Fixed Y-linear height ell and actual finite target values remain to be computed.",
+    "No p-unit, regulator valuation, complete disc exclusion, or transport to a different twist is asserted.",
+    "Absolute Serre uniformity remains OPEN."
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/pdf/2112.03873",
+      "locations": [
+        "Proposition 4.30",
+        "Section 6",
+        "Lemma 7.1",
+        "Theorem 7.9",
+        "Lemma 7.12"
+      ],
+      "version": "v4 2026-01-16"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1502.00768",
+      "locations": [
+        "Theorem 2.2, printed p.2"
+      ]
+    }
+  ],
+  "publication": {
+    "root_only_git": true,
+    "suggested_result_path": "topics/serre-uniformity/results/R634-CM-calibration-eliminates-actual-height-matrix.md",
+    "index_summary": "在R616真实本原非消失区域，以同一有理CM点c1校准F相容高度并取外积，消去全部A高度矩阵；实际NS核局部高度的BMS代数独立性给逐目标逐盘非恒零，保留固定Y线性项/有限目标及首项赋值缺口。",
+    "handoff_summary": "R634已给不含A高度矩阵的有限真实高度方程；g>=3、原rho符号和同一Omega已固定，c1前两阶显式；仍需ell/Omega/真实系数与尾界，非统一排除。",
+    "root_clarification": "The starting metric is R593 factorwise pullback/tensor metric, not an arbitrary J_X splitting with cross terms; only the A factor changes."
+  },
+  "calculation": "Pure proof; no new long local computation.",
+  "agent_original_manifest_sha256": "1c43290540983b2878467be5c3adf3dfc73e9b6a2d1b0b98fa693b7fbac67494"
+}

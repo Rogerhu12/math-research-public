@@ -1,0 +1,111 @@
+{
+  "kind": "five_function_complete_common_radial_port_resolvent_new_exact_budget",
+  "complete": true,
+  "failure": null,
+  "source_sha256": "39cf7efd6440d94e9daa1850a6962730c2c7d345e4e314edcc5fece093e6229d",
+  "proof_dependencies": {
+    "R119-supplement-all-scaled-five-function-finite-box-generator.md": "545c007f81900e1670992bb92653e05a35ef39b3692410752072d82dafcff748",
+    "R119-supplement-common-radial-polynomial-resolvent-in-original-port-units.md": "e9b6517658de141d57cf7276e00793a7181bc8b9fbfbb9cc4a7a0009f2665ba3"
+  },
+  "checks": 12,
+  "gates": [
+    {
+      "name": "new_resolvent_bits",
+      "left": "175007",
+      "right": "175007",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "new_degree_before_true_network_dimension",
+      "left": "1893",
+      "right": "1893",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "new_complete_port_derivative_loss",
+      "left": "1894",
+      "right": "1894",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "original_Nm_unit_source_remaining_power",
+      "left": "29066",
+      "right": "29066",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "generator_constant_at_original_first_layer",
+      "left": "175000",
+      "right": "4197376",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "new_complete_layer_log_cost",
+      "left": "1936896",
+      "right": "1936896",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "new_complete_layer_log_budget",
+      "left": "1936896",
+      "right": "2097152",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "new_global_log_first_binary_block",
+      "left": "2037635",
+      "right": "2037635",
+      "relation": "=",
+      "passed": true
+    },
+    {
+      "name": "new_global_log_binary_budget",
+      "left": "2037635",
+      "right": "2097152",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "new_budget_below_existing_local_weight_budget",
+      "left": "21",
+      "right": "25",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "new_global_log_exponent_below_existing_M_over4",
+      "left": "21",
+      "right": "982",
+      "relation": "<",
+      "passed": true
+    },
+    {
+      "name": "original_source_power_strictly_survives",
+      "left": "0",
+      "right": "29066",
+      "relation": "<",
+      "passed": true
+    }
+  ],
+  "original_full_network_and_spectral_averaging_reused": true,
+  "existing_31_gates_not_recomputed": true,
+  "generator_lower": "2^-175000 * M^-1891",
+  "inverse_upper": "2^175007 * d_M * M^1893 < 2^175007 * M^1894",
+  "frequency_scope": "original retained M in 4N, M >= M_* > 2^984",
+  "original_canonical_incoming_port_units": true,
+  "simultaneous_common_parameter_selection": true,
+  "same_angular_width_and_original_two_sided_local_weights": true,
+  "finite_derivative_loss": 1894,
+  "original_Nm_columns_only_remaining_power": 29066,
+  "original_source_constant_retained": "2^175007 * C_zeta",
+  "ordinary_physical_source_conversion_proved": false,
+  "nonradial_or_nonlinear_inverse_proved": false,
+  "wall_seconds": 0.002268700000058743
+}

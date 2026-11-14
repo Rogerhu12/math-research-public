@@ -1,0 +1,28 @@
+{
+  "result": "R657",
+  "status": "proved",
+  "files": [
+    {
+      "path": "R657-full-ordinary-class-module-and-exact-scalar-norm-criterion.md",
+      "bytes": 19198,
+      "sha256": "58bfe32682b05ea8a22b9b284f1e811eb442e7e191dc9278fc23c40887fc810a"
+    }
+  ],
+  "new_conclusions": [
+    "E_B=O[S,T]u_B; Cl(B)_chi=0",
+    "Cl(LB)_chi=R_Gamma/pi^m with 1<=m<=43",
+    "if m>=2, actual ordinary scalar action s=1+i*pi mod pi^2",
+    "m=43 iff A_N does not capitulate iff Norm_S ordinary units is onto iff original y is an ordinary unit Norm_S"
+  ],
+  "unresolved": {
+    "actual_m": true,
+    "original_J": true,
+    "original_C": true,
+    "original_b": true,
+    "original_lambda": true,
+    "original_n": true,
+    "original_L": true
+  },
+  "large_computation_rerun": false,
+  "lost_R570_assumed": false
+}

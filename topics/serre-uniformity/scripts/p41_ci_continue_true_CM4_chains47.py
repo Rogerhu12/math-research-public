@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Continue the two actual R552 one-bit prefixes on the public runner.
+"""Continue the two actual R552 one-bit prefixes in the current execution environment.
 
 The preserved based file and ordered pair remain unchanged. Only missing chain,
 terminal second-kind, and principal-expression computations are executed. The
@@ -160,7 +160,8 @@ def main():
             except importlib.metadata.PackageNotFoundError:pass
         receipt={'result':args.result_id,'exit_code':status,'complete':status==0,'error':error,
             'disk_ids':disks,'initial_bits_each':1,'initial_geometry_repeated':False,
-            'source_commit':source_commit,'runner_workflow_commit':os.environ.get('GITHUB_SHA'),
+            'work_directory':str(W),'execution_environment':'local-after-rule14-20261114T0615Z',
+                 'source_commit':source_commit,'runner_workflow_commit':os.environ.get('GITHUB_SHA'),
             'driver_sha256':digest(Path(__file__)),'input_archive_sha256':digest(archive),
             'elapsed_seconds':round(time.monotonic()-start,3),'stages':stages,'chain_states':states,
             'principal_archives':archives,'python':sys.version,'packages':packages,

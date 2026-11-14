@@ -99,3 +99,33 @@ A同5179节点/中点、97维状态逐位不变，640/960对生产1280的502363�
 
 ### 2026-11-14T14:10:46+08:00 — latitude
 原真实A五次场342站/768角读出显示aκlat,min由core .66548到下降turn末.98898，可容许ap=−.98；R225入口约.49514，需真实圆化而不只短turn。新BVP续算adapter保旧adaptive节点、失败缩步，未有成功CI输入，不宣称已续算。
+
+### 2026-11-14T14:11:01+08:00 — gw
+GW共享水平rr在同径向1/2/4场的metric为1.7054e−6、5.6166e−7、1.18545e−7，未优于原差分，默认算法保持；min nz .92847/cardinal对point角jet差≤8.281e−18。负向对照和全部小结果保留。
+
+### 2026-11-14T14:16:41+08:00 — root rule 14 changed; old runner stopped
+实际pull后仅读根README的新差异：math-research-ci代跑停用、旧queue不会执行且不得新增；本题将整体迁到visible-flex，待课题README通知后切仓。五个请求均未执行，保留可复现入口而不记成功；已通知三条研究线并立即停止旧排队路径。继续数学/短计算和逐条推送实际结果。
+
+### 2026-11-14T14:18:06+08:00 — cutjets
+真五次prefix对tail同角/同框/同mean锚位置1.278e−10、Fr4.259e−10、Fθ7.155e−9、GW Frr4.126e−9、Frθ2.385e−8、Fθθ3.930e−7，全部3D两jet实际读数和NPZ保存；不同rr定义不偷换。
+
+### 2026-11-14T14:18:21+08:00 — cutpatch
+固定宽.01的完整向量quintic补丁exit0/14.29s，内端零2jet，外端接原差分尾与真prefix；补带metric≤6.218e−8，全尾仍7.2923e−8/κ7.99426，外端0/1/2径向差至1.2e−15。角二jet仍保非零舍入读数；没有无限/闭面/全t宣称。
+
+### 2026-11-14T14:27:43+08:00 — recover space without dropping research data
+margin325首次实际启动在数值迭代前因ENOSPC退出，不能计数学失败。根因是本clone自动repack留下120个重叠pack；逐idx验证及完整保留包SHA1验证，全部220053唯一对象均在fe5b607b0ac88c23bc51c82cad27fb0b61e4a232中，去119重复包释放27,485,291,865bytes，工作树/refs/loose对象不变。当前27GB可用，原实际任务以新r2输出续启；未推cutpatch另保binary patch。此前空间错误的pull没有完成rebase，现已恢复正常流程，并在push前显式检查remote已为HEAD祖先。
+
+### 2026-11-14T14:33:42+08:00 — collar
+R234完整证明直接登记results：保存binary Fourier二jet与原固定宽L准确转Fraction，Bernstein/Fourier界给全r/全θ相对metric算子范数贡献≤1.0013852088236555e−18，实际exit0/0.98s。没有缩层或改g，不把有限collar界当准确无限尾存在。重写当前open与H，保留旧open完整历史；旧代跑已停，实际长任务转本地。
+
+### 2026-11-14T14:34:33+08:00 — margin325
+同13方向、原真实段长/场增量约束把κD设计预算收至32.5：首选有限warm G=.27049759954、κDproxy32.49564、metric .00904，未接受。完整可移植BVP argv保1280/新H/原门；首本地r1仅ENOSPC，恢复27GB后r2实际51.74s在旧切线snapshot身份检查退出，尚无J/QR/非线性步；正重建匹配完整数据后r3，保留原检查器。无新增旧ci-queue。
+
+### 2026-11-14T14:34:47+08:00 — trust2
+32.5设计预算下control trust扩大至2，四实际有限组合均在域内；主warm G=.27436545721、κDproxy32.2080、metric .01307，更大残差不能推断更好Newton。另存fixedsize设计上界方案和两完整原BVP计划，均未运行；不继续机械放大同一线性范围，先消费真实非线性结果。
+
+### 2026-11-14T14:35:02+08:00 — closedinterface
+直接消费原prefix Fourier系数，六类cut二jet差≤4.46e−16；三个原误差见证子段仍保最大metric7.292281634e−8，native背景201点exit0。新任意相位/原材料角逆映射/弱固定帽接口与完整执行链归档；旧runner已停，之后本地整面运行另记，未把接口检查当闭面完成。
+
+### 2026-11-14T14:35:15+08:00 — compactneck
+保原R225入口，去可省coast、K1=3.2/K2=7.5两C²turn接原loop/tail背景，实际采样尺寸3.915218/κ7.99426。此为标量背景设计，完整非轴D≤5G、域/球排除/全t reach未付；真实圆化和固定profile频率精化继续并行。

@@ -1,0 +1,26 @@
+{
+  "result": "R634",
+  "status": "proved in the explicitly stated scope; absolute Serre uniformity remains open",
+  "recovery": "New conditional theorem on the original curve and original CM point; no old-byte recovery claim.",
+  "source_proof_sha256": "5ca8e03f218f52589d1755c36dd036f4fd75923f370113b0b87345d59fb3e360",
+  "root_review": "Read the full proof and primary BMS Theorem 7.9 with its identity principle, and Fuchs–Pham Theorem 2.2. The comparison explicitly starts from the R593 factorwise pullback/tensor metric; arbitrary cross-factor splittings are not silently discarded. Checked the actual kappa-weighted trace, simultaneous target vectors, exterior elimination, NS independence, c1 Taylor coefficients, and rational Galois descent in the analytic subgroup argument. No p-adic unit, all-p analytic nonvanishing, or uniform bound follows. This is a new proof; no sealed mathematics was rerun.",
+  "files": [
+    {
+      "file": "results/R634-CM-calibration-eliminates-actual-height-matrix.md",
+      "bytes": 21121,
+      "sha256": "3cd3e8f3af1f84753c5e85a74386a5f3e0547678cd914b9d0f0918e6f108d2a4"
+    },
+    {
+      "file": "notes/R634-agent-CM-calibration-manifest.json",
+      "bytes": 3483,
+      "sha256": "30cf31f19681066e1a245e16053f837b4b3de1f55dbf089e285a57f90c15ef23"
+    }
+  ],
+  "same_original_curve_and_CM_point": true,
+  "same_factor_metric_rho_and_Omega": true,
+  "all_A_height_matrix_coefficients_eliminated": true,
+  "fixed_Y_linear_height_and_target_values_computed": false,
+  "all_p_nonvanishing_proved": false,
+  "uniform_Serre_bound_proved": false,
+  "mathematics_repeated_for_packaging": false
+}

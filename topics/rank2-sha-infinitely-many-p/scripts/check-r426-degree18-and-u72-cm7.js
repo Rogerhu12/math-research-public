@@ -1,4 +1,4 @@
-// Exact Q(sqrt(-3)) finite-fiber certificate for R426.
+// Exact Q(sqrt(-3)) finite-fiber certificate for R426 and R436.
 // Built-in BigInt only; no target-prime scan.
 "use strict";
 
@@ -74,8 +74,16 @@ const parts=[
  ['-omega2',qo.map((x,i)=>mul(f(1,0,2),sub(x,mul(omega,qon[i]))))]
 ];
 for(const [label,P]of parts){
- const expected=label.includes('omega')?f(-1,0,12):f(1,0,12);
+ // b=1. The earlier finite-field guess +/-1/12 was not an exact identity:
+ // 12096 == -12 (mod 1009), so that guess had the same reduction.
+ const expected=label.includes('omega')?f(1,0,12096):f(-1,0,12096);
  if(!eq(P[12],expected))throw Error('U72 component mass '+label);
  console.log('U72 component',label,'exact_mass',P[12].map(String));
 }
 console.log('Exact identity: (N^2-1)(N^2-omega) U72=0; all four spectral components nonzero.');
+if(process.env.OUT_DIR){
+ const fs=require('fs'),path=require('path');
+ fs.mkdirSync(process.env.OUT_DIR,{recursive:true});
+ const certificate={field:'Q(delta), delta^2=-3',coefficient:'[a,b,c] means (a+b*delta)/c',curve_b:1,normalization:'N=M_gamma/(omega*gamma)',basis:'sigma^72*(1,X,...,X^12), X=x^3',orbit,parts};
+ fs.writeFileSync(path.join(process.env.OUT_DIR,'r436-u72-exact-components.json'),JSON.stringify(certificate,(_,x)=>typeof x==='bigint'?x.toString():x)+'\n');
+}

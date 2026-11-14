@@ -26,7 +26,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--prime", type=int, default=3623)
+    parser.add_argument("--workers", type=int, default=2)
     args = parser.parse_args()
+    assert args.workers >= 1
     args.out.mkdir(parents=True, exist_ok=True)
     p, s = args.prime, (args.prime+1)//6
     tasks = []
@@ -55,7 +57,7 @@ def main():
             print(json.dumps(item), flush=True)
             return item
 
-        with ThreadPoolExecutor(max_workers=4) as pool:
+        with ThreadPoolExecutor(max_workers=args.workers) as pool:
             for future in as_completed([pool.submit(run, task) for task in tasks]):
                 summary.append(future.result())
                 (args.out / "matrix-status.json").write_text(json.dumps(summary, indent=2) + "\n")

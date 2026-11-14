@@ -1,0 +1,283 @@
+{
+  "result": "CI2026111404",
+  "kind": "Adopt disabled-public-runner rule; retire requests and preserve local recovery drivers",
+  "files": [
+    {
+      "file": "scripts/p41_ci_recover_ramified_ss47.py",
+      "bytes": 10117,
+      "sha256": "7de5aee6f70873bcd38d95532ef81267999ec010a3dc5f03386cefe8e3b8cf8e"
+    },
+    {
+      "file": "scripts/p41_ci_recover_shifted_j44_ss47.py",
+      "bytes": 10242,
+      "sha256": "53633314ef676f74f87116be493e01e25ea09e8e1ad5cfe444e5be62cc1913c2"
+    },
+    {
+      "file": "scripts/p41_ci_continue_true_CM4_chains47.py",
+      "bytes": 9426,
+      "sha256": "950b8674d57e0e71c4d53b4ad5afd0d03baaceaaef7d7138b0e892a92c828aae"
+    }
+  ],
+  "existing_published_chains_or_results_repeated": false,
+  "unchanged_math_engines": [
+    "p41_rebuild_shifted_SS_F2_clearing_frame47.py",
+    "p41_run_shifted_SS_F3_derivative47.py"
+  ],
+  "mathematical_conclusions_claimed_before_return": false,
+  "rule_commit": "af6f8d4d6ba739501182942bf907054e36748996",
+  "queue_requests_prepared_but_not_published": [
+    {
+      "result": "R659",
+      "disk_id": "SS_j44_08",
+      "request": "ci-queue/serre-uniformity--j44-08-R659.json",
+      "sha256": "a5d658b562af7d7a4ee9773d5eebbdfb6cc7de3ce476e1fce2ed3e9b1a18f29a"
+    },
+    {
+      "result": "R660",
+      "disk_id": "SS_j44_16",
+      "request": "ci-queue/serre-uniformity--j44-16-R660.json",
+      "sha256": "492c45c12d865abdf0fe636989b19f33994b3f761c68170f636b2b4b80a20481"
+    },
+    {
+      "result": "R661",
+      "disk_id": "SS_j44_18",
+      "request": "ci-queue/serre-uniformity--j44-18-R661.json",
+      "sha256": "9fc6f5931a0335f3a5ef3e05fcfdab481801756710941fd0ca8dce30a68997ca"
+    },
+    {
+      "result": "R662",
+      "disk_id": "SS_j44_19",
+      "request": "ci-queue/serre-uniformity--j44-19-R662.json",
+      "sha256": "001b7ef1885b690f5dadfc81b06d855f54ca8722409a19ff6d544827e0e0a084"
+    },
+    {
+      "result": "R663",
+      "disk_id": "SS_j44_20",
+      "request": "ci-queue/serre-uniformity--j44-20-R663.json",
+      "sha256": "69e349af8ab67b0fdebdcab83589f745dbd806e6918d35619d07ae4a878d50fc"
+    },
+    {
+      "result": "R664",
+      "disk_id": "SS_j44_21",
+      "request": "ci-queue/serre-uniformity--j44-21-R664.json",
+      "sha256": "9da8e00e90a9a89d9720ae9501de7c39ce43d0f6146e8f0bdfc4995bffb0d610"
+    },
+    {
+      "result": "R665",
+      "disk_id": "SS_j44_22",
+      "request": "ci-queue/serre-uniformity--j44-22-R665.json",
+      "sha256": "169efde32c57cfbba991e40ed8f00314453f9feb7e105a02861314abee7c4b73"
+    }
+  ],
+  "retired_queue_requests": [
+    {
+      "request": "ci-queue/serre-uniformity--j0-09-R620.json",
+      "sha256": "406d75bc69ae69929d67a9718c4e412e5251e1b88153533e38f9312edbd6c579",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-11-R621.json",
+      "sha256": "455851291e61af3e9f8c0232eab5b3d7bff5ffff2b2165d3b0afd815ff045192",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-12-R622.json",
+      "sha256": "0dc0bb4d62d160c37d7cf5beb1895c3ddc33a94569d34f4e3132905860b5706b",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-13-R623.json",
+      "sha256": "5815bcd7ae295abdd4ef74eb67d4d6bdab124293260b994b4eabf8fe8c3852a0",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-14-R624.json",
+      "sha256": "671a2de75019d70af3ca9292cb1307705906b94c75aadb667c2f4f1120d7dbde",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-15-R625.json",
+      "sha256": "e0960b30146119c1de91c7bcdcfa312d94ef23d36823798323561f0f5bf53177",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-16-R626.json",
+      "sha256": "c5bb561dbcd21da8aafb95131a74b9ec8ee0e5dbb6a26a4a33e4ccaa57606597",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-17-R627.json",
+      "sha256": "5564576afc5eb60ffaa84dcd78057e4d373461e75e5a236bf205c6118130f0cd",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-18-R628.json",
+      "sha256": "78d4ed4d9303c2c4e5240c01c2b9e06b5b07770cecd8fbac6dba0c2cf8f7a0ac",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-19-R629.json",
+      "sha256": "3959a197b7b5d097d148c0bebc7220165207fa25a30f459552bc8b1bca0589c3",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-20-R630.json",
+      "sha256": "badb7df680671629125cf65a0457754dfd220dd64fde4ac52299d37721682d7a",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-21-R631.json",
+      "sha256": "8c970ca65bafd299c6eeada436433aff39e539c3ebe25a9fa42fb19c58052fb9",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j0-22-R632.json",
+      "sha256": "46484208e32adf66348d188077fd46f2147a5426ed0f4714eddfdecdc2fa50c2",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-01-R635.json",
+      "sha256": "da8a1e8c2e6595c4720309c8f3761e136354405c40205a9f016c0f91df6f66a2",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-03-R636.json",
+      "sha256": "31c416728ece479cb62803c09ef53b4b701816cb6df636222e1098d0f7b05d1c",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-04-R637.json",
+      "sha256": "e1f79d167ec6069327b0675895480dc66c05def473325b92c7c58634f00d4339",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-05-R638.json",
+      "sha256": "1756c3f42210a63ebfbec7b5355087fa26e784835d525c8b7ac1af036917e54c",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-07-R639.json",
+      "sha256": "d650b2f2c6c5d57bf98968a7f37e942ff13fd69618565cfb2706de9ee2fe0ee0",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-08-R640.json",
+      "sha256": "515e98385f1a738912f1033309ef2086999b10f1346a89755bc03c108f526a27",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-09-R641.json",
+      "sha256": "64abc80690b86d06d1aefbdd3f28cc3e08b71698a3dc088401d809c97887964b",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-10-R642.json",
+      "sha256": "8429219ae28f78df93b83419b26c2d6afaa278b26b4b1508baacdab33bc997ef",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-11-R643.json",
+      "sha256": "b6a16b5210f6b37e69c3bc2f77ab56585fdf896385adaf200f33e283d099dff4",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-12-R644.json",
+      "sha256": "9ab79f63ee2502e179371fa8cd89ba6a3ce8c88ddcc26cd66a65b9dde1bbccca",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-13-R645.json",
+      "sha256": "8730424bd94b45afff705bbe517193952538e1b630f33c6cce98d8bc10c3bd34",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-14-R646.json",
+      "sha256": "06f01816c4df2f206eb984b2db2d728df5254614ca622601f9e124984bd587a2",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-15-R647.json",
+      "sha256": "9414e6a626e83a91279647fd4b85de06d1e40cf63fddf14d9032855eb859687b",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-16-R648.json",
+      "sha256": "a3d754196a9034a348227e5cb13895bdcf240d59723bf7186b73e94c516aa25d",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-17-R649.json",
+      "sha256": "9938f63025d16ed9017d8e602a7ccbadd6230914e8e7607468858053e4d5b16f",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-18-R650.json",
+      "sha256": "ffe408fe1500c552cc225a09ec8eee27ae122354a0edf87caf92b278ac8ac80f",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-19-R651.json",
+      "sha256": "20c8c6fd463b87b6b318d3e7a44a87f67131efc70e7fba593179d37d17ff7650",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-20-R652.json",
+      "sha256": "0a6775331a76ec01e6106225ad598185565d79055ad729989ebd9f41c65ecbd5",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-21-R653.json",
+      "sha256": "57414f178fdbc71a6e92939473d6db5a103e3c98281a9155461e82429801963a",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j36-22-R654.json",
+      "sha256": "099c0f17ac4e38f8aa52f3ebd190a41d6485f0d0fb6a8945d2952e380fe5f341",
+      "previously_published": true
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j44-08-R659.json",
+      "sha256": "a5d658b562af7d7a4ee9773d5eebbdfb6cc7de3ce476e1fce2ed3e9b1a18f29a",
+      "previously_published": false
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j44-16-R660.json",
+      "sha256": "492c45c12d865abdf0fe636989b19f33994b3f761c68170f636b2b4b80a20481",
+      "previously_published": false
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j44-18-R661.json",
+      "sha256": "9fc6f5931a0335f3a5ef3e05fcfdab481801756710941fd0ca8dce30a68997ca",
+      "previously_published": false
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j44-19-R662.json",
+      "sha256": "001b7ef1885b690f5dadfc81b06d855f54ca8722409a19ff6d544827e0e0a084",
+      "previously_published": false
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j44-20-R663.json",
+      "sha256": "69e349af8ab67b0fdebdcab83589f745dbd806e6918d35619d07ae4a878d50fc",
+      "previously_published": false
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j44-21-R664.json",
+      "sha256": "9da8e00e90a9a89d9720ae9501de7c39ce43d0f6146e8f0bdfc4995bffb0d610",
+      "previously_published": false
+    },
+    {
+      "request": "ci-queue/serre-uniformity--j44-22-R665.json",
+      "sha256": "169efde32c57cfbba991e40ed8f00314453f9feb7e105a02861314abee7c4b73",
+      "previously_published": false
+    },
+    {
+      "request": "ci-queue/serre-uniformity--true-CM4-pair-R655.json",
+      "sha256": "9615faba7507c8992cd008e9c74cc685b5314a1e6dcfd9185d3133a4f660a9f8",
+      "previously_published": true
+    }
+  ],
+  "published_requests_retired": 34,
+  "unpublished_requests_withdrawn": 7,
+  "no_new_ci_requests": true,
+  "mathematical_engines_changed": false
+}

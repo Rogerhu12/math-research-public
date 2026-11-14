@@ -1,0 +1,75 @@
+{
+  "schema": "fixed-finite-collar-exact-binary-Fourier-bound-v1",
+  "finished": true,
+  "source_sha256_at_start": "673d7446fdef2afae0d43416513930442fd1ae368e29a1d831f3b84db4a10f3e",
+  "adapter_sha256": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937",
+  "input_complete_sha256": "a6719a6eaa596ea33133f9ba78a19185665458578e17706143ed551291d9dd81",
+  "terminal_node_original_index": 2304,
+  "coefficient_file": "A-fixed-collar-bound-r1.npz",
+  "coefficient_sha256": "16acbf29b6fe61d58a4a87986c139278bf1f05fa58285a6a5043c4207353dcb8",
+  "coefficient_shape": [
+    3,
+    257,
+    3
+  ],
+  "coefficient_definition": "Positive Fourier amplitudes: V(theta)=Re sum_k c_k exp(i*k*theta), including the single Nyquist cosine. Stored complex128 real/imaginary components are exact binary input data.",
+  "cuff": {
+    "exact_fraction": "900719925474099/18014398509481984",
+    "float_upper": 0.04999999999999999
+  },
+  "inner": {
+    "exact_fraction": "455418285960815/9007199254740992",
+    "float_upper": 0.05056158669090205
+  },
+  "width": {
+    "exact_fraction": "10116646447531/18014398509481984",
+    "float_upper": 0.0005615866909020606
+  },
+  "bernstein_controls": "P0=P1=P2=0; P3=V0-(2/5)L V1+(1/20)L^2 V2; P4=V0-(1/5)L V1; P5=V0.",
+  "derivative_rule": "Q_i=(degree/L)*(P_(i+1)-P_i), recursively; angular order d uses k^d in the exact real/imaginary coefficient l1 bound.",
+  "all_radius_all_angle_vector_bounds": {
+    "r0_theta0": {
+      "exact_fraction": "69602724801704941588055494461519698248326243294636702003329933263/1243308091024466605388455620367052100251140376993369293601159942232898742531333438832640",
+      "float_upper": 5.598188035947984e-23
+    },
+    "r0_theta1": {
+      "exact_fraction": "35226266693062000006587723684191710583911552513869155911323942871/310827022756116651347113905091763025062785094248342323400289985558224685632833359708160",
+      "float_upper": 1.133307727903101e-22
+    },
+    "r0_theta2": {
+      "exact_fraction": "96929180192725374402570891212290420427233973719493236157550711127/310827022756116651347113905091763025062785094248342323400289985558224685632833359708160",
+      "float_upper": 3.1184283571373603e-22
+    },
+    "r1_theta0": {
+      "exact_fraction": "69602724801704941588055494461519698248326243294636702003329933263/139645055322037628606848951019090292472274359079537803772247990914083762164677476352",
+      "float_upper": 4.984259889560216e-19
+    },
+    "r1_theta1": {
+      "exact_fraction": "2709712822543230769737517206476285429531657885682242762409534067/2685481833116108242439402904213274855236045366914188534081692132963149272397643776",
+      "float_upper": 1.0090229578648857e-18
+    },
+    "r2_theta0": {
+      "exact_fraction": "40320758172499222699035586066565998006218075152841235727009784471/9802850564892287153913222198681154600389835066617708042621198773806361472925696",
+      "float_upper": 4.113166665714879e-15
+    }
+  },
+  "normalized_first_derivative_operator_perturbation": {
+    "exact_fraction": "314888292224130066503556687219495274905722910884237715147185460851908801097281189/628905419112460823845307796665610813165273569301785805068268603440766039725311658537370702305034240",
+    "float_upper": 5.006926044118278e-19
+  },
+  "relative_metric_operator_defect_upper": {
+    "exact_fraction": "396069906789647116394524395779508561868425653504409176829625163916974308194101117512764578838668452600495350068808041012215352008504396125705139158225678814505840203842430839076441/395522026189020004095684418991870893406481947498931715001124437127938086625603770449454265190444822602391401637567049658783748903678154092139004695065372733441097836095604418145571458718847572377600",
+    "float_upper": 1.0013852088236555e-18
+  },
+  "background_hypotheses": "F0=(r cos(theta),r sin(theta),h0(r)), h0_prime=w(r); g=(1+w^2)dr^2+r^2 dtheta^2; r>=cuff>0. The original unchanged source background has this form.",
+  "proof": "Bernstein coefficients bound each radial derivative by convexity. Fourier triangle inequalities bound all angles. In a g-orthonormal frame J0 has orthonormal columns and ||DB||<=delta, hence ||(J0+DB)^T(J0+DB)-I||<=2delta+delta^2.",
+  "unchanged_collar_width": true,
+  "nonzero_defect": true,
+  "infinite_nonlinear_tail_proved": false,
+  "limitations": [
+    "This exact bound applies to the finite collar defined by the exported binary Fourier jets.",
+    "The FFT/readout coefficients are not certified as an exact infinite nonlinear solution.",
+    "No global embedding, reach, all-time family or large-amplitude conclusion follows."
+  ],
+  "seconds": 0.979797559999497
+}

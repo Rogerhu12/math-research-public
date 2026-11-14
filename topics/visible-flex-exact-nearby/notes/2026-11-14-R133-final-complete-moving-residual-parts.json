@@ -1,0 +1,43 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "complete-merged.json.gz",
+  "original_bytes": 4592623,
+  "original_sha256": "6f52030b7954f049a8e42a5a513a1f69b553819065b0c8b2245fa173e514cbb1",
+  "native_kind": "complete_actual_moving_residual_all_closed_rows_and_interfaces",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 7296,
+  "original_source_sha256": "24ec0bf2b9d2b03ebfa07f4b39b8fdee3277f8e4b2aa14385c267122e6b8e81f",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "parts": [
+    {
+      "file": "2026-11-14-R133-final-complete-moving-residual-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "1e58c2138dd568167314c51805cf26e8670dbfb76d5797f8ebe406b8c20a2a88",
+      "compressed_bytes": 1910756,
+      "compressed_sha256": "e1833d0aa945a6ff506f894c17b93bc267f98d37482fcfbbc5ebd48f98a06a5c"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-moving-residual-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "adaee651b2357c0a10882e14c94b8b8ce9f61f3340ae13debcc67d8e8bb4e09d",
+      "compressed_bytes": 1947563,
+      "compressed_sha256": "852c89558b7df5c6d8df93939f6012f394b207e426f2499dd0db58ae4ce49386"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-moving-residual-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 592623,
+      "sha256": "4390b1ae0584097a3a70024a798f6c9e5d541bc0e67181d7896fb511d3cf0791",
+      "compressed_bytes": 571365,
+      "compressed_sha256": "47535b9239be1e168921d8339515da3caabb7ae8275cc0ffc8b06437b33c1dbf"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}

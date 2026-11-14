@@ -1,0 +1,96 @@
+{
+  "schema": "refined-tail-assembly-interface-readout-v1",
+  "finished": true,
+  "source_sha256_at_start": {
+    "/workspace/scratch/ffc1334c1988/math-research/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_tail_interface_check.py": "9950175cc4779be1b1c0b32945f1a65a36878d6f36360500ebe150a9480d7c51",
+    "/workspace/scratch/ffc1334c1988/math-research/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_tail_adapter.py": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937",
+    "/workspace/scratch/ffc1334c1988/exact-work/metric-source-b59ccf0b.py": "b59ccf0bf68582189581efd7adecaa9a92a23f2dfdf1013a7abd3406f430296b",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz": "917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf",
+    "topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "/workspace/scratch/ffc1334c1988/exact-work/A-radial4-steps12-r1/complete-4.json": "a6719a6eaa596ea33133f9ba78a19185665458578e17706143ed551291d9dd81",
+    "/workspace/scratch/ffc1334c1988/exact-work/A-radial4-steps12-r1/background-4.json": "c2ba711603f4d192b5416dbc9fc9824b919b0a95976bf3a5cd6bd500ab0b556e",
+    "/workspace/scratch/ffc1334c1988/exact-work/A-refined-closed-r1/A-plan.json": "7cb4acce133381d9212f614d3f9e6cbbad0eca51a3000ae3a4a88b21483f99cf",
+    "/workspace/scratch/ffc1334c1988/exact-work/A-refined-closed-r1/A-background.json": "e627eca12d3f11855d8198bd8376a893d7cc5bafd8d98e691072dfe22e41da3a",
+    "/workspace/scratch/ffc1334c1988/exact-work/A-radial4-metric1024-r1.json": "b456fd7ffdcddad8ef2797bc7ec9a55969cfe22bfcb39abc9a79cea4e879d3af"
+  },
+  "cut_mean_anchor": 0.0,
+  "absolute_prefix_mean_integrated": false,
+  "angular": 1024,
+  "mean_angular": 1552,
+  "cut_twojet_difference": {
+    "pos": 1.118863024879935e-16,
+    "s1": 2.486410087150353e-16,
+    "s2": 4.450098274550997e-16,
+    "p1": 1.1102230292780475e-16,
+    "p2": 1.1188630310358827e-16,
+    "sp": 2.482534390000168e-16
+  },
+  "cuff_zero_twojet": {
+    "pos": 0.0,
+    "s1": 0.0,
+    "s2": 0.0,
+    "p1": 0.0,
+    "p2": 0.0,
+    "sp": 0.0
+  },
+  "endpoint_definition": {
+    "radius": 0.30000000000000027,
+    "r_s": -0.9968152785361251,
+    "r_ss": 0.14744006140246577,
+    "chart_identity_residuals": {
+      "theta_s": 0.0,
+      "theta_ss": 0.0,
+      "rho_s": 0.0,
+      "rhop_s": 0.0,
+      "rhop": 0.0,
+      "rho": 0.0,
+      "theta": 0.0
+    },
+    "definition": "Direct cylindrical saved Fourier coefficients converted to Cartesian amplitudes; no prefix FFT or point interpolation."
+  },
+  "selected_stage_comparisons": [
+    {
+      "stage": 43,
+      "radial_points": 17,
+      "new_vs_prior_unpatched_jet_maximum": {
+        "s1": 1.6967549939272615e-16,
+        "s2": 3.5880141986884064e-12,
+        "p1": 1.8102802897817804e-18,
+        "p2": 3.6084887020315687e-16,
+        "sp": 2.3028536856134685e-14
+      },
+      "patched_metric_maximum": 6.217889746901072e-08
+    },
+    {
+      "stage": 111,
+      "radial_points": 17,
+      "new_vs_prior_unpatched_jet_maximum": {
+        "s1": 1.0201020337489292e-16,
+        "s2": 1.369291926210868e-12,
+        "p1": 1.7946312926158437e-18,
+        "p2": 3.711581690652373e-16,
+        "sp": 1.4482048768643892e-14
+      },
+      "patched_metric_maximum": 7.292281634097009e-08
+    },
+    {
+      "stage": 1625,
+      "radial_points": 17,
+      "new_vs_prior_unpatched_jet_maximum": {
+        "s1": 7.201506375040245e-21,
+        "s2": 5.685556193068349e-16,
+        "p1": 2.2246570902308036e-28,
+        "p2": 4.9338351511781696e-26,
+        "sp": 2.4516286641746853e-24
+      },
+      "patched_metric_maximum": 4.503656643922893e-16
+    }
+  ],
+  "fixed_cut_width": 0.01,
+  "background_queries": 201,
+  "source_background_inverse_radius_residual": 2.7755575615628914e-16,
+  "loaded_tail_nodes": 19,
+  "seconds": 37.670234979999805,
+  "scope": "Small actual-data readout for the new assembly interface, not a full audit.\n\nChecks direct Fourier cut jets against the saved quintic at a common cut mean\nanchor and compares the new Fourier evaluation with the prior Cartesian\nHermite consumer at its saved metric/curvature witnesses. No prefix mean\nprimitive, whole surface, nonlinear solve or global reach check is run here.\n",
+  "whole_closed_surface_evaluated": false
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "complete-angular-defect.json.gz",
+  "original_bytes": 6871825,
+  "original_sha256": "7a3dd2c1d48b611f5d9a6bd8c2d7ebeeeb4c2f6a7c2bcc4f61f4d012be4e2f90",
+  "native_kind": "complete_original_moving_model_continuous_angular_defect_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 7722,
+  "original_source_sha256": "2450201aec8f44477b71b3809d81bf99798c363dc0401c2391883ad332d2ab2b",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "parts": [
+    {
+      "file": "2026-11-14-R133-final-complete-angular-defect-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "eb735b3940fbd3cd4ac1e7671a7491f3f9f76923c17e1de2f3cd2ce6a675e5c5",
+      "compressed_bytes": 1920652,
+      "compressed_sha256": "c802431e5a48f60e10afef6f23eb5f2d393dcd30ea0655d24df137bdf0f9f311"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-angular-defect-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "ac09bd9ee015d61ca46621c09fb138df9b4189f537b3da41b669296feead98c0",
+      "compressed_bytes": 1891193,
+      "compressed_sha256": "388f24a4e963e6c5ee19b3b21e3e0e7de1d7a5bb3b82e31fb89fbb753cc9fed2"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-angular-defect-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "0956467ea7a01d9fb02deb64b7525e221eb45fe65f8f905ea3222a9d3e590dc1",
+      "compressed_bytes": 1918717,
+      "compressed_sha256": "dab20ef5d5a9e89325a00c012590192d0e44ee9be5d9f2cf7ba5b003aeec3551"
+    },
+    {
+      "file": "2026-11-14-R133-final-complete-angular-defect-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 871825,
+      "sha256": "08bbb606dfcd061e31a6e43697ae2b732c2d6c2bfacc5c2d60c99890cb780db8",
+      "compressed_bytes": 859046,
+      "compressed_sha256": "1afff63cd113f295c067221a313f588465e6c2cac85501c7ba0511a2663c2917"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}

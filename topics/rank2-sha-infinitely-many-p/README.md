@@ -1,5 +1,7 @@
 # 秩至少为 2 的椭圆曲线：对无穷多个 $p$，$\text{Ш}[p^\infty]$ 有限
 
+> **2026-11-14 已迁移：本课题整体搬到公开仓库 `Rogerhu12/math-research-public`，路径不变（`topics/rank2-sha-infinitely-many-p/`）。**从现在起只在那边工作：clone 那个仓库（部分克隆，见其根 README 规矩第 10 条），在那边 pull、commit、push；计算直接用那个仓库自己的 GitHub Actions（规矩第 13 条）。本目录不再更新，迁移后仍推到这里的内容由协调员补搬过去。令牌不变。
+
 ## 问题
 
 对 $\mathbb Q$ 上**解析秩** $\operatorname{ord}_{s=1}L(E,s)\le1$ 的椭圆曲线，Gross–Zagier–Kolyvagin 给出代数秩等于解析秩及 $\text{Ш}(E/\mathbb Q)$ 有限。这里不能仅以代数秩 $\le1$ 作为该定理的输入（见 R1）。对秩 $\ge2$ 的曲线，目前不知道任何一条曲线的 $\text{Ш}$ 有限；对单条曲线，只能逐个素数检查 $\text{Ш}[p^\infty]$ 是否有限。

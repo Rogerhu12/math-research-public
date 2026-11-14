@@ -779,3 +779,19 @@
 ### R275 附录：首边真实三块等价与无参数条件平方分解
 
 [完整证明](results/R275-appendix-first-edge-three-block-equivalence-and-parameter-free-sos.md)。任意旧正权和合法出生的新首边准确等价M(t)≥0，保旧顶零精度；去一个明确平方得到更强P(t)。两条同源S1/S2及旧低birth第二边足对全部t给P的完整SOS，允许底块奇异。此处证明等价与条件蕴含，未证明一般Boolean自动满足S1/S2；全birth与一般高度仍开。
+
+### R280：原 odometer 的全部加权因子与闭子格排除
+
+[完整自含证明](results/R280-odometer-weighted-factor-and-closed-sublattice-exclusion.md)。任意a.e.有限可测复权h（不预设L²）给出的非零加权可测因子空间若A不变，必等于H。支撑先用保测/遍历付满，权由同相位满支撑向量归一；单向因子由真实U^(2^m)强返还升级双向，简单Prüfer谱迫真因子有限，单射拟幂零排有限限制。由自含子格表示进一步排全部真闭逐点子格及相位共轭保正正交投影，每个非零轨道的闭子格均为H；不外推通常线性循环或普通ISP。
+
+### R279：全部高度的仿射真 MP 比较与改进低占据常数
+
+[完整证明](results/R279-bosonic-affine-primitive-gram-transfer-and-low-occupation-bounds.md)。有限合法正权及无限正 ℓ² 行的完整层逆给 X_n≥I+(n/r)(X_r−I)，同源保全部自由度；无限满射由有限头有界右逆和有限 Neumann 和付清。全部相邻的低占据常数改善，首边 sδ≤1/(2√2) 得 c1；原慢尾得 s≤(m+1)/(6√2)。[真硬核联合纤维](notes/2026-11-14-bosonic-hardcore-first-edge-789f-next.md)准确给 Γ2=2I+4L*L+M*M，余一般平方能量仍开；[共同 annihilator 仿射锐例](notes/2026-11-14-common-annihilator-affine-sharpness-789f-next.md)说明不能仅用坐标不变性替代 Boolean 硬核。
+
+### R281：极强位传输、首边与全高度等价及普适下限一
+
+[完整证明](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)。一位添加的同源PSD块在强权极限压到旧下一高度，误差有明确O(a⁻²)界，严格违反可用有限强权保留。因此全部出生首边与全部高度的最优统一常数相同；等权真空中央边给下限一。八位权(4,4,1,1,1,1,1,1)、出生二的完整四维群约化逆给准确首比22801/43836>1/2，有独立有理校验。原常数一上界、graph接续与ISP仍开；强等权池必须支付内部出生。
+
+### R283：真实惰性配对的精确嵌入与半密度薄带的全部困难
+
+[完整证明](results/R283-exact-singlet-padding-and-half-density-universality.md)。同权两位的反对称直线同时被D,D*消去，添加k对把全部旧完整逆及primitive Γ精确保为共同正交约化块，最高高度不变。任意有限模型（含出生零）可取有限权/位数嵌入任意δ<δ0、1/2<sδ<1/2+ε，所有严格违反和分支费用原样保留。因此任意薄上侧带已包含相同最优普适常数问题；结合R281其首边常数至少1。稀释δ不免出生费用，未证一般正性或ISP。
