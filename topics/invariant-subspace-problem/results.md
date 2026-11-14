@@ -901,3 +901,7 @@
 ### R297 附录：固定方向局部相位的完整等号空间及准确维数
 
 [完整物理等号分类](notes/2026-11-14-even-phase-directional-local-equality-kernel-and-multiplicity-789f-next.md)把实际等号空间写为E=⊕g(P_g,1⊗其余P_h,0)：仅一组spin1最低权、其余组singlet。这一固定物理子空间在整条正权直线上Φ=I；充分小非零参数时，由高J二阶严格及全四权等号分类排除所有其余源，故ker(I−Φ)=E。全部等值组q_g为偶时dimE=Σg m1(q_g)∏_(h≠g)m0(q_h)，其中m0/m1为准确相邻二项式差；任一奇数组则整个相位局部严格。此结论针对完整缺陷核，二阶核可更大；没有共同方向半径或全局排除额外等号的声明。
+
+### R297 附录：任意偶相位的倒数伴随传输与对数流三阶抵消
+
+[完整非微扰恒等式](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)在同一无权源保真实h/ell/g/q四个二次型与完整K逆，证明倒数权后准确变(πell,πh,πg,πq)。令J=hg⁻¹ell+2g−q、T=ell⁻¹/²Jh⁻¹/²，则实际归一相位为T*T，且T(z⁻¹)=T(z)*。故任意正权与倒数权的相位完整同谱（含零重数），κ界等价；真目标仍是[[h,J*],[J,ell]]≥0。沿居中对数流z=e^(tx)，T′(0)=0、二阶自伴/三阶反自伴，得到完整I−Φhat=t²K_x+O(t⁴)，三阶整源消失。没有把同谱称收缩，也没有删真实混合块或用逐矩阵偶性替同谱。

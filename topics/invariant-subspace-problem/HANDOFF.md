@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须全体有界算子定理或完整反例，有限模型/候选排除均不算完成。
 - 根Astra-ISP-789f独占Git、H/open/results/log与main；代理只写各自789f稿。
-- **最近成功实际 pull 与已读规则提交：** `9980e4752718e8f567ba11b1c98326a4dd1cc3be`（2026-11-14 14:44:11 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `7f9d9708d9725bbd7056d4f46cccd28b183f0ae1`（2026-11-14 14:47:04 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 持续研究，每结论即提交并推；非快进立刻pull --rebase再推到成功，不force。至少每小时实际pull，逐次只读两README新差异并立刻遵守。令牌只CLI临时环境；不写根README/LOG、不问重复授权。
 - 迁移授权已读，只用Rogerhu12/math-research-public；规则12取消额外独立复核，规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行、数据>1MB压gz/每文件≤5MB。
 - [压缩前完整H](notes/2026-11-14-handoff-before-all-birth-second-variation-789f.md)、[完整前open](notes/2026-11-14-open-before-first-padic-obstruction-789f.md)保全部旧范围/失败/来源链；未列不等于已闭。
@@ -26,7 +26,7 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 ## Boolean相位、加强费用与连续尾
 
 - R297全正权/出生/高度加强κ等价奇硬首边同κ，真实费A_U*L1L3⁻¹L1A_U，倒数桥B*L2²B≤κG1；完整逆、投影及同源不能删。R295 birth1全height κ1024、原尾674/81；R298全独立五权K2≤743/782。R300一般旧2s＋三弱位全三族范数极限无放大，边界不代有限内部。
-- [完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)给F/Q交换、T²=F⁻¹Q和Tv=σp⁻¹D²v；压缩矩不交换、低birth不删。[奇→偶完整极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)证明所有偶相位统一κ单独足全部加强高度；一般κ未证。有限a逐系数路线被真实四权排除；首Schur条件SOS尚缺最高边联合缺陷，详前H。
+- [完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)给F/Q交换、T²=F⁻¹Q和Tv=σp⁻¹D²v；压缩矩不交换、低birth不删。[倒数同谱](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)已证归一T(z⁻¹)=T(z)*及对数流完整三阶消失；真块正性仍缺。[奇→偶完整极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)证明所有偶相位统一κ单独足全部加强高度；一般κ未证。有限a逐系数路线被真实四权排除；首Schur条件SOS尚缺最高边联合缺陷，详前H。
 - [四个任意正权](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)整个三维phase≤1、等权取等，完整正系数证书已推b233febb；[等号分类](notes/2026-11-14-four-bit-phase-complete-equality-classification-789f.md)除两对等权外严格，两对不同权核准确二维singlet，全等三维。[三/五位全源](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)：三位极限0<K<1；(r,r⁻¹,1,1,1)全部4维K<3/4，固定r加小弱位后整个9维≤7/8。均不外推更大任意池/统一阈值。
 - [全位数二阶](notes/2026-11-14-all-birth-even-phase-equal-weight-second-variation-789f-next.md)真实I−Φ=ε²(Bx*Bx/4+Sx*Sx/2)+O(ε³)。[所有固定方向局部界](notes/2026-11-14-even-phase-second-kernel-effective-four-bits-and-directional-local-bound-789f-next.md)：核的真实组Casimir模块J≤2，完整MP约化二/四有效位全程支付；J>2严格二阶，故∀s,x∃η全源Φ≤1。N≥6全异x时二阶正定。[局部完整等号核](notes/2026-11-14-even-phase-directional-local-equality-kernel-and-multiplicity-789f-next.md)恰一组spin1/其余singlet，维数Σm1(q_g)∏m0(q_h)；任一奇数组局部严格。半径不代共同邻域/全权界。
 - [同源Johnson正交](notes/2026-11-14-source-orthogonality-parity-payment-and-intersection-polynomials-789f-next.md)保完整q/ell，以ε=(-1)^(s−1)支付最高两通道，负项只在j≤s−2。两侧可独立取交集多项式deg≤s−1、值[-1,1]；不能逐r任意改号。M24/s4算术反例只排出生一方法直推，非S1反例。R294/296混合费、真实低通道与graph继续。
