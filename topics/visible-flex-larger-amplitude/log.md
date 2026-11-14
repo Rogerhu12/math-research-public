@@ -222,3 +222,6 @@ M128/N1536短端.99475/264节点prepare真实0，原tol1e−5，BC0/col5.88685e�
 
 ### 2026-11-14T08:26:12+00:00 — rk24eightclosed (local; public approval pending)
 RK24完整八级与三整闭mesh七命令均真exit0，global metric4.7703317350e−8恰来自原prefix cut（原tol1e−7）。整闭幅度约.0630146未达.2；完整3mesh/法向/审计及终态保存，不把尾离散门移用于固定prefix误差平台。
+
+### 2026-11-14T08:26:13+00:00 — sourcecusp (local; public approval pending)
+真实原stage28源knot以25 RK步加入，8.73s退出0、端点差4.97e−14、旧4609节点不变；stage27局部metric2.6729e−8→4.2003e−9。仅局部改善，不冒全域或更高阶求解。

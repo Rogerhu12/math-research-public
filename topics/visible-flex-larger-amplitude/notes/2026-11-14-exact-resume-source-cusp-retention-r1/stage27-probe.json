@@ -1,0 +1,67 @@
+{
+  "finished": true,
+  "scope": "Original stage27 only; tests effect of neighboring source cusp retention. Not a full-domain maximum.",
+  "stages": [
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223
+  ],
+  "angles": 1024,
+  "source_sha256_at_start": {
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_common_grid_refinement.py": "dc6b2b3240b3e0886821d7866ae06fc343f14176f3bde77d85b67f71532d236e",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_refined_tail_adapter.py": "6b06db6c7c96078b9fabe403a0b3ade14f8b30b07a78b565ed299c77f840d937"
+  },
+  "inputs": {
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-resolved-r2/readout/complete-8.json": "c3db41ae3efd23d379e2bec2d01d78fd485b3f216480acb45f96a5ad8f85bf90",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-cusp-one-r1/complete.json": "fe2175763567d1f05bf041d99684db564588c708f5491372101bd083269bf4ad",
+    "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-resolved-r2/readout/background-8.json": "b696844e2454b50bde925f109af5ac9d643db800b05bb6d33e2d554b7f85a3d8"
+  },
+  "layers": {
+    "uniform8": {
+      "maxima": {
+        "metric": 2.6729002398516357e-08,
+        "kappa": 7.917284569636443
+      },
+      "witnesses": {
+        "metric": {
+          "common_stage": 223,
+          "x": 0.3125,
+          "r": 0.28255628844196673,
+          "theta": 1.5707963267948966
+        },
+        "kappa": {
+          "common_stage": 216,
+          "x": 1,
+          "r": 0.28393061092357064,
+          "theta": 0.0
+        }
+      }
+    },
+    "uniform8-plus-one-source-cusp": {
+      "maxima": {
+        "metric": 4.200331207848684e-09,
+        "kappa": 7.917284569636443
+      },
+      "witnesses": {
+        "metric": {
+          "common_stage": 223,
+          "x": 0.3125,
+          "r": 0.28255628844196673,
+          "theta": 1.5707963267948966
+        },
+        "kappa": {
+          "common_stage": 216,
+          "x": 1,
+          "r": 0.28393061092357064,
+          "theta": 0.0
+        }
+      }
+    }
+  },
+  "seconds": 6.898718423999526
+}
