@@ -115,7 +115,7 @@ R286固定源全height已付；实际t_q出生随q上移，受限逆不自动保
 
 R284完整零模Gram/Fischer已付同物理逆平方根能量；一般平方增长/graph识别仍开。准确公式、全部链接保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
-R279全height仿射MP比较及低占据c1范围已付；硬核Γ2联合M能量仍缺平方下界，Euler/全坐标不变性不足。准确范围、公式与非Boolean方法障碍保[此前全文](notes/2026-11-14-open-before-target-annihilator-789f.md)。
+R279低占据/仿射MP已付，真硬核联合平方费仍缺；完整范围见[此前open](notes/2026-11-14-open-before-target-annihilator-789f.md)。
 
 [R275一位MP](results/R275-one-bit-full-primitive-schur-recursion-and-innovation.md)与R278联合Serre式均保[此前全文](notes/2026-11-14-open-before-all-height-strengthened-s1-789f.md)。高birth创新、同G1运输和graph仍缺；变化度量的迹不能消去负桥。
 
@@ -137,7 +137,7 @@ R279全height仿射MP比较及低占据c1范围已付；硬核Γ2联合M能量�
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** [泛参数分类](results/R150-appendix-rank-one-mean-generic-complete-critical-classification-and-finite-exception-set.md)给原M5秩4354；全部rankAy8、0/2/−6/∞已闭，余g≠0、rankAy9有限Σ和char0 I*C=T/实际分母。旧完整范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。3333常单位预基与11条额外N给完整2195来源；原163方核/齐次度8770与74次射影gcd准则已证。[全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)在54.8127秒完成1034分量/最高45次，保全部原DAG。[完整原生GB](results/R150-appendix-complete-native-polynomial-basis-and-finite-torsion-space.md)现以184.148秒/512MiB处理全部2195来源，得到1021行、最高8次、总行次数716；不是函数域行空间替代。全部torsion正常形次数≤7，对应820维标准单项式空间中最高层泄漏C A^k全零的最大不变子空间。[完整观测/除子](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)现给W维315，charpoly315/minpoly190；5个新不可约因子共60次支撑、各重2，不能把其余次数都归旧点厚化。[九个真实目标](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)的共同最小Ann现为24次，j4/10为23次；五个额外因子均不进入目标。原基来源公式已付，char0候选s³(s−2)F+²F−²E8仍需真实证书。43588728414已在BEGIN_BASIS后1800秒超时；不再重复旧std。
+**高本质rank1原中心17式。** [泛参数分类](results/R150-appendix-rank-one-mean-generic-complete-critical-classification-and-finite-exception-set.md)给原M5秩4354；全部rankAy8、0/2/−6/∞已闭，余g≠0、rankAy9有限Σ和char0 I*C=T/实际分母。旧完整范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。3333常单位预基与11条额外N给完整2195来源；原163方核/齐次度8770与74次射影gcd准则已证。[全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)在54.8127秒完成1034分量/最高45次，保全部原DAG。[完整原生GB](results/R150-appendix-complete-native-polynomial-basis-and-finite-torsion-space.md)现以184.148秒/512MiB处理全部2195来源，得到1021行、最高8次、总行次数716；不是函数域行空间替代。全部torsion正常形次数≤7，对应820维标准单项式空间中最高层泄漏C A^k全零的最大不变子空间。[完整观测/除子](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)现给W维315，charpoly315/minpoly190；5个新不可约因子共60次支撑、各重2，不能把其余次数都归旧点厚化。[九个真实目标](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)的共同最小Ann现为24次，j4/10为23次；五个额外因子均不进入目标。原基来源公式已付，char0候选h0=s³(s−2)F+²F−²E8仍需真实证书；[原线性逆最小分母](results/R150-appendix-exact-characteristic-zero-linear-divisor-and-minimal-inverse.md)精确为46次Dlin，不能直接降成h0。43588728414已在BEGIN_BASIS后1800秒超时；不再重复旧std。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件现于模31不成立：[∞全原来源一阶连接](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)给∞阶≥24，配仿射315次得到齐次≥339。九目标24次Ann仍是另一个对象，char0原证书继续。其他mean秩的高ess仍另开。
 

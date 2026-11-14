@@ -1,0 +1,162 @@
+{
+  "format": "r150-original-linear-operator-determinantal-divisor-v1",
+  "status": "completed",
+  "field": "Q",
+  "sourceDataSHA256": "de719cecbe03b5255c202e5833ce647d550d51d99218fe0659d4f42eff018dc5",
+  "sourceSHA256": "962fdf8445faa92648f2a6351480c7c04a0c4fbc05f73803be8418b1bb7b04f5",
+  "pythonFlintVersion": "0.9.0",
+  "flintVersion": "3.6.0",
+  "originalCommonDenominator": "23366320238786911411830138211362846399922176000",
+  "originalLinearNumerator": "6 J2 B_s^T adj(J3) B_s J2",
+  "symmetryExact": true,
+  "twoTangentKernelIdentitiesExact": true,
+  "minorRowsZeroBased": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "minorColumnsZeroBased": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "bareissPivotDegrees": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    64
+  ],
+  "determinantContent": "1079691199741483239736644380527965969939950660106271253403993556876051449794642236790328455788166491238392002669650422946891721816624675285962181104167128333087844014268402306612868178022984435440341454527933467228988294524315967726970923925782617280678864369796313666620726822747228541491645965732268269445110924626962436915645409032659311066088353542642123640220042545702294296280126120263680000000000000000000000000000",
+  "primitiveDeterminantDegree": 46,
+  "primitiveDeterminantAscending": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "-4382441692326789120000",
+    "65619760273106455756800",
+    "-387493230173993658482688",
+    "1068608828273334889218048",
+    "-949540454653442396258304",
+    "-1882588122501675189534720",
+    "4909907579848931049209856",
+    "-1460563313574109752852480",
+    "-5948321996519503923511296",
+    "5575034764093081704726528",
+    "2241495833404896096288768",
+    "-5070200630364940762349568",
+    "835359717941469551788032",
+    "2051478480269359266136064",
+    "-994006213242344200732672",
+    "-329668551282882790293504",
+    "325248841029046399614976",
+    "-6726098506704592109568",
+    "-48392583112859967639552",
+    "6654734199937945399296",
+    "4551366404743081515008",
+    "-831045382605342361600",
+    "-333198413892350001792",
+    "55791355889202183040",
+    "20939418115046136400",
+    "-2065566852241702400",
+    "-1083945432784614800",
+    "7614283180954000",
+    "39816373629723625",
+    "3542716024078750",
+    "-735006358341875",
+    "-170103557275000",
+    "-5855930568750",
+    "2190379312500",
+    "388629281250",
+    "31731875000",
+    "1463203125",
+    "36718750",
+    "390625"
+  ],
+  "factorization": {
+    "unit": "1",
+    "factors": [
+      {
+        "coefficientsAscending": [
+          "0",
+          "1"
+        ],
+        "exponent": 8,
+        "degree": 1
+      },
+      {
+        "coefficientsAscending": [
+          "6",
+          "1"
+        ],
+        "exponent": 2,
+        "degree": 1
+      },
+      {
+        "coefficientsAscending": [
+          "-2",
+          "1"
+        ],
+        "exponent": 2,
+        "degree": 1
+      },
+      {
+        "coefficientsAscending": [
+          "9600",
+          "-25472",
+          "-3392",
+          "15936",
+          "-2888",
+          "-936",
+          "153",
+          "50",
+          "5"
+        ],
+        "exponent": 2,
+        "degree": 8
+      },
+      {
+        "coefficientsAscending": [
+          "864",
+          "864",
+          "135",
+          "5"
+        ],
+        "exponent": 3,
+        "degree": 3
+      },
+      {
+        "coefficientsAscending": [
+          "-8",
+          "32",
+          "-25",
+          "5"
+        ],
+        "exponent": 3,
+        "degree": 3
+      }
+    ]
+  },
+  "elapsedSeconds": 0.08122584200100391,
+  "meaning": "The two verified tangent kernel vectors have constant (0,1) Pluecker coordinate 1. For a symmetric rank-nine matrix, all ninth minors are this principal minor times signed products of complementary tangent Pluecker coordinates. Hence its primitive determinant is the full linear-block ninth determinantal divisor, up to nonzero rational scalar. This is not by itself an identity for the full seventeen nonlinear equations."
+}
