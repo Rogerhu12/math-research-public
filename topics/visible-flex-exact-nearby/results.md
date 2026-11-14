@@ -503,3 +503,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：64缺点的同germ Taylor/Hessian合同及189pin后继（2026-11-14 19:40:57 UTC）
 
 见 [T.1–T.5合同](notes/2026-11-14-R133-missing-midpoint-Taylor-Hessian-contract.md)。先从实际1341行/7844完整残差证书计算16个fallback行和1325行补集的四源预算；仅当前组数值majorant定向证实至少占selected预算一半，才用原保存同germ锚点和完整闭路径third导数凸包，双向Taylor并与原whole0..2求交，生成最多64个缺点残差。阈值只比较已使用上界，不声称实际残差下界。新target为0，原7844残差/未影响local行逐字保；单行仍整套四源选取、全193/独立mean/385误差因子及原resolvent保留。root/tail核数学，root核CI/flow及184旧pin零改。source `ebaa3caaca274b36e816dc4c1797cf7367a3ce06d5eb1d8778879e24c0349c3e`，189manifest `890c5f9d9c5251ddf7d545b4c373fd96d35dfca5782b9137651374be367a14fd`。原43628443697 artifact14127402922当前未过期；公开Actions待actual，不预先声称改进或完整响应。
+
+### R119：真实正区跨端平滑及完整外侧两端酉图（2026-11-14 19:43:43 UTC）
+
+[S1–24 完整证明](results/R119-supplement-actual-positive-cross-port-smoothing-and-exterior-unitary-two-port.md)利用原q=2长平台内固定buffer的局部角差分商能量和cutoff Green恒等式，证明完整跨端块 $\mathcal N_{CB}:H^1_B\to H^1_C$ 及其准确对偶 $\mathcal N_{BC}:H^{-1}_C\to H^{-1}_B$，范数小于 $2^{590}$。于是原三阶负端 $H_C\in H^{-1/8}$ 的真实B总通量回到要求的H−1，B输入只需原H1。完整DN四块共同Galerkin，跨项强弱配对与自块截断交换子支付极限通量；唯一性和反向构造给D=cut128与B的完整 $L^2_D\oplus L^2_B$ 满射酉图。保两mean、角pullback/通量密度及μ*物理波，完整强weak/measure源到波统一可用2^1024，atom用BV/单侧迹。root/phase全文独核通过，正文SHA `26ec424a5d14e18e135e4aaf1d5dd2f8d64639c8896f6c03a510cc8769dc204f`。eX→D真实负段与全网returned方程仍须另证。

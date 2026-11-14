@@ -291,3 +291,7 @@ root全文复核 source/CI/flow并逐项比较原93pin零改，tail独核合同/
 ### 2026-11-14 19:40:57 UTC — 缺midpoint Taylor/Hessian六件独推
 
 root全文核helper/producer/CI/flow/合同及189/184 pins，tail独核同germ完整路径、双锚/原whole交球、mean与joint合并、完整四源和恢复顺序。原9728B HANDOFF逐字归档。发布最多64新残差/0target消费者并持续下一项；未把待跑预算称作实际改进。
+
+### 2026-11-14 19:43:43 UTC — 外侧全频两端组件独推
+
+root全文核S1–24的能量常数、cutoff Green符号、distribution延拓、完整跨块极限及物理源缩放；phase独核通过。正文原blob直接推送，未增加数值target。保持eX与D的区别，继续最终真实闭合。
