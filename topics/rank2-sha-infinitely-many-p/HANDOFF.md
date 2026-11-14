@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：e93d2290be74ec34df536524d86720ed6dae0760；2026-11-14 22:48:23 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:36:11 UTC仍无环境。最迟23:30再试。
+- 最近已读规则提交：e859e1b6b9a711bdbe522c2263f640d8096c660e；2026-11-14 22:50:37 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:36:11 UTC仍无环境。最迟23:30再试。
 - 仅Rogerhu12/math-research-public/main；逐结论提交已授权，禁强推/改历史。每小时实际pull，逐次核两README，仅读差异即执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只临时终端，不入文件/回复。12:35–21:05 API历史已接回；21:39断连后非强制API追加，恢复即实际pull。
@@ -16,7 +16,7 @@
 ## 已发布、归档与分工
 
 R1–363、R365–560、R562–606已登记；R364仍开，R561/607/608/609/610/611进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r605.md)、[open](notes/2026-11-14-open-before-r603.md)；
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-katz5.md)、[open](notes/2026-11-14-open-before-r603.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
@@ -81,4 +81,6 @@ R606完整J的整Gaussian变换为J^{c′}=(c/c′)^uJ，原完整j不变；c†
 
 R603限最低角恰c3：两整非垂直临界支Δ=tδ、δ0=2/κ−1。原两支值/∂Y jet的t对角1,1,t,t⁴；5≤N≤btop_(D−3)+1时原有限列真实满射到此像，全部左条件恰5条。下一t⁴边界由同R/T的−7c3−28c4+70c5+140c6给出，Qquad仍保原D+。A−−A+首2b*/(3κ−1²)t⁴单位正处允许阶；另一支未获原算术条件，全长帽/同R余类仍开。
 
-R605原三域总行T=𝒞R_n+H_n+Cout_n，𝒞=1+λrY(κ)+λ⁴rW(κ)，H_n∈p9n且相邻差∈p^(9n+3)。删该篇(25)固定F(barπ0)的O(√XlogX)坏集后，原ray仍无穷且𝒞unit。总中央减完整Cout的相邻差以p4n误差回原I1；两像首负3/5同比例，不能同深只消I3。原O+K/七coset/全转置保(34–35)，Cout及I1仍不赋零。
+R605原总行T=𝒞R_n+H_n+Cout_n，H_n与相邻尾保正文；删固定F(25)稀疏坏集后原ray仍无穷、𝒞unit。总中央减完整Cout的相邻差以p4n回I1；原O+K/七coset全保，负3/5同比例，Cout/I1不赋零。
+
+[负五Katz点](notes/2026-11-14-original-negative-five-katz-point.md)：原ν−5=ξψ0^-4 barψ0^5，值=6⁵c1θ³Ωp I1²；θ=17^1/6是同物理测度标量，c1坏集保留。裸反射ξ^-1ψ0⁹N^-4仍root−；未证I1非零，不能套固定F计数。
