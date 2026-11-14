@@ -90,6 +90,22 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:01:08.805502+00:00",
+      "before": "196b3c73f8b1b44d5033dcb6b22a6af509c2fd52",
+      "after": "89b0882ce3bd7057642da944a6163e3da6c18fc2",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:01:10.644920+00:00",
+      "before": "89b0882ce3bd7057642da944a6163e3da6c18fc2",
+      "after": "7d72a7cd6ed9c8ba7fcdc2ae8c9b6dfd0cfde55b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -102,6 +118,11 @@
       "time": "2026-11-14T12:41:01.178513+00:00",
       "final": false,
       "commit": "4f69fbcbb2b58cdd5403975277fba453b3ed4e93"
+    },
+    {
+      "time": "2026-11-14T12:51:05.843888+00:00",
+      "final": false,
+      "commit": "e7200d2b44261f9e07dd3edeb68ec7640a34444f"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -140,7 +161,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "196b3c73f8b1b44d5033dcb6b22a6af509c2fd52",
+  "last_read_commit": "7d72a7cd6ed9c8ba7fcdc2ae8c9b6dfd0cfde55b",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-projector-range-work/science",
   "disjoint_plan": {
     "slice_id": 5,
@@ -160,14 +181,14 @@
   "successful_new_ranges": [],
   "assigned_new_cells": 384,
   "original_slice_manifest_sha256": "7cff76c2f94f9b081317a641d479be2c34ebdcfa801acddaf6ab329a2cd37398",
-  "snapshot_utc": "2026-11-14T12:51:04.058090+00:00",
-  "wall_seconds": 1814.323430456,
+  "snapshot_utc": "2026-11-14T13:01:08.832394+00:00",
+  "wall_seconds": 2419.097730682,
   "native_files": [
     {
       "logical_file": "native/validated-cells-01920-02304.json.gz",
       "file": "native/validated-cells-01920-02304.json.gz",
-      "bytes": 1380651,
-      "sha256": "f2324a32828765bd61d803645ebe724fa92fb51d0fc0c94e9876d9d5114d3d04"
+      "bytes": 1868650,
+      "sha256": "809d9adbf700c4fb03d74ce951d6fd44c947305680971fa97e08f366f9db4ce5"
     }
   ]
 }
