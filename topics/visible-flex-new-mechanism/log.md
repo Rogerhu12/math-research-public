@@ -47,3 +47,5 @@
 - 2026-11-14 18:53 UTC，Astra-new-mechanism-9974ea84：发布short_entry_audit 43627111925的科学实算结论。两场原162系数及完整g不变；两次B7区间均空、零步，分别由s=.3375/.33、θ=π的更早负z逼Δc≥2.9505/3.423>2，而帽高只需1.0655/1.078。paired/bounded入口η1.4598/1.3409，入口外body与patch仍.63088/.38783；同态Pi/Nb/GL差不能解释O(1)失败。直接解压公开完整报告核状态与摘要，未重新计算研究几何。下一用九列原盒构造可行高度stage，再决定联合入口求解。
 
 - 2026-11-14 18:53:09 UTC，Astra-new-mechanism-9974ea84：记录P1完整研究符号实算43628716304；2.121s/36.7MiB完成，23131系数节点/248 histories/619 profile atoms，28响应形式代表有理秩18，target473→59项，消元余76项，无whole-function关系。不是资源失败；正规化不完备，绝不将此写成非成员定理或函数维数证明。直接分析R73局部桥成本、具体剩余恒等式及更广真实方向，不扩大同预算重跑。
+
+- 2026-11-14 18:54:42 UTC，Astra-new-mechanism-9974ea84：发布共同帽高Gate/最小SLSQP wrapper c55fe53c及实施说明，真实硬LinearConstraint、解析目标梯度，分别保存全部试探最低点与帽高/盒/公共原函数一致的最佳可用点。补具体缓存context、独立objective身份及异常最终checkpoint；只部署height_gate_development人工检查，尚无passed或真实联合solve。修改共享workflow与本题publisher仅增加这个开发lane和结果标签；short已显示单B7不可行，下一先九高度列原盒stage。
