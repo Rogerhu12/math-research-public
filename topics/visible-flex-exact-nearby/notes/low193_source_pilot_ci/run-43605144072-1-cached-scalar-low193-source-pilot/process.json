@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_cached_scalar_low193_source_projection_pilot_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43605144072",
   "run_attempt": "1",
@@ -103,6 +103,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T14:31:17.098014+00:00",
+      "before": "9233a9db0462eba9d0059a5ace3b59d45cbbd2af",
+      "after": "685af0cd28266278e645876af4a3b635a328e54d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -110,6 +118,11 @@
       "time": "2026-11-14T14:30:49.578382+00:00",
       "final": false,
       "commit": "9233a9db0462eba9d0059a5ace3b59d45cbbd2af"
+    },
+    {
+      "time": "2026-11-14T14:31:16.798727+00:00",
+      "final": false,
+      "commit": "685af0cd28266278e645876af4a3b635a328e54d"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -147,7 +160,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "9233a9db0462eba9d0059a5ace3b59d45cbbd2af",
+  "last_read_commit": "685af0cd28266278e645876af4a3b635a328e54d",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-low193-pilot-work/science",
   "actual_scientific_input_sha256": {
     "original-manifest": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
@@ -159,9 +172,15 @@
     "repair-process": "16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a"
   },
   "all_original_40_parts_and_7721_scalar_rows_verified": true,
-  "snapshot_utc": "2026-11-14T14:31:14.885594+00:00",
-  "wall_seconds": 32.64289358299999,
+  "snapshot_utc": "2026-11-14T14:31:17.152085+00:00",
+  "wall_seconds": 34.90938572199997,
   "native_files": [
+    {
+      "logical_file": "evidence/cached-scalar-low193-source-projection-pilot-summary.json",
+      "file": "evidence/cached-scalar-low193-source-projection-pilot-summary.json",
+      "bytes": 65154,
+      "sha256": "791b4485d20895fd1445983e3bd23a8915c1abd41525f2ca42cdeba73b6db125"
+    },
     {
       "logical_file": "evidence/original-body-process.json",
       "file": "evidence/original-body-process.json",
@@ -288,5 +307,26 @@
       "bytes": 1402964,
       "sha256": "1f5f2e82b4cdf52fae6b8d3495245ac76235af5450da9656ea14aa0ba99a6e2b"
     }
-  ]
+  ],
+  "actual_new_projection_child_executed": true,
+  "complete_native_sha256": "1f5f2e82b4cdf52fae6b8d3495245ac76235af5450da9656ea14aa0ba99a6e2b",
+  "actual_selected_original_rows": [
+    0,
+    597,
+    1280,
+    1283,
+    1284,
+    1289,
+    1519,
+    1521,
+    1522,
+    1524,
+    1753,
+    3070,
+    5584,
+    6375
+  ],
+  "actual_selected_projection_gates": 6,
+  "unknown_high_inputs_not_removed": true,
+  "finished_utc": "2026-11-14T14:31:16.860549+00:00"
 }
