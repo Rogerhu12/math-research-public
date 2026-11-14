@@ -141,3 +141,6 @@ request44只读工作已接独立receipts workflow：v2摘要84623638…保错�
 [R272原RK传播误差拆分与零参考恒等式](results/R272-native-RK-reference-and-propagation-error-split.md) 已完整证明登记：给定四个原有限A后，保存J的传播误差与local-A误差/有限RK截断严格分开；冻结零参考A²及RK4模平方、完整频率平衡H和级间输运式已证。实际四级随x/非零state改变，不直接用参考判实际谱或唯一失败层。44的原geometry显示w随级变化，2/3级geometry同而stateSHA异，下一只重放原old43/step11四级RHS-J并比较有限数组精确action，先不扩868步。45实际run43627827085已启动。
 
 [新G方向的原十试步组件](notes/2026-11-14-native-gauge-original-trial-replay-interface.md) 两源和接口全部保存；直接消费已保存G producer的完整原Q/Pi方向、1373→577限制及原cached基态，保原十alpha/guard/严格下降/首接受STOP。组件不实例化G或重新形成矩阵，未执行actual43坏δ。
+
+
+[actual44请求42摘要传输失败](notes/2026-11-14-actual-request44-request42-summary-transport-failure.md)已保存：七个原SHA全部吻合，v2目标摘要206693B超界；9528B失败回执没有内部stop/radial，v1无日志不推同因。改v3明确标量白名单，只读原件而不重科学。18:43终端恢复并完成新部分检出和真实pull，后续回终端git。

@@ -374,3 +374,10 @@ R271全文12528B/f6aabf31…已读并直接入results及索引。任意完整A_i
 R272完整代数直接登记results/index：原四个有限局部A给精确RK action，Jhat−Jstar只隔离已给A之后的传播误差；完整226扩展保mean两行。冻结零参考A²=−γ²(7m²−16)I、RK4模平方1−ξ⁶/72+ξ⁸/576及频率平衡H/全部跨级换算逐项证明。实际变w/非零state不在冻结参考假设，未据此诊断唯一因果。44原fields取回后已安排只原old43/step11四级localJ探针；当前无新科学结果。
 
 新G原十试步py39181B/10b3689a…、hook62615B/6d40cc9c…和接口13977B/c69f77ea…已静态读差异后保存，完整bind原28/41/G形成文件/方向/负零/577限制，原trial body603924d1…保持；不重形成G，不执行42/43坏δ。45 run43627827085/job132547603012编译/源PIN已过，独立凝聚warm流程进行中，尚无数值回执或新BVP接受。
+
+
+### 2026-11-14 18:45 UTC：actual44摘要失败证据与终端恢复
+
+actual44请求42摘要失败note已保存：七原SHA全部核对；206693B在v2序列化超过界限，保明确failure但未回传内部stop/radial，不能由step成功推摘要成功。仅原metadata读取无新科学；v1无异常原日志，未反推同一首因。v3正按明确标量白名单重写，完整派生metadata只artifact。
+
+18:43新终端用真实根workdir成功，默认cwd是坏symlink；旧/tmp检出已失，共享objects与缓存仍在。新部分clone/filter=blob:none/仅必要文本和computations，复用原objects；实际pull到572d2d7bdc96e301ec6ab44647ae7d2df1111ce6、双README原blob不变。恢复终端push，PAT仍只命令环境。45已进入实际warm步骤。
