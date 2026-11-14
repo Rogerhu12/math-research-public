@@ -174,3 +174,6 @@ tail_connector：把实际非径向内部正型接全部外部响应、Γ*参数
 
 
 [实际完整记录](results/R133-supplement-padded-physical-cap-on-complete-moving-head.md)：完整物理128/257态/1296块提案与全部moving97预合成已实际normal0；所有独立端行含非零C mean匹配，eL<6.518184e−12，首2/1977连续片带权ordinary B/C<6.482306e−7/5.103790e−7。全部source/参数/二进制端点和原失败身份齐；全1977片仍继续，不把有限提案与首片冒作全帽矩阵逆。
+
+
+[实际完整记录](results/R133-supplement-actual-independent-regular-boundaries-and-all-jumps.md)：完整独立regular端点预算actual normal0/12.0068s：256物理矩、全无限尾、真实两mean与两组6143准确有理接口；真Robin L2<1.454039e−17，端式S_end∈[8.167929616818,8.194927720677]。原v2/3/4失败和完整mean容器身份保留；仍须减完整body配对并付全连续逆，未授真Schur。

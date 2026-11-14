@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "scripts/fourfold_codazzi_regular_mean_completed_physical_boundary_v3.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--mean",
+    "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+    "--body",
+    "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/body-native-v2.json.gz",
+    "--adjoint",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+    "--response",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+    "--outer-dual",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/outer-dual.json",
+    "--max-new-rows",
+    "10000000",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/boundary-v3-native.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "05aa9b43d1fa29c93c164218b4cc7d207aac729f03eba69d63613029f6d38850",
+  "started_utc": "2026-11-14T07:21:50.185499+00:00",
+  "state": "finished",
+  "actual_returncode": 1,
+  "address_space_MiB": 3072,
+  "wall_seconds": 20.147431028000938,
+  "maximum_child_RSS_KiB": 388100,
+  "finished_utc": "2026-11-14T07:22:10.333483+00:00"
+}

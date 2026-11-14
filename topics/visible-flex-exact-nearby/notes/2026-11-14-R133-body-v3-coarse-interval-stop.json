@@ -1,0 +1,15 @@
+{
+  "kind": "actual_partial_body_wide_enclosure_stopped",
+  "complete": false,
+  "actual_tool_wrapper_exit_code": 130,
+  "child_returncode": null,
+  "reason": "The complete correlated radial cancellation was lost by separate boxes for h_r and A h; parent requested preserving the prefix and changing method.",
+  "checkpoint_path": "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/body-v3-coarse-pause-checkpoint.json.gz",
+  "checkpoint_sha256": "1d05e3b8c7c722fb9d7ac4e5685d0cbc72400eb564dd7dc278aeff178b7f0ae6",
+  "actual_complete_coefficient_rows": 7721,
+  "actual_complete_adjoint_flow_rows": 7721,
+  "actual_complete_response_reverse_rows": 7721,
+  "actual_residual_rows": 523,
+  "scope": "No failed PDE existence theorem or continuous inverse conclusion follows from a wide interval upper bound. The stored partial computation is not changed to complete.",
+  "original_source_sha256": "9674f5f6b9d4ad95d7d87fb22b2ec4c8fc3cad136b78afed677343c2510bb6df"
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "actual_full_regular_body_consumer_explicit_plain_gzip_parser_v2",
+  "started": true,
+  "complete": true,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_mean_completed_head_body_residual_v2.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--mean",
+    "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+    "--response",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+    "--adjoint",
+    "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+    "--amp-multiplier",
+    "-1",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/regular-head-consumers-20261114/body-native-v2.json.gz"
+  ],
+  "actual_returncode": 1,
+  "source_sha256": "e0a2442f8c9f63d4fe4ca733facc601e4db206a14d03a1bba80dd4816e2385b3",
+  "original_parser_failure_process_sha256": "a45f01d06402c07eec4771cf0f549e0aad0ef70827cc85d8ea5bd9eaa354c6be",
+  "address_space_MiB": 3072,
+  "started_unix": 1794637590.9270136,
+  "actual_child_pid": 4,
+  "wall_seconds": 2654.7944805860006,
+  "maximum_child_RSS_KiB": 495232
+}

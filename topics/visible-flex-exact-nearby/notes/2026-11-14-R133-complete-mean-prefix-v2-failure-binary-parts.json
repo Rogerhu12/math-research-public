@@ -1,0 +1,46 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "body-native-v2.json.gz",
+  "original_bytes": 5804132,
+  "original_sha256": "69c4c6fa2a3e53b5751bb44744a916050703fd5f9ebe99b205edc2c9bf1b3c4a",
+  "native_kind": "actual_final_exact_mean_completed_response_adjoint_body_residual_v2",
+  "native_complete": false,
+  "native_failure": {
+    "type": "TypeError",
+    "message": "unsupported operand type(s) for /: 'Finite' and 'int'"
+  },
+  "complete_native_rows": 0,
+  "original_source_sha256": "e0a2442f8c9f63d4fe4ca733facc601e4db206a14d03a1bba80dd4816e2385b3",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "parts": [
+    {
+      "file": "2026-11-14-R133-complete-mean-prefix-v2-failure-binary-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "5c4c0d8d4ea7029eab88f2f0a6acad676b533a2290b1b14910127f57c556ec2b",
+      "compressed_bytes": 1987438,
+      "compressed_sha256": "4a5e86cdb35be8bf17337b4d08e8797cdcd37845a1a2ee19b8dae1cfc0c353d2"
+    },
+    {
+      "file": "2026-11-14-R133-complete-mean-prefix-v2-failure-binary-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "4559228bc19f56858f43ddd468794b16ad62bfca88c6763062ba656650fe4134",
+      "compressed_bytes": 1988561,
+      "compressed_sha256": "32c63c3d5469ea52bc890be8d52b794f4a358ad9d3d82d8cfb34afd07ef64019"
+    },
+    {
+      "file": "2026-11-14-R133-complete-mean-prefix-v2-failure-binary-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 1804132,
+      "sha256": "371896db2fe4596e652a537bbb075e41e9d8d1ca7600b4500a976b32ae90cb9c",
+      "compressed_bytes": 1800725,
+      "compressed_sha256": "bad7db99d692e5a006ebbbba3f1628bbc5417eddd6465de170320110653edd47"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
