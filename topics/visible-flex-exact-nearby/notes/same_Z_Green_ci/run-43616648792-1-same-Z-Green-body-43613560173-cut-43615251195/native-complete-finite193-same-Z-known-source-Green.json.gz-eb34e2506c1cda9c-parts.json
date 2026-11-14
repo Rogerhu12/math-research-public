@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18.json.gz",
+  "original_bytes": 7154812,
+  "original_sha256": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
+  "native_kind": "actual_complete_finite193_same_continuous_Z_known_source_Green_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 0,
+  "original_source_sha256": "e4e863f5f0e33aa4223b2528c4e27f293db8f29dffe5a8248638bcd5a3dc67b1",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "parts": [
+    {
+      "file": "native-complete-finite193-same-Z-known-source-Green.json.gz-eb34e2506c1cda9c-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "1dab5276314f7d21799911bf35e61a6a057bb7ad948b3acd688c2ee6afd08229",
+      "compressed_bytes": 1819290,
+      "compressed_sha256": "12e2086cc80238d58e2ca4d8d388c9225b0fe09863d52631b975e0807bc256ee"
+    },
+    {
+      "file": "native-complete-finite193-same-Z-known-source-Green.json.gz-eb34e2506c1cda9c-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "df44e5e4f790e43727daa62edf5e610b491bc173ea419b5c91d9579a8e71785c",
+      "compressed_bytes": 1940881,
+      "compressed_sha256": "4c21f0a811c2afb4f8933776dd2982e873db27ba6b9eeedf58d5ba111e142e1f"
+    },
+    {
+      "file": "native-complete-finite193-same-Z-known-source-Green.json.gz-eb34e2506c1cda9c-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "b6eed09dbcbff764da977c29c03bc90023d1962d0ff9b5b030e2cc183975a1d9",
+      "compressed_bytes": 1915799,
+      "compressed_sha256": "827e099f17083b430c5ec7538ffc730183978321ef8de22da5a4278d85ac21b0"
+    },
+    {
+      "file": "native-complete-finite193-same-Z-known-source-Green.json.gz-eb34e2506c1cda9c-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 1154812,
+      "sha256": "6700438a6ea3adb5083724c874ad1978a9a69375f1c77b75a1137467abbf4a0f",
+      "compressed_bytes": 1087692,
+      "compressed_sha256": "7f6b75b7afe02c38aeb752ae2437d933336eaebeda0455576cd735d63e67acf3"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}

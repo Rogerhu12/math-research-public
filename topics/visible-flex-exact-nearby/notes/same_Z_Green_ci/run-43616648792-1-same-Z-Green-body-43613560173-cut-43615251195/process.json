@@ -8,7 +8,38 @@
   "workflow_commit": "121016c5d67e8d472362d41b20a621db1c085eae",
   "worker_source_sha256": "8c0995be477a072a3807c42b4fc62b537b8b4ee9e2934a2f2f915cbae795b75b",
   "started_utc": "2026-11-14T16:38:34.016541+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_same_Z_complete_known_source_Green",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-same-Z-Green-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_same_Z_cached_Green.py",
+        "--out",
+        "/__w/_temp/visible-exact-same-Z-Green-output/native/complete-finite193-same-Z-known-source-Green.json.gz",
+        "--body-run",
+        "43613560173",
+        "--cut-run",
+        "43615251195",
+        "--green",
+        "/__w/_temp/visible-exact-same-Z-Green-original/native/complete-finite-head-Green-and-distributed-known-sources.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-same-Z-Green-original/process.json",
+        "--body-source",
+        "/__w/_temp/visible-exact-same-Z-Green-body/native/complete7721-mixed-Z-sources.json.gz",
+        "--body-process",
+        "/__w/_temp/visible-exact-same-Z-Green-body/process.json",
+        "--cut-source",
+        "/__w/_temp/visible-exact-same-Z-Green-cut/native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+        "--cut-process",
+        "/__w/_temp/visible-exact-same-Z-Green-cut/process.json"
+      ],
+      "started_utc": "2026-11-14T16:38:37.428089+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 15.000678910999994,
+      "finished_utc": "2026-11-14T16:38:52.429126+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T16:38:35.448894+00:00",
@@ -25,9 +56,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:38:52.781618+00:00",
+      "before": "ae55d42b7503b0fab120860e65339339296f37b6",
+      "after": "241f9e8f08d3e6f9a44e122c062effec7f73589d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T16:38:37.426282+00:00",
+      "final": false,
+      "commit": "241f9e8f08d3e6f9a44e122c062effec7f73589d"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -61,7 +106,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "ae55d42b7503b0fab120860e65339339296f37b6",
+  "last_read_commit": "241f9e8f08d3e6f9a44e122c062effec7f73589d",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-same-Z-Green-work/science",
   "actual_input_sha256": {
     "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
@@ -71,8 +116,8 @@
     "cut-source": "8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5",
     "cut-process": "55765c2954b872699fe60a8c81b62992841578233f12577f9b154a4db6873280"
   },
-  "snapshot_utc": "2026-11-14T16:38:35.953879+00:00",
-  "wall_seconds": 1.9378543990000026,
+  "snapshot_utc": "2026-11-14T16:38:53.238775+00:00",
+  "wall_seconds": 19.222752960000008,
   "native_files": [
     {
       "logical_file": "evidence/original-body-process.json",
@@ -91,6 +136,13 @@
       "file": "evidence/original-green-process.json",
       "bytes": 8548,
       "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "logical_file": "native/complete-finite193-same-Z-known-source-Green.json.gz",
+      "lossless_manifest": "native-complete-finite193-same-Z-known-source-Green.json.gz-eb34e2506c1cda9c-parts.json",
+      "bytes": 7154812,
+      "sha256": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
+      "parts": 4
     }
   ]
 }
