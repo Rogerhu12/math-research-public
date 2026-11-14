@@ -189,3 +189,6 @@ R236完整有限核心缩放与球外保持证明直接登记；λ=6/5全32有�
 
 ### 2026-11-14T07:48:11+00:00 — halfsigkill (local; public approval pending)
 半步完整tail已解，但首prefix J第195/216批在07:38:45被SIGKILL；原supervisor wait4 −9/峰498652KiB/无收到信号，工具外层137。无完整J/因子/Newton试步，非数学失败；27件完整恢复包保留，现做本轮H原audit后释放闲置Node续同半步。
+
+### 2026-11-14T07:48:11+00:00 — resolvedrk124 (local; public approval pending)
+真实新RK24全部4609节点回放exit0，端点差1.13687e−13；完整39168×1024上1/2/4 metric1.28137e−6→3.60438e−7→7.27996e−8，新4对旧12四级位置差1.569e−13/rr1.235e−5。新末端有限collar有理界1.0013852467e−18；8级和全闭终态另记，不混partial。
