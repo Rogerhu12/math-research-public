@@ -155,3 +155,5 @@
 - [R75：局部正weight密度的唯一IBP分解与有限word改写](results/R75-local-density-IBP-and-word-termination.md) — 在Q[x,q0,q1,…]的正weight分量，局部密度唯一分解为全导数与余型：纯q0项明确保留，最高阶m≥1才要求重复。含word的右IBP按word长度/局部jet阶有限下降；不证明真实profile上的所有word独立或全正规形完备。
 
 - [R76：真实局部第三积分的准确loop与权三控制](results/R76-local-third-exact-loops-and-weight-three-control.md) — 保非零M倒行二次项和校frame桥局部贡献，任意scalar闭路径可由真实M0/frameI loop准确实现2∫C；改变真实控制长度并重新积分frame准确隔离2t C3。给完整右尾面积公式及严格非零光滑例。未证明全部目标系数可达，也未支付完整P1/P0/ruling或有限族。
+
+- [R77：权三局部算子空间的真实有限可达性](results/R77-weight-three-local-operator-actual-finite-controllability.md) — 给受ω_s=k_s/(2h)约束的真实状态右逆，以面积pulse/同向step和有限维对偶证明全部面积及三次速度系数空间由真实有限路径积分张成；prefix差送到共同端口，R76准确线性loop支付任意有限组合。Laurent单项系数亦可达，包括actual阳性的两C3列；权一端口积分、完整P1/P0/ruling和有限族仍欠。

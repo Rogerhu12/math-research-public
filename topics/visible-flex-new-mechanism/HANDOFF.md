@@ -6,7 +6,7 @@
 
 闭连通材料面，$F_t$逐时$C^2$嵌入、时间$C^2$连续，同一固定g；固定H有内点、$\operatorname{diam}F_0(H)\ge.2D$；不作刚体对齐的整像 $\delta_{hold}\ge.3D$；全时全域reach$\ge.03D$；最大相对metric$\le10^{-6}$且同g/参数/时间范围加密持续下降；完整网格每件<5MB，明确严格存在差距。$\delta_E$可0如实报；达标后继续.5D或严格存在。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`e9946e0cd330a0be381274ecbdfa6c18056a0d34`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`a08fbefeb10e5e509e241b7c5cf901968d7f6134`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
 - 私有恢复后实际pull至`44a3ba9432709e1260b4277d05d64c6775ca6589`，与旧6a16feab双规则路径无差，本题私有README不存在；QUEUE唯一行仍本会话进行中。下一实际pull不晚于19:45 UTC。
 - 真实几何/ODE/积分/优化/完整研究符号编译只在本公开仓库Actions；本地纸面代数、小人工接口测试、源码/公开输出解析。PAT仅瞬时CLI/env，不写任何文件/提交/日志。
 - 根规则12：不把冻结、独立审查、重复清单或重复运行设为推进前置。完整证明直接登记results并更新索引。保针对具体风险的验证及README要求的同态精化。
@@ -54,10 +54,10 @@ R65理想无桥互反pair纯漂移非零；R67完整period为P0+NP1+N²P2+N³P3�
 
 R71真实同scalar/frameI、M0词准确实现2t[P(f,Qgh)−Q(f,Pgh)]，八基至多28方向；有限系数用有限小loop，不能把c/2越出局部控制区间。R72同scalar任意frame有M=T=0桥，位移/P0仍自由改变。
 
-R73给点态八矩、变量profile链式Ψ及T=−history+∫C。**R76已证明**任意scalar闭路径的局部项可用真实M0/frameI loop准确实现2∫C；实际长度变化后重积frame隔离准确2t C3[path]，保倒行Φ_M²和校frame局部贡献；完整右尾公式给严格非零面积方向。R77正证明这些真实path签名的有限span；source同步检查C1的完整几何一形式，不能把5个形式列独立当控制。
+R73给点态八矩、变量profile链式Ψ及T=−history+∫C。**R76已证明**任意scalar闭路径的局部项可用真实M0/frameI loop准确实现2∫C；实际长度变化后重积frame隔离准确2t C3[path]，保倒行Φ_M²和校frame局部贡献；完整右尾公式给严格非零面积方向。R77现已证明面积/三次速度全部真实有限span可达，含actual两个C3单项；source仍核C1完整一形式/端口约束，不能把后3个形式列独立当loop控制。
 
-**pure bulk actual43628716304/sourcee42c78ff complete**：2.121s/36.7MiB，28响应形式代表秩18，target473→59项，余76项，无关系。不是资源失败；不完备右IBP不能当非成员定理。详 notes/p1-bulk-whole-function-actual-result-20261114.md，主报告16529B SHA `abb3d2afdb3622cc0314eeffb5769d250c4808cd4e301e1a359fb1fb8ab627ce`。新word层d39482c9已实现任意嵌套shuffle/IBP并输出可读余项；新local第三分解08ada421保真实Ψ/全部导数后history0、速度面积与三次项、必要端点势及有限形式上界。两者higher_range_development43629844644已单lane通过13/6项toy（整run因独立height失败）；实际43630157008已complete：word余95项/真dim≤18；local形式54列中准确纯漂移关系fresh原式余0，但5个local系数未证共同可达。正关系须回原式验证；局部桥T、全部phase/P0/ruling、收敛有限族与全部宏观几何继续欠。
+pure bulk43628716304只用28响应余76项；新word43630157008（sourcef3381b75）余95项、10个原式依赖给真实dim≤18，最高jet2/右尾深2。科学说明 notes/literature-word-normal-form-actual-audit-20261114.md：余式已压成局部、B右尾与具体三次密度，不再盲扩正规化。两者非非成员定理。同期local第三actual 2.900s完成：54形式响应rank46、fresh原式余0，关系为5个R71响应+5个local列；R77已支付前两C3列，后三C1需真实转接全密度与端口矩相容。面积/三次/权一阻碍均有准确有理profile witness，非端点势。完整全部phase/P0/ruling、收敛有限族与宏观几何继续欠。
 
 ## 6. 当前操作
 
-真实九高度43630874689运行中；新single-Q列b0744e42（W5 B3·归一kθ/k³、162→163、零新列准确含旧场）仅请求公开人工，不先接优化。R76后继续真实C3可达与全部C1路径矩。R75局部IBP唯一分解和word终止已证，q0例外保留，非完整函数独立性。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。
+真实九高度43630874689运行中；新single-Q列b0744e42（W5 B3·归一kθ/k³、162→163、零新列准确含旧场）仅请求公开人工，不先接优化。R77后继续全部C1路径矩及完整P1全phase（纯模式只见对角τ，不能假定其余自动）。R75局部IBP唯一分解和word终止已证，q0例外保留，非完整函数独立性。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。
