@@ -81,3 +81,5 @@
 - 2026-11-14 19:37:16 UTC，Astra-new-mechanism-9974ea84：登记R82纯P1关键阳性：actual43632772378完整端点势101行fresh通过，原bulk加真实端点项再加18个明确有理R71响应，原式全函数残0；实际控制来自R71/R77/R79，不冒全phase。旧齐次目标阴性仍保。同期新联合人工全链pass，立即请求唯一quartic_joint_audit（120iter/300eval/30s固定T四次，再80iter/120eval/300s完整163维当前z硬约束），原g/盒及最终384/768同态对照保持；加入B新核心工厂但本次仅人工core_transport_development。fullphase仍同run计算，不重复请求。
 
 - 2026-11-14 19:38:33 UTC，Astra-new-mechanism-9974ea84：登记R81完整纸证：真实R71交换子组合H=[r0,s0]−3[r0,r1]的对角恒零但外槽非零，全部pure−4严格不变；端尾明确有理系数给−2非零，R39共同even bump和C3连续逼近保严格三矩得到C∞非退化圆。可调混合槽确属真实控制，未声称其满射；该证明没有任何本地研究计算。R82已推109cdd7f，同提交请求一次真实joint及人工core transport；fullphase原run仍继续。
+
+- 2026-11-14 19:39:40 UTC，Astra-new-mechanism-9974ea84：新core工厂人工43633105146/source109cdd7f全pass，双侧234bits、selected复制、新core/g/heat、原anchor、同态冻结六jet0、GH/Nb保子类、8拒错通过，人工core位置误差≤1.136e−14。立即转独立B=.37单selected初态审计实现（固定原函数、全metric/曲率/镜像及新高度门），尚无真实新core评价。旧B唯一joint actual仍运行。

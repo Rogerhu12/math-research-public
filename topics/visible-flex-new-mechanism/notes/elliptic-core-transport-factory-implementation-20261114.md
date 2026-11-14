@@ -117,3 +117,11 @@ selected 来源回执只进入 initializer receipt，不进入不可变 anchor�
 检查只用已声明的人工温和椭圆，不评价真实 $B=37/100$，不进行优化。没有提供新核心实际成本、等距误差、曲率、球/条带、帽高或 reach 结论。
 
 下一真实 driver 可把此新核心工厂与已独立发表的入口修复、bounded height、single-Q 逐项组合；每项组合都必须写入完整 model/space 身份，并重新选择符合新核心的 [R66](../results/R66-core-flat-cap-two-normal-reach-height-gate.md) 分支。不能把旧 $B=7/25$ 的帽高阈值直接套给新 $B$，也不能同时更换核心、入口和优化目标后把效果只归因于核心。
+
+## 7. 公开人工检查已通过
+
+2026-11-14 19:39:40 UTC：公开 [run43633105146](https://github.com/Rogerhu12/math-research-public/actions/runs/43633105146)，source `109cdd7f25927645ea6d33045c037cc920a8bc5f`，lane `core_transport_development` 全部通过。脚本仍为 `ea7990328c979f02be7b83db307f5d1b94e69d0ede3e1cc34d9b37a1f357f21d`。
+
+两侧234列逐位、selected三块复制、独立新core/seed/g/heat与不变帽身份、原c0高度anchor、GH/Nb/冻结子类身份全部通过。core/尾标量和metric二jet误差为0，冻结前后六位置jet差为0，人工准确核心位置误差最大1.136e−14。八个错误输入/环境路径全部被拒绝。原始[完整回执](actions-43633105146-1-core_transport_development/core-transport-development.json)保留各侧身份与全部数值。
+
+这只验证人工新旧核心接口，未构造真实B=.37。下一是一个独立的单初态公开审计：严格输运原167 selected，原234保持新anchor，用固定分区原函数评价新物理场和同态加密，不同时优化或加入入口/Q列；真实新g、b0和R66高度分支都另记。
