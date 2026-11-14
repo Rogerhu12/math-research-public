@@ -159,16 +159,14 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 ## 最新完整接续
 
-全部前态、完整公式与数据入口保[本次open全文](notes/2026-11-14-open-before-two-resolvents-angle-789f.md)，未列条目保持原状态。
+此前完整公式、数据入口及范围保[本次open全文](notes/2026-11-14-open-before-physical-sandwich-789f.md)，未列旧条目保持原状态。
 
-**真实graph与源费。** [完整一位接合](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)保真实短旗商度量、交叉和两切口；[普通完整右](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)给G=Bbare(Hbare+E_ret)⁻¹Bbare*，保LGL及高返回，固定层域/源满射已付。原尾宽窗范围保前态，同源抵消仍欠。
+**原物理同源主线。** [完整一位接合](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)与[完整右高返回](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)保原短旗、两切口、LGL次序及E_ret。准确零模、boson未来双投影、原尾宽窗和旋转的已付范围保前态，不代主左角度。
 
-**同一实际测试。** [准确零模/部分左Gram](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)保原Z像及逆后高birth；全核头预算logC_m=O(m logm)。[真实双投影](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)把boson最小链投入bare/full，源βt=B⁻¹Mt、γt=GMt，M≤B≤G⁻¹，正差保E_ret。t=−Av给逐cut T*MT≤(C_m−1)Ψ，原good-top直接付两链及差，不另选点。
+[物理投影夹逼](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)现直接给V_(q+d)⊂M_q⊂W_q；u_b=(L+B)⁻¹Lt、u_f=(L+G⁻¹)⁻¹Lt的真实差e满足μ(t−e)²+Xi(e)²/2≤Δ_q。Δ恰是原下降左/上升有限核的同一增量，网格总≤||f||²、全cut≤d||f||²，完全去掉C_m/log。两真实投影从同一未来差读出bare/flat；正配对<Le,t−e>=||h||²保主μ(e)。
 
-[两种源最小化](notes/2026-11-14-actual-low-test-two-resolvents-angle-source-and-paid-flat-budget-789f-next.md)现给rbar=(L+M)⁻¹Lt、u=(L+G⁻¹)⁻¹Lt及e=rbar−u；(I+GL)e=(I−GM)rbar。原同窗付μ(t−e)²、flat(e)²；精确gap仍含μ(e)²。bare(e)、<Lr,e>与移动m窗口速率未付。滑动核切口与旋转预算按前态保留，不以小残量代无统一费精确逆。
+e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat∈Rrem，仍有Xi(ehat)²≤2Δ及μ(t−ehat)²≤(1+2δ²)Δ。因此原同一good-top直接支付测试功能误差。下一仅对同一实际rhat/ehat支付<L rhat,ehat>；Xi正交不能换成L正交，固定m强极限不付移动窗口。
 
-**R150。** run43634830833原九列AX=31²h0 mod31⁵全17成功、cost全87；相关δ2秩1/7004，七正解仅常数，64恢复/14cache全部保存。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给rank_Q A87≥226091和真九维U9；八常数固定族仍排七目标全部预算；[九常数族门槛](notes/2026-11-14-r150-ninth-unit-family-two-denominator-threshold-and-raw-obstruction-789f.md)付自然图七列恰p²/pair恰p的条件分母及下一raw非零的全预算排除。全原有理像/精确秩/Smith恰层继续。
+**R150。** run43634830833原九列AX=31²h0 mod31⁵全17成功/cost87，相关δ2秩1/7004；64恢复14cache全存。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给rank_Q A87≥226091；[P9∞门槛](notes/2026-11-14-r150-ninth-unit-family-two-denominator-threshold-and-raw-obstruction-789f.md)给固定自然图条件分母及下一raw全预算判据。原全部有理像/Smith恰层未付。
 
-[F9完整第一像](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)只需第9新关系；第8复用K4_7003，旧1842方向全落U9。[模31^6入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)已冻结并待实际执行：四artifact43输入，共享300s/512MiB，只新AK5/p5与九raw，全部primary/505自由保留，正列全17继续；负仅保当前F9前两位。较低初值第二/第三像另付，未得char0来源或必要两层。普通ISP及其它mean秩/高本质/自然幂仍开。
-
-[实际物理joined递减投影](notes/2026-11-14-physical-joined-decreasing-projections-and-fixed-test-bare-budget-789f-next.md)进一步付u_b=(L+B)⁻¹Lt的全cut bare总费≤d(2+logd)²；M_q=K+H_hi,q闭且其测试投影支撑≤q+d。差e_bf=u_b−u_f保原测试功能，Xi总费≤4d[(2+logd)²+1]；测试误差由原Xi(r)与同窗bare/ordinary费支付。它不是t本身；剩余μ(e_bf)、<Lr,e_bf>和移动窗口速率继续。
+[原mod31⁶入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)的run43638830039已完成数学63.738740979秒：完整F9第一像秩0，九当前来源均受阻。结果push未成，三artifact已保存并正在原样恢复，未重数学。负范围仅保当前F9来源前两位；较低初值第二/第三像、原特征零及其它mean秩/高本质/自然幂继续。普通ISP仍未完成。

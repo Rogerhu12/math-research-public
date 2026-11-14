@@ -16,6 +16,8 @@
 [原同源 full／bare 与高返回](2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)。
 固定层 MP 和原源的闭满射仅用于引用的原费用定义；以下闭空间及投影流证明不把全孔 \(D^\dagger\) 视为有界。
 
+**后续加强：** [物理投影夹逼](2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)已支付本文此前留下的 \(\mu(t-u^{\rm b})\)，并把全部预算锐化为原同一投影增量，去掉 Fourier 对数及头常数；本文较弱不等式仍正确。主左角度配对仍未闭合。
+
 ## 1. 在整个原物理空间定义高旗
 
 固定原 \(m\ge5,d=2^m,A=A_m,D=D_m\)，并置
