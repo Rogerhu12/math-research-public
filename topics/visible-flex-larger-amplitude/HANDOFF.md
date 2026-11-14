@@ -41,7 +41,7 @@ R241参数块门同时排自交/瓶颈。旧A v2真D+=3.980751407764145、Ktau=.
 
 ## 当前执行与保全
 
-request05仅geometry(q8)+gwcompat；request04前置失败已保完整产物，不排成运行中。几何/q5等实际回执，主线准备投影域短诊断；不重复成功free3/zeroH/RK48。root下一pull须取bot已发run43585737152和43585361227产物。
+request05/run43586618658/sourceb96924e0实际运行geometry(q8)+gwcompat；request04前置失败已保完整产物，详见prefix3-RMS-domain-failure.md，不排成运行中。q5等实际回执，主线准备投影域短诊断；不重复成功free3/zeroH/RK48。root下一pull须取bot已发run43585737152和43585361227产物。
 旧post43 geometry26件及strong90件也已按原SHA恢复到未跟踪文件，均历史非新Actions，需分manifest归档；强支旧SIGTERM143由共享磁盘资源中断，无接受更新，不重启旧支抢主线。旧strictmetric分量1e−6不等于算子1e−6；同新scalar须新适配/实算，勿重复18分钟旧baseline。
 每结论普通pull/README差异检查/commit/push；非快进立即rebase到成功。公开源78件逐原91清单匹配，只读公开仓，无private secret。临时自有transport分支只帮助大blob送达繁忙main，仍普通push，禁止force。任何分项完成继续open下一项。
 
