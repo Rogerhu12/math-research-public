@@ -167,8 +167,10 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat∈Rrem，仍有Xi(ehat)²≤2Δ及μ(t−ehat)²≤(1+2δ²)Δ。因此原同一good-top直接支付测试功能误差。下一仅对同一实际rhat/ehat支付<L rhat,ehat>；Xi正交不能换成L正交，固定m强极限不付移动窗口。
 
-**R150。** run43634830833原九列AX=31²h0 mod31⁵全17成功/cost87，相关δ2秩1/7004；64恢复14cache全存。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给rank_Q A87≥226091；[P9∞门槛](notes/2026-11-14-r150-ninth-unit-family-two-denominator-threshold-and-raw-obstruction-789f.md)给固定自然图条件分母及下一raw全预算判据。原全部有理像/Smith恰层未付。
+**R150。** 此前九目标p5全原式/cost87、rank_Q A87≥226091及全部数据保[本次全文](notes/2026-11-14-open-before-positive-gap-powers-789f.md)，不重旧阶段。
 
 [本轮完整原式结果](notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md)：run43638830039的F9全第一像rank0、九raw均非零，负仅保当前F9前两位；结合carry判据另排P9∞九目标全部预算。数据5d445ffe已原样恢复发布，40恢复/9cache齐全，无数学重算。下一保原p²整数格只新η8相关第二；更低初值/旧198第三、全原有理像及其它mean秩/高本质/自然幂仍开。
 
 [移动真实头核投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)把完整boson核放入同一Fock空间，以真carry和右逆成本sqrt(h_d C_m/S)证明P_(m+1)^B≤P_m^B+δ_mI、δ_m≤exp(−79·16^m)，并识别强极限P_M。物理有限头的i_mH_m⁻¹i_m*也强趋P_M；仅有一侧余量，没有反向范数速率或这些压缩像属于N的证明。继续真实稳定像/角度接口。
+
+[全源正滤波](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)与[统一幂预算](notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md)给E为L正收缩、像在共同费用负图；μ(r−Er)²+Xi(Er)²/2≤Xi(r)²。全n的Xi(E^n r)≤√2Xi(r)、总耗散≤μ(r)²；左误差仍≤√nXi(r)。可一次进入原Rrem并保左近似；固定参数幂归零与高谱过滤均不支付移动窗口的主L配对。
