@@ -269,3 +269,7 @@
 ### R133：闭式 leading Airy 幅度的实际复域界
 
 见 [实际22门与完整幅度界](results/R133-supplement-actual-closed-leading-Airy-amplitude-bounds.md)。43612196888真实通过；a0及其逆和两branch逆<51/50，b0/T²<6。13原输入复用，不重做ray。高阶幅度、真实seam源与数值strong门仍须续付。
+
+### R119：共同酉高外消元和双 Poisson
+
+见 [完整高外 Poisson 与角投影缓冲](results/R119-supplement-unitary-high-exterior-Poisson-and-buffered-angular-projections.md)。在原高阈值及Q28导出层权下，两侧Poisson为L2小算子<2^-9000，高全源inverse仍保一阶损失；低Schur酉及全affine源准确保留。径向右Poisson另付本层M/T，实际角投影要求2倍buffer。无限low与浅prefix尚须实际消元。
