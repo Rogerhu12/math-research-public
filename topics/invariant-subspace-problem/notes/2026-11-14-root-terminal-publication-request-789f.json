@@ -1,8 +1,8 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "4f6291c5d7b2085c2d352370d30c409be5fca2fe",
-  "createdUtc": "2026-11-14 20:54:29 UTC",
-  "message": "ISP: recover exact ninth-first result artifacts and retry only original publication",
+  "parentCommit": "c0d159a5872ff95e2b66438dc59cf422d9e69cf7",
+  "createdUtc": "2026-11-14 20:59:47 UTC",
+  "message": "ISP: record complete zero F9 first image, all nine obstructions and recovered exact certificates",
   "rulesGitBlobs": {
     "README.md": "6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -14,18 +14,15 @@
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-git-sync-checks-789f.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-api-rule-checks-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43639719027-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43639719027-789f.log",
+    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43639970615-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-actual-actions-pull-43639970615-789f.log",
     "topics/invariant-subspace-problem/notes/2026-11-14-executor-recovery-pull-request-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-request-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-account-budget-789f.json",
-    ".github/workflows/invariant-subspace-r150-ninth-first-publication-recovery.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-publish-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-prepare-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-publication-recovery-entry-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-14-handoff-before-ninth-first-complete-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-dual-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-preservation-check-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-r150-ninth-first-publication-recovery.yml"
-  ]
+  "dispatchWorkflows": []
 }

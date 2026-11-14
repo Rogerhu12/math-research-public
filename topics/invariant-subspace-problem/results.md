@@ -250,3 +250,7 @@
 ### 2026-11-14：移动真实头的完整 bosonic 核投影及有限头逆 Gram 强极限（789f）
 
 [证明](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)在统一全Fock环境构造完整有界右逆，成本≤sqrt(h_d C_m/S_m)，并用真实相邻头carry付可求和的一侧投影gap δ_m≤exp(−79·16^m)。P_m^B加尾误差递减，极限经物理测试及原核向量双向识别为P_M；其尾真空压缩恰i_mH_m⁻¹i_m*，故原有限头逆Gram强趋原核投影。保完整闭域，不将boson修复当硬核修复；无反向算子范数速率，亦未证N=M。
+
+### 2026-11-14：F9完整第一像为零及P9∞九目标全部预算排除（789f）
+
+[真实完整结果](notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md)：run43638830039原十列p6乘积及p5整除全部通过，完整Q/U9第一循环像rank0，九当前余量均由全315对偶排除。共同对偶在九目标上取[10,28,11,16,1,20,3,16,4]；仅排当前F9来源modp²的第一核提升。结合既有carry/单位族定理，另严格排P9∞九目标的所有预算特征零成员，未排原全部有理来源。数学63.738740979秒，恢复run43640008833仅发布数据至5d445ffe；77结果/40恢复/9cache全保。下一保持原p²整数来源格，较低初值及旧198第三继续。

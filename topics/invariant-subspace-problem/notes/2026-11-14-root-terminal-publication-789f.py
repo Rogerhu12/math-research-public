@@ -116,7 +116,9 @@ def main():
                 save()
                 break
             text=(stdout+stderr).lower()
-            if any(term in text for term in ("non-fast-forward","fetch first","[rejected]")):
+            if (any(term in text for term in ("non-fast-forward","fetch first","[rejected]"))
+                or ("cannot lock ref" in text and " is at " in text and " expected " in text)
+                or ("[remote rejected]" in text and "failed to update ref" in text)):
                 continue
             raise RuntimeError("Non-rejection push failure; actual prepared changes retained")
         for workflow in request.get("dispatchWorkflows",[]):

@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** f572a0f9904bc997ddd9e5eaa6723331a4680618（2026-11-14 20:55:01 UTC，Actions run43639970615实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43639970615-1.json。
-- **最新规则读取（GitHub API，非实际pull）：** `4f6291c5d7b2085c2d352370d30c409be5fca2fe`（2026-11-14 20:54:29 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `f572a0f9904bc997ddd9e5eaa6723331a4680618`（2026-11-14 20:55:01 UTC，Actions run43639970615/job132585166260实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `c0d159a5872ff95e2b66438dc59cf422d9e69cf7`（2026-11-14 20:59:47 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -12,7 +12,7 @@
 ## 继续位置与执行
 
 普通ISP仍未完成。共享本地环境自17:57不可用，原路径保本次完整H；恢复后先实际pull。后续结论由API准备隔离提交，Actions终端实际pull/rebase/push主线；每次pull读两README差异，非快进立刻再pull/rebase/push。API准备与实际Git分别记，不混称。
-全部旧状态、条件与数据入口保[本次完整H](notes/2026-11-14-handoff-before-moving-head-projections-789f.md)、[完整open](notes/2026-11-14-open-before-transverse-cut-budget-789f.md)及递归旧快照，未列条目保持原状态。
+全部旧状态、条件与数据入口保[本次完整H](notes/2026-11-14-handoff-before-ninth-first-complete-789f.md)、[完整open](notes/2026-11-14-open-before-transverse-cut-budget-789f.md)及递归旧快照，未列条目保持原状态。
 
 原Haar A非零非紧、单射稠密拟幂零，W*(A)=B(H)、A′无非零紧；闭不变M均closure AM=M，普通循环性未知。正常有限原秩仍缺同一相容全链正距/真实下一尾上界；R289熵与R291指数秩未矛盾。边界M=kerT含e0，N=closure BM与N=M分开；graph保同w/未来/负前缀、初M3后M2、自然域及完整左右/裸费。
 
@@ -36,7 +36,8 @@
 - [八常数族](notes/2026-11-14-r150-eight-constant-unit-family-seven-all-budget-obstructions-789f.md)已排七目标全部预算；[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给U9真不变九维、rank_Q A87≥226091。[九常数族门槛](notes/2026-11-14-r150-ninth-unit-family-two-denominator-threshold-and-raw-obstruction-789f.md)现证明：若P9∞内真有解，其自然来源七列恰需p²分母，pair恰p分母；非全原来源必要性。旧carry经完整β_A付入U9，故下一raw在Q/U9非零就排该固定族全部预算。
 - 旧pair run43632271378已付j6/9原AZ=31h0 mod31⁴/cost87；41结果/22恢复含5cache完整保存，本轮直接复用，不重算。
 - [相关第二核范围](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)与旧pair精确c/J8及全部来源保本次完整H；旧1834、七φ、1/2全部初值的已付层保持原范围，其它primary/更高初值不自动付清。
-- **[九目标全原式已成](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：** run43634830833/job132569235728，源20aa140b/数据6b525504；AX=31²h0 mod31⁵九列全部cost87，七新列每目标232133输出、两复用列227766输出失败0。七K4费用[86,87,88,87,87,88,87]，完整相关δ2秩1/幂1，基7004；七正解仅常数[30,19,30,15,27,14,17]，未用P。数学144.661655691秒。98结果47543037B、64恢复70634253B（28二进制/36文本含14cache）全入 notes/r150-augmented-seven-second-actions-789f/43634830833-1/，artifact14130166013。仅分母≤2的有限modp3来源，非char0/非必要两层。[F9全第一像归约](notes/2026-11-14-r150-ninth-augmented-single-first-relation-and-initial-scope-789f.md)已证只剩第9关系；旧1842方向全已落U9，第8复用K4_7003。[本轮入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)已冻结：四artifact43输入，只新增z9/VQ及原modp6十列，共享300s/512MiB，正列全17继续；run43638830039/job132581549932已启动，源eaa240d9，数学63.738740979秒已成，第一像rank0/九列全受阻；结果push失败，三artifact已保，原样恢复publication-recovery入口已冻结，不重数学。负仅保当前F9前两位，低位相关第二/第三像未付。
+- [此前九目标p5全原式](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：run43634830833，九列AX=31²h0 mod31⁵全17成功/cost87；相关δ2秩1/7004，七正解仅常数。64恢复14cache全保存；原有限模分母≤2，不代char0。
+- **[F9第一像完整为零](notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md)：** run43638830039数学63.738740979秒，原十列p6乘积/p5整除全过，K5费用88、九X费用87；全部primary/505自由/315坐标保，Q/U9循环像rank0，九raw全非零。共同315对偶目标值[10,28,11,16,1,20,3,16,4]，负仅保当前F9前两位；由已证carry另排P9∞九目标全部预算。数据5d445ffe2800c4673947536df0c2c3e0b45d2830，恢复run43640008833仅发布；77结果32317560B、40恢复45454589B含9cache全存，artifact14130842468，不重已成数学。首次真实stale-main-ref已核并修复。下一保持原p²目标核整数格、只新η8相关第二方向；低初值/旧198第三仍开。
 - 原射影B≥85有限商、仿射315及∞torsion u⁹⁶/length≤745继续保旧证明；其余mean秩/高本质/自然幂、同一相容全链与普通ISP全部仍开。子问题完成接open，不在阶段报告或时长处结束。
 
 - [实际左Z/Gram](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)保准确像与逆后高birth；完整boson未来和同源双投影已付范围见本次H。以下物理投影夹逼进一步直接付主测试误差。

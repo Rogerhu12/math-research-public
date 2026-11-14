@@ -169,6 +169,6 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 
 **R150。** run43634830833原九列AX=31²h0 mod31⁵全17成功/cost87，相关δ2秩1/7004；64恢复14cache全存。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)给rank_Q A87≥226091；[P9∞门槛](notes/2026-11-14-r150-ninth-unit-family-two-denominator-threshold-and-raw-obstruction-789f.md)给固定自然图条件分母及下一raw全预算判据。原全部有理像/Smith恰层未付。
 
-[原mod31⁶入口](notes/2026-11-14-r150-ninth-first-interface-789f.md)的run43638830039已完成数学63.738740979秒：完整F9第一像秩0，九当前来源均受阻。结果push未成，三artifact已保存并正在原样恢复，未重数学。负范围仅保当前F9来源前两位；较低初值第二/第三像、原特征零及其它mean秩/高本质/自然幂继续。普通ISP仍未完成。
+[本轮完整原式结果](notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md)：run43638830039的F9全第一像rank0、九raw均非零，负仅保当前F9前两位；结合carry判据另排P9∞九目标全部预算。数据5d445ffe已原样恢复发布，40恢复/9cache齐全，无数学重算。下一保原p²整数格只新η8相关第二；更低初值/旧198第三、全原有理像及其它mean秩/高本质/自然幂仍开。
 
 [移动真实头核投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)把完整boson核放入同一Fock空间，以真carry和右逆成本sqrt(h_d C_m/S)证明P_(m+1)^B≤P_m^B+δ_mI、δ_m≤exp(−79·16^m)，并识别强极限P_M。物理有限头的i_mH_m⁻¹i_m*也强趋P_M；仅有一侧余量，没有反向范数速率或这些压缩像属于N的证明。继续真实稳定像/角度接口。
