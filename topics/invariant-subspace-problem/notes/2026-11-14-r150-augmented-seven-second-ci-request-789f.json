@@ -1,0 +1,86 @@
+{
+  "format": "r150-seven-augmented-second-fixed-actions-request-v1",
+  "new_direction_labels": [
+    7001,
+    7002,
+    7003,
+    7004,
+    7005,
+    7006,
+    7007
+  ],
+  "remaining_target_slots": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    10
+  ],
+  "reused_positive_target_labels": [
+    6,
+    9
+  ],
+  "original_raw_rows": 6188,
+  "integer_modulus": 28629151,
+  "target_multiplier": "31^2*h0",
+  "shared_mathematical_seconds": 300,
+  "per_child_memory_mib": 512,
+  "per_compilation_seconds": 30,
+  "native_compilations": 6,
+  "t96_run_id": 43597823809,
+  "t96_artifact_id": 14114364261,
+  "all198_run_id": 43619888599,
+  "all198_artifact_id": 14124017685,
+  "seven_run_id": 43630666145,
+  "seven_artifact_id": 14127663630,
+  "pair_run_id": 43632271378,
+  "pair_artifact_id": 14128781519,
+  "old1834_kernel_recomputed": false,
+  "old_seven_relation_stages_recomputed": false,
+  "pair_vq_recomputed": false,
+  "partial_positive_continuation_required": true,
+  "characteristic_zero_identity_asserted": false,
+  "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-augmented-seven-second-frozen-manifest-789f.json",
+  "source_manifest_sha256": "8b46447164b4814f62c709d23684ddf6573a0f2b2f6d3b77a01fa41863d5b017",
+  "rules_read_commit": "a9dc6616687171e7b1a6c9f798e24e6cdcc59d3a",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "workflow_source_sha256": {
+    ".github/workflows/invariant-subspace-r150-augmented-seven-second.yml": "e179d9238cfeaa5b6da8e3ca70192292e32cd5fb93247dbf21c9e1aba904a4eb",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-augmented-seven-second-actions-publish-789f.py": "870824e9fef1a9e4563d04d4d4fd7806ea866af0dd767a91bf1944ce65383ac9"
+  },
+  "entry_python_files": [
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-augmented-seven-second-integer-model-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-augmented-seven-second-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-augmented-seven-second-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-augmented-seven-second-actions-publish-789f.py"
+  ],
+  "retain_exact_contracted_files": {
+    "t96": 5,
+    "all198": 15,
+    "seven": 8,
+    "pair": 4,
+    "notes": 3
+  },
+  "main_receipt": "results/augmented-seven-second-pipeline-receipt.json",
+  "completed_outcomes": [
+    "all-nine-full-original31squaredh0-mod28629151-certificates",
+    "complete-related-second-obstruction-with-all-positive-original-certificates",
+    "complete-related-second-obstruction-with-reused-pair-certificates"
+  ],
+  "output_note_prefix": "topics/invariant-subspace-problem/notes/r150-augmented-seven-second-actions-789f",
+  "all_generated_recovery_and_stage_cache_saved": true,
+  "maximum_stored_part_bytes": 4500000,
+  "actual_terminal_pull_rebase_and_readme_diff": true,
+  "nonfastforward_immediate_pull_rebase_and_retry": true,
+  "new_syntax_parse_executed": false,
+  "new_compilation_executed": false,
+  "new_mathematical_execution_performed": false,
+  "token_scope": "Actions GITHUB_TOKEN command-scoped git environment only; no expanded credentials on disk.",
+  "account_budget_checked_utc": "2026-11-14 19:54:50 UTC",
+  "account_active_runs_observed": 3
+}

@@ -181,3 +181,8 @@
 ### 同一固定测试的滑动核切口：总平方预算O(m³)
 
 [完整证明](notes/2026-11-14-transverse-kernel-cuts-and-same-test-sliding-budget-789f-next.md)先给真核v的精确Σ_q||(R_q−P_q)v||²=⟨N0v,v⟩。对同一个固定测试f，正交有限核增量与Fourier区间mask严格支付滑动k_(q+w)=P_K_(q+w)f，总平方≤k0(1+logw)²||f||²；原w=d=2^m时为O(m³)，不假定有限核穷尽真核。QhcR_qk保整个左前缀、支撑至q+d−1；碰撞回流块范数≤√(2S)，故真实方程残量总平方≤2S k0(1+logw)²||f||²。固定多测试可与原费用在同一窗口平均；仍非精确右链，不删高返回Schur。
+
+
+### R150七个增广第二方向：完整初值连续入口已冻结
+
+[执行入口](notes/2026-11-14-r150-augmented-seven-second-actions-entry-789f.md)和[完整接口](notes/2026-11-14-r150-augmented-seven-second-interface-789f.md)冻结35输入/四批恢复，只新增七δ2，六编译各30秒、共享数学300秒/512MiB。原mod31⁵逐系数核K4的p4整除；完整相关像覆盖全部A+初值，真实CRT谱投影及源费用保全，部分正列也继续AX=31²h0原17式；6/9乘p复用。仅记录源码/执行请求，不是新的数值完成；实际结果按回执与完整保存证书登记。
