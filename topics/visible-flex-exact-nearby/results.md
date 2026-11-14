@@ -83,3 +83,5 @@
 - [R119：真实根图完整二阶及4/3斜率费用](results/R119-supplement-complete-root-graph-two-order-slope-budget.md)：已证明同一实际root graph在完整density空间的齐次差二阶<2^1024b²及4/3阶<2^700b^(4/3)，正逆均保真实principal、两mean、height恢复。准确图方程的跨支primitive取R=κ(1−c²g′²)/c，不除可变号/为零的图高；多余b由原b²n≤2^-512支付。ordinary/weak源与Γ*合同保，非mean自由Airy→strict两行转换和完整网络继续。
 
 - [R133：四个实际完整193×96连续projector格的公开证书](results/R133-supplement-actual-four-complete-continuous-projector-cells.md)：已逐原过程及native核43591378059真实五个子进程return0：7个193状态约定门、四真实闭格0/76/3300/5969全部通过，完整Gram最小奇异值>.9995；signed μν、cross、normal残差、ρ′ρ、128primitive和末端投影跳逐项保留。四份成功原native后续唯一复用；全5970、weighted边界/Green/源/high反馈继续。
+
+- [R119：实际strict全输入高输出与根斜率单位完整余项](results/R119-supplement-complete-strict-high-output-in-root-slope-units.md)：纯解析完成实际strict全输入高输出<2，λ=2^32√(j+5)δ^-9/4、L=2^4200λ；全mean/低入高出/真实C4与原接缝BV/固定Hilbert窗均保，完整二阶余项<2^2048λ²、4/3阶<2^1400λ^(4/3)。根代理已核实际profile支集下界、旧完整generator差与有序Duhamel、隔带双Schur及全低输入费用；未授全网络cutoff。
