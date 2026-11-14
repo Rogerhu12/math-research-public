@@ -48,4 +48,4 @@ R238/R242给含反射非全等及精确warped+角解析无平片条件；R243真
 request05/06/07均实际success且原bot发布；request08同时新112零尾与独立全网格/FD前置，三个v3前置源已冻结并提交；prepared可复用，不重复准备。每项完成继续open；所有失败原日志保留，别把准备或pending当接受。
 旧geometry26件/strong90件/GW35件均逐SHA保全，各recovery-manifest是历史身份，不冒本轮Actions。strong旧H审计确完成，但R6磁盘SIGTERM143无接受步、raw分块未全迁，外部只读索引在manifest；不复活旧支。公开源78件匹配原91清单，只从公开仓取，无private secret。临时自有transport分支只助大blob普通推送，main繁忙则持续rebase重推，无force。
 
-规则同步记录：2026-11-14T10:55:48.608928+00:00 实际pull --rebase成功；双README自4cf4f5f无变化，已读提交 8304c17e43623c689b97aeb02d55e844934e1382。
+规则同步记录：2026-11-14T11:03:01.797737+00:00 实际pull --rebase成功；双README自8304c17无变化，已读提交 9bd70207e889ef7f308a8fd72c1ca216d87baf50。
