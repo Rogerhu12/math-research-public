@@ -21,3 +21,5 @@
 - [R133局部上三角帽Hessian的完整源系数](results/R133-supplement-local-triangular-cap-Hessian-and-trial-source.md)：恢复1341真实帽片在η0的上三角Hessian源系数及8项原native门；全mean/ordinary/divergence保留。系数定理本身尚未消费全部trial，也不授完整帽逆。
 
 - [R133真实moving切口的全部低行与高输出](results/R133-supplement-complete-moving-cut-rows-and-regular-subspace-inlet.md)：恢复真moving切口低97行及整个高输出的11门原native；独立C mean仍非零且必须连同真实帽误差支付，193×96 QR只作有限提案，未授连续主体子空间或全逆。
+
+- [R133完整帽trial的实际Hessian修正费](results/R133-supplement-actual-complete-cap-trial-Hessian-error.md)：恢复全部1341系数片/1977交片/97输入的原实际Hessian消费者；η0上EH<3.320733114e−5，moving误差≤1.003854965 εcap+3.333534423e−5。完整physical εcap仍须实际付清，旧三个−9及保存前缀保留。

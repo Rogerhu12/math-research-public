@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap_trial_local_Hessian.py",
+    "--proposal",
+    "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/cap-Hessian-trial-20261114/native.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "0a0473fe57f250f74c52a7c59848812007ab9762947340041d7bb17b7ae50e59",
+  "state": "finished",
+  "started_utc": "2026-11-14T08:38:23.904861+00:00",
+  "address_space_MiB": 1792,
+  "actual_returncode": 0,
+  "wall_seconds": 353.2689098459996,
+  "max_RSS_KiB": 426000
+}

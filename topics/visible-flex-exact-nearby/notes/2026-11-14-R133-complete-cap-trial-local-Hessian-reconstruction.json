@@ -1,0 +1,65 @@
+{
+  "kind": "actual_complete_cap_trial_local_Hessian_reconstruction_v1",
+  "date_utc": "2026-11-14T08:51:07.754579+00:00",
+  "complete": true,
+  "scientific_scope": "All1341 local eta0 Hessian cells and all1977 trial intersections; complete physical cap residual and body inverse remain separate.",
+  "files": {
+    "results/R133-supplement-actual-complete-cap-trial-Hessian-error.md": {
+      "sha256": "11e77b92cb44177f35c2322db6a629d3caebd6eca3f7358dd6ec1626a9e70246",
+      "bytes": 10744
+    },
+    "scripts/fourfold_codazzi_cap_trial_local_Hessian.py": {
+      "sha256": "0a0473fe57f250f74c52a7c59848812007ab9762947340041d7bb17b7ae50e59",
+      "bytes": 13084
+    },
+    "notes/2026-11-14-R133-complete-cap-trial-local-Hessian-native.json.gz": {
+      "sha256": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26",
+      "bytes": 822018
+    },
+    "notes/2026-11-14-R133-complete-cap-trial-local-Hessian-process.json": {
+      "sha256": "461aa67d1c6d47724f18d7c4675883f246907ab4193935fb95a349dc9c8ef042",
+      "bytes": 759
+    }
+  },
+  "exact_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "derived_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+  "actual_affine_parameter": "eta_0",
+  "whole_original_eta": false,
+  "inputs": {
+    "local_source": {
+      "path": "notes/2026-11-14-R133-complete-local-cap-Hessian-source-native.json.gz",
+      "sha256": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd"
+    },
+    "actual_proposal": {
+      "path": "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+      "sha256": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a"
+    },
+    "complete_arrays": {
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/state.npy": "007cb7045db455c2c9a3872b37db91933a676c164b52b81c940929c12648af31",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/derivative-left.npy": "d292fb049c3cc004f8ab711d5abff93f37e07c25b930d93167ad733d01791197",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/derivative-right.npy": "b4692b336b1961fe058a9882b8c093722f724fcbdda40776e8d34c99d11026fd"
+    }
+  },
+  "runtime_dependencies": {
+    "fourfold_codazzi_physical_cap_matrix_residual_v4.py": "28cbc02bfe60d91e608728437f2c5dd2906c56aa3a892f5a2fffbaafe72c6046",
+    "fourfold_codazzi_reciprocal_continuous_residual_v3.py": "34e3d8db08c7eaf6ad38899705cadacaee65f687a78f64f508a6e0b944f41500",
+    "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+    "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+    "fourfold_codazzi_rotational_cap_jacobi.py": "05dda3acc9cd359c8cd15b61e1d573d310289af984d6923261e61161afc50046",
+    "fourfold_phase_metric_defect.py": "c4196dddcbfab15116c06a9be8a2120916c05d77fe3d7cb152f842f16b80a7de"
+  },
+  "original_invocation": [
+    "python3",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cap_trial_local_Hessian.py",
+    "--proposal",
+    "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/cap-Hessian-trial-20261114/native.json.gz"
+  ],
+  "original_process_returncode": 0,
+  "large_array_reconstruction": "notes/2026-11-14-R133-physical128-cap-moving97-reconstruction.json",
+  "large_reproducible_arrays_remain_scratch": true,
+  "all_gates_passed": true,
+  "source_output_not_recomputed_for_publication": true
+}
