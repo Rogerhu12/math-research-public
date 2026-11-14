@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R555：整个原角线性系与真实高接触forcing非零](results/R555-whole-original-linear-system-and-nonzero-high-contact-forcing.md)：全W_D准确识别为十九角除子B_D，交数ν=B_D·C=3κ+δ给全部原列的分支零阶帽；保两条十三行carry，单位−2/5给原完整首次商β13的两个严格非零门和真实左证书。没有实际候选命中，门h/κ>3/2或>2不覆盖9/8临界，完整中央及下一位仍保。
+
 - [R556：原native混合行、真实odd37交支与完整残差](results/R556-native-mixed-carry-odd37-cores-and-complete-residual.md)：实际h(Phi1−Phi2)精确是Δ=ρ0−η在u1deep/Lunit上的同一反对称行；其总行严格返回3βn(JS′−6δJT′)，完整补域保留。原q/反射q共同支恰两Jτ=(1−τ)F−2c轴，whole odd37锚付β及固定π0≡1mod37；归一后全部事件下降五伴随，所有第一权和κ^-n保。两独有支、四Mellin边界、完整37条件矩及实际r阶log残差全付，不预支首行积分单位。
 
 - [R558：原第三来源Y−W差的准确二阶与共同无限单位ray](results/R558-third-source-exact-second-order-and-common-affine-unit-ray.md)：原同一q的真实L3行约化为固定仿射式−a3+(a3+b3)barπ0；清分母后用复绝对值与固定CRT ray严格排除π0整除，得到共同无穷p的单位性。原η未归一Y−W二次项准确为d(1+λκ)(−96−158ω)L3/(343b)，故同一Dn在全部n≥1赋值恰2n。M3、C3及完整右逆来源固定可复现，所有原中央补域仍保持。

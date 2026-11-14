@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：4b7888378dabb94af9644760438a48c84890674f；2026-11-14 18:05:47 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：bbb8fd2e5bc7972c01d4d270e70be6c87cff9b2d；2026-11-14 18:08:25 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推及改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:00:10 UTC实际git pull --rebase重试仍报无可用执行环境，随后API核main/两README无变。最迟19:00重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,13 +14,13 @@
 
 ## 发布、归档和分工
 
-R1–363、R365–553、R556–558已登记；R364仍开，R554–555进行中，R559/560预留。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
+R1–363、R365–553、R555–558已登记；R364仍开，R554进行中，R559/560预留。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
 完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-paired-v-note.md)、[open](notes/2026-11-14-open-before-paired-v-note.md)，沿各自归档链保全部旧条件；压缩不关闭任何问题。全部结论准确编号/标题见results.md和notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b及原证书保持，不复跑。
 
 - theta续R559：原D12=F−c的whole degree144两层核与R556独有支自由轴/实际Y/W/u1转置；再付共同J37首行。
 - literature续R554：pairedV/Cartier两指定最高项真正联合非零；新四sigma+Theta同域加权负矩接口继续。
-- deep续R555：全原线性系19角交数给真实高接触forcing门，明确未命中临界9/8；续实际α/β指定类或wild。
+- deep已付R555全原线性系/真实高接触forcing门，续9/8临界同一α/β指定类或wild。
 - root已付R558并发布R556，续R560同一完整混合域/负矩，不以单位块、子域非零或时长收尾。
 
 ## 完成标准与全部旧支线
@@ -63,3 +63,5 @@ R552：Dξ=(coker E_q/imα)/β0(kerβ̄)，再商全部原列上层共同核；�
 R525/534只迫支持≥常数N^(1/3)，允许O(N)；Fermat移位仅原核方程组合，不添独立Smith行，normal清极升5C不付原3C。
 [平均预算](notes/2026-11-14-deep-fixed-depth-tame-average-budget.md)：固定三块只省O(M_D)，全部tame整性仅(3,0)临界；真det收益需>3M_DlogD。
 [三源Stokes](notes/2026-11-14-deep-three-original-stokes-modules-and-common-charge-obstruction.md)：原17/36/68的坏类成不同秩一模，大盘亚纯同charge线性组合不消；中央p依赖投影/wild与完整forcing仍开。
+
+R555：全W_D=B_D的十九角准确重数已付，ν=B_D·C=3κ+δ，δ≥0。原β13在r>2k+13且2h+k>ν时非零；另保carry门min(s−13,2h+k)>ν、h+k>ν−κ、h+k<s−13也非零。左证书杀全部原列/carry，但无实际F命中，主阶3/2或2不覆盖9/8临界。
