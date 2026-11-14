@@ -1,0 +1,29 @@
+{
+  "scope": "Actual scalar-profile/complete background Cartesian C2 joining and design-budget computation only.",
+  "files": [
+    {
+      "file": "result.json",
+      "sha256": "056bab12b1278f5d71a8d61780713965a5f06522a998f0ac0de0db19e3e6519f",
+      "bytes": 87086
+    },
+    {
+      "file": "fixed-prefix-profile.json",
+      "sha256": "2b6159f86591a82ee17f9b6d88242aef6344508bb140538c837fdaa0eb46a4c9",
+      "bytes": 75135
+    },
+    {
+      "file": "native-M96-endpoint.json.gz",
+      "sha256": "40f1d3ddccb8aa1b4665b7362944b66da0e93dfea1f0852e96a7c7ea5b062745",
+      "bytes": 25253
+    }
+  ],
+  "source": {
+    "file": "computations/strong_20261114_scaled_core_tail_connector.py",
+    "sha256": "661d5d84dc0dd3da46f4936c2c3ad28f80df3475f421c56d770a2afa6402ac08"
+  },
+  "actual_exitcode": 0,
+  "tool_observed_wall_seconds": 8.946700569,
+  "nonaxisymmetric_added_flow_evaluated": false,
+  "new_BVP": false,
+  "whole_closed_solution": false
+}

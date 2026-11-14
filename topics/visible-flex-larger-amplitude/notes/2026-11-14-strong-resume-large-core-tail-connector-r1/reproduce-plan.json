@@ -1,0 +1,15 @@
+{
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "${RUNTIME_TOPIC}/computations/strong_20261114_scaled_core_tail_connector.py",
+    "--profile",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-strong-resume-large-core-tail-connector-r1/fixed-prefix-profile.json",
+    "--endpoint",
+    "${RUNTIME_TOPIC}/notes/2026-11-14-strong-resume-large-core-tail-connector-r1/native-M96-endpoint.json.gz",
+    "--port",
+    "${RUNTIME_TOPIC}/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--out",
+    "${OUT_DIR}/scalar-connector.json"
+  ]
+}
