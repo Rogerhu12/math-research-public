@@ -1,98 +1,69 @@
 # 当前未解决的问题
 
-完成条件以本题README为准，实时执行、源码/结果路径及规则同步见[HANDOFF](HANDOFF.md)。本轮用户已直接授权公开仓库及本仓Actions，旧发布等待已解除；只在Rogerhu12/math-research-public工作。下列是当前实际状态，早期长列表保存在[历史open](notes/2026-11-14-open-before-current-continuations.md)，不以旧排队或中断状态替代已产生的真实结果。
+完成条件以本题 [README](README.md) 为准，执行与规则同步见 [HANDOFF](HANDOFF.md)。只在公开 `Rogerhu12/math-research-public` 工作，科学计算只用本仓 Actions。每条结论即时 pull/check/push；任一子问题做完继续下项，不能把阶段报告当完成。
 
-## 1. 从真实大核打通物理cut和完整闭合
+完整旧状态与逐次请求保留在 [截至request34的open检查点](open-checkpoint-through-request34-2026-11-14.md) 及 [更早open](notes/2026-11-14-open-before-current-continuations.md)。当前只有大幅开放前缀被接受，尚无满足全部标准的完整闭场。
 
-.99自由93核的M96/N1024真BVP已有完整接受结果，材料C²两档三归一化分量误差5.77368e−7（非算子范数）、完整核G≈.96000098/rho>.16385011989。后续公开run43582043166真接受.996和.9975，但物理metric升至4.60534e−6/8.08662e−6，不能视为已达标前缀；.997875的真实Newton因病态化、回溯失败及网格上限未接受。保全两接受点和失败checkpoint，不仅提高网格上限继续原分支。
+## 1. 先打通同一大核的完整物理边值问题
 
-当前使用较好的.99初场，加完整AngleConnector/coast/finitebridge和3个内支scalar控制到原r=.3物理cut。690节点完整θ圆warm的节点/中点域通过，但后来真实RMS两Lobatto点失败，残差.00711也还不是解。全部96个材料H与全部core换角导数进入389维增广BVP；固定前3核，其他93核加3scalar配96条真非均值tail-DN边界。三步/Richardson FD已在run43584222071真实通过；原Newton/BC/正性门不改。首690节点inner真实reduced condition7.153e17、linear相对残差.57657，未接受任何更新；SciPy随后插值到878节点RMS NaN。R244证明圆段控制的连续设计核，已接独立prefix3支撑。run43585737152实际在RMS域预检就停止：696节点331坏点，1027节点846坏点，全在圆形warm段；未到新QR或tail。request06/run43587375529已真完成：M96两N各25/26坏，M112/128/160所查48点全过；纯增N不治。现选M112/T112/N2048原方程，原96场只作初猜，base_prefix_M96与field/tail112分开。request08/run43588155190的M112准备已真success：699节点全节点/中点/两RMS域过，完整453行FD Richardson9.51769e−10<原5e−5；初残差.007110595仍非解。新112真zero/fullJ亦已成功：1351.74s、resid0、完整338×112 J及577×224状态，strict源/config/cache全同；request10直接复用prepared/FD与此真锚进原真DN/QR；不复用96包，不做ready代理QR，不采用未完整实现的analytic lift。R247证明coast Hermite偏差中点恰消失而原RMS点有±sqrt(3/7)/7系数；只说明域预检结构盲点，collocation残差仍非零。
+唯一接受起点是M96/N1024的 .99 大核开放前缀，材料三分量误差5.77368e−7不等于operator证书；完整核G约.96000098、rho>.16385011989。后续 .996/.9975 的metric超限、.997875失败已保存，不重跑。现M112/T112/N2048、699节点、完整453状态及236036自由坐标，以旧M96只作初猜；原完整scalar/3控制、112材料H及全部physical/constant行保留。
 
-request10/run43590496434真失败：首线性残差/RHS=.913332499，方向max9658；17次回溯未到finite merit、零接受更新。request11/run43592195185完整带LU info0/内存与原地分解均过，残差比例降至3.27382357e−4但方向仍5832.77；校正变差未采用，最小原α=2^-16仍52坏node/122mid/112右BC，全17trial无接受步，随后966点invalid。不能以小normwise backward2.13e−18冒准确方向，也不能只归为3控制核。request12/run43593855655已真完成方向诊断：实际P cond1.14478e17且均衡不治，真方向全θ L2=4942而保留112仅7.10；到2^-40仍1坏mid，无合法Taylor。request13/run43594985550已真失败并由e61dbf4保全30件限额内输出：真T112全J的R252非零高度FD9.65016e−10通过；新右块cond621945/均衡2956.89，同旧Uend方块119589.8，切口改善不代全局稳定。完整带LU info0，保留一次校正后原相对残差8.22590e−7/方向352.439；17trial全非finite，最小alpha仍78坏node/124mid；966插值19坏mid，零接受步、新H请求0。request15/coupling112bridge检末bridge实际传播/径向分辨率，保699旧点、新点用同p=0解析圆与完整均值，绝不插值失败场或只抬max_nodes。圆参照强非正规尺度只是选网格依据，须与实际L/R对照；原新Rφ/真尾/全部非线性门保留。另据同一旧Uend上新右块条件1.20e5，request14/run43596465579已实际失败：新小块cond1.20e5复现，但全QR回代相对残差.06731/方向352.418，原回溯无接受、966invalid、新H0；与band方向接近，不能全归band误差。request15/run43596755251也已实际失败：699旧点保留并加374至1073，原域/真J FD通过；完整带LU相对残差2.93648e−6、方向1014.925，17trial全坏，最后399坏node/496mid，status1/RMS2.12563、新H0。实际有限Jac在a二阶量为零的峰值cell仍有谱半径1.61e5；末cell拆60段宏传播范数约2.22e23，不能据理想circle公式继续盲加bridge点或只抬1200。详见[末bridge实际失败](notes/2026-11-14-actual-bridge-resolution-failure.md)。request17/coupling112trust实际run43598917532已失败：3次合法warm下降及真FD9.5171e−10通过，但原col只到.0071105473；首次真非零H约4.176e−17在native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全guard拒。尚未进入prefix inner/newband，无成功新H/J、无完整接受。全部artifact已补出版，见[真实warm与极小高度尾失败](notes/2026-11-14-actual-trust-warm-and-tiny-height-native-failure.md)。下一步分别处理turn内RMS可行方向与native冷启动，不阈值归零H、不原样重跑。request18/run43602070499已完成：λ270在80步istop2（上限200），仍同473/phi0的RMS域限制，仅α2^-16通过，原col=.007110547287、新FD9.00098e−10，无native。详见[实际18与域方向决策](notes/2026-11-14-actual-request18-converged-linear-direction-domain-limit.md)。下一从新warm作完整域梯度验证及一个投影正阻尼模型，原三源和最终接受门不变。R262已完整证明该梯度、exact chart链与λP投影伴随/下降恒等式，独立接口与一模型warm/FD已全文读并接request20/trustprotected；实际run43603477207/job132473033066已完成，单点保护使原全域有效α从2^-16增为2^-10；同模型merit降.00104611，原col仍.007110545981，未接受。新warm SHA0036063f…/新FD9.07968e−10、native0；预条件normal2.61e−5不等于未预条件KKT344.921。下一从此warm保(473,0)/(480,0)/(473,11)三条实际已见查询，一模型λ270/200，全部原域不省；request22/trustmultiline已接推送请求。见[实际20](notes/2026-11-14-actual-request20-protected-query-and-next-domain-rows.md)。request22/trustmultiline现已真完成：三行rank3，α2^-9/真实merit降.00208987，新warm03ca9477…/新FD8.1733e−10；原col=.00711054337仍非解。受保护三点自身均合法，480剩余角最小值移动，2^-6有五处左RMS，≥2^-4另有mid坏点；不只加第四点，request24/angledomain锁同base20+22真方向检查五处整N2048角β/Dβ及已试步余量，源已全文读并接推送，原门保持。详见[实际22三行](notes/2026-11-14-actual-request22-multiline-tangent-and-angular-domain-limit.md)。request19/run43602823170已真完成原无J576stage：保存初值129248项严格数值相等，全部guard过，最坏stage11/raw0/seg7/Pi104归一1.3414e7，而cut/far全112行0。见[实际cold回执](notes/2026-11-14-actual-cold-tail-no-J-stage-replay.md)。下一同原RK12零态线性stage构造私有初猜，保原far/graphs/gains/scales，request21/zerorkprobe真run43603818345在stage12/index92的工厂det检查失败，evaluate_calls=0，旧合并分支未区分有限0/非finite，不能冒新native残差；见[实际21](notes/2026-11-14-public-same-RK-candidate-probe-actual21.md)。独立v2逐块留T/ad/bc/det后，只放行不被私有图公式相除的有限rounded det0；零u/非finite/下溢和全部原native门保持，request22/zerorkprobev2真工厂已成功，实际41个有限det0留证；预测261→262第112模Q=−5e−324/u275.882…→0被新增underflow veto拒，evaluate0，仍无native结果。原native初猜本允许普通下溢；独立v3只记录并允许实际深处乘除舍入零，保cut全部H和原native门，完整候选才原noJ；request23/zerorkprobev3现已真成功：完整577×224候选原noJ一次通过576stage guard，norm降至.0417730782074仍大于原2e−9；51真实内部下溢和所有符号零/原尺度完整保全，没有solve/J/audit接受。详见[实际23](notes/2026-11-14-public-same-RK-candidate-v3-actual23.md)。下一独立入口把此完整候选只注入同17 H首次原initial，进入原完整solve/J/fresh audit，所有原门不改。R264完整损失账已证，不重跑19。从原699合法warm做精确入口/常数约束的正阻尼LSMR，保全部physical collocation/112 Rφ、真实非线性midpoint与方向一致merit；任何下降只算warm，随后仍交原完整fullDN/原RMS/BC/真尾/audit，不重跑同699QR。详见 [实际物理角失败与末bridge续接](notes/2026-11-14-actual-physical-test-failure-and-bridge-resolution.md)。
+真正T112零锚、338×112完整J、577×224原状态和audit已付1351.74s，不重复。严格七件身份相同的exact零H首请求可复用；新H、最后audit仍须真worker。旧ready或T96不能替代T112。所有warm目前仍明确未解完整BVP，不把极小H阈值归零，也不把仿射零锚边界FD冒充新H原生响应。
 
-R257已证明uniform材料圆的有限物理Jac具有理想块结构，同时证明非圆原core的严格单位速入口不能纯有限θ表示。换θ是有因备用，必须另付入口投影误差或完整解析lift、显式core响应及全部读出/证书成本；不能把旧phi曲线改名后令rho=1。当前request17主线不因这个参考定理自动切换。
+### 1A. 前缀可行下降：保原全域门，按真实拒绝点扩充方向模型
 
-R259已给备用直线缩幅的实际源圆/原有限collocation、完整112尾J与高块Schur必要条件，以及去退化后的条件IFT；简单缩小初猜不自动消除圆点scalar设计核。λ、λ²、λ³路径不是同一个首阶条件，均未有实际新解；当前request17继续，备用诊断源已冻结（[接口](notes/2026-11-14-small-core-resonance-diagnostic-interface.md)），尚未调度。
+旧10–15的完整QR/band/bridge均无接受，盲增节点无效；17之后的实际下降与失败见对应notes。原26全角方向引擎与B源冻结，所有λ270/LSMR200、C-Hildreth200、原17试步、两完整RMS与rho/merit门保留。线性角不等式只约束优化方向，不替代真实非线性域检查，不声称完整QP最优。
 
-原T96/N1024零锚和独立J审计已付，不重算。当前T112自己的真锚、完整338×112 J及所有状态同样已付；J-second相对差1.52402e−12、ready与真J差.035157884保留。request10严格复用真零响应一次，整个anchor/J逐结构同原包；worker已启动但新request为0，故这次不是非零尾失败。同配置/数学源/精确零H首请求可继续严格复用；任何新H与最终audit仍真worker，不以零残差或ready参考冒导数精化。
+| 已完成分支 | 实际结论 | 当前意义 |
+| --- | --- | --- |
+| 26五RMS与27七RMS | 实际合法下降；最近限制逐步移出原选定网格 | 已完成，保完整新warm/FD及原失败，勿重跑 |
+| [29原中点观察](notes/2026-11-14-actual-request29-observed-seven-query-warm.md) | 七RMS全部正时，最近1/32在原mid473失败，更大步另有mid477；1/64真下降 | 给新增中点的实际依据，完整原returned middle/fm与2048角数组已保存 |
+| [30完整H与C比较](notes/2026-11-14-actual-request30-complete-H-comparison-and-warm.md) | 同f中H44.35849607633413劣于C43.905058168501064，保C；1200H/18基/16工作行，17CG均未达原残差目标 | 有限H尝试确实执行；不据此盲增预算或声称QP收敛 |
+| 30原非线性回溯 | α1/256真降.002933782783976824；最近1/128节点/中点全finite，但原left-RMS471失败 | 新warm8a91f696…/FD9.143364336e−10；仍col.0071104373/BC8.832e−8/native0 |
+| 32九query | run43614990381已success取完整包，实际记录正在读取 | 同29父场保七RMS+真mid473/477各2048，必须按它自己的原全域试步决定继续 |
 
-实际联解接受后，立即完成以下相互依赖的内容：保存完整physical/constant状态与真实H尾；原core证书和球排除；真正cut的完整材料角谱；同一SE2及高度偏移下的六jet；明确有限C²修补对metric的影响；完整上下尾和固定帽组装。新场已经含物理z0，不加旧A mean。原背景表尚不定义连续primitive，现已给同场全部表节点的精确共享quintic背景及完整表示误差账（[说明](notes/2026-11-14-shared-background-and-representation-budget.md)）。保原帽高、同一g，完整cut Δ须重建；独立wrapper及严格新loader已冻结（[接口](notes/2026-11-14-shared-background-closed-wrapper-interface.md)），真正使用B的三导数并重建全部cut角差；旧loader拒绝新包，cover/held独立薄入口已接新loader且保原完整空间/全像公式（[接口](notes/2026-11-14-shared-background-cover-held-interfaces.md)）。原metric表不得覆写为B′，数值未执行。原φ96通常含无限θ谱，不能只投影96项便称连续接缝为零。R239是连续充分条件，仍须核其实际分支、turning number和全部高度jet输入。
+30最佳R267浮点下界表达式43.11565368239749来自原raw LSMR零乘子证据点，非后续H改善；跨点给C的gap表达式.7894044861，没有严格舍入包络。不同轮会刷新原权重，不能把不同轮merit相减。R262/263/265/267是有限优化工具，不新增原BVP门。
 
-R263已完整证明预条件normal=C^-1r与受限KKT r的区别、λ²强凸后验方向/模型gap界及下降比例充分条件。实际20小的zᵀr不代全r；需要改进同一模型精度时可据此调LSMR停止精度，不只增maxiter，不把它加成原BVP门或打断22三行实验。
+下一从32真实新warm按真实新拒绝位置继续；完整midpoint基点/站点须直接用原 `state.middle`/`problem.mid`，保完整两端J/P、入口core与global p链以及列尺度一次。原七RMS块身份、所有query kind、单次原全J捕获及完整父producer都要保全。
 
-## 2. 定型后冻结同一材料g精化
+### 1B. Native：修复保存完整系统的原尺度线性缺陷
 
-R240证明共同材料θ下g=ds²+a(s)²dθ²独立于核心c。第一次设计可调scalar；真正精化须冻结全部a(s;p*)、尾帽g、区间、参数及t范围，释放全部核心，取K0/k0/T=M，然后升频率、径向网格及积分精度。不能将不同scalar设计或不同t区间混为收敛序列。独立v4的prepare/response/full_dn与完整物理读出/尾包/闭面消费者均已准备，严格绑定首v3全部p*及同一canonical scalar SHA，尚无实际v4解。 新Rφ v4三包装已按新身份重建：同一个真实live TailClient完成新H/J、原FD和原fullmain，保predictor、最终fresh audit及原门，实际live scalar sidecar与完整cut单独绑定；尚无真实parent可启动。见[same-g live-client接口](notes/2026-11-14-same-g-physical-DN-live-client-interface.md)。README要求等距误差随精化到机器或原求解容差，并要求每个有限场及t族C²；六jet用于曲率/reach可靠性，不新增六jet全体机器收敛门。帽中心使用固定图册，非线性角变换不得硬延到中心。
+[23完整初猜](notes/2026-11-14-public-same-RK-candidate-v3-actual23.md) 的577×224全状态原noJ通过576个stage guard，norm.04177307820740199仍大于原2e−9；全部112H、51真实内部下溢与9546负零保全。原linearSteps定义far/graphs/gains/scales，不能整体改它冒仅更换初猜。
 
-旧A基准的真RK24/RK48非线性solve/J/audit、RK48真16+源节点读出、两共同网格、finitecollar和三闭mesh已经全部完成并发布，不继续列为ENOSPC中断，也不重复求解。24→48同f8二jet差7.03e−6，RK48 f8→16差.0029138，未机器稳定；原prefixcut metric平台4.77033e−8仍未重解。接缝外metric随精化下降至2.07608e−9，但不能替整闭同g频率精化。旧finitecollar全域界1.00139e−18只适用自己的H和背景。
+[25实际完整solve](notes/2026-11-14-public-native-seeded-full-actual25.md) 中，同seed基态withJac合法，但原correction后十档试步全部在stage13/raw0/seg7被D/S/A拒；无新cut J/fresh audit。不能直接绕入fullDN的新H。
 
-旧post43 GW完整结果已逐SHA恢复为历史材料：不同有限GW场的f8→16二jet仍差.0017739032174，未C²稳定。R245给完整Hermite恒等式；公开run43586618658已真重现二jet差.0017739032174，有理shadow同值、消费端误差仅1e−17。Q层差反升.00204906，metric样本也变差，不扩全场替换。request07已真完成三节点，request09/run43588929803又按原49 RK步重放六已有节点；旧A/B/C字节/mean/g全同。96×1024局部metric f8→16→48从1.18359e−8降到1.25944e−9再到1.62003e−10，κmax同7.6462465。局部读出敏感已定位；封存该旧A分支，不追任务外机器六jet门，不扩全场GW/Q。新大幅field仍须自己的实际尾与同g非线性精化。
+[28完整捕获](notes/2026-11-14-actual-request28-native-linear-defect.md) 已保全部J/r/δ/原σ/cut/far及全29数组/116chunks。原σ浮点缺陷最大7.3718085303337e40在stage43/Pi110，cut/far0；原delta有限但巨大。极大chart condition不是全A条件数或全A奇异证明；普通float缺陷也不是保存binary数组的精确实数缺陷。
 
-## 3. 全t嵌入、reach、固定区和真实像幅度
+[原band接口](notes/2026-11-14-native-captured-band-correction-interface.md) 直接消费同保存A，原σ显式行列尺度、129248维/kl112/ku335带主元分解，恢复后回原方程读取全部旧/新缺陷，并在Actions对原/新最坏行算精确有理见证。31/33只在输入发布失败，没有科学执行，事实分别见 [31](notes/2026-11-14-actual-request31-artifact-publication-failure.md)、[33](notes/2026-11-14-actual-request33-read-only-publication-order.md)。34先完成移动再只读封存，run43615494107科学步骤已success，实际结果正在完整记录；保持同band数值源和同28输入。
 
-R248已给有限C²的全相位强连续及metric/operator/κ上确界恒等，前提是完整准确两阶接缝。R249已完成共享节点入口parity规范形及完整连续修补成本证明，只改首单元且保留整个cut九jet/mean/H；其真实metric/κ代价仍须消费新的实际接受场。独立full_state_continuous_cover已绑定同一规范形、完整实际位置/法向和记录的唯一SE2，R241空间门不变；包络仍显式条件，不继承旧A数值。未标记整面的reach/D可用一次完整空间证据，固定marker须统一R24或R11混合点对门，不能把marked整族当刚体。
+后续依据真实线性证据改进同保存系统；原试步重放入口可消费真正新方向，保原十档alpha、完整原evaluate/guard/merit且不重复同J。试步接受仍不能冒原native/J/audit接受。全行exact dyadic读回组件另行准备，不能把它加成README外的新门。
 
-D必须用完整闭F0；δhold是表面像的Hausdorff距离，不能用材料点位移。H可用两个固定帽的并集，须实算直径且含内点。旧A的实际点云δhold/D≈.0630146，明确不满足.2；它只提供已完成工具基准。新full_state_held_hausdorff已补实际position packet/完整闭包路径及全部身份绑定，沿用全活动块+两完整帽盘和原.2门，未运行新数值；它可独立于reach尚余点对的状态读幅度见证。
+### 1C. 保留的替代设计与真正fullDN衔接
 
-R241完整参数块条件同时排除自交及double-normal瓶颈。旧A的v2真实D+=3.980751407764145、Ktau=.9994116104；曲率/标记及prefix-tail/cap/self已付，只剩33712个prefix-prefix对。v3真消除31764/33712原余对，剩1948仍仅prefix-prefix；完整活动位置cover已导出。真实held消费者使用全部活动块及完整帽盘，得δhold/D+≥.05388898465、H/D+≥.996873，正像变但不达本题幅度。run43585361227/q4后余328父对；run43586618658/q8已付全部33712父对/2157568子对，uncovered=0，完整条件空间预算通过。旧A可选加密停止，不实施径向方案。覆盖假设和数值证据的严格程度照实际记录，不能暗换成已证明全域区间界。新候选必须用自己的数据重跑相关消费者。
+R257严格有限恒速平面Fourier只能是圆；非圆core不能简单重命名成有限θ单位速入口。换θ需支付入口投影或完整analytic lift、core响应及证书成本。R259给小核心缩幅的实际有限系统共振与条件IFT；简单缩小初猜不自动消除设计核，不同λ次幂路径不得混用。[备用诊断接口](notes/2026-11-14-small-core-resonance-diagnostic-interface.md) 已冻结未调度，当前已有实际证据的主线先继续。
 
-R254已给完整物理共享节点Hermite前缀的逐cell精确有理四点证明和完备6×(4M+3)网格消费者；当前没有新接受场实际回执。必须绑定R249实际nodal SHA、完整z0和全部模式，不能移植旧尾或据prefix单独宣称δE。R238通过平面局部胚识别四个不同支持圆和仿射独立圆心，排除含反射全等；A实际前缀2589片和标记代数已过，完整tail/collar输入仍待同场消费者。R242对精确度量且角解析的活动环带给结构性排平面开片定理；有限metric缺陷或只有C²收敛的极限不能自动套用。原RK48四角共享node精确C²规范形已由公开Actions逐段全有理验证9246小段，完整定理/实例见R243；与旧rounding表示及整个接缝的差异仍要支付，不能宣布整个δE已证。
+取得真实新H原生响应后，仍须原完整outer/inner、RMS1e−6、BC1e−11、native原容差及fresh audit全过。所有新H原尺度和完整物理cut数据须随响应保存，非零跨进程缓存不能冒同live predictor。
 
-R258已把同场全部FFT/shared-node tail、内collar及完整材料角cut修补接到逐段次数≤15四角行列式判据，并完成实际marker/活动环带/R238条件链；新完整消费者已冻结，严格绑定本场实际尾及所有节点dtype/系数，待真实父场后运行。规范形与舍入renderer的表示差不能默许为零，整面C²、嵌入和实际连续像变仍需同场证据。详见[完整尾与标记链](results/R258-complete-field-tail-cardinal-marker-chain.md)。
+## 2. 同一接受场的闭合与固定g精化
 
-## 4. 严格存在差距、保全与执行
+完整联解接受后保存全部physical/constant状态和本场真实尾，核core/球排除、完整材料角cut谱/mean/九jet、唯一SE2与高度偏移，完成R249有限C²入口修补、上下尾与固定帽。新场已有z0，不加旧A mean；有限φ一般有无限θ谱，不能有限DFT同值冒连续接缝为零。R239连续定理仍需实际分支、turning number和全jet输入。
 
-R251 strict operator 消费者的重建源已在 request16/run43597596523 真编译并通过三个指定解析例（含完整z0与mixed term失败见证），实际回执见 [三解析场接口](notes/2026-11-14-actual-R251-operator-interface-check.md)。这是接口执行成功，尚未验证实际接受场、完整48/64有限Gauss scalar或全prefix；不重跑三个例子，也不把它列成新的候选验收门。
+共享quintic背景及 [严格闭面wrapper](notes/2026-11-14-shared-background-closed-wrapper-interface.md) 已冻结：全部共享节点定义同一B、保帽高/marker、重建完整cut角差，原A.height/w/E目标g不覆写为B′。旧loader拒新包；[新cover/held接口](notes/2026-11-14-shared-background-cover-held-interfaces.md) 保完整空间与整面像公式。规范形/renderer差与原finiteGauss真导、返回ap/app、角投影和径向残差按R260分账，不据非恒等自行宣布超限。
 
-R260已把原固定finiteGauss半径的真实导数、返回ap/app、角Galerkin误差与径向残差分开，并给同g operator/二阶读出的完整误差恒等式。固定求积可能已低于原容差，不能仅凭非恒等宣布失败；R251直接同场Gram证书及共享节点C²仍有效，不改g、不加验收门。
+定型后冻结全部scalar控制p*、尾帽g、区间、参数与t范围；按R240释放全部core取K0/k0/T=M，升频率/径向/积分。新 [same-g live-client接口](notes/2026-11-14-same-g-physical-DN-live-client-interface.md) 保同一TailClient/predictor依次新H/J→原FD→fullmain→fresh audit，严格绑定实际scalar sidecar。原699二分需1397点，不能误用1200。README要求等距误差精化到机器或原solver容差，不新增六/九jet全体机器收敛门；有限场及全t族仍必须C²，帽中心用固定图册。
 
-完成数值标准后须明确无限尾、精确等距极限或其他仍欠严格证明之处；不要另加README没有要求的审批/独审门。未推的旧R179–224依赖若实际必要，按幸存源重做，不用排队记录补结论。已恢复的43提交、R235–237及真RK24/RK48不重复。
+旧A RK24/RK48、三闭mesh、全部2157568空间对及GW局部f8/16/48已完成封存。其幅度不足本题标准，不能继承其数值到新场，也不重复旧全场GW/Q或追任务外机器六jet门。
 
-每一条完成结论实际pull、检查双README差异、记录已读SHA、普通push；非快进立即rebase重试到成功，至少每小时同步。原自动publisher因README变动保留artifact并停止发布是正确行为，root读取差异后接手。手动workflow_dispatch因PAT权限403不可用，已改仓库既有push request明确选择geometry/cardinal/coupling，不重复已完成zeroH/free3。任何分项完成都继续下一项，不将阶段报告当任务结束。
+## 3. 全t嵌入、reach、固定区与整面像幅度
 
+沿R248全相位强C²和metric/operator上确界归约，准确接缝前提必须已付。新场自己的R241全部参数块/正常锥条件须覆盖自交与double-normal瓶颈；marked整族不当刚体。R249修补仍保完整cut/mean/H，实际metric/曲率代价由新场消费。
 
-R265完整证明已登记：所有声明角行的一阶不等式模型有唯一正阻尼解，KKT/dual后验和完整Hermite B/Bᵀ均明确；只提供优化工具，不自动覆盖连续角或替代原全域/非线性门。request24真run43606770409现已全success：480首线性exit夹在接受/拒绝之间，近处四个actual负角与linear负角同集；大步475/477/479另有非线性余项失域。完整证据见[实际24全角与余项](notes/2026-11-14-actual-request24-full-angle-first-exit-and-nonlinear-remainder.md)。下一完整全角可行投影warm保原merit及全部域门，明确不冒R265最优。
+D用完整闭F0直径；固定有内点H可取两固定帽并实算直径。须同时达到diamH≥.2D、整面像Hausdorff δhold≥.2D、全t reach≥.03D，以及含反射δE>0。材料点位移、仅core到core距离、core直径都不能替整面指标。旧A实际幅度约.063明确不达标。held可独立于尚未完成的reach点对状态读完整活动块/两帽盘见证，不设reach先通过的额外门。
 
+R238/254/258给同场平面胚/非平面活动块/标记的刚性排除链，精确四点或四角行列式必须消费本场全部模式、shared节点、材料mean和完整尾。R242角解析精确等距定理不自动适用于有限metric缺陷或仅C²极限。数值包络的严格程度如实陈述，不能暗换区间证明。
 
-request25/nativeseed独立原完整尾求解已接推送：精确恢复23完整577×224 candidate并保全部负零，只首次同17 H赋原initial；原完整solve/J/fresh audit/容差保持，失败与接受按原客户端。入口两源已全文读/静态语法，未本地科学计算。
+## 4. 全域operator与最终交付的严格差距
 
+R251四Loewner/完整Gram消费者已在request16通过三个解析例，但尚未消费新接受场；不重跑fixtures或加新验收门。实际完整prefix、finite48/64Gauss scalar、两尾帽和C²修补的相对metric operator需≤1e−6，不能把三分量≤1e−6直接改称operator≤1e−6。
 
-request26/angleprojection已接公开Actions：从最新22 warm新建唯一原完整模型和全10240角约束，C度量局部Hildreth、全行径向修复、可行原射线后备与同f线段选择；原A/gdot/merit/17trial/全部域和新FD保持。只是可行优化方向构造，非R265完整QP最优，仍非true native/BVP接受。见[全角算子](notes/2026-11-14-full-angle-domain-operator-interface.md)及[可行投影warm](notes/2026-11-14-full-angle-feasible-projection-warm-interface.md)。
-
-request25原完整solve已真实失败：run43607404925/job132484959081，iter0 norm=.04177307820740199，chartCondition8.810946110232247e59，原multiple-shooting line search failed，完整cut J/fresh audit未返回。先读取全部原试步定位，不直接接fullDN新H。
-
-actual25完整失败点已保：[原生全部试步实录](notes/2026-11-14-public-native-seeded-full-actual25.md)。十步1..1/512均stage13/raw0/seg7动量D/S/A拒，无trialNorm；同seed完整withJ基态合法，原correction图表报告8.8109e59，尚无全J/delta可辨线性缺陷。下一单次原withJ/correction捕获完整有限模型，不盲增试步、不新H。26已真实运行43608931469/job132489481146，待实际投影与新FD。
-
-request26已全success并逐实际包核：[全角投影实录](notes/2026-11-14-actual-request26-full-angle-projection-warm.md)。α2^-6、同新固定权重drop.0136476320，新warm4e2ee245…/新FD8.659e−10；仍col.007110525/BC9.449e−8/native0。5query全部实际正后限制移到左RMS472/481，接同一新warm七query完整角不等式；原真实全域回溯不变。Hildreth200未内收敛而已径向修到全行可行，非完整QP最优。
-
-R266完整证明已入results：原stage/cut/far缺陷与原σ下降、computedJ/参考导数及全部算术差分开；可逆缩放保持原线性解，极大chart condition不代完整缺陷、chart失效也不等于全A奇异。用其解释下一实际25校正捕获，不额外加运行门。
-
-request27/sevenprojection已接推送：锁actual26 warm4e2ee245…，新增实际坏RMS472/481得到七query×2048=14336行；同λ270/LSMR200/Hildreth200、完整原回溯与新FD。独立薄入口f6598a5e…/d05df1fd…不改26冻结源/父producer，详[七query接口](notes/2026-11-14-seven-query-projection-warm-interface.md)。
-
-request28/nativecorrection独立原完整校正捕获已接推送：源0b49f142…/hookb20aee4d…，同actual25/23 H与全seed，原withJac/correction表达式保持；完整J/r/delta/所有原σ缺陷及最大图矩阵保存后在trial前计划停机。仅诊断完成，不报native/J/audit接受；全部大阵仅artifact，详[捕获接口](notes/2026-11-14-native-correction-capture-interface.md)。
-
-R267完整证明已入results：同一固定模型可在任意证据点取Lagrangian下界，再约束另一个可行候选；最大合法下界优于只看投影后巨大梯度的单点界。完整原梯度与有符号slack仍必须实际重算，跨迭代刷新权重不可混；actual26仅形式代入，严格浮点认证另付，不新增运行门。
-
-request27已全success，见[真实七query续步](notes/2026-11-14-actual-request27-seven-query-projection-warm.md)：α1/16、同固定权重真实降.0510362901、新warm f73dfc81…/新FD7.819e−10；完整14336行修到浮点非负，仍col.0071104568/BC8.963e−8/native0。最近拒绝1/8的七query全角正而1个原midpoint失败，位置未存。下一从此新warm保同七query/所有原门，给原evaluate返回middle/fm加只读观察，记录实际坏中点及角余量，不盲加第八RMS行。28真实run43611175099/source6bd52b44/job132496373274在原校正捕获阶段。
-
-request29/observedseven已接推送，从实际27 f73dfc81…继续同一七query算法；原evaluate返回的坏middle/fm新增只读位置/原完整角余量与NPZ字节记录，所有原数值判据不变。没有盲加中点约束，须据实际新返回决定后续。新完整FD另行实算；详[同七query中点观察接口](notes/2026-11-14-observed-seven-query-warm-interface.md)。
-
-完整H候选生成helper已冻结，见[完整H修正接口](notes/2026-11-14-full-metric-inequality-correction-interface.md)。原全A/全局变量与全行B保持，近似H逆仅生成≤34维基，实际AV构子空间Gram，最多32工作行且完整原残差/互补/R267多点下界均重算。硬H≤1200，明确总时间及原trial余量，非完整QP最优；尚未实际执行。后续从29真实新warm接独立入口，保原C投影作同模型后备及29只读中点诊断，原最终判据不变。
-
-request29已全success，见[真实中点定位与下降](notes/2026-11-14-actual-request29-observed-seven-query-warm.md)。新warm f2e999e7…，α2^-6实降.0117314373、新FD9.265e−10；仍col.0071104411/BC8.857e−8/native0。最近拒绝2^-5为原midpoint473（s1.2018391887397941）β²10角负/min−.1615288168，七left-RMS全部2048角正；更大2^-3/2^-2还有mid477。原observer不改flags/vector字节，16 NPZ/48数组核完。下一从同新warm并行完整H同七query与九query（七原RMS+原mid473/477）候选，必须按原middle/mid字节与完整原J/P链，保全部原门。
-
-request28已完整捕获，见[原校正实际线性缺陷](notes/2026-11-14-actual-request28-native-linear-defect.md)。原基态norm.0417730782未变；原校正全部stage原σ浮点缺陷最大7.3718085303337e40在stage43/Pi110，cut/far0，无nonfinite，原delta最大3.06634e26。全J/δ/原尺度/全部29数组均逐chunk/hash保全，0trial且无native接受。下一直接复用同完整A作带pivot重解、回原方程读全e并在Actions内对保存原worst及新worst行作精确binary-rational检查；不凭chart condition推fullA奇异，不重算原J。
-
-request30/fullhprojection已接推送：actual29 warm/status双SHA锁定，同七RMS完整模型保原C可行方向，并以原全H的有限子空间候选作同f实际比较；新选向重读全A/B/完整梯度/μ/r/slack与R267多点后验，全部原回溯/域/observer/新FD保持。预算总1200s、H额外600s且留180s原trial/保全；大数组仅artifact。详[完整H实际接线](notes/2026-11-14-full-metric-warm-and-response-interface.md)。另九query实际中点支线独立准备，不混入此模型。
-
-
-request31/nativeband已接推送，见[保存全系统带状重解接口](notes/2026-11-14-native-captured-band-correction-interface.md)。仅消费actual28全J/r/原δ/σ/边界，原σ缩放后pivot band解，保原最坏行精确rational、全部新旧缺陷与新最坏行精确见证；不重复J/native/旧trial，不报非线性接受。输入完整artifact独立下载硬核，只复制小回执，所有大阵仅artifact。30完整H比较实际run43614132961仍在跑，另九query接actual29同父场。
-
-
-request32/mixedquery已接推送，见[九query原中点接口](notes/2026-11-14-nine-query-original-midpoint-projection-interface.md)。同actual29父场，保七原left-RMS全角块，加真实mid473/477各2048；直接原middle/mid与完整J/P链，复用同11node无第二全J。原C方向算法、17原试步/全部原域/observer/新FD保持；与30完整H分支独立比较，不预设大步或接受。
-
-
-31仅输入目录发布失败，科学计算未开始，见[实际传输失败与修复](notes/2026-11-14-actual-request31-artifact-publication-failure.md)。33同nativeband重提：独占新目录与回执最后发布，完整输入校验保持，原band源/所有科学设定不变。32实际run43614990381/source4dce4180与30独立进行。
-
-
-33仍未进入科学计算：完整输入核验后移动预先设0555的目录时报errno13，见[实际发布顺序失败](notes/2026-11-14-actual-request33-read-only-publication-order.md)。34仅把只读封存移到移动完成之后，成功后才运行同原band；科学源/输入/尺度全不变。
+完成全部数值标准后，给数个各<5MB网格、同g精化数据、全t/完整几何证据，明确无限尾或精确等距极限仍欠的严格存在论证。完整证明直接入results及索引，无额外独审/审批。必要旧未推依赖按HANDOFF幸存源重做，已恢复的43提交/R235–237及真RK24/RK48勿重复。只有全部README标准真实完成才收尾。

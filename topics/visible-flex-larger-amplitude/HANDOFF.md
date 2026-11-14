@@ -21,14 +21,13 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀：29真实下降并定位原中点，接两种完整方向
+### 前缀：30同模型保C，32九query实际读取中
 
-17–27失败/下降在actual notes，勿重跑。26失败左RMS472/481促成27七query；原26引擎7d75a44a…/B af7966fa…冻结。27更大步mid位置未存，由29真实新试步补齐。
-29/observedseven run43612331803/sourcef4896bba/job132499878558全success；artifact14120947020/143428136B/ZIP8c3af8d4…已取核，完整actual29 note27a84755…。同699/M112/T112/N2048；七left-RMS(472,473,475,477,479,480,481)×2048，完整B14336×236036/local3721；68文件/421数组/18源hash及父producer核。原88 Jac捕获11node，actual-LSMR B complex6.202e−13/adjoint1.428e−17，大阵仅artifact。
-λ270/200 LSMR80步istop2；C-Hildreth200未收敛，118负slack经.7538402992径向修成全正(min1.249e−16)，同f线段τ1。gdot−.7367477675/模型Delta.4609612920，完整gradient275926/零dual E522190不冒QP最优。R267可用同模型raw完整gradient345.4571给另一证据点，29未算新比例。
-实际α1/64全部原node/mid/两RMS/rho过，同一固定权重merit44.382936021255084→44.37120458393527，drop.011731437319816962/ratio1.0217222253。col.007110441077777405/BC8.857150198345718e−8仍非解，native0。新warm `notes/public-actions-43612331803-1-observedseven/observed-seven-warm/warm-001.json.gz` SHA f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9；status a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4。新完整Rφ FD9.265212545800078e−10过原5e−5，112 H保留（首项2.3206841035345475e−14）。不同模型权重刷新，merit不可跨轮相减。
-最近拒绝1/32仅原midpoint473，s1.2018391887397941，finite middle/非finite RHS、β²10角负/min−.1615288168在index22；七RMS全角正。1/8、1/4还坏mid477，其他更大步坏点详原件。9条observer finite/vector字节未变；16 NPZ/48原数组核，无附加异常；未重算wholeflow/J。
-30/fullhprojection run43614132961/source8ed43e0b/job132505423542已success并取全包244400092B/ZIP4cadfd61…，actual note读取中；同29父warm/status，原C方向作同f后备。helper d5e9432e…/warm8fb6411e…/FDa24f2e52…，全H仅C预条件，≤32工作行/34全局基/1200 H动作，重读原梯度/R267证据。总1200s/H600s/留trial180s。32/mixedquery run43614990381/source4dce4180运行中：七原left-RMS+actual mid473/477各2048，源34115f81…/warmd74d7a1c…/FD5c871d96…。state.middle/problem.mid原字节，完整J/P/core/p，复用11node。均保原observer/17trial/域与新FD，非native/QP最优。
+17–29全部失败/下降见本日actual notes，勿重跑。26引擎7d75a44a…/B af7966fa…冻结。现699/M112/T112/N2048，236036完整坐标；26五left-RMS→27七query→29只读mid定位，父producer不改，所有112非零H保留，native0。
+共同父29 run43612331803/sourcef4896bba/job132499878558；α1/64实降.0117314373、FD9.265e−10。warm路径 notes/public-actions-43612331803-1-observedseven/observed-seven-warm/warm-001.json.gz SHA f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9；status a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4。原mid473在1/32失败、477在更大步失败，七left-RMS(472,473,475,477,479,480,481)各2048全正；16NPZ/48数组已核。不同轮刷新权重，不跨轮相减merit。
+30/fullhprojection run43614132961/source8ed43e0b/job132505423542全success；artifact14121154981/244400092B/ZIP4cadfd61…已取。actual30 note已全文读。真正H候选完成而同f较差：fH44.35849607633413>fC43.905058168501064，故保原C。H1200硬上限/303.331s，18基/16工作行，17个CG原残差均未达目标；不盲增预算。最佳R267浮点LB43.11565368239749来自rawLSMR μ0非H改进；给C gap.7894044861，无舍入认证/全QP最优。
+30实际α1/256，固定本轮merit44.3724225594053→44.369488776621324，drop.002933782783976824/ratio1.0159176954；col.007110437270942378/BC8.831813076391987e−8仍非BVP。新warm notes/public-actions-43614132961-1-fullhprojection/full-H-warm/warm-001.json.gz SHA8a91f696168a5d4b49c6a10e08ba23333839476117e9f7755b46bf21340607fc；新FD9.143364336011781e−10。最近拒绝1/128 nodes/mid全finite，但left-RMS471 s1.1902387410048825/minβ²−.0137956460，原七网格正；1/64仍mid473坏。12observer/16NPZ48数组核，finite/vector未改。
+32/mixedquery run43614990381/source4dce4180/job132508019098已success取包175987792B/ZIPbfd16566…，实际note读取中。与30共同29父场，保七原RMS+两个真实mid473/477各2048，原middle/mid字节、完整J/P/core/p，复用同11node；源34115f81…/warmd74d7a1c…/FD5c871d96…冻结。后续按32真实新warm和原全域拒绝点续接，不回退重跑29；所有原17trial/域/observer/FD保留，非native接受。
 
 ### Native：28完整原线性缺陷已保，接同矩阵带pivot重解
 

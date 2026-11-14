@@ -195,3 +195,8 @@ run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548
 ### 2026-11-14 actual33输入发布EACCES与request34顺序修复
 
 33/run43615232598/sourcec6584d04/job132508749093 metadata/完整ZIP/提取核过后，在移动已设0555目录时报errno13，独占部分目标已清理；没有band科学执行。34只把read-only封存移到全部目录移动之后，成功再启消费者，同PIN/原band科学源不变。事实见actual-request33-read-only-publication-order note。旧log接近100KB，request17之前完整段落逐字节移至同目录log-archive-before-request17-2026-11-14.md；拼回与迁前完全一致，历史未删。30完整H actual包已取，结论正在读原记录。
+
+
+### 2026-11-14 actual30：完整H真实比较保C，最近原RMS限制到471
+
+run43614132961/source8ed43e0b/job132505423542全success，244400092B/ZIP4cadfd61…全取；actual30 note全文读。H候选实际完成但同f44.35849607633413劣于C43.905058168501064；1200H硬预算/18基/16工作行/17CG均未达原残差目标。最佳R267浮点LB43.11565368239749实际来自原rawLSMR μ0，非H改进，给C gap.7894044861，无舍入认证/全QP最优。原C最终α1/256固定权重merit44.3724225594053→44.369488776621324/drop.002933782783976824，新warm8a91f696…/FD9.143364336e−10；仍col.0071104373/BC8.832e−8/native0。最近1/128全部node/mid过但原left-RMS471 β²−.0137956460拒，1/64仍mid473坏；原七网格全部正不替全域门。12observer/16NPZ48数组核，完整H/B数组保artifact，不盲增H预算。
