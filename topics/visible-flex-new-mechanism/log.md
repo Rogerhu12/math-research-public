@@ -225,3 +225,7 @@ h=1的完整周期矩式给detM中央矩恒等。显式高频闭球面纬向微�
 ## 2026-11-14 13:59 UTC — R33 与准确椭圆正交frame首次公开试算
 
 root/source独立证明带边界椭圆柱reach=B²/A、反射u同/vβ反、全时间材料拉回与像集刚体旋转、完整包络下>.328幅度和>.200握持预算。归档准确椭圆弧长端口、通用负K种子、连续端口必要筛、R28有限frame BVP及真实人工检查；S9入口和leading β3/u4经双审。root发现原末S5与当前标量二jet基的尾平均R_T阶数不合，source/mechanism独立核后仅末段换S11，μν及负K积分不变、完整g身份升级，未运行旧研究版本。共享workflow新增ellipse_frame短筛+单个35分钟上限fixed-g正侧solve，publisher仅增加lane白名单；先严格必要筛，未解析不当排除。全部研究只在本公开Actions。没有完整候选或reach认证，继续实际结果审计。
+
+## 2026-11-14 14:03 UTC — ellipse_frame 首次实际失败与后续定位
+
+run43602519926的62源/8输出长度与SHA全部匹配，四开发检查通过。全角弦长inner非空、竖直出口转向门准确通过；fixed-g 64变量123nfev ftol仍有fine metric1.660115/R3.51022/κsample2334.99及投影越界。角加倍位置差1.42e−11，故主要失败不是该评价末位；独立Gauss差3.27e−8仍如实记录。公开完整actual-audit与失败字段，不引用未满足包络的R33幅度。下一固定原模型的公开残差分布审计，另已识别未来design需加高log基尾阶。按来源复查larger-amplitude最新公开HANDOFF，仍无可移用完整解。

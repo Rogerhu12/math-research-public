@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间 C2 连续、同一固定 g；固定材料开集 H 且 diamH≥.2D；不对齐的真实像集 Hausdorff 位移≥.3D；全域全时 reach≥.03D；最大相对 metric≤1e−6，且同 g/物理参数/时间加密改善；完整小网格、复现及严格存在性差距。D 是初始完整曲面直径。δE 可为0但须如实报。达标后继续 .5D 或更强存在性。
 
-- 根及本题 README 已完整读。公开仓库最后已读规则提交：`3e5656abc7d770b74d2733823b2babda139e92fe`；13:52 UTC前已实际CLI pull，根/本题README新差异为空。
+- 根及本题 README 已完整读。公开仓库最后已读规则提交：`f5c478827849a8f734221fb44413e893c4fe5f4b`；13:52 UTC前已实际CLI pull，根/本题README新差异为空。
 - 每次 pull 后只读这两 README 新差异并立即遵循，至少每小时 pull。每结论提交推送；NFF 立即 pull --rebase 并循环推送，不强推。
 - 作者指定 QUEUE 已置进行中。私有仓库13:39:55 UTC实际pull至2af8e95180f2df4ccf4cdb915220d795c8b12907，根README差异为空；队列唯一匹配行仍为本会话进行中。私有研究内容不发布。
 - 研究计算只用本公开仓库自己的 Actions。令牌仅瞬时命令行认证，不入文件。根 LOG 不写；共享 workflow 理由记本题 log。HANDOFF<10KB，其他 MD<100KB，数据>1MB压缩、单件<5MB。
@@ -49,10 +49,7 @@ R31的公开准确代数run43601439290已成功且全部58源/1输出哈希核�
 
 共享 `.github/workflows/visible-new-mechanism-search.yml`，最多2并行、每job≤50min；publisher只写本题小输出，receipt含输入SHA，每次rebase核README。成功状态不等于数学通过。
 
-1. 旧ψ-warp u=.8/1的核心嵌入已由43593187614/43593758483完整认证，但R23排除其平圆领目标；六模sin a65/b12的32768局部曲率/条件幅度通过，R24仍排除同一封口目标。真实数值与输入身份见各actual-audit notes，不移用到cos。
-2. 闭合基底43594503459九周期仍约.01113/.01573/.00611，D仅舍入级；Jac大差来自hinge分支，rank≤8由R20解释。global_profile43595131331最终D非零不可实现，完整O约.336/.311也未过，不重跑。
-3. 新cos43597247312的固定点κ/J正且framing0，但最大曲率下界16.27947给reach/D≤.019567<.03，严格排除；谷底q_ell≈35是瓶颈。两个开发检查真实通过，raw final失败完整保留。
-4. D0同germ43597247312短程差≤2.22e−11、局部O≤9.22e−14，但复终点jet约28/J约41，未匹配外尾。固定q2的C10正/C25负及根16.62628188869为稳定求积证据，连续符号/omega界未证；两物理根W/C′均正，未过R26门。
+旧实际计算均在各actual-audit：ψ-warp43593187614/43593758483核心通过但R23排封口；43594503459/43595131331完整周期失败且D非零设计不可实现；cos43597247312曲率严格排除；同run局部D0射击未匹配外尾。原始输出与失败全保留，不原样重跑。
 
 端点消元43598398961无全角正J、局部曲率下界9688；暖投影43599589025正J/framing0通过，但局部曲率下界21.87057给reach/D≤.014565且tip必要门失败。两点均严格排除，详见各actual-audit；不作其连接。整核包络/幅度已挂正J门，旧输出保留并核前提。
 
@@ -64,4 +61,4 @@ physical_root43600230731已完成：正半线148nfev残差2.52e−13；冻结xi/
 
 warped_collar43595305950实际失败且R23另以link排除该封口目标；R24排除旧sin核，已试cos点全因厚度门失败。当前转准确椭圆柱和R28固定负K度量；入口/尾端先去已知表示失配，再公开Actions试算。文献续解仅限R29/R32未排类别。主README全部门通过前不收尾。
 
-当前request：ellipse_frame，全角连续端口必要筛后，一个正侧fixed度量J4/M5/200nfev；目标A1/B.28/w.02/L.9/rc.22，高度.45。模型与人工check已独立复核，实际结果待公开Actions。R30最小接口见notes/R30-validation-interface-20261114.md。
+ellipse_frame实际43602519926：连续端口inner非空/全方向门通过；123nfev ftol但fine metric1.660115、R3.51022、κsample2334.99、ellipse radius²1.46167，未可行，R33包络前提不成立。62源/8输出SHA全核。详见ellipse-frame-fixed-pilot-actual-audit；下一公开固定模型残差分布audit，不本地重算或盲重试。启metric design前须把log基尾Oδ5升Oδ7。R30接口见notes/R30-validation-interface-20261114.md。
