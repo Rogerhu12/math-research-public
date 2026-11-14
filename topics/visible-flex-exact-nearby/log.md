@@ -337,3 +337,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:06:35 UTC：独立推G1–19全旧root product/分离第一幅度。root核原F6a–15、L13–17域与全部Carathéodory/链式式，tail独核双ray抵消。原native/forcing/seams不重算；actual consumer仅在旧复germ、正inverse-image margin上执行，不预授更大域或full PDE。两README未变。
 
 - 2026-11-14 20:06:56 UTC：独立推R1–15真实径向参考分区及中央完整entire级数证明；root/tail全文核，正区衰减/负区两ray/mean全保。分区仅用于norm，不改原trial或接缝；六已成tensor与1328moment/direct表均只复用。待新profiles/integrals消费者，未预授cutoff97。两README未变。
+
+- 2026-11-14 20:08:45 UTC：独立推43635264409原生64point实际报告；root全文核24048B process/29147B summary、26门、整套source比较及4真pull空README diff。只新64+64+16，旧whole/Taylor/7844/1325不重算；同w0 additive4.641143057402e−9。等待已运行后继43635487128真实Green，不预授finite/fullν门。

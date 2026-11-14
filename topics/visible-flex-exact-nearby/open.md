@@ -263,3 +263,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 真径向Abar分区与中央Airy完整级数（2026-11-14 20:06:56 UTC）
 
 [R1–15](results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md) 用同一real径向Abar而非不同径向点的上下包络比分central/high；|A−Abar|≤a+·j给ε<1及Re t≥1−ε，高区Volterra常数同步重付，原实际A±的幂不替换。中央Ai/Ai′用两个正系数entire初值解及完整几何尾，显式qF/qD<1；全Fourier/mean输出和原composition费用保持。selector仅估计输入norm，不改trial、不求其径向导、不生seam。root/tail全文核通过；新消费者只换六profiles及完整积分，原已成tensor/1328×2表不重算。
+
+### 64原生点实际完成，等待完整同Z Green验收（2026-11-14 20:08:45 UTC）
+
+[实际报告](results/R133-supplement-actual-missing-native-point-Hessian.md)：43635264409 child0/26门，只新64点、64点模型残差、16local；7908whole/7844旧residual/64 Taylor及1325其余local全保。完整四源比较选ordinary，additive<4.641143057402e−9，旧Taylor为5.884046519508e−7。root亲核source/native/193pin、26门、四真pull空diff。287pin同Z Green后继43635487128正在消费；本条只授w0特定源，真正有限193误差、未知high反馈和full PDE仍须分别核验。

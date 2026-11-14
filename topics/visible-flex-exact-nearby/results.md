@@ -563,3 +563,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### 原Airy列的真径向分区与完整中央级数界（2026-11-14 20:06:56 UTC）
 
 [解析证明R1–15](results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md)，10026B/SHA1fe11cfbeece7fd334d24a0259c6156f6245953763664fb09fb1b596e9a4c607。root/tail全文核径向Abar、实δ域、high prefactor/Volterra导数项、F0/F1正系数及值/导数两种完整几何尾。只改善完整符号profile上界；actual的六tensor、全部矩阵、旧means与全输出保持。数值smallness及full return仍待真正Actions消费。
+
+### 缺失64原生中点的实际Hessian证书（2026-11-14 20:08:45 UTC）
+
+[报告及原件身份](results/R133-supplement-actual-missing-native-point-Hessian.md) 已独推。43635264409 child0/26门，数学52.438333s/child60.001888s；native41156aa8…7797760B/4片，process519b7e39…24048B/summaryf388ab7d…29147B。64新点∩旧whole∩已成Taylor保同germ，原whole第三阶不变；1341行/1977交段/7908cover/mean全核。合法完整ordinary分解给physicalGreen<4.623320319864e−9及additive<4.641143057402e−9；所有旧成功仍完整保留，未知误差算子不借此改善。
