@@ -1,0 +1,540 @@
+{
+  "format": "r150-ninth-first-original-publication-recovery-inputs-v1",
+  "publicationRecoveryRunId": "43640008833",
+  "publicationRecoveryRunAttempt": "1",
+  "publicationRecoverySourceCommit": "8c5699cbddd7110a2e8ee6bbfe9ce9ee74528e6c",
+  "originalMathematicalSource": {
+    "source_commit": "eaa240d96fda143c65a8eccede55b64b87f50ef8",
+    "run_id": "43638830039",
+    "run_attempt": "1",
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "request": {
+      "format": "r150-ninth-first-fixed-request-v1",
+      "new_direction_labels": [
+        9001
+      ],
+      "actual_new_rhs_labels": [
+        9001,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "target_labels": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "original_raw_rows": 6188,
+      "integer_modulus": 887503681,
+      "new_kernel_divisor": 28629151,
+      "target_multiplier": "31^2*h0",
+      "shared_mathematical_seconds": 300,
+      "per_child_memory_mib": 512,
+      "per_compilation_seconds": 30,
+      "native_compilations": 6,
+      "t96_run_id": 43597823809,
+      "t96_artifact_id": 14114364261,
+      "all198_run_id": 43619888599,
+      "all198_artifact_id": 14124017685,
+      "seven_run_id": 43630666145,
+      "seven_artifact_id": 14127663630,
+      "current_run_id": 43634830833,
+      "current_artifact_id": 14130166013,
+      "old1834_kernel_recomputed": false,
+      "old_eight_first_directions_recomputed": false,
+      "partial_positive_continuation_required": true,
+      "complete_higher_initial_freedom_computed": false,
+      "characteristic_zero_identity_asserted": false,
+      "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-frozen-manifest-789f.json",
+      "source_manifest_sha256": "8221ff61314167f38a559cb91ba03c8df73666301707179e6d75ef5bd71f10c6",
+      "workflow_source_sha256": {
+        ".github/workflows/invariant-subspace-r150-ninth-first.yml": "040da5224a2fe65852bbc472ac80dadb6a0cf1cc8640c98ab8e19cd1484cd5d2",
+        "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py": "19c26c7320e453d071de5941f2d1e9af0c91b787b86f8caaf281ecb327871fac"
+      },
+      "entry_python_files": [
+        "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-integer-model-789f.py",
+        "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+        "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-runner-789f.py",
+        "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-source-action-and-kernel-789f.py",
+        "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py"
+      ],
+      "rules_sha256": {
+        "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+        "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+      },
+      "rules_read_commit": "71f33e2c4d7c55d440bbfab4be0e60e4851fc49a",
+      "account_budget_checked_utc": "2026-11-14 20:37:12 UTC",
+      "account_active_runs_observed": 4,
+      "maximum_stored_part_bytes": 4500000,
+      "all_actual_recovery_files_preserved": true,
+      "new_syntax_parse_executed": false,
+      "new_compilation_executed": false,
+      "new_mathematical_execution_performed": false,
+      "token_scope": "Actions GITHUB_TOKEN command-scoped environment only; no expanded credentials on disk."
+    },
+    "request_sha256": "ac8d79c457b779ce49071f4c5edf1a8351de47f3963a29408c9b68e3a069a840",
+    "source_manifest_sha256": "8221ff61314167f38a559cb91ba03c8df73666301707179e6d75ef5bd71f10c6",
+    "actualPythonSyntaxFilesParsed": [
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-integer-model-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-source-action-and-kernel-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py"
+    ],
+    "allOriginalSourceHashesVerified": true,
+    "target_multiplier": "31^2*h0",
+    "targetScope": "Every compatible target completes original17; negatives preserve the current F9 source modulo31^2",
+    "noMathematicalCompletionClaimed": true
+  },
+  "originalResultsFiles": [
+    {
+      "file": "actions-console.log",
+      "bytes": 10213,
+      "sha256": "f8b9a4aa604a6e146db71d2a15cc54dcfbb1b48f35c8b4e541f8b01ebf0aacf1"
+    },
+    {
+      "file": "actions-outcome.json",
+      "bytes": 1170,
+      "sha256": "32c6a17c19d086a1981a68bf43d41c0b5a804aad3fe22feba5adf83e50f70ccf"
+    },
+    {
+      "file": "actions-source.json",
+      "bytes": 4282,
+      "sha256": "92a946f87669085e5577e75fc8fdd09c4c9ef2885d484a92f87043f9d7d24df8"
+    },
+    {
+      "file": "actual-restored-inputs.json",
+      "bytes": 13310,
+      "sha256": "95e4591310abad750307f88367c16eb223b4c9897358f0e62b67d161fdc22070"
+    },
+    {
+      "file": "certificate-manifest.json",
+      "bytes": 12586,
+      "sha256": "4e5f2f1d91e5ff31df7ef674646701e09f1163ce53316f6865da3b7bc98ab13e"
+    },
+    {
+      "file": "certificates/complete-ninth-first__complete-ninth-first-image.bin.gz.gz",
+      "bytes": 32246,
+      "sha256": "e11562a93f8b4d0fbb714ed332fe08915207d04e453fa4b14011a7e910f7d1f2"
+    },
+    {
+      "file": "certificates/genuine-ninth-q-image__genuine-ninth-q-image-image-quotients.bin.gz",
+      "bytes": 63345,
+      "sha256": "503284dae03dff1131dea4b62cb12ff639afc0a1458594444c1091b9bc6bdee3"
+    },
+    {
+      "file": "certificates/genuine-ninth-q-image__genuine-ninth-q-image-image-remainders.bin.gz",
+      "bytes": 41,
+      "sha256": "bca051fced015cf8702c6393442ffedcc1bf72f6a1fe6c9cb231c4e4aefe9d46"
+    },
+    {
+      "file": "certificates/genuine-ninth-q-image__genuine-ninth-q-image-normal-forms.bin.gz",
+      "bytes": 42163,
+      "sha256": "859c807d67c89d12bf0e12538c2a400dc376204af2042ac9371761a5745ff2f0"
+    },
+    {
+      "file": "certificates/genuine-ninth-q-original__genuine-ninth-q-original-primitive-source-mod31.bin.gz",
+      "bytes": 229397,
+      "sha256": "099992f7824f891b6839bc49a16eebc83efce2e44cc5c99268d23e3599ae342f"
+    },
+    {
+      "file": "certificates/genuine-ninth-q-source__genuine-ninth-q-source-standard-coefficients.bin.gz",
+      "bytes": 50987,
+      "sha256": "3d3e87270acd31fbf412e483f84b3de5e839fc7e5493c4c3743d04ed42a551d7"
+    },
+    {
+      "file": "certificates/genuine-ninth-q-source__genuine-ninth-q-source-vq-checkpoint.bin.gz",
+      "bytes": 319585,
+      "sha256": "4e132c139142ff2d4bbb47188aeaa7af2c58e3e1f48d825e452507d31cbd060c"
+    },
+    {
+      "file": "certificates/ninth-and-current-image__ninth-and-current-image-image-quotients.bin.gz",
+      "bytes": 598019,
+      "sha256": "930112a693c712d1294aa8c2c3854d10be12ad25416cdf60d0e19f708d9aba2d"
+    },
+    {
+      "file": "certificates/ninth-and-current-image__ninth-and-current-image-image-remainders.bin.gz",
+      "bytes": 1406,
+      "sha256": "54c002bb09c4649e92b5358acafa12e129e0466d0968f597cabbbfa2a473f03c"
+    },
+    {
+      "file": "certificates/ninth-and-current-image__ninth-and-current-image-normal-forms.bin.gz",
+      "bytes": 416313,
+      "sha256": "48beee617c004183684020c4ce87f2cde5de8b16741efc00da6a290927c6247f"
+    },
+    {
+      "file": "certificates/ninth-and-current-normal__ninth-and-current-normal-backward.bin.gz",
+      "bytes": 2031817,
+      "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28"
+    },
+    {
+      "file": "certificates/ninth-and-current-normal__ninth-and-current-normal-forward.bin.gz",
+      "bytes": 1660293,
+      "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca"
+    },
+    {
+      "file": "certificates/ninth-and-current-normal__ninth-and-current-normal-normal-forms.bin.gz",
+      "bytes": 416313,
+      "sha256": "48beee617c004183684020c4ce87f2cde5de8b16741efc00da6a290927c6247f"
+    },
+    {
+      "file": "certificates/ninth-and-current-normal__ninth-and-current-normal-reduction.bin.gz",
+      "bytes": 4391746,
+      "sha256": "bbd54f0ea19c4fdf0c9bb1a931c1a940f7b9dc585ba67576676f1da5aa7a8401"
+    },
+    {
+      "file": "certificates/ninth-and-current-original__ninth-and-current-original-fifth-divided-original-rhs.bin.gz",
+      "bytes": 1548191,
+      "sha256": "9e5b17a41cc3eb2bb85faca16b84821a69d12feb2623c3fb7210e20845404a5e"
+    },
+    {
+      "file": "certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part001",
+      "bytes": 4500000,
+      "sha256": "2427e9c723c12759ca8bdd18271a4d4ae9b51662dbfa1c8847933b6cdd5e5f01"
+    },
+    {
+      "file": "certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part002",
+      "bytes": 4500000,
+      "sha256": "dbe20354f50a0359f359cebcbdbb93745ff7333bb522cd175e44180859d8f0dc"
+    },
+    {
+      "file": "certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part003",
+      "bytes": 1578146,
+      "sha256": "599d031766d265ed2b070cbe2eb1936593e08f0344dc0321e0a3a637e915cfe5"
+    },
+    {
+      "file": "certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part001",
+      "bytes": 4500000,
+      "sha256": "0fa6a87c7b16f67ffc620675674bd02527b1091893a814e46d3b0456ad1c76e8"
+    },
+    {
+      "file": "certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part002",
+      "bytes": 4500000,
+      "sha256": "ca738a20c0d010c6256cfa3eeefbcffa0d65f9769c0b35306ff7b50e929016be"
+    },
+    {
+      "file": "certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part003",
+      "bytes": 649784,
+      "sha256": "e1098c66fd47efe3cc0f505abff979ec83726b8e2a63e35e6c3302bef834d9b3"
+    },
+    {
+      "file": "certificates/saved-ninth-action__ninth-source-action.bin.gz.gz",
+      "bytes": 497,
+      "sha256": "3947c08971c8b076683d1f8d70953593bc0da6bc64a5a309dfb1751653f4031d"
+    },
+    {
+      "file": "compile-image.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-normal.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-original.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-source1.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-target9.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compile-transport.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "compiler-version.txt",
+      "bytes": 239,
+      "sha256": "ac55452791ddd9d6e55f5e1f3dbcd5ee40f34b0b55ae18baade542748b008022"
+    },
+    {
+      "file": "complete-ninth-first.log",
+      "bytes": 540,
+      "sha256": "8a77cdd30ea4de18281680cd557c0f82fde7b05ce214bde60a1d08c33107bef2"
+    },
+    {
+      "file": "complete-ninth-first__complete-ninth-first-image-receipt.json",
+      "bytes": 12046,
+      "sha256": "7af477b589130f60ef5f39a98e1bc7e8ccdf50e8ffb4964b1f2c5c84ea7d949f"
+    },
+    {
+      "file": "genuine-ninth-q-image.log",
+      "bytes": 268,
+      "sha256": "7e5e80d5936638dbd9748486736242c96cf6a5130263009fdbaa686c4911a863"
+    },
+    {
+      "file": "genuine-ninth-q-image__genuine-ninth-q-image-image-certificate.json",
+      "bytes": 551,
+      "sha256": "36ed475b191a618538ee78412c89905fa2249df40257b7d77093062b1be91791"
+    },
+    {
+      "file": "genuine-ninth-q-original.log",
+      "bytes": 554,
+      "sha256": "c6e0a45ac65e31b119c2024ea8c75671926f5c8833d6718aea45130b6c27886b"
+    },
+    {
+      "file": "genuine-ninth-q-original__genuine-ninth-q-original-original-transport.json",
+      "bytes": 569,
+      "sha256": "73533bcaf945f039367fc1617d29e381818a95bd72c48197cd7feb2684f9b270"
+    },
+    {
+      "file": "genuine-ninth-q-source.log",
+      "bytes": 2276,
+      "sha256": "3f53d20bf451e741b661d930d233297837a3f84926720b8177c9a0316fa1a70a"
+    },
+    {
+      "file": "genuine-ninth-q-source__genuine-ninth-q-source-source-certificate.json",
+      "bytes": 1054,
+      "sha256": "e0851d1ff0522e811ad0f6b881471c5e7aa3811666a299851fe4467711ad8162"
+    },
+    {
+      "file": "genuine-ninth-q-source__genuine-ninth-q-source-vq-checkpoint.json",
+      "bytes": 333,
+      "sha256": "46aa5c11b368f6d6de244fc835c7e162440ce86df64cd403ad2d256286dec5f8"
+    },
+    {
+      "file": "inputs__genuine-ninth-q.mix",
+      "bytes": 2307,
+      "sha256": "43e8092da0249f6657d59388f1050e2031b6346bc5defa5cdc452d9cfc9866d5"
+    },
+    {
+      "file": "inputs__ninth-and-current-image.mix",
+      "bytes": 552,
+      "sha256": "aca9189004c22d1bc4ddd268b9519fcb65b216ea033810c6987bd07e016db874"
+    },
+    {
+      "file": "inputs__ninth-and-current-original.recipe",
+      "bytes": 2378,
+      "sha256": "bd6c4588d4fc04c79b120145696af1e2837a0fcf3e8bf3e22344549ce75703f1"
+    },
+    {
+      "file": "inputs__original-integer-31squaredh0-mod887503681.txt",
+      "bytes": 38998,
+      "sha256": "5d418686b82665f7e988a0624440e70f44f0c6ba06c124b44fa85f7c17d04e7a"
+    },
+    {
+      "file": "inputs__original-integer-31squaredh0-mod887503681.txt.json",
+      "bytes": 691,
+      "sha256": "68938651aa48475dcc695bf9547ca3e7f6edc96061fb3352a9facbd9bd7d877f"
+    },
+    {
+      "file": "ninth-and-current-image.log",
+      "bytes": 1417,
+      "sha256": "4564596c642467d701860e3c81b295f164ccb6b5e1ff13f9cfc84fe561ea2ad3"
+    },
+    {
+      "file": "ninth-and-current-image__ninth-and-current-image-image-certificate.json",
+      "bytes": 614,
+      "sha256": "2927d60d6a06431a6d167ff9aa543b6c073f419c19cd3d1edec48925aa140b77"
+    },
+    {
+      "file": "ninth-and-current-normal.log",
+      "bytes": 2863,
+      "sha256": "c7dd1440040ac4835a33cc3466aeeeeb5e4cc2327d11405c613fe7af6a811ddd"
+    },
+    {
+      "file": "ninth-and-current-original.log",
+      "bytes": 1142,
+      "sha256": "0f4e8023f703a25a28e0242b74612bbd2e219143b569f4eb26d3a2c107f73dcc"
+    },
+    {
+      "file": "ninth-and-current-original__ninth-and-current-original-original-product.json",
+      "bytes": 1028,
+      "sha256": "6dcf1c2a6a609b4142519611df724ab7d6e2f8984483aaf6b49cf6808a93fadb"
+    },
+    {
+      "file": "ninth-first-pipeline-receipt.json",
+      "bytes": 48984,
+      "sha256": "646b0858aa553b8eecc83041a28b0c767b5831b91413d7aedf57fe042886e3aa"
+    },
+    {
+      "file": "python-flint-version.txt",
+      "bytes": 380,
+      "sha256": "75b3369568896a677b66bf08790962c38fc74ce00578f3e902572f3551d5c269"
+    },
+    {
+      "file": "recovery-manifest.json",
+      "bytes": 7834,
+      "sha256": "af8240acf3c5601e21a4c1162a18546580540c9e3df26764a317259885908f9b"
+    },
+    {
+      "file": "same-exact-integer-model.log",
+      "bytes": 661,
+      "sha256": "c8da5950fd4d4adfffa1922191c2684c47998e50393118600bd4b00f24e3c5ca"
+    },
+    {
+      "file": "saved-ninth-action.log",
+      "bytes": 130,
+      "sha256": "72a1562cff05e4edc17f8e09bf747d52d969aae21808ef3ae3ca9e99f3db81f7"
+    },
+    {
+      "file": "saved-ninth-action__ninth-source-action-receipt.json",
+      "bytes": 3902,
+      "sha256": "4b7795994a5281f82eb63d2ae640026239bb4de6a9d92c3036e4b2406a14bc84"
+    },
+    {
+      "file": "stage-cache__complete-ninth-first.json",
+      "bytes": 788,
+      "sha256": "e4e980a732f9470c927f13216941d1e004d10a7d82fe3f98cb4daeb379265b54"
+    },
+    {
+      "file": "stage-cache__genuine-ninth-q-image.json",
+      "bytes": 869,
+      "sha256": "a837b56c6b2140b6c4c0db1506dff8021fda005a9dab5968f0c0a0892acbaa79"
+    },
+    {
+      "file": "stage-cache__genuine-ninth-q-original.json",
+      "bytes": 585,
+      "sha256": "d9c6b491b2f09c0198df45d43ff68760a8595b91f4ac5af92709c4f21e51d8db"
+    },
+    {
+      "file": "stage-cache__genuine-ninth-q-source.json",
+      "bytes": 981,
+      "sha256": "5ed22923e01acc7b40f274fe9f52230deb67c71b631f0009aa4a0e20758b9981"
+    },
+    {
+      "file": "stage-cache__ninth-and-current-image.json",
+      "bytes": 886,
+      "sha256": "654187ef8f8dd83cc353e3e43f99e6bff84fa101018c01c3f9bda19f516630ec"
+    },
+    {
+      "file": "stage-cache__ninth-and-current-normal.json",
+      "bytes": 1051,
+      "sha256": "ccd7842307400303e9468706753ee7867795caa86b0e9d5b7812f4861bf0e1d2"
+    },
+    {
+      "file": "stage-cache__ninth-and-current-original.json",
+      "bytes": 1153,
+      "sha256": "0aac46010e383ffea5645347ef34179cc83b91989541ca01d11ae9eda8ea0bb2"
+    },
+    {
+      "file": "stage-cache__same-exact-integer-model.json",
+      "bytes": 1119,
+      "sha256": "c9a4a73ba89902940c5d05e13f4b9e714ae1076b0ab112312517cb9f9a17709f"
+    },
+    {
+      "file": "stage-cache__saved-ninth-action.json",
+      "bytes": 535,
+      "sha256": "aabc93d11276a83daadb74ce8902bb0d33d3962aa93c28ac80d4a5123d7990ad"
+    },
+    {
+      "file": "text-recovery-manifest.json",
+      "bytes": 5852,
+      "sha256": "c4099f58cbbbf2f44d0e6c85b3f2cbc554500394a40362912956aadbb2e2080b"
+    }
+  ],
+  "artifacts": {
+    "format": "r150-ninth-first-exact-three-artifact-recovery-v1",
+    "newMathematicalStagesExecuted": false,
+    "allThreeCompleteZipHashesVerified": true,
+    "artifacts": [
+      {
+        "scope": "results",
+        "id": 14130438457,
+        "name": "isp-r150-ninth-first-results-43638830039-1",
+        "zipBytes": 32103220,
+        "zipSHA256": "3314b864fd4cb6bf474b4ab934f8cbe062414fd3e31c8ec63f34c00a801592b0",
+        "metadata": {
+          "id": 14130438457,
+          "node_id": "MDg6QXJ0aWZhY3QxNDEzMDQzODQ1Nw==",
+          "name": "isp-r150-ninth-first-results-43638830039-1",
+          "size_in_bytes": 32103220,
+          "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14130438457",
+          "archive_download_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14130438457/zip",
+          "expired": false,
+          "digest": "sha256:3314b864fd4cb6bf474b4ab934f8cbe062414fd3e31c8ec63f34c00a801592b0",
+          "created_at": "2026-11-14T20:43:27Z",
+          "updated_at": "2026-11-14T20:43:27Z",
+          "expires_at": "2026-12-14T20:43:26Z",
+          "workflow_run": {
+            "id": 43638830039,
+            "repository_id": 1457408986,
+            "head_repository_id": 1457408986,
+            "head_branch": "main",
+            "head_sha": "eaa240d96fda143c65a8eccede55b64b87f50ef8"
+          }
+        }
+      },
+      {
+        "scope": "recovery",
+        "id": 14130842468,
+        "name": "isp-r150-ninth-first-recovery-43638830039-1",
+        "zipBytes": 32846922,
+        "zipSHA256": "5ce43eb8fc4ea285c41570abe763b9cce4febbf163c80c25907b420b373ff855",
+        "metadata": {
+          "id": 14130842468,
+          "node_id": "MDg6QXJ0aWZhY3QxNDEzMDg0MjQ2OA==",
+          "name": "isp-r150-ninth-first-recovery-43638830039-1",
+          "size_in_bytes": 32846922,
+          "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14130842468",
+          "archive_download_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14130842468/zip",
+          "expired": false,
+          "digest": "sha256:5ce43eb8fc4ea285c41570abe763b9cce4febbf163c80c25907b420b373ff855",
+          "created_at": "2026-11-14T20:43:29Z",
+          "updated_at": "2026-11-14T20:43:29Z",
+          "expires_at": "2026-12-14T20:43:28Z",
+          "workflow_run": {
+            "id": 43638830039,
+            "repository_id": 1457408986,
+            "head_repository_id": 1457408986,
+            "head_branch": "main",
+            "head_sha": "eaa240d96fda143c65a8eccede55b64b87f50ef8"
+          }
+        }
+      },
+      {
+        "scope": "prior-publication",
+        "id": 14131112175,
+        "name": "isp-r150-ninth-first-publication-43638830039-1",
+        "zipBytes": 7763,
+        "zipSHA256": "3841572883147dff2de87086e68c6c261c5e072ab5904dbf0081e982d465ebe7",
+        "metadata": {
+          "id": 14131112175,
+          "node_id": "MDg6QXJ0aWZhY3QxNDEzMTExMjE3NQ==",
+          "name": "isp-r150-ninth-first-publication-43638830039-1",
+          "size_in_bytes": 7763,
+          "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14131112175",
+          "archive_download_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14131112175/zip",
+          "expired": false,
+          "digest": "sha256:3841572883147dff2de87086e68c6c261c5e072ab5904dbf0081e982d465ebe7",
+          "created_at": "2026-11-14T20:43:36Z",
+          "updated_at": "2026-11-14T20:43:36Z",
+          "expires_at": "2026-12-14T20:43:36Z",
+          "workflow_run": {
+            "id": 43638830039,
+            "repository_id": 1457408986,
+            "head_repository_id": 1457408986,
+            "head_branch": "main",
+            "head_sha": "eaa240d96fda143c65a8eccede55b64b87f50ef8"
+          }
+        }
+      }
+    ]
+  },
+  "newMathematicalStagesExecuted": false
+}

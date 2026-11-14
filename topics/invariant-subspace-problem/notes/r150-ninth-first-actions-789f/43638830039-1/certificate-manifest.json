@@ -1,0 +1,279 @@
+{
+  "format": "r150-ninth-first-lossless-certificates-v1",
+  "pipelineStatus": "completed",
+  "partialCheckpointIsNotIdentity": true,
+  "files": [
+    {
+      "originalFile": "complete-ninth-first/complete-ninth-first-image.bin.gz",
+      "uncompressedBytes": 32233,
+      "uncompressedSHA256": "6eec0118fece587450244c70088d18ff01b835a05411db85063a1afdedfa9789",
+      "compressedBytes": 32246,
+      "compressedSHA256": "e11562a93f8b4d0fbb714ed332fe08915207d04e453fa4b14011a7e910f7d1f2",
+      "parts": [
+        {
+          "file": "certificates/complete-ninth-first__complete-ninth-first-image.bin.gz.gz",
+          "bytes": 32246,
+          "sha256": "e11562a93f8b4d0fbb714ed332fe08915207d04e453fa4b14011a7e910f7d1f2"
+        }
+      ]
+    },
+    {
+      "originalFile": "genuine-ninth-q-image/genuine-ninth-q-image-image-quotients.bin",
+      "uncompressedBytes": 95260,
+      "uncompressedSHA256": "f02fcd56904180acc1407a77a77fa1c0f3b344b3a0cc016e6df2e9e1e9e1d2df",
+      "compressedBytes": 63345,
+      "compressedSHA256": "503284dae03dff1131dea4b62cb12ff639afc0a1458594444c1091b9bc6bdee3",
+      "parts": [
+        {
+          "file": "certificates/genuine-ninth-q-image__genuine-ninth-q-image-image-quotients.bin.gz",
+          "bytes": 63345,
+          "sha256": "503284dae03dff1131dea4b62cb12ff639afc0a1458594444c1091b9bc6bdee3"
+        }
+      ]
+    },
+    {
+      "originalFile": "genuine-ninth-q-image/genuine-ninth-q-image-image-remainders.bin",
+      "uncompressedBytes": 30,
+      "uncompressedSHA256": "774747301ecca38a7b96be0b7b4fec2f22c330bcec233c03819eea0b3f69f66b",
+      "compressedBytes": 41,
+      "compressedSHA256": "bca051fced015cf8702c6393442ffedcc1bf72f6a1fe6c9cb231c4e4aefe9d46",
+      "parts": [
+        {
+          "file": "certificates/genuine-ninth-q-image__genuine-ninth-q-image-image-remainders.bin.gz",
+          "bytes": 41,
+          "sha256": "bca051fced015cf8702c6393442ffedcc1bf72f6a1fe6c9cb231c4e4aefe9d46"
+        }
+      ]
+    },
+    {
+      "originalFile": "genuine-ninth-q-image/genuine-ninth-q-image-normal-forms.bin",
+      "uncompressedBytes": 62375,
+      "uncompressedSHA256": "c532a9caad68ba26a43ede7eb6f599c4ac5714502b95e2fa103a50b4403baa34",
+      "compressedBytes": 42163,
+      "compressedSHA256": "859c807d67c89d12bf0e12538c2a400dc376204af2042ac9371761a5745ff2f0",
+      "parts": [
+        {
+          "file": "certificates/genuine-ninth-q-image__genuine-ninth-q-image-normal-forms.bin.gz",
+          "bytes": 42163,
+          "sha256": "859c807d67c89d12bf0e12538c2a400dc376204af2042ac9371761a5745ff2f0"
+        }
+      ]
+    },
+    {
+      "originalFile": "genuine-ninth-q-original/genuine-ninth-q-original-primitive-source-mod31.bin",
+      "uncompressedBytes": 565092,
+      "uncompressedSHA256": "fb094caa43d07ca255638d196e8a64aa7b5019089ebcfc59caf9a0738843dc32",
+      "compressedBytes": 229397,
+      "compressedSHA256": "099992f7824f891b6839bc49a16eebc83efce2e44cc5c99268d23e3599ae342f",
+      "parts": [
+        {
+          "file": "certificates/genuine-ninth-q-original__genuine-ninth-q-original-primitive-source-mod31.bin.gz",
+          "bytes": 229397,
+          "sha256": "099992f7824f891b6839bc49a16eebc83efce2e44cc5c99268d23e3599ae342f"
+        }
+      ]
+    },
+    {
+      "originalFile": "genuine-ninth-q-source/genuine-ninth-q-source-standard-coefficients.bin",
+      "uncompressedBytes": 83857,
+      "uncompressedSHA256": "53651d74409ea647d1de6db253e6c657cbfcbfc0e74e3445ce7a9ce6cb93b708",
+      "compressedBytes": 50987,
+      "compressedSHA256": "3d3e87270acd31fbf412e483f84b3de5e839fc7e5493c4c3743d04ed42a551d7",
+      "parts": [
+        {
+          "file": "certificates/genuine-ninth-q-source__genuine-ninth-q-source-standard-coefficients.bin.gz",
+          "bytes": 50987,
+          "sha256": "3d3e87270acd31fbf412e483f84b3de5e839fc7e5493c4c3743d04ed42a551d7"
+        }
+      ]
+    },
+    {
+      "originalFile": "genuine-ninth-q-source/genuine-ninth-q-source-vq-checkpoint.bin",
+      "uncompressedBytes": 6291536,
+      "uncompressedSHA256": "32d2b90451a0af23406ecdc0d33fcf962b5a5538ac70e4c44f57a8d85467de01",
+      "compressedBytes": 319585,
+      "compressedSHA256": "4e132c139142ff2d4bbb47188aeaa7af2c58e3e1f48d825e452507d31cbd060c",
+      "parts": [
+        {
+          "file": "certificates/genuine-ninth-q-source__genuine-ninth-q-source-vq-checkpoint.bin.gz",
+          "bytes": 319585,
+          "sha256": "4e132c139142ff2d4bbb47188aeaa7af2c58e3e1f48d825e452507d31cbd060c"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-image/ninth-and-current-image-image-quotients.bin",
+      "uncompressedBytes": 906402,
+      "uncompressedSHA256": "12beaeeef0a1c3d925a85c042f6ed87cbb75dce5b6bae5bc807547fcaae10dba",
+      "compressedBytes": 598019,
+      "compressedSHA256": "930112a693c712d1294aa8c2c3854d10be12ad25416cdf60d0e19f708d9aba2d",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-image__ninth-and-current-image-image-quotients.bin.gz",
+          "bytes": 598019,
+          "sha256": "930112a693c712d1294aa8c2c3854d10be12ad25416cdf60d0e19f708d9aba2d"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-image/ninth-and-current-image-image-remainders.bin",
+      "uncompressedBytes": 2700,
+      "uncompressedSHA256": "51ec0f7bbb843e1a6cb10b37de0e3a55888095e10961620e4e8fb758fa9a7486",
+      "compressedBytes": 1406,
+      "compressedSHA256": "54c002bb09c4649e92b5358acafa12e129e0466d0968f597cabbbfa2a473f03c",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-image__ninth-and-current-image-image-remainders.bin.gz",
+          "bytes": 1406,
+          "sha256": "54c002bb09c4649e92b5358acafa12e129e0466d0968f597cabbbfa2a473f03c"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-image/ninth-and-current-image-normal-forms.bin",
+      "uncompressedBytes": 614254,
+      "uncompressedSHA256": "8a531d231aee833cc27bac4fc8e212262e13bd90ab5904ae6bb31621e697128b",
+      "compressedBytes": 416313,
+      "compressedSHA256": "48beee617c004183684020c4ce87f2cde5de8b16741efc00da6a290927c6247f",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-image__ninth-and-current-image-normal-forms.bin.gz",
+          "bytes": 416313,
+          "sha256": "48beee617c004183684020c4ce87f2cde5de8b16741efc00da6a290927c6247f"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-normal/ninth-and-current-normal-backward.bin",
+      "uncompressedBytes": 3052119,
+      "uncompressedSHA256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f",
+      "compressedBytes": 2031817,
+      "compressedSHA256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-normal__ninth-and-current-normal-backward.bin.gz",
+          "bytes": 2031817,
+          "sha256": "b6a40b3bb5b54053ac71dd8eb0a2b3555ffc88bb958229ef23c756b705fb5a28"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-normal/ninth-and-current-normal-forward.bin",
+      "uncompressedBytes": 2378937,
+      "uncompressedSHA256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+      "compressedBytes": 1660293,
+      "compressedSHA256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-normal__ninth-and-current-normal-forward.bin.gz",
+          "bytes": 1660293,
+          "sha256": "445ec1d9acfa14932d8c3122fe98b471d869b3a8df0fa09a9ce14027e67c96ca"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-normal/ninth-and-current-normal-normal-forms.bin",
+      "uncompressedBytes": 614254,
+      "uncompressedSHA256": "8a531d231aee833cc27bac4fc8e212262e13bd90ab5904ae6bb31621e697128b",
+      "compressedBytes": 416313,
+      "compressedSHA256": "48beee617c004183684020c4ce87f2cde5de8b16741efc00da6a290927c6247f",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-normal__ninth-and-current-normal-normal-forms.bin.gz",
+          "bytes": 416313,
+          "sha256": "48beee617c004183684020c4ce87f2cde5de8b16741efc00da6a290927c6247f"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-normal/ninth-and-current-normal-reduction.bin",
+      "uncompressedBytes": 6568860,
+      "uncompressedSHA256": "087340bb0e4c4471bbade8572aec3820d9442267bf29765f4cb47bb0b73400b7",
+      "compressedBytes": 4391746,
+      "compressedSHA256": "bbd54f0ea19c4fdf0c9bb1a931c1a940f7b9dc585ba67576676f1da5aa7a8401",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-normal__ninth-and-current-normal-reduction.bin.gz",
+          "bytes": 4391746,
+          "sha256": "bbd54f0ea19c4fdf0c9bb1a931c1a940f7b9dc585ba67576676f1da5aa7a8401"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-original/ninth-and-current-original-fifth-divided-original-rhs.bin",
+      "uncompressedBytes": 2365048,
+      "uncompressedSHA256": "cfae9c6259b04be19ff9ea2752a7f016374f01d2dc69d1490dfb275ad45d0b45",
+      "compressedBytes": 1548191,
+      "compressedSHA256": "9e5b17a41cc3eb2bb85faca16b84821a69d12feb2623c3fb7210e20845404a5e",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-original__ninth-and-current-original-fifth-divided-original-rhs.bin.gz",
+          "bytes": 1548191,
+          "sha256": "9e5b17a41cc3eb2bb85faca16b84821a69d12feb2623c3fb7210e20845404a5e"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-original/ninth-and-current-original-original-seventeen-source-mod887503681.bin",
+      "uncompressedBytes": 10874084,
+      "uncompressedSHA256": "0dbfe0793f0cb60e8730b43540db3b83a08dac990546fc161a632257bff8f1d1",
+      "compressedBytes": 10578146,
+      "compressedSHA256": "11118f3fe9c48997663c1131250b79a26a9c3b667b7e1283cc72f29eb5d8a45e",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part001",
+          "bytes": 4500000,
+          "sha256": "2427e9c723c12759ca8bdd18271a4d4ae9b51662dbfa1c8847933b6cdd5e5f01"
+        },
+        {
+          "file": "certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part002",
+          "bytes": 4500000,
+          "sha256": "dbe20354f50a0359f359cebcbdbb93745ff7333bb522cd175e44180859d8f0dc"
+        },
+        {
+          "file": "certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part003",
+          "bytes": 1578146,
+          "sha256": "599d031766d265ed2b070cbe2eb1936593e08f0344dc0321e0a3a637e915cfe5"
+        }
+      ]
+    },
+    {
+      "originalFile": "ninth-and-current-original/ninth-and-current-original-primitive-source-mod887503681.bin",
+      "uncompressedBytes": 10874084,
+      "uncompressedSHA256": "b51dfe45f87f738138f97f84ab885a217f66135a6ee9090edef2c1f4f32bbe19",
+      "compressedBytes": 9649784,
+      "compressedSHA256": "9c36eda4f4564438558b04253d50a915e7b888c6b80927030ace994220b3d546",
+      "parts": [
+        {
+          "file": "certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part001",
+          "bytes": 4500000,
+          "sha256": "0fa6a87c7b16f67ffc620675674bd02527b1091893a814e46d3b0456ad1c76e8"
+        },
+        {
+          "file": "certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part002",
+          "bytes": 4500000,
+          "sha256": "ca738a20c0d010c6256cfa3eeefbcffa0d65f9769c0b35306ff7b50e929016be"
+        },
+        {
+          "file": "certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part003",
+          "bytes": 649784,
+          "sha256": "e1098c66fd47efe3cc0f505abff979ec83726b8e2a63e35e6c3302bef834d9b3"
+        }
+      ]
+    },
+    {
+      "originalFile": "saved-ninth-action/ninth-source-action.bin.gz",
+      "uncompressedBytes": 474,
+      "uncompressedSHA256": "e0c22ee13f25317bfcb561daf7d641c503c463db8e31a38ac0ea5567944ffb35",
+      "compressedBytes": 497,
+      "compressedSHA256": "3947c08971c8b076683d1f8d70953593bc0da6bc64a5a309dfb1751653f4031d",
+      "parts": [
+        {
+          "file": "certificates/saved-ninth-action__ninth-source-action.bin.gz.gz",
+          "bytes": 497,
+          "sha256": "3947c08971c8b076683d1f8d70953593bc0da6bc64a5a309dfb1751653f4031d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "format": "r150-ninth-first-actual-prior-publication-diagnosis-v1",
+  "priorPublicationReceipt": {
+    "format": "r150-ninth-first-terminal-publication-v1",
+    "status": "publication-stopped-other-push-error",
+    "run_id": "43638830039",
+    "run_attempt": "1",
+    "source_commit": "eaa240d96fda143c65a8eccede55b64b87f50ef8",
+    "allowedResultDirectory": "topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1",
+    "sharedResearchIndicesEdited": false,
+    "forcePushUsed": false,
+    "rulesAtSource": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "pulls": [
+      {
+        "beforeReadCommit": "eaa240d96fda143c65a8eccede55b64b87f50ef8",
+        "originMainAfterPull": "b08ecdc37fb070980c5615186081f18b1a24f69c",
+        "exitCode": 0,
+        "rulesSHA256": {
+          "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+          "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+        },
+        "rulesDiffer": false,
+        "diffFile": "readme-diff-after-pull-1.patch"
+      }
+    ],
+    "pushes": [
+      {
+        "commit": "1dbfe80a7c932f3d15c9b5db197b04d1bfe3d5cf",
+        "exitCode": 1
+      }
+    ],
+    "actualOutputsPreservedBeforeGit": true,
+    "actualRecoveryPreservation": {
+      "allActualRecoveryFilesPreserved": true,
+      "allStageCachesIncluded": true,
+      "originalFiles": 40,
+      "originalBytes": 45454589,
+      "fallbackFiles": 0
+    },
+    "preparedStoredFiles": 71,
+    "preparedOriginalBytes": 32234797,
+    "lastRulesReadCommit": "b08ecdc37fb070980c5615186081f18b1a24f69c",
+    "reason": "Actual non-fast-forward retry applies only to a rejection; artifacts retained."
+  },
+  "actualPriorPushErrorClass": "stale-main-ref",
+  "actualLastPushSegment": "origin HEAD:refs/heads/main\nTo https://github.com/Rogerhu12/math-research-public\n ! [remote rejected] HEAD -> main (cannot lock ref 'refs/heads/main': is at 307a796af67691a682486a9e2832e007a35b6f28 but expected b08ecdc37fb070980c5615186081f18b1a24f69c)\nerror: failed to push some refs to 'https://github.com/Rogerhu12/math-research-public'\nexit=1\n",
+  "originalMathematicalRun": 43638830039,
+  "publicationRecoveryRunId": "43640008833",
+  "newMathematicalStagesExecuted": false
+}

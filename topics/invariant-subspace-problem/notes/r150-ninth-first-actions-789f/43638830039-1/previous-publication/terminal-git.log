@@ -1,0 +1,256 @@
+$ git status --porcelain
+exit=0
+$ git switch -c isp-ninth-first-output-43638830039-1
+Switched to a new branch 'isp-ninth-first-output-43638830039-1'
+exit=0
+$ git config user.name github-actions[bot]
+exit=0
+$ git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+exit=0
+$ git pull --rebase origin main
+Updating eaa240d..b08ecdc
+Fast-forward
+ .github/workflows/visible-new-mechanism-search.yml |    11 +-
+ topics/visible-flex-exact-nearby/HANDOFF.md        |     6 +-
+ topics/visible-flex-exact-nearby/log.md            |     2 +
+ ...11-14-results-before-infinite-cap-and-return.md |   587 +
+ topics/visible-flex-exact-nearby/open.md           |     4 +
+ topics/visible-flex-exact-nearby/results.md        |   739 +-
+ ...cy-moving-cap-boundary-and-Poisson-interface.md |   308 +
+ topics/visible-flex-larger-amplitude/HANDOFF.md    |     4 +-
+ topics/visible-flex-larger-amplitude/log.md        |     5 +
+ ...ve576-R273-synchronous-interface-feasibility.md |   125 +
+ .../actual-damped-direction-identity.json          |     8 +
+ .../actual28-artifact-fetch-receipt.json           |  1202 ++
+ .../actual28-fetch.log                             |     2 +
+ .../actual41-artifact-fetch-receipt.json.gz        |   Bin 0 -> 207957 bytes
+ .../actual41-fetch.log                             |     3 +
+ .../actual54-artifact-fetch-receipt.json           | 18464 +++++++++++++++++++
+ .../actual54-fetch.log                             |     3 +
+ .../actual54-saved-map-identity.json               |    14 +
+ .../direct-ld-request-identity.json                |   190 +
+ .../native-damped-chain-original-trial.log         |     2 +
+ .../actual-replay-method-identities.json           |     1 +
+ .../baseline-reuse.json                            |     1 +
+ .../core-instrumentation.json                      |    45 +
+ .../engine-loader-instrumentation.json             |     1 +
+ .../instrumentation.json                           |    16 +
+ .../native_0001.json.gz                            |   Bin 0 -> 1201527 bytes
+ .../native_capacity.json                           |    64 +
+ .../native_intent.json                             |   192 +
+ .../native_iteration.json.gz                       |   Bin 0 -> 1181662 bytes
+ .../native_ready.json.gz                           |   Bin 0 -> 6854 bytes
+ .../native_runtime-config.json                     |   220 +
+ .../native_stderr.log                              |     0
+ .../native_trace.jsonl                             |     7 +
+ .../native_trials.jsonl                            |    10 +
+ .../original-live-identity-before-seed.json        |     1 +
+ ...-endpoint-q003-m8-d12-f225-exclusive-ready.json |  3955 ++++
+ ...3-strong-m28-recovered-full-audit-r1-ready.json |  1160 ++
+ .../native-damped-chain-original-trial/result.json |   428 +
+ .../seed-binding.json                              |     1 +
+ .../trial-direction-binding.json                   |     1 +
+ .../trial-input-config.json                        |   217 +
+ .../trial-replay-records.jsonl                     |    10 +
+ .../trial-replay-spec.json.gz                      |   Bin 0 -> 43727 bytes
+ .../trial-replay-summary.json                      |     1 +
+ .../verified-launch-intent.json                    |   430 +
+ .../native-damped-chain-qr.log                     |    87 +
+ .../exact-original-readback.json.gz                |   Bin 0 -> 423620 bytes
+ .../exact-original-worst-witness.json              |   191 +
+ .../native-damped-chain-qr/factor-index.json.gz    |   Bin 0 -> 138663 bytes
+ .../native-damped-chain-qr/factor-report.json.gz   |   Bin 0 -> 2012 bytes
+ .../formed-stage-inventory.json.gz                 |   Bin 0 -> 200056 bytes
+ .../native-damped-chain-qr/input-binding.json.gz   |   Bin 0 -> 335715 bytes
+ .../output-array-manifest.json.gz                  |   Bin 0 -> 133187 bytes
+ .../restricted-original-node-direction.json.gz     |   Bin 0 -> 1590751 bytes
+ .../native-damped-chain-qr/result.json.gz          |   Bin 0 -> 4712 bytes
+ .../step-direction-checkpoint.json.gz              |   Bin 0 -> 3445095 bytes
+ .../native-damped-chain-qr/summary.json            |   443 +
+ .../public-source-preparation.json                 |   421 +
+ .../public-source-restore.log                      |     0
+ .../publication.json.gz                            |   Bin 0 -> 128797 bytes
+ topics/visible-flex-larger-amplitude/open.md       |     2 +
+ topics/visible-flex-new-mechanism/HANDOFF.md       |     6 +-
+ .../computations/request.json                      |    34 +-
+ topics/visible-flex-new-mechanism/log.md           |     2 +
+ ...ore-B037-localized-leading-initial-summary.json |  1953 ++
+ .../core-B037-localized-leading-initial.json.gz    |   Bin 0 -> 238943 bytes
+ .../localized-leading-development.json             |   135 +
+ .../receipt.json                                   |   569 +
+ .../receipt.json                                   |   580 +
+ .../total-P1-blocks-weight-p0.json                 |  2529 +++
+ .../total-P1-blocks-weight-p1.json                 |   231 +
+ .../total-P1-blocks-weight-p2.json                 |   187 +
+ .../total-P1-blocks.json                           |  1433 ++
+ ...ture-total-P1-scaling-blocks-design-20261114.md |   119 +
+ ...P1-scaling-blocks-development-toy-20261114.json |   182 +
+ topics/visible-flex-new-mechanism/open.md          |     2 +-
+ topics/visible-flex-new-mechanism/results.md       |     2 +
+ .../R94-scaling-blocks-for-total-P1-membership.md  |   137 +
+ .../scripts/literature_total_P1_scaling_blocks.py  |   664 +
+ .../scripts/publish_actions.py                     |     4 +-
+ 80 files changed, 37741 insertions(+), 612 deletions(-)
+ create mode 100644 topics/visible-flex-exact-nearby/notes/2026-11-14-results-before-infinite-cap-and-return.md
+ create mode 100644 topics/visible-flex-exact-nearby/results/R133-supplement-full-frequency-moving-cap-boundary-and-Poisson-interface.md
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/2026-11-14-current-native576-R273-synchronous-interface-feasibility.md
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual-damped-direction-identity.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual28-artifact-fetch-receipt.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual28-fetch.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual41-artifact-fetch-receipt.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual41-fetch.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual54-artifact-fetch-receipt.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual54-fetch.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/actual54-saved-map-identity.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/direct-ld-request-identity.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/actual-replay-method-identities.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/baseline-reuse.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/core-instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/engine-loader-instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/instrumentation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_0001.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_capacity.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_intent.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_iteration.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_ready.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_runtime-config.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_stderr.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_trace.jsonl
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/native_trials.jsonl
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/original-live-identity-before-seed.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/public-inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/public-inputs/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/result.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/seed-binding.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/trial-direction-binding.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/trial-input-config.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/trial-replay-records.jsonl
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/trial-replay-spec.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/trial-replay-summary.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-original-trial/verified-launch-intent.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/exact-original-readback.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/exact-original-worst-witness.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/factor-index.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/factor-report.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/formed-stage-inventory.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/input-binding.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/output-array-manifest.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/restricted-original-node-direction.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/result.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/step-direction-checkpoint.json.gz
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/native-damped-chain-qr/summary.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/public-source-preparation.json
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/public-source-restore.log
+ create mode 100644 topics/visible-flex-larger-amplitude/notes/public-actions-43637356027-1-dampedchain/publication.json.gz
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638423274-1-localized_leading_initial/core-B037-localized-leading-initial-summary.json
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638423274-1-localized_leading_initial/core-B037-localized-leading-initial.json.gz
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638423274-1-localized_leading_initial/localized-leading-development.json
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638423274-1-localized_leading_initial/receipt.json
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638896281-1-total_P1_blocks/receipt.json
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638896281-1-total_P1_blocks/total-P1-blocks-weight-p0.json
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638896281-1-total_P1_blocks/total-P1-blocks-weight-p1.json
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638896281-1-total_P1_blocks/total-P1-blocks-weight-p2.json
+ create mode 100644 topics/visible-flex-new-mechanism/notes/actions-43638896281-1-total_P1_blocks/total-P1-blocks.json
+ create mode 100644 topics/visible-flex-new-mechanism/notes/literature-total-P1-scaling-blocks-design-20261114.md
+ create mode 100644 topics/visible-flex-new-mechanism/notes/literature-total-P1-scaling-blocks-development-toy-20261114.json
+ create mode 100644 topics/visible-flex-new-mechanism/results/R94-scaling-blocks-for-total-P1-membership.md
+ create mode 100644 topics/visible-flex-new-mechanism/scripts/literature_total_P1_scaling_blocks.py
+From https://github.com/Rogerhu12/math-research-public
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+exit=0
+$ git rev-parse origin/main
+b08ecdc37fb070980c5615186081f18b1a24f69c
+exit=0
+$ git diff eaa240d96fda143c65a8eccede55b64b87f50ef8 b08ecdc37fb070980c5615186081f18b1a24f69c -- README.md topics/invariant-subspace-problem/README.md
+exit=0
+$ git add -- topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1
+exit=0
+$ git diff --cached --name-only -z
+topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/actions-console.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/actions-outcome.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/actions-source.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/actual-restored-inputs.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificate-manifest.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/complete-ninth-first__complete-ninth-first-image.bin.gz.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-image__genuine-ninth-q-image-image-quotients.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-image__genuine-ninth-q-image-image-remainders.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-image__genuine-ninth-q-image-normal-forms.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-original__genuine-ninth-q-original-primitive-source-mod31.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-source__genuine-ninth-q-source-standard-coefficients.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-source__genuine-ninth-q-source-vq-checkpoint.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-image__ninth-and-current-image-image-quotients.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-image__ninth-and-current-image-image-remainders.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-image__ninth-and-current-image-normal-forms.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-normal__ninth-and-current-normal-backward.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-normal__ninth-and-current-normal-forward.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-normal__ninth-and-current-normal-normal-forms.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-normal__ninth-and-current-normal-reduction.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-fifth-divided-original-rhs.bin.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part001 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part002 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part003 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part001 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part002 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part003 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/saved-ninth-action__ninth-source-action.bin.gz.gz topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-image.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-normal.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-original.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-source1.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-target9.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-transport.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compiler-version.txt topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/complete-actual-recovery-publication-manifest.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/complete-ninth-first.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/complete-ninth-first__complete-ninth-first-image-receipt.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-image.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-image__genuine-ninth-q-image-image-certificate.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-original.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-original__genuine-ninth-q-original-original-transport.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-source.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-source__genuine-ninth-q-source-source-certificate.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-source__genuine-ninth-q-source-vq-checkpoint.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__genuine-ninth-q.mix topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__ninth-and-current-image.mix topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__ninth-and-current-original.recipe topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__original-integer-31squaredh0-mod887503681.txt topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__original-integer-31squaredh0-mod887503681.txt.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-image.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-image__ninth-and-current-image-image-certificate.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-normal.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-original.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-original__ninth-and-current-original-original-product.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-first-pipeline-receipt.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/publication-before-push.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/publication-file-manifest.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/python-flint-version.txt topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/recovery-manifest.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/same-exact-integer-model.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/saved-ninth-action.log topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/saved-ninth-action__ninth-source-action-receipt.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__complete-ninth-first.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__genuine-ninth-q-image.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__genuine-ninth-q-original.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__genuine-ninth-q-source.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__ninth-and-current-image.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__ninth-and-current-normal.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__ninth-and-current-original.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__same-exact-integer-model.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__saved-ninth-action.json topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/text-recovery-manifest.json exit=0
+$ git commit -m ISP R150: save actual ninth first image and original31squaredh0 modulo31six 43638830039
+[isp-ninth-first-output-43638830039-1 1dbfe80] ISP R150: save actual ninth first image and original31squaredh0 modulo31six 43638830039
+ 72 files changed, 3493 insertions(+)
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/actions-console.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/actions-outcome.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/actions-source.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/actual-restored-inputs.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificate-manifest.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/complete-ninth-first__complete-ninth-first-image.bin.gz.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-image__genuine-ninth-q-image-image-quotients.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-image__genuine-ninth-q-image-image-remainders.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-image__genuine-ninth-q-image-normal-forms.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-original__genuine-ninth-q-original-primitive-source-mod31.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-source__genuine-ninth-q-source-standard-coefficients.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/genuine-ninth-q-source__genuine-ninth-q-source-vq-checkpoint.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-image__ninth-and-current-image-image-quotients.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-image__ninth-and-current-image-image-remainders.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-image__ninth-and-current-image-normal-forms.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-normal__ninth-and-current-normal-backward.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-normal__ninth-and-current-normal-forward.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-normal__ninth-and-current-normal-normal-forms.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-normal__ninth-and-current-normal-reduction.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-fifth-divided-original-rhs.bin.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part001
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part002
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-original-seventeen-source-mod887503681.bin.gz.part003
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part001
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part002
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/ninth-and-current-original__ninth-and-current-original-primitive-source-mod887503681.bin.gz.part003
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/certificates/saved-ninth-action__ninth-source-action.bin.gz.gz
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-image.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-normal.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-original.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-source1.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-target9.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compile-transport.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/compiler-version.txt
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/complete-actual-recovery-publication-manifest.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/complete-ninth-first.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/complete-ninth-first__complete-ninth-first-image-receipt.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-image.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-image__genuine-ninth-q-image-image-certificate.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-original.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-original__genuine-ninth-q-original-original-transport.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-source.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-source__genuine-ninth-q-source-source-certificate.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/genuine-ninth-q-source__genuine-ninth-q-source-vq-checkpoint.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__genuine-ninth-q.mix
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__ninth-and-current-image.mix
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__ninth-and-current-original.recipe
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__original-integer-31squaredh0-mod887503681.txt
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/inputs__original-integer-31squaredh0-mod887503681.txt.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-image.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-image__ninth-and-current-image-image-certificate.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-normal.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-original.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-and-current-original__ninth-and-current-original-original-product.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/ninth-first-pipeline-receipt.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/publication-before-push.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/publication-file-manifest.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/python-flint-version.txt
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/recovery-manifest.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/same-exact-integer-model.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/saved-ninth-action.log
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/saved-ninth-action__ninth-source-action-receipt.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__complete-ninth-first.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__genuine-ninth-q-image.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__genuine-ninth-q-original.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__genuine-ninth-q-source.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__ninth-and-current-image.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__ninth-and-current-normal.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__ninth-and-current-original.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__same-exact-integer-model.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/stage-cache__saved-ninth-action.json
+ create mode 100644 topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/43638830039-1/text-recovery-manifest.json
+exit=0
+$ git rev-parse HEAD
+1dbfe80a7c932f3d15c9b5db197b04d1bfe3d5cf
+exit=0
+$ git push origin HEAD:refs/heads/main
+To https://github.com/Rogerhu12/math-research-public
+ ! [remote rejected] HEAD -> main (cannot lock ref 'refs/heads/main': is at 307a796af67691a682486a9e2832e007a35b6f28 but expected b08ecdc37fb070980c5615186081f18b1a24f69c)
+error: failed to push some refs to 'https://github.com/Rogerhu12/math-research-public'
+exit=1

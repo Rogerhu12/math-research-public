@@ -1,0 +1,22 @@
+{
+  "inputBindingSHA256": "88af4f503e78686ac14db8cb80b102323b3673d8e8e6daf1d9d5ad224c5aa516",
+  "outputs": {
+    "ninth-and-current-normal/ninth-and-current-normal-normal-forms.bin": "8a531d231aee833cc27bac4fc8e212262e13bd90ab5904ae6bb31621e697128b",
+    "ninth-and-current-normal/ninth-and-current-normal-reduction.bin": "087340bb0e4c4471bbade8572aec3820d9442267bf29765f4cb47bb0b73400b7",
+    "ninth-and-current-normal/ninth-and-current-normal-forward.bin": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+    "ninth-and-current-normal/ninth-and-current-normal-backward.bin": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+  },
+  "nativeStatistics": {
+    "status": "ninth-and-current-ten-normal-forms-complete",
+    "sources": 0,
+    "targets": 10,
+    "components": 1034,
+    "forwardOperations": 782976,
+    "backwardOperations": 1010703,
+    "normalOperations": 1642187,
+    "originalRHSCost": 88,
+    "originalRHSNonzeroCoefficients": 2205180,
+    "peakRSSKiB": 79648,
+    "elapsedSeconds": 6.62449
+  }
+}
