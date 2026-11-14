@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_same_F_triangular_matrix_Gram_pilot_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43648579604",
   "run_attempt": "1",
@@ -78,6 +78,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T22:36:06.337319+00:00",
+      "before": "db22c17272b6df8d423b8cba626d4075222ed789",
+      "after": "b13b2dc7cf689bc90dd61a06fde0f4a75ea5bee9",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -85,6 +93,11 @@
       "time": "2026-11-14T22:32:57.083793+00:00",
       "final": false,
       "commit": "497c8c8f10ab6321780d48a6da9e31444de0eb45"
+    },
+    {
+      "time": "2026-11-14T22:36:05.997585+00:00",
+      "final": false,
+      "commit": "b13b2dc7cf689bc90dd61a06fde0f4a75ea5bee9"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -127,7 +140,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "db22c17272b6df8d423b8cba626d4075222ed789",
+  "last_read_commit": "b13b2dc7cf689bc90dd61a06fde0f4a75ea5bee9",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-same-F-Gram-work/science",
   "actual_original_input_receipt": {
     "original_complete_native_sha256": "4328b19228049235aded13355585a6d9093a3621daa8d2018f84bc169437d317",
@@ -190,9 +203,51 @@
       "actual_original_weight_mesh_sha256": "f94fd64f8faff800dfe67ea6689905b87acde06964d10eb667629d5c8cd25a75"
     }
   ],
-  "snapshot_utc": "2026-11-14T22:36:03.043039+00:00",
-  "wall_seconds": 188.070018232,
+  "snapshot_utc": "2026-11-14T22:36:06.359221+00:00",
+  "wall_seconds": 191.38620526800003,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-same-F-matrix-Gram-outcome.json",
+      "file": "evidence/actual-latest-same-F-matrix-Gram-outcome.json",
+      "bytes": 27050,
+      "sha256": "6faeb691376aa30bf96d9e05964c1fec7c589682cc617e3d47cd0b3e374fbcc9"
+    },
+    {
+      "logical_file": "evidence/complete-same-F-array-origin-inventory.json",
+      "file": "evidence/complete-same-F-array-origin-inventory.json",
+      "bytes": 15724,
+      "sha256": "c074bc428fd7940cf63bbef1941eb621d3c412cf39b2a6e2bdf835eb05d5e695"
+    },
+    {
+      "logical_file": "evidence/complete-same-F-cell-00000-summary.json",
+      "file": "evidence/complete-same-F-cell-00000-summary.json",
+      "bytes": 36077,
+      "sha256": "ed199888f55748c8041057bf10b3c396e95ca30367fac57b19e447e876fea652"
+    },
+    {
+      "logical_file": "evidence/complete-same-F-cell-00076-summary.json",
+      "file": "evidence/complete-same-F-cell-00076-summary.json",
+      "bytes": 35689,
+      "sha256": "ab158308308dec9bbbabba09f05ecb7fd1f1791ce67aee52cd5b7303002de080"
+    },
+    {
+      "logical_file": "evidence/complete-same-F-cell-03300-summary.json",
+      "file": "evidence/complete-same-F-cell-03300-summary.json",
+      "bytes": 38519,
+      "sha256": "1956147320818939efadbe4a3d1126d0d54da15d2c55134289ed6374cbb58d67"
+    },
+    {
+      "logical_file": "evidence/complete-same-F-cell-05969-summary.json",
+      "file": "evidence/complete-same-F-cell-05969-summary.json",
+      "bytes": 38387,
+      "sha256": "95c4e5f60ee4026f2781abe9ae0fd58e59a699cf03fb035b8bc05dad20db1687"
+    },
+    {
+      "logical_file": "evidence/complete-same-F-matrix-Gram-pilot-summary.json",
+      "file": "evidence/complete-same-F-matrix-Gram-pilot-summary.json",
+      "bytes": 28522,
+      "sha256": "230b4ba04a7851393904a59a7dc8928db3ba06b6c5c56e4e9e360bc7a197a94a"
+    },
     {
       "logical_file": "evidence/exact-original-input-receipts.json",
       "file": "evidence/exact-original-input-receipts.json",
@@ -217,5 +272,15 @@
       "bytes": 24778,
       "sha256": "9a46d9fc76499a17a90a0a153a0c4907415eadcedfd9f50f70fd82d08f9dbc7c"
     }
-  ]
+  ],
+  "complete_native_sha256": "9a46d9fc76499a17a90a0a153a0c4907415eadcedfd9f50f70fd82d08f9dbc7c",
+  "actual_scientific_gates": 15,
+  "actual_complete_same_F_cells": 4,
+  "complete_source_channels_per_cell": 3,
+  "same_F_local_directional_matrix_Grams_certified": true,
+  "actual_new_same_F_cells_this_child": 4,
+  "original_complete_success_reused_without_child": false,
+  "all_new_arrays_have_exact_origin_receipts": true,
+  "matrix_arrays_retained_only_in_public_Actions_artifacts": true,
+  "finished_utc": "2026-11-14T22:36:06.013633+00:00"
 }

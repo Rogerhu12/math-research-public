@@ -1,0 +1,473 @@
+{
+  "arrays": [
+    {
+      "index": 0,
+      "available_in_this_artifact": true,
+      "receipt": {
+        "arrays": {
+          "H_cross_reference_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "1740bc50673a62a83e8c5f1b4bdd81d3438630c2aa384fef225c9919a6a63a53",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "H_edge_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "f095cf4b5cfdccc7afc32e8b51d653ab74823ba9eabf4b35a4fdfecb24a336fb",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "H_edge_y_unit_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "dc33a52cb29d2e70f282702b86109c37188f1285f864170b58989782218fc98c",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_negative_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "8cc8e2bd9669b720ea1d04b8b9ffa1430f90d0048a90f04c7a610493b763906e",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "d74ee106b050bb4eff906036d12f46577eddd360a16b48fb5aedf849d2fa99dc",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_weighted_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "689d275e65be1183c648e99548c0ce3009e07cbdc33a307934c068d6ad2dfe0e",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "T_A": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "8f18fde7401b0bcc4d41b0f9f08b680a6676389d6428e83a77c314a2ea43b071",
+            "shape": [
+              96,
+              96
+            ]
+          },
+          "T_B": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "5b7f191f46c200ceb8a59c096a1f54ae7f2d223d5c45abcb58ed493baafcdcc1",
+            "shape": [
+              96,
+              97
+            ]
+          },
+          "T_D": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "b4b9dcbdc8dd30688c4d42f014587f4ed42d91523b58780abf5213e1fc36a870",
+            "shape": [
+              97,
+              97
+            ]
+          },
+          "cross_reference_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "3bbeadb53a000661f677f2128e59fbe0dda72032e2b32af59c39e6f3b4f8b0ed",
+            "shape": [
+              5,
+              193,
+              128
+            ]
+          },
+          "frame_left": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "de4fdbcc532b8c615d3feae90cdb989f0730ba16ba377757627fdd47bbf41085",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "frame_right": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "168536a23dd933e08d3153b1419079fa210d6d39a8da603580bec6ea33d64973",
+            "shape": [
+              193,
+              193
+            ]
+          }
+        },
+        "bytes": 2314907,
+        "exact_binary64_scientific_array_bytes_preserved": true,
+        "file": "same-F-triangular-source-Grams-00000.npz",
+        "large_matrix_arrays_remain_in_public_Actions_artifact": true,
+        "original_public_array_origin": {
+          "artifact": "visible-exact-same-F-matrix-Gram-pilot-43648579604-1",
+          "folder": "matrices",
+          "repository": "Rogerhu12/math-research-public",
+          "run_attempt": "1",
+          "run_id": "43648579604"
+        },
+        "sha256": "e991ce3015b18b24a360a17052b40e8350357d08119aff80a17c0c11549d86c9"
+      }
+    },
+    {
+      "index": 76,
+      "available_in_this_artifact": true,
+      "receipt": {
+        "arrays": {
+          "H_cross_reference_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "a2e9c0cc0cb3dda388702ed16b146d642731bf3d81e84e9ced76a303511a04b0",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "H_edge_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "94cfc28304e2e5454e61ff4ae09eaf1923cc91a21df7e8e85f8ad46201ad87c2",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "H_edge_y_unit_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "97102008bb1ef3b56a94d50e9eb6f80e5e9508a36785c0a4e716ecc6203ebb27",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_negative_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "8cc8e2bd9669b720ea1d04b8b9ffa1430f90d0048a90f04c7a610493b763906e",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "020159f742047fbb756e415d2544e06d5a216b2a82f93415d6317f0a92417e39",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_weighted_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "80c8751b816ea8f15c3e3b21cf6091fae0dc8dc582e7e37c932aca95807efc2c",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "T_A": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "9ddbfec34e7025ace0e79555225c5c02457aeebe79fb608db68ecdb332a8c7db",
+            "shape": [
+              96,
+              96
+            ]
+          },
+          "T_B": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "f0e9bd7e223df92f4b25f381bb49318a9403aaf7fe43ebc39c20256add2fc4b2",
+            "shape": [
+              96,
+              97
+            ]
+          },
+          "T_D": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "7450f23b217b4fb357682ca972d7d9a4ed9b1ffb5ed57d23e1ddfedab806a7ae",
+            "shape": [
+              97,
+              97
+            ]
+          },
+          "cross_reference_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "921649ddda492ec6d38bf2e4dc32db175e0f81c14d8532bd699c2c3563726900",
+            "shape": [
+              5,
+              193,
+              128
+            ]
+          },
+          "frame_left": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "ac1df0700cf4c6fb21578be7e4ca68a2ad76a4fe7c2a89937e3e4a3cce8f83b1",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "frame_right": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "80fcf9fd30198ff2340f33c3ba7bfc99bc2fc4ccc1624b9be407b4b2bf7980af",
+            "shape": [
+              193,
+              193
+            ]
+          }
+        },
+        "bytes": 2377022,
+        "exact_binary64_scientific_array_bytes_preserved": true,
+        "file": "same-F-triangular-source-Grams-00076.npz",
+        "large_matrix_arrays_remain_in_public_Actions_artifact": true,
+        "original_public_array_origin": {
+          "artifact": "visible-exact-same-F-matrix-Gram-pilot-43648579604-1",
+          "folder": "matrices",
+          "repository": "Rogerhu12/math-research-public",
+          "run_attempt": "1",
+          "run_id": "43648579604"
+        },
+        "sha256": "42b135a67d4e8643dfde4f2c05ab873cc9769227025c623f4f7f232cd433ed20"
+      }
+    },
+    {
+      "index": 3300,
+      "available_in_this_artifact": true,
+      "receipt": {
+        "arrays": {
+          "H_cross_reference_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "90958a931e2dbc1e19b97de1111ec26c5f45e3191e53d427e20d8dbb3d27517b",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "H_edge_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "41c7737a25646b20be273b9d0f6de1a5940d00d3aee71a79df2933d9930d5f24",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "H_edge_y_unit_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "4d9798bed7752a4067eeefe9c1ab141f2d4391ce3bb2e1a698af285e294f5fc5",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_negative_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "814fdf8fddaa22a335ed61b58b934747df3e87369eb191344567b08ddc8babd3",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "6ba1a21c711a60ca2548f7e71dde1a694c298a27bf9d5130a0bee68f6c57ec41",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_weighted_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "ea12bf80bb94d0344758643267e8e418797826042bf0c74e031bdf563ba007d1",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "T_A": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "13de2e3fc70383218a37d88ca78ca13439263345ac70c7fe6d48d7b3aeffef2a",
+            "shape": [
+              96,
+              96
+            ]
+          },
+          "T_B": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "df658f53ddf4beae40b08ba1a0417f5795081567ba80f70734ccb495511a163f",
+            "shape": [
+              96,
+              97
+            ]
+          },
+          "T_D": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "05fd0db90fa9fac73dc607f66af16517f5ab6d8437232297281d6938225a09ef",
+            "shape": [
+              97,
+              97
+            ]
+          },
+          "cross_reference_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "12dc97b23dbf4aab4fb42c765797b4f312ff42b832552db4f428f8d8523cb4c2",
+            "shape": [
+              5,
+              193,
+              128
+            ]
+          },
+          "frame_left": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "d192aae053f0844c2a99bb0820d525e8341510f0a778d1f077ed734e55937753",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "frame_right": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "d0183a794cc2a158024807ce13691f9adf992d599ae7f53deb80611555dd9e50",
+            "shape": [
+              193,
+              193
+            ]
+          }
+        },
+        "bytes": 2661325,
+        "exact_binary64_scientific_array_bytes_preserved": true,
+        "file": "same-F-triangular-source-Grams-03300.npz",
+        "large_matrix_arrays_remain_in_public_Actions_artifact": true,
+        "original_public_array_origin": {
+          "artifact": "visible-exact-same-F-matrix-Gram-pilot-43648579604-1",
+          "folder": "matrices",
+          "repository": "Rogerhu12/math-research-public",
+          "run_attempt": "1",
+          "run_id": "43648579604"
+        },
+        "sha256": "134ccde009d574f31deed8e3a066d9074f6996619b70e9a769e4171fc9f7b2fe"
+      }
+    },
+    {
+      "index": 5969,
+      "available_in_this_artifact": true,
+      "receipt": {
+        "arrays": {
+          "H_cross_reference_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "f65770709d1c4aee342e04a3f5de4ff7feed09b9c6c35ea3a6d6a50c3620d2d0",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "H_edge_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "ec84384f847ce99d321cd37a61b6b220583fa29a28de65abc646ff0bcccc9206",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "H_edge_y_unit_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "9890c9f16e81b4ca72304690df772e89e445af945cbd7967034c49fb8573a635",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_negative_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "2f4f5efe8b0393c0b677ed5a48855e8a853e6f7f1aa2fafc4e126cac647a9bac",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_physical_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "2f4f5efe8b0393c0b677ed5a48855e8a853e6f7f1aa2fafc4e126cac647a9bac",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "J_weighted_midpoint": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "0dd88f4e2ff9d73fafa04f03d86e17328032dcab2188407b1455888b1c584ed4",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "T_A": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "970c2774df4f64147034c2a93a6443f39a6adbf46dec26bc0fd3c1f71980a1c5",
+            "shape": [
+              96,
+              96
+            ]
+          },
+          "T_B": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "f601e6a70efca1adb8cdf8fd0a1a33e84c24738fa91c3ca058a6c9956adce819",
+            "shape": [
+              96,
+              97
+            ]
+          },
+          "T_D": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "f841bf1ca2d4a24c9761a076f5650327a4dbf73baecfdb0c3c8178059a3a655c",
+            "shape": [
+              97,
+              97
+            ]
+          },
+          "cross_reference_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "167340c2062bcc266456f8d6f2952c51cc99bb7b462414445712e37636d1e22f",
+            "shape": [
+              5,
+              193,
+              128
+            ]
+          },
+          "frame_left": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "fc982c403d86c7bd19ac2c8fc5a42300e6e183b37e38221f811209d4a044deee",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "frame_right": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "4c71647eb17948302992e1fe48776de54a217575c6a057f7e75a24754bb3d9f1",
+            "shape": [
+              193,
+              193
+            ]
+          }
+        },
+        "bytes": 2669065,
+        "exact_binary64_scientific_array_bytes_preserved": true,
+        "file": "same-F-triangular-source-Grams-05969.npz",
+        "large_matrix_arrays_remain_in_public_Actions_artifact": true,
+        "original_public_array_origin": {
+          "artifact": "visible-exact-same-F-matrix-Gram-pilot-43648579604-1",
+          "folder": "matrices",
+          "repository": "Rogerhu12/math-research-public",
+          "run_attempt": "1",
+          "run_id": "43648579604"
+        },
+        "sha256": "26d987012bb9d7f90599a96862bb735434b0a3a2bd83bb16857c3db10a2bfdd5"
+      }
+    }
+  ],
+  "old_array_bytes_not_recomputed_or_relabelled": true
+}
