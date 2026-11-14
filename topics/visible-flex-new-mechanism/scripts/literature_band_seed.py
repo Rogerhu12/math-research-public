@@ -118,7 +118,7 @@ def evaluate(args, n, amplitude):
     # The diameter uses at most 2048 samples.  It is a diagnostic lower estimate.
     index = np.arange(0, n, max(1, n // 2048))
     D = sampled_diameter(alpha[index])
-    delta = args.width * D
+    delta = args.fixed_halfwidth
     N = data["B_theta"] / data["sphere_speed"][:, None]
     band_ends = np.concatenate((alpha[index] - delta * N[index], alpha[index] + delta * N[index]))
     D_band = sampled_diameter(band_ends)
@@ -168,16 +168,23 @@ def main():
                                          and 2 * args.b * args.c - 1 - args.c**2 / 2 > 0):
         parser.error("Symmetric seed requires 0 < b < pi/2 and 2bc-1-c^2/2 > 0")
     amplitude, integral_data = closing_amplitude(args)
+    reference_data = spherical_data(args.q, args.a, args.kind, args.b, args.reference_n)
+    reference_speed, _ = speed_data(args, reference_data, amplitude)
+    reference_alpha = periodic_primitive(reference_speed[:, None] * reference_data["raw"])
+    reference_index = np.arange(0, args.reference_n, max(1, args.reference_n // 2048))
+    reference_diameter = sampled_diameter(reference_alpha[reference_index])
+    args.fixed_halfwidth = args.width * reference_diameter
     result = dict(schema="literature-band-seed-v1", source="https://arxiv.org/html/2611.17269v1",
                   status="Heuristic numerical band seed; not a closed-surface flex or a reach certificate",
                   parameters={k: v for k, v in vars(args).items() if k != "output"},
                   fixed_amplitude=amplitude, reference_integrals=integral_data,
+                  reference_sampled_centerline_diameter=reference_diameter,
                   exact_period_mechanism=("v = V(kappa): Pi is an integral of an exact derivative; "
                                           "q-fold rotation closes horizontal components; A=-I0/I1 closes vertical component"
                                           if args.kind == "curvature" else
                                           "Reflection closes Pi; q-fold rotation and the explicit lambda mean close Lambda"),
                   quadrature=[evaluate(args, n, amplitude) for n in args.n],
-                  caveats=["Reference-quadrature A is held fixed for all resolutions; its exact definition uses integrals.",
+                  caveats=["Reference-quadrature A and physical halfwidth are held fixed for all resolutions.",
                            "The Fourier primitive removes the displayed closure residual; no residual is hidden.",
                            "Sampled principal radii are local curvature diagnostics, not lower bounds on reach.",
                            "Centerline and band embedding, global reach, caps, and a continuous fixed-metric flex are unproved."])

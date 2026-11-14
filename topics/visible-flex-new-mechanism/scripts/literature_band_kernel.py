@@ -136,6 +136,45 @@ def basis(data, y, xi_halfwidth, modes, degree, xi_s, xi_u):
     return value, derivative_s, derivative_u
 
 
+def differential_geometry(data, Fs, Fu, u, xi_s, xi_u, y, yw, xi_halfwidth):
+    """Nodal second fundamental form; refinement diagnostics, not certificates."""
+    nt, ny = u.shape
+    Fs, Fu = Fs.reshape(nt, ny, 3), Fu.reshape(nt, ny, 3)
+    speed = data["sphere_speed"][:, None]
+    kappa = data["kappa"][:, None]
+    u_theta = -speed * xi_s / xi_u
+    Ft = speed[:, :, None] * Fs + u_theta[:, :, None] * Fu
+    Fx = Fu / xi_u[:, :, None]
+    k = np.fft.fftfreq(nt, 1 / nt)
+    Ft_theta = np.fft.ifft(1j * k[:, None, None] * np.fft.fft(Ft, axis=0), axis=0).real
+    Ft_theta[:, :, 0] -= speed * kappa * Ft[:, :, 1]
+    Ft_theta[:, :, 1] += speed * (kappa * Ft[:, :, 0] + Ft[:, :, 2])
+    Ft_theta[:, :, 2] -= speed * Ft[:, :, 1]
+    bary = (-1.0)**np.arange(ny) * np.sqrt((1 - y * y) * yw)
+    difference = y[:, None] - y[None, :]
+    np.fill_diagonal(difference, 1)
+    derivative = bary[None, :] / bary[:, None] / difference
+    np.fill_diagonal(derivative, 0)
+    np.fill_diagonal(derivative, -np.sum(derivative, axis=1))
+    derivative /= xi_halfwidth
+    Ft_xi = np.einsum("ij,ajk->aik", derivative, Ft)
+    Fx_xi = np.einsum("ij,ajk->aik", derivative, Fx)
+    normal = np.cross(Fs, Fu)
+    normal /= np.linalg.norm(normal, axis=2)[:, :, None]
+    L = np.sum(normal * Ft_theta, axis=2)
+    M = np.sum(normal * Ft_xi, axis=2)
+    NN = np.sum(normal * Fx_xi, axis=2)
+    EE = np.sum(Ft * Ft, axis=2)
+    FF = np.sum(Ft * Fx, axis=2)
+    GG = np.sum(Fx * Fx, axis=2)
+    determinant = EE * GG - FF * FF
+    gaussian = (L * NN - M * M) / determinant
+    trace = (EE * NN - 2 * FF * M + GG * L) / determinant
+    discriminant = np.maximum(trace * trace - 4 * gaussian, 0)
+    principal_abs = (np.abs(trace) + np.sqrt(discriminant)) / 2
+    return gaussian, principal_abs
+
+
 def evaluate(args, parameters, amplitude, reference, epsilon):
     d = seed.spherical_data(args.q, parameters.a, "curvature", .85, args.theta_n)
     v, vp = seed.speed_data(parameters, d, amplitude)
@@ -202,13 +241,35 @@ def evaluate(args, parameters, amplitude, reference, epsilon):
                             float(np.max(np.abs(np.einsum("ni,nik->nk", Xs, Yu) + np.einsum("ni,nik->nk", Xu, Ys)))),
                             float(np.max(np.abs(2 * np.einsum("ni,nik->nk", Xu, Yu)))))
     diameter = reference["sampled_reference_diameter"]
+    E0 = w * w + U * U
+    hs = np.sum(Ys[:, :, 0]**2, axis=1)
+    hu = np.sum(Yu[:, :, 0]**2, axis=1)
+    hsu = np.sum(Ys[:, :, 0] * Yu[:, :, 0], axis=1)
+    aa, cc, bb = epsilon**2 * hs / E0, epsilon**2 * hu, epsilon**2 * hsu / np.sqrt(E0)
+    metric_perturbation = (aa + cc + np.sqrt((aa - cc)**2 + 4 * bb * bb)) / 2
+    Fms, Fmu = Xs - epsilon * Ys[:, :, 0], Xu - epsilon * Yu[:, :, 0]
+    endpoint_metric_difference = max(float(np.max(np.abs(E - np.sum(Fms * Fms, axis=1)) / E)),
+                                    float(np.max(np.abs(F - np.sum(Fms * Fmu, axis=1)) / np.sqrt(E * G))),
+                                    float(np.max(np.abs(G - np.sum(Fmu * Fmu, axis=1)) / G)))
+    gaussian, principal_abs = differential_geometry(d, Fs, Fu, u, xi_s, xi_u, y, yw, xi_halfwidth)
+    geometry = dict(sampled_gaussian_curvature_min=float(np.min(gaussian)),
+                    sampled_gaussian_curvature_max=float(np.max(gaussian)),
+                    sampled_max_abs_principal_curvature=float(np.max(principal_abs)),
+                    sampled_principal_radius_over_reference_D=1 / (diameter * float(np.max(principal_abs))))
+    if epsilon == 0:
+        exact_gaussian = -(np.repeat(v, args.u_n)**2 / E0**2).reshape(u.shape)
+        geometry["X_gaussian_relative_nodal_error"] = float(np.max(np.abs(gaussian - exact_gaussian)
+                                                                 / np.maximum(np.abs(exact_gaussian), 1 / diameter**2)))
     return dict(epsilon=epsilon, rows=operator.shape[0], columns=columns,
                 smallest_dimensionless_singular_values=(diameter * singular[-min(12, columns):][::-1]).tolist(),
                 largest_dimensionless_singular_value=float(diameter * singular[0]),
                 min_metric_determinant=float(np.min(det)),
                 known_X_bending_identity_max_absolute_residual=baseline_residual,
                 sampled_field_max_over_reference_D=float(np.max(np.linalg.norm(Y[:, :, 0], axis=1))) / diameter,
-                mass_condition_number=float(np.linalg.cond(mass)))
+                mass_condition_number=float(np.linalg.cond(mass)),
+                max_relative_metric_perturbation_from_X=float(np.max(metric_perturbation)),
+                endpoint_plus_minus_relative_metric_error=endpoint_metric_difference,
+                differential_geometry=geometry)
 
 
 def main():

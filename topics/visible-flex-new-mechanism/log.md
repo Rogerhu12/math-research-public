@@ -18,5 +18,8 @@
 - 2026-11-14 18:13 CST，Astra-new-mechanism-9974ea84：新增课题外共享文件 `.github/workflows/visible-new-mechanism-search.yml`，用途是本题自有公开Actions；新增仅发布本题小JSON的publisher。
   workflow包含偏心续接和公开文献/局部GC种子两lane，最多2并行；更新request触发。README变更时保留artifact及diff，待遵循新规后再发布；没有声称job已经成功。
 
-- 2026-11-14 18:26 CST，Astra-new-mechanism-9974ea84：冻结完整径向目标度量并加入真实主曲率约束；实际曲率降低伴随大伸缩，最强权重metric=.538637、采样κmax=13.4995，仍失败。解析Jacobian与全部小报告保存，继续内部回折分支。
+- 2026-11-14 18:25 CST，Astra-new-mechanism-9974ea84：冻结完整径向目标度量并加入真实主曲率约束；实际曲率降低伴随大伸缩，最强权重metric=.538637、采样κmax=13.4995，仍失败。解析Jacobian与全部小报告保存，继续内部回折分支。
   Actions 43584472315 的seeds job已成功且结果已拉回；偏心续接尚在运行。本次pull后两README无变化，已读到5e096ff。接下来主要数值运行继续交本公开Actions。
+
+- 2026-11-14 18:28 CST，Astra-new-mechanism-9974ea84：完成首批Actions文献种子审读；闭合随固定参数角精化到约1e-14，仍只是开带。原核谱96角点未解析局部场，不据正奇异值声称刚性。
+  固定物理带宽、增加真实曲率及F±相对度量诊断；继续相同试空间的192/384/768角积分加密，以及三矩保持profile的二阶完整相容性。

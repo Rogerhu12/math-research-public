@@ -9,7 +9,7 @@
 ## 规则与同步
 
 - 已完整读公开根 README 和本课题 README，校对 `visible-flexible-closed-surface/README.md` 的 $D,H,\delta_{\rm hold},\delta_E$ 定义。
-- 公开仓库最后已读规则提交：`5e096ff21e616645787576b3edbc84bd2eb35103`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
+- 公开仓库最后已读规则提交：`8dfd3f40fd48f36e349a08f121e212c3f4185d42`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
 - 作者指定的 QUEUE 领取已执行成功。研究与计算在本公开仓库；公开笔记只使用公开来源和独立推导。
 - 每次 pull 后比较这两个公开 README，变更仅读差异并照办；至少每小时 pull。每条结论立即提交并在推前 pull；非快进拒绝即 rebase 重试，不强推。
 - 令牌仅瞬时命令行认证，不入文件；数值大数组/网格不读入对话。根 LOG 不写；结果单文件、Markdown 小于100KB，数据大于1MB压缩且单件小于5MB。
@@ -38,6 +38,8 @@
 直接Cartesian双圆领搜索的最佳有界设计：$e=.02$、14径向控制/6角模，4097×128细样本metric约`3.34894e-4`、曲率峰约`75.04`，横向跨度至少`2.51245`，局部reach必要比至多约`.00530`，不达标。自由度量的两种假解（退化/尺度膨胀）已排除并保存。独立单位角切向版首轮metric`.00940`亦失败；继续有符号Frenet图。
 
 冻结上述场的完整角平均目标度量后，真实 shape-operator 罚项把采样主曲率降至`13.4995`，但目标度量误差增至`.538637`，不合格。已保存完整解析Jacobian和密审计 `notes/eccentric-curvature-report-20261114.md`；不能把当前 $b=.9$ 分支失败外推到内部回折种子。
+
+Actions的文献q=3种子使用同一闭合权重和物理带宽。参考带的局部主曲率半径/采样直径约`.0301411`，不能视为reach。原核谱的96角点未解析尖峰，正在做固定试空间积分精化；`notes/literature-actions-43584472315.md`记录原始回执和限制。二阶连续profile路径出现三个矩保持条件，尚须解全周期校正方程。
 
 ## 正在推进
 
