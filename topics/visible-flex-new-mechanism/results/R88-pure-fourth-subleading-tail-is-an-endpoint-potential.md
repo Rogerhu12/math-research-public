@@ -225,7 +225,19 @@ $$\partial_s\left(u_0+\frac{a_{mp}}{2a_{mm}}b_0^2\right)=0$$
 
 及零初始常端芽，再检验原第 $4m-8$ density 与 (1) 右侧的差是否属于这个**已证明第一积分**生成的主理想。这样的代入有真实 ODE 与初值依据；不能推广为把所有独立 formal states 设成端值。
 
-对 $m=8$ 的公开首轮计算，完整结构仍保留 14 个 genuine histories，且 R85 四个最低身份已经通过。另建的结构消费程序将验证本稿指定下一式，不改旧 producer、不重编 forcing、不重新选择几何路径。本文的一般 $m$ 结论由以上纸面证明给出，不把一个固定 $m$ 的计算冒作一般证明。
+对 $m=8$，公开 Actions run 43636741138（source 05ca5a96481d7d5fefa9c553df5e5fc4e7fb42ab）已完成指定式的原 DAG 核验，耗时 1.761595 秒，峰值 RSS 91.40625 MiB。14 个 genuine histories 全保，forcing 没有重编，几何路径没有重新选择或求值。真实第一积分导数、零初始常端芽、首一除法余式和 fresh 原 DAG 差式均准确为零。未先代第一积分时，原密度减势导数仍有 996 项，商有 38 项；这明确显示该第一积分不可省略。本文的一般 $m$ 结论由以上纸面证明给出，不把一个固定 $m$ 的计算冒作一般证明。
+
+[实际报告](../notes/actions-43636741138-1-pure_tail_subleading/pure-tail-subleading.json)为 3193 B，SHA256 7b7ec704d989d5fb1c5c5963cc33e023d3df952ee46d46ff93ddbcb382902cd5；完整 4718 节点[核验证书](../notes/actions-43636741138-1-pure_tail_subleading/pure-tail-subleading-certificate.json.gz)解压为 158715 B，SHA256 f47d20fea65b8bd4eac6f70ebbc47db52fc1c6fc1f2dea0c989264cda8511798，压缩为 25513 B。没有把非零商当作周期障碍。
+
+进一步保留 $I_0=u_0+a_{mp}b_0^2/(2a_{mm})$ 而不取零初值时，同一纸面推导给
+
+$$[t^{n+1}]\widetilde W_{4,s}
+-\partial_s(\alpha_m b_0^2b_1+\beta_m b_0u_1)
+=I_0\left(\frac{E_{mr}}4+\frac{mr}{8}f_{ss}\right).$$
+
+它只用已经证明的 $I_0'=0$。对 $m=8$，括号为
+$18f_{ss}-3456\,\partial_c\mathcal C/23-1299\,\mathcal D/46$。
+推导及真正第 25 阶的方向见[后续结构记录](../notes/pure-tail-next-order-structure-20261114.md)。理想无桥互反对的首项准确在 $4m-7$，不能据其符号断言有真实桥的一般闭环同号。
 
 若幂尾前有常幅 $A_0$，完整 pure 第四响应整体乘 $A_0^4$。上面 $b_0,b_1,u_0,u_1$ 按单位幂尾约定；不混淆几何积分次数和 profile 齐次次数。有限尾、共同物理区间与后续光滑逼近的范围同 R85。
 
