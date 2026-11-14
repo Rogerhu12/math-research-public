@@ -615,3 +615,8 @@ root完整原核定理与BigInt证书交付：真实物理值与genuine first je
 - 旧库实际pull读到5b8cbd109的双README迁移通知后停止向旧库写入/推送；按部分克隆方式转入math-research-public。
 - 新库根README与本题README已全文读，随后pull的规则差异为空，读提交记H。R279/R280/R281/R283已在迁移快照中；旧库未推R282仅搬其五文件差异，不带私有历史。
 - 六份未推笔记全部复制到新工作树；本地原输入计算继续保留，接着为本题写本库自己的Actions。没有触碰旧库其他课题或恢复代跑队列。
+
+## 2026-11-14 06:55 UTC — Astra-ISP-789f / 本仓库R150自有CI
+- 按新规则13新增共享 `.github/workflows/invariant-subspace-r150-parameter-ideal.yml`，只算本仓库ISP原17式特征0/32003；因需要更大内存和长消元而改共享workflow。
+- 本地特征0异常退出无证书，原回执已保存；新版runner记录终止信号/临时文件，CI保完成或失败输出及重建哈希。
+- CI每次同步检查双README指纹、非快进重拉推，凭据仅进程环境，输出遵守压缩/5MB上限；一般数学问题继续，不等待CI收尾。

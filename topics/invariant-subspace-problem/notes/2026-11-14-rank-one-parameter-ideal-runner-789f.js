@@ -3,7 +3,7 @@
 Reconstruct the fixed-D original seventeen equations as polynomials in s,
 then ask Singular for exact ideal membership over Q(s), or over F_p(s)
 for discovery. No finite sample is interpreted as a characteristic-zero
-classification. README rule 14 (2026-11-14 06:15 UTC): run in the current execution environment; the public runner is stopped.
+classification. Public repository README rule 13: use this repository's own Actions. The former cross-repository runner remains stopped.
 */
 const fs=require("node:fs"),path=require("node:path"),os=require("node:os"),
  crypto=require("node:crypto"),cp=require("node:child_process");
@@ -149,7 +149,7 @@ async function main(){
   basis:path.join(tmp,"basis.sing"),certificate:path.join(tmp,"certificate.sing"),denominator:path.join(o.out,"denominator.sing")};
  fs.writeFileSync(files.denominator,"");
  const script=singularProgram(z,o,files),scriptPath=path.join(tmp,"task.sing");fs.writeFileSync(scriptPath,script);
- const receipt={format:"R150-parameter-ideal-v1",options:o,sourceDataSHA256:z.sourceDataSHA256,
+ const receipt={format:"R150-parameter-ideal-v1",options:o,workingFiles:files,temporaryWorkingDirectory:tmp,sourceDataSHA256:z.sourceDataSHA256,
   parameterDegreeBounds:z.maxDegrees,coefficientChecks:z.checks,constantRowContents:z.contents.map(String),
   originalCommonDenominator:z.denominator,inputSHA256:crypto.createHash("sha256").update(script).digest("hex"),
   polynomialSystemSHA256:crypto.createHash("sha256").update(JSON.stringify({equations:z.equations,targets:targets(z)},(_,v)=>typeof v==="bigint"?String(v):v)).digest("hex"),
@@ -161,7 +161,8 @@ async function main(){
  const child=cp.spawn("Singular",["-q",scriptPath],{stdio:["ignore","pipe","pipe"]});
  child.stdout.on("data",b=>{const s=String(b);process.stdout.write(s);outputTail=(outputTail+s).slice(-4096);const lines=outputTail.split(/\r?\n/).map(x=>x.trim());if(lines.includes("R150_DONE_EXACT_MEMBERSHIP")||lines.includes("R150_DONE_BASIS"))detectedDone=true;if(lines.includes("R150_EXACT_LIFT_IDENTITY_VERIFIED"))exactIdentity=true;if(/^\s*\?/m.test(outputTail)||lines.includes("R150_ABORT_NO_MEMBERSHIP")||lines.includes("R150_LIFT_IDENTITY_FAILED"))singularError=true;});
  child.stderr.on("data",b=>process.stderr.write(b));
- const code=await new Promise((resolve,reject)=>{child.on("error",reject);child.on("close",resolve);});
+ const completion=await new Promise((resolve,reject)=>{child.on("error",reject);child.on("close",(code,signal)=>resolve({code,signal}));});
+ const code=completion.code;receipt.exitSignal=completion.signal;
  receipt.exitCode=code;receipt.completionMarker=detectedDone;receipt.exactIdentityVerified=exactIdentity;receipt.singularError=singularError;receipt.finished=new Date().toISOString();
  receipt.status=code===0&&detectedDone&&!singularError&&(o.stage==="basis"||exactIdentity)?"completed":"failed-or-incomplete";
  receipt.outputs={};

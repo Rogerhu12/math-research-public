@@ -1,0 +1,115 @@
+name: ISP R150 exact parameter ideal
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/invariant-subspace-r150-parameter-ideal.yml
+      - topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: isp-r150-parameter-ideal
+  cancel-in-progress: false
+
+jobs:
+  parameter-ideal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        characteristic: [0, 32003]
+    env:
+      ISP_CHARACTERISTIC: ${{ matrix.characteristic }}
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Prepare exact computation and rule fingerprints
+        run: |
+          mkdir -p "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC"
+          python - <<'PY'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          out=Path(os.environ['RUNNER_TEMP'])/('isp-r150-'+os.environ['ISP_CHARACTERISTIC'])
+          rules={p:hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in ['README.md','topics/invariant-subspace-problem/README.md']}
+          (out/'source.json').write_text(json.dumps({'source_commit':os.environ['GITHUB_SHA'],'rules':rules,'characteristic':int(os.environ['ISP_CHARACTERISTIC']),'scope':'Characteristic zero requires all original lift identities and actual denominators; finite characteristic is discovery only.'},indent=2)+'\n')
+          PY
+      - name: Install Singular in this repository's runner
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends singular
+          Singular --version > "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC/singular-version.txt" 2>&1
+      - name: Compute original seventeen-equation membership certificate
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 330
+        run: |
+          node topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js \
+            --out "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC" \
+            --characteristic "$ISP_CHARACTERISTIC" --coordinates original \
+            --algorithm slimgb --stage lift \
+            > "$RUNNER_TEMP/isp-r150-$ISP_CHARACTERISTIC/execution.log" 2>&1
+      - name: Preserve outcome and bounded reproducible artifacts
+        if: always()
+        env:
+          ISP_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: |
+          python - <<'PY'
+          import gzip,hashlib,json,os,shutil
+          from pathlib import Path
+          out=Path(os.environ['RUNNER_TEMP'])/('isp-r150-'+os.environ['ISP_CHARACTERISTIC'])
+          out.mkdir(parents=True,exist_ok=True)
+          rp=out/'receipt.json'
+          receipt=json.loads(rp.read_text()) if rp.exists() else {}
+          for label,raw in receipt.get('workingFiles',{}).items():
+              p=Path(raw)
+              if p.is_file() and p.stat().st_size and not any(out.glob(label+'.sing*')):
+                  shutil.copyfile(p,out/('partial-'+label+'.sing'))
+          records=[]
+          for p in sorted(out.iterdir()):
+              if not p.is_file():continue
+              raw=p.read_bytes()
+              item={'name':p.name,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+              if len(raw)>1000000 and p.suffix!='.gz':
+                  packed=gzip.compress(raw,compresslevel=9,mtime=0)
+                  p.unlink()
+                  if len(packed)<=5000000:
+                      q=out/(p.name+'.gz');q.write_bytes(packed);item['saved_as']=q.name
+                  else:item['saved_as']='hash and reproducible source only: compressed size exceeds 5 MB'
+              elif len(raw)>5000000:
+                  p.unlink();item['saved_as']='hash and reproducible source only: size exceeds 5 MB'
+              records.append(item)
+          (out/'ci-outcome.json').write_text(json.dumps({'run_id':os.environ['GITHUB_RUN_ID'],'run_attempt':os.environ['GITHUB_RUN_ATTEMPT'],'step_outcome':os.environ.get('ISP_STEP_OUTCOME'),'mathematical_status':receipt.get('status','not completed'),'exact_identity_verified':receipt.get('exactIdentityVerified',False),'files':records},indent=2)+'\n')
+          PY
+      - name: Commit actual outputs to this repository
+        if: always()
+        continue-on-error: true
+        env:
+          ISP_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/invariant-subspace-problem/notes/2026-11-14-r150-actions-publish-789f.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: isp-r150-${{ github.run_id }}-${{ github.run_attempt }}-char${{ matrix.characteristic }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ runner.temp }}/isp-r150-${{ matrix.characteristic }}
+      - name: Require the exact runner to finish
+        if: always()
+        env:
+          ISP_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: test "$ISP_STEP_OUTCOME" = success

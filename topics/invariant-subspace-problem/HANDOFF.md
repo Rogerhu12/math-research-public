@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `480a4313c5ebc8b5c8800c1432d9d5aef8ec5946`（2026-11-14 06:49:36 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `877b1b8e8ad8b53b7af8e38046958bd0fd7f76dc`（2026-11-14 06:55:37 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -22,7 +22,7 @@
 - **R276：** 固定同一正尾 ν 的正头完成 X=√νK√ν，w(K)≤1/2；原正常商零式保 ν(Z²−t) 与 νZ+X+X*t 两项。X 集迹范数紧及精确对偶已付；仍须同一实际 ν_m 全链的排除证书，不能删正常预湮灭商内非零缺陷。续稿 `notes/2026-11-14-normal-cross-level-continuation-789f.md`。
 - **旧正常范围：** R235/237/255 连续/a.e.+双边UI、保函数非负锥、指定 Walsh/乘积基及 E_√3 范围已闭，非一般正态；R228 C实化可增秩，R229不许一般秩一纯化。真 ann 迫 q_m↓0，指定周期/次数/参数滤波已排；超预算、真密度专属及足量非零右配对仍开。δ尾无速率，hp/vp不能换；R230/244保锚源发散、R267强单位/共同图与旧准确费用见压缩前全文。
 - **R280（已推）：** 任意 a.e.有限可测复权的非零加权因子不变空间必 H；闭逐点子格、相位共轭保正投影因此无真不变值域。每个非零轨道生成 H 的闭子格，未证线性循环。
-- **R282（本提交）：** [完整证明](results/R282-complete-multiplier-stabilizer-classification-and-finite-head-splitting.md)。全部单向稳定复乘子自动自伴（实际 AM 稠密、torsion Fourier）；非零真 M 的该代数恰有限低头，M=完整头⊗尾V且尾V稳定乘子只有标量。任意非有限柱复乘子稳定即排真；一般 M 仍开。代理继续尝试从实际正常见证产生这种乘子。附录在写：一致有界纯高尾乘子的弱*极限仅标量；固定 f 的 N_m≈q_m 不可免费作用于移动的实际有界交换子源，须保其真实证明。
+- **R282（已推8944064）：** [完整证明](results/R282-complete-multiplier-stabilizer-classification-and-finite-head-splitting.md)。全部单向稳定复乘子自动自伴（实际 AM 稠密、torsion Fourier）；非零真 M 的该代数恰有限低头，M=完整头⊗尾V且尾V稳定乘子只有标量。任意非有限柱复乘子稳定即排真；一般 M 仍开。代理继续尝试从实际正常见证产生这种乘子。附录在写：一致有界纯高尾乘子的弱*极限仅标量；固定 f 的 N_m≈q_m 不可免费作用于移动的实际有界交换子源，须保其真实证明。
 
 ## 2. 实际边界、相邻 Gram 与下一证明
 
@@ -38,7 +38,7 @@
 
 ## 3. R150 与其他主接口
 
-R150 的 Cat1/2/3 且 essT3=3 临界与全部 rankAy8 自然点已分类；余 g≠0、rankAy9 的有限 Σ 未清。原17式未平移参数域 slimgb/lift 脚本已保存，特征0须验证原 I*C=T 及实际分母；32003仅发现。旧代跑停止后曾改本环境；现按迁移新规准备本库自有 Actions。官方 Singular 4.4.0 静态包已装入 `/tmp/isp-789f-singular-runtime/singular-4.4.0`；特征0原17式 slimgb/lift 已于06:34 UTC在本机启动，终端会话20111，输出 `/tmp/isp-789f-r150-q0`。另32003探索会话80876，输出 `/tmp/isp-789f-r150-p32003`，Singular进程限1GiB；两项现都在BEGIN_BASIS。它们已加载输入，迁移不丢计算；状态须读receipt/日志，不假定完成。日志已记可能数小时的计算需求。入口 `notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md`，逐目标 gcd 分母覆盖有证明；不得用 GB 分母代原 lift 分母。
+R150 的 Cat1/2/3 且 essT3=3 临界与全部 rankAy8 自然点已分类；余 g≠0、rankAy9 的有限 Σ 未清。原17式未平移参数域 slimgb/lift 脚本已保存，特征0须验证原 I*C=T 及实际分母；32003仅发现。旧代跑停止后曾改本环境；现按迁移新规准备本库自有 Actions。官方 Singular 4.4.0 静态包已装入 `/tmp/isp-789f-singular-runtime/singular-4.4.0`；本地特征0在06:46:36于BEGIN_BASIS后异常结束，旧版未记录信号，exitCode=null且无证书；原回执已保存，不能定因。另32003探索会话80876，输出 `/tmp/isp-789f-r150-p32003`，Singular进程限1GiB；32003仍在BEGIN_BASIS。新自有工作流 `.github/workflows/invariant-subspace-r150-parameter-ideal.yml` 随本次push启动特征0/32003，输出在notes/r150-actions-789f及artifact；330分钟计算/350分钟整job，原身份和分母判据不变。日志已记可能数小时的计算需求。入口 `notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md`，逐目标 gcd 分母覆盖有证明；不得用 GB 分母代原 lift 分母。
 
 R176有界部分谱、R147实奇次/负正辅助、R236已排原指定慢二次全核与全部旧行/种子、R268–270快辅助/共振/不交乘积仅在原范围；一般慢Bell、自然幂/实际逆、双无界及共同自然域仍按 open。R12/R14指定紧夹积/硬截断失败不排所有外部紧交织。
 

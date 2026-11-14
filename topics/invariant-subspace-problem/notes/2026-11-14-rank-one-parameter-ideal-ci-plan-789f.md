@@ -2,7 +2,7 @@
 
 日期：2026-11-14 UTC。作者：normal_annihilator / Astra-ISP-789f。
 
-**当前状态（06:15 UTC新规）：公开runner已停用，两项队列请求撤回；改在自己的执行环境运行下列同一脚本。文件名保留历史入口，§3是此前投递记录，不再向公开runner投递。** 尚无 Gröbner 运行结论。
+**当前状态（迁移新规）：本课题已迁入公开 math-research-public，现直接使用本仓库自己的 Actions（根规则13）。旧跨仓库代跑 runner 和 ci-queue 不恢复。§3仅为旧投递历史；当前workflow见文末。** 尚无完成的 Gröbner/lift 结论。
 
 本地入口为 `node topics/invariant-subspace-problem/notes/2026-11-14-rank-one-parameter-ideal-runner-789f.js --out /tmp/isp-789f-r150-q0 --characteristic 0 --coordinates original --algorithm slimgb --stage lift`；有限特征另用输出目录及32003。
 
@@ -22,9 +22,9 @@ $$
 
 原未平移 $M$ 坐标中，十一条 $N$ 的参数次数至多十、六条 $\Gamma$ 至多五，所以只需 $s=0,\ldots,10$ 重建。九个目标使用准确逆二项式横向坐标的平方。平移坐标选项仍保留，可用于另一项算法尝试，其已证参数次数界为二十五。
 
-本机只运行了 `--generate-only --coordinates original`：约 1.5 秒，重建后在 $s=-1,11,12$ 的全部 $3927$ 个固定倍式系数均准确相符，生成的 Singular 输入为约 174 KB。没有在本机启动 Gröbner、数域大矩阵或长消元。
+最初仅作生成检查时，运行 `--generate-only --coordinates original`：约 1.5 秒，重建后在 $s=-1,11,12$ 的全部 $3927$ 个固定倍式系数均准确相符，生成的 Singular 输入为约 174 KB。该初始检查本身没有启动 Gröbner；后续本地与本仓库CI执行状态见文末。
 
-## 3. 远端入口
+## 3. 已停止的旧跨仓库入口（历史，不再执行）
 
 第一项建议直接求特征零证书，命令只含通用计算参数：
 
@@ -46,10 +46,18 @@ Singular 的 `lift`/`liftstd` 采用原生成元变换矩阵语义；参照其�
 
 ## 5. 后继参数域覆盖
 
-如实际分母有额外因子，可用不同坐标/项序产生第二份原生成元证书，并按[逐目标 Bézout 拼接](2026-11-14-rank-one-certificate-open-cover-789f.md)取共同未覆盖根；该代数接口不预判当前CI结果。
+如实际分母有额外因子，可用不同坐标/项序产生第二份原生成元证书，并按[逐目标 Bézout 拼接](2026-11-14-rank-one-certificate-open-cover-789f.md)取共同未覆盖根；该代数接口不预判任何当前计算结果。
 
 ## 本地执行恢复（2026-11-14 06:34 UTC）
 
 官方通用 Linux 压缩包 `Singular-4.4.0-x86_64-Linux.tar.gz` 已在本环境用户可写目录解包，`Singular --version` 确认为4.4.0。来源：[官方用户目录安装说明](https://www.singular.uni-kl.de/public/pages/singular-download/109.html)、[官方二进制目录](https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/)。保持包内目录结构，未改变系统包权限、代理或TLS。
 
-本轮二进制位置 `/tmp/isp-789f-singular-runtime/singular-4.4.0/bin/Singular`；以临时 PATH 前置后运行本稿既有特征0命令，输出 `/tmp/isp-789f-r150-q0`。工具输出/receipt必须检查后才能判为完成；工作目录临时文件若失去，按上述官方来源重新解包，再从仓库脚本重放。有限域任务尚未启动，以免同时占用过多内存。
+本轮二进制位置 `/tmp/isp-789f-singular-runtime/singular-4.4.0/bin/Singular`；以临时 PATH 前置后运行本稿既有特征0命令，输出 `/tmp/isp-789f-r150-q0`。工具输出/receipt必须检查后才能判为完成；工作目录临时文件若失去，按上述官方来源重新解包，再从仓库脚本重放。有限域32003任务后于06:43 UTC启动，Singular子进程限1 GiB，输出 `/tmp/isp-789f-r150-p32003`；它仅供发现，不是特征零证明。
+
+## 本仓库自有 Actions 与本地失败回执（迁移后）
+
+根规则13现授权直接运行本仓库六课题的计算。新增 `.github/workflows/invariant-subspace-r150-parameter-ideal.yml` 以本工作流/原runner的路径push或手动触发，两个矩阵任务分别特征0和32003，单次计算330分钟、整任务350分钟。只用本仓库源，不读取或代跑其他仓库任务。工作流精确调用同一原17式入口；输出保存到本题 `notes/r150-actions-789f/<run>-<attempt>/char<characteristic>`，并保留30天artifact。
+
+输出回推使用进程环境中的Actions token；每次实际pull先比较本仓库根/课题README的原始指纹，变化则保artifact交当前会话读取新规，不盲推。非快进立即rebase重推；所有同步检查提交号写入该次输出回执。凭据不写文件。压缩/5 MB限额和重建哈希继续遵守根规则8。
+
+本地特征0实际从06:33:51至06:46:36，在 `R150_BEGIN_BASIS` 后异常结束；`exitCode=null`、无完成标记、无原理想身份，具体终止信号旧runner未记录，不能确定原因。[原始失败回执](2026-11-14-r150-local-q0-incomplete-789f.json)已保存。新runner开始记录子进程终止信号和临时输出位置，CI结束时可保尚未完成的中间输出，但任何这种文件都不算已证明证书。
