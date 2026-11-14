@@ -258,3 +258,7 @@
 ### 2026-11-14：同一物理gap的全源正滤波、统一幂及完整耗散（789f）
 
 [全源证明](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)识别E=(L+B)⁻¹L−(L+G⁻¹)⁻¹L为原L正收缩及真实gap压缩，像属于全部共同bare/完整费用负图；μ(r−Er)²+Xi(Er)²/2≤Xi(r)²。[幂证明](notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md)保非交换次序给E M E≤2E(I−E)，推出全n的Xi(E^n r)≤√2Xi(r)、μ(r−E^n r)²≤nXi(r)²和完整总耗散≤μ(r)²。高E谱截断保同源/两费，固定参数E幂归零；联合旗只作一次真实度量投影。没有移动窗口速率，不反向使用高谱小费来删主左能量。
+
+### 2026-11-14：原p²目标的精确整数来源格及唯一相关η8方向（789f）
+
+[证明](notes/2026-11-14-r150-original-p2-integer-source-lattice-and-eighth-second-direction-789f.md)用原1834来源基中κ8bar、κ9bar的多项式独立性严格得到p²自然运输整数当且仅当c8∈pD[s]、c9∈p²D[s]。保持当前F9 modp初值时，允许第二核恰kerA⊕η1…8，η9被整数格排除；既有完整相关第二像只剩η8。真实C=[28,3,24,3,25,2,23,8,0]使新H5不含κ9补偿，只需原p6即可继续同一p²h0目标。raw新primary必须先实读；正列全315/原17继续，旧198第三/更低初值与图外来源仍未排。
