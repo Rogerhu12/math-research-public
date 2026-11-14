@@ -69,6 +69,11 @@
       "time": "2026-11-14T23:09:28.339620+00:00",
       "final": false,
       "commit": "44806723f92481d2085837a9c9ccca5f3514f9cc"
+    },
+    {
+      "time": "2026-11-14T23:09:36.197369+00:00",
+      "final": false,
+      "commit": "ae6ecab12c9e7d2c58365a97634bd31f5c6b46f2"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -107,9 +112,15 @@
   },
   "last_read_commit": "44806723f92481d2085837a9c9ccca5f3514f9cc",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
-  "snapshot_utc": "2026-11-14T23:09:33.590976+00:00",
-  "wall_seconds": 8.484037010000009,
+  "snapshot_utc": "2026-11-14T23:09:36.214198+00:00",
+  "wall_seconds": 11.107264330000021,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-matrix-outcome.json",
+      "file": "evidence/actual-latest-matrix-outcome.json",
+      "bytes": 1436,
+      "sha256": "2e5002b595fa8737df2b8732982e264a6f4a0e0e717a4cc254ad03933d97a6fd"
+    },
     {
       "logical_file": "evidence/four-actual-original-same-F-array-availability.json",
       "file": "evidence/four-actual-original-same-F-array-availability.json",
@@ -140,5 +151,11 @@
       "bytes": 266218,
       "sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4"
     }
-  ]
+  ],
+  "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
+  "failure": {
+    "type": "TypeError",
+    "message": "unsupported operand type(s) for +: 'PosixPath' and 'str'"
+  },
+  "finished_utc": "2026-11-14T23:09:36.207819+00:00"
 }
