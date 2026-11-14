@@ -1,0 +1,41 @@
+{
+  "exact_symbolic_certificate": true,
+  "no_research_geometry_evaluation": true,
+  "identities": {
+    "characteristic_rhs_difference": "0",
+    "eta0_difference": "0",
+    "third_ruling_normal_component_difference": "0"
+  },
+  "seventh_difference_weights": [
+    1,
+    -7,
+    21,
+    -35,
+    35,
+    -21,
+    7,
+    -1
+  ],
+  "integer_moments_degrees_0_through_6": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "packet_amplitude_definition": "a_j = real_cube_root((-1)^j * binomial(7,j))",
+  "translation_degree_bounds": {
+    "characteristic_rhs": 4,
+    "anchored_W": 4,
+    "eta0": 3,
+    "ruling_integral": 6
+  },
+  "support_localization_is_proved_in_note": true,
+  "profile_circle_third_order_certificate_scope": "formal metric coefficients through order three",
+  "exact_finite_isometric_family": false,
+  "embedded_closed_surface": false,
+  "task_complete": false,
+  "source_script_sha256": "7828df102994239f724ac28ac97210f879e997781b45374d61f84e5bbfda0f93"
+}

@@ -93,3 +93,5 @@
 - [R44：S9六弓平帽的准确嵌入和全帽点对](results/R44-S9-six-cap-exact-embedding-and-normal-chord.md) — 二重/反射幅度3/16与1/8，有限六片准确平度量、C5及内rc盘固定；投影强单调给全帽跨片法弦>3/40。无开放平角区间，未给连接存在。
 
 - [R45：真实倒行四块与三阶周期相消](results/R45-reversal-four-block-third-period-cancellation.md) — 单P零M由8D IFT实现，P/P/Prev/Prev准确闭合；完整二阶锚给两三阶period函数恒0，每s ruling另付。
+
+- [R46：八平移packet的完整三阶固定度量圆](results/R46-eight-packet-complete-third-order-circle.md) — 配平packet使二阶恢复局部化；规范第三ruling对平移次数≤6，七阶有限差分的八立方幅度准确消两ruling。联合R45给真实周期浸入带完整三阶，误差Oε4；四阶/收敛/宏观几何未付。
