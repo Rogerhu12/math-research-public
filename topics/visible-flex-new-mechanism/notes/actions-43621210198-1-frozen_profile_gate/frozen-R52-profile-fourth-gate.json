@@ -1,0 +1,294 @@
+{
+  "R53_fourth_leading_gate_claimed": false,
+  "completion": "complete",
+  "elapsed_seconds": 1.101532665999997,
+  "exact_fixed_target_family_constructed": false,
+  "full_formal_compilation_performed": false,
+  "geometry_evaluated": false,
+  "geometry_identity_sha256_for_reference_only": "79501ce96f224138311a43c49b2b3a29865d9f660c67b22124f9d2c1fb57d04f",
+  "github": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43621210198",
+    "GITHUB_SHA": "64d69df6a828219d3879c363fc7d239a7bdea928"
+  },
+  "imported_source_hashes": {
+    "literature_full_fourth_evaluate.py": "287051f173f4d765d8ac4f14f9c1a72bb02dcaa3248922f8a62521d1ac05bdb4",
+    "literature_range_numeric_engine.py": "3c5e2bb2aca3912b735019ea2af5a4fd266b0671335f3a1f589e15e8b13c2f58"
+  },
+  "input_sha256": "a9162b82535af2efacf1ad0e7f07ff0e6aa97991417d7c5de5cbd922f2ddb15a",
+  "input_source": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43618467921",
+    "GITHUB_SHA": "bccf1787e434fde85c3546cf30954b42c1b8d327"
+  },
+  "profile_identity_sha256": "20680dfd98d6ede4db5ee5f0ec34dd24f0b10ceabdbad6d07364508cb7dae506",
+  "profile_or_geometry_refit": false,
+  "schema": "frozen-R52-profile-fourth-local-gate-v1",
+  "source_sha256": "8f0b9f3356197bfe2c0f13a0d0ea470138690b34ec00e7f4eef7d21725ff1d31",
+  "task_complete": false,
+  "unchanged_profile_definition": {
+    "R53_fourth_leading_gate_claimed": false,
+    "amplitude_decimal": "0.00017279563599554412543",
+    "basis_eigenvalues": [
+      0.195772505156998,
+      0.45851871611584144,
+      0.6731205273225289,
+      0.8109163852962317
+    ],
+    "basis_fit_quadrature_n": 256,
+    "exact_profile_integrals_certified": false,
+    "f_polynomial": [
+      -0.3399530602345291,
+      0.0,
+      1.0168363911017149,
+      0.0,
+      -1.8549483266980609,
+      0.0,
+      0.7377187695134225
+    ],
+    "four_mode_coefficients_refit_during_validation": false,
+    "g_polynomial": [
+      0.3715607246499817,
+      0.0,
+      -0.21049765951186933,
+      0.0,
+      -0.8397693131789853,
+      0.0,
+      0.5507945641790603
+    ],
+    "gram0_condition": 580.4784227483464,
+    "kind": "R52-even-four-mode-overlapping-eight-packet-profile",
+    "normalization": "common amplitude sigma^(3/2)/sqrt(sum packet_amplitude^2); fixed after this preparation",
+    "origin": 3.4644961767516236,
+    "packet_amplitude_cubes": [
+      1,
+      -7,
+      21,
+      -35,
+      35,
+      -21,
+      7,
+      -1
+    ],
+    "packet_amplitude_formula": "the real cube root of the stated signed integer; evaluated in long double",
+    "packet_centers": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70
+    ],
+    "physical_interval": [
+      3.3533850656405124,
+      4.353385065640513
+    ],
+    "profile_identity_sha256": "20680dfd98d6ede4db5ee5f0ec34dd24f0b10ceabdbad6d07364508cb7dae506",
+    "raw_bump": "exp(-1/(1-x^2)) on |x|<1; zero elsewhere",
+    "sigma": 0.011111111111111117
+  },
+  "validation": [
+    {
+      "E_direct_physical_Yu_square": [
+        51859362793.230194,
+        17493940272.590908
+      ],
+      "E_sobolev_form_before_boundary": [
+        51859362793.230194,
+        17493940272.590908
+      ],
+      "F_direct_on_frozen_finite_interval": [
+        70.5937918573618,
+        -61.36059463955462
+      ],
+      "F_local_ordinary_complex_polynomial": [
+        70.59379185128347,
+        -61.360594643795324
+      ],
+      "F_sobolev_form_before_boundary": [
+        70.59379178658128,
+        -61.360594660043716
+      ],
+      "J_total": [
+        3.6098739776435215e-15,
+        -2.582243697030952e-15
+      ],
+      "J_total_relative": 1.397634820773602e-16,
+      "T_direct": [
+        -25929681361.318203,
+        -8746970166.975752
+      ],
+      "all_constant_states_or_fourth_periods_evaluated": false,
+      "direct_absolute_term_sum": 216786987940.61374,
+      "exact_first_constant_fourth_gate_certified": false,
+      "exact_off_constraint_boundary_correction": [
+        7.412295126621807e-33,
+        -2.1716801976262834e-32
+      ],
+      "exact_physical_energy_minus_sobolev_boundary": [
+        1.7411764992810308e-31,
+        -5.101359915473585e-31
+      ],
+      "exact_quadratic_tail_zero_certified": false,
+      "exact_sobolev_to_local_boundary_correction": [
+        -1.6670535480148128e-31,
+        4.884191895710957e-31
+      ],
+      "function_values_are_not_interval_enclosures": true,
+      "geometry_evaluated": false,
+      "local_absolute_density_integral": 166.3922126919164,
+      "localization_relative_to_direct_absolute_sum": 3.41877118240776e-20,
+      "localization_residual": [
+        6.078324718550299e-09,
+        4.240704610386503e-09
+      ],
+      "physical_energy_boundary_residual": [
+        7.078051567077637e-08,
+        2.0489096641540527e-08
+      ],
+      "profile_moments": {
+        "positive_scales": [
+          2.000000000000002,
+          7.706770131281034,
+          29.75632815210398
+        ],
+        "q_jet_sup_samples": [
+          0.00010470816481191825,
+          0.015662059187363565,
+          9.998533311518079,
+          25408.27958799143,
+          109957947.14398138
+        ],
+        "relative_magnitudes": [
+          1.3924263318236726e-16,
+          1.395150129930622e-16,
+          1.3978547592952464e-16
+        ],
+        "values": [
+          [
+            2.264963646885958e-16,
+            -1.6202913430950588e-16
+          ],
+          [
+            8.744874051147987e-16,
+            -6.255786223191863e-16
+          ],
+          [
+            3.382984423449351e-15,
+            -2.4200986296261954e-15
+          ]
+        ]
+      },
+      "profile_refit": false,
+      "quadrature_n": 256,
+      "sobolev_localization_residual": [
+        -6.470219095222607e-08,
+        -1.6248392031154024e-08
+      ],
+      "total_profile_nodes": 4352
+    },
+    {
+      "E_direct_physical_Yu_square": [
+        51859362793.230934,
+        17493940272.59047
+      ],
+      "E_sobolev_form_before_boundary": [
+        51859362793.230934,
+        17493940272.59047
+      ],
+      "F_direct_on_frozen_finite_interval": [
+        70.59379184246063,
+        -61.36059466376901
+      ],
+      "F_local_ordinary_complex_polynomial": [
+        70.59379185128421,
+        -61.360594643794634
+      ],
+      "F_sobolev_form_before_boundary": [
+        70.59379189833999,
+        -61.36059465818107
+      ],
+      "J_total": [
+        1.2751437669668325e-13,
+        -5.020715059888684e-14
+      ],
+      "J_total_relative": 4.315442245704524e-15,
+      "T_direct": [
+        -25929681361.318573,
+        -8746970166.975533
+      ],
+      "all_constant_states_or_fourth_periods_evaluated": false,
+      "direct_absolute_term_sum": 216786987940.63354,
+      "exact_first_constant_fourth_gate_certified": false,
+      "exact_off_constraint_boundary_correction": [
+        1.6004301931281403e-29,
+        -1.491527728002735e-29
+      ],
+      "exact_physical_energy_minus_sobolev_boundary": [
+        3.759471787633126e-28,
+        -3.5036557283007077e-28
+      ],
+      "exact_quadratic_tail_zero_certified": false,
+      "exact_sobolev_to_local_boundary_correction": [
+        -3.599428768320312e-28,
+        3.354502955500434e-28
+      ],
+      "function_values_are_not_interval_enclosures": true,
+      "geometry_evaluated": false,
+      "local_absolute_density_integral": 166.39221269191708,
+      "localization_relative_to_direct_absolute_sum": 1.0072773319611778e-19,
+      "localization_residual": [
+        -8.823577028749252e-09,
+        -1.9974372478942515e-08
+      ],
+      "physical_energy_boundary_residual": [
+        -5.587935447692871e-08,
+        -5.587935447692871e-09
+      ],
+      "profile_moments": {
+        "positive_scales": [
+          2.000000000000003,
+          7.706770131281037,
+          29.756328152103997
+        ],
+        "q_jet_sup_samples": [
+          0.00010471602731161447,
+          0.015662896888490162,
+          10.012261121086816,
+          25407.778911514728,
+          111220087.6962288
+        ],
+        "relative_magnitudes": [
+          4.315285310764301e-15,
+          4.315366019300321e-15,
+          4.315460200662071e-15
+        ],
+        "values": [
+          [
+            8.030746565883222e-15,
+            -3.1613065096171358e-15
+          ],
+          [
+            3.094567130867007e-14,
+            -1.218314373351402e-14
+          ],
+          [
+            1.1948378729201212e-13,
+            -4.704604646528321e-14
+          ]
+        ]
+      },
+      "profile_refit": false,
+      "quadrature_n": 512,
+      "sobolev_localization_residual": [
+        4.705577744817946e-08,
+        -1.4386437031249644e-08
+      ],
+      "total_profile_nodes": 8704
+    }
+  ]
+}

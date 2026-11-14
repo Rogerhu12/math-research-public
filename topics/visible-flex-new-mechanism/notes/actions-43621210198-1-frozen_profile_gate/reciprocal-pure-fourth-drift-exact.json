@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "P2_sum_of_squares_identity": true,
+    "mixed_tail_and_third_fourth_jets_eliminated": true,
+    "positive_leading_minors_for_x_greater_than_one": true,
+    "true_right_anchor_derivative_factorization": true
+  },
+  "complex_positivity_claimed": false,
+  "matrix_leading_principal_minors": [
+    "4*x",
+    "4*(2*x**2 - 1)",
+    "8*x*(x - 1)*(x + 1)"
+  ],
+  "ordinary_bilinear_complex_extension": true,
+  "real_profile_integrals_or_geometry_evaluated": false,
+  "remaining_tail": "A_q = 1/2 integral_x^r V_q_prime dot V_q_prime",
+  "schema": "reciprocal-pure-fourth-drift-exact-algebra-v1",
+  "source_sha256": "3acbac577bf09023d40f281193c2f3a6543a860a7192738054014e5c0da36a5b",
+  "target_and_lower_range_paid": false,
+  "task_complete": false,
+  "whole_closed_geometry_period_claimed": false
+}
