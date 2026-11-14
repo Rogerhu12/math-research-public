@@ -18,7 +18,7 @@
 
 已完成的逐次原因和全部原件，见[45](notes/2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md)、[48](notes/2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md)、[49](notes/2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md)、[53](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)、[56](notes/2026-11-14-actual-request56-left468-and-collocation-location.md)、[58](notes/2026-11-14-actual-request58-quarter-step-existing-domain-limit.md)、[60](notes/2026-11-14-actual-request60-left-RMS467-limits-seventeen-query-continuation.md)。这些科学计算和已完成byte核不重跑。60最近1/32试探只有left467失败，故62仅加该查询；58最近试探已含被建模点失败，故60采用同源重新线性化，不能从较远试探盲加查询。
 
-**最新实际62已完成并正式保存**：[完整结论](notes/2026-11-14-actual-request62-quarter-step-and-modeled-nonlinear-domain-limit.md)。原run43642866864/sourcecc813fa7521098fdeba86b8bf8c0fe7d8c96bba0/job132594102992；原artifact14132473712/492837872B/ZIP220ad8c51a147942b663cd9196f009ecc976d1ff270b0348e494e08cf5e90730。Actions只读run43645082618实际完成原包CRC/SHA与全部导出字节检查，不重复数学。
+**此前实际62已完成并正式保存**：[完整结论](notes/2026-11-14-actual-request62-quarter-step-and-modeled-nonlinear-domain-limit.md)。原run43642866864/sourcecc813fa7521098fdeba86b8bf8c0fe7d8c96bba0/job132594102992；原artifact14132473712/492837872B/ZIP220ad8c51a147942b663cd9196f009ecc976d1ff270b0348e494e08cf5e90730。Actions只读run43645082618实际完成原包CRC/SHA与全部导出字节检查，不重复数学。
 
 | 同一62模型的原读数 | 实际结果 |
 | --- | --- |
@@ -34,7 +34,7 @@
 
 62的完整H同模型objective43.64341286514907优于C43.917035679229286；最终全36864线性slack合法，global radial .9999999999880521。literal512停止不等于已证明优化误差大；浮点stationarity6.6108862087657996e−6/rawgap1.2079226507921703e−13不称认证最优，不据此盲抬预算。
 
-**现在派63：同18自身schema重新线性化一次**。精确新parent为 `notes/public-actions-43642866864-1-condensedqp/eighteen-condensed-warm/`：
+**63的原输入：同18自身schema重新线性化一次，实际已完成**。精确新parent为 `notes/public-actions-43642866864-1-condensedqp/eighteen-condensed-warm/`：
 - warm-001.json.gz，4792420B，SHA dffaa532026e07357d5115089d968c1be4472c44d9a5f5da25ebcb3e2291ac73。
 - 原driver-status.json，1466059B，SHA4f8239522cef511aca6721ddc9c4541cc9d4e65db3e7260d277b090ad226c054；公开gzip185444B，透明解出原字节，禁止解析后重序列化来冒原身份。
 
@@ -43,6 +43,12 @@
 完成的原byte范围为163domainNPZ/1052NPY、93condensedNPZ/38全阵/42refs、14raw276059680B、53source SHA、全部midpoint描述与父/新FDproducer绑定。详细622406B审计artifact-only，small总结89402B/07671a9b；142157B trials不是小文本，不再经connector整读或拆片。完整factor/wholecolraw未导出，明确保留此范围。
 
 最大col仍interval461/radial1/component1/row155819，原W199.06443073038736非零，完整W SHA3427705ab17ebdb900dc2eb2b3e7f94e4ec39bd6b3e750a9e35fbef6765089db。该行在B支持外但保留于完整目标和H外部条件响应，不能解释为遗漏/零权重。[58原保存b与Az](notes/2026-11-14-actual58-stored-final-direction-at-largest-collocation-row.md)只给原读数与精确代数预测，不本地重算矩阵动作，也不冒唯一λ原因。
+
+**最新实际63与下一64**：[正式结论](notes/2026-11-14-actual-request63-nearest-midpoint480.md)。run43646179305/source db6d728f30ee2d0c9ea62c96c622d8d85d2354b2/job132604404966，原warm/FD/上传/发布全部success。完整artifact14134662698/494657224B/ZIPc90869cdcc317eef9b23a8a17755a7679ea5ce6dc41c2c143216524b481c6653已实际下载核size/SHA/CRC；[原8trial及新父读数](notes/2026-11-14-actual63-original-readout.json)不重数学。接受alpha1/128，同一W merit43.794243580548255→43.79041968996707、下降.0038238905811880386、实/预测比1.010083304813205；col.0071092556155250685/BC3.2903722327075875e−8，全18/node/mid/两698RMS合法，FD7.094809478749229e−10通过原5e−5。仍未解本场native/完整BVP。
+
+最近1/64，原18查询和nodes均合法，仅已观测mid480原RHS非finite，β²最小−.011295551381192093/angle162/4负角；其后完整RMS未执行，亦无完整finite merit，不能冒称其全域都好或merit下降。**64只新增mid480完整2048角**，不由更远试探盲增485/486。mid480两端已在现支持内，B467..483+p5749、原C4059/全部outside offset保持；λ270/512/所有预算与原门保持。
+
+64真正parent目录为 notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/：warm4799943B/SHA6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a，原status1810333B/SHA8785231faf9785c29dffc37bf4415d235d4dbb78d249a06f7cdbe658aef76f46，publicgzip231286B，透明解压原字节。新19独立源码与接口在做，原18不改。63原完整H objective43.54719205984342优C43.79357494676784，final36864slack正、globalradial.9999999999684314；浮点KKT不称认证。最大col仍461/radial1/row155819，W199.05455376436257非零，不漏行、不归因唯一λ。新完整byte reader e3810833从已完成原artifact运行；后续数值工作不等待这项读取形成额外门。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 

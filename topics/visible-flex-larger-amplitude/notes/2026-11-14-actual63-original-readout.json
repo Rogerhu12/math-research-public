@@ -1,0 +1,1050 @@
+{
+  "original_root": "/tmp/visible-larger-recovery-2207/actions-debug/visible-followup-condensedqp-43646179305-1",
+  "source": "original saved reports, no mathematical evaluation",
+  "status": {
+    "schema": "exact-constraint-eighteen-query-condensed-complete-H-warm-v1",
+    "phase": "actual-full-angle-projection-merit-decreased-unaccepted-warm-saved",
+    "accepted_warm_steps": 1,
+    "latest_warm_file": "warm-001.json.gz",
+    "latest_warm_sha256": "6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a",
+    "success": false,
+    "new_coupled_finite_acceptance": false,
+    "optimization_progress": true,
+    "elapsed_seconds": 618.53620896,
+    "selected_angle_row_count": 36864,
+    "execution_wrapper_source_sha256": "6ad75ce4b350aee4ae52afe2c6045f50d657931419ef7c4b46d0758db3acd1ca",
+    "mathematical_producer_source_sha256": "b9f7d9150c57cff485f5f891881870095fc91f7a58fd40f63544e6bb9c3ef335"
+  },
+  "status_bytes": 1810333,
+  "status_sha256": "8785231faf9785c29dffc37bf4415d235d4dbb78d249a06f7cdbe658aef76f46",
+  "warm_bytes": 4799943,
+  "warm_sha256": "6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a",
+  "model_scalars": {
+    "iteration": 0,
+    "fixed_weight_merit_before": 43.794243580548255,
+    "damping": 270.0,
+    "accepted": true,
+    "actual_coefficient_direction_max": 0.00015778990238230725,
+    "selected_angle_row_count": 36864,
+    "execution_wrapper_source_sha256": "6ad75ce4b350aee4ae52afe2c6045f50d657931419ef7c4b46d0758db3acd1ca",
+    "mathematical_producer_source_sha256": "b9f7d9150c57cff485f5f891881870095fc91f7a58fd40f63544e6bb9c3ef335"
+  },
+  "model_keys": [
+    "iteration",
+    "before",
+    "fixed_weight_merit_before",
+    "damping",
+    "accepted",
+    "trials",
+    "complete_operator_verification",
+    "full_angle_operator",
+    "domain_operator_export",
+    "unprojected_weighted_column_norm_minmax",
+    "unconstrained_LSMR",
+    "full_angle_operator_verification",
+    "local_projection",
+    "actual_direction_selection",
+    "actual_coefficient_direction_max",
+    "eighteen_query_projection_entry",
+    "selected_angle_row_count",
+    "query_specs",
+    "condensed_QP_entry",
+    "read_only_collocation_observer_entry",
+    "execution_wrapper_source_sha256",
+    "mathematical_producer_source_sha256"
+  ],
+  "trials": [
+    {
+      "trial_index": 0,
+      "alpha": 1.0,
+      "actual_model_slope": -0.48526811564111894,
+      "predicted_unregularized_merit_reduction": 0.3961535552922183,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 5,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "RMS_checks": null,
+        "bad_midpoint_indices": [
+          475,
+          481,
+          482,
+          485,
+          486
+        ],
+        "bad_midpoint_readouts": [
+          {
+            "interval": 475,
+            "station": 1.2072539807467981,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.002413843113789227,
+              "angle_index": 194,
+              "phi": 0.5951845456996288,
+              "negative_count": 4,
+              "zero_count": 0
+            }
+          },
+          {
+            "interval": 481,
+            "station": 1.2267614462385934,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.12716551109911922,
+              "angle_index": 138,
+              "phi": 0.42337869745643697,
+              "negative_count": 4,
+              "zero_count": 0
+            }
+          },
+          {
+            "interval": 482,
+            "station": 1.2317458977383535,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.029863503292141935,
+              "angle_index": 155,
+              "phi": 0.47553404424454876,
+              "negative_count": 4,
+              "zero_count": 0
+            }
+          },
+          {
+            "interval": 485,
+            "station": 1.246699252237633,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.020492589830615193,
+              "angle_index": 949,
+              "phi": 2.9114955354069467,
+              "negative_count": 8,
+              "zero_count": 0
+            }
+          },
+          {
+            "interval": 486,
+            "station": 1.2516837037373927,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.04685100535990894,
+              "angle_index": 1012,
+              "phi": 3.104777114680538,
+              "negative_count": 12,
+              "zero_count": 0
+            }
+          }
+        ]
+      },
+      "linear_beta": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.000782853555387486,
+        "maximum": 3.7189612557431024,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "linear_slack": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 5.551115123125783e-17,
+        "maximum": 3.4834653179246433,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "failed_selected_queries": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 467,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.24149660480572255,
+            "angle_index": 959,
+            "phi": 2.9421751511646597,
+            "negative_count": 16,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 468,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.32832832374932375,
+            "angle_index": 109,
+            "phi": 0.33440781175906975,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 469,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.3109974200367178,
+            "angle_index": 108,
+            "phi": 0.3313398501832985,
+            "negative_count": 20,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.10611354296846143,
+            "angle_index": 119,
+            "phi": 0.3650874275167826,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.15419880174489142,
+            "angle_index": 119,
+            "phi": 0.3650874275167826,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.09123095687534288,
+            "angle_index": 141,
+            "phi": 0.4325825821837508,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.0929639734634442,
+            "angle_index": 840,
+            "phi": 2.5770877236478773,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.09288066718521892,
+            "angle_index": 828,
+            "phi": 2.5402721847386216,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.028570799720881057,
+            "angle_index": 828,
+            "phi": 2.5402721847386216,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 9,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.0997793790472381,
+            "angle_index": 839,
+            "phi": 2.5740197620721057,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 10,
+          "kind": "left-RMS",
+          "interval": 480,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.04949130948277913,
+            "angle_index": 875,
+            "phi": 2.684466378799872,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 11,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.03312681911951221,
+            "angle_index": 155,
+            "phi": 0.47553404424454876,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 12,
+          "kind": "left-RMS",
+          "interval": 482,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -2.3676952438655974e-06,
+            "angle_index": 0,
+            "phi": 0.0,
+            "negative_count": 2,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 14,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.002413843113789227,
+            "angle_index": 194,
+            "phi": 0.5951845456996288,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 16,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.12716551109911922,
+            "angle_index": 138,
+            "phi": 0.42337869745643697,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 17,
+          "kind": "collocation-midpoint",
+          "interval": 482,
+          "fraction": 0.5,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.029863503292141935,
+            "angle_index": 155,
+            "phi": 0.47553404424454876,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "trial_index": 1,
+      "alpha": 0.5,
+      "actual_model_slope": -0.48526811564111894,
+      "predicted_unregularized_merit_reduction": 0.2203554177333343,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 2,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "RMS_checks": null,
+        "bad_midpoint_indices": [
+          480,
+          481
+        ],
+        "bad_midpoint_readouts": [
+          {
+            "interval": 480,
+            "station": 1.2217769947388337,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.0811360627703428,
+              "angle_index": 120,
+              "phi": 0.36815538909255385,
+              "negative_count": 4,
+              "zero_count": 0
+            }
+          },
+          {
+            "interval": 481,
+            "station": 1.2267614462385934,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.14977075461852873,
+              "angle_index": 858,
+              "phi": 2.6323110320117604,
+              "negative_count": 8,
+              "zero_count": 0
+            }
+          }
+        ]
+      },
+      "linear_beta": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0011742803330811735,
+        "maximum": 2.0949765656900103,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "linear_slack": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.000391426777693743,
+        "maximum": 1.8594806278715512,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "failed_selected_queries": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 467,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.15581076475728084,
+            "angle_index": 948,
+            "phi": 2.9084275738311756,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 11,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.028234191168701184,
+            "angle_index": 128,
+            "phi": 0.39269908169872414,
+            "negative_count": 4,
+            "zero_count": 0
+          }
+        },
+        {
+          "query_index": 16,
+          "kind": "collocation-midpoint",
+          "interval": 481,
+          "fraction": 0.5,
+          "original_query_input_finite": true,
+          "original_beta_squared": {
+            "finite_count": 2048,
+            "nonfinite_count": 0,
+            "minimum": -0.14977075461852873,
+            "angle_index": 858,
+            "phi": 2.6323110320117604,
+            "negative_count": 8,
+            "zero_count": 0
+          }
+        }
+      ]
+    },
+    {
+      "trial_index": 2,
+      "alpha": 0.25,
+      "actual_model_slope": -0.48526811564111894,
+      "predicted_unregularized_merit_reduction": 0.11574736888847345,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 1,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "RMS_checks": null,
+        "bad_midpoint_indices": [
+          485
+        ],
+        "bad_midpoint_readouts": [
+          {
+            "interval": 485,
+            "station": 1.246699252237633,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.012097441666661046,
+              "angle_index": 985,
+              "phi": 3.021942152134713,
+              "negative_count": 12,
+              "zero_count": 0
+            }
+          }
+        ]
+      },
+      "linear_beta": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0013699937219280173,
+        "maximum": 1.2829842206634645,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "linear_slack": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0005871401665405868,
+        "maximum": 1.0474882828450052,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "failed_selected_queries": []
+    },
+    {
+      "trial_index": 3,
+      "alpha": 0.125,
+      "actual_model_slope": -0.48526811564111894,
+      "predicted_unregularized_merit_reduction": 0.059266099449688296,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 1,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "RMS_checks": null,
+        "bad_midpoint_indices": [
+          480
+        ],
+        "bad_midpoint_readouts": [
+          {
+            "interval": 480,
+            "station": 1.2217769947388337,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.049228819314260486,
+              "angle_index": 851,
+              "phi": 2.6108353009813614,
+              "negative_count": 8,
+              "zero_count": 0
+            }
+          }
+        ]
+      },
+      "linear_beta": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0014678504163514391,
+        "maximum": 0.9996398778789377,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "linear_slack": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0006849968609640086,
+        "maximum": 0.6414921103317323,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "failed_selected_queries": []
+    },
+    {
+      "trial_index": 4,
+      "alpha": 0.0625,
+      "actual_model_slope": -0.48526811564111894,
+      "predicted_unregularized_merit_reduction": 0.02998115347620704,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 1,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "RMS_checks": null,
+        "bad_midpoint_indices": [
+          480
+        ],
+        "bad_midpoint_readouts": [
+          {
+            "interval": 480,
+            "station": 1.2217769947388337,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.018824240815413784,
+              "angle_index": 151,
+              "phi": 0.4632621979414636,
+              "negative_count": 8,
+              "zero_count": 0
+            }
+          }
+        ]
+      },
+      "linear_beta": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.00151677876356315,
+        "maximum": 0.9996388722006373,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "linear_slack": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0007339252081757196,
+        "maximum": 0.49981993893946886,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "failed_selected_queries": []
+    },
+    {
+      "trial_index": 5,
+      "alpha": 0.03125,
+      "actual_model_slope": -0.48526811564111894,
+      "predicted_unregularized_merit_reduction": 0.015077602675944244,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 2,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "RMS_checks": null,
+        "bad_midpoint_indices": [
+          480,
+          484
+        ],
+        "bad_midpoint_readouts": [
+          {
+            "interval": 480,
+            "station": 1.2217769947388337,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.03254740158158742,
+              "angle_index": 162,
+              "phi": 0.4970097752749477,
+              "negative_count": 4,
+              "zero_count": 0
+            }
+          },
+          {
+            "interval": 484,
+            "station": 1.2417148007378733,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.017192742121858284,
+              "angle_index": 991,
+              "phi": 3.040349921589341,
+              "negative_count": 10,
+              "zero_count": 0
+            }
+          }
+        ]
+      },
+      "linear_beta": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0015412429371690056,
+        "maximum": 0.9996383693614871,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "linear_slack": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.000758389381781575,
+        "maximum": 0.49981943610031865,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "failed_selected_queries": []
+    },
+    {
+      "trial_index": 6,
+      "alpha": 0.015625,
+      "actual_model_slope": -0.48526811564111894,
+      "predicted_unregularized_merit_reduction": 0.007560557822432303,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": false,
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 1,
+        "boundary_finite": true,
+        "finite": false,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "RMS_checks": null,
+        "bad_midpoint_indices": [
+          480
+        ],
+        "bad_midpoint_readouts": [
+          {
+            "interval": 480,
+            "station": 1.2217769947388337,
+            "classification": "finite-original-middle-input-with-nonfinite-original-RHS",
+            "original_beta_squared": {
+              "finite_count": 2048,
+              "nonfinite_count": 0,
+              "minimum": -0.011295551381192093,
+              "angle_index": 162,
+              "phi": 0.4970097752749477,
+              "negative_count": 4,
+              "zero_count": 0
+            }
+          }
+        ]
+      },
+      "linear_beta": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0015534750239719333,
+        "maximum": 0.9996381179419119,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "linear_slack": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0007706214685845028,
+        "maximum": 0.49981918468074354,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "failed_selected_queries": []
+    },
+    {
+      "trial_index": 7,
+      "alpha": 0.0078125,
+      "actual_model_slope": -0.48526811564111894,
+      "predicted_unregularized_merit_reduction": 0.0037857180323311963,
+      "damping_penalty_not_in_actual_merit": true,
+      "accepted": true,
+      "actual_fixed_weight_merit": 43.79041968996707,
+      "actual_merit_reduction": 0.0038238905811880386,
+      "actual_to_predicted_ratio": 1.010083304813205,
+      "domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": true,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.0071092556155250685,
+        "complete_boundary_max": 3.2903722327075875e-08,
+        "constant_collocation_max": 0.0,
+        "RMS_checks": null,
+        "bad_midpoint_indices": [],
+        "bad_midpoint_readouts": [],
+        "physical_argmax": {
+          "interval": 461,
+          "component": {
+            "state_component_index": 1,
+            "family": "radial",
+            "mode": 1,
+            "angular_frequency": 2,
+            "angular_basis": "cos"
+          },
+          "original_residual_row": 155819,
+          "signed_value": -0.0071092556155250685,
+          "frozen_model_row_weight": {
+            "available": true,
+            "original_residual_row": 155819,
+            "value": 199.05455376436257,
+            "model_weight_call": 1,
+            "base_evaluate_call": 1,
+            "original_weight_array_identity": {
+              "shape": [
+                236036
+              ],
+              "dtype": "<f8",
+              "sha256": "c202abb587c2422ce33466befb85377c3c03bfb705898e3c11b2deabf3104a0c",
+              "bytes": 1888288,
+              "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+            },
+            "read_from_original_returned_weight": true,
+            "recomputed_from_trial_fmid": false,
+            "base_midpoint_RHS_component": -0.007883900646872617,
+            "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+          }
+        }
+      },
+      "complete_original_RMS_query_domain": {
+        "node_domain_failures": 0,
+        "midpoint_domain_failures": 0,
+        "boundary_finite": true,
+        "finite": true,
+        "original_uniform_phi_rho_guard_valid": true,
+        "original_rho_guard_angles": 4096,
+        "original_uniform_phi_rho_min": 0.16604058243274977,
+        "boundary_domain_error": null,
+        "complete_trial_RHS_recomputed": true,
+        "all_core_states_identical": true,
+        "all_control_states_identical": true,
+        "left_residual_max": 0.0,
+        "physical_collocation_max": 0.0071092556155250685,
+        "complete_boundary_max": 3.2903722327075875e-08,
+        "constant_collocation_max": 0.0,
+        "original_RMS_query_domain_failures": 0,
+        "RMS_checks": [
+          {
+            "fraction": 0.17267316464601146,
+            "points": 698,
+            "invalid_count": 0,
+            "first_invalid_points": []
+          },
+          {
+            "fraction": 0.8273268353539885,
+            "points": 698,
+            "invalid_count": 0,
+            "first_invalid_points": []
+          }
+        ],
+        "bad_midpoint_indices": [],
+        "bad_midpoint_readouts": [],
+        "physical_argmax": {
+          "interval": 461,
+          "component": {
+            "state_component_index": 1,
+            "family": "radial",
+            "mode": 1,
+            "angular_frequency": 2,
+            "angular_basis": "cos"
+          },
+          "original_residual_row": 155819,
+          "signed_value": -0.0071092556155250685,
+          "frozen_model_row_weight": {
+            "available": true,
+            "original_residual_row": 155819,
+            "value": 199.05455376436257,
+            "model_weight_call": 1,
+            "base_evaluate_call": 1,
+            "original_weight_array_identity": {
+              "shape": [
+                236036
+              ],
+              "dtype": "<f8",
+              "sha256": "c202abb587c2422ce33466befb85377c3c03bfb705898e3c11b2deabf3104a0c",
+              "bytes": 1888288,
+              "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+            },
+            "read_from_original_returned_weight": true,
+            "recomputed_from_trial_fmid": false,
+            "base_midpoint_RHS_component": -0.007883900646872617,
+            "original_definition": "1/(h_j*(1+abs(base_fm_jk)))"
+          }
+        }
+      },
+      "linear_beta": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0015595910673733972,
+        "maximum": 0.9996379922321245,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "linear_slack": {
+        "size": 36864,
+        "finite_count": 36864,
+        "minimum": 0.0007767375119859666,
+        "maximum": 0.49981905897095597,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "failed_selected_queries": []
+    }
+  ],
+  "FD": {
+    "scope": "Original complete affine Rphi FD on a new eighteen-query condensed warm.\n\nThe true zero-H T112 J is held explicitly affine. This recomputes every\noriginal direction/step/Richardson test on the actual new warm, with its\nactual new SHA and full producer identity. It is not a new native solve.\n",
+    "maximum_relative_directional_error": 7.094809478749229e-10,
+    "maximum_fourth_order_relative_directional_error": 7.094809478749229e-10,
+    "maximum_second_order_relative_directional_error": 9.883371804776467e-06,
+    "second_order_truncation_contracts": true,
+    "verification_threshold": 5e-05,
+    "verification_estimator": "two fourth-order Richardson levels",
+    "implementation_check_passed": true,
+    "physical_test_schema": "complete-physical-angle-Galerkin-DN-test-v1",
+    "accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared_sha256": "6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a",
+    "tail_anchor_sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+    "source_sha256": "5885daeced8a8961f7f12d259ed5479683e7fd8dc2cccb8a2873ac9424918c9e",
+    "current_H_equals_affine_anchor": false,
+    "linear_reference_source": "Full completed real T112 zero-H J held affine at the actual new warm; no actual tail at its new H is asserted",
+    "ready_linear_graph_used": false,
+    "actual_completed_nonlinear_J_reused": true,
+    "nonlinear_DN_evaluated": false,
+    "nonlinear_native_at_current_H_solved": false,
+    "complete_current_warm_boundary_FD_actually_recomputed": true,
+    "old_response_pass_or_warm_SHA_relabelled": false,
+    "full_BVP_solved": false,
+    "full_Cartesian_closed_surface": false,
+    "seconds": 21.569843381000055
+  },
+  "FD_direct": {
+    "finite_difference_definition": "Centered h, h/2, h/4 plus (4*D(h/2)-D(h))/3 at two consecutive levels",
+    "second_order_truncation_contracts": true
+  },
+  "FD_separated": {
+    "finite_difference_definition": "Centered h, h/2, h/4 plus (4*D(h/2)-D(h))/3 at two consecutive levels",
+    "second_order_truncation_contracts": true,
+    "right_rows_depend_only_on_right_endpoint": true,
+    "left_right_jacobian_offblock_max": 0.0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "scope": "Original report identities and complete producer bindings only; no matrix or model evaluation; array audit separate",
+  "flags": {
+    "parent_warm_matches_actual62": true,
+    "parent_status_original_bytes_match_actual62": true,
+    "newwarm_compressed_SHA_matches_status": true,
+    "FD_prepared_is_actual_newwarm": true,
+    "FD_full_producer_matches_warm_canonical_bytes": true,
+    "status_full_parent_producer_matches_parentwarm_canonical_bytes": true,
+    "status_identity_is_exact_newwarm_producer_subset": true,
+    "paired_parent_status_identity_matches_parentwarm_subset": true,
+    "status_iteration_matches_original_model_before_and_trials": true
+  },
+  "files": {
+    "eighteen-condensed-warm/driver-status.json": {
+      "bytes": 1810333,
+      "sha256": "8785231faf9785c29dffc37bf4415d235d4dbb78d249a06f7cdbe658aef76f46"
+    },
+    "eighteen-condensed-warm/warm-001.json.gz": {
+      "bytes": 4799943,
+      "sha256": "6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a"
+    },
+    "eighteen-condensed-warm/model-000.json": {
+      "bytes": 739340,
+      "sha256": "68549fb677c2a255895a3dcef701c4f2e6b25586874e697f63527bb3c65646e0"
+    },
+    "physical-response/response-check.json": {
+      "bytes": 1060728,
+      "sha256": "db0bceb142cccac9c68d550917eaf26c93d3a5e98ed8bee76372d64715b762cc"
+    },
+    "parent62/warm-001.json.gz": {
+      "bytes": 4792420,
+      "sha256": "dffaa532026e07357d5115089d968c1be4472c44d9a5f5da25ebcb3e2291ac73"
+    },
+    "parent62/driver-status.json": {
+      "bytes": 1466059,
+      "sha256": "4f8239522cef511aca6721ddc9c4541cc9d4e65db3e7260d277b090ad226c054"
+    }
+  },
+  "complete_B_NPZ_and_condensed_and_root_raw_audited_by_this_readback": false,
+  "scientific_computation_performed": false
+}

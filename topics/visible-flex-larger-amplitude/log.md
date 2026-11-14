@@ -608,3 +608,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 ## 2026-11-14 22:08 UTC：终端恢复并回到真实公开Git同步
 
 原公开partial checkout保留，旧adapter/QR/publisher逐字SHA同已发布；四旧dirty件先Git stash保全，原接口15112B/5d79526c与断线重建稿的差异另只读比较。实际pull到1d3cbd609aa058eab26a3b365d1ba4b801fe2fb3，双README diff为空，H记真实提交。/tmp恢复后为空，旧下载缓存不冒仍在；公开原件与已完成审计不变。现恢复终端普通push，不再用connector传本课题文件。61/63 Actions继续；下游多请求live TailClient扩展在独立source内推进，不复用非零缓存。
+
+## 2026-11-14 22:20 UTC：actual63原结果与下一64，完成原件读取入口
+
+63原完整ZIP494657224B/c90869cd核size/SHA/CRC，原8trial确认1/128实际接受；same-W merit43.794243580548255→43.79041968996707，col.0071092556155250685/BC3.2903722327075875e−8/FD7.094809478749229e−10。最近1/64全18/node合法，仅原mid480观测失败，RMS未执行；64只加mid480，原B5749/C4059和λ/512/全部门不动。新warm6934054f/原status8785231f保持完整原producer。
+新增共享visible-larger-public-completed-readback.yml及显式原63 artifact请求，复用已成功transport，纯I/O reader e3810833先保原结果后核导出byte，不重数学/不增推进门；original reports和完整账只artifact。61只读reader79130024亦保存，large-arrays匹配现publisher；原native尚在运行。新workflow/YAML、6shell、3inline Python、source pins静态通过；63全数组审计尚未冒PASS。
