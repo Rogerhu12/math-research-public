@@ -1,0 +1,185 @@
+{
+  "format": "r150-three-stage-initial-and-continued-lossless-certificates-v1",
+  "pipelineStatus": "completed",
+  "partialCheckpointIsNotIdentity": true,
+  "files": [
+    {
+      "originalFile": "before/recovery/projector-free-image/projector-free-image-image-quotients.bin",
+      "uncompressedBytes": 815213,
+      "uncompressedSHA256": "5ded3e20c2618b13fa5c699d93b75391a82c116522fa31f36686a6b482f32795",
+      "compressedBytes": 537825,
+      "compressedSHA256": "df10e32dadad64af04467f492bcb20c4ab724d2491604cdc2e9a053a59eeda85",
+      "parts": [
+        {
+          "file": "certificates/before__recovery__projector-free-image__projector-free-image-image-quotients.bin.gz",
+          "bytes": 537825,
+          "sha256": "df10e32dadad64af04467f492bcb20c4ab724d2491604cdc2e9a053a59eeda85"
+        }
+      ]
+    },
+    {
+      "originalFile": "before/recovery/projector-free-image/projector-free-image-image-remainders.bin",
+      "uncompressedBytes": 110,
+      "uncompressedSHA256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a",
+      "compressedBytes": 63,
+      "compressedSHA256": "b9ce4f9f0c409e59f293f836ff5565df79149e34424350db59fc46a64bd4ee21",
+      "parts": [
+        {
+          "file": "certificates/before__recovery__projector-free-image__projector-free-image-image-remainders.bin.gz",
+          "bytes": 63,
+          "sha256": "b9ce4f9f0c409e59f293f836ff5565df79149e34424350db59fc46a64bd4ee21"
+        }
+      ]
+    },
+    {
+      "originalFile": "before/recovery/projector-free-image/projector-free-image-normal-forms.bin",
+      "uncompressedBytes": 551994,
+      "uncompressedSHA256": "5d7e1707dff7873ead494d5947fed0268af1b678af960595a0f302e4e7a3c86c",
+      "compressedBytes": 374111,
+      "compressedSHA256": "83e1d38438e3769206f6197d3891ce4fd3c763b91af3123714e240a83b385595",
+      "parts": [
+        {
+          "file": "certificates/before__recovery__projector-free-image__projector-free-image-normal-forms.bin.gz",
+          "bytes": 374111,
+          "sha256": "83e1d38438e3769206f6197d3891ce4fd3c763b91af3123714e240a83b385595"
+        }
+      ]
+    },
+    {
+      "originalFile": "before/recovery/projector-free-source/projector-free-source-vq-checkpoint.bin",
+      "uncompressedBytes": 6247636,
+      "uncompressedSHA256": "f31ea5ce0f426fda8627cec9a444a4722629f38c86e0f7c12ab93faa38aa9ced",
+      "compressedBytes": 2098986,
+      "compressedSHA256": "940e23ab1d76546cb75a190a42f2f198238f5f1aee79af4a6d1d23ba916f2ea5",
+      "parts": [
+        {
+          "file": "certificates/before__recovery__projector-free-source__projector-free-source-vq-checkpoint.bin.gz",
+          "bytes": 2098986,
+          "sha256": "940e23ab1d76546cb75a190a42f2f198238f5f1aee79af4a6d1d23ba916f2ea5"
+        }
+      ]
+    },
+    {
+      "originalFile": "continued/projector-free-image/projector-free-image-image-quotients.bin",
+      "uncompressedBytes": 815213,
+      "uncompressedSHA256": "5ded3e20c2618b13fa5c699d93b75391a82c116522fa31f36686a6b482f32795",
+      "compressedBytes": 537825,
+      "compressedSHA256": "df10e32dadad64af04467f492bcb20c4ab724d2491604cdc2e9a053a59eeda85",
+      "parts": [
+        {
+          "file": "certificates/continued__projector-free-image__projector-free-image-image-quotients.bin.gz",
+          "bytes": 537825,
+          "sha256": "df10e32dadad64af04467f492bcb20c4ab724d2491604cdc2e9a053a59eeda85"
+        }
+      ]
+    },
+    {
+      "originalFile": "continued/projector-free-image/projector-free-image-image-remainders.bin",
+      "uncompressedBytes": 110,
+      "uncompressedSHA256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a",
+      "compressedBytes": 63,
+      "compressedSHA256": "b9ce4f9f0c409e59f293f836ff5565df79149e34424350db59fc46a64bd4ee21",
+      "parts": [
+        {
+          "file": "certificates/continued__projector-free-image__projector-free-image-image-remainders.bin.gz",
+          "bytes": 63,
+          "sha256": "b9ce4f9f0c409e59f293f836ff5565df79149e34424350db59fc46a64bd4ee21"
+        }
+      ]
+    },
+    {
+      "originalFile": "continued/projector-free-image/projector-free-image-normal-forms.bin",
+      "uncompressedBytes": 551994,
+      "uncompressedSHA256": "5d7e1707dff7873ead494d5947fed0268af1b678af960595a0f302e4e7a3c86c",
+      "compressedBytes": 374111,
+      "compressedSHA256": "83e1d38438e3769206f6197d3891ce4fd3c763b91af3123714e240a83b385595",
+      "parts": [
+        {
+          "file": "certificates/continued__projector-free-image__projector-free-image-normal-forms.bin.gz",
+          "bytes": 374111,
+          "sha256": "83e1d38438e3769206f6197d3891ce4fd3c763b91af3123714e240a83b385595"
+        }
+      ]
+    },
+    {
+      "originalFile": "continued/projector-free-original/projector-free-original-original-seventeen-source-mod29791.bin",
+      "uncompressedBytes": 4989406,
+      "uncompressedSHA256": "5ede5bd335c49725ce07f3cc9eaa3494c058021baf354b636bc05e1ca376e3e8",
+      "compressedBytes": 4776110,
+      "compressedSHA256": "94caf06e8e667614f55a09a127e6ffa1bb104388246de5c850f47df5aebd7fc4",
+      "parts": [
+        {
+          "file": "certificates/continued__projector-free-original__projector-free-original-original-seventeen-source-mod29791.bin.gz.part001",
+          "bytes": 4500000,
+          "sha256": "c94e798515cfe9309ce3dd05b711a16c70af161157f329637c829b6bffdfda65"
+        },
+        {
+          "file": "certificates/continued__projector-free-original__projector-free-original-original-seventeen-source-mod29791.bin.gz.part002",
+          "bytes": 276110,
+          "sha256": "dc45c66b92bc868d3ae4017658392c60189930c649fcf3b2bf53c040f58eb102"
+        }
+      ]
+    },
+    {
+      "originalFile": "continued/projector-free-original/projector-free-original-primitive-source-mod29791.bin",
+      "uncompressedBytes": 4989406,
+      "uncompressedSHA256": "593643d82b259995194b0d89c9f46c8f042cd8d0c66bdfff0a00227689810cdd",
+      "compressedBytes": 4774246,
+      "compressedSHA256": "23979dd47ac4a10ca1d0645a75b58af781ac4de37baf587f054dbc950b970102",
+      "parts": [
+        {
+          "file": "certificates/continued__projector-free-original__projector-free-original-primitive-source-mod29791.bin.gz.part001",
+          "bytes": 4500000,
+          "sha256": "36143404afbc54107dc193c2b83233eb98089539fca760c4fdac6d71fba94778"
+        },
+        {
+          "file": "certificates/continued__projector-free-original__projector-free-original-primitive-source-mod29791.bin.gz.part002",
+          "bytes": 274246,
+          "sha256": "c0c460c87ac4b06d04533981bb09b2804e861a8e503bafb3b0de8cb5a98df569"
+        }
+      ]
+    },
+    {
+      "originalFile": "continued/projector-free-source/projector-free-source-standard-coefficients.bin",
+      "uncompressedBytes": 569691,
+      "uncompressedSHA256": "2dcd9161cf7a28d31cc6900f9dde4d1efb1ab0fb97fa192e6f6dfcce6be6ad84",
+      "compressedBytes": 368649,
+      "compressedSHA256": "284587d6d7716e074126cd4f2dbfdf2dfb8c4b040d65b99001e8b8a19654531d",
+      "parts": [
+        {
+          "file": "certificates/continued__projector-free-source__projector-free-source-standard-coefficients.bin.gz",
+          "bytes": 368649,
+          "sha256": "284587d6d7716e074126cd4f2dbfdf2dfb8c4b040d65b99001e8b8a19654531d"
+        }
+      ]
+    },
+    {
+      "originalFile": "continued/projector-free-source/projector-free-source-vq-checkpoint.bin",
+      "uncompressedBytes": 6247636,
+      "uncompressedSHA256": "9a6a6efff1cce00379af146aa3d665c31eb1612545cc8adfcc01e0825aef3752",
+      "compressedBytes": 2109899,
+      "compressedSHA256": "7c84ef7f50d81eec260f15f32020e420ba7e52129905c7acedd3114466f07f1b",
+      "parts": [
+        {
+          "file": "certificates/continued__projector-free-source__projector-free-source-vq-checkpoint.bin.gz",
+          "bytes": 2109899,
+          "sha256": "7c84ef7f50d81eec260f15f32020e420ba7e52129905c7acedd3114466f07f1b"
+        }
+      ]
+    },
+    {
+      "originalFile": "continued/projector-free-transport/projector-free-transport-primitive-source-mod31.bin",
+      "uncompressedBytes": 4264772,
+      "uncompressedSHA256": "5f2a48e1f6bbb3377aec901f35df1ab8e6c745ba2afb8ad6b8179888c4656367",
+      "compressedBytes": 1724053,
+      "compressedSHA256": "48bc54550d54138dec98534297c0d2dc4bf630565d9355a47068d6d880b0838e",
+      "parts": [
+        {
+          "file": "certificates/continued__projector-free-transport__projector-free-transport-primitive-source-mod31.bin.gz",
+          "bytes": 1724053,
+          "sha256": "48bc54550d54138dec98534297c0d2dc4bf630565d9355a47068d6d880b0838e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "format": "r150-projector-free-three-stage-continuation-v1",
+  "status": "completed",
+  "sharedMathematicalSecondsLimit": 90,
+  "perChildAddressSpaceMiBLimit": 512,
+  "noRecompilation": true,
+  "imageRecomputed": false,
+  "preceding300SourceRowsRecomputed": false,
+  "nativeInputBinding": "dc5426e2614e00fd69bde3a56f560ee5a2f7962b86dc6fcf7135784c6a7a0bc5",
+  "fullOriginalMod29791IdentityVerified": true,
+  "finite_budget_verified": true,
+  "characteristicZeroIdentityAsserted": false,
+  "deadlineRule": "Initial lossless snapshot and SHA verification precede one shared90-second mathematical clock. The three stages receive only its remaining time; timeout sends SIGTERM then permits up to10seconds for actual checkpoint serialization before SIGKILL. Compression and recovery copies follow outside that clock.",
+  "sources": {
+    "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+    "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp": "52be084cbb2b7ea63bb4dcedfc972fc9cb1cab9fad7a62285b738778ed47f59e",
+    "2026-11-14-r150-second-bockstein-all198-global-image-mixture-789f.cpp": "5eef9a7d3e37b834fe6e8bd72dce0dca83e6d13e214d85ecd418f0cab9f0d56d",
+    "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+    "2026-11-14-r150-second-bockstein-all198-global-original-transport-789f.cpp": "944fa6dc149ac728d0b6747db7283e35cae14cb6a93689b58f13d69fbfcc93da",
+    "2026-11-14-r150-second-bockstein-all198-global-original-combination-789f.cpp": "353933a95ab56606cf9178e855df9e959e27bbf10c685012aa3450c78f85aa3e",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "2026-11-14-r150-second-lift-projector-free-runner-789f.py": "411360a3b83dbe324c15e83dba889283dd41289a12f2d94c3e05fe66e8553b68",
+    "2026-11-14-r150-second-lift-projector-free-input-contract-789f.json": "f4053cad201ef7b2010fa5e8c292b334009e5643af2c8b9082f23c5645260b78",
+    "2026-11-14-r150-projector-free-three-stage-resume-789f.py": "46295ca57768a723877ebe8325140d98bc2b0d669341b89b8cd72307ebddc039",
+    "2026-11-14-r150-projector-free-three-stage-resume-inputs-789f.json": "2206147a32af9ecc5127af2688fd8fad2376d6855fa917f906597a166d0e6341"
+  },
+  "executables": {
+    "source9": {
+      "file": "/dev/shm/isp-789f-r150-projector-free-789f/bin/source9",
+      "sha256": "c1b9c3ff70bfffc737d274b1a60578392f4ded611c5ba86fb36e73d87857acf7"
+    },
+    "transport": {
+      "file": "/dev/shm/isp-789f-r150-projector-free-789f/bin/transport",
+      "sha256": "42749e3f375198cef90646d82ab9a508699ae485e38242e427f901dc7a299b52"
+    },
+    "original": {
+      "file": "/dev/shm/isp-789f-r150-projector-free-789f/bin/original",
+      "sha256": "a9c2bd32f5cf8b0506241b50dbe948b81ad4aae8958e3e97d8aeb9c4297dd5cb"
+    }
+  },
+  "stages": {
+    "source": {
+      "status": "completed",
+      "inputBindingSHA256": "77b1bdfa09303bbe5b3ee00e825d67117ab63f28c134326e706d1a8c237f3aa3",
+      "remainingSecondsAtStart": 89.99971321699559,
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "90.000s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/dev/shm/isp-789f-r150-projector-free-789f/bin/source9",
+        "/tmp/isp-t96-recovery-789f/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-normal-forms.bin",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/projector-free-image/projector-free-image-normal-forms.bin",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/projector-free-image/projector-free-image-image-quotients.bin",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/projector-free-image/projector-free-image-image-remainders.bin",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/projector-free-source/projector-free-source",
+        "dc5426e2614e00fd69bde3a56f560ee5a2f7962b86dc6fcf7135784c6a7a0bc5"
+      ],
+      "wrapperPID": 5,
+      "lastProgress": {
+        "status": "packed-image-source-convolution-complete",
+        "fullNormalFormDecompositionIdentity": true,
+        "standardKernelNormalForm": true,
+        "completeRHSInImage": true,
+        "originalSeventeenEquationTransported": false,
+        "targetStandardSourceCosts": [
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87
+        ],
+        "sourceMonomialProducts": 93312851,
+        "kernelReductions": 1085522,
+        "peakRSSKiB": 110208,
+        "elapsedSeconds": 55.8086
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 55.84171968400187,
+      "nativeStatistics": {
+        "status": "packed-image-source-convolution-complete",
+        "fullNormalFormDecompositionIdentity": true,
+        "standardKernelNormalForm": true,
+        "completeRHSInImage": true,
+        "originalSeventeenEquationTransported": false,
+        "targetStandardSourceCosts": [
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87
+        ],
+        "sourceMonomialProducts": 93312851,
+        "kernelReductions": 1085522,
+        "peakRSSKiB": 110208,
+        "elapsedSeconds": 55.8086
+      }
+    },
+    "transport": {
+      "status": "completed",
+      "inputBindingSHA256": "c3d6e96d7cbd71ebf0c6c527d9028c817405f7057340545b1022aa772a921c9b",
+      "remainingSecondsAtStart": 33.83693171900086,
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "33.837s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/dev/shm/isp-789f-r150-projector-free-789f/bin/transport",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/projector-free-source/projector-free-source-standard-coefficients.bin",
+        "/dev/shm/isp-789f-math-research-recovered/topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+        "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-reduction.bin",
+        "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-forward.bin",
+        "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-backward.bin",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/inputs/projector-free-nine-image.mix",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/projector-free-transport/projector-free-transport"
+      ],
+      "wrapperPID": 7,
+      "lastProgress": {
+        "status": "original-source-transport-complete",
+        "targetCount": 9,
+        "sourceCosts": [
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87
+        ],
+        "elapsedSeconds": 6.82592
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 6.841336136996688,
+      "nativeStatistics": {
+        "status": "original-source-transport-complete",
+        "targetCount": 9,
+        "sourceCosts": [
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87
+        ],
+        "elapsedSeconds": 6.82592
+      }
+    },
+    "original": {
+      "status": "completed",
+      "inputBindingSHA256": "3b6c73d40d2c1e8213959c1b6a385624662569b6d5788cc2e78fd7007c434efc",
+      "remainingSecondsAtStart": 26.876405053997587,
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "26.876s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/dev/shm/isp-789f-r150-projector-free-789f/bin/original",
+        "/dev/shm/isp-789f-math-research-recovered/topics/invariant-subspace-problem/notes/r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+        "/dev/shm/isp-789f-math-research-recovered/topics/invariant-subspace-problem/notes/r150-h25-second-residual-789f/original-integer-h25-mod29791.txt",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/inputs/projector-free-nine-original.recipe",
+        "/dev/shm/isp-789f-r150-projector-free-789f/recovery/projector-free-original/projector-free-original",
+        "40b992fcf2fb6736546bd2fe8a727fde983646dbc13ff572f994b32162066d0f"
+      ],
+      "wrapperPID": 9,
+      "lastProgress": {
+        "status": "full-original-combination-complete",
+        "divisor": 29791,
+        "allOriginalProductCoefficientsDivisible": true,
+        "fullOriginalSeventeenEquationIdentityMod29791": true,
+        "actualSourceCosts": [
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87
+        ],
+        "elapsedSeconds": 2.95936
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 2.97273949800001,
+      "nativeStatistics": {
+        "status": "full-original-combination-complete",
+        "divisor": 29791,
+        "allOriginalProductCoefficientsDivisible": true,
+        "fullOriginalSeventeenEquationIdentityMod29791": true,
+        "actualSourceCosts": [
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87,
+          87
+        ],
+        "elapsedSeconds": 2.95936
+      }
+    }
+  },
+  "inputContractSHA256": "2206147a32af9ecc5127af2688fd8fad2376d6855fa917f906597a166d0e6341",
+  "initialSnapshot": {
+    "recoveryFiles": 8,
+    "recoveryBytes": 7618705,
+    "allEightRecoveryFilesExact": true,
+    "initialReceiptAndAllLogsSaved": true
+  },
+  "resumeSourceAtImageRowOneBased": 301,
+  "mathematicalElapsedSeconds": 66.11494084400329,
+  "outcome": "projector-free-full-original-mod29791-certificate",
+  "actualSourceCosts": [
+    87,
+    87,
+    87,
+    87,
+    87,
+    87,
+    87,
+    87,
+    87
+  ],
+  "originalSeventeenConclusion": {
+    "format": "r150-full-original-combination-mod29791-v1",
+    "status": "completed",
+    "prime": 31,
+    "modulus": 29791,
+    "divisor": 29791,
+    "originalEquations": 17,
+    "originalRawRows": 6188,
+    "originalComponents": 4367,
+    "targetMode": 1,
+    "targetCount": 9,
+    "provedSourceCostBound": 87,
+    "actualSourceCosts": [
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87
+    ],
+    "integerOutputCoordinatesPerTarget": 227766,
+    "allOriginalProductCoefficientsDivisible": true,
+    "failedCoefficientCount": 0,
+    "fullOriginalSeventeenEquationIdentityMod29791": true,
+    "fullOriginalMacaulayIdentityMod29791": true,
+    "originalRowScaleTransportVerified": true,
+    "allWeightedBoundsVerified": true,
+    "maximumCoefficientDegree": 76,
+    "nonzeroRawRows": 5506,
+    "nonzeroCoefficients": 2370172,
+    "integerMonomialProducts": 1274929,
+    "quotientNonzeroCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "characteristicZeroIdentityAsserted": false,
+    "elapsedSeconds": 2.95934
+  },
+  "recoveryFiles": 39,
+  "recoveryBytes": 30084812
+}

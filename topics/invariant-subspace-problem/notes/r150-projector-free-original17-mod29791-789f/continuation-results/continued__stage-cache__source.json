@@ -1,0 +1,30 @@
+{
+  "inputBindingSHA256": "77b1bdfa09303bbe5b3ee00e825d67117ab63f28c134326e706d1a8c237f3aa3",
+  "outputs": {
+    "projector-free-source/projector-free-source-standard-coefficients.bin": "2dcd9161cf7a28d31cc6900f9dde4d1efb1ab0fb97fa192e6f6dfcce6be6ad84",
+    "projector-free-source/projector-free-source-source-certificate.json": "7c0a0e799bd20fbe657eb7327ee76fcc1693b74f587e490c157f82f3728d7b6e",
+    "projector-free-source/projector-free-source-vq-checkpoint.bin": "9a6a6efff1cce00379af146aa3d665c31eb1612545cc8adfcc01e0825aef3752"
+  },
+  "nativeStatistics": {
+    "status": "packed-image-source-convolution-complete",
+    "fullNormalFormDecompositionIdentity": true,
+    "standardKernelNormalForm": true,
+    "completeRHSInImage": true,
+    "originalSeventeenEquationTransported": false,
+    "targetStandardSourceCosts": [
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87
+    ],
+    "sourceMonomialProducts": 93312851,
+    "kernelReductions": 1085522,
+    "peakRSSKiB": 110208,
+    "elapsedSeconds": 55.8086
+  }
+}

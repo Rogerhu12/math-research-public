@@ -1,0 +1,63 @@
+{
+  "format": "r150-projector-free-lossless-generated-certificates-v1",
+  "pipelineStatus": "failed-or-incomplete",
+  "partialCheckpointIsNotIdentity": true,
+  "files": [
+    {
+      "originalFile": "projector-free-image/projector-free-image-image-quotients.bin",
+      "uncompressedBytes": 815213,
+      "uncompressedSHA256": "5ded3e20c2618b13fa5c699d93b75391a82c116522fa31f36686a6b482f32795",
+      "compressedBytes": 537825,
+      "compressedSHA256": "df10e32dadad64af04467f492bcb20c4ab724d2491604cdc2e9a053a59eeda85",
+      "parts": [
+        {
+          "file": "certificates/projector-free-image__projector-free-image-image-quotients.bin.gz",
+          "bytes": 537825,
+          "sha256": "df10e32dadad64af04467f492bcb20c4ab724d2491604cdc2e9a053a59eeda85"
+        }
+      ]
+    },
+    {
+      "originalFile": "projector-free-image/projector-free-image-image-remainders.bin",
+      "uncompressedBytes": 110,
+      "uncompressedSHA256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a",
+      "compressedBytes": 63,
+      "compressedSHA256": "b9ce4f9f0c409e59f293f836ff5565df79149e34424350db59fc46a64bd4ee21",
+      "parts": [
+        {
+          "file": "certificates/projector-free-image__projector-free-image-image-remainders.bin.gz",
+          "bytes": 63,
+          "sha256": "b9ce4f9f0c409e59f293f836ff5565df79149e34424350db59fc46a64bd4ee21"
+        }
+      ]
+    },
+    {
+      "originalFile": "projector-free-image/projector-free-image-normal-forms.bin",
+      "uncompressedBytes": 551994,
+      "uncompressedSHA256": "5d7e1707dff7873ead494d5947fed0268af1b678af960595a0f302e4e7a3c86c",
+      "compressedBytes": 374111,
+      "compressedSHA256": "83e1d38438e3769206f6197d3891ce4fd3c763b91af3123714e240a83b385595",
+      "parts": [
+        {
+          "file": "certificates/projector-free-image__projector-free-image-normal-forms.bin.gz",
+          "bytes": 374111,
+          "sha256": "83e1d38438e3769206f6197d3891ce4fd3c763b91af3123714e240a83b385595"
+        }
+      ]
+    },
+    {
+      "originalFile": "projector-free-source/projector-free-source-vq-checkpoint.bin",
+      "uncompressedBytes": 6247636,
+      "uncompressedSHA256": "f31ea5ce0f426fda8627cec9a444a4722629f38c86e0f7c12ab93faa38aa9ced",
+      "compressedBytes": 2098986,
+      "compressedSHA256": "940e23ab1d76546cb75a190a42f2f198238f5f1aee79af4a6d1d23ba916f2ea5",
+      "parts": [
+        {
+          "file": "certificates/projector-free-source__projector-free-source-vq-checkpoint.bin.gz",
+          "bytes": 2098986,
+          "sha256": "940e23ab1d76546cb75a190a42f2f198238f5f1aee79af4a6d1d23ba916f2ea5"
+        }
+      ]
+    }
+  ]
+}

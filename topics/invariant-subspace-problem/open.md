@@ -23,7 +23,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
 
-**原式来源与完整第二提升：** [全198实际第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)已得相关像连W维7、modW维5，九H0目标全相容；新方向δK1补旧四列唯一s2缺口。[H0原17模29791](notes/2026-11-14-r150-h25-full-original-seventeen-mod29791-cost276-789f.md)已全部原乘回，九实际成本276。完整315数据可去189次P，接低费用最后原像；原h0的31整数模961障碍仍真，不排Q31分母；char0与31饱和继续。原143/104自由检验/投影189/∞预算及所有旧数据保H与快照。
+**原式来源与完整第二提升：** [全198实际第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)已得相关像连W维7、modW维5，九H0目标全相容；新方向δK1补旧四列唯一s2缺口。[H0原17模29791](notes/2026-11-14-r150-h25-full-original-seventeen-mod29791-cost276-789f.md)已全部原乘回，九实际成本276。[去投影完整原乘回](notes/2026-11-14-r150-h25-projector-free-original-seventeen-mod29791-cost87-789f.md)已将九成本降至87，全部17式复核；原h0的31整数模961障碍仍真，不排Q31分母；char0与31饱和继续。原143/104自由检验/投影189/∞预算及所有旧数据保H与快照。
 
 **star当前解析接口：** [固定内峰全源极限](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)给整个m维相位谱趋1^(m−1),0、紧profile有κ≤1+C/√Q；[严格端峰](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)全源Φ=O(Q⁻²)；[高斯过渡层全源](notes/2026-11-14-balanced-star-gaussian-transition-full-phase-bound-789f-next.md)谱趋{Λb,Λd^(m−2),0}、统一极限界4/3。有限Q全参数/χ→0/消失组/无界权/增长组数仍开。实际曲率仅逐点负指数≤3，均值/总数共同回归仍须支付，完整链接保上方快照。
 
@@ -148,7 +148,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **已闭全部低本质三次层。** [总定理](results/R150-appendix-all-essential-cubic-dimensions-at-most-three-have-zero-matched-bell-values.md)：essT3≤3临界三Bell零；ess≤2仅迫T3=0，rank1/ess3为空，Cat2/3的W±/Q|T3判据保。非零Bell余点必ess4/5/6，自然幂未付。
 
-**高本质rank1原中心17式。** 原泛秩4354、rankAy8与0/2/−6/∞已闭；余rankAy9有限Σ/char0来源。当前完整198相关第二像维7、H0九目标原17模31³/cost276已成，低成本去投影续算及31饱和继续；准确范围和原数据见上方“原式来源与完整第二提升”。其它mean秩、高ess和自然幂仍开；全部旧范围保[前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
+**高本质rank1原中心17式。** 原泛秩4354、rankAy8与0/2/−6/∞已闭；余rankAy9有限Σ/char0来源。当前完整198相关第二像维7、H0九目标原17模31³/cost87已成，原h0的31饱和/特征零来源继续；准确范围和原数据见上方“原式来源与完整第二提升”。其它mean秩、高ess和自然幂仍开；全部旧范围保[前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)的74次充分条件于模31不成立：全原∞连接给阶≥24，仿射315使齐次总度≥339。它与九目标Ann24不同；char0来源/分母及其他mean秩高ess继续，全部旧条件保本次前open。
 
