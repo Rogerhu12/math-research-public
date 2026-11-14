@@ -1,0 +1,556 @@
+{
+  "schema": "actual47-capture-byte-and-metadata-audit-v1",
+  "result": {
+    "file": "result.json",
+    "bytes": 62966,
+    "sha256": "da9715ef1685c04210d5c3d8bbfb40629fd4bf810455b497e5e25630ac0aa403"
+  },
+  "summary": {
+    "file": "stage43-local-j-summary.json",
+    "bytes": 40357,
+    "sha256": "9ffb7b4d7f26ff61642d2949862931aafcc4d1ef132e0394730d821572e00e1f"
+  },
+  "array_manifest": {
+    "bytes": 13971,
+    "file": "stage43-local-j-array-manifest.json",
+    "sha256": "c4201dd4f3581025cee579dd5c992458759ce6313f9a5afffe2f98c30edee7f7"
+  },
+  "verified_small_files": 27,
+  "verified_array_files": 21,
+  "verified_array_bytes": 2453424,
+  "array_byte_audit": [
+    {
+      "name": "reference-full-input",
+      "file": "large-arrays/reference-full-input.f64le",
+      "bytes": 1808,
+      "sha256": "a26c6776bc3ab654a9e962fe32adefade8a1675d5be69836a214ee63e0b21489",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "reference-full-output",
+      "file": "large-arrays/reference-full-output.f64le",
+      "bytes": 1808,
+      "sha256": "cebb738222e5314cb1439cd6cb1ca7aa0b6050326e5043594dfdbe1c8808be12",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "reference-mean-tangent-rows",
+      "file": "large-arrays/reference-mean-tangent-rows.f64le",
+      "bytes": 3584,
+      "sha256": "dd4b05889acd856dc00edee31eae61775f95f383e6fa5ec03614c8e3e86317cc",
+      "shape": [
+        2,
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "reference-shape-output",
+      "file": "large-arrays/reference-shape-output.f64le",
+      "bytes": 1792,
+      "sha256": "90bfaafffe40aa31ab47ce2f45867d4f9f714e2e546b471f21185836497c75b9",
+      "shape": [
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "reference-short-J",
+      "file": "large-arrays/reference-short-J.f64le",
+      "bytes": 401408,
+      "sha256": "422109745d733e4dfba2c1ce76354facd80e069fedaf6e540e178d69607bafc0",
+      "shape": [
+        224,
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-0-state",
+      "file": "large-arrays/field-0-state.f64le",
+      "bytes": 1808,
+      "sha256": "a26c6776bc3ab654a9e962fe32adefade8a1675d5be69836a214ee63e0b21489",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-0-derivative",
+      "file": "large-arrays/field-0-derivative.f64le",
+      "bytes": 1808,
+      "sha256": "e4d870152e929d4cee28e5fe9c562fa9da4d67eddd33f837bde9a13bc411523f",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-0-local-jacobian",
+      "file": "large-arrays/field-0-local-jacobian.f64le",
+      "bytes": 404992,
+      "sha256": "a5692f926f949c2e9e9b00a5a7d49c1a7cf3614e31aa2a614bef90e3257d0d8e",
+      "shape": [
+        226,
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-1-state",
+      "file": "large-arrays/field-1-state.f64le",
+      "bytes": 1808,
+      "sha256": "d47d7e8aca0a54c3e38bb44481e4a06868192e72cbae043c79b3746ab5e8cf2d",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-1-derivative",
+      "file": "large-arrays/field-1-derivative.f64le",
+      "bytes": 1808,
+      "sha256": "1c6908c867828c5dcdfeedc0b07ed1e9f83414238e5c2b1b35a189c521b2ab08",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-1-local-jacobian",
+      "file": "large-arrays/field-1-local-jacobian.f64le",
+      "bytes": 404992,
+      "sha256": "9fc8e3c1d15978ca62a2d6b143b394a4cc777bdc570779ed6eb1512655d5b025",
+      "shape": [
+        226,
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-2-state",
+      "file": "large-arrays/field-2-state.f64le",
+      "bytes": 1808,
+      "sha256": "5990e3f83fc4e438a9219bc6d0c4cb029ff0d640827c46748f57249418ef3184",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-2-derivative",
+      "file": "large-arrays/field-2-derivative.f64le",
+      "bytes": 1808,
+      "sha256": "75bf7924621741d32936021f5e3f6fea671b3b390f3421d795cbb796b6a775f6",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-2-local-jacobian",
+      "file": "large-arrays/field-2-local-jacobian.f64le",
+      "bytes": 404992,
+      "sha256": "c3992df806c014fa7f0b0ced309ad6fe4450f8515d9a6a6046bad89f45b8126a",
+      "shape": [
+        226,
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-3-state",
+      "file": "large-arrays/field-3-state.f64le",
+      "bytes": 1808,
+      "sha256": "2129bd04cfa65ef710c4641ea6fe536d4ac9b81f44595701490ef4a322198718",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-3-derivative",
+      "file": "large-arrays/field-3-derivative.f64le",
+      "bytes": 1808,
+      "sha256": "0bef1531a05fb8f3ebd5c560d8bfb454d14584327a7ba6d0bbb3bea959cdbc90",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "field-3-local-jacobian",
+      "file": "large-arrays/field-3-local-jacobian.f64le",
+      "bytes": 404992,
+      "sha256": "ce708068ceef33e43eb60dba19b03c8a8f1de634259032f641194d7d896aa0ca",
+      "shape": [
+        226,
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "observed-full-output",
+      "file": "large-arrays/observed-full-output.f64le",
+      "bytes": 1808,
+      "sha256": "cebb738222e5314cb1439cd6cb1ca7aa0b6050326e5043594dfdbe1c8808be12",
+      "shape": [
+        226
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "observed-shape-output",
+      "file": "large-arrays/observed-shape-output.f64le",
+      "bytes": 1792,
+      "sha256": "90bfaafffe40aa31ab47ce2f45867d4f9f714e2e546b471f21185836497c75b9",
+      "shape": [
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "observed-short-j",
+      "file": "large-arrays/observed-short-j.f64le",
+      "bytes": 401408,
+      "sha256": "422109745d733e4dfba2c1ce76354facd80e069fedaf6e540e178d69607bafc0",
+      "shape": [
+        224,
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    },
+    {
+      "name": "observed-mean-tangent-rows",
+      "file": "large-arrays/observed-mean-tangent-rows.f64le",
+      "bytes": 3584,
+      "sha256": "dd4b05889acd856dc00edee31eae61775f95f383e6fa5ec03614c8e3e86317cc",
+      "shape": [
+        2,
+        224
+      ],
+      "negative_zero_words": 0,
+      "nonfinite_words": 0
+    }
+  ],
+  "original44_receipt_sha256": "d7d00de365b2118e1346e8f8630d5bad408957da91fdf51f38496f73b0e0c5f2",
+  "fields": [
+    {
+      "field_index": 0,
+      "state_sha256": "a26c6776bc3ab654a9e962fe32adefade8a1675d5be69836a214ee63e0b21489",
+      "state_bits_equal": true,
+      "geometry_records_equal": true,
+      "x_h_records_equal": true,
+      "root_records_equal": true,
+      "local_J": {
+        "name": "field-0-local-jacobian",
+        "file": "large-arrays/field-0-local-jacobian.f64le",
+        "bytes": 404992,
+        "sha256": "a5692f926f949c2e9e9b00a5a7d49c1a7cf3614e31aa2a614bef90e3257d0d8e",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          226,
+          224
+        ],
+        "role": "Actual original returned complete local Jacobian; unported, all modes and mean rows",
+        "statistics": {
+          "entries": 50624,
+          "finite": 50624,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 224,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 1656869540790.701,
+            "float64le_hex": "376b3bed511c7842",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": -1656869540790.701,
+            "float64le_hex": "376b3bed511c78c2",
+            "classification": "finite"
+          }
+        }
+      }
+    },
+    {
+      "field_index": 1,
+      "state_sha256": "d47d7e8aca0a54c3e38bb44481e4a06868192e72cbae043c79b3746ab5e8cf2d",
+      "state_bits_equal": true,
+      "geometry_records_equal": true,
+      "x_h_records_equal": true,
+      "root_records_equal": true,
+      "local_J": {
+        "name": "field-1-local-jacobian",
+        "file": "large-arrays/field-1-local-jacobian.f64le",
+        "bytes": 404992,
+        "sha256": "9fc8e3c1d15978ca62a2d6b143b394a4cc777bdc570779ed6eb1512655d5b025",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          226,
+          224
+        ],
+        "role": "Actual original returned complete local Jacobian; unported, all modes and mean rows",
+        "statistics": {
+          "entries": 50624,
+          "finite": 50624,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 224,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 1463585730467.3127,
+            "float64le_hex": "0135fa1e484c7542",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": -1463585730467.3127,
+            "float64le_hex": "0135fa1e484c75c2",
+            "classification": "finite"
+          }
+        }
+      }
+    },
+    {
+      "field_index": 2,
+      "state_sha256": "5990e3f83fc4e438a9219bc6d0c4cb029ff0d640827c46748f57249418ef3184",
+      "state_bits_equal": true,
+      "geometry_records_equal": true,
+      "x_h_records_equal": true,
+      "root_records_equal": true,
+      "local_J": {
+        "name": "field-2-local-jacobian",
+        "file": "large-arrays/field-2-local-jacobian.f64le",
+        "bytes": 404992,
+        "sha256": "c3992df806c014fa7f0b0ced309ad6fe4450f8515d9a6a6046bad89f45b8126a",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          226,
+          224
+        ],
+        "role": "Actual original returned complete local Jacobian; unported, all modes and mean rows",
+        "statistics": {
+          "entries": 50624,
+          "finite": 50624,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 224,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 1463585730467.3127,
+            "float64le_hex": "0135fa1e484c7542",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": -1463585730467.3127,
+            "float64le_hex": "0135fa1e484c75c2",
+            "classification": "finite"
+          }
+        }
+      }
+    },
+    {
+      "field_index": 3,
+      "state_sha256": "2129bd04cfa65ef710c4641ea6fe536d4ac9b81f44595701490ef4a322198718",
+      "state_bits_equal": true,
+      "geometry_records_equal": true,
+      "x_h_records_equal": true,
+      "root_records_equal": true,
+      "local_J": {
+        "name": "field-3-local-jacobian",
+        "file": "large-arrays/field-3-local-jacobian.f64le",
+        "bytes": 404992,
+        "sha256": "ce708068ceef33e43eb60dba19b03c8a8f1de634259032f641194d7d896aa0ca",
+        "dtype": "<f8",
+        "order": "C",
+        "shape": [
+          226,
+          224
+        ],
+        "role": "Actual original returned complete local Jacobian; unported, all modes and mean rows",
+        "statistics": {
+          "entries": 50624,
+          "finite": 50624,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 224,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 1293340675869.1433,
+            "float64le_hex": "4bd2f1c811d27242",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": -1293340675869.1433,
+            "float64le_hex": "4bd2f1c811d272c2",
+            "classification": "finite"
+          }
+        }
+      }
+    }
+  ],
+  "bit_comparisons": {
+    "full226_state": {
+      "all_bits_equal": true,
+      "mismatching_words": 0,
+      "observed_sha256": "cebb738222e5314cb1439cd6cb1ca7aa0b6050326e5043594dfdbe1c8808be12",
+      "original_sha256": "cebb738222e5314cb1439cd6cb1ca7aa0b6050326e5043594dfdbe1c8808be12",
+      "producer_floating_diagnostic": {
+        "actual_float64le_sha256": "cebb738222e5314cb1439cd6cb1ca7aa0b6050326e5043594dfdbe1c8808be12",
+        "reference_float64le_sha256": "cebb738222e5314cb1439cd6cb1ca7aa0b6050326e5043594dfdbe1c8808be12",
+        "all_bits_equal": true,
+        "mismatching_entries": 0,
+        "floating_max_abs_difference": {
+          "value": 0,
+          "float64le_hex": "0000000000000000",
+          "classification": "finite"
+        },
+        "floating_max_difference_column": 0,
+        "floating_max_difference_divided_by_original_sigma": null,
+        "original_sigma": null,
+        "nonfinite_differences": 0,
+        "examples": [],
+        "difference_is_diagnostic_not_a_new_scientific_gate": true
+      }
+    },
+    "stored_shape": {
+      "all_bits_equal": true,
+      "mismatching_words": 0,
+      "observed_sha256": "90bfaafffe40aa31ab47ce2f45867d4f9f714e2e546b471f21185836497c75b9",
+      "original_sha256": "90bfaafffe40aa31ab47ce2f45867d4f9f714e2e546b471f21185836497c75b9",
+      "producer_floating_diagnostic": {
+        "actual_float64le_sha256": "90bfaafffe40aa31ab47ce2f45867d4f9f714e2e546b471f21185836497c75b9",
+        "reference_float64le_sha256": "90bfaafffe40aa31ab47ce2f45867d4f9f714e2e546b471f21185836497c75b9",
+        "all_bits_equal": true,
+        "mismatching_entries": 0,
+        "floating_max_abs_difference": {
+          "value": 0,
+          "float64le_hex": "0000000000000000",
+          "classification": "finite"
+        },
+        "floating_max_difference_column": 0,
+        "floating_max_difference_divided_by_original_sigma": {
+          "value": 0,
+          "float64le_hex": "0000000000000000",
+          "classification": "finite"
+        },
+        "original_sigma": {
+          "value": 3.0069370042341896e-16,
+          "float64le_hex": "27c23cdad1aab53c",
+          "classification": "finite"
+        },
+        "nonfinite_differences": 0,
+        "examples": [],
+        "difference_is_diagnostic_not_a_new_scientific_gate": true
+      }
+    },
+    "shape_J": {
+      "all_bits_equal": true,
+      "mismatching_words": 0,
+      "observed_sha256": "422109745d733e4dfba2c1ce76354facd80e069fedaf6e540e178d69607bafc0",
+      "original_sha256": "422109745d733e4dfba2c1ce76354facd80e069fedaf6e540e178d69607bafc0",
+      "producer_floating_diagnostic": {
+        "actual_float64le_sha256": "422109745d733e4dfba2c1ce76354facd80e069fedaf6e540e178d69607bafc0",
+        "reference_float64le_sha256": "422109745d733e4dfba2c1ce76354facd80e069fedaf6e540e178d69607bafc0",
+        "all_bits_equal": true,
+        "mismatching_entries": 0,
+        "floating_max_abs_difference": {
+          "value": 0,
+          "float64le_hex": "0000000000000000",
+          "classification": "finite"
+        },
+        "floating_max_difference_column": 0,
+        "floating_max_difference_divided_by_original_sigma": null,
+        "original_sigma": null,
+        "nonfinite_differences": 0,
+        "examples": [],
+        "difference_is_diagnostic_not_a_new_scientific_gate": true
+      }
+    },
+    "mean_tangent_rows": {
+      "all_bits_equal": true,
+      "mismatching_words": 0,
+      "observed_sha256": "dd4b05889acd856dc00edee31eae61775f95f383e6fa5ec03614c8e3e86317cc",
+      "original_sha256": "dd4b05889acd856dc00edee31eae61775f95f383e6fa5ec03614c8e3e86317cc",
+      "producer_floating_diagnostic": {
+        "actual_float64le_sha256": "dd4b05889acd856dc00edee31eae61775f95f383e6fa5ec03614c8e3e86317cc",
+        "reference_float64le_sha256": "dd4b05889acd856dc00edee31eae61775f95f383e6fa5ec03614c8e3e86317cc",
+        "all_bits_equal": true,
+        "mismatching_entries": 0,
+        "floating_max_abs_difference": {
+          "value": 0,
+          "float64le_hex": "0000000000000000",
+          "classification": "finite"
+        },
+        "floating_max_difference_column": 0,
+        "floating_max_difference_divided_by_original_sigma": null,
+        "original_sigma": null,
+        "nonfinite_differences": 0,
+        "examples": [],
+        "difference_is_diagnostic_not_a_new_scientific_gate": true
+      }
+    }
+  },
+  "producer_execution_facts": {
+    "capture_completed": true,
+    "native_accepted": false,
+    "task_completed": false,
+    "original_protocol_requests": 1,
+    "worker_exit_code": 0,
+    "planned_probe_stop_observed": true,
+    "original_native_solve_called": false,
+    "new_whole_tail_J_evaluations": 0,
+    "new_original_long_J_evaluations": 0,
+    "no_J_evaluations": 0,
+    "additional_ODE_steps": 0,
+    "endpoint_J_or_audit_computed": false,
+    "completed_local_J_blocks": 1,
+    "completed_local_J_evaluations": 1,
+    "completed_original_RK_field_calls": 4,
+    "original_RK_field_entries": 4,
+    "returned_pointwise_local_J_matrices": 4,
+    "total_step_count": 1,
+    "actual_original_failure_message": "Error: VISIBLE_NATIVE_STAGE43_LOCAL_J_PROBE_COMPLETE_V1",
+    "unexpected_error": null
+  },
+  "scientific_values_not_recomputed": true,
+  "old41_A_bytes_were_not_saved": true,
+  "byte_and_metadata_audit_passed": true
+}

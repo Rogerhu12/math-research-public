@@ -158,4 +158,6 @@ request46接v3 f80608b3…显式目标标量读者，仅原42七件SHA及原prod
 
 - **request48运行中：run43629964624/source86acdf3b193efb6ad536545e22c46584fcc0bdd5**：由45父pair只加mid482，13query/26624行/4735局部变量；同一次原J、完整R270外部响应、原C/17trial/新FD。见[新13接口](notes/2026-11-14-thirteen-query-condensed-warm-interface.md)。未接受BVP或新native，不等阶段确认。
 
-- **request47已提交独立stage43probe请求，run待回读**：原41旧43/步11四A捕获→三种完整精确作用→actual43同δ/r/σ的new519全部224行与平方范数交叉账。见[四A接口](notes/2026-11-14-native-stage43-four-local-J-interface.md)、[精确作用](notes/2026-11-14-native-stage43-exact-rational-action-interface.md)、[原行归因](notes/2026-11-14-original-new519-exact-residual-attribution-interface.md)。不重全J/求解/试坏方向，不从最大值差归因。
+- **request47已完成：run43630351235/sourcec9c466f468d49e3f4699d0e0247109e83047bdb5**：原41旧43/步11四A捕获→三种完整精确作用→actual43同δ/r/σ的new519全部224行与平方范数交叉账。见[四A接口](notes/2026-11-14-native-stage43-four-local-J-interface.md)、[精确作用](notes/2026-11-14-native-stage43-exact-rational-action-interface.md)、[原行归因](notes/2026-11-14-original-new519-exact-residual-attribution-interface.md)。不重全J/求解/试坏方向，不从最大值差归因。
+
+- **actual47完整捕获已核**：[原步捕获结论](notes/2026-11-14-actual-request47-original-step-capture.md)；原/新完整shortJ与mean逐位相同，21数组/27小件全字节核。此步复现差为零映射；四原局部A现首次完整保存，旧41未存A的限制仍保留。

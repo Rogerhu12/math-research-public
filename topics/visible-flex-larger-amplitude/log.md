@@ -408,3 +408,7 @@ v3独立20153B/f80608b3…全文读并AST核，保原v1 PIN七件；明确标量
 已接独立stage43probe workflow/唯一request trigger，完整原28/41/43 ZIP保持原pin；43只提五件result/δ/checkpoint/r/σ原件。只从原41完整226状态重放原旧43/步11四次RHS-J，保原x/h/profile/mean/port，保存新四A及同次shortJ。随后以实际捕获resultSHA比较old41/observed/rational三作用，实际43方向的new519再复用这三作用形成完整224行/有理平方范数/符号交叉项，不重复A乘法。原43 oracle直接精确累加未预缩放J/r后除原σ，口径一致。详三新接口；root读完整新源/父差异和workflow，实际静态语法已过；本地无科学计算。请求刚提交，实际run/result待回读，native/task仍未完成。
 
 48真实run43629964624/source86acdf3b193efb6ad536545e22c46584fcc0bdd5/job132554193810；父45双SHA恢复成功，原暖步19:03:58Z开始。47/48独立，不重复调度。
+
+## 2026-11-14 actual47：一个原RK步的四A与完整输出位复现
+
+run43630351235/sourcec9c466f468d49e3f4699d0e0247109e83047bdb5实际成功。1原请求/4原RHS-J/1原步，原41四field完整状态及geometry/root记录一致；最终226状态、shape、完整224×224 shortJ、两mean行逐字相同，故本步旧/新保存线性映射差为零。首次完整四A不因中间两级geometry相同而合并。27小件、21数组2453424B完整审计；root另17exact输出包全SHA核，未本地重算科学。见[捕获note](notes/2026-11-14-actual-request47-original-step-capture.md)与两audit；native/task仍未完成。
