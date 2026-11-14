@@ -162,73 +162,44 @@ R743保正确Sha方向，原p-flat primitive满足2(aq−16bq)=−ε(J−18)，�
 R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈z0,d0〉p=9ε；不反推b。R752/R755/R756/R758/R761及新R763见下，真正J/b/σ₂和ordinary-to-flat下降仍待求。
 
 
-**R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
+## 当前原数据和最新接口
 
+以下替代逐条重复状态；截至R772的完整公式、运行/SHA和每一限制逐字保存于[本次完整open归档](notes/2026-11-14-open-before-R770.md)，原结果均继续有效。已经实际完成的计算不重跑。
 
-**R735/R738/R745（原p41计算输入均已完成）**：原目标七次F41、disc41=6与逆different格见[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)，run43608152850；原4920cosets/819相对/800闭基/交配det1、c1=4424与c0轨道见[R738](results/R738-certified-original-p41-period-input.md)，run43612108090；原六Q Hodge的800项、40p向量/完整N、80平移与87961端点见[R745](results/R745-certified-original-p41-Hodge-and-adelic-input.md)，run43616027318。原αs、CRT6逆元、ζ²一次及微分246保留。全部小cert/源SHA在三证明，大表仅artifact；完整旧状态另存[before-R760](notes/2026-11-14-open-before-R760.md)，不重算以上输入。当前真正待求原period/整数Hom格/映射/q/β及高度。
+### 原p41曲线、格和函数恢复
 
+[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)已得原K(U)度280/L=K(b)度7、真实b=r0⁶、逆different输入；[R738](results/R738-certified-original-p41-period-input.md)已得4920cosets、819相对/800闭链及detΩ=1；[R745](results/R745-certified-original-p41-Hodge-and-adelic-input.md)已得六个原Hodge至800及全部旧有限向量。[R751](results/R751-original-period-compression-in-the-retained-degree-280-field.md)的压缩保正Miller ξ、CRT6逆元、携权μ6、246和实目标负号。
 
-**R748（原signed CM根、六Hodge首系数及完整局部后果已完成）**：[正式证明](results/R748-original-signed-real-CM-root-and-rational-Hodge-first-jet.md)绑定公开run43617493590，严格CM球与exact square确定T=(10177+16725β−16710β²−8550β³+4754β⁴+1425β⁵)/5043和原六signed共轭+−+−++。实际ω0的coarse首系数43719/(7·41²)，完整R730/R750尾给v41(a−1)>3仅center，闭41⁴盘归一为t+41H(t)等距；六首系数、全部严格球/来源SHA完整。仍非高度共同无根或正秩有理点排除，原period/Hom/q/β继续。
+[R754](results/R754-certified-original-p41-periods-and-Hom-kernel.md)实际run43620862489给所有原period、4800×42准确rank36/K核6、全部800×6闭链复核，artifact14125735974。[R759](results/R759-certified-original-integral-period-lattice-and-map-degrees.md)实际run43625474728给完整整数格Z秩12/O_K6及十二次数，选index4、d1206，artifact14125233728；并非全局最小。
 
+[R762 v2](results/R762-original-mu3-quotient-and-single-function-map-recovery.md)的21固定点给商Y genus127、deg t820，单函数y恢复x，原M=Lξ、b_half负号、qY=Q³和¼全部保。[R764](results/R764-certified-original-cusp-images-and-base-translation.md)实际run43626804312把十九树边period与degree mod3完整代回，十二整格基的全部20cusps标签及c0平移皆0，故全格fP=f0；artifact14127135207。真实函数、β和高度仍未得到。
 
-**R752（保留二阶scalar项的精确交换已证明）**：[完整证明](results/R752-exact-Gamma-scalar-exchange-with-the-retained-second-coefficient.md)保原s_act=1+iπ+[σ₂−(1+i)/2]π²、σ₂∈F43，原q全链与rational quadratic给Lq(D_b)=21εσ₂。选择无关I₀=Lq(D₀)−(20/23)〈D₀p,dflat〉满足I₀=ε(21σ₂+2b(J−18))；未除b、未由τ或q-socle把σ₂置零。真正待求I₀与σ₂的global ordinary Γ/S Norm输入，R723的Jflat/b−24桥仍未证明。
+[R767](results/R767-original-quotient-low-weight-RR-basis-and-cusp-order-bound.md)证明M2的146维权1 trace生成/正常乘积及八个椭圆主部给M12维1514；真实t²Δ给L(2(t)0)基，cusp常数−1/6912。原早期minor给e≤19，d1206的完整恢复只需2847行/基前缀2846/Hodge8557，真实kernel308/rank2720。[R769](results/R769-certified-original-degree-cutoff-exclusion.md)实际run43628341694穷尽完整原格degree≤693：385事件、空栈、唯一零叶子；degree为3倍故非零≥696，未排所有特殊小除子。此有界项关闭，继续d1206，无需扩可选SVP。
 
+[R771工程](notes/R771-original-quotient-RR-bases-method.md)已在实际run43628998192/source49abc04d7867c9f56911866494692c597cf642d7成功，通过146/694/1514秩和非零minor；原recipe和系数表artifact14127715743。根正在逐项接收实际cert/manifest，下一条结论单独正式登记，不把模系数升成特征零函数。
 
-**R751（原周期公式已证明，实际核现由R754完成）**：[完整证明](results/R751-original-period-compression-in-the-retained-degree-280-field.md)保原逆θ/正Miller ξ/携权μ6/CRT6、246及实目标−ζ运输，将原40加法周期放进原K(U)度280。原42列/800闭链完整核已由下文R754实际完成，整数格/degree亦由R759真run成功；真实函数/β/高度继续。先前完整推导及失败历史保[before-R766](notes/2026-11-14-open-before-R766.md)。
+[R772](results/R772-original-RR-descent-and-exact-function-recovery-certificates.md)的GL2 det半线性trace给K定义基，但尖点系数仍M；零平移给实际y∈L(Y)。按M/L四十坐标展开的任意准确部分矩阵达到rank2720，即已得到完整308核；只准准确特征零代回或有证明高度界的CRT。原H³=4F³/1722³是M6，由Q2460/qY820认证；候选y=A/B的W=B DτA−A DτB、Dτ=θ/82，满足W³=27B²(A²−bB²)²H³的M78恒等式准确至10660，则认证原d1206映射。实际下降基/核/函数尚待算。
 
+R774直接复用R748已有newform至4096（run43617493590，文件R748-extended-newform-coefficients.json.gz SHA0c7d73a2a2c9202c6a25f343c9357a8b59d9cfc4928a29b5d460dbf84828bff0），只扩原six Fourier到2460、做56对称三重积及原v合成，接真R771基。其后继续实际β/第二类周期/Poincaré对数和R724高度Bézout；全p证书存在仍未证明。
 
-**R755（原Γ/scalar dual输入与flat修正已证明）**：[完整证明](results/R755-exact-dual-Gamma-scalar-primitive-for-the-original-flat-target.md)保负伴随y=ell_cyc−2iκq，给Σ支持primitive；原q quadratic/cubic、local gauge和2处完整cochain使I₀=−〈w,Sflat〉。对原Aα得到Iα=−〈w,Sα〉=ε(21σ₂+2bJℓ)，且I₀=Iα+7εb；原scalar reference 9ε仅与真实q常数相消。真正缺口是通过原ordinary Γ/S Norm链求Sα/σ₂的global输入，未由支持存在或局部根代普通单位见证。
+### 原ordinary单位和dual配对
 
+[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)以原θ极点/全μp² phase给同一Xt的Y、三Norm均为Aα的Z，原rμ((s−1)Y)=−4J，flat为−4(J−18)。[R756](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)保真实ordinary U/Vi/Wij与全边界；E∩pU=pE不能令三Norm零自动可除p。[R758](results/R758-natural-ordinary-cocycle-map-and-the-original-moment-torsor.md)的自然H¹映射给ψft=X41、ψfs=ibX41、Xηα=19ψft，原η的下一项保J，flat位移−8iψft。
 
-**R753（原除法多项式一阶变分已证明）**：[完整证明](results/R753-original-division-polynomial-variation-and-three-torsion-unit.md)给原ψp≡−1、φp≡x^(p²) modp，及原H=(ψp+1)/p的全部非p指标。h1…hp=0，h_(p+1)=−1/2·binom((p−1)/2,(p+1)/3)为单位；原三挠点精确ψp(0)=−(−4)^((p²−1)/6)。导数信息留下N=(p−5)/6个x^(3mp)方向，现由下文R757补齐；原O点的临界Cartier单位仍须另外证明，不能用三挠点单位替代。
+[R761](results/R761-original-Gamma-scalar-ordinary-exchange-and-integral-p-division.md)证明Γ/S真实交换W∈43EM，L=−W/43=XH，πL=VS、SL=VΓ；两对角π²L/S²L未消。[R763](results/R763-ordinary-torsor-normalization-with-fixed-moment-and-real-marking.md)给保同一Xt/J/η/全部phase的ρ清零及实标记；ρ不是b/J不变量。[R766](results/R766-original-T-descent-and-the-forty-step-ordinary-exchange.md)从单一Y40向下给原Y0及NTY0=21Aα，H∈X40E/L∈X41E三Norm零；下一d41原q socle非主化，不能再按同法下降。
 
+[R768](results/R768-original-supported-dual-Kummer-class-and-ordinary-companion.md)保真Σ支持、q二次gauge及2处extension；真eα的full divisor image为唯一λ_id e_q，κ(Xt)不可当ordinary。实际β_P(U)=−ft/9非零。T-Hilbert90/transfer给bλ=0；b≠0时通过到较小EN的真正类Norm/ordinary capitulation同构，真dual与dq下降成V=M^T的ordinary类，保q-local0、两Norm和两导数；b0不外推，b24未排。
 
-**R756（原ordinary三Norm整格与准确cohomology已证明）**：[完整证明](results/R756-original-three-norm-ordinary-lattice-and-exact-scalar-cohomology.md)用同一Z移除全部divisor，构造ordinary U/V_i/W_ij/H及精确边界，尚未任意除p。原H¹(S,kerΓE_M)=k[T]/(N_T)，U_Y=(s−1)Y全q向量−4J·N_T+iD_T，标记class首系数19、下一系数保J；原flat仅J→J−18。实际E∩pU=pE把W_ij的ordinary可除性转成原p局部测试，三Norm本身不足；原Γ/S这一对现由下文R761解决，真实flat section/Iα与σ₂仍缺，未将模块形状认作b。
+[R752](results/R752-exact-Gamma-scalar-exchange-with-the-retained-second-coefficient.md)/[R755](results/R755-exact-dual-Gamma-scalar-primitive-for-the-original-flat-target.md)仍保σ₂：Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0=Iα+7εb。原scalar reference仅9ε且quadratic只用一次；R743的flat与R746的strict-p泛函不能混同。R773继续原纯S整格及实际q配对；真正J/b/σ₂/Iα未知，不能以直接μp相位代regularized pairing。
 
+### 原sigma同标签非零
 
-**R757（原ψp模p²全部系数已证明）**：[完整证明](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)对每个p5mod6给ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；最高Z_M极点不忽略。原形式对数/σ精确截断确定R753全部N个Frobenius方向且均为单位，常数端点推出binom(2M,M)≡−p16^M modp³。原临界T·C/T·Z³系数在此精度被抹掉，下文R760已给原σ更高精度桥；同h两Cartier单位与高度仍开。
+[R753](results/R753-original-division-polynomial-variation-and-three-torsion-unit.md)/[R757](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)已给原ψp模p²所有系数，保最高Z_M一p极点；所有原Frobenius方向单位并不强迫临界两Cartier。[R760](results/R760-original-critical-sigma-jets-from-four-digit-division-data.md)原O点/c=0与最高N+1项模p⁴准确恢复T；同h判据P_(h−1)(1/s)UhVh≠0，原q_j=−(−4)^j d_j可直接接旧除法多项式。
 
+[R765](results/R765-first-obstructed-sigma-coefficient-and-Cartier-unit-residual.md)的原低阶T残差为单位BwN，下一p t_(N+1)=−6B恰抵消；不能把低截断当完整Fp解。[R770](results/R770-same-primitive-label-square-and-finite-bilinear-pairing.md)现在给同一原本原h=6a+1的完整平方
+\[
+(p^2M_{2,h}/\zeta)^2
+=(1296\alpha sB^5 P_{6a}(1/s)U_hV_h)^2.
+\]
+没有选不同h的signed平方根。原f/g、Legendre有限平均和Möbius本原投影给准确有限配对，其非零足以给同h三单位，但非零本身仍未证明；R765残差总指标N+1与所需N−1差二，不可直接套。继续真实同h非零机制，不扩有限数值窗，不用Abel不返零替真正高度。
 
-**R758（原ordinary自然cocycle比较已证明）**：[完整证明](results/R758-natural-ordinary-cocycle-map-and-the-original-moment-torsor.md)以实际P-fixed y和全部整格歧义给H¹(P,kerΓE)≅H¹(P,E)，其inverse后res_S是自然ψ。逐原链得到ψ(ft)=X41、ψ(fs)=ibX41；原ηα满足Xηα=19ψ(ft)，全部余差恰ψ(H¹P E)，flat准确位移−8iψ(ft)。此为固定原主化的antiderivative torsor，J的socle坐标不能任意选；下一步须实际p-flat section/ordinary p除性及Iα、σ₂求值。
-
-
-**R760（原临界sigma的准确四位除法精度接口已证明）**：[完整证明](results/R760-original-critical-sigma-jets-from-four-digit-division-data.md)在原O点/c=0及w≤N给Qp=pZ−p³ZL/6 modp⁵，逐项可除p³的Dp≡L modp²；原最高N+1系数modp⁴确定原T。全部h同一微分/普通阶乘/六挠规范给U_h、V_h及P_(h−1)(1/s)U_hV_h≠0的真实三单位判据；原R735模数用q_j=−(−4)^j d_j直接复用。仍须证明充分大p存在同一真本原h非零，Gaussian修改不保临界截面，不能以ψ单位或异标签值拼接。
-
-
-**R759（完整整数周期格和实际次数已精确完成）**：[正式结果](results/R759-certified-original-integral-period-lattice-and-map-degrees.md)公开run43625474728/source4728e686给全部1600行的完整Z格rank12/O_K6；原交配solve、正定、ζ作用和exact LLL全通过，十二基次数[1485,1602,2448,1521,1206,1836,1206,1485,1521,1485,1206,1206]，选index4、d1206，非全局最小声明。核心8.629秒、cert7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0，完整坐标artifact14125233728；原RR界m4/M5692/基8104/微分9310。整数格/degree缺口已关闭，实际函数/β/高度继续。
-
-
-**R761（原Γ/S ordinary交换可除p已证明）**：[完整证明](results/R761-original-Gamma-scalar-ordinary-exchange-and-integral-p-division.md)保Y的真实θ极点、BΓ/BS全μp²相位以及全部ordinary divisor，Γ相位注入和A_B=0构造共同F；全部43个T相位给e∈pE_Ft+Ou，故WΓS∈43E_M。实际LΓS=−WΓS/p=(t−1)H同时πL=V_S、SL=VΓ、三Norm零。只解决Γ/S一对；ΓT/ST、π²L/S²L及原dual cochain下降仍须证明，ρ和全局Y坐标并未求值，不据此求J/b或σ₂。
-
-
-**R763（保原首矩/实标记的ordinary torsor归一已证明）**：[完整证明](results/R763-ordinary-torsor-normalization-with-fixed-moment-and-real-marking.md)在同一Xt的真实KΓS差模给λ(Vy)=1，ρ可任意改变且清零，原ηα/J及全部q相位逐代表不变。实平均与实际Vτ保全部规范并给λ=i，H0=RΓS/p ordinary、Γ/S Norm零、τH0=γH0。ρ不是原首矩或b的不变量；真实T下降/π²L、S²L及R755 dual仍须接续，未由普通见证选择求J/b。
-
-
-**R762（原μ3商及单函数/基点恢复已证明，v2重建）**：[完整证明](results/R762-original-mu3-quotient-and-single-function-map-recovery.md)原20尖点+c0恰21固定，genus127、deg t820。原正Hodge使实际整数周期映射等变，degree-d的y与原η=h/a恢复x；M=L(ξ)=K(U)、真实b_half负号、qY=Q³、¼缩放及有限RR/原微分前缀完整。十九原树边周期的ν1对应−b_half，实际d−nν三余数恰(1,0,0)排列而唯一确定原c0平移，十二基给全格线性泛函。原稿终端断连未推，本次完整重建SHA40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea；实际period/degree已由R754/R759完成；原函数/β/高度仍缺，R764现接两份真实成功产物。
-
-
-**R754（原p41周期及完整Hom核已精确完成）**：[正式证书证明](results/R754-certified-original-p41-periods-and-Hom-kernel.md)绑定实际run43620862489/sourceb36d2c58，核心2183.258616秒。原40加法周期/819边，完整4800×42准确rank36、K核6；全部800×6原闭链第二代回通过，六清分母位长336/628/917/1210/1502/1791，不称p单位或完整整数格。cert SHAda4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c，完整坐标artifact14125735974。R759正式request已填真run/source/manifest及closed-period SHA，本次触发完整整格/degree；实际函数/β/高度仍开。
-
-
-**R765（原sigma首个受阻系数已证明）**：[完整证明](results/R765-first-obstructed-sigma-coefficient-and-Cartier-unit-residual.md)原低阶T_N满足Q(T_N)=B w^N+O(w^(N+1))，B=3h_N为同一个原Cartier单位。完整二阶导数/指标错位及两相邻总指标的非零二次卷积已展开；原下一项p t_(N+1)≡−6B，其贡献准确消残差，故不存在同低阶的完整Fp方程解。该卷积尚未运输成同一本原h的U_hV_h并保Legendre范数，不能将其当原临界两单位；继续同h非零与真实高度。
-
-
-**R766（原T方向40层ordinary下降已证明）**：[完整证明](results/R766-original-T-descent-and-the-forty-step-ordinary-exchange.md)任意d的完整ordinary/极点相位推广后，以原DT的c0..c40∈43O，从单一Y40向下构造同一Xt的Y0，NTY0=21Aα；H=RΓS/43∈(t−1)^40E_M且三Norm全0，LΓS∈(t−1)^41E_M。原实平均保全部性质和η/J；下一d41的真实q socle非主化，不能同法再剥。两对角π²L/S²L仍真实存在，原dual限制还须保κ(Xt)可能的ideal-class提升；继续R768而不预称J/b/σ₂已求。
-
-
-**R764（全部原尖点像和c0平移已精确完成）**：[正式结果](results/R764-certified-original-cusp-images-and-base-translation.md)公开run43626804312/source6d685485、0.440895936秒，十九原树边精确K周期及完整20×12标签均过；每个完整整数格基的cusp计数(20,0,0)，实际degree余数(1,0,0)，c0平移泛函全0并满足ζ不变。因此所选d1206及全格均fP=f0、全部cusps送O。cert f23a1e1ee3059d5608edffc3e53d739fce6bb553c9449e04330b267e4b7c588a，完整artifact14127135207。实际函数/β/高度继续。
-
-
-**R767（原商低权RR构造与严格短前缀已证明）**：[完整证明](results/R767-original-quotient-low-weight-RR-basis-and-cusp-order-bound.md)原level82权二维146由全level权一Eisenstein积/原126项平均张成，无权二L值例外；其正常生成给H0(6L)维1506，四层椭圆主部再补8成M12维1514。准确div_W(t²Δ)=2(t)0及原cusp常数−1/6912给真实RR基。实际d1206时kernel308/rank2720；原R745早期minor给e≤19，P处极点完整扣除后2847行、基至2846、原h前缀8557足够。当前是证明/待运行工程，具体有限minor/基recipe/函数尚未完成。
-
-
-**R768（真dual Kummer socle与ordinary纯S下降已证明）**：[完整证明](results/R768-original-supported-dual-Kummer-class-and-ordinary-companion.md)全Σ/q二次gauge/2处extension核对后，真实eα在full Kummer群中有唯一λ_id e_q，保κ(Xt)和完整三方向方程；β_P(U)=−ft/9≠0。实际T-Hilbert90与原transfer给bλ_id=0，b≠0时再用到较小EN的真实Norm及ordinary capitulation图，令真eα和dq下降为V=M^T的ordinary单位类，保原q-local0与全部Norm/导数。b=0不能外推，b24虽满足下降但仍未排除；继续R773原纯S格与真实regularized配对，未称J/b/σ₂数值已得。
-
-
-**R769（原格degree≤693已精确排除）**：[实际证明](results/R769-certified-original-degree-cutoff-exclusion.md)run43628341694/source4faaf06d，385精确事件/空DFS栈/唯一leaf0，完整原格无非零degree≤693；核心0.013587秒、cert97e1949ef4dfc890c5ac975533cfaa9ff73682321b1b4030ac6723259a4fc26a、artifact14126529570。R764全格尖点像给degree为3倍，故非零degree≥696。此项已关闭，不把次数界排除外推所有特殊小除子；继续已定d1206与R771 dim1514基、函数/β/高度。
-
-
-**R771（原146/694/1514基工程已提交）**：[方法](notes/R771-original-quotient-RR-bases-method.md)完整原H82/126半trace与40×3360标签候选，以模739真实非零minor选原E1配方，逐乘积/椭圆主部得M2/M6/M12具体char0基；保全部精确recipe，不猜升单个mod系数。真R745/R759小cert和R767 proof SHA绑定，80分钟逐行/批次断点，大表仅artifact。实际基待run返回，继R774原H³、R772 K/L下降及原函数/β/高度。
-
-
-**R772（原K/L下降与有限完成判据已证明）**：[完整证明](results/R772-original-RR-descent-and-exact-function-recovery-certificates.md)原GL2行列式半线性trace给K定义的146基及高权RR基，cusp系数仍保M；R764实际fP=f0给y∈L(Y)。按M/L四十坐标展开后的任意准确部分行若实际rank2720，即等于308维原全球kernel，不必机械扩到完整尾。H³=4F³/1722³是原M6，Q2460至qY820足以认证；W=B DτA−A DτB（Dτ=θ/82）的M78恒等式精确核至10660也能认证原映射。两路径均须特征零准确代回或有界CRT，不以mod候选代函数。继续R771真基、R774原立方、下降核和β/高度。

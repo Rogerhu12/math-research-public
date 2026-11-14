@@ -280,3 +280,6 @@
 
 
 - **R772（已证明）**：[原RR算术下降及函数恢复的精确证书](results/R772-original-RR-descent-and-exact-function-recovery-certificates.md)。原det半线性平均给K基，真零平移使未知系数在七次L；40坐标展开后实际部分rank2720已足以确定完整308核。原H³的M6/820界和候选映射的M78/10660界提供另一完整验证；保全部α/1722/82及cusp字段，实际函数仍待计算。
+
+
+- **R770（已证明）**：[同一真本原标签的原平方与有限双线性配对](results/R770-same-primitive-label-square-and-finite-bilinear-pairing.md)。保原sigma/CM/tame常数给(p²M2,h/ζ)²=(1296αsB⁵P6aUhVh)²；Legendre有限平均及本原筛给同标签三因子的准确配对，未选signed根或证明其非零。原单位残差与所需临界配对差两个总指标。
