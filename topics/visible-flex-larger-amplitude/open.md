@@ -8,7 +8,9 @@
 
 当前使用较好的.99初场，加完整AngleConnector/coast/finitebridge和3个内支scalar控制到原r=.3物理cut。690节点完整θ圆warm的节点/中点域通过，但后来真实RMS两Lobatto点失败，残差.00711也还不是解。全部96个材料H与全部core换角导数进入389维增广BVP；固定前3核，其他93核加3scalar配96条真非均值tail-DN边界。三步/Richardson FD已在run43584222071真实通过；原Newton/BC/正性门不改。首690节点inner真实reduced condition7.153e17、linear相对残差.57657，未接受任何更新；SciPy随后插值到878节点RMS NaN。R244证明圆段控制的连续设计核，已接独立prefix3支撑。run43585737152实际在RMS域预检就停止：696节点331坏点，1027节点846坏点，全在圆形warm段；未到新QR或tail。request06/run43587375529已真完成：M96两N各25/26坏，M112/128/160所查48点全过；纯增N不治。现选M112/T112/N2048原方程，原96场只作初猜，base_prefix_M96与field/tail112分开。request08/run43588155190的M112准备已真success：699节点全节点/中点/两RMS域过，完整453行FD Richardson9.51769e−10<原5e−5；初残差.007110595仍非解。新112真zero/fullJ亦已成功：1351.74s、resid0、完整338×112 J及577×224状态，strict源/config/cache全同；request10直接复用prepared/FD与此真锚进原真DN/QR；不复用96包，不做ready代理QR，不采用未完整实现的analytic lift。R247证明coast Hermite偏差中点恰消失而原RMS点有±sqrt(3/7)/7系数；只说明域预检结构盲点，collocation残差仍非零。
 
-原g的T96/N1024零H完整variational/J/audit已经真成功，805.484s、原resid0、metric9.992e−16。完整响应经严格来源/配置核对可只复用相同零H首响应；任何新H和最终audit仍原真worker。零态J独立Actions诊断已完成：T96 Darboux二阶相对差1.32053e−12，mean/跨模0、height I；ready与真shooting最大相对差.011685，仍不能替代真J或证明导数精化收敛。首M96联解失败前准确复用零响应1次，没有新非零H尾请求。新T112自己的真锚亦已完成；其J-second相对差1.52402e−12，ready与真J差.035157884，使用真J继续，不以零残差或ready参考冒导数精化。
+request10/run43590496434现已真失败：699节点首线性残差/RHS=.913332499，最坏最后区间z110，方向最大9658；17次回溯未到finite merit、没有接受更新，随后966点invalid。完整core/p常值和左BC残差仍近roundoff，小方块几十个物理方向到浮点噪声，不能只说三个控制核。下一次用完整同矩阵的带状LU取代单向传播消元，原Jacobian全部行、Newton/RMS/BC/实际尾门不变，正在接线。见actual-M112-first-QR-failure-and-banded-next note。
+
+原T96/N1024零锚和独立J审计已付，不重算。当前T112自己的真锚、完整338×112 J及所有状态同样已付；J-second相对差1.52402e−12、ready与真J差.035157884保留。request10严格复用真零响应一次，整个anchor/J逐结构同原包；worker已启动但新request为0，故这次不是非零尾失败。同配置/数学源/精确零H首请求可继续严格复用；任何新H与最终audit仍真worker，不以零残差或ready参考冒导数精化。
 
 实际联解接受后，立即完成以下相互依赖的内容：保存完整physical/constant状态与真实H尾；原core证书和球排除；真正cut的完整材料角谱；同一SE2及高度偏移下的六jet；明确有限C²修补对metric的影响；完整上下尾和固定帽组装。新场已经含物理z0，不加旧A mean。原φ96通常含无限θ谱，不能只投影96项便称连续接缝为零。R239是连续充分条件，仍须核其实际分支、turning number和全部高度jet输入。
 

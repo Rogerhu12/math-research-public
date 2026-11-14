@@ -413,6 +413,10 @@ T112实际13件已bot归档；详记七件strict缓存SHA、全部跨job源/配�
 
 四个独立v4消费者绑定冻结首v3完整scalar/p*身份、真实接受场及其自身尾，沿用原读出/全mean/单SE2/完整cut九jet算法；不悄改入口。独立full_state_continuous_cover按实际v3/v4与R249同一definition直接读完整中心/子点/法向，恢复记录SE2，原R241空间及直径/marker门逐字保留。静态AST/源接口检查通过，尚无新数值，所有连续包络仍外部条件；原held旧A定位待新packet适配。
 
-### 2026-11-14 11:48 UTC — R251 direct relative-operator metric certificate
+### 2026-11-14 11:47 UTC — R251 direct relative-operator metric certificate
 
 完整R251直接登记：以原φ坐标中两Loewner矩阵的首元/行列式四正性等价证明operator<η，避免把分量界当算子界；同一a²上下包络付非多项式scalar而不换g。给自含Bernstein/全角Taylor证书及次数账，五次物理/六次scalar径向至20，K=M行列式带宽8M、DFT须N>16M。只有条件证明，无新数值通过；实际coupling112的完整线性系统正按已确认大残差改稳定求解后端。
+
+### 2026-11-14 11:50 UTC — actual M112 linear failure localized before any new tail request
+
+run43590496434真实首QR线性残差/RHS=.913332499，最坏interval697/z110、方向max9658；17次回溯无finite merit、零接受步，后966点invalid。core/p/左BC近roundoff，不能把大量物理近核归为3控制核；两种浮点SVD condition分别记录。真T112完整anchor/J严格复用1次，新worker request0。22件artifact已取回，小包已bot发布；pending5.96MB只保artifact/哈希。正接完整原带状LU，同方程全部门不变。
