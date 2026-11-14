@@ -39,3 +39,5 @@
 - [R513：两隐藏odd核、真实反射交域与原B0完整积分核](../results/R513-original-hidden-odd-cores-and-b0-reflection-kernel.md)：原Q0/Qb两轴以真实odd245/25235覆盖和同一S5/65拉回付χ65λ单核，四态及其U共轭全保；所有不等深交域准确列出。B0内C4深子域的h行给完整反射积分核，保κnCH、旧W测试及质量/log碰撞；未删除隐藏输入或将受限中央赋零。
 
 - [R512：原六输入十八阶几何群、完整观测轨道与压深词域](../results/R512-original-geometric-group-and-complete-observation-orbits.md)：实际T/U群准确为C3×S3/order18并给全长正规形、原二维忠实作用；六Y/九W轨道、全部边际与稳定子完整分类。六条Y整轴各有同一whole反射核心，任意正词保实际像格和逆词观察；不与来源核心群96混同，也未新增独立曲线零。
+
+- [R516：原三阶旋转六条共同伴随核与完整词交域](../results/R516-original-rotated-common-companion-cores-and-word-intersections.md)：原Q0/Qb沿真实T旋转给六条保Y/W/W′的χ65λ四态核心，完整三维共同伴随、原六框架及三阶矩阵全部付清。全正词像格与原Y/B平面词逐项交换，交集准确为乘积像格；不把第三正交基的范数或六轴张成自动当其单轴核心，Z/Tc补域仍保。
