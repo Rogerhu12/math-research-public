@@ -256,3 +256,7 @@ Z*唯一属于type1 L(pO)且DZ*=1，与原正则Z之差为c_p^-1(x²/y)^p；原G
 原M模p³提升先迫同R满足整个J(Pcrit+pR)∈p²，即原两jet各延长十三行；r=ell是真两jet，(2,1)保Qquad最高行−2λγ。相容后Z+∈w^s、Z∈w^(s−r)，第二块旧S(η0Z)全消，原L0/L1仍保两位。ψ0=1的合法同格选择后第三块准确为ell1的a z0、或ell2的a z0+a[z1+ξ1{α0+(κcrit−3)β0}]w；这些是同R的真实高续段。完整充要条件为Dψ+S=G+及H_P(Rbd+S)∈im Dψ短，原U0、13自由行、26carry和所有列均保。**R597继续：** 在第一真实解空间求后一个指定余类，兼顾三块及同R；固定Z末项单位已在完整式中抵消，不冒称余核非零，R561/外支仍开。
 
 [两指定forcing的完整addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)已付：12bc4/5=RP−14cp/5、12bc1/5=RB+cp/5，内部i+j=s全留；首pole单位可被实际整卷积补偿。继续与R595真正S/T同参数行合并，不能把RP/RB赋零或混同ordinary负矩。
+
+### R595：原四行的固定单位比较及真实低残差
+
+原A34/A72=[tN]K^(17/3)PS C/H²、K12 PT C/H²；原留数及charge给准确connection行。两原a与两forcing满足a=M c+R，detM=−266084/15在共同好惰性p≥23均unit；R34/R72的完整式只用K≤N−2及固定H/C。原完整中央同时零只迫c=−M^-1R，不迫c0；末两k也不是自由列。**R596/R598继续：** 将这份指定低残差与原首pole/完整Newton高行接合，全部addition内部项保留，不以单位比较矩阵替代无穷非消失。

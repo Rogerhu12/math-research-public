@@ -105,3 +105,5 @@
 - [R592：原整ε五阶同态、两forcing与第六乘法修正](../results/R592-original-integral-epsilon-jets-and-two-forcing-homomorphism.md)：从同一原九来源代数提取整r0行，给到k[ε]/ε6的真全D同态和九坐标显式像，准确读c4/c1。完整第六乘法缺陷由相邻首极部与原一次行承担；真前缀运输和同时零的五条条件收益保持，不预支算术桥或全层cutoff。
 
 - [R593：原临界carry完整延拓与同一修正第二normal高尾](../results/R593-original-critical-carry-completion-and-actual-second-normal-tail.md)：原模p³提升先强迫整个J窗口模p²，将两条短jet真实延长十三行；唯一Qquad最高行保留。同R的完整三块第二forcing压成两实际像判据，第三块只读Z+下一至两行及固定形状修正；全部26carry/U0和整精度保持，尚未证指定余类非零。
+
+- [R595：原S34/T72对角、真实connection与四行整单位比较](../results/R595-original-central-diagonals-and-integral-four-row-comparison.md)：完整留数把两原算术首行与两指定forcing放到同一个K/H/C参数；不同charge和Jacobian全保。固定比较矩阵在共同好惰性p均单位，但完整低K卷积残差仍在；中央同零准确给仿射约束，不能改成两forcing同零。
