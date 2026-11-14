@@ -56,6 +56,11 @@ def main():
         # intermediates. Keep their complete bytes in the uploaded Actions
         # artifact and their input/source/array hashes in the public manifest.
         domain_arrays = 'domain-operator' in within.parts and src.suffix == '.npz'
+        if 'condensed-root' in within.parts or 'condensed-arrays' in within.parts:
+            row['not_published'] = ('Complete local square-root, affine, inverse and recovered full-model arrays retained in the Actions artifact. '
+                                    'The public condensation and array manifests bind the original model, source, actual bytes and final original-model readback.')
+            rows.append(row)
+            continue
         if 'block-qr-inverse-arrays' in within.parts or 'block-qr-factor' in within.parts:
             row['not_published'] = ('Complete reproducible QR inverse evidence or optional factor bytes retained in the Actions artifact. '
                                     'The small public manifests and original-model readback reports bind every actual array and factor identity.')

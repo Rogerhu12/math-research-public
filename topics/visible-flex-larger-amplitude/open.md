@@ -129,3 +129,10 @@ request42并行两条：前缀从真实40继续冻结QR入口active32；native�
 
 
 request44只读工作已接独立receipts workflow：v2摘要84623638…保错误/phase/逐原SHA，旧43/step11四级field摘取e7964498…保实际geometry/guard/window/原bit。只读固定41原artifact和已完42报告，0新RHS/J/RK/norm/稳定参数；先用真实字段定位后继。R270三新源及平方根库已冻，将单独派科学工作，不重复43求解。
+
+
+### request45：完整4397维局部QP接原42父场
+
+[R270凝聚库接口](notes/2026-11-14-complete-local-QP-condensation-library-interface.md)和[独立warm接口](notes/2026-11-14-complete-condensed-QP-warm-interface.md)已完整保存。原g及完整pure-global仿射列随正交消元保留；全部24576约束和外部physical/109core最优响应保留。局部可行修复后一次原H恢复，实际完整A/AT/B/Bᵀ、同f原C比较与原17非线性试步/新FD照旧；完整QP最优和BVP均未预断。600s候选、256工作行、200sweeps是新算法明确预算，无科学门变化。
+
+使用独立visible-larger-public-condensed-qp.yml和public-condensed-qp-request.json，避免与既有旧followup同路径碰撞；父42双SHA3dd623e9…/26272c6c…硬绑。全部根/逆/方向数组只保artifact，Git小manifest与原读回保身份。源码静态读毕，Actions先编译再实际执行。44已取原四级field；其42摘要七SHA均吻合但206693B超过输出界，仅错误回执有效，目标内部数值待v3只读摘取，不重科学。

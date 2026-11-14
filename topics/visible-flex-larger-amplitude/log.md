@@ -360,3 +360,10 @@ R271全文12528B/f6aabf31…已读并直接入results及索引。任意完整A_i
 ### 2026-11-14 18:33 UTC：request44两项原报告只读取回
 
 新增5965B receipts workflow由public-receipt-request.json触发；小源码v2 9681B/84623638…及stage43 reader9037B/e7964498…全文静态读。前者绑定原42七件与未改v1，成功/失败都写小回执；后者绑定actual41 result、stage43 report/window、field packet压缩和rawSHA，只复制step11四级numberRecords/guard/stateSHA，不算γ/ξ/norm或新场。Actions只取原41完整artifact，不重科学；读者日志显式落盘，always保artifact并原pull/rebase+README diff发布。新publisher只增receipts/condensedqp名单。旧mainline98KB保持，后续QP另小workflow。当前均未声称44已成功。
+
+
+### 2026-11-14 18:39 UTC：request45完整局部QP独立派发
+
+发布四个冻结科学源与两个接口：凝聚库84792d91…保完整原g/pure-global/全部外部条件响应；QP ea93b88d…保4397坐标和24576行；warm5d398d3d…保原C同f、完整A/AT/B/Bᵀ与原17trial；FD461b0d48…消费实际新warm。候选600s/恢复预留30s/试步90s/256工作行/200sweeps，科学门不变。父为actual42 warm3dd623e9…及status26272c6c…；本地未数值或AST，公开Actions先编译。publisher新增condensed-root/condensed-arrays artifact-only。
+
+旧public-followup工作流原已存在，故新用visible-larger-public-condensed-qp.yml及独立request避免误替旧定义/双触发。44 run43627297724已经发布原四field26214B/d7d00de3…；42七原SHA全对，但目标摘要206693B超90KB，v2明确completedFalse，不冒取回内部stop/radial。下次只读v3摘指定字段即可，不重科学或取41。终端仍不可用，Rule8小文本fallback及双README核保留；API不冒真pull。
