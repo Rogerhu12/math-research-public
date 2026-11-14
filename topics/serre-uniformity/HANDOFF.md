@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：f9f01acd35ffcbc5d9822632897adfaa8aa4f745
+已读规则提交：20f8db1cfb508813d393f73b0f7dda39ad0618b2
 最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable（18:34及18:56 UTC只读重试仍同错误）；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 19:36:06 UTC，main=f9f01acd35ffcbc5d9822632897adfaa8aa4f745，两README blob均未变；本次为终端不可用期间的API核对。
+远端规则核对：2026-11-14 19:40:48 UTC，main=20f8db1cfb508813d393f73b0f7dda39ad0618b2，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R774-actual](notes/2026-11-14-public-handoff-before-R774-actual.md)、[before-R774-actual](notes/2026-11-14-open-before-R774-actual.md)，内接R775/R770及全部较早归档。完成计算不重跑；未推稿按记录重建。
@@ -21,10 +21,10 @@
 - **R767/R769**：原M2维146正常生成，加八个椭圆主部给M12维1514；Dstar=t²Δ，div=2(t)0、cusp常数−1/6912。旧单cusp界由R778缩短。R769实际run43628341694完整385事件/空栈/唯一零叶，非零degree≤693不存在；R764使degree为3倍故≥696，未称minimum或排所有特殊小除子，此有界项关闭。
 - **R771实际已成/6e1b3ab9**：run43628998192/source49abc04d，301.12633604秒。M2/M6/M12实际146/694/1514，mod739原recipe minor550/206/140，normal products146/418/690/962/1234/1506；char0 RR基已证，尚非K基或准确长q表。artifact14127715743，全部cert/manifest/85stage SHA见正式结果；E1/recipe/模表直接复用。
 - **R772已证/b63e636b**：原GL2 det半线性trace给K定义基，cusp系数仍M；fP=f0使y∈L(Y)。M/L40坐标展开后任意准确部分rank2720即完整308核。H³=4F³/1722³是M6，Q2460/qY820认证；候选W³=27B²(A²−bB²)²H³是M78等式，准确核至qY10660给全球真映射。实际下降基/核/函数未求，模猜升禁止。
-- **R774实际已成/正式结果本次登记**：run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，24.706959837秒；真e=1、H³至qY820共26块/108stage，v739(D)=0、D289bits，原b模数公分母2^24·3^1260。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59，manifest4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222/artifact14128247134。正式证明SHA9dee9b9520457945f33d0e012fb5cc927fe0e624e04a73bf07c0950f2a81199b；原尺度/560坐标完整，未求char0 M6坐标/函数/β/高度。首run仅旧manifest位置失败、core未启，已修；数学不重算。
+- **R774实际已成/167165de**：run43631427773/source93056f04536e61ccdd486674003b4d1380a27475，24.706959837秒；真e=1、H³至qY820共26块/108stage，v739(D)=0、D289bits，原b模数公分母2^24·3^1260。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59，manifest4d97bb53b106fa53958a943f9ae9e5d00870f7cf774d4617a727b3fa857ac222/artifact14128247134。正式证明SHA9dee9b9520457945f33d0e012fb5cc927fe0e624e04a73bf07c0950f2a81199b；原尺度/560坐标完整，未求char0 M6坐标/函数/β/高度。首run仅旧manifest位置失败、core未启，已修；数学不重算。
 - **R775已触发00295b27**：直接读R77185旧stage，40det coset双标签运输、odd d82及ξ82^(j d82)权，Vandermonde保证候选覆盖146秩。新K基及694/1514高权配方逐coset/批次断点，旧初始化/E1/group/levelone不运行；core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee。run43631335355在19:34 UTC仍核心进行，未预称输出。R777准备694阶Q系统/14 RHS及原y精确递推，保全部M坐标和143项代回。
 
-**R778本次已证**：原20cusps按范数n±标记，Zywina原Galois公式给n±→m^-1n±；M/L40使全部仍单L轨道。真实L系数A/B只须参考cusp的143个Laurent系数−e..142−e全在M中为0，即全部20cusps零数超过极点数14，故是原全球y。基q142、原h至426+e；实际e1只需Q427（旧R745800足够）。M2/M6/M12完整40坐标前缀0..13/41/82已注入，694阶Q子矩阵/14 RHS可恢复真H³坐标。SHA76c20ead726cd9621f2510209398947e44508604ae4ce6ca482ca627cec8d317；不得把单个有限域ξ值代完整坐标。R777按短界做实际函数。
+**R778本次已证**：原20cusps按范数n±标记，Zywina原Galois公式给n±→m^-1n±；M/L40使全部仍单L轨道。真实L系数A/B只须参考cusp的143个Laurent系数−e..142−e全在M中为0，即全部20cusps零数超过极点数14，故是原全球y。基q142、原h至426+e；实际e1只需Q427（旧R745800足够）。M2/M6/M12完整40坐标前缀0..13/41/82已注入，694阶Q子矩阵/14 RHS可恢复真H³坐标。SHAb23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727；不得把单个有限域ξ值代完整坐标。R777按短界做实际函数。
 
 ## 原ordinary问题
 
@@ -38,7 +38,7 @@ R758自然ψft=X41、ψfs=ibX41、Xηα=19ψft，下一坐标保J，flat移−8i
 
 **R773/a668c4a1已证**：原Hq大小(q²−1)/43及全部q-torsion的good supersingular归约给无条件rμ(cs)=9。b≠0时完整EV由原us,cs,y生成，有O无挠presentation；x=γ−1,z=s−1，socle ku⊕kn，u=−4x42z41cs、n=x40z42cs+i x41z41cs−x42z40cs；真UV=(4/C)n+ηu，flat η→η+8i。真dual直接q相位0，非regularized pairing0；两balanced augC为−77p/154p。
 
-**R776本次已证（b≠0）**：真实支持dual限制e给Fγ=(xe+2iU)/p、FS=(ze−2U)/p普通单位；原global Kummer根cochain减diagonal H_y产生正y∪dq。原q quadratic与f=s32给Iα/ε=32(1+i−R(e))，R(e)=18ibη；故18b Reη=1、Iα/ε=32+17b Imη=21σ₂+2bJ，I0/ε=32+17b(Imη+8)，与真flat位移/9ε参考完全吻合。证明SHAa4285c3e52e376f735850816514be621c75175e2b777d9ccf036dd4123cabc54；原R755逐式回核。b24未排，ηI/σ₂/J/b仍待实际值；R779接原real Robert导数的p-local坐标，未发表式子不预称。
+**R776/4756ddd2已证（b≠0）**：真实支持dual限制e给Fγ=(xe+2iU)/p、FS=(ze−2U)/p普通单位；原global Kummer根cochain减diagonal H_y产生正y∪dq。原q quadratic与f=s32给Iα/ε=32(1+i−R(e))，R(e)=18ibη；故18b Reη=1、Iα/ε=32+17b Imη=21σ₂+2bJ，I0/ε=32+17b(Imη+8)，与真flat位移/9ε参考完全吻合。证明SHAa4285c3e52e376f735850816514be621c75175e2b777d9ccf036dd4123cabc54；原R755逐式回核。b24未排，ηI/σ₂/J/b仍待实际值；R779接原real Robert导数的p-local坐标，未发表式子不预称。
 
 ## 原sigma与真正高度
 

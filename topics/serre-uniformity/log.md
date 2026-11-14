@@ -250,3 +250,8 @@
 - R776从真支持dual的ordinary限制构造global Kummer p除cochain，保负diagonal及q quadratic，原Fγ/FS给R(e)=18ibη、Iα/ε=32(1+i−18ibη)；故18b Reη=1、Iα/ε=32+17b Imη。
 - 原flat η→η+8i及9ε参考完整复现，保21σ₂+2bJ；证明SHAa4285c3e52e376f735850816514be621c75175e2b777d9ccf036dd4123cabc54。根完整读原R755及新证明，ηI/σ₂/J/b实际值仍缺、b24未排。
 - R774正式结果已单独推167165de；H/open/index同步，R779接真实p-local输入，R775公开run继续。终端不可用，按根规矩8核最新main/两README并非force小文本继续，无本地数学运行。
+
+## 2026-11-15 03:40 Asia/Taipei · serre-public-resume-20261114
+- 按根README§4仅统一R778公式为$/$$定界符，133组inline与36组display均已核，正文数学不变；新SHA b23357b3fa74773c1ee45c1740b988ee9d7c96a658d5cdec99881947faf8c727，后继R777绑定此实际版本。
+- R774/R776已分别单独推167165de/4756ddd2，H当前hash同步；R775继续公开run43631335355，19:40尚未提供运行中日志，未补造receipt或重跑。
+- 终端不可用期间按根规矩8核最新main/两README后小文本非force继续，数学计算仍只在公开Actions。
