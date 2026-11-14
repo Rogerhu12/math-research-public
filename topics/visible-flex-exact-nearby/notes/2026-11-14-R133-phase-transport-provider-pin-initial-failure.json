@@ -1,0 +1,18 @@
+{
+  "kind": "actual_phase_transport_first_provider_pin_failure",
+  "complete_mathematical_result": false,
+  "actual_process_exit_code": 1,
+  "actual_attempt": "pilot01",
+  "actual_log_sha256": "4e817762cec51748c95b505a06a7c12a4ecfb6bfc8625ba7ecefff1f8f0a5c33",
+  "actual_log_mtime_utc": "2026-11-14T07:54:52.980154+00:00",
+  "actual_stdout_stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_full_transport_Taylor.py\", line 354, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_full_transport_Taylor.py\", line 261, in main\n    reports,cfg=scalar_inputs(args.scalar,args.scalar_dir);root=read(args.root_contract)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_full_transport_Taylor.py\", line 219, in scalar_inputs\n    or cfg.get('jet_order')!=7):raise ValueError('a complete same-identity high7 scalar germ is required: '+str(path))\n                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: a complete same-identity high7 scalar germ is required: notes/2026-11-14-R133-complete-Arb-high-scalar-Taylor-first-germ-native.json.gz\n",
+  "working_directory": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "scalar_native_sha256": "b6f1892d8d09749a7279e23c86d5cca622785b919891bf8a0e46c3add382aa01",
+  "misspelled_provider_pin": "b57e794709edcb8c3281df909f463a56a906aec8a8b3f49394f10e4590f",
+  "true_provider_pin": "b57e794709edcb8c3281df909f463a56a906aec8a8ba8a8b3f49394f10e4590f",
+  "mathematical_reference_started": false,
+  "mathematical_native_files_produced": 0,
+  "failed_output_directory_preserved": "/workspace/scratch/ac0d699811ad/phase-transport-20261114/pilot01",
+  "resolution": "Correct only the mistyped literal SHA; keep the failed attempt, then start a new output directory. No scientific input or accepted gate was weakened."
+}

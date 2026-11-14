@@ -501,3 +501,6 @@
 
 
 - [实际完整记录](results/R133-supplement-complete-C0-waist-and-canonical-forward-geometry.md)：完整周期Green核给未知全C0腰误差见证系数2(sec(π/8)−1)<.164785，含mean及全部高频；ε≤1e−3时条件held/D>.05070083706143。实际复用7722盒正向积分normal0/6.7786s、9门，canonical腰位置差≤7.578231ε+.612629|δν|。原外锚模型真实腰对齐费明确保留；未授精确解、闭合或最终几何门。
+
+
+- [实际完整记录](results/R133-supplement-complete-finite-phase-transport-and-all-frequency-residual.md)：同一修复中心η=η0的真正双leg Arb有限transport首germ已完成12个scalar/candidate交格；N64只用于选择参考，多项式全部128输出及真scalar无限尾均入未投影残差。实际完整scalar费1.828549e−16、保留有限费5.4560e−35、外输出2.7180e−42；两初始及全部phase值jump准确0。原provider pin失败保留，当前同源续算不重算primitive；未授完整169germ return或真conjugacy。
