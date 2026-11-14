@@ -27,7 +27,7 @@
 
 新父warm SHA c0d9c6d59e16ef1482f8ee60f9681d8db089b21d68e249adf1830df03be6612b；原status SHA e22fd03b8c24adbd0eeeaf0b084d18944d17e4cd1f4115075cb63d9e9a41aad7，原991791B公开为.json。128domain NPZ/822数组、38凝聚全向量、observer/42源/完整父48链及14raw190956688B已纯字节核；完整factor仍未导出不冒独审。
 
-**51准备中，未调度**：仅加实际left-RMS469的完整2048行，保全部14已选query→15query30720行，B完整支撑469..483+p5073；原C仍471..482+p4059与完整outside offset。原R270动态库、600s候选/256行/200sweeps、λ270/LSMR200/C200、原17trial/两RMS/rho/merit/FD保持。只从当前49pair继续，不猜下一限制或盲串旧14。
+**51请求已提交，run待回读**：仅加实际left-RMS469的完整2048行，保全部14已选query→15query30720行，B完整支撑469..483+p5073；原C仍471..482+p4059与完整outside offset。原R270动态库、600s候选/256行/200sweeps、λ270/LSMR200/C200、原17trial/两RMS/rho/merit/FD保持。只从当前49pair继续，三源及[15-query接口](notes/2026-11-14-fifteen-query-condensed-warm-interface.md)已冻；沿原唯一condensed request触发，不猜下一限制或盲串旧14。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 

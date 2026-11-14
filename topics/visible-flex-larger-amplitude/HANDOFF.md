@@ -1,6 +1,6 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-/root，GPT-6 Astra Pro（AI辅助）。**未完成；持续至本题README全部完成，不等阶段确认。** 完整旧结论、原件与失败见本题notes/results及Git历史。
+/root，GPT-6 Astra Pro（AI辅助）。**未完成；持续至本题README全部完成，不等阶段确认。** 旧结论及失败见notes/results/Git历史。
 
 ## 授权、规则与真实工作区
 
@@ -28,7 +28,7 @@ scalar .99/Connector/coast/bridge64Gauss7.5/cut r=.3/end2.271004035438285，完�
 warm-001.json.gz SHA c0d9c6d59e16ef1482f8ee60f9681d8db089b21d68e249adf1830df03be6612b；
 driver-status.json原991791B SHA e22fd03b8c24adbd0eeeaf0b084d18944d17e4cd1f4115075cb63d9e9a41aad7。公开status若gzip解压核原bytes，不重新序列化。
 col.0071101678278726824/BC7.177739211877821e−8；原FD7.070190461766486e−10、报告43245db767010a7f36ad266cd5993395e781ec22e2343946f9504b63aadc78b3，同真T112零锚仿射而非新H native。全128B NPZ822数组/58condensed38全向量/observer/42源及完整父48producer已核，root另14raw190956688B全SHA核，factor仍未导出；见2026-11-14-actual-request49-fourteen-query-and-left-RMS469-limit.md与两audit。
-**51准备中，未调度**：amplitude仅加原left-RMS469为15query30720行，完整B支撑469..483+p5073；C仍471..482+p4059，保新增469/470/483全outside offset。原R270库/600s256行200sweeps/λ270/LSMR200/C200/17trial/FD全保；新三源/接口待冻，父49pair。45完整QP、48只mid482、49只left482历次实际结论与audit在相应note，不重科学或混跨轮weights。
+**51请求已提交，run待回读**：仅加原left-RMS469为15query30720行，完整B支撑469..483+p5073；C仍471..482+p4059，保469/470/483全outside offset。新domain c6581f0b…/warm f1310edc…/FD3328eb64…与15接口已冻；父49pair，原R270/600s256行200sweeps/λ270/LSMR200/C200/17trial/FD全保。45完整QP、48只mid482、49只left482历次实际结论与audit在相应note，不重科学或混跨轮weights。
 
 ## Native：失败已保存，47只查原最坏一步
 
@@ -50,4 +50,4 @@ col.0071101678278726824/BC7.177739211877821e−8；原FD7.070190461766486e−10�
 R248强C²全相位、R241全部空间对/法锥嵌入reach、R238/254/258含反射同场标记，R251四Loewner实际operator都待真新场；16仅解析接口不重fixtures。held读所有活动块/两帽盘/全D，可独立于reach进度。无六/九jet机器门；九相位/N32显示网格<5MB但真2305尾节点保。
 旧小幅A幅度.063、RK24/48/三mesh/2157568pair/GW已封存；旧43提交恢复链/strongR6失败见notes，禁private取未迁raw。R238–272见results.md；R259备用未调度。
 
-规则同步记录：2026-11-14 19:32:28 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 64dde37d8386d2ee588c9e18ed20f82adf8d4f8f。
+规则同步记录：2026-11-14 19:34:12 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 31a276f6f4b2361d10bea9a46fea307a951bb639。

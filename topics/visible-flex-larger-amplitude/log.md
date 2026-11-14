@@ -442,3 +442,7 @@ root已读两完整源和接口、取件器及独立workflow；只有本地AST/Y
 ## 2026-11-14 19:32:18 UTC /root — actual50完整四A参考与表示比较
 
 [实际结论](notes/2026-11-14-actual50-complete-rational-RK-reference-and-covariant-comparison.md)已完整读回：全224列/226输出、三47 case精确存储记录一致；old诱导∞差.0155569，direct-LD7.16812e−6，R271-LD9.19526e−6，正确RN3.36116e−6。R271虽更多RN相同word且旧δ作用误差较小，完整∞/F²仍direct较好；RN原σ map差3.97095e21不等于残差或新方向接受。全21输出/19descriptor原bytes/SHA/CRC核，全部长矩阵artifact-only；无本地科学。下一52原868逐步捕获并direct-LD形成、一致新1372系统重解/原exact与原nonlinear门，51仅left469前缀并行，不为局部结果收尾。
+
+## 2026-11-14 19:34:05 UTC /root — request51补原left-RMS469
+
+从actual49严格双SHA及完整producer续，保14旧query，只新增left469全2048角→15query30720行/完整B5073。原C4059及469/470/483完整outside offset保留，原R270/QR/600s256行200sweeps/λ270/LSMR200/C200/原17trial/FD不变。root已读三源全部diff、15接口和workflow全部变更，13 source pins/AST/YAML/6内嵌Python/11bash静态检查通过，无本地科学；新domainc6581f0b…/warmf1310edc…/FD3328eb64…。改本题共享.github workflow只为父49原件和15入口，唯一public-condensed-qp-request触发，不建重叠任务；真实run/results待回读。
