@@ -40,6 +40,8 @@
 
 [原十试步重放接口](notes/2026-11-14-native-band-trial-replay-interface.md) 已备，明确缓存28真实基态非新withJac；原十档alpha、完整evaluate/guard/严格下降原样且不重复J。接受一步也仅保存全state后STOP，不冒native/J/audit。当前不调度34坏δ。[全行exact dyadic接口](notes/2026-11-14-native-allrows-exact-dyadic-residual-interface.md) 用于原保存系统读回/误差修正，不新增README门。
 
+[原stage J生成链诊断](notes/2026-11-14-native-stage-J-generation-and-propagation-scope.md) 已按actual28十层源码SHA核：stage导数是解析implicit/Fourier矩加RK变分，端点中心FD尚未执行。43/58各原12步无cusp；大条目、原缺陷最坏行与trial失败stage分别定位，不混作同一故障。保存A求解缺陷、J表示误差、连续流截断分开。后继最小分组保原每步x/h/profile和出口portRatio，withJac/noJ浮点网格及mean加法分别对照，不先增加ODE步或改g；尚未实际执行。
+
 ### 1C. 保留的替代设计与真正fullDN衔接
 
 R257严格有限恒速平面Fourier只能是圆；非圆core不能简单重命名成有限θ单位速入口。换θ需支付入口投影或完整analytic lift、core响应及证书成本。R259给小核心缩幅的实际有限系统共振与条件IFT；简单缩小初猜不自动消除设计核，不同λ次幂路径不得混用。[备用诊断接口](notes/2026-11-14-small-core-resonance-diagnostic-interface.md) 已冻结未调度，当前已有实际证据的主线先继续。

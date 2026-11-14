@@ -215,3 +215,8 @@ run43615494107/source1a9f7197/job132509540819 success；同28输入/原band b39e
 ### 2026-11-14 request36：同矩阵幂二均衡与全原行精确残差修正
 
 35/tenquery实际run43616658549/source65fdfd019d/job132513122964已success，artifact14122008066/192883292B/ZIP8a21da7d…全包已取核，数值结论正读真实记录。36复用28同完整A/r/H/σ/cut/far，源8f5cb5da…、冻结band b39e9dd9…及exact全行整数核0bc8f978…：原σ最近幂二初始化、3轮行列指数均衡、每原系数一次ldexp、一次LU/最多3修正。全部129248原行exact e一次RN-even形成rhs，各完整候选按原σ精确范数严格改善择优，完整方向/ledger/舍入/见证保全，无新J/native/trial/audit。三接口及均衡核心/main已读，源SHA/AST/YAML/三lane名单核，公开Actions执行。原十trial重放源码接口另存未调度34坏δ；28基态缓存明确，原试步正文与接受条件逐字节保留。
+
+
+### 2026-11-14 原native stage J来源与最小传播分组范围
+
+独立stage-J-generation-and-propagation-scope note（18860B/a3d6d8fa…）已全文读并直接保存。actual28十层实际源码SHA链核明stage J是解析implicit root/Fourier矩/原RK4变分/端口缩放，非tiny-H差分；最终heightJetJacobian中的中心实差分未执行。原小量稳定化已经存在，不能冒新增修复；余下相消尚无量化证据。43/58原12步无cusp，分别part4/part5；全J最大项、correction最坏行、原trial坏stage不混同。34 exact e只证明保存有限A求解缺陷；J表示与原连续流误差另列。若36均衡不足，下一最小候选为原12步按原x/h/profile分6+6，保出口portRatio、旧坐标σ、noJ/withJac不同网格顺序及mean合并账，尚无新J或数值改善宣称。36实际run43617334081/source6d19fb8c进行中。
