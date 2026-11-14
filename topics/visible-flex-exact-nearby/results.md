@@ -341,3 +341,7 @@
 ## 2026-11-14 16:51:29 UTC — 全部1977格同Z真实边界源实际完成
 
 [实际11门](results/R133-supplement-actual-complete1977-same-Z-cut-sources.md)：43615251195 plan/四range/finish全成，旧16格+14Green+6端点全复用。native8bc061ec200deb37548005297a1530d341eaa55065e70104cc5d82714aed21c5，真97<5.460100249e−5、knownhigh<5.231670385e−5、physical同向误差<2.418183102e−6。保同一Z/mean/准确9/10及未知input完整operator；只源证书，不授逆或Schur。
+
+## 2026-11-14 16:51:33 UTC — 同Z finite193完整源Green实际完成，响应门仍未过
+
+[真实9门结果](results/R133-supplement-actual-complete-same-Z-finite193-Green.md)：43616648792为实际math非eligibility，native eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18，7154812B全6391profiles按4片无损保。负区总<.184275419462，body<.003051713268、右端<.181223706169，1/200明确false；内段<.393327977489。完整mean/knownhigh源与未知high反馈义务保，继续同向边界收紧。

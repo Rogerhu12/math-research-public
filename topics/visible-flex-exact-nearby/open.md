@@ -15,7 +15,7 @@ candidate `ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413`，�
 
 [完整同Z帽cut](results/R133-supplement-actual-complete1977-same-Z-cut-sources.md)43615251195实际11门，1977格中旧16格复用，仅新1961格；14Green通道、mean/high及准确9/10首Hermite保。true97源<5.460100249e−5，knownhigh<5.231670385e−5；物理帽误差<2.418183102e−6，其中dB<2.230834978e−6主导。已成同Z腰/cut转换，继续原未知输入误差算子及桥收紧。
 
-同Z Green run43616648792已实际完成9门。全部原6391ports/5970frames和接口直接复用，原rawjump仅显式非负surplus；该次finite193负区界<.184275420，其中body<.003051713269、右端<.181223706169。新body已到目标量级，右边界仍主导；这些是上界，不能当实际误差下界。
+[同Z finite193 Green](results/R133-supplement-actual-complete-same-Z-finite193-Green.md)43616648792实际9门。全部原6391ports/5970frames和接口直接复用，原rawjump仅显式非负surplus；负区总界<.184275419462，其中body<.003051713268、右端<.181223706169。1/200门明确false。新body已到目标量级，右边界仍主导；这些是上界，不能当实际误差下界。
 
 [同w0 Hessian实际10门](results/R133-supplement-actual-particular-w0-cap-Hessian.md)给1341local/1977交格完整方向加性<1.033484771e−5，旧HS×norm<1.372740655e−5。未知$e_Z-w_0$继续由原完整moving误差算子支付。下一项：
 
