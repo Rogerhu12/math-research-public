@@ -93,7 +93,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R285](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)是形式族、非Boolean反例；一般实际正性仍开。
 
-[R288逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation完整交叉；任意正权birth1首阶S1/S2及两组＋一位整个birth2 S1/S2已付，完整原链接与精确范围保[本次前open](notes/2026-11-14-open-before-turan-all-height-789f.md)。[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆和C²深塔；[五位局部正frame障碍](results/R288-appendix-five-site-obstruction-to-local-positive-primitive-frames.md)排局部张成⇒正Parseval捷径，未否一般泄漏或相邻序。[R293全高度强传输](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保任意κ>0：全birth首阶加强式等价全部高度同κ加强式，亦足普通相邻κ；[单异常权全birth/全height](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)已经严格c1。全birth统一κ仍未得，普通相邻不反推加强式；S2与原graph各自缺口保留。
+[R288逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)及全部已闭低birth S1/S2范围保[本次前open](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)；完整三塔保F3逆/C²深能量，局部正frame反例不反一般序。[R293全高度](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保全birth首阶加强κ⇔全部height同κ，单异常权全birth全height已闭。一般κ、S2和原graph各自缺口仍开。
 
 [R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)付全正权birth1的½A≤Γ≤A、共同A Newton与无限固定高度，其新来源的[完整仓库证明](results/R294-appendix-complete-proof-of-the-normalized-covariance-input.md)已补齐；夹逼本身不支付原Γ中间项。
 
@@ -107,11 +107,11 @@ R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/�
 
 [R298独立五权全源硬端](results/R298-five-independent-positive-weights-birth-two-hard-top-strengthened-s1.md)已付整个五维源≤743/782，缺陷≥(39/782)C1²；完整真实迹及正系数证明保全文。一般更大奇硬统一κ及原graph仍开。
 
-[R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)现给同一物理Pick正核与primitive源保持Gauss分解，完整平方和保全部创建层/占据对角D_t及高次精确消去；硬端首尾确含J1u、A_Uu和三次桥。尚未把L1A_U识别为该正核的准确Schur块，不能由一般内函数收缩免费插入第一MP逆或推出κ。[实际三阶dual塔](results/R299-appendix-nonreal-coherent-norm-on-actual-three-step-dual-tower.md)另给七位K2相干范数的负整数判别式，排真实塔必实根捷径；仍不否定S1。
+[R299逐位内函数](results/R299-boolean-product-inner-kernel-and-complete-primitive-energy.md)已付同一物理Pick正核、完整primitive能量/占据对角/高阶消去；L1A_U是否为准确Schur源仍未付。真实三阶dual塔的非实根排必实根捷径，不否S1；原完整式与附录入口保本次前open。
 
 [R300七位边界](results/R300-seven-site-hard-top-strict-boundary-region-with-three-simultaneous-weak-sites.md)已付固定旧4权/弱3内部权的全14维充分小ε严格界1525/1564。[任意旧2s临界池推广](results/R300-appendix-arbitrary-critical-pool-three-weak-site-recursion.md)现给完整三族费用极限diag(I_U⊗Kweak,K_old,s−1⊗Rw*Rw,K_old,s−2)，无常数放大；真倒数低源kerA⁴/kerA²、旧q=3/h6项及全部交叉由容斥/核旗支付。[有限a完整铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)现精确等价硬端界，P0保旧首缺陷；P1逐系数正对每个固定κ均被实际四权族排除，[指定首Schur行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给半线平方恒等式；相位界/完整最高缺陷联合块未付，不作循环归纳。
 
-[临界完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)已付完整层F=dd*、Q=e*e交换，补集连接T自伴可逆且T²=F⁻¹Q，真实V压缩给G/L/4G+R共同矩和Tv=σp⁻¹D²v。压缩后矩不假称交换；共同谱本身不足相位界，仍须真实V源旗、较低同符号birth全部Schur与完整半线SOS。 [奇→偶弱位极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)已证全源diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)；全部偶相位统一κ单独推出所有奇硬/加强高度同κ，无尺寸循环。统一全偶池仍未证；[任意四权](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)已付完整三维相位≤1且等权取等，不外推更大池。[完整低位块](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)现付任意旧三位0<K<1及(r,r⁻¹,1,1,1)整个四维K<3/4 I；固定r加充分小弱位得整个九维7/8。一般权/有限内部和r统一阈值未付。
+[临界完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)已付完整层F=dd*、Q=e*e交换，补集连接T自伴可逆且T²=F⁻¹Q，真实V压缩给G/L/4G+R共同矩和Tv=σp⁻¹D²v。压缩后矩不假称交换；共同谱本身不足相位界，仍须真实V源旗、较低同符号birth全部Schur与完整半线SOS。 [奇→偶弱位极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)已证全源diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)；全部偶相位统一κ单独推出所有奇硬/加强高度同κ，无尺寸循环。统一全偶池仍未证；[任意四权](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)已付完整三维相位≤1且等权取等，不外推更大池。[全位数二阶](notes/2026-11-14-all-birth-even-phase-equal-weight-second-variation-789f-next.md)已给真实Bx*Bx/4+Sx*Sx/2，固定非退化方向有小ε严格界；退化核/共同邻域/全权仍开。[完整低位块](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)现付任意旧三位0<K<1及(r,r⁻¹,1,1,1)整个四维K<3/4 I；固定r加充分小弱位得整个九维7/8。一般权/有限内部和r统一阈值未付。
 
 R286固定源全height已付；实际t_q出生随q上移，受限逆不自动保固定birth/有限支持。跨出生graph、完整e_q和N=M仍开，完整链接与范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
@@ -141,7 +141,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **高本质rank1原中心17式。** M5 6188×4367、泛秩4354；rankAy8及0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。[完整前open](notes/2026-11-14-open-before-first-padic-obstruction-789f.md)保全部模31原17证书、Ann24/线性分母及B85标准源。[首轮真实障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)九个r1均有非零完整image-NF，严格排各h0t_j在固定217374标准列Q像；添同族更高次数也无效。[余类实算](notes/2026-11-14-r150-first-residual-torsion-scalar-obstruction-789f.md)已核各最小(s−1)(s−2)，25坐标dual排固定初值的任意次数h0+31g。[exact Koszul](notes/2026-11-14-r150-exact-koszul-compression-and-bockstein-1152-789f.md)已保cost消去660未选N行并lift972低K；有限β只余200高K的1152移位待算。未排全原来源或char0理想。其他mean秩/高ess/自然幂另开。
 
-[射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件现于模31不成立：[∞全原来源一阶连接](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)给∞阶≥24，配仿射315次得到齐次≥339。九目标24次Ann仍是另一个对象，char0原证书继续。其他mean秩的高ess仍另开。
+[射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)的74次充分条件于模31不成立：全原∞连接给阶≥24，仿射315使齐次总度≥339。它与九目标Ann24不同；char0来源/分母及其他mean秩高ess继续，全部旧条件保本次前open。
 
 **Cat1旧链。** 共3–5/重数/∞旧证书全保快照；rank1/ess3为空，不外推高本质。
 

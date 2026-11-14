@@ -1,56 +1,51 @@
 # 交接
 
-## 当前接手、完成标准与同步
+## 目标、规则与同步
 
-- **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须证明每个有界算子有非零真闭不变子空间，或给完整反例。排除当前候选/完成有限模型均不等于完成。
-- **负责人：** Astra-ISP-789f。根独占git、共享追踪与main推送；代理各写独占789f稿。
-- **最近成功实际 pull 与已读规则提交：** `abc4d060b622f9c33370385582090ff8189e78e7`（2026-11-14 14:15:23 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **执行授权：** 每结论即推；非快进立即pull --rebase后再推，循环到成功，不force。至少每小时实际pull；逐次比对根/课题README，只读新差异并立即遵守。令牌仅CLI临时环境，不写文件/提交；只写本课题log，不写根README/LOG。
-- **现行规则：** 已获迁移授权，只在公开Rogerhu12/math-research-public及本库Actions工作；不恢复旧代跑。规则12取消额外独立复核；规则13本库约4核/16GB、单job≤6h、账户并行≤20。
-- **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-torsion-localization-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
+- **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须全体有界算子定理或完整反例，有限模型/候选排除均不算完成。
+- 根Astra-ISP-789f独占Git、H/open/results/log与main；代理只写各自789f稿。
+- **最近成功实际 pull 与已读规则提交：** `d2fbea10d4c7a4c210bf39dbca60ea4c3619e5a8`（2026-11-14 14:25:01 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- 持续研究，每结论即提交并推；非快进立刻pull --rebase再推到成功，不force。至少每小时实际pull，逐次只读两README新差异并立刻遵守。令牌只CLI临时环境；不写根README/LOG、不问重复授权。
+- 迁移授权已读，只用Rogerhu12/math-research-public；规则12取消额外独立复核，规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行、数据>1MB压gz/每文件≤5MB。
+- [压缩前完整H](notes/2026-11-14-handoff-before-all-birth-second-variation-789f.md)、[完整前open](notes/2026-11-14-open-before-first-padic-obstruction-789f.md)保全部旧范围/失败/来源链；未列不等于已闭。
 
-## 工作区与恢复
+## 工作区与可恢复数据
 
-根路径 `/workspace/scratch/789f3e887d7c/math-research-recovered` 现为 `/dev/shm/isp-789f-math-research-recovered` 的软链（14:12根盘满后连Git迁移）；旧 `math-research-public` 保代理稿。12:35断连后临时盘旧Git元数据/NF/GB/DAG确已丢失；未推Green结论已由API重建818e9d7b，Garayev原文审查已推4c071886。恢复后已新建同步检出，实际git工作正常。
+根入口 `/workspace/scratch/789f3e887d7c/math-research-recovered` 现软链到 `/dev/shm/isp-789f-math-research-recovered`（14:12根盘满，整个检出连Git迁移）。代理旧稿在 `/workspace/scratch/789f3e887d7c/math-research-public`，其.git指针失效，不在那里用Git。此前断连丢失的未推Green/Garayev结论已按记录重做并推818e9d7b/4c071886。
 
-新T96大基/NF/DAG从本库run43597823809的artifact14114364261下载至 `/tmp/isp-t96-recovery-789f`；其中 `isp-r150-native-nf` 含原model和三DAG，`isp-r150-reweighted-graph-work/t96`含完整新图。该artifact至2026-12-14；已完成的完整目标/原17式系数均另入仓库，不依赖到期artifact。原式临时输出在 `/tmp/isp-original17-t96-output-789f`，标准来源在 `/tmp/isp-kernel-standard-789f`。
+T96/NF/三个来源DAG已从本库run43597823809 artifact14114364261恢复到 `/tmp/isp-t96-recovery-789f`，至2026-12-14；原model补在 `isp-r150-native-nf/normal-form-input.txt`。完整已完成目标/原17证书/标准源/残差另在仓库，不依赖该到期artifact。当前β中间目录 `/tmp/isp-first-padic-789f`，旧canonical在 `/tmp/isp-kernel-standard-789f`。不重建旧图或重跑高次数来源。
 
-## 原模型与仍未付的主要接口
+## 原问题的未付接口
 
-H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−300·2^j+850/3]、零点权0。A非零非紧、单射稠密像、拟幂零，W*(A)=B(H)、A′无非零紧。N_j²=η_jN_(j+1)、N_j WOT→I/2而非SOT；闭A不变M均closure AM=M，普通循环性未知。
+H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−300·2^j+850/3]、零点权0。A非零非紧、单射稠密像、拟幂零，W*(A)=B(H)、A′无非零紧。N_j²=η_jN_(j+1)、N_j WOT→I/2非SOT；闭A不变M均closure AM=M，普通循环性未知。
 
-- 原Haar慢主理想与负边界T_N/T_Y分开；后者M=kerT含e0、N=closure BM，N=M仍开。R187/200付M∩RanB^r⊂N；R239付合法d≈log^(1/3)q、c>K*权核；无权完整λ²=〈G⁻¹r,r〉增长/Σ1/[ell(1+λ²)]发散未付。
-- 原graph保M3初次/M2以后、同w/同未来/真负前缀/自然逆域及完整左右费。Keff≥e^(59d³/256)/(2^19d)已付；固定测试局部Gram、pure深jet、普通右费/跨birth仍缺。primitive MP不代graph Gram，固定birth不代移动birth，全H稠密不传未知限制。
-- 正常湮灭者的一般有限原秩仍开；R276同尾正完成不付全链谱/正距，R289熵o(m)仍容R291尾rank指数。完整下一尾理想距离m_j上界/单位锚未付；R272单侧修复失自伴、R280因子排除不代普通子空间。
-- R147/150其余mean秩/高ess、R176部分谱、R236慢核/原右源及R268–290全部未列范围仍保归档/open，均不视为关闭；R285形式反例非Boolean。
+原Haar慢理想和负边界T_N/T_Y分开；后者M=kerT含e0、N=closure BM，N=M未证。R187/200有限像与R239合法d≈log^(1/3)q窗口/权核已付，无权完整λ²=〈G⁻¹r,r〉增长/发散仍缺。原graph保M3初次/M2以后、同w/同未来/真负前缀/自然逆域及完整左右费；Keff≥e^(59d³/256)/(2^19d)不付固定测试Gram、pure深jet、普通右费/跨birth。primitive MP不代graph，固定birth不代移动birth。
 
-## 一、有限Boolean费用与原连续尾
+一般有限原秩正常湮灭者未闭：R276正完成不付全链正距，R289熵o(m)仍容R291指数rank，下一尾理想距离m_j/单位锚未付。R147/150其余mean秩/高ess、R176部分谱、R236慢核/原右源及R268–290全部剩余条件见open/归档，均继续保留。
 
-R297把全部正权/出生/高度加强κ同常数归到奇硬M=2r+1首边，真费A_U*L1L3⁻¹L1A_U≤κI，等价倒数桥B*L2²B≤κG1；真实源、完整逆/压缩和投影不可删。
+## Boolean相位、加强费用与连续尾
 
-- R295全正权birth1/全heightκ1024、原尾674/81；R298全独立五权K2≤743/782。R300任意旧2s＋三弱位的全三族范数极限无放大，q3/h6/全Schur与交叉已付；严格旧余量传小ε，边界不代有限内部/统一阈值。分组范围及全部原链接保归档。
-- [有限a铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)准确等价硬端；真四权排任意固定κ的P1逐系数正。[首Schur SOS](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)尚缺相位及完整最高边联合缺陷；固定池条件不当尺寸归纳。
-- [完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)保F/Q交换、补集T自伴、T²=F⁻¹Q、Tv=σp⁻¹D²v；压缩矩不交换，低birth nuisance不删。[奇→偶全源极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)证明全偶相位统一κ单独足全部加强高度，未证反向或一般κ。
-- [任意四权全相位](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)已付整个三维≤1，等权取等、最优1，完整整数多项式证书已存。[三/五位全源](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)：任意旧3权极限0<K<1；旧5权(r,r⁻¹,1,1,1)全部4维K<3/4，固定r加小正弱位后全部9维≤7/8。未付更大任意偶池/有限内部或r统一阈值。
-- [全次数Johnson分拆](notes/2026-11-14-all-degree-pair-splitting-johnson-identity-and-arithmetic-obstruction-789f-next.md)保全部q与新层低投影；M24/s4算术缺陷−49588但真S1缺陷+136，只排出生一算术直推。[同源正交分拆](notes/2026-11-14-source-orthogonality-parity-payment-and-intersection-polynomials-789f-next.md)取全局ε=(-1)^(s−1)，最高两通道非负、负项降至j≤s−2；两侧交集多项式可独立选deg≤s−1且取值[-1,1]，真实ell不删。R294/296混合预算仍缺；Green–Ward保全补空间，真实非实极点排共同平方权Stieltjes，不反S1/Pick。原graph仍另开。
+- R297全正权/出生/高度加强κ等价奇硬首边同κ，真实费A_U*L1L3⁻¹L1A_U，倒数桥B*L2²B≤κG1；完整逆、投影及同源不能删。R295 birth1全height κ1024、原尾674/81；R298全独立五权K2≤743/782。R300一般旧2s＋三弱位全三族范数极限无放大，边界不代有限内部。
+- [完整共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)给F/Q交换、T²=F⁻¹Q和Tv=σp⁻¹D²v；压缩矩不交换、低birth不删。[奇→偶完整极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)证明所有偶相位统一κ单独足全部加强高度；一般κ未证。有限a逐系数路线被真实四权排除；首Schur条件SOS尚缺最高边联合缺陷，详前H。
+- [四个任意正权](notes/2026-11-14-four-bit-all-weight-even-phase-bound-789f-next.md)整个三维phase≤1、等权取等，完整正系数证书已推b233febb。[三/五位全源](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)：三位极限0<K<1；(r,r⁻¹,1,1,1)全部4维K<3/4，固定r加小弱位后整个9维≤7/8。均不外推更大任意池/统一阈值。
+- [全位数二阶相位](notes/2026-11-14-all-birth-even-phase-equal-weight-second-variation-789f-next.md)真实物理酉源上I−Φ=ε²(Bx*Bx/4+Sx*Sx/2)+O(ε³)。中央全部s子集x和距0≥m>0则二次项≥3m²/4，给每个固定方向充分小ε严格界；不称退化方向或共同邻域已付。
+- [同源Johnson正交](notes/2026-11-14-source-orthogonality-parity-payment-and-intersection-polynomials-789f-next.md)保完整q/ell，以ε=(-1)^(s−1)支付最高两通道，负项只在j≤s−2。两侧可独立取交集多项式deg≤s−1、值[-1,1]；不能逐r任意改号。M24/s4算术反例只排出生一方法直推，非S1反例。R294/296混合费、真实低通道与graph继续。
 
-## 二、R150原十七式与特征零提升
+## R150 原十七式及特征零来源
 
-原11物理N＋6Γ的M5为6188×4367、泛秩4354。rankAy8与0/2/−6/∞已闭；余rankAy9有限Σ及char0实际来源/分母。其他mean秩/高ess/自然幂另开，详细因子/数量保压缩前H。
+原11物理N＋6Γ，M5为6188×4367、泛秩4354；rankAy8和0/2/−6/∞已闭，余rankAy9有限Σ/char0来源。完整F31像1021行/次数和716、torsion315/minpoly190；九目标h31度24，char0候选h0=s³(s−2)F+²F−²E8。原线性逆Dlin46次不免费降24；模31支撑不当复坏点。
 
-- 原3333常预基加2195余源的NF有1034分量；完整GB1021行/次数和716，挠维315/minpoly190。九目标最小h31度24，j4/10少(s−1)；char0候选h0=s³(s−2)F+²F−²E8。原线性逆最小Dlin46次不免费降到24，模31五新增因子不当复坏点；原∞模31阶≥24不外推char0。
-- [T96完整图](results/R150-appendix-complete-t96-kernel-and-exact-nine-source-identities.md)run43597823809得1021输出/1174纯核，全RC=h31T，完整gzip已存；[原17证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)全DAG/D-content及4367×147×9原系数核清，最高135次/完整3.166MB gzip已推4e6a1539。不重跑旧图/高次DAG。
-- [标准来源](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)九目标最小cost=[85,85,85,84,85,85,85,85,85]，最高69次；B85为54596标准NF列＋原预基162778列，共217374个char0独立整数列，219032输出。完整canonical gzip已推81356e8a；此标准列族不是全部原列。
-- [原首轮残差](notes/2026-11-14-r150-first-original-padic-residual-789f.md)6.28131秒，h0 mod31=25h31，原primitive模31全真，x0 cost85/最高74次；r1有1874424非零系数。完整整数式/x0/r1均保存。
-- [完整像障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)轻证书1.20032秒全9 NF(r1)非零，常数项数66/64/65/67/66/64/64/65/64；原m3m6m9分量为17/27/22/26/8/6/13/16/2。全G商＋余逐项核清；单位子式严格排h0各目标在固定标准列Q像，添同标准族任意更高次数仍无效。不能排非标准来源/kernel初值或完整char0理想。
-- [余类定位及h修正障碍](notes/2026-11-14-r150-first-residual-torsion-scalar-obstruction-789f.md)已2.036513秒核九余全在315维torsion，各最小ℓ=(s−1)(s−2)；2835×24系统rank24/增广25，25行显式dual仅用j2，排任意次数g且固定初值的h0+31g。乘ℓ或E8仅得未恢复cost的mod961存在性，不代char0。
-- [有限β判据](notes/2026-11-14-r150-budget85-full-source-bockstein-and-saturation-789f.md)保[r1]∈imβ。[exact Koszul降维](notes/2026-11-14-r150-exact-koszul-compression-and-bockstein-1152-789f.md)现付660未选N行的Z_(31)[s]单位压缩及972低核保cost精确lift。原6188的B85有289198列，模31核71824/coker1658；70672方向β零，剩200高K的1152移位待算。有限coker不替无限G商；最终仍须原17精确有理身份。
+- [T96完整图](results/R150-appendix-complete-t96-kernel-and-exact-nine-source-identities.md)run43597823809得1021输出/1174真核；[原17完整模31证书](results/R150-appendix-nine-targets-full-original-seventeen-equation-certificate-mod31.md)全DAG及原4367×147×9系数核清，最高135次。完整gzip均已存。
+- [唯一标准来源](notes/2026-11-14-r150-kernel-standard-source-and-bounded-lift-789f.md)最小cost为85（j5为84）、最高69；B85有217374个模31/char0独立标准列、219032输出。h0 mod31=25h31；原x0最高74次/cost85，首轮r1完整整数数据已存。
+- [完整像障碍](notes/2026-11-14-r150-first-residual-fixed-source-obstruction-789f.md)全9 r1余非零，单位子式排h0各目标在固定标准列Q像；仅添同标准族更高次数仍无效，未排非标准来源。[精确挠定位/dual](notes/2026-11-14-r150-first-residual-torsion-scalar-obstruction-789f.md)各余最小(s−1)(s−2)，2835×24系统rank24/增广25，25坐标dual仅用j2，排固定初值的任意次数h0+31g。乘ell/E8仅有未恢复cost的mod961存在性。
+- [有限β判据](notes/2026-11-14-r150-budget85-full-source-bockstein-and-saturation-789f.md)mod961可解iff[r1]∈imβ；有限coker不能换无限G商。[exact Koszul降维](notes/2026-11-14-r150-exact-koszul-compression-and-bockstein-1152-789f.md)保cost消660未选N并lift972低K。原B85共289198列、模31核71824/coker1658；70672方向β零，仅余200高K的1152移位待算。这里未宣称完整char0有限秩相同。
+- 当前正常代理实现一次全200打包恢复/原mod961卷积/原NF/315必要像测试。预定本库Actions共享300秒数学deadline、512MiB每进程、编译另各30秒；不重建旧NF/图，不本机盲跑长任务。先无限商必要判据，若可解再核真正有限1658预算；最后仍需有理重构及原17精确身份。
 
-## 原文接口与持续执行
+## 当前分工与待接结论
 
-[原文续查](notes/2026-11-14-current-isp-literature-refresh-789f-next.md)及Garayev实际可逆例的第二分支合格极限必零证明已推；Müller主条件不适配原A，Rosenblum仍需真实最终零矩。[balanced-walk接口](notes/2026-11-14-balanced-walk-two-layer-metric-mismatch-for-phase-789f-next.md)的中层多出非恒定外部权和，不能直接套跨层相位；旧快幂/Bishop/最小向量/预解范围见原档，不重复。
+normal_annihilator完成高核β源码与本库一次请求；literature_audit继续真实一般相位及退化核四阶；boundary_core继续j=s−2同源条件均值/协方差。根负责原源接口、工作流、证明整合与每结论推送。已冻结待紧接发布：退化二阶核不沿线保等号的四位例，以及首低Johnson通道/原连续尾线性条件预算；文件均在代理旧notes，以2026-11-14开头、789f-next结尾。
 
-normal_annihilator继续char0固定预算提升；literature_audit专攻真实偶相位；boundary_core转原连续尾的完整分拆/Johnson harmonic预算，保高degree nuisance Schur。根维护证明、追踪、同步与逐结论推送。主ISP不以阶段稿收尾。
+Garayev第二分支强制零与其余当前原文条件已推4c071886，balanced-walk两层度量不匹配已推58436f16；旧文献适用范围保open/归档，不重复已排路线。主ISP未完成，不以阶段报告收尾。
 
 ## 计算同步
 
