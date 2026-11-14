@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43608838195",
+  "reviewed_pull_history": [
+    {
+      "before": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+      "after": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+      "after": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/actual-root-parametrix-interface.json.gz",
+      "bytes": 3341,
+      "sha256": "e80e42d182f5b77158fb147cfe12300d62769dbf7d4777d1bd4e5c244a70cdb6",
+      "original_sha256": "e80e42d182f5b77158fb147cfe12300d62769dbf7d4777d1bd4e5c244a70cdb6"
+    },
+    {
+      "file": "consumers/actual-root-parametrix-interface.stdout.log",
+      "bytes": 231,
+      "sha256": "dfca1f3f3fa3a402a73f2e430360bd87c4d8da5a12f337b7980996be1cff02ee",
+      "original_sha256": "dfca1f3f3fa3a402a73f2e430360bd87c4d8da5a12f337b7980996be1cff02ee"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 16029,
+      "sha256": "6e37f952b75f030ead37cddef72cafc37c7bace8672a9c9f1ff6bbeeb007e151",
+      "original_sha256": "6e37f952b75f030ead37cddef72cafc37c7bace8672a9c9f1ff6bbeeb007e151"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 14601,
+      "sha256": "a9a7c6aaf5a59b9ba5e9ace57592b1d1071c63bf3d843542503b2b8bf9ea2612",
+      "original_sha256": "a9a7c6aaf5a59b9ba5e9ace57592b1d1071c63bf3d843542503b2b8bf9ea2612"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2032,
+      "sha256": "430255e0743f0022ec260b057a1c05136a90a899d11644877314a183e6cd5d45",
+      "original_sha256": "430255e0743f0022ec260b057a1c05136a90a899d11644877314a183e6cd5d45"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

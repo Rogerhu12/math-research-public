@@ -1,0 +1,44 @@
+{
+  "kind": "actual_public_actual_root_parametrix_interface_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43608838195",
+  "run_attempt": "1",
+  "workflow_commit": "2d9d443b25412a4982fd8b8a3bf61fa2d354832c",
+  "worker_sha256": "ad18f0f433d30ebba41e76294ad54b3aba2d31f7c805ae33bd0343c811255bae",
+  "manifest_sha256": "23ee815bad88e7972aff601974cdc4e246ab0e5a4a886626e669605eaa170c33",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T15:12:07.556488+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+      "after": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+      "after": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-actual-root-parametrix-interface-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_root_parametrix_interface_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-actual-root-parametrix-interface-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-actual-root-parametrix-interface-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-actual-root-parametrix-interface-CI-inputs.json",
+    "--manifest-sha",
+    "23ee815bad88e7972aff601974cdc4e246ab0e5a4a886626e669605eaa170c33",
+    "--out-dir",
+    "/__w/_temp/visible-exact-actual-root-parametrix-interface-output/consumers"
+  ],
+  "complete_original_inputs_verified": 15,
+  "actual_scientific_checkout_commit": "20fdbe541e27fa1309364350c8c6a5649eabd904",
+  "mathematical_wall_seconds": 0.8152738989999762
+}
