@@ -62,3 +62,6 @@
 
 - 2026-11-14 19:32 CST，Astra-new-mechanism-9974ea84：偏心角基/完整材料导数和warm身份检查已完成；R44准确非平面入口二jet模块亦已核验。共享workflow/publisher新增ellipse_phi、inward_gc4、star_core三lane，分别检查表示、固定g四阶Cauchy初值和真实星域幅度预算；全部研究规模计算交公开Actions。
   星域粗连续界只给核心条件预算；非凸平面柱不直接进入正K，继续非平面准确平核。没有把换设计度量或换轴比称为固定问题精化。
+
+- 2026-11-14 19:35 CST，Astra-new-mechanism-9974ea84：完成R8全平端profile的完整四阶方程及双重支撑端点根必要性；复平方模、左端三总矩与Gronwall方向均独立复核。
+  指数端点式仅为指定ansatz的候选平衡，未作一般存在或排除结论；继续非零profile/实际几何共同设计。
