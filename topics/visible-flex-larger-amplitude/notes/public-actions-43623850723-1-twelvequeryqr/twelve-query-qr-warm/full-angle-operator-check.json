@@ -1,0 +1,832 @@
+{
+  "schema": "captured-twelve-query-original-RMS-and-collocation-midpoint-domain-v1",
+  "model_sha256": "6cde0db22854b6d4e53069061ebe7f1a5cdecb7c7966dc5f58ba4b777a582b96",
+  "query_specs": [
+    {
+      "kind": "left-RMS",
+      "interval": 470,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 471,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 472,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 473,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 475,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 477,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 479,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 480,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 481,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 473,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 477,
+      "fraction": 0.5
+    }
+  ],
+  "adjoint_and_local_checks": [
+    {
+      "kind": "all-coordinates",
+      "forward_dual": 3605039.4421468643,
+      "transpose_dual": 3605039.4421468712,
+      "normwise_adjoint_error": 2.53128069690751e-18,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "shared-endpoints-and-controls",
+      "forward_dual": -11694047.64033858,
+      "transpose_dual": -11694047.640338589,
+      "normwise_adjoint_error": 9.131351822677284e-18,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "controls-and-zero-support-core",
+      "forward_dual": 0.0,
+      "transpose_dual": 0.0,
+      "normwise_adjoint_error": 0.0,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    }
+  ],
+  "original_complex_chain_checks": [
+    {
+      "kind": "actual-supplied-scaled-direction",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "84a4d8811b5061d03819cb6c47992bc7f8084d8a8bfa1b08e2c92a19a05ee4a9",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          24576
+        ],
+        "dtype": "<f8",
+        "sha256": "2b9805346b1f5c7dcfe79b019b1a03c1cca665bf236f0272e9321d453abb3bee",
+        "bytes": 196608,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          24576
+        ],
+        "dtype": "<f8",
+        "sha256": "2191ff2f5c84a9c8be5f8ed3efd4a937b2d2e56070e18d7279a87df7df0ce8fe",
+        "bytes": 196608,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 5.31699129169283e-11,
+      "maximum_relative_error": 5.553718705380595e-13,
+      "worst_row": 11253,
+      "worst_query_index": 5,
+      "worst_query_kind": "left-RMS",
+      "worst_interval": 477,
+      "worst_angle_index": 1013,
+      "query_errors": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.2931877790833823e-11,
+          "maximum_relative_error": 1.504361553678765e-12
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 2.1023183194301964e-12,
+          "maximum_relative_error": 5.837801997297272e-13
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 3.388578306839918e-11,
+          "maximum_relative_error": 5.989089508812947e-13
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.1691980716932449e-11,
+          "maximum_relative_error": 5.056163605684756e-13
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.099209612220875e-11,
+          "maximum_relative_error": 2.541717578621981e-13
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 5.31699129169283e-11,
+          "maximum_relative_error": 1.3250490894776048e-12
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.4740209053343278e-11,
+          "maximum_relative_error": 3.2164828288798343e-13
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 480,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.1240786079724785e-11,
+          "maximum_relative_error": 4.3616980200696255e-13
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 4.640732242933154e-12,
+          "maximum_relative_error": 8.46726665877185e-13
+        },
+        {
+          "query_index": 9,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "fraction": 0.5,
+          "maximum_absolute_error": 3.2102320801641326e-11,
+          "maximum_relative_error": 3.3531606455845953e-13
+        },
+        {
+          "query_index": 10,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "maximum_absolute_error": 1.2708056829069392e-11,
+          "maximum_relative_error": 3.7376536365224546e-13
+        },
+        {
+          "query_index": 11,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "maximum_absolute_error": 1.6932233393163187e-11,
+          "maximum_relative_error": 5.316457639914522e-13
+        }
+      ],
+      "actual_query_real_part_diagnostics": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 470,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 471,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 472,
+          "complex_real_part_vs_saved_original_query_max": 4.336808689942018e-19
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 2.168404344971009e-19
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 8.673617379884035e-19
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 1.3552527156068805e-20
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 479,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 480,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 481,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 9,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 2.1041820422123918e-20
+        },
+        {
+          "query_index": 10,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 1.5910922480034056e-20
+        },
+        {
+          "query_index": 11,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 3.048842981263263e-20
+        }
+      ],
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 13,
+      "midpoint_chain_is_original_collocation_formula": true,
+      "complex_chart_expand_not_used": true
+    },
+    {
+      "kind": "seeded-local-physical-core-and-controls",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "6f5e1bcc7eb850000288d8b22d0410d1774e80d7b26eb053cb1fa1c8b557516e",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          24576
+        ],
+        "dtype": "<f8",
+        "sha256": "33d218b846552caf1e73d3966271c0f133841d9a38899fba308f390ae6036c9c",
+        "bytes": 196608,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          24576
+        ],
+        "dtype": "<f8",
+        "sha256": "f2fc4f8ded5e1ab9aeebd2deadc9e125a37a773ca5a95e683858916758027362",
+        "bytes": 196608,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 1.396634615957737e-06,
+      "maximum_relative_error": 1.6326813635514555e-12,
+      "worst_row": 2048,
+      "worst_query_index": 1,
+      "worst_query_kind": "left-RMS",
+      "worst_interval": 471,
+      "worst_angle_index": 0,
+      "query_errors": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 9.165378287434578e-07,
+          "maximum_relative_error": 1.383796861475304e-12
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.396634615957737e-06,
+          "maximum_relative_error": 2.0291067607537722e-12
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.436856109648943e-07,
+          "maximum_relative_error": 3.673224586378648e-13
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 7.214839570224285e-08,
+          "maximum_relative_error": 3.2685224827442915e-13
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.0867370292544365e-07,
+          "maximum_relative_error": 2.9566582143722037e-13
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 3.825407475233078e-07,
+          "maximum_relative_error": 1.2127973109631411e-12
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.4336546882987022e-07,
+          "maximum_relative_error": 3.7404884109182314e-13
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 480,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 2.7869828045368195e-07,
+          "maximum_relative_error": 4.2079023857363106e-13
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 2.8510112315416336e-07,
+          "maximum_relative_error": 3.332863765389276e-13
+        },
+        {
+          "query_index": 9,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "fraction": 0.5,
+          "maximum_absolute_error": 5.123438313603401e-07,
+          "maximum_relative_error": 8.23477647790788e-13
+        },
+        {
+          "query_index": 10,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "maximum_absolute_error": 2.377200871706009e-07,
+          "maximum_relative_error": 4.1555114292832186e-13
+        },
+        {
+          "query_index": 11,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "maximum_absolute_error": 6.047775968909264e-08,
+          "maximum_relative_error": 3.533406866556753e-13
+        }
+      ],
+      "actual_query_real_part_diagnostics": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 470,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 471,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 472,
+          "complex_real_part_vs_saved_original_query_max": 4.336808689942018e-19
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 2.168404344971009e-19
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 8.673617379884035e-19
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 1.3552527156068805e-20
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 479,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 480,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 481,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 9,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 2.1041820422123918e-20
+        },
+        {
+          "query_index": 10,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 1.5910922480034056e-20
+        },
+        {
+          "query_index": 11,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 3.048842981263263e-20
+        }
+      ],
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 13,
+      "midpoint_chain_is_original_collocation_formula": true,
+      "complex_chart_expand_not_used": true
+    }
+  ],
+  "maximum_normwise_adjoint_error": 9.131351822677284e-18,
+  "maximum_local_full_action_error": 0.0,
+  "maximum_original_complex_chain_relative_error": 1.6326813635514555e-12,
+  "implementation_thresholds": {
+    "adjoint_and_local": 5e-12,
+    "original_complex_chain": 5e-05
+  },
+  "implementation_check_passed": true,
+  "actual_supplied_direction_checked": true,
+  "second_complete_Jacobian_constructed": false,
+  "native_tail_called": false,
+  "new_scientific_acceptance_gate": false,
+  "scope": "nine original left-RMS and three original collocation-midpoint queries, each full finite phi grid",
+  "twelve_query_projection_entry": {
+    "entry_source_sha256": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+    "projection_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "actual_midpoint_observer_source_sha256": "94395d54fcf58941180de23731fc2b5bb41fed8608dbda4c17903fffc862e228",
+    "parent_eleven_query_entry_source_sha256": "6aed0dda5515945c73413884fb98d1719eb23fc40ff6b7388805f6108816c298",
+    "parent_eleven_query_operator_source_sha256": "55358acb92bac869ba2ca1daf2da7772d57be31ccd1fcfd9f7324af80f8ea20b",
+    "twelve_query_operator_source_sha256": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+    "fixed_support_projection_source_sha256": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+    "optimizer_schema": "exact-constraint-twelve-query-complete-QR-H-alternative-warm-v1",
+    "parent_optimizer_schema": "exact-constraint-twelve-query-complete-QR-H-alternative-warm-v1",
+    "declared_initial_parent_optimizer_schema": "exact-constraint-eleven-typed-query-feasible-projection-warm-v1",
+    "declared_initial_parent_warm_sha256": "dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8",
+    "declared_initial_parent_status_sha256": "37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0",
+    "actual_resume_sha256": "c62a7f12db331993698ed7e5d9086193d8e43d399dbd98adb2b869430e19aeda",
+    "actual_parent_status_sha256": "30f19320351f37344c5e75c6dd8614707f26692c7888c2d0eafcdb532f24d359",
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      }
+    ],
+    "query_interval_order": [
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      473,
+      475,
+      477
+    ],
+    "unique_capture_intervals": [
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481
+    ],
+    "selected_query_count": 12,
+    "selected_angle_row_count": 24576,
+    "physical_angles_per_query": 2048,
+    "expected_capture_node_count": 13,
+    "fixed_projection_physical_nodes": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "expected_fixed_projection_dimension": 4059,
+    "expected_complete_B_local_dimension": 4397,
+    "fixed_projection_global_p_included": true,
+    "fixed_projection_outside_raw_offset": "c+B_out*z0_out",
+    "offset_required_positive": false,
+    "restricted_projection_set_required_feasible": false,
+    "full_vector_radial_repair_and_backup_retained": true,
+    "final_outside_direction_claimed_unchanged": false,
+    "left_RMS_fraction": 0.17267316464601146,
+    "collocation_midpoint_fraction": 0.5,
+    "mixed_kinds_do_not_share_one_fraction": true,
+    "added_query": {
+      "kind": "left-RMS",
+      "interval": 470,
+      "fraction": 0.17267316464601146
+    },
+    "added_query_evidence": "Actual37 alpha1/8 and1/4 have finite original nodes/mids and positive11 modeled grids; only complete left-RMS470 rejects; nearest beta_squared=-0.2501880308616917 at phi0",
+    "retained_original_midpoints": [
+      473,
+      475,
+      477
+    ],
+    "current_original_midpoints": [
+      473,
+      475,
+      477
+    ],
+    "all_eight_original_left_RMS_queries_retained": true,
+    "complete_B_capture_expanded_to_include_node470": true,
+    "new_RMS470_full_row_keeps_outside_node470": true,
+    "C_projection_correction_support_expanded": false,
+    "original_midpoint_base_is_direct_state_middle_and_problem_mid": true,
+    "original_midpoint_J_chain": ".5*(dyL+dyR)-h*(dfR-dfL)/8, complete J/P and direct scalar control derivative",
+    "retained_midpoint_endpoints_reused_from_the_same_original_capture": true,
+    "second_complete_Jacobian_constructed": false,
+    "independent_operator_source_without_mutating_parent_module": true,
+    "original_Hildreth_updates_and_C_metric_retained": true,
+    "local_C_projection_support_and_affine_offsets_explicitly_changed": true,
+    "original_full_vector_radial_and_same_model_segment_retained": true,
+    "original_complete_residual_A_merit_and_all_scientific_gates_unchanged": true,
+    "original_lambda_LSMR_projection_and_seventeen_trials_unchanged": true,
+    "read_only_original_midpoint_observer_retained": true,
+    "parent_producer_subtree_preserved": true,
+    "nonlinear_native_H_solved": false,
+    "fixed_support_description_applies_only_to_baseline_C": true,
+    "complete_global_H_alternative_is_declared_by_twelve_query_QR_entry": true
+  },
+  "selected_angle_row_count": 24576,
+  "twelve_query_QR_entry": {
+    "schema": "exact-constraint-twelve-query-complete-QR-H-alternative-warm-v1",
+    "entry_source_sha256": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+    "frozen_dependencies": {
+      "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+      "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+      "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+      "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8"
+    },
+    "initial_actual_parent_warm_sha256": "dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8",
+    "initial_actual_parent_status_sha256": "37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0",
+    "actual_parent_warm_sha256": "c62a7f12db331993698ed7e5d9086193d8e43d399dbd98adb2b869430e19aeda",
+    "actual_parent_status_sha256": "30f19320351f37344c5e75c6dd8614707f26692c7888c2d0eafcdb532f24d359",
+    "actual_parent_schema": "exact-constraint-twelve-query-complete-QR-H-alternative-warm-v1",
+    "source_bound_same_model_selector": {
+      "source_file": "geometry_20261114_full_metric_projection_warm.py",
+      "source_sha256": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "function": "main.choose",
+      "verbatim_function_text_sha256": "86107c36a9fd91f86758841bbe07431dae2584238dbd3ad5d0c6078708a62068",
+      "complete_function_AST_sha256": "da2ddb536eafc4c9d2d8e6b8de3827d81cada6efdc163ebd485387c1cf20713b",
+      "complete_function_body_retained": true,
+      "source_main_not_executed": true,
+      "original_C_full_model_comparison_R265_R267_and_archive_retained": true
+    },
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      }
+    ],
+    "selected_angle_row_count": 24576,
+    "baseline_C_projection_only": {
+      "source_sha256": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "support_nodes": [
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482
+      ],
+      "support_dimension": 4059,
+      "complete_B_local_dimension": 4397,
+      "outside_offset": "c+B_out*z0_out",
+      "final_outside_direction_not_claimed_fixed": true
+    },
+    "H_candidate_support": "all 236036 original exact coordinates, including node470/core/global p",
+    "inverse_backend": "one delayed complete [A;lambda I] square-root block QR",
+    "old_PCG_retry_performed": false,
+    "one_original_CompleteLinearization_only": true,
+    "QR_work_is_additional_to_original_H_action_budget": true,
+    "QR_column_preconditioner": "none",
+    "QR_large_factors_saved_only_as_optional_artifact": false,
+    "full_H_budget_seconds": 300.0,
+    "original_trial_reserve_seconds": 90.0,
+    "original_same_f_C_comparison_R265_R267_and_seventeen_trials_retained": true,
+    "original_midpoint_observer_and_affine_Rphi_FD_scope_retained": true,
+    "all_original_parent_producer_subtrees_preserved": true,
+    "nonlinear_native_solved": false,
+    "full_BVP_accepted": false
+  }
+}
