@@ -1,52 +1,51 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-/root，visible-larger-public-resume-20261114，GPT-6 Astra Pro（AI辅助）。**未完成；持续做真实大幅闭族及同g精化，不等阶段确认。** 本日notes、原Actions及Git保存详细历史。
+/root，visible-larger-public-resume-20261114，GPT-6 Astra Pro（AI辅助）。**未完成；持续执行到README完成标准，不等阶段确认。** 完整证明/旧记录在results.md、本日notes及Git；本文件只保活检查点。
 
-## 授权、规矩与环境
+## 授权、规矩、环境
 
-仅公开 Rogerhu12/math-research-public；已授权commit/push main及本仓Actions。PAT只瞬时CLI环境，禁文件/日志/提交；不强推。根README授权及14条已读。每次push前、至少每小时实际pull --rebase，核根/本题README，变化只读diff并立即执行；非快进立即rebase/push到成功。root负责Git/H/open/log/workflow。
-科学计算只本仓Actions；本地仅源码、读取及取回结果。Rule12完整证明直接results，不设审批/独审门。H<10KB、MD<100KB、数据>1MB gzip、单Git文件<5MB；不写根LOG；禁完整clone/gc/maintenance/大树ls-tree -l。
-12:35旧tmpfs丢失，12:58恢复窄clone=/tmp/vl-public-20261114-1257/math-research-public；原cwd失效，exec显式workdir。上层sync_public.py仅CLI临时env取PAT。未推Rφ v4已按新身份重建。
+仅公开 Rogerhu12/math-research-public；用户已授权commit/push main及本仓Actions。PAT只瞬时CLI环境，禁文件/日志/提交；不强推。根README授权及14条已读。每次push前、至少每小时实际pull --rebase，核根/本题README，变化只读diff并立即执行，记录已读SHA；非快进立即rebase/push循环到成功。root负责Git/H/open/log/workflow；同步helper运行时不要改tracked文件。
+科学计算只本仓Actions；本地仅源码、静态核对、读取与取回实际输出。Rule12完整证明直接results，不设审批/独审门。H<10KB、MD<100KB、数据>1MB gzip、每Git文件<5MB；不写根LOG，禁完整clone/gc/maintenance/大树ls-tree -l。
+12:35旧tmpfs丢失，12:58恢复窄clone=/tmp/vl-public-20261114-1257/math-research-public；原cwd失效，exec必须显式workdir，shell=/bin/bash/login=false。上层sync_public.py用MR_PUSH_TOKEN瞬时CLI；actions_public.py用MR_READ_TOKEN，--run ID --download --logs安全核ZIP/取包至actions-debug；脚本无凭据。未推Rφ v4已按新身份重建，旧失联SHA不用。手动dispatch权限403，不再重试；只改public-mainline-request.json推送精确lane。
 
-## 完成标准（尚未满足）
+## 完成标准（仍未满足）
 
-同一固定g；连通闭C²嵌入且t↦F_t在C²拓扑连续；固定有内点H，diamH及整面像Hausdorff δhold均≥.2D；含反射δE>0；全t reach≥.03D；全域相对metric operator≤1e−6；同g/参数/t范围精化时等距误差到机器或原solver容差。D为完整闭F0直径，H可两固定帽。无额外六/九jet机器门。交数个<5MB网格并说明数值与严格存在差距。开放前缀、代理、采样及小幅旧A不能代完成。
+同一固定g；连通闭C²嵌入且t↦F_t在C²拓扑连续；固定有内点H，diamH及整面像Hausdorff δhold均≥.2D；含反射δE>0；全t reach≥.03D；全域相对metric operator≤1e−6；同g/参数/t范围精化时等距误差到机器或原solver容差。D为完整闭F0直径，H可两固定帽。无额外六/九jet机器门。交数个<5MB网格并说明数值与严格存在差距。开放前缀、采样、proxy及小幅旧A不代完成。
 
-## 唯一接受源与真正可复用输入
+## 原输入与唯一接受源
 
-仅大核开放前缀 notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz 接受，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423nodes，RMS5.45704e−7/BC3.47e−18；材料C²三分量5.77368e−7（非operator）、κ6.30138、rho>.16385011989、G≈.96000098；不是闭面。.996/.9975 BVP接受却metric失败，.997875失败，不重跑旧分支。
-scalar从.99接AngleConnector/coast/finitebridge至r=.3、s_end=2.271004035438285；R244后3控制支撑在prefix。M96增N不治circle域失败，选M112/T112/N2048；96仅初猜。v3共453=338physical+112core+3p，left341/right112，固定前3core；core不显含物理ODE。finiteGauss的ap/app不冒a的字面导数。
-request08/run43588155190：699nodes全部node/mid/两RMS域过，min beta²=.005082723249；初col=.007110595仍非解。prepared SHA0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714，完整453行FD9.51769e−10。
-同run真T112零锚1351.74s，完整338×112 J/577×224states/full audit、resid0；J-second相对1.524e−12、ready差.035157884。bundle6b4ff3e5…/anchor e788a28d…/config01930f3b…全SHA由源硬绑定及notes保存。七件strict缓存只同源/config/capacity/ready/rawState、exact H=0、audit=False首请求；worker仍启动。新H/最终audit真求，T96包不替112，非零跨进程缓存不冒同predictor。
+仅大核开放前缀 notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz 接受，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423nodes，RMS5.45704e−7/BC3.47e−18；材料C²三分量5.77368e−7非operator，κ6.30138、rho>.16385011989、G≈.96000098。它不是闭面；.996/.9975虽BVP接受但metric4.605e−6/8.087e−6失败，.997875失败，勿重跑旧分支。
+scalar从.99接AngleConnector/coast/finitebridge至r=.3，end2.271004035438285；3控制支撑prefix。M96增N不治域失败，现M112/T112/N2048，96仅初猜。v3维453=338physical+112core+3p，left341/right112，前3core固定；finiteGauss返回ap/app不冒a的字面导数。
+request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初col=.00711059507774449非解，SHA0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714。原完整FD9.51769e−10。
+同配置真T112零锚已付1351.74s：全338×112 J、577×224states/full audit、resid0；J-second相对1.524e−12、ready差.035157884。bundle6b4ff3e5…、anchor e788a28d…、config01930f3b…完整SHA由原源/notes硬绑定。严格七件cache只同源/config/ready/capacity/rawState、exact H=0、audit=False首请求；新H/最终audit真worker，T96不替112，非零跨进程不冒同predictor。
 
-## 已付失败，不原样重跑
+## 当前两个实际阻断与并行计算
 
-request10–12旧Rθ线性/换角诊断均零接受/新H0，详见本日原notes。request13/run43594985550新Rφ FD9.65016e−10过，band相对8.22590e−7/方向352.439，17trial全坏；14/run43596465579原QR相对.06731197/方向352.418，同无接受；15/run43596755251保699加374至1073，band相对2.936478e−6/方向1014.925，17trial全坏，最后399node/496mid、RMS2.12563。三者新H0；artifact/publisher及全部SHA见本日actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure。
-15实际有限Jac在峰值cell谱半径1.60766e5、L/R条件约1.8e12；末cell分60段宏传播范数约2.22e23。理想R255 circle谱不直接描述有限φ；盲加bridge点/抬1200无据。
+### 前缀RMS域：request20正在运行
 
-## 最新真实执行：18仍被RMS域限制，19查尾
+request17/run43598917532/source4b8b2bfd：原699 exact chart、全部physical collocation/112 Rφ，3个实际warm下降用λ10/30/90、α2^-14/2^-15/2^-15；原col仅到.007110547307，未BVP接受。warm003 SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；新FD9.5171e−10。全部输出已补出版，见actual-trust-warm-and-tiny-height-native-failure。原三求解源冻结。
+request18/run43602070499/sourcefd4f5619/publisher1e490cda：λ270、LSMR上限200在80步istop2；仍turn interval473/phi0 RMS失域，仅α2^-16实际下降1.63517e−5，col=.007110547287。新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3；新FD9.00098e−10，native0。真实回执见actual-request18-converged-linear-direction-domain-limit；不再只加LSMR/模型/λ。
+R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。独立protected_tangent_warm/response已全文读/AST，原三源及域源不改。request20/trustprotected实际run43603477207（14:10:32Z/source2501ebf616351245b398e6b3ef33c2e6c5546bff），job132473033066，正在构造模型；amplitude监视。只从18真warm接1模型/λ270/LSMR200，先完整域行实核，再原全A/JT、Pz/Bz、真实gdot/merit/全部node/mid/两RMS/rho及新FD。输出仍未接受，native0；不可因一个保护点省全域。
 
-run43598917532/source4b8b2bfdd417f76574dcc2a8e2353c4c2dce3e21，job132459290659，artifact14116526155/ZIP5a0bddbd…已下载并补出版到notes/public-actions-43598917532-1-coupling112trust。完整数值/SHA见actual-trust-warm-and-tiny-height-native-failure。
-原699 exact chart（698×338physical+109core+3p）、全部physical collocation/112 Rφ保留；真J/JT与LSMR只作warm。633.052s实际3次下降：λ10/30/90，α2^-14/2^-15/2^-15；各模型自己的固定Wr比率约1，原col仅.00711059508→.00711054731、affineBC9.6068e−8。全部原RMS域存档，warm仍未接受。末warm SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；实际新FD9.5171077e−10/20.404s过。
-fullDN首次真非零H（首项4.1760413061806626e−17）native尾在iteration0 norm1.3414069968e7/chartCond1.3312263223e60失败；10trial全D/S/A guard、rawCell0/rawSegment7、stage13/14。outer_history空，没进入prefix Newton/新band，没有成功非零H/J或final audit。MaterialTrace早已P[:,0]=0，不能将真实小非mean H阈值归零。原zero缓存未向worker导入predictor；ready stage图256步与真RK12不同，且norm按H同缩，最坏实际stage待cold probe（见actual-tiny-H-native-tail-cold-start-failure）。amplitude查turn内RMS点473；原三求解源冻结。request18/run43602070499实际完成，publisher1e490cda：λ270/LSMR上限200在80步istop2；仍interval473/phi0失域，仅α2^-16下降1.63517e−5、原col=.007110547287。新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3，真FD9.00098e−10过、native0。详见actual-request18-converged-linear-direction-domain-limit；下一完整RMS域梯度投影，不盲加迭代。request19/run43602823170真success/publisher e84c1d79：129248项saved=原initial，原noJ576stage全guard过，norm1.34140699685e7，最坏stage11/raw0/seg7/Pi104；cut/far全0，无新solve/J。完整SHA/包见actual-cold-tail-no-J-stage-replay。same-RK零态初猜独立源已冻结/全文读；只换opts.initial，保原far/graphs/gains/scales，下一候选noJ探针准备。
-原publisher遇并发main CAS被误分类而停；root补出版全部限额输出并修识别。后续workflow已有native前独立warm/FD artifact，不回填旧17。--resume需核全部producer SHA；原完整RMS1e−6/BC1e−11/真H尾/fresh audit不动。
-R259备用诊断已冻结未调度；其直线条件不加给λ^j。R258同场消费者已冻结未有父场/执行；背景完整C²规范形准备中。
+### Native冷启动：19已定位，21候选待执行
 
-## 尾、闭合、同g精化
+17首次真非零H首项4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒绝（raw0/seg7、stage13/14）。outer_history空，没进入prefix inner/newband；没有成功新H/J/audit。MaterialTrace早已P[:,0]=0，H来自真实非mean z，不能阈值归零。zero cache未向worker导入predictor；仅zero checkpoint也不恢复stage tangent。见actual-tiny-H-native-tail-cold-start-failure。
+request19/run43602823170/source25d2dcb6/job132471064124/publisher e84c1d79真success：129248项saved=原initial数值相等；原无J576stage全guard过，70.779s，norm13414069.968482966；最大stage11/raw0/seg7/Pi104，abs6.943706093148329e−8/scale5.176434974219545e−15；cut/far全部112行0。完整证据见actual-cold-tail-no-J-stage-replay；不重跑19、不把native动量残差当空间位移。
+原linearSteps2048使stage图每profile256步，真实RK12；但原far graph及gains还定义真正边界/scales，禁止全局改linearSteps冒只改初猜。独立zero_rk_stage_initializer.mjs冻结SHA aad7ca6ebddf91dee6b38a454543bc16a5308f5474428fb1add09763c0c56288，从原零态完整逐模2×2块/原cusp网格生成私有初猜，保原far/graphs/gains/scales。它不冒非零base完整J，奇异/下溢明确报。
+request21/zerorkprobe已接push请求：新zero_rk_native_probe.py/hook锁17原六输入及19实际summary，先保完整块/构造诊断，再用同H新候选仅一次原evaluate(false)。原数值函数不改；不solve/Newton/J/audit/零锚复算，无自动新接受。接口zero-rk-native-probe-interface；geometry负责源、root调度。真实结果才决定下一原完整native求解。
 
-实际接受后：本场H尾、完整cut九jet/mean/core证书/球排除、唯一SE2、有限C²修补成本、上下尾及固定帽。全physical含z0，不加旧A mean；有限φ一般无限θ谱。R239连续充分定理不能代有限DFT零接缝。原v3五消费者已接，R252另审旧Rθ/投影缺项/正确均值。
-R240共同g=ds²+a(s)²dθ²独立core。首v3定型后冻结p*/全部scalar/尾帽/区间/t，释放全部core、K=k=0/T=M；v4维450/514。新Rφ v4三独立response/fullDN/after_accept源已重建并推送，见same-g-physical-DN-live-client-interface：真实H/J→原FD→fullmain同live TailClient/worker predictor/FrozenProfile；最终fresh audit/live scalar sidecar，不跨进程非零cache。无实际parent/执行；二分预算≥2*(nodes−1)+1，不能抄1200。
-full_state_continuous_cover/held_hausdorff已绑定全v3/v4、R249、SE2/完整mean，保R241空间门、全活动块+两帽盘真像/D/.2门；包络仍条件。held可先于reach余对。显示N32/九相位，699–1200nodes的PLY≤4656978B，实际2305tail nodes不删。
+## 之后的完整闭合与同g精化
 
-## 已证结果与消费者
+先取得实际fullDN父场：本场H/全尾响应、原outer/inner/RMS1e−6/BC1e−11/fresh audit均保。新protected warm/FD与既有physical fullDN身份兼容，但不能自动重跑已失败native。
+随后同场完整physical（含z0）、cut九jet/全材料mean/core证书/球排除、唯一SE2、有限C²修补、上下尾与固定帽；不加旧A mean，有限φ一般无限θ谱。R239连续充分条件不代有限DFT零接缝。
+新共享背景quintic定义源/表示误差账已出版：原表0/1/2输出精确成同一B，保cap高，完整cut Δ重建；几何独立B API，原A.height/w/E目标g不覆写。wrapper/new loader准备中，旧loader必须拒绝新几何身份，不能静默按旧表重建新mesh。尚无真parent，不执行旧A替代新结果。
+R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core取K=k=0/T=M再精化，v4维450/514。新Rφ v4 response/fullDN/after_accept三源已按新身份重建推送（same-g-physical-DN-live-client-interface）：同一live TailClient/predictor/FrozenProfile→新H/J→原FD→fullmain→fresh audit，live scalar sidecar绑定。无parent未执行；二分预算至少2*(nodes−1)+1（699→1397），勿抄1200。
+全状态continuous cover/held均保R241空间门、完整活动块/两帽盘及全D/.2；连续包络仍须付。R251四Loewner直接operator，request16仅三个解析接口成功，实际新scalar/prefix未核，不重跑fixture。R249入口修补费用、R254完整prefix/R258同场全FFT非平面消费者均待实际场。R258共同背景变化保持四角差，帽高保持marker，但不继承旧全几何。显示N32/九相位mesh<5MB，实际2305tail nodes不删。
 
-完整证明/假设/依赖见results.md，不以摘要替代。R248有限C²全相位强连续/metric/κ及未标记reach归约；R249入口共享jet投影保cut/mean/H，实际修补费用待付。R250/253材料P可逆与病态相容；R252完整φ有限边界不是旧Rθ等价预条件。R255精确circle剪切不冒有限φ谱；R256 exact chart/J/JT及正阻尼下降，实际截停另核。R257非圆core严格单位速入口不能纯有限θ；换表示须付全部成本。
-R260已证返回ap/app与真实a导数偏差、完整角/径向强迫及同g operator/二阶费用；有限Gauss非恒等不推实际超限，共享节点C²仍成立。R262已完整证明真实Hermite域梯度/全p/入口chain、切空间正阻尼下降与λP伴随；独立域接口及protected warm/FD已全文读/AST核；request20/trustprotected已发，从18真warm接原λ270/LSMR200的一模型，先实核完整域行，再原全域/merit及新FD，native0。
-R251四Loewner给原operator门；strict cell/fullprefix/scalar exporter已重建。request16/run43597596523仅四源compile、三解析例/series成功；实际完整scalar/prefix未核，不重跑例子。R246仅旧.984三分量证书，不能移植.99或冒operator≤1e−6。
-R254完整z0/共享Hermite逐cell非平面消费者已compile，新场未跑。R258本场全FFT/sharednode尾、内collar/全角cut修补及四角次数≤15证明完整，dtype/SE2/marker消费者已冻结未执行；新背景共享quintic源/表示预算已全文读并出版，保原帽高、重建全角cut均值修补且不改目标g；wrapper须独立B API，原A.height/w/E不覆写，旧loader不得静默读新场。尚无真parent，不继承旧renderer包络。全部闭面/含反射δE/真实像变仍待同场输入。
+## 旧失败、定理和封存
 
-## 封存与恢复
-
-旧A幅度.0630146<.2；真RK24/48、三mesh、R241 q8全部2157568子对uncovered0已付，连续包络仍条件。旧GW六节点同raw/mean/g，metric f8/16/48降1.18e−8/1.26e−9/1.62e−10，κ7.646；封存两旧支，不追额外机器六jet门。43提交、geometry26/strong90/GW35保全；strong R6失败无接受、raw未全迁，公开源78件匹配原91清单；不读private。重建均用新身份。
+request10–12旧Rθ/全线性及P诊断，13新Rφ band、14新Rφ QR、15末bridge699→1073，均无接受/新H0。15仍17trial全坏、原全线相对2.936e−6；实际cell谱1.61e5/宏传播2.22e23，不能据理想circle盲加点或只抬1200。全原回执/输入SHA在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure。
+R248有限C²全相位归约；R250/253可逆与病态相容；R252新φ边界非旧Rθ等价预条件；R255精确circle剪切不冒有限φ谱；R256精确chart/阻尼下降；R257非圆精确单位速入口不能纯有限θ；R260标量ap/app真导偏差/角与径向强迫完整，不推实际误差超限。所有证明直接results，不增机器jet门。R259备用小核诊断已冻结未调度，直线条件不加给λ^j；不同时无据开支。
+旧A δhold/D≈.063<.2；真RK24/48/三mesh/R241 q8全部2157568对uncovered0已付，连续包络仍条件。旧GW同raw/mean/g六节点f8/16/48 metric1.18e−8/1.26e−9/1.62e−10，κ7.646封存。43提交、geometry26/strong90/GW35已保全；strong R6失败无接受/raw未全迁，公开78件匹配原91源清单；不读private。不重复历史已完成实验。
 
 规则同步记录：2026-11-14T14:11:29.761427+00:00 实际pull --rebase成功；双README自91799121无变化，已读提交 7f90068ce300b91209b996023a3c7f56ec015ade。

@@ -589,3 +589,8 @@ run43602823170/job132471064124全部success，publisher e84c1d79，artifact14117
 ### 2026-11-14 同场共享背景定义和完整表示误差账
 
 root全文读独立geometry_20261114_shared_background_normal_form.py及shared-background-and-representation-budget；源SHA da4a0b5004ef8466119025d8e39e23ffb0366a5367e6761c8321299aeb19c3f9，AST通过，未数值。实际表的0/1/2输出二进制值定义精确共享quintic，原帽高/flat cuff保持；完整cut mean与整角Δ重新定义，共同背景不改四角差。coeff/宽度/clip/逆角/SE2的C0/C1/C2及operator/normal/κ/held/reach费用明确，不继承旧renderer连续性，不增机器jet门。新几何B与原metric表分开，原A.height/w/E不得覆盖；wrapper及明确新loader准备中，无真parent不执行。
+
+
+### 2026-11-14 request21：同原RK12初猜交原native无J
+
+root全文读zero_rk_native_probe.py/hook与接口，AST/哈希及原worker变量接口核对；新源SHA c5b14f0a760ec36c47206e1024e7c53b0217488b13dcbf0a7a7040ef2db0521d / 7273f97922059d7673f4354a972ffe20ca97fdccff9fb916d62d48d4f6b21ff2。公开zerorkprobe lane保17同全部H、原源/config/far/graphs/gains/scales，锁19真summary，仅新私有初猜+一次原无J；构造块在predict前保全，奇异/underflow不抹掉记录。无solve/J/audit/新接受。20实际run43603477207正在并行；H压缩历史、保全部当前检查点及后续原门。
