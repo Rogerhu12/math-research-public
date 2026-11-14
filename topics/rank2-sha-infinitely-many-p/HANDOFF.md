@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：494e0ff267da6501ce00e4e636857454448da9b8；2026-11-14 22:29:25 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
+- 最近已读规则提交：497c8c8f10ab6321780d48a6da9e31444de0eb45；2026-11-14 22:33:15 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:32:12 UTC仍无环境。最迟23:30再试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
@@ -15,14 +15,14 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–600、R602已登记；R364仍开，R561/601/603/604/605/606进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r597-prefix-normalization.md)、[open](notes/2026-11-14-open-before-r600.md)；
+R1–363、R365–560、R562–600、R602/604已登记；R364仍开，R561/601/603/605/606/607进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r604.md)、[open](notes/2026-11-14-open-before-r600.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R601-R650.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta续R601实际外矩形+内部权差的同源补偿；R599已把完整深度差准确接回原I1，未得中央→I1零。
-- literature续R604同权实际截面/真前缀空区间及接触界；R600已付纯S/T全次数余类矩阵和准确中央Euler第一层，保模p权碰撞/零权。
+- literature续R607真实多阶饱和/混合九格；R604已付原S/T单位阶梯子式、全真前缀空区间及二次接触界，不将非连续行列式计旗标成本。
 - deep续R603：R597已付r1ν2原结点整临界支及低ell全部第二类；继续同一真实z0/z1与全两像。原深前缀右逆的定量应用作同篇增补，不重复R412。
 - root续R606原下一中央整商与同参数/pole实际约束；R602已付全Hurwitz余项和完整第二Bockstein，全部原j尾保留。
 
@@ -68,6 +68,8 @@ R597补齐r1ν2：原三列det−2给整分裂结点支，A/B∈w²而C∈w，�
 
 [2026文献精确假设](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)保逐p二次单位/高度/受限秩及随权非消失界限；未新增固定来源无穷非消失输入。
 
-R602删原cw^s后F°及原G全部n!系数整，n<p整窗、每闭R<R*=p^-1/[6(p−1)]的真实Tate余项已付，不认闭边界最大半径。原a_h≥h−vp((hs−1)!)给新完整尾M*；j_m/p≡(2A_m,1−pA_m,2/γ_m)/γ_m modp²。完整j0迫括号∈p²，首层失败时第二层准确读2A1/p−A2/γ。有限H全二项式式和中央Euler延拓同更大开盘保正文；未付无穷命中/全D cutoff。
+R602原F°/G全n!整、n<p整窗及每闭R<R*=p^-1/[6(p−1)]Tate；不认最大/闭边界。新完整尾M*给j_m/p≡(2A1−pA2/γ)/γ modp²；首层失败时第二层读(2A1/p−A2/γ)/γ。全H原系数二项式式与更大中央Euler盘保正文，未付无穷命中或全D cutoff。
 
 [普通Euler有限阶障碍](notes/2026-11-14-ordinary-euler-finite-order-obstruction.md)：若θU=A原非零有界测度，任何有限阶τ都须τ(xf′)=ν(f)；全差商连续性/小球Mahler逼近迫ν所有球0。故R598两U不能添入R579普通有限阶格，有限Taylor/Dirac修正无效；中央Π0条件保持。
+
+R604 D<s的原S/T列、行n=hs+q（0≤h≤q≤D）以p^hh!整化后，det≡(38pc)^binom(D+2,3)∏(j!)^(D−j+1)单位；真K_{D,D(s+1)+1}=0。取p=(6+o1)D得最大接触在½D²+O(D)与(1+o1)D²之间。非连续raw det不等连续真旗标，未给九格cutoff。
