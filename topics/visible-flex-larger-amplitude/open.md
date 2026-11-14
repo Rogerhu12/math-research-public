@@ -72,3 +72,5 @@ request27/sevenprojection已接推送：锁actual26 warm4e2ee245…，新增实�
 request28/nativecorrection独立原完整校正捕获已接推送：源0b49f142…/hookb20aee4d…，同actual25/23 H与全seed，原withJac/correction表达式保持；完整J/r/delta/所有原σ缺陷及最大图矩阵保存后在trial前计划停机。仅诊断完成，不报native/J/audit接受；全部大阵仅artifact，详[捕获接口](notes/2026-11-14-native-correction-capture-interface.md)。
 
 R267完整证明已入results：同一固定模型可在任意证据点取Lagrangian下界，再约束另一个可行候选；最大合法下界优于只看投影后巨大梯度的单点界。完整原梯度与有符号slack仍必须实际重算，跨迭代刷新权重不可混；actual26仅形式代入，严格浮点认证另付，不新增运行门。
+
+request27已全success，见[真实七query续步](notes/2026-11-14-actual-request27-seven-query-projection-warm.md)：α1/16、同固定权重真实降.0510362901、新warm f73dfc81…/新FD7.819e−10；完整14336行修到浮点非负，仍col.0071104568/BC8.963e−8/native0。最近拒绝1/8的七query全角正而1个原midpoint失败，位置未存。下一从此新warm保同七query/所有原门，给原evaluate返回middle/fm加只读观察，记录实际坏中点及角余量，不盲加第八RMS行。28真实run43611175099/source6bd52b44/job132496373274在原校正捕获阶段。

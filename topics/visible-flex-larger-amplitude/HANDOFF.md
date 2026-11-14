@@ -21,12 +21,13 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀RMS域：26全角投影真实下降，接新增邻接query
+### 前缀：27七query真实下降，下一记录原坏中点
 
-旧17/18/20/22仅warm，完整失败/梯度/原件详actual notes。24已核22方向五处×2048完整complex差≤5.52e−13；最近480一阶失域夹原接受/拒绝，但大步非线性余项不能忽略，R263 E/Delta1.48521不冒高精度QP。
-26/angleprojection run43608931469/source2a251065/job132489481146全部success；artifact14119626920 108924237B/ZIPe0c1e49b…取核。原699/M112/T112/N2048；完整B实际LSMR complex6.563e−13、adjoint2.273e−18，所有原数组身份核。三源保持，详完整actual26 note。
-26完整model/真实试步详actual-request26 note。λ270、Hildreth200未收敛；径向修复factor.8606834326670906使10240行可行，τ1选投影，原gdot−.8769409414/模型Delta.4990204300。真实α2^-6，同模型merit降.013647632005913124，全部域过；col.0071105254/BC9.449e−8仍非解。新warm `notes/public-actions-43608931469-1-angleprojection/full-angle-warm/warm-001.json.gz` SHA4e2ee245a3c931210eed8a9a67a4202397eb709b3e5aacc7271418d76d4098c1；新FD8.658996438962446e−10过原5e−5，native0。不同迭代权重不可跨模型相减；R267允许用raw完整gradient345.6423作另一证据点，不以投影后大gradient冒最优。
-原五query所有角在α2^-5/2^-4已实际正，但前者左RMS481/φ0/β²−.00820413失败，后者472/481两处失败；右RMS0。更大步midpoint只存计数不造位置。27/sevenprojection真run43610469627/sourceb92d4b20/job132494273063在算：七query(472,473,475,477,479,480,481)同λ/投影/原17回溯/新FD，两薄入口f6598a5e…/d05df1fd…复用冻结26引擎与B，父producer原样。大B/J/Γ NPZ仅artifact、manifest/input/source/hash入Git。
+旧17/18/20/22/24完整原件和失败详actual notes，不重跑。26/run43608931469全success：五query全10240行投影径向修复、α2^-6真实drop.0136476320、新warm4e2ee245…/新FD8.659e−10；更大步五query全正而实际左RMS472/481失败，故27新增这两处，冻结26引擎7d75a44a…/operator af7966fa…不改。
+27/sevenprojection run43610469627/sourceb92d4b20/job132494273063全success，artifact14119758437/143121398B/ZIPd610b3d9…已取核；完整actual27 note4fc673d6…。同699/M112/T112/N2048；七query(472,473,475,477,479,480,481)完整14336行，68文件/421数组逐核，actual-LSMR B complex6.549e−13/adjoint7.371e−18。唯一88次原Jac/11node，B大阵仅artifact，manifest/source/hash进Git。
+λ270/200 LSMR80步istop2；C-Hildreth200未收敛，100负slack经factor.8216634644079532修成全非负(min1.700e−16)，同f线段τ1选投影。原gdot−.8236822441/模型Delta.4848515638；完整gradient210708/零dual E304512不冒QP最优；R267可用同模型raw完整gradient346.2107作另一证据点，未实际算新比例。
+原17trial在α1/16接受，同一固定权重merit44.43133020235467→44.380293912301596，drop.05103629005307653/ratio1.002883586；node/mid/两RMS/rho全过。col.007110456794261092/BC8.962976439976726e−8仍非解，native0。新warm `notes/public-actions-43610469627-1-sevenprojection/seven-angle-warm/warm-001.json.gz` SHA f73dfc81b6247363e449be16f142e552f857ec38846f8bff0954f0ca76b55422；新完整Rφ FD7.819442926433809e−10过原5e−5，全部112 H保留（首项1.9911248007634974e−14非零）。各轮权重刷新，merit不可跨模型相减。
+最近拒绝1/8只有1坏midpoint、七query全角已正；1/4有3坏mid，位置均未存，不造因果/不盲加第八左RMS。下一独立observed-seven入口从f73…保原同七query/λ/200sweep/17回溯/所有域与新FD，仅读原evaluate返回middle/fm记录坏indices/stations/full N2048 β²/输入哈希；不重算wholeflow/J，不改finite/merit/原判据，诊断异常只记录。
 
 ### Native：23初猜成功，25原Newton线搜索仍失败
 
