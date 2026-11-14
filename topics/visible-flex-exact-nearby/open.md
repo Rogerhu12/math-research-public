@@ -147,3 +147,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 fullδ正侧s−1实际scalar接口已发
 
 新24-pin消费者仅四份已完成text receipts（body process11040B、order1 summary21555B、outer summary23649B、collar process11340B）。新科学source16ffa1a5…由tail逐式独核原N8–15与原完整negative DN及实际字段；新的χ/λ/onto、seven source/eight outputs、outer四affine及三mean列仅公开Actions执行。原4650kernel/3594joins/7721envelope/target/reference/outer解均零重算，body大native不再读取。原baseorder<.5反射门不移植negativeorder；只检查真实interface可逆。完成后将实际positive seam/raw源接此窗，仍保head/mean，fullreturn/CE/充分cutoff另付。
+
+### 2026-11-14：U.1–U.29 已封口，接实际余项预算
+
+完整 old-circle I/J/rank-one/mean 恒等式见 [U 证明](results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md)。下一项以已成 root/forcing/seam 原 native 逐 1328 原格核 $C_{\rm nl}$、$C_{\rm mean}$ 及近根平方可积费用；必须保留 $J^*$ 负窗和原角均值，禁止由三阶 intrinsic 免费造第四/第五径向 jet。$L_0v_1$、正侧和完整强 return/实际 cutoff 尚未封口。

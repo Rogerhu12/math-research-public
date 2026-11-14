@@ -437,3 +437,7 @@
 ### R133：1079第一Airy接缝与六窗口实际强源分量（2026-11-14）
 
 [实际完整报告](results/R133-supplement-actual-first-Airy-seams-and-six-forcing-windows.md)：公开43625828234 child0，39门/3.120059158s，1079全seam（负576、正503）与六R全成。仅复用root1300与forcing1328两native，所有原target/ray/幅度求解零重算。H−4/3密度经完整jump到H−2/3×H−1，mean/全输出/真实J保；负mixed总<.001410784445846，正raw总<.000084384155779。接真实全mean Cauchy和I后的负firstseam分量，R=.001/.002/.005/.01/.015/.02依次<.006640943888194/.007954758420372/.015796407565706/.073586382065041/.414504748220525/2.203048631221；所有jump无径向长度折扣。native871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642，904977B，根只读40085B process与2734B worker。完整return/CE/Cs/N97仍false。
+
+### R133：完整 old-circle I/J 余项及真实 mean 源（2026-11-14）
+
+[U.1–U.29 证明](results/R133-supplement-exact-old-circle-inverse-remainder-in-negative-source-window.md) 已对原 ordered O.9/O.12/O.15 与 complete-moving N.11–N.15 回核。保留全部有限秩项、$J$ 与 $J^*$ 的 one-gain 负窗、七类 $I/J$ 非局部项及独立 mean 源；$S_V$ 中交换子余项为 $-R_{b_0,d_\phi}$。用精确相位导数将 $n^{7/6}$ 密度降为 $n^{1/6}$ 并显式计付 old mean，给出 $C_{\rm nl}$ 与 $C_{\rm mean}$ 的有限范数算法，只需原系数值/第一径向导数及有限角矩。此处为解析恒等式与可执行预算，不是 $N=97$ 小性或全强 return 结论。最终文本 SHA256 `3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9`。

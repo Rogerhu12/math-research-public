@@ -215,3 +215,7 @@ source8d9d56b50b6aaa8a9f73a51223331860866a8bbab7f5d64971f952cc3285657a、CI97338
 ### 2026-11-14 18:33:04 UTC — 发布正侧负阶四收据scalar消费者
 
 root新source22029B SHA16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac2a88509，CI9299B SHA50b8d6f9bf9d5488b7a8993a8c9506f06f2128a003511e69910da8c707da6bf3，24pin manifest4c4f8456ff244599e1d3216b10406e8973888e7117ca71710a1cde6e0b0e32d1，flow17b79c4d932bf78eb5af38e6c542185af3f09f9263afed3dbce8e4b8f08c9865。tail亲核actualouter P/U/V/m、oldDN small+Xiwide/epsilon、四composition/Hilbert/chart/Robin/mean及全部七输入八输出，bodyorder1原right独立无重复外反射，raw/Bessel/jump/root/primitive因子准确。只新scalar算术；19+11+25旧门和native/process精确身份冻结。AST与真正数值验证全部由公开runner做，保每个失败，不预宣实际门通过。证明末补精确旧文件链接，SHA0f1383da8611aef931829876b49579f41c7a967435c795ef68a85d2a142cac23。
+
+### 2026-11-14 18:45:19 UTC — old-circle exact inverse remainder
+
+独推 U.1–U.29，root 与 tail 独立发现并核正 $S_V$ 的 $-R_{b_0,d_\phi}$，其范数预算不变；回核原 ordered scalar 与 complete-moving (N.11)–(N.15)，明确链接代替旧编号。全文 SHA256 `3e02303afa6f82da01ba768d4bccbbaa0c702ce63ad4582c36d131aa1a8510d9`。纯解析/文本，无本地数值计算；继续真实余项 Actions。
