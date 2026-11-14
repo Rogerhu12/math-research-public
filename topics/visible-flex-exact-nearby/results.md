@@ -265,3 +265,7 @@
 ### R133：真实 cut v3 的完整混合源实际通过
 
 见 [cut v3 实际结论](results/R133-supplement-actual-known-cut-direction-complete-cap-v3.md)。43610982446实际11门和16新格全成，完整1977格、mean/high、14 Green通道保；true97来源<0.000122496966。只授一个已知qstar方向，完整算子、同Z边界与响应误差仍须继续。
+
+### R133：闭式 leading Airy 幅度的实际复域界
+
+见 [实际22门与完整幅度界](results/R133-supplement-actual-closed-leading-Airy-amplitude-bounds.md)。43612196888真实通过；a0及其逆和两branch逆<51/50，b0/T²<6。13原输入复用，不重做ray。高阶幅度、真实seam源与数值strong门仍须续付。

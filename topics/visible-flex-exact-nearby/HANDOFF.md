@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 15:57:29 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 15:59:08 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则、同步
 
 只在 Rogerhu12/math-research-public；所有新数学代码只用该公开仓库 Actions。每结论独立推，非快进立即接最新 main/rebase 再推，不 force。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34 UTC）；12:35 后终端失联，15:25重试仍无环境。按根规则8只经已连接GitHub处理<100KB文本，禁止经connector取二进制或大文件；先查process/目录库存size，摘要宜<60KB。API不是git pull。
-最新远端 main/两README blob 核：80e94059329e3c01fc0e14ca2957e50358ac51b9；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
+最新远端 main/两README blob 核：32fd1ebdc83e7f78919ce2b5897f55b23cb53736；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
 小文本发布使用最新base/parent、expected_sha、force=false；竞争立即接新main重推。PAT仅瞬时CLI/env，不进文件/输出/提交/connector。root独占branch/ref/H/open/results/log；代理仅小blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H/open/log逐原字节归档于 notes/2026-11-14-{handoff,open,log}-before-closed-leading-amplitudes.md；各前档链完整。完整SHA/原失败/原范围均在对应result和manifest，不用短SHA重绑，不重算已成数学。
@@ -40,7 +40,7 @@ root现走更直接的新参考下旧M32主块+δM96小块，原4650系数复用
 R31 43586895661/11门及43588332723真A1/128域已成，|δ*|<9.368259853002e−11。ρ15=(5831714953207175+√5)/21212218271020390；principal四根gap1/(68|j|)。Xi43591721337与δ转移43597209022全成，−Xiδ*/4∈(18.478324305027005,18.478338742519616)。第一相位43598755503/11门授该区间全部|n|≥97四根gap1/(512|n|)，仍需δ*完整根有限部/strong。
 全scalarization43594466882/13门、fullδ fold43602612900/16门、negative Cauchy43604498718/12门、oldI/Airy43605453793/11门已成；原I/mean/J/源全保，μ(∂T²+T∂X²)准确，反解81/4000000×1/128；negative仅root→负/s0，raw≤4.1(root+.003source)。
 P1–37 actual root parametrix已证：Id−SI消wrong-branch一阶，density归一n7/6，完整列HS给H−4/3→L2强类；given-head δ0 scalar brootfin=0。25门43608838195实际通过，Fc→negative<.953797、Fb<13.367963、根floor>1/25、J:L2→H1/3<7/2。小positive指数1.82704e−8不授N97。
-新closed-leading L1–20：G=(k*/η*)^1/6 A^1/6 k^-1/4 E，E=exp(−2∫b〈u²+Kv²〉)，a0=G(Xφ²−T Tφ²)，b0=−2iεG XφTφ；真ηr项消、leading逐原seam C1。13-input CI待实际；C_E/C_s/后续幅度与跳/数值cutoff未付，不能借形式order或跨piece虚构joint解析域。
+closed-leading L1–20已证真闭式G/a0/b0，leading逐seam C1；43612196888实际22门/.564667s全成，native1c00bf9f6d80343b96bdabf2ce2b07f1f3461851ad0783b9a2a59a495d141cdd。a0<1.004641504569、a0^-1<1.004667223723、两branch^-1<1.004667221675、b0/T²<5.287642787676，完整复δ1e−8/root9e−6域。C_E/C_s/后续幅度与跳/数值cutoff未付；正扩真实逐piece窗及s−1负Cauchy，不虚构milliscale径向解析。
 directed返回V−^-1V+=U_(S−∘X+)非平方。root有限(buv/η)Swap均值0非矩阵0；须与原重构合并。腰K′=b=S0已审。完整β到δ*仍待positive转移及实际强误差。
 
 ## 尾与闭合
