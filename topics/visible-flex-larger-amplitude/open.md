@@ -6,9 +6,9 @@
 
 .99自由93核的M96/N1024真BVP已有完整接受结果，材料C²两档误差5.77368e−7、完整核G≈.96000098/rho>.16385011989。后续公开run43582043166真接受.996和.9975，但物理metric升至4.60534e−6/8.08662e−6，不能视为已达标前缀；.997875的真实Newton因病态化、回溯失败及网格上限未接受。保全两接受点和失败checkpoint，不仅提高网格上限继续原分支。
 
-当前使用较好的.99初场，加完整AngleConnector/coast/finitebridge和3个内支scalar控制到原r=.3物理cut。690节点完整θ圆warm域已通过，但残差.00711还不是解。全部96个材料H与全部core换角导数进入389维增广BVP；固定前3核，其他93核加3scalar配96条真非均值tail-DN边界。FD粗步略超门、三步收缩修正待实际消费者；原Newton/BC/正性门不改。
+当前使用较好的.99初场，加完整AngleConnector/coast/finitebridge和3个内支scalar控制到原r=.3物理cut。690节点完整θ圆warm域已通过，但残差.00711还不是解。全部96个材料H与全部core换角导数进入389维增广BVP；固定前3核，其他93核加3scalar配96条真非均值tail-DN边界。三步/Richardson FD已在run43584222071真实通过；原Newton/BC/正性门不改。首690节点inner真实reduced condition7.153e17、linear相对残差.57657，未接受任何更新；SciPy随后插值到878节点RMS NaN。当前检查支持coast控制在全圆warm上不可观测，接独立prefix3支撑并完整覆盖原RMS的两个Lobatto点，不原样重复失败初猜。
 
-原g的T96/N1024零H完整variational/J/audit已经真成功，805.484s、原resid0、metric9.992e−16。完整响应经严格来源/配置核对可只复用相同零H首响应；任何新H和最终audit仍原真worker。零态J图条件数严重，须读原J独立代数诊断，不能拿ready参考图冒真J或导数精确收敛。完整DN尚待本轮push请求的实际运行结果。
+原g的T96/N1024零H完整variational/J/audit已经真成功，805.484s、原resid0、metric9.992e−16。完整响应经严格来源/配置核对可只复用相同零H首响应；任何新H和最终audit仍原真worker。零态J独立Actions诊断已完成：Darboux二阶相对差1.32053e−12，mean/跨模0、height I；ready与真shooting最大相对差.011685，仍不能替代真J或证明导数精化收敛。首联解失败前准确复用零响应1次，没有任何新非零H尾请求。
 
 实际联解接受后，立即完成以下相互依赖的内容：保存完整physical/constant状态与真实H尾；原core证书和球排除；真正cut的完整材料角谱；同一SE2及高度偏移下的六jet；明确有限C²修补对metric的影响；完整上下尾和固定帽组装。新场已经含物理z0，不加旧A mean。原φ96通常含无限θ谱，不能只投影96项便称连续接缝为零。R239是连续充分条件，仍须核其实际分支、turning number和全部高度jet输入。
 
