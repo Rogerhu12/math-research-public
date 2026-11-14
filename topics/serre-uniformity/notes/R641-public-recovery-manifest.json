@@ -1,0 +1,46 @@
+{
+  "result": "R641",
+  "disk_id": "SS_j36_09",
+  "status": "proved_entire_disk_excluded",
+  "run_id": 43585123331,
+  "source_commit": "f70377b91012fae2d5d6773d6cadbcf5a1c2e04f",
+  "files": [
+    {
+      "file": "computations/R641/43585123331-1/run-receipt.json",
+      "bytes": 6444,
+      "sha256": "d6b2920fce773d5cf0fc8975267b80cc192afe0e8a258bc72d511fd203ab51f1"
+    },
+    {
+      "file": "computations/R641/43585123331-1/public-actions-input.json",
+      "bytes": 1067,
+      "sha256": "94925328d4430183e1b959d0a106de14ccff98b1971a22fde8f8c30fab30879f"
+    },
+    {
+      "file": "computations/R641/43585123331-1/f2/SS_j36_09_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 33118,
+      "sha256": "9e1cbff5fee1e22ccd2fc2ce5d8eaf5d44ce4f29eac3dcc8d88aaf563f292075"
+    },
+    {
+      "file": "computations/R641/43585123331-1/f2/SS_j36_09-principal-F2-independent-audit.json",
+      "bytes": 7356,
+      "sha256": "bdfa6899f36fd99a7e72bd6157dcac8f9a5723c0defd668ba6b0f768fca1caa6"
+    },
+    {
+      "file": "computations/R641/43585123331-1/f2/p41_SS_j36_09_principal_transports47.tar.gz",
+      "bytes": 1777964,
+      "sha256": "4aeb9d68e5bf4a90d6a13c271a7206d22e7150bf86c302248b6ff9a0ca070996"
+    },
+    {
+      "file": "results/R641-SS_j36_09-actual-ramified-height-and-complete-disk-exclusion.md",
+      "bytes": 5341,
+      "sha256": "c48f2fef4c33849b31a145b1d122ce2c3dbb5fe2b919240b2ad749cd7028938b"
+    }
+  ],
+  "derived_based_inputs_preserved_in_original_artifact": [
+    {
+      "file": "R641_SS_j36_09_based_points47.json.gz",
+      "bytes": 108236,
+      "sha256": "753c3681a7aaf214adcebaaa34f4aac7c13ecd744689d42482662375a913c5ec"
+    }
+  ]
+}
