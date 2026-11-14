@@ -1,0 +1,107 @@
+{
+  "kind": "actual_public_complete_mixed_Z_source_process_v2",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43613560173",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "bd26144de9d95099725264586586f7b956644d0b",
+  "worker_source_sha256": "c0654466f3451b38f469c00f7286a0f450db0bd52cc62973f72838ac1528e411",
+  "started_utc": "2026-11-14T16:16:36.183149+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T16:16:36.480568+00:00",
+      "before": "f01d13b2a2b2aa4daf2b0377504ce0127dfa3ba4",
+      "after": "f01d13b2a2b2aa4daf2b0377504ce0127dfa3ba4",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:16:36.843970+00:00",
+      "before": "f01d13b2a2b2aa4daf2b0377504ce0127dfa3ba4",
+      "after": "f01d13b2a2b2aa4daf2b0377504ce0127dfa3ba4",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "phase": "finish",
+  "source_range": null,
+  "new_target_provider_calls": 0,
+  "old_original_target_mean_or_trial_reconstructions_executed": 0,
+  "original_exact_bump_pilot_run": 43610523058,
+  "original_exact_bump_pilot_native_sha256": "c37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c",
+  "full_mean_and_known_high_sources_retained": true,
+  "complete_infinite_inverse_proved": false,
+  "actual_full_PDE_response_error_proved": false,
+  "input_manifest_sha256": "05178f530e1fbc9be1016faa52cb9f5773e199915ab7bfcae1ad187609e7e0ac",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "f01d13b2a2b2aa4daf2b0377504ce0127dfa3ba4",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-full-Z-work/science",
+  "actual_plan_native_sha256": "26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a",
+  "actual_range_native_sha256": [
+    "77493841a8b5706e35356917886c147cde2ff7d3fdf7ddb3515bebde95ce32ff",
+    "50196701a14ce1e3bed5918c07a93faa027a179d9dd0dacd4d2928fdce0bed38",
+    "1960a840385df22e7d8791ae692559468c3e5b8de6926b55deecebdbc9285573",
+    "3203e947daf015063713c92a56461c790fa33ae0594e49518ce3000280ff8764"
+  ],
+  "snapshot_utc": "2026-11-14T16:16:36.903215+00:00",
+  "wall_seconds": 0.7207824989999949,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-completed-plan-process.json",
+      "file": "evidence/actual-completed-plan-process.json",
+      "bytes": 31823,
+      "sha256": "489c4a2a14b4eb3de44e78b3767ef5dbf52aefac9a66cc9bb26c5b225fe9b0e8"
+    },
+    {
+      "logical_file": "evidence/actual-range-0597-0886-process.json",
+      "file": "evidence/actual-range-0597-0886-process.json",
+      "bytes": 22420,
+      "sha256": "69f6d359943644f47896c48f328bf821a3a590c944332ed53d1bdc2ed96b293a"
+    },
+    {
+      "logical_file": "evidence/actual-range-0886-1175-process.json",
+      "file": "evidence/actual-range-0886-1175-process.json",
+      "bytes": 22115,
+      "sha256": "2410601c35850e3a368560fe36815885483af02f0439aa1dd4b05c64410f91ba"
+    },
+    {
+      "logical_file": "evidence/actual-range-1175-1464-process.json",
+      "file": "evidence/actual-range-1175-1464-process.json",
+      "bytes": 22112,
+      "sha256": "338956997f36568183c039d564989371d6af6ea97be15666588bace764d6d332"
+    },
+    {
+      "logical_file": "evidence/actual-range-1464-1753-process.json",
+      "file": "evidence/actual-range-1464-1753-process.json",
+      "bytes": 23058,
+      "sha256": "461ad5bb2fdda3795108d3db52885813651ddf6ebd2086b28a456afbfa6ac018"
+    }
+  ]
+}
