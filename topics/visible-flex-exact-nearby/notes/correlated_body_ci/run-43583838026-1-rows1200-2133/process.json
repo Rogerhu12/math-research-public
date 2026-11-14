@@ -86,6 +86,32 @@
       "actual_returncode": 0,
       "wall_seconds": 335.008524514,
       "finished_utc": "2026-11-14T10:29:25.567091+00:00"
+    },
+    {
+      "label": "actual_body_rows_1968_2133",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-work-1200-2133/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+        "--candidate",
+        "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--mean",
+        "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+        "--adjoint",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+        "--first",
+        "1968",
+        "--count",
+        "165",
+        "--out",
+        "/__w/_temp/visible-exact-body-1200-2133/native/rows-01968-02133.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:29:33.834461+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 205.00598667999998,
+      "finished_utc": "2026-11-14T10:32:58.840901+00:00"
     }
   ],
   "readme_checks": [
@@ -168,6 +194,30 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:33:01.092426+00:00",
+      "before": "535c472ba15ab8f739d4715ed0405be961cde64a",
+      "after": "4d5c42e5df009d4852fc29f5761babc6e9086783",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:33:02.655736+00:00",
+      "before": "4d5c42e5df009d4852fc29f5761babc6e9086783",
+      "after": "6dfbc3b309914e4f35b78a0f9bd4314e34a68b23",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:33:04.026354+00:00",
+      "before": "6dfbc3b309914e4f35b78a0f9bd4314e34a68b23",
+      "after": "faedab7aade8ce749e339cf0798cd60196dc87d0",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -195,6 +245,11 @@
       "time": "2026-11-14T10:29:32.180796+00:00",
       "final": false,
       "commit": "535c472ba15ab8f739d4715ed0405be961cde64a"
+    },
+    {
+      "time": "2026-11-14T10:29:33.832147+00:00",
+      "final": false,
+      "commit": "57c6838ba3fd3ceab81a78dcd03149017f992619"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -224,7 +279,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "535c472ba15ab8f739d4715ed0405be961cde64a",
+  "last_read_commit": "faedab7aade8ce749e339cf0798cd60196dc87d0",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-body-work-1200-2133/science",
   "actual_atomic_ranges": [
     [
@@ -244,8 +299,8 @@
       2133
     ]
   ],
-  "snapshot_utc": "2026-11-14T10:29:32.533831+00:00",
-  "wall_seconds": 1109.2600180509999,
+  "snapshot_utc": "2026-11-14T10:33:01.156771+00:00",
+  "wall_seconds": 1317.882960705,
   "native_files": [
     {
       "logical_file": "native/rows-01200-01456.json.gz",
@@ -264,6 +319,12 @@
       "file": "native/rows-01712-01968.json.gz",
       "bytes": 1173894,
       "sha256": "0fd0dfc0c18c4bb4693d2c80e0c77807d04a78c1fe3b62ae2fa645f354a3eaf4"
+    },
+    {
+      "logical_file": "native/rows-01968-02133.json.gz",
+      "file": "native/rows-01968-02133.json.gz",
+      "bytes": 761933,
+      "sha256": "403922bdbeef227ac54f2db33a31f20a81d5e235e0bce5a0b47f46dc230d734a"
     }
   ],
   "completed_atomic_parts": [
