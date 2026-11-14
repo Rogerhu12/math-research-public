@@ -1,0 +1,42 @@
+{
+  "receiptSHA256": "d8b9fd65355c43c37f956386525a248bfc4a344179b71add83adf931fad59054",
+  "executables": {
+    "source9": "c1b9c3ff70bfffc737d274b1a60578392f4ded611c5ba86fb36e73d87857acf7",
+    "transport": "42749e3f375198cef90646d82ab9a508699ae485e38242e427f901dc7a299b52",
+    "original": "a9c2bd32f5cf8b0506241b50dbe948b81ad4aae8958e3e97d8aeb9c4297dd5cb"
+  },
+  "initialRecovery": {
+    "inputs/projector-free-nine-image.mix": {
+      "bytes": 1955,
+      "sha256": "2241e3d69bd060b3d2e8972b0b478b7d947295a0927c3dae159c15799d1c256e"
+    },
+    "projector-free-image/projector-free-image-image-certificate.json": {
+      "bytes": 606,
+      "sha256": "c5d255fed3839166ccb82962815c0e1085438e4af274bcea7a8a2b83570d9cb8"
+    },
+    "projector-free-image/projector-free-image-image-quotients.bin": {
+      "bytes": 815213,
+      "sha256": "5ded3e20c2618b13fa5c699d93b75391a82c116522fa31f36686a6b482f32795"
+    },
+    "projector-free-image/projector-free-image-image-remainders.bin": {
+      "bytes": 110,
+      "sha256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a"
+    },
+    "projector-free-image/projector-free-image-normal-forms.bin": {
+      "bytes": 551994,
+      "sha256": "5d7e1707dff7873ead494d5947fed0268af1b678af960595a0f302e4e7a3c86c"
+    },
+    "projector-free-source/projector-free-source-vq-checkpoint.bin": {
+      "bytes": 6247636,
+      "sha256": "f31ea5ce0f426fda8627cec9a444a4722629f38c86e0f7c12ab93faa38aa9ced"
+    },
+    "projector-free-source/projector-free-source-vq-checkpoint.json": {
+      "bytes": 331,
+      "sha256": "edc2a02c03c0daf8c508bbc69e89d3e4e9ec31eb2b755e0d377f98a9b959eb0c"
+    },
+    "stage-cache/image.json": {
+      "bytes": 860,
+      "sha256": "0677ace7e9197ed520db89a899eec00465f8f4762717e6475313feb327bdab5d"
+    }
+  }
+}
