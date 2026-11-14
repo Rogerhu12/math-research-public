@@ -587,3 +587,7 @@ root逐节核P1–37及真实global T根stable正号、完整mean源、density n
 ### 2026-11-14：原 moving-root 25 门真实审计结论
 
 亲读43608838195 process全25门、15输入和原接口身份，math0.665159872s。发布独立报告，区分workflow2d9d443与science20fdbe5。保留七source列与true mean，实际body费13.367962638380不向下写成1。positive cutoff指数仅1.82704e−8，故不据此授97起强小量；后续数值幅度与非零δ正区仍继续。
+
+### 2026-11-14：完整原物理 Q7 差已单独推送
+
+根逐式读D.1–36，核对Möbius有序差及两条酉Poisson恒等式，避免未付actual H1逆或错接free Airy frame。均匀差δ^-38消费一次middle角阶和同Wcal^-2后幂1825/16；无新数学运行。此结论仅全物理差及裸中频压缩，不能据之宣布actual全inverse。tail继续两外真实Schur与源/标签权。

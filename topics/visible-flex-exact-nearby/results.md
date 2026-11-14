@@ -245,3 +245,7 @@
 ### 实际 moving-root 接口和有限系数审计
 
 [完整报告](results/R133-supplement-actual-root-parametrix-interface-and-finite-coefficient-audit.md)：公开43608838195/15inputs/25门实际通过，nativee80e42d182f5b77158fb147cfe12300d62769dbf7d4777d1bd4e5c244a70cdb6。Fc→negative<.953797，Fb<13.367963，根稳定对角>1/25，完整J:L2→H1/3<7/2。对象仍δ0 given-head；未评C_E/C_s及数值入射cutoff，fullδ*/全PDE未成。
+
+### 完整 Q=7 物理网络差与同谱权中频压缩
+
+[新证明 D.1–D.36](results/R119-supplement-complete-physical-Q7-network-difference-and-weighted-middle.md) 保完整两根、正区、strict缓冲、mean、实际Γ值与全部Fourier交叉：完整行和adjoint列H1→L2差<2^22000 J24 δ^-38 NX。同五盒实际Wcal下裸middle差<2^-6000000，幂1825/16，余量2667/256。明确裸压缩不等于真实外消元U_M；准确Schur差/酉Poisson恒等式已给，仍继续支付外响应与最终层权。

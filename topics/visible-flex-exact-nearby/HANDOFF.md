@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 15:28:46 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 15:29:31 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：563fb3bd47ebdacd209f206b20de9294f98f278d；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：87e0e9a160370a7d27399086a20ce9856015b054；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -48,7 +48,7 @@ Xi43591721337真实3146行/6门，δ转移43597209022真实12门/179输入，fee
 
 完整负散射/ordered network两strong窗H0→H4/3、H−4/3→H0已证，mean/source/外口全保。λ=2^32√Jδ^-9/4，网络余项2^20000λ4/3，Tnew=2^65664J²δ^-9，HH<2^-1024于无层权ℓ1/2/∞；最终层权未成。freeAiry低κ^-5/6勘误适用所有后继。
 低1/紧3/高1三不交phase零图、actual mixed三域全成；高紧A1–27的rootH3/strictF1/Γ两列全付，双K改η2^2500/direct2^5402。低det在0,e双零；每κ包PSD不自动相加全网络。
-新五盒完整径向谱选择Q1–31已证：每真正负窗5坐标，每层2窗；固定M有限active链、真实无限low尾准确消元，外prefix实允许线不除height。每目标圆点谱流≤d来自near-I symplectic/Cayley自伴关系，非generator小量假设。共同产品好集>1−88/16384；原incoming逐窗Wcal²=2^-48J^-3 M^-17/16 D，||Wcal(I−U)^−1Wcal||≤1，统一Wcal^-2<2^864000J^8330δ^-1073/16。见 five-local-parameter-cube-and-complete-radial-network-selection。仍须actual混频全差、两外E/F Schur、原source/标签与最终层权。
+新五盒完整径向谱选择Q1–31已证：每真正负窗5坐标，每层2窗；固定M有限active链、真实无限low尾准确消元，外prefix实允许线不除height。每目标圆点谱流≤d来自near-I symplectic/Cayley自伴关系，非generator小量假设。共同产品好集>1−88/16384；原incoming逐窗Wcal²=2^-48J^-3 M^-17/16 D，||Wcal(I−U)^−1Wcal||≤1，统一Wcal^-2<2^864000J^8330δ^-1073/16。见 five-local-parameter-cube-and-complete-radial-network-selection。完整原Q7混频差D1–36已证：H1→L2及adjoint<2^22000J24δ^-38 NX；用同Wcal得裸middle加权差<2^-6000000，δ幂1825/16、衰减余量2667/256。根balanced两行直接接true Cayley/完整Möbius；两mean、Γ值差全付。裸middle非有效U_M；两外真实E/F Schur/角表示commutator/Γ导数源及最终层权仍欠。
 geometry43584188751真实26门仅条件充分：同一闭C²真解η0、全C0误差≤1e−4、|δν|≤1e−5、真实外球/full matching ⇒held/D>.05075888242、reach/D≥800/25039、Hdiam/D≥360/511，marker145..148给含反射δE>0。存在/stateball未实现；有限97线性行非非线性全matching。
 
 ## 当前连续推进
