@@ -1,0 +1,395 @@
+{
+  "kind": "actual_public_correlated_regular_body_CI_process",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43583838026",
+  "run_attempt": "1",
+  "mode": "consume",
+  "workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73",
+  "worker_source_sha256": "931a4866b6fc37d4978e07f6bf996b96a4be6b33c064377a468b24a1f85e1ad6",
+  "started_utc": "2026-11-14T10:11:06.254287+00:00",
+  "children": [
+    {
+      "label": "actual_body_rows_4000_4256",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-work-4000-5000/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+        "--candidate",
+        "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--mean",
+        "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+        "--adjoint",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+        "--first",
+        "4000",
+        "--count",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-body-4000-5000/native/rows-04000-04256.json.gz",
+        "--resume",
+        "/__w/_temp/visible-exact-body-work-4000-5000/original-prefix-4000-4256.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:11:07.720001+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 370.009283877,
+      "finished_utc": "2026-11-14T10:17:17.729589+00:00"
+    },
+    {
+      "label": "actual_body_rows_4256_4512",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-work-4000-5000/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+        "--candidate",
+        "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--mean",
+        "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+        "--adjoint",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+        "--first",
+        "4256",
+        "--count",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-body-4000-5000/native/rows-04256-04512.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:17:24.696736+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 480.012863351,
+      "finished_utc": "2026-11-14T10:25:24.709982+00:00"
+    },
+    {
+      "label": "actual_body_rows_4512_4768",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-work-4000-5000/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+        "--candidate",
+        "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--mean",
+        "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+        "--adjoint",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+        "--first",
+        "4512",
+        "--count",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-body-4000-5000/native/rows-04512-04768.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:25:33.108714+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 465.0126334160001,
+      "finished_utc": "2026-11-14T10:33:18.121831+00:00"
+    },
+    {
+      "label": "actual_body_rows_4768_5000",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-work-4000-5000/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+        "--candidate",
+        "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--mean",
+        "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+        "--adjoint",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+        "--first",
+        "4768",
+        "--count",
+        "232",
+        "--out",
+        "/__w/_temp/visible-exact-body-4000-5000/native/rows-04768-05000.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:33:29.286962+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 415.0107183,
+      "finished_utc": "2026-11-14T10:40:24.298177+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T10:11:07.433569+00:00",
+      "before": "74d6ee9042d1f4be02d360b7c4851d3e5d38c214",
+      "after": "a2e629f83add8f560ec44c9a770abd8c7adc591e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:17:20.887436+00:00",
+      "before": "a2e629f83add8f560ec44c9a770abd8c7adc591e",
+      "after": "953708733d882025446e187a24822b012cddba29",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:17:23.225413+00:00",
+      "before": "953708733d882025446e187a24822b012cddba29",
+      "after": "5f6cf29d4a111538007e698e1e64512580704e2f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:25:27.596935+00:00",
+      "before": "5f6cf29d4a111538007e698e1e64512580704e2f",
+      "after": "e0c906ccd8eab9bd5449df2b0cb94297d7aafa3e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:25:29.467029+00:00",
+      "before": "e0c906ccd8eab9bd5449df2b0cb94297d7aafa3e",
+      "after": "1f58f0a46c2f93feb97e06be9f0aed663c3ff680",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:25:31.666820+00:00",
+      "before": "1f58f0a46c2f93feb97e06be9f0aed663c3ff680",
+      "after": "3e9f957f66e15ce8de5aca704750a2a219e568ce",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:33:23.608004+00:00",
+      "before": "3e9f957f66e15ce8de5aca704750a2a219e568ce",
+      "after": "9e8903d3aef01749c128db766c650fbcca6aad9e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:33:25.743859+00:00",
+      "before": "9e8903d3aef01749c128db766c650fbcca6aad9e",
+      "after": "13fa1e9c38a5080ea1fc3864ff8f924414784854",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:33:27.889188+00:00",
+      "before": "13fa1e9c38a5080ea1fc3864ff8f924414784854",
+      "after": "0cd7559e9bb5f0deda9747a9f6423df9c732d95f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:40:30.843620+00:00",
+      "before": "0cd7559e9bb5f0deda9747a9f6423df9c732d95f",
+      "after": "e0edd0e5a038e20ce418a009a7858857da28f0b1",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:40:32.512708+00:00",
+      "before": "e0edd0e5a038e20ce418a009a7858857da28f0b1",
+      "after": "5443260c836d5ee4f315885b13d16545e356918d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:40:34.690234+00:00",
+      "before": "5443260c836d5ee4f315885b13d16545e356918d",
+      "after": "b792f25924340523fee57011433ebc243414125b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:40:36.529478+00:00",
+      "before": "b792f25924340523fee57011433ebc243414125b",
+      "after": "24814d33dc613454900df3322595c2848f3f6b95",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T10:17:22.864555+00:00",
+      "final": false,
+      "commit": "5f6cf29d4a111538007e698e1e64512580704e2f"
+    },
+    {
+      "time": "2026-11-14T10:17:24.694291+00:00",
+      "final": false,
+      "commit": "9a5ccb76bdf3e018ae2bb58a51103e10437860ad"
+    },
+    {
+      "time": "2026-11-14T10:25:31.266970+00:00",
+      "final": false,
+      "commit": "3e9f957f66e15ce8de5aca704750a2a219e568ce"
+    },
+    {
+      "time": "2026-11-14T10:25:33.106109+00:00",
+      "final": false,
+      "commit": "30a62f8bf4f0b7df0ee3b811a5276334a9b7ca29"
+    },
+    {
+      "time": "2026-11-14T10:33:27.496232+00:00",
+      "final": false,
+      "commit": "0cd7559e9bb5f0deda9747a9f6423df9c732d95f"
+    },
+    {
+      "time": "2026-11-14T10:33:29.284466+00:00",
+      "final": false,
+      "commit": "11b1a4ff318fa77d4870a560963c158a0bb9fd01"
+    },
+    {
+      "time": "2026-11-14T10:40:34.275179+00:00",
+      "final": false,
+      "commit": "b792f25924340523fee57011433ebc243414125b"
+    },
+    {
+      "time": "2026-11-14T10:40:36.177191+00:00",
+      "final": false,
+      "commit": "24814d33dc613454900df3322595c2848f3f6b95"
+    },
+    {
+      "time": "2026-11-14T10:40:37.991507+00:00",
+      "final": true,
+      "commit": "a21da725a23b6fd9b851accffca3af844e033d8a"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": [
+    4000,
+    5000
+  ],
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "input_manifest_sha256": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "24814d33dc613454900df3322595c2848f3f6b95",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-body-work-4000-5000/science",
+  "actual_atomic_ranges": [
+    [
+      4000,
+      4256
+    ],
+    [
+      4256,
+      4512
+    ],
+    [
+      4512,
+      4768
+    ],
+    [
+      4768,
+      5000
+    ]
+  ],
+  "consumed_original_prefixes": [
+    {
+      "path": "/__w/_temp/visible-exact-body-work-4000-5000/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-original-right4000-4059-native.json.gz",
+      "sha256": "2722467d9e18e9677106b9e1611d2ca30b7949dd1a491f7c32e382b254cac4a4",
+      "actual_rows": 59,
+      "indices": [
+        4000,
+        4256
+      ]
+    }
+  ],
+  "snapshot_utc": "2026-11-14T10:40:36.602990+00:00",
+  "wall_seconds": 1770.34931261,
+  "native_files": [
+    {
+      "logical_file": "native/rows-04000-04256.json.gz",
+      "file": "native/rows-04000-04256.json.gz",
+      "bytes": 1176560,
+      "sha256": "9791342190d2cc51713731fd0535422e97da96c991e971d815a06c938469afc1"
+    },
+    {
+      "logical_file": "native/rows-04256-04512.json.gz",
+      "file": "native/rows-04256-04512.json.gz",
+      "bytes": 1185044,
+      "sha256": "d5c57200cc0f9e54ae057fee037e920e06827e0e88fa37f0ff6d165dfd6fdd25"
+    },
+    {
+      "logical_file": "native/rows-04512-04768.json.gz",
+      "file": "native/rows-04512-04768.json.gz",
+      "bytes": 1181461,
+      "sha256": "62c8b790dde552f5c0a29d516c7e98ead156374336fa14bd3829251fa2f8946f"
+    },
+    {
+      "logical_file": "native/rows-04768-05000.json.gz",
+      "file": "native/rows-04768-05000.json.gz",
+      "bytes": 1063679,
+      "sha256": "d5f59ab58e723e444fc8971eb49d9b7e851e6fdeb9d7acc09ab486fd640a8530"
+    }
+  ],
+  "completed_atomic_parts": [
+    {
+      "indices": [
+        4000,
+        4256
+      ],
+      "sha256": "9791342190d2cc51713731fd0535422e97da96c991e971d815a06c938469afc1",
+      "rows": 256
+    },
+    {
+      "indices": [
+        4256,
+        4512
+      ],
+      "sha256": "d5c57200cc0f9e54ae057fee037e920e06827e0e88fa37f0ff6d165dfd6fdd25",
+      "rows": 256
+    },
+    {
+      "indices": [
+        4512,
+        4768
+      ],
+      "sha256": "62c8b790dde552f5c0a29d516c7e98ead156374336fa14bd3829251fa2f8946f",
+      "rows": 256
+    },
+    {
+      "indices": [
+        4768,
+        5000
+      ],
+      "sha256": "d5f59ab58e723e444fc8971eb49d9b7e851e6fdeb9d7acc09ab486fd640a8530",
+      "rows": 232
+    }
+  ],
+  "completed_rows": 1000,
+  "complete_full_body_cover_claimed": false,
+  "finished_utc": "2026-11-14T10:40:36.183178+00:00"
+}
