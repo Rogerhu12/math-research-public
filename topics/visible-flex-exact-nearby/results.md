@@ -137,3 +137,7 @@
 ### R133 补充：同一global reference的精确repair正根collar
 
 **已证明（条件解析转授；新数值待实际Actions）。** [C1–21完整合同](results/R133-supplement-exact-repair-global-positive-root-collar.md)重定义真实修复mean的Riccati，保完整193head、无穷high、两mean/ordinary源和两端trace。三原native/16固定输入公开消费者已接；不复制旧门为新门，δ96及实际根反射/strong另付。
+
+### R133 补充：精确repair全频正根collar实际完成
+
+**已证明。** [实际全频结果](results/R133-supplement-actual-exact-repair-positive-root-collar.md)消费43600926806真实23门：新mean/global reference、全部193head与无穷high反馈<1e−6；普通源/真实端口→全态1/12000、1/100，两端迹1/36、9/2。只δ=0，实际负区兼容、外侧body/regular及δ96/root反射继续。
