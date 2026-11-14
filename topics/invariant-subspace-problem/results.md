@@ -278,3 +278,7 @@
 ### 2026-11-14：唯一η8允许第二方向的完整原p²目标入口冻结（789f）
 
 [接口](notes/2026-11-14-r150-eighth-second-interface-789f.md)及[8文件manifest](notes/2026-11-14-r150-eighth-second-frozen-manifest-789f.json)固定标签9101与五份既有recovery的46逐文件输入。全部九旧p6原乘积/正常形/余式和来源原样复用，只有新q/VQ/H5需计算；原模仍31^6，p²目标和整数格不变。实测primary支撑是完整相关负结论的前置事实，每个相容目标必须经过全部315坐标、6188原来源/4367输出及17方程尺度乘回。新三C++各≤30秒/512MiB编译成功、两个Python AST已过；数学尚未运行。Actions共享300秒并保所有原数据/cache，发布器已覆盖真实stale-main-ref的立即pull/rebase重试。
+
+### 2026-11-14：原单新位carry块及exp(20d³)实际源窗口（789f）
+
+[证明](notes/2026-11-14-true-single-bit-carry-block-and-twenty-window-actual-sources-789f-next.md)从原B的加权减法与Y=I−(I+N)⁻¹块逆严格得到Anew=[[A,bI+C],[0,A]]。K E=0、Anew^zK=0无需[A,C]=0；仅对真正r=Kk将右逆截为z项，输入导数无1+bR，修复费52ηR H_p²且只加z孔。有限j<z的真实四次幂预算给一步exp(−4z⁴)，m≥10的Q≤exp(20d³)母提升入N误差exp(−3d⁴)；完整carry导数再次给实际低投影同误差。一个u_Q遂以2exp(−3d⁴)近原w，整个扩大窗的真负图、bare/flat同带和同一固定测试全部保留。旧δ旗未扩大，实际角度阈值O(exp(20d³)/d)仍未付。
