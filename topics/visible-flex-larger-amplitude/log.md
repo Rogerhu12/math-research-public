@@ -205,3 +205,8 @@ run43614132961/source8ed43e0b/job132505423542全success，244400092B/ZIP4cadfd61
 ### 2026-11-14 actual34：带阵完成但精确原缺陷巨大
 
 run43615494107/source1a9f7197/job132509540819 success；同28输入/原band b39e9dd9…不变。129248维原σ带LU info0/0、579MB/总3.8478s；新原σstage float最大4.1558709373255425e30仍stage43/Pi110，exact完整行5.2938027944720597e30给严格full-model下界，旧exact7.3718089789340533e40；非trueDF/全A condition。19数组9827464B、全checkpoint与两见证bits核，详actual34 note。当前不派此巨大δ重做trial，下一同J幂二均衡/原精确误差修正。30补大阵身份核：68 B/421数组与62 H NPZ/30整数组均过，basis首列即rawLSMR原字节。
+
+
+### 2026-11-14 actual32与request35：中点保护实际有效，接真实RMS471
+
+32/run43614990381/source4dce4180/job132508019098全success，175987792B/ZIPbfd16566…全取核，actual32 note全文读。9query让1/16..1/128全部node/mid finite，仍原left-RMS471各档拒；最近β²−.020315754519159013。最终α1/256同模型merit44.3724225594053→44.36979142901499/drop.002631130390312819，新warm7f5e8d5f…/FD9.143364336e−10；仍col.0071104373/BC8.832e−8/native0。同30初始全state/RHS/J/P/七B及rawLSMR字节同，增加mid保护有效但未扩大步长。85 B文件536数组/20源、15observer10NPZ30数组/父链均核；intent仅多只读query-order alias。35从32真父warm/status继续，仅加实际RMS471全角成8RMS+2mid=20480行；三独立源5c9b1458…/90e22ebb…/15cf9295…、新source/alias明确，原全部算法/原17trial/域/newFD保持，三名单/父输入/YAML/AST核。

@@ -20,11 +20,11 @@
 | [29原中点观察](notes/2026-11-14-actual-request29-observed-seven-query-warm.md) | 七RMS全部正时，最近1/32在原mid473失败，更大步另有mid477；1/64真下降 | 给新增中点的实际依据，完整原returned middle/fm与2048角数组已保存 |
 | [30完整H与C比较](notes/2026-11-14-actual-request30-complete-H-comparison-and-warm.md) | 同f中H44.35849607633413劣于C43.905058168501064，保C；1200H/18基/16工作行，17CG均未达原残差目标 | 有限H尝试确实执行；不据此盲增预算或声称QP收敛 |
 | 30原非线性回溯 | α1/256真降.002933782783976824；最近1/128节点/中点全finite，但原left-RMS471失败 | 新warm8a91f696…/FD9.143364336e−10；仍col.0071104373/BC8.832e−8/native0 |
-| 32九query | run43614990381已success取完整包，实际记录正在读取 | 同29父场保七RMS+真mid473/477各2048，必须按它自己的原全域试步决定继续 |
+| [32九query](notes/2026-11-14-actual-request32-nine-query-warm-and-RMS471.md) | 1/16..1/128全部node/mid转finite，但原left-RMS471全拒；仍1/256真降.002631130390312819 | 新warm7f5e8d5f…/FD9.143364336e−10；85 B文件/536数组与全部父链已核，仍非BVP |
 
 30最佳R267浮点下界表达式43.11565368239749来自原raw LSMR零乘子证据点，非后续H改善；跨点给C的gap表达式.7894044861，没有严格舍入包络。不同轮会刷新原权重，不能把不同轮merit相减。R262/263/265/267是有限优化工具，不新增原BVP门。
 
-下一从32真实新warm按真实新拒绝位置继续；完整midpoint基点/站点须直接用原 `state.middle`/`problem.mid`，保完整两端J/P、入口core与global p链以及列尺度一次。原七RMS块身份、所有query kind、单次原全J捕获及完整父producer都要保全。
+[request35十query](notes/2026-11-14-ten-query-RMS471-projection-interface.md) 已接推送，从32真实新warm/status仅加实际left-RMS471，各2048角，保两真mid成8RMS+2mid。原九源不改，当前22源与typed alias明确；原λ270/LSMR200/Hildreth200/17trial/全部域/新FD不变。下一按它自己的真实新拒绝位置继续；完整midpoint基点/站点须直接用原 `state.middle`/`problem.mid`，保完整两端J/P、入口core与global p链以及列尺度一次。原七RMS块身份、所有query kind、单次原全J捕获及完整父producer都要保全。
 
 ### 1B. Native：修复保存完整系统的原尺度线性缺陷
 
