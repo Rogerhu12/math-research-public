@@ -543,3 +543,7 @@ v2 run43652855824精确复用d893成功plan，32组均首格child1、完成格0�
 ## 2026-11-14 23:37:05 UTC — 全5970矩阵v3实际接续部署
 
 新source_v2/CI_v3/223pin manifest/workflow四件独推；root已逐diff核science、CI及flow，原122pins逐项未改，额外32失败native只公开Actions读取。prepare逐SHA读32原process/outcome/native，核真实child1/0格/唯一失败，绝不迁移为成功；原d893 plan强制精确复用，源plan_run显式拒绝重算。新端点先准确消共享F0，Δ整球和全部canonical/mean/cross费用原保。sciencee2cedf88…、CIcf9ddfa7…、manifest624bf260…；旧v1/v2路径不触发，后续同source成功前缀严格恢复。部署不授完成/全Green。470b73aac2468353bea3cf897a60a91529d23274两README只读核未变，runner实际pull逐组另存。
+
+## 2026-11-14 23:37:51 UTC — 新外F1–39完整强散射/实际首密度相位
+
+完整解析稿SHAb283b1dd68e53e13f58c53b682cf2541a46e8f6c468ea957d4404b1fb153861c独立推。root全读F并对照原strict S9–25、strict高输出S21–29、负word W4–44与密度B7–18：真长<2/少64seams、完整势差和reference condition、真mean矩阵、两强基础窗及正逆adjoint分别付。phase另核Vw导数/新根真实域/FP5/48/Γ沿Theta导；无旧短4δ或quartic入口偷用。Λo2^2048、fullCauchy2^32768、两strong窗2^12000，完整βrad+1<2^1024。F36仅修单$为双显示定界；所有源/mean/低模/两Γ响应保，closed仍待真实帽/全反馈。3fb6fa564c6d255d5e313439f68c172fdbf0279b两README只读核未变。
