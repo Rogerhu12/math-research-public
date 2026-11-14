@@ -320,3 +320,10 @@ request42接真实两路：原QR入口从40 warmc62a7f12…/status30f19320…续
 ### 2026-11-14 18:08 UTC：R270完整局部QP约化
 
 完整证明直接登记R270/results索引：完整H正定的Schur完成平方、λ²下界和唯一外部响应；Rᵀh=g保原affine，左右链正交能量消元保pure-global，109core thinQR后4397维全约束问题与全236036维等价。给一全H恢复公式、原外部梯度后验和C坐标一致性，未删外部变量/模/角行、未实施数值。42前缀已完成publish，先读取真实小报告再决定新局部计算；不设独审或额外科学门。
+
+
+### 2026-11-14 18:25 UTC：request43保存G表示与42只读薄摘要
+
+新G system26256B/24a51a4e…、driver36045B/16fca40e…及接口11258B/88fd6f72…全文静态核，终端仍unavailable，未声称AST/import/数值。869完整G/J形成块、旧72混合接口、其余503原J、cut显式alpha乘原rc、far与原σ全部保；恢复原delta后遍历307552 exact行，真实改进RHS用原整数ledger和保存G精确乘加最终一次舍入。原exact核辅助RHS仅诊断不送solve。
+
+公开request43仅rawcell0gauge；Actions先编译新源并读取实际42原七文件SHA薄summary，再取入28/41原artifact完成新表示求解；summary失败不阻独立G。未重42前缀、无新ODE/J/nonlinear/native/audit。工作流<100KB，源/收据大阵分开保。根/题README blob未变，依Rule8小文本fallback/普通非强制ref CAS；API不冒本地pull。42前缀原固定merit真降.00961167504/col.00711029753仍非BVP，详细结论独立续发；R270 fullQP消元库及wrapper并行编写。
