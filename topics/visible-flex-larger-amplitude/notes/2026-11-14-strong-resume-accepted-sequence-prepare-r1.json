@@ -1,0 +1,280 @@
+{
+  "scope": "Actual orchestration prepare of unchanged accepted A; no numerical solve or new derivative claimed",
+  "state": "prepared",
+  "prepare_only": true,
+  "new_nonlinear_solution": false,
+  "source_sha256": {
+    "strong_20261114_accepted_sequence.py": "e153d52e5a9c39d6fe6e25ef64517ac24cbade162d7ea66fcfd6cd89fed250fe",
+    "strong_20261114_response_widths.py": "08a2a5ac359c7b6fa57eda608701dd5e4f3a74a26eac9a66aa66b465327db132"
+  },
+  "input_accepted_checkpoint": {
+    "file": "2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+    "sha256": "cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa"
+  },
+  "materialized_files": [
+    {
+      "file": "2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+      "sha256": "cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa",
+      "bytes": 136576,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-fixed-view-r1-raw-collocation.json.gz",
+      "sha256": "f52a6d63eb61daaf13c059b8115a3532f563e1d165f4af9b71670afd7c1bf50d",
+      "bytes": 11840,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-fixed-view-r1-raw-collocation.json.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-x-000.npy.gz",
+      "sha256": "9f73ba2915aaaaad18493601e51f79093f7f4d1a806183dd1a81f0fedc5e7c1f",
+      "bytes": 19394,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-x-000.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-y-000.npy.gz",
+      "sha256": "a616a038fda76f5a422e47950f1d228a020bf942539fb30e2b1f1473c4b95bc9",
+      "bytes": 1936634,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-y-000.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-fixed-view-r1-raw-p-000.npy.gz",
+      "sha256": "9836616e71e4c37454adda24f9e0941eeee231f96f01ce227aa439ea848f6ce2",
+      "bytes": 357,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-fixed-view-r1-raw-p-000.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-cubic-000.npy.gz",
+      "sha256": "95236c1668e52c7a3dd789a3dfbb026fb85afacdcba70b698a8ede990d384185",
+      "bytes": 3890461,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-cubic-000.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-cubic-001.npy.gz",
+      "sha256": "687dca40c6a193fdbc9144ca1452d0ffc70c5c4bfa64e04ed17021ae567fef65",
+      "bytes": 3894202,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-cubic-001.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-cubic-002.npy.gz",
+      "sha256": "6a2e0e03057bf730f32c24e8a09d085123788dcbe7754d102b561f564ff0c58b",
+      "bytes": 35552,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-cubic-002.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-rms-000.npy.gz",
+      "sha256": "b8a35f71a3473857f6f720480359cc31a056137356d2e0ebde00b461553a8e40",
+      "bytes": 19883,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation-rms-000.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_00.npy.gz",
+      "sha256": "f520254b64d4b04bb23d58b628ab17e3c6fff5d4c018b685a04e1ecd6ea59dd3",
+      "bytes": 4225003,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_00.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_01.npy.gz",
+      "sha256": "30ac654e57312233469a804ba30882c60d78cd28bde9a79ceb7ee6d4483e39b9",
+      "bytes": 4227000,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_01.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_02.npy.gz",
+      "sha256": "cb59e0e2a06afd9e2794d2d41e00101dad95757c6746b7ac29a901770cf84b96",
+      "bytes": 3222106,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_02.npy.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz",
+      "sha256": "018d19c6ca8c27acc5cc1dde6d396ee783e34ae25e5b525158c5bb37086520d9",
+      "bytes": 406232,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+      "sha256": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+      "bytes": 2900,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz",
+      "sha256": "3f63c69738fc171709a4cba47baeaf70c40778876e03f93436db56b302578e1f",
+      "bytes": 16054,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-base.f64le.gz",
+      "sha256": "ee061234b4ff481b9abb54033df73cca5ee21eb8c44413c9e59d9aa9eaa6abc4",
+      "bytes": 290976,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-base.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0000.f64le.gz",
+      "sha256": "5a2b71ffc269bd9ad89d6dc68d487ca1e662c3c309dfded548fd6ebb41c55920",
+      "bytes": 1967257,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0000.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0001.f64le.gz",
+      "sha256": "89bb45e4118ee9fc40fcc983b97dac1994aca9f1eca882995dc09e0ce2f72aa1",
+      "bytes": 1967476,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0001.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0002.f64le.gz",
+      "sha256": "61463b3f9d57ae1a759f240a5964f2ad7683330065478c826367083bddb9762e",
+      "bytes": 1966425,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0002.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0003.f64le.gz",
+      "sha256": "9d905eb97736b24077a85a8a3612b21f256cba8b988a559ceca2a5dd2184fbdf",
+      "bytes": 1965031,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0003.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0004.f64le.gz",
+      "sha256": "b8844900e46d41e39bdc6267f19eaaf85b6661be4c65e6d05a21d391fc24d0df",
+      "bytes": 1964330,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0004.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0005.f64le.gz",
+      "sha256": "221b2118c9b271579934e71b7705adfbf2a28c267bd578639c4a20959f5c0a04",
+      "bytes": 1960568,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0005.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0006.f64le.gz",
+      "sha256": "a3d05cd323c9857a605073f1592b64af21833b39762320ddb95cd65980320174",
+      "bytes": 1958667,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0006.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0007.f64le.gz",
+      "sha256": "9727c873574139e340d33df79f8c5fa152f0b9d2bceb33c9e32321329658080a",
+      "bytes": 1957325,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0007.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0008.f64le.gz",
+      "sha256": "b5d5dbbe0c1a1482d30379882060fbb12ceceb0277760022d52e2704c830fbe1",
+      "bytes": 1958805,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0008.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0009.f64le.gz",
+      "sha256": "ce054ac850e3032a8a14b204445b392604f16c5c885c8fd5603f6192639a5dee",
+      "bytes": 866742,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0009.f64le.gz"
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-fixed-view-r1-report.json",
+      "sha256": "3ea357911abdabdab3d13ecdc84508c561047ceb524aa79d2f1df479c40142fd",
+      "bytes": 15954,
+      "original_file": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-fixed-view-r1-report.json"
+    }
+  ],
+  "phases": [
+    {
+      "name": "same-g-m40-prepare",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/computations/root_20261114_threaded_entry.py",
+        "--radial-workers",
+        "4",
+        "--parallel-run-record",
+        "/workspace/scratch/ffc1334c1988/strong-work/accepted-sequence-prepare-r3/logs/same-g-m40-parallel.json",
+        "--target-entry",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/computations/strong_sameg_m40_initial_laws_fullflow_refinement.py",
+        "--fixed-reference",
+        "2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+        "--spectral-fixed-raw",
+        "2026-11-13-strong-q126-m32-fixed-view-r1-raw-collocation.json.gz",
+        "--spectral-fixed-report",
+        "2026-11-13-strong-q126-m32-fixed-view-r1-report.json",
+        "--spectral-warm-tail",
+        "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz",
+        "--spectral-baseline-config",
+        "2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+        "--spectral-temporary-parent",
+        "/workspace/scratch/ffc1334c1988/strong-work/accepted-sequence-work-r3",
+        "--spectral-node-young-space",
+        "16",
+        "--spectral-stage-cache-directory",
+        "/workspace/scratch/ffc1334c1988/strong-work/accepted-sequence-work-r3/m40-stage-cache",
+        "--frozen-reference-ready",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+        "--frozen-calibration-ledger",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/source-dependencies/topics/visible-flexible-closed-surface",
+        "--port",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port40-exact-prefix-r4096.json",
+        "--frozen-port",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--out-prefix",
+        "same-g-m40",
+        "--modes",
+        "40",
+        "--angular",
+        "1536",
+        "--tol",
+        "1e-07",
+        "--max-nodes",
+        "8000",
+        "--node-heap",
+        "1024",
+        "--spectral-prepare-only"
+      ],
+      "status": "finished",
+      "log": "logs/same-g-m40-prepare.log",
+      "returncode": 0
+    },
+    {
+      "name": "response-metadata",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/computations/root_20261114_threaded_entry.py",
+        "--radial-workers",
+        "4",
+        "--parallel-run-record",
+        "/workspace/scratch/ffc1334c1988/strong-work/accepted-sequence-prepare-r3/logs/response-metadata-parallel.json",
+        "--target-entry",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/computations/strong_20261114_response_widths.py",
+        "--response-checkpoint",
+        "2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+        "--response-raw",
+        "2026-11-13-strong-q126-m32-fixed-view-r1-raw-collocation.json.gz",
+        "--response-tail",
+        "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz",
+        "--response-out-prefix",
+        "/workspace/scratch/ffc1334c1988/strong-work/accepted-sequence-work-r3/response-metadata",
+        "--response-fields",
+        "delta,boost_length,boost_speed,vu,descending_turn_curvature,start_acceleration,initial_speed_frontload,vd,descending_sync_curvature,loop_curvature,loop_radius,loop_speed,terminal_peak_fraction",
+        "--response-relative-width",
+        "terminal_peak_fraction=2e-05",
+        "--radial-batch-size",
+        "24",
+        "--collocation-batch-size",
+        "24",
+        "--disk-temporary-parent",
+        "/workspace/scratch/ffc1334c1988/strong-work/accepted-sequence-work-r3",
+        "--source-topic",
+        "/workspace/scratch/ffc1334c1988/source-dependencies/topics/visible-flexible-closed-surface",
+        "--port",
+        "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--tail-config",
+        "2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+        "--metadata-only"
+      ],
+      "status": "finished",
+      "log": "logs/response-metadata.log",
+      "returncode": 0
+    }
+  ],
+  "original_numerical_and_physical_gates_preserved": true,
+  "new_response_or_M40_state_computed": false
+}
