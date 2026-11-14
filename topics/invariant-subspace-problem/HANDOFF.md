@@ -27,6 +27,8 @@
 
 - **[197正分支原来源≤765](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)：** (s−2)^5给系数deg≤4；真P=P12·e2度≤196，两次P在原来源中不可合并。三次来源恢复85→181、377→473、669→765；q1改变第三类差准确为−β2_F9(Pk)，用已付相关第二像消，不只援β1零。真V10版本最终解十常数并加κ10a10，无额外p；全部315/free及原p6十七式仍须实际乘回。新H5 NF/trace必须16位次数，正证书尚未运行。
 
+- **197入口执行准备：** [单位Schur helper](notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py)及接口已冻，保全部10项回填、13自由行、每层checkpoint；尚未执行本次数学。确认all198/inputs/kernels不是原200族，新增old200 run43605503242/artifact14118112895（160817149B，ZIP SHA c11741ca8956e2dda9bb4e1c915d21411c5bda37a8294e5bebafaacb8312a52b）；总7artifact，不重旧数学。root准备下载/发布，normal接原carry/宽trace，lit短时补transport后回固定测试。
+
 ## 实际边界：同一原源与已付预算
 
 原T_N/T_Y在负边界，M=kerT含e0，N=closure BM；N=M仍开。同w/同未来/原负前缀、初M3后M2、自然逆域和完整左右/bare费全部保持。完整常数和证明链接见[本次H全文](notes/2026-11-14-handoff-before-197-reduction-789f.md)，未列旧问题不算关闭。
