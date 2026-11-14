@@ -340,3 +340,13 @@ Actual first-correction seam and volume magnitudes must still be supplied.
 The full finite-head/high inverse, strong return norm and cutoff,
 actual parameter Schur, nonlinear neighbourhood, physical matching
 and final closed-family existence remain unproved by this contract.
+
+## 9. Exact prior proof bindings
+
+The complete scalar consumer pins the original texts and receipts. The analytic steps above use:
+
+- [Exact M32 transfer](R133-supplement-exact-M32-repair-transfer-of-cached-positive-high-rows.md) and [the full-delta M32/M96 split](R133-supplement-full-delta-positive-M32-base-and-M96-difference.md) for (N.4)--(N.7).
+- [The complete relative Riccati frequency calculation](R133-supplement-relative-global-Riccati-reference-and-frequency-derivatives.md) and [the original root frame](R133-supplement-current-moving-positive-root-Riccati-and-full-head.md) for the same signed normalization and root trace conversions.
+- [The negative regular window](R133-supplement-final-regular-negative-window-and-height-ports.md), specifically its explicit multiplier, adjoint, Hilbert and composition formulas, reapplied to the actual full-delta endpoint bounds for (N.8)--(N.12).
+- [The full-delta collar](R133-supplement-full-real-delta96-positive-root-collar.md) and [the complete seven-column interface](R133-supplement-full-real-delta-positive-high-root-to-regular-graph.md) for (N.13)--(N.15).
+- [The actual full-delta outer and body execution](R133-supplement-actual-full-real-delta-outer-and-positive-high.md) for the exact successful summaries consumed without a new coefficient or kernel sweep.

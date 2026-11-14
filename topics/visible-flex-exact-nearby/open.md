@@ -143,3 +143,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 第一接缝线性分量已实算，转全I/J余项
 
 43625828234全部1079/39门已证，六窗口firstforcing/强窗jump聚合见actual report。R=.001 negative firstseam经I后<.006640943888194，R=.02为2.203048631221；此为实测预算，不可删去局部窗外seams。正raw mixed总<8.4384155779e−5，接root新s−1全正口后仍须保mean/head。phase继续full old-angle I/J finite remainder、下一幅度L0v1和独立mean，不把仅firstseam当complete strongreturn或充分cutoff。
+
+### 2026-11-14 fullδ正侧s−1实际scalar接口已发
+
+新24-pin消费者仅四份已完成text receipts（body process11040B、order1 summary21555B、outer summary23649B、collar process11340B）。新科学source16ffa1a5…由tail逐式独核原N8–15与原完整negative DN及实际字段；新的χ/λ/onto、seven source/eight outputs、outer四affine及三mean列仅公开Actions执行。原4650kernel/3594joins/7721envelope/target/reference/outer解均零重算，body大native不再读取。原baseorder<.5反射门不移植negativeorder；只检查真实interface可逆。完成后将实际positive seam/raw源接此窗，仍保head/mean，fullreturn/CE/充分cutoff另付。

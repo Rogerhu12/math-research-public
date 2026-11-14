@@ -1,0 +1,112 @@
+name: visible-exact full delta negative one positive source graph
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-full-delta-negative-one-positive.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-full-real-delta-negative-one-positive
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  POSITIVE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta-negative-one-positive-CI-inputs.json
+  POSITIVE_MANIFEST_SHA: 4c4f8456ff244599e1d3216b10406e8973888e7117ca71710a1cde6e0b0e32d1
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  full-delta-negative-one-positive:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the exact cached input and new consumers
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta-negative-one-positive-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate twenty-four exact text receipts, proofs and sources with owned prior results
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive_CI.py \
+            --mode hydrate --manifest "$POSITIVE_MANIFEST" --manifest-sha "$POSITIVE_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+      - name: Check the two new Python source files without running mathematics
+        run: |
+          python - <<'PY_AST'
+          import ast,pathlib
+          root=pathlib.Path('topics/visible-flex-exact-nearby/scripts')
+          for name in ('fourfold_codazzi_full_delta_negative_one_positive.py','fourfold_codazzi_full_delta_negative_one_positive_CI.py'):
+              ast.parse((root/name).read_text(),filename=name)
+          print('The full delta negative-one source and worker passed Python AST parsing.')
+          PY_AST
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set the container-visible actual output path
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-full-delta-negative-one-positive-output" >> "$GITHUB_OUTPUT"
+      - name: Verify seven complete negative-order source columns and eight output rows
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive_CI.py
+          --mode run
+          --manifest "$POSITIVE_MANIFEST" --manifest-sha "$POSITIVE_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --work "$RUNNER_TEMP/visible-exact-full-delta-negative-one-positive-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-full-delta-negative-one-positive-output"
+          --compute-minutes 30 --checkpoint-minutes 10
+      - name: Require actual nonempty evidence before artifact publication
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process evidence exists')
+          entries=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          data=(json.dumps(entries,indent=2)+'\n').encode()
+          if len(data)>60000:raise RuntimeError('artifact inventory exceeds60000 bytes; all native evidence is preserved')
+          (root/'artifact-inventory.json').write_bytes(data)
+          print(dict(actual_files=len(files),nonempty_output_verified=True))
+          PY_INVENTORY
+      - name: Preserve every actual negative-order outcome and failed gate
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-full-delta-negative-one-positive-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error
