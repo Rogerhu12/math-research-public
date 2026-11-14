@@ -327,3 +327,5 @@ $\phi_\theta=\cos\theta\,f+\sin\theta\,g$ 保持三矩。
 
 该附件没有求一个实际数值的 $N$ 或修正参数，没有运行曲线 ODE、几何优化、嵌入或 reach 计算。§4–7 的真实连接和有限 $N$ 存在结论来自正文证明，而不是从附件外推。
 
+
+公开 Actions 43604788994 已实际复核本节准确代数，65源/1输出长度与SHA全部匹配；见[完整回执审计](../notes/literature-zero-operator-exact-actual-audit-20261114.md)。没有选择有限N或计算真实几何。
