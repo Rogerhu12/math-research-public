@@ -1,0 +1,1100 @@
+{"event": "start", "M": 96, "N": 1024, "fixed_modes": 3, "nodes": 433, "end": 0.997875, "initial_boundary": 1.0842021724855044e-19, "fft_rhs_difference": 7.185658318364929e-15, "fft_directional_jacobian_difference": 3.1227287422552763e-10}
+   Iteration    Max residual  Max BC residual  Total nodes    Nodes added  
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "188692 kB"}
+{"event": "jacobian", "count": 1, "nodes": 17, "workers": 2, "seconds": 2.470349073410034, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "222048 kB"}
+{"event": "jacobian", "count": 2, "nodes": 16, "workers": 2, "seconds": 3.4118223190307617, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "222108 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 16, "total": 432, "maximum_RSS_kib": 250772}
+{"event": "jacobian", "count": 3, "nodes": 17, "workers": 2, "seconds": 4.592037677764893, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "229112 kB"}
+{"event": "jacobian", "count": 4, "nodes": 16, "workers": 2, "seconds": 5.542524099349976, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "229112 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 32, "total": 432, "maximum_RSS_kib": 250772}
+{"event": "jacobian", "count": 5, "nodes": 17, "workers": 2, "seconds": 6.719979524612427, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "233768 kB"}
+{"event": "jacobian", "count": 6, "nodes": 16, "workers": 2, "seconds": 7.670017242431641, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "233768 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 48, "total": 432, "maximum_RSS_kib": 250772}
+{"event": "jacobian", "count": 7, "nodes": 17, "workers": 2, "seconds": 8.833389520645142, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "237864 kB"}
+{"event": "jacobian", "count": 8, "nodes": 16, "workers": 2, "seconds": 9.761587858200073, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "237864 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 64, "total": 432, "maximum_RSS_kib": 250772}
+{"event": "jacobian", "count": 9, "nodes": 17, "workers": 2, "seconds": 10.933061361312866, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "244008 kB"}
+{"event": "jacobian", "count": 10, "nodes": 16, "workers": 2, "seconds": 12.027305841445923, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "244008 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 80, "total": 432, "maximum_RSS_kib": 250772}
+{"event": "jacobian", "count": 11, "nodes": 17, "workers": 2, "seconds": 13.213938236236572, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "246056 kB"}
+{"event": "jacobian", "count": 12, "nodes": 16, "workers": 2, "seconds": 14.150973558425903, "maximum_RSS_kib": 250772, "VmHWM": "250772 kB", "VmRSS": "246056 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 96, "total": 432, "maximum_RSS_kib": 252092}
+{"event": "jacobian", "count": 13, "nodes": 17, "workers": 2, "seconds": 15.326294898986816, "maximum_RSS_kib": 252220, "VmHWM": "252320 kB", "VmRSS": "252320 kB"}
+{"event": "jacobian", "count": 14, "nodes": 16, "workers": 2, "seconds": 16.269458532333374, "maximum_RSS_kib": 252220, "VmHWM": "252320 kB", "VmRSS": "252320 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 112, "total": 432, "maximum_RSS_kib": 256388}
+{"event": "jacobian", "count": 15, "nodes": 17, "workers": 2, "seconds": 17.436443328857422, "maximum_RSS_kib": 256388, "VmHWM": "256420 kB", "VmRSS": "256420 kB"}
+{"event": "jacobian", "count": 16, "nodes": 16, "workers": 2, "seconds": 18.369763135910034, "maximum_RSS_kib": 256388, "VmHWM": "256420 kB", "VmRSS": "256420 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 128, "total": 432, "maximum_RSS_kib": 260408}
+{"event": "jacobian", "count": 17, "nodes": 17, "workers": 2, "seconds": 19.534997701644897, "maximum_RSS_kib": 260408, "VmHWM": "260516 kB", "VmRSS": "260516 kB"}
+{"event": "jacobian", "count": 18, "nodes": 16, "workers": 2, "seconds": 20.481376886367798, "maximum_RSS_kib": 260408, "VmHWM": "260516 kB", "VmRSS": "260516 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 144, "total": 432, "maximum_RSS_kib": 264492}
+{"event": "jacobian", "count": 19, "nodes": 17, "workers": 2, "seconds": 21.65922975540161, "maximum_RSS_kib": 264748, "VmHWM": "264884 kB", "VmRSS": "264884 kB"}
+{"event": "jacobian", "count": 20, "nodes": 16, "workers": 2, "seconds": 22.590717315673828, "maximum_RSS_kib": 264748, "VmHWM": "264884 kB", "VmRSS": "264884 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 160, "total": 432, "maximum_RSS_kib": 270992}
+{"event": "jacobian", "count": 21, "nodes": 17, "workers": 2, "seconds": 23.75191020965576, "maximum_RSS_kib": 270992, "VmHWM": "271028 kB", "VmRSS": "271028 kB"}
+{"event": "jacobian", "count": 22, "nodes": 16, "workers": 2, "seconds": 24.687790632247925, "maximum_RSS_kib": 270992, "VmHWM": "271028 kB", "VmRSS": "271028 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 176, "total": 432, "maximum_RSS_kib": 275088}
+{"event": "jacobian", "count": 23, "nodes": 17, "workers": 2, "seconds": 25.876786947250366, "maximum_RSS_kib": 275088, "VmHWM": "275124 kB", "VmRSS": "275124 kB"}
+{"event": "jacobian", "count": 24, "nodes": 16, "workers": 2, "seconds": 26.812842845916748, "maximum_RSS_kib": 275088, "VmHWM": "275124 kB", "VmRSS": "275124 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 192, "total": 432, "maximum_RSS_kib": 279172}
+{"event": "jacobian", "count": 25, "nodes": 17, "workers": 2, "seconds": 27.989500761032104, "maximum_RSS_kib": 279172, "VmHWM": "279220 kB", "VmRSS": "279220 kB"}
+{"event": "jacobian", "count": 26, "nodes": 16, "workers": 2, "seconds": 28.94436740875244, "maximum_RSS_kib": 279172, "VmHWM": "279220 kB", "VmRSS": "279220 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 208, "total": 432, "maximum_RSS_kib": 283284}
+{"event": "jacobian", "count": 27, "nodes": 17, "workers": 2, "seconds": 30.103984355926514, "maximum_RSS_kib": 283284, "VmHWM": "283316 kB", "VmRSS": "283316 kB"}
+{"event": "jacobian", "count": 28, "nodes": 16, "workers": 2, "seconds": 31.047567129135132, "maximum_RSS_kib": 283284, "VmHWM": "283320 kB", "VmRSS": "283320 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 224, "total": 432, "maximum_RSS_kib": 287348}
+{"event": "jacobian", "count": 29, "nodes": 17, "workers": 2, "seconds": 32.2294340133667, "maximum_RSS_kib": 287348, "VmHWM": "287416 kB", "VmRSS": "287416 kB"}
+{"event": "jacobian", "count": 30, "nodes": 16, "workers": 2, "seconds": 33.188435077667236, "maximum_RSS_kib": 287348, "VmHWM": "287420 kB", "VmRSS": "287420 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 240, "total": 432, "maximum_RSS_kib": 293484}
+{"event": "jacobian", "count": 31, "nodes": 17, "workers": 2, "seconds": 34.373730182647705, "maximum_RSS_kib": 293484, "VmHWM": "293572 kB", "VmRSS": "293572 kB"}
+{"event": "jacobian", "count": 32, "nodes": 16, "workers": 2, "seconds": 35.30956983566284, "maximum_RSS_kib": 293484, "VmHWM": "293572 kB", "VmRSS": "293572 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 256, "total": 432, "maximum_RSS_kib": 295544}
+{"event": "jacobian", "count": 33, "nodes": 17, "workers": 2, "seconds": 36.47687077522278, "maximum_RSS_kib": 295544, "VmHWM": "295620 kB", "VmRSS": "295620 kB"}
+{"event": "jacobian", "count": 34, "nodes": 16, "workers": 2, "seconds": 37.41873574256897, "maximum_RSS_kib": 295544, "VmHWM": "295620 kB", "VmRSS": "295620 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 272, "total": 432, "maximum_RSS_kib": 301712}
+{"event": "jacobian", "count": 35, "nodes": 17, "workers": 2, "seconds": 38.601754665374756, "maximum_RSS_kib": 301712, "VmHWM": "301764 kB", "VmRSS": "301764 kB"}
+{"event": "jacobian", "count": 36, "nodes": 16, "workers": 2, "seconds": 39.53093910217285, "maximum_RSS_kib": 301712, "VmHWM": "301764 kB", "VmRSS": "301764 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 288, "total": 432, "maximum_RSS_kib": 305796}
+{"event": "jacobian", "count": 37, "nodes": 17, "workers": 2, "seconds": 40.700475215911865, "maximum_RSS_kib": 305796, "VmHWM": "305860 kB", "VmRSS": "305860 kB"}
+{"event": "jacobian", "count": 38, "nodes": 16, "workers": 2, "seconds": 41.65006971359253, "maximum_RSS_kib": 305796, "VmHWM": "305860 kB", "VmRSS": "305860 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 304, "total": 432, "maximum_RSS_kib": 309892}
+{"event": "jacobian", "count": 39, "nodes": 17, "workers": 2, "seconds": 42.82451581954956, "maximum_RSS_kib": 309892, "VmHWM": "309956 kB", "VmRSS": "309956 kB"}
+{"event": "jacobian", "count": 40, "nodes": 16, "workers": 2, "seconds": 43.75334191322327, "maximum_RSS_kib": 309892, "VmHWM": "309956 kB", "VmRSS": "309956 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 320, "total": 432, "maximum_RSS_kib": 313956}
+{"event": "jacobian", "count": 41, "nodes": 17, "workers": 2, "seconds": 44.93218517303467, "maximum_RSS_kib": 313956, "VmHWM": "314052 kB", "VmRSS": "314052 kB"}
+{"event": "jacobian", "count": 42, "nodes": 16, "workers": 2, "seconds": 45.87924838066101, "maximum_RSS_kib": 313956, "VmHWM": "314052 kB", "VmRSS": "314052 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 336, "total": 432, "maximum_RSS_kib": 320088}
+{"event": "jacobian", "count": 43, "nodes": 17, "workers": 2, "seconds": 47.05211400985718, "maximum_RSS_kib": 320088, "VmHWM": "320196 kB", "VmRSS": "320196 kB"}
+{"event": "jacobian", "count": 44, "nodes": 16, "workers": 2, "seconds": 48.00003933906555, "maximum_RSS_kib": 320088, "VmHWM": "320196 kB", "VmRSS": "320196 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 352, "total": 432, "maximum_RSS_kib": 322116}
+{"event": "jacobian", "count": 45, "nodes": 17, "workers": 2, "seconds": 49.17450451850891, "maximum_RSS_kib": 322116, "VmHWM": "322244 kB", "VmRSS": "322244 kB"}
+{"event": "jacobian", "count": 46, "nodes": 16, "workers": 2, "seconds": 50.141419649124146, "maximum_RSS_kib": 322116, "VmHWM": "322244 kB", "VmRSS": "322244 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 368, "total": 432, "maximum_RSS_kib": 328272}
+{"event": "jacobian", "count": 47, "nodes": 17, "workers": 2, "seconds": 51.33097171783447, "maximum_RSS_kib": 328272, "VmHWM": "328388 kB", "VmRSS": "328388 kB"}
+{"event": "jacobian", "count": 48, "nodes": 16, "workers": 2, "seconds": 52.28105163574219, "maximum_RSS_kib": 328272, "VmHWM": "328388 kB", "VmRSS": "328388 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 384, "total": 432, "maximum_RSS_kib": 332408}
+{"event": "jacobian", "count": 49, "nodes": 17, "workers": 2, "seconds": 53.44555735588074, "maximum_RSS_kib": 332408, "VmHWM": "332484 kB", "VmRSS": "332484 kB"}
+{"event": "jacobian", "count": 50, "nodes": 16, "workers": 2, "seconds": 54.39432168006897, "maximum_RSS_kib": 332408, "VmHWM": "332484 kB", "VmRSS": "332484 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 400, "total": 432, "maximum_RSS_kib": 336524}
+{"event": "jacobian", "count": 51, "nodes": 17, "workers": 2, "seconds": 55.565000772476196, "maximum_RSS_kib": 336524, "VmHWM": "336580 kB", "VmRSS": "336580 kB"}
+{"event": "jacobian", "count": 52, "nodes": 16, "workers": 2, "seconds": 56.48683714866638, "maximum_RSS_kib": 336524, "VmHWM": "336580 kB", "VmRSS": "336580 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 416, "total": 432, "maximum_RSS_kib": 340616}
+{"event": "jacobian", "count": 53, "nodes": 17, "workers": 2, "seconds": 57.660526275634766, "maximum_RSS_kib": 340616, "VmHWM": "340676 kB", "VmRSS": "340676 kB"}
+{"event": "jacobian", "count": 54, "nodes": 16, "workers": 2, "seconds": 58.5937557220459, "maximum_RSS_kib": 340616, "VmHWM": "340676 kB", "VmRSS": "340676 kB"}
+{"event": "separated_qr_chunk", "jacobian": 1, "intervals": 432, "total": 432, "maximum_RSS_kib": 343544}
+{"event": "separated_qr_factor", "n": 290, "nodes": 433, "free_dimensions": 93, "reduced_condition": 4815857.321710771, "seconds": 57.305431372000015, "maximum_RSS_kib": 343544}
+{"event": "factor_start", "dimension": 125570, "maximum_RSS_kib": 343544, "VmHWM": "343544 kB", "VmRSS": "338672 kB"}
+{"event": "factor_end", "seconds": 0.0001690387725830078, "maximum_RSS_kib": 343544, "VmHWM": "343544 kB", "VmRSS": "338672 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 1.4322053073131734e-17, "rhs_max": 1.9980292880325364e-09, "linear_relative_residual": 7.168089656600925e-09, "solution_max": 0.00027551828732789844, "maximum_RSS_kib": 343544}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 9.662727572584837e-14, "rhs_max": 7.652114852756871e-08, "linear_relative_residual": 1.262752553838576e-06, "solution_max": 1.8467315989796271, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 8.795462826155466e-15, "rhs_max": 1.6781056114573555e-08, "linear_relative_residual": 5.241304698645886e-07, "solution_max": 0.16558692961054505, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.2120246488465925e-15, "rhs_max": 4.089390891260697e-09, "linear_relative_residual": 2.9638268413928605e-07, "solution_max": 0.023077396000538562, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 2.231067776234433e-16, "rhs_max": 1.9228863416301922e-09, "linear_relative_residual": 1.1602702291509178e-07, "solution_max": 0.004208114507860098, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 5.538146709559268e-17, "rhs_max": 1.9719174242348132e-09, "linear_relative_residual": 2.808508430168318e-08, "solution_max": 0.001059647610826822, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 2.2436780702265488e-17, "rhs_max": 1.987655007989635e-09, "linear_relative_residual": 1.1288065892762053e-08, "solution_max": 0.0004473806274790201, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 1.6255936204807474e-17, "rhs_max": 1.993491302836372e-09, "linear_relative_residual": 8.15450570648503e-09, "solution_max": 0.00031532042915700817, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 1.4870949241311456e-17, "rhs_max": 1.9959200258870617e-09, "linear_relative_residual": 7.450673898971603e-09, "solution_max": 0.00028497800185260793, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 1.430321217352446e-17, "rhs_max": 1.997014275723345e-09, "linear_relative_residual": 7.162298410883241e-09, "solution_max": 0.0002777703990034998, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 1.4653167682072423e-17, "rhs_max": 1.9975316477698313e-09, "linear_relative_residual": 7.335637309392386e-09, "solution_max": 0.0002760426834656997, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 1.481509366365366e-17, "rhs_max": 1.9977829295809856e-09, "linear_relative_residual": 7.415767471174145e-09, "solution_max": 0.00027563360407282335, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 13, "linear_residual_max": 1.4484574211163703e-17, "rhs_max": 1.9979067236256654e-09, "linear_relative_residual": 7.2498751017155e-09, "solution_max": 0.00027553692483609844, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 14, "linear_residual_max": 1.4638687471859376e-17, "rhs_max": 1.997968159405862e-09, "linear_relative_residual": 7.326787167725685e-09, "solution_max": 0.0002755203764805287, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 15, "linear_residual_max": 1.4559729360078433e-17, "rhs_max": 1.997998762095218e-09, "linear_relative_residual": 7.28715634678885e-09, "solution_max": 0.0002755168729594481, "maximum_RSS_kib": 419220}
+{"event": "newton", "iteration": 0, "alpha": 1.52587890625e-05, "max_bc": 8.673617379884035e-19, "max_collocation": 1.997998762095218e-09}
+{"event": "obsolete_factor_released", "iteration": 1, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "218396 kB"}
+{"event": "jacobian", "count": 55, "nodes": 17, "workers": 2, "seconds": 77.36716747283936, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "223648 kB"}
+{"event": "jacobian", "count": 56, "nodes": 16, "workers": 2, "seconds": 78.32220220565796, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "223672 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 16, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 57, "nodes": 17, "workers": 2, "seconds": 79.50667548179626, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "230996 kB"}
+{"event": "jacobian", "count": 58, "nodes": 16, "workers": 2, "seconds": 80.4554352760315, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "230996 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 32, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 59, "nodes": 17, "workers": 2, "seconds": 81.63644051551819, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "233044 kB"}
+{"event": "jacobian", "count": 60, "nodes": 16, "workers": 2, "seconds": 82.5835633277893, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "233044 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 48, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 61, "nodes": 17, "workers": 2, "seconds": 83.76850390434265, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "239188 kB"}
+{"event": "jacobian", "count": 62, "nodes": 16, "workers": 2, "seconds": 84.70189952850342, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "239188 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 64, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 63, "nodes": 17, "workers": 2, "seconds": 85.87439107894897, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "243284 kB"}
+{"event": "jacobian", "count": 64, "nodes": 16, "workers": 2, "seconds": 86.81697177886963, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "243284 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 80, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 65, "nodes": 17, "workers": 2, "seconds": 88.00871920585632, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "247380 kB"}
+{"event": "jacobian", "count": 66, "nodes": 16, "workers": 2, "seconds": 88.93317103385925, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "247380 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 96, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 67, "nodes": 17, "workers": 2, "seconds": 90.09378695487976, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "251476 kB"}
+{"event": "jacobian", "count": 68, "nodes": 16, "workers": 2, "seconds": 91.03048896789551, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "251476 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 112, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 69, "nodes": 17, "workers": 2, "seconds": 92.20551323890686, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "257620 kB"}
+{"event": "jacobian", "count": 70, "nodes": 16, "workers": 2, "seconds": 93.15431094169617, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "257620 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 128, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 71, "nodes": 17, "workers": 2, "seconds": 94.34221482276917, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "261716 kB"}
+{"event": "jacobian", "count": 72, "nodes": 16, "workers": 2, "seconds": 95.28998303413391, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "261716 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 144, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 73, "nodes": 17, "workers": 2, "seconds": 96.46654319763184, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "265812 kB"}
+{"event": "jacobian", "count": 74, "nodes": 16, "workers": 2, "seconds": 97.4098060131073, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "265812 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 160, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 75, "nodes": 17, "workers": 2, "seconds": 98.59437298774719, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "271956 kB"}
+{"event": "jacobian", "count": 76, "nodes": 16, "workers": 2, "seconds": 99.52902507781982, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "271956 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 176, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 77, "nodes": 17, "workers": 2, "seconds": 100.7241837978363, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "274004 kB"}
+{"event": "jacobian", "count": 78, "nodes": 16, "workers": 2, "seconds": 101.66315865516663, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "274004 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 192, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 79, "nodes": 17, "workers": 2, "seconds": 102.86826777458191, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "280148 kB"}
+{"event": "jacobian", "count": 80, "nodes": 16, "workers": 2, "seconds": 103.7988908290863, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "280148 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 208, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 81, "nodes": 17, "workers": 2, "seconds": 104.9759612083435, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "282196 kB"}
+{"event": "jacobian", "count": 82, "nodes": 16, "workers": 2, "seconds": 105.9421660900116, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "282196 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 224, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 83, "nodes": 17, "workers": 2, "seconds": 107.11949419975281, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "288340 kB"}
+{"event": "jacobian", "count": 84, "nodes": 16, "workers": 2, "seconds": 108.06114745140076, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "288340 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 240, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 85, "nodes": 17, "workers": 2, "seconds": 109.24865961074829, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "292436 kB"}
+{"event": "jacobian", "count": 86, "nodes": 16, "workers": 2, "seconds": 110.18148398399353, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "292436 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 256, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 87, "nodes": 17, "workers": 2, "seconds": 111.35757374763489, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "296532 kB"}
+{"event": "jacobian", "count": 88, "nodes": 16, "workers": 2, "seconds": 112.30211138725281, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "296532 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 272, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 89, "nodes": 17, "workers": 2, "seconds": 113.47325396537781, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "300628 kB"}
+{"event": "jacobian", "count": 90, "nodes": 16, "workers": 2, "seconds": 114.42575907707214, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "300628 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 288, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 91, "nodes": 17, "workers": 2, "seconds": 115.60931205749512, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "306772 kB"}
+{"event": "jacobian", "count": 92, "nodes": 16, "workers": 2, "seconds": 116.53491306304932, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "306772 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 304, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 93, "nodes": 17, "workers": 2, "seconds": 117.69961667060852, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "308820 kB"}
+{"event": "jacobian", "count": 94, "nodes": 16, "workers": 2, "seconds": 118.64127564430237, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "308820 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 320, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 95, "nodes": 17, "workers": 2, "seconds": 119.82443618774414, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "314964 kB"}
+{"event": "jacobian", "count": 96, "nodes": 16, "workers": 2, "seconds": 120.75762820243835, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "314964 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 336, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 97, "nodes": 17, "workers": 2, "seconds": 121.92590069770813, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "319060 kB"}
+{"event": "jacobian", "count": 98, "nodes": 16, "workers": 2, "seconds": 122.87169981002808, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "319060 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 352, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 99, "nodes": 17, "workers": 2, "seconds": 124.05419778823853, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "323156 kB"}
+{"event": "jacobian", "count": 100, "nodes": 16, "workers": 2, "seconds": 124.9880120754242, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "323156 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 368, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 101, "nodes": 17, "workers": 2, "seconds": 126.15954303741455, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "327252 kB"}
+{"event": "jacobian", "count": 102, "nodes": 16, "workers": 2, "seconds": 127.09671020507812, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "327252 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 384, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 103, "nodes": 17, "workers": 2, "seconds": 128.28743815422058, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "333396 kB"}
+{"event": "jacobian", "count": 104, "nodes": 16, "workers": 2, "seconds": 129.23172616958618, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "333396 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 400, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 105, "nodes": 17, "workers": 2, "seconds": 130.40145564079285, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "337492 kB"}
+{"event": "jacobian", "count": 106, "nodes": 16, "workers": 2, "seconds": 131.40133142471313, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "337492 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 416, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "jacobian", "count": 107, "nodes": 17, "workers": 2, "seconds": 132.67278861999512, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "341588 kB"}
+{"event": "jacobian", "count": 108, "nodes": 16, "workers": 2, "seconds": 133.60547995567322, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "341588 kB"}
+{"event": "separated_qr_chunk", "jacobian": 2, "intervals": 432, "total": 432, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_factor", "n": 290, "nodes": 433, "free_dimensions": 93, "reduced_condition": 53990247.88733723, "seconds": 57.43276587399998, "maximum_RSS_kib": 419220}
+{"event": "factor_start", "dimension": 125570, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "339740 kB"}
+{"event": "factor_end", "seconds": 0.0001697540283203125, "maximum_RSS_kib": 419220, "VmHWM": "419220 kB", "VmRSS": "339740 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 1.8547991974518217e-16, "rhs_max": 1.997998762095218e-09, "linear_relative_residual": 9.283285018188756e-08, "solution_max": 0.0030878182587845016, "maximum_RSS_kib": 419220}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 3.3855765387893712e-12, "rhs_max": 1.817696782864713e-07, "linear_relative_residual": 1.8625639714527416e-05, "solution_max": 55.42095306103117, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 1.3500467206501294e-13, "rhs_max": 3.334868092329891e-08, "linear_relative_residual": 4.048276223444044e-06, "solution_max": 2.2200562007592235, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 7.43857007609169e-15, "rhs_max": 7.2434841231673615e-09, "linear_relative_residual": 1.026932612760256e-06, "solution_max": 0.12360337813059842, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 7.977099358399129e-16, "rhs_max": 1.923280068218571e-09, "linear_relative_residual": 4.147653527022655e-07, "solution_max": 0.01328419960585104, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 6.493198389544107e-16, "rhs_max": 1.977389335393601e-09, "linear_relative_residual": 3.283722771899966e-07, "solution_max": 0.010857851770461622, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 3.54620877926704e-16, "rhs_max": 1.992227230807702e-09, "linear_relative_residual": 1.7800222406503863e-07, "solution_max": 0.005700034709994782, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.349218991703991e-16, "rhs_max": 1.996294765124194e-09, "linear_relative_residual": 1.1767896368539746e-07, "solution_max": 0.0038259506714019694, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 1.9796919969522328e-16, "rhs_max": 1.997448611488065e-09, "linear_relative_residual": 9.911103522595238e-08, "solution_max": 0.0032829565399183514, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 1.8994215052268316e-16, "rhs_max": 1.997799971729486e-09, "linear_relative_residual": 9.507565983107464e-08, "solution_max": 0.0031378592485342013, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 1.84036058615178e-16, "rhs_max": 1.9979185424877397e-09, "linear_relative_residual": 9.211389488683688e-08, "solution_max": 0.0031004468074727408, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 1.933136402649564e-16, "rhs_max": 1.997963459351725e-09, "linear_relative_residual": 9.675534322718818e-08, "solution_max": 0.003090996584174237, "maximum_RSS_kib": 419360}
+{"event": "newton_backtracking_failed", "iteration": 1, "max_bc": 8.673617379884035e-19, "max_collocation": 1.997998762095218e-09}
+       1          1.02e-05       8.67e-19          433             1       
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "295740 kB"}
+{"event": "jacobian", "count": 109, "nodes": 17, "workers": 2, "seconds": 150.13423895835876, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "299992 kB"}
+{"event": "jacobian", "count": 110, "nodes": 16, "workers": 2, "seconds": 151.05352973937988, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "300008 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 16, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 111, "nodes": 17, "workers": 2, "seconds": 152.22547698020935, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "305236 kB"}
+{"event": "jacobian", "count": 112, "nodes": 16, "workers": 2, "seconds": 153.1652913093567, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "305236 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 32, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 113, "nodes": 17, "workers": 2, "seconds": 154.3447403907776, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "307284 kB"}
+{"event": "jacobian", "count": 114, "nodes": 16, "workers": 2, "seconds": 155.2937150001526, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "307284 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 48, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 115, "nodes": 17, "workers": 2, "seconds": 156.46133589744568, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "311380 kB"}
+{"event": "jacobian", "count": 116, "nodes": 16, "workers": 2, "seconds": 157.39972639083862, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "311380 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 64, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 117, "nodes": 17, "workers": 2, "seconds": 158.57930827140808, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "315476 kB"}
+{"event": "jacobian", "count": 118, "nodes": 16, "workers": 2, "seconds": 159.51015400886536, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "315476 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 80, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 119, "nodes": 17, "workers": 2, "seconds": 160.69168090820312, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "317524 kB"}
+{"event": "jacobian", "count": 120, "nodes": 16, "workers": 2, "seconds": 161.64938950538635, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "317524 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 96, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 121, "nodes": 17, "workers": 2, "seconds": 162.82617378234863, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "321620 kB"}
+{"event": "jacobian", "count": 122, "nodes": 16, "workers": 2, "seconds": 163.7776701450348, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "321620 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 112, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 123, "nodes": 17, "workers": 2, "seconds": 164.95178389549255, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "323668 kB"}
+{"event": "jacobian", "count": 124, "nodes": 16, "workers": 2, "seconds": 165.90050077438354, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "323668 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 128, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 125, "nodes": 17, "workers": 2, "seconds": 167.0963773727417, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "327764 kB"}
+{"event": "jacobian", "count": 126, "nodes": 16, "workers": 2, "seconds": 168.02365589141846, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "327764 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 144, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 127, "nodes": 17, "workers": 2, "seconds": 169.19977378845215, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "331860 kB"}
+{"event": "jacobian", "count": 128, "nodes": 16, "workers": 2, "seconds": 170.13891434669495, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "331860 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 160, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 129, "nodes": 17, "workers": 2, "seconds": 171.32607221603394, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "333908 kB"}
+{"event": "jacobian", "count": 130, "nodes": 16, "workers": 2, "seconds": 172.26736092567444, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "333908 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 176, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 131, "nodes": 17, "workers": 2, "seconds": 173.44971919059753, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "338004 kB"}
+{"event": "jacobian", "count": 132, "nodes": 16, "workers": 2, "seconds": 174.40122723579407, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "338004 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 192, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 133, "nodes": 17, "workers": 2, "seconds": 175.5741536617279, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "342100 kB"}
+{"event": "jacobian", "count": 134, "nodes": 16, "workers": 2, "seconds": 176.51636910438538, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "342100 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 208, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 135, "nodes": 17, "workers": 2, "seconds": 177.69197940826416, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "344148 kB"}
+{"event": "jacobian", "count": 136, "nodes": 16, "workers": 2, "seconds": 178.61652159690857, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "344148 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 224, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 137, "nodes": 17, "workers": 2, "seconds": 179.78793168067932, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "348244 kB"}
+{"event": "jacobian", "count": 138, "nodes": 16, "workers": 2, "seconds": 180.73173093795776, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "348244 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 240, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 139, "nodes": 17, "workers": 2, "seconds": 181.91157841682434, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "352836 kB"}
+{"event": "jacobian", "count": 140, "nodes": 16, "workers": 2, "seconds": 182.84625506401062, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "352836 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 256, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 141, "nodes": 17, "workers": 2, "seconds": 184.01611232757568, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "354884 kB"}
+{"event": "jacobian", "count": 142, "nodes": 16, "workers": 2, "seconds": 184.94722485542297, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "354884 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 272, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 143, "nodes": 17, "workers": 2, "seconds": 186.1290328502655, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "358980 kB"}
+{"event": "jacobian", "count": 144, "nodes": 16, "workers": 2, "seconds": 187.06843519210815, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "358980 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 288, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 145, "nodes": 17, "workers": 2, "seconds": 188.23137307167053, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "363076 kB"}
+{"event": "jacobian", "count": 146, "nodes": 16, "workers": 2, "seconds": 189.1786971092224, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "363076 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 304, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 147, "nodes": 17, "workers": 2, "seconds": 190.34116053581238, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "365124 kB"}
+{"event": "jacobian", "count": 148, "nodes": 16, "workers": 2, "seconds": 191.42810654640198, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "365124 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 320, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 149, "nodes": 17, "workers": 2, "seconds": 192.68024230003357, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "369220 kB"}
+{"event": "jacobian", "count": 150, "nodes": 16, "workers": 2, "seconds": 193.61871910095215, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "369220 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 336, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 151, "nodes": 17, "workers": 2, "seconds": 194.80016803741455, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "373316 kB"}
+{"event": "jacobian", "count": 152, "nodes": 16, "workers": 2, "seconds": 195.7468569278717, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "373316 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 352, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 153, "nodes": 17, "workers": 2, "seconds": 196.92943930625916, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "375364 kB"}
+{"event": "jacobian", "count": 154, "nodes": 16, "workers": 2, "seconds": 197.87959337234497, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "375364 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 368, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 155, "nodes": 17, "workers": 2, "seconds": 199.05688333511353, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "379460 kB"}
+{"event": "jacobian", "count": 156, "nodes": 16, "workers": 2, "seconds": 199.98135566711426, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "379460 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 384, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 157, "nodes": 17, "workers": 2, "seconds": 201.13479018211365, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "381508 kB"}
+{"event": "jacobian", "count": 158, "nodes": 16, "workers": 2, "seconds": 202.08467364311218, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "381508 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 400, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 159, "nodes": 17, "workers": 2, "seconds": 203.25069856643677, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "385604 kB"}
+{"event": "jacobian", "count": 160, "nodes": 16, "workers": 2, "seconds": 204.2306809425354, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "385604 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 416, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 161, "nodes": 17, "workers": 2, "seconds": 205.43516755104065, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "389700 kB"}
+{"event": "jacobian", "count": 162, "nodes": 16, "workers": 2, "seconds": 206.37415957450867, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "389704 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 432, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "jacobian", "count": 163, "nodes": 2, "workers": 2, "seconds": 206.94839334487915, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "391752 kB"}
+{"event": "jacobian", "count": 164, "nodes": 1, "workers": 2, "seconds": 207.24830317497253, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "391752 kB"}
+{"event": "separated_qr_chunk", "jacobian": 3, "intervals": 433, "total": 433, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_factor", "n": 290, "nodes": 434, "free_dimensions": 93, "reduced_condition": 59543545.80502195, "seconds": 58.138406497999995, "maximum_RSS_kib": 419360}
+{"event": "factor_start", "dimension": 125860, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "387720 kB"}
+{"event": "factor_end", "seconds": 0.00015807151794433594, "maximum_RSS_kib": 419360, "VmHWM": "419360 kB", "VmRSS": "387720 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 2.0434503754642995e-16, "rhs_max": 1.0168719300485788e-09, "linear_relative_residual": 2.0095454649502205e-07, "solution_max": 0.0033965798295385484, "maximum_RSS_kib": 419360}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 6.5683751483736696e-12, "rhs_max": 2.428518379857626e-07, "linear_relative_residual": 2.7046841411011867e-05, "solution_max": 108.22916877130426, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 2.1834961296810219e-13, "rhs_max": 4.15798115430393e-08, "linear_relative_residual": 5.251337244328014e-06, "solution_max": 3.6061212954371364, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.3140940297779507e-14, "rhs_max": 8.867995134486722e-09, "linear_relative_residual": 1.481838916067482e-06, "solution_max": 0.2125515166428991, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 6.942975535650004e-16, "rhs_max": 2.27985287371972e-09, "linear_relative_residual": 3.045361222946862e-07, "solution_max": 0.011490450472190675, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 7.939137196655715e-16, "rhs_max": 1.00423822884934e-09, "linear_relative_residual": 7.905631321914929e-07, "solution_max": 0.013059412734892034, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 4.198202222298358e-16, "rhs_max": 1.0133883196032146e-09, "linear_relative_residual": 4.142737922953499e-07, "solution_max": 0.006792247484475825, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.634994731120434e-16, "rhs_max": 1.015866772425985e-09, "linear_relative_residual": 2.5938388799033356e-07, "solution_max": 0.0043702538860344526, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 2.262033770501917e-16, "rhs_max": 1.0165572774268445e-09, "linear_relative_residual": 2.2251906712307234e-07, "solution_max": 0.003655616350809414, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 2.0956793286188673e-16, "rhs_max": 1.0167620701190934e-09, "linear_relative_residual": 2.0611305144116955e-07, "solution_max": 0.0034632368449862873, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 2.0733201568968037e-16, "rhs_max": 1.0168289281901649e-09, "linear_relative_residual": 2.0390058734728055e-07, "solution_max": 0.0034134426722973498, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 2.0507389037238819e-16, "rhs_max": 1.0168534188910231e-09, "linear_relative_residual": 2.01674977496797e-07, "solution_max": 0.0034008142790432584, "maximum_RSS_kib": 437652}
+{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 8.673617379884035e-19, "max_collocation": 1.0168719300485788e-09}
+       2          1.04e-05       8.67e-19          434             2       
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "299664 kB"}
+{"event": "jacobian", "count": 165, "nodes": 17, "workers": 2, "seconds": 223.76144361495972, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "304288 kB"}
+{"event": "jacobian", "count": 166, "nodes": 16, "workers": 2, "seconds": 224.7063548564911, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "304296 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 16, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 167, "nodes": 17, "workers": 2, "seconds": 225.87946724891663, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "307888 kB"}
+{"event": "jacobian", "count": 168, "nodes": 16, "workers": 2, "seconds": 226.8089201450348, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "307888 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 32, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 169, "nodes": 17, "workers": 2, "seconds": 227.98471307754517, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "311984 kB"}
+{"event": "jacobian", "count": 170, "nodes": 16, "workers": 2, "seconds": 228.92478561401367, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "311984 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 48, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 171, "nodes": 17, "workers": 2, "seconds": 230.0965781211853, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "316080 kB"}
+{"event": "jacobian", "count": 172, "nodes": 16, "workers": 2, "seconds": 231.03268432617188, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "316080 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 64, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 173, "nodes": 17, "workers": 2, "seconds": 232.2163999080658, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "318128 kB"}
+{"event": "jacobian", "count": 174, "nodes": 16, "workers": 2, "seconds": 233.15679144859314, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "318128 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 80, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 175, "nodes": 17, "workers": 2, "seconds": 234.35785627365112, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "322224 kB"}
+{"event": "jacobian", "count": 176, "nodes": 16, "workers": 2, "seconds": 235.29657173156738, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "322224 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 96, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 177, "nodes": 17, "workers": 2, "seconds": 236.49378395080566, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "326320 kB"}
+{"event": "jacobian", "count": 178, "nodes": 16, "workers": 2, "seconds": 237.441579580307, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "326320 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 112, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 179, "nodes": 17, "workers": 2, "seconds": 238.63391661643982, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "328380 kB"}
+{"event": "jacobian", "count": 180, "nodes": 16, "workers": 2, "seconds": 239.5807545185089, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "328380 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 128, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 181, "nodes": 17, "workers": 2, "seconds": 240.74647188186646, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "332476 kB"}
+{"event": "jacobian", "count": 182, "nodes": 16, "workers": 2, "seconds": 241.6934094429016, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "332476 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 144, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 183, "nodes": 17, "workers": 2, "seconds": 242.86920070648193, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "336572 kB"}
+{"event": "jacobian", "count": 184, "nodes": 16, "workers": 2, "seconds": 243.7946743965149, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "336572 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 160, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 185, "nodes": 17, "workers": 2, "seconds": 244.98544716835022, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "338620 kB"}
+{"event": "jacobian", "count": 186, "nodes": 16, "workers": 2, "seconds": 245.92274284362793, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "338620 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 176, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 187, "nodes": 17, "workers": 2, "seconds": 247.1000189781189, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "342716 kB"}
+{"event": "jacobian", "count": 188, "nodes": 16, "workers": 2, "seconds": 248.0224587917328, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "342716 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 192, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 189, "nodes": 17, "workers": 2, "seconds": 249.20813012123108, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "344764 kB"}
+{"event": "jacobian", "count": 190, "nodes": 16, "workers": 2, "seconds": 250.1337161064148, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "344764 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 208, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 191, "nodes": 17, "workers": 2, "seconds": 251.31838297843933, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "348860 kB"}
+{"event": "jacobian", "count": 192, "nodes": 16, "workers": 2, "seconds": 252.40297961235046, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "348860 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 224, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 193, "nodes": 17, "workers": 2, "seconds": 253.63989114761353, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "352956 kB"}
+{"event": "jacobian", "count": 194, "nodes": 16, "workers": 2, "seconds": 254.5771040916443, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "352956 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 240, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 195, "nodes": 17, "workers": 2, "seconds": 255.73681950569153, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "355004 kB"}
+{"event": "jacobian", "count": 196, "nodes": 16, "workers": 2, "seconds": 256.66919326782227, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "355004 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 256, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 197, "nodes": 17, "workers": 2, "seconds": 257.8586616516113, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "359100 kB"}
+{"event": "jacobian", "count": 198, "nodes": 16, "workers": 2, "seconds": 258.8017168045044, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "359100 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 272, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 199, "nodes": 17, "workers": 2, "seconds": 259.9827198982239, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "363196 kB"}
+{"event": "jacobian", "count": 200, "nodes": 16, "workers": 2, "seconds": 260.9456126689911, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "363196 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 288, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 201, "nodes": 17, "workers": 2, "seconds": 262.11504769325256, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "365244 kB"}
+{"event": "jacobian", "count": 202, "nodes": 16, "workers": 2, "seconds": 263.0544054508209, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "365244 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 304, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 203, "nodes": 17, "workers": 2, "seconds": 264.2362265586853, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "369340 kB"}
+{"event": "jacobian", "count": 204, "nodes": 16, "workers": 2, "seconds": 265.16842007637024, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "369340 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 320, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 205, "nodes": 17, "workers": 2, "seconds": 266.3555006980896, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "373436 kB"}
+{"event": "jacobian", "count": 206, "nodes": 16, "workers": 2, "seconds": 267.3046507835388, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "373436 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 336, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 207, "nodes": 17, "workers": 2, "seconds": 268.48464918136597, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "375484 kB"}
+{"event": "jacobian", "count": 208, "nodes": 16, "workers": 2, "seconds": 269.4272928237915, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "375484 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 352, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 209, "nodes": 17, "workers": 2, "seconds": 270.62214756011963, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "379580 kB"}
+{"event": "jacobian", "count": 210, "nodes": 16, "workers": 2, "seconds": 271.57605504989624, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "379580 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 368, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 211, "nodes": 17, "workers": 2, "seconds": 272.78165006637573, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "383676 kB"}
+{"event": "jacobian", "count": 212, "nodes": 16, "workers": 2, "seconds": 273.7344264984131, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "383676 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 384, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 213, "nodes": 17, "workers": 2, "seconds": 274.9356141090393, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "385724 kB"}
+{"event": "jacobian", "count": 214, "nodes": 16, "workers": 2, "seconds": 275.87088537216187, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "385724 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 400, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 215, "nodes": 17, "workers": 2, "seconds": 277.08132910728455, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "389820 kB"}
+{"event": "jacobian", "count": 216, "nodes": 16, "workers": 2, "seconds": 278.0321660041809, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "389820 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 416, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 217, "nodes": 17, "workers": 2, "seconds": 279.23997235298157, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "393920 kB"}
+{"event": "jacobian", "count": 218, "nodes": 16, "workers": 2, "seconds": 280.18233346939087, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "393920 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 432, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "jacobian", "count": 219, "nodes": 4, "workers": 2, "seconds": 280.790420293808, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "395968 kB"}
+{"event": "jacobian", "count": 220, "nodes": 3, "workers": 2, "seconds": 281.1808547973633, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "395968 kB"}
+{"event": "separated_qr_chunk", "jacobian": 4, "intervals": 435, "total": 435, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_factor", "n": 290, "nodes": 436, "free_dimensions": 93, "reduced_condition": 59921528.44282217, "seconds": 58.457136195999965, "maximum_RSS_kib": 437652}
+{"event": "factor_start", "dimension": 126440, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "391936 kB"}
+{"event": "factor_end", "seconds": 0.00016570091247558594, "maximum_RSS_kib": 437652, "VmHWM": "437652 kB", "VmRSS": "391936 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 2.0521239928441835e-16, "rhs_max": 5.093505851934975e-10, "linear_relative_residual": 4.028902788174084e-07, "solution_max": 0.0034173408560334356, "maximum_RSS_kib": 437652}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 6.970812016590354e-12, "rhs_max": 2.4920069232410043e-07, "linear_relative_residual": 2.7972683187911834e-05, "solution_max": 113.18162827180669, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 2.284691826269749e-13, "rhs_max": 4.217478182103308e-08, "linear_relative_residual": 5.41719892224871e-06, "solution_max": 3.721081709489444, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.353666533254839e-14, "rhs_max": 8.98410728029117e-09, "linear_relative_residual": 1.5067346048109162e-06, "solution_max": 0.21982485590386414, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 6.943565422960234e-16, "rhs_max": 2.305214089620873e-09, "linear_relative_residual": 3.0121130415709925e-07, "solution_max": 0.01128509266871821, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 8.253813551339965e-16, "rhs_max": 7.12530398168984e-10, "linear_relative_residual": 1.158380550857914e-06, "solution_max": 0.013212484961852828, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 4.1034393421933414e-16, "rhs_max": 5.075745953213411e-10, "linear_relative_residual": 8.084406469546589e-07, "solution_max": 0.006870291542388015, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.6487942999023447e-16, "rhs_max": 5.088395071971677e-10, "linear_relative_residual": 5.20555943954245e-07, "solution_max": 0.004408422684651741, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 2.2277317485522005e-16, "rhs_max": 5.091910986044945e-10, "linear_relative_residual": 4.375040637311991e-07, "solution_max": 0.0036811293688534014, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 2.1062487033420188e-16, "rhs_max": 5.092950897966423e-10, "linear_relative_residual": 4.1356155704996646e-07, "solution_max": 0.003485227113018112, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 2.1256616976045462e-16, "rhs_max": 5.093289292566458e-10, "linear_relative_residual": 4.1734556501765997e-07, "solution_max": 0.0034345089465584173, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 2.0930471158326317e-16, "rhs_max": 5.0934128390728e-10, "linear_relative_residual": 4.1093215530780497e-07, "solution_max": 0.0034216412959412234, "maximum_RSS_kib": 438644}
+{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 8.673617379884035e-19, "max_collocation": 5.093505851934975e-10}
+       3          1.04e-05       8.67e-19          436             4       
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "307280 kB"}
+{"event": "jacobian", "count": 221, "nodes": 17, "workers": 2, "seconds": 297.54533433914185, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "311932 kB"}
+{"event": "jacobian", "count": 222, "nodes": 16, "workers": 2, "seconds": 298.4984836578369, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "311948 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 16, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 223, "nodes": 17, "workers": 2, "seconds": 299.6770157814026, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "316392 kB"}
+{"event": "jacobian", "count": 224, "nodes": 16, "workers": 2, "seconds": 300.6291387081146, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "316392 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 32, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 225, "nodes": 17, "workers": 2, "seconds": 301.80453610420227, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "320488 kB"}
+{"event": "jacobian", "count": 226, "nodes": 16, "workers": 2, "seconds": 302.7389290332794, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "320488 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 48, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 227, "nodes": 17, "workers": 2, "seconds": 303.9242765903473, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "322536 kB"}
+{"event": "jacobian", "count": 228, "nodes": 16, "workers": 2, "seconds": 304.8802990913391, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "322536 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 64, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 229, "nodes": 17, "workers": 2, "seconds": 306.07874608039856, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "326632 kB"}
+{"event": "jacobian", "count": 230, "nodes": 16, "workers": 2, "seconds": 307.02329754829407, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "326632 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 80, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 231, "nodes": 17, "workers": 2, "seconds": 308.2170796394348, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "330740 kB"}
+{"event": "jacobian", "count": 232, "nodes": 16, "workers": 2, "seconds": 309.1568810939789, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "330740 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 96, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 233, "nodes": 17, "workers": 2, "seconds": 310.4092547893524, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "332788 kB"}
+{"event": "jacobian", "count": 234, "nodes": 16, "workers": 2, "seconds": 311.4982178211212, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "332788 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 112, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 235, "nodes": 17, "workers": 2, "seconds": 312.6813621520996, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "336884 kB"}
+{"event": "jacobian", "count": 236, "nodes": 16, "workers": 2, "seconds": 313.6274585723877, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "336884 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 128, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 237, "nodes": 17, "workers": 2, "seconds": 314.80336809158325, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "340980 kB"}
+{"event": "jacobian", "count": 238, "nodes": 16, "workers": 2, "seconds": 315.75552344322205, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "340980 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 144, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 239, "nodes": 17, "workers": 2, "seconds": 316.9333577156067, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "343028 kB"}
+{"event": "jacobian", "count": 240, "nodes": 16, "workers": 2, "seconds": 317.8766794204712, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "343028 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 160, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 241, "nodes": 17, "workers": 2, "seconds": 319.0846381187439, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "347124 kB"}
+{"event": "jacobian", "count": 242, "nodes": 16, "workers": 2, "seconds": 320.01325511932373, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "347124 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 176, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 243, "nodes": 17, "workers": 2, "seconds": 321.1907787322998, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "349172 kB"}
+{"event": "jacobian", "count": 244, "nodes": 16, "workers": 2, "seconds": 322.1362190246582, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "349172 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 192, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 245, "nodes": 17, "workers": 2, "seconds": 323.30751180648804, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "353268 kB"}
+{"event": "jacobian", "count": 246, "nodes": 16, "workers": 2, "seconds": 324.25169134140015, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "353268 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 208, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 247, "nodes": 17, "workers": 2, "seconds": 325.45690870285034, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "357364 kB"}
+{"event": "jacobian", "count": 248, "nodes": 16, "workers": 2, "seconds": 326.41029477119446, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "357364 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 224, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 249, "nodes": 17, "workers": 2, "seconds": 327.59012508392334, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "359412 kB"}
+{"event": "jacobian", "count": 250, "nodes": 16, "workers": 2, "seconds": 328.5124497413635, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "359412 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 240, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 251, "nodes": 17, "workers": 2, "seconds": 329.6773602962494, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "363508 kB"}
+{"event": "jacobian", "count": 252, "nodes": 16, "workers": 2, "seconds": 330.62748193740845, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "363508 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 256, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 253, "nodes": 17, "workers": 2, "seconds": 331.81694984436035, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "367604 kB"}
+{"event": "jacobian", "count": 254, "nodes": 16, "workers": 2, "seconds": 332.7627556324005, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "367604 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 272, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 255, "nodes": 17, "workers": 2, "seconds": 333.94848704338074, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "370016 kB"}
+{"event": "jacobian", "count": 256, "nodes": 16, "workers": 2, "seconds": 334.88139843940735, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "370016 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 288, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 257, "nodes": 17, "workers": 2, "seconds": 336.08833718299866, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "374112 kB"}
+{"event": "jacobian", "count": 258, "nodes": 16, "workers": 2, "seconds": 337.01748991012573, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "374112 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 304, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 259, "nodes": 17, "workers": 2, "seconds": 338.2010667324066, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "378208 kB"}
+{"event": "jacobian", "count": 260, "nodes": 16, "workers": 2, "seconds": 339.1364588737488, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "378208 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 320, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 261, "nodes": 17, "workers": 2, "seconds": 340.3151624202728, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "380256 kB"}
+{"event": "jacobian", "count": 262, "nodes": 16, "workers": 2, "seconds": 341.273508310318, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "380256 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 336, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 263, "nodes": 17, "workers": 2, "seconds": 342.4806067943573, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "384352 kB"}
+{"event": "jacobian", "count": 264, "nodes": 16, "workers": 2, "seconds": 343.42220520973206, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "384352 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 352, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 265, "nodes": 17, "workers": 2, "seconds": 344.60160541534424, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "388448 kB"}
+{"event": "jacobian", "count": 266, "nodes": 16, "workers": 2, "seconds": 345.5447633266449, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "388448 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 368, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 267, "nodes": 17, "workers": 2, "seconds": 346.73311138153076, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "390496 kB"}
+{"event": "jacobian", "count": 268, "nodes": 16, "workers": 2, "seconds": 347.69065141677856, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "390496 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 384, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 269, "nodes": 17, "workers": 2, "seconds": 348.8607940673828, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "394592 kB"}
+{"event": "jacobian", "count": 270, "nodes": 16, "workers": 2, "seconds": 349.7985155582428, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "394592 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 400, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 271, "nodes": 17, "workers": 2, "seconds": 350.97081661224365, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "396640 kB"}
+{"event": "jacobian", "count": 272, "nodes": 16, "workers": 2, "seconds": 351.90623664855957, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "396640 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 416, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 273, "nodes": 17, "workers": 2, "seconds": 353.08348083496094, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "400740 kB"}
+{"event": "jacobian", "count": 274, "nodes": 16, "workers": 2, "seconds": 354.02966141700745, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "400740 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 432, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "jacobian", "count": 275, "nodes": 8, "workers": 2, "seconds": 354.8104786872864, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "404836 kB"}
+{"event": "jacobian", "count": 276, "nodes": 7, "workers": 2, "seconds": 355.3690276145935, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "404836 kB"}
+{"event": "separated_qr_chunk", "jacobian": 5, "intervals": 439, "total": 439, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_factor", "n": 290, "nodes": 440, "free_dimensions": 93, "reduced_condition": 59944930.21392615, "seconds": 58.894546759000036, "maximum_RSS_kib": 438644}
+{"event": "factor_start", "dimension": 127600, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "400804 kB"}
+{"event": "factor_end", "seconds": 0.0001709461212158203, "maximum_RSS_kib": 438644, "VmHWM": "438644 kB", "VmRSS": "400804 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 2.094949978657361e-16, "rhs_max": 2.547274161429363e-10, "linear_relative_residual": 8.224281509933004e-07, "solution_max": 0.0034186210408479424, "maximum_RSS_kib": 438644}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 6.8821075653725085e-12, "rhs_max": 2.495982715067217e-07, "linear_relative_residual": 2.757273727829951e-05, "solution_max": 113.49441235767613, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 2.2356205194306653e-13, "rhs_max": 4.2211645052334e-08, "linear_relative_residual": 5.296217469513313e-06, "solution_max": 3.7282765459542277, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.3523046667339265e-14, "rhs_max": 8.99129584226967e-09, "linear_relative_residual": 1.5040153170986805e-06, "solution_max": 0.22027944792849904, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 6.857602166725763e-16, "rhs_max": 2.3067826614874904e-09, "linear_relative_residual": 2.9727994237236693e-07, "solution_max": 0.01127204895610928, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 8.044789677914421e-16, "rhs_max": 7.129355148752696e-10, "linear_relative_residual": 1.1284035526441523e-06, "solution_max": 0.013221980536231422, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 4.035765830988097e-16, "rhs_max": 3.043345805919115e-10, "linear_relative_residual": 1.3260950573341971e-06, "solution_max": 0.006875117902570975, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.659738879615447e-16, "rhs_max": 2.544709439548323e-10, "linear_relative_residual": 1.0452033691074535e-06, "solution_max": 0.004410789954463388, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 2.1783180260302987e-16, "rhs_max": 2.5464744318977793e-10, "linear_relative_residual": 8.554250530632231e-07, "solution_max": 0.003682715801783237, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 2.1024264588957276e-16, "rhs_max": 2.5469961030834613e-10, "linear_relative_residual": 8.254533473178361e-07, "solution_max": 0.003486583530713868, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 2.091155362043529e-16, "rhs_max": 2.547165729540894e-10, "linear_relative_residual": 8.209734206892157e-07, "solution_max": 0.003435798392744773, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 2.0720066768021308e-16, "rhs_max": 2.5472276132066624e-10, "linear_relative_residual": 8.13436014143124e-07, "solution_max": 0.0034229238391884874, "maximum_RSS_kib": 440916}
+{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 8.673617379884035e-19, "max_collocation": 2.547274161429363e-10}
+       4          1.04e-05       8.67e-19          440             8       
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "308852 kB"}
+{"event": "jacobian", "count": 277, "nodes": 17, "workers": 2, "seconds": 371.8518145084381, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "315228 kB"}
+{"event": "jacobian", "count": 278, "nodes": 16, "workers": 2, "seconds": 372.8476355075836, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "315236 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 16, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 279, "nodes": 17, "workers": 2, "seconds": 374.0255832672119, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "317284 kB"}
+{"event": "jacobian", "count": 280, "nodes": 16, "workers": 2, "seconds": 374.95210218429565, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "317284 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 32, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 281, "nodes": 17, "workers": 2, "seconds": 376.1403260231018, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "321380 kB"}
+{"event": "jacobian", "count": 282, "nodes": 16, "workers": 2, "seconds": 377.0773425102234, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "321380 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 48, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 283, "nodes": 17, "workers": 2, "seconds": 378.2507848739624, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "323428 kB"}
+{"event": "jacobian", "count": 284, "nodes": 16, "workers": 2, "seconds": 379.2004199028015, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "323428 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 64, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 285, "nodes": 17, "workers": 2, "seconds": 380.3621304035187, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "327536 kB"}
+{"event": "jacobian", "count": 286, "nodes": 16, "workers": 2, "seconds": 381.30300736427307, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "327536 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 80, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 287, "nodes": 17, "workers": 2, "seconds": 382.47624683380127, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "331632 kB"}
+{"event": "jacobian", "count": 288, "nodes": 16, "workers": 2, "seconds": 383.40286564826965, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "331632 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 96, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 289, "nodes": 17, "workers": 2, "seconds": 384.582816362381, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "333680 kB"}
+{"event": "jacobian", "count": 290, "nodes": 16, "workers": 2, "seconds": 385.5316936969757, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "333680 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 112, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 291, "nodes": 17, "workers": 2, "seconds": 386.70211958885193, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "337776 kB"}
+{"event": "jacobian", "count": 292, "nodes": 16, "workers": 2, "seconds": 387.65992426872253, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "337776 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 128, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 293, "nodes": 17, "workers": 2, "seconds": 388.84819293022156, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "341872 kB"}
+{"event": "jacobian", "count": 294, "nodes": 16, "workers": 2, "seconds": 389.79028582572937, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "341872 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 144, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 295, "nodes": 17, "workers": 2, "seconds": 390.96635723114014, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "343920 kB"}
+{"event": "jacobian", "count": 296, "nodes": 16, "workers": 2, "seconds": 391.90403413772583, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "343920 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 160, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 297, "nodes": 17, "workers": 2, "seconds": 393.0837709903717, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "348016 kB"}
+{"event": "jacobian", "count": 298, "nodes": 16, "workers": 2, "seconds": 394.02390718460083, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "348016 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 176, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 299, "nodes": 17, "workers": 2, "seconds": 395.2148654460907, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "352112 kB"}
+{"event": "jacobian", "count": 300, "nodes": 16, "workers": 2, "seconds": 396.1480574607849, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "352112 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 192, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 301, "nodes": 17, "workers": 2, "seconds": 397.3188033103943, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "354160 kB"}
+{"event": "jacobian", "count": 302, "nodes": 16, "workers": 2, "seconds": 398.26230549812317, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "354160 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 208, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 303, "nodes": 17, "workers": 2, "seconds": 399.44863772392273, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "358256 kB"}
+{"event": "jacobian", "count": 304, "nodes": 16, "workers": 2, "seconds": 400.384149312973, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "358256 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 224, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 305, "nodes": 17, "workers": 2, "seconds": 401.5609004497528, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "362352 kB"}
+{"event": "jacobian", "count": 306, "nodes": 16, "workers": 2, "seconds": 402.49619126319885, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "362352 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 240, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 307, "nodes": 17, "workers": 2, "seconds": 403.6904227733612, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "364400 kB"}
+{"event": "jacobian", "count": 308, "nodes": 16, "workers": 2, "seconds": 404.6228051185608, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "364400 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 256, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 309, "nodes": 17, "workers": 2, "seconds": 405.8089451789856, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "368496 kB"}
+{"event": "jacobian", "count": 310, "nodes": 16, "workers": 2, "seconds": 406.7508773803711, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "368496 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 272, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 311, "nodes": 17, "workers": 2, "seconds": 407.9314320087433, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "370544 kB"}
+{"event": "jacobian", "count": 312, "nodes": 16, "workers": 2, "seconds": 408.8579843044281, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "370544 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 288, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 313, "nodes": 17, "workers": 2, "seconds": 410.0535714626312, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "374640 kB"}
+{"event": "jacobian", "count": 314, "nodes": 16, "workers": 2, "seconds": 411.0041744709015, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "374640 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 304, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 315, "nodes": 17, "workers": 2, "seconds": 412.1854112148285, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "378736 kB"}
+{"event": "jacobian", "count": 316, "nodes": 16, "workers": 2, "seconds": 413.1416265964508, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "378736 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 320, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 317, "nodes": 17, "workers": 2, "seconds": 414.3152177333832, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "380784 kB"}
+{"event": "jacobian", "count": 318, "nodes": 16, "workers": 2, "seconds": 415.25672578811646, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "380784 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 336, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 319, "nodes": 17, "workers": 2, "seconds": 416.44520139694214, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "384880 kB"}
+{"event": "jacobian", "count": 320, "nodes": 16, "workers": 2, "seconds": 417.37825536727905, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "384880 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 352, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 321, "nodes": 17, "workers": 2, "seconds": 418.54159283638, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "388976 kB"}
+{"event": "jacobian", "count": 322, "nodes": 16, "workers": 2, "seconds": 419.47092390060425, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "388976 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 368, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 323, "nodes": 17, "workers": 2, "seconds": 420.6485469341278, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "391024 kB"}
+{"event": "jacobian", "count": 324, "nodes": 16, "workers": 2, "seconds": 421.5912868976593, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "391024 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 384, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 325, "nodes": 17, "workers": 2, "seconds": 422.7832262516022, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "395120 kB"}
+{"event": "jacobian", "count": 326, "nodes": 16, "workers": 2, "seconds": 423.722932100296, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "395120 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 400, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 327, "nodes": 17, "workers": 2, "seconds": 424.88049149513245, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "399216 kB"}
+{"event": "jacobian", "count": 328, "nodes": 16, "workers": 2, "seconds": 425.8213315010071, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "399216 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 416, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 329, "nodes": 17, "workers": 2, "seconds": 427.0010793209076, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "401264 kB"}
+{"event": "jacobian", "count": 330, "nodes": 16, "workers": 2, "seconds": 427.93612337112427, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "401264 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 432, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "jacobian", "count": 331, "nodes": 16, "workers": 2, "seconds": 429.06811261177063, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "405360 kB"}
+{"event": "jacobian", "count": 332, "nodes": 15, "workers": 2, "seconds": 429.96307706832886, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "405360 kB"}
+{"event": "separated_qr_chunk", "jacobian": 6, "intervals": 447, "total": 447, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_factor", "n": 290, "nodes": 448, "free_dimensions": 93, "reduced_condition": 59946388.28191013, "seconds": 59.51004203299999, "maximum_RSS_kib": 440916}
+{"event": "factor_start", "dimension": 129920, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "404384 kB"}
+{"event": "factor_end", "seconds": 0.00017142295837402344, "maximum_RSS_kib": 440916, "VmHWM": "440916 kB", "VmRSS": "404384 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 2.0591713069653393e-16, "rhs_max": 1.9206540271608427e-10, "linear_relative_residual": 1.0721198497208038e-06, "solution_max": 0.003418700716302011, "maximum_RSS_kib": 440916}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 6.9386454578213505e-12, "rhs_max": 2.496230395539555e-07, "linear_relative_residual": 2.779649454721737e-05, "solution_max": 113.51390898898724, "maximum_RSS_kib": 445288}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 2.313635498869242e-13, "rhs_max": 4.221394000099733e-08, "linear_relative_residual": 5.480738113558177e-06, "solution_max": 3.7287248049359376, "maximum_RSS_kib": 445288}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.3620332219597129e-14, "rhs_max": 8.991743351150064e-09, "linear_relative_residual": 1.51475989557187e-06, "solution_max": 0.22030777231639656, "maximum_RSS_kib": 445288}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 6.769468909687739e-16, "rhs_max": 2.306880303328208e-09, "linear_relative_residual": 2.93446907493259e-07, "solution_max": 0.011271238179666023, "maximum_RSS_kib": 445288}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 8.135244061653912e-16, "rhs_max": 7.129607344078128e-10, "linear_relative_residual": 1.1410507856945402e-06, "solution_max": 0.013222546442448429, "maximum_RSS_kib": 456004}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 4.167299552842668e-16, "rhs_max": 3.0434098736369616e-10, "linear_relative_residual": 1.3692863353507579e-06, "solution_max": 0.0068754102249338955, "maximum_RSS_kib": 456004}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.6746036006003364e-16, "rhs_max": 2.1796922552977732e-10, "linear_relative_residual": 1.2270556057166666e-06, "solution_max": 0.004410952271068724, "maximum_RSS_kib": 456004}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 2.197174997756874e-16, "rhs_max": 1.9850745970462686e-10, "linear_relative_residual": 1.1068475718878295e-06, "solution_max": 0.0036827985905594027, "maximum_RSS_kib": 456004}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 2.1244803678845347e-16, "rhs_max": 1.9366728278816786e-10, "linear_relative_residual": 1.0969743248828862e-06, "solution_max": 0.0034866743109622446, "maximum_RSS_kib": 456004}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 2.0713092890994934e-16, "rhs_max": 1.9246259604642613e-10, "linear_relative_residual": 1.0762139406037362e-06, "solution_max": 0.0034358812259197295, "maximum_RSS_kib": 456004}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 2.014601756769798e-16, "rhs_max": 1.9216319124825052e-10, "linear_relative_residual": 1.0483806725332676e-06, "solution_max": 0.003422994527239475, "maximum_RSS_kib": 456004}
+{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 8.673617379884035e-19, "max_collocation": 1.9206540271608427e-10}
+       5          1.04e-05       8.67e-19          448            16       
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "310948 kB"}
+{"event": "jacobian", "count": 333, "nodes": 17, "workers": 2, "seconds": 446.6963515281677, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "315044 kB"}
+{"event": "jacobian", "count": 334, "nodes": 16, "workers": 2, "seconds": 447.6272678375244, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "315060 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 16, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 335, "nodes": 17, "workers": 2, "seconds": 448.7971279621124, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "320464 kB"}
+{"event": "jacobian", "count": 336, "nodes": 16, "workers": 2, "seconds": 449.72713589668274, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "320464 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 32, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 337, "nodes": 17, "workers": 2, "seconds": 450.90107131004333, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "322512 kB"}
+{"event": "jacobian", "count": 338, "nodes": 16, "workers": 2, "seconds": 451.8525433540344, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "322512 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 48, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 339, "nodes": 17, "workers": 2, "seconds": 453.0543406009674, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "326608 kB"}
+{"event": "jacobian", "count": 340, "nodes": 16, "workers": 2, "seconds": 453.98752641677856, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "326608 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 64, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 341, "nodes": 17, "workers": 2, "seconds": 455.1515111923218, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "328656 kB"}
+{"event": "jacobian", "count": 342, "nodes": 16, "workers": 2, "seconds": 456.0860722064972, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "328656 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 80, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 343, "nodes": 17, "workers": 2, "seconds": 457.2469370365143, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "332764 kB"}
+{"event": "jacobian", "count": 344, "nodes": 16, "workers": 2, "seconds": 458.19513511657715, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "332764 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 96, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 345, "nodes": 17, "workers": 2, "seconds": 459.35018372535706, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "336860 kB"}
+{"event": "jacobian", "count": 346, "nodes": 16, "workers": 2, "seconds": 460.27382922172546, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "336860 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 112, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 347, "nodes": 17, "workers": 2, "seconds": 461.45540380477905, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "338908 kB"}
+{"event": "jacobian", "count": 348, "nodes": 16, "workers": 2, "seconds": 462.3982801437378, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "338908 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 128, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 349, "nodes": 17, "workers": 2, "seconds": 463.5680205821991, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "343004 kB"}
+{"event": "jacobian", "count": 350, "nodes": 16, "workers": 2, "seconds": 464.5002145767212, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "343004 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 144, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 351, "nodes": 17, "workers": 2, "seconds": 465.71104884147644, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "347100 kB"}
+{"event": "jacobian", "count": 352, "nodes": 16, "workers": 2, "seconds": 466.6449065208435, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "347100 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 160, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 353, "nodes": 17, "workers": 2, "seconds": 467.82541680336, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "349148 kB"}
+{"event": "jacobian", "count": 354, "nodes": 16, "workers": 2, "seconds": 468.76526141166687, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "349148 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 176, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 355, "nodes": 17, "workers": 2, "seconds": 469.93848299980164, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "353244 kB"}
+{"event": "jacobian", "count": 356, "nodes": 16, "workers": 2, "seconds": 470.8904893398285, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "353244 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 192, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 357, "nodes": 17, "workers": 2, "seconds": 472.0592427253723, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "357340 kB"}
+{"event": "jacobian", "count": 358, "nodes": 16, "workers": 2, "seconds": 472.9973874092102, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "357340 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 208, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 359, "nodes": 17, "workers": 2, "seconds": 474.1635615825653, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "359388 kB"}
+{"event": "jacobian", "count": 360, "nodes": 16, "workers": 2, "seconds": 475.12303733825684, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "359388 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 224, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 361, "nodes": 17, "workers": 2, "seconds": 476.3004660606384, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "363484 kB"}
+{"event": "jacobian", "count": 362, "nodes": 16, "workers": 2, "seconds": 477.2447350025177, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "363484 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 240, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 363, "nodes": 17, "workers": 2, "seconds": 478.41456270217896, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "367580 kB"}
+{"event": "jacobian", "count": 364, "nodes": 16, "workers": 2, "seconds": 479.3293466567993, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "367580 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 256, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 365, "nodes": 17, "workers": 2, "seconds": 480.5027160644531, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "369628 kB"}
+{"event": "jacobian", "count": 366, "nodes": 16, "workers": 2, "seconds": 481.43706798553467, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "369628 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 272, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 367, "nodes": 17, "workers": 2, "seconds": 482.6327621936798, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "373724 kB"}
+{"event": "jacobian", "count": 368, "nodes": 16, "workers": 2, "seconds": 483.6009705066681, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "373724 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 288, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 369, "nodes": 17, "workers": 2, "seconds": 484.7944896221161, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "375772 kB"}
+{"event": "jacobian", "count": 370, "nodes": 16, "workers": 2, "seconds": 485.74202942848206, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "375772 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 304, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 371, "nodes": 17, "workers": 2, "seconds": 486.9231553077698, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "379868 kB"}
+{"event": "jacobian", "count": 372, "nodes": 16, "workers": 2, "seconds": 487.87238454818726, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "379868 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 320, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 373, "nodes": 17, "workers": 2, "seconds": 489.04137921333313, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "383964 kB"}
+{"event": "jacobian", "count": 374, "nodes": 16, "workers": 2, "seconds": 489.9838626384735, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "383964 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 336, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 375, "nodes": 17, "workers": 2, "seconds": 491.17100381851196, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "386012 kB"}
+{"event": "jacobian", "count": 376, "nodes": 16, "workers": 2, "seconds": 492.2341253757477, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "386012 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 352, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 377, "nodes": 17, "workers": 2, "seconds": 493.49197721481323, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "390108 kB"}
+{"event": "jacobian", "count": 378, "nodes": 16, "workers": 2, "seconds": 494.4406843185425, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "390108 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 368, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 379, "nodes": 17, "workers": 2, "seconds": 495.627881526947, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "394204 kB"}
+{"event": "jacobian", "count": 380, "nodes": 16, "workers": 2, "seconds": 496.5576663017273, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "394204 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 384, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 381, "nodes": 17, "workers": 2, "seconds": 497.7286150455475, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "396252 kB"}
+{"event": "jacobian", "count": 382, "nodes": 16, "workers": 2, "seconds": 498.6602065563202, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "396252 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 400, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 383, "nodes": 17, "workers": 2, "seconds": 499.83338141441345, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "400348 kB"}
+{"event": "jacobian", "count": 384, "nodes": 16, "workers": 2, "seconds": 500.7664177417755, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "400348 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 416, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 385, "nodes": 17, "workers": 2, "seconds": 501.93590664863586, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "404444 kB"}
+{"event": "jacobian", "count": 386, "nodes": 16, "workers": 2, "seconds": 502.8785855770111, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "404444 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 432, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 387, "nodes": 17, "workers": 2, "seconds": 504.0624599456787, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "406492 kB"}
+{"event": "jacobian", "count": 388, "nodes": 16, "workers": 2, "seconds": 504.99990820884705, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "406492 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 448, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "jacobian", "count": 389, "nodes": 16, "workers": 2, "seconds": 506.13127398490906, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "410588 kB"}
+{"event": "jacobian", "count": 390, "nodes": 15, "workers": 2, "seconds": 507.0226664543152, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "410588 kB"}
+{"event": "separated_qr_chunk", "jacobian": 7, "intervals": 463, "total": 463, "maximum_RSS_kib": 456004}
+{"event": "separated_qr_factor", "n": 290, "nodes": 464, "free_dimensions": 93, "reduced_condition": 59946478.66284893, "seconds": 61.51214621100007, "maximum_RSS_kib": 456004}
+{"event": "factor_start", "dimension": 134560, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "408604 kB"}
+{"event": "factor_end", "seconds": 0.0001621246337890625, "maximum_RSS_kib": 456004, "VmHWM": "456004 kB", "VmRSS": "408604 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 2.0765185417251074e-16, "rhs_max": 1.9206540271608427e-10, "linear_relative_residual": 1.0811517911920178e-06, "solution_max": 0.0034187056544319203, "maximum_RSS_kib": 456004}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 6.721137770267931e-12, "rhs_max": 2.496245747205215e-07, "linear_relative_residual": 2.6924984360185233e-05, "solution_max": 113.51511726673147, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 2.227006544982407e-13, "rhs_max": 4.22140822400759e-08, "linear_relative_residual": 5.2755062453263536e-06, "solution_max": 3.72875256874981, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.3478611431422867e-14, "rhs_max": 8.991771086528825e-09, "linear_relative_residual": 1.4989940582024023e-06, "solution_max": 0.22030955669176752, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 6.782152930287852e-16, "rhs_max": 2.3068863545379316e-09, "linear_relative_residual": 2.939959706704457e-07, "solution_max": 0.011271147394235001, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 8.122821649330228e-16, "rhs_max": 7.129622964831538e-10, "linear_relative_residual": 1.1393059197376725e-06, "solution_max": 0.013222581182206932, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 4.1066102687612113e-16, "rhs_max": 3.043413848489365e-10, "linear_relative_residual": 1.3493433601873032e-06, "solution_max": 0.006875463828488851, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.670462854395085e-16, "rhs_max": 2.1796929943127529e-10, "linear_relative_residual": 1.2251554972938147e-06, "solution_max": 0.004410958533265358, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 2.1760347304341472e-16, "rhs_max": 1.9850748100160355e-10, "linear_relative_residual": 1.0961978457711472e-06, "solution_max": 0.003682827667729894, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 2.1273961547283657e-16, "rhs_max": 1.9366728755148163e-10, "linear_relative_residual": 1.0984798628745447e-06, "solution_max": 0.0034866687489621333, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 2.0820380946139084e-16, "rhs_max": 1.9246259611429713e-10, "linear_relative_residual": 1.081788428842275e-06, "solution_max": 0.0034358915733738006, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 2.0976827848778892e-16, "rhs_max": 1.9216319254740302e-10, "linear_relative_residual": 1.0916152865020862e-06, "solution_max": 0.003423015815347347, "maximum_RSS_kib": 462056}
+{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 8.673617379884035e-19, "max_collocation": 1.9206540271608427e-10}
+       6          1.04e-05       8.67e-19          464            32       
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "266404 kB"}
+{"event": "jacobian", "count": 391, "nodes": 17, "workers": 2, "seconds": 524.489563703537, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "271188 kB"}
+{"event": "jacobian", "count": 392, "nodes": 16, "workers": 2, "seconds": 525.4428322315216, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "271204 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 16, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 393, "nodes": 17, "workers": 2, "seconds": 526.6407191753387, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "278912 kB"}
+{"event": "jacobian", "count": 394, "nodes": 16, "workers": 2, "seconds": 527.5771741867065, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "278912 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 32, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 395, "nodes": 17, "workers": 2, "seconds": 528.7577724456787, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "280960 kB"}
+{"event": "jacobian", "count": 396, "nodes": 16, "workers": 2, "seconds": 529.7073800563812, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "280960 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 48, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 397, "nodes": 17, "workers": 2, "seconds": 530.8987016677856, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "287104 kB"}
+{"event": "jacobian", "count": 398, "nodes": 16, "workers": 2, "seconds": 531.8305914402008, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "287104 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 64, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 399, "nodes": 17, "workers": 2, "seconds": 533.0156710147858, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "291200 kB"}
+{"event": "jacobian", "count": 400, "nodes": 16, "workers": 2, "seconds": 533.9763827323914, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "291200 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 80, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 401, "nodes": 17, "workers": 2, "seconds": 535.155650138855, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "295296 kB"}
+{"event": "jacobian", "count": 402, "nodes": 16, "workers": 2, "seconds": 536.0953140258789, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "295296 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 96, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 403, "nodes": 17, "workers": 2, "seconds": 537.2943234443665, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "299392 kB"}
+{"event": "jacobian", "count": 404, "nodes": 16, "workers": 2, "seconds": 538.2170009613037, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "299392 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 112, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 405, "nodes": 17, "workers": 2, "seconds": 539.3911669254303, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "305536 kB"}
+{"event": "jacobian", "count": 406, "nodes": 16, "workers": 2, "seconds": 540.3544476032257, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "305536 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 128, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 407, "nodes": 17, "workers": 2, "seconds": 541.5472955703735, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "307584 kB"}
+{"event": "jacobian", "count": 408, "nodes": 16, "workers": 2, "seconds": 542.4866364002228, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "307584 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 144, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 409, "nodes": 17, "workers": 2, "seconds": 543.6666581630707, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "313728 kB"}
+{"event": "jacobian", "count": 410, "nodes": 16, "workers": 2, "seconds": 544.6016931533813, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "313728 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 160, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 411, "nodes": 17, "workers": 2, "seconds": 545.7934141159058, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "317824 kB"}
+{"event": "jacobian", "count": 412, "nodes": 16, "workers": 2, "seconds": 546.7407591342926, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "317824 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 176, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 413, "nodes": 17, "workers": 2, "seconds": 547.9139742851257, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "321920 kB"}
+{"event": "jacobian", "count": 414, "nodes": 16, "workers": 2, "seconds": 548.8478927612305, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "321920 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 192, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 415, "nodes": 17, "workers": 2, "seconds": 550.0397284030914, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "328064 kB"}
+{"event": "jacobian", "count": 416, "nodes": 16, "workers": 2, "seconds": 551.1142501831055, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "328064 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 208, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 417, "nodes": 17, "workers": 2, "seconds": 552.3227441310883, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "330112 kB"}
+{"event": "jacobian", "count": 418, "nodes": 16, "workers": 2, "seconds": 553.279682636261, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "330112 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 224, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 419, "nodes": 17, "workers": 2, "seconds": 554.4879419803619, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "336256 kB"}
+{"event": "jacobian", "count": 420, "nodes": 16, "workers": 2, "seconds": 555.4558501243591, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "336256 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 240, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 421, "nodes": 17, "workers": 2, "seconds": 556.6468822956085, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "340352 kB"}
+{"event": "jacobian", "count": 422, "nodes": 16, "workers": 2, "seconds": 557.5893824100494, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "340352 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 256, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 423, "nodes": 17, "workers": 2, "seconds": 558.7647235393524, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "344448 kB"}
+{"event": "jacobian", "count": 424, "nodes": 16, "workers": 2, "seconds": 559.6972274780273, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "344448 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 272, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 425, "nodes": 17, "workers": 2, "seconds": 560.8891365528107, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "348544 kB"}
+{"event": "jacobian", "count": 426, "nodes": 16, "workers": 2, "seconds": 561.8232917785645, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "348544 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 288, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 427, "nodes": 17, "workers": 2, "seconds": 563.0033190250397, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "354688 kB"}
+{"event": "jacobian", "count": 428, "nodes": 16, "workers": 2, "seconds": 563.9337153434753, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "354688 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 304, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 429, "nodes": 17, "workers": 2, "seconds": 565.1063573360443, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "356736 kB"}
+{"event": "jacobian", "count": 430, "nodes": 16, "workers": 2, "seconds": 566.0263950824738, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "356736 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 320, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 431, "nodes": 17, "workers": 2, "seconds": 567.2014534473419, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "362880 kB"}
+{"event": "jacobian", "count": 432, "nodes": 16, "workers": 2, "seconds": 568.152453660965, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "362880 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 336, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 433, "nodes": 17, "workers": 2, "seconds": 569.3428547382355, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "366976 kB"}
+{"event": "jacobian", "count": 434, "nodes": 16, "workers": 2, "seconds": 570.2817106246948, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "366976 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 352, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 435, "nodes": 17, "workers": 2, "seconds": 571.4695580005646, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "371072 kB"}
+{"event": "jacobian", "count": 436, "nodes": 16, "workers": 2, "seconds": 572.4309713840485, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "371072 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 368, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 437, "nodes": 17, "workers": 2, "seconds": 573.6146817207336, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "375168 kB"}
+{"event": "jacobian", "count": 438, "nodes": 16, "workers": 2, "seconds": 574.5548920631409, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "375168 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 384, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 439, "nodes": 17, "workers": 2, "seconds": 575.7489862442017, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "381312 kB"}
+{"event": "jacobian", "count": 440, "nodes": 16, "workers": 2, "seconds": 576.6890997886658, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "381312 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 400, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 441, "nodes": 17, "workers": 2, "seconds": 577.8677814006805, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "383360 kB"}
+{"event": "jacobian", "count": 442, "nodes": 16, "workers": 2, "seconds": 578.8043999671936, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "383360 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 416, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 443, "nodes": 17, "workers": 2, "seconds": 579.9769048690796, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "389504 kB"}
+{"event": "jacobian", "count": 444, "nodes": 16, "workers": 2, "seconds": 580.9090120792389, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "389504 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 432, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 445, "nodes": 17, "workers": 2, "seconds": 582.0985298156738, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "393600 kB"}
+{"event": "jacobian", "count": 446, "nodes": 16, "workers": 2, "seconds": 583.0351314544678, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "393600 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 448, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 447, "nodes": 17, "workers": 2, "seconds": 584.2172698974609, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "397696 kB"}
+{"event": "jacobian", "count": 448, "nodes": 16, "workers": 2, "seconds": 585.1639955043793, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "397696 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 464, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 449, "nodes": 17, "workers": 2, "seconds": 586.3428654670715, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "401792 kB"}
+{"event": "jacobian", "count": 450, "nodes": 16, "workers": 2, "seconds": 587.2868690490723, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "401792 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 480, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "jacobian", "count": 451, "nodes": 16, "workers": 2, "seconds": 588.4204580783844, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "404872 kB"}
+{"event": "jacobian", "count": 452, "nodes": 15, "workers": 2, "seconds": 589.3208723068237, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "404872 kB"}
+{"event": "separated_qr_chunk", "jacobian": 8, "intervals": 495, "total": 495, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_factor", "n": 290, "nodes": 496, "free_dimensions": 93, "reduced_condition": 59946487.89716188, "seconds": 66.01045566099992, "maximum_RSS_kib": 462056}
+{"event": "factor_start", "dimension": 143840, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "404924 kB"}
+{"event": "factor_end", "seconds": 0.0001671314239501953, "maximum_RSS_kib": 462056, "VmHWM": "462056 kB", "VmRSS": "404924 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 2.0261031407045314e-16, "rhs_max": 1.9206540271608427e-10, "linear_relative_residual": 1.0549027112913023e-06, "solution_max": 0.0034187061723515606, "maximum_RSS_kib": 462056}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 6.90935067211871e-12, "rhs_max": 2.496247357330715e-07, "linear_relative_residual": 2.7678950372558474e-05, "solution_max": 113.51524363544559, "maximum_RSS_kib": 476032}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 2.283020931193123e-13, "rhs_max": 4.221409715950602e-08, "linear_relative_residual": 5.40819556691388e-06, "solution_max": 3.7287554723115335, "maximum_RSS_kib": 476032}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.3222113642254259e-14, "rhs_max": 8.991773995394344e-09, "linear_relative_residual": 1.4704677463008666e-06, "solution_max": 0.2203097376731325, "maximum_RSS_kib": 476032}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 6.767698097975998e-16, "rhs_max": 2.3068869898010814e-09, "linear_relative_residual": 2.933692949804864e-07, "solution_max": 0.011271173238957155, "maximum_RSS_kib": 476032}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 7.892455986705224e-16, "rhs_max": 7.129624600919169e-10, "linear_relative_residual": 1.106994607498368e-06, "solution_max": 0.013222589272903361, "maximum_RSS_kib": 476032}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 4.1321588504019324e-16, "rhs_max": 3.043414264814028e-10, "linear_relative_residual": 1.3577378860890741e-06, "solution_max": 0.006875425413217889, "maximum_RSS_kib": 487936}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.6586528245583896e-16, "rhs_max": 2.1796930768411333e-10, "linear_relative_residual": 1.2197372431954396e-06, "solution_max": 0.004410966746606865, "maximum_RSS_kib": 487936}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 2.232768182468337e-16, "rhs_max": 1.9850748028683016e-10, "linear_relative_residual": 1.1247778568556381e-06, "solution_max": 0.003682815063695085, "maximum_RSS_kib": 487936}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 2.0777282685555478e-16, "rhs_max": 1.9366728812021214e-10, "linear_relative_residual": 1.0728338733518442e-06, "solution_max": 0.0034866601308525835, "maximum_RSS_kib": 487936}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 2.0734311645350083e-16, "rhs_max": 1.9246259480001136e-10, "linear_relative_residual": 1.0773164347542538e-06, "solution_max": 0.003435915664893451, "maximum_RSS_kib": 487936}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 2.0869238617173712e-16, "rhs_max": 1.9216319228655575e-10, "linear_relative_residual": 1.086016440966139e-06, "solution_max": 0.003423016758702823, "maximum_RSS_kib": 487936}
+{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 8.673617379884035e-19, "max_collocation": 1.9206540271608427e-10}
+       7          1.04e-05       8.67e-19          496            64       
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "290732 kB"}
+{"event": "jacobian", "count": 453, "nodes": 17, "workers": 2, "seconds": 608.2401707172394, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "296128 kB"}
+{"event": "jacobian", "count": 454, "nodes": 16, "workers": 2, "seconds": 609.1836881637573, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "296144 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 16, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 455, "nodes": 17, "workers": 2, "seconds": 610.3671560287476, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "304260 kB"}
+{"event": "jacobian", "count": 456, "nodes": 16, "workers": 2, "seconds": 611.313206911087, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "304260 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 32, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 457, "nodes": 17, "workers": 2, "seconds": 612.6722574234009, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "306308 kB"}
+{"event": "jacobian", "count": 458, "nodes": 16, "workers": 2, "seconds": 613.6680400371552, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "306308 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 48, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 459, "nodes": 17, "workers": 2, "seconds": 614.8471567630768, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "312452 kB"}
+{"event": "jacobian", "count": 460, "nodes": 16, "workers": 2, "seconds": 615.7837700843811, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "312452 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 64, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 461, "nodes": 17, "workers": 2, "seconds": 616.9579074382782, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "316560 kB"}
+{"event": "jacobian", "count": 462, "nodes": 16, "workers": 2, "seconds": 617.8955788612366, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "316560 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 80, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 463, "nodes": 17, "workers": 2, "seconds": 619.0787179470062, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "320656 kB"}
+{"event": "jacobian", "count": 464, "nodes": 16, "workers": 2, "seconds": 620.0248131752014, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "320656 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 96, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 465, "nodes": 17, "workers": 2, "seconds": 621.2046298980713, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "324752 kB"}
+{"event": "jacobian", "count": 466, "nodes": 16, "workers": 2, "seconds": 622.1529989242554, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "324752 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 112, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 467, "nodes": 17, "workers": 2, "seconds": 623.3337841033936, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "330896 kB"}
+{"event": "jacobian", "count": 468, "nodes": 16, "workers": 2, "seconds": 624.281726360321, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "330896 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 128, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 469, "nodes": 17, "workers": 2, "seconds": 625.4537310600281, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "332944 kB"}
+{"event": "jacobian", "count": 470, "nodes": 16, "workers": 2, "seconds": 626.406124830246, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "332944 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 144, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 471, "nodes": 17, "workers": 2, "seconds": 627.5893588066101, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "339088 kB"}
+{"event": "jacobian", "count": 472, "nodes": 16, "workers": 2, "seconds": 628.5235311985016, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "339088 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 160, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 473, "nodes": 17, "workers": 2, "seconds": 629.7092933654785, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "341136 kB"}
+{"event": "jacobian", "count": 474, "nodes": 16, "workers": 2, "seconds": 630.6576917171478, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "341136 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 176, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 475, "nodes": 17, "workers": 2, "seconds": 631.8298590183258, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "347280 kB"}
+{"event": "jacobian", "count": 476, "nodes": 16, "workers": 2, "seconds": 632.7763338088989, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "347280 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 192, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 477, "nodes": 17, "workers": 2, "seconds": 633.9566617012024, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "351376 kB"}
+{"event": "jacobian", "count": 478, "nodes": 16, "workers": 2, "seconds": 634.9013924598694, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "351376 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 208, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 479, "nodes": 17, "workers": 2, "seconds": 636.0873177051544, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "355472 kB"}
+{"event": "jacobian", "count": 480, "nodes": 16, "workers": 2, "seconds": 637.0342028141022, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "355472 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 224, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 481, "nodes": 17, "workers": 2, "seconds": 638.2315986156464, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "359568 kB"}
+{"event": "jacobian", "count": 482, "nodes": 16, "workers": 2, "seconds": 639.1735737323761, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "359568 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 240, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 483, "nodes": 17, "workers": 2, "seconds": 640.3682680130005, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "365712 kB"}
+{"event": "jacobian", "count": 484, "nodes": 16, "workers": 2, "seconds": 641.314590215683, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "365712 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 256, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 485, "nodes": 17, "workers": 2, "seconds": 642.4932081699371, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "369808 kB"}
+{"event": "jacobian", "count": 486, "nodes": 16, "workers": 2, "seconds": 643.4518637657166, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "369808 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 272, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 487, "nodes": 17, "workers": 2, "seconds": 644.6437768936157, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "373904 kB"}
+{"event": "jacobian", "count": 488, "nodes": 16, "workers": 2, "seconds": 645.6046183109283, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "373904 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 288, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 489, "nodes": 17, "workers": 2, "seconds": 646.7817492485046, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "380048 kB"}
+{"event": "jacobian", "count": 490, "nodes": 16, "workers": 2, "seconds": 647.7042067050934, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "380048 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 304, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 491, "nodes": 17, "workers": 2, "seconds": 648.8833737373352, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "382096 kB"}
+{"event": "jacobian", "count": 492, "nodes": 16, "workers": 2, "seconds": 649.8149452209473, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "382096 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 320, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 493, "nodes": 17, "workers": 2, "seconds": 650.987487077713, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "388240 kB"}
+{"event": "jacobian", "count": 494, "nodes": 16, "workers": 2, "seconds": 651.9151396751404, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "388240 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 336, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 495, "nodes": 17, "workers": 2, "seconds": 653.1005651950836, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "392336 kB"}
+{"event": "jacobian", "count": 496, "nodes": 16, "workers": 2, "seconds": 654.0620503425598, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "392336 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 352, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 497, "nodes": 17, "workers": 2, "seconds": 655.2310054302216, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "396432 kB"}
+{"event": "jacobian", "count": 498, "nodes": 16, "workers": 2, "seconds": 656.1649930477142, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "396432 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 368, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 499, "nodes": 17, "workers": 2, "seconds": 657.3564364910126, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "400528 kB"}
+{"event": "jacobian", "count": 500, "nodes": 16, "workers": 2, "seconds": 658.3075270652771, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "400528 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 384, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 501, "nodes": 17, "workers": 2, "seconds": 659.4836127758026, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "404624 kB"}
+{"event": "jacobian", "count": 502, "nodes": 16, "workers": 2, "seconds": 660.4243075847626, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "404624 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 400, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 503, "nodes": 17, "workers": 2, "seconds": 661.6239709854126, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "408720 kB"}
+{"event": "jacobian", "count": 504, "nodes": 16, "workers": 2, "seconds": 662.5636866092682, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "408720 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 416, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 505, "nodes": 17, "workers": 2, "seconds": 663.7415368556976, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "414868 kB"}
+{"event": "jacobian", "count": 506, "nodes": 16, "workers": 2, "seconds": 664.6925740242004, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "414868 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 432, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 507, "nodes": 17, "workers": 2, "seconds": 665.8936839103699, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "416916 kB"}
+{"event": "jacobian", "count": 508, "nodes": 16, "workers": 2, "seconds": 666.8241541385651, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "416916 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 448, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 509, "nodes": 17, "workers": 2, "seconds": 668.0066602230072, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "423060 kB"}
+{"event": "jacobian", "count": 510, "nodes": 16, "workers": 2, "seconds": 668.9627468585968, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "423060 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 464, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 511, "nodes": 17, "workers": 2, "seconds": 670.1524999141693, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "427156 kB"}
+{"event": "jacobian", "count": 512, "nodes": 16, "workers": 2, "seconds": 671.0972909927368, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "427156 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 480, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 513, "nodes": 17, "workers": 2, "seconds": 672.4819600582123, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "431252 kB"}
+{"event": "jacobian", "count": 514, "nodes": 16, "workers": 2, "seconds": 673.4362864494324, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "431252 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 496, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 515, "nodes": 17, "workers": 2, "seconds": 674.6063034534454, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "435348 kB"}
+{"event": "jacobian", "count": 516, "nodes": 16, "workers": 2, "seconds": 675.55171251297, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "435348 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 512, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 517, "nodes": 17, "workers": 2, "seconds": 676.7344853878021, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "441492 kB"}
+{"event": "jacobian", "count": 518, "nodes": 16, "workers": 2, "seconds": 677.6712789535522, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "441492 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 528, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 519, "nodes": 17, "workers": 2, "seconds": 678.8695087432861, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "443540 kB"}
+{"event": "jacobian", "count": 520, "nodes": 16, "workers": 2, "seconds": 679.8159372806549, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "443540 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 544, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "jacobian", "count": 521, "nodes": 16, "workers": 2, "seconds": 680.9517216682434, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "448668 kB"}
+{"event": "jacobian", "count": 522, "nodes": 15, "workers": 2, "seconds": 681.8615229129791, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "448668 kB"}
+{"event": "separated_qr_chunk", "jacobian": 9, "intervals": 559, "total": 559, "maximum_RSS_kib": 487936}
+{"event": "separated_qr_factor", "n": 290, "nodes": 560, "free_dimensions": 93, "reduced_condition": 59946485.2065699, "seconds": 74.797095324, "maximum_RSS_kib": 487936}
+{"event": "factor_start", "dimension": 162400, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "446672 kB"}
+{"event": "factor_end", "seconds": 0.00016021728515625, "maximum_RSS_kib": 487936, "VmHWM": "487936 kB", "VmRSS": "446672 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 2.0564608015341256e-16, "rhs_max": 1.9206540271608427e-10, "linear_relative_residual": 1.0707086088659267e-06, "solution_max": 0.00341870601788315, "maximum_RSS_kib": 487936}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 6.857859639846901e-12, "rhs_max": 2.4962468771034125e-07, "linear_relative_residual": 2.7472681899975386e-05, "solution_max": 113.51520604664653, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 2.29332892766223e-13, "rhs_max": 4.2214092709943047e-08, "linear_relative_residual": 5.432614514351655e-06, "solution_max": 3.7287546067054107, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.3608690585535176e-14, "rhs_max": 8.991773129180319e-09, "linear_relative_residual": 1.5134601807703449e-06, "solution_max": 0.22030968340011695, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 6.850086916532086e-16, "rhs_max": 2.3068868004814107e-09, "linear_relative_residual": 2.969407478122716e-07, "solution_max": 0.01127117520910435, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 8.057653403502611e-16, "rhs_max": 7.129624117540441e-10, "linear_relative_residual": 1.1301652472363885e-06, "solution_max": 0.01322259746194247, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 4.203353377893649e-16, "rhs_max": 3.0434141357430593e-10, "linear_relative_residual": 1.3811309241577755e-06, "solution_max": 0.006875423994348989, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.6615387708616228e-16, "rhs_max": 2.1796930650125664e-10, "linear_relative_residual": 1.2210612648099049e-06, "solution_max": 0.004410981438238257, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 2.232972591205408e-16, "rhs_max": 1.9850748120378717e-10, "linear_relative_residual": 1.1248808244728294e-06, "solution_max": 0.0036828119227344074, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 2.0713916845603098e-16, "rhs_max": 1.936672886846893e-10, "linear_relative_residual": 1.069561978498472e-06, "solution_max": 0.003486659149885595, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 2.082691029630427e-16, "rhs_max": 1.9246259628213042e-10, "linear_relative_residual": 1.0821276808390425e-06, "solution_max": 0.0034359041126791265, "maximum_RSS_kib": 513676}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 2.0658795514816035e-16, "rhs_max": 1.921631916945641e-10, "linear_relative_residual": 1.0750651741698995e-06, "solution_max": 0.003423034457494341, "maximum_RSS_kib": 527048}
+{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 8.673617379884035e-19, "max_collocation": 1.9206540271608427e-10}
+       8          1.04e-05       8.67e-19          560            128      
+{"event": "obsolete_factor_released", "iteration": 0, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "290908 kB"}
+{"event": "jacobian", "count": 523, "nodes": 17, "workers": 2, "seconds": 702.9646563529968, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "298500 kB"}
+{"event": "jacobian", "count": 524, "nodes": 16, "workers": 2, "seconds": 703.9048838615417, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "298524 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 16, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 525, "nodes": 17, "workers": 2, "seconds": 705.0958425998688, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "303060 kB"}
+{"event": "jacobian", "count": 526, "nodes": 16, "workers": 2, "seconds": 706.0779047012329, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "303060 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 32, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 527, "nodes": 17, "workers": 2, "seconds": 707.2587487697601, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "309488 kB"}
+{"event": "jacobian", "count": 528, "nodes": 16, "workers": 2, "seconds": 708.2167241573334, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "309488 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 48, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 529, "nodes": 17, "workers": 2, "seconds": 709.3959934711456, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "313584 kB"}
+{"event": "jacobian", "count": 530, "nodes": 16, "workers": 2, "seconds": 710.3478207588196, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "313584 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 64, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 531, "nodes": 17, "workers": 2, "seconds": 711.518828868866, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "317680 kB"}
+{"event": "jacobian", "count": 532, "nodes": 16, "workers": 2, "seconds": 712.461638212204, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "317680 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 80, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 533, "nodes": 17, "workers": 2, "seconds": 713.6462600231171, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "321776 kB"}
+{"event": "jacobian", "count": 534, "nodes": 16, "workers": 2, "seconds": 714.581803560257, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "321776 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 96, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 535, "nodes": 17, "workers": 2, "seconds": 715.7561693191528, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "327920 kB"}
+{"event": "jacobian", "count": 536, "nodes": 16, "workers": 2, "seconds": 716.6922595500946, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "327920 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 112, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 537, "nodes": 17, "workers": 2, "seconds": 717.8636643886566, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "332016 kB"}
+{"event": "jacobian", "count": 538, "nodes": 16, "workers": 2, "seconds": 718.8035867214203, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "332016 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 128, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 539, "nodes": 17, "workers": 2, "seconds": 719.9759438037872, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "336112 kB"}
+{"event": "jacobian", "count": 540, "nodes": 16, "workers": 2, "seconds": 720.9088709354401, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "336112 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 144, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 541, "nodes": 17, "workers": 2, "seconds": 722.0981750488281, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "342256 kB"}
+{"event": "jacobian", "count": 542, "nodes": 16, "workers": 2, "seconds": 723.0406267642975, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "342256 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 160, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 543, "nodes": 17, "workers": 2, "seconds": 724.2227697372437, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "344304 kB"}
+{"event": "jacobian", "count": 544, "nodes": 16, "workers": 2, "seconds": 725.164502620697, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "344304 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 176, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 545, "nodes": 17, "workers": 2, "seconds": 726.3554825782776, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "350448 kB"}
+{"event": "jacobian", "count": 546, "nodes": 16, "workers": 2, "seconds": 727.295113325119, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "350448 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 192, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 547, "nodes": 17, "workers": 2, "seconds": 728.4812161922455, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "354544 kB"}
+{"event": "jacobian", "count": 548, "nodes": 16, "workers": 2, "seconds": 729.4244828224182, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "354544 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 208, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 549, "nodes": 17, "workers": 2, "seconds": 730.5976164340973, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "358640 kB"}
+{"event": "jacobian", "count": 550, "nodes": 16, "workers": 2, "seconds": 731.5317807197571, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "358640 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 224, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 551, "nodes": 17, "workers": 2, "seconds": 732.8490533828735, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "362736 kB"}
+{"event": "jacobian", "count": 552, "nodes": 16, "workers": 2, "seconds": 733.8478264808655, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "362736 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 240, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 553, "nodes": 17, "workers": 2, "seconds": 735.0331594944, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "368880 kB"}
+{"event": "jacobian", "count": 554, "nodes": 16, "workers": 2, "seconds": 735.9713358879089, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "368880 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 256, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 555, "nodes": 17, "workers": 2, "seconds": 737.1439156532288, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "370928 kB"}
+{"event": "jacobian", "count": 556, "nodes": 16, "workers": 2, "seconds": 738.0745272636414, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "370928 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 272, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 557, "nodes": 17, "workers": 2, "seconds": 739.2567894458771, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "377072 kB"}
+{"event": "jacobian", "count": 558, "nodes": 16, "workers": 2, "seconds": 740.2030274868011, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "377072 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 288, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 559, "nodes": 17, "workers": 2, "seconds": 741.3769352436066, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "379120 kB"}
+{"event": "jacobian", "count": 560, "nodes": 16, "workers": 2, "seconds": 742.323949098587, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "379120 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 304, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 561, "nodes": 17, "workers": 2, "seconds": 743.4973430633545, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "385264 kB"}
+{"event": "jacobian", "count": 562, "nodes": 16, "workers": 2, "seconds": 744.4502582550049, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "385264 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 320, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 563, "nodes": 17, "workers": 2, "seconds": 745.632470369339, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "389360 kB"}
+{"event": "jacobian", "count": 564, "nodes": 16, "workers": 2, "seconds": 746.5736787319183, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "389360 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 336, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 565, "nodes": 17, "workers": 2, "seconds": 747.7526807785034, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "393456 kB"}
+{"event": "jacobian", "count": 566, "nodes": 16, "workers": 2, "seconds": 748.6991219520569, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "393456 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 352, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 567, "nodes": 17, "workers": 2, "seconds": 749.886824131012, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "397552 kB"}
+{"event": "jacobian", "count": 568, "nodes": 16, "workers": 2, "seconds": 750.8133487701416, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "397552 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 368, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 569, "nodes": 17, "workers": 2, "seconds": 752.0013518333435, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "403696 kB"}
+{"event": "jacobian", "count": 570, "nodes": 16, "workers": 2, "seconds": 752.9518446922302, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "403696 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 384, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 571, "nodes": 17, "workers": 2, "seconds": 754.1280410289764, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "407792 kB"}
+{"event": "jacobian", "count": 572, "nodes": 16, "workers": 2, "seconds": 755.0852334499359, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "407792 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 400, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 573, "nodes": 17, "workers": 2, "seconds": 756.3176646232605, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "411888 kB"}
+{"event": "jacobian", "count": 574, "nodes": 16, "workers": 2, "seconds": 757.2580173015594, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "411888 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 416, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 575, "nodes": 17, "workers": 2, "seconds": 758.4365313053131, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "418032 kB"}
+{"event": "jacobian", "count": 576, "nodes": 16, "workers": 2, "seconds": 759.3667547702789, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "418032 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 432, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 577, "nodes": 17, "workers": 2, "seconds": 760.5446119308472, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "420080 kB"}
+{"event": "jacobian", "count": 578, "nodes": 16, "workers": 2, "seconds": 761.5056276321411, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "420080 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 448, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 579, "nodes": 17, "workers": 2, "seconds": 762.6920404434204, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "426224 kB"}
+{"event": "jacobian", "count": 580, "nodes": 16, "workers": 2, "seconds": 763.6244180202484, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "426224 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 464, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 581, "nodes": 17, "workers": 2, "seconds": 764.8077881336212, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "430320 kB"}
+{"event": "jacobian", "count": 582, "nodes": 16, "workers": 2, "seconds": 765.7638154029846, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "430320 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 480, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 583, "nodes": 17, "workers": 2, "seconds": 766.9496059417725, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "434416 kB"}
+{"event": "jacobian", "count": 584, "nodes": 16, "workers": 2, "seconds": 767.8968186378479, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "434416 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 496, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 585, "nodes": 17, "workers": 2, "seconds": 769.078804731369, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "438512 kB"}
+{"event": "jacobian", "count": 586, "nodes": 16, "workers": 2, "seconds": 770.041246175766, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "438512 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 512, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 587, "nodes": 17, "workers": 2, "seconds": 771.2276928424835, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "442608 kB"}
+{"event": "jacobian", "count": 588, "nodes": 16, "workers": 2, "seconds": 772.1681323051453, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "442608 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 528, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 589, "nodes": 17, "workers": 2, "seconds": 773.3419468402863, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "446704 kB"}
+{"event": "jacobian", "count": 590, "nodes": 16, "workers": 2, "seconds": 774.3035616874695, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "446704 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 544, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 591, "nodes": 17, "workers": 2, "seconds": 775.4745893478394, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "452848 kB"}
+{"event": "jacobian", "count": 592, "nodes": 16, "workers": 2, "seconds": 776.4151825904846, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "452848 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 560, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 593, "nodes": 17, "workers": 2, "seconds": 777.6000509262085, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "454896 kB"}
+{"event": "jacobian", "count": 594, "nodes": 16, "workers": 2, "seconds": 778.5350601673126, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "454896 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 576, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 595, "nodes": 17, "workers": 2, "seconds": 779.717854976654, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "461040 kB"}
+{"event": "jacobian", "count": 596, "nodes": 16, "workers": 2, "seconds": 780.6700429916382, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "461040 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 592, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 597, "nodes": 17, "workers": 2, "seconds": 781.8454172611237, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "465136 kB"}
+{"event": "jacobian", "count": 598, "nodes": 16, "workers": 2, "seconds": 782.7866311073303, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "465136 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 608, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 599, "nodes": 17, "workers": 2, "seconds": 783.9639976024628, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "469232 kB"}
+{"event": "jacobian", "count": 600, "nodes": 16, "workers": 2, "seconds": 784.9140532016754, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "469236 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 624, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 601, "nodes": 17, "workers": 2, "seconds": 786.1020114421844, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "473336 kB"}
+{"event": "jacobian", "count": 602, "nodes": 16, "workers": 2, "seconds": 787.0399749279022, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "473344 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 640, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 603, "nodes": 17, "workers": 2, "seconds": 788.2073011398315, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "479488 kB"}
+{"event": "jacobian", "count": 604, "nodes": 16, "workers": 2, "seconds": 789.1622219085693, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "479488 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 656, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 605, "nodes": 17, "workers": 2, "seconds": 790.3338072299957, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "481536 kB"}
+{"event": "jacobian", "count": 606, "nodes": 16, "workers": 2, "seconds": 791.3401865959167, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "481536 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 672, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "jacobian", "count": 607, "nodes": 16, "workers": 2, "seconds": 792.578938961029, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "487680 kB"}
+{"event": "jacobian", "count": 608, "nodes": 15, "workers": 2, "seconds": 793.4653327465057, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "487680 kB"}
+{"event": "separated_qr_chunk", "jacobian": 10, "intervals": 687, "total": 687, "maximum_RSS_kib": 527048}
+{"event": "separated_qr_factor", "n": 290, "nodes": 688, "free_dimensions": 93, "reduced_condition": 59946487.66646992, "seconds": 91.67642593800008, "maximum_RSS_kib": 527048}
+{"event": "factor_start", "dimension": 199520, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "483648 kB"}
+{"event": "factor_end", "seconds": 0.00019049644470214844, "maximum_RSS_kib": 527048, "VmHWM": "527048 kB", "VmRSS": "483648 kB"}
+{"event": "separated_qr_solve", "count": 1, "linear_residual_max": 2.0938657764848755e-16, "rhs_max": 1.9206540271608427e-10, "linear_relative_residual": 1.0901837326632317e-06, "solution_max": 0.0034187061625763405, "maximum_RSS_kib": 527048}
+{"event": "separated_qr_solve", "count": 2, "linear_residual_max": 6.980405581737054e-12, "rhs_max": 2.4962473269390087e-07, "linear_relative_residual": 2.7963597622743122e-05, "solution_max": 113.51524126715914, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 3, "linear_residual_max": 2.2460819967147153e-13, "rhs_max": 4.2214096877499386e-08, "linear_relative_residual": 5.32069181352522e-06, "solution_max": 3.728755428550361, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 4, "linear_residual_max": 1.30886806909658e-14, "rhs_max": 8.991773940402629e-09, "linear_relative_residual": 1.4556283084647611e-06, "solution_max": 0.22030972639795882, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 5, "linear_residual_max": 6.742265867560238e-16, "rhs_max": 2.306886977829127e-09, "linear_relative_residual": 2.92266848456745e-07, "solution_max": 0.0112711702047597, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 6, "linear_residual_max": 7.876540839400212e-16, "rhs_max": 7.129624565612859e-10, "linear_relative_residual": 1.1047623569675507e-06, "solution_max": 0.01322259806601532, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 7, "linear_residual_max": 4.2421155928614277e-16, "rhs_max": 3.0434142582660484e-10, "linear_relative_residual": 1.393867292741911e-06, "solution_max": 0.006875430744509142, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 8, "linear_residual_max": 2.632271702174746e-16, "rhs_max": 2.179693078796613e-10, "linear_relative_residual": 1.2076341058200713e-06, "solution_max": 0.0044109638471091965, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 9, "linear_residual_max": 2.2360991353975113e-16, "rhs_max": 1.9850748134374365e-10, "linear_relative_residual": 1.1264558495532927e-06, "solution_max": 0.00368282158594623, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 10, "linear_residual_max": 2.0702125137816971e-16, "rhs_max": 1.9366728821863175e-10, "linear_relative_residual": 1.0689531168756936e-06, "solution_max": 0.0034866642033840978, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 11, "linear_residual_max": 2.1023141773993797e-16, "rhs_max": 1.9246259729924824e-10, "linear_relative_residual": 1.0923234991631234e-06, "solution_max": 0.003435884007355354, "maximum_RSS_kib": 588084}
+{"event": "separated_qr_solve", "count": 12, "linear_residual_max": 2.055799437547165e-16, "rhs_max": 1.9216319154325125e-10, "linear_relative_residual": 1.0698195742052164e-06, "solution_max": 0.0034230201879422543, "maximum_RSS_kib": 588084}
+{"event": "newton_backtracking_failed", "iteration": 0, "max_bc": 8.673617379884035e-19, "max_collocation": 1.9206540271608427e-10}
+       9          1.04e-05       8.67e-19          688           (256)     
+Number of nodes is exceeded after iteration 9. 
+Maximum relative residual: 1.04e-05 
+Maximum boundary residual: 8.67e-19
+{"success": false, "status": 1, "message": "The maximum number of mesh nodes is exceeded.", "seconds": 817.3007471561432, "collocation_rms_max": 1.0399649290374451e-05, "boundary_residual_max": 8.673617379884035e-19, "core": {"coefficients": [0.4619073494154277, -0.05969451246161594, 0.015730056624372334, -0.005222355379111583, 0.0019523172491075482, -0.0007802503948013245, 0.00033058482063128843, -0.00014474674415706216, 6.346549385438515e-05, -2.9197679520150464e-05, 1.2963207947531533e-05, -6.688421865415532e-06, 3.2310210825517853e-06, -1.1891604132984648e-06, 6.806258630224733e-07, -2.5667651491106313e-07, 2.4311566613611134e-07, -1.0902059096027492e-07, -5.621604811018242e-10, -3.4127366587418265e-08, 2.161242344989704e-08, -2.94524793306587e-09, 6.228372283701864e-09, 3.249204485624961e-10, 8.811446143016274e-09, -9.92812814280719e-09, -1.9551954170514946e-08, -1.6868843948092504e-09, 6.587626640080057e-09, 6.570838626505527e-09, -2.2326039165668522e-09, -6.0305381681896954e-09, -1.9516396208331963e-09, 3.1069705213449795e-09, 4.26167333415294e-09, -2.14256284687376e-09, 3.2386001730610692e-09, -1.8251133647634325e-09, 2.8253350963282745e-09, 6.680151251216543e-10, 2.29972144664435e-09, -1.4241744974066428e-09, 7.988465718300964e-09, -8.987321081388932e-09, 1.517886711046581e-08, -1.4892787119760248e-08, 2.131608032121794e-08, 4.056161465450459e-09, 4.040746744641805e-09, 1.4073896436002931e-08, 1.3054067440755087e-08, -6.761978499066171e-09, 3.118540306745185e-10, 3.5115104380219426e-09, -1.9573109777268416e-08, -1.4879965344175384e-08, 2.3654879685779567e-09, 7.318212369164236e-10, -4.6329346563415445e-09, 1.1437794806013498e-08, 1.5519612386640204e-08, -3.6675123882283765e-11, -9.74809978920062e-09, -2.862549788816518e-09, -4.722049282943616e-10, -4.658939804287184e-09, -1.7292527344211821e-09, 7.423583241242483e-09, 7.570528034343913e-09, -1.9613605160906156e-09, -7.56617558140895e-09, -1.9574345814358206e-09, 9.036540406008917e-10, -1.950991005710441e-09, 9.527144900857433e-10, 2.5428603260006736e-09, 4.783155288883494e-09, -3.811148647290229e-09, -3.5696045595023866e-09, -1.500012587706176e-09, -1.8614458796769436e-10, -4.467861633683137e-09, 2.0575290466429038e-09, 5.8131301851857435e-09, 3.040593787000403e-09, -2.3827359939657778e-09, -2.7338924645366216e-10, -1.9614707001078301e-10, -1.729976666338341e-09, -1.6979006257160103e-09, 5.78759752685586e-10, 2.521238987132488e-09, 2.918992235735877e-11, 5.049914862616292e-10, 8.574746805509688e-10, 1.1558639808907753e-10], "delta_from_input_core": [0.0, 0.0, 0.0, -3.7974788244521385e-12, -1.2305401814703687e-10, 2.092434521006395e-10, 8.600516891547894e-11, -4.086147276116149e-11, -7.58694191185013e-12, 1.626976892850373e-11, -1.034036067491459e-11, -6.865583902818616e-12, 5.051964731357032e-13, 2.3602021273510008e-12, 3.0586283261571054e-12, 1.160053740031006e-12, -1.5136148054008003e-13, 4.1292786311663883e-13, 1.8626105868751077e-12, -1.6255812352510194e-12, 9.044847139525583e-13, 1.1623157778187107e-12, 1.1685966748938682e-12, -2.819804041929229e-12, 3.7740569241497476e-13, -1.0704463484901983e-12, -7.467683006460915e-12, 1.8173671970537947e-12, -3.583891818086181e-12, 4.723481605505201e-13, -1.2070343885401967e-12, -7.465716940108922e-12, -4.4157855911388467e-13, 4.688860236500656e-13, 1.6766252772416776e-12, -2.1566581619359516e-12, 5.379723550955499e-12, -1.8107424590967106e-12, 2.9593876731327996e-12, -1.4124285999521118e-12, 3.5884426191789676e-12, -1.853640154820532e-12, 1.2905540775030695e-11, -1.4883327269011096e-11, 2.897433912367747e-11, -2.5431155088098313e-11, 3.635268064845307e-11, 6.169895706991102e-12, 7.41796404060066e-12, 2.4643833132147855e-11, 2.2658782292663775e-11, -1.171985429653946e-11, 2.232361065764905e-12, 4.826771611938603e-12, -3.355359345601418e-11, -2.625079841203846e-11, 4.483821026590725e-12, 3.726158037545329e-12, -7.0935392612456925e-12, 2.0911280788927643e-11, 2.6447743289830793e-11, 1.1519578414049745e-12, -1.7808796497603956e-11, -6.382776460824731e-12, 7.326008032371027e-14, -7.50318382575327e-12, -3.5566728637507618e-12, 1.1722263010825113e-11, 1.2757750177487701e-11, -4.868556997338927e-12, -1.3070870022843198e-11, -2.900583803249649e-12, 1.531927143187731e-12, -4.056865364931487e-12, 2.5730036121162178e-12, 3.869706132145289e-12, 9.169645633009736e-12, -7.890704691654156e-12, -7.207406444575337e-12, -3.2703243555483724e-12, 5.557312417565818e-13, -7.314257722008702e-12, 3.938062602175305e-12, 8.126171672389783e-12, 5.224344731307261e-12, -3.954779341227121e-12, -6.632817767577e-13, -3.0570782982883795e-14, -3.530528948162686e-12, -2.1761733473122724e-12, 3.833732728672433e-13, 2.68900770848766e-12, 6.815051377865611e-13, -9.387618535272466e-13, -2.103197917165638e-13, 8.750686483758788e-14], "axis_support_gap": 0.9600019484173622, "rho_sample_min": 0.16563321351564764, "rho_sample_max": 4.614519061526055, "support_C1_triangle_bound": 6.824586647666216e-08, "rho_triangle_bound": 7.37088779492896e-06}, "summary": {"valid_sample_rows": 688, "metric_sample": 1.087605372007694e-05, "kappa_sample": 6.295075041722242, "reflected_prefix_D_sample": 3.510101060834777, "smallest_point_domain": 0.4478834795668507, "minimum_witness_distance": 0.9600019484173622}}

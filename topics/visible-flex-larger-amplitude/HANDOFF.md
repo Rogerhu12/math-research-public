@@ -16,7 +16,7 @@ clone=/workspace/scratch/e959e57ee07f/math-research-public，本轮目录symlink
 ## 真实大核与完整联解入口
 
 主入口仍真.99：notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz，SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff。M96/N1024、423节点、固定前3/释放93核，RMS5.45704e−7/BC3.47e−18；两档共同材料C² metric5.77368e−7、κ6.30138、G≈.960000980454、Dprefix样本3.50037，严格完整核rho>.1638501198935。不是闭面。
-run43582043166/source8fa6b3f3b5365bfffd674cdc04f7d77519fa0d76的free3又真接受.996（430nodes/RMS5.45702e−7）及.9975（432nodes/RMS7.01923e−7）。但两者材料metric为4.60534e−6/8.08662e−6，超过目标；完整core rho>.1625537865/.1592190025。最后.997875真Newton未接受：688nodes、RMS1.03996e−5、请求再256>900、reduced condition到5.995e7且回溯失败。四次中间仅预测正性门失败，非新接受。artifact14109068159已完整取回62件，最新接受attempt03，attempt06必须保留为失败。详见free3-09975 note。
+run43582043166/source8fa6b3f3b5365bfffd674cdc04f7d77519fa0d76的free3又真接受.996（430nodes/RMS5.45702e−7）及.9975（432nodes/RMS7.01923e−7）。但两者材料metric为4.60534e−6/8.08662e−6，超过目标；完整core rho>.1625537865/.1592190025。最后.997875真Newton未接受：688nodes、RMS1.03996e−5、请求再256>900、reduced condition到5.995e7且回溯失败。四次中间仅预测正性门失败，非新接受。notes/public-actions-43582043166-1-free3/已逐SHA归档artifact14109068159全部62件，最新接受attempt03，attempt06必须保留为失败。详见free3-09975 note。
 旧固定32核.99 run43579782197失败和旧.984接受点仍完整保存，不冒新接受、不重跑。当前优先用较好.99初场打通真实物理cut的fullDN，非盲加normal分支网格上限。
 
 ## 完整标量、原g真尾与同材料g
