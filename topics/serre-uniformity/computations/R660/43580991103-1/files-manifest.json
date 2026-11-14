@@ -1,0 +1,116 @@
+{
+  "files": [
+    {
+      "file": "f2/R660_SS_j44_16_based_points47.json.gz",
+      "bytes": 108230,
+      "sha256": "1aff6c46c6a99c0cc07b4976d0ea266f6c249a907edcc4bfe1567335c9f2de07",
+      "included_in_git": false,
+      "omitted_reason": "Reproducible based-point input; original input archive or atlas, exact command and SHA are retained. Full copy is in the Actions artifact."
+    },
+    {
+      "file": "f2/SS_j44_16_actual_T2_principal_norm47.json.gz",
+      "bytes": 17272,
+      "sha256": "77f119c72993289326f6a0508b6a624be5efdea1b8c63f04830ba7b5fafcdf99",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/SS_j44_16_actual_T2_support47.json.gz",
+      "bytes": 47700,
+      "sha256": "47a408c9d57c72d2cd4809f10b5dd7953544805ec6d1a6e6ab0cc0f06aa19234",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/SS_j44_16_actual_second_kind_integrals47.json.gz",
+      "bytes": 595287,
+      "sha256": "255e0a65248b2a1b455546be6d5c0ad4ebac2cc9a54970730638da930a6dd22a",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/SS_j44_16_principal_expression47.json.gz",
+      "bytes": 38676,
+      "sha256": "ae9f30d9a8687ef702f70b2fcf69f12468309a6a57e60c36df5d73e0bd723f44",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/actual_T2_norm.log",
+      "bytes": 269,
+      "sha256": "f847301b0d9dadb020b58772a6f1b814d2fe57ce7563b350876331537fc76a35",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/actual_T2_support.log",
+      "bytes": 899,
+      "sha256": "83aad8498386db57b3b40e798da4dc217a0d4ff3a88fc35b0f52ec2a0a3da5f3",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/actual_chain.log",
+      "bytes": 37989,
+      "sha256": "7c14772f627a081a0945d3be6dec0a26d1110ad77000854ebd045a7d68c60f4d",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/actual_full_F2_norm.log",
+      "bytes": 947,
+      "sha256": "1629400e7d8e0d556b980d9050d88f2502ca13fcf2d79dd560b8fddf21fc8ff9",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/actual_integer_principal.log",
+      "bytes": 178,
+      "sha256": "bf7465d7cab9356148bf8d6d5f31825d507b634fcccc9f106304317b7ed46e9d",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/actual_terminal_and_nu.log",
+      "bytes": 446,
+      "sha256": "3709f792553de67241a84ab964ae9bc33abd3a901584ae5292e65f7a540a4532",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/chain/SS_j44_16_Abel47.json.gz",
+      "bytes": 442895,
+      "sha256": "3dda4bdbcc72b32e8fb5a6732390e50fcc13a2ef780e9914e92b83482ce4834e",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/chain/SS_j44_16_multiply47.json.gz",
+      "bytes": 376828,
+      "sha256": "18605822e07eee4dc23f619ec120b7f0e2edab3ca3343189ed7e2275a093599d",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/p41_SS_j44_16_principal_transports47.tar.gz",
+      "bytes": 1778679,
+      "sha256": "720883b1f76bad79a1fab20bf0a5554efc7a16bcc8a0c8be92088e19f3d9f2ef",
+      "included_in_git": true
+    },
+    {
+      "file": "f2/rebuild_checkpoint47.json",
+      "bytes": 7560,
+      "sha256": "990c9834dc9e0bc4fe68803b6b107d89875346b115288aec39fa3d35a4d2d02a",
+      "included_in_git": true
+    },
+    {
+      "file": "public-actions-input.json",
+      "bytes": 1365,
+      "sha256": "e0276962bbc2c9af15b3b0ccf0128d4481e5ff3fdcbccc37ed18ea622d67794f",
+      "included_in_git": true
+    },
+    {
+      "file": "public-actions-run.log",
+      "bytes": 5098,
+      "sha256": "018a59a5edebf5decd2790b53737aaf3547daf96f8abc58fb8de0f07e1be62f6",
+      "included_in_git": true
+    },
+    {
+      "file": "run-receipt.json",
+      "bytes": 7021,
+      "sha256": "566fb994bb406e83618c266400f9a1116b10ba49f65b0ac91863fedff0e93867",
+      "included_in_git": true
+    }
+  ],
+  "full_outputs_artifact": "serre-p41-remaining-R660-43580991103-1",
+  "source_commit": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+  "mathematical_theorem_registered": false
+}
