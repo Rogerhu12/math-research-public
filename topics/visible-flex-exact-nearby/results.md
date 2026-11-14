@@ -421,3 +421,7 @@
 ### R133：半径1/50完整第一 Airy forcing 的公开实际证书
 
 [完整实际报告](results/R133-supplement-actual-complete-first-Airy-forcing-on-large-root-window.md)，run43624260519，14门全部通过，原1格＋1327新格＝1328无缝共同区间。native `54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47`/6577892B，main process `0f4d1dd4b33bf80c40e5ef65a169e0012bfd4f47746a8b7fbe7134557af5b145`/36229B。完整degree-zero one-gain算子和真实径向J jets均入账；同 $|\delta|\le10^{-8}$、fixedη0、νδ族。实际sup pair <268394.856049072、a1<7731800.525026、b1<11178348.024174。Horner真实runtimeprobe和原失败保全，0旧目标重算；全strong norm、cutoff97 inverse和PDE branch flags仍false。
+
+### R133：首帽两端原成功行保留的合法域恢复（2026-11-14）
+
+[两端恢复合同](notes/2026-11-14-R133-complete-quarter-cap-inlet-recovery-contract.md)明确原run43623547711的两种真实故障。首parent在exact9/10至binary64(0.9)的小左延拓内，旧首Hermite定义允许整个区间；guard由`piece0 && left==LEFT`改为`piece0 && LEFT<=left`且保原right上限，仍是原多项式。末range已成640行，余100进入r≥3时原ParameterGerm不接受halfwidth0；新计算仅使用原合法NaturalGraft(object,1e−9,1/8)的完整包络含固定η0，逐行声明目标参数包络与固定物理问题的区别。tail亲核实际target._graft缓存被whole/midpoint jets调用。原1+640成功行强制canonical SHA复用，原plan/其他6range保持原source和run。新164pins旧160零变化，两个恢复与finish仅公开Actions；完整7908/原64pilot行恰计一次的数值汇总尚待actual。

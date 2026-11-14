@@ -135,3 +135,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 已启动实际第一 Airy 接缝和六原窗口消费者
 
 根已全文审新 source/CI/worker/10-pin manifest/flow；tail 独核 J1–19/A1–14 的第一跳和全 Fourier 输出。只读取 root run43616813816 的原 dbaaf9… 与 forcing run43624260519 的完整54a79…两件 native：按六个原已证半径聚合1328原行，只新计算1079真实第一接缝的负源窗算子费。每case/每段前缀落盘，首状态跳经原完整 J，第二状态跳0；mean/head输出保。负侧接原完整 Cauchy 后只授该线性分量的 H−4/3→primitive L2；正侧raw mixed源仍待frame转换。实际运行结果未读前不标已证，CE/Cs/full return/实际充分cutoff/非线性仍开放。
+
+### 2026-11-14 两端quarter恢复已推，等待实际消费者完成期间继续其它证明
+
+新`visible-exact-complete-quarter-cap-inlet-recovery`只新算首段1023与末段100，原641行逐字canon复用；finish等待并核原6中段真实成功artifact，每5min以内真pull/README。末100的1e−9 intrinsic包络含固定η0，非声称改变物理参数。来源以原plan+六原range、两新recovery+finish分别核，后续cached Hessian必须明确这种跨run/source组合。原旧source/manifest/flow及已成行均不改；数值改善尚未授予。
