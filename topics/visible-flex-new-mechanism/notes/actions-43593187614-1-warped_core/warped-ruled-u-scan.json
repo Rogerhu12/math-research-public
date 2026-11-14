@@ -1,0 +1,2609 @@
+{
+  "schema": "warped-ruled-core-geometry-v1",
+  "task_complete": false,
+  "source_sha256": "7659c52d327ad7d513813891be49a71d1f8396c0fcf8ed1352028952a7c8dbce",
+  "dependency_sha256": {
+    "warped_ruled_core.py": "7659c52d327ad7d513813891be49a71d1f8396c0fcf8ed1352028952a7c8dbce",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "warped_ruled_projection.py": "a8f8e7e2aa4665f3e815419d1fe53e3dbbb686d357254181a05e41307d527700"
+  },
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_sha": "e67604ad5d9636517001a092f0dde62316945a26",
+  "github_run_id": "43593187614",
+  "rows": [
+    {
+      "warp_u": ".6",
+      "warp_v": "0",
+      "continuous": {
+        "exact_decimal_parameters": {
+          "warp_u": ".6",
+          "warp_v": "0",
+          "scale": "1"
+        },
+        "eta": {
+          "lower": "-0.17157287525380990239662255158060384286065624924611",
+          "upper": "-0.17157287525380990239662255158060384286065624924610"
+        },
+        "sigma": {
+          "lower": "0.98517143100941603868950196381190774957419286449949",
+          "upper": "0.98517143100941603868950196381190774957419286449951"
+        },
+        "regularity_endpoint_factors": [
+          {
+            "lower": "3.1372583002030479219172980412644830742885249993968",
+            "upper": "3.1372583002030479219172980412644830742885249993969"
+          },
+          {
+            "lower": "2.5195959492893322732894568555743092399901625021108",
+            "upper": "2.5195959492893322732894568555743092399901625021110"
+          }
+        ],
+        "continuous_direction_regular_by_endpoint_formula": true,
+        "direction_speed_lower": "2.5192774613710824221378494643585828727107342767155",
+        "direction_speed_upper": "3.1456346249212900748887430737045939753117083652139",
+        "unresolved_speed_cells": 0,
+        "sphere_geodesic_curvature_absolute_upper": "2.4012188654529217899943019725035134083337742505420",
+        "core_principal_curvature_upper": "2.7631275958054550681186404953042145559553476103390",
+        "core_max_principal_curvature_lower": "2.7586023238542140907140343225110286312645633585190",
+        "center_second_derivative_upper": "15.229071749678015015586226748974460743711100252595",
+        "center_third_derivative_upper": "73.193527462005046522299579047521394031905379348964",
+        "center_absolute_height_upper": "0.23477361657280023001934332960672460450416815776429",
+        "center_anchor_x": {
+          "lower": "3.4207069859956991989437732522256320948258769616643",
+          "upper": "3.4208755735457248359468395276949866538376059261637"
+        },
+        "center_vertex_error_upper": "0.00051621652978843629578501394055266195489979784841307",
+        "center_chord_error_upper": "0.000031853763488160823429628266185127416580370485370860",
+        "midpoint_integral_error_per_component_per_cell": "2.0875043741108197086700699364684898902716943807458E-7",
+        "spherical_length": {
+          "lower": "18.740167420029149818171442269113991828066845253765",
+          "upper": "18.743483846234767532086653674063564828483305514917"
+        },
+        "nodes": 1536,
+        "decimal_precision": 50,
+        "exact_center_closure_from_formula": true,
+        "central_projection_embedded_certified": false,
+        "core_embedding_certified": false,
+        "whole_surface_reach_certified": false
+      },
+      "sampled": {
+        "angles": 384,
+        "half_width": 0.05,
+        "q_numeric": 2.9828541920793423,
+        "center_derivative_closure_numeric": [
+          2.2534057952938724e-15,
+          -1.124100812432971e-15,
+          4.787836793695988e-16
+        ],
+        "anchor_imaginary_numeric_error": 2.220446049250313e-16,
+        "center_coordinate_min": [
+          -1.9618403400348239,
+          -3.018756049512755,
+          -0.23243811635124662
+        ],
+        "center_coordinate_max": [
+          3.420780663987278,
+          3.0187560495127546,
+          0.23243811635124662
+        ],
+        "core_diameter_sample": 6.069759123062858,
+        "normal_chord_radius_sample": 0.36370155711822555,
+        "core_max_principal_curvature_sample": 2.760604732057105,
+        "samples_are_not_continuous_certificates": true
+      },
+      "projection": {
+        "schema": "warped-ruled-filled-projection-v1",
+        "filled_set_definition": "complement of the unbounded component of R2 minus the exact central projection",
+        "jordan_or_radial_graph_assumed": false,
+        "nodes": 1536,
+        "vertex_error_upper": "0.00051621652978843629578501394055266195489979784841307",
+        "chord_error_upper": "0.000031853763488160823429628266185127416580370485370860",
+        "continuous_curve_to_polygon_error_upper": "0.00054807029327659711921464220673778937148016833378393",
+        "full_continuous_projection_diameter": {
+          "lower": "6.0371219271910813420900371775396271742591457168031",
+          "upper": "6.0392505008372176261689743907108344492492469577614"
+        },
+        "radial_graph_audit": {
+          "radial_jordan_graph_certified": true,
+          "continuous_origin_distance_lower": "1.6767443406008439141251948571339528830261333570568",
+          "continuous_cross_c_cprime_lower": "4.7018774541124871173323517617241335510665038763092",
+          "exact_polygon_winding_about_origin": 1,
+          "winding_transfer_avoids_origin_certified": true,
+          "criterion": "positive cross(c,cprime), avoidance of origin, and winding exactly one"
+        },
+        "finite_witness_candidates": [
+          {
+            "central_vertex_index": 0,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "1.7103534929978495994718866261128160474129384808321",
+                "upper": "1.7104377867728624179734197638474933269188029630819"
+              },
+              "y": {
+                "lower": "2.9624191487751755141017388321034168633515712658041",
+                "upper": "2.9625651498762594956372543377267015151867828016897"
+              }
+            },
+            "q_binary64_midpoint": [
+              1.710395639885356,
+              2.9624921493257177
+            ],
+            "q_midpoint_error_upper": "0.000084293775013025303245558842191104777582311529233123",
+            "continuous_boundary_distance": {
+              "lower": "1.7428575737469663410489123234602775200736548052932",
+              "upper": "1.7441223018835486945183016759964484945404504193162"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.74348993781525596347137252450920641422271728515625",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                1.710395639885356,
+                2.9624921493257177
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.7428575737469663410489123234602775200736548052932",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.7428575737469663410489123234602775200736548052932",
+              "upper": "1.7441223018835486945183016759964484945404504193162"
+            }
+          },
+          {
+            "central_vertex_index": 42,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "1.2734985258880446067425719951918582043457103116160",
+                "upper": "1.2736067729687040159647756455678556220432891864510"
+              },
+              "y": {
+                "lower": "2.9793084000978631598123471400272814049820935621370",
+                "upper": "2.9794783545045937320685331582918861950090194906077"
+              }
+            },
+            "q_binary64_midpoint": [
+              1.2735526494283742,
+              2.9793933773012284
+            ],
+            "q_midpoint_error_upper": "0.00010074960401718053630278523112630393390254808885558",
+            "continuous_boundary_distance": {
+              "lower": "1.4732822894757720398805129810809904353601598861164",
+              "upper": "1.4745799292703633699498315614889560623185968277508"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.4739311093730658175360304085188545286655426025390625",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                1.2735526494283742,
+                2.9793933773012284
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.4732822894757720398805129810809904353601598861164",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.4732822894757720398805129810809904353601598861164",
+              "upper": "1.4745799292703633699498315614889560623185968277508"
+            }
+          },
+          {
+            "central_vertex_index": 85,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.82435270479732256772182477040367630856851210047380",
+                "upper": "0.82448547550042967696757204086483482012903666295820"
+              },
+              "y": {
+                "lower": "2.7202553593452734931663376230499317236449260664972",
+                "upper": "2.7204498373744517654460672613996976075347976826177"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.8244190901488762,
+              2.7203525983598627
+            ],
+            "q_midpoint_error_upper": "0.00011773886724087186202017522063921210448188666667863",
+            "continuous_boundary_distance": {
+              "lower": "0.98036005637246174425367500361238720910581742498000",
+              "upper": "0.98169167469349868061758896374891397459474409845750"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.98102586553297921323490982103976421058177947998046875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                0.8244190901488762,
+                2.7203525983598627
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.98036005637246174425367500361238720910581742498000",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.98036005637246174425367500361238720910581742498000",
+              "upper": "0.98169167469349868061758896374891397459474409845750"
+            }
+          },
+          {
+            "central_vertex_index": 128,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.39782223719206036189247553204067217066402642637300",
+                "upper": "0.39797953151761517116176642258699177608749667650720"
+              },
+              "y": {
+                "lower": "2.4200984379961945369816724658459540812613471882169",
+                "upper": "2.4203174396478205092849457242808810590141644919876"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.3979008843548378,
+              2.4202079388220077
+            ],
+            "q_midpoint_error_upper": "0.00013481768083860383365464637748157712446378071322213",
+            "continuous_boundary_distance": {
+              "lower": "0.47425810829925784963174041172442764025416286247643",
+              "upper": "0.47562388424748925073820115153375275451455204230873"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.4749409962733730505846097003086470067501068115234375",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.3979008843548378,
+                2.4202079388220077
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.47425810829925784963174041172442764025416286247643",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.47425810829925784963174041172442764025416286247643",
+              "upper": "0.47562388424748925073820115153375275451455204230873"
+            }
+          },
+          {
+            "central_vertex_index": 170,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-0.01269674728936676857040479429872258579912817987750",
+                "upper": "-0.01251549965816536858044339111108284218394353715285"
+              },
+              "y": {
+                "lower": "2.1223292737075918510493548986267570347849810235303",
+                "upper": "2.1225722286648644140732986697030041507295127198918"
+              }
+            },
+            "q_binary64_midpoint": [
+              -0.012606123473766068,
+              2.122450751186228
+            ],
+            "q_midpoint_error_upper": "0.00015155676748293434059698651601003129375820816619518",
+            "continuous_boundary_distance": {
+              "lower": "0.015056749952816406019272403865868716730626348612935",
+              "upper": "0.016456004074335531388940796476419756890384431721537"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 1,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -0.012606123473766068,
+                2.122450751186228
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.00069962706075953145981162872274782066523837649997911",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 213,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-0.40694755094208878636654469457774779199367292203435",
+                "upper": "-0.40674177968843968635303967130494695451554259165250"
+              },
+              "y": {
+                "lower": "1.7756945621487243895142771287307474306408753273412",
+                "upper": "1.7759620407284446525617645198921556404483527113590"
+              }
+            },
+            "q_binary64_midpoint": [
+              -0.40684466531526425,
+              1.7758283014385845
+            ],
+            "q_midpoint_error_upper": "0.00016873544339996255934479475736491949849632814550613",
+            "continuous_boundary_distance": {
+              "lower": "0.53061720609161165106510543968109538299460937998555",
+              "upper": "0.53205081756496588064524893876584122436623046376445"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 1,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -0.40684466531526425,
+                1.7758283014385845
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.00071680573667655967855943696410270886997649647929006",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 256,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-0.83876135288510924787870617746281421535571939042470",
+                "upper": "-0.83853105800901244784165753410485228401464337238290"
+              },
+              "y": {
+                "lower": "1.4524318363080723393606034036716808968267802308722",
+                "upper": "1.4527238385102403024316344149182502004972033025490"
+              }
+            },
+            "q_binary64_midpoint": [
+              -0.8386462054470608,
+              1.4525778374091562
+            ],
+            "q_midpoint_error_upper": "0.00018594422283812736433858545113230631043306069946090",
+            "continuous_boundary_distance": {
+              "lower": "1.0460035117193087632357916206433915677549764194042",
+              "upper": "1.0474715407515404326489473262722126063821390591114"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 2,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -0.8386462054470608,
+                1.4525778374091562
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.00073401451611472448355322765787009568191322903324483",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 298,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-1.3228273438522253533087145503228805971164400401052",
+                "upper": "-1.3225730956704819625509953943235985275836496294624"
+              },
+              "y": {
+                "lower": "1.2439989410322044096136639073914136480030100439326",
+                "upper": "1.2443148965400189634053654312793030898651475082096"
+              }
+            },
+            "q_binary64_midpoint": [
+              -1.3227002197613538,
+              1.2441569187861117
+            ],
+            "q_midpoint_error_upper": "0.00020277451814657199975443602512207131154183017160766",
+            "continuous_boundary_distance": {
+              "lower": "0.54276425979032040141478707755075217995590164651413",
+              "upper": "0.54426594941316762783114493413970424022728011618118"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 1,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -1.3227002197613538,
+                1.2441569187861117
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.00075084481142316911896907823185986068302199850539159",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 341,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-1.8206674237993410297030178237467551215040626161210",
+                "upper": "-1.8203886519951499389217550476623119581083265178132"
+              },
+              "y": {
+                "lower": "1.0763157812625397743688172963596697856194712338621",
+                "upper": "1.0766562603928020281840624403327203213445543858036"
+              }
+            },
+            "q_binary64_midpoint": [
+              -1.8205280378972455,
+              1.076486020827671
+            ],
+            "q_midpoint_error_upper": "0.00022002258802007207746674839856322126046608320911340",
+            "continuous_boundary_distance": {
+              "lower": "0.026775089341970131071443008448403099342259242384104",
+              "upper": "0.028311275104563500689828357241532820020792410524221"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 1,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -1.8205280378972455,
+                1.076486020827671
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.00076809288129666919668139060530101063194625154289733",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 384,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-2.2950636473513713295728748158846580710791363940526",
+                "upper": "-2.2947603519247325387680684197150538138204546080791"
+              },
+              "y": {
+                "lower": "0.86532919399506518162159266452556479918173505055030",
+                "upper": "0.86569419674777513546038142858377642876976389015668"
+              }
+            },
+            "q_binary64_midpoint": [
+              -2.294911999638052,
+              0.8655116953714201
+            ],
+            "q_midpoint_error_upper": "0.00023728417841589211538133023779900727192622190598279",
+            "continuous_boundary_distance": {
+              "lower": "0.47415564180168050583886249660628318892511701674265",
+              "upper": "0.47572635074506603941956675407362699402776384263235"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.474940996273372995073458469050819985568523406982421875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -2.294911999638052,
+                0.8655116953714201
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.47415564180168050583886249660628318892511701674265",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.47415564180168050583886249660628318892511701674265",
+              "upper": "0.47572635074506603941956675407362699402776384263235"
+            }
+          },
+          {
+            "central_vertex_index": 426,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-2.7571466437847724243909935985710565928479481221523",
+                "upper": "-2.7568193950524870428655166897601321973975519435588"
+              },
+              "y": {
+                "lower": "0.65107624722319646618608429296459469821548236545205",
+                "upper": "0.65146520328155301074554356966412646599522559767475"
+              }
+            },
+            "q_binary64_midpoint": [
+              -2.7569830194186298,
+              0.6512707252523747
+            ],
+            "q_midpoint_error_upper": "0.00025415475015958448457847229719306431340865701094260",
+            "continuous_boundary_distance": {
+              "lower": "0.96831895301990168091447411495741310528899575717480",
+              "upper": "0.96992340310677504332278250660616119392727468960254"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.96912117806333786251826722946134395897388458251953125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -2.7569830194186298,
+                0.6512707252523747
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.96831895301990168091447411495741310528899575717480",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.96831895301990168091447411495741310528899575717480",
+              "upper": "0.96992340310677504332278250660616119392727468960254"
+            }
+          },
+          {
+            "central_vertex_index": 469,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-3.2083144688017051664434211694857046258894373296307",
+                "upper": "-3.2079626964469720848944006405896191365760954633228"
+              },
+              "y": {
+                "lower": "0.3941096432097400400620612386358384290700153873283",
+                "upper": "0.3945231228905442846450641354205312907127043072520"
+              }
+            },
+            "q_binary64_midpoint": [
+              -3.2081385826243385,
+              0.39431638305014216
+            ],
+            "q_midpoint_error_upper": "0.00027143564430295252111516727217614695043257350666209",
+            "continuous_boundary_distance": {
+              "lower": "1.4628406911762359035667231872524493005822315452689",
+              "upper": "1.4644797030513972232934320565233580204893932105905"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.463660197113815453207052996731363236904144287109375",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -3.2081385826243385,
+                0.39431638305014216
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.4628406911762359035667231872524493005822315452689",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.4628406911762359035667231872524493005822315452689",
+              "upper": "1.4644797030513972232934320565233580204893932105905"
+            }
+          },
+          {
+            "central_vertex_index": 512,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-3.4209794277593024082315884644509326659198852209411",
+                "upper": "-3.4206031317821216266590243154696860827435976668862"
+              },
+              "y": {
+                "lower": "-0.0002190016516259723032732584349269777528173038282",
+                "upper": "0.0002190016516259723032732584349269777528173038272"
+              }
+            },
+            "q_binary64_midpoint": [
+              -3.420791279770712,
+              -5e-49
+            ],
+            "q_midpoint_error_upper": "0.00028872372438990559991403425267209332418642090916188",
+            "continuous_boundary_distance": {
+              "lower": "1.7426531437975896827968487730811046162533843140773",
+              "upper": "1.7443267318329246866365504512816971441817200560399"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.7434899378152561855159774495405144989490509033203125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -3.420791279770712,
+                -5e-49
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.7426531437975896827968487730811046162533843140773",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.7426531437975896827968487730811046162533843140773",
+              "upper": "1.7443267318329246866365504512816971441817200560399"
+            }
+          }
+        ],
+        "selected_witness_vertex_index": 0,
+        "filled_domain_witness_proved": true,
+        "selected_filled_domain_distance": {
+          "lower": "1.7428575737469663410489123234602775200736548052932",
+          "upper": "1.7441223018835486945183016759964484945404504193162"
+        },
+        "conditional_closed_surface_budget": {
+          "half_width": ".05",
+          "projection_padding_upper": "0.05",
+          "central_height_absolute_upper": "0.23477361657280023001934332960672460450416815776429",
+          "total_z_span_upper": "0.56954723314560046003868665921344920900833631552858",
+          "core_diameter_upper": "6.1656127645850283668407151203843114727083369352233",
+          "witness_distance_lower": "1.6928575737469663410489123234602775200736548052932",
+          "witness_over_D_lower": "0.27456436827668705615832435421071562409356567184627",
+          "at_least_03": false,
+          "full_surface_projection_contained_in_same_padded_fill_proved": false,
+          "full_surface_height_bound_proved": false,
+          "fixed_material_hold_constructed": false
+        },
+        "necessary_reach_over_D_upper_from_existing_core_curvature_lower": "0.060045567700793933523217156542287320089842522949735",
+        "core_embedding_proved": false,
+        "global_reach_lower_proved": false,
+        "task_complete": false,
+        "source_sha256": "a8f8e7e2aa4665f3e815419d1fe53e3dbbb686d357254181a05e41307d527700"
+      },
+      "elapsed_seconds": 25.378745689
+    },
+    {
+      "warp_u": ".8",
+      "warp_v": "0",
+      "continuous": {
+        "exact_decimal_parameters": {
+          "warp_u": ".8",
+          "warp_v": "0",
+          "scale": "1"
+        },
+        "eta": {
+          "lower": "-0.17157287525380990239662255158060384286065624924611",
+          "upper": "-0.17157287525380990239662255158060384286065624924610"
+        },
+        "sigma": {
+          "lower": "0.98517143100941603868950196381190774957419286449949",
+          "upper": "0.98517143100941603868950196381190774957419286449951"
+        },
+        "regularity_endpoint_factors": [
+          {
+            "lower": "3.2402020253553338633552715722128453800049187489445",
+            "upper": "3.2402020253553338633552715722128453800049187489446"
+          },
+          {
+            "lower": "2.4166522241370463318514833246259469342737687525632",
+            "upper": "2.4166522241370463318514833246259469342737687525633"
+          }
+        ],
+        "continuous_direction_regular_by_endpoint_formula": true,
+        "direction_speed_lower": "2.4164702546691415575904989237011304586219146025816",
+        "direction_speed_upper": "3.2577076931634736077776266042868524145259481287445",
+        "unresolved_speed_cells": 0,
+        "sphere_geodesic_curvature_absolute_upper": "3.1104618816272513798320036499020828554195495387995",
+        "core_principal_curvature_upper": "3.4042153321117337805011598280884536383636830426406",
+        "core_max_principal_curvature_lower": "3.3974444960496926911085343199021398507505847549776",
+        "center_second_derivative_upper": "18.148219896978949609942965199138525374715722549842",
+        "center_third_derivative_upper": "100.96852265065956765168525314292238616003778430497",
+        "center_absolute_height_upper": "0.30061733552854228992636793642806579548147659499803",
+        "center_anchor_x": {
+          "lower": "3.3638491573421764558774884888346132007422806462885",
+          "upper": "3.3640817193794716103774127855448775396082032252581"
+        },
+        "center_vertex_error_upper": "0.00071210696065493466062855115918498335002855703627758",
+        "center_chord_error_upper": "0.000037959575858044286842123453387884733006073490519764",
+        "midpoint_integral_error_per_component_per_cell": "2.8796567126809354358948637225980388474491278507450E-7",
+        "spherical_length": {
+          "lower": "19.074308524699568250946871503970305837515557162848",
+          "upper": "19.079263573133123745343415373273512390360247603337"
+        },
+        "nodes": 1536,
+        "decimal_precision": 50,
+        "exact_center_closure_from_formula": true,
+        "central_projection_embedded_certified": false,
+        "core_embedding_certified": false,
+        "whole_surface_reach_certified": false
+      },
+      "sampled": {
+        "angles": 384,
+        "half_width": 0.05,
+        "q_numeric": 3.0361647979915434,
+        "center_derivative_closure_numeric": [
+          -2.949029909160572e-17,
+          -4.093947403305265e-15,
+          5.325601071248798e-16
+        ],
+        "anchor_imaginary_numeric_error": 0.0,
+        "center_coordinate_min": [
+          -1.865851159535186,
+          -2.956247636844995,
+          -0.29823111567965105
+        ],
+        "center_coordinate_max": [
+          3.363952788134257,
+          2.956247636844992,
+          0.29823111567965105
+        ],
+        "core_diameter_sample": 5.939553626332418,
+        "normal_chord_radius_sample": 0.29630899080123707,
+        "core_max_principal_curvature_sample": 3.4007133770764324,
+        "samples_are_not_continuous_certificates": true
+      },
+      "projection": {
+        "schema": "warped-ruled-filled-projection-v1",
+        "filled_set_definition": "complement of the unbounded component of R2 minus the exact central projection",
+        "jordan_or_radial_graph_assumed": false,
+        "nodes": 1536,
+        "vertex_error_upper": "0.00071210696065493466062855115918498335002855703627758",
+        "chord_error_upper": "0.000037959575858044286842123453387884733006073490519764",
+        "continuous_curve_to_polygon_error_upper": "0.00075006653651297894747067461257286808303463052679735",
+        "full_continuous_projection_diameter": {
+          "lower": "5.9118437553590352794535563217790041149115761867086",
+          "upper": "5.9147681023533764357402729740739138512097093977724"
+        },
+        "radial_graph_audit": {
+          "radial_jordan_graph_certified": true,
+          "continuous_origin_distance_lower": "1.1255258514343589192296946742851152227182043831450",
+          "continuous_cross_c_cprime_lower": "2.7114667076772470180998161876267948356998564840923",
+          "exact_polygon_winding_about_origin": 1,
+          "winding_transfer_avoids_origin_certified": true,
+          "criterion": "positive cross(c,cprime), avoidance of origin, and winding exactly one"
+        },
+        "finite_witness_candidates": [
+          {
+            "central_vertex_index": 0,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "1.6819245786710882279387442444173066003711403231442",
+                "upper": "1.6820408596897358051887063927724387698041016126291"
+              },
+              "y": {
+                "lower": "2.9131788247572020550012010892924322334687963281810",
+                "upper": "2.9133802293894555228567697173352317221786908011549"
+              }
+            },
+            "q_binary64_midpoint": [
+              1.681982719180412,
+              2.9132795270733287
+            ],
+            "q_midpoint_error_upper": "0.00011628101864766321204101716785644412490257841460460",
+            "continuous_boundary_distance": {
+              "lower": "2.1621781745444182280516778045504875693533420879335",
+              "upper": "2.1639108696547439532627996887375078882958888690977"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "2.163044522099578870211189496330916881561279296875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                1.681982719180412,
+                2.9132795270733287
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "2.1621781745444182280516778045504875693533420879335",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "2.1621781745444182280516778045504875693533420879335",
+              "upper": "2.1639108696547439532627996887375078882958888690977"
+            }
+          },
+          {
+            "central_vertex_index": 42,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "1.2593593022557445068363503848632051075804632613309",
+                "upper": "1.2595086262218711686563667612566090681298916127621"
+              },
+              "y": {
+                "lower": "2.8816750189065051394140874674591194820313456341671",
+                "upper": "2.8819094664862376918397103235401907618577071690873"
+              }
+            },
+            "q_binary64_midpoint": [
+              1.259433964238808,
+              2.8817922426963714
+            ],
+            "q_midpoint_error_upper": "0.00013898139668887732272202197545942069074666963704177",
+            "continuous_boundary_distance": {
+              "lower": "1.8073293786973478015595679936316680476825175279611",
+              "upper": "1.8091074745637552888582371123399700655777516370780"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.808218426630549657829760690219700336456298828125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                1.259433964238808,
+                2.8817922426963714
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.8073293786973478015595679936316680476825175279611",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.8073293786973478015595679936316680476825175279611",
+              "upper": "1.8091074745637552888582371123399700655777516370780"
+            }
+          },
+          {
+            "central_vertex_index": 85,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.86703018707457364214186146680289200547251876093049",
+                "upper": "0.86721334072502412864074288618785994264118719959543"
+              },
+              "y": {
+                "lower": "2.5316370780694070228781273977766890577320727767251",
+                "upper": "2.5319053553334633999826152968493243141776743988796"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.8671217638997989,
+              2.531771216701435
+            ],
+            "q_midpoint_error_upper": "0.00016241763303528087936180207301817992395408518593397",
+            "continuous_boundary_distance": {
+              "lower": "1.2824973669675270261493198956280723154497373585060",
+              "upper": "1.2843223353066266544274537994375675976323854442284"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.28340985113707528597615237231366336345672607421875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                0.8671217638997989,
+                2.531771216701435
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.2824973669675270261493198956280723154497373585060",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.2824973669675270261493198956280723154497373585060",
+              "upper": "1.2843223353066266544274537994375675976323854442284"
+            }
+          },
+          {
+            "central_vertex_index": 128,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.51041738025636226931944997465444622695386098123040",
+                "upper": "0.51063436359113658049719643703097814074176950712950"
+              },
+              "y": {
+                "lower": "2.1494718113762982624572022719257283497466449345888",
+                "upper": "2.1497739183246784642405552139899275828114866439780"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.5105258719237494,
+              2.1496228648504885
+            ],
+            "q_midpoint_error_upper": "0.00018597740173843952339702902943443090522480138205740",
+            "continuous_boundary_distance": {
+              "lower": "0.76667361367130493215059259303728084989174545090364",
+              "upper": "0.76854570154780954544916740057176012567893326003386"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.7676096576095563506214602966792881488800048828125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.5105258719237494,
+                2.1496228648504885
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.76667361367130493215059259303728084989174545090364",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.76667361367130493215059259303728084989174545090364",
+              "upper": "0.76854570154780954544916740057176012567893326003386"
+            }
+          },
+          {
+            "central_vertex_index": 170,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.16956732919859713536237156187522223953417065562960",
+                "upper": "0.16981735548085053111017225229002594443854624347875"
+              },
+              "y": {
+                "lower": "1.7735185064494920548703194855961154710938210507254",
+                "upper": "1.7738536563453513412237266556985864952751298220656"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.16969234233972383,
+              1.7736860813974218
+            ],
+            "q_midpoint_error_upper": "0.00020906852615354979489744475526719741493856511479565",
+            "continuous_boundary_distance": {
+              "lower": "0.26858281463910056304251937848390143470086789932911",
+              "upper": "0.27050108476443417563876792979785177751264833602246"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.269541949701767091784887497851741500198841094970703125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.16969234233972383,
+                1.7736860813974218
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.26858281463910056304251937848390143470086789932911",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.26858281463910056304251937848390143470086789932911",
+              "upper": "0.27050108476443417563876792979785177751264833602246"
+            }
+          },
+          {
+            "central_vertex_index": 213,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-0.15159905648707421930385301903851910689310914159610",
+                "upper": "-0.15131520052049699887718728563215142536949346650745"
+              },
+              "y": {
+                "lower": "1.3468494237755632106251220146509559701130400178465",
+                "upper": "1.3472184033557463216573942277449909709135888764264"
+              }
+            },
+            "q_binary64_midpoint": [
+              -0.15145712850378562,
+              1.3470339135656548
+            ],
+            "q_midpoint_error_upper": "0.00023276605226798935505167388051988183765033270304645",
+            "continuous_boundary_distance": {
+              "lower": "0.24049273001397785148319753079862607577721390151624",
+              "upper": "0.24245839519154025993302769347634125566204276657458"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 1,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -0.15145712850378562,
+                1.3470339135656548
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.00098283258878096830252234849309274992068496322984380",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 256,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-0.56329680181088687765237661716986164163086538455000",
+                "upper": "-0.56297911615998583254684584077192998348800962221735"
+              },
+              "y": {
+                "lower": "0.97518215200116087023205668282530837424893608401576",
+                "upper": "0.97558496126566780594319393891090735166872502983980"
+              }
+            },
+            "q_binary64_midpoint": [
+              -0.5631379589854364,
+              0.9753835566334144
+            ],
+            "q_midpoint_error_upper": "0.00025650510538833587258008014504164048134696348008284",
+            "continuous_boundary_distance": {
+              "lower": "0.79237446736110717765168498054983310372123241966499",
+              "upper": "0.79438761064491125058171850276856467157116412574517"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 2,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -0.5631379589854364,
+                0.9753835566334144
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.0010065716419013148200507547576145085643815940068802",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 298,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-1.0783674500209403160568815601563692749938926056888",
+                "upper": "-1.0780167214225601863812965557201658257345697813889"
+              },
+              "y": {
+                "lower": "0.80639157845314179777422385488810250939826399989293",
+                "upper": "0.80682743066512781805541533901197327793452000768301"
+              }
+            },
+            "q_binary64_midpoint": [
+              -1.0781920857217502,
+              0.8066095045591348
+            ],
+            "q_midpoint_error_upper": "0.00027972204972746028914140432455110893266442948704272",
+            "continuous_boundary_distance": {
+              "lower": "0.25279511540566993853965226141770418696573862309162",
+              "upper": "0.25485469257815126110208626935456831044980397944744"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 1,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -1.0781920857217502,
+                0.8066095045591348
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.0010297885862404392366120789371239770156990600138401",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 341,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-1.6091065152688388352208925340330628706114463147698",
+                "upper": "-1.6087219569861348808664424866052954447328834032155"
+              },
+              "y": {
+                "lower": "0.74148202927356147065881074679490139013450689300750",
+                "upper": "0.74195171116987131561886727391033613529000298805209"
+              }
+            },
+            "q_binary64_midpoint": [
+              -1.6089142361274869,
+              0.7417168702217164
+            ],
+            "q_midpoint_error_upper": "0.00030351530295746222131636291725000051017625584041283",
+            "continuous_boundary_distance": {
+              "lower": "0.25676959823353647780875359822138821583223848497068",
+              "upper": "0.25887676191247785974668875460147714365291089857425"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.257823180073006918977540635751211084425449371337890625",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -1.6089142361274869,
+                0.7417168702217164
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.25676959823353647780875359822138821583223848497068",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.25676959823353647780875359822138821583223848497068",
+              "upper": "0.25887676191247785974668875460147714365291089857425"
+            }
+          },
+          {
+            "central_vertex_index": 384,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-2.1171001394617945727425171655499840210866350159375",
+                "upper": "-2.1166817514947667937092020751306526185888320171322"
+              },
+              "y": {
+                "lower": "0.63243130225975964176799389225585080825437452719995",
+                "upper": "0.63293481384039331140691546236284953002911070949607"
+              }
+            },
+            "q_binary64_midpoint": [
+              -2.1168909454782807,
+              0.6326830580500765
+            ],
+            "q_midpoint_error_upper": "0.00032732720738811014772187666040182304891140648344763",
+            "continuous_boundary_distance": {
+              "lower": "0.76653226386565537254857020792196750011122565488428",
+              "upper": "0.76868705135345899402888732317141943309628624697119"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.76760965760955646164376275919494219124317169189453125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -2.1168909454782807,
+                0.6326830580500765
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.76653226386565537254857020792196750011122565488428",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.76653226386565537254857020792196750011122565488428",
+              "upper": "0.76868705135345899402888732317141943309628624697119"
+            }
+          },
+          {
+            "central_vertex_index": 426,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-2.6143195490984962829389384446055868804012152443188",
+                "upper": "-2.6138681181839894193355691261479836867869451835268"
+              },
+              "y": {
+                "lower": "0.51725988289022658385757427629242021198283647262540",
+                "upper": "0.51779643741833933806655007443769072487403971690625"
+              }
+            },
+            "q_binary64_midpoint": [
+              -2.6140938336412427,
+              0.5175281601542829
+            ],
+            "q_midpoint_error_upper": "0.00035059971199757380892759077745525500230051546790852",
+            "continuous_boundary_distance": {
+              "lower": "1.2701648482042414906830336072944804390026775493177",
+              "upper": "1.2723661807012645945972744633563094477103504047838"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.2712655144527520434394318726845085620880126953125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -2.6140938336412427,
+                0.5175281601542829
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.2701648482042414906830336072944804390026775493177",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.2701648482042414906830336072944804390026775493177",
+              "upper": "1.2723661807012645945972744633563094477103504047838"
+            }
+          },
+          {
+            "central_vertex_index": 469,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-3.1154750485804474261209503015773640737589774889874",
+                "upper": "-3.1149897879816167378387159401281969035254673408767"
+              },
+              "y": {
+                "lower": "0.3558202334002297570433310055015897882174972698802",
+                "upper": "0.3563906176126663359311718466384242777279406014671"
+              }
+            },
+            "q_binary64_midpoint": [
+              -3.1152324182810323,
+              0.356105425506448
+            ],
+            "q_midpoint_error_upper": "0.00037443824543401019316561167398061801009322668142814",
+            "continuous_boundary_distance": {
+              "lower": "1.7954467240291128058091197103537524800457118644714",
+              "upper": "1.7976957335930094486256513833025564689479709968567"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.7965712288110597949497559966403059661388397216796875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -3.1152324182810323,
+                0.356105425506448
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.7954467240291128058091197103537524800457118644714",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.7954467240291128058091197103537524800457118644714",
+              "upper": "1.7976957335930094486256513833025564689479709968567"
+            }
+          }
+        ],
+        "selected_witness_vertex_index": 0,
+        "filled_domain_witness_proved": true,
+        "selected_filled_domain_distance": {
+          "lower": "2.1621781745444182280516778045504875693533420879335",
+          "upper": "2.1639108696547439532627996887375078882958888690977"
+        },
+        "conditional_closed_surface_budget": {
+          "half_width": ".05",
+          "projection_padding_upper": "0.05",
+          "central_height_absolute_upper": "0.30061733552854228992636793642806579548147659499803",
+          "total_z_span_upper": "0.70123467105708457985273587285613159096295318999606",
+          "core_diameter_upper": "6.0555070298844649797753840137697267941294000804558",
+          "witness_distance_lower": "2.1121781745444182280516778045504875693533420879335",
+          "witness_over_D_lower": "0.34880286062267475785724955944634130364056451784495",
+          "at_least_03": true,
+          "full_surface_projection_contained_in_same_padded_fill_proved": false,
+          "full_surface_height_bound_proved": false,
+          "fixed_material_hold_constructed": false
+        },
+        "necessary_reach_over_D_upper_from_existing_core_curvature_lower": "0.049788000135943786702124856362443689966624652676001",
+        "core_embedding_proved": false,
+        "global_reach_lower_proved": false,
+        "task_complete": false,
+        "source_sha256": "a8f8e7e2aa4665f3e815419d1fe53e3dbbb686d357254181a05e41307d527700"
+      },
+      "elapsed_seconds": 25.235555591000036
+    },
+    {
+      "warp_u": "1",
+      "warp_v": "0",
+      "continuous": {
+        "exact_decimal_parameters": {
+          "warp_u": "1",
+          "warp_v": "0",
+          "scale": "1"
+        },
+        "eta": {
+          "lower": "-0.17157287525380990239662255158060384286065624924611",
+          "upper": "-0.17157287525380990239662255158060384286065624924610"
+        },
+        "sigma": {
+          "lower": "0.98517143100941603868950196381190774957419286449949",
+          "upper": "0.98517143100941603868950196381190774957419286449951"
+        },
+        "regularity_endpoint_factors": [
+          {
+            "lower": "3.3431457505076198047932451031612076857213124984922",
+            "upper": "3.3431457505076198047932451031612076857213124984923"
+          },
+          {
+            "lower": "2.3137084989847603904135097936775846285573750030155",
+            "upper": "2.3137084989847603904135097936775846285573750030156"
+          }
+        ],
+        "continuous_direction_regular_by_endpoint_formula": true,
+        "direction_speed_lower": "2.3135342809900311931479505913679505972519314019273",
+        "direction_speed_upper": "3.3912779971572132783993691902737555150707146851928",
+        "unresolved_speed_cells": 0,
+        "sphere_geodesic_curvature_absolute_upper": "3.9165137828404148995365794685370143072620599265032",
+        "core_principal_curvature_upper": "4.1570679457845278015433687295178593954282493714588",
+        "core_max_principal_curvature_lower": "4.1472340740190140573231676607790281720962073982408",
+        "center_second_derivative_upper": "20.946165671133531136583231256074681972999996310643",
+        "center_third_derivative_upper": "133.75759882370909980835830311310096147882386258556",
+        "center_absolute_height_upper": "0.36821017658324634919817792610602653308463990158245",
+        "center_anchor_x": {
+          "lower": "3.2023312199862093867254323566629183706812909481913",
+          "upper": "3.2026393055050376306295891824750542779707956671728"
+        },
+        "center_vertex_error_upper": "0.00094336051139817017841402193861979843260215898948816",
+        "center_chord_error_upper": "0.000043811876274483222537261817270502772578390077027560",
+        "midpoint_integral_error_per_component_per_cell": "3.8148123515429229273125598634952239573867733977908E-7",
+        "spherical_length": {
+          "lower": "19.492608411822457404384339782599451003940890973536",
+          "upper": "19.499939862098318403864459590990430193181653855671"
+        },
+        "nodes": 1536,
+        "decimal_precision": 50,
+        "exact_center_closure_from_formula": true,
+        "central_projection_embedded_certified": false,
+        "core_embedding_certified": false,
+        "whole_surface_reach_certified": false
+      },
+      "sampled": {
+        "angles": 384,
+        "half_width": 0.05,
+        "q_numeric": 3.1029284007719227,
+        "center_derivative_closure_numeric": [
+          2.3765711620882257e-15,
+          -3.0808688933348094e-15,
+          3.625572064791527e-16
+        ],
+        "anchor_imaginary_numeric_error": 4.440892098500626e-16,
+        "center_coordinate_min": [
+          -1.7435449056697783,
+          -2.8073754670707807,
+          -0.36572625804483905
+        ],
+        "center_coordinate_max": [
+          3.202470662904389,
+          2.807375467070779,
+          0.365726258044839
+        ],
+        "core_diameter_sample": 5.638195376957977,
+        "normal_chord_radius_sample": 0.24452528410925697,
+        "core_max_principal_curvature_sample": 4.15240455316528,
+        "samples_are_not_continuous_certificates": true
+      },
+      "projection": {
+        "schema": "warped-ruled-filled-projection-v1",
+        "filled_set_definition": "complement of the unbounded component of R2 minus the exact central projection",
+        "jordan_or_radial_graph_assumed": false,
+        "nodes": 1536,
+        "vertex_error_upper": "0.00094336051139817017841402193861979843260215898948816",
+        "chord_error_upper": "0.000043811876274483222537261817270502772578390077027560",
+        "continuous_curve_to_polygon_error_upper": "0.00098717238767265340095128375589030120518054906651572",
+        "full_continuous_projection_diameter": {
+          "lower": "5.6135135463316659533106105998744263529562678499897",
+          "upper": "5.6173746121298129295398594120148405856638401020393"
+        },
+        "radial_graph_audit": {
+          "radial_jordan_graph_certified": true,
+          "continuous_origin_distance_lower": "0.54033595170774539780387976098671441640708599146082",
+          "continuous_cross_c_cprime_lower": "0.7012965795885694234088825834525387661153480152878",
+          "exact_polygon_winding_about_origin": 1,
+          "winding_transfer_avoids_origin_certified": true,
+          "criterion": "positive cross(c,cprime), avoidance of origin, and winding exactly one"
+        },
+        "finite_witness_candidates": [
+          {
+            "central_vertex_index": 0,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "1.6011656099931046933627161783314591853406454740956",
+                "upper": "1.6013196527525188153147945912375271389853978335864"
+              },
+              "y": {
+                "lower": "2.7733001878400710072764801901526183848520574197262",
+                "upper": "2.7735669977259143754788370258058112903196962952422"
+              }
+            },
+            "q_binary64_midpoint": [
+              1.6012426313728119,
+              2.7734335927829927
+            ],
+            "q_midpoint_error_upper": "0.00015404275941420977722400952413597696234388247745716",
+            "continuous_boundary_distance": {
+              "lower": "2.3798322191485095172163243538018033293192004219716",
+              "upper": "2.3821146494426876844647734409880175801809216483409"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "2.380973434295596380394499647081829607486724853515625",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                1.6012426313728119,
+                2.7734335927829927
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "2.3798322191485095172163243538018033293192004219716",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "2.3798322191485095172163243538018033293192004219716",
+              "upper": "2.3821146494426876844647734409880175801809216483409"
+            }
+          },
+          {
+            "central_vertex_index": 42,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "1.1974519062312249534071779787600178183511480770353",
+                "upper": "1.1976497224875352529549555600154377330491849395094"
+              },
+              "y": {
+                "lower": "2.6949905043016552175732254326240838253647829454930",
+                "upper": "2.6953010876843947633712814366266286918857063239924"
+              }
+            },
+            "q_binary64_midpoint": [
+              1.19755081435938,
+              2.695145795993025
+            ],
+            "q_midpoint_error_upper": "0.00018411498370220768257116540247954301000997456369192",
+            "continuous_boundary_distance": {
+              "lower": "1.9932504534699634141905747645378529081174968542994",
+              "upper": "1.9955930282127169111159033883868300368955494103490"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.9944217408413382752740972136962227523326873779296875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                1.19755081435938,
+                2.695145795993025
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.9932504534699634141905747645378529081174968542994",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.9932504534699634141905747645378529081174968542994",
+              "upper": "1.9955930282127169111159033883868300368955494103490"
+            }
+          },
+          {
+            "central_vertex_index": 85,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.87806918462082343096075965434586865477905171224238",
+                "upper": "0.87831181660014648376127686033991081531735604206019"
+              },
+              "y": {
+                "lower": "2.2654647571373587265757227939849628870403763699398",
+                "upper": "2.2658201562431110256265184227261299994015672157832"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.878190500610485,
+              2.2656424566902347
+            ],
+            "q_midpoint_error_upper": "0.00021516203298913258877615906265962589215895149300379",
+            "continuous_boundary_distance": {
+              "lower": "1.4998786365319618195512934363541700879516412123311",
+              "upper": "1.5022833053732873899321926472730427046833227769268"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.501080970952623605541020879172720015048980712890625",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                0.878190500610485,
+                2.2656424566902347
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.4998786365319618195512934363541700879516412123311",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.4998786365319618195512934363541700879516412123311",
+              "upper": "1.5022833053732873899321926472730427046833227769268"
+            }
+          },
+          {
+            "central_vertex_index": 128,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.60674585436306354745500811416213595418660564602134",
+                "upper": "0.60703330206539935350826494489480036056517744318229"
+              },
+              "y": {
+                "lower": "1.8171015342538369135513072878261161547817086043200",
+                "upper": "1.8175017490826019658548425413059055129831669175072"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.6068895782142314,
+              1.8173016416682195
+            ],
+            "q_midpoint_error_upper": "0.00024637273121316545010346420114306501933223035650857",
+            "continuous_boundary_distance": {
+              "lower": "1.0510895679188963241022921720098282394197132947957",
+              "upper": "1.0535566581566695161166361431430515649530741807903"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.05232311303778214295334691996686160564422607421875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.6068895782142314,
+                1.8173016416682195
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.0510895679188963241022921720098282394197132947957",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.0510895679188963241022921720098282394197132947957",
+              "upper": "1.0535566581566695161166361431430515649530741807903"
+            }
+          },
+          {
+            "central_vertex_index": 170,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.35007012945839469016810138501949976520101408768708",
+                "upper": "0.35040135065762667381705738410151613263287038783453"
+              },
+              "y": {
+                "lower": "1.3787380817498966300827229062440143799368124285333",
+                "upper": "1.3791820700755578599819573280731556991915552447077"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.35023574005801067,
+              1.3789600759127272
+            ],
+            "q_midpoint_error_upper": "0.00027696259501251685954758170599039381627292387890045",
+            "continuous_boundary_distance": {
+              "lower": "0.63451691135133737793379913135341333230703773799208",
+              "upper": "0.63704518131670893970012394994936918834477958378526"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.6357810463340225481942979968152940273284912109375",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.35023574005801067,
+                1.3789600759127272
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.63451691135133737793379913135341333230703773799208",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.63451691135133737793379913135341333230703773799208",
+              "upper": "0.63704518131670893970012394994936918834477958378526"
+            }
+          },
+          {
+            "central_vertex_index": 213,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.11609568393158949351536793980320515539554029909658",
+                "upper": "0.11647172085383423041706356362384376866766406659393"
+              },
+              "y": {
+                "lower": "0.88637370171060520848053652665367387194477834375965",
+                "upper": "0.88686250575927919163251057322143743703978862728325"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.11628370239271187,
+              0.8866181037349422
+            ],
+            "q_midpoint_error_upper": "0.00030835578675103333554580764929340134522937878717437",
+            "continuous_boundary_distance": {
+              "lower": "0.19747261068959284912406006409655402243924270581330",
+              "upper": "0.20006366703844063893068848134062408640193809557830"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.1987681388640165358605571555017377249896526336669921875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.11628370239271187,
+                0.8866181037349422
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.19747261068959284912406006409655402243924270581330",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.19747261068959284912406006409655402243924270581330",
+              "upper": "0.20006366703844063893068848134062408640193809557830"
+            }
+          },
+          {
+            "central_vertex_index": 256,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-0.27087198837033796554649889833317890211118009588029",
+                "upper": "-0.27045113572508047539206364977391804299878886102678"
+              },
+              "y": {
+                "lower": "0.46853276723674517649241452266127770927600945629231",
+                "upper": "0.46906638700843191289712819396766352021128720717128"
+              }
+            },
+            "q_binary64_midpoint": [
+              -0.27066156204770925,
+              0.4687995771225885
+            ],
+            "q_midpoint_error_upper": "0.00033980399120497936446870339909862254099607162245959",
+            "continuous_boundary_distance": {
+              "lower": "0.35963880480381349279607026579372642777579222086375",
+              "upper": "0.36229275756156942446072501519762852944714631673390"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 2,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -0.27066156204770925,
+                0.4687995771225885
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.0013269763788776327654199871549889237461766206889754",
+            "exact_polygon_winding_about_q_if_used": 1,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 298,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-0.81298976963923892919108413711452214580207841826970",
+                "upper": "-0.81252514349708526144094972020590932563640268041065"
+              },
+              "y": {
+                "lower": "0.34214082830460682096550560513495682107723643988095",
+                "upper": "0.34271822157318973496591844479069459306579869376585"
+              }
+            },
+            "q_binary64_midpoint": [
+              -0.8127574565681621,
+              0.3424295249388983
+            ],
+            "q_midpoint_error_upper": "0.00037056053438591643342348965244975546784557460110821",
+            "continuous_boundary_distance": {
+              "lower": "0.18559035265447937250839267760108201833035942015561",
+              "upper": "0.18830581849859684524404961196472425876591209473696"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.1869480855765379423427674510094220750033855438232421875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -0.8127574565681621,
+                0.3424295249388983
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.18559035265447937250839267760108201833035942015561",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.18559035265447937250839267760108201833035942015561",
+              "upper": "0.18830581849859684524404961196472425876591209473696"
+            }
+          },
+          {
+            "central_vertex_index": 341,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-1.3574070864645700218755267787659573321871596064599",
+                "upper": "-1.3568976445994036008726527371187222661812164012328"
+              },
+              "y": {
+                "lower": "0.38507141758891796685426732158669042713688879109064",
+                "upper": "0.38569362658051363410741978598105044496571851234511"
+              }
+            },
+            "q_binary64_midpoint": [
+              -1.3571523655319868,
+              0.3853825220847158
+            ],
+            "q_midpoint_error_upper": "0.00040208054019274549611281277600838670343532268842078",
+            "continuous_boundary_distance": {
+              "lower": "0.62495746931354490415882219181622101800683517804975",
+              "upper": "0.62773597516927714524288239758352094454523543962604"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.6263467222414103030558862883481197059154510498046875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -1.3571523655319868,
+                0.3853825220847158
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.62495746931354490415882219181622101800683517804975",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.62495746931354490415882219181622101800683517804975",
+              "upper": "0.62773597516927714524288239758352094454523543962604"
+            }
+          },
+          {
+            "central_vertex_index": 384,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-1.8775513059250482854816253616843103661848224388618",
+                "upper": "-1.8769970483368691112260116952984530543386117662736"
+              },
+              "y": {
+                "lower": "0.38273551645125805789057914321498533677036960578855",
+                "upper": "0.38340254116586647839647123234796760043946679440645"
+              }
+            },
+            "q_binary64_midpoint": [
+              -1.8772741771309587,
+              0.38306902880856225
+            ],
+            "q_midpoint_error_upper": "0.00043362525409411242828473125929599070612224212677438",
+            "continuous_boundary_distance": {
+              "lower": "1.0509023153960153771241109049516753137329232830254",
+              "upper": "1.0537439106795504630948174102012044906398641925605"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.05232311303778214295334691996686160564422607421875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -1.8772741771309587,
+                0.38306902880856225
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.0509023153960153771241109049516753137329232830254",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.0509023153960153771241109049516753137329232830254",
+              "upper": "1.0537439106795504630948174102012044906398641925605"
+            }
+          },
+          {
+            "central_vertex_index": 426,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-2.3890540919542827411980527367302520997299620811961",
+                "upper": "-2.3884560608692073893467399019950428268304669055787"
+              },
+              "y": {
+                "lower": "0.37189946476421137585684126860976004010846799267345",
+                "upper": "0.37261026297571597395843252609209426483084968432130"
+              }
+            },
+            "q_binary64_midpoint": [
+              -2.388755076411745,
+              0.37225486386996365
+            ],
+            "q_midpoint_error_upper": "0.00046445540049469061565222537091236801450510425106310",
+            "continuous_boundary_distance": {
+              "lower": "1.4889417479540853799644925872682465749457348789089",
+              "upper": "1.4918450035304233986667734809914731842801104580051"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.4903933757422527239810960963950492441654205322265625",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -2.388755076411745,
+                0.37225486386996365
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.4889417479540853799644925872682465749457348789089",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.4889417479540853799644925872682465749457348789089",
+              "upper": "1.4918450035304233986667734809914731842801104580051"
+            }
+          },
+          {
+            "central_vertex_index": 469,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-2.9218938669585867489068840117217864002748135781727",
+                "upper": "-2.9212510201504986438028315522479548815350509351057"
+              },
+              "y": {
+                "lower": "0.3141782778884323110787172508020975405390562703934",
+                "upper": "0.3149338918229496624330481330230540111017054294798"
+              }
+            },
+            "q_binary64_midpoint": [
+              -2.9215724435545427,
+              0.314556084855691
+            ],
+            "q_midpoint_error_upper": "0.00049603539105237251684255935269742270664168282573692",
+            "continuous_boundary_distance": {
+              "lower": "1.9810834333390769828468762199926331520666476167405",
+              "upper": "1.9840498488965303653515377816794298707852963529861"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.9825666411178020087646700631012208759784698486328125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -2.9215724435545427,
+                0.314556084855691
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.9810834333390769828468762199926331520666476167405",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.9810834333390769828468762199926331520666476167405",
+              "upper": "1.9840498488965303653515377816794298707852963529861"
+            }
+          }
+        ],
+        "selected_witness_vertex_index": 0,
+        "filled_domain_witness_proved": true,
+        "selected_filled_domain_distance": {
+          "lower": "2.3798322191485095172163243538018033293192004219716",
+          "upper": "2.3821146494426876844647734409880175801809216483409"
+        },
+        "conditional_closed_surface_budget": {
+          "half_width": ".05",
+          "projection_padding_upper": "0.05",
+          "central_height_absolute_upper": "0.36821017658324634919817792610602653308463990158245",
+          "total_z_span_upper": "0.83642035316649269839635585221205306616927980316490",
+          "core_diameter_upper": "5.7782325552557755471326325983284572072254393904010",
+          "witness_distance_lower": "2.3298322191485095172163243538018033293192004219716",
+          "witness_over_D_lower": "0.40320845463883871910423171051677895985771395084620",
+          "at_least_03": true,
+          "full_surface_projection_contained_in_same_padded_fill_proved": false,
+          "full_surface_height_bound_proved": false,
+          "fixed_material_hold_constructed": false
+        },
+        "necessary_reach_over_D_upper_from_existing_core_curvature_lower": "0.042954303058870429647683997061396156896860465914002",
+        "core_embedding_proved": false,
+        "global_reach_lower_proved": false,
+        "task_complete": false,
+        "source_sha256": "a8f8e7e2aa4665f3e815419d1fe53e3dbbb686d357254181a05e41307d527700"
+      },
+      "elapsed_seconds": 25.12778616999998
+    },
+    {
+      "warp_u": "1.2",
+      "warp_v": "0",
+      "continuous": {
+        "exact_decimal_parameters": {
+          "warp_u": "1.2",
+          "warp_v": "0",
+          "scale": "1"
+        },
+        "eta": {
+          "lower": "-0.17157287525380990239662255158060384286065624924611",
+          "upper": "-0.17157287525380990239662255158060384286065624924610"
+        },
+        "sigma": {
+          "lower": "0.98517143100941603868950196381190774957419286449949",
+          "upper": "0.98517143100941603868950196381190774957419286449951"
+        },
+        "regularity_endpoint_factors": [
+          {
+            "lower": "3.4460894756599057462312186341095699914377062480398",
+            "upper": "3.4460894756599057462312186341095699914377062480399"
+          },
+          {
+            "lower": "2.2107647738324744489755362627292223228409812534678",
+            "upper": "2.2107647738324744489755362627292223228409812534680"
+          }
+        ],
+        "continuous_direction_regular_by_endpoint_formula": true,
+        "direction_speed_lower": "2.2105983073109208287054022590347707358819482012729",
+        "direction_speed_upper": "3.5451287410334422103434500328107999466993274816027",
+        "unresolved_speed_cells": 0,
+        "sphere_geodesic_curvature_absolute_upper": "4.8378039931951808579427018518245811937554322407879",
+        "core_principal_curvature_upper": "5.0363600896993327895519748954042486102999315201750",
+        "core_max_principal_curvature_lower": "5.0223145700972316998606050060152190204491670848780",
+        "center_second_derivative_upper": "23.622997312358204603547961009314856190514965532237",
+        "center_third_derivative_upper": "171.41106410480902993155746028666441769563034090422",
+        "center_absolute_height_upper": "0.43675091735552302902924583297423233471131233211438",
+        "center_anchor_x": {
+          "lower": "2.9419369813254390662291467037541060332428417630277",
+          "upper": "2.9423317945329281857144866779523282909022348061450"
+        },
+        "center_vertex_error_upper": "0.0012089214408397072022140083631402035551184368542991",
+        "center_chord_error_upper": "0.000049410849304405345123333112573349427003923014878480",
+        "midpoint_integral_error_per_component_per_cell": "4.8887020273141634647665548206507906803103503839393E-7",
+        "spherical_length": {
+          "lower": "19.988126135147911198872345093158115498449688091495",
+          "upper": "19.998806456110331738884455965383426881825136434639"
+        },
+        "nodes": 1536,
+        "decimal_precision": 50,
+        "exact_center_closure_from_formula": true,
+        "central_projection_embedded_certified": false,
+        "core_embedding_certified": false,
+        "whole_surface_reach_certified": false
+      },
+      "sampled": {
+        "angles": 384,
+        "half_width": 0.05,
+        "q_numeric": 3.18205899049058,
+        "center_derivative_closure_numeric": [
+          5.48172618408671e-16,
+          -5.828670879282072e-16,
+          7.632783294297951e-16
+        ],
+        "anchor_imaginary_numeric_error": 2.220446049250313e-16,
+        "center_coordinate_min": [
+          -1.5849784435642698,
+          -2.57563668101123,
+          -0.434175851417192
+        ],
+        "center_coordinate_max": [
+          2.9421179232976375,
+          2.57563668101123,
+          0.43417585141719195
+        ],
+        "core_diameter_sample": 5.1706755360109735,
+        "normal_chord_radius_sample": 0.02225608959679984,
+        "core_max_principal_curvature_sample": 5.030338861936579,
+        "samples_are_not_continuous_certificates": true
+      },
+      "projection": {
+        "schema": "warped-ruled-filled-projection-v1",
+        "filled_set_definition": "complement of the unbounded component of R2 minus the exact central projection",
+        "jordan_or_radial_graph_assumed": false,
+        "nodes": 1536,
+        "vertex_error_upper": "0.0012089214408397072022140083631402035551184368542991",
+        "chord_error_upper": "0.000049410849304405345123333112573349427003923014878480",
+        "continuous_curve_to_polygon_error_upper": "0.0012583322901441125473373414757135529821223598691776",
+        "full_continuous_projection_diameter": {
+          "lower": "5.1488866284769799059969017341673571308460009192601",
+          "upper": "5.1538211359389519863881029344712263384471548759884"
+        },
+        "radial_graph_audit": {
+          "radial_jordan_graph_certified": false,
+          "continuous_origin_distance_lower": "0.057471873965717483329162250874514787382870258691613",
+          "continuous_cross_c_cprime_lower": "-1.0271233443184750699715024368528094493964337489370",
+          "exact_polygon_winding_about_origin": -2,
+          "winding_transfer_avoids_origin_certified": true,
+          "criterion": "positive cross(c,cprime), avoidance of origin, and winding exactly one"
+        },
+        "finite_witness_candidates": [
+          {
+            "central_vertex_index": 0,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "1.4709684906627195331145733518770530166214208815138",
+                "upper": "1.4711658972664640928572433389761641454511174030725"
+              },
+              "y": {
+                "lower": "2.5477921621607359059781206104662533844070165478467",
+                "upper": "2.5481340804281711000367345241567694504132742223984"
+              }
+            },
+            "q_binary64_midpoint": [
+              1.4710671939645918,
+              2.5479631212944533
+            ],
+            "q_midpoint_error_upper": "0.00019740660374471045909998767279499092453051421092778",
+            "continuous_boundary_distance": {
+              "lower": "2.4053845281702236477564559519136250663419127997480",
+              "upper": "2.4082960059580057346614291108368038486818909111895"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "2.406840267064112470762893281062133610248565673828125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                1.4710671939645918,
+                2.5479631212944533
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "2.4053845281702236477564559519136250663419127997480",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "2.4053845281702236477564559519136250663419127997480",
+              "upper": "2.4082960059580057346614291108368038486818909111895"
+            }
+          },
+          {
+            "central_vertex_index": 42,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "1.0904934789438155756056826834176082032257234033366",
+                "upper": "1.0907469815133112218735940157315696241345715745900"
+              },
+              "y": {
+                "lower": "2.4246968123449045950953988911970297357179752371198",
+                "upper": "2.4250948265780908756792541501023960938033845613663"
+              }
+            },
+            "q_binary64_midpoint": [
+              1.0906202302285635,
+              2.4248958194614976
+            ],
+            "q_midpoint_error_upper": "0.00023594431682077698885313871513073690341799387210441",
+            "continuous_boundary_distance": {
+              "lower": "2.0054893523770821404943337033395161703958317165712",
+              "upper": "2.0084779055910150281911836141595179363355830783507"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "2.0069836289840470300305241835303604602813720703125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                1.0906202302285635,
+                2.4248958194614976
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "2.0054893523770821404943337033395161703958317165712",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "2.0054893523770821404943337033395161703958317165712",
+              "upper": "2.0084779055910150281911836141595179363355830783507"
+            }
+          },
+          {
+            "central_vertex_index": 85,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.85796766728239797095059608504104344027815113404248",
+                "upper": "0.85827860143587687247054022317020873164898789903485"
+              },
+              "y": {
+                "lower": "1.9298624765892377412501046456196442397574260228156",
+                "upper": "1.9303179224064072770859927103402144683048239408014"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.8581231343591375,
+              1.9300901994978226
+            ],
+            "q_midpoint_error_upper": "0.00027573127324308467230406942541710743734036049770233",
+            "continuous_boundary_distance": {
+              "lower": "1.6156506890995356336595693673198916772556318841253",
+              "upper": "1.6187188162263129146787162145291580995368943609919"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.6171847526629228308792107782210223376750946044921875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                0.8581231343591375,
+                1.9300901994978226
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.6156506890995356336595693673198916772556318841253",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.6156506890995356336595693673198916772556318841253",
+              "upper": "1.6187188162263129146787162145291580995368943609919"
+            }
+          },
+          {
+            "central_vertex_index": 128,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.68381628478213875914293452630463683129615304276835",
+                "upper": "0.68418465051960091591491147024900599312897840149915"
+              },
+              "y": {
+                "lower": "1.4339185260262963316045856924998479877108242177462",
+                "upper": "1.4344314034274491226925065630356220867202107294706"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.6840004676508699,
+              1.4341749647268727
+            ],
+            "q_midpoint_error_upper": "0.00031572794663658967832377738013420822865820434418859",
+            "continuous_boundary_distance": {
+              "lower": "1.2248029574571969645977960655082401184469647971147",
+              "upper": "1.2279510779307608115397724785643245728581957253462"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.226377017693977666823457184364087879657745361328125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.6840004676508699,
+                1.4341749647268727
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.2248029574571969645977960655082401184469647971147",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.2248029574571969645977960655082401184469647971147",
+              "upper": "1.2279510779307608115397724785643245728581957253462"
+            }
+          },
+          {
+            "central_vertex_index": 170,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.52234055789063696467588427178068710007339593164515",
+                "upper": "0.52276501959385020797310256093990655398537294007454"
+              },
+              "y": {
+                "lower": "0.95153646752842279366776925055752308450011563789211",
+                "upper": "0.95210544089532667128093146630814747558865379931579"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.5225527887422435,
+              0.9518209542118747
+            ],
+            "q_midpoint_error_upper": "0.00035492901746008297456042864947488418804167109292598",
+            "continuous_boundary_distance": {
+              "lower": "0.79051174511425781464224993480182947509847457987774",
+              "upper": "0.79373826772946787102058241278701698488630477803242"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.79212500642186201016414770492701791226863861083984375",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.5225527887422435,
+                0.9518209542118747
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.79051174511425781464224993480182947509847457987774",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.79051174511425781464224993480182947509847457987774",
+              "upper": "0.79373826772946787102058241278701698488630477803242"
+            }
+          },
+          {
+            "central_vertex_index": 213,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.38696488953882671281044928306228327902314315481736",
+                "upper": "0.38744678282602321135970037803670660339710875699360"
+              },
+              "y": {
+                "lower": "0.41013437439832981311394422729479028825142669711494",
+                "upper": "0.41076077934921694597913924886061854980195345228407"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.387205836182425,
+              0.41044757687377337
+            ],
+            "q_midpoint_error_upper": "0.00039515955724904370525570060853996733371165756703415",
+            "continuous_boundary_distance": {
+              "lower": "0.26062888426136982610592018507036367749576952870636",
+              "upper": "0.26393586795615663821146735055931390876168820444794"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.262282376108762982358513227154617197811603546142578125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.387205836182425,
+                0.41044757687377337
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.26062888426136982610592018507036367749576952870636",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.26062888426136982610592018507036367749576952870636",
+              "upper": "0.26393586795615663821146735055931390876168820444794"
+            }
+          },
+          {
+            "central_vertex_index": 256,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "0.029096893468614311772106880926581292647584834250992",
+                "upper": "0.029636218339794065573390781716208487483539030181321"
+              },
+              "y": {
+                "lower": "-0.051206285136828640585034914534759754717552243063688",
+                "upper": "-0.050522448601958252467807087153727622705036894141996"
+              }
+            },
+            "q_binary64_midpoint": [
+              0.02936655590420419,
+              -0.05086436686939345
+            ],
+            "q_midpoint_error_upper": "0.00043546059612110768698923192203428432478134881777841",
+            "continuous_boundary_distance": {
+              "lower": "0.025721492098674945484631909045920052731437575111261",
+              "upper": "0.029109077871205434525542383192014370879130471458563"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0",
+              "all_edges_disjoint_certified": false,
+              "unresolved_or_intersecting_edges": 2,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                0.02936655590420419,
+                -0.05086436686939345
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "-0.0016937928862652202343265733977478373069037086869561",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": false,
+            "outside_certificate_method": null,
+            "filled_domain_distance": null
+          },
+          {
+            "central_vertex_index": 298,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-0.53586432125578777632350396525822699276192792194257",
+                "upper": "-0.53526890041885693599697871925374950584682207629064"
+              },
+              "y": {
+                "lower": "-0.13283953212049878857734733946625000467774250607196",
+                "upper": "-0.13209959961987731393487816687036758058607550742786"
+              }
+            },
+            "q_binary64_midpoint": [
+              -0.5355666108373224,
+              -0.13246956587018804
+            ],
+            "q_midpoint_error_upper": "0.00047487526744594755190808852140164280513661728806434",
+            "continuous_boundary_distance": {
+              "lower": "0.24756841420190912669305167960787258570759690358006",
+              "upper": "0.25103482931708969098075238966471914673478209422268"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.2493016217594991867922971096049877814948558807373046875",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -0.5355666108373224,
+                -0.13246956587018804
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.24756841420190912669305167960787258570759690358006",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.24756841420190912669305167960787258570759690358006",
+              "upper": "0.25103482931708969098075238966471914673478209422268"
+            }
+          },
+          {
+            "central_vertex_index": 341,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-1.0740779796159925332705503205185713599797979392374",
+                "upper": "-1.0734251271950784376919922686988900026027034998208"
+              },
+              "y": {
+                "lower": "0.01957185500599070857571461503038690420171509409378",
+                "upper": "0.02036921909059543847021659344147319875537068650699"
+              }
+            },
+            "q_binary64_midpoint": [
+              -1.0737515534055355,
+              0.019970537048293074
+            ],
+            "q_midpoint_error_upper": "0.00051526832012821859291648088143415974773264160699621",
+            "continuous_boundary_distance": {
+              "lower": "0.78084480801255305885724776601117498753221470067226",
+              "upper": "0.78439200923309872033847757336635679426042598536290"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "0.7826184086228253899975015883683227002620697021484375",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -1.0737515534055355,
+                0.019970537048293074
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "0.78084480801255305885724776601117498753221470067226",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "0.78084480801255305885724776601117498753221470067226",
+              "upper": "0.78439200923309872033847757336635679426042598536290"
+            }
+          },
+          {
+            "central_vertex_index": 384,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-1.5843873287530066011910440824944161590983957147775",
+                "upper": "-1.5836770447481092503604532248595309312593126816047"
+              },
+              "y": {
+                "lower": "0.12429830334305295542467346600782805724231560247870",
+                "upper": "0.12515309901164094057120825023411822225795978865245"
+              }
+            },
+            "q_binary64_midpoint": [
+              -1.584032186750558,
+              0.12472570117734695
+            ],
+            "q_midpoint_error_upper": "0.00055569303636316590479861715725142457439665511481709",
+            "continuous_boundary_distance": {
+              "lower": "1.2245629923674708324605310757937390715538935826722",
+              "upper": "1.2281910430204873877662473183414417892039341761169"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.22637701769397811091266703442670404911041259765625",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": false,
+              "direction_exact_binary64": [
+                -1.584032186750558,
+                0.12472570117734695
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.2245629923674708324605310757937390715538935826722",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.2245629923674708324605310757937390715538935826722",
+              "upper": "1.2281910430204873877662473183414417892039341761169"
+            }
+          },
+          {
+            "central_vertex_index": 426,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-2.0886568005950729506303267038685404478378756278601",
+                "upper": "-2.0878904206244245132744945010188049279196409449448"
+              },
+              "y": {
+                "lower": "0.21873431477112108489146072428667785938172334007550",
+                "upper": "0.21964520640546015656323685372781831647651917599620"
+              }
+            },
+            "q_binary64_midpoint": [
+              -2.0882736106097486,
+              0.21918976058829062
+            ],
+            "q_midpoint_error_upper": "0.00059520203059978981506430762503160710138985951164760",
+            "continuous_boundary_distance": {
+              "lower": "1.6074840782966131804491072679743710272505484495644",
+              "upper": "1.6111911469381034276645647415202502794072426881309"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.6093376126173570828115089170751161873340606689453125",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -2.0882736106097486,
+                0.21918976058829062
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.6074840782966131804491072679743710272505484495644",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.6074840782966131804491072679743710272505484495644",
+              "upper": "1.6111911469381034276645647415202502794072426881309"
+            }
+          },
+          {
+            "central_vertex_index": 469,
+            "central_parameter": "2*pi*index/nodes",
+            "rotation_angle": "pi/3",
+            "rotated_point_box": {
+              "x": {
+                "lower": "-2.6336639545849992268309144348041429958057649632186",
+                "upper": "-2.6328401430303675342230494261392036054255416864383"
+              },
+              "y": {
+                "lower": "0.26958493025783880790279170402815583999601912125200",
+                "upper": "0.27055325347616113482660063928450016755280355103020"
+              }
+            },
+            "q_binary64_midpoint": [
+              -2.6332520488076834,
+              0.27006909186699996
+            ],
+            "q_midpoint_error_upper": "0.00063567195405469777518165690362780476370115962247634",
+            "continuous_boundary_distance": {
+              "lower": "1.9946897468846731760019788130587087633231309482817",
+              "upper": "1.9984777553730750154945103854122450886151167323823"
+            },
+            "escape_ray": {
+              "polygon_ray_distance_lower": "1.9965837511288719863244978114380501210689544677734375",
+              "all_edges_disjoint_certified": true,
+              "unresolved_or_intersecting_edges": 0,
+              "all_vertices_strictly_behind_ray_origin": true,
+              "direction_exact_binary64": [
+                -2.6332520488076834,
+                0.27006909186699996
+              ],
+              "roundoff_model": "IEEE-754 outward intervals for every elementary operation"
+            },
+            "continuous_escape_ray_clearance_lower": "1.9946897468846731760019788130587087633231309482817",
+            "exact_polygon_winding_about_q_if_used": null,
+            "q_in_unbounded_complementary_component_certified": true,
+            "outside_certificate_method": "escape_ray",
+            "filled_domain_distance": {
+              "lower": "1.9946897468846731760019788130587087633231309482817",
+              "upper": "1.9984777553730750154945103854122450886151167323823"
+            }
+          }
+        ],
+        "selected_witness_vertex_index": 0,
+        "filled_domain_witness_proved": true,
+        "selected_filled_domain_distance": {
+          "lower": "2.4053845281702236477564559519136250663419127997480",
+          "upper": "2.4082960059580057346614291108368038486818909111895"
+        },
+        "conditional_closed_surface_budget": {
+          "half_width": ".05",
+          "projection_padding_upper": "0.05",
+          "central_height_absolute_upper": "0.43675091735552302902924583297423233471131233211438",
+          "total_z_span_upper": "0.97350183471104605805849166594846466942262466422876",
+          "core_diameter_upper": "5.3432520388453165916802647033176253626727592052956",
+          "witness_distance_lower": "2.3553845281702236477564559519136250663419127997480",
+          "witness_over_D_lower": "0.44081479051458429284679340424832176365528134552433",
+          "at_least_03": true,
+          "full_surface_projection_contained_in_same_padded_fill_proved": false,
+          "full_surface_height_bound_proved": false,
+          "fixed_material_hold_constructed": false
+        },
+        "necessary_reach_over_D_upper_from_existing_core_curvature_lower": "0.038670764649599031908889024677745596503416706240212",
+        "core_embedding_proved": false,
+        "global_reach_lower_proved": false,
+        "task_complete": false,
+        "source_sha256": "a8f8e7e2aa4665f3e815419d1fe53e3dbbb686d357254181a05e41307d527700"
+      },
+      "elapsed_seconds": 25.142581329999985
+    }
+  ]
+}
