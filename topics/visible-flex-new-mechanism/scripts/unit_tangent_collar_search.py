@@ -46,9 +46,46 @@ class UnitTangentSpace:
         c=np.column_stack((self.args.offset*h,np.zeros_like(s),zz))
         cp=np.column_stack((self.args.offset*hp/width,np.zeros_like(s),zp))
         cpp=np.column_stack((self.args.offset*hpp/width**2,np.zeros_like(s),zpp))
-        return {"s":s,"u":u,"radial":self.radial.radial_basis(s),
+        result={"s":s,"u":u,"radial":self.radial.radial_basis(s),
                 "fourier":fourier(u,self.args.modes),
                 "a":aa,"ap":ap,"app":app,"c":c,"cp":cp,"cpp":cpp}
+        if self.args.pin_core:
+            # Preserve a genuine noncircular central section and its vertical
+            # first radial derivative, instead of letting the seed disappear.
+            r0,r1,r2=result['radial']
+            midpoint=self.meridian.length/2
+            v=(s-midpoint)/midpoint
+            vp=1/midpoint
+            result['psi_radial']=[v[:,None]*r0,
+                                  v[:,None]*r1+vp*r0,
+                                  v[:,None]*r2+2*vp*r1]
+            result['radial']=[v[:,None]**2*r0,
+                              v[:,None]**2*r1+2*v[:,None]*vp*r0,
+                              v[:,None]**2*r2+4*v[:,None]*vp*r1+2*vp*vp*r0]
+            w=np.clip((s-self.meridian.start)/width,0,1)
+            # A C2 bridge with zero first and second derivatives also at 1/2.
+            left=w<=.5
+            hh,hhp,hhpp=smoothstep(np.where(left,2*w,2*w-1))
+            c[:,0]=self.args.offset*(.5*hh+np.where(left,0.,.5))
+            cp[:,0]=self.args.offset*hhp/width
+            cpp[:,0]=self.args.offset*2*hhpp/width**2
+            b=64*w**3*(1-w)**3
+            bp=192*w**2*(1-w)**2*(1-2*w)/width
+            bpp=384*w*(1-w)*(1-5*w+5*w*w)/width**2
+            phi=u.copy()
+            for _ in range(35):
+                rho=1+self.args.seed2*np.cos(2*phi)+self.args.seed3*np.cos(3*phi)
+                step=(phi+self.args.seed2*np.sin(2*phi)/2+self.args.seed3*np.sin(3*phi)/3-u)/rho
+                phi-=step
+                if np.max(np.abs(step))<1e-14:
+                    break
+            rho=1+self.args.seed2*np.cos(2*phi)+self.args.seed3*np.cos(3*phi)
+            delta=phi-u
+            result.update(delta_base=b[:,None]*delta,
+                          delta_s=bp[:,None]*delta,
+                          delta_ss=bpp[:,None]*delta,
+                          delta_u=b[:,None]*(1/rho-1))
+        return result
 
     def unpack(self,q):
         count=self.nangle
@@ -62,9 +99,9 @@ class UnitTangentSpace:
         d,p,cc,ar=self.unpack(np.asarray(q))
         r0,r1,r2=grid['radial']
         f0,f1,f2=grid['fourier']
-        theta=grid['u'][None,:]+r0@d@f0.T
+        theta=grid['u'][None,:]+grid.get('delta_base',0)+r0@d@f0.T
         phi=r0@p@f0.T
-        ds,ps=r1@d@f0.T,r1@p@f0.T
+        ds,ps=grid.get('delta_s',0)+r1@d@f0.T,r1@p@f0.T
         st,ct,sp,cp=np.sin(theta),np.cos(theta),np.sin(phi),np.cos(phi)
         zero=np.zeros_like(theta)
         t=np.stack((-st*cp,ct*cp,sp),axis=-1)
@@ -73,6 +110,8 @@ class UnitTangentSpace:
         tdd=np.stack((st*cp,-ct*cp,zero),axis=-1)
         tdp=np.stack((ct*sp,st*sp,zero),axis=-1)
         ts=td*ds[:,:,None]+tp*ps[:,:,None]
+        du,pu=1+grid.get('delta_u',0)+r0@d@f1.T,r0@p@f1.T
+        tu=td*du[:,:,None]+tp*pu[:,:,None]
         gamma,gammas=primitive(t),primitive(ts)
         a,ap,app=(grid['a']+r0@ar,grid['ap']+r1@ar,grid['app']+r2@ar)
         c,cs=grid['c']+r0@cc,grid['cp']+r1@cc
@@ -81,13 +120,12 @@ class UnitTangentSpace:
         x=c[:,None,:]+a[:,None,None]*gamma
         xs=cs[:,None,:]+ap[:,None,None]*gamma+a[:,None,None]*gammas
         xu=a[:,None,None]*ss
-        out=dict(t=t,td=td,tp=tp,tdd=tdd,tdp=tdp,ts=ts,ds=ds,ps=ps,
+        out=dict(t=t,td=td,tp=tp,tdd=tdd,tdp=tdp,ts=ts,tu=tu,ds=ds,ps=ps,du=du,pu=pu,
                  gamma=gamma,gammas=gammas,a=a,ap=ap,mean=mean,ss=ss,x=x,xs=xs,xu=xu)
         if second:
-            dss,pss=r2@d@f0.T,r2@p@f0.T
+            dss,pss=grid.get('delta_ss',0)+r2@d@f0.T,r2@p@f0.T
             tss=(td*dss[:,:,None]+tp*pss[:,:,None]+tdd*(ds*ds)[:,:,None]
                  +2*tdp*(ds*ps)[:,:,None]-t*(ps*ps)[:,:,None])
-            tu=td*(1+r0@d@f1.T)[:,:,None]+tp*(r0@p@f1.T)[:,:,None]
             xss=(grid['cpp']+r2@cc)[:,None,:]+app[:,None,None]*gamma
             xss+=2*ap[:,None,None]*gammas+a[:,None,None]*primitive(tss)
             xsu=ap[:,None,None]*ss+a[:,None,None]*(ts-ts.mean(axis=1,keepdims=True))
@@ -143,6 +181,8 @@ class UnitTangentSpace:
         return np.vstack((core.reshape(-1,self.size),close.reshape(-1,self.size),bound.reshape(-1,self.size)))
 
     def seed(self):
+        if self.args.pin_core:
+            return np.zeros(self.size)
         s=self.radial.collocation(10)
         n=max(128,8*self.args.modes)
         grid=self.prepare(s,n)
@@ -195,6 +235,87 @@ class UnitTangentSpace:
                 "closed_surface":False,"continuous_error_bound":False,"reach_proved":False}
 
 
+class SignedFrenetSpace(UnitTangentSpace):
+    """Use X_s=cos(psi)N_curve+sin(psi)B_curve, retaining both signs."""
+    def __init__(self,args):
+        super().__init__(args)
+        self.base_size=self.size
+        self.size+=self.nangle
+
+    def geometry(self,q,grid,second=False):
+        z=super().geometry(np.asarray(q)[:self.base_size],grid,second)
+        coeff=np.asarray(q)[self.base_size:].reshape(self.j,self.k)
+        psi_radial=grid.get('psi_radial',grid['radial'])
+        psi=(np.pi-self.meridian.beta(grid['s'])[0])[:,None]+psi_radial[0]@coeff@grid['fourier'][0].T
+        speed=np.linalg.norm(z['tu'],axis=-1)
+        nc=z['tu']/np.maximum(speed,1e-12)[:,:,None]
+        bc=np.cross(z['t'],nc)
+        co,si=np.cos(psi),np.sin(psi)
+        target=co[:,:,None]*nc+si[:,:,None]*bc
+        z.update(psi=psi,speed=speed,nc=nc,bc=bc,co=co,si=si,target=target)
+        return z
+
+    def residual(self,q,grid):
+        z=self.geometry(q,grid)
+        close=self.args.closure_weight*np.sqrt(len(grid['u']))*z['mean'][:,0,:]
+        bounds=self.args.radius_weight*np.sqrt(len(grid['u']))*np.stack(
+            (np.maximum(self.args.radius_floor*grid['a']-z['a'],0),
+             np.maximum(z['a']-self.args.radius_ceiling*grid['a'],0)),axis=-1)
+        return np.r_[(z['xs']-z['target']).ravel(),close.ravel(),bounds.ravel()]
+
+    def jacobian(self,q,grid):
+        z=self.geometry(q,grid)
+        r0,r1,_=grid['radial']
+        f0,f1,_=grid['fourier']
+        b=(r0[:,None,:,None]*f0[None,:,None,:]).reshape(len(r0),len(f0),-1)
+        bs=(r1[:,None,:,None]*f0[None,:,None,:]).reshape(len(r0),len(f0),-1)
+        bu=(r0[:,None,:,None]*f1[None,:,None,:]).reshape(len(r0),len(f0),-1)
+        dt=np.concatenate((z['td'][:,:,None,:]*b[:,:,:,None],
+                           z['tp'][:,:,None,:]*b[:,:,:,None]),axis=2)
+        ds0=z['tdd']*z['ds'][:,:,None]+z['tdp']*z['ps'][:,:,None]
+        ps0=z['tdp']*z['ds'][:,:,None]-z['t']*z['ps'][:,:,None]
+        dts=np.concatenate((ds0[:,:,None,:]*b[:,:,:,None]+z['td'][:,:,None,:]*bs[:,:,:,None],
+                            ps0[:,:,None,:]*b[:,:,:,None]+z['tp'][:,:,None,:]*bs[:,:,:,None]),axis=2)
+        du0=z['tdd']*z['du'][:,:,None]+z['tdp']*z['pu'][:,:,None]
+        pu0=z['tdp']*z['du'][:,:,None]-z['t']*z['pu'][:,:,None]
+        dtu=np.concatenate((du0[:,:,None,:]*b[:,:,:,None]+z['td'][:,:,None,:]*bu[:,:,:,None],
+                            pu0[:,:,None,:]*b[:,:,:,None]+z['tp'][:,:,None,:]*bu[:,:,:,None]),axis=2)
+        dxs=z['ap'][:,None,None,None]*primitive(dt)+z['a'][:,None,None,None]*primitive(dts)
+        inner=np.einsum('ruc,rupc->rup',z['nc'],dtu)
+        dnc=(dtu-z['nc'][:,:,None,:]*inner[:,:,:,None])/np.maximum(z['speed'],1e-12)[:,:,None,None]
+        dbc=np.cross(dt,z['nc'][:,:,None,:])+np.cross(z['t'][:,:,None,:],dnc)
+        dv=z['co'][:,:,None,None]*dnc+z['si'][:,:,None,None]*dbc
+        na=2*self.nangle
+        core=np.zeros((len(r0),len(f0),3,self.size))
+        core[:,:,:,:na]=(dxs-dv).transpose(0,1,3,2)
+        for c in range(3):
+            core[:,:,c,na+c:na+3*self.j:3]=r1[:,None,:]
+        if not self.args.fixed_radius:
+            drxs=r1[:,None,:,None]*z['gamma'][:,:,None,:]+r0[:,None,:,None]*z['gammas'][:,:,None,:]
+            core[:,:,:,self.base_size-self.j:self.base_size]=drxs.transpose(0,1,3,2)
+        psi_direction=z['si'][:,:,None]*z['nc']-z['co'][:,:,None]*z['bc']
+        psi_r0=grid.get('psi_radial',grid['radial'])[0]
+        psi_b=(psi_r0[:,None,:,None]*f0[None,:,None,:]).reshape(len(r0),len(f0),-1)
+        core[:,:,:,self.base_size:]=psi_direction[:,:,:,None]*psi_b[:,:,None,:]
+        close=np.zeros((len(r0),3,self.size))
+        close[:,:,:na]=self.args.closure_weight*np.sqrt(len(f0))*dt.mean(axis=1).transpose(0,2,1)
+        bound=np.zeros((len(r0),2,self.size))
+        if not self.args.fixed_radius:
+            scale=self.args.radius_weight*np.sqrt(len(f0))
+            bound[:,0,self.base_size-self.j:self.base_size]=-scale*(z['a']<self.args.radius_floor*grid['a'])[:,None]*r0
+            bound[:,1,self.base_size-self.j:self.base_size]=scale*(z['a']>self.args.radius_ceiling*grid['a'])[:,None]*r0
+        return np.vstack((core.reshape(-1,self.size),close.reshape(-1,self.size),bound.reshape(-1,self.size)))
+
+    def audit(self,q,radial,angles):
+        out=super().audit(q,radial,angles)
+        grid=self.prepare(np.linspace(0,self.meridian.length,radial),angles)
+        z=self.geometry(q,grid)
+        out.update(signed_flow_residual_sample_max=float(np.max(np.linalg.norm(z['xs']-z['target'],axis=-1))),
+                   min_curve_turning_speed_sample=float(np.min(z['speed'])),
+                   psi_range_sample=[float(np.min(z['psi'])),float(np.max(z['psi']))])
+        return out
+
+
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--radius',type=float,default=.45)
@@ -215,6 +336,8 @@ def main():
     ap.add_argument('--radius-ceiling',type=float,default=1.3)
     ap.add_argument('--radius-weight',type=float,default=10.)
     ap.add_argument('--fixed-radius',action='store_true')
+    ap.add_argument('--signed-flow',action='store_true')
+    ap.add_argument('--pin-core',action='store_true')
     ap.add_argument('--max-nfev',type=int,default=120)
     ap.add_argument('--check-jacobian',action='store_true')
     ap.add_argument('--resume',type=Path)
@@ -223,12 +346,14 @@ def main():
     if abs(args.seed2)+abs(args.seed3)>=1:
         ap.error('Need |seed2|+|seed3|<1')
     begin=time.monotonic()
-    space=UnitTangentSpace(args)
+    space=SignedFrenetSpace(args) if args.signed_flow else UnitTangentSpace(args)
     grid=space.prepare(space.radial.collocation(args.radial_order),args.angles)
     q=space.seed()
     if args.resume:
         saved=json.loads(args.resume.read_text())
         q=np.asarray(saved['coefficients'])
+        if args.signed_flow and len(q)==space.base_size:
+            q=np.r_[q,np.zeros(space.nangle)]
         if len(q)!=space.size:
             raise ValueError('Resume dimensions differ; project explicitly')
     jac_error=None

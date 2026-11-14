@@ -9,7 +9,7 @@
 ## 规则与同步
 
 - 已完整读公开根 README 和本课题 README，校对 `visible-flexible-closed-surface/README.md` 的 $D,H,\delta_{\rm hold},\delta_E$ 定义。
-- 公开仓库最后已读规则提交：`8dfd3f40fd48f36e349a08f121e212c3f4185d42`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
+- 公开仓库最后已读规则提交：`8d7ea72692195043e406129ead9c6e09d6a4d6d3`；该次实际 `git pull --rebase origin main` 成功，随后两 README diff 为空。
 - 作者指定的 QUEUE 领取已执行成功。研究与计算在本公开仓库；公开笔记只使用公开来源和独立推导。
 - 每次 pull 后比较这两个公开 README，变更仅读差异并照办；至少每小时 pull。每条结论立即提交并在推前 pull；非快进拒绝即 rebase 重试，不强推。
 - 令牌仅瞬时命令行认证，不入文件；数值大数组/网格不读入对话。根 LOG 不写；结果单文件、Markdown 小于100KB，数据大于1MB压缩且单件小于5MB。
@@ -48,6 +48,7 @@ Actions的文献q=3种子使用同一闭合权重和物理带宽。参考带的�
 3. 可计算新机制与大偏心核心的闭合比较；完整空间曲面/时间族才进入最终指标与网格生成。
 4. 本题公开 workflow `.github/workflows/visible-new-mechanism-search.yml` 已实际运行 `43584472315`：seeds job成功并推回 `notes/actions-43584472315-1-seeds/`，偏心续接仍运行。文献带状种子的闭合残差随固定参数精化到约`1e-14`；它仍不是闭曲面连续族。继续固定问题的核谱积分加密和真实回折BVP。
 5. 同时继续 `core_to_tail_bvp.py` 一侧实际连接及有符号Frenet版单位切向BVP。
+6. 已保存有符号图、中央非圆截面锁定及8个core-tail实际BVP的失败数据；最细一侧设计metric约`.015232`，不是精确连接。新的受控回折参考在有限几何筛查中有预算余量，下一Actions运行L=1.5/minβ=-.1和L=1.8/minβ=-.2，详见 `notes/core-tail-computation-20261114.md`；同时运行固定核试空间的积分加密。
 
 ## 工作文件
 

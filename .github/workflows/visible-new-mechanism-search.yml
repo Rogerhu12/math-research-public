@@ -8,21 +8,52 @@ on:
   workflow_dispatch:
     inputs:
       lane:
-        description: Public numerical lane
+        description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds]
+        options: [all, eccentric, seeds, kernel, core_folded]
 
 permissions:
   contents: write
 
 jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    outputs:
+      lanes: ${{ steps.lanes.outputs.value }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: /topics/visible-flex-new-mechanism/computations/request.json
+      - id: lanes
+        env:
+          REQUESTED_LANE: ${{ inputs.lane }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
+          chosen = os.environ.get('REQUESTED_LANE')
+          lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded'}
+          if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
+              raise SystemExit('Invalid bounded public request lanes')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
+              stream.write('value=' + json.dumps(lanes, separators=(',', ':')) + '\n')
+          print(json.dumps({'lanes': lanes, 'request': request['request']}))
+          PY
   search:
+    needs: plan
     strategy:
       fail-fast: false
       max-parallel: 2
       matrix:
-        lane: ${{ fromJSON(inputs.lane == 'eccentric' && '["eccentric"]' || inputs.lane == 'seeds' && '["seeds"]' || '["eccentric","seeds"]') }}
+        lane: ${{ fromJSON(needs.plan.outputs.lanes) }}
     name: Search ${{ matrix.lane }}
     runs-on: ubuntu-latest
     timeout-minutes: 50
@@ -116,6 +147,30 @@ jobs:
                 --out "$VISIBLE_NEW_OUT/mixed-gc-j08-N${angular_points}-${side}.json"
             done
           done
+      - name: Refine integration of one fixed literature-band trial space
+        if: matrix.lane == 'kernel'
+        timeout-minutes: 35
+        run: |
+          for angular_points in 192 384 768; do
+            python -u "$VISIBLE_NEW_SCRIPTS/literature_band_kernel.py" \
+              --theta-n "$angular_points" --u-n 64 --modes 6 --degree 10 \
+              --epsilon 0 .00001 .0001 .005 \
+              --output "$VISIBLE_NEW_OUT/literature-kernel-q3-N${angular_points}.json"
+          done
+      - name: Solve two controlled folded core-to-tail designs
+        if: matrix.lane == 'core_folded'
+        timeout-minutes: 40
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/core_to_tail_bvp.py" \
+            --background folded --length 1.5 --fold-min -.1 \
+            --fold-first-fraction .33 --inlet-angles 256 \
+            --radial-free 5 --modes 6 --angular 64 --radial-gauss 5 \
+            --max-nfev 200 --out "$VISIBLE_NEW_OUT/core-tail-folded-L15.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/core_to_tail_bvp.py" \
+            --background folded --length 1.8 --fold-min -.2 \
+            --fold-first-fraction .33 --inlet-angles 256 \
+            --radial-free 5 --modes 6 --angular 64 --radial-gauss 5 \
+            --max-nfev 200 --out "$VISIBLE_NEW_OUT/core-tail-folded-L18.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

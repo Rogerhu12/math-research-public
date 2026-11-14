@@ -1,0 +1,259 @@
+{
+  "status": "finite_design_bvp_candidate_not_an_exact_connector",
+  "task_complete": false,
+  "closed_surface": false,
+  "double_circular_collars": false,
+  "exact_isometry_proved": false,
+  "same_metric_refinement": false,
+  "definition": {
+    "core": "R2 mixed-mode GC inlet",
+    "amp2": 0.25,
+    "amp3": 0.2,
+    "curvature": 0.6,
+    "inlet_s": 0.15,
+    "length": 1.2,
+    "tail_cut_radius": 0.6,
+    "tail_flat_start": 0.34,
+    "tail_cuff_radius": 0.3,
+    "design_metric": true,
+    "background": "unit",
+    "reference_control": -0.414505934168049,
+    "tail_lower_bounds": [
+      -1.3,
+      -1.3
+    ],
+    "tail_angle_shift": -1.5707963267948966,
+    "tail_final": {
+      "A_plus": 0.0015575826556800626,
+      "A_minus": 0.0018604394009936799,
+      "C_y": -0.004483725966825454,
+      "C_z": 0.9262619339237879
+    }
+  },
+  "discretization": {
+    "radial_free": 3,
+    "modes": 4,
+    "angular": 40,
+    "radial_gauss": 4,
+    "inlet_angles": 128,
+    "unknowns": 88,
+    "residuals": 1952,
+    "tail_quadrature": 48
+  },
+  "inlet": {
+    "s": 0.15,
+    "radius_metric": 1.00675,
+    "center": [
+      -2.873135757086587e-17,
+      -0.0001640574583794338,
+      0.14976681147900417
+    ],
+    "sample_relative_metric_op": 7.760713174754518e-11,
+    "sample_position_frame_compatibility": 7.177394854070923e-11,
+    "sample_frame_orthogonality": 9.992007221626409e-16,
+    "sample_abs_principal_curvature": 1.5242328848152353,
+    "sample_min_N": 0.697493403971049,
+    "sample_circle_radial_spread": 0.19235730003825324,
+    "sample_section_height_spread": 0.00034207966517080246,
+    "sample_max_abs_M": 0.09498072820603726,
+    "sample_GC_N_spread": 0.8473860179236117
+  },
+  "inlet_solver": {
+    "success": true,
+    "nfev": 458
+  },
+  "solver": {
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 14,
+    "njev": 14,
+    "optimality": 2.6550103295958018e-05,
+    "initial_rms": 0.07267544732568855,
+    "final_rms": 0.01034674188792646,
+    "initial_max": 0.3652174941042753,
+    "final_max": 0.060474886745751855,
+    "elapsed_seconds": 0.5710988139981055
+  },
+  "audits": [
+    {
+      "radial_points": 41,
+      "angular_points": 128,
+      "relative_metric_operator_sample_max": 0.0615540367443036,
+      "E_error_sample_max": 0.0615540367443036,
+      "F_normalized_error_sample_max": 0.024085680230003324,
+      "G_error_sample_max": 0.017802329322338828,
+      "endpoint_two_jet_matching_sample_max": 1.1102230246251565e-16,
+      "radius_range": [
+        0.5999999999999999,
+        1.1332517965881597
+      ],
+      "radius_derivative_range": [
+        -1.0,
+        0.40453415686007244
+      ],
+      "radius_second_derivative_range": [
+        -2.9784738076814734,
+        1.8758134415493852
+      ],
+      "min_area_density_sample": 0.5999999999999999,
+      "min_section_turning_speed_sample": 0.6986381314795636,
+      "max_abs_principal_curvature_sample": 3.588358470590561,
+      "signed_frenet_angle_range": [
+        -0.02262287340585543,
+        2.1527815442422265
+      ],
+      "coordinate_min": [
+        -1.1600529328353246,
+        -1.1092671098645004,
+        0.14957537707197216
+      ],
+      "coordinate_max": [
+        1.1600529328353193,
+        1.1142146985722754,
+        0.9290015689635196
+      ],
+      "continuous_error_bound": false,
+      "embeddedness_checked": false,
+      "reach_proved": false
+    },
+    {
+      "radial_points": 81,
+      "angular_points": 256,
+      "relative_metric_operator_sample_max": 0.06163978024233885,
+      "E_error_sample_max": 0.06163978024233885,
+      "F_normalized_error_sample_max": 0.024189260980589163,
+      "G_error_sample_max": 0.017802329322338828,
+      "endpoint_two_jet_matching_sample_max": 1.1102230246251565e-16,
+      "radius_range": [
+        0.5999999999999999,
+        1.1332517965881597
+      ],
+      "radius_derivative_range": [
+        -1.0,
+        0.40453415686007244
+      ],
+      "radius_second_derivative_range": [
+        -2.9784738076814734,
+        1.8758134415493852
+      ],
+      "min_area_density_sample": 0.5999999999999999,
+      "min_section_turning_speed_sample": 0.6986381314795636,
+      "max_abs_principal_curvature_sample": 3.588358470590561,
+      "signed_frenet_angle_range": [
+        -0.023075843090736285,
+        2.1527815442422265
+      ],
+      "coordinate_min": [
+        -1.160542331308471,
+        -1.1095178752383905,
+        0.14957537707197216
+      ],
+      "coordinate_max": [
+        1.1605423313084675,
+        1.1142146985722754,
+        0.9290029904908804
+      ],
+      "continuous_error_bound": false,
+      "embeddedness_checked": false,
+      "reach_proved": false
+    }
+  ],
+  "coefficients": [
+    -2.2030555538553865e-15,
+    -3.618251441089708e-16,
+    0.0584996067086646,
+    2.822616879756518e-15,
+    -0.0009285476908701634,
+    2.726161590971056e-16,
+    0.008862084490249335,
+    -9.677563567700982e-16,
+    0.00017220866059348882,
+    7.468306099962466e-16,
+    -5.321883134959903e-17,
+    0.012168634034271155,
+    -7.684442635005219e-16,
+    -0.0032227286996213303,
+    -7.304266951335018e-17,
+    0.009721654202464342,
+    1.1831143398374472e-16,
+    0.0011561788211900473,
+    -5.582312779013866e-17,
+    -8.907001353230611e-17,
+    -0.008132896455220754,
+    9.218847424934628e-17,
+    -0.0006576102629066981,
+    3.5436961108387173e-17,
+    0.002473234499168744,
+    -1.8111543701636913e-16,
+    0.00027964301439038623,
+    -0.0019229574866265462,
+    -0.10326465719498043,
+    8.123579548934676e-17,
+    -0.0030777947845473377,
+    2.62415269380133e-15,
+    -0.008365676730876022,
+    3.887207608360496e-16,
+    -5.9068993673734364e-05,
+    -2.2906389302900826e-16,
+    0.00036470792254087483,
+    -0.04159582809258944,
+    -2.0938714080624692e-16,
+    -0.0015168327502340956,
+    -4.3839396398349335e-16,
+    -0.007603451058662945,
+    -9.543658385472044e-17,
+    -0.000405246140712086,
+    5.575745738282762e-17,
+    -0.00035629603733475625,
+    -0.0017702727284605465,
+    -9.522109697204284e-17,
+    -0.0009085551651407648,
+    6.604621068145589e-17,
+    -0.0030218385667443205,
+    -4.124935362585503e-17,
+    -0.0007176425940151132,
+    4.179730337150752e-18,
+    -0.0260889349511936,
+    -0.004065833118478401,
+    1.501117192890054e-15,
+    -0.027944514551717717,
+    1.588045397777535e-16,
+    -0.004253708051443502,
+    2.1039439882279872e-16,
+    1.7214788081619208e-05,
+    6.545162389329805e-17,
+    0.03433065306640201,
+    -0.002310716208129872,
+    -1.0032022820526888e-15,
+    -0.020304799951848848,
+    -1.2892511396065004e-16,
+    -0.0053371775883171565,
+    -1.0125868858059851e-17,
+    -0.0004878881637378002,
+    -2.3191376349997573e-17,
+    0.018108604130685303,
+    -0.004409559293421718,
+    3.257034732049783e-15,
+    -0.012166103184307364,
+    3.767191511249681e-16,
+    0.0003963827224800919,
+    -2.590959244234955e-16,
+    -0.0010328859029499905,
+    6.342686023680555e-17,
+    0.07849759016395629,
+    0.027305955039594487,
+    -0.0034054061853552673,
+    0.0015575826556800626,
+    0.0018604394009936799,
+    -0.004483725966825454,
+    0.9262619339237879
+  ],
+  "limitations": [
+    "Finite residual is not an exact connector or a closed surface.",
+    "Metric controls were designed; this is not fixed-g refinement.",
+    "Endpoint jets use the same numerical inlet and quadrature-defined tail evaluator.",
+    "No continuous embeddedness or reach certificate is claimed."
+  ],
+  "script_sha256": "7056128e4464cd8b37e78e559c814321d1ac591ada540445e4990e8ddc1b45b2"
+}
