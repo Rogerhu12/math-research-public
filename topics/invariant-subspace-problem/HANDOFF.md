@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `5baa9a555450e7567eddf18e58e86f297eb3a6b6`（2026-11-14 13:11:09 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `e6bddf74c0e96316ed0b0ebe642abeb692e010f7`（2026-11-14 13:19:21 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **当前规则：** 只在公开`Rogerhu12/math-research-public`工作，用本库Actions；不恢复旧代跑，公开文件无凭据。规则12取消额外独立复核，旧变更/迁移授权保此前H。
 - **工作树：** 根在 `/workspace/scratch/789f3e887d7c/math-research-recovered`；旧工作目录完整保留供代理独占稿。12:35断连后环境恢复，临时盘旧Git元数据、NF/GB/DAG及前缀均已失，不假称可续读；远端两条恢复结论818e9d7b/4c071886已同步。原17式回代未执行。
@@ -43,11 +43,11 @@ A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两�
 - 全挠空间W维315，charpoly315/minpoly190，CW=0/AW=WJ及九目标坐标/压缩状态全存；五个额外模31因子共60次/各平方，不当复异常点，证明链保此前H。
 - [九目标](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)共同最小Ann h31=s³(s−2)²(s−1)P+²P−²E6度24；j4/10少(s−1)度23。额外五因子与s+6均不进入任何目标。候选h0=s³(s−2)F+²F−²E8仅待char0证明。
 - 模31 GQ=hT全1034分量已核，Q最高49次/342321非零，压缩证书已存；旧反向前缀976来源/最高1018次停止，不全展开，恢复链保此前H。
-- [固定T96完整图](notes/2026-11-14-r150-reweighted-graph-projection-789f.md)：T64全量202来源主元输出非零，原严格gate失败。新证明1021输出主元次数和716即完整投影；一次T96保全2195图行，基来源≤104−δ、九目标来源≤146−δ、原预基补偿≤136；单份图内存202.72MiB。新程序已编译/解析，数学未运行；独立本库请求1800秒分T64 900/T96 840/目标60、4GiB，所有已写图基和NF/DAG保artifact；运行43597823809已启动。
+- [T96全图与九目标实际证书](results/R150-appendix-complete-t96-kernel-and-exact-nine-source-identities.md)：CI43597823809全流程完成。T96 18.705秒给1021输出/1174纯核，输出次数和716；九目标4.84342秒全RC=h31T，系数最高130、2108非零源/1569777非零系数，完整1.12MB gzip已推。全部输出/原来源degree界≤146−δ通过，原17补偿界136。
 - [原17式恢复接口](notes/2026-11-14-r150-original-seventeen-t96-source-recovery-789f.md)已证明β=hJ−HC、完整常预基逆序及D/content运输；新137层helper已编译，核4367×147×9全部原系数，数学未执行。取得T96真实C后作唯一60秒/512MiB回代；全系数gzip超5MB分片持久保存。
 - 特征零线性块精确Dlin=s⁸(s−2)²(s+6)²F+³F−³E8²度46；单位双核补给全部9阶gcd及横向逆最小分母，h0是其真因子。非线性项/Γ不可删，不能由一次线性逆免费得到24次预算。
 - 原∞一阶图保原全部6188来源，常数秩4340/连接秩4，模31∞除子阶≥24、齐次总度≥339。不给char0厚度或未算高阶上界；原74次条件准则在31不触发。整个除子与目标Ann分开。
-- **运行与恢复：** CI43595280823在445.652秒完成2195图行，但202来源主元有非零输出，目标未运行；小回执在notes/r150-shifted-graph-actions-789f/43595280823-1。56.6MB图基未上传且旧临时盘已失，今按同输入必要重建后仅做一次T96。全状态/Q有仓库压缩副本；不重跑旧std或高次数反向DAG。
+- **运行与恢复：** 本次T64重建365.749秒，hash与旧基同；仅一次T96即完成。大基/NF/DAG已由artifact14114364261恢复到 `/tmp/isp-t96-recovery-789f`，完整九目标C在仓库；不重跑旧std/高次DAG。原17回代正以60秒/512MiB运行，未先写成功。
 
 ## 原文续查
 
@@ -55,7 +55,7 @@ A_U*L1L3⁻¹L1A_U≤κI，且Δ*G1=−L1A_U；倒数桥为B*L2²B≤κG1。两�
 
 ## 持续执行
 
-boundary_core/literature_audit继续有限a联合SOS与真实共同谱；normal_annihilator恢复原17式137层helper；根运行固定T96/维护git。结论逐条即推，旧范围按前H/open保留，主目标不以阶段稿收尾。
+boundary_core/literature_audit继续真实相位/最高边共同缺陷；normal_annihilator推进核标准来源与char0有界lift；根执行原17回代/维护git。结论即推，旧范围按前H/open保留，普通ISP不以阶段稿收尾。
 
 ## 计算同步
 
