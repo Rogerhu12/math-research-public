@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间C2连续、同一固定g；固定材料开集H且diamH≥.2D；不对齐的真实像集Hausdorff位移≥.3D；全域全时reach≥.03D；最大相对metric≤1e−6且同g/物理参数/时间下加密改善；完整小网格、复现和严格存在性差距。D为初始完整曲面直径。δE不再必需，可为0但须如实报。达标后继续.5D或更强存在性。
 
-- 根与本题README已完整读。公开仓库最后已读规则提交：`e67604ad5d9636517001a092f0dde62316945a26`；该次实际pull成功，两README差异为空。
+- 根与本题README已完整读。公开仓库最后已读规则提交：`6a9075f4480308d4a753a71f788d35246afeb5f0`；该次实际pull成功，两README差异为空。
 - 每次pull后只读这两README的新差异并立即遵循；至少每小时pull。每结论提交推送，NFF立即pull --rebase并循环重推；不强推。
 - 作者指定QUEUE已领取并置进行中；私有研究内容不发布。最新私有队列复核（11:40 UTC）仍为本会话进行中，私有根规则diff为空。研究计算只用本公开仓库自己的Actions。
 - 令牌仅瞬时命令行认证，不入文件。根LOG不写；共享workflow修改理由记本题log。HANDOFF<10KB，其他MD<100KB，数据>1MB压缩、单件<5MB，不读取巨大数组进对话。
@@ -37,13 +37,12 @@
 
 共享workflow `.github/workflows/visible-new-mechanism-search.yml`，最多2并行、每job≤50min；publisher只写本题小输出，receipt含输入SHA，pull后核README，变更则保留artifact。job成功也必须看实际数值。
 
-1. **43588985133 / source9deb869**：codedesign已成功，q3/2/4的scaled周期L2=.09069/.18748/.14907，实际闭合/长=1.27e−4/4.34e−4/2.86e−4，三档冻结加密仍非零；不是闭合基底。详见`notes/literature-codesign-actual-audit-20261114.md`。ellipse_cont及inward_fixed仍待结束审计，不重复已完成阶段。
-2. **43590239302 / sourcebcf0043**：star_core已成功；.60/.09真星域距离下界1.0061146909、平面D上界3.0045326267，比例≥.33486562；.65/.12比例≥.34524838。仅为完整面保持投影/高度包络时的条件预算。原始`notes/actions-43590239302-1-star_core/`。ellipse_phi与inward_gc4仍运行。
-3. ellipse_cont：恒周长圆到椭圆1/.3，L1/1.1，J9/m12，接受metric1e−4只供设计；ellipse_phi仅换自由场到偏心角基，所有材料导数/尾对应保留。轴比改变时同系数不表示同场。目标固定后须重新同g精化。
-4. inward_fixed：真实端盘±.30，固定g，16controls/m12/128角；Cartesian+signed。inward_gc4保持同g/同规模，改S9桥及准确四阶Cauchy初值，比较material/ellipse基；不把设计g允许a3非零的情况强锁成零三阶。
-5. **43591099281 / sourcee04482e**三lane已成功：closed_design闭合约1e−16，但九项L2=.13276/.04521/.09978；相对FD在近零系数上不可靠，已改绝对步长并重跑。space_star60候选有52条由连续曲率严格排除；余8条未合格，.65/.12,h=.30的3条样本有希望，冻结后32768区间精查。ruled_tail真实metric=.99991、κsample≈121895，失败，不机械加密。新request将联跑修正closed+quartic，并做6模lift全角优化。
-6. R11证明原R44核心自身相位比≤.04627；完整像若强制C6则≤.25882。当前BVP不强制全C6，先作连接方法试验，不无限加密小幅结果。正推新ψ=θ+u sin3θ+v sin6θ的准确闭合C3 ruled核心，连续区间/投影脚本已随R12提交并请求Actions计算。R44新固定参考精确保留入口.01段，再.04局部过渡，末.03开平领；metric未知数0，控制c=.17934855056978544，数值半径闭合1.6e−15，边界二jet2.2e−16，Jac3.55e−11。未优化metric1.701，圆参考κmax20.04不是reach合格面。代码`ruled_core_to_tail_bvp.py`，warm只许同fixed_metric_identity。
-7. 最简单space-star h=.2、mix0谷底κ已给reach/D≤.02002而否决。mixed lift保留对称，可准确消谷/尖挠率，但全κ、J、非局部距离需实际筛。矩形宽度J>0只保浸入，不是reach。
+1. **43588985133/source9deb869**：codedesign三条周期非零且轴未闭，详见旧审计。ellipse_cont两长度只有圆形t=0获接受；最小非圆步t=.0078125仍metric=.001258/.000621。inward_fixed Cartesian metric=.99686、κsample≈4679.9；signed阶段40分钟超时且无已保存结果，不算数学排除。对比审计正在写。
+2. **43590239302/sourcebcf0043**：star_core已成功；.60/.09真填充域预算比≥.33486562，.65/.12≥.34524838，仅为整面遵守包络时的条件。ellipse_phi已成功，正与material基实际结果比对；inward_gc4尚待回执。不能将设计g或轴比变化算同问题精化。
+3. **43591099281/sourcee04482e**三lane已完成并审计：closed_design闭合约1e−16、九项L2=.13276/.04521/.09978；相对FD近零参数问题已修。space_star60候选有52条由连续曲率严格排除；余8条未合格。ruled_tail真实metric=.99991、κsample≈121895，失败，不机械加密。详见各actual-audit notes。
+4. **43592270686/sourceb461bd8**：closed_quartic已完成，修正闭合搜索q3/2/4九项L2=.014604/.032439/.010420，均非零；q3/2完整残差方向Jac差.0698/.3441，须分开平滑项与hinge切换。双根正/负形状L2=.97255/.11321，正首项门失败，负标准指数率一负一正；见`notes/literature-closed-quartic-actual-audit-20261114.md`。star_lift已完成待审；space_refine冻结三组候选/宽度作32768片连续核验仍跑。
+5. R11原R44核心自身相位比≤.04627；完整像若强制C6则≤.25882。不再机械加密其失败连接。R12新C3核心 u=.6/.8/1/1.2,v=0,b=1,w=.05 已由sourcee67604a请求warped_core；只把真实曲率/投影预算合格者送连接器，tube证书亦已准备。
+6. R13局部C∞复相位开启已证明；三局部矩常数未实现全局尾段。正编写公开Actions的实际Green/Volterra解与有限外延验证；不把形式诊断或局部J当全球profile。
 
 ## 已失败路径，避免重做
 
