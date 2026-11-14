@@ -8,7 +8,89 @@
   "workflow_commit": "bd26144de9d95099725264586586f7b956644d0b",
   "worker_source_sha256": "c0654466f3451b38f469c00f7286a0f450db0bd52cc62973f72838ac1528e411",
   "started_utc": "2026-11-14T16:05:14.768003+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete_Z_source_plan",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_mixed_Z_source_cover.py",
+        "--phase",
+        "plan",
+        "--out",
+        "/__w/_temp/visible-exact-full-Z-output/native/complete-Z-source-plan.json.gz",
+        "--body",
+        "/__w/_temp/visible-exact-full-Z-body-mean/native/complete-correlated-body-and-mean-errors.json.gz",
+        "--body-process",
+        "/__w/_temp/visible-exact-full-Z-body-mean/process.json",
+        "--repair-source",
+        "/__w/_temp/visible-exact-full-Z-repair/native/complete-known-response-centre-repair-source.json.gz",
+        "--repair-process",
+        "/__w/_temp/visible-exact-full-Z-repair/process.json",
+        "--pilot",
+        "/__w/_temp/visible-exact-full-Z-completed-pilot/native/exact-bump-and-continuous-Z-source-pilot.json.gz",
+        "--pilot-process",
+        "/__w/_temp/visible-exact-full-Z-completed-pilot/process.json",
+        "--original-manifest",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-pinned-inputs.json",
+        "--candidate",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-full.json",
+        "--object",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--direction",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+        "--parts",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0000-native.json.gz",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-body-CI-original-left1-257-native.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-00257-00477.json.gz",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row0477-native.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-00478-00734.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-00734-00990.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-00990-01000.json.gz",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row1000-native.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-257-1200-43583838026-1/native/rows-01001-01200.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-1200-2133-43583838026-1/native/rows-01200-01456.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-1200-2133-43583838026-1/native/rows-01456-01712.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-1200-2133-43583838026-1/native/rows-01712-01968.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-1200-2133-43583838026-1/native/rows-01968-02133.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02133-02389.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02389-02645.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02645-02901.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-2133-3066-43583838026-1/native/rows-02901-03066.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03066-03322.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03322-03578.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03578-03834.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-3066-4000-43583838026-1/native/rows-03834-04000.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-4000-5000-43583838026-1/native/rows-04000-04256.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-4000-5000-43583838026-1/native/rows-04256-04512.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-4000-5000-43583838026-1/native/rows-04512-04768.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-4000-5000-43583838026-1/native/rows-04768-05000.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-5000-6000-43583838026-1/native/rows-05000-05256.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-5000-6000-43583838026-1/native/rows-05256-05512.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-5000-6000-43583838026-1/native/rows-05512-05768.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-5000-6000-43583838026-1/native/rows-05768-06000.json.gz",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row6000-native.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6001-6860-43583838026-1/native/rows-06001-06257.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6001-6860-43583838026-1/native/rows-06257-06513.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6001-6860-43583838026-1/native/rows-06513-06769.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6001-6860-43583838026-1/native/rows-06769-06860.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-06860-07116.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-07116-07372.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-07372-07628.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-07628-07719.json.gz",
+        "/__w/_temp/visible-exact-full-Z-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-correlated-body-row7719-native.json.gz",
+        "/__w/_temp/visible-exact-full-Z-original-rows/visible-exact-body-rows-6860-7721-43583838026-1/native/rows-07720-07721.json.gz",
+        "--resume",
+        "/__w/_temp/visible-exact-full-Z-original-successful-plan/native/complete-Z-source-plan.json.gz"
+      ],
+      "started_utc": "2026-11-14T16:05:22.983420+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 10.000703998000006,
+      "finished_utc": "2026-11-14T16:05:32.984679+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T16:05:15.901614+00:00",
@@ -25,9 +107,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:05:33.388955+00:00",
+      "before": "180dd306556566bfa18a0eb627e6a8f961969382",
+      "after": "efd115cf58ce876c0a9288695221370101a921dd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T16:05:22.980844+00:00",
+      "final": false,
+      "commit": "efd115cf58ce876c0a9288695221370101a921dd"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -61,7 +157,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "180dd306556566bfa18a0eb627e6a8f961969382",
+  "last_read_commit": "efd115cf58ce876c0a9288695221370101a921dd",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-full-Z-work/science",
   "actual_common_input_sha256": {
     "body": "a4f31dccc4b54661b43fc06bac59b6afbb4fa2d6d19614f68f71e044be6e5870",
@@ -128,8 +224,8 @@
   },
   "original_completed_plan_native_sha256": "26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a",
   "original_completed_plan_consumed_without_recomputing_any_baseline_row": true,
-  "snapshot_utc": "2026-11-14T16:05:21.183652+00:00",
-  "wall_seconds": 6.416402219999981,
+  "snapshot_utc": "2026-11-14T16:05:34.138928+00:00",
+  "wall_seconds": 19.37168124499999,
   "native_files": [
     {
       "logical_file": "evidence/original-body-process.json",
@@ -268,6 +364,13 @@
       "file": "evidence/original-successful-plan-and-failed-summary-receipt.json",
       "bytes": 1605,
       "sha256": "526cb9b9702d53a6ffb135556c086ddbda5e84507550ace03b02adce24ad7b0c"
+    },
+    {
+      "logical_file": "native/complete-Z-source-plan.json.gz",
+      "lossless_manifest": "native-complete-Z-source-plan.json.gz-26a488b4347e0e30-parts.json",
+      "bytes": 6916980,
+      "sha256": "26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a",
+      "parts": 4
     }
   ]
 }

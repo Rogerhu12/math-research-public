@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a.json.gz",
+  "original_bytes": 6916980,
+  "original_sha256": "26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a",
+  "native_kind": "complete_valid_raw_mean_continuous_Z_baseline_and_exact_bump_assignments_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 7721,
+  "original_source_sha256": "90c90fb1b21806e803e61d5f850b1d8057fcadc577452d3454b05348500a697f",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "parts": [
+    {
+      "file": "native-complete-Z-source-plan.json.gz-26a488b4347e0e30-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "757705f154b7bd5e6258c23c2dd49af0e9c9aaa6b162dceff7d400cd640acbce",
+      "compressed_bytes": 1931222,
+      "compressed_sha256": "d54cf06658d55a6219d3f5d00d5f9107e121daab0fe61b366f10bd34212c9b92"
+    },
+    {
+      "file": "native-complete-Z-source-plan.json.gz-26a488b4347e0e30-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "08c71db26f9cf6bbd57e24a78659d6db2b99203d7144e3a4d79a705d6065f602",
+      "compressed_bytes": 1915615,
+      "compressed_sha256": "c3d543d8ac889079296b163290f25c41b2784798abda4b7a57e255b5c565f646"
+    },
+    {
+      "file": "native-complete-Z-source-plan.json.gz-26a488b4347e0e30-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "5f476c6578f87978acda0bdcb3979f438dc770e498bd16e04f66893054f1fbed",
+      "compressed_bytes": 1928599,
+      "compressed_sha256": "6d7688c1ac5cf1e9b807b898ba90e11b056c849e4f260e1fe899f2114e5cceb3"
+    },
+    {
+      "file": "native-complete-Z-source-plan.json.gz-26a488b4347e0e30-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 916980,
+      "sha256": "dd8273bd3529e1e1ce5987fdbd4ccb46959eb148335b5d643d0ed4f64e216fe2",
+      "compressed_bytes": 897299,
+      "compressed_sha256": "2bd6ce954621b063c53d80b87f50beab7ce28db7836c4f9ba7638615faf3c642"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
