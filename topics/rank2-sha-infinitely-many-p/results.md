@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R536：整纤维质量消去与不变三分支carry](results/R536-exact-fibre-mass-compensation-and-invariant-cubic-carry.md)：原七行十列实际λ/κ矩阵有显示整右逆，有限坏集外同一carry返回原π4且原网格质量/logx严格为零、三中央仍v=n。三不交分支平均得到T不变测试，并经原h的W核准确运输；移动Y项及整个补域保留。
+
 - [R535：原三sigma完整Hesse五项与真实混合核](results/R535-original-hesse-tensor-and-complete-mixed-kernel.md)：Norm3 Fourier框架中的全theta型恰五项，原相位与系数完整确定；E深/Kunit/R3deep条件下的五输出核压成四项，给原网格全部高阶中央表达。旧W含E，须保完整五项来源和真实log/单位域，未以七个低矩取代。
 
 - [R534：原三Gauss行、双接触Wronskian与加强支持界](results/R534-original-three-gaussian-wronskian-double-contact-and-sharp-support.md)：新引理对P与VP同时到T≤3s的接触给T≤2AB+B，三条真实Gaussian行支付完整法向误差，未延长低轴ODE。原首核及同一primitive p²核在二次临界至少((3/7)^(1/3)−o(1))N^(1/3)权；原两carry、完整单位与同一修正均保，仍不排全支持核。
