@@ -431,3 +431,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R599：原完整补偿与负五矩的准确深度返回](results/R599-original-complement-and-negative-five-return.md)：同νflat/原Y-W矩形有完整3+6j、5+6j两角级数，相邻深度差准确消负三行，以p4n误差返回原I1。外矩形及内部权差的完整和在新旧q间不变；两原中央0要求两个v=n补项先抵消至3n，未将局部或负矩非零冒中央。
 
 - [R598：原完整Newton导数的中央Euler原函数与准确Stokes条件](results/R598-original-full-newton-derivatives-and-central-euler-stokes.md)：完整原导数准确是唯一大盘解析解的原点常数；中央零初值Euler原函数去Gaussian后延拓，当且仅当原完整导数为零，全部尾保留。未投影两原函数仍有单位非中央行并在同wild域独立，不能删除p依赖中央投影或把非中央非零代原算术。
+
+
+- [R597：原结点临界支的同格整提升与完整低ell第二类](results/R597-original-nodal-critical-lift-and-complete-low-ell-second-class.md)：原三列det−2整解r1ν2结点与指定非垂直支，完整p³保C/B极、全carry及同一第二像。原权帽内进一步选ξ∈w⁷、A∈w⁵，使第三块只读真实z0/z1；补齐低ell基准，指定两像余类非零仍开。

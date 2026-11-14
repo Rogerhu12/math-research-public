@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ca194ccead4869f8548748a3fd792963e49d63b0；2026-11-14 22:13:29 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
+- 最近已读规则提交：9747950462638d7aae5e51445bc72b720a2c4268；2026-11-14 22:20:29 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
@@ -15,15 +15,15 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–596、R598–599已登记；R364仍开，R561/597/600/601/602进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r598.md)、[open](notes/2026-11-14-open-before-r585.md)；
+R1–363、R365–560、R562–599已登记；R364仍开，R561/600/601/602/603进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r597.md)、[open](notes/2026-11-14-open-before-r585.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
 - theta续R601实际外矩形+内部权差的同源补偿；R599已把完整深度差准确接回原I1，未得中央→I1零。
 - literature续R600原非齐次pole约束与九来源真前缀/Bockstein；R596已付同R40完整重建和全D强化矩阵，未把模p核当真核。
-- deep续R597：R593已付26carry完整延长、同R三块第二forcing和两像充要；继续真实z0/z1与前两块同像，R561仍开。
+- deep续R603：R597已付r1ν2原结点整临界支及低ell全部第二类；继续同一真实z0/z1与全两像。原深前缀右逆的定量应用作同篇增补，不重复R412。
 - root续R602真实Gaussian余项整窗/全半径与原下一中央Bockstein；R598已付完整Newton导数的准确中央Euler解析条件。
 
 ## 固定曲线、普通规范与不可删的旧支线
@@ -78,7 +78,7 @@ R586全部Euler共振与指定c4/c1指标、R589全D的v(r_n)≥−Q−1_{Q+6r�
 R537–555真Schur/分歧像、全部原列仿射类、一般二重/t除法和S³/H尾带未关闭。
 
 R577/578低ell同格临界/整低行右逆及全核保正文；R593模p³原M提升 iff 同R先Dψ+S=G+（原两jet各延十三行），再H_P(R)∈im Dψ短。r=ell真两jet，(2,1)保Qquad最高行−2λγ；26carry、13自由行/整个U0保留。
-同R的Z+∈w^s、Z∈w^(s−r)，第二块S(η0Z)全消；第三块只读真实z0/z1及固定形状修正，全部L0/L1保两位（R593(29–35)）。固定Z末项单位在完成式内抵消，指定两像余类未证非零；一般二重/t除法、r1ν2和两连接仍开。
+同R的Z+∈w^s、Z∈w^(s−r)，第二块S(η0Z)全消；第三块只读真实z0/z1及固定形状修正，全部L0/L1保两位（R593(29–35)）。固定Z末项单位在完成式内抵消，指定两像余类未证非零；一般二重/t除法和两连接仍开。r1ν2原临界基准现由R597付清。
 
 R580/588实际wild域、七塔独立及任意原P全非线性坏半径S/闭S非Tate保正文。[长塔增补](notes/2026-11-14-r588-fixed-long-tower-kummer-addendum.md)在p>12m+31推广全部固定塔/无Dirac子格，原七塔p>19保持。域投影不改整格/Smith/中央。
 
@@ -86,20 +86,16 @@ R590原q6全even42/1638保现ray；μ6C只留B⊗νflat，νflat=(f1⊗Σ−f3�
 
 [2026文献](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)保逐p二次单位、高度/受限秩假设；未新增固定来源的无穷非消失输入。
 
-R591共同K,H,C和单位分母递推保正文；c4/c1为b^(s−1)乘KC/KH³同次系数，下一共振单位不替代目标。
-
-R592 Ψ5真同态的九像与两c同零五行收益保正文；Ψ6必须保相邻g_(s−2)与原一次行的全乘法缺陷。Ψ杀S/T不付c零桥，完整高行现接R596。
-
-[原addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)：12bc4/5=RP−14cp/5、12bc1/5=RB+cp/5；两c0恰要求RP/RB为对应单位，不能删内部卷积或用首pole常数冒非零。
-
-R595原A34/A72的KC/H²完整留数/connection保正文；两a=M(c4,c1)+R，detM=−266084/15单位，R只用K≤N−2。原中央同零只迫c=−M^-1R，不迫c0。
+R591/592/595两forcing的KC/KH³、完整S/T留数connection、原ε五阶同态和第六乘法缺陷保正文及完整前检。a=M c+R，detM=−266084/15单位，但R只用K≤N−2且不消失；中央同零仅c=−M^-1R。[addition整卷积](notes/2026-11-14-inert-addition-regular-carries.md)保12bc4/5=RP−14cp/5、12bc1/5=RB+cp/5，首pole单位不排实际补偿。
 
 R594新q̃保持旧q定义；9×20整右逆保M0..5=0,L4=1,a600=0,LB=2αΔ，只删固定D594有限素因子。原ρ/B/差的同Dn首项αΔ(1−βκ),2αΔ,−αΔ(1+βκ)，均v=n，B质量不设0。六网格准确降为R_n={Zunit,Q/r/c/d深n}，积分β5n{2d_pαΔκn/b+p2nO}；整个中央还含Funit外矩形。测试差仅全π4零，旧η/L3局部值不移新q。
 
-R596从唯一R40首pole单位行重建K≤N−1，再由qN=−hp/3得kN=2hp/5+6E/5。全部两c/两原a因此有同pole非线性公式；a34=a72=0 iff L=36AS−17AT=0、B=5AS/34+E=−hp/3，最高visible系数76024/5单位，低残差不删。真实Cauchy成本达t_n的compositions重建九来源全部D/n<ps的Mhat=p^t_n r_n modp；原W40²的高行不由J²0杀。真前缀需原整核，非任意P Bockstein或modp核提升；与三块M不混同。
+R596唯一R40首pole完整重建两c/两原a；中央首行同零 iff L=36AS−17AT=0、B=5AS/34+E=−hp/3，最高visible系数76024/5单位，低残差不删。全真实Cauchy进位给九来源所有D/n<ps的强化矩阵；真核不等modp核，与三块M不混同。
 
 [有限F^p边界](notes/2026-11-14-finite-frobenius-power-and-true-prefix.md)：真前缀k≥s时F^p在原n<ps目标已0；k<s本来整。该有限幂整性不付新饱和层。
 
 R599同矩形未附权R_n=β4n d_p(c3Ω3κ3n I3+c5Ω5κ5n I1)+p9nO，全两角级数保正文。c5=(4312960+1031168ω)/117649单位（109已被原mod64排），相邻D_n=R_n+1−β4κ3R_n除d_p c5Ω5β4(n+1)κ^(5n+3)(κ²−1)以p4n误差回原I1。完整E_n=β^-n(O_n+K_n)=T−R_n在新旧q间不变；T=J′S−6δJ′T。两中央0时O/K各v=n，先抵消至3n再差读取I1，不能删补项或赋负矩零。
 
 R598原A_m(m34/72)、固定U_m=∫A_m dz/z、d=p+1、X=z^d，H_m=dE^-mΠ0U_m准确=−j_m e^-mcX+R_m，R_m∈T_{ρ^d}唯一且R_m(0)=完整j_m=J′_m(0)。所以j0 iff该中央零初值H延拓ρ（亦iff闭S Tate）。未投影U各有r6单位Stokes，两U在K_R独立但不排中央同零；Π0是p依赖真实z旋转，未赋原同预算列操作。全部尾/物理缩放保正文。
+
+R597补齐r1ν2：同原三列node矩阵det−2，整分裂结点支ψ、A/B∈w²、C∈w；完整p³留C/B一阶极和两条十三行。原t³Y…t⁸Y及常权t…t⁴可选ξ∈w⁷、A∈w⁵，整个第三块a(z0+z1w)。全部低ell相对首核现有同格整基准与同R两像充要；z0/z1仍真实高续段，指定余类未证非零。
