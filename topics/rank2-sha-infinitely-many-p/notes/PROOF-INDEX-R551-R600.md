@@ -65,3 +65,6 @@
 
 
 - [R574：真实九坐标惰性全jet包络与积分分母成本](../results/R574-nine-coordinate-inert-envelope-and-primitive-denominator-cost.md)：七个V的真实短分母段在任意原混合乘积中损失至多Γp(6k,min(D,k))；与原高度二Gauss合并，对全部D/k和同一饱和前缀给惰性3klogk+3klogmin(D,k)+O(k+D)。新增成本保留，严格门/条件cutoff均未当实际改善。
+
+
+- [R576：原两单sigma完整深补项与三线单位余域](../results/R576-original-single-sigma-complements-and-three-line-domain.md)：两个完整正交框架支付同一qℓ的所有c/d深补项与双参数首层，原log质量/第七矩均保；全算术分区只余c,d,u全unit的真实三线混合行，保完整两低度张量和四输入伴随，未由局部单位赋中央非零。

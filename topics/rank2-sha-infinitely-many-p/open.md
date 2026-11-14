@@ -190,7 +190,8 @@ R560完整π5、两个不交strip、全部Y/W对数和S14第六质量校正按[�
 
 ### R567：两完整条带的同一首层与五sigma消元
 
-[R567：原正负完整首两行与同一五sigma来源消元](results/R567-native-both-strips-and-exact-five-sigma-normal-jets.md)：两个完整条带合为β^(n+1)(χF++F−)/(bΩ6)；真实H/R1转置各消一个原sigma输入，同一五sigma的S10/S7条件行、全部第七矩及第六矩质量修正精确付清。首层判据C0/p+λ²C1保原log质量/实际cut，非零仍未付。 **待做：** 判残差C0/p+λ²C1及R567(34)整个uunit/c,ddeep补偿；残差即使非零也不能排原中央同时零，把两套T10/T7实际伴随和R562四unit/R565规范Cartier行进行合法同源比较。原未加权边际零只付sigma消元，不删带D的常数log行；第七矩24bΩ7与S7/S10质量项全保。
+R567首两条带、C0/p真log质量、S10/S7条件行与全部第七矩/质量修正保[完整前检](notes/2026-11-14-open-before-r576.md)及正文。**待做：** 与R576整个三线单位行/单深和共同深补项的真实比较；任何局部非零都不能直接排原中央同时零。
+
 
 ### 真乘子低角尾带
 
@@ -198,11 +199,12 @@ R560完整π5、两个不交strip、全部Y/W对数和S14第六质量校正按[�
 
 ### R569：原完整五维卷积单位与实际四unit行
 
-[R569：原五sigma真实六度边际、完整卷积单位与四unit桥](results/R569-original-five-sigma-convolution-unit-and-four-unit-bridge.md)：三C共轭给(D4,d)=(ω²/84)f4⊗σ；明确正权使完整五/六维测度整可逆，所有混合cut保真实平移。R562四unit回同一ν5的显式单位行，并与原完整S/T行各自运输到同一词域；测试尚未等价。 **待做：** 同一个完整来源/词域的G单位测试与q_nℓ原算术测试之间的真实关系；全向量平移不自动保算术零，四unit里t不能置零，T7/T10不正交；完整边际分别−F5/84、−G5/42，其他Λ_j总质量零不使条件测度零。R567局部残差及其整个补域仍须同时保留。
+R569完整五/六维卷积单位、(D4,d)边际、T7/T10条件总质量和全向量平移保[完整前检](notes/2026-11-14-open-before-r576.md)及正文。**待做：** 同一完整来源中单位G与原qℓ测试的关系；平移不自动保算术零，四unit内t不置零，T7/T10不正交，总质量零不使条件测度零。
+
 
 ### R570：两指定负矩的整个非exact Cartier配对
 
-[R570：两指定负矩的全局三极点Cartier线与显式原函数](results/R570-original-global-negative-moment-cartier-lines-and-polynomial-primitives.md)：原固定二/三挠全theta平移给P_i(0)=−2ba_i、P_i(−b)=3ba_i，完整C(P_i dlogτ)=−a_iΨ_b精确读取两原负矩首层；零值等价显示degree≤p−1多项式原函数，b17完整单位尺度保持，未赋联合非零。 **待做：** 由同一原P_i、规范C(R_iω)=0和两条全局原函数的真实约束排除a4/a1同时零，或证明实际p进负矩不同时零；首层零不等p进零。原函数依赖p且degree可达p−1，不据此调用R418饱和jet或有界原函数结论。
+R570全三极点Cartier线及degree≤p−1原函数保[完整前检](notes/2026-11-14-open-before-r576.md)及正文。**待做：** 联立真实P_i、规范Cartier-zero与两原函数排a4/a1同零，或证明原p进I4/I1非同时零。首层零不等p进零，p依赖原函数不是固定有界来源。
 
 
 ### 完整六尾与首 Bockstein 剪切
@@ -211,12 +213,12 @@ ell≥3、后三尾在原kerJ上被真首像吸收时，完整C1剪切保持同�
 
 ### R571：整个cd共同深补项及全部尾部
 
-[R571：原共同深补域的全部深度、双sigma消元与完整首层](results/R571-original-common-deep-complement-and-two-sigma-tail.md)：原In,m保q/carry/κ^-n，完整D/P/Z*与D4/c/d两套真矩形给统一H(s,t)；两个σ精确积分使H=st²K1+s²t²O，全部深度与环带尾保持。全算术首层另含3λ4K1及整个uunit补项，不据局部非零收尾。 **待做：** 原K1中E*/A*unit和四sigma条件权的实际比较，以及全uunit行Un；两者与C0/p的log质量都不能删。β^-nUn独立n只是完整身份，不给其零值。源多项式内原λ/κ系数固定，不随H的分析变量变动。
+R571整个In,m、双sigma精确st²K1与全n/m尾部保[完整前检](notes/2026-11-14-open-before-r576.md)及正文；R576总分区内共同深项的系数为−1。**待做：** K1真实E*/A*单位条件与新三线余域、两单深补项的共同arith比较；所有原log质量/κ^-n均保。
 
 
 ### R573：全六挠的两个原来源商与局部交叉值
 
-[R573：全六挠jet、原两负矩局部交叉行及两个完整theta商](results/R573-original-six-torsion-jets-and-two-complete-theta-quotients.md)：保全E6 canonical相位，type5缺失付DR4/D⁴R1全零，a4零强迫P4与L3P1同有degree12因子；两全商同在S6(p−13)且质量单位。原P1′精确读a4，联合零时P1原点恰二重并有degree8因子，仍不构成非消失。 **待做：** 将这些全因子与原D²/D⁵、规范Cartier-zero及r/N实际除子联立，保b17的b^s尺度、原两p进负矩和E6p deck边界；不能把固定degree降低、单位质量或下一Taylor项非零当原指定两项非零。
+R573全E6相位、degree12/8强制因子、两个完整S6(p−13)商及局部交叉值保[完整前检](notes/2026-11-14-open-before-r576.md)及正文。**待做：** 全因子与原D²/D⁵、规范Cartier-zero和r/N实际除子联立；保b17尺度及E6p边界，固定降度/商质量单位/下一Taylor项不等两指定负矩非零。
 
 
 ### 低ell实际可见核的最近二支
@@ -226,7 +228,7 @@ ell≥3、后三尾在原kerJ上被真首像吸收时，完整C1剪切保持同�
 
 ### R572：原完整C来源与简单极点单位测试
 
-[R572：完整原C分离、简单极点单位行与真实arith比较](results/R572-original-c-splitting-and-simple-pole-unit.md)：全三sigma恒等式给µ0=σc⊗(BvΛB+σv³ΛP)，五次g5对全部(c,v)测试准确抽原σ⊗B。原四unit的简单极点φ积分由4−11β及两完整深尾为单位；原S/T中央精确回ΛB五输入，原q共同支、三carry补支与carry外余域全保。 **待做：** 式(29)同一原来源上全部真实测试差与混合补域；φ是明确log比导数加正一权，仍不是原Y/W中央。全g5提取只对(c,v)测试成立，原A0依赖Z/Q/r、q含v与κ^-n，不能删去这些条件；单位行不赋两指定负矩或原中央非零。
+R572全ΛB/ΛP、原五变量arith式、g5对(c,v)测试的提取和简单极点单位保[完整前检](notes/2026-11-14-open-before-r576.md)及正文。**待做：** 式(29)全部同源测试差与混合cut；R576支付c/d单深后仍保原A0(Z,Q,r)、q的v/carry与两独立Y/W单位条件，单位φ不赋中央非零。
 
 
 ### R577：同预算临界基准与完整首forcing
@@ -246,3 +248,7 @@ ell≥3、后三尾在原kerJ上被真首像吸收时，完整C1剪切保持同�
 ### R574：九坐标实际惰性成本
 
 [R574：真实九坐标惰性全jet包络与积分分母成本](results/R574-nine-coordinate-inert-envelope-and-primitive-denominator-cost.md)：七个V的真实短分母段在任意原混合乘积中损失至多Γp(6k,min(D,k))；与原高度二Gauss合并，对全部D/k和同一饱和前缀给惰性3klogk+3klogmin(D,k)+O(k+D)。新增成本保留，严格门/条件cutoff均未当实际改善。 **待做：** 同一普通全饱和3klogD的独立证明，以及原算术条件下同一九格的惰性严格增益；若普通界成立，门为aI+9bI<21，当前(3,3)未过。条件性全jet cutoff须实际支付，原M的有限低行不自动扩大到这九个坐标。
+
+### R576：原两单sigma完整深补项与三线单位余域
+
+[R576：原两单sigma完整深补项与三线单位余域](results/R576-original-single-sigma-complements-and-three-line-domain.md)：两个完整正交框架支付同一qℓ的所有c/d深补项与双参数首层，原log质量/第七矩均保；全算术分区只余c,d,u全unit的真实三线混合行，保完整两低度张量和四输入伴随，未由局部单位赋中央非零。 **待做：** 同一真实三线余域的全部qℓ及其Rc转置与Nn、Cc/Cd/In的比较；先支付Udeep/Vdeep并域，再保剩余五线域。完整总行共同深项为−In，首层−3λ4K1；不得将β^-n独立n当新的消失关系。
