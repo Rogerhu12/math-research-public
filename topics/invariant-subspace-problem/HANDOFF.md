@@ -4,7 +4,7 @@
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
 - **最近成功实际 pull 与已读规则提交：** `a9dc6616687171e7b1a6c9f798e24e6cdcc59d3a`（2026-11-14 19:54:08 UTC，Actions run43634577798/job132568455969实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `fc2a95daf3a5f68154dc0c1f2b208c96a8704ca2`（2026-11-14 19:56:45 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最新规则读取（GitHub API，非实际pull）：** `c4f0063bf2129c93622af81d3001878c246f5caa`（2026-11-14 19:59:03 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -25,7 +25,7 @@
 - [真核Fock重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)：v=Σ_(j<d)(−A_m)^j(a0*)^jP0v/(S^(j/2)j!)，精确正范数和；原头carry给logC_m=O(m logm)，Γ/C≤Ξ=T*P0T≤Γ，实际零模像Z_A闭不可扩大。[占据矩/旋转](notes/2026-11-14-true-kernel-collective-occupation-moments-and-one-bit-rotation-789f-next.md)给EN0≤k0、EN0²≤k0²、四次指数尾，k0=max(2m,16)。旧核加真空的旋转硬核距离≤√3 k0θ²||v||/2；仍欠新核交集/总强度变化。
 - [同测试滑动切口](notes/2026-11-14-transverse-kernel-cuts-and-same-test-sliding-budget-789f-next.md)：固定真核Σ||(R_q−P_q)v||²=EN0；正交核增量/Fourier区间mask给Σ||(R_q−P_q)P_K_(q+w)f||²≤k0(1+logw)²||f||²，原w=d为O(m³)。QhcR_qk保整个≤q前缀，碰撞块≤√(2S)，原残量总平方≤2S同预算；同窗选点成，精确右链/高返回仍开。
 - [left+bare完整一位](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)：商(z,w)=(Q_hu+aR_hP_hv,Q_hv)，度量diag((I+a²RR*)⁻¹,I)，offdiag A_hw=w+R_(h−1)P_(h−1)Dw。Khat=Q(P′−PR_d)+R_bare P，保q/q−1切口和实际B_a，(L+B)⁻¹=B_a Gjoint⁻¹B_a*。固定低孔增量/反馈新left+bare能量≤a²c_s²，非旧欧氏源界。
-- 普通右须保同源G与LGL；新的full-to-bare规范和正高返回E_ret尚在写入主线，不能假设两取商次序交换。旧R239全孔联合gap/实际尾稳定已完整存在、log损失O(m logm)，不重复登记，不替受限逆。
+- **[普通完整右与高返回](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)：** 固定q+d层有界右逆/闭实际源已付。full→bare的J_a=(Qx+aR_hP_hy,Qy)保真实规范抵消；G_a=Bbare(Hbare+E_ret)⁻¹Bbare*，B_a⁻¹=Bbare Hbare⁻¹Bbare*，E_ret=Hret*(I−Π_Tfull kerJ)Hret。原flat仍LGL。E_ret是硬核像/横向旗角度，头预算不能删；旧R271四头反例限定该外推，非原连续尾反例。R239联合gap不替受限逆。
 
 ## R150：真实饱和与当前执行
 

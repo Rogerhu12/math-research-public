@@ -186,3 +186,8 @@
 ### R150七个增广第二方向：完整初值连续入口已冻结
 
 [执行入口](notes/2026-11-14-r150-augmented-seven-second-actions-entry-789f.md)和[完整接口](notes/2026-11-14-r150-augmented-seven-second-interface-789f.md)冻结35输入/四批恢复，只新增七δ2，六编译各30秒、共享数学300秒/512MiB。原mod31⁵逐系数核K4的p4整除；完整相关像覆盖全部A+初值，真实CRT谱投影及源费用保全，部分正列也继续AX=31²h0原17式；6/9乘p复用。仅记录源码/执行请求，不是新的数值完成；实际结果按回执与完整保存证书登记。
+
+
+### 同一加位源的完整右、bare与真实高返回Schur
+
+[完整证明](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)以原有限孔层有界幂右逆证明共同自然域、实际边界源满射与高零源像闭；不假设全孔D†有界。完整右Gram保持q/q−1两切口；full→bare规范J_a=(Qx+aR_hP_hy,Qy)中的R_d项在两个真实首源规范之间抵消，非直接投影为零。固定bare首源的真实最小完整能量是Hbare+E_ret，E_ret=Hret*(I−Π_Tfull kerJ)Hret≥0，故G=Bbare(Hbare+E_ret)⁻¹Bbare*、B⁻¹=Bbare Hbare⁻¹Bbare*。原flat次序LGL保留；高返回是硬核像与横向次数≥q+2的交集角度。旧四头实际例排仅凭头重构常数支付该角度，未排原连续尾/实际规范源。E_ret在原同窗源上的预算继续。
