@@ -432,3 +432,7 @@ request11仅coupling112banded，独立backend0780dcc4…/wrapper390387db…按�
 ### 2026-11-14 11:55 UTC — observe actual complete-band run and preserve its executable contract
 
 request11已实际启动run43592195185/source4f0af15c（11:54:08Z），完整带LU说明登记了原矩阵/右端精确行置换、全部带宽/内存计数、残差校正符号及冻结源SHA。当前无新的成功声明；继续看真实因子/原残差/原trial/新H，保持同run全链。H压缩已归档旧史，当前真输入及规则已读记录保留。
+
+### 2026-11-14 11:57 UTC — complete whole-image Hausdorff dispatch for the new full field
+
+独立full_state_held_hausdorff只替旧A路径派发并绑定新producer/packet互指SHA、五闭文件/五actual/完整节点/规范形/SE2/均值；原全活动块与两完整帽盘距离、整面D和.2判据直接复用，reach未全过也可合法读幅度见证。AST/源接口已核，未重解BVP/尾/空间对、无新幅度数值。新run43592195185仍在带LU solve。

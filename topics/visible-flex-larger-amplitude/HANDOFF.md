@@ -39,7 +39,7 @@ R248已证有限C²相位强连续（无需C³）、准确反射三parity、全t
 R249已证独立共享节点入口规范形：只将首节点完整z值/XY一导/z二导置零，变化限首单元，精确反射C²；完整cut九jet/mean/H/SE2不变。给有理Bernstein/材料角九jet差及operator/曲率代价；实际修补预算待成功场Actions，不改accepted。inlet_parity_normal_form支持v3/v4及复用complete-4尾读出；新plan须新heights，不能混旧网格。
 R250证明完整正密度对称换角的连续P及偶数N>4M精确DFT非mean方块det>0；不给条件数或全DN可逆，不能把数值小奇异值直接称精确投影丢维。
 R251直接operator证书：原φ中两Loewner矩阵四正性；同g的a²上下包络、Bernstein/全角Taylor及次数账完整。K=M行列式带宽8M、DFT N>16M。完整scalar见piecewise-envelopes note：prefix415五次+bump六次；turn48/bridge64原有限Gauss和，bridge实际7.5而port旧tag8，均不换g；无新数值通过。
-full_state_continuous_cover已接真正v3/v4完整位置/法向及R249同一definition，恢复已记录唯一SE2；R241空间门逐字保留，完整文件SHA链锁定。K/metric/误差包络仍外部条件，未数值运行；CLI见其interface note。旧held定位硬编码A，消费新packet还须独立路径适配。
+full_state_continuous_cover已接v3/v4完整位置/法向、R249同一definition和记录SE2，R241门逐字保留。full_state_held_hausdorff已补新packet实际路径/五闭文件/五actual/SHA互锁，原整活动块+完整帽盘距离、D与.2门不变；无需reach先过才读held。两接口均未新数值，K/metric/误差封套仍条件；各interface note给CLI。
 R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9246片只付共享C²规范形，不自动付全seam/δE；R246旧.984三分量<1e−6、直接operator仅<2e−6。新场均须自己的输入。
 旧Aκ8.3455143峰在prefix、tail≈8非新尾必要界；Gauss样点仅约3.965尺度。W/D/K窗口、一次尾帽高度和G不等于整面witness，见tail-curvature-and-diameter-design-window note。
 
