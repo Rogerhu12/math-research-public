@@ -1,0 +1,114 @@
+{
+  "format": "R599 exact full original five-input low-depth return; rational CM pairs [a,b] mean a+b*omega",
+  "normalization": {
+    "b": "17",
+    "beta": "-lambda",
+    "kappa": "p*lambda^2",
+    "dp": "p-1",
+    "flat_factor": "1/42",
+    "negative_five": "I1=integral_{Z unit} Z^(-5) dnu_f1",
+    "negative_three": "I3=integral_{Z unit} Z^(-3) dnu_f3, not assumed zero",
+    "four_deep_core": "beta^(4n)"
+  },
+  "observations": {
+    "az": [
+      "-1",
+      "1/2"
+    ],
+    "aq": [
+      "2",
+      "3/2"
+    ],
+    "deepY": [
+      [
+        "2",
+        "3/2"
+      ],
+      [
+        "2",
+        "4"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ]
+    ],
+    "deepW": [
+      [
+        "2",
+        "3/2"
+      ],
+      [
+        "2",
+        "4"
+      ],
+      [
+        "3",
+        "6"
+      ],
+      [
+        "4",
+        "0"
+      ]
+    ]
+  },
+  "exact_coefficients": {
+    "b3": [
+      "76",
+      "8"
+    ],
+    "a5": [
+      "103",
+      "269"
+    ],
+    "m3_without_Omega3": [
+      "456",
+      "48"
+    ],
+    "m5_without_Omega5": [
+      "12360",
+      "32280"
+    ],
+    "c3": [
+      "10400/7203",
+      "11008/7203"
+    ],
+    "c5": [
+      "4312960/117649",
+      "1031168/117649"
+    ]
+  },
+  "norms": {
+    "az": "7/4",
+    "aq": "13/4",
+    "b3": "5232",
+    "a5": "55263",
+    "c3": "111616/50421",
+    "c5": "905428992/823543"
+  },
+  "full_series": {
+    "Sigma_channel": "A5(t)=Sigma(aq*t)*sigma(2delta*t)*(sigma(t)*sigma(2t)-sigma(3delta*t)*sigma(4t)); support 5 mod6",
+    "Theta_channel": "B3(t)=Theta(aq*t)*sigma(2delta*t)*(sigma(t)*sigma(2t)-sigma(3delta*t)*sigma(4t)); support 3 mod6",
+    "range": "all original Z-unit negative powers retained; both actual Y/W unit conditions automatic only on the stated rectangle",
+    "moment_tail_bound": "v_p(coefficient at t^m after log)>=-v_p(m)",
+    "source_depth": "R_n=beta^(4n)*dp*(c3*Omega^3*kappa^(3n)*I3+c5*Omega^5*kappa^(5n)*I1)+p^(9n)O"
+  },
+  "complete_compensation": {
+    "O_n": "integral_{Funit outside rectangle} Wtilde_n*ell dnu_flat",
+    "K_n": "integral_rectangle (Wtilde_n-beta^n)*ell dnu_flat",
+    "E_n": "beta^(-n)*(O_n+K_n)=T-R_n",
+    "T": "Jprime_S-6delta*Jprime_T",
+    "B_n": "(1-beta^4*kappa^3)*T-E_(n+1)+beta^4*kappa^3*E_n",
+    "identity": "B_n=R_(n+1)-beta^4*kappa^3*R_n",
+    "negative_five_return": "B_n/[dp*c5*Omega^5*beta^(4(n+1))*kappa^(5n+3)*(kappa^2-1)] = I1 + p^(4n)O",
+    "exact_limit": "the displayed quotient tends to I1 as n tends to infinity",
+    "zero_case": "if I1=0 then v_p(B_n)>=9n+3; T is not assumed zero unless both original central rows are set zero",
+    "q_invariance": "E_n is unchanged between old q6 and new qtilde; O_n and K_n individually need not be unchanged"
+  },
+  "new_bad_primes": "none; only 2,3,7,13,109 appear in coefficient norms; 109 violates existing p=7 mod64 ray",
+  "assertions": "all exact CM coefficients, two full lowest tensor moments, and coefficient norms passed"
+}

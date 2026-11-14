@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：db6d728f30ee2d0c9ea62c96c622d8d85d2354b2；2026-11-14 22:05:04 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
+- 最近已读规则提交：a379d830740a3cffba39093b67ddaf8f3055952a；2026-11-14 22:05:55 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
@@ -15,13 +15,13 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–596已登记；R364仍开，R561/597/598/599/600进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-prefix-compact.md)、[open](notes/2026-11-14-open-before-r585.md)；
+R1–363、R365–560、R562–596、R599已登记；R364仍开，R561/597/598/600/601进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r599.md)、[open](notes/2026-11-14-open-before-r585.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
 
-- theta续R599新q的真实Zunit矩形外全部补偿/原负矩；R594已付9×20整右逆、两个来源同Dn非零和完整六网格下降。
+- theta续R601实际外矩形+内部权差的同源补偿；R599已把完整深度差准确接回原I1，未得中央→I1零。
 - literature续R600原非齐次pole约束与九来源真前缀/Bockstein；R596已付同R40完整重建和全D强化矩阵，未把模p核当真核。
 - deep续R597：R593已付26carry完整延长、同R三块第二forcing和两像充要；继续真实z0/z1与前两块同像，R561仍开。
 - root续R598原完整Newton失败与真实同参数/全部高行；R595已付原四行固定单位比较和全部低K残差，未赋非零。
@@ -99,3 +99,5 @@ R594新q̃保持旧q定义；9×20整右逆保M0..5=0,L4=1,a600=0,LB=2αΔ，只
 R596从唯一R40首pole单位行重建K≤N−1，再由qN=−hp/3得kN=2hp/5+6E/5。全部两c/两原a因此有同pole非线性公式；a34=a72=0 iff L=36AS−17AT=0、B=5AS/34+E=−hp/3，最高visible系数76024/5单位，低残差不删。真实Cauchy成本达t_n的compositions重建九来源全部D/n<ps的Mhat=p^t_n r_n modp；原W40²的高行不由J²0杀。真前缀需原整核，非任意P Bockstein或modp核提升；与三块M不混同。
 
 [有限F^p边界](notes/2026-11-14-finite-frobenius-power-and-true-prefix.md)：真前缀k≥s时F^p在原n<ps目标已0；k<s本来整。该有限幂整性不付新饱和层。
+
+R599同矩形未附权R_n=β4n d_p(c3Ω3κ3n I3+c5Ω5κ5n I1)+p9nO，全两角级数保正文。c5=(4312960+1031168ω)/117649单位（109已被原mod64排），相邻D_n=R_n+1−β4κ3R_n除d_p c5Ω5β4(n+1)κ^(5n+3)(κ²−1)以p4n误差回原I1。完整E_n=β^-n(O_n+K_n)=T−R_n在新旧q间不变；T=J′S−6δJ′T。两中央0时O/K各v=n，先抵消至3n再差读取I1，不能删补项或赋负矩零。

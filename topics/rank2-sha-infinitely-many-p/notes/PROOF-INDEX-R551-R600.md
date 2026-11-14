@@ -113,3 +113,5 @@
 - [R588固定长塔增补](2026-11-14-r588-fixed-long-tower-kummer-addendum.md)：p>12m+31时，用原y的三次微分方程和degree6m多项式残差支付全部长塔任意常数组合的低非中央单位行；Lüroth含不可分、整个Stokes尾和闭边界全保，全部R4+R1塔在同wild域独立并继承全非线性半径障碍。原七塔p>19不变，未改整格或中央条件。
 
 - [R596：原首极部重建、两中央非齐次约束与全前缀矩阵](../results/R596-original-pole-reconstruction-and-full-prefix-central-constraints.md)：唯一R40首pole经单位线性变元及原log连接完整重建两forcing和原S/T两对角，同时零等价显示L=0、B=−hp/3单位目标。真实Cauchy进位进一步给全部D/n<ps的九来源强化矩阵模p，保原列和真前缀；未把非线性观测添列、平方零相乘或模p核当可提升核。
+
+- [R599：原完整补偿与负五矩的准确深度返回](../results/R599-original-complement-and-negative-five-return.md)：同νflat/原Y-W矩形有完整3+6j、5+6j两角级数，相邻深度差准确消负三行，以p4n误差返回原I1。外矩形及内部权差的完整和在新旧q间不变；两原中央0要求两个v=n补项先抵消至3n，未将局部或负矩非零冒中央。
