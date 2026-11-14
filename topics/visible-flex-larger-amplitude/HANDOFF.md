@@ -21,11 +21,12 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀RMS域：request20已实降，下一三行方向待调度
+### 前缀RMS域：22三行实降后，准备同模型全角方向诊断
 
-request17/run43598917532的3步warm仍非解，warm003 SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；原col=.007110547307/新FD9.5171e−10。request18/run43602070499的λ270/LSMR200在80步istop2，仅α2^-16下降1.63517e−5；新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3，新FD9.00098e−10。原回执与source全在actual18/17 notes，不重复。
-R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。request20/trustprotected真run43603477207/source2501ebf6/job132473033066全success；完整artifact14117605862/ZIP0cee357c…已取。473/index0梯度complex3.7179e−13，投影伴随2.048e−18，Bz−8.88e−16；λ270/LSMR200仍80步istop2。预条件normal2.6137e−5但未预条件projected KKT344.921，勿称方向高精度；R263已证λ²强凸后验界，供内层精度判断而非新接受门。原collocation独立complex仅free core/global p方向，内部physical为0。
-20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；22实际run43604874829/sourcefb32e240/14:26:31Z，trustmultiline job132477286177运行中。所有原域/merit/最终门保留，不只加模型数或λ。
+17原三步warm、18λ270/80次istop2仅α2^-16、20单点保护α2^-10均未BVP接受，完整真实源/回执在actual17/18/20 notes。R262完整Hermite域梯度/两端RHS/p/入口chart链和λP伴随已证；R263区分原r与C^-1r并给λ²强凸后验界，非新接受门。
+22/trustmultiline实际run43604874829/sourcefb32e240/job132477286177：原699/fullM112/T112/N2048；三条(473,0)/(480,0)/(473,11)、左fraction.17267316464601146均实梯度≤1.062e−12，归一SVD rank3，原行leak≤1.400e−17。λ270/上限200仍80次istop2，预条件normal2.60323e−5但projected KKT340.3776；不能冒内层高精度。
+同模型merit44.44622147747905→44.44413160763212，α2^-9、下降.00208986984693、ratio1.0003776，原全域通过。原col=.007110543370039259/BC9.578466474387895e−8仍非解；新warm SHA03ca9477cbb759cdbf07117f2540aa51dbe07545985c957289d0f0a3079f4be8，新真实完整Rφ FD8.17330e−10/原5e−5门；全112项Hmax9.1434e−16保留/native0。原件已取补出版，完整artifact14117443482/ZIP01f26518…；note actual-request22-multiline-tangent-and-angular-domain-limit。
+三个被保护点在所有trial自身β均正且略增；α2^-8仅480/index11 β−.016338，2^-7仅480的phi3.0740975 β−.05954；2^-6是473/475/477/479/480五处左RMS，≥2^-4另有原mid坏点。不能只追第四角点。amplitude写独立全角方向probe，锁同模型base20 warm0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71和22真实保存direction/model；在5处原N2048输出全部β/Dβ、线性first-exit和已试α整角margin，复用完整局部链不新解LSMR/BVP/native；据真结果再定全角约束/域余量恢复。
 
 ### Native冷启动：22已过工厂，仅私有深处下溢保护拒绝
 
@@ -33,7 +34,7 @@ R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降
 19/run43602823170实际原无J576stage全guard过，norm13414069.968482966；最坏stage11/raw0/seg7/Pi104，而cut/far全112行0。saved与cold initial129248项数值相等；完整actual-cold-tail-no-J-stage-replay已推，不重跑。
 21/run43603818345工厂在stage12/index92的合并det检查失败，evaluate0；summary SHA0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481。旧件未留T，不反填v2值为v1观测。
 22/zerorkprobev2实际run43604874829/sourcefb32e240/job132477286262：全部576stage工厂成功，41个有限rounded det0；该12/92在本次明确ad=bc=−3400707242096343。2.451s预测在261→262第112模因Q=−5e−324/u275.8821411118115→0，被私有underflow veto拒；candidate=false/evaluate0，无新norm/J/audit。1427完整事件/块已取，artifact14118131680/ZIPf885ff4f…，summary SHA4d09183f4afd7838d80ad707042e52bd2212d8ae846ad15ce2c25a1754634ea7。publisher仅因lane漏白名单失败，root补救全部原产物并修两lane，不重算。
-原native initial本就允许普通有限binary64舍入为0，该veto是新初猜器自加。独立v3三源已读/AST并接request23/zerorkprobev3，保cut全部H/模式/far/graphs/gains/scales/域/容差，只记录并允许真实深处乘除underflow；非finite/零u仍拒。候选完整才原noJ，不自动Newton；R264完整误差账已登记，不添科学门。22三行warm/新FD已真success，原件已取待紧凑登记。
+原native initial本就允许普通有限binary64舍入为0，该veto是新初猜器自加。23实际run43605912092/sourceac0fcc22/14:38:23Z，zerorkprobev3已排队，保cut全部H/模式/far/graphs/gains/scales/域/容差，只记录并允许真实深处乘除underflow；非finite/零u仍拒。候选完整才原noJ，不自动Newton；R264完整误差账已登记，不添科学门。22三行warm/新FD已真success并补出版。
 
 ## 之后的完整闭合与同g精化
 

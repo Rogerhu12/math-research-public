@@ -1,0 +1,1954 @@
+{
+  "scope": "Run the original complete Rphi affine FD on a real three-query domain-tangent warm.\n\nOnly the optimizer producer schema and provenance wrapper differ.  The\noriginal boundary directions, three centered levels, Richardson estimator\nand 5e-5 gate are executed unchanged.  The entire real zero-H J is held\nexplicitly affine; this is not a native solve at the saved field's new H.\n",
+  "direct_boundary": {
+    "directions": [
+      {
+        "direction": "core-angle-1",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.150224360202401e-11,
+            "relative_error": 1.150224360202401e-11,
+            "finite_response_max": 0.40000000001150227
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 1.150224360202401e-11,
+            "relative_error": 1.150224360202401e-11,
+            "finite_response_max": 0.40000000001150227
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.150224360202401e-11,
+            "relative_error": 1.150224360202401e-11,
+            "finite_response_max": 0.40000000001150227
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.150224360202401e-11,
+            "relative_error": 1.150224360202401e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.150224360202401e-11,
+            "relative_error": 1.150224360202401e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 1.0,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 1.0,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.4
+      },
+      {
+        "direction": "core-angle-32",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.569407771058115e-12,
+            "relative_error": 1.569407771058115e-12,
+            "finite_response_max": 0.015621186233829631
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 4.000689048707512e-12,
+            "relative_error": 4.000689048707512e-12,
+            "finite_response_max": 0.015621186233829631
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 6.0849332300313974e-12,
+            "relative_error": 6.0849332300313974e-12,
+            "finite_response_max": 0.015621186233829631
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 5.032375124253141e-12,
+            "relative_error": 5.032375124253141e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.776740406154059e-12,
+            "relative_error": 7.776740406154059e-12
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.39228436700551317,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.6574746011940823,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.015621186233829631
+      },
+      {
+        "direction": "core-angle-112",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.2783955980331832e-12,
+            "relative_error": 1.2783955980331832e-12,
+            "finite_response_max": 0.004464196743527911
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 3.6089538848419877e-12,
+            "relative_error": 3.6089538848419877e-12,
+            "finite_response_max": 0.004464196743527911
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 9.195612556019128e-12,
+            "relative_error": 9.195612556019128e-12,
+            "finite_response_max": 0.004464196743527911
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 4.389918262210453e-12,
+            "relative_error": 4.389918262210453e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.2104323696890396e-11,
+            "relative_error": 1.2104323696890396e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.35422885379682695,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.39246476108649136,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.004464196743527911
+      },
+      {
+        "direction": "radial-mean",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 8.20098847356121e-05,
+            "relative_error": 1.9505023216163656e-06,
+            "finite_response_max": 42.045595174639494
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 2.0503352608614023e-05,
+            "relative_error": 4.876465439861117e-07,
+            "finite_response_max": 42.04553893362906
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 5.103917949611514e-06,
+            "relative_error": 1.2139029145268064e-07,
+            "finite_response_max": 42.0455248501617
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.1752376849472057e-09,
+            "relative_error": 2.7951555356169816e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 2.9943592494419136e-08,
+            "relative_error": 7.121708177762748e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.9998280428127395,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.017179118283953,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 42.04552018561617
+      },
+      {
+        "direction": "tangent-first",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0009843429012192928,
+            "relative_error": 9.883433369545607e-06,
+            "finite_response_max": 99.5962225981016
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.00024608689020055863,
+            "relative_error": 2.470870038685902e-06,
+            "finite_response_max": 99.59548434209059
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 6.146067094903174e-05,
+            "relative_error": 6.171045124822778e-07,
+            "finite_response_max": 99.59529971587133
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.0742675193853302e-08,
+            "relative_error": 1.0786334148151276e-10
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 8.14021348105598e-08,
+            "relative_error": 8.173295855970239e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.999981065293897,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.003973376806026,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 99.59523825520039
+      },
+      {
+        "direction": "height-first",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 3.530908898596863e-10,
+            "relative_error": 1.954878491296228e-10,
+            "finite_response_max": 1.8062037691418893
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 2.1971996444491992e-10,
+            "relative_error": 1.216473845508826e-10,
+            "finite_response_max": 1.806203769025229
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 4.349103533904386e-10,
+            "relative_error": 2.40786981454794e-10,
+            "finite_response_max": 1.8062037686209302
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 2.9344260701891223e-10,
+            "relative_error": 1.6246373309691507e-10
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 5.613452671443531e-10,
+            "relative_error": 3.107873412898045e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 1.6070041279667155,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.5052074817995134,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 1.8062037688366048
+      },
+      {
+        "direction": "height-last",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 2.7109993396834398e-06,
+            "relative_error": 6.310246663499081e-08,
+            "finite_response_max": 42.96186274992481
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 6.776348229209361e-07,
+            "relative_error": 1.577293958657672e-08,
+            "finite_response_max": 42.961860716560295
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.692031617039902e-07,
+            "relative_error": 3.938450559419079e-09,
+            "finite_response_max": 42.961860208128634
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 3.0736009917764484e-10,
+            "relative_error": 7.154254934473556e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.861371692508001e-10,
+            "relative_error": 1.8298490068598584e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 4.0006789025359,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.004859106039719,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 42.96186003892547
+      },
+      {
+        "direction": "cut-fixed-scalar-control-0",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      },
+      {
+        "direction": "cut-fixed-scalar-control-1",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      },
+      {
+        "direction": "cut-fixed-scalar-control-2",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      }
+    ],
+    "finite_difference_definition": "Centered h, h/2, h/4 plus (4*D(h/2)-D(h))/3 at two consecutive levels",
+    "second_order_truncation_contracts": true
+  },
+  "separated_boundary": {
+    "directions": [
+      {
+        "direction": "right-constant-core-1",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.342678247230611e-12,
+            "relative_error": 1.342678247230611e-12,
+            "finite_response_max": 0.002502354436387396
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 2.084121612268286e-12,
+            "relative_error": 2.084121612268286e-12,
+            "finite_response_max": 0.002502354436109569
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 5.709969823353145e-12,
+            "relative_error": 5.709969823353145e-12,
+            "finite_response_max": 0.002502354436522921
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 2.9420954062754634e-12,
+            "relative_error": 2.9420954062754634e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.762048165674273e-12,
+            "relative_error": 7.762048165674273e-12
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.6442417943976342,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.3649969573822368,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0025023544376865554
+      },
+      {
+        "direction": "right-constant-core-32",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.569407771058115e-12,
+            "relative_error": 1.569407771058115e-12,
+            "finite_response_max": 0.0006157969133968784
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 4.000689048707512e-12,
+            "relative_error": 4.000689048707512e-12,
+            "finite_response_max": 0.0006157969153721592
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 6.0849332300313974e-12,
+            "relative_error": 6.0849332300313974e-12,
+            "finite_response_max": 0.0006157969204475806
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 5.032375124253141e-12,
+            "relative_error": 5.032375124253141e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.776740406154059e-12,
+            "relative_error": 7.776740406154059e-12
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.39228436700551317,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.6574746011940823,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0006157969143626474
+      },
+      {
+        "direction": "right-constant-core-112",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.2783955980331832e-12,
+            "relative_error": 1.2783955980331832e-12,
+            "finite_response_max": 3.5872799039742844e-05
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 3.6089538848419877e-12,
+            "relative_error": 3.6089538848419877e-12,
+            "finite_response_max": 3.587279703566289e-05
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 9.195612556019128e-12,
+            "relative_error": 9.195612556019128e-12,
+            "finite_response_max": 3.5872802348253536e-05
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 4.389918262210453e-12,
+            "relative_error": 4.389918262210453e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.2104323696890396e-11,
+            "relative_error": 1.2104323696890396e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.35422885379682695,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.39246476108649136,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 3.587279922345417e-05
+      },
+      {
+        "direction": "radial-mean",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 8.20098847356121e-05,
+            "relative_error": 1.9505023216163656e-06,
+            "finite_response_max": 42.045595174639494
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 2.0503352608614023e-05,
+            "relative_error": 4.876465439861117e-07,
+            "finite_response_max": 42.04553893362906
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 5.103917949611514e-06,
+            "relative_error": 1.2139029145268064e-07,
+            "finite_response_max": 42.0455248501617
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.1752376849472057e-09,
+            "relative_error": 2.7951555356169816e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 2.9943592494419136e-08,
+            "relative_error": 7.121708177762748e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.9998280428127395,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.017179118283953,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 42.04552018561617
+      },
+      {
+        "direction": "tangent-first",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0009843429012192928,
+            "relative_error": 9.883433369545607e-06,
+            "finite_response_max": 99.5962225981016
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.00024608689020055863,
+            "relative_error": 2.470870038685902e-06,
+            "finite_response_max": 99.59548434209059
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 6.146067094903174e-05,
+            "relative_error": 6.171045124822778e-07,
+            "finite_response_max": 99.59529971587133
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.0742675193853302e-08,
+            "relative_error": 1.0786334148151276e-10
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 8.14021348105598e-08,
+            "relative_error": 8.173295855970239e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.999981065293897,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.003973376806026,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 99.59523825520039
+      },
+      {
+        "direction": "height-first",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 3.530908898596863e-10,
+            "relative_error": 1.954878491296228e-10,
+            "finite_response_max": 1.8062037691418893
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 2.1971996444491992e-10,
+            "relative_error": 1.216473845508826e-10,
+            "finite_response_max": 1.806203769025229
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 4.349103533904386e-10,
+            "relative_error": 2.40786981454794e-10,
+            "finite_response_max": 1.8062037686209302
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 2.9344260701891223e-10,
+            "relative_error": 1.6246373309691507e-10
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 5.613452671443531e-10,
+            "relative_error": 3.107873412898045e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 1.6070041279667155,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.5052074817995134,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 1.8062037688366048
+      },
+      {
+        "direction": "height-last",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 2.7109993396834398e-06,
+            "relative_error": 6.310246663499081e-08,
+            "finite_response_max": 42.96186274992481
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 6.776348229209361e-07,
+            "relative_error": 1.577293958657672e-08,
+            "finite_response_max": 42.961860716560295
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.692031617039902e-07,
+            "relative_error": 3.938450559419079e-09,
+            "finite_response_max": 42.961860208128634
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 3.0736009917764484e-10,
+            "relative_error": 7.154254934473556e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.861371692508001e-10,
+            "relative_error": 1.8298490068598584e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 4.0006789025359,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.004859106039719,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 42.96186003892547
+      },
+      {
+        "direction": "right-scalar-control-0",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      },
+      {
+        "direction": "right-scalar-control-1",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      },
+      {
+        "direction": "right-scalar-control-2",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      }
+    ],
+    "finite_difference_definition": "Centered h, h/2, h/4 plus (4*D(h/2)-D(h))/3 at two consecutive levels",
+    "second_order_truncation_contracts": true,
+    "right_rows_depend_only_on_right_endpoint": true,
+    "left_right_jacobian_offblock_max": 0.0
+  },
+  "maximum_relative_directional_error": 8.173295855970239e-10,
+  "maximum_fourth_order_relative_directional_error": 8.173295855970239e-10,
+  "maximum_second_order_relative_directional_error": 9.883433369545607e-06,
+  "second_order_truncation_contracts": true,
+  "verification_threshold": 5e-05,
+  "verification_estimator": "two fourth-order Richardson levels",
+  "implementation_check_passed": true,
+  "physical_test_schema": "complete-physical-angle-Galerkin-DN-test-v1",
+  "physical_test": {
+    "schema": "complete-physical-angle-Galerkin-DN-test-v1",
+    "source_sha256": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "formula": "R_phi = Z_nonmean f - cut_scale S(c) D(epsilon_h P(c) z_nonmean)",
+    "native_height_formula": "H=epsilon_h P(c) z_nonmean; unchanged full material trace",
+    "material_angles": 4096,
+    "physical_angles": 4096,
+    "field_modes": 112,
+    "tail_modes": 112,
+    "right_rows": 112,
+    "height_sign": -1,
+    "radial_sign": -1,
+    "cut_scale": 0.996815278536125,
+    "quadrature": "Independent fixed uniform theta and phi cosine sums; no quadrature-error certificate",
+    "original_material_test_equivalent_at_finite_modes": false,
+    "all_physical_core_scalar_columns_retained": true,
+    "original_true_tail_and_complete_native_J_retained": true
+  },
+  "lifted_modes_implementation": {
+    "scalar_schema": "complete-prefix-controls-independent-field-modes-v3",
+    "field_schema": "finite-rotating-phi-fourier-full-state-v1",
+    "source_prefix_M": 96,
+    "field_modes": 112,
+    "tail_modes": 112,
+    "angular_quadrature": 2048,
+    "original_accepted_source_relabelled": false,
+    "adapter_source_sha256": "c216d2a857670fc859c5edb567d10336482d617c984e2ad00793d271104fd5f7",
+    "profile_source_sha256": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "original_boundary_check_source_sha256": "38d21971b3b0d462f8cf1b8f0a1cd174a28db3dcba450e89d0d0baecc5e26e74",
+    "original_RHS_source_sha256": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e"
+  },
+  "accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+  "prepared_sha256": "03ca9477cbb759cdbf07117f2540aa51dbe07545985c957289d0f0a3079f4be8",
+  "tail_anchor_sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+  "tail_config_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+  "source_sha256": "dd2f5bfd41b6f28e8a35c6baa676ba77f42c5828544a0e0e7a60ae05d0eb7f77",
+  "consumed_source_sha256": {
+    "geometry_20261114_constrained_trust_response.py": "7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78",
+    "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+    "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+    "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "geometry_20261114_physical_test_response.py": "83ce387778fb90209e841fc841a81ed3d99e15181d6e86210ec1244fde017e79",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+    "geometry_20261114_full_dn_response.py": "38d21971b3b0d462f8cf1b8f0a1cd174a28db3dcba450e89d0d0baecc5e26e74",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+    "geometry_20261114_multiline_tangent_response.py": "dd2f5bfd41b6f28e8a35c6baa676ba77f42c5828544a0e0e7a60ae05d0eb7f77",
+    "geometry_20261114_multiline_tangent_warm.py": "84318d97b5ce05282890710f71ffe0794896c2e88c498e8618a41625884aa359",
+    "geometry_20261114_protected_tangent_warm.py": "b126ba6a203cbf97c4c9658abe70e9bf38ad259b2eab89bfed4c6e03f4d97fad",
+    "geometry_20261114_hermite_domain_constraints.py": "d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce"
+  },
+  "optimization_warm": {
+    "schema": "exact-constraint-Hermite-multiline-tangent-positive-damping-warm-v1",
+    "source_prepared_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "source_accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "actual_zero_anchor_sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "actual_tail_config_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+    "source_sha256": {
+      "geometry_20261114_multiline_tangent_warm.py": "84318d97b5ce05282890710f71ffe0794896c2e88c498e8618a41625884aa359",
+      "geometry_20261114_protected_tangent_warm.py": "b126ba6a203cbf97c4c9658abe70e9bf38ad259b2eab89bfed4c6e03f4d97fad",
+      "geometry_20261114_hermite_domain_constraints.py": "d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce",
+      "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+      "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+      "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+      "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+      "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+      "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+      "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+      "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+    },
+    "resume_sha256": "0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71",
+    "resume_producer": {
+      "schema": "exact-constraint-Hermite-domain-tangent-positive-damping-warm-v1",
+      "source_prepared_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+      "source_accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+      "actual_zero_anchor_sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+      "actual_tail_config_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "source_sha256": {
+        "geometry_20261114_protected_tangent_warm.py": "b126ba6a203cbf97c4c9658abe70e9bf38ad259b2eab89bfed4c6e03f4d97fad",
+        "geometry_20261114_hermite_domain_constraints.py": "d9e004c827add0074c2e6dd6c854763c7157e5049cd5360c1f85ad440462f4ce",
+        "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+        "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+        "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+        "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+        "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+        "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+        "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+        "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+        "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+      },
+      "resume_sha256": "1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3",
+      "resume_producer": {
+        "schema": "exact-constraint-physical-DN-positive-damping-warm-v1",
+        "source_prepared_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+        "source_accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+        "actual_zero_anchor_sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+        "actual_tail_config_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+        "source_sha256": {
+          "geometry_20261114_constrained_trust_warm.py": "5378b7d732dc768f154849a1138ea59a2571f1128cc507932d38d4f8bfb115f2",
+          "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8",
+          "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+          "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+          "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+          "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+          "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+          "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+          "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+        },
+        "original_input_file_rewritten": false,
+        "original_mesh_and_all_modes_retained": true,
+        "original_final_numerical_acceptance_unchanged": true,
+        "finite_boundary_scheme": "physical-phi-complete-DN-v1",
+        "constant_core_and_controls_exact": true,
+        "left_boundary_exact_by_coordinates": true,
+        "nonlinear_tail_at_new_H_computed": false,
+        "original_zero_J_held_explicitly_affine": true,
+        "no_ready_linear_graph_used": true,
+        "merit": "0.5*||Wr R_original||^2 with Wr frozen throughout each model and its trials",
+        "row_weights": "physical collocation: 1/(h*(1+abs(original fmid))); right: 1e-6/1e-11",
+        "damping_model": "min ||A z + Wr R||^2 + damping^2 ||z||^2; q_trial=q+alpha*(z/S)",
+        "LSMR_right_preconditioning": "Exact diagonal column norms of [A; damping I]; no normal equations",
+        "coordinates": {
+          "physical_rows": 338,
+          "nodes": 699,
+          "fixed_core_modes": 3,
+          "free_core_modes": 109,
+          "global_controls": 3,
+          "dimension": 236036,
+          "exact_left_and_constant_rows_by_construction": true,
+          "scale_definition": "r/t: (1+2j)^2; z: 1+(2j)^2; core: sqrt(wr_j^2+(2j*wt_j)^2); controls: sampled max of their 0/1/2 scalar jets, at least 1",
+          "scale_is_an_optimization_penalty_not_a_geometric_C2_certificate": true,
+          "core_scale_includes_inlet_tangent_cubic_frequency_cost": true,
+          "minimum_scale": 1.0,
+          "maximum_scale": 11340113.00166912
+        },
+        "input_constraint_projection_max": 0.0,
+        "resume_sha256": "5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886",
+        "iteration": 0,
+        "actual_fixed_weight_merit": 44.4471605914814,
+        "actual_native_height": [
+          4.628395870853208e-17,
+          2.9515030917586234e-17,
+          1.7356659037223088e-17,
+          9.282461362128218e-18,
+          4.5378630063215044e-18,
+          2.137815850349348e-18,
+          1.0630263632750345e-18,
+          5.897831938235426e-19,
+          3.451055909704263e-19,
+          1.8218364852811294e-19,
+          6.03589691061945e-20,
+          -2.4183598575896405e-20,
+          -7.006954870338356e-20,
+          -8.229456981389879e-20,
+          -7.350564751010222e-20,
+          -6.061973177190348e-20,
+          -5.922151126285876e-20,
+          -7.912985511778497e-20,
+          -1.1486528034874217e-19,
+          -1.6621193176167804e-19,
+          -1.7439873859071727e-19,
+          -2.6979232960510973e-19,
+          -1.5228899537048292e-19,
+          -4.375505305006416e-19,
+          -2.4785075975981725e-20,
+          -5.7604738057815115e-19,
+          -4.0165786331619e-20,
+          -3.3625666345701514e-19,
+          -3.8724263781505233e-19,
+          -3.8536763994193326e-20,
+          -3.1696784027360553e-19,
+          -3.602850169570432e-19,
+          -8.70825523348244e-20,
+          -2.6315887098838434e-19,
+          -4.733441115283869e-19,
+          -3.1830706366901304e-19,
+          -3.268407731899934e-19,
+          -6.398523599166246e-19,
+          -7.713685883179515e-19,
+          -7.023578648003793e-19,
+          -8.407158532001084e-19,
+          -1.1574383335200088e-18,
+          -1.2853360831295222e-18,
+          -1.2176792291002531e-18,
+          -1.2604329161369355e-18,
+          -1.4550453703543415e-18,
+          -1.5283866163647026e-18,
+          -1.362262344029886e-18,
+          -1.1565605310883624e-18,
+          -1.0882617658303765e-18,
+          -1.0599919858740794e-18,
+          -8.907271438965645e-19,
+          -6.050052223100988e-19,
+          -3.9734629816227723e-19,
+          -3.6295580899235147e-19,
+          -3.851792398605968e-19,
+          -3.0709780632219244e-19,
+          -1.3418625051656026e-19,
+          -1.3203974815048835e-20,
+          -4.0762547958728556e-20,
+          -1.4985404649945032e-19,
+          -1.9776882698304964e-19,
+          -1.3274068606409274e-19,
+          -4.4676207744429794e-20,
+          -5.672568669750306e-20,
+          -1.9021249285559365e-19,
+          -3.472034466937886e-19,
+          -4.1681671032761806e-19,
+          -3.8600934543893152e-19,
+          -3.4494680319708656e-19,
+          -3.916040968254824e-19,
+          -5.354096721699701e-19,
+          -6.896905141977475e-19,
+          -7.519317050368189e-19,
+          -6.924818560809367e-19,
+          -5.7360000057579005e-19,
+          -4.892776481376845e-19,
+          -4.843585050168621e-19,
+          -5.222626546715897e-19,
+          -5.231385042241535e-19,
+          -4.348845399364643e-19,
+          -2.771080481962794e-19,
+          -1.2536855401316688e-19,
+          -5.246138351516905e-20,
+          -7.464827719784214e-20,
+          -1.4263911566643637e-19,
+          -1.8061785210342943e-19,
+          -1.4162331495347118e-19,
+          -3.888870847484761e-20,
+          6.675738393033226e-20,
+          1.1128936005843392e-19,
+          7.1137563402184e-20,
+          -2.293928587370112e-20,
+          -1.085269104588974e-19,
+          -1.3321383889495187e-19,
+          -8.714206009573809e-20,
+          -6.6625014527800905e-21,
+          5.092354821408549e-20,
+          4.381873430739704e-20,
+          -2.95111566746404e-20,
+          -1.3111809421391256e-19,
+          -2.074498176152693e-19,
+          -2.2068226603535724e-19,
+          -1.6900486310798257e-19,
+          -8.52933641544301e-20,
+          -1.665828894242744e-20,
+          2.294172030302055e-21,
+          -3.26181817485171e-20,
+          -9.502029875752267e-20,
+          -1.4427240471425149e-19,
+          -1.4824753361215475e-19,
+          -1.0012778136469227e-19
+        ],
+        "actual_global_scalar_parameters": [
+          -8.111473945558798e-20,
+          2.247104106123805e-20,
+          -7.838061805957672e-20
+        ]
+      },
+      "original_input_file_rewritten": false,
+      "original_mesh_and_all_modes_retained": true,
+      "original_final_numerical_acceptance_unchanged": true,
+      "finite_boundary_scheme": "physical-phi-complete-DN-v1",
+      "constant_core_and_controls_exact": true,
+      "left_boundary_exact_by_coordinates": true,
+      "original_zero_J_held_explicitly_affine": true,
+      "nonlinear_tail_at_new_H_computed": false,
+      "no_ready_linear_graph_used": true,
+      "native_tail_called": false,
+      "merit": "0.5*||Wr R_original||^2 with Wr frozen for the entire model and all trials",
+      "row_weights": "Original physical 1/(h*(1+abs(fmid))); complete right 1e5",
+      "damping_model": "min ||A z+Wr R||^2+damping^2||z||^2 subject to Pz=z",
+      "LSMR_operator": "[A P C^-1; damping P C^-1] with LSMR damp=0",
+      "recovered_scaled_direction": "z=P(solution[0]/C)",
+      "column_preconditioner": "Positive ORIGINAL UNPROJECTED column-norm diagonal; not exact projected norms",
+      "protected_query": {
+        "interval": 473,
+        "fraction": 0.17267316464601146,
+        "angle_index": 0
+      },
+      "protected_query_is_optimizer_only": true,
+      "original_domain_checks_not_replaced": true,
+      "coordinates": {
+        "physical_rows": 338,
+        "nodes": 699,
+        "fixed_core_modes": 3,
+        "free_core_modes": 109,
+        "global_controls": 3,
+        "dimension": 236036,
+        "exact_left_and_constant_rows_by_construction": true,
+        "scale_definition": "r/t: (1+2j)^2; z: 1+(2j)^2; core: sqrt(wr_j^2+(2j*wt_j)^2); controls: sampled max of their 0/1/2 scalar jets, at least 1",
+        "scale_is_an_optimization_penalty_not_a_geometric_C2_certificate": true,
+        "core_scale_includes_inlet_tangent_cubic_frequency_cost": true,
+        "minimum_scale": 1.0,
+        "maximum_scale": 11340113.00166912
+      },
+      "input_constraint_projection_max": 0.0,
+      "iteration": 0,
+      "actual_fixed_weight_merit": 44.446116127468,
+      "actual_native_height": [
+        3.357922268086713e-16,
+        2.1912050121285442e-16,
+        1.3409937312967968e-16,
+        7.616946741477746e-17,
+        4.020743813539487e-17,
+        2.0190623873681033e-17,
+        9.97869979325635e-18,
+        4.970831969468984e-18,
+        2.481066435390089e-18,
+        1.154822333655388e-18,
+        3.7328572102662706e-19,
+        -1.1782704597961523e-19,
+        -4.1333629280335946e-19,
+        -5.607578823679819e-19,
+        -6.123766516507843e-19,
+        -6.378036777662098e-19,
+        -7.0734245346886255e-19,
+        -8.73944684460008e-19,
+        -1.0995748942273787e-18,
+        -1.4357072832947284e-18,
+        -1.4338137570891802e-18,
+        -2.17315145975577e-18,
+        -1.1076373000577896e-18,
+        -3.4947456391207325e-18,
+        9.710966017208577e-20,
+        -4.5922593055695385e-18,
+        7.98267469303899e-21,
+        -2.454477378108096e-18,
+        -2.9521471536993704e-18,
+        1.0635976327557825e-19,
+        -2.19377224697402e-18,
+        -2.594384360139315e-18,
+        -1.159335447147689e-19,
+        -1.40013933792071e-18,
+        -3.1038581110950997e-18,
+        -1.5837205187684803e-18,
+        -1.2450524922911997e-18,
+        -3.551160771329164e-18,
+        -4.3914809078445165e-18,
+        -3.3529748437505162e-18,
+        -3.931109078318787e-18,
+        -6.1649163806360496e-18,
+        -6.97558419786652e-18,
+        -6.089957021328315e-18,
+        -6.074469593799894e-18,
+        -7.516988160998712e-18,
+        -8.23140457641047e-18,
+        -7.068686058707063e-18,
+        -5.568294117854762e-18,
+        -5.30339862325383e-18,
+        -5.595756981387736e-18,
+        -4.854254374858833e-18,
+        -3.0439728448215915e-18,
+        -1.66410162490599e-18,
+        -1.6202179474251179e-18,
+        -2.1117917642822192e-18,
+        -1.8391520626450058e-18,
+        -6.927130165575417e-19,
+        2.2479870190616944e-19,
+        4.937602443041135e-20,
+        -8.287400740223849e-19,
+        -1.3105422321801299e-18,
+        -8.866536797132451e-19,
+        -1.5415838438170886e-19,
+        -7.75390455955804e-20,
+        -9.246616122354148e-19,
+        -2.02809206764618e-18,
+        -2.5273913252309834e-18,
+        -2.240284861081231e-18,
+        -1.787970631352116e-18,
+        -1.9284404173278193e-18,
+        -2.810622592547062e-18,
+        -3.8533367536901945e-18,
+        -4.300465960807857e-18,
+        -3.8906989080726945e-18,
+        -3.042861729854283e-18,
+        -2.4449144861427575e-18,
+        -2.454769278762687e-18,
+        -2.832795552352999e-18,
+        -2.9944047659264384e-18,
+        -2.5274853942917705e-18,
+        -1.53406336793149e-18,
+        -5.39675522509376e-19,
+        -7.577836392446984e-20,
+        -2.805627703780322e-19,
+        -8.16928971451976e-19,
+        -1.1437986470742682e-18,
+        -9.166264502558933e-19,
+        -2.213580291767583e-19,
+        5.09270048657969e-19,
+        8.140195317662971e-19,
+        5.204113080411297e-19,
+        -1.523458058036079e-19,
+        -7.563985964862965e-19,
+        -9.172373635265153e-19,
+        -5.6939295526567665e-19,
+        1.8919658837097893e-20,
+        4.31770505818816e-19,
+        3.7141713651557644e-19,
+        -1.6385691449458853e-19,
+        -8.903203512277283e-19,
+        -1.4175740520888078e-18,
+        -1.4785720794191511e-18,
+        -1.074468940644937e-18,
+        -4.583245594320132e-19,
+        2.0908051832354493e-20,
+        1.167753487919102e-19,
+        -1.8612316449769785e-19,
+        -6.77970630473778e-19,
+        -1.0506850111673217e-18,
+        -1.0693981381188264e-18,
+        -6.948625053282084e-19
+      ],
+      "actual_global_scalar_parameters": [
+        -8.191202082665006e-20,
+        2.2840506533688872e-20,
+        -7.882732556012378e-20
+      ],
+      "protected_query_after": 0.00036049411515548524
+    },
+    "original_input_file_rewritten": false,
+    "original_mesh_and_all_modes_retained": true,
+    "original_final_numerical_acceptance_unchanged": true,
+    "finite_boundary_scheme": "physical-phi-complete-DN-v1",
+    "constant_core_and_controls_exact": true,
+    "left_boundary_exact_by_coordinates": true,
+    "original_zero_J_held_explicitly_affine": true,
+    "nonlinear_tail_at_new_H_computed": false,
+    "no_ready_linear_graph_used": true,
+    "native_tail_called": false,
+    "merit": "0.5*||Wr R_original||^2 with Wr frozen for the entire model and all trials",
+    "row_weights": "Original physical 1/(h*(1+abs(fmid))); complete right 1e5",
+    "damping_model": "min ||A z+Wr R||^2+damping^2||z||^2 subject to Pz=z",
+    "LSMR_operator": "[A P C^-1; damping P C^-1] with LSMR damp=0",
+    "recovered_scaled_direction": "z=P(solution[0]/C)",
+    "column_preconditioner": "Positive ORIGINAL UNPROJECTED column-norm diagonal; not exact projected norms",
+    "protected_queries": [
+      {
+        "interval": 473,
+        "fraction": 0.17267316464601146,
+        "angle_index": 0
+      },
+      {
+        "interval": 480,
+        "fraction": 0.17267316464601146,
+        "angle_index": 0
+      },
+      {
+        "interval": 473,
+        "fraction": 0.17267316464601146,
+        "angle_index": 11
+      }
+    ],
+    "query_selection": "Three actually observed request20 RMS points; no replaced argmin or new scientific gate",
+    "retained_rank_policy": "Original normalized-row SVD threshold 1e-12; record all original rows and their leak",
+    "protected_queries_are_optimizer_only": true,
+    "original_domain_checks_not_replaced": true,
+    "coordinates": {
+      "physical_rows": 338,
+      "nodes": 699,
+      "fixed_core_modes": 3,
+      "free_core_modes": 109,
+      "global_controls": 3,
+      "dimension": 236036,
+      "exact_left_and_constant_rows_by_construction": true,
+      "scale_definition": "r/t: (1+2j)^2; z: 1+(2j)^2; core: sqrt(wr_j^2+(2j*wt_j)^2); controls: sampled max of their 0/1/2 scalar jets, at least 1",
+      "scale_is_an_optimization_penalty_not_a_geometric_C2_certificate": true,
+      "core_scale_includes_inlet_tangent_cubic_frequency_cost": true,
+      "minimum_scale": 1.0,
+      "maximum_scale": 11340113.00166912
+    },
+    "input_constraint_projection_max": 0.0,
+    "iteration": 0,
+    "actual_fixed_weight_merit": 44.44413160763212,
+    "actual_native_height": [
+      9.143401839829385e-16,
+      5.98006519146325e-16,
+      3.673658971415527e-16,
+      2.0980307043087298e-16,
+      1.1146328723858024e-16,
+      5.625203719263879e-17,
+      2.779004270017108e-17,
+      1.3726105404715524e-17,
+      6.752261597855579e-18,
+      3.1016326864229906e-18,
+      1.0012834129598048e-18,
+      -3.0283517231382615e-19,
+      -1.0974938861318884e-18,
+      -1.5151973629601229e-18,
+      -1.6875722172849572e-18,
+      -1.7896574012014634e-18,
+      -2.0011784609434895e-18,
+      -2.4612853483660114e-18,
+      -3.06684348824064e-18,
+      -3.972435427814016e-18,
+      -3.95069827864985e-18,
+      -5.9768097098820695e-18,
+      -3.017453216914443e-18,
+      -9.603917565960272e-18,
+      3.3923363041735243e-19,
+      -1.2617579929184849e-17,
+      1.0278902877449594e-19,
+      -6.687960771816021e-18,
+      -8.077764097018719e-18,
+      3.944327236242006e-19,
+      -5.9450227262019736e-18,
+      -7.059324944339686e-18,
+      -1.754874095786126e-19,
+      -3.6743395892399174e-18,
+      -8.36229846984775e-18,
+      -4.1155142254057665e-18,
+      -3.084573687561111e-18,
+      -9.373952239626139e-18,
+      -1.1631400488742912e-17,
+      -8.65751407876149e-18,
+      -1.0116376825135259e-17,
+      -1.6182008725568673e-17,
+      -1.835782257908336e-17,
+      -1.5839041846990146e-17,
+      -1.5708463409669058e-17,
+      -1.9644922294570798e-17,
+      -2.1639895560294642e-17,
+      -1.848525165115106e-17,
+      -1.439730683430488e-17,
+      -1.3738495183802507e-17,
+      -1.466958442950185e-17,
+      -1.2782389617859106e-17,
+      -7.924001106418479e-18,
+      -4.200760261178791e-18,
+      -4.137021519856793e-18,
+      -5.5653035547963845e-18,
+      -4.902654505415732e-18,
+      -1.8100762268341506e-18,
+      6.992766002133358e-19,
+      2.2829165829669124e-19,
+      -2.1864435096872375e-18,
+      -3.534916643585412e-18,
+      -2.3936461748477344e-18,
+      -3.7352745858638688e-19,
+      -1.2025615750663633e-19,
+      -2.3940509004528372e-18,
+      -5.3891541681772524e-18,
+      -6.7472709268688075e-18,
+      -5.948180637721309e-18,
+      -4.674476728387923e-18,
+      -5.003084127108599e-18,
+      -7.361489880318287e-18,
+      -1.0180076965854104e-17,
+      -1.1396502432223973e-17,
+      -1.028658707130268e-17,
+      -7.981847494573404e-18,
+      -6.357295671321539e-18,
+      -6.396453262613404e-18,
+      -7.45384665232086e-18,
+      -7.93618942011799e-18,
+      -6.711968314077694e-18,
+      -4.048011625608463e-18,
+      -1.369188394607933e-18,
+      -1.2359343034403378e-19,
+      -6.93067762340552e-19,
+      -2.165296394789325e-18,
+      -3.0693570834774064e-18,
+      -2.4659721974688547e-18,
+      -5.863929882398659e-19,
+      1.3933945077873776e-18,
+      2.21832038610735e-18,
+      1.4182911374730857e-18,
+      -4.1089504676280905e-19,
+      -2.05110365754207e-18,
+      -2.484102812228209e-18,
+      -1.5332467890860943e-18,
+      6.991694033494581e-20,
+      1.1927681191593148e-18,
+      1.0260483882351031e-18,
+      -4.323686020063992e-19,
+      -2.407609526768265e-18,
+      -3.836118498242814e-18,
+      -3.992734920270283e-18,
+      -2.884481462214929e-18,
+      -1.2043840263649521e-18,
+      9.542126873470075e-20,
+      3.4510415574838836e-19,
+      -4.932044921935154e-19,
+      -1.843151803229061e-18,
+      -2.8622310480578735e-18,
+      -2.9104113102565026e-18,
+      -1.8836005527820406e-18
+    ],
+    "actual_global_scalar_parameters": [
+      -8.350658826377125e-20,
+      2.3579435748641796e-20,
+      -7.972068201004091e-20
+    ],
+    "protected_queries_after": [
+      0.00036351567002990137,
+      0.006059083167282431,
+      0.027645511696086422
+    ]
+  },
+  "actual_warm_native_height": [
+    9.143401839829385e-16,
+    5.98006519146325e-16,
+    3.673658971415527e-16,
+    2.0980307043087298e-16,
+    1.1146328723858024e-16,
+    5.625203719263879e-17,
+    2.779004270017108e-17,
+    1.3726105404715524e-17,
+    6.752261597855579e-18,
+    3.1016326864229906e-18,
+    1.0012834129598048e-18,
+    -3.0283517231382615e-19,
+    -1.0974938861318884e-18,
+    -1.5151973629601229e-18,
+    -1.6875722172849572e-18,
+    -1.7896574012014634e-18,
+    -2.0011784609434895e-18,
+    -2.4612853483660114e-18,
+    -3.06684348824064e-18,
+    -3.972435427814016e-18,
+    -3.95069827864985e-18,
+    -5.9768097098820695e-18,
+    -3.017453216914443e-18,
+    -9.603917565960272e-18,
+    3.3923363041735243e-19,
+    -1.2617579929184849e-17,
+    1.0278902877449594e-19,
+    -6.687960771816021e-18,
+    -8.077764097018719e-18,
+    3.944327236242006e-19,
+    -5.9450227262019736e-18,
+    -7.059324944339686e-18,
+    -1.754874095786126e-19,
+    -3.6743395892399174e-18,
+    -8.36229846984775e-18,
+    -4.1155142254057665e-18,
+    -3.084573687561111e-18,
+    -9.373952239626139e-18,
+    -1.1631400488742912e-17,
+    -8.65751407876149e-18,
+    -1.0116376825135259e-17,
+    -1.6182008725568673e-17,
+    -1.835782257908336e-17,
+    -1.5839041846990146e-17,
+    -1.5708463409669058e-17,
+    -1.9644922294570798e-17,
+    -2.1639895560294642e-17,
+    -1.848525165115106e-17,
+    -1.439730683430488e-17,
+    -1.3738495183802507e-17,
+    -1.466958442950185e-17,
+    -1.2782389617859106e-17,
+    -7.924001106418479e-18,
+    -4.200760261178791e-18,
+    -4.137021519856793e-18,
+    -5.5653035547963845e-18,
+    -4.902654505415732e-18,
+    -1.8100762268341506e-18,
+    6.992766002133358e-19,
+    2.2829165829669124e-19,
+    -2.1864435096872375e-18,
+    -3.534916643585412e-18,
+    -2.3936461748477344e-18,
+    -3.7352745858638688e-19,
+    -1.2025615750663633e-19,
+    -2.3940509004528372e-18,
+    -5.3891541681772524e-18,
+    -6.7472709268688075e-18,
+    -5.948180637721309e-18,
+    -4.674476728387923e-18,
+    -5.003084127108599e-18,
+    -7.361489880318287e-18,
+    -1.0180076965854104e-17,
+    -1.1396502432223973e-17,
+    -1.028658707130268e-17,
+    -7.981847494573404e-18,
+    -6.357295671321539e-18,
+    -6.396453262613404e-18,
+    -7.45384665232086e-18,
+    -7.93618942011799e-18,
+    -6.711968314077694e-18,
+    -4.048011625608463e-18,
+    -1.369188394607933e-18,
+    -1.2359343034403378e-19,
+    -6.93067762340552e-19,
+    -2.165296394789325e-18,
+    -3.0693570834774064e-18,
+    -2.4659721974688547e-18,
+    -5.863929882398659e-19,
+    1.3933945077873776e-18,
+    2.21832038610735e-18,
+    1.4182911374730857e-18,
+    -4.1089504676280905e-19,
+    -2.05110365754207e-18,
+    -2.484102812228209e-18,
+    -1.5332467890860943e-18,
+    6.991694033494581e-20,
+    1.1927681191593148e-18,
+    1.0260483882351031e-18,
+    -4.323686020063992e-19,
+    -2.407609526768265e-18,
+    -3.836118498242814e-18,
+    -3.992734920270283e-18,
+    -2.884481462214929e-18,
+    -1.2043840263649521e-18,
+    9.542126873470075e-20,
+    3.4510415574838836e-19,
+    -4.932044921935154e-19,
+    -1.843151803229061e-18,
+    -2.8622310480578735e-18,
+    -2.9104113102565026e-18,
+    -1.8836005527820406e-18
+  ],
+  "affine_anchor_native_height": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "current_H_equals_affine_anchor": false,
+  "linear_reference_source": "Full completed real T112 zero-H J held affine at the actual new warm; no actual tail at its new H is asserted",
+  "ready_linear_graph_used": false,
+  "actual_completed_nonlinear_J_reused": true,
+  "nonlinear_DN_evaluated": false,
+  "nonlinear_native_at_current_H_solved": false,
+  "complete_current_warm_boundary_FD_actually_recomputed": true,
+  "old_response_pass_or_warm_SHA_relabelled": false,
+  "full_BVP_solved": false,
+  "full_Cartesian_closed_surface": false,
+  "seconds": 24.10163078100004,
+  "multiline_tangent_response_entry": {
+    "entry_source_sha256": "dd2f5bfd41b6f28e8a35c6baa676ba77f42c5828544a0e0e7a60ae05d0eb7f77",
+    "original_response_source_sha256": "7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78",
+    "optimizer_schema": "exact-constraint-Hermite-multiline-tangent-positive-damping-warm-v1",
+    "original_boundary_FD_recomputed": true,
+    "original_directions_steps_Richardson_and_threshold_unchanged": true,
+    "original_warm_relabelled": false,
+    "new_native_H_solved": false
+  }
+}

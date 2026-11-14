@@ -634,3 +634,8 @@ run43604874829/job132477286262实际工厂全部576stage成功，41个有限roun
 ### 2026-11-14 R264完整舍入账与request23原noJ续接
 
 完整证明直接登记R264：原native初猜允许内部零，actual22拒绝是私有veto；精确binary64局部损失、图舍入传输恒等式、跨节点累计和原far/真正非线性残差的区别均明确。三个78718原源与实际22双source表逐SHA一致，root全文读并修TeX/范数口径。独立v3三源只对真实内部有限乘除underflow记operand/result/±0/双原scale bits后继续，保cut H与所有原门，完整candidate才一次原noJ。request23/zerorkprobev3已接公开push；workflow与publisher名单静态一致，未本地数值、未预设成功。
+
+
+### 2026-11-14 request22三行真实下降与完整角向限制
+
+trustmultiline job132477286177数值warm/新FD/两artifact实际success，只有旧checkout publisher漏lane失败，完整12件原件与清单已补保（artifact14117443482/ZIP01f26518…）。rank3、梯度≤1.062e−12、原行leak≤1.400e−17；λ270/LSMR80 istop2，原KKT340.3776。α2^-9/同模型merit降.00208986985，原col=.007110543370/BC9.57847e−8；新warm03ca9477…/新FD8.17330e−10/native0。三个保护点自身在全trial均正，剩余480的角最小值移动，较大步五处RMS/另有mid失败。下一全角方向probe锁原base20与22真方向，不重解、不只追第四点；完整note已读。
