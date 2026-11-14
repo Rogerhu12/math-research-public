@@ -18,19 +18,14 @@
 ## 环境与恢复
 
 B=/workspace/scratch/ffc1334c1988；R=B/math-research-public；T=R/topics/visible-flex-larger-amplitude；B下root-work/strong-work/exact-work/geometry-work。旧B/math-research只读。9CPU/约9.7GiB无swap，共享tmpfs占用大；BLAS/OMP/MKL=1。exec各自PID命名空间，不能猜PID杀进程；只用原session或owned-child supervisor。
-两clone禁自动repack；旧重复pack安全去重释放27.49GB、唯一对象保留。新仓partial；R235 patch+33件逐SHA转入，见root-work/public-migration-state.json。旧d1aa462cfc02已失，R179–R224多项仅落盘/入队未推，half-positive J/QR/iter2不能冒恢复。
+本轮clone禁自动repack，只保留窄检出。旧d1aa462cfc02已失，R179–R224多项仅落盘/入队未推，half-positive J/QR/iter2不能冒恢复。
 91原源revision869436630c99aa5a68afb55bd8877c826034d117、7A raw已实恢复；其中12源属未迁移私题，Actions仅用MR_TOKEN secret瞬时读，不公开原源。新最终helper已再逐件核91及7raw，8.60s exit0；前次完整恢复494.92s。准备不是科学计算。
 A主SHA917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf；fixed-view cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa。raw在B/strong-work/runtime/topics/visible-flex-larger-amplitude；原recipe可重生。
 
-## 强线当前实际状态
+## 旧A增强线的最后真实状态
 
-唯一接受强解仍A：M32/35参数/2590节点/1280角，原RMS9.9224e−8/BC9.234e−13，完整mean metric6.733e−8/κ8.34551434；全核G=.2506381129，连续prefix D≥3.9767551573，幅度远不足。
-13方向响应实际exit0，8列原全半/后向门全过，7必要gz/13.65MB已推旧仓并随迁移；终端fraction相对差1.53035e−4近原2e−4门，不能松门。全步margin325新H尾已解2.34189e−10，但prefix三步alpha1/16、1/2048、1/512后col .226956/BC7.5173e−6，未接受；原session66087 Ctrl-C130无最终wait4，33恢复件在margin325-full-r3-recovery。
-半步初始H已解1.499603e−9并真full audit exit0/232.18s，完整packet归档。prefix r1在首J195/216批被−9，峰498652KiB/27件恢复；释放Node的r2在≥60批被−9（218.79s/503680KiB/23件）。均无完整J/试步，原因未知。
-**r3 session65701在08:14:31真实−9**（734.56s/峰464276KiB）；原候选/35参数/1280/原门，完整432批J和QR已成：J460075656B/factor851514112B，线性绝对残差7.06e−18，step∞110.16，首Newton试点未返回。无Node、supervisor未收信号，原因未知。恢复目录margin325-half-r{1,2,3}-recovery；原日志loop-margin325-half-actual-r3.log。r4在08:25:33启session28520/log loop-margin325-half-actual-r4.log；自有arena IO逐位实核、radial24/collocation12/新256MiB cache。08:38:57首inner步alpha=.125已接受，merit .0137068→.0129303、col .0795727/BC5.56e−8，仍非prefix接受；第二J中。新iterate0002的H未重解审计，不能套初始H标签。详notes/2026-11-14-strong-resume-r4-live-checkpoint.json及W/r4-first-inner-step-recovery。
-
-真实失败块在s≈1.53–2.05下降段，而非loopκ峰。局部全13方向/1280暖场gap A/full/half=.00967054/.01218569/.01078286，Newton试点才坍塌，不删5–8模。两次真实tail余项full/half约4。默认ramp .08接口逐字复现A，非默认scalar/背景XYZ两jet接缝≤5.55e−16；3新ramp入口仅source prepare，第14响应/非圆场/audit/M40未做，是新全局g设计。
-接受序列driver仅A prepare成功：真接受→原fullmean→同g M40/1536+原比较→新响应。无新M40解。强线待本轮实际结果后可转助新大核心全局profile，不机械重复小步LP。
+唯一完整接受强解仍A：M32/35参数/2590节点/1280角，RMS9.9224e−8、完整mean metric6.733e−8/κ8.34551434；G=.2506381129，prefix D≥3.9767551573，远低于完成幅度。13方向响应完整原门通过；margin325 full尾已解，但prefix未接受。半步r1/r2/r3均被−9，不能冒数学失败；r3完整J/QR已有线性残差7.06e−18，试点未返回。
+r4原arena I/O修复后首inner步alpha=.125接受，merit .0137068→.0129303，col .0795727/BC5.56e−8；仍不是新接受曲面，其新H未完成重解审计。原小包及完整恢复身份已在notes/2026-11-14-strong-resume-r4-live-checkpoint.*和half-third-sigkill-and-page-IO-r1，旧scratch仅只读。后续优先新球大核心主线，不能用A的尾/校验移植给新核心。
 
 ## 原A固定g尾与整闭
 
@@ -52,4 +47,4 @@ R236：λ=6/5全32核准确G≈.96/rho_min>.1661，条件球外保持证明完�
 
 优先新球核心正Gauss匹配及完整闭合；同时消费同半步真实Newton和RK48/源分区精化。接受后立即原审计、锁g精化、全闭/全t几何，并继续增幅。完整证明直接results，数值/失败如实notes；本轮直接公开授权已生效，逐结论普通push并使用本公开仓库Actions。
 
-规则同步记录：2026-11-14T17:11:11+08:00；本轮已实际pull --rebase并完整读取双README于6c3e21dee6a91ed44a251ef1a996bf6b3bb5a654，恢复提交后继续每次pull差异核对。
+规则同步记录：2026-11-14T17:12:33+08:00 实际pull --rebase成功；双README自6c3e21dee6a91ed44a251ef1a996bf6b3bb5a654无变化，已读提交 c2eafa93139e8fc042beffd65de575956135d3f3。
