@@ -1,0 +1,725 @@
+{
+  "kind": "actual32_empty_canonical_same_F_prefixes_before_correlation_aware_endpoint_check_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": 43652855824,
+  "run_attempt": 1,
+  "scientific_source_sha256": "47d69d780b701953561df7eff0d425745577bfbaa9b4a865d8d8cf5c2f9056c6",
+  "worker_sha256": "ba487def164d601a0439632d00f81f2fb2218dba01208691b1c0a90a25de8178",
+  "manifest_sha256": "4bf7688da3465f0c64af98e8ab3d256584d040199513471d360ce5ff904e4ba3",
+  "same_failure": {
+    "type": "ValueError",
+    "message": "the exact same-F triangular endpoint relation failed enclosure"
+  },
+  "actual_new_complete_matrix_cells": 0,
+  "all_original_successful_four_cells_unchanged": true,
+  "original_complete_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
+  "successful_plan_recomputation": 0,
+  "original_targets_or_validator_recomputation": 0,
+  "full_matrix_cover_or_directional_inverse_proved": false,
+  "receipts": [
+    {
+      "group": 0,
+      "first_failed_index": 1,
+      "requested_cells": 190,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-00/process.json",
+        "bytes": 10996,
+        "sha256": "51087bb9c852d98df23251a88d624f79439b48351c69571855a24dbdecd07701"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-00/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "fc6191742afd968fddc759698d9f79661000373a74c1accdbd612eac7ecdf21a"
+      },
+      "native_sha256": "0c63a92b84b2e0de9f46285e4351b3bc87043585642909779a3fd54934377efd",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 25.00110325899999,
+      "true_pull_README_records": 13,
+      "all_README_differences_empty": true,
+      "last_read_commit": "e8f16c43760c0c53969c3723a9c1edafb2ad6331"
+    },
+    {
+      "group": 1,
+      "first_failed_index": 192,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-01/process.json",
+        "bytes": 21707,
+        "sha256": "3fc8ad70a74b9e501a5bff5b288f0c75775f6f5115655e54dcb66d06a488d025"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-01/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "c73e13f3f9522308f361ac2f76d9410bdd00e50c212eb1891e5cc033cb4b13be"
+      },
+      "native_sha256": "dc228ecfc0ede41f5299c405b063233779c8471f1f1a0f302650bf83d1fb61c0",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.00074923599999,
+      "true_pull_README_records": 47,
+      "all_README_differences_empty": true,
+      "last_read_commit": "9cb2143b8508564923346a43d5dfdb7d8eb42883"
+    },
+    {
+      "group": 2,
+      "first_failed_index": 384,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-02/process.json",
+        "bytes": 8604,
+        "sha256": "43e20a2905914c53328edcfd3ac7b9f44312c0d19997783316f98f9232aec3e9"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-02/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "c8a545c6289f47113c33cc0e84709ac87bb07101cd47e03c7de520f203b2750e"
+      },
+      "native_sha256": "07dd9ca60c5076f2a5ab0a4103976ee035371229dabe464974068f7aa7dec6b8",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 20.000787629,
+      "true_pull_README_records": 5,
+      "all_README_differences_empty": true,
+      "last_read_commit": "6472a99883d273f0f6adba240a62b4d59e6b615b"
+    },
+    {
+      "group": 3,
+      "first_failed_index": 576,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-03/process.json",
+        "bytes": 10163,
+        "sha256": "6c3c695360e2ce197a745386b52fadd4ed2d035c3dcb8ac5ae0548d32abea9bf"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-03/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "10729bb8b2b984769ceb69f3cb1aea621cb2e593aea1bdc0d8b1693c9fec412a"
+      },
+      "native_sha256": "c86210e5f09e67f6551992a41fd0feeb0d876e3319deb531e100c2369957d4e3",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.00064685000001,
+      "true_pull_README_records": 10,
+      "all_README_differences_empty": true,
+      "last_read_commit": "e08074dde8c50bcd4837301ea4c55abb1dfc37a5"
+    },
+    {
+      "group": 4,
+      "first_failed_index": 768,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-04/process.json",
+        "bytes": 11106,
+        "sha256": "f44c1681542833d5d8f4c23cc44831fc2ae1409d74dac85fddb424779a3d8b9b"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-04/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "dee0fc46d57c3d7bce78f3db488d3b53180a4684652063e43acb2d29ccdb9268"
+      },
+      "native_sha256": "369ed1fbbeb67457e86890716b8d6a560163e983d506104b52cf9d86f40596e8",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 20.000852389000002,
+      "true_pull_README_records": 13,
+      "all_README_differences_empty": true,
+      "last_read_commit": "45762033613f700c42b05322c8ecc1a2d02750a5"
+    },
+    {
+      "group": 5,
+      "first_failed_index": 960,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-05/process.json",
+        "bytes": 13436,
+        "sha256": "812f0bf2eb9e4e9e11fad08ecc2629d27cb12eda7f8e00efba28648148a78cea"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-05/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "70693baa14f08133f4aca7a27769da91c962e2594277d3131598c4c09d02081c"
+      },
+      "native_sha256": "e34d9b44fec760abdf1ca10dccbeaaaa5e0fa2a19139bce1cd0374992cc5774b",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 10.000748277,
+      "true_pull_README_records": 20,
+      "all_README_differences_empty": true,
+      "last_read_commit": "494158fddd64667429e1469259fe8fd77e4c4b25"
+    },
+    {
+      "group": 6,
+      "first_failed_index": 1152,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-06/process.json",
+        "bytes": 17226,
+        "sha256": "1f88d700e9c132f2ef35549a42296ac2b05caa089e9226cfaa714ab1910e7f04"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-06/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "b393c4761da4eb365e21d6bdbeab931c5284d1d87f96302221407eb74203d7c7"
+      },
+      "native_sha256": "decd50f98dd22a22b218b7f12223987fbb6e640fcbea225f80eab1bac02debc2",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.00069692300002,
+      "true_pull_README_records": 32,
+      "all_README_differences_empty": true,
+      "last_read_commit": "30cfddbc9d36ed1384870f15a7ea3a0dd64e80b9"
+    },
+    {
+      "group": 7,
+      "first_failed_index": 1344,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-07/process.json",
+        "bytes": 12547,
+        "sha256": "ec57f25fe8015481568bcc41ffc432daaecb04bcb97330b9aae7098786b29792"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-07/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "e7117965b3b446b76eb8c7e63a415cf5d819689b89bb2acc818b69bc5bda4345"
+      },
+      "native_sha256": "e5766744e062213840ddd3c3eab4c865f215a0f43c2a6cac37aef92c780cb55c",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000920302000011,
+      "true_pull_README_records": 17,
+      "all_README_differences_empty": true,
+      "last_read_commit": "4a68e3498e140eac94deaccfb4b5f0fe5e095c72"
+    },
+    {
+      "group": 8,
+      "first_failed_index": 1536,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-08/process.json",
+        "bytes": 9734,
+        "sha256": "a572516bcdbe1a6a78267e8085c417b3b8354b233f69dbab9497131b38d418ea"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-08/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "563d7d6809032d580a0f5061e0af25ce06cd8a72ae81e81581a2e0e439811777"
+      },
+      "native_sha256": "2351292e90080245f9569dae7677a8d1d4fc7b7550271fb6b978df8b9ba59d39",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000930847999996,
+      "true_pull_README_records": 8,
+      "all_README_differences_empty": true,
+      "last_read_commit": "cb23ec11ad257196fe464103cf5eba9daf60dc04"
+    },
+    {
+      "group": 9,
+      "first_failed_index": 1728,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-09/process.json",
+        "bytes": 8491,
+        "sha256": "eb0394ae503786a9e55a8e168c0e36eaa84a830dcc9fb8ac98ca7d89ff37c3bd"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-09/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 701,
+        "sha256": "b74ec304c16e9e75bb3401ee0416f74ec8e40be86cf570c6850129cdb17a4d0c"
+      },
+      "native_sha256": "1352fb3002817f32378464292d3bcbe1cbf206c38f51b08476cddb760f784b95",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000962459999997,
+      "true_pull_README_records": 4,
+      "all_README_differences_empty": true,
+      "last_read_commit": "56cbcd31967d8da41ba6d35708bcfefa10c5d3a6"
+    },
+    {
+      "group": 10,
+      "first_failed_index": 1920,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-10/process.json",
+        "bytes": 20350,
+        "sha256": "befc2626f1dc55dfab9ec67d1feb65c037bbb92444e6f3334ee3d09fda704014"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-10/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "3f2f074ff80aaa078dee03e45319989c636afc9eff56735f3e0594aee5c79566"
+      },
+      "native_sha256": "d12d7037994e247d6b808edb6449a3affc8508d340c33166eb23b31c76d1630b",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 20.000992222000036,
+      "true_pull_README_records": 42,
+      "all_README_differences_empty": true,
+      "last_read_commit": "c3ee3994946f57d7170a234b2f2ec8b82dfaa699"
+    },
+    {
+      "group": 11,
+      "first_failed_index": 2112,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-11/process.json",
+        "bytes": 13175,
+        "sha256": "29555fb9058921937f7128fa0abac1cdc810960cbfe1267c09be7a99b19d0945"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-11/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "8a2fbbd771c3e7c3804a80c4c1bcfe524dbfc6d30ebdddd50a3bc1161fa1b3dc"
+      },
+      "native_sha256": "58632d0dc68130d85800d88ada2084942a52fb2d98ca78c812df94c2f7ef9a02",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000781187000001,
+      "true_pull_README_records": 19,
+      "all_README_differences_empty": true,
+      "last_read_commit": "140bfeabf811466970a3a8344d01218cab5c20d3"
+    },
+    {
+      "group": 12,
+      "first_failed_index": 2304,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-12/process.json",
+        "bytes": 14734,
+        "sha256": "343c2dc57e45914a0c9eac0b55b9ebec04b941efbcb0219dced4007ca5ddbc47"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-12/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "eb79b58872660dd8ccacc652ca3fe2974d1fd8e83cd5f2320bdcaed0bf57866d"
+      },
+      "native_sha256": "e1fd7a1e426b9c41eaeecccff38d5b2e855a76ee11532163a758054d09cc9c80",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 10.00063830900001,
+      "true_pull_README_records": 24,
+      "all_README_differences_empty": true,
+      "last_read_commit": "f5150d05c7c00dff9f8c0bbb467f29638ce23881"
+    },
+    {
+      "group": 13,
+      "first_failed_index": 2496,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-13/process.json",
+        "bytes": 15358,
+        "sha256": "9b28a10386483800a99876024070dc5ab09589377c77289fb402019647c4e577"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-13/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "22592e19b3270b31490bfde662aa60b70c4941eade9757a2b9faa16a27336d08"
+      },
+      "native_sha256": "e9f67f371a5bdcee621e3529c8c2b66579bc3d5749e67f8ef65303c623f117e3",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000857595000014,
+      "true_pull_README_records": 26,
+      "all_README_differences_empty": true,
+      "last_read_commit": "bbcdb9fe77985a05221ae08d14e90d8c7eeb8d0b"
+    },
+    {
+      "group": 14,
+      "first_failed_index": 2688,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-14/process.json",
+        "bytes": 10366,
+        "sha256": "f21a7490363aa223d37c5f9e1ca4296542e0fb4b42dfed4e810fd5b6c6b24f99"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-14/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "7aa7c493e6fb89ffed5bc6eb30761e81564c7ea835a8364216c4c85a4e9bfea0"
+      },
+      "native_sha256": "61a99d58da094d0a5744405a409051c790d6a8882bd2d9ce6b758c4883b7247a",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000771315000009,
+      "true_pull_README_records": 10,
+      "all_README_differences_empty": true,
+      "last_read_commit": "e976463e8fef095fcd649c57aa6b2ea06cf0a401"
+    },
+    {
+      "group": 15,
+      "first_failed_index": 2880,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-15/process.json",
+        "bytes": 8183,
+        "sha256": "9dc9f27622a222915234d223ac1d6216f5b267e0eb3dc2b45aec3d5de079dfdb"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-15/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "4df9b9e68421ea7c266245da060bf2e7eef298a2c3d847f56c6ef5943301573c"
+      },
+      "native_sha256": "8ab16680200b12e35d44797acfea385b6aefca6ac8ea6651ed9e9956f86c9598",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000624436999999,
+      "true_pull_README_records": 3,
+      "all_README_differences_empty": true,
+      "last_read_commit": "ae46f9be06f60b3b7428e4e5ffc403159960e962"
+    },
+    {
+      "group": 16,
+      "first_failed_index": 3072,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-16/process.json",
+        "bytes": 8807,
+        "sha256": "5fc7fe4ffcf8d7c2c082a5335f1e242b284e3776f0df6ddf83001e0014e23419"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-16/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "2d278ec9fe7f80f89311b95979234f4999e72d593fab10efae511a2564fe9c62"
+      },
+      "native_sha256": "c6723e2263a98f632ea24ce75f7344f4ae72e83f40c978057024b4dbde1ccff2",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 10.000581828999998,
+      "true_pull_README_records": 5,
+      "all_README_differences_empty": true,
+      "last_read_commit": "d6ad1538c23fff48cbd214ba6781e13177c1b46f"
+    },
+    {
+      "group": 17,
+      "first_failed_index": 3264,
+      "requested_cells": 191,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-17/process.json",
+        "bytes": 8498,
+        "sha256": "3cebd4fc918b1d76e721915bb41eac20179e9ff7504bf58d80f1f8f6cd5747b5"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-17/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "2111c0e4e637f05d24125847c384b8d8ae1e11517a97785d168961824158915a"
+      },
+      "native_sha256": "086af4b6c32045ef86438f47138b362033abcd202a434f85966b1ec34c6fd8cd",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 20.000927942999994,
+      "true_pull_README_records": 4,
+      "all_README_differences_empty": true,
+      "last_read_commit": "292c3f4212563ee49945e2364412ccb162dfd7a5"
+    },
+    {
+      "group": 18,
+      "first_failed_index": 3456,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-18/process.json",
+        "bytes": 17225,
+        "sha256": "8e9ea56646a78909dca6fb8cd3475a573683554cce6cb862dae77ce839ab65b8"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-18/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "19c9c8106766d07e1d0460a882883bb403ce9cd5fa476b67987f2c2a79df354c"
+      },
+      "native_sha256": "086d33705b42127bcb8672d7c0e3d007dcbb174bb29ca7502399a109126c00e3",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000862769999998,
+      "true_pull_README_records": 32,
+      "all_README_differences_empty": true,
+      "last_read_commit": "0df1bfa18b0b7b5830ad2ff3fcd1cab54922665f"
+    },
+    {
+      "group": 19,
+      "first_failed_index": 3648,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-19/process.json",
+        "bytes": 10367,
+        "sha256": "a7bf8322a15295b37b1aa6c809ce5a8b1c7686dec55147756cefd5ae6f09d29e"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-19/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "dbc511feb74aba4bf58da322ffa265fb04fb0a29e068bd31c3e044e2e25347e1"
+      },
+      "native_sha256": "303f4c507fd97b769e61dd68b345eec40217272cfb8cb361e39a9e040c5b9540",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 10.000606328999936,
+      "true_pull_README_records": 10,
+      "all_README_differences_empty": true,
+      "last_read_commit": "d1374b17f8063669f6d5f03d01254d2e62a41c07"
+    },
+    {
+      "group": 20,
+      "first_failed_index": 3840,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-20/process.json",
+        "bytes": 8496,
+        "sha256": "83102f6802f1ab8f4d54b2e50ca1fadde6b9c40fb6964995954d917d805c45ab"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-20/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "33ca19c43159a0dd5048bf90a7c45e1633fbb4adf0a0afaf07af17e508ea7a18"
+      },
+      "native_sha256": "73b59efe475dcf350446d26494d762f9e4c8a6f90fb03a429076d3b2859ed553",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000761048000001,
+      "true_pull_README_records": 4,
+      "all_README_differences_empty": true,
+      "last_read_commit": "0fff3d93e8452568c2e60409b660ea51c11df7f5"
+    },
+    {
+      "group": 21,
+      "first_failed_index": 4032,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-21/process.json",
+        "bytes": 14418,
+        "sha256": "1b885893783634551a56223d7bb508fca27338020fd945f9acba1544e595f7a7"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-21/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "80c8ce20798bbd6fad97ad0f97dfe2daa721e26ff764de48d3faf8cf08e44641"
+      },
+      "native_sha256": "fb0471a359d947b49c50725987a9aabe64b3e0302e39b91f906cc54bc8b4cb0e",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000753193999998,
+      "true_pull_README_records": 23,
+      "all_README_differences_empty": true,
+      "last_read_commit": "7e2a0458c4f481f3166a54dd3c4b1ce77c18f641"
+    },
+    {
+      "group": 22,
+      "first_failed_index": 4224,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-22/process.json",
+        "bytes": 9120,
+        "sha256": "c6a119bc0d628a91b26e3affd4039d9e86ce1efe4ae3d0834db2e12e94e40d22"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-22/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "ed52001b3da2148757c0c6a12cd860250b396e8537f1cd9a36575498925a2c4d"
+      },
+      "native_sha256": "8c154448c5c5d9d20cf3bf7e2a7799af902ac02cb82d0527c2fc49f16c376976",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 10.000490421000002,
+      "true_pull_README_records": 6,
+      "all_README_differences_empty": true,
+      "last_read_commit": "c96555cbd80c533bab8c34bbfde2660b42be00a4"
+    },
+    {
+      "group": 23,
+      "first_failed_index": 4416,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-23/process.json",
+        "bytes": 14729,
+        "sha256": "a09d3601b0f2c4e81d7579d3ab6f230c81076d7c9bb53727a094de0716653f23"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-23/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "81d5e0b6993cb23b2c1184f6943b266ce76b4f1383d25007baecf6369a580b7b"
+      },
+      "native_sha256": "3dd4aada0991125452ded44b4bf939728a9c54c403e2e217121981071d22a555",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000851650000001,
+      "true_pull_README_records": 24,
+      "all_README_differences_empty": true,
+      "last_read_commit": "ce315fcdef982011f50cc62ba69ddc8474873fc1"
+    },
+    {
+      "group": 24,
+      "first_failed_index": 4608,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-24/process.json",
+        "bytes": 8496,
+        "sha256": "894fd1cfc9a4278518d5feaeb0417f236e731083fca6147061018ac6426ab138"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-24/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "4fd6b7777e0c07a4266817f71ee441b0becf9579099d3980fdc6697d45eaa6a6"
+      },
+      "native_sha256": "57d66b8fe15c08ad16f1492ae366a7c9d43c17b7c7e8c32a7f1ba4e2f172d1b4",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 10.000649772000003,
+      "true_pull_README_records": 4,
+      "all_README_differences_empty": true,
+      "last_read_commit": "fed185c6f18033eb6e6314c8f6c96a64142ded9f"
+    },
+    {
+      "group": 25,
+      "first_failed_index": 4800,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-25/process.json",
+        "bytes": 8495,
+        "sha256": "eae73872d2ad8d175e474cffe57e6a13bf65ea814f95ca132a79169dab23181b"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-25/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "2bfdc705d5a5bcdcc6a0071e03c86201d7e4d9e420ce3785d75db59a5dad6912"
+      },
+      "native_sha256": "9d5ba0449e1bbb9c2f3f0bef0f06fe8cd70b2e479780485df1f7a337bd5dd492",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.00081510199999,
+      "true_pull_README_records": 4,
+      "all_README_differences_empty": true,
+      "last_read_commit": "47ac1c38e025d796a0b566907078eb18a2d66b05"
+    },
+    {
+      "group": 26,
+      "first_failed_index": 4992,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-26/process.json",
+        "bytes": 8184,
+        "sha256": "530c7b1b7360c3114f6dd605d953f4a3d5aebebf1568b73ad7e92a682a26ccf1"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-26/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "544b6397db9986f075e0a3d1a78eb53fd099e45f4d681e6630cabd7027d500ff"
+      },
+      "native_sha256": "706a932c580b163dd64b11d6463a0b85d3c9d34edcb09b0ea84a6c3f1f1aae73",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.000747709999999,
+      "true_pull_README_records": 3,
+      "all_README_differences_empty": true,
+      "last_read_commit": "faa13c98746518819ba63911690ee779100e73f4"
+    },
+    {
+      "group": 27,
+      "first_failed_index": 5184,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-27/process.json",
+        "bytes": 10056,
+        "sha256": "1824d9c60b0bbd19c4feb8d9429fb6c91293749693c00ed09399ddd3a8ba3631"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-27/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "0f6bb2251eaf03d995068da20fcb60da6903fb53dfd8cb4a586813296db52264"
+      },
+      "native_sha256": "e62247c5bf675e89f2cb3577102e9d3841b98a21b4353cf642e336a70b6a0e75",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 20.000954783999987,
+      "true_pull_README_records": 9,
+      "all_README_differences_empty": true,
+      "last_read_commit": "2454de6c2ba228f0029dcf19a67ffb9c43d7bc76"
+    },
+    {
+      "group": 28,
+      "first_failed_index": 5376,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-28/process.json",
+        "bytes": 10674,
+        "sha256": "0073d709c00bdcb8bbfe3ee1d900899edcec4216422633a3def9b55dec1108b2"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-28/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "5c353fa82781a581340dc0641f39bd846deea116dc01c4fd7b8f8c44e1eb6112"
+      },
+      "native_sha256": "ee0924f0b583358197ca5bab7775b780bf0a3cc403459e373febc58017ee8b24",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 20.000872461,
+      "true_pull_README_records": 11,
+      "all_README_differences_empty": true,
+      "last_read_commit": "69d3ad8d10da76ae46f6e6fc444458616855d74b"
+    },
+    {
+      "group": 29,
+      "first_failed_index": 5568,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-29/process.json",
+        "bytes": 9431,
+        "sha256": "4c11ea21679fc78a34ac42ce8111548dbb1db7754c8fc05c976a1844449329f0"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-29/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "2d581bb0c11933807c3b9110f1ba6f8984cbb5631d176dbd9258b8954fc22943"
+      },
+      "native_sha256": "48245e7e9b4bdebbd0ec1fb545d8ae126c0b471a3a0816be8ebecb03982094e1",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 10.00061517399999,
+      "true_pull_README_records": 7,
+      "all_README_differences_empty": true,
+      "last_read_commit": "9a4b34fb1ca8adb93da0f3bfa034e1ec640888b2"
+    },
+    {
+      "group": 30,
+      "first_failed_index": 5760,
+      "requested_cells": 192,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-30/process.json",
+        "bytes": 8178,
+        "sha256": "37aceef27d4a08e3e42863ec184eb848bf3fbba6ad12a18c5a2df734a5065800"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-30/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "b5d2a6cc179cf934061bbe79e0e0163846cedb96cb83e1032f0d3be0e6bfbc5b"
+      },
+      "native_sha256": "a42448c6e0dcb7524103dd33120c1ea91076ac1575783519393c76f34cf61a19",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 10.000717052999988,
+      "true_pull_README_records": 3,
+      "all_README_differences_empty": true,
+      "last_read_commit": "4cf711a2b2bccaaf761689ba71b87e803baf2ea4"
+    },
+    {
+      "group": 31,
+      "first_failed_index": 5952,
+      "requested_cells": 17,
+      "process": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-31/process.json",
+        "bytes": 6722,
+        "sha256": "b60f529e4eeec6e8d93e55eec0b6f6d5c6275699a28496dbbd8e7954473a91ac"
+      },
+      "outcome": {
+        "path": "topics/visible-flex-exact-nearby/notes/complete_same_F_directional_matrices_ci/run-43652855824-1-complete-same-F-range-31/evidence/actual-latest-matrix-outcome.json",
+        "bytes": 702,
+        "sha256": "8173e0a27834d116782951adda7acd30f70617043960d371870b1212637559a4"
+      },
+      "native_sha256": "6d08e5c5af17ea3aeb4db6f6eac9faecc34db341a655d1b3ec1dbaa4975ed020",
+      "completed_cells": 0,
+      "actual_child_returncode": 1,
+      "actual_child_wall_seconds": 15.00078719999999,
+      "true_pull_README_records": 5,
+      "all_README_differences_empty": true,
+      "last_read_commit": "441b9909ac3d43845606f47fabb8c719a665e406"
+    }
+  ]
+}
