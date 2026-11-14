@@ -1,0 +1,35 @@
+{
+  "native_sha256": "365f0763d8f4c87182507c4372a3be055624607a77d818a084471b368b33d32e",
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "unchanged_complete_baseline_and_full_raw_mean_cover",
+      "passed": true
+    },
+    {
+      "name": "actual_complete_new_source_range_(597, 886)",
+      "passed": true
+    },
+    {
+      "name": "actual_complete_new_source_range_(886, 1175)",
+      "passed": true
+    },
+    {
+      "name": "actual_complete_new_source_range_(1175, 1464)",
+      "passed": true
+    },
+    {
+      "name": "actual_complete_new_source_range_(1464, 1753)",
+      "passed": true
+    },
+    {
+      "name": "exact_union_of_all_new_requested_rows_with_no_repeated_pilot_cell",
+      "passed": true
+    }
+  ],
+  "actual_completed_rows": 7721,
+  "completed_original_indices": null,
+  "first_completed_original_index": 0,
+  "last_completed_original_index": 7720
+}
