@@ -76,9 +76,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 [R281强位传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)与[R283惰性配对](results/R283-exact-singlet-padding-and-half-density-universality.md)已保完整逆，付全height/首边最优普适常数相同且≥1，以及任意薄半密度带的全有限问题嵌入。旧精确数值/量词保[本次前open](notes/2026-11-14-open-before-general-residual-regression-789f.md)；一般c1与大出生费用仍不能由强池/稀释省去。
 
-[R285](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)是形式族、非Boolean反例；一般实际正性仍开。
+R285形式族反例非Boolean；原实际正性仍开，完整入口保上述快照。
 
-[R288逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)及全部已闭低birth S1/S2范围保[本次前open](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)；完整三塔保F3逆/C²深能量，局部正frame反例不反一般序。[R293全高度](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保全birth首阶加强κ⇔全部height同κ，单异常权全birth全height已闭。一般κ、S2和原graph各自缺口仍开。
+[R288逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)及低birth S1/S2已闭范围保[本次前open](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)；完整三塔保F3逆/C²深能量，局部正frame反例不反一般序。[R293全高度](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保全birth首阶加强κ⇔全部height同κ，单异常权全birth全height已闭。一般κ、S2和原graph各自缺口仍开。
 
 [R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)付全正权birth1的½A≤Γ≤A、共同A Newton与无限固定高度，其新来源的[完整仓库证明](results/R294-appendix-complete-proof-of-the-normalized-covariance-input.md)已补齐；夹逼本身不支付原Γ中间项。
 
@@ -122,7 +122,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **两端互逆权：** [完整列预算](notes/2026-11-14-balanced-star-reciprocal-weight-score-budget-789f-next.md)已付τ=(S+1)/(Q−S+1)下两个后验score各常数2及混合正块η_Q≤2；原全线性回归的两权运输仍缺，M不代J。
 
-**原additive源不可扩大：** [原概率上的端点反例](notes/2026-11-14-balanced-star-nonlinear-endpoint-source-obstruction-789f.md)给完整二维非线性来源所需κ≥Q(Q+1)/[4(1+logQ)]；全mean-zero/任意同端点来源不付统一κ，真全等权线性相位仍I。
+**原additive源不可扩大：** [原概率上的端点反例](notes/2026-11-14-balanced-star-nonlinear-endpoint-source-obstruction-789f.md)给完整二维非线性来源所需κ≥Q(Q+1)/[4(1+logQ)]；全mean-zero/任意同端点来源不付统一κ，真全等权线性相位仍I。 [真实contrast标量log凹也失败](notes/2026-11-14-balanced-star-actual-contrast-scalar-log-concavity-fails-789f.md)，须保完整矩阵曲率。
 
 **真实混合生成元：** [完整可逆链与物理层谱界](notes/2026-11-14-balanced-star-reversible-mixed-generator-bound-789f-next.md)给归一交换||N||≤1+(1−α−β)/Q，混合I−N统一≤2+1/Q；真实共同回归余项D0−Z⁻¹ΔZ−DnG⁻¹Dm尚须联合支付，不能把生成元全积界免费传到投影积。
 

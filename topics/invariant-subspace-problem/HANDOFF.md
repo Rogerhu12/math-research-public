@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `c9476c3f85a9c4c6972d96c05f576373f07d3910`（2026-11-14 16:54:04 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `6331a6eee456d263add182e268107537a119b3e1`（2026-11-14 16:57:33 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -28,6 +28,8 @@
 - [真实混合生成元](notes/2026-11-14-balanced-star-reversible-mixed-generator-bound-789f-next.md)：两可逆增删链的Dirichlet压缩为Dm/Dn；混合恰D0−Z⁻¹ΔZ。完整物理层两次CS给归一交换N的||N||≤1+(1−α−β)/Q，故混合I−N统一≤2+1/Q。真实回归余项D0−Z⁻¹ΔZ−DnG⁻¹Dm保留，不能免费传至相位。
 
 - [任意端点源严格障碍](notes/2026-11-14-balanced-star-nonlinear-endpoint-source-obstruction-789f.md)：保原全等权概率，非线性X′=(1满,1−1空)的完整H/L/G使任何κ≥Q(Q+1)/[4(1+logQ)]（Q≥16）。真实原additive相位仍I；不能先扩大到全mean-zero或仅保端点的来源。
+
+- [真实contrast非标量log凹](notes/2026-11-14-balanced-star-actual-contrast-scalar-log-concavity-fails-789f.md)：Q4权(2,2,1/2,1/2)、v=(1,−1,1,−1)给M_v=5−2t+2t²，中心log曲率8/9>0；完整两contrast矩阵曲率仍diag(2,2)，故只排标量化，不排矩阵路线。
 
 ## R150 原十七式与第二提升
 
