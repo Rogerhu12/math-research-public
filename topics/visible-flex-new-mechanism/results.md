@@ -49,3 +49,5 @@
 - [R22：D=0 变号根处真实的局部 C4 相位开启](results/R22-D0-sign-changing-local-phase.md) — 显式八坐标满足 D0，实解析基底及 x^(9/2) 非线性复分支均由收缩证明；没有闭曲线几何实现、全区外尾匹配或有限等距族。
 
 - [R23：ψ-warp 准确核心的非零 linking 封口障碍](results/R23-warped-core-linking-obstruction.md) — 已证正则Jordan投影下framing为+3，禁止同一嵌入annulus接开放平圆领；两个已认证基线适用。没有否定核心本身或其他零framing机制。
+
+- [R24：空间星核的高度奇偶与平圆领 framing 障碍](results/R24-space-star-height-parity-framing.md) — 当前奇正弦高度类的framing为3的奇数倍，不能嵌入annulus封平圆领；偶余弦高度类严格framing0，但完整连接与定量几何尚缺。
