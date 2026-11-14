@@ -60,7 +60,15 @@ def prepare_inputs(item, out):
     for label, group in item["retained_artifacts"].items():
         directory = out.parent/("downloaded-"+label)
         download(group, directory)
-        manifest_path = find_hash(directory, "full-outputs-manifest.json", group["manifest_sha256"])
+        if "manifest_repository_path" in group:
+            # R745/R748 wrote this small manifest only during publication,
+            # after artifact upload.  Read its actual pinned Git copy.
+            manifest_path = topic_path(group["manifest_repository_path"])
+            assert sha(manifest_path) == group["manifest_sha256"]
+            manifest_location = "published-repository-file"
+        else:
+            manifest_path = find_hash(directory, "full-outputs-manifest.json", group["manifest_sha256"])
+            manifest_location = "producer-artifact"
         manifest = read(manifest_path)
         assert manifest["result"] == group["result"]
         entries = {row["file"]: row for row in manifest["files"]}
@@ -80,7 +88,7 @@ def prepare_inputs(item, out):
             copied.append({"file": name, "sha256": digest})
         records.append({"label": label, "run_id": group["run_id"],
             "source_commit": group["source_commit"], "artifact_name": group["artifact_name"],
-            "manifest_sha256": group["manifest_sha256"], "files": copied,
+            "manifest_sha256": group["manifest_sha256"], "manifest_location": manifest_location, "files": copied,
             "producer_complete": True})
     local_records = []
     for spec in item["retained_repository_files"]:

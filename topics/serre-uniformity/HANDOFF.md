@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：f0ff6457bb8ae85161adc73f4e13cbd59e7053e2
+已读规则提交：6302bfc6585908222e9d0a1f3316256597c9ed1a
 最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable（18:34及18:56 UTC只读重试仍同错误）；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 19:17:59 UTC，main=f0ff6457bb8ae85161adc73f4e13cbd59e7053e2，两README blob均未变；本次为终端不可用期间的API核对。
+远端规则核对：2026-11-14 19:19:00 UTC，main=6302bfc6585908222e9d0a1f3316256597c9ed1a，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R775](notes/2026-11-14-public-handoff-before-R775.md)、[before-R775](notes/2026-11-14-open-before-R775.md)，内接R770及全部较早归档。完成计算不重跑；未推稿按记录重建。
@@ -21,8 +21,8 @@
 - **R767/R769**：原M2维146正常生成，加8个椭圆主部给M12维1514，div_W(t²Δ)=2(t)0、cusp常数−1/6912。原minor407给e≤19；d1206完整恢复2847行、真实kernel308/rank2720，基2846/Hodge8557。R769实际run43628341694完整385事件/空栈/唯一leaf0，无非零degree≤693；degree为3倍故≥696，未称minimum或排所有特殊小除子，此有界项关闭。
 - **R771实际已成/6e1b3ab9**：run43628998192/source49abc04d7867c9f56911866494692c597cf642d7，301.12633604秒。M2/M6/M12实际146/694/1514，mod739原recipe minor550/206/140，normal products146/418/690/962/1234/1506；真实1514个F_i/Dstar为char0 RR基，尚非K基或准确长q表。cert9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f；manifest024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74；artifact14127715743/ZIPe158bff06405576ce235745db26b6a2e35145d2b1f2d6978127b42a79e1e7c1c。全部E1/recipe/模表直接复用，完整stage SHA见正式结果。
 - **R772已证/b63e636b**：原GL2 det半线性trace给K定义基，cusp系数仍M；fP=f0使y∈L(Y)。M/L40坐标展开后任意准确部分rank2720即完整308核。H³=4F³/1722³是M6，Q2460/qY820认证；候选W³=27B²(A²−bB²)²H³是M78等式，准确核至qY10660给全球真映射。实际下降基/核/函数未求，模猜升禁止。
-- **R774首run失败于输入，立即修复中**：工程cbc48549b45cca882a320f7aab53b881e698dbda，run43630945978在读取旧full-outputs-manifest.json的SHA匹配失败，core_receipt=null，数学未启动。global核R745等实际producer文件名/哈希后修包装/请求，不猜hash、不重算旧数学。核心b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa保原R748 run43617493590的newform≤4096（SHA0c7d73a2a2c9202c6a25f343c9357a8b59d9cfc4928a29b5d460dbf84828bff0），仅扩six Fourier到2460、21对/56三积block121及14行原L有理尺度合成821项，真e和R771全821mod核，80分钟断点。
-- **R775本次触发**：直接读R77185旧stage，40det coset双标签运输、odd d82及ξ82^(j d82)权，Vandermonde证明全5840候选在739仍覆盖146秩。新K基及其694/1514高权配方实际生成，逐coset/批次断点，旧初始化/E1/group/levelone均不运行。core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee，requestb576491c2c65dea716b02a610ebe9cf07215fb678d3ae62ffae596b9022885ae；未预称输出。后继R777准确L核/函数，必须保cusp字段M。
+- **R774输入修复后本次再触发**：工程cbc48549b45cca882a320f7aab53b881e698dbda，run43630945978在读取旧full-outputs-manifest.json的SHA匹配失败，core_receipt=null，数学未启动。已核原R745/R748仅在publish目录生成manifest，artifact无该文件；本次显式读Git小manifest固定SHA1c9aa2d9/d21f97fc，artifact内数据/runreceipt继续逐SHA核，核心不动、resume=null。新requestea0aa21c1f5a64a792b6599cdc7bb509295d52129ea62f39e3103244d1b4aa41，不重算旧数学。核心b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa保原R748 run43617493590的newform≤4096（SHA0c7d73a2a2c9202c6a25f343c9357a8b59d9cfc4928a29b5d460dbf84828bff0），仅扩six Fourier到2460、21对/56三积block121及14行原L有理尺度合成821项，真e和R771全821mod核，80分钟断点。
+- **R775已触发00295b27**：直接读R77185旧stage，40det coset双标签运输、odd d82及ξ82^(j d82)权，Vandermonde证明全5840候选在739仍覆盖146秩。新K基及其694/1514高权配方实际生成，逐coset/批次断点，旧初始化/E1/group/levelone均不运行。core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee，requestb576491c2c65dea716b02a610ebe9cf07215fb678d3ae62ffae596b9022885ae；实际run43631335355进行中，未预称输出。后继R777准确L核/函数，必须保cusp字段M。
 
 ## 原ordinary问题
 

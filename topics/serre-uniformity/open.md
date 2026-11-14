@@ -180,7 +180,7 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 [R772](results/R772-original-RR-descent-and-exact-function-recovery-certificates.md)的GL2 det半线性trace给K定义基，但尖点系数仍M；零平移给实际y∈L(Y)。按M/L四十坐标展开的任意准确部分矩阵达到rank2720，即已得到完整308核；只准准确特征零代回或有证明高度界的CRT。原H³=4F³/1722³是M6，由Q2460/qY820认证；候选y=A/B的W=B DτA−A DτB、Dτ=θ/82，满足W³=27B²(A²−bB²)²H³的M78恒等式准确至10660，则认证原d1206映射。实际下降基/核/函数尚待算。
 
-[R774工程](notes/R774-original-Hodge-cube-method.md)首次公开run43630945978/sourcecbc48549在旧full-outputs-manifest.json的SHA匹配处失败，数学核心未启动；正在核真producer修输入。该工程复用R748≤4096 newform、R745≤800原six Fourier及R759真v，不再枚举a_n；只扩Q2460，block121无进位整数低乘的21对/56三积，再14×112原L标量矩阵及每行有理尺度合成准确H³至qY820、提取实际e。读真R771694基做清分母D后全部821项/七坐标mod739代回并记v739(D)，不将有限域解认成char0 M6坐标。coreb7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa；80分钟逐阶段断点，待真run。继续R775 K基、L上函数恢复及实际β/第二类周期/Poincaré对数和R724高度Bézout，全p证书存在仍未证明。
+[R774工程](notes/R774-original-Hodge-cube-method.md)首次公开run43630945978/sourcecbc48549在旧manifest位置假设处失败，数学核心未启动；现已核原R745/R748在publish才生成Git小manifest，改为读两已发表固定SHA的小文件，artifact内实际数据/receipt仍全SHA核。本次保持核心不动、resume=null再触发，新requestea0aa21c1f5a64a792b6599cdc7bb509295d52129ea62f39e3103244d1b4aa41。该工程复用R748≤4096 newform、R745≤800原six Fourier及R759真v，不再枚举a_n；只扩Q2460，block121无进位整数低乘的21对/56三积，再14×112原L标量矩阵及每行有理尺度合成准确H³至qY820、提取实际e。读真R771694基做清分母D后全部821项/七坐标mod739代回并记v739(D)，不将有限域解认成char0 M6坐标。coreb7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa；80分钟逐阶段断点，待真run。继续R775 K基、L上函数恢复及实际β/第二类周期/Poincaré对数和R724高度Bézout，全p证书存在仍未证明。
 
 ### 原ordinary单位和dual配对
 

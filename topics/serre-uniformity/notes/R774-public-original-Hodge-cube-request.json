@@ -10,7 +10,7 @@
     "core": "R774_original_Hodge_cube.py",
     "core_sha256": "b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa",
     "method": "notes/R774-original-Hodge-cube-method.md",
-    "method_sha256": "12d768940961115f3171781301b1efa023264856cb2e3a42ef6229869fefee86",
+    "method_sha256": "3ad57a0846c876ab66c661aba94c63b1d240812512aaecccc2c174e7a362b219",
     "proof": "results/R772-original-RR-descent-and-exact-function-recovery-certificates.md",
     "proof_sha256": "30006eca29d55c9b2e227f490e0ec9ffe128073f1c49c6dab25d3e532f4db59d",
     "workflow": ".github/workflows/serre-p41-original-hodge-cube.yml",
@@ -27,7 +27,8 @@
         "files": {
           "p41-original-Hodge-input-certificate.json": "7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be",
           "original-p41-Hodge-q-expansions.json.gz": "a629d550bd2f3102111bbb58fe707470081e2062da10221ab778fe3ba71b53dd"
-        }
+        },
+        "manifest_repository_path": "computations/R745-p41-original-Hodge-input/43616027318-1/full-outputs-manifest.json"
       },
       "R748": {
         "result": "R748-original-signed-CM-root-p41",
@@ -39,7 +40,8 @@
         "manifest_sha256": "d21f97fc8b88ed27f5dc87cd1821692f7540b528cdfc88dfda4969013b301956",
         "files": {
           "R748-extended-newform-coefficients.json.gz": "0c7d73a2a2c9202c6a25f343c9357a8b59d9cfc4928a29b5d460dbf84828bff0"
-        }
+        },
+        "manifest_repository_path": "computations/R748-original-signed-CM-root-p41/43617493590-1/full-outputs-manifest.json"
       },
       "R759": {
         "result": "R759-original-integral-period-lattice-and-map-degrees",

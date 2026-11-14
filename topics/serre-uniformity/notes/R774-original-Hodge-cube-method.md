@@ -206,6 +206,8 @@ Workflow：
 请求绑定四个实际 producer artifact 的 manifest、run/source，以及 R735 小证书、R772 原证明和所有脚本 SHA。
 R771 已真实成功后才填入其实际证书与 $M_6$ 状态；不存在预填的成功哈希。
 
+旧 R745 与 R748 的 producer 在 artifact 上传之后才于发布目录生成小 manifest，因此其 artifact 本身没有该 manifest。包装显式读取 Git 已发表的小 manifest 并核所列固定 SHA，再以这些真实 manifest 校验 artifact 内的数据与 run receipt。较新的 R759、R771 则从 artifact 读取 compute 阶段已生成的 manifest。这一位置区别由四个原 producer 的代码核实，不靠放宽哈希或猜测文件名；首个 R774 run 在数学核心前因旧 manifest 位置假设而失败，修正不改变核心或任何算术输入。
+
 新的 Fourier 迹按 64 个 $Q$ 指数保存游标；六个打包整数函数、21 二积、56 三积、真实 $L$ 尺度、每个最终系数块和辅助模比较各有独立完整阶段。
 完成阶段按配置和 SHA 直接恢复。若 80 分钟预算耗尽或异常，全部完整及部分状态保留到 artifact，同一配置续算；不以中断凭据注册成功。
 

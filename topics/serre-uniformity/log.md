@@ -230,3 +230,8 @@
 - R775原K基工程直接读R77185完成stage，40det像保双label/odd d82/半线性权；Vandermonde保原146秩，新正常乘积与elliptic层接694/1514。core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee、requestb576491c2c65dea716b02a610ebe9cf07215fb678d3ae62ffae596b9022885ae。
 - 全新tag/路径、逐coset与批次断点，旧init/E1/group/levelone不运行；80分钟预算全保存，实际输出待run。R774首次43630945978仅旧manifest SHA查找失败，core未启动，正核原producer修输入，不重跑旧数学。
 - R774 ref竞争后核404并重接main，cbc48549成功；H/open本次完整归档压缩并同步index。根/代理已读R775源码和原schema，终端未恢复，按根规矩8核main/两README并非force继续，无本地数学。
+
+## 2026-11-15 03:18 Asia/Taipei · serre-public-resume-20261114
+- R774首run43630945978在数学核心前发现旧manifest不在artifact；原R745/R748代码仅publish时写Git小manifest。根实读并核1c9aa2d9/d21f97fc及输入/receipt SHA，显式加两Git路径，旧数据校验不放宽。
+- 只修包装/方法/请求/workflow，核心b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa不动；新requestea0aa21c1f5a64a792b6599cdc7bb509295d52129ea62f39e3103244d1b4aa41，core未启动故resume=null，没有已成新数学可重跑。
+- R775已推00295b27并在run43631335355执行；其首ref竞争后核404、重接main成功。H/open/index同步，终端不可用期间按根规矩8核最新main/两README、小文本非force继续。
