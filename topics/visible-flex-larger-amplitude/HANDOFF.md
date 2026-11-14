@@ -24,10 +24,10 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 ### 前缀：39完整步但小下降，40同父QR比较
 
 699/M112/T112/N2048、236036完整坐标、全112非零H；26引擎7d75a44a…/B af7966fa…冻结，每轮独立weights。17–35全事实在actual notes，不重跑；30完整H劣C且17CG未达目标，32/35最近限制先471后mid475，原完整数组均核。
-37/run43618014985/source6e9af389/job132517259808：十一query22528行/12nodes/88J，mid475保护有效，1/8及1/4全node/mid/query过但完整RMS470拒；α1/16同weights44.32987245937925→44.292172704126806/drop.037699755252447176；col.0071103207854/BC8.074771843e−8/FD8.381607559e−10，H1=4.7701880967848475e−14，仍非BVP/native。102 B NPZ650数组/observer/全部父链核，actual37 note4bb02b64…全文读。
+37/run43618014985十一query：α1/16同weights下降.037699755252447176；较近1/8、1/4仅原RMS470拒。col.0071103207854/BC8.074771843e−8/FD8.381607559e−10，仍非BVP/native；102 B NPZ650数组/父链核，actual37 note4bb02b64…全文读。
 父37 notes/public-actions-43618014985-1-elevenquery/eleven-query-warm/warm-001.json.gz SHAdd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8；status37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0。
-39/twelvequery run43620111146/source56e891284/job132523707261 success；artifact14123527874/226302799B/ZIP21402157…全取，amplitude审计中。原日志α1/merit44.292419650985686→44.29019103902422/FD7.528714322e−10，局部200sweeps仍大violation，不能据整步宣称方向更有效。12完整B新增470共24576/4397局部列，C修正仍S=471–482+p4059，全B_out z0_out/负offset保留，原全向量radial/备份/同f/17trial/域保持。
-40/twelvequeryqr已接同父37（非39新warm），源4b768828…/FD721f6337…/接口62e30778…全文读。唯一live A/weights及全部块，QR596356…保338链+112border/pureglobal/λ一次；原C/H choose正文AST不改。helper300s/active16/H1200/预留90s、总1200s、column=none，不存1.49GB因子；失败started=False保C/已有基，不旧PCG重试。原A/AT及额外reference逐次账，QR大阵artifact-only。尚未实际QR数值。
+39/twelvequery run43620111146/source56e891284/job132523707261 success；artifact14123527874/226302799B/ZIP21402157…与111 B NPZ708数组/全部父链/27及FD31源全核，actual39前缀note765bc047…全文读。固定S投影200sweeps仍272负slack/min−22.568；全向量radial .0026450024后τ1重组获唯一α1，固定merit44.292419650985686→44.29019103902422/drop.00222861196146，col.0071103172664/FD7.528714322e−10仍非BVP。完整B24576×236036/4397局部列，S4059及outside负offset不省略，无新坏query支持扩组。新warm451e7ef1540d897602ea7e45170aafa1cd2684fa8936f2b4b442f97ce6090d4f/status51122351db657b94ad36d327f865ed9b44a52fde8c84062ef6bbda7194620317。
+40/twelvequeryqr已接同父37（非39新warm），源4b768828…/FD721f6337…/接口62e30778…全文读。唯一live A/weights及全部块，QR596356…保338链+112border/pureglobal/λ一次；原C/H choose正文AST不改。helper300s/active16/H1200/预留90s、总1200s、column=none，不存1.49GB因子；失败started=False保C/已有基，不旧PCG重试。原A/AT及额外reference逐次账，QR大阵artifact-only。run43621054216/source8a59ebd9/job132526640205实际运行中，尚无QR结果。
 
 ### Native：38保原出口，39求新578段矩阵
 

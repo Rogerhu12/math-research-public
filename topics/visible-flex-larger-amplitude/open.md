@@ -22,13 +22,14 @@
 | 30原非线性回溯 | α1/256真降.002933782783976824；最近1/128节点/中点全finite，但原left-RMS471失败 | 新warm8a91f696…/FD9.143364336e−10；仍col.0071104373/BC8.832e−8/native0 |
 | [32九query](notes/2026-11-14-actual-request32-nine-query-warm-and-RMS471.md) | 1/16..1/128全部node/mid转finite，但原left-RMS471全拒；仍1/256真降.002631130390312819 | 新warm7f5e8d5f…/FD9.143364336e−10；85 B文件/536数组与全部父链已核，仍非BVP |
 | [35十query](notes/2026-11-14-actual-request35-ten-query-step-and-midpoint475.md) | RMS471保护后α1/16真降.040416810520135016；最近1/8仅原mid475坏，全部十query正 | warm24ca673e…/FD9.255484210e−10，94 B NPZ594数组及原父链全核；下一只加mid475 |
-| [37十一query](notes/2026-11-14-actual-request37-eleven-query-warm-and-RMS470.md) | α1/16真降.037699755252447176；1/8、1/4全node/mid及十一query过，完整left-RMS唯一470拒 | warmdd837483…/FD8.381607559e−10；固定局部支持的十二query准备中 |
+| [37十一query](notes/2026-11-14-actual-request37-eleven-query-warm-and-RMS470.md) | α1/16真降.037699755252447176；1/8、1/4全node/mid及十一query过，完整left-RMS唯一470拒 | warmdd837483…/FD8.381607559e−10；39已完成固定局部支持的十二query |
+| [39十二query固定S](notes/2026-11-14-actual-request39-fixed-support-projection-and-full-step.md) | C局部200sweeps仍272负slack；全向量radial .0026450024与原segment重组后α1真降.0022286119614634003，全原域过 | warm451e7ef1…/status51122351…/FD7.528714322e−10；col仍.0071103173，无新坏query支持扩组 |
 
 30最佳R267浮点下界表达式43.11565368239749来自原raw LSMR零乘子证据点，非后续H改善；跨点给C的gap表达式.7894044861，没有严格舍入包络。不同轮会刷新原权重，不能把不同轮merit相减。R262/263/265/267是有限优化工具，不新增原BVP门。
 
 [actual37十一query](notes/2026-11-14-actual-request37-eleven-query-warm-and-RMS470.md) 全字节核验已完成，新warm/status为当前父。新增mid475在较近档有效，实际限制移到470。[request39十二query接口](notes/2026-11-14-twelve-query-fixed-support-RMS470-interface.md) 已接完整RMS470和同次原nodal J/P，但把局部投影可改节点固定在既有471–482+p；外部raw LSMR方向通过完整B_out z0_out进入affine offset。之后全向量radial仍会缩放外部，必须如实记录。保原λ270/LSMR200/17trial/全域/FD，无性能或QP收敛预断。原engine仅单模型iterations=1，不盲串旧十一query。
 
-[request40完整QR入口](notes/2026-11-14-twelve-query-complete-QR-warm-interface.md) 已接同actual37父场，保十二query C baseline及完整global H候选；唯一原A/weights，300s/16active/1200H预算内以一次QR替内解，无旧PCG重试。原同f选择正文/原17trial/全域/新FD保持，失败保C；[R268](results/R268-complete-regularized-chain-border-QR.md)完整证明已发布。39前缀已success，原包正在核；不能据其α1自动优于37，也不跨轮减merit。
+[request40完整QR入口](notes/2026-11-14-twelve-query-complete-QR-warm-interface.md) 已接同actual37父场，保十二query C baseline及完整global H候选；唯一原A/weights，300s/16active/1200H预算内以一次QR替内解，无旧PCG重试。原同f选择正文/原17trial/全域/新FD保持，失败保C；[R268](results/R268-complete-regularized-chain-border-QR.md)完整证明已发布。39前缀完整原包已核：111 B NPZ708数组、13端点/完整fixed-S/当前27与FD联集31源及全部父身份；其整步应用的是已强缩的方向，不能据α1自动优于37，也不跨轮减merit。40实际run43621054216同父37比较正在执行。
 
 ### 1B. Native：修复保存完整系统的原尺度线性缺陷
 

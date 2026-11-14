@@ -269,3 +269,8 @@ run43616658549/source65fdfd019d/job132513122964 success，actual35 note16351B/06
 ### 2026-11-14 actual39 native完整失败及逐段分布保全
 
 新578矩阵f7ec0dc4…自身全部129696行exact初1.902947232115898e31→修正2.57012914199793e32更坏，new45=旧44/Pi111最坏；保iteration00完整579δ39b28da8…与577restriction020cc235…，不派该坏方向trial。原long-J单行exact−1.15152238867e37仅另存诊断，不用它作为新系统门。actual39 native note6826B/c33efb14…及审计02782b74…、已报block maxima汇总5e5c0f01…已读并发布；49项33720601B/47binary+2ledger/完整新578J/2×580块129696行/4checkpoint/16RHS例/operand全核，LU未导出仅producer SHA。首轮51块max>1全在raw0，其余504块已报max1.9352255763e−11；已拆43inner仍7.7190703965e28。后继据此处理raw0全部真实RK步，包含原cusp grid，不机械再加旧44，不本地重算范数/dot。
+
+
+### 2026-11-14 actual39固定支持投影的完整读回
+
+actual39前缀note21072B/765bc047…全文读后发布：run43620111146/job132523707261，226302799B/ZIP21402157…完整核。24576全角行/4397局部列保完整B，修正S4059保outside raw action与54负effective offsets；Hildreth200未收敛，272负slack/min−22.568，不能据stationarity小宣称QP解。实际采用该投影全向量radial .002645002409295411后原segment τ1重组，非raw backup；唯一α1全原node/mid/两RMS/rho过，同weights44.292419650985686→44.29019103902422/drop.0022286119614634003，FD7.528714322e−10。新warm451e7ef1…/status51122351…保全，col.0071103172664/BC8.053357927e−8仍非完整BVP/native/闭面。111 B NPZ708数组、12组B/Γ/Π与全model hash、13端点/S索引、父37全state/RHS/producer、当前27与FD31源全bits核；没有坏mid因此只有3observer报告无bad NPZ。无本地新数值，40同父37完整QR-H/C比较正在实际运行。
