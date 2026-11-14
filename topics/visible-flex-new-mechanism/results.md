@@ -23,3 +23,5 @@
 - [R9：闭空间曲线的准确 rectifying 平度量核](results/R9-rectifying-flat-core.md) — 已直接证明隐式材料坐标、准确平度量、闭角、完整二jet/唯一非零主曲率及半转对称。中央空间曲线能给实际小嵌入环带；指定宽度的全局reach与圆领闭合尚无证书。
 
 - [R10：指数倾斜准确闭合的对称带状基底](results/R10-exponential-tilt-exact-closure.md) — 已证明唯一轴向闭合倾斜、水平/渐近周期及全角正则代数判据；闭合正则浸入不等于嵌入、九系数零或有限可弯族。
+
+- [R11：R44 静态核心与完整C6像的相位幅度上界](results/R11-ruled-core-amplitude-limits.md) — 已证明原核心自身相位Hausdorff比≤.04627；若完整像保C6则比≤sin(π/12)<.3。没有把核心上界外推给任意过渡，局部曲率上界也未排除全部reach目标。
