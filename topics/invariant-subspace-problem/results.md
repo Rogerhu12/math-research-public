@@ -338,3 +338,7 @@
 ### 2026-11-14：固定inverse-gauge真实源列的额外尾阶（789f）
 
 [证明](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)以同一y_a=(−D*)^aΩ/W_a和完整Γ逆块给||b′_a||²=<y_a,[(Γ⁻¹)_CC−Γ_CC⁻¹]y_a>≤<y_a,(Γ_CC−I)y_a>。真实物理头/尾次数正交将右侧化为固定a个低Taylor系数的有限正和；硬核删除准确系数及基本对称式界给||D^j(D*)^aΩ||²≤(a!)²S_m^(a+j)/(a−j)!，故||b′_a||²≤K_aS_m^(a+1)，K_a与后增m/q无关。a=1为S_m²/d0²，a=0恰零；比联合列预算多一阶尾平方强度。仍保原b=K*c′+G_U*b′，未支付共同正向恢复，不称原固定列已小或N=M。
+
+### 2026-11-14：自然图之外的完整原p²来源商与有限生成（789f）
+
+[证明](notes/2026-11-14-r150-original-p2-source-saturation-and-finite-column-envelope-789f.md)对原D[s]整数余模C=cokerA给满射φ2(x)=[Ax/p²]，核为p²E+kerA；从而S2/(Hnat+kerA)≅C[p²]/Bnat，Bnat=<b1…b7,pb8,p²b9>。有限p6精度准确为S2/(Hnat+S6)≅C[p²]/(Bnat+p⁴C[p⁶])，没有将模31的315块当整数C。完整S2由p²E、pKhat及全部β1源核Z的真实整除列κ(c)生成；以已成第一像的C/J和原核来源T，Z由(I−TC)e_i与T(sI−J)e_j完整生成，不除s−2。旧198的未缩放Khat−p q1是真S2入口，当前197第三使用其p²倍不代来源覆盖。一般完整S_k递归与F=[p²]例子说明第一像零不足以停饱和；未计算新缺口商、未扩大当前负结论或预报正在运行的197。

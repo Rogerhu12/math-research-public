@@ -148,7 +148,7 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 
 **本轮完整问题归档。** [压缩前全文](notes/2026-11-14-open-before-five-third-target-space-789f.md)保留此前η8、低初值、c26、逆芽及实际Schur的全部量词；未列的旧问题不视为关闭。
 
-**R150当前实际入口。** [五列第三结果](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)已完成：相关像rank1/ann=s−2、九目标全不相容；只排五列，旧198第三及完整低初值仍开。未投影五列不全在2-primary。真实cost87的b10给rank_Q A87≥226092，非精确秩/Smith值。37恢复/8cache已main，不重数学。接只读新像与原四维目标联合秩，再付旧198的局部Smith损失、同一q1和真实q2/carry；正相容仍须全315/原17。自然图外全部原整数及特征零成员资格未付。
+原R150阶段接续全文保[本次快照](notes/2026-11-14-open-before-full-original-p2-source-789f.md)；旧问题未列不视为关闭。
 
 **同一实际源窗口与真实逆芽。** [c26联合carry](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)给Q≤exp(26d³)母提升及实际低输出误差各exp(−d⁴)，同top保原负图/两费/固定测试。[逆芽](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)给ρ=exp(−25d³/2)、非线性相对误差exp(−d³/4)，真实W列权保持。ρ⁻²数值可入c26，但实际来源/固定测试比较未证明；旧联合旗δ仍限原窗。
 
@@ -165,3 +165,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **197局部正的原来源费用已付。** [两投影765路线](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)给deg≤4、真P度≤196、三次原校正85→181/377→473/669→765，当前V10版最终十常数及κ10原项。[197完整入口](notes/2026-11-14-r150-197-third-local-jet-interface-789f.md)已冻，即实际push后dispatch；24维必要系统的每个相容目标必须全局恢复、宽次数trace及原p6十七式，真实回执之前不预填完成。
 
 **固定源分量再降一阶。** [完整逆块证明](notes/2026-11-14-fixed-inverse-gauge-source-column-extra-tail-order-789f-next.md)对同一原f_a给||b′_a||²≤K_aS_m^(a+1)，a1精确预算S_m²/d0²；全零源/高返回保留。仍须支付原b=K*c′+G_U*b′的共同恢复，不由变换后小列推出N=M。
+
+**全原p²来源的下一缺口。** [完整生成证明](notes/2026-11-14-r150-original-p2-source-saturation-and-finite-column-envelope-789f.md)给S2/(Hnat+kerA)≅C[p²]/<b1…b7,pb8,p²b9>，模p6再商p⁴C[p⁶]；完整S2由p²E、pKhat及β1完整源核的实际κ(c)生成。旧198未缩放Khat−p q1尚未由当前197的p²倍覆盖；先用原整数核/真实列关系削减，再付有限全来源，缺口商是否零未算。
