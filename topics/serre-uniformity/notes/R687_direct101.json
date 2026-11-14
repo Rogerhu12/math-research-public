@@ -1,0 +1,241 @@
+{
+  "prime": 101,
+  "r2": 88,
+  "r3": 95,
+  "B": 3,
+  "alpha": 70,
+  "cartier_c": 75,
+  "Cp_predicted_by_R658": 51,
+  "Cp_minus3_predicted_by_R683": 18,
+  "M2": 1683,
+  "M3": 1633,
+  "summands_r2": [
+    {
+      "j": 0,
+      "coefficient_Q": 48,
+      "coefficient_Z": 1,
+      "term": 48
+    },
+    {
+      "j": 1,
+      "coefficient_Q": 10,
+      "coefficient_Z": 65,
+      "term": 44
+    },
+    {
+      "j": 2,
+      "coefficient_Q": 74,
+      "coefficient_Z": 1,
+      "term": 74
+    },
+    {
+      "j": 3,
+      "coefficient_Q": 47,
+      "coefficient_Z": 5,
+      "term": 33
+    },
+    {
+      "j": 4,
+      "coefficient_Q": 27,
+      "coefficient_Z": 21,
+      "term": 62
+    },
+    {
+      "j": 5,
+      "coefficient_Q": 40,
+      "coefficient_Z": 69,
+      "term": 33
+    },
+    {
+      "j": 6,
+      "coefficient_Q": 60,
+      "coefficient_Z": 10,
+      "term": 95
+    },
+    {
+      "j": 7,
+      "coefficient_Q": 90,
+      "coefficient_Z": 60,
+      "term": 47
+    },
+    {
+      "j": 8,
+      "coefficient_Q": 57,
+      "coefficient_Z": 54,
+      "term": 48
+    },
+    {
+      "j": 9,
+      "coefficient_Q": 57,
+      "coefficient_Z": 84,
+      "term": 41
+    },
+    {
+      "j": 10,
+      "coefficient_Q": 61,
+      "coefficient_Z": 14,
+      "term": 46
+    },
+    {
+      "j": 11,
+      "coefficient_Q": 12,
+      "coefficient_Z": 6,
+      "term": 72
+    },
+    {
+      "j": 12,
+      "coefficient_Q": 0,
+      "coefficient_Z": 16,
+      "term": 0
+    },
+    {
+      "j": 13,
+      "coefficient_Q": 20,
+      "coefficient_Z": 33,
+      "term": 54
+    },
+    {
+      "j": 14,
+      "coefficient_Q": 46,
+      "coefficient_Z": 92,
+      "term": 91
+    },
+    {
+      "j": 15,
+      "coefficient_Q": 71,
+      "coefficient_Z": 79,
+      "term": 54
+    },
+    {
+      "j": 16,
+      "coefficient_Q": 43,
+      "coefficient_Z": 13,
+      "term": 54
+    }
+  ],
+  "summands_r3": [
+    {
+      "j": 0,
+      "coefficient_Q": 31,
+      "coefficient_Z4": 1,
+      "term": 31
+    },
+    {
+      "j": 1,
+      "coefficient_Q": 48,
+      "coefficient_Z4": 58,
+      "term": 57
+    },
+    {
+      "j": 2,
+      "coefficient_Q": 6,
+      "coefficient_Z4": 3,
+      "term": 18
+    },
+    {
+      "j": 3,
+      "coefficient_Q": 27,
+      "coefficient_Z4": 16,
+      "term": 28
+    },
+    {
+      "j": 4,
+      "coefficient_Q": 81,
+      "coefficient_Z4": 35,
+      "term": 7
+    },
+    {
+      "j": 5,
+      "coefficient_Q": 18,
+      "coefficient_Z4": 37,
+      "term": 60
+    },
+    {
+      "j": 6,
+      "coefficient_Q": 46,
+      "coefficient_Z4": 28,
+      "term": 76
+    },
+    {
+      "j": 7,
+      "coefficient_Q": 32,
+      "coefficient_Z4": 40,
+      "term": 68
+    },
+    {
+      "j": 8,
+      "coefficient_Q": 32,
+      "coefficient_Z4": 3,
+      "term": 96
+    },
+    {
+      "j": 9,
+      "coefficient_Q": 10,
+      "coefficient_Z4": 79,
+      "term": 83
+    },
+    {
+      "j": 10,
+      "coefficient_Q": 49,
+      "coefficient_Z4": 20,
+      "term": 71
+    },
+    {
+      "j": 11,
+      "coefficient_Q": 57,
+      "coefficient_Z4": 36,
+      "term": 32
+    },
+    {
+      "j": 12,
+      "coefficient_Q": 91,
+      "coefficient_Z4": 21,
+      "term": 93
+    },
+    {
+      "j": 13,
+      "coefficient_Q": 61,
+      "coefficient_Z4": 98,
+      "term": 19
+    },
+    {
+      "j": 14,
+      "coefficient_Q": 38,
+      "coefficient_Z4": 35,
+      "term": 17
+    },
+    {
+      "j": 15,
+      "coefficient_Q": 53,
+      "coefficient_Z4": 58,
+      "term": 44
+    },
+    {
+      "j": 16,
+      "coefficient_Q": 2,
+      "coefficient_Z4": 1,
+      "term": 2
+    }
+  ],
+  "cancelled_denominator_indices": [
+    84,
+    185,
+    286,
+    387,
+    488,
+    589,
+    690,
+    791,
+    892,
+    993,
+    1094,
+    1195,
+    1296,
+    1397,
+    1498,
+    1599
+  ],
+  "method": "R605 literal AC*(Z(w^p)/Z(w))^1 or ^4; p-unit factorial arrays; FLINT finite series",
+  "runtime_seconds": 0.009683398999186466,
+  "source_sha256": "fdd6543750da0e2de54a7af45c0d703479c14aa249b1b3eb0285ca4f6511efb5"
+}

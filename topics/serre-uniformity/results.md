@@ -586,3 +586,5 @@
 - **R621（已证明）**：[SS_j0_11原前缀恢复及同分量F2/F3整盘排除](results/R621-SS_j0_11-public-prefix-recovery-and-complete-F2-F3-exclusion.md)。从182位续原304位链，完整Norm/高度/全尾；F2根[1, 35]与四同标签F3均不相交。非CM SS已排49/105。
 
 - **R684（已证明）**：[全部纯p方向的普通类群下降与转移](results/R684-ordinary-intermediate-class-groups-and-all-p-direction-transfers.md)。保留普通单位、主除子及主化核，证明每个H的Norm给A/(h−1)A≅A_fixed；42个mixed方向类群均为k，完整转移和单位Norm商依m精确分类。scalar扩张注入iff m=nT=43，此时原C=0、L=31；实际m/C/J/b/nT仍未求。
+
+- **R687（已证明算法）**：[直接由原R605函数计算两个系数](results/R687-direct-R605-unit-factorial-algorithm.md)。在n<p²范围用阶乘p单位部分先严格抵消唯一p分母，有限域截断直接算AC·(Z(w^p)/Z(w))及其四次通道；不依赖Kronecker比较。保存p101/1013实际数据，供精确例外的独立核定；未证明全p非消失。
