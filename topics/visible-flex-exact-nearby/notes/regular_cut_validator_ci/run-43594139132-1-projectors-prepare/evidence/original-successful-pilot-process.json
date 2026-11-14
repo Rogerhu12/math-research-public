@@ -1,0 +1,415 @@
+{
+  "kind": "actual_public_complete_cut_projector_four_cell_pilot_process",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43591378059",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "cb6fa6474f8d48c756095916ad1ae2cc2dc9160a",
+  "worker_source_sha256": "24534818f590f02477ed1dba82748d2fc0daaadb1fb5b8c1b4d07d767c4f0e54",
+  "started_utc": "2026-11-14T11:44:44.291950+00:00",
+  "children": [
+    {
+      "label": "public_full193_algebra_Gram_signed_rate_mean_and_true_angle_gates",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_public_algebra_gates.py",
+        "--out",
+        "/__w/_temp/visible-exact-cut-projector-pilot/native/complete-public-algebra-gates.json.gz"
+      ],
+      "started_utc": "2026-11-14T11:44:44.735584+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000694727999999,
+      "finished_utc": "2026-11-14T11:44:49.736550+00:00"
+    },
+    {
+      "label": "actual_complete_193_by_96_continuous_projector_cell_0",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_projector_validator.py",
+        "--candidate",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--object",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--proposal",
+        "/__w/_temp/visible-exact-original-complete-cut-frames/native/complete-cut-proposal.json.gz",
+        "--frames",
+        "/__w/_temp/visible-exact-original-complete-cut-frames/frames",
+        "--first",
+        "0",
+        "--end",
+        "1",
+        "--degree",
+        "24",
+        "--bits",
+        "256",
+        "--max-new-cells",
+        "1",
+        "--out",
+        "/__w/_temp/visible-exact-cut-projector-pilot/native/validated-cell-00000-00001.json.gz"
+      ],
+      "started_utc": "2026-11-14T11:44:51.502806+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 30.001143352,
+      "finished_utc": "2026-11-14T11:45:21.504367+00:00"
+    },
+    {
+      "label": "actual_complete_193_by_96_continuous_projector_cell_76",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_projector_validator.py",
+        "--candidate",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--object",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--proposal",
+        "/__w/_temp/visible-exact-original-complete-cut-frames/native/complete-cut-proposal.json.gz",
+        "--frames",
+        "/__w/_temp/visible-exact-original-complete-cut-frames/frames",
+        "--first",
+        "76",
+        "--end",
+        "77",
+        "--degree",
+        "24",
+        "--bits",
+        "256",
+        "--max-new-cells",
+        "1",
+        "--out",
+        "/__w/_temp/visible-exact-cut-projector-pilot/native/validated-cell-00076-00077.json.gz"
+      ],
+      "started_utc": "2026-11-14T11:45:25.905790+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 30.00114312299999,
+      "finished_utc": "2026-11-14T11:45:55.907449+00:00"
+    },
+    {
+      "label": "actual_complete_193_by_96_continuous_projector_cell_3300",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_projector_validator.py",
+        "--candidate",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--object",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--proposal",
+        "/__w/_temp/visible-exact-original-complete-cut-frames/native/complete-cut-proposal.json.gz",
+        "--frames",
+        "/__w/_temp/visible-exact-original-complete-cut-frames/frames",
+        "--first",
+        "3300",
+        "--end",
+        "3301",
+        "--degree",
+        "24",
+        "--bits",
+        "256",
+        "--max-new-cells",
+        "1",
+        "--out",
+        "/__w/_temp/visible-exact-cut-projector-pilot/native/validated-cell-03300-03301.json.gz"
+      ],
+      "started_utc": "2026-11-14T11:46:00.034050+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 30.00115066700002,
+      "finished_utc": "2026-11-14T11:46:30.035631+00:00"
+    },
+    {
+      "label": "actual_complete_193_by_96_continuous_projector_cell_5969",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_regular_cut_projector_validator.py",
+        "--candidate",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/candidate/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--object",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+        "--repair-report",
+        "/__w/_temp/visible-exact-cut-projector-pilot-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--proposal",
+        "/__w/_temp/visible-exact-original-complete-cut-frames/native/complete-cut-proposal.json.gz",
+        "--frames",
+        "/__w/_temp/visible-exact-original-complete-cut-frames/frames",
+        "--first",
+        "5969",
+        "--end",
+        "5970",
+        "--degree",
+        "24",
+        "--bits",
+        "256",
+        "--max-new-cells",
+        "1",
+        "--out",
+        "/__w/_temp/visible-exact-cut-projector-pilot/native/validated-cell-05969-05970.json.gz"
+      ],
+      "started_utc": "2026-11-14T11:46:34.258551+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 30.001127088000004,
+      "finished_utc": "2026-11-14T11:47:04.260259+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T11:44:44.615416+00:00",
+      "before": "cb6fa6474f8d48c756095916ad1ae2cc2dc9160a",
+      "after": "cb6fa6474f8d48c756095916ad1ae2cc2dc9160a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:44:50.032525+00:00",
+      "before": "cb6fa6474f8d48c756095916ad1ae2cc2dc9160a",
+      "after": "cb6fa6474f8d48c756095916ad1ae2cc2dc9160a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:45:22.391592+00:00",
+      "before": "cb6fa6474f8d48c756095916ad1ae2cc2dc9160a",
+      "after": "c96949e2878756796520133f23c9f4c03dea7523",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:45:24.323500+00:00",
+      "before": "c96949e2878756796520133f23c9f4c03dea7523",
+      "after": "915d33e016811f34df2b5dabc38f6ad1dc061b8b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:45:56.766091+00:00",
+      "before": "915d33e016811f34df2b5dabc38f6ad1dc061b8b",
+      "after": "6575be3a1a8f9f1c08aa01f1ea6b8bc69c1d1e93",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:45:58.611023+00:00",
+      "before": "6575be3a1a8f9f1c08aa01f1ea6b8bc69c1d1e93",
+      "after": "db50372b8573ebf39232ab3dc55b26ddede88a97",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:46:30.863637+00:00",
+      "before": "db50372b8573ebf39232ab3dc55b26ddede88a97",
+      "after": "1c7d5be34e59044ec72e4019340e0b0f83ab0cb2",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:46:32.688306+00:00",
+      "before": "1c7d5be34e59044ec72e4019340e0b0f83ab0cb2",
+      "after": "ba4e7d1d2aa6c640b4bd8de6988261e63d3f9a7c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:47:05.055962+00:00",
+      "before": "ba4e7d1d2aa6c640b4bd8de6988261e63d3f9a7c",
+      "after": "a14afab6edf5d6d6cccb667c55d7bc304be99957",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:47:06.909318+00:00",
+      "before": "a14afab6edf5d6d6cccb667c55d7bc304be99957",
+      "after": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:47:08.642050+00:00",
+      "before": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a",
+      "after": "9053a410526ef05b1ab69db160431597d9f1b98d",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T11:44:51.500150+00:00",
+      "final": false,
+      "commit": "776f90270efbdea3e2ec7a3c300415367adb56ae"
+    },
+    {
+      "time": "2026-11-14T11:45:23.980143+00:00",
+      "final": false,
+      "commit": "915d33e016811f34df2b5dabc38f6ad1dc061b8b"
+    },
+    {
+      "time": "2026-11-14T11:45:25.903407+00:00",
+      "final": false,
+      "commit": "71a755e79818d45b8363ac9120b09abd86914fa8"
+    },
+    {
+      "time": "2026-11-14T11:45:58.277320+00:00",
+      "final": false,
+      "commit": "db50372b8573ebf39232ab3dc55b26ddede88a97"
+    },
+    {
+      "time": "2026-11-14T11:46:00.031569+00:00",
+      "final": false,
+      "commit": "8f175c44f0b8a74c0a2f1d86b8bf900055b9efec"
+    },
+    {
+      "time": "2026-11-14T11:46:32.398872+00:00",
+      "final": false,
+      "commit": "ba4e7d1d2aa6c640b4bd8de6988261e63d3f9a7c"
+    },
+    {
+      "time": "2026-11-14T11:46:34.255959+00:00",
+      "final": false,
+      "commit": "ca623c4d9a04ded2070f9748f1c6b2f0448eeb37"
+    },
+    {
+      "time": "2026-11-14T11:47:06.590658+00:00",
+      "final": false,
+      "commit": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a"
+    },
+    {
+      "time": "2026-11-14T11:47:08.362893+00:00",
+      "final": false,
+      "commit": "9053a410526ef05b1ab69db160431597d9f1b98d"
+    },
+    {
+      "time": "2026-11-14T11:47:10.073114+00:00",
+      "final": true,
+      "commit": "91ed27a72b21d381304dc16893c5f79b4582f6bb"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "requested_disjoint_original_indices": [
+    0,
+    76,
+    3300,
+    5969
+  ],
+  "original_complete_frame_run": 43588509643,
+  "original_frame_cells_recomputed": 0,
+  "selected_actual_cells_completed": [
+    0,
+    76,
+    3300,
+    5969
+  ],
+  "complete_original_5970_cells_claimed": false,
+  "continuous_global_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "f4d98d4e9316b005621b539c538b6e6b49f19e56d450c789c5fc7f99965a2bd3",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "9053a410526ef05b1ab69db160431597d9f1b98d",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-cut-projector-pilot-work/science",
+  "snapshot_utc": "2026-11-14T11:47:08.667288+00:00",
+  "wall_seconds": 144.376000338,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-complete-frame-process.json",
+      "file": "evidence/original-complete-frame-process.json",
+      "bytes": 7123,
+      "sha256": "f585fea59b77fa8f0517b9e5875eeaae5ccfb785bdd679e5bb0470c4f8dcf269"
+    },
+    {
+      "logical_file": "evidence/validated-cell-00000-summary.json",
+      "file": "evidence/validated-cell-00000-summary.json",
+      "bytes": 34761,
+      "sha256": "1fa04778469adb063456274d279f0bd3cbd6546bad005309d2e88b27d44e4d64"
+    },
+    {
+      "logical_file": "evidence/validated-cell-00076-summary.json",
+      "file": "evidence/validated-cell-00076-summary.json",
+      "bytes": 34782,
+      "sha256": "d70ac90cce4c58733ad92966a0a07dc9b8e954c5a410a6d1bfea08b18f12c98e"
+    },
+    {
+      "logical_file": "evidence/validated-cell-03300-summary.json",
+      "file": "evidence/validated-cell-03300-summary.json",
+      "bytes": 34753,
+      "sha256": "7cf30d14cf26c62573c66666843dabea9ceebfc874a7eb0654a1265e7c510037"
+    },
+    {
+      "logical_file": "evidence/validated-cell-05969-summary.json",
+      "file": "evidence/validated-cell-05969-summary.json",
+      "bytes": 34679,
+      "sha256": "8669aa0ec4610eae56fe787d38c4fcf4c34c23134a3fc7f4060cb353feb5d251"
+    },
+    {
+      "logical_file": "native/complete-public-algebra-gates.json.gz",
+      "file": "native/complete-public-algebra-gates.json.gz",
+      "bytes": 2395,
+      "sha256": "e0f83a7592374b9ec51af1c852b6d40c12fc1e08443d82b37a7ca9fc8327d6c8"
+    },
+    {
+      "logical_file": "native/validated-cell-00000-00001.json.gz",
+      "file": "native/validated-cell-00000-00001.json.gz",
+      "bytes": 10192,
+      "sha256": "5e8ed96c4be24de926f935c0366c53b17ea05f40a19d5b5332a4e9300fa243a9"
+    },
+    {
+      "logical_file": "native/validated-cell-00076-00077.json.gz",
+      "file": "native/validated-cell-00076-00077.json.gz",
+      "bytes": 10373,
+      "sha256": "26a9dae9bfe1bbf0d3aab306612db7d985cebeeecad06e48716fe0d1fcd98a54"
+    },
+    {
+      "logical_file": "native/validated-cell-03300-03301.json.gz",
+      "file": "native/validated-cell-03300-03301.json.gz",
+      "bytes": 10630,
+      "sha256": "ffd2b2755481d0c7c71cfd12aa41f94f85fd57c16ab8fad27cb5f775d6384cbe"
+    },
+    {
+      "logical_file": "native/validated-cell-05969-05970.json.gz",
+      "file": "native/validated-cell-05969-05970.json.gz",
+      "bytes": 10598,
+      "sha256": "d51f3f1aa0bf8ac7af555de349f52c9b0fecb6e5beec67a90fbe81a9a8c7424e"
+    }
+  ],
+  "actual_public_synthetic_gates": 7,
+  "actual_complete_continuous_cells": 4,
+  "finished_utc": "2026-11-14T11:47:08.368703+00:00"
+}
