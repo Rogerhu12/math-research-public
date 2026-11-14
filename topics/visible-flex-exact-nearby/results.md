@@ -25,3 +25,5 @@
 - [R133完整帽trial的实际Hessian修正费](results/R133-supplement-actual-complete-cap-trial-Hessian-error.md)：恢复全部1341系数片/1977交片/97输入的原实际Hessian消费者；η0上EH<3.320733114e−5，moving误差≤1.003854965 εcap+3.333534423e−5。完整physical εcap仍须实际付清，旧三个−9及保存前缀保留。
 
 - [R133分片regular投影的全部jump-Green合同](results/R133-supplement-piecewise-regular-projectors-and-complete-jump-Green.md)：恢复193态分片正交投影Green条件定理：保完整状态jump的两向界面方程、projector gap、所有源/两端/mean及单侧sup。δ<1及st<1仍须后续真实计算，finite QR未被当作连续逆。
+
+- [R133当前完整外部曲率与同世界平帽](results/R133-supplement-current-complete-exterior-curvature-and-common-world-caps.md)：恢复当前双bump/受控深尾的完整物理C2与唯一mean高度，并实际重新执行44有理门。已匹配外部的曲率<2、同世界位置费<8e−6、法向费<16e−6；匹配、固定帽高与最终闭族仍为未完成输入，不能分别重置两帽高度。
