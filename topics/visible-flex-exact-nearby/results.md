@@ -27,3 +27,5 @@
 - [R133分片regular投影的全部jump-Green合同](results/R133-supplement-piecewise-regular-projectors-and-complete-jump-Green.md)：恢复193态分片正交投影Green条件定理：保完整状态jump的两向界面方程、projector gap、所有源/两端/mean及单侧sup。δ<1及st<1仍须后续真实计算，finite QR未被当作连续逆。
 
 - [R133当前完整外部曲率与同世界平帽](results/R133-supplement-current-complete-exterior-curvature-and-common-world-caps.md)：恢复当前双bump/受控深尾的完整物理C2与唯一mean高度，并实际重新执行44有理门。已匹配外部的曲率<2、同世界位置费<8e−6、法向费<16e−6；匹配、固定帽高与最终闭族仍为未完成输入，不能分别重置两帽高度。
+
+- [R133全部141块连续模型几何与实际腰误差](results/R133-supplement-complete-141-block-continuous-model-geometry.md)：原径向141块8966格和完整张量消费者均真实return0；全[0,25/8]、连续角的η0模型R<1.275713422847、frame support>.900961392986，实际旋转腰到完整反射模型距离>.1292202659845；真实腰eQ/eF已付，可直接消费共同腰比较。保存原完整gzip的精确增量，不宣称GC零点或最终闭族。

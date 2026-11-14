@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_verify_moving_geometry_grid.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--geometry-report",
+    "/workspace/scratch/ac0d699811ad/geometry-final-20261114/report.json",
+    "--geometry-blocks",
+    "/workspace/scratch/ac0d699811ad/geometry-final-20261114/blocks",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/attempt04.json.gz",
+    "--resume",
+    "--max-blocks",
+    "29"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby",
+  "source_sha256": "3347e0614a01300d770a40355214aa8135332faec9ba84121f1870ffd674d8bb",
+  "started_utc": "2026-11-14T08:50:37.842978+00:00",
+  "state": "finished",
+  "address_space_MiB": 1792,
+  "resume_native_sha256": "4c4383de14d2cd686a4f8ee0688fe060e8c588668e6d207a95fe9905c9cf7bd0",
+  "resume_complete_blocks": 112,
+  "resume_complete_rows": 7167,
+  "old_source_tree_read_only": true,
+  "prior_actual_exit_code": 137,
+  "actual_returncode": 0,
+  "wall_seconds": 2563.289714218001,
+  "maximum_child_RSS_KiB": 581852,
+  "finished_utc": "2026-11-14T09:33:21.151002+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "byte_exact_recovery_of_complete_original_radial_and_tensor_geometry",
+  "radial": {
+    "delta_sha256": "41b30bab20da408b9f5a7e64af327093e5638fd72642c135845d2e49e6823447",
+    "delta_bytes": 1607714,
+    "original_sha256": "c76859283d76d0ea093fadb2d89b6d53cb9b832d0e681e3255a83d8a311eeccf",
+    "original_bytes": 7282393,
+    "original_complete": true,
+    "new_entries": {
+      "rows": 2055,
+      "block_checks": 33
+    },
+    "actual_saved_delta_restored_original_gzip_bytes": true
+  },
+  "tensor": {
+    "delta_sha256": "530cfd18570c4c35372a127b96f544348e638802e6c441cad9f0d404e5a20c26",
+    "delta_bytes": 605910,
+    "original_sha256": "84cd78f5a76f563940c8ee666db979435a6d1a9878041491b3c6bdf00ee5b136",
+    "original_bytes": 2647544,
+    "original_complete": true,
+    "new_entries": {
+      "rows": 2055
+    },
+    "actual_saved_delta_restored_original_gzip_bytes": true
+  },
+  "combined_parameter_scope": "eta_0_only",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "actual_full_radial_completion_record": "2026-11-14-R133-directed-radial-complete0141-process.json",
+  "actual_full_tensor_completion_record": "2026-11-14-R133-continuous-tensor-complete0141-process.json",
+  "already_complete_math_not_recomputed": true,
+  "takeover_duplicate_resume_attempt": {
+    "actual_returncode": 1,
+    "reason": "only a successful same-identity partial tensor consumer may resume",
+    "input_was_already_complete": true,
+    "original_native_was_not_modified": true
+  },
+  "nonlinear_solution_exists": false,
+  "final_closed_family_proved": false
+}
