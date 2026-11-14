@@ -1,0 +1,63 @@
+{
+  "kind": "actual_public_directed_matrix_old_circle_sources_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43632464994",
+  "run_attempt": "1",
+  "workflow_commit": "cc63139fb3fae12f99ee332bae4a41ac0dddb3ee",
+  "worker_sha256": "a65a6571906c2ebbb788c30c653cc5b4389b132544ff17f5dc9b1e949367d6d7",
+  "manifest_sha256": "29465d2a93165f40f42b2ea73c772374a882475fd59f44fdbce20b37ff4d402f",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T19:31:07.076265+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "64dde37d8386d2ee588c9e18ed20f82adf8d4f8f",
+      "after": "64dde37d8386d2ee588c9e18ed20f82adf8d4f8f",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "64dde37d8386d2ee588c9e18ed20f82adf8d4f8f",
+      "after": "5b0e703d7fb6951eaf8a471c15b620378d999786",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "original_artifact_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "forcing",
+      "run_id": "43624260519",
+      "path": "forcing/consumers/actual-first-Airy-forcing.json.gz",
+      "sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+      "bytes": 6577892
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-directed-matrix-old-circle-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_directed_matrix_old_circle_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-directed-matrix-old-circle-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-directed-matrix-old-circle-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-directed-matrix-old-circle-sources-CI-inputs.json",
+    "--manifest-sha",
+    "29465d2a93165f40f42b2ea73c772374a882475fd59f44fdbce20b37ff4d402f",
+    "--out-dir",
+    "/__w/_temp/visible-exact-directed-matrix-old-circle-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-directed-matrix-old-circle-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 20,
+  "actual_scientific_checkout_commit": "64dde37d8386d2ee588c9e18ed20f82adf8d4f8f",
+  "mathematical_wall_seconds": 89.308648185
+}
