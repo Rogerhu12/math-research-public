@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`242092cfc86d1b506b0c81f12b4e329fde5dcbee`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`8f4802e4c038425f89968b2cbafb16dd0bf09174`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:02:06 UTC实际pull至`fb59f636d9b9ce20c96325dbe19a3b4c504ac21b`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:01 UTC。
 
@@ -34,7 +34,7 @@ resume actual43635770962/sourcecc8a9c9d已complete175.069s，新人工pass，qua
 
 改以f198整场为源，χ=1−S11在tc=.036到.198过渡，T*=Rz(χΔu)T、a*=a+χΔa0，b/zc/Π保；外域六jet准确恢复、a*>0。actual43636741138/source05ca5a96新人工pass，唯一初态无优化124.953s。新physical `5f036761897480b3ff8e7f68f7b5d8ff8a1c5771bd0926b03b4e4f74ccb12d85`，新g `211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e`，不是旧g精化。
 
-170×384/768 η1.183695/1.185449，κ270.727（旧同态149）；metriccost.0334642略高旧.0312192。外域sixjets/gjet/b/center差0。minz.01425708、镜像.01425979<.061与strip.393509都仍在未改外域；局部入口继续改也不变这些同点失败。新R66下界.069959984、帽高仍.1427042，必要裕量.0727442，不是reach。完整报告decoded1207649B SHA `6eaea1e47924b243d3685b4ea960633f88562484f0978b7a16e26a8fe8327c3a`；详notes/localized-core-B037-first-actual-and-exterior-obstacles-20261114.md。先读旧g minimax结果；新B优化须保新g/端口且开放外域真实修复，不能在旧失败全段态盲加预算。
+170×384/768 η1.183695/1.185449，κ270.727（旧同态149）；metriccost.0334642略高旧.0312192。外域sixjets/gjet/b/center差0。minz.01425708、镜像.01425979<.061与strip.393509都仍在未改外域；局部入口继续改也不变这些同点失败。新R66下界.069959984、帽高仍.1427042，必要裕量.0727442，不是reach。完整报告decoded1207649B SHA `6eaea1e47924b243d3685b4ea960633f88562484f0978b7a16e26a8fe8327c3a`；详notes/localized-core-B037-first-actual-and-exterior-obstacles-20261114.md。已识别旧自由项锁错新U4/V7/B6；独立leading工厂25ae74fb/driver62f2b3ec已请求人工→唯一f198初态。支撑.081成套改u4/v7，以紧支撑Δzc的导数改b6且总积0；完整新g211c仍保，新b0身份必须升级，原c0/源f198分列。无Q/优化，只付leading非全Cauchy；外域需后续共同变量修复。
 
 ## 5. 理论当前真实边界
 
@@ -52,4 +52,4 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；resu
 
 ## 6. 持续推进
 
-理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935已资源退并登记；当前新actual43637739532/source09bbfd75为metric_epigraph与pure_tail_next_reduce。D25 consumer已complete并登记R92；metric_epigraph仍运行，读取其人工/实际门后接下一真实方向。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
+理论actual43635287277两lane已complete：dual准确37子式成功（R87已登记），tail完整原式资料见notes/pure-tail-first-actual-complete-20261114.md。joint_resume43635770962已完成；R88指定式consumer与局部B初态43636741138已登记。multiple_pair_P1原run43637269935已资源退并登记；actual43637739532/source09bbfd75的D25已登记R92，metric_epigraph仍运行。当前request只跑localized_leading_initial，根读结果；literature正建真实分权总成员producer，repo_sources续action端势/真实驱动。旧四次/joint不重复。新实际发布后pull核两README并同步H/log/open；子问题接open不等阶段批准。原始来源边界见notes/literature-20261114.md，不重复清单代替研究。
