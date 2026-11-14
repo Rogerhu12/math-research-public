@@ -8,7 +8,28 @@
   "workflow_commit": "c04f67b114b8dae9b15cbf09f035a8e6c39e9f25",
   "worker_source_sha256": "9b9ae2e6bc08cbfd6dfd531d324342fbed070cf0c9ed21ea1c35a75965ea0480",
   "started_utc": "2026-11-14T13:43:48.619721+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_repaired_complete_regular_Hs_and_true_outer_reference",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_regular_Hs_outer.py",
+        "--repair",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--cap-background",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-continuous-repair-physical-cap-background-v2-native.json.gz",
+        "--old-outer",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-regular-Hs-Riccati-rational.json",
+        "--out",
+        "/__w/_temp/visible-exact-repaired-positive-output/native/repaired-complete-regular-Hs-outer.json.gz"
+      ],
+      "started_utc": "2026-11-14T13:43:50.979345+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.000518299999996,
+      "finished_utc": "2026-11-14T13:43:55.980466+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T13:43:49.314192+00:00",
@@ -25,9 +46,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:43:56.276691+00:00",
+      "before": "aa38e597288e96d9454c51877b2832eceef92d96",
+      "after": "9a09d8ffb98240228ba29209d39b07cfbe030d27",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T13:43:50.976722+00:00",
+      "final": false,
+      "commit": "9a09d8ffb98240228ba29209d39b07cfbe030d27"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -60,17 +95,23 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "aa38e597288e96d9454c51877b2832eceef92d96",
+  "last_read_commit": "9a09d8ffb98240228ba29209d39b07cfbe030d27",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-repaired-positive-work/science",
   "original_complete_positive_byte_restoration_verified": true,
-  "snapshot_utc": "2026-11-14T13:43:49.652833+00:00",
-  "wall_seconds": 1.033682128999999,
+  "snapshot_utc": "2026-11-14T13:43:56.292242+00:00",
+  "wall_seconds": 7.673091987999996,
   "native_files": [
     {
       "logical_file": "evidence/original-positive-byte-restoration.json",
       "file": "evidence/original-positive-byte-restoration.json",
       "bytes": 1807,
       "sha256": "46f36c35f51f3430ca867062c994a4c0b34c61a0641efd9b57ab1d3ee07171e8"
+    },
+    {
+      "logical_file": "native/repaired-complete-regular-Hs-outer.json.gz",
+      "file": "native/repaired-complete-regular-Hs-outer.json.gz",
+      "bytes": 3879,
+      "sha256": "75e7c0e1447306a97971ee05dcb68b8d357cb4fffa5c1a37335a6fc29a473424"
     }
   ]
 }
