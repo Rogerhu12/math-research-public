@@ -154,3 +154,6 @@
 
 
 - **R730（已证明）**：[全部嵌入范数平均给固定深度原 Abel 等距](results/R730-fixed-depth-original-Abel-isometry-by-all-embedding-norm.md)。原高权 AFE 的完整格点界为 $O(\sqrt p)$，原 finite norm 全正整且 $\le p^2-1$；对 $DN\mathcal P$ 取所有嵌入范数消去次数，充分大 $p$ 时某实际本原组件有 $v_p(M_{2,h})\le5/2$。同一 KS 比值和完整一次 $p$ Hodge 界给 $16I_h(p^9u)/(p^9M_{2,h})=u+pH_h(u)$，全充分大允许素数获得固定深度九的等距；候选深度四与实际高度仍开放。
+
+
+- **R731（已证明）**：[全部原层的普通 Gamma Norm 与标记 q 主化](results/R731-complete-ordinary-Gamma-norms-and-marked-q-principalizations.md)。真实 $q$ 类填满 ambiguous socle，普通除子序列给 $H^1(\Gamma,\mathscr P)=0$；原 residue map 精确算得 $N_\Gamma E_{M_n}=(p,s-1,N_{T_n})E_{B_n}$。进一步在同一全局字段主化 $\operatorname{div}Z_n=N_{T_n}P_+Q_n$ 并用普通单位使 $N_\Gamma Z_n=A_\alpha$，保留全 torsor；尚未评价 $Z_n,J,b$。

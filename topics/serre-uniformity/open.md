@@ -239,6 +239,21 @@ $F_p'(b)^{-1}\mathbb Z_p[b]\omega_C$，本原格由 $e_n^*$ 取直接和，
 
 ### 原普通 Norm、首矩与类作用参数
 
+[R731](results/R731-complete-ordinary-Gamma-norms-and-marked-q-principalizations.md)
+现给全部原层的完整普通 $\Gamma$-Norm：
+$N_\Gamma E_{M_n}=(p,s-1,N_{T_n})E_{B_n}$，
+商为 $k[T_n]/(N_{T_n})$。
+原 $q$ 类 $44N_{S_n}c$ 非零且填满 ambiguous socle，
+故 strongly ambiguous 等于 ambiguous；
+完整普通除子/Hilbert90 序列遂消去“单位中的域 Norm”与“普通单位 Norm”的差别。
+原 residue Norm 精确恒等和 $A_n'(1)=-13i$ 给整核，未漏 $q$ 或额外乘 $p^n$。
+进一步可在原 $M_n$ 全局选取
+$\operatorname{div}Z_n=N_{T_n}P_+Q_n$、$N_\Gamma Z_n=A_\alpha$，
+全部解为普通 $\ker N_\Gamma$ torsor。
+这是准确原标记的主化及 Norm 校正存在定理；$Z_n$ 坐标、实际 $J/b$ 尚未求出。
+
+
+
 固定 $p=43$ 的776bit $q$ 已被 Gaussian5 排除，并非实际曲线或 Serre 反例。
 R715 确定原 $m=43$、普通 scalar Norm 满射、$N_PE=(p,\pi)E_L$；
 R718 给所有层 $m_n=42n+1$、$d=\infty$、普通类 Norm 逆极限

@@ -1054,3 +1054,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 同一DN·P全局Norm给平均2vM2h<5+125log2/logp；p≥2^125时某实际primitive h≤5/2，度数消去。
 - 同一有理Abel jet比值及完整一次p Hodge界给16I_h(p9u)/(p9M2h)=u+pH；结合R729得全充分大允许p固定p9等距。无数值计算。
 - 未覆盖整个候选p4盘或原高度；两README无差异，继续适应p的h选择、实际q/β周期与真实普通Norm交换。
+
+
+## 2026-11-14 22:43 Asia/Taipei · serre-public-resume-20261114
+- R731真实q类44N_Sc非零且填满π42n socle，strong ambiguity=ambiguity；完整ordinary除子/Hilbert90序列消去Normic单位与ordinary Norm之差。
+- 每层原q residue Norm与Au'(1)=−13i给NΓE_M=(p,s−1,N_T)E_B及商k[T]/(N_T)，无外支撑遗漏。
+- 原q全局主化divZ=N_TP+Q可由普通单位精确校正NΓZ=Aα；完整torsor/两条ordinary kernel身份保留，未算J/b。
+- 核原R686/R718接口及Milne循环Hasse Norm；两README未变，无新正式计算，继续真实交换链。

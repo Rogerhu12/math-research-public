@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：27081cb749da36bb252daeb59089f2bfcb747979
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。公开Actions发布前实际pull并核规则；最近R717 direct-chirp在14:02:50UTC实际pull，无差异。最近GitHub集成核查：2026-11-14 14:39:13 UTC，两README无差异。执行环境unavailable，根规8允许仅由集成传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即合并重试。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。原生集成核查不冒称本地pull。
+已读规则提交：5b9221186b3dceaf17303230631dac394bbfb9cb
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei，两README无差异。公开Actions发布前实际pull并核规则；最近R717 direct-chirp在14:02:50UTC实际pull，无差异。最近GitHub集成核查：2026-11-14 14:43:19 UTC，两README无差异。执行环境unavailable，根规8允许仅由集成传<100KB小文本；每次读最新main/两README，以最新父提交无强推，拒绝即合并重试。终端恢复立即部分克隆/pull；至少每小时实际pull及读规则差异。原生集成核查不冒称本地pull。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权，禁强推；终端非快进立即pull --rebase重推。PAT仅CLI，未交集成。根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB、大中间量不入库。日志本题≤5行，改共享设施须说明；不设独立审计/冻结审批门。
 
 最新完整归档[本次压缩前交接](notes/2026-11-14-public-handoff-before-R729.md)，内接R724及更早归档链；原open完整公式在notes/2026-11-14-open-checkpoint-through-R721.md。旧本地对象不可依赖，未推结果须按原记录重做，摘要不代证书。已完成计算不得为包装重跑。
@@ -15,7 +15,7 @@
 - R729全充分大允许p原M2非零/共同阶m1已证。R730进一步用全部嵌入Norm平均给某实际primitive h的vM2h≤5/2（p≥2^125）；同一有理jet比值/完整Hodge一次p界给16I_h(p9u)/(p9M2h)=u+pH，固定p9盘等距。仍缺整个候选p4及真实高度；h可随p变。
 - R727已推：原toric norm N_h≡−P_(h−1)(1/√−3)²，若N_h/C_(h−2)/C_(p−h−2)单位则原M2h赋值−2；一般Bruhat一次p损失+有理直线给全尾、vs>3整盘仅center。h7的N=−(47/9)²，实际137147旧C_(p−9)证书闭合这一组件。cartier继续全p实际h选择，保留primitivity/47例外。
 - R728已推原B=Res_(L+/Q)C的有限方程/全部正族分解；实际T^m=[η]、cTc=T⁻¹与Ramanujan e_n切原A，分解同源素于p。真实Néron格F_p′(b)⁻¹Zp[b]ω及其本原直和/极化/NS线丛已给。global继续原X1→C有理函数/β坐标及KS比较，未生成前不冒算高度。
-- R599首矩note §8已推669252ad459f499c6422523945b5da7b048b1b5b；unit继续真实κp–dq/κq–d0交换链及J/b，实际数值未知。
+- R731已推全部原层普通NΓE_M=(p,s−1,N_T)E_B及真实q主化divZ=N_TP+Q、NΓZ=Aα。unit继续与X_t的真正交换链及J/b，数值未得；R599 §8 ep(dq)=(J/2)K0保持。
 - R707固定p41完整129盘=121排除+8CM，无有理尖点；183证明SHA账本已核，O5关闭，勿重跑R656/R709等完整链。
 - R706已成41..200000共5992素数窗口；唯一Cp−3零137147，Cp80155，后两权117309/122674。R722原137147M2单位已认证，不再待算。
 
@@ -48,6 +48,7 @@ core receipt41940fcf1fde383e723c1b5c0265f23b04ed441cb86d8f1e946223ec721b1c2c；r
 
 固定原776bitq/s/t/Γ/Robert祖先；q已Gaussian5排除，非Serre反例。R591完整小域整环资料不代原Robert u。R561原scalar-p²普通C，L=31−22iC；R619辅助Ct9不可代C；R633完整普通单位presentation。
 R715两步Tate迫原m43，较短m的H1(P,A)=k²矛盾；N_SE=E_N，N_PE=(p,π)E_L，y真普通Norm。R718全层m_n42n+1/d∞/普通类Norm逆极限RΓ；相容普通单位Norm像已证。R695/R701/R704输入及R708局部43值歧义见归档，不可局部代全局。
+R731原q类44N_Sc为非零socle，strong ambiguity=ambiguity，普通H¹(Γ,P)=0，故ordinary Norm等于单位中的field Norm；原residue map核(p,s−1,N_T)完整确定。原divZ=N_TP+Q的主化可用普通单位校正NΓZ=Aα；只证全局存在/全部torsor，不冒称坐标已算。
 R720原整提升链桥C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)，零iff b24；实际b/J/nT未知，禁止代pure-p24/一次10/Ct9。
 首矩重建note：Jℓ∈F43、选择无关，Jr=−2Jℓ；全部普通见证X+(t−1)E，完整余数改变量恰I²，J为唯一固定首矩。杀全部余数Norm改变量c≡−J/(13i)。R185同一未平均Robert/主化类，flat原Norm=Aα−(8i/1848)u，Jflat=J−18。
 新§8实际R191正Norm链、−i和二次restriction给ep(dq)|q=(J/2)K0，ep(dq−8d0)|q=((J−18)/2)K0、奇异零，与原w配对ε(J−18)。已校d0给28K0；仍缺真正κp–dq与κq–d0交换链及J→b，未冒称旧R599字节恢复。
