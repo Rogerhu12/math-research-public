@@ -8,7 +8,40 @@
   "workflow_commit": "591b25d199d1f50d91a442df1d0b318f3d722a87",
   "worker_source_sha256": "ba487def164d601a0439632d00f81f2fb2218dba01208691b1c0a90a25de8178",
   "started_utc": "2026-11-14T23:24:51.390470+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "new_missing_canonical_same_F_matrices_and_complete_directional_Grams",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-complete-same-F-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_same_F_directional_matrices.py",
+        "--phase",
+        "range",
+        "--bits",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-complete-same-F-output/native/complete-same-F-range-19.json.gz",
+        "--plan",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-exact5970-same-F-disjoint-plan.json.gz",
+        "--group",
+        "19",
+        "--reference-artifact",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/reference",
+        "--frame-slice",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/frames",
+        "--arrays",
+        "/__w/_temp/visible-exact-complete-same-F-output/matrices",
+        "--profile",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/native/complete-5970-local-projectors.json.gz",
+        "--profile-process",
+        "/__w/_temp/visible-exact-complete-same-F-inputs/prepared/evidence/original-complete-projector-process.json"
+      ],
+      "started_utc": "2026-11-14T23:25:01.336317+00:00",
+      "actual_returncode": 1,
+      "wall_seconds": 10.000606328999936,
+      "finished_utc": "2026-11-14T23:25:11.337368+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T23:24:52.227296+00:00",
@@ -51,7 +84,13 @@
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T23:25:01.334248+00:00",
+      "final": false,
+      "commit": "c9684a4390f13972731fc7e0f55eb167590d15da"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -291,7 +330,25 @@
     "reused_pilot_indices": [],
     "slice_id": 9
   },
-  "snapshot_utc": "2026-11-14T23:24:52.700249+00:00",
-  "wall_seconds": 1.3103412510000112,
-  "native_files": []
+  "snapshot_utc": "2026-11-14T23:25:11.345001+00:00",
+  "wall_seconds": 19.955085172999986,
+  "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-matrix-outcome.json",
+      "file": "evidence/actual-latest-matrix-outcome.json",
+      "bytes": 702,
+      "sha256": "dbc511feb74aba4bf58da322ffa265fb04fb0a29e068bd31c3e044e2e25347e1"
+    },
+    {
+      "logical_file": "native/complete-same-F-range-19.json.gz",
+      "file": "native/complete-same-F-range-19.json.gz",
+      "bytes": 1520,
+      "sha256": "303f4c507fd97b769e61dd68b345eec40217272cfb8cb361e39a9e040c5b9540"
+    }
+  ],
+  "failure": {
+    "type": "RuntimeError",
+    "message": "new_missing_canonical_same_F_matrices_and_complete_directional_Grams returned 1"
+  },
+  "finished_utc": "2026-11-14T23:25:11.344419+00:00"
 }
