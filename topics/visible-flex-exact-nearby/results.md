@@ -477,3 +477,6 @@
 
 
 - [实际完整记录](results/R119-supplement-actual-two-phase-compact-response-and-complete-pocket-form.md)：71完整真实两phase compact response：59项新SymPy/Fraction门；全finite-part beta保rho^5，联合无限Γ*参数行与完整negative-pocket型在fresh support有d*/8。非零盒径向补偿、混频簇与全F inverse尚须继续。
+
+
+- [实际完整记录](results/R133-supplement-complete-moving193-physical128-B-C-ports.md)：同一连续修复中心r=9/10、全原η区间的实际B128×193与完整paired(B,C)端口：11门normal0/1.90s，原193输入、独立C mean、物理全部输出尾均保；paired L2误差<1.496913e−11，仍须cap连续残差和全局Schur。
