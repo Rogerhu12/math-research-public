@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_same_F_directional_matrix_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43652855824",
   "run_attempt": "1",
@@ -25,9 +25,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:22:36.048688+00:00",
+      "before": "6a89db01f0413a181465e1e6640597f430e2301c",
+      "after": "054020c327575ff3f6886f8e1946d5580cbc5553",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T23:22:35.748038+00:00",
+      "final": false,
+      "commit": "054020c327575ff3f6886f8e1946d5580cbc5553"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -62,12 +76,18 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "6a89db01f0413a181465e1e6640597f430e2301c",
+  "last_read_commit": "054020c327575ff3f6886f8e1946d5580cbc5553",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-same-F-work/science",
   "original_success_process_sha256": "98fca8dad6990772d6a99eee4bf3a4e489bdbc36646c7c81fd90af3be9ca4736",
-  "snapshot_utc": "2026-11-14T23:22:33.900219+00:00",
-  "wall_seconds": 1.519055054999967,
+  "snapshot_utc": "2026-11-14T23:22:36.078264+00:00",
+  "wall_seconds": 3.6970993019999696,
   "native_files": [
+    {
+      "logical_file": "evidence/complete-plan-matrix-summary.json",
+      "file": "evidence/complete-plan-matrix-summary.json",
+      "bytes": 1765,
+      "sha256": "d524ca268d53b898070d10fea935cf1743306b987d8da652c4c5a03974073865"
+    },
     {
       "logical_file": "evidence/four-actual-original-same-F-array-availability.json",
       "file": "evidence/four-actual-original-same-F-array-availability.json",
@@ -110,5 +130,14 @@
       "bytes": 266218,
       "sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4"
     }
-  ]
+  ],
+  "exact_plan_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
+  "complete_native_sha256": "d893f609bc12e58720444b99a565dc5fdb79df1842cdab4ba6da3ac695a46fd4",
+  "actual_scientific_gates": 7,
+  "actual_complete_local_matrix_cells": null,
+  "actual_new_matrix_cells_this_child": 0,
+  "complete_local_matrix_cells": null,
+  "original_complete_success_reused_without_child": true,
+  "all_matrix_array_bytes_remain_only_in_public_Actions_artifacts": true,
+  "finished_utc": "2026-11-14T23:22:35.755505+00:00"
 }
