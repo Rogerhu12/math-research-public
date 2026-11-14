@@ -1,0 +1,116 @@
+{
+  "kind": "actual_public_fixed_M32_body_cross_weighted_Green_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43637596465",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "cecccf09713dd933f0ddd654009b588dde71ed52",
+  "worker_source_sha256": "17b01cfc23cef3b8a0119e4dfb004c7ac77c2b33fa43b2c677f84827f710ed7f",
+  "started_utc": "2026-11-14T20:28:28.682948+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T20:28:29.775403+00:00",
+      "before": "456522fe4eeebd1f0d7c1ec1a2fe10ce02ba0e9a",
+      "after": "f17f6c6e64be906bab772ac268f21d257fab99bd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T20:28:30.304346+00:00",
+      "before": "f17f6c6e64be906bab772ac268f21d257fab99bd",
+      "after": "f17f6c6e64be906bab772ac268f21d257fab99bd",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_complete_finite193_Green_run": 43601964129,
+  "original_6391_signed_ports_recomputed": 0,
+  "original_target_or_large_array_calls": 0,
+  "original_complete_Riccati_projector_body_mean_or_cap_cells_recomputed": 0,
+  "complete_finite193_ordinary_L2_source_inverse_bound_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "actual_full_PDE_response_error_proved": false,
+  "original_complete_L2_kernel_run": 43633074696,
+  "original_complete_scalar_receipt_run": 43630093667,
+  "original_complete_scalar_mathematical_run": 43628921664,
+  "original_6391_Gram_or_scalar_exponentials_recomputed": 0,
+  "original_target_residual_mean_cap_or_trial_calculations": 0,
+  "complete_body_only_weighted_Green_feedback_bound_proved": false,
+  "high_cut_trace_is_an_independent_input_not_bounded_by_body_L2": true,
+  "input_manifest_sha256": "fecb0119d3e4f472cd74d4ae80f8f31de2ee0ba4b3635e974c2bbe65f200b12e",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "f17f6c6e64be906bab772ac268f21d257fab99bd",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-M32-body-cross-work/science",
+  "actual_input_sha256": {
+    "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
+    "green-process": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c",
+    "kernel": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
+    "kernel-process": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800",
+    "high": "5ad8aaada967f4626a33e978b1c81adf640ee1abaf0876f54ffd22d6dbd107fd",
+    "high-receipt": "cd7aa5f5c21509c629f8508bef21af4254e05716e2868e1804bce60e1ee583fa",
+    "high-receipt-process": "4cc6f8d26ec4804a744aa08d68824080f993edc1c38c9da5ae41fa8511df1448",
+    "high-math-process": "085a31c2f760df9076b0aa87672b05becaa1e699838bc14a71438c7592d38496",
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413"
+  },
+  "snapshot_utc": "2026-11-14T20:28:30.366491+00:00",
+  "wall_seconds": 1.6842996959999965,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-complete-L2-kernel-artifact-process.json",
+      "file": "evidence/original-complete-L2-kernel-artifact-process.json",
+      "bytes": 8264,
+      "sha256": "641c0ca655a9f0ac7c49a30c4b5fd44a4b79552d7c8f8f4533f086d6d2f88800"
+    },
+    {
+      "logical_file": "evidence/original-complete-finite193-Green-process.json",
+      "file": "evidence/original-complete-finite193-Green-process.json",
+      "bytes": 8548,
+      "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "logical_file": "evidence/original-known-high-math-success-publication-failure-process.json",
+      "file": "evidence/original-known-high-math-success-publication-failure-process.json",
+      "bytes": 20712,
+      "sha256": "085a31c2f760df9076b0aa87672b05becaa1e699838bc14a71438c7592d38496"
+    },
+    {
+      "logical_file": "evidence/original-known-high-receipt-artifact-process.json",
+      "file": "evidence/original-known-high-receipt-artifact-process.json",
+      "bytes": 13817,
+      "sha256": "4cc6f8d26ec4804a744aa08d68824080f993edc1c38c9da5ae41fa8511df1448"
+    },
+    {
+      "logical_file": "evidence/original-known-high-six-gate-receipt.json",
+      "file": "evidence/original-known-high-six-gate-receipt.json",
+      "bytes": 12445,
+      "sha256": "cd7aa5f5c21509c629f8508bef21af4254e05716e2868e1804bce60e1ee583fa"
+    }
+  ]
+}
