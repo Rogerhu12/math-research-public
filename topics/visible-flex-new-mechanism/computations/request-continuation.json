@@ -1,44 +1,14 @@
 {
-  "request": "recover-completed-curvature-artifact-and-correct-v2-W36-field-consumer",
-  "created_at": "2026-11-14 22:08 UTC",
+  "request": "recover-completed-curvature-artifact-with-correct-GitHub-archive-Accept",
+  "created_at": "2026-11-14 22:11:12 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "curvature_output_recovery",
-    "full_m8_tail_response_projection"
+    "curvature_output_recovery"
   ],
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
-    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
-    "topics/visible-flex-new-mechanism/scripts/recover_curvature_actions_artifact.py": "279e8d9d218ed44fa527face44ad93887576818680889b9c4253daa22b175e6b"
+    "topics/visible-flex-new-mechanism/scripts/recover_curvature_actions_artifact.py": "235233f4d33b4d72432710ff0aa597fcfd85caf6ccf69e08ff84ed1eac79b42e"
   },
   "jobs": {
-    "full_m8_tail_response_projection": {
-      "development": [
-        "--toy-only",
-        "--out",
-        "@OUT@/full-m8-tail-response-development.json"
-      ],
-      "research": [
-        "--out",
-        "@OUT@/full-m8-tail-response.json",
-        "--templates",
-        "topics/visible-flex-new-mechanism/notes/actions-43645177423-1-local_fourth_quotient/local-fourth-quotient-W-original-expressions.json.gz",
-        "--source-report",
-        "topics/visible-flex-new-mechanism/notes/actions-43645177423-1-local_fourth_quotient/local-fourth-quotient.json",
-        "--publication-receipt",
-        "topics/visible-flex-new-mechanism/notes/actions-43645177423-1-local_fourth_quotient/receipt.json",
-        "--source-report-sha256",
-        "19228a0aecf40416cf7ba7b8a7fa4e0180ed924a4bd04435b0e6e6e4a0b1b28a",
-        "--source-run",
-        "43645177423",
-        "--source-commit",
-        "2f1b809c0b0abb7a26303d36940edc203815f872",
-        "--max-seconds",
-        "240",
-        "--memory-mib",
-        "1024"
-      ]
-    },
     "curvature_output_recovery": {
       "research": [
         "--out-dir",
@@ -55,7 +25,6 @@
   "previous_private_actual_pull_time": "2026-11-14 22:02:43 UTC",
   "preserve_producer_output_limit_and_completed_exports": true,
   "source_identity_completed_by_real_publication_receipt": true,
-  "new_source_artificial_checks_have_not_run": true,
   "new_response_columns": 287,
   "reused_response_columns": 1,
   "whole_function_rank_not_claimed": true,
@@ -77,5 +46,21 @@
     "kept_public_failure": true
   },
   "corrected_v2_source": "pre_response_reduction.retained_original_indices into all_original_control_templates[].original_template_sha256",
-  "constrained_static_consumer_saved_but_not_activated": "R114 reduces the +1 target to the already known G; next research is original-expression 7/8 evaluation, not repeating the same normal-form residual"
+  "constrained_static_consumer_saved_but_not_activated": "R114 reduces the +1 target to the already known G; next research is original-expression 7/8 evaluation, not repeating the same normal-form residual",
+  "prior_recovery_failure": {
+    "run": 43646543691,
+    "phase": "archive-download-with-no-cross-host-token",
+    "http_status": 415,
+    "scientific_data_unmodified": true,
+    "fix": "official Actions archive API Accept application/vnd.github+json before token-free storage redirect"
+  },
+  "completed_full_m8": {
+    "run": 43646543691,
+    "source": "f0652a013fe546778300f0213e659f63ab96ed07",
+    "full_projection_rank": 31,
+    "four_block_projection_rank": 15,
+    "new_columns": 287,
+    "reused_columns": 1,
+    "recompute": false
+  }
 }

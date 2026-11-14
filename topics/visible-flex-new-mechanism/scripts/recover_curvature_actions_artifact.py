@@ -142,7 +142,8 @@ def download_archive(token):
         redirect_hosts.append(parsed.hostname)
         headers = {'User-Agent':'visible-flex-public-artifact-recovery','Accept':'application/octet-stream'}
         if step==0:
-            headers.update(Authorization='Bearer '+token, **{'X-GitHub-Api-Version':'2022-11-28'})
+            headers.update(Authorization='Bearer '+token, Accept='application/vnd.github+json',
+                **{'X-GitHub-Api-Version':'2022-11-28'})
         # No authorization header is added after any redirect, even if a
         # later redirect happens to return to api.github.com.
         with open_no_redirect(url,headers) as response:

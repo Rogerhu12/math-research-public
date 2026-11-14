@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`ec771b9a4a0a2f2e166e9c1b5e867d6dc69e691d`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`705063ecb38386bd5d7e24985736538b5dd25b14`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有22:02:43 UTC在公开Actions实际partialclone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话**进行中**。仅元数据已公开；下一私有pull不晚于23:01 UTC。
 
@@ -56,8 +56,8 @@ R107给a8=0后a7正仿射不变。R110 actual43643100132完整8项给K=B_t1(τ_p
 
 ## 6. 持续推进
 
-R112给L4导数权0/2/4；R113给pure m8响应≤46/四块≤22，单R110四块轨道恰4维，不限制U4基准支撑。R114给常态20整圈正锥E8及[L0]=G(m0)准确配平门；8有理基准可消费，floor整数/真桥IFT/BB倒行给有限真成本解释，非任意半群成本。R115：local43645177423的+2 h²k²=−B_p2(W7)/8，+1一已付/hk与hk³未决；主194340B未另存，W7377B/local657195B gzip已保，不重编。
+R112给L4导数权0/2/4；R113给pure尾响应46/四块22上界；R114给常态正锥E8、[L0]=G(m0)配平门与真整数圈桥解释。R115 local43645177423已付+2，+1的hk/hk³未决；完整W/local原式gzip已保，主194340B未另存。约束+1化为h(k³−k)G，下一只做原G的7/8有理Volterra门，不重复206项NF。
 
-曲率43645177423/source2f1b809c人工与actual success；publisher压缩前拒原大JSON。6件artifact14133787467/823379B待恢复；不重算，科学新值未读。publisher现修为原JSON≤64MB、压缩后<5MB；单.gz仍<5MB。
+**fullm8 actual43646543691/sourcef0652a01已完成**：全部288=287新+R110复用1，精确pure尾秩31/四块15；w−8..2秩0,1,2,3,4,5,6,6,3,1,0，全部依赖差0。2.70977s/RSS29.465MiB，完整证书gzip44576B，未读基准/未付完整尾/mixed/ruling。真实R8下界与31/15查询支付结果正在登记，不重算。
 
-fullm843645929555/source27905679新toy9项pass；actual0.00970s因v2模板字段original_third_sha256 KeyError，尚未算列。新e66bf源码按v2 retained36索引读真实152原表字段，接重新请求；与曲率artifact恢复两lane并行。恢复只改名两旧操作回执、科学四件原字节保。R114新consumer已保但不激活旧NF；+1约束商化为h(k³−k)G，下一只做原G的7/8真实有理Volterra门。上述actual均本公开Actions；子题完接open，不因预算/设施/报告大小收尾。
+曲率原43645177423/source2f1b809c人工/actual均success，6件artifact14133787467。首恢复43646543691元数据/源SHA全过，archive API Accept错误致415，未解压；新235233源码只修初请求Accept继续同原artifact。publisher先gzip后5MB限已修，科学四件原字节保，旧操作回执改名。恢复成功即读新曲率值接下一实算。私有已22:02实际pull，23:01前再拉。子题完接open，不因预算或设施收尾。
