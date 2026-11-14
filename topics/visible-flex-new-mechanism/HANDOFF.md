@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`9b7a41362403c86176f65d28b185e0f0564b14b0`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`4c30342c62edfc29968d8342af18fc53515681e3`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有21:30:00 UTC实际pull至`7c0afa98cea4f65d821cd2f6acb123ee9e6df113`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于22:29 UTC。
 
@@ -24,7 +24,9 @@ A1/B7/25/半宽1/50，L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81
 
 5d保存trial的七输入只读actual43639240317（193.203s/无优化）已付原工作回放六标量差0，fine160×768 η.368054494/κ87.570207，漏峰s=.7875；镜像.102711906、物理三网过/旧δ失败。来源详notes/metric-epigraph-saved-trial-first-fine-result-20261114.md。
 
-**当前dense状态** 028c8954574251287035d2a6c255655050778b4d59e3b05de1086719b887df73，same g/b0/163。actual43640503728/source509a1caf人工pass后唯一SLSQP，14eval/305.485s budget退出，总322.681s/RSS3101156KiB。work160×192 η.265982960，fine384/768 η.268197876/.268197874、κ73.102620/73.102607；误差峰移body s.21，κ仍patch .7875。rawδ.2659538765未抬，工作gap2.91e−5/细.002244真实失败；aux best仍初态。镜像.101055731>.061、minz.02/球norm².990537464/盒帽行容差过，但细strip.390000019476>.39（约1.95e−8，超1e−9容差），不是细网物理全过。帽重建裕−2.78e−17如实保；Π公共η差2.10e−6。raw1706835B SHA51f00f616c667bddd418371ed8230c902112dda4e7f6d33ea9b81b1ac34a396e，详notes/dense-mirror-minimax-first-actual-result-20261114.md。
+dense actual43640503728/source509a1caf的028c同g/b0/163，细η.268197874/κ73.102607；细strip.390000019476及rawδ失败，原报告与notes保。
+
+**当前exchange物理态** e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4，actual43642966285/source d891604e。新人工pass；6轮/12major/13物理/19epi/12Jac因轮数上限退出，末仍16遗漏行，不是收敛。总127.514s、初始化96.095/优化15.623s、RSS3224932KiB，池1440→2152/J2.823MB但全几何Jac瞬时大。384/768 η.266411174/.267146532、κ73.359843/73.359830，曲率略恶化；fine strip.389989992779新内门过，外门余1.00072e−5，镜像.1016723303、其余物理全过。rawδ.26640845723两网仍失败（fine缺.000738075）不抬，辅助best另0eeec190。共同帽重建余−2.78e−17在tol但非严格非负；Π公共η差2.11e−6。raw2111864B SHA c7b6b195cab755b425ccce41bf738ba05a30b65d329ed9b14b93f5211866d78e；全部身份/细表见notes/full-grid-exchange-first-actual-result-20261114.md。
 
 R103已给真实I/K=qII的双PSD曲率门和完整2jet导数，正则性须另查；独立frame_curvature_psd.py新人工16图jet/Jac检查已pass（误差8.30e−10），尚未接研究optimizer。下一同g处理角向漏峰/strip余量与冗余约束矩阵成本；完整J282132480B，不能盲续同巨大matrix。若活跃行生成，须每次完整网格补违反/物理独立筛，保rawδ和真实状态；曲率与完整reach仍欠。
 
@@ -54,6 +56,6 @@ R107真实A_Hd(c)=H⁻⁷A(Hc+d)，a8=0后a7正仿射不变，四块保4a7(B)；
 
 ## 6. 持续推进
 
-公开run43642966285/source d891604e：exchange仍运行；同g/028c/160×384全网筛/单调选行QP，内strip.38999初态失败，≤6调用共享80iter/120eval/300优化秒，prepare/初始化/优化/总时各报，rawδ不抬并同态384/768。c7已complete：10新差式全0，五真实history96项14组/degree2，0.142s/RSS42.234MiB；R108正登记，无period符号。新单方向c7探针run43643100132/source8efadbda已success待读，仅Actions60s，旧query/递归不重跑。literature继续U4/R8，mechanism准备真实曲率λ接口。
+exchange已登记，mechanism正接R103曲率λ新阶段：同g/e407，固定eta_bar167/625，lambda初值取两网κ加裕量，scale100；11组全值筛、16径向行+0/L完整二jet批导，20轮共享80major/120phys/300优化秒，最终.061目标另算。c7 actual43642966285十新差式全0、五history96项14组、0.142s/RSS42.234，R108待登记；单方向probe43643100132给κ=−153664/75非零，R110/R111保基准与奇项控制正写。literature编局部L4=v−B_mN；旧query/forcing不无目的重跑。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md；新增内蕴旋转文献的等变/主曲率假设边界见notes/intrinsic-rotation-literature-scope-20261114.md。

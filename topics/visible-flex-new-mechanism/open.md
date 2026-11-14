@@ -14,7 +14,9 @@
 
 dense actual43640503728已完成：旧100⊂160工作并集消原径向漏峰，14个实际评价后budget退出；新028c8954同g/b0/163的fineη.268197874、κ73.102607，误差峰移body s=.21，曲率仍patch .7875。镜像.101055731>.061，但细strip .390000019476 超硬门0.39及容差；rawδ.2659538765工作/细均失败，未抬高。工作物理best与aux best（仍初态）分别保留。[实际证据](notes/dense-mirror-minimax-first-actual-result-20261114.md)给全部身份和门。
 
-下一处理192→384角的漏峰、条带正余量，以及完整J282MB/RSS约3GiB造成的冗余行开销。保持同g/完整163/帽高/盒/镜像必要行；考虑活跃行或约束生成时必须在完整网格补违反行、独立筛所有物理门，保每次rawδ与预算退出事实。当前并未证明已到局部极小，也不据一次300s退出更换g。曲率73和完整reach仍远未付。[R103](results/R103-actual-metric-curvature-semidefinite-gates.md)已给相对于实际I的准确双PSD局部曲率门及全部2jet参数导数；将来加入必须保entry/Q的完整二阶列、独立正则门及内存分批，不能用目标g替代实际I，亦不能当全reach。
+exchange actual43642966285已找到e407a214全网内条带物理合格态：384/768 eta .266411174/.267146532、κ73.359843/73.359830；fine strip.389989992779、镜像.1016723303。rawδ.26640845723仍两网失败，不抬；六轮/12major后轮数限退出，最后16池外违反，不是收敛。总127.514s，初始化96.095/优化15.623s，选行矩阵仅2.823MB但RSS约3GiB；[完整实际证据](notes/full-grid-exchange-first-actual-result-20261114.md)保全部门与身份。
+
+下一按[R103](results/R103-actual-metric-curvature-semidefinite-gates.md)和[分批交换接口](notes/curvature-PSD-row-exchange-integration-plan-20261114.md)固定同g/e407的eta预算167/625，最小化独立曲率上界lambda，仍保内strip/镜像/帽高/盒。全部五jet/二阶参数列按16径向行+0/L分批，11组全值门筛，不能用目标g冒实际I；先由真实报告给新lambda裕量，旧delta失败不改。20轮仍共享80major/120phys/300s；最终.061局部目标与非局部reach另算。
 
 [R74](results/R74-near-isometric-mirror-and-speed-linear-height-gates.md)的近等距镜像/速度必要式仍保；当前η不小，不能先用其小ε前提。随u/v变化的逐点门必须由当前几何/Jacobian重建，不能复用冻结T的高度多面体。帽高是同一个共同原函数的硬线性行；所有采样通过仍需最后连续与非局部reach支付。
 
