@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R485：二十二权纯角导子、锐模p核与原三源返回](../results/R485-weight22-pure-connection-sharp-kernel-and-actual-return.md)：固定Theta无零阶项的齐次乘子最小权22，全68类闭合并准确计算所有特征p核；累计除常数后p饱和当且仅当N<ceil(136p/11)。固定conductor及新增carry、Gaussian/电荷和实际左右提升配对全付，未赋物理像饱和。
+
 - [R483：原六sigma的CM转移与三曲线完整条件行](../results/R483-original-six-sigma-cm-transfer-and-complete-three-curve-rows.md)：以norm13避开原坐标行列式，完整奇相位/六重纤维把原S/T/new投影移到旧伴随；T保必要两态平均，所有第一环带和共同伴随深度均付。实际Href环带差消未知导数后非零，原混W管随每个CM支移动，未免费赋条件零。
 
 - [R484：原混W在新lift上的共同覆盖与有限核心](../results/R484-original-mixed-axis-common-cover-and-finite-lift-core.md)：最小510整行cover付全部极化/半特征；固定无限ray细分上全中心比值阶4080，真实Theta锚定绝对core。新增V投影逐标签与全轨道交换，原Y移动测试/补管完整保留，不把4080态误认原六输入两态。
