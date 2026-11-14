@@ -91,3 +91,5 @@
 - [R119：完整自由Airy两行端架、低频勘误及旧总账修复](results/R119-supplement-complete-free-Airy-two-row-frame-and-low-frequency-erratum.md)：完整两行自由Airy含normal shear实际κ^-5/6，证明旧低非mean b^1/2中间句失效；新正逆同阶<2^64b、完整正逆g阶余项<2^64b^g（g=4/3,2），所有mean/低中高频与右根交换保。精确J-unitary控制逆架不增条件数；逐有序重付旧H17三显示门及H22/H1/旧高块后继，冻结旧文件不改。新负散射/全网cutoff继续。
 
 - [R133：实际完整moving首符号有限部及真实续算终点](results/R133-supplement-actual-complete-moving-first-symbol-finite-part.md)：实际run43591721337 return0、六门全过，严格复用失败run原2838积分与2个成功root步，仅新增248 midpoint和2 rootjets，3146行完整到cut。Xi有限部严格在(−73.913337474666793,−73.913314715519692)，宽<2.275915e−5；−Xi/4在(18.478328678879919,18.478334368666702)。主代理逐原native/process及rootTaylor公式核对，正确D第二项无额外η。仅η0/δ=0，不授完整β或真PDE。
+
+- [R133：实际完整moving根全频逆、Sobolev与参数圆盘预算](results/R133-supplement-actual-full-frequency-moving-root-budget.md)：公开43594466882真实13门全过、child/wrapper0；原event b84d985与science f61ca978分别保。完整|δ|≤1e−8根复域全频Neumann c<.131785809731，J0<.229690263530；负5/3→负2/3<1.787479366938。全部193方向/真mean/repair/弱flux/投影drift与径向commutator付，未借旧band64门，不授真PDE或两行root连接。

@@ -1,6 +1,6 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 12:32 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 12:34 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
@@ -8,7 +8,7 @@
 blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 指向 `/tmp/visible-exact-0df9-workspace/math-research-public`；objects指向 `/tmp/visible-exact-0df9-git-objects`。ENOSPC已逐字节同迁；新临时输出用同/tmp工作根。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：e61dbf44d59d0a6ceb67e72bf3a736feb33eaf5a；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -67,4 +67,4 @@ geometry43584188751真实26门return0、native88749e6d…6336b：条件为同一
 newton_source：连续regular Green/weighted两边/全源与high反馈、真qν−Z。phase_inverse：完整Xi有限部、moving自身根scalarization、两行匹配/β/j/strong。tail_connector：graph/strict/自由Airy框架/全混频网络。root逐条审证、独立推、接全非线性及最终几何。
 完整全频全源全mean逆、真ν-Schur、非线性F=0、真实外帽/尾matching及同一精确闭族尚未完成；子问题完接open下一项，阶段报告、时长和等待作业均非停止理由。
 
-两行Airy与strict一致，当前waist准确K′=b=S=0；root有限off-diagonal buv/η角均值0但矩阵保。13门audit43592219275真实全过，native6c9ffa29…afcdbe，原包airy-symbol-audit-actions-original/。完整moving根scalarization已证，独立mean/弱flux/全部primitive/commutator保；全频Neumann/Sobolev合同及完整|δ|≤1e−8复根预算已接CI（manifestb1e47bdc…，原响应只消费part005），不授真PDE/两行root连接。
+两行Airy与strict一致，当前waist准确K′=b=S=0；root有限off-diagonal buv/η角均值0但矩阵保。13门audit43592219275真实全过，native6c9ffa29…afcdbe，原包airy-symbol-audit-actions-original/。完整moving根scalarization与全频预算43594466882真实13门全过，native10ff6db8…abb33f；|δ|≤1e−8圆盘c<.131785810、J0<.229690264、负5/3→负2/3<1.787479367。独立mean/弱flux/commutator保，inner5e−6；只消费原part005，不授真PDE/两行连接。
