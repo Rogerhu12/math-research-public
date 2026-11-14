@@ -190,7 +190,7 @@ R774直接复用R748已有newform至4096（run43617493590，文件R748-extended-
 
 [R768](results/R768-original-supported-dual-Kummer-class-and-ordinary-companion.md)保真Σ支持、q二次gauge及2处extension；真eα的full divisor image为唯一λ_id e_q，κ(Xt)不可当ordinary。实际β_P(U)=−ft/9非零。T-Hilbert90/transfer给bλ=0；b≠0时通过到较小EN的真正类Norm/ordinary capitulation同构，真dual与dq下降成V=M^T的ordinary类，保q-local0、两Norm和两导数；b0不外推，b24未排。
 
-[R752](results/R752-exact-Gamma-scalar-exchange-with-the-retained-second-coefficient.md)/[R755](results/R755-exact-dual-Gamma-scalar-primitive-for-the-original-flat-target.md)仍保σ₂：Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0=Iα+7εb。原scalar reference仅9ε且quadratic只用一次；R743的flat与R746的strict-p泛函不能混同。R773继续原纯S整格及实际q配对；真正J/b/σ₂/Iα未知，不能以直接μp相位代regularized pairing。
+[R752](results/R752-exact-Gamma-scalar-exchange-with-the-retained-second-coefficient.md)/[R755](results/R755-exact-dual-Gamma-scalar-primitive-for-the-original-flat-target.md)仍保σ₂：Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0=Iα+7εb。原scalar reference仅9ε且quadratic只用一次；R743的flat与R746的strict-p泛函不能混同。[R773](results/R773-complete-ordinary-scalar-lattice-and-original-mixed-Robert-phase.md)已从原R613全Hq产品逐因子q归约得到无条件rμ(cs)=9，保未平均P+及s11。b≠0时完整E_(M^T)由原us,cs,y生成且有O无挠完整presentation；模p完整socle为ku⊕kn，其中u=−4x42z41cs、n=x40z42cs+i x41z41cs−x42z40cs，真UV=(4/C)n+ηu。真dual两导数的全部ordinary解由同一cs的高次多项式给出，完整直接μp phase为0；这不等于原regularized pairing为0，η/J/b/σ₂/Iα仍未知。后继R776继续实际division cochain及q quadratic homotopy，b0不外推（原Ω₂已非零），b24尚未排。
 
 ### 原sigma同标签非零
 

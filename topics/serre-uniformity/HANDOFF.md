@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：16374b920ccbe8255810bf01bb5c9873acf8b4de
+已读规则提交：cfce13b1e1b39b278368b760d83e0def0c1095c3
 最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable（18:34及18:56 UTC只读重试仍同错误）；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 19:06:09 UTC，main=16374b920ccbe8255810bf01bb5c9873acf8b4de，两README blob均未变；本次为终端不可用期间的API核对。
+远端规则核对：2026-11-14 19:08:20 UTC，main=cfce13b1e1b39b278368b760d83e0def0c1095c3，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R770](notes/2026-11-14-public-handoff-before-R770.md)、[before-R770](notes/2026-11-14-open-before-R770.md)，内接R771及全部较早归档。完成计算不重跑；未推稿按记录重建。
@@ -26,15 +26,15 @@
 
 ## 原ordinary问题及最新结论
 
-原p43、776bitq已Gaussian5排除，非Serre反例。保原Γ/s/t、P0、未平均P+。R715真实ordinary NS满射；R731 NΓEM=(p,s−1,NT)EB，原EB自由且A_B=0。R736同一Xt见证Y满足divY=DTq、NΓY=NSY=DTXt，Z=Xt−(t−1)Y三Norm=Aα；任意d(1)∈pO的同类lemma及q极点相位均可用。
+原p43、776bitq已Gaussian5排除，非Serre反例；保原Γ/s/t、P0及未平均P+。R715普通NS满射，R731 NΓEM=(p,S,NT)EB且EB自由/AB0；R736同一Xt的Y保div=DTq、NΓY=NSY=DTXt，Z=Xt−XY三Norm=Aα。完整旧公式和hash见归档及原结果，勿换ordinary为ray或自由Norm根。
 
-R720原C=9ib、L31+26b、r_y25+9b、Ω₂=ε(22+17b)，零iff b24；实际b/J未知。R599 J选择无关；R185 Aflat=Aα−8i/1848u，Jflat=J−18。R749原scalar参考9ε只一次quadratic restriction。禁代pure-p24、一次10或Ct9。
-R752/R755：原二阶σ₂完整保留，Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0=Iα+7εb=ε(21σ₂+2b(J−18))。negative adjoint、Σ支持/q quadratic-cubic/2处cochain及gauge全保；实际σ₂/Iα/J/b未求。R743 flat与R746 strict-p泛函不能混用。
+R720原C=9ib、L31+26b、r_y25+9b、Ω₂=ε(22+17b)，零iff b24；实际b/J未知，pure-p24/一次10/Ct9禁代。R185 Aflat=Aα−8i/1848u、Jflat=J−18。R755真dual保q quadratic/cubic、2处cochain、negative adjoint，Iα=ε(21σ₂+2bJ)=−〈w,Sα〉，I0=Iα+7εb；scalar参考9ε只一次quadratic。flat/strict-p泛函不混用。
 
-R756/R758 ordinary cube及自然H¹(S,kerΓE)=k[X]/X42：ηα首19X40，下一含J；ψft=X41、ψfs=ibX41、Xηα=19ψft，flat移−8iψft。E∩pU=pE不让三Norm自动可除p。
-R761真实WΓS∈43EM，L=−W/43=XH，πL=VS、SL=VΓ；两对角π²L/S²L不能置零。R763双Norm零torsor的λ=1/实λ=i可清ρ，保同一Xt、η/J及全phase；ρ不是J/b不变量。
+R758自然ψft=X41、ψfs=ibX41、Xηα=19ψft，下一坐标保J，flat移−8iψft。R761真实WΓS∈43EM、L=−W/43=XH、πL=VS、SL=VΓ；π²L/S²L不能置零。R763可清ρ并保同一Xt/J/η/实标记/全phase，ρ非不变量。
 **R766已推dba4e901**：DT的X=T−1 Taylor前c0..c40均43倍，单一Y40向下给原Y0且NTY0=21Aα；H=RΓS/43∈X40EM、L∈X41EM且三Norm全零，实平均保全部性质。d41真实q socle非主化，阻同法再剥；完整证明SHA24abf2bcc5dc766406df336dc56e097da7181161628f4f65cf27a4e381853c18。
 **R768已证明**：真supported dual Kummer类eα的full divisor image唯一λ_id e_q，κ(Xt)是真非ordinary提升；ordinary companion保πe=−2iU、Se=2U、Xe=−λhX、NT e=−λU，β_P(U)=−ft/9≠0。真T-Hilbert90/full divisor/transfer给bλ=0；b≠0时λ0，类Norm A_(M^T)→A_L及ordinary capitulation图使NS:H¹(T,EM)→H¹(T,EN)同构，Bockstein再令真Eα|G_(M^T)与dq成为ordinary单位类，保q-local0、实标记和原两Norm/两边界。b0保例外，b24尚未排除。证明SHAf30bd5ba4dda652b689ec9534219b518f29a839647f701fcae08979f22afa56f；后继R773纯S格与真q配对。
+
+**R773本次已证**：原R613的Hq大小(q²−1)/43，逐q-torsion因子在good supersingular q归约到O，保P+/s11/Δ，真实rμ(cs)=21·25=9（无条件）。b≠0时纯S域V=M^T的完整ordinary格由原us,cs,y生成，给O无挠完整presentation。x=γ−1,z=s−1的socle为ku⊕kn，u=−4x42z41cs、n=x40z42cs+i x41z41cs−x42z40cs；真UV=(4/C)n+ηu，flat η→η+8i。真dual全部ordinary解高次cs表示推出完整直接q相位0，未评估regularized pairing，η/J/b/σ₂仍未知。SHAa43a8201d302949abc315f84f21eff14a6d36ac9c0d8b66175c83acf29331faf；后继R776原cochain p-division，R775保留给K基工程。
 
 ## 主目标与真实高度缺口
 

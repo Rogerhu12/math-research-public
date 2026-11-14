@@ -215,3 +215,8 @@
 - R771实际run43628998192/source49abc04d完成301.12633604秒，M2/M6/M12=146/694/1514，原recipe minor550/206/140 mod739；正常乘积146/418/690/962/1234/1506和椭圆主部全过，真实char0 RR基已得。
 - cert9eb870af949167895daa4e180c16848860f8fea1c9efe1b105ab3cd3a667009f、manifest024ed12029720cc1c5d7ec0612aa484b04cdde8f763fceb852a0fdeabc2c3d74、artifact14127715743及全部关键stage SHA存正式证明；未称K下降基、准确长q表、函数/β/高度。
 - R770首次API ref竞争返回错误后读最新main/404确认未推，重接main并核README后73f1d9b3成功；H/open/index同步。继续R774复用旧4096及R775实际K基，不重跑已成stage，终端不可用按根规矩8非force。
+
+## 2026-11-15 03:08 Asia/Taipei · serre-public-resume-20261114
+- R773原Hq mixed Robert产品逐因子good supersingular q归约给实际rμ(cs)=9；b≠0时us/cs/y完整生成ordinary E_(M^T)，无挠presentation、完整二维socle及真UV的4/C系数已证，η仍未知。
+- 真dual两导数的所有ordinary解有原cs高次表达，完整直接μp phase0而未把regularized pairing置零；证明SHAa43a8201d302949abc315f84f21eff14a6d36ac9c0d8b66175c83acf29331faf。根回读R613原P+/Hq/s11及R561 phase，修正两balanced derivative的augC为−77p、154p。
+- R771实际结果已推6e1b3ab9504d302965075e4ca660a9f24f9c83cb；R776继续原cochain p除，R774复用旧Hodge、R775实际K基并行。H/open/index同步，终端不可用期间核main/两README、小文本非force，无新增本地数学。

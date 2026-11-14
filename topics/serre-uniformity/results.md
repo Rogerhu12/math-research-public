@@ -283,3 +283,6 @@
 
 
 - **R770（已证明）**：[同一真本原标签的原平方与有限双线性配对](results/R770-same-primitive-label-square-and-finite-bilinear-pairing.md)。保原sigma/CM/tame常数给(p²M2,h/ζ)²=(1296αsB⁵P6aUhVh)²；Legendre有限平均及本原筛给同标签三因子的准确配对，未选signed根或证明其非零。原单位残差与所需临界配对差两个总指标。
+
+
+- **R773（已证明）**：[完整ordinary scalar格与原mixed Robert相位](results/R773-complete-ordinary-scalar-lattice-and-original-mixed-Robert-phase.md)。原全Hq产品逐因子在q归约，无条件给rμ(cs)=9；b≠0时原us/cs/y生成完整普通格，准确无挠presentation、二维socle与真UV=(4/C)n+ηu全部固定。真dual解的直接完整μp相位为0，但η和原regularized pairing未求，J/b/σ₂继续。
