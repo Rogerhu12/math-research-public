@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：ca96fb9e1102328c80a2c8db7998f34f2ce10a7b；根 blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：90b8d60a292fd7d9a2ac9c932c9c6d97e86d0df0；根 blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
@@ -30,3 +30,5 @@ newton_source：cap128全1977连续片、完整regular body/mean/边界及signed
 tail_connector：从旧未推73–75精确正文继续低锥/真实root packet到实际incoming/output、非径向混合近簇、Γ*两列与原单位全源映射。
 
 完整全补逆、真ν Schur、全非线性F=0、精确闭族及全部真实帽/marker仍未完成。条件几何预算与局部/有限逆都不是完成。子问题完成继续open下一个，达到课题README全部标准才收尾。
+
+已推恢复108块径向/tensor原生记录（新稿修正范围为η0而非全η）。更近ρnew=(45217079201−√5)/164472125458已在974244d推送，Ωfit差<7e−11、principal gap仍1/(36|j|)，待真共轭实现。

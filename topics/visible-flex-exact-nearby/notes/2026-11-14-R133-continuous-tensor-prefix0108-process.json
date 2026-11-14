@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-u",
+    "scripts/fourfold_codazzi_complete_continuous_tensor_geometry.py",
+    "--mesh",
+    "notes/2026-11-14-R133-complete-geometry-mesh-hulls-native.json.gz",
+    "--radial",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/radial-input-snapshot0108.json.gz",
+    "--angular",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/complete-angular-defect.json.gz",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/geometry-verified-20261114/continuous-tensor-attempt02.json.gz",
+    "--resume"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "fd5fce9d6fce7852a57d63aadb592ab2f5f307abe35f2ac913135d089c69bd64",
+  "started_utc": "2026-11-14T08:12:59.915414+00:00",
+  "state": "finished",
+  "address_space_MiB": 1792,
+  "radial_input_sha256": "e5ce5866ed7d3674ee9be09209df6c4438485d25872dfe592cb6a336f17fc1de",
+  "actual_returncode": 0,
+  "wall_seconds": 21.120534850000695,
+  "maximum_child_RSS_KiB": 444100,
+  "finished_utc": "2026-11-14T08:13:21.065159+00:00"
+}

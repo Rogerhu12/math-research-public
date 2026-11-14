@@ -1,0 +1,83 @@
+{
+  "kind": "actual_108_block_continuous_tensor_extension_identity",
+  "complete_full_radial_cover": false,
+  "complete_final_geometry": false,
+  "radial_cells": 6911,
+  "new_radial_cells": 3008,
+  "total_radial_cells": 8966,
+  "exact_interval": [
+    "7663625365908795/36028797018963968",
+    "25/8"
+  ],
+  "actual_external_process_returncode": 0,
+  "actual_external_wall_seconds": 21.120534850000695,
+  "original_radial_container_sha256": "e5ce5866ed7d3674ee9be09209df6c4438485d25872dfe592cb6a336f17fc1de",
+  "original_radial_container_bytes": 5704225,
+  "actual_delta_restored_original_gzip_bytes": true,
+  "saved_delta_sha256": "2b1a4e6f0b3d36de051052d573b85acc28d2d35e36d56cb6a11e9f6ca4325ec2",
+  "runtime": {
+    "python": "3.12.14",
+    "zlib_compile": "1.3.2",
+    "zlib_runtime": "1.3.2"
+  },
+  "tensor_identity": {
+    "source_sha256": "fd5fce9d6fce7852a57d63aadb592ab2f5f307abe35f2ac913135d089c69bd64",
+    "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "mesh_sha256": "5ed344a88f7f3015fff7a734283b430d0518abe0d4346abf63716893e4edb209",
+    "angular_sha256": "7a3dd2c1d48b611f5d9a6bd8c2d7ebeeeb4c2f6a7c2bcc4f61f4d012be4e2f90",
+    "radial_identity": {
+      "source_sha256": "3347e0614a01300d770a40355214aa8135332faec9ba84121f1870ffd674d8bb",
+      "dependencies": {
+        "fourfold_codazzi_moving_geometry_directed_jets.py": "b93fa88a689043ed3650b831c28a572d388b0e8f9e87b7998e4720df8759b789",
+        "fourfold_codazzi_full_body_graft_target_jets.py": "0a7b76a9820a9670ad40bbeb50e49d2e9a3f3a65e0e2d8f81ee361babba85d95",
+        "fourfold_codazzi_reciprocal_compact_target_jets.py": "6086ea55da07393f0da855ee825bf17ad622d9a5228ba71effd65893194ce56c",
+        "fourfold_codazzi_cubic_target_jets.py": "eb3fe6833fcba0162724031905964563e3f96f77aaa56b7996aadf3856ca8412",
+        "fourfold_codazzi_high_target_jets.py": "ea71aefd62bf0c16c9e9c9fe4a5da5ce95a973cf913825bd875a4ba59fc14168",
+        "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+        "fourfold_phase_root_interval.py": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+        "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+        "fourfold_phase_uniform_tail.py": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61"
+      },
+      "geometry_report_sha256": "49870375c7397a53b867d67ce94aa8fcd2d86a69bfe7fc3a7f482b9232d30a2e",
+      "original_geometry_chain_sha256": "4d87057a72944913d013636f57c1b90688a5df95264825f86241e47535e5ffa1",
+      "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+      "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "q_vector_sha256": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+      "radial_grid_sha256": "8d53a8b1957711d27aeb62a98627a5d76f4870f7bc5df48b1279c5009b775572",
+      "angles": 512,
+      "bits": 192,
+      "integration_norm_scope": "operator norms at all exact angle grid points",
+      "actual_alpha": "6890507429876859/9007199254740992",
+      "actual_nu": "-2572625729470897/72057594037927936",
+      "target_half_width": "1/1000000000"
+    },
+    "exact_world_height_translation": "4347844570122155/4503599627370496",
+    "dependencies": {
+      "fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "fourfold_phase_metric_defect.py": "c4196dddcbfab15116c06a9be8a2120916c05d77fe3d7cb152f842f16b80a7de",
+      "fourfold_codazzi_rotational_cap_jacobi.py": "05dda3acc9cd359c8cd15b61e1d573d310289af984d6923261e61161afc50046"
+    }
+  },
+  "files": {
+    "results/R133-supplement-continuous-tensor-108-block-extension.md": {
+      "sha256": "3328811b2b7421298e91d7230f3431d86ea6be295da6ff8be0a0498c1fb4ee30",
+      "bytes": 5921
+    },
+    "scripts/fourfold_native_exact_prefix_delta.py": {
+      "sha256": "b0b4af143bf2a4f259b80a1f86b7724e1e303b9f3171183297adb810958f884b",
+      "bytes": 5772
+    },
+    "notes/2026-11-14-R133-directed-radial-prefix0108-delta-native.json.gz": {
+      "sha256": "2b1a4e6f0b3d36de051052d573b85acc28d2d35e36d56cb6a11e9f6ca4325ec2",
+      "bytes": 2319642
+    },
+    "notes/2026-11-14-R133-continuous-tensor-prefix0108-native.json.gz": {
+      "sha256": "5d10acca20217ba6ff02078ff3f15a977c1f7cccc29b64253dc8d042098cb210",
+      "bytes": 2046485
+    },
+    "notes/2026-11-14-R133-continuous-tensor-prefix0108-process.json": {
+      "sha256": "931f5ce4f486995e95016a632cbb71f0b89b344be3815de24a847ebdfec235d6",
+      "bytes": 1169
+    }
+  }
+}
