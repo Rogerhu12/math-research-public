@@ -1,29 +1,20 @@
 {
-  "request": "fixed-nine-height-actual-after-shared-grid-provenance-repair",
-  "created_at": "2026-11-14 19:16 UTC",
+  "request": "one-exact-Q-entry-column-artificial-development",
+  "created_at": "2026-11-14 19:13:43 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "height_polytope_audit"
+    "entry_single_q_development"
   ],
   "source_sha256": {
-    "frame_height_polytope.py": "6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c",
-    "frame_height_polytope_audit.py": "b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502"
+    "frame_entry_single_q.py": "b0744e42b00854b85ac6828afc4520c0505b5d4800c47ab4d8bb96c84d04e286"
   },
-  "development_passed_run": 43630530984,
-  "development_source": "c4cbe7f3fec9580d0ca4d9f7cc06c5360f803adc",
-  "case": "bounded_short",
-  "unchanged_fixed_tangent_and_metric": true,
-  "original_height_bounds": [
-    -1,
-    1
-  ],
-  "maximum_LP": 1,
-  "maximum_distance_QP": 1,
-  "maximum_applied_proposal": 1,
-  "joint_metric_solve_requested": false,
-  "angle_refinement": [
-    384,
-    768
-  ],
+  "artificial_inputs_only": true,
+  "real_height_stage_running": 43630874689,
+  "real_height_source": "6cbe68bc31b1b29f23dfeb4f5c6c022b2fd6daa1",
+  "new_tangent_column": "W5*B3*normalized_exact_Q",
+  "Q": "k_theta/k^3",
+  "original_space_embedded_at_zero_new_coefficient": true,
+  "metric_and_immutable_height_reference_unchanged": true,
+  "real_optimization_requested": false,
   "task_complete": false
 }
