@@ -172,7 +172,7 @@
 
 - [R84：第四成本半群与真实frame长度必要界](results/R84-fourth-cost-semigroup-and-frame-length-bound.md) — M=T0真环的V只成有限加法半群，倒行V同号不授负成本或任意正实缩放；周期Wirtinger给L∫(1+k²)ds≥4π²，有界k使正长度恒等frame环不能缩成空词。未证V正性，未排正长度非平凡V0；保R83未知基线。
 
-- [R85：真实pure第四幂尾最低项的准确总导数](results/R85-pure-fourth-leading-tail-is-an-exact-derivative.md) — 保R56全部变系数与真实第二/第三histories，以Wtilde=W+λP给最低4m−9项的完整原函数αb³+βbu；常端芽和零二阶矩阵已使该period系数为0，无须另假设T0。不能以该自动消项证明第四成本正性；4m−8及后续完整系数仍欠。
+- [R85：真实pure第四幂尾最低项的准确总导数](results/R85-pure-fourth-leading-tail-is-an-exact-derivative.md) — 保R56全部变系数与真实第二/第三histories，以Wtilde=W+λP给最低4m−9项的完整原函数αb³+βbu；常端芽和零二阶矩阵已使该period系数为0，无须另假设T0。不能以该自动消项证明第四成本正性；本条仅处理首项，后续R88/R92继续较高项。
 
 - [R86：左侧三矩补偿保持右Volterra分离障碍](results/R86-left-moment-completion-preserves-right-Volterra-obstructions.md) — 三个分离实偶bump的真实矩列为Vandermonde，任意复三矩缺陷可用复平方根系数准确支付；右锚因果性使旧查询矩阵不变。若真实36/37子式非零，C6连续光滑化再补偿给C∞合法三矩圆仍不匹配P1，统一归一保四次齐次子式非零。条件定理已证，实际子式由R87后续支付；不排所有circle或其他机制。
 
@@ -185,3 +185,5 @@
 - [R90：全部常态控制响应的七状态有限系统与正基准成本](results/R90-seven-state-complete-response-and-positive-baseline-system.md) — 明确七个有界有理状态张成全部物理A族，故全响应空间至多252维；有限原始仿射式使基准为有限Laurent(H)/polynomial(d)族。实际配置只能用自身pair的控制，helper正成本必须支付；整数整圈、有理共同放大与实正锥松弛严格分开。提供原式阳性证书与统一正泛函阴性证书条件，未找到共同正锥解或同号泛函，未付P0。
 
 - [R91：正长度universal P1的仿射整权二分](results/R91-affine-character-dichotomy-for-positive-universal-P1.md) — 真pullback保持总响应与有限Laurent空间；平移N幂零、缩放整权。循环商中b不落NU给Λ杀全部控制且Λ(b_Hd)=H^n>0；反向b属总响应则七helper各一正整圈支付P1。尚未决定真实总成员，只讨论同一控制对全部profile的恒等式，不排特殊固定圆或P0+NP1。
+
+- [R92：pure第四再下一幂尾的三primitive二次正规形](results/R92-pure-fourth-next-tail-quadratic-action.md) — 一般m最高/中间端势移除全部第三history，完整M0支付唯一J末值，真实I0再消最低第三；第4m−7周期准确化为三个受同一几何驱动的零端primitive二次action。m8实际43637739532原DAG回代全0、2172项/9组完整导出；仍未证明符号、非零period或零成本环。
