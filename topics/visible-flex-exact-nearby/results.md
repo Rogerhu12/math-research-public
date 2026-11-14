@@ -465,3 +465,6 @@
 
 
 - [实际完整记录](results/R133-supplement-finite-moving-head-to-complete-physical-C-ports.md)：准确微分真实物理Fourier矩与角测度，h1列零、h2even mean保；全65相位系数/精确repair/wholeη/全部物理输出8门通过。moving96到physical96余尾1.657551不可删，pad112<4.422619e−7、pad128<1.757236e−14；通过完整帽Green消费真正遗漏输入，未授全主体Schur。
+
+
+- [实际完整记录](results/R133-supplement-directed-radial-ODE-error-and-tensor-native.md)：准确角点/全部96连接模式/真单侧germ的三阶Taylor与完整四阶余项给无指数径向误差递推；原块状态逐uint64回接，框架Frobenius2与真实operator1分清。61块3903格原输入快照逐字节恢复同SHA，tensor真实0/5.03s，连续覆盖r≥1057564037496759/2251799813685248半径<1.275713423。η交集只η0；腰见证/全径向/外帽/非线性费用仍不授。
