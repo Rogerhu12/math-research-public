@@ -1,0 +1,832 @@
+{
+  "schema": "captured-twelve-query-original-RMS-and-collocation-midpoint-domain-v1",
+  "model_sha256": "18a5ad26655ec12a2c19eb0887a1895ee2bfeadf84f6fac9695f83d2a9f7977b",
+  "query_specs": [
+    {
+      "kind": "left-RMS",
+      "interval": 470,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 471,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 472,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 473,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 475,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 477,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 479,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 480,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "left-RMS",
+      "interval": 481,
+      "fraction": 0.17267316464601146
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 473,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 475,
+      "fraction": 0.5
+    },
+    {
+      "kind": "collocation-midpoint",
+      "interval": 477,
+      "fraction": 0.5
+    }
+  ],
+  "adjoint_and_local_checks": [
+    {
+      "kind": "all-coordinates",
+      "forward_dual": 2005685.7897888636,
+      "transpose_dual": 2005685.7897888534,
+      "normwise_adjoint_error": 5.338229723239566e-18,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "shared-endpoints-and-controls",
+      "forward_dual": -8445143.36513745,
+      "transpose_dual": -8445143.36513745,
+      "normwise_adjoint_error": 0.0,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    },
+    {
+      "kind": "controls-and-zero-support-core",
+      "forward_dual": 0.0,
+      "transpose_dual": 0.0,
+      "normwise_adjoint_error": 0.0,
+      "local_forward_relative_error": 0.0,
+      "local_transpose_relative_error": 0.0,
+      "transpose_outside_declared_support_max": 0.0
+    }
+  ],
+  "original_complex_chain_checks": [
+    {
+      "kind": "actual-supplied-scaled-direction",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "e8a33ba195d601b5f0d03d820def2bf7174a60ed6320ad75af4090ff16377ae7",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          24576
+        ],
+        "dtype": "<f8",
+        "sha256": "fa0e36fe97aa956845796fd342c280d7c52221cf316fc1caa87e641a21b305e4",
+        "bytes": 196608,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          24576
+        ],
+        "dtype": "<f8",
+        "sha256": "ae4f5e103100318af560d6436ea7b2c3edc358da3377906f4d72b8a3fc904bcd",
+        "bytes": 196608,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 9.272582701669307e-11,
+      "maximum_relative_error": 1.0737010004479039e-12,
+      "worst_row": 19434,
+      "worst_query_index": 9,
+      "worst_query_kind": "collocation-midpoint",
+      "worst_interval": 473,
+      "worst_angle_index": 1002,
+      "query_errors": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 4.107825191113079e-12,
+          "maximum_relative_error": 4.922059259085744e-13
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 2.7393642909601112e-12,
+          "maximum_relative_error": 9.566716832392233e-13
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 6.502176574940677e-11,
+          "maximum_relative_error": 1.0266888825871188e-12
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 3.4781066915456904e-12,
+          "maximum_relative_error": 1.3946308066663959e-13
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 2.254552100566798e-11,
+          "maximum_relative_error": 5.989740282034819e-13
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.127631321651279e-11,
+          "maximum_relative_error": 2.31625222804979e-13
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 6.188827228470473e-12,
+          "maximum_relative_error": 1.9558215857813658e-13
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 480,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.1880274541908875e-11,
+          "maximum_relative_error": 4.334478868496687e-13
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 4.0607517348689726e-12,
+          "maximum_relative_error": 8.552556135365242e-13
+        },
+        {
+          "query_index": 9,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "fraction": 0.5,
+          "maximum_absolute_error": 9.272582701669307e-11,
+          "maximum_relative_error": 1.0737010004479039e-12
+        },
+        {
+          "query_index": 10,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "maximum_absolute_error": 1.3301360013429075e-11,
+          "maximum_relative_error": 4.4054913849985773e-13
+        },
+        {
+          "query_index": 11,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "maximum_absolute_error": 5.526246127374179e-12,
+          "maximum_relative_error": 3.368365739118904e-13
+        }
+      ],
+      "actual_query_real_part_diagnostics": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 470,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 471,
+          "complex_real_part_vs_saved_original_query_max": 1.996317690335477e-20
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 472,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 2.168404344971009e-19
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 479,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 480,
+          "complex_real_part_vs_saved_original_query_max": 2.168404344971009e-19
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 481,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 9,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 3.859624738172427e-20
+        },
+        {
+          "query_index": 10,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 11,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        }
+      ],
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 13,
+      "midpoint_chain_is_original_collocation_formula": true,
+      "complex_chart_expand_not_used": true
+    },
+    {
+      "kind": "seeded-local-physical-core-and-controls",
+      "finite": true,
+      "scaled_direction": {
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "sha256": "6f5e1bcc7eb850000288d8b22d0410d1774e80d7b26eb053cb1fa1c8b557516e",
+        "bytes": 1888288,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "original_complex_derivative": {
+        "shape": [
+          24576
+        ],
+        "dtype": "<f8",
+        "sha256": "63dac0a7bc2c2ce96bb0115a412d3a7249cb0d82d77ebfbb1a15217405638124",
+        "bytes": 196608,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "compiled_derivative": {
+        "shape": [
+          24576
+        ],
+        "dtype": "<f8",
+        "sha256": "ed344f211b88318f49d9761bfa85eb1f295b3af636efc084888890c011b97ef5",
+        "bytes": 196608,
+        "definition": "shape, NUL, actual dtype.str, NUL, actual C-order bytes"
+      },
+      "maximum_absolute_error": 7.961643859744072e-07,
+      "maximum_relative_error": 9.311810238217192e-13,
+      "worst_row": 16384,
+      "worst_query_index": 8,
+      "worst_query_kind": "left-RMS",
+      "worst_interval": 481,
+      "worst_angle_index": 0,
+      "query_errors": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 470,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 4.075700417160988e-07,
+          "maximum_relative_error": 6.734033772769209e-13
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 471,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 5.838228389620781e-07,
+          "maximum_relative_error": 8.49672366549151e-13
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 472,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 2.130400389432907e-07,
+          "maximum_relative_error": 6.881978816889868e-13
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 473,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.5956175047904253e-08,
+          "maximum_relative_error": 1.673146868853636e-13
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 475,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 1.4097895473241806e-07,
+          "maximum_relative_error": 5.921993822020284e-13
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 477,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 6.885966286063194e-08,
+          "maximum_relative_error": 2.1859307912253596e-13
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 479,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 4.743924364447594e-08,
+          "maximum_relative_error": 1.6376109561550155e-13
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 480,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 6.411573849618435e-08,
+          "maximum_relative_error": 9.682692511073492e-14
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 481,
+          "fraction": 0.17267316464601146,
+          "maximum_absolute_error": 7.961643859744072e-07,
+          "maximum_relative_error": 9.311810238217192e-13
+        },
+        {
+          "query_index": 9,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "fraction": 0.5,
+          "maximum_absolute_error": 4.3940963223576546e-07,
+          "maximum_relative_error": 8.508389277125982e-13
+        },
+        {
+          "query_index": 10,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "fraction": 0.5,
+          "maximum_absolute_error": 8.032657206058502e-08,
+          "maximum_relative_error": 4.411406238443342e-13
+        },
+        {
+          "query_index": 11,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "fraction": 0.5,
+          "maximum_absolute_error": 8.74933903105557e-09,
+          "maximum_relative_error": 1.0490053488596642e-13
+        }
+      ],
+      "actual_query_real_part_diagnostics": [
+        {
+          "query_index": 0,
+          "kind": "left-RMS",
+          "interval": 470,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 1,
+          "kind": "left-RMS",
+          "interval": 471,
+          "complex_real_part_vs_saved_original_query_max": 1.996317690335477e-20
+        },
+        {
+          "query_index": 2,
+          "kind": "left-RMS",
+          "interval": 472,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 3,
+          "kind": "left-RMS",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 4,
+          "kind": "left-RMS",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 5,
+          "kind": "left-RMS",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 2.168404344971009e-19
+        },
+        {
+          "query_index": 6,
+          "kind": "left-RMS",
+          "interval": 479,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        },
+        {
+          "query_index": 7,
+          "kind": "left-RMS",
+          "interval": 480,
+          "complex_real_part_vs_saved_original_query_max": 2.168404344971009e-19
+        },
+        {
+          "query_index": 8,
+          "kind": "left-RMS",
+          "interval": 481,
+          "complex_real_part_vs_saved_original_query_max": 1.0842021724855044e-19
+        },
+        {
+          "query_index": 9,
+          "kind": "collocation-midpoint",
+          "interval": 473,
+          "complex_real_part_vs_saved_original_query_max": 3.859624738172427e-20
+        },
+        {
+          "query_index": 10,
+          "kind": "collocation-midpoint",
+          "interval": 475,
+          "complex_real_part_vs_saved_original_query_max": 5.421010862427522e-20
+        },
+        {
+          "query_index": 11,
+          "kind": "collocation-midpoint",
+          "interval": 477,
+          "complex_real_part_vs_saved_original_query_max": 2.710505431213761e-20
+        }
+      ],
+      "full_augmented_original_RHS_used": true,
+      "unique_endpoint_count": 13,
+      "midpoint_chain_is_original_collocation_formula": true,
+      "complex_chart_expand_not_used": true
+    }
+  ],
+  "maximum_normwise_adjoint_error": 5.338229723239566e-18,
+  "maximum_local_full_action_error": 0.0,
+  "maximum_original_complex_chain_relative_error": 1.0737010004479039e-12,
+  "implementation_thresholds": {
+    "adjoint_and_local": 5e-12,
+    "original_complex_chain": 5e-05
+  },
+  "implementation_check_passed": true,
+  "actual_supplied_direction_checked": true,
+  "second_complete_Jacobian_constructed": false,
+  "native_tail_called": false,
+  "new_scientific_acceptance_gate": false,
+  "scope": "nine original left-RMS and three original collocation-midpoint queries, each full finite phi grid",
+  "twelve_query_projection_entry": {
+    "entry_source_sha256": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+    "projection_engine_source_sha256": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
+    "actual_midpoint_observer_source_sha256": "94395d54fcf58941180de23731fc2b5bb41fed8608dbda4c17903fffc862e228",
+    "parent_eleven_query_entry_source_sha256": "6aed0dda5515945c73413884fb98d1719eb23fc40ff6b7388805f6108816c298",
+    "parent_eleven_query_operator_source_sha256": "55358acb92bac869ba2ca1daf2da7772d57be31ccd1fcfd9f7324af80f8ea20b",
+    "twelve_query_operator_source_sha256": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+    "fixed_support_projection_source_sha256": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+    "optimizer_schema": "exact-constraint-twelve-query-complete-QR-H-alternative-warm-v1",
+    "parent_optimizer_schema": "exact-constraint-eleven-typed-query-feasible-projection-warm-v1",
+    "declared_initial_parent_optimizer_schema": "exact-constraint-eleven-typed-query-feasible-projection-warm-v1",
+    "declared_initial_parent_warm_sha256": "dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8",
+    "declared_initial_parent_status_sha256": "37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0",
+    "actual_resume_sha256": "dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8",
+    "actual_parent_status_sha256": "37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0",
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      }
+    ],
+    "query_interval_order": [
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481,
+      473,
+      475,
+      477
+    ],
+    "unique_capture_intervals": [
+      470,
+      471,
+      472,
+      473,
+      475,
+      477,
+      479,
+      480,
+      481
+    ],
+    "selected_query_count": 12,
+    "selected_angle_row_count": 24576,
+    "physical_angles_per_query": 2048,
+    "expected_capture_node_count": 13,
+    "fixed_projection_physical_nodes": [
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "expected_fixed_projection_dimension": 4059,
+    "expected_complete_B_local_dimension": 4397,
+    "fixed_projection_global_p_included": true,
+    "fixed_projection_outside_raw_offset": "c+B_out*z0_out",
+    "offset_required_positive": false,
+    "restricted_projection_set_required_feasible": false,
+    "full_vector_radial_repair_and_backup_retained": true,
+    "final_outside_direction_claimed_unchanged": false,
+    "left_RMS_fraction": 0.17267316464601146,
+    "collocation_midpoint_fraction": 0.5,
+    "mixed_kinds_do_not_share_one_fraction": true,
+    "added_query": {
+      "kind": "left-RMS",
+      "interval": 470,
+      "fraction": 0.17267316464601146
+    },
+    "added_query_evidence": "Actual37 alpha1/8 and1/4 have finite original nodes/mids and positive11 modeled grids; only complete left-RMS470 rejects; nearest beta_squared=-0.2501880308616917 at phi0",
+    "retained_original_midpoints": [
+      473,
+      475,
+      477
+    ],
+    "current_original_midpoints": [
+      473,
+      475,
+      477
+    ],
+    "all_eight_original_left_RMS_queries_retained": true,
+    "complete_B_capture_expanded_to_include_node470": true,
+    "new_RMS470_full_row_keeps_outside_node470": true,
+    "C_projection_correction_support_expanded": false,
+    "original_midpoint_base_is_direct_state_middle_and_problem_mid": true,
+    "original_midpoint_J_chain": ".5*(dyL+dyR)-h*(dfR-dfL)/8, complete J/P and direct scalar control derivative",
+    "retained_midpoint_endpoints_reused_from_the_same_original_capture": true,
+    "second_complete_Jacobian_constructed": false,
+    "independent_operator_source_without_mutating_parent_module": true,
+    "original_Hildreth_updates_and_C_metric_retained": true,
+    "local_C_projection_support_and_affine_offsets_explicitly_changed": true,
+    "original_full_vector_radial_and_same_model_segment_retained": true,
+    "original_complete_residual_A_merit_and_all_scientific_gates_unchanged": true,
+    "original_lambda_LSMR_projection_and_seventeen_trials_unchanged": true,
+    "read_only_original_midpoint_observer_retained": true,
+    "parent_producer_subtree_preserved": true,
+    "nonlinear_native_H_solved": false,
+    "fixed_support_description_applies_only_to_baseline_C": true,
+    "complete_global_H_alternative_is_declared_by_twelve_query_QR_entry": true
+  },
+  "selected_angle_row_count": 24576,
+  "twelve_query_QR_entry": {
+    "schema": "exact-constraint-twelve-query-complete-QR-H-alternative-warm-v1",
+    "entry_source_sha256": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+    "frozen_dependencies": {
+      "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+      "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+      "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+      "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8"
+    },
+    "initial_actual_parent_warm_sha256": "dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8",
+    "initial_actual_parent_status_sha256": "37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0",
+    "actual_parent_warm_sha256": "dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8",
+    "actual_parent_status_sha256": "37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0",
+    "actual_parent_schema": "exact-constraint-eleven-typed-query-feasible-projection-warm-v1",
+    "source_bound_same_model_selector": {
+      "source_file": "geometry_20261114_full_metric_projection_warm.py",
+      "source_sha256": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "function": "main.choose",
+      "verbatim_function_text_sha256": "86107c36a9fd91f86758841bbe07431dae2584238dbd3ad5d0c6078708a62068",
+      "complete_function_AST_sha256": "da2ddb536eafc4c9d2d8e6b8de3827d81cada6efdc163ebd485387c1cf20713b",
+      "complete_function_body_retained": true,
+      "source_main_not_executed": true,
+      "original_C_full_model_comparison_R265_R267_and_archive_retained": true
+    },
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      }
+    ],
+    "selected_angle_row_count": 24576,
+    "baseline_C_projection_only": {
+      "source_sha256": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "support_nodes": [
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482
+      ],
+      "support_dimension": 4059,
+      "complete_B_local_dimension": 4397,
+      "outside_offset": "c+B_out*z0_out",
+      "final_outside_direction_not_claimed_fixed": true
+    },
+    "H_candidate_support": "all 236036 original exact coordinates, including node470/core/global p",
+    "inverse_backend": "one delayed complete [A;lambda I] square-root block QR",
+    "old_PCG_retry_performed": false,
+    "one_original_CompleteLinearization_only": true,
+    "QR_work_is_additional_to_original_H_action_budget": true,
+    "QR_column_preconditioner": "none",
+    "QR_large_factors_saved_only_as_optional_artifact": false,
+    "full_H_budget_seconds": 300.0,
+    "original_trial_reserve_seconds": 90.0,
+    "original_same_f_C_comparison_R265_R267_and_seventeen_trials_retained": true,
+    "original_midpoint_observer_and_affine_Rphi_FD_scope_retained": true,
+    "all_original_parent_producer_subtrees_preserved": true,
+    "nonlinear_native_solved": false,
+    "full_BVP_accepted": false
+  }
+}

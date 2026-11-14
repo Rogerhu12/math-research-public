@@ -1,0 +1,392 @@
+{
+  "schema": "actual-final-C-or-complete-H-model-evidence-v1",
+  "selected_candidate": "bounded-complete-H-alternative",
+  "direction": {
+    "array_identity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "42c0516e98940755c95fa6b4fca2cb731a6d800f1f8fe6188b9b23b6945173a7",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0001-part-0000.npz",
+        "sha256": "81f7c1af6cfd0d86cc537ce1b1e34bdd3850a6dc05bca77631ede0a1c5134643",
+        "bytes": 1830355,
+        "array": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "42c0516e98940755c95fa6b4fca2cb731a6d800f1f8fe6188b9b23b6945173a7",
+          "bytes": 1888288,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          236036
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_A_action": {
+    "array_identity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "0462043121e813e6c0d62703bbae537fe02feeec7fda031971ce7fa8202cb8a6",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0005-part-0000.npz",
+        "sha256": "1e1cd0b7190e025ff7824c3a9890e35f863c3abe7f2abb09fa7e8793aec8435c",
+        "bytes": 1824096,
+        "array": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "0462043121e813e6c0d62703bbae537fe02feeec7fda031971ce7fa8202cb8a6",
+          "bytes": 1888288,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          236036
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_B_action": {
+    "array_identity": {
+      "shape": [
+        24576
+      ],
+      "dtype": "<f8",
+      "sha256": "f7a9b7d806a2f627135bfdcdd6df1825a17824299023726e0508266b28dfa062",
+      "bytes": 196608,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0030-part-0000.npz",
+        "sha256": "2fd92578b1e524e87c61dba25dd5ca393905e7c6b15b013bae57b6ad62f47701",
+        "bytes": 73119,
+        "array": {
+          "shape": [
+            24576
+          ],
+          "dtype": "<f8",
+          "sha256": "f7a9b7d806a2f627135bfdcdd6df1825a17824299023726e0508266b28dfa062",
+          "bytes": 196608,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          24576
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "nonnegative_original_row_multipliers": {
+    "array_identity": {
+      "shape": [
+        24576
+      ],
+      "dtype": "<f8",
+      "sha256": "1bcf12a5de66d075597c528cb7c4a46ed9be3a36a39f70f3a24458b0cebd1592",
+      "bytes": 196608,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0002-part-0000.npz",
+        "sha256": "fccd4cb4c45805e9f0bad11ba39592805b2ec5899c9ff52211f168525daba0fb",
+        "bytes": 655,
+        "array": {
+          "shape": [
+            24576
+          ],
+          "dtype": "<f8",
+          "sha256": "1bcf12a5de66d075597c528cb7c4a46ed9be3a36a39f70f3a24458b0cebd1592",
+          "bytes": 196608,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          24576
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_complete_gradient": {
+    "array_identity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "52fdda00419c35e79ad2476873b2558013d6135f55c341c16f4c1a4d66c18d81",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0025-part-0000.npz",
+        "sha256": "de9702ebd76bf0167dbd6b3c72055940abe7439cdba2a613056840e13dfb1283",
+        "bytes": 1828593,
+        "array": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "52fdda00419c35e79ad2476873b2558013d6135f55c341c16f4c1a4d66c18d81",
+          "bytes": 1888288,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          236036
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_complete_stationarity_residual": {
+    "array_identity": {
+      "shape": [
+        236036
+      ],
+      "dtype": "<f8",
+      "sha256": "592ac9e2df3d51d14bdd60c38363a6b36a2a89fc907a82f1f125d8195a48bbf1",
+      "bytes": 1888288,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0003-part-0000.npz",
+        "sha256": "ed27dcb3373c9ea10b4013a31191b32687023de4082a1171f76425ff21008a4d",
+        "bytes": 1828602,
+        "array": {
+          "shape": [
+            236036
+          ],
+          "dtype": "<f8",
+          "sha256": "592ac9e2df3d51d14bdd60c38363a6b36a2a89fc907a82f1f125d8195a48bbf1",
+          "bytes": 1888288,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          236036
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "original_all_row_slack": {
+    "array_identity": {
+      "shape": [
+        24576
+      ],
+      "dtype": "<f8",
+      "sha256": "03f46615ce6cc65e063b07b6b521b3b74d7c77db6b50cfaee5045425184b30a0",
+      "bytes": 196608,
+      "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+    },
+    "parts": [
+      {
+        "file": "full-H-arrays/array-0004-part-0000.npz",
+        "sha256": "2ce8672ccd71ce3fd8033546159c52978c81622d381f50c4c76764e19c57f643",
+        "bytes": 62904,
+        "array": {
+          "shape": [
+            24576
+          ],
+          "dtype": "<f8",
+          "sha256": "03f46615ce6cc65e063b07b6b521b3b74d7c77db6b50cfaee5045425184b30a0",
+          "bytes": 196608,
+          "definition": "shape, NUL, dtype.str, NUL, actual C-order bytes"
+        },
+        "leading_slice": [
+          0,
+          24576
+        ],
+        "single_git_file_under_5MB": true
+      }
+    ],
+    "artifact_bytes_are_authoritative": true
+  },
+  "scalar_report": {
+    "original_stationarity_L2": 1000593.5117430527,
+    "original_complementarity_sum": 2.0738524497352487e-06,
+    "R265_single_point_E_raw_float": 6866854.428961571,
+    "R267_evidence_lower_bounds": [
+      {
+        "point": "final-selected-original-full-model",
+        "lower_bound_raw_float": -6866810.146388047
+      },
+      {
+        "point": "original-C-selection-zero-dual",
+        "lower_bound_raw_float": -6963450.586357942
+      },
+      {
+        "point": "best-complete-H-helper-evidence",
+        "lower_bound_raw_float": 43.77648797207321
+      }
+    ],
+    "best_R267_evidence": {
+      "point": "best-complete-H-helper-evidence",
+      "lower_bound_raw_float": 43.77648797207321
+    },
+    "final_cross_point_gap_raw_float": 0.5060855514679403,
+    "final_cross_point_distance_bound_raw_float": 0.0037261746160578203,
+    "complete_stationarity_finite": true,
+    "finite_lower_bound_available": true,
+    "nonfinite_posterior_is_recorded_not_an_extra_direction_gate": true,
+    "preconditioned_residual_not_substituted": true,
+    "floating_arithmetic_enclosure_provided": false,
+    "full_QP_optimality_claimed": false
+  },
+  "twelve_query_QR_entry": {
+    "schema": "exact-constraint-twelve-query-complete-QR-H-alternative-warm-v1",
+    "entry_source_sha256": "4b768828f754f75d760980d596f198984e92f5ceac79832123c74e42985a5c67",
+    "frozen_dependencies": {
+      "geometry_20261114_twelve_query_projection_warm.py": "10ed25405930f3775d8fb88f007aa50be4a53f4b3421904be959f1890ed67477",
+      "geometry_20261114_twelve_query_domain_operator.py": "6a428d2f8412659cbd318321aa992c3b4565ff41177131a9cc9d268c6fbb7b1f",
+      "geometry_20261114_fixed_support_halfspaces.py": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "geometry_20261114_full_metric_projection_warm.py": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "geometry_20261114_full_metric_inequality_correction.py": "d5e9432e979859ed7d5277452ac058eb93e99da1cae7f96f700f15d7359d919c",
+      "exact_20261114_regularized_block_qr.py": "596356c06f710869b3bc26931ddaa87d66fe892bcf7920a25b42453b66bfa722",
+      "geometry_20261114_constrained_collocation.py": "70ad9123d414d2e46851812105759ff26f62946bf7c865b17b3386915c3a86f8"
+    },
+    "initial_actual_parent_warm_sha256": "dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8",
+    "initial_actual_parent_status_sha256": "37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0",
+    "actual_parent_warm_sha256": "dd83748341c8d6172096fc644361018be7b29d856de621a0b333104d20aafdb8",
+    "actual_parent_status_sha256": "37e70ad5a3c9ef828d93bcbf371b3a107e3890026731d7944d98e370987d29e0",
+    "actual_parent_schema": "exact-constraint-eleven-typed-query-feasible-projection-warm-v1",
+    "source_bound_same_model_selector": {
+      "source_file": "geometry_20261114_full_metric_projection_warm.py",
+      "source_sha256": "8fb6411e7b876713725a80c2dbe9e322cc277001b0692ccc59e0edd59ec4e8b0",
+      "function": "main.choose",
+      "verbatim_function_text_sha256": "86107c36a9fd91f86758841bbe07431dae2584238dbd3ad5d0c6078708a62068",
+      "complete_function_AST_sha256": "da2ddb536eafc4c9d2d8e6b8de3827d81cada6efdc163ebd485387c1cf20713b",
+      "complete_function_body_retained": true,
+      "source_main_not_executed": true,
+      "original_C_full_model_comparison_R265_R267_and_archive_retained": true
+    },
+    "query_specs": [
+      {
+        "kind": "left-RMS",
+        "interval": 470,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 471,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 472,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 473,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 475,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 477,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 479,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 480,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "left-RMS",
+        "interval": 481,
+        "fraction": 0.17267316464601146
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 473,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 475,
+        "fraction": 0.5
+      },
+      {
+        "kind": "collocation-midpoint",
+        "interval": 477,
+        "fraction": 0.5
+      }
+    ],
+    "selected_angle_row_count": 24576,
+    "baseline_C_projection_only": {
+      "source_sha256": "0c5573ea26d2c69c1a22595e00de9e41b38981793b88f4f52086d7713d111f68",
+      "support_nodes": [
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482
+      ],
+      "support_dimension": 4059,
+      "complete_B_local_dimension": 4397,
+      "outside_offset": "c+B_out*z0_out",
+      "final_outside_direction_not_claimed_fixed": true
+    },
+    "H_candidate_support": "all 236036 original exact coordinates, including node470/core/global p",
+    "inverse_backend": "one delayed complete [A;lambda I] square-root block QR",
+    "old_PCG_retry_performed": false,
+    "one_original_CompleteLinearization_only": true,
+    "QR_work_is_additional_to_original_H_action_budget": true,
+    "QR_column_preconditioner": "none",
+    "QR_large_factors_saved_only_as_optional_artifact": false,
+    "full_H_budget_seconds": 300.0,
+    "original_trial_reserve_seconds": 90.0,
+    "original_same_f_C_comparison_R265_R267_and_seventeen_trials_retained": true,
+    "original_midpoint_observer_and_affine_Rphi_FD_scope_retained": true,
+    "all_original_parent_producer_subtrees_preserved": true,
+    "nonlinear_native_solved": false,
+    "full_BVP_accepted": false
+  }
+}
