@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `62cff76276a6f65dc2a8f74566a3a77fc8754b5f`（2026-11-14 11:49:13 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `3b647bc4c77fe8f8e66d6834feb78dd22eb2b7eb`（2026-11-14 11:52:44 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。`0c17ddf2`新增表列课题/规矩1、13扩范围，`ee26c0a6`仅改另题标题，均已读，ISP标准不变。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`；旧R272/273已重建推送。历史只读副本移至`/tmp/isp-789f-old-math-research`以释放共享磁盘，全部保留。
@@ -45,7 +45,7 @@ Haar慢主理想S_N/S_Y与负边界ℓ²(N0)上T_N/T_Y分清；后者M=kerT含e0
 - [完整挠空间/除子](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)2.084秒得到观测秩505、W维315和CW=0/AW=WJ，完整压缩状态/来源已保存。charpoly315/minpoly190；5新不可约因子共60次支撑，在除子中各平方。仅模31，不是复参数点；E8模31与旧点碰撞。
 - [九原目标最小Ann](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)1.724秒完整315维Krylov给共同h31=s³(s−2)²(s−1)P+²P−²E6，degree24；j4/10少(s−1)、度23，其余24。五个额外因子及s+6均不进入任何目标。原基来源公式已付，正有界回放原2195来源；候选h0=s³(s−2)F+²F−²E8仅待证明char0式，不能直接提升。
 - **CI已结束：** 43588728414在11:41:15以exit124超时（1800秒/4GiB），实际到BEGIN_BASIS，NF/SSI成功但std未完成；原输出保notes/r150-module-actions-789f/43588728414-1/char31。当前无远端长任务，不重跑旧std；原生GB/W/目标Ann均已独立完成。
-- **当前后继：** 24次候选的特征零来源/局部分母；根正用∞图原全部6188来源做一阶连接，不把旧仿射来源压缩免费转图。整个除子与目标Ann区别保留，∞/char0仍须分别支付。
+- **当前后继：** 24次候选的特征零来源/局部分母；[∞完整一阶图](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)已用全部6188来源得到常数秩4340/连接秩4，故模31∞除子阶≥24、齐次总度≥339；不是char0局部阶。整个除子与目标Ann区别保留，∞/char0仍须分别支付。
 
 ## 4. 其余原开放接口
 

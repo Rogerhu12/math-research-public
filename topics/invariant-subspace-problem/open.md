@@ -139,7 +139,7 @@ R279全height仿射MP比较及低占据c1范围已付；硬核Γ2联合M能量�
 
 **高本质rank1原中心17式。** [泛参数分类](results/R150-appendix-rank-one-mean-generic-complete-critical-classification-and-finite-exception-set.md)给原M5秩4354；全部rankAy8、0/2/−6/∞已闭，余g≠0、rankAy9有限Σ和char0 I*C=T/实际分母。旧完整范围保[此前open](notes/2026-11-14-open-before-complete-native-gb-789f.md)。3333常单位预基与11条额外N给完整2195来源；原163方核/齐次度8770与74次射影gcd准则已证。[全正常形](results/R150-appendix-native-layered-normal-forms-for-all-original-parameter-sources.md)在54.8127秒完成1034分量/最高45次，保全部原DAG。[完整原生GB](results/R150-appendix-complete-native-polynomial-basis-and-finite-torsion-space.md)现以184.148秒/512MiB处理全部2195来源，得到1021行、最高8次、总行次数716；不是函数域行空间替代。全部torsion正常形次数≤7，对应820维标准单项式空间中最高层泄漏C A^k全零的最大不变子空间。[完整观测/除子](results/R150-appendix-complete-mod31-torsion-and-affine-maximal-minor-divisor.md)现给W维315，charpoly315/minpoly190；5个新不可约因子共60次支撑、各重2，不能把其余次数都归旧点厚化。[九个真实目标](results/R150-appendix-nine-original-targets-exact-mod31-annihilator-degree24.md)的共同最小Ann现为24次，j4/10为23次；五个额外因子均不进入目标。原基来源公式已付，char0候选s³(s−2)F+²F−²E8仍需真实证书。43588728414已在BEGIN_BASIS后1800秒超时；不再重复旧std。
 
-[射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件尚未计算；单个非零子式、九目标Ann、所选枢轴分母或有限点扫描均不替它。其他mean秩的高ess仍另开。
+[射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)已保∞并给74次K_h下因子：若有限个真实4354子式模31的齐次gcd总次数达74，即可推出char0坏点全已闭，cofactor+Bézout给原证书分母K(s)度60。该条件现于模31不成立：[∞全原来源一阶连接](results/R150-appendix-original-infinity-jet-and-mod31-determinantal-thickness.md)给∞阶≥24，配仿射315次得到齐次≥339。九目标24次Ann仍是另一个对象，char0原证书继续。其他mean秩的高ess仍另开。
 
 **Cat1旧链。** 共3–5/重数/∞旧证书全保快照；rank1/ess3为空，不外推高本质。
 
