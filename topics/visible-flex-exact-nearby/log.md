@@ -535,3 +535,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:39:43 UTC — actual original-curve Airy primitive gates
 
 43605453793 success，11门/child0，native4ebc5865a8427e67e003e0aa25d8f629353ed87efd67d1705e1cdac7d2fc5b39。mean指数>.002921264998045，full交换子<253957.400944014，实际双幅transport位移<6.075000001e−8；有限N1..4系数全部原存。原fold不重跑；接真实双行residual/positive Green。
+
+## 2026-11-14 14:41:21 UTC — actual complete supplied-head positive root graph
+
+43605513540 success，十门/child0；native2425a0338b958be5d7fb48c955b5a5ce59348f05f1832ab50a81d6cf7dbbc501。loop<.000145155277、root reflection<.436007718096<1/2，七输入及两cut/整窗sup/rawL2完整保存；原4650/collar无重算。下一接Airy真残差和fullδ必要转移，未授完整Schur。

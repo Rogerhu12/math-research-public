@@ -213,3 +213,7 @@
 ### 2026-11-14 actual old-curve Airy primitive and mean budget
 
 [R133-supplement-actual-old-curve-Airy-primitive-and-mean-budget](results/R133-supplement-actual-old-curve-Airy-primitive-and-mean-budget.md): public43605453793 completed eleven gates. The true old-curve mean exponent is >.002921264998045; the complete inverse and commutator have Hinv<1.000097093597 and [D0,J]<253957.400944014. Orders1–4 retain every finite amplitude coefficient and actual Airy profile. Full two-row residual correction and the finite root reflection remain separate.
+
+### 2026-11-14 actual complete supplied-head positive high root graph
+
+[R133-supplement-actual-repaired-positive-high-root-to-regular-graph](results/R133-supplement-actual-repaired-positive-high-root-to-regular-graph.md): run43605513540 passed all ten actual gates. In the same repaired global Z frame, the cut loop is <.000145155277 and the complete supplied-head root reflection is <.436007718096<1/2. Seven full port/ordinary-source/mean/jump columns are explicitly retained, including raw L2 and whole positive suprema. Nonzero-δ body/outer transfer and the full low/high Schur system are separate.

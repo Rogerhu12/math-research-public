@@ -187,3 +187,7 @@ A1–27已证并推：同当前Γ*及非径向背景，root H3与strict F1分开
 ### 2026-11-14 actual old-curve Airy budget complete
 
 43605453793实际11门已成，native4ebc5865a8427e67e003e0aa25d8f629353ed87efd67d1705e1cdac7d2fc5b39。完整old mean指数>.002921264998045、J交换子<253957.400944014；N1..4余项有实际系数，不声称无限级数收敛。下一接原N双行quasimode残差与正图纠正，使用已成negative Cauchy后才识别brootfin/strong。
+
+### 2026-11-14 actual repaired positive root graph complete
+
+43605513540真实10门，完整positive high接口loop<.000145155277，root reflection<.436007718096，七完整输入response列均存。原同Z collar+4650 body已接成；不能再把这个给定head高图列待算。仍须完整low/high联立、负return、真response；δ96 rootcollar和δbody/outer转移另付。

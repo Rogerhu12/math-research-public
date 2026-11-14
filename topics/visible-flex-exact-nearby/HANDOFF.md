@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:39:43 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:41:21 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：a1f80df42ff54d776d4308cc2816af25bc5e1396；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：eef0fc1fb257329c3c60b189bf5de9b91557386a；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -33,7 +33,7 @@ low193 pilot43605144072真实6门/14行：native1f5f2e82b4cdf52fae6b8d3495245ac7
 ## 正区与根部
 
 M32 repair rootcollar43600926806真实23门：EH<32.041315545130、headloop<1e−6；source/port→全态1/12000、1/100，两trace1/36、9/2。rootpiece2549、h9e−6。全193mean及global参考保。
-repair外graph/4650body43601149891真实25+8门；4650闭行/3594接口，χ0<.303291579403含真新外反射，χ1<.788277735610保独立右high。与collar同global参考。两源/端/mean保；δ96转移未授。正high root→regular同Z接口P1–15已证并部署87-file CI，复用三个小process/summary不重跑4650/collar；待实际loop<1/6000、给定head根反射<1/2，七类source/mean/jump全保，非完整low Schur。
+repair外graph/4650body43601149891真实25+8门；4650闭行/3594接口，χ0<.303291579403含真新外反射，χ1<.788277735610保独立右high。与collar同global参考。两源/端/mean保；δ96转移未授。正high root→regular同Z接口43605513540真实10门：native2425a0338b958be5d7fb48c955b5a5ce59348f05f1832ab50a81d6cf7dbbc501。loop<.000145155277、给定head根反射<.436007718096<1/2；七类source/mean/jump全保，原4650/collar不重跑。非完整low Schur，δbody/outer另付。
 moving根scalarization43594466882真实13门：full |δ|≤1e−8、完整J/负Sobolev/mean/flux，二次band192不能借旧band64。ordered scalar O1–20已证AC一阶角项准确消，T0=ηr/η−4b〈S〉+5dφ，径向余项真实一阶增益；全源保。
 fullδ principal-fold43602612900真实16门：native9300be45949cba94115511bf77d025a82e39c78d491ba77de916d7a96902fffd；真μ(∂T²+T∂X²)，反解81/4000000×1/128，Jac>4.530889644653、μ>20.530289739365；movingA1/128 J<.825332619571、∂J<3.301330478284，旧ρ闭曲线primitive/mean保，F17反解为加号。
 root→negative 43604498718真实12门/child0：native8f165ccf9dee6e622060b4fc269908ef322f0b0fea15b82dc4b223a2fb4c122d。full realδ≤1e−8、0≤ρ≤9e−6、全未知频/mean/I；能量增长<28.978024807429<31，root H1/3×L2及source L2H1/3给raw≤4.1(root+.003source)。只root向负区/s0，不授反向或全return。
