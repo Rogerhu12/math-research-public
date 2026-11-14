@@ -255,3 +255,7 @@ R533两固定负矩的第一层现有[准确递推与有限记录](notes/2026-11
 ### R541：真正第二态与三支实际补域
 
 原八度第二态准确为−G_*ρ0=R_*ρ0+ω²H_*ρ0，全部矩阵、四个原sigma及三支cut保留。任意奇偶L/M深用真实逆权/逆测试返回原S/T；一层深两观察有共同单位域，其差为显示log比。第三η支给原degree136截面，另外两支仍需degree544，不免费赋其中央零。完整见[R541](results/R541-original-degree8-second-state-and-exact-sigma-transport.md)。**待做：** 公共深域与G/R/H三支转置补域的实际比较，及η的完整CM投影在同一cut中的作用；R/G两支、所有C/F/G隐藏条件和逆尺度必须同时保留。
+
+### R543：实际jet核已缩到两个小线束
+
+原J/M切向物理额外核被两个准确小线束控制，完整保十三行差异及原正镜轴。强窗T>2K_+、h>K_+给真实单位Smith块；满主阶低ell窗的额外方向≤b²/64+O(b)，实际单位块≥1501b²/192+O(b)。来源/候选/charge门保留，forcing与完整原中央未由秩界推出。见[R543](results/R543-actual-tangent-jet-kernel-small-remainders-and-unit-smith-block.md)。**待做：** 原forcing在这个实际像及其余原列商中是否非零；R521残数仍须杀整个真实边界核，两个小线束不自动给该杀灭条件。原ξ/V1、同一修正d2/G2及全部低尾保持。

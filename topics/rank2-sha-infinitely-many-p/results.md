@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R543：原切向评价核、两层小余量与单位Smith块](results/R543-actual-tangent-jet-kernel-small-remainders-and-unit-smith-block.md)：原J/M切向物理额外核被两个准确小线束控制，完整保十三行差异及原正镜轴。强窗T>2K_+、h>K_+给真实单位Smith块；满主阶低ell窗的额外方向≤b²/64+O(b)，实际单位块≥1501b²/192+O(b)。来源/候选/charge门保留，forcing与完整原中央未由秩界推出。
+
 - [R541：原八度第二态、三支sigma身份与完整域运输](results/R541-original-degree8-second-state-and-exact-sigma-transport.md)：原八度第二态准确为−G_*ρ0=R_*ρ0+ω²H_*ρ0，全部矩阵、四个原sigma及三支cut保留。任意奇偶L/M深用真实逆权/逆测试返回原S/T；一层深两观察有共同单位域，其差为显示log比。第三η支给原degree136截面，另外两支仍需degree544，不免费赋其中央零。
 
 - [R537：原切向核、不可分排除与来源饱和](results/R537-actual-tangent-kernel-inseparable-degree-and-source-saturation.md)：在p>8b²+4bu的原预算内，交数严格排除独立Jacobian零对；全部十九角使切向H2多项式核准确为kF²或〈1,F,F²〉。原角/次数保持提升给来源返回像p饱和及准确秩，所有同D/charge门不变；J/M物理评价后的核与像仍须另付。
