@@ -15,3 +15,5 @@
 - 2026-11-14 15:59:08 UTC：独立推leading幅度实际22门；根已全文核14413B process，原native保留。继续逐piece后继幅度与真实跳、数值strong和cutoff。
 
 - 2026-11-14 15:59:13 UTC：独立推高外双Poisson/层权/角投影缓冲解析正文；全文核共同酉乘法、两窗、domain及Schur源，不使用虚假的L2全源高resolvent。
+
+- 2026-11-14 16:03:28 UTC：逐式核负s−1能量新合同与六件源码/manifest/worker差异后独立推；I后真实传播可保一阶弱空间收益，不假定Fourier支持保持。

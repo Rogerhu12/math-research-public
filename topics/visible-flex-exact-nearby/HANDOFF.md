@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 15:59:13 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 16:03:28 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则、同步
 
 只在 Rogerhu12/math-research-public；所有新数学代码只用该公开仓库 Actions。每结论独立推，非快进立即接最新 main/rebase 再推，不 force。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34 UTC）；12:35 后终端失联，15:25重试仍无环境。按根规则8只经已连接GitHub处理<100KB文本，禁止经connector取二进制或大文件；先查process/目录库存size，摘要宜<60KB。API不是git pull。
-最新远端 main/两README blob 核：6e5d70de5d00eadd5b593269198d0fdddf9957de；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
+最新远端 main/两README blob 核：063f19bb5f1967553a27dd6308644fc4a320593f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
 小文本发布使用最新base/parent、expected_sha、force=false；竞争立即接新main重推。PAT仅瞬时CLI/env，不进文件/输出/提交/connector。root独占branch/ref/H/open/results/log；代理仅小blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H/open/log逐原字节归档于 notes/2026-11-14-{handoff,open,log}-before-closed-leading-amplitudes.md；各前档链完整。完整SHA/原失败/原范围均在对应result和manifest，不用短SHA重绑，不重算已成数学。
@@ -50,3 +50,5 @@ Q1–31五盒完整径向选择已证：每窗5共同参数/每层2窗，finite 
 tail高外H1–30已证：共同酉H共轭+完整双强窗，原T=2^65664J²δ^-9，真实高R保一阶损失；双Poisson E/F在原v及v^-1权L2<2^-9000，径向右E另付M/T跨层；低Schur满射酉、全源/mean/Γ列保。角投影须同共轭或2倍buffer，尖cutoff不免费相等。续接root/Q7实单位、真正无限low与有限浅prefix、最终层权。
 最终geometry43584188751/26门仅条件充分：同一闭C²真解η0，全C0≤1e−4、|δν|≤1e−5、真实outer球/full matching⇒held/D>.05075888242、reach/D≥800/25039、Hdiam/D≥360/511，marker145..148给含反射δE>0。真存在/状态球/全部matching仍未成。
 root管δ正区与发布；newton全源/边界/Green/真响应；phase全root/数值strong；tail全混频/真实外消元/最终权。子问题完成即接open下一项，不以阶段报告、等待或时长停止。
+
+s−1负根Cauchy的11-input新CI已推：全96/192、4/3 lag、真实I:H−1→L2和独立mean保；拟growth<112、H−1输出41/10、I后17/4，普通源H−2/3/真seam各行(H−2/3,H−1)。待真实数值门，不扩正侧或milliscale。

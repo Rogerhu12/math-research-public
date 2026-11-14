@@ -100,3 +100,7 @@ root负责δ正区/发布；newton负责完整源/真边界/Green/真实响应�
 ### 高外双Poisson已解析闭合
 
 H1–30共同酉形式保全部输入/mean/源与原4/3双窗；E/F<2^-9000，真实R_H仍H1→L2，低Schur满射酉。继续同root波单位的实际−径向差、谱选择接线及真实low外/有限浅prefix，不能将未属高窗的浅层免费归高。
+
+### 已启动：负侧H−1窗口与真实接缝源
+
+新11-input小consumer复用原germ/scalarization，无新响应/target；负窗仅9e−6，完整pair输出H−1，普通源H−2/3，真seam依两行(H−2/3,H−1)范数累加。growth<112等拟门待实际；正侧H1/3合同不由此改变。

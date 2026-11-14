@@ -1,0 +1,87 @@
+{
+  "kind": "actual_complete_negative_one_root_Cauchy_public_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "actual_completed_root_budget_run": "43594466882",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "input_paths": {
+    "root_germ": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+    "root_budget": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz"
+  },
+  "expected_native": "current-negative-one-root-cauchy.json.gz",
+  "exact_real_parameter_radius": "1/100000000",
+  "exact_negative_radial_length": "9/1000000",
+  "full_family_degree": 96,
+  "quadratic_band": 192,
+  "maximum_physical_lag": 768,
+  "ordinary_source": "L2_rho(Hminus2/3 x Hminus2/3), complete even mean",
+  "root_input": "Hminus2/3 x Hminus1, complete even mean",
+  "output": "sup pair Hminus1",
+  "source_factor_inside_bracket": "3/1000",
+  "root_state_factor": "41/10",
+  "affine_seam_input": "sum pair(Hminus2/3,Hminus1) jumps",
+  "affine_seam_factor_inside_bracket": "1",
+  "old_primitive_after_propagation_L2_factor": "17/4",
+  "new_energy_growth_gate": "112",
+  "original_completed_natives_recomputed": false,
+  "positive_source_window_or_milliscale_domain_or_numerical_strong_cutoff_claimed": false,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+      "bytes": 7851
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+      "sha256": "10ff6db82cece6c72ae8a6726c07c188922cf6b307f5af5f50a691ade0abb33f",
+      "bytes": 30595
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/process.json",
+      "sha256": "9f1d18061f1b406f028916adc33484b4deea826a8e4175fd28b0fdb5b690342d",
+      "bytes": 4120
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-root-scalarization.md",
+      "sha256": "0645cf460507ea587056b6969b01dc532b6623179db5598e2bffe4f53a8275af",
+      "bytes": 15539
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_root_scalarization_budget.py",
+      "sha256": "4a3ee217b21cabda6ae3dea052f27ff82f03b4218294145dc2f812891688e03e",
+      "bytes": 19473
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_turning_complex_germ.py",
+      "sha256": "a3ad50b828c69d3e6f1e9254c1f266535171741ee2cd675d1569ef8f0fac0491",
+      "bytes": 13009
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-full-family-root-to-negative-Cauchy-energy.md",
+      "sha256": "eb764eaddf385e06ffa175885396503917afba11ce79c365197488b864bf832d",
+      "bytes": 8191
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_negative_root_cauchy_budget.py",
+      "sha256": "9bcf3dd119950ebb4188017eedd1f75dae729c345aa131a884f8346627209c28",
+      "bytes": 10708
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-full-family-negative-one-root-Cauchy-and-seam-sources.md",
+      "sha256": "ea57b008f6ee88ccdfa1cf3cbcaf2b167a21b62be444e4285d93a91534d4ba6d",
+      "bytes": 8298
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_negative_one_root_cauchy_budget.py",
+      "sha256": "c8b1eef6c5aa3ecadac83ce9ca8351aa0d2e39aac59e25b7f10f84e8d2b645b2",
+      "bytes": 12542
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_negative_one_root_cauchy_CI.py",
+      "sha256": "0e9228a1609ea80ed652841907a68c9fbc63cfced8549c7088f60f5fd96f9d3c",
+      "bytes": 6151
+    }
+  ]
+}
