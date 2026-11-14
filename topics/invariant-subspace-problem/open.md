@@ -23,9 +23,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-R273-moments-789f.md)及其中各轮归档；未列条目不算关闭。
 
-**原来源预算：** [完整1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)已排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)实际九源全cost86。继续真实第二余量/完整第二Bockstein及31饱和，不排31分母Q来源；[射影/∞96阶接口](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)的有限预算条件保留。 [真实r2](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)现排保持本次X mod31的全部mod29791提升；继续完整kerβ的δ2，先四新增方向作充分性入口，不能将其失败作全核失败。
-
-**完整第二提升入口：** [kerβ全基与δ2](notes/2026-11-14-r150-full-first-bockstein-kernel-and-second-interface-789f.md)保198个旧零第一像、4新关系及1632个真提升；当前r2商模恰2维。须恢复每个q后实际除961，四列若足够则接原17式；不足继续198，不能只验仿射相容或预称特征零。
+**原式来源与完整第二提升：** [1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)九源cost86。[真实r2](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)排固定X mod31全部mod29791提升；[四真实δ2](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)连β像维数6仍逐目标失败。余198零β高方向、完整第二像及31饱和继续；1632低方向真提升已付，不排Q31分母或称char0。有限预算/∞条件与全部细节保[本次前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
@@ -111,6 +109,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 **其余已付的原头、完整图和共同费用接口。** 两物理头/两下降真 MP、同未来负图、全尾近共同前缀、逐列立方根对数头预算、统一左核图/低头反馈、完整接合正 Gram、Boolean 两带/Γ 收缩、固定低行四次费用、D2 三次权顶锚、全深度宽源带及增长模型核幂的准确公式、常数和每条原稿链接，保 [压缩前全文](notes/2026-11-14-open-before-R279-789f.md)。它们均保同一未来/同源/真正负图及原累计费，仍不支付固定测试局部 Gram O(Keff)、ordinary 右费、pure 深段与高 birth D1*/Γ 合并；不能把裸/完整 Schur 或坐标截断互换。
 
 **平衡主组的完整共同相位：** [任意多组Beta–binomial运输](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)处理q0=Σ其余q、硬源U一维/低源V维数任意。h/g/ell=c(H/G/L)，G是全部占据协方差，q=c(4G+yy*)；共同正Gram、同系数均值运输与秩二位移均准确。仍须界完整非交换J=HG⁻¹L−2G−yy*，不能以共同正块的另一交叉自动替目标；任意有硬源模块与原graph继续。
+
+**实际cofactor正核：** [显式完整Gram与score jets](notes/2026-11-14-balanced-star-cofactor-positive-kernel-and-actual-score-jets-789f-next.md)已付所有Q的严格正系数核及真实G/H/L接口；混合正权保1−z_j w_j*符号，尚须由共同jet Schur支付J。
 
 **三权任意spin：** [完整固定Gaussian生成核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)已给所有三角模块的全部≤3维低源、两侧度量及完整硬回归；核为固定3×3，spin只进入取系数阶数。须在同一系数层证明相位界，生成函数层Schur不能与取系数互换。
 

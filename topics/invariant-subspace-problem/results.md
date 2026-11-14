@@ -1009,3 +1009,7 @@
 ### R150 附录：四个真实第二方向的原式来源与完整不足证书
 
 [实际全证书](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)由run43615783424在59.569477415秒完成。四个kerβ关系先经实际VQ/核标准化及原6188行运输，来源成本86/86/86/87；原17式全系数均可除961，再得全部第二余量。保820标准坐标/505观测/315作用后，四δ加完整β的任意多项式像恰6维，九r2各有双证书排除。45完整恢复文件与16生成gzip均保存核清，不重算旧图或4VQ。本条只排四列，余198尚未算；不称完整第二像、mod29791原目标成功或特征零结论。
+
+### R297 附录：全部真实 cofactor 的显式正核与完整 score jets
+
+[完整系数证明](notes/2026-11-14-balanced-star-cofactor-positive-kernel-and-actual-score-jets-789f-next.md)对任意Q给a_i=P_Q|zi=0的严格正定inclusion Gram，包含满并集边界的逐系数望远镜身份；特征仍为原删位乘积的Beta积分。真实f_i=1−2m_i的正核身份及全部坐标jets准确恢复G/H/L，重复物理位保任意组长。closed-polydisk稳定另由对角几何和与Grace证明；不依赖一般Agler开放命题。混合正权的核乘子1−z_j w_j*保真实符号，尚未付最终相位共同Schur或一般κ。
