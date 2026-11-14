@@ -84,3 +84,6 @@ request29已全success，见[真实中点定位与下降](notes/2026-11-14-actua
 request28已完整捕获，见[原校正实际线性缺陷](notes/2026-11-14-actual-request28-native-linear-defect.md)。原基态norm.0417730782未变；原校正全部stage原σ浮点缺陷最大7.3718085303337e40在stage43/Pi110，cut/far0，无nonfinite，原delta最大3.06634e26。全J/δ/原尺度/全部29数组均逐chunk/hash保全，0trial且无native接受。下一直接复用同完整A作带pivot重解、回原方程读全e并在Actions内对保存原worst及新worst行作精确binary-rational检查；不凭chart condition推fullA奇异，不重算原J。
 
 request30/fullhprojection已接推送：actual29 warm/status双SHA锁定，同七RMS完整模型保原C可行方向，并以原全H的有限子空间候选作同f实际比较；新选向重读全A/B/完整梯度/μ/r/slack与R267多点后验，全部原回溯/域/observer/新FD保持。预算总1200s、H额外600s且留180s原trial/保全；大数组仅artifact。详[完整H实际接线](notes/2026-11-14-full-metric-warm-and-response-interface.md)。另九query实际中点支线独立准备，不混入此模型。
+
+
+request31/nativeband已接推送，见[保存全系统带状重解接口](notes/2026-11-14-native-captured-band-correction-interface.md)。仅消费actual28全J/r/原δ/σ/边界，原σ缩放后pivot band解，保原最坏行精确rational、全部新旧缺陷与新最坏行精确见证；不重复J/native/旧trial，不报非线性接受。输入完整artifact独立下载硬核，只复制小回执，所有大阵仅artifact。30完整H比较实际run43614132961仍在跑，另九query接actual29同父场。

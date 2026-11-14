@@ -1,6 +1,6 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-/root，visible-larger-public-resume-20261114，GPT-6 Astra Pro（AI辅助）。**未完成；持续执行到README完成标准，不等阶段确认。** 完整证明/旧记录在results.md、本日notes及Git；本文件只保活检查点。
+/root，GPT-6 Astra Pro（AI辅助）。**未完成；持续到README完成，不等阶段确认。** 完整证明/旧记录在results.md、本日notes及Git。
 
 ## 授权、规矩、环境
 
@@ -28,7 +28,7 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 λ270/200 LSMR80步istop2；C-Hildreth200未收敛，118负slack经.7538402992径向修成全正(min1.249e−16)，同f线段τ1。gdot−.7367477675/模型Delta.4609612920，完整gradient275926/零dual E522190不冒QP最优。R267可用同模型raw完整gradient345.4571给另一证据点，29未算新比例。
 实际α1/64全部原node/mid/两RMS/rho过，同一固定权重merit44.382936021255084→44.37120458393527，drop.011731437319816962/ratio1.0217222253。col.007110441077777405/BC8.857150198345718e−8仍非解，native0。新warm `notes/public-actions-43612331803-1-observedseven/observed-seven-warm/warm-001.json.gz` SHA f2e999e7c61d28683dc09adf387e0867b2dd36d271ebe0433fafbec68466fbd9；status a24ebbe3d39d64d7676754c67fc56589652bf6fcd31c93c7eca97e1641bebde4。新完整Rφ FD9.265212545800078e−10过原5e−5，112 H保留（首项2.3206841035345475e−14）。不同模型权重刷新，merit不可跨轮相减。
 最近拒绝1/32仅原midpoint473，s1.2018391887397941，finite middle/非finite RHS、β²10角负/min−.1615288168在index22；七RMS全角正。1/8、1/4还坏mid477，其他更大步坏点详原件。9条observer finite/vector字节未变；16 NPZ/48原数组核，无附加异常；未重算wholeflow/J。
-下一同29父场并行：30/fullhprojection源8fb6411e…/FDa24f2e52…已读接push，helper d5e9432e…，完整H仅C预条件，≤32工作行/34全局基/1200 H动作、全原梯度/R267多点下界，原C方向作同f后备；另做九query=七原left-RMS+真正mid473/477各全2048。中点基点/站点必须直接state.middle/problem.mid字节，完整原两端J/P/入口core/global p链，已有11node捕获可复用。两支均保29只读observer、原17trial/全部域与新FD，无QP最优或native接受冒称。
+30/fullhprojection已实际运行43614132961/source8ed43e0b/job132505423542；同29父warm/status，原C方向作同f后备。helper d5e9432e…/warm8fb6411e…/FDa24f2e52…，全H仅C预条件，≤32工作行/34全局基/1200 H动作，重读原梯度/R267证据。总1200s/H600s/留trial180s。另一支九query=七原left-RMS+actual mid473/477各2048；state.middle/problem.mid原字节、完整两端J/P及core/p链，复用11node捕获。均保原observer/17trial/全部域与新FD，无native或QP最优冒称。
 
 ### Native：28完整原线性缺陷已保，接同矩阵带pivot重解
 
@@ -36,7 +36,7 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 25/run43607404925/source4d384dc5原完整solve真实失败：withJac基态norm同23、minA.9999999999759498/minD.9999999999999858；十trial1..1/512全stage13/raw0/seg7 D/S/A拒，无trialNorm，完整cut J/fresh audit未返回。actual25完整note/原响应已保，不直接用此H失败绕入新H。
 28/nativecorrection run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548264/235561097B/ZIP0ff8e6f5…已取核。完整actual28-native-linear-defect note；原withJac/correction不改，同seed/原norm/minA/minD，完成后计划STOP，one request/0trial/native_accepted=false。29数组/116chunk/238972680B及22小件逐核；J[576,224,224]全28901376项有限、SHA394ca2cc…；delta[577,224]SHA d3734cf4…，全有限、已存maxabs3.0663412735007466e26在node43/Pi112。
 原σ全stage浮点线性缺陷max **7.3718085303337e40**，stage43/raw0/seg3/Pi110(freq220)，cut/far112行皆0，无nonfinite。maxchart也stage43，G∞2.801e37/inv∞3.146e22/product8.810946110232247e59；不等于全A condition或严格exact defect。所有原J/r/δ/σ/边界原bit可精确重读；summary48d8c012…/manifest3ed8c1bf…/resultff53d954…。
-下一独立offlineband仅消费保存同A：按cut→stage→far完整方程、原σ可逆行列尺度、pivot band factor，保原δ对照且新δ回原σ核所有stage/cut/far；Actions内对原worst/新worst行作精确binary-rational dot，不本地算/不重复J/不重试旧十步。带阵layout须核真实far对角与M112/K224/depth576。大原件缓存 /workspace/scratch/visible-larger-native-capture-20261114/actions-debug（/tmp空间紧），原artifact/source/hash仍完整公开。
+31/nativeband已接推送，源b39e9dd9…/下载器523ba20e…，仅复用保存同A。artifact14120548264/ZIP0ff8e6f5…由Actions令牌只读取至独立RUNNER_TEMP，原大包不再上传。原σ行列尺度、kl112/ku335/129248维pivot band，保原δ对照并回原σ核所有stage/cut/far，原worst精确rational先落盘、新worst后核。不重建J/native/旧trial；新δ完整checkpoint保留。大包缓存 /workspace/scratch/visible-larger-native-capture-20261114/actions-debug；/tmp紧。并行准备原10trial replay及所有行exact dyadic residual，待实际新δ接。
 
 ## 之后的完整闭合与同g精化
 

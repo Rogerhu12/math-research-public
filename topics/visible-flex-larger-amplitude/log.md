@@ -716,3 +716,8 @@ run43611175099/source6bd52b44/job132496373274诊断全success；artifact14120548
 ### 2026-11-14 request30：原C候选与完整H候选作同模型实测比较
 
 独立warm8fb6411e…/FDa24f2e52…与接口全文读，helper d5e9432e…不变。锁actual29 warm f2e999e7…及status a24ebbe3…原字节；原七query唯一A/B/LSMR/C投影仍执行，完整H额外候选同f择优、原C作真实后备，全部原A/B/slack/gdot和最终完整梯度/μ/r/R267后验另重读。保29只读observer、原17回溯/所有域及新FD，未增加mid约束或native。root静态修正进度字典重复event会抛TypeError的具体接线错误；只有新入口与接口SHA改变。显式总1200s/fullH600s/reserve180s、H≤1200；full-H-arrays大阵仅artifact，完整manifest/input/source/hash入Git。三lane名单、父输入、AST及路径核完，无本地科学执行。
+
+
+### 2026-11-14 request31：同一保存原native系统的带主元重解
+
+源b39e9dd9…/下载器523ba20e…与接口已静态核、完整输入硬锁28；仅复用原全J/r/δ/σ/边界，按cut→stage→far组129248维带阵kl112/ku335，用原σ显式行列尺度和dgbtrf/dgbtrs。先保原最坏行exact binary-rational，再重解回原方程全行读回并核新最坏行；形成/恢复舍入单列，不冒精确缩放或native接受。无新J/ODE/seed/H/非线性trial。公开artifact14120548264完整235561097B/ZIP0ff8e6f5…在Actions以只读token取到独立RUNNER_TEMP，完整元数据/ZIP/chunk核后只复制小回执，避免重复大包；新大阵仅artifact。30实际run43614132961/source8ed43e0b/job132505423542进行中。
