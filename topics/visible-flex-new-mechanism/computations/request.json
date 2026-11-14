@@ -1,32 +1,15 @@
 {
-  "request": "one-original-enriched-warm-saturated-Gaussian-S9-six-cap-collar",
-  "created_at": "2026-11-14T15:56:51.001049+00:00",
+  "request": "exact-overlapping-profile-fourth-leading-gate-and-IFT-Jacobian",
+  "created_at": "2026-11-14T16:00:47.679282+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "ellipse_saturated_heat"
+    "overlap_fourth_exact"
   ],
-  "warm_source": "notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json",
-  "warm_source_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
-  "same_exact_metric_as_enriched": true,
-  "different_tail_and_compact_base": true,
-  "support_width_exact": "1/10",
-  "heat_time_scale_exact": "1/128",
-  "saturated_source_displacement": "e=c*tanh((a-R)/c), c=(R-R*sqrt(3)/2)/4",
-  "initial_GH_rule": "32/64 first jets <=1/10000 selects32; otherwise64/128 selects64; otherwise save only",
-  "initial_cost_limit_exact": "1",
-  "radial_grid": "61 exact rational nodes:49 left +9 patch subinterval endpoints +3 open-tail subinterval endpoints",
-  "angular_nodes": 192,
-  "free_coefficients": 234,
-  "field_bound": 8,
-  "max_nfev": 250,
-  "final_audit_radial_nodes": 121,
-  "final_audit_angles": [
-    384,
-    768
-  ],
-  "final_GH_doubling_is_read_only": true,
-  "exact_cap_proof": "R44",
-  "source_birth_and_saturation_proof": "R51",
-  "one_optimization_only": true,
+  "exact_only": true,
+  "script_sha256": "e19445c159e59de842d9306f254882c2bab3ee33c39eab0b8395c36854eb408f",
+  "development_certificate_sha256": "a76938ed7ca644dd46831e12b4c27f60d17c4ca17257dd9d09be5b27f1d1c87d",
+  "main_geometry_run_remains": 43612971265,
+  "profile_integrals_evaluated": false,
+  "whole_fourth_range_certified": false,
   "task_complete": false
 }

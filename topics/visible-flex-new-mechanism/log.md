@@ -363,3 +363,7 @@ even flat bump乘四维偶多项式，以I0/I2准确广义谱构造等长正交f
 ## 2026-11-14 15:56 UTC — 冻结并部署唯一饱和热六帽case
 
 六个独立源码及六份人工check、四份实现说明归档。旧七模块字节不改；原反射/raw热版只供复核，唯一实际入口frame_collar_polygonal_saturated_heat.py显式factory选R51有界源。root全文/source独立审全部链式、13源码身份、真实g/c0回放、双工程门、一次solve、同参数最终加密及16384点分行；所有人工check的来源SHA逐件核同。全Jac最差3.37e−9、端口1.82e−12、前缀/分块差0；人工核心24角X差1.6693e−6完整保留，48/96降3.6585e−11/2.7019e−14；高阶GH不利差未隐去。共享workflow只加ellipse_saturated_heat lane（40min step/50min job），先4项人工复核和原输入SHA门，再真实case；request只有这一lane。真实评价/优化仅公开Actions，成功与完成均待实际证据。
+
+## 2026-11-14 16:00 UTC — R53 真重叠四阶最高次门的正向存在
+
+四相位58个位置的组内均值/方差准确相同，以N=(4,48,3,3)、幅平方(3,1/2,4,4)和平方相位(-1,1,omega,baromega)同时消三个复种子式；六实控制Jac行列式−716636160。固定raw宽后共同lambda缩放，使用合法的约束外光滑延拓与IFT，给真正重叠profile的三矩、完整二三阶及k0/h1/omega0常段全部四阶sigma²相位系数为零。只过一个常状态最高次门，完整四阶/有限族/宏观几何仍欠。 root核复K2/K4系数、普通复平方、58点互异及三矩、八外packet完整第三range、两尺度和c处主系数、移动collar约束外延拓、6×6准确Jac与IFT；source全文独核。共享workflow新增overlap_fourth_exact五分钟准确lane，request只它，不重新触发已运行的饱和主lane。主lane43612971265/source228c6195于15:57:49 UTC启动，实际结果待回执。

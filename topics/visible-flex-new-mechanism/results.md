@@ -107,3 +107,5 @@
 - [R51：六帽热反射的径向开启障碍与饱和源半径修正](results/R51-heat-source-radial-birth-and-saturated-reflection.md) — 未饱和内源跨六帽弦距d时，正热核给非零beta·rho^(11/2)，v和u分别更高为13/2、23/2。准确R_T迫该圈IItheta=0，Gauss不许目标K>0；纯解析界证当前两源都在正K补丁内穿越。改e=(w/4)tanh(4epsilon/w)准确保端口2jet，并使所有内源始终>d，明确移除此条件门。它是新基场、同g/同物理帽；未证明连接可解或小误差可达。
 
 - [R52：真正重叠profile平面的完整三阶圆](results/R52-overlapping-profile-plane-complete-third-order-circle.md) — even flat bump乘四维偶多项式，以I0/I2准确广义谱构造等长正交f/g，含全部谱退化情形；任意O2换基后仍在同一开稠密集重叠。三矩及三交叉矩支付Hd/Hc两个二阶解，局部化八packet七差分同时消四条third ruling，倒行消四period。正确Ztheta=sin²theta Zd−cos theta sin theta Zc，给同一指定g的完整三阶Oepsilon4；四阶仍欠，不把复平方当正模平方。
+
+- [R53：真正重叠profile的四阶常段最高次门与准确隐函数构造](results/R53-overlapping-profile-fourth-leading-gate-existence.md) — 四相位58个位置的组内均值/方差准确相同，以N=(4,48,3,3)、幅平方(3,1/2,4,4)和平方相位(-1,1,omega,baromega)同时消三个复种子式；六实控制Jac行列式−716636160。固定raw宽后共同lambda缩放，使用合法的约束外光滑延拓与IFT，给真正重叠profile的三矩、完整二三阶及k0/h1/omega0常段全部四阶sigma²相位系数为零。只过一个常状态最高次门，完整四阶/有限族/宏观几何仍欠。
