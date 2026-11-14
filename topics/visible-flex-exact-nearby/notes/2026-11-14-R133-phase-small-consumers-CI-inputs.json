@@ -1,0 +1,1233 @@
+{
+  "kind": "pinned_public_Actions_complete_phase_small_consumer_DAG_inputs",
+  "schema": 1,
+  "public_repository": "Rogerhu12/math-research-public",
+  "original_public_transport_run": 43580721166,
+  "original_public_transport_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_completed127_reused": true,
+  "remaining42_already_computed_by_public_Actions": true,
+  "transport_germs": 169,
+  "transport_polynomials_not_recomputed": true,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "python_flint": "0.9.0"
+  },
+  "input_paths": {
+    "transport_cover": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/complete-169-cover.json.gz",
+    "transport_seed_directory": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport",
+    "transport_completed_directory": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1",
+    "root_contract": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-phase-root-sliver-and-transport-contract-native.json.gz",
+    "analytic": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-two-ray-analytic-strips-native.json.gz",
+    "correlated": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-correlated-first-phase-parameter-native.json.gz",
+    "direction": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+    "all_delta": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-all-delta-optical-speed-native.json.gz",
+    "root_germ": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz"
+  },
+  "output_names": {
+    "wiener": "wiener.json.gz",
+    "actual_twist": "actual_twist.json.gz",
+    "proposal48": "proposal48.json.gz",
+    "post48": "post48.json.gz",
+    "K48_row": "K48_row.json.gz",
+    "response_contract": "response_contract.json.gz",
+    "target15": "target15.json.gz",
+    "sharp_twist": "sharp_twist.json.gz",
+    "R31": "R31.json.gz"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0000.json.gz",
+      "sha256": "c0eaf1a29bf8eeefb51f98fb1ff1de2125358d70be6c8cbc21be5793447f084b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0001.json.gz",
+      "sha256": "e64ca243cdcf516095480d6e2319f121f5ee7e41e79902613d9496ed66f8f893",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0002.json.gz",
+      "sha256": "d314a584acd8b984aa6afec5a88a83052048f2239ff26c31b23d484eb7f16cc5",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0003.json.gz",
+      "sha256": "87940847108fde997af374a97d4e4b46e9d09384add2d4a2e4f1e8997be9e567",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0004.json.gz",
+      "sha256": "b383947c09bdbb15ab38bfb74f319444795bcdcc10fcb44ec02852e391123f5c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0005.json.gz",
+      "sha256": "96976093289f688e60e9234c6d7b2b216c433070c78b0917871c782a19776792",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0006.json.gz",
+      "sha256": "079a01807473c31887d545e180de67ae8a79c5796ecc356e2d5af602ed047221",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0007.json.gz",
+      "sha256": "18c969a2a69af70f3504190c43fc804be8b7e1dcc310e87b597dd0ec76b31d64",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0008.json.gz",
+      "sha256": "e95fa11889c3b56252a7104d455a9a84a99ff0ece30877a0e59e2fc7f9ff877a",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0009.json.gz",
+      "sha256": "12d29b4c725956dbe170025a712eacbd6de06f17ab28406cc77ed30ed6e5571e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0010.json.gz",
+      "sha256": "3b416d9e431619c44788646333905039416197a05b33bf1263228fe79c8c9117",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0011.json.gz",
+      "sha256": "6bf289c644778c0cc8192f75a12e314727aa4dc023a0af3ff74050fe7115c636",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0012.json.gz",
+      "sha256": "4b90d0d9338528ec6d71de58c0cff81ed4fce07add96b8a8f82d9e52387e2774",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0013.json.gz",
+      "sha256": "c8fa5e213a09ccb80008ddc00bcc0890191f7dacc41145602e628d5a55f5e8a6",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0014.json.gz",
+      "sha256": "287741b917ec1ad16e579f90ec9f8c6c722e60b07f1b18f1936326de136f103c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0015.json.gz",
+      "sha256": "9ad1e8b7d8101a42cdded97575dff3134281b6465bb993383162c742f56038e9",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0016.json.gz",
+      "sha256": "d651775371d246607f8afdf9b034a2adf87e94b68e07fc9b279dd420b3b79d6a",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0017.json.gz",
+      "sha256": "3e4ec9d1dd70851b11b62183721c0bc3dcf77cf7c4344a1b6774a7b9a9ede23b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0018.json.gz",
+      "sha256": "3fc44598cf6054869c13b51013ce8071fa6ba065cd6a5df7780abaf8ee76aee1",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0019.json.gz",
+      "sha256": "be284681c5d49bb6718c62a6fa06b30e0c0e5c9cdd57e24d5dfbff6f77a4da50",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0020.json.gz",
+      "sha256": "cd6439c50f5f0632a595a250d08cb5999cefdc8349d0daf8ddbea0964a14e5a7",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0021.json.gz",
+      "sha256": "2d4c13585612adc01ca595eb9dc5db9f1c3d82ecd5d889f4f7dddc39a54c4eeb",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0022.json.gz",
+      "sha256": "111cc5d5775b572cde8f9bfcb62614638b5c47e21cbfa908e6508c46218bf08e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0023.json.gz",
+      "sha256": "0835a9024364d1fe994bda8911d24ad9bce847e822ae8185ca8f3230aa5ae224",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0024.json.gz",
+      "sha256": "de9d2b7a4acf0a9358c3ee6d2622839025bcc1ab956ddf88a52cbb2e586cbc77",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0025.json.gz",
+      "sha256": "cf14ecf73395eb9f213f4a1f709ea93855c63105fbf81e0469d65ab8fec721a8",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0026.json.gz",
+      "sha256": "c5083f6a5a2b702dcd90374666d96992b631d1a9156bd1284b923f410335734f",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0027.json.gz",
+      "sha256": "1b5d493041dbcd7adc5ff019d883a79bae921e38153fc19cf31fc25958845dac",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0028.json.gz",
+      "sha256": "80aa0b49d5fc0143590b44463407106e6ab61acedf185093a1e5ac4174c1a63b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0029.json.gz",
+      "sha256": "c82f01aae824e51964776bfa961881fba2b7ecd09aea6523ab9256be0389d6ab",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0030.json.gz",
+      "sha256": "38023ec37a13a78abe3ba5cb3b76eb295bb4ea5a42b45aee2e10c99b675acc38",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0031.json.gz",
+      "sha256": "c53d3cc260da4b7f3828a23ca855db95782f8355bc1e54fe92852b6839a3af9c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0032.json.gz",
+      "sha256": "b194674e75e63b4b8fbd5b491b28338802085eb8d065df8ab064e0ab95c34bbf",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0033.json.gz",
+      "sha256": "5058f24515445789b5f5218d6dbf27f20a9b0b8501e6e6ce51c1298454594954",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0034.json.gz",
+      "sha256": "f6ed6cbfd9f9e390428f893c5ba22c504ad67401c4c541e5d675bf0b785f6823",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0035.json.gz",
+      "sha256": "227f618d82561aafdcc9b2c84fd731635253e5619628c335647bb519b9297f55",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0036.json.gz",
+      "sha256": "5c1d089d40370ddea667bc3d63e11d2f08c09e640ecddc0de00d3cc1a9e5b53b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0037.json.gz",
+      "sha256": "2212fa7778ef0323026c78b5fb781e347d120266e4e345d378d468e75d03f1ed",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0038.json.gz",
+      "sha256": "8b0c17b8dfd2091c0a651f0afedd44548ba9f87b713165bd2d9b7070397fee5b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0039.json.gz",
+      "sha256": "bd4fa6d0a25b31636e39dbbe927ecac87a1f61b16e5deaff365e7437cc6b28e3",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0040.json.gz",
+      "sha256": "b07399dd83711d3127dcc5e66e449f4765d4f25e3ac3058636f201eb0c7ec2d1",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0041.json.gz",
+      "sha256": "8202d6558cf5c7308cdae5564228b06c42a8610fdd5b8b5f74416b4fc78a95bf",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0042.json.gz",
+      "sha256": "dc5f672fc47ce17b054c48bffbbbc91608d77e4f06023e37fd6a4267f0ecd92e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0043.json.gz",
+      "sha256": "4077feb809e5d85247323d02df8a9cf97db49b0b8b25bc2468e7e04a4b83373e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0044.json.gz",
+      "sha256": "e19f786a66bbfc7b0bc238062b953a3dcefa7183281ebdd317d20a863d76e2df",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0045.json.gz",
+      "sha256": "70968e2f1ff18ed5109f5195e99d748982346f59a763f01eaf533739f112879a",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0046.json.gz",
+      "sha256": "c0266108091ee0e590fe3622e4b07fb8b78be1deb635dc5054bac6f5fbd13e50",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0047.json.gz",
+      "sha256": "a71501feb25abc810d52c976394a1b90e8be2803ea4d5ab7eebe89febb4a8ed8",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0048.json.gz",
+      "sha256": "0e075783f05466dad13b37c680d0e1921f9f51ce0823c7e89ced64d32b2e20b0",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0049.json.gz",
+      "sha256": "04fc5d7b2254827c195c44daf6fae8810d057aaeaf01bdd1f9cb5fc9b666b8ca",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0050.json.gz",
+      "sha256": "b3ad89e247a3605eda2dd3eb4ae2cdf16edc765991d639f97eb604aa36de7a5b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0051.json.gz",
+      "sha256": "8af3979cdd345a4b2dbf54816d13ba377031e77db26678c3753d2da1316eb284",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0052.json.gz",
+      "sha256": "e6bc3de91d15faaaf565172ab34879aa4e8e4cc2a84df3fb90f03365775c7997",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0053.json.gz",
+      "sha256": "4af33d8d8d3295ae55fbf3f541e756590a3794554ef8b2456b799f38163c816d",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0054.json.gz",
+      "sha256": "8364a810ebf14542478a32f313c1f75fb12fd2bcd43620d93ce65f717f9259d1",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0055.json.gz",
+      "sha256": "211cfc9f71e808feba16aa0ca5e314c782cc238080befcddcb29b15e5b4147cd",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0056.json.gz",
+      "sha256": "c55394ee7a31f23da914a087d2e026eb0212da45752242245536f1017c89c520",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0057.json.gz",
+      "sha256": "5479363c1388b844b79666753275310a865b30f559a8845b5e7422da6dcc9ce4",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0058.json.gz",
+      "sha256": "2dad76f0a0ab32992c57f98f1693963a6a6aa51caf5f59d4c6e1618b9666c938",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0059.json.gz",
+      "sha256": "aa0527b65377a579b83df67d763cc13a00f6326d1427da77728a99e1b4c59c5a",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0060.json.gz",
+      "sha256": "f0071b533d28d578ea43537009a31a4e787db3c6198f762927b95ec05411d296",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0061.json.gz",
+      "sha256": "9df9b0cfb650c82d3c5df17b16661cb75d06597dcc0e84837df06b7afb857108",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0062.json.gz",
+      "sha256": "d132d3119821c3ea3e696662f3cce19251c377ba1269c2f2fcf5e629e0a55abf",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0063.json.gz",
+      "sha256": "7163d3966308a2362229c1381886c72f6a66770976ed1c05c9a4bb2c1c88b89c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0064.json.gz",
+      "sha256": "7eebcf413aaac10f475e586f42b10af1ee729ec36cb2d90fca175a616369845f",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0065.json.gz",
+      "sha256": "bac900db90fd216b883c5037ab962ae1894658c05a932312d9c525ae5dd027d3",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0066.json.gz",
+      "sha256": "49f2987962418fba559eed797799f9acd4a97fd71b1f511232d17a4908464f18",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0067.json.gz",
+      "sha256": "a69360c6f843a3d32041c8235dcd2156fb8c32409cc7d5efefecc924cb41670b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0068.json.gz",
+      "sha256": "8d052d260c4953b21b082826a9eccb921cfbdc170ff38d4721d55b45cc3cadbd",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0069.json.gz",
+      "sha256": "0c76fb0e3a2010ad9bd64665aade140b5112b8585477f415b8bd1849460d1ce0",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0070.json.gz",
+      "sha256": "a98139b78f3a28d05c0c3de6c90ce39f98721ec349cfdf6f2f392f1bc6a039a4",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0071.json.gz",
+      "sha256": "60f3891165ff8bf78007b3bfcdf7d0a476a72b8af2e78e99e780f34f031439d0",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0072.json.gz",
+      "sha256": "8c008802927f7c9739dc8426896b80659ce3ca36c2fb37746f95194cc124e4e2",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0073.json.gz",
+      "sha256": "d642a7c1099320469b6b63b26351d2604ba9bbb2b2bf2d130d1da5bfaae0bf61",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0074.json.gz",
+      "sha256": "0ad209befdfa8db04268cf655fa7d39f813ff89da9d2d697202e134e46d12a66",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0075.json.gz",
+      "sha256": "3fcbd67c422778f5468cb511c1e11788ee69324200d8b38508779551d94b0a24",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0076.json.gz",
+      "sha256": "96ba26374547e3614c5e6cb3509ac9cff656bcc55937a021ad6e100de9972f56",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0077.json.gz",
+      "sha256": "fd8cd0a6505f9748c497383aa140248943ff8cb81c0f9dad36bbaa23fc763c07",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0078.json.gz",
+      "sha256": "fd41fb7c8ab5b00049a509d1dab25c420cc100a589fa4f4303ae8b91d4a6f5fe",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0079.json.gz",
+      "sha256": "64611ecd493a4ba4cc634eafa0f71021e88cb49c790a6b33ba88e44629334e34",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0080.json.gz",
+      "sha256": "b42a55c6babc3cdc4c89873cc8cbfa4fb3a95bea0e4c71f3c303f63c06dffcdf",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0081.json.gz",
+      "sha256": "c5341b5007a37132a098977ae5b0b445a558dde194896323576c1ad58a211a6e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0082.json.gz",
+      "sha256": "9a19c54c5d566e343cf9fe0d9fb60e6975cb488b47ed785ab8b55ccacf500d02",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0083.json.gz",
+      "sha256": "624fd3ca5c976a1fca3d95dc24c2b76b7e0a69f72f9c4ffb80b38098bd3dd45b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0084.json.gz",
+      "sha256": "6c08cc1fabe794671882ca947fd5ba3f571997c9d89b3717679ee088b95c1231",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0085.json.gz",
+      "sha256": "33b4851a378915e1405623f9a23bf6ead7895f9be2e0201291a68d5b9ff3f0aa",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0086.json.gz",
+      "sha256": "ebb5aee34a49e052458a4578c2713bc9351698223889d3249ccb486653dc7912",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0087.json.gz",
+      "sha256": "fd639225b73d9c634d90fc5b59d655cadbf79473bec20ee3d30ec3eeffd86dff",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0088.json.gz",
+      "sha256": "cfd63e8a3d53980291737b52fd0ef8fe133f0ac5238dbd04fb549015d0f6f510",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0089.json.gz",
+      "sha256": "021926465850bdaf0777cb95abe3a419424da414d4d11844b172503fb232d8c2",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0090.json.gz",
+      "sha256": "863d82e19c9d5a2db05487637517521dd3c3b37dc3ac316079270dbbe56c350d",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0091.json.gz",
+      "sha256": "400f841d96111660f5b7b8d5a23fe4c65a1f4ae630abb452d5ac3b9628e71133",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0092.json.gz",
+      "sha256": "992de544649e596d7554f358ced51e1aa9163ce798289cd74bafb9a40d7d973c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0093.json.gz",
+      "sha256": "12a825f17aacbfc1873114d3960d28af9b72954879666474dcca9ae55755582c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0094.json.gz",
+      "sha256": "c40ac20ddbda627c633e5d3aa2b8c7d3512bdd1eca8d5e284af9fe28147e904b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0095.json.gz",
+      "sha256": "f14f5696d3ecebbd943d65691cfd168fa1503fdf17c38043be3092575d1950dd",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0096.json.gz",
+      "sha256": "b3cff1cb0b08bc4504b57f0299aa816191606878446d55fa7ddee5d8f4a0b741",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0097.json.gz",
+      "sha256": "b519a24898cc780c83ca559e670f4e3ee4d35e54d888900e1b5dfdf1ba46fdb0",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0098.json.gz",
+      "sha256": "29f246c212370ad51abfd07bdfbd0c3157eb0f04d6cdea953697e2b67fe2c0d9",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0099.json.gz",
+      "sha256": "94c26949febcff9099aa26abee78a8b21026e320a92c0bf411b437b8d2b1b776",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0100.json.gz",
+      "sha256": "348c703f6af84db5f64e8d1a4fcd884fda4cc59d1e51b784b069088dd8575093",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0101.json.gz",
+      "sha256": "7ede3bc3ef6a37576c2fabac8b12a546caa13af1806a085fb071f1e2a2839dfd",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0102.json.gz",
+      "sha256": "6cca2cf1bb6f77915ca0865349d572449d2f8a80f7b98768a603ed5731cab99c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0103.json.gz",
+      "sha256": "7e41b03255e85fb6d92d947919e76a2a104618bb80f5a3324d2d697a26e57b57",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0104.json.gz",
+      "sha256": "3114390f432b4dc167606ff910da8abf1187e759efb25e978867d9bf066e120e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0105.json.gz",
+      "sha256": "ed9ef2a5befbfb29a7ee57340fea94afe8ee67020db89f24c05f7e06b7d2d754",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0106.json.gz",
+      "sha256": "89dda336a03788686e236edf0380ef41cbd30c52eb7fc12fd6e2dff104f0dbb3",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0107.json.gz",
+      "sha256": "a0f378026d8934318643aa8350db4e209d1016ce89da87293eaaa45701529d9f",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0108.json.gz",
+      "sha256": "58e86c25d75f43bb5c13f8145c86145dcb7944261e4132ac2f9bb190b6463264",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0109.json.gz",
+      "sha256": "783fb3c3de595785ec00897baad0985c8e2b31f0d5cf896c2c10b735ac310bde",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0110.json.gz",
+      "sha256": "c10cec373262467b3d70232d000a144e802dfce0d566f77020b1fb73556adfa5",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0111.json.gz",
+      "sha256": "744a9a7647fae07f83e0fe1956360b558fcad084cc82e8a59eb0ef9d543416e6",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0112.json.gz",
+      "sha256": "25fbc0714417d3815ac91c78b1e1653d1fed9924f7daa91ee7168c0f021ccc95",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0113.json.gz",
+      "sha256": "2a524d35e7cfdf63c06d985ccf0dc9c7a58182a50565d6c3bd1be0bed07cbc57",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0114.json.gz",
+      "sha256": "d100767818213686171ac41b8bcf42aa95c16baea7d936476d0a4176a4865feb",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0115.json.gz",
+      "sha256": "e3e4eb03ed7da54b4b1ab76349ceb1e8be528c8299812424916ee4f48a278aaf",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0116.json.gz",
+      "sha256": "c2ade6a05c389cabecd8608f0568aeeb365e940c36a221a8d57eff02d308e7e6",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0117.json.gz",
+      "sha256": "3db31580f3c704647ad587056fea222f340d691064f0f234dc4f5d06f774fc98",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0118.json.gz",
+      "sha256": "cdbf28da912c090677bb7f824bd8699b9c5f4ba1bf70c9b9406d1e2316339d9f",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0119.json.gz",
+      "sha256": "22b5385706097cbab2d94e75d94e18b1620e9f7118ebc73b23a182f3735bebae",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0120.json.gz",
+      "sha256": "31e59f14a7274c1ba65746924869bf574d178ca35641041500efd030d8833e70",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0121.json.gz",
+      "sha256": "aec61567a9215f9ab4729a6931fea8027d9a4838301fd449873a31a468cc6576",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0122.json.gz",
+      "sha256": "e8668252b82a05dffeb951b933f03a5c6bdc1817fa214c16837b18f2aba1c6ae",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0123.json.gz",
+      "sha256": "c0ec6a6b451ffb5df72e73e16116ea99cd9f4ca395b87513d1471006df658d1e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0124.json.gz",
+      "sha256": "060eb05cc2bea5c7eb77ebf399ab4e4db622814526ac6a3fd53610826e0f095e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0125.json.gz",
+      "sha256": "cb10b5de3fb958d15697f2be1ce9c037313302d09c3b6f825c4200e09426d640",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/transport/transport-germ0126.json.gz",
+      "sha256": "51c33d2b68949c11873f3ff72f6c3fbfffec35387239a4f6fc4916737fece3fc",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+      "kind": "original-complete-native"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-all-delta-optical-speed-native.json.gz",
+      "sha256": "f6eeb1686cfaf899c55633b9df043fb1620922bad234e96ec1a8943c259f876c",
+      "kind": "original-complete-native"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-correlated-first-phase-parameter-native.json.gz",
+      "sha256": "67d3dcbfa415173db552286cabac03f4c9daba521fff3b68d4af9d28eed478da",
+      "kind": "original-complete-native"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-two-ray-analytic-strips-native.json.gz",
+      "sha256": "91f1a3e5900300cd6e66060063e0c9fe5b826e238f68cf9e49f356f0c4ff4071",
+      "kind": "original-complete-native"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+      "sha256": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+      "kind": "original-complete-native"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-phase-root-sliver-and-transport-contract-native.json.gz",
+      "sha256": "1910bdc2ee84cd23a7a92d94689d8cd90a3a5c25cf56caa3cc585159a9c5af43",
+      "kind": "original-complete-native"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/complete-169-cover.json.gz",
+      "sha256": "d2e9f2479dc677694c8e84945ac1787f6a5366446d4fd30eac5b3c3008ecc1ae",
+      "kind": "public-Actions-complete169-cover"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0127.json.gz",
+      "sha256": "9366070bc9a352dba6c1db6e407f6ac7c2964b8519bee553472347fc17735404",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0128.json.gz",
+      "sha256": "a67cb8837f503da3287d1c209a0f9528d1f154de1cc5d1d8222d04d9a56bb802",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0129.json.gz",
+      "sha256": "b8312e15e885f1f55e0ce01c8f9dd2aa9e025018b7c313175eda25e543d047fb",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0130.json.gz",
+      "sha256": "3234c45f3a6a402aaf5f5ea7a49c56e98738086956bacf2a9b835d1ff84c3d26",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0131.json.gz",
+      "sha256": "ccfd847db4c157c317e4737a830092fd930019dbf3b0c42c9b85ee71acb9f942",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0132.json.gz",
+      "sha256": "60c9661b50c6fc3b55509b1bf62b9c2fc5b503795b95f3997a122347e3cd12ce",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0133.json.gz",
+      "sha256": "0426acc9378def673602e37b51ac8436f2a684225ded2c3eb9f9b5e56a453d97",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0134.json.gz",
+      "sha256": "622409e0e79c18d29d16ed15ee3d533ca710bad2bce54c0897de9320e2b748bd",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0135.json.gz",
+      "sha256": "45248818808ab0a9cbe387c06c25c9115ec487f0a18c21c6f0cf4c4ef53c2de9",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0136.json.gz",
+      "sha256": "126c3d45e5a29aa23d70ecf2f84cf8d89aca629cc076d36408b0c2c86d8e91a4",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0137.json.gz",
+      "sha256": "57963dd5f04a7fc2cce070192aacda705f8eaf1afec845ec55e84cf2a9c95142",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0138.json.gz",
+      "sha256": "d784543eb1bf432a755c88a107be2639d2bcfa0505c57355e1019ebf6ba0af2b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0139.json.gz",
+      "sha256": "25ae87eabacfa70e6058bd80078f738bde647892df9320044971380970cb7c92",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0140.json.gz",
+      "sha256": "3a034a1e8d2efc1d3047a17ed280e86f24a4a0b667507bae8c39635b3eccd39b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0141.json.gz",
+      "sha256": "1b6ebb570dfa47cef43a2c22ed2b8847bb8f300ab9bd02f39a91280859a65d26",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0142.json.gz",
+      "sha256": "8188abf6aec84b78b106d63517c4e12255093f83b73f04adfe985168b0e106f7",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0143.json.gz",
+      "sha256": "a6f326ad11a7ebd506a983c3316f126a0021cbb23c9a9cc03ff83f1a9e9a7259",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0144.json.gz",
+      "sha256": "983cb4368afaf85f343863a813eb488536a854415c7d698c52005a059ae06eb0",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0145.json.gz",
+      "sha256": "837c51faa5d5a38b325378b680f74ffb2b96f304b6bc9c865f5cf0b620290fce",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0146.json.gz",
+      "sha256": "5404c7f4efad62eaa8c7ee273ddd9f0500d1b68763e69fe629bce81eab2bde74",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0147.json.gz",
+      "sha256": "45bcaba17ddc7c000740e76aaf6639ec61c69975cc6f0b65b5b92df7a05b032e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0148.json.gz",
+      "sha256": "bcd1c95826e9adbd0f8a637b0f09089ee8303159a7daa1c0d8c3392b4ec0754f",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0149.json.gz",
+      "sha256": "d3b5f3f56c2c628431a11de2873a187bdbf1d968d1c52c6f4d111044daab28c6",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0150.json.gz",
+      "sha256": "df36b1590cc1604a0c869f7a48e78e49157c5b1375bbe7a9abc3921b476cc40a",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0151.json.gz",
+      "sha256": "66998a4cdebe4b088e28ea1303d049ba9ee325073823b024287fe4e3742a621c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0152.json.gz",
+      "sha256": "35c0aac93553dd6b9bf18f8a435e7c29481778b7f9763647a208049889f9e6b2",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0153.json.gz",
+      "sha256": "9254086e993e9973762552ab2660a8ba908f6c837fab102f79c8f3b292c8a5ef",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0154.json.gz",
+      "sha256": "093121012657ee249e643c1ca169bdd220f1ba60a1a87ea9ed85ee5a85a5ec7c",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0155.json.gz",
+      "sha256": "9f574b3dc8767160b8aff24b64b2f858d49e03ab1e6e0defd727f2e013fb62c5",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0156.json.gz",
+      "sha256": "585b8095c2e4ee4f2d33035d95fa8af9e7c51711b34812f03e0c7951b4ceb2bd",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0157.json.gz",
+      "sha256": "c995ccdbfde8f33caff96fb575275836514416bc755eb1ff1c07428e9ba9e6c6",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0158.json.gz",
+      "sha256": "98dd9ce4e2c9d909d1cf4fbad4d01acd5604be87028972168f1a312ce985783f",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0159.json.gz",
+      "sha256": "222a55cb103e7df985b118c00802e40a6555044173fae916197aae4bfa8077a3",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0160.json.gz",
+      "sha256": "e0d9687b7900b771966eb2425709ea859f0e9022a2f9202985b52cfc6333e89e",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0161.json.gz",
+      "sha256": "b8b744d0c317fe217f5038aac4552582d9f69c075f097af355ac8b5c0447cd2b",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0162.json.gz",
+      "sha256": "47fc4eaf3cb609a76155eb52e6b6b25456465b1f11877a7c37efacb8086cd960",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0163.json.gz",
+      "sha256": "d36cb3b475a5ac0cff390f0160861cb8ea939458f5af4b87a192c465e63a3be4",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0164.json.gz",
+      "sha256": "e7cf5288422575905fc1654e0664f45350ba2d062f1ccd236889e6acfc6204ce",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0165.json.gz",
+      "sha256": "75ff497fb30c7a46cb0ea81967d98d3abb2e28199ff0f38dcb1f9c200a599856",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0166.json.gz",
+      "sha256": "c8b2347aec3ed98cbdf5c9fcced607e3e0461d2c449d94dfa037a28ab22968e1",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0167.json.gz",
+      "sha256": "d5c9325a41be1b4aeb7343961181318ee317c48db34647df5287450a4cb2ca16",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/run-43580721166-1/transport-germ0168.json.gz",
+      "sha256": "1b2a5dbd262d4ffd77973e0ffc0d484cdd58209adf0a3edb6e18475349e697c3",
+      "kind": "original-complete-transport-germ"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_banded_normal.py",
+      "sha256": "78cb675a88b980b8660b0d768df12332328ec16736da2f842552d68574f18a66",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_candidate_shards.py",
+      "sha256": "5c9d35584793129d07723f00a9405a43e9764c18810ef1b2fc4560a3c5557c5e",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cubic_target_jets.py",
+      "sha256": "eb3fe6833fcba0162724031905964563e3f96f77aaa56b7996aadf3856ca8412",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_positive_complete_coefficients.py",
+      "sha256": "1292a1c06695d49a6f5e6bca27ad375b2fd82b44ebe1e6066327b7b7a79d882c",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py",
+      "sha256": "51a3f7968991ed85211b74c23befae7021bb192796daf0ae2d12ec5a1d45329b",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_high_target_jets.py",
+      "sha256": "ea71aefd62bf0c16c9e9c9fe4a5da5ce95a973cf913825bd875a4ba59fc14168",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_K48_parameter_row.py",
+      "sha256": "dc86dad67c71f6aa60b010ccf466c4f8423db7ee09cc23ad4785fd9dedcbac0d",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_K48_response_error_contract.py",
+      "sha256": "34321a0c9a88405258b5630cbef2d58edf4158f4b34ccce0830aa2018d1837b7",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_Wiener_transport_lift.py",
+      "sha256": "65edb3ce74f194b84f7fd883d9d99f30a5bea05486facae6cf54afaee1c8435b",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_actual169_transversality.py",
+      "sha256": "6ba26d2bdb64fa7c67447be7c1b13196ada8e448d0d981ea9625a1e894562c6b",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_complete_Arb_high_scalar_jets.py",
+      "sha256": "b57e794709edcb8c3281df909f463a56a906aec8a8ba8a8b3f49394f10e4590f",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_complete_label_L2_twist.py",
+      "sha256": "e8749d002cf2e9cce45ff818876f4e6bab62409320a368017243d79675d04472",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_complete_transport_cover.py",
+      "sha256": "af496eeec4141abf534af691f775fe5542b958390de540646b7b32750c2231d8",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_explicit_family_R31.py",
+      "sha256": "df58ef8806461a03870e413e6a8d564947c3cd20a6074127a14a8d4bae5d0163",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_full_transport_Taylor.py",
+      "sha256": "3254a9225f4933ae11ffbfa1862a50ed1c7c585f03aa11e56606ad758ccc6961",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_nearby_bounded7_rotation.py",
+      "sha256": "ebaf7882861ac50fa06dee0416638894820cef86dd26454d665295baf6060de5",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_parameter_transversality_budget.py",
+      "sha256": "90e33bcd11c961db2c590408bc7f34370eafbc1ceea4f064b73fb2a5289c968e",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_scalar_cache_jets.py",
+      "sha256": "be012cec4863f809b6de67a880fe261d29518f02c2df563db776e4fa194849d8",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_small_consumers_CI.py",
+      "sha256": "9d8d5a36cc79bbf0e9d85b53e52ef8c034de05046813f0b142c3aa1c750fa8c0",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_terminal_Arb_head_proposal.py",
+      "sha256": "22a8e96e4c40ec304484d1d90536ffe414e4bc3aa7ef8462ec73ab4999a97080",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_terminal_bounded15_target.py",
+      "sha256": "ee471a45fb50d063a7991d26d51f328bfc6220e46a69a17185c500ad5c7f208e",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_terminal_postcomposition.py",
+      "sha256": "73ff7aa0438b722e5fbc70151d24431524ddf76d6d2020cfefc02f209116f69c",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reciprocal_compact_target_jets.py",
+      "sha256": "6086ea55da07393f0da855ee825bf17ad622d9a5228ba71effd65893194ce56c",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_rotational_cap_jacobi.py",
+      "sha256": "05dda3acc9cd359c8cd15b61e1d573d310289af984d6923261e61161afc50046",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_interval_scalar.py",
+      "sha256": "0400c59be86f7f143481f89d5a08ca8d0ea992be36aa1687ff9a19d10343dda8",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_newton_refined.py",
+      "sha256": "13486edbf499c21b8f69803968e2e258347a4f3661f5d08eda56e503e3739757",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_overcollocation.py",
+      "sha256": "0ec3a60ac995b82839de85d65f3cb1e3b45e5fe0eb9c6cb56db7c94db59e77e2",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_actual_positive_cap.py",
+      "sha256": "1e8418174f54bd1d22dd628ef7f7e6525ca6b43cbcf7a2307d29f9d467e1612b",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_affine.py",
+      "sha256": "b82724a2af026b9b9ee935f3df0eb95e7feb36ac5f65db9694085b5a4ad25991",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_bulk_box.py",
+      "sha256": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_bulk_interval.py",
+      "sha256": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_combine.py",
+      "sha256": "9f484b65819f010b0f31e17d489998c37161b8b83d6d0b7d65161dd8a2ef3888",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_interval.py",
+      "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_parameter_germ.py",
+      "sha256": "e73a534ba9e8ccc39abfa69559f41b168481ba5fe509241f24e5411c998009b2",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_beta_parameter_root.py",
+      "sha256": "86d28484fd00c4a67a0fd894003c905dd39a128e79884bd91d21c5b2147b428f",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_energy_interval.py",
+      "sha256": "ef752984f6e8c9331b1f11f2419f49460d42288fa0aba10555a18455b971df91",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_low_schur.py",
+      "sha256": "3e026d619911b3b9716064908d0312de71de7433778643e25231a997b74fc54e",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_moment_space.py",
+      "sha256": "4d20d2a8f6d71ebaf9b61aac23770ace273ecf14912a9ea4109df58406dc80da",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_parameter_comparison.py",
+      "sha256": "0879acf59242862833b675c2790d62300c0ed2764146b635d4415ac6eef9b65b",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_scaled_body.py",
+      "sha256": "f552b3c90880a9f9ee812015018a83da67e5d5fe66e1232fd2871d2c59e600db",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_cap_wiener_box.py",
+      "sha256": "6c86a5542e3370482ae3fef0b25630fc7e436c03929f6dd8e0af0eaef1a7c64f",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_coefficients.py",
+      "sha256": "6bc8f108e89bef96134c580be6ae18b382dae5b5ab6139e5863acdfa526f73bb",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_codazzi_two_end_probe.py",
+      "sha256": "510a0ebf823f35942c0b45e67fb3ec5319cfe124996d88656fcc18a52c565eb2",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_compare.py",
+      "sha256": "760e103befa83e886619971b488ee27ac82d98b1072b7735c1435a637347e8b9",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_low_block.py",
+      "sha256": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_core_low_coefficients.py",
+      "sha256": "ba2f5c93fbe7d1cdc0ddd21775f54c4e5e56d542d94fb69b985a3bfe42751990",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_correlated_curvature.py",
+      "sha256": "1562a71a221790cbe2796960da4e45349487caa386228347555613d995c9f25f",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_exterior_entry_jet.py",
+      "sha256": "9c522b37a84e78251d195d9d821db31e7b5aa3915c14e6adb7e38bb2af7d3c9e",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_finite_tail_DN.py",
+      "sha256": "b536f82516a4073337023b91e3255ed0832abc9fa23b6b8727dcd58cc285154e",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_geometry.py",
+      "sha256": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_local_correction_probe.py",
+      "sha256": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_metric_defect.py",
+      "sha256": "c4196dddcbfab15116c06a9be8a2120916c05d77fe3d7cb152f842f16b80a7de",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_natural_exterior_graft.py",
+      "sha256": "5862772e46bb281201c427e71b85066d68f4ea9520ab62e6f6286b8baefdeaee",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_newton.py",
+      "sha256": "633f1bd59e2a30b082a7915a38e0d0e27ce6d01aae6368675847235bb9bd38e5",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_newton_source_centered.py",
+      "sha256": "1bb36ce8ef6e8043f76c648b005cc3f56609e97ec49852f36bdbda80a5e4749d",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_positive_family_outer.py",
+      "sha256": "6c06be00ba05a57a767fb30c56264dc1d6d837a936957cc194e8612d33e9d158",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_root_interval.py",
+      "sha256": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_symmetric_geometry.py",
+      "sha256": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_two_jet_newton_source.py",
+      "sha256": "cd7c36692b48844d268dc87e20556e39a869da154ce5e3826a6bdc0b50162f2a",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_phase_uniform_tail.py",
+      "sha256": "d7010fcd486cfe703eab58d0d5ad4e78a193418b7bc6c71f25e308c523b55c61",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_unit_tangent.py",
+      "sha256": "2a41b6d2e87b29c731d910d1435487200a3925a124c6b09aecb205ea20634714",
+      "kind": "exact-local-source-closure"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/poschl_teller_fourfold_series.py",
+      "sha256": "173634e9e305dfe12946b4bc792014f2e443f689fc3dd2f5e1dfd834210992c9",
+      "kind": "exact-local-source-closure"
+    }
+  ]
+}

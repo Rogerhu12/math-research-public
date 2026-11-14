@@ -55,3 +55,5 @@
 - [bounded15近目标与全频算术费用](results/R133-supplement-bounded-fifteen-target-and-paid-KAM-arithmetic-tradeoff.md)：新精确目标ρ15=(5831714953207175+√5)/21212218271020390距K48中心<2.2e−18；主第四根gap为1/(68|j|)，R31圆K=17/4；完整目标缺陷<1.464e−13，保留旧目标并明确β/强余项须按新margin重付。
 
 - [完整label L2能量与更强真实参数行](results/R133-supplement-full-label-L2-energy-and-sharp-phase-row.md)：准确L2能量消去scalar speed，消费全169真端点、全部drift和root，得sup||a−1||2<.013437993、完整K48显式物理参数行>1/80；同背景全qν−Z≤1/200足保真行>1/200。保初次本地来源，公开同源重放另记，完整PDE响应仍待。
+
+- [同显式族完整PQT/B界与实际R31合同](results/R133-supplement-complete-explicit-family-circle-KAM-inputs-and-gates.md)：证明Qδ=Qbar+δZ同族的全root/mean及混合导数P,Q,T界，用真小缺陷和参数差付更紧B；公开九步DAG锁238原输入、冻结科学快照、复用169真transport，最后首算R31全部小量/域门。门未实际通过前不授共轭存在，更不授PDE分支。
