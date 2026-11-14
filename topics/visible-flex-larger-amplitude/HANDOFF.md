@@ -51,4 +51,4 @@ R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core�
 
 10–15全部旧QR/band/bridge无接受，不盲加点。R238–R267证明见results.md；R259备用未调度。旧A幅度.063<.2，其RK24/48、三mesh、2157568空间对及旧GW精化已付封存。43提交/geometry26/strong90/GW35已恢复，strong R6失败且raw未全迁；历史notes保全，绝不读private。
 
-规则同步记录：2026-11-14T15:50:22.555366+00:00 实际pull --rebase成功；双README自03fcf082无变化，已读提交 ea473fc484e19b89f5bcc2ce8195937614477b1b。
+规则同步记录：2026-11-14T15:57:11.218866+00:00 实际pull --rebase成功；双README自ea473fc4无变化，已读提交 5ad8b656396a2c25adf51c618455cd70596b4c01。
