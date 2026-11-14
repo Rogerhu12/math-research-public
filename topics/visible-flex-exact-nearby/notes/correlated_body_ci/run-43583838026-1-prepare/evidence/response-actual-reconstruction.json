@@ -1,0 +1,36 @@
+{
+  "kind": "actual_same_regular_trial_from_original_nodal_answer_v1",
+  "complete": true,
+  "role": "response",
+  "source_sha256": "b1241673f837a8e775ddc99dad302ecf1c310580943ae41fd4ada7cf005a187c",
+  "started_utc": "2026-11-14T10:09:07.469290+00:00",
+  "failure": null,
+  "finite_QR_solve_reexecuted": false,
+  "historical_case_refers_to_original_nodal_solution": true,
+  "actual_new_reconstruction_separate_from_historical_solve": true,
+  "continuous_BVP_inverse_proved": false,
+  "actual_reconstructed_cubic_sha256": "3484712c492440e15bfd15607b5e66aa317288bd0271710cca7cc5ec82ce9402",
+  "expected_original_cubic_sha256": "3484712c492440e15bfd15607b5e66aa317288bd0271710cca7cc5ec82ce9402",
+  "outputs": {
+    "full": {
+      "path": "/__w/_temp/visible-exact-body-prepared/trials/response/response-full.json",
+      "sha256": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6",
+      "expected_sha256": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6"
+    },
+    "nonmean": {
+      "path": "/__w/_temp/visible-exact-body-prepared/trials/response/response-nonmean.json",
+      "sha256": "e110982c46285b2e5141933813811a1c97d3c43583e3e553678b24a35dbb914f",
+      "expected_sha256": "e110982c46285b2e5141933813811a1c97d3c43583e3e553678b24a35dbb914f"
+    }
+  },
+  "original_case": "2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3",
+  "original_answer_sha256": "5d69eabc45757f91a4739c58114310c5534ac1a84e01e54233188dfffa567b1c",
+  "original_trial_source_sha256": "fc3acf0804bcb6038bcd966799e1c760e4189173cee4ae643e0fd496653b3239",
+  "whole_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "all_original_one_sided_derivatives_reconstructed": true,
+  "all_original_shards_match": true,
+  "all_finite_mean_and_nonmean_columns_retained": true,
+  "trial_piece_count": 6144,
+  "wall_seconds": 23.737531975000024,
+  "finished_utc": "2026-11-14T10:09:31.206510+00:00"
+}
