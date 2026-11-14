@@ -1,11 +1,11 @@
 {
-  "request": 48,
-  "requested_at": "2026-11-14T19:02:47Z",
+  "request": 49,
+  "requested_at": "2026-11-14T19:16:48Z",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
     "condensedqp"
   ],
-  "purpose": "Continue actual45 with the original12 full grids plus original midpoint482, all26624 rows, full4735 local support and R270 affine exterior recovery, original C comparison,17 actual trials and fresh complete affine Rphi FD.",
+  "purpose": "Continue actual48 with all13 original grids plus distinct left-RMS482, all28672 rows; unchanged4735 full local support, R270 affine exterior recovery, original C comparison,17 actual trials and fresh complete affine Rphi FD.",
   "source_sha256": {
     "root_20261114_complete_local_qp_condensation.py": "84792d912120058c19c90097c5de7ded6f82ffea8aba61a8ac34c3eb961cac0b",
     "geometry_20261114_condensed_local_inequality_qp.py": "ea93b88df867bd2d365bb783963ad4455d652057252384c2eecba899433e2173",
@@ -13,11 +13,14 @@
     "geometry_20261114_condensed_projection_response.py": "461b0d48068dba6cfcb62974c1e8f16889b1bd8ca5bd4b86e1bf6a3e09ac83b8",
     "geometry_20261114_thirteen_query_domain_operator.py": "d674a64e11cfac1f57f0c24166546a55045847633935dddb8ef53df4024d3cff",
     "geometry_20261114_thirteen_query_condensed_warm.py": "7785f4eb905da4c3e80ba988c79fa8a34b0a27017e6b8abc99764d8105eccc7c",
-    "geometry_20261114_thirteen_query_condensed_response.py": "2cbd850a3a810f4296920e13629e86a9ca11545d7dd002d1a0d569e9e6d2319a"
+    "geometry_20261114_thirteen_query_condensed_response.py": "2cbd850a3a810f4296920e13629e86a9ca11545d7dd002d1a0d569e9e6d2319a",
+    "geometry_20261114_fourteen_query_domain_operator.py": "049ab10d130c94d5b1849a2af3b0e3f4848819bb9b7af68230488c25ba778464",
+    "geometry_20261114_fourteen_query_condensed_warm.py": "331b59edadfa1fb7d5f8c64e6f0119c63a62f5e2a3df999549ef7effd932aac8",
+    "geometry_20261114_fourteen_query_condensed_response.py": "a84a693172af678146eb36cd43b965b8206bf3d048dac32047fb7acc4c7e82a1"
   },
-  "actual_parent_run": 43627827085,
-  "actual_parent_warm_sha256": "8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75",
-  "actual_parent_status_sha256": "70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842aade30d",
+  "actual_parent_run": 43629964624,
+  "actual_parent_warm_sha256": "df6543c9b88c21bd9ea3c046f05a7c292b7d977d09c6ef431e6771560fe14689",
+  "actual_parent_status_sha256": "00c9e73f260d0fa239a17c3973bcbd113d813c079c04451335244e923e85be9e",
   "declared_budgets": {
     "overall_seconds": 1200,
     "candidate_seconds": 600,
@@ -31,14 +34,16 @@
     "original_trial_count": 17
   },
   "complete_B_local_dimension": 4735,
-  "selected_query_count": 13,
-  "selected_angle_row_count": 26624,
+  "selected_query_count": 14,
+  "selected_angle_row_count": 28672,
   "added_query": {
-    "kind": "collocation-midpoint",
+    "kind": "left-RMS",
     "interval": 482,
-    "fraction": 0.5
+    "fraction": 0.17267316464601146
   },
   "scientific_thresholds_changed": false,
   "native_tail_requested": false,
-  "research_goal_completed": false
+  "research_goal_completed": false,
+  "original_midpoint482_retained": true,
+  "complete_B_support_expanded": false
 }

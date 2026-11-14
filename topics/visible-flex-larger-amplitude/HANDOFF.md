@@ -30,14 +30,14 @@ warm-001.json.gz SHA df6543c9b88c21bd9ea3c046f05a7c292b7d977d09c6ef431e6771560fe
 driver-status.json原1067190B SHA 00c9e73f260d0fa239a17c3973bcbd113d813c079c04451335244e923e85be9e；公开已gzip，续读解压原bytes核SHA，不重新序列化。
 FD7.169252867462084e−10/报告a17da0a01f40a6656d2dfbbbddd83f7b0be09aebaca5cf91e5d3a8e6bfd28d20；同真零T112锚仿射，不冒新H native。
 48完整120domainNPZ/13B/Γ/Π、58condensedNPZ38向量、observer、40源/完整父45producer已做字节审，root另14raw190956688B全SHA核；详2026-11-14-actual-request48-thirteen-query-and-left-RMS482-limit.md及两audit，completefactor仍未导出不冒独审。大阵artifact-only。
-**49进行中**：amplitude独立14domain/warm/FD，仅加入真实left-RMS482，全14角网格；已有470..483捕获/4735局部不增，旧13源冻。保600s/256工作行/200sweeps、原C/17trial/新FD，严格48pair，独立原condensed trigger。不盲续已错过RMS的13方案。
+**49已提交计算请求，run待实际回读**：仅加真实left-RMS482为第14网格/28672行；既有470..483/4735支撑不扩。新domain049ab10d…/warm331b59ed…/FDa84a6931…已冻，旧源全保。600s/256行/200sweeps、原C/17trial/FD不变，严格48pair及status解压原字节，沿唯一condensed trigger。
 45实际完整QP及mid482限制、ZIP/audit与细节见2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md；42内部radial由46实际只读回证，详46note；不重科学或将外层1说成无内部修复。
 
 ## Native：失败已保存，47只查原最坏一步
 
 23/v3原577×224 seed noJ合法，norm.04177307820740199>2e−9；112H/51下溢/9546负零保。25原十trial全stage13/raw0/seg7拒。linearSteps还定义graphs/gains/far/σ，禁整体改冒仅换guess。
 28 run43611175099/art14120548264/resultff53d954…，29完整数组已审；原fetch51224788…硬PIN全部ZIP/source/J/base/σ/H/far，STOP后无trial。
-34/36带解和均衡、39新578方向均失败；38原6+6出口mean逐bit同28，完整旧记录封存，不重坏求解或用oldlong缺陷增门。
+34/36/38/39旧结果封存于notes，不重坏方向或加oldlong门。
 41 run43622149326/art14124209116/349636774B/ZIP356d9d81959739a22e9347d7ceba6fd4880ad61db70dca73096a4c5b71dc73a8；868原步/3472field，72出口/mean逐bit同28；3999文件与新289数组全核。result6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf。新1372段/307552变量；原adapterfde0e039…/fetch41 32840361…。
 42原1372系统exact1.220667068e22→1.256277542e22更坏；matrix e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521。LU0/均衡无损不足，完整note已发；大阵未另审。
 43节点G run43626121246/source5c6f45fc/job132542216129/art14126695571/430132210B/ZIP2fd2f07095dce463e7f57c473332a3cfc77cdd0cdaa2ad6e02d3b48f0c86b2f5；system24a51a4e…/driver16fca40e…，869形成块/503原块/完整边界σ保持。原全exact7.099878304e21→3.258066978e21→3.769441939e21，保1，最坏新519=旧43/step11/Pi112，输入node520。result.gz SHA cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e，best原δ10ed4f19…；真实RHS无下溢，辅助2^-2048 RHS从未送solve。仅小报告核，未另审大阵；不派坏δ。
@@ -54,4 +54,4 @@ FD7.169252867462084e−10/报告a17da0a01f40a6656d2dfbbbddd83f7b0be09aebaca5cf91
 R248强C²全相位、R241全部空间对/法锥嵌入reach、R238/254/258含反射同场标记，R251四Loewner实际operator都待真新场；16仅解析接口不重fixtures。held读所有活动块/两帽盘/全D，可独立于reach进度。无六/九jet机器门；九相位/N32显示网格<5MB但真2305尾节点保。
 旧小幅A幅度.063、RK24/48/三mesh/2157568pair/GW已封存；旧43提交恢复链/strongR6失败见notes，禁private取未迁raw。R238–272见results.md；R259备用未调度。
 
-规则同步记录：2026-11-14 19:15:56 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9be541c2ef54cd0f3798bbceec848e4e3210a6a8。
+规则同步记录：2026-11-14 19:16:54 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 27cf102924cf18a39798e7efe0d4dc5469efd835。
