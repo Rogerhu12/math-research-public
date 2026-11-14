@@ -1,0 +1,87 @@
+{
+  "result": "R764-original-cusp-periods-and-base-translation",
+  "p": 41,
+  "source_commit": "6d685485fe4a6b186355d2482deb6fb5ba8144d9",
+  "source_repository": "Rogerhu12/math-research-public",
+  "core_sha256": "a2e77a39369d3021718e246087c532838da3da345f3335e12023a6960e5f3d97",
+  "method_sha256": "5d6e283bd8262af8cc6280a411850280b7ad6d4573b8c3674ab596deb36ba9aa",
+  "driver_sha256": "4f949b5c2139dedd534b3a31095b7214a6c168ea3ada8adb1e6091966055f9ac",
+  "request_sha256": "c97146b149687fdc56d5b438cc92ccd068c2bef85681b023ebf1e838f261972c",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "dependencies": [
+    {
+      "file": "results/R735-exact-original-p41-CM-model-and-Neron-input.md",
+      "sha256": "8b4ad8ea5a27527b0d6f5ac6092d0752d06d4dd0276edefe321ffc611ddbb408"
+    },
+    {
+      "file": "results/R738-certified-original-p41-period-input.md",
+      "sha256": "410c3bfb6e09d3fad355b1a9536d4405d7db1cac2aeb7765ada54c25a15674ad"
+    },
+    {
+      "file": "results/R745-certified-original-p41-Hodge-and-adelic-input.md",
+      "sha256": "0ff9401eaeb6a958ac27dce00d4152487cd2ec89fda175476ac606a13aec581a"
+    },
+    {
+      "file": "results/R751-original-period-compression-in-the-retained-degree-280-field.md",
+      "sha256": "0f12e10bb6074ec2fdf64bc266d7414ea726564990e92533b767177eb2170e87"
+    },
+    {
+      "file": "results/R762-original-mu3-quotient-and-single-function-map-recovery.md",
+      "sha256": "40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea"
+    },
+    {
+      "file": "notes/R759-original-integral-period-lattice-and-map-degree-method.md",
+      "sha256": "fe08b7f1b994984b61c08bfb68147383556b68d6b7b11bca4a22b91eec6c4c66"
+    }
+  ],
+  "retained": {
+    "R754": {
+      "run_id": "43620862489",
+      "source_commit": "b36d2c58b39f42a694236d48f64444bb6fe1d0af",
+      "artifact_name": "serre-global-R754-original-p41-periods-and-Hom-kernel-43620862489-1",
+      "artifact_id": 14125735974,
+      "artifact_zip_sha256": "9a58e842bc80654f77800f6e0db7f90655483e6c6469fc7791addb0db40c4ed1",
+      "manifest_sha256": "fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53",
+      "files": {
+        "p41-original-period-and-Hom-kernel-certificate.json": "da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c",
+        "R754-original-relative-periods.json.gz": "510a6928725df736d29d812513110c8d2542f191d8ca9bfcf0feb14ac1931ec2"
+      }
+    },
+    "R759": {
+      "run_id": "43625474728",
+      "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+      "artifact_name": "serre-global-R759-original-integral-period-lattice-and-map-degrees-43625474728-1",
+      "artifact_id": 14125233728,
+      "artifact_zip_sha256": "2ae069c394c7038f10743c7d9c7981b509579780bca3d0c69772419e3836b883",
+      "manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+      "files": {
+        "p41-original-integral-period-lattice-and-degree-certificate.json": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0",
+        "R759-original-integral-maps-and-bounded-recovery-input.json.gz": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc"
+      }
+    },
+    "R735": {
+      "run_id": "43608152850",
+      "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+      "artifact_name": "serre-global-R732-p41-original-CM-model-43608152850-1",
+      "files": {
+        "p41-original-CM-model-certificate.json": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+      }
+    },
+    "R738": {
+      "run_id": "43612108090",
+      "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+      "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+      "files": {
+        "original-cosets-and-markings.json.gz": "6a73cb699abb5e53328a040ec86bea2c4cac7ef690a29984912c43417cfd0161",
+        "integral-compact-Manin-cycles.json.gz": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf"
+      }
+    }
+  },
+  "resume": null,
+  "budget_minutes": 15,
+  "arithmetic": "exact degree-seven field products and original tree sums",
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43626804312",
+  "prepared_at_utc": "2026-11-14T18:28:48.980813+00:00",
+  "mathematical_completion_claimed": false
+}

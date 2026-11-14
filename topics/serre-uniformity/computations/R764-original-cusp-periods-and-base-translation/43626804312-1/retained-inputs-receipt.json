@@ -1,0 +1,73 @@
+{
+  "groups": [
+    {
+      "label": "R754",
+      "run_id": "43620862489",
+      "source_commit": "b36d2c58b39f42a694236d48f64444bb6fe1d0af",
+      "artifact_name": "serre-global-R754-original-p41-periods-and-Hom-kernel-43620862489-1",
+      "files": [
+        {
+          "file": "p41-original-period-and-Hom-kernel-certificate.json",
+          "sha256": "da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c"
+        },
+        {
+          "file": "R754-original-relative-periods.json.gz",
+          "sha256": "510a6928725df736d29d812513110c8d2542f191d8ca9bfcf0feb14ac1931ec2"
+        }
+      ],
+      "producer_manifest_sha256": "fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53",
+      "producer_completed": true
+    },
+    {
+      "label": "R759",
+      "run_id": "43625474728",
+      "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+      "artifact_name": "serre-global-R759-original-integral-period-lattice-and-map-degrees-43625474728-1",
+      "files": [
+        {
+          "file": "p41-original-integral-period-lattice-and-degree-certificate.json",
+          "sha256": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0"
+        },
+        {
+          "file": "R759-original-integral-maps-and-bounded-recovery-input.json.gz",
+          "sha256": "037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc"
+        }
+      ],
+      "producer_manifest_sha256": "fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa",
+      "producer_completed": true
+    },
+    {
+      "label": "R735",
+      "run_id": "43608152850",
+      "source_commit": "ff405af51e13bb966fecd066a14513eee0947702",
+      "artifact_name": "serre-global-R732-p41-original-CM-model-43608152850-1",
+      "files": [
+        {
+          "file": "p41-original-CM-model-certificate.json",
+          "sha256": "752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574"
+        }
+      ],
+      "producer_manifest_sha256": null,
+      "producer_completed": null
+    },
+    {
+      "label": "R738",
+      "run_id": "43612108090",
+      "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+      "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+      "files": [
+        {
+          "file": "original-cosets-and-markings.json.gz",
+          "sha256": "6a73cb699abb5e53328a040ec86bea2c4cac7ef690a29984912c43417cfd0161"
+        },
+        {
+          "file": "integral-compact-Manin-cycles.json.gz",
+          "sha256": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf"
+        }
+      ],
+      "producer_manifest_sha256": null,
+      "producer_completed": null
+    }
+  ],
+  "old_model_topology_periods_Hom_kernel_lattice_or_degrees_recomputed": false
+}
