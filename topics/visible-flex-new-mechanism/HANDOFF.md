@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`7cbb676a97d8dd051409511c3d24e17043d53e23`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`3766f32e0bdd7cbb9214df28cceee53ea10cd33d`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -50,8 +50,10 @@ R93/97真驱动给∫kh=0、K2=L+Elogh、K2=−∫(F/h)kρ及(S²−1)E≥L，�
 
 完整第四ruling、先前双collar、更高阶/收敛、闭嵌入与宏观厚度仍欠。
 
+R107真实A_Hd(c)=H⁻⁷A(Hc+d)，a8=0后a7正仿射不变，四块保4a7(B)；不是同号/消R8。c7原式及真实B_t1(τ_p1t1)探针正在推进。
+
 ## 6. 持续推进
 
-已请求exchange+c7两lane，待run：exchange同g/028c/160×384全网值，每trial全门筛/选行QP单调补违反，内strip.38999/外.39分账，初态新内门失败；≤6次求解共享80iter/120eval/300优化秒，prepare/初始化/优化/总壁时各报，final保rawδ并同态384/768。c7直接消费R100完整证书并保五真实history；两lane新人工先行，不重编旧34恒等式。literature继续U4/R8，tail_cost继续c7控制方向。
+公开run43642966285/source d891604e已运行exchange+c7两lane：exchange同g/028c/160×384全网值，每trial全门筛/选行QP单调补违反，内strip.38999/外.39分账，初态新内门失败；≤6次求解共享80iter/120eval/300优化秒，prepare/初始化/优化/总壁时各报，final保rawδ并同态384/768。c7直接消费R100完整证书并保五真实history；两lane新人工先行，不重编旧34恒等式。literature继续U4/R8，tail_cost继续c7控制方向。
 
 已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md；新增内蕴旋转文献的等变/主曲率假设边界见notes/intrinsic-rotation-literature-scope-20261114.md。
