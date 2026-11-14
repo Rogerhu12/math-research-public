@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R473：三来源全函数域、规范化与整conductor返回](results/R473-three-source-function-field-normalization-and-integral-conductor.md)：新增U消原102度覆盖，准确规范化基和所有权给整三源环；T的306次monic关系导数以固定权10980返回全部规范化，保p饱和、指数范数与实际Amice零阶。维数仍二，不赋产品中央零或预支严格预算。
+
 - [R472：同预算法向导数真像与高次数立方范围](results/R472-same-budget-normal-derivative-image-and-high-degree-cubic-range.md)：原连续charge列在F4上完整限制给明确jet满射界，保全局奇点和原角含量。真实cube的斜次数使D=3b、最小接触全段的单独单位5条件总可由同一原格实现；同一修正的值/导数联立及全β仍待付。
 
 - [R471：原六sigma因式与完整八输入carry](results/R471-original-six-sigma-normtwo-factor-and-complete-input-carry.md)：原101/64整组合准确化为σ⁴σ2σ8Θ4²，保全部八独立输入、真实全深与输出进位。原连接和非零单位质量log全付；Theta反卷积必须运输相加单位测试，不替未投影来源或外谱赋中央零。
