@@ -157,3 +157,5 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 **原文续查边界。** [完整记录](notes/2026-11-14-current-isp-literature-refresh-789f-next.md)及Garayev第二分支必零构造已付；这些原文仍不支付同源预算、原graph或真实最终零矩。
 
 **原尾中央短窗已成。** [原连续权完整源定理](notes/2026-11-14-original-continuous-tail-square-root-windows-full-central-phase-bound-789f-next.md)给偶Q≤c√x时统一κ_c，保完整V/U、真MP及硬Schur。原实际祖先宽度和起点未自动满足窗口条件；继续宽窗增长率、实际标签支持与跨段/原graph两侧费。
+
+**七真关系下一位已实际完成。** [完整回执结论](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)：A+新完整β秩1，j6/9相容、其余七仅在固定mod31初值(x0,0)下受阻；九原余均非零。下一立即恢复两正列完整原式并接第八真实除源，不把固定族/固定初值失败外推全部有理来源。全部38恢复/七阶段cache已入主线，无需重七列。

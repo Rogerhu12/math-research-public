@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `e78a75c3a1801aea0d66a4f8bc86b5ac28468621`（2026-11-14 19:12:54 UTC，Actions run43630856483/job132556891559实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `3fedb0fd6b40d409d0f0fbf3da6c94fe9ae7c78a`（2026-11-14 19:14:30 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `d9fd15b2e15268e9782aa6e424969a5167f638c7`（2026-11-14 19:14:45 UTC，Actions run43631018244/job132557408956实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `d5c99bef58700db0da1a3de2faba3e94d60b1dc1`（2026-11-14 19:17:43 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -43,7 +43,7 @@ normal接扩增七列后的完整31饱和与特征零秩判据；literature接�
 
 - **[全部出生真实概率接口](notes/2026-11-14-deficient-main-pool-all-birth-feature-grams-and-full-hard-regression-789f-next.md)：** 主等权池q0=Q−2d≥0，外部Q位；低源E_d=ker∂³∩P_(d+1)，硬源U_d=ker∂∩P_d。w=[T(1−T)]⁻d、ψ=∂φ−2φ，整个硬Gram M与交叉C给R=C*M⁻¹C、G=(B−R)/4，完整J=HG⁻¹L−2G−R。逐subset/Beta与真实D²/2逆均已付，端点可积；等权H0=L0=2G0、R0=0。q0=0就是原完整偶Boolean，不额外添位。中央固定d与全d极平坦预算接前条共同Gram定理。
 
-- **七关系真实续算已触发：** [冻结入口](notes/2026-11-14-r150-seven-saturation-actions-entry-manifest-789f.json)及[完整来源接口](notes/2026-11-14-r150-seven-saturation-interface-789f.md)。恢复已成T96/all198与原one31证书；七新真关系、九原余量均用原17式mod31⁴=923521乘回，完整Q/U商308维含全primary。共享数学300秒/每子512MiB/编译30秒；相容即接真来源与原式，失败保实际checkpoint，阶段cache全保存。实际run43630666145/job132556308032在算；源码2b5a83b3。尚未宣称结果。负证书只排A+固定mod31初值(x0,0)，不排全部有理来源；单独保九个未经新β消去的完整余量。
+- **[七真关系实际完成](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)：** run43630666145/job132556308032、源2b5a83b3，数据fc7b56fe。完整A+第一β在Q/U(308)秩1，由7003生成；j2..10仅6/9相容，其余七有全Krylov对偶，负结论只限固定mod31初值(x0,0)。七关系原cost86/86/87/87/87/88/87，16列原17模31⁴整除p³每列232133坐标失败0；共享数学68.015885354秒。68结果49803475B、38恢复73831455B、19二进制及全部7阶段cache均已入主线。九raw modU全非零；下一复用真实数据恢复6/9原式并接第八除源，未称两目标已乘回或全部有理来源失败。
 
 - **[全出生物理中央/极平坦定理](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)：** 上述E_d/U_d已满足共同Gram全部条件，k=d+1、完整硬Schur及真实等权H0=L0=2G0/R0=0均保。固定d和a/b/D0/S0时κ=(2Θ²+3Θ)²不依Q或源维数；若max|zi−1|≤η/k、kS≤C0、|D|≤D0，则Θ≤exp[4D0+4C0+12η+(2+√2)√C0]，κ连d也统一。q0=0覆盖完整偶Boolean中央源，下一接原尾窗口/全graph费。
 
