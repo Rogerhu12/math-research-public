@@ -53,3 +53,5 @@
 - [完整K48终端修正与真实响应误差门](results/R133-supplement-complete-K48-terminal-conjugacy-proposal-and-response-gate.md)：完整3169个Laurent系数与无穷指数尾、169真源和root费用给K48后非恒定终端缺陷<2.326e−18、真A1/50误差<1.464e−13；真qν−Z误差≤1/6500足保同背景ν行>1/600，但尚未供给该响应误差。
 
 - [bounded15近目标与全频算术费用](results/R133-supplement-bounded-fifteen-target-and-paid-KAM-arithmetic-tradeoff.md)：新精确目标ρ15=(5831714953207175+√5)/21212218271020390距K48中心<2.2e−18；主第四根gap为1/(68|j|)，R31圆K=17/4；完整目标缺陷<1.464e−13，保留旧目标并明确β/强余项须按新margin重付。
+
+- [完整label L2能量与更强真实参数行](results/R133-supplement-full-label-L2-energy-and-sharp-phase-row.md)：准确L2能量消去scalar speed，消费全169真端点、全部drift和root，得sup||a−1||2<.013437993、完整K48显式物理参数行>1/80；同背景全qν−Z≤1/200足保真行>1/200。保初次本地来源，公开同源重放另记，完整PDE响应仍待。

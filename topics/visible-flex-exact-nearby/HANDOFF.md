@@ -10,7 +10,7 @@
 本 checkout 的 `.git/objects` 在 `/tmp/visible-exact-0df9-git-objects` 并保 symlink。
 新临时输出用上述 /tmp 路径；所有已移字节核同。旧 `/workspace/scratch/ac0d699811ad` 仅只读取原检查点，不修改旧仓库或原 native。
 
-最后实际 pull --rebase 与两 README 差异检查：bcb162084814ba7b0c2b34f8f91b1366749bc6eb；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：b96924e0a23fa3d4815b6e70e0e1a896e38afd91；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已实际读 ee26c0a65a2e63c15f2ccfba6714181584416542 的根差异：新增 visible-flex-new-mechanism，课题数改按表；其它规则和本题目标未变。
 每次 push 前真实 pull/rebase 并读两个 README 的新增 diff，至少每小时 pull；每条结论独立推；非 FF 立即 rebase 重推到成功，不 force。
 PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/H/open/results/log，三代理只写各自新文件。
@@ -53,3 +53,5 @@ root：逐结论核真实对象/源/范围、立即推送，接完整几何预�
 完整全频全源全mean逆、真ν-Schur、非线性F=0、完整holonomy/帽matching及同一精确闭族仍未完成。子问题完成接open下一项；时长、阶段报告或进程等待均不是停止理由。仅达到题README全部标准才收尾。
 
 已提交visible-exact-regular-cut-proposal.yml：公开计算真9/10→腰完整193×96 frame，正ρ和ρ′/ρ保mean；source f5900646…、worker06429f7e…、manifestda5049f2…。全部率仅diagnostic，仍须连续validator及真帽/接口/高频费。
+
+新增真label全径向L2能量把K48显式σphys提高到>1/80（σx>1/20）；同背景qν−Z≤1/200足保真物理行>1/200。完整响应误差仍需供给；公开九步DAG将同源重放原小consumer并首算R31门。
