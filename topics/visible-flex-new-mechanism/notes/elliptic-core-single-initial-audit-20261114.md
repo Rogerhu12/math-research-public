@@ -118,3 +118,7 @@ python topics/visible-flex-new-mechanism/scripts/frame_core_transport_audit.py \
 ```
 
 真实路径还必须位于本题公开 notes。当前没有运行以上真实命令，没有新核心实际 cost 或可行性数据。本次结果只能归因于明确记录的“新核心及其派生基场/度量/高度参考”的联合输运设计，不能声称保留旧物理场，也不能把尚未加入的入口修复当成已完成。
+
+## 8. 完整人工IO通过，首次真实单态请求
+
+2026-11-14 19:51:14 UTC：公开run43633746055/source26c3f2c0的core_transport_initial_development全pass。报告3146 B，SHA256 fa0f29cf557f41c7a962cbb4c8bbbcb5baa8c4209d28e89038a3c10de5970de2；完整IO/summary/输入不变、冻结162、稀疏与完整查询六jet和center差0、错SHA失败摘要、同态角精化均通过。本次立即请求原冻结driver的唯一真实新B=.37单selected初态，不优化、不加entry/Q、不重复该人工链。

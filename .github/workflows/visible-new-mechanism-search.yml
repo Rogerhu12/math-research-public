@@ -1113,6 +1113,8 @@ jobs:
         if: matrix.lane == 'quartic_joint_audit'
         timeout-minutes: 25
         run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_published_height_rows.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/published-height-rows-development.json"
           python -u "$VISIBLE_NEW_SCRIPTS/frame_height_quartic_joint_audit.py" \
             --input topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json \
             --anchor-input topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json \

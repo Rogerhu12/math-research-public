@@ -1,27 +1,47 @@
 {
-  "request": "complete-T-pre-reduced-full-phase-and-new-core-audit-artificial-IO",
-  "created_at": "2026-11-14 19:44:32 UTC",
+  "request": "continue-original-constrained-joint-with-published-rows-and-one-new-core-initial-state",
+  "created_at": "2026-11-14 19:51:14 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "full_phase_bridge_exact",
-    "core_transport_initial_development"
+    "quartic_joint_audit",
+    "core_transport_initial_audit"
   ],
   "source_sha256": {
-    "literature_full_phase_bridge_exact.py": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e",
+    "frame_published_height_rows.py": "6b59b7650604bb8031ba0214ff31e22e37e8214d40233f53a3cdf6b0a316f3d2",
+    "frame_height_quartic_joint_audit.py": "d2fc289a80e51a94b6481ddd06c3d649caac06c34227d77600f462dbb478ed15",
     "frame_core_transport_audit.py": "fbe810c9b19a2bc56b8e91391f79debd314bf56b1deec11c59a4489eb85c03c9"
   },
-  "full_phase_previous_run": 43632772378,
-  "full_phase_previous_exit": "300-second response-column resource limit after 141 of 152 columns; no joint matching conclusion",
-  "new_full_phase_algorithm": [
-    "exact linear dependencies in complete unsymmetrized third templates",
-    "fresh original-form verification of every removed template",
-    "absorb reachable full endpoint baseline before quartic responses",
-    "same real control coefficients jointly match -4 and -2; final original baseline and templates verified"
-  ],
-  "full_phase_default_seconds_unchanged": 300,
-  "core_initial_artificial_only": true,
-  "actual_new_B037_not_requested": true,
-  "old_B_joint_prior_run": 43633105146,
-  "old_B_joint_status": "stopped before either optimizer at last-bit numerical polytope reconstruction equality; original published A/b retained for specific repair",
+  "joint_repair": {
+    "prior_run": 43633105146,
+    "prior_status": "no quartic or joint optimizer reached; original polytope numerical b differed by 3.885780586188048e-16",
+    "published_constraint_sha256": "fca55130a2c176eb6e882a65f6c26b37c895a130b5d8d04149fb6e5ce4e6cc12",
+    "same_A_b_cap_target_and_boxes_retained_bitwise": true,
+    "only_new_array_replay_branch_check_before_original_actual": true,
+    "same_budgets_and_original_design": true
+  },
+  "core_initial_development_pass": {
+    "run": 43633746055,
+    "source": "26c3f2c0308d179a094d3967cfb7189db426081e",
+    "report_sha256": "fa0f29cf557f41c7a962cbb4c8bbbcb5baa8c4209d28e89038a3c10de5970de2"
+  },
+  "new_core_scope": {
+    "A": "1",
+    "B": "37/100",
+    "single_original_selected_semantic_initializer": true,
+    "immutable_anchor_is_transported_original_234_c0": true,
+    "new_complete_metric_and_b0_not_old_g_refinement": true,
+    "optimizer_calls": 0,
+    "entry_repair_or_new_Q": false,
+    "uniform_radial_base_count": 121,
+    "additional_exact_structural_nodes": true,
+    "same_state_angular_nodes": [
+      384,
+      768
+    ],
+    "fixed_primitive": {
+      "uniform_panels": 120,
+      "GL": 8
+    }
+  },
   "task_complete": false
 }

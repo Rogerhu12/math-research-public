@@ -37,6 +37,7 @@ from frame_height_polytope_audit import (
     load_short_model,implementation_hashes as polytope_hashes,
     stage_configuration as polytope_configuration,run_stage as run_polytope_stage)
 from frame_height_quartic import FixedTangentHeightQuartic,propose_height_quartic
+from frame_published_height_rows import restore_published_polytope
 from frame_entry_single_q import SingleQProblem
 from frame_height_affine_gate import HeightAffineGate,frozen_family
 from frame_joint_height_objective import (
@@ -47,7 +48,7 @@ SCHEMA='fixed-g-quartic-then-one-Q-joint-height-audit-v1'
 
 def implementation_hashes():
     result=polytope_hashes()
-    for name in ['frame_height_quartic.py','frame_entry_single_q.py','frame_height_affine_gate.py',
+    for name in ['frame_height_quartic.py','frame_published_height_rows.py','frame_entry_single_q.py','frame_height_affine_gate.py',
                  'frame_joint_height_objective.py',Path(__file__).name]:
         result[name]=hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest()
     return result
@@ -122,29 +123,7 @@ def exact_evaluated_scalar(record):
 
 
 def restore_numerical_polytope(problem,reference,data,prior):
-    record=prior['height_stage']['polytope'];definition=record['definition']
-    if digest(definition)!=record['definition_sha256']:
-        raise ValueError('published numerical polytope digest mismatch')
-    if [str(Q.from_float(float(x))) for x in reference[problem.slices['height']]]!=definition['reference_current_coefficients']:
-        raise ValueError('published polytope reference coefficient differs')
-    poly=HeightPolytope(data['X'],problem.height_basis.integral(data['radial']),
-        reference[problem.slices['height']],side=definition['side'],
-        cap_intercept=exact_evaluated_scalar(definition['cap_intercept_evaluated']),
-        cap_row=[exact_evaluated_scalar(x) for x in definition['cap_row_evaluated']],
-        cap_target=exact_evaluated_scalar(definition['cap_target_evaluated']),
-        coefficient_lower=[float(Q(x)) for x in definition['coefficient_lower']],
-        coefficient_upper=[float(Q(x)) for x in definition['coefficient_upper']],
-        ball_radius=exact_evaluated_scalar(definition['ball_radius_evaluated']),
-        minimum_signed_height=exact_evaluated_scalar(definition['minimum_signed_height_evaluated']),
-        radial=data['radial'],theta=data['theta'],provenance=copy.deepcopy(definition['provenance']))
-    if poly.numerical_definition!=definition:
-        oldA=np.asarray(definition['row_A_evaluated']);oldb=np.asarray(definition['row_b_evaluated'])
-        deltaA=float(np.max(abs(poly.A-oldA))) if poly.A.shape==oldA.shape else None
-        deltab=float(np.max(abs(poly.b-oldb))) if poly.b.shape==oldb.shape else None
-        raise ValueError('reference evaluation did not reproduce the original numerical polytope: '+
-                         json.dumps({'A_max_difference':deltaA,'b_max_difference':deltab,
-                                     'new_sha':poly.sha256,'old_sha':record['definition_sha256']}))
-    return poly
+    return restore_published_polytope(problem,reference,data,prior)
 
 
 def reconstruction_gate(problem,data,poly,tolerance):
@@ -222,13 +201,18 @@ def run_chain(problem,reference,accepted,prior,receipt,source_cfg,cfg,out,*,arti
         answer['research_candidate_evaluated']=not artificial
         poly=restore_numerical_polytope(problem,reference,reference_data,prior)
         answer['input_replay']={'accepted_state_complete':True,
-            'original_numerical_polytope_reconstructed_exactly':True,'polytope_sha256':poly.sha256}
+            'published_constraint_definition_and_A_b_retained_bitwise':True,
+            'polytope_sha256':poly.sha256,
+            'fresh_evaluation_replay':poly.replay_evaluation_definition,
+            'fresh_evaluation_replay_sha256':poly.replay_evaluation_sha256}
         accepted_data=problem.geometry(accepted,t,theta,order)
         answer['accepted_height_audit']=audit_data(problem,accepted,accepted_data,height_cfg['tau'])
         objective=FixedTangentHeightQuartic(reference_data,problem.height_basis.evaluate(t),poly,
             provenance={'fixed_metric_sha256':fixed_metric['mathematical_definition_sha256'],
                 'reference_field_sha256':digest(problem.identity(reference)),
                 'accepted_initial_field_sha256':digest(problem.identity(accepted)),
+                'published_constraint_definition_sha256':poly.sha256,
+                'fresh_array_replay_sha256':poly.replay_evaluation_sha256,
                 'all_inputs_are_exactly_replayed_public_models':True})
         def quartic_checkpoint(stage):
             answer['quartic_stage']=stage;save('quartic-'+stage['status'])

@@ -167,3 +167,5 @@
 - [R81：纯模式不可见而混合模式非零的真实第三控制](results/R81-real-third-hook-control-and-mixed-phase-response.md) — R71真实组合H=[r0,s0]−3[r0,r1]对全部复q的diagonal严格零，故保pure−4；明确外槽公式与端尾有理系数给−2非零，R39共同偶bump及C3逼近给严格三矩C∞非退化圆。未证全部mixed响应可付，P0和有限族仍欠。
 
 - [R82：真实端点类补齐纯第四P1的全函数证书](results/R82-exact-pure-P1-endpoint-and-genuine-bridge.md) — actual43632772378完整101行端点商fresh核，18个明确有理R71响应使原bulk加真实端点势的纯P1原式余0；R71/R77/R79给有限真实M0桥解释。只支付−4，完整外槽−2/P0/ruling/有限族及几何仍欠。
+
+- [R83：真实第四传递与零低阶路径的第四切向](results/R83-true-fourth-transfer-and-zero-lower-history-variations.md) — 原向量恢复给完整(w,u,v)传递，M0真实倒行T取负而V同号；有限真词Z恒M=T0，第四为未知偶成本加λtK，包含Z0的R45实际基准上ΔP0切向4λK且保全部P1。基准和偶部未付，不能用倒行把函数差当实际负成本。
