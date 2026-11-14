@@ -1,0 +1,77 @@
+name: ISP R150 recover completed five-third target-space publication
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-five-third-target-space-recovery-789f
+  cancel-in-progress: false
+
+jobs:
+  recover-publication:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/invariant-subspace-problem/README.md
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-recovery-prepare-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-recovery-publish-789f.py
+            /topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-recovery-request-789f.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Recover exact original ZIPs and read actual result and publication error
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-recovery-prepare-789f.py \
+            --checkout "$GITHUB_WORKSPACE" --out "$RUNNER_TEMP/isp-five-third-target-space-recovery"
+      - name: Publish original run bytes with actual pull and immediate rebase retries
+        id: publication
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-target-space-recovery-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" --results "$ISP_FIVE_SPACE_RECOVERY/results" \
+            --recovery "$ISP_FIVE_SPACE_RECOVERY/recovery" --work "$ISP_FIVE_SPACE_RECOVERY/publish-work"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_FIVE_SPACE_RECOVERY != ''
+        with:
+          name: isp-r150-five-third-target-space-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: |
+            ${{ env.ISP_FIVE_SPACE_RECOVERY }}/recovery-source.json
+            ${{ env.ISP_FIVE_SPACE_RECOVERY }}/artifact-recovery.json
+            ${{ env.ISP_FIVE_SPACE_RECOVERY }}/prior-publication
+            ${{ env.ISP_FIVE_SPACE_RECOVERY }}/results
+            ${{ env.ISP_FIVE_SPACE_RECOVERY }}/recovery
+      - name: Require actual original publication without any new mathematics
+        if: always() && env.ISP_FIVE_SPACE_RECOVERY != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_FIVE_SPACE_RECOVERY'])/'results/publication/publication-receipt.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          print(json.dumps(r),flush=True)
+          if r.get('status') not in ('pushed','already-published-verified'):
+              raise SystemExit('Original mathematical bytes retained; publication incomplete')
+          if r.get('allowedResultDirectory')!='topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1' or r.get('newMathematicalStagesExecuted') is not False:
+              raise SystemExit('Publication recovery scope changed')
+          PYCODE
