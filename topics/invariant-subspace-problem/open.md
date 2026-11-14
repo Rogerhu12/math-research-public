@@ -148,6 +148,8 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 ## 其他仍开放的路线与不可互换的极限
 
+[R282 实际移动源附录](results/R282-appendix-actual-moving-commutant-sources-and-nonvanishing-normal-error.md)排两种免费提取：有界纯高尾乘子只有标量弱*聚点；真均有界R_m∈Acal近似移动角色，却有(N_m−M_q_m)R_m→(2i/π)I于WOT，固定正常迹误差不消失。交换子在全部非零不变M上若弱/强趋固定有界乘子，该乘子必标量。新的入口必须保来源移动费用并超出这种交换子固定极限；未排一般M。
+
 [R282 全部复乘子稳定代数分类](results/R282-complete-multiplier-stabilizer-classification-and-finite-head-splitting.md)已证：对原每个非零真 A 不变 M，全部单向稳定有界复乘子自动减少M，且恰有限低头 L∞(y mod2^m)，M=完整2^m头⊗尾V，尾V只有标量稳定乘子。任意一个非有限柱复乘子、或无限稀疏物理位指标若精确保持M就排真；仍须从实际M/正常见证得到这样的精确关系，远尾近似交换不够。固定远尾完整乘法模另有不依赖限制稠密性的有限纤维证明。
 
 [R280](results/R280-odometer-weighted-factor-and-closed-sublattice-exclusion.md)已排任意可测复权的全部真加权因子不变空间，因而排闭逐点子格及相位共轭保正投影；每个非零轨道仅已证闭子格生成H。一般L²线性循环性、非标准主理想分类、完整A′核、外部紧交织继续。R12紧夹积/自伴链障碍及R14指定硬谱截断非紧与faithful弱极限已付；它们不排所有外部方法。family293仅超不变/有限因子投影范围，不是普通ISP答案。

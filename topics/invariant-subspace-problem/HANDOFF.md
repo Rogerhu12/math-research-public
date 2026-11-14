@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `3e20bc53c4e2f4294518429b626d207519e3b53b`（2026-11-14 06:56:52 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `ab4ea704717281189fe87556618ca9f37ec4efa7`（2026-11-14 07:00:35 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -22,7 +22,7 @@
 - **R276：** 固定同一正尾 ν 的正头完成 X=√νK√ν，w(K)≤1/2；原正常商零式保 ν(Z²−t) 与 νZ+X+X*t 两项。X 集迹范数紧及精确对偶已付；仍须同一实际 ν_m 全链的排除证书，不能删正常预湮灭商内非零缺陷。续稿 `notes/2026-11-14-normal-cross-level-continuation-789f.md`。
 - **旧正常范围：** R235/237/255 连续/a.e.+双边UI、保函数非负锥、指定 Walsh/乘积基及 E_√3 范围已闭，非一般正态；R228 C实化可增秩，R229不许一般秩一纯化。真 ann 迫 q_m↓0，指定周期/次数/参数滤波已排；超预算、真密度专属及足量非零右配对仍开。δ尾无速率，hp/vp不能换；R230/244保锚源发散、R267强单位/共同图与旧准确费用见压缩前全文。
 - **R280（已推）：** 任意 a.e.有限可测复权的非零加权因子不变空间必 H；闭逐点子格、相位共轭保正投影因此无真不变值域。每个非零轨道生成 H 的闭子格，未证线性循环。
-- **R282（已推8944064）：** [完整证明](results/R282-complete-multiplier-stabilizer-classification-and-finite-head-splitting.md)。全部单向稳定复乘子自动自伴（实际 AM 稠密、torsion Fourier）；非零真 M 的该代数恰有限低头，M=完整头⊗尾V且尾V稳定乘子只有标量。任意非有限柱复乘子稳定即排真；一般 M 仍开。代理继续尝试从实际正常见证产生这种乘子。附录在写：一致有界纯高尾乘子的弱*极限仅标量；固定 f 的 N_m≈q_m 不可免费作用于移动的实际有界交换子源，须保其真实证明。
+- **R282（已推8944064）：** [完整证明](results/R282-complete-multiplier-stabilizer-classification-and-finite-head-splitting.md)。全部单向稳定复乘子自动自伴（实际 AM 稠密、torsion Fourier）；非零真 M 的该代数恰有限低头，M=完整头⊗尾V且尾V稳定乘子只有标量。任意非有限柱复乘子稳定即排真；一般 M 仍开。代理继续尝试从实际正常见证产生这种乘子。[附录](results/R282-appendix-actual-moving-commutant-sources-and-nonvanishing-normal-error.md)已付：纯高尾弱*聚点仅标量；真R_m∈Acal一致有界且R_m−M_c_m强→0，但(N_m−M_q_m)R_m范数在固定f上趋√2||f||、WOT→(2i/π)I。固定乘子若在全M由交换子极限得到则只能标量；不能靠删移动源误差保正常迹锚。
 
 ## 2. 实际边界、相邻 Gram 与下一证明
 
@@ -34,7 +34,7 @@
 - **R279（已推）：** 真全层 MP 的 X_j=S^jΓ_j/j! 满足 X_n≥I+(n/r)(X_r−I)，有限合法全范围及无限正 ℓ² 行均付；改进全高度低占据常数，首边 sδ≤1/(2√2) 得 c1，原 b_j=(j+1)⁻² 尾得 s≤(m+1)/(6√2)。一般高 birth 未付。硬核真纤维 Γ1=I+L*L、Γ2=2I+4L*L+M*M，M 是联合最小逆，余 M*M≥(L*L)²−2L*L−I；全 annihilator 不变的非 Boolean 反例说明不能只用 Euler/共同不变性。
 - **R281（已推）：** [完整证明](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)。强新增位用同源 PSD 块极限把第 n 边传成旧第 n+1 边，全出生首边/全高度的统一常数相同；等权中央边迫 C≥1。真实八位权(4,4,1,1,1,1,1,1)、birth2 给首比22801/43836>1/2，完整四维逆有 Fraction 脚本。
 - **R283（已推）：** [完整证明](results/R283-exact-singlet-padding-and-half-density-universality.md)。添加等权强对的反对称向量同时被D,D*消，全部真MP/Γ精确共同约化；任意问题可嵌入任薄的 1/2<sδ<1/2+ε 且 δ 任小区域。
-- **R284（本提交）：** 两个真实跨birth零模Gram把Q/Δ接到联合M能量，Γ2≥4Γ1−2I+Γ2 B_s B_s*Γ2+R Y3†R*；有限正权p≥2零模压缩严格正。另Fischer余量2/(M−1+2s)及局部物理F/单I的无外尾coercivity已付，J*e_I仅得Ran X^(1/2)和逆平方根能量。完整首边平方下界、S1/S2及原graph识别仍开。
+- **R284（已推）：** 两个真实跨birth零模Gram把Q/Δ接到联合M能量，Γ2≥4Γ1−2I+Γ2 B_s B_s*Γ2+R Y3†R*；有限正权p≥2零模压缩严格正。另Fischer余量2/(M−1+2s)及局部物理F/单I的无外尾coercivity已付，J*e_I仅得Ran X^(1/2)和逆平方根能量。完整首边平方下界、S1/S2及原graph识别仍开。
 - **代理后续：** boundary 续 S1 真硬核联合能量，literature 续 S2 真零模；R271 已闭任意 birth1 首/末边、两组＋一位等，不重复成新缺口。
 
 ## 3. R150 与其他主接口

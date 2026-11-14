@@ -803,3 +803,7 @@
 ### R284：真实跨出生零模 Gram、严格性与局部逆平方根费用
 
 [主体](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)完整证明共同零模的Q/R交叉、Y3准确式及保高birth返回的二阶Schur下界；真空压缩E_p有有限交替幂和。另[严格性](results/R284-appendix-strict-positivity-of-boolean-zero-occupation-compressions.md)以平方自由多项式不能含集体线性因子付p≥2有限严格正；[Fischer/局部界](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)给明确正交余量及固定物理块与所有外尾无关的coercivity，含无限ℓ²尾的真实平方根像/能量。一般首边S1/S2及原graph映射仍开；实际[两同层收缩接口](notes/2026-11-14-one-bit-first-edge-contractions-789f-next.md)另存工作笔记，不以数值校准证明普遍正性。
+
+### R282 附录：真均有界移动来源的非消失正常误差
+
+[完整证明](results/R282-appendix-actual-moving-commutant-sources-and-nonvanishing-normal-error.md)。原q_m的准确进位递推及高尾独立性给纯尾有界乘子仅标量弱*极限。实际R_m∈Acal、||R_m||≤e^(3π)、R_m−M_c_m强→0，却使(N_m−M_q_m)R_m在固定f上范数趋√2||f||、WOT趋(2i/π)I，故任意固定迹类的误差锚准确非零。并证真实交换子在整个非零不变M上若等于或弱/强趋一个固定L∞乘子，该乘子必标量。未构造湮灭态，也不从移动角色推固定非标量稳定乘子。
