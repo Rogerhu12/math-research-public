@@ -214,3 +214,5 @@ R119 root graph完整density空间二阶与4/3费现已付，见 results/R119-su
 旧H17前自由Airy端架b^1/2低频断言现有明确反例：真实normal shear给κ^-5/6；新 results/R119-supplement-complete-free-Airy-two-row-frame-and-low-frequency-erratum.md 给全频正逆界，含两mean及强误差，并逐项重新支付旧显示H17/H22/H1/旧高块。以后引用旧后继须同时引用本勘误，不能再独立用错误中间句。新全有序负word/实际scattering和移动中间频带仍继续。
 
 完整首符号有限部已由实际v2续算完成，见 results/R133-supplement-actual-complete-moving-first-symbol-finite-part.md；原失败历史与成功2838行/2 root步不重算，六门原件可回查。−Xi/4虽已有严格窄区间，完整returnword中的真实root两行、positive graph、δ*转移和strong余项仍必须支付；不能将数值就改标成返回β。
+
+root一次相位35门实际原件已根核，见 notes/2026-11-14-R119-root-first-phase-slope-public-outcome.md；完整解析范围仍由对应证明决定，非以常数门替代operator proof。继续负word与全网络复合。
