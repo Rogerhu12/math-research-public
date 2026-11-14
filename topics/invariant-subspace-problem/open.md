@@ -112,25 +112,9 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **主池缺额的全部出生真实源：** [完整物理特征公式](notes/2026-11-14-deficient-main-pool-all-birth-feature-grams-and-full-hard-regression-789f-next.md)对q0=Q−2d≥0，识别低E_d=ker∂³∩P_(d+1)、硬U_d=ker∂∩P_d；同一ρ与w=[T(1−T)]⁻d，ψ=∂φ−2φ，R=C*M⁻¹C、G=(B−R)/4，原J=HG⁻¹L−2G−R。逐subset/Beta、完整硬Schur、真实顶MP及等权H0=L0=2G0/R0=0均付。d0回star；q0=0是原完整偶段。接有限次数共同度量支付中央区，外场/多尺度/原graph费用继续。
 
-**实际cofactor正核：** [显式完整Gram与score jets](notes/2026-11-14-balanced-star-cofactor-positive-kernel-and-actual-score-jets-789f-next.md)已付所有Q的严格正系数核及真实G/H/L接口；混合正权保1−z_j w_j*符号，尚须由共同jet Schur支付J。
+**其余完整相位接口与剩余范围。** cofactor正核、真实score/两端混合、共同逆、两权后验、非线性端点反例、矩阵曲率反例、混合生成元及唯一负方向的全部证明、精确常数和来源链接保[本轮完整快照](notes/2026-11-14-open-before-original-tail-windows-789f.md)。固定正权区间的完整平衡star已由六区定理关闭；不能把旧局部接口仍欠的预算误记为该已闭子问题。权比发散、不同出生/多维硬源、原同源graph费用仍开；非线性任意源的Q²/logQ障碍仍保，只在其原范围使用。
 
-**三权任意spin：** [完整固定Gaussian生成核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)已给所有三角模块的全部≤3维低源、两侧度量及完整硬回归；核为固定3×3，spin只进入取系数阶数。须在同一系数层证明相位界，生成函数层Schur不能与取系数互换。
-
-**完整非微扰相位流：** [全部spin Jacobi身份](notes/2026-11-14-even-phase-full-spin-jacobi-flow-and-boolean-constraints-789f-next.md)保m−1非零同spin对角及高spin完整指数；首硬源Schur S给J=2hS⁻¹ell−Q−C*M⁻¹C。尚需控制这一共同差，不能分别估两大项，也不能任取不满足原Boolean约束的Jacobi矩阵。
-
-**后验score两端必须联合：** [原全等权全规模公式](notes/2026-11-14-balanced-star-posterior-score-logarithmic-residual-and-bounded-mixed-term-789f.md)给完整线性回归后两个余量各有log Q损失，而混合项恰1/2−1/Q；真phase仍I。分别L²预算已排；同稿§6的真实两权contrast还给单侧真投影/H→Q，均值/总数项为零仍不能独立控制。混合归一极限≤2，不能据此排共同相位或把混合项换成增长范数乘积。
-
-**平衡star全源逆预算：** [共同score证明](notes/2026-11-14-balanced-star-full-source-score-inverse-budget-789f-next.md)给G⁻¹≤D⁻¹−qq*/[(Q+2)E t(1−t)]及真实残差R=U−G⁻¹。原相位块=Pκ+[L,−H]*R[L,−H]，尚须支付Pκ；不丢总数扣除或以左右不同的H/L直接传Loewner序。
-
-**两端互逆权：** [完整列预算](notes/2026-11-14-balanced-star-reciprocal-weight-score-budget-789f-next.md)已付τ=(S+1)/(Q−S+1)下两个后验score各常数2及混合正块η_Q≤2；原全线性回归的两权运输仍缺，M不代J。
-
-**原additive源不可扩大：** [原概率上的端点反例](notes/2026-11-14-balanced-star-nonlinear-endpoint-source-obstruction-789f.md)给完整二维非线性来源所需κ≥Q(Q+1)/[4(1+logQ)]；全mean-zero/任意同端点来源不付统一κ，真全等权线性相位仍I。 [真实contrast标量log凹也失败](notes/2026-11-14-balanced-star-actual-contrast-scalar-log-concavity-fails-789f.md)，须保完整矩阵曲率。
-
-**一般矩阵曲率路线已排：** [完整真实Q5反例与全R族](notes/2026-11-14-balanced-star-actual-matrix-curvature-counterexample-789f-next.md)保实际reducing块和完整逆，中心有负方向；相对负曲率随R增长，固定[t(1−t)]^c亦不能统一修复。原相位仍开，须同均值/总数/回归共同支付。
-
-**真实混合生成元：** [完整可逆链与物理层谱界](notes/2026-11-14-balanced-star-reversible-mixed-generator-bound-789f-next.md)给归一交换||N||≤1+(1−α−β)/Q，混合I−N统一≤2+1/Q；真实共同回归余项D0−Z⁻¹ΔZ−DnG⁻¹Dm尚须联合支付，不能把生成元全积界免费传到投影积。
-
-**唯一负方向：** [真实Khat正补偿](notes/2026-11-14-balanced-star-one-negative-direction-and-positive-compensation-789f-next.md)给Q>1惯性(m−1,1,0)及Khat+ww*/Ea≥D/(M±+1)≥D/(Q+1)。仍须在同一H/L/G中控制该负方向和均值交叉；m*G⁻¹n>1不提供普适上界，Q1另为零。
+**三权任意spin与一般物理Jacobi。** [固定Gaussian核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)给所有三角模块的完整≤3维低源和硬回归，仍须同一系数层证明全部权相位，不能把生成函数Schur与取系数互换。[完整Jacobi流](notes/2026-11-14-even-phase-full-spin-jacobi-flow-and-boolean-constraints-789f-next.md)保Boolean约束和真实J=2hS⁻¹ell−Q−C*M⁻¹C；未付的共同差仍保，不取任意Jacobi代原源。
 
 ## 当前接口三：一般系数行、多个模式与中央域
 
@@ -171,3 +155,5 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 同一物理源、原核旗、自然域和正常预算按已付范围使用；环境/有限模型不替实际来源，全部旧限制保本次全文。继续上述未闭接口，完成标准不变。
 
 **原文续查边界。** [完整记录](notes/2026-11-14-current-isp-literature-refresh-789f-next.md)及Garayev第二分支必零构造已付；这些原文仍不支付同源预算、原graph或真实最终零矩。
+
+**原尾中央短窗已成。** [原连续权完整源定理](notes/2026-11-14-original-continuous-tail-square-root-windows-full-central-phase-bound-789f-next.md)给偶Q≤c√x时统一κ_c，保完整V/U、真MP及硬Schur。原实际祖先宽度和起点未自动满足窗口条件；继续宽窗增长率、实际标签支持与跨段/原graph两侧费。

@@ -119,3 +119,7 @@
 ### 全出生真实物理源：中央区与极平坦区的完整相位定理
 
 [完整定理及证明](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)将已成真实E_d/U_d公式与有限次数比较接合。固定d、正有界外场、累计漂移/平方偏差有界，整个V和完整硬U满足J*L⁻¹J≤κH，κ不依Q/维数；k=d+1的极平条件max|zi−1|≤η/k、kS≤C0、|D|≤D0给独立于d/Q的显式κ。共同联合Gram、发散积分权的端点可积性、完整硬Schur、真实顶逆及等权标定均保。q0=0就是原完整偶Boolean中央源；未把它扩成无限尾reducing块或原全graph费用。
+
+### 原连续尾平方根宽偶段：整个中央源统一相位界
+
+[完整证明](notes/2026-11-14-original-continuous-tail-square-root-windows-full-central-phase-bound-789f-next.md)对原b_i=(x+i)⁻²和偶Q≤c√x，给完整中央V=kerD∩H_(d−1)、硬U=kerD∩H_d的Φ≤κ_c，显式κ_c不依x/Q/源维数。共同正缩放准确保phase；均值归一的实际权比、kS及k logρ联合付清次数k=d+1增长。保两个真实层间逆与整个硬投影，不是新增主池或对称试探子块，也没有据此宣称原无限尾/全graph已付。H/open旧细节完整快照后压缩，未删除未闭条件。

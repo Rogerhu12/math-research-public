@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `2b5a83b30a05023954f06fb49fcbd8e68c4125d6`（2026-11-14 19:10:50 UTC，Actions run43630666139/job132556308194实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `2900ee999e54019e1903c626a0101f471fdf0941`（2026-11-14 19:12:39 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `e78a75c3a1801aea0d66a4f8bc86b5ac28468621`（2026-11-14 19:12:54 UTC，Actions run43630856483/job132556891559实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `3fedb0fd6b40d409d0f0fbf3da6c94fe9ae7c78a`（2026-11-14 19:14:30 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -19,11 +19,7 @@
 
 全部旧公式、数据和适用范围保[最近完整H](notes/2026-11-14-handoff-before-complete-bounded-star-789f.md)及递归入口。原尾birth2全height、高方差V≥2²⁰s²（原尾k≥2²³s²）已付；短旗s≈k≈q仍缺。两权、六位三对、主spin和空硬源已成，一般全权/全birth未闭。
 
-**[固定正权区间的整个平衡star已闭](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)：** 对任意a≤zi≤b、q0=Q=Σqi，任意Q/m/qi，整个低primitive及一维硬源满足J*L⁻¹J≤κ(a,b)H。J=HG⁻¹L−2G−yy*，h/g/ell=c(H/G/L)、q=c(4G+yy*)，保全部真实噪声/硬源/同源逆及原次序。κ不依组数/方差/累计S/漂移；不要求最小组比例。完整六区阈值依次选择，反射后统一处理所有峰位置，最后κ=max{K_bd(A,B,S0),2}，A=min(a,1/b,1),B=1/A。
-
-证明含中央S有界全漂移、抛物Gaussian窗、固定η内峰、近端内峰双角点、S/R有界端峰C/R²及S/R大端峰C(S/R²)²。两角点均由真正统一混合导数+轴零jet给联合预算；没有偷换逐点常数。完整输入链接与参数转换见总定理。
-
-**后续范围：** κ仍可能随a↓0或b↑∞增长；主池长度等于外部总长使硬源仅一维。原b_i=(i+1)^−2的真实外场、一般birth/多维硬源、全部MP/Schur及两侧费用仍须另付。score/单侧回归/点态曲率负指数≤3均不能替代；逆符号/行和实际反例只排其原充分路线。
+**[平衡star固定正权区间已闭](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)：** 对a≤zi≤b、q0=Q=Σqi，整个低primitive/一维硬源有统一κ(a,b)，不依Q/组数/漂移/S。完整六区及两共同角点全付；κ在a↓0/b↑∞增长与一般多维硬源另办。所有参数、阈值和原次序保总定理及[此前H](notes/2026-11-14-handoff-before-original-tail-windows-789f.md)。最新全出生物理界见末段；原graph两侧/裸项仍须同源支付。
 
 ## R150 原十七式与31饱和
 
@@ -47,6 +43,8 @@ normal接扩增七列后的完整31饱和与特征零秩判据；literature接�
 
 - **[全部出生真实概率接口](notes/2026-11-14-deficient-main-pool-all-birth-feature-grams-and-full-hard-regression-789f-next.md)：** 主等权池q0=Q−2d≥0，外部Q位；低源E_d=ker∂³∩P_(d+1)，硬源U_d=ker∂∩P_d。w=[T(1−T)]⁻d、ψ=∂φ−2φ，整个硬Gram M与交叉C给R=C*M⁻¹C、G=(B−R)/4，完整J=HG⁻¹L−2G−R。逐subset/Beta与真实D²/2逆均已付，端点可积；等权H0=L0=2G0、R0=0。q0=0就是原完整偶Boolean，不额外添位。中央固定d与全d极平坦预算接前条共同Gram定理。
 
-- **七关系真实续算已触发：** [冻结入口](notes/2026-11-14-r150-seven-saturation-actions-entry-manifest-789f.json)及[完整来源接口](notes/2026-11-14-r150-seven-saturation-interface-789f.md)。恢复已成T96/all198与原one31证书；七新真关系、九原余量均用原17式mod31⁴=923521乘回，完整Q/U商308维含全primary。共享数学300秒/每子512MiB/编译30秒；相容即接真来源与原式，失败保实际checkpoint，阶段cache全保存。当前仅启动，未宣称结果。负证书只排A+固定mod31初值(x0,0)，不排全部有理来源；单独保九个未经新β消去的完整余量。
+- **七关系真实续算已触发：** [冻结入口](notes/2026-11-14-r150-seven-saturation-actions-entry-manifest-789f.json)及[完整来源接口](notes/2026-11-14-r150-seven-saturation-interface-789f.md)。恢复已成T96/all198与原one31证书；七新真关系、九原余量均用原17式mod31⁴=923521乘回，完整Q/U商308维含全primary。共享数学300秒/每子512MiB/编译30秒；相容即接真来源与原式，失败保实际checkpoint，阶段cache全保存。实际run43630666145/job132556308032在算；源码2b5a83b3。尚未宣称结果。负证书只排A+固定mod31初值(x0,0)，不排全部有理来源；单独保九个未经新β消去的完整余量。
 
 - **[全出生物理中央/极平坦定理](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)：** 上述E_d/U_d已满足共同Gram全部条件，k=d+1、完整硬Schur及真实等权H0=L0=2G0/R0=0均保。固定d和a/b/D0/S0时κ=(2Θ²+3Θ)²不依Q或源维数；若max|zi−1|≤η/k、kS≤C0、|D|≤D0，则Θ≤exp[4D0+4C0+12η+(2+√2)√C0]，κ连d也统一。q0=0覆盖完整偶Boolean中央源，下一接原尾窗口/全graph费。
+
+- **[原尾平方根窗](notes/2026-11-14-original-continuous-tail-square-root-windows-full-central-phase-bound-789f-next.md)：** 原b_i=(x+i)⁻²，偶Q≤c√x，完整中央V/U及真正两个逆相位Φ≤κ_c。共同归一Σzi=Q且缩放phase不变；k=d+1随Q增也已支付。κ_c=(2e^(2C_c)+3e^C_c)²，C_c=24c²+8(1+c²/2)^7c²+8(1+c²/2)^14c⁴。不是无限尾reducing块/任意高度，继续宽窗及原graph同源费。
