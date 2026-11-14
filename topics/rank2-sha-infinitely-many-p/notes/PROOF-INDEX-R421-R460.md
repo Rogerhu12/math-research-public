@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R439：原残余伴随两态核心与真实同深比较](../results/R439-original-residual-companion-two-state-core-and-exact-depth-comparison.md)：固定mod7细分及R370真锚付全7280绝对平方；原L二挠不变下降1820，显式E4平均给两态完整Q核心。偶深全返回及隐藏同深比例保真实内部补集、独立sigma和移动中心。
+
 - [R438：原小核惰性三权与对角全部carry交叉行](../results/R438-original-inert-bezout-kernel-and-complete-diagonal-carry-rows.md)：全局两张量身份保两个真实Gaussian并向任意第二轴Taylor行返回；三个对角全部交叉和及原T72固定多项式准确保留。两中央零的单位消元保真实U1/p及第三位，未增加独立中央条件。
 
 - [R437：原独立sigma约消与degree52有限差分原函数](../results/R437-original-sigma-companion-cancellation-and-degree52-primitive.md)：真正整残余L保完整W核心，Wronskian边际给移动负五型单位；sigma的T乘单位分解给真实(Y+1,X−1)差分。原中央仅控制完整差分行，保单位边界、混合转置和隐藏域补集。
