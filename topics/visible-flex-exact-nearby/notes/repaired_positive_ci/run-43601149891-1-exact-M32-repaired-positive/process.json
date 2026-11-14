@@ -28,6 +28,28 @@
       "actual_returncode": 0,
       "wall_seconds": 5.000518299999996,
       "finished_utc": "2026-11-14T13:43:55.980466+00:00"
+    },
+    {
+      "label": "actual_repaired_4650_complete_positive_rows_and_both_unbounded_high_orders",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_repaired_positive_high_Volterra.py",
+        "--coefficients",
+        "/__w/_temp/visible-exact-repaired-positive-work/original-verified-inputs/original-complete-positive-coefficients.json.gz",
+        "--repair",
+        "/__w/_temp/visible-exact-repaired-positive-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+        "--outer",
+        "/__w/_temp/visible-exact-repaired-positive-output/native/repaired-complete-regular-Hs-outer.json.gz",
+        "--outer-source-sha",
+        "5d1e8a86aa268d4d98bc929264d706b418b88cb99518ca646d84258d3068ffbe",
+        "--out",
+        "/__w/_temp/visible-exact-repaired-positive-output/native/repaired-complete-positive-N97-high-inverse.json.gz"
+      ],
+      "started_utc": "2026-11-14T13:43:59.303117+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 15.000749307000007,
+      "finished_utc": "2026-11-14T13:44:14.304481+00:00"
     }
   ],
   "readme_checks": [
@@ -62,6 +84,22 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:44:15.055665+00:00",
+      "before": "340f03f774791fa81a93ac743fbd538a5b5b52de",
+      "after": "7041fb8176d7ecd22c30284d89dea5155d4887d8",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:44:18.495345+00:00",
+      "before": "7041fb8176d7ecd22c30284d89dea5155d4887d8",
+      "after": "95bc71aa2cdc1f348166ed89bb91d70554c76264",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -74,6 +112,11 @@
       "time": "2026-11-14T13:43:57.655987+00:00",
       "final": false,
       "commit": "340f03f774791fa81a93ac743fbd538a5b5b52de"
+    },
+    {
+      "time": "2026-11-14T13:43:59.300672+00:00",
+      "final": false,
+      "commit": "5727b64f3343243879cde8bac5607a46dcd48c86"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -108,11 +151,11 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "340f03f774791fa81a93ac743fbd538a5b5b52de",
+  "last_read_commit": "95bc71aa2cdc1f348166ed89bb91d70554c76264",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-repaired-positive-work/science",
   "original_complete_positive_byte_restoration_verified": true,
-  "snapshot_utc": "2026-11-14T13:43:57.943955+00:00",
-  "wall_seconds": 9.324803794999994,
+  "snapshot_utc": "2026-11-14T13:44:16.435406+00:00",
+  "wall_seconds": 27.816258684999994,
   "native_files": [
     {
       "logical_file": "evidence/original-positive-byte-restoration.json",
@@ -125,6 +168,13 @@
       "file": "evidence/repaired-complete-regular-Hs-outer-summary.json",
       "bytes": 19738,
       "sha256": "1f8a0eb70945c15b25f94361fcee9e39730afbcfeed39917485139687c55dba6"
+    },
+    {
+      "logical_file": "native/repaired-complete-positive-N97-high-inverse.json.gz",
+      "lossless_manifest": "native-repaired-complete-positive-N97-high-inverse.json.gz-eefb94952a409473-parts.json",
+      "bytes": 16909572,
+      "sha256": "eefb94952a409473fed7f9c34afc9214a3346d8c3b19ed7e0a7fc6fd06f48a68",
+      "parts": 9
     },
     {
       "logical_file": "native/repaired-complete-regular-Hs-outer.json.gz",
