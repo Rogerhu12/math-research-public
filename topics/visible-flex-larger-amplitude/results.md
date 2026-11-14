@@ -441,3 +441,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - **R227（已证明，条件定理）**：[固定度量下Hermite接缝与一般参考浸入的曲率预算](results/R227-hermite-seam-general-reference-hessian.md)。近似等距基底的完整向量Hessian/切向费用显式保留，并给省略它的无界曲率反例；同一Hermite基η≤17ellK/8、ζ≤10K，含完整连续常数证明。真实tail数据、全局reach和同g精化仍另付。
 
 - [R238. 由平面局部胚识别弱标记](results/R238-planar-germ-marker-rigidity.md)：已证明条件几何定理；含反射全等及欧氏商Hausdorff正性，不把未完成几何输入当已满足。
+
+- [R239. 材料切口的均值唯一性与共同平面配准](results/R239-material-cut-mean-and-planar-matching.md)：连续正分支、同完整高度/非均值斜率及同实际转角数下，均值唯一；同一非特征 Darboux 分支和共同刚体配准给完整六 jet。实际新候选尚未满足全部假设。

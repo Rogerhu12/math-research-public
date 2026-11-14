@@ -24,8 +24,9 @@ A主SHA917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf；fixed-
 
 ## 当前Actions与接续接口
 
-run43579782197，源码ca96fb9e1102328c80a2c8db7998f34f2ce10a7b：M96 .99和原A RK48两线已实际运行。新followup workflow并行fixed3 normal分支（只固定前三核心系数、释放4..96）、1024/2048/4096材料角谱及R37/R238真实闭面输入检查；均不是完成主目标。
+run43579782197，源码ca96fb9e1102328c80a2c8db7998f34f2ce10a7b：M96 .99计算step于09:22失败、待日志定因；RK48完整读出step于09:30真success。两线publisher失败但artifact存在，正取回并修发布。followup run43580643038并行fixed3 normal、1024/2048/4096材料角谱及R37/R238真实闭面检查，当前run失败、逐job调查；不是完成主目标。
 新大核法向角φ与tail材料角θ不同，必须消费完整逆映射/谱尾，不能直接把96个φ高度系数当96H。全nonmean DN在field_modes=tail_modes时需3个scalar控制，模数不同需相应预算；完整均值/六jet接缝另付。
+R239已证明连续正分支下完整cut数据的均值唯一及单个SE2配准/六jet匹配；不把有限DFT当已满足。真T96尾接口与完整DN BVP正在接入。
 
 ## 旧A增强线的最后真实状态
 

@@ -34,4 +34,4 @@ R226–R232给出的条件能量/接口工具和R233有限非平面性可直接�
 
 ## 5. 执行规则
 
-已按旧仓正式通知迁移到公开Rogerhu12/math-research-public，题路径及完成条件不变，今后只在此仓工作；新根Rule13用本仓自身Actions，Rule14公开且禁止明文凭证。旧math-research-ci及五个请求已停并清空。独立本地长算继续，其他互补计划在本地准备新仓workflow。首次公开push被自动审批拒绝，理由为对话未直接批准从原私仓公开研究材料；当前无新公开push，不以其它路径绕过。结论逐条本地commit，等用户直接公开授权后按原流程逐条push；只读pull与双README差异/SHA记录继续。Git空间已恢复、全部唯一对象保留。任何中间结果都不是本题结束。
+已按旧仓正式通知迁移到公开Rogerhu12/math-research-public，题路径及完成条件不变，今后只在此仓工作；新根Rule13用本仓自身Actions，Rule14公开且禁止明文凭证。旧math-research-ci及五个请求已停并清空。本轮用户已明确授权公开发布与本仓Actions，43个旧本地提交及新结果已普通push成功，历史审批阻塞不再适用。每条结论实际pull、检查双README差异、记录SHA并普通push，非快进即rebase重推。计算仅本公开仓Actions，任何中间结果都不是本题结束。

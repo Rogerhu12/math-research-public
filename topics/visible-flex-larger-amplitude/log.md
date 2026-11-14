@@ -2,6 +2,10 @@
 
 较早记录完整保留在 [历史日志](notes/log-through-2026-11-14-pre-resume.md)。
 
+### 2026-11-14 09:36 UTC — R239 complete material cut matching
+
+登记R239：完整材料高度/非均值径向斜率在同连续正分支和实际turning number下决定均值，含准确r0/w0归一化；共同SE2及非特征Darboux给六jet一致。当前新候选连续输入未齐，不称闭合。首批RK48数值读出step真实成功但publisher失败，M96计算失败待实际日志；正在从artifact恢复，不重跑已经成功的尾求解。
+
 ### 2026-11-14 02:23 UTC — root-environment-offline-text-recovery
 执行环境unavailable，原publisher/strong/metric真实终态与待恢复包写入小文本；按根Rule8仅GitHub集成fallback，无终端pull冒记。
 R222已成未队、R224未跑、r7零producer且旧hold已释放；先恢复实际pull/队列与缺项，再继续大幅闭面和同g精化全部标准。
