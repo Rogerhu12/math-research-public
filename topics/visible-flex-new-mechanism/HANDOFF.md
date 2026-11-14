@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`4f6291c5d7b2085c2d352370d30c409be5fca2fe`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`5d445ffe2800c4673947536df0c2c3e0b45d2830`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -50,4 +50,4 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；resu
 
 ## 6. 持续推进
 
-已完成的公开run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。当前三项：mechanism实现5d同g密径向minimax；literature消费R98十五行做t1补方向×W0四个P0切向原式；repo_sources已交D25 c8真实history/端势consumer待公开。R95压缩actual已完成；所有新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md。
+已完成的公开run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。当前三项：mechanism实现5d同g密径向minimax；当前request已部署literature的t1×W0四列/旧15行R98查询扩展（120s/768MiB，不重评旧14列），与repo_sources的真实D25 c8端势consumer（240s，保23histories/原DAG）。两小人工新分支已过不重复。R95压缩actual已完成；所有新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md。

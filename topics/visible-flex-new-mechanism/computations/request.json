@@ -1,36 +1,26 @@
 {
-  "request": "saved-physical-trial-refinement-and-next-tail-action-compression",
-  "created_at": "2026-11-14 20:45:32 UTC",
+  "request": "true-c8-action-and-transverse-fourth-character-response",
+  "created_at": "2026-11-14 20:55:46 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "metric_epigraph_saved_trial",
-    "pure_tail_action_compress"
+    "pure_tail_c8_reduce",
+    "fourth_character_transverse"
   ],
   "source_sha256": {
-    "frame_metric_epigraph_trial_audit.py": "47f02c5a8d1e9084b2abec50751e6346112f91ce5bca55391d659b266d204e53",
-    "literature_pure_tail_action_compress.py": "f7ed0471d659c95eca183604648057ea2522b0ed1766235b9a9da57c867c52f4"
+    "literature_pure_tail_c8_reduce.py": "1f4dfb341ee76e5cb2cbc9ca9b36f0153838572a5e354d1c64bed27ce49bad0d",
+    "literature_fourth_character_transverse_probe.py": "84a8ea232536263af398f781b5647ab540e06e21e9c2a83005d4cee2708451c3"
   },
-  "saved_trial_physical_sha256": "5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea",
-  "saved_trial_original_auxiliary_delta_unchanged": true,
-  "saved_trial_same_complete_metric_and_parameters": true,
-  "saved_trial_optimizer_calls": 0,
-  "saved_trial_grids": [
-    [
-      100,
-      192
-    ],
-    [
-      160,
-      384
-    ],
-    [
-      160,
-      768
-    ]
-  ],
-  "pure_tail_input_run": 43637739532,
-  "pure_tail_original_DAG_backsubstitution": true,
-  "pure_tail_max_seconds": 240,
-  "pure_tail_period_sign_or_zero_claim": false,
+  "c8_input_run": 43639240317,
+  "c8_max_seconds": 240,
+  "c8_true_coefficient_histories_and_original_DAG_required": true,
+  "transverse_input_run": 43638896281,
+  "transverse_max_seconds": 120,
+  "transverse_memory_polling_mib": 768,
+  "transverse_only_new_original_columns": 4,
+  "transverse_saved_rows": 15,
+  "transverse_old_columns_target_rank_not_rerun": true,
+  "transverse_extension_not_old_space_membership_claim": true,
+  "toy_checks_already_passed_no_repeat": true,
+  "period_sign_or_complete_P0_claimed": false,
   "task_complete": false
 }

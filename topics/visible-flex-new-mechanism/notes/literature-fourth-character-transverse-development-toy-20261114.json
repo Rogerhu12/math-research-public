@@ -1,0 +1,97 @@
+{
+  "baseline_cost_removed": false,
+  "complete_P0_or_fixed_N_cancellation_paid": false,
+  "completed_new_columns": [],
+  "completion": "toy_passed",
+  "elapsed_seconds": 0.016593282998655923,
+  "embedding_or_reach_certified": false,
+  "finite_isometric_family_constructed": false,
+  "fourth_ruling_paid": false,
+  "github_repository": null,
+  "github_run_id": null,
+  "github_sha": null,
+  "limits": {
+    "bound_evaluation_rows": 15,
+    "coefficient_nodes": 300000,
+    "expression_terms": 100000,
+    "memory_polling_mib": 768,
+    "new_columns": 4,
+    "output_bytes": 100000,
+    "polynomial_degree": 256,
+    "polynomial_operations": 10000000,
+    "profile_atoms": 100000,
+    "rewrite_calls_per_normalizer": 500000,
+    "seconds": 120
+  },
+  "max_rss_mib": 15.375,
+  "new_columns_assumed_in_original_V": false,
+  "phase": "small_artificial_toys",
+  "real_sign_or_global_negative_cost_proved": false,
+  "schema": "visible-flex-R83-fourth-character-transverse-v1",
+  "scope": "explicit query-formula extension of R98 Lambda to four R83 fourth tangents",
+  "some_nonzero_exact_rational_extension_value_proved": false,
+  "source_hashes": {
+    "colored": {
+      "bytes": 15738,
+      "filename": "literature_colored_profile_algebra.py",
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    "driver": {
+      "bytes": 18310,
+      "filename": "literature_fourth_character_transverse_probe.py",
+      "sha256": "84a8ea232536263af398f781b5647ab540e06e21e9c2a83005d4cee2708451c3"
+    },
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "original_problem_driver": {
+      "bytes": 19492,
+      "filename": "literature_full_phase_rational_dual.py",
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "scaling_block_driver": {
+      "bytes": 37293,
+      "filename": "literature_total_P1_scaling_blocks.py",
+      "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+    },
+    "v2_producer": {
+      "bytes": 35368,
+      "filename": "literature_full_phase_bridge_exact.py",
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    "words": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  },
+  "toy": {
+    "all_passed": true,
+    "checks": {
+      "complete_phase_Jacobi_both_modes": true,
+      "known_span_column_extension_zero": true,
+      "new_column_extension_nonzero_without_real_sign": true
+    },
+    "geometry_integrated": false,
+    "research_profile_evaluated": false,
+    "research_root_compiled": false,
+    "scope": "artificial symmetric-operation Jacobi and a three-row modular extension only"
+  }
+}
