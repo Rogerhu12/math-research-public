@@ -1,0 +1,27 @@
+{"phase":"integer-reconstruction","sample":0,"bound":25}
+{"phase":"integer-reconstruction","sample":5,"bound":25}
+{"phase":"integer-reconstruction","sample":10,"bound":25}
+{"phase":"integer-reconstruction","sample":15,"bound":25}
+{"phase":"integer-reconstruction","sample":20,"bound":25}
+{"phase":"integer-reconstruction","sample":25,"bound":25}
+{"phase":"parameter-input","polynomialSystemSHA256":"743408a5caa3c201815cacf465045383517aeb08a5ec59a3774e526833299b44","coefficientChecks":3927,"coordinates":"translated","characteristic":32003,"singularMemoryLimitMiB":12288}
+R150_BEGIN_BASIS
+{"phase":"singular-heartbeat","at":"2026-11-14T07:46:09.775Z","pid":2670,"memory":{"VmSizeKiB":136684,"VmRSSKiB":117548,"VmPeakKiB":137316,"VmHWMKiB":118080},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:46:54.820Z","pid":2670,"memory":{"VmSizeKiB":686272,"VmRSSKiB":665172,"VmPeakKiB":686272,"VmHWMKiB":665172},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:47:39.862Z","pid":2670,"memory":{"VmSizeKiB":1534144,"VmRSSKiB":1514736,"VmPeakKiB":1534144,"VmHWMKiB":1514736},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:48:24.901Z","pid":2670,"memory":{"VmSizeKiB":2719936,"VmRSSKiB":2700764,"VmPeakKiB":2719936,"VmHWMKiB":2700764},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:49:09.946Z","pid":2670,"memory":{"VmSizeKiB":3754176,"VmRSSKiB":3735004,"VmPeakKiB":3754176,"VmHWMKiB":3735004},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:49:54.991Z","pid":2670,"memory":{"VmSizeKiB":4581568,"VmRSSKiB":4562396,"VmPeakKiB":4581568,"VmHWMKiB":4562396},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:50:40.036Z","pid":2670,"memory":{"VmSizeKiB":5126960,"VmRSSKiB":5107788,"VmPeakKiB":5127056,"VmHWMKiB":5107788},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:51:25.070Z","pid":2670,"memory":{"VmSizeKiB":6736688,"VmRSSKiB":6717628,"VmPeakKiB":6743660,"VmHWMKiB":6724236},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:52:10.115Z","pid":2670,"memory":{"VmSizeKiB":8512848,"VmRSSKiB":8493676,"VmPeakKiB":8515312,"VmHWMKiB":8495888},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:52:55.160Z","pid":2670,"memory":{"VmSizeKiB":9254224,"VmRSSKiB":9235052,"VmPeakKiB":9254224,"VmHWMKiB":9235052},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:53:40.205Z","pid":2670,"memory":{"VmSizeKiB":10853916,"VmRSSKiB":10834744,"VmPeakKiB":10856876,"VmHWMKiB":10837420},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:54:25.230Z","pid":2670,"memory":{"VmSizeKiB":10954268,"VmRSSKiB":10935096,"VmPeakKiB":10954268,"VmHWMKiB":10935096},"exactIdentityVerified":false,"completionMarker":false}
+{"phase":"singular-heartbeat","at":"2026-11-14T07:55:10.275Z","pid":2670,"memory":{"VmSizeKiB":12453404,"VmRSSKiB":12434232,"VmPeakKiB":12453404,"VmHWMKiB":12434232},"exactIdentityVerified":false,"completionMarker":false}
+
+Singular error: no more memory
+System 12549664k:12549664k Appl 12350603k/196106k Malloc 178k/0k Valloc 12546532k/196106k Pages 3136633/0 Regions 6247:6247 Internal: 743392
+
+halt 14
+{"status":"failed-or-incomplete","exactIdentityVerified":false,"outputs":{"denominator":{"bytes":0,"sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}}}

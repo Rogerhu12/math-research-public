@@ -1,0 +1,76 @@
+{
+  "format": "R150-parameter-ideal-v1",
+  "options": {
+    "characteristic": 32003,
+    "coordinates": "translated",
+    "algorithm": "slimgb",
+    "stage": "lift",
+    "out": "/home/runner/work/_temp/isp-r150-32003",
+    "generateOnly": false
+  },
+  "workingFiles": {
+    "basis": "/tmp/r150-parameter-zFq6fm/basis.sing",
+    "certificate": "/tmp/r150-parameter-zFq6fm/certificate.sing",
+    "denominator": "/home/runner/work/_temp/isp-r150-32003/denominator.sing"
+  },
+  "temporaryWorkingDirectory": "/tmp/r150-parameter-zFq6fm",
+  "sourceDataSHA256": "de719cecbe03b5255c202e5833ce647d550d51d99218fe0659d4f42eff018dc5",
+  "parameterDegreeBounds": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    15,
+    14,
+    21,
+    21,
+    20,
+    21,
+    21,
+    21
+  ],
+  "coefficientChecks": 3927,
+  "constantRowContents": [
+    "6191736422400",
+    "12383472844800",
+    "6191736422400",
+    "6191736422400",
+    "3095868211200",
+    "6191736422400",
+    "6191736422400",
+    "6191736422400",
+    "3095868211200",
+    "30958682112000",
+    "3095868211200",
+    "48372940800",
+    "48372940800",
+    "6191736422400",
+    "193491763200",
+    "154793410560",
+    "773967052800"
+  ],
+  "originalCommonDenominator": "23366320238786911411830138211362846399922176000",
+  "inputSHA256": "e793d3571e16a3d09076968d57224d0f47679ab31af4c6674f19690424c2463e",
+  "polynomialSystemSHA256": "743408a5caa3c201815cacf465045383517aeb08a5ec59a3774e526833299b44",
+  "target": "Nine squared inverse-binomial transverse coordinates; all original 17 equations retained.",
+  "singularMemoryLimitMiB": 12288,
+  "status": "failed-or-incomplete",
+  "started": "2026-11-14T07:45:24.743Z",
+  "exitSignal": null,
+  "exitCode": 14,
+  "completionMarker": false,
+  "exactIdentityVerified": false,
+  "singularError": false,
+  "finished": "2026-11-14T07:55:15.548Z",
+  "outputs": {
+    "denominator": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}
