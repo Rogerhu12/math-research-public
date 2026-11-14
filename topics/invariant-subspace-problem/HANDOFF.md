@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `c4e46c04bd7dcbe765b3a1233884b9cb03faeb59`（2026-11-14 18:07:10 UTC，GitHub Actions run43624781870/job132538084656实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `cf49ccd69d8815ff934d5143bb6ee8b798aed744`（2026-11-14 18:10:20 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `2c326ea18ed8029d45171a72aab290ad73f43caf`（2026-11-14 18:10:35 UTC，Actions run43625102430/job132539066599实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `69446f88f936358ae27b4b19f4a07b1e0a15a3e5`（2026-11-14 18:17:06 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -37,6 +37,8 @@
 - **[临界窗口维数无关严格收缩](notes/2026-11-14-balanced-star-dimension-free-transition-contraction-789f-next.md)：** 固定正有界x、χ≥χ−、|λ|≤Λ，任意m≤Q/qi≥1（含全single）均有同一Q0、γ>0，使Q≥Q0真实全源Φ≤(1−γ)I。共同W=diag√ω合同、噪声G≥cε³I及完整三尺度算子余项均与m/最小组无关；窗口外退化仍开。
 
 - **[有限Q中央退化窗口统一κ](notes/2026-11-14-balanced-star-finite-central-degenerate-window-uniform-phase-bound-789f-next.md)：** 全部正权在[a,b]、|Σqi(zi−1)|≤D、Σqi(zi−1)²≤S0时，任意Q/m/qi都有显式κ(a,b,D,S0)。真H/G/L在同一I+11*度量双边可比，保完整噪声/中心化/yy及有序乘积；允许固定离群权，不只逐点极限。
+
+- [逆行和条件与真实失败](notes/2026-11-14-balanced-star-inverse-row-sum-sufficient-condition-and-actual-obstruction-789f-next.md)：若二值G逐项非负且G⁻¹1≥0，则m*G⁻¹n≤Q；但真两权(3,1/3)、比例(3/8,5/8)的全二值逆行和趋−4/3和52/9。仅排此共同充分入口，不否原均值界/相位。
 
 ## R150 原十七式与第二提升
 

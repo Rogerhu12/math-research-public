@@ -25,7 +25,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **原式来源与完整第二提升：** [全198实际第二像](notes/2026-11-14-r150-complete-second-primary-image-seven-and-global-source-789f.md)已得相关像连W维7、modW维5，九H0目标全相容；新方向δK1补旧四列唯一s2缺口。[H0原17模29791](notes/2026-11-14-r150-h25-full-original-seventeen-mod29791-cost276-789f.md)已全部原乘回，九实际成本276。[去投影完整原乘回](notes/2026-11-14-r150-h25-projector-free-original-seventeen-mod29791-cost87-789f.md)已将九成本降至87，全部17式复核；原h0的31整数模961障碍仍真，不排Q31分母；char0与31饱和继续。原143/104自由检验/投影189/∞预算及所有旧数据保H与快照。
 
-**star当前解析接口：** [固定内峰](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)全源谱趋1^(m−1),0；[严格端峰](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)全源Φ=O(Q⁻²)。[临界窗口维数无关收缩](notes/2026-11-14-balanced-star-dimension-free-transition-contraction-789f-next.md)在固定正有界x、χ≥χ−、|λ|≤Λ内，对任意m/qi≥1给共同Q0、γ，Q≥Q0真实Φ≤(1−γ)I；全single亦包括。窗口外χ→0/无界权/漂移变尺度及一般全源仍开；曲率点态负指数≤3不代积分回归。
+**star当前解析接口：** [固定内峰](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)全源谱趋1^(m−1),0；[严格端峰](notes/2026-11-14-balanced-star-strict-endpoint-full-phase-decay-789f-next.md)全源Φ=O(Q⁻²)。[临界窗口维数无关收缩](notes/2026-11-14-balanced-star-dimension-free-transition-contraction-789f-next.md)在固定正有界x、χ≥χ−、|λ|≤Λ内，对任意m/qi≥1给共同Q0、γ，Q≥Q0真实Φ≤(1−γ)I。窗口外χ→0/无界权/漂移变尺度及一般全源仍开；曲率点态负指数≤3不代积分回归。
 
 [中央退化全有限Q](notes/2026-11-14-balanced-star-finite-central-degenerate-window-uniform-phase-bound-789f-next.md)已付有界正权、累计平方偏差S和总漂移D同时有界时的显式统一κ，任意组数/单个位/固定离群权均包括。继续S大与漂移变尺度、近端内峰及无界外场。
 

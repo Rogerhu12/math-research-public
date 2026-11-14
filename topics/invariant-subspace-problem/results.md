@@ -1093,3 +1093,7 @@
 ### R297 附录：中央退化窗口全部有限Q的显式统一相位预算
 
 [完整真实源证明](notes/2026-11-14-balanced-star-finite-central-degenerate-window-uniform-phase-bound-789f-next.md)覆盖a≤zi≤b、|Σqi(zi−1)|≤D及Σqi(zi−1)²≤S0的所有有限Q/任意组数。真实乘积密度下界r=exp(−2D−S0/(2ℓ²))，完整噪声与中心化给c*(I+11*)≤H,G,L≤C*(I+11*)及yy*同上界，c*=ar²/[24u²(1+S0/ℓ²)]、C*=1+b/ℓ²+S0/ℓ²。保同一合同和原乘法顺序后κ=(Θ²+3Θ)²，Θ=C*/c*；实际组源公共度量是diag(1/qi)+11*。允许少数固定离群权，未假每位趋1；不扩大到无界累计曲率/漂移或全部外场。
+
+### R297 附录：二值源逆行和充分条件及真实失败
+
+[完整条件引理及原模型障碍](notes/2026-11-14-balanced-star-inverse-row-sum-sufficient-condition-and-actual-obstruction-789f-next.md)证明二值源若G逐项非负且c=G⁻¹1≥0，则G⁻¹−diag(c)半正定并杀1；真实二值距离矩阵条件负定给m*G⁻¹n≤Q。实际两权(3,1/3)、比例(3/8,5/8)严格内峰中，全Q二值逆行和分别趋−4/3、52/9，因此这一充分条件不普适。完整reducing运输已付，不称其与逆非对角符号有蕴含关系；不否均值界或已成两权相位。
