@@ -1,0 +1,428 @@
+{
+  "actual_direct_result_sha256": "e60da64312819a87388cfa96c209fc9188dca02c0ab055cbcc934f3507888ac6",
+  "actual_original_failure_message": "Error: multiple-shooting line search failed at 0.04177307820740199",
+  "actual_step_result_sha256": "6e9485dcc8bc512481d714d794f87e76f785b577fd6f714ae12fd9d8e9468adf",
+  "cached_withJac_baseline": {
+    "minA": {
+      "classification": "finite",
+      "float64le_hex": "cfb1fcffffffef3f",
+      "value": 0.9999999999759498
+    },
+    "minD": {
+      "classification": "finite",
+      "float64le_hex": "80ffffffffffef3f",
+      "value": 0.9999999999999858
+    },
+    "norm": {
+      "classification": "finite",
+      "float64le_hex": "c61182e94763a53f",
+      "value": 0.04177307820740199
+    }
+  },
+  "capture_result_sha256": "ff53d954de378571eac8d4b22e55c1b0a4595c0a0ab567d0760e1f3d427fded7",
+  "direction_eta_binary64": {
+    "classification": "finite",
+    "float64le_hex": "000000000000f03f",
+    "value": 1.0
+  },
+  "direction_eta_cli_text": "1",
+  "direction_is_restriction_of_new_step_system": true,
+  "direction_model_scope": "R273-original-sigma-complete-chain-with-explicit-eta-and-sigma-column-coordinates",
+  "direction_result_sha256": "c6feb54847e96778b076076ba17b4ccd666c2548c72f8c36414b2897d176cdc1",
+  "elapsed_seconds": 820.125492312,
+  "fresh_original_no_J_trial_evaluations": 10,
+  "hook_sha256": "884d2d44439151d0dbc5d474e20ebe5c024e577396088f01717d33a522b50323",
+  "model_L2_and_exact_defect_not_used_as_trial_gate": true,
+  "native_accepted": false,
+  "new_J_evaluations": 0,
+  "new_baseline_evaluations": 0,
+  "new_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+  "observed_trials": [
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000f03f",
+          "value": 1
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 1,
+      "trial": 0,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000e03f",
+          "value": 0.5
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.5,
+      "trial": 1,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000d03f",
+          "value": 0.25
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.25,
+      "trial": 2,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000c03f",
+          "value": 0.125
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.125,
+      "trial": 3,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000b03f",
+          "value": 0.0625
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.0625,
+      "trial": 4,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000a03f",
+          "value": 0.03125
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.03125,
+      "trial": 5,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000903f",
+          "value": 0.015625
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.015625,
+      "trial": 6,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000803f",
+          "value": 0.0078125
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.0078125,
+      "trial": 7,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000703f",
+          "value": 0.00390625
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.00390625,
+      "trial": 8,
+      "trialNorm": 0.04177307820740199
+    },
+    {
+      "baseNorm": 0.04177307820740199,
+      "iteration": 0,
+      "kind": "residual-not-decreasing",
+      "number_bits": {
+        "baseNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        },
+        "step": {
+          "classification": "finite",
+          "float64le_hex": "000000000000603f",
+          "value": 0.001953125
+        },
+        "trialNorm": {
+          "classification": "finite",
+          "float64le_hex": "c61182e94763a53f",
+          "value": 0.04177307820740199
+        }
+      },
+      "step": 0.001953125,
+      "trial": 9,
+      "trialNorm": 0.04177307820740199
+    }
+  ],
+  "original41_matrix_claimed_solved": false,
+  "original576_long_matrix_claimed_solved": false,
+  "original_baseline_is_cached_from_actual28": true,
+  "original_client_exception": "FloatingPointError(\"Actual complete finite tail rejected: {'failed': 'Error: multiple-shooting line search failed at 0.04177307820740199', 'residual': None, 'lastIteration': {'iteration': 0, 'norm': 0.04177307820740199, 'minA': 0.9999999999759498, 'minD': 0.9999999999999858, 'chartCondition': None}}\")",
+  "original_direction_cut_or_far_entries_modified": false,
+  "original_native_requests": 1,
+  "replay_completed": true,
+  "schema": "original-native-damped-chain-trial-replay-result-v1",
+  "selected_state": null,
+  "small_output_files": [
+    {
+      "bytes": 9308,
+      "file": "actual-replay-method-identities.json",
+      "sha256": "8bd336140fc3ec6455fe04b75566119313146e90d41c9361eee3e07f5a44c1d8"
+    },
+    {
+      "bytes": 3208,
+      "file": "baseline-reuse.json",
+      "sha256": "b0adfe67370eba7810d790e5f1c4bac71e1aca6ae5d1d25b5915b80e40b65dd9"
+    },
+    {
+      "bytes": 10253,
+      "file": "core-instrumentation.json",
+      "sha256": "76f80fd2ed4ddb0d718f35a9d3f5d942ff10def8f8f68d798a81de8a791bdf60"
+    },
+    {
+      "bytes": 720,
+      "file": "engine-loader-instrumentation.json",
+      "sha256": "4a44ef614ccef15932d944e555710d55c0b2c9631843957ed39f5f0e4e9dd9d8"
+    },
+    {
+      "bytes": 1132,
+      "file": "instrumentation.json",
+      "sha256": "bad9656205921a64a6de5e4defe0d2519541b8b76637bc6628ceccba14e35aa5"
+    },
+    {
+      "bytes": 1201527,
+      "file": "native_0001.json.gz",
+      "sha256": "26470fd3d616408571d35d469c982f8685f0797034acc6cfb8f98b02048b6cd9"
+    },
+    {
+      "bytes": 2525,
+      "file": "native_capacity.json",
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    {
+      "bytes": 25258,
+      "file": "native_intent.json",
+      "sha256": "495c045cdc926695ad52b685ccad70addfb6a94e598e8e7c68ac91ff4c2ab032"
+    },
+    {
+      "bytes": 1181662,
+      "file": "native_iteration.json.gz",
+      "sha256": "dd18a6758ba4d9a652c343bd0e51741fce55d20d016ce77cc0a4c1235bd3958b"
+    },
+    {
+      "bytes": 6854,
+      "file": "native_ready.json.gz",
+      "sha256": "9bc90dbf17014245a7f629a13747a0f2adbc0d3f9a68e52f409cf0eebb6587e6"
+    },
+    {
+      "bytes": 2600,
+      "file": "native_runtime-config.json",
+      "sha256": "083194f437f420f0da3c5178b1e7c32a99473c5eea1a9b78d7efe8ac6325a29c"
+    },
+    {
+      "bytes": 0,
+      "file": "native_stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4637,
+      "file": "native_trace.jsonl",
+      "sha256": "0a124c4a48f33add72bb9ea1d4ec4b9f18e216ddbe003b54d7f8ac781afe37a6"
+    },
+    {
+      "bytes": 1794,
+      "file": "native_trials.jsonl",
+      "sha256": "882ee3d7b673bdd07474d39c54e408813f6f5b951421687f0069e328f95ef236"
+    },
+    {
+      "bytes": 52899,
+      "file": "original-live-identity-before-seed.json",
+      "sha256": "de9bbf01981f1605c0342817ea520005bf2d0a05f5a755986d50b718b16089a7"
+    },
+    {
+      "bytes": 11266,
+      "file": "seed-binding.json",
+      "sha256": "c4d82eebd469883e8fb9b4ac6703959765af321b9a8fe69d96a0996540304265"
+    },
+    {
+      "bytes": 7848,
+      "file": "trial-direction-binding.json",
+      "sha256": "f2561de893caabc994694fde05233e3c50e6789144eb1d8e5d4631fcc8476fc3"
+    },
+    {
+      "bytes": 2161,
+      "file": "trial-input-config.json",
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "bytes": 4428,
+      "file": "trial-replay-records.jsonl",
+      "sha256": "4c802a323e33231ee1e32f44a3563228d0d1be3ab8bae0794826864f284bb247"
+    },
+    {
+      "bytes": 43727,
+      "file": "trial-replay-spec.json.gz",
+      "sha256": "df935cb73bfd21dda3e1da4a32dbf0febc1f1efd93cf1c59999343bfca1d51db"
+    },
+    {
+      "bytes": 7774,
+      "file": "trial-replay-summary.json",
+      "sha256": "528f896d75fcb57c5f3258d414d66bdf4ed25dee513a0b8d2edd2aa67a1a5d24"
+    },
+    {
+      "bytes": 31524,
+      "file": "verified-launch-intent.json",
+      "sha256": "c0b041c6a7cf989c28c75a2c475a3881f37f7c131af6070841250bf448bce95b"
+    }
+  ],
+  "source_sha256": "ebd3110e7ba9b2edeca155370d2c7fd6f02d3757ae285379d54a2b4a39793ccd",
+  "spec_sha256": "df935cb73bfd21dda3e1da4a32dbf0febc1f1efd93cf1c59999343bfca1d51db",
+  "specification": {
+    "bytes": 43727,
+    "encoding": "json-gzip",
+    "file": "trial-replay-spec.json.gz",
+    "raw_bytes": 218843,
+    "raw_sha256": "f7ecccbc227a42bd1d8d3bb81de5bae5c7326f2ba65fd0992d48900322aa1cd3",
+    "sha256": "df935cb73bfd21dda3e1da4a32dbf0febc1f1efd93cf1c59999343bfca1d51db"
+  },
+  "target_is_new_original_coordinate_f64_J": true,
+  "task_completed": false,
+  "trial_accepted": false,
+  "trial_replay_summary_sha256": "528f896d75fcb57c5f3258d414d66bdf4ed25dee513a0b8d2edd2aa67a1a5d24",
+  "worker_exit_code": 0
+}
