@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R446：真实三态四挠闭包与同层完整carry消元](../results/R446-original-three-state-quarter-closure-and-one-layer-full-carry.md)：全特征零四挠关系付第三整残余态及两个实际核心的D8作用；三个同层单位carry经显示单位组合完整返回K0，任意W测试全保，不留奇奇余项。新E/V中央与独立U斜管仍待控制，未赋附加深域零。
+
 - [R444：原首像最大时Miller修正的整来源吸收](../results/R444-maximal-first-image-integral-absorption-of-actual-miller-correction.md)：全部实际低轴修正经明确首像缺口；首像满w13理想时由同一来源I+p²C整基变换吸收，所有真第二核/左核的修正权逐项零，包括一维carry掉秩。完整原中央基准不变，非零机制必须付真首像缺口或原基准η。
 
 - [R445：保原sigma输入的三坐标核心与四态carry](../results/R445-original-sigma-retained-three-coordinate-core-and-four-state-carry.md)：原非零张量锚付整个7956平方与85680绝对二挠平方，四态保全部c/Q移动测试；完整carry及忘U返回均准确。A两层缩放将已知非零管送入同一原来源的真单位carry，值仍v5n，内部斜管补域未删。

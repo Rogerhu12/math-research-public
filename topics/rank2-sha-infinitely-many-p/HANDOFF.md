@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：ccd9400debad3c65b9b53bc7d7a9ea7ac1b03fc7；2026-11-14 07:18:45 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：37727c6219b9b03606389c1e774180a9c2266333；2026-11-14 07:21:10 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,9 +14,9 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–445已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
+R1–363、R365–446已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
 当前路径`/workspace/scratch/4fe3fb9f2a50/math-research-public`，main部分/稀疏克隆，仅检出本课题。迁入快照含旧R1–436；旧库未推R437、R438及两批完整计算已搬入并发布，旧路径只读历史。
-新库R437推480a4313c5eb、R438推76936693f5a0、R439推f7fa9bee053b9、R440推877b1b8e8ad8、R441推6419030dca0d。R443已推cc318df5e1ea、R442已推c4e6b08b575c；R445已推ccd9400debad；R444在本次登记，R446完整稿待紧接登记。theta续实际三态D8和carry补域；literature续r=2同来源斜管与补域；deep续真正首像缺口或完整基准η。R444原Padé未闭合笔记保留，其新完整首像吸收结果已登记。
+新库R437推480a4313c5eb、R438推76936693f5a0、R439推f7fa9bee053b9、R440推877b1b8e8ad8、R441推6419030dca0d。R443已推cc318df5e1ea、R442已推c4e6b08b575c；R445已推ccd9400debad；R444已推322f2a888bd1，R446在本次登记。theta续实际三态D8和carry补域；literature续r=2同来源斜管与补域；deep续真正首像缺口或完整基准η。R444原Padé未闭合笔记保留，其新完整首像吸收结果已登记。
 
 ## 固定对象、完整标准与可恢复检查点
 
@@ -41,6 +41,8 @@ R443给K1=σ26Q L1的完整S34⊗S18偶偶/奇奇张量，rank18（10+8），第
 R442已付单位carry矩阵λ[[1,ηλ],[ηλ,1]]及全余项ηλ²(K1−K1R)；两层全carry归一化返回λ²(1−λ²)Ki。所有测试用真实A/κr，W深时余项成Γ1,W−Γ1,V，不能删。R441目标在A单位的一输入深支，与A深carry不交；完整一单位支、环带、不相消双单位支与W外域已列全。
 
 R445保原sigma的三坐标A=Q+26c、U=Q−280c；完整degree52/7956/85680，KA²=I，KU²=½ΣE2−I由原全输入深张量锚付绝对相位。四态Φi=σ(26a−280u)Li(w,a+u)、Ψi=KAΦi闭合，全部三轴深条件及原c/Q移动测试均保。真carry=Adeep r、U不deep r；R441管是Wdeep n、140A+13Udeep n、A−Uunit。用KA²把该管准确送进同一Φ0的两层单位carry，归一A/κ²测试值λ²C_n、仍v5n；完整carry补域仍可抵消，不能删内部U斜管条件。
+
+R446付第三真实态LR=σ(y+v)R_YA1，残余Q核心ηλD、总A核心λR在三态0,1,R上成D8。D作用0↔1、R→−0+1+R，总R固定0并交换1/R；准确矩阵见原文。t=ηλ，同一层三个真单位carry有(1+t)b0+t²b1−t bR=λ(1+t)(1+t²)K0，所有系数分母为原ray单位，完整保W任意测试而无需principal杀奇项。它已忘U，不能直接附原c斜管；新E/V中央未知，O全principal零仍可有非零隐藏管。
 
 R436辅助U72=S B38完整四谱(N²−1)(N²−ω)已付，四质量∓1/(12096b)、四条core±λ及原尺度log保留；同T所在块仍质量非零，不能认作T倍数或新增rank2算术对象。
 
