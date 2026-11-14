@@ -5,18 +5,18 @@
 固定一条E/Q，证明代数秩≥2，并对无穷多个不同p证明完整Sha[p∞]有限。
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
-- 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：8b9d1722324eb758b49d1e54f8589b1174d2b025；2026-11-14 21:55:27 UTC API核main及两README无变。最后实际pull为21:35:50、7aa38f25e4c2faa9808db0d91364f586dbcb540f；21:39 CLI再次断连，最迟22:35重试。
+- 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
+- 最近已读规则提交：4a832d70b03a01ada5295283528e60fb00c9cdf2；2026-11-14 21:58:54 UTC API核main及两README无变。最后实际pull为21:35:50、7aa38f25e4c2faa9808db0d91364f586dbcb540f；21:39 CLI再次断连，最迟22:35重试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
 - 非快进立刻实际pull --rebase、核两README、重推至成功，无force；断连期记真实失败并在新head重新接父。
-- 21:09仅清已核远端可再取的1.28GB promisor缓存，保全部工作/refs/未跟踪；pull用--no-stat避免全blob水合。
+- 21:09只清可再取promisor缓存，全部工作/refs/未跟踪保留；pull用--no-stat。
 
 ## 已发布、归档与分工
 
 R1–363、R365–560、R562–595已登记；R364仍开，R561/596/597/598/599进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r594.md)、[open](notes/2026-11-14-open-before-r585.md)；
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-long-tower.md)、[open](notes/2026-11-14-open-before-r585.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
@@ -92,7 +92,7 @@ R537–555真Schur/分歧像、全部原列仿射类、一般二重/t除法和S�
 R577/578低ell临界同预算提升、整低行右逆与完整核（全t内容、Qn及ell1的Qquad）保正文。R593把模p³原M提升写成：先同一R使整个J(Pcrit+pR)∈p²，即两jet延长十三行Dψ+S=G+；再同R的H_P(R)∈im Dψ短。原26carry、13自由行、整个U0均保。r=ell是真两jet，(2,1)唯一Qquad在最高行修正−2λγ。
 同R的Z+∈w^s、Z∈w^(s−r)，第二块S(η0Z)全消；第三块只读真实z0/z1及固定形状修正，全部L0/L1保两位（R593(29–35)）。固定Z末项单位在完成式内抵消，指定两像余类未证非零；一般二重/t除法、r1ν2和两连接仍开。
 
-R580/588：实际degree-p K_R包含sigma及S/T/S136，七塔在其上独立；任意真正含塔的原多项式（全次数/依p系数）乘整数Gaussian仍准确半径S=p^-p/(p²−1)，闭S非Tate。边界no-pole及积分常数全付；域1/p投影不改整数格，不给Smith、主成本最优或中央。
+R580/588：实际degree-p K_R内七塔独立；任意真正含塔的原P（全次数/依p系数）乘整数Gaussian仍准确S=p^-p/(p²−1)，闭S非Tate。边界/no-pole/常数全付，不改整格或给Smith/中央。[固定长塔增补](notes/2026-11-14-r588-fixed-long-tower-kummer-addendum.md)以p>12m+31、m=max(R4−1,R1−1)，用degree6m的真实y′³残差给非中央低单位行，推广至全部R4+R1塔及无Dirac子格；原七塔p>19范围保持。
 
 R590原q6全even42/1638保现ray；μ6C只留B⊗νflat，νflat=(f1⊗Σ−f3⊗Θ)⊗σ³/42。所有C不动mixed测试回七实际coset矩W_n(F,G)，全κ/log/cut仍在；旧P3只在完整分区抵消。
 

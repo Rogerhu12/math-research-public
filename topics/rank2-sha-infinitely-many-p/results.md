@@ -423,3 +423,5 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 - [R595：原S34/T72对角、真实connection与四行整单位比较](results/R595-original-central-diagonals-and-integral-four-row-comparison.md)：完整留数把两原算术首行与两指定forcing放到同一个K/H/C参数；不同charge和Jacobian全保。固定比较矩阵在共同好惰性p均单位，但完整低K卷积残差仍在；中央同零准确给仿射约束，不能改成两forcing同零。
 
 - [R594：同一六支双来源补偿与真实Z单位矩形](results/R594-two-source-six-carry-compensation-and-unit-z-rectangle.md)：20个实际中性方向的9×20整右逆同时支付原ρ、B投影及其差在同Dn的单位首项，完整λκ和固定有限坏集保留。六真实网格并域准确下降为νflat的Zunit/其余四深矩形；其积分恰v=n，原整个中央及外矩形抵消仍保持。
+
+- [R588固定长塔增补](notes/2026-11-14-r588-fixed-long-tower-kummer-addendum.md)：p>12m+31时，用原y的三次微分方程和degree6m多项式残差支付全部长塔任意常数组合的低非中央单位行；Lüroth含不可分、整个Stokes尾和闭边界全保，全部R4+R1塔在同wild域独立并继承全非线性半径障碍。原七塔p>19不变，未改整格或中央条件。
