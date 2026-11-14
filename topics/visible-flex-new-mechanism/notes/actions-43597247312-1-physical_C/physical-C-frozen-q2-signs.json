@@ -1,0 +1,419 @@
+{
+  "schema": "literature-physical-C-sign-frozen-audit-v1",
+  "source_commit": "5e14fd1de48f7c51dbe465cebef048c3d948fc76",
+  "source_script_sha256": "d08ae336309f17b59a9cf2abd0bddd68ef3760f85ec7c473d49ed64e72aa36bf",
+  "origin_path": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43591099281-1-closed_design/nine-coefficients-closed-design.json",
+  "origin_file_sha256": "d274bc6336637d25d926ac07d4cd537b46fdd360e0d1c12fea65f9a5a31c50dd",
+  "design_index": 1,
+  "source_stage": "initial",
+  "q": 2,
+  "modes": 12,
+  "frozen_parameters": [
+    -0.10536051565782632,
+    0.6666666666666666,
+    -0.1111111111111111,
+    0.024691358024691332,
+    1.2,
+    4.625929269271486e-17,
+    1.850371707708594e-17,
+    3.700743415417188e-17,
+    1.850371707708594e-17,
+    0.016321053330695872,
+    3.700743415417188e-17,
+    0.0056421235503429715,
+    3.469446951953614e-17,
+    0.0010402452182409567,
+    9.830099697201906e-17,
+    2.7466455036299447e-17
+  ],
+  "frozen_tilt_and_normalization": {
+    "tilt": -0.46092805951360954,
+    "normalization": 2.5068228897293254
+  },
+  "all_quadratures_evaluate_same_frozen_geometric_candidate": true,
+  "validations": [
+    {
+      "theta_n": 768,
+      "C_ascending_coefficients": [
+        665673.8996152633,
+        -28452.79244983733,
+        340.56102363029026,
+        -61.43873478296996,
+        -0.05726870118826355
+      ],
+      "C_roots": [
+        {
+          "real": -1078.7639489185954,
+          "imag": 0.0,
+          "numerical_real": true,
+          "sampled_region": "negative_u",
+          "derivative_real": 72320797.2334213
+        },
+        {
+          "real": -5.338781011780958,
+          "imag": -24.891132602839292,
+          "numerical_real": false,
+          "sampled_region": "complex",
+          "derivative_real": -37307.78366355145
+        },
+        {
+          "real": -5.338781011780958,
+          "imag": 24.891132602839292,
+          "numerical_real": false,
+          "sampled_region": "complex",
+          "derivative_real": -37307.78366355145
+        },
+        {
+          "real": 16.626281887146078,
+          "imag": 0.0,
+          "numerical_real": true,
+          "sampled_region": "positive_u",
+          "derivative_real": -69132.23346517046
+        }
+      ],
+      "evaluation_points": [
+        {
+          "xi": 10.0,
+          "C_value": 353190.6556850665,
+          "sampled_region": "positive_u",
+          "z_sample_range": [
+            5.235364514238684,
+            37.28786129379422
+          ],
+          "u_sample_range": [
+            0.025656672515062342,
+            0.20276996474926914
+          ]
+        },
+        {
+          "xi": 25.0,
+          "C_value": -815146.0892473096,
+          "sampled_region": "positive_u",
+          "z_sample_range": [
+            20.235364514238682,
+            52.28786129379422
+          ],
+          "u_sample_range": [
+            0.018296453944187052,
+            0.0640086392918528
+          ]
+        }
+      ],
+      "omega_sample_range": [
+        -4.764635485761316,
+        27.287861293794226
+      ],
+      "period_coefficients": {
+        "p0": -1954.6156895246427,
+        "p1": 205.6772881611779,
+        "p2": 0.2290748047530542,
+        "q0": -2591.913256910858,
+        "q1": 1204.3485271825016,
+        "r0": 665673.8996152633,
+        "r1": -2591.91325691127,
+        "s0": -25860.87919292606,
+        "s1": 227.0406824201982,
+        "t0": -375.1335811710686,
+        "t1": -10.019412742675485
+      },
+      "D_identity_residual": 1.4097167877480388e-11,
+      "polynomial_identity_error": 4.656612873077393e-10,
+      "curve_closure_vector": [
+        -1.812056680606047e-16,
+        -4.0846493831862964e-16,
+        -1.7621002307647776e-16
+      ],
+      "curve_closure_over_length": 6.23777070996037e-17,
+      "asymptotic_half_period": -4.371461850837485e-14
+    },
+    {
+      "theta_n": 1536,
+      "C_ascending_coefficients": [
+        665673.8997274587,
+        -28452.79245018665,
+        340.56102362987485,
+        -61.438734782965014,
+        -0.057268701188377236
+      ],
+      "C_roots": [
+        {
+          "real": -1078.763948916381,
+          "imag": 0.0,
+          "numerical_real": true,
+          "sampled_region": "negative_u",
+          "derivative_real": 72320797.23312111
+        },
+        {
+          "real": -5.338781012548971,
+          "imag": -24.89113260366579,
+          "numerical_real": false,
+          "sampled_region": "complex",
+          "derivative_real": -37307.78366591539
+        },
+        {
+          "real": -5.338781012548971,
+          "imag": 24.89113260366579,
+          "numerical_real": false,
+          "sampled_region": "complex",
+          "derivative_real": -37307.78366591539
+        },
+        {
+          "real": 16.626281888683504,
+          "imag": 0.0,
+          "numerical_real": true,
+          "sampled_region": "positive_u",
+          "derivative_real": -69132.23347419934
+        }
+      ],
+      "evaluation_points": [
+        {
+          "xi": 10.0,
+          "C_value": 353190.6557937309,
+          "sampled_region": "positive_u",
+          "z_sample_range": [
+            5.2353643905329275,
+            37.32745390064456
+          ],
+          "u_sample_range": [
+            0.025656671736139985,
+            0.2027699626575812
+          ]
+        },
+        {
+          "xi": 25.0,
+          "C_value": -815146.089144074,
+          "sampled_region": "positive_u",
+          "z_sample_range": [
+            20.23536439053293,
+            52.32745390064456
+          ],
+          "u_sample_range": [
+            0.018296453548066516,
+            0.06401334522709655
+          ]
+        }
+      ],
+      "omega_sample_range": [
+        -4.7646356094670725,
+        27.32745390064456
+      ],
+      "period_coefficients": {
+        "p0": -1954.6156895240556,
+        "p1": 205.67728816116642,
+        "p2": 0.22907480475350894,
+        "q0": -2591.9132568737837,
+        "q1": 1204.3485271819245,
+        "r0": 665673.8997274587,
+        "r1": -2591.913256873726,
+        "s0": -25860.879193312925,
+        "s1": 227.04068241992354,
+        "t0": -375.1335811710626,
+        "t1": -10.01941274267341
+      },
+      "D_identity_residual": 2.091837814077735e-11,
+      "polynomial_identity_error": 8.149072527885437e-10,
+      "curve_closure_vector": [
+        -5.486126491659411e-16,
+        1.1421861031890246e-16,
+        -1.0672514284271204e-16
+      ],
+      "curve_closure_over_length": 7.407898437689222e-17,
+      "asymptotic_half_period": -6.8827271694037e-14
+    },
+    {
+      "theta_n": 3072,
+      "C_ascending_coefficients": [
+        665673.8997274563,
+        -28452.792450186527,
+        340.5610236298428,
+        -61.43873478296379,
+        -0.05726870118695615
+      ],
+      "C_roots": [
+        {
+          "real": -1078.7639489429703,
+          "imag": 0.0,
+          "numerical_real": true,
+          "sampled_region": "negative_u",
+          "derivative_real": 72320797.23666221
+        },
+        {
+          "real": -5.338781012554984,
+          "imag": -24.89113260366543,
+          "numerical_real": false,
+          "sampled_region": "complex",
+          "derivative_real": -37307.7836659315
+        },
+        {
+          "real": -5.338781012554984,
+          "imag": 24.89113260366543,
+          "numerical_real": false,
+          "sampled_region": "complex",
+          "derivative_real": -37307.7836659315
+        },
+        {
+          "real": 16.626281888685032,
+          "imag": 0.0,
+          "numerical_real": true,
+          "sampled_region": "positive_u",
+          "derivative_real": -69132.23347418176
+        }
+      ],
+      "evaluation_points": [
+        {
+          "xi": 10.0,
+          "C_value": 353190.6557937419,
+          "sampled_region": "positive_u",
+          "z_sample_range": [
+            5.235364390532937,
+            37.38463991976576
+          ],
+          "u_sample_range": [
+            0.02565667173613999,
+            0.2027913226447654
+          ]
+        },
+        {
+          "xi": 25.0,
+          "C_value": -815146.089143519,
+          "sampled_region": "positive_u",
+          "z_sample_range": [
+            20.235364390532936,
+            52.38463991976576
+          ],
+          "u_sample_range": [
+            0.01829645354806652,
+            0.06401334522709655
+          ]
+        }
+      ],
+      "omega_sample_range": [
+        -4.764635609467063,
+        27.384639919765764
+      ],
+      "period_coefficients": {
+        "p0": -1954.6156895240504,
+        "p1": 205.67728816116403,
+        "p2": 0.2290748047478246,
+        "q0": -2591.9132568737823,
+        "q1": 1204.3485271819227,
+        "r0": 665673.8997274563,
+        "r1": -2591.913256873726,
+        "s0": -25860.8791933128,
+        "s1": 227.04068241989444,
+        "t0": -375.1335811710642,
+        "t1": -10.019412742672785
+      },
+      "D_identity_residual": -2.3874235921539366e-12,
+      "polynomial_identity_error": 1.1641532182693481e-09,
+      "curve_closure_vector": [
+        -4.098699634704154e-17,
+        -1.1915438207212945e-15,
+        -1.689436303722931e-16
+      ],
+      "curve_closure_over_length": 1.5637309518759388e-16,
+      "asymptotic_half_period": -3.255343931474723e-14
+    },
+    {
+      "theta_n": 6144,
+      "C_ascending_coefficients": [
+        665673.8997274592,
+        -28452.79245018486,
+        340.5610236298315,
+        -61.438734782962484,
+        -0.05726870118417082
+      ],
+      "C_roots": [
+        {
+          "real": -1078.7639489951048,
+          "imag": 0.0,
+          "numerical_real": true,
+          "sampled_region": "negative_u",
+          "derivative_real": 72320797.24360669
+        },
+        {
+          "real": -5.338781012566723,
+          "imag": -24.891132603664182,
+          "numerical_real": false,
+          "sampled_region": "complex",
+          "derivative_real": -37307.78366596217
+        },
+        {
+          "real": -5.338781012566723,
+          "imag": 24.891132603664182,
+          "numerical_real": false,
+          "sampled_region": "complex",
+          "derivative_real": -37307.78366596217
+        },
+        {
+          "real": 16.62628188868857,
+          "imag": 0.0,
+          "numerical_real": true,
+          "sampled_region": "positive_u",
+          "derivative_real": -69132.23347414812
+        }
+      ],
+      "evaluation_points": [
+        {
+          "xi": 10.0,
+          "C_value": 353190.65579378954,
+          "sampled_region": "positive_u",
+          "z_sample_range": [
+            5.235364390532942,
+            37.38463991976575
+          ],
+          "u_sample_range": [
+            0.025656671736139985,
+            0.20279132264476527
+          ]
+        },
+        {
+          "xi": 25.0,
+          "C_value": -815146.0891423732,
+          "sampled_region": "positive_u",
+          "z_sample_range": [
+            20.235364390532943,
+            52.38463991976575
+          ],
+          "u_sample_range": [
+            0.018296453548066516,
+            0.06401381174354295
+          ]
+        }
+      ],
+      "omega_sample_range": [
+        -4.764635609467058,
+        27.384639919765753
+      ],
+      "period_coefficients": {
+        "p0": -1954.6156895240435,
+        "p1": 205.6772881611621,
+        "p2": 0.2290748047366833,
+        "q0": -2591.913256873776,
+        "q1": 1204.3485271819147,
+        "r0": 665673.8997274592,
+        "r1": -2591.9132568721543,
+        "s0": -25860.879193312707,
+        "s1": 227.0406824198817,
+        "t0": -375.13358117106117,
+        "t1": -10.01941274267196
+      },
+      "D_identity_residual": -1.77351466845721e-11,
+      "polynomial_identity_error": 5.005858838558197e-09,
+      "curve_closure_vector": [
+        3.590619832341243e-16,
+        6.469193939914118e-16,
+        -4.584639646796502e-16
+      ],
+      "curve_closure_over_length": 1.1303262024953032e-16,
+      "asymptotic_half_period": -9.300982661356352e-15
+    }
+  ],
+  "continuous_C_sign_certified": false,
+  "continuous_omega_bound_certified": false,
+  "real_C_root_count_on_physical_component_proved": false,
+  "geometric_base_embedded_proved": false,
+  "reach_lower_certified": false,
+  "global_profile_constructed": false,
+  "finite_flex_proved": false
+}
