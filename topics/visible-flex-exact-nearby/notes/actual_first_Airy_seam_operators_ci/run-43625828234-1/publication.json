@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43625828234",
+  "reviewed_pull_history": [
+    {
+      "before": "124a6b5471524e60f1ac05600741f2e58d0bcffa",
+      "after": "124a6b5471524e60f1ac05600741f2e58d0bcffa",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "124a6b5471524e60f1ac05600741f2e58d0bcffa",
+      "after": "124a6b5471524e60f1ac05600741f2e58d0bcffa",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/actual-first-Airy-seam-operators.json.gz",
+      "bytes": 904977,
+      "sha256": "871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642",
+      "original_sha256": "871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642"
+    },
+    {
+      "file": "consumers/actual-first-Airy-seam-operators.stdout.log",
+      "bytes": 789,
+      "sha256": "58a1a05d7e80ac5de9107e58127c68d4b99e508313ad33640f6e9560fc7153b9",
+      "original_sha256": "58a1a05d7e80ac5de9107e58127c68d4b99e508313ad33640f6e9560fc7153b9"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 40085,
+      "sha256": "d7cea34e7609cfe15aa767f37fdec293a2b2dfff8610baa11a1e13315aca0b0e",
+      "original_sha256": "d7cea34e7609cfe15aa767f37fdec293a2b2dfff8610baa11a1e13315aca0b0e"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 34601,
+      "sha256": "10db4fb3642efdcf397f439302ad0716badcff58e2398262cf164d8e7cf2e778",
+      "original_sha256": "10db4fb3642efdcf397f439302ad0716badcff58e2398262cf164d8e7cf2e778"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2734,
+      "sha256": "b5860cc50364863fc210e55e16132485b07aca57c67e90edb53b26b5d50c7945",
+      "original_sha256": "b5860cc50364863fc210e55e16132485b07aca57c67e90edb53b26b5d50c7945"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

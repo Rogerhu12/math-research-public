@@ -1,0 +1,779 @@
+{
+  "kind": "actual_public_first_Airy_seam_operators_execution",
+  "complete": true,
+  "failure": null,
+  "public_repository": "Rogerhu12/math-research-public",
+  "run_id": "43625828234",
+  "run_attempt": "1",
+  "workflow_event_commit": "72b951e2aaf973f445c287aae7729f59d41e4acc",
+  "actual_scientific_checkout_commit": "124a6b5471524e60f1ac05600741f2e58d0bcffa",
+  "source_sha256": "bba753481362704704edb9e86e89211e1e4f9d82845b75efe76942a06c825de7",
+  "manifest_sha256": "ffb042e48ee82ba6b9de068d87430fc27bfd8f4ad0b34b43807a3826c04eabaf",
+  "original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "complete_strong_norm_CE_Cs_and_cutoff97_not_claimed": true,
+  "actual_returncode": 0,
+  "verified_input_files": 10,
+  "original_native_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "forcing",
+      "run_id": "43624260519",
+      "sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+      "bytes": 6577892
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-actual-first-Airy-seam-operators-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_seam_operators.py",
+    "--repo-root",
+    "/__w/_temp/visible-exact-actual-first-Airy-seam-operators-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-actual-first-Airy-seam-operators-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-actual-first-Airy-seam-operators-CI-inputs.json",
+    "--root-native",
+    "/__w/_temp/visible-exact-actual-first-Airy-seam-operators-science/originals/root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+    "--forcing-native",
+    "/__w/_temp/visible-exact-actual-first-Airy-seam-operators-science/originals/forcing/consumers/actual-first-Airy-forcing.json.gz",
+    "--out",
+    "/__w/_temp/visible-exact-actual-first-Airy-seam-operators-output/consumers/actual-first-Airy-seam-operators.json.gz"
+  ],
+  "mathematical_source_sha256": "9c71989fc069bb6cc35bcb18c03f5ca73b20a33d57387b6a2be2b5a48aefe71a",
+  "mathematical_wall_seconds": 3.1200591580000037,
+  "native_sha256": "871aa54de8c4ee1caa47cdab39c8033bb9cd02e9d4d1f404b711ab8c28825642",
+  "native_bytes": 904977,
+  "mathematical_complete": true,
+  "mathematical_failure": null,
+  "mathematical_gates": [
+    {
+      "name": "the exact original complete root native has all1300 closed rows",
+      "passed": true
+    },
+    {
+      "name": "the actual repaired full real family and every root gate remain complete",
+      "passed": true
+    },
+    {
+      "name": "the complete actual first forcing and all true source gates were proved",
+      "passed": true
+    },
+    {
+      "name": "the actual same-family large-root negative propagation passed all eight gates",
+      "passed": true
+    },
+    {
+      "name": "the completed first-forcing rows are reused without polynomial or target reevaluation",
+      "passed": true
+    },
+    {
+      "name": "the actual first-forcing coefficient and leading domains contain the full seam strip",
+      "passed": true
+    },
+    {
+      "name": "the exact real Airy initial sum satisfies the elementary energy hypothesis",
+      "passed": true
+    },
+    {
+      "name": "the elementary Airy energy and central-argument constants hold",
+      "passed": true
+    },
+    {
+      "name": "radius1/1000: all real leading rays fit the larger old-angle strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/1000: the full forcing rays fit their actual smaller input strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/1000: the full-family divided phase and root-frame gaps remain positive",
+      "passed": true
+    },
+    {
+      "name": "radius1/1000: all actual mean derivative seams have positive root distance",
+      "passed": true
+    },
+    {
+      "name": "radius1/1000: the complete first forcing and both actual forced amplitudes are finite",
+      "passed": true
+    },
+    {
+      "name": "radius1/500: all real leading rays fit the larger old-angle strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/500: the full forcing rays fit their actual smaller input strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/500: the full-family divided phase and root-frame gaps remain positive",
+      "passed": true
+    },
+    {
+      "name": "radius1/500: all actual mean derivative seams have positive root distance",
+      "passed": true
+    },
+    {
+      "name": "radius1/500: the complete first forcing and both actual forced amplitudes are finite",
+      "passed": true
+    },
+    {
+      "name": "radius1/200: all real leading rays fit the larger old-angle strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/200: the full forcing rays fit their actual smaller input strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/200: the full-family divided phase and root-frame gaps remain positive",
+      "passed": true
+    },
+    {
+      "name": "radius1/200: all actual mean derivative seams have positive root distance",
+      "passed": true
+    },
+    {
+      "name": "radius1/200: the complete first forcing and both actual forced amplitudes are finite",
+      "passed": true
+    },
+    {
+      "name": "radius1/100: all real leading rays fit the larger old-angle strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/100: the full forcing rays fit their actual smaller input strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/100: the full-family divided phase and root-frame gaps remain positive",
+      "passed": true
+    },
+    {
+      "name": "radius1/100: all actual mean derivative seams have positive root distance",
+      "passed": true
+    },
+    {
+      "name": "radius1/100: the complete first forcing and both actual forced amplitudes are finite",
+      "passed": true
+    },
+    {
+      "name": "radius3/200: all real leading rays fit the larger old-angle strip",
+      "passed": true
+    },
+    {
+      "name": "radius3/200: the full forcing rays fit their actual smaller input strip",
+      "passed": true
+    },
+    {
+      "name": "radius3/200: the full-family divided phase and root-frame gaps remain positive",
+      "passed": true
+    },
+    {
+      "name": "radius3/200: all actual mean derivative seams have positive root distance",
+      "passed": true
+    },
+    {
+      "name": "radius3/200: the complete first forcing and both actual forced amplitudes are finite",
+      "passed": true
+    },
+    {
+      "name": "radius1/50: all real leading rays fit the larger old-angle strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/50: the full forcing rays fit their actual smaller input strip",
+      "passed": true
+    },
+    {
+      "name": "radius1/50: the full-family divided phase and root-frame gaps remain positive",
+      "passed": true
+    },
+    {
+      "name": "radius1/50: all actual mean derivative seams have positive root distance",
+      "passed": true
+    },
+    {
+      "name": "radius1/50: the complete first forcing and both actual forced amplitudes are finite",
+      "passed": true
+    },
+    {
+      "name": "all1079 original seams and every old full component jump remain accounted for",
+      "passed": true
+    }
+  ],
+  "complete_actual_seams": 1079,
+  "exact_cover": [
+    "1091984371497/5000000000000",
+    "2583968743003/10000000000000"
+  ],
+  "exact_root_interval": [
+    "1191984371497/5000000000000",
+    "2383968743003/10000000000000"
+  ],
+  "exact_real_delta_radius": "1/100000000",
+  "input_cutoff": 97,
+  "physical_frequency": "4|j|",
+  "source_window": "H^-4/3 -> H^-2/3 x H^-1",
+  "density_input_normalization": "n^(7/6)",
+  "root_native_sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+  "first_forcing_native_sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+  "first_forcing_process_sha256": "0f4d1dd4b33bf80c40e5ef65a169e0012bfd4f47746a8b7fbe7134557af5b145",
+  "actual_negative_Cauchy_native_sha256": "3a214897f5dc47e1a1fed3db327f54fcc0302ad6fd273ea96ecdbfcc0ca4f1e0",
+  "completed_seams_reused": 0,
+  "new_seams_evaluated": 1079,
+  "last_attempted_seam": null,
+  "negative_seam_count": 576,
+  "positive_seam_count": 503,
+  "complete_unpropagated_seam_operator_sums": {
+    "negative_mixed_source": {
+      "ball": "[0.00141078444584522730648533265232130404924196261864584377269276 +/- 3.30e-63]",
+      "lower": "[0.00141078444584522730648533265232130404924196261864584377269276 +/- 3.30e-63]",
+      "upper": "[0.00141078444584522730648533265232130404924196261864584377269276 +/- 3.30e-63]"
+    },
+    "positive_raw_mixed_source_only": {
+      "ball": "[8.43841557789588365284418374869937753893548233442299394503665e-5 +/- 1.72e-65]",
+      "lower": "[8.43841557789588365284418374869937753893548233442299394503665e-5 +/- 1.72e-65]",
+      "upper": "[8.43841557789588365284418374869937753893548233442299394503665e-5 +/- 1.72e-65]"
+    },
+    "all_raw_mixed_sources": {
+      "ball": "[0.00149516860162418614301377448980829782463131744199007371214780 +/- 2.96e-63]",
+      "lower": "[0.00149516860162418614301377448980829782463131744199007371214780 +/- 2.96e-63]",
+      "upper": "[0.00149516860162418614301377448980829782463131744199007371214780 +/- 2.96e-63]"
+    }
+  },
+  "actual_negative_first_seam_contributions": [
+    {
+      "exact_radius": "1/1000",
+      "exact_enclosing_interval": [
+        "1186984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "complete_actual_seams": 24,
+      "mixed_source_operator_sum": {
+        "ball": "[0.00138551793639567289777469130734354035521646987914617462265172 +/- 3.16e-63]",
+        "lower": "[0.00138551793639567289777469130734354035521646987914617462265172 +/- 3.16e-63]",
+        "upper": "[0.00138551793639567289777469130734354035521646987914617462265172 +/- 3.16e-63]"
+      },
+      "actual_full_mean_Cauchy_and_primitive_gain": {
+        "ball": "[4.79311289572322693647374611728780564585826167460507280789962 +/- 2.44e-60]",
+        "lower": "[4.79311289572322693647374611728780564585826167460507280789962 +/- 2.44e-60]",
+        "upper": "[4.79311289572322693647374611728780564585826167460507280789962 +/- 2.44e-60]"
+      },
+      "first_seam_contribution_Hminus4over3_to_primitive_L2_pair": {
+        "ball": "[0.00664094388819393348109475884618862557955230579017721520165817 +/- 3.42e-63]",
+        "lower": "[0.00664094388819393348109475884618862557955230579017721520165817 +/- 3.42e-63]",
+        "upper": "[0.00664094388819393348109475884618862557955230579017721520165817 +/- 3.42e-63]"
+      },
+      "zero_root_and_other_sources_for_this_linear_component": true,
+      "no_radial_length_factor_applied_to_any_affine_jump": true,
+      "complete_return_remainder_claimed": false
+    },
+    {
+      "exact_radius": "1/500",
+      "exact_enclosing_interval": [
+        "1181984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "complete_actual_seams": 87,
+      "mixed_source_operator_sum": {
+        "ball": "[0.00139199040730440105869116631102939139606804733038258987353545 +/- 2.95e-64]",
+        "lower": "[0.00139199040730440105869116631102939139606804733038258987353545 +/- 2.95e-64]",
+        "upper": "[0.00139199040730440105869116631102939139606804733038258987353545 +/- 2.95e-64]"
+      },
+      "actual_full_mean_Cauchy_and_primitive_gain": {
+        "ball": "[5.71466468348456783905938209608309370317711909297919184909482 +/- 2.35e-60]",
+        "lower": "[5.71466468348456783905938209608309370317711909297919184909482 +/- 2.35e-60]",
+        "upper": "[5.71466468348456783905938209608309370317711909297919184909482 +/- 2.35e-60]"
+      },
+      "first_seam_contribution_Hminus4over3_to_primitive_L2_pair": {
+        "ball": "[0.00795475842037175974422910106603164169643889868076247988504472 +/- 2.90e-63]",
+        "lower": "[0.00795475842037175974422910106603164169643889868076247988504472 +/- 2.90e-63]",
+        "upper": "[0.00795475842037175974422910106603164169643889868076247988504472 +/- 2.90e-63]"
+      },
+      "zero_root_and_other_sources_for_this_linear_component": true,
+      "no_radial_length_factor_applied_to_any_affine_jump": true,
+      "complete_return_remainder_claimed": false
+    },
+    {
+      "exact_radius": "1/200",
+      "exact_enclosing_interval": [
+        "1166984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "complete_actual_seams": 256,
+      "mixed_source_operator_sum": {
+        "ball": "[0.00140129835497972572142255773843050457917863931286160441954062 +/- 3.27e-64]",
+        "lower": "[0.00140129835497972572142255773843050457917863931286160441954062 +/- 3.27e-64]",
+        "upper": "[0.00140129835497972572142255773843050457917863931286160441954062 +/- 3.27e-64]"
+      },
+      "actual_full_mean_Cauchy_and_primitive_gain": {
+        "ball": "[11.2726940052207744958377551628069408636308982940770771912954 +/- 2.47e-59]",
+        "lower": "[11.2726940052207744958377551628069408636308982940770771912954 +/- 2.47e-59]",
+        "upper": "[11.2726940052207744958377551628069408636308982940770771912954 +/- 2.47e-59]"
+      },
+      "first_seam_contribution_Hminus4over3_to_primitive_L2_pair": {
+        "ball": "[0.0157964075657056869742632913026746214783802506386266199661113 +/- 4.55e-62]",
+        "lower": "[0.0157964075657056869742632913026746214783802506386266199661113 +/- 4.55e-62]",
+        "upper": "[0.0157964075657056869742632913026746214783802506386266199661113 +/- 4.55e-62]"
+      },
+      "zero_root_and_other_sources_for_this_linear_component": true,
+      "no_radial_length_factor_applied_to_any_affine_jump": true,
+      "complete_return_remainder_claimed": false
+    },
+    {
+      "exact_radius": "1/100",
+      "exact_enclosing_interval": [
+        "1141984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "complete_actual_seams": 384,
+      "mixed_source_operator_sum": {
+        "ball": "[0.00140512717486780941527159290184295740825648922283972842114245 +/- 4.17e-63]",
+        "lower": "[0.00140512717486780941527159290184295740825648922283972842114245 +/- 4.17e-63]",
+        "upper": "[0.00140512717486780941527159290184295740825648922283972842114245 +/- 4.17e-63]"
+      },
+      "actual_full_mean_Cauchy_and_primitive_gain": {
+        "ball": "[52.3699088461252868197648147053436448798452788039146841418584 +/- 4.72e-59]",
+        "lower": "[52.3699088461252868197648147053436448798452788039146841418584 +/- 4.72e-59]",
+        "upper": "[52.3699088461252868197648147053436448798452788039146841418584 +/- 4.72e-59]"
+      },
+      "first_seam_contribution_Hminus4over3_to_primitive_L2_pair": {
+        "ball": "[0.0735863820650407250925781871160908046042995820046603624447959 +/- 4.08e-62]",
+        "lower": "[0.0735863820650407250925781871160908046042995820046603624447959 +/- 4.08e-62]",
+        "upper": "[0.0735863820650407250925781871160908046042995820046603624447959 +/- 4.08e-62]"
+      },
+      "zero_root_and_other_sources_for_this_linear_component": true,
+      "no_radial_length_factor_applied_to_any_affine_jump": true,
+      "complete_return_remainder_claimed": false
+    },
+    {
+      "exact_radius": "3/200",
+      "exact_enclosing_interval": [
+        "1116984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "complete_actual_seams": 480,
+      "mixed_source_operator_sum": {
+        "ball": "[0.00140820629708055125921791871442313751567846994825830821740342 +/- 3.22e-63]",
+        "lower": "[0.00140820629708055125921791871442313751567846994825830821740342 +/- 3.22e-63]",
+        "upper": "[0.00140820629708055125921791871442313751567846994825830821740342 +/- 3.22e-63]"
+      },
+      "actual_full_mean_Cauchy_and_primitive_gain": {
+        "ball": "[294.349449423612556180255887936660716346362360574567251406228 +/- 1.18e-58]",
+        "lower": "[294.349449423612556180255887936660716346362360574567251406228 +/- 1.18e-58]",
+        "upper": "[294.349449423612556180255887936660716346362360574567251406228 +/- 1.18e-58]"
+      },
+      "first_seam_contribution_Hminus4over3_to_primitive_L2_pair": {
+        "ball": "[0.414504748220524440902475677801811784874426212517728017478937 +/- 1.13e-61]",
+        "lower": "[0.414504748220524440902475677801811784874426212517728017478937 +/- 1.13e-61]",
+        "upper": "[0.414504748220524440902475677801811784874426212517728017478937 +/- 1.13e-61]"
+      },
+      "zero_root_and_other_sources_for_this_linear_component": true,
+      "no_radial_length_factor_applied_to_any_affine_jump": true,
+      "complete_return_remainder_claimed": false
+    },
+    {
+      "exact_radius": "1/50",
+      "exact_enclosing_interval": [
+        "1091984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "complete_actual_seams": 576,
+      "mixed_source_operator_sum": {
+        "ball": "[0.00141078444584522730648533265232130404924196261864584377269276 +/- 3.30e-63]",
+        "lower": "[0.00141078444584522730648533265232130404924196261864584377269276 +/- 3.30e-63]",
+        "upper": "[0.00141078444584522730648533265232130404924196261864584377269276 +/- 3.30e-63]"
+      },
+      "actual_full_mean_Cauchy_and_primitive_gain": {
+        "ball": "[1561.57706282409376591171890997465123696358875682445690568175 +/- 8.35e-59]",
+        "lower": "[1561.57706282409376591171890997465123696358875682445690568175 +/- 8.35e-59]",
+        "upper": "[1561.57706282409376591171890997465123696358875682445690568175 +/- 8.33e-59]"
+      },
+      "first_seam_contribution_Hminus4over3_to_primitive_L2_pair": {
+        "ball": "[2.20304863122090683084981014476207918791072475635097636574889 +/- 3.52e-60]",
+        "lower": "[2.20304863122090683084981014476207918791072475635097636574889 +/- 3.52e-60]",
+        "upper": "[2.20304863122090683084981014476207918791072475635097636574889 +/- 3.52e-60]"
+      },
+      "zero_root_and_other_sources_for_this_linear_component": true,
+      "no_radial_length_factor_applied_to_any_affine_jump": true,
+      "complete_return_remainder_claimed": false
+    }
+  ],
+  "negative_first_seam_component_has_complete_strong_4over3_window": true,
+  "old_mean_full_output_and_head_rows_retained": true,
+  "positive_weighted_affine_port_conversion_claimed": false,
+  "complete_strong_return_norm_evaluated": false,
+  "numerical_cutoff97_inverse_claimed": false,
+  "actual_PDE_branch_claimed": false,
+  "refined_forcing_radius_cases": [
+    {
+      "exact_radius": "1/1000",
+      "exact_cover": [
+        "1186984371497/5000000000000",
+        "2393968743003/10000000000000"
+      ],
+      "complete_original_forcing_rows": 144,
+      "complete_original_seams": 47,
+      "passed": true,
+      "actual_forcing": {
+        "coefficient_strip": "1/16",
+        "leading_strip": "3/64",
+        "forcing_strip": "5/128",
+        "output_strip": "1/64",
+        "bound_type": "analytic supremum, not same-width Wiener norm",
+        "complete_actual_L0_v0_pair_sup": {
+          "ball": "[215082.538315816490460261887723499642418404992914727990843451 +/- 2.41e-55]",
+          "lower": "[215082.538315816490460261887723499642418404992914727990843451 +/- 2.41e-55]",
+          "upper": "[215082.538315816490460261887723499642418404992914727990843451 +/- 2.41e-55]"
+        },
+        "complete_actual_L0_v0_pair_first_angular_sup": {
+          "ball": "[27530564.9044245107789135216286079542295558390930851828279617 +/- 2.80e-54]",
+          "lower": "[27530564.9044245107789135216286079542295558390930851828279617 +/- 2.80e-54]",
+          "upper": "[27530564.9044245107789135216286079542295558390930851828279617 +/- 2.80e-54]"
+        },
+        "actual_first_a_amplitude_sup": {
+          "ball": "[20100.2979463142915619595648299040575552780865729555335768608 +/- 4.85e-56]",
+          "lower": "[20100.2979463142915619595648299040575552780865729555335768608 +/- 4.85e-56]",
+          "upper": "[20100.2979463142915619595648299040575552780865729555335768608 +/- 4.85e-56]"
+        },
+        "actual_first_b_amplitude_sup": {
+          "ball": "[5485267.48783568450318631642694147531151736727222068543802494 +/- 2.52e-54]",
+          "lower": "[5485267.48783568450318631642694147531151736727222068543802494 +/- 2.52e-54]",
+          "upper": "[5485267.48783568450318631642694147531151736727222068543802494 +/- 2.52e-54]"
+        },
+        "actual_original_mean_first_derivative_jump_sum": {
+          "ball": "[5.85460091980823015079867845327428333858309220732228307817758e-17 +/- 6.63e-78]",
+          "lower": "[5.85460091980823015079867845327428333858309220732228307817758e-17 +/- 6.63e-78]",
+          "upper": "[5.85460091980823015079867845327428333858309220732228307817758e-17 +/- 6.63e-78]"
+        },
+        "actual_a_first_derivative_jump_sum": {
+          "ball": "[1.16008843380267115595960249316497180805794580485829617608344e-15 +/- 2.30e-75]",
+          "lower": "[1.16008843380267115595960249316497180805794580485829617608344e-15 +/- 2.30e-75]",
+          "upper": "[1.16008843380267115595960249316497180805794580485829617608344e-15 +/- 2.30e-75]"
+        },
+        "A_second_radial_seam_fee": {
+          "ball": "[1.51890693244161455348235872536483176396830696274849951181184e-10 +/- 4.58e-70]",
+          "lower": "[1.51890693244161455348235872536483176396830696274849951181184e-10 +/- 4.58e-70]",
+          "upper": "[1.51890693244161455348235872536483176396830696274849951181184e-10 +/- 4.58e-70]"
+        },
+        "A_second_radial_first_angular_seam_fee": {
+          "ball": "[1.28861358145013059514819573358834716182873163795483237840622e-15 +/- 1.77e-75]",
+          "lower": "[1.28861358145013059514819573358834716182873163795483237840622e-15 +/- 1.77e-75]",
+          "upper": "[1.28861358145013059514819573358834716182873163795483237840622e-15 +/- 1.77e-75]"
+        },
+        "actual_minimum_seam_root_distance": "125978004170690098219/10995116277760000000000000",
+        "common_next_root_trace": "exactly zero",
+        "full_branch_factors_retained": true
+      }
+    },
+    {
+      "exact_radius": "1/500",
+      "exact_cover": [
+        "1181984371497/5000000000000",
+        "2403968743003/10000000000000"
+      ],
+      "complete_original_forcing_rows": 274,
+      "complete_original_seams": 146,
+      "passed": true,
+      "actual_forcing": {
+        "coefficient_strip": "1/16",
+        "leading_strip": "3/64",
+        "forcing_strip": "5/128",
+        "output_strip": "1/64",
+        "bound_type": "analytic supremum, not same-width Wiener norm",
+        "complete_actual_L0_v0_pair_sup": {
+          "ball": "[219802.862709226304592289372518495747065420925167080670957316 +/- 4.58e-55]",
+          "lower": "[219802.862709226304592289372518495747065420925167080670957316 +/- 4.58e-55]",
+          "upper": "[219802.862709226304592289372518495747065420925167080670957316 +/- 4.58e-55]"
+        },
+        "complete_actual_L0_v0_pair_first_angular_sup": {
+          "ball": "[28134766.4267809669878130396823674556243738784213863258825364 +/- 1.06e-53]",
+          "lower": "[28134766.4267809669878130396823674556243738784213863258825364 +/- 1.06e-53]",
+          "upper": "[28134766.4267809669878130396823674556243738784213863258825364 +/- 1.06e-53]"
+        },
+        "actual_first_a_amplitude_sup": {
+          "ball": "[67295.2471924596017827404551129779988483706195246055933882560 +/- 9.33e-57]",
+          "lower": "[67295.2471924596017827404551129779988483706195246055933882560 +/- 9.33e-57]",
+          "upper": "[67295.2471924596017827404551129779988483706195246055933882560 +/- 9.33e-57]"
+        },
+        "actual_first_b_amplitude_sup": {
+          "ball": "[5635676.89007550110209659685721274197610352740730930396844382 +/- 7.73e-55]",
+          "lower": "[5635676.89007550110209659685721274197610352740730930396844382 +/- 7.73e-55]",
+          "upper": "[5635676.89007550110209659685721274197610352740730930396844382 +/- 7.73e-55]"
+        },
+        "actual_original_mean_first_derivative_jump_sum": {
+          "ball": "[2.65783274655550625259483544061033499813107538424542573088270e-16 +/- 4.47e-76]",
+          "lower": "[2.65783274655550625259483544061033499813107538424542573088270e-16 +/- 4.47e-76]",
+          "upper": "[2.65783274655550625259483544061033499813107538424542573088270e-16 +/- 4.47e-76]"
+        },
+        "actual_a_first_derivative_jump_sum": {
+          "ball": "[5.26763872665059151429351973622705513921065775322029133462830e-15 +/- 1.26e-75]",
+          "lower": "[5.26763872665059151429351973622705513921065775322029133462830e-15 +/- 1.26e-75]",
+          "upper": "[5.26763872665059151429351973622705513921065775322029133462830e-15 +/- 1.26e-75]"
+        },
+        "A_second_radial_seam_fee": {
+          "ball": "[6.89821567217897665399739741367596612410362121634803975715935e-10 +/- 4.58e-70]",
+          "lower": "[6.89821567217897665399739741367596612410362121634803975715935e-10 +/- 4.58e-70]",
+          "upper": "[6.89821567217897665399739741367596612410362121634803975715935e-10 +/- 4.58e-70]"
+        },
+        "A_second_radial_first_angular_seam_fee": {
+          "ball": "[7.52147871899871540663112745230541359249641282535658610296503e-15 +/- 3.28e-75]",
+          "lower": "[7.52147871899871540663112745230541359249641282535658610296503e-15 +/- 3.28e-75]",
+          "upper": "[7.52147871899871540663112745230541359249641282535658610296503e-15 +/- 3.28e-75]"
+        },
+        "actual_minimum_seam_root_distance": "125978004170690098219/10995116277760000000000000",
+        "common_next_root_trace": "exactly zero",
+        "full_branch_factors_retained": true
+      }
+    },
+    {
+      "exact_radius": "1/200",
+      "exact_cover": [
+        "1166984371497/5000000000000",
+        "2433968743003/10000000000000"
+      ],
+      "complete_original_forcing_rows": 627,
+      "complete_original_seams": 460,
+      "passed": true,
+      "actual_forcing": {
+        "coefficient_strip": "1/16",
+        "leading_strip": "3/64",
+        "forcing_strip": "5/128",
+        "output_strip": "1/64",
+        "bound_type": "analytic supremum, not same-width Wiener norm",
+        "complete_actual_L0_v0_pair_sup": {
+          "ball": "[222775.942816836260919597969760053444024853747060265474795726 +/- 4.73e-55]",
+          "lower": "[222775.942816836260919597969760053444024853747060265474795726 +/- 4.73e-55]",
+          "upper": "[222775.942816836260919597969760053444024853747060265474795726 +/- 4.73e-55]"
+        },
+        "complete_actual_L0_v0_pair_first_angular_sup": {
+          "ball": "[28515320.6805550413977085401292868408351812796237139807738529 +/- 3.25e-53]",
+          "lower": "[28515320.6805550413977085401292868408351812796237139807738529 +/- 3.25e-53]",
+          "upper": "[28515320.6805550413977085401292868408351812796237139807738529 +/- 3.25e-53]"
+        },
+        "actual_first_a_amplitude_sup": {
+          "ball": "[374450.115332490115833984232964890220270016321655144959579928 +/- 1.80e-55]",
+          "lower": "[374450.115332490115833984232964890220270016321655144959579928 +/- 1.80e-55]",
+          "upper": "[374450.115332490115833984232964890220270016321655144959579928 +/- 1.80e-55]"
+        },
+        "actual_first_b_amplitude_sup": {
+          "ball": "[5913742.72120783091237188001094850934980136085568217133677397 +/- 3.45e-55]",
+          "lower": "[5913742.72120783091237188001094850934980136085568217133677397 +/- 3.45e-55]",
+          "upper": "[5913742.72120783091237188001094850934980136085568217133677397 +/- 3.45e-55]"
+        },
+        "actual_original_mean_first_derivative_jump_sum": {
+          "ball": "[1.14215817869550026168021275849516515739497879570742314983182e-15 +/- 3.21e-75]",
+          "lower": "[1.14215817869550026168021275849516515739497879570742314983182e-15 +/- 3.21e-75]",
+          "upper": "[1.14215817869550026168021275849516515739497879570742314983182e-15 +/- 3.21e-75]"
+        },
+        "actual_a_first_derivative_jump_sum": {
+          "ball": "[2.26502630898406932549890434807175847108539710374257484199416e-14 +/- 3.70e-74]",
+          "lower": "[2.26502630898406932549890434807175847108539710374257484199416e-14 +/- 3.70e-74]",
+          "upper": "[2.26502630898406932549890434807175847108539710374257484199416e-14 +/- 3.70e-74]"
+        },
+        "A_second_radial_seam_fee": {
+          "ball": "[2.96973189011928840265077231364978079912291240606936032453014e-9 +/- 2.01e-69]",
+          "lower": "[2.96973189011928840265077231364978079912291240606936032453014e-9 +/- 2.01e-69]",
+          "upper": "[2.96973189011928840265077231364978079912291240606936032453014e-9 +/- 2.01e-69]"
+        },
+        "A_second_radial_first_angular_seam_fee": {
+          "ball": "[5.86158502911346962397835110037889230006409976637725697438470e-14 +/- 2.25e-74]",
+          "lower": "[5.86158502911346962397835110037889230006409976637725697438470e-14 +/- 2.25e-74]",
+          "upper": "[5.86158502911346962397835110037889230006409976637725697438470e-14 +/- 2.25e-74]"
+        },
+        "actual_minimum_seam_root_distance": "125978004170690098219/10995116277760000000000000",
+        "common_next_root_trace": "exactly zero",
+        "full_branch_factors_retained": true
+      }
+    },
+    {
+      "exact_radius": "1/100",
+      "exact_cover": [
+        "1141984371497/5000000000000",
+        "2483968743003/10000000000000"
+      ],
+      "complete_original_forcing_rows": 898,
+      "complete_original_seams": 693,
+      "passed": true,
+      "actual_forcing": {
+        "coefficient_strip": "1/16",
+        "leading_strip": "3/64",
+        "forcing_strip": "5/128",
+        "output_strip": "1/64",
+        "bound_type": "analytic supremum, not same-width Wiener norm",
+        "complete_actual_L0_v0_pair_sup": {
+          "ball": "[231309.004269058709688628537284922725212763664362476698396770 +/- 1.22e-55]",
+          "lower": "[231309.004269058709688628537284922725212763664362476698396770 +/- 1.22e-55]",
+          "upper": "[231309.004269058709688628537284922725212763664362476698396770 +/- 1.22e-55]"
+        },
+        "complete_actual_L0_v0_pair_first_angular_sup": {
+          "ball": "[29607552.5464395148401444527724701088272337490383970173947865 +/- 4.45e-53]",
+          "lower": "[29607552.5464395148401444527724701088272337490383970173947865 +/- 4.45e-53]",
+          "upper": "[29607552.5464395148401444527724701088272337490383970173947865 +/- 4.45e-53]"
+        },
+        "actual_first_a_amplitude_sup": {
+          "ball": "[1545325.08526866061419942295371270524078957941536309365467138 +/- 1.41e-54]",
+          "lower": "[1545325.08526866061419942295371270524078957941536309365467138 +/- 1.41e-54]",
+          "upper": "[1545325.08526866061419942295371270524078957941536309365467138 +/- 1.41e-54]"
+        },
+        "actual_first_b_amplitude_sup": {
+          "ball": "[6887034.26690538084473655300344060376115909818038701745434465 +/- 2.96e-55]",
+          "lower": "[6887034.26690538084473655300344060376115909818038701745434465 +/- 2.96e-55]",
+          "upper": "[6887034.26690538084473655300344060376115909818038701745434465 +/- 2.96e-55]"
+        },
+        "actual_original_mean_first_derivative_jump_sum": {
+          "ball": "[1.67304911572167487492132086415396653515002829732350278036343e-15 +/- 2.34e-76]",
+          "lower": "[1.67304911572167487492132086415396653515002829732350278036343e-15 +/- 2.34e-76]",
+          "upper": "[1.67304911572167487492132086415396653515002829732350278036343e-15 +/- 2.34e-76]"
+        },
+        "actual_a_first_derivative_jump_sum": {
+          "ball": "[3.32093563087896639548492880382595953128610116310202013380352e-14 +/- 1.07e-74]",
+          "lower": "[3.32093563087896639548492880382595953128610116310202013380352e-14 +/- 1.07e-74]",
+          "upper": "[3.32093563087896639548492880382595953128610116310202013380352e-14 +/- 1.07e-74]"
+        },
+        "A_second_radial_seam_fee": {
+          "ball": "[4.36987353523432549509220988898651105172668764765308773731601e-9 +/- 3.48e-69]",
+          "lower": "[4.36987353523432549509220988898651105172668764765308773731601e-9 +/- 3.48e-69]",
+          "upper": "[4.36987353523432549509220988898651105172668764765308773731601e-9 +/- 3.48e-69]"
+        },
+        "A_second_radial_first_angular_seam_fee": {
+          "ball": "[1.39493100572869524403913954993762294322507579821757893840072e-13 +/- 1.92e-73]",
+          "lower": "[1.39493100572869524403913954993762294322507579821757893840072e-13 +/- 1.92e-73]",
+          "upper": "[1.39493100572869524403913954993762294322507579821757893840072e-13 +/- 1.92e-73]"
+        },
+        "actual_minimum_seam_root_distance": "125978004170690098219/10995116277760000000000000",
+        "common_next_root_trace": "exactly zero",
+        "full_branch_factors_retained": true
+      }
+    },
+    {
+      "exact_radius": "3/200",
+      "exact_cover": [
+        "1116984371497/5000000000000",
+        "2533968743003/10000000000000"
+      ],
+      "complete_original_forcing_rows": 1106,
+      "complete_original_seams": 876,
+      "passed": true,
+      "actual_forcing": {
+        "coefficient_strip": "1/16",
+        "leading_strip": "3/64",
+        "forcing_strip": "5/128",
+        "output_strip": "1/64",
+        "bound_type": "analytic supremum, not same-width Wiener norm",
+        "complete_actual_L0_v0_pair_sup": {
+          "ball": "[254259.890144292487164471992873293781750591581537010265248342 +/- 9.28e-56]",
+          "lower": "[254259.890144292487164471992873293781750591581537010265248342 +/- 9.28e-56]",
+          "upper": "[254259.890144292487164471992873293781750591581537010265248342 +/- 9.28e-56]"
+        },
+        "complete_actual_L0_v0_pair_first_angular_sup": {
+          "ball": "[32545265.9384694383570524150877816040640757224367373139517878 +/- 1.22e-53]",
+          "lower": "[32545265.9384694383570524150877816040640757224367373139517878 +/- 1.22e-53]",
+          "upper": "[32545265.9384694383570524150877816040640757224367373139517878 +/- 1.22e-53]"
+        },
+        "actual_first_a_amplitude_sup": {
+          "ball": "[3982376.07167604496690799765352505872128368268056179757995889 +/- 2.16e-54]",
+          "lower": "[3982376.07167604496690799765352505872128368268056179757995889 +/- 2.16e-54]",
+          "upper": "[3982376.07167604496690799765352505872128368268056179757995889 +/- 2.16e-54]"
+        },
+        "actual_first_b_amplitude_sup": {
+          "ball": "[8924261.47129023704917343818161071215050668450641403989277136 +/- 1.84e-54]",
+          "lower": "[8924261.47129023704917343818161071215050668450641403989277136 +/- 1.84e-54]",
+          "upper": "[8924261.47129023704917343818161071215050668450641403989277136 +/- 1.84e-54]"
+        },
+        "actual_original_mean_first_derivative_jump_sum": {
+          "ball": "[2.17500238665588629153646929656072185968296962879736807998368e-15 +/- 3.76e-76]",
+          "lower": "[2.17500238665588629153646929656072185968296962879736807998368e-15 +/- 3.76e-76]",
+          "upper": "[2.17500238665588629153646929656072185968296962879736807998368e-15 +/- 3.76e-76]"
+        },
+        "actual_a_first_derivative_jump_sum": {
+          "ball": "[4.32080262106126902582098448268617274213300747307035849712558e-14 +/- 3.42e-74]",
+          "lower": "[4.32080262106126902582098448268617274213300747307035849712558e-14 +/- 3.42e-74]",
+          "upper": "[4.32080262106126902582098448268617274213300747307035849712558e-14 +/- 3.42e-74]"
+        },
+        "A_second_radial_seam_fee": {
+          "ball": "[5.70456337213596539581691293803178979742712599667587757194095e-9 +/- 4.31e-70]",
+          "lower": "[5.70456337213596539581691293803178979742712599667587757194095e-9 +/- 4.31e-70]",
+          "upper": "[5.70456337213596539581691293803178979742712599667587757194095e-9 +/- 4.31e-70]"
+        },
+        "A_second_radial_first_angular_seam_fee": {
+          "ball": "[1.99961311106674573330330127655889495096746848561291062354232e-13 +/- 3.87e-73]",
+          "lower": "[1.99961311106674573330330127655889495096746848561291062354232e-13 +/- 3.87e-73]",
+          "upper": "[1.99961311106674573330330127655889495096746848561291062354232e-13 +/- 3.87e-73]"
+        },
+        "actual_minimum_seam_root_distance": "125978004170690098219/10995116277760000000000000",
+        "common_next_root_trace": "exactly zero",
+        "full_branch_factors_retained": true
+      }
+    },
+    {
+      "exact_radius": "1/50",
+      "exact_cover": [
+        "1091984371497/5000000000000",
+        "2583968743003/10000000000000"
+      ],
+      "complete_original_forcing_rows": 1328,
+      "complete_original_seams": 1079,
+      "passed": true,
+      "actual_forcing": {
+        "coefficient_strip": "1/16",
+        "leading_strip": "3/64",
+        "forcing_strip": "5/128",
+        "output_strip": "1/64",
+        "bound_type": "analytic supremum, not same-width Wiener norm",
+        "complete_actual_L0_v0_pair_sup": {
+          "ball": "[268394.856049501788826239894499328858598742215804775777982733 +/- 4.66e-55]",
+          "lower": "[268394.856049501788826239894499328858598742215804775777982733 +/- 4.66e-55]",
+          "upper": "[268394.856049501788826239894499328858598742215804775777982733 +/- 4.66e-55]"
+        },
+        "complete_actual_L0_v0_pair_first_angular_sup": {
+          "ball": "[34354541.5743362289697587064959140939006390036230112995817899 +/- 1.65e-53]",
+          "lower": "[34354541.5743362289697587064959140939006390036230112995817899 +/- 1.65e-53]",
+          "upper": "[34354541.5743362289697587064959140939006390036230112995817899 +/- 1.65e-53]"
+        },
+        "actual_first_a_amplitude_sup": {
+          "ball": "[7731800.52503747907241980626779750381549525171660682660901735 +/- 1.92e-55]",
+          "lower": "[7731800.52503747907241980626779750381549525171660682660901735 +/- 1.92e-55]",
+          "upper": "[7731800.52503747907241980626779750381549525171660682660901735 +/- 1.92e-55]"
+        },
+        "actual_first_b_amplitude_sup": {
+          "ball": "[11178348.0241909791668287421267604379920511475990988621649658 +/- 4.74e-54]",
+          "lower": "[11178348.0241909791668287421267604379920511475990988621649658 +/- 4.74e-54]",
+          "upper": "[11178348.0241909791668287421267604379920511475990988621649658 +/- 4.74e-54]"
+        },
+        "actual_original_mean_first_derivative_jump_sum": {
+          "ball": "[2.71125545744906107945242469698237951006857063694232214572896e-15 +/- 4.00e-75]",
+          "lower": "[2.71125545744906107945242469698237951006857063694232214572896e-15 +/- 4.00e-75]",
+          "upper": "[2.71125545744906107945242469698237951006857063694232214572896e-15 +/- 4.00e-75]"
+        },
+        "actual_a_first_derivative_jump_sum": {
+          "ball": "[5.38956739774731974937117642325626348680676974494332289476759e-14 +/- 2.41e-74]",
+          "lower": "[5.38956739774731974937117642325626348680676974494332289476759e-14 +/- 2.41e-74]",
+          "upper": "[5.38956739774731974937117642325626348680676974494332289476759e-14 +/- 2.41e-74]"
+        },
+        "A_second_radial_seam_fee": {
+          "ball": "[7.13563173667687810656891985622505218573706036259626003829605e-9 +/- 3.15e-69]",
+          "lower": "[7.13563173667687810656891985622505218573706036259626003829605e-9 +/- 3.15e-69]",
+          "upper": "[7.13563173667687810656891985622505218573706036259626003829605e-9 +/- 3.15e-69]"
+        },
+        "A_second_radial_first_angular_seam_fee": {
+          "ball": "[2.52242123827298970104102411333923515168330562556017301486531e-13 +/- 1.91e-73]",
+          "lower": "[2.52242123827298970104102411333923515168330562556017301486531e-13 +/- 1.91e-73]",
+          "upper": "[2.52242123827298970104102411333923515168330562556017301486531e-13 +/- 1.91e-73]"
+        },
+        "actual_minimum_seam_root_distance": "125978004170690098219/10995116277760000000000000",
+        "common_next_root_trace": "exactly zero",
+        "full_branch_factors_retained": true
+      }
+    }
+  ],
+  "actual_completed_seam_prefix": [
+    "3935020174414971/18014398509481984",
+    "4654657864871881/18014398509481984"
+  ]
+}
