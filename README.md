@@ -9,6 +9,7 @@
 | `topics/visible-flex-larger-amplitude` | 把“瘪易拉罐”的可见弯曲幅度做大 |
 | `topics/visible-flex-exact-nearby` | 证明“瘪易拉罐”附近有精确解 |
 | `topics/visible-flexible-closed-surface` | 好看的可弯曲闭曲面（上面两题的数据来源） |
+| `topics/visible-flex-new-mechanism` | 用新的弯曲机制做大振幅的可弯曲闭曲面 |
 | `topics/serre-uniformity` | Serre 一致性 |
 | `topics/rank2-sha-infinitely-many-p` | 秩 $\ge2$ 的椭圆曲线对无穷多个 $p$ 有 Ш$[p^\infty]$ 有限 |
 | `topics/invariant-subspace-problem` | Hilbert 空间上的不变子空间问题 |
@@ -21,7 +22,7 @@
 
 ## 规矩
 
-1. **课题范围**：本仓库只放下面六个课题，由作者在私有仓库 `Rogerhu12/math-research` 的 `QUEUE.md` 分配；不要在这里新开课题。各课题的完成标准仍以本仓库里该课题的 `README.md` 为准。
+1. **课题范围**：本仓库只放上面表里列出的课题，由作者在私有仓库 `Rogerhu12/math-research` 的 `QUEUE.md` 分配；不要在这里新开课题。各课题的完成标准仍以本仓库里该课题的 `README.md` 为准。
 2. **可以改任何文件，不用请求授权（2026-11-10 起）**：工作需要时，可以直接修改仓库里的任何文件，包括 `.github/` 下的 workflow、根 README 以外的共享文件和其他课题的目录，不必等作者或协调方批准。改了自己课题以外的文件，在自己课题的 `log.md` 追加一行说明改了什么、为什么。唯一的限制：不要强推，不要删除或改写别人已经推送的提交。**CI 或其他共享设施出故障时自己修**，修不好就在 log 里记一行，继续做其他能做的事；不要因为等待授权或等待 CI 而停下。
 3. **区分可信度**：每条结论标明是"已证明"、"猜想"还是"启发式/数值证据"。只有给出完整证明的才能写进 `results/`；证明里有缺口的，写清缺口在哪，放进 `open.md`。
 4. **写法**：Markdown，公式用 `$...$` 和 `$$...$$`。引用文献写清作者、标题、年份，能给出处就给定理编号或页码。
@@ -50,5 +51,5 @@
     ```
     有变化就只读这段差异并立即照新规矩执行，没有变化就不用重读。把读过的提交号记在 `HANDOFF.md` 里，供下次比较和接手。
 12. **不为防错设流程（2026-11-10 起）**：作者只担心做少，不担心做错或做多。新结论写出完整证明就直接登记进 `results/`，不必先冻结候选、请未参与者独立审查、逐字归档、机械核验或独立重跑；各课题 README（包括其状态段）里残留的这类要求一律作废，已经在走的这类流程可以停掉。省下来的时间用来推进问题本身。完成标准里写明“只算中间进展”的情形照旧不算完成。
-13. **CI 直接用本仓库的 GitHub Actions（2026-11-14 起）**：本仓库公开，Actions 不受私有仓库计费故障影响（`ubuntu-latest`，4 核、16 GB 内存，单任务最长约 6 小时，账号内最多 20 个任务同时运行）。workflow 放在本仓库 `.github/workflows/`，按 push 或手动触发，结果提交回本仓库。只运行本仓库这六个课题的计算。需要读取私有仓库 `Rogerhu12/math-research` 中其他课题的来源文件时，在 workflow 里用 `secrets.MR_TOKEN`。私有仓库里还没执行的 `ci-queue/` 请求不会再运行，需要的请改成本仓库的 workflow。
+13. **CI 直接用本仓库的 GitHub Actions（2026-11-14 起）**：本仓库公开，Actions 不受私有仓库计费故障影响（`ubuntu-latest`，4 核、16 GB 内存，单任务最长约 6 小时，账号内最多 20 个任务同时运行）。workflow 放在本仓库 `.github/workflows/`，按 push 或手动触发，结果提交回本仓库。只运行本仓库这些课题的计算。需要读取私有仓库 `Rogerhu12/math-research` 中其他课题的来源文件时，在 workflow 里用 `secrets.MR_TOKEN`。私有仓库里还没执行的 `ci-queue/` 请求不会再运行，需要的请改成本仓库的 workflow。
 14. **本仓库公开**：所有内容任何人可见。令牌照旧只在命令行或 Actions secret 里用，不写进文件、提交、日志或 workflow 明文。
