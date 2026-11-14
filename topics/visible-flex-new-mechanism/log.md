@@ -287,3 +287,7 @@ run43604231319的64源/3输出长度SHA全匹配，暖回放sameg逐位同、位
 ## 2026-11-14 14:53 UTC — R41 新尾的局部平条带限制
 
 R38两步只需连通角区间；在|θ|<asin(rc/rf)的新尾全部平，右Hermite增量在整个活动区间恒零。逐片径向解析唯一性迫入口u=v=0，和准确椭圆uθ(0)>0冲突；准确Π/共同中心的全角积分径向解析性补真实metric版本。mechanism推导、source独立核、root全文核。范围严格为有限逐片解析准确零，没有正误差下界或一般C2排除；当前公开43607072032继续一次实际近似诊断，后续不以原样增维代替新机制。
+
+## 2026-11-14 14:55 UTC — R37 真实有限N实例进入公开计算
+
+归档独立literature_zero_operator_instance及完整控制设计和人工toy。root全文审读、source独立核真实M低导数、完整圈轴向位移、正光滑omega门、右乘CF4、Klein两种闭合及prefix-omega范围。N16384/八参数±.2、32nfev/900s，选中frame门单列；全控制/归一化/物理strip冻结后只做1/2/4倍积分，无重解、投影或端点改写。共享workflow/publisher新增zero_operator_instance，request只此lane；旧43607072032独立继续。仅toy在本地，真实控制编译/优化/ODE全部公开Actions。理论充分大N准确存在不能替代本有限数值点的认证。
