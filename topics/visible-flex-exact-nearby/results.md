@@ -129,3 +129,7 @@
 ### R133 补充：完整已知响应的真实腰/cap边界源
 
 **已证明。** [实际边界结果](results/R133-supplement-actual-complete-known-response-boundary-sources.md)由43599771405真实10门给出：全96腰源<8.922944e−16，真97切口源<.000203975908607，独立完整high源<.000195001650779。准确0+和9/10左迹、完整mean与正交规范、径向权取消和homogeneous真cap均保，未知反馈与全响应误差继续。
+
+### R119 补充：无B损失的第三相位核与真实两phase控制曲线
+
+**已证明。** [T1–37完整解析构造](results/R119-supplement-exact-third-phase-kernel-and-local-two-phase-curve.md)保finite-e与全Δ，由原residual Wronskian准确得A g2>2^-85。三compact支集解真正两phase=0的有限曲线，径向Γ准确不动，原C4单位下真实θ第三系数导数>2^-2590J^-40；物理M与标准n相位四倍已显式核。有限κ散射、mixed PSD和全源逆仍未授。
