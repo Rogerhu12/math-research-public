@@ -79,3 +79,5 @@
 - [R37：真实闭合几何的全零二阶周期算子](results/R37-closed-geometry-zero-period-operator.md) — 三个真实球面整圈准确抵消，四状态提供八维满秩方向；变h连接准确匹配ω，连接成本独立整圈数，Klein八边消中心位移，再由有限维IFT给充分大有限N的准确全零算子。实现R21的真实几何例外，并在另付三矩后解完整二阶range；未给嵌入、reach或有限等距族。
 
 - [R38：固定平圆领的单侧解析尾唯一性与当前有限分段类](results/R38-analytic-flat-collar-tail-rigidity.md) — S11尾的准确R=0在单侧径向解析类中迫旋转三阶首系数，首差递推使整个尾旋转；|a′|<1时可跨有限解析片延续。当前固定seed的有限θ/φ样条类因此没有准确强椭圆解，取真实Xs亦不能绕开。没有给正误差下界，没有排除1e−6近似或非解析C2极限；平均RT符号本身不作障碍。
+
+- [R39：显式三矩圆、真实二阶路径与三阶相容通道](results/R39-explicit-moment-circle-and-third-order-range.md) — 四对分离光滑bump以准确权重给全部三矩相等与逐点交叉零，任意紧活动区可共同缩放；R37上真实Zd给Zθ=sin²θ Zd。固定gε误差明确为ε³及ε⁴两项；下一阶准确等价于两个完整range通道，其周期障碍不受二阶同collar profile gauge影响。两三阶通道尚未证明通过，不冒称有限族。
