@@ -1,0 +1,76 @@
+{
+  "source_commit": "fe0c3d75d8ce6dddcac2fab7e340fc4d7e16a357",
+  "run_id": "43632271378",
+  "run_attempt": "1",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "format": "r150-only-actual-compatible-targets6-and9-fixed-actions-request-v1",
+    "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-manifest-789f.json",
+    "source_manifest_sha256": "c2edbd951a9e6514ed618828dba87c6ad00a76948dad23c0639b2e0468521dcc",
+    "actual_target_labels": [
+      6,
+      9
+    ],
+    "original_raw_rows": 6188,
+    "integer_modulus": 923521,
+    "target_multiplier": "31*h0",
+    "shared_mathematical_seconds": 120,
+    "per_child_memory_mib": 512,
+    "per_compilation_seconds": 30,
+    "t96_run_id": 43597823809,
+    "t96_artifact_id": 14114364261,
+    "all198_run_id": 43619888599,
+    "all198_artifact_id": 14124017685,
+    "seven_run_id": 43630666145,
+    "seven_artifact_id": 14127663630,
+    "seven_artifact_digest": "sha256:9ebf76f7b12f11dcdab286cbde7fd62d74d5a0b3c8db5bb1b8489203ae97b3f4",
+    "old_seven_relation_stages_recomputed": false,
+    "other_seven_targets_recomputed": false,
+    "characteristic_zero_identity_asserted": false,
+    "rules_read_commit": "08d1e398e2192409a9d76374cfb4d91dbbf481c0",
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "workflow_source_sha256": {
+      ".github/workflows/invariant-subspace-r150-seven-compatible-pair.yml": "d0a123af9ef34fedf393096cd9757a1cf0385a81f948b3c2b1058e685366c60c",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-actions-publish-789f.py": "ad1389a82280a9b93bfc7a1cecf63ae3cea92938fb6106e5eb6d04cbf3534575"
+    },
+    "entry_python_files": [
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-analysis-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-actions-publish-789f.py"
+    ],
+    "retain_exact_contracted_files": {
+      "t96": 5,
+      "all198": 15,
+      "seven": 8
+    },
+    "main_receipt": "results/seven-compatible-pair-pipeline-receipt.json",
+    "complete_outcome": "targets6-and9-full-original31h0-mod923521-certificate",
+    "source_actual_run": 43630666145,
+    "output_note_prefix": "topics/invariant-subspace-problem/notes/r150-seven-compatible-pair-actions-789f",
+    "all_generated_recovery_and_stage_cache_saved": true,
+    "maximum_stored_part_bytes": 4500000,
+    "actual_terminal_pull_rebase_and_readme_diff": true,
+    "nonfastforward_immediate_pull_rebase_and_retry": true,
+    "new_syntax_parse_executed": false,
+    "new_compilation_executed": false,
+    "new_mathematical_execution_performed": false,
+    "token_scope": "Actions GITHUB_TOKEN command-scoped git environment only; no expanded credentials on disk."
+  },
+  "request_sha256": "6ad22d446953d9e58be5be05831486b8eedae2ac3a8c7ed713dad838adf5e1ff",
+  "source_manifest_sha256": "c2edbd951a9e6514ed618828dba87c6ad00a76948dad23c0639b2e0468521dcc",
+  "actualPythonSyntaxFilesParsed": [
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-analysis-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-seven-compatible-pair-actions-publish-789f.py"
+  ],
+  "allOriginalSourceHashesVerified": true,
+  "target_multiplier": "31*h0",
+  "targetScope": "Only original targets6 and9; seven prior obstructions unchanged",
+  "noMathematicalCompletionClaimed": true
+}
