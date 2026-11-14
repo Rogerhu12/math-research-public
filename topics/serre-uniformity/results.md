@@ -151,3 +151,6 @@
 
 
 - **R728（已证明）**：[原正 CM Weil restriction、本原投影与真实 Néron 格](results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md)。$B=\operatorname{Res}_{L^+/\mathbb Q}C$ 的余式方程、全原正标签、具体有限阶 $T$、Ramanujan 本原投影及素于 $p$ 分解同源完整给出；真实 cotangent 为逆 different $F_p'(b)^{-1}\mathbb Z_p[b]\omega_C$，本原格为其 $e_n^*$ 直接和。极化/NS 代表显式，原 $q/\beta$ 仍需生成 $X_1\to C$ 有理函数及原 Hodge/KS 比较。
+
+
+- **R730（已证明）**：[全部嵌入范数平均给固定深度原 Abel 等距](results/R730-fixed-depth-original-Abel-isometry-by-all-embedding-norm.md)。原高权 AFE 的完整格点界为 $O(\sqrt p)$，原 finite norm 全正整且 $\le p^2-1$；对 $DN\mathcal P$ 取所有嵌入范数消去次数，充分大 $p$ 时某实际本原组件有 $v_p(M_{2,h})\le5/2$。同一 KS 比值和完整一次 $p$ Hodge 界给 $16I_h(p^9u)/(p^9M_{2,h})=u+pH_h(u)$，全充分大允许素数获得固定深度九的等距；候选深度四与实际高度仍开放。

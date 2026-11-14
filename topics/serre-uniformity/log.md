@@ -1047,3 +1047,10 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - Ramanujan e_n精确切原本原因子，分解同源次数素于p；trace-dual真实Néron格为F_p′(b)⁻¹Zp[b]ω，显式本原直和与极化/NS线丛。
 - 原q/β准确剩余为X1→C有理函数和同一Hodge比较；尚无这些坐标、KS指数或原高度jets，不替代为抽象存在。
 - 两README无差异，无新正式计算；继续实际坐标生成及高度条件。
+
+
+## 2026-11-14 22:39 Asia/Taipei · serre-public-resume-20261114
+- R730原L5/L7完整格点绝对界为<2^9√p/<2^11√p；原toric N全正整、所有复值≤p²−1。
+- 同一DN·P全局Norm给平均2vM2h<5+125log2/logp；p≥2^125时某实际primitive h≤5/2，度数消去。
+- 同一有理Abel jet比值及完整一次p Hodge界给16I_h(p9u)/(p9M2h)=u+pH；结合R729得全充分大允许p固定p9等距。无数值计算。
+- 未覆盖整个候选p4盘或原高度；两README无差异，继续适应p的h选择、实际q/β周期与真实普通Norm交换。
