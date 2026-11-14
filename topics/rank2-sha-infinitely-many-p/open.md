@@ -212,7 +212,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 
 ### R567：两完整条带的同一首层与五sigma消元
 
-[R567：原正负完整首两行与同一五sigma来源消元](results/R567-native-both-strips-and-exact-five-sigma-normal-jets.md)：两个完整条带合为β^(n+1)(χF++F−)/(bΩ6)；真实H/R1转置各消一个原sigma输入，同一五sigma的S10/S7条件行、全部第七矩及第六矩质量修正精确付清。首层判据C0/p+λ²C1保原log质量/实际cut，非零仍未付。 **待做：** 判完整C0/p+λ²C1而非单个单位系数；把两套T10/T7实际伴随和R562四unit/R565规范Cartier行进行合法同源比较。原未加权边际零只付sigma消元，不删带D的常数log行；第七矩24bΩ7与S7/S10质量项全保。
+[R567：原正负完整首两行与同一五sigma来源消元](results/R567-native-both-strips-and-exact-five-sigma-normal-jets.md)：两个完整条带合为β^(n+1)(χF++F−)/(bΩ6)；真实H/R1转置各消一个原sigma输入，同一五sigma的S10/S7条件行、全部第七矩及第六矩质量修正精确付清。首层判据C0/p+λ²C1保原log质量/实际cut，非零仍未付。 **待做：** 判残差C0/p+λ²C1及R567(34)整个uunit/c,ddeep补偿；残差即使非零也不能排原中央同时零，把两套T10/T7实际伴随和R562四unit/R565规范Cartier行进行合法同源比较。原未加权边际零只付sigma消元，不删带D的常数log行；第七矩24bΩ7与S7/S10质量项全保。
 
 ### 真实乘子补齐部分低角尾带
 

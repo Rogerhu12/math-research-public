@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：00cb862668434f4a91f296ff44e76e0f3b5ade6b；2026-11-14 19:16:01 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：c4b90f9676e1a374b1d48a0f8e5014ff432cd8ab；2026-11-14 19:22:22 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:55:59 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟19:55重试；恢复后先实际pull --rebase核规再接API历史。
@@ -22,7 +22,7 @@ root统一元数据/ref，代理只建proof/script/data blobs，结论随成随�
 - theta续R569原五sigma的type3/B0实际接四unit、全混合词及H̄偶深；实际原Y/W不自动选type3，不删val1环带。
 - literature续R570规范Cartier-zero与非exact配对，判断原两个指定最高线性值；非线性行不代目标值。
 - deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算t除法及S³/周期H主体尾带已推，续真实边界和一般K1六尾。
-- root已付R567全正负首两行及同一五sigma消元，续R571真正同源相消/负矩比较；不以子域非零或时长收尾。
+- root已付R567局部残差两全strip首行/五sigma消元，续R571整个算术总行的uunit与c,d同深补域；残差非零不排原中央零。
 
 ## 完成标准及旧支线
 
@@ -52,12 +52,12 @@ R568：P=u−ω²D/7、Z*=Z−(8+3ω)P/10；whole140/60核心均−χ65λR1，�
 
 R563/566：µ−=KHµh留完整S24²，AH=diag(−1,X)、AK=diag(−1,−X)，D12²=diag(1,−1,−1)，不把−Rc延至新态。完整D14/2K/Q1008 frame付µ−也有wholeS14 β核；UK与D14归一交换，原双unit两互补积分分别回原π5的14X−E unit/deep，每项βn乘同一受限f_flat；第三态由完整Kunit逆消去，不分别赋零。全部浅支、常数逆/质量及K尾p^r保。
 
-R567：整个Nn=β^(n+1)/(bΩ6)[χF+(κ)+F−(κ)]。F+源µ0+2ηC，F−源µ0+µR，µR=R1µ0；两域是实际E±unit及Z*unit/K42unit。
+R567：局部native残差Nn=β^(n+1)/(bΩ6)[χF+(κ)+F−(κ)]。F+源µ0+2ηC，F−源µ0+µR，µR=R1µ0；两域是实际E±unit及Z*unit/K42unit。
 真实伴随转置后均不含c。正：DH=T10+2ωc、PH=−ω²T10/7+5c/7，T10=D4−2ωd；负：DR1=T7+ac、VR1=−ω²T7+ec，T7=D4−ωd、a=3+2ω、e=ω²a。同一ν5=−PCσ^⊗5/84，mσ7=24bΩ7必须保。
 η行E+0[A]=2Ω∫A′；E+1[A]=ω²Ω∫(5A−2T10A′)/7+7680ω²bΩ7∫A6/7。
 µR行E−0[A]=aΩ∫A′；E−1[A]=eΩ∫(A−T7A′)+24bea6Ω7∫A6。两实际不同伴随映射保持，不能自由互换。
 wholeS7的mom6=24bΩ6Λ0；wholeS10为Ω6(720Λ6−480bΛ0)。对应质量系数24be(a6−5)、11040ω²b/7皆unit，但不赋积分unit。
-完整首层判据Nn/(pβ^(n+1))乘bΩ6≡C0/p+λ²C1 modp，其中C0=χF+0+F−0∈p、C1=χF+1+F−1∈O。**此右端非零未付**；不得删C0/p的原log质量或混合cut。
+残差首层判据Nn/(pβ^(n+1))乘bΩ6≡C0/p+λ²C1 modp，其中C0=χF+0+F−0∈p、C1=χF+1+F−1∈O。**此右端非零未付，且即便非零也不能排原中央同时零**。真正总行Tn=3βn(JS′−6δJT′)=Nn+Cn，Cn=∫uunit(a−aRc)Δ+3∫c,ddeep aρ；全部q/log/carry保持，须付完整补偿。
 
 ## 固定负矩与 Cartier
 
