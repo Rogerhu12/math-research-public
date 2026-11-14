@@ -1,0 +1,64 @@
+{
+  "canonical_history_coefficients_real_and_shared_by_conjugation": true,
+  "canonical_initial_W": "zero once at the global s origin; retained across every later segment",
+  "completion": "toy_only",
+  "finite_family_certified": false,
+  "fixed_target": "g_X + epsilon^2 (dY_f)^2; f=(q+qbar)/2",
+  "fourth_modes": {
+    "-2": "P/8+Q/8+R/4+S/4-T/4-J/4",
+    "-4": "-P/16-R/4",
+    "0": "-(P+Pbar)/16-Q/4+(J+Jbar+T+Tbar-S-Sbar)/4",
+    "2": "conjugate of -2",
+    "4": "conjugate of -4"
+  },
+  "geometric_design_evaluated": false,
+  "geometry_identity_required_for_future_evaluation": "R45 exact single P with frame endpoint D and M_P=0, then P,P,P_reverse,P_reverse; not the old Klein-eight-block experiment",
+  "github_actions_run": {
+    "GITHUB_REPOSITORY": null,
+    "GITHUB_RUN_ATTEMPT": null,
+    "GITHUB_RUN_ID": null,
+    "GITHUB_SHA": null
+  },
+  "kind": "small_exact_development_toy_only",
+  "max_order": null,
+  "profile_basis_independence_assumed": false,
+  "profile_integrals_evaluated": false,
+  "range_recovery_conditional_on_both_full_range_conditions": true,
+  "resource_limits": {
+    "max_atoms": 100000,
+    "max_nodes": 750000,
+    "max_seconds": 300,
+    "max_terms": 100000
+  },
+  "right_anchor": "one common fixed xi endpoint r",
+  "s_anchor": "one actual initial state; no segment or packet resets",
+  "second_modes": {
+    "-2": "-B/4",
+    "0": "(B+Bbar)/4",
+    "2": "-Bbar/4"
+  },
+  "source_sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
+  "specific_P_geometry_supplied": false,
+  "third_gauge_reduction": "if actual whole geometry has zero quadratic period operator, fourth periods are gauge invariant; fourth rulings must lie in the same global three-dimensional w-space",
+  "third_modes": {
+    "-1": "(-U-V+Vbar)/4",
+    "-3": "U/4",
+    "1": "(-Ubar-Vbar+V)/4",
+    "3": "Ubar/4"
+  },
+  "toy_checks": {
+    "common_anchor_volterra_conjugation": true,
+    "phase_algebra": {
+      "all_five_fourth_modes_exact": true,
+      "exact_seed_corrections_zero": true,
+      "ordinary_bilinear_H_equals_S_over_2": true,
+      "second_modes_exact": true,
+      "third_modes_exact": true
+    },
+    "primitive_derivative": true,
+    "profile_conjugation_involution": true,
+    "profile_product_rule": true,
+    "state_rhs_derivative": true
+  },
+  "whole_range_conditions_satisfied": false
+}

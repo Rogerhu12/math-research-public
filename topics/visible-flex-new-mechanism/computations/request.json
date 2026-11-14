@@ -1,16 +1,28 @@
 {
-  "request": "exact-full-variable-range-numerator-calculus",
-  "created_at": "2026-11-14T16:13:30.106042+00:00",
+  "request": "complete-fourth-range-exact-symbolic-compiler",
+  "created_at": "2026-11-14T16:26:40.890786+00:00",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "range_numerator_exact"
+    "full_range_compile"
   ],
-  "exact_only": true,
-  "source_sha256": "29a741f3fa8f817abe3ceeecce9b9ab608a51c40bbb98088a2bf8b1bbbd19960",
-  "development_output_sha256": "3f71f044e3ac53a2061d764292b2a0e1d7e5e8f2c30945841be4a39457c51caf",
-  "s_derivative_holds_xi_fixed": true,
-  "all_variable_coefficients_preserved": true,
-  "main_geometry_run_remains": 43612971265,
+  "compiler_source_sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
+  "max_order": 4,
+  "max_coefficient_nodes": 750000,
+  "max_profile_atoms": 100000,
+  "max_separated_terms": 100000,
+  "max_seconds": 300,
+  "summary_max_bytes": 1000000,
+  "right_anchor": "one fixed xi=r; no packet resets",
+  "s_anchor": "one global zero initial W; retain every later state",
+  "resource_exit_code_2_is_not_mathematical_failure": true,
+  "physical_fourth_harmonics": [
+    -4,
+    -2,
+    0,
+    2,
+    4
+  ],
+  "specific_P_geometry_supplied": false,
   "whole_range_conditions_satisfied": false,
   "geometric_design_evaluated": false,
   "task_complete": false
