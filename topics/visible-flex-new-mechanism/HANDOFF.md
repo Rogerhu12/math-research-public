@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间C2连续、同一固定g；固定材料开集H且diamH≥.2D；不对齐的真实像集Hausdorff位移≥.3D；全域全时reach≥.03D；最大相对metric≤1e−6且同g/物理参数/时间下加密改善；完整小网格、复现和严格存在性差距。D为初始完整曲面直径。δE不再必需，可为0但须如实报。达标后继续.5D或更强存在性。
 
-- 根与本题README已完整读。公开仓库最后已读规则提交：`6a9075f4480308d4a753a71f788d35246afeb5f0`；该次实际pull成功，两README差异为空。
+- 根与本题README已完整读。公开仓库最后已读规则提交：`08c152a2f735ee06e184b81f4af5c99818c8bd2d`；该次实际pull成功，两README差异为空。
 - 每次pull后只读这两README的新差异并立即遵循；至少每小时pull。每结论提交推送，NFF立即pull --rebase并循环重推；不强推。
 - 作者指定QUEUE已领取并置进行中；私有研究内容不发布。最新私有队列复核（11:40 UTC）仍为本会话进行中，私有根规则diff为空。研究计算只用本公开仓库自己的Actions。
 - 令牌仅瞬时命令行认证，不入文件。根LOG不写；共享workflow修改理由记本题log。HANDOFF<10KB，其他MD<100KB，数据>1MB压缩、单件<5MB，不读取巨大数组进对话。
@@ -37,8 +37,8 @@
 
 共享workflow `.github/workflows/visible-new-mechanism-search.yml`，最多2并行、每job≤50min；publisher只写本题小输出，receipt含输入SHA，pull后核README，变更则保留artifact。job成功也必须看实际数值。
 
-1. **43588985133/source9deb869**：codedesign三条周期非零且轴未闭，详见旧审计。ellipse_cont两长度只有圆形t=0获接受；最小非圆步t=.0078125仍metric=.001258/.000621。inward_fixed Cartesian metric=.99686、κsample≈4679.9；signed阶段40分钟超时且无已保存结果，不算数学排除。对比审计正在写。
-2. **43590239302/sourcebcf0043**：star_core已成功；.60/.09真填充域预算比≥.33486562，.65/.12≥.34524838，仅为整面遵守包络时的条件。ellipse_phi已成功，正与material基实际结果比对；inward_gc4尚待回执。不能将设计g或轴比变化算同问题精化。
+1. **43588985133/source9deb869**：codedesign三条周期非零且轴未闭，详见旧审计。ellipse_cont两长度只有圆形t=0获接受；最小非圆步t=.0078125仍metric=.001258/.000621。inward_fixed Cartesian metric=.99686、κsample≈4679.9；Cartesian耗19.9min，二者共享40min step耗尽时signed无已保存结果，不算数学排除。详见`notes/ellipse-and-inward-actual-audit-20261114.md`。
+2. **43590239302/sourcebcf0043**：star_core已成功；.60/.09真填充域预算比≥.33486562，.65/.12≥.34524838，仅为整面遵守包络时的条件。ellipse_phi亦仅接受圆形，两基非零步误差相对差最大.0686%，没有解除近圆停滞；inward_gc4尚待回执。不能将设计g或轴比变化算同问题精化。
 3. **43591099281/sourcee04482e**三lane已完成并审计：closed_design闭合约1e−16、九项L2=.13276/.04521/.09978；相对FD近零参数问题已修。space_star60候选有52条由连续曲率严格排除；余8条未合格。ruled_tail真实metric=.99991、κsample≈121895，失败，不机械加密。详见各actual-audit notes。
 4. **43592270686/sourceb461bd8**：closed_quartic已完成，修正闭合搜索q3/2/4九项L2=.014604/.032439/.010420，均非零；q3/2完整残差方向Jac差.0698/.3441，须分开平滑项与hinge切换。双根正/负形状L2=.97255/.11321，正首项门失败，负标准指数率一负一正；见`notes/literature-closed-quartic-actual-audit-20261114.md`。star_lift已完成待审；space_refine冻结三组候选/宽度作32768片连续核验仍跑。
 5. R11原R44核心自身相位比≤.04627；完整像若强制C6则≤.25882。不再机械加密其失败连接。R12新C3核心 u=.6/.8/1/1.2,v=0,b=1,w=.05 已由sourcee67604a请求warped_core；只把真实曲率/投影预算合格者送连接器，tube证书亦已准备。

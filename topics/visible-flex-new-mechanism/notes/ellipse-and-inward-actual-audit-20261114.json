@@ -1,0 +1,1326 @@
+{
+  "schema": "ellipse-inward-actions-audit-v1",
+  "new_optimization_or_geometry_scan": false,
+  "task_complete": false,
+  "sources": {
+    "material": {
+      "directory": "actions-43588985133-1-ellipse_cont",
+      "run_id": "43588985133",
+      "run_attempt": "1",
+      "source_commit": "9deb869ea822dd7cd6e5603626e81a83f7087683",
+      "all_receipt_output_hashes_match": true,
+      "outputs_checked": 14
+    },
+    "ellipse": {
+      "directory": "actions-43590239302-1-ellipse_phi",
+      "run_id": "43590239302",
+      "run_attempt": "1",
+      "source_commit": "bcf0043d77aca4a2084210b97bad33d44f782a73",
+      "all_receipt_output_hashes_match": true,
+      "outputs_checked": 14
+    },
+    "inward": {
+      "directory": "actions-43588985133-1-inward_fixed",
+      "run_id": "43588985133",
+      "run_attempt": "1",
+      "source_commit": "9deb869ea822dd7cd6e5603626e81a83f7087683",
+      "all_receipt_output_hashes_match": true,
+      "outputs_checked": 1
+    }
+  },
+  "paired_continuation": {
+    "L10": {
+      "material": {
+        "parameters": {
+          "out_dir": "/home/runner/work/_temp/visible-new-mechanism/ellipse_cont",
+          "prefix": "ellipse-L10",
+          "target_major": 1.0,
+          "target_minor": 0.3,
+          "length": 1.0,
+          "h0": 0.23,
+          "beta_wiggle": 0.8,
+          "cut_radius": 0.28,
+          "flat_start": 0.26,
+          "cuff_radius": 0.23,
+          "target_reach": 0.069,
+          "tail_angle_max": 0.1,
+          "tail_height_max": 1.05,
+          "radius_floor": 0.24,
+          "radius_ceiling": 0.95,
+          "radial_free": 9,
+          "modes": 12,
+          "angular": 96,
+          "radial_gauss": 6,
+          "inlet_angles": 256,
+          "max_nfev": 250,
+          "initial_step": 0.125,
+          "min_step": 0.0078125,
+          "max_attempts": 40,
+          "accept_metric": 0.0001,
+          "warm_json": null,
+          "plan_only": false
+        },
+        "status": "design_continuation_stalled_at_minimum_step",
+        "last_accepted_t": 0.0,
+        "elapsed_seconds": 1430.067693902,
+        "attempts": [
+          {
+            "t": 0.0,
+            "file": "ellipse-L10-attempt-000-t0.000000.json",
+            "axes": [
+              0.6980392675284104,
+              0.6980392675284104
+            ],
+            "metric": 4.418709875659977e-14,
+            "coarse_metric": 4.418709875659977e-14,
+            "E": 6.661338147750939e-16,
+            "F": 4.473279811295203e-16,
+            "G": 4.418687638008123e-14,
+            "curvature": 9.690695769656838,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 6.39147213833383e-20,
+              "A_minus": -8.286622997385502e-20,
+              "C_y": 5.477030596697754e-19,
+              "C_z": 0.5675814095281189
+            },
+            "solver": {
+              "success": true,
+              "status": 1,
+              "message": "`gtol` termination condition is satisfied.",
+              "nfev": 2,
+              "njev": 2,
+              "optimality": 7.227699992639869e-13,
+              "initial_rms": 2.88676267913633e-14,
+              "final_rms": 5.348893640330763e-15,
+              "initial_max": 1.0458300891968975e-13,
+              "final_max": 4.374278717023117e-14,
+              "elapsed_seconds": 2.3428598669999943
+            }
+          },
+          {
+            "t": 0.125,
+            "file": "ellipse-L10-attempt-001-t0.125000.json",
+            "axes": [
+              0.7494093921745753,
+              0.644702402382004
+            ],
+            "metric": 0.007097573924195397,
+            "coarse_metric": 0.007095862703596157,
+            "E": 0.007077821993803468,
+            "F": 0.0036657564524632514,
+            "G": 0.006215198791288179,
+            "curvature": 11.597913149128544,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 1.2018855801692402e-06,
+              "A_minus": 1.2018855801128899e-06,
+              "C_y": -1.1994132540977365e-15,
+              "C_z": 0.6997150682066675
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 209,
+              "njev": 190,
+              "optimality": 2.2668632803243122e-05,
+              "initial_rms": 0.045190741053414904,
+              "final_rms": 0.001641287343175651,
+              "initial_max": 0.19549336121056338,
+              "final_max": 0.00661468386922448,
+              "elapsed_seconds": 364.297417418
+            }
+          },
+          {
+            "t": 0.0625,
+            "file": "ellipse-L10-attempt-002-t0.062500.json",
+            "axes": [
+              0.724034003819466,
+              0.6715510639098649
+            ],
+            "metric": 0.004123528477013361,
+            "coarse_metric": 0.004054401450750977,
+            "E": 0.004123528477013361,
+            "F": 0.002029994558501105,
+            "G": 0.0035197428945883402,
+            "curvature": 10.719127688605532,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 2.2542880225251373e-06,
+              "A_minus": 2.254288022550255e-06,
+              "C_y": -9.64543930568763e-16,
+              "C_z": 0.7259141822686458
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 179,
+              "njev": 170,
+              "optimality": 1.3550246070856055e-05,
+              "initial_rms": 0.02267685160876489,
+              "final_rms": 0.0011046610555079403,
+              "initial_max": 0.09674524031306486,
+              "final_max": 0.004142386168552115,
+              "elapsed_seconds": 325.16386032500003
+            }
+          },
+          {
+            "t": 0.03125,
+            "file": "ellipse-L10-attempt-003-t0.031250.json",
+            "axes": [
+              0.7111063851354539,
+              0.6848486712348941
+            ],
+            "metric": 0.004606668472425968,
+            "coarse_metric": 0.004076644718331357,
+            "E": 0.004606668472425968,
+            "F": 0.0019477544476345873,
+            "G": 0.004076644718331357,
+            "curvature": 9.137195327542052,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 1.994463740278846e-06,
+              "A_minus": 1.994463740283782e-06,
+              "C_y": 2.1709206193011955e-17,
+              "C_z": 0.6809229629088592
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 90,
+              "njev": 71,
+              "optimality": 2.1024006630529066e-05,
+              "initial_rms": 0.01134867702459639,
+              "final_rms": 0.0010276154869466516,
+              "initial_max": 0.04807394016797617,
+              "final_max": 0.004576767524388958,
+              "elapsed_seconds": 135.15593102000003
+            }
+          },
+          {
+            "t": 0.015625,
+            "file": "ellipse-L10-attempt-004-t0.015625.json",
+            "axes": [
+              0.704589273908785,
+              0.6914583844781776
+            ],
+            "metric": 0.0023332436645031596,
+            "coarse_metric": 0.0023332436645031596,
+            "E": 0.0022067679490076486,
+            "F": 0.001166867174153312,
+            "G": 0.0023332436645031596,
+            "curvature": 9.380663041529836,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 1.228677674824321e-06,
+              "A_minus": 1.2286776748137832e-06,
+              "C_y": -4.181284904892611e-16,
+              "C_z": 0.6592685784342709
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 90,
+              "njev": 76,
+              "optimality": 6.6085380258016655e-06,
+              "initial_rms": 0.005675621993956022,
+              "final_rms": 0.0005992333872780528,
+              "initial_max": 0.02395640853315717,
+              "final_max": 0.002327826875471617,
+              "elapsed_seconds": 147.06493015299998
+            }
+          },
+          {
+            "t": 0.0078125,
+            "file": "ellipse-L10-attempt-005-t0.007812.json",
+            "axes": [
+              0.7013182571446797,
+              0.694752558307172
+            ],
+            "metric": 0.001258072780049302,
+            "coarse_metric": 0.001258072780049302,
+            "E": 0.001031918263210696,
+            "F": 0.0007122105809789345,
+            "G": 0.001258072780049302,
+            "curvature": 9.668176645084783,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 5.404979520109885e-07,
+              "A_minus": 5.404979520215112e-07,
+              "C_y": -1.5790397118501474e-16,
+              "C_z": 0.6007529266628715
+            },
+            "solver": {
+              "success": false,
+              "status": 0,
+              "message": "The maximum number of function evaluations is exceeded.",
+              "nfev": 250,
+              "njev": 235,
+              "optimality": 1.0743415454862904e-05,
+              "initial_rms": 0.0028379714972680244,
+              "final_rms": 0.00038123806870971587,
+              "initial_max": 0.01195733845979241,
+              "final_max": 0.0012421514208957873,
+              "elapsed_seconds": 449.85927411900013
+            }
+          }
+        ]
+      },
+      "ellipse": {
+        "parameters": {
+          "out_dir": "/home/runner/work/_temp/visible-new-mechanism/ellipse_phi",
+          "prefix": "ellipse-L10-phi",
+          "target_major": 1.0,
+          "target_minor": 0.3,
+          "length": 1.0,
+          "h0": 0.23,
+          "beta_wiggle": 0.8,
+          "cut_radius": 0.28,
+          "flat_start": 0.26,
+          "cuff_radius": 0.23,
+          "target_reach": 0.069,
+          "tail_angle_max": 0.1,
+          "tail_height_max": 1.05,
+          "radius_floor": 0.24,
+          "radius_ceiling": 0.95,
+          "radial_free": 9,
+          "modes": 12,
+          "angular": 96,
+          "angular_basis": "ellipse",
+          "radial_gauss": 6,
+          "inlet_angles": 256,
+          "max_nfev": 250,
+          "initial_step": 0.125,
+          "min_step": 0.0078125,
+          "max_attempts": 40,
+          "accept_metric": 0.0001,
+          "warm_json": null,
+          "plan_only": false
+        },
+        "status": "design_continuation_stalled_at_minimum_step",
+        "last_accepted_t": 0.0,
+        "elapsed_seconds": 1282.147006364,
+        "attempts": [
+          {
+            "t": 0.0,
+            "file": "ellipse-L10-phi-attempt-000-t0.000000.json",
+            "axes": [
+              0.6980392675284104,
+              0.6980392675284104
+            ],
+            "metric": 4.418709875659977e-14,
+            "coarse_metric": 4.418709875659977e-14,
+            "E": 6.661338147750939e-16,
+            "F": 4.473279811295203e-16,
+            "G": 4.418687638008123e-14,
+            "curvature": 9.690695769656838,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 6.39147213833383e-20,
+              "A_minus": -8.286622997385502e-20,
+              "C_y": 5.477030596697754e-19,
+              "C_z": 0.5675814095281189
+            },
+            "solver": {
+              "success": true,
+              "status": 1,
+              "message": "`gtol` termination condition is satisfied.",
+              "nfev": 2,
+              "njev": 2,
+              "optimality": 7.227699992639869e-13,
+              "initial_rms": 2.88676267913633e-14,
+              "final_rms": 5.348893640330763e-15,
+              "initial_max": 1.0458300891968975e-13,
+              "final_max": 4.374278717023117e-14,
+              "elapsed_seconds": 2.338262264000008
+            }
+          },
+          {
+            "t": 0.125,
+            "file": "ellipse-L10-phi-attempt-001-t0.125000.json",
+            "axes": [
+              0.7494093921745753,
+              0.644702402382004
+            ],
+            "metric": 0.007095348635524623,
+            "coarse_metric": 0.007093779111782309,
+            "E": 0.007075338783998575,
+            "F": 0.0036600908577046846,
+            "G": 0.0062051726164438215,
+            "curvature": 11.598722522408892,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 1.0953661032724457e-06,
+              "A_minus": 1.0953661031573384e-06,
+              "C_y": -5.485427834612349e-16,
+              "C_z": 0.6996932611508794
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 189,
+              "njev": 175,
+              "optimality": 3.4844620295841405e-05,
+              "initial_rms": 0.04519074105341487,
+              "final_rms": 0.0016412800793116247,
+              "initial_max": 0.19549336121056338,
+              "final_max": 0.0066109547787891465,
+              "elapsed_seconds": 337.97409768500006
+            }
+          },
+          {
+            "t": 0.0625,
+            "file": "ellipse-L10-phi-attempt-002-t0.062500.json",
+            "axes": [
+              0.724034003819466,
+              0.6715510639098649
+            ],
+            "metric": 0.004120700306544212,
+            "coarse_metric": 0.004054953282316309,
+            "E": 0.004120700306544212,
+            "F": 0.0020297945230608604,
+            "G": 0.003520091432902106,
+            "curvature": 10.718408038165414,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 2.170428821785242e-06,
+              "A_minus": 2.170428821753934e-06,
+              "C_y": 7.367643302944603e-16,
+              "C_z": 0.7259460232204417
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 175,
+              "njev": 164,
+              "optimality": 1.3734108968687061e-05,
+              "initial_rms": 0.02267685160876487,
+              "final_rms": 0.0011046497445376074,
+              "initial_max": 0.09674524031306486,
+              "final_max": 0.004139612363082801,
+              "elapsed_seconds": 315.6877760020001
+            }
+          },
+          {
+            "t": 0.03125,
+            "file": "ellipse-L10-phi-attempt-003-t0.031250.json",
+            "axes": [
+              0.7111063851354539,
+              0.6848486712348941
+            ],
+            "metric": 0.004606647195978919,
+            "coarse_metric": 0.004076634683870317,
+            "E": 0.004606647195978919,
+            "F": 0.0019475636631565427,
+            "G": 0.004076634683870317,
+            "curvature": 9.137155888264552,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 1.9639549867636325e-06,
+              "A_minus": 1.963954986780516e-06,
+              "C_y": -2.1703605336687466e-16,
+              "C_z": 0.6809279272113251
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 90,
+              "njev": 71,
+              "optimality": 1.8523177497415924e-05,
+              "initial_rms": 0.01134867702459638,
+              "final_rms": 0.0010276156344996735,
+              "initial_max": 0.04807394016797617,
+              "final_max": 0.004576745970524709,
+              "elapsed_seconds": 137.240125821
+            }
+          },
+          {
+            "t": 0.015625,
+            "file": "ellipse-L10-phi-attempt-004-t0.015625.json",
+            "axes": [
+              0.704589273908785,
+              0.6914583844781776
+            ],
+            "metric": 0.0023332279176278004,
+            "coarse_metric": 0.0023332279176278004,
+            "E": 0.0022067695996756953,
+            "F": 0.0011668048918710469,
+            "G": 0.0023332279176278004,
+            "curvature": 9.380681447812826,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 1.2191046892147314e-06,
+              "A_minus": 1.2191046891889287e-06,
+              "C_y": 4.58433921286076e-16,
+              "C_z": 0.6592669499657651
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 93,
+              "njev": 79,
+              "optimality": 3.956877284344742e-06,
+              "initial_rms": 0.005675621993956018,
+              "final_rms": 0.0005992334416135882,
+              "initial_max": 0.02395640853315717,
+              "final_max": 0.0023278116321114872,
+              "elapsed_seconds": 151.73400230800007
+            }
+          },
+          {
+            "t": 0.0078125,
+            "file": "ellipse-L10-phi-attempt-005-t0.007812.json",
+            "axes": [
+              0.7013182571446797,
+              0.694752558307172
+            ],
+            "metric": 0.0012580153517600667,
+            "coarse_metric": 0.0012580153517600667,
+            "E": 0.0010319281622537257,
+            "F": 0.000712147916337752,
+            "G": 0.0012580153517600667,
+            "curvature": 9.668028663651,
+            "endpoint_two_jet": 1.1102230246251565e-16,
+            "tail": {
+              "A_plus": 5.384713234817727e-07,
+              "A_minus": 5.384713234720201e-07,
+              "C_y": 1.6944065249953216e-16,
+              "C_z": 0.6007845860869897
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 192,
+              "njev": 172,
+              "optimality": 4.776122704378946e-06,
+              "initial_rms": 0.0028379714972680222,
+              "final_rms": 0.00038123806545680745,
+              "initial_max": 0.01195733845979241,
+              "final_max": 0.0012421194072238517,
+              "elapsed_seconds": 330.95818850699993
+            }
+          }
+        ]
+      },
+      "paired_metrics": [
+        {
+          "t": 0.0,
+          "material_metric": 4.418709875659977e-14,
+          "ellipse_metric": 4.418709875659977e-14,
+          "relative_change": 0.0
+        },
+        {
+          "t": 0.125,
+          "material_metric": 0.007097573924195397,
+          "ellipse_metric": 0.007095348635524623,
+          "relative_change": -0.0003135280723442382
+        },
+        {
+          "t": 0.0625,
+          "material_metric": 0.004123528477013361,
+          "ellipse_metric": 0.004120700306544212,
+          "relative_change": -0.0006858617528446156
+        },
+        {
+          "t": 0.03125,
+          "material_metric": 0.004606668472425968,
+          "ellipse_metric": 0.004606647195978919,
+          "relative_change": -4.618619111835115e-06
+        },
+        {
+          "t": 0.015625,
+          "material_metric": 0.0023332436645031596,
+          "ellipse_metric": 0.0023332279176278004,
+          "relative_change": -6.7489202258546985e-06
+        },
+        {
+          "t": 0.0078125,
+          "material_metric": 0.001258072780049302,
+          "ellipse_metric": 0.0012580153517600667,
+          "relative_change": -4.564782749127704e-05
+        }
+      ]
+    },
+    "L11": {
+      "material": {
+        "parameters": {
+          "out_dir": "/home/runner/work/_temp/visible-new-mechanism/ellipse_cont",
+          "prefix": "ellipse-L11",
+          "target_major": 1.0,
+          "target_minor": 0.3,
+          "length": 1.1,
+          "h0": 0.25,
+          "beta_wiggle": 0.8,
+          "cut_radius": 0.28,
+          "flat_start": 0.26,
+          "cuff_radius": 0.23,
+          "target_reach": 0.069,
+          "tail_angle_max": 0.1,
+          "tail_height_max": 1.05,
+          "radius_floor": 0.24,
+          "radius_ceiling": 0.95,
+          "radial_free": 9,
+          "modes": 12,
+          "angular": 96,
+          "radial_gauss": 6,
+          "inlet_angles": 256,
+          "max_nfev": 250,
+          "initial_step": 0.125,
+          "min_step": 0.0078125,
+          "max_attempts": 40,
+          "accept_metric": 0.0001,
+          "warm_json": null,
+          "plan_only": false
+        },
+        "status": "design_continuation_stalled_at_minimum_step",
+        "last_accepted_t": 0.0,
+        "elapsed_seconds": 838.219879598,
+        "attempts": [
+          {
+            "t": 0.0,
+            "file": "ellipse-L11-attempt-000-t0.000000.json",
+            "axes": [
+              0.6980392675284104,
+              0.6980392675284104
+            ],
+            "metric": 2.224459488299039e-15,
+            "coarse_metric": 2.2206755112606128e-15,
+            "E": 6.661338147750939e-16,
+            "F": 3.927429158898793e-16,
+            "G": 2.220446049250313e-15,
+            "curvature": 8.78855568966394,
+            "endpoint_two_jet": 5.551115123125783e-17,
+            "tail": {
+              "A_plus": -2.3971304403905407e-20,
+              "A_minus": -2.2596523329576774e-19,
+              "C_y": -5.963976741574302e-18,
+              "C_z": 0.6711520166372863
+            },
+            "solver": {
+              "success": true,
+              "status": 1,
+              "message": "`gtol` termination condition is satisfied.",
+              "nfev": 2,
+              "njev": 2,
+              "optimality": 1.6590417858489075e-12,
+              "initial_rms": 6.275499609675907e-14,
+              "final_rms": 2.8180454914327377e-16,
+              "initial_max": 2.312594560294201e-13,
+              "final_max": 2.4424906541753444e-15,
+              "elapsed_seconds": 2.352102496000043
+            }
+          },
+          {
+            "t": 0.125,
+            "file": "ellipse-L11-attempt-001-t0.125000.json",
+            "axes": [
+              0.7494093921745753,
+              0.644702402382004
+            ],
+            "metric": 0.0036981475019410336,
+            "coarse_metric": 0.0036972515178354563,
+            "E": 0.003692025265679133,
+            "F": 0.0019471598399556406,
+            "G": 0.0027397576583627625,
+            "curvature": 8.700937657320532,
+            "endpoint_two_jet": 5.551115123125783e-17,
+            "tail": {
+              "A_plus": 2.488580127746058e-07,
+              "A_minus": 2.4885801275140505e-07,
+              "C_y": -2.06082227392982e-15,
+              "C_z": 0.7668279598410693
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 82,
+              "njev": 66,
+              "optimality": 6.292120355931328e-06,
+              "initial_rms": 0.04057508689004608,
+              "final_rms": 0.0008875158507127786,
+              "initial_max": 0.17310497036991124,
+              "final_max": 0.0035260911087725555,
+              "elapsed_seconds": 125.67319289400007
+            }
+          },
+          {
+            "t": 0.0625,
+            "file": "ellipse-L11-attempt-002-t0.062500.json",
+            "axes": [
+              0.724034003819466,
+              0.6715510639098649
+            ],
+            "metric": 0.002616920839515924,
+            "coarse_metric": 0.002616920839515924,
+            "E": 0.002616920839515924,
+            "F": 0.0011330711845757022,
+            "G": 0.0018608787139642313,
+            "curvature": 8.862848512072736,
+            "endpoint_two_jet": 6.776263578034403e-21,
+            "tail": {
+              "A_plus": 4.95507402619406e-07,
+              "A_minus": 4.955074026000806e-07,
+              "C_y": -3.3564919270712775e-16,
+              "C_z": 0.7337361174235402
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 45,
+              "njev": 34,
+              "optimality": 8.986769307451764e-06,
+              "initial_rms": 0.020352599483748443,
+              "final_rms": 0.0005767339873286862,
+              "initial_max": 0.08579441629740114,
+              "final_max": 0.0023808813722380195,
+              "elapsed_seconds": 64.12336159199981
+            }
+          },
+          {
+            "t": 0.03125,
+            "file": "ellipse-L11-attempt-003-t0.031250.json",
+            "axes": [
+              0.7111063851354539,
+              0.6848486712348941
+            ],
+            "metric": 0.0014432959523177358,
+            "coarse_metric": 0.0014432959523177358,
+            "E": 0.0014432959523177358,
+            "F": 0.0007180863985457188,
+            "G": 0.001295049884936894,
+            "curvature": 8.90581966989967,
+            "endpoint_two_jet": 6.776263578034403e-21,
+            "tail": {
+              "A_plus": 4.496744190633003e-07,
+              "A_minus": 4.4967441907854194e-07,
+              "C_y": -1.407657461630977e-16,
+              "C_z": 0.7173154806609169
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 42,
+              "njev": 34,
+              "optimality": 3.793794010990335e-06,
+              "initial_rms": 0.010184482483576644,
+              "final_rms": 0.00037398514762437054,
+              "initial_max": 0.042666034278000975,
+              "final_max": 0.0012845701144095223,
+              "elapsed_seconds": 63.91488395900001
+            }
+          },
+          {
+            "t": 0.015625,
+            "file": "ellipse-L11-attempt-004-t0.015625.json",
+            "axes": [
+              0.704589273908785,
+              0.6914583844781776
+            ],
+            "metric": 0.0010584765938885798,
+            "coarse_metric": 0.0010584765938885798,
+            "E": 0.0009026338938182832,
+            "F": 0.0005354506204737847,
+            "G": 0.0010584765938885798,
+            "curvature": 8.859888506966438,
+            "endpoint_two_jet": 5.551115123125783e-17,
+            "tail": {
+              "A_plus": 3.4795158491102466e-07,
+              "A_minus": 3.47951584909765e-07,
+              "C_y": 6.148670677740113e-19,
+              "C_z": 0.684586883198223
+            },
+            "solver": {
+              "success": false,
+              "status": 0,
+              "message": "The maximum number of function evaluations is exceeded.",
+              "nfev": 250,
+              "njev": 235,
+              "optimality": 4.599163307825409e-05,
+              "initial_rms": 0.00509326568088886,
+              "final_rms": 0.0002970724230780828,
+              "initial_max": 0.021270132264429087,
+              "final_max": 0.0010469822115475313,
+              "elapsed_seconds": 449.2634802170003
+            }
+          },
+          {
+            "t": 0.0078125,
+            "file": "ellipse-L11-attempt-005-t0.007812.json",
+            "axes": [
+              0.7013182571446797,
+              0.694752558307172
+            ],
+            "metric": 0.0006206068902419037,
+            "coarse_metric": 0.0006206068902419037,
+            "E": 0.0005163811030306498,
+            "F": 0.0003214699113643931,
+            "G": 0.0006206068902419037,
+            "curvature": 8.869997575976658,
+            "endpoint_two_jet": 5.551115123125783e-17,
+            "tail": {
+              "A_plus": 2.032142544904646e-07,
+              "A_minus": 2.0321425448777637e-07,
+              "C_y": 1.658423952277484e-17,
+              "C_z": 0.6688312043991913
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 74,
+              "njev": 67,
+              "optimality": 3.4417900324214775e-07,
+              "initial_rms": 0.002546760945304599,
+              "final_rms": 0.00017288053193650156,
+              "initial_max": 0.010618717207472761,
+              "final_max": 0.0006146763079815099,
+              "elapsed_seconds": 126.62254510799994
+            }
+          }
+        ]
+      },
+      "ellipse": {
+        "parameters": {
+          "out_dir": "/home/runner/work/_temp/visible-new-mechanism/ellipse_phi",
+          "prefix": "ellipse-L11-phi",
+          "target_major": 1.0,
+          "target_minor": 0.3,
+          "length": 1.1,
+          "h0": 0.25,
+          "beta_wiggle": 0.8,
+          "cut_radius": 0.28,
+          "flat_start": 0.26,
+          "cuff_radius": 0.23,
+          "target_reach": 0.069,
+          "tail_angle_max": 0.1,
+          "tail_height_max": 1.05,
+          "radius_floor": 0.24,
+          "radius_ceiling": 0.95,
+          "radial_free": 9,
+          "modes": 12,
+          "angular": 96,
+          "angular_basis": "ellipse",
+          "radial_gauss": 6,
+          "inlet_angles": 256,
+          "max_nfev": 250,
+          "initial_step": 0.125,
+          "min_step": 0.0078125,
+          "max_attempts": 40,
+          "accept_metric": 0.0001,
+          "warm_json": null,
+          "plan_only": false
+        },
+        "status": "design_continuation_stalled_at_minimum_step",
+        "last_accepted_t": 0.0,
+        "elapsed_seconds": 884.8421719149999,
+        "attempts": [
+          {
+            "t": 0.0,
+            "file": "ellipse-L11-phi-attempt-000-t0.000000.json",
+            "axes": [
+              0.6980392675284104,
+              0.6980392675284104
+            ],
+            "metric": 2.224459488299039e-15,
+            "coarse_metric": 2.2206755112606128e-15,
+            "E": 6.661338147750939e-16,
+            "F": 3.927429158898793e-16,
+            "G": 2.220446049250313e-15,
+            "curvature": 8.78855568966394,
+            "endpoint_two_jet": 5.551115123125783e-17,
+            "tail": {
+              "A_plus": -2.3971304403905407e-20,
+              "A_minus": -2.2596523329576774e-19,
+              "C_y": -5.963976741574302e-18,
+              "C_z": 0.6711520166372863
+            },
+            "solver": {
+              "success": true,
+              "status": 1,
+              "message": "`gtol` termination condition is satisfied.",
+              "nfev": 2,
+              "njev": 2,
+              "optimality": 1.6590417858489075e-12,
+              "initial_rms": 6.275499609675907e-14,
+              "final_rms": 2.8180454914327377e-16,
+              "initial_max": 2.312594560294201e-13,
+              "final_max": 2.4424906541753444e-15,
+              "elapsed_seconds": 2.3403098819999286
+            }
+          },
+          {
+            "t": 0.125,
+            "file": "ellipse-L11-phi-attempt-001-t0.125000.json",
+            "axes": [
+              0.7494093921745753,
+              0.644702402382004
+            ],
+            "metric": 0.0036990917611168794,
+            "coarse_metric": 0.003698243038641378,
+            "E": 0.00369301118998544,
+            "F": 0.0019436664563430917,
+            "G": 0.002741915553453156,
+            "curvature": 8.70090822170813,
+            "endpoint_two_jet": 5.551115123125783e-17,
+            "tail": {
+              "A_plus": 2.3544413182104566e-07,
+              "A_minus": 2.354441318579414e-07,
+              "C_y": -1.6757644028351596e-15,
+              "C_z": 0.7668358112733326
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 99,
+              "njev": 83,
+              "optimality": 5.295417532507881e-06,
+              "initial_rms": 0.04057508689004619,
+              "final_rms": 0.0008875129940613489,
+              "initial_max": 0.17310497036991124,
+              "final_max": 0.00352536022479355,
+              "elapsed_seconds": 158.83056761800003
+            }
+          },
+          {
+            "t": 0.0625,
+            "file": "ellipse-L11-phi-attempt-002-t0.062500.json",
+            "axes": [
+              0.724034003819466,
+              0.6715510639098649
+            ],
+            "metric": 0.0026169468531853646,
+            "coarse_metric": 0.0026169468531853646,
+            "E": 0.0026169468531853646,
+            "F": 0.0011331245521081315,
+            "G": 0.0018609128069553282,
+            "curvature": 8.862837419095554,
+            "endpoint_two_jet": 6.776263578034403e-21,
+            "tail": {
+              "A_plus": 4.811204026084045e-07,
+              "A_minus": 4.811204026236676e-07,
+              "C_y": -4.051717084610098e-17,
+              "C_z": 0.7337367521586552
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 38,
+              "njev": 30,
+              "optimality": 7.192026484689391e-06,
+              "initial_rms": 0.020352599483748502,
+              "final_rms": 0.0005767340287375972,
+              "initial_max": 0.08579441629740114,
+              "final_max": 0.0023808608504484186,
+              "elapsed_seconds": 56.19759732400007
+            }
+          },
+          {
+            "t": 0.03125,
+            "file": "ellipse-L11-phi-attempt-003-t0.031250.json",
+            "axes": [
+              0.7111063851354539,
+              0.6848486712348941
+            ],
+            "metric": 0.0014432970167691517,
+            "coarse_metric": 0.0014432970167691517,
+            "E": 0.0014432970167691517,
+            "F": 0.0007180393333096781,
+            "G": 0.001295046882144657,
+            "curvature": 8.905815236771765,
+            "endpoint_two_jet": 6.776263578034403e-21,
+            "tail": {
+              "A_plus": 4.428812883267983e-07,
+              "A_minus": 4.4288128833434303e-07,
+              "C_y": 3.3067747567760444e-16,
+              "C_z": 0.7173159765462882
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 43,
+              "njev": 35,
+              "optimality": 3.5779577304994988e-06,
+              "initial_rms": 0.010184482483576675,
+              "final_rms": 0.00037398517894907536,
+              "initial_max": 0.042666034278000975,
+              "final_max": 0.0012845670456782532,
+              "elapsed_seconds": 66.48040426200009
+            }
+          },
+          {
+            "t": 0.015625,
+            "file": "ellipse-L11-phi-attempt-004-t0.015625.json",
+            "axes": [
+              0.704589273908785,
+              0.6914583844781776
+            ],
+            "metric": 0.001058449293537711,
+            "coarse_metric": 0.001058449293537711,
+            "E": 0.0009028124288040784,
+            "F": 0.0005357364842031272,
+            "G": 0.001058449293537711,
+            "curvature": 8.860829746982589,
+            "endpoint_two_jet": 5.551115123125783e-17,
+            "tail": {
+              "A_plus": 3.450457324770227e-07,
+              "A_minus": 3.450457324783584e-07,
+              "C_y": 1.4617681552054956e-16,
+              "C_z": 0.6843766727590778
+            },
+            "solver": {
+              "success": false,
+              "status": 0,
+              "message": "The maximum number of function evaluations is exceeded.",
+              "nfev": 250,
+              "njev": 237,
+              "optimality": 7.429384376081297e-05,
+              "initial_rms": 0.005093265680888874,
+              "final_rms": 0.0002970735070223305,
+              "initial_max": 0.021270132264429087,
+              "final_max": 0.001047022479737869,
+              "elapsed_seconds": 454.0737379740001
+            }
+          },
+          {
+            "t": 0.0078125,
+            "file": "ellipse-L11-phi-attempt-005-t0.007812.json",
+            "axes": [
+              0.7013182571446797,
+              0.694752558307172
+            ],
+            "metric": 0.000620607014256036,
+            "coarse_metric": 0.000620607014256036,
+            "E": 0.0005163814070592299,
+            "F": 0.00032146399141405325,
+            "G": 0.000620607014256036,
+            "curvature": 8.86999446291452,
+            "endpoint_two_jet": 5.551115123125783e-17,
+            "tail": {
+              "A_plus": 2.0242765166081542e-07,
+              "A_minus": 2.024276516564773e-07,
+              "C_y": 2.1566319425259256e-16,
+              "C_z": 0.6688319425891327
+            },
+            "solver": {
+              "success": true,
+              "status": 2,
+              "message": "`ftol` termination condition is satisfied.",
+              "nfev": 79,
+              "njev": 74,
+              "optimality": 1.1608100036490175e-06,
+              "initial_rms": 0.0025467609453046058,
+              "final_rms": 0.0001728805368017918,
+              "initial_max": 0.010618717207472761,
+              "final_max": 0.0006146762529879446,
+              "elapsed_seconds": 140.73653860500008
+            }
+          }
+        ]
+      },
+      "paired_metrics": [
+        {
+          "t": 0.0,
+          "material_metric": 2.224459488299039e-15,
+          "ellipse_metric": 2.224459488299039e-15,
+          "relative_change": 0.0
+        },
+        {
+          "t": 0.125,
+          "material_metric": 0.0036981475019410336,
+          "ellipse_metric": 0.0036990917611168794,
+          "relative_change": 0.0002553330215601795
+        },
+        {
+          "t": 0.0625,
+          "material_metric": 0.002616920839515924,
+          "ellipse_metric": 0.0026169468531853646,
+          "relative_change": 9.940564134750053e-06
+        },
+        {
+          "t": 0.03125,
+          "material_metric": 0.0014432959523177358,
+          "ellipse_metric": 0.0014432970167691517,
+          "relative_change": 7.375143082680736e-07
+        },
+        {
+          "t": 0.015625,
+          "material_metric": 0.0010584765938885798,
+          "ellipse_metric": 0.001058449293537711,
+          "relative_change": -2.5792115788358776e-05
+        },
+        {
+          "t": 0.0078125,
+          "material_metric": 0.0006206068902419037,
+          "ellipse_metric": 0.000620607014256036,
+          "relative_change": 1.9982719213500883e-07
+        }
+      ]
+    }
+  },
+  "inward": {
+    "definition": {
+      "engine": "cartesian",
+      "ellipse_major": 1.0,
+      "ellipse_minor": 0.3,
+      "core_half_height": 0.23,
+      "connection_length": 0.8,
+      "cut_radius": 0.28,
+      "port_height": 0.3,
+      "inward_overshoot": 1.53,
+      "inward_first_fraction": 0.67,
+      "reach_budget": 0.069,
+      "quadrature": 96,
+      "controls": 16,
+      "modes": 12,
+      "radial_order": 8,
+      "angles": 128,
+      "curvature_limit": 13.0,
+      "curvature_weight": 0.0,
+      "closure_weight": 2.0,
+      "max_nfev": 220,
+      "resume": null,
+      "check_jacobian": true,
+      "smoke_only": false,
+      "out": "/home/runner/work/_temp/visible-new-mechanism/inward_fixed/inward-fixed-cartesian.json",
+      "core_shape": "ellipse",
+      "seed2": 0.0,
+      "seed3": 0.0,
+      "seed_asymmetry": 0.0,
+      "offset": 0.0,
+      "fixed_radius": true,
+      "pin_core": true,
+      "radius_floor": 0.7,
+      "radius_ceiling": 1.3,
+      "radius_weight": 10.0
+    },
+    "fixed_profile_and_actual_boundary": {
+      "profile_family": "fixed_inward_radius_independent_trial_cap_height",
+      "parameters": {
+        "ellipse_major": 1.0,
+        "ellipse_minor": 0.3,
+        "connection_length": 0.8,
+        "core_half_height": 0.23,
+        "cut_radius": 0.28,
+        "port_height": 0.3,
+        "inward_overshoot": 1.53,
+        "inward_first_fraction": 0.67,
+        "quadrature": 96
+      },
+      "target_metric": "ds^2+a_inward(s)^2 du^2, fixed throughout the run",
+      "core_mean_radius": 0.6980392675284104,
+      "full_s_length": 2.06,
+      "core_s_interval": [
+        0.8,
+        1.26
+      ],
+      "half_active_length": 0.7368576414855248,
+      "half_open_flat_collar_length": 0.06314235851447525,
+      "reference_circle_upper_port_height": 0.0927053952182913,
+      "actual_upper_port_height": 0.3,
+      "trial_center_height_shift": 0.2072946047817087,
+      "height_bridge": "S5(t/half_active_length), constant on the whole flat collar",
+      "trial_base_is_not_assumed_isometric": true,
+      "reference_geometry_is_not_a_nonaxisymmetric_certificate": true
+    },
+    "r4_necessary_screen_for_exact_target_problem": {
+      "absolute_reach_budget_used": 0.069,
+      "task_necessary_absolute_reach_from_core_diameter": 0.06,
+      "additional_reach_budget_is_a_design_condition": true,
+      "horizontal_displacement_required": 0.72,
+      "horizontal_displacement_upper": 0.7606150534511522,
+      "length_necessary_condition_passes": true,
+      "flat_disk_normal_ball_height_condition_applies": true,
+      "actual_flat_disk_radius": 0.28,
+      "actual_cap_center_xy": [
+        0.0,
+        0.0
+      ],
+      "upper_cap_height_minimum": 0.29900000000000004,
+      "actual_upper_cap_height": 0.3,
+      "height_necessary_condition_passes": true,
+      "sufficient_for_solution_or_reach": false
+    },
+    "initial_audit": {
+      "radial_points": 257,
+      "angular_points": 256,
+      "frozen_metric_relative_operator_sample_max": 2.7371793198436283,
+      "frozen_metric_relative_frobenius_rms": 0.656647976204387,
+      "shape_operator_frobenius_sample_max": 143041.88037499206,
+      "principal_curvature_abs_sample_max": 143041.88037310372,
+      "actual_gauss_curvature_sample_range": [
+        -105135.8683561552,
+        9587.157717291147
+      ],
+      "target_intrinsic_K_sample_range": [
+        -13.795594922181532,
+        19.86722925753752
+      ],
+      "target_necessary_shape_frobenius_sample": 6.303527466036381,
+      "curvature_peak_s_u": [
+        1.553046875,
+        5.252350217720435
+      ],
+      "curvature_constraint_excess_sample_max": 11002.221567307082,
+      "min_area_density_sample": 0.00391756072844707,
+      "actual_schur_min_sample": 5.193580659679231e-05,
+      "coordinate_min": [
+        -1.0,
+        -0.459576923274977,
+        -0.479792852919333
+      ],
+      "coordinate_max": [
+        1.0,
+        0.459576923274977,
+        0.47979285291933305
+      ],
+      "diameter_coordinate_lower_sample": 2.0,
+      "curvature_reach_necessary_scale_sample": 3.4954797762433176e-06,
+      "continuous_bound": false,
+      "embedding_proved": false,
+      "reach_certified": false,
+      "closed_surface": false,
+      "task_complete": false
+    },
+    "final_audits": [
+      {
+        "radial_points": 257,
+        "angular_points": 256,
+        "frozen_metric_relative_operator_sample_max": 0.9960291776861958,
+        "frozen_metric_relative_frobenius_rms": 0.23232702970926056,
+        "shape_operator_frobenius_sample_max": 2846.7938762607387,
+        "principal_curvature_abs_sample_max": 2846.79382428803,
+        "actual_gauss_curvature_sample_range": [
+          -4768.19688283716,
+          517.0620632460402
+        ],
+        "target_intrinsic_K_sample_range": [
+          -13.795594922181532,
+          19.86722925753752
+        ],
+        "target_necessary_shape_frobenius_sample": 6.303527466036381,
+        "curvature_peak_s_u": [
+          0.506953125,
+          3.9515345095934116
+        ],
+        "curvature_constraint_excess_sample_max": 217.98414432774914,
+        "min_area_density_sample": 0.03912903285256579,
+        "actual_schur_min_sample": 0.005149077432355653,
+        "coordinate_min": [
+          -1.0,
+          -0.3986488566745262,
+          -0.4792499095453499
+        ],
+        "coordinate_max": [
+          1.0,
+          0.3986488566745262,
+          0.4792499095453499
+        ],
+        "diameter_coordinate_lower_sample": 2.0,
+        "curvature_reach_necessary_scale_sample": 0.0001756361826185455,
+        "continuous_bound": false,
+        "embedding_proved": false,
+        "reach_certified": false,
+        "closed_surface": false,
+        "task_complete": false
+      },
+      {
+        "radial_points": 1025,
+        "angular_points": 256,
+        "frozen_metric_relative_operator_sample_max": 0.9968598037162109,
+        "frozen_metric_relative_frobenius_rms": 0.23266672891035814,
+        "shape_operator_frobenius_sample_max": 4679.907230179744,
+        "principal_curvature_abs_sample_max": 4679.907228014253,
+        "actual_gauss_curvature_sample_range": [
+          -5396.16926871754,
+          1329.5182212819552
+        ],
+        "target_intrinsic_K_sample_range": [
+          -13.80368929172103,
+          19.923674707748038
+        ],
+        "target_necessary_shape_frobenius_sample": 6.3124756962301305,
+        "curvature_peak_s_u": [
+          1.55505859375,
+          3.9515345095934116
+        ],
+        "curvature_constraint_excess_sample_max": 358.99286385998033,
+        "min_area_density_sample": 0.034601839143607246,
+        "actual_schur_min_sample": 0.004071180680951136,
+        "coordinate_min": [
+          -1.0,
+          -0.398694051381309,
+          -0.47932354359618307
+        ],
+        "coordinate_max": [
+          1.0,
+          0.398694051381309,
+          0.479323543596183
+        ],
+        "diameter_coordinate_lower_sample": 2.0,
+        "curvature_reach_necessary_scale_sample": 0.00010683972472936322,
+        "continuous_bound": false,
+        "embedding_proved": false,
+        "reach_certified": false,
+        "closed_surface": false,
+        "task_complete": false
+      }
+    ],
+    "pinned_piece_jet_audit": {
+      "radial_points": [
+        0.0,
+        0.031571179257237625,
+        0.8,
+        1.03,
+        1.26,
+        2.0284288207427625,
+        2.06
+      ],
+      "angular_points": 256,
+      "jet_component_order": [
+        "X",
+        "Xs",
+        "Xu",
+        "Xss",
+        "Xsu",
+        "Xuu"
+      ],
+      "maximum_error_each_jet": [
+        1.1102230246251565e-16,
+        0.0,
+        1.1102230246251565e-16,
+        0.0,
+        0.0,
+        8.881784197001252e-16
+      ],
+      "core_position_has_analytic_formula": true,
+      "unit_and_signed_use_discrete_FFT_primitive": false,
+      "continuous_certificate": false
+    },
+    "jacobian_relative_error": 2.9631227421459235e-10,
+    "solver": {
+      "success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 122,
+      "cost": 453.25497825315057,
+      "optimality": 0.0056175686250230115
+    },
+    "elapsed_seconds": 1193.245417743,
+    "signed_artifact_available": false,
+    "workflow_budget_note": "The cartesian and signed loop shares one 40-minute workflow step; the Cartesian JSON reports 1193.245417743 seconds. No signed candidate is present, so there is no mathematical conclusion about that engine."
+  }
+}
