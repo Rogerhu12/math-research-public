@@ -221,3 +221,7 @@
 ### 2026-11-14 full real delta96 positive root collar
 
 [R133-supplement-full-real-delta96-positive-root-collar](results/R133-supplement-full-real-delta96-positive-root-collar.md): proved D1–21 for the complete real |δ|≤1e−8 family. Band192 is paid with frequency ratio<3 and true primitive intermediate index1, giving absolute high kernel<144; all193 head coordinates couple to the new output range through288. The complete four source/port columns, both endpoint traces and angular bootstrap through order4 remain. A new nineteen-input public consumer checks the actual product and Frobenius gates. The theorem is uniform over allowed positive speed extensions and p*∈(1/8,1/5); actual nonzero-δ body/outer transfer remains separate.
+
+### 2026-11-14 actual full real delta96 positive root collar
+
+[R133-supplement-actual-full-real-delta96-root-collar-certificate](results/R133-supplement-actual-full-real-delta96-root-collar-certificate.md): public43606747196 passed all nineteen gates. The full band192 high remainder is <131.016384185663, complete193-head feedback is <1/500000, and the four complete source/port state/trace bounds remain 1/12000, 1/100, 1/36 and9/2. Angular orders0–4 are retained. The nonzero-delta body and actual outer reference remain separate.

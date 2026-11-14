@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:55:27 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:56:58 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：99703046ddb8d247879d92c49ecb2ad84659e4f4；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：913ce67a82bcf7b48c84fecda98489ea107043b5；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -56,4 +56,4 @@ geometry43584188751真实26门仅条件充分：同一闭C²真解η0、全C0误
 
 ## 正在连续推进
 
-root已逐条发布实际root Cauchy、oldI/Airy、正high glue、高/紧current mixed及low193诊断。fullδ96 rootcollar D1–21已证并接19-input CI：high band192、EH<144、qc750/749、head输出到288，待实际矩阵门；外p*仅任意(1/8,1/5)合同，δbody/outer未授。继续完整逆/非线性。newton继续保符号源/cut/full响应；phase继续真rootfinite/strong及必要δ正区转移；tail继续完整跨包近核/层权。一个子问题完成即推进open下一个，不能以阶段结果或时长结束。
+fullδ96 rootcollar43606747196真实19门：native9a4d48bc4a9bded3a76f7bf4ff21dbda1c38c0ff93c072b98433a9c8fc8413a6，EH<131.016384185663，qc750/749，完整headloop<1/500000，四source/port合同仍1/12000、1/100、1/36、9/2；角阶0..4全保。外p*只任意(1/8,1/5)，δbody/真实outer未授。root接全局Riccati速度/频导比较；newton接新源和true-cut方向；phase真rootfinite/strong新稿核完整方程；tail五盒全径向谱选择接实际全差/权。子问题完成即推进open下一个，不以阶段或时长结束。

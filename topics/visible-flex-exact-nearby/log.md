@@ -547,3 +547,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ### 2026-11-14 14:55:27 UTC — Fourier 均值修正及固定 η 子格诊断
 
 原 43605144072 的完整有效上界已保留。针对已定位的两种区间损失，部署独立源/CI/合同/131-input manifest/公开 workflow：Fourier 系数直接作 P−e0C，余项仍独立付；只有8个已声明原行新算固定物理η0的整格及四子格target jets，原40parts、scalar全η证书、mean和repair不重跑。原128文件hash逐项0改变；source 51a7f917aeb3849aafb44de17be709664ff19e39b92ca4ee08fbb5df1bbfda7f。实际结果待公开Actions；未授完整源覆盖或响应门。
+
+### 2026-11-14 14:56:58 UTC — fullδ96 root collar actual nineteen gates
+
+核原19-input公开43606747196，child0/.21423239s，native9a4d48bc4a9bded3a76f7bf4ff21dbda1c38c0ff93c072b98433a9c8fc8413a6。实际门数19，EH131.016384185663、完整headloop544177953/5e14，四完整source/port矩阵及角阶0..4全通过。已逐项读process，不把workflow成功替代数学门。只消费原germ/rootbudget，实际δbody/outer同参考转移继续。
