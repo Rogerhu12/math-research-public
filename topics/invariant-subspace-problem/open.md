@@ -104,7 +104,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 R295实际Turán/Catalan同源平方及最大原子分区已付全正权birth1/全height加强κ1024，原连续尾κ674/81；有限严格、无限固定height非严格。一般高birth及graph仍开；完整证明入口保[此前open](notes/2026-11-14-open-before-joint-recursion-789f.md)。
 
-[R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)将加强S1准确化为共同Z的运输界，保全低阶Schur、硬端和C²深塔。其各附录（见[索引](results.md)）已付完整拟合负二阶差/商不变，出生二τ≤1的全源精度夹逼z_S(τG1+τ²G2)/5至6倍、相邻首事件真实ridge及三切片Λ_high≤4τΛ_low的完整最优修正。[同源正交](notes/2026-11-14-source-orthogonality-parity-payment-and-intersection-polynomials-789f-next.md)已支付最高两Johnson通道，全部负项降至j≤s−2；交集多项式限deg≤s−1。真实ell、共同二阶差/混合逆仍缺。
+[R296全birth残差/真实桥](results/R296-all-birth-residual-regression-two-band-lift-and-physical-innovation.md)将加强S1准确化为共同Z的运输界，保全低阶Schur、硬端和C²深塔。其各附录（见[索引](results.md)）已付完整拟合负二阶差/商不变，出生二τ≤1的全源精度夹逼z_S(τG1+τ²G2)/5至6倍、相邻首事件真实ridge及三切片Λ_high≤4τΛ_low的完整最优修正。[同源正交](notes/2026-11-14-source-orthogonality-parity-payment-and-intersection-polynomials-789f-next.md)已支付最高两Johnson通道，全部负项降至j≤s−2；交集多项式限deg≤s−1。[完整条件Gram](notes/2026-11-14-conditioned-bernoulli-degree-two-full-gram-789f-next.md)已付E=K0⊕K1⊕K2的统一256/√V误差及真实C_n对角shorting；相邻Z、共同二阶差/混合逆仍缺。
 
 [R297弱位归约](results/R297-appendix-weak-bit-hard-top-universal-strengthened-equivalence.md)保完整跨出生/a⁻¹抵消，全部正权/出生/高度加强κ⇔奇数硬端首边同κ。真费A_U*L1L3⁻¹L1A_U，倒数桥B*L2²B≤κG1；两个未投影提升真五位发散而投影费<1/3。不能删压缩逆、桥平方或投影；非严格极限不代有限权界。全部证明见[索引](results.md)和[此前全文](notes/2026-11-14-open-before-complete-native-gb-789f.md)。
 
@@ -148,11 +148,7 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 [射影提升准则](results/R150-appendix-projective-minor-divisor-degree-and-finite-cover-certificate.md)的74次充分条件于模31不成立：全原∞连接给阶≥24，仿射315使齐次总度≥339。它与九目标Ann24不同；char0来源/分母及其他mean秩高ess继续，全部旧条件保本次前open。
 
-**Cat1旧链。** 共3–5/重数/∞旧证书全保快照；rank1/ess3为空，不外推高本质。
-
-**Cat2旧链。** ess3全退化iff W±且Q|T3已闭，主稿/原低梯度链全保快照；高本质未闭。
-
-**已排V4的原张量，仍供其他层比较。** reduced/double mean的完整H/V/T3块式保快照，不能删D块低梯度或给复权加正性。
+**其余高本质层。** Cat1/Cat2的全部旧链、mean张量及V4排除范围保[前全文](notes/2026-11-14-open-before-conditioned-gram-789f.md)；高本质未闭，不删D块低梯度或给复权加正性。
 
 **纯原K禁阻。** tangent/value、两向cusp、conic/cubic等已闭原核禁阻全保快照，只在原physical条件使用。
 

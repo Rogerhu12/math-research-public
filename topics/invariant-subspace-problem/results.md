@@ -929,3 +929,7 @@
 ### R297 附录：完整中央分区 Hessian 与全部源相位 Ward 块
 
 [完整证明](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)以全部 B_i=E_i|U 建立 BB*=(s+2)I/3，并精确给 H_ij=M_ij−M_iM⁻¹M_j=B_i*gB_j，故完整非零 Hessian 与整个真实低源 g 等价。全部 h、ell、q 的坐标交叉由同一 M 和真实换位 R_ij 显式给出，相位无遗漏等价 Jrow=A H† C+2H−Q 的联合块。逐坐标 Schur 身份及正块成立，但不能替完整 H†；自然变量下的非交换 EPD 身份亦来自真实局部算子，未作一般收缩结论。
+
+### R296 附录：完整二次商的条件 Bernoulli Gram 与真实精度
+
+[自含统一证明](notes/2026-11-14-conditioned-bernoulli-degree-two-full-gram-789f-next.md)对任意有限/可数 Bernoulli 参数、整数均值及 V≥8192，给整个 K0(a)⊕K1(a)⊕K2(a) 条件 Gram 误差≤256/√V。主弧在两侧精确消去集体一阶，尾弧直接用原逐位矩阵，保全部低次数交叉及 (N−k)·P≤1 商。V≥2¹⁸ 时真实出生二 C_n 在 (1±ε)e_k(P_K D_t⁻²P_K)⁻¹ 间，Γ 相应双侧界在同一原源成立；这是一层的完整 shorting，仍须付实际相邻回归创新。

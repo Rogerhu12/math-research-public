@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `2d9d443b25412a4982fd8b8a3bf61fa2d354832c`（2026-11-14 15:11:48 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `6a207d44f5c7d7fb9e87d685dd7965cd0d308da5`（2026-11-14 15:14:15 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-full-central-hessian-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -30,6 +30,8 @@ T96原图/DAG来自run43597823809 artifact14114364261，恢复在 `/tmp/isp-t96-
 - [完整中央Hessian](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)：B_i=E_i|U，BB*=(s+2)I/3，H_ij=M_ij−M_iM⁻¹M_j=B_i*gB_j；h/ell/q全部Ward交叉及真实R_ij保留。相位等价Jrow=A H† C+2H−Q的全块；逐坐标Aii Hii⁻¹ Cii=M与正块不能替完整H†运输。
 - Johnson最高两通道已非负，首低j=s−2的条件共同Schur及原尾任意删位协方差预算已付，条件均值仍缺。[原无限尾证书](notes/2026-11-14-original-infinite-tail-birth-two-arithmetic-obstruction-789f-next.md)迫辅助算术系数>2.89，不反驳S1/graph。[原尾正通道尺度](notes/2026-11-14-original-tail-inverse-overlap-and-common-positive-channel-scale-789f-next.md)付固定I一致逆交差20/(k+2)、全p能量2Var/k至160Var/(k+2)；尚缺负方差N≤LkP。
 
+- [完整条件Bernoulli Gram](notes/2026-11-14-conditioned-bernoulli-degree-two-full-gram-789f-next.md)：任意有限/可数参数、整数均值、V≥8192，在E=K0(a)⊕K1(a)⊕K2(a)有||G−I||≤256/√V；主弧双侧消集体一阶、尾弧保原矩阵。全商保(N−k)·P≤1；V≥2¹⁸给真实C_n在(1±ε)e_k(P_K D_t⁻² P_K)⁻¹间，未单独付相邻创新。
+
 ## R150 原十七式与特征零来源
 
 原11物理N＋6Γ、M5原6188来源/4367输出、泛秩4354。rankAy8和0/2/−6/∞已闭，rankAy9余有限Σ/char0来源仍开。F31像1021行/次数和716、torsion315/minpoly190；九目标h31度24，char0候选h0=s³(s−2)F+²F−²E8。Dlin46次不免费降24，模31支撑不当复坏点。
@@ -43,6 +45,6 @@ T96原图/DAG来自run43597823809 artifact14114364261，恢复在 `/tmp/isp-t96-
 
 ## 当前分工与马上接续
 
-唯二cost86任务run43608688492（源bf35613dc77b65bb03bc3c33878cc47b6373304d）已由推送自动启动，当前in_progress；[入口](notes/2026-11-14-r150-last-two-kernel-bockstein-execution-interface-789f.md)共享60秒/512MiB、仅2列/1word、联合旧β完整J闭包，不重算200。先取其实际结果决定固定h0/H0；normal准备九列G商再打包VQ恢复原6188来源，必须完整乘回。literature攻三组spin1的最小真实非交换块与完整Hessian运输。boundary已冻完整条件Bernoulli Gram/shorting稿，根待单条整合，再攻实际Z三切片运输。根恢复CI/推已冻结论并继续，主ISP未完成。
+唯二cost86任务run43608688492（源bf35613dc77b65bb03bc3c33878cc47b6373304d）已由推送自动启动，已success（job132488731199），根正下载完整回执；[入口](notes/2026-11-14-r150-last-two-kernel-bockstein-execution-interface-789f.md)共享60秒/512MiB、仅2列/1word、联合旧β完整J闭包，不重算200。先取其实际结果决定固定h0/H0；normal准备九列G商再打包VQ恢复原6188来源，必须完整乘回。literature攻三组spin1的最小真实非交换块与完整Hessian运输。boundary完整条件Gram/shorting已付，正以完整degree≤2条件上界与三切片共同商攻实际Z，目标原连续尾birth2全height统一有限常数。根恢复CI/推已冻结论并继续，主ISP未完成。
 
 文献准确条件、Garayev强制零、balanced两层度量失配及所有失败保open/归档，不重复已排路线。
