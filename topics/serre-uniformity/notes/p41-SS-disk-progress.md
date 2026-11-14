@@ -2,7 +2,7 @@
 
 共有105个非CM有理SS盘；另五个CM SS盘已由R313–328完成。这里只登记本表引用的已封存证明，未列盘尚未完成实际F2。主目标绝对统一性仍OPEN。
 
-已排除82盘；已有F2待后续筛选0盘；尚无完整F2记录23盘。F2候选值为y mod47³，后续F3始终使用同一坏分量标签。
+已排除83盘；已有F2待后续筛选0盘；尚无完整F2记录22盘。F2候选值为y mod47³，后续F3始终使用同一坏分量标签。
 
 | 圆盘 | 实际F2证明 | F2候选 | 实际F3证明 | 判定 |
 |---|---|---|---|---|
@@ -88,3 +88,4 @@
 | SS_j36_21 | [R653](../results/R653-SS_j36_21-actual-ramified-height-and-complete-disk-exclusion.md) | 2307, 64996 | [R653](../results/R653-SS_j36_21-actual-ramified-height-and-complete-disk-exclusion.md) | 全四分量排除 |
 | SS_j36_22 | [R654](../results/R654-SS_j36_22-actual-ramified-height-and-complete-disk-exclusion.md) | 84486, 22082 | [R654](../results/R654-SS_j36_22-actual-ramified-height-and-complete-disk-exclusion.md) | 全四分量排除 |
 | SS_j36_09 | [R641](../results/R641-SS_j36_09-actual-ramified-height-and-complete-disk-exclusion.md) | 无 | — | 全四分量排除 |
+| SS_j44_16 | [R660](../results/R660-SS_j44_16-actual-nonelliptic-height-and-complete-disk-exclusion.md) | 65175, 52206 | [R660](../results/R660-SS_j44_16-actual-nonelliptic-height-and-complete-disk-exclusion.md) | 全四分量排除 |
