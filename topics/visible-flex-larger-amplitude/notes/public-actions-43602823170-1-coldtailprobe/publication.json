@@ -1,0 +1,228 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T14:05:16.899112+00:00",
+  "source_commit": "25d2dcb606fa42af4ad146eae8b2463490b3ecbc",
+  "run_id": "43602823170",
+  "run_attempt": "1",
+  "lane": "coldtailprobe",
+  "files": [
+    {
+      "source": "cold-tail-residual/boundary-residuals-000.json.gz",
+      "bytes": 1425,
+      "sha256": "54e9bdc545e623cfdf487a3041d8078b1d8bf026f316fcf721f1479e51b8ab2b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/boundary-residuals-000.json.gz",
+      "published_bytes": 1425,
+      "published_sha256": "54e9bdc545e623cfdf487a3041d8078b1d8bf026f316fcf721f1479e51b8ab2b"
+    },
+    {
+      "source": "cold-tail-residual/diagnostic-stdout.jsonl",
+      "bytes": 335,
+      "sha256": "f560a3b31371a8dbf7fff4685810ae7ed27aefda16f36b217c13df4e4ad84c95",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/diagnostic-stdout.jsonl",
+      "published_bytes": 335,
+      "published_sha256": "f560a3b31371a8dbf7fff4685810ae7ed27aefda16f36b217c13df4e4ad84c95"
+    },
+    {
+      "source": "cold-tail-residual/instrumentation.json",
+      "bytes": 767,
+      "sha256": "27556b4a79d8ed8325ac49e3a4c823996a42c3cf437df1af96594f00ba6f41d2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/instrumentation.json",
+      "published_bytes": 767,
+      "published_sha256": "27556b4a79d8ed8325ac49e3a4c823996a42c3cf437df1af96594f00ba6f41d2"
+    },
+    {
+      "source": "cold-tail-residual/launcher-result.json",
+      "bytes": 33927,
+      "sha256": "7e29222e2c5d87ce49ccd71c7170b34c4e1b0662998f974551812c9368fdf728",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/launcher-result.json",
+      "published_bytes": 33927,
+      "published_sha256": "7e29222e2c5d87ce49ccd71c7170b34c4e1b0662998f974551812c9368fdf728"
+    },
+    {
+      "source": "cold-tail-residual/original-cold-comparison-000.json.gz",
+      "bytes": 1033,
+      "sha256": "ef8e121bc3a101831750ab79520f37041e5f312e21fd6b820b6e62164d078446",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/original-cold-comparison-000.json.gz",
+      "published_bytes": 1033,
+      "published_sha256": "ef8e121bc3a101831750ab79520f37041e5f312e21fd6b820b6e62164d078446"
+    },
+    {
+      "source": "cold-tail-residual/original-constructor_capacity.json",
+      "bytes": 2525,
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/original-constructor_capacity.json",
+      "published_bytes": 2525,
+      "published_sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    {
+      "source": "cold-tail-residual/original-constructor_intent.json",
+      "bytes": 25247,
+      "sha256": "639838b2a163cbf61f8ec4603abc71bbfa7eef52e3a6baece83a59978001c5f8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/original-constructor_intent.json",
+      "published_bytes": 25247,
+      "published_sha256": "639838b2a163cbf61f8ec4603abc71bbfa7eef52e3a6baece83a59978001c5f8"
+    },
+    {
+      "source": "cold-tail-residual/original-constructor_ready.json.gz",
+      "bytes": 6857,
+      "sha256": "7dbe2321fc0603dfa34a487e0c463cf5dbc9e4a9cc30147abf119e6f7a517c65",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/original-constructor_ready.json.gz",
+      "published_bytes": 6857,
+      "published_sha256": "7dbe2321fc0603dfa34a487e0c463cf5dbc9e4a9cc30147abf119e6f7a517c65"
+    },
+    {
+      "source": "cold-tail-residual/original-constructor_runtime-config.json",
+      "bytes": 2567,
+      "sha256": "fada85f4887252e97bb785326eb3ef958792b4d5a5f3d366d1dd1b55a86ad9d3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/original-constructor_runtime-config.json",
+      "published_bytes": 2567,
+      "published_sha256": "fada85f4887252e97bb785326eb3ef958792b4d5a5f3d366d1dd1b55a86ad9d3"
+    },
+    {
+      "source": "cold-tail-residual/original-constructor_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/original-constructor_stderr.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "cold-tail-residual/original-constructor_trace.jsonl",
+      "bytes": 158,
+      "sha256": "9bc82f331012a610841fe90f0d4fe829d5094c8cda73f469e7785d7d00fc8b72",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/original-constructor_trace.jsonl",
+      "published_bytes": 158,
+      "published_sha256": "9bc82f331012a610841fe90f0d4fe829d5094c8cda73f469e7785d7d00fc8b72"
+    },
+    {
+      "source": "cold-tail-residual/original-graphs-gains-000.json.gz",
+      "bytes": 1183203,
+      "sha256": "50b841544444d4c0661b1b4a9c169516bc7713cd971057a787436c4d4d0e970c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/original-graphs-gains-000.json.gz",
+      "published_bytes": 1183203,
+      "published_sha256": "50b841544444d4c0661b1b4a9c169516bc7713cd971057a787436c4d4d0e970c"
+    },
+    {
+      "source": "cold-tail-residual/replay-input-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/replay-input-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "source": "cold-tail-residual/replay-spec.json",
+      "bytes": 12244,
+      "sha256": "239df454fa8016d5564dd5c351cad959e77b6ee6577094c987f971fa3012ace3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/replay-spec.json",
+      "published_bytes": 12244,
+      "published_sha256": "239df454fa8016d5564dd5c351cad959e77b6ee6577094c987f971fa3012ace3"
+    },
+    {
+      "source": "cold-tail-residual/saved-node-magnitudes-000.json.gz",
+      "bytes": 17020,
+      "sha256": "e40bbf6a75eef89e2409fed6bfe260b245c4e3113e8fda3f7e4abc583f797b89",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/saved-node-magnitudes-000.json.gz",
+      "published_bytes": 17020,
+      "published_sha256": "e40bbf6a75eef89e2409fed6bfe260b245c4e3113e8fda3f7e4abc583f797b89"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-000-000.json.gz",
+      "bytes": 317542,
+      "sha256": "904606e34bb039d37ed676a807a3a82a7b35b75497ec013b776a37f7441bf8af",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-000-000.json.gz",
+      "published_bytes": 317542,
+      "published_sha256": "904606e34bb039d37ed676a807a3a82a7b35b75497ec013b776a37f7441bf8af"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-001-000.json.gz",
+      "bytes": 315892,
+      "sha256": "7286c9ce40e9ebe7cf7d4caeaa820a354dee24f745bda5716b3b94bff6caa5d3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-001-000.json.gz",
+      "published_bytes": 315892,
+      "published_sha256": "7286c9ce40e9ebe7cf7d4caeaa820a354dee24f745bda5716b3b94bff6caa5d3"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-002-000.json.gz",
+      "bytes": 316622,
+      "sha256": "f691de6a80f2cc9355c5e3839392afcc2ac90591bc8dcd1933ba855f2fda9548",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-002-000.json.gz",
+      "published_bytes": 316622,
+      "published_sha256": "f691de6a80f2cc9355c5e3839392afcc2ac90591bc8dcd1933ba855f2fda9548"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-003-000.json.gz",
+      "bytes": 315982,
+      "sha256": "b451321582403fbfc704fc02f2eaa64ad2a79ca85b7a2f80a0716e3eb13f55ef",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-003-000.json.gz",
+      "published_bytes": 315982,
+      "published_sha256": "b451321582403fbfc704fc02f2eaa64ad2a79ca85b7a2f80a0716e3eb13f55ef"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-004-000.json.gz",
+      "bytes": 315889,
+      "sha256": "4cf34a1f8e6668dec1c875388e568e728c7bc891b10b5f3c830266ed326e2110",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-004-000.json.gz",
+      "published_bytes": 315889,
+      "published_sha256": "4cf34a1f8e6668dec1c875388e568e728c7bc891b10b5f3c830266ed326e2110"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-005-000.json.gz",
+      "bytes": 314999,
+      "sha256": "112e90cbb04fba6ae5c116d667e060b00f3edbf86406441cf1c22aacc7544d9d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-005-000.json.gz",
+      "published_bytes": 314999,
+      "published_sha256": "112e90cbb04fba6ae5c116d667e060b00f3edbf86406441cf1c22aacc7544d9d"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-006-000.json.gz",
+      "bytes": 314985,
+      "sha256": "78b2edafb197fa6d1856d1b02d872851ab97c0e1b1ef0a914d984800eecb6307",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-006-000.json.gz",
+      "published_bytes": 314985,
+      "published_sha256": "78b2edafb197fa6d1856d1b02d872851ab97c0e1b1ef0a914d984800eecb6307"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-007-000.json.gz",
+      "bytes": 313899,
+      "sha256": "a75414e2ae4bece8e5022678997f24dff53bfea4a49497621dd4b2d0310a3dd1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-007-000.json.gz",
+      "published_bytes": 313899,
+      "published_sha256": "a75414e2ae4bece8e5022678997f24dff53bfea4a49497621dd4b2d0310a3dd1"
+    },
+    {
+      "source": "cold-tail-residual/stage-residuals-008-000.json.gz",
+      "bytes": 314064,
+      "sha256": "fe2059b5470f1c88d2cc6a18fcfd05f900a2ddc1892689b5ad7b993608da7edc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/stage-residuals-008-000.json.gz",
+      "published_bytes": 314064,
+      "published_sha256": "fe2059b5470f1c88d2cc6a18fcfd05f900a2ddc1892689b5ad7b993608da7edc"
+    },
+    {
+      "source": "cold-tail-residual/summary.json",
+      "bytes": 10968,
+      "sha256": "5c9203ce46b44de31d187c3dce43f94f30524cb25c9beaf31b9d893f05d640b1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json",
+      "published_bytes": 10968,
+      "published_sha256": "5c9203ce46b44de31d187c3dce43f94f30524cb25c9beaf31b9d893f05d640b1"
+    },
+    {
+      "source": "cold-tail-residual/verified-launch-intent.json",
+      "bytes": 33653,
+      "sha256": "21c9ff63afa7e3faf87ce51956db00b8836ac594bc48500477300f9e5a68bc52",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/verified-launch-intent.json",
+      "published_bytes": 33653,
+      "published_sha256": "21c9ff63afa7e3faf87ce51956db00b8836ac594bc48500477300f9e5a68bc52"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "ffc9ee938d85001da3f262faf41c0b8ca5d10ee1dc94f913c0f580d8e5a23b0d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "ffc9ee938d85001da3f262faf41c0b8ca5d10ee1dc94f913c0f580d8e5a23b0d"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43602823170"
+}
