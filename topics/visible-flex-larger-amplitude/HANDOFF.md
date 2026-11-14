@@ -22,6 +22,11 @@ B=/workspace/scratch/ffc1334c1988；R=B/math-research-public；T=R/topics/visibl
 91原源revision869436630c99aa5a68afb55bd8877c826034d117、7A raw已实恢复；其中12源属未迁移私题，Actions仅用MR_TOKEN secret瞬时读，不公开原源。新最终helper已再逐件核91及7raw，8.60s exit0；前次完整恢复494.92s。准备不是科学计算。
 A主SHA917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf；fixed-view cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa。raw在B/strong-work/runtime/topics/visible-flex-larger-amplitude；原recipe可重生。
 
+## 当前Actions与接续接口
+
+run43579782197，源码ca96fb9e1102328c80a2c8db7998f34f2ce10a7b：M96 .99和原A RK48两线已实际运行。新followup workflow并行fixed3 normal分支（只固定前三核心系数、释放4..96）、1024/2048/4096材料角谱及R37/R238真实闭面输入检查；均不是完成主目标。
+新大核法向角φ与tail材料角θ不同，必须消费完整逆映射/谱尾，不能直接把96个φ高度系数当96H。全nonmean DN在field_modes=tail_modes时需3个scalar控制，模数不同需相应预算；完整均值/六jet接缝另付。
+
 ## 旧A增强线的最后真实状态
 
 唯一完整接受强解仍A：M32/35参数/2590节点/1280角，RMS9.9224e−8、完整mean metric6.733e−8/κ8.34551434；G=.2506381129，prefix D≥3.9767551573，远低于完成幅度。13方向响应完整原门通过；margin325 full尾已解，但prefix未接受。半步r1/r2/r3均被−9，不能冒数学失败；r3完整J/QR已有线性残差7.06e−18，试点未返回。
@@ -47,4 +52,4 @@ R236：λ=6/5全32核准确G≈.96/rho_min>.1661，条件球外保持证明完�
 
 优先新球核心正Gauss匹配及完整闭合；同时消费同半步真实Newton和RK48/源分区精化。接受后立即原审计、锁g精化、全闭/全t几何，并继续增幅。完整证明直接results，数值/失败如实notes；本轮直接公开授权已生效，逐结论普通push并使用本公开仓库Actions。
 
-规则同步记录：2026-11-14T17:14:55+08:00实际pull --rebase成功；双README自c2eafa9无变化，已读提交 05e0f9795f53c8ae415c30d44ce1dfbac16cf8ae。
+规则同步记录：2026-11-14T17:25:56+08:00；最近实际pull --rebase成功，双README自b4f2235无变化，已读提交 ca96fb9e1102328c80a2c8db7998f34f2ce10a7b。

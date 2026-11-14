@@ -276,3 +276,7 @@ v3真16读出08:37:18实际exit1/ENOSPC，写node-04712失败；完整RK48 Newto
 ### 2026-11-14T17:14:55+08:00 — R238 planar-germ marker rigidity
 完整证明用非平面局部胚分支和四个不同支撑圆识别固定标记，所有含反射全等只能恒等；紧性推出非全等时欧氏商Hausdorff严格正。
 R238仅条件定理；新有理系数输入检查器待Actions，实际活动tail/collar无平面性/闭嵌入仍未付。接受M96后自动全核证书与同材料角物理场双级读出已接入。
+
+### 2026-11-14T17:25:56+08:00 — independent public followup calculations
+原M96 .99/RK48 run43579782197已进入实际计算；新增固定前三核/释放93模的normal分支、完整材料角全谱和真实闭面空间覆盖消费者。
+新增题外workflow visible-larger-public-followup.yml用于这三项独立计算；所有输入来自本公开仓库，原门/完整状态不改，尚无新求解成功声明。
