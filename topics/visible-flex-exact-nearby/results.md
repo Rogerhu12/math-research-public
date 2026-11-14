@@ -579,3 +579,5 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 - **已证明（2026-11-14 20:26:25 UTC）**：[实际长段mean商及未拼平外返回](results/R119-supplement-actual-long-mean-quotient-and-unmatched-exterior-return.md)，R1–38。完整natural mean flux、唯一高度gauge、真实μ/d匹配与holonomy行；跨端平滑及原三阶/root链给全部L²波返回Ea，与自伴Es差<2^20000 r；同σ1/16实际r<2^-119738000。帽/long完整仿射源<2^22000 B_B。仍须真I−EaTa及强标签逆。
 
 - **已证明（2026-11-14 20:27:34 UTC）**：[原复root矩形的准确系数导数](results/R133-supplement-exact-complex-root-coefficient-derivatives-for-first-Airy-forcing.md)，H1–10。只取同piece2549的两原cubic片，原实际复矩形上准确微分；付u_r/v_r、intrinsic导数及全部L0系数产品、原mean与Hinv/HD顺序，供G1–19实际第一forcing消费。数值常数仍待公开有向执行。
+
+- **已证明／实际有向执行（2026-11-14 20:28:19 UTC）**：[真径向Abar的完整六窗Airy源](results/R133-supplement-actual-radial-reference-Airy-old-circle-source-budgets.md)，公开run43635999157 child0/9门，数学14.693845s；nativefec8740c…3434233B。6新profile+4377积分、6旧幅度tensor/1328moment/1328directed全复用。R.001负source<715694.724049、primitive<108478.950298；R.02负source<5549241.466141。完整I/J/独立mean保留，尚不授L0w1/strong-return或97高逆。
