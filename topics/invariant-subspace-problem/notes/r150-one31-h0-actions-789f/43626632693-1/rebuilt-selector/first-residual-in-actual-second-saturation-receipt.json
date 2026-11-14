@@ -1,0 +1,448 @@
+{
+  "format": "r150-original-h0-first-residual-in-actual-second-saturation-v1",
+  "status": "completed",
+  "prime": 31,
+  "sourceSHA256": "d5c14c9c6da88e88e2b09761ca2df275dbf632da839cb43ba04968b22a67c14a",
+  "inputs": {
+    "global": {
+      "file": "/home/runner/work/_temp/isp-r150-one31-h0-all198-input/global-check/selected-global315-reconciliation.bin.gz",
+      "compressedSHA256": "ab7b852301f1d495bef67b6322ca6bb54de17a62457a43bd2441177afd8e85f8",
+      "uncompressedSHA256": "a72d753d04169f118c3e4ebac8048307c0d1c6071606a28bcd9d2ff34e6b74b4",
+      "uncompressedBytes": 14847
+    },
+    "four": {
+      "file": "topics/invariant-subspace-problem/notes/r150-four-second-bockstein-actions-789f/43615783424-1/four-second-bockstein-system.bin.gz",
+      "compressedSHA256": "57a5c3314281fd82cd4ba306b7d9c015a543b8aae05fd2713b50b303ca059f2d",
+      "uncompressedSHA256": "f1f6594b19e844dbc8e387cc7efb822d582b26b9348fb8ab03996e985f94188b",
+      "uncompressedBytes": 9592
+    },
+    "first": {
+      "file": "topics/invariant-subspace-problem/notes/r150-high-kernel-bockstein-actions-789f/43605503242-1/complete-infinite-quotient-system.bin.gz",
+      "compressedSHA256": "4a412dec33139ca7f41beb90a9a037e08ff9f2023a47f9e482f7c75ac3794449",
+      "uncompressedSHA256": "b46b9f338f961c33d528651c515fec1335943417574f8b83dd942407b87e7ef2",
+      "uncompressedBytes": 390852
+    },
+    "state": {
+      "file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-state.bin-789f.gz",
+      "compressedSHA256": "5d86da2405f357c165d80d7fc2def5f419163b1e5d5a14bc9fa33fc05fafb60c",
+      "uncompressedSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+      "uncompressedBytes": 1470456
+    }
+  },
+  "actualGlobalSourceRank": 7,
+  "augmentedOriginalFirstResidualRank": 7,
+  "full315JInvarianceVerified": true,
+  "complete315ConstantIdentityVerified": true,
+  "usesPrimaryProjection": false,
+  "basisSourceIndicesOneBased": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "basisPivotRowsOneBased": [
+    181,
+    182,
+    185,
+    186,
+    187,
+    188,
+    189
+  ],
+  "actualSourceDescriptors": [
+    {
+      "family": "first-beta",
+      "label": 199,
+      "sourceCost": 85,
+      "divisionBy31Power": 1
+    },
+    {
+      "family": "first-beta",
+      "label": 200,
+      "sourceCost": 85,
+      "divisionBy31Power": 1
+    },
+    {
+      "family": "old-second",
+      "label": 4001,
+      "sourceCost": 86,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "old-second",
+      "label": 4002,
+      "sourceCost": 86,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "old-second",
+      "label": 4003,
+      "sourceCost": 86,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "old-second",
+      "label": 4004,
+      "sourceCost": 87,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 2,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 3,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 4,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 5,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 6,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 7,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 8,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 9,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    },
+    {
+      "family": "selected-second",
+      "label": 10,
+      "sourceCost": 85,
+      "divisionBy31Power": 2
+    }
+  ],
+  "constantCoefficientMatrix15By9": [
+    [
+      23,
+      11,
+      28,
+      14,
+      2,
+      29,
+      5,
+      6,
+      27
+    ],
+    [
+      29,
+      1,
+      7,
+      26,
+      12,
+      30,
+      13,
+      10,
+      16
+    ],
+    [
+      0,
+      13,
+      16,
+      10,
+      13,
+      5,
+      23,
+      22,
+      15
+    ],
+    [
+      17,
+      6,
+      30,
+      21,
+      0,
+      8,
+      22,
+      24,
+      22
+    ],
+    [
+      25,
+      10,
+      17,
+      29,
+      4,
+      20,
+      11,
+      1,
+      26
+    ],
+    [
+      30,
+      17,
+      0,
+      3,
+      21,
+      3,
+      25,
+      10,
+      7
+    ],
+    [
+      3,
+      6,
+      0,
+      18,
+      7,
+      12,
+      27,
+      0,
+      10
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "selectedBasisCoefficientMatrix7By9": [
+    [
+      23,
+      11,
+      28,
+      14,
+      2,
+      29,
+      5,
+      6,
+      27
+    ],
+    [
+      29,
+      1,
+      7,
+      26,
+      12,
+      30,
+      13,
+      10,
+      16
+    ],
+    [
+      0,
+      13,
+      16,
+      10,
+      13,
+      5,
+      23,
+      22,
+      15
+    ],
+    [
+      17,
+      6,
+      30,
+      21,
+      0,
+      8,
+      22,
+      24,
+      22
+    ],
+    [
+      25,
+      10,
+      17,
+      29,
+      4,
+      20,
+      11,
+      1,
+      26
+    ],
+    [
+      30,
+      17,
+      0,
+      3,
+      21,
+      3,
+      25,
+      10,
+      7
+    ],
+    [
+      3,
+      6,
+      0,
+      18,
+      7,
+      12,
+      27,
+      0,
+      10
+    ]
+  ],
+  "everyFull315ResidualZero": true,
+  "rightHandSideCostBound": 87,
+  "constructiveSourceCostBound": 183,
+  "candidateOriginalTarget": "31*h0*T modulo29791",
+  "candidatePrimitiveSourceFormula": "31*x0 +31*kappa*f + K2*g +961*z",
+  "newVQComputed": false,
+  "fullOriginalTarget31h0Mod29791IdentityNumericallyVerified": false,
+  "characteristicZeroIdentityAsserted": false,
+  "newHighPrecisionOrKernelRunPerformed": false,
+  "matrices": {
+    "actualSources": {
+      "offset": 28,
+      "rows": 315,
+      "columns": 15,
+      "sha256": "d15c630e33759ce045ac44bdc7854a708727618251c62d6f87a1bb97478312b6"
+    },
+    "originalFirstResidual": {
+      "offset": 4753,
+      "rows": 315,
+      "columns": 9,
+      "sha256": "aad1b03714c5eafed9657fa3ad09eb5ae62934d8cf65917e2b4b5079593cecb8"
+    },
+    "constantCoefficients": {
+      "offset": 7588,
+      "rows": 15,
+      "columns": 9,
+      "sha256": "4342fcd427e06dee3f0069c3f72fe5725a7f6f7fbcad2e520b6b61ddb8339a05"
+    },
+    "selectedBasis": {
+      "offset": 7723,
+      "rows": 315,
+      "columns": 7,
+      "sha256": "442f104036889515010997a74b32f395963d0687046ab80fa82990ed3afbde1a"
+    },
+    "basisCoefficients": {
+      "offset": 9928,
+      "rows": 7,
+      "columns": 9,
+      "sha256": "6eaf7ae0dc0086ca4119a2a812aa9874e7415217457c677036d4aa9772bcf10e"
+    },
+    "basisAction": {
+      "offset": 9991,
+      "rows": 7,
+      "columns": 7,
+      "sha256": "94b3356a00870c9028cae752da75602756de97f735ca25f507cdd26fa136044d"
+    }
+  },
+  "system": {
+    "file": "first-residual-in-actual-second-saturation.bin.gz",
+    "bytes": 10040,
+    "sha256": "2d90d72ac72cc63e5531b80a6e788ef82c6bf794481b53546b27b0afcb7134ee",
+    "compressedBytes": 831,
+    "compressedSHA256": "29583cf3f52bb3e78393bd483d80cf7fe5947199a09a4adc87a1ceee88857043"
+  },
+  "elapsedSeconds": 0.07637788499999942
+}

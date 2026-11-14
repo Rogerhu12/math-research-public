@@ -1,0 +1,213 @@
+{
+  "format": "r150-one31-h0-lossless-generated-certificates-v1",
+  "pipelineStatus": "completed",
+  "partialCheckpointIsNotIdentity": true,
+  "files": [
+    {
+      "originalFile": "inputs/original-h0-x0-uniform.bin",
+      "uncompressedBytes": 4038170,
+      "uncompressedSHA256": "be69eb452c08106e6c032fd42f5a3b2d34e75f16712ec670970e7e9a69f7ed0b",
+      "compressedBytes": 1635119,
+      "compressedSHA256": "834b0cda1c1d041057a44b0e7f3b9ea512f5344734c551e058277853b8615c9a",
+      "parts": [
+        {
+          "file": "certificates/inputs__original-h0-x0-uniform.bin.gz",
+          "bytes": 1635119,
+          "sha256": "834b0cda1c1d041057a44b0e7f3b9ea512f5344734c551e058277853b8615c9a"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/originalX0.bin",
+      "uncompressedBytes": 2121242,
+      "uncompressedSHA256": "265b0b420afd925d72eb1ab2e2e329fe6232644d740a78aede67866da3545c96",
+      "compressedBytes": 1366936,
+      "compressedSHA256": "604cad026d732c3ac693cdbe9e5b0c077b309abfd82408ca8b1f0b4c1485aa2d",
+      "parts": [
+        {
+          "file": "certificates/inputs__originalX0.bin.gz",
+          "bytes": 1366936,
+          "sha256": "604cad026d732c3ac693cdbe9e5b0c077b309abfd82408ca8b1f0b4c1485aa2d"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/r1NF.bin",
+      "uncompressedBytes": 522422,
+      "uncompressedSHA256": "5016b8e42f2ef1b36c9107b95616a190a47697b640599cb9eb98b2476be8f317",
+      "compressedBytes": 354426,
+      "compressedSHA256": "c408146e3b8bdf791d6ba78b9c8954d367a82b48d90a77ee5fac05e4ca0abdc6",
+      "parts": [
+        {
+          "file": "certificates/inputs__r1NF.bin.gz",
+          "bytes": 354426,
+          "sha256": "c408146e3b8bdf791d6ba78b9c8954d367a82b48d90a77ee5fac05e4ca0abdc6"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/r1Q.bin",
+      "uncompressedBytes": 795865,
+      "uncompressedSHA256": "1affe414767f1820fcf0deebe728d409fddaea45636393530f710b7e0bbef284",
+      "compressedBytes": 525203,
+      "compressedSHA256": "672980ea06796b8c5ad9a572b050745fef1df43f14bdfd3b346c3f7d794dae99",
+      "parts": [
+        {
+          "file": "certificates/inputs__r1Q.bin.gz",
+          "bytes": 525203,
+          "sha256": "672980ea06796b8c5ad9a572b050745fef1df43f14bdfd3b346c3f7d794dae99"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/r1Rem.bin",
+      "uncompressedBytes": 2450,
+      "uncompressedSHA256": "f3efdaf748571cd830decf3e67b87d9821f1508cc794a6eecd93b5a6a1260e45",
+      "compressedBytes": 1271,
+      "compressedSHA256": "416149567586f845130be4a76b0e782a7f500caa890815c2de6c9cd4d9148f1e",
+      "parts": [
+        {
+          "file": "certificates/inputs__r1Rem.bin.gz",
+          "bytes": 1271,
+          "sha256": "416149567586f845130be4a76b0e782a7f500caa890815c2de6c9cd4d9148f1e"
+        }
+      ]
+    },
+    {
+      "originalFile": "inputs/r1Trace.bin",
+      "uncompressedBytes": 5597494,
+      "uncompressedSHA256": "6e1e0894d6cafa180f482129e19a387e64f401a28f566e96eefcb2b9761742be",
+      "compressedBytes": 3755513,
+      "compressedSHA256": "5d47053300382065d1715b70a0d1db2116d51a08d3a8158b4102ff80fe10fae4",
+      "parts": [
+        {
+          "file": "certificates/inputs__r1Trace.bin.gz",
+          "bytes": 3755513,
+          "sha256": "5d47053300382065d1715b70a0d1db2116d51a08d3a8158b4102ff80fe10fae4"
+        }
+      ]
+    },
+    {
+      "originalFile": "one31-h0-image/one31-h0-image-image-quotients.bin",
+      "uncompressedBytes": 814193,
+      "uncompressedSHA256": "fbb540e67b51b8af5819e215f7327e6701797f64c556e5d4ce3030810f43d773",
+      "compressedBytes": 537310,
+      "compressedSHA256": "b234932b3137a5e95bc087b22d28aa80bf7e7fc0aeac9baf9a5dcf28347f3a24",
+      "parts": [
+        {
+          "file": "certificates/one31-h0-image__one31-h0-image-image-quotients.bin.gz",
+          "bytes": 537310,
+          "sha256": "b234932b3137a5e95bc087b22d28aa80bf7e7fc0aeac9baf9a5dcf28347f3a24"
+        }
+      ]
+    },
+    {
+      "originalFile": "one31-h0-image/one31-h0-image-image-remainders.bin",
+      "uncompressedBytes": 110,
+      "uncompressedSHA256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a",
+      "compressedBytes": 63,
+      "compressedSHA256": "b9ce4f9f0c409e59f293f836ff5565df79149e34424350db59fc46a64bd4ee21",
+      "parts": [
+        {
+          "file": "certificates/one31-h0-image__one31-h0-image-image-remainders.bin.gz",
+          "bytes": 63,
+          "sha256": "b9ce4f9f0c409e59f293f836ff5565df79149e34424350db59fc46a64bd4ee21"
+        }
+      ]
+    },
+    {
+      "originalFile": "one31-h0-image/one31-h0-image-normal-forms.bin",
+      "uncompressedBytes": 550811,
+      "uncompressedSHA256": "bf7d6ac719025fa0a1f236d5229db98b0e598d557128deb1793fc633680742f8",
+      "compressedBytes": 373398,
+      "compressedSHA256": "f8544e7ecec265b8116a1c1913a7c1eca8c4353ede5eda79c6211281a63660e0",
+      "parts": [
+        {
+          "file": "certificates/one31-h0-image__one31-h0-image-normal-forms.bin.gz",
+          "bytes": 373398,
+          "sha256": "f8544e7ecec265b8116a1c1913a7c1eca8c4353ede5eda79c6211281a63660e0"
+        }
+      ]
+    },
+    {
+      "originalFile": "one31-h0-original/one31-h0-original-original-seventeen-source-mod29791.bin",
+      "uncompressedBytes": 4978086,
+      "uncompressedSHA256": "40be10e9568a47a6c01061ea1e80e93b8d628666ce638b75f26c47e4f22c4e2b",
+      "compressedBytes": 4757714,
+      "compressedSHA256": "9e1407b3adc6cbcb91e3603f41f199af5ef075cc229a3b5ce0da009494ac9d6c",
+      "parts": [
+        {
+          "file": "certificates/one31-h0-original__one31-h0-original-original-seventeen-source-mod29791.bin.gz.part001",
+          "bytes": 4500000,
+          "sha256": "2fdc754219db1544ccaee895afdf9a98477651ee87476af0ee0406a2ae469855"
+        },
+        {
+          "file": "certificates/one31-h0-original__one31-h0-original-original-seventeen-source-mod29791.bin.gz.part002",
+          "bytes": 257714,
+          "sha256": "f54411f70d90d11894ac79acb27ab91f7d408d290a4ebd085658270741e10833"
+        }
+      ]
+    },
+    {
+      "originalFile": "one31-h0-original/one31-h0-original-primitive-source-mod29791.bin",
+      "uncompressedBytes": 4978086,
+      "uncompressedSHA256": "fe887a6261899519f171e7562796f5a1e8a141f0c4b479cd744dc703ca89a8fc",
+      "compressedBytes": 4754657,
+      "compressedSHA256": "c31166348e42c7444753bf5733e625fccde613a8f7803120c737ffe5a9b3290b",
+      "parts": [
+        {
+          "file": "certificates/one31-h0-original__one31-h0-original-primitive-source-mod29791.bin.gz.part001",
+          "bytes": 4500000,
+          "sha256": "8e27232900b9cf9cc892319a699af8459aab985ba4f050727afc244d5de9fb76"
+        },
+        {
+          "file": "certificates/one31-h0-original__one31-h0-original-primitive-source-mod29791.bin.gz.part002",
+          "bytes": 254657,
+          "sha256": "d6c526e77a84c057e4e7159c12e54e05a9a3dc1c408afa9802aac08ba68646b7"
+        }
+      ]
+    },
+    {
+      "originalFile": "one31-h0-source/one31-h0-source-standard-coefficients.bin",
+      "uncompressedBytes": 568677,
+      "uncompressedSHA256": "de05bcfb8ca2a7eb3fd40fb0e760aa1ec5c0d51b14b3ab42a7c1db665c426d2e",
+      "compressedBytes": 368228,
+      "compressedSHA256": "ce0e7d3ad0dc76654b27a8523a755d76e3ce393ea1027a7338d46c8b259139f4",
+      "parts": [
+        {
+          "file": "certificates/one31-h0-source__one31-h0-source-standard-coefficients.bin.gz",
+          "bytes": 368228,
+          "sha256": "ce0e7d3ad0dc76654b27a8523a755d76e3ce393ea1027a7338d46c8b259139f4"
+        }
+      ]
+    },
+    {
+      "originalFile": "one31-h0-source/one31-h0-source-vq-checkpoint.bin",
+      "uncompressedBytes": 6247636,
+      "uncompressedSHA256": "5332da24708ccd00a1c95a383ca07b75b661200ef30c311706fd8cb6ece14969",
+      "compressedBytes": 2109130,
+      "compressedSHA256": "9f660be8f29ad0a3fc0d6a115ffe6a328446106dea0f2094945dacd88707342e",
+      "parts": [
+        {
+          "file": "certificates/one31-h0-source__one31-h0-source-vq-checkpoint.bin.gz",
+          "bytes": 2109130,
+          "sha256": "9f660be8f29ad0a3fc0d6a115ffe6a328446106dea0f2094945dacd88707342e"
+        }
+      ]
+    },
+    {
+      "originalFile": "one31-h0-transport/one31-h0-transport-primitive-source-mod31.bin",
+      "uncompressedBytes": 4255848,
+      "uncompressedSHA256": "c72ae0de4a69b3d611770b97430788736037ba8327d1a66747952235ffec24a6",
+      "compressedBytes": 1722780,
+      "compressedSHA256": "d00caaec65b452c732fa4987eb6a09a4f32a7f51d1d01a136af9f4364cb841f0",
+      "parts": [
+        {
+          "file": "certificates/one31-h0-transport__one31-h0-transport-primitive-source-mod31.bin.gz",
+          "bytes": 1722780,
+          "sha256": "d00caaec65b452c732fa4987eb6a09a4f32a7f51d1d01a136af9f4364cb841f0"
+        }
+      ]
+    }
+  ]
+}
