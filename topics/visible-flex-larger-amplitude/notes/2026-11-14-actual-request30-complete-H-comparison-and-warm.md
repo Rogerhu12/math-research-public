@@ -359,3 +359,19 @@ failure is evidence about this direction, not an instruction to alter
 that already frozen branch or relax its domain checks. Any later
 accepted full-DN field still requires the original nonlinear native
 response, final audit, complete BVP gates and geometric readouts.
+
+
+## 10. Subsequent complete byte-identity audit
+
+A subsequent read-only audit checked all 68 B NPZ files and 421 contained
+arrays, including concatenation identities for the seven full
+B/Gamma/Pi/beta blocks. It checked all 62 full-H NPZ files and reassembled
+48 array references corresponding to 30 unique complete arrays. The
+first column of the saved 236036-by-18 basis is byte-identical to the
+actual raw LSMR direction, identity
+`10579c066f064aa58716e53980e228c9d5a78f1ce6eb84948c4b09ae0925be7c`.
+The 12 mathematical source identities, actual parent29 warm/status and
+entire preserved producer chain, complete 699-node field/RHS data, and
+selected final C direction/evidence matched all saved bindings. Only
+stored bytes, shapes and hashes were compared; no scientific matrix
+action was recomputed locally.

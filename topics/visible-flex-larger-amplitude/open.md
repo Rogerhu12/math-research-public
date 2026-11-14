@@ -34,7 +34,7 @@
 
 [28完整捕获](notes/2026-11-14-actual-request28-native-linear-defect.md) 已保全部J/r/δ/原σ/cut/far及全29数组/116chunks。原σ浮点缺陷最大7.3718085303337e40在stage43/Pi110，cut/far0；原delta有限但巨大。极大chart condition不是全A条件数或全A奇异证明；普通float缺陷也不是保存binary数组的精确实数缺陷。
 
-[原band接口](notes/2026-11-14-native-captured-band-correction-interface.md) 直接消费同保存A，原σ显式行列尺度、129248维/kl112/ku335带主元分解，恢复后回原方程读取全部旧/新缺陷，并在Actions对原/新最坏行算精确有理见证。31/33只在输入发布失败，没有科学执行，事实分别见 [31](notes/2026-11-14-actual-request31-artifact-publication-failure.md)、[33](notes/2026-11-14-actual-request33-read-only-publication-order.md)。34先完成移动再只读封存，run43615494107科学步骤已success，实际结果正在完整记录；保持同band数值源和同28输入。
+[原band接口](notes/2026-11-14-native-captured-band-correction-interface.md) 直接消费同保存A，原σ显式行列尺度、129248维/kl112/ku335带主元分解，恢复后回原方程读取全部旧/新缺陷，并在Actions对原/新最坏行算精确有理见证。31/33只在输入发布失败，没有科学执行，事实分别见 [31](notes/2026-11-14-actual-request31-artifact-publication-failure.md)、[33](notes/2026-11-14-actual-request33-read-only-publication-order.md)。[34实际带状重解](notes/2026-11-14-actual-request34-native-band-exact-defect.md) 完成同原矩阵LU，info0而新原σ浮点缺陷仍4.1558709373255425e30；同stage43/Pi110精确原数组值5.2938027944720597e30给严格full-model下界。此巨大δ暂不派trial；下一同J幂二行列均衡及精确原误差修正，保原尺度/方程与每次实际改善。
 
 后续依据真实线性证据改进同保存系统；原试步重放入口可消费真正新方向，保原十档alpha、完整原evaluate/guard/merit且不重复同J。试步接受仍不能冒原native/J/audit接受。全行exact dyadic读回组件另行准备，不能把它加成README外的新门。
 
