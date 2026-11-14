@@ -54,7 +54,7 @@ R171固定p43、776bitq的真实自局部λq=16已算，但该q早被Gaussian5�
 
 R219真实忠实普通U及H90接口，原像X须生成上域实子域（次数1892）；真K子域乘积/43次幂不能产生。R239给V7/V42等明确小目标；R243以完全饱和单位求元素Norm核三维，仍非上域普通单位Norm。R250精确射线Γ作用与长度2结构已证，ρ/长度/L仍未实测。普通非单位见证外支撑正Artin修正不可省。继续忠实Norm或等价后阶可积性；小11次特征结果不能代替χ±1。
 
-## 当前执行与精确缺口（R724、R722）
+## 当前执行与精确缺口（R726、R724、R722）
 
 压缩前全部公式、来源及路线边界保存于[完整检查点](notes/2026-11-14-open-checkpoint-through-R721.md)；
 以下以最新已证接口继续，已完成计算不重跑。
@@ -73,7 +73,19 @@ $A(\mathbb Q)\otimes\mathbb Q=F\beta$ 且对数同构。
 [R714](results/R714-global-visible-count-and-sublogarithmic-divisor-primitive-region.md)
 在保留 $\kappa_p^m$ 和全部 signed-ray 后给明确充分区域，
 含固定 $\omega((p+1)/3)$ 的充分大素数及其所述次对数 $J$ 区域；
-尚未覆盖全部 $p$。
+该估计自身不覆盖全部 $p$，现由下述 R726 补上充分大范围。
+
+[R726](results/R726-uniform-original-primitive-nonvanishing.md)
+现去掉因子形状限制：对全部充分大的 $p\equiv2,5\pmod9$，
+原本原 signed-ray 误差的 Gaussian 权和 $\mathcal B_p\to0$。
+固定阶的小高度点用乘法独立性、模 $p$ 注入和分裂素理想赋值计数；
+大阶用 Rankin 乘积，所有无穷尾完整保留。
+原 $E_1$ 核逐点有 Gaussian 比较，故两误差分别 $o(1)$、$o(\log p)$，
+接同一原轨道/Gross–Zagier 接口，得指定 $\beta$ 非挠、
+$A(\mathbb Q)\otimes\mathbb Q=F\beta$ 和原 log 同构。
+不存在关于 $\omega((p+1)/3)$、radical 或素数密度的前提。
+有效阈值以下的有限层仍需原较锐证书；
+此结论不提供高度矩阵或实际共同无根，主目标仍 OPEN。
 
 [R719](results/R719-p137147-original-primitive-visible-enumeration-certificate.md)
 已闭合实际137147此前提：公开 run43597653737 的945171点、

@@ -2,6 +2,8 @@
 
 Date: 2026-11-14. Status: proved; the complete inequalities and their original-quotient interfaces have been independently reviewed.
 
+Subsequent update, 2026-11-14: [R726](R726-uniform-original-primitive-nonvanishing.md) proves the original nonvanishing conclusion for every sufficiently large prime in the stated residue classes, with no divisor-count condition. The explicit bounds of this result remain useful below that asymptotic range. The actual height problem remains open.
+
 This result concerns the two **original** families in R616. It does not
 replace the positive cubic quotient by the opposite cubic twist. The new
 input is a bound for the small-radius part of the primitive average that

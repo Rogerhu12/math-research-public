@@ -136,3 +136,6 @@
 
 
 - **R722（实际目标完整认证）**：[137147原M2单位与完整深盘Abel结论](results/R722-actual-M2-unit-at-137147-and-deep-Abel-isometry.md)。公开run43602664971复用四有效bin，独立精确相位使137148 trace全唯一，精确p6恢复原P105522、vM2=0、M2²/ζ²53970。原Cp80155与全Tate尾给v(s)>7/2仅中心、p4盘准确等距；另两scalar根的二次因子Eisenstein、vs7/2且非Qp。5992既成窗口的候选Qp深盘scalar非回零闭合；原KS与完整高度保留，未得高度排根。
+
+
+- **R726（一般充分大素数，已证明）**：[原CM点差的统一本原非消失](results/R726-uniform-original-primitive-nonvanishing.md)。固定o的小高度点由乘法独立性、模p注入与素理想赋值投影给N_o(H)≤C_AH^1/2；大阶Rankin、全部可见格点和完整无穷尾合得B_p→0。保留原κ_p^m与signed-ray，E1逐点Gaussian比较给原两均值误差o(1)/o(logp)，所有充分大p≡2,5mod9的指定L′(g+)L(g−)非零、原β给MW基和log同构；不再限制ω/radical，不声称实际高度排零。
