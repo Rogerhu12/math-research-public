@@ -567,3 +567,9 @@ run43653825736数学10.637003360s/driver10.787922386s child0，native18990ac2…
 推送 C1–27 完整证明，正文 SHA256 c6379d7a14aa4b8a616a986b7322ae1ed9258bd6dd54fa4abd03e9969c694c01。根逐项核对中心光学 determinant-one 变换、完整端口费用、三段 generator 比、全浅层 retained 计数与权包络。实际五盒支集/参数保持，K_o=2^33792使外 D+=2^-65536D129；改变的是辅助浅层频率平台，不改物理对象。所有浅前缀重新计数，未只给旧集加两行。固定C_R的真实线 v_t=M²v、mean v0t=0 保完整远端反射，其与N参考的2^160ε差独立记账；全帽、两个mean和非径向剩余仍须联立。
 
 两README在 388e7d690a31a9aa205bfb02157eead6aeccad8d 只读核未变；该核不是git pull。继续同表示weighted余项/真帽闭合与完整第一修正源，不停在径向谱选择。
+
+## 2026-11-14 23:51:17 UTC 严格外段的准确有序第一修正输运
+
+推送 E1–25 合同，正文 SHA256 557dd24e61fd7b6ab5b41c4d4164b508c46c51b16c5387ea5c716eb4f855dbd7。根核 DT=QXφ、DX=−QTTφ 后的矩阵顺序、f=(fa,fb)次序、M0逆分母G²B+²、forcing径向导负μ项以及k第三导号数。两次Z导数仅需一次Fρ；实际第三leading由同piece旧jets与正h_I取得，不索新K4/5/FFT。内窗固定[rlo−9e−6,rhi+9e−6]，外侧对所有真根ρ≥9e−6；未乘cutoff、不重置根正规化，真正物理seam单列。
+
+两README于 7f0ebec42c9a1c67703cd6006132c72204623e6f 只读核未变。继续公有Actions外段consumer与内窗全S九词/独立mean消费；该解析合同不冒称数值strong或cutoff闭合。

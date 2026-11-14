@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [旧径向有序输运与严格外段第一修正导数](results/R133-supplement-ordered-old-radial-transport-and-strict-exterior-first-correction-derivatives.md)：E1–25 准确推出 Zρ=CZφ+MZ−N(fa,fb)，一次 forcing 径向导数已足以重建 w1,rr；完整 Fρ 保 −(μρ/μ)F，leading 第三导只消费既有 third jets 与真实离根距离。内外分同一 root-normalized 解的积分，无人工cutoff/重置；全部物理seam和旧圆余项继续保留，数值consumer进行中。
+
 - [新外五盒 generator、全频公共点及原层权](results/R119-supplement-new-outer-five-cube-generator-and-complete-radial-spectral-weights.md)：C1–27 以实际中心到两root常数 K_o=2^33792 支付外 generator；浅层统一 T_j^+=max(T_j,2^131072)，重新计数全部 retained 窗，保持相邻频率权；同一公共点给完整径向 weighted inverse，v_j^+=2^-464800 J^-4165 δ^(1073/32)。准确外线固定独立 C_R，v_t=M²v、mean v0t=0；与N的简化参考差另计，未代入真帽或宣称非径向闭合。
 
 - [新外双相位、固定标量表示与完整高反馈](results/R119-supplement-new-outer-joint-two-phase-scalar-normal-form-and-high-feedback.md)：J1–28 在新 fixed-stop 对象上联立全部 Γ1/Γ2；真实控制方向保留径向 inverse 的显式导数，完整 first-phase 同调与两个强窗付清，实际受影响两行 (129,1)/(129,2) 均取 2^24000，cut 2^131072 后无层权 HH<2^-1024。mean、低历史、CR、ν和全部源列仍在；加权中间系统与真帽尚待接合。
