@@ -604,3 +604,7 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 
 正式note64570236保存62接受1/4、最近1/2既有left467/481/mid473也失败及完整Actions readback范围；全部原门/真实父链保持，warm与仿射FD不冒闭场。每条新结论即时发布，旧尝试不重跑。
 共享visible-larger-public-condensed-qp.yml为63只换实际62 warm/status、own18 schema、相同全部预算/新FD；四scientific源不变，publisher改当前dff4c623 pin。完整diff已读；terminal断线故按根Rule8只小文本API正常接main，不强推。61普通重接三次后cf6b5119入main，实际run43645948199全部起步检查PASS并开始原solve；独立规则镜像22:02:58真pull已读c383317e、双README不变。下一步消费实际61/63并继续完整BVP、闭合及README全指标。
+
+## 2026-11-14 22:08 UTC：终端恢复并回到真实公开Git同步
+
+原公开partial checkout保留，旧adapter/QR/publisher逐字SHA同已发布；四旧dirty件先Git stash保全，原接口15112B/5d79526c与断线重建稿的差异另只读比较。实际pull到1d3cbd609aa058eab26a3b365d1ba4b801fe2fb3，双README diff为空，H记真实提交。/tmp恢复后为空，旧下载缓存不冒仍在；公开原件与已完成审计不变。现恢复终端普通push，不再用connector传本课题文件。61/63 Actions继续；下游多请求live TailClient扩展在独立source内推进，不复用非零缓存。

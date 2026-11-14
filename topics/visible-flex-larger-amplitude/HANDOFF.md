@@ -6,9 +6,9 @@
 
 Only public Rogerhu12/math-research-public. Main commits/pushes/Actions authorized; never private. PAT only transient CLI environment, never files/logs/commits/connector. ALL science only this public repository's Actions. Local only source/static/original-output parsing and SHA/size/shape/IEEE/signed-zero; no RHS/J/ODE/matrix/norm/Fraction or candidate arithmetic.
 Before push and >=hourly: true pull --rebase origin main; check both README blobs, read changed diff/obey/record actual commit. NFF/concurrent-ref rejection: ordinary rebase/push loop, no force. Root owns Git/H/open/log/workflows. Rule12: complete proofs directly results/index, no extra approval gate. H<10000B, MD<100KB, open~<30KB, >1MB data gzip, files<5MB; big arrays artifact-only. No root LOG/fullclone/gc/maintenance.
-21:39 UTC shared exec-server unavailable, recovery timed out. Rule8 small-text connector fallback active: only text<100KB, no binary or split large-file transport. Four61 source blobs exactly match pre-outage frozen SHA/real AST+Node checks. PAT never sent to connector. Root publishes small text against current main without force. The Actions rule runner3b8b6dd5 uses a separate partial clone for real pull/README/H every2700s; scientific checkout stays at triggering SHA.
+21:39 UTC exec-server unavailable;22:07 terminal recovered, real pull done, ordinary terminal Git resumes. During outage Rule8 only text<100KB/no binary or split transport. Four61 source blobs exactly match pre-outage frozen SHA/real AST+Node checks. PAT never sent to connector. Root publishes small text against current main without force. The Actions rule runner3b8b6dd5 uses a separate partial clone for real pull/README/H every2700s; scientific checkout stays at triggering SHA.
 Prior repo=/workspace/scratch/visible-larger-recovered-20261114-1843/math-research-public; explicit bash/login=false/workdir (defaultcwd broken). Parent sync_public.py resumes normal Git with MR_PUSH_TOKEN when terminal works. Sparse files may disappear on rebase: git show HEAD:path/mkdir/git add --sparse.
-Reader=/tmp/visible-larger-actions-1848/actions_public.py; root-only big downloads/transient MR_READ_TOKEN.57/58/59/60 local caches explicitly partial after published audits; parentpairs/smallfiles/receipts retained. Public artifacts unchanged.
+Recovery cleared all old /tmp readers/caches; all published source/artifacts remain. Root rebuilds own reader and downloads only needed actual outputs. Prior root public repo survives, pre-outage edits preserved in Git stash; old source hashes match published bytes. Public artifacts unchanged.
 
 ## Goal and fixed inputs
 
@@ -49,4 +49,4 @@ Closure preserves physical/z0/materialcutangle mean ninejets/coreball exclusion/
 Freeze scalar p*/g/interval/t/caps;release allcore K=k=0,T=M,same-g v4dim450/514;same live TailClient newH/J->FD->fullmain->fresh audit.699bisected1397 needs actualbudget>1200.
 R248strongC2/R241allpairsreach/R238/254/258reflection/R251operator await realfield.16fixtures/oldsmall cases done;held allblocks/twocaps/fullD independentofreach.R259backup unrun;R238-273indexed. Numerical evidence not rigorous existence.
 
-规则同步记录：2026-11-14 22:02:58 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c383317e2c959e7af26e401b240d97ff8d13cf29。
+规则同步记录：2026-11-14 22:07:53 UTC 真实本地 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1d3cbd609aa058eab26a3b365d1ba4b801fe2fb3。
