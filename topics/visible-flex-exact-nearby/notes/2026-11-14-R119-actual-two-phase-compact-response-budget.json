@@ -1,0 +1,297 @@
+{
+  "status": "passed",
+  "producer": "new SymPy exact identities and Python Fraction budgets",
+  "utc": "2026-11-14T07:20:03.753102+00:00",
+  "all_passed": true,
+  "gate_count": 59,
+  "gates": [
+    {
+      "name": "complete drift-density action identity",
+      "passed": true
+    },
+    {
+      "name": "complete radial divergence boundary density",
+      "passed": true
+    },
+    {
+      "name": "beta compact action coefficient",
+      "passed": true
+    },
+    {
+      "name": "two compact integrations by parts retain signs",
+      "passed": true
+    },
+    {
+      "name": "quartic first actual radial derivative",
+      "passed": true
+    },
+    {
+      "name": "quartic second actual radial derivative",
+      "passed": true
+    },
+    {
+      "name": "quartic third actual radial derivative",
+      "passed": true
+    },
+    {
+      "name": "complex normalized J denominator",
+      "passed": true,
+      "upper": "129/1024"
+    },
+    {
+      "name": "complex full D denominator",
+      "passed": true,
+      "upper": "2177/1048576"
+    },
+    {
+      "name": "positive-branch complex square-root upper",
+      "passed": true
+    },
+    {
+      "name": "positive-branch complex square-root lower",
+      "passed": true
+    },
+    {
+      "name": "wave factor and inverse both below two",
+      "passed": true
+    },
+    {
+      "name": "complete angular density derivative",
+      "passed": true
+    },
+    {
+      "name": "scaled action complete linear bracket",
+      "passed": true,
+      "upper": "7049/1536"
+    },
+    {
+      "name": "scaled action analytic bound",
+      "passed": true
+    },
+    {
+      "name": "five-direction Cauchy disk fits",
+      "passed": true
+    },
+    {
+      "name": "full mixed coefficient Cauchy constant",
+      "passed": true
+    },
+    {
+      "name": "state radial first-jet coefficient reserve",
+      "passed": true
+    },
+    {
+      "name": "state radial second-jet coefficient reserve",
+      "passed": true
+    },
+    {
+      "name": "direct action first derivative reserve",
+      "passed": true
+    },
+    {
+      "name": "direct action second derivative reserve",
+      "passed": true
+    },
+    {
+      "name": "explicit gauge action derivative reserve",
+      "passed": true
+    },
+    {
+      "name": "sum of all three direct action terms",
+      "passed": true
+    },
+    {
+      "name": "physical dt and beta coefficient preserve rho5",
+      "passed": true
+    },
+    {
+      "name": "strict full hat action plus true integral",
+      "passed": true
+    },
+    {
+      "name": "root finite-part and both graphs",
+      "passed": true
+    },
+    {
+      "name": "root weighted integral factor",
+      "passed": true
+    },
+    {
+      "name": "full beta response forcing constant",
+      "passed": true
+    },
+    {
+      "name": "direct beta difference is covered",
+      "passed": true
+    },
+    {
+      "name": "principal row normalization is covered",
+      "passed": true
+    },
+    {
+      "name": "radial two-phase inverse block",
+      "passed": true
+    },
+    {
+      "name": "actual per-row KAM angular derivative series",
+      "passed": true,
+      "upper": "10485760/31"
+    },
+    {
+      "name": "local KAM derivative retains row size",
+      "passed": true
+    },
+    {
+      "name": "whole-parameter beta Cauchy row",
+      "passed": true
+    },
+    {
+      "name": "whole-parameter ray Cauchy row",
+      "passed": true
+    },
+    {
+      "name": "conjugacy mean normalization row",
+      "passed": true
+    },
+    {
+      "name": "complete prefix and all-rows weight reserve",
+      "passed": true
+    },
+    {
+      "name": "joint actual matrix feedback exponent",
+      "passed": true,
+      "log2_upper": -888281
+    },
+    {
+      "name": "complete infinite parameter solution bound",
+      "passed": true
+    },
+    {
+      "name": "true deep row after full inverse",
+      "passed": true
+    },
+    {
+      "name": "true row feedback absorbs on reachable input",
+      "passed": true
+    },
+    {
+      "name": "additional physical output derivatives remain in paid window",
+      "passed": true
+    },
+    {
+      "name": "higher output root delta fee",
+      "passed": true
+    },
+    {
+      "name": "higher output strict delta fee",
+      "passed": true
+    },
+    {
+      "name": "higher output J fee",
+      "passed": true
+    },
+    {
+      "name": "full output derivative constant reserve",
+      "passed": true
+    },
+    {
+      "name": "complete direct Hamiltonian kernel coefficient",
+      "passed": true
+    },
+    {
+      "name": "whole local Gamma metric contribution",
+      "passed": true,
+      "exponent": 21718
+    },
+    {
+      "name": "whole local Gamma delta power",
+      "passed": true,
+      "exponent": "8599/128"
+    },
+    {
+      "name": "whole local Gamma J power",
+      "passed": true
+    },
+    {
+      "name": "actual first layer local Gamma contribution",
+      "passed": true,
+      "log2_upper": -487902
+    },
+    {
+      "name": "all-layer J92 ratio",
+      "passed": true
+    },
+    {
+      "name": "all-layer J92 fractional comparison",
+      "passed": true
+    },
+    {
+      "name": "local Gamma contribution decreases along true deep tail",
+      "passed": true
+    },
+    {
+      "name": "complete parameter-induced state response",
+      "passed": true
+    },
+    {
+      "name": "all-parameter background response constant",
+      "passed": true,
+      "exponent": 181176
+    },
+    {
+      "name": "actual first layer all-parameter background response",
+      "passed": true,
+      "log2_upper": -1442166
+    },
+    {
+      "name": "all-parameter background response tail decreases",
+      "passed": true
+    },
+    {
+      "name": "all four actual form errors leave d over eight",
+      "passed": true
+    }
+  ],
+  "scope": {
+    "object": "current full controlled tail on actual reachable X<=2^-1048576",
+    "direction": "fresh unused strict compact support; two actual radial phase annihilators",
+    "new": [
+      "full finite-part beta response with rho5",
+      "joint infinite two-parameter derivative with true row bounds",
+      "complete negative-pocket form along actual Gamma-star"
+    ],
+    "retained": [
+      "two physical traces and two means",
+      "all output angular modes and opposite cone",
+      "ordinary and weak affine source columns and actual weak endpoint traces"
+    ],
+    "not_granted": [
+      "nonzero finite-box radial compensation deleted",
+      "mixed-frequency cluster positivity",
+      "same-Hs norm derivative of a bare pullback",
+      "whole-network or nonlinear outer F inverse"
+    ]
+  },
+  "bounds": {
+    "parameter_row_bits": 1120,
+    "parameter_global_bits": 161140,
+    "parameter_matrix_feedback_log2": -888281,
+    "gamma_form_first_layer_log2": -487902,
+    "gamma_background_first_layer_log2": -1442166,
+    "complete_form_lower_fraction_of_d": "1/8"
+  },
+  "file_sha256": {
+    "results/R119-supplement-actual-two-phase-compact-response-and-complete-pocket-form.md": "867a63d7a90729bb634d6ed503e84bf3aa950a3fd895723c938aa10389191066",
+    "results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md": "8c883e951c8b3771417ea4d0c6285b7f29902d38c636f051200848e65b3335fe",
+    "results/R119-supplement-actual-compact-profile-label-response.md": "ce7285a1e7818098e64ce68d706e0830f2d2dbc020e531fb2bc898af702f0030",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "results/R119-supplement-actual-nonradial-first-density-phase.md": "a43a5cb70d3aedee20d47dcb17d4d345422d4012628d3bdb59a806de82d82dc8",
+    "results/R119-supplement-actual-joint-analytic-root-and-relative-Airy-Cauchy.md": "6f12b6a6a79bdff8deb26e9092e46ab08463e19064912d518d50c981e592741a",
+    "results/R119-supplement-actual-root-graph-to-fixed-radial-two-port.md": "87f7886c8fc9566c351687a8a6e10d4fa67400ef2482811ec78531d16cfcfe0d",
+    "results/R119-supplement-stronger-tail-joint-actual-return-KAM.md": "143a213914c048141b0c42f72120b903b15fde66fa31234a37196d4c5b6ebc54",
+    "results/R119-supplement-controlled-tail-actual-joint-phase-and-remainder.md": "27325857e088e8266a322bcabe82c59a6cc1f06f225b2616c8490b553af5d45c",
+    "results/R119-supplement-joint-actual-principal-and-beta-selection.md": "d0985a27e0c6a5e6dff4fe264e51e495a8cbc2ea293fbc84f82c35a9dfd4dac9",
+    "results/R133-supplement-actual-compact-ray-endpoint-response.md": "a368b51e8997019373cdb3f9e98214524a86f6940ef8750c328814fd0aef31ba",
+    "source": "71465cc18978931ae60e7bc35d16588937d56998c1553a0a7e230940db1046cc"
+  }
+}
