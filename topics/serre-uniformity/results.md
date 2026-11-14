@@ -223,3 +223,6 @@
 
 
 - **R751（精确构造公式已证明）**：[原全部周期在既有280次域的压缩](results/R751-original-period-compression-in-the-retained-degree-280-field.md)。完整finite/tame反作用与CRT给每h仅40加法周期，原3-torsion正核、逆θ及携权μ6和完整；Miller固定正ξ、原实目标−ζ相位消全部根式，保原六微分/800闭链。42列有限Hom核与全链验证明确，实际数表/核基由R754继续；不预设清分母整数或KS为p单位。
+
+
+- **R755（已证明）**：[原flat目标的准确dual Γ/scalar primitive](results/R755-exact-dual-Gamma-scalar-primitive-for-the-original-flat-target.md)。保完整negative adjoint、Σ支持的正确Sha方向、q quadratic/cubic与2处显式coboundary，给I₀=−〈w,Sflat〉；原Aα满足Iα=ε(21σ₂+2bJ)，I₀=Iα+7εb。全部gauge/primitive选择不变，保已知9ε参考与真实b项，实际ordinary Norm见证/配对仍须求。
