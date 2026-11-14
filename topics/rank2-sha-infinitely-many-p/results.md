@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R547：零charge垂直单位块与原cube单列余项](results/R547-zero-charge-vertical-unit-block-and-actual-cubic-schur-column.md)：原W_F(H)=F EH−2(EF)H在同一H3内零新增charge；T_J=s−r/T_M=s−r−13的强窗给2κ+χ个单位，且其像与全部ξ高epsilon尾交零。联原F²H1在q=T−h>κ时有(5κ+3χ)/2个单位，显示子格只剩原F³一条非单位来源；原其余列、全forcing/carry及与R545两像的联合交仍保留。
+
 - [R540：原六度完整Schwartz与负二Katz点](results/R540-original-degree-six-schwartz-full-weight-and-negative-two-katz.md)：原f4/f1的实际有限角色ξ、导子(6)、二/三处完整环面及Schwartz、Hermite/周期和全权平方已付；固定负二矩准确读取36c4·17^(3/2)Ωp I−2²的primitive Katz值。真实复反射ξ^-1ψ0³根数−1，与f1正一次的ξψ0³不同；全部普通Euler和同CM-type对偶保持，负矩非消失仍未付。
 
 - [R546：第三sigma支的完整五伴随CM转移](results/R546-original-third-sigma-full-five-companion-cm-transfer.md)：原LH整数框架与全部半特征支付第三η支的完整CM13/19转移，三固定投影分离成S2/new/Href乘完整五伴随；质量−1/2、26(1−δ)/3、−1/(1008b)均单位。两原零中央控制任意独立五伴随测试，共同深核心与参考非零环带差全付；混合W/L及全部CM分支、参考/外谱仍保留。

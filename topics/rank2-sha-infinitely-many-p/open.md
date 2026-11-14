@@ -227,3 +227,7 @@ R541第三η支的全部23坐标给N7^9Fη=Fη+S(2z)，原S投影−1/2、E2312�
 ### R540：原固定负二矩的完整算术点
 
 原f4/f1的实际有限角色ξ、导子(6)、二/三处完整环面及Schwartz、Hermite/周期和全权平方已付；固定负二矩准确读取36c4·17^(3/2)Ωp I−2²的primitive Katz值。真实复反射ξ^-1ψ0³根数−1，与f1正一次的ξψ0³不同；全部普通Euler和同CM-type对偶保持，负矩非消失仍未付。见[R540：原六度完整Schwartz与负二Katz点](results/R540-original-degree-six-schwartz-full-weight-and-negative-two-katz.md)。**待做：** 同一原普通地点的ν_−值在无穷p非零，或真实非齐次/椭圆单位比较后与R533两单位域及完整S/T补域联立。不能从根数−1、正一次非零或147点首层证据推这个负点；常数c4若用单位性须另删其固定有限支撑。
+
+### R547：同预算单位块与真实cube余列
+
+原W_F(H)=F EH−2(EF)H在同一H3内零新增charge；T_J=s−r/T_M=s−r−13的强窗给2κ+χ个单位，且其像与全部ξ高epsilon尾交零。联原F²H1在q=T−h>κ时有(5κ+3χ)/2个单位，显示子格只剩原F³一条非单位来源；原其余列、全forcing/carry及与R545两像的联合交仍保留。见[R547：零charge垂直单位块与原cube单列余项](results/R547-zero-charge-vertical-unit-block-and-actual-cubic-schur-column.md)。**待做：** 同一Schur余矩阵中完整R502四项、原其余W_D列及R524连接的实际像；原ξ为[3eξ]∈coker E_q，单项不代完整类。R550继续(F,e)H2理想块与真交概形/镜接触，禁止把R545与垂直块单位数直接相加。
