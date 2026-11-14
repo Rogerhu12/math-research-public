@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **真根锚定特征速度的相关收紧与完整前缀续接（C1–7）**：[证明](results/R133-supplement-root-anchored-characteristic-refinement-and-preserved-prefix.md)。由原已付aρ直接积分得a−a*=ρ∫aρ，以相同解析函数的两个真包络取交；原aρ/aρρ、两coeff与整个成功case不重算。新消费者仅续原失败大域，旧child1/selfmap失败完整保；数值成功须由公开Actions实际门判定。
+
 - **新单根到真实长段的完整正 DN、Airy 返回与全源（P1–32）**：[证明](results/R119-supplement-new-simple-root-complete-positive-DN-Airy-return-and-sources.md)。在新固定stop对象上，整个含零平台的正连接段接真实long；真实mean商和未匹配界面、固定canonical图的复型比较全部保。实际全频Airy返回正逆L²<2，双侧强4/3余项<2^6000 b^(4/3)，含低列、mean和所有角lag；原物理ordinary/weak/原子/外端源有独立合同。尚非联合相位或closed网络；粗long背景界不冒作极小X的尾扰动。
 
 - **锚定辅助复fold与第一强迫的实际一成功一失败**：[报告](results/R133-supplement-actual-anchored-auxiliary-fold-and-direct-leading-first-forcing.md)。43646714623全局child1；Ra=1e−4的13门通过，真逆/直接leading混合导数及完整七项forcing已付，Fb<516.515190375、Fa<1.537928496，原物理9e−6内两项L0w1幅度<2262586.222/<152555541189.154。Ra=5e−4的完整coeff保留，径向selfmap门失败；两coeff与成功case逐字续用，不删旧失败。尚非fullIJ/mean/strong-return或无限维逆。

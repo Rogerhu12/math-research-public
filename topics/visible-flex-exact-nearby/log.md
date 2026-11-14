@@ -431,3 +431,7 @@ visible-exact-astra-0df9全文核科学/CI/worker/flow和20pin；首跑前修a2�
 ### 2026-11-14 22:22:53 UTC — 新简单根完整正区DN、强返回与全源独推
 
 发布P1–32正文25186B，SHA3a2ad25d3fdd51e4c9013a552c93cb125dc0bce55a6dbf9744de54852fb45211。逐项核原新根A15–19、原Airy residual P10–15和真实long D1（L>2^24），补固定buffer的规范Jacobian乘积、weak lift的a角导和高输入PH作用域；全mean/未匹配EB/独立帽源保。纯解析无本机数值计算。上一实际报告首次lease因remote前进被拒，已立即尝试真git pull --rebase；CLI仍报No usable execution environment，按根规8重读新head/两README并保远程重建，第二次正常推送成功。当前只读核9cfd34e23d6ab05fecffbc1ec80f8a68b168ff67两README未变；不虚记本机pull，继续真实long Schur和closed网络。
+
+### 2026-11-14 22:24:17 UTC — 真根特征速度积分交与严格前缀复用合同
+
+独推C1–7（5970B，SHA06f8bdc643d3d931bec8b8d7de472825003b82ca98891ec693bd3374a710016d）。aρ界独立于旧a矩形，根到点直段在原辅助域内，故相关交不循环、不换branch；原最大模另取η+√k+。原成功case/两coeff/rootanchor逐字保，旧failedcase另完整保。当前只读核ffa3daf2e2bfd8783e64ba25f0626f2f9054a097两README无变，终端仍无环境；新数学只交public Actions。
