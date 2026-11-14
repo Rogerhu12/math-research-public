@@ -1,34 +1,43 @@
 {
-  "request": "closed-C1-endpoint-and-complete-P1-matching-with-joint-artificial-chain",
-  "created_at": "2026-11-14 19:33:30 UTC",
+  "request": "one-fixed-g-current-height-constrained-joint-pilot-and-artificial-core-transport",
+  "created_at": "2026-11-14 19:37:16 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "quartic_joint_development",
-    "closed_c1_endpoint",
-    "full_phase_bridge_exact"
+    "quartic_joint_audit",
+    "core_transport_development"
   ],
   "source_sha256": {
     "frame_joint_height_objective.py": "c1a92c46590783fcda8867a5304ab3fcc3c670ad58fce0f079737512f9af69fb",
     "frame_height_quartic_joint_audit.py": "5d65c998eb59274ebccc306f78d1f72918b4590cca14adf7ce98b8c7a833cad9",
-    "literature_closed_c1_endpoint.py": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1",
-    "literature_colored_profile_algebra.py": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f",
-    "literature_full_phase_bridge_exact.py": "c11a4fc54c1d5fc0d227a4229667b567b21c85bdcf8c6cc41b53cfa0d8968681"
+    "frame_core_transport.py": "ea7990328c979f02be7b83db307f5d1b94e69d0ede3e1cc34d9b37a1f357f21d"
   },
-  "joint_artificial_only": true,
-  "real_quartic_or_joint_optimization_requested": false,
-  "closed_C1_actual_complete_compilation": true,
-  "full_phase_actual_complete_compilation": true,
-  "full_phase_scope": "Full outer-slot trilinear T(a;b,c), same real control coefficients jointly match complex modes -4 and -2; retain true five-segment scalar bridge endpoint class",
-  "control_theorems": [
-    "R71",
-    "R77",
-    "R79"
-  ],
-  "normalizer_negative_is_not_a_nonmembership_theorem": true,
-  "successful_height_initialization": {
-    "run": 43630874689,
-    "state_sha256": "f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56",
-    "decoded_report_sha256": "f457282f0a21cd27802748066537caa4cf90c687c63c73d62b0391ce2435d1a3"
+  "joint_development_pass": {
+    "run": 43632772378,
+    "source_commit": "31a276f6f4b2361d10bea9a46fea307a951bb639",
+    "report_sha256": "c541e0c94d683e08f82430632e025b5464ad95349123e00485a155b428587439"
   },
+  "actual_joint_scope": {
+    "fixed_target_metric_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+    "dimension": 163,
+    "quartic_maxiter": 120,
+    "quartic_maxeval": 300,
+    "quartic_seconds": 30,
+    "joint_maxiter": 80,
+    "joint_maxeval": 120,
+    "joint_seconds": 300,
+    "one_quartic_then_one_joint_only": true,
+    "hard_constraints": [
+      "unchanged cap height row",
+      "current signed z nonlinear geometry",
+      "original uv and height boxes; new Q [-8,8]"
+    ],
+    "baseline": 43630874689,
+    "same_state_final_angular_nodes": [
+      384,
+      768
+    ]
+  },
+  "core_transport_artificial_only": true,
+  "research_core_B037_not_requested": true,
   "task_complete": false
 }

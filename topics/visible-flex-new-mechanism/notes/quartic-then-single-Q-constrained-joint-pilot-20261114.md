@@ -131,3 +131,7 @@ python topics/visible-flex-new-mechanism/scripts/frame_height_quartic_joint_audi
 ```
 
 实际命令另需上述四个路径和四个 `--expected-*-sha256`，且只能在 `Rogerhu12/math-research-public` 的真实 Actions 环境运行。输入或中途故障均留下可读小摘要；不会因文件尚未写完而只得到无诊断的空产物。
+
+## 公开人工回执与首轮实际请求
+
+2026-11-14 19:37:16 UTC：run43632772378/source31a276f6全人工链通过，报告c541e0c94d683e08f82430632e025b5464ad95349123e00485a155b428587439。动态signed-z方向Jac误差1.8525e−11，四callbacks共享一次当前几何，cap/box可行但z坏点拒绝、故障保可行best、完整四输入数值poly回放、坏SHA/坏state拒绝、零Q六jet全0均过。16→32人工角比较只是同态路径覆盖，不是误差认证。本次立即请求原冻结driver的一次真实四次+联合，限额/盒/目标不变，不重复人工或旧250步。
