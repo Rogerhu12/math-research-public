@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_finite_head_Green_and_source_component_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43596517945",
   "run_attempt": "1",
@@ -40,9 +40,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:48:13.757752+00:00",
+      "before": "d69ad0dc7720f439c1e1f24b67b1ffa191281094",
+      "after": "27aa182d742b1ea58217caad7927ad509ad3244f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T12:48:13.512088+00:00",
+      "final": false,
+      "commit": "27aa182d742b1ea58217caad7927ad509ad3244f"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -78,10 +92,10 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "d69ad0dc7720f439c1e1f24b67b1ffa191281094",
+  "last_read_commit": "27aa182d742b1ea58217caad7927ad509ad3244f",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-Green-work/science",
-  "snapshot_utc": "2026-11-14T12:48:12.197349+00:00",
-  "wall_seconds": 5.873998408000006,
+  "snapshot_utc": "2026-11-14T12:48:13.776626+00:00",
+  "wall_seconds": 7.453291974999999,
   "native_files": [
     {
       "logical_file": "native/public-signed-Green-algebra-gates.json.gz",
@@ -89,5 +103,12 @@
       "bytes": 3381,
       "sha256": "60e69d61435b76232016fb49e9f3390d2f0b7c8a6e4b3184e777d50a404e08f3"
     }
-  ]
+  ],
+  "algebra_gates_executed_in_this_run": true,
+  "original_successful_algebra_run": "43596517945",
+  "algebra_gates_reused_without_execution": false,
+  "algebra_native_sha256": "60e69d61435b76232016fb49e9f3390d2f0b7c8a6e4b3184e777d50a404e08f3",
+  "complete_native_sha256": "60e69d61435b76232016fb49e9f3390d2f0b7c8a6e4b3184e777d50a404e08f3",
+  "actual_public_signed_port_algebra_gates": 7,
+  "finished_utc": "2026-11-14T12:48:13.514584+00:00"
 }
