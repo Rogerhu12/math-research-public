@@ -60,11 +60,14 @@
 - 2026-11-14 19:21 CST，Astra-new-mechanism-9974ea84：完成R7两条普适周期积分恒等式和任意有限多项式profile推广；实际独立系数至多九个，有限端点首项证明未假定无效的高阶支单独消失。
   现有11残差搜索的零集不变；保留一般全平端C∞输入的可能，继续从完整Volterra算子推微分条件。codedesign首轮实际输出已回传，正读取加密与闭合残差。
 
-- 2026-11-14 19:32 CST，Astra-new-mechanism-9974ea84：偏心角基/完整材料导数和warm身份检查已完成；R44准确非平面入口二jet模块亦已核验。共享workflow/publisher新增ellipse_phi、inward_gc4、star_core三lane，分别检查表示、固定g四阶Cauchy初值和真实星域幅度预算；全部研究规模计算交公开Actions。
+- 2026-11-14 19:29 CST，Astra-new-mechanism-9974ea84：偏心角基/完整材料导数和warm身份检查已完成；R44准确非平面入口二jet模块亦已核验。共享workflow/publisher新增ellipse_phi、inward_gc4、star_core三lane，分别检查表示、固定g四阶Cauchy初值和真实星域幅度预算；全部研究规模计算交公开Actions。
   星域粗连续界只给核心条件预算；非凸平面柱不直接进入正K，继续非平面准确平核。没有把换设计度量或换轴比称为固定问题精化。
 
-- 2026-11-14 19:35 CST，Astra-new-mechanism-9974ea84：完成R8全平端profile的完整四阶方程及双重支撑端点根必要性；复平方模、左端三总矩与Gronwall方向均独立复核。
+- 2026-11-14 19:29 CST，Astra-new-mechanism-9974ea84：完成R8全平端profile的完整四阶方程及双重支撑端点根必要性；复平方模、左端三总矩与Gronwall方向均独立复核。
   指数端点式仅为指定ansatz的候选平衡，未作一般存在或排除结论；继续非零profile/实际几何共同设计。
 
-- 2026-11-14 19:37 CST，Astra-new-mechanism-9974ea84：首轮codedesign实际三输出均未通过：scaled周期L2=.09069/.18748/.14907，闭合/长=1.27e-4/4.34e-4/2.86e-4；冻结参数加密维持非零。
+- 2026-11-14 19:30 CST，Astra-new-mechanism-9974ea84：首轮codedesign实际三输出均未通过：scaled周期L2=.09069/.18748/.14907，闭合/长=1.27e-4/4.34e-4/2.86e-4；冻结参数加密维持非零。
   保存真实审计，不能使用投影中心线代替闭合。下一版用严格单调指数tilt准确消元轴向闭合，并增加径向几何自由度；不重跑同一失败设计。
+
+- 2026-11-14 19:31 CST，Astra-new-mechanism-9974ea84：完成R9闭空间曲线准确rectifying平核的直接证明，给出完整位置二jet、主曲率与半转材料对称；真实嵌入的小宽度由紧性保证，未冒充指定宽度reach。
+  新三lane运行43590239302已实际启动；继续space-star连续几何筛与R44准确入口连接。校正前三条手写时标为各自真实提交时间，研究结论未变。
