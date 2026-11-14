@@ -115,3 +115,7 @@
 ### 七个真实饱和关系：完整下一位续算冻结并启动
 
 [数值来源清单](notes/2026-11-14-r150-seven-saturation-frozen-manifest-789f.json)、[Actions入口](notes/2026-11-14-r150-seven-saturation-actions-entry-manifest-789f.json)、[数学接口](notes/2026-11-14-r150-seven-saturation-interface-789f.md)已冻结。七列是真除源关系，完整新第一Bockstein在Q/U的308维torsion上计算，九目标为同一原31h0下一位余量；原乘回模31⁴=923521。共享300秒、512MiB及30秒编译上限，复用旧T96/all198/one31，不重已成结果。相容继续完整原式，负向仅限固定mod31初值(x0,0)；启动本身不证明相容、有限费用或特征零身份。所有实际结果和阶段缓存由本次独立目录保存，根随后登记真实回执。
+
+### 全出生真实物理源：中央区与极平坦区的完整相位定理
+
+[完整定理及证明](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)将已成真实E_d/U_d公式与有限次数比较接合。固定d、正有界外场、累计漂移/平方偏差有界，整个V和完整硬U满足J*L⁻¹J≤κH，κ不依Q/维数；k=d+1的极平条件max|zi−1|≤η/k、kS≤C0、|D|≤D0给独立于d/Q的显式κ。共同联合Gram、发散积分权的端点可积性、完整硬Schur、真实顶逆及等权标定均保。q0=0就是原完整偶Boolean中央源；未把它扩成无限尾reducing块或原全graph费用。
