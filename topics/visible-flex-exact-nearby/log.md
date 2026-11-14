@@ -499,3 +499,7 @@ root亲读process12424B SHA954d8038…、summary28522B SHA230b4ba0…和完整ac
 ## 2026-11-14 23:08:16 UTC：完整5970同F方向矩阵合同独推
 
 核D1–12、science42226B、最终CI23744B及workflow21187B；原112pins逐path/hash不变，117pin manifest a9e1b164…。原validator norms来自complete_cell_model weighted_generator的同一canonical coefficients，不含未存BLAS矩阵中点；新正向t=1−s、标量选阶/真实残差、完整三角patch/逆、全signed Gram均保。原profile exact_weight确为rho_left/rho_right/derivative三键，完整inverse_rho定义另在原full row，canonical JSON SHA重新绑定。四sameF已成格不重算；32组实际尚未运行，不能称完整Green。只读核e525495938f9aaed7e85454abd3737080e6b69cdREADME不变。
+
+## 2026-11-14 23:08:38 UTC：5966新格完整方向矩阵公开DAG部署
+
+部署final science193bb4c…/SHA47d69d78…、CIddf12f71…/4ba64469…、manifest82b6f210…/a9e1b164…、flow66995982…/2a96e078…。prepare真核原5970 profile/全部同Q/R接口及四格15门；32不交range各至多192，16并行、每job210min计算/240min外限、每10min真pull及两README差异检查/逐格native原子保存。失败/成功前缀保各原array SHA/run/attempt/artifact，复用不依赖出版complete。finish只取本run/attempt32份公开科学native/process，不重复下载大矩阵；全数组保90天artifact供实际双扫。旧112pins逐项不变。实际计算未先称成功，后续继续；只读核953257f3e33a69c48cfcffc377b93ae1952a4bb1README不变。
