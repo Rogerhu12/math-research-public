@@ -1,0 +1,56 @@
+{
+  "result": "R663",
+  "disk_id": "SS_j44_20",
+  "status": "proved_entire_disk_excluded",
+  "run_id": 43583417198,
+  "source_commit": "ea891031abff2448eee151117afc0ce9f1486579",
+  "files": [
+    {
+      "file": "computations/R663/43583417198-1/run-receipt.json",
+      "bytes": 11015,
+      "sha256": "e0c09910333a6ba000245afc2ceabe8e82461d3b2c8dec0fea88b308b98b06ad"
+    },
+    {
+      "file": "computations/R663/43583417198-1/public-actions-input.json",
+      "bytes": 1025,
+      "sha256": "c965c41a69d23265cf7855edb959853985d426f33e9d413dd2b93ad10c01039a"
+    },
+    {
+      "file": "computations/R663/43583417198-1/f2/SS_j44_20_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 33015,
+      "sha256": "b3c925cb6fc4695cb142b793b0ec902e9e865ed1fc1daeed6888846602ed6719"
+    },
+    {
+      "file": "computations/R663/43583417198-1/f2/SS_j44_20-principal-F2-independent-audit.json",
+      "bytes": 6935,
+      "sha256": "aa21d5019821b76076f6adf7144f4a9ec679e6de78422bd6c4c48adcb927bcfe"
+    },
+    {
+      "file": "computations/R663/43583417198-1/f2/p41_SS_j44_20_principal_transports47.tar.gz",
+      "bytes": 1776390,
+      "sha256": "02f3dfd6206165f7c71e602bcad8b2f8742b78e5b223b2c9061655b6960b4ac4"
+    },
+    {
+      "file": "computations/R663/43583417198-1/f3/SS_j44_20_actual_canonical_F3_polynomial47.json.gz",
+      "bytes": 33674,
+      "sha256": "b804ff307faae2d2150206e693125d2f36419f1f813f72b9a0887ae55ec6f43a"
+    },
+    {
+      "file": "computations/R663/43583417198-1/f3/SS_j44_20-principal-F3-independent-audit.json",
+      "bytes": 7504,
+      "sha256": "146ba09c7b0a7db69bbdee078eb6fb3033f9f5e561f1b15c562903a8b0b7b9bb"
+    },
+    {
+      "file": "results/R663-SS_j44_20-actual-nonelliptic-height-and-complete-disk-exclusion.md",
+      "bytes": 6653,
+      "sha256": "5a8abd94b5d5280b84ccad3cca1bce3ba445d06fc94394eb376b211a5182a472"
+    }
+  ],
+  "derived_based_inputs_preserved_in_original_artifact": [
+    {
+      "file": "R663_SS_j44_20_based_points47.json.gz",
+      "bytes": 108281,
+      "sha256": "358222e1a9004661b93f34fceb8864fa81069fe414221d9aba0d11e2415c2d93"
+    }
+  ]
+}
