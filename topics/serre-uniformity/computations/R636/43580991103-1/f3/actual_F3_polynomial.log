@@ -1,0 +1,12 @@
+Actual V2 and V3 reconstructed exactly from published model and the GP checkpoint.
+Actual model and derivation verified; maxRSS MiB=119.69
+PASS moving colon rank124 on 819 faithful rows; tests 1
+PASS actual moving C connection all 2865 rows
+PASS actual T3 moving trace 795 rows x3; faithful V4 dimension451
+Traceback (most recent call last):
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_selected_SS_F3_polynomial_ramified_unit_parameter47.py", line 639, in <module>
+    main()
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_selected_SS_F3_polynomial_ramified_unit_parameter47.py", line 323, in main
+    assert np.all(r.units(qtP[0])), "No self T3 intersection in this disk"
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: No self T3 intersection in this disk

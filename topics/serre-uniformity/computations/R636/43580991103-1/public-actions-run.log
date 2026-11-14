@@ -1,0 +1,35 @@
+START R636 based_points
+Actual V2 and V3 reconstructed exactly from published model and the GP checkpoint.
+Actual model and derivation verified; maxRSS MiB=117.71
+PASS actual selected SS based points ['SS_j36_03'] SHA e610a846cf107edaa7e19198e3ec7ac8fc58f21368d54ccb46eea33efdc94510
+COMPLETE R636 based_points
+START R636 actual_F2
+PASS actual_chain 5ee2108d6b13e2927f76085244a2ecd6f9985243087b96631ff4fdc0c1cecf28
+PASS actual_terminal_and_nu c75d3e1e2fbbac21cb6a5e58d4dd8d1ca2e36aefe71363ad1ee205187cac6c2f
+PASS actual_integer_principal cf31c60f0206143437e2a997637e47a08ee1838922dfc3ef3c34dcaf397eaa43
+PASS actual_T2_support 631d26aca8d73966a1a79708f75bd03ccfb369e87001e23d681c71c5c7c4f8f2
+PASS actual_T2_norm e834c2eb839f7f90d3d95df0092d4e4db9e2b3cae99bcba91a51371c0ba085bf
+PASS actual_full_F2_norm be2690e5194d4430e7e751203a1c170142a63f8d7f93d95f5167de9796b3fc40
+PASS actual_F2_center c34c30dc1f07719e0c273659d69a9b4060c86b0c6c6a10a2358063ab3c227aaa
+PASS actual_F2_polynomial b135f027ad79cf966ca5dba33348a33b517e9cd769e73ea8823ed0c73d492681
+PASS independent_audit 425b9efbfe29b804cfbc93f9b5b7549ffc1d7e8696490554fb4c6571d4842c03
+COMPLETE R636 actual_F2
+START R636 actual_F3
+PASS R636 actual_T3_support c6c6802bc4db6dbf16e09b87681fad8a1c3ec7c5b6b8c8025eae6783b9cc0605
+PASS R636 actual_T3_norm 731ea9fef0f6a3c0956124dfa27e428c2b08cce716434673baaabe1c41e79b97
+PASS R636 actual_full_F3_norm 5f2ffa05e17517ae7109c98f05016dcf2f278fe74a00ed2113cf1086df8228c3
+PASS R636 actual_F3_center 5b54107d3a4b89cf573cf407d038f26f8c924e322d9b85248513a3f4daac1416
+Traceback (most recent call last):
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_ramified_SS_F3_unit_parameter47.py", line 72, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_ramified_SS_F3_unit_parameter47.py", line 62, in main
+    run('actual_F3_polynomial',psrc,['--script-dir',S,'--center',center,'--disk-id',d,'--result-id',args.result_id,'--abel',abel,'--multiply',mult,'--tiny',D/'p41_all129_second_kind_tiny47_complete.json.gz','--f2-polynomial',f2poly,'--f2-audit',f2audit,'--derivative',args.derivative,'--ramified-j-certificate',args.ramified_j_certificate,'--work-dir',W/'poly','--output',poly],poly)
+  File "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_ramified_SS_F3_unit_parameter47.py", line 45, in run
+    with log.open('w') as h:subprocess.run(cmd,stdout=h,stderr=subprocess.STDOUT,env=env,check=True)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '-u', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_selected_SS_F3_polynomial_ramified_unit_parameter47.py', '--script-dir', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts', '--center', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f3/SS_j36_03_actual_canonical_F3_height47.json.gz', '--disk-id', 'SS_j36_03', '--result-id', 'R636', '--abel', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f2/chain/SS_j36_03_Abel47.json.gz', '--multiply', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f2/chain/SS_j36_03_multiply47.json.gz', '--tiny', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_all129_second_kind_tiny47_complete.json.gz', '--f2-polynomial', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f2/SS_j36_03_actual_canonical_F2_polynomial47.json.gz', '--f2-audit', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f2/SS_j36_03-principal-F2-independent-audit.json', '--derivative', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz', '--ramified-j-certificate', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47.json.gz', '--work-dir', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f3/poly', '--output', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f3/SS_j36_03_actual_canonical_F3_polynomial47.json.gz']' returned non-zero exit status 1.
+INCOMPLETE R636 CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '-u', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_rebuild_ramified_SS_F3_unit_parameter47.py', '--script-dir', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts', '--source-dir', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts', '--f2-dir', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f2', '--recovery-dir', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f2/recovery-inputs', '--based-points', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f2/R636_SS_j36_03_based_points47.json.gz', '--canonical', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_canonical_SS_robust47_raw.json.gz', '--derivative', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_serre_clearing_126_disks47.json.gz', '--ramified-j-certificate', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47.json.gz', '--ramified-j-audit', '/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/data/p41_ramified_j_regular_height_derivative47_independent.json', '--work-dir', '/home/runner/work/_temp/R636-SS_j36_03-sadrr8rq/f3', '--disk-id', 'SS_j36_03', '--result-id', 'R636']' returned non-zero exit status 1.
+SAVED R636 complete False files 34
