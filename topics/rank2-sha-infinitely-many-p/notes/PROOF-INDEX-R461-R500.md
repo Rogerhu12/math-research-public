@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R468：第三真实中央行、三高轴Hensel与六条carry](../results/R468-third-original-central-row-three-axis-hensel-and-six-carry-interface.md)：新U136的准确角多项式、全部三权聚合及单位三轴Jacobian保真正固定参数；原完整M首位不变、首次提升仅六真实末行。ell1给实际2×2 Schur而原全首像仍可吸收Miller，三来源代数维仍二，不预支全次数预算。
+
 - [R469：E2312全权平方、普通与惰性完整Sha桥](../results/R469-e2312-full-weight-square-ordinary-inert-sha-bridges.md)：同一degree136原来源付408/136周期尺度、4608有限下降和全部Euler/通常Selmer，普通及惰性中央导数均控制整个初级Sha。精确p23证书给秩恰2及Sha[23∞]有限；固定平方常数保实际赋值，无穷非零仍开。
 
 - [R466：固定二倍来源的五条真实sextic线与新秩至少二曲线](../results/R466-fixed-two-division-sources-and-new-rank-two-sextic-curve.md)：完整2/3/17局部角色、奇偶Rao向量及全权Yang平方识别五条degree136线；四线质量非零，新E2312:y²=x³+2312有两个严格独立点。101/64整组合准确抽首z6新来源，保六外谱与同ray core。
