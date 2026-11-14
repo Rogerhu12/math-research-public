@@ -490,3 +490,9 @@ root已读四源全部差异、[16接口](notes/2026-11-14-sixteen-query-condens
 完整42340B新source exact_20261114_native_damped_chain_qr.py / SHA9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33及[接口](notes/2026-11-14-native-damped-chain-QR-interface.md)已全文读取。每node唯一etaI、全cut/stage/far、两次HouseholderQR、全部R/S/affine与纯常数、完整回代/原σ恢复、307552行exact原式均保；不形成normal matrix/Riccati或删模，未运行科学。
 
 若55原十试探全部拒绝，首次显式[eta=1合同](notes/2026-11-14-native-damped-eta-one-trial-contract.md)采用同原σ坐标下单位方向与单位残差平方等权。R273零点比较只约束理想完整模型，不能套成浮点认证或原∞接受；形成系数、因子/梯度读回、实际σ*z舍入和原exact/native分别记账。不另派预筛gate，原H/far和全部guard/strictnorm保。当前55仍实际试探，R273未调度；56 run43636630003/sourceb8a19c16…正在独立16query续接。
+
+## 2026-11-14 20:24:18 UTC /root — actual55十试步全拒；request57完整阻尼平方根方向
+
+[55实际结论](notes/2026-11-14-actual55-ten-trial-decision.md)读完整10回执：九原D/S/A guard拒、一个stage23内部momentum Newton失败，最小1/512仍stage28/raw0/seg5拒；10fresh noJ、0新baseline/J，无完整trial norm/selected。完整2902231B artifact14129374575与ZIP14fc5777…已取，不重复这条坏方向。
+
+57固定同54完整1372矩阵和原H/r/σ/cut/far，以R273全链HouseholderQR显式eta=1、完整R/S/affine/常数/1373罚项/307552原exact行生成新方向，随后真实结果SHA接[独立原十trial](notes/2026-11-14-native-damped-chain-original-trial-interface.md)。全部1373→577方向含cut/far不投影；原门不变，无新增L2/gradient/exact阈值。root已全文读QR/新两trial全diff/接口/workflow，18pins/AST/Node/YAML/13bash4Python静态过，无本地科学；请求实际run待回读。56独立16query仍运行，未提前猜最大项或步长。

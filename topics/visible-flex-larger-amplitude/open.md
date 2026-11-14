@@ -49,11 +49,13 @@
 
 **54完成868新块和1372求解，原trial入口路径错而未执行**：run43634889730/source7eb383af1ca2bb04c7eaef9c65578dbc124269d8。[完整捕获](notes/2026-11-14-actual-request54-complete868-direct-LD-capture.md)保144array/1736chunks/868完整226×224 maps/3472原field及4221文件回执；[完整solver原读回](notes/2026-11-14-actual54-direct-LD1372-solver-and-exact-readback.md)保55输出/四轮全307552行及完整方向。新matrix76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999；exact保iter2仍2.552304460257547558335607736e22，不能声称可用方向。原trial因root将旧28真实result.json误写成.gz触发FileNotFoundError，尚无任何十档试探或数学拒绝。
 
-**55运行中：run43636504089/source6b7e9846ab9062614618856d4d6772c847a303c2**：只修旧28一处路径，新54方向.gz保持。独立trial-only workflow完整固定取28/41/54+78公开源，直接实际完整方向的577限制跑原十alpha/noJ/全部guard/严格原σ norm下降；不增线性门、不重868capture/1372solve。详[原trial接口](notes/2026-11-14-direct-LD-original-ten-trial-interface.md)及[路径修复记录](notes/2026-11-14-actual54-completed-direction-and-original28-path-repair.md)。接受后仍须继续原native最终门；全拒后据实际证据选R273。52 spec运输失败和54 gzip修复已经完成保存，不再待办。
+**55已真实完成并全拒**：[原十试步结论](notes/2026-11-14-actual55-ten-trial-decision.md)，run43636504089/source6b7e9846ab9062614618856d4d6772c847a303c2。10个fresh noJ、0新baseline/J：九D/S/A拒、一个stage23内部momentum Newton失败；最小1/512仍stage28/raw0/seg5拒。没有完整trial norm或selected状态，不能宣称十个范数都不降。
+
+**57请求已接，run待实际回读**：同实际54完整1372目标，R273原σ坐标显式eta=1、完整cut/stage/far与每node罚项/纯常数保，全部因子artifact。实际完整方向SHA生成后进入[独立原trial](notes/2026-11-14-native-damped-chain-original-trial-interface.md)，1373→577字节限制、cut/far不投影、原十alpha/noJ/guards/strictnorm保。不重复868块/旧坏方向，不以L2或exact线性范数增加gate；原接受后仍须fullnative/fresh audit。
 
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 
-[R273完整原σ块链平方根阻尼LS](results/R273-complete-native-damped-square-root-chain.md)已证明：保全部cut/stage/far、每nodeηI、carry与纯常数能量，不形成normal matrix；也给严格L2下降不推出原∞下降的精确反例。独立完整源码与接口已保存，root已全文读；尚未数值运行。若55全拒，首次拟取原σ坐标的[eta=1](notes/2026-11-14-native-damped-eta-one-trial-contract.md)，保持全部cut/far/模式与原试探；不把L2模型下降当原∞下降。
+[R273完整原σ块链平方根阻尼LS](results/R273-complete-native-damped-square-root-chain.md)已证明：保全部cut/stage/far、每nodeηI、carry与纯常数能量，不形成normal matrix；也给严格L2下降不推出原∞下降的精确反例。独立完整源码与接口已保存，root已全文读；尚未数值运行。55已全拒，57首次取原σ坐标的[eta=1](notes/2026-11-14-native-damped-eta-one-trial-contract.md)，保持全部cut/far/模式与原试探；不把L2模型下降当原∞下降。
 
 ### 1C. 真fullDN衔接与备选
 

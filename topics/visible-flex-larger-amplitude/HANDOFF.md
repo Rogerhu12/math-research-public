@@ -31,12 +31,12 @@ warm-001.json.gz e71a5fec344326df3b6c69ec6d298f5079034fb86eb2fa505008c35682010d3
 
 23/v3原577×224 noJ seed合法，但norm.04177307820740199>2e−9，112H/51下溢/9546负零保；25原十trial全stage13/raw0/seg7拒。linearSteps同时定义graphs/gains/far/σ，不能整体换后冒仅换guess。
 原28 capture result.json ff53d954…；原41 step result.json6e9485dc…/run43622149326/art14124209116。868step3472field、72原出口mean，cusp11/28/31/63各13步，完整1372段/1373node/307552行。原件已全byte核。旧34/36/38/39/42/43失败封存；43原matrix e929e642…保iteration1仍3.258e21，最坏new519=old43/step11/Pi112，真RHS无下溢，辅助2^-2048未送solve，不重坏方向。
-47仅查该步四A，完整state/geometry/output/J/mean与41位同；四A首次存。固定旧δ/r/σ有理RK读回更坏，巨大相消，修单块不能救旧δ。50完整226×224参考：诱导∞误差old.0155569187/directLD7.1681214e−6/R271LD9.1952612e−6/RN3.3611567e−6，特定δ可反序；RN原σmap差3.97095e21非残差。完整有理记录/49工作数组/x87 padding已审；LD64有效位非binary128。R269/271/272完整证明已登记，有限协变保interstageG比，连续G′重RK非同算法。
+47同旧δ的原四A有理读回显示巨大相消，单块修正不能救旧方向。50完整226×224参考中direct-LD全诱导∞误差优R271-LD，特定δ可反序；RN原σmap差非残差。完整有理记录/49工作数组/x87 padding已审，LD64有效位非binary128。详actual47/50原note，不重跑。R269/271/272证明保有限interstageG比，连续G′重RK非同算法。
 **54完成capture/solve，原trial因root旧28路径错未启动**：run43634889730/source7eb383af1ca2bb04c7eaef9c65578dbc124269d8/job132569417352/art14129522378；457357361B/ZIPdf3a54716ecbed8645783373657f7e40b08429173ca976efc73ecc7e8ce5f819。868新direct-LD+504原块/1372段，原base/r/σ/cut/far/H和577限制保，新matrix76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999。全307552行exact四轮3.21319e22→2.63564e22→2.552304460257547558335607736e22→略差，保2；四worstnew518=old42/step0/Pi112。非线性试步0。
 实际capture result.json e60da64312819a87388cfa96c209fc9188dca02c0ab055cbcc934f3507888ac6；direction result.json.gz e1ac6c83434ac3b269663e930b1370a38f280b2d31c5e720955b5ed0aed7e105。144array/1736chunks/868maps/3472fields与solver全原件byte审分note保存。52 spec1MB首错已存，54完整gzip修复成功，不重52。
-**55运行中：run43636504089/source6b7e9846ab9062614618856d4d6772c847a303c2，20:15:16Z创建**：新public-native-direct-ld-trial-request/lane directldtrial，仅旧28误写.gz改回result.json（新54方向仍gz）；完整固定取28/41/54+78公开source，直接同577方向跑原十alpha/noJ/guard/严格原norm，不重868capture/1372solve、不加exact线性门。root读全部差异并核17pins/AST/Node/bash。首接受保全state仍非native2e−9；若接受再由selected577继续原fullnative，原Riccati后继仍可能失败。
-若55全拒，R273完整原σ平方根阻尼LS证明已入results/index，源码/接口已冻但未派、若55全拒首次显式η=1；L2下降不保证∞或原577试探。root已全文读42340B QR源/接口/eta=1合同，AST与SHA9b951f95…匹配，无本地科学。三direct-LD接口保固定来源，禁止把旧43方向冒新target。
-root唯一下载：native /workspace/scratch/visible-larger-actions-1955/actions-debug/；prefix /tmp/visible-larger-actions-1848/actions-debug/。完整解包保留，审完可删重复ZIP腾空间；禁重复下载同大包。
+**55真实十trial全拒**：run43636504089/source6b7e9846ab9062614618856d4d6772c847a303c2/job132574360104/art14129374575/2902231B/ZIP14fc5777a1aeaa76ff5b9e98ec9029f1c3565a80d03a9e439ec5c0d5adbbaaf8。20:16:22→20:18:11原试步，1native请求/10fresh noJ/0baseline/0J；cachednorm.04177307820740199。alpha1/1,1/2拒stage14；1/4 stage16；1/8 stage19；1/16 stage23 momentum Newton失败；其余到1/512均stage28 D/S/A拒。rawCell全0，段7/6/5。无完整trial norm、无selected，不能冒范数均不降。详actual55-ten-trial-decision及原结果，不重复同坏方向。
+**57已接请求，run待回读**：public-native-damped-chain-request/lane dampedchain；固定28/41/54完整包+78公开源，R273完整原σ平方根链显式eta=1，全部cut/stage/far/每node罚一次/常数能量保，无normal矩阵或删模；原矩阵不重形成。真实result生成后SHA接独立两trial源ebd3110e…/884d2d44…，完整1373→577含负零/cut/far不投影，原十alpha/noJ/guard/strictnorm仍保，不加L2或exact门。root全文读QR/所有diff/接口，18pins/AST/Node/13bash4Python静态过。首接受保selected仍非native2e−9；后续必须真实新状态继续原native，不能冒已有完整响应。
+root唯一下载：native /workspace/scratch/visible-larger-actions-1955/actions-debug/；prefix /tmp/visible-larger-actions-1848/actions-debug/。当前53/54/55完整解包保留；旧45/48/49/51已审临时解包因容量移除，完整公开artifact与已推notes/audits不变，可按原固定身份再取。53/54重复ZIP已删；禁重复下载当前大包。
 
 ## 后续必须完成
 
@@ -46,4 +46,4 @@ root唯一下载：native /workspace/scratch/visible-larger-actions-1955/actions
 R248强C²全相位、R241全部参数对/法锥reach、R238/254/258含反射标记、R251实际全域operator待真新场；16仅解析fixture不重做。held覆盖所有活动块/两帽盘/完整D，可独立于reach进度；无额外六/九jet机器门。
 旧小幅A.063、RK24/48/三mesh/2157568pair/GW封存，不继承到新场。R259备用未派。全文R238–273见results.md；数值证据不冒严格存在。
 
-规则同步记录：2026-11-14 20:19:13 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7505a86f928424b62a4e9d3629fba1b6c7cf1849。
+规则同步记录：2026-11-14 20:24:39 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 665bd6e9a997aad9e26e107205993bfe422611fb。
