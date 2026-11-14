@@ -235,3 +235,6 @@
 
 
 - **R757（已证明）**：[原除法多项式模p²完整式与Frobenius系数单位](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)。全允许p的原ψp精确到modp²全部次数；形式对数唯一最高极点、有限指数与所有分母逐项受控。补全R753全部Frobenius方向且证明单位，原三挠点常数再给中央二项式modp³恒等式；仍未把该单位识别为原临界C_p。
+
+
+- **R758（已证明）**：[原ordinary自然cocycle映射与首矩torsor](results/R758-natural-ordinary-cocycle-map-and-the-original-moment-torsor.md)。真实Norm像、P-fixed y和长正合序列给自然lift-and-restrict；原ft/fs准确像X41/ibX41。原首矩class是Xη=19ψ(ft)的特定点，flat位移−8iψ(ft)保全部标记；未凭socle维数指定section，实际J/b/σ₂仍开。

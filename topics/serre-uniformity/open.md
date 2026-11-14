@@ -366,3 +366,6 @@ cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
 
 
 **R757（原ψp模p²全部系数已证明）**：[完整证明](results/R757-full-original-division-polynomial-mod-p2-and-Frobenius-constant-units.md)对每个p5mod6给ψp≡pΣ_j binom(2j,j)x^(3(M−j))/[4^j(6j+1)] modp²，M=(p²−1)/6；最高Z_M极点不忽略。原形式对数/σ精确截断确定R753全部N个Frobenius方向且均为单位，常数端点推出binom(2M,M)≡−p16^M modp³。原临界T·C/T·Z³系数在此精度被抹掉，R760继续原σ的更高精度桥；同h两Cartier单位与高度仍开。
+
+
+**R758（原ordinary自然cocycle比较已证明）**：[完整证明](results/R758-natural-ordinary-cocycle-map-and-the-original-moment-torsor.md)以实际P-fixed y和全部整格歧义给H¹(P,kerΓE)≅H¹(P,E)，其inverse后res_S是自然ψ。逐原链得到ψ(ft)=X41、ψ(fs)=ibX41；原ηα满足Xηα=19ψ(ft)，全部余差恰ψ(H¹P E)，flat准确位移−8iψ(ft)。此为固定原主化的antiderivative torsor，J的socle坐标不能任意选；下一步须实际p-flat section/ordinary p除性及Iα、σ₂求值。

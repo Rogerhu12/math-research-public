@@ -4,11 +4,11 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：b36d2c58b39f42a694236d48f64444bb6fe1d0af
-最近本地pull：2026-11-15 01:25:02 Asia/Taipei，main=b36d2c58b39f42a694236d48f64444bb6fe1d0af，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
+已读规则提交：8a59ebd9d241bf424e9ba1c272e22b76264a034c
+最近本地pull：2026-11-15 01:26:50 Asia/Taipei，main=8a59ebd9d241bf424e9ba1c272e22b76264a034c，两README blob均未变。终端已恢复，原blob:none部分克隆继续；至少每小时实际pull --rebase及每次推前pull，检查两README差异。旧本地R716重复提交与现行证明逐字相同，保留分支后跳过重复元数据，详before-R741归档。
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权；非快进立即pull --rebase重推。PAT仅CLI，根独占commit/ref。Markdown<100KB、HANDOFF<10KB、open/README<30KB；>1MB数据gzip、单文件<5MB，大可复现中间量只artifact。日志本题≤5行；不设独立审计/冻结审批门。
 
-本次前完整归档[before-R757](notes/2026-11-14-public-handoff-before-R757.md)，内接before-R754-retry及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
+本次前完整归档[before-R758](notes/2026-11-14-public-handoff-before-R758.md)，内接before-R757及更早链；[open完整归档](notes/2026-11-14-open-before-R742.md)保留全部旧公式。已成计算不得为包装重跑。旧未推成果按原记录重做，不依赖遗失对象。
 
 ## 当前执行
 
@@ -20,11 +20,13 @@
 
 - **R752/R755已成**保s_act二阶σ₂与a₂=σ₂−(1+i)/2，I₀=ε(21σ₂+2b(J−18))选择无关。完整negative adjoint y=ell_cyc−2iκq、q quadratic/cubic及2处cochain消项给I₀=−〈w,Sflat〉；原Aα的Iα=−〈w,Sα〉=ε(21σ₂+2bJ)，I₀=Iα+7εb。未除b、未抹σ₂，完整proof/SHA见R752/R755。实际Iα/σ₂/b/J仍未知，原三Norm ordinary比较由R756继续。
 
-- **R751已证明**原边ρ(g_p⁻¹)/完整tame和CRT给40个λ_h(a/p)，固定Q=(α,+√3)核含逆θ及正ξ相位；携权μ6和、Miller正ξ与原实目标−ζ运输后，全部周期准确在旧K(U)次数280。42列/800闭链有限Hom核接口完整；证明SHA0f12e10bb6074ec2fdf64bc266d7414ea726564990e92533b767177eb2170e87。**R754已修正重提**：首run43620409119在15726位旧整数解析处失败，未产新数学；移除可信输入的4300位限制，续run待读。复用R735/738/745，core f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251，方法fdbe8bbd0e09afadddcb9cd2f13dc0f27c2eabab2d31fe449cd173bd28a59122。40加法/819边/4800×42核/800×6全链验证，80分钟完整断点；实际period/核未返回，R759继续完整整数格及原map degree。
+- **R751已证明**原边ρ(g_p⁻¹)/完整tame和CRT给40个λ_h(a/p)，固定Q=(α,+√3)核含逆θ及正ξ相位；携权μ6和、Miller正ξ与原实目标−ζ运输后，全部周期准确在旧K(U)次数280。42列/800闭链有限Hom核接口完整；证明SHA0f12e10bb6074ec2fdf64bc266d7414ea726564990e92533b767177eb2170e87。**R754实际run43620862489执行中**，source b36d2c58b39f42a694236d48f64444bb6fe1d0af，core f196cb805d1ca91e8995866032a0a3ec3f96aac06e03b67a7c1f196fff759251；复用R735/738/745。首run43620409119仅整数解析限失败，已修正/保存receipt，方法SHA见request。40加法/819边/4800×42核/800×6全链验证，80分钟完整断点；实际period/核未返回，R759继续完整整数格及原map degree。
 
 - **R753/R757已成**所有p5mod6原ψp(x)≡pΣ_(j=0)^M binom(2j,j)/[4^j(6j+1)]·x^(3(M−j)) modp²，M=(p²−1)/6。唯一末项Z_M赋值−1单独保留，原三挠点常数推出binom(2M,M)≡−p16^M modp³；R753余N个x^(3pℓ)方向现全部明确且为单位。R757证明SHA60ace5d78115eb690f249bfa784b4e068999ef8bc6904962e7dcb374ab8136dd；R760继续原O点σ临界精度桥，尚非C_p或同h两Cartier单位。
 
-- **R756已成**同一Z构造全ordinary三Norm导数cube，未除p。准确H¹(S,kerΓE_M)=k[T]/(N_T)，原U_Y=(s−1)Y全相位−4J·N_T+iD_T（不可漏−ij）；对应f=19X40+[(J+i/4)/v0−19v1/v0]X41，v0−13i。R700给E∩pU=pE，实际W_ij局部p可除性未验；R758继续原cocycle自然比较/flat section。证明SHA6c70ca3a735748165774ffa645c0cfb625fd95a3677ce9e95fef75fab6941c6a。
+- **R756已成**同一Z构造全ordinary三Norm导数cube，未除p。准确H¹(S,kerΓE_M)=k[T]/(N_T)，原U_Y=(s−1)Y全相位−4J·N_T+iD_T（不可漏−ij）；对应f=19X40+[(J+i/4)/v0−19v1/v0]X41，v0−13i。R700给E∩pU=pE，实际W_ij局部p可除性未验；原cocycle比较由R758完成，真实flat section仍须求。证明SHA6c70ca3a735748165774ffa645c0cfb625fd95a3677ce9e95fef75fab6941c6a。
+
+- **R758已成**原ordinary H¹(P,kerΓE)→H¹(P,E)自然同构，inverse后res_S给ψ；真实P-fixed y消全部j0歧义。ψ(ft)=X41、ψ(fs)=ibX41，ηα=[(s−1)Y]满足Xηα=19ψ(ft)，余差恰ψ(H¹P E)。原flat位移ηfl−ηα=−8iψ(ft)；仍缺p-flat选定section/J的socle坐标。证明SHA d02d7048fe8aa11e338988226312d65a9867a28433f8aa57afb3b1bf2f410540。
 
 ## 原模型、拓扑、非消失
 
@@ -51,10 +53,9 @@ R707固定p41全部129盘=121排除+8CM，无有理尖点，183证明SHA账本�
 
 ## 原p43普通Norm、首矩、类作用
 
-固定776bitq/Γ/s/t/Robert祖先；q已Gaussian5排除，非Serre反例。R715 m43、N_SE=E_N、N_PE=(p,π)E_L；R718全塔m_n42n+1/d∞/普通Norm逆极限RΓ。R731原q类填满socle，H¹(Γ,P)=0，所以ordinary Norm=单位中field Norm；NΓE_M=(p,s−1,N_T)E_B完整成立，原divZ=N_TP+Q可普通校正NΓZ=Aα。
-R720完整原链给C=9ib=−34ib、L31+26b、r_y25+9b、Ω₂=ε(22+17b)，零iff b24。实际b/J/nT未知，禁代pure-p24/一次10/Ct9。
-R599原Jℓ选择无关、Jr=−2J；普通见证X+(t−1)E，余数改变量I²，杀余数原Norm改c=−J/(13i)。R185同未平均Robert主化给Aflat=Aα−(8i/1848)u、Jflat=J−18，原正Norm/−i/二次restriction给ep(dq)|q=(J/2)K₀、flat=(J−18)/2K₀，d₀校准28K₀；精确全链保原证明/before-R755。
-R736实际NS kerΓE_M=(π,N_T)kerΓE_N；Fr=s32在μp²作用1+2p，rμct=ellut，R207实一致化元含极点NS−NΓ相位零。普通校正得divY=D_Tq、NΓY=NSY=D_TXt，Z=Xt−(t−1)Y三Norm=Aα；q直接相位−4J、flat−4(J−18)。未给J/b数值。
+固定776bitq/Γ/s/t及未平均P+；q已Gaussian5排除，非Serre反例。R715 m43、NS E=E_N、NP E=(p,π)E_L，R718全塔m_n42n+1与逆极限RΓ。R731真实NΓE_M=(p,s−1,N_T)E_B；R736普通校正的同一Y/Z及全部极点处理见证明，不用任意local/field Norm根代ordinary见证。
+R720原C=9ib、L31+26b、r_y25+9b、Ω₂=ε(22+17b)，零iff b24；实际b/J未知，禁代pure-p24/一次10/Ct9。R599原Jℓ选择无关、Jr−2J；见证余数改变量I²与c=−J/(13i)均保归档。
+R185准确Aflat=Aα−(8i/1848)u、Jflat=J−18，正Norm/−i/二次restriction完整；R736保Fr=s32、s在μp²上1+2p和R207实一致化元。原ep(dq)|q=(J/2)K0、d0校准28K0；原scalar参考9ε见R749，完整其他公式/SHA见before-R758及各结果。
 
 ## 一般主目标
 
