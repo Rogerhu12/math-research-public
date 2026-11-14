@@ -915,3 +915,7 @@
 ### 文献接口：balanced up/down 正序不能直接替换原两层 MP 度量
 
 [完整度量核对](notes/2026-11-14-balanced-walk-two-layer-metric-mismatch-for-phase-789f-next.md)保 Anari–Liu–Oveis Gharan–Vinzant 的官方定理条件与真实伴随，直接证明乘积顶权的 balanced 低层权为(d−j)!z_I e_(d−j)(outside)。固定顶层s+1可匹配原二步顶包含数组，但其中层变成z_J e1(outside)，与原一阶Gram的z_J同时不匹配；换顶层s则失去二步顶层。只排直接套用该文献正序，不否定经额外共同度量论证的用途，不把缺接口称为相位反例。
+
+### R297 附录：真实三位相位的平方证书与完整五位族的严格界
+
+[完整物理证明](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)先取任意三正权的全层逆Schur，准确给K=4e/S²+Sf/e²−12f/(Se)，其中S=e1、e=e2、f=e3。严格差分子为Σ_(i<j)z_i²z_j²(z_i−z_j)²+f(S³+2Se+9f)，故0<K<1，令z=(1,1,ε)证明该极限族的统一常数1最优。对(r,r⁻¹,1,1,1)，完整S3标准型物理模块化成(r,r⁻¹,1)三位，K=5/S−12/S²≤25/48；结合已付平凡型3/4，现覆盖整个四维下源。固定r加充分小正弱位，整个九维临界相位≤7/8，不再仅限S3不变分量；未称r统一阈值或任意内部权结论。

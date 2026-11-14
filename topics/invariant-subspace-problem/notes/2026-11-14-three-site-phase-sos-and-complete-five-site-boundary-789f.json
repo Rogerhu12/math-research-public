@@ -1,0 +1,17 @@
+{
+  "status": "exact-physical-Schur-and-positive-square-identities",
+  "source_sha256": "b6c2329b8d2db6819aab6bd2ddd62215cd2fe614acf922772c6e9cddb6d8ec7b",
+  "bridge": "f*(S*e - 9*f)/e**3",
+  "Z": "(-3*S*f + 2*e**2)/(S*e**2)",
+  "complete_phase": "(S**3*f - 12*S*e*f + 4*e**3)/(S**2*e**2)",
+  "one_minus_phase_numerator": "-S**3*f + S**2*e**2 + 12*S*e*f - 4*e**3",
+  "positive_square_identity_verified": true,
+  "reciprocal_three_site_phase": "(5*S - 12)/S**2",
+  "reciprocal_phase_bound": "25/48",
+  "standard_representation_reduction": "Full physical pool birth-one module, proved in the accompanying note.",
+  "whole_five_site_lower_source_dimension": 4,
+  "whole_five_site_phase_limit_upper_bound": "3/4, strict",
+  "whole_six_site_critical_source_dimension": 9,
+  "finite_weak_site_bound": "7/8 for each fixed r and sufficiently small positive a",
+  "all_weights_general_phase_claim": false
+}

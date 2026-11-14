@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；须证明每个有界算子有非零真闭不变子空间，或给完整反例。排除当前候选/完成有限模型均不等于完成。
 - **负责人：** Astra-ISP-789f。根独占git、共享追踪与main推送；代理各写独占789f稿。
-- **最近成功实际 pull 与已读规则提交：** `59e819c9637e84717d1f1c6335d31a5edb186d79`（2026-11-14 13:50:33 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `79d164cd04c7b6f54164ee88d9758253085b8b76`（2026-11-14 13:51:57 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - **执行授权：** 每结论即推；非快进立即pull --rebase后再推，循环到成功，不force。至少每小时实际pull；逐次比对根/课题README，只读新差异并立即遵守。令牌仅CLI临时环境，不写文件/提交；只写本课题log，不写根README/LOG。
 - **现行规则：** 已获迁移授权，只在公开Rogerhu12/math-research-public及本库Actions工作；不恢复旧代跑。规则12取消额外独立复核；规则13本库约4核/16GB、单job≤6h、账户并行≤20。
 - **完整旧范围：** [本次压缩前H](notes/2026-11-14-handoff-before-standard-lift-and-phase-budget-789f.md)、[此前完整open](notes/2026-11-14-open-before-kernel-standard-source-789f.md)及各自归档链保全部已付/失败/未付范围；未列不算关闭。
@@ -32,7 +32,7 @@ H=L²(Z₂,Haar)，Af(y)=a_v₂(y)f(y−1)，a_j=exp[−(280/3)16^j+90·8^j−30
 - [有限a铅笔](notes/2026-11-14-finite-weak-bit-common-defect-pencil-and-coefficient-obstruction-789f-next.md)准确等价硬端界；实际四权排每个固定κ的P1逐系数正。[指定首Schur行](notes/2026-11-14-critical-even-pool-first-schur-sos-row-789f-next.md)给条件SOS，尚须相位与完整最高边缺陷两个预算。
 - [真实共同谱](notes/2026-11-14-critical-even-pool-commuting-full-grams-and-phase-moments-789f-next.md)：完整F/Q交换，补集连接T自伴、T²=F⁻¹Q；真V的G/L/4G+R是同一压缩，Tv=σp⁻¹D²v。压缩后矩不交换，低birth nuisance不能删。
 - [奇→偶完整相位极限](notes/2026-11-14-odd-to-even-weak-bit-phase-limit-and-universal-hard-transfer-789f-next.md)为diag(0,Q*G⁻¹Q+Z*L2⁻¹Z)。全部偶临界相位统一κ单独足以推出全部奇硬及加强高度同κ；无尺寸循环、未证反向等价，也未付任何一般相位常数。
-- [固定S3相位预算](notes/2026-11-14-odd-five-bit-s3-phase-trace-budget-789f.md)：旧(r,r⁻¹,1,1,1)完整二维不变源由正系数迹证K<3/4 I；固定r加充分小正弱位后完整三维S3相位≤7/8。未覆盖其它S3型或一般权，弱位阈值不宣称r统一。
+- [完整低位相位预算](notes/2026-11-14-three-site-phase-sos-and-complete-five-site-boundary-789f.md)：任意旧3权的完整下块有正平方证0<K<1且普适常数1最优；旧5权(r,r⁻¹,1,1,1)的S3标准型等价真实3位、≤25/48，结合平凡型得整个4维K<3/4 I；固定r加充分小正弱位后整个9维相位≤7/8。未付一般权/有限内部或r统一阈值。
 - [全次数Johnson分拆](notes/2026-11-14-all-degree-pair-splitting-johnson-identity-and-arithmetic-obstruction-789f-next.md)保原完整q_k/q_(k−1)及新层低阶投影，准确展开全算术缺陷；等权M24/s4给−49588但真实S1缺陷+136，只排出生一算术步骤直接延拓。所需算术λ随出生至少线性，不是最优S1下界。
 - R297 Green–Ward保整个补空间逆与A−/J+源度量；真实非实极点排共同平方权平移的Stieltjes捷径，不反S1/Pick。R299逐位Pick/全primitive能量不免费插L1；R294共同Newton与R296全残差两带、负拟合二阶差保完整nuisance，混合预算未付。
 
