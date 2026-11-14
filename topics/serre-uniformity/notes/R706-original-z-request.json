@@ -1,0 +1,17 @@
+{
+  "request": "R706-independent-original-z-sigma-zero-verification-01",
+  "prime": 137147,
+  "full_certificate": true,
+  "reuse_existing_complete": true,
+  "reference_window_certificate_sha256": "e9b682e8fdbba4551790dc4b3afc5a704455f408d9b8f2b3ca734e8c4400c5a0",
+  "expected": {
+    "coefficient_x_sigma6": 103259,
+    "coefficient_minus_xy_sigma6": 0,
+    "A_p": 103259,
+    "A_p_minus_3": 0,
+    "C_p": 80155,
+    "C_p_minus_3": 0
+  },
+  "purpose": "Independently verify the actual local minimum-valuation exception from the original flat elliptic-coordinate energy equation and sigma differential equation.",
+  "M2_itself_proved_zero": false
+}

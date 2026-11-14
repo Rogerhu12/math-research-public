@@ -1,0 +1,109 @@
+name: Serre p41 original true CM4 F2 heights
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/public-p41-true-CM4-height-activation.json
+  workflow_dispatch:
+    inputs:
+      result:
+        description: Reserved result ID with a preserved wave02 artifact
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/serre-uniformity/notes
+      - name: Select the two original CM4 disks
+        id: matrix
+        env:
+          DISPATCH_RESULT: ${{ inputs.result }}
+        run: |
+          python - <<'PYPLAN'
+          import json, os
+          from pathlib import Path
+          base = Path('topics/serre-uniformity/notes')
+          known = {x['result'] for x in json.loads((base / 'public-p41-true-CM4-height-request.json').read_text())['jobs']}
+          requested = [os.environ['DISPATCH_RESULT']] if os.environ['DISPATCH_RESULT'] else json.loads((base / 'public-p41-true-CM4-height-activation.json').read_text())['results']
+          assert requested and len(requested) == len(set(requested)) and set(requested) <= known
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('matrix=' + json.dumps({'result': requested}, separators=(',', ':')) + '\n')
+          PYPLAN
+  resume:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    concurrency:
+      group: serre-p41-true-CM4-${{ matrix.result }}
+      cancel-in-progress: false
+    timeout-minutes: 350
+    env:
+      RESUME_RESULT: ${{ matrix.result }}
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            .github/workflows
+            topics/serre-uniformity
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install exact arithmetic dependencies
+        run: python -m pip install --disable-pip-version-check numpy==2.2.6 scipy==1.15.3 sympy==1.14.0 python-flint==0.8.0 mpmath==1.3.0
+      - name: Restore and bind the completed original stages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/p41_public_true_CM4_heights.py prepare --result "$RESUME_RESULT"
+      - name: Compute only missing original CM4 height stages
+        continue-on-error: true
+        timeout-minutes: 330
+        run: python topics/serre-uniformity/scripts/p41_public_true_CM4_heights.py run --result "$RESUME_RESULT" --budget-minutes 320
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-p41-true-CM4-${{ matrix.result }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-p41-true-CM4/${{ matrix.result }}/output
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Preserve the actual CM4 F2 outputs
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 15
+        env:
+          SERRE_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/serre-uniformity/scripts/p41_public_true_CM4_heights.py publish --result "$RESUME_RESULT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-p41-true-CM4-publication-${{ matrix.result }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/serre-p41-true-CM4/${{ matrix.result }}/output/publication-receipt.json
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Require complete actual F2 computation
+        if: always()
+        run: python topics/serre-uniformity/scripts/p41_public_true_CM4_heights.py verify --result "$RESUME_RESULT"
