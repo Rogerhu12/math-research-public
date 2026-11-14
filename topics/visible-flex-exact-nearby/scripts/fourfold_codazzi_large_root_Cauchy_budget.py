@@ -76,7 +76,8 @@ def validate(a,doc):
         if sha(path)!=spec["sha256"]:raise ValueError("an original intrinsic compressed part changed")
         d=read(path);first,end=spec["common_row_indices"]
         if (d.get("kind")!="actual_full_regular_joint_radial_polynomial_residual_rows_v1"
-            or not d.get("complete") or not d.get("selected_cells_complete")
+            or d.get("complete") is not False or d.get("selected_cells_complete") is not True
+            or d.get("failure") is not None
             or d.get("identity")!=shared["original_row_identity"]
             or d.get("selected_indices")!=[first,end] or len(d.get("rows",[]))!=spec["rows"]):
             raise ValueError("the exact complete original intrinsic part identity is required")

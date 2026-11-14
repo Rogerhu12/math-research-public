@@ -123,3 +123,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:28:42 UTC — 固定 η 物理帽实际 pilot
 
 亲读 16236B process、34252B summary 和独立报告：43619535345 child0，6 门、336 新域、443.609966474 数学秒。全父格已含 mean、finite、ordinary/divergence 及六端点，整组八源选择；physical<1.508953388222e−6。继续7844个新quarter域，不重算64已成quarter。另已亲读43620358162失败过程：3输入门后原分片complete/selected_cells_complete语义校验失败，0新commonrows；修读取器中，未计数学结果。两README仍无diff；真pull最新728340d92c4864ad377884d2b67a947789fcc4c2。
+
+### 2026-11-14 17:29:07 UTC — 大根区 Cauchy 原分片完成语义修复
+
+43620358162 child1，前三输入门通过但0条commonrow完成；失败native `8cbc844f80334327f6750c0c00c82c769e5d9b1c792222d44f67a9bc9332245f` 原样保留。亲读原 correlated producer 和独立 body finish：旧分片仅 `selected_cells_complete=True`，全7721格 `complete=False` 是正确语义。新读取器严格要求此值、failure=None；整个原identity和6片SHA逐字不变，不改变任何数学公式。source `3a93e68fd688b7bd7e0d7ad6eaf941b098d1eba845b09a9b0ace01cabbb99850` / 16pin manifest `d6dc0d86940d3a9e899ff965fcdd2298daaf1b581d06f354b7f1e6c26a92d105`，公开Actions重新运行只补从未执行的新标量行。

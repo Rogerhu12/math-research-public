@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 17:28:42 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 17:29:07 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，17:16重试仍失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。runner长算每10min真pull、短child前后pull。root亲核43620358162于17:19:07拉到728340d92c4864ad377884d2b67a947789fcc4c2，四次两README diff均空。终端恢复即回git。
-最新远端 main/两README blob 核：1245111c0e8f9116b40262838acfa392cf7f20dd；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：bf62ea67e1fe70df68998d74b2040bb3e22f88ee；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次H原9840B完整归档 notes/2026-11-14-handoff-before-ordinary-only-Hessian.md；此前归档链保全。open原档 notes/2026-11-14-open-before-actual-full-delta-root-graph.md。完整SHA/失败/源端口/零重算合同在各results和manifest；禁止重算已成数学。
 
@@ -44,7 +44,7 @@ s−1负根43613506152实际13门：growth<101.103437943193、raw<4.005123341343
 piecewise v1 43615829270首positive Ksign失败，原nativefeab71e2…所有已成766行保；原因旧displayball忽略directed端点。v2 43616813816实际15+6×7门全成/36.750470s，只新534；R=1/50，1300行/1079真seam，nativedbaaf9f7…5923431B只artifact原字节。mainprocess c30eb4c5…。
 真canonical |T|<.05120020790294、Jac>1.506157、μ>2.321309；2/3阶seam A1/64和<.029541/370804，必须显式付，不能当ordinary残差或0。
 forced F1–18（ff27cd27…）已独核：ray差/完整终端branch都保，b的Fb增益2B0K0 A_-^-2/3根有限；Fa/Fb仍须代完整L0v0/J换位。无joint径向跨seam解析假设。
-phase继续实际L0/Jr；root大窗E1–12已独核，原正则Fourier权可在K_r>1、ηopt≤1.3真门下直接延伸1/50。16pin公开CI已推，仅旧1300×6parts真共同格的H0/H−1标量增长和全源/mean/jump积分，0原coef/target重算，待actual。原root球宽9e−13明确保。
+phase继续实际L0/Jr；root大窗E1–12已核，需K_r>1/ηopt≤1.3真门。公开43620358162原3输入门后校验失败/0commonrows：六旧partial完整片selected_cells_complete=True而global complete=False。已追原producer/finish确认，严格改complete is False且failure None，原identity/SHA全保，16pin CI续算待actual。原1300×6parts只新H0/H−1标量共同格，0旧target/coef重算；root宽9e−13保。
 六件原intrinsic whole/midpoint thirdjets已静态清单bb833626…/SHA517de329…；来自43583838026两artifact，commonrow2389–3834。必须真区间共同细分1300行，不把candidate piece当commonrow；仅读旧jets，0新target。
 directed word V−^-1V+=U_(S−∘X+)不是平方；root(buv/η)Swap仅均值0，非矩阵0。
 
