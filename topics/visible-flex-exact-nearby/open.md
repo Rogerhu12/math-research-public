@@ -235,3 +235,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 已启动原matrix之后的25pin解析幅度消费（2026-11-14 19:52:36 UTC）
 
 只新付同原两分量幅度、完整指数尾和六窗源积分，已成1328matrix rows不得重做。接actual以后继续真正L0w1根内复域/严格外片、正侧独立mean及完整return；不以单个源组件变小授完整cutoff97逆。
+
+### 原生64点后继的同一Z Green消费接口（2026-11-14 20:01:21 UTC）
+
+已审并先发布 [native-point→Green合同](notes/2026-11-14-R133-native-point-Hessian-cached-Green-contract.md) 及287pin消费者，等待公开原生64点workflow真实success；旧279/193 pins零改。数学 `refined_cut` 与已审Taylor版本逐字相同，仅换完整身份门及新增point scope。完整6391 profiles、其他三源、独立mean、14物理费/6边界费、未知误差算子全保；真实高块逆和cap无限cross-block仍未付。下一步直接消费上游实际证据，不为触发重跑已成数学。

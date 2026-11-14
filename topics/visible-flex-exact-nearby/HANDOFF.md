@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 19:52:36 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 20:01:21 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权与真实同步
 
 只在 Rogerhu12/math-research-public；一切新数学只在该仓库Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后成功真pull为12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145，12:35终端失联。root最近真pull尝试：2026-11-14 19:44:20 UTC，No usable execution environment。每小时再试；非FF即时再试。规则8暂准connector<100KB文本，先查size，任何binary/gzip禁取；新摘要≤60KB。API不冒称pull，终端恢复即回git。
-最新远端 main/两README blob 核：37a2ef6067dabbb810a2bbf56a94c046795f0d92；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542。rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1；driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：6b525504ee5ec2d34a3862d6952e7c35d1b840f4；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542。rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1；driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 reviewed runner长算每10min真pull；phase child45/outer50min，前后真pull/README差异核；每次真实检查及失败/native全部保。root已亲核下列actual process的真实pull及空README diff。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 此前9769B H逐字归档 notes/2026-11-14-handoff-before-kernel-and-Taylor-actual-results.md，内有9728/9928/9806等全部更早链。完整历史SHA/失败/参数和合同见results索引、相应actual报告及manifest。**已成数学不重算，不能把publication失败当math失败。**
@@ -48,3 +48,5 @@ S1–24真实q2长平台buffer跨端平滑26ec424a…已推c660739a，root/phase
 X1–33真实未覆盖(129,2) eX→D→B稿adefe7b8…18783B，phase已独核，root待全文核：strict对称双向能量及两个mean、真实simple根/total π/弱源原子/物理波，transfer及逆保守2^8192；经真正onto Möbius得eX/B酉图，返回方程仍待。tail继续真实外Robin/grounded→raw与参数强权，不能将径向D0免费转给非径向actual。
 
 子问题完成立即接open下一项；不以阶段报告、等用户或时长结束停工。
+
+native-point→Green287pin后继已先推，sourcec5236ced…/manifestf5cdddf7…；279/193旧pin零改，root全文差异核、tail独核。等待真实64point成功event，原6391仅重标右通道；未预授actual。

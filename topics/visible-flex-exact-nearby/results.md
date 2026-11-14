@@ -535,3 +535,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：25pin解析Airy源消费者（2026-11-14 19:52:36 UTC）
 
 已推 A1–18/J1–13 的实际消费者：同原3/64条带、真实逆phase宽、2×2非交换Hinv/HD角jets和独立a/b分量，完整指数Fourier尾包括mean；六个原径向窗/正侧真实collar-body切口、全部原M18–19来源、负源primitive转换保持。旧20pin逐项零改，原43632464994 native `3c8c4f3c93108de5a1c17149518f3aa16500a7f8ad58343f7a8dac325cc48d4b` 的1328矩阵行逐字复制，0旧coefficient/ray/target/forcing计算。最终source `439a29e2f1a3273bf9901d6a6ddfae075fb88a308d9a9e2a665cf839fc3e0dc7`，manifest `ee066de1b0328b6ede8b2a928680548065f6a8d1ad7d678f3ca515febf834e37`。root/tail核数学；root指出partialcase幅度恢复缺口后已修复，完整数值tensor独立序列化、每case成功幅度立即checkpoint，恢复只decode，原积分prefix仍保。真实数值与改进尚待公开run。
+
+### 原生缺失点 Hessian → 同一Z Green消费者（2026-11-14 20:01:21 UTC）
+
+[完整合同](notes/2026-11-14-R133-native-point-Hessian-cached-Green-contract.md) 与新 source/CI/287pin manifest/workflow 已推。原279/193科学pins全不变；root逐字核新旧科学函数、CI/flow和所有pins，tail独核。后继仅在真实原生64点成功后消费，不算旧target/whole/Taylor64/residual/Green传播；完整四源、mean、已知high和真实切口97行保留。此提交只授接口，不授未运行数值。

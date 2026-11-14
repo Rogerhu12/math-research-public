@@ -323,3 +323,5 @@ root已核source/CI差异、完整flow及全部旧pins；tail独核数学无改�
 ### 2026-11-14 19:52:36 UTC — 解析Airy五件消费者独推
 
 root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins；tail数学独核通过。首次运行前修复tensor嵌套序列化和partial幅度重复计算，数学公式不动。公开Actions自动启动，原五native SHA/字节和所有失败证据保留。
+
+- 2026-11-14 20:01:21 UTC：独立推原生64point→同一Z Green五件，manifest f5cdddf72bde6dbd2785452811832a3d6109a242796943782954a6d98c21d18c；先安装workflow_run再启动上游。原279/193 pins逐项零改，root/tail审核通过；新算仅右通道6391 profile重标定，待实际成功。两README blob未变。
