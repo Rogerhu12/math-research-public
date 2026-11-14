@@ -217,3 +217,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 ### 真实乘子补齐部分低角尾带
 
 [原乘子与低角吸收](notes/2026-11-14-deep-original-source-multipliers-and-low-angle-tail-absorption.md)付全S乘法、十二权H的47自由帽周期和源商47D−200；各自真子核中用Q/SQ/S²Q保全部charge/carry吸收末三尾，即使逐系数τ≤2。**待做：** 两主体子核之外的实际原边界、一般K1另外三carry尾及同修正d2；不将核交与子格和交换，来源O(D)补边不等物理forcing容量。
+
+### R569：原完整五维卷积单位与实际四unit行
+
+[R569：原五sigma真实六度边际、完整卷积单位与四unit桥](results/R569-original-five-sigma-convolution-unit-and-four-unit-bridge.md)：三C共轭给(D4,d)=(ω²/84)f4⊗σ；明确正权使完整五/六维测度整可逆，所有混合cut保真实平移。R562四unit回同一ν5的显式单位行，并与原完整S/T行各自运输到同一词域；测试尚未等价。 **待做：** 同一个完整来源/词域的G单位测试与q_nℓ原算术测试之间的真实关系；全向量平移不自动保算术零，四unit里t不能置零，T7/T10不正交。R567局部残差及其整个补域仍须同时保留。

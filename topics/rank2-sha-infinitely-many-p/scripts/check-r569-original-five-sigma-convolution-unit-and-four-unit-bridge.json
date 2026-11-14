@@ -1,0 +1,472 @@
+{
+  "convention": "Each pair [a,b] denotes a+b*omega over Q; omega^2+omega+1=0. No finite-prime sample is used.",
+  "complete_C_rotation": [
+    [
+      [
+        "2/3",
+        "1/3"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1/3",
+        "-1/3"
+      ],
+      [
+        "-1/3",
+        "1/3"
+      ]
+    ],
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "1/3",
+        "-1/3"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "2/3",
+        "1/3"
+      ],
+      [
+        "1/3",
+        "-1/3"
+      ]
+    ],
+    [
+      [
+        "-1/3",
+        "1/3"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1/3",
+        "-1/3"
+      ],
+      [
+        "2/3",
+        "1/3"
+      ]
+    ]
+  ],
+  "C": [
+    [
+      "-1/3",
+      "-2/3"
+    ],
+    [
+      "0",
+      "0"
+    ],
+    [
+      "1/3",
+      "2/3"
+    ],
+    [
+      "-1/3",
+      "-2/3"
+    ]
+  ],
+  "D4": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "-1",
+      "-1"
+    ],
+    [
+      "0",
+      "-2"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "conjugates": [
+    {
+      "zeta": [
+        "1",
+        "0"
+      ],
+      "row": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "0",
+          "-2"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "sigma_factorization": [
+        {
+          "unit": [
+            "1",
+            "0"
+          ]
+        },
+        {
+          "unit": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "unused_because_zero_row": [
+            "0",
+            "-2"
+          ]
+        },
+        "zero sigma factor"
+      ],
+      "f4_coefficient": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "zeta": [
+        "0",
+        "1"
+      ],
+      "row": [
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "1",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1"
+        ]
+      ],
+      "sigma_factorization": [
+        {
+          "unit": [
+            "0",
+            "-1"
+          ]
+        },
+        {
+          "unit": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "delta_times_unit": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "unit": [
+            "-1",
+            "-1"
+          ]
+        }
+      ],
+      "f4_coefficient": [
+        "2",
+        "1"
+      ]
+    },
+    {
+      "zeta": [
+        "-1",
+        "-1"
+      ],
+      "row": [
+        [
+          "1",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      "sigma_factorization": [
+        {
+          "delta_times_unit": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "unit": [
+            "-1",
+            "-1"
+          ]
+        },
+        {
+          "unit": [
+            "0",
+            "-1"
+          ]
+        },
+        {
+          "unit": [
+            "0",
+            "-1"
+          ]
+        }
+      ],
+      "f4_coefficient": [
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "raw_average_f4_coefficient": [
+    "1",
+    "1"
+  ],
+  "original_five_sigma_marginal_coefficient": [
+    "-1/84",
+    "-1/84"
+  ],
+  "five_weighted_mass": {
+    "weight": "1_{D4,d unit} D4^4 d",
+    "coefficient": [
+      "-2/7",
+      "-2/7"
+    ],
+    "factor": "Omega^5(1-beta*kappa^4)(1-beta*kappa)",
+    "constant_term_is_unit": true
+  },
+  "six_weighted_mass": {
+    "weight": "1_{c,D4,d unit} c D4^4 d",
+    "coefficient": [
+      "-2/7",
+      "-2/7"
+    ],
+    "factor": "Omega^6(1-beta*kappa^4)(1-beta*kappa)^2",
+    "constant_term_is_unit": true
+  },
+  "normal_directions": {
+    "T7": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "0",
+        "-2"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "T10": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "0",
+        "-2"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "-2"
+      ]
+    ],
+    "gram": [
+      [
+        [
+          "7",
+          "0"
+        ],
+        [
+          "8",
+          "0"
+        ]
+      ],
+      [
+        [
+          "8",
+          "0"
+        ],
+        [
+          "10",
+          "0"
+        ]
+      ]
+    ],
+    "change": [
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ]
+    ],
+    "inverse": [
+      [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ]
+    ],
+    "determinant": [
+      "0",
+      "-1"
+    ]
+  },
+  "four_unit_pullback": {
+    "z": "2*T7-T10",
+    "d": "omega^2*(T7-T10)",
+    "v": "2*T7-T10+t",
+    "H": {
+      "T7": [
+        "-1",
+        "-1"
+      ],
+      "T10": [
+        "0",
+        "1"
+      ],
+      "t": "-1"
+    },
+    "K": {
+      "T7": [
+        "3",
+        "-1"
+      ],
+      "T10": [
+        "-2",
+        "1"
+      ],
+      "t": "+1"
+    },
+    "all_cuts": [
+      "d unit",
+      "v unit",
+      "H unit",
+      "K unit",
+      "z unit"
+    ],
+    "numerator": "(T7-T10)^3"
+  },
+  "fixed_unit_row": {
+    "source": "the original full five-sigma nu5, with all three remaining coordinates retained",
+    "value": "(omega^2/84)*(J_B+c_I*I4)",
+    "c_I": "9*b*Omega^3*(1-beta*kappa^3)/(2*delta^2)",
+    "leading_coefficient": [
+      "1/504",
+      "1/504"
+    ],
+    "leading_factor": "Omega*(1-beta*kappa)*(1-3*beta)",
+    "exact_remainder": "-(omega^2/84)*(C_sigma+T_B)",
+    "valuations": {
+      "C_sigma": 7,
+      "T_B": 6
+    },
+    "I4": "the original f4 negative-two unit moment, never the positive-four moment"
+  },
+  "scope": {
+    "multivariable_inverse": "The inverse is in the full five-variable integral Amice algebra; translate every native observation and cut.",
+    "actual_word": "P_{u,kappa} P_{P,kappa}; original full source returns -chi65*lambda^2",
+    "arithmetic_row": "beta^n*(J_S'-6*delta*J_T') before the word",
+    "fixed_unit_row_is_not_identified_with_arithmetic_row": true,
+    "native_restricted_residual_is_not_the_full_arithmetic_row": true
+  }
+}

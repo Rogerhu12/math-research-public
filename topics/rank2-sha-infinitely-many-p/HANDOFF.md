@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：c4b90f9676e1a374b1d48a0f8e5014ff432cd8ab；2026-11-14 19:22:22 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：c7880a685c90431223b164cd0b74c767324c7aec；2026-11-14 19:27:54 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:55:59 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟19:55重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,8 +14,8 @@
 
 ## 发布、归档、当前分工
 
-R1–363、R365–560、R562–568已登记；R364仍开，R561/569/570进行中，root接R571。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r567.md)、[open](notes/2026-11-14-open-before-r567.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–569已登记；R364仍开，R561/570进行中，root接R571。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r569.md)、[open](notes/2026-11-14-open-before-r567.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
@@ -44,20 +44,18 @@ R490–558旧五伴随/词格/四态/角型/外谱、三环带及全部未付补
 D=D14=D4+c+(2+3ω)d0，D4=(1,ω²,−2ω,0)，C=(ξ1−ξ3+x)/δ，F=D+C，E=F+13C，G=13H1+(3−2ω)F。D12=F−c与D14不同。
 µ0=PCρ0、ηC=PCη、µh=ηC+µ0/2；R1为真实u=(ωc+(1−ω)d0)/2反射，R1µ0=µ0+ηC。
 
-R560：同一R536七行右逆P_hat、同一原Nn精确βn/(bΩ6)乘五观察行，X=c−D/14、Z=d0+(1+3ω)D/14；两不交条带Zunit、X∓(2+ω)Zdeep。E/Y/W及两log/W′/G全保。wholeS14七条件矩含mom6=Ω6(720Λ6−672bΛ0)，n无关不赋非零；Dn不降π5。
+R560：原R536七行P_hat给五观察行，X=c−D/14、Z=d+(1+3ω)D/14，两不交strip=Zunit且X∓(2+ω)Zdeep。全部E/Y/W/log/W′/G保；wholeS14第六矩为Ω6(720Λ6−672bΛ0)，Dn不降π5。准确式及旧接口保前一交接。
 
-R564：负条带=V14deep/K42unit，D/V/K42 whole三β核保PC原两态；V=(-ω²,−ω,2,0,−2ω,−2ω)，K42=(-ω²,−ω,2,0,−3+3ω,3)。所有观察随V→κV，真实F−0与κF−1同p阶，尾p²。
+R564：负strip=V14deep/K42unit，wholeD/V/K三β；全观察随V→κV，保真实F−0、κF−1同阶p和p²尾，坐标全见正文/前一交接。
 
-R568：P=u−ω²D/7、Z*=Z−(8+3ω)P/10；whole140/60核心均−χ65λR1，保三个C共轭，不延R563新µ−。正条带=Pdeep/Z*unit，全部E/G/Y/W随P→κP，源Δ回−2χλh。Q10=D−2ωu wholeχ65由非零共同两轴锚付；u/P两步返回−χλ²原S/T，须保全部实际q/Y/W逆转置。
+R568：P=u−ω²D/7、Z*=Z−(8+3ω)P/10，正strip=Pdeep/Z*unit；whole140/60=−χ65λR1，原Δ回−2χλh，所有E/G/Y/W随P→κP。Q10 wholeχ65已付，u/P两步词回−χλ²原S/T但保全部q/Y/W逆转置；不延140/60至新µ−。
 
-R563/566：µ−=KHµh留完整S24²，AH=diag(−1,X)、AK=diag(−1,−X)，D12²=diag(1,−1,−1)，不把−Rc延至新态。完整D14/2K/Q1008 frame付µ−也有wholeS14 β核；UK与D14归一交换，原双unit两互补积分分别回原π5的14X−E unit/deep，每项βn乘同一受限f_flat；第三态由完整Kunit逆消去，不分别赋零。全部浅支、常数逆/质量及K尾p^r保。
+R563/566：完整S24三态的D12²=diag(1,−1,−1)，新µ−不能用−Rc；完整frame另付全部三态D14 β。UK与D14归一交换，两个完整native补域回π5的14X−E unit/deep，第三态准确消去，不分别赋零。全部浅支、常数逆/质量、K尾p^r保持。
 
-R567：局部native残差Nn=β^(n+1)/(bΩ6)[χF+(κ)+F−(κ)]。F+源µ0+2ηC，F−源µ0+µR，µR=R1µ0；两域是实际E±unit及Z*unit/K42unit。
-真实伴随转置后均不含c。正：DH=T10+2ωc、PH=−ω²T10/7+5c/7，T10=D4−2ωd；负：DR1=T7+ac、VR1=−ω²T7+ec，T7=D4−ωd、a=3+2ω、e=ω²a。同一ν5=−PCσ^⊗5/84，mσ7=24bΩ7必须保。
-η行E+0[A]=2Ω∫A′；E+1[A]=ω²Ω∫(5A−2T10A′)/7+7680ω²bΩ7∫A6/7。
-µR行E−0[A]=aΩ∫A′；E−1[A]=eΩ∫(A−T7A′)+24bea6Ω7∫A6。两实际不同伴随映射保持，不能自由互换。
-wholeS7的mom6=24bΩ6Λ0；wholeS10为Ω6(720Λ6−480bΛ0)。对应质量系数24be(a6−5)、11040ω²b/7皆unit，但不赋积分unit。
-残差首层判据Nn/(pβ^(n+1))乘bΩ6≡C0/p+λ²C1 modp，其中C0=χF+0+F−0∈p、C1=χF+1+F−1∈O。**此右端非零未付，且即便非零也不能排原中央同时零**。真正总行Tn=3βn(JS′−6δJT′)=Nn+Cn，Cn=∫uunit(a−aRc)Δ+3∫c,ddeep aρ；全部q/log/carry保持，须付完整补偿。
+R567：局部native残差Nn=β^(n+1)/(bΩ6)[χF+(κ)+F−(κ)]，F+源µ0+2ηC，F−源µ0+µR。正H转置与负R1转置的伴随均无c：T10=D4−2ωd、T7=D4−ωd，法向和全部原域见正文。两者用同一ν5=−PCσ5/84精确消σc；mσ7=24bΩ7不能漏。wholeS7 mom6=24bΩ6Λ0，S10 mom6=Ω6(720Λ6−480bΛ0)；原第六质量24be(a6−5)、11040ω²b/7均unit，不赋积分unit。
+残差首层是bΩ6Nn/(pβ^(n+1))≡C0/p+λ²C1，其中C0∈p含原log质量。**非零未付，且即便非零也不排原中央同时零**。R567范围修正已推d20ab976：整个Tn=3βn(JS′−6δJT′)=Nn+Cn，Cn=∫uunit(a−aRc)Δ+3∫c,ddeep aρ；必须处理全部q/carry/原权补偿。
+
+R569：未经新角投影的真边际(D4,d)_*ν5=(ω²/84)νf4⊗νσ。w5=1_D4,dunit D4⁴d使整个五维质量(2ω²/7)Ω5(1−βκ4)(1−βκ)为unit，六维加c1_cunit亦有整卷积逆；全部混合cut必须随全向量平移。原R562四unit经τ4=z4·1unitνf4逆得到同一ν5的显式单位行G(D4,d)，保平移t及五个真实unit条件；完整原arith q_nℓ另行通过同一个u/P词返回。两测试同源同域但尚未等价，不以G单位代全J非零。
 
 ## 固定负矩与 Cartier
 

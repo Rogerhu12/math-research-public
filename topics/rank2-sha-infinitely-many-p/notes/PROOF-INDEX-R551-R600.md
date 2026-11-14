@@ -40,3 +40,5 @@
 - [R565：原V完整差、deck相位及非零Cartier双线性行](results/R565-original-paired-v-lame-and-nonzero-cartier-bilinear-row.md)：真实zV=r4yNx、QV完整多项式及全étale相位/gcd已付；同ray的完整十二度Cartier输出h²(x6+20x3+10)/18最高为单位，b17保全部Frob根。该非线性行不等两指定负矩乘积，且分部配对看不见R4最高Frobenius项。
 
 - [R567：原正负完整首两行与同一五sigma来源消元](results/R567-native-both-strips-and-exact-five-sigma-normal-jets.md)：原局部残差的两个完整条带合为β^(n+1)(χF++F−)/(bΩ6)；真实H/R1转置各消一个原sigma输入，同一五sigma的S10/S7条件行、全部第七矩及第六矩质量修正精确付清。残差首层判据C0/p+λ²C1保原log质量/实际cut；非零未付，且原uunit/c,ddeep补域仍可能补偿，不能代全算术非零。
+
+- [R569：原五sigma真实六度边际、完整卷积单位与四unit桥](results/R569-original-five-sigma-convolution-unit-and-four-unit-bridge.md)：三C共轭给(D4,d)=(ω²/84)f4⊗σ；明确正权使完整五/六维测度整可逆，所有混合cut保真实平移。R562四unit回同一ν5的显式单位行，并与原完整S/T行各自运输到同一词域；测试尚未等价。
