@@ -232,6 +232,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:47:06.909318+00:00",
+      "before": "a14afab6edf5d6d6cccb667c55d7bc304be99957",
+      "after": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -269,6 +277,11 @@
       "time": "2026-11-14T11:46:34.255959+00:00",
       "final": false,
       "commit": "ca623c4d9a04ded2070f9748f1c6b2f0448eeb37"
+    },
+    {
+      "time": "2026-11-14T11:47:06.590658+00:00",
+      "final": false,
+      "commit": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -293,7 +306,8 @@
   "selected_actual_cells_completed": [
     0,
     76,
-    3300
+    3300,
+    5969
   ],
   "complete_original_5970_cells_claimed": false,
   "continuous_global_inverse_proved": false,
@@ -311,10 +325,10 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "a14afab6edf5d6d6cccb667c55d7bc304be99957",
+  "last_read_commit": "cba50b7b5c03eac708db0055adf7ed7a758fbe8a",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cut-projector-pilot-work/science",
-  "snapshot_utc": "2026-11-14T11:47:05.080832+00:00",
-  "wall_seconds": 140.789546979,
+  "snapshot_utc": "2026-11-14T11:47:06.933999+00:00",
+  "wall_seconds": 142.64271133100002,
   "native_files": [
     {
       "logical_file": "evidence/original-complete-frame-process.json",
@@ -339,6 +353,12 @@
       "file": "evidence/validated-cell-03300-summary.json",
       "bytes": 34753,
       "sha256": "7cf30d14cf26c62573c66666843dabea9ceebfc874a7eb0654a1265e7c510037"
+    },
+    {
+      "logical_file": "evidence/validated-cell-05969-summary.json",
+      "file": "evidence/validated-cell-05969-summary.json",
+      "bytes": 34679,
+      "sha256": "8669aa0ec4610eae56fe787d38c4fcf4c34c23134a3fc7f4060cb353feb5d251"
     },
     {
       "logical_file": "native/complete-public-algebra-gates.json.gz",
