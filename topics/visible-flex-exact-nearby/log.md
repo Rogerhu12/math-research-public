@@ -519,3 +519,7 @@ Y1–7只消费原exactfold完整native0ceafc2b…/3180936B及process67bf926a…
 ## 2026-11-14 23:22:19 UTC — 高阶真根v2 actual十五门
 
 根核run43651259105原process3b06c881…与worker d70ac1fb…：child0，科学20.649323927s/外driver20.850433209s，native38a8ba8d…570579B。原失败点payload938047c9…原样保，0新有限求值，Nyquist原球逐个含零后消费精确结构投影，完整无限误差继续保。新12阶误差、36mean、11E、四行各10普通导数/54低阶对照均通过；报告SHA09ece496…独立推。两次真pull caaf7a79d33a43c981500f2c0330dca923997c31，两README实际diff空（该worker未记每次时间）；新近带时间pull仍由matrix-plan记录。当前591b25d199d1f50d91a442df1d0b318f3d722a87只读核无规则变化。w1全Laurent/Taylor、I/J、strong、cutoff及真ν仍待。
+
+## 2026-11-14 23:23:14 UTC — ε准确代数及Taylor完整Wiener尾
+
+C1–12（SHA48940b32…）独立推。根逐式核与P递推一致：背景/fold与ε无关，Fb偶/Fa奇，归一A奇/B偶，重构a1奇/b1偶；任意同一复δ，不用共轭。完整Laurent支持及结构零消费须原球包含准确值；原数据不改。Cauchy双系数给Lq全signed Fourier尾，sup与Wiener分开，h+原root bracket宽度作为真实ρ内窗。候选Rρ1/6000、Σφ1/128仍待实际包含门，未冒作已过。两README721edbfcacb28d6e7cfd4d139cc9bb6c939786b4只读核无差。

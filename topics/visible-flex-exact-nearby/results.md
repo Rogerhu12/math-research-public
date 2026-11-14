@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **完整复分支代数及Taylor Wiener尾**：同一复δ不共轭，准确a1负分支反号、b1同号，可完整保两真实Airy分支而只算一次新finite algebra。C1–12给全signed Fourier和L0..L3、原root bracket覆盖和旧product inclusion待核门；保mean/全部高输入，不能把sup当同宽Wiener。见 [双分支与完整角尾](results/R133-supplement-full-complex-branch-symmetry-and-old-Taylor-Wiener-tail.md)。
+
 - **真根高阶内蕴actual完成**：公开43651259105 child0/15门，原12列finite point逐字复用、0新FFT/target；完整误差0..11、36双线性mean、E0..10和K/β/γ/s0..9完成，54个原低阶重叠全过。只认固定η0及原zero-bump germ，不把原halfwidth变为共根定理。见 [实际高阶真根报告](results/R133-supplement-actual-complete-high-intrinsic-jets-at-the-true-root.md)。
 
 - **完整5970矩阵计划实际通过，出版错误单独保留**：公开run43651733856的plan child0/7门，32互斥组覆盖5966个缺格；随后小摘要PosixPath+str异常，所有range/finish skipped。原四格/原计划不重算，恢复须逐字认同唯一process/native/七门。见 [actual plan与恢复](notes/2026-11-14-R133-complete-same-F-plan-actual-and-publication-recovery.md)。
