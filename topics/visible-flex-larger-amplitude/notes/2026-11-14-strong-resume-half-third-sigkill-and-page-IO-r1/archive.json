@@ -1,0 +1,67 @@
+{
+  "scope": "Observed complete first J/QR/linear solve, then real external SIGKILL before a trial returned; separately executed byte-identical I/O execution check and same-design running retry.",
+  "created_utc": "2026-11-14T08:29:04.666846+00:00",
+  "files": [
+    {
+      "file": "r3-resource.json",
+      "sha256": "f8295020633b878eebc83a0582e66905c56b40502a4c000427d0fe29885548a9",
+      "bytes": 4547
+    },
+    {
+      "file": "r3-disk-events.jsonl",
+      "sha256": "cba7dff2799a496efe925f0ff69eb08f81f795e7edb087b6c2c06c8fed836931",
+      "bytes": 33631
+    },
+    {
+      "file": "r3-complete-preservation-index.json",
+      "sha256": "89d8301cdff0f530f9dcfd8db2a1e4d483f65205cb94a9ee488acfc43cad2844",
+      "bytes": 9905
+    },
+    {
+      "file": "r3-plan.json",
+      "sha256": "134f28cca6eac1eb754df9ce1c3c0231385ce7ee6ae6123a5e03948100f11cc5",
+      "bytes": 6321
+    },
+    {
+      "file": "IO-byte-check.json",
+      "sha256": "d28d36ed97aeaac77ef264805e33ba614786523644c7d504e537e9c1c29bf9b4",
+      "bytes": 2595
+    },
+    {
+      "file": "IO-byte-check-events.jsonl",
+      "sha256": "e868db4cd83873e94b731f2f41a7f3ece569bd6f3e840fd22b4a6d6bd10d8f6a",
+      "bytes": 1927
+    },
+    {
+      "file": "r4-plan.json",
+      "sha256": "7be600d7bc7b9b1be137a51162c2a5d45326be6c83439ac01d8351de3a68b236",
+      "bytes": 6705
+    },
+    {
+      "file": "r4-running-launch-snapshot.json",
+      "sha256": "f38db6b0d026d1608e3d1908b6a80d22105c05422ca90e3c507f6994f723437d",
+      "bytes": 4824
+    }
+  ],
+  "sources": [
+    {
+      "file": "computations/strong_20261114_disk_page_budget.py",
+      "sha256": "8bc49fa84241d5611c4d88f9b26b513821ebc171c04a85e74c52c0d31ed4ff34"
+    },
+    {
+      "file": "computations/strong_20261114_page_bounded_entry.py",
+      "sha256": "839a233b7cebb6334e3b8e88c632a063d50b31af8af1591b20f9535a16c8aef4"
+    },
+    {
+      "file": "computations/strong_20261114_disk_page_budget_check.py",
+      "sha256": "a98a66a2f08a2bf4bbb4b5f24c5359d82768c9ecbe105b66f7e6c24a09e57ba7"
+    }
+  ],
+  "r4_current_status": "running-at-snapshot",
+  "r4_session": 28520,
+  "r4_log": "/workspace/scratch/ffc1334c1988/strong-work/loop-margin325-half-actual-r4.log",
+  "r4_checkpoints": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/new/loop-margin325-half-actual-r4-*",
+  "r4_stop_file": "/workspace/scratch/ffc1334c1988/strong-work/loop-margin325-half-actual-r4.stop",
+  "anonymous_r3_J_and_QR_bytes_not_saved": true,
+  "new_accepted_prefix": false
+}

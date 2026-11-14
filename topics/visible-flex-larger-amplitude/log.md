@@ -237,3 +237,6 @@ RK24完整八级与三整闭mesh七命令均真exit0，global metric4.7703317350
 
 ### 2026-11-14T08:26:15+00:00 — publicexecutionprep (local; public approval pending)
 题外新增.github/workflows/visible-larger-public-actual-bvp.yml，仅为本题五个实际BVP任务，dispatch-only/contents:read/并发4，无自动push；所有输入SHA/argv本地实核。91源+7raw恢复真exit0，R225自含输入driver prepare真0。只上传指定计算输出，恢复子进程凭证瞬时环境使用并在数值进程移除；公开push/Actions实际自动审批拒绝未解除，本次完全本地、无远端执行。
+
+### 2026-11-14T08:30:57+00:00 — halfsigkillthreepageio (local; public approval pending)
+半步r3真实−9前已完成432批J/QR及线性解：绝对残差7.06e−18、step∞110.16，首Newton试点未返回，未宣称数学失败。23件真实恢复保存，匿名J/QR随进程消失并未冒称保全。仅自有arena同步/clean页advice逐字IO实核，r4同数学在08:25:33真实续启session28520，新cache/执行batch区别和精确恢复地址保留。实际08:27:52只读pull/rebase到cd2c2b616b6c28fab8f3fdd89a59865f947fbf2a，双README无变化；H已记已读SHA，无公开写入。

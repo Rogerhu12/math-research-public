@@ -25,7 +25,7 @@ A主SHA917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf；fixed-
 唯一接受强解仍A：M32/35参数/2590节点/1280角，原RMS9.9224e−8/BC9.234e−13，完整mean metric6.733e−8/κ8.34551434；全核G=.2506381129，连续prefix D≥3.9767551573，幅度远不足。
 13方向响应实际exit0，8列原全半/后向门全过，7必要gz/13.65MB已推旧仓并随迁移；终端fraction相对差1.53035e−4近原2e−4门，不能松门。全步margin325新H尾已解2.34189e−10，但prefix三步alpha1/16、1/2048、1/512后col .226956/BC7.5173e−6，未接受；原session66087 Ctrl-C130无最终wait4，33恢复件在margin325-full-r3-recovery。
 同13方向半步H已解1.499603e−9并真full audit exit0/232.18s；完整H/J/审计packet归档。半步prefix r1首J第195/216批被−9，真实峰498652KiB，27件恢复；释放闲置Node的r2仍在≥60/216批被−9（218.79s/503680KiB），23件恢复。均无完整J/因子/Newton试步，非数学失败，原因未知。
-**r3 session65701在08:14:31真实−9**（734.56s/峰464276KiB）；原候选/35参数/1280/原门，完整432批J和QR已成：J460075656B/factor851514112B，线性绝对残差7.06e−18，step∞110.16，首Newton试点未返回。无Node、supervisor未收信号，原因未知。恢复目录margin325-half-r{1,2,3}-recovery；原日志loop-margin325-half-actual-r3.log。准备仅改自有arena写后同步/clean页advice、radial24/collocation12和新cache再续；未启动前不记运行。
+**r3 session65701在08:14:31真实−9**（734.56s/峰464276KiB）；原候选/35参数/1280/原门，完整432批J和QR已成：J460075656B/factor851514112B，线性绝对残差7.06e−18，step∞110.16，首Newton试点未返回。无Node、supervisor未收信号，原因未知。恢复目录margin325-half-r{1,2,3}-recovery；原日志loop-margin325-half-actual-r3.log。r4在08:25:33实际启动session28520/log loop-margin325-half-actual-r4.log；仅自有arena写后同步/clean页advice已逐位实核，radial24/collocation12及新256MiB cache，原数学不变。
 
 真实失败块在s≈1.53–2.05下降段，而非loopκ峰。局部全13方向/1280暖场gap A/full/half=.00967054/.01218569/.01078286，Newton试点才坍塌，不删5–8模。两次真实tail余项full/half约4。默认ramp .08接口逐字复现A，非默认scalar/背景XYZ两jet接缝≤5.55e−16；3新ramp入口仅source prepare，第14响应/非圆场/audit/M40未做，是新全局g设计。
 接受序列driver仅A prepare成功：真接受→原fullmean→同g M40/1536+原比较→新响应。无新M40解。强线待本轮实际结果后可转助新大核心全局profile，不机械重复小步LP。
@@ -44,10 +44,10 @@ R225全32有理核G≈.8；R235真实Schur/barrier证明及固定84节点同g M6
 旧M48 free-core原样源32b38b...及完整失败包保存；旧M128−9启动源没有逐字归档，明确不冒用现a1e5486源码。169节点/真实资源记录仍可靠。新M128短端.99475、base_step.005、264节点prepare真0，BC0/colmax5.88685e−9，待16GiB runner原tol1e−5 BVP；directCSC同值且释放旧LU/J。
 R236：λ=6/5全32核准确G≈.96/rho_min>.1661，条件球外保持证明完成。照搬旧scalar会遮挡到.8691；**新从core球控制到.95真exit0/848.78s/102888KiB**，采样G≈.96保持，Dproxy3.45097493。冻结381节点/1140有理接缝，geometry SHA5b9a574cb3774e9765b6782819dda0332bdb24fc6961b8e6473d2b2f512196bc。冷M96/M192同粗时间metric1.917e−10/6.322e−8；保持M192、dt减半/rtol1e−12后降至2.1272e−13，真exit0/262.59s。未声称完整六jet或闭面收敛；见notes/2026-11-14-root-sphere-controlled-prefix-r1。
 新球M128短turn到.984，点域/球保持，高模随后增长；冻结415节点/1242接缝新g，原生M96冷至.984 metric6.6398e−8、κ6.29532、Dproxy3.49295，非裁频初猜。7件完整包见geometry-work/scaled-sphere-turn-frozen-package.json。
-**geometry全M96/415节点BVP已接受首Newton全步**，固定前32核/64高核未知，实际非轴末端设计算子。低峰QR实际线性相对残差1.29e−13；更新col2.26e−16/BC9.93e−23，连续残差1.35e−6略超本次tol1e−6，正加1节点重算，峰275456KiB。端算子非精确稳定流形；新核心须重算rho/G/球与g。具体session由geometry持有。
+**geometry全M96正Gauss两端BVP真exit0**，固定前32核/64高核未知，2轮/416节点/连续残差5.457066e−7/BC8.27e−23；峰296844KiB/820.49s，session1015已闭。节点metric6.65963e−8、κ6.295315、Dproxy3.492954605、球样本G≈.96；高核33..96新系数约1e−12，rho_min.16611746须完整复核。磁盘QR真实线性残差验证保留；实际末端设计算子非精确稳定流形，不冒全闭成功。输出B/geometry-work/scaled-sphere-M96-normal-BVP-r1.json.gz及log/resource，完整冻结包正交接。新scalar连接可接原物理tail cut，真实非轴/材料角匹配未付。
 
 ## 接续
 
 优先新球核心正Gauss匹配及完整闭合；同时消费同半步真实Newton和RK48/源分区精化。接受后立即原审计、锁g精化、全闭/全t几何，并继续增幅。完整证明直接results，数值/失败如实notes；公开发布受上述真实审批阻塞，当前只做本地commit与只读同步。
 
-规则同步记录：2026-11-14T07:41:42+00:00 实际pull --rebase成功；双README自480a4313c5ebc8b5c8800c1432d9d5aef8ec5946无变化；已读提交 add08fd0e2839e4d7cf095da3f7c5371f8918232。
+规则同步记录：2026-11-14T08:27:52+00:00 实际pull --rebase成功；双README自add08fd0e2839e4d7cf095da3f7c5371f8918232无变化；已读提交 cd2c2b616b6c28fab8f3fdd89a59865f947fbf2a。
