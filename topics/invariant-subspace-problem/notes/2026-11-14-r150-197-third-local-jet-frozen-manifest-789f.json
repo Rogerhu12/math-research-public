@@ -1,0 +1,118 @@
+{
+  "format": "r150-197-third-local-jet-frozen-source-manifest-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro",
+  "repository": "Rogerhu12/math-research-public",
+  "contract": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-jet-contract-789f.json",
+  "runner": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-jet-runner-789f.py",
+  "interface": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-jet-interface-789f.md",
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-common-789f.hpp",
+      "blob": "70382272df03f6a6ada1ac34685253af128dd90c",
+      "sha256": "200a50ec256950338e059a2622f1cfb879add2c5300d611813af9898e04b9ce7",
+      "bytes": 6865
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-vq-789f.cpp",
+      "blob": "9f3457b9a4c1c5b9f418049e9716813ddde7323a",
+      "sha256": "beac9b10c3182be7f8d29ade058426de93db2e31a694d44379b86a6385e619da",
+      "bytes": 9404
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-transport-789f.cpp",
+      "blob": "8258b730f05698b8bc3c182809fac3f05670b8ed",
+      "sha256": "ff83c3e095b925c926c8a9685ec8dd9844d68bf3e704052b1378d020a54f515c",
+      "bytes": 10555
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-product-789f.cpp",
+      "blob": "bf1c8fee5feb50732b49ee121e81124bf2773dbb",
+      "sha256": "cd8e7fbdac289356719a3a1698dca8f7a95589581c37decbfa1fc5137b057f26",
+      "bytes": 15050
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-normal-789f.cpp",
+      "blob": "704970d6531435125635ed5e308b753e97baee58",
+      "sha256": "4ed80ff673e783beb8f6b8e5a9ae12bc95ffb0fdb9243636b6f654ea151582fa",
+      "bytes": 14726
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-matrices-789f.py",
+      "blob": "f92b7a15978c595a424071c2b0dc5b9c43d5fc94",
+      "sha256": "ec0733e0aa3c18ea877b54ed23dd50ca35143845495d06306c7a535a7c0b85ef",
+      "bytes": 27057
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-global-original-789f.cpp",
+      "blob": "675a185536d71dbf79a96b0480a221c2eaf4f10b",
+      "sha256": "93b22e822a5651971a102db5eec1b6c71de708b8dd45bee89ee93d37b6355c95",
+      "bytes": 14839
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-global-normal-789f.cpp",
+      "blob": "89647e033bd4f8b603f6a047e76cfc325360fea4",
+      "sha256": "2ffd452157f6bf17a798c553414b3b59d57404f70d442a5e9fe2d33dcf4f5a84",
+      "bytes": 16013
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-jet-runner-789f.py",
+      "blob": "2545d8d1fa2641e9d88dce6f9674467232b6e544",
+      "sha256": "5f593b3bbda293e89911f603cb37ddb32fa3b5b8ff87de8cf69de73aea1df0b9",
+      "bytes": 39807
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-jet-interface-789f.md",
+      "blob": "1216337e876b09aa926baf693eff045043f1ab36",
+      "sha256": "77f1d64a0a9eb9cf84345c6a4b4d2766d41f8752cc25e49212704be356c2a961",
+      "bytes": 11332
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-197-third-local-jet-contract-789f.json",
+      "blob": "cc5adadd6f75541db70d36d46604310cda85893a",
+      "sha256": "a4cf47533ce1bceb75294ef9c7ea483f1e4a31dac9dbcd2de6be2c6d0cc9025a",
+      "bytes": 26655
+    }
+  ],
+  "reusedDependencies": {
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-789f.hpp": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-target-source-789f.cpp": "5aede47a4a7a56d922e868e11567c28fb4339de48015d9ba55f400a6bd9d471b",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-image-789f.cpp": "ff694c1482b8b38e89e42a30c708434ca5f814631a6ddd9554377f2fa4766a45",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py": "d31c917fe0aaa0e9008e5cb0a85cb81600b5a431fe691261948354fb1d1ee42b",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-original-wide-transport-checkpoint-789f.cpp": "9f505a582d44292733fcbb8d381d9d52c413be30ff67aca28f3f58258fc14951"
+  },
+  "sourceFreezeOnly": true,
+  "localASTParsePerformed": false,
+  "localCompilationPerformed": false,
+  "newMathematicsExecuted": false,
+  "inputCount": 68,
+  "artifactCount": 7,
+  "nativeCompilations": 10,
+  "compileSecondsEach": 30,
+  "sharedMathematicalSeconds": 300,
+  "perChildMemoryMiB": 512,
+  "mainReceipt": "197-third-local-jet-pipeline-receipt.json",
+  "completedOutcomes": [
+    "complete-relevant-low-initial-third-obstruction",
+    "partial-original-p6-complete",
+    "all-nine-original-p6-complete"
+  ],
+  "scope": "complete relevant low-initial third image only within original natural F9/Lambda2 graph; every positive continues to full original17 modulo31^6; no characteristic-zero identity",
+  "referencedAlreadyPublishedHelpers": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-original-wide-transport-checkpoint-789f.cpp",
+      "blob": "ecb05d4e02c0e1b8f7f1d6df746522063e66c87c",
+      "sha256": "9f505a582d44292733fcbb8d381d9d52c413be30ff67aca28f3f58258fc14951",
+      "bytes": 24077
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
+      "blob": "76d804beb488f698c4bd98ecae2518f22f8bce07",
+      "sha256": "d31c917fe0aaa0e9008e5cb0a85cb81600b5a431fe691261948354fb1d1ee42b",
+      "bytes": 20343
+    }
+  ]
+}
