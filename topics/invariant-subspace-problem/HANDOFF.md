@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `25f5828e9fff774dae21a3ff18fbc7f008cadf53`（2026-11-14 18:27:46 UTC，Actions run43626718713/job132544106997实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `404f7766e2b481245ea7566f12b28e0db48194b6`（2026-11-14 18:28:47 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `d137596261b12bce719069d08d5ff1f0fcbeb59a`（2026-11-14 18:29:01 UTC，Actions run43626824430/job132544481428实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `5303e4b3d8554caf8731e462794052cfd03f02a9`（2026-11-14 18:34:30 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -43,4 +43,6 @@
 
 ## 当前分工与继续
 
-[原31h0完整来源入口](notes/2026-11-14-r150-one31-h0-lift-interface-789f.md)已冻结并触发本库Actions：先≤20秒/512MiB重建失联10040B全315payload及真实新回执，再四阶段共享120秒/512MiB，目标AZ=31h0T模31³、临时来源≤183；未预称新原式成功或费用87。所有原4433系数/18缩放不变，只改固定26目标系数。只恢复T96/all198，不重198/旧四列；真实检查点/结果先artifacts，独立run目录终端pull/rebase后推。normal接完整31饱和的七关系；literature接近端内峰，boundary接大S端峰；根即时登记每条已成结论。
+normal接扩增七列后的完整31饱和与特征零秩判据；literature接近端内峰，boundary接大S远端峰。根即时推每条结论，接下一open；最近已成原31h0不重跑。待补四个实际阶段缓存JSON及终端发布回执，其余原来源/真实检查点全已保存。
+
+- **[原h0完整恰一31分母](notes/2026-11-14-r150-original-h0-full-original-one31-denominator-cost87-789f.md)：** run43626632693/job132543823444、源1ec6d143，AZ=31h0T模31³全部17/6188/4367通过，每目标227766坐标失败0；实际成本[87,87,86,87,87,87,87,87,87]、maxdegree76。四阶段40.858396976秒，旧小证书0.076377885秒精确重建；新回执保真环境/时间。数据已推e003517c，45结果22347668B＋清单、14压缩二进制，25恢复35481532B保artifact14127065361；两完整来源各4978086B，原17SHA40be10e9…c4e2b。原h0模31²来源Z/31分母指数恰1，有限rank_Q A87≥226089，仍不称char0目标身份。
