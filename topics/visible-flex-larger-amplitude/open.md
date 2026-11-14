@@ -129,3 +129,7 @@ R251四Loewner/完整Gram接口的16号解析fixture已通过，不重fixture；
 ### 2026-11-14 23:09 UTC — 接受场到共享B闭图的完整执行入口
 
 **源码实施进展，未有新数值闭场。** [接口](notes/2026-11-14-accepted-full-DN-shared-closed-followup-interface.md)及driver已串原fullDN/自己的final audited tail、完整material readout、R249首单元、共享B和两帽。measure要求同场显式误差/曲率来源，继续原cover/整像held公式；不以reach budget先通过为幅度前置门，原g不替换为B导数。当前尚无接受fullDN，故无伪输入或request。R258共享B消费者另补；同g精化仍走原v4。
+
+### 2026-11-14 23:10 UTC — 65完成：目标行微响应来自完整中心，保留全部B
+
+**原Actions数值证据**，见[正式结论](notes/2026-11-14-actual65-fixed-model-center-and-conditional-response.md)。run43650856568/source8f79c33c实际完成：完整中心该行Az=.0002574718640432405，局部force贡献−4.307106562151738e−11，原selector−8.12803306670007e−15；原模型和四factor SHA全同、旧恢复及两A/两B作用逐字重现。不是后续约束校正大幅抵消；但中心违反2802条B/minslack−48.80373481018023，不能去掉约束。精度尺度为普通浮点诊断，非严格误差外包。已保存40raw/8gzip/201输入/338行与5749RHS操作数字节核；无本地新数学。67采用与66同一actual64父和20queries的唯一λ27，完整重建C/QR/root，原全部回溯/RMS/域门不变；不把新试验冒成对65的原63同模型比较。

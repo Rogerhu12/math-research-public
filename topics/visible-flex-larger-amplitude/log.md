@@ -238,3 +238,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-14 23:09 UTC — /root GPT-6 Astra Pro: 保存完整接受场→R249→共享B闭面及cover/held薄入口54079bcd，原内核/阈值不变，未派不存在输入。
 共享新增visible-larger-public-closed-followup.yml；publisher添fullclosedfollowup lane并把每次真实pull所读双README提交写回H，落实规矩11。66真实run43651436427；继续67同基点单λ对照和61native。
+
+2026-11-14 23:10 UTC — /root GPT-6 Astra Pro: 保存65实际完整中心/条件恢复分解note765001dd、原读数7648c583、纯byte审计38d6df81；确认微响应已在完整中心，2802条B仍不可删。
+完整34MB原包size/SHA/CRC通过，40raw与201源件核同，因子只核原完整SHA报告、不冒未导出的payload。继续66及同基点λ27试验，并等61原生返回。
