@@ -57,3 +57,5 @@
 - [完整label L2能量与更强真实参数行](results/R133-supplement-full-label-L2-energy-and-sharp-phase-row.md)：准确L2能量消去scalar speed，消费全169真端点、全部drift和root，得sup||a−1||2<.013437993、完整K48显式物理参数行>1/80；同背景全qν−Z≤1/200足保真行>1/200。保初次本地来源，公开同源重放另记，完整PDE响应仍待。
 
 - [同显式族完整PQT/B界与实际R31合同](results/R133-supplement-complete-explicit-family-circle-KAM-inputs-and-gates.md)：证明Qδ=Qbar+δZ同族的全root/mean及混合导数P,Q,T界，用真小缺陷和参数差付更紧B；公开九步DAG锁238原输入、冻结科学快照、复用169真transport，最后首算R31全部小量/域门。门未实际通过前不授共轭存在，更不授PDE分支。
+
+- [实际显式族的完整真圆共轭存在](results/R133-supplement-actual-explicit-family-circle-conjugacy.md)：公开43586895661九个数学child全0、R31全11门真：全误差<5.856e−13而门>9.158e−12，存在实δ∞且|δ∞|<9.369e−11实现ρ15；实际PQT/B、全部root/mean/复域与finite-to-full链齐。只授明确显式族，PDE逆与β/strong仍欠。

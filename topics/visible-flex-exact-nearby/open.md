@@ -1,6 +1,6 @@
 # 待解：同一个最终精确闭嵌入族
 
-更新：2026-11-14 10:30 UTC。**主目标未完成，持续研究。**
+更新：2026-11-14 10:57 UTC。**主目标未完成，持续研究。**
 本次以前的完整逐项状态、原失败和旧待执行项保存在
 [10:30 前的 open 归档](notes/2026-11-14-open-history-before-complete-cap-and-K48.md)，
 再链其中的更早归档。历史“未执行”不得覆盖本页、HANDOFF 和真实原生记录中的完成状态。
@@ -86,8 +86,8 @@ body 八范围与其最终 mean 消费完成后，要实际减去完整体积分
 保真实两 ray、逆 Jacobian、direct metric、even mean、腰图与根端点；
 全负区和真 root 给响应误差普通 L²→C⁰ 常数<1.274436，E0 常数<1.273240，无 q⁻¹ 奇点。
 需要同一全局逆给 qν−Z 的真实范数，不能以显式提案族代 PDE 响应。
-[K48 响应门](results/R133-supplement-complete-K48-terminal-conjugacy-proposal-and-response-gate.md)
-目前已证明：同背景完整误差≤1/6500 足以保真物理 ν 行>1/600。
+[完整 L2 参数行](results/R133-supplement-full-label-L2-energy-and-sharp-phase-row.md)
+已加强为：同背景完整误差≤1/200 足以保真物理 ν 行>1/200；公开九步已同源验成。
 这个误差尚未供给；非线性背景变化是另一项，不能藏进同背景合同。
 
 ## 3. Phase：真返回已定量，继续真实参数归一化与强正常型
@@ -105,8 +105,10 @@ G=K48∘H 有已付 Wiener 逆域，故可将归一化圆族以初始 lift=id �
 所有第四单位根的 principal gap 为 1/(68|j|)，R31 圆 K=17/4。
 原 bounded7 目标和原结论保留，但新目标不能借用旧 1/36 强余量。
 
-接着严格付同一个显式 family Qδ=Qbar+δZ、νδ=ν0+δ 的统一 P,Q,T,B、参数域与复角域，
-逐条核 R31 小量门。完成后只授该明确族上的真圆共轭，仍须与 PDE 方程及 qν−Z 接线。
+[真正显式族圆共轭](results/R133-supplement-actual-explicit-family-circle-conjugacy.md) 已由公开 run43586895661 的九步和 R31 全11门证明：
+同一 Qδ=Qbar+δZ、νδ=ν0+δ 中存在实 δ∞，|δ∞|<9.368259853002e−11，实现准确 Ω15。
+完整误差<5.855162408126e−13，小量门>9.158345525663e−12；全 P,Q,T,B 与域均已付。
+该存在仅属此明确族，完整 PDE 响应与 qν−Z 仍须接线；先消费现成常数核一次较宽共轭域，再推进真正 β/j 和 strong 项。
 点态参数导数可变号，rotation number 一般有平台，不假设它在整参数区间可微。
 真实 β/j 与 principal gap 同阶；β、非 mean 项、root 幅度/Maslov、正区反射和 strong 余项
 必须进入同一正常型并按新 1/68 margin 比较。锁 principal rotation 本身不证明完整 return 可逆。
@@ -140,8 +142,10 @@ root A1/1024 球内的 51000ρ²、102000ρ 是已证局部门，不能直接当
 须将负区/root/正区/真帽/完整无限尾连接成同一全频、全源、全 mean/参数 BVP 逆，
 再执行兼容实际导数损失的解析或 tame 迭代，得到准确 F=0。
 
-独立 fB、外 mean 高度、另一外 F 方程、全部 holonomy 与 C² 腰反射/闭帽条件仍保留。
-不能事先置 fB=0、删 mean 或只解一条 Robin。整体闭合的真 frame 周期条件必须实际证明。
+独立 fB、外 mean 高度、另一外 F 方程和真正尾端 holonomy-one 小根仍保留，不能事先置 fB=0、删 mean 或只解一条 Robin。
+[完整物理两迹拼接](results/R133-supplement-full-physical-trace-matching-and-waist-reflection.md) 已证明：一旦实际周期外帽与主体完整 B,C 准确匹配，
+径向唯一输运给全部 frame/位置周期，原腰条件给 C² 镜像。无需给已满的193态 regular BVP 再加腰 mean 行或新η自由度；
+仍未解的是这些真正非线性物理匹配和外部 mean 方程，97个有限线性 Robin/mean 行本身不授周期性。
 
 ## 6. 最终几何已有明确充分门，继续实现其假设
 
