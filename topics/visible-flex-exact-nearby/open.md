@@ -91,3 +91,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 完整第一 Airy forcing 与径向逆导数（2026-11-14）
 
 [L1–25](results/R133-supplement-explicit-first-Airy-forcing-and-real-radial-inverse-jets.md)已把完整 $-\mathcal L_0(a_0,b_0)$、真正 $J_r,J_{rr},J_{rrr}$、piecewise fold混合导数和原mean一阶jump费用写成有限预算。原 one-gain 径向项、两branch、所有旧mean/primitive/inverse余项保留。21pin公开CI只读原6片intrinsic thirdjets、1300根行及完整65/193shards；同源同输入保存前缀逐格验证复用。实际结果待回读，尚未宣称强返回常数或cutoff97。
+
+### 第一 forcing 的精确接缝已识别（2026-11-14）
+
+[J1–19](results/R133-supplement-exact-first-forcing-seams-and-first-correction-jump.md)已逐式证明 $[\mathcal L_0w_0]$ 仅用背景一阶径向真jump及独立mean jump；原二/三阶大jump不进入这一阶，但后续阶仍保。首修正曲率状态真实jump为 $j_2=0$、$j_1=n^{-1}JP U_n([a_{1,r}],[b_{1,r}])$；负/正传播各按其原声明源范数支付，不能放进ordinary volume norm。接着消费原1079seams的实际费用。

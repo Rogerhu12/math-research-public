@@ -397,3 +397,7 @@
 ### 第一 forcing 的显式有限合同与实际消费入口
 
 [完整 L1–25](results/R133-supplement-explicit-first-Airy-forcing-and-real-radial-inverse-jets.md)给原有序算子的degree-zero forcing和真实径向inverse jets；折叠导数通过真实特征积分及mean导数jump收费，未假设跨cubic seam径向解析。根/tail已独核全部mixed导数和边界分布项。新21pin消费者/source与断点续算已部署，数值 $F_a,F_b$ 尚待公开actual记录；原有限inverse/mean残差及后续statejump不由此免除。
+
+### 首 forcing 接缝与首修正状态 jump
+
+[精确 J1–19](results/R133-supplement-exact-first-forcing-seams-and-first-correction-jump.md)由真实first-order fold方程导出 $[A_{rr}],[X_{\phi rr}],[T_{rr}],[G_{rr}]$，只含 $[u_r],[v_r]$ 及其实际mean。全one-gain项保留后得到完整forcing jump；首修正状态 $j_1=n^{-1}JP U_n([a_{1,r}],[b_{1,r}])$ 是必须另付的affine源。leading单独状态jump为零，但首修正一般非零。二/三阶coefficient jump账未删。

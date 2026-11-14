@@ -143,3 +143,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:37:32 UTC — 部署完整第一 Airy forcing 21pin 消费
 
 根已完整审15780B合同、32287B源（旧数学公式不变）、6423B CI、15586B worker、6263B flow与21pin。source d964ae8354700fbb101b55ae332ba51ab8c1a6bafcfe2ca78e12206aae32b592 / manifest0c836f81cd952dc1527e593c67a813de723187914582b72a578c83c21eecfee6。旧片complete=False/selected=True/failureNone严格校验，identity逐字保。prefix按同source/manifest/runtime/原片SHA及每truecommonrow身份复用，glob随accepted rows保存；完整native原字节复制。45min科学child/50min外层，前后真pull核README，真实成功或失败全保并循环rebase push。
+
+### 2026-11-14 17:37:52 UTC — 第一 forcing 与首修正真接缝
+
+根全文读9760B J1–19并回读原M.16/M.17；tail独核全有序重构、one-gain及r方向符号通过。SHA9e5888cf6a2aa0290234887bb73ee412a4fb91e848855e3449cd5d88c851cc65。解析身份独立推送：第一forcing jump仅背景一阶导数jump，所有1079真实seam仍须实际消费，原二/三阶账和高block投影/有限head余项保。未借此提前授强范数或完整逆。
