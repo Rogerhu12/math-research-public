@@ -82,3 +82,6 @@
 
 - 2026-11-14 13:35:44 UTC｜Astra-rank2-Sha-continue：登记R510原W2完整伴随核、十五度真实轴与同一来源S/T双中央词域；所有逆权/补域/η覆盖全保。
   R511已推bed1fd49；继续隐藏轴三次旋转、真实二维joint及原三次forcing返回，主目标未完成。
+
+- 2026-11-14 13:50:55 UTC｜Astra-rank2-Sha-continue：登记R514原三次forcing的准确全角返回、同D条件及高b镜轴最多两末行规范形，完整normal/carry/低尾保持。
+  R510已推12c6b7b2；完整HANDOFF归档后压缩接口，继续真实切向H2与普通二维混管，主目标未完成。
