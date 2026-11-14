@@ -48,3 +48,6 @@
 
 
 - [R613：两真实carry交域与完整二态原算术返回](../results/R613-original-reflected-carry-intersection-and-complete-two-state-return.md)：同C两支的准确交域是两深一单位，整36/396的绝对中心/半特征给完整六变量二态。两个真实重叠域经连续整测试逆回原T；native qℓ的全部Y/W和D/E/G移动、整个独占域与差测试保持，不把已知非零子管代总行。
+
+
+- [R614：原完整addition的高度二整窗与Newton全尾](../results/R614-original-addition-integrality-window-and-complete-newton-tail.md)：完整二变量sigma式及全部偶二项式例外给原Gaussian后余项在n<L全整，继而付n<ps一次/n<2L二次分母界和首边界绝对单位。原S/T前p−1个Newton余项全整，有限更强尾与无限Hurwitz尾接合；模p^p保实际h=p端点，不以非中央首坏项代主目标。
