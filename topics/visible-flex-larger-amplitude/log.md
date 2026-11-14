@@ -217,3 +217,8 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 ## 2026-11-14 22:52:21 UTC：request65固定原63完整模型响应分解
 
 [57KB独立source与完整接口](notes/2026-11-14-actual63-fixed-model-response-decomposition-interface.md)10aeaa14/ad787269全文已读，51源pins、8bash/4inlineAST及YAML通过。workflowa5ce807b/request36596d2e只取原63artifact14134662698/c90869cd及真正父62，原78源逐件核回；一次原baseline/J/QR，完整中心/原局部力/RHS精确加法损失/原恢复重放/selector分别算原A作用并读全H残差。原factor仅摘要，本次明确新重建。无重新优化/改变λ/native/新trial；token仅fetch与发布step。64原ZIP已完整核size/SHA/CRC，原model亲读确认1/32接受和1/8真实merit上升；正式64结论由原全部字段紧接发布。
+
+
+## 2026-11-14 22:54:02 UTC：actual64完整正式结论与66最小缺项
+
+[正式note](notes/2026-11-14-actual-request64-nineteen-query-nearest-midpoint485.md)1c6a250d及原readoutf9be0a6b/primary05a26a38全文/关键原值已读，15文件与11父子事实PASS。实际1/32下降.006302954188917909，col.00710921522417158/BC3.1875470774840915e−8/FD7.082003137747323e−10；最近1/16唯一mid485失效，更远1/8虽node/mid有效却目标增加，全部RMS执行范围分开。66只增mid485，明确连续6763局部支持含零列484，原C4059/所有门保。新pair3b25ea84/037fb9ee原字节保全。65已推949d7056并实际run43650386882；64完整byte读取run43649956424 job success、细范围后读。

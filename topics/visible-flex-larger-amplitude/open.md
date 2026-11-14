@@ -54,6 +54,10 @@
 
 **65固定63模型诊断已接线**：[完整接口](notes/2026-11-14-actual63-fixed-model-response-decomposition-interface.md)与57KB独立源10aeaa14，workflowa5ce807b/request36596d2e/51pins。只从实际63 ZIP及其父62原state重建一次原完整A/Wr/S/b/g/λ270和QR，分中心/原局部力/精确RHS加法/重放/selector；row155819及interval461全338行保完整作用。完整原数学数组逐SHA绑定，factor摘要差异如实报告、未导出旧因子不冒审。无新QP/LSMR/native/trial/参数扫描或新科学门。fetch令牌与科学analyze分开，全部新大件large-arrays。
 
+**实际64正式结论**：[完整原回执](notes/2026-11-14-actual-request64-nineteen-query-nearest-midpoint485.md)、[原数值读回](notes/2026-11-14-actual64-original-readout.json)、[15原文件/11身份事实](notes/2026-11-14-actual64-primary-identity-readback.json)已保存。原6trial接受1/32：same-W merit43.79040176025459→43.78409880606567，col.00710921522417158/BC3.1875470774840915e−8，双698RMS均有效，新FD7.082003137747323e−10。最近1/16全19/node合法，唯原mid485 β²−.009685047003464398、RMS未执行；更远1/8 node/mid全合法却真实目标增加.0072998566163775536、RMS也未执行。不得把全部限制归一query或宣称域/目标沿方向单调。
+
+66从真实64 newpair 3b25ea84/037fb9ee继续，只增mid485全角成20query/40960行；完整B支持必须由467..483+p5749显式扩为连续467..486+p6763，含布局零列484，C4059及所有outside offset保留。原预算/λ270/512/17trial/FD不变；四新独立源在做。完整factor原未导出；64 byte读回43649956424已job success，详细范围另读，不成66新门。65独立fixed63诊断实际run43650386882/source949d7056已启动，未冒其数值结果。
+
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
 [23完整seed](notes/2026-11-14-public-same-RK-candidate-v3-actual23.md) 原noJ通过全部576 stage guard，norm.04177307820740199仍高于原2e−9；全部112H、51内部下溢和9546负零保全。25的原十trial全在stage13/raw0/seg7被guard拒，不能绕到新H fullDN。原linearSteps还定义graphs/gains/far/scales，不能整体更换后冒仅换初猜。
