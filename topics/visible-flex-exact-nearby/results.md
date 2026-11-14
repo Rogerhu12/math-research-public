@@ -19,3 +19,5 @@
 - [R133完整physical残差到moving头的换图](results/R133-supplement-complete-physical-residual-to-moving-head-change.md)：恢复完整S(R)=v·R∘Θ的L2同构、真96×128矩阵与10项原native门；完整高输出和独立mean保留，全η范围以原证明为准。此换图不替代完整帽残差或全主体逆。
 
 - [R133局部上三角帽Hessian的完整源系数](results/R133-supplement-local-triangular-cap-Hessian-and-trial-source.md)：恢复1341真实帽片在η0的上三角Hessian源系数及8项原native门；全mean/ordinary/divergence保留。系数定理本身尚未消费全部trial，也不授完整帽逆。
+
+- [R133真实moving切口的全部低行与高输出](results/R133-supplement-complete-moving-cut-rows-and-regular-subspace-inlet.md)：恢复真moving切口低97行及整个高输出的11门原native；独立C mean仍非零且必须连同真实帽误差支付，193×96 QR只作有限提案，未授连续主体子空间或全逆。

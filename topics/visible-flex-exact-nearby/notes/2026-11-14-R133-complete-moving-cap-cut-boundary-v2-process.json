@@ -1,0 +1,19 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_moving_cap_cut_boundary_v2.py",
+    "--proposal",
+    "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/moving-cap-cut-boundary-20261114/v2/native.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "f82dd53a7f7049f7baec2aaafd84860c3a352183787f1bf42dc76d74537be903",
+  "state": "finished",
+  "started_utc": "2026-11-14T08:35:54.256658+00:00",
+  "address_space_MiB": 1792,
+  "actual_returncode": 0,
+  "wall_seconds": 16.111760068000876,
+  "max_RSS_KiB": 130240
+}

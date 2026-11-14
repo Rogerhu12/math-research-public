@@ -1,0 +1,85 @@
+{
+  "kind": "complete_moving_cut_boundary_reconstruction",
+  "complete": true,
+  "mathematical_rows_use_version": 2,
+  "files": [
+    {
+      "path": "scripts/fourfold_codazzi_complete_moving_cap_cut_boundary_v2.py",
+      "sha256": "f82dd53a7f7049f7baec2aaafd84860c3a352183787f1bf42dc76d74537be903",
+      "bytes": 18832
+    },
+    {
+      "path": "notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz",
+      "sha256": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba",
+      "bytes": 872573
+    },
+    {
+      "path": "notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-process.json",
+      "sha256": "b228d042736d2c1f13121e8822142c174b42fd2d1381b8e0b014a79c316f77d1",
+      "bytes": 781
+    },
+    {
+      "path": "results/R133-supplement-complete-moving-cut-rows-and-regular-subspace-inlet.md",
+      "sha256": "fca284d59d122560d7587ed8f00134fdfbabf881930824838eefca821debe069",
+      "bytes": 10112
+    }
+  ],
+  "run": {
+    "command": [
+      "python3",
+      "-u",
+      "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_moving_cap_cut_boundary_v2.py",
+      "--proposal",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+      "--out",
+      "/workspace/scratch/ac0d699811ad/moving-cap-cut-boundary-20261114/v2/native.json.gz"
+    ],
+    "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+    "source_sha256": "f82dd53a7f7049f7baec2aaafd84860c3a352183787f1bf42dc76d74537be903",
+    "state": "finished",
+    "started_utc": "2026-11-14T08:35:54.256658+00:00",
+    "address_space_MiB": 1792,
+    "actual_returncode": 0,
+    "wall_seconds": 16.111760068000876,
+    "max_RSS_KiB": 130240
+  },
+  "proposal_input": {
+    "path": "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+    "sha256": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "reconstruction_manifest": "notes/2026-11-14-R133-physical128-cap-moving97-reconstruction.json"
+  },
+  "old_first_process": {
+    "command": [
+      "python3",
+      "-u",
+      "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_moving_cap_cut_boundary.py",
+      "--proposal",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+      "--out",
+      "/workspace/scratch/ac0d699811ad/moving-cap-cut-boundary-20261114/native.json.gz"
+    ],
+    "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+    "source_sha256": "dd7935186786a95e4ae765052761fc083e50047e40b2f2ef99db66a071258fda",
+    "state": "finished",
+    "started_utc": "2026-11-14T08:32:48.149725+00:00",
+    "address_space_MiB": 1792,
+    "actual_returncode": 0,
+    "wall_seconds": 17.314135986998735,
+    "max_RSS_KiB": 130516
+  },
+  "old_first_native": {
+    "local_path": "/workspace/scratch/ac0d699811ad/moving-cap-cut-boundary-20261114/native.json.gz",
+    "sha256": "48356d041cc9dfc540aafeaaf46f5550c5150af6a337607a8d6aa62c5c148ba1",
+    "mathematical_bound_not_used": "matrix row/column max was subsequently made explicitly directed in v2"
+  },
+  "old_source_exactly_reconstructible_from_v2": true,
+  "old_source_sha256": "dd7935186786a95e4ae765052761fc083e50047e40b2f2ef99db66a071258fda",
+  "old_source_changes": [
+    "kind suffix v2->v1",
+    "replace max(x.upper() for x in rows/cols) by max(rows/cols)",
+    "remove added directed-maximum docstring sentence"
+  ],
+  "large_cap_arrays_remain_local_and_reconstructible": true,
+  "complete_physical_cap_error_still_required": true,
+  "complete_body_inverse_claimed": false
+}
