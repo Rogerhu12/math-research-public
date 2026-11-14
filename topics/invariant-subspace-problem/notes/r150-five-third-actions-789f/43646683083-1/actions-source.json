@@ -1,0 +1,147 @@
+{
+  "source_commit": "ad9a3531bd6ad5c6fe47f1eab3ffe7f0eab46a81",
+  "run_id": "43646683083",
+  "run_attempt": "1",
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "format": "r150-five-third-fixed-request-v1",
+    "author": "Astra-ISP-789f; AI-assisted GPT-6 Astra Pro",
+    "new_direction_labels": [
+      9301,
+      9302,
+      9305,
+      9306,
+      9307
+    ],
+    "actual_new_rhs_labels": [
+      9301,
+      9302,
+      9305,
+      9306,
+      9307
+    ],
+    "selected_k4_source_labels": [
+      7001,
+      7002,
+      7005,
+      7006,
+      7007
+    ],
+    "target_labels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "integer_modulus": 887503681,
+    "new_kernel_divisor": 28629151,
+    "target_multiplier": "31^2*h0",
+    "shared_mathematical_seconds": 300,
+    "per_child_memory_mib": 512,
+    "per_compilation_seconds": 30,
+    "native_compilations": 6,
+    "frozen_input_count": 50,
+    "artifact_input_count": 48,
+    "old_nine_raw_products_recomputed": false,
+    "old_eighth_direction_recomputed": false,
+    "old_198_third_directions_computed": false,
+    "complete_low_initial_third_image_computed": false,
+    "characteristic_zero_identity_asserted": false,
+    "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-frozen-manifest-789f.json",
+    "source_manifest_sha256": "08b42dc8f825d8007026648ccf978957a888345013cf190743567887dd7d973f",
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "workflow_source_sha256": {
+      ".github/workflows/invariant-subspace-r150-five-third.yml": "c615124b40120a76351931fbb91ca86524bc0ebb5f7f9ef06b6b10dfd1691aa7",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-prepare-789f.py": "38df4191e3095db967928bc212dc013242e0b7db15d07cc795d79050cf3c6444",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-publish-789f.py": "aeb4f3e8045229588042d3b41e2974828a0376a2420df7bb6839f1621ee1caf1"
+    },
+    "entry_python_files": [
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-matrices-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-prepare-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-publish-789f.py"
+    ],
+    "artifact_sources": [
+      {
+        "scope": "t96",
+        "run": 43597823809,
+        "id": 14114364261,
+        "name": "isp-r150-t96-graph-recovery-43597823809-1",
+        "bytes": 299422058,
+        "digest": "sha256:970d10c4eee1ff5ce85bc5e940d61decf17276d3e174b0c5698ca0822302e241"
+      },
+      {
+        "scope": "all198",
+        "run": 43619888599,
+        "id": 14124017685,
+        "name": "isp-r150-all198-second-bockstein-recovery-43619888599-1",
+        "bytes": 117446956,
+        "digest": "sha256:ba81a8aaafc236b15e90f0998ee3c0122634b99dda9f36c88d8d6c3b578b8117"
+      },
+      {
+        "scope": "seven",
+        "run": 43630666145,
+        "id": 14127663630,
+        "name": "isp-r150-seven-saturation-recovery-43630666145-1",
+        "bytes": 50572502,
+        "digest": "sha256:9ebf76f7b12f11dcdab286cbde7fd62d74d5a0b3c8db5bb1b8489203ae97b3f4"
+      },
+      {
+        "scope": "current",
+        "run": 43634830833,
+        "id": 14130166013,
+        "name": "isp-r150-augmented-seven-second-recovery-43634830833-1",
+        "bytes": 48079746,
+        "digest": "sha256:bfd5b35419f49ffa12182faaffdf3b6c95f35db72598be09951ce79e758e53e4"
+      },
+      {
+        "scope": "ninth",
+        "run": 43638830039,
+        "id": 14130842468,
+        "name": "isp-r150-ninth-first-recovery-43638830039-1",
+        "bytes": 32846922,
+        "digest": "sha256:5ce43eb8fc4ea285c41570abe763b9cce4febbf163c80c25907b420b373ff855"
+      },
+      {
+        "scope": "eighth",
+        "run": 43644262244,
+        "id": 14132489956,
+        "name": "isp-r150-eighth-second-recovery-43644262244-1",
+        "bytes": 7836255,
+        "digest": "sha256:530b4bce79193ad908107e65c99d14be2a5530b6111b222666618bbc9763938b"
+      }
+    ],
+    "negative_scope": "Only failure of the five complete polynomial cyclic directions in the relevant quotient, for the saved current nine residuals. No negative claim for the unpaid198 third directions, the complete lower-initial image, all integer source lifts, or characteristic zero.",
+    "source_review_fix": "Complete-stage stdout now includes both false coverage fields required by the runner; arithmetic matrices and native code unchanged.",
+    "local_execution_performed": false,
+    "account_concurrency_snapshot": {
+      "checkedUtc": "2026-11-14 22:03:56 UTC",
+      "nonArchivedOwnedRepositoriesChecked": 12,
+      "totalInProgressAndQueuedRuns": 14,
+      "actualInProgressJobsObserved": 1,
+      "queuedJobsInThoseRunningRuns": 0,
+      "newJobMaximum": 1
+    }
+  },
+  "request_sha256": "e77a98b12b7ba52460ffa4a23fb5765be4f0baf2119655e7a50d10a45aa49c74",
+  "source_manifest_sha256": "08b42dc8f825d8007026648ccf978957a888345013cf190743567887dd7d973f",
+  "actualPythonSyntaxFilesParsed": [
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-matrices-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-prepare-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-publish-789f.py"
+  ],
+  "allOriginalSourceHashesVerified": true,
+  "noMathematicalCompletionClaimed": true
+}

@@ -1,0 +1,22 @@
+{
+  "inputBindingSHA256": "79fade88f4c13be86cf66807d750067fe6d3a02d1e0d28eb41ea0b978188fdf7",
+  "outputs": {
+    "genuine-five-normal/genuine-five-normal-normal-forms.bin": "52c26e000752f008a050d750ed13c703142567abf3b449151d5e17809a522604",
+    "genuine-five-normal/genuine-five-normal-reduction.bin": "4b5581f77844d739eb2ed4cfc7a456a56516b99a9591c004b75066ecb3f45cd2",
+    "genuine-five-normal/genuine-five-normal-forward.bin": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+    "genuine-five-normal/genuine-five-normal-backward.bin": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+  },
+  "nativeStatistics": {
+    "status": "five-third-normal-forms-complete",
+    "sources": 0,
+    "targets": 5,
+    "components": 1034,
+    "forwardOperations": 782976,
+    "backwardOperations": 1010703,
+    "normalOperations": 819570,
+    "originalRHSCost": 88,
+    "originalRHSNonzeroCoefficients": 1100405,
+    "peakRSSKiB": 78936,
+    "elapsedSeconds": 5.64472
+  }
+}
