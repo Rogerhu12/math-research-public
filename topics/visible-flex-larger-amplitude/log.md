@@ -360,3 +360,7 @@ R245完整证明Hermite P=Q+ES、C²锐界、共享速度积分及完整角函�
 ### 2026-11-14 10:48 UTC — R246 and exact post43 history preservation
 
 原geometry26件及strong90件逐SHA保存，完整证明R246明确旧.984三归一化metric分量<1e−6、直接operator<2e−6及连续浸入；旧1080s本地计算不冒本轮Actions。旧strong真H审计与R6磁盘SIGTERM失败分开保留，不复活旧分支。request05/q8实际uncovered=0、GW真实重现二jet差且有理shadow同值；request06只做同96核/同a的M/N域诊断，不重复BVP/tail。
+
+### 2026-11-14 10:54 UTC — R247 and completed q8/GW diagnostic conclusions
+
+R247证明仿射coast上原有限Frenet RHS常值、Hermite中点消去及真实RMS两点系数，明确域门与残差区别，直接登记results。公开q8已全部空间pairs通过，连续包络仍输入、A幅度仍不足；GW有理shadow复现二jet差，删兼容项反而变差，保实际结论与端点顺序说明。request06/run43587375529已启动五组M/N圈域诊断；request07仅复用实际GW包检查三节点，不重算ODE。

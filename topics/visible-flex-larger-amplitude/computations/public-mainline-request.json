@@ -1,14 +1,11 @@
 {
-  "request": "20261114-public-large-core-mainline-06",
+  "request": "20261114-public-large-core-mainline-07",
   "repository": "Rogerhu12/math-research-public",
-  "accepted_input": "notes/public-actions-43580643038-1-free3/stage-00/actual.json.gz",
-  "accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
   "lanes": [
-    "circleprobe"
+    "gwvelocity"
   ],
-  "scope": "Targeted diagnosis of the actual failed circular warm, keeping its full 96-mode core and identical scalar a(s). Compare M/N = 96/1024, 96/2048, 112/2048, 128/2048, 160/4096 on actual failing and representative intervals using original Frenet RHS and both true Lobatto queries. Preserve the full analytic material circle as a distinct reference. No BVP or tail is restarted; no lift or reference is declared accepted.",
-  "completed_zero_tail": "notes/public-actions-43582043166-1-tailzero/zero-H-T96",
-  "completed_zero_response_sha256": "08d1e4865cb00d7d48ab169ce387a60119f304bc4dc4953eb8fd029fdbff1160",
-  "control_schema": "complete-prefix-controls-scalar-profile-v2",
-  "control_scheme": "three-nonaxisymmetric-prefix-intervals-v1"
+  "source_run": "43586618658",
+  "input_directory": "notes/public-actions-43586618658-1-gwcompat/GW-cusp-compatibility",
+  "packet": "notes/2026-11-14-GW-cusp-compatibility-packet",
+  "scope": "Use the completed actual GW coefficients and original node identities to compare the nested middle-node velocity and GW acceleration, preserve the z component, and verify split-integral compatibility identities. No new ODE, full-tail reconstruction, replacement geometry or acceptance. The distinct circleprobe request06 is already running as public run43587375529 and is not repeated."
 }

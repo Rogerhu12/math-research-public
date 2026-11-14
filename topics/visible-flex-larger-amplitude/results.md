@@ -457,3 +457,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R245. Hermite位置兼容缺陷与共享速度积分](results/R245-hermite-compatibility-and-integrated-velocity.md)：精确恒等式P=Q+ES及C⁰/C¹/C²锐常数、共享C¹速度的全局C²积分、两端位置兼容当且仅当全部角函数ΣE=0，含完整六jet与metric扰动界；不预设缺陷是舍入，也不把比较场当已接受闭曲面。
 
 - [R246. 旧.984有限前缀的连续三分量度量界与浸入](results/R246-finite-prefix-continuous-component-metric-bound.md)：原415片有理共享节点场的Bernstein/区间FFT/全角Taylor完整证明，三归一化分量各严格<1e−6、连续C²浸入；直接算子界仅<2e−6。保留旧本地执行出处，不移植新场、不冒整面门已付。
+
+- [R247. 仿射coast初猜的Hermite中点消去](results/R247-affine-coast-hermite-midpoint-blindness.md)：证明固定有限Frenet投影在缩放coast上的RHS为常向量，Hermite偏差为h·t(1−t)(1−2t)(f−u)，中点恰零而原RMS两点系数为±sqrt(3/7)/7；区分域预检盲点与仍非零的collocation残差，未截频圆相容性不能移植有限投影。
