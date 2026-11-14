@@ -287,3 +287,7 @@ root推导、phase全文独核D5符号、D9/10 fold三阶、D14 transport二次�
 ### 2026-11-14 19:37:05 UTC — 普通L²核97pin独推
 
 root全文复核 source/CI/flow并逐项比较原93pin零改，tail独核合同/数学通过。推K1–16及五件消费者；新4×4有向Gram只消费43601964129原成功port，未重跑旧科学内容。两README blob未变；本次读main记入HANDOFF。尚待actual，完整目标继续。
+
+### 2026-11-14 19:40:57 UTC — 缺midpoint Taylor/Hessian六件独推
+
+root全文核helper/producer/CI/flow/合同及189/184 pins，tail独核同germ完整路径、双锚/原whole交球、mean与joint合并、完整四源和恢复顺序。原9728B HANDOFF逐字归档。发布最多64新残差/0target消费者并持续下一项；未把待跑预算称作实际改进。

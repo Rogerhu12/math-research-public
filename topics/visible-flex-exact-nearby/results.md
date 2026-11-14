@@ -499,3 +499,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：完整有限193维普通 L² 源核合同与97pin消费者（2026-11-14 19:37:05 UTC）
 
 见 [K1–16 合同](notes/2026-11-14-R133-finite193-ordinary-L2-Green-kernel-contract.md)。从原43601964129完整成功6391 signed ports及5970真实接口推导普通径向 $L^2$ 输入的双向核：4×4 Lyapunov指数保留有符号Gram；同单元Q/P线性组合先合后平方，过去/未来支撑正交；逐cell真长度积分和物理权重、virtual waist、独立mean全保。这是新统一源核，未把单位sup源界改名为L²界。root/tail独核通过；97pin继承原93pin逐项不变，source `5b8f83906d36363266977441427add053a6ed05625525cfd000e05e03360b3db`，manifest `fb2336796edcd9ccc57a082015cdb6c51ee7c47a921ce03a3cbf3bbab6181ff6`。公开Actions只新算Gram及对应全cell核，旧matrix/Riccati/target零重算，成功prefix与失败native全保；尚无此消费者actual数值，完整无限逆及δ/非线性转移仍欠。
+
+### R133：64缺点的同germ Taylor/Hessian合同及189pin后继（2026-11-14 19:40:57 UTC）
+
+见 [T.1–T.5合同](notes/2026-11-14-R133-missing-midpoint-Taylor-Hessian-contract.md)。先从实际1341行/7844完整残差证书计算16个fallback行和1325行补集的四源预算；仅当前组数值majorant定向证实至少占selected预算一半，才用原保存同germ锚点和完整闭路径third导数凸包，双向Taylor并与原whole0..2求交，生成最多64个缺点残差。阈值只比较已使用上界，不声称实际残差下界。新target为0，原7844残差/未影响local行逐字保；单行仍整套四源选取、全193/独立mean/385误差因子及原resolvent保留。root/tail核数学，root核CI/flow及184旧pin零改。source `ebaa3caaca274b36e816dc4c1797cf7367a3ce06d5eb1d8778879e24c0349c3e`，189manifest `890c5f9d9c5251ddf7d545b4c373fd96d35dfca5782b9137651374be367a14fd`。原43628443697 artifact14127402922当前未过期；公开Actions待actual，不预先声称改进或完整响应。

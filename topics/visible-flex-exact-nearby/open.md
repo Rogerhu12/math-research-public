@@ -207,3 +207,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 正在执行：完整有限193维普通L²源核（2026-11-14 19:37:05 UTC）
 
 97pin消费者及K1–16合同已推，等待自己的公开Actions实际6391 Gram与双向核证书。审查节点/全cell C0、全区及负窗普通dr L²结果，然后接同一真实low/high Schur；不得把有限193维核界当作未知high BVP或完整无限逆。
+
+### 正在执行：实际16行预算诊断与最多64个缺点残差（2026-11-14 19:40:57 UTC）
+
+189pin已推；先核真实分组触发门，再读新Taylor/Hessian实际结果。若additive改善，才通过同一Z完整97切口/mean/knownhigh费用送入原6391 Green；物理14fees、六边界和未知误差operator保持原证书，不重复旧成功数值。
