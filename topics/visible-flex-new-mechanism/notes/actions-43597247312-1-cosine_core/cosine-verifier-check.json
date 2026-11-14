@@ -1,0 +1,66 @@
+{
+  "schema": "space-star-cosine-verifier-development-v1",
+  "development_check_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "synthetic_material_interface": {
+    "evaluation_is_numerical_not_continuous_certificate": true,
+    "a0_numerical": 1.0146777945270158,
+    "arclength_quadrature_cells": 64,
+    "arclength_quadrature_order": 16,
+    "position_two_jet_finite_difference_relative_errors": {
+      "X_s": 6.63062217638669e-11,
+      "X_theta": 3.9694391539690426e-11,
+      "X_ss": 1.6922525227728853e-09,
+      "X_st_from_s": 8.106521691251718e-10,
+      "X_st_from_theta": 6.755001590059058e-11,
+      "X_tt": 2.7598462376820562e-11
+    },
+    "same_side_mirror_position_error": 9.992007221626409e-16,
+    "material_equation_residual_max": 4.773959005888173e-15,
+    "both_signed_ports_evaluated": true,
+    "all_port_J_samples_positive": true,
+    "maximum_jet_check_error": 1.6922525227728853e-09,
+    "no_higher_mixed_jets_supplied": true
+  },
+  "synthetic_interval_invariant_comparisons": [
+    {
+      "kappa": 0.0,
+      "tau": 0.0,
+      "q_ell": 0.0
+    },
+    {
+      "kappa": 0.0,
+      "tau": 0.0,
+      "q_ell": 0.0
+    },
+    {
+      "kappa": 0.0,
+      "tau": 0.0,
+      "q_ell": 0.0
+    }
+  ],
+  "synthetic_tip_valley_checks": [
+    {
+      "tau_absolute": 0.0,
+      "q_ell_distance_from_exact_interval": 2.7755575615628914e-16
+    },
+    {
+      "tau_absolute": 4.0104561267298056e-16,
+      "q_ell_distance_from_exact_interval": 1.0658141036401503e-14
+    }
+  ],
+  "exact_circle_position_error": 2.220446049250313e-16,
+  "exact_circle_interval_identity_passed": true,
+  "passed": true,
+  "source_files_sha256": {
+    "space_star_cosine_verify.py": "412328a103a851de11a8d4365fdec32019bd740b30c763b212482ae61483d577",
+    "cosine_rectifying_core.py": "2a6cdd06381bc2cea89d16579b8e84b486162374d17eac656a5970892e4b5763",
+    "space_star_frozen_lift_verify.py": "ac054b97be8c5a6b6f386c055383faaad6b98fb2b72fb05318a6c09c1cbeb9e5",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  },
+  "elapsed_seconds": 0.04718164700000216
+}

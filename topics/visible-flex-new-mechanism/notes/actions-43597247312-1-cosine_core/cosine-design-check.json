@@ -1,0 +1,84 @@
+{
+  "schema": "space-star-cosine-design-development-v1",
+  "development_check_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "checks": [
+    {
+      "fixed_offset": null,
+      "jacobian_directional_relative_error": 1.081449049401664e-08,
+      "symmetry_errors": {
+        "height_even": 0.0,
+        "kappa_even": 1.2212453270876722e-15,
+        "torsion_odd": 1.4099832412739488e-14,
+        "q_ell_even": 1.1723955140041653e-13
+      },
+      "binary64_rational_identity_roundtrip_exact": true
+    },
+    {
+      "fixed_offset": 0.013,
+      "jacobian_directional_relative_error": 1.1289299196509426e-08,
+      "symmetry_errors": {
+        "height_even": 0.0,
+        "kappa_even": 1.2212453270876722e-15,
+        "torsion_odd": 1.4099832412739488e-14,
+        "q_ell_even": 1.1723955140041653e-13
+      },
+      "binary64_rational_identity_roundtrip_exact": true
+    }
+  ],
+  "tip_valley_checks": [
+    {
+      "location": "tip",
+      "torsion_exactly_zero_by_even_reflection": true,
+      "torsion_numeric_residual": 5.539990121694486e-17,
+      "kappa_from_symmetry_formula": 1.6744300450775034,
+      "q_ell_from_symmetry_formula": 0.237160348405629,
+      "q_ell_formula_numeric_discrepancy": 8.326672684688674e-17,
+      "whole_width_J_at_point": 0.9952567930318874,
+      "whole_width_principal_curvature_at_point": 1.6824100642173216,
+      "automatic_torsion_zero_does_not_force_q_ell_zero": true
+    },
+    {
+      "location": "valley",
+      "torsion_exactly_zero_by_even_reflection": true,
+      "torsion_numeric_residual": 9.698616818174703e-16,
+      "kappa_from_symmetry_formula": 0.5989710799141443,
+      "q_ell_from_symmetry_formula": 19.625607988475934,
+      "q_ell_formula_numeric_discrepancy": 3.552713678800501e-15,
+      "whole_width_J_at_point": 0.6074878402304813,
+      "whole_width_principal_curvature_at_point": 0.9859803608363491,
+      "automatic_torsion_zero_does_not_force_q_ell_zero": true
+    },
+    {
+      "location": "tip",
+      "torsion_exactly_zero_by_even_reflection": true,
+      "torsion_numeric_residual": 5.539990121694486e-17,
+      "kappa_from_symmetry_formula": 1.6744300450775034,
+      "q_ell_from_symmetry_formula": 0.237160348405629,
+      "q_ell_formula_numeric_discrepancy": 8.326672684688674e-17,
+      "whole_width_J_at_point": 0.9952567930318874,
+      "whole_width_principal_curvature_at_point": 1.6824100642173216,
+      "automatic_torsion_zero_does_not_force_q_ell_zero": true
+    },
+    {
+      "location": "valley",
+      "torsion_exactly_zero_by_even_reflection": true,
+      "torsion_numeric_residual": 9.698616818174703e-16,
+      "kappa_from_symmetry_formula": 0.5989710799141443,
+      "q_ell_from_symmetry_formula": 19.625607988475934,
+      "q_ell_formula_numeric_discrepancy": 3.552713678800501e-15,
+      "whole_width_J_at_point": 0.6074878402304813,
+      "whole_width_principal_curvature_at_point": 0.9859803608363491,
+      "automatic_torsion_zero_does_not_force_q_ell_zero": true
+    }
+  ],
+  "passed": true,
+  "source_files_sha256": {
+    "space_star_cosine_design.py": "b2fb44b815093ada42f5036c41528856f5f51df4042b8dfa1b2523a6b2959173",
+    "space_star_lift_design.py": "9d058926f9dff6b07fb766e5938eb536f237cb5fcc12fe63c3f8fee3a067bb67",
+    "space_star_flat_core.py": "33fb72c8c1206a2bef257a4067f65100ae87fd4b71ebf63cdc36597b98b558a4",
+    "star_core_geometry.py": "664d20735a5bcb0aa14d9da320bcefea1b571012cb4ba4fe5e80e7f0c50d03a9",
+    "folded_reference_geometry.py": "e912d3ece31e36a76de10cb1a1f40b8d4cd2079a7c8626c0ae85d0083c0de8ab"
+  }
+}
