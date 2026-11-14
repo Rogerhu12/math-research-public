@@ -108,3 +108,7 @@ H1–30共同酉形式保全部输入/mean/源与原4/3双窗；E/F<2^-9000，�
 ### 同Z plan数学已成；v2仅恢复摘要发布后续
 
 43612904296原plan实际7门/7721行/child0，native26a488b4347e0e30106e67dcd18b54e211dba6adecd7d2c029a4dc6ba097d95a。随后Path+str摘要错误；原process.complete=false诚实保留，range未起。v2保原140项、旧source与planSHA，明确从原失败workflow的成功数学原件恢复，不重算基线；继续4range/finish。
+
+### fullδ outer 与4650正区
+
+同伦C转移合同/source已独立推，phase核新固定θ公式、mean=1/m、真实条带逆与导数64费均成立。新CI准备同时跑外图和body；body只复用原4650完整系数/7721原raw响应包络，按大M32+小δM96分付，不重构旧数据。

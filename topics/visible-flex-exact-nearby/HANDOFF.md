@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 16:04:05 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 16:09:47 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则、同步
 
 只在 Rogerhu12/math-research-public；所有新数学代码只用该公开仓库 Actions。每结论独立推，非快进立即接最新 main/rebase 再推，不 force。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34 UTC）；12:35 后终端失联，15:25重试仍无环境。按根规则8只经已连接GitHub处理<100KB文本，禁止经connector取二进制或大文件；先查process/目录库存size，摘要宜<60KB。API不是git pull。
-最新远端 main/两README blob 核：22c287f92647a48d9dee8dee32e8e580ddffd9cc；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
+最新远端 main/两README blob 核：1acc57b8fd90b51787fc9227ab240e10f3ca1316；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。runner真实pull/核差异≤10min或短child前后；43610523058在15:32真pull到fc4863236b6965ff47fe13dc3cd4f3dff23c3c53，两README无差。终端恢复立即回本地git。
 小文本发布使用最新base/parent、expected_sha、force=false；竞争立即接新main重推。PAT仅瞬时CLI/env，不进文件/输出/提交/connector。root独占branch/ref/H/open/results/log；代理仅小blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H/open/log逐原字节归档于 notes/2026-11-14-{handoff,open,log}-before-closed-leading-amplitudes.md；各前档链完整。完整SHA/原失败/原范围均在对应result和manifest，不用短SHA重绑，不重算已成数学。
@@ -32,7 +32,7 @@ cut v3 43610982446实际11门/30.001483s、16新单列格全成；nativef36831b1
 M32repair根43600926806/23门，outer+4650body43601149891/25+8门，3594接口全；χ0<.303291579403含true外反射，χ1<.788277735610保独立右port。给定完整head的正根图43605513540/10门，loop<.000145155277、反射<.436007718096；7source/mean/jump列全保，不是low Schur。
 full realδ96根collar43606747196/19门：band192、ratio<3、中间index1、输出288；EH<131.016385、qc750/749、headloop<1/500000，source/port→全态1/12000、1/100，两trace1/36、9/2，角0..4。允许频率独立p*∈(1/8,1/5)，δbody/outer仍另付。
 global Riccati相对R1–20已证：τ相对form⇒p/g相对误差τ，M∂ratio≤10τ；C−I≤3τ、dotC≤32τ、频generator差≤64τ，N||ΔR||≤2048τ|M−N|，不留Nτ无界项。
-root现走更直接的新参考下旧M32主块+δM96小块，原4650系数复用，只新scalar lower-flow/sweeps。全Γ/mean/outer/未知头保。初稿小块drift16/40、local28/84 ΔBA、primitive3/9 βΓ/W待完整新合同/consumer。
+fullδ外图新合同/source已推：固定物理θ同伦dC≤(C²+CθC/4)δ||Zv||A1/32，真mean=1/m另保，A1/32→A1/64全无限尾/角导64费；重新支付旧完整nonlinear/mean/Hs/Robin全部门，待actual。正区body新source已成，原4650/7721仅复用，大M32+小δM96分付16/40、28/84、3/9，不重算旧目标。
 右端43610918974数学前缺013；v2原字节复用后43611611635实际14门/0.414729s全成，native8f6019cefaa96da64eadb3b19a98110dc81a0d5760a091e6fdffe538c971e606。完整193+mean、6strip/角0..4保；全|δ|≤1e−8真p*∈(.1428571428570,.171097772394)⊂(1/8,1/5)，U_A1/8<1.645272e−9、Vne<9.615692e−9、ψ<1.531287e−11。原13片已补公开，无trial重建；须续付完整outer/body。runner15:42真pull到5d34a1a1cb06853f71effb3a03f12ae18d059e2a，两README无差。
 
 ## 相位、Airy、强余项
