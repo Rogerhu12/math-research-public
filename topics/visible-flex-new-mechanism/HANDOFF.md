@@ -26,7 +26,7 @@
 
 **新43648433010/source df535c0c已完整失败至原预算，非收敛**：库ed77abc3/driver60a3bd66，复用3866池和e407，仅池内按实际tol可行才交换。同一次SLSQP走73major、120phys/120epi、72deferred/0exchange；74Jac/740批。exit为120物理预算，优化255.162s/初始化251.400s/总535.082s，RSS1540636KiB。最终仍e407、η/κ未改善；不能再把本次失败归因两步重启。完整raw2739477B/SHA87945a59→gzip292460B/SHA8a9d8048，保存于actions-43648433010-1-curvature_feasible_exchange；详细notes/curvature-pooled-feasibility-first-actual-20261114.md。
 
-新readonly lane提取120trial/73callback全部11组违反量及4个真正保存全系数点。只读SHA绑定的原JSON，不重跑优化；据证据选择固定λ恢复可行或从合格e407短步，不能把仅哈希history假作可warmstart系数。当前全163族有四角精确对称，但先读实际失效数据；代表替代必须保全网/浮点例外行。
+只读43651096112/source2259b57已成功：唯一合格eval1；近门eval6 κ56.0035/η.267771916（超bar.000571916）但未保存全系数；末eval120 κ208.203/η3.02699而λ37.33445，明显离开可行域。四全系数点三份e407，另一份只有这个远失败末点（coeff差max2.013/l2 7.795）。mechanism据此从e407做固定λ恢复/受控短步，不能把仅hash的eval6冒warmstart。当前全163族有四角精确对称，但先读实际失效数据；代表替代必须保全网/浮点例外行。
 
 备选B=.37另g211c：43638423274物理8d9d/b0df1a细η1.174996/κ263.3758，外镜像.01426/strip.39351失败；不混旧g。CK/GW/二jet接口未付可用长度/外带，a″<0非稳定双曲。当前优先旧g。
 
@@ -50,10 +50,10 @@ R116完整m8响应288=287新+1复用、11权块总秩31/四块15；所有真有�
 
 R124 actual43649160345/sourcec6956272：真实M0为∫(m0+m2)=0；规范化后154静态pure系数全入旧像，rank0；诱导Δ2=−Σa(m2)Fi有18系数、rank2/even1。真实pure周期商只剩∫Π8(L2+Δ2+L4)，固定桥bulk圈数N不改该商。原L2/L4仍欠，**N2=Pacc未证在W，不可删**。
 
-当前新local_fourth_derivative_factors源02785c34只导raw N0/N2和完整两mode v2/v4；10几何键保h_sss/k_sss，原DAG先扫描真实最高jet，超接口明确失败。早期N独立gzip先落，完整v随后；不重编152W/36基/旧静态目标。L2=v2−B_m0N2−B_m2N0，L4=v4−B_m2N2；raw N0与旧模W代表差只改R8。预算600s/1024MiB，输出总<4.8MB；本地8新人工已通过，研究实际待本次Actions。后继纯尾consumer5c7bb457已pending，须绑定完整actual回执再派，保原L2/L4及Δ2。
+当前新local_fourth_derivative_factors源02785c34只导raw N0/N2和完整两mode v2/v4；10几何键保h_sss/k_sss，原DAG先扫描真实最高jet，超接口明确失败。早期N独立gzip先落，完整v随后；不重编152W/36基/旧静态目标。L2=v2−B_m0N2−B_m2N0，L4=v4−B_m2N2；raw N0与旧模W代表差只改R8。预算600s/1024MiB，输出总<4.8MB；本地8新人工已通过，研究actual43651096112/source2259b57仍运行。后继纯尾consumer5c7bb457已pending，须绑定完整actual回执再派，保原L2/L4及Δ2。
 
 R104/R106四块仅闭正则浸入环带，V=2VB+2VσB；移动右锚D_jσ(c)=(-1)^jD_j(-c)，非全函数反号。R110/R111已付整个m8 D25(c)，不重跑该层；其他尾/mixed、完整ruling/所有高阶收敛/闭嵌入/宏观reach仍未付。R93/R97真实驱动∫kh=0、∫hkω=L+E=−∫(F/h)kρ、(S²−1)E≥L，history不可独立指定。文献条件保：Engman仅S1等变，Freese–Weber另需主曲率不变。
 
 ## 6. 当前执行顺序
 
-continuation最多两lane：新缺失导数因子 + curvature_feasible_trial_diagnostics(9390ffd1)。旧曲率和NG均完成，不重启；readonly完成后接g_second_translation(3c37aeae)新36列。全部真实输入有run/source/SHA；publisher真实pull核规则、gzip后<5MB、NFF循环。mechanism据只读诊断定下一策略；tail_cost另推真实约束Dω=k_s/(2h)的几何IBP纸证R129。任何资源退出只界定该次计算，随后继续open，不结束主任务。
+continuation最多两lane：43651096112的02785因子仍运行；同run只读9390诊断已success。现在新增单lane g_second_translation(3c37aeae)，只研究N²G权−1的36原列；原first331/已完成20列不重做，真阳性s=2停链。全部输入有run/source/SHA，publisher真实pull核规则、gzip后<5MB、NFF循环。R129完整纸证已登记：真实X/Y下L2与L4分部积分，保加速度平方、两非对称H项及所有四次项，常值germ准确消正权边界势；不判商系数符号。tail_cost消费新因子后做真实pure密度；literature续推R130真实span的必要局部密度门，先补完整端口/矩/T支付证明。预算退出只界定该次计算，继续open，不结束主任务。

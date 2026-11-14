@@ -257,3 +257,5 @@
 - [R126：首次G平移的严格分离与至少52个真实联合查询](results/R126-first-G-translation-separation-and-52-query-control.md) — actual43649525432/source5852d7d4保真移动锚N，完整权零20原列的4条原式依赖给上界16；原有理16/17子式模2147483647分别775740714/172056171，ΛNG模548771152非零，故dimR8,0=16、NG∉R8。显式坐标次数≤9给2≤s≤10；pure像31及权0/1像3/1给核≥19，dimR8≥50、dimU4与闭锥lineality≥52，R122真实联合查询至少52。30.499s/RSS124.648MiB，新人工过；下一仅N²G权−1，未授完整函数/ruling或主课题完成。
 
 - [R127：若完整成本闭锥仍有障碍，必有正的仿射字符](results/R127-positive-affine-character-of-the-fourth-cost-cone.md) — 有限真实U4内span C=U使C* pointed；任意非零正泛函先经H→∞取最高整权，再经双向平移的末非零N*项取极限。末阶j必偶，所得ν非零、正、N*ν=0且缩放权为m+j，杀全部R8+orbitG。故正性障碍只需在有限单权平移不变对偶内找；未算剩余维数、未找非零正泛函、未证C=U或实际成本逆元。纯纸证，无研究重跑。
+
+- [R129：完整导数成本的真实水平几何分部积分正规式](results/R129-horizontal-geometry-IBP-for-complete-fourth-costs.md) — 在ω_s=k_s/(2h)下保X=∂h、Y=∂k+(2h)⁻¹∂ω及全部Laurent/log链式项，L2准确化为D_sP1+速度二次式；L4先消三阶jet，保加速度二次、两项H(ub−wa)及全部速度四次，明确H=((2δ−β)u+(ε−2γ)w)/3。常数germs使正权P1/P3各端零，故可直接接R124完整L2+Δ2+L4及任意固定真实商/投影。未删N2、权零势或桥，非唯一最简，不据非零系数判符号/可达性；无新增研究计算。

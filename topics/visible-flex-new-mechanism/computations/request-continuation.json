@@ -1,57 +1,51 @@
 {
-  "request": "complete-derivative-factors-and-preserved-curvature-trial-diagnosis",
-  "created_at": "2026-11-14 23:00:32 UTC",
+  "request": "second-true-G-translation-only-new-weight-minus-one-block",
+  "created_at": "2026-11-14 23:04:33 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "local_fourth_derivative_factors",
-    "curvature_feasible_trial_diagnostics"
+    "g_second_translation"
   ],
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_derivative_factors.py": "02785c34bfe35993094cb30cc8508a9695f78116bd4423b3ab5ae4b438295abf",
-    "topics/visible-flex-new-mechanism/scripts/extract_curvature_feasible_trials.py": "9390ffd112aabd22a042aec2cd71344f69c7613433d14be6809abba56c6f9d63",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_second_translation.py": "3c37aeae4b39ecf68932a069878b41d890afbe2fd4ee9d8675195edc4e5d6bc1",
+    "topics/visible-flex-new-mechanism/scripts/literature_G_first_translation.py": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5",
+    "topics/visible-flex-new-mechanism/scripts/literature_static_G_rational_dual.py": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477",
     "topics/visible-flex-new-mechanism/scripts/literature_local_fourth_quotient.py": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0",
-    "topics/visible-flex-new-mechanism/scripts/literature_full_m8_tail_response_projection.py": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345",
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange.py": "8c26353df012ca61f37149b2e2ab52acaec4ca22fde68017261c0bd68992ebf5",
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_epigraph_exchange_audit.py": "7162b7c56bb865591316b1ca576c7b0929d55619353567ccd4f3df789543802a",
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_feasible_exchange.py": "ed77abc30e6d4b5fa53e558c316e7479f91cbf674c2686e8ff69908b57e101e5",
-    "topics/visible-flex-new-mechanism/scripts/frame_curvature_feasible_exchange_audit.py": "60a3bd66a1e0636c0796a102b900aa04099f5341008a9262e0f31b1090088b14"
+    "topics/visible-flex-new-mechanism/scripts/literature_total_P1_scaling_blocks.py": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
   },
   "jobs": {
-    "local_fourth_derivative_factors": {
+    "g_second_translation": {
       "development": [
         "--toy-only",
-        "--out",
-        "@OUT@/local-fourth-derivative-factors-development.json"
+        "--order",
+        "2",
+        "--output",
+        "@OUT@/G-second-translation-development.json"
       ],
       "research": [
+        "--order",
+        "2",
         "--max-seconds",
-        "600",
+        "240",
         "--memory-mib",
         "1024",
-        "--max-export-bytes",
-        "4500000",
-        "--out",
-        "@OUT@/local-fourth-derivative-factors.json"
-      ]
-    },
-    "curvature_feasible_trial_diagnostics": {
-      "research": [
-        "--report",
-        "topics/visible-flex-new-mechanism/notes/actions-43648433010-1-curvature_feasible_exchange/curvature-feasible-exchange-audit.json.gz",
-        "--out",
-        "@OUT@/curvature-feasible-trial-diagnostics.json"
+        "--output",
+        "@OUT@/G-second-translation.json"
       ]
     }
   },
   "sync_private_rules": false,
   "previous_private_actual_pull_time": "2026-11-14 22:56:37 UTC",
   "previous_private_actual_pull_commit": "905979913d397cae80a05592bda6660733b3160c",
-  "goal": "Export all unreduced N0/N2 and complete v2/v4 before any response quotient; independently parse the saved 120 physical trials and 73 pooled-feasibility callbacks without new geometry evaluation.",
-  "derivative_geometry_coordinate_count": 10,
-  "derivative_N2_assumed_in_W": false,
-  "old_response_or_static_target_recomputed": false,
-  "curvature_reoptimized": false,
-  "new_factor_artificial_checks_pending_public_Actions": true,
+  "goal": "Only N squared G in the complete two-mode weight-minus-one response: positive original identity fixes s=2 and ends the chain; nonmembership requires a proved true upper bound and matching rational augmented minor.",
+  "bound_previous_run": "43649525432",
+  "bound_previous_source": "5852d7d4400859e53dde789b4d63f200d0e0acce",
+  "full_weight_minus_one_original_columns": 36,
+  "old_twenty_weight_zero_columns_recomputed": false,
+  "automatic_higher_translation_orders": false,
+  "local_small_artificial_development_passed": true,
+  "public_actual_not_yet_run": true,
+  "other_active_lane": "43651096112/local_fourth_derivative_factors",
+  "completed_diagnostic_lane": "43651096112/curvature_feasible_trial_diagnostics",
   "research_only_in_public_Actions": true,
   "task_complete": false
 }
