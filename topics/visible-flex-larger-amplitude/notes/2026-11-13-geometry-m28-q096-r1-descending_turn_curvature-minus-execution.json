@@ -1,0 +1,65 @@
+{
+  "name": "descending_turn_curvature-minus",
+  "started_utc": "2026-11-13T08:26:28.781761+00:00",
+  "reused_existing_complete_case": false,
+  "process_returncode": 0,
+  "exitcode": 0,
+  "complete_finite_field": true,
+  "shape": [
+    3383,
+    384,
+    3
+  ],
+  "report_sha256": "29339bc7561f8bf6406ced98a54ed2d6a2c857c5492deb5fad96b52c497d38f1",
+  "resource_sha256": "a169afb0b37ca4db0de91d75cba959314411f8d16439d40ca0ab4193c601e5f7",
+  "field_manifest_sha256": "91bc91bbfc60fe9482beb2a93534e3be88ea8a05901c41d4f1a136588eafe161",
+  "chunks": [
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-descending_turn_curvature-minus-field-part000.npy.gz",
+      "sha256": "efc20b352720820ccb00d0f24f19b7c2d6a43a5b676ac70e7aa78e542a71ab42",
+      "bytes": 1614473
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-descending_turn_curvature-minus-field-part001.npy.gz",
+      "sha256": "fdff61972cd43be2c387878e5d08859dcbed251f4f99ce6d3d2cdcedd5636d1f",
+      "bytes": 1572732
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-descending_turn_curvature-minus-field-part002.npy.gz",
+      "sha256": "0cdd86f5d3a7f85e43a74c247dac950d43574420f794e1e528b22888cab78fca",
+      "bytes": 1566752
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-descending_turn_curvature-minus-field-part003.npy.gz",
+      "sha256": "cf65653ab1e3df54ed8d60cfa519d901964a0bbe435fc8dbcbc4d5a49b56cccb",
+      "bytes": 1546576
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-descending_turn_curvature-minus-field-part004.npy.gz",
+      "sha256": "f5ff372ed9d69e313191a7693bd4c43be5b1583febfd0f14d9282831c8fc447c",
+      "bytes": 1488551
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-descending_turn_curvature-minus-field-part005.npy.gz",
+      "sha256": "8af1b3b75f63658714ec964a7b1afdaa72854633ff6d0e6d634d82af71edaa2a",
+      "bytes": 1423607
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-descending_turn_curvature-minus-field-part006.npy.gz",
+      "sha256": "de4ae19fba419ee337519c82358865e4e92a1c6acec10eef972937a14231fb24",
+      "bytes": 1374395
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-descending_turn_curvature-minus-field-part007.npy.gz",
+      "sha256": "77ed6712d2e271256fc1a7d82e5e9e58ae3665f6a4f2538a291f2ae4fb7773b5",
+      "bytes": 980463
+    }
+  ],
+  "kappa_abs_max_sample": 8.371058965066386,
+  "twice_norm_max_sample": 3.90863591556924,
+  "height_abs_max_sample": 1.92609160998744,
+  "peak_rss_kib": 169332,
+  "wall_seconds": 100.1784336566925,
+  "accepted_nonlinear_solution": false,
+  "continuous_geometry_certified": false
+}

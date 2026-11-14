@@ -1,0 +1,59 @@
+{
+  "status": "Prepared only; actual source cap inequality will be checked before flow",
+  "source": {
+    "path": "computations/closure_outer_taylor_shared_flow.py",
+    "bytes": 19459,
+    "sha256": "81d8bd9ad3da434eb8ab98d381a32a09bbe7aca5fa3be8a0bfe493ccd62455b7"
+  },
+  "inputs": {
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-closure-real-head-source-enclosure.json": "2b2f3e6246945cb6662453b62b7cd8a16ee508c8914cd1c11880286e5d08e149",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json": "fc75a411e96b01cbff0047783619b8193479f68ad97b437cb4fce8472f2910ec",
+    "notes/2026-11-12-closure-taylor-cut-m2m4-n16-r2.json": "f2cf3f69191f0c2c1b4e5bd28b23d3398d7215c2d7ca88e7606704ce2d8f5716",
+    "notes/2026-11-12-tail-outer-background-flow-m2m4-11to10-r2.json": "ee2fa951a74608296c7036a5ccc3e8f38a241b3f0ca27d481f31fb076f595815"
+  },
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_taylor_shared_flow.py",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--real-source",
+    "notes/2026-11-12-closure-real-head-source-enclosure.json",
+    "--ports",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+    "--slope",
+    "notes/2026-11-12-closure-taylor-cut-m2m4-n16-r2.json",
+    "--old-flow",
+    "notes/2026-11-12-tail-outer-background-flow-m2m4-11to10-r2.json",
+    "--out-prefix",
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1",
+    "--rss-kib",
+    "40960"
+  ],
+  "resource_wrapper": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1-resource.json",
+    "--",
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_taylor_shared_flow.py",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--real-source",
+    "notes/2026-11-12-closure-real-head-source-enclosure.json",
+    "--ports",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+    "--slope",
+    "notes/2026-11-12-closure-taylor-cut-m2m4-n16-r2.json",
+    "--old-flow",
+    "notes/2026-11-12-tail-outer-background-flow-m2m4-11to10-r2.json",
+    "--out-prefix",
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1",
+    "--rss-kib",
+    "40960"
+  ],
+  "source_identity": "n10/n11 valley=0, no custom weights/caps, chi=j0=1. Every actual raw slope is bounded below slopeCap*exp(-capTransition) using the original160-cell R/alpha table. Only flow coordinates use fixed mu11; source mu_n is unchanged.",
+  "MJS_changes": false,
+  "entire_outer_nonlinear_solution_claimed": false
+}

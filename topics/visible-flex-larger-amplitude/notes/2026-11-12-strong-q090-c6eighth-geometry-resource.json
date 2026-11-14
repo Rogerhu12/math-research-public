@@ -1,0 +1,29 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "-u",
+    "computations/root_prefix_geometry.py",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--checkpoint",
+    "notes/2026-11-12-strong-samechart-vu032-q090-c6eighth-checkpointed-recovered-r1.json.gz",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--out",
+    "notes/2026-11-12-strong-q090-c6eighth-geometry.json",
+    "--radial",
+    "241",
+    "--angular",
+    "128",
+    "--phases",
+    "1"
+  ],
+  "wall_seconds": 3.5945675373077393,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 110488,
+  "user_seconds": 1.879027,
+  "system_seconds": 0.353835,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

@@ -1,0 +1,53 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Stable complete R77 proof and actual 4211-leaf same-candidate application",
+  "formal_session": 71132,
+  "formal_resource_exitcode": 0,
+  "formal_termination_signal": null,
+  "all_nine_gates": true,
+  "full_segment_upper": [
+    215785128324342,
+    -60
+  ],
+  "full_continuous_leaf_count": 4211,
+  "no_new_root_ODE_source_integral_or_angular_sampling": true,
+  "original_primary_streams_unchanged": true,
+  "files": [
+    {
+      "path": "computations/tail_outer_mean_constraint_stream.py",
+      "bytes": 11266,
+      "sha256": "7c838e9f703bd47ee958223b0f8e814ad81b2f9f68452a3edd3a5cff2cc09ca1"
+    },
+    {
+      "path": "results/R77-complete-mean-defect-zero-mode.md",
+      "bytes": 6341,
+      "sha256": "653a9a52def56e868aed9a91fd15c07a6923e635a90e82f0524c1526b03db1ec"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r77-seg3-mean-constraint-r1-plan.json",
+      "bytes": 1505,
+      "sha256": "72a88d0d27ae10bd0c47a0f35d7a5fc657f405be2f7ea3354e0827b36fff51cc"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r77-seg3-mean-constraint-r1.json",
+      "bytes": 11538,
+      "sha256": "fa3bfde5db8a9184d28d77408734072786e815c7057a59042a0dc5749c56ad3e"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r77-seg3-mean-constraint-r1-resource.json",
+      "bytes": 1027,
+      "sha256": "3e67c3deb54c7397e26389e46d1c3e32fea77df0912e282b11ccdd6c239ec1f8"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r77-seg3-mean-constraint-executed.md",
+      "bytes": 3123,
+      "sha256": "b746de561820a1ad37c67c194593c61cf1d7c895f06330d8da1adf847ace5eb0"
+    }
+  ],
+  "total_bytes": 34800,
+  "original_primary_manifest": "notes/2026-11-12-tail-r66-seg3-finite-horner-complete-manifest.json",
+  "excluded": [
+    "unexecuted signed-mean helper",
+    "active segment5 complete audit"
+  ]
+}

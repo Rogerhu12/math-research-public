@@ -1,0 +1,46 @@
+{
+  "scope": "static unique-anchor and source-hash validation only; no Node or numeric run",
+  "template_sha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+  "adapter_sha256": "ec69703a4b0786313c2506aae5f82ec8da39330876d15519225e2d4b7f7d2cc8",
+  "worker_edits": [
+    [
+      "let last=null,call=0,progressStates=null,progressRow=null,currentHeight=null,warmEmbeddingDiagnostics=null;",
+      "let exactRawPending=null;\nlet last=null,call=0,progressStates=null,progressRow=null,currentHeight=null,warmEmbeddingDiagnostics=null;"
+    ],
+    [
+      "if(cfg.initialCheckpoint){\n",
+      "rawWarmGarbageCollection('before-checkpoint-warm',trace);\nif(cfg.initialCheckpoint){\n"
+    ],
+    [
+      " const embedded=geometricWarmRemesh(prior,dn,createFastSplitFluxMomentumTailEngine);\n const states=embedded.states;warmEmbeddingDiagnostics=embedded.diagnostics;\n trace({event:'geometric_warm_embedding',source:cfg.initialCheckpoint,...warmEmbeddingDiagnostics});",
+      " const embedded=preserveExactRawWarm(prior,dn);\n const states=embedded.states;warmEmbeddingDiagnostics=embedded.diagnostics;\n exactRawPending={height:prior.cutHeight.slice(),states};\n trace({event:'exact_raw_warm_loaded',source:cfg.initialCheckpoint,checkpointSHA256:createHash('sha256').update(raw).digest('hex'),...warmEmbeddingDiagnostics});"
+    ],
+    [
+      "console.log(JSON.stringify({event:'ready',",
+      "rawWarmGarbageCollection('before-ready',trace);\nconsole.log(JSON.stringify({event:'ready',exactRawWarmAdapter:exactRawWarmAdapterManifest,"
+    ],
+    [
+      "  let initial,predicted=false;\n  if(tangentPredictor){",
+      "  rawWarmGarbageCollection('before-request-warm',trace);\n  let initial,predicted=false;\n  if(exactRawPending&&samePhysicalHeight(req.height,exactRawPending.height)){\n   initial=exactRawPending.states.map(row=>Float64Array.from(row));predicted=true;\n   trace({event:'exact_raw_same_H_initial',call,complete_H_bitwise_equal:true,all_original_raw_values_preserved:true,warm_Q_L_remesh_bypassed:true,warm_ratio_one_rescale_bypassed:true,warm_only_boundary_correction_bypassed:true,full_original_residual_Newton_Jacobian_audit_required:true});\n  }\n  exactRawPending=null;\n  if(!predicted&&tangentPredictor){"
+    ]
+  ],
+  "template_edits": [
+    [
+      "const original=fs.readFileSync(workerPath,'utf8');",
+      "const rawWarmURL=new URL('./strong_exact_raw_tail_warm.mjs',import.meta.url).href;\nconst rawWarmAdapterManifest={name:'same-discretization-exact-raw-shooting-warm-v1',templateSHA256:\"3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054\",workerAdapterSHA256:sha256(fs.readFileSync(new URL(import.meta.url))),warmHelperSHA256:sha256(fs.readFileSync(new URL(rawWarmURL))),transformedTemplateSHA256:process.env.STRONG_EXACT_RAW_WORKER_TRANSFORM_SHA,scope:'Only same-discretization raw warm storage and explicit GC. The original full residual, variational pass, Newton, line search, positivity and full audit remain unchanged.'};\nconst original=fs.readFileSync(workerPath,'utf8');"
+    ],
+    [
+      "replaceOnce(\n  \"import {createSplitFluxCompactTailDN as createCompactTailDN} from './78718-tail-tangent-split.mjs';\",",
+      "for(const {before,after} of [{\"before\": \"let last=null,call=0,progressStates=null,progressRow=null,currentHeight=null,warmEmbeddingDiagnostics=null;\", \"after\": \"let exactRawPending=null;\\nlet last=null,call=0,progressStates=null,progressRow=null,currentHeight=null,warmEmbeddingDiagnostics=null;\"}, {\"before\": \"if(cfg.initialCheckpoint){\\n\", \"after\": \"rawWarmGarbageCollection('before-checkpoint-warm',trace);\\nif(cfg.initialCheckpoint){\\n\"}, {\"before\": \" const embedded=geometricWarmRemesh(prior,dn,createFastSplitFluxMomentumTailEngine);\\n const states=embedded.states;warmEmbeddingDiagnostics=embedded.diagnostics;\\n trace({event:'geometric_warm_embedding',source:cfg.initialCheckpoint,...warmEmbeddingDiagnostics});\", \"after\": \" const embedded=preserveExactRawWarm(prior,dn);\\n const states=embedded.states;warmEmbeddingDiagnostics=embedded.diagnostics;\\n exactRawPending={height:prior.cutHeight.slice(),states};\\n trace({event:'exact_raw_warm_loaded',source:cfg.initialCheckpoint,checkpointSHA256:createHash('sha256').update(raw).digest('hex'),...warmEmbeddingDiagnostics});\"}, {\"before\": \"console.log(JSON.stringify({event:'ready',\", \"after\": \"rawWarmGarbageCollection('before-ready',trace);\\nconsole.log(JSON.stringify({event:'ready',exactRawWarmAdapter:exactRawWarmAdapterManifest,\"}, {\"before\": \"  let initial,predicted=false;\\n  if(tangentPredictor){\", \"after\": \"  rawWarmGarbageCollection('before-request-warm',trace);\\n  let initial,predicted=false;\\n  if(exactRawPending&&samePhysicalHeight(req.height,exactRawPending.height)){\\n   initial=exactRawPending.states.map(row=>Float64Array.from(row));predicted=true;\\n   trace({event:'exact_raw_same_H_initial',call,complete_H_bitwise_equal:true,all_original_raw_values_preserved:true,warm_Q_L_remesh_bypassed:true,warm_ratio_one_rescale_bypassed:true,warm_only_boundary_correction_bypassed:true,full_original_residual_Newton_Jacobian_audit_required:true});\\n  }\\n  exactRawPending=null;\\n  if(!predicted&&tangentPredictor){\"}])replaceOnce(before,after);\nreplaceOnce(\n  \"import {createSplitFluxCompactTailDN as createCompactTailDN} from './78718-tail-tangent-split.mjs';\","
+    ],
+    [
+      "source=`import {actualSlopeJacobian,replaceFirstSlopeRows} from ${JSON.stringify(slopeURL)};\\n`+",
+      "source=`import {preserveExactRawWarm,samePhysicalHeight,rawWarmGarbageCollection} from ${JSON.stringify(rawWarmURL)};\\n`+\n  `const exactRawWarmAdapterManifest=${JSON.stringify(rawWarmAdapterManifest)};\\n`+\n  `import {actualSlopeJacobian,replaceFirstSlopeRows} from ${JSON.stringify(slopeURL)};\\n`+"
+    ],
+    [
+      "  sourceRevision:JSON.parse",
+      "  exactRawWarmAdapter:rawWarmAdapterManifest,\n  sourceRevision:JSON.parse"
+    ]
+  ],
+  "all_anchors_unique": true
+}

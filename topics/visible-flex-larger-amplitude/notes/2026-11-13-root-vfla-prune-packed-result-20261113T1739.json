@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-13T17:38:58Z",
+  "plan_sha256": "9424eef80e1be7a83628fa5512bdd57ea1935c4f5a5807168f0c1e864ed66bac",
+  "candidate_count": 3480,
+  "candidate_bytes": 376516252,
+  "all_candidate_oids_already_indexed": true,
+  "free_before": 686710784,
+  "actual_command": [
+    "git",
+    "prune-packed"
+  ],
+  "exitcode": 0,
+  "stdout": "",
+  "stderr": "",
+  "pack_indexes_identical": true,
+  "oid_set_identical": true,
+  "ref_tips_identical": true,
+  "free_after": 1072054272,
+  "remaining_candidates": 0
+}

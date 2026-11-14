@@ -1,0 +1,77 @@
+{
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "scope": "same real a_star, complete field posterior on actual real P",
+  "files": [
+    {
+      "path": "computations/root_R156_P_full_feedback_rebootstrap.py",
+      "sha256": "6234137b6ff6a9cf725ef56f86208391cc7421c333656689a932915c856be2fa",
+      "bytes": 27830
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-root_refined_window_cut_support.py",
+      "sha256": "3d4ac8d58f9fe7683a13d29519f379fd6eff15a4cb4a0da6721e02767626a025",
+      "bytes": 19663
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-nonlow_interface.py",
+      "sha256": "eb5a9a9f2cf01f635f0942bef9299184afb30baab273d26251450395d9046f65",
+      "bytes": 17990
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-input-manifest.json",
+      "sha256": "d01b0e5d425e76f38d042df309cceb7ced40211d37d22e63cfeaa720070d905f",
+      "bytes": 9223
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-P-feedback-r1-certificate.json.gz",
+      "sha256": "c9f38a066bcd9b62523acbaa6eb3ff696494883137329b3a58370ef17783a664",
+      "bytes": 479285
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-P-feedback-r1-summary.json",
+      "sha256": "5b831cd7f8e8640f5ac768283c0d055de39aa494cd6d622796599a1c2b209776",
+      "bytes": 390
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-P-feedback-r1-resource.json",
+      "sha256": "fbbdde91e7b156aad63e73e6e468539012bcac3d777e1b9489b1681f44862829",
+      "bytes": 874
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-P-feedback-r1.log",
+      "sha256": "55a64cfc846145593333aaadee03f495e1f69083cbe4d55c3522f66a66ec711c",
+      "bytes": 2806
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-P-feedback-r1-cycle00.json.gz",
+      "sha256": "9c500ecb89212b33f6d271b16d9637c5601c855086f1b938b9b82c992993f493",
+      "bytes": 175577
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-P-feedback-r1-cycle01.json.gz",
+      "sha256": "4cdc0a51e28f808937dc26edda29b6b1be42fea58bb0715704ca8598b67f55d8",
+      "bytes": 175568
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-P-feedback-r1-cycle02.json.gz",
+      "sha256": "31c817d22dbd540efcdb3cd3406a79dda5ff452a3abae03a7dca3508d69620c3",
+      "bytes": 175629
+    },
+    {
+      "path": "notes/2026-11-13-root-R156-P-feedback-r1-cycle03.json.gz",
+      "sha256": "c914996b7c3df3e3abb73bad19e65836403cdff7149da0db44f7dcfa12d53175",
+      "bytes": 175674
+    },
+    {
+      "path": "results/R156-complete-nonlow-feedback-on-actual-P.md",
+      "sha256": "4ecd70957df45f3611a7226f029f7e2b0637da744729874e853e0c27a62f8745",
+      "bytes": 3925
+    }
+  ],
+  "total_bytes": 1264434,
+  "primary_sha256": "c9f38a066bcd9b62523acbaa6eb3ff696494883137329b3a58370ef17783a664",
+  "formal_owned_exitcode": 0,
+  "gate_count": 100,
+  "whole_P_selfmap_claimed": false,
+  "existing_input_graph": "Original R141 plus archived R155/R153; all exact paths and hashes in input manifest"
+}

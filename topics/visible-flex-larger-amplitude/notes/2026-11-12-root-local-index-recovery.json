@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-12T18:23:47.779876+00:00",
+  "first_session": 92945,
+  "first_terminal_status": "unknown; tool subsequently reported Unknown process id; immutable batch v2 completed but source commit not observed",
+  "observed_head": "310da6f26ca1cc5858a776f5eabef02dc5ca211c",
+  "second_attempt_formal_exit": 1,
+  "second_git_add_exit": 128,
+  "second_reason": "Active index.lock already exists; ownership/terminal state of first writer not inferred from cross-exec process visibility",
+  "continuation": "Preserve existing index and lock. Build the exact immutable selection using a distinct GIT_INDEX_FILE, commit-tree with known310 parent and a fresh owned source ref; no checkout, index deletion or force update.",
+  "successful_safe_continuation": {
+    "status": "Ordinary exact-manifest child source commit retained on a new owned ref",
+    "source": "da9150290484d5f7269a7e8d72c5aa1066750d96",
+    "parent": "310da6f26ca1cc5858a776f5eabef02dc5ca211c",
+    "owned_ref": "refs/heads/agent-visible-larger-source-r74-r79-20261112",
+    "source_topic_tree": "7b7a731c29d0bd403d7fcaddb46da5fa99b4361b",
+    "source_root_tree": "08705fb3781af5afbf1681027427da8ef31ebcd0",
+    "changed_files": 266,
+    "selected_files": 274,
+    "selection_path": "/workspace/scratch/c0de65fac774/next-r74-r79-stable-selection.json",
+    "selection_sha256": "64e492b1b17f632fc13424043395aa6abfe1c1624e5c826bb43bd02e209aa52e",
+    "initial_HEAD": "310da6f26ca1cc5858a776f5eabef02dc5ca211c",
+    "final_observed_HEAD": "310da6f26ca1cc5858a776f5eabef02dc5ca211c",
+    "no_HEAD_index_lock_or_worktree_write": true,
+    "network_operations": 0,
+    "force_updates": 0,
+    "utc": "2026-11-12T18:25:22.700903+00:00",
+    "source_sha256": "e79c9e53fbdc17a7f42a1b2b6c3caa3bf0a93d27fc5d842bd356efcc94694177"
+  },
+  "safe_object_commit_tool_formal_exit": 0,
+  "original_active_index_and_lock_preserved": true,
+  "original_92945_terminal_still_unknown": true,
+  "original_failure_not_attributed_to_memory_disk_or_timeout": true
+}

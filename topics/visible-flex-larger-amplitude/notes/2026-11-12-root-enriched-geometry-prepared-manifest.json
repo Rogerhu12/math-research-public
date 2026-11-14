@@ -1,0 +1,64 @@
+{
+  "scope": "Prepared enriched11 physical commands and complete-storage/full-row LP fixture only. No r2 physical field or actual LP executed.",
+  "files": [
+    {
+      "path": "computations/root_geometry_array_io.py",
+      "bytes": 3726,
+      "sha256": "8956bdb69837acdf4cd87c8cac9a4468606db2793d6ab2bd141cec46b9ae2878"
+    },
+    {
+      "path": "computations/root_actual_geometry_field_chunks.py",
+      "bytes": 8760,
+      "sha256": "dc200cddf813994bb1623fe23098581cee98fdcec94acdc3d21f46fa162e359a"
+    },
+    {
+      "path": "computations/root_geometry_enriched_plan.py",
+      "bytes": 6722,
+      "sha256": "4c73109d076569c42bb2142c0c0a884d9e7a97bc4540ddd35b91b070e49f61da"
+    },
+    {
+      "path": "computations/root_geometry_streaming_lp.py",
+      "bytes": 10979,
+      "sha256": "9f980ed8d0665e0ae8368156dae006dd74981e6d0a5994908f9403f379be6019"
+    },
+    {
+      "path": "computations/root_geometry_streaming_check.py",
+      "bytes": 5181,
+      "sha256": "7c8cdb79191c026f13cbd172118706b341734044c49b912fb6e411a635901a1a"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-plan.json",
+      "bytes": 43749,
+      "sha256": "21d7174d9b352f0ef9e2a7f793d5ab40d6af9148f86a1207399e041dc39cb4ee"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-grid.json",
+      "bytes": 75227,
+      "sha256": "4ff93b88d5bcd6f9167af32f46c59d2c9db1fb584fde916f96c2c2d53bdf4a54"
+    },
+    {
+      "path": "notes/2026-11-12-root-enriched-geometry-streaming-check.json",
+      "bytes": 1621,
+      "sha256": "7ef92d430d4875dbc88058dfff4dfc5a420c4721775615bc10d85582f1711999"
+    },
+    {
+      "path": "notes/2026-11-12-root-enriched-geometry-streaming-check-resource.json",
+      "bytes": 848,
+      "sha256": "0cee9f853bc6c3e2a3ae762edf91f339ad82ca2339b176481686a5ddf1b75efe"
+    },
+    {
+      "path": "notes/2026-11-12-root-enriched-common-grid-plan.md",
+      "bytes": 1805,
+      "sha256": "efb17215cc4c395f8c78dafb8a7c41f31a5568b15942884679388ca9391971f1"
+    },
+    {
+      "path": "notes/2026-11-12-root-common-grid-baseline.md",
+      "bytes": 1349,
+      "sha256": "460ca39caf8d5074f44ca869f44241fbaaca02904901df7c329cd56ab1d2206e"
+    }
+  ],
+  "fixture_formal_exitcode": 0,
+  "fixture_session": 16038,
+  "physical_fields_executed": 0,
+  "actual_lp_executed": false
+}

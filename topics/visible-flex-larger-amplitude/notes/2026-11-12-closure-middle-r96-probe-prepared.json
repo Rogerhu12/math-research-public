@@ -1,0 +1,57 @@
+{
+  "status": "Prepared downstream exact arithmetic only; no new upstream Green, Python, AST, Arb, or scalar mathematical gates have executed.",
+  "date_utc": "2026-11-12",
+  "source": {
+    "path": "computations/closure_middle_r96_source_probe.py",
+    "git_blob": "12c2fe859ccb5cc674ce645f6d2ea86fc2868d59",
+    "sha256": "594f33ac202384ab646d33ea0bfec856e16b6b11c2c50b30f93166d932d521e5",
+    "bytes": 9701
+  },
+  "purpose": "Consume the actually finished original m94/96 primary without modifying it; replace only the old generic216 pure-low source bound by complete actually paid R96 modewise sources.",
+  "fixed_domain": "Old real R74 only. The new R97/R92 spectral source must be recomputed before any new-domain claim.",
+  "inputs": {
+    "fresh_middle_primary": "Use its actual whole-file SHA after formal terminal completion; the source guards both true initial components and all10793 original leaves.",
+    "allowed_middle_sources": {
+      "closure_outer_middle_volterra_recovered_v1.py": "6655a72f38f89d6eb31ded7b78bd4b84f94c500653bbb8e6c3ca2611d6af2e31",
+      "closure_outer_middle_mixed_density_v2.py": "a285a385d657e226ddcb7a080f86478b627e7406f970bb85b7ffc70a6c42feeb"
+    },
+    "R96_wide": {
+      "path": "notes/2026-11-12-closure-low-spectral-wide-tail-v1.json",
+      "sha256": "0b9519dafcda5b0ae02f1191539d6054a9a0722f6207c14b96844d9520082de3",
+      "bytes": 71331,
+      "complete_independent_ledger": true
+    }
+  },
+  "argv": [
+    "python",
+    "computations/closure_middle_r96_source_probe.py",
+    "--green",
+    "FRESH_ACTUAL_MIDDLE.json",
+    "--green-sha256",
+    "SHA256_OF_FRESH_ACTUAL_MIDDLE",
+    "--green-source",
+    "computations/closure_outer_middle_volterra_recovered_v1.py",
+    "--r96-wide",
+    "notes/2026-11-12-closure-low-spectral-wide-tail-v1.json",
+    "--out",
+    "FRESH_EXACT_PROBE.json",
+    "--rss-kib",
+    "40960"
+  ],
+  "exact_comparison": {
+    "C0": "10 from same actual R96 low centre",
+    "pure": "R=sum_m gamma_m*b_m, all full mean/inverse and (1+m) retained",
+    "variation": "gamma=max_m gamma_m because input source uses sum of fixed radial Fourier masses",
+    "head": "Use actual complete_given_head_lift from both prescribed original physical initial components",
+    "constant": "c0=head+R",
+    "linear": "a0=4*C0*gamma",
+    "proposal": "r=2*c0/(1-a0) only if c0>0 and a0<1",
+    "selfmap": "c0+a0*r+2*gamma*r^2<r",
+    "Lipschitz": "4*(C0+r)*gamma<1",
+    "whole_domain": "r<=1/8, (C0+r)*2^-40<1/64 and 5R/4+4R^2<1"
+  },
+  "proof": "For the fixed low solution C and finite middle v, the same complete mean root gives ||N(C+v)-N(C)||_source <= 4C0*r+2r^2 by integrating DN<=4 c R. A diagonal true Green has norm max gamma_m on the sum-of-sup source space. Pure centre source has individually fixed b_m, so it remains sum gamma_m*b_m, not a maximum. The proposed radius and every gate are checked as exact Fraction values. If they fail, output preserves false gates and claims no impossibility.",
+  "scope_if_all_gates_true": "Only the explicit finite middle projection with C fixed and other middle/high fields zero; low response, true omitted high traces, full joint PDE, cut consistency and closed geometry remain unpaid.",
+  "source_verification": "Only static formula/schema checks and SHA calculation. Python/AST not executed.",
+  "upstream_priority": "Original m94/96 actual Arb first; this is a subsequent pure standard-library stage, never an alternative to true integration."
+}

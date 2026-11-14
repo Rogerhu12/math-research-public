@@ -1,0 +1,74 @@
+{
+  "scope": "Exact finite transfer search for two linear core resonances.\n\nThe matrices on constant radial-speed segments are exact for the linearized\nFrenet equation. Turns are instantaneous in this design screen, so resulting\nprofiles are NOT C2 surfaces. The final original smooth bridge is integrated\nfrom the existing physical finite linear tail port. Candidates must be\nsmoothed, re-solved nonlinearly and matched to the true tail at fixed metric.\n",
+  "kind": "dwell",
+  "seed": 20261110,
+  "seeds": 150,
+  "seconds": 9.854122638702393,
+  "bridge_initial": {
+    "2": [
+      0.7589772628946289,
+      0.6511171280261159
+    ],
+    "4": [
+      0.9482740204397909,
+      0.317452960545267
+    ]
+  },
+  "rows": [
+    {
+      "kind": "dwell",
+      "x": [
+        0.20908371354527197,
+        0.38,
+        0.44098457816706066,
+        0.0
+      ],
+      "segments": [
+        {
+          "a0": 1.0,
+          "a1": 1.2090837135452719,
+          "v": 0.38,
+          "length": 0.5502202988033471,
+          "height": 0.5089463409293392
+        },
+        {
+          "a0": 1.2090837135452719,
+          "a1": 1.0,
+          "v": -0.44098457816706066,
+          "length": 0.4741293094972213,
+          "height": 0.4255380157570303
+        }
+      ],
+      "pauses": [
+        [
+          1,
+          0.0
+        ]
+      ],
+      "residual": [
+        -2.992051051364797e-13,
+        -2.275957200481571e-15
+      ],
+      "residual_max": 2.992051051364797e-13,
+      "height": 1.336917724522984,
+      "bridge_height": 0.40243336783661443,
+      "bridge_length": 0.6388482209066094,
+      "turn_total_angle": 1.6929833593770396,
+      "optimistic_turn_length_at_K8": 0.21162291992212995,
+      "maximum_radius": 1.2090837135452719,
+      "minimum_radius": 1.0,
+      "terminal_vectors": {
+        "2": [
+          0.20335410216276692,
+          0.17445494805423814
+        ],
+        "4": [
+          -14.932917956744658,
+          -4.999081397115135
+        ]
+      },
+      "seed_index": 3,
+      "optimized": true
+    }
+  ]
+}

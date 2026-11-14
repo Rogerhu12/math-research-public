@@ -1,0 +1,22 @@
+{
+  "scope": "Observed interruption of the original M24 worker during final Jacobian evaluation at external factor 3.5. The accepted trial with residual 2.7663460164511373e-10 was not saved as a successful response. The last iteration checkpoint is unconverged at residual 1.0813461152845199e-5 and is retained only as a warm guess. The successful external factor 2 response is untouched.",
+  "observed_error": "RuntimeError: Weighted tail worker stopped; subsequent requests encountered BrokenPipeError",
+  "worker_signal_or_exit_code": null,
+  "cause_established": false,
+  "last_successful_response": "2026-11-12-tail-external-m24-response_0001.json.gz",
+  "preserved_files": [
+    {
+      "original": "2026-11-12-tail-external-m24-iteration.json.gz",
+      "frozen": "2026-11-12-tail-external-m24-interruption-iteration.json.gz",
+      "sha256": "40658cf83a095bb7e1579393d0fc03dc35b67f1ad0523b8372b776a7974dbb86",
+      "bytes": 283010
+    },
+    {
+      "original": "2026-11-12-tail-external-m24-summary.json",
+      "frozen": "2026-11-12-tail-external-m24-interruption-summary.json",
+      "sha256": "1aced1dd0a07f52228fb1ed25da6915f252cdd2faee0ba88ef7d6bce41283286",
+      "bytes": 18213
+    }
+  ],
+  "note_on_summary": "The original probe continued shrinking the nominal step after its worker died. Those BrokenPipe records are process errors, not nonlinear rejection evidence or a minimum-step mathematical obstruction."
+}

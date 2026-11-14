@@ -1,0 +1,36 @@
+{
+  "scope": "Actual all46 a-posteriori bounds for the same R105 solution; all formal gates true but cut budget far too large, so not a closure conclusion",
+  "created_utc": "2026-11-13T09:16:39.417339+00:00",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-true-modal-r1-resource.json",
+      "sha256": "b7964325d0969f38735b79778bb619158691632df4a5aef80b224753d375b5db",
+      "bytes": 880
+    },
+    {
+      "path": "notes/2026-11-13-root-true-modal-r2-resource.json",
+      "sha256": "8d826c078f5df35c013fafe565ac35b805fd81edb528df5611e6fd777c198487",
+      "bytes": 924
+    },
+    {
+      "path": "notes/2026-11-13-root-true-modal-r2.json.gz",
+      "sha256": "b07c25ec6098a9d8919481e1ea71ebb781e6799f982f97f0618d1f3cdfd6da07",
+      "bytes": 40494
+    },
+    {
+      "path": "computations/root_true_low46_modal_correction.py",
+      "sha256": "4497097fb1c54048ed3f99af83808ea1f8847dd2180ff55aab94af167dbd1792",
+      "bytes": 10649
+    }
+  ],
+  "r1": "Formal exit1 because a newly tracked input temporarily vanished during concurrent git rebase; no mathematical gate was changed. Fresh r2 pinned all inputs by git show from immutable content commit58b83d2dc89.",
+  "r2": {
+    "formal_exit": 0,
+    "wall_seconds": 11.537,
+    "T_outer_without_head": 514373.03565777815,
+    "T_linear_plus_quadratic": 3641.3239131,
+    "T_shared_higher_order": 510731.6966389,
+    "all46_cut_claimed": false
+  },
+  "diagnosis": "Known L_R-minus-old-candidate m6 dominates the unknown correction; global shared higher-order mass multiplied by the highest cut kernel is also too coarse. Recenter at full true L_R and compute its complete source on the same original materials; do not rerun unchanged failed budget."
+}

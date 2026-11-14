@@ -1,0 +1,95 @@
+{
+  "scope": "Complete finite warm geometry diagnostic, original command unchanged",
+  "plan_sha256": "21d7174d9b352f0ef9e2a7f793d5ab40d6af9148f86a1207399e041dc39cb4ee",
+  "candidate_index": 10,
+  "candidate_name": "descending_turn_curvature-minus",
+  "formal_exitcode": 0,
+  "wall_seconds": 178.20402145385742,
+  "peak_rss_kib": 180940,
+  "files": [
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-actual-three-control-adapter.json",
+      "bytes": 9839,
+      "sha256": "d3badf7b85cec789e1bd6d34ef25780e2484f88171207896398708621fa7558f"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-base-profile.json",
+      "bytes": 509,
+      "sha256": "d26e2c5d3cfe577f544b2f84b120617956ce6f8cda14d015ab25dc6ae78e4d95"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-config.json",
+      "bytes": 3044,
+      "sha256": "91f16c1a9ae712188d97167d93df6ed56c15f6df218bc8a83560481237f80fe2"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field-part000.npy.gz",
+      "bytes": 1613692,
+      "sha256": "b697187844d0ac71f4f8f1145596c38ab9a9be3fee7cb110e7828415f2fbb005"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field-part001.npy.gz",
+      "bytes": 1571968,
+      "sha256": "29bd6149c49dab8fab2a4cb3b97429441a73f13aa1fabf7a21187550cc92b3aa"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field-part002.npy.gz",
+      "bytes": 1563018,
+      "sha256": "0535fd8902252df8c6e73d2d45d34fc329631c81a09d0cae018f684d57f29c78"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field-part003.npy.gz",
+      "bytes": 1509587,
+      "sha256": "93e954e9177558e2a78841b97698b1540a71fa82728ad7822f6dae99e5f42708"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field-part004.npy.gz",
+      "bytes": 1474455,
+      "sha256": "ab8907f1ff939fbadebe4d9f23c7fafccc200d352e88aafe4a10f1903393c317"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field-part005.npy.gz",
+      "bytes": 1415117,
+      "sha256": "939dc799b57b64e966b031b4391eab97ffae3d42ed505c890b5fa7bd4f87929f"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field-part006.npy.gz",
+      "bytes": 1289741,
+      "sha256": "bbc8da2210229ad15b03ca8a3d64044632233ff96d8ac9cadda3d26e214c7c8b"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field-part007.npy.gz",
+      "bytes": 391701,
+      "sha256": "9f84b2413b6f4e4946d7dc4be833603cc794e1e25fcfcd8eeb392d15d3964576"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-field.json",
+      "bytes": 2365,
+      "sha256": "3b5c11ff000b5a74baa1180cfd44001ead42fd1045685aed9a26fe9c30ab8f9f"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-log.txt",
+      "bytes": 2742,
+      "sha256": "09439f3c55e49efc20486475f3eed6e640a948ea6511d86ee8fa786771d9f1bf"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-resource.json",
+      "bytes": 2512,
+      "sha256": "05e101d9cc953e03070e92abea2e169f91804a689260204b291ac815cb5eb63c"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-screen.json",
+      "bytes": 15922,
+      "sha256": "dee343eff7e1cd6b77fe15b3703ad56aa10ce59ebd56f535b77b71a35ee4ea59"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-descending_turn_curvature-minus-summary.json",
+      "bytes": 16876,
+      "sha256": "bfc6ac1f638a178a1fafc1f34f9e1206034007255774fda349527cbcab57c70f"
+    }
+  ],
+  "kappa_abs_max_sample": 8.427865349094054,
+  "twice_radius_max_sample": 3.90078892195631,
+  "new_nonlinear_solution": false,
+  "actual_reach_certified": false
+}

@@ -1,0 +1,39 @@
+{
+  "status": "Actual continuous-position Green budget complete; not a full outer fixed point",
+  "proof": {
+    "path": "results/R84-actual-two-cell-whole-field-wronskian-green.md",
+    "sha256": "06a474747150611df454c3b2cbc40ec8f2547284e5f5e0b2240d3d4ebbbedced"
+  },
+  "profile_run": {
+    "session": 72300,
+    "formal_tool_exit": 0,
+    "wait4_exit": 0,
+    "wall_seconds": 227.75353074073792,
+    "peak_RSS_KiB": 31488,
+    "original_panels": 10793,
+    "Taylor_subpanels": 10925,
+    "root_strips": 8,
+    "gates": 10
+  },
+  "consumer_run": {
+    "session": 45841,
+    "formal_tool_exit": 0,
+    "wait4_exit": 0,
+    "wall_seconds": 104.96664929389954,
+    "peak_RSS_KiB": 15028,
+    "gates": 9
+  },
+  "complete_low46_unknown_nonmean_input": true,
+  "complete_mean_and_inverse_source": true,
+  "selected_output_modes": [
+    2,
+    4
+  ],
+  "both_physical_components": true,
+  "all_radial_positions": true,
+  "correct_known_affine_outer_lift_included": true,
+  "true_nonlinear_head_lift_included": true,
+  "centre_linear_candidate_difference_still_unpaid": true,
+  "other44_low_and_all_high_outputs_still_unpaid": true,
+  "actual_full_outer_PDE_claimed": false
+}

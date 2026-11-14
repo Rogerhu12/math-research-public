@@ -1,0 +1,57 @@
+{
+  "scope": "Read-only inspection of the actual q096 Python client/runner chain; no source or job modified.",
+  "formal_observation": "52503 exited1, worker returncode before close and after close both -9; no accepted iteration checkpoint.",
+  "finding": "The inspected Python initialization/solve path has blocking readline and no request-deadline kill. Runner thread.join(timeout=1) only waits for its heartbeat thread. The original close cleanup uses terminate on an exception, not SIGKILL; the already observed -9 before close excludes that close cleanup as the first observed termination.",
+  "limitation": "This does not identify the OS/platform termination cause, prove absence of resource pressure, or inspect external supervisor policies. No OOM or time limit is inferred.",
+  "inspected_sources": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/strong_warm_target_tail_audit.py",
+      "sha256": "a670790d9521ee0425a8f5d00a0f90b6f3e66ae9ddf326ae046a4d7c7224e553",
+      "termination_or_timeout_text": [
+        {
+          "line": 258,
+          "text": "stop.set();thread.join(timeout=1)"
+        }
+      ]
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/strong_exact_raw_tail_client.py",
+      "sha256": "ff5f521f4a40522b134710ff0db7eff9a6342637b58b5aaf1080ca370d0bafef",
+      "termination_or_timeout_text": []
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/tail_frozen_client.py",
+      "sha256": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+      "termination_or_timeout_text": []
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/tail_resumable_client.py",
+      "sha256": "8bf14c0e8857289cff953dba9aaa8d82de8b0cf515ca760b775aca9985b802e5",
+      "termination_or_timeout_text": []
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/strong_resource_run.py",
+      "sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59",
+      "termination_or_timeout_text": []
+    },
+    {
+      "path": "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-geometric-client.py",
+      "sha256": "57326a2d91d262c0057d268c5114f18bad818cecd98e43ee640b6fca5844f3e5",
+      "termination_or_timeout_text": []
+    },
+    {
+      "path": "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-client.py",
+      "sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+      "termination_or_timeout_text": [
+        {
+          "line": 53,
+          "text": "self.proc.wait(timeout=15)"
+        },
+        {
+          "line": 54,
+          "text": "except Exception:self.proc.terminate()"
+        }
+      ]
+    }
+  ]
+}

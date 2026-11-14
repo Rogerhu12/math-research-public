@@ -1,0 +1,13 @@
+{
+  "scope": "Static exact AST identity of all original arithmetic, constraints, decisions and complete data reads after stripping only mapping release additions",
+  "original": "computations/root_geometry_streaming_lp.py",
+  "original_sha256": "9f980ed8d0665e0ae8368156dae006dd74981e6d0a5994908f9403f379be6019",
+  "resident": "computations/root_geometry_streaming_lp_resident.py",
+  "resident_sha256": "2a8985171a7a98539e2f5339810999b4747dc4eab9650c2a1d171b8c27c3ce39",
+  "original_ast_equal_after_removing_storage_additions": true,
+  "release_call_count": 9,
+  "new_numerical_test_performed": false,
+  "actual_physical_lp_performed": false,
+  "finite_rows_retained": "all original five inequality groups, all 3178*384 sites",
+  "memory_cap_claimed": false
+}

@@ -1,0 +1,198 @@
+{
+  "status": "Recovered complete R96 proof and independent small actual ledger; complete large spectral payload is reproducible and is not transferred through connector chunks",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted), 2026-11-12",
+  "execution": {
+    "first_attempt": {
+      "engine": "functions.exec V8 BigInt",
+      "terminal": false,
+      "elapsed_milliseconds": 35,
+      "complete": false,
+      "failure": "Boolean schema guard applied to data object; no six-round enclosure completed"
+    },
+    "spectral_v2": {
+      "engine": "functions.exec V8 BigInt",
+      "terminal": false,
+      "elapsed_milliseconds": 23698,
+      "mathematical_gates": 26,
+      "all_gates": true,
+      "complete_payload_bytes": 207334,
+      "complete_payload_sha256": "e78f8fa461077bb7c22d4b41835eeb82c85cb5321136d35477b6113a0f546e11"
+    },
+    "wide_tail_v1": {
+      "engine": "functions.exec V8 BigInt",
+      "terminal": false,
+      "elapsed_milliseconds": 32366,
+      "mathematical_gates": 11,
+      "all_gates": true,
+      "complete_compact_payload_bytes": 71331,
+      "complete_compact_payload_sha256": "0b9519dafcda5b0ae02f1191539d6054a9a0722f6207c14b96844d9520082de3"
+    },
+    "latest_terminal_attempt": {
+      "command": "pwd",
+      "shell": "bash",
+      "login": false,
+      "workdir": "/",
+      "result": "Rejected before process creation: No usable execution environment is available",
+      "owned_session": null,
+      "m94_m96_Arb_started": false
+    },
+    "recovered_exact_display_audit": {
+      "engine": "Actual functions.exec V8 BigInt",
+      "new_ODE_Arb_or_source": false,
+      "gates": {
+        "original_11_wide_tail_gates": true,
+        "original_complete_payload_hash": true,
+        "displayed_source_rows_exact": true,
+        "displayed_support_blocks_exact": true,
+        "low92": true,
+        "same_centre_total_less10": true,
+        "wide_point_less_1over64": true
+      },
+      "all_gates": true,
+      "source_rows": [
+        {
+          "mode": 94,
+          "strict_dyadic_upper_exponent": -145,
+          "gate": true,
+          "complete_source_upper": [
+            "25991196820787015697647898492036879097",
+            -270
+          ]
+        },
+        {
+          "mode": 96,
+          "strict_dyadic_upper_exponent": -161,
+          "gate": true,
+          "complete_source_upper": [
+            "254642623957966467272696662743161596697",
+            -289
+          ]
+        },
+        {
+          "mode": 184,
+          "strict_dyadic_upper_exponent": -297,
+          "gate": true,
+          "complete_source_upper": [
+            "44250596165216424482133653830518151865",
+            -423
+          ]
+        },
+        {
+          "mode": 186,
+          "strict_dyadic_upper_exponent": -334,
+          "gate": true,
+          "complete_source_upper": [
+            "7856684531009070163423089395105698755",
+            -457
+          ]
+        },
+        {
+          "mode": 276,
+          "strict_dyadic_upper_exponent": -487,
+          "gate": true,
+          "complete_source_upper": [
+            "285449196457397351737232952896931170735",
+            -615
+          ]
+        },
+        {
+          "mode": 552,
+          "strict_dyadic_upper_exponent": -936,
+          "gate": true,
+          "complete_source_upper": [
+            "216499836510415821809274491072531362801",
+            -1064
+          ]
+        }
+      ],
+      "block_rows": [
+        {
+          "mode": 554,
+          "strict_dyadic_upper_exponent": -939,
+          "gate": true,
+          "complete_source_upper": [
+            "243562316074217799535433802456597782643",
+            -1067
+          ]
+        },
+        {
+          "mode": 3130,
+          "strict_dyadic_upper_exponent": -5525,
+          "gate": true,
+          "complete_source_upper": [
+            "53659380633352868098580685885828167735",
+            -5651
+          ]
+        },
+        {
+          "mode": 5706,
+          "strict_dyadic_upper_exponent": -10111,
+          "gate": true,
+          "complete_source_upper": [
+            "189147758248622447663178419168425775661",
+            -10239
+          ]
+        }
+      ]
+    }
+  },
+  "scientific_summary": {
+    "scope": "Same existing actual R91 low46 projected solution, real R74 parameter family and common phase orbit; no R92 domain extension",
+    "total_final_cap_upper": [
+      "193186571647168495831817116455043694165",
+      -124
+    ],
+    "mode92_cap_upper": [
+      "221893338750414607908190460667575605143",
+      -276
+    ],
+    "source_unit": "Signed-pair Fourier weak source e^(18m/125) N_m / ((s+|ell|) V_I^2), source-x; no extra radial Jacobian",
+    "low_unknowns": 46,
+    "inductive_refinements": 6,
+    "inverse_powers_retained": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "full_mean_and_inverse": true,
+    "pure_quadratic_support_at_most": 184,
+    "full_source_94_to552_rows": 230,
+    "remaining_source_554_to5758_blocks": 57,
+    "wide_gain": "One additional constant analytic width for the known finite centre only; no gain given to unknown middle or high fields",
+    "middle_actual_Green": false,
+    "middle_response": false,
+    "full_low_middle_high_joint_fixed_point": false,
+    "closed_surface": false
+  },
+  "reexecution": {
+    "first_source": "computations/closure_outer_low_spectral_enclosure_v2.js",
+    "first_argv": [
+      "node",
+      "computations/closure_outer_low_spectral_enclosure_v2.js",
+      "FRESH_FULL_SPECTRAL_OUTPUT.json"
+    ],
+    "complete_input_files": "Six pinned inputs are embedded in the source; execute from the topic directory.",
+    "second_source": "computations/closure_outer_low_spectral_wide_tail_full_v2.js",
+    "second_argv": [
+      "node",
+      "computations/closure_outer_low_spectral_wide_tail_full_v2.js",
+      "FRESH_WIDE_OUTPUT.json",
+      "FRESH_FULL_SPECTRAL_OUTPUT.json",
+      "SHA256_OF_FRESH_FULL_SPECTRAL_OUTPUT"
+    ],
+    "note": "Terminal execution metadata changes the fresh complete file hash; the full-input recovery adapter checks that exact supplied hash, all six original input hashes, executed v2 source hash and all 26 gates. Fresh outputs remain separately named.",
+    "storage_rule": "No connector transmission of chunks of the complete 207334-byte primary. Preserve full data by terminal git when execution returns."
+  },
+  "prepared_full_input_adapter": {
+    "status": "Prepared entry parsed in V8; mathematical tail body byte-identical to executed v1; no new numerical run",
+    "source_sha256": "411369362507e806943218caef3933ceccd32411dc27a9e30738cd8c337b7ac5",
+    "bytes": 9874,
+    "original_source_sha256": "ee68d5b7773ee0caff312edb334e123fc4fa4aa4bf46a4e27ed61fad52c0bac1",
+    "tail_body_sha256": "b0eab5caee6547c9829d19c8da27225bce47a390fd437000a06db1a0aa5a8d25",
+    "all_static_gates": true
+  },
+  "superseded_proof_sha256": "79aaacf33bc5b4b03df06c85aaa33ca6fd57c59b8dbd5e88224751e2325b0211",
+  "proof_revision": "Total cap is explicitly an upward-rounded upper bound (not exact equality); storage text follows the current root rule8."
+}

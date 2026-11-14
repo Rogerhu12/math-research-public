@@ -1,0 +1,71 @@
+{
+  "scope": "Initialization equivalence for original-g M24 to M32 refinement. The factory parameter manifest also carries numerical/I-O fields; those explicit permitted differences are listed. This does not replace the refined successful response and full audit.",
+  "coarse_summary": "notes/2026-11-12-tail-external-m24-resumable-summary.json",
+  "fine_summary": "notes/2026-11-12-tail-fixed-h-m32-summary.json",
+  "checks": {
+    "all_nonmode_nonio_manifest_fields_equal": true,
+    "all_nonmode_nonio_constructor_fields_equal": true,
+    "profile_fingerprint_equal": true,
+    "warp_alpha_exactly_equal": true,
+    "all_original_24_linear_slopes_equal": true,
+    "all_scalar_cut_jets_and_original_24_components_equal_with_zero_added": true,
+    "all_common_source_hashes_equal": true
+  },
+  "allowed_manifest_parameter_changes": {
+    "iterationCheckpointFile": [
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-external-m24-resumable-iteration.json.gz",
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-fixed-h-m32-iteration.json.gz"
+    ],
+    "traceFile": [
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-external-m24-resumable-trace.jsonl",
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-fixed-h-m32-trace.jsonl"
+    ],
+    "modes": [
+      24,
+      32
+    ],
+    "trialDiagnosticFile": [
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-external-m24-resumable-trials.jsonl",
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-fixed-h-m32-trials.jsonl"
+    ],
+    "initialCheckpoint": [
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-external-m24-resume-iteration.json.gz",
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-external-m24-resumable-response_0002.json.gz"
+    ]
+  },
+  "cut_checks": {
+    "radius": true,
+    "backgroundSlope": true,
+    "backgroundSecond": true,
+    "E": true,
+    "Ep": true,
+    "height": true,
+    "slope": true,
+    "second": true,
+    "meanSlope": true,
+    "meanSecond": true,
+    "meanSlopeCorrection": true,
+    "meanSecondCorrection": true,
+    "minLeading": true,
+    "minD": true,
+    "endpointFullD": true,
+    "endpointPhi": true,
+    "formalCurvature": true
+  },
+  "profile_fingerprint": "8a87255bf9e025190a1a98ff800859f05f95a94113045a60af9391fcace51d24",
+  "frozen_warp_alpha": 161.27721826272244,
+  "original_modes": 24,
+  "refined_modes": 32,
+  "added_linear_slopes": [
+    1377.8054180958588,
+    1196.0648987094905,
+    1055.7646982204421,
+    940.7413571929492,
+    841.5663056553193,
+    752.2286040567973,
+    668.5584501032527,
+    587.394817827587
+  ],
+  "complete_original_height_equal": true,
+  "added_height_coefficients_zero": true
+}

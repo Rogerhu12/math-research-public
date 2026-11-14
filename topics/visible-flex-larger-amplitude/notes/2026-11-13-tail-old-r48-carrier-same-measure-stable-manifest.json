@@ -1,0 +1,56 @@
+{
+  "schema": "old-R48-to-carrier-same-measure-consumer-stable-manifest-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Two complete small UTF-8 artifacts. Static source/schema review only; actual Python checks and data execution remain pending.",
+  "files": [
+    {
+      "path": "computations/tail_old_r48_to_carrier_same_measure.py",
+      "sha256": "ececbca427c0a67b99e58ef0d4b09ded7a482813b9859fc2bbd5ccea53234cce",
+      "bytes": 30342,
+      "git_blob_sha": "0edfc47f33bca9efdf3ce53e31a8428ec0e575ce"
+    },
+    {
+      "path": "notes/2026-11-13-tail-old-r48-carrier-same-measure-plan.json",
+      "sha256": "f9639e04b35851e19a581bd7c355dbe398cf04cd9cede367b233979bb9cea8ad",
+      "bytes": 11179,
+      "git_blob_sha": "415c986a0350ffa2f0d43100ac23e2dd33eb2b67"
+    }
+  ],
+  "total_bytes": 41521,
+  "dependencies": [
+    {
+      "manifest": "notes/2026-11-13-tail-old-r48-same-measure-kernel-stable-manifest.json",
+      "git_blob_sha": "95046e6c0185b471bf1d28f2fd818f239850cde8",
+      "sha256": "dfd7cfefc250bebd68c0824357612073b3a7ffffecf0c383e8588c23ba200070",
+      "role": "Complete five-positive-basis application proof and prepared exact interval kernel"
+    },
+    {
+      "manifest": "notes/2026-11-13-tail-r103-local-centre-drift-stable-manifest.json",
+      "git_blob_sha": "109474daa2d59671d8caa54ac45915a9303d5e21",
+      "sha256": "b4896021cdafe4e22a212ce4c3bdfe1239d8de9d8f68373e20670f5469871760",
+      "role": "Pinned exact I/O and complete local J/R77 parser"
+    },
+    {
+      "path": "computations/tail_outer_carrier_mean_ledger_v3.py",
+      "git_blob_sha": "313745424889e3fb45f76f5b2e175e31aac1c70a",
+      "sha256": "857d698dde2a6ca548c2ad55f6297d03fb0bc61870427bcf78d000225de16fd5",
+      "role": "Import complete paired_mean_radial_bound only; actual input mean ledger is formal successful v4"
+    }
+  ],
+  "completed_static_review": {
+    "source_sha256": "ececbca427c0a67b99e58ef0d4b09ded7a482813b9859fc2bbd5ccea53234cce",
+    "ascii_bytes": 30342,
+    "review_kind": "static source and proof consistency; no Python or actual-data execution",
+    "field_fix": "shared true-metric gate is in carrier.gates, as in pinned producing source",
+    "source_coordinate": "original u=8x, CF derivative physical r",
+    "same_lambda": "intersect exact integral-defined lambda; no midpoint",
+    "mean": "complete roots plus all four G_z terms; physical c_r conversion",
+    "global_gauge": "left or right fixed globally, never pointwise minimum"
+  },
+  "no_new_numerical_execution": true,
+  "original_pending25_priority": "Recover and hash the two original manifests and25 actual files through CLI first; inability to access them is not evidence of loss.",
+  "preserve_original_PM_PA_CF_and_candidates": true,
+  "no_new_theorem_or_outer_solution_claimed": true,
+  "binary_data_policy": "No binary, encoded, split, or over100KB scientific primary through connector tools. New numerical outputs only by actual local CLI."
+}

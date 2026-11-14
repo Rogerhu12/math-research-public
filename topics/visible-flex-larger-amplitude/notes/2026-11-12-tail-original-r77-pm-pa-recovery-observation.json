@@ -1,0 +1,156 @@
+{
+  "schema": "original-tail-output-recovery-observation-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Actual completed read-only recovery; subsequently the next schema-read command failed before producing output",
+  "scientific_recomputations": 0,
+  "new_Arb_or_Node": false,
+  "observation_tools": [
+    {
+      "chunk_id": "8b1b9e",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "96249e",
+      "exit_code": 0
+    },
+    {
+      "chunk_id": "072e40",
+      "exit_code": 0
+    }
+  ],
+  "original_files": [
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77.json",
+      "sha256": "9961c22641962656ae9274998fb3bb0e8c0da700cc9a58ff0799d6b2aef7d46b",
+      "bytes": 11544
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77-resource.json",
+      "sha256": "cac46b96770e4d19ddab5b7fa7dbaa10f05b5d9b9517f5ddcc6b2aa8de9d2c22",
+      "bytes": 1083
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1.json",
+      "sha256": "563fa719f9abd2308dd8fb2fd14f4a96a6fd2c7e3bf9ab187dd58b608c7bf0a8",
+      "bytes": 16967
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1-resource.json",
+      "sha256": "ae0da197ffb1eb78739582e2bd779ed2a970972bbf73cd16c3e42f0de1540c43",
+      "bytes": 1075
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "sha256": "b899a0915927680dfc133456083b1af591e9347d59a2d1957a0bd6af0cad6687",
+      "bytes": 310011
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "sha256": "b167e48cfb99146ad93db7370dc544e00c7db11b51e7fbc5b366ddb203bbc7f6",
+      "bytes": 1253
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "sha256": "027192774cf63d4928eb278cca0a1942ac18f0bbeb0c51bd967fcecd5ac42421",
+      "bytes": 199593
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "sha256": "75bdfe5d5bcc4fc66fde91ff098f18159fd483c7f5b2017762513f7f7e0e1978",
+      "bytes": 384170
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-resource.json",
+      "sha256": "4555b1bfb814362fd2de27c14e6109997b7940932fe0f5f14c97e6941efc72ea",
+      "bytes": 1114
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-part00-fields.jsonl.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-part00-fields.jsonl.gz",
+      "sha256": "6af1032c206236167ddd0f613bd045a2105369b3dc6e5fb1e9acebc8cc54dde5",
+      "bytes": 239049
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-r1-plan.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-r1-plan.json",
+      "sha256": "6e4c9c5f06dcc294eb0c6290854db1c162ddf1dc216b5a6a7a32e099fcb0720f",
+      "bytes": 3286
+    },
+    {
+      "path": "computations/tail_outer_physical_substage_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_moments.py",
+      "sha256": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+      "bytes": 21632
+    },
+    {
+      "path": "computations/tail_outer_physical_substage_candidate.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_candidate.py",
+      "sha256": "20d0ce487d61361501e9086d3f8126c7ae3eadf11590d16626915b0743416a13",
+      "bytes": 16626
+    }
+  ],
+  "actual_recovery_manifest": {
+    "path": "/tmp/visible-flex-larger-20261112T2304/tail-owned/2026-11-12-tail-original-pm-pa-r77-recovered-manifest.json",
+    "sha256": "68e7764eeba3369bbe560ea46e86c2534f379e5c0a4e3decf354ff08bd1f5744",
+    "bytes": 21168,
+    "checked_dependencies": 34,
+    "files": 13
+  },
+  "original_resources": [
+    {
+      "purpose": "R77",
+      "exitcode": 0,
+      "termination_signal": null,
+      "wall_seconds": 1.683398962020874,
+      "panels": 1740
+    },
+    {
+      "purpose": "8594 composition",
+      "exitcode": 0,
+      "termination_signal": null,
+      "wall_seconds": 0.09115195274353027,
+      "panels": 8594
+    },
+    {
+      "purpose": "PM64415",
+      "exitcode": 0,
+      "termination_signal": null,
+      "wall_seconds": 0.8791379928588867,
+      "panels": 111
+    },
+    {
+      "purpose": "PA12337",
+      "exitcode": 0,
+      "termination_signal": null,
+      "wall_seconds": 3.540830373764038,
+      "panels": 111
+    }
+  ],
+  "observed_checks": {
+    "all_files_existed": true,
+    "all_summary_source_and_input_hashes_matched": true,
+    "PM_and_PA_primary_hashes_matched": true,
+    "PM_and_PA_each_complete_header_111_rows_trailer": true,
+    "four_original_formal_resources_exit0": true,
+    "source_files_unchanged": true
+  },
+  "later_tool_failure": {
+    "functions_cell": "g3:5",
+    "operation": "Read-only JSON schema inspection",
+    "output_obtained": false,
+    "error": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s",
+    "scientific_process_exit_inferred": false,
+    "files_deleted_inferred": false
+  },
+  "next_recovery": "Recheck these actual files first. Their observation remains valid; a later environment failure is not evidence of deletion. Reuse unchanged originals. Do not relabel old parts/output schema as the rebuilt groups/path producer; use an explicit source-bound compatibility consumer."
+}

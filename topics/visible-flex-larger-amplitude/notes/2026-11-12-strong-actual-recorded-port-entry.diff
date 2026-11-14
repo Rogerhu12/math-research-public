@@ -1,0 +1,86 @@
+--- strong_actual_three_control_bvp.py@87bb5063
++++ strong_actual_three_control_bvp.py@a84c8587
+@@ -63,11 +63,20 @@
+     parser.add_argument('--resume-actual-iterate', type=Path)
+     parser.add_argument('--resume-tail-config', type=Path)
+     parser.add_argument('--tail-warm-checkpoint', type=Path)
++    parser.add_argument('--initial-audited-tail-packet', type=Path)
++    parser.add_argument('--initial-audited-tail-ready', type=Path)
++    parser.add_argument('--release-tail-worker-between-responses', action='store_true')
+     options, remaining = parser.parse_known_args()
+     if options.inspect_local_output and options.inspect_warm_output:
+         raise ValueError('Select exactly one explicit inspection mode')
+     if bool(options.resume_actual_iterate) != bool(options.resume_tail_config):
+         raise ValueError('Actual iterate recovery requires its exact prior tail-config file')
++    if bool(options.initial_audited_tail_packet) != bool(options.initial_audited_tail_ready):
++        raise ValueError('Exact audited-H reuse requires its complete packet and ready record')
++    if options.initial_audited_tail_packet and not options.tail_warm_checkpoint:
++        options.tail_warm_checkpoint = options.initial_audited_tail_packet
++    if options.release_tail_worker_between_responses and not options.initial_audited_tail_packet:
++        raise ValueError('Worker release mode requires the explicit exact audited-H port')
+ 
+     def argument(name, required=True):
+         if name not in remaining:
+@@ -176,13 +185,16 @@
+                 or any(tail_warm['rawStates'][j] != tail_warm['states'][k]
+                     for j, k in enumerate(tail_warm['rawNode']))):
+             raise ValueError('Tail warm recovery dimensions, complete raw states or finite values differ')
++        prior_tail_audited = bool(recovery.get('response', {}).get('converged')
++            and recovery['response'].get('audit') is not None)
+         tail_warm_info = dict(file=str(options.tail_warm_checkpoint),
+             sha256=sha(options.tail_warm_checkpoint), prior_status=recovery.get('status'),
+             prior_iteration=recovery.get('iteration'),
+             physical_and_numerical_tail_parameters_identical=True,
+             complete_states_and_raw_states_preserved=True,
+             complete_H_must_equal_first_live_request=True,
+-            warm_only=True, prior_state_not_accepted=True,
++            warm_only=True, prior_state_not_accepted=not prior_tail_audited,
++            prior_tail_audited=prior_tail_audited, does_not_accept_prefix=True,
+             original_nonlinear_full_jacobian_and_final_audit_required=True)
+     config.update(traceFile=str(out.with_name(out.name+'-tail-trace.jsonl').resolve()),
+         iterationCheckpointFile=str(out.with_name(out.name+'-tail-iteration.json.gz').resolve()),
+@@ -225,7 +237,7 @@
+         'root_domain_newton.py', 'root_raw_collocation.py', 'root_radial_batching.py',
+         'root_block_collocation.py', 'strong_neck_bvp.py', 'strong_flow_lru.py',
+         'tail_frozen_client.py', 'tail_frozen_worker.mjs', 'tail_frozen_geometry.mjs',
+-        'strong_frozen_calibration_factory.mjs')
++        'strong_frozen_calibration_factory.mjs', 'strong_actual_recorded_tail_port.py')
+     hashes = {str(HERE/name): sha(HERE/name) for name in source_names}
+     for path in (options.actual_reference, options.actual_reference_raw, options.actual_reference_tail,
+             options.frozen_reference_ready, options.frozen_calibration_ledger):
+@@ -237,6 +249,9 @@
+             hashes[str(path)] = sha(path)
+     if options.tail_warm_checkpoint:
+         hashes[str(options.tail_warm_checkpoint)] = sha(options.tail_warm_checkpoint)
++    if options.initial_audited_tail_packet:
++        for path in (options.initial_audited_tail_packet, options.initial_audited_tail_ready):
++            hashes[str(path)] = sha(path)
+     original_actual = (HERE/'root_actual_neck_bvp.py').read_text()
+     old_client = "'stored-resumable':HERE/'tail_resumable_client.py',"
+     new_client = "'stored-resumable':HERE/'tail_frozen_client.py',"
+@@ -260,6 +275,12 @@
+         collocation_batch_size=options.collocation_batch_size, point_cache_limit=options.point_cache_limit,
+         tail_config_io_changes={key: config[key] for key in io_keys},
+         explicit_same_H_tail_warm_recovery=tail_warm_info,
++        exact_initial_audited_tail_reuse=dict(packet=str(options.initial_audited_tail_packet),
++            ready=str(options.initial_audited_tail_ready), exact_H_only=True,
++            changed_H_requires_original_live_solve=True,
++            release_worker_between_responses=options.release_tail_worker_between_responses,
++            audit_every_live_response=options.release_tail_worker_between_responses)
++            if options.initial_audited_tail_packet else None,
+         local_inspection_only=bool(options.inspect_local_output),
+         unsolved_warm_inspection_only=bool(options.inspect_warm_output),
+         explicit_unaccepted_iterate_recovery=str(options.resume_actual_iterate) if options.resume_actual_iterate else None)
+@@ -494,6 +515,12 @@
+             bounded.adapter.TRANSFORMS[path.name] = provenance['source_transform']
+         else:
+             loaded = original_loader(name, path)
++        if path.name == 'tail_frozen_client.py' and options.initial_audited_tail_packet:
++            from strong_actual_recorded_tail_port import make_port_class
++            loaded.WeightedTailPort = make_port_class(loaded.WeightedTailPort,
++                options.initial_audited_tail_packet, options.initial_audited_tail_ready,
++                Path(argument('--source-topic')),
++                release_between_responses=options.release_tail_worker_between_responses)
+         if path.name == 'root_domain_newton.py':
+             checkpoints.install_observer(loaded, path, bounded.adapter, recorder)
+         if path.name != 'root_dual_core_bvp.py':

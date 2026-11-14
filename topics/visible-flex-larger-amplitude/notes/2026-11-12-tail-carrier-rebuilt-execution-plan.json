@@ -1,0 +1,232 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Prepared reconstruction and new carrier experiment; no new execution claimed",
+  "base_commit": "cb6b2058a1c288ee9d3b90a3033fdcd3050d4338",
+  "scope": "Only cell0/seg7/part0. Preserve old selected 8594-leaf candidate until a complete new certificate supports replacement.",
+  "source_manifest": [
+    {
+      "path": "notes/2026-11-12-tail-background-carrier-compatible-interpolation.md",
+      "sha256": "f3f86cec420575ed030fb808b2a07313b59ef7a23f0d092e0b6ad0de5dfcee56",
+      "bytes": 15035,
+      "git_blob": "8860c6e1d3ab752c545f178ef9cc31e6bffedfef"
+    },
+    {
+      "path": "computations/tail_outer_physical_substage_moments_rebuilt.py",
+      "sha256": "bfeaa1457e69619266cb0b751d39e93e4e50dd2caec376e3b7d8b925505ebcd3",
+      "bytes": 22205,
+      "git_blob": "081aebd71f7eaff918c08d4bfdbb5c56ecb1c4ff"
+    },
+    {
+      "path": "computations/tail_outer_physical_substage_candidate_rebuilt.py",
+      "sha256": "f69411f1f9d5bdf2d893ce8e40d356a08d6d9a73e06acbced18733f7cfdcae20",
+      "bytes": 21975,
+      "git_blob": "f8e02a503b0c690d746d46a43a2bd80f96a3695b"
+    },
+    {
+      "path": "computations/tail_outer_background_carrier_integral.py",
+      "sha256": "57c4106d087ff8d8483a63ef6d3f3ff01bd6b74fdf41e3d2d301cb25d8d34c3e",
+      "bytes": 14772,
+      "git_blob": "87dd6ebc418831328d9b79eea33816ef2f47734c"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "sha256": null,
+      "validation": "Read recorded original SHA from published composition/candidate dependency; not fabricated here"
+    },
+    {
+      "path": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "validation": "Exact known checksum; recheck actual bytes"
+    }
+  ],
+  "original_success_history": {
+    "moment_session": "64415",
+    "audit_session": "12337",
+    "both_formal_exit_zero": true,
+    "outputs_not_pushed_and_now_unavailable": true,
+    "historical_new_physical_upper": 0.010949330490277454,
+    "old_part0_selected_upper": 0.006695148544075824,
+    "historical_signed_new_physical_J_diagnostic_executed": false
+  },
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "cwd": "topics/visible-flex-larger-amplitude",
+    "python": "Repository pinned Python environment with python-flint; record actual version"
+  },
+  "preflight": {
+    "AST_and_frozen_guard_verification_on_actual_runner_required": true,
+    "complete_original_input_path_bindings_preserved": true,
+    "do_not_edit_original_JSON_to_rename_paths": true,
+    "restore_read_only_aliases_if_old_absolute_dependencies_require_them": true,
+    "all_source_text_under_100KB": true
+  },
+  "commands": [
+    {
+      "name": "physical_moments",
+      "command": [
+        "python",
+        "-B",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID-resource.json",
+        "--",
+        "python",
+        "-B",
+        "computations/tail_outer_physical_substage_moments_rebuilt.py",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--first-part",
+        "0",
+        "--stop-part",
+        "1",
+        "--order",
+        "16",
+        "--precision",
+        "224",
+        "--remainder-bits",
+        "48",
+        "--max-u-span",
+        "1/64",
+        "--max-rx-ratio",
+        "2",
+        "--max-panels-per-part",
+        "8192",
+        "--rss-limit-mib",
+        "40",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID"
+      ],
+      "summary": "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID-summary.json",
+      "resource": "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID-resource.json",
+      "prefix": "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID"
+    },
+    {
+      "name": "physical_full_J",
+      "command": [
+        "python",
+        "-B",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-r1-RUN_ID-resource.json",
+        "--",
+        "python",
+        "-B",
+        "computations/tail_outer_physical_substage_candidate_rebuilt.py",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--moment-summary",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID-summary.json",
+        "--moment-resource",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID-resource.json",
+        "--mode",
+        "physical",
+        "--rss-limit-mib",
+        "40",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-r1-RUN_ID"
+      ],
+      "summary": "notes/2026-11-12-tail-carrier-recovery-physical-audit-r1-RUN_ID-summary.json",
+      "resource": "notes/2026-11-12-tail-carrier-recovery-physical-audit-r1-RUN_ID-resource.json",
+      "prefix": "notes/2026-11-12-tail-carrier-recovery-physical-audit-r1-RUN_ID"
+    },
+    {
+      "name": "carrier_integral_only",
+      "command": [
+        "python",
+        "-B",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-positive-A-r1-RUN_ID-resource.json",
+        "--",
+        "python",
+        "-B",
+        "computations/tail_outer_background_carrier_integral.py",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--moment-summary",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID-summary.json",
+        "--moment-resource",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-r1-RUN_ID-resource.json",
+        "--baseline-audit",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-r1-RUN_ID-summary.json",
+        "--baseline-audit-resource",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-r1-RUN_ID-resource.json",
+        "--order",
+        "16",
+        "--precision",
+        "224",
+        "--remainder-bits",
+        "48",
+        "--max-subpanels",
+        "100000",
+        "--rss-limit-mib",
+        "40",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-positive-A-r1-RUN_ID"
+      ],
+      "summary": "notes/2026-11-12-tail-carrier-positive-A-r1-RUN_ID-summary.json",
+      "resource": "notes/2026-11-12-tail-carrier-positive-A-r1-RUN_ID-resource.json",
+      "prefix": "notes/2026-11-12-tail-carrier-positive-A-r1-RUN_ID"
+    },
+    {
+      "name": "carrier_full_J",
+      "command": [
+        "python",
+        "-B",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-r1-RUN_ID-resource.json",
+        "--",
+        "python",
+        "-B",
+        "computations/tail_outer_physical_substage_candidate_rebuilt.py",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--moment-summary",
+        "notes/2026-11-12-tail-carrier-positive-A-r1-RUN_ID-summary.json",
+        "--moment-resource",
+        "notes/2026-11-12-tail-carrier-positive-A-r1-RUN_ID-resource.json",
+        "--mode",
+        "carrier",
+        "--rss-limit-mib",
+        "40",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-r1-RUN_ID"
+      ],
+      "summary": "notes/2026-11-12-tail-carrier-part0-fullJ-r1-RUN_ID-summary.json",
+      "resource": "notes/2026-11-12-tail-carrier-part0-fullJ-r1-RUN_ID-resource.json",
+      "prefix": "notes/2026-11-12-tail-carrier-part0-fullJ-r1-RUN_ID"
+    }
+  ],
+  "source_text_only_checks": {
+    "known_sha256_implementation_verified_against_abc": true,
+    "also_verified_against_frozen_R85_source_67ac79f4": true,
+    "known_imported_source_guards_match": 8,
+    "numerical_or_python_execution": false
+  },
+  "numerical_identity": {
+    "physical_mode": "New physical-r quartic from original shared physical jets; no old source-x coefficient intersection.",
+    "carrier_mode": "New F=HL+a(r-rL)+b A(r) plus positive-moment residual. a=m²HL/rL, b=wL(HrL-a), A=integral dr/w.",
+    "fixed_background": true,
+    "all_cap_sign_branches": true,
+    "only_added_carrier_integral": true,
+    "all_actual_nonmean_derivatives": true,
+    "complete_R64_mean": true,
+    "full_J_modes_through_80": true,
+    "R77_every_continuous_leaf": true,
+    "one_global_mean_height_constant": true,
+    "mean_height_change_bound_not_zero": true,
+    "no_ODE_or_Node": true,
+    "no_complete_outer_existence_claim": true
+  },
+  "recovery_policy": "Every stage has independent formal wait4 resource and fresh prefix; preserve all failures. Never infer unknown status or recreate lost numerical output from chat. Future source corrections use explicit provenance/version and genuine rerun.",
+  "next_after_complete": "Compare complete physical and carrier first-part bounds and signed Fourier witnesses. Only then choose next representation or same-candidate enclosure refinement; do not automatically run remaining seven parts."
+}

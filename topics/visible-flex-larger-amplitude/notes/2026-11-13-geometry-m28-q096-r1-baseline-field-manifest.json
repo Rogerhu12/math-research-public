@@ -1,0 +1,68 @@
+{
+  "schema": "complete-geometry-chunks-v1",
+  "dtype": "float64",
+  "shape": [
+    3383,
+    384,
+    3
+  ],
+  "chunks": [
+    {
+      "file": "geometry-baseline-field-part000.npy.gz",
+      "start": 0,
+      "end": 434,
+      "bytes": 1615876,
+      "sha256": "a4bed5eb1e8c16b7b01f681ce92ff22d56caaca8ae682d06153a502ae19aacac"
+    },
+    {
+      "file": "geometry-baseline-field-part001.npy.gz",
+      "start": 434,
+      "end": 868,
+      "bytes": 1573370,
+      "sha256": "efa24d72b335ae5b9cd7c9e2fe2a7ff41270913b7bf187476f2c8996b904d686"
+    },
+    {
+      "file": "geometry-baseline-field-part002.npy.gz",
+      "start": 868,
+      "end": 1302,
+      "bytes": 1568367,
+      "sha256": "3b4756895aab6304141b5bb96f125d6bc8b0e7e53363a7a950504670476a89bf"
+    },
+    {
+      "file": "geometry-baseline-field-part003.npy.gz",
+      "start": 1302,
+      "end": 1736,
+      "bytes": 1549642,
+      "sha256": "bb0e81c1cf5a814edb6a907e7235984533cf3c749612141513b5b6e164cb287c"
+    },
+    {
+      "file": "geometry-baseline-field-part004.npy.gz",
+      "start": 1736,
+      "end": 2170,
+      "bytes": 1491188,
+      "sha256": "9da267ec668688fa3300ff5b54ce84d71aa1f55d88584dbd7ca96e434b45efac"
+    },
+    {
+      "file": "geometry-baseline-field-part005.npy.gz",
+      "start": 2170,
+      "end": 2604,
+      "bytes": 1422888,
+      "sha256": "47b6f8cd902039a0c595c0cdbea04751d107779afb80755620502a83170b80bd"
+    },
+    {
+      "file": "geometry-baseline-field-part006.npy.gz",
+      "start": 2604,
+      "end": 3038,
+      "bytes": 1377302,
+      "sha256": "46113edc037f4e168102faa6879c5fcd093e6f5f04136b437cbee5b723bfe1ec"
+    },
+    {
+      "file": "geometry-baseline-field-part007.npy.gz",
+      "start": 3038,
+      "end": 3383,
+      "bytes": 979703,
+      "sha256": "296561912bf068cd2c5db55df99fa856065a25720e8bae9cda2578a4f6b7a868"
+    }
+  ],
+  "complete": true
+}

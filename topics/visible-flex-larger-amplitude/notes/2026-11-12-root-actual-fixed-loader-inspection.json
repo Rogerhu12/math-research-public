@@ -1,0 +1,80 @@
+{
+  "scope": "Exercise the real bounded/fixed/actual loader without a tail or BVP.\n\nUses the successful physical warm trajectory. A synthetic affine tail map\nis used only to verify the fixed-g terminal parameter derivative. No actual\nnonlinear D-N result is produced by this inspection.\n",
+  "fixed_metric": true,
+  "nonlinear_BVP_run": false,
+  "tail_worker_started": false,
+  "warm_nodes": 937,
+  "modes": 20,
+  "angular": 512,
+  "checks": [
+    {
+      "column": 0,
+      "normalized_boundary_derivative_error": 1.259222149985555e-10,
+      "interior_rhs_bitwise_parameter_independent": true,
+      "actual_same_flow_object": true,
+      "terminal_parameter_column_exactly_zero": true
+    },
+    {
+      "column": 1,
+      "normalized_boundary_derivative_error": 4.220118592043233e-11,
+      "interior_rhs_bitwise_parameter_independent": true,
+      "actual_same_flow_object": true,
+      "terminal_parameter_column_exactly_zero": true
+    },
+    {
+      "column": 2,
+      "normalized_boundary_derivative_error": 5.6623651730966507e-11,
+      "interior_rhs_bitwise_parameter_independent": true,
+      "actual_same_flow_object": true,
+      "terminal_parameter_column_exactly_zero": true
+    },
+    {
+      "column": 19,
+      "normalized_boundary_derivative_error": 6.907238926690292e-11,
+      "interior_rhs_bitwise_parameter_independent": true,
+      "actual_same_flow_object": true,
+      "terminal_parameter_column_exactly_zero": true
+    }
+  ],
+  "fixed_metric_provenance": {
+    "fixed_reference": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+    "fixed_reference_sha256": "7d9ff26ec1f33106e1ea341a6711004d076bfa9dbb181b99b0e1507449cb297e",
+    "physical_profile_sha256": "ce2e846785d66035829661936eefd0d7d120310a7bc44ba538365ae1860ec0b4",
+    "physical_tail_parameters_sha256": "20a7621928d095a30825ddfd147311a186859c200604feaf5186c5734f8b74c8",
+    "physical_cut_sha256": "bfd7667d03eeae4ac7fee31c7ecffd5d798592311938d0f27631db5562136427",
+    "chart_reference_coefficients": [
+      0.085,
+      -0.006010407640085654
+    ],
+    "chart_reference_frequencies": [
+      2,
+      4
+    ],
+    "gauge_amplitude": 0.085,
+    "physical_length": 3.1246545795916627,
+    "port_verification": {
+      "kind": "identical_file",
+      "sha256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100"
+    },
+    "adapter_sha256": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "radial_batching_sha256": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "radial_batch_size": 48,
+    "scope": "Physical metric and reference chart frozen. Core coefficients are solved fields, not changed design controls. Finite tail only."
+  },
+  "actual_context": {
+    "actual_nonlinear_tail": true,
+    "tail_config_sha256": "789357e87a8579c564f26fe75460e276176aae6c5a8b4d151081a631c1bfa5fd",
+    "client": "stored-resumable",
+    "coupling": "outer",
+    "actual_tail_tolerance": 1e-10
+  },
+  "counts": {
+    "inspections": 1,
+    "tail_start_attempts": 0
+  },
+  "memory": {
+    "peak_rss_kib": 142236,
+    "rss_kib": 105656
+  },
+  "script_sha256": "b5c27e82617f55b53d75d6763127b4abea80cd0ca56316615d8a9cd718575b7e"
+}

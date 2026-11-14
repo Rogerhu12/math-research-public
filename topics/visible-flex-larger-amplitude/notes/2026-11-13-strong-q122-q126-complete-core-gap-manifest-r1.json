@@ -1,0 +1,59 @@
+{
+  "schema": "actual-complete-core-gap-comparison-archive-v1",
+  "scope": "Compare the same complete-core axis formula in two actual endpoints.\n\nAI-assisted research, strong_recovery, 2026-11-13.\nThe core coefficients are read from original, genuinely accepted M32 files.\nFor h(phi)=1+sum_j c_j cos(2*j*phi), the exact saved-coefficient axis\ndifference is h(0)-h(pi/2)=2*sum_{j odd} c_j. Exact rational arithmetic\nhere concerns only these stored binary coefficients, not a continuum BVP.\nThe previously saved finite-set witness is separately identified as the\nunsolved A warm field. It is neither the earlier q122 actual core value nor\nthe whole closed-surface Hausdorff amplitude or rigidly registered delta_E.\n",
+  "created_utc": "2026-11-13T17:32:56.667961+00:00",
+  "original_owned_exitcode": 0,
+  "all_checks": true,
+  "check_count": 22,
+  "same_complete_core_formula": true,
+  "q_coordinate_not_claimed_as_full_amplitude": true,
+  "warm_input_archive": {
+    "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-prepared-core.json",
+    "sha256": "4caafe07078dd2bce737f68ea878ad0c8dce5f23809aba81bb5af7f8dd8f525a",
+    "identical_archival_files": [
+      "notes/2026-11-13-strong-fine-q126-q130-full-core-inlet-r1-q126-prepared-core.json"
+    ]
+  },
+  "actual_accepted_manifest": {
+    "file": "notes/2026-11-13-strong-q126-m32-accepted-recovery-manifest-r1.json",
+    "sha256": "3e13322c21e0fcd5cb3b09b7b483260e8433632ef8828d3092dd595697795ecb"
+  },
+  "files": [
+    {
+      "file": "computations/strong_compare_complete_core_axis_gap.py",
+      "sha256": "2f75d4e0c4da9603c5f4dae72b99ecbdec2ca43ce777eea007e49fac5e776525",
+      "bytes": 8069,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_compare_complete_core_axis_gap.py"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-complete-core-gap-r1-heartbeat.json",
+      "sha256": "301ba6b96cb3e428c5fc7c9caf8b8fe5597881f132bd3e67a1778567e2f2a71c",
+      "bytes": 301,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-complete-core-gap-r1-heartbeat.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-complete-core-gap-r1-ownership.json",
+      "sha256": "6bce9df2b30564428e1ed6ee277212add9d583dfd3e1467f7cc62097d737075f",
+      "bytes": 2008,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-complete-core-gap-r1-ownership.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-complete-core-gap-r1-resource.json",
+      "sha256": "f06667010eeb498e456879e1651e52c17954292c110bfb83495960ecebf30e32",
+      "bytes": 1815,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-complete-core-gap-r1-resource.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-complete-core-gap-r1-stdout.log",
+      "sha256": "cb4475e9926fc15241163b250fe2d25164d4aa8167f0e143bc9354c6ac146b49",
+      "bytes": 2099,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-complete-core-gap-r1-stdout.log"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-complete-core-gap-r1.json",
+      "sha256": "4138577e762519cae0b490c302968797ea909576dd11d120fef82a16737d0854",
+      "bytes": 14686,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-complete-core-gap-r1.json"
+    }
+  ]
+}

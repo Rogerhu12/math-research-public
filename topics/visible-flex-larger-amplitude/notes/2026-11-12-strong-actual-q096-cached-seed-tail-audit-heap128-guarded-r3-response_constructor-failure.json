@@ -1,0 +1,14 @@
+{
+  "event": "owned_tail_constructor_failure_cleanup",
+  "error": "RuntimeError('Original stored tail worker initialization failed')",
+  "constructor_returned_successfully": false,
+  "new_tail_response": false,
+  "helper_sha256": "6f51a896e44aff8aa8a2f66a71320b68f15d279ec2a8e2ee0e3093cedf0696a3",
+  "mathematical_worker_sources_and_protocol_unchanged": true,
+  "owned_child_pid": 7,
+  "returncode_before_original_close": -9,
+  "returncode_after_original_close": -9,
+  "observed_final_child_returncode": -9,
+  "seconds": 75.46906846800266,
+  "waited_children_peak_rss_kib": 241856
+}

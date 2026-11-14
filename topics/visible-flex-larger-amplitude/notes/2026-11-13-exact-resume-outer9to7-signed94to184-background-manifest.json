@@ -1,0 +1,102 @@
+{
+  "schema": "original-cell9-new-signed-low46-inputs-v1",
+  "inputs": {
+    "ready": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    },
+    "material": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/outer-cell9-material-r1-manifest.json",
+      "sha256": "78dc58b9c8173e1ba5d4dafc8fc8225ab5c987411b100b99f15ea476929ae82e"
+    },
+    "material_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/outer-cell9-material-r1-resource.json",
+      "sha256": "e7a5bfef7096d0d85a7610f75bf4b746acb79421e74e89778f88236bd43c96b3"
+    },
+    "old_physical_flow": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/2026-11-12-closure-outer-physical-low46-r1.json",
+      "sha256": "d1078b0bd4795f99aaa87c32efe7577f6aef52e8909b8ac1460f058d39b317f3"
+    },
+    "old_physical_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/2026-11-12-closure-outer-physical-low46-r1-resource.json",
+      "sha256": "f3f0b1f9374b7f7f9d632f4e0a28f3f8a4578773fe2313dfeb8452f10973e725"
+    },
+    "signed_geometry": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/geometry-v3.json",
+      "sha256": "7b785c177478d2b960172f85286005bcc6dbdcc2de5eb2cec56bffad6c998e5d"
+    },
+    "signed_geometry_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/geometry-v3-resource.json",
+      "sha256": "622387fe815525e1203b83e788f92381178ef52f202a0c06bc96930ca04f1f60"
+    },
+    "R119_errors": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/full-linear-true-cut-r1.json.gz",
+      "sha256": "716174c9cf639c712064e64249da42aededb3c983038157ab2df67a5660063fe"
+    },
+    "R141_full_field": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/restricted-outer-r6-cont-r1-certificate.json.gz",
+      "sha256": "b9acf8f7492f9f85f9cf010868d61348082b8cd4e1e11d12d5b195f9f97f3582"
+    },
+    "R141_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/restricted-outer-r6-cont-run1-resource.json",
+      "sha256": "98a01bed66c8d3116272abd6e90908804a3642f678f4ec4f715aba9e827d7f5e"
+    },
+    "old_last_source": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/full-linear-r1-cell010-segment8-part000.json.gz",
+      "sha256": "565eb6a5568f684f1de0d3bc6645b71c83f44a33257435ce87fb0c3bd599cb81"
+    }
+  },
+  "source_files": [
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_split_joint_io_v2.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_split_joint_io_v2.py",
+      "sha256": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_split_joint_io.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_split_joint_io.py",
+      "sha256": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_outer_physical_trace_flow.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_outer_physical_trace_flow.py",
+      "sha256": "d919902557b3c5c17e6e68602ba86f3b3852207057c3a2ea1468b08ecae4cc5e"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/tail_r33_middle_ordered_physical.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/tail_r33_middle_ordered_physical.py",
+      "sha256": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_real_linear_head_enclosure.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_real_linear_head_enclosure.py",
+      "sha256": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_projective_interval_column.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_projective_interval_column.py",
+      "sha256": "45997a1d5be6326a1ebbe85ac4240ea7d9dde1c2fb6acdf832460dade89e4f97"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_real_head_source_enclosure.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_real_head_source_enclosure.py",
+      "sha256": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_real_head_green_enclosure.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_real_head_green_enclosure.py",
+      "sha256": "4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_taylor_cut_slope_v2.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_taylor_cut_slope_v2.py",
+      "sha256": "8e150b6fe16c33da98043bc7ebe952abf123e2f7c8da8ebbfb10bfec700fb5ea"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/sources/closure_outer_taylor_shared_flow.py",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/closure_outer_taylor_shared_flow.py",
+      "sha256": "81d8bd9ad3da434eb8ab98d381a32a09bbe7aca5fa3be8a0bfe493ccd62455b7"
+    }
+  ],
+  "scope": "New original-cell9 linear propagation only; no rerun of the successful cell11/10 flow."
+}

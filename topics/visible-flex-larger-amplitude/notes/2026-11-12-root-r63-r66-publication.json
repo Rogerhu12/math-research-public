@@ -1,0 +1,60 @@
+{
+  "schema": "topic-publication/v1",
+  "observed_utc": "2026-11-12T15:53:51Z",
+  "session_id": 41297,
+  "formal_exit_code": 0,
+  "source": "b9db5d3986da1b6c1316d5bc7fec8efdf02f6dcb",
+  "base": "50ccd8a6156b04c87d3dc655ae79345c834657f5",
+  "published": "69ea15554536fc49d80035ce0847e98ea0b84e68",
+  "readme_reviewed": "9baee4afd1506b8a54f4af087bd75b06d499174e",
+  "synchronizations": [
+    {
+      "operation": "pull --ff-only",
+      "head": "9123336c5e7ba9a2431645a460562f16b888f9ca",
+      "readme_changed": false,
+      "utc": "2026-11-12T15:48:38.951788+00:00",
+      "readme_reviewed": "9123336c5e7ba9a2431645a460562f16b888f9ca"
+    },
+    {
+      "operation": "fetch --filter=blob:none",
+      "head": "dd2bda7038f7a668dde75962e6beab03af4c57bc",
+      "readme_changed": false,
+      "utc": "2026-11-12T15:48:44.929262+00:00",
+      "readme_reviewed": "dd2bda7038f7a668dde75962e6beab03af4c57bc"
+    },
+    {
+      "operation": "fetch --filter=blob:none",
+      "head": "9baee4afd1506b8a54f4af087bd75b06d499174e",
+      "readme_changed": false,
+      "utc": "2026-11-12T15:48:58.389243+00:00",
+      "readme_reviewed": "9baee4afd1506b8a54f4af087bd75b06d499174e"
+    }
+  ],
+  "ordinary_main_attempts": [
+    {
+      "attempt": 1,
+      "fetched": "dd2bda7038f7a668dde75962e6beab03af4c57bc",
+      "candidate": "32f01fe565d449876603e86d6706bda42193642f",
+      "push_exit": 1
+    },
+    {
+      "attempt": 2,
+      "fetched": "9baee4afd1506b8a54f4af087bd75b06d499174e",
+      "candidate": "69ea15554536fc49d80035ce0847e98ea0b84e68",
+      "push_exit": 0
+    }
+  ],
+  "cache_deletions": [
+    {
+      "branch": "agent-visible-larger-cache-b9db5d3986da1b6c1316",
+      "verified_tip": "4a9a16edd5316d99fca4901c3369a5d8670dad4c",
+      "deleted": true
+    },
+    {
+      "branch": "agent-visible-larger-cache-19ada05e96837a8e8ef4",
+      "verified_tip": "16646b602196a36747028c26114a0cc60b49161b",
+      "deleted": true
+    }
+  ],
+  "scope": "Combined source19+b9; R63-R66, complete combined warm field, q105 saved0003/termination, q096 preparation/failure, complete-core-gap diagnostic. No new accepted q096 or closed surface claimed."
+}

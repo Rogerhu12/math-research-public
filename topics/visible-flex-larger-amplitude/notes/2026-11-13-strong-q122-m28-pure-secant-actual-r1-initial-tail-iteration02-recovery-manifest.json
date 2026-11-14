@@ -1,0 +1,98 @@
+{
+  "scope": "Original actual q122 first new-H tail accepted Newton trial 2 recovery only. Its reported complete nonlinear residual is below the original tolerance, but the final variational pass/full J remains live; no completed tail response, prefix BVP, physical audit or closed-family claim.",
+  "created_utc": "2026-11-13T11:14:55.668149+00:00",
+  "actual_iteration": {
+    "iteration": 2,
+    "norm": 1.499946469287228e-09,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 1,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  },
+  "complete_states_shape": [
+    577,
+    56
+  ],
+  "complete_raw_indices_checked": true,
+  "all_values_finite": true,
+  "normalized_non_IO_physical_and_numerical_parameters_exactly_equal_to_accepted_reference": true,
+  "normalized_parameter_reference": {
+    "file": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_0003.json.gz",
+    "sha256": "4334640495f0b73123db9eacad836f1ed3ef24391a4b6f10f3456c79aed98040"
+  },
+  "parameter_identity_note": "Compare the complete original solver-normalized checkpoint parameters, as in the production exact-raw adapter. The unnormalized CLI config intentionally omits derived constants and uses physical depth 8, while the solver checkpoint carries depth 576 and physicalDepth 8.",
+  "complete_height": [
+    -2.902282837925667e-05,
+    2.94040847890916e-08,
+    5.3558522410873096e-11,
+    3.181852872722985e-12,
+    2.187378145773883e-13,
+    3.874540092864188e-14,
+    -1.802409718374321e-15,
+    -2.8086205681181916e-16,
+    -8.902232780902334e-18,
+    -9.995648353113782e-18,
+    -6.512614435095846e-18,
+    -7.264417025301723e-18,
+    -1.3337562314203122e-17,
+    -1.4125662072174082e-18,
+    -2.1863773090944796e-17,
+    1.2664177586503808e-18,
+    -8.432103088430705e-18,
+    -6.077778356230548e-19,
+    -1.5285561682024484e-17,
+    -9.277295336245058e-18,
+    7.758827650422432e-18,
+    1.461308098366216e-17,
+    -2.117251571103722e-17,
+    -8.777249077903976e-18,
+    -7.66777211421977e-18,
+    1.242597188415105e-17,
+    3.09766195994968e-17,
+    7.56869720165065e-18
+  ],
+  "original_trial_trace_events": [
+    {
+      "time": "2026-11-13T11:12:56.110Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 965665,
+      "iteration": 2,
+      "norm": 1.499946469287228e-09,
+      "phase": "accepted-trial-recovery-only",
+      "acceptedFromIteration": 1,
+      "acceptedTrial": 0,
+      "acceptedStep": 1
+    }
+  ],
+  "trace_snapshot_original_sha256": "6c890ca561758bbb92e617a2ae7d810f48856a9a36a2947132fb97bd4fcf9dfb",
+  "launch_plan": {
+    "file": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-launch-plan.json",
+    "sha256": "5025786adf96235556179121871b9990a1d691d385e7af518224cb64832bc740"
+  },
+  "actual_run_unchanged": true,
+  "final_full_J_and_original_all_acceptance_gates_still_required": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-initial-tail-iteration02-recovery.json.gz",
+      "bytes": 329851,
+      "sha256": "c1d5525994f445547294d9135ca5e70331ab31c528904e072c8bd86e0d010cf7"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-config.json",
+      "bytes": 2920,
+      "sha256": "e74ed95609bb024ab638bfbe44133edfa6031f443deb2729ab0a2db2e53fa330"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-base-profile.json",
+      "bytes": 536,
+      "sha256": "8a4e594995de9046388bb93b29850271f2f3263d0f8039c8b02105e3cf2393ec"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-initial-tail-iteration02-trace.jsonl.gz",
+      "bytes": 178632,
+      "sha256": "b3c918893bdb1d0d25abdd8dc97ad2ddc1f531a25affd4c99b11342ebd65489a"
+    }
+  ],
+  "total_bytes": 511939
+}

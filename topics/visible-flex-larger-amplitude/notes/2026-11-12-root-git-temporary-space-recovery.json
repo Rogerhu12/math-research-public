@@ -1,0 +1,34 @@
+{
+  "observed_failure": {
+    "session": 89760,
+    "formal_exit": 1,
+    "operation": "git commit-tree",
+    "message": "unable to create temporary file: No space left on device"
+  },
+  "not_intentionally_interrupted": true,
+  "subsequent_disk_usage": {
+    "total": 67586535424,
+    "used": 56189186048,
+    "free": 7944601600
+  },
+  "inode_followup": "df -i reported 8% used; global free bytes later exceeded 7GB. Root cause not established.",
+  "live_solver_files_untouched": true,
+  "removed_owned_stale_git_temporary_files": [
+    {
+      "path": "/workspace/scratch/c0de65fac774/math-research-publish/.git/objects/pack/tmp_pack_ViJDwJ",
+      "bytes": 249872383,
+      "sha256": "f26c8afdc29289baa2c7d58b10a4ec210d64043c6f8ba8dafcfc1462b1ca38d9",
+      "mtime_utc": "2026-11-12T14:23:40.598222+00:00",
+      "reason": "Unindexed temporary pack in the dedicated owned publisher, predating the now formally terminated publisher; no active publisher remains. Re-fetchable remote Git data, not research primary data."
+    },
+    {
+      "path": "/workspace/scratch/c0de65fac774/math-research-publish/.git/objects/pack/tmp_pack_wraZe8",
+      "bytes": 2970744,
+      "sha256": "7e7ed1fef8d2453bcce0f78fc82ba2cce5c3c83f5f369ccb3add058fdf6dc22c",
+      "mtime_utc": "2026-11-12T11:15:19.571799+00:00",
+      "reason": "Unindexed temporary pack in the dedicated owned publisher, predating the now formally terminated publisher; no active publisher remains. Re-fetchable remote Git data, not research primary data."
+    }
+  ],
+  "cleanup_completed_utc": "2026-11-12T15:09:24.550673+00:00",
+  "bytes_removed": 252843127
+}

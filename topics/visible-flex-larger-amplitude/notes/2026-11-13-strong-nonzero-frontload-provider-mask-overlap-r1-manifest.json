@@ -1,0 +1,40 @@
+{
+  "schema": "actual-frontload-provider-mask-overlap-compact-archive-v1",
+  "files": [
+    {
+      "path": "computations/strong_frontload_provider_mask_overlap_bridge.py",
+      "sha256": "c4191fab1a222d3dad04b1d18cd237f0c1a970b8188dc44403000080dc28c628",
+      "bytes": 12865,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_provider_mask_overlap_bridge.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-provider-mask-overlap-r1-certificate.json",
+      "sha256": "ea0922ae5acb791598b5348d379618c1de2fa8312670d179b2a4bc9f334ebba1",
+      "bytes": 49069,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-provider-mask-overlap-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-provider-mask-overlap-r1-resource.json",
+      "sha256": "9d225a4446e1a1a4634a99a190861ea435e6cca5ba577d21d3ced182e5cbec43",
+      "bytes": 1517,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-provider-mask-overlap-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-provider-mask-overlap-r1-proof.md",
+      "sha256": "35de94c16294e44ee27c956e02e1748666d0ca51dc9f3f9763e1d91502712eb7",
+      "bytes": 6059,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-provider-mask-overlap-r1-proof.md"
+    }
+  ],
+  "total_bytes": 69510,
+  "all_owned_outcomes_verified": true,
+  "input_kind": "completed-unsolved-warm",
+  "gate_count": 116,
+  "complete_internal_mask_bands": 10,
+  "actual_provider_endpoint_evaluations": 10,
+  "entire_bands_proved_by_sign_and_derivative_bounds": true,
+  "prefix_bridge_dispatcher_and_material_chart_separate": true,
+  "new_ODE_RHS_Flow_Node_Newton_calls": 0,
+  "original_candidate_or_target_g_modified": false,
+  "complete_surface_mean_or_closed_D_certified": false
+}

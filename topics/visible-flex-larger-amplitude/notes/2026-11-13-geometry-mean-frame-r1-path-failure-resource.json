@@ -1,0 +1,22 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/tail_carrier_mean_frame_recovery_v5.py",
+    "--topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--pinned-source",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source",
+    "--out-prefix",
+    "/tmp/vfla-20261113-geometry/mean-frame-r1",
+    "--rss-limit-mib",
+    "96"
+  ],
+  "wall_seconds": 0.7796461582183838,
+  "exitcode": 1,
+  "termination_signal": null,
+  "peak_rss_kib": 33804,
+  "user_seconds": 0.718637,
+  "system_seconds": 0.056495,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

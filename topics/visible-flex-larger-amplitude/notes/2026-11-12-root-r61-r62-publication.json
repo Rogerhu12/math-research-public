@@ -1,0 +1,35 @@
+{
+  "source": "ff1dad26aa9d3ca24806abc2fda58e17f570eee1",
+  "published": "50ccd8a6156b04c87d3dc655ae79345c834657f5",
+  "read": "dc13666781ef34d2929baa6ca398862e942807f1",
+  "ordinary_push": true,
+  "formal_session": 93774,
+  "formal_exit": 0,
+  "main_attempts": 2,
+  "cache_refs_deleted": true,
+  "synchronizations": [
+    {
+      "operation": "pull --ff-only",
+      "head": "846db04cbbc0223baf38236893e70c57fabbbd23",
+      "readme_changed": false,
+      "utc": "2026-11-12T15:13:54.865318+00:00",
+      "readme_reviewed": "846db04cbbc0223baf38236893e70c57fabbbd23"
+    },
+    {
+      "operation": "fetch --filter=blob:none",
+      "head": "51a9b81226abe10ee1b398830a527dfb201080a3",
+      "readme_changed": false,
+      "utc": "2026-11-12T15:14:02.839126+00:00",
+      "readme_reviewed": "51a9b81226abe10ee1b398830a527dfb201080a3"
+    },
+    {
+      "operation": "fetch --filter=blob:none",
+      "head": "dc13666781ef34d2929baa6ca398862e942807f1",
+      "readme_changed": false,
+      "utc": "2026-11-12T15:14:16.699384+00:00",
+      "readme_reviewed": "dc13666781ef34d2929baa6ca398862e942807f1"
+    }
+  ],
+  "pack_progress": "Enumerating objects: 13, done.\nCounting objects:   7% (1/13)\rCounting objects:  15% (2/13)\rCounting objects:  23% (3/13)\rCounting objects:  30% (4/13)\rCounting objects:  38% (5/13)\rCounting objects:  46% (6/13)\rCounting objects:  53% (7/13)\rCounting objects:  61% (8/13)\rCounting objects:  69% (9/13)\rCounting objects:  76% (10/13)\rCounting objects:  84% (11/13)\rCounting objects:  92% (12/13)\rCounting objects: 100% (13/13)\rCounting objects: 100% (13/13), done.\nCompressing objects:  20% (1/5)\rCompressing objects:  40% (2/5)\rCompressing objects:  60% (3/5)\rCompressing objects:  80% (4/5)\rCompressing objects: 100% (5/5)\rCompressing objects: 100% (5/5), done.\nWriting objects:  20% (1/5)\rWriting objects:  40% (2/5)\rWriting objects:  60% (3/5)\rWriting objects:  80% (4/5)\rWriting objects: 100% (5/5)\rWriting objects: 100% (5/5), 716 bytes | 716.00 KiB/s, done.\nTotal 5 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)\nremote: Resolving deltas:   0% (0/4)        \rremote: Resolving deltas:  25% (1/4)        \rremote: Resolving deltas:  50% (2/4)        \rremote: Resolving deltas:  75% (3/4)        \rremote: Resolving deltas: 100% (4/4)        \rremote: Resolving deltas: 100% (4/4), completed with 4 local objects.        \n",
+  "prior_git_ENOSPC": "Formal89760exit1; later free space>7GB/inodes8%; 252843127B stale own unindexed temporary packs removed. Cause not established."
+}

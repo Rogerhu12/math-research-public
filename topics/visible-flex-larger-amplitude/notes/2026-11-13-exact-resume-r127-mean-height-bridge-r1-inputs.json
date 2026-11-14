@@ -1,0 +1,107 @@
+{
+  "schema": "same-R127-mean-height-bridge-inputs-v1",
+  "inputs": {
+    "joint_certificate": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/joint1200-r1-certificate.json.gz",
+      "sha256": "36242d95a210e6aee3e38c994d0a70b61fa1fbb2df672a9ab3f4783bcca93ca1",
+      "bytes": 106458,
+      "json": true
+    },
+    "joint_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/joint1200-r1-resource.json",
+      "sha256": "44dec68f3a98e171da24bc907e4767e1b389956bd683d56b287c1517b4ff7a82",
+      "bytes": 909,
+      "json": true
+    },
+    "nonlow_certificate": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/joint1200-inputs/2026-11-13-exact-resume-middle-high-r100-profile-t32-r1.json.gz",
+      "sha256": "7826dfafcdaec5d8ce9b51227aa83ec133c40bb87afa446a4ca3f550d0180c1b",
+      "bytes": 597621,
+      "json": true
+    },
+    "signed_geometry": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/signed-geometry/geometry-v3.json",
+      "sha256": "7b785c177478d2b960172f85286005bcc6dbdcc2de5eb2cec56bffad6c998e5d",
+      "bytes": 178602,
+      "json": true
+    },
+    "moments10": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-cell10-true-moments-taylor-r1-summary.json",
+      "sha256": "8fba81a98e51f5e329a2721cea68f692b70dae927a78926b19afe6ad781e7782",
+      "bytes": 25658,
+      "json": true
+    },
+    "moments10_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-cell10-true-moments-taylor-r1-resource.json",
+      "sha256": "e4b5057329e9187dda2b91e3ee37409007734ef2d1e471db030c1b5f5a8d31a3",
+      "bytes": 1003,
+      "json": true
+    },
+    "moments11": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json",
+      "sha256": "ed68183d518c7abf99c84dd0aeab04b559993f9114d1ee153b1d2ca9c3d3fc4b",
+      "bytes": 22613,
+      "json": true
+    },
+    "moments11_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-resource.json",
+      "sha256": "bd7c22d9ad1553b3fef1a33eda6d98e1728a2a726476e01714b2748150108515",
+      "bytes": 985,
+      "json": true
+    },
+    "source10_8": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment8.json.gz",
+      "sha256": "593b0b24d0920046041531e8c3dc6e4de43ecb5aded8c8214a514c66e9fc4f91",
+      "bytes": 1673,
+      "json": true
+    },
+    "source10_0": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment0.json.gz",
+      "sha256": "9fcdb2a1456a7edde25ad5a08afda3e0df4a1d2add8243601b09f395cecf8603",
+      "bytes": 1703,
+      "json": true
+    },
+    "source11_8": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-outer-source-cell11-r1-segment8.json.gz",
+      "sha256": "616535c981333e37bb946868a5f7edb444154e04be3c0694463b338b9c584518",
+      "bytes": 1595,
+      "json": true
+    },
+    "source11_0": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-outer-source-cell11-r1-segment0.json.gz",
+      "sha256": "e91a3386499aa4dda8783cfd792b6cdd3938720cc6fe502d75fe20addae4127e",
+      "bytes": 1615,
+      "json": true
+    },
+    "proof_R127": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R127-complete-low-middle-high-mixed-boundary-family.md",
+      "sha256": "35b208c7cd98c5536c56c7d9a08d4fd2ea87097d549646dce9ee223125243b2c",
+      "bytes": 12083,
+      "json": false
+    },
+    "proof_R98": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R98-mixed-density-low-middle-high-closure.md",
+      "sha256": "5640e5d92b0b626b111506b0b6d2c97f84824d31e9d860d6cc08b93a9ea4f546",
+      "bytes": 15144,
+      "json": false
+    },
+    "proof_R75": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R75-complete-mean-transport-and-shear-constraint.md",
+      "sha256": "75b3d1b15fd3d3b91ba4015354cd335a8e9e6639ec6a4d3ddf8b5cd65e997148",
+      "bytes": 9705,
+      "json": false
+    },
+    "proof_R41": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R41-exact-angular-connection-inverse.md",
+      "sha256": "ce3234ebe7f848b1aef0ac043015def2a83c35c5a1a7a237552d096c32ba129f",
+      "bytes": 17753,
+      "json": false
+    },
+    "proof_R32": {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R32-height-development-and-global-tail-graph.md",
+      "sha256": "e4c3d735a59d39acaedb492f6bb78b8fa66c470f4cfe2a4e58193192d4868c36",
+      "bytes": 19500,
+      "json": false
+    }
+  }
+}

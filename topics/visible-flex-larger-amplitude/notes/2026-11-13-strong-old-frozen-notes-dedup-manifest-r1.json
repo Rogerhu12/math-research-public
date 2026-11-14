@@ -1,0 +1,47 @@
+{
+  "schema": "immutable-notes-hardlink-maintenance-manifest-v1",
+  "scope": "Hard-link only identical old frozen successful-producer gzip copies.\n\nAI-assisted maintenance, strong_recovery, 2026-11-13.\nParent authorization: old q096/q098/q106/q122 immutable duplicates only;\nexclude A/q126 and the current nine-control data. Both paths and all bytes\nremain. No scientific result, raw recovery, full-flow content, or source is\ndiscarded. No Git command or recomputation is performed.\n",
+  "main_report": {
+    "file": "notes/2026-11-13-strong-old-frozen-notes-dedup-r1.json",
+    "sha256": "c61a056b4b0e37f4f0d0388be935672c1a7e9bc2264db8960ae9d2d8b3846906"
+  },
+  "actual_owned_resource": {
+    "exitcode": 0,
+    "wall_seconds": 8.557181819996913,
+    "peak_rss_kib": 39568
+  },
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-old-frozen-notes-dedup-r1-heartbeat.json",
+      "sha256": "059b9942138fe03e20186ea736a5c2391510499e539855b45a97afa422c14c21",
+      "bytes": 291
+    },
+    {
+      "file": "notes/2026-11-13-strong-old-frozen-notes-dedup-r1-ownership.json",
+      "sha256": "4505e2fb58b48f8a67de0c2612e7efed7a8f2c7cb293f60dcf75a1e4d87d4a5c",
+      "bytes": 1658
+    },
+    {
+      "file": "notes/2026-11-13-strong-old-frozen-notes-dedup-r1-resource.json",
+      "sha256": "e076661027455e02a568dd05afb1085d0eb90f21ef347f6041eafbbe345f0a7f",
+      "bytes": 1462
+    },
+    {
+      "file": "notes/2026-11-13-strong-old-frozen-notes-dedup-r1-stdout.log",
+      "sha256": "c61eeacacd77005fe1e5e7fcfed75010d091302f600393358b9a6d09f94f3c8b",
+      "bytes": 1672
+    },
+    {
+      "file": "notes/2026-11-13-strong-old-frozen-notes-dedup-r1.json",
+      "sha256": "c61a056b4b0e37f4f0d0388be935672c1a7e9bc2264db8960ae9d2d8b3846906",
+      "bytes": 228529
+    },
+    {
+      "file": "computations/strong_deduplicate_frozen_notes.py",
+      "sha256": "9ff75de18b14eda1f1df59f4eb2d7e96b0b631db20b9c795e4a3c999a9bf87b5",
+      "bytes": 7508
+    }
+  ],
+  "total_bytes": 241120,
+  "retained_all_original_scientific_paths_and_bytes": true
+}

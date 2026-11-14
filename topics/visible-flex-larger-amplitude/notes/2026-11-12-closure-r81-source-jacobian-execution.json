@@ -1,0 +1,55 @@
+{
+  "status": "All complete source derivative and actual candidate-boundary rows passed; whole-field Green not yet executed",
+  "author": "exact_closure",
+  "proof": {
+    "path": "results/R81-complete-source-parameter-rows-and-candidate-boundary-map.md",
+    "sha256": "d21ea9d4be09573502616ee2244365d8a67117cc8303ceeaff4339c98f617a1f"
+  },
+  "source_run": {
+    "session": 1449,
+    "formal_tool_exit": 0,
+    "wait4_exit": 0,
+    "wall_seconds": 34.26776671409607,
+    "peak_rss_kib": 15688,
+    "panels": 10793,
+    "groups": 18,
+    "input_parameters": 20,
+    "selected_output_modes": [
+      2,
+      4
+    ],
+    "global_terminal_readouts": [
+      "q",
+      "v"
+    ],
+    "gates": 10
+  },
+  "first_combiner": {
+    "session": 64066,
+    "formal_tool_exit": "unknown: process session expired before successful poll",
+    "persisted_wait4_exit": 1,
+    "wall_seconds": 0.5501277446746826,
+    "peak_rss_kib": 12928,
+    "reason": "Strict identity guard expected the identical path in both inputs; the source references the R74 summary while R78 references the full ledger identified exactly by that summary. No mathematical output was written.",
+    "source_and_resource_preserved": true
+  },
+  "corrected_combiner": {
+    "formal_tool_exit": 0,
+    "wait4_exit": 0,
+    "wall_seconds": 0.11683821678161621,
+    "peak_rss_kib": 21488,
+    "all_gates": true,
+    "gates": 8,
+    "summary_full_identity": "path+size+SHA; every common summary/full field exactly equal; all20 head axes identical"
+  },
+  "scope": {
+    "candidate_parameter_source_derivative": true,
+    "true_head_nonlinear_rows_added": true,
+    "fixed_original_outer_target_in_candidate_boundary_map": true,
+    "candidate_eta_changes_outer_endpoint": true,
+    "known_affine_endpoint_lift_retained_as_debt": true,
+    "unknown_outer_field_N_difference_paid": false,
+    "full_outer_Schur_or_PDE_solution_claimed": false,
+    "new_source_integrals_ODE_or_Arb": false
+  }
+}

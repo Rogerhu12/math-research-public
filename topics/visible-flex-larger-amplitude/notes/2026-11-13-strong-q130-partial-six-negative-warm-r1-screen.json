@@ -1,0 +1,464 @@
+{
+  "scope": "Save full warm geometry using the production angular rule for every mean.\n\nThis wraps the existing explicit unsolved actual-J warm inspection. It does\nnot run its residual quadrature, a tail worker, a Newton solve or a new audit.\nEvery raw mode and the complete production mean-height integral are retained\nin the same physical-s C2 cubic used by the existing warm geometry screen.\nThe mean height and its first and second radial derivatives use the same\nangular rule max(512,16*(3*M+1)) as the physical postprocessor.  The geometry\nsampling grid may have a different angular count.  This extends the frozen\nresident wrapper without editing its source or any accepted raw solution.\nThe saved signed principal curvatures and twice-radius are samples for local\ndesign comparisons, not a physical quintic, closed surface or reach bound.\n",
+  "finished": true,
+  "nonlinear_solution": false,
+  "true_new_H_tail_evaluated": false,
+  "actual_reference": "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_augmented_core.py": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_newton_checkpoints.py": "7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_warm_screen.py": "0e5a07052bbbec195d59cf95a312e6375855c86db18b4adc6614a74f45c08618",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_iterate_restore.py": "8277739ed3f3efd0e07e31d580c1e5c351c36ff0aa90b8c73605b1855bde5ee7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_neck_bvp.py": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_flow_lru.py": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_client.py": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_recorded_tail_port.py": "7fc687bd4608f5656140dc19abebccfb66074684c46651513efe68818ec311f0",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_augmented_core.py": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_pulse_augmented_core.py": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz": "5545638d33d78240a2eb6dd82269d4c10975b14f686a9562971e3b20e60ce154",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz": "086637ebb7da8995f069e626900649434ae42b27bf04c30275498d67bb315787",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz": "56716695845a37429203af0204752630d9a41e36e8670b7f6ef073bdb7c231a2",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json": "2e848e2b59507a4bec44546a4916fb54e461b59713c0b37a968313669dc97f30",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-x-000.npy.gz": "ab65caa2a33ae5d0f605cd6fb0c0ccbe759129e71860af48c87ae2d769efebf5",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-y-000.npy.gz": "3d85cfdd34303926d59dc9ab73a28e7dec660c05fe633a466202d31a47de8b42",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-p-000.npy.gz": "e7c194652d1e91b379a29e1c5c8b1d2b5cc3ab493508837d95cdc6ced78defe3",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-prescribed-actual_q1.npy.gz": "4b0ae0fc1ee0e3aede86726f8aa683a21563f48cea82c4459f24478d33613aaf",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-prescribed-actual_q4.npy.gz": "57af83f24715eee493405ce727a4d0e29a7b8602ade1d70fa74fa84e6196b623",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-prescribed-actual_c6.npy.gz": "675d663a83557b2991fb6449b494e0628d29de484bec2e41955b62fe596c73a1",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-core-held-vu.npy.gz": "4eebdb6257dc0f467833b3138047849eb881f9703cb284cd49f377dd8ca3ac24",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-core-held-descending_turn_curvature.npy.gz": "67e14d11e0fd7d0cc9081935fda4d73abca6541a670a436698460c27925f2eb3"
+  },
+  "gauge": 0.09,
+  "actual_target": [
+    0.12999999999999998,
+    -0.015726419207124885,
+    -0.0011216734015582711
+  ],
+  "actual_core": [
+    0.12999999999999998,
+    -0.015726419207124885,
+    -0.0011216734015582711,
+    -0.000507824300903052,
+    -4.774847260065518e-05,
+    -3.071284128874578e-05,
+    -5.0921882872026276e-05,
+    2.2886124922105738e-05,
+    5.556671011958112e-06,
+    2.447060533320848e-06,
+    1.0450521378174784e-06,
+    2.6389270287442406e-07,
+    8.44774376075678e-07,
+    -1.00264192514409e-06,
+    4.549890072753898e-07,
+    1.1234399516019707e-06,
+    -1.5296110413581504e-05,
+    -1.8044079896639645e-06,
+    3.8291429963552905e-06,
+    -7.788268995867008e-06,
+    -2.089523865417192e-06,
+    3.0991763184906016e-07,
+    -6.3558415153724956e-06,
+    -1.6989150032418165e-06,
+    7.832221491176851e-07,
+    2.234068994967322e-06,
+    3.0537613266442626e-06,
+    3.220523595965721e-06
+  ],
+  "warm_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.17653503397274317,
+    "vu": 0.33553614777023877,
+    "vd": 0.98,
+    "start_acceleration": 0.642,
+    "boost_speed": 0.8156279921148784,
+    "boost_length": 0.13112924403295184,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.34631101598066,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "original_tolerance": 1e-07,
+  "baseline_accepted_rms": 9.957361490725915e-08,
+  "physical_metric_frozen": false,
+  "complete_actual_tangent_warm": {
+    "response_file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+    "sha256": "2e848e2b59507a4bec44546a4916fb54e461b59713c0b37a968313669dc97f30",
+    "complete_field_and_all_core_kept": true,
+    "weights": [
+      {
+        "direction": "actual_q1",
+        "weight": 0.007999999999999993,
+        "file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-prescribed-actual_q1.npy.gz",
+        "sha256": "4b0ae0fc1ee0e3aede86726f8aa683a21563f48cea82c4459f24478d33613aaf"
+      },
+      {
+        "direction": "actual_q4",
+        "weight": -0.007118656003864738,
+        "file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-prescribed-actual_q4.npy.gz",
+        "sha256": "57af83f24715eee493405ce727a4d0e29a7b8602ade1d70fa74fa84e6196b623"
+      },
+      {
+        "direction": "actual_c6",
+        "weight": -0.000512,
+        "file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-prescribed-actual_c6.npy.gz",
+        "sha256": "675d663a83557b2991fb6449b494e0628d29de484bec2e41955b62fe596c73a1"
+      },
+      {
+        "direction": "vu",
+        "weight": 0.013514310097527005,
+        "file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-core-held-vu.npy.gz",
+        "sha256": "4eebdb6257dc0f467833b3138047849eb881f9703cb284cd49f377dd8ca3ac24"
+      },
+      {
+        "direction": "descending_turn_curvature",
+        "weight": -0.4849720253764964,
+        "file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-core-held-descending_turn_curvature.npy.gz",
+        "sha256": "67e14d11e0fd7d0cc9081935fda4d73abca6541a670a436698460c27925f2eb3"
+      }
+    ],
+    "predicted_geometry_increment": {
+      "delta": 0.0018099483200864099,
+      "boost_length": 0.0024285891990169957,
+      "boost_speed": -0.030128605585597972
+    },
+    "old_fixed_tail_entries_are_core_not_geometry": true,
+    "new_geometry_entries_appended_explicitly": true,
+    "warm_only": true,
+    "nonlinear_solution": false
+  },
+  "finite_domain_passed": true,
+  "full_collocation": {
+    "performed": false,
+    "scope": "Only geometry fields requested by this entry"
+  },
+  "geometry_fields": {
+    "file": "m28-q122-r1/q130-t256-constant-size-combined-field.json",
+    "sha256": "95b09aae9760845d2813730455625b5199e2b5e15f2b91160bbd0c769ad1a55c",
+    "bytes": 27783333,
+    "storage": {
+      "schema": "complete-geometry-chunks-v1",
+      "dtype": "float64",
+      "shape": [
+        3764,
+        768,
+        3
+      ],
+      "chunks": [
+        {
+          "file": "q130-t256-constant-size-combined-field-part000.npy.gz",
+          "start": 0,
+          "end": 217,
+          "bytes": 1764454,
+          "sha256": "15c86f614afa9ab49baf23a0c116f979ff56d9418baee5410a8884c5197fc6aa"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part001.npy.gz",
+          "start": 217,
+          "end": 434,
+          "bytes": 1754420,
+          "sha256": "b1f9570f57468ac2525d84430ba3196e0e6b54ca0636d5d79664f8dfe819556a"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part002.npy.gz",
+          "start": 434,
+          "end": 651,
+          "bytes": 1651295,
+          "sha256": "e9532064f264ec5bdeeced0509bc0e69b61884f9436f97c2cfce81bdb704f2ef"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part003.npy.gz",
+          "start": 651,
+          "end": 868,
+          "bytes": 1700096,
+          "sha256": "d2604b00a0ecca890c059e6b0641fe98503d0a331d741c2f264d5fe1418490d8"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part004.npy.gz",
+          "start": 868,
+          "end": 1085,
+          "bytes": 1561809,
+          "sha256": "0f9394bb4e6246c6293e25ab4c0f411281cc7b924f7d551fbcb3543af82257de"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part005.npy.gz",
+          "start": 1085,
+          "end": 1302,
+          "bytes": 1654011,
+          "sha256": "754047ab035693c0373777b8eec56364684842908725f0c0945ba6e2d8076325"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part006.npy.gz",
+          "start": 1302,
+          "end": 1519,
+          "bytes": 1806631,
+          "sha256": "ba1874598fe6ebe069e7e623c2758bbb4f918d1eed00209b399398ea5cdb33aa"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part007.npy.gz",
+          "start": 1519,
+          "end": 1736,
+          "bytes": 1776248,
+          "sha256": "45f8edbfaa9890d5c25dcb3c029ebf83cc116b650fd8b5a4044d6ee8fe045f35"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part008.npy.gz",
+          "start": 1736,
+          "end": 1953,
+          "bytes": 1744681,
+          "sha256": "bc5c3d3f41a05f5d43e26e64f9ffa62aa315b5344b7d272a34b22b82d5bf7a00"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part009.npy.gz",
+          "start": 1953,
+          "end": 2170,
+          "bytes": 1729670,
+          "sha256": "783ca03df941f77e08ad0e1037fba3c53cc6ac9666efa787191f6ce6bcc34953"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part010.npy.gz",
+          "start": 2170,
+          "end": 2387,
+          "bytes": 1663002,
+          "sha256": "cd7576a943fd6da18322f812885f1f5742b7ebba1b099b1181b9e759c153c25c"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part011.npy.gz",
+          "start": 2387,
+          "end": 2604,
+          "bytes": 1549266,
+          "sha256": "8ddeef538fd9d9e6123f85d14d90bb61223694b56a329c82af5437cdc38ae077"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part012.npy.gz",
+          "start": 2604,
+          "end": 2821,
+          "bytes": 1446643,
+          "sha256": "0ec1a3eaaaa8dfc6cf2d5476b6de03b46660f1c51e1532d7deccf1a490d69154"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part013.npy.gz",
+          "start": 2821,
+          "end": 3038,
+          "bytes": 1452894,
+          "sha256": "62b321e15eadfab4d31016d5d9aad0aef8a5867f2731e91bb7693b7f4f65dca7"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part014.npy.gz",
+          "start": 3038,
+          "end": 3255,
+          "bytes": 1562874,
+          "sha256": "95950c8c83540c3c751a38dfecab259f655ce8171e7ab7be314ae399d3cbd241"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part015.npy.gz",
+          "start": 3255,
+          "end": 3472,
+          "bytes": 1315040,
+          "sha256": "8dd83cea8aa15dbd62bb15c3ee4f06a7016421e4f888f3a7c4b6354b60d1d8d7"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part016.npy.gz",
+          "start": 3472,
+          "end": 3689,
+          "bytes": 1224929,
+          "sha256": "e15bde88a59250cb866016a2902cd4200242fa5fef963ea520c29c75e7c05186"
+        },
+        {
+          "file": "q130-t256-constant-size-combined-field-part017.npy.gz",
+          "start": 3689,
+          "end": 3764,
+          "bytes": 425370,
+          "sha256": "9f7589df843e8121866f5420f719f26d451cf0bc00f8798c9e08cdb71533aca0"
+        }
+      ],
+      "complete": true
+    },
+    "storage_source_sha256": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "shape": [
+      3764,
+      768,
+      3
+    ],
+    "components": [
+      "kappa_minus",
+      "kappa_plus",
+      "twice_radius"
+    ],
+    "grid_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-grid.json",
+    "grid_sha256": "6307703991ac484616dcbefca68540748c69ed697f3436303f6ee1c0336dd25f",
+    "common_coordinates": "Original computational t and material chart eta; physical s/theta vary with profile.",
+    "wrapper_sha256": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "signed_normal": "Fs cross F_eta",
+    "all_raw_nodes_and_modes_retained": true,
+    "complete_mean_height": true,
+    "known_reference_witness_samples": [
+      {
+        "radial_index": 606,
+        "angular_index": 243,
+        "actual_s": 0.9525460970249598,
+        "numerical_t": 0.30420152408437534,
+        "eta": 1.988039101099791,
+        "components": [
+          -7.343489467810125,
+          0.33966170759115144,
+          3.005016604635608
+        ]
+      },
+      {
+        "radial_index": 2962,
+        "angular_index": 192,
+        "actual_s": 2.593499498703019,
+        "numerical_t": 0.8226964654548264,
+        "eta": 1.5707963267948966,
+        "components": [
+          -8.435436301955791,
+          0.7856192956608905,
+          3.3318982694255443
+        ]
+      },
+      {
+        "radial_index": 806,
+        "angular_index": 134,
+        "actual_s": 0.9936728433904746,
+        "numerical_t": 0.31692406342424173,
+        "eta": 1.0962849364089382,
+        "components": [
+          0.3990382694139316,
+          8.119440418583068,
+          3.0961708611606205
+        ]
+      }
+    ],
+    "interpolation": "C2 physical-s cubic through every complete warm raw state",
+    "rms_performed": false,
+    "true_new_H_tail_evaluated": false,
+    "kappa_abs_max_sample": 8.474192947542846,
+    "twice_radius_max_sample": 3.9065922643269304,
+    "twice_radius_semantics": "Twice the three-dimensional norm from the single fixed origin.",
+    "height_abs_max_sample": 1.925039705624944,
+    "horizontal_radius_max_sample": 1.3600018910647864,
+    "minimum_tangent_area_sample": 0.22012503126302907,
+    "minimum_frenet_margin_sample": 0.005131423751517761,
+    "actual_core": [
+      0.12999999999999998,
+      -0.015726419207124885,
+      -0.0011216734015582711,
+      -0.000507824300903052,
+      -4.774847260065518e-05,
+      -3.071284128874578e-05,
+      -5.0921882872026276e-05,
+      2.2886124922105738e-05,
+      5.556671011958112e-06,
+      2.447060533320848e-06,
+      1.0450521378174784e-06,
+      2.6389270287442406e-07,
+      8.44774376075678e-07,
+      -1.00264192514409e-06,
+      4.549890072753898e-07,
+      1.1234399516019707e-06,
+      -1.5296110413581504e-05,
+      -1.8044079896639645e-06,
+      3.8291429963552905e-06,
+      -7.788268995867008e-06,
+      -2.089523865417192e-06,
+      3.0991763184906016e-07,
+      -6.3558415153724956e-06,
+      -1.6989150032418165e-06,
+      7.832221491176851e-07,
+      2.234068994967322e-06,
+      3.0537613266442626e-06,
+      3.220523595965721e-06
+    ],
+    "physical_profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.17653503397274317,
+      "vu": 0.33553614777023877,
+      "vd": 0.98,
+      "start_acceleration": 0.642,
+      "boost_speed": 0.8156279921148784,
+      "boost_length": 0.13112924403295184,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.34631101598066,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle"
+    },
+    "mean_quadrature": {
+      "angular": 1360,
+      "order": 6,
+      "batch": 8,
+      "original_postprocessor_angular": 1360,
+      "mean_height_first_second_same_angular_rule": true,
+      "geometry_angular": 768,
+      "geometry_batch": 8,
+      "original_source_sha256": "ad9ba92e667ebbf572c6d31622959b804aba482d506e6523a7538e33569cd282",
+      "bounded_source_sha256": "dd5bf81f909edaa3e52d1579f132dde81b69ea3ff01e24aeb4663a61c2580688"
+    }
+  },
+  "complete_warm_H": [
+    -2.8959910206059017e-05,
+    2.7968685829752624e-08,
+    5.714256419821692e-11,
+    3.4672386079423888e-12,
+    2.8327043345803733e-13,
+    4.56191323688324e-13,
+    -3.9794519437187083e-13,
+    9.54087061004578e-14,
+    -1.9487398520832288e-14,
+    -1.216537113565417e-13,
+    5.962213912468251e-14,
+    1.2636179142852042e-13,
+    7.597272512521445e-14,
+    -3.6590261494162584e-15,
+    -6.39014354222652e-14,
+    -2.6149205813838108e-14,
+    -1.5457785318761514e-13,
+    1.1901290884683968e-13,
+    -1.6492349958685973e-13,
+    1.8426902646742194e-13,
+    -9.60731878775387e-14,
+    -2.1045678649204654e-14,
+    4.886334701474452e-13,
+    -6.751535960095065e-13,
+    3.0147963215382536e-13,
+    4.571196702165988e-13,
+    -2.4955553711426655e-13,
+    -1.5094807127088477e-12
+  ],
+  "complete_H_change_max": 4.1323828692580605e-07,
+  "seconds": 155.05250123500082,
+  "peak_rss_kib": 168716,
+  "worker_start_attempts": 0
+}

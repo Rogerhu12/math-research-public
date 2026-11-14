@@ -1,0 +1,51 @@
+{
+  "schema": "initial-law-analytic-source-preparation-v1",
+  "source_sha256": "2a51ad3d69e9e86c8b5463264c90b4cf66593f0b60adf7897cb318bb9f96b287",
+  "original_sha256": "cf80d379758054726cc1f77d8065eaf2eab59c3015fb263cb8a8f5918a664af5",
+  "transformed_sha256": "c9d1fcf56ecc5dd2d65a58c2cbd9f7563ebeafa670a1702f163a5b878a281464",
+  "replacements": [
+    {
+      "before": "    slo,shi=Q(4,5),Q(9,10)\n    def hermite(z):return k0*z*z+6*V*z-12*delta\n    check('actual_Hermite_unique_length',hermite(slo)<0<hermite(shi),dict(equation='k0*S0^2+6*V*S0=12*delta',lower=record(slo),upper=record(shi)))\n    check('actual_Hermite_monotone_speed',k0*shi<=3*V,dict(acceleration_Bernstein='[k0,3V/S0-k0,0]'))\n    accel=max(k0,3*V/slo-k0)\n    check('actual_Hermite_acceleration_below_one',accel<1,record(accel))",
+      "after": "    optional_guard(config, accepted, identities, check, a.source_dir)\n    if binary(config.get('initial_speed_frontload',0)) == 0:\n        slo,shi=Q(4,5),Q(9,10)\n        def hermite(z):return k0*z*z+6*V*z-12*delta\n        check('actual_Hermite_unique_length',hermite(slo)<0<hermite(shi),dict(equation='k0*S0^2+6*V*S0=12*delta',lower=record(slo),upper=record(shi)))\n        check('actual_Hermite_monotone_speed',k0*shi<=3*V,dict(acceleration_Bernstein='[k0,3V/S0-k0,0]'))\n        accel=max(k0,3*V/slo-k0)\n        check('actual_Hermite_acceleration_below_one',accel<1,record(accel))\n    else:\n        accel=initial_bounds(config, check)",
+      "count": 1
+    },
+    {
+      "before": "    firstL=pi[1]/(Ks*om);firstLo=1+delta-firstL;firstHi=1+delta+LB+vp*C+firstL",
+      "after": "    firstL=first_turn_upper(vp,vd,Ks,om,pi,check);firstLo=1+delta-firstL;firstHi=1+delta+LB+vp*C+firstL",
+      "count": 1
+    },
+    {
+      "before": "    lower_lengths=dict(angle_boost=LB,first_turn=(vp+vd)/(Ks*om),sync=(vl-vd)/(Ksync*om),",
+      "after": "    lower_lengths=dict(angle_boost=LB,first_turn=(vp+vd)/(Ks*om),sync=sync_lower(vd,vl,Ksync,om,check),",
+      "count": 1
+    },
+    {
+      "before": "    check('all_nonconstant_phase_lengths',min(lower_lengths.values())>Q(27,10000),{k:record(v) for k,v in lower_lengths.items()})",
+      "after": "    minimum_phase_length=Q((min(lower_lengths.values())*2**30).__floor__(),2**30)\n    check('all_nonconstant_phase_lengths',minimum_phase_length>0,{k:record(v) for k,v in lower_lengths.items()})",
+      "count": 1
+    },
+    {
+      "before": "minimum_nonconstant_segment_length='27/10000',sum_nonconstant_segment_lengths_upper='4',",
+      "after": "minimum_nonconstant_segment_length=record(minimum_phase_length),sum_nonconstant_segment_lengths_upper='4',",
+      "count": 1
+    },
+    {
+      "before": "schema='accepted-newg-ideal-analytic-profile-domain-v1'",
+      "after": "schema='accepted-newg-initial-law-ideal-analytic-profile-domain-v1'",
+      "count": 1
+    },
+    {
+      "before": "author='/root/geometry_audit'",
+      "after": "author='/root/strong_recovery'",
+      "count": 1
+    },
+    {
+      "before": "actual_accepted_primary_sha256=sha(a.accepted),frozen_profile=config,actual_original_port=cut,",
+      "after": "actual_accepted_primary_sha256=sha(a.accepted),frozen_profile=config,actual_original_port=cut,\n        initial_law_proof_source=dict(original_sha256=ORIGINAL_SHA,adapter_sha256=sha(__file__),\n            zero_lambda_original_Hermite_block_unchanged=True,other_original_analytic_guards_retained=True,\n            tighter_sync_asin_lower=True,tighter_actual_first_turn_angle_upper=True,\n            dynamic_positive_minimum_phase_length=True),",
+      "count": 1
+    }
+  ],
+  "exact_reverse_recovers_original": true,
+  "new_accepted_values_created": false,
+  "Node_ODE_or_geometry_calls": 0
+}

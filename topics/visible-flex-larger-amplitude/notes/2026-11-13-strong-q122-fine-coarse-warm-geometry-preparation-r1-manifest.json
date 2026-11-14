@@ -1,0 +1,61 @@
+{
+  "schema": "actual-fine-coarse-warm-geometry-preparation-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/root_actual_coarse_increment_geometry_complete_mean.py",
+      "sha256": "c986073622d4ebabb2be7d1eea46fe8ac4966a404b56bbc6a6af3b48371092bc",
+      "bytes": 13125,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_coarse_increment_geometry_complete_mean.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-fine-coarse-warm-geometry-preparation-r1-grid.json",
+      "sha256": "e484654f5c06141c1687bef06ff361a103ed96968411bdc1b18161eef37fdd36",
+      "bytes": 91808,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/geometry-grid.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-fine-coarse-warm-geometry-preparation-r1-zero.json",
+      "sha256": "aab9471ce5767d60bc7fdce40c82d8f4a4251e20660d840081c01d30d0bcd307",
+      "bytes": 26980,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/geometry-zero-prepare-r1-coarse-fine-geometry-prepared.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-fine-coarse-warm-geometry-preparation-r1-nonzero.json",
+      "sha256": "65fe7d9a056f0a2af2d8ec7e0b61efdeff247299b7015d355bbda0e4d5587852",
+      "bytes": 30956,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/geometry-nonzero-prepare-r2-coarse-fine-geometry-prepared.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-fine-coarse-warm-geometry-preparation-r1-zero-resource.json",
+      "sha256": "907e75b424faea6b03dac3729e4b46144b920c888152086e59deff8233f67f1c",
+      "bytes": 3311,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/geometry-zero-prepare-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-fine-coarse-warm-geometry-preparation-r1-nonzero-resource.json",
+      "sha256": "9859c65b408c25e6b48ce6134821328c506a10c3545b14f1ee43b186f8b9b7d2",
+      "bytes": 3621,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/geometry-nonzero-prepare-r2-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-fine-coarse-warm-geometry-preparation-r1-rejected-control-name-resource.json",
+      "sha256": "c3667164fa35c893e26695140ca3b11dcd9b69104f800cccc476243038d8d5d2",
+      "bytes": 3623,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/geometry-nonzero-prepare-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-fine-coarse-warm-geometry-preparation-r1-proof.md",
+      "sha256": "f5c2111933f7774126ef0d6de446f2589ac87a593edb343a76ce8791ac8cc9c1",
+      "bytes": 3776,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/fine-coarse-warm-geometry-preparation-proof.md"
+    }
+  ],
+  "complete_fine_mean": 1552,
+  "actual_zero_and_nonzero_preparations_owned_exit0": true,
+  "rejected_invalid_control_name_preserved": true,
+  "actual_new_geometry_field_computed": false,
+  "new_solution_or_continuous_certificate": false,
+  "reproducible_scientific_arrays_reused_not_duplicated": true,
+  "bytes_total": 177200
+}

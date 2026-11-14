@@ -1,0 +1,31 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "current-A-nine-gap-release-inlet-r1",
+  "command": [
+    "python",
+    "-u",
+    "computations/root_current_complete_warm_inlet_preflight.py",
+    "--plan",
+    "m32-q126-r1/gap-release-tail2-size099-warm-r1-plan.json",
+    "--candidate",
+    "combined",
+    "--out-prefix",
+    "m32-q126-r1/gap-release-tail2-size099-inlet-r1"
+  ],
+  "started_utc": "2026-11-13T19:01:23.141085+00:00",
+  "finished_utc": "2026-11-13T19:01:24.165674+00:00",
+  "wall_seconds": 1.0333760989960865,
+  "exitcode": 1,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 256,
+  "peak_rss_kib": 23168,
+  "user_seconds": 0.231537,
+  "system_seconds": 0.116023,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 3,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026533029]",
+  "automatic_restarts": 0
+}

@@ -1,0 +1,93 @@
+{
+  "scope": "Fixed positive-coordinate merit for a fresh original actual continuation.\n\nThe exact cost and Newton-installation methods are inherited from the reviewed\nfixed-S implementation. This runtime does not restore or replace any affine\nanchor: the original outer method obtains the new warm H, K and full J from\nthe explicitly audited packet and checks every subsequently changed H.\n",
+  "configuration": {
+    "mode": "fresh-fixed-physical-core-coordinate-merit-v1",
+    "modes": 28,
+    "gauge": 0.09,
+    "accepted_reference": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+    "accepted_reference_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "target_actual_core": [
+      0.12199999999999998,
+      -0.008607763203260147,
+      -0.0006096734015582711
+    ],
+    "fixed_field_weights": 1.0,
+    "fixed_parameter_weights": [
+      1.3555555555555554,
+      0.09,
+      0.0081,
+      0.0007289999999999999,
+      6.560999999999999e-05,
+      5.904899999999999e-06,
+      5.314409999999999e-07,
+      4.7829689999999986e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.1111111111111112e-08,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "weights_definition": "target c2/gauge for log c2; complete physical core scales/gauge for c4+; 1 for delta/LB/vp",
+    "weights_fixed_for_entire_run": true,
+    "original_Newton_merit_changed": true,
+    "original_linear_system_and_all_final_physical_gates_unchanged": true,
+    "original_complete_outer_method_preserved": true,
+    "affine_anchor_not_replaced": true,
+    "stage_cache_directory": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-stage-cache"
+  },
+  "source_sha256_at_start": {
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_fresh_physical_merit_runtime.py": "6dd391ed4b996a892eab2a93551cb77a2eb410c237ea4b89680486b22cf663b4",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_fresh_physical_merit_actual_bvp.py": "b8a898cf5f9dd34e3fe0f9b0ebf2ea12181b93f5a166fb69f7f108c93de47a7d",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_domain_rejection_observer.py": "97b469fe8a6f22a0152b12e700d17d6a2b9cededea8e9dab143025c8ab5a3049",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_physical_merit_and_affine_resume.py": "e330336daab09ef9d0bcb93cb36e04581636e33e645ed5e319987c3cc0f2810f",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7"
+  },
+  "stats": {
+    "merit_evaluations": 21
+  },
+  "runtime_source_transforms": {
+    "newton": {
+      "original_sha256": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+      "before_checkpoint_observer_compiled_sha256": "f123c52aa4a9c7162816edd8350f7e09fa91ab14c4771ee83d4e71489d5a5e3b",
+      "replacements": [
+        {
+          "old": "            cost = float(step@step)",
+          "new": "            cost = _strong_fixed_physical_merit(step,n,m)",
+          "count": 1
+        },
+        {
+          "old": "                newcost = float(newstep@newstep)",
+          "new": "                newcost = _strong_fixed_physical_merit(newstep,n,m)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "reused_cost_implementation_sha256": "e330336daab09ef9d0bcb93cb36e04581636e33e645ed5e319987c3cc0f2810f",
+  "original_Newton_merit_changed": true,
+  "original_linear_system_unchanged": true,
+  "original_outer_coupling_method_unmodified": true,
+  "no_pending_affine_anchor_restoration": true,
+  "original_RMS_BC_full_H_Jacobian_and_final_audit_gates_unchanged": true,
+  "seconds": 7647.4561752260015,
+  "no_new_solution_implied": true
+}

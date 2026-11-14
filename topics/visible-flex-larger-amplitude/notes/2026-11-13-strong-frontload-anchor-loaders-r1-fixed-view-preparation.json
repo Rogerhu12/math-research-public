@@ -1,0 +1,76 @@
+{
+  "scope": "Source-only transform/reverse/AST; no physical object, raw residual or conversion.",
+  "prepared": true,
+  "conversion_executed": false,
+  "provenance": {
+    "scope": "Use the real fixed-view verification with the explicit pulse provider.\n\nThe complete accepted raw state, physical quintics, core, numerical/material\ncharts, physical tail, RMS and boundary conditions are unchanged. Only the\nprovider loader is extended so a saved nonzero initial_speed_pulse remains\nthe same physical metric. This is a representation conversion, not a solve.\n",
+    "original_sha256": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+    "transformed_sha256": "27fdf4649345b285f693cef18ccd9467f5ff57691a1b46c31d751e1c10f903f1",
+    "source_sha256": {
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_pulse_freeze_design_view.py": "18ff9e44b4f69e52017c5a7d20998e1a7d06c77fd3930bd7b21b767d984f4e7e",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_freeze_design_view.py": "785442ffad4a72f9671aef285dae4a4bfc11f410b2cec54027cd913a09a61ab3",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed_anchor.py": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_anchor_loader_adapter.py": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_anchor_freeze_design_view.py": "91843639c67d96acd727341812902d5df9097920d344493798ef8078929ae260"
+    },
+    "replacements": [
+      {
+        "before": "        if Path(path).name == 'root_dual_core_bvp.py':\n            original_main = loaded.main",
+        "after": "        if Path(path).name == 'root_dual_core_bvp.py':\n            original_provider_loader = loaded.module\n            def pulse_provider_loader(provider_name,provider_path):\n                value = original_provider_loader(provider_name,provider_path)\n                if Path(provider_path).name=='alternative-neck-provider.py':\n                    import strong_initial_speed_pulse as pulse_hook\n                    pulse_hook.install(value)\n                return value\n            loaded.module = pulse_provider_loader\n            original_main = loaded.main",
+        "count": 1
+      },
+      {
+        "before": "        hashes[str(HERE / name)] = digest(HERE / name)\n    for key in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS'):",
+        "after": "        hashes[str(HERE / name)] = digest(HERE / name)\n    hashes.update(PULSE_FIXED_VIEW_TRANSFORM['source_sha256'])\n    for key in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS'):",
+        "count": 1
+      },
+      {
+        "before": "        mapped = copy.deepcopy(record)",
+        "after": "        report['initial_speed_pulse_fixed_view_adapter'] = PULSE_FIXED_VIEW_TRANSFORM\n        mapped = copy.deepcopy(record)",
+        "count": 1
+      },
+      {
+        "before": "                    pulse_hook.install(value)\n",
+        "after": "                    pulse_hook.install(value)\n                    import strong_monotone_initial_speed_anchor as frontload_hook\n                    frontload_hook.install(value)\n",
+        "count": 1
+      }
+    ],
+    "exact_reverse_recovers_original_fixed_view": true,
+    "pulse_is_part_of_frozen_physical_profile": true,
+    "original_full_H_RMS_BC_identity_and_no_worker_gates_preserved": true,
+    "prior_transformed_sha256": "9aa7fa012a83cafb9c683698093df0ed08204f1a1fb52c334e3e0c4cfd25ea5a",
+    "monotone_initial_speed_fixed_view": {
+      "scope": "Genuine fixed-view verification with both explicit first-piece providers.\n\nA nonzero saved front-loading weight is reloaded as its actual physical g.\nThe original complete raw/PPoly/core/chart/H/RMS/BC identities remain\nmandatory. This representation conversion starts no Node or BVP and does\nnot accept an unaccepted endpoint.\n",
+      "physical_profile_key": "initial_speed_frontload",
+      "fixed_degree_key": "initial_speed_frontload_degree",
+      "absent_degree": 22,
+      "same_explicit_saved_physical_metric_required": true,
+      "original_raw_PPoly_core_chart_H_RMS_BC_gates_unchanged": true,
+      "original_no_worker_and_no_BVP_conditions_unchanged": true,
+      "exact_reverse_recovers_original_pulse_fixed_view": true
+    },
+    "frontload_anchor_adapter": {
+      "scope": "Fresh provider-only anchor adapters for geometry and actual saved loaders.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nEach original loader and all its mathematical/acceptance formulas are frozen.\nExactly its frontload import is redirected to the separately identified\ncurrent-anchor hook. Both the original and repaired hook identities and all\nadapter sources are carried into actual result provenance.\n",
+      "role": "fixed_view",
+      "original_loader_sha256": "785442ffad4a72f9671aef285dae4a4bfc11f410b2cec54027cd913a09a61ab3",
+      "original_monotone_hook_sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "current_anchor_hook_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+      "loader_adapter_source_sha256": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+      "entry_source_sha256": "91843639c67d96acd727341812902d5df9097920d344493798ef8078929ae260",
+      "transformed_loader_sha256": "24c118fffde88caa20db387313fc246976fce97903b4c75be069427a49ab9122",
+      "exact_reverse_recovers_original_loader": true,
+      "mathematical_geometry_mean_quintic_and_acceptance_formulas_changed": false,
+      "actual_hook_source_fingerprints_explicit_in_result": true,
+      "installation_order": [
+        "original angle",
+        "original pulse",
+        "fresh current-anchor frontload"
+      ],
+      "original_zero_weight_arithmetic_delegated": true,
+      "old_frozen_sources_modified": false
+    }
+  }
+}

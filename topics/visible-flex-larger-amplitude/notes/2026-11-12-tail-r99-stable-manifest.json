@@ -1,0 +1,39 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Stable complete R99 conditional proof and prepared rational consumer; actual symbolic verification only",
+  "files": [
+    {
+      "path": "results/R99-complete-mean-field-to-physical-jet-bridge.md",
+      "git_blob": "483d6ed22f8556076c48555c532b9287af812cfc",
+      "sha256": "655d387a3165d59211027988148617d36a9be21cabdf895107121ed328aa4a15",
+      "bytes": 12385
+    },
+    {
+      "path": "computations/tail_r99_field_to_physical_jets.py",
+      "git_blob": "6f91f02231743967379ccb605064e1fb012642ec",
+      "sha256": "cfa47b2ccda2e05563f8b17c391280a6c6d28d43ace4c9c32d801f72c549557e",
+      "bytes": 9164
+    },
+    {
+      "path": "computations/tail_r99_symbolic_identities.js",
+      "git_blob": "93774edad321cc7b64d8990fcdc7e789d8c4d017",
+      "sha256": "4c83676081e5af84a596e4792155fd97abe812406439dd2da02998e46ef68cce",
+      "bytes": 5852
+    },
+    {
+      "path": "notes/2026-11-12-tail-r99-full-mean-polynomial-identities.json",
+      "git_blob": "afd9f5054c931dfeb7f53b36ebe5091eb1129619",
+      "sha256": "7d03279f3f53872a35f4ce675fe2918816e3b5e969f00198be9128f0eeff9677",
+      "bytes": 1400
+    },
+    {
+      "path": "notes/2026-11-12-tail-r99-execution-and-true-field-interface-plan.json",
+      "git_blob": "f34245242612236c2f752f95e12d0555df3fe833",
+      "sha256": "a5e729aa37aa7ec8cc06e5632897d970225c6376c4349ab50751387fd1f60d04",
+      "bytes": 6126
+    }
+  ],
+  "scientific_execution_scope": "Exact BigInt polynomial identities actually executed; no Python, Arb, Node, ODE or new source integration",
+  "true_solution_or_error_caps_claimed": false
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "accepted-A-allnodes-CI-prelaunch-failure-v1",
+  "observed_utc": "2026-11-14T03:01:04Z",
+  "trigger_commit": "590a37318614681f64198370e1a1369952072732",
+  "run": {
+    "id": 43549334621,
+    "workflow_id": 417966482,
+    "name": "visible-larger actual A tail nodes",
+    "event": "push",
+    "status": "completed",
+    "conclusion": "failure",
+    "created_at": "2026-11-14T03:00:36Z",
+    "updated_at": "2026-11-14T03:00:40Z"
+  },
+  "job": {
+    "id": 132307907542,
+    "name": "actual-a-tail-nodes",
+    "status": "completed",
+    "conclusion": "failure",
+    "started_at": "2026-11-14T03:00:37Z",
+    "completed_at": "2026-11-14T03:00:40Z",
+    "runner_id": 0,
+    "runner_name": "",
+    "steps": []
+  },
+  "job_log": {
+    "available": false,
+    "http_status": 404,
+    "code": "BlobNotFound"
+  },
+  "artifacts": [],
+  "scientific_execution": {
+    "source_preparation_started": false,
+    "new_node_readout_started": false,
+    "owned_wait4_record_exists": false,
+    "scientific_exitcode": null,
+    "actual_git_pull_executed": false,
+    "new_577_node_result": false
+  },
+  "cause": "Unknown. Runner ID zero and an empty step list were observed; billing, permissions, quota and hardware causes were not inferred.",
+  "tool_limit": "github_fetch workflow-name runs endpoint was unsupported; the allowed repository workflow-runs listing and run/jobs endpoints supplied the actual status. Check-run annotations are not available through the exposed fetch whitelist; no bypass attempted.",
+  "last_actual_pull": {
+    "utc": "2026-11-14T02:01:00Z",
+    "main": "c15b292293319d116558ee1852ebb45c7a36e86b"
+  },
+  "hourly_pull_at_0301": "Unable to execute because the local environment is offline and this new CI did not start. API README checks are recorded separately and are not counted as git pull.",
+  "retry_status": "No blind rerun. The exact source/request is preserved for a genuinely available runner.",
+  "task_complete": false
+}

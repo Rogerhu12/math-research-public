@@ -1,0 +1,130 @@
+{
+  "original_file": "strong_sameg_spectral_refinement.py",
+  "original_sha256": "65e81c73707c6f094ce5d494965d2fd468e971f4fa450d88513cf4ac622476fd",
+  "compiled_sha256": "eb4947ddb3322b323480ac9b0c3e6700ca4751a0f16db1d3d700aedf20589b14",
+  "replacements": [
+    {
+      "before": "if (Mnew,Nnew)!=(28,1024) or old_heap<=0:",
+      "after": "if (Mnew,Nnew)!=(32,1280) or old_heap<=0:",
+      "count": 1
+    },
+    {
+      "before": "report.get('original_parameter_count')!=27 or report.get('fixed_parameter_count')!=24",
+      "after": "report.get('original_parameter_count')!=31 or report.get('fixed_parameter_count')!=28",
+      "count": 1
+    },
+    {
+      "before": "if M!=24 or saved['modes']!=M or not ident['fixed'] or target_tol!=ident['tol']:",
+      "after": "if M!=28 or saved['modes']!=M or not ident['fixed'] or target_tol!=ident['tol']:",
+      "count": 1
+    },
+    {
+      "before": "if cfg0['modes']!=24 or cfg0['spacing']!=2 or cfg0['quadrature']!=512:",
+      "after": "if cfg0['modes']!=28 or cfg0['spacing']!=2 or cfg0['quadrature']!=512:",
+      "count": 1
+    },
+    {
+      "before": "    cfg=copy.deepcopy(cfg0);cfg['modes']=Mnew\n",
+      "after": "    spectral_tail_seed=SPECTRAL_TAIL_BUILDER(tail,old_H,Mnew,out,cfg0)\n    cfg=copy.deepcopy(cfg0);cfg['modes']=Mnew\n",
+      "count": 1
+    },
+    {
+      "before": "cfg.update(initialCheckpoint=str(own.spectral_warm_tail.resolve()),",
+      "after": "cfg.update(initialCheckpoint=str(spectral_tail_seed.resolve()),",
+      "count": 1
+    },
+    {
+      "before": "add_exact(remaining,'--radial-batch-size',8)",
+      "after": "add_exact(remaining,'--radial-batch-size',48)",
+      "count": 1
+    },
+    {
+      "before": "add_exact(remaining,'--collocation-batch-size',12)",
+      "after": "add_exact(remaining,'--collocation-batch-size',24)",
+      "count": 1
+    },
+    {
+      "before": "add_exact(remaining,'--point-cache-limit',2)",
+      "after": "add_exact(remaining,'--point-cache-limit',8)",
+      "count": 1
+    },
+    {
+      "before": "        loaded=old_loader(name,path)\n        if Path(path).name=='tail_frozen_client.py':\n",
+      "after": "        loaded=old_loader(name,path)\n        if Path(path).name=='tail_frozen_client.py':\n            loaded=old_loader(name+'_m32_full_flow',HERE/'strong_full_tangent_tail_client.py')\n",
+      "count": 1
+    },
+    {
+      "before": "        atomic_new_or_same(out.with_name(out.name+'-spectral-warm-verified.json'),diagnostic)",
+      "after": "        SPECTRAL_LIVE_IDENTITY(obj,saved,args,out,diagnostic)\n        atomic_new_or_same(out.with_name(out.name+'-spectral-warm-verified.json'),diagnostic)",
+      "count": 1
+    },
+    {
+      "before": "        record=document(warm_path)\n        return sol,record",
+      "after": "        record=document(warm_path)\n        if SPECTRAL_LIVE_PREFLIGHT: raise SPECTRAL_PREFLIGHT_FINISHED()\n        return sol,record",
+      "count": 1
+    },
+    {
+      "before": "source_sha256={**EXPECTED_SOURCE_SHA256,Path(__file__).name:SELF_SHA},",
+      "after": "source_sha256={**EXPECTED_SOURCE_SHA256,**M32_EXTRA_SOURCES,Path(__file__).name:SELF_SHA},",
+      "count": 1
+    },
+    {
+      "before": "        node_old_heap_MiB=old_heap,node_young_semi_space_MiB=own.spectral_node_young_space,",
+      "after": "        node_old_heap_MiB=old_heap,node_young_semi_space_MiB=own.spectral_node_young_space,\n        new_unsolved_tail_seed=dict(file=str(spectral_tail_seed),sha256=digest(spectral_tail_seed)),\n        original_spectral_source_sha256=M32_ORIGINAL_SOURCE_SHA,\n        explicit_full_flow_storage_client=True,old_M_snapshot_not_transferred=True,\n        live_prefix_preflight_only=SPECTRAL_LIVE_PREFLIGHT,",
+      "count": 1
+    },
+    {
+      "before": "explicitly M28/N1024",
+      "after": "explicitly M32/N1280",
+      "count": 1,
+      "diagnostic_text_only": true
+    },
+    {
+      "before": "real 27-to-24",
+      "after": "real 31-to-28",
+      "count": 1,
+      "diagnostic_text_only": true
+    },
+    {
+      "before": "original fixed M24",
+      "after": "original fixed M28",
+      "count": 1,
+      "diagnostic_text_only": true
+    },
+    {
+      "before": "original 24 core modes",
+      "after": "original 28 core modes",
+      "count": 1,
+      "diagnostic_text_only": true
+    },
+    {
+      "before": "genuine M28 Fixed/Actual",
+      "after": "genuine M32 Fixed/Actual",
+      "count": 1,
+      "diagnostic_text_only": true
+    },
+    {
+      "before": "input M24 manifest",
+      "after": "input M28 manifest",
+      "count": 1,
+      "diagnostic_text_only": true
+    },
+    {
+      "before": "same_g_M28_source_and_data_prepared",
+      "after": "same_g_M32_source_and_data_prepared",
+      "count": 1,
+      "diagnostic_text_only": true
+    },
+    {
+      "before": "same_g_M28_actual_refinement_complete",
+      "after": "same_g_M32_actual_refinement_complete",
+      "count": 1,
+      "diagnostic_text_only": true
+    }
+  ],
+  "wrapper_sha256": "438dcbf2e2373afe7d15a745a50d769bfc90487fb5e75ca9ab83e6b91bcfe882",
+  "original_Python_and_all_MJS_unchanged": true,
+  "complete_original_numerical_gates_preserved": true,
+  "stage_cache_directory": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-stage-cache",
+  "live_prefix_preflight_only": false
+}

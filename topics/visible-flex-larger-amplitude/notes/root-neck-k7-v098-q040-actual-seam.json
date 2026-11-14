@@ -1,0 +1,67 @@
+{
+  "scope": "Reconstruct actual tail cut Cartesian two-jets and compare a saved prefix.\n\nThe planar projection metric is g-dZ^2. Its connection determines the\nCartesian second derivatives wherever the projection is nonsingular.\nThis is a finite quadrature audit, not a continuous seam or closure proof.\nThe tail height mean is aligned by a vertical translation; its first and\nsecond derivatives are independently compared and cannot be translated away.\n",
+  "source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+  "checkpoint": "notes/root-neck-k7-v098-q040-actual-m14.json.gz",
+  "checkpoint_sha256": "c7dd0eb27a8b526f567f9847839242fe36c2b912e73158dde9972c63b35c5626",
+  "tail_response": "notes/root-neck-k7-v098-q040-actual-m14-tail-response_0003.json.gz",
+  "tail_response_sha256": "d5e0fa9fab1f74e5955ebd662db084e7cbafb1c852d8e1311b9093a00b5690b5",
+  "script_sha256": "c084d31f8671434ce393d778507103c1b786353812126d60dbcd6db9fce2bb87",
+  "cut_radius_error": 0.0,
+  "cut_first_error": 0.0,
+  "cut_second_error": 2.0539125955565396e-15,
+  "tail_residual": 1.6420129765077173e-09,
+  "rows": [
+    {
+      "angular": 256,
+      "cartesian_errors": {
+        "pos": 5.643267512809357e-13,
+        "p1": 7.819834203407292e-12,
+        "s1": 6.1478813036413405e-12,
+        "p2": 1.8894906549090603e-10,
+        "sp": 2.5983775825955534e-11,
+        "s2": 1.401033179013191e-10
+      },
+      "mean_first_error": -5.948574965941589e-12,
+      "mean_second_error": 1.3926859665502889e-10,
+      "angle_holonomy_error": 0.0,
+      "planar_curve_closure_error": 8.290194251407933e-17,
+      "projected_metric_determinant_min": 0.08942541351033673,
+      "orientation": 1.0,
+      "chart_identity_errors": {
+        "rho": 0.0,
+        "theta_s": 0.0,
+        "theta_ss": 0.0,
+        "rho_s": 0.0,
+        "rhop_s": 0.0
+      },
+      "max_height_first": 0.07990177926424379,
+      "max_height_second": 1.8434286314419117
+    },
+    {
+      "angular": 512,
+      "cartesian_errors": {
+        "pos": 5.689250964977587e-13,
+        "p1": 7.819834203407292e-12,
+        "s1": 6.147911713875965e-12,
+        "p2": 1.970143001139877e-10,
+        "sp": 2.5983775825955534e-11,
+        "s2": 1.4010553834648757e-10
+      },
+      "mean_first_error": -5.948727621607475e-12,
+      "mean_second_error": 1.3927081710107814e-10,
+      "angle_holonomy_error": 0.0,
+      "planar_curve_closure_error": 2.470981504857057e-16,
+      "projected_metric_determinant_min": 0.08942541351033673,
+      "orientation": 1.0,
+      "chart_identity_errors": {
+        "rho": 0.0,
+        "theta_s": 0.0,
+        "theta_ss": 0.0,
+        "rho_s": 0.0,
+        "rhop_s": 0.0
+      },
+      "max_height_first": 0.07990177926424379,
+      "max_height_second": 1.8434286314419117
+    }
+  ]
+}

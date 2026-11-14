@@ -1,0 +1,59 @@
+{
+  "schema": "actual-frontload-provider-endpoint-rule-accounting-compact-archive-v2",
+  "files": [
+    {
+      "path": "computations/strong_frontload_provider_endpoint_rounding.py",
+      "sha256": "c24aa7ac01fa206ba501083ab6c1d4808f86f6363e6b81ac0ef04fb8202cc7f0",
+      "bytes": 9878,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_provider_endpoint_rounding.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-provider-endpoint-r2-previous-r1-diagnostic.json",
+      "sha256": "07672eff22ff35f7145a1e9dd34f7ec32d554122e79793f6bd17964b76cef2ab",
+      "bytes": 36520,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-provider-endpoint-rounding-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-provider-endpoint-r2-previous-r1-resource.json",
+      "sha256": "535c0561bc97c03346264377b4875a110d554fcfd2baacedca8276196805a0b2",
+      "bytes": 1562,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-provider-endpoint-rounding-r1-resource.json"
+    },
+    {
+      "path": "computations/strong_frontload_provider_endpoint_rule_accounting.py",
+      "sha256": "ded4a59d801fd2db12ae7c173afd3938842cae9a122c841f41ff6d25a3f83b82",
+      "bytes": 16527,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_provider_endpoint_rule_accounting.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-provider-endpoint-r2-certificate.json",
+      "sha256": "0dbc1514facc1f7784d0d2944f1fa96b82c753b82f5abe56292a1249db636ef0",
+      "bytes": 51273,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-provider-endpoint-rule-accounting-r2.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-provider-endpoint-r2-resource.json",
+      "sha256": "0f576f7e6bbb3356d16d926c5fbc90c8132b4f6f2174ec0ffce4af1f4cd63a77",
+      "bytes": 1757,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-provider-endpoint-rule-accounting-r2-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-provider-endpoint-r2-proof.md",
+      "sha256": "8fc4c71f88bb15535ee0f073f6ba50fcc690bacef1250e8d502eba06bded98ac",
+      "bytes": 5753,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-provider-endpoint-rule-accounting-r2-proof.md"
+    }
+  ],
+  "total_bytes": 123270,
+  "input_kind": "completed-unsolved-warm",
+  "gate_count": 234,
+  "all_owned_outcomes_verified": true,
+  "original_segments": 12,
+  "split_nodes": 1536,
+  "additional_whole_boost_nodes": 64,
+  "previous_r1_diagnostic_preserved": true,
+  "previous_error_category_corrected": true,
+  "uniform_libm_or_rounded_function_derivative_bound": false,
+  "complete_surface_mean_or_closed_D_certified": false,
+  "new_ODE_RHS_Flow_Node_Newton_calls": 0
+}

@@ -1,0 +1,282 @@
+{
+  "status": "Prepared reconstruction only: no compiler or numerical execution has occurred in the unavailable executor",
+  "reconstruction": "New explicit v2 reconstructed from the published inputs and retained algorithm; not the lost prepared file",
+  "base_ref": "cb6b2058a1c288ee9d3b90a3033fdcd3050d4338",
+  "cwd": "topics/visible-flex-larger-amplitude/",
+  "python": "3.12.14",
+  "python_flint": "0.9.0",
+  "sources": [
+    {
+      "path": "computations/closure_outer_physical_green_geometry_recovered_v2.py",
+      "git_blob": "577d0dca6a7aedd4816d87ace9bc2d6f54363a10",
+      "sha256": "c48606c4e127fb0d3f27479eeed11bff3c5cb69139148633ea4f74a9e1f63829",
+      "bytes": 33688
+    },
+    {
+      "path": "computations/closure_outer_physical_green_budget_recovered_v2.py",
+      "git_blob": "d3cd43ff1a2e995f7fdf04cc3523f4d26a162d72",
+      "sha256": "e2113502398ebb1d4649a82a813ef0d6f2f90802ef9da52cbac8e37d36a39d83",
+      "bytes": 18539
+    }
+  ],
+  "commands": [
+    {
+      "purpose": "Compilation only; not a mathematical gate",
+      "argv": [
+        "python",
+        "-m",
+        "py_compile",
+        "computations/closure_outer_physical_green_geometry_recovered_v2.py",
+        "computations/closure_outer_physical_green_budget_recovered_v2.py"
+      ]
+    },
+    {
+      "purpose": "Input identity/shape/source preparation only; no Green execution",
+      "argv": [
+        "python",
+        "computations/closure_outer_physical_green_geometry_recovered_v2.py",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--physical-flow",
+        "notes/2026-11-12-closure-outer-physical-low46-r1.json",
+        "--physical-manifest",
+        "notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+        "--source11",
+        "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+        "--source10",
+        "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+        "--response",
+        "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+        "--family",
+        "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+        "--out-prefix",
+        "notes/2026-11-12-closure-physical-green-actions-r1",
+        "--work-dir",
+        "notes/2026-11-12-closure-physical-green-actions-r1-working",
+        "--prepare-only"
+      ]
+    },
+    {
+      "purpose": "Full actual46 geometry; preserve actual exit/resources and each completed segment",
+      "argv": [
+        "python",
+        "computations/closure_outer_physical_green_geometry_recovered_v2.py",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--physical-flow",
+        "notes/2026-11-12-closure-outer-physical-low46-r1.json",
+        "--physical-manifest",
+        "notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+        "--source11",
+        "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+        "--source10",
+        "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+        "--response",
+        "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+        "--family",
+        "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+        "--out-prefix",
+        "notes/2026-11-12-closure-physical-green-actions-r1",
+        "--work-dir",
+        "notes/2026-11-12-closure-physical-green-actions-r1-working"
+      ]
+    },
+    {
+      "purpose": "Complete exact ordered two-pass budget; no new source/ODE",
+      "argv": [
+        "python",
+        "computations/closure_outer_physical_green_budget_recovered_v2.py",
+        "--geometry",
+        "notes/2026-11-12-closure-physical-green-actions-r1.json",
+        "--out-prefix",
+        "notes/2026-11-12-closure-physical-green-budget-actions-r1"
+      ]
+    }
+  ],
+  "direct_data_dependencies": [
+    {
+      "path": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1.json",
+      "sha256": "d1078b0bd4795f99aaa87c32efe7577f6aef52e8909b8ac1460f058d39b317f3"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+      "sha256": "c688c1a4412aa9ff55f8ce4d636cdca9adcb8eec65af16540dd8376e977ad6ed"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+      "sha256": "f3d06071519f674de420a7fd66de45d14a8274bfb2089bd045bf0bfb2763cf83"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+      "sha256": "bf4061ba1ca5295245165099d274b637630d16418a9e5283dd58898fb184e0c9"
+    },
+    {
+      "path": "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+      "sha256": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962"
+    },
+    {
+      "path": "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+      "sha256": "17b1d776cdce044722db61c2981d64838d18fd66c6ef3fdd4c48fa183a9a3776"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment0.json",
+      "sha256": "c6bcd13a55be970adaa0d3de46760b711a3d8893c19eac1c17ce034db40367a9"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment1.json",
+      "sha256": "82bf086747b09eac8a7966fa207559d2d5a17f36fadf89846c69fc786b7f3735"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment2.json",
+      "sha256": "346ed918af96975bbb62b2aa7d8b0f29a7b5e9849100180cbbf9428398b5c860"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment3.json",
+      "sha256": "6cafe0fd141ad63529fc73d50cf89c8681239db7baf6a0b7795e85ce35b29a16"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment4.json",
+      "sha256": "ec5641dd983f7a9b44d4f15031dfd4723aa39a8d6aa1d54cc956142c75a7fbe8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment5.json",
+      "sha256": "78e75105f154813681e9fec946ffc02564141b80198a60b536347cc66b252a88"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment6.json",
+      "sha256": "f78b0ed4acc06330e8b1082ff4182416d2058d6c22921382b7186e7ac34fde05"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment7.json",
+      "sha256": "e3eeccf06ade6a8149a40c57343270b6a9b94e377c68969ef8af87460d566a49"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell010-segment8.json",
+      "sha256": "b42dad0e0a5562eaed68d208ec8207774699e94385d5c7fac03ac4da25ad0560"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment0.json",
+      "sha256": "6f65fce153c8c08f46a3869d9bfe717b0de693d07ee668ebeac50a133f26f8ae"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment1.json",
+      "sha256": "8e7456e28a45497143d91ddb272a9774c6b5ed2be1d7f98d76b9c0fbbeb49844"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment2.json",
+      "sha256": "8005a9c33f9a1717b3392f927e21f997c8183bf88fabfc84472452959839a573"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment3.json",
+      "sha256": "bde7891e9880955f2058021844ee86b0653480571ca6b536e5d5e601c2f57ebe"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment4.json",
+      "sha256": "4a24bf634b4898ad6f5f18f6921fb707c421da3cfcb860ee9bf8f853cff7a535"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment5.json",
+      "sha256": "c1630c0bb5b85cfee35f5e8b357209fd47fecd44c40e06adff041f4efd72e150"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment6.json",
+      "sha256": "1db370d2356c1dd3c156c8ec1b7d13c71ac7520a675e471276fd444e9d0d41e4"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment7.json",
+      "sha256": "e556bfd006e19cd868e99f47421e9c960c0c4cc9d593182fb6cc6ea00167898d"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-physical-low46-r1-completed-cell011-segment8.json",
+      "sha256": "e66cb9b98b7d94e2e0a92c5ec1d1c4959471dfa1e03a5902c98c1ff8e41fc0c0"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment0.json.gz",
+      "sha256": "e91a3386499aa4dda8783cfd792b6cdd3938720cc6fe502d75fe20addae4127e"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment1.json.gz",
+      "sha256": "b8b61eff6bb1cf521b252613e226350eeb9d1987f80c4de223e5082228f20bfc"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment2.json.gz",
+      "sha256": "ae428bd8acdeb87c9851569c6f4272b923ca47081c32fa3b7f4dd806f2f28ce8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment3.json.gz",
+      "sha256": "9e4b4e0d9e1458831cb2e2364de2e2a8709214df92f2c04d5415c9168b8ca02d"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment4.json.gz",
+      "sha256": "e5174a313060d67aafd89255179099abc74bffab6ff84b3ba0e6cc30bff7830b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment5.json.gz",
+      "sha256": "7da71a838a17baa402766da69b264ccda3cd551bf52ee3d58319c9b0d02a44f1"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment6.json.gz",
+      "sha256": "53d2d11544e612ab0a5d1c39fa2c262874c37b1eb0600c6a764f0ab1af400551"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment7.json.gz",
+      "sha256": "28c7a7c08080457cdb48d83ed6187f6fcaca7ff8f9c1d99411b0153afabdbf6f"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment8.json.gz",
+      "sha256": "616535c981333e37bb946868a5f7edb444154e04be3c0694463b338b9c584518"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment0.json.gz",
+      "sha256": "9fcdb2a1456a7edde25ad5a08afda3e0df4a1d2add8243601b09f395cecf8603"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment1.json.gz",
+      "sha256": "63dacf74fd9d0e08af6e484d95661ee2fbd2fab2d3ceb4fdf238fe47d9476d61"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment2.json.gz",
+      "sha256": "85b3ab6692dcdedb2ff4778d91a3d0aa84eb9100a680687289b11d975ecb7bf7"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment3.json.gz",
+      "sha256": "d06834be43e6fbf97a335255beae8cb24e3dd82c75ad047a1cc823b088ac1654"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment4.json.gz",
+      "sha256": "5dad9ea5f0f3a846f69184c4e66017cc6fe521727f54319b21905eca9b39d1e8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment5.json.gz",
+      "sha256": "3ac509278b46ff40d1904f20cc530cafb2ab0e4114d4e6eb92e10b31addd2175"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment6.json.gz",
+      "sha256": "c4c5c4a94a627c226290e02a51f2324ecfe6f847f872d7d1cc0a7b67c7afe7d2"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment7.json.gz",
+      "sha256": "ee62e7066a59953081320674950f0a7ae096966717ac4d7177b60bdbad587b2f"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment8.json.gz",
+      "sha256": "593b0b24d0920046041531e8c3dc6e4de43ecb5aded8c8214a514c66e9fc4f91"
+    }
+  ],
+  "python_dependency_rule": "Use the published computations Python import closure; preserve frozen EXPECTED hashes in the geometry source. These modules consume the listed ready/source/flow data and do not require rerunning the pinned91 source recovery or the low46 Peano-Baker solve.",
+  "mode_scope": "All even2..92; all20 actual outer Q retained, modes42..92 exact zero outer Q only because that is the actual saved M20 candidate; true low46 head slope remains free/complete.",
+  "source_domains": [
+    "oldstrong density input cutoff92 (3 fields)",
+    "weak Wtau1-to-Wtau0 all input frequencies, finite output angular1+m (6 fields)",
+    "complete mean and Wiener inverse retained",
+    "V0=2^-40 uniform conversion explicit"
+  ],
+  "full_problem_claimed": false,
+  "unexecuted_geometry_gate": false,
+  "executed_results_to_publish": "Only actual fresh complete groups, actual primary and resource records; private128-row gzip geometry chunks may be regenerated or attached as CI artifacts. Each gzip chunk enforces <5MiB. Do not overwrite previous failure/complete prefixes.",
+  "no_MJS_or_Git_ref_mutation_by_child": true
+}

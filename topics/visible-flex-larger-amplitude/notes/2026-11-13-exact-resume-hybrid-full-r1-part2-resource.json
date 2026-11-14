@@ -1,0 +1,27 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-hybrid-middle-windows-v2.py",
+    "--summary",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-hybrid-leaves-r1.json",
+    "--leaves",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-hybrid-leaves-r1-leaves.jsonl.gz",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-hybrid-full-r1-part2",
+    "--windows",
+    "428:440,442:454,456:470,472:486,488:502,504:518,520:536,538:554,556:572,574:590,592:610,612:630,632:650,652:672,674:694,696:716,718:740,742:764,766:788,790:814,816:840,842:868,870:896,898:926,928:956,958:986,988:1018,1020:1050,1052:1084,1086:1118,1120:1154,1156:1192,1194:1230,1232:1270,1272:1310,1312:1352,1354:1396,1398:1440,1442:1486,1488:1534,1536:1584",
+    "--precision",
+    "256",
+    "--rss-kib",
+    "98304"
+  ],
+  "wall_seconds": 461.899941444397,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 29372,
+  "user_seconds": 268.62788,
+  "system_seconds": 2.564221,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

@@ -1,0 +1,42 @@
+{
+  "scope": "Interrupted finite M24 iteration; no successful tail or audit at this discretization is asserted.",
+  "reason": "Low-amplitude state and minA ceased changing at double precision while the normalized residual remained 6.98e-8, above 2e-9; Gblock condition is approximately 3.016e8. Change matching subdivision next, preserving physical H and original RK grid.",
+  "iteration_checkpoint": "notes/numerical-m2-smallcut30-q02-tail24-low-iteration.json.gz",
+  "iteration_checkpoint_sha256": "6bb7b116235ee7ced361bff196f16ce21ceef7d1f618957b619e9085f50b9c5a",
+  "last_iteration": {
+    "iteration": 2,
+    "norm": 6.980986217395832e-08,
+    "minA": 0.6611726654129224,
+    "minD": 0.9998584391150515
+  },
+  "height": [
+    -6.658815252291785e-05,
+    -3.650497450402188e-06,
+    -9.82834940702434e-09,
+    -3.134505557890176e-09,
+    -4.271781966614204e-12,
+    -8.802643759760139e-12,
+    -3.5198628982944585e-15,
+    -2.4351148909476886e-14,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "next_parts": 8,
+  "next_steps": 12,
+  "physical_metric_changed": false,
+  "physical_height_changed": false
+}

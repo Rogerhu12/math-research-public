@@ -1,0 +1,56 @@
+{
+  "scope": "Exact phase minimization for finite supplied spatial samples only; not a continuous reach certificate.",
+  "tau": 0.11195049310747153,
+  "moving_count": 12528,
+  "fixed_count": 1538,
+  "pair_count": 19268064,
+  "normal_unit_errors": [
+    2.220446049250313e-16,
+    2.220446049250313e-16
+  ],
+  "negative_sample_pairs": 0,
+  "worst": {
+    "margin": 3.87901337873392e-09,
+    "moving_index": 15,
+    "fixed_index": 752,
+    "endpoint": "moving",
+    "sign": -1,
+    "phase": 2.2252947962927703,
+    "moving_point": [
+      -0.01916103535856009,
+      0.04625883143174623,
+      -1.8582734547956146
+    ],
+    "moving_normal": [
+      -3.1132306441615125e-05,
+      7.516003643930256e-05,
+      -0.9999999966908741
+    ],
+    "fixed_point": [
+      -0.025000000000000015,
+      -0.04330127018922191,
+      -1.858273455822252
+    ],
+    "fixed_normal": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "fixed_piece": 1,
+    "source_vertex_indices": [
+      1566,
+      1504
+    ]
+  },
+  "all_phase_sample_minimum_chord": 7.019833637025089e-05,
+  "all_phase_sample_maximum_chord": 3.7203757456530075,
+  "input": "/workspace/scratch/83b864ada613/math-research/topics/visible-flex-larger-amplitude/notes/geometric-actual-q003-closed-normal-samples.npz",
+  "input_sha256": "c372854040b40ab2ca96adac4c40d32e64702f63389dbf002f9d80a043944714",
+  "helper_sha256": "cb485db65a726a6af198ee46f8021ef52260c4b1229abed57fe3fa96ae3c5c83",
+  "sample_phase_interval": "all real phases (stronger than the mesh alpha interval)",
+  "tau_basis": "0.03 times the vertex-cloud ball-diameter upper, not a continuous diameter certificate",
+  "fixed_piece_counts": {
+    "1": 1459,
+    "2": 79
+  }
+}

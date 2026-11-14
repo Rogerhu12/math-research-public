@@ -1,0 +1,108 @@
+{
+  "status": "NEW exact standard-library consumer, statically prepared; no claimed Python execution",
+  "created_utc": "2026-11-12T21:11:18.923Z",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted)",
+  "source": {
+    "path": "computations/closure_outer_linear_centre_ordered_cut_recovered_v1.py",
+    "git_blob": "0fd6fe4a3250d9c77871b92d2c2eb3c39f712b0a",
+    "sha256": "5cc4e1d628d4676edb11f704846347cd260e374875315e5c9564c28175c92c38"
+  },
+  "fields_source": {
+    "path": "computations/root_outer_linear_centre_fields_rebuilt_v2.py",
+    "git_blob": "f6d176dcdb14bdf0d37f9a07500bd4f7e6657832",
+    "sha256": "306b2bc0c49635d731f3bbe91653310f2b2ecba19bcb7437f8ef932f37a5d75b",
+    "previous_unexecuted_or_failed_sha256": "0828f8597f2847c2a321d8e2804a9ff21e0084ec1abb1c80421ba303ab659b20"
+  },
+  "argv": [
+    "python",
+    "computations/closure_outer_linear_centre_ordered_cut_recovered_v1.py",
+    "--source-summary",
+    "<actual-root-fields-prefix>-summary.json",
+    "--profiles",
+    "notes/2026-11-12-closure-outer-whole-field-m2m4-r1.json",
+    "--green",
+    "notes/2026-11-12-closure-outer-whole-field-green-budget-r1.json",
+    "--ball",
+    "notes/2026-11-12-root-r86-projected-field-ball-r2.json",
+    "--inner-head",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+    "--family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+    "--linear",
+    "notes/2026-11-12-closure-outer-linear-cancellation-r1.json",
+    "--physical-geometry",
+    "notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json",
+    "--physical-budget",
+    "notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval.json",
+    "--fields-source-sha256",
+    "306b2bc0c49635d731f3bbe91653310f2b2ecba19bcb7437f8ef932f37a5d75b",
+    "--out-prefix",
+    "<fresh-prefix-for-ordered-source-cut>",
+    "--rss-kib",
+    "98304"
+  ],
+  "syntax_first": [
+    "python",
+    "-m",
+    "py_compile",
+    "computations/closure_outer_linear_centre_ordered_cut_recovered_v1.py"
+  ],
+  "optional_prepare": "After the actual fields summary exists, append --prepare-only using a distinct prefix.",
+  "same_runner_sequence": [
+    "Compile fresh source",
+    "Complete root actual linear-centre source",
+    "Run this standard-library ordered consumer",
+    "Preserve output, summary, actual child exit/resource and logs regardless of mathematical gates"
+  ],
+  "original_source_profile_cover": {
+    "original_panels": 10793,
+    "subpanels": 10933,
+    "selected": [
+      2,
+      4
+    ],
+    "other_original_modes": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40
+    ]
+  },
+  "optional_weak_kernel_cover": {
+    "original_panels": 10793,
+    "subpanels": 10878,
+    "modes": "all46 even2..92",
+    "geometry_sha256": "e3bb0bad3afac3e19d6b811ad068d0b4251b2a1214718dcbd14a2eb98e1aaa03",
+    "budget_sha256": "86c9b5604a765a50028865a4f3edae3171d9582052e2b7e7515d0471d8685d45",
+    "identity": "Different certified subdivisions of the same real metric/source/physical V; use only scalar upper min after full provenance guards."
+  },
+  "mathematics": {
+    "source_centre": "actual L_R selected2/4 + original C_rest* at eta=1",
+    "rest_variation": "delta=(3/4) sum_other18 eps_m (mass_P_m+mass_K_m)",
+    "line_domain": "R86 LR-to-selected-candidate triangle<16 and R86 field image+delta<16",
+    "whole_response": "zeta=(g0+Gamma*delta+headfield)/(1-Gamma)",
+    "cut_centre": "(Qout/S0-a_star+I_chi/W)/axis, true signed source",
+    "cut_image": "abs(cut_centre)+Dcut*(zeta+delta)+complete direct head value",
+    "selected_cut_derivative": "Dcut*complete head field derivative/(1-Gamma)+complete direct head derivative",
+    "explicit_limits": "Only selected2/4 cut consistency with fixed other18 parameters/functions; all46 remaining consistency and infinite PDE remain."
+  },
+  "no_Arb": true,
+  "no_new_ODE": true,
+  "no_new_source_integral": true,
+  "no_MJS_change": true,
+  "recovery_change": "R84 compact list is restored by pair(), not dict-only ball(); no mathematical formula change. Prior run failed with 0 groups."
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "visible-flex-hourly-pull-and-publication-observation-v1",
+  "date_utc": "2026-11-13",
+  "author": "root (GPT-6 Astra Pro; AI-assisted)",
+  "last_actual_terminal_pull": {
+    "utc": "2026-11-13T01:03:00.521228+00:00",
+    "sha": "48ec771d59f6f7e1e9e23d9730da57e52113afa7"
+  },
+  "hourly_attempt": {
+    "clock_before": {
+      "current_time": "2026-11-13 01:59:43 UTC"
+    },
+    "result": {
+      "tool_error": "No usable execution environment is available. Wait for an environment to become available before using this tool.",
+      "process_created": false,
+      "actual_git_pull_completed": false
+    },
+    "last_actual_success": "2026-11-13T01:03:00.521228+00:00",
+    "last_actual_success_sha": "48ec771d59f6f7e1e9e23d9730da57e52113afa7"
+  },
+  "API_read_is_not_git_pull": true,
+  "successful_small_publication": {
+    "commit": "736a1d63a50e9c6957b0ec5e4a7d762894a1639d",
+    "source_commit": "eaaa113797a695530e759406d1176f521066d5c1",
+    "files": 56,
+    "source_branch": "research/visible-flex-small-text-20261113T0148",
+    "PR": 232,
+    "PR_merged_observed": true,
+    "force": false,
+    "manifest": "notes/2026-11-13-root-sixth-window-small-text-archive-manifest.json"
+  },
+  "publication_races": "Two direct compare-and-swap main updates and two PR merge attempts rejected while base moved. Normal two-parent commit736a1d6 then updated main successfully; no other work overwritten.",
+  "CI_scope_correction": {
+    "run43330701037": {
+      "workflow_name": "QNT new streamed original43 points and central",
+      "branch": "qnt-ci-recovery-inner43-streamed-v4-20261112t233931",
+      "topic_owned": false,
+      "observed_steps": 0,
+      "observed_runner_id": 0,
+      "conclusion": "failure",
+      "cause": "unknown"
+    },
+    "own_record": "notes/2026-11-12-root-ci-prelaunch-block.json records owned run43309712288 attempts1/2, zero executed steps; no new job or retry launched.",
+    "note": "Earlier short HANDOFF wording about43330701037 did not identify its other-topic ownership; current record corrects that ambiguity. It is not this topic's numerical execution or git-pull evidence."
+  },
+  "new_execution_scope": "R106 proof and six exact V8 constant comparisons complete. Sourcev2 and orderedconsumer only prepared; geometry16532 and strongr4 terminal remain unknown.",
+  "task_complete": false
+}

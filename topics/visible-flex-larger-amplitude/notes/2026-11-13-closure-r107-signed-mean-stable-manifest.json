@@ -1,0 +1,80 @@
+{
+  "schema": "visible-flex-R107-signed-complete-mean-stable-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "status": "Complete conditional theorem and actual universal exact arithmetic; new source evaluations not executed",
+  "files": [
+    {
+      "kind": "source",
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_signed_mean_quadratic_constants.js",
+      "blob": "0999e41acb8bd7cf7f27919ac89f645fb3b80175",
+      "sha256": "3340803d3b5580985e378d1feac058fcf060ce6a7096357dcce5ce8c32a619b5",
+      "bytes": 4951
+    },
+    {
+      "kind": "ledger",
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-signed-mean-quadratic-constants.json",
+      "blob": "2c73fe7f7ab99eb8b10f7bf5285d9b42648e57e4",
+      "sha256": "753d5dac21090d519c39084d681fc9310201ecaaf77691e4f5e3c9739ee69431",
+      "bytes": 2919
+    },
+    {
+      "kind": "proof",
+      "path": "topics/visible-flex-larger-amplitude/results/R107-signed-quadratic-complete-mean-centre.md",
+      "blob": "12630475385e83b30b0918040d526001bd932a5b",
+      "sha256": "dbec06fd4545601e9a2ad7c0b50b7ee5f269c109d348fe5b041362ae5560fb27",
+      "bytes": 13237
+    }
+  ],
+  "mathematical_dependencies": {
+    "R33": {
+      "git_blob": "4f29b80fb1b581741f640ab1043c9a7d5d4ffd5a",
+      "sha256": "08112224b54d4f18198bf22997504f7a7c648688423f41470768a196a6057ce8"
+    },
+    "R75": {
+      "git_blob": "756ff2bad26e7b2cee83a211667ed027e96851c0",
+      "sha256": "75b3d1b15fd3d3b91ba4015354cd335a8e9e6639ec6a4d3ddf8b5cd65e997148"
+    },
+    "R106": {
+      "git_blob": "b60078ca01fd324c4f79f9c6b7879280af749b60",
+      "sha256": "73746195d586cb85a4270d1a9084e1296ddddbf730d5591b534cb8c1876b2961"
+    }
+  },
+  "actual_execution": {
+    "engine": "V8 BigInt",
+    "entry": "signedMeanQuadraticConstants()",
+    "source_sha256": "3340803d3b5580985e378d1feac058fcf060ce6a7096357dcce5ce8c32a619b5",
+    "all_gates": true,
+    "gate_count": 12,
+    "ledger_sha256": "753d5dac21090d519c39084d681fc9310201ecaaf77691e4f5e3c9739ee69431",
+    "pure_universal_constants": true,
+    "no_stored_scientific_primary_read_for_ledger": true,
+    "no_Arb_or_ODE": true,
+    "terminal_exit_code_claimed": false
+  },
+  "repeat_command_argv": [
+    "node",
+    "-e",
+    "process.stdout.write(JSON.stringify(require('./computations/closure_signed_mean_quadratic_constants.js').signedMeanQuadraticConstants(),null,2)+'\\n')"
+  ],
+  "scope": {
+    "root": "R33 complete complex holonomy small root; c is R75 full K zero mode",
+    "norm": "relative physical joint radial-first signed Fourier A1 norm of (P,Kbar)",
+    "input_ball": "R<1/32 for Cauchy tail; R<=1/64 for uniform source error",
+    "minimum_nonzero_absolute_mode": 2,
+    "fixed_background": "0<w<=1/2; z=w^2, E=1+z",
+    "c2": "-<(1+3z)Kbar^2+E P^2+2E Kbar P_theta>/2",
+    "complete_tail": "128 R^3/(1-32R), at most 256 R^3 on R<=1/64",
+    "complete_nonmean_source_error": "at most 680 c_bg R^4 in the density radial Wiener A0 norm",
+    "retained": "complete root, all Fourier frequencies, Q zero mode and c^2 until full inverse, complete denominator",
+    "no_real_conjugacy_assumption": true
+  },
+  "preservation": {
+    "mean_root_equation_unchanged": true,
+    "new_mean_enclosure_may_intersect_old_root_disk": true,
+    "replacing_mean_by_c2_is_only_an_evaluation_centre": true,
+    "existing_R88_R104_R105_numerical_or_prepared_files_modified": false,
+    "no_current_source_or_Green_result_relabelled": true,
+    "no_full_outer_closure_claimed": true
+  },
+  "publication": "Only new small text blobs; mathematical registration and refs handled by parent"
+}

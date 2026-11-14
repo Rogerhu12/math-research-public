@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "exact_checks": {
+    "source_definition": true,
+    "rational_region_starts_at160": true,
+    "stored_epsilon_between_2pow14_and_2pow15": true,
+    "radius_positive": true,
+    "local_cutoff_base": true,
+    "local_cutoff_monotone": true,
+    "one_plus_M512_below_2pow31": true,
+    "one_plus_M4096_below_2pow34": true,
+    "short_transfer_integral": true,
+    "C_M_below23": true,
+    "exp_27over4_below_2pow11": true,
+    "K_R_below_2pow6764": true,
+    "low_Galerkin_bootstrap": true,
+    "relative_mean_ball": true,
+    "global_physical_ball": true,
+    "material_integral": true,
+    "raw_angular_derivative_bound": true,
+    "strong_envelope": true,
+    "raw_B_h": true,
+    "forced_gain": true,
+    "forced_ball": true,
+    "stronger_origin_radius": true,
+    "correction_jets": true,
+    "Cauchy_ball": true,
+    "Cauchy_remainder": true,
+    "jets_constant": true,
+    "A_N_monotonicity": true,
+    "B_N_monotonicity": true,
+    "unit_local_radius": true,
+    "unit_nonlinear_lipschitz": true,
+    "unit_linear_perturbation": true,
+    "current_slope_local": true,
+    "current_slope_tail": true,
+    "universal_slope_tail": true,
+    "full_quarter_parameter_ball": true,
+    "local_height_radius": true
+  },
+  "source_report": "notes/2026-11-12-closure-rational-trace-m46-s512.json",
+  "source_report_sha256": "a0a1382c42773fce3f38517b1d139369d3843006a518c2aeb984068022b493c7",
+  "entrypoint_sha256": "8d5afd42d549a16c3d64182b8a6036234c9f61714fb4621624554254d6354dbc",
+  "source_constants": {
+    "epsilon_physical": {
+      "exact": "3821273729050667/295147905179352825856",
+      "decimal": 1.2946978995932869e-05
+    },
+    "r_c": {
+      "exact": "900719925474099/18014398509481984",
+      "decimal": 0.04999999999999999
+    },
+    "epsilon_normalized": {
+      "exact": "7970889790974001049586256442690600859388871836544478152546831389781128806381517731875960043282974002022187008/480981520952080297476303053904425383566334475982164982246620695296111567247812059615689868358666526308699",
+      "decimal": 16572.1331147941
+    },
+    "frozen_warp_alpha": 161.27721826272244,
+    "warp_scope": "Retained shallow metric, outside the n>=160 unwarped deep estimates."
+  },
+  "chosen_constants": {
+    "local_start": 512,
+    "nonlinear_tail_start": 4096,
+    "c_aux": "2^-240",
+    "c_star": "2^-256",
+    "C_star": "2^320",
+    "low_propagator_constant": "2^16",
+    "material_constant": "2^52",
+    "forced_propagator_constant": "2^6764",
+    "parameter_radius": "1/4",
+    "low_height_radius": "1/16000000"
+  },
+  "rational_log2_upper_bounds": {
+    "forced_gain": {
+      "exact": "-7378601/2",
+      "decimal": -3689300.5
+    },
+    "forced_to_wmin": {
+      "exact": "-7381033/2",
+      "decimal": -3690516.5
+    },
+    "stronger_origin_radius": {
+      "exact": "-7380933/2",
+      "decimal": -3690466.5
+    },
+    "jet_correction": {
+      "exact": "-3687989",
+      "decimal": -3687989.0
+    },
+    "unit_local_radius": {
+      "exact": "-3125/4",
+      "decimal": -781.25
+    },
+    "unit_nonlinear_lipschitz": {
+      "exact": "-1147/4",
+      "decimal": -286.75
+    },
+    "actual_linear_perturbation": {
+      "exact": "-1963",
+      "decimal": -1963.0
+    },
+    "current_slope_local": {
+      "exact": "-3549/4",
+      "decimal": -887.25
+    },
+    "current_slope_tail": {
+      "exact": "-28637/4",
+      "decimal": -7159.25
+    },
+    "universal_slope_tail": {
+      "exact": "-697/4",
+      "decimal": -174.25
+    }
+  },
+  "limits": [
+    "These constant inequalities accompany the full proof in R17.",
+    "N4096 is an exact mathematical depth and is not directly representable as a double delta.",
+    "A scaled bridge from numerical far192/256 to the exact nonlinear trace remains necessary.",
+    "No shallow large-amplitude match, complete closed surface, or reach certificate is asserted."
+  ]
+}

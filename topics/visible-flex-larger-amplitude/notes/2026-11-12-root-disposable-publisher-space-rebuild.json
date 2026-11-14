@@ -1,0 +1,100 @@
+{
+  "utc_started": "2026-11-12T16:13:46.922531+00:00",
+  "scope": "Rebuild only the dedicated clean disposable publication clone after successful main push. Active research worktree, source commits and all numerical primary data are untouched.",
+  "prior_published": "477f34c8b29f30659d6b2f3a2c53e95e5e0f7cfa",
+  "prior_read": "73fbe8bb8742fbaf148cbf9bd2ea5827ce8b2454",
+  "active_has_no_alternate": true,
+  "publisher_was_clean": true,
+  "publisher_alternate_target": "/workspace/scratch/c0de65fac774/math-research-recovered/.git/objects",
+  "retained_commit_tree_readme_objects_in_active": {
+    "477f34c8b29f30659d6b2f3a2c53e95e5e0f7cfa": {
+      "kind": "commit",
+      "bytes": 642
+    },
+    "c254a5e780dce680e366a920ff14129aecf527f9": {
+      "kind": "tree",
+      "bytes": 237
+    },
+    "5105e6ffb66dc40ec30be966f6fb4ca11d5ed1aa": {
+      "kind": "tree",
+      "bytes": 6112
+    },
+    "b8c339c8465174f0f2e2b19fb5ec8d5309eb367a": {
+      "kind": "tree",
+      "bytes": 325
+    },
+    "fe2ecd6a6be2078158645344ddd32768589e9797": {
+      "kind": "blob",
+      "bytes": 9069
+    },
+    "696eb3ba7d3a90636e51e8fbdd573b2f37cae707": {
+      "kind": "blob",
+      "bytes": 2463
+    },
+    "4e1ccf1fca2f1a952d7c40b110fc68d950335df0": {
+      "kind": "blob",
+      "bytes": 9681
+    },
+    "73fbe8bb8742fbaf148cbf9bd2ea5827ce8b2454": {
+      "kind": "commit",
+      "bytes": 417
+    },
+    "b2e7c62c959b1143994d0400be73392b541fc8ff": {
+      "kind": "tree",
+      "bytes": 237
+    },
+    "55273b9407178b0eba859cfeaf0af4c5ade69e8d": {
+      "kind": "tree",
+      "bytes": 6112
+    },
+    "ca2f26938f1739f100f57ee48d4f4a6367650a98": {
+      "kind": "tree",
+      "bytes": 325
+    },
+    "422aad0f5cdb29e10fa099c3d562530e030d5f0e": {
+      "kind": "blob",
+      "bytes": 9823
+    },
+    "69ea15554536fc49d80035ce0847e98ea0b84e68": {
+      "kind": "commit",
+      "bytes": 674
+    },
+    "27e3ffc1110eddafce1b38231444b3e89fa28338": {
+      "kind": "tree",
+      "bytes": 237
+    },
+    "1cd2d18098cd7becc1ab6311b31eb44ca2b4dc1f": {
+      "kind": "tree",
+      "bytes": 6112
+    }
+  },
+  "publisher_git_bytes_before": 3067158747,
+  "space_before": {
+    "available_bytes": 2758868992,
+    "free_bytes": 6211616768,
+    "inode_available": 3841926
+  },
+  "delete_path": "/workspace/scratch/c0de65fac774/math-research-publish",
+  "space_after_removing_disposable_clone": {
+    "available_bytes": 6312116224,
+    "free_bytes": 9764864000,
+    "inode_available": 3846413
+  },
+  "new_head": "075f05b1e97df4db08ce0979fef64fe378673491",
+  "actual_pull_utc": "2026-11-12T16:14:49.157938+00:00",
+  "readme_diff": "diff --git a/README.md b/README.md\nindex fe2ecd6a6..f787a306d 100644\n--- a/README.md\n+++ b/README.md\n@@ -12,7 +12,7 @@\n \n ```\n QUEUE.md                 课题队列：作者加题，Pro 按顺序领取\n-LOG.md                   总日志：每轮一行摘要；旧日志在 log/\n+LOG.md                   旧总日志（2026-11-13 起停写，只保留旧内容）；更早的在 log/\n topics/<slug>/\n   HANDOFF.md             交接摘要（不超过 10 KB）：接手时首先且主要读它\n   README.md              问题陈述、背景、来源、当前状态\n@@ -28,12 +28,12 @@ topics/_template/        新课题的模板\n ## 规矩\n \n 1. **领题**：从 `QUEUE.md` 里领最上面一个状态为\"待领\"的课题，把状态改成\"进行中（会话名/日期）\"并推送，再开工。没有\"待领\"的课题时，继续做自己课题的 `open.md`。一个课题同时只由一个会话负责。\n-2. **可以改任何文件，不用请求授权（2026-11-10 起）**：工作需要时，可以直接修改仓库里的任何文件，包括 `.github/` 下的 workflow、根 README 以外的共享文件和其他课题的目录，不必等作者或协调方批准。改了自己课题以外的文件，在根 `LOG.md` 追加一行说明改了什么、为什么。唯一的限制：不要强推，不要删除或改写别人已经推送的提交。**CI 或其他共享设施出故障时自己修**，修不好就在 log 里记一行，继续做其他能做的事；不要因为等待授权或等待 CI 而停下。\n+2. **可以改任何文件，不用请求授权（2026-11-10 起）**：工作需要时，可以直接修改仓库里的任何文件，包括 `.github/` 下的 workflow、根 README 以外的共享文件和其他课题的目录，不必等作者或协调方批准。改了自己课题以外的文件，在自己课题的 `log.md` 追加一行说明改了什么、为什么。唯一的限制：不要强推，不要删除或改写别人已经推送的提交。**CI 或其他共享设施出故障时自己修**，修不好就在 log 里记一行，继续做其他能做的事；不要因为等待授权或等待 CI 而停下。\n 3. **区分可信度**：每条结论标明是\"已证明\"、\"猜想\"还是\"启发式/数值证据\"。只有给出完整证明的才能写进 `results/`；证明里有缺口的，写清缺口在哪，放进 `open.md`。\n 4. **写法**：Markdown，公式用 `$...$` 和 `$$...$$`。引用文献写清作者、标题、年份，能给出处就给定理编号或页码。\n-5. **勤提交**：每完成一个有意义的步骤（一个引理、一次计算、一条被排除的路线）就提交推送，不要攒。推送前先拉取最新 `main`。提交信息写清楚做了什么。失败的尝试也记进 `notes/`，它们同样有价值。\n+5. **勤提交**：每完成一个有意义的步骤（一个引理、一次计算、一条被排除的路线）就提交推送，不要攒。推送前先拉取最新 `main`。推送被拒（非快进）时立刻 `git pull --rebase` 再推，循环到成功。提交信息写清楚做了什么。失败的尝试也记进 `notes/`，它们同样有价值。\n 6. **持续工作**：一个子问题做完就记录结果，接着做 `open.md` 里下一个；课题做完（或确认卡死，写明原因）就在 `QUEUE.md` 标为\"完成\"或\"搁置\"，再领下一个。不要停在阶段报告上等人回复。**时间到了不是停下的理由**：即使 prompt 里写了\"至少持续若干小时\"，那也只是下限，到点后继续研究；只有按完成标准真正完成才收尾。\"搁置\"只用于确认卡死，并在 `open.md` 写清卡在哪里；不要因为时长已满就标搁置，也不要为了结束而放宽完成标准。收尾前更新 `HANDOFF.md`。\n-7. **日志**：每轮工作结束时，在自己课题的 `log.md` 末尾追加一条（日期时间、会话名、做了什么、下一步，五行以内），再在根目录 `LOG.md` 末尾追加一行摘要（不超过 200 字）。`LOG.md` 超过 50 KB 时，由下一个要追加的会话先把它整个移到 `log/LOG-archive-<YYYYMMDD-HHMM>.md`，再新建只含表头的 `LOG.md`，然后追加；这是唯一允许改动别人日志的情形。\n+7. **日志**：每轮工作结束时，只在自己课题的 `log.md` 末尾追加一条（日期时间、会话名、做了什么、下一步，五行以内）。**2026-11-13 起不再写根目录 `LOG.md`，也不再归档它**：几十个会话同时往同一个文件末尾追加，会让推送反复冲突、合不进 `main`。\n 8. **少读大文件（重要）**：大文件会拖慢工作。\n    - 接手或开始新一轮时，只读本 README、自己课题的 `HANDOFF.md` 和 `open.md`。\n    - 不要整篇打开超过 100 KB 的文件，包括 `results/archive-*/` 的分卷、`log/` 下的旧日志和 `notes/` 里的大文件。需要旧结论时，先查 `results/archive-*/INDEX.md`，只打开它所在的那一卷。",
+  "readme_changed": true,
+  "space_after_rebuild": {
+    "available_bytes": 5724991488,
+    "free_bytes": 9177739264,
+    "inode_available": 3843049
+  },
+  "publisher_git_bytes_after": 55456046,
+  "readme_diff_read_and_applied_utc": "2026-11-12T16:16:20.130181+00:00",
+  "new_rules_applied": [
+    "Root LOG is retained and no longer written or archived; external-topic changes are recorded in this topic log.",
+    "Every rejected non-fast-forward main push is followed immediately by actual git pull --rebase before retry; compare both README files after every pull.",
+    "Ordinary no-force publication and continuous research remain authorized."
+  ],
+  "readme_reviewed": "075f05b1e97df4db08ce0979fef64fe378673491"
+}

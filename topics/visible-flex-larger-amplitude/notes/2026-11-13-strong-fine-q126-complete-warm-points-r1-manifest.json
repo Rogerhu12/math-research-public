@@ -1,0 +1,80 @@
+{
+  "schema": "actual-fine-warm-complete-points-small-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/root_actual_coarse_increment_geometry_points.py",
+      "sha256": "d7e56def8759411b626914ec41a80c72f21c4069e4e8484bcac62532642744ba",
+      "bytes": 5647,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_coarse_increment_geometry_points.py"
+    },
+    {
+      "path": "computations/root_fine_saved_point_diameter_bounds.py",
+      "sha256": "d400fe722759d64f354205ec17b2fbc8b6a95ae272acdb8ba596ad2820cc4859",
+      "bytes": 11570,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_fine_saved_point_diameter_bounds.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-screen.json",
+      "sha256": "5cc3ce0c5175339e799a011b8504e0496ff2003c86ae14db604d503da5f4dbdf",
+      "bytes": 40615,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-screen.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-geometry-prepared.json",
+      "sha256": "1fbeadc37d0883de4cc1e635240b394f11c068bba61541c91a9c752008caf49d",
+      "bytes": 31147,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-coarse-fine-geometry-prepared.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-geometry-resource.json",
+      "sha256": "f18c26d5c43c5d76605b634ec1910e9f6b1ec6d3713fbebbe1fa90af9d367301",
+      "bytes": 3720,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-geometry-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-field-chunks.json",
+      "sha256": "28e50ddcbcc7d063afe0bb6f9ef9e38f1889b3a1adb65b2c1f552fbe4fb38755",
+      "bytes": 4097,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-field.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-point-chunks.json",
+      "sha256": "1f14804293771fa78f844937cb0d8a9a40024077ccd9fd98960accc6f34b27a6",
+      "bytes": 4115,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-points.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-point-bounds.json",
+      "sha256": "8b10cc9cc0848a636e996a7687ee712bf761ba86bb14a4bb51f0c2bc6fffe1da",
+      "bytes": 13856,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-points-bounds.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-point-bounds-resource.json",
+      "sha256": "b4daeeb61be0a60cc20d004f8e56087ebdfab2a31296afa7322f8cb706a599ee",
+      "bytes": 1456,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-points-bounds-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-proof.md",
+      "sha256": "e5f1057841317b6b1bcb8057ae25b08dc72813d11567129f96d9db220f456304",
+      "bytes": 7252,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-complete-warm-points-proof.md"
+    }
+  ],
+  "complete_geometry_and_points_owned_exit0": true,
+  "actual_point_count": 2890752,
+  "complete_mean": 1552,
+  "actual_fine_32_core_bits_verified": true,
+  "new_BVP_or_continuous_certificate": false,
+  "field_and_point_chunks_scratch_only": true,
+  "derived_chunks": {
+    "field_manifest_sha256": "28e50ddcbcc7d063afe0bb6f9ef9e38f1889b3a1adb65b2c1f552fbe4fb38755",
+    "point_manifest_sha256": "1f14804293771fa78f844937cb0d8a9a40024077ccd9fd98960accc6f34b27a6",
+    "original_directory": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1",
+    "field_prefix": "q126-tail2-size102-r1-field",
+    "point_prefix": "q126-tail2-size102-r1-points"
+  },
+  "bytes_total": 123475
+}

@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-13T17:53:32.317697+00:00",
+  "command": [
+    "node",
+    "--max-old-space-size=256",
+    "/workspace/scratch/d1aa462cfc02/root-work/R167-M8-root-inputs/root_R167_M8_actual_root_coordinates_v2.mjs",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R167-M8-root-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R167-M8-root-coordinates-r3.json"
+  ],
+  "source_sha256": "8376a57ac16b6819522b1bc672f4b6d3bbcbd1a9ace9f2fff1c37599fbfb5c76",
+  "input_manifest_sha256": "eeaff04656b2e0998241f1c136e31583bac268a66adfb23c9fea5d03c73205af",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_seconds": 90,
+    "planned_peak_rss_mib": 320
+  },
+  "prior_actual_failure": {
+    "exitcode": 1,
+    "wall_seconds": 0.34120845794677734,
+    "reason": "Incorrect equality to rounded displayed residual, before model/root/ODE work. Source now checks original stored solveTolerance and actual finite converged flag; source and primary SHA stay pinned."
+  },
+  "no_solver_change": true,
+  "environment": {
+    "CLOSING_TAIL_CACHE": "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "second_actual_failure": {
+    "exitcode": 1,
+    "wall_seconds": 0.41117262840270996,
+    "reason": "Original adjacent-source loader had no CLOSING_TAIL_CACHE before subdivision import. Original source directory explicitly supplied; mathematical source unchanged."
+  }
+}

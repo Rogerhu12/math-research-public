@@ -1,0 +1,61 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T19:29:49.192353+00:00",
+  "title": "unsolved-warm-r2",
+  "scope": "Actual completed unsolved warm profile lambda .064 initial Bernstein piece only, 9 exact rational gates. No new accepted BVP or whole-profile certificate.",
+  "actual_owned_runs": [
+    {
+      "prefix": "2026-11-13-strong-initial-law-analytic-profile-unsolved-warm-first-piece-r2",
+      "owned_exitcode": 0,
+      "wait4_observed": true,
+      "wall_seconds": 0.5107281090022298,
+      "peak_rss_kib": 14080
+    }
+  ],
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-unsolved-warm-first-piece-r2-heartbeat.json",
+      "bytes": 355,
+      "sha256": "acbca42ba0b38706b1a9bff6d1e77163662ae7610e531c4c07f60497ecf30c47"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-unsolved-warm-first-piece-r2-ownership.json",
+      "bytes": 1779,
+      "sha256": "0d2d31a2ae7069afe2043de36d4b720dc5cdf91e76119dc663cd159d89d15bd2"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-unsolved-warm-first-piece-r2-plan.json",
+      "bytes": 1372,
+      "sha256": "a666c9c000b4b8feeac7096bd8aa8dd84bc74443804924ee19cd361e8f38b2af"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-unsolved-warm-first-piece-r2-resource.json",
+      "bytes": 1519,
+      "sha256": "682a75e4bb7bee266696d5704b1bd7aaec681642344b8d5840f413acb9e93f04"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-unsolved-warm-first-piece-r2-stdout.log",
+      "bytes": 1711,
+      "sha256": "569867c53cfe58cc83e02f8cbc0b16bfd0c9dbf42f87d94d6c11a81710f8207e"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-unsolved-warm-first-piece-r2.json",
+      "bytes": 19866,
+      "sha256": "69b248ccdf9b9656f7bf8f1f94aebbf85889912e4d0a9cace81ad6a88a9fd4f1"
+    },
+    {
+      "file": "computations/strong_newg_initial_law_analytic_profile_bounds_v2.py",
+      "bytes": 15234,
+      "sha256": "2a51ad3d69e9e86c8b5463264c90b4cf66593f0b60adf7897cb318bb9f96b287"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-domain-extension.md",
+      "bytes": 4598,
+      "sha256": "e35c670b5b47f737590ed9462832f62d6bb2ad5f04641bdcf10476d13f5278b9"
+    }
+  ],
+  "bytes": 46434,
+  "mathematical_provider_and_production_sources_unchanged": true,
+  "Node_ODE_or_geometry_calls": 0,
+  "original_proof_sha256": "cf80d379758054726cc1f77d8065eaf2eab59c3015fb263cb8a8f5918a664af5"
+}

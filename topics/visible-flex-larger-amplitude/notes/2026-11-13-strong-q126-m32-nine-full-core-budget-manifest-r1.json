@@ -1,0 +1,52 @@
+{
+  "schema": "complete-current-nine-core-budget-manifest-v1",
+  "scope": "Read the complete current nine-control response as full-core design data.\n\nAI-assisted research, strong_recovery, 2026-11-13.\nThe exact rational operations below apply to stored Float64 coefficients and\nstored numerical tangent entries. They do not certify the numerical tangent,\na continuous BVP, a finite step, or a closed-surface Hausdorff amplitude.\nAll nine complete prescribed/core-held fields are checked against their saved\nSHA256 and all 32 actual core derivatives. No ODE, Jacobian, QR, tail worker,\nor new geometric field is evaluated.\n",
+  "main_report": {
+    "file": "notes/2026-11-13-strong-q126-m32-nine-full-core-budget-r1.json",
+    "sha256": "22816b8cac25e3f2d14f1f967bd6d841d4df771fd3cf13bc8fdd9b9cce87ed57"
+  },
+  "actual_owned_resource": {
+    "exitcode": 0,
+    "wall_seconds": 1.0108460460032802,
+    "peak_rss_kib": 49612
+  },
+  "checks": 62,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-full-core-budget-r1-heartbeat.json",
+      "sha256": "170d3204a055c3652cbc1cec3644554b575fb807fd9c08b04247b8e91bc77fd2",
+      "bytes": 307
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-full-core-budget-r1-ownership.json",
+      "sha256": "7516b8de703874cc6124bc1eb94c0fc9516483e797c8670e98cb9d6fee66e2ad",
+      "bytes": 1916
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-full-core-budget-r1-resource.json",
+      "sha256": "cb2bc7f50961f653c967c29f770d13ba08187186439102faa32ed8c2a0169ae0",
+      "bytes": 1705
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-full-core-budget-r1-stdout.log",
+      "sha256": "2b51568fa6a86af3b260d5d669db906009df0547a1ce192e20a69d0c7fa6830e",
+      "bytes": 2893
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-full-core-budget-r1.json",
+      "sha256": "22816b8cac25e3f2d14f1f967bd6d841d4df771fd3cf13bc8fdd9b9cce87ed57",
+      "bytes": 47504
+    },
+    {
+      "file": "computations/strong_current_full_response_core_budget.py",
+      "sha256": "0e17682e0feaab068ae30a1beff2c36155018623c1f64c09d4c4bd7cc7e5700f",
+      "bytes": 10254
+    }
+  ],
+  "total_bytes": 64579,
+  "complete_original_response_reference": {
+    "file": "notes/2026-11-13-strong-q126-m32-nine-control-response-r1.json",
+    "sha256": "1b4349d08079b77314329f41ef70546cdd61b4ebaa922f3cd6fc935c0f3cf34d"
+  },
+  "no_new_solution_or_certified_tangent": true
+}

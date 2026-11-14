@@ -1,0 +1,13 @@
+{
+  "scope": "Syntax and static preparation only. Metadata input path was exercised on the old actual M20. No Flow/Jacobian/Node/BVP has run through this numerical path.",
+  "file": "computations/strong_actual_fixed_control_response.py",
+  "sha256": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+  "bytes": 24387,
+  "syntax_passed": true,
+  "full_numeric_path_run": false,
+  "worker_forbidden": true,
+  "metadata_previous_check": "notes/2026-11-12-strong-actual-response-metadata-m20.json",
+  "exchange": "full actual fixed Jacobian -> physical controls forcing -> all-core response -> low three-by-three column exchange",
+  "unchanged_mathematical_acceptance": true,
+  "numeric_path_changes_since_metadata_check": "Added global backward-error, half-step exchange diagnostics, and complete accepted tail source-fingerprint equality guard; no full numeric execution yet."
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "notes/2026-11-13-exact-resume-complete-middle-source-v1.py",
+    "--spectral",
+    "notes/2026-11-13-closure-r101-exact-summary-r1.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-complete-source-r1",
+    "--inverse-degree",
+    "6",
+    "--rss-kib",
+    "98304"
+  ],
+  "wall_seconds": 29.870859146118164,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 15104,
+  "user_seconds": 11.000489,
+  "system_seconds": 0.21320699999999998,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "Only recorded complete leaves; no final full-segment claim",
+  "completed": 0,
+  "covered_source_right": "0",
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-cell0-last-physical-r-r1.json": "3ef8b8fddbd7253e23d2be96821be7de2ea27bcedc2951945be9c33cd5266c68",
+    "notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json": "1ac05db87c40fe4421eb6067d81448a466548060c58a2dfc0c4ea51bd7ed7582",
+    "notes/2026-11-12-tail-r85-cell0-seg8-physical-moments-r1-summary.json": "2d16770f68a147d2ecef21f1cea663da0e7a5fb2905ce7c0b0adf8244eaa79a9",
+    "notes/2026-11-12-tail-r85-cell0-seg8-physical-moments-r1-resource.json": "bb9958b90ec204d1ddc39e09c24953aca6946f7f6f2362603dcd08d62b29caaf",
+    "notes/2026-11-12-tail-r85-cell0-seg8-physical-moments-r1-panels.jsonl.gz": "3956cd7f8558dcde492e6cd2b52151d151d84816259b952b048c7475f9fd3b8c"
+  },
+  "source_hashes": {
+    "tail_outer_physical_r_true_moments.py": "67ac79f49c47b4fc0cdef9d145decc955b6b6428c18e56150f3d299d1956c670",
+    "tail_outer_original_piece_finite_j.py": "b5196622ed649c6e3a3d6ad3227f30b0c54651d402c5866cfa2102d5e6def2d4",
+    "tail_outer_general_mean_bounds.py": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+    "tail_outer_substage_span_refinement.py": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+    "tail_outer_weighted_compatible.py": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+    "tail_outer_centered_quartic_fields_v2.py": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+    "tail_outer_last_piece_physical_radius.py": "9ef12e10a6ab3eaf5b66375e0edeeb082ce8d9c2126782574e3aa739c831d9c3",
+    "tail_outer_segment_candidate_domain.py": "836074abfdc5758822633a591d5ed4eb0cdf1aae6d018f486308f20c2330f32f",
+    "tail_outer_positive_moment_panels.py": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+    "closure_real_outer_radius.py": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+    "tail_r33_middle_ordered_physical.py": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+    "tail_outer_capped_true_moments.py": "88ca736fe426fc3aa9d7f09507aba4f11dd80ea7100dcbec346df6d542b53c6b",
+    "tail_outer_physical_r_moment_replay.py": "c8c565c2fef055430a2185a5545e0c44821a3a59bd6e2ce257ec680ade5c862e"
+  },
+  "error": {
+    "type": "ValueError",
+    "message": "A required true positive-moment lower bound failed"
+  },
+  "elapsed_seconds": 0.08380473199940752
+}

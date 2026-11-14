@@ -1,0 +1,7 @@
+# 实际低空间中止与发布恢复
+
+2026-11-13，/root（GPT-6 Astra Pro，AI辅助）。旧唯一publisher95962在17:19:52已实际pull/rebase至8098ddedcde2a0d4a52bc6870fa9dcf851ef1b70，并核双README无变化。之后canonical MIDX verify因剩余空间低于原400MiB保护线而被SIGTERM；helper1、publisher6真实退出，未把这次记成功。
+
+root确认原publisher结束后接回独占Git。仅删除110个早已成功维护留下的非活动MIDX缓存副本，共627633712B，每件SHA/对应成功报告身份先保存；活动Git对象包和refs未删。将维护请求最小batch调64MiB，估算余量400MiB而实际400MiB中止保护不变；今后完成全部canonical检查及已索引OID/refs比对后，只移除该次非活动旧MIDX缓存，保SHA。
+
+真实恢复canonical维护exit0，所有206831个已索引OID标识及refs前后相同，最终注册pack约1.1606GB；这是OID集合/pack索引与refs检查，不是逐个对象独立解压重hash。重新以同sync_queue.py和上次真实规则SHA启动唯一publisher49988，日志sync-publisher-20261113T1723-watch.log，继续普通pull/rebase/push。凭证只在瞬时进程环境，不写计划或日志。总空闲变化含其他并行工作，未全部归因本次。

@@ -1,0 +1,441 @@
+{
+  "scope": "Save full warm geometry using the production angular rule for every mean.\n\nThis wraps the existing explicit unsolved actual-J warm inspection. It does\nnot run its residual quadrature, a tail worker, a Newton solve or a new audit.\nEvery raw mode and the complete production mean-height integral are retained\nin the same physical-s C2 cubic used by the existing warm geometry screen.\nThe mean height and its first and second radial derivatives use the same\nangular rule max(512,16*(3*M+1)) as the physical postprocessor.  The geometry\nsampling grid may have a different angular count.  This extends the frozen\nresident wrapper without editing its source or any accepted raw solution.\nThe saved signed principal curvatures and twice-radius are samples for local\ndesign comparisons, not a physical quintic, closed surface or reach bound.\n",
+  "finished": true,
+  "nonlinear_solution": false,
+  "true_new_H_tail_evaluated": false,
+  "actual_reference": "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_augmented_core.py": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_newton_checkpoints.py": "7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_warm_screen.py": "0e5a07052bbbec195d59cf95a312e6375855c86db18b4adc6614a74f45c08618",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_iterate_restore.py": "8277739ed3f3efd0e07e31d580c1e5c351c36ff0aa90b8c73605b1855bde5ee7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_neck_bvp.py": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_flow_lru.py": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_client.py": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_recorded_tail_port.py": "7fc687bd4608f5656140dc19abebccfb66074684c46651513efe68818ec311f0",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_augmented_core.py": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_pulse_augmented_core.py": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed_anchor.py": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_anchor_loader_adapter.py": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_anchor.py": "da6726c130503113a9483da2365cea70e59f22f26e09eb19b08ba57632229a77",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz": "5545638d33d78240a2eb6dd82269d4c10975b14f686a9562971e3b20e60ce154",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz": "086637ebb7da8995f069e626900649434ae42b27bf04c30275498d67bb315787",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz": "56716695845a37429203af0204752630d9a41e36e8670b7f6ef073bdb7c231a2",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2.json": "5c83df392bb2e9ed75b767e0ed90fc85bfb83ae545945acb4177d200891937c0",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-x-000.npy.gz": "ab65caa2a33ae5d0f605cd6fb0c0ccbe759129e71860af48c87ae2d769efebf5",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-y-000.npy.gz": "3d85cfdd34303926d59dc9ab73a28e7dec660c05fe633a466202d31a47de8b42",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-p-000.npy.gz": "e7c194652d1e91b379a29e1c5c8b1d2b5cc3ab493508837d95cdc6ced78defe3",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2-core-held-initial_speed_frontload.npy.gz": "b2e29861f52a8013844ba6acfebd3d266773c88d59decc44abee20b5030909d3"
+  },
+  "gauge": 0.09,
+  "actual_target": [
+    0.12199999999999998,
+    -0.008607763203260147,
+    -0.0006096734015582711
+  ],
+  "actual_core": [
+    0.12199999999999998,
+    -0.008607763203260147,
+    -0.0006096734015582711,
+    -0.00015773899225054894,
+    -2.7639652455458277e-05,
+    -2.279741309037958e-06,
+    -6.6755692903649995e-06,
+    1.6991452680274058e-06,
+    4.689631512655028e-07,
+    3.1628994485576876e-07,
+    2.0127640186978664e-07,
+    6.356148556253313e-08,
+    8.063789464479685e-08,
+    -9.049668659895719e-08,
+    -6.55254894755658e-08,
+    -5.9428520169179116e-08,
+    7.84566350892445e-07,
+    9.472088265041454e-08,
+    -1.9986817678259317e-07,
+    4.1077617344838485e-07,
+    1.1108007257303913e-07,
+    -1.8616116565461944e-08,
+    3.4392941867267957e-07,
+    8.545892268206888e-08,
+    -4.566902656389592e-08,
+    -1.1349082352344508e-07,
+    -1.4492790759538493e-07,
+    -1.573348980885555e-07
+  ],
+  "warm_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.17526858764162195,
+    "vu": 0.32202183767271175,
+    "vd": 0.98,
+    "start_acceleration": 0.642,
+    "boost_speed": 0.8450895125851526,
+    "boost_length": 0.1288166369782673,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.831283041357157,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle",
+    "initial_speed_frontload": -0.01
+  },
+  "original_tolerance": 1e-07,
+  "baseline_accepted_rms": 9.957361490725915e-08,
+  "physical_metric_frozen": false,
+  "complete_actual_tangent_warm": {
+    "response_file": "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2.json",
+    "sha256": "5c83df392bb2e9ed75b767e0ed90fc85bfb83ae545945acb4177d200891937c0",
+    "complete_field_and_all_core_kept": true,
+    "weights": [
+      {
+        "direction": "initial_speed_frontload",
+        "weight": -0.01,
+        "file": "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2-core-held-initial_speed_frontload.npy.gz",
+        "sha256": "b2e29861f52a8013844ba6acfebd3d266773c88d59decc44abee20b5030909d3"
+      }
+    ],
+    "predicted_geometry_increment": {
+      "delta": 0.0005435019889652012,
+      "boost_length": 0.00011598214433247043,
+      "boost_speed": -0.0006670851153236875
+    },
+    "old_fixed_tail_entries_are_core_not_geometry": true,
+    "new_geometry_entries_appended_explicitly": true,
+    "warm_only": true,
+    "nonlinear_solution": false
+  },
+  "finite_domain_passed": true,
+  "full_collocation": {
+    "performed": false,
+    "scope": "Only geometry fields requested by this entry"
+  },
+  "geometry_fields": {
+    "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-initial_speed_frontload-minus-anchor-r1-field.json",
+    "sha256": "c25d9913b5193cf128ffd22a2d5d5aed36d80df066f9d59cfab48efc2676bb0e",
+    "bytes": 26632551,
+    "storage": {
+      "schema": "complete-geometry-chunks-v1",
+      "dtype": "float64",
+      "shape": [
+        3764,
+        768,
+        3
+      ],
+      "chunks": [
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part000.npy.gz",
+          "start": 0,
+          "end": 217,
+          "bytes": 1687741,
+          "sha256": "075d505553ea054659ce82fdcfe4a81f258af1fbb9195faad7a69ada219fa85c"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part001.npy.gz",
+          "start": 217,
+          "end": 434,
+          "bytes": 1666243,
+          "sha256": "4780a81fe782dd495f6ef62c5ff2b166a32f13c31baeb748ebb04306d76df10d"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part002.npy.gz",
+          "start": 434,
+          "end": 651,
+          "bytes": 1588788,
+          "sha256": "e914c3a120b011fac05fc8b8b9ebd1963a2c73e1050b8be81bc2bf0b8f04efa0"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part003.npy.gz",
+          "start": 651,
+          "end": 868,
+          "bytes": 1637441,
+          "sha256": "6a860d22ba5c394254b617410d16a8b13e20b551608b8dc04c7b0bd6e06de477"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part004.npy.gz",
+          "start": 868,
+          "end": 1085,
+          "bytes": 1552964,
+          "sha256": "4dec00c0bffa2e3da15aec5c93001103af62aaa62c2c5ae547763344548e173a"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part005.npy.gz",
+          "start": 1085,
+          "end": 1302,
+          "bytes": 1615544,
+          "sha256": "c738dbb9bb959a79e8460baf66831fe80924614af395de9952ce4df868cf78bd"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part006.npy.gz",
+          "start": 1302,
+          "end": 1519,
+          "bytes": 1699467,
+          "sha256": "9dbae331413a59e06a65879716aa79a310371ae37870492a9765f084b1ef185e"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part007.npy.gz",
+          "start": 1519,
+          "end": 1736,
+          "bytes": 1650993,
+          "sha256": "a9e46b215541681731e0708a996e9996a1ae58b8fef37a55917ac51d436e3243"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part008.npy.gz",
+          "start": 1736,
+          "end": 1953,
+          "bytes": 1611202,
+          "sha256": "66b973cc848b951288accdda838bbae943ad795e4811c43f04b97cc33f257a31"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part009.npy.gz",
+          "start": 1953,
+          "end": 2170,
+          "bytes": 1584975,
+          "sha256": "3060fbd665e00c6f2cf9ddb0b4ed6060725cd70704d0ca338b1a869bdccb731b"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part010.npy.gz",
+          "start": 2170,
+          "end": 2387,
+          "bytes": 1544929,
+          "sha256": "9048a8bf96a8dc6814b11d78953d33333ba3ac743133722625df72d9210f49c3"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part011.npy.gz",
+          "start": 2387,
+          "end": 2604,
+          "bytes": 1495121,
+          "sha256": "67ec7aec1eca20cbdde076c80d1c4877363a56dc28b4ee302dc8b4adb740d5be"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part012.npy.gz",
+          "start": 2604,
+          "end": 2821,
+          "bytes": 1438907,
+          "sha256": "1345473d52d52acb1fa26c6679cbc0ba493cff6522754fa79a4b1328e10685a0"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part013.npy.gz",
+          "start": 2821,
+          "end": 3038,
+          "bytes": 1435643,
+          "sha256": "8138481815b4f03610ee2fd58567dacfdec02bc0cdda76ae781558619c6a03bd"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part014.npy.gz",
+          "start": 3038,
+          "end": 3255,
+          "bytes": 1463373,
+          "sha256": "0127e1c3ab6b86f501607976a7e32c70b76a49bef0a5fb004a654fb5f93884c2"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part015.npy.gz",
+          "start": 3255,
+          "end": 3472,
+          "bytes": 1316117,
+          "sha256": "e3f9fb8b086f1a850ca273717c9bff89e214e978e8065b0fc997fdeac4ab8f13"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part016.npy.gz",
+          "start": 3472,
+          "end": 3689,
+          "bytes": 1218675,
+          "sha256": "8be87d9b735208b3cc40e16bea37bbef04a9bc4ab782edc35aa1d0f0972d7e2f"
+        },
+        {
+          "file": "geometry-initial_speed_frontload-minus-anchor-r1-field-part017.npy.gz",
+          "start": 3689,
+          "end": 3764,
+          "bytes": 424428,
+          "sha256": "a7ce036c88feca62cd1a624bbf50fd5473e25b3763c6fa5287e64d13129bbfb8"
+        }
+      ],
+      "complete": true
+    },
+    "storage_source_sha256": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "shape": [
+      3764,
+      768,
+      3
+    ],
+    "components": [
+      "kappa_minus",
+      "kappa_plus",
+      "twice_radius"
+    ],
+    "grid_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-grid.json",
+    "grid_sha256": "6307703991ac484616dcbefca68540748c69ed697f3436303f6ee1c0336dd25f",
+    "common_coordinates": "Original computational t and material chart eta; physical s/theta vary with profile.",
+    "wrapper_sha256": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "signed_normal": "Fs cross F_eta",
+    "all_raw_nodes_and_modes_retained": true,
+    "complete_mean_height": true,
+    "known_reference_witness_samples": [
+      {
+        "radial_index": 606,
+        "angular_index": 243,
+        "actual_s": 0.9709247588606664,
+        "numerical_t": 0.30420152408437534,
+        "eta": 1.988039101099791,
+        "components": [
+          -7.810711563370427,
+          0.32695670282853806,
+          3.031902169197554
+        ]
+      },
+      {
+        "radial_index": 2962,
+        "angular_index": 192,
+        "actual_s": 2.6021267445493486,
+        "numerical_t": 0.8226964654548264,
+        "eta": 1.5707963267948966,
+        "components": [
+          -8.35252034488693,
+          0.7936379272726723,
+          3.339964963095712
+        ]
+      },
+      {
+        "radial_index": 806,
+        "angular_index": 134,
+        "actual_s": 1.010163227263024,
+        "numerical_t": 0.31692406342424173,
+        "eta": 1.0962849364089382,
+        "components": [
+          0.389761264912293,
+          8.398109466091393,
+          3.119143793372824
+        ]
+      }
+    ],
+    "interpolation": "C2 physical-s cubic through every complete warm raw state",
+    "rms_performed": false,
+    "true_new_H_tail_evaluated": false,
+    "kappa_abs_max_sample": 8.398383206301563,
+    "twice_radius_max_sample": 3.914645304124626,
+    "twice_radius_semantics": "Twice the three-dimensional norm from the single fixed origin.",
+    "height_abs_max_sample": 1.9291556808767036,
+    "horizontal_radius_max_sample": 1.3575238415514885,
+    "minimum_tangent_area_sample": 0.22014636590141456,
+    "minimum_frenet_margin_sample": 0.005131753617343082,
+    "actual_core": [
+      0.12199999999999998,
+      -0.008607763203260147,
+      -0.0006096734015582711,
+      -0.00015773899225054894,
+      -2.7639652455458277e-05,
+      -2.279741309037958e-06,
+      -6.6755692903649995e-06,
+      1.6991452680274058e-06,
+      4.689631512655028e-07,
+      3.1628994485576876e-07,
+      2.0127640186978664e-07,
+      6.356148556253313e-08,
+      8.063789464479685e-08,
+      -9.049668659895719e-08,
+      -6.55254894755658e-08,
+      -5.9428520169179116e-08,
+      7.84566350892445e-07,
+      9.472088265041454e-08,
+      -1.9986817678259317e-07,
+      4.1077617344838485e-07,
+      1.1108007257303913e-07,
+      -1.8616116565461944e-08,
+      3.4392941867267957e-07,
+      8.545892268206888e-08,
+      -4.566902656389592e-08,
+      -1.1349082352344508e-07,
+      -1.4492790759538493e-07,
+      -1.573348980885555e-07
+    ],
+    "physical_profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.17526858764162195,
+      "vu": 0.32202183767271175,
+      "vd": 0.98,
+      "start_acceleration": 0.642,
+      "boost_speed": 0.8450895125851526,
+      "boost_length": 0.1288166369782673,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.831283041357157,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle",
+      "initial_speed_frontload": -0.01
+    },
+    "mean_quadrature": {
+      "angular": 1360,
+      "order": 6,
+      "batch": 8,
+      "original_postprocessor_angular": 1360,
+      "mean_height_first_second_same_angular_rule": true,
+      "geometry_angular": 768,
+      "geometry_batch": 8,
+      "original_source_sha256": "ad9ba92e667ebbf572c6d31622959b804aba482d506e6523a7538e33569cd282",
+      "bounded_source_sha256": "dd5bf81f909edaa3e52d1579f132dde81b69ea3ff01e24aeb4663a61c2580688"
+    }
+  },
+  "complete_warm_H": [
+    -2.8480285826445914e-05,
+    2.8676036502976558e-08,
+    5.34069865823398e-11,
+    3.2708400080389865e-12,
+    4.2645473306813417e-13,
+    -4.877646949473497e-13,
+    1.306631748122458e-13,
+    1.0344549748428792e-13,
+    -1.0201702657365491e-13,
+    -2.462987260671337e-14,
+    1.0858489491372908e-13,
+    4.143939766535015e-14,
+    3.65119149951349e-14,
+    8.223319247955922e-14,
+    6.528481828693477e-14,
+    6.892829003323633e-14,
+    1.815425725915488e-15,
+    5.664457824897896e-14,
+    2.923261875132208e-15,
+    8.152279482636333e-14,
+    2.5653905018514335e-13,
+    -1.572629091698041e-13,
+    1.8233895672582506e-14,
+    8.027019811906943e-14,
+    -4.1041416772420115e-14,
+    -1.7849576519673368e-13,
+    2.2977440122060385e-13,
+    -1.0221258500848815e-13
+  ],
+  "complete_H_change_max": 6.638609268729679e-08,
+  "seconds": 235.49605622699892,
+  "peak_rss_kib": 169076,
+  "worker_start_attempts": 0
+}

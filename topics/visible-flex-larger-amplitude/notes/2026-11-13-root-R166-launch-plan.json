@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-13T17:50:02.707772+00:00",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/R166-high-homogeneous-inputs/root_R166_true_wide_high_homogeneous.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R166-high-homogeneous-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R166-high-homogeneous-r1.json"
+  ],
+  "source_sha256": "4acd6536482c1c18fd661613be7f59ceb14c0f1cce7bab264202443d412f1ce4",
+  "input_manifest_sha256": "8e2c4caf6d2b1592ee4f71976aa6fa3acbf88ac055319cf60332dcef73adec5e",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_seconds": 3,
+    "planned_peak_rss_mib": 128
+  },
+  "scope": "Only original paid positive propagation and actual full R163 trace. No new ODE or nonlinear tube."
+}

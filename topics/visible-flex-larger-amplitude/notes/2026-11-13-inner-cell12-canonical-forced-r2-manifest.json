@@ -1,0 +1,119 @@
+{
+  "schema": "inner-cell12-canonical-forced-endpoint-archive-manifest-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "all_actual_gates": true,
+  "scope": "Same original cell12 positive forced endpoint two-material kernels; no new fixed point/truecut/new-g claim.",
+  "files": [
+    {
+      "path": "computations/inner_cell12_canonical_forced_endpoint_kernels_v2.py",
+      "sha256": "edaca1021dd6d0118ca50e71b5900f270e8c2987e8899fdedd2578bade0d43e6",
+      "bytes": 14170
+    },
+    {
+      "path": "computations/inner_cell12_canonical_forced_saved_audit.py",
+      "sha256": "c4e95e5d08f7e4a06d184554e11df24f26a71405d99d71886ad95a93eb06a50b",
+      "bytes": 4450
+    },
+    {
+      "path": "computations/inner_cell12_canonical_forced_endpoint_kernels.py",
+      "sha256": "985e408b57422f5973716d4d4075b27fdcd2b768f52d57ce59120f105fa7ff6f",
+      "bytes": 13690
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-canonical-forced-r2.json",
+      "sha256": "5e03915b960e6ebdfa6847d155a82af5e54866e2bd0fde3e177815d7ea821133",
+      "bytes": 37411
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-canonical-forced-r2-resource.json",
+      "sha256": "d3cccd1b2087bbe2cdef501dff641063677000bbf4a8b80233f6f9823298e672",
+      "bytes": 1300
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-canonical-forced-r2-saved-audit.json",
+      "sha256": "b06a5ed040042e6758974cfe942bb7a530c8f4b83b06f5a8098386b005093da3",
+      "bytes": 2110
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-canonical-forced-r2-saved-audit-resource.json",
+      "sha256": "00c3c267ff62b1110a059433dd2f705035eecb68355c9900be03c3b44e162320",
+      "bytes": 1366
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-canonical-forced-r1-failed-resource.json",
+      "sha256": "5b7dd95de676d76b0268eb6d8ea67abd18c35d58ea0e998c9fdca2f8cc07f14e",
+      "bytes": 1295
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-canonical-forced-r2-proof.md",
+      "sha256": "4f51ac25fd57959bde910a787ffa1c09d118aceaf24c3aba30d6ac8b4cb58117",
+      "bytes": 6815
+    }
+  ],
+  "frozen_inputs": {
+    "panels": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz",
+      "sha256": "d0dc6791001a1668afa2f9442bbefbe7e6644e73b0b753943df5a9bc12258181",
+      "bytes": 1434563
+    },
+    "qdensity": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+      "sha256": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+      "bytes": 240282
+    },
+    "density": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700",
+      "bytes": 281853
+    },
+    "positive": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-positive-highband-38.json.gz",
+      "sha256": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600",
+      "bytes": 474571
+    },
+    "ready": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "bytes": 109004
+    }
+  },
+  "frozen_reference_sources": {
+    "inner_true_cell13_endpoint_window_kernels.py": "cff396cf882488df91c5450490a0c345e408d3fe1a6b29f683910e97b7aa4019",
+    "closure_split_joint_io_v2.py": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0",
+    "closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390",
+    "closure_positive_linear_band_enclosure.py": "270e475e33f988ca9d48c1f68e249f2d127fa3afafd3e3d20d80cce3407a170f",
+    "closure_real_linear_head_enclosure.py": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+  },
+  "actual_primary": {
+    "path": "notes/2026-11-13-inner-cell12-canonical-forced-r2.json",
+    "sha256": "5e03915b960e6ebdfa6847d155a82af5e54866e2bd0fde3e177815d7ea821133",
+    "bytes": 37411
+  },
+  "actual_resource": {
+    "path": "notes/2026-11-13-inner-cell12-canonical-forced-r2-resource.json",
+    "sha256": "d3cccd1b2087bbe2cdef501dff641063677000bbf4a8b80233f6f9823298e672",
+    "bytes": 1300
+  },
+  "independent_saved_audit": {
+    "path": "notes/2026-11-13-inner-cell12-canonical-forced-r2-saved-audit.json",
+    "sha256": "b06a5ed040042e6758974cfe942bb7a530c8f4b83b06f5a8098386b005093da3",
+    "bytes": 2110
+  },
+  "failed_first_attempt": {
+    "source": {
+      "path": "computations/inner_cell12_canonical_forced_endpoint_kernels.py",
+      "sha256": "985e408b57422f5973716d4d4075b27fdcd2b768f52d57ce59120f105fa7ff6f",
+      "bytes": 13690
+    },
+    "resource": {
+      "path": "notes/2026-11-13-inner-cell12-canonical-forced-r1-failed-resource.json",
+      "sha256": "5b7dd95de676d76b0268eb6d8ea67abd18c35d58ea0e998c9fdca2f8cc07f14e",
+      "bytes": 1295
+    },
+    "reason": "Incorrect containment assertion between independently rounded mu intervals failed before source loop. r2 keeps the union of both complete certified intervals; no mathematical threshold or source term was relaxed."
+  },
+  "new_ODE_quadrature_Node_calls": 0,
+  "repro_commands_recorded_in_resource": true,
+  "all_artifacts_below_5MB": true
+}

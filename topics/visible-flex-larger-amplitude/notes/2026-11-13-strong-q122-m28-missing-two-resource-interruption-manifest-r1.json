@@ -1,0 +1,55 @@
+{
+  "schema": "resource-interruption-recovery-manifest-v1",
+  "scope": "Resource interruption of the incomplete missing-two derivative phase; not a mathematical rejection or a new accepted derivative. Actual M32 solve, fullmean audit, and six earlier responses are unchanged.",
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r1-disk-events.jsonl",
+      "sha256": "e7eddc9e585d1588670356619e4175cb0bf0d04a768bdfdea12e44848311d94d",
+      "bytes": 42162
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r1-heartbeat.json",
+      "sha256": "8a87faff3287afd8197f9bf027cd88305d94adf6ad0972c17ad74cff6ccb1990",
+      "bytes": 531
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r1-loader-frozen-profile.json",
+      "sha256": "e0455438cd00a9a441abce9d0bdc32fe7eb0a16e740bfed8e021ae22a9fea7ca",
+      "bytes": 536
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r1-ownership.json",
+      "sha256": "d9a60602d671bd7f6559b6093d8d7edbf7d50eb23589a6dd72cca75922fb97d1",
+      "bytes": 2500
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r1-samechart-adapter.json",
+      "sha256": "852850538fb341df82be45f1f2af985040038124092c6d57f6fc0deb24e2b3c8",
+      "bytes": 2030
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r1-stdout.log",
+      "sha256": "396ac2563cd36240bcb4c00b6803a66f9a0abdc92b137003b27a6b55134b7adf",
+      "bytes": 42216
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-two-resource-interruption-r1.json",
+      "sha256": "0332bec853bbb9e811a79ae4a9501d2f31ea7e77c7718c1d5d97a80f0dceb5fa",
+      "bytes": 2185
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-missing-two-interrupted-watcher-status.json",
+      "sha256": "2feb8087a8f5975a9f9aea11d5fcd743412f0f8f63b0fa46551a866a88bf099a",
+      "bytes": 1399
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-missing-two-interrupted-watcher-stdout.log",
+      "sha256": "916d169ba42f64792f2a69226019dbcc90f7850b25fc6f8cb25af3df2510d151",
+      "bytes": 3666
+    }
+  ],
+  "bytes": 97225,
+  "tool_session_exitcode": 130,
+  "owned_child_wait4_final_absent": true,
+  "no_mathematical_failure_claimed": true
+}

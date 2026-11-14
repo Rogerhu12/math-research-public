@@ -1,0 +1,671 @@
+{
+  "scope": "Exact finite planar-budget check on an explicitly unaccepted raw core.\n\nNo source is relabeled as converged. Two artificial planar continuations keep\nall c6+ coefficients of the raw iterate fixed: the old R40 c4 slope, or an\naffine return to the canonical c4 at the landing q. A failure is a failure of\nthat finite planar budget only, not nonexistence or failure of a real surface.\nNo NumPy, physical RHS, Jacobian, tail, geometry or BVP is evaluated.\n",
+  "finished": true,
+  "source_sha256": {
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003.json.gz": "ace0a1ed3a1067ee1de3c13157bf81afe0aa0a90e4eb8b44751f05bfb4c669be",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_pending_core_corridor_screen.py": "da0461d6ae1883b0c8585122626a8d08366104ba2dd08fd5dd9195e88ac7b7c1",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_core_corridor_refresh.py": "5cb32adea17a8d2f69187bf1f9c982a3bd6e67073309489aa24fa5ab2728adbc",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_actual_augmented_core.py": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_actual_checkpoint_step_scale.py": "cae3532149ecdfaf793e51e5b21c34185cfd1d03ba534567214653bdd34d8f8f",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003-p-000.npy.gz": "cd2a25c0b4e9643e9cd7c41b2a09d1781acf999b0af79762b09cee68c8a9a356"
+  },
+  "source_solver_success": false,
+  "source_physical_surface": false,
+  "actual_coupled_acceptance_pending": true,
+  "complete_raw_core_binary64": [
+    0.105,
+    -0.006655700963004517,
+    -0.0004116733380408847,
+    -0.00011582182501615248,
+    1.1007676735207802e-05,
+    -2.7134227093716012e-05,
+    -2.053366106968545e-05,
+    1.3647704478224227e-05,
+    4.164190349131739e-06,
+    -1.0685721937901208e-05,
+    -5.798840796228228e-06,
+    -2.101589391485749e-06,
+    -3.1129265757642446e-06,
+    2.7982618665348604e-07,
+    1.767184098519475e-07,
+    7.746155002554191e-08,
+    -1.4124159625410917e-07,
+    -4.842025869833189e-08,
+    -5.706358872948269e-08,
+    1.5567908508224435e-07,
+    5.734039072210088e-08,
+    -1.0055500808896206e-07,
+    3.22206157703014e-08,
+    1.735967412394684e-08
+  ],
+  "complete_raw_core_exact": [
+    {
+      "numerator": "7566047373982433",
+      "denominator": "72057594037927936",
+      "decimal_display": 0.105
+    },
+    {
+      "numerator": "-959187596060051",
+      "denominator": "144115188075855872",
+      "decimal_display": -0.006655700963004517
+    },
+    {
+      "numerator": "-7594032708809919",
+      "denominator": "18446744073709551616",
+      "decimal_display": -0.0004116733380408847
+    },
+    {
+      "numerator": "-4273071128445871",
+      "denominator": "36893488147419103232",
+      "decimal_display": -0.00011582182501615248
+    },
+    {
+      "numerator": "6497785458576161",
+      "denominator": "590295810358705651712",
+      "decimal_display": 1.1007676735207802e-05
+    },
+    {
+      "numerator": "-500538142835695",
+      "denominator": "18446744073709551616",
+      "decimal_display": -2.7134227093716012e-05
+    },
+    {
+      "numerator": "-3030233525190245",
+      "denominator": "147573952589676412928",
+      "decimal_display": -2.053366106968545e-05
+    },
+    {
+      "numerator": "4028091387254753",
+      "denominator": "295147905179352825856",
+      "decimal_display": 1.3647704478224227e-05
+    },
+    {
+      "numerator": "4916208233257243",
+      "denominator": "1180591620717411303424",
+      "decimal_display": 4.164190349131739e-06
+    },
+    {
+      "numerator": "-788467111325149",
+      "denominator": "73786976294838206464",
+      "decimal_display": -1.0685721937901208e-05
+    },
+    {
+      "numerator": "-427878928368833",
+      "denominator": "73786976294838206464",
+      "decimal_display": -5.798840796228228e-06
+    },
+    {
+      "numerator": "-4962237651553357",
+      "denominator": "2361183241434822606848",
+      "decimal_display": -2.101589391485749e-06
+    },
+    {
+      "numerator": "-3675095031255811",
+      "denominator": "1180591620717411303424",
+      "decimal_display": -3.1129265757642446e-06
+    },
+    {
+      "numerator": "5285767219526591",
+      "denominator": "18889465931478580854784",
+      "decimal_display": 2.7982618665348604e-07
+    },
+    {
+      "numerator": "3338116382363431",
+      "denominator": "18889465931478580854784",
+      "decimal_display": 1.767184098519475e-07
+    },
+    {
+      "numerator": "5852829240827991",
+      "denominator": "75557863725914323419136",
+      "decimal_display": 7.746155002554191e-08
+    },
+    {
+      "numerator": "-166748645034353",
+      "denominator": "1180591620717411303424",
+      "decimal_display": -1.4124159625410917e-07
+    },
+    {
+      "numerator": "-7317062616604157",
+      "denominator": "151115727451828646838272",
+      "decimal_display": -4.842025869833189e-08
+    },
+    {
+      "numerator": "-8623205721867747",
+      "denominator": "151115727451828646838272",
+      "decimal_display": -5.706358872948269e-08
+    },
+    {
+      "numerator": "1470347386952405",
+      "denominator": "9444732965739290427392",
+      "decimal_display": 1.5567908508224435e-07
+    },
+    {
+      "numerator": "8665034856342361",
+      "denominator": "151115727451828646838272",
+      "decimal_display": 5.734039072210088e-08
+    },
+    {
+      "numerator": "-949715199768001",
+      "denominator": "9444732965739290427392",
+      "decimal_display": -1.0055500808896206e-07
+    },
+    {
+      "numerator": "2434520895537479",
+      "denominator": "75557863725914323419136",
+      "decimal_display": 3.22206157703014e-08
+    },
+    {
+      "numerator": "2623319783566913",
+      "denominator": "151115727451828646838272",
+      "decimal_display": 1.735967412394684e-08
+    }
+  ],
+  "frozen_higher_mode_count": 22,
+  "representation_gauge": 0.09,
+  "actual_primary_amplitude": 0.105,
+  "artificial_paths": [
+    {
+      "name": "old_R40_slope",
+      "core_c4_slope_mid": {
+        "numerator": "-14142135623730951",
+        "denominator": "200000000000000000",
+        "decimal_display": -0.07071067811865475
+      },
+      "core_c4_slope_error": {
+        "numerator": "1",
+        "denominator": "200000000000000000",
+        "decimal_display": 5e-18
+      },
+      "endpoints": [
+        {
+          "q": {
+            "numerator": "7566047373982433",
+            "denominator": "72057594037927936",
+            "decimal_display": 0.105
+          },
+          "c4_midpoint": {
+            "numerator": "-959187596060051",
+            "denominator": "144115188075855872",
+            "decimal_display": -0.006655700963004517
+          },
+          "c4_error": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          },
+          "axial_core_gap": {
+            "numerator": "3950698594714753508463",
+            "denominator": "18889465931478580854784",
+            "decimal_display": 0.20914824214966626
+          },
+          "future_full_D_budget": {
+            "numerator": "19753492973573767542315",
+            "denominator": "18889465931478580854784",
+            "decimal_display": 1.0457412107483313
+          },
+          "required_core_rho": {
+            "numerator": "11852095784144260525389",
+            "denominator": "377789318629571617095680",
+            "decimal_display": 0.03137223632244994
+          },
+          "short_axis_rho_upper": {
+            "numerator": "106300627073730796760055",
+            "denominator": "75557863725914323419136",
+            "decimal_display": 1.4068770850819137
+          },
+          "R7_product_upper": {
+            "numerator": "3404411148159613604727464449807856884917848545452419479690245",
+            "denominator": "25711008708143844408671393477458601640355247900524685364822016",
+            "decimal_display": 0.13241064116948792
+          },
+          "R7_less_than_one": true,
+          "radius_surplus_certificate": {
+            "certified_positive": true,
+            "leaf_count": 2,
+            "maximum_depth_used": 1,
+            "minimum_certified_leaf_lower": {
+              "numerator": "266888827234220752369859397",
+              "denominator": "382322790453126476500828160",
+              "decimal_display": 0.6980719797475475
+            },
+            "positive_leaves": [
+              {
+                "lo": {
+                  "numerator": "-1",
+                  "denominator": "1",
+                  "decimal_display": -1.0
+                },
+                "hi": {
+                  "numerator": "0",
+                  "denominator": "1",
+                  "decimal_display": 0.0
+                },
+                "lower": {
+                  "numerator": "326888686394584452419101",
+                  "denominator": "377789318629571617095680",
+                  "decimal_display": 0.8652671483152862
+                },
+                "depth": 1
+              },
+              {
+                "lo": {
+                  "numerator": "0",
+                  "denominator": "1",
+                  "decimal_display": 0.0
+                },
+                "hi": {
+                  "numerator": "1",
+                  "denominator": "1",
+                  "decimal_display": 1.0
+                },
+                "lower": {
+                  "numerator": "266888827234220752369859397",
+                  "denominator": "382322790453126476500828160",
+                  "decimal_display": 0.6980719797475475
+                },
+                "depth": 1
+              }
+            ],
+            "unresolved": [],
+            "nonpositive_witnesses": []
+          }
+        },
+        {
+          "q": {
+            "numerator": "201",
+            "denominator": "500",
+            "decimal_display": 0.402
+          },
+          "c4_midpoint": {
+            "numerator": "-49822011885553728398465775887070709",
+            "denominator": "1801439850948198400000000000000000000",
+            "decimal_display": -0.02765677236424498
+          },
+          "c4_error": {
+            "numerator": "2675138178658074659",
+            "denominator": "1801439850948198400000000000000000000",
+            "decimal_display": 1.485e-18
+          },
+          "axial_core_gap": {
+            "numerator": "1896380169751628835375667",
+            "denominator": "2361183241434822606848000",
+            "decimal_display": 0.8031482421496663
+          },
+          "future_full_D_budget": {
+            "numerator": "1896380169751628835375667",
+            "denominator": "472236648286964521369600",
+            "decimal_display": 4.015741210748331
+          },
+          "required_core_rho": {
+            "numerator": "5689140509254886506127001",
+            "denominator": "47223664828696452136960000",
+            "decimal_display": 0.12047223632244994
+          },
+          "short_axis_rho_upper": {
+            "numerator": "3765575886135431537542919543164791291",
+            "denominator": "1441151880758558720000000000000000000",
+            "decimal_display": 2.6128931561005206
+          },
+          "R7_product_upper": {
+            "numerator": "57888072502512110533355092565510523353423200408111692855748099352072574876621",
+            "denominator": "61299821634635554334333881086012367344749564887344087040000000000000000000000",
+            "decimal_display": 0.944343245361162
+          },
+          "R7_less_than_one": true,
+          "radius_surplus_certificate": {
+            "certified_positive": true,
+            "leaf_count": 4,
+            "maximum_depth_used": 3,
+            "minimum_certified_leaf_lower": {
+              "numerator": "32484991404669414456937506432776158085703697",
+              "denominator": "10705038132687541342023188480000000000000000000",
+              "decimal_display": 0.003034551675764459
+            },
+            "positive_leaves": [
+              {
+                "lo": {
+                  "numerator": "-1",
+                  "denominator": "1",
+                  "decimal_display": -1.0
+                },
+                "hi": {
+                  "numerator": "0",
+                  "denominator": "1",
+                  "decimal_display": 0.0
+                },
+                "lower": {
+                  "numerator": "664588742359944743936035046678958709",
+                  "denominator": "1441151880758558720000000000000000000",
+                  "decimal_display": 0.4611510772966792
+                },
+                "depth": 1
+              },
+              {
+                "lo": {
+                  "numerator": "0",
+                  "denominator": "1",
+                  "decimal_display": 0.0
+                },
+                "hi": {
+                  "numerator": "1",
+                  "denominator": "2",
+                  "decimal_display": 0.5
+                },
+                "lower": {
+                  "numerator": "354770243301240116431215750144203727",
+                  "denominator": "5764607523034234880000000000000000000",
+                  "decimal_display": 0.06154282696326648
+                },
+                "depth": 2
+              },
+              {
+                "lo": {
+                  "numerator": "1",
+                  "denominator": "2",
+                  "decimal_display": 0.5
+                },
+                "hi": {
+                  "numerator": "3",
+                  "denominator": "4",
+                  "decimal_display": 0.75
+                },
+                "lower": {
+                  "numerator": "32484991404669414456937506432776158085703697",
+                  "denominator": "10705038132687541342023188480000000000000000000",
+                  "decimal_display": 0.003034551675764459
+                },
+                "depth": 3
+              },
+              {
+                "lo": {
+                  "numerator": "3",
+                  "denominator": "4",
+                  "decimal_display": 0.75
+                },
+                "hi": {
+                  "numerator": "1",
+                  "denominator": "1",
+                  "decimal_display": 1.0
+                },
+                "lower": {
+                  "numerator": "765081531121883780970540829623872600633977",
+                  "denominator": "96714065569170333976494080000000000000000000",
+                  "decimal_display": 0.007910757619580102
+                },
+                "depth": 3
+              }
+            ],
+            "unresolved": [],
+            "nonpositive_witnesses": []
+          }
+        }
+      ],
+      "artificial_planar_radius_corridor_certified": true,
+      "short_axis_rho_derivative_lower": {
+        "numerator": "3248528137423857",
+        "denominator": "800000000000000",
+        "decimal_display": 4.060660171779821
+      },
+      "R7_endpoint_monotonicity_requirements": true
+    },
+    {
+      "name": "affine_to_canonical_landing_c4",
+      "core_c4_slope_mid": {
+        "numerator": "-299204486819126707255646514397",
+        "denominator": "4081936918118400053405761718750",
+        "decimal_display": -0.0732996351538542
+      },
+      "core_c4_slope_error": {
+        "numerator": "13812614823936",
+        "denominator": "2040968459059200026702880859375",
+        "decimal_display": 6.7676767676767674e-18
+      },
+      "endpoints": [
+        {
+          "q": {
+            "numerator": "7566047373982433",
+            "denominator": "72057594037927936",
+            "decimal_display": 0.105
+          },
+          "c4_midpoint": {
+            "numerator": "-959187596060051",
+            "denominator": "144115188075855872",
+            "decimal_display": -0.006655700963004517
+          },
+          "c4_error": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          },
+          "axial_core_gap": {
+            "numerator": "3950698594714753508463",
+            "denominator": "18889465931478580854784",
+            "decimal_display": 0.20914824214966626
+          },
+          "future_full_D_budget": {
+            "numerator": "19753492973573767542315",
+            "denominator": "18889465931478580854784",
+            "decimal_display": 1.0457412107483313
+          },
+          "required_core_rho": {
+            "numerator": "11852095784144260525389",
+            "denominator": "377789318629571617095680",
+            "decimal_display": 0.03137223632244994
+          },
+          "short_axis_rho_upper": {
+            "numerator": "106300627073730796760055",
+            "denominator": "75557863725914323419136",
+            "decimal_display": 1.4068770850819137
+          },
+          "R7_product_upper": {
+            "numerator": "3404411148159613604727464449807856884917848545452419479690245",
+            "denominator": "25711008708143844408671393477458601640355247900524685364822016",
+            "decimal_display": 0.13241064116948792
+          },
+          "R7_less_than_one": true,
+          "radius_surplus_certificate": {
+            "certified_positive": true,
+            "leaf_count": 2,
+            "maximum_depth_used": 1,
+            "minimum_certified_leaf_lower": {
+              "numerator": "266888827234220752369859397",
+              "denominator": "382322790453126476500828160",
+              "decimal_display": 0.6980719797475475
+            },
+            "positive_leaves": [
+              {
+                "lo": {
+                  "numerator": "-1",
+                  "denominator": "1",
+                  "decimal_display": -1.0
+                },
+                "hi": {
+                  "numerator": "0",
+                  "denominator": "1",
+                  "decimal_display": 0.0
+                },
+                "lower": {
+                  "numerator": "326888686394584452419101",
+                  "denominator": "377789318629571617095680",
+                  "decimal_display": 0.8652671483152862
+                },
+                "depth": 1
+              },
+              {
+                "lo": {
+                  "numerator": "0",
+                  "denominator": "1",
+                  "decimal_display": 0.0
+                },
+                "hi": {
+                  "numerator": "1",
+                  "denominator": "1",
+                  "decimal_display": 1.0
+                },
+                "lower": {
+                  "numerator": "266888827234220752369859397",
+                  "denominator": "382322790453126476500828160",
+                  "decimal_display": 0.6980719797475475
+                },
+                "depth": 1
+              }
+            ],
+            "unresolved": [],
+            "nonpositive_witnesses": []
+          }
+        },
+        {
+          "q": {
+            "numerator": "201",
+            "denominator": "500",
+            "decimal_display": 0.402
+          },
+          "c4_midpoint": {
+            "numerator": "-2842569260369921151",
+            "denominator": "100000000000000000000",
+            "decimal_display": -0.02842569260369921
+          },
+          "c4_error": {
+            "numerator": "201",
+            "denominator": "100000000000000000000",
+            "decimal_display": 2.01e-18
+          },
+          "axial_core_gap": {
+            "numerator": "1896380169751628835375667",
+            "denominator": "2361183241434822606848000",
+            "decimal_display": 0.8031482421496663
+          },
+          "future_full_D_budget": {
+            "numerator": "1896380169751628835375667",
+            "denominator": "472236648286964521369600",
+            "decimal_display": 4.015741210748331
+          },
+          "required_core_rho": {
+            "numerator": "5689140509254886506127001",
+            "denominator": "47223664828696452136960000",
+            "decimal_display": 0.12047223632244994
+          },
+          "short_axis_rho_upper": {
+            "numerator": "3782197848874073367391346492714115291",
+            "denominator": "1441151880758558720000000000000000000",
+            "decimal_display": 2.624426959692334
+          },
+          "R7_product_upper": {
+            "numerator": "58143601381293003155774883223930682824872104978775194375667126939875206320621",
+            "denominator": "61299821634635554334333881086012367344749564887344087040000000000000000000000",
+            "decimal_display": 0.9485117546971911
+          },
+          "R7_less_than_one": true,
+          "radius_surplus_certificate": {
+            "certified_positive": true,
+            "leaf_count": 4,
+            "maximum_depth_used": 3,
+            "minimum_certified_leaf_lower": {
+              "numerator": "540574766565251307043806333377600616934100149",
+              "denominator": "203395724521063285498440581120000000000000000000",
+              "decimal_display": 0.0026577489169850783
+            },
+            "positive_leaves": [
+              {
+                "lo": {
+                  "numerator": "-1",
+                  "denominator": "1",
+                  "decimal_display": -1.0
+                },
+                "hi": {
+                  "numerator": "0",
+                  "denominator": "1",
+                  "decimal_display": 0.0
+                },
+                "lower": {
+                  "numerator": "647966779621302914087608097129634709",
+                  "denominator": "1441151880758558720000000000000000000",
+                  "decimal_display": 0.4496172737048657
+                },
+                "depth": 1
+              },
+              {
+                "lo": {
+                  "numerator": "0",
+                  "denominator": "1",
+                  "decimal_display": 0.0
+                },
+                "hi": {
+                  "numerator": "1",
+                  "denominator": "2",
+                  "decimal_display": 0.5
+                },
+                "lower": {
+                  "numerator": "321526317823956434036219729098256727",
+                  "denominator": "5764607523034234880000000000000000000",
+                  "decimal_display": 0.055775925167359734
+                },
+                "depth": 2
+              },
+              {
+                "lo": {
+                  "numerator": "1",
+                  "denominator": "2",
+                  "decimal_display": 0.5
+                },
+                "hi": {
+                  "numerator": "3",
+                  "denominator": "4",
+                  "decimal_display": 0.75
+                },
+                "lower": {
+                  "numerator": "540574766565251307043806333377600616934100149",
+                  "denominator": "203395724521063285498440581120000000000000000000",
+                  "decimal_display": 0.0026577489169850783
+                },
+                "depth": 3
+              },
+              {
+                "lo": {
+                  "numerator": "3",
+                  "denominator": "4",
+                  "decimal_display": 0.75
+                },
+                "hi": {
+                  "numerator": "1",
+                  "denominator": "1",
+                  "decimal_display": 1.0
+                },
+                "lower": {
+                  "numerator": "904516660726955687145519274160532437561977",
+                  "denominator": "96714065569170333976494080000000000000000000",
+                  "decimal_display": 0.009352483068556778
+                },
+                "depth": 3
+              }
+            ],
+            "unresolved": [],
+            "nonpositive_witnesses": []
+          }
+        }
+      ],
+      "artificial_planar_radius_corridor_certified": true,
+      "short_axis_rho_derivative_lower": {
+        "numerator": "133871024453136802837388305233",
+        "denominator": "32655495344947200427246093750",
+        "decimal_display": 4.0994945273078125
+      },
+      "R7_endpoint_monotonicity_requirements": true
+    }
+  ],
+  "seconds": 0.2277645570011373,
+  "peak_rss_kib": 13052,
+  "physical_RHS_evaluations": 0,
+  "Jacobian_evaluations": 0,
+  "Node_workers": 0,
+  "BVP_solves": 0,
+  "limitations": [
+    "Input is an unaccepted actual-inner iterate, not a converged or audited surface.",
+    "All high coefficients are artificially frozen; a true later BVP can change all of them.",
+    "The exact statements concern only the finite support curves defined by the displayed binary64 coefficients.",
+    "D<=5d is a future whole-surface budget, not its measured diameter.",
+    "A negative witness rejects this rho>=.15d sufficient budget for this artificial path, not actual reach or existence.",
+    "No closed held amplitude, exact isometry, continuous surface reach or topic completion follows."
+  ]
+}

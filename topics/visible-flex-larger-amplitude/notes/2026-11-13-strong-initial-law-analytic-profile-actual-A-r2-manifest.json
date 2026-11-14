@@ -1,0 +1,98 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T19:29:49.157050+00:00",
+  "title": "actual-A-r2",
+  "scope": "Actual accepted A lambda0 complete ideal-analytic meridian proof, 47 exact rational gates. This is not a continuous surface/mean or floating-realization certificate.",
+  "actual_owned_runs": [
+    {
+      "prefix": "2026-11-13-strong-initial-law-analytic-profile-source-prepare-r2",
+      "owned_exitcode": 0,
+      "wait4_observed": true,
+      "wall_seconds": 0.5326340120009263,
+      "peak_rss_kib": 14080
+    },
+    {
+      "prefix": "2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r2",
+      "owned_exitcode": 0,
+      "wait4_observed": true,
+      "wall_seconds": 0.5297357879971969,
+      "peak_rss_kib": 15444
+    }
+  ],
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r2-heartbeat.json",
+      "bytes": 333,
+      "sha256": "b70358dc49ba5952d214fa859f612f183f447ff6a46369c48c339dfc4bde29ec"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r2-ownership.json",
+      "bytes": 1601,
+      "sha256": "8dc2e77961598795c09e7311b263e6dcfc332dd14f3a81a1bb95480ff085a970"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r2-plan.json",
+      "bytes": 1229,
+      "sha256": "0426caf3ec51397b893061b6744bf74c9c2c16ae6ae8a301add475fe74cff996"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r2-resource.json",
+      "bytes": 1364,
+      "sha256": "5b0682f6d9edfdb7991be19ad9852e2fe42668a4e7bff12dc71860ab68819cae"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r2-stdout.log",
+      "bytes": 1553,
+      "sha256": "9e38329194ed9c4c6f6d18ec319e82e15a1872062611b2e250e0cc339cc52457"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r2.json",
+      "bytes": 3707,
+      "sha256": "1c4ed35c10218cca16c8158af18abd2a20750b74cf2fa01e9240b0a5d89283ae"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r2-heartbeat.json",
+      "bytes": 331,
+      "sha256": "fce3680a4cfc1af75260a74b7d6e3bd0942b2ce96b4a91bc939b92f8d2e1a565"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r2-ownership.json",
+      "bytes": 1788,
+      "sha256": "8b47f11b8a2ba383fe20ef93b9fbc421b4fd9e1ba9e9fd00f6fa3edf3d329d77"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r2-plan.json",
+      "bytes": 1419,
+      "sha256": "a1bf5fb5b364c78696f1c6ef93d09e8b46a6b9ec7c45dc3c2f16f24d86d0c4d3"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r2-resource.json",
+      "bytes": 1576,
+      "sha256": "2f8bf44539b1d51edd744468c915818c221b751885907b9761bb3094b4b1912e"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r2-stdout.log",
+      "bytes": 1870,
+      "sha256": "2779d6cdf92aa5e9d4e5ccb3a7e361b8a345efdd0a2759e5a95e56c70469fc09"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r2.json",
+      "bytes": 80917,
+      "sha256": "677e396ac6784e8a671d7ac2aebbbd30b350fd9b5a63c41253e84cbe9d7a9dd3"
+    },
+    {
+      "file": "computations/strong_newg_initial_law_analytic_profile_bounds_v2.py",
+      "bytes": 15234,
+      "sha256": "2a51ad3d69e9e86c8b5463264c90b4cf66593f0b60adf7897cb318bb9f96b287"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-domain-extension.md",
+      "bytes": 4598,
+      "sha256": "e35c670b5b47f737590ed9462832f62d6bb2ad5f04641bdcf10476d13f5278b9"
+    }
+  ],
+  "bytes": 117520,
+  "mathematical_provider_and_production_sources_unchanged": true,
+  "Node_ODE_or_geometry_calls": 0,
+  "original_proof_sha256": "cf80d379758054726cc1f77d8065eaf2eab59c3015fb263cb8a8f5918a664af5"
+}

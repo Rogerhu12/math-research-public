@@ -1,0 +1,72 @@
+{
+  "schema": "r102-stable-small-text-manifest-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-13",
+  "status": "Complete conditional theorem and actually executed eight-part exact budget; local gzip consumer remains prepared",
+  "scope": "Same original R95 cell0/seg7 candidate, full scalar mean and finite J; complete true-field error still a hypothesis",
+  "files": [
+    {
+      "path": "results/R102-seg7-nonuniform-field-and-defect-budget.md",
+      "git_blob": "6ae644e0ecd9db0fce75f3ca4dda7cc71d80a5b2",
+      "sha256": "4620a679fb0d546b3f3d947fde4c4fd2ede0054b4ca30ef640a358ea3307aa5b",
+      "bytes": 12645
+    },
+    {
+      "path": "computations/tail_r102_seg7_field_defect_budget.js",
+      "git_blob": "19ffd97c8b5c47a73f0f11d1dcbbab13d190de98",
+      "sha256": "b360bb1994a3ffcaf4925830e5e6d9cc12d8339426361592318324921c7464a0",
+      "bytes": 17222
+    },
+    {
+      "path": "notes/2026-11-12-tail-r102-seg7-field-defect-budget.json",
+      "git_blob": "bed96384ecd760a6119e0c91dccee5dfd4f990e0",
+      "sha256": "d01b7310f9d76fa5d5d56f44805c67fedf7be776a78435803943edcda424bc6f",
+      "bytes": 47985
+    },
+    {
+      "path": "computations/tail_r102_local_physical_defect.py",
+      "git_blob": "a82ccb8b7e7107db21191d2003ab6bbd0331fedc",
+      "sha256": "db189dfe9b6149ee56f8ad918424c1874ab353e9e67a2165a6de32bfa966af9a",
+      "bytes": 18626
+    },
+    {
+      "path": "notes/2026-11-12-tail-r102-local-execution-plan.json",
+      "git_blob": "733de0ed5bff0af6f7dc7c52f6fcb12ca84bb5f5",
+      "sha256": "6be5715b26bcc8f42bda421091981b94ee89a03a6e48aa21456b642edbbc76af",
+      "bytes": 9814
+    },
+    {
+      "path": "notes/2026-11-12-tail-r102-input-access-correction.md",
+      "git_blob": "1d6874c9cb7d18f8455dbabb111d1fdff11b7cd1",
+      "sha256": "0aa00298999f19abeb8d49baa9f7a1f7a9b29404993bde7425d46f9a0dbc6a4f",
+      "bytes": 1278
+    }
+  ],
+  "actual_result": {
+    "exact_BigInt_data_gates": 8,
+    "all_data_gates": true,
+    "original_parts": 8,
+    "original_continuous_leaves": 1740,
+    "epsilon": "1/512",
+    "nonzero_physical_defect_budget": "1/20",
+    "conditional_curvature_upper_decimal": "8.242899160965572709",
+    "target": "33/4",
+    "part0_strict_dH_budget_lower_decimal": "0.057045898172115580",
+    "original_part0_coarse_dH_upper_decimal": "0.124918460803230515",
+    "other_seven_original_coarse_dH_budgets_already_fit": true,
+    "no_true_PDE_error_or_part0_refined_defect_claimed": true
+  },
+  "next_local_execution": {
+    "command_source": "notes/2026-11-12-tail-r102-local-execution-plan.json",
+    "default_parts": "0",
+    "default_actual_gzip_leaves": 37,
+    "other_parts": "Reuse the original formally paid seven summary bounds; do not rerun their physical evaluations.",
+    "optional_all_original_leaves": 1740,
+    "python_AST_and_execution_done": false,
+    "source_format": "Local gzip parser follows the actually read original producer and stream-check code.",
+    "no_encoded_or_binary_tool_read": true
+  },
+  "incident_record": "notes/2026-11-12-tail-r102-input-access-correction.md",
+  "no_repository_ref_or_shared_file_changed": true,
+  "all_api_blobs_are_plain_UTF8_under_100KB": true
+}

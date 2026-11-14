@@ -1,0 +1,131 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Complete conditional theorem and exact BigInt symbolic identities; Python consumer prepared, not AST-checked or numerically executed",
+  "sources": [
+    {
+      "path": "computations/tail_r99_field_to_physical_jets.py",
+      "git_blob": "6f91f02231743967379ccb605064e1fb012642ec",
+      "sha256": "cfa47b2ccda2e05563f8b17c391280a6c6d28d43ace4c9c32d801f72c549557e",
+      "bytes": 9164
+    },
+    {
+      "path": "computations/tail_r99_symbolic_identities.js",
+      "git_blob": "93774edad321cc7b64d8990fcdc7e789d8c4d017",
+      "sha256": "4c83676081e5af84a596e4792155fd97abe812406439dd2da02998e46ef68cce",
+      "bytes": 5852
+    }
+  ],
+  "proof": {
+    "path": "results/R99-complete-mean-field-to-physical-jet-bridge.md",
+    "git_blob": "483d6ed22f8556076c48555c532b9287af812cfc",
+    "sha256": "655d387a3165d59211027988148617d36a9be21cabdf895107121ed328aa4a15",
+    "bytes": 12385
+  },
+  "executed_symbolic_identity": {
+    "path": "notes/2026-11-12-tail-r99-full-mean-polynomial-identities.json",
+    "git_blob": "afd9f5054c931dfeb7f53b36ebe5091eb1129619",
+    "sha256": "7d03279f3f53872a35f4ce675fe2918816e3b5e969f00198be9128f0eeff9677",
+    "bytes": 1400
+  },
+  "symbolic_reproduction": {
+    "engine": "functions.exec V8 exact BigInt, no Node or local executor",
+    "call": "Evaluate computations/tail_r99_symbolic_identities.js, then verifyR99Identities(raw_frozen_finite_J_source)",
+    "raw_source": "computations/tail_outer_substage_span_refinement.py",
+    "raw_source_sha256": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+    "actual_result": "21 full monomials including 10 with c or c_x; both polynomial differences contain zero monomials",
+    "four_exact_gates_passed": true,
+    "formal_OS_process_exit_claimed": false
+  },
+  "future_standard_library_command": [
+    "{python}",
+    "-B",
+    "computations/strong_resource_run.py",
+    "--out",
+    "{prefix}-resource.json",
+    "--",
+    "{python}",
+    "-B",
+    "computations/tail_r99_field_to_physical_jets.py",
+    "--input",
+    "{source_bound_conditional_input_json}",
+    "--out",
+    "{prefix}.json"
+  ],
+  "input_schema": {
+    "schema": "complete-mean-field-to-physical-jets-input-v1",
+    "required_hypotheses": [
+      "same_true_metric_and_physical_radius",
+      "candidate_is_one_compatible_height_with_actual_derivatives",
+      "candidate_complete_mean_root_and_actual_mean_derivative",
+      "comparison_is_a_true_full_unprojected_Darboux_height",
+      "comparison_uses_the_same_complete_mean_branch",
+      "joint_real_A_D_L_caps_cover_both_complete_roots",
+      "differences_are_A0_Fourier_mass_bounds",
+      "both_nonmean_fields_have_zero_mean_and_minimum_mode_two",
+      "candidate_J_uses_all_frequencies_and_complete_mean"
+    ],
+    "background_bounds": [
+      "r_lower",
+      "r_upper",
+      "w_lower",
+      "w_upper",
+      "r_x_lower",
+      "abs_w_r_upper"
+    ],
+    "joint_field_bounds": [
+      "P_A0_upper",
+      "complete_K_A0_upper",
+      "P_theta_A0_upper",
+      "K_theta_minus_P_A0_upper",
+      "real_A_lower",
+      "real_D_lower",
+      "real_L_lower"
+    ],
+    "field_difference_A0_upper": [
+      "Kbar",
+      "P",
+      "P_theta",
+      "Kbar_theta"
+    ],
+    "candidate_residual": {
+      "required": "complete_J_A0_upper",
+      "optional_same_quantity_bounds": [
+        "complete_physical_Darboux_upper",
+        "complete_physical_RK_upper"
+      ]
+    },
+    "optional_reference_to_candidate_physical_jet_upper": [
+      "h_r",
+      "h_theta",
+      "h_rr",
+      "h_rtheta",
+      "h_thetatheta"
+    ],
+    "optional_r95_uniform_physical_gate": "1/8192",
+    "exact_numbers": "integers, rational strings or {numerator,denominator}; no binary-float input is accepted",
+    "boolean_hypotheses_are_not_mathematical_certificates": true
+  },
+  "provenance_and_units": [
+    "First restore and read actual original PM/PA/R77 schemas. Preserve their original producer hashes; do not relabel parts/output as groups/path or guess primary field names.",
+    "P and Kbar are normalized by the same actual r,w. Convert old source-x derivatives using the actual positive r_x. Physical derivative and angle coordinates are the original polar surface chart, not Cartesian graph derivatives.",
+    "For R95's old R48 reference, add the complete actual R48 -> PA -> CF five-jet difference. The current v3 paired mean supplies only the PA/CF part of that bridge.",
+    "The four true field-difference caps must contain all modes and all complete-mean branch/domain obligations. A projected low solution, a conditional high block or two candidate differences alone is not that certificate.",
+    "Candidate J is the full actual numerator including c,c_x and all modes through 80 for the finite 20-mode height. R77 zero-mode refinement is allowed only on the same candidate and physical source leaf.",
+    "The additive candidate term w*J/(r_x*L) remains even when the four field errors vanish. No candidate second derivative is replaced by its PDE value.",
+    "Complete mean-height location is integrated with I00+I01 and one common constant. A later frame/normal or reach claim still requires the real immersion and complete spatial pair coverage.",
+    "If the candidate itself varies with a parameter, also retain DJ/L-J*DL/L^2 in the derivative of its additive defect; this finite error map does not certify a Newton inverse."
+  ],
+  "outputs": [
+    "{prefix}.json",
+    "{prefix}-resource.json"
+  ],
+  "next_execution_checks": [
+    "When the executor is available, perform Python AST/import check without any source evaluation.",
+    "Construct an actual source-bound input only after the stated true-solution and error obligations are supplied; until then the theorem remains conditional.",
+    "Run the standard-library consumer in a fresh prefix and preserve any formal failure, without changing the old scientific sources."
+  ],
+  "no_new_Arb_ODE_Node_or_source_integral": true,
+  "true_solution_or_four_error_caps_paid": false,
+  "full_surface_geometry_claimed": false
+}

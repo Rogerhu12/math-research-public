@@ -1,0 +1,27 @@
+{"event": "complete_fixed_actual_LF_source", "block": 0, "low_mass": 20.216244885252095, "physical_low": 2.773689160586737e-29}
+{"event": "complete_fixed_actual_LF_source", "block": 1, "low_mass": 20.2160772011325, "physical_low": 3.21065303085887e-29}
+{"event": "complete_fixed_actual_LF_source", "block": 2, "low_mass": 19.343224587594193, "physical_low": 6.352680475986475e-25}
+{"event": "complete_fixed_actual_LF_source", "block": 3, "low_mass": 19.342091323961775, "physical_low": 6.6339402434811e-17}
+{"event": "complete_fixed_actual_LF_source", "block": 4, "low_mass": 18.40844072116852, "physical_low": 5.937070741862956e-17}
+{"event": "complete_fixed_actual_LF_source", "block": 5, "low_mass": 18.406705407871282, "physical_low": 6.22517375395546e-17}
+{"event": "complete_fixed_actual_LF_source", "block": 6, "low_mass": 18.11080742757465, "physical_low": 1.8777185314811557e-24}
+{"event": "complete_fixed_actual_LF_source", "block": 7, "low_mass": 18.109746571781567, "physical_low": 1.8421779378725137e-24}
+{"event": "complete_fixed_actual_LF_source", "block": 8, "low_mass": 17.843724009660267, "physical_low": 1.8143696510722123e-24}
+{"event": "complete_fixed_actual_LF_source", "block": 9, "low_mass": 17.843132687807795, "physical_low": 1.9447133596456297e-24}
+{"event": "complete_fixed_actual_LF_source", "block": 10, "low_mass": 17.842981986725892, "physical_low": 2.29725251755784e-24}
+{"event": "complete_fixed_actual_LF_source", "block": 11, "low_mass": 16.72898028532016, "physical_low": 1.1915150508637972e-20}
+{"event": "complete_fixed_actual_LF_source", "block": 12, "low_mass": 16.727020922022692, "physical_low": 7.135864199871093e-19}
+{"event": "complete_fixed_actual_LF_source", "block": 13, "low_mass": 16.563280690742953, "physical_low": 2.951331253072342e-16}
+{"event": "complete_fixed_actual_LF_source", "block": 14, "low_mass": 16.550122324739572, "physical_low": 2.54010966495681e-14}
+{"event": "complete_fixed_actual_LF_source", "block": 15, "low_mass": 16.540369098420197, "physical_low": 2.1186227158804506e-13}
+{"event": "complete_fixed_actual_LF_source", "block": 16, "low_mass": 16.53554304694799, "physical_low": 6.102218021411173e-13}
+{"event": "complete_fixed_actual_LF_source", "block": 17, "low_mass": 16.533034421943793, "physical_low": 1.1335290495153287e-12}
+{"event": "complete_fixed_actual_LF_source", "block": 18, "low_mass": 16.531342153118025, "physical_low": 1.4742145451248445e-12}
+{"event": "complete_fixed_actual_LF_source", "block": 19, "low_mass": 16.53010357636159, "physical_low": 1.5461251900579287e-12}
+{"event": "complete_fixed_actual_LF_source", "block": 20, "low_mass": 16.520481481737463, "physical_low": 1.4587291379054182e-12}
+{"event": "complete_fixed_actual_LF_source", "block": 21, "low_mass": 16.51808369608863, "physical_low": 1.525420268626347e-12}
+{"event": "complete_fixed_actual_LF_source", "block": 22, "low_mass": 16.063156761182842, "physical_low": 9.608298540426659e-20}
+{"event": "complete_fixed_actual_LF_source", "block": 23, "low_mass": 16.061276127147647, "physical_low": 9.814454358408879e-20}
+{"event": "complete_fixed_actual_LF_source", "block": 24, "low_mass": 15.644476946460797, "physical_low": 9.550085531201271e-20}
+{"all_gates": false, "new_fixedpoint": false, "same_field": false, "failure": {"reason": "complete_constant_upper_budget_exceeds_paid_physical_domain", "blocks": [17, 18, 19, 20, 21, 23, 24]}, "primary_sha256": "be04d5fddf74632d57b11acee45bdbabecbfc339a5420f8e202f72a95a6a039d", "bytes": 78243, "elapsed_seconds": 30.842480560000695, "peak_rss_kib": 96312}
+{"event": "child_exit", "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n", "command": ["python", "-u", "/workspace/scratch/d1aa462cfc02/root-work/R160-fixed-low-newwidth-inputs/root_R160_fixed_low_newwidth_nonlow.py", "--inputs", "/workspace/scratch/d1aa462cfc02/root-work/R160-fixed-low-newwidth-inputs/input-manifest.json", "--out", "/workspace/scratch/d1aa462cfc02/root-work/r127/R160-fixed-LF-shift040-r1.json.gz", "--shift", "2/5", "--finite-source-extra-width", "1/2"], "wall_seconds": 31.525295972824097, "exitcode": 0, "termination_signal": null, "peak_rss_kib": 96312, "user_seconds": 18.178589, "system_seconds": 0.525758, "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"}

@@ -1,0 +1,59 @@
+{
+  "status": "Running same-g accepted-trial recovery; final variational and actual-tail acceptance required.",
+  "reference": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+  "reference_sha256": "7d9ff26ec1f33106e1ea341a6711004d076bfa9dbb181b99b0e1507449cb297e",
+  "complete_physical_data_frozen": true,
+  "changed_discretization": {
+    "modes": [
+      16,
+      20
+    ],
+    "angular": [
+      384,
+      512
+    ]
+  },
+  "prefix_tolerance_unchanged": 1e-06,
+  "tail_physical_and_numerical_parameters_unchanged_except_modes_and_IO": true,
+  "command": [
+    "python",
+    "-u",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-resume1-resource.json",
+    "--",
+    "python",
+    "-u",
+    "computations/root_actual_bounded_neck.py",
+    "--fixed-reference",
+    "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+    "--restart",
+    "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+    "--client",
+    "stored-resumable",
+    "--tail-config",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-resume1-config.json",
+    "--node-heap",
+    "448",
+    "--modes",
+    "20",
+    "--angular",
+    "512",
+    "--nodes",
+    "0",
+    "--tol",
+    "1e-6",
+    "--max-nodes",
+    "2400",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--out-prefix",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-resume1"
+  ],
+  "previous_attempt_status": "notes/2026-11-12-root-fixed-actual-m20-session-status.json",
+  "accepted_tail_recovery_sha256": "0584d3bff42a8ca0cb66ac6471d8f645b2c04c54a66a209034ade2f0cb7742f2",
+  "configuration_changes_from_previous_attempt": "Only initialCheckpoint and output/log paths; no metric, discretization, tolerance, nonlinear equations or acceptance changes.",
+  "started_utc": "2026-11-12T06:27:00.383492+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "status": "Frozen complete actual R80 same-candidate segment6 application",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "computations/tail_outer_remaining_piece_moment_application.py",
+      "sha256": "22af41bfe22423817a871cf49c717387b2d625d3166be9c55dbf1c59ce8cf44c",
+      "bytes": 4004
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-seg6-actual-prepared-plan.json",
+      "sha256": "c628668507252d6b71da55b04d299649fd4a3b5f4c82f527fefb55aaf8e9516d",
+      "bytes": 7315
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg6-capped-moments-r1-summary.json",
+      "sha256": "1c5b5cb5bf5ccb85194cf1388280039cf0827420f154dc437d201e69a2e483ac",
+      "bytes": 9386
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg6-capped-moments-r1-integrals.jsonl.gz",
+      "sha256": "fae40eedc9bec8a04ecf447745a840d89926ef6a79dd039fed3cbcb6929bc40d",
+      "bytes": 11258
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg6-capped-moments-r1-resource.json",
+      "sha256": "e679599e5daa1c7bd8a061f46f5a1c47d0434d50e4b5d89f8b5e45d225adc6f6",
+      "bytes": 1302
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg6-refined-moments-fullJ-r1.json",
+      "sha256": "e89833b2ec1183f2ee286cb6771e71c62f280093951e7355ac207e6cba71ba1a",
+      "bytes": 43577
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg6-refined-moments-fullJ-r1-segment6.jsonl.gz",
+      "sha256": "197ca399aaaa76fe928b6f2e2b783b8db42543d8282e8b832223d816fa042846",
+      "bytes": 37139
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg6-refined-moments-fullJ-r1-resource.json",
+      "sha256": "7c591cce74099121ca844426d0da6bece3229a00f0942f53ca62ccebda9189cc",
+      "bytes": 1422
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-R80-seg6-r1.json",
+      "sha256": "17eaa6f1622432b4495d969657320f07696a46c87c65719ccb13f33f0e2ef046",
+      "bytes": 15602
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-R80-seg6-r1-resource.json",
+      "sha256": "67339935b71a24ab9094d20b28d6cbdd20452bb4943126a5c282aff899d8577f",
+      "bytes": 1077
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-seg6-complete-application.md",
+      "sha256": "dbf0eedfae26590220bc118a53b715b0980a346a6d5bc79a67edeb44f4fe3b2c",
+      "bytes": 4280
+    }
+  ],
+  "file_count": 11,
+  "total_bytes": 136362,
+  "formal_tool_and_wait4_all_zero": true,
+  "original_segment6_leaves": 16,
+  "whole_candidate_leaves": 7563,
+  "largest_bound_segment": 8,
+  "full_cell_physical_Darboux_upper": [
+    5282155351558415257462066993059387737786432123484362199527,
+    -197
+  ],
+  "scope": "Actual full capped source; same positive real moments and shared endpoint candidate. Full mean, true derivative, all finite J modes, R77 and exact whole-cell composition. No exact outer solution or inverse claimed.",
+  "excludes": "Already preserved original sources/primary, previous R80 theorem/package and redundant completed recovery JSON."
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/strong_newg_analytic_profile_bounds.py",
+    "--accepted",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--source-dir",
+    "computations",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/q106-newg-profile-r1/profile.json"
+  ],
+  "wall_seconds": 0.11707854270935059,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 12844,
+  "user_seconds": 0.070311,
+  "system_seconds": 0.044503999999999995,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

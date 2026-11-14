@@ -1,0 +1,53 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Stable complete proof and consumer source only; no actual Python AST or numerical run has occurred.",
+  "files": [
+    {
+      "path": "computations/tail_outer_carrier_mean_ledger_v3.py",
+      "sha256": "857d698dde2a6ca548c2ad55f6297d03fb0bc61870427bcf78d000225de16fd5",
+      "bytes": 36280,
+      "git_blob": "313745424889e3fb45f76f5b2e175e31aac1c70a"
+    },
+    {
+      "path": "notes/2026-11-12-tail-two-complete-mean-radial-difference.md",
+      "sha256": "d3225e6fd8a4dfef43acee82bdf3b846e3c279dbfd8c242bb1aaaf170f72dc24",
+      "bytes": 9631,
+      "git_blob": "29f384b56ef3a9918c95f1db20163a4e2668a5ba"
+    },
+    {
+      "path": "notes/2026-11-12-tail-carrier-paired-mean-v3-execution-plan.json",
+      "git_blob": "60515ecf70bac7c664d8315323339b6025c2f172",
+      "sha256": "7f4916a70a472daf1649b3b638c38764c865237adfd9c662e4945e69fd441bc0",
+      "bytes": 9807
+    }
+  ],
+  "prior_dependencies": [
+    {
+      "path": "notes/2026-11-12-tail-carrier-mean-and-geometric-interface.md",
+      "sha256": "53f94bddfcd87980413f022e4c35ad4d937d5d73cf2ef002a8eec228348a4f0a",
+      "git_blob": "f9825c51552e9cc0be8e09e28894b8943c9ba4f8"
+    },
+    {
+      "path": "notes/2026-11-12-tail-two-complete-mean-roots-rational-difference.md",
+      "sha256": "f617b8c1063b13ce1da3f0821b5bb4441660d2eaa94b7de5078b7ceab430bb2e",
+      "git_blob": "5b36cd3f41fb57dbc0a460e72b17d66518d386bd"
+    }
+  ],
+  "scope": "Real continuous same-pair complete mean and physical c_r comparison. No candidate replacement, exact outer solution or spatial matching is assumed.",
+  "unchanged_previous_sources": [
+    {
+      "path": "computations/tail_outer_carrier_mean_ledger_v2.py",
+      "sha256": "26a044601696e723fbe9a44dd93b3c9dd0b6b1d4810702d0f1e985154da0d42e",
+      "bytes": 30417,
+      "git_blob": "5eb49e7d7884847682010381afa8d68a729f5f9c"
+    },
+    {
+      "path": "computations/tail_outer_carrier_mean_ledger.py",
+      "git_blob": "737ccf2f02e46bf498f0dc7e97b82c62067fc50b",
+      "sha256": "1c4698d2b5a0e658ed486251837e6941dd3166b5581372374c1689a16e8eca6b"
+    }
+  ],
+  "no_ref_update": true,
+  "no_MJS_change": true
+}

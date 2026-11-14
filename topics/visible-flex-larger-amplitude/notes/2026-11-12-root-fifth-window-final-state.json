@@ -1,0 +1,138 @@
+{
+  "status": "Actual fifth availability window observations; execution unavailable again; ongoing mathematics",
+  "author": "root (GPT-6 Astra Pro, AI-assisted), 2026-11-12",
+  "window": {
+    "available_at": "2026-11-12T22:56:53Z",
+    "unavailable_again_approximately": "2026-11-12T23:18:00Z",
+    "current_failure": "No usable execution environment; no new M28 or m94/96 job started"
+  },
+  "last_actual_pull": {
+    "utc": "2026-11-12T23:16:43.513445+00:00",
+    "commit": "90c047bc88c09d7ec6d0913ff57730a4f13be24c",
+    "root_readme_blob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic_readme_blob": "696eb3ba7d3a90636e51e8fbdd573b2f37cae707",
+    "both_unchanged": true
+  },
+  "r88_original_publication": {
+    "main_commit": "1472688dc0860182c0a5a082e5bd3cd6be3f854d",
+    "source_final_commit": "a0a7023d4d9209df525af26bcdec18333c02ec91",
+    "ordinary_merge": "90ed38b9dceb09005ff5d860527013df80f582e0",
+    "original_files": 108,
+    "original_bytes": 20414698,
+    "recomputed": 0,
+    "normal_terminal_git": true,
+    "push_batches": 8,
+    "manifest": "notes/2026-11-12-root-r88-recovered-original-output-manifest.json",
+    "manifest_blob": "156e1b70aa89c10499cfd44dc51deac9d1c04452",
+    "publication_session": 30787,
+    "owned_terminal_result_retrieved": false,
+    "remote_main_and_file_identities_verified": true,
+    "first_attempt": {
+      "session": 87306,
+      "formal_exit": 1,
+      "reason": "write-tree attempted unrelated old promisor fetch; child signal9, cause unknown"
+    },
+    "corrective_change": "git write-tree --missing-ok; existing parent promised objects preserved, all new objects materialized and hash checked"
+  },
+  "r97_actual": {
+    "status": "Completed actual pure Fraction run, original source and complete outputs not yet published",
+    "formal_tool_exit": 0,
+    "tool_chunk": "9e2942",
+    "wait4_exit": 0,
+    "signal": null,
+    "wall_seconds": 0.08518123626708984,
+    "peak_rss_kib": 13596,
+    "user_seconds": 0.072283,
+    "system_seconds": 0.008371,
+    "mathematical_gates": 25,
+    "all_gates": true,
+    "input_sha_gates": 4,
+    "source": "/tmp/visible-flex-larger-20261112T2304/root-r97-source/root_full46_source_cut_transfer.py",
+    "source_sha256": null,
+    "source_hash_status": "Not read before outage; not fabricated",
+    "output_directory": "/tmp/visible-flex-larger-20261112T2304/root-r97-run/notes",
+    "artifacts": [
+      {
+        "suffix": "-summary.json",
+        "bytes": 23710,
+        "sha256": "4d9a1e130f93d810370136cd6e602a0afc6542a9ad21f98992cbdb9267e7f76d"
+      },
+      {
+        "suffix": "-modes02to32.json",
+        "bytes": 59935,
+        "sha256": "21bf3890b7c55fc263723f0cda11deb48facaf31c952ff32b6f54c1699a99390"
+      },
+      {
+        "suffix": "-modes34to64.json",
+        "bytes": 59933,
+        "sha256": "fbff791ca95a9253af4216daaacf448b6db945f4fd3d37be0099952ad507d408"
+      },
+      {
+        "suffix": "-modes66to92.json",
+        "bytes": 52497,
+        "sha256": "ab7fad867402a3fac2153f5a2eaba4c5841a2370aaef95d2485da88142330876"
+      },
+      {
+        "suffix": "-resource.json",
+        "bytes": 1549,
+        "sha256": "e1b110abb497da4c0b3bf0c0efcf5ea228a5fd98b734ffe9a5fe91cb24ae0510"
+      },
+      {
+        "suffix": "-console.log",
+        "bytes": 2029,
+        "sha256": "e41cb524b7de08133586581880d798b2b96dae5e509384c524bc3803a515de71"
+      }
+    ],
+    "output_prefix": "2026-11-12-root-r97-full46-cut-r1",
+    "all_artifact_bytes": 199653,
+    "inputs": [
+      {
+        "name": "R83 complete primary",
+        "sha256": "4ec6d30adb9eb639e658bcaa86873cfed0675ab975d3a8f92778888339f966b2"
+      },
+      {
+        "name": "R92 ledger",
+        "sha256": "9ef88cdeef25ed0dd688082e53b25b5f8aacda2bd67c9dada61c250cefa4052a"
+      },
+      {
+        "name": "R94 ledger",
+        "sha256": "5eb45673a9080ae251e77c3203cfc2142ba31850fc244c7e2c8500df774249bc"
+      },
+      {
+        "name": "R78 complete primary",
+        "sha256": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930"
+      }
+    ],
+    "directed_upper_results": {
+      "whole_beta_sigma": "6.884236842473447735478950341e-49",
+      "whole_beta_head": "1.169846810758746776775870934e-48",
+      "whole_transverse_beta_head_bridge": "1.784041434191851112938687039e-60",
+      "mode92_beta_sigma": "9.954255913517759718156967457e-74",
+      "high_head_near": "5.499972163462194567846076791e-48",
+      "high_head_rest": "1.246487962558795791062788432e-45",
+      "high_head_infinite": "1.526102889681399792436203179e-54"
+    },
+    "recovery": "Read and hash originals first. Only if lost, reconstruct from complete proof and pinned inputs and rerun under original owned resource wrapper. Do not move the large complete ledger as connector chunks."
+  },
+  "tail": {
+    "original_recovery_observation_blob": "a7fead7d8b882f0c602c8ff872e5583c9d155e55",
+    "original_files": 13,
+    "dependencies": 34,
+    "resource_exit0_count": 4,
+    "pm_pa_complete_leaves_each": 111,
+    "recomputed": 0,
+    "unpublished_full_manifest": "/tmp/visible-flex-larger-20261112T2304/tail-owned/2026-11-12-tail-original-pm-pa-r77-recovered-manifest.json",
+    "manifest_sha256": "68e7764eeba3369bbe560ea46e86c2534f379e5c0a4e3decf354ff08bd1f5744",
+    "manifest_bytes": 21168,
+    "original_files_published": false
+  },
+  "continuation": {
+    "exact_reserved": "R98",
+    "tail_reserved": "R99",
+    "restart_interrupted_agents_with": "followup_task, not send_message",
+    "actual_math_slots": "one large Node and one 96MiB Arb; pure Fraction may run concurrently",
+    "source_runtime": "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258",
+    "runtime_commit": "63aa2751892f99380668f4d22c0a8255a5e59ea7",
+    "science_files_or_old_locks_deleted": false
+  }
+}

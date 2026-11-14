@@ -1,0 +1,28 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_refined_moment_source.py",
+    "--cell-manifest",
+    "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json",
+    "--moment-summary",
+    "notes/2026-11-12-closure-cell10-true-moments-taylor-r1-summary.json",
+    "--source-summary",
+    "notes/2026-11-12-closure-outer-source-cell10-r1-summary.json",
+    "--ports",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+    "--response",
+    "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--out-prefix",
+    "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1"
+  ],
+  "wall_seconds": 189.75959467887878,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 36600,
+  "user_seconds": 18.188912,
+  "system_seconds": 0.5180509999999999,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

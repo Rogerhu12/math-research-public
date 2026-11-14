@@ -1,0 +1,68 @@
+{
+  "scope": "Exact rational design data for R14's arbitrarily weak Gaussian markers.\n\nNo moving surface is generated here. The theorem's absence-of-other-strict-\nmaxima, collision, all-phase reach, and image-change conditions remain inputs.\n",
+  "status": "proved conditional construction data",
+  "cap_radius": "1/20",
+  "k": "1/160",
+  "rows": [
+    {
+      "index": 1,
+      "cap": "upper",
+      "center_xy": [
+        "1/40",
+        "0"
+      ],
+      "support_radius": "1/160",
+      "principal_curvature_upper": "1/160",
+      "strict_gaussian_maximum": "1/25600",
+      "absolute_height": "1/32768000",
+      "gradient_upper": "1/25600"
+    },
+    {
+      "index": 2,
+      "cap": "upper",
+      "center_xy": [
+        "0",
+        "1/40"
+      ],
+      "support_radius": "1/320",
+      "principal_curvature_upper": "1/40",
+      "strict_gaussian_maximum": "1/1600",
+      "absolute_height": "1/32768000",
+      "gradient_upper": "1/12800"
+    },
+    {
+      "index": 3,
+      "cap": "upper",
+      "center_xy": [
+        "-1/40",
+        "0"
+      ],
+      "support_radius": "1/480",
+      "principal_curvature_upper": "9/160",
+      "strict_gaussian_maximum": "81/25600",
+      "absolute_height": "1/32768000",
+      "gradient_upper": "3/25600"
+    },
+    {
+      "index": 4,
+      "cap": "lower",
+      "center_xy": [
+        "0",
+        "0"
+      ],
+      "support_radius": "1/640",
+      "principal_curvature_upper": "1/10",
+      "strict_gaussian_maximum": "1/100",
+      "absolute_height": "1/32768000",
+      "gradient_upper": "1/6400"
+    }
+  ],
+  "maximum_marker_curvature": "1/10",
+  "maximum_height": "1/32768000",
+  "diameter_change_upper": "1/16384000",
+  "affine_determinant": "r_c^2*(H+A)>0",
+  "gaussian_maximum_values_distinct": true,
+  "closed_surface_constructed": false,
+  "global_reach_certified": false,
+  "source_sha256": "eee546c493ea3edffd8e2e350d538c1291ec14901d6f9a3a1e93830e5dca97ae"
+}

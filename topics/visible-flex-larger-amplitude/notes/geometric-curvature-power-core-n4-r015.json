@@ -1,0 +1,86 @@
+{
+  "scope": "Proved analytic planar convex core; C2 isometric closed transition remains unsolved.",
+  "rho_definition": "r + (1-r)*sin(phi)^(2*N)/mu_N",
+  "support_definition": "1 + sum_j c_j*cos(2*j*phi)",
+  "N": 4,
+  "r": {
+    "exact": "3/20",
+    "approx": 0.15
+  },
+  "mu_N": {
+    "exact": "35/128",
+    "approx": 0.2734375
+  },
+  "coefficients_exact": [
+    "34/75",
+    "-17/375",
+    "34/6125",
+    "-17/44100"
+  ],
+  "coefficients": [
+    0.4533333333333333,
+    -0.04533333333333334,
+    0.005551020408163266,
+    -0.0003854875283446712
+  ],
+  "frequencies": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "radius_max_A": {
+    "exact": "311603/220500",
+    "approx": 1.4131655328798185
+  },
+  "radius_min_B": {
+    "exact": "3121/6300",
+    "approx": 0.4953968253968254
+  },
+  "core_diameter": {
+    "exact": "311603/110250",
+    "approx": 2.826331065759637
+  },
+  "core_phase_gap": {
+    "exact": "16864/18375",
+    "approx": 0.9177687074829932
+  },
+  "core_phase_radians": "pi/2",
+  "rho_min": {
+    "exact": "3/20",
+    "approx": 0.15
+  },
+  "rho_max": {
+    "exact": "2281/700",
+    "approx": 3.2585714285714285
+  },
+  "kappa_min": {
+    "exact": "700/2281",
+    "approx": 0.30688294607628236
+  },
+  "kappa_max": {
+    "exact": "20/3",
+    "approx": 6.666666666666667
+  },
+  "assumed_whole_diameter_upper": {
+    "exact": "19/5",
+    "approx": 3.8
+  },
+  "conditional_gap_ratio": {
+    "exact": "16864/69825",
+    "approx": 0.24151808091657714
+  },
+  "conditional_core_reach_ratio": {
+    "exact": "3/76",
+    "approx": 0.039473684210526314
+  },
+  "core_gap_gate": true,
+  "core_curvature_gate": true,
+  "unpaid_conditions": [
+    "Actual C2 isometric transition from this core to two fixed caps",
+    "Actual whole diameter and witness exclusion inequality",
+    "All-time whole-surface curvature, support, embedding and reach",
+    "Fixed-metric refinement to numerical solver tolerance",
+    "Noncongruence under full E(3)"
+  ]
+}

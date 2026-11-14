@@ -1,0 +1,32 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "q106-nonmean-Cartesian-repair-transfer-r1",
+  "command": [
+    "python",
+    "computations/strong_newg_nonmean_Cartesian_repair_transfer.py",
+    "--repair",
+    "q106-C2-comparison-r1/certificate.json.gz",
+    "--repair-resource",
+    "q106-C2-comparison-r1/resource.json",
+    "--synthesis-source",
+    "computations/geometric-checkpoint-core-pullback.py",
+    "--out",
+    "q106-Cartesian-repair-transfer-r1/certificate.json"
+  ],
+  "started_utc": "2026-11-13T12:06:33.980918+00:00",
+  "finished_utc": "2026-11-13T12:06:34.989865+00:00",
+  "wall_seconds": 1.0167077759979293,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 19384,
+  "user_seconds": 0.163856,
+  "system_seconds": 0.132369,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 5,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026532738]",
+  "automatic_restarts": 0
+}

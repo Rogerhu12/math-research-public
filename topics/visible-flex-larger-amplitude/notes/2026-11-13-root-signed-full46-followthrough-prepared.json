@@ -1,0 +1,58 @@
+{
+  "schema": "visible-flex-larger-signed-source-continuation-plan-v1",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "status": "geometry launch observed with unknown termination; source consumer prepared not executed",
+  "frozen_runtime": "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude",
+  "python": "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+  "pythonpath": [
+    "/tmp/visible-flex-larger-20261113T0030/python-deps",
+    "/tmp/visible-flex-larger-20261113-root-recovery6/signed-runtime/computations"
+  ],
+  "geometry_source": {
+    "owned_session": 16532,
+    "launch_observed": true,
+    "process_terminal": "unknown",
+    "output_prefix": "/tmp/visible-flex-larger-20261113-root-recovery6/signed-geometry/2026-11-13-root-low46-signed-geometry-r1",
+    "work_dir": "/tmp/visible-flex-larger-20261113-root-recovery6/signed-geometry/working",
+    "source_path": "topics/visible-flex-larger-amplitude/computations/closure_outer_physical_green_signed_profiles_v3.py",
+    "source_sha256": "98b5e8a0b06688830b7aee69df9f6a76f39f94d8b259a093d476bbf78abee642",
+    "source_blob": "05725f09c0a402ec923eabad3f81cbe6e445e61e",
+    "original_v2_source_sha256": "c48606c4e127fb0d3f27479eeed11bff3c5cb69139148633ea4f74a9e1f63829",
+    "addition": "Outward signed physical phi/chi columns and physical source F on every same whole subpanel. All original numerical formulas and guards remain; chunk rows reduced to32 only for output size.",
+    "precision": 256,
+    "order": 24,
+    "root_bits": 160,
+    "remainder_bits": 100,
+    "rss_kib": 98304,
+    "chunk_rows": 32,
+    "first_recovery_action": "Read original resource and complete checkpoints. Do not claim process success/failure from the failed session transport. Preserve original complete pieces; rerun with a fresh prefix only if required original outputs are really missing."
+  },
+  "geometry_original_input_arguments": {
+    "--ready": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--physical-flow": "notes/2026-11-12-closure-outer-physical-low46-r1.json",
+    "--physical-manifest": "notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+    "--source11": "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+    "--source10": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+    "--response": "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+    "--family": "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json"
+  },
+  "next_source_producer": {
+    "status": "prepared only; not Python/AST/Arb executed",
+    "path": "topics/visible-flex-larger-amplitude/computations/root_outer_fixed_centre_low46_source.py",
+    "sha256": "746a29ed3ea33cc561a809df129e7e028bd4ce56b08bad2ec867e63f579bf8d0",
+    "blob": "7535700c2867f7cf5f010515dd90067439eeebf7",
+    "input": "Original complete R88 fixed-centre summary and its10933 signed field records. All20 inputs, both true linear selected modes and all46 outputs retained.",
+    "formula": "Q+B_c keeps its zero mode; c is the complete scalar root, enclosed by the original mean bound. B_c=ell*(2*c*(K+(1+w*w)*P_theta)+c*c). N=(Q+B_c)/(1+c+K+(1+w*w)*P_theta). Four exact finite Neumann terms before nonmean projection; remainder L^4*N uses the full unprojected W^1 norm.",
+    "scope": "New complete source of fixed Z0, not true full46 exterior solution/cut/closed surface. Subsequent Green action, LR-Z0, true head/field errors remain."
+  },
+  "next_source_input_root": "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2148/topics/visible-flex-larger-amplitude",
+  "next_source_summary_relative": "notes/2026-11-12-root-linear-centre-local-restored-r1-summary.json",
+  "required_before_launch": "Read its actual whole SHA from the preserved original bytes, require source_sha256306b2bc0... and all original guards, and save exact argv with --fields-summary-sha256. Do not fill a missing identity by guessing.",
+  "next_source_flags": {
+    "--rss-kib": 98304,
+    "--chunk-rows": 64
+  },
+  "numeric_jobs_must_be_serial_in_small_Arb_slot": true,
+  "final_consumer": "Use same phi/chi/W units and true source F dx; charge complete LR-Z0 and all true head/field errors, retain every46 row and T weighted-l1 sum.",
+  "result_reservation": "R105 is reserved, no completed result asserted."
+}

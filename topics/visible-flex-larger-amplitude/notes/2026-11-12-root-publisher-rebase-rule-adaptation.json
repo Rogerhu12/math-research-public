@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-12T16:19:37.526129+00:00",
+  "reason": "Read root README at075f05b1e97df4db08ce0979fef64fe378673491: every non-fast-forward rejection must immediately pull --rebase and retry; no force or active-worktree rebase.",
+  "original": "computations/publish_topic_checkpoint_cached.py",
+  "original_sha256": "4e940463fbc4e9d165de8ab71dc69c029f4795ecd75755dfb3eb23f91d0b9d1b",
+  "new_source": "computations/publish_topic_checkpoint_rebase.py",
+  "new_sha256": "b8d4f7ca3337960d59690b719bae3a3149b80a467d2fff4e48c9efb5f23be676",
+  "changes": [
+    "Dedicated clean publication checkout actually pulls with rebase initially and immediately after every recognized ordinary race.",
+    "Both README files are compared immediately after every actual pull. Changes still return50 for the operator to read before continuing.",
+    "The immutable complete topic is regenerated on the pulled upstream head; all other upstream trees remain unchanged and upstream topic changes still return51.",
+    "Default normal-race retry loop is unbounded; no force push, no active calculation checkout reset/rebase."
+  ],
+  "static_parse_passed": true,
+  "actual_network_use_yet": false
+}

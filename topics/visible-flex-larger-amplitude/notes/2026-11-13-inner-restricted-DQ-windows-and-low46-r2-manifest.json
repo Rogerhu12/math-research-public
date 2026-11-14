@@ -1,0 +1,99 @@
+{
+  "schema": "restricted-inner-DQ-window-and-low46-stable-manifest-v1",
+  "files": [
+    {
+      "path": "computations/inner_restricted_DQ_windows_and_low_modes_v2.py",
+      "bytes": 6757,
+      "sha256": "58083926d2cbfcc2800f4b694eb59f5aad20cd68fbfc3115dadab15b51aedd22"
+    },
+    {
+      "path": "computations/inner_restricted_DQ_saved_low_audit.py",
+      "bytes": 4962,
+      "sha256": "6cfaf65bcc54b260825ba85d0c0aa783962ae0069caa9930d7b29ee0adc7c2f9"
+    },
+    {
+      "path": "notes/2026-11-13-inner-restricted-DQ-windows-and-low46-r2-summary.json",
+      "bytes": 26979,
+      "sha256": "a954fd6358b61460da94fc16fdaa703be02fc0425948b0d6bbdcd523f572ec10"
+    },
+    {
+      "path": "notes/2026-11-13-inner-restricted-DQ-windows-and-low46-r2-resource.json",
+      "bytes": 1528,
+      "sha256": "0aba2b45eec0739c79411620bd327285cb02736151f8a03d0d0318f77e0a48c0"
+    },
+    {
+      "path": "notes/2026-11-13-inner-restricted-DQ-windows-and-low46-r2-saved-audit.json",
+      "bytes": 3469,
+      "sha256": "a64786b939a36aab842a8ddbe75fe80d5eb3fa2ccc7b555b4d9b3996df5e7538"
+    },
+    {
+      "path": "notes/2026-11-13-inner-restricted-DQ-windows-and-low46-r2-saved-audit-resource.json",
+      "bytes": 1415,
+      "sha256": "5845ff7c1995e1f540077ea3c848771d89ec378a5abd1016f7edcf38fb8fc2da"
+    },
+    {
+      "path": "notes/2026-11-13-inner-restricted-DQ-windows-and-low46-r2.md",
+      "bytes": 6373,
+      "sha256": "31e26d2489ad994f2d180d59bbb38e2596a7cc0a544d9e05759b4c5e8f4c03b4"
+    }
+  ],
+  "formal_success": {
+    "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+    "task_prefix": "inner-restricted-DQ-with-low46-r2",
+    "command": [
+      "python",
+      "computations/inner_restricted_DQ_windows_and_low_modes_v2.py",
+      "--input",
+      "inner-restricted-DQ-r1/inner-restricted-expanded-modal-r1.json.gz",
+      "--input-resource",
+      "inner-restricted-DQ-r1/inner-restricted-expanded-modal-r1-resource.json",
+      "--density",
+      "inner-window-gamma-r1/frozen/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "--out",
+      "inner-restricted-DQ-r1/r2-kernels.json.gz",
+      "--rss-kib",
+      "98304"
+    ],
+    "started_utc": "2026-11-13T12:27:46.309055+00:00",
+    "finished_utc": "2026-11-13T12:28:08.171787+00:00",
+    "wall_seconds": 21.883986257998913,
+    "exitcode": 0,
+    "termination_signal": null,
+    "wait4_observed": true,
+    "wait_status": 0,
+    "peak_rss_kib": 92908,
+    "user_seconds": 13.574447,
+    "system_seconds": 0.62152,
+    "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+    "received_supervisor_signals": [],
+    "owned_child_pid": 5,
+    "supervisor_pid": 2,
+    "supervisor_pid_namespace": "pid:[4026532698]",
+    "automatic_restarts": 0
+  },
+  "independent_exact_saved_gate_counts": {
+    "row_identity": 213,
+    "reference_mode_identity": 9798,
+    "saved_nonnegative_coefficients": 254748,
+    "exact_low_support": 254748,
+    "low_singletons_bounded_by_original_low_column": 254748,
+    "positive_common_material_domination": 127374
+  },
+  "primary_scratch_only": {
+    "path": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-restricted-DQ-r1/r2-kernels.json.gz",
+    "sha256": "d519f6e5d8f0a8bb06c5d87f9257f6b9c01a19bfd04ce394a661ff3ffa3857ac",
+    "bytes": 4424461,
+    "canonical_mathematical_rows_sha256": "312f3d9c9f4bffd87f054bee57fb361f3d7b2833dda819ee3b5aad9d423f6f9e",
+    "rule11": "Derived in22seconds from pinned existing scientific inputs; full primary is intentionally not duplicated in Git."
+  },
+  "first_attempt_failure": {
+    "exitcode": 1,
+    "wall_seconds": 1.0148957790006534,
+    "peak_rss_kib": 36084,
+    "reason": "Pre-mathematics KeyError on absent newer wait4_observed field in the pinned legacy resource schema; no mathematical output",
+    "failed_source_sha256": "a6ae53f39d3176b5776d6bfcd4ed4c4a744119e2bcc017a2dfe5fea2b4277291",
+    "failed_resource_sha256": "3079f3434caee85f633f94d94b9631b9363bafc33e53ebc2c1250d9461360995",
+    "r2_fix": "Fresh source pins the actual legacy resource_wrapper_sha256 and retains exit0/no-signal; all mathematics and resource guards unchanged."
+  },
+  "source_domain": "Original R100 same g; S-product3/4, T-l1 1/32 and simultaneous exact individual 4b axes; Cs remains full-unit bound. No q098/q106/q122 certificate transfer."
+}

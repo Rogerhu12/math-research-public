@@ -1,0 +1,35 @@
+{
+  "schema": "R129-all213-restricted-lift-input-artifacts-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-profile-transverse-lift-r1.json.gz",
+      "sha256": "281469185e7c85a380a84cfe8b63d9cda3e4640930d4666e68241c2b54c0f18f",
+      "bytes": 402372
+    },
+    {
+      "path": "notes/2026-11-13-root-profile-transverse-lift-resource.json",
+      "sha256": "81c7991d1593d92355fdc848c9c7dfccd11ee61a8af5fdc8a94445e1a989692a",
+      "bytes": 911
+    },
+    {
+      "path": "notes/2026-11-13-root-profile-transverse-lift-input-manifest.json",
+      "sha256": "9c89b30311114de4ab52fb34283683f9ef466a630a395e00876d3a21b66b0447",
+      "bytes": 637
+    },
+    {
+      "path": "computations/root_profile_transverse_lift.py",
+      "sha256": "49eb00f317241c6c00ae6d32c843de099bb23e06f4cc37348f34d97e173caab9",
+      "bytes": 5917
+    },
+    {
+      "path": "notes/2026-11-13-root-profile-transverse-lift.md",
+      "sha256": "cb0e6672b4cf64c02c5d743173b58a0a429da997cb72bfe4f0d49d36b1afc190",
+      "bytes": 3166
+    }
+  ],
+  "formal_exitcode": 0,
+  "actual_gates": 861,
+  "exact_domain_radii_preserved": true,
+  "original_axes_and_Vprime_units_preserved": true,
+  "full_head_or_full_cut_claim": false
+}

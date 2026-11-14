@@ -1,0 +1,24 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/prepared/closure_r101_actual_spectral_summary.py",
+    "--spectral",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1.json",
+    "--wide",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1-wide.json",
+    "--spectral-resource",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1-resource.json",
+    "--wide-resource",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1-wide-resource.json",
+    "--out",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r101-exact-summary-r1.json"
+  ],
+  "wall_seconds": 0.13289642333984375,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 12400,
+  "user_seconds": 0.057165,
+  "system_seconds": 0.0051909999999999994,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

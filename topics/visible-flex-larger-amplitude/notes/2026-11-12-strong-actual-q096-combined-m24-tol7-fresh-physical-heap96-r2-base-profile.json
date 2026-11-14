@@ -1,0 +1,21 @@
+{
+  "direction": "outward",
+  "cycles": 1,
+  "ramp": 0.4,
+  "ramp_law": "hermite_boost_neck",
+  "delta": 0.16134505278447636,
+  "vu": 0.31980000000000003,
+  "vd": 0.98,
+  "start_acceleration": 0.45,
+  "boost_speed": 0.8644270801836136,
+  "boost_length": 0.12448680155192346,
+  "coast_outward": 0.0,
+  "loop_radius": 0.35,
+  "loop_ratio": 1.1,
+  "loop_speed": 0.985,
+  "loop_curvature": 7.5,
+  "descending_turn_curvature": 6.7475,
+  "descending_sync_curvature": 2.0,
+  "terminal_peak_fraction": 0.1,
+  "boost_law": "angle"
+}

@@ -1,0 +1,68 @@
+{
+  "source_sha256_at_start": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_tail_recovery_freeze.py": "bab15231438843bc5f59b9b8c2b62518e7b77c3fc1d5abc2f3d5dc4eb32853ce",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_cache_delta.py": "432c0d8c6c1fb43f3dc2d67409070d9b240fd0d1d6957398eeedf923eaf0c9e8",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_cache_archive.py": "5968b4dcf5d2af505aecd34cad5a119d7acfadb68291a0516bed5c8c4c22f83e",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_resume_binding.py": "b383f712bf9e8359504c92efca7497a3494b7136015eb37a8fd6ebc583527041"
+  },
+  "actions": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_cache_delta.py",
+        "--cache-root",
+        "notes/2026-11-12-strong-q096-exact-stage-cache/66e22f1f5e5a150402bb6f187babf4f2e48c11f491842e6f33d4fdfad1d97231",
+        "--out-prefix",
+        "notes/2026-11-12-strong-q096-young4-r8-final-J-cache-delta",
+        "--previous-manifest",
+        "notes/2026-11-12-strong-q096-stage-check-r2-cache-archive.json",
+        "--previous-manifest",
+        "notes/2026-11-12-strong-q096-young4-r4-cache-delta.json",
+        "--previous-manifest",
+        "notes/2026-11-12-strong-q096-young4-r5-first-J-cache-delta.json",
+        "--previous-manifest",
+        "notes/2026-11-12-strong-q096-young4-r6-second-J-cache-delta.json",
+        "--previous-manifest",
+        "notes/2026-11-12-strong-q096-young4-r7-final-J-cache-delta.json"
+      ],
+      "exitcode": 0,
+      "stdout": "{\"manifest\": \"notes/2026-11-12-strong-q096-young4-r8-final-J-cache-delta.json\", \"new_stage_files\": 32, \"previous_existing_files_checked\": 1462, \"total_archive_bytes\": 613703}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_cache_archive.py",
+        "restore",
+        "--manifest",
+        "notes/2026-11-12-strong-q096-young4-r8-final-J-cache-delta.json",
+        "--cache-parent",
+        "notes/2026-11-12-strong-q096-exact-stage-cache"
+      ],
+      "exitcode": 0,
+      "stdout": "{\"restored_or_identical_files\": 33, \"stage_identity_sha256\": \"66e22f1f5e5a150402bb6f187babf4f2e48c11f491842e6f33d4fdfad1d97231\", \"nonlinear_solution_accepted\": false, \"original_runtime_and_source_identity_gates_still_required\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_resume_binding.py",
+        "--checkpoint",
+        "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r6-accepted0002-recovery.json.gz",
+        "--seed",
+        "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r8-initial-call000001-initial-seed.json.gz",
+        "--trace",
+        "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r8-trace.jsonl",
+        "--plan",
+        "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r8-plan.json",
+        "--source-topic",
+        "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+        "--out",
+        "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r8-completed-J-cache-binding.json"
+      ],
+      "exitcode": 0,
+      "stdout": "{\"passed\": true, \"checked_stages\": 341, \"restored_stages\": 309, \"newly_completed_stages\": 32}\n",
+      "stderr": ""
+    }
+  ]
+}

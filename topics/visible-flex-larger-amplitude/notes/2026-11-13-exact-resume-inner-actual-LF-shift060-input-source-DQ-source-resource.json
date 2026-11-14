@@ -1,0 +1,22 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-actual-LF-shift060-complete-source-v1.py",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-actual-LF-shift060-r1.json.gz",
+    "--modal-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-actual-LF-shift060-run1-resource.json",
+    "--density",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-actual-LF-shift060-source-r1"
+  ],
+  "wall_seconds": 50.8418493270874,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 44584,
+  "user_seconds": 25.835167,
+  "system_seconds": 0.742918,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

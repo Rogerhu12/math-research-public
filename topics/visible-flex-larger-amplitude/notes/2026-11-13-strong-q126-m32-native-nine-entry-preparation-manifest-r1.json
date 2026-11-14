@@ -1,0 +1,57 @@
+{
+  "schema": "actual-zero-entry-preparation-manifest-v1",
+  "scope": "Native corrected-anchor M32 producer prepared at the true A fixed view, zero target change, no response supplied. No ODE, Node, Jacobian or new BVP. Original acceptance gates and audit schedule remain.",
+  "source_entry": {
+    "file": "computations/strong_full_tangent_initial_laws_anchor_actual_bvp.py",
+    "sha256": "d151cb67c2dbfbadd5ba35a9f386c5e15ff98f056df45d89677b989cd887f651"
+  },
+  "actual_owned_exit": {
+    "exitcode": 0,
+    "wall_seconds": 1.023105584004952,
+    "peak_rss_kib": 34508
+  },
+  "new_future_candidate_or_response_invented": false,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-native-nine-entry-zero-prepare-r1-actual-three-control-adapter.json",
+      "sha256": "514b0542a54bcc577840384ecc488258120bf533ab2d43d640fdf57d20536dc4",
+      "bytes": 88410
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-native-nine-entry-zero-prepare-r1-base-profile.json",
+      "sha256": "b6fdc6d6a1a9a058ee8a16bb66e3956acbea5ab77f2ad7fa3ec44651e316799d",
+      "bytes": 547
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-native-nine-entry-zero-prepare-r1-config.json",
+      "sha256": "e98254be6885e0a1775e7328ace20592fe5ed6e337aef2648e2773ec65914e77",
+      "bytes": 2954
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-native-nine-entry-zero-prepare-r1-heartbeat.json",
+      "sha256": "d9d719501694096856739233b2b3bb4b9c4b3b4e6318ad42a2db35888e2684e0",
+      "bytes": 325
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-native-nine-entry-zero-prepare-r1-launch-plan.json",
+      "sha256": "599fd0090e42056473387ba91fc241689eea8b5e2dbbc42b80f415b5dbf4bba0",
+      "bytes": 4175
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-native-nine-entry-zero-prepare-r1-ownership.json",
+      "sha256": "7fc0a29179ba7104c3da07d80190a280436560622ee9636e5d02f98098915a55",
+      "bytes": 3504
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-native-nine-entry-zero-prepare-r1-resource.json",
+      "sha256": "ebb2c4da44b77dce6a7e039e00297a5dc6859b46746cda616e8b68dcd60ef8fe",
+      "bytes": 3273
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-native-nine-entry-zero-prepare-r1-stdout.log",
+      "sha256": "04ef229fcd07f8b3fdc6f5bec5e79f71d92bd6963325df1b8998772f8a5991be",
+      "bytes": 3279
+    }
+  ],
+  "total_bytes": 106467
+}

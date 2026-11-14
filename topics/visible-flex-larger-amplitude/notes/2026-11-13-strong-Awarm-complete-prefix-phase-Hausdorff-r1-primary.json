@@ -1,0 +1,1824 @@
+{
+  "schema": "complete-saved-prefix-quarter-phase-finite-Hausdorff-v1",
+  "scope": "Read every saved prefix point and bracket its quarter-phase finite Hausdorff distance.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nKD-tree neighbours select actual finite-set pairs. Their complete streamed\ndistance maxima give an upper bound irrespective of nearest-neighbour search\naccuracy. Complete direct scans at the selected witnesses give a lower bound.\nOnly binary finite point sets are certified; no continuum, tail, cap, accepted\nsolution, all-phase maximum, deltaHold or Euclidean noncongruence is asserted.\n",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "source_sha256": "b306d02d25f16814860aed22490caa0bcaf46fcd698fcaf021e6525dd452151f",
+  "input_sha256": {
+    "m32-q122-r1/q126-tail2-size102-r1-screen.json": "5cc3ce0c5175339e799a011b8504e0496ff2003c86ae14db604d503da5f4dbdf",
+    "m32-q122-r1/q126-tail2-size102-r1-geometry-resource.json": "f18c26d5c43c5d76605b634ec1910e9f6b1ec6d3713fbebbe1fa90af9d367301",
+    "m32-q122-r1/q126-tail2-size102-r1-prepared-core.json": "4caafe07078dd2bce737f68ea878ad0c8dce5f23809aba81bb5af7f8dd8f525a",
+    "m32-q122-r1/q126-tail2-size102-r1-points.json": "1f14804293771fa78f844937cb0d8a9a40024077ccd9fd98960accc6f34b27a6",
+    "m32-q122-r1/geometry-grid.json": "e484654f5c06141c1687bef06ff361a103ed96968411bdc1b18161eef37fdd36",
+    "m32-q122-r1/q126-tail2-size102-r1-points-bounds.json": "8b10cc9cc0848a636e996a7687ee712bf761ba86bb14a4bb51f0c2bc6fffe1da",
+    "phase-hausdorff-inputs/R1-two-mode-core-phase-gap.md": "acd27925c9265dd4927e02bdb06b75ff9b188f901d398c1379eac41b4aa60582",
+    "phase-hausdorff-inputs/R7-core-witness-initial-acceleration.md": "2f1879daf29cc7eeff4c1457f47b6076547c9ff43aab41d339f411c5d9eaadd1"
+  },
+  "current_data_scope": "A q126 unsolved M32 warm prefix point set based on accepted q122; not the subsequently accepted A solution.",
+  "full_stored_core": [
+    0.12599999803539827,
+    -0.009256552462686113,
+    -0.0006450302499718777,
+    -0.0001991058140805389,
+    -2.2060722223385215e-05,
+    -7.066012152959736e-06,
+    -1.3498777374247698e-05,
+    4.964008000283142e-06,
+    1.3008711124268143e-06,
+    5.122015492725259e-07,
+    8.526512829121203e-23,
+    4.477018481413657e-08,
+    1.250787016776142e-07,
+    -1.075956666117865e-07,
+    -1.8585562168986303e-08,
+    5.271584340260523e-09,
+    -8.54170849104012e-08,
+    2.097635880540774e-09,
+    1.7744874817038707e-08,
+    -1.3070747685070162e-08,
+    -6.030831385221536e-09,
+    -4.320821057150441e-09,
+    8.348877145181178e-22,
+    -7.160538168941002e-09,
+    -1.0810659350560974e-09,
+    -1.677632016210252e-09,
+    2.5565779403197076e-09,
+    2.153832667772804e-23,
+    -2.4559150731948207e-10,
+    2.196750534841876e-10,
+    -1.0933093604926717e-10,
+    4.425494598387764e-11
+  ],
+  "warm_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.1799886904653553,
+    "vu": 0.3203723157565417,
+    "vd": 0.98,
+    "start_acceleration": 0.6179514713986892,
+    "boost_speed": 0.8330578212534273,
+    "boost_length": 0.12797033591980586,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.642366928961031,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "all_complete_points_and_chunks_consumed": true,
+  "point_shape": [
+    3764,
+    768,
+    3
+  ],
+  "prefix_count": 2890752,
+  "reflected_union_count": 5781504,
+  "complete_original_mean_angular": 1552,
+  "chunks": [
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part000.npy.gz",
+      "sha256": "1e0d1fc2d50c34bf1123a698b0b526a986dd398ffbfaf5b8b795798e71bfb2af",
+      "start": 0,
+      "end": 217,
+      "bytes": 1845090
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part001.npy.gz",
+      "sha256": "f3d8887ec30259c46ae23bf4045990e2abf3b2d179d88eb084c7f47d3edd4df9",
+      "start": 217,
+      "end": 434,
+      "bytes": 1861270
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part002.npy.gz",
+      "sha256": "bd193831c599fe9d80fbb89c60229724410dab6100795c5f5593d709df22af0a",
+      "start": 434,
+      "end": 651,
+      "bytes": 1870977
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part003.npy.gz",
+      "sha256": "0cd942be5d26894694b82b1ed995edb1c1353199597263ccf2d485817257d0c2",
+      "start": 651,
+      "end": 868,
+      "bytes": 1881788
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part004.npy.gz",
+      "sha256": "c8aa973ddc6256b1c994cb63c52dbe411fa59c5d5065855b81f96de1123e319e",
+      "start": 868,
+      "end": 1085,
+      "bytes": 1871511
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part005.npy.gz",
+      "sha256": "591df9fab0f56b8125dc5170aedca39252485d36a3a24bbe7d7030812ae615d7",
+      "start": 1085,
+      "end": 1302,
+      "bytes": 1866388
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part006.npy.gz",
+      "sha256": "8edeff96e1c183e3b312971123a7708cd0744ad2dc96f7d7016db9e97afdec82",
+      "start": 1302,
+      "end": 1519,
+      "bytes": 1875177
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part007.npy.gz",
+      "sha256": "1a21b6ff5315c603517eeb43873226ea0ab4de2211653566a4b6a614ca2ce318",
+      "start": 1519,
+      "end": 1736,
+      "bytes": 1864428
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part008.npy.gz",
+      "sha256": "38ccbc9626134a2d2bf844b54bf4e0fbc81fc37e250905e4d6246e2df8ee43ea",
+      "start": 1736,
+      "end": 1953,
+      "bytes": 1855443
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part009.npy.gz",
+      "sha256": "8050992006c80e9d6cf76f3f1f965030cbd8da3e2e145fabcc609555f82b0947",
+      "start": 1953,
+      "end": 2170,
+      "bytes": 1856353
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part010.npy.gz",
+      "sha256": "48e348bc4a9541b2ac058eb633617feb8e01f76c10d626acc4c86223593bf081",
+      "start": 2170,
+      "end": 2387,
+      "bytes": 1836182
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part011.npy.gz",
+      "sha256": "a1724a88529a52b2146bbd1e327e8546a60411b822d634a2b589daa756c64012",
+      "start": 2387,
+      "end": 2604,
+      "bytes": 1837167
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part012.npy.gz",
+      "sha256": "ba9398eb83306abdb983832ec7edfa318cf7f8393b636b9a354315270dcf2702",
+      "start": 2604,
+      "end": 2821,
+      "bytes": 1852550
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part013.npy.gz",
+      "sha256": "36cd94060cd7b48a807388fb4309e225aedd1311708dc5ee777cc4dfbd560334",
+      "start": 2821,
+      "end": 3038,
+      "bytes": 1848052
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part014.npy.gz",
+      "sha256": "a6358aa8c13d4fda3d7a813f2b2c688dd255a7cb87b747d6e0656139bd47829a",
+      "start": 3038,
+      "end": 3255,
+      "bytes": 1843665
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part015.npy.gz",
+      "sha256": "dc92a4db2bbcb0ac365579da64bddbc58d340f8983baa2ad20950c0ce61c2fc9",
+      "start": 3255,
+      "end": 3472,
+      "bytes": 1849476
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part016.npy.gz",
+      "sha256": "2e81c87fc6e8d401136292ff46ca6f0d5247ed4a01a81dd432b3c7b89dd232eb",
+      "start": 3472,
+      "end": 3689,
+      "bytes": 1815549
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part017.npy.gz",
+      "sha256": "447b34ce9f110d1f2d29711e1e717fd713bae698d1601b1c903df2c0d91d19ff",
+      "start": 3689,
+      "end": 3764,
+      "bytes": 623009
+    }
+  ],
+  "query_blocks": [
+    {
+      "first": 0,
+      "last": 24576,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.2506934490470828,
+        "reflected_union_plus": 0.2506934490470828,
+        "prefix_minus": 0.2506934490470828,
+        "reflected_union_minus": 0.2506934490470828
+      }
+    },
+    {
+      "first": 24576,
+      "last": 49152,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.24872397095486815,
+        "reflected_union_plus": 0.24872397095486815,
+        "prefix_minus": 0.24872397095486815,
+        "reflected_union_minus": 0.24872397095486815
+      }
+    },
+    {
+      "first": 49152,
+      "last": 73728,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.24313434652551624,
+        "reflected_union_plus": 0.24313434652551624,
+        "prefix_minus": 0.24313434652551624,
+        "reflected_union_minus": 0.24313434652551624
+      }
+    },
+    {
+      "first": 73728,
+      "last": 98304,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.2336262044364724,
+        "reflected_union_plus": 0.2336262044364724,
+        "prefix_minus": 0.2336262044364724,
+        "reflected_union_minus": 0.2336262044364724
+      }
+    },
+    {
+      "first": 98304,
+      "last": 122880,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.2240088222215619,
+        "reflected_union_plus": 0.2240088222215619,
+        "prefix_minus": 0.2240088222215619,
+        "reflected_union_minus": 0.2240088222215619
+      }
+    },
+    {
+      "first": 122880,
+      "last": 147456,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.2127445293069454,
+        "reflected_union_plus": 0.2127445293069454,
+        "prefix_minus": 0.2127445293069454,
+        "reflected_union_minus": 0.2127445293069454
+      }
+    },
+    {
+      "first": 147456,
+      "last": 172032,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.20075720837206376,
+        "reflected_union_plus": 0.20075720837206376,
+        "prefix_minus": 0.20075720837206376,
+        "reflected_union_minus": 0.20075720837206376
+      }
+    },
+    {
+      "first": 172032,
+      "last": 196608,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.18835458180507506,
+        "reflected_union_plus": 0.18835458180507506,
+        "prefix_minus": 0.18835458180507506,
+        "reflected_union_minus": 0.18835458180507506
+      }
+    },
+    {
+      "first": 196608,
+      "last": 221184,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.17521113080252687,
+        "reflected_union_plus": 0.17521113080252687,
+        "prefix_minus": 0.17521113080252687,
+        "reflected_union_minus": 0.17521113080252687
+      }
+    },
+    {
+      "first": 221184,
+      "last": 245760,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.16077427155997862,
+        "reflected_union_plus": 0.16077427155997862,
+        "prefix_minus": 0.16077427155997862,
+        "reflected_union_minus": 0.16077427155997862
+      }
+    },
+    {
+      "first": 245760,
+      "last": 270336,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.14629797733542613,
+        "reflected_union_plus": 0.14629797733542613,
+        "prefix_minus": 0.14629797733542613,
+        "reflected_union_minus": 0.14629797733542613
+      }
+    },
+    {
+      "first": 270336,
+      "last": 294912,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.13162820985776227,
+        "reflected_union_plus": 0.13162820985776227,
+        "prefix_minus": 0.13162820985776227,
+        "reflected_union_minus": 0.13162820985776227
+      }
+    },
+    {
+      "first": 294912,
+      "last": 319488,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.11864156016211608,
+        "reflected_union_plus": 0.11864156016211608,
+        "prefix_minus": 0.11864156016211608,
+        "reflected_union_minus": 0.11864156016211608
+      }
+    },
+    {
+      "first": 319488,
+      "last": 344064,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.11705178944343282,
+        "reflected_union_plus": 0.11705178944343282,
+        "prefix_minus": 0.11705178944343282,
+        "reflected_union_minus": 0.11705178944343282
+      }
+    },
+    {
+      "first": 344064,
+      "last": 368640,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.1131471554022616,
+        "reflected_union_plus": 0.1131471554022616,
+        "prefix_minus": 0.1131471554022616,
+        "reflected_union_minus": 0.1131471554022616
+      }
+    },
+    {
+      "first": 368640,
+      "last": 393216,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.10461472161265975,
+        "reflected_union_plus": 0.10461472161265975,
+        "prefix_minus": 0.10461472161265975,
+        "reflected_union_minus": 0.10461472161265975
+      }
+    },
+    {
+      "first": 393216,
+      "last": 417792,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.09357736091347496,
+        "reflected_union_plus": 0.09357736091347496,
+        "prefix_minus": 0.09357736091347496,
+        "reflected_union_minus": 0.09357736091347496
+      }
+    },
+    {
+      "first": 417792,
+      "last": 442368,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0808787055066275,
+        "reflected_union_plus": 0.0808787055066275,
+        "prefix_minus": 0.0808787055066275,
+        "reflected_union_minus": 0.0808787055066275
+      }
+    },
+    {
+      "first": 442368,
+      "last": 466944,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.06743639861376714,
+        "reflected_union_plus": 0.06743639861376714,
+        "prefix_minus": 0.06743639861376714,
+        "reflected_union_minus": 0.06743639861376714
+      }
+    },
+    {
+      "first": 466944,
+      "last": 491520,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.059905896838810445,
+        "reflected_union_plus": 0.059905896838810445,
+        "prefix_minus": 0.05990589683881041,
+        "reflected_union_minus": 0.05990589683881041
+      }
+    },
+    {
+      "first": 491520,
+      "last": 516096,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.05598906795515999,
+        "reflected_union_plus": 0.05598906795515999,
+        "prefix_minus": 0.055989067955159955,
+        "reflected_union_minus": 0.055989067955159955
+      }
+    },
+    {
+      "first": 516096,
+      "last": 540672,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.051131686177672574,
+        "reflected_union_plus": 0.051131686177672574,
+        "prefix_minus": 0.051131686177672546,
+        "reflected_union_minus": 0.051131686177672546
+      }
+    },
+    {
+      "first": 540672,
+      "last": 565248,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.046278928284679784,
+        "reflected_union_plus": 0.046278928284679784,
+        "prefix_minus": 0.04627892828467975,
+        "reflected_union_minus": 0.04627892828467975
+      }
+    },
+    {
+      "first": 565248,
+      "last": 589824,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.04137791166700972,
+        "reflected_union_plus": 0.04137791166700972,
+        "prefix_minus": 0.04137791166700969,
+        "reflected_union_minus": 0.04137791166700969
+      }
+    },
+    {
+      "first": 589824,
+      "last": 614400,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.03605832747705445,
+        "reflected_union_plus": 0.03605832747705445,
+        "prefix_minus": 0.036058327477054404,
+        "reflected_union_minus": 0.036058327477054404
+      }
+    },
+    {
+      "first": 614400,
+      "last": 638976,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.03267499679354057,
+        "reflected_union_plus": 0.03267499679354057,
+        "prefix_minus": 0.032674996793540516,
+        "reflected_union_minus": 0.032674996793540516
+      }
+    },
+    {
+      "first": 638976,
+      "last": 663552,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.033352714114394943,
+        "reflected_union_plus": 0.033352714114394943,
+        "prefix_minus": 0.033352714114394964,
+        "reflected_union_minus": 0.033352714114394964
+      }
+    },
+    {
+      "first": 663552,
+      "last": 688128,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.04248978444569542,
+        "reflected_union_plus": 0.04248978444569542,
+        "prefix_minus": 0.042489784445695344,
+        "reflected_union_minus": 0.042489784445695344
+      }
+    },
+    {
+      "first": 688128,
+      "last": 712704,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.050723597886809246,
+        "reflected_union_plus": 0.050723597886809246,
+        "prefix_minus": 0.0507235978868092,
+        "reflected_union_minus": 0.0507235978868092
+      }
+    },
+    {
+      "first": 712704,
+      "last": 737280,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.06154702649486944,
+        "reflected_union_plus": 0.06154702649486944,
+        "prefix_minus": 0.06154702649486949,
+        "reflected_union_minus": 0.06154702649486949
+      }
+    },
+    {
+      "first": 737280,
+      "last": 761856,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.06998303220377382,
+        "reflected_union_plus": 0.06998303220377382,
+        "prefix_minus": 0.06998303220377386,
+        "reflected_union_minus": 0.06998303220377386
+      }
+    },
+    {
+      "first": 761856,
+      "last": 786432,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.07310334113633134,
+        "reflected_union_plus": 0.07310334113633134,
+        "prefix_minus": 0.07310334113633139,
+        "reflected_union_minus": 0.07310334113633139
+      }
+    },
+    {
+      "first": 786432,
+      "last": 811008,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.07467840270022176,
+        "reflected_union_plus": 0.07467840270022176,
+        "prefix_minus": 0.07467840270022179,
+        "reflected_union_minus": 0.07467840270022179
+      }
+    },
+    {
+      "first": 811008,
+      "last": 835584,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.07488506634314926,
+        "reflected_union_plus": 0.07488506634314926,
+        "prefix_minus": 0.07488506634314929,
+        "reflected_union_minus": 0.07488506634314929
+      }
+    },
+    {
+      "first": 835584,
+      "last": 860160,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.07480697131524952,
+        "reflected_union_plus": 0.07480697131524952,
+        "prefix_minus": 0.07480697131524955,
+        "reflected_union_minus": 0.07480697131524955
+      }
+    },
+    {
+      "first": 860160,
+      "last": 884736,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.07437502795430183,
+        "reflected_union_plus": 0.07437502795430183,
+        "prefix_minus": 0.07437502795430186,
+        "reflected_union_minus": 0.07437502795430186
+      }
+    },
+    {
+      "first": 884736,
+      "last": 909312,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0732241498745685,
+        "reflected_union_plus": 0.0732241498745685,
+        "prefix_minus": 0.07322414987456853,
+        "reflected_union_minus": 0.07322414987456853
+      }
+    },
+    {
+      "first": 909312,
+      "last": 933888,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.07233378374590853,
+        "reflected_union_plus": 0.07233378374590853,
+        "prefix_minus": 0.07233378374590856,
+        "reflected_union_minus": 0.07233378374590856
+      }
+    },
+    {
+      "first": 933888,
+      "last": 958464,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.07153988518833554,
+        "reflected_union_plus": 0.07153988518833554,
+        "prefix_minus": 0.07153988518833557,
+        "reflected_union_minus": 0.07153988518833557
+      }
+    },
+    {
+      "first": 958464,
+      "last": 983040,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0709102846468717,
+        "reflected_union_plus": 0.0709102846468717,
+        "prefix_minus": 0.07091028464687171,
+        "reflected_union_minus": 0.07091028464687171
+      }
+    },
+    {
+      "first": 983040,
+      "last": 1007616,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.06881426462673333,
+        "reflected_union_plus": 0.06881426462673333,
+        "prefix_minus": 0.06881426462673336,
+        "reflected_union_minus": 0.06881426462673336
+      }
+    },
+    {
+      "first": 1007616,
+      "last": 1032192,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.06593053942907877,
+        "reflected_union_plus": 0.06593053942907877,
+        "prefix_minus": 0.06593053942907878,
+        "reflected_union_minus": 0.06593053942907878
+      }
+    },
+    {
+      "first": 1032192,
+      "last": 1056768,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.06304896721072106,
+        "reflected_union_plus": 0.06304896721072106,
+        "prefix_minus": 0.06304896721072109,
+        "reflected_union_minus": 0.06304896721072109
+      }
+    },
+    {
+      "first": 1056768,
+      "last": 1081344,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.06014404592536134,
+        "reflected_union_plus": 0.06014404592536134,
+        "prefix_minus": 0.060144045925361336,
+        "reflected_union_minus": 0.060144045925361336
+      }
+    },
+    {
+      "first": 1081344,
+      "last": 1105920,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.05732181127771037,
+        "reflected_union_plus": 0.05732181127771037,
+        "prefix_minus": 0.05732181127771037,
+        "reflected_union_minus": 0.05732181127771037
+      }
+    },
+    {
+      "first": 1105920,
+      "last": 1130496,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.05437922957528345,
+        "reflected_union_plus": 0.05437922957528345,
+        "prefix_minus": 0.05437922957528347,
+        "reflected_union_minus": 0.05437922957528347
+      }
+    },
+    {
+      "first": 1130496,
+      "last": 1155072,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.051636670698871234,
+        "reflected_union_plus": 0.051636670698871234,
+        "prefix_minus": 0.051636670698871213,
+        "reflected_union_minus": 0.051636670698871213
+      }
+    },
+    {
+      "first": 1155072,
+      "last": 1179648,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.048894340471214146,
+        "reflected_union_plus": 0.048894340471214146,
+        "prefix_minus": 0.04889434047121413,
+        "reflected_union_minus": 0.04889434047121413
+      }
+    },
+    {
+      "first": 1179648,
+      "last": 1204224,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.04614128144990259,
+        "reflected_union_plus": 0.04614128144990259,
+        "prefix_minus": 0.04614128144990257,
+        "reflected_union_minus": 0.04614128144990257
+      }
+    },
+    {
+      "first": 1204224,
+      "last": 1228800,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.043481863301691064,
+        "reflected_union_plus": 0.043481863301691064,
+        "prefix_minus": 0.04348186330169105,
+        "reflected_union_minus": 0.04348186330169105
+      }
+    },
+    {
+      "first": 1228800,
+      "last": 1253376,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.04083388752312422,
+        "reflected_union_plus": 0.04083388752312422,
+        "prefix_minus": 0.04083388752312422,
+        "reflected_union_minus": 0.04083388752312422
+      }
+    },
+    {
+      "first": 1253376,
+      "last": 1277952,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.03821963030362613,
+        "reflected_union_plus": 0.03821963030362613,
+        "prefix_minus": 0.03821963030362613,
+        "reflected_union_minus": 0.03821963030362613
+      }
+    },
+    {
+      "first": 1277952,
+      "last": 1302528,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.035557463251128955,
+        "reflected_union_plus": 0.035557463251128955,
+        "prefix_minus": 0.03555746325112896,
+        "reflected_union_minus": 0.03555746325112896
+      }
+    },
+    {
+      "first": 1302528,
+      "last": 1327104,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.03289403101476955,
+        "reflected_union_plus": 0.03289403101476955,
+        "prefix_minus": 0.03289403101476955,
+        "reflected_union_minus": 0.03289403101476955
+      }
+    },
+    {
+      "first": 1327104,
+      "last": 1351680,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.03024797457349252,
+        "reflected_union_plus": 0.03024797457349252,
+        "prefix_minus": 0.030247974573492518,
+        "reflected_union_minus": 0.030247974573492518
+      }
+    },
+    {
+      "first": 1351680,
+      "last": 1376256,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.027675286265162035,
+        "reflected_union_plus": 0.027675286265162035,
+        "prefix_minus": 0.027675286265162035,
+        "reflected_union_minus": 0.027675286265162035
+      }
+    },
+    {
+      "first": 1376256,
+      "last": 1400832,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.025433922649046873,
+        "reflected_union_plus": 0.025433922649046873,
+        "prefix_minus": 0.025433922649046873,
+        "reflected_union_minus": 0.025433922649046873
+      }
+    },
+    {
+      "first": 1400832,
+      "last": 1425408,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.023398250654407274,
+        "reflected_union_plus": 0.023398250654407274,
+        "prefix_minus": 0.02339825065440729,
+        "reflected_union_minus": 0.02339825065440729
+      }
+    },
+    {
+      "first": 1425408,
+      "last": 1449984,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0215509795799276,
+        "reflected_union_plus": 0.0215509795799276,
+        "prefix_minus": 0.021550979579927583,
+        "reflected_union_minus": 0.021550979579927583
+      }
+    },
+    {
+      "first": 1449984,
+      "last": 1474560,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.019809710236830022,
+        "reflected_union_plus": 0.019809710236830022,
+        "prefix_minus": 0.019809710236830022,
+        "reflected_union_minus": 0.019809710236830022
+      }
+    },
+    {
+      "first": 1474560,
+      "last": 1499136,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.018078533959216853,
+        "reflected_union_plus": 0.018078533959216853,
+        "prefix_minus": 0.01807853395921685,
+        "reflected_union_minus": 0.01807853395921685
+      }
+    },
+    {
+      "first": 1499136,
+      "last": 1523712,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0162532739223957,
+        "reflected_union_plus": 0.0162532739223957,
+        "prefix_minus": 0.016253273922395704,
+        "reflected_union_minus": 0.016253273922395704
+      }
+    },
+    {
+      "first": 1523712,
+      "last": 1548288,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.014657214578110497,
+        "reflected_union_plus": 0.014657214578110497,
+        "prefix_minus": 0.014657214578110502,
+        "reflected_union_minus": 0.014657214578110502
+      }
+    },
+    {
+      "first": 1548288,
+      "last": 1572864,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.013056397189559222,
+        "reflected_union_plus": 0.013056397189559222,
+        "prefix_minus": 0.013056397189559185,
+        "reflected_union_minus": 0.013056397189559185
+      }
+    },
+    {
+      "first": 1572864,
+      "last": 1597440,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.011447638785097948,
+        "reflected_union_plus": 0.011447638785097948,
+        "prefix_minus": 0.011447638785097932,
+        "reflected_union_minus": 0.011447638785097932
+      }
+    },
+    {
+      "first": 1597440,
+      "last": 1622016,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.009839047312484958,
+        "reflected_union_plus": 0.009839047312484958,
+        "prefix_minus": 0.009839047312484955,
+        "reflected_union_minus": 0.009839047312484955
+      }
+    },
+    {
+      "first": 1622016,
+      "last": 1646592,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.008366989264276092,
+        "reflected_union_plus": 0.008366989264276092,
+        "prefix_minus": 0.008366989264276006,
+        "reflected_union_minus": 0.008366989264276006
+      }
+    },
+    {
+      "first": 1646592,
+      "last": 1671168,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.006898801226211666,
+        "reflected_union_plus": 0.006898801226211666,
+        "prefix_minus": 0.006898801226211727,
+        "reflected_union_minus": 0.006898801226211727
+      }
+    },
+    {
+      "first": 1671168,
+      "last": 1695744,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.00556243558865885,
+        "reflected_union_plus": 0.00556243558865885,
+        "prefix_minus": 0.005562435588658844,
+        "reflected_union_minus": 0.005562435588658844
+      }
+    },
+    {
+      "first": 1695744,
+      "last": 1720320,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.004132110690307166,
+        "reflected_union_plus": 0.004132110690307166,
+        "prefix_minus": 0.004132110690307183,
+        "reflected_union_minus": 0.004132110690307183
+      }
+    },
+    {
+      "first": 1720320,
+      "last": 1744896,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.003828388156983256,
+        "reflected_union_plus": 0.003828388156983256,
+        "prefix_minus": 0.00382838815698327,
+        "reflected_union_minus": 0.00382838815698327
+      }
+    },
+    {
+      "first": 1744896,
+      "last": 1769472,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0037728648771632105,
+        "reflected_union_plus": 0.0037728648771632105,
+        "prefix_minus": 0.003772864877163237,
+        "reflected_union_minus": 0.003772864877163237
+      }
+    },
+    {
+      "first": 1769472,
+      "last": 1794048,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.003742753312269654,
+        "reflected_union_plus": 0.003742753312269654,
+        "prefix_minus": 0.003742753312269643,
+        "reflected_union_minus": 0.003742753312269643
+      }
+    },
+    {
+      "first": 1794048,
+      "last": 1818624,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0032350951205129576,
+        "reflected_union_plus": 0.0032350951205129576,
+        "prefix_minus": 0.0032350951205129654,
+        "reflected_union_minus": 0.0032350951205129654
+      }
+    },
+    {
+      "first": 1818624,
+      "last": 1843200,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0028529310883152557,
+        "reflected_union_plus": 0.0028529310883152557,
+        "prefix_minus": 0.0028529310883153346,
+        "reflected_union_minus": 0.0028529310883153346
+      }
+    },
+    {
+      "first": 1843200,
+      "last": 1867776,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0027956429300956993,
+        "reflected_union_plus": 0.0027956429300956993,
+        "prefix_minus": 0.002795642930095773,
+        "reflected_union_minus": 0.002795642930095773
+      }
+    },
+    {
+      "first": 1867776,
+      "last": 1892352,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0023546293683344745,
+        "reflected_union_plus": 0.0023546293683344745,
+        "prefix_minus": 0.0023546293683345525,
+        "reflected_union_minus": 0.0023546293683345525
+      }
+    },
+    {
+      "first": 1892352,
+      "last": 1916928,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0017961357178902279,
+        "reflected_union_plus": 0.0017961357178902279,
+        "prefix_minus": 0.0017961357178901567,
+        "reflected_union_minus": 0.0017961357178901567
+      }
+    },
+    {
+      "first": 1916928,
+      "last": 1941504,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0014211132790943766,
+        "reflected_union_plus": 0.0014211132790943766,
+        "prefix_minus": 0.0014211132790943445,
+        "reflected_union_minus": 0.0014211132790943445
+      }
+    },
+    {
+      "first": 1941504,
+      "last": 1966080,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0017624749551686004,
+        "reflected_union_plus": 0.0017624749551686004,
+        "prefix_minus": 0.0017624749551686004,
+        "reflected_union_minus": 0.0017624749551686004
+      }
+    },
+    {
+      "first": 1966080,
+      "last": 1990656,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002169320180579285,
+        "reflected_union_plus": 0.002169320180579285,
+        "prefix_minus": 0.002169320180579269,
+        "reflected_union_minus": 0.002169320180579269
+      }
+    },
+    {
+      "first": 1990656,
+      "last": 2015232,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002750694135751958,
+        "reflected_union_plus": 0.002750694135751958,
+        "prefix_minus": 0.002750694135751929,
+        "reflected_union_minus": 0.002750694135751929
+      }
+    },
+    {
+      "first": 2015232,
+      "last": 2039808,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002917299932443565,
+        "reflected_union_plus": 0.002917299932443565,
+        "prefix_minus": 0.0029172999324435446,
+        "reflected_union_minus": 0.0029172999324435446
+      }
+    },
+    {
+      "first": 2039808,
+      "last": 2064384,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002911360850233222,
+        "reflected_union_plus": 0.002911360850233222,
+        "prefix_minus": 0.0029113608502332445,
+        "reflected_union_minus": 0.0029113608502332445
+      }
+    },
+    {
+      "first": 2064384,
+      "last": 2088960,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002715717369638952,
+        "reflected_union_plus": 0.002715717369638952,
+        "prefix_minus": 0.0027157173696389157,
+        "reflected_union_minus": 0.0027157173696389157
+      }
+    },
+    {
+      "first": 2088960,
+      "last": 2113536,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0022676960744648215,
+        "reflected_union_plus": 0.0022676960744648215,
+        "prefix_minus": 0.002267696074464818,
+        "reflected_union_minus": 0.002267696074464818
+      }
+    },
+    {
+      "first": 2113536,
+      "last": 2138112,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0015668857737111918,
+        "reflected_union_plus": 0.0015668857737111918,
+        "prefix_minus": 0.0015668857737111755,
+        "reflected_union_minus": 0.0015668857737111755
+      }
+    },
+    {
+      "first": 2138112,
+      "last": 2162688,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0013657865177113127,
+        "reflected_union_plus": 0.0013657865177113127,
+        "prefix_minus": 0.0013657865177112943,
+        "reflected_union_minus": 0.0013657865177112943
+      }
+    },
+    {
+      "first": 2162688,
+      "last": 2187264,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0022508907016809557,
+        "reflected_union_plus": 0.0022508907016809557,
+        "prefix_minus": 0.0022508907016809635,
+        "reflected_union_minus": 0.0022508907016809635
+      }
+    },
+    {
+      "first": 2187264,
+      "last": 2211840,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002891654063521218,
+        "reflected_union_plus": 0.002891654063521218,
+        "prefix_minus": 0.0028916540635211597,
+        "reflected_union_minus": 0.0028916540635211597
+      }
+    },
+    {
+      "first": 2211840,
+      "last": 2236416,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.003163142265680746,
+        "reflected_union_plus": 0.003163142265680746,
+        "prefix_minus": 0.003163142265680746,
+        "reflected_union_minus": 0.003163142265680746
+      }
+    },
+    {
+      "first": 2236416,
+      "last": 2260992,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0032522362787709286,
+        "reflected_union_plus": 0.0032522362787709286,
+        "prefix_minus": 0.003252236278770917,
+        "reflected_union_minus": 0.003252236278770917
+      }
+    },
+    {
+      "first": 2260992,
+      "last": 2285568,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0032558635390468457,
+        "reflected_union_plus": 0.0032558635390468457,
+        "prefix_minus": 0.0032558635390468067,
+        "reflected_union_minus": 0.0032558635390468067
+      }
+    },
+    {
+      "first": 2285568,
+      "last": 2310144,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.003199819871148145,
+        "reflected_union_plus": 0.003199819871148145,
+        "prefix_minus": 0.0031998198711480795,
+        "reflected_union_minus": 0.0031998198711480795
+      }
+    },
+    {
+      "first": 2310144,
+      "last": 2334720,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.003080291784171228,
+        "reflected_union_plus": 0.003080291784171228,
+        "prefix_minus": 0.003080291784171241,
+        "reflected_union_minus": 0.003080291784171241
+      }
+    },
+    {
+      "first": 2334720,
+      "last": 2359296,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002883858731866632,
+        "reflected_union_plus": 0.002883858731866632,
+        "prefix_minus": 0.002883858731866595,
+        "reflected_union_minus": 0.002883858731866595
+      }
+    },
+    {
+      "first": 2359296,
+      "last": 2383872,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002679734463067037,
+        "reflected_union_plus": 0.002679734463067037,
+        "prefix_minus": 0.0026797344630670895,
+        "reflected_union_minus": 0.0026797344630670895
+      }
+    },
+    {
+      "first": 2383872,
+      "last": 2408448,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.002392307648316812,
+        "reflected_union_plus": 0.002392307648316812,
+        "prefix_minus": 0.0023923076483167672,
+        "reflected_union_minus": 0.0023923076483167672
+      }
+    },
+    {
+      "first": 2408448,
+      "last": 2433024,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0020952795220141773,
+        "reflected_union_plus": 0.0020952795220141773,
+        "prefix_minus": 0.002095279522014112,
+        "reflected_union_minus": 0.002095279522014112
+      }
+    },
+    {
+      "first": 2433024,
+      "last": 2457600,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0018672802526834712,
+        "reflected_union_plus": 0.0018672802526834712,
+        "prefix_minus": 0.0018672802526835397,
+        "reflected_union_minus": 0.0018672802526835397
+      }
+    },
+    {
+      "first": 2457600,
+      "last": 2482176,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0017925679787533292,
+        "reflected_union_plus": 0.0017925679787533292,
+        "prefix_minus": 0.0017925679787532942,
+        "reflected_union_minus": 0.0017925679787532942
+      }
+    },
+    {
+      "first": 2482176,
+      "last": 2506752,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0017915488032082035,
+        "reflected_union_plus": 0.0017915488032082035,
+        "prefix_minus": 0.0017915488032082035,
+        "reflected_union_minus": 0.0017915488032082035
+      }
+    },
+    {
+      "first": 2506752,
+      "last": 2531328,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0018697680231790068,
+        "reflected_union_plus": 0.0018697680231790068,
+        "prefix_minus": 0.0018697680231790292,
+        "reflected_union_minus": 0.0018697680231790292
+      }
+    },
+    {
+      "first": 2531328,
+      "last": 2555904,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0019245230080930597,
+        "reflected_union_plus": 0.0019245230080930597,
+        "prefix_minus": 0.0019245230080930152,
+        "reflected_union_minus": 0.0019245230080930152
+      }
+    },
+    {
+      "first": 2555904,
+      "last": 2580480,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0019814139181935217,
+        "reflected_union_plus": 0.0019814139181935217,
+        "prefix_minus": 0.0019814139181935217,
+        "reflected_union_minus": 0.0019814139181935217
+      }
+    },
+    {
+      "first": 2580480,
+      "last": 2605056,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.0017521322036537995,
+        "reflected_union_plus": 0.0017521322036537995,
+        "prefix_minus": 0.0017521322036537995,
+        "reflected_union_minus": 0.0017521322036537995
+      }
+    },
+    {
+      "first": 2605056,
+      "last": 2629632,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.001004752005303558,
+        "reflected_union_plus": 0.001004752005303558,
+        "prefix_minus": 0.001004752005303558,
+        "reflected_union_minus": 0.001004752005303558
+      }
+    },
+    {
+      "first": 2629632,
+      "last": 2654208,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.000415703311642827,
+        "reflected_union_plus": 0.000415703311642827,
+        "prefix_minus": 0.000415703311642827,
+        "reflected_union_minus": 0.000415703311642827
+      }
+    },
+    {
+      "first": 2654208,
+      "last": 2678784,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.00018259169973185702,
+        "reflected_union_plus": 0.00018259169973185702,
+        "prefix_minus": 0.00018259169973185702,
+        "reflected_union_minus": 0.00018259169973185702
+      }
+    },
+    {
+      "first": 2678784,
+      "last": 2703360,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.00014102947048426736,
+        "reflected_union_plus": 0.00014102947048426736,
+        "prefix_minus": 0.00014102947048426736,
+        "reflected_union_minus": 0.00014102947048426736
+      }
+    },
+    {
+      "first": 2703360,
+      "last": 2727936,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.00012441341397164226,
+        "reflected_union_plus": 0.00012441341397164226,
+        "prefix_minus": 0.00012441341397164226,
+        "reflected_union_minus": 0.00012441341397164226
+      }
+    },
+    {
+      "first": 2727936,
+      "last": 2752512,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 0.00010285320125991292,
+        "reflected_union_plus": 0.00010285320125991292,
+        "prefix_minus": 0.00010285320125991292,
+        "reflected_union_minus": 0.00010285320125991292
+      }
+    },
+    {
+      "first": 2752512,
+      "last": 2777088,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 9.105873378569346e-05,
+        "reflected_union_plus": 9.105873378569346e-05,
+        "prefix_minus": 9.105873378569346e-05,
+        "reflected_union_minus": 9.105873378569346e-05
+      }
+    },
+    {
+      "first": 2777088,
+      "last": 2801664,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 8.766622049260242e-05,
+        "reflected_union_plus": 8.766622049260242e-05,
+        "prefix_minus": 8.766622049260242e-05,
+        "reflected_union_minus": 8.766622049260242e-05
+      }
+    },
+    {
+      "first": 2801664,
+      "last": 2826240,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 8.111256103798181e-05,
+        "reflected_union_plus": 8.111256103798181e-05,
+        "prefix_minus": 8.111256103798181e-05,
+        "reflected_union_minus": 8.111256103798181e-05
+      }
+    },
+    {
+      "first": 2826240,
+      "last": 2850816,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 8.023610378384835e-05,
+        "reflected_union_plus": 8.023610378384835e-05,
+        "prefix_minus": 8.023610378384835e-05,
+        "reflected_union_minus": 8.023610378384835e-05
+      }
+    },
+    {
+      "first": 2850816,
+      "last": 2875392,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 6.955237709404421e-05,
+        "reflected_union_plus": 6.955237709404421e-05,
+        "prefix_minus": 6.955237709404421e-05,
+        "reflected_union_minus": 6.955237709404421e-05
+      }
+    },
+    {
+      "first": 2875392,
+      "last": 2890752,
+      "maximum_selected_pair_distance": {
+        "prefix_plus": 5.9867363579138314e-05,
+        "reflected_union_plus": 5.9867363579138314e-05,
+        "prefix_minus": 5.9867363579138314e-05,
+        "reflected_union_minus": 5.9867363579138314e-05
+      }
+    }
+  ],
+  "directed_cases": {
+    "prefix_to_rotated": {
+      "unrotated_query_sign": 1,
+      "complete_base_sources_scanned": 2890752,
+      "additional_reflected_sources_paid_by_exact_commuting_reflection": false,
+      "complete_witness_targets_scanned": 2890752,
+      "global_selected_pair_maximum_float_squared": 0.06284720539512229,
+      "exact_global_selected_pair_squared_upper": {
+        "numerator": "673413215184767451167409494489859316888646792329770913230426961745530841229498333222446171241403725714543352876501096815076379792026057563428949148680698024954815506264169522743370562015357822920560937443186855493951123652834037852312634036701080723929716379245118087938523710523666673995481230606337",
+        "denominator": "10715086071862667261416616579469087649691894680422345210796396744415013288498139773079167966894882936570596994547585578611351356383980208246732715528605277785139773853430112096562409429168329496022398786739920358715023435013531722927311614311617481353123916077346775356986854542367642215768096367443968"
+      },
+      "finite_directed_Hausdorff_lower": {
+        "numerator": "39723962644727428759612553745",
+        "denominator": "158456325028528675187087900672"
+      },
+      "finite_directed_Hausdorff_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "1267650600228229401496703205376"
+      },
+      "finite_directed_distance_display": [
+        0.2506934490470827,
+        0.25069344904708285
+      ],
+      "witness_base_point": {
+        "flat_index": 1,
+        "radial_index": 0,
+        "angular_index": 1,
+        "numerical_t": 0.0,
+        "eta": 0.008181230868723419,
+        "physical_s": 0.0,
+        "cartesian": [
+          1.1158349103141398,
+          0.0067531530328886905,
+          0.0
+        ],
+        "coordinate_scope": "Exact saved numerical t/eta indices. Physical s/theta require the original current chart replay except s=0 at the core."
+      },
+      "nearest_base_point": {
+        "flat_index": 577,
+        "radial_index": 0,
+        "angular_index": 577,
+        "numerical_t": 0.0,
+        "eta": 4.720570211253413,
+        "physical_s": 0.0,
+        "cartesian": [
+          0.011170797790274767,
+          -0.865180387494543,
+          0.0
+        ],
+        "coordinate_scope": "Exact saved numerical t/eta indices. Physical s/theta require the original current chart replay except s=0 at the core."
+      },
+      "actual_directed_source_point": [
+        1.1158349103141398,
+        0.0067531530328886905,
+        0.0
+      ],
+      "actual_directed_target_point": [
+        0.865180387494543,
+        0.011170797790274767,
+        0.0
+      ],
+      "nearest_target_reflected_in_z": false,
+      "exact_witness_selected_pair_squared": {
+        "numerator": "83538264868041332501555278461213841",
+        "denominator": "1329227995784915872903807060280344576"
+      },
+      "witness_nearest_distance_display": [
+        0.2506934490470827,
+        0.25069344904708274
+      ],
+      "all_selected_pairs_are_actual_set_members": true,
+      "no_exact_unique_nearest_point_claim": true
+    },
+    "prefix_rotated_to_original": {
+      "unrotated_query_sign": -1,
+      "complete_base_sources_scanned": 2890752,
+      "additional_reflected_sources_paid_by_exact_commuting_reflection": false,
+      "complete_witness_targets_scanned": 2890752,
+      "global_selected_pair_maximum_float_squared": 0.06284720539512229,
+      "exact_global_selected_pair_squared_upper": {
+        "numerator": "673413215184767451167409494489859316888646792329770913230426961745530841229498333222446171241403725714543352876501096815076379792026057563428949148680698024954815506264169522743370562015357822920560937443186855493951123652834037852312634036701080723929716379245118087938523710523666673995481230606337",
+        "denominator": "10715086071862667261416616579469087649691894680422345210796396744415013288498139773079167966894882936570596994547585578611351356383980208246732715528605277785139773853430112096562409429168329496022398786739920358715023435013531722927311614311617481353123916077346775356986854542367642215768096367443968"
+      },
+      "finite_directed_Hausdorff_lower": {
+        "numerator": "39723962644727428759612553745",
+        "denominator": "158456325028528675187087900672"
+      },
+      "finite_directed_Hausdorff_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "1267650600228229401496703205376"
+      },
+      "finite_directed_distance_display": [
+        0.2506934490470827,
+        0.25069344904708285
+      ],
+      "witness_base_point": {
+        "flat_index": 383,
+        "radial_index": 0,
+        "angular_index": 383,
+        "numerical_t": 0.0,
+        "eta": 3.1334114227210694,
+        "physical_s": 0.0,
+        "cartesian": [
+          -1.1158349103141398,
+          0.006753153032889014,
+          0.0
+        ],
+        "coordinate_scope": "Exact saved numerical t/eta indices. Physical s/theta require the original current chart replay except s=0 at the core."
+      },
+      "nearest_base_point": {
+        "flat_index": 575,
+        "radial_index": 0,
+        "angular_index": 575,
+        "numerical_t": 0.0,
+        "eta": 4.704207749515966,
+        "physical_s": 0.0,
+        "cartesian": [
+          -0.011170797790275269,
+          -0.865180387494543,
+          0.0
+        ],
+        "coordinate_scope": "Exact saved numerical t/eta indices. Physical s/theta require the original current chart replay except s=0 at the core."
+      },
+      "actual_directed_source_point": [
+        -0.006753153032889014,
+        -1.1158349103141398,
+        0.0
+      ],
+      "actual_directed_target_point": [
+        -0.011170797790275269,
+        -0.865180387494543,
+        0.0
+      ],
+      "nearest_target_reflected_in_z": false,
+      "exact_witness_selected_pair_squared": {
+        "numerator": "20884566217010333647441577766984729",
+        "denominator": "332306998946228968225951765070086144"
+      },
+      "witness_nearest_distance_display": [
+        0.2506934490470827,
+        0.25069344904708274
+      ],
+      "all_selected_pairs_are_actual_set_members": true,
+      "no_exact_unique_nearest_point_claim": true
+    },
+    "reflected_union_to_rotated": {
+      "unrotated_query_sign": 1,
+      "complete_base_sources_scanned": 2890752,
+      "additional_reflected_sources_paid_by_exact_commuting_reflection": true,
+      "complete_witness_targets_scanned": 5781504,
+      "global_selected_pair_maximum_float_squared": 0.06284720539512229,
+      "exact_global_selected_pair_squared_upper": {
+        "numerator": "673413215184767451167409494489859316888646792329770913230426961745530841229498333222446171241403725714543352876501096815076379792026057563428949148680698024954815506264169522743370562015357822920560937443186855493951123652834037852312634036701080723929716379245118087938523710523666673995481230606337",
+        "denominator": "10715086071862667261416616579469087649691894680422345210796396744415013288498139773079167966894882936570596994547585578611351356383980208246732715528605277785139773853430112096562409429168329496022398786739920358715023435013531722927311614311617481353123916077346775356986854542367642215768096367443968"
+      },
+      "finite_directed_Hausdorff_lower": {
+        "numerator": "39723962644727428759612553745",
+        "denominator": "158456325028528675187087900672"
+      },
+      "finite_directed_Hausdorff_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "1267650600228229401496703205376"
+      },
+      "finite_directed_distance_display": [
+        0.2506934490470827,
+        0.25069344904708285
+      ],
+      "witness_base_point": {
+        "flat_index": 1,
+        "radial_index": 0,
+        "angular_index": 1,
+        "numerical_t": 0.0,
+        "eta": 0.008181230868723419,
+        "physical_s": 0.0,
+        "cartesian": [
+          1.1158349103141398,
+          0.0067531530328886905,
+          0.0
+        ],
+        "coordinate_scope": "Exact saved numerical t/eta indices. Physical s/theta require the original current chart replay except s=0 at the core."
+      },
+      "nearest_base_point": {
+        "flat_index": 577,
+        "radial_index": 0,
+        "angular_index": 577,
+        "numerical_t": 0.0,
+        "eta": 4.720570211253413,
+        "physical_s": 0.0,
+        "cartesian": [
+          0.011170797790274767,
+          -0.865180387494543,
+          0.0
+        ],
+        "coordinate_scope": "Exact saved numerical t/eta indices. Physical s/theta require the original current chart replay except s=0 at the core."
+      },
+      "actual_directed_source_point": [
+        1.1158349103141398,
+        0.0067531530328886905,
+        0.0
+      ],
+      "actual_directed_target_point": [
+        0.865180387494543,
+        0.011170797790274767,
+        0.0
+      ],
+      "nearest_target_reflected_in_z": false,
+      "exact_witness_selected_pair_squared": {
+        "numerator": "83538264868041332501555278461213841",
+        "denominator": "1329227995784915872903807060280344576"
+      },
+      "witness_nearest_distance_display": [
+        0.2506934490470827,
+        0.25069344904708274
+      ],
+      "all_selected_pairs_are_actual_set_members": true,
+      "no_exact_unique_nearest_point_claim": true
+    },
+    "reflected_union_rotated_to_original": {
+      "unrotated_query_sign": -1,
+      "complete_base_sources_scanned": 2890752,
+      "additional_reflected_sources_paid_by_exact_commuting_reflection": true,
+      "complete_witness_targets_scanned": 5781504,
+      "global_selected_pair_maximum_float_squared": 0.06284720539512229,
+      "exact_global_selected_pair_squared_upper": {
+        "numerator": "673413215184767451167409494489859316888646792329770913230426961745530841229498333222446171241403725714543352876501096815076379792026057563428949148680698024954815506264169522743370562015357822920560937443186855493951123652834037852312634036701080723929716379245118087938523710523666673995481230606337",
+        "denominator": "10715086071862667261416616579469087649691894680422345210796396744415013288498139773079167966894882936570596994547585578611351356383980208246732715528605277785139773853430112096562409429168329496022398786739920358715023435013531722927311614311617481353123916077346775356986854542367642215768096367443968"
+      },
+      "finite_directed_Hausdorff_lower": {
+        "numerator": "39723962644727428759612553745",
+        "denominator": "158456325028528675187087900672"
+      },
+      "finite_directed_Hausdorff_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "1267650600228229401496703205376"
+      },
+      "finite_directed_distance_display": [
+        0.2506934490470827,
+        0.25069344904708285
+      ],
+      "witness_base_point": {
+        "flat_index": 383,
+        "radial_index": 0,
+        "angular_index": 383,
+        "numerical_t": 0.0,
+        "eta": 3.1334114227210694,
+        "physical_s": 0.0,
+        "cartesian": [
+          -1.1158349103141398,
+          0.006753153032889014,
+          0.0
+        ],
+        "coordinate_scope": "Exact saved numerical t/eta indices. Physical s/theta require the original current chart replay except s=0 at the core."
+      },
+      "nearest_base_point": {
+        "flat_index": 575,
+        "radial_index": 0,
+        "angular_index": 575,
+        "numerical_t": 0.0,
+        "eta": 4.704207749515966,
+        "physical_s": 0.0,
+        "cartesian": [
+          -0.011170797790275269,
+          -0.865180387494543,
+          0.0
+        ],
+        "coordinate_scope": "Exact saved numerical t/eta indices. Physical s/theta require the original current chart replay except s=0 at the core."
+      },
+      "actual_directed_source_point": [
+        -0.006753153032889014,
+        -1.1158349103141398,
+        0.0
+      ],
+      "actual_directed_target_point": [
+        -0.011170797790275269,
+        -0.865180387494543,
+        0.0
+      ],
+      "nearest_target_reflected_in_z": false,
+      "exact_witness_selected_pair_squared": {
+        "numerator": "20884566217010333647441577766984729",
+        "denominator": "332306998946228968225951765070086144"
+      },
+      "witness_nearest_distance_display": [
+        0.2506934490470827,
+        0.25069344904708274
+      ],
+      "all_selected_pairs_are_actual_set_members": true,
+      "no_exact_unique_nearest_point_claim": true
+    }
+  },
+  "sets": {
+    "prefix": {
+      "finite_Hausdorff_lower": {
+        "numerator": "39723962644727428759612553745",
+        "denominator": "158456325028528675187087900672"
+      },
+      "finite_Hausdorff_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "1267650600228229401496703205376"
+      },
+      "finite_Hausdorff_display": [
+        0.2506934490470827,
+        0.25069344904708285
+      ],
+      "same_set_finite_diameter_display": [
+        2.7255845000752186,
+        2.7819531656262475
+      ],
+      "finite_Hausdorff_over_same_finite_D_display": [
+        0.09011418745097706,
+        0.09197786714745566
+      ],
+      "finite_Hausdorff_over_same_finite_D_bounds": [
+        {
+          "numerator": "4413773627191936528845839305",
+          "denominator": "48979786114068550642337301504"
+        },
+        {
+          "numerator": "317791701157819606486732260065",
+          "denominator": "3455088827493109495442448582656"
+        }
+      ]
+    },
+    "reflected_union": {
+      "finite_Hausdorff_lower": {
+        "numerator": "39723962644727428759612553745",
+        "denominator": "158456325028528675187087900672"
+      },
+      "finite_Hausdorff_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "1267650600228229401496703205376"
+      },
+      "finite_Hausdorff_display": [
+        0.2506934490470827,
+        0.25069344904708285
+      ],
+      "same_set_finite_diameter_display": [
+        3.973839591888201,
+        3.973839591888202
+      ],
+      "finite_Hausdorff_over_same_finite_D_display": [
+        0.06308595081664171,
+        0.06308595081664177
+      ],
+      "finite_Hausdorff_over_same_finite_D_bounds": [
+        {
+          "numerator": "882754725438387305769167861",
+          "denominator": "13992889288521614974234000128"
+        },
+        {
+          "numerator": "4743159718773426962488541195",
+          "denominator": "75185673789071345286896473088"
+        }
+      ]
+    }
+  },
+  "phase_convention": {
+    "ambient_quarter_turn": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "reflection": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ],
+    "R1_family": "F_alpha(s,theta)=R_alpha F_0(s,theta-alpha); the full angular image is rotated. This diagnostic chooses the saved image samples then rotates them exactly.",
+    "material_reparametrization_is_not_pointwise_displacement": true,
+    "arbitrary_radial_and_angular_nearest_neighbours_allowed": true,
+    "second_direction_computed_by_common_inverse_isometry": true,
+    "reflection_and_rotation_commute_exactly": true,
+    "no_fixed_cap_or_marker_points_in_either_saved_set": true,
+    "quarter_phase_is_not_claimed_global_maximum_over_all_phases": true
+  },
+  "rigorous_finite_arithmetic_scope": {
+    "binary64_unit_roundoff": {
+      "numerator": "1",
+      "denominator": "9007199254740992"
+    },
+    "positive_squared_sum_relative_factors": 5,
+    "absolute_subnormal_allowance": {
+      "numerator": "1",
+      "denominator": "10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831652624386837205668069376"
+    },
+    "all_coordinates_magnitude_less_than_1024": true,
+    "all_selected_pairs_complete_global_max_upper": true,
+    "KD_tree_nearest_accuracy_not_required_for_upper_bound": true,
+    "lower_bound_uses_complete_direct_target_scan_not_tree": true,
+    "selected_exact_binary_witness_pairs_and_square_root_sandwich": true,
+    "sqrt_bits": 100
+  },
+  "scipy_version": "1.17.0",
+  "KD_tree_options": {
+    "leafsize": 32,
+    "compact_nodes": true,
+    "balanced_tree": true,
+    "copy_data": false,
+    "eps": 0.0,
+    "workers": 1
+  },
+  "RSS_limit_MiB": 768.0,
+  "new_ODE_Node_Jacobian_or_geometry_field_calls": 0,
+  "derived_point_blocks_not_copied": true,
+  "continuous_sampling_or_cap_error_paid": false,
+  "full_closed_surface_D_deltaHold_reach_or_deltaE_certified": false,
+  "rigid_motion_quotient_Hausdorff_of_these_two_finite_sets_is_zero": true,
+  "elapsed_seconds": 499.6388911180038,
+  "peak_rss_kib": 187972
+}

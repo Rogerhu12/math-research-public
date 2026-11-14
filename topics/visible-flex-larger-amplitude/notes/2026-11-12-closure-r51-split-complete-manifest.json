@@ -1,0 +1,90 @@
+{
+  "status": "Complete original641 strict mathematical gates paid; all three executed jobs have formal resource exitcode0. Scope is q003 real cells12..224 plus actual R18 infinite tail.",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "results/R51-positive-factor-and-direct-split-head-certificate.md",
+      "bytes": 12552,
+      "sha256": "c4a6dbcd0beec168561abf8dbb9fe0a6be87f87e5330fe327b9494c5658b7954"
+    },
+    {
+      "path": "computations/closure_split_joint_io.py",
+      "bytes": 6174,
+      "sha256": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390"
+    },
+    {
+      "path": "computations/closure_split_joint_float_proposal.py",
+      "bytes": 11214,
+      "sha256": "2c01a7d761419b226d9ca89ab11f83d54630ce56bdb226dbba463a1888c8d14b"
+    },
+    {
+      "path": "computations/closure_split_joint_verify.py",
+      "bytes": 12475,
+      "sha256": "7de7b0d07508eb18487a5b8a61fc49d48f5445b047ca5f9033fe49de8140ac81"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-prepared-manifest.json",
+      "bytes": 2938,
+      "sha256": "4d51c4e108566991ef49c4c30ca0e4ab8cc719dffc3181c215aa1d7d85aa96ef"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-float-r1.json",
+      "bytes": 6350,
+      "sha256": "9f8a9e97b65fe7bb9d4635b792f95c0a2fb28725135a3154c26328614d1a1b46"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-float-r1-resource.json",
+      "bytes": 974,
+      "sha256": "30986747db1192e49ccec49e89b865e089ec964860cb4ebdabdedbcbdd237f77"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-float-r2.json",
+      "bytes": 206817,
+      "sha256": "e5790ef3a62abdfe937667d5b488b42bc8aac25535e93f3c40dab262a9fc0eda"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-float-r2-resource.json",
+      "bytes": 1011,
+      "sha256": "f102c5223cbcfa377f0c21e861819f4c72b60056cb30c17ab2ae13be08bd4533"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-full641-r1.json.gz",
+      "bytes": 233576,
+      "sha256": "2c89aa54d16952b8ab1c16e74a4df28c48efb76b85c8f26b45d59dea7f8bdfd9"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-full641-r1-summary.json",
+      "bytes": 5837,
+      "sha256": "7824b9643efa060376cd9636601934289a9b525f30ef96d0c312738c72aaf1c9"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-full641-r1-resource.json",
+      "bytes": 1095,
+      "sha256": "d44144c86d0d7a69924fd6e5edbdabdc2a487f231799ec194d077c521711a9b7"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r51-split-full641-execution.md",
+      "bytes": 4056,
+      "sha256": "a2c824ae9a155942486fd477f734068bf6a9fa4075ec64504ea1e9472fe860d4"
+    }
+  ],
+  "total_bytes": 505069,
+  "gates": {
+    "all641_positive_radii": true,
+    "all641_map_inclusions": true,
+    "physical_correction_domain": true,
+    "complete_mean_domain": true,
+    "exact_R18_parameter_domain": true,
+    "all641_metric_weights_positive": true,
+    "all641_joint_Lipschitz": true
+  },
+  "input_hashes": {
+    "notes/2026-11-12-closure-recovery2-centred-four-green-r1.json.gz": "31c65d6c8053325502542c008720f880d7386cd39168be79ca466851e76bb7ee",
+    "notes/2026-11-12-tail-r50-split-middle-r1.json.gz": "4ab9e668ab582fe1916c5ef764dc97ecb81984096ab2da7c57ceeba52d58e078",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-closure-r51-split-float-r2.json": "e5790ef3a62abdfe937667d5b488b42bc8aac25535e93f3c40dab262a9fc0eda"
+  },
+  "retained_failed_proposal": "The first metric target3/4 had nonpositive float proposal coordinates; it is preserved and does not pay a gate.",
+  "arithmetic_note": "The certified Lipschitz upper is less than0.969, slightly greater than the diagnostic target31/32. The genuine required threshold is1.",
+  "remaining": "Strong reference, outer0..11/prefix matching and final global geometry remain separate."
+}

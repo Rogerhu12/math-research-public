@@ -1,0 +1,42 @@
+{
+  "schema": "terminal-observed-carrier-own-reference-extrema-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Independent compact extremal summary derived from the formally executed local Fraction report, not a replacement or fragment encoding of its original primary",
+  "original_primary": {
+    "path": "notes/2026-11-13-tail-carrier-own-curvature-r1.json",
+    "sha256": "aebb8ac1e52a3d768641363ce047db59b797fc577a6c4a61d96891ffe93c2e66",
+    "bytes": 208048
+  },
+  "original_resource": {
+    "path": "notes/2026-11-13-tail-carrier-own-curvature-r1-resource.json",
+    "sha256": "288ccf898c0079e639edb8ca76da6af3837ff18af9329aeef6481c10bcfc5c07",
+    "formal_exitcode": 0,
+    "termination_signal": null,
+    "wall_seconds": "0.8161814212799072",
+    "peak_rss_kib": 18000
+  },
+  "part": 0,
+  "actual_leaves": 111,
+  "epsilon": "1/512",
+  "all_111_conditional_targets": true,
+  "all_9_structural_gates": true,
+  "real_domain_lowers": {
+    "A": "0.999999980080320178",
+    "D": "0.999986677248075888",
+    "L": "0.970262584231200104",
+    "y": "0.984898105732701371",
+    "N": "0.999993522652829559"
+  },
+  "true_vertical_normal_squared_lower": "0.999525175129636708",
+  "complete_mean_difference_upper": "0.000055109131950351",
+  "candidate_formal_curvature_upper": "8.143011140160913403",
+  "conditional_curvature_upper": "8.165888306896058136",
+  "same_leaf_actual_physical_dH_upper": "0.000117729748874029",
+  "decimal_directions": "All upper values were exact Fraction ceilings at 18 decimal places; all lower values floors. Display rounding is outward, not nearest.",
+  "unpaid_hypotheses": [
+    "Same-g exact full Darboux solution",
+    "Complete-frequency A_tau^1 (P,K_nonmean) difference <=1/512",
+    "Common reflection symmetry and one common spatial gauge for the geometric application"
+  ]
+}

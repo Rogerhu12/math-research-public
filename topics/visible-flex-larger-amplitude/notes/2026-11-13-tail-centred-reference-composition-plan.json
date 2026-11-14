@@ -1,0 +1,92 @@
+{
+  "schema": "centred-candidate-bridge-and-conditional-true-geometry-plan-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Prepared local-only pure Fraction consumer; no new numeric execution",
+  "source": {
+    "path": "computations/tail_r103_centred_bridge_composition.py",
+    "sha256": "5c91a1309dabadc13d61819ee5ae7413820a78c56751bbf1566ada8f764fa913",
+    "bytes": 13446,
+    "git_blob_sha": "5820af809baf246e4a71c2f133671f0664574a45"
+  },
+  "application_note": {
+    "path": "notes/2026-11-13-tail-centred-reference-conditional-composition.md",
+    "sha256": "4af39be60aac44841aadf3fec2498d6e55490edc09c3991f9f51aebee363319b",
+    "bytes": 5469,
+    "git_blob_sha": "6e8823b85a80734df240972a9b38861c9fdcaa68"
+  },
+  "predecessor": {
+    "manifest": "notes/2026-11-13-tail-old-r48-carrier-same-measure-stable-manifest.json",
+    "git_blob_sha": "14c5ff6dbd257b2fa09c89b22d2b55d3a4320bf2",
+    "sha256": "e4e7995e343c90f6b81287999f05da4114cc766d637010d042e737acb858082b",
+    "requirement": "Actual complete111-leaf source/resource/primary, formal exit0. Do not run this consumer against a prepared or partial predecessor."
+  },
+  "r103_actual_ledger": {
+    "path": "notes/2026-11-13-tail-r103-centred-geometry-actual.json",
+    "sha256": "be7bad918196795ea6d128428e459e259e1bed71b123e37b944720b864158f21",
+    "git_blob_sha": "910d16e0ec15cac970df1ca9fe412b3481d6a4ec"
+  },
+  "resource_wrapper": {
+    "path": "computations/strong_resource_run.py",
+    "sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "run_from": "repository/topics/visible-flex-larger-amplitude",
+  "child_argv": [
+    "python",
+    "computations/tail_r103_centred_bridge_composition.py",
+    "--bridge-summary",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-summary.json",
+    "--bridge-resource",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-resource.json",
+    "--bridge-primary",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-leaves.jsonl.gz",
+    "--r103-ledger",
+    "notes/2026-11-13-tail-r103-centred-geometry-actual.json",
+    "--out",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-centred-true-conditional-r1.json",
+    "--rss-limit-mib",
+    "40"
+  ],
+  "wrapped_argv": [
+    "python",
+    "computations/strong_resource_run.py",
+    "--out",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-centred-true-conditional-r1-resource.json",
+    "--",
+    "python",
+    "computations/tail_r103_centred_bridge_composition.py",
+    "--bridge-summary",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-summary.json",
+    "--bridge-resource",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-resource.json",
+    "--bridge-primary",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-leaves.jsonl.gz",
+    "--r103-ledger",
+    "notes/2026-11-13-tail-r103-centred-geometry-actual.json",
+    "--out",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-centred-true-conditional-r1.json",
+    "--rss-limit-mib",
+    "40"
+  ],
+  "outputs": [
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-centred-true-conditional-r1.json",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-centred-true-conditional-r1-resource.json"
+  ],
+  "mandatory_order": [
+    "Verify and archive the real pending25 files through actual CLI before recomputation; no binary or encoded tool transfer.",
+    "Execute actual AST checks and the complete same-measure predecessor, preserving fixed SHA, fullmean and every original mathematical domain.",
+    "Only after formal predecessor exit0, run this consumer with the exact primary and R103 conditional ledger.",
+    "Record actual exitcode/resource and full output. These arithmetic gates do not discharge the exact-surface error hypothesis."
+  ],
+  "mathematical_composition": "old-centred -> carrier-centred -> true; separately fixed left or right global mean anchor",
+  "two_gauge_quantifiers": "One fixed anchor for the entire reference and true surface, never a per-point or per-part choice.",
+  "field_error_hypothesis": "Same-g true full-frequency joint A_tau^1 difference <=1/512 relative to carrier part0 + old parts1..7, plus R103 reflection and common centre/axis hypotheses.",
+  "still_unpaid": [
+    "The exact outer solution and full-frequency error",
+    "All8-part radial-to-centred drift",
+    "Independent Cartesian interpolant-to-reference bridge",
+    "Remaining outer0..9, whole-time and far point-pair completion"
+  ],
+  "no_extra_ODE_Arb_Node_or_new_integrals": true,
+  "no_new_theorem_number_requested": true
+}

@@ -1,0 +1,62 @@
+{
+  "status": "Six-control source prepared; exact five-control real-data regression executed; sixth actual direction awaits accepted new baseline.",
+  "files": [
+    {
+      "path": "notes/2026-11-13-geometry-six-control-preparation-five-regression-r1.json",
+      "bytes": 48329,
+      "sha256": "dc2885bf36dbdc0b70e4d914a74eb0d513b15ab731eacfebc3a45b28a028cf2c"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-six-control-preparation-five-regression-r1-resource.json",
+      "bytes": 987,
+      "sha256": "adeba93639c10a648afb21bd57824dff61017da3a39203d3ef5e6c9b703df4aa"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-six-control-preparation-q096-identity-plan.json",
+      "bytes": 8054,
+      "sha256": "600d9924f2bac7693ba20ca74c8f9508bb00c470383e72e90d07aba8610f889c"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-six-control-preparation-q096-identity-grid.json",
+      "bytes": 80511,
+      "sha256": "354f0d59fcb8357ec2c803d1dbb4a7259379f3721e29296d809d53d11c15f71e"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-six-control-preparation-five-combined-regression-plan.json",
+      "bytes": 11919,
+      "sha256": "65c513de47589d59bc7a17be75f69851276b18fe2bf096f1d791020c571a6370"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-six-control-preparation-regression-gates.json",
+      "bytes": 417,
+      "sha256": "4740dff324d4a34183e7b93bb7ca18f7ffb78419bd496477aa0027f1aeded704"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-six-control-preparation.md",
+      "bytes": 3326,
+      "sha256": "437326cc61c2e4fcd4669458f017432f783efe200cce37121510af26267f9873"
+    },
+    {
+      "path": "computations/root_actual_geometry_fullmean_six_plan.py",
+      "bytes": 13279,
+      "sha256": "5f34aec029cfce876fc5f61957d51bb8f924f2ed08e2d01fb412c527a49b3101"
+    },
+    {
+      "path": "computations/root_geometry_minimax_variable_controls.py",
+      "bytes": 6112,
+      "sha256": "7b641b9b08ea61d6620541bd8ea977bb769e665a06b831a44818ca27a998cf92"
+    },
+    {
+      "path": "computations/root_geometry_minimax_current_controls.py",
+      "bytes": 9553,
+      "sha256": "5f3b4f335489d297fca3a8c7f3aa64ed65ef35ad717b17f524eef11720afefc1"
+    },
+    {
+      "path": "computations/root_geometry_minimax_current_combined_plan.py",
+      "bytes": 6239,
+      "sha256": "f64e0daad78d1c2b6d44d32d42ba027b1bb3408a5a7b6376b7c2f2a35f57967a"
+    }
+  ],
+  "new_sixth_direction_claimed": false,
+  "new_nonlinear_solution_claimed": false
+}

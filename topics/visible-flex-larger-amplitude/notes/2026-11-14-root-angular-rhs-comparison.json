@@ -1,0 +1,125 @@
+{
+  "scope": "Compare angular RHS quadrature at the same complete saved A field.\n\nThis is a design-speed diagnostic, not a solve, a boundary audit or fixed-g\nconvergence of accepted solutions. All physical profile and full state data\nare retained. Only the explicitly reported angular evaluation grid varies.\n",
+  "input": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+  "input_sha256": "cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa",
+  "source_sha256": {
+    "root_20261114_angular_rhs_comparison.py": "7833c06c3ab7ac843863ed63cb34d163442cb00ae7bf4bd531643de7f04ea288",
+    "root_20261114_radial_thread_benchmark.py": "2eb5da4db7e8e717eff103302c9093afe7b55a499b1020f74fc86816e8b3801d",
+    "root_20261114_radial_threads.py": "5b37646476abaddea51f9ba6c4f00047365683c4b00443219f4c2b71fdc6a9c6"
+  },
+  "reference_angular": 1280,
+  "modes": 32,
+  "radial_nodes_plus_midpoints": 5179,
+  "compared_values": 502363,
+  "workers": 4,
+  "rows": [
+    {
+      "requested_angle": 1280,
+      "actual_angle": 1280,
+      "seconds": 36.37316559200008,
+      "max_abs_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "rms_scaled_difference": 0.0,
+      "worst_scaled_component": 0,
+      "worst_scaled_s": 0.0,
+      "all_finite": true,
+      "input_state_bitwise_equal": true
+    },
+    {
+      "requested_angle": 640,
+      "actual_angle": 640,
+      "seconds": 18.476672759000394,
+      "max_abs_difference": 1.994778966754196e-14,
+      "max_scaled_difference": 1.9947789667541908e-14,
+      "rms_scaled_difference": 1.7582702357064443e-15,
+      "worst_scaled_component": 94,
+      "worst_scaled_s": 0.0,
+      "all_finite": true,
+      "input_state_bitwise_equal": true
+    },
+    {
+      "requested_angle": 960,
+      "actual_angle": 960,
+      "seconds": 22.841730114999336,
+      "max_abs_difference": 2.1649241689350522e-14,
+      "max_scaled_difference": 2.1649241689350512e-14,
+      "rms_scaled_difference": 1.6921980303795824e-15,
+      "worst_scaled_component": 90,
+      "worst_scaled_s": 0.0,
+      "all_finite": true,
+      "input_state_bitwise_equal": true
+    }
+  ],
+  "loader_provenance": {
+    "scope": "Fresh provider-only anchor adapters for geometry and actual saved loaders.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nEach original loader and all its mathematical/acceptance formulas are frozen.\nExactly its frontload import is redirected to the separately identified\ncurrent-anchor hook. Both the original and repaired hook identities and all\nadapter sources are carried into actual result provenance.\n",
+    "role": "audit",
+    "original_loader_sha256": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0",
+    "original_monotone_hook_sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "current_anchor_hook_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "loader_adapter_source_sha256": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+    "entry_source_sha256": "3d464d3022c82016f6d2f94b7f18394c672ef815fdb4574979aa0f0582bf2ffe",
+    "transformed_loader_sha256": "1ce50fcd173c4225eedbcf2f84ca40c7f93dbc9290757e70f75256dfe1058fe1",
+    "exact_reverse_recovers_original_loader": true,
+    "mathematical_geometry_mean_quintic_and_acceptance_formulas_changed": false,
+    "actual_hook_source_fingerprints_explicit_in_result": true,
+    "installation_order": [
+      "original angle",
+      "original pulse",
+      "fresh current-anchor frontload"
+    ],
+    "original_zero_weight_arithmetic_delegated": true,
+    "old_frozen_sources_modified": false
+  },
+  "original_profile": {
+    "provider_loads": 3,
+    "saved_fields": [
+      {
+        "initial_speed_frontload": 0.0,
+        "initial_speed_pulse": 0.0,
+        "initial_speed_frontload_degree": 22,
+        "physical_profile_unchanged": true,
+        "zero_weight_uses_original_arithmetic": true,
+        "physical_length": 3.191226831699177,
+        "physical_length_original_gate_passed": true
+      },
+      {
+        "initial_speed_frontload": 0.0,
+        "initial_speed_pulse": 0.0,
+        "initial_speed_frontload_degree": 22,
+        "physical_profile_unchanged": true,
+        "zero_weight_uses_original_arithmetic": true,
+        "physical_length": 3.191226831699177,
+        "physical_length_original_gate_passed": true
+      },
+      {
+        "initial_speed_frontload": 0.0,
+        "initial_speed_pulse": 0.0,
+        "initial_speed_frontload_degree": 22,
+        "physical_profile_unchanged": true,
+        "zero_weight_uses_original_arithmetic": true,
+        "physical_length": 3.191226831699177,
+        "physical_length_original_gate_passed": true
+      }
+    ]
+  },
+  "original_scientific_config": {
+    "modes": 32,
+    "base_mode": 2,
+    "core_kind": "dual_support_general_chart",
+    "angular": 1280,
+    "tol": 1e-07,
+    "actual_nonlinear_tail": true,
+    "fixed_metric": true
+  },
+  "boundary_evaluated": false,
+  "new_nonlinear_solution": false,
+  "peak_rss_kib": 342380,
+  "parallel_stats": {
+    "parallel_calls": 3,
+    "serial_calls": 0,
+    "radial_batches": 648,
+    "radial_points": 15537,
+    "deepcopy_seconds": 0.5743539819995931,
+    "evaluation_seconds": 77.1162488129994
+  }
+}

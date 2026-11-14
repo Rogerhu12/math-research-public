@@ -1,0 +1,138 @@
+{
+  "status": "Original finite nonlinear coupled solve formally complete; exact closure and refinement still open",
+  "main_sha256": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+  "formal_session": 9377,
+  "exitcode": 0,
+  "files": [
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz",
+      "bytes": 42588,
+      "sha256": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1_coeff_00.npy.gz",
+      "bytes": 4204104,
+      "sha256": "522cac75b8181b474c9dba7d929a14f1fe2688d6a84e77bb0eacfd6c7d1eab3b"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1_coeff_01.npy.gz",
+      "bytes": 2607968,
+      "sha256": "1ee1289b24c154011f578181a2781cdffb061ad0e73fa94e3ce258433fddf3bc"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz",
+      "bytes": 5425,
+      "sha256": "8fe885fe87eec09e4d0d9508099a82c48a9627f8568021e2bfe28907f62d1f5e"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-x-000.npy.gz",
+      "bytes": 15089,
+      "sha256": "c0c0aacb6d1c71272beb96899f66262efb7dd5d56f1d7765af6d7a2f86769b7c"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-y-000.npy.gz",
+      "bytes": 1131044,
+      "sha256": "b10a16c2bfe80bd5e0f504e5aef7ede84e7fcc07f75da932a559f7232a23c19c"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-p-000.npy.gz",
+      "bytes": 381,
+      "sha256": "7823be999b0a85330460380bb8d521065e124976641527b8dae9a2c9834427a4"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-cubic-000.npy.gz",
+      "bytes": 3889911,
+      "sha256": "5987e0e568e33cbcd2f2ec2f6fbfa7a6eab6a3ccbbb5091d520a7b2bc92edb6d"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-cubic-001.npy.gz",
+      "bytes": 662315,
+      "sha256": "801ec5a839f4fa2e5202c1ad399bbd7924e11e7070106ade60a89786c899c17c"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-rms-000.npy.gz",
+      "bytes": 15352,
+      "sha256": "a3e7aa94f0ce4995c3dbc5d1c7a3101ce1d545d3f8d0f34b55d5b38d7d27b058"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-frozen-adapter.json",
+      "bytes": 7011,
+      "sha256": "cdf36b20e6fb060b64c70b9bcb4eb4159bc18d736039f751e6884827658a0d53"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0002.json.gz",
+      "bytes": 301919,
+      "sha256": "a9042f10558604a8b50fd75d5b1f1345922d8940a9a52ed5571c2094a6496816"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0003.json.gz",
+      "bytes": 302000,
+      "sha256": "32ee699bd596bf397db66a73f9e7470b315286d05e2f13b97a818a64a2c271cb"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_adapter.json",
+      "bytes": 22684,
+      "sha256": "ac69b87f25a144e759bbfcc2d9135287353f0c8b808352b158fd270b9cc784d5"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-iteration.json.gz",
+      "bytes": 283097,
+      "sha256": "966b58ad1857283129f3eb30ebeff06c18d85c59e077060db855074546923947"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-trace.jsonl",
+      "bytes": 9648,
+      "sha256": "87b5b3c9ebad752d0d05cd5cdf0a9933a006361755f38918d58fab6d50791af8"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-trials.jsonl",
+      "bytes": 645,
+      "sha256": "f79328de0b574a09da44ee46b2c232cbdb5bdcced9b907ffef05d77a494f43dc"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-resource.json",
+      "bytes": 1983,
+      "sha256": "f895c1107805f70fb63f4ff4af1deb14118d389136c3f536b797caa74680bd8b"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-log.txt.gz",
+      "bytes": 3877,
+      "sha256": "5d9d1c31b58deeeb7e5a9888609cb06e78d65a196df946d9b9643d761fca1f7a"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-actual-m24-interior.json",
+      "bytes": 2582,
+      "sha256": "0eb2bf87428d08070e76e746e7c32bc8a48069441029b6ac1154c9fcc12ef639"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-actual-m24-interior-resource.json",
+      "bytes": 1125,
+      "sha256": "8dee7fab1d1c92ce7b7c9fb2af72b8b0a38aabe4f2b84e191f155e9177232210"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-actual-m24-cartesian-seam.json",
+      "bytes": 2900,
+      "sha256": "e395cc68ad2bf05efe5bfe62878dad539c03eb563f5399df3fdc792207173263"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-actual-m24-cartesian-seam-resource.json",
+      "bytes": 1217,
+      "sha256": "3b48b8eacf9cffd6202798fe6f2c82e1b565c645b5955251a15bc26366554a75"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-actual-m24-final-run-state.json",
+      "bytes": 4229,
+      "sha256": "f35909d7b8d47d17e0093c2a16558faccfdc45b67eaf6f63ecab1b1c861625cf"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-actual-m24-running.json",
+      "bytes": 4159,
+      "sha256": "79754469bcd6f96114c90482add0cedf7290860a7babd5b76ed8648e3facf75a"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-first-actual-success.md",
+      "bytes": 5279,
+      "sha256": "0602fb76532a7d7feb503f96c7026a04f0d6469875831c47327c67e417596fab"
+    }
+  ]
+}

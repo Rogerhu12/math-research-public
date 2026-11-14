@@ -1,0 +1,20 @@
+{
+  "schema": "owned-publisher-restart-v2",
+  "start_utc": "20261113T183154Z",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/sync_queue.py",
+    "--read-sha",
+    "37c7c2f94c47a2aa87bd3674b1b7d47cdcfdd516",
+    "--watch"
+  ],
+  "log": "/workspace/scratch/d1aa462cfc02/sync-publisher-20261113T183154Z-watch.log",
+  "read_sha": "37c7c2f94c47a2aa87bd3674b1b7d47cdcfdd516",
+  "source_sha256": "355812d6c2a4562f534ed6acea08ec287a73249ed7f986ed94b22d11b246656d",
+  "previous_session": 21294,
+  "previous_tool_observed_exitcode": 1,
+  "previous_controlled_stop": "PTY Ctrl-C to reduce unnecessary pack maintenance on retries; no push success inferred",
+  "owned_child_pid": 4,
+  "exclusive_flock": "/workspace/scratch/d1aa462cfc02/sole-publisher-runtime.lock"
+}

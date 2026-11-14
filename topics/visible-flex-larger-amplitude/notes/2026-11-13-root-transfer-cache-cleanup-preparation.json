@@ -1,0 +1,16 @@
+{
+  "old_source_sha256": "52ca6712a20af9f15a6661e14de8dfe4148e7eb6f99658538cbba33aa860660b",
+  "new_source_sha256": "9f33f43c668255d0cf3f7a268fea1394bcaa49fa38ca46d0f2603dcb309a6c3e",
+  "observed_heartbeat": {
+    "utc": "2026-11-13T15:47:29+00:00",
+    "kind": "git_start",
+    "args": [
+      "pull",
+      "--rebase",
+      "--no-stat",
+      "origin",
+      "main"
+    ]
+  },
+  "scope": "Only future exclusive publisher helper calls. Preserve all registered pack/index/ref checks; remove only stable aged unindexed tmp_pack transfer caches after canonical MIDX verify/expire. No direct Git mutation by this preparation."
+}

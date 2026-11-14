@@ -1,0 +1,68 @@
+{
+  "status": "Stable R33 section14 files; actual-strong work remains separate",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "scope": "Same q003 real source/plateau domain. Wide pure-low source, all high modes, and low-to-high derivative. Reverse low feedback and complete head remain open.",
+  "files": [
+    {
+      "path": "computations/tail_r33_middle_wide_low_density.py",
+      "bytes": 3769,
+      "sha256": "b0d80bbd21d51d5f2de04bc66293f28470ec6d6a236c7bfdfea5e0fa396af336"
+    },
+    {
+      "path": "computations/tail_r33_refined_high_joint_box.py",
+      "bytes": 3074,
+      "sha256": "a60eb9ed85b9490cfb54ee1e945457f56972635e945c94d1b1de04048192af34"
+    },
+    {
+      "path": "computations/tail_r33_high_band_envelopes.py",
+      "bytes": 5449,
+      "sha256": "c3bfe2022e4ff2bb81b12e88c59138050bc2c737e64175bd0fb5866bd38f7f58"
+    },
+    {
+      "path": "computations/tail_r33_low_to_high_column.py",
+      "bytes": 6317,
+      "sha256": "77ba11616af520796b5ccd9cab542e64633227cf7086b83360fd2f3fe303f6e3"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-middle-wide-low-density.json.gz",
+      "bytes": 2817803,
+      "sha256": "4c79356c3791dd491fbf5c4222a0051ab0046923718f1f26ba1be09eef1fd089"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-high-joint-wide-low.json",
+      "bytes": 657103,
+      "sha256": "7306027ee5e4e1b29cf9881c4962fef1cf6b8894fa4f979973f5d7a78265587f"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-high-joint-coupling-metric.json",
+      "bytes": 657791,
+      "sha256": "d7e57f6a7df2b928dd6de9aa8ad0289538134e104f57f6960f9b423c72927bbc"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-high-band-envelopes.json.gz",
+      "bytes": 928152,
+      "sha256": "b77ec28f61c64501df0ac14e7063d2d7db2dfceafbcee84e1d9c765a7446411e"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-low-to-high-coupling-column.json",
+      "bytes": 568918,
+      "sha256": "9bc4a1f2f026958e5f92ef411dd38ee184fcf5a255fb1929774d780b001b3fdb"
+    },
+    {
+      "path": "results/R33-full-head-forcing-on-a-variable-analytic-strip.md",
+      "bytes": 50251,
+      "sha256": "d4e3421171dd77f311b6075ced8c21f540a9f906b2a555a44f52abb21d92638d"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-low-to-high-old-metric-summary.json",
+      "bytes": 1982,
+      "sha256": "efadb6c79c9a6d6acf2c6a4e52bdab7ae6fcb9e90c230083c11a39e19325f8cc"
+    }
+  ],
+  "index_change": "R33 line only",
+  "new_metric_preserves_high_domain": true,
+  "all_jobs_in_this_manifest_exited": true,
+  "do_not_collect": [
+    "notes/2026-11-12-tail-r33-plateau2-low-to-high-column.json"
+  ]
+}

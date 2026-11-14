@@ -1,0 +1,171 @@
+{
+  "schema": "R150-exact-low46-singleton-true-beta-frozen-input-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "inputs": {
+    "field": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/field.json.gz",
+      "bytes": 465223,
+      "sha256": "28e2aaf17c0094c1aaac49750c1e98d1e066eea6846267c77438c3a0a441d333"
+    },
+    "field_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/field_resource.json",
+      "bytes": 3792,
+      "sha256": "a7701f9bc09944c5295c27e9fe14bbc45133aa67597331df12d30a565f7d9652"
+    },
+    "domain_bridge": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/domain_bridge.json",
+      "bytes": 56955,
+      "sha256": "97f3a6fd9c59c4d23dead6e83a961411bb0ca1d187343ce598f0b8d2abeefd24"
+    },
+    "bridge_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/bridge_resource.json",
+      "bytes": 881,
+      "sha256": "5a0329607e15112bf39ed92f266f03be940245b3b198fc1ea08ca5d4b71eb1b2"
+    },
+    "parent_beta": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/parent_beta.json.gz",
+      "bytes": 1037600,
+      "sha256": "dea2caf9e9f0c7a55241862e893406c0c1652704871e3f840f74f065eebb0ce5"
+    },
+    "parent_beta_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/parent_beta_resource.json",
+      "bytes": 1687,
+      "sha256": "9d1a870985f83df16618604e4c99853e5012fff793b909a123dc4710e128fb76"
+    },
+    "modal_input": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/modal.json.gz",
+      "bytes": 1406500,
+      "sha256": "0a76756d411a350836ab27ca274142df0306628293401763453842130fa6f77c"
+    },
+    "modal_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/modal_resource.json",
+      "bytes": 1432,
+      "sha256": "d0fbd2946dbbe84c97ef6a22659d28382678ba299ed0634364a822132c94222e"
+    },
+    "density": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/density.json.gz",
+      "bytes": 281853,
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+    },
+    "source_summary": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-summary.json",
+      "bytes": 621491,
+      "sha256": "8c1a71d6bb538cf7eba93767c11c2287fa5288de1fc817521044301c3bc80552"
+    },
+    "source_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-run1-resource.json",
+      "bytes": 1484,
+      "sha256": "7387cd4ae9b5c3bdf3ab3df7ca387c4c0b1fd3b34f4af9ed69350e4cc6e12496"
+    },
+    "cut_kernels": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/cut_kernels.json.gz",
+      "bytes": 1158429,
+      "sha256": "2181172e2cd395167e40887e0b464bd56b3cd28baa6d9a9271e81eee1f335a83"
+    },
+    "cut_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/cut_resource.json",
+      "bytes": 1284,
+      "sha256": "8af9f7e09bf60c8205b671ef2bf1c874a9fa9c0b657d867d38ea99f272aac6de"
+    },
+    "consumer": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/inner_R150_low46_true_beta_singletons.py",
+      "bytes": 18592,
+      "sha256": "813d23b59a077e19d5da1cfcf8f69832ea7c48a7d65654862ec2a79218553022"
+    },
+    "source_producer": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/inner_R150_low46_complete_source_DQ_singletons.py",
+      "bytes": 15836,
+      "sha256": "01cccbd40997544c134b12d244bb089e96ed8097d8fb4ef8687d5ca3bb669f33"
+    },
+    "reader": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/closure_split_joint_io_v2.py",
+      "bytes": 5738,
+      "sha256": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0"
+    },
+    "reader_base": {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/closure_split_joint_io.py",
+      "bytes": 6174,
+      "sha256": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390"
+    }
+  },
+  "all213_source_parts": [
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part1.jsonl.gz",
+      "bytes": 2593750,
+      "sha256": "fbb1496c6abc4c641cb17612dfcca46043dda7ac33fd32d0a85b07709de01eb3",
+      "first_cell": 12,
+      "last_cell": 31
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part2.jsonl.gz",
+      "bytes": 2598282,
+      "sha256": "5c39072213f275cb86f7c33202a96fd0e3905227c724f63d69eec8a25c8261f9",
+      "first_cell": 32,
+      "last_cell": 51
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part3.jsonl.gz",
+      "bytes": 2598534,
+      "sha256": "6595317f57511f93b748cd4a31926238d8533fffeaa4d7687081ad3500702ed6",
+      "first_cell": 52,
+      "last_cell": 71
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part4.jsonl.gz",
+      "bytes": 2599895,
+      "sha256": "f0975bc5f44c2469f9044a0b81a25efebe77668a7ff346663d1b6e36c4297295",
+      "first_cell": 72,
+      "last_cell": 91
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part5.jsonl.gz",
+      "bytes": 2601667,
+      "sha256": "b8badeded8e6a6e5724aa8d3cc07e32d58e556f5d044bceaec64e5195fb4acbc",
+      "first_cell": 92,
+      "last_cell": 111
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part6.jsonl.gz",
+      "bytes": 2602368,
+      "sha256": "b1f8dd85b59c8a8ac4b4d78cc3a5028576da7f46c13e864096e2af53b5d7a429",
+      "first_cell": 112,
+      "last_cell": 131
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part7.jsonl.gz",
+      "bytes": 2602595,
+      "sha256": "ece4a4e95932007d12387cf0016a92131db49c02ee9c68713d7b6987e60bfc0c",
+      "first_cell": 132,
+      "last_cell": 151
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part8.jsonl.gz",
+      "bytes": 2602766,
+      "sha256": "a4daeaa0ad5fca8a72203f850cd2dc03d2d6d8d7921ad698475268a64705438c",
+      "first_cell": 152,
+      "last_cell": 171
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part9.jsonl.gz",
+      "bytes": 2603047,
+      "sha256": "4f56c0f4d8c5ab31c48f4c583a3c1f73463185cc8c760336e6706bd89e84aa37",
+      "first_cell": 172,
+      "last_cell": 191
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part10.jsonl.gz",
+      "bytes": 2603860,
+      "sha256": "5c5107f87851ba15e979bf1ca0d9699391906ef8bfd62b5e8eacfe58fc2d3ccf",
+      "first_cell": 192,
+      "last_cell": 211
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1-cells-part11.jsonl.gz",
+      "bytes": 1692578,
+      "sha256": "fe5b1ef67da24be4b295fa883a184ea659ce92b58fa2a7e6b23b0fdcf44cf612",
+      "first_cell": 212,
+      "last_cell": 224
+    }
+  ],
+  "purpose": "Same existing R100 field restricted to R148 actual full-cut posterior domain; complete low46 true-beta readout."
+}

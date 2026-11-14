@@ -1,0 +1,4785 @@
+{
+  "status": "Actual local S0, common-slope cut component and explicit compatible candidate recentering",
+  "gates": {
+    "all_actual_dependencies_paid": true,
+    "exact_global_mu11_kept": true,
+    "common_slope_retained_in_each_Mobius_expression": true,
+    "all_four_true_height_denominators_nonzero": true,
+    "full46_input_head_derivative_columns_retained": true,
+    "old_full_mean_and_all_high_trace_still_required": true,
+    "two_new_candidate_L_values_exact_dyadics": true,
+    "all_nonmean_cut_heights_unchanged": true,
+    "outer_cell11_endpoint_twojet_unchanged": true,
+    "same_real_metric_and_same_actual_reference": true,
+    "recentred_complete_mean_small_domain": true,
+    "compensating_linear_forcing_explicitly_required": true
+  },
+  "all_gates": true,
+  "modes": [
+    2,
+    4
+  ],
+  "cells": [
+    11,
+    10
+  ],
+  "true_radius": {
+    "lower": {
+      "mantissa": "1256145971708405051267622360403103502244302054314721217553",
+      "binary_exponent": -194
+    },
+    "upper": {
+      "mantissa": "1256145971708405051267622360683691893782566830800663546897",
+      "binary_exponent": -194
+    }
+  },
+  "true_w": {
+    "lower": {
+      "mantissa": "18223348318158534134847341640519400020460879583626392435976830975",
+      "binary_exponent": -250
+    },
+    "upper": {
+      "mantissa": "18223348318158534134847341640519400020460879583626392436782137345",
+      "binary_exponent": -250
+    }
+  },
+  "global_mu11": {
+    "lower": {
+      "mantissa": "15287124378262882168900363744768329902853040814112790465803714559",
+      "binary_exponent": -280
+    },
+    "upper": {
+      "mantissa": "15287124378262882168900363744768329902853040814112790466357362689",
+      "binary_exponent": -280
+    }
+  },
+  "K_per_unit_mu11_Xi": {
+    "lower": {
+      "mantissa": "849561657224454615043284832251247335",
+      "binary_exponent": -94
+    },
+    "upper": {
+      "mantissa": "849561657224454615043284833010333583",
+      "binary_exponent": -94
+    }
+  },
+  "cell11_length": {
+    "lower": {
+      "mantissa": "57596742026432248004403259036426108612713330999509353674215147819504207443",
+      "binary_exponent": -260
+    },
+    "upper": {
+      "mantissa": "57596742026432248004403300443964534255591509749086023895513933929530230355",
+      "binary_exponent": -260
+    }
+  },
+  "cell11_slope_lower": {
+    "lower": {
+      "mantissa": "6434137802572596124681894088075414705959353760635387755779903191",
+      "binary_exponent": -267
+    },
+    "upper": {
+      "mantissa": "6434137802572596124681894088075414705959353760635387755779903191",
+      "binary_exponent": -267
+    }
+  },
+  "cell11_slope_upper": {
+    "lower": {
+      "mantissa": "36896868054056563399470012437681301275070739490552363648038017308917622728949",
+      "binary_exponent": -269
+    },
+    "upper": {
+      "mantissa": "36896868054056563399470012437681301275070739490552363648038017308917622728949",
+      "binary_exponent": -269
+    }
+  },
+  "candidate_original_relative_A1_upper": {
+    "lower": {
+      "mantissa": "3102680427470444055236355870304958143444624406805082093837",
+      "binary_exponent": -249
+    },
+    "upper": {
+      "mantissa": "3102680427470444055236355870304958143444624406805082093837",
+      "binary_exponent": -249
+    }
+  },
+  "candidate_relative_A1_shift_upper": {
+    "lower": {
+      "mantissa": "98083072191267404261501177251910884053323511382117650472335238593762665843003",
+      "binary_exponent": -380
+    },
+    "upper": {
+      "mantissa": "98083072191267404261501177251910884053323511382117650472335238593762665843003",
+      "binary_exponent": -380
+    }
+  },
+  "candidate_recentred_relative_A1_upper": {
+    "lower": {
+      "mantissa": "114468703576110064341034386772017394379440545172015835596349467924803254947291",
+      "binary_exponent": -314
+    },
+    "upper": {
+      "mantissa": "114468703576110064341034386772017394379440545172015835596349467924803254947291",
+      "binary_exponent": -314
+    }
+  },
+  "complete_mean_slope_change_upper": {
+    "lower": {
+      "mantissa": "96962082560629165168903744176002097119418326446426876078365352649871707530605",
+      "binary_exponent": -434
+    },
+    "upper": {
+      "mantissa": "96962082560629165168903744176002097119418326446426876078365352649871707530605",
+      "binary_exponent": -434
+    }
+  },
+  "complete_mean_height_change_upper": {
+    "lower": {
+      "mantissa": "491792107164471985836844621551580981056115844131273793168284850670079805031",
+      "binary_exponent": -456
+    },
+    "upper": {
+      "mantissa": "491792107164471985836844621551580981056115844131273793168284850670079805031",
+      "binary_exponent": -456
+    }
+  },
+  "recentring_rows": [
+    {
+      "mode": 2,
+      "old_exact_orthonormal_L": {
+        "lower": {
+          "mantissa": "6455162953449613",
+          "binary_exponent": -154
+        },
+        "upper": {
+          "mantissa": "6455162953449613",
+          "binary_exponent": -154
+        }
+      },
+      "new_exact_dyadic_orthonormal_L": {
+        "mantissa": "952613911650926180903376877471692341",
+        "binary_exponent": -221
+      },
+      "exact_dyadic_L_shift": {
+        "mantissa": "-82577633081159958104523",
+        "binary_exponent": -221
+      },
+      "same_canonical_Q": {
+        "lower": {
+          "mantissa": "-4578166577545641",
+          "binary_exponent": -183
+        },
+        "upper": {
+          "mantissa": "-4578166577545641",
+          "binary_exponent": -183
+        },
+        "display": "[-3.73424135296251059109037439676463049074887098388983552210e-40 +/- 2.09e-97]"
+      },
+      "nonmean_cut_height_shift_exact_zero": true,
+      "physical_cut_slope_shift": {
+        "lower": {
+          "mantissa": "-61937797299462754779959622680527319775949727116074492606435794069514053701835",
+          "binary_exponent": -436
+        },
+        "upper": {
+          "mantissa": "-61937797299462754779959622680527319775949727116074492603698706331512567976139",
+          "binary_exponent": -436
+        }
+      },
+      "height_sup_shift": {
+        "lower": {
+          "mantissa": "12463490892825182182341918970961137741973927895518742819924332695640921371695",
+          "binary_exponent": -451
+        },
+        "upper": {
+          "mantissa": "12463490892825182182341918970961137741973927895518742819924332695640921371695",
+          "binary_exponent": -451
+        }
+      },
+      "first_derivative_sup_shift": {
+        "lower": {
+          "mantissa": "61937797299462754779959622680527319775949727116074492606435794069514053701835",
+          "binary_exponent": -436
+        },
+        "upper": {
+          "mantissa": "61937797299462754779959622680527319775949727116074492606435794069514053701835",
+          "binary_exponent": -436
+        }
+      },
+      "second_derivative_sup_shift": {
+        "lower": {
+          "mantissa": "766796163777604559128782938954811",
+          "binary_exponent": -272
+        },
+        "upper": {
+          "mantissa": "766796163777604559128782938954811",
+          "binary_exponent": -272
+        }
+      },
+      "relative_A1_field_shift_upper": {
+        "lower": {
+          "mantissa": "98083068649041535451159950486993228674986442365020314630170708793678990481637",
+          "binary_exponent": -380
+        },
+        "upper": {
+          "mantissa": "98083068649041535451159950486993228674986442365020314630170708793678990481637",
+          "binary_exponent": -380
+        }
+      },
+      "new_signed_linear_minus_candidate_K": {
+        "lower": {
+          "mantissa": "-8206047671392723134154709734225462726412666760399",
+          "binary_exponent": -353
+        },
+        "upper": {
+          "mantissa": "8206047684492687126867567229649387409644140008241",
+          "binary_exponent": -353
+        }
+      },
+      "retained_nonlinear_K_upper": {
+        "lower": {
+          "mantissa": "70019659499218746629975089814610431450536591058394183128068893205165492975927",
+          "binary_exponent": -423
+        },
+        "upper": {
+          "mantissa": "70019659499218746629975089814610431450536591058394183128068893205165492975927",
+          "binary_exponent": -423
+        }
+      },
+      "new_signed_complete_minus_candidate_K": {
+        "lower": {
+          "mantissa": "-59308966935922814157799229270096862291210262544934857935",
+          "binary_exponent": -353
+        },
+        "upper": {
+          "mantissa": "59308966935922827257763221982954357715134945776408105777",
+          "binary_exponent": -353
+        }
+      },
+      "new_complete_Wsigma1_upper": {
+        "lower": {
+          "mantissa": "108363498444912407924706410646001177361670567439112510088276100206254186131337",
+          "binary_exponent": -422
+        },
+        "upper": {
+          "mantissa": "108363498444912407924706410646001177361670567439112510088276100206254186131337",
+          "binary_exponent": -422
+        }
+      }
+    },
+    {
+      "mode": 4,
+      "old_exact_orthonormal_L": {
+        "lower": {
+          "mantissa": "1437421908469307",
+          "binary_exponent": -175
+        },
+        "upper": {
+          "mantissa": "1437421908469307",
+          "binary_exponent": -175
+        }
+      },
+      "new_exact_dyadic_orthonormal_L": {
+        "mantissa": "424252065143616126687275593170840713",
+        "binary_exponent": -243
+      },
+      "exact_dyadic_L_shift": {
+        "mantissa": "-7272395854196721161079",
+        "binary_exponent": -243
+      },
+      "same_canonical_Q": {
+        "lower": {
+          "mantissa": "-408085257278967",
+          "binary_exponent": -207
+        },
+        "upper": {
+          "mantissa": "-408085257278967",
+          "binary_exponent": -207
+        },
+        "display": "[-1.98400061774758306788468221408451713992506469296259822469e-48 +/- 3.13e-107]"
+      },
+      "nonmean_cut_height_shift_exact_zero": true,
+      "physical_cut_slope_shift": {
+        "lower": {
+          "mantissa": "-87275193243862849977570948436748924381938396000151956920070929229131603060833",
+          "binary_exponent": -462
+        },
+        "upper": {
+          "mantissa": "-87275193243862849977570948436748924381938396000151956916214158865145729460321",
+          "binary_exponent": -462
+        }
+      },
+      "height_sup_shift": {
+        "lower": {
+          "mantissa": "8781015983707557660809738250737364965676822386158780655858296081847011303241",
+          "binary_exponent": -476
+        },
+        "upper": {
+          "mantissa": "8781015983707557660809738250737364965676822386158780655858296081847011303241",
+          "binary_exponent": -476
+        }
+      },
+      "first_derivative_sup_shift": {
+        "lower": {
+          "mantissa": "87275193243862849977570948436748924381938396000151956920070929229131603060833",
+          "binary_exponent": -462
+        },
+        "upper": {
+          "mantissa": "87275193243862849977570948436748924381938396000151956920070929229131603060833",
+          "binary_exponent": -462
+        }
+      },
+      "second_derivative_sup_shift": {
+        "lower": {
+          "mantissa": "1080475675439036402709123569994101",
+          "binary_exponent": -298
+        },
+        "upper": {
+          "mantissa": "1080475675439036402709123569994101",
+          "binary_exponent": -298
+        }
+      },
+      "relative_A1_field_shift_upper": {
+        "lower": {
+          "mantissa": "14857172130454689448785001181623980681926687424112134055998610159902876836281",
+          "binary_exponent": -402
+        },
+        "upper": {
+          "mantissa": "14857172130454689448785001181623980681926687424112134055998610159902876836281",
+          "binary_exponent": -402
+        }
+      },
+      "new_signed_linear_minus_candidate_K": {
+        "lower": {
+          "mantissa": "-169785750325064503892265844741807388617531375749783",
+          "binary_exponent": -378
+        },
+        "upper": {
+          "mantissa": "169785750376044435432947465231398727444229724829033",
+          "binary_exponent": -378
+        }
+      },
+      "retained_nonlinear_K_upper": {
+        "lower": {
+          "mantissa": "78643199015197502019464394131982812454024264431232727118889822457470220429375",
+          "binary_exponent": -418
+        },
+        "upper": {
+          "mantissa": "78643199015197502019464394131982812454024264431232727118889822457470220429375",
+          "binary_exponent": -418
+        }
+      },
+      "new_signed_complete_minus_candidate_K": {
+        "lower": {
+          "mantissa": "-71525573056234214337747774589870102076526811861803121735272237719",
+          "binary_exponent": -378
+        },
+        "upper": {
+          "mantissa": "71525573056234214337747825569801642758147301453141948433621316969",
+          "binary_exponent": -378
+        }
+      },
+      "new_complete_Wsigma1_upper": {
+        "lower": {
+          "mantissa": "104644062303035870917323783865784270658546125373709553449360439287611047768655",
+          "binary_exponent": -416
+        },
+        "upper": {
+          "mantissa": "104644062303035870917323783865784270658546125373709553449360439287611047768655",
+          "binary_exponent": -416
+        }
+      }
+    }
+  ],
+  "cell_rows": [
+    {
+      "endpoint_physical_node": 11,
+      "radius": {
+        "lower": {
+          "mantissa": "92744809779331020119651855273651089985961019553451790117778196763668902282835",
+          "binary_exponent": -260
+        },
+        "upper": {
+          "mantissa": "92744809779331020119651855294354859373007030506347071746136645161789239559763",
+          "binary_exponent": -260
+        }
+      },
+      "modes": [
+        {
+          "mode": 2,
+          "S0_true_Q": {
+            "lower": {
+              "mantissa": "-30423893730969641846122179340098549697979878502464422357535224109463721874705",
+              "binary_exponent": -235
+            },
+            "upper": {
+              "mantissa": "-30423893730969641846122177601958529270702474657754114563221396617118564095249",
+              "binary_exponent": -235
+            }
+          },
+          "S0_true_height": {
+            "lower": {
+              "mantissa": "-50086154184490077608206881926233574480860727241769075785478299465674023975087",
+              "binary_exponent": -253
+            },
+            "upper": {
+              "mantissa": "-50086154184490077608206879020050084941602949705979972851030038772747393775791",
+              "binary_exponent": -253
+            }
+          },
+          "shared_exact_dyadic_slope": {
+            "mantissa": "-16199242544078497817069331822873217",
+            "binary_exponent": -109
+          },
+          "true_minus_shared_exact_slope": {
+            "lower": {
+              "mantissa": "-174180249",
+              "binary_exponent": -113
+            },
+            "upper": {
+              "mantissa": "174180249",
+              "binary_exponent": -113
+            }
+          },
+          "K_to_canonical_cut_coefficient": {
+            "lower": {
+              "mantissa": "-5246565452210840149531626602376055",
+              "binary_exponent": -149
+            },
+            "upper": {
+              "mantissa": "-163955170381588754672863314185683",
+              "binary_exponent": -144
+            }
+          },
+          "cut_only_signed_linear_canonical_Q": {
+            "lower": {
+              "mantissa": "-14750373662974009948449",
+              "binary_exponent": -255
+            },
+            "upper": {
+              "mantissa": "-29500747325947258409287",
+              "binary_exponent": -256
+            }
+          },
+          "cut_only_nonlinear_canonical_Q_radius": {
+            "lower": {
+              "mantissa": "17687871885652873539974211094538167252161679273146795637658000354518622137061",
+              "binary_exponent": -458
+            },
+            "upper": {
+              "mantissa": "17687871885652873539974211094538167252161679273146795637658000354518622137061",
+              "binary_exponent": -458
+            }
+          },
+          "cut_only_full_canonical_Q": {
+            "lower": {
+              "mantissa": "-59001500155490899690377",
+              "binary_exponent": -257
+            },
+            "upper": {
+              "mantissa": "-59001489148299656921993",
+              "binary_exponent": -257
+            }
+          },
+          "canonical_parameter_axis": {
+            "lower": {
+              "mantissa": "1",
+              "binary_exponent": -193
+            },
+            "upper": {
+              "mantissa": "1",
+              "binary_exponent": -193
+            },
+            "display": "[7.96545955566226138514440198883855902795552277596309393037e-59 +/- 5.73e-117]"
+          },
+          "canonical_parameter_axis_log2": -193,
+          "cut_only_axis_ratio_upper": {
+            "lower": {
+              "mantissa": "59001500155490899690377",
+              "binary_exponent": -64
+            },
+            "upper": {
+              "mantissa": "59001500155490899690377",
+              "binary_exponent": -64
+            }
+          },
+          "cut_only_axis_ratio_lower": {
+            "lower": {
+              "mantissa": "59001489148299656921993",
+              "binary_exponent": -64
+            },
+            "upper": {
+              "mantissa": "59001489148299656921993",
+              "binary_exponent": -64
+            }
+          },
+          "recentred_cut_only_full_canonical_Q": {
+            "lower": {
+              "mantissa": "-22014382485536769",
+              "binary_exponent": -259
+            },
+            "upper": {
+              "mantissa": "22014382485536767",
+              "binary_exponent": -259
+            }
+          },
+          "recentred_cut_only_axis_ratio_upper": {
+            "lower": {
+              "mantissa": "22014382485536769",
+              "binary_exponent": -66
+            },
+            "upper": {
+              "mantissa": "22014382485536769",
+              "binary_exponent": -66
+            }
+          },
+          "selected_head_DeltaB_columns": [
+            {
+              "input_mode": 2,
+              "same_full46_input_axis_log2": -193,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "100266118331059460667156731857810932625615930544098753586171030520745361948193",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "100266118331059460667156731857810932625615930544098753586171030520745361948193",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 4,
+              "same_full46_input_axis_log2": -196,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "55272384788695818133402395092100704815105670301844151095275090071479509486193",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "55272384788695818133402395092100704815105670301844151095275090071479509486193",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 6,
+              "same_full46_input_axis_log2": -198,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "73856946720475033001176986341279752710667900813737412944828436760102637080375",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "73856946720475033001176986341279752710667900813737412944828436760102637080375",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 8,
+              "same_full46_input_axis_log2": -200,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "79759961314453023990902324842061068606740367149548521867307403923961760898271",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "79759961314453023990902324842061068606740367149548521867307403923961760898271",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 10,
+              "same_full46_input_axis_log2": -202,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "72436601343776673929191439700034861199775841345296285863955235818272516697259",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "72436601343776673929191439700034861199775841345296285863955235818272516697259",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 12,
+              "same_full46_input_axis_log2": -204,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "58323099836264589543166877318837209446481197340168085905075693086901805896433",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "58323099836264589543166877318837209446481197340168085905075693086901805896433",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 14,
+              "same_full46_input_axis_log2": -205,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "87909657544324091618776811387575570157605099416773868168622442692132507358559",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "87909657544324091618776811387575570157605099416773868168622442692132507358559",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 16,
+              "same_full46_input_axis_log2": -207,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "33007670671839300739865679233993451012552980974760934200990865997453681478585",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "33007670671839300739865679233993451012552980974760934200990865997453681478585",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 18,
+              "same_full46_input_axis_log2": -208,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "106401624435601850431762080955047874164913407277701229975434780045448955166219",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "106401624435601850431762080955047874164913407277701229975434780045448955166219",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 20,
+              "same_full46_input_axis_log2": -210,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "49183826721613372463149464193448883766954547683152957758782824223963426386217",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "49183826721613372463149464193448883766954547683152957758782824223963426386217",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 22,
+              "same_full46_input_axis_log2": -212,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "106695280814626080156670457607627578236806411859947500475739300853449960559841",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "106695280814626080156670457607627578236806411859947500475739300853449960559841",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 24,
+              "same_full46_input_axis_log2": -214,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "8276325577057852257648497317698729082011344108793268506915167408792186452323",
+                  "binary_exponent": -277
+                },
+                "upper": {
+                  "mantissa": "8276325577057852257648497317698729082011344108793268506915167408792186452323",
+                  "binary_exponent": -277
+                }
+              }
+            },
+            {
+              "input_mode": 26,
+              "same_full46_input_axis_log2": -217,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "45431524776238395793357187281477975879995412424041360576184457433814498161077",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "45431524776238395793357187281477975879995412424041360576184457433814498161077",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 28,
+              "same_full46_input_axis_log2": -219,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "33994860303169492468119055209016999578872721622532938855369214048119721195673",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "33994860303169492468119055209016999578872721622532938855369214048119721195673",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 30,
+              "same_full46_input_axis_log2": -222,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "112618016408098234815385558280282554847259512425861119210173039224781722041147",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "112618016408098234815385558280282554847259512425861119210173039224781722041147",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 32,
+              "same_full46_input_axis_log2": -225,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "109211664357957411265090624319781390372867244306619105960163455992597759020581",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "109211664357957411265090624319781390372867244306619105960163455992597759020581",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 34,
+              "same_full46_input_axis_log2": -228,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "36699102029710630561848503548927197076394877055674789166173340375059303241619",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "36699102029710630561848503548927197076394877055674789166173340375059303241619",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 36,
+              "same_full46_input_axis_log2": -234,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "15720348413748212866108019157497609077034587773133363648392509537848016440907",
+                  "binary_exponent": -278
+                },
+                "upper": {
+                  "mantissa": "15720348413748212866108019157497609077034587773133363648392509537848016440907",
+                  "binary_exponent": -278
+                }
+              }
+            },
+            {
+              "input_mode": 38,
+              "same_full46_input_axis_log2": -236,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "95268090364846033265761036235484494517964001194815627991461137822513119749441",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "95268090364846033265761036235484494517964001194815627991461137822513119749441",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 40,
+              "same_full46_input_axis_log2": -238,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "40167877931389465897425394215484802319817538965755903308810390023327946995237",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "40167877931389465897425394215484802319817538965755903308810390023327946995237",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 42,
+              "same_full46_input_axis_log2": -237,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "52324341464949514633938749434638132465158117426795572216561636170096265431165",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "52324341464949514633938749434638132465158117426795572216561636170096265431165",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 44,
+              "same_full46_input_axis_log2": -238,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "6659869814097858179754759215861195845624168922394724639287103027045714390867",
+                  "binary_exponent": -277
+                },
+                "upper": {
+                  "mantissa": "6659869814097858179754759215861195845624168922394724639287103027045714390867",
+                  "binary_exponent": -277
+                }
+              }
+            },
+            {
+              "input_mode": 46,
+              "same_full46_input_axis_log2": -240,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "52386325124562871172588834987060550975986614189151444571545903847474055641955",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "52386325124562871172588834987060550975986614189151444571545903847474055641955",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 48,
+              "same_full46_input_axis_log2": -245,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "6553179352494256445525161274705622138840299918806384081512734707601020960797",
+                  "binary_exponent": -277
+                },
+                "upper": {
+                  "mantissa": "6553179352494256445525161274705622138840299918806384081512734707601020960797",
+                  "binary_exponent": -277
+                }
+              }
+            },
+            {
+              "input_mode": 50,
+              "same_full46_input_axis_log2": -243,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "58909091105438606933706979063674756199821932026241490943105362448603954056905",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "58909091105438606933706979063674756199821932026241490943105362448603954056905",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 52,
+              "same_full46_input_axis_log2": -245,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "76848491282545150438283181602818389850106732345386232304771686617002196352167",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "76848491282545150438283181602818389850106732345386232304771686617002196352167",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 54,
+              "same_full46_input_axis_log2": -246,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "113633013605586412638078234795262317430115416124434182900252929363125525425463",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "113633013605586412638078234795262317430115416124434182900252929363125525425463",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 56,
+              "same_full46_input_axis_log2": -249,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "69019053523877264988399951335762864094207744509689293453963466597698884983347",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "69019053523877264988399951335762864094207744509689293453963466597698884983347",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 58,
+              "same_full46_input_axis_log2": -254,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "97467208520498594975017610524667006912295190712394583576556706952870641155653",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "97467208520498594975017610524667006912295190712394583576556706952870641155653",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 60,
+              "same_full46_input_axis_log2": -252,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "79374343134175512976420487986036503059123321900563228798085737440587311401905",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "79374343134175512976420487986036503059123321900563228798085737440587311401905",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 62,
+              "same_full46_input_axis_log2": -256,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "58524266212179697104370536729456783387343242672753948045585114172787567141287",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "58524266212179697104370536729456783387343242672753948045585114172787567141287",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 64,
+              "same_full46_input_axis_log2": -256,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "41862700615188157057127154707728385366737783883871802759097850335467265436315",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "41862700615188157057127154707728385366737783883871802759097850335467265436315",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 66,
+              "same_full46_input_axis_log2": -258,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "97022570029967921518691315607190393339488495878996402678216366557165833108411",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "97022570029967921518691315607190393339488495878996402678216366557165833108411",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 68,
+              "same_full46_input_axis_log2": -260,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "22476210178829891112069119713918292307097378500037887440950873157363800489335",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "22476210178829891112069119713918292307097378500037887440950873157363800489335",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 70,
+              "same_full46_input_axis_log2": -262,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "111591320947516317877613397449146149492785488978967573002689423664856627385797",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "111591320947516317877613397449146149492785488978967573002689423664856627385797",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 72,
+              "same_full46_input_axis_log2": -264,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "32419068603868421622536213566082322786584744664325668894657627788998122657147",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "32419068603868421622536213566082322786584744664325668894657627788998122657147",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 74,
+              "same_full46_input_axis_log2": -266,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "4598323078612655710927324001418526564035614387043645581424182913748485315747",
+                  "binary_exponent": -276
+                },
+                "upper": {
+                  "mantissa": "4598323078612655710927324001418526564035614387043645581424182913748485315747",
+                  "binary_exponent": -276
+                }
+              }
+            },
+            {
+              "input_mode": 76,
+              "same_full46_input_axis_log2": -270,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "108700922549820955070354001387775566343117494841566488612705412901719920398891",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "108700922549820955070354001387775566343117494841566488612705412901719920398891",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 78,
+              "same_full46_input_axis_log2": -273,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "97652684855043568796069825750313599107700354461032504167681174848486603608507",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "97652684855043568796069825750313599107700354461032504167681174848486603608507",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 80,
+              "same_full46_input_axis_log2": -277,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "33152020025605837863904076678594749938109090910316088974591200440377428073623",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "33152020025605837863904076678594749938109090910316088974591200440377428073623",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 82,
+              "same_full46_input_axis_log2": -277,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "25334112286400766089767117316449397541978993737821173988464474344596017637369",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "25334112286400766089767117316449397541978993737821173988464474344596017637369",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 84,
+              "same_full46_input_axis_log2": -279,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "86171737784896363790414627020625284228982109816306219346880899393259550864357",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "86171737784896363790414627020625284228982109816306219346880899393259550864357",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 86,
+              "same_full46_input_axis_log2": -284,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "3821099890346476781381117085184922770011470189941557515203290017342011983373",
+                  "binary_exponent": -276
+                },
+                "upper": {
+                  "mantissa": "3821099890346476781381117085184922770011470189941557515203290017342011983373",
+                  "binary_exponent": -276
+                }
+              }
+            },
+            {
+              "input_mode": 88,
+              "same_full46_input_axis_log2": -284,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "89885517087975558265668605194167525492374527411984872432639768552973021416913",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "89885517087975558265668605194167525492374527411984872432639768552973021416913",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 90,
+              "same_full46_input_axis_log2": -286,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "5144041309392963832672927437478139960142428988924055862872138588717885040811",
+                  "binary_exponent": -277
+                },
+                "upper": {
+                  "mantissa": "5144041309392963832672927437478139960142428988924055862872138588717885040811",
+                  "binary_exponent": -277
+                }
+              }
+            },
+            {
+              "input_mode": 92,
+              "same_full46_input_axis_log2": -291,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "31846597032944943211955387490406764311174449402474460029657806272707350406087",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "31846597032944943211955387490406764311174449402474460029657806272707350406087",
+                  "binary_exponent": -282
+                }
+              }
+            }
+          ],
+          "all46_input_columns_retained": true,
+          "complete_outer_forcing_included": false
+        },
+        {
+          "mode": 4,
+          "S0_true_Q": {
+            "lower": {
+              "mantissa": "-76151849962001624127431239879888902247940417097324573854116103952390231936917",
+              "binary_exponent": -232
+            },
+            "upper": {
+              "mantissa": "-76151849962001624127431222402174907142226711221824329075897294617310451191701",
+              "binary_exponent": -232
+            }
+          },
+          "S0_true_height": {
+            "lower": {
+              "mantissa": "-62683516652380298104899307151193245123845972480150779254560536548688781173553",
+              "binary_exponent": -249
+            },
+            "upper": {
+              "mantissa": "-62683516652380298104899292708642249393351195530030205960857798257436086297393",
+              "binary_exponent": -249
+            }
+          },
+          "shared_exact_dyadic_slope": {
+            "mantissa": "-161872261474055580327119567197240209",
+            "binary_exponent": -108
+          },
+          "true_minus_shared_exact_slope": {
+            "lower": {
+              "mantissa": "-979367355",
+              "binary_exponent": -108
+            },
+            "upper": {
+              "mantissa": "979367355",
+              "binary_exponent": -108
+            }
+          },
+          "K_to_canonical_cut_coefficient": {
+            "lower": {
+              "mantissa": "-125829567257235126053454787758501",
+              "binary_exponent": -148
+            },
+            "upper": {
+              "mantissa": "-2013273076115762016855275772454507",
+              "binary_exponent": -152
+            }
+          },
+          "cut_only_signed_linear_canonical_Q": {
+            "lower": {
+              "mantissa": "-31902569737735149352989",
+              "binary_exponent": -286
+            },
+            "upper": {
+              "mantissa": "-31902569737710966060221",
+              "binary_exponent": -286
+            }
+          },
+          "cut_only_nonlinear_canonical_Q_radius": {
+            "lower": {
+              "mantissa": "60986588213520855203380137500866608710099920616763323446973870956128843508663",
+              "binary_exponent": -459
+            },
+            "upper": {
+              "mantissa": "60986588213520855203380137500866608710099920616763323446973870956128843508663",
+              "binary_exponent": -459
+            }
+          },
+          "cut_only_full_canonical_Q": {
+            "lower": {
+              "mantissa": "-5125740118197314489063021",
+              "binary_exponent": -286
+            },
+            "upper": {
+              "mantissa": "5061934978721868373649811",
+              "binary_exponent": -286
+            }
+          },
+          "canonical_parameter_axis": {
+            "lower": {
+              "mantissa": "1",
+              "binary_exponent": -196
+            },
+            "upper": {
+              "mantissa": "1",
+              "binary_exponent": -196
+            },
+            "display": "[9.95682444457782673143050248604819878494440346995386741296e-60 +/- 1.79e-117]"
+          },
+          "canonical_parameter_axis_log2": -196,
+          "cut_only_axis_ratio_upper": {
+            "lower": {
+              "mantissa": "5125740118197314489063021",
+              "binary_exponent": -90
+            },
+            "upper": {
+              "mantissa": "5125740118197314489063021",
+              "binary_exponent": -90
+            }
+          },
+          "cut_only_axis_ratio_lower": {
+            "lower": {
+              "mantissa": "-5061934978721868373649811",
+              "binary_exponent": -90
+            },
+            "upper": {
+              "mantissa": "-5061934978721868373649811",
+              "binary_exponent": -90
+            }
+          },
+          "recentred_cut_only_full_canonical_Q": {
+            "lower": {
+              "mantissa": "-565529573",
+              "binary_exponent": -233
+            },
+            "upper": {
+              "mantissa": "565529573",
+              "binary_exponent": -233
+            }
+          },
+          "recentred_cut_only_axis_ratio_upper": {
+            "lower": {
+              "mantissa": "565529573",
+              "binary_exponent": -37
+            },
+            "upper": {
+              "mantissa": "565529573",
+              "binary_exponent": -37
+            }
+          },
+          "selected_head_DeltaB_columns": [
+            {
+              "input_mode": 2,
+              "same_full46_input_axis_log2": -193,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "69173167966633594616009342657773010444668541013848410006130734601536467454831",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "69173167966633594616009342657773010444668541013848410006130734601536467454831",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 4,
+              "same_full46_input_axis_log2": -196,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "76264365680953951882529860182154801414249379498632797544894455050583756514711",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "76264365680953951882529860182154801414249379498632797544894455050583756514711",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 6,
+              "same_full46_input_axis_log2": -198,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "50953592958784528477583522292037806970980586842320386168997271846910250334231",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "50953592958784528477583522292037806970980586842320386168997271846910250334231",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 8,
+              "same_full46_input_axis_log2": -200,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "13756514396019500095676619573064797801597483791094728510285171108681718891381",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "13756514396019500095676619573064797801597483791094728510285171108681718891381",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 10,
+              "same_full46_input_axis_log2": -202,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "12493425683292319995689786631233611875241689379152779688769794351485439279427",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "12493425683292319995689786631233611875241689379152779688769794351485439279427",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 12,
+              "same_full46_input_axis_log2": -204,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "80473716315373418404572412870262061524978836637548863742172102664076571447337",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "80473716315373418404572412870262061524978836637548863742172102664076571447337",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 14,
+              "same_full46_input_axis_log2": -205,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "60648498300537669440362272491463618915315774523228032667267594945943836245555",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "60648498300537669440362272491463618915315774523228032667267594945943836245555",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 16,
+              "same_full46_input_axis_log2": -207,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "5692962851198718629456106585415269302598646112690997732252206977125477779389",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "5692962851198718629456106585415269302598646112690997732252206977125477779389",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 18,
+              "same_full46_input_axis_log2": -208,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "36703013747399656853409815298348263950340225641157958958419380341108047356477",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "36703013747399656853409815298348263950340225641157958958419380341108047356477",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 20,
+              "same_full46_input_axis_log2": -210,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "8482928140846514779207699904244509269442493722780868472714664513863294651409",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "8482928140846514779207699904244509269442493722780868472714664513863294651409",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 22,
+              "same_full46_input_axis_log2": -212,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "73608619779898517092805857137814114057418678004265380803285542710702266246907",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "73608619779898517092805857137814114057418678004265380803285542710702266246907",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 24,
+              "same_full46_input_axis_log2": -214,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "22839207054893045055514882370650717897750756766028557773279688010844860982001",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "22839207054893045055514882370650717897750756766028557773279688010844860982001",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 26,
+              "same_full46_input_axis_log2": -217,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "62686030867388572921640473250063718348892626710108638588669447400987276118669",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "62686030867388572921640473250063718348892626710108638588669447400987276118669",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 28,
+              "same_full46_input_axis_log2": -219,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "93811637306595651079984176366377736319488349134829962309564294419191282709195",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "93811637306595651079984176366377736319488349134829962309564294419191282709195",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 30,
+              "same_full46_input_axis_log2": -222,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "9711836229843010444537653213110382153234726630258081656026201400495708728705",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "9711836229843010444537653213110382153234726630258081656026201400495708728705",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 32,
+              "same_full46_input_axis_log2": -225,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "75344662068247583816838792890467721340730116362673077756301202355355009477981",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "75344662068247583816838792890467721340730116362673077756301202355355009477981",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 34,
+              "same_full46_input_axis_log2": -228,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "101274216701751649884211424517477212769872855874544993085170237980036027054171",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "101274216701751649884211424517477212769872855874544993085170237980036027054171",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 36,
+              "same_full46_input_axis_log2": -234,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "86763211295583170233283670463587754162054722539715425212517015603053797285445",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "86763211295583170233283670463587754162054722539715425212517015603053797285445",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 38,
+              "same_full46_input_axis_log2": -236,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "65725049761166805158448926588672083294196363574484228346438751978464575201451",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "65725049761166805158448926588672083294196363574484228346438751978464575201451",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 40,
+              "same_full46_input_axis_log2": -238,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "110846591580898149186878871220522310842385116130970697499544099281926260571759",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "110846591580898149186878871220522310842385116130970697499544099281926260571759",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 42,
+              "same_full46_input_axis_log2": -237,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "36098340308216047868778139152702107502129691137436855011757618871558256317229",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "36098340308216047868778139152702107502129691137436855011757618871558256317229",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 44,
+              "same_full46_input_axis_log2": -238,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "73513853086908255349713393083197100108568714394845910430771717647047296715571",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "73513853086908255349713393083197100108568714394845910430771717647047296715571",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 46,
+              "same_full46_input_axis_log2": -240,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "2258818910685768202648018744853629518412724626093541765498516703820348656985",
+                  "binary_exponent": -278
+                },
+                "upper": {
+                  "mantissa": "2258818910685768202648018744853629518412724626093541765498516703820348656985",
+                  "binary_exponent": -278
+                }
+              }
+            },
+            {
+              "input_mode": 48,
+              "same_full46_input_axis_log2": -245,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "36168084183240210889871754884081669548095912563222194167819035104531173656017",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "36168084183240210889871754884081669548095912563222194167819035104531173656017",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 50,
+              "same_full46_input_axis_log2": -243,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "81282262076678682903209816234836563472118271564470745768094786815916606125271",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "81282262076678682903209816234836563472118271564470745768094786815916606125271",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 52,
+              "same_full46_input_axis_log2": -245,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "106034893620154834331518922844625101869676365347601541363224321679083611002783",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "106034893620154834331518922844625101869676365347601541363224321679083611002783",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 54,
+              "same_full46_input_axis_log2": -246,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "78394932082047950922378483101602202331288806490119757112863357211619316270553",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "78394932082047950922378483101602202331288806490119757112863357211619316270553",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 56,
+              "same_full46_input_axis_log2": -249,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "11903987762200799650873955490393497376826817942128736022767544500164516703141",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "11903987762200799650873955490393497376826817942128736022767544500164516703141",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 58,
+              "same_full46_input_axis_log2": -254,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "67242212009905279476004982090979636158933087279255819509725391271708664249173",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "67242212009905279476004982090979636158933087279255819509725391271708664249173",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 60,
+              "same_full46_input_axis_log2": -252,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "54760021243993007601459833130516587347061835722650519689472040451847899811279",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "54760021243993007601459833130516587347061835722650519689472040451847899811279",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 62,
+              "same_full46_input_axis_log2": -256,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "10093910495897395727378674368611113974945605179547495806516246377884183701823",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "10093910495897395727378674368611113974945605179547495806516246377884183701823",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 64,
+              "same_full46_input_axis_log2": -256,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "57761797691818707991039986472447723919112041554761986305938455755642044782527",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "57761797691818707991039986472447723919112041554761986305938455755642044782527",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 66,
+              "same_full46_input_axis_log2": -258,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "66935457809165655590606499771489932916508994951336410478459653081465225644385",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "66935457809165655590606499771489932916508994951336410478459653081465225644385",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 68,
+              "same_full46_input_axis_log2": -260,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "3876560416999668216465743984404047222652664535529756529160366081735030789059",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "3876560416999668216465743984404047222652664535529756529160366081735030789059",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 70,
+              "same_full46_input_axis_log2": -262,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "76986377013559014366074065318446863619835868857584981019925341099839767590271",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "76986377013559014366074065318446863619835868857584981019925341099839767590271",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 72,
+              "same_full46_input_axis_log2": -264,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "44731554690345263158346039974444725029187413141236077379907089569726895538545",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "44731554690345263158346039974444725029187413141236077379907089569726895538545",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 74,
+              "same_full46_input_axis_log2": -266,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "50757816095998447196942378352258465406125417469136569838030401661165944148921",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "50757816095998447196942378352258465406125417469136569838030401661165944148921",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 76,
+              "same_full46_input_axis_log2": -270,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "74992303470249867522968072670031177955661620994019042579894886460369653783983",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "74992303470249867522968072670031177955661620994019042579894886460369653783983",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 78,
+              "same_full46_input_axis_log2": -273,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "8421271417887063270019788418594865715550958061612813137091748730259385510245",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "8421271417887063270019788418594865715550958061612813137091748730259385510245",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 80,
+              "same_full46_input_axis_log2": -277,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "91485749636487470334556649431489512146795273934083519604359165447489938892907",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "91485749636487470334556649431489512146795273934083519604359165447489938892907",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 82,
+              "same_full46_input_axis_log2": -277,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "34955792318328972732643593808987138430054322654316516077783219589198928665971",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "34955792318328972732643593808987138430054322654316516077783219589198928665971",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 84,
+              "same_full46_input_axis_log2": -279,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "59449514860942542651366170221184051181116391523240079171786211883394744847911",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "59449514860942542651366170221184051181116391523240079171786211883394744847911",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 86,
+              "same_full46_input_axis_log2": -284,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "1318080269446036408903861301193435307342110283489973396375772185982298918881",
+                  "binary_exponent": -277
+                },
+                "upper": {
+                  "mantissa": "1318080269446036408903861301193435307342110283489973396375772185982298918881",
+                  "binary_exponent": -277
+                }
+              }
+            },
+            {
+              "input_mode": 88,
+              "same_full46_input_axis_log2": -284,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "62011635383796437648556910943774386864482978164770995355766010952669042311227",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "62011635383796437648556910943774386864482978164770995355766010952669042311227",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 90,
+              "same_full46_input_axis_log2": -286,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "113563270048072735683863215722989014813361556371136727364364422245145746678341",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "113563270048072735683863215722989014813361556371136727364364422245145746678341",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 92,
+              "same_full46_input_axis_log2": -291,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "43941663293515441566506136194277944945069491685774866812645893960625411270403",
+                  "binary_exponent": -285
+                },
+                "upper": {
+                  "mantissa": "43941663293515441566506136194277944945069491685774866812645893960625411270403",
+                  "binary_exponent": -285
+                }
+              }
+            }
+          ],
+          "all46_input_columns_retained": true,
+          "complete_outer_forcing_included": false
+        }
+      ],
+      "selected_two_output_l1_column_norm_upper": {
+        "lower": {
+          "mantissa": "86262623281802103174072778610761041376101184559982471762294527035267251089183",
+          "binary_exponent": -280
+        },
+        "upper": {
+          "mantissa": "86262623281802103174072778610761041376101184559982471762294527035267251089183",
+          "binary_exponent": -280
+        }
+      },
+      "selected_two_output_normalized_column_sums": [
+        {
+          "input_mode": 2,
+          "upper": {
+            "lower": {
+              "mantissa": "58779705161358929660579533761127092618391532898780428043851857085564739405951",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "58779705161358929660579533761127092618391532898780428043851857085564739405951",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 4,
+          "upper": {
+            "lower": {
+              "mantissa": "16201357624703765529679656903717513747971710684793312697096724238200619762633",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "16201357624703765529679656903717513747971710684793312697096724238200619762633",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 6,
+          "upper": {
+            "lower": {
+              "mantissa": "86595344960171165120572866914289204453413047524317509487077754721830199663933",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "86595344960171165120572866914289204453413047524317509487077754721830199663933",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 8,
+          "upper": {
+            "lower": {
+              "mantissa": "23379118927618131021644736103781466602084462735160812594398143758160869947413",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "23379118927618131021644736103781466602084462735160812594398143758160869947413",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 10,
+          "upper": {
+            "lower": {
+              "mantissa": "42465013513534496962440613165634236537508765362224532776362515084878977988343",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "42465013513534496962440613165634236537508765362224532776362515084878977988343",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 12,
+          "upper": {
+            "lower": {
+              "mantissa": "68382314375686266843738428927619967137103551919861693872847205919911377327351",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "68382314375686266843738428927619967137103551919861693872847205919911377327351",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 14,
+          "upper": {
+            "lower": {
+              "mantissa": "25767945529864627244716844877610368721608510761895219083859835357154616604987",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "25767945529864627244716844877610368721608510761895219083859835357154616604987",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 16,
+          "upper": {
+            "lower": {
+              "mantissa": "19350316761519009684660892909704360157575813543725965966621536487289579628987",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "19350316761519009684660892909704360157575813543725965966621536487289579628987",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 18,
+          "upper": {
+            "lower": {
+              "mantissa": "62376565654650839429233494302111003070041760049140104727322235108001489422229",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "62376565654650839429233494302111003070041760049140104727322235108001489422229",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 20,
+          "upper": {
+            "lower": {
+              "mantissa": "28833377431229943621178582048846696518198520702966913115748744368913360518813",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "28833377431229943621178582048846696518198520702966913115748744368913360518813",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 22,
+          "upper": {
+            "lower": {
+              "mantissa": "3909294867487522169683497559127534585973783792531682677392521454097672722549",
+              "binary_exponent": -276
+            },
+            "upper": {
+              "mantissa": "3909294867487522169683497559127534585973783792531682677392521454097672722549",
+              "binary_exponent": -276
+            }
+          }
+        },
+        {
+          "input_mode": 24,
+          "upper": {
+            "lower": {
+              "mantissa": "77630208143909340588945419726915191604966131253360426941961183275759922109585",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "77630208143909340588945419726915191604966131253360426941961183275759922109585",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 26,
+          "upper": {
+            "lower": {
+              "mantissa": "53267278634661967408562246437735940673606990762804940399768138358937907675911",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "53267278634661967408562246437735940673606990762804940399768138358937907675911",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 28,
+          "upper": {
+            "lower": {
+              "mantissa": "19929043817415860330309033115957804049420371721729905749858491224659588182499",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "19929043817415860330309033115957804049420371721729905749858491224659588182499",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 30,
+          "upper": {
+            "lower": {
+              "mantissa": "66020844433892127852230432353251659576864482843188641261112721012886569749279",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "66020844433892127852230432353251659576864482843188641261112721012886569749279",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 32,
+          "upper": {
+            "lower": {
+              "mantissa": "64023914937509653609650161271199160354024886698643687699619378290718255695039",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "64023914937509653609650161271199160354024886698643687699619378290718255695039",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 34,
+          "upper": {
+            "lower": {
+              "mantissa": "43028740573570108679611717581269522874511930547833851233996480248811554932505",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "43028740573570108679611717581269522874511930547833851233996480248811554932505",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 36,
+          "upper": {
+            "lower": {
+              "mantissa": "73726795066940747743592535437938905578395191409997882745134665101773790424309",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "73726795066940747743592535437938905578395191409997882745134665101773790424309",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 38,
+          "upper": {
+            "lower": {
+              "mantissa": "27924838201284433638843316970663128835378273022109171269517706454282315887451",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "27924838201284433638843316970663128835378273022109171269517706454282315887451",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 40,
+          "upper": {
+            "lower": {
+              "mantissa": "11773947476298900055401330916691861686866652180985392975632974057112084570243",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "11773947476298900055401330916691861686866652180985392975632974057112084570243",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 42,
+          "upper": {
+            "lower": {
+              "mantissa": "61348926542003526601133284222813659340690540211154785969501040887985829510473",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "61348926542003526601133284222813659340690540211154785969501040887985829510473",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 44,
+          "upper": {
+            "lower": {
+              "mantissa": "62468190148646397356752247862289204278564440678513535918143288922246627216383",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "62468190148646397356752247862289204278564440678513535918143288922246627216383",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 46,
+          "upper": {
+            "lower": {
+              "mantissa": "61421600767305943983180909966475069049637512693525611633539970662755450269895",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "61421600767305943983180909966475069049637512693525611633539970662755450269895",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 48,
+          "upper": {
+            "lower": {
+              "mantissa": "61467455865764104286669228918665394497746377491256621194056636436940961100381",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "61467455865764104286669228918665394497746377491256621194056636436940961100381",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 50,
+          "upper": {
+            "lower": {
+              "mantissa": "17267343466255860574152051523257331658459178992950083541029302700148382455641",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "17267343466255860574152051523257331658459178992950083541029302700148382455641",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 52,
+          "upper": {
+            "lower": {
+              "mantissa": "90102852985064504729723046958396527583816278013836424975174726826887647727515",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "90102852985064504729723046958396527583816278013836424975174726826887647727515",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 54,
+          "upper": {
+            "lower": {
+              "mantissa": "66615873313049200184336427785331434006468808873482061089234384333015177246551",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "66615873313049200184336427785331434006468808873482061089234384333015177246551",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 56,
+          "upper": {
+            "lower": {
+              "mantissa": "10115380160759758079909238353269545183879320306477253684591376387232925210811",
+              "binary_exponent": -277
+            },
+            "upper": {
+              "mantissa": "10115380160759758079909238353269545183879320306477253684591376387232925210811",
+              "binary_exponent": -277
+            }
+          }
+        },
+        {
+          "input_mode": 58,
+          "upper": {
+            "lower": {
+              "mantissa": "114277761522974914844018856047411915952028462532208538453988054770797807217947",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "114277761522974914844018856047411915952028462532208538453988054770797807217947",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 60,
+          "upper": {
+            "lower": {
+              "mantissa": "93064348445173764876785446268665649895888780831225858720453747553549286354725",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "93064348445173764876785446268665649895888780831225858720453747553549286354725",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 62,
+          "upper": {
+            "lower": {
+              "mantissa": "34309088354038546415874605549033948681144423926150721926050680275335875421555",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "34309088354038546415874605549033948681144423926150721926050680275335875421555",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 64,
+          "upper": {
+            "lower": {
+              "mantissa": "49082925326665495556007153016784350856626789078217051047340157304922521034131",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "49082925326665495556007153016784350856626789078217051047340157304922521034131",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 66,
+          "upper": {
+            "lower": {
+              "mantissa": "28439108620564833854085735137515719142153936154207626324457819956883034879877",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "28439108620564833854085735137515719142153936154207626324457819956883034879877",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 68,
+          "upper": {
+            "lower": {
+              "mantissa": "13176385297914779664267431849161169764875021517783821985055619619549415639197",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "13176385297914779664267431849161169764875021517783821985055619619549415639197",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 70,
+          "upper": {
+            "lower": {
+              "mantissa": "65418957600453035734565956889378932698872228096681909128835379469908284641683",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "65418957600453035734565956889378932698872228096681909128835379469908284641683",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 72,
+          "upper": {
+            "lower": {
+              "mantissa": "76021025880323159034658937125775826830466342613960357134292027970427969198931",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "76021025880323159034658937125775826830466342613960357134292027970427969198931",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 74,
+          "upper": {
+            "lower": {
+              "mantissa": "86262623281802103174072778610761041376101184559982471762294527035267251089183",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "86262623281802103174072778610761041376101184559982471762294527035267251089183",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 76,
+          "upper": {
+            "lower": {
+              "mantissa": "15931124802172927743887002444410420104004112511258906157209891814601541730611",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "15931124802172927743887002444410420104004112511258906157209891814601541730611",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 78,
+          "upper": {
+            "lower": {
+              "mantissa": "114495227690817695336109402587503330538802270584258130441864672309005374628997",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "114495227690817695336109402587503330538802270584258130441864672309005374628997",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 80,
+          "upper": {
+            "lower": {
+              "mantissa": "19434939688943152379906933634031422223641897765598154474931824140422774627215",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "19434939688943152379906933634031422223641897765598154474931824140422774627215",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 82,
+          "upper": {
+            "lower": {
+              "mantissa": "59407172652383775362695133085145579691471568139221476996374753586491767441231",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "59407172652383775362695133085145579691471568139221476996374753586491767441231",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 84,
+          "upper": {
+            "lower": {
+              "mantissa": "101034116500131999453256169575921297024261207697116239139827452364108237076335",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "101034116500131999453256169575921297024261207697116239139827452364108237076335",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 86,
+          "upper": {
+            "lower": {
+              "mantissa": "8960280050138989971666095471563280847365050663373088426782352220666322885627",
+              "binary_exponent": -277
+            },
+            "upper": {
+              "mantissa": "8960280050138989971666095471563280847365050663373088426782352220666322885627",
+              "binary_exponent": -277
+            }
+          }
+        },
+        {
+          "input_mode": 88,
+          "upper": {
+            "lower": {
+              "mantissa": "3293388310435145864931494779065972569015477248536800664736914727848133812335",
+              "binary_exponent": -276
+            },
+            "upper": {
+              "mantissa": "3293388310435145864931494779065972569015477248536800664736914727848133812335",
+              "binary_exponent": -276
+            }
+          }
+        },
+        {
+          "input_mode": 90,
+          "upper": {
+            "lower": {
+              "mantissa": "96500069706296513283249740965023866213949058369176984726499770200129378987769",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "96500069706296513283249740965023866213949058369176984726499770200129378987769",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 92,
+          "upper": {
+            "lower": {
+              "mantissa": "74678609889268746815537309029383014858616271726392636762477086035571053629775",
+              "binary_exponent": -283
+            },
+            "upper": {
+              "mantissa": "74678609889268746815537309029383014858616271726392636762477086035571053629775",
+              "binary_exponent": -283
+            }
+          }
+        }
+      ],
+      "full46_Schur_inverse_paid": false
+    },
+    {
+      "endpoint_physical_node": 10,
+      "radius": {
+        "lower": {
+          "mantissa": "11608188055468874819185863988088605058505491019821761620734795523852958170529",
+          "binary_exponent": -257
+        },
+        "upper": {
+          "mantissa": "11608188055468874819185863990676576289053680031651333686126535622155059854753",
+          "binary_exponent": -257
+        }
+      },
+      "modes": [
+        {
+          "mode": 2,
+          "S0_true_Q": {
+            "lower": {
+              "mantissa": "89876222836155890942217243708718783566952554813058845023854854995036049129789",
+              "binary_exponent": -218
+            },
+            "upper": {
+              "mantissa": "89876222836155890942217253610169491685933111330035507940396329114907506524477",
+              "binary_exponent": -218
+            }
+          },
+          "S0_true_height": {
+            "lower": {
+              "mantissa": "74366430558663432009510791427920701403235431386758770513961814129924798842637",
+              "binary_exponent": -235
+            },
+            "upper": {
+              "mantissa": "74366430558663432009510799687012434638237403614866253005489914380017747003149",
+              "binary_exponent": -235
+            }
+          },
+          "shared_exact_dyadic_slope": {
+            "mantissa": "-16199242544078497817069331822873217",
+            "binary_exponent": -109
+          },
+          "true_minus_shared_exact_slope": {
+            "lower": {
+              "mantissa": "-174180249",
+              "binary_exponent": -113
+            },
+            "upper": {
+              "mantissa": "174180249",
+              "binary_exponent": -113
+            }
+          },
+          "K_to_canonical_cut_coefficient": {
+            "lower": {
+              "mantissa": "-2623282726107308495771653583441095",
+              "binary_exponent": -148
+            },
+            "upper": {
+              "mantissa": "-327910340763413561971456628869787",
+              "binary_exponent": -145
+            }
+          },
+          "cut_only_signed_linear_canonical_Q": {
+            "lower": {
+              "mantissa": "-29500747325969256582667",
+              "binary_exponent": -256
+            },
+            "upper": {
+              "mantissa": "-1843796707873030943441",
+              "binary_exponent": -252
+            }
+          },
+          "cut_only_nonlinear_canonical_Q_radius": {
+            "lower": {
+              "mantissa": "4421967971416401624497731967850894596018027617368270251804792423478665605195",
+              "binary_exponent": -456
+            },
+            "upper": {
+              "mantissa": "4421967971416401624497731967850894596018027617368270251804792423478665605195",
+              "binary_exponent": -456
+            }
+          },
+          "cut_only_full_canonical_Q": {
+            "lower": {
+              "mantissa": "-59001500155533373061915",
+              "binary_exponent": -257
+            },
+            "upper": {
+              "mantissa": "-59001489148342130293531",
+              "binary_exponent": -257
+            }
+          },
+          "canonical_parameter_axis": {
+            "lower": {
+              "mantissa": "1",
+              "binary_exponent": -193
+            },
+            "upper": {
+              "mantissa": "1",
+              "binary_exponent": -193
+            },
+            "display": "[7.96545955566226138514440198883855902795552277596309393037e-59 +/- 5.73e-117]"
+          },
+          "canonical_parameter_axis_log2": -193,
+          "cut_only_axis_ratio_upper": {
+            "lower": {
+              "mantissa": "59001500155533373061915",
+              "binary_exponent": -64
+            },
+            "upper": {
+              "mantissa": "59001500155533373061915",
+              "binary_exponent": -64
+            }
+          },
+          "cut_only_axis_ratio_lower": {
+            "lower": {
+              "mantissa": "59001489148342130293531",
+              "binary_exponent": -64
+            },
+            "upper": {
+              "mantissa": "59001489148342130293531",
+              "binary_exponent": -64
+            }
+          },
+          "recentred_cut_only_full_canonical_Q": {
+            "lower": {
+              "mantissa": "-22014382485536765",
+              "binary_exponent": -259
+            },
+            "upper": {
+              "mantissa": "22014382485536771",
+              "binary_exponent": -259
+            }
+          },
+          "recentred_cut_only_axis_ratio_upper": {
+            "lower": {
+              "mantissa": "22014382485536771",
+              "binary_exponent": -66
+            },
+            "upper": {
+              "mantissa": "22014382485536771",
+              "binary_exponent": -66
+            }
+          },
+          "selected_head_DeltaB_columns": [
+            {
+              "input_mode": 2,
+              "same_full46_input_axis_log2": -193,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "100266118331131639179272940183387201239226636272255403251683860700512109301501",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "100266118331131639179272940183387201239226636272255403251683860700512109301501",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 4,
+              "same_full46_input_axis_log2": -196,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "110544769577471214065598000035721010264333281967057522680087012046778830015215",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "110544769577471214065598000035721010264333281967057522680087012046778830015215",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 6,
+              "same_full46_input_axis_log2": -198,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "73856946720528200358330759895585620682072382727138999585889867757986493040535",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "73856946720528200358330759895585620682072382727138999585889867757986493040535",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 8,
+              "same_full46_input_axis_log2": -200,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "39879980657255220373864272991292156067871258955586772195469652176030403699377",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "39879980657255220373864272991292156067871258955586772195469652176030403699377",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 10,
+              "same_full46_input_axis_log2": -202,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "72436601343828818823147398745617022117942065570108345274679118465012691768071",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "72436601343828818823147398745617022117942065570108345274679118465012691768071",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 12,
+              "same_full46_input_axis_log2": -204,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "58323099836306574559025246491758940376855148035510589979585918720473875175961",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "58323099836306574559025246491758940376855148035510589979585918720473875175961",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 14,
+              "same_full46_input_axis_log2": -205,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "343397099782763183955758540837730590473653915085262948566304472712864026263",
+                  "binary_exponent": -273
+                },
+                "upper": {
+                  "mantissa": "343397099782763183955758540837730590473653915085262948566304472712864026263",
+                  "binary_exponent": -273
+                }
+              }
+            },
+            {
+              "input_mode": 16,
+              "same_full46_input_axis_log2": -207,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "66015341343726123904996666793407603757930376408415819543269789670113965765815",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "66015341343726123904996666793407603757930376408415819543269789670113965765815",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 18,
+              "same_full46_input_axis_log2": -208,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "26600406108919611426769707745220660241256195754112599047191828034042074989247",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "26600406108919611426769707745220660241256195754112599047191828034042074989247",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 20,
+              "same_full46_input_axis_log2": -210,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "49183826721648778395801868195408163642538478409112452330061645733907716026329",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "49183826721648778395801868195408163642538478409112452330061645733907716026329",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 22,
+              "same_full46_input_axis_log2": -212,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "53347640407351443413116740757987997082748567596230245368765356069428248322207",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "53347640407351443413116740757987997082748567596230245368765356069428248322207",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 24,
+              "same_full46_input_axis_log2": -214,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "66210604616510481050511565965904030957253646470441587573822084616430817798081",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "66210604616510481050511565965904030957253646470441587573822084616430817798081",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 26,
+              "same_full46_input_axis_log2": -217,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "45431524776271100558596949728915437018810796692071362822985317543322204956085",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "45431524776271100558596949728915437018810796692071362822985317543322204956085",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 28,
+              "same_full46_input_axis_log2": -219,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "67989720606387928656751544233953027827792312042171692752482797023806409345241",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "67989720606387928656751544233953027827792312042171692752482797023806409345241",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 30,
+              "same_full46_input_axis_log2": -222,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "112618016408179305081165432075636623443620069714539067661745965194173065596797",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "112618016408179305081165432075636623443620069714539067661745965194173065596797",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 32,
+              "same_full46_input_axis_log2": -225,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "54605832179018014701103570433540381213717953502440300921310533591654013984969",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "54605832179018014701103570433540381213717953502440300921310533591654013984969",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 34,
+              "same_full46_input_axis_log2": -228,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "18349551014868524561509739883660643479887960888305299932744930653129797434239",
+                  "binary_exponent": -278
+                },
+                "upper": {
+                  "mantissa": "18349551014868524561509739883660643479887960888305299932744930653129797434239",
+                  "binary_exponent": -278
+                }
+              }
+            },
+            {
+              "input_mode": 36,
+              "same_full46_input_axis_log2": -234,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "31440696827519058928301405355322327547626961555882788255611307898935235107393",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "31440696827519058928301405355322327547626961555882788255611307898935235107393",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 38,
+              "same_full46_input_axis_log2": -236,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "95268090364914613850400633209702138720449972182903187686881899521550437801143",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "95268090364914613850400633209702138720449972182903187686881899521550437801143",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 40,
+              "same_full46_input_axis_log2": -238,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "80335755862836763048562643112439043265584170417902102967347057484679149710181",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "80335755862836763048562643112439043265584170417902102967347057484679149710181",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 42,
+              "same_full46_input_axis_log2": -237,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "52324341464987181327107528195020093752087674071498636774740010330249274865593",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "52324341464987181327107528195020093752087674071498636774740010330249274865593",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 44,
+              "same_full46_input_axis_log2": -238,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "106557917025642438661648466902775050658596579589485334912826530113001203974481",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "106557917025642438661648466902775050658596579589485334912826530113001203974481",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 46,
+              "same_full46_input_axis_log2": -240,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "52386325124600582485898503590886975796398568534929679346170889302229994186285",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "52386325124600582485898503590886975796398568534929679346170889302229994186285",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 48,
+              "same_full46_input_axis_log2": -245,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "52425434819991791031384566762683114828446629492049511816851829656179450378237",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "52425434819991791031384566762683114828446629492049511816851829656179450378237",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 50,
+              "same_full46_input_axis_log2": -243,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "14727272776370253446689617700459229721517869358178375259774389619504536806379",
+                  "binary_exponent": -278
+                },
+                "upper": {
+                  "mantissa": "14727272776370253446689617700459229721517869358178375259774389619504536806379",
+                  "binary_exponent": -278
+                }
+              }
+            },
+            {
+              "input_mode": 52,
+              "same_full46_input_axis_log2": -245,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "19212122820650117829218959635994778467664901866774948089195919720090877780893",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "19212122820650117829218959635994778467664901866774948089195919720090877780893",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 54,
+              "same_full46_input_axis_log2": -246,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "113633013605668213569298600903592545609802440963522640109065659178516440170303",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "113633013605668213569298600903592545609802440963522640109065659178516440170303",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 56,
+              "same_full46_input_axis_log2": -249,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "34509526761963474847100153842699612988555255651922885716278427840158433169201",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "34509526761963474847100153842699612988555255651922885716278427840158433169201",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 58,
+              "same_full46_input_axis_log2": -254,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "95182820820867928356993298447556464245393120323685758751170462955566118527",
+                  "binary_exponent": -271
+                },
+                "upper": {
+                  "mantissa": "95182820820867928356993298447556464245393120323685758751170462955566118527",
+                  "binary_exponent": -271
+                }
+              }
+            },
+            {
+              "input_mode": 60,
+              "same_full46_input_axis_log2": -252,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "79374343134232652138512209779810894394818149073508083994227486668945003131445",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "79374343134232652138512209779810894394818149073508083994227486668945003131445",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 62,
+              "same_full46_input_axis_log2": -256,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "29262133106110913466875296232383249854259296938690263986723152150932539543933",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "29262133106110913466875296232383249854259296938690263986723152150932539543933",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 64,
+              "same_full46_input_axis_log2": -256,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "83725401230436585469999704063240442533866065314502358164088947825988770209771",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "83725401230436585469999704063240442533866065314502358164088947825988770209771",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 66,
+              "same_full46_input_axis_log2": -258,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "48511285015018882549792014429109690864289880058901437955308022699307271454459",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "48511285015018882549792014429109690864289880058901437955308022699307271454459",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 68,
+              "same_full46_input_axis_log2": -260,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "89904840715384284193519337353620368167904334692498818067385108075725323011739",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "89904840715384284193519337353620368167904334692498818067385108075725323011739",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 70,
+              "same_full46_input_axis_log2": -262,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "13948915118449581132091368677328084671370122222170988102882020906372804453503",
+                  "binary_exponent": -278
+                },
+                "upper": {
+                  "mantissa": "13948915118449581132091368677328084671370122222170988102882020906372804453503",
+                  "binary_exponent": -278
+                }
+              }
+            },
+            {
+              "input_mode": 72,
+              "same_full46_input_axis_log2": -264,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "16209534301945879559270769092929614069622474522610414322047108983257001667323",
+                  "binary_exponent": -278
+                },
+                "upper": {
+                  "mantissa": "16209534301945879559270769092929614069622474522610414322047108983257001667323",
+                  "binary_exponent": -278
+                }
+              }
+            },
+            {
+              "input_mode": 74,
+              "same_full46_input_axis_log2": -266,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "36786584628927727224637217630052460845426613099065349785748212224991099468825",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "36786584628927727224637217630052460845426613099065349785748212224991099468825",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 76,
+              "same_full46_input_axis_log2": -270,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "108700922549899205540063018309151624131143208424491226208475757719369151082093",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "108700922549899205540063018309151624131143208424491226208475757719369151082093",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 78,
+              "same_full46_input_axis_log2": -273,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "6103292803444616623584631907687329890069025461238391971324763923496458834057",
+                  "binary_exponent": -277
+                },
+                "upper": {
+                  "mantissa": "6103292803444616623584631907687329890069025461238391971324763923496458834057",
+                  "binary_exponent": -277
+                }
+              }
+            },
+            {
+              "input_mode": 80,
+              "same_full46_input_axis_log2": -277,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "66304040051259405978443651113185765412982990303074690145275607295653266482881",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "66304040051259405978443651113185765412982990303074690145275607295653266482881",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 82,
+              "same_full46_input_axis_log2": -277,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "50668224572838006684801901321256585210143362501997266723699926241831540949035",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "50668224572838006684801901321256585210143362501997266723699926241831540949035",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 84,
+              "same_full46_input_axis_log2": -279,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "43085868892479198094514269108930568912396867795607572280975689572956020379355",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "43085868892479198094514269108930568912396867795607572280975689572956020379355",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 86,
+              "same_full46_input_axis_log2": -284,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "30568799122793819794642194978718375994474650584585164951101229791605336380499",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "30568799122793819794642194978718375994474650584585164951101229791605336380499",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 88,
+              "same_full46_input_axis_log2": -284,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "89885517088040264100423119331899359928651125508905216275598495135491711298519",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "89885517088040264100423119331899359928651125508905216275598495135491711298519",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 90,
+              "same_full46_input_axis_log2": -286,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "82304660950346669931035545748432834949673120405695053535951904927999012659979",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "82304660950346669931035545748432834949673120405695053535951904927999012659979",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 92,
+              "same_full46_input_axis_log2": -291,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "7961649258241967150796220728043675520074300868651214299212026543823905613793",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "7961649258241967150796220728043675520074300868651214299212026543823905613793",
+                  "binary_exponent": -280
+                }
+              }
+            }
+          ],
+          "all46_input_columns_retained": true,
+          "complete_outer_forcing_included": false
+        },
+        {
+          "mode": 4,
+          "S0_true_Q": {
+            "lower": {
+              "mantissa": "4402989597667409557446770595937405673116241269380768638458507533349298150369",
+              "binary_exponent": -205
+            },
+            "upper": {
+              "mantissa": "4402989597667409557446772642880795629881257553273588283590724735259603934177",
+              "binary_exponent": -205
+            }
+          },
+          "S0_true_height": {
+            "lower": {
+              "mantissa": "29145383268930940742887793249498622002011742218100919003837087020566468600421",
+              "binary_exponent": -225
+            },
+            "upper": {
+              "mantissa": "29145383268930940742887806825135622657713134268730816453246674548205859349093",
+              "binary_exponent": -225
+            }
+          },
+          "shared_exact_dyadic_slope": {
+            "mantissa": "-161872261474055580327119567197240209",
+            "binary_exponent": -108
+          },
+          "true_minus_shared_exact_slope": {
+            "lower": {
+              "mantissa": "-979367355",
+              "binary_exponent": -108
+            },
+            "upper": {
+              "mantissa": "979367355",
+              "binary_exponent": -108
+            }
+          },
+          "K_to_canonical_cut_coefficient": {
+            "lower": {
+              "mantissa": "-503318269028941372139168802924409",
+              "binary_exponent": -150
+            },
+            "upper": {
+              "mantissa": "-1006636538057882744278336716102159",
+              "binary_exponent": -151
+            }
+          },
+          "cut_only_signed_linear_canonical_Q": {
+            "lower": {
+              "mantissa": "-31902569737735204365991",
+              "binary_exponent": -286
+            },
+            "upper": {
+              "mantissa": "-31902569737711021073223",
+              "binary_exponent": -286
+            }
+          },
+          "cut_only_nonlinear_canonical_Q_radius": {
+            "lower": {
+              "mantissa": "60986588213520960369055926337370729200403594958610087869099375075105237192397",
+              "binary_exponent": -459
+            },
+            "upper": {
+              "mantissa": "60986588213520960369055926337370729200403594958610087869099375075105237192397",
+              "binary_exponent": -459
+            }
+          },
+          "cut_only_full_canonical_Q": {
+            "lower": {
+              "mantissa": "-5125740118197314544076023",
+              "binary_exponent": -286
+            },
+            "upper": {
+              "mantissa": "5061934978721868318636809",
+              "binary_exponent": -286
+            }
+          },
+          "canonical_parameter_axis": {
+            "lower": {
+              "mantissa": "1",
+              "binary_exponent": -196
+            },
+            "upper": {
+              "mantissa": "1",
+              "binary_exponent": -196
+            },
+            "display": "[9.95682444457782673143050248604819878494440346995386741296e-60 +/- 1.79e-117]"
+          },
+          "canonical_parameter_axis_log2": -196,
+          "cut_only_axis_ratio_upper": {
+            "lower": {
+              "mantissa": "5125740118197314544076023",
+              "binary_exponent": -90
+            },
+            "upper": {
+              "mantissa": "5125740118197314544076023",
+              "binary_exponent": -90
+            }
+          },
+          "cut_only_axis_ratio_lower": {
+            "lower": {
+              "mantissa": "-5061934978721868318636809",
+              "binary_exponent": -90
+            },
+            "upper": {
+              "mantissa": "-5061934978721868318636809",
+              "binary_exponent": -90
+            }
+          },
+          "recentred_cut_only_full_canonical_Q": {
+            "lower": {
+              "mantissa": "-565529573",
+              "binary_exponent": -233
+            },
+            "upper": {
+              "mantissa": "565529573",
+              "binary_exponent": -233
+            }
+          },
+          "recentred_cut_only_axis_ratio_upper": {
+            "lower": {
+              "mantissa": "565529573",
+              "binary_exponent": -37
+            },
+            "upper": {
+              "mantissa": "565529573",
+              "binary_exponent": -37
+            }
+          },
+          "selected_head_DeltaB_columns": [
+            {
+              "input_mode": 2,
+              "same_full46_input_axis_log2": -193,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "4323322997914607118667335288951762847306553264444729590873096491881280725783",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "4323322997914607118667335288951762847306553264444729590873096491881280725783",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 4,
+              "same_full46_input_axis_log2": -196,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "38132182840477041696653043984079561747537954080415645113345394071676700697515",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "38132182840477041696653043984079561747537954080415645113345394071676700697515",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 6,
+              "same_full46_input_axis_log2": -198,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "101907185917569232684591967287661259391887049615021069108935661962088924031495",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "101907185917569232684591967287661259391887049615021069108935661962088924031495",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 8,
+              "same_full46_input_axis_log2": -200,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "55026057584078095270003855292234647777000311082743882647691772159329845083247",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "55026057584078095270003855292234647777000311082743882647691772159329845083247",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 10,
+              "same_full46_input_axis_log2": -202,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "3123356420823085384858901657571069596970071907299454652553315219779434270301",
+                  "binary_exponent": -279
+                },
+                "upper": {
+                  "mantissa": "3123356420823085384858901657571069596970071907299454652553315219779434270301",
+                  "binary_exponent": -279
+                }
+              }
+            },
+            {
+              "input_mode": 12,
+              "same_full46_input_axis_log2": -204,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "80473716315373557173980695150306042310632130361226751171595331784152358506201",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "80473716315373557173980695150306042310632130361226751171595331784152358506201",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 14,
+              "same_full46_input_axis_log2": -205,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "15162124575134443505758395217754505305212635405961173929965417795549546515281",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "15162124575134443505758395217754505305212635405961173929965417795549546515281",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 16,
+              "same_full46_input_axis_log2": -207,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "1423240712799682111609718301231122413615044531819969256754991906390479128995",
+                  "binary_exponent": -278
+                },
+                "upper": {
+                  "mantissa": "1423240712799682111609718301231122413615044531819969256754991906390479128995",
+                  "binary_exponent": -278
+                }
+              }
+            },
+            {
+              "input_mode": 18,
+              "same_full46_input_axis_log2": -208,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "9175753436849930036082324850943746606426290612726261994679850931775723373739",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "9175753436849930036082324850943746606426290612726261994679850931775723373739",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 20,
+              "same_full46_input_axis_log2": -210,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "33931712563386117628900205885477769973294244554759474581315800080600327085721",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "33931712563386117628900205885477769973294244554759474581315800080600327085721",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 22,
+              "same_full46_input_axis_log2": -212,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "73608619779898644023996300749595549844356498518820434969705902388674331902871",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "73608619779898644023996300749595549844356498518820434969705902388674331902871",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 24,
+              "same_full46_input_axis_log2": -214,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "91356828219572337758377908183639872149191364511575186073820889370697462576787",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "91356828219572337758377908183639872149191364511575186073820889370697462576787",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 26,
+              "same_full46_input_axis_log2": -217,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "62686030867388681017846406397034821647137618333330670140826275967945993606495",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "62686030867388681017846406397034821647137618333330670140826275967945993606495",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 28,
+              "same_full46_input_axis_log2": -219,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "93811637306595812849391569090420675184249193889598940994990557363416094819087",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "93811637306595812849391569090420675184249193889598940994990557363416094819087",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 30,
+              "same_full46_input_axis_log2": -222,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "9711836229843027191692235562913406473907249011621044265537091605900529321787",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "9711836229843027191692235562913406473907249011621044265537091605900529321787",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 32,
+              "same_full46_input_axis_log2": -225,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "75344662068247713741672032407188083117688197777965406370221398264733568703405",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "75344662068247713741672032407188083117688197777965406370221398264733568703405",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 34,
+              "same_full46_input_axis_log2": -228,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "101274216701751824522140048036227472202766486801878754021583343793784831183435",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "101274216701751824522140048036227472202766486801878754021583343793784831183435",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 36,
+              "same_full46_input_axis_log2": -234,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "10845401411947914981042333154817995553128567718960856789189971967976552987875",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "10845401411947914981042333154817995553128567718960856789189971967976552987875",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 38,
+              "same_full46_input_axis_log2": -236,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "65725049761166918495159125694466478204875833818636554585741048440701656826237",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "65725049761166918495159125694466478204875833818636554585741048440701656826237",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 40,
+              "same_full46_input_axis_log2": -238,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "110846591580898340331474002218035107620691931871160109112875978217386275489915",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "110846591580898340331474002218035107620691931871160109112875978217386275489915",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 42,
+              "same_full46_input_axis_log2": -237,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "72196680616432220233989496626942319875284432232199838294175995804612932853777",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "72196680616432220233989496626942319875284432232199838294175995804612932853777",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 44,
+              "same_full46_input_axis_log2": -238,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "73513853086908382117487524969172842181058571937698152652147929627126534056529",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "73513853086908382117487524969172842181058571937698152652147929627126534056529",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 46,
+              "same_full46_input_axis_log2": -240,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "36141102570972353564324437600258867744297201595715144825891590206166198687729",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "36141102570972353564324437600258867744297201595715144825891590206166198687729",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 48,
+              "same_full46_input_axis_log2": -245,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "72336168366480546516710326177490522995577917828699564326329700222476736953645",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "72336168366480546516710326177490522995577917828699564326329700222476736953645",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 50,
+              "same_full46_input_axis_log2": -243,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "20320565519169705766719938290505465589218439991833153958884502167376935349487",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "20320565519169705766719938290505465589218439991833153958884502167376935349487",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 52,
+              "same_full46_input_axis_log2": -245,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "26508723405038754294697572198147650672122337161083563975539682867243731204403",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "26508723405038754294697572198147650672122337161083563975539682867243731204403",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 54,
+              "same_full46_input_axis_log2": -246,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "9799366510256010763389686788047556088254339249085838726329766845367667851875",
+                  "binary_exponent": -280
+                },
+                "upper": {
+                  "mantissa": "9799366510256010763389686788047556088254339249085838726329766845367667851875",
+                  "binary_exponent": -280
+                }
+              }
+            },
+            {
+              "input_mode": 56,
+              "same_full46_input_axis_log2": -249,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "23807975524401640356378257275181475448010041570397179488677914063696627275147",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "23807975524401640356378257275181475448010041570397179488677914063696627275147",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 58,
+              "same_full46_input_axis_log2": -254,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "67242212009905395428919790172082980292252532645801700203231018095544859700383",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "67242212009905395428919790172082980292252532645801700203231018095544859700383",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 60,
+              "same_full46_input_axis_log2": -252,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "109520042487986204060004773993405467848134911531468331855672538744728242310863",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "109520042487986204060004773993405467848134911531468331855672538744728242310863",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 62,
+              "same_full46_input_axis_log2": -256,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "40375641983589652533538585253451872804973653266399262969306823847989582331337",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "40375641983589652533538585253451872804973653266399262969306823847989582331337",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 64,
+              "same_full46_input_axis_log2": -256,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "57761797691818807595865686353598651933805966592716196633589572208453920210487",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "57761797691818807595865686353598651933805966592716196633589572208453920210487",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 66,
+              "same_full46_input_axis_log2": -258,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "33467728904582885507276168346442184364428194986743209494056311905043458274045",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "33467728904582885507276168346442184364428194986743209494056311905043458274045",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 68,
+              "same_full46_input_axis_log2": -260,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "62024966671994798419714369245182559864791337021651184778194568655084961378991",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "62024966671994798419714369245182559864791337021651184778194568655084961378991",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 70,
+              "same_full46_input_axis_log2": -262,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "2405824281673723347559106468011439087739630343684024809316741613426628302453",
+                  "binary_exponent": -278
+                },
+                "upper": {
+                  "mantissa": "2405824281673723347559106468011439087739630343684024809316741613426628302453",
+                  "binary_exponent": -278
+                }
+              }
+            },
+            {
+              "input_mode": 72,
+              "same_full46_input_axis_log2": -264,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "44731554690345340293734588444227615527813359063771339194730280774399239651819",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "44731554690345340293734588444227615527813359063771339194730280774399239651819",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 74,
+              "same_full46_input_axis_log2": -266,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "25378908047999267362027961792229404720673598571036206831190893129713566856787",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "25378908047999267362027961792229404720673598571036206831190893129713566856787",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 76,
+              "same_full46_input_axis_log2": -270,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "74992303470249996840191816985945944578513681798303297634981164320981055214757",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "74992303470249996840191816985945944578513681798303297634981164320981055214757",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 78,
+              "same_full46_input_axis_log2": -273,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "67370171343096622333727035295489737120949765604710765948253525684172820236417",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "67370171343096622333727035295489737120949765604710765948253525684172820236417",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 80,
+              "same_full46_input_axis_log2": -277,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "91485749636487628093187971530546623785428966371238744870962221992444294034179",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "91485749636487628093187971530546623785428966371238744870962221992444294034179",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 82,
+              "same_full46_input_axis_log2": -277,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "17477896159164516505321448931889652490272075057766180091460971538729283950375",
+                  "binary_exponent": -281
+                },
+                "upper": {
+                  "mantissa": "17477896159164516505321448931889652490272075057766180091460971538729283950375",
+                  "binary_exponent": -281
+                }
+              }
+            },
+            {
+              "input_mode": 84,
+              "same_full46_input_axis_log2": -279,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "59449514860942645166502511024206609729387105396356460662965962120277306502143",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "59449514860942645166502511024206609729387105396356460662965962120277306502143",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 86,
+              "same_full46_input_axis_log2": -284,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "42178568622273237817926061091990594165057347642830062655555163193085537178953",
+                  "binary_exponent": -282
+                },
+                "upper": {
+                  "mantissa": "42178568622273237817926061091990594165057347642830062655555163193085537178953",
+                  "binary_exponent": -282
+                }
+              }
+            },
+            {
+              "input_mode": 88,
+              "same_full46_input_axis_log2": -284,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "62011635383796544581830814960080483075795123932139252404657581627210847074179",
+                  "binary_exponent": -283
+                },
+                "upper": {
+                  "mantissa": "62011635383796544581830814960080483075795123932139252404657581627210847074179",
+                  "binary_exponent": -283
+                }
+              }
+            },
+            {
+              "input_mode": 90,
+              "same_full46_input_axis_log2": -286,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "113563270048072931513116650626987435626381331859465251767717839522001499982351",
+                  "binary_exponent": -284
+                },
+                "upper": {
+                  "mantissa": "113563270048072931513116650626987435626381331859465251767717839522001499982351",
+                  "binary_exponent": -284
+                }
+              }
+            },
+            {
+              "input_mode": 92,
+              "same_full46_input_axis_log2": -291,
+              "normalized_head_nonlinear_Schur_column_upper": {
+                "lower": {
+                  "mantissa": "87883326587031034679601478818137676133874363433091567533415194608815430555593",
+                  "binary_exponent": -286
+                },
+                "upper": {
+                  "mantissa": "87883326587031034679601478818137676133874363433091567533415194608815430555593",
+                  "binary_exponent": -286
+                }
+              }
+            }
+          ],
+          "all46_input_columns_retained": true,
+          "complete_outer_forcing_included": false
+        }
+      ],
+      "selected_two_output_l1_column_norm_upper": {
+        "lower": {
+          "mantissa": "21565655820463772032572104039054906012797506370912200746772967753709745591511",
+          "binary_exponent": -278
+        },
+        "upper": {
+          "mantissa": "21565655820463772032572104039054906012797506370912200746772967753709745591511",
+          "binary_exponent": -278
+        }
+      },
+      "selected_two_output_normalized_column_sums": [
+        {
+          "input_mode": 2,
+          "upper": {
+            "lower": {
+              "mantissa": "58779705161395033826971140669597126314226424665017160807588123334018616102317",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "58779705161395033826971140669597126314226424665017160807588123334018616102317",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 4,
+          "upper": {
+            "lower": {
+              "mantissa": "64805430498854867456962261013880395569051129503632672618379854541308590181987",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "64805430498854867456962261013880395569051129503632672618379854541308590181987",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 6,
+          "upper": {
+            "lower": {
+              "mantissa": "10824418120028044305488094475817909763257282991127079153063353187905951068059",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "10824418120028044305488094475817909763257282991127079153063353187905951068059",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 8,
+          "upper": {
+            "lower": {
+              "mantissa": "46758237855264982282614754902821487039996297840929757526431123695946634334783",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "46758237855264982282614754902821487039996297840929757526431123695946634334783",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 10,
+          "upper": {
+            "lower": {
+              "mantissa": "84930027027121160362583005375901300505822353199306163884892379344130428849275",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "84930027027121160362583005375901300505822353199306163884892379344130428849275",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 12,
+          "upper": {
+            "lower": {
+              "mantissa": "68382314375728269205772833385547195665684164330663933876035335193492919989237",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "68382314375728269205772833385547195665684164330663933876035335193492919989237",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 14,
+          "upper": {
+            "lower": {
+              "mantissa": "103071782119521818598432581672213536466468037667788488762939362810042737238609",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "103071782119521818598432581672213536466468037667788488762939362810042737238609",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 16,
+          "upper": {
+            "lower": {
+              "mantissa": "77401267046123580797874413203256583066850732662975573597309724921237798797775",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "77401267046123580797874413203256583066850732662975573597309724921237798797775",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 18,
+          "upper": {
+            "lower": {
+              "mantissa": "62376565654689152889621740341385067088938682120951460089063506999859873352233",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "62376565654689152889621740341385067088938682120951460089063506999859873352233",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 20,
+          "upper": {
+            "lower": {
+              "mantissa": "115333509724990615606053839333555212271724079095604641950781191508115595595519",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "115333509724990615606053839333555212271724079095604641950781191508115595595519",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 22,
+          "upper": {
+            "lower": {
+              "mantissa": "31274358939919386958058139175843720406646564955541399869989296934006269905033",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "31274358939919386958058139175843720406646564955541399869989296934006269905033",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 24,
+          "upper": {
+            "lower": {
+              "mantissa": "19407552035989255817577201122214753743975641758597121458262423946942000155045",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "19407552035989255817577201122214753743975641758597121458262423946942000155045",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 26,
+          "upper": {
+            "lower": {
+              "mantissa": "53267278634694685685827750528544789724702998983737696590588602039315454156897",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "53267278634694685685827750528544789724702998983737696590588602039315454156897",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 28,
+          "upper": {
+            "lower": {
+              "mantissa": "79716175269712405262925490370255612225823461278371560376856616694233421197627",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "79716175269712405262925490370255612225823461278371560376856616694233421197627",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 30,
+          "upper": {
+            "lower": {
+              "mantissa": "33010422216966339866137475800365859097858641934445289048205037101493531060093",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "33010422216966339866137475800365859097858641934445289048205037101493531060093",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 32,
+          "upper": {
+            "lower": {
+              "mantissa": "64023914937548978918812574484438891603428978224685976717588208374745710072895",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "64023914937548978918812574484438891603428978224685976717588208374745710072895",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 34,
+          "upper": {
+            "lower": {
+              "mantissa": "43028740573596538155653232769585503972448827201728021991838820293371146817443",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "43028740573596538155653232769585503972448827201728021991838820293371146817443",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 36,
+          "upper": {
+            "lower": {
+              "mantissa": "73726795066986032837645143865462650648382490830726433300412587765847023202661",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "73726795066986032837645143865462650648382490830726433300412587765847023202661",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 38,
+          "upper": {
+            "lower": {
+              "mantissa": "111699352805206343474190414633318758271668930637562326333317161631725852007703",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "111699352805206343474190414633318758271668930637562326333317161631725852007703",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 40,
+          "upper": {
+            "lower": {
+              "mantissa": "94191579810449055589996893389693431718170661901797116606456554761852434146421",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "94191579810449055589996893389693431718170661901797116606456554761852434146421",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 42,
+          "upper": {
+            "lower": {
+              "mantissa": "15337231635510302214089053818346970934124557025130904140378002451456472868079",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "15337231635510302214089053818346970934124557025130904140378002451456472868079",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 44,
+          "upper": {
+            "lower": {
+              "mantissa": "62468190148684767095510174072534130601930611286954936537931756259891418744307",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "62468190148684767095510174072534130601930611286954936537931756259891418744307",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 46,
+          "upper": {
+            "lower": {
+              "mantissa": "30710800383671835438489806495475846366236434466929232776321893426885771929109",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "30710800383671835438489806495475846366236434466929232776321893426885771929109",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 48,
+          "upper": {
+            "lower": {
+              "mantissa": "61467455865801859345973357534869430202893869220636957357643042183989042497443",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "61467455865801859345973357534869430202893869220636957357643042183989042497443",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 50,
+          "upper": {
+            "lower": {
+              "mantissa": "17267343466266466667529609986772412920170174357157519504634952390426653725065",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "17267343466266466667529609986772412920170174357157519504634952390426653725065",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 52,
+          "upper": {
+            "lower": {
+              "mantissa": "45051426492559924232112312321526469603360388023820787172276760156992688362887",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "45051426492559924232112312321526469603360388023820787172276760156992688362887",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 54,
+          "upper": {
+            "lower": {
+              "mantissa": "66615873313090117548038987239843828893155559730847158780862596434625887937027",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "66615873313090117548038987239843828893155559730847158780862596434625887937027",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 56,
+          "upper": {
+            "lower": {
+              "mantissa": "10115380160765971234048679540373745462639441511130545147111976589020647496997",
+              "binary_exponent": -277
+            },
+            "upper": {
+              "mantissa": "10115380160765971234048679540373745462639441511130545147111976589020647496997",
+              "binary_exponent": -277
+            }
+          }
+        },
+        {
+          "input_mode": 58,
+          "upper": {
+            "lower": {
+              "mantissa": "14284720190380638436848885644164820557543211046613080251500788573798240037093",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "14284720190380638436848885644164820557543211046613080251500788573798240037093",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 60,
+          "upper": {
+            "lower": {
+              "mantissa": "93064348445230927646012806528986577875835013014941625476186554012036033420303",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "93064348445230927646012806528986577875835013014941625476186554012036033420303",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 62,
+          "upper": {
+            "lower": {
+              "mantissa": "68618176708119240067135238778129467909762007193980343715773010263862474670701",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "68618176708119240067135238778129467909762007193980343715773010263862474670701",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 64,
+          "upper": {
+            "lower": {
+              "mantissa": "98165850653391287368966125651640105517317556962681407322486340878102250262393",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "98165850653391287368966125651640105517317556962681407322486340878102250262393",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 66,
+          "upper": {
+            "lower": {
+              "mantissa": "113756434482329207853222113031440473910793857611174480657644201351136272045941",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "113756434482329207853222113031440473910793857611174480657644201351136272045941",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 68,
+          "upper": {
+            "lower": {
+              "mantissa": "105411082383382983798447929664916008134102168947911614261933750239496563356487",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "105411082383382983798447929664916008134102168947911614261933750239496563356487",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 70,
+          "upper": {
+            "lower": {
+              "mantissa": "4088684850030826119912618786334880939777438141463753228049690629949858188989",
+              "binary_exponent": -276
+            },
+            "upper": {
+              "mantissa": "4088684850030826119912618786334880939777438141463753228049690629949858188989",
+              "binary_exponent": -276
+            }
+          }
+        },
+        {
+          "input_mode": 72,
+          "upper": {
+            "lower": {
+              "mantissa": "76021025880369853310516723482775360160443237856384492086871006126627816582247",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "76021025880369853310516723482775360160443237856384492086871006126627816582247",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 74,
+          "upper": {
+            "lower": {
+              "mantissa": "21565655820463772032572104039054906012797506370912200746772967753709745591511",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "21565655820463772032572104039054906012797506370912200746772967753709745591511",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 76,
+          "upper": {
+            "lower": {
+              "mantissa": "15931124802182713093763871569454763784471453609258381327152631099951801860723",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "15931124802182713093763871569454763784471453609258381327152631099951801860723",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 78,
+          "upper": {
+            "lower": {
+              "mantissa": "114495227690888021560785869346869712521341848780991963028259604196986546404017",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "114495227690888021560785869346869712521341848780991963028259604196986546404017",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 80,
+          "upper": {
+            "lower": {
+              "mantissa": "38869879377910179745046073777252046693080805549739766627072942522354401618577",
+              "binary_exponent": -279
+            },
+            "upper": {
+              "mantissa": "38869879377910179745046073777252046693080805549739766627072942522354401618577",
+              "binary_exponent": -279
+            }
+          }
+        },
+        {
+          "input_mode": 82,
+          "upper": {
+            "lower": {
+              "mantissa": "59407172652420264937462625787201411455279400030880356769430412011196182924223",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "59407172652420264937462625787201411455279400030880356769430412011196182924223",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 84,
+          "upper": {
+            "lower": {
+              "mantissa": "50517058250097028740327082986956395128570255970152129863846434837990683692123",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "50517058250097028740327082986956395128570255970152129863846434837990683692123",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 86,
+          "upper": {
+            "lower": {
+              "mantissa": "71682240401155949043765905230434400530213638079877845566091250381482057055737",
+              "binary_exponent": -280
+            },
+            "upper": {
+              "mantissa": "71682240401155949043765905230434400530213638079877845566091250381482057055737",
+              "binary_exponent": -280
+            }
+          }
+        },
+        {
+          "input_mode": 88,
+          "upper": {
+            "lower": {
+              "mantissa": "13173553241748675030735102883989935087199988311492503672095361317786802883383",
+              "binary_exponent": -278
+            },
+            "upper": {
+              "mantissa": "13173553241748675030735102883989935087199988311492503672095361317786802883383",
+              "binary_exponent": -278
+            }
+          }
+        },
+        {
+          "input_mode": 90,
+          "upper": {
+            "lower": {
+              "mantissa": "96500069706355786370175127076806264402970786888128210006916634868249200157773",
+              "binary_exponent": -281
+            },
+            "upper": {
+              "mantissa": "96500069706355786370175127076806264402970786888128210006916634868249200157773",
+              "binary_exponent": -281
+            }
+          }
+        },
+        {
+          "input_mode": 92,
+          "upper": {
+            "lower": {
+              "mantissa": "37339304944657308270659975338308306838664351189173080167686555838346586864897",
+              "binary_exponent": -282
+            },
+            "upper": {
+              "mantissa": "37339304944657308270659975338308306838664351189173080167686555838346586864897",
+              "binary_exponent": -282
+            }
+          }
+        }
+      ],
+      "full46_Schur_inverse_paid": false
+    }
+  ],
+  "bump_polynomial_coefficients": [
+    0,
+    1,
+    0,
+    -6,
+    8,
+    -3
+  ],
+  "bump_bounds": {
+    "height": "16/81",
+    "first": "1",
+    "second": "9"
+  },
+  "recentring_formula": "delta h_m(r)=ell*w_b*sqrt(2)*delta L_m*B((r-b)/ell), with B=x-6x^3+8x^4-3x^5. All other nonmean modes unchanged. Full mean is the unique common root, with its one additive height constant anchored at node11.",
+  "exact_compensation_identity": "Phi beta_new - integral(Phi L(c+delta c)) = Phi beta_old - integral(Phi Lc), since delta c(node11)=0. The true N(c+delta c) term still requires its full source bound.",
+  "cut_component_is_complete_residual": false,
+  "two_mode_local_background_inverse_paid": true,
+  "complete_outer_nonlinear_Schur_problem_paid": false,
+  "actual_source_integrals_in_Schur_norm_paid": false,
+  "input_hashes": {
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1.json": "d4a1eb3cb91ade453dc72e655a95ae7582a4b65366bf924567c7df52132b3509",
+    "notes/2026-11-12-closure-shared-slope-cut-interface-r1.json": "2436ab11d4424cb18feb5549f2a9328a32f3e543f55dbc54ef9bcb6ca0aa4243",
+    "notes/2026-11-12-closure-strong-true-cut-trace-r1.json": "44db92699bd9bf3d8ba613465b013033c82a7ed9f8fc8e5cc1f6a003539ad494",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-cell11-candidate-defect-r1.json": "d707ec765c86015e3192a02db35ec04932710adde6a464bc874574323f5fc122"
+  },
+  "entrypoint_sha256": "0bf45b774de18bc898d6c18adb8d7d2c16a035106a61a9ffd37c42f0c08f7f09",
+  "elapsed_seconds": 0.03065939899897785,
+  "peak_RSS_KiB": 28448
+}

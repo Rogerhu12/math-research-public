@@ -1,0 +1,8 @@
+{
+  "scope": "Restore the recorded material chart before the original fixed response.\n\nThe original fixed loader reconstructs default neck reference knots. A saved\nsame-metric refinement may deliberately preserve a different reference grid.\nThis wrapper restores the accepted binary64 reference knots and selected core\nbefore the original complete raw identity check. No equation, finite\ndifference, full Jacobian, half-step check, or acceptance gate is replaced.\n",
+  "original_source_files_unchanged": true,
+  "raw_reads": 2,
+  "complete_original_raw_identity_guard_retained": true,
+  "profile_length_physical_breaks_unchanged": true,
+  "script_sha256": "cc7eb6d5f1dfa8e49258f5d130dc04bc77d8cc477c9dc7f6a9f5eab54531b3cd"
+}

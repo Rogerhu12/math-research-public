@@ -1,0 +1,89 @@
+{
+  "schema": "actual-sameg-complete-mean-comparison-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/strong_sameg_actual_comparison_complete_mean.py",
+      "sha256": "186175bb540800a7a4e6c0cde8c480dc87639d932c70214d630fd7c0879469bb",
+      "bytes": 9193
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-m28-m32-sameg-fullmean-comparison-r1.json",
+      "sha256": "8cf0a0432dd7db05244841bb1c1ce12094d2cd7740600697c36e6144cdc80e4d",
+      "bytes": 20821
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-m28-m32-sameg-fullmean-comparison-r1-resource.json",
+      "sha256": "25361c7ee8598eed58f646e4e62dbb90eac8aa9e65d817fb0b45c15799b61451",
+      "bytes": 1800
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-m28-m32-sameg-fullmean-comparison-r1-proof.md",
+      "sha256": "c768c8585623e51abec26fe981749913c5d28f4d7777a36794ac69d3d384ef13",
+      "bytes": 3665
+    }
+  ],
+  "owned_exit0": true,
+  "actual_coarse_modes": 28,
+  "actual_fine_modes": 32,
+  "complete_means": {
+    "coarse": 1360,
+    "fine": 1552
+  },
+  "geometry_points": {
+    "radial": 10544,
+    "angular": 768
+  },
+  "actual_position_and_material_jet_sample_differences": {
+    "maximum_material_point_displacement_sample": {
+      "distance": 5.27508427589725e-08,
+      "s": 0.0,
+      "psi": 0.7772169325287249
+    },
+    "rms_point_displacement_sample": 5.786749430450603e-09,
+    "mean_height_difference_max": 2.0469559380842384e-10,
+    "radial_samples": 10544,
+    "angular": 768,
+    "complete_mean_angular": {
+      "coarse": 1360,
+      "fine": 1552
+    },
+    "complete_mean_rule": "max(512,16*(3*M+1)) independently for H, H_s, H_ss",
+    "interior_interval_fractions": [
+      0.5,
+      0.21132486540518713,
+      0.7886751345948128
+    ],
+    "physical_material_jet_differences_max_sample": {
+      "s": {
+        "value": 6.438459479899178e-06,
+        "s": 0.9587005731116208,
+        "psi": 0.8426667794785122
+      },
+      "theta": {
+        "value": 2.9906100134389448e-06,
+        "s": 0.0,
+        "psi": 5.473243451175968
+      },
+      "ss": {
+        "value": 0.003742496884029099,
+        "s": 0.9708351278397774,
+        "psi": 0.7853981633974483
+      },
+      "s_theta": {
+        "value": 0.000367643865094369,
+        "s": 0.9587005731116208,
+        "psi": 0.818123086872342
+      },
+      "theta_theta": {
+        "value": 0.00016872548258391155,
+        "s": 0.16454774123838434,
+        "psi": 2.6425375705976646
+      }
+    },
+    "scope": "Physical points and two jets at identical fixed material angle theta and physical s, including height mean jets; sample comparison, not a Hausdorff or continuum error certificate."
+  },
+  "same_g_and_physical_data": true,
+  "new_solution_or_continuous_C2_Hausdorff_reach_claim": false,
+  "whole_accepted_arrays_reused_not_duplicated": true
+}

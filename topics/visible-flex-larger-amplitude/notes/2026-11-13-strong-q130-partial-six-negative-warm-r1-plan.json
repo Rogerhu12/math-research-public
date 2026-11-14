@@ -1,0 +1,321 @@
+{
+  "scope": "Prepare one complete same-provider warm field from an explicit reviewed-control minimax choice.\n\nAll actual response fields are combined by the unchanged production warm\nconstructor.  This re-evaluates the geometry of the combined warm candidate,\nnot its linearized predicted geometry, and still does not solve a new BVP or\ntail.  Selection is explicit so a size/curvature/amplitude tradeoff is visible.\n",
+  "prepared_only": true,
+  "executed": false,
+  "nonlinear_solution": false,
+  "new_tail_evaluation": false,
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "grid": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-grid.json",
+  "geometry_wrapper": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py",
+  "source_and_input_sha256": {
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-x-000.npy.gz": "ab65caa2a33ae5d0f605cd6fb0c0ccbe759129e71860af48c87ae2d769efebf5",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_fullmean_initial_laws_plan.py": "a6c537cea001d5fcc4104164bee5194620913b9a53bfa1fad0ccf6800ddfcb34",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_array_io_resident.py": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz": "5545638d33d78240a2eb6dd82269d4c10975b14f686a9562971e3b20e60ce154",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz": "086637ebb7da8995f069e626900649434ae42b27bf04c30275498d67bb315787",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz": "56716695845a37429203af0204752630d9a41e36e8670b7f6ef073bdb7c231a2",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-config.json": "e74ed95609bb024ab638bfbe44133edfa6031f443deb2729ab0a2db2e53fa330",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-grid.json": "6307703991ac484616dcbefca68540748c69ed697f3436303f6ee1c0336dd25f",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_augmented_core.py": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_pulse_augmented_core.py": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "m28-q122-r1/inherited-and-actual-witnesses.json": "413abe28b1ac7adfb978ad2e819f296016c12d3478763e3ec28b84d243346984",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json": "2e848e2b59507a4bec44546a4916fb54e461b59713c0b37a968313669dc97f30",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_partial_six_plan.py": "730e672dd959f701ae5f47af52114c2e36abcb4f89843cad569b1fa81286b4ad",
+    "m28-q122-r1/geometry-plan.json": "240b5d5bd2bd51019296bab9c8eaa28d30de04e195cc2273a38c2d8c61cefab3",
+    "m28-q122-r1/minimax-t256-k0nonpositive-r1.json": "5fbe5de7437dfacbb02154c3f0383926797fbeafe71d903dc50c798e87982f60",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_minimax_initial_laws_combined_plan.py": "4de2252d400731c5920f6d6d4a4e3317b3c6d6f258dd00fa7b4898eb79c35b10"
+  },
+  "baseline_core": [
+    0.12199999999999998,
+    -0.008607763203260147,
+    -0.0006096734015582711
+  ],
+  "modes": 28,
+  "directions": [
+    {
+      "name": "actual_q1",
+      "step": 0.001
+    },
+    {
+      "name": "actual_q4",
+      "step": 3e-05
+    },
+    {
+      "name": "actual_c6",
+      "step": 2e-06
+    },
+    {
+      "name": "vu",
+      "step": 0.0002
+    },
+    {
+      "name": "descending_turn_curvature",
+      "step": 0.0025
+    },
+    {
+      "name": "start_acceleration",
+      "step": 0.002
+    }
+  ],
+  "candidates": [
+    {
+      "name": "combined",
+      "direction": null,
+      "step": null,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_resource_run.py",
+        "--out",
+        "m28-q122-r1/q130-t256-constant-size-combined-resource.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py",
+        "--actual-reference",
+        "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+        "--actual-reference-raw",
+        "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz",
+        "--actual-reference-tail",
+        "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz",
+        "--source-topic",
+        "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+        "--frozen-reference-ready",
+        "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+        "--frozen-calibration-ledger",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--port",
+        "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--tail-config",
+        "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-config.json",
+        "--target-core",
+        "0.12999999999999998",
+        "-0.015726419207124885",
+        "-0.0011216734015582711",
+        "--max-nodes",
+        "2987",
+        "--radial-batch-size",
+        "8",
+        "--collocation-batch-size",
+        "12",
+        "--geometry-grid",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-grid.json",
+        "--mean-angular",
+        "1360",
+        "--geometry-batch",
+        "8",
+        "--resident-rss-guard-mib",
+        "192.0",
+        "--out-prefix",
+        "m28-q122-r1/q130-t256-constant-size-combined",
+        "--inspect-warm-output",
+        "m28-q122-r1/q130-t256-constant-size-combined-screen.json",
+        "--geometry-array",
+        "m28-q122-r1/q130-t256-constant-size-combined-field.json",
+        "--response-data",
+        "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+        "--neutral-control-step",
+        "vu=0.013514310097527005",
+        "--neutral-control-step",
+        "descending_turn_curvature=-0.4849720253764964"
+      ],
+      "expected_core": [
+        0.12999999999999998,
+        -0.015726419207124885,
+        -0.0011216734015582711
+      ],
+      "expected_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.17653503397274317,
+        "vu": 0.33553614777023877,
+        "vd": 0.98,
+        "start_acceleration": 0.642,
+        "boost_speed": 0.8156279921148782,
+        "boost_length": 0.1311292440329518,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.34631101598066,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "report": "m28-q122-r1/q130-t256-constant-size-combined-screen.json",
+      "field": "m28-q122-r1/q130-t256-constant-size-combined-field.json",
+      "resource": "m28-q122-r1/q130-t256-constant-size-combined-resource.json",
+      "log": "m28-q122-r1/q130-t256-constant-size-combined-log.txt",
+      "complete_mean_angular": 1360,
+      "complete_physical_steps": {
+        "actual_q1": 0.008,
+        "actual_q4": -0.007118656003864738,
+        "actual_c6": -0.000512,
+        "vu": 0.013514310097527005,
+        "descending_turn_curvature": -0.4849720253764964,
+        "start_acceleration": 0.0
+      }
+    }
+  ],
+  "selected_minimax_candidate_index": 1,
+  "selected_minimax_candidate": {
+    "success": true,
+    "normalized_steps": [
+      8.0,
+      -237.28853346215791,
+      -256.0,
+      67.57155048763502,
+      -193.98881015059857,
+      0.0
+    ],
+    "normalized_control_bounds": [
+      [
+        8.0,
+        8.0
+      ],
+      [
+        -256.0,
+        256.0
+      ],
+      [
+        -256.0,
+        256.0
+      ],
+      [
+        -256.0,
+        256.0
+      ],
+      [
+        -256.0,
+        256.0
+      ],
+      [
+        -32.0,
+        0.0
+      ]
+    ],
+    "optimized_curvature_cap": 8.437850313738826,
+    "control_count": 6,
+    "all_finite_rows_checked": true,
+    "finite_rows": 14453760,
+    "max_float_inequality_violation": 2.611244553918368e-13,
+    "history": [
+      {
+        "round": 0,
+        "active_rows": 640,
+        "worst_violation": 5.550691371696283,
+        "added": 256
+      },
+      {
+        "round": 1,
+        "active_rows": 896,
+        "worst_violation": 0.09577582519497518,
+        "added": 144
+      },
+      {
+        "round": 2,
+        "active_rows": 1040,
+        "worst_violation": 2.611244553918368e-13,
+        "added": 0
+      }
+    ],
+    "predicted_max_abs_curvature": 8.437850313739087,
+    "predicted_max_twice_norm": 3.9043958298236814,
+    "predicted_kappa_times_twice_norm": 32.944707577639335,
+    "extrema_witnesses": [
+      {
+        "flat_index": 466300,
+        "predicted_signed_value": -8.437850313739075
+      },
+      {
+        "flat_index": 620661,
+        "predicted_signed_value": 8.437850313739087
+      },
+      {
+        "flat_index": 2683392,
+        "predicted_signed_value": 3.9043958298236814
+      }
+    ],
+    "linear_program_optimum_is_floating_point": true,
+    "fixed_q1_factor": 8.0,
+    "size_factor": 1.0,
+    "size_cap": 3.9043958298236814,
+    "other_control_trust_factor": 256.0,
+    "physical_control_ranges": {
+      "start_acceleration": [
+        -0.064,
+        0.0
+      ]
+    },
+    "all_geometry_slopes_from_this_new_baseline": true,
+    "stale_q095_or_other_baseline_slopes_used": false,
+    "physical_steps": {
+      "actual_q1": 0.008,
+      "actual_q4": -0.007118656003864738,
+      "actual_c6": -0.000512,
+      "vu": 0.013514310097527005,
+      "descending_turn_curvature": -0.4849720253764964,
+      "start_acceleration": 0.0
+    },
+    "predicted_profile_increment": {
+      "delta": 0.0018099483200864099,
+      "boost_length": 0.0024285891990169957,
+      "boost_speed": -0.030128605585597972,
+      "vu": 0.013514310097527005,
+      "descending_turn_curvature": -0.4849720253764964,
+      "start_acceleration": 0.0
+    },
+    "predicted_complete_core_increment": [
+      0.008000000000000843,
+      -0.007118656003864775,
+      -0.0005120000000000011,
+      -0.0003534303800510952,
+      -1.9612984933422217e-05,
+      -2.8780012623903556e-05,
+      -4.4797829123541706e-05,
+      2.1262662850144125e-05,
+      5.11925032683011e-06,
+      2.157089170089098e-06,
+      8.242820303338779e-07,
+      2.0230486312835833e-07,
+      7.558496217751288e-07,
+      -8.749246895138843e-07,
+      4.98222081163649e-07,
+      1.1273296505571842e-06,
+      -1.5352253718645375e-05,
+      -1.8070157660631821e-06,
+      3.828331924021128e-06,
+      -7.770953104220928e-06,
+      -2.0895706655009354e-06,
+      3.1261618391579717e-07,
+      -6.349558468100135e-06,
+      -1.6903434932393218e-06,
+      7.83279866716943e-07,
+      2.1962758516375e-06,
+      2.9950179150588404e-06,
+      3.175935053256253e-06
+    ],
+    "predicted_complete_axis_gap": 0.2575429647603615,
+    "predicted_axis_gap_over_twice_norm": 0.06596230914732636,
+    "predicted_relative_kappa_size_change": 0.0034294325845452,
+    "predicted_R7_initial_witness_product": 0.26254340142737903,
+    "predicted_short_axis_core_radius": 1.5878752833448626,
+    "predicted_kappa_with_current_tail_floor_times_twice_norm": 32.944707577639335,
+    "candidate_is_new_nonlinear_solution": false
+  },
+  "selection_rule": "Explicit current-minimax candidate index.",
+  "limitations": [
+    "Warm numerical samples, with no new true nonlinear-tail solve.",
+    "No continuous curvature, reach, closed-surface diameter or amplitude certificate.",
+    "Six recovered full directions only; missing frontload/vd and unrecorded direct combination checks are not supplied by this plan."
+  ]
+}

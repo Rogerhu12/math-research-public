@@ -1,0 +1,81 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T20:25:23.078841+00:00",
+  "title": "Real complete initial-tail full-J convergence after exact trial3 recovery",
+  "scope": "The unchanged d151 current-H tail actually converged with its full3136 Jacobian entries and all576 full stage Jacobians. Complete18,874,368 raw flow bytes and original base/predictor bit checks passed. Request audit=false; no prefix or closed-surface acceptance is inferred. No new Newton step was needed after restoring trial3.",
+  "archive_manifest": {
+    "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-manifest-r4.json",
+    "sha256": "678734e097e420822615b3380e04459978f12b1a90238161348109e1052c6f75"
+  },
+  "archive_owned_exitcode": 0,
+  "archive_wait4": true,
+  "archive_wall_seconds": 2.5282360479977797,
+  "archive_peak_rss_kib": 37468,
+  "residual": 8.576952388440954e-11,
+  "actual_request_audit": false,
+  "coupled_prefix_accepted": false,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-r4-heartbeat.json",
+      "bytes": 333,
+      "sha256": "3a4a738331b9bac33784726619256d7d8407e5639cb2e150cc1338613fcf4d0d",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-r4-heartbeat.json",
+      "original_sha256": "3a4a738331b9bac33784726619256d7d8407e5639cb2e150cc1338613fcf4d0d"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-r4-ownership.json",
+      "bytes": 1936,
+      "sha256": "c1aee28b272830f5131949aaf48d43de20cd9c379b8fa0db431f1151dfdc6389",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-r4-ownership.json",
+      "original_sha256": "c1aee28b272830f5131949aaf48d43de20cd9c379b8fa0db431f1151dfdc6389"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-r4-resource.json",
+      "bytes": 1709,
+      "sha256": "ba0af16c45a4cc5f692d00bc8e95affa97e8ae09c9dcb10c91757a4028722731",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-r4-resource.json",
+      "original_sha256": "ba0af16c45a4cc5f692d00bc8e95affa97e8ae09c9dcb10c91757a4028722731"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-r4.stdout.log",
+      "bytes": 1996,
+      "sha256": "25261ae81ea3be9531537adbaf4fb1bd83dbdb4c3e462c6e45cfea0424162e2e",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-r4.stdout.log",
+      "original_sha256": "25261ae81ea3be9531537adbaf4fb1bd83dbdb4c3e462c6e45cfea0424162e2e"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-fullJ-recovery-manifest-r4.json",
+      "bytes": 8582,
+      "sha256": "678734e097e420822615b3380e04459978f12b1a90238161348109e1052c6f75"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-config.json",
+      "bytes": 2943,
+      "sha256": "ac6bd19a580a9d30f36b7df1689bfd67e178ad24f0eb74c62af911a41249465a",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-config.json",
+      "original_sha256": "ac6bd19a580a9d30f36b7df1689bfd67e178ad24f0eb74c62af911a41249465a"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-base-profile.json",
+      "bytes": 584,
+      "sha256": "120864c132983e241f03454af476b005f074f16b78df3e369ba428b849c82cab",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-base-profile.json",
+      "original_sha256": "120864c132983e241f03454af476b005f074f16b78df3e369ba428b849c82cab"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-actual-three-control-adapter.json",
+      "bytes": 88194,
+      "sha256": "81382e0d5e1b4f20ed22d86fc20e544a146068eef01c02915cf8a11099f09397",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-actual-three-control-adapter.json",
+      "original_sha256": "81382e0d5e1b4f20ed22d86fc20e544a146068eef01c02915cf8a11099f09397"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-launch-plan.json",
+      "bytes": 9767,
+      "sha256": "43e3409de7bfca9f8f6f4a717a41a9e1370e1170a61c446d9689b0c65c90623f",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-launch-plan.json",
+      "original_sha256": "43e3409de7bfca9f8f6f4a717a41a9e1370e1170a61c446d9689b0c65c90623f"
+    }
+  ],
+  "bytes": 116044
+}

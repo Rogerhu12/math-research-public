@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-13T19:20:08.557382+00:00",
+  "source": {
+    "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R174_quintic_correlated_residual.py",
+    "sha256": "ebbcba4e7dcf73b1cefc66ba72f4fd8d4f9fe6458a470f6e08919e2d844b9327"
+  },
+  "input_manifest": {
+    "path": "/workspace/scratch/d1aa462cfc02/root-work/R174-quintic-residual-inputs/input-manifest.json",
+    "sha256": "e797f0f55dbc5a514575fcb96aa1cb9fd829712079384baf955085a30c66dee7"
+  },
+  "range": [
+    3408,
+    3424
+  ],
+  "candidate_degree": 5,
+  "mean_degree_bound_paid": true,
+  "inverse_order": 32,
+  "precision_bits": 256,
+  "cpu_threads": 1,
+  "planned_peak_rss_kib": 131072,
+  "scope": "Same16 continuous leaves as R172; new quintic candidate with exact degree9 ell/linear correlation, complete original mean and full positive inverse/infinite tails. This is not a whole-domain claim."
+}

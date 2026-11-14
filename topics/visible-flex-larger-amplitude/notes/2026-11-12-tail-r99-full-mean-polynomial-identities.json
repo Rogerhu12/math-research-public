@@ -1,0 +1,45 @@
+{
+  "schema": "r99-full-mean-polynomial-identities-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "arithmetic": "Exact BigInt polynomial addition and multiplication; zero means no remaining monomial",
+  "actual_input_sha256": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+  "input_source": "computations/tail_outer_substage_span_refinement.py",
+  "variable_order": [
+    "k",
+    "c",
+    "kx",
+    "cx",
+    "T",
+    "P",
+    "z",
+    "ell",
+    "s",
+    "U"
+  ],
+  "definitions": {
+    "K": "k+c",
+    "Kx": "kx+cx",
+    "E": "1+z",
+    "L": "1+K+E*T",
+    "ell": "w_x/w",
+    "s": "r_x/r"
+  },
+  "full_finite_J_monomials": 21,
+  "monomials_containing_c_or_cx": 10,
+  "complete_mean_expansion_difference_monomials": 0,
+  "physical_hrr_identity_difference_monomials": 0,
+  "gates": {
+    "complete_frozen_source_hash": true,
+    "all_c_and_cx_terms_retained": true,
+    "full_finite_J_equals_complete_formula": true,
+    "physical_second_derivative_identity": true
+  },
+  "actual_execution": "functions.exec V8 exact BigInt; no Node, Python, shell or Arb execution",
+  "scientific_source_or_integral_rerun": false,
+  "solution_existence_or_error_gate_claimed": false,
+  "producer": {
+    "path": "computations/tail_r99_symbolic_identities.js",
+    "sha256": "4c83676081e5af84a596e4792155fd97abe812406439dd2da02998e46ef68cce"
+  }
+}

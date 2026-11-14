@@ -1,0 +1,350 @@
+{
+  "scope": "Nonlinear two-control prefix at an m2/m4 double linear resonance.\n\nThe first support coefficient q and a specified second support coefficient\nare fixed. Delta and either vd or boost_length replace the corresponding\nmatching constraints; higher support modes remain unknown. All\noutputs are finite LINEAR-tail-DN prefixes, never complete closed surfaces.\n",
+  "solver_success": false,
+  "base_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.1458033978026112,
+    "vu": 0.32,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.11507506464263191,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.75,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "requested_q": 0.09,
+  "modes": 20,
+  "source_git_head": "869436630c99aa5a68afb55bd8877c826034d117",
+  "secondary_law": "linear",
+  "secondary_scale": 0.2,
+  "requested_meridian_chart": "all-knots",
+  "second_design_control": "boost_length",
+  "interface_hashes": {
+    "root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "geometric-general-core-chart.py": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+    "numerical-m2-prefix.py": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+    "root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+    "alternative-angle-plateau-connector.py": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7",
+    "alternative-direct-tail-connector.py": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+  },
+  "warm_start": {
+    "checkpoint": "notes/2026-11-12-strong-angle-vu032-q090-m20.json.gz",
+    "metadata_sha256": "9959985ea96ca1df3fe8b77139fb202aefd0c0b6fa0fcd2f9378830629bc46cf",
+    "checkpoint_solver_success": true,
+    "conversion": {
+      "scope": "Prescribe actual q1/c6, free actual q4, and solve delta/boost_length.\n\nThe previous two-mode reference angle chart is retained exactly. The actual\ninlet support coefficients are separate: q1 and c6 are prescribed, q4 and\nmodes 8+ are unknown. No third physical metric control is introduced. Every\naccepted output still needs a genuine nonlinear solve and remains a finite\nlinear-DN prefix, not a closed surface or fixed-g refinement.\n\nUse --third-support VALUE and otherwise strong_neck_bvp.py arguments with\n--workflow amplitude. The successful --restart is mandatory. A changed q1\ndeforms the warm image explicitly; it does not certify a new isometry.\n",
+      "old_angular_chart": "general-support-core-blend-v1",
+      "new_angular_chart": "general-support-core-blend-v1",
+      "new_reference_coefficients": [
+        0.09,
+        -0.006363961030678927
+      ],
+      "new_reference_frequencies": [
+        2,
+        4
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.1588987202722233,
+        "vu": 0.32,
+        "vd": 0.98,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.8689804963021789,
+        "boost_length": 0.12169993773275324,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.75,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "physical_length": 3.1303367876947363,
+      "old_modes": 20,
+      "new_modes": 20,
+      "old_gauge": 0.09,
+      "new_gauge": 0.09,
+      "radial_samples": 891,
+      "angular_projection": 1312,
+      "height_angular": 128,
+      "height_quadrature_order": 6,
+      "height_definition": "The source mean-height antiderivative is reconstructed with the stated angular quadrature and span-wise Gauss order; no interval integration certificate is asserted.",
+      "maximum_inverse_iterations": 5,
+      "sampled_projection_errors": {
+        "position": 3.791342506210927e-13,
+        "radial_first": 3.0726539494232757e-13,
+        "radial_second": 2.217842929709439e-12,
+        "angular_first": 1.5192901634252007e-12,
+        "angular_second": 4.2881440982952004e-11,
+        "mixed": 1.559262572142148e-12,
+        "angle_inverse": 3.126388037344441e-13
+      },
+      "mean_correction_max": [
+        1.1102230246251565e-15,
+        1.7208456881689926e-15,
+        3.197442310920451e-14
+      ],
+      "new_inlet_state_max": 0.0041823859027926395,
+      "warning": "The nonzero s-dependent height correction must be retained to represent the same saved image. No PDE solving occurred.",
+      "amplitude_ratio": 1.0,
+      "amplitude_scaling": "linear",
+      "actual_q4_warm_guess": -0.006363961030678927,
+      "prescribed_actual_c6": -0.0003571750033152808,
+      "unchanged_reference_coefficients": [
+        0.09,
+        -0.006363961030678927
+      ],
+      "q4_warm_scaling": "q1 ratio squared, only as an initial guess",
+      "inlet_guess_correction_max": 0.00021784503301574068,
+      "radial_warm_batch_size": 24,
+      "final_scope": "Explicitly deformed initial guess. The following nonlinear solve determines a new physical metric; no coordinate change is counted as a metric design change.",
+      "full_tangent_warm": {
+        "scope": "Use a saved complete linear response as an explicit new-design warm guess.\n\nThe successful source checkpoint remains the only claimed solution. This\nadapter changes only the initial guess of the existing same-chart triple or\nfree-q4 solver. Nonlinear equations, domain checks, tolerance and acceptance\nare unchanged. Optional inspection evaluates the whole finite collocation\nmesh and an explicitly defined C2 cubic warm image, without a Newton factor.\n",
+        "warm_only": true,
+        "source_solution": "notes/2026-11-12-strong-angle-vu032-q090-m20.json.gz",
+        "source_sha256": {
+          "notes/2026-11-12-strong-q090-current-control-response.json": "ced9247c118f12760d63449ee997745bb2c9c6988bc48f863fa17bec082e6e10",
+          "notes/2026-11-12-strong-q090-current-control-response-inspection-summary.json": "64113c9bf76a8df2c486131977e5d2a022098d539edcf97f8f46acb022b8709c",
+          "notes/2026-11-12-strong-angle-vu032-q090-m20.json.gz": "9959985ea96ca1df3fe8b77139fb202aefd0c0b6fa0fcd2f9378830629bc46cf",
+          "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/computations/strong_tangent_warm_bvp.py": "c8351f01eb05265adada6392b1d0a7d63834f3d6388903e6a4bd67923d3f4b86",
+          "notes/2026-11-12-strong-q090-current-control-response-t.npy.gz": "b44d5385d1c5c3f959cdf1d573c9b54d8df444c817213053fdad2e5e556688fc",
+          "notes/2026-11-12-strong-q090-current-control-response-warm-y.npy.gz": "3eadc3487f0b018ddfec47f9f3115d71113232bb666f20d14e8756f8ed725daf",
+          "notes/2026-11-12-strong-q090-current-control-response-warm-p.npy.gz": "f37ca422a64c57e3bc3e08c2408da8b9322bfb3b32b4a37aaaa5c977eb20100f",
+          "notes/2026-11-12-strong-q090-current-control-response-direction-actual_q4.npy.gz": "be87c6f81600b73b6c34913ef44d79292ac299b7deee209f020463836a5ef7fc",
+          "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/computations/strong_free_q4_bvp.py": "7cfda9660ec92de7b0d36b41bb26bd01653d67129f1d40c7aae752ac24e92089"
+        },
+        "external_direction": "actual_q4",
+        "direction_step": 0.0003070455735229933,
+        "target_c6": -0.0003571750033152808,
+        "predicted_core": [
+          0.09,
+          -0.006056915457155933,
+          -0.0003571750033152808,
+          -6.229904237258626e-05,
+          -1.6662392520689994e-05,
+          5.548640068731397e-06,
+          3.6904510767409214e-06,
+          -1.3312351996679655e-06,
+          -3.0605799463574757e-07,
+          6.49394621561879e-08,
+          3.3655254858469214e-07,
+          3.708279233560708e-08,
+          1.0665475871879003e-08,
+          4.086409332331397e-09,
+          -1.6975944598390672e-09,
+          1.4399320493204954e-09,
+          -2.5758737647270555e-09,
+          -1.0249610271661326e-09,
+          4.981482618075346e-10,
+          2.991858972419609e-09
+        ],
+        "predicted_profile": {
+          "direction": "outward",
+          "cycles": 1,
+          "ramp": 0.4,
+          "ramp_law": "hermite_boost_neck",
+          "delta": 0.1603584148545294,
+          "vu": 0.32,
+          "vd": 0.98,
+          "start_acceleration": 0.45,
+          "boost_speed": 0.8689804963021789,
+          "boost_length": 0.12035441190994246,
+          "coast_outward": 0.0,
+          "loop_radius": 0.35,
+          "loop_ratio": 1.1,
+          "loop_speed": 0.985,
+          "loop_curvature": 7.5,
+          "descending_turn_curvature": 6.75,
+          "descending_sync_curvature": 2.0,
+          "terminal_peak_fraction": 0.1,
+          "boost_law": "angle"
+        },
+        "finite_state_shape": [
+          61,
+          891
+        ],
+        "numerical_t_max_difference": 0.0,
+        "exact_inlet_second_order_correction_max": 5.359938497827006e-06,
+        "correction_definition": "The same C2 cubic cutoff as the production warm loader; explicitly an additional initial-guess deformation.",
+        "solver_equations_changed": false,
+        "tolerance_changed": false
+      }
+    }
+  },
+  "error": "RuntimeError('Full tangent warm inspection complete; no BVP requested')",
+  "seconds": 54.479756593704224,
+  "alternative_neck_adapter": {
+    "scope": "Install the finite-neck metric provider, then run the existing dual BVP.\n\nAll command-line options are those of root_dual_core_bvp.py. The input port\nmust carry finite_neck_terminal_v1 metadata and the profile must select\nhermite_boost_neck. A solved output is still a finite linear-tail-DN prefix.\n",
+    "source_sha256": {
+      "alternative-neck-bvp.py": "508731deaba6e66c9ff57cbc21535eb5fe8fb976dec087e756f6e55140677ef0",
+      "alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+      "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+      "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+      "alternative-angle-plateau-connector.py": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7",
+      "alternative-direct-tail-connector.py": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+    }
+  },
+  "strong_mesh_adapter": {
+    "scope": "Run the existing neck BVP with retained warm mesh and bounded radial batches.\n\nUse --workflow amplitude, design, or triple, then the original arguments.\nWith --nodes 0 the successful previous physical mesh is carried through the\nexplicit radial-coordinate map. A fresh nonlinear solve remains mandatory.\nThe original files and frozen source remain unchanged. This adapter changes\nneither the physical flow nor boundary conditions or requested mesh tolerance.\nOptional --newton-residual-factor tightens only the inner Newton stopping\nthreshold; its exact text replacement is recorded in the output.\nOptional --linear-solver block-qr factors the same adjacent-node/parameter\nJacobian by balanced orthogonal elimination, avoiding global sparse-LU fill.\nThe direct-block-qr option also avoids the global sparse Jacobian and its\nindices, using the validated root_block_collocation formulas. It collects\ndiscarded Flow cycles after each independent Jacobian batch.\nAfter geometric finite differences, the two-control Jacobian restores its\nalready selected baseline Flow and exact key. This retains the identical\nFourier tables across radial batches without changing derivative arithmetic.\nOptional --geometric-flow-cache-size (default 0) also retains a bounded number\nof identical geometric finite-difference Flow constructions. Its complete\nconstructor/reference/chart keys and independent three-point checks are in\nstrong_flow_lru.py and strong_flow_lru_check.py.\nThe two-control amplitude warm deformation also uses 24-point radial batches\nand skips its exact identity at ratio=1, avoiding a full-grid geometry array.\n",
+    "workflow": "amplitude",
+    "newton_residual_factor": 1.0,
+    "linear_solver": "direct-block-qr",
+    "trace_newton": true,
+    "collect_flow_garbage": true,
+    "jacobian_batch_gc": true,
+    "memory": {
+      "peak_rss_kib": 147412,
+      "rss_kib": 106376
+    },
+    "angle_boost_helper_sha256": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be",
+    "wrapper_sha256": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "transforms": {
+      "alternative-neck-bvp.py": {
+        "original_sha256": "508731deaba6e66c9ff57cbc21535eb5fe8fb976dec087e756f6e55140677ef0",
+        "replacements": []
+      },
+      "alternative-neck-provider.py": {
+        "original_sha256": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+        "replacements": []
+      },
+      "root_dual_core_bvp.py": {
+        "original_sha256": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+        "replacements": [
+          {
+            "old": "import numpy as np",
+            "new": "import numpy as np\nimport root_radial_batching as radial",
+            "count": 1
+          },
+          {
+            "old": "t=merge_profile_mesh(np.linspace(0,1,nodes),self.chart_breaks)\n            s,_=self.chart(t,p[0])\n            arrays,record=pullback.convert",
+            "new": "grid=self.inverse_chart(np.asarray(saved.sol.x),p[0]) if nodes<=0 else np.linspace(0,1,nodes)\n            t=merge_profile_mesh(grid,self.chart_breaks)\n            s,_=self.chart(t,p[0])\n            arrays,record=pullback.convert",
+            "count": 1
+          },
+          {
+            "old": "return ds[None,:]*f.fun(s,y,p)",
+            "new": "return ds[None,:]*radial.value(f,s,y,p)",
+            "count": 1
+          },
+          {
+            "old": "J,_=f.fun_jac(s,y,p)",
+            "new": "J=radial.state_jacobian(f,s,y,p)",
+            "count": 1
+          },
+          {
+            "old": "self.select(p);self.flow(p[0])\n            return ds[None,None,:]*J,PJ",
+            "new": "self.select(p);self._flow=f;self._flow_key=(float(p[0]),float(p[1]))\n            return ds[None,None,:]*J,PJ",
+            "count": 1
+          },
+          {
+            "old": "            if scale=='linear':\n                N=max(512,32*(2*self.M+1));g=f.geo(s,N);theta=g['theta']\n                radial=np.stack((np.cos(theta),np.sin(theta),np.zeros_like(theta)),axis=-1)\n                background=f.profile(s)[0][:,None,None]*radial\n                B,_,_=f.basis(N)\n                y=ratio*y+(ratio-1)*f.project(g['pos']-background,B)/self.q",
+            "new": "            if scale=='linear' and ratio!=1.:\n                N=max(512,32*(2*self.M+1));B,_,_=f.basis(N)\n                for first in range(0,len(s),24):\n                    sl=slice(first,first+24);g=f.geo(s[sl],N);theta=g['theta']\n                    radial=np.stack((np.cos(theta),np.sin(theta),np.zeros_like(theta)),axis=-1)\n                    background=f.profile(s[sl])[0][:,None,None]*radial\n                    y[:,sl]=ratio*y[:,sl]+(ratio-1)*f.project(g['pos']-background,B)/self.q",
+            "count": 1
+          }
+        ]
+      },
+      "numerical-m2-prefix.py": {
+        "original_sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+        "replacements": []
+      },
+      "geometric-general-core-chart.py": {
+        "original_sha256": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+        "replacements": []
+      },
+      "root_neck_chart.py": {
+        "original_sha256": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+        "replacements": []
+      },
+      "root_domain_newton.py": {
+        "original_sha256": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+        "replacements": [
+          {
+            "old": "factor = splu(jac(y, p, ym, ff, fm, br))",
+            "new": "factor = _strong_block_factor(jac(y, p, ym, ff, fm, br),n,m,len(p))",
+            "count": 1
+          },
+          {
+            "old": "try:\n                factor =",
+            "new": "factor = None\n            try:\n                factor =",
+            "count": 1
+          },
+          {
+            "old": "residual, cr, ym, ff, fm, br = data",
+            "new": "residual, cr, ym, ff, fm, br = data\n        _strong_trace(\"newton_iteration\", call=STATS[\"calls\"], iteration=iteration, nodes=m, factors=factors, updates=updates, collocation_scaled_max=float(np.max(abs(cr)/(h[None,:]*(1+abs(fm))))), boundary_max=float(np.max(abs(br))))",
+            "count": 1
+          },
+          {
+            "old": "try:\n                factor =",
+            "new": "try:\n                _strong_trace(\"newton_factor_begin\", iteration=iteration, nodes=m)\n                factor =",
+            "count": 1
+          },
+          {
+            "old": "cost = float(step@step)",
+            "new": "cost = float(step@step)\n            _strong_trace(\"newton_merit\", iteration=iteration, merit=cost, step_max=float(np.max(abs(step))))",
+            "count": 1
+          },
+          {
+            "old": "STATS['rejected_domain_trials'] += 1",
+            "new": "STATS['rejected_domain_trials'] += 1\n                _strong_trace(\"newton_trial\", iteration=iteration, alpha=alpha, status=\"outside-domain\")",
+            "count": 1
+          },
+          {
+            "old": "if np.isfinite(newcost) and newcost < (1-.4*alpha)*cost:",
+            "new": "_strong_trace(\"newton_trial\", iteration=iteration, alpha=alpha, status=\"evaluated\", merit=newcost, old_merit=cost, armijo=bool(np.isfinite(newcost) and newcost < (1-.4*alpha)*cost))\n            if np.isfinite(newcost) and newcost < (1-.4*alpha)*cost:",
+            "count": 1
+          },
+          {
+            "old": "y, p, data, step, cost, alpha = accepted",
+            "new": "y, p, data, step, cost, alpha = accepted\n        _strong_trace(\"newton_accepted\", iteration=iteration, alpha=alpha, merit=cost)",
+            "count": 1
+          }
+        ]
+      },
+      "geometric-checkpoint-core-pullback.py": {
+        "original_sha256": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33",
+        "replacements": []
+      }
+    },
+    "radial_batching_sha256": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "block_qr_sha256": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+    "direct_block_sha256": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "geometric_flow_cache": {
+      "size": 8,
+      "instances": [
+        {
+          "size": 8,
+          "stats": {
+            "hits": 2,
+            "misses": 2,
+            "bypassed": 0,
+            "evictions": 0,
+            "maximum_entries": 2,
+            "constructor_cpu_seconds": 0.154994011000001,
+            "constructor_wall_seconds": 0.28807157700066455
+          }
+        }
+      ],
+      "source_sha256": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2",
+      "scope": "Identical actual Flow objects reused with bounded storage; no derivative or trial-state approximation."
+    },
+    "dual_amplitude_warm_radial_batch_size": 24
+  }
+}

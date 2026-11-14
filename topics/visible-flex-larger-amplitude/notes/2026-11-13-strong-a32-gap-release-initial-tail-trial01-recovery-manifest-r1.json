@@ -1,0 +1,96 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T19:32:51.105079+00:00",
+  "title": "Actual first full Newton trial for the new gap-preserving candidate, explicitly unaccepted tail recovery",
+  "scope": "New physical candidate initial-H tail: original first full-step trial reduces norm 1.2247056588432872 to 3.595933701418934e-5. Full 577x64 checkpoint retained unchanged with current H, physical parameters and original trace. Complete new-state J, final tail norm, physical BC, original RMS and full audit are still required. Running original job unchanged.",
+  "original_call": 1,
+  "original_iteration": 1,
+  "norm": 3.595933701418934e-05,
+  "original_acceptance_step": 1,
+  "tail_converged": false,
+  "whole_BVP_accepted": false,
+  "storage_owned_exitcode": 0,
+  "storage_wait4": true,
+  "storage_wall_seconds": 1.0222062100001494,
+  "storage_peak_rss_kib": 18864,
+  "checks": 14,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial01-recovery-r1-heartbeat.json",
+      "bytes": 337,
+      "sha256": "bb2f68a50749fc81aa140176ba2e54a72c3971df5c2e71b77446de9afd03e627"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial01-recovery-r1-ownership.json",
+      "bytes": 2172,
+      "sha256": "7859657bd2de576cd0ab92d7deae649db9a72c2bfdab8e01268b99c20209bb9a"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial01-recovery-r1-resource.json",
+      "bytes": 1942,
+      "sha256": "0c0413b50588449569fac91f8bc9ac51689d301f1e0f3e6e0583a7b996418f86"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial01-recovery-r1-stdout.log",
+      "bytes": 2126,
+      "sha256": "3562003e104a711eccbb244bd3e39afe35b44b77b7e450b3e2b06e3c94c20058"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial01-recovery-r1.json",
+      "bytes": 6424,
+      "sha256": "331fc61680cf2abc247ce4b37dc15a77edbbd1eb903dfc7a92b4222e02964561"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial01-recovery-r1-checkpoint.json.gz",
+      "bytes": 376141,
+      "sha256": "003941bd22d7b2b375f45929d626d004bec7468695876725ca55da956c0a2216"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-launch-plan.json",
+      "bytes": 7820,
+      "sha256": "b8a211863373616f352cf5010576704194b7d4d400305c03ce610948bae5b910"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-config.json",
+      "bytes": 2927,
+      "sha256": "814aed008d7fc3e9f8a512aa9ffa79b9a9a2c19cd487bf60f3dcf48dc6037138"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-base-profile.json",
+      "bytes": 584,
+      "sha256": "120864c132983e241f03454af476b005f074f16b78df3e369ba428b849c82cab"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-actual-three-control-adapter.json",
+      "bytes": 87558,
+      "sha256": "ede19ede215d3f64a9b3a867be0273efc5c7784c5848d99d4f40175a66ec66c0"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-tail-response_full-tangent-adapter.json",
+      "bytes": 43171,
+      "sha256": "292c634c225cb17a2b582e6eddf4253b73d88343732e8f7c9e0671e6ebfe22f9"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-tail-response_exact-raw-adapter.json",
+      "bytes": 3522,
+      "sha256": "b6d1714ed436521ef129ca9ceec98005e9719ee422ce80f529bf27614c6a9a7a"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-tail-response_Node-resource-intent.json",
+      "bytes": 1020,
+      "sha256": "bfd77666c648aecfcfa1636759aa4dbe1447e747aff8b204ef06ae9cdd92ec32"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-tail-response_Node-resource-observed.json",
+      "bytes": 1044,
+      "sha256": "7c250ecad5d7d92c9797012937cc473ba397622909a7e95251602aeae3cc4abd"
+    },
+    {
+      "file": "computations/strong_archive_unaccepted_tail_trial.py",
+      "bytes": 6764,
+      "sha256": "c2a30494077ab27a0c2190b888655c54748d27c762eda4190da37b6d54fd5d1d"
+    }
+  ],
+  "bytes": 543552,
+  "recovery_note": "If the actual running job is lost, use this same-H checkpoint with the exact same baseline, target and neutral warm constructor and the original same-H recovery gate. Do not pair a different-state old fullflow manifest with this new checkpoint. Old A fullflow remains an old-state initial guess only."
+}

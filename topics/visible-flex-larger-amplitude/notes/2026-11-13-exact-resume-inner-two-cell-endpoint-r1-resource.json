@@ -1,0 +1,24 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-two-cell-endpoint-v1.py",
+    "--field",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-window13-frequency-square-bootstrap-r3.json.gz",
+    "--field-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-window13-frequency-square-bootstrap-r3-resource.json",
+    "--cell13",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell13-endpoint-r1/kernels.json",
+    "--cell13-resource",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell13-endpoint-r1/resource.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-two-cell-endpoint-r1"
+  ],
+  "wall_seconds": 0.620093822479248,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 50032,
+  "user_seconds": 0.172351,
+  "system_seconds": 0.10066699999999999,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

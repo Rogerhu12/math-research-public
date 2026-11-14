@@ -1,0 +1,12 @@
+{
+  "original_source": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-deep-port-endpoint-v4.py",
+  "original_sha256": "d3b5bb6d4e0068696b88334c6fb46a8c2f30a10a5537a1108076ccf1454650fa",
+  "fresh_source": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R159_P1_deep_endpoint.py",
+  "fresh_sha256": "006edb157310e40233750467afc820be7e0eeac6b5143d79dfc592f24505c0a0",
+  "domain_bridge_change": {
+    "before": "    check('same_declared_restricted_profile',x['domain']['simultaneous_original_coordinates'] and prior['domain']==x['domain'])\n    check('same_previous_endpoint_field',prior['input_identities']['field']['sha256']==sha(a.field))",
+    "after": "    bridge_path=Path(x['input_identities']['restriction_bridge']['path'])\n    bridge_resource_path=Path(x['input_identities']['restriction_resource']['path'])\n    check('actual_new_field_restriction_bridge_pin',sha(bridge_path)==x['input_identities']['restriction_bridge']['sha256'] and sha(bridge_resource_path)==x['input_identities']['restriction_resource']['sha256'])\n    bridge=pinned('prior_endpoint_domain_restriction',bridge_path)\n    bridge_resource=pinned('prior_endpoint_domain_restriction_resource',bridge_resource_path)\n    check('completed_parent_domain_restriction',completed(bridge_resource) and bridge['schema']=='R150-same-R100-parent-domain-and-positive-DQ-restriction-v1' and bridge['all_gates'] and all(bridge['gates'].values()))\n    check('actual_P1_domain_and_original_parent_endpoint_domain',x['domain']['simultaneous_original_coordinates'] and x['domain']==bridge['new_domain'] and prior['domain']==bridge['parent_domain'])\n    check('same_actual_P1_modal_and_parent_field_identities',x['input_identities']['modal_input']['sha256']==bridge['inputs']['new_modal']['sha256'] and prior['input_identities']['field']['sha256']==bridge['inputs']['parent_window']['sha256'])\n    check('old_endpoint_bytes_and_domain_not_relabelled',bridge['original_parent_bytes_and_provenance_preserved'] and bridge['no_parent_modal_or_source_hash_relabelled'])"
+  },
+  "positive_readout_arithmetic_unchanged": true,
+  "old_endpoint_source_data_and_domain_unchanged": true
+}

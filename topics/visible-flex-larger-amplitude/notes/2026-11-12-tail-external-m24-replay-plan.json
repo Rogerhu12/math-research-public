@@ -1,0 +1,73 @@
+{
+  "scope": "Replay a saved finite-tail plan after relocating only source and output paths.\n\nNo numerical or physical argument is changed.  The supplied old successful\ncheckpoint remains the warm start.  The new report distinguishes reproduction\nof an external boundary experiment from a coupled stronger prefix or closure.\n",
+  "original_plan": "notes/numerical-neck-q070-tail24-external-plan.json",
+  "original_plan_sha256": "3d7f98545d741b8775a3ca86cf0a8f35ed207c3f27163b7ba1e3fef101d750d8",
+  "arguments": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "computations/numerical-m2-tail-probe.py",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--checkpoint",
+    "notes/alternative-neck-k7-v098-q070-m18.json.gz",
+    "--port",
+    "computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+    "--out-prefix",
+    "notes/2026-11-12-tail-external-m24",
+    "--tail-modes",
+    "24",
+    "--depth",
+    "8",
+    "--steps",
+    "12",
+    "--parts",
+    "8",
+    "--quadrature",
+    "512",
+    "--homotopy",
+    "uniform",
+    "--height-multiplier",
+    "5.337898277389474",
+    "--initial-tail",
+    "notes/numerical-neck-q070-tail24-base-response_0001.json.gz",
+    "--initial-tail-scale",
+    "0.18733965093262417",
+    "--initial-scale",
+    "0.18733965093262417",
+    "--maximum-step",
+    "0.37467930186524834",
+    "--minimum-step",
+    "0.02341745636657802",
+    "--target-scale",
+    "1",
+    "--max-requests",
+    "5",
+    "--max-iterations",
+    "10",
+    "--projection-floor",
+    ".05",
+    "--client",
+    "analytic-first"
+  ],
+  "path_changes": [
+    {
+      "flag": "--source-topic",
+      "old": "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface",
+      "new": "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface"
+    },
+    {
+      "flag": "--out-prefix",
+      "old": "notes/numerical-neck-q070-tail24-external",
+      "new": "notes/2026-11-12-tail-external-m24"
+    }
+  ],
+  "all_non_path_arguments_exactly_preserved": true,
+  "probe_sha256": "f41610f96c90a7facf299b89c29307a2ecda77a6b3f022bf322e6ca3d7706073",
+  "base_response_sha256": "11581fd64aba46adcc8fa1d50fbf7772a5cf80b21c5614e6b40f53a43617684e",
+  "source_origin": {
+    "source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+    "files": 89,
+    "bytes": 838545,
+    "manifest_sha256": "0bb445a35517b27b31c67cbd880a8a59712488909c6371373025b84097074ba7"
+  },
+  "script_sha256": "5961fb3a419d24cb90b17d6814c1f3bf9f2e2397a1662ef74a129717699f980e"
+}

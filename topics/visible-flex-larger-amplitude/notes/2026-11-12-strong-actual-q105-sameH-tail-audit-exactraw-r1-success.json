@@ -1,0 +1,31 @@
+{
+  "scope": "A new independently computed finite nonlinear full-H tail response; not a prefix/closed-surface acceptance. The lost29674 packet was not reconstructed.",
+  "formal_tool_session": 66512,
+  "tool_exitcode": 0,
+  "worker_exitcode": 0,
+  "full_H_exactly_equal": true,
+  "full_state_storage_guard": "Exact original published 577x48 raw state; all non-IO parameters and every H compared exactly. No Q/L or amplitude warm remapping at same H.",
+  "modes": 24,
+  "node_heap_MiB": 256,
+  "point_cache_limit": 2,
+  "residual": 5.6153889073447665e-11,
+  "audit": {
+    "fullD": 6.0686000378351e-11,
+    "normalizedFullDefect": 2.2740786406467554e-12,
+    "minLeading": 0.8821740022931575,
+    "minD": 0.9999381415438277,
+    "formalCurvature": 7.994254693540942,
+    "maxPhysicalPV": 4.8930681215427276e-05,
+    "actualMetric": 7.995385534699112e-15,
+    "holonomy": 6.669019611616903e-20
+  },
+  "full_Jacobian_and_audit_computed": true,
+  "stage_persistence_cache_used": false,
+  "response": "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-exactraw-r1-response_0001.json.gz",
+  "response_sha256": "92989c9bbeb8514c4dd3e395a6b0527c850028727d8f9e9d17090914f2b6a186",
+  "source_manifest": "summary.json contains all actual hashes and transformations",
+  "wall_seconds": 471.7850811481476,
+  "peak_rss_kib": 385424,
+  "prior_SIGKILL_cause": "unknown",
+  "next": "Seven exact-H packet protocol checks then unchanged actual q105 all-field continuation."
+}

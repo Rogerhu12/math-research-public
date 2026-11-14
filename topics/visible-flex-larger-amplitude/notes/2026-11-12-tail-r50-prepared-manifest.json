@@ -1,0 +1,40 @@
+{
+  "status": "Complete R50 support theorem, real saved-data small diagnostic, and unexecuted full split adapter",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "results/R50-frequency-support-and-split-head-majorant.md",
+      "bytes": 13668,
+      "sha256": "933a5ebe35fca4d1b76eb35f71efb16d344f9812d209c80ecbbe57a92d129dc8"
+    },
+    {
+      "path": "computations/tail_frequency_split_edge_probe.py",
+      "bytes": 6455,
+      "sha256": "bb91fda61cc259481352dc9c9fd5d510d15c75e38a89b3579b15d257fc708804"
+    },
+    {
+      "path": "notes/2026-11-12-tail-frequency-split-edge-probe.json",
+      "bytes": 3355,
+      "sha256": "7e104ae0e4d5192bce732baa76ef541ce6e760def7183185f19838ce69f72a8e"
+    },
+    {
+      "path": "computations/tail_middle_frequency_split.py",
+      "bytes": 19643,
+      "sha256": "4dc17ec37763d533a2e7003df94698ab0d3b7ea544efb93569134f12c5f962d6"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r50-split-plan.json",
+      "bytes": 4064,
+      "sha256": "3bae397fb7995241d2ebe1ae5796341026360384f3172077a85488d0b43b8cd5"
+    }
+  ],
+  "probe_execution": {
+    "session_id": 2418,
+    "formal_exit_code": 0,
+    "scope": "four cells, one edge, floating read-only regrouping; no certificate"
+  },
+  "split_execution": false,
+  "full641_joint_gates_paid": false,
+  "source_AST_and_seven_frozen_patch_anchors": "passed; all9 anchors unique and patched source compiles",
+  "new_numerical_integrations": 0
+}

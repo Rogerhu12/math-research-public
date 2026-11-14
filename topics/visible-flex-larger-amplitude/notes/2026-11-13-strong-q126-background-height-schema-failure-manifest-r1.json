@@ -1,0 +1,41 @@
+{
+  "schema": "auxiliary-background-height-schema-failure-v1",
+  "scope": "No nonlinear tail or A solver failure. The original background factory was constructed, but the auxiliary reader used an absent summary.height_max_sample key. No height result was saved or claimed.",
+  "original_owned_exitcode": 1,
+  "original_resource": {
+    "wall_seconds": 74.31377830800193,
+    "peak_rss_kib": 101624,
+    "finished_utc": "2026-11-13T18:32:18.548956+00:00"
+  },
+  "actual_correct_field": "primary.summary.height_max",
+  "actual_correct_value": 1.9614959811661763,
+  "no_successful_Newton_Jacobian_or_actual_data_changed": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r1-heartbeat.json",
+      "sha256": "0b67db3e6f8a970bb04dd6f460428d954f5400bff9a36c031c27edc1a3ef7a67",
+      "bytes": 311
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r1-ownership.json",
+      "sha256": "4ee696240535bdf06ba1b718d24a7ac4148f51cd6c5cc1435bc5525c2380e3ea",
+      "bytes": 2409
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r1-resource.json",
+      "sha256": "73717e5a7ab54a0c5dbf0754fdb764398f6952296464178359450e3922a8e04f",
+      "bytes": 2197
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r1-stdout.log",
+      "sha256": "261baf4b5ef758b296a913e1f040c66ce8d423e45956424ddbec11ac971c3862",
+      "bytes": 2697
+    },
+    {
+      "file": "computations/strong_frozen_tail_background_stats.mjs",
+      "sha256": "5f0af1d8f357087304b227613c22756504caa724c841ab56bbbf400eb7a214dc",
+      "bytes": 8740
+    }
+  ],
+  "total_bytes": 16354
+}

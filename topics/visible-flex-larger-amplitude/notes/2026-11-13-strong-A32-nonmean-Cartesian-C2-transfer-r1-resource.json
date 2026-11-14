@@ -1,0 +1,33 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "current-A-exact-nonmean-Cartesian-repair-transfer-r1",
+  "command": [
+    "python",
+    "-u",
+    "computations/strong_newg_nonmean_Cartesian_repair_transfer.py",
+    "--repair",
+    "m32-q126-r1/accepted-quintic-C2-comparison-r1.json.gz",
+    "--repair-resource",
+    "m32-q126-r1/accepted-quintic-C2-comparison-r1-resource.json",
+    "--synthesis-source",
+    "computations/geometric-checkpoint-core-pullback.py",
+    "--out",
+    "m32-q126-r1/accepted-quintic-C2-Cartesian-transfer-r1.json"
+  ],
+  "started_utc": "2026-11-13T19:22:55.570180+00:00",
+  "finished_utc": "2026-11-13T19:22:57.088142+00:00",
+  "wall_seconds": 1.6111735599988606,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 20620,
+  "user_seconds": 0.177784,
+  "system_seconds": 0.094483,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 3,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026532336]",
+  "automatic_restarts": 0
+}

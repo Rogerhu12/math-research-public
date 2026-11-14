@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-13T17:22:58.359646+00:00",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/sync_queue.py",
+    "--read-sha",
+    "8098ddedcde2a0d4a52bc6870fa9dcf851ef1b70",
+    "--watch"
+  ],
+  "source_sha256": "ba281543d314bdaba4f9f16c74b20b2248b8da0ffe2b8f44a44e5c764ff7cdb4",
+  "maintenance_source_sha256": "261a4a25b83061bff2516665a9e8ef15b39fdd94d89dd1537daf56cb21691ec9",
+  "prior_actual_exit": 6,
+  "successful_exclusive_recovery_report": "publisher-owned-recovery-maintenance-20261113T1722-report.json",
+  "log": "/workspace/scratch/d1aa462cfc02/sync-publisher-20261113T1723-watch.log",
+  "credentials_only_in_transient_process_environment": true
+}

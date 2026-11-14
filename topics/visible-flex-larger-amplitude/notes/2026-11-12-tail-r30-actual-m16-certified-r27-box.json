@@ -1,0 +1,35 @@
+{
+  "scope": "Rational Cartesian trace box for the R19-corrected direct-stored M16 cut. Validity is separately established by tail_cartesian_cut_interval.py; no radial tail or interior curvature certificate.",
+  "r_min": "299/1000",
+  "width": "1/10",
+  "boundary_radius_derivative_bounds": [
+    "54/1000000",
+    "46/1000000"
+  ],
+  "mean_slope_interval": [
+    "2882303761517127/36028797018963968",
+    "2882303761517127/36028797018963968"
+  ],
+  "mean_second_interval": [
+    "-4203359652212477/2251799813685248",
+    "-4203359652212477/2251799813685248"
+  ],
+  "height_trace_bounds": [
+    "22/1000000",
+    "44/1000000",
+    "88/1000000"
+  ],
+  "slope_trace_bounds": [
+    "28/100000",
+    "55/100000",
+    "107/100000"
+  ],
+  "second_trace_bounds": [
+    "173/100000",
+    "318/100000",
+    "5/1000"
+  ],
+  "inside_principal_curvature_bound": "33/4",
+  "target_reach": "3/25",
+  "inside_bound_status": "Conditional illustration only: neither inside curvature nor a radial tail has been certified."
+}

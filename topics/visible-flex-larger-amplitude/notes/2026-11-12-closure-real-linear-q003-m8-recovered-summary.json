@@ -1,0 +1,738 @@
+{
+  "status": "Validated exact-LINEAR finite-Fourier reference and complete nonlinear SOURCE budget; no nonlinear correction is asserted",
+  "modes": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "reference_modes": 8,
+  "tau": 1,
+  "start_physical_node": 12,
+  "far_physical_node": 225,
+  "far_linear_graph_band": "R18 (9.4), |s-s_ideal|<=nu*2^-60 separately for each linear modal column",
+  "endpoint_rows": [
+    {
+      "mode": 2,
+      "log2_absolute_Q_gain": {
+        "lower": {
+          "mantissa": "237249869120239",
+          "binary_exponent": -36
+        },
+        "upper": {
+          "mantissa": "949000006218965",
+          "binary_exponent": -38
+        },
+        "display": "[3452.44 +/- 1.92e-3]"
+      },
+      "Q_gain": {
+        "lower": {
+          "mantissa": "-2131706964246155919240458615691791375518188468784548080459",
+          "binary_exponent": 3262
+        },
+        "upper": {
+          "mantissa": "-4257722679350435417653313482586822518630688317111148129269",
+          "binary_exponent": 3261
+        },
+        "display": "[[-1.94344994681645564833495954119315382871658549009344801690e+1039 +/- 2.87e+982], [-1.94085562732798637983866562518591669544287877786064276841e+1039 +/- 1.43e+982]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "raw_worker_slope": {
+        "lower": {
+          "mantissa": "-418743275",
+          "binary_exponent": -24
+        },
+        "upper": {
+          "mantissa": "-418737913",
+          "binary_exponent": -24
+        },
+        "display": "[-24.959 +/- 2.76e-4]"
+      },
+      "reference_Q": {
+        "lower": {
+          "mantissa": "-8969957110379761",
+          "binary_exponent": -188
+        },
+        "upper": {
+          "mantissa": "-8969957110379761",
+          "binary_exponent": -188
+        },
+        "display": "[-2.28639457852016362101351465735566068603672480969704028106e-41 +/- 3.61e-98]"
+      },
+      "reference_height_origin": "saved actual binary height",
+      "required_far_Q": {
+        "lower": {
+          "mantissa": "2300919582289867168772181762744591420074794299151848792353",
+          "binary_exponent": -3778
+        },
+        "upper": {
+          "mantissa": "4607990390286257651251740985699317190514522664284179935655",
+          "binary_exponent": -3779
+        },
+        "display": "[[1.17646177729736845915603164507013883234942411282135814982e-1080 +/- 2.62e-1137], [1.17803434028108902837989892293951184478578002133671348521e-1080 +/- 4.66e-1137]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "actual_canonical_minus_reference": {
+        "lower": {
+          "mantissa": "-11973419990317661737",
+          "binary_exponent": -211
+        },
+        "upper": {
+          "mantissa": "12075035041760936407",
+          "binary_exponent": -211
+        },
+        "display": "[+/- 3.67e-45]"
+      }
+    },
+    {
+      "mode": 4,
+      "log2_absolute_Q_gain": {
+        "lower": {
+          "mantissa": "573387311",
+          "binary_exponent": -17
+        },
+        "upper": {
+          "mantissa": "143347125",
+          "binary_exponent": -15
+        },
+        "display": "[4374.60 +/- 7.09e-3]"
+      },
+      "Q_gain": {
+        "lower": {
+          "mantissa": "-1195127522027593558297555630565806686461342709001009206371",
+          "binary_exponent": 4185
+        },
+        "upper": {
+          "mantissa": "-2375335896899087158868909048472123369514119217024821051133",
+          "binary_exponent": 4184
+        },
+        "display": "[[-7.72584696728231035549143278842378924926886498724132892852e+1316 +/- 1.31e+1259], [-7.67762489654677752979647920590150086919031130564765851596e+1316 +/- 3.37e+1259]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "raw_worker_slope": {
+        "lower": {
+          "mantissa": "-65381771",
+          "binary_exponent": -17
+        },
+        "upper": {
+          "mantissa": "-130755169",
+          "binary_exponent": -18
+        },
+        "display": "[-498.8 +/- 0.0234]"
+      },
+      "reference_Q": {
+        "lower": {
+          "mantissa": "-3126282161218769",
+          "binary_exponent": -218
+        },
+        "upper": {
+          "mantissa": "-3126282161218769",
+          "binary_exponent": -218
+        },
+        "display": "[-7.42145601355329451883696663608716841838928278562707361908e-51 +/- 4.36e-108]"
+      },
+      "reference_height_origin": "saved actual binary height",
+      "required_far_Q": {
+        "lower": {
+          "mantissa": "5721534143403381470189783934551249666834893944500744699469",
+          "binary_exponent": -4733
+        },
+        "upper": {
+          "mantissa": "2878735143071201087892842998371584569297160703003296940365",
+          "binary_exponent": -4732
+        },
+        "display": "[[9.60600959995964015363222561228006547270214798113148712126e-1368 +/- 9.58e-1426], [9.66634358093125649401666480645121262304672198601900718463e-1368 +/- 8.83e-1426]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "actual_canonical_minus_reference": {
+        "lower": {
+          "mantissa": "-26076408231452533287",
+          "binary_exponent": -237
+        },
+        "upper": {
+          "mantissa": "26276312908299443673",
+          "binary_exponent": -237
+        },
+        "display": "[+/- 1.19e-52]"
+      }
+    },
+    {
+      "mode": 6,
+      "log2_absolute_Q_gain": {
+        "lower": {
+          "mantissa": "640185101",
+          "binary_exponent": -17
+        },
+        "upper": {
+          "mantissa": "640187849",
+          "binary_exponent": -17
+        },
+        "display": "[4884.2 +/- 0.0457]"
+      },
+      "Q_gain": {
+        "lower": {
+          "mantissa": "-3721133125226620135424697197058756043036070817010844471215",
+          "binary_exponent": 4693
+        },
+        "upper": {
+          "mantissa": "-916894892477758217754878284712582668885303751457459979353",
+          "binary_exponent": 4695
+        },
+        "display": "[[-2.01578801359798746669333517389948504917303225794959129151e+1470 +/- 8.00e+1412], [-1.98677733022337877420698286465522803272400335593958601535e+1470 +/- 4.06e+1413]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "raw_worker_slope": {
+        "lower": {
+          "mantissa": "-85732049",
+          "binary_exponent": -15
+        },
+        "upper": {
+          "mantissa": "-85719245",
+          "binary_exponent": -15
+        },
+        "display": "[-2.616e+3 +/- 0.335]"
+      },
+      "reference_Q": {
+        "lower": {
+          "mantissa": "3000184919200665",
+          "binary_exponent": -248
+        },
+        "upper": {
+          "mantissa": "3000184919200665",
+          "binary_exponent": -248
+        },
+        "display": "[6.63298628061935363811142761931634385842819442506706625560e-60 +/- 4.96e-117]"
+      },
+      "reference_height_origin": "saved actual binary height",
+      "required_far_Q": {
+        "lower": {
+          "mantissa": "-894616805704899753145730761683468992879615787129811260627",
+          "binary_exponent": -5270
+        },
+        "upper": {
+          "mantissa": "-110217714909841403045796533903437547291774646003741718949",
+          "binary_exponent": -5267
+        },
+        "display": "[[-3.33856551497574666093378508417625472011458196246483617577e-1530 +/- 1.30e-1587], [-3.29051777065590936834661071450474625054483176253479475576e-1530 +/- 4.63e-1587]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "actual_canonical_minus_reference": {
+        "lower": {
+          "mantissa": "-19275283047141703241",
+          "binary_exponent": -263
+        },
+        "upper": {
+          "mantissa": "19139084699469775287",
+          "binary_exponent": -263
+        },
+        "display": "[+/- 1.31e-60]"
+      }
+    },
+    {
+      "mode": 8,
+      "log2_absolute_Q_gain": {
+        "lower": {
+          "mantissa": "687034429",
+          "binary_exponent": -17
+        },
+        "upper": {
+          "mantissa": "687039357",
+          "binary_exponent": -17
+        },
+        "display": "[5241.7 +/- 0.0433]"
+      },
+      "Q_gain": {
+        "lower": {
+          "mantissa": "-2539214594124660311649577254969048859324280825651944450249",
+          "binary_exponent": 5051
+        },
+        "upper": {
+          "mantissa": "-2473970585818368761722532885014092739226182823921053195887",
+          "binary_exponent": 5051
+        },
+        "display": "[[-8.07620816308349788363570079528307545798600014631862811527e+1577 +/- 4.16e+1520], [-7.86869352698508448692050910765327442806168495753774405037e+1577 +/- 1.55e+1520]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "raw_worker_slope": {
+        "lower": {
+          "mantissa": "-548296599",
+          "binary_exponent": -16
+        },
+        "upper": {
+          "mantissa": "-8564827",
+          "binary_exponent": -10
+        },
+        "display": "[-8.37e+3 +/- 5.92]"
+      },
+      "reference_Q": {
+        "lower": {
+          "mantissa": "2791728213509689",
+          "binary_exponent": -271
+        },
+        "upper": {
+          "mantissa": "2791728213509689",
+          "binary_exponent": -271
+        },
+        "display": "[7.35773785763011659391321621923630522612198210757983144932e-67 +/- 1.60e-124]"
+      },
+      "reference_height_origin": "saved actual binary height",
+      "required_far_Q": {
+        "lower": {
+          "mantissa": "-4936363911033620730302962362271443245499904361199900227021",
+          "binary_exponent": -5653
+        },
+        "upper": {
+          "mantissa": "-2404763099788828564675060518796517552944762518282332498903",
+          "binary_exponent": -5652
+        },
+        "display": "[[-9.35064738815575370451861629451814809534378540087076052528e-1645 +/- 1.77e-1702], [-9.11038659362753574179526774841390619594883842068978571867e-1645 +/- 4.92e-1702]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "actual_canonical_minus_reference": {
+        "lower": {
+          "mantissa": "-413702689314698634401",
+          "binary_exponent": -288
+        },
+        "upper": {
+          "mantissa": "410811906029501602655",
+          "binary_exponent": -288
+        },
+        "display": "[+/- 8.32e-67]"
+      }
+    },
+    {
+      "mode": 10,
+      "log2_absolute_Q_gain": {
+        "lower": {
+          "mantissa": "11300205",
+          "binary_exponent": -11
+        },
+        "upper": {
+          "mantissa": "723220855",
+          "binary_exponent": -17
+        },
+        "display": "[5517.7 +/- 0.0373]"
+      },
+      "Q_gain": {
+        "lower": {
+          "mantissa": "-5231779421763871845769371041567231454576952705420295901543",
+          "binary_exponent": 5326
+        },
+        "upper": {
+          "mantissa": "-1255564669677988130276342259997133983714864186377485154231",
+          "binary_exponent": 5328
+        },
+        "display": "[[-1.01019759833820917273472972727260576950139401473704261569e+1661 +/- 9.63e+1603], [-9.69741505989857344484178403884687117747770674345513135976e+1660 +/- 4.30e+1603]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "raw_worker_slope": {
+        "lower": {
+          "mantissa": "-336618833",
+          "binary_exponent": -14
+        },
+        "upper": {
+          "mantissa": "-672951647",
+          "binary_exponent": -15
+        },
+        "display": "[-2.054e+4 +/- 5.59]"
+      },
+      "reference_Q": {
+        "lower": {
+          "mantissa": "8354517222808041",
+          "binary_exponent": -284
+        },
+        "upper": {
+          "mantissa": "8354517222808041",
+          "binary_exponent": -284
+        },
+        "display": "[2.68783490853793068732107747983409212942939760067631800485e-70 +/- 2.24e-128]"
+      },
+      "reference_height_origin": "saved actual binary height",
+      "required_far_Q": {
+        "lower": {
+          "mantissa": "-1819243593351267586034461290182704815394002308289200419389",
+          "binary_exponent": -5939
+        },
+        "upper": {
+          "mantissa": "-3492774136230353082351026876158098338625735784524949046729",
+          "binary_exponent": -5940
+        },
+        "display": "[[-2.77170245053535236684941492664783257466312691418298819021e-1731 +/- 4.07e-1788], [-2.66070213684873245830459797876183519733894229940351060409e-1731 +/- 2.79e-1788]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "actual_canonical_minus_reference": {
+        "lower": {
+          "mantissa": "-2397927621809768377879",
+          "binary_exponent": -300
+        },
+        "upper": {
+          "mantissa": "2381173705033583546857",
+          "binary_exponent": -300
+        },
+        "display": "[+/- 1.18e-69]"
+      }
+    },
+    {
+      "mode": 12,
+      "log2_absolute_Q_gain": {
+        "lower": {
+          "mantissa": "188176989",
+          "binary_exponent": -15
+        },
+        "upper": {
+          "mantissa": "752719123",
+          "binary_exponent": -17
+        },
+        "display": "[5742.7 +/- 0.0912]"
+      },
+      "Q_gain": {
+        "lower": {
+          "mantissa": "-5431061715344828211593106101675531151459238960798632433863",
+          "binary_exponent": 5551
+        },
+        "upper": {
+          "mantissa": "-639970266254335667249336693553773391054849419437849364591",
+          "binary_exponent": 5554
+        },
+        "display": "[[-5.65445391260564889996586062479301194758338798663879760790e+1728 +/- 1.06e+1671], [-5.33034985148328451664500301289218023784219341031780128312e+1728 +/- 5.00e+1671]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "raw_worker_slope": {
+        "lower": {
+          "mantissa": "-701446047",
+          "binary_exponent": -14
+        },
+        "upper": {
+          "mantissa": "-701012787",
+          "binary_exponent": -14
+        },
+        "display": "[-4.28e+4 +/- 13.6]"
+      },
+      "reference_Q": {
+        "lower": {
+          "mantissa": "-8068064906120789",
+          "binary_exponent": -298
+        },
+        "upper": {
+          "mantissa": "-8068064906120789",
+          "binary_exponent": -298
+        },
+        "display": "[-1.58427538832941923740784761838502669701607035811291786749e-74 +/- 4.70e-131]"
+      },
+      "reference_height_origin": "saved actual binary height",
+      "required_far_Q": {
+        "lower": {
+          "mantissa": "1624625325435898265137580833267285730319323958643256693325",
+          "binary_exponent": -6178
+        },
+        "upper": {
+          "mantissa": "1723408272230562086968949743235215355463472122261997607337",
+          "binary_exponent": -6178
+        },
+        "display": "[[2.80181855368481320626162890434017649263392505941200837986e-1803 +/- 4.97e-1860], [2.97217899851087734605071754342422479427756649775920991209e-1803 +/- 2.24e-1860]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "actual_canonical_minus_reference": {
+        "lower": {
+          "mantissa": "-1741672095928119541213",
+          "binary_exponent": -312
+        },
+        "upper": {
+          "mantissa": "1753897707615106810403",
+          "binary_exponent": -312
+        },
+        "display": "[+/- 2.11e-73]"
+      }
+    },
+    {
+      "mode": 14,
+      "log2_absolute_Q_gain": {
+        "lower": {
+          "mantissa": "388806337",
+          "binary_exponent": -16
+        },
+        "upper": {
+          "mantissa": "388813953",
+          "binary_exponent": -16
+        },
+        "display": "[5932.8 +/- 0.0862]"
+      },
+      "Q_gain": {
+        "lower": {
+          "mantissa": "-5579629845263315069286658579314943020097789285144729499351",
+          "binary_exponent": 5741
+        },
+        "upper": {
+          "mantissa": "-5147992297460249346243746328261795707771220919938007217787",
+          "binary_exponent": 5741
+        },
+        "display": "[[-9.11612970127597394567795248424016406483743997469406308857e+1785 +/- 2.48e+1728], [-8.41091018334435736769149059444795324594837268373631431043e+1785 +/- 1.36e+1728]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "raw_worker_slope": {
+        "lower": {
+          "mantissa": "-653890281",
+          "binary_exponent": -13
+        },
+        "upper": {
+          "mantissa": "-653333905",
+          "binary_exponent": -13
+        },
+        "display": "[-7.98e+4 +/- 47.4]"
+      },
+      "reference_Q": {
+        "lower": {
+          "mantissa": "1904157297426811",
+          "binary_exponent": -304
+        },
+        "upper": {
+          "mantissa": "1904157297426811",
+          "binary_exponent": -304
+        },
+        "display": "[5.84230384106058586537822504736776989019016918857957269125e-77 +/- 2.48e-134]"
+      },
+      "reference_height_origin": "saved actual binary height",
+      "required_far_Q": {
+        "lower": {
+          "mantissa": "-3236111624294684916203106099412020669529212365955480454311",
+          "binary_exponent": -6377
+        },
+        "upper": {
+          "mantissa": "-1492883773440029755022980200016057655317388685470320641855",
+          "binary_exponent": -6376
+        },
+        "display": "[[-6.94610180552131539986934850063969612980800982034535442156e-1863 +/- 4.59e-1920], [-6.40875462779214897792387315216578381602175573373942116225e-1863 +/- 2.40e-1920]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "actual_canonical_minus_reference": {
+        "lower": {
+          "mantissa": "-531578735803115375025",
+          "binary_exponent": -317
+        },
+        "upper": {
+          "mantissa": "527848687052357236303",
+          "binary_exponent": -317
+        },
+        "display": "[+/- 2.00e-75]"
+      }
+    },
+    {
+      "mode": 16,
+      "log2_absolute_Q_gain": {
+        "lower": {
+          "mantissa": "799166455",
+          "binary_exponent": -17
+        },
+        "upper": {
+          "mantissa": "49949149",
+          "binary_exponent": -13
+        },
+        "display": "[6.097e+3 +/- 0.309]"
+      },
+      "Q_gain": {
+        "lower": {
+          "mantissa": "-1943019934749071880923941036075647311404650052342674831667",
+          "binary_exponent": 5907
+        },
+        "upper": {
+          "mantissa": "-437182016639263508453673394281844308189632334199395910171",
+          "binary_exponent": 5909
+        },
+        "display": "[[-2.96935172418668232778253658735772223858461642094273539502e+1835 +/- 1.72e+1778], [-2.67243202537467537988910549330613736298476099165441693952e+1835 +/- 6.34e+1777]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "raw_worker_slope": {
+        "lower": {
+          "mantissa": "-281555445",
+          "binary_exponent": -11
+        },
+        "upper": {
+          "mantissa": "-562474867",
+          "binary_exponent": -12
+        },
+        "display": "[-1.374e+5 +/- 78.3]"
+      },
+      "reference_Q": {
+        "lower": {
+          "mantissa": "4797062357417941",
+          "binary_exponent": -307
+        },
+        "upper": {
+          "mantissa": "4797062357417941",
+          "binary_exponent": -307
+        },
+        "display": "[1.83978339620516572480586614019127823165478881620892789363e-77 +/- 4.86e-134]"
+      },
+      "reference_height_origin": "saved actual binary height",
+      "required_far_Q": {
+        "lower": {
+          "mantissa": "-3000002778805223325065144498684038990128627731990187234987",
+          "binary_exponent": -6543
+        },
+        "upper": {
+          "mantissa": "-5400036268514515366748846812629742229117685746100813564317",
+          "binary_exponent": -6544
+        },
+        "display": "[[-6.88430380543440692546165337787221567426776496556534416196e-1913 +/- 1.54e-1970], [-6.19590929972800705412693335044899592773799761037467527445e-1913 +/- 1.23e-1970]]",
+        "representation": "separate outward dyadic endpoints; do not infer a zero solely from conversion to a wide symmetric ball"
+      },
+      "actual_canonical_minus_reference": {
+        "lower": {
+          "mantissa": "-3061824317978025836703",
+          "binary_exponent": -320
+        },
+        "upper": {
+          "mantissa": "3040259686669217251169",
+          "binary_exponent": -320
+        },
+        "display": "[+/- 1.44e-75]"
+      }
+    }
+  ],
+  "all_reference_R23_balls_paid": true,
+  "maximum_reference_radius_ratio": {
+    "lower": {
+      "mantissa": "135128291",
+      "binary_exponent": -62
+    },
+    "upper": {
+      "mantissa": "135128291",
+      "binary_exponent": -62
+    },
+    "display": "2.93012773332906872880698756489437073469161987304687500000e-11"
+  },
+  "complete_source_L1_sum": {
+    "lower": {
+      "mantissa": "754168595073882379354946006319383485960356840829084681483",
+      "binary_exponent": -358
+    },
+    "upper": {
+      "mantissa": "1508337190147764758709892012638766971920713681658169363157",
+      "binary_exponent": -359
+    },
+    "display": "[1.2844878361679840084641644529653972733785803656751189943e-51 +/- 8.24e-107]"
+  },
+  "mean_height_increment_sum": {
+    "lower": {
+      "mantissa": "1608893002890420636042633026726293236616096436746472048379",
+      "binary_exponent": -361
+    },
+    "upper": {
+      "mantissa": "1608893002890420636042633026726293236616096436746472048723",
+      "binary_exponent": -361
+    },
+    "display": "[3.425300896588764312604296509189553781763220854908320814e-52 +/- 5.92e-107]"
+  },
+  "product_threshold_bits": 20,
+  "maximum_accepted_AB": {
+    "lower": {
+      "mantissa": "6276340579553702157629311135356323916829347355203368229803",
+      "binary_exponent": -212
+    },
+    "upper": {
+      "mantissa": "6276340579553702157629311135356323916829347355203368229803",
+      "binary_exponent": -212
+    },
+    "display": "[9.53558674697815942630114861799177425039487239544240381641e-7 +/- 4.03e-64]"
+  },
+  "panel_count": 2227,
+  "scalar_integrals": 2260,
+  "source_integrals": 156,
+  "elapsed_seconds": 13.60980877299994,
+  "peak_RSS_KiB": 67660,
+  "entrypoint_sha256": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e",
+  "projective_column_sha256": "45997a1d5be6326a1ebbe85ac4240ea7d9dde1c2fb6acdf832460dade89e4f97",
+  "column_representation": "Common amplitude times an interval projective direction; each panel chooses a nonzero normalized pivot and retains all interval uncertainty.",
+  "source_enclosure_sha256": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47",
+  "bound_semantics": "Balls for X, Q_sup, Xi_sup, source, mean and Cauchy-bound fields enclose the calculated positive majorant, not the unknown norm itself. Their upper endpoints are the certified upper bounds. Endpoint/gain/source-coordinate balls enclose the actual indicated values.",
+  "limits": [
+    "All stated low linear columns are actually enclosed. Only reference_modes saved heights are retained in the reference; other reference heights are chosen zero, not asserted zero in the corrected nonlinear tail.",
+    "Higher frequencies of the true nonlinear correction and of R18 nonlinear far trace are not set to zero.",
+    "A full-frequency boundary-value Green operator is still required; the listed within-cell Cauchy bounds do not replace it.",
+    "Current saved node height fixes a reference, not a rigorous enclosure of the finite nonlinear solution path.",
+    "The original floating source/ODE state errors at the shallow side remain separate from this real reference."
+  ],
+  "column_groups": [
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-m8-recovered-columns-01-08.json.gz",
+      "sha256": "f1dff81b293b5b6085bc8825769875997bb89eb6898a6aca6582769b2692ecd0",
+      "bytes": 1314429,
+      "modes": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ]
+    }
+  ],
+  "first_cell": {
+    "cell": 12,
+    "panels": 142,
+    "whole_cell_reference_X": {
+      "lower": {
+        "mantissa": "2996347684205866603627265164487439174375060372763064712721",
+        "binary_exponent": -314
+      },
+      "upper": {
+        "mantissa": "2996347684205866603627265164487439174375060372763064712733",
+        "binary_exponent": -314
+      },
+      "display": "[8.9778752662933323525533837869984107674924275950395352946e-38 +/- 4.72e-94]"
+    },
+    "log2_X": {
+      "lower": {
+        "mantissa": "-6035182899159022538239150367691404543121555268157709711969",
+        "binary_exponent": -185
+      },
+      "upper": {
+        "mantissa": "-6035182899159022538239150367691404543121555268157709711959",
+        "binary_exponent": -185
+      },
+      "display": "[-123.066893553345807687870093277370266319922416307820221185 +/- 1.22e-55]"
+    },
+    "relative_to_R23_radius": {
+      "lower": {
+        "mantissa": "3159842245058060608046371088038502991770058914314767911135",
+        "binary_exponent": -226
+      },
+      "upper": {
+        "mantissa": "3159842245058060608046371088038502991770058914314767911297",
+        "binary_exponent": -226
+      },
+      "display": "[2.930126572642827162307457136292156425003696575701467962e-11 +/- 1.50e-66]"
+    },
+    "complete_source_L1_bound": {
+      "lower": {
+        "mantissa": "3016674380171517600122229561617901016820410528042716611429",
+        "binary_exponent": -360
+      },
+      "upper": {
+        "mantissa": "3016674380171517600122229561617901016820410528042716611599",
+        "binary_exponent": -360
+      },
+      "display": "[1.2844878361151802321106245506775115189372584394759369446e-51 +/- 8.35e-107]"
+    },
+    "mean_height_increment_bound": {
+      "lower": {
+        "mantissa": "3217786005516282515178661793162418948246588283338700520395",
+        "binary_exponent": -362
+      },
+      "upper": {
+        "mantissa": "3217786005516282515178661793162418948246588283338700520659",
+        "binary_exponent": -362
+      },
+      "display": "[3.425300896307144172046596530335619334583382722298787424e-52 +/- 3.06e-107]"
+    }
+  },
+  "output": "notes/2026-11-12-closure-real-linear-q003-m8-recovered.json.gz",
+  "output_bytes": 103715,
+  "output_sha256": "98778c0c2b12a5d5e6bcac875fa3346709eaba16bd1b8daf67c9fb8e61df983c"
+}

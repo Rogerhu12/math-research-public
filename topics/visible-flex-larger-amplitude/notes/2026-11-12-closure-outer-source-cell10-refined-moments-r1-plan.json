@@ -1,0 +1,24 @@
+{
+  "status": "Prepared only; awaiting the coordinated small arithmetic stream",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_refined_moment_source.py",
+    "--cell-manifest",
+    "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json",
+    "--moment-summary",
+    "notes/2026-11-12-closure-cell10-true-moments-taylor-r1-summary.json",
+    "--source-summary",
+    "notes/2026-11-12-closure-outer-source-cell10-r1-summary.json",
+    "--ports",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+    "--response",
+    "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--out-prefix",
+    "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1"
+  ],
+  "source_sha256": "67a736057b18d99a6b2383fbd080dc887430c698de01404e1d441aa6a9f4b134",
+  "fixed_candidate_unchanged": true,
+  "resource_rss_guard_KiB": 40960
+}

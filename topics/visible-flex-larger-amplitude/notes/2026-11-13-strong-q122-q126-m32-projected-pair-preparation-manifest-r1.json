@@ -1,0 +1,59 @@
+{
+  "schema": "projected-tail-pair-identity-preparation-archive-v1",
+  "created_utc": "2026-11-13T17:11:32.063498+00:00",
+  "scope": "Only both actual M32 full-tail/full-J/storage identities are checked; current base is the initial A tail and not an accepted coupled A prefix. No projected seed is written and no target-error comparison is available yet.",
+  "files": [
+    {
+      "file": "computations/strong_full_flow_projected_pair_diagnostic.py",
+      "bytes": 12231,
+      "sha256": "097b6eb7f9ef9af2291515733382195b7ce9a78a8dd8fb468f7ed87d868f1123",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_full_flow_projected_pair_diagnostic.py"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-m32-projected-pair-preparation-r1.json",
+      "bytes": 19867,
+      "sha256": "83dd8047f250f5cf05e7b88e812aa2974a9c7570beea10a9e3f4f66b86c86809",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-m32-projected-pair-preparation-r1.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-m32-projected-pair-prepare-r1-heartbeat.json",
+      "bytes": 319,
+      "sha256": "6241338f7b5bdda72d0054ac4df43111f00d1c251e61cab868a369a51a9058d2",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-m32-projected-pair-prepare-r1-heartbeat.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-m32-projected-pair-prepare-r1-ownership.json",
+      "bytes": 1939,
+      "sha256": "34ad6da5ec26e101099c83fc614b21f966d8e8a3db639e3705964c1fab51fba5",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-m32-projected-pair-prepare-r1-ownership.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-m32-projected-pair-prepare-r1-resource.json",
+      "bytes": 1713,
+      "sha256": "063b66058be184235e0448974d80c70b854a029386fe610b909f0b0a9e9d845c",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-m32-projected-pair-prepare-r1-resource.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-q126-m32-projected-pair-prepare-r1-stdout.log",
+      "bytes": 1927,
+      "sha256": "025fc6cb72ded7f3eb0a7586a34209951ba9f044754ab1b0d612502f5bee19c4",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-q126-m32-projected-pair-prepare-r1-stdout.log"
+    }
+  ],
+  "total_bytes": 37996,
+  "source_sha256": "097b6eb7f9ef9af2291515733382195b7ce9a78a8dd8fb468f7ed87d868f1123",
+  "report_sha256": "83dd8047f250f5cf05e7b88e812aa2974a9c7570beea10a9e3f4f66b86c86809",
+  "actual_base_tail_audit_status": {
+    "previous": true,
+    "current": false
+  },
+  "complete_tail_identity_sha256": "87faa56945ad2a7fc32bd767f4bab6a62c79a90b41efacda5ffd0b5d1d06a53a",
+  "identity_checks": 107,
+  "owned_exitcode": 0,
+  "owned_wall_seconds": 3.04492452100385,
+  "owned_peak_rss_kib": 75420,
+  "no_ODE_Node_or_new_J": true,
+  "no_projected_seed_written": true,
+  "no_Newton_saving_claim": true,
+  "full_flow_payloads_reused_in_existing_archives_not_copied": true
+}

@@ -1,0 +1,689 @@
+{
+  "scope": "Differentiate an accepted actual-tail problem in physical design controls.\n\nAt the unchanged accepted raw state, the fixed-metric full Jacobian has all\ncore coefficients as boundary unknowns.  Delta/LB/vp, and optional other\nprefix-only controls, enter as external forcing columns.  A 3x3 exchange\nthen prescribes actual c2/c4/c6 while solving for those three controls.\n\nThe recorded complete nonlinear-tail height Jacobian is used only at its\nexact recorded boundary H.  There is no Node worker, new tail solve, BVP\ncontinuation, or new accepted surface.  The original actual/fixed loader and\nboundary Jacobian are reused, with a local affine tail tangent for this\nderivative calculation only.  --metadata-only does not import NumPy or load\nany Flow; it checks the linked input data and complete H byte identity.\n",
+  "schema": "fixed-actual-to-three-control-response-v1",
+  "finished": true,
+  "inspection_only": true,
+  "new_solution": false,
+  "tail_worker_started": false,
+  "input_identity": {
+    "scope": "Input identity check only, with no Flow, RHS, Jacobian assembly, Node or BVP.",
+    "full_height_bitwise_equal": true,
+    "modes": 24,
+    "angular": 768,
+    "nodes": 2004,
+    "actual_primary_amplitude": 0.09499996014428179,
+    "gauge": 0.09,
+    "raw_fixed_parameter_layout": "p0=log(actual_q/gauge_q); p1=(q4-reference_q4)/gauge_q^2; p2..=higher support/recorded scale",
+    "raw_tolerance": 1e-07,
+    "tail_jacobian_method": {
+      "slope": "analytic actual shooting tangent plus exact cut chain rule",
+      "meanSlopeCorrection": "analytic actual shooting tangent plus exact cut chain rule",
+      "second": "source symmetric difference on actual tangent graph",
+      "meanSecondCorrection": "source symmetric difference on actual tangent graph",
+      "height": "source symmetric difference; mathematically identity",
+      "sourceSecondDifferenceStep": 0.0001
+    },
+    "tail_residual": 5.636296429175181e-10,
+    "source_sha256": {
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz": "8fe885fe87eec09e4d0d9508099a82c48a9627f8568021e2bfe28907f62d1f5e",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0003.json.gz": "32ee699bd596bf397db66a73f9e7470b315286d05e2f13b97a818a64a2c271cb",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-x-000.npy.gz": "c0c0aacb6d1c71272beb96899f66262efb7dd5d56f1d7765af6d7a2f86769b7c",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-y-000.npy.gz": "b10a16c2bfe80bd5e0f504e5aef7ede84e7fcc07f75da932a559f7232a23c19c",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-p-000.npy.gz": "7823be999b0a85330460380bb8d521065e124976641527b8dae9a2c9834427a4"
+    }
+  },
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz": "8fe885fe87eec09e4d0d9508099a82c48a9627f8568021e2bfe28907f62d1f5e",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0003.json.gz": "32ee699bd596bf397db66a73f9e7470b315286d05e2f13b97a818a64a2c271cb",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-x-000.npy.gz": "c0c0aacb6d1c71272beb96899f66262efb7dd5d56f1d7765af6d7a2f86769b7c",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-y-000.npy.gz": "b10a16c2bfe80bd5e0f504e5aef7ede84e7fcc07f75da932a559f7232a23c19c",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-p-000.npy.gz": "7823be999b0a85330460380bb8d521065e124976641527b8dae9a2c9834427a4",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_actual_fixed_refinement.py": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_block_qr.py": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-config.json": "6dad973d9d6e992d13663e8100eeddcf93a45d41703982767ce175b3b3dcb3a3"
+  },
+  "fields": [
+    "delta",
+    "boost_length",
+    "boost_speed",
+    "vu",
+    "descending_turn_curvature"
+  ],
+  "baseline": {
+    "profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.16134505278447636,
+      "vu": 0.32,
+      "vd": 0.98,
+      "start_acceleration": 0.45,
+      "boost_speed": 0.8644270801836136,
+      "boost_length": 0.12448680155192346,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.75,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle"
+    },
+    "core": [
+      0.09499996014428179,
+      -0.00671750943198616,
+      -0.0004116733380408847,
+      -8.035998507925411e-05,
+      -3.476055347489263e-05,
+      2.385986013722317e-05,
+      1.6245475132541165e-05,
+      -7.123979331457383e-06,
+      -7.873981759378086e-07,
+      -2.612368282419064e-06,
+      -3.34780462171788e-06,
+      -8.06768282714887e-07,
+      -6.573602222133739e-07,
+      2.807262062358651e-07,
+      1.4036842472900153e-07,
+      -1.014731833294631e-08,
+      6.343695950527295e-08,
+      1.8990263423952584e-08,
+      3.911696916560547e-09,
+      3.199221025015118e-08,
+      7.195576568758303e-09,
+      -6.040420522012881e-09,
+      2.8128280234782043e-09,
+      3.886725505592511e-09
+    ],
+    "gauge": 0.09,
+    "numerical_reference_knots": [
+      0.0,
+      0.2677610126249561,
+      0.3073403620202028,
+      0.3172296666633604,
+      0.4210673654165145,
+      0.4309566700596721,
+      0.6992364843991988,
+      0.6996085091989966,
+      0.7035147695968731,
+      0.7038867943966709,
+      0.7141889687205218,
+      0.822361799120957,
+      0.8326639734448079,
+      0.8439613383350474,
+      0.8542635126588983,
+      0.9624363430593335,
+      0.9727385173831844,
+      0.9840358822734238,
+      0.9844103156009136,
+      0.9883418655395568,
+      0.9887162988670467,
+      0.9972544424000331,
+      1.0
+    ],
+    "reference_coefficients": [
+      0.09,
+      -0.006363961030678927
+    ],
+    "actual_physical_bc_max": 3.0200516839669564e-14,
+    "accepted_rms_max": 9.976296746350968e-08,
+    "raw_state_bitwise_equal": true
+  },
+  "modes": 24,
+  "angular": 768,
+  "nodes": 2004,
+  "external_responses": [
+    {
+      "field": "delta",
+      "width": 3.226901055689527e-07,
+      "half_width": 1.6134505278447636e-07,
+      "half_step_response_relative_difference": 1.690445097934254e-10,
+      "equation_error_over_forcing_norm": 2.4901258658669164e-12,
+      "equation_relative_backward_error": 6.150443110137683e-16,
+      "physical_core_derivative": [
+        12.041320652559266,
+        -1.2489388091005589,
+        -0.12699280600953072,
+        -0.02917272089293186,
+        -0.034343705409798024,
+        0.03237117365371569,
+        0.026149342772801475,
+        -0.007144102327157195,
+        0.009331169680452675,
+        -0.04455720713663031,
+        -0.061444661315649456,
+        -0.015447366873971803,
+        -0.012808023762540846,
+        0.005685700058323127,
+        0.0028902591102158634,
+        -0.0002050104565546524,
+        0.0013966431712342715,
+        0.00042321290210414487,
+        6.976467197737806e-05,
+        0.0008542823103205791,
+        0.00019003993836789887,
+        -0.00016235084069551466,
+        6.318164151428656e-05,
+        0.00011870606135935098
+      ],
+      "field_correction_derivative_max": 12.055985829547575
+    },
+    {
+      "field": "boost_length",
+      "width": 2.489736031038469e-07,
+      "half_width": 1.2448680155192345e-07,
+      "half_step_response_relative_difference": 9.004962470064766e-10,
+      "equation_error_over_forcing_norm": 1.0896566688084885e-11,
+      "equation_relative_backward_error": 7.821904202617886e-16,
+      "physical_core_derivative": [
+        12.628463303262293,
+        -1.5363323439407939,
+        -0.14816978188223703,
+        -0.03398440949271001,
+        -0.04811399721498158,
+        0.04790333323663632,
+        0.03717343596857025,
+        -0.010907696608317669,
+        0.01248997578586528,
+        -0.060349384418927746,
+        -0.08378043873987169,
+        -0.020944848500025474,
+        -0.017281991787205898,
+        0.007706111775715455,
+        0.003906710933969619,
+        -0.0002809670893629108,
+        0.00190197264667795,
+        0.0005729566441931771,
+        9.071349862105879e-05,
+        0.0011418949997638278,
+        0.0002542568935911139,
+        -0.0002150037805705257,
+        8.13063862767818e-05,
+        0.0001504457345232592
+      ],
+      "field_correction_derivative_max": 12.645738793342167
+    },
+    {
+      "field": "boost_speed",
+      "width": 1.7288541603672271e-06,
+      "half_width": 8.644270801836136e-07,
+      "half_step_response_relative_difference": 1.4751860014903555e-10,
+      "equation_error_over_forcing_norm": 1.9352090527907166e-11,
+      "equation_relative_backward_error": 7.896122911856832e-16,
+      "physical_core_derivative": [
+        12.829944006530017,
+        -1.4984090328816118,
+        -0.14783899445909837,
+        -0.03249108078049942,
+        -0.04653887991402576,
+        0.045657155479281016,
+        0.035832595487725875,
+        -0.010725352928463319,
+        0.011513610393110522,
+        -0.05622783049384218,
+        -0.07794967162005387,
+        -0.019508532883233516,
+        -0.016113410151028584,
+        0.00718763825862205,
+        0.003645131396319431,
+        -0.0002605763892815919,
+        0.0017738588130513824,
+        0.0005346571911747196,
+        8.50595772033827e-05,
+        0.0010644727410451136,
+        0.00023660796180063423,
+        -0.00020051785615032437,
+        7.57256222168183e-05,
+        0.00014338757991691812
+      ],
+      "field_correction_derivative_max": 12.846979734683488
+    },
+    {
+      "field": "vu",
+      "width": 6.4e-07,
+      "half_width": 3.2e-07,
+      "half_step_response_relative_difference": 2.6120688561628667e-09,
+      "equation_error_over_forcing_norm": 1.4562308332534965e-12,
+      "equation_relative_backward_error": 7.2736876489222e-16,
+      "physical_core_derivative": [
+        4.335692992259102,
+        -0.6500313106490428,
+        -0.060151232385501276,
+        -0.017549553819543467,
+        -0.011007445258394173,
+        0.007786067672376209,
+        0.006379154603464208,
+        -0.0018520188267745529,
+        0.0028027069609696817,
+        -0.013205012265452887,
+        -0.018182911957378516,
+        -0.004572546917412915,
+        -0.0038158967097164974,
+        0.0017023432816733396,
+        0.0008659973033263051,
+        -6.01991570830166e-05,
+        0.00041584080841621554,
+        0.00012689302207079397,
+        2.1325463584795246e-05,
+        0.0002589571681713604,
+        5.7236753675953466e-05,
+        -4.934981540743468e-05,
+        1.8297534785062735e-05,
+        3.808122086733774e-05
+      ],
+      "field_correction_derivative_max": 4.342687289413431
+    },
+    {
+      "field": "descending_turn_curvature",
+      "width": 1.35e-05,
+      "half_width": 6.75e-06,
+      "half_step_response_relative_difference": 2.409837581989565e-10,
+      "equation_error_over_forcing_norm": 3.4265332834956762e-12,
+      "equation_relative_backward_error": 7.502027795283634e-16,
+      "physical_core_derivative": [
+        -0.5347939666255684,
+        0.06565566724704225,
+        0.006279072035611851,
+        0.0014993900681508738,
+        0.0015880048879464866,
+        -0.001408232957732536,
+        -0.0011214134678437541,
+        0.0003456441759933726,
+        -0.0003724238094572866,
+        0.0018224952622204608,
+        0.0025223469326662524,
+        0.0006321284768531566,
+        0.0005237420504499081,
+        -0.00023402656085316694,
+        -0.00011878920487558838,
+        8.391901624036609e-06,
+        -5.776267003674442e-05,
+        -1.745709043932214e-05,
+        -2.811723427093539e-06,
+        -3.484696249766598e-05,
+        -7.697901340991296e-06,
+        6.587962767561265e-06,
+        -2.439797118397867e-06,
+        -5.001068836958806e-06
+      ],
+      "field_correction_derivative_max": 0.5355344314675419
+    }
+  ],
+  "physical_core_parameter_scales": [
+    0.09499996014428179,
+    0.0081,
+    0.0007289999999999999,
+    6.560999999999999e-05,
+    5.904899999999999e-06,
+    5.314409999999999e-07,
+    4.7829689999999986e-08,
+    4.304672099999998e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "low_three_core_by_physical_control": [
+    [
+      12.041320652559266,
+      12.628463303262293,
+      12.829944006530017
+    ],
+    [
+      -1.2489388091005589,
+      -1.5363323439407939,
+      -1.4984090328816118
+    ],
+    [
+      -0.12699280600953072,
+      -0.14816978188223703,
+      -0.14783899445909837
+    ]
+  ],
+  "control_order": [
+    "delta",
+    "boost_length",
+    "boost_speed"
+  ],
+  "half_step_low_three_core_by_physical_control": [
+    [
+      12.041320650524987,
+      12.628463291893318,
+      12.829944004637364
+    ],
+    [
+      -1.2489388088097702,
+      -1.5363323425022184,
+      -1.498409032652425
+    ],
+    [
+      -0.12699280598322146,
+      -0.14816978174927664,
+      -0.1478389944358774
+    ]
+  ],
+  "low_exchange_condition": {
+    "singular_values": [
+      21.800885998257957,
+      0.16016484788085059,
+      0.0011215225292068344
+    ],
+    "condition_2": 19438.651859874833,
+    "observed_half_step_matrix_perturbation_norm": 4.490508971404289e-09,
+    "scope": "Only the physical 3x3 low-core/control response, not the condition of the global BVP Jacobian."
+  },
+  "prescribed_low_core_responses": [
+    {
+      "direction": "actual_q1",
+      "physical_profile_derivative": {
+        "delta": 1.3051100191064184,
+        "boost_length": 1.4415789774042669,
+        "boost_speed": -2.5658861352065934
+      },
+      "core_derivative": [
+        1.0000000000000002,
+        3.210286444083665e-17,
+        3.133551120878508e-17,
+        -0.003696406913588381,
+        0.005231025791871715,
+        -0.005846681010034808,
+        -0.00422614689441644,
+        0.0024718887271925546,
+        0.0006408762872797254,
+        -0.0008762506581349504,
+        -0.0009581806549566233,
+        -0.0002974925152764282,
+        -0.00028406048813293987,
+        8.677149247154644e-05,
+        5.094636494003951e-05,
+        -3.9881058192633875e-06,
+        1.3097044720728279e-05,
+        6.4321780604898295e-06,
+        3.568055143563686e-06,
+        2.9748380854334832e-05,
+        7.445331591635897e-06,
+        -7.324651977508639e-06,
+        5.3652464231784125e-06,
+        3.887674867976487e-06
+      ],
+      "low_core_target_error": 2.220446049250313e-16,
+      "half_step_exchange_response_relative_difference": 4.477831405663501e-09,
+      "equation_relative_backward_error": 1.2521217195750933e-14
+    },
+    {
+      "direction": "actual_q4",
+      "physical_profile_derivative": {
+        "delta": -8.690032216934915,
+        "boost_length": -38.524982227307994,
+        "boost_speed": 46.07586661490484
+      },
+      "core_derivative": [
+        3.411016484928561e-14,
+        1.0000000000000056,
+        -5.537257345025405e-16,
+        0.06570595191104892,
+        0.007719570726253592,
+        -0.02308859764168698,
+        -0.00832670100616111,
+        -0.011878633569273286,
+        -0.03176468358584458,
+        0.12141650980237834,
+        0.16999732760003616,
+        0.04226547303841565,
+        0.034651228756291265,
+        -0.015110074203287025,
+        -0.007669826070858978,
+        0.0005995166409009098,
+        -0.0036782544998530194,
+        -0.001116084863201663,
+        -0.0001817994356972682,
+        -0.0023687213387999593,
+        -0.0005447786057390488,
+        0.00045481686748499896,
+        -0.00019225391796484588,
+        -0.00022077173975514416
+      ],
+      "low_core_target_error": 3.411016484928561e-14,
+      "half_step_exchange_response_relative_difference": 1.8366566807799297e-08,
+      "equation_relative_backward_error": 3.4388708966515263e-14
+    },
+    {
+      "direction": "actual_c6",
+      "physical_profile_derivative": {
+        "delta": 201.3387019188584,
+        "boost_length": 515.5714106482043,
+        "boost_speed": -696.4378413973822
+      },
+      "core_derivative": [
+        -2.8407485587192777e-13,
+        -6.258976214388755e-14,
+        1.0000000000000124,
+        -0.766969534787798,
+        0.690518586031851,
+        -0.5822116317424666,
+        -0.5247399022737943,
+        0.4074608255257869,
+        0.29968605685907057,
+        -0.9263186070468308,
+        -1.27888629427277,
+        -0.3222373514119179,
+        -0.26686317990328245,
+        0.11205911448113162,
+        0.05750204341896672,
+        -0.004659879740666358,
+        0.0264186408969681,
+        0.0082537015225898,
+        0.0015769066069156446,
+        0.019389409272742793,
+        0.004567241625665625,
+        -0.00388908706555049,
+        0.0019019690798627261,
+        0.0016051072376210044
+      ],
+      "low_core_target_error": 2.8407485587192777e-13,
+      "half_step_exchange_response_relative_difference": 1.519638686538071e-08,
+      "equation_relative_backward_error": 2.886425875970983e-14
+    }
+  ],
+  "additional_core_held_directions": [
+    {
+      "external_field": "vu",
+      "physical_profile_derivative": {
+        "vu": 1.0,
+        "delta": 0.8034216517929711,
+        "boost_length": -0.2804328268469794,
+        "boost_speed": -0.8159439396237247
+      },
+      "low_core_derivative_max": 6.750153157801846e-16,
+      "core_derivative": [
+        -6.750153157801846e-16,
+        0.0,
+        2.071942617476452e-17,
+        -0.00494630494919873,
+        0.01286593948520529,
+        -0.016893576988998692,
+        -0.012273938094190726,
+        0.004218417597527752,
+        -0.0025974891215283244,
+        0.013799468778269581,
+        0.019548464178887524,
+        0.00480819632261703,
+        0.0038879368526149216,
+        -0.001755398772462267,
+        -0.0008816988110804916,
+        6.649912404136983e-05,
+        -0.0004428107421363104,
+        -0.00013001471536770425,
+        -1.74669777958844e-05,
+        -0.0002434688516699806,
+        -5.444185704691175e-05,
+        4.411945147137662e-05,
+        -1.5529808692896742e-05,
+        -2.5733908707444326e-05
+      ],
+      "half_step_combination_relative_difference": 9.389573045544698e-09,
+      "equation_relative_backward_error": 1.8397523394676174e-14
+    },
+    {
+      "external_field": "descending_turn_curvature",
+      "physical_profile_derivative": {
+        "descending_turn_curvature": 1.0,
+        "delta": 0.0042946146967546665,
+        "boost_length": 0.06302112638231526,
+        "boost_speed": -0.02437881628379496
+      },
+      "low_core_derivative_max": 8.437691447252308e-17,
+      "core_derivative": [
+        8.437691447252308e-17,
+        -1.4388490399142028e-17,
+        0.0,
+        2.4462795801071546e-05,
+        -0.00045712358981353404,
+        0.0006366433729620754,
+        0.0004600434278121546,
+        -0.00011098090872682573,
+        0.00017409411896653637,
+        -0.0008013790073092843,
+        -0.0011211511072408851,
+        -0.0002785850172017929,
+        -0.00022756819941935753,
+        0.00010081306169093511,
+        5.096467924428157e-05,
+        -3.842857821492086e-06,
+        2.485525467778782e-05,
+        7.434509556737638e-06,
+        1.131104013855963e-06,
+        1.4834774569817893e-05,
+        3.3735807638534653e-06,
+        -2.770663990221663e-06,
+        1.1094627010530072e-06,
+        1.4943681396469775e-06
+      ],
+      "half_step_combination_relative_difference": 1.926434513611654e-08,
+      "equation_relative_backward_error": 4.064374783166301e-14
+    }
+  ],
+  "tangent_arrays": [
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-delta.npy.gz",
+      "sha256": "25c5a66642eb1644931f2882f37e584e7b61ba158c5bc8484ba70dce7b4e4888",
+      "bytes": 1135813,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-boost_length.npy.gz",
+      "sha256": "e3bfc83829362312e7f2b2cca8a5af943d39056d869cb2f27452e04e31b84030",
+      "bytes": 1135567,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-boost_speed.npy.gz",
+      "sha256": "ee54c9ed166127b3070ca5d5e3c6b98102ef629bf581af6f5a7965285bee0858",
+      "bytes": 1135644,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-vu.npy.gz",
+      "sha256": "e7d427fd6059e047c98c8933b91d7b482029d7f4619298913c03213b2ff8d1f0",
+      "bytes": 1135694,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-descending_turn_curvature.npy.gz",
+      "sha256": "b0d2a271000ed10f1dc9c34d70cae2bcdbe31fa7dcf6fd95e2831ebc297299e7",
+      "bytes": 1135351,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_q1.npy.gz",
+      "sha256": "7ffc76b6c6e23f477c69dacaaee0086bbd8d60baa27c7f31da85eba6816ba573",
+      "bytes": 1135884,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_q4.npy.gz",
+      "sha256": "fc8afe844d2d66dc035ea044e703d79ecfd93c74c7570a744db63f18aab6f723",
+      "bytes": 1135349,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_c6.npy.gz",
+      "sha256": "3e97d12dbda747c85306b106549c71dcb1c9e06fa08d2b6d16a461e682ce4b34",
+      "bytes": 1137870,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-vu.npy.gz",
+      "sha256": "ebaad13a5e07970853d4689d0764297dbcd0ce0ed7afd5e17b5c2689560e4ea1",
+      "bytes": 1130178,
+      "shape": [
+        146316
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-descending_turn_curvature.npy.gz",
+      "sha256": "181b136fa556c3c0b37723cad79949f3b9149aaf325927567cce20fc9e70d0f6",
+      "bytes": 1117916,
+      "shape": [
+        146316
+      ]
+    }
+  ],
+  "radial_batch_size": 16,
+  "collocation_batch_size": 12,
+  "jacobian_seconds": 40.89798633200007,
+  "factor_seconds": 3.5501736589994835,
+  "seconds": 492.08504139900015,
+  "peak_rss_kib": 734348,
+  "counters": {
+    "inspections": 1,
+    "tail_start_attempts": 0
+  },
+  "field_parameter_layout": "Saved fixed-core layout. Tail entries of every tangent array are all-core parameter derivatives, not delta/LB/vp design offsets.",
+  "limitations": [
+    "The stored finite D-N derivative is used only at its exact complete H; it is not a new nonlinear tail solve.",
+    "These are local derivatives; a finite step needs a new actual nonlinear coupled BVP and geometry audit.",
+    "The old triple warm launcher cannot consume this all-core parameter layout without explicit conversion."
+  ]
+}

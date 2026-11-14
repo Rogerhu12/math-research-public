@@ -1,0 +1,26 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "exact-work/2026-11-13-exact-resume-inner-complete-modal-source-v1.py",
+    "--modal-input",
+    "geometry-work/inner-cs-lambda-r2/input-all213.json.gz",
+    "--modal-resource",
+    "geometry-work/inner-cs-lambda-r2/resource.json",
+    "--density",
+    "math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+    "--out-prefix",
+    "exact-work/inner-source-cell12-r1",
+    "--first-cell",
+    "12",
+    "--last-cell",
+    "12"
+  ],
+  "wall_seconds": 0.9385287761688232,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 52496,
+  "user_seconds": 0.330413,
+  "system_seconds": 0.08863599999999999,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

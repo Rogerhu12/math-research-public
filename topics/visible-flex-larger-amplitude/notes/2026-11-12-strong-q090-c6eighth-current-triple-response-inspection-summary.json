@@ -1,0 +1,235 @@
+{
+  "scope": "Nonlinear two-control prefix at an m2/m4 double linear resonance.\n\nThe first support coefficient q and a specified second support coefficient\nare fixed. Delta and either vd or boost_length replace the corresponding\nmatching constraints; higher support modes remain unknown. All\noutputs are finite LINEAR-tail-DN prefixes, never complete closed surfaces.\n",
+  "solver_success": false,
+  "base_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.1458033978026112,
+    "vu": 0.32,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.11507506464263191,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.75,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "requested_q": 0.09,
+  "modes": 20,
+  "source_git_head": "869436630c99aa5a68afb55bd8877c826034d117",
+  "secondary_law": "linear",
+  "secondary_scale": 0.2,
+  "requested_meridian_chart": "all-knots",
+  "second_design_control": "boost_length",
+  "interface_hashes": {
+    "root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "geometric-general-core-chart.py": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+    "numerical-m2-prefix.py": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+    "root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+    "alternative-angle-plateau-connector.py": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7",
+    "alternative-direct-tail-connector.py": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+  },
+  "raw_recovery": {
+    "file": "notes/2026-11-12-strong-samechart-vu032-q090-c6eighth-checkpointed-recovered-r1-raw-collocation.json.gz",
+    "sha256": "869eda035781891567bc2020b43c36581c0e0762c32bab38f074cbc0ee54395d",
+    "postprocess_only": false,
+    "previous_solver_success": true
+  },
+  "error": "RuntimeError('Triple response inspection complete; no nonlinear solve requested')",
+  "seconds": 87.26034617424011,
+  "strong_mesh_adapter": {
+    "scope": "Run the existing neck BVP with retained warm mesh and bounded radial batches.\n\nUse --workflow amplitude, design, or triple, then the original arguments.\nWith --nodes 0 the successful previous physical mesh is carried through the\nexplicit radial-coordinate map. A fresh nonlinear solve remains mandatory.\nThe original files and frozen source remain unchanged. This adapter changes\nneither the physical flow nor boundary conditions or requested mesh tolerance.\nOptional --newton-residual-factor tightens only the inner Newton stopping\nthreshold; its exact text replacement is recorded in the output.\nOptional --linear-solver block-qr factors the same adjacent-node/parameter\nJacobian by balanced orthogonal elimination, avoiding global sparse-LU fill.\nThe direct-block-qr option also avoids the global sparse Jacobian and its\nindices, using the validated root_block_collocation formulas. It collects\ndiscarded Flow cycles after each independent Jacobian batch.\nAfter geometric finite differences, the two-control Jacobian restores its\nalready selected baseline Flow and exact key. This retains the identical\nFourier tables across radial batches without changing derivative arithmetic.\nOptional --geometric-flow-cache-size (default 0) also retains a bounded number\nof identical geometric finite-difference Flow constructions. Its complete\nconstructor/reference/chart keys and independent three-point checks are in\nstrong_flow_lru.py and strong_flow_lru_check.py.\nThe two-control amplitude warm deformation also uses 24-point radial batches\nand skips its exact identity at ratio=1, avoiding a full-grid geometry array.\n",
+    "workflow": "triple",
+    "newton_residual_factor": 1.0,
+    "linear_solver": "direct-block-qr",
+    "trace_newton": true,
+    "collect_flow_garbage": true,
+    "jacobian_batch_gc": true,
+    "memory": {
+      "peak_rss_kib": 329056,
+      "rss_kib": 264304
+    },
+    "angle_boost_helper_sha256": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be",
+    "wrapper_sha256": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "transforms": {
+      "root_triple_core_bvp.py": {
+        "original_sha256": "78953f8279275b52998702e298d4523e0da911416a5bceed5c140c886b1103c6",
+        "replacements": [
+          {
+            "old": "self.ref_frequencies=[2,4,6]",
+            "new": "self.ref_frequencies=[2,4]",
+            "count": 1
+          },
+          {
+            "old": "self.ref_coeff=self.prescribed.copy()",
+            "new": "self.ref_coeff=_strong_reference.copy()",
+            "count": 1
+          },
+          {
+            "old": "charts.attach_to_adaptive_flow(flow,self.prescribed,self.ref_frequencies,reference='core-blend')",
+            "new": "charts.attach_to_adaptive_flow(flow,_strong_reference,self.ref_frequencies,reference='core-blend')",
+            "count": 1
+          },
+          {
+            "old": "prescribed_frequencies=self.ref_frequencies,",
+            "new": "prescribed_frequencies=[2,4,6],",
+            "count": 1
+          },
+          {
+            "old": "self.select(p);self.flow(p[0])\n                return ds[None,None,:]*J,PJ",
+            "new": "self.select(p);self._flow=f;self._flow_key=tuple(float(v) for v in p[:3])\n                return ds[None,None,:]*J,PJ",
+            "count": 1
+          },
+          {
+            "old": "                    scope=__doc__)\n\n            def make_flow",
+            "new": "                    scope=__doc__)\n                self.design_provenance.update(same_chart_adapter_sha256=_strong_adapter_hash,starting_checkpoint_sha256=_strong_restart_hash,reference_coefficients=_strong_reference.tolist(),reference_frequencies=[2,4],reference_is_prescribed_core=False)\n                self.raw_recovery_context=dict(kind=\"three-physical-controls-old-two-mode-chart-v1\",prescribed_actual_support=self.prescribed.tolist(),reference_coefficients=_strong_reference.tolist(),reference_frequencies=[2,4],control_names=list(self.control_names))\n\n            def prepare_recovery_output(self,out):\n                out[\"prescribed_actual_core\"]=dict(q1=float(self.prescribed[0]),q4=float(self.prescribed[1]),c6=float(self.prescribed[2]))\n                out[\"three_control_reference_policy\"]=\"unchanged previous [2,4] chart\"\n\n            def make_flow",
+            "count": 1
+          },
+          {
+            "old": "                p=np.zeros(self.M)\n                for j,name in enumerate(self.control_names):p[j]=oldcfg[name]-self.cfg[name]",
+            "new": "                if old[\"physical_tail_parameters\"]!=self.port[\"parameters\"] or old[\"physical_tail_cut\"]!=self.port[\"cut\"]:\n                    raise ValueError(\"The physical tail port changed during same-chart triple continuation\")\n                p=np.zeros(self.M)\n                for j,name in enumerate(self.control_names):p[j]=oldcfg[name]-self.cfg[name]",
+            "count": 1
+          },
+          {
+            "old": "                if scale=='linear':\n                    N=max(512,32*(2*self.M+1));g=f.geo(s,N);theta=g['theta']\n                    radial=np.stack((np.cos(theta),np.sin(theta),np.zeros_like(theta)),axis=-1)\n                    background=f.profile(s)[0][:,None,None]*radial;B,_,_=f.basis(N)\n                    y=ratio*y+(ratio-1)*f.project(g['pos']-background,B)/self.q",
+            "new": "                if scale=='linear' and ratio!=1.:\n                    N=max(512,32*(2*self.M+1));B,_,_=f.basis(N)\n                    for first in range(0,len(s),24):\n                        sl=slice(first,first+24);g=f.geo(s[sl],N);theta=g['theta']\n                        radial=np.stack((np.cos(theta),np.sin(theta),np.zeros_like(theta)),axis=-1)\n                        background=f.profile(s[sl])[0][:,None,None]*radial\n                        y[:,sl]=ratio*y[:,sl]+(ratio-1)*f.project(g['pos']-background,B)/self.q",
+            "count": 1
+          }
+        ],
+        "same_chart_adapter_sha256": "b8475efa88d8aff09530cd332648825982872950e04b10306603f2b363ccaacd",
+        "starting_checkpoint_sha256": "9959985ea96ca1df3fe8b77139fb202aefd0c0b6fa0fcd2f9378830629bc46cf"
+      },
+      "root_dual_core_bvp.py": {
+        "original_sha256": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+        "replacements": [
+          {
+            "old": "import numpy as np",
+            "new": "import numpy as np\nimport root_radial_batching as radial",
+            "count": 1
+          },
+          {
+            "old": "t=merge_profile_mesh(np.linspace(0,1,nodes),self.chart_breaks)\n            s,_=self.chart(t,p[0])\n            arrays,record=pullback.convert",
+            "new": "grid=self.inverse_chart(np.asarray(saved.sol.x),p[0]) if nodes<=0 else np.linspace(0,1,nodes)\n            t=merge_profile_mesh(grid,self.chart_breaks)\n            s,_=self.chart(t,p[0])\n            arrays,record=pullback.convert",
+            "count": 1
+          },
+          {
+            "old": "return ds[None,:]*f.fun(s,y,p)",
+            "new": "return ds[None,:]*radial.value(f,s,y,p)",
+            "count": 1
+          },
+          {
+            "old": "J,_=f.fun_jac(s,y,p)",
+            "new": "J=radial.state_jacobian(f,s,y,p)",
+            "count": 1
+          },
+          {
+            "old": "self.select(p);self.flow(p[0])\n            return ds[None,None,:]*J,PJ",
+            "new": "self.select(p);self._flow=f;self._flow_key=(float(p[0]),float(p[1]))\n            return ds[None,None,:]*J,PJ",
+            "count": 1
+          },
+          {
+            "old": "            if scale=='linear':\n                N=max(512,32*(2*self.M+1));g=f.geo(s,N);theta=g['theta']\n                radial=np.stack((np.cos(theta),np.sin(theta),np.zeros_like(theta)),axis=-1)\n                background=f.profile(s)[0][:,None,None]*radial\n                B,_,_=f.basis(N)\n                y=ratio*y+(ratio-1)*f.project(g['pos']-background,B)/self.q",
+            "new": "            if scale=='linear' and ratio!=1.:\n                N=max(512,32*(2*self.M+1));B,_,_=f.basis(N)\n                for first in range(0,len(s),24):\n                    sl=slice(first,first+24);g=f.geo(s[sl],N);theta=g['theta']\n                    radial=np.stack((np.cos(theta),np.sin(theta),np.zeros_like(theta)),axis=-1)\n                    background=f.profile(s[sl])[0][:,None,None]*radial\n                    y[:,sl]=ratio*y[:,sl]+(ratio-1)*f.project(g['pos']-background,B)/self.q",
+            "count": 1
+          }
+        ]
+      },
+      "numerical-m2-prefix.py": {
+        "original_sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+        "replacements": []
+      },
+      "geometric-general-core-chart.py": {
+        "original_sha256": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+        "replacements": []
+      },
+      "alternative-neck-provider.py": {
+        "original_sha256": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+        "replacements": []
+      },
+      "root_neck_chart.py": {
+        "original_sha256": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+        "replacements": []
+      },
+      "root_domain_newton.py": {
+        "original_sha256": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+        "replacements": [
+          {
+            "old": "factor = splu(jac(y, p, ym, ff, fm, br))",
+            "new": "factor = _strong_block_factor(jac(y, p, ym, ff, fm, br),n,m,len(p))",
+            "count": 1
+          },
+          {
+            "old": "try:\n                factor =",
+            "new": "factor = None\n            try:\n                factor =",
+            "count": 1
+          },
+          {
+            "old": "residual, cr, ym, ff, fm, br = data",
+            "new": "residual, cr, ym, ff, fm, br = data\n        _strong_trace(\"newton_iteration\", call=STATS[\"calls\"], iteration=iteration, nodes=m, factors=factors, updates=updates, collocation_scaled_max=float(np.max(abs(cr)/(h[None,:]*(1+abs(fm))))), boundary_max=float(np.max(abs(br))))",
+            "count": 1
+          },
+          {
+            "old": "try:\n                factor =",
+            "new": "try:\n                _strong_trace(\"newton_factor_begin\", iteration=iteration, nodes=m)\n                factor =",
+            "count": 1
+          },
+          {
+            "old": "cost = float(step@step)",
+            "new": "cost = float(step@step)\n            _strong_trace(\"newton_merit\", iteration=iteration, merit=cost, step_max=float(np.max(abs(step))))",
+            "count": 1
+          },
+          {
+            "old": "STATS['rejected_domain_trials'] += 1",
+            "new": "STATS['rejected_domain_trials'] += 1\n                _strong_trace(\"newton_trial\", iteration=iteration, alpha=alpha, status=\"outside-domain\")",
+            "count": 1
+          },
+          {
+            "old": "if np.isfinite(newcost) and newcost < (1-.4*alpha)*cost:",
+            "new": "_strong_trace(\"newton_trial\", iteration=iteration, alpha=alpha, status=\"evaluated\", merit=newcost, old_merit=cost, armijo=bool(np.isfinite(newcost) and newcost < (1-.4*alpha)*cost))\n            if np.isfinite(newcost) and newcost < (1-.4*alpha)*cost:",
+            "count": 1
+          },
+          {
+            "old": "y, p, data, step, cost, alpha = accepted",
+            "new": "y, p, data, step, cost, alpha = accepted\n        _strong_trace(\"newton_accepted\", iteration=iteration, alpha=alpha, merit=cost)",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "radial_batching_sha256": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "block_qr_sha256": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+    "direct_block_sha256": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "geometric_flow_cache": {
+      "size": 8,
+      "instances": [
+        {
+          "size": 8,
+          "stats": {
+            "hits": 932,
+            "misses": 22,
+            "bypassed": 0,
+            "evictions": 14,
+            "maximum_entries": 8,
+            "constructor_cpu_seconds": 0.5059726669999973,
+            "constructor_wall_seconds": 0.8597401909987639
+          }
+        }
+      ],
+      "source_sha256": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2",
+      "scope": "Identical actual Flow objects reused with bounded storage; no derivative or trial-state approximation."
+    },
+    "dual_amplitude_warm_radial_batch_size": 24
+  }
+}

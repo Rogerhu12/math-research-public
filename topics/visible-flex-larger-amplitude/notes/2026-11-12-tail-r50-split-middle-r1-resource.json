@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "error": null,
+  "limit_KiB": 122880,
+  "peak_RSS_KiB": 68544,
+  "elapsed_seconds": 70.15325740099979,
+  "resource_events": 3244,
+  "last_event": {
+    "sequence": 3244,
+    "phase": "output-row",
+    "peak_RSS_KiB": 68544,
+    "seconds": 69.99808272199971,
+    "cell": 224
+  },
+  "trace": "notes/2026-11-12-tail-r50-split-middle-r1-resource.jsonl",
+  "output": "notes/2026-11-12-tail-r50-split-middle-r1.json.gz",
+  "output_exists": true,
+  "source_sha256": "4dc17ec37763d533a2e7003df94698ab0d3b7ea544efb93569134f12c5f962d6"
+}

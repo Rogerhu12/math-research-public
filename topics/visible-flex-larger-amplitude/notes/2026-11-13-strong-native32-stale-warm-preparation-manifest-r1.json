@@ -1,0 +1,143 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T19:42:54.589745+00:00",
+  "title": "Complete old M32 nine-control response as an explicitly stale native32 initial guess",
+  "scope": "Only preparation on real accepted A32 and real earlier q122 M32. The full 97 state rows and all 32 parameter directions are retained, through exact same-mesh copy or explicit CubicSpline in common material t; physical core units are converted at the current real point. No old derivative is relabelled at the current point. No future accepted input is fabricated. Original d151 nonlinear solver and all current-H/fullJ/RMS/physicalBC/audit gates remain.",
+  "owned_preparations": [
+    {
+      "label": "same-A-zero-r1",
+      "owned_exitcode": 0,
+      "wait4_observed": true,
+      "wall_seconds": 1.0556342230047449,
+      "peak_rss_kib": 49092
+    },
+    {
+      "label": "real-A-to-earlier-q122-all-nine-r1",
+      "owned_exitcode": 0,
+      "wait4_observed": true,
+      "wall_seconds": 3.5373822129986365,
+      "peak_rss_kib": 99312
+    },
+    {
+      "label": "original-production-source-prepare-r1",
+      "owned_exitcode": 0,
+      "wait4_observed": true,
+      "wall_seconds": 4.532090856002469,
+      "peak_rss_kib": 49156
+    }
+  ],
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-original-production-source-prepare-r1-actual-three-control-adapter.json",
+      "bytes": 131814,
+      "sha256": "2ed74d6b55b543d98883d74fa790ec9e610980e0c60197c653555126ece5b503"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-original-production-source-prepare-r1-base-profile.json",
+      "bytes": 547,
+      "sha256": "b6fdc6d6a1a9a058ee8a16bb66e3956acbea5ab77f2ad7fa3ec44651e316799d"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-original-production-source-prepare-r1-config.json",
+      "bytes": 2999,
+      "sha256": "a7c746347a4738614f1992ea37faf6e4ffb6cb2c24f70d9fefda255dd2d04555"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-original-production-source-prepare-r1-heartbeat.json",
+      "bytes": 355,
+      "sha256": "a67df247382451b56a38c27e9a5c4ea84db1307479f1813208b975b58aa90a83"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-original-production-source-prepare-r1-ownership.json",
+      "bytes": 3794,
+      "sha256": "31c56bca36d8bac8afb8edddfafbcaa757d1f547700218a7c068bb4fee287fc5"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-original-production-source-prepare-r1-plan.json",
+      "bytes": 3122,
+      "sha256": "58fdfb1c0978090e01360ab4d4bed9a35fb71e42362ff19418c0b86d3d167b44"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-original-production-source-prepare-r1-resource.json",
+      "bytes": 3544,
+      "sha256": "66ba82f802aff73e343c97f8735c15ada6ac28d868ed6a6d7684c73fd9f010e2"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-original-production-source-prepare-r1-stdout.log",
+      "bytes": 3549,
+      "sha256": "acd7d3973da2bdf5a6325d374ef99d589063a83a2a27d73a5aa2c25ca9c8f86b"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-real-A-to-earlier-q122-all-nine-r1-heartbeat.json",
+      "bytes": 349,
+      "sha256": "94c88179528c9e47aac7f41bd16de4afcff20184a8565fafd7bb9298da9611d3"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-real-A-to-earlier-q122-all-nine-r1-ownership.json",
+      "bytes": 3011,
+      "sha256": "7c2dea6c1e5ce6a9ad163674dc8e594c4b4eb8f0bdd25929bdc0bcafac2fab22"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-real-A-to-earlier-q122-all-nine-r1-plan.json",
+      "bytes": 2350,
+      "sha256": "2ab558433bb382c393d820ea73c00c891747bbe74e0930f7346bca5198f7b237"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-real-A-to-earlier-q122-all-nine-r1-resource.json",
+      "bytes": 2768,
+      "sha256": "712b50f6e70636a9e148cc2b8fe27ff944eb6914b25f23665c1966c889655ca9"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-real-A-to-earlier-q122-all-nine-r1-stdout.log",
+      "bytes": 2792,
+      "sha256": "13219e57788aece1563edd06315bcb8751abc84dc4c920e995708cbf7b9bd446"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-real-A-to-earlier-q122-all-nine-r1.json",
+      "bytes": 21518,
+      "sha256": "69ff7632fadd0a5cd5e65c03c5b6be89c4020d4172a0b9536c68a8792d85bd63"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-same-A-zero-r1-heartbeat.json",
+      "bytes": 309,
+      "sha256": "7dd5c139937ab650578fd36552ae135f9808995501f4023846467985d403e82d"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-same-A-zero-r1-ownership.json",
+      "bytes": 2455,
+      "sha256": "2ba49e447d96accf62455054402f5251fc1f6dc196ae3f9e5a1b46885b778938"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-same-A-zero-r1-plan.json",
+      "bytes": 1854,
+      "sha256": "1c6f6b0229868305ae749e0afe75d4b4f0ed7c381c980b7c9f31a68e0865ce5f"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-same-A-zero-r1-resource.json",
+      "bytes": 2242,
+      "sha256": "a6e723502c73d711802e5b7417c4859f5f2a07f299e0906ec9dbcff82e31a945"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-same-A-zero-r1-stdout.log",
+      "bytes": 2318,
+      "sha256": "733775fb5a28d258514c499580191ade5b1de81c11d084fd6cad179f2f4f719b"
+    },
+    {
+      "file": "notes/2026-11-13-strong-native32-stale-warm-same-A-zero-r1.json",
+      "bytes": 16061,
+      "sha256": "af648d02ccce2c28a27d89177568f83dbb0c66fa025658dd220f928dfcc97780"
+    },
+    {
+      "file": "computations/strong_stale_native32_response_warm_actual_bvp.py",
+      "bytes": 5845,
+      "sha256": "6fe16047d4a3c4e069166157ba414232c36b36d22140b4e18cd8d972f03aa6c2"
+    }
+  ],
+  "bytes": 213596,
+  "source_sha256": "6fe16047d4a3c4e069166157ba414232c36b36d22140b4e18cd8d972f03aa6c2",
+  "frozen_base_stale_source_sha256": "e21809f94b1b702481ff30181fc936c5ea9e43d9436b4fe69586efadef10bbd0",
+  "native_newton_or_Node_started": false,
+  "new_geometric_warm_field_computed": false,
+  "future_current_point_must_be_genuinely_accepted": true,
+  "next_control_semantics": "When using an old-A total LP direction at a later accepted point, subtract the old-A controls already actually implemented. Full actual current core/physical profile is the baseline; then independently inspect the resulting new warm before original BVP."
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "same_actual_fine53wide_node10_signed94_budget_manifest_v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "all_actual_required_gates": true,
+  "primary_sha256": "054461f8e4fe640e91bee6194c8d5e4f97db516912ec0b369fc046a8e027b265",
+  "resource_sha256": "53c80e98096647a33c76c3b50265dcdac5ec81f62158e8c25e3160aa9c3f2391",
+  "gate_count": 26,
+  "owned_resource": {
+    "wall_seconds": 0.9872455596923828,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 38908
+  },
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-node10-fine53wide-signed94-proof.md",
+      "sha256": "5b6dd90a275674b775992a8ff1d69630f4ef6211032bec33118687361200fcd5",
+      "bytes": 3257,
+      "original_private": "/workspace/scratch/d1aa462cfc02/exact-work/node10-fine53wide-signed94-proof.md"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-node10-fine53wide-signed94-source-v3.py",
+      "sha256": "416652bba0ccc5f02cde29995537122c65ef351e9202e8b643b59974f51559e6",
+      "bytes": 8397,
+      "original_private": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-node10-fine53wide-signed94-budget-v3.py"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-node10-fine53wide-signed94-failed-v2-source.py",
+      "sha256": "96d504bc1382a9ace5fe746e8fdc87f2cd515f2c783ed5c4cdac80c838b043a2",
+      "bytes": 8152,
+      "original_private": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-node10-fine53wide-signed94-budget-v2.py"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-node10-fine53wide-signed94-failed-v2-resource.json",
+      "sha256": "63d3635746c321a67043736f14e3803c0d856a4aae3e6bba1a1879cb5f399868",
+      "bytes": 1222,
+      "original_private": "/workspace/scratch/d1aa462cfc02/exact-work/node10-fine53wide-signed94-run1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-node10-fine53wide-signed94-primary.json",
+      "sha256": "054461f8e4fe640e91bee6194c8d5e4f97db516912ec0b369fc046a8e027b265",
+      "bytes": 14244,
+      "original_private": "/workspace/scratch/d1aa462cfc02/exact-work/node10-fine53wide-signed94-r2.json"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-node10-fine53wide-signed94-resource.json",
+      "sha256": "53c80e98096647a33c76c3b50265dcdac5ec81f62158e8c25e3160aa9c3f2391",
+      "bytes": 1233,
+      "original_private": "/workspace/scratch/d1aa462cfc02/exact-work/node10-fine53wide-signed94-run2-resource.json"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "notes/2026-11-13-exact-resume-outer-newwide186-fine53-stable-manifest.json",
+      "sha256": "b4701a672491aaf3667636a04639e7aa42f8bd03d4018c2620b95e03e494a054"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-node10-newwide-signed94-budget-manifest.json",
+      "sha256": "2fd397c8179868611bc52bf130dd90561a0d5ee382fbc488904e6b5a2d8fcf44"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-stable-manifest.json",
+      "sha256": "4a6cd9488621b50888a383045e35715b0841073b21127a48958a0ddae5b19777"
+    }
+  ],
+  "limits": "Only finite94..184 homogeneous input and fixed-centre zero-input source. Actual signed bound oncell7 remains1.67265e5; no nonlinear tube or PDE nonexistence claim.",
+  "failed_attempt_preserved": "Saved parent94 up-rounding exceeds sum of saved children by7.1144e-49 relative; sourcev3 only takes the valid min intersection before support."
+}

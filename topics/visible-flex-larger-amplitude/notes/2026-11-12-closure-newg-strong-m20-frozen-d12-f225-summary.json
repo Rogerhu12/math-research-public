@@ -1,0 +1,355 @@
+{
+  "status": "Actual finite solve on the explicitly NEW rational-deep metric",
+  "converged": true,
+  "residual": 1.0904156886053144e-10,
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 0.0037496716244180706,
+      "minA": 0.8958717405295062,
+      "minD": 0.9999452244712314,
+      "chartCondition": 5766330.6037668325,
+      "step": 1
+    },
+    {
+      "iteration": 1,
+      "norm": 1.0904156886053144e-10,
+      "minA": 0.8958717405295062,
+      "minD": 0.9999452244712314
+    }
+  ],
+  "audit": {
+    "fullD": 3.52787905508034e-14,
+    "normalizedFullDefect": 8.604228440844962e-15,
+    "minLeading": 0.8958717405295062,
+    "minD": 0.9999452382891372,
+    "formalCurvature": 7.998111913734926,
+    "maxPhysicalPV": 4.333672801932093e-05,
+    "actualMetric": 5.5555988667376066e-15,
+    "holonomy": 4.0131081008316414e-20
+  },
+  "endpoint_diagnostic": {
+    "status": "ACTUAL nonlinear endpoint, followed by an UNVERIFIED linear continuation",
+    "physical_depth": 12,
+    "far_physical_node": 225,
+    "far_mathematical_port": 224,
+    "tau_F": 0.17328679513998632,
+    "rows": [
+      {
+        "mode": 2,
+        "actual_endpoint_Q": -3.7342413529625106e-40,
+        "actual_endpoint_connection_momentum": 9.320250061641126e-39,
+        "actual_endpoint_linear_canonical_Xi": 9.320250061641125e-39,
+        "connection_minus_canonical": 1.305060893599705e-54,
+        "far_to_endpoint_log_Q_gain": 2393.049708406932,
+        "endpoint_linear_slope": -24.958885033628132,
+        "endpoint_connection_boundary_residual": -1.305060893599705e-54,
+        "endpoint_canonical_boundary_residual": -2.61012178719941e-54,
+        "log2_abs_z_from_linear_continuation": -2337.304991705927
+      },
+      {
+        "mode": 4,
+        "actual_endpoint_Q": -1.984000617747583e-48,
+        "actual_endpoint_connection_momentum": 9.896342231907109e-46,
+        "actual_endpoint_linear_canonical_Xi": 9.896342231907109e-46,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3032.2434230620115,
+        "endpoint_linear_slope": -498.8074168617111,
+        "endpoint_connection_boundary_residual": -1.5557538194652854e-61,
+        "endpoint_canonical_boundary_residual": -1.5557538194652854e-61,
+        "log2_abs_z_from_linear_continuation": -3286.4544214657885
+      },
+      {
+        "mode": 6,
+        "actual_endpoint_Q": 2.8985865877735863e-56,
+        "actual_endpoint_connection_momentum": -7.5831078007642385e-53,
+        "actual_endpoint_linear_canonical_Xi": -7.5831078007642385e-53,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3385.493848467245,
+        "endpoint_linear_slope": -2616.139822336254,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -3821.6155460408268
+      },
+      {
+        "mode": 8,
+        "actual_endpoint_Q": 5.231439934789085e-62,
+        "actual_endpoint_connection_momentum": -4.3762143133527046e-58,
+        "actual_endpoint_linear_canonical_Xi": -4.3762143133527046e-58,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3633.252598537778,
+        "endpoint_linear_slope": -8365.219457554835,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -4197.635576159106
+      },
+      {
+        "mode": 10,
+        "actual_endpoint_Q": 3.157268932404142e-64,
+        "actual_endpoint_connection_momentum": -6.485420014676489e-60,
+        "actual_endpoint_linear_canonical_Xi": -6.485420014676488e-60,
+        "connection_minus_canonical": -1.105429575052089e-75,
+        "far_to_endpoint_log_Q_gain": 3824.5835492608117,
+        "endpoint_linear_slope": -20541.23406503127,
+        "endpoint_connection_boundary_residual": -1.105429575052089e-75,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -4480.540177070331
+      },
+      {
+        "mode": 12,
+        "actual_endpoint_Q": -3.0083421757386236e-67,
+        "actual_endpoint_connection_momentum": 1.2875612239461987e-62,
+        "actual_endpoint_linear_canonical_Xi": 1.2875612239461987e-62,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3980.5699708092816,
+        "endpoint_linear_slope": -42799.69327724729,
+        "endpoint_connection_boundary_residual": 2.1590421387736112e-78,
+        "endpoint_canonical_boundary_residual": 2.1590421387736112e-78,
+        "log2_abs_z_from_linear_continuation": -4715.116506650123
+      },
+      {
+        "mode": 14,
+        "actual_endpoint_Q": -1.079096313406716e-70,
+        "actual_endpoint_connection_momentum": 8.60975899504048e-66,
+        "actual_endpoint_linear_canonical_Xi": 8.609758995040479e-66,
+        "connection_minus_canonical": 1.0542197943230523e-81,
+        "far_to_endpoint_log_Q_gain": 4112.284178958437,
+        "endpoint_linear_slope": -79786.75200788518,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": -1.0542197943230523e-81,
+        "log2_abs_z_from_linear_continuation": -4916.0848708814465
+      },
+      {
+        "mode": 16,
+        "actual_endpoint_Q": 2.93379355252811e-73,
+        "actual_endpoint_connection_momentum": -4.0310581432690685e-68,
+        "actual_endpoint_linear_canonical_Xi": -4.0310581432690685e-68,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4226.279313346752,
+        "endpoint_linear_slope": -137400.8794789062,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -5088.567926516242
+      },
+      {
+        "mode": 18,
+        "actual_endpoint_Q": 3.676138936162346e-77,
+        "actual_endpoint_connection_momentum": -8.20778849689662e-72,
+        "actual_endpoint_linear_canonical_Xi": -8.207788496896619e-72,
+        "connection_minus_canonical": -1.0053823416929744e-87,
+        "far_to_endpoint_log_Q_gain": 4326.759300965778,
+        "endpoint_linear_slope": -223271.9883396199,
+        "endpoint_connection_boundary_residual": -1.0053823416929744e-87,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -5245.992194803298
+      },
+      {
+        "mode": 20,
+        "actual_endpoint_Q": -5.0209535599728084e-77,
+        "actual_endpoint_connection_momentum": 1.7453182319213006e-71,
+        "actual_endpoint_linear_canonical_Xi": 1.7453182319213004e-71,
+        "connection_minus_canonical": 2.010764683385949e-87,
+        "far_to_endpoint_log_Q_gain": 4416.582807315134,
+        "endpoint_linear_slope": -347606.9258706214,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": -2.010764683385949e-87,
+        "log2_abs_z_from_linear_continuation": -5374.630351880484
+      },
+      {
+        "mode": 22,
+        "actual_endpoint_Q": -4.435602863662523e-77,
+        "actual_endpoint_connection_momentum": 2.3272786249837494e-71,
+        "actual_endpoint_linear_canonical_Xi": 2.3272786249837494e-71,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4497.7811268291,
+        "endpoint_linear_slope": -524681.4686791169,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -5491.453595951702
+      },
+      {
+        "mode": 24,
+        "actual_endpoint_Q": 2.702076510949105e-79,
+        "actual_endpoint_connection_momentum": -2.095590295410534e-73,
+        "actual_endpoint_linear_canonical_Xi": -2.0955902954105337e-73,
+        "connection_minus_canonical": -3.141819817790545e-89,
+        "far_to_endpoint_log_Q_gain": 4571.847473268244,
+        "endpoint_linear_slope": -775548.0967763038,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 3.141819817790545e-89,
+        "log2_abs_z_from_linear_continuation": -5605.167664521286
+      },
+      {
+        "mode": 26,
+        "actual_endpoint_Q": -2.2266098488439696e-79,
+        "actual_endpoint_connection_momentum": 2.5232197170372956e-73,
+        "actual_endpoint_linear_canonical_Xi": 2.5232197170372956e-73,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4639.908335949252,
+        "endpoint_linear_slope": -1133211.4237917894,
+        "endpoint_connection_boundary_residual": -3.141819817790545e-89,
+        "endpoint_canonical_boundary_residual": -3.141819817790545e-89,
+        "log2_abs_z_from_linear_continuation": -5703.137953327556
+      },
+      {
+        "mode": 28,
+        "actual_endpoint_Q": 5.659571252278804e-78,
+        "actual_endpoint_connection_momentum": -9.356914868657467e-72,
+        "actual_endpoint_linear_canonical_Xi": -9.356914868657467e-72,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4702.828765744363,
+        "endpoint_linear_slope": -1653290.4086842164,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -5788.745173292883
+      },
+      {
+        "mode": 30,
+        "actual_endpoint_Q": -2.102062288620352e-80,
+        "actual_endpoint_connection_momentum": 5.125572507254528e-74,
+        "actual_endpoint_linear_canonical_Xi": 5.125572507254527e-74,
+        "connection_minus_canonical": 7.854549544476363e-90,
+        "far_to_endpoint_log_Q_gain": 4761.276240212901,
+        "endpoint_linear_slope": -2438354.2462096107,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": -7.854549544476363e-90,
+        "log2_abs_z_from_linear_continuation": -5880.639798394889
+      },
+      {
+        "mode": 32,
+        "actual_endpoint_Q": 7.848279071230292e-81,
+        "actual_endpoint_connection_momentum": -2.9053754373206367e-74,
+        "actual_endpoint_linear_canonical_Xi": -2.9053754373206367e-74,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4815.749466133705,
+        "endpoint_linear_slope": -3701926.7675775853,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -5960.149408464821
+      },
+      {
+        "mode": 34,
+        "actual_endpoint_Q": -3.091927019846326e-81,
+        "actual_endpoint_connection_momentum": 1.8476652761234933e-74,
+        "actual_endpoint_linear_canonical_Xi": 1.8476652761234933e-74,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4866.535440393487,
+        "endpoint_linear_slope": -5975772.598330363,
+        "endpoint_connection_boundary_residual": -3.9272747722381812e-90,
+        "endpoint_canonical_boundary_residual": -3.9272747722381812e-90,
+        "log2_abs_z_from_linear_continuation": -6034.261951751252
+      },
+      {
+        "mode": 36,
+        "actual_endpoint_Q": 3.6271444467116427e-81,
+        "actual_endpoint_connection_momentum": -4.0107539727287775e-74,
+        "actual_endpoint_linear_canonical_Xi": -4.010753972728777e-74,
+        "connection_minus_canonical": -7.854549544476363e-90,
+        "far_to_endpoint_log_Q_gain": 4912.712041532766,
+        "endpoint_linear_slope": -11057607.524742816,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 7.854549544476363e-90,
+        "log2_abs_z_from_linear_continuation": -6100.150377287013
+      },
+      {
+        "mode": 38,
+        "actual_endpoint_Q": 8.057290501376419e-82,
+        "actual_endpoint_connection_momentum": -2.524013448644005e-74,
+        "actual_endpoint_linear_canonical_Xi": -2.524013448644005e-74,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4959.691036006611,
+        "endpoint_linear_slope": -31325834.015949033,
+        "endpoint_connection_boundary_residual": -3.9272747722381812e-90,
+        "endpoint_canonical_boundary_residual": -3.9272747722381812e-90,
+        "log2_abs_z_from_linear_continuation": -6169.597207163255
+      },
+      {
+        "mode": 40,
+        "actual_endpoint_Q": 1.0324473314886624e-82,
+        "actual_endpoint_connection_momentum": 7.781925334341103e-75,
+        "actual_endpoint_linear_canonical_Xi": 7.781925334341103e-75,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 5003.34701859566,
+        "endpoint_linear_slope": 75373581.7508533,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -6235.043703334753
+      }
+    ],
+    "log2_low_height_l1": -2337.304991705927,
+    "numerical_margin_to_trace_domain": 390.304991705927,
+    "numerical_margin_to_Robin_envelope": 289.304991705927,
+    "strip_diagnostics": [
+      {
+        "tau_F": 0.17328679513998632,
+        "retained_modes": 20,
+        "log2_low_height_l1": -2337.304991705927,
+        "numerical_margin_to_trace_domain": 390.304991705927
+      },
+      {
+        "tau_F": 1.0,
+        "retained_modes": 20,
+        "log2_low_height_l1": -2334.919601624149,
+        "numerical_margin_to_trace_domain": 387.919601624149
+      },
+      {
+        "tau_F": 8.0,
+        "retained_modes": 20,
+        "log2_low_height_l1": -2314.7218710517036,
+        "numerical_margin_to_trace_domain": 367.7218710517036
+      },
+      {
+        "tau_F": 80.0,
+        "retained_modes": 20,
+        "log2_low_height_l1": -1628.41957249007,
+        "numerical_margin_to_trace_domain": -318.5804275099299
+      },
+      {
+        "tau_F": 96.0,
+        "retained_modes": 20,
+        "log2_low_height_l1": -705.0947463211332,
+        "numerical_margin_to_trace_domain": -1241.9052536788668
+      },
+      {
+        "tau_F": 128.0,
+        "retained_modes": 20,
+        "log2_low_height_l1": 1141.5549060167396,
+        "numerical_margin_to_trace_domain": -3088.5549060167396
+      }
+    ],
+    "canonical_coordinate_conversion_available": true,
+    "limits": [
+      "No omitted nonlinear flow or radial integration error is enclosed here.",
+      "Only retained finite modes enter these linear label diagnostics; unrepresented low modes through 46 are not bounded by this report.",
+      "No unrepresented Fourier mode is declared zero in the exact problem.",
+      "R18 applies only after a true trace inclusion and its complete residual are controlled."
+    ]
+  },
+  "old_to_new_shallow_cut_comparison": {
+    "nonmean_height_l1": 0.0,
+    "physical_gradient_l2_upper": 1.9693448897903807e-22,
+    "covariant_Hessian_Frobenius_upper": 9.852230044120652e-19,
+    "gradient_components": [
+      1.9693448897903807e-22,
+      0.0
+    ],
+    "Hessian_components": [
+      9.848530631032777e-19,
+      1.908381951862903e-20,
+      6.543576916166975e-22
+    ],
+    "mean_slope_correction_change": 0.0,
+    "mean_second_correction_change": -1.6940658945086007e-21,
+    "scope": "Floating Fourier-l1 bounds on the complete two saved finite spectra, including newly added modes. No source evaluation, floating rounding or missing exact radial-solution error is enclosed."
+  },
+  "seconds": 586.7619994620009,
+  "peak_child_RSS_KiB": 408364,
+  "response": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+  "response_sha256": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+  "response_bytes": 384322,
+  "limits": [
+    "No same-g old-to-new refinement claim.",
+    "Finite modes/depth and finite far linear graph remain explicit.",
+    "True source/port, complete-frequency nonlinear matching and global closed geometry remain separate."
+  ]
+}

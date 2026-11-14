@@ -1,0 +1,96 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "scope": "Executed same-candidate leaf localization and complete finite spectrum; not a recomputed segment maximum or exact outer solution",
+  "status": "Frozen completed primary and reproducible source",
+  "formal_tool_session": 93119,
+  "formal_resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "python",
+      "computations/tail_outer_substage_existing_witness.py",
+      "--candidate",
+      "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--field",
+      "actual_Darboux_defect_abs",
+      "--rss-limit-mib",
+      "40",
+      "--out",
+      "notes/2026-11-12-tail-outer-seg5-existing-worst-witness-r1.json.gz"
+    ],
+    "wall_seconds": 2.6532769203186035,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 31460,
+    "user_seconds": 0.187992,
+    "system_seconds": 0.126546,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "command": [
+    "python",
+    "computations/tail_outer_substage_existing_witness.py",
+    "--candidate",
+    "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--field",
+    "actual_Darboux_defect_abs",
+    "--rss-limit-mib",
+    "40",
+    "--out",
+    "notes/2026-11-12-tail-outer-seg5-existing-worst-witness-r1.json.gz"
+  ],
+  "files": [
+    {
+      "path": "computations/tail_outer_substage_existing_witness.py",
+      "bytes": 10662,
+      "sha256": "215c98362ff3857b8c8c9905ef2cc2804846977ef65126d597b171eb202b5a17"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-seg5-existing-worst-witness-r1.json.gz",
+      "bytes": 59717,
+      "sha256": "2e6fc7e47f5c1d698a8b16b020f380ec32ec52e3daa83c1fac711f824606f099"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-seg5-existing-worst-witness-r1-resource.json",
+      "bytes": 1023,
+      "sha256": "4ac192be11f8fd17c31e05cb53fba4d34f3c013c5857123d95f708e7b477f67a"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r66-seg5-source-span-and-complete-spectrum.md",
+      "bytes": 8441,
+      "sha256": "007face089d67a00234a3c13568d0c48ad2102920740000568b37e5f19b021ff"
+    }
+  ],
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz": "a4496918b68c332958715c3757e460d1893f0cf42354bb6638cde7b8c85d67c0",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+  },
+  "frozen_dependencies": {
+    "tail_outer_substage_existing_witness.py": "215c98362ff3857b8c8c9905ef2cc2804846977ef65126d597b171eb202b5a17",
+    "tail_outer_weighted_compatible.py": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+    "tail_outer_general_mean_bounds.py": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+    "tail_outer_positive_moment_panels.py": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+    "tail_outer_candidate_domain.py": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+    "tail_r41_connection_polynomial.py": "81d5da68b0065c9e24978875c0d03cb96b6600252634c6bb028294db8e955e1e",
+    "closure_real_outer_radius.py": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe"
+  },
+  "existing_data_checks": {
+    "whole_original_leaf_outward_table": true,
+    "left_half_outward_table": true,
+    "right_half_outward_table": true,
+    "source_midpoint_outward_table": true,
+    "two_halves_exactly_cover_old_leaf": true,
+    "midpoint_nonzero_coefficient": true,
+    "formal_child_exit0": true,
+    "dollar_math_and_no_control_characters": true
+  },
+  "whole_segment_maximum_recomputed": false,
+  "two_halves_cover_original_leaf": true,
+  "new_source_integrals": 0,
+  "prepared_but_unexecuted_excluded": [
+    "computations/tail_outer_substage_worst_leaf_probe.py"
+  ],
+  "continuation": "Cover the entire same candidate with positive r_x relative-span subdivision and all finite J modes, retaining the complete R64 scalar mean and its derivative."
+}

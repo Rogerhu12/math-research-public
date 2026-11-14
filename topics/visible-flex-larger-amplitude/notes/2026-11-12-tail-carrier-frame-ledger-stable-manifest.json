@@ -1,0 +1,33 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Prepared exact streaming consumer; no local Python AST or numerical execution occurred.",
+  "files": [
+    {
+      "path": "computations/tail_outer_carrier_frame_ledger.py",
+      "git_blob": "5da52e9bec7db74da9d01e3afd21d00da0be9441",
+      "sha256": "9555f0668d9830303564fb30436fb5b19126507da3d58d44ca61414bc69a1751",
+      "bytes": 18678
+    },
+    {
+      "path": "notes/2026-11-12-tail-carrier-frame-ledger-execution-plan.json",
+      "git_blob": "53f20d1ce2288c071d81ab2e913744f4d20bd56b",
+      "sha256": "6d1c23d1d8dde64c2972f776af15549edeb5747563ec1e5d9d0415e7f15b9b52",
+      "bytes": 5220
+    }
+  ],
+  "existing_proof_dependency": {
+    "path": "notes/2026-11-12-tail-carrier-frame-and-continuous-pair-budget.md",
+    "git_blob": "f00f22bc16812d305c5eaabb2053f53816ac68f2",
+    "sha256": "37f6e5b14d03d0ef6132c802c534cd0af337c01baae045a78b6838d7310b90bb"
+  },
+  "existing_source_dependency": {
+    "path": "computations/tail_outer_carrier_mean_ledger_v3.py",
+    "git_blob": "313745424889e3fb45f76f5b2e175e31aac1c70a",
+    "sha256": "857d698dde2a6ca548c2ad55f6297d03fb0bc61870427bcf78d000225de16fd5"
+  },
+  "scope": "Continuous same-left-anchor frame, horizontal position, full height and unit-reference-vector differences for the two complete PA/CF candidates. Right-end angle/xy/mean offsets are retained; no actual geometry or replacement is selected.",
+  "no_ref_update": true,
+  "no_MJS_change": true,
+  "no_numeric_output_created": true
+}

@@ -1,0 +1,151 @@
+{
+  "schema": "completed-single-external-column-recovery-v1",
+  "created_utc": "2026-11-13T15:47:12.888985+00:00",
+  "scope": "Genuine original full/half frontload column only from still-running missing-two response r2. The vd column and final whole-job owned exit are not yet claimed. Complete raw tangent and forcing arrays are saved; no new nonlinear BVP or geometry is claimed.",
+  "baseline": {
+    "partial_six_file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+    "sha256": "2e848e2b59507a4bec44546a4916fb54e461b59713c0b37a968313669dc97f30",
+    "modes": 28,
+    "nodes": 2587,
+    "gauge": 0.09,
+    "core": [
+      0.12199999999999998,
+      -0.008607763203260147,
+      -0.0006096734015582711,
+      -0.0001543939208519568,
+      -2.8135487667232938e-05,
+      -1.9328286648422368e-06,
+      -6.1240537484846145e-06,
+      1.6234620719616218e-06,
+      4.374206851280021e-07,
+      2.899713632317512e-07,
+      2.2077010748359962e-07,
+      6.158783974606575e-08,
+      8.892475430054945e-08,
+      -1.2771723563020512e-07,
+      -4.323307388825831e-08,
+      -3.889698955217184e-09,
+      5.6143305063822996e-08,
+      2.6077763992181025e-09,
+      8.110723341636628e-10,
+      -1.7315891646063765e-08,
+      4.680008373926887e-11,
+      -2.698552066735903e-09,
+      -6.283047272366449e-09,
+      -8.571510002497228e-09,
+      -5.77175992560787e-11,
+      3.779314332982532e-08,
+      5.8743411585422885e-08,
+      4.45885427094724e-08
+    ],
+    "profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.17472508565265676,
+      "vu": 0.32202183767271175,
+      "vd": 0.98,
+      "start_acceleration": 0.642,
+      "boost_speed": 0.8457565977004763,
+      "boost_length": 0.12870065483393484,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.831283041357157,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle"
+    }
+  },
+  "launch_plan": {
+    "file": "notes/2026-11-13-strong-q122-m28-missing-two-single-thread-launch-plan-r2.json",
+    "sha256": "7a1b4a0df95056b60084ce56c8b74b1468b553effa6fa721432e134223c44cb5"
+  },
+  "original_gate_row": {
+    "event": "actual_fixed_external_response",
+    "field": "initial_speed_frontload",
+    "width": 2e-07,
+    "half_width": 1e-07,
+    "half_step_response_relative_difference": 1.1120849192334434e-07,
+    "equation_error_over_forcing_norm": 9.628380053683204e-13,
+    "equation_relative_backward_error": 1.0110452689112964e-15,
+    "physical_core_derivative": [
+      0.19331352276937053,
+      -0.01818697256820125,
+      -0.002045906993446592,
+      -0.0005303233183370451,
+      -0.00017684329516106352,
+      8.934692046603142e-06,
+      -1.814048480324278e-05,
+      1.1855331812718504e-05,
+      2.409823866978834e-06,
+      4.533301481387045e-06,
+      1.3352625063877423e-05,
+      -6.81002524639736e-07,
+      1.0811238932398522e-05,
+      -8.446407976513675e-06,
+      3.335759269656542e-05,
+      5.212681902610102e-05,
+      -0.0007194588645719686,
+      -8.424145054744523e-05,
+      0.00017191678900169792,
+      -0.00034449702339705825,
+      -9.509001586058307e-05,
+      1.5982932376745062e-05,
+      -0.000287613646027372,
+      -7.039977952587555e-05,
+      3.838171855869791e-05,
+      8.335165769412667e-05,
+      0.00010543602485850134,
+      0.00012024593380372239
+    ],
+    "field_correction_derivative_max": 0.19451405855924261
+  },
+  "independent_saved_array_half_difference": 1.1120849186626759e-07,
+  "full_original_low_and_high_core_derivative_reproduced_bitwise": true,
+  "all_four_complete_arrays": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2-external-initial_speed_frontload.npy.gz",
+      "sha256": "b5c1b9b50f2a3014815256935d6cdce28340726a5966901dd7a87a985c4d2f90",
+      "bytes": 1703506,
+      "shape": [
+        219923
+      ],
+      "kind": "external"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2-external-half-initial_speed_frontload.npy.gz",
+      "sha256": "304731a70e422ad9816c8038c5ff86c0101d1614abe0c3573c309e11f7e9b6e1",
+      "bytes": 1703378,
+      "shape": [
+        219923
+      ],
+      "kind": "external-half"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2-forcing-full-initial_speed_frontload.npy.gz",
+      "sha256": "be14c50fb22b04141fd43958763dda6630b29821503665e3ed1acf7dec48aee2",
+      "bytes": 1678900,
+      "shape": [
+        219923
+      ],
+      "kind": "forcing-full"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2-forcing-half-initial_speed_frontload.npy.gz",
+      "sha256": "eeed834cabb989c1784a4fc1a8f1bf6ac276959644a3d84bc90df752c96261aa",
+      "bytes": 1667079,
+      "shape": [
+        219923
+      ],
+      "kind": "forcing-half"
+    }
+  ],
+  "missing_two_whole_job_owned_exit_claimed": false,
+  "vd_completed_at_snapshot": false,
+  "full_eight_combined_half_claimed": false,
+  "future_actual_full_H_J_and_nonlinear_gates_required": true
+}

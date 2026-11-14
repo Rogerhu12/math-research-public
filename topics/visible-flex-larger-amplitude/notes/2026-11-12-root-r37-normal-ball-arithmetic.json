@@ -1,0 +1,94 @@
+{
+  "scope": "Exact arithmetic for the conditional R37 bottleneck distance cover.\n\nThe program checks supplied rational pair inequalities, not their geometric\npremises. It does not infer continuous enclosures, a complete cover, curvature,\nembedding, or reach from samples. Position errors are Euclidean ball radii;\npath bounds must be lengths of actual surface paths for every covered pair.\n",
+  "input": {
+    "kind": "exact arithmetic demonstration; no candidate data"
+  },
+  "curvature_bound": {
+    "exact": "33/4",
+    "decimal": 8.25
+  },
+  "reach_target": {
+    "exact": "3/25",
+    "decimal": 0.12
+  },
+  "curvature_product": {
+    "exact": "99/100",
+    "decimal": 0.99
+  },
+  "pi_lower": {
+    "exact": "708607128199708048393316197825100944557230988/225556654326271834214309451711177825927734375",
+    "decimal": 3.141592653589793
+  },
+  "pi_upper": {
+    "exact": "69780205110613570752214743907258029213018304/22211729146640973852969847619533538818359375",
+    "decimal": 3.141592653589793
+  },
+  "pi_interval_proof": "Machin identity and explicit alternating rational series",
+  "pairs": [
+    {
+      "label": "short-path beyond the older half-window",
+      "short_path_paid": true,
+      "separation_paid": false,
+      "no_double_normal_paid": false,
+      "accepted_inequality": true,
+      "short_path_margin": {
+        "exact": "353305315209842017215860822477447693023845827/902226617305087336857237806844711303710937500",
+        "decimal": 0.3915926535897932
+      },
+      "R16_half_window_paid": false
+    },
+    {
+      "label": "separated position balls",
+      "short_path_paid": false,
+      "separation_paid": true,
+      "no_double_normal_paid": false,
+      "accepted_inequality": true,
+      "separation_squared_margin": {
+        "exact": "807599/25000000",
+        "decimal": 0.03230396
+      },
+      "motion": "static"
+    },
+    {
+      "label": "all phases against a fixed position ball",
+      "short_path_paid": false,
+      "separation_paid": true,
+      "no_double_normal_paid": false,
+      "accepted_inequality": true,
+      "separation_squared_margin": {
+        "exact": "165445038306162554464710452627041/309485009821345068724781056000000",
+        "decimal": 0.5345817505076198
+      },
+      "motion": "rotating-fixed"
+    },
+    {
+      "label": "nearby blocks excluded by one continuous normal ball",
+      "short_path_paid": false,
+      "separation_paid": false,
+      "no_double_normal_paid": true,
+      "accepted_inequality": true,
+      "separation_squared_margin": {
+        "exact": "-4641/250000",
+        "decimal": -0.018564
+      },
+      "motion": "static",
+      "normal_exclusion_squared_margins": {
+        "p": {
+          "exact": "3921619309182828807206409442148910365297432299591312017981439/98079714615416886934934209737619787751599303819750539264000000",
+          "decimal": 0.039984
+        }
+      }
+    }
+  ],
+  "all_supplied_pair_inequalities_paid": true,
+  "full_surface_certified": false,
+  "missing_premises": [
+    "closed embedded C2 surface",
+    "continuous curvature bound",
+    "complete pair cover",
+    "true position and optional unit-normal enclosures",
+    "uniform surface paths"
+  ],
+  "source_sha256": "6efed6468e5e1cc07150d3add8c7dfa86e20a166ac4b199686bb5c1953c78788",
+  "square_root_source_sha256": "2635ebf36608f7b8607017db11a60192bcb1370adf487a8f6594c43b688e9063"
+}

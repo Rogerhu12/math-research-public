@@ -1,0 +1,33 @@
+{
+  "schema": "immutable-actual-background-primitive-C2-bridge-archive-v1",
+  "files": [
+    {
+      "path": "computations/strong_newg_gauss64_piecewise_C2_bridge.py",
+      "sha256": "a830cdd1da8c4dc187b0ca4e27c0c67d4834c92b8539677f6ef32fbb93e60ea6",
+      "bytes": 11737,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_gauss64_piecewise_C2_bridge.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-newg-Gauss64-piecewise-C2.json",
+      "sha256": "dfed27e391db068a17e109e6e843b92b5bdbdec12990ebd234453981cfee05a7",
+      "bytes": 30523,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/newg-gauss64-C2-r1/certificate.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-newg-Gauss64-piecewise-C2-resource.json",
+      "sha256": "496ac568321a04f6d0f71ca634ed4b8bcda4747293261227016d6fe2171cf64d",
+      "bytes": 1063,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/newg-gauss64-C2-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-newg-Gauss64-piecewise-C2.md",
+      "sha256": "3b82e215e26f09490d455c6f52842518a8ce46034642a30e4bd44d5577f030d1",
+      "bytes": 9724,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/newg-gauss64-C2-r1/proof.md"
+    }
+  ],
+  "actual_floating_provider_certified": false,
+  "surface_mean_Cartesian_curvature_reach_certified": false,
+  "quadrature_primitive_C2_across_joins_certified": false,
+  "ODE_Node_Newton_calls": 0
+}

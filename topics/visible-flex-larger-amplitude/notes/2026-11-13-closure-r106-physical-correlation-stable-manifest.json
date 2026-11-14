@@ -1,0 +1,35 @@
+{
+  "schema": "visible-flex-R106-physical-correlation-stable-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_physical_correlation_constants.js",
+      "blob": "d7ae6004987caf97fb5e625b23d88689f7e8268f",
+      "sha256": "5a80ac4380409b95fa3b2819ce9cdc728445aad75165f4b603dc4c950dc906fa",
+      "bytes": 2721
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-physical-correlation-constants.json",
+      "blob": "70aed23d45e3994948ad7d29719d7d4da6afba98",
+      "sha256": "03ead2baf8a99223ab9aaa56a2060b1790a01600f34f477907852fbc7f1c5477",
+      "bytes": 1722
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R106-physical-correlation-and-complete-mean-remainder.md",
+      "blob": "b60078ca01fd324c4f79f9c6b7879280af749b60",
+      "sha256": "73746195d586cb85a4270d1a9084e1296ddddbf730d5591b534cb8c1876b2961",
+      "bytes": 11819
+    }
+  ],
+  "actual_execution": {
+    "engine": "V8 BigInt",
+    "gates": 6,
+    "all_gates": true,
+    "no_Arb_or_ODE": true
+  },
+  "proof_status": "Complete conditional source/readout theorem; not new numerical Green or outer closure",
+  "numeric_inputs": "None: exact universal constants and already-proved complex mean assumptions",
+  "existing_R104_data_changed": false,
+  "supersedes_unpublished_note": "ce6eeedccfbac6afcb8651b48e1323fd771733ad",
+  "mathematical_result_registered_by_parent_only": "R106 source/readout theorem and six universal exact comparisons; new correlation Green rows not yet evaluated"
+}

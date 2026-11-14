@@ -1,0 +1,52 @@
+{
+  "schema": "actual-enospc-publisher-recovery-v1",
+  "created_utc": "2026-11-13T17:43:55.093341+00:00",
+  "old_publisher_owned_exit": 5,
+  "canonical_prune_exit": 0,
+  "canonical_midx_formal_success": true,
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-vfla-prune-packed-plan-20261113T1740.json.gz",
+      "sha256": "8905b78ddc970965a64114868a85ad3001732a0278c10948f3c42b7490064c08",
+      "bytes": 327631,
+      "original_sha256": "9424eef80e1be7a83628fa5512bdd57ea1935c4f5a5807168f0c1e864ed66bac",
+      "original_path": "/workspace/scratch/d1aa462cfc02/vfla-prune-packed-plan-20261113T1740.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-vfla-prune-packed-result-20261113T1739.json",
+      "sha256": "906339b77acad9ca50ab8e0e49bcabd558248086bb83fecb0595cb3205878b79",
+      "bytes": 510,
+      "original_sha256": "906339b77acad9ca50ab8e0e49bcabd558248086bb83fecb0595cb3205878b79",
+      "original_path": "/workspace/scratch/d1aa462cfc02/vfla-prune-packed-result-20261113T1739.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-publisher-owned-enospc-recovery-20261113T1740-report.json",
+      "sha256": "864c87709862decf107632edd541a48e65a29ef3751634be3abebb2dc8ec749a",
+      "bytes": 11246,
+      "original_sha256": "864c87709862decf107632edd541a48e65a29ef3751634be3abebb2dc8ec749a",
+      "original_path": "/workspace/scratch/d1aa462cfc02/publisher-owned-enospc-recovery-20261113T1740-report.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-publisher-restart-20261113T1744.json",
+      "sha256": "7fca94b0e22a8a7932f1dbfa880024ce9d678811ef26579d3f62036f3a56ace4",
+      "bytes": 775,
+      "original_sha256": "7fca94b0e22a8a7932f1dbfa880024ce9d678811ef26579d3f62036f3a56ace4",
+      "original_path": "/workspace/scratch/d1aa462cfc02/publisher-restart-20261113T1744.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-sync-publisher-20261113T1723-watch.log",
+      "sha256": "50faca467083aacae377edcb2e88d271d05e99e294f6cf5ac2681104c302c9a4",
+      "bytes": 101732,
+      "original_sha256": "50faca467083aacae377edcb2e88d271d05e99e294f6cf5ac2681104c302c9a4",
+      "original_path": "/workspace/scratch/d1aa462cfc02/sync-publisher-20261113T1723-watch.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-enospc-publisher-recovery.md",
+      "sha256": "f58ed6c1c76bcfb7835435e0d57d3fdfbd488aa83b06a3ffa0f7d6df68f3bf33",
+      "bytes": 1370
+    }
+  ],
+  "new_publisher_session": 47355,
+  "source_unchanged_sha256": "ba281543d314bdaba4f9f16c74b20b2248b8da0ffe2b8f44a44e5c764ff7cdb4",
+  "maintenance_source_sha256": "261a4a25b83061bff2516665a9e8ef15b39fdd94d89dd1537daf56cb21691ec9"
+}

@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/root_R162_conditional_rest_head_budget.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R162-rest-targets-r1.json.gz",
+    "--rest-target",
+    "1e-46",
+    "--rest-target",
+    "1e-48",
+    "--rest-target",
+    "1e-50"
+  ],
+  "source_sha256": "58910c21c220049634f01e4d388f1c436d587a5fe693a5414583bae2c736fcb0",
+  "explicit_unproved_rest_targets": [
+    "1e-46",
+    "1e-48",
+    "1e-50"
+  ],
+  "actual_first_case_uses_only_proved_head_bounds": true
+}

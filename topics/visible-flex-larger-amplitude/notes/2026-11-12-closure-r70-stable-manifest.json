@@ -1,0 +1,36 @@
+{
+  "status": "Complete R70 proof plus exact presentation ledger; original executed primary remains frozen",
+  "files": [
+    {
+      "path": "results/R70-actual-cell11-forcing-and-centre-residual.md",
+      "bytes": 12408,
+      "sha256": "ca57d1e5f2c0e94ad7ca358095a3d2c45dc0e9d376e9bf6d668ee69ff2e7655d"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-functional.md",
+      "bytes": 535,
+      "sha256": "8b7e290b7139990619941627878105ef5d27f4a12182d56df9ed44969b31c897"
+    },
+    {
+      "path": "computations/closure_r70_fraction_bounds.py",
+      "bytes": 3757,
+      "sha256": "fca056f1a3d10eeaf921a243a56931e93e029189b1147339103d590fd8c02e61"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r70-fraction-bounds-r1.json",
+      "bytes": 2197,
+      "sha256": "a123f719a3ee4967a3c6d552fb85a66797f891129fbbb71640bdcfeef0fcddc4"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r70-fraction-bounds-r1-resource.json",
+      "bytes": 860,
+      "sha256": "bf0425228b848b48bf54e62781b59e656ef82394bc31cb1e44a63ffae66dc1ef"
+    }
+  ],
+  "primary_manifest": {
+    "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-primary-stable-manifest.json",
+    "sha256": "50b7bc7ae4c2f4973fb701ac40f9d04ffba304eb4715270b7a3927c5db7b4e14"
+  },
+  "all_scope_claims_refer_to_cell11_modes_2_4": true,
+  "complete_outer_existence_claimed": false
+}

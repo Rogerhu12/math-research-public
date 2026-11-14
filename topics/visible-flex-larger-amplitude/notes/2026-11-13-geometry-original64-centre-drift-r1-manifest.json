@@ -1,0 +1,31 @@
+{
+  "schema": "original64-centre-drift-executed-archive-v1",
+  "status": "Actual completed same-source Fraction consumer; no new integration or candidate",
+  "files": [
+    {
+      "path": "notes/2026-11-13-geometry-original64-centre-drift-r1-summary.json",
+      "bytes": 6688,
+      "sha256": "b96cf11fa2e7c4eb74ad919b875aeda611f477b618431a97663c82277145b796",
+      "original_output_path": "/tmp/vfla-20261113-geometry/allbins-r1-summary.json"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-original64-centre-drift-r1-bins.jsonl.gz",
+      "bytes": 201855,
+      "sha256": "ecdc066e97084bfd4f3a74e445a196f94351326dbf6dfd2b5c161aeb85ead069",
+      "original_output_path": "/tmp/vfla-20261113-geometry/allbins-r1-bins.jsonl.gz"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-original64-centre-drift-r1-resource.json",
+      "bytes": 1122,
+      "sha256": "f0bac433a485a7c1dbaf4fb0141868cb2475eecad17e49aa131ddfa9df4d3ffc",
+      "original_output_path": "/tmp/vfla-20261113-geometry/allbins-r1-resource.json"
+    }
+  ],
+  "source": "computations/tail_r103_original_all_bins_centre_drift.py",
+  "source_sha256": "877ed62a25f854bcd77e52e3d75f41328645be45b4003ab361af8f8f7e331604",
+  "actual_exitcode": 0,
+  "actual_termination_signal": null,
+  "whole_position_drift_upper_decimal": "2.497071993230705260841942054290693e-7",
+  "original_leaves": 1740,
+  "positive_bins": 64
+}

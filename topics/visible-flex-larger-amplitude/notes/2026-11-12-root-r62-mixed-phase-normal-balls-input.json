@@ -1,0 +1,117 @@
+{
+  "scope": "Exact arithmetic conditional examples; no candidate surface is certified",
+  "cases": [
+    {
+      "moving_position": [
+        "1/5",
+        "0",
+        "0"
+      ],
+      "fixed_position": [
+        "1/20",
+        "1/25",
+        "1/50"
+      ],
+      "moving_normal_centre": [
+        "3/5",
+        "0",
+        "4/5"
+      ],
+      "fixed_normal_centre": [
+        "1",
+        "0",
+        "0"
+      ],
+      "moving_position_radius": "1/1000",
+      "fixed_position_radius": "1/1000",
+      "moving_normal_radius": "1/100",
+      "fixed_normal_radius": "1/100",
+      "tau": "3/25",
+      "name": "coupled-phase-quartic-needed"
+    },
+    {
+      "moving_position": [
+        "1/5",
+        "0",
+        "0"
+      ],
+      "fixed_position": [
+        "0",
+        "0",
+        "0"
+      ],
+      "moving_normal_centre": [
+        "1",
+        "0",
+        "0"
+      ],
+      "fixed_normal_centre": [
+        "1",
+        "0",
+        "0"
+      ],
+      "moving_position_radius": "0",
+      "fixed_position_radius": "0",
+      "moving_normal_radius": "0",
+      "fixed_normal_radius": "0",
+      "tau": "3/25",
+      "name": "actual-radial-bottleneck-rejected"
+    },
+    {
+      "moving_position": [
+        "6/25",
+        "0",
+        "0"
+      ],
+      "fixed_position": [
+        "0",
+        "0",
+        "0"
+      ],
+      "moving_normal_centre": [
+        "1",
+        "0",
+        "0"
+      ],
+      "fixed_normal_centre": [
+        "1",
+        "0",
+        "0"
+      ],
+      "moving_position_radius": "0",
+      "fixed_position_radius": "0",
+      "moving_normal_radius": "0",
+      "fixed_normal_radius": "0",
+      "tau": "3/25",
+      "name": "exact-two-tau-equality"
+    },
+    {
+      "moving_position": [
+        "1/5",
+        "0",
+        "0"
+      ],
+      "fixed_position": [
+        "1/20",
+        "1/25",
+        "1/50"
+      ],
+      "moving_normal_centre": [
+        "0",
+        "0",
+        "1"
+      ],
+      "fixed_normal_centre": [
+        "0",
+        "0",
+        "1"
+      ],
+      "moving_position_radius": "1/1000",
+      "fixed_position_radius": "1/1000",
+      "moving_normal_radius": "1/100",
+      "fixed_normal_radius": "1/100",
+      "tau": "3/25",
+      "name": "both-tangent-normal-chords"
+    }
+  ]
+}

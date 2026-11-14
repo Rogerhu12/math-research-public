@@ -1,0 +1,26 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/prepared/closure_middle_r96_source_probe.py",
+    "--green",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-m94m96-real-r1.json",
+    "--green-sha256",
+    "3fd1f63764eea4c6141e6409096194356583250576c5af92954607f1c0c8c2f3",
+    "--green-source",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/closure_outer_middle_volterra_recovered_v1.py",
+    "--r96-wide",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/inputs/2026-11-12-closure-low-spectral-wide-tail-v1.json",
+    "--out",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-m94m96-r96-probe-r1.json",
+    "--rss-kib",
+    "40960"
+  ],
+  "wall_seconds": 0.04879307746887207,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 11648,
+  "user_seconds": 0.032036999999999996,
+  "system_seconds": 0.004137,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

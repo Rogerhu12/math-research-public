@@ -1,0 +1,330 @@
+{
+  "scope": "Nonlinear two-control prefix at an m2/m4 double linear resonance.\n\nThe first support coefficient q and a specified second support coefficient\nare fixed. Delta and either vd or boost_length replace the corresponding\nmatching constraints; higher support modes remain unknown. All\noutputs are finite LINEAR-tail-DN prefixes, never complete closed surfaces.\n",
+  "solver_success": false,
+  "base_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.16134505278447636,
+    "vu": 0.32,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8644270801836136,
+    "boost_length": 0.12448680155192346,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.7475,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "requested_q": 0.09,
+  "modes": 24,
+  "source_git_head": "869436630c99aa5a68afb55bd8877c826034d117",
+  "secondary_law": "linear",
+  "secondary_scale": 0.2,
+  "requested_meridian_chart": "all-knots",
+  "second_design_control": "boost_length",
+  "interface_hashes": {
+    "root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "geometric-general-core-chart.py": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+    "numerical-m2-prefix.py": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+    "root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+    "alternative-angle-plateau-connector.py": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7",
+    "alternative-direct-tail-connector.py": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+  },
+  "warm_start": {
+    "checkpoint": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz",
+    "metadata_sha256": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+    "checkpoint_solver_success": true,
+    "conversion": {
+      "scope": "Exact accepted raw fields on their recorded numerical reference; subsequent tangent steps are a new-design warm guess only.",
+      "prior_parameter_count": 24,
+      "parameter_count": 27,
+      "all_prior_core_parameters_retained": true,
+      "geometry_offsets_rebased_to_frozen_physical_profile": true,
+      "old_and_new_gauge": 0.09,
+      "amplitude_scaling": "none",
+      "raw_mesh_retained_bitwise": true,
+      "nominal_field_retained_before_tangent": true,
+      "numerical_reference_knots_retained_bitwise": true,
+      "actual_target_core": [
+        0.09499996014428179,
+        -0.00671750943198616,
+        -0.0004116733380408847
+      ],
+      "physical_design_changed": true,
+      "final_acceptance_bypassed": false,
+      "whole_field_actual_tangent": {
+        "response_file": "notes/2026-11-12-strong-q095-actual-fixed-control-response.json",
+        "sha256": "72d6615a3699769451dd9af11bb89a769ba2fb9651438cde72da5fe485efb36c",
+        "complete_field_and_all_core_kept": true,
+        "weights": [
+          {
+            "direction": "descending_turn_curvature",
+            "weight": -0.0025,
+            "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-descending_turn_curvature.npy.gz",
+            "sha256": "181b136fa556c3c0b37723cad79949f3b9149aaf325927567cce20fc9e70d0f6"
+          }
+        ],
+        "predicted_geometry_increment": {
+          "delta": -1.0736536741886666e-05,
+          "boost_length": -0.00015755281595578816,
+          "boost_speed": 6.09470407094874e-05
+        },
+        "old_fixed_tail_entries_are_core_not_geometry": true,
+        "new_geometry_entries_appended_explicitly": true,
+        "warm_only": true,
+        "nonlinear_solution": false
+      },
+      "warm_inlet_correction_max": 2.4447802095262094e-08,
+      "warm_physical_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.16133431624773448,
+        "vu": 0.32,
+        "vd": 0.98,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.864488027224323,
+        "boost_length": 0.12432924873596767,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.7475,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "warm_actual_core": [
+        0.09499996014428179,
+        -0.00671750943198616,
+        -0.0004116733380408847,
+        -8.042114206875679e-05,
+        -3.36177445003588e-05,
+        2.2268251704817976e-05,
+        1.509536656301078e-05,
+        -6.846527059640318e-06,
+        -1.2226334733541495e-06,
+        -6.089207641458534e-07,
+        -5.449268536156674e-07,
+        -1.1030573971040463e-07,
+        -8.843972366498008e-08,
+        2.869355200852732e-08,
+        1.2956726618297623e-08,
+        -5.401737792160955e-10,
+        1.2988228108034008e-09,
+        4.039895321084899e-10,
+        1.0839368819206398e-09,
+        -5.094726174393557e-09,
+        -1.2383753408753605e-09,
+        8.862394535412772e-10,
+        3.917127084568595e-11,
+        1.508051564750672e-10
+      ]
+    }
+  },
+  "error": "RuntimeError('Explicit actual warm inspection complete; no solve requested')",
+  "seconds": 169.41860914230347,
+  "bounded_actual_coupling": {
+    "scope": "Run the unchanged actual finite-tail coupling with bounded storage.\n\nThe original stored tail metric, complete physical height boundary vector,\nnonlinear tail checks and physical acceptance remain in force. Independent\nradial batches and the verified block QR solve the same prefix Jacobian.\nThe bounded tail client retains the original profile and full mean. This is\nan actual finite joined problem, not an exact infinite closed surface. The\nprefix normally retains its physical design controls. With an explicit\n--fixed-reference, the existing actual fixed-metric adapter instead freezes\nthe complete physical data and solves all core coefficients as boundary data.\nOptional --geometric-flow-cache-size (default 0) uses the independently\nchecked exact-constructor cache for the prefix; it never caches tail solves.\nThe explicit --client stored-resumable option additionally saves accepted\ntail trials for recovery. It preserves the same solve and acceptance gates;\nthe default remains stored-bounded. A recovery trial is not a final response.\n",
+    "entry_source_sha256": {
+      "root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+      "root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+      "strong_neck_bvp.py": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+      "strong_block_qr.py": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+      "root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+      "tail_stored_client.py": "3a3578dfd4fb15423b8c15c2554cb85fcf6c1fa095782684e11155bd6855de17",
+      "root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+      "root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+      "root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+      "tail_resumable_client.py": "8bf14c0e8857289cff953dba9aaa8d82de8b0cf515ca760b775aca9985b802e5",
+      "tail_resumable_worker.mjs": "a84afb87a089603edfd44867903ea474d1a70bea2661eeaf2693964d067026da",
+      "tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8",
+      "strong_flow_lru.py": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2"
+    },
+    "transforms": {
+      "geometric-fixed-dual-prefix.py": {
+        "original_sha256": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+        "replacements": []
+      },
+      "root_actual_neck_bvp.py": {
+        "file": "root_actual_neck_bvp.py",
+        "original_sha256": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+        "compiled_sha256": "5b95479e39b2c6f81330f13593dc1cded7c2111c91547d18dff8c5314b8dec2a",
+        "replacements": [
+          {
+            "old": "'stored-resumable':HERE/'tail_resumable_client.py',",
+            "new": "'stored-resumable':HERE/'tail_frozen_client.py',",
+            "count": 1
+          }
+        ]
+      },
+      "tail_frozen_client.py": {
+        "original_sha256": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+        "replacements": []
+      },
+      "root_dual_core_bvp.py": {
+        "original_sha256": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+        "replacements": [
+          {
+            "old": "import numpy as np",
+            "new": "import numpy as np\nimport root_radial_batching as radial",
+            "count": 1
+          },
+          {
+            "old": "t=merge_profile_mesh(np.linspace(0,1,nodes),self.chart_breaks)\n            s,_=self.chart(t,p[0])\n            arrays,record=pullback.convert",
+            "new": "grid=self.inverse_chart(np.asarray(saved.sol.x),p[0]) if nodes<=0 else np.linspace(0,1,nodes)\n            t=merge_profile_mesh(grid,self.chart_breaks)\n            s,_=self.chart(t,p[0])\n            arrays,record=pullback.convert",
+            "count": 1
+          },
+          {
+            "old": "return ds[None,:]*f.fun(s,y,p)",
+            "new": "return ds[None,:]*radial.value(f,s,y,p)",
+            "count": 1
+          },
+          {
+            "old": "J,_=f.fun_jac(s,y,p)",
+            "new": "J=radial.state_jacobian(f,s,y,p)",
+            "count": 1
+          },
+          {
+            "old": "self.select(p);self.flow(p[0])\n            return ds[None,None,:]*J,PJ",
+            "new": "self.select(p);self._flow=f;self._flow_key=(float(p[0]),float(p[1]))\n            return ds[None,None,:]*J,PJ",
+            "count": 1
+          },
+          {
+            "old": "            if scale=='linear':\n                N=max(512,32*(2*self.M+1));g=f.geo(s,N);theta=g['theta']\n                radial=np.stack((np.cos(theta),np.sin(theta),np.zeros_like(theta)),axis=-1)\n                background=f.profile(s)[0][:,None,None]*radial\n                B,_,_=f.basis(N)\n                y=ratio*y+(ratio-1)*f.project(g['pos']-background,B)/self.q",
+            "new": "            if scale=='linear' and ratio!=1.:\n                N=max(512,32*(2*self.M+1));B,_,_=f.basis(N)\n                for first in range(0,len(s),24):\n                    sl=slice(first,first+24);g=f.geo(s[sl],N);theta=g['theta']\n                    radial=np.stack((np.cos(theta),np.sin(theta),np.zeros_like(theta)),axis=-1)\n                    background=f.profile(s[sl])[0][:,None,None]*radial\n                    y[:,sl]=ratio*y[:,sl]+(ratio-1)*f.project(g['pos']-background,B)/self.q",
+            "count": 1
+          }
+        ]
+      },
+      "numerical-m2-prefix.py": {
+        "original_sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+        "replacements": []
+      },
+      "geometric-general-core-chart.py": {
+        "original_sha256": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+        "replacements": []
+      },
+      "alternative-neck-provider.py": {
+        "original_sha256": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+        "replacements": []
+      },
+      "root_neck_chart.py": {
+        "original_sha256": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+        "replacements": []
+      },
+      "root_domain_newton.py": {
+        "original_sha256": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+        "replacements": [
+          {
+            "old": "factor = splu(jac(y, p, ym, ff, fm, br))",
+            "new": "factor = _strong_block_factor(jac(y, p, ym, ff, fm, br),n,m,len(p))",
+            "count": 1
+          },
+          {
+            "old": "try:\n                factor =",
+            "new": "factor = None\n            try:\n                factor =",
+            "count": 1
+          },
+          {
+            "old": "residual, cr, ym, ff, fm, br = data",
+            "new": "residual, cr, ym, ff, fm, br = data\n        _strong_trace(\"newton_iteration\", call=STATS[\"calls\"], iteration=iteration, nodes=m, factors=factors, updates=updates, collocation_scaled_max=float(np.max(abs(cr)/(h[None,:]*(1+abs(fm))))), boundary_max=float(np.max(abs(br))))",
+            "count": 1
+          },
+          {
+            "old": "try:\n                factor =",
+            "new": "try:\n                _strong_trace(\"newton_factor_begin\", iteration=iteration, nodes=m)\n                factor =",
+            "count": 1
+          },
+          {
+            "old": "cost = float(step@step)",
+            "new": "cost = float(step@step)\n            _strong_trace(\"newton_merit\", iteration=iteration, merit=cost, step_max=float(np.max(abs(step))))",
+            "count": 1
+          },
+          {
+            "old": "STATS['rejected_domain_trials'] += 1",
+            "new": "STATS['rejected_domain_trials'] += 1\n                _strong_trace(\"newton_trial\", iteration=iteration, alpha=alpha, status=\"outside-domain\")",
+            "count": 1
+          },
+          {
+            "old": "if np.isfinite(newcost) and newcost < (1-.4*alpha)*cost:",
+            "new": "_strong_trace(\"newton_trial\", iteration=iteration, alpha=alpha, status=\"evaluated\", merit=newcost, old_merit=cost, armijo=bool(np.isfinite(newcost) and newcost < (1-.4*alpha)*cost))\n            if np.isfinite(newcost) and newcost < (1-.4*alpha)*cost:",
+            "count": 1
+          },
+          {
+            "old": "y, p, data, step, cost, alpha = accepted",
+            "new": "y, p, data, step, cost, alpha = accepted\n        _strong_trace(\"newton_accepted\", iteration=iteration, alpha=alpha, merit=cost)",
+            "count": 1
+          }
+        ],
+        "actual_checkpoint_only_observation": {
+          "replacements": [
+            {
+              "old": "    data = evaluate(y, p)\n",
+              "new": "    data = evaluate(y, p)\n    _strong_actual_checkpoint(col_fun,y,p,data,0,\"newton-entry\",bvp_tol,bc_tol,STATS)\n",
+              "count": 1
+            },
+            {
+              "old": "        y, p, data, step, cost, alpha = accepted\n",
+              "new": "        y, p, data, step, cost, alpha = accepted\n        _strong_actual_checkpoint(col_fun,y,p,data,iteration+1,\"accepted-newton\",bvp_tol,bc_tol,STATS)\n",
+              "count": 1
+            },
+            {
+              "old": "    return y, p, False",
+              "new": "    _strong_actual_checkpoint(col_fun,y,p,data,iteration,\"newton-return\",bvp_tol,bc_tol,STATS)\n    return y, p, False",
+              "count": 1
+            }
+          ],
+          "equations_changed": false,
+          "acceptance_changed": false,
+          "unique_immutable_pieces": true,
+          "keep_latest_complete": 2
+        }
+      },
+      "geometric-checkpoint-core-pullback.py": {
+        "original_sha256": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33",
+        "replacements": []
+      }
+    },
+    "linear_solver": "direct-block-balanced-QR",
+    "collect_flow_cycles_after_each_jacobian_batch": true,
+    "defer_tail_start_until_prefix_recovery": true,
+    "original_g_tail_client": "stored-resumable",
+    "immediate_tail_recovery_checkpoints": true,
+    "geometric_flow_cache": {
+      "size": 8,
+      "instances": [
+        {
+          "size": 8,
+          "stats": {
+            "hits": 0,
+            "misses": 2,
+            "bypassed": 0,
+            "evictions": 0,
+            "maximum_entries": 2,
+            "constructor_cpu_seconds": 0.07794834300000009,
+            "constructor_wall_seconds": 0.47980406699934974
+          }
+        }
+      ],
+      "scope": "Identical prefix Flow constructors only; actual tail requests and checks are unchanged."
+    },
+    "newton_residual_factor": 1.0,
+    "stored_tail_metric_unchanged": true,
+    "prefix_design_controls_may_change": true,
+    "actual_fixed_metric_refinement": false
+  }
+}

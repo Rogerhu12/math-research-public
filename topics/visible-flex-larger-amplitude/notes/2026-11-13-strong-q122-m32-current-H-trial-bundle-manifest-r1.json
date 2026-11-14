@@ -1,0 +1,71 @@
+{
+  "scope": "Original new-H M32 call2 accepted trial1, completely bound to the genuine pending prefix full H. Recovery only; no final full-J/audit/physical-BC acceptance inferred.",
+  "created_utc": "2026-11-13T14:48:46.887378+00:00",
+  "recovery_manifest": {
+    "file": "notes/2026-11-13-strong-q122-m32-current-H-call2-trial1-r1-manifest.json",
+    "sha256": "768066128f5f68167386c8cc71169013f157c7a9047ac3e46e113f92a5b20da0"
+  },
+  "owned_archive": {
+    "exitcode": 0,
+    "wall_seconds": 1.5077561090001836,
+    "peak_rss_kib": 36212
+  },
+  "original_iteration": {
+    "iteration": 1,
+    "norm": 1.4714206054491722e-10,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 0,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  },
+  "full_current_H_bits_match_pending_raw": true,
+  "original_live_job_not_interrupted": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-current-H-call2-trial1-r1.json.gz",
+      "sha256": "f860cfd5412a4cd6e7fa79b137c00a3c3a8cedf44ee3b2db5b1acd2be96d51f8",
+      "bytes": 376456
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-current-H-call2-trial1-r1-observed-trace.json",
+      "sha256": "0618f3621b48eb3ec3645b65dde67d41bb4d2f831282d8ca8dc7ba0de4c4aebd",
+      "bytes": 3311
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-config.json",
+      "sha256": "6abad8c130950dc7d9087cb885ce15fb772df1f2a2500c3a9a607b64de6994d7",
+      "bytes": 2905
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-current-H-call2-trial1-r1-manifest.json",
+      "sha256": "768066128f5f68167386c8cc71169013f157c7a9047ac3e46e113f92a5b20da0",
+      "bytes": 7927
+    },
+    {
+      "file": "computations/strong_archive_current_H_tail_trial.py",
+      "sha256": "54559ec64aa3ac9ad2a45f4504ef1cd0f6f5780e8e85fb920184185c9d2e3288",
+      "bytes": 8113
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-current-H-trial-archive-r1-heartbeat.json",
+      "sha256": "2bffd2f02c378b63e34f6eb11df869ea07fbaa2bc1d502212d5b024b3cbf9ae5",
+      "bytes": 311
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-current-H-trial-archive-r1-ownership.json",
+      "sha256": "8141bb78ee2f6cc6f744cb90d35974bc258a78806c2e2969c530aef3cbcba8d7",
+      "bytes": 2242
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-current-H-trial-archive-r1-resource.json",
+      "sha256": "87dcd4692e4dae5e9dbeeb1fb35a58d4d3456ccde3c4a23b504d3549f32c1a51",
+      "bytes": 2027
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-current-H-trial-archive-r1-stdout.log",
+      "sha256": "bc2fb6cb2fd468a2245ae8463cdcb86e1aa18e7f0b4b9550729ef5a3916889f6",
+      "bytes": 2175
+    }
+  ],
+  "total_bytes": 405467
+}

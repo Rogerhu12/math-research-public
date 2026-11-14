@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "assertion": "All graph and gain values are bitwise equal; sampled physical profiles unchanged.",
+  "options": {
+    "modes": 3,
+    "spacing": 2,
+    "linearFar": 12,
+    "linearSteps": 64
+  },
+  "rawDepth": 4,
+  "shootingParts": 4,
+  "counts": {
+    "graphs": 435,
+    "gains": 432
+  },
+  "maxAbsolute": 0,
+  "maxRelative": 0,
+  "mismatches": [],
+  "headFingerprintBefore": "949be23e5f59ac5654455e44bedff483a59fd49f524c35a016d2b3145e10315b",
+  "headFingerprintAfter": "949be23e5f59ac5654455e44bedff483a59fd49f524c35a016d2b3145e10315b",
+  "entrypointHashes": {
+    "closure_graph_equivalence.mjs": "667d9c35290d32aa743ac594628cf7861a7a5b6782ffafe639c4d7aedef8f070",
+    "closure_linear_stage_graphs.mjs": "be119b692fa20ea4cc646ff6c0e109fe473076974689558b4551c46e00359fdd",
+    "closure_bounded_point_cache.mjs": "35289a4de44ec409bc211f82c7a1bee81a10c6bc1c5fb31e4ca9a8634cc09043"
+  },
+  "sourceHashes": {
+    "weighted": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "stages": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+  },
+  "portPath": "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+  "portSHA256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+  "elapsedSeconds": 36.825,
+  "peakRSSKiB": 143432,
+  "scope": "Finite floating equivalence check for this configuration, not an interval proof or infinite-tail result."
+}

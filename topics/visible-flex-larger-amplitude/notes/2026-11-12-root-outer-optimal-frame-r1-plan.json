@@ -1,0 +1,32 @@
+{
+  "status": "Prepared only; complete original stream execution follows separately",
+  "utc": "2026-11-12T16:05:22.623217+00:00",
+  "source": "computations/root_outer_optimal_frame_budget.py",
+  "source_sha256": "ef41df6103a8c8b9cabc4ac8f2be133a244d5e0361e7d861ff7266426498e63b",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/root_outer_optimal_frame_budget.py",
+    "--cell-manifests",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json",
+    "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json",
+    "--old-flow",
+    "notes/2026-11-12-tail-outer-background-flow-m2m4-11to10-r2.json",
+    "--cut-trace",
+    "notes/2026-11-12-closure-strong-true-cut-trace-r1.json",
+    "--out-prefix",
+    "notes/2026-11-12-root-outer-optimal-frame-r1",
+    "--minimum-frame",
+    "1/256",
+    "--precision",
+    "192",
+    "--rss-kib",
+    "40960"
+  ],
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json": "ed68183d518c7abf99c84dd0aeab04b559993f9114d1ee153b1d2ca9c3d3fc4b",
+    "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json": "144ee0b93afb41cd55f1c542a09fe6c8e3002904409ec56b8e6d0b38842bd65b",
+    "notes/2026-11-12-tail-outer-background-flow-m2m4-11to10-r2.json": "ee2fa951a74608296c7036a5ccc3e8f38a241b3f0ca27d481f31fb076f595815",
+    "notes/2026-11-12-closure-strong-true-cut-trace-r1.json": "44db92699bd9bf3d8ba613465b013033c82a7ed9f8fc8e5cc1f6a003539ad494"
+  },
+  "scope": "Choose one exact positive dyadic constant frame per original true panel; unchanged equations/source/order. Pay all jumps and endpoint norm conversions. No nonlinear inverse claim."
+}

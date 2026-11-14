@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-12",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Complete R94 proof and actually executed exact scalar ledger",
+  "execution": {
+    "engine": "functions.exec V8 BigInt",
+    "new_Arb_ODE_source_integral_or_terminal_worker": false,
+    "elapsed_milliseconds": 220
+  },
+  "mathematical_gates": 35,
+  "input_sha256_checks": 5,
+  "all_gates": true,
+  "files": [
+    {
+      "path": "computations/closure_r94_full46_cut_budget.js",
+      "git_blob": "77e26da910da6d4111a1a6bdbc5e6466335a47d3",
+      "sha256": "7907fac7edb48e2ffcbbf5c9e39206401c5483a80eb7d319e72c75d825d22cb5",
+      "bytes": 16023
+    },
+    {
+      "path": "notes/2026-11-12-root-r94-full46-cut-exact-ledger.json",
+      "git_blob": "ff09abd2d22aceaeb87e318814195401b480f44d",
+      "sha256": "5eb45673a9080ae251e77c3203cfc2142ba31850fc244c7e2c8500df774249bc",
+      "bytes": 41382
+    },
+    {
+      "path": "results/R94-full46-true-cut-and-conditional-exterior.md",
+      "git_blob": "4c7f10f02e4fea96c765fd661fa496616c8a559b",
+      "sha256": "7ebf85ec5a00dc93d3adb9d01ca308b72f98ac32b8351fd4b45e55143191a8a2",
+      "bytes": 14781
+    }
+  ],
+  "inputs": [
+    {
+      "key": "r59",
+      "path": "notes/2026-11-12-closure-strong-parameter-domain-r1-summary.json",
+      "git_blob": "20f071d10dfd7ccd9529f5d8a85781d83f1440de",
+      "sha256": "4642dd6fa011d587f46e86671aa1a0c1df762b0502e33d8073020e5c128cc227"
+    },
+    {
+      "key": "r78",
+      "path": "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+      "git_blob": "0d35efd94411457faf73c129d73af16eb7e003de",
+      "sha256": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930"
+    },
+    {
+      "key": "r91",
+      "path": "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+      "git_blob": "ad94de7b118c251d0298e9d22d0d5161cc010c51",
+      "sha256": "badc734ef590c747d62fc75bd57ce2571bd89e8c522604b691406f469d47392f"
+    },
+    {
+      "key": "r92",
+      "path": "notes/2026-11-12-root-r92-product-parameter-exact-ledger.json",
+      "git_blob": "00eb0b20a97f82c0885b9e0f383f25fa67429469",
+      "sha256": "9ef88cdeef25ed0dd688082e53b25b5f8aacda2bd67c9dada61c250cefa4052a"
+    },
+    {
+      "key": "r93",
+      "path": "notes/2026-11-12-closure-r93-positive-prefix-high-exact-ledger.json",
+      "git_blob": "c8f939de37107739be41890b7007cdb1e62fb996",
+      "sha256": "c55f52b53182ee6a9c5fe8f4a61ac209f785cd233b443c14e7109fea2b7a8277"
+    }
+  ],
+  "theorem_bounds": [
+    {
+      "path": "results/R59-actual-strong-full46-parameter-family.md",
+      "git_blob": "447344660f4d65835047d9e2503ccd93b2b71b7a",
+      "equation": "59.22",
+      "bound": "2.532e-20"
+    },
+    {
+      "path": "results/R61-strong-positive-parameter-columns-and-true-cut.md",
+      "git_blob": "84d0da902e30b4eff27762b5477944cc5152715a",
+      "equation": "61.22",
+      "bound": "1.866468114819e-26"
+    },
+    {
+      "path": "results/R83-complete-head-difference-at-true-cut.md",
+      "git_blob": "4983c676ccf683f41a728aa94f966bc24ff05591",
+      "section": "5",
+      "bounds": [
+        "whole low W_tau_b 1.169846811e-48",
+        "complete cut nonmean 3.187952530e-30"
+      ]
+    }
+  ],
+  "scope": {
+    "R92_parameter_domain_paid": true,
+    "all46_true_inner_DN_and_single_cuff_mean": true,
+    "absolute_low_projection_equation": true,
+    "high_response_for_given_middle": true,
+    "middle_self_equation": false,
+    "low_high_backreaction": false,
+    "all46_cut_consistency": false,
+    "outer0_to9": false,
+    "closed_family_or_README_completion": false
+  },
+  "no_new_Arb_or_terminal_Node": true,
+  "local_environment": "unavailable; V8 exact scalar execution only",
+  "replay_command": "node computations/closure_r94_full46_cut_budget.js . notes/2026-11-12-root-r94-full46-cut-exact-ledger-replay.json",
+  "no_MJS_changed": true
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "actual-owned-archive-storage-index-v1",
+  "main_manifest": {
+    "file": "notes/2026-11-13-strong-q126-m32-accepted-recovery-manifest-r1.json",
+    "sha256": "3e13322c21e0fcd5cb3b09b7b483260e8433632ef8828d3092dd595697795ecb"
+  },
+  "owned_exitcode": 0,
+  "resource": {
+    "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+    "task_prefix": "notes/2026-11-13-strong-q126-m32-accepted-storage-r1",
+    "command": [
+      "python",
+      "-u",
+      "computations/strong_archive_accepted_fullflow_actual_v2.py",
+      "--actual-prefix",
+      "notes/2026-11-13-strong-q126-m32-tail2-actual-r1",
+      "--archive-topic",
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+      "--reuse-pending-raw",
+      "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-outer-00-raw-collocation.json.gz",
+      "--manifest",
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-accepted-recovery-manifest-r1.json"
+    ],
+    "started_utc": "2026-11-13T17:29:00.080952+00:00",
+    "finished_utc": "2026-11-13T17:29:05.596665+00:00",
+    "wall_seconds": 5.527606586001639,
+    "exitcode": 0,
+    "termination_signal": null,
+    "wait4_observed": true,
+    "wait_status": 0,
+    "peak_rss_kib": 103192,
+    "user_seconds": 1.432381,
+    "system_seconds": 0.6557459999999999,
+    "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+    "received_supervisor_signals": [],
+    "owned_child_pid": 6,
+    "supervisor_pid": 5,
+    "supervisor_pid_namespace": "pid:[4026533515]",
+    "automatic_restarts": 0
+  },
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-accepted-storage-r1-heartbeat.json",
+      "sha256": "80942c92625b5e7899b11b890f36eb6edc63d071c42a5bfb1961482901e69318",
+      "bytes": 297,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-accepted-storage-r1-heartbeat.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-accepted-storage-r1-ownership.json",
+      "sha256": "960a9f715f260f90215f1b0287bbb6fe6d80d20fdfb2a3681017a70f5487166a",
+      "bytes": 1843,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-accepted-storage-r1-ownership.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-accepted-storage-r1-resource.json",
+      "sha256": "e32ef6e4cebd765283b70bb937006654d00c0adf84cc4c3d87cb3fed9b17a16d",
+      "bytes": 1652,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-accepted-storage-r1-resource.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-accepted-storage-r1-stdout.log",
+      "sha256": "53d7091d6703650722c1c473799ac6527825508214e4966f3ab2ce544a8de94d",
+      "bytes": 1901,
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-accepted-storage-r1-stdout.log"
+    }
+  ]
+}

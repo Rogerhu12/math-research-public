@@ -1,0 +1,83 @@
+{
+  "status": "Complete actual strong same-q-strip source-domain and two-high-support scaling; strong641 verification is separate",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "computations/tail_r42_same_strip_strong_split.py",
+      "bytes": 13602,
+      "sha256": "f6af1318eee63601335031b063dd12ed1a950f6062a954f2da77a726c4969ef0"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-split-plan.json",
+      "bytes": 2753,
+      "sha256": "afd70cae4d6dac226555f2110cac87bf5b4f0c15d79dd85c77c755278b386719"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-split-execution.md",
+      "bytes": 3279,
+      "sha256": "00409a34732ea644e6fa22d82859af1d909657536c90efab557d7ab5f0f25b5e"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "bytes": 281853,
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-same-tau-r1-split.json.gz",
+      "bytes": 753297,
+      "sha256": "b31ba4868bf825fe19981af820f92d798161df027519992b9380a4b9f7f6b5dd"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-same-tau-r1-summary.json",
+      "bytes": 5494,
+      "sha256": "86ff2f2ada971e624300de079f13c981b6835ac7033f95b70b4723e51085fb41"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-same-tau-r1-resource.json",
+      "bytes": 721,
+      "sha256": "d07bf9b7ca0ec3732834f3c31201420766270980494858a2abf855be9a455d4e"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-same-tau-r1-resource.jsonl",
+      "bytes": 46166,
+      "sha256": "647f8e7aea5860aac47d97c369f8cda72d5b10452a225a7e878ad8a8d3182213"
+    }
+  ],
+  "execution": {
+    "session_id": 40535,
+    "formal_exit_code": 0,
+    "completion_chunk": "1a6277",
+    "elapsed_seconds": 12.74798736000048,
+    "peak_RSS_KiB": 50896,
+    "resource_events": 437,
+    "all10_source_gates": true
+  },
+  "sigma_lower": {
+    "lower": {
+      "mantissa": "800940900940596190617571629848463410706238077481286595319",
+      "binary_exponent": -185
+    },
+    "upper": {
+      "mantissa": "1601881801881192381235143259696926821412476154962573190639",
+      "binary_exponent": -186
+    },
+    "display": "[16.3324476234701123697332781691787582796057994276099001715 +/- 2.29e-56]"
+  },
+  "sigma_upper": {
+    "lower": {
+      "mantissa": "109440409628905393124647772750145337121653375775228551287",
+      "binary_exponent": -182
+    },
+    "upper": {
+      "mantissa": "1751046554062486289994364364002325393946454012403656820593",
+      "binary_exponent": -186
+    },
+    "display": "[17.8532998482771276826084667792697966465359134947323496447 +/- 8.18e-57]"
+  },
+  "scope": "Actual R39 q085M20 on the rational-deep source; full46 parameters retained",
+  "same_continuous_strip": "Defined identical to q(r), with explicit source origin; native strong tau not reused",
+  "q_value_identity_not_claimed_for_strong": true,
+  "new_ODE_or_source_integrations": 0,
+  "strong_full641_gate_claimed_here": false,
+  "released_to": "exact_closure strong low rescaling and v2 full641 check"
+}

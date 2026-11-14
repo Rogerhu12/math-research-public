@@ -1,0 +1,70 @@
+{
+  "schema": "visible-flex-exact-resume-Hermitian-exact-consumer-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "status": "Exact rational consumer of completed linear bounds; sufficient old physical-block nonlinear comparison still fails",
+  "all_gates": true,
+  "gates": {
+    "full18_targets": true,
+    "full18_diagonal_targets": true,
+    "same_declared_modes": true,
+    "all_original_enclosure_gates": true,
+    "all_new_comparison_gates": true,
+    "all108_material_diagonals_consumed": true,
+    "final_scalar_min_also_keeps_original_bound": true
+  },
+  "material_diagonals_improved": {
+    "2": 12,
+    "1": 16,
+    "0": 16
+  },
+  "rounded_component_sum_above_old_scalar": 27,
+  "scalar_selection": "min(original scalar row, new outward sum of componentwise minima)",
+  "physical_block_diagonal_failures": [
+    {
+      "cell": 11,
+      "segment": 3,
+      "mode": 94,
+      "comparison_diagonal_40Gamma1": {
+        "numerator": "49921357200137199097808607505",
+        "denominator": "618970019642690137449562112",
+        "display": 80.65230239899998
+      }
+    },
+    {
+      "cell": 11,
+      "segment": 3,
+      "mode": 96,
+      "comparison_diagonal_40Gamma1": {
+        "numerator": "392462914193461376035499278805",
+        "denominator": "4951760157141521099596496896",
+        "display": 79.25725433762054
+      }
+    },
+    {
+      "cell": 10,
+      "segment": 3,
+      "mode": 94,
+      "comparison_diagonal_40Gamma1": {
+        "numerator": "98578338308846328635207903725",
+        "denominator": "2417851639229258349412352",
+        "display": 40771.04513338555
+      }
+    },
+    {
+      "cell": 10,
+      "segment": 3,
+      "mode": 96,
+      "comparison_diagonal_40Gamma1": {
+        "numerator": "105000935784661382918934471835",
+        "denominator": "2417851639229258349412352",
+        "display": 43427.36919049866
+      }
+    }
+  ],
+  "full_nonlinear_contraction": false,
+  "actual_operator_lower_bound_claimed": false,
+  "full_problem_infeasible_claimed": false,
+  "source_parameters_changed": false,
+  "next_source_sha256": "aef6017aa6365ef11c0c0dc18252cbab1b02ed77f921ea2a4f213abc9b089a9b",
+  "next_obligation": "Same signed source-origin tensor with actual target-leaf local V division and weak C/U readout; full original tensor retained unchanged."
+}

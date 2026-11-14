@@ -1,0 +1,125 @@
+{
+  "schema": "visible-flex-r110-exact-canonical-inner-source-stable-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "created_utc": "2026-11-13 02:50:14 UTC",
+  "status": "Complete conditional proof and actually evaluated universal BigInt coefficient ledger; no new signed scientific source integral",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_inner_canonical_correlation_constants.js",
+      "bytes": 6285,
+      "sha256": "a892855e66f81323779fefd632a4e86025b9c8de6a33c606e0ee8a28495486e1",
+      "git_blob": "cf8ba23e88f40c8648efa9eb4f3a1c9f5988752b"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-inner-canonical-correlation-constants.json",
+      "bytes": 2599,
+      "sha256": "adc130e0d376871ea46624868ab379defdcb8623e87140e1173a9f32d8318993",
+      "git_blob": "aacaaf87524be3bba4bb61b7f7a4d09988f28588"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R110-exact-canonical-inner-source-and-cut-functional.md",
+      "bytes": 22889,
+      "sha256": "0644ca7544cc5b0b5a28787f2f1c01d6ed83096de6163ca614c0be354b9c233e",
+      "git_blob": "9f6606bc3aa095b818a8b678b4f56d49391a140d"
+    }
+  ],
+  "actual_execution": {
+    "engine": "functions.exec V8, exact BigInt rational arithmetic",
+    "checked_utc": "2026-11-13 02:48:45 UTC",
+    "entry": "innerCanonicalCorrelationLedger",
+    "all_gates": true,
+    "gates": 15,
+    "positive_modes": 46,
+    "signed_modes": 92,
+    "ordered_pairs": 8464,
+    "zero_output_pairs": 92,
+    "terminal_process_launched": false,
+    "arb_process_launched": false
+  },
+  "exact_math": {
+    "same_true_canonical_identity": "h_m=r^4 Q_m; Xi_n=r^4 w*(h'_m-m^2 h_m/r)/(sqrt12 mu_n)",
+    "nonmean_correlation": "C=Kbar+P_theta=d_n Xi; Lambda=Kbar+E P_theta=d_n Xi-w^2 m^2 a Q",
+    "mean": "full R33 complex root; R107 signed c2 plus complete Cauchy remainder may be used; c is not included in nonmean C caps",
+    "finite_low_window": {
+      "minimum_abs_mode": 2,
+      "maximum_abs_mode": 92,
+      "signed_mass_order": "sum over modes of radial component suprema",
+      "higher_modes": "finite factors92/93 and8372/8649 are not used beyond92"
+    },
+    "error_decomposition": "N(C_aux)=N(L)+Pi DQ(L)e+Pi Q(e)+R(L+e)-R(L), e is the complete actual auxiliary error including nonlinear far lift",
+    "cut_source_units": "outward source-x N_x; exact multiplier r^4 w^2/(b^4 w_b^2), with the true signed phi_Q normalized to1 atb; no extra r_x or mu ratio",
+    "total_cut": "signed N(L) + complete auxiliary source difference + full-head source difference + one exact true far term"
+  },
+  "read_input_identities": [
+    {
+      "result": "R33",
+      "path": "results/R33-full-head-forcing-on-a-variable-analytic-strip.md",
+      "git_blob": "4f29b80fb1b581741f640ab1043c9a7d5d4ffd5a",
+      "sha256": "08112224b54d4f18198bf22997504f7a7c648688423f41470768a196a6057ce8"
+    },
+    {
+      "result": "R39",
+      "path": "results/R39-actual-strong-m20-node12-low46-head.md",
+      "git_blob": "10c45e2eaf920ef8207015948c33622cad58a708",
+      "sha256": "b1d219d4aa90405d86494cba8bb1a063df479eef272b8a73ba9659d43eba165a"
+    },
+    {
+      "result": "R63",
+      "path": "results/R63-actual-auxiliary-cut-momentum-functional.md",
+      "git_blob": "852ecfb3a3b2931eaf996f2e3dc7d424fd6cbff1",
+      "sha256": "2d4ddc5a14ea9a700648f36298e3dcef6f93aeee49b7c0229a2e883c4f5c43fb"
+    },
+    {
+      "result": "R75",
+      "path": "results/R75-complete-mean-transport-and-shear-constraint.md",
+      "git_blob": "756ff2bad26e7b2cee83a211667ed027e96851c0",
+      "sha256": "75b3d1b15fd3d3b91ba4015354cd335a8e9e6639ec6a4d3ddf8b5cd65e997148"
+    },
+    {
+      "result": "R82",
+      "path": "results/R82-complete-low-cut-source-and-reference-strip.md",
+      "git_blob": "d501a0f847eec6abe6ce6ae532c777a2db2f200d",
+      "sha256": "c381cb824af317110938ce02bf577a429145ff04fb28124c3415bc9682d4db35"
+    },
+    {
+      "result": "R106",
+      "path": "results/R106-physical-correlation-and-complete-mean-remainder.md",
+      "git_blob": "b60078ca01fd324c4f79f9c6b7879280af749b60",
+      "sha256": "73746195d586cb85a4270d1a9084e1296ddddbf730d5591b534cb8c1876b2961"
+    },
+    {
+      "result": "R107",
+      "path": "results/R107-signed-quadratic-complete-mean-centre.md",
+      "git_blob": "12630475385e83b30b0918040d526001bd932a5b",
+      "sha256": "dbec06fd4545601e9a2ad7c0b50b7ee5f269c109d348fe5b041362ae5560fb27"
+    }
+  ],
+  "reproduction": {
+    "cwd": "topics/visible-flex-larger-amplitude",
+    "argv": [
+      "node",
+      "-e",
+      "process.stdout.write(JSON.stringify(require('./computations/closure_inner_canonical_correlation_constants.js').innerCanonicalCorrelationLedger(),null,2)+String.fromCharCode(10))"
+    ],
+    "note": "The recorded mathematical execution used V8 directly. The equivalent Node command uses String.fromCharCode(10) for an unambiguous final newline; its expression was also evaluated in V8 with local require/stdout stand-ins and exactly reproduced the stored ledger. No terminal Node execution is claimed."
+  },
+  "unpaid": [
+    "actual signed all20 linear reference field tubes on all213 true head cells",
+    "actual signed N(L) cut integrals with complete mean and inverse",
+    "actual numerical canonical derivative error functional",
+    "any numerical reduction of the current T-head budget",
+    "remaining middle-window and coupled low/high/full outer-cut closure"
+  ],
+  "preservation": {
+    "only_independent_small_text_blobs": true,
+    "large_primary_transferred_via_API": false,
+    "ref_modified_by_this_agent": false,
+    "shared_index_modified_by_this_agent": false,
+    "owned_active_numerical_processes": 0
+  },
+  "manifest_revision": {
+    "reason": "Unambiguous reproduction newline; proof, mathematical source and actual15-gate ledger unchanged",
+    "supersedes_git_blob": "b88dd75dc79c598523cc718384b8512886265597",
+    "supersedes_sha256": "b34b94681f25ec0c4f0b7ac2f004e9a0d8efb6ea467e59eb7b550beb1626bf09"
+  }
+}

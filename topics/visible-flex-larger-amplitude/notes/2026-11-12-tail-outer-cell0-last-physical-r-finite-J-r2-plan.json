@@ -1,0 +1,26 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Prepared only; wait exact_closure current source-only probe",
+  "command": [
+    "python",
+    "computations/tail_outer_last_piece_finite_j.py",
+    "--candidate",
+    "notes/2026-11-12-tail-outer-cell0-last-physical-r-r1.json",
+    "--nodes",
+    "notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json",
+    "--parts",
+    "16",
+    "--rss-limit-mib",
+    "40",
+    "--out",
+    "notes/2026-11-12-tail-outer-cell0-last-physical-r-finite-J-r2.json.gz"
+  ],
+  "resource_output": "notes/2026-11-12-tail-outer-cell0-last-physical-r-finite-J-r2-resource.json",
+  "source_sha256": "e863f24a5536cb772679b128f914c4c23e7d0f4a1a342441427daf2cae230686",
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-cell0-last-physical-r-r1.json": "3ef8b8fddbd7253e23d2be96821be7de2ea27bcedc2951945be9c33cd5266c68",
+    "notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json": "1ac05db87c40fe4421eb6067d81448a466548060c58a2dfc0c4ea51bd7ed7582"
+  },
+  "same_original_candidate_g_two_jets_and_mean": true,
+  "new_source_integrals_or_ODEs": 0
+}

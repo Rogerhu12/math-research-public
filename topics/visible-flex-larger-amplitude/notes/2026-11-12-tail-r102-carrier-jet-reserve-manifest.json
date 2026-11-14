@@ -1,0 +1,58 @@
+{
+  "schema": "r102-carrier-jet-application-manifest-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-13",
+  "status": "Actually executed finite positive-budget application; not a new numbered theorem",
+  "files": [
+    {
+      "path": "notes/2026-11-12-tail-r102-carrier-five-jet-reserve.md",
+      "git_blob": "fba0412f53ce90bfaf8088faccf299811f936682",
+      "sha256": "b2e5352978020388e6e218004986d2aa9224f2db0e9692992c5ab4fdeef86473",
+      "bytes": 6894
+    },
+    {
+      "path": "computations/tail_r102_carrier_jet_reserve.js",
+      "git_blob": "7e7107bc1ec73a15c349dc9ec5ce3bb905b24819",
+      "sha256": "189a98c8030906350a0daa705bfb826d778103acf13110bf0c8af9780b1f13b3",
+      "bytes": 8360
+    },
+    {
+      "path": "notes/2026-11-12-tail-r102-carrier-jet-reserve.json",
+      "git_blob": "ce5cf626cd0a2cd91336dc791f300cc74a36344e",
+      "sha256": "fc61f86ff168c772ff2e1933c175ba9605500ebd92d42430aa76651cc4f06f54",
+      "bytes": 25635
+    }
+  ],
+  "input_hashes": {
+    "r95": "690d9eaeb61311aaf15e47416534020ba04e2391ecde6012ccbaab50cd45559d",
+    "r102": "d01b7310f9d76fa5d5d56f44805c67fedf7be776a78435803943edcda424bc6f"
+  },
+  "actual_gates": {
+    "exact_input_text_hashes": true,
+    "all_original_parts_retained": true,
+    "R102_saved_positive_bounds_used_outward": true,
+    "uniform_nonzero_five_jet_bridge_passed": true,
+    "nonuniform_nonzero_five_jet_bridge_passed": true
+  },
+  "requirements_not_automatically_paid": [
+    "Same real g and complete mean branch",
+    "old->new plus new->true full nonmean A1 difference at most 1/512",
+    "New candidate complete physical defect at most 1/20",
+    "Actual five physical derivative differences of the two candidates",
+    "True unprojected PDE solution"
+  ],
+  "paid_sufficient_targets": {
+    "uniform_five_jets": "2^-16 each",
+    "uniform_curvature_upper": "8.249431995197246781",
+    "nonuniform": [
+      "2^-15",
+      "2^-20",
+      "2^-9",
+      "2^-14",
+      "2^-19"
+    ],
+    "nonuniform_curvature_upper": "8.246574354019619138"
+  },
+  "no_actual_bridge_or_reach_claim": true,
+  "small_plain_UTF8_blobs_only": true
+}

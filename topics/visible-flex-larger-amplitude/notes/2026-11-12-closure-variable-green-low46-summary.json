@@ -1,0 +1,352 @@
+{
+  "status": "Validated low46 variable-strip Green envelope with ordered cell12/13 kernels",
+  "modes": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92
+  ],
+  "strip_formula": "tau_n = 1 + (n-12)*log(2)/4, each whole cell uses its stated constant strip",
+  "maximum_relative_response": {
+    "lower": {
+      "mantissa": "860778072603960632040044637462782052362238783458592271019",
+      "binary_exponent": -176
+    },
+    "upper": {
+      "mantissa": "860778072603960632040044637462782052362238783458592271019",
+      "binary_exponent": -176
+    },
+    "display": "[8986.94240498845224270802490542965007152284269998669360963 +/- 2.83e-55]"
+  },
+  "projected_fixed_point": {
+    "relative_radius": "1/100",
+    "mapping_bound": {
+      "lower": {
+        "mantissa": "3512318847453200962976198138703135886458879132024439902659",
+        "binary_exponent": -178
+      },
+      "upper": {
+        "mantissa": "3512318847453200962976198138703135886458879132024439902669",
+        "binary_exponent": -178
+      },
+      "display": "[9167.5799473287201327864562060287860379604518382564261512 +/- 3.25e-53]"
+    },
+    "contraction_bound": {
+      "lower": {
+        "mantissa": "3477543413320000953441780335349639491543444685172712774913",
+        "binary_exponent": -176
+      },
+      "upper": {
+        "mantissa": "3477543413320000953441780335349639491543444685172712774919",
+        "binary_exponent": -176
+      },
+      "display": "[36307.2473161533470605404206179357862889522845079462421829 +/- 2.36e-53]"
+    },
+    "all_R23_balls_paid": true,
+    "gate_paid": false
+  },
+  "source_hashes": {
+    "closure_variable_strip_green_enclosure.py": "e58ae8bd20bbb740d715022cb2ed8bf9fb7a262ab4ed31f89ce5f411d190fb55",
+    "closure_real_head_green_enclosure.py": "4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0",
+    "closure_projective_interval_column.py": "45997a1d5be6326a1ebbe85ac4240ea7d9dde1c2fb6acdf832460dade89e4f97",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+  },
+  "elapsed_seconds": 10.115274194999984,
+  "peak_RSS_KiB": 93024,
+  "limits": [
+    "Only the auxiliary pointwise equation projected into the retained low46 has this Green feedback.",
+    "The full R18 nonlinear far graph, high-frequency head source, and outer-prefix matching remain independent.",
+    "This norm follows the actual varying-strip reference, not the constant-strip1 correction ball."
+  ],
+  "worst_rows": [
+    {
+      "cell": 13,
+      "reference_X": {
+        "lower": {
+          "mantissa": "2743145883182392385254447689285072635801306112161394629733",
+          "binary_exponent": -333
+        },
+        "upper": {
+          "mantissa": "2743145883182392385254447689285072635801306112161394629733",
+          "binary_exponent": -333
+        },
+        "display": "[1.56769057846267745247542885048942253502938492427028676716e-43 +/- 2.79e-100]"
+      },
+      "source_response": {
+        "lower": {
+          "mantissa": "6018672612206832412592394082967087423884291116904278939889",
+          "binary_exponent": -321
+        },
+        "upper": {
+          "mantissa": "6018672612206832412592394082967087423884291116904278940313",
+          "binary_exponent": -321
+        },
+        "display": "[1.4088738627601127088571439495631030444993766187083493242e-39 +/- 6.62e-95]"
+      },
+      "relative_response": {
+        "lower": {
+          "mantissa": "1721555374179483900170957593019967835172094684847026781293",
+          "binary_exponent": -177
+        },
+        "upper": {
+          "mantissa": "215194421772435487521369699127495979396511835605878347677",
+          "binary_exponent": -174
+        },
+        "display": "[8986.938380032206414998611269425791864626302836442039108 +/- 6.91e-52]"
+      },
+      "largest_source_cell": 12,
+      "largest_source_relative_term": {
+        "lower": {
+          "mantissa": "1721555374178930798738917034137648631263124954279135553359",
+          "binary_exponent": -177
+        },
+        "upper": {
+          "mantissa": "107597210886183174921182314633603039453945309642445972085",
+          "binary_exponent": -173
+        },
+        "display": "[8986.93838002931909080201075650929177378884148704206135000 +/- 5.14e-54]"
+      },
+      "diagonal_dominating_mode": 48
+    },
+    {
+      "cell": 14,
+      "reference_X": {
+        "lower": {
+          "mantissa": "3462055957876122022952844165767170225742163076822910357633",
+          "binary_exponent": -353
+        },
+        "upper": {
+          "mantissa": "3462055957876122022952844165767170225742163076822910357633",
+          "binary_exponent": -353
+        },
+        "display": "[1.88688578975967712218858875767744194315073373222659828365e-49 +/- 3.64e-106]"
+      },
+      "source_response": {
+        "lower": {
+          "mantissa": "3010374612149373295947482403030740448800529190861159987031",
+          "binary_exponent": -345
+        },
+        "upper": {
+          "mantissa": "3010374612149373295947482403030740448800529190861159987243",
+          "binary_exponent": -345
+        },
+        "display": "[4.200220000882571442782463902369725506338949936928493198e-47 +/- 5.58e-102]"
+      },
+      "relative_response": {
+        "lower": {
+          "mantissa": "5458152014873637689374055494958563612864939078487357187263",
+          "binary_exponent": -184
+        },
+        "upper": {
+          "mantissa": "5458152014873637689374055494958563612864939078487357187651",
+          "binary_exponent": -184
+        },
+        "display": "[222.6006483104381069523538750151779744434776297770165353 +/- 5.46e-53]"
+      },
+      "largest_source_cell": 12,
+      "largest_source_relative_term": {
+        "lower": {
+          "mantissa": "170508420242525836662829641525958505613491177469465401391",
+          "binary_exponent": -179
+        },
+        "upper": {
+          "mantissa": "2728134723880413386605274264415336089815858839511446422257",
+          "binary_exponent": -183
+        },
+        "display": "[222.523871287984780992332535056551418852281444672096508687 +/- 6.70e-56]"
+      },
+      "diagonal_dominating_mode": 80
+    },
+    {
+      "cell": 25,
+      "reference_X": {
+        "lower": {
+          "mantissa": "4230891921895771681472620695948893993818296760315605599105",
+          "binary_exponent": -577
+        },
+        "upper": {
+          "mantissa": "4230891921895771681472620695948893993818296760315605599105",
+          "binary_exponent": -577
+        },
+        "display": "[8.55311740226130639465829060975238328312259052383736141032e-117 +/- 2.08e-174]"
+      },
+      "source_response": {
+        "lower": {
+          "mantissa": "6019191765231576902908366489437168087441105073037475133071",
+          "binary_exponent": -570
+        },
+        "upper": {
+          "mantissa": "6019191765231576902908366489437168087441105073037475133495",
+          "binary_exponent": -570
+        },
+        "display": "[1.557545173097985792654046361964838377561801532114798889e-114 +/- 4.11e-169]"
+      },
+      "relative_response": {
+        "lower": {
+          "mantissa": "2232571746847563323324505352712709843579933053182649653083",
+          "binary_exponent": -183
+        },
+        "upper": {
+          "mantissa": "1116285873423781661662252676356354921789966526591324826621",
+          "binary_exponent": -182
+        },
+        "display": "[182.10262993539594710778122238222083669540011402964210972 +/- 6.80e-54]"
+      },
+      "largest_source_cell": 12,
+      "largest_source_relative_term": {
+        "lower": {
+          "mantissa": "4464758376747583278499571435219885950021541727581104631943",
+          "binary_exponent": -184
+        },
+        "upper": {
+          "mantissa": "4464758376747583278499571435219885950021541727581104631945",
+          "binary_exponent": -184
+        },
+        "display": "[182.086923652030280272909125830580420665738897447749566798 +/- 3.51e-55]"
+      },
+      "diagonal_dominating_mode": 58
+    },
+    {
+      "cell": 20,
+      "reference_X": {
+        "lower": {
+          "mantissa": "2243732225781471349699661336811042447835813274820162025719",
+          "binary_exponent": -475
+        },
+        "upper": {
+          "mantissa": "2243732225781471349699661336811042447835813274820162025719",
+          "binary_exponent": -475
+        },
+        "display": "[2.29997483998957383586486451547392155223747199528250612060e-86 +/- 1.86e-143]"
+      },
+      "source_response": {
+        "lower": {
+          "mantissa": "3009855416694801891428018354107255983786204171777380867581",
+          "binary_exponent": -468
+        },
+        "upper": {
+          "mantissa": "3009855416694801891428018354107255983786204171777380867793",
+          "binary_exponent": -468
+        },
+        "display": "[3.949186677938553454853012583308200799076297506228908777e-84 +/- 2.13e-139]"
+      },
+      "relative_response": {
+        "lower": {
+          "mantissa": "1052552552968838828134887386810714768766290317794471006105",
+          "binary_exponent": -182
+        },
+        "upper": {
+          "mantissa": "263138138242209707033721846702678692191572579448617751545",
+          "binary_exponent": -180
+        },
+        "display": "[171.7056469172704414205636876347101080244485924146197237 +/- 5.06e-53]"
+      },
+      "largest_source_cell": 12,
+      "largest_source_relative_term": {
+        "lower": {
+          "mantissa": "263092754735063222385782669893386333279623155107649190277",
+          "binary_exponent": -180
+        },
+        "upper": {
+          "mantissa": "2104742037880505779086261359147090666236985240861193522217",
+          "binary_exponent": -183
+        },
+        "display": "[171.676032797074801496409854673568954965372852750367983485 +/- 4.98e-56]"
+      },
+      "diagonal_dominating_mode": 58
+    },
+    {
+      "cell": 24,
+      "reference_X": {
+        "lower": {
+          "mantissa": "37949691615267647761625659798104313676557050780463110847",
+          "binary_exponent": -550
+        },
+        "upper": {
+          "mantissa": "37949691615267647761625659798104313676557050780463110847",
+          "binary_exponent": -550
+        },
+        "display": "[1.02969981784785945977740202968974466537856761537878371382e-110 +/- 4.73e-167]"
+      },
+      "source_response": {
+        "lower": {
+          "mantissa": "6019710833389603782856036708214511967418306371799248410227",
+          "binary_exponent": -550
+        },
+        "upper": {
+          "mantissa": "6019710833389603782856036708214511967418306371799248410651",
+          "binary_exponent": -550
+        },
+        "display": "[1.6333453276717345356567651242645802870365381097151782272e-108 +/- 6.62e-164]"
+      },
+      "relative_response": {
+        "lower": {
+          "mantissa": "486179445303331169144373124521761026349029595327361628617",
+          "binary_exponent": -181
+        },
+        "upper": {
+          "mantissa": "972358890606662338288746249043522052698059190654723257303",
+          "binary_exponent": -182
+        },
+        "display": "[158.62344533434355742579462976440387297580531103623880092 +/- 6.33e-54]"
+      },
+      "largest_source_cell": 12,
+      "largest_source_relative_term": {
+        "lower": {
+          "mantissa": "3888764750404407620207981441833477147619502446915102096957",
+          "binary_exponent": -184
+        },
+        "upper": {
+          "mantissa": "3888764750404407620207981441833477147619502446915102096959",
+          "binary_exponent": -184
+        },
+        "display": "[158.596087505056550515732605582655068648806653331603558427 +/- 3.19e-55]"
+      },
+      "diagonal_dominating_mode": 58
+    }
+  ],
+  "output": "notes/2026-11-12-closure-variable-green-low46.json.gz",
+  "output_sha256": "81a46eb7d6463bad6ffb31ea11c0788e55cb5c4272ecb5667843ab13fce8a476"
+}

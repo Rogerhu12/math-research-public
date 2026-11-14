@@ -1,0 +1,76 @@
+{
+  "schema": "independent-saved-continuous-mean-domain-consumption-v1",
+  "scope": "Independently consume every saved continuous q106 domain and cover gate.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nExact Fraction arithmetic verifies saved positivity, identities, original\ninterval membership, full refined coverage, retained prior rows and every\nbinary radial subdivision. It does not repeat any ODE or interval geometry.\n",
+  "denominator_quality_target": [
+    "1",
+    -10
+  ],
+  "quality_target_failures": 0,
+  "all_gates": true,
+  "gate_count": 57345,
+  "gate_multiplicities": {
+    "complete_original_and_refined_owned_exit_zero": 1,
+    "same_actual_accepted_primary": 1,
+    "final_complete_domain_and_no_failed_atoms": 1,
+    "complete_positive_prior_retained": 1,
+    "actual_final_source_exists": 1,
+    "actual_prior_source_exists": 1,
+    "all_pinned_actual_inputs_still_match": 46,
+    "same_explicit_background_comparison": 1,
+    "original_atoms_unique": 1,
+    "exact_complete_refined_physical_cover": 3326,
+    "same_original_physical_quintic_interval": 3326,
+    "same_actual_background_piece": 3326,
+    "full_real_angular_interval_cover_used": 3326,
+    "whole_interval_homotopy_domain_passed": 3326,
+    "saved_strict_domain_endpoint": 19956,
+    "ordered_finite_domain_interval": 9978,
+    "all_three_saved_rotating_components_nonnegative": 6652,
+    "positive_prior_box_reused_exactly": 2954,
+    "refined_only_a_genuinely_small_denominator_prior_box": 372,
+    "exact_binary_radial_subdivision": 372,
+    "actual_original_quintic_Bernstein_restriction_used": 372,
+    "both_global_endpoints_and_every_original_interval_covered": 1,
+    "every_original_positive_or_failed_atom_consumed": 1,
+    "saved_refinement_counts_match": 1,
+    "prior_and_final_binding_exact": 1,
+    "explicit_quality_target_not_assumed": 1
+  },
+  "source_sha256": "b6ad02bad864f3fe5f0ba025964816f910ae82546eff05b71cb9cb36858cea16",
+  "input_sha256": {
+    "q106-continuous-mean-domain-r4/certificate.json.gz": "d9c057155600660827770378e9a55054bfad06003fb74405d5cb2a285cb1040f",
+    "q106-continuous-mean-domain-r4/resource.json": "894ffcefb50f0c9092aea219bed770fd8410662c6fc77ab9ca4aa228fb9b8cc3",
+    "q106-continuous-mean-domain-r3/certificate.json.gz": "a7342234eb1ce94569f7de40f1fa084701da35b87dbf4bdcec82be1e84cde39d",
+    "q106-continuous-mean-domain-r3/resource.json": "0890453df793f5d6e9abea597b982a2c82e32cb596fd029a9fbcdaaf715ecc87",
+    "binary-background-C2-r1/certificate.json": "a3f57c4efdbd5170183cd97ffe4d2828c57c6a2c13c5f603fd1ed144f99db60f",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293"
+  },
+  "original_intervals": 2227,
+  "final_complete_atoms": 3326,
+  "retained_positive_prior_atoms": 2954,
+  "exact_refined_leaves": 372,
+  "strict_global_minima_exact": {
+    "radius_lower": "8036492631324339/36028797018963968",
+    "chart_rho_lower": "452835364681015/562949953421312",
+    "normalized_P_lower": "5826745066845037/9007199254740992",
+    "normalized_W_lower": "3150778782227729/9007199254740992",
+    "normalized_D_lower": "4506558300209151/4611686018427387904",
+    "frenet_margin_lower": "8645108734644013/18446744073709551616"
+  },
+  "strict_global_minima_display": {
+    "radius_lower": 0.22305747891316727,
+    "chart_rho_lower": 0.8043971971734276,
+    "normalized_P_lower": 0.6468986531832407,
+    "normalized_W_lower": 0.34980671495296367,
+    "normalized_D_lower": 0.0009772040599038687,
+    "frenet_margin_lower": 0.00046865228357372246
+  },
+  "global_maxima_exact": {
+    "normalized_P_upper": "8398543881363955/4503599627370496",
+    "normalized_W_upper": "5082985459830689/1125899906842624",
+    "normalized_D_upper": "2254603126004977/562949953421312",
+    "speed_absolute_upper": "8984690717453715/9007199254740992"
+  },
+  "complete_mean_float_alignment_or_target_g_error_certified": false,
+  "no_ODE_Node_Newton_or_geometry_recomputation": true
+}

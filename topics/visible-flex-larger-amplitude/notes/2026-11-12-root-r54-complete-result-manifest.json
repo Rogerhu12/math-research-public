@@ -1,0 +1,54 @@
+{
+  "scope": "Complete R54 proof, formal exact ledgers and reproducible source history. Actual q003 head only.",
+  "files": [
+    {
+      "path": "results/R54-expanded-head-box-and-parameter-hull.md",
+      "bytes": 11518,
+      "sha256": "13bac5a2ca810f70a8318aba3d44b494ef9e2f55ada71efff1d49e009fcbd026"
+    },
+    {
+      "path": "computations/root_head_weighted_box_inflation.py",
+      "bytes": 11443,
+      "sha256": "1507bf47598d688b2392a9141671269d5b2873772178fe6f553051d3fbad9316"
+    },
+    {
+      "path": "notes/2026-11-12-root-r54-rounded-constants.json",
+      "bytes": 750,
+      "sha256": "82722e8c748e0043179583d83736da45daedc8eb3f1b4d8de01f0b51ba3bad28"
+    },
+    {
+      "path": "notes/2026-11-12-root-r54-before-explicit-source-budget-guard.py.gz",
+      "bytes": 3866,
+      "sha256": "eb667423bdcbba8e1bfcc8327119002fa6a4b5b7b818422ede87c87d5d2d64eb"
+    },
+    {
+      "path": "notes/2026-11-12-root-r54-weighted-box-parameter-hull-r1.json.gz",
+      "bytes": 200911,
+      "sha256": "64482128f6937e869ba339f8e35662c1ebea2d1c6612781fe7a46dfe175009f6"
+    },
+    {
+      "path": "notes/2026-11-12-root-r54-weighted-box-parameter-hull-r1-resource.json",
+      "bytes": 1148,
+      "sha256": "6c1d5c8f590cf9a9bcea7732bc378781ac5bdb386264b61f27e16d91af0982db"
+    },
+    {
+      "path": "notes/2026-11-12-root-r54-weighted-box-parameter-hull-r2.json.gz",
+      "bytes": 214024,
+      "sha256": "fd5bfaf9d3f3dd8e3e2d13be4c03a904dab050c5676495825c54c2973321fa0b"
+    },
+    {
+      "path": "notes/2026-11-12-root-r54-weighted-box-parameter-hull-r2-resource.json",
+      "bytes": 1148,
+      "sha256": "cb8cee64b8eec82aa139918b4d7a2343874d78120b92ef79154cf9eb46abab66"
+    }
+  ],
+  "formal_sessions": [
+    43456,
+    67218
+  ],
+  "formal_exitcodes": [
+    0,
+    0
+  ],
+  "registered_result": "R54"
+}

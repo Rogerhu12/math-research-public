@@ -1,0 +1,127 @@
+{
+  "status": "completed; see final-run-state",
+  "session": 9377,
+  "observed_utc": "2026-11-12T09:44:01.550448+00:00",
+  "prefix": "2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1",
+  "source_sha256": "50acde6b243f964ba03c9e1916a25ec80fbec7ef72b1d17ea3fb5ee2f86fcfe1",
+  "events": [
+    {
+      "time": "2026-11-12T09:34:02.412Z",
+      "event": "request",
+      "call": 2,
+      "height": [
+        -2.371056106348173e-05,
+        2.013302766017376e-08,
+        3.078161701828421e-11,
+        1.5655547630868154e-12,
+        9.284661549978419e-14,
+        1.4252822851985743e-14,
+        -5.773850188965991e-16,
+        -7.179271100549204e-17,
+        -3.6287806873906515e-18,
+        -2.1964539973285306e-18,
+        1.1650745869122248e-18,
+        1.9693274703456567e-18,
+        5.083941182590018e-19,
+        -9.087096482053502e-18,
+        -7.019411486739708e-18,
+        7.455851353948445e-17,
+        -3.183050133153905e-16,
+        7.72363294302805e-16,
+        -1.1337067236045006e-15,
+        5.797809688779081e-16,
+        1.0214048949393566e-15,
+        -2.278837835803486e-15,
+        1.2421931568869543e-15,
+        6.851757992104606e-15
+      ],
+      "jacobian": true,
+      "audit": false
+    },
+    {
+      "time": "2026-11-12T09:34:02.570Z",
+      "event": "tangent_warm_predictor",
+      "call": 2,
+      "kind": "full-nonlinear-shooting-tangent-warm",
+      "modes": 24,
+      "stages": 576,
+      "maxChartCondition": 24528.221127704623,
+      "maxRelativeCorrection": 0.0217739567504809,
+      "scope": "Initial guess only; original nonlinear residual and guards still decide success."
+    },
+    {
+      "time": "2026-11-12T09:34:02.618Z",
+      "event": "compact_storage_gc_before_solve",
+      "call": 2,
+      "before": {
+        "rss": 235012096,
+        "heapTotal": 61923328,
+        "heapUsed": 58833296,
+        "external": 27528308,
+        "arrayBuffers": 23678176
+      },
+      "after": {
+        "rss": 235012096,
+        "heapTotal": 61923328,
+        "heapUsed": 58201848,
+        "external": 27502580,
+        "arrayBuffers": 23615584
+      }
+    },
+    {
+      "time": "2026-11-12T09:35:18.475Z",
+      "event": "iteration",
+      "call": 2,
+      "elapsed_ms": 76063,
+      "iteration": 0,
+      "norm": 0.00047564352677264014,
+      "minA": 0.8858765454273777,
+      "minD": 0.9999400415294505
+    },
+    {
+      "time": "2026-11-12T09:35:19.119Z",
+      "event": "iteration",
+      "call": 2,
+      "elapsed_ms": 76707,
+      "iteration": 0,
+      "norm": 0.00047564352677264014,
+      "minA": 0.8858765454273777,
+      "minD": 0.9999400415294505,
+      "chartCondition": 24528.22129511874,
+      "phase": "correction"
+    },
+    {
+      "time": "2026-11-12T09:35:57.246Z",
+      "event": "iteration",
+      "call": 2,
+      "elapsed_ms": 114834,
+      "iteration": 1,
+      "norm": 5.636296429175181e-10,
+      "phase": "accepted-trial-recovery-only",
+      "acceptedFromIteration": 0,
+      "acceptedTrial": 0,
+      "acceptedStep": 1
+    }
+  ],
+  "source_publication": "c97b72ff6adf9bc631cd736d353946e930496230",
+  "tail_iteration_checkpoint": "2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-iteration.json.gz",
+  "warning": "A saved accepted tail trial is recovery-only until full variational/audit and original prefix acceptance finish.",
+  "prefix_inner_state": {
+    "initial_nodes": 1934,
+    "final_inner_nodes": 2004,
+    "rounds": 3,
+    "rms": 9.976296746350968e-08,
+    "target_rms": 1e-07,
+    "affine_bc": 2.890347466574794e-16,
+    "raw_file": "2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-outer-00-raw-collocation.json.gz",
+    "raw_sha256": "606c25280b6f6bd1ba720cf57eddf896f0fd8642956488fa46a37feb9c5e14ce",
+    "overall_coupled_solution_accepted": false
+  },
+  "first_true_tail_response": {
+    "file": "2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0001.json.gz",
+    "sha256": "907327c8101e12ab0224807baef3265d2d0d55e99135b87dff67a7714b255b53",
+    "status": "initial true tail response only; prefix not accepted"
+  },
+  "formal_exitcode": 0,
+  "final_state": "2026-11-12-root-q095-actual-m24-final-run-state.json"
+}

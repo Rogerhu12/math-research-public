@@ -1,0 +1,1129 @@
+{
+  "schema": "saved-fine-warm-chart-length-and-curvature-diagnostic-v1",
+  "scope": "Locate saved warm curvature peaks and actual meridian-chart length changes.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nOnly complete saved field chunks and the two actual physical knot vectors are\nread. This computes numerical diagnostics, not a new geometry field, ODE,\nJacobian or a nonlinear-impossibility certificate.\n",
+  "source_sha256": "fd709a901886cf7d15b4a7113818b6e2ffaa84fd650d7a9f88f7787223999a9d",
+  "input_sha256": {
+    "m32-q122-r1/q130-eight-tail4-size1035-exactchart-r1-screen.json": "674c2ece6d7bdf3ef0d68860fe34af677f0434b0f14c5ede06c3ed022a729d84",
+    "notes/2026-11-13-strong-q122-m32-sameg-actual-r1.json.gz": "4c0e13b2ea4e2541e75891a3b4fafa93ffc2f8331cfdcdc7e4083ac3cbfef1ad",
+    "m32-q122-r1/q130-eight-tail4-size1035-exactchart-r1-field-exact-chart-order.json": "19ecaab3d6d494fbd867873f6ffd7a84f2ce1e481ae5cfea8180e785d5df12a2",
+    "m32-q122-r1/q130-eight-tail4-size1035-exactchart-r1-field.json": "34c739e4e4a1dfb53b7b6affc11a3e39cbadd4a9366497869f53763fb2d323e5",
+    "m32-q122-r1/geometry-grid.json": "e484654f5c06141c1687bef06ff361a103ed96968411bdc1b18161eef37fdd36"
+  },
+  "chart_source_sha256": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+  "all_complete_chunks_read": 18,
+  "original_raw_nodes": 2587,
+  "complete_grid_shape": [
+    3764,
+    768,
+    3
+  ],
+  "all22_segment_rows": [
+    {
+      "segment": 0,
+      "numerical_interval": [
+        0.0,
+        0.2677610126249561
+      ],
+      "original_physical_interval": [
+        0.0,
+        0.8468706683869404
+      ],
+      "warm_physical_interval": [
+        0.0,
+        0.9298230787390569
+      ],
+      "original_length": 0.8468706683869404,
+      "warm_length": 0.9298230787390569,
+      "warm_length_over_original": 1.097951686660867,
+      "old_secant": 3.1627855754083356,
+      "warm_secant": 3.4725857570662426,
+      "old_endpoint_slopes": [
+        3.1627657996205776,
+        3.206612444818291
+      ],
+      "warm_endpoint_slopes": [
+        3.287928491378844,
+        2.921225934011177
+      ]
+    },
+    {
+      "segment": 1,
+      "numerical_interval": [
+        0.2677610126249561,
+        0.3073403620202028
+      ],
+      "original_physical_interval": [
+        0.8468706683869404,
+        0.9755713232208751
+      ],
+      "warm_physical_interval": [
+        0.9298230787390569,
+        1.0396840005283452
+      ],
+      "original_length": 0.12870065483393478,
+      "warm_length": 0.1098609217892883,
+      "warm_length_over_original": 0.8536158726701446,
+      "old_secant": 3.2517122388421855,
+      "warm_secant": 2.775713180431462,
+      "old_endpoint_slopes": [
+        3.206612444818291,
+        3.1536933171971993
+      ],
+      "warm_endpoint_slopes": [
+        2.921225934011177,
+        2.8281757148545514
+      ]
+    },
+    {
+      "segment": 2,
+      "numerical_interval": [
+        0.3073403620202028,
+        0.3172296666633604
+      ],
+      "original_physical_interval": [
+        0.9755713232208751,
+        1.0058469148021392
+      ],
+      "warm_physical_interval": [
+        1.0396840005283452,
+        1.0716574278088487
+      ],
+      "original_length": 0.030275591581264027,
+      "warm_length": 0.03197342728050345,
+      "warm_length_over_original": 1.0560793566884463,
+      "old_secant": 3.061447965627368,
+      "warm_secant": 3.233131998074903,
+      "old_endpoint_slopes": [
+        3.1536933171971993,
+        3.0614288234681077
+      ],
+      "warm_endpoint_slopes": [
+        2.8281757148545514,
+        3.0612078596555485
+      ]
+    },
+    {
+      "segment": 3,
+      "numerical_interval": [
+        0.3172296666633604,
+        0.4210673654165145
+      ],
+      "original_physical_interval": [
+        1.0058469148021392,
+        1.323740626405411
+      ],
+      "warm_physical_interval": [
+        1.0716574278088487,
+        1.4073784142541346
+      ],
+      "original_length": 0.31789371160327184,
+      "warm_length": 0.3357209864452859,
+      "warm_length_over_original": 1.0560793566884465,
+      "old_secant": 3.0614479656273743,
+      "warm_secant": 3.2331319980749114,
+      "old_endpoint_slopes": [
+        3.0614288234681077,
+        3.0614288234681077
+      ],
+      "warm_endpoint_slopes": [
+        3.0612078596555485,
+        3.0612078596555383
+      ]
+    },
+    {
+      "segment": 4,
+      "numerical_interval": [
+        0.4210673654165145,
+        0.4309566700596721
+      ],
+      "original_physical_interval": [
+        1.323740626405411,
+        1.354016217986675
+      ],
+      "warm_physical_interval": [
+        1.4073784142541346,
+        1.4393518415346378
+      ],
+      "original_length": 0.030275591581264027,
+      "warm_length": 0.03197342728050323,
+      "warm_length_over_original": 1.056079356688439,
+      "old_secant": 3.061447965627368,
+      "warm_secant": 3.2331319980748807,
+      "old_endpoint_slopes": [
+        3.0614288234681077,
+        3.1217247868431417
+      ],
+      "warm_endpoint_slopes": [
+        3.0612078596555383,
+        3.045021411840994
+      ]
+    },
+    {
+      "segment": 5,
+      "numerical_interval": [
+        0.4309566700596721,
+        0.6992364843991988
+      ],
+      "original_physical_interval": [
+        1.354016217986675,
+        2.208343489738395
+      ],
+      "warm_physical_interval": [
+        1.4393518415346378,
+        2.297611377780071
+      ],
+      "original_length": 0.8543272717517199,
+      "warm_length": 0.8582595362454333,
+      "warm_length_over_original": 1.004602761288014,
+      "old_secant": 3.184463482110918,
+      "warm_secant": 3.199120807349472,
+      "old_endpoint_slopes": [
+        3.1217247868431417,
+        3.1647136047002715
+      ],
+      "warm_endpoint_slopes": [
+        3.045021411840994,
+        1.565092149494302
+      ]
+    },
+    {
+      "segment": 6,
+      "numerical_interval": [
+        0.6992364843991988,
+        0.6996085091989966
+      ],
+      "original_physical_interval": [
+        2.208343489738395,
+        2.2095135993569825
+      ],
+      "warm_physical_interval": [
+        2.297611377780071,
+        2.298025963100993
+      ],
+      "original_length": 0.0011701096185876558,
+      "warm_length": 0.00041458532092208955,
+      "warm_length_over_original": 0.35431323214187554,
+      "old_secant": 3.1452462825693166,
+      "warm_secant": 1.1144023762593533,
+      "old_endpoint_slopes": [
+        3.1647136047002715,
+        3.1452266164487934
+      ],
+      "warm_endpoint_slopes": [
+        1.565092149494302,
+        1.05514322182213
+      ]
+    },
+    {
+      "segment": 7,
+      "numerical_interval": [
+        0.6996085091989966,
+        0.7035147695968731
+      ],
+      "original_physical_interval": [
+        2.2095135993569825,
+        2.2217997503521527
+      ],
+      "warm_physical_interval": [
+        2.298025963100993,
+        2.302379108970677
+      ],
+      "original_length": 0.012286150995170164,
+      "warm_length": 0.004353145869683939,
+      "warm_length_over_original": 0.3543132321420446,
+      "old_secant": 3.145246282569707,
+      "warm_secant": 1.1144023762600233,
+      "old_endpoint_slopes": [
+        3.1452266164487934,
+        3.145226616448197
+      ],
+      "warm_endpoint_slopes": [
+        1.05514322182213,
+        1.055143221822695
+      ]
+    },
+    {
+      "segment": 8,
+      "numerical_interval": [
+        0.7035147695968731,
+        0.7038867943966709
+      ],
+      "original_physical_interval": [
+        2.2217997503521527,
+        2.22296985997074
+      ],
+      "warm_physical_interval": [
+        2.302379108970677,
+        2.3027936942915996
+      ],
+      "original_length": 0.0011701096185872117,
+      "warm_length": 0.00041458532092253364,
+      "warm_length_over_original": 0.3543132321423895,
+      "old_secant": 3.145246282568123,
+      "warm_secant": 1.114402376260547,
+      "old_endpoint_slopes": [
+        3.145226616448197,
+        3.1452266164481495
+      ],
+      "warm_endpoint_slopes": [
+        1.055143221822695,
+        1.5581967255151772
+      ]
+    },
+    {
+      "segment": 9,
+      "numerical_interval": [
+        0.7038867943966709,
+        0.7141889687205218
+      ],
+      "original_physical_interval": [
+        2.22296985997074,
+        2.255372735465216
+      ],
+      "warm_physical_interval": [
+        2.3027936942915996,
+        2.335196569786076
+      ],
+      "original_length": 0.03240287549447629,
+      "warm_length": 0.03240287549447629,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.1452462825696124,
+      "warm_secant": 3.1452462825696124,
+      "old_endpoint_slopes": [
+        3.1452266164481495,
+        3.1452266164488933
+      ],
+      "warm_endpoint_slopes": [
+        1.5581967255151772,
+        2.977995530800292
+      ]
+    },
+    {
+      "segment": 10,
+      "numerical_interval": [
+        0.7141889687205218,
+        0.822361799120957
+      ],
+      "original_physical_interval": [
+        2.255372735465216,
+        2.5956029281572177
+      ],
+      "warm_physical_interval": [
+        2.335196569786076,
+        2.6754267624780774
+      ],
+      "original_length": 0.3402301926920015,
+      "warm_length": 0.3402301926920015,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.14524628256961,
+      "warm_secant": 3.14524628256961,
+      "old_endpoint_slopes": [
+        3.1452266164488933,
+        3.1452266164488933
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800292,
+        2.977995530800292
+      ]
+    },
+    {
+      "segment": 11,
+      "numerical_interval": [
+        0.822361799120957,
+        0.8326639734448079
+      ],
+      "original_physical_interval": [
+        2.5956029281572177,
+        2.628005803651694
+      ],
+      "warm_physical_interval": [
+        2.6754267624780774,
+        2.7078296379725537
+      ],
+      "original_length": 0.03240287549447629,
+      "warm_length": 0.03240287549447629,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.1452462825696124,
+      "warm_secant": 3.1452462825696124,
+      "old_endpoint_slopes": [
+        3.1452266164488933,
+        3.145226616448882
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800292,
+        2.977995530800281
+      ]
+    },
+    {
+      "segment": 12,
+      "numerical_interval": [
+        0.8326639734448079,
+        0.8439613383350474
+      ],
+      "original_physical_interval": [
+        2.628005803651694,
+        2.663538798575552
+      ],
+      "warm_physical_interval": [
+        2.7078296379725537,
+        2.7433626328964116
+      ],
+      "original_length": 0.035532994923857864,
+      "warm_length": 0.035532994923857864,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.145246282569587,
+      "warm_secant": 3.145246282569587,
+      "old_endpoint_slopes": [
+        3.145226616448882,
+        3.145226616448882
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800281,
+        2.977995530800281
+      ]
+    },
+    {
+      "segment": 13,
+      "numerical_interval": [
+        0.8439613383350474,
+        0.8542635126588983
+      ],
+      "original_physical_interval": [
+        2.663538798575552,
+        2.695941674070028
+      ],
+      "warm_physical_interval": [
+        2.7433626328964116,
+        2.775765508390888
+      ],
+      "original_length": 0.03240287549447629,
+      "warm_length": 0.03240287549447629,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.1452462825696124,
+      "warm_secant": 3.1452462825696124,
+      "old_endpoint_slopes": [
+        3.145226616448882,
+        3.1452266164488933
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800281,
+        2.977995530800292
+      ]
+    },
+    {
+      "segment": 14,
+      "numerical_interval": [
+        0.8542635126588983,
+        0.9624363430593335
+      ],
+      "original_physical_interval": [
+        2.695941674070028,
+        3.0361718667620297
+      ],
+      "warm_physical_interval": [
+        2.775765508390888,
+        3.1159957010828894
+      ],
+      "original_length": 0.3402301926920015,
+      "warm_length": 0.3402301926920015,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.14524628256961,
+      "warm_secant": 3.14524628256961,
+      "old_endpoint_slopes": [
+        3.1452266164488933,
+        3.1452266164488933
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800292,
+        2.977995530800292
+      ]
+    },
+    {
+      "segment": 15,
+      "numerical_interval": [
+        0.9624363430593335,
+        0.9727385173831844
+      ],
+      "original_physical_interval": [
+        3.0361718667620297,
+        3.068574742256506
+      ],
+      "warm_physical_interval": [
+        3.1159957010828894,
+        3.1483985765773657
+      ],
+      "original_length": 0.03240287549447629,
+      "warm_length": 0.03240287549447629,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.1452462825696124,
+      "warm_secant": 3.1452462825696124,
+      "old_endpoint_slopes": [
+        3.1452266164488933,
+        3.145226616448897
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800292,
+        2.977995530800295
+      ]
+    },
+    {
+      "segment": 16,
+      "numerical_interval": [
+        0.9727385173831844,
+        0.9840358822734238
+      ],
+      "original_physical_interval": [
+        3.068574742256506,
+        3.104107737180364
+      ],
+      "warm_physical_interval": [
+        3.1483985765773657,
+        3.1839315715012235
+      ],
+      "original_length": 0.035532994923857864,
+      "warm_length": 0.035532994923857864,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.145246282569618,
+      "warm_secant": 3.145246282569618,
+      "old_endpoint_slopes": [
+        3.145226616448897,
+        3.1452266164487908
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800295,
+        2.977995530800195
+      ]
+    },
+    {
+      "segment": 17,
+      "numerical_interval": [
+        0.9840358822734238,
+        0.9844103156009136
+      ],
+      "original_physical_interval": [
+        3.104107737180364,
+        3.1052854222117214
+      ],
+      "warm_physical_interval": [
+        3.1839315715012235,
+        3.185109256532581
+      ],
+      "original_length": 0.0011776850313576226,
+      "warm_length": 0.0011776850313576226,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.145246282569399,
+      "warm_secant": 3.145246282569399,
+      "old_endpoint_slopes": [
+        3.1452266164487908,
+        3.1452266164487965
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800195,
+        2.9779955308002
+      ]
+    },
+    {
+      "segment": 18,
+      "numerical_interval": [
+        0.9844103156009136,
+        0.9883418655395568
+      ],
+      "original_physical_interval": [
+        3.1052854222117214,
+        3.117651115040976
+      ],
+      "warm_physical_interval": [
+        3.185109256532581,
+        3.1974749493618355
+      ],
+      "original_length": 0.012365692829254371,
+      "warm_length": 0.012365692829254371,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.1452462825696292,
+      "warm_secant": 3.1452462825696292,
+      "old_endpoint_slopes": [
+        3.1452266164487965,
+        3.1452266164487965
+      ],
+      "warm_endpoint_slopes": [
+        2.9779955308002,
+        2.9779955308002
+      ]
+    },
+    {
+      "segment": 19,
+      "numerical_interval": [
+        0.9883418655395568,
+        0.9887162988670467
+      ],
+      "original_physical_interval": [
+        3.117651115040976,
+        3.1188288000723334
+      ],
+      "warm_physical_interval": [
+        3.1974749493618355,
+        3.198652634393193
+      ],
+      "original_length": 0.0011776850313576226,
+      "warm_length": 0.0011776850313576226,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.145246282569399,
+      "warm_secant": 3.145246282569399,
+      "old_endpoint_slopes": [
+        3.1452266164487965,
+        3.1452266164487885
+      ],
+      "warm_endpoint_slopes": [
+        2.9779955308002,
+        2.9779955308001926
+      ]
+    },
+    {
+      "segment": 20,
+      "numerical_interval": [
+        0.9887162988670467,
+        0.9972544424000331
+      ],
+      "original_physical_interval": [
+        3.1188288000723334,
+        3.145683364279505
+      ],
+      "warm_physical_interval": [
+        3.198652634393193,
+        3.2255071986003645
+      ],
+      "original_length": 0.02685456420717136,
+      "warm_length": 0.02685456420717136,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.1452462825696137,
+      "warm_secant": 3.1452462825696137,
+      "old_endpoint_slopes": [
+        3.1452266164487885,
+        3.145226616448868
+      ],
+      "warm_endpoint_slopes": [
+        2.9779955308001926,
+        2.977995530800268
+      ]
+    },
+    {
+      "segment": 21,
+      "numerical_interval": [
+        0.9972544424000331,
+        1.0
+      ],
+      "original_physical_interval": [
+        3.145683364279505,
+        3.154318819114381
+      ],
+      "warm_physical_interval": [
+        3.2255071986003645,
+        3.234142653435241
+      ],
+      "original_length": 0.008635454834876377,
+      "warm_length": 0.008635454834876377,
+      "warm_length_over_original": 1.0,
+      "old_secant": 3.1452462825695586,
+      "warm_secant": 3.1452462825695586,
+      "old_endpoint_slopes": [
+        3.145226616448868,
+        3.1452266164488405
+      ],
+      "warm_endpoint_slopes": [
+        2.977995530800268,
+        2.977995530800242
+      ]
+    }
+  ],
+  "minimum_length_ratio": 0.35431323214187554,
+  "maximum_length_ratio": 1.097951686660867,
+  "original_chart_common_slope_scale": 0.9999937473510971,
+  "warm_chart_common_slope_scale": 0.9468242748759634,
+  "original_minimum_Bernstein_control": 2.876995546806227,
+  "warm_minimum_Bernstein_control": 0.3315411386639031,
+  "largest_saved_radial_peaks": [
+    {
+      "radial_index": 2388,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -233.05214499819192,
+      "absolute_curvature": 233.05214499819192,
+      "twice_radius_at_same_point": 2.9568486722622924,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037317924037546,
+        "physical_s": 2.2224823410413417,
+        "first": 3.14526146924931,
+        "second": -0.12851756488649213
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037317924037546,
+        "physical_s": 2.302587676905451,
+        "first": 1.0282443131508368,
+        "second": 3228.3977421026543
+      },
+      "old_over_warm_chart_first": 3.0588659028040945
+    },
+    {
+      "radial_index": 2389,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -231.9321489003334,
+      "absolute_curvature": 231.9321489003334,
+      "twice_radius_at_same_point": 2.95684836046609,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.70373565914042,
+        "physical_s": 2.222494502938189,
+        "first": 3.1452609433225525,
+        "second": -0.14344790776510813
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.70373565914042,
+        "physical_s": 2.3025916773202066,
+        "first": 1.040982724208543,
+        "second": 3359.4308457645734
+      },
+      "old_over_warm_chart_first": 3.0214343333256446
+    },
+    {
+      "radial_index": 2390,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -228.49944884977603,
+      "absolute_curvature": 228.49944884977603,
+      "twice_radius_at_same_point": 2.9568474441021304,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037472848646164,
+        "physical_s": 2.22253106886377,
+        "first": 3.1452590252583117,
+        "second": -0.18584353502968418
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037472848646164,
+        "physical_s": 2.3026040149227125,
+        "first": 1.0821793527553858,
+        "second": 3718.4545467402545
+      },
+      "old_over_warm_chart_first": 2.9064119706682865
+    },
+    {
+      "radial_index": 2391,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -224.96075717782384,
+      "absolute_curvature": 224.96075717782384,
+      "twice_radius_at_same_point": 2.9568465624359614,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037589105967821,
+        "physical_s": 2.2225676347893506,
+        "first": 3.1452566401939515,
+        "second": -0.22359314163478045
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037589105967821,
+        "physical_s": 2.3026168544210104,
+        "first": 1.1272047800591332,
+        "second": 4016.2099482203307
+      },
+      "old_over_warm_chart_first": 2.7903152078799303
+    },
+    {
+      "radial_index": 2392,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -223.75149645878707,
+      "absolute_curvature": 223.75149645878707,
+      "twice_radius_at_same_point": 2.9568462760443337,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037628008332922,
+        "physical_s": 2.222579870579845,
+        "first": 3.14525574798594,
+        "second": -0.23498573421581553
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037628008332922,
+        "physical_s": 2.302621270121822,
+        "first": 1.1429948455310885,
+        "second": 4100.191307769925
+      },
+      "old_over_warm_chart_first": 2.751767219496522
+    },
+    {
+      "radial_index": 2387,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -215.67217502897302,
+      "absolute_curvature": 215.67217502897302,
+      "twice_radius_at_same_point": 2.956849307501417,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037240334223754,
+        "physical_s": 2.2224579370126083,
+        "first": 3.14526234712593,
+        "second": -0.09756777270846265
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037240334223754,
+        "physical_s": 2.3025797932138543,
+        "first": 1.0042611623256925,
+        "second": 2950.4945182609035
+      },
+      "old_over_warm_chart_first": 3.131916741499845
+    },
+    {
+      "radial_index": 2393,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -212.51350616248448,
+      "absolute_curvature": 212.51350616248448,
+      "twice_radius_at_same_point": 2.9568457206152954,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037705363385351,
+        "physical_s": 2.222604200714931,
+        "first": 3.145253848893637,
+        "second": -0.2555352065378796
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037705363385351,
+        "physical_s": 2.302630235934092,
+        "first": 1.1752807192265593,
+        "second": 4241.34128903589
+      },
+      "old_over_warm_chart_first": 2.6761724219925074
+    },
+    {
+      "radial_index": 2370,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 208.4431286798254,
+      "absolute_curvature": 208.4431286798254,
+      "twice_radius_at_same_point": 2.9568602697059863,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7035922582312142,
+        "physical_s": 2.222043470139137,
+        "first": 3.1452426601892043,
+        "second": 0.3051503363220624
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7035922582312142,
+        "physical_s": 2.302457773185292,
+        "first": 0.954672310613775,
+        "second": -1645.4213908906295
+      },
+      "old_over_warm_chart_first": 3.294578281176998
+    },
+    {
+      "radial_index": 2371,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 207.37095859623713,
+      "absolute_curvature": 207.37095859623713,
+      "twice_radius_at_same_point": 2.9568599795597175,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.703596150360087,
+        "physical_s": 2.2220557118312185,
+        "first": 3.145243847775104,
+        "second": 0.3049007950437084
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.703596150360087,
+        "physical_s": 2.302461476552681,
+        "first": 0.9483643013366416,
+        "second": -1594.3484762631554
+      },
+      "old_over_warm_chart_first": 3.3164932962387357
+    },
+    {
+      "radial_index": 2372,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 204.1823497617231,
+      "absolute_curvature": 204.1823497617231,
+      "twice_radius_at_same_point": 2.956859093504277,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7036077583448919,
+        "physical_s": 2.222092221794439,
+        "first": 3.145247352869564,
+        "second": 0.2973695300973339
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7036077583448919,
+        "physical_s": 2.302472381955897,
+        "first": 0.9309872891131795,
+        "second": -1386.2206332416456
+      },
+      "old_over_warm_chart_first": 3.3783998875705366
+    },
+    {
+      "radial_index": 2373,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 204.15052419161518,
+      "absolute_curvature": 204.15052419161518,
+      "twice_radius_at_same_point": 2.9568590921227855,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7036077761375658,
+        "physical_s": 2.2220922777567997,
+        "first": 3.1452473581603946,
+        "second": 0.2973505788587651
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7036077761375658,
+        "physical_s": 2.3024723985204307,
+        "first": 0.9309626279157243,
+        "second": -1385.8413229893938
+      },
+      "old_over_warm_chart_first": 3.378489387057457
+    },
+    {
+      "radial_index": 2369,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 201.2279912539844,
+      "absolute_curvature": 201.2279912539844,
+      "twice_radius_at_same_point": 2.9568608355723653,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7035845245695436,
+        "physical_s": 2.2220191459056378,
+        "first": 3.14524030924971,
+        "second": 0.301997286925144
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7035845245695436,
+        "physical_s": 2.3024503400548597,
+        "first": 0.9676990814765342,
+        "second": -1716.500178002897
+      },
+      "old_over_warm_chart_first": 3.2502255809219545
+    },
+    {
+      "radial_index": 2394,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -201.01734029640522,
+      "absolute_curvature": 201.01734029640522,
+      "twice_radius_at_same_point": 2.9568451824025295,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037783032314203,
+        "physical_s": 2.2226286295567803,
+        "first": 3.1452517939839932,
+        "second": -0.2730633851503493
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037783032314203,
+        "physical_s": 2.302639493289152,
+        "first": 1.208653206257736,
+        "second": 4345.652629711671
+      },
+      "old_over_warm_chart_first": 2.6022781205556926
+    },
+    {
+      "radial_index": 2395,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -194.89926304671184,
+      "absolute_curvature": 194.89926304671184,
+      "twice_radius_at_same_point": 2.956844922481366,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037821620912442,
+        "physical_s": 2.222640766640512,
+        "first": 3.145250725625193,
+        "second": -0.28050819926398357
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037821620912442,
+        "physical_s": 2.30264418976538,
+        "first": 1.225496861795304,
+        "second": 4382.492709357567
+      },
+      "old_over_warm_chart_first": 2.566510632281446
+    },
+    {
+      "radial_index": 2368,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 193.93390254987273,
+      "absolute_curvature": 193.93390254987273,
+      "twice_radius_at_same_point": 2.9568613896269587,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.703576758096217,
+        "physical_s": 2.2219947184897078,
+        "first": 3.1452379927134406,
+        "second": 0.2936577166708824
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.703576758096217,
+        "physical_s": 2.3024427722840777,
+        "first": 0.9811677447906988,
+        "second": -1744.3616488397706
+      },
+      "old_over_warm_chart_first": 3.205606798034701
+    },
+    {
+      "radial_index": 2386,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -190.07960071668043,
+      "absolute_curvature": 190.07960071668043,
+      "twice_radius_at_same_point": 2.9568502787336466,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037124077085152,
+        "physical_s": 2.222421371087027,
+        "first": 3.1452632029109227,
+        "second": -0.049364636229323196
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037124077085152,
+        "physical_s": 2.3025683074582295,
+        "first": 0.9725289183122579,
+        "second": 2503.001163964383
+      },
+      "old_over_warm_chart_first": 3.234107638021975
+    },
+    {
+      "radial_index": 2367,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 186.62834497041803,
+      "absolute_curvature": 186.62834497041803,
+      "twice_radius_at_same_point": 2.9568616596664876,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7035728987660641,
+        "physical_s": 2.221982579980057,
+        "first": 3.1452368708692124,
+        "second": 0.2874784857532239
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7035728987660641,
+        "physical_s": 2.3024389726443513,
+        "first": 0.9878970089257135,
+        "second": -1740.9402979351692
+      },
+      "old_over_warm_chart_first": 3.1837700108936393
+    },
+    {
+      "radial_index": 2374,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 183.40853467330442,
+      "absolute_curvature": 183.40853467330442,
+      "twice_radius_at_same_point": 2.956858174982538,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7036194019022998,
+        "physical_s": 2.2221288436823805,
+        "first": 3.145250725625223,
+        "second": 0.2805081989368321
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7036194019022998,
+        "physical_s": 2.302483134012726,
+        "first": 0.916431993185478,
+        "second": -1102.3347634652623
+      },
+      "old_over_warm_chart_first": 3.432061242965195
+    },
+    {
+      "radial_index": 2375,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 1,
+      "signed_curvature": 176.54309350938954,
+      "absolute_curvature": 176.54309350938954,
+      "twice_radius_at_same_point": 2.956857864502027,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7036232607621239,
+        "physical_s": 2.222140980766113,
+        "first": 3.1452517939840217,
+        "second": 0.2730633848176678
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7036232607621239,
+        "physical_s": 2.302486662453618,
+        "first": 0.9123858361823424,
+        "second": -993.6050482715992
+      },
+      "old_over_warm_chart_first": 3.447282574162447
+    },
+    {
+      "radial_index": 2396,
+      "angular_index": 192,
+      "material_eta": 1.5707963267948966,
+      "principal_component": 0,
+      "signed_curvature": -176.1206108106236,
+      "absolute_curvature": 176.1206108106236,
+      "twice_radius_at_same_point": 2.956844170364415,
+      "original_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037937878559782,
+        "physical_s": 2.222677332566093,
+        "first": 3.1452473581603613,
+        "second": -0.29735057916912994
+      },
+      "warm_chart": {
+        "segment": 8,
+        "numerical_t": 0.7037937878559782,
+        "physical_s": 2.3026587348677388,
+        "first": 1.2768108750056208,
+        "second": 4428.308245744601
+      },
+      "old_over_warm_chart_first": 2.463361974534024
+    }
+  ],
+  "full_geometry_evaluations": 0,
+  "ODE_Node_Jacobian_calls": 0,
+  "nonlinear_causation_or_nonexistence_proved": false
+}

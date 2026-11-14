@@ -1,0 +1,238 @@
+{
+  "scope": "Small provider-only identity and endpoint checks for the explicit pulse hook.\n\nNo actual Flow, prefix RHS/Jac/BVP, or Node/tail worker is loaded.  This checks\nthe actual old provider before/after the hook, not a duplicate implementation.\n",
+  "passed": true,
+  "checks": {
+    "install_idempotent": true,
+    "absent_key_all_jets_and_velocity_bitwise_equal": true,
+    "explicit_zero_all_jets_and_velocity_bitwise_equal": true,
+    "absent_key_all_segment_metadata_equal": true,
+    "explicit_zero_all_segment_metadata_equal": true,
+    "both_default_reference_breaks_bitwise_equal": true,
+    "default_length_and_height_equal": true,
+    "all_nonzero_pulse_checks": true,
+    "invalid_pulses_rejected": true
+  },
+  "source_sha256_at_start": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_initial_speed_pulse_check.py": "5a195abca3fd38846ccef03fe76e882ea5b125db2dd3936fea142e1baa1c9678",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_angle_boost.py": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423"
+  },
+  "rows": [
+    {
+      "pulse": -0.001,
+      "S": 0.8439025366996744,
+      "height": 1.9224749361858662,
+      "initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "expected_initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "expected_terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_endpoint_error": 0.0,
+      "terminal_endpoint_error": 0.0,
+      "all_sample_speeds_in_domain": true,
+      "velocity_jet_same_values": true,
+      "second_jet_finite_difference_max_error": 6.488182213715277e-11,
+      "later_radius_max_float_error": 4.440892098500626e-16,
+      "later_velocity_and_acceleration_max_float_error": 0.0,
+      "segment_and_chart_topology_same": true,
+      "passed": true
+    },
+    {
+      "pulse": 0.001,
+      "S": 0.8404521901396272,
+      "height": 1.9189653270242828,
+      "initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "expected_initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "expected_terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_endpoint_error": 0.0,
+      "terminal_endpoint_error": 0.0,
+      "all_sample_speeds_in_domain": true,
+      "velocity_jet_same_values": true,
+      "second_jet_finite_difference_max_error": 8.069417356537656e-11,
+      "later_radius_max_float_error": 4.440892098500626e-16,
+      "later_velocity_and_acceleration_max_float_error": 0.0,
+      "segment_and_chart_topology_same": true,
+      "passed": true
+    },
+    {
+      "pulse": 0.2,
+      "S": 0.589825636676246,
+      "height": 1.6603539123003581,
+      "initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "expected_initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "expected_terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_endpoint_error": 0.0,
+      "terminal_endpoint_error": 0.0,
+      "all_sample_speeds_in_domain": true,
+      "velocity_jet_same_values": true,
+      "second_jet_finite_difference_max_error": 2.5277913096033444e-10,
+      "later_radius_max_float_error": 4.440892098500626e-16,
+      "later_velocity_and_acceleration_max_float_error": 0.0,
+      "segment_and_chart_topology_same": true,
+      "passed": true
+    },
+    {
+      "pulse": 0.35,
+      "S": 0.47748543727812714,
+      "height": 1.539850082920581,
+      "initial_jet": [
+        1.0,
+        0.0,
+        0.44999999999999996
+      ],
+      "terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "expected_initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "expected_terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_endpoint_error": 5.551115123125783e-17,
+      "terminal_endpoint_error": 0.0,
+      "all_sample_speeds_in_domain": true,
+      "velocity_jet_same_values": true,
+      "second_jet_finite_difference_max_error": 3.509166290882604e-10,
+      "later_radius_max_float_error": 4.440892098500626e-16,
+      "later_velocity_and_acceleration_max_float_error": 0.0,
+      "segment_and_chart_topology_same": true,
+      "passed": true
+    },
+    {
+      "pulse": 0.5,
+      "S": 0.3998004638361709,
+      "height": 1.4521900881711536,
+      "initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "expected_initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "expected_terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_endpoint_error": 0.0,
+      "terminal_endpoint_error": 0.0,
+      "all_sample_speeds_in_domain": true,
+      "velocity_jet_same_values": true,
+      "second_jet_finite_difference_max_error": 6.333511493039623e-10,
+      "later_radius_max_float_error": 4.440892098500626e-16,
+      "later_velocity_and_acceleration_max_float_error": 0.0,
+      "segment_and_chart_topology_same": true,
+      "passed": true
+    },
+    {
+      "pulse": 0.6,
+      "S": 0.360308251641012,
+      "height": 1.4046699649797458,
+      "initial_jet": [
+        1.0,
+        0.0,
+        0.45000000000000007
+      ],
+      "terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "expected_initial_jet": [
+        1.0,
+        0.0,
+        0.45
+      ],
+      "expected_terminal_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_endpoint_error": 5.551115123125783e-17,
+      "terminal_endpoint_error": 0.0,
+      "all_sample_speeds_in_domain": true,
+      "velocity_jet_same_values": true,
+      "second_jet_finite_difference_max_error": 7.918847799714968e-10,
+      "later_radius_max_float_error": 4.440892098500626e-16,
+      "later_velocity_and_acceleration_max_float_error": 0.0,
+      "segment_and_chart_topology_same": true,
+      "passed": true
+    }
+  ],
+  "initial_reference_bytes_sha256": "e31af626361262d72e99092574b3164ef0aa72eaad54a2d8946b9a36a5678676",
+  "physical_profile_key": "initial_speed_pulse",
+  "default": 0.0,
+  "second_jet_FD_is_only_an_implementation_check": true,
+  "actual_core_held_response_computed": false,
+  "BVP_evaluations": 0,
+  "Node_workers": 0,
+  "seconds": 9.87732481956482
+}

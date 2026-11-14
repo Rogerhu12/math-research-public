@@ -1,0 +1,71 @@
+{
+  "scope": "Background cubic turning-angle bridge diagnostic. Extrema of the cubic phi are evaluated analytically after numerical length quadrature. A crossing of pi/2 invalidates the positive-binormal chart and its C2 reconstruction.",
+  "rows": [
+    {
+      "radius": 0.6,
+      "w": 0.5,
+      "bridge_length": 0.6388482209066094,
+      "phi_max_exact_cubic": 1.3352120238729661,
+      "phi_below_pi_over_two": true,
+      "minimum_cosine": 0.2334111887038932,
+      "height_signed": 0.40243334402920033,
+      "kappa_if_cosine_positive": 4.173993557999608,
+      "end_radius": 0.599999999999999
+    },
+    {
+      "radius": 0.35,
+      "w": 0.08,
+      "bridge_length": 0.9970901628595065,
+      "phi_max_exact_cubic": 1.5786741982406016,
+      "phi_below_pi_over_two": false,
+      "minimum_cosine": -0.00787778996138032,
+      "height_signed": 0.5331368743867178,
+      "kappa_if_cosine_positive": 2.684908999083584,
+      "end_radius": 0.35
+    },
+    {
+      "radius": 0.3,
+      "w": 0.08,
+      "bridge_length": 1.0550478167160773,
+      "phi_max_exact_cubic": 1.6138867020609404,
+      "phi_below_pi_over_two": false,
+      "minimum_cosine": -0.04307704160965917,
+      "height_signed": 0.536921183400065,
+      "kappa_if_cosine_positive": 2.6429141921872095,
+      "end_radius": 0.3000000000000006
+    },
+    {
+      "radius": 0.35,
+      "w": 0.05,
+      "bridge_length": 1.0209253252599533,
+      "phi_max_exact_cubic": 1.5621354147775257,
+      "phi_below_pi_over_two": true,
+      "minimum_cosine": 0.008660803739925432,
+      "height_signed": 0.5715560436982423,
+      "kappa_if_cosine_positive": 2.5043694923386512,
+      "end_radius": 0.34999999999999987
+    },
+    {
+      "radius": 0.3,
+      "w": 0.05,
+      "bridge_length": 1.0848903002751056,
+      "phi_max_exact_cubic": 1.580424371841433,
+      "phi_below_pi_over_two": false,
+      "minimum_cosine": -0.00962789629513113,
+      "height_signed": 0.589396053123725,
+      "kappa_if_cosine_positive": 2.42171605278881,
+      "end_radius": 0.30000000000000016
+    },
+    {
+      "radius": 0.3,
+      "w": 0.03,
+      "bridge_length": 1.109627010499943,
+      "phi_max_exact_cubic": 1.5662226075919938,
+      "phi_below_pi_over_two": true,
+      "minimum_cosine": 0.004573703256718094,
+      "height_signed": 0.629458647144694,
+      "kappa_if_cosine_positive": 2.2693480998996067,
+      "end_radius": 0.30000000000000004
+    }
+  ]
+}

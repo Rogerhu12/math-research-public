@@ -1,0 +1,15 @@
+# Actual A: positive complete-core gap, original tail budget
+
+Author: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.
+
+This is a completed numerical design calculation at the genuinely accepted A M32 fixed view cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa. It consumes the frozen complete nine-column response 1b4349d08079b77314329f41ef70546cdd61b4ebaa922f3cd6fc935c0f3cf34d and all nineteen actual fields from the original 3767 by 768 grid, with the original mean count 1552. It does not use the future release candidate as an accepted baseline.
+
+The objective minimizes the complete finite curvature model. The gap constraint uses G = 2 times the sum of all 32 represented core coefficients at physical frequencies congruent to 2 modulo 4. All neutral-column high-mode contributions are retained. Requested gap increments are 0.008 and 0.016. Each is tested with size caps 0.98, 0.99 and 1 times the actual A baseline. The five weighted core-tail budgets, beginning at actual frequencies 16, 24, 32, 40 and 48, are kept at one times their actual baseline values. The physical frontload increment is constrained to [0,0.128], start acceleration to [-0.128,0], vd to [-0.004,0.002], and descending sync curvature to [-0.5,0.5]. The original trust factor 256 and remaining source constraints are unchanged.
+
+The owned calculation exited zero in 53.953565441 seconds with peak RSS 191,296 KiB. Of the six requested cases, the gap-0.008 cases at size factors 0.99 and 1 were feasible in the floating model and each passed replay of all 14,465,280 original geometric rows. Their predicted curvature-size products are respectively 34.16047597092589 and 33.37510710849523; both exceed 100/3, so neither is promoted to a new nonlinear candidate. Their complete saved core values also pass the original exact-binary gap and tail replay with the explicitly recorded original numerical tolerances. That arithmetic certifies only replay of stored model values.
+
+The gap-0.008/size-0.98 case and all three gap-0.016 cases were rejected by finite initial LPs. They did not pass a full-row feasible replay. Those floating infeasibility reports are not proofs that no geometric direction or surface exists.
+
+A separate tail-times-two batch was planned, but its immediate launch guard found insufficient workspace after simultaneously reserving the full active Strong J/QR budget, 400 MiB, and the LP temporary arrays. No mathematical producer, field or LP memmap was started for that attempt. The fresh re-observation is retained separately; it does not purport to be the earlier unprinted launch-time free-space value.
+
+No new ODE, Jacobian, geometry field, accepted BVP, continuous bound, closed diameter, reach, Hausdorff amplitude or metric certificate is produced. Any future use after the release solve must subtract already implemented physical control increments and evaluate the resulting warm field from the genuinely accepted new state. Temporary LP memmaps were removed by the original successful producer; all nineteen input field paths and bytes remain available.

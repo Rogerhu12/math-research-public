@@ -1,0 +1,72 @@
+{
+  "schema": "strong-lane-replacement-only-v1",
+  "request_path": "topics/visible-flex-larger-amplitude/computations/ci-recovery-request.json",
+  "read_request_ref": "26ecea85ef765cef1b678a818108e6b833498b4f",
+  "read_request_blob": "faa6b50a5487368f36958298c8a9b1b9eca73297",
+  "instructions": "Replace all stages with lane=strong by replace_strong_stages. Replace only the strong entries of the three maps below. Preserve interval stages/maps and parent-owned publication/HANDOFF edits for the parent's combined update.",
+  "replace_strong_stages": [
+    {
+      "lane": "strong",
+      "name": "accepted-q096-same-g-m28",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "needs_git_source_recovery": true,
+      "depends_on": [],
+      "argv": [
+        "{python}",
+        "-u",
+        "computations/strong_ci_q096_sameg_m28.py",
+        "--repo",
+        "{repo}",
+        "--work-root",
+        "{runner_temp}",
+        "--run-id",
+        "{run_id}",
+        "--phase",
+        "all",
+        "--node-heap",
+        "128",
+        "--max-nodes",
+        "3200"
+      ]
+    }
+  ],
+  "replace_main_input_globs_strong": [
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong*",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-root-vu032-q085-fixed-actual-m20-staged-audit-ready.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json"
+  ],
+  "replace_main_text_diagnostics_strong": [],
+  "replace_publish_output_globs_strong": [
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-q096-sameg-m28-{run_id}*"
+  ],
+  "replace_strong_response_fields": [
+    "delta",
+    "boost_length",
+    "boost_speed",
+    "initial_speed_pulse",
+    "initial_speed_frontload",
+    "vd",
+    "vu",
+    "descending_turn_curvature"
+  ],
+  "strong_followup_status": "Eight-column actual response deferred until the fixed-g M28 endpoint and complete finite geometric audits. It is not a prerequisite of M28 and must use the new same-chart wrapper; the old raw/reference_t mismatch is not bypassed.",
+  "source_guards": {
+    "strong_sameg_spectral_refinement.py": "65e81c73707c6f094ce5d494965d2fd468e971f4fa450d88513cf4ac622476fd",
+    "strong_sameg_actual_comparison.py": "7c152306f09faf7de890377af4f69406677c374ed707b2bc2e391208c8d57f57",
+    "root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+    "strong_foreground_resource_run.py": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+    "strong_interior_jet_audit.py": "1b7f45785fffc41595eda9aae844c3081d2954d3ea08ac0da6e5a90c935294fa",
+    "root_actual_seam_audit.py": "c084d31f8671434ce393d778507103c1b786353812126d60dbcd6db9fce2bb87"
+  },
+  "guarantees": {
+    "no_artifact_api_token_needed": true,
+    "original_accepted63_verified_from_published_git": true,
+    "no_original_q096_BVP_repetition": true,
+    "no_old_report_or_eight_column_gate_before_M28": true,
+    "phases_run_strictly_sequentially": true,
+    "no_workflow_run_dispatched_by_this_patch": true,
+    "no_ref_or_HANDOFF_mutation_by_this_patch": true,
+    "old_r7_terminal": "unknown",
+    "all_MJS_unchanged": true
+  }
+}

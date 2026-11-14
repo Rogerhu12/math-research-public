@@ -1,0 +1,26 @@
+{
+  "status": "Formal exit1 at the declared40MiB observer; no successful mathematical output",
+  "formal_exit": 1,
+  "wall_seconds": 2.530834674835205,
+  "peak_rss_kib": 41100,
+  "observed_cap_kib": 40960,
+  "reason": "Two-output retained ledger exceeded owned memory observer; no inference about system OOM",
+  "files": [
+    {
+      "path": "computations/root_auxiliary_cut_reference_strip.py",
+      "bytes": 16990,
+      "sha256": "d2cf76d0aa5202b37a0123f4f8d4e743c99ec1f74fe576c177f8ab5d7d86dfc3"
+    },
+    {
+      "path": "notes/2026-11-12-root-r82-source-m006-m008-r1-plan.json",
+      "bytes": 1795,
+      "sha256": "22d07fb9a95e854dd173048477f6f87cdeb0783840f3bad42a8bf46d05d34c31"
+    },
+    {
+      "path": "notes/2026-11-12-root-r82-source-m006-m008-r1-resource.json",
+      "bytes": 1713,
+      "sha256": "2509bbead05df81387ad7efdf454158a81d14b4a9a550be120bf609d8f192c64"
+    }
+  ],
+  "continuation": "Same frozen source, same mathematical gates and40MiB observer; one output mode per fresh invocation"
+}

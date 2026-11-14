@@ -1,0 +1,55 @@
+{
+  "scope": "Actual first q098 complete-H/full-J tail response; immutable recovery checkpoint, not an accepted prefix BVP and not the final tail audit. Current original prefix Newton remains active.",
+  "written_utc": "2026-11-13T08:43:24.071943+00:00",
+  "source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-response_0001.json.gz",
+  "file": "notes/2026-11-13-strong-q098-initial-tail-fullJ-recovery.json.gz",
+  "bytes": 353236,
+  "sha256": "35823553df43fc8e643ca1e56ab4b6478e0e8057383143d0dc30675ae8e3f3ac",
+  "tail_converged": true,
+  "tail_residual": 7.442322326430711e-11,
+  "tolerance": 2e-09,
+  "full_height_modes": 28,
+  "jacobian_shape": [
+    86,
+    28
+  ],
+  "stage_states": 577,
+  "state_width": 56,
+  "audit": null,
+  "prefix_accepted": false,
+  "newton_history": [
+    {
+      "iteration": 0,
+      "norm": 933.0483780997954,
+      "minA": 0.8837673765847326,
+      "minD": 0.999938961876163,
+      "chartCondition": 133135.12501687807,
+      "step": 1
+    },
+    {
+      "iteration": 1,
+      "norm": 0.001005720225069174,
+      "minA": 0.8837921120318525,
+      "minD": 0.9999389621819988,
+      "chartCondition": 133135.21924241414,
+      "step": 1
+    },
+    {
+      "iteration": 2,
+      "norm": 3.607336772944774e-09,
+      "minA": 0.8837921121131866,
+      "minD": 0.9999389621819994,
+      "chartCondition": 133135.2192990358,
+      "step": 1
+    },
+    {
+      "iteration": 3,
+      "norm": 7.442322326430711e-11,
+      "minA": 0.8837921121131864,
+      "minD": 0.9999389621819994
+    }
+  ],
+  "sources_bound_by_original_packet": 36,
+  "original_packet_bytes_unchanged": true,
+  "live_session": 15492
+}

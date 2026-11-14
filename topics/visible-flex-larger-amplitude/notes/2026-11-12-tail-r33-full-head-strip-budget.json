@@ -1,0 +1,86 @@
+{
+  "status": "Exact constants for the conditional R33 full-frequency theorem",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "checks": {
+    "normalized_discriminant_perturbation_below_3over100": true,
+    "square_root_second_remainder_coefficient_below_half": true,
+    "square_root_first_difference_coefficient_below_3over5": true,
+    "inverse_square_root_below_21over20": true,
+    "inverse_three_halves_below_11over10": true,
+    "three_halves_difference_coefficient_below_7over4": true,
+    "second_remainder_term": true,
+    "mixed_product_term": true,
+    "last_product_term": true,
+    "sum_of_four_quadratic_coefficients": true,
+    "mean_derivative_first_term": true,
+    "mean_derivative_mixed_term": true,
+    "mean_derivative_total": true,
+    "mean_root_total_input": true,
+    "mean_root_self_map": true,
+    "mean_root_contraction": true,
+    "full_leading_inverse_below_two": true,
+    "complete_mean_lift_below_two": true,
+    "complete_field_difference_below_two": true,
+    "quadratic_source_constant": true,
+    "lipschitz_source_constant": true,
+    "cell_count": true,
+    "exact_downward_log_sum": true,
+    "displayed_linear_width_upper": true,
+    "displayed_remaining_width_lower": true
+  },
+  "mean_root": {
+    "w_upper": {
+      "exact": "1/2",
+      "decimal": 0.5
+    },
+    "holomorphic_input_radius": {
+      "exact": "1/32",
+      "decimal": 0.03125
+    },
+    "working_input_radius": {
+      "exact": "1/64",
+      "decimal": 0.015625
+    },
+    "mean_quadratic_constant": 4,
+    "quadratic_remainder_constant": 2,
+    "derivative_constant": 16,
+    "maximal_discriminant_perturbation": {
+      "exact": "33/1280",
+      "decimal": 0.02578125
+    }
+  },
+  "full_source": {
+    "quadratic_constant": 16,
+    "difference_constant": 32,
+    "density": "(1/r+abs(w_r/w))*V(r)^2/w(r)",
+    "state": "(B*p/V,kappa_perp/V), componentwise Fourier radial suprema"
+  },
+  "deep_head_material": {
+    "first_cell": 12,
+    "last_cell": 224,
+    "cell_count": 213,
+    "frequency_cutoff": 4096,
+    "downward_log_sum_in_units_log2": 82218,
+    "angle_loss_upper": 4,
+    "linear_width_upper": {
+      "exact": "369683/20480",
+      "decimal": 18.050927734375
+    },
+    "remaining_38_to_1_width_lower": {
+      "exact": "388077/20480",
+      "decimal": 18.949072265625
+    },
+    "assumes_V_non_decreasing_outward": true
+  },
+  "actual_complete_strong_head_closure_paid": false,
+  "actual_finite_window_density_Green_paid": false,
+  "actual_source_profile_envelope_paid": false,
+  "actual_deep_graph_feedback_paid": false,
+  "limits": [
+    "The high-frequency inequality still requires the chosen B,V,tau and the source-density width integral.",
+    "All finite modes below the cutoff and the actual nonlinear deep-graph feedback remain separate inputs.",
+    "No M8 or 46-mode scalar-L1 Green result is relabeled as a density-space full-frequency certificate.",
+    "The 0..11 outer-head material budget is not included in the 12..224 displayed example."
+  ],
+  "script_sha256": "345df761e6dee467935a95eae0d99f7a9b28524a06c95290d9a93517080e57d0"
+}

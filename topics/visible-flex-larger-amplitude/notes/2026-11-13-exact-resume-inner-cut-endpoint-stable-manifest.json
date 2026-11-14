@@ -1,0 +1,59 @@
+{
+  "schema": "same-R100-high-endpoint-stable-manifest-v1",
+  "scalar_formal_exitcode": 0,
+  "scalar_improvement_passed": false,
+  "canonical_formal_exitcode": 0,
+  "near_improved": true,
+  "full_mean_inverse_far_infinite_retained": true,
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-cut-canonical-endpoint-v1.py",
+      "source": "exact-work/2026-11-13-exact-resume-inner-cut-canonical-endpoint-v1.py",
+      "sha256": "59386f1f6bdf7af3aa9551b76bed6400f9748f2742ce62d5d2233f3742fb54d8",
+      "bytes": 7867
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-cut-endpoint-high-v1.py",
+      "source": "exact-work/2026-11-13-exact-resume-inner-cut-endpoint-high-v1.py",
+      "sha256": "1d4224ae0885c614b569f9a740c99aa2577333349247528678779afbed011260",
+      "bytes": 12977
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-cut-endpoint-proof.md",
+      "source": "exact-work/2026-11-13-exact-resume-inner-cut-endpoint-proof.md",
+      "sha256": "ff8350f2faed1f9afca7e2ccf41a31957eb4a30fa95cd8805be4c1f110a1c7ad",
+      "bytes": 5796
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-cut-endpoint-high-r1-resource.json",
+      "source": "exact-work/inner-cut-endpoint-high-r1-resource.json",
+      "sha256": "73eb11617c48a86c16b20161f8777b96119c2f958a5f2bcf7b33d050a84bc7f3",
+      "bytes": 1225
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-cut-endpoint-high-r1.json",
+      "source": "exact-work/inner-cut-endpoint-high-r1.json",
+      "sha256": "8f90a5b5e617c3059736d4b80ba0008f456ad7412e2e9bf9159049ebd873e716",
+      "bytes": 14999
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-cut-canonical-endpoint-r1-head-export.json",
+      "source": "exact-work/inner-cut-canonical-endpoint-r1-head-export.json",
+      "sha256": "8c8a4a0d85cb876d97b84c692f0c9f296bed7ee5d836156fd415a84fda026c99",
+      "bytes": 1548
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-cut-canonical-endpoint-r1-resource.json",
+      "source": "exact-work/inner-cut-canonical-endpoint-r1-resource.json",
+      "sha256": "7ac0112bcbbeb52a6872df4cc8c5bb32de0e9a0a4604d012bdb6cc0e2dd1117d",
+      "bytes": 1076
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-cut-canonical-endpoint-r1.json",
+      "source": "exact-work/inner-cut-canonical-endpoint-r1.json",
+      "sha256": "5741ce64f40e252c7b568bc8be61ae14695a41faf6fbaa3cbac13eaab5c9a5c9",
+      "bytes": 17081
+    }
+  ],
+  "total_bytes": 62569
+}

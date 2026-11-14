@@ -1,0 +1,102 @@
+{
+  "scope": "Exact copy of the original current-H call2 accepted Newton trial2. This is a recovery only, not a complete tail response, full-J audit, physical BVP or closed surface.",
+  "created_utc": "2026-11-13T12:52:24.710457+00:00",
+  "original_live_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-iteration.json.gz",
+  "original_live_bytes_sha256": "ea7eabcd6b3b640eae5032b0de6b43ccc19cef99d5c5c74ad999281502fab83d",
+  "original_call": 2,
+  "original_iteration": {
+    "iteration": 2,
+    "norm": 9.362895333958073e-10,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 1,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  },
+  "original_solve_tolerance": 2e-09,
+  "modes": 28,
+  "shooting_states_shape": [
+    577,
+    56
+  ],
+  "raw_states_shape": [
+    9,
+    56
+  ],
+  "all_state_values_finite": true,
+  "all_rawNode_and_indexed_rawStates_exact": true,
+  "complete_current_H_bits_match_original_pending_prefix": true,
+  "pending_prefix_manifest": {
+    "file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-pending-prefix-recovery-manifest.json",
+    "sha256": "9940397c49f6f49d4bf03676ce2e9c88e1cd633710b68537f0174cd7dfd7f262"
+  },
+  "original_prior_fullJ_tail_packet": {
+    "file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0001.json.gz",
+    "sha256": "f2c245ca2ffed58f7ea8402227782dda74cc2a0cd76b24d976f8dbda2a111d64"
+  },
+  "all_original_numeric_source_hashes_verified": {
+    "db6f-prefix-tail-trial-client.py": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+    "78718-prefix-tail-geometric-client.py": "57326a2d91d262c0057d268c5114f18bad818cecd98e43ee640b6fca5844f3e5",
+    "78718-prefix-tail-tangent-fourier-worker.mjs": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+    "78718-tail-geometric-warm-remesh.mjs": "365c51f6dffcbc9e63ca80744c05badc6fe35b7f70100a779ea5636118134c15",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "78718-tail-tangent-core.mjs": "ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3",
+    "78718-tail-tangent-split.mjs": "bacb4f2d57d75fa648ae880ef029152263052d6a15030154082732b8a89e1089",
+    "78718-tail-tangent-predictor.mjs": "8d39830939a52fc40f7de06cf5a2a9de9959f94058594051a7989b8b40744459",
+    "78718-tail-geometric-amplitude-warm.mjs": "61c401abf66ca792f1c085f6a4b5b5911a62c3f966adb2dc11bd911b196148af",
+    "78718-tail-fourier-product-flow.mjs": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f",
+    "78718-tail-fourier-product-jacobian.mjs": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25",
+    "78718-tail-fourier-root-momentum.mjs": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+    "78718-tail-fourier-root-split-engine.mjs": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372",
+    "tail_resumable_client.py": "8bf14c0e8857289cff953dba9aaa8d82de8b0cf515ca760b775aca9985b802e5",
+    "tail_resumable_worker.mjs": "a84afb87a089603edfd44867903ea474d1a70bea2661eeaf2693964d067026da",
+    "tail_stored_geometry.mjs": "eb0b98440b9f0d5f9defc1a49183ef96a3fac103f50e0fe74acf223f59acbc94",
+    "tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8",
+    "closure_bounded_point_cache.mjs": "35289a4de44ec409bc211f82c7a1bee81a10c6bc1c5fb31e4ca9a8634cc09043",
+    "closure_linear_stage_graphs.mjs": "be119b692fa20ea4cc646ff6c0e109fe473076974689558b4551c46e00359fdd",
+    "numerical-tail-slope-jacobian.mjs": "206d82d3b41e6b9ce24b26447a2026c19c1c7126765107c23d58e55da25639e2",
+    "tail_frozen_client.py": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+    "tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+    "tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "strong_exact_raw_tail_client.py": "ff5f521f4a40522b134710ff0db7eff9a6342637b58b5aaf1080ca370d0bafef",
+    "strong_exact_raw_tail_worker.mjs": "ec69703a4b0786313c2506aae5f82ec8da39330876d15519225e2d4b7f7d2cc8",
+    "strong_exact_raw_tail_warm.mjs": "d5c67a3207679f105eadbe532b27311927a5b8a783370ecfee9c58903c54b3be",
+    "strong_exact_stage_tail_client.py": "e40bc403408d433129980aa590d63b8c52e081d61135024832a3a38362d02052",
+    "strong_exact_stage_tail_worker.mjs": "b7bb40dc25a8a4add993fdb99e8cc48aa0b636d6200e31818f9f1e8844cc9e35",
+    "strong_exact_stage_engine.mjs": "968cab71ddfc8d091ad511bc7d381ea448f5987d1f1dd1107c848cde08fefa57",
+    "strong_exact_stage_flow_store.mjs": "cf418e0d82210a226376db19f610520c3eb4be1b7ea3559f8a0e85092d75aafe",
+    "strong_exact_stage_seed.mjs": "57b87555bac5040eb08dfd02cd72f42611b9aa7e88f2a9483eaccce6f74aaaf0",
+    "strong_exact_stage_evaluation_check.mjs": "53d0be4f003f35c3d4d713c03bf692bd1e680b924e5fe909124fdc2be169b8b0",
+    "strong_full_tangent_tail_client.py": "9ee68e2af6578f357535317abdf4bbb89dc96e783782c3e66914e83fdbedf045",
+    "strong_full_tangent_tail_worker.mjs": "2a0a93902999f244a838effd4ae09930f456f0a97393416bacb1554c075c1653",
+    "strong_full_flow_tangent_storage.mjs": "fb6ed25102cb91a332e1c2d879cf6218f9c88faaebe6916e801e46e6f8c1551f"
+  },
+  "source_and_tail_parameters_unchanged": true,
+  "request_jacobian": true,
+  "request_audit": false,
+  "final_full_current_H_Jacobian_pending": true,
+  "actual_physical_BC_and_final_audit_pending": true,
+  "whole_owned_job_exit_pending": true,
+  "original_live_job_not_interrupted": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-true-H-call02-iteration02.json.gz",
+      "sha256": "ea7eabcd6b3b640eae5032b0de6b43ccc19cef99d5c5c74ad999281502fab83d",
+      "bytes": 329647
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-true-H-call02-iteration02-observed-trace.json",
+      "sha256": "ca40ed5f9afa132eb869556d049c0d3e12326556cf40586d338be56e7970afa2",
+      "bytes": 3329
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-config.json",
+      "sha256": "e74ed95609bb024ab638bfbe44133edfa6031f443deb2729ab0a2db2e53fa330",
+      "bytes": 2920
+    }
+  ],
+  "total_bytes": 335896
+}

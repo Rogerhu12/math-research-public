@@ -1,0 +1,233 @@
+{
+  "scope": "Audit the complete new H of a recorded actual-J warm design independently.\n\nThe accepted baseline, complete tangent arrays, numerical mesh and old full-H\ntail are checked. The endpoint is reconstructed in the original arithmetic\norder and must equal every binary64 value reported by the actual warm loader.\nThe old tail is only a warm guess for a different H. The unchanged exact-raw\nclient performs the original nonlinear solve, complete Jacobian and audit.\nNo prefix solver or Flow is loaded, and no prefix acceptance is implied.\n",
+  "stage_persistence_adapter": {
+    "scope": "Independent new-H tail audit with explicit completed-stage persistence.\n\nThe original endpoint, physical source and complete target-H guards are kept.\nAn optional diagnostic request runs and compares the entire original evaluate\ntwice, retaining every completed original stage and exact initial seed; it is\nnot a nonlinear response. Normal requests retain all original solve/audit gates.\n",
+    "original_runner_sha256": "a670790d9521ee0425a8f5d00a0f90b6f3e66ae9ddf326ae046a4d7c7224e553",
+    "entry_sha256": "061809242a2eb12aec99ca71272f86c0096da77cbb4d7d6006d7119ee1081702",
+    "transformed_source_sha256": "df331ba1c02f7f419d30a536a5d4cab00cea97d2c50392f806d4d8bc8537afe5",
+    "replacements": [
+      {
+        "before": "    parser.add_argument('--prepare-only', action='store_true')",
+        "after": "    parser.add_argument('--prepare-only', action='store_true')\n    parser.add_argument('--cache-directory', type=Path, required=True)\n    parser.add_argument('--seed-prefix', type=Path, required=True)\n    parser.add_argument('--initial-seed', type=Path)\n    parser.add_argument('--diagnostic-complete-evaluate', action='store_true')",
+        "count": 1
+      },
+      {
+        "before": "    cfg['initialCheckpoint'] = str(args.accepted_tail.resolve())",
+        "after": "    cfg['initialCheckpoint'] = str((args.initial_seed or args.accepted_tail).resolve())\n    seed_input=None\n    if args.initial_seed:\n        seed_input=read(args.initial_seed)\n        checkpoint=seed_input.get('checkpoint',seed_input)\n        if not checkpoint.get('exactInitialSeed'):\n            raise ValueError('The explicit initial seed has no exact binary marker')\n        if checkpoint['cutHeight'] != binding['complete_warm_H']:\n            raise ValueError('The explicit seed belongs to another complete H')\n        if seed_input.get('status') != 'initial-warm-only':\n            raise ValueError('An initial seed cannot be relabelled as an accepted trial')",
+        "count": 1
+      },
+      {
+        "before": "        'tail_resumable_engine.mjs', 'numerical-tail-slope-jacobian.mjs')",
+        "after": "        'tail_resumable_engine.mjs', 'numerical-tail-slope-jacobian.mjs',\n        'strong_cached_target_tail_audit.py','strong_exact_stage_tail_client.py',\n        'strong_exact_stage_tail_worker.mjs','strong_exact_stage_engine.mjs',\n        'strong_exact_stage_flow_store.mjs','strong_exact_stage_seed.mjs',\n        'strong_exact_stage_evaluation_check.mjs')",
+        "count": 1
+      },
+      {
+        "before": "    plan = dict(scope=__doc__,source_sha256=hashes,endpoint_binding=binding,",
+        "after": "    if args.initial_seed: hashes[str(args.initial_seed)]=sha(args.initial_seed)\n    plan = dict(scope=__doc__,stage_persistence_adapter=STAGE_SOURCE_TRANSFORM,\n        diagnostic_complete_evaluate=bool(args.diagnostic_complete_evaluate),\n        cache_directory=str(args.cache_directory.resolve()),seed_prefix=str(args.seed_prefix.resolve()),\n        initial_seed=None if args.initial_seed is None else str(args.initial_seed),\n        source_sha256=hashes,endpoint_binding=binding,",
+        "count": 1
+      },
+      {
+        "before": "        exact_same_H_raw_shortcut_will_not_apply=True,",
+        "after": "        exact_same_H_raw_shortcut_will_not_apply=(args.initial_seed is None),",
+        "count": 1
+      },
+      {
+        "before": "    from strong_exact_raw_tail_client import WeightedTailPort",
+        "after": "    os.environ['VISIBLE_FLEX_EXACT_STAGE_CACHE']=str(args.cache_directory.resolve())\n    os.environ['VISIBLE_FLEX_EXACT_STAGE_SEED_PREFIX']=str(args.seed_prefix.resolve())\n    from strong_exact_stage_tail_client import WeightedTailPort",
+        "count": 1
+      },
+      {
+        "before": "        response=tail.solve(binding['complete_warm_H'],jacobian=True,audit=True)",
+        "after": "        if args.diagnostic_complete_evaluate:\n            request=dict(height=binding['complete_warm_H'],jacobian=True,audit=True,exactStageDiagnostic=True)\n            tail.proc.stdin.write(json.dumps(request)+'\\n');tail.proc.stdin.flush()\n            line=tail.proc.stdout.readline()\n            if not line: raise RuntimeError('Exact-stage diagnostic worker stopped')\n            result=json.loads(line)\n            check=result.get('exactStageDiagnostic',{})\n            if not check.get('passed') or check.get('nonlinearSolution') or check.get('stagesCompared')!=tail.ready['parameters']['depth']:\n                raise ValueError('The complete actual stage-equivalence check failed: '+repr(result))\n            file('-diagnostic.json').write_text(json.dumps(result,indent=2)+'\\n')\n            report.update(status='diagnostic-complete',tail_converged=False,\n                original_complete_evaluate_bitwise_equal=True,diagnostic=result,\n                no_nonlinear_solve_or_final_audit_performed=True)\n            event(dict(event='complete_actual_stage_equivalence_passed',\n                stages=check['stagesCompared'],cache_identity=check['cacheIdentitySHA'],\n                initial_seed=result['exactInitialSeed'],prefix_accepted=False,tail_converged=False))\n            return\n        response=tail.solve(binding['complete_warm_H'],jacobian=True,audit=True)",
+        "count": 1
+      }
+    ],
+    "complete_target_H_and_physical_source_guards_preserved": true,
+    "original_solve_full_Jacobian_and_audit_path_unchanged_for_normal_requests": true,
+    "diagnostic_request_never_an_accepted_nonlinear_response": true,
+    "seed_provenance_only_revision": {
+      "entry_sha256": "396a1ee4641cea7b3b574e1dfde588351515eecaace1787c788cf6a7a9bd46bc",
+      "prior_entry_sha256": "061809242a2eb12aec99ca71272f86c0096da77cbb4d7d6006d7119ee1081702",
+      "replacement": {
+        "before": "warm_guess_kind='old accepted full shooting state at a different H; original predictor/Newton remain required',",
+        "after": "warm_guess_kind=('exact unaccepted initial full shooting state restored byte for byte; old norm not used and original full Newton/Jacobian/audit still required' if args.initial_seed else 'old accepted full shooting state at a different H; original predictor/Newton remain required'),",
+        "count": 1
+      },
+      "combined_source_sha256": "5b8ef3ddd035b5d80ef6e8d84dfe875d91eb56abda7a32fe863b2742ba6061ba",
+      "original_warm_loading_solver_and_final_acceptance_unchanged": true
+    }
+  },
+  "diagnostic_complete_evaluate": false,
+  "cache_directory": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-q096-exact-stage-cache",
+  "seed_prefix": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-r2-initial",
+  "initial_seed": "notes/2026-11-12-strong-actual-q096-stage-check-r2-initial-call000001-initial-seed.json.gz",
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_warm_target_tail_audit.py": "a670790d9521ee0425a8f5d00a0f90b6f3e66ae9ddf326ae046a4d7c7224e553",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_raw_tail_client.py": "ff5f521f4a40522b134710ff0db7eff9a6342637b58b5aaf1080ca370d0bafef",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_raw_tail_worker.mjs": "ec69703a4b0786313c2506aae5f82ec8da39330876d15519225e2d4b7f7d2cc8",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_raw_tail_warm.mjs": "d5c67a3207679f105eadbe532b27311927a5b8a783370ecfee9c58903c54b3be",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_frozen_client.py": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/numerical-tail-slope-jacobian.mjs": "206d82d3b41e6b9ce24b26447a2026c19c1c7126765107c23d58e55da25639e2",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_cached_target_tail_audit.py": "061809242a2eb12aec99ca71272f86c0096da77cbb4d7d6006d7119ee1081702",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_tail_client.py": "e40bc403408d433129980aa590d63b8c52e081d61135024832a3a38362d02052",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_tail_worker.mjs": "b7bb40dc25a8a4add993fdb99e8cc48aa0b636d6200e31818f9f1e8844cc9e35",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_engine.mjs": "968cab71ddfc8d091ad511bc7d381ea448f5987d1f1dd1107c848cde08fefa57",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_flow_store.mjs": "cf418e0d82210a226376db19f610520c3eb4be1b7ea3559f8a0e85092d75aafe",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_seed.mjs": "57b87555bac5040eb08dfd02cd72f42611b9aa7e88f2a9483eaccce6f74aaaf0",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_evaluation_check.mjs": "53d0be4f003f35c3d4d713c03bf692bd1e680b924e5fe909124fdc2be169b8b0",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz": "8fe885fe87eec09e4d0d9508099a82c48a9627f8568021e2bfe28907f62d1f5e",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0003.json.gz": "32ee699bd596bf397db66a73f9e7470b315286d05e2f13b97a818a64a2c271cb",
+    "notes/2026-11-12-root-q095-five-direction-lp-combined-resident-r1-combined-screen.json": "5039ed05b0a9ced4b9f5fba72a97692d11409a794ff0034d4928548b31248f61",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-config.json": "6dad973d9d6e992d13663e8100eeddcf93a45d41703982767ce175b3b3dcb3a3",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-staged-audit-ready.json": "fb1bec00c1d07b41441cde9c3e4fb7ff52d3d23b257e7d30fcdc0cac75ae47a6",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-strong-actual-q096-stage-check-r2-initial-call000001-initial-seed.json.gz": "f1e7d96afb59a000303f841c080cee74b673431140f1de354ddc15cd37b52238"
+  },
+  "endpoint_binding": {
+    "accepted_baseline": true,
+    "warm_prefix_accepted": false,
+    "modes": 24,
+    "nodes": 2004,
+    "gauge": 0.09,
+    "target_actual_core": [
+      0.09599996014428179,
+      -0.006718093057120565,
+      -0.0004136733380408847
+    ],
+    "warm_physical_profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.16208113625386517,
+      "vu": 0.31980000000000003,
+      "vd": 0.98,
+      "start_acceleration": 0.45,
+      "boost_speed": 0.86345131452599,
+      "boost_length": 0.12481825560537527,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.7475,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle"
+    },
+    "complete_warm_H": [
+      -2.386055074591057e-05,
+      2.0391558962687017e-08,
+      3.1360820596895324e-11,
+      1.6060502722564321e-12,
+      8.366460766651652e-14,
+      -5.230677571515329e-15,
+      9.690301778267587e-15,
+      9.894280606910863e-16,
+      1.0886521031332552e-14,
+      2.217966919205474e-15,
+      4.0941458564339613e-16,
+      -4.339985679417682e-15,
+      -4.084141371976779e-15,
+      -4.007056236148236e-15,
+      -4.3195528133398384e-16,
+      1.4312838346909601e-15,
+      -1.8588702133497082e-15,
+      4.800461403532478e-16,
+      1.0468577301874916e-14,
+      -3.1578926839209507e-15,
+      5.81086049417584e-15,
+      4.680813895511863e-15,
+      8.96964631833413e-15,
+      1.808674204220951e-14
+    ],
+    "complete_baseline_H": [
+      -2.371056106348173e-05,
+      2.013302766017376e-08,
+      3.078161701828421e-11,
+      1.5655547630868154e-12,
+      9.284661549978419e-14,
+      1.4252822851985743e-14,
+      -5.773850188965991e-16,
+      -7.179271100549204e-17,
+      -3.6287806873906515e-18,
+      -2.1964539973285306e-18,
+      1.1650745869122248e-18,
+      1.9693274703456567e-18,
+      5.083941182590018e-19,
+      -9.087096482053502e-18,
+      -7.019411486739708e-18,
+      7.455851353948445e-17,
+      -3.183050133153905e-16,
+      7.72363294302805e-16,
+      -1.1337067236045006e-15,
+      5.797809688779081e-16,
+      1.0214048949393566e-15,
+      -2.278837835803486e-15,
+      1.2421931568869543e-15,
+      6.851757992104606e-15
+    ],
+    "new_H_different_from_baseline": true,
+    "complete_new_H_bitwise_equal_actual_loader": true,
+    "original_tangent_accumulation_order": [
+      {
+        "direction": "actual_q1",
+        "weight": 0.0010000000000000009,
+        "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_q1.npy.gz",
+        "sha256": "7ffc76b6c6e23f477c69dacaaee0086bbd8d60baa27c7f31da85eba6816ba573"
+      },
+      {
+        "direction": "actual_q4",
+        "weight": -5.836251344044918e-07,
+        "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_q4.npy.gz",
+        "sha256": "fc8afe844d2d66dc035ea044e703d79ecfd93c74c7570a744db63f18aab6f723"
+      },
+      {
+        "direction": "actual_c6",
+        "weight": -1.9999999999999944e-06,
+        "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_c6.npy.gz",
+        "sha256": "3e97d12dbda747c85306b106549c71dcb1c9e06fa08d2b6d16a461e682ce4b34"
+      },
+      {
+        "direction": "vu",
+        "weight": -0.0002,
+        "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-vu.npy.gz",
+        "sha256": "ebaad13a5e07970853d4689d0764297dbcd0ce0ed7afd5e17b5c2689560e4ea1"
+      },
+      {
+        "direction": "descending_turn_curvature",
+        "weight": -0.0025,
+        "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-descending_turn_curvature.npy.gz",
+        "sha256": "181b136fa556c3c0b37723cad79949f3b9149aaf325927567cce20fc9e70d0f6"
+      }
+    ],
+    "endpoint_inlet_correction_zero_verified_by_full_actual_loader_H": true,
+    "no_new_prefix_RHS_Jacobian_or_geometry_evaluation": true,
+    "raw_C_order_and_tangent_F_order_explicit": true,
+    "new_H_Float64LE_sha256": "c486a7cac208969a2c7e4febd7961098a9e075e641ebee2596876c7179d8f4f7",
+    "chunk_source_sha256": {
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-y-000.npy.gz": "b10a16c2bfe80bd5e0f504e5aef7ede84e7fcc07f75da932a559f7232a23c19c",
+      "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_q1.npy.gz": "7ffc76b6c6e23f477c69dacaaee0086bbd8d60baa27c7f31da85eba6816ba573",
+      "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_q4.npy.gz": "fc8afe844d2d66dc035ea044e703d79ecfd93c74c7570a744db63f18aab6f723",
+      "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_c6.npy.gz": "3e97d12dbda747c85306b106549c71dcb1c9e06fa08d2b6d16a461e682ce4b34",
+      "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-vu.npy.gz": "ebaad13a5e07970853d4689d0764297dbcd0ce0ed7afd5e17b5c2689560e4ea1",
+      "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-descending_turn_curvature.npy.gz": "181b136fa556c3c0b37723cad79949f3b9149aaf325927567cce20fc9e70d0f6"
+    }
+  },
+  "config": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-r2-config.json",
+  "config_sha256": "c7bb9cb6a21182eecda24874c6480ce161117f0fa044977fe32330ac81cf21d2",
+  "jacobian": true,
+  "audit": true,
+  "warm_guess_kind": "exact unaccepted initial full shooting state restored byte for byte; old norm not used and original full Newton/Jacobian/audit still required",
+  "exact_same_H_raw_shortcut_will_not_apply": false,
+  "node_heap_MiB": 128,
+  "point_cache_limit": 2,
+  "prefix_loaded": false,
+  "prefix_accepted": false,
+  "new_closed_solution": false
+}

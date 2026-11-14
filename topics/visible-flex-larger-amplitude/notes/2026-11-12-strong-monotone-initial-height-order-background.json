@@ -1,0 +1,61 @@
+{
+  "scope": "Finite scalar background illustration, fixed delta/V/k0 from the preaccepted q096 tangent warm. Not actual core-held response, interval quadrature, accepted BVP geometry or reach.",
+  "parameters": {
+    "delta": 0.16208113625386517,
+    "V": 0.3198,
+    "k0": 0.45,
+    "degree": 22
+  },
+  "method": "Binary64 composite Simpson 16384/32768 panels; curvature sample16385. Monotone H order is proved separately, not inferred from these samples.",
+  "rows": [
+    {
+      "frontload": 0,
+      "S": 0.8458494981171235,
+      "H_simpson32768": 0.8256257876886193,
+      "H_16384_vs_32768_difference": -2.3314683517128287e-15,
+      "meridian_kappa_sample": 0.512769030589784
+    },
+    {
+      "frontload": 0.01,
+      "S": 0.8420292013211501,
+      "H_simpson32768": 0.8217984775201832,
+      "H_16384_vs_32768_difference": 4.9960036108132044e-15,
+      "meridian_kappa_sample": 0.5107230453242247
+    },
+    {
+      "frontload": 0.05,
+      "S": 0.8269400368730478,
+      "H_simpson32768": 0.8066699590121535,
+      "H_16384_vs_32768_difference": 6.661338147750939e-15,
+      "meridian_kappa_sample": 0.6094491495204365
+    },
+    {
+      "frontload": 0.1,
+      "S": 0.8085124346584126,
+      "H_simpson32768": 0.788168113782976,
+      "H_16384_vs_32768_difference": 3.6637359812630166e-15,
+      "meridian_kappa_sample": 0.7549122739418744
+    },
+    {
+      "frontload": 0.25,
+      "S": 0.7561270591918956,
+      "H_simpson32768": 0.735399328820837,
+      "H_16384_vs_32768_difference": 4.3298697960381105e-15,
+      "meridian_kappa_sample": 1.2375478503568926
+    },
+    {
+      "frontload": 0.5,
+      "S": 0.678263927640837,
+      "H_simpson32768": 0.6564030265765481,
+      "H_16384_vs_32768_difference": 2.3314683517128287e-15,
+      "meridian_kappa_sample": 2.202684435321241
+    },
+    {
+      "frontload": 1,
+      "S": 0.5541536115855742,
+      "H_simpson32768": 0.5284706966108156,
+      "H_16384_vs_32768_difference": 1.6275869541004795e-13,
+      "meridian_kappa_sample": 4.799774879338121
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python3",
+    "-B",
+    "/tmp/visible-flex-larger-20261113/tail-owned/tail_r102_local_physical_defect.py",
+    "--topic",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude",
+    "--summary",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "--resource",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+    "--stream-check",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-streamcheck.json",
+    "--budget",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-12-tail-r102-seg7-field-defect-budget.json",
+    "--parts",
+    "0",
+    "--rss-limit-mib",
+    "96",
+    "--out",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r102-local-part0-r1.json"
+  ],
+  "wall_seconds": 0.22578144073486328,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 12744,
+  "user_seconds": 0.055833,
+  "system_seconds": 0.028439,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

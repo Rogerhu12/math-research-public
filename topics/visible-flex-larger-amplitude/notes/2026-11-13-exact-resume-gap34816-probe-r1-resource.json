@@ -1,0 +1,29 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "2026-11-13-exact-resume-common-gap-windows-v3.py",
+    "--summary",
+    "2026-11-13-exact-resume-hybrid-leaves-r1.json",
+    "--leaves",
+    "2026-11-13-exact-resume-common-strip34816-r1-leaves.jsonl.gz",
+    "--common-strip",
+    "2026-11-13-exact-resume-common-strip34816-r1.json",
+    "--out-prefix",
+    "2026-11-13-exact-resume-gap34816-probe-r1",
+    "--windows",
+    "5760:5940,8192:8448,33850:34814",
+    "--precision",
+    "256",
+    "--rss-kib",
+    "98304"
+  ],
+  "wall_seconds": 55.52731490135193,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 31316,
+  "user_seconds": 36.536305,
+  "system_seconds": 0.310477,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

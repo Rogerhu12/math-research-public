@@ -1,0 +1,115 @@
+{
+  "schema": "visible-larger-new-accepted-A-node-readout-v1",
+  "revision": 1,
+  "purpose": "New finite Cartesian position and first-jet readout of all 577 saved accepted-A nodes with complete original mean; no repeated BVP or ODE integration.",
+  "enabled_lanes": [
+    "tail-nodes"
+  ],
+  "continue_independent": false,
+  "runner_source": "topics/visible-flex-larger-amplitude/computations/ci_actual_A_tail_nodes.py",
+  "publish_sources": [],
+  "handoff_replacements": [],
+  "log_append": null,
+  "main_input_globs": {
+    "tail-nodes": [
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-resource.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-accepted-ready-extracted.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-base.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0000.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0001.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0002.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0003.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0004.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0005.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0006.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0007.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0008.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-flow-0009.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1.json.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-resource.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-out-and-mean.f64le.gz",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json"
+    ]
+  },
+  "main_text_diagnostics": {
+    "tail-nodes": []
+  },
+  "stages": [
+    {
+      "lane": "tail-nodes",
+      "name": "prepare-pinned-91-sources",
+      "cwd": "",
+      "needs_git_source_recovery": true,
+      "depends_on": [],
+      "argv": [
+        "{python}",
+        "-u",
+        "topics/visible-flex-larger-amplitude/computations/ci_actual_A_tail_node_stage.py",
+        "--repo",
+        "{repo}",
+        "--work",
+        "{runner_temp}/visible-larger-new-tail-nodes-{id}",
+        "--notes",
+        "{repo}/topics/visible-flex-larger-amplitude/notes/ci-actual-a-tail-nodes-{id}",
+        "--phase",
+        "prepare"
+      ]
+    },
+    {
+      "lane": "tail-nodes",
+      "name": "read-all-original-A-nodes",
+      "cwd": "",
+      "needs_git_source_recovery": false,
+      "depends_on": [
+        "prepare-pinned-91-sources"
+      ],
+      "argv": [
+        "{python}",
+        "-u",
+        "topics/visible-flex-larger-amplitude/computations/ci_actual_A_tail_node_stage.py",
+        "--repo",
+        "{repo}",
+        "--work",
+        "{runner_temp}/visible-larger-new-tail-nodes-{id}",
+        "--notes",
+        "{repo}/topics/visible-flex-larger-amplitude/notes/ci-actual-a-tail-nodes-{id}",
+        "--phase",
+        "readout"
+      ]
+    }
+  ],
+  "publish_output_globs": {
+    "tail-nodes": []
+  },
+  "resources": {
+    "node_old_space_mib": 192,
+    "owned_peak_rss_limit_kib": 393216,
+    "owned_timeout_seconds": 3600,
+    "workflow_timeout_minutes": 75
+  },
+  "pinned_sources": {
+    "source-dependencies.json": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
+    "prepare-source-dependencies.py": "13ee15a05cb0d73487ac217a1b1b1a8fc17f60c7fa54e1bb2fdc84ceb8b0a875",
+    "root_actual_A_tail_readout_owned.py": "2652689a93a67f03c258121fe58e9d621a5dbda742682b4984d93c646e1166b5",
+    "ci_actual_A_tail_nodes.py": "9e2a50f812f8d4f60b0ee541fc132d2f5abcbaefe6a5887e1d1211169837664b",
+    "ci_actual_A_tail_node_stage.py": "c9bff677df043d5de0c38ef6ecd27a45e607ebf981b92213d48d95559e9dc828",
+    "root_actual_A_tail_allnodes_firstjet_readout.mjs": "32ffba06fd84d325afa1d9eda7c5391057733f281ba12036c80d54f4661ee1db"
+  },
+  "proof_boundary": "Only actual owned exit zero plus complete 577-node output establishes this finite readout. Horizontal rr, continuous tail error, closed surface, fixed metric refinement, diameter, all-t reach and amplitude remain open. Original point-root Newton and root-Jacobian solves are evaluated; their iteration count is not asserted to be zero.",
+  "prior_runner_observation": {
+    "run_id": 43522044960,
+    "job_id": 132218484789,
+    "status": "completed",
+    "conclusion": "failure",
+    "runner_id": 0,
+    "steps": [],
+    "cause": "unknown; no runner availability inferred"
+  },
+  "local_environment_status": "Offline; the new workflow is one concrete attempt, not proof of an available runner.",
+  "local_half_positive_r7_status": "No scientific producer started; original saved J/QR and back8 continuation are unchanged."
+}

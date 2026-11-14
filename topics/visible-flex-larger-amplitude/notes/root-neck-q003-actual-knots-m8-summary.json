@@ -1,0 +1,11 @@
+{
+  "solver_success": false,
+  "scope": "Interrupted conservative-slope all-knot nested coupling.",
+  "interruption": {
+    "observed_exit_code": 130,
+    "last_observed_outer_residual": 3.96e-06,
+    "last_observed_outer_nodes": 1583,
+    "reason": "Coordinate refinement was progressing, but the conservative knot slopes introduced extra radial derivatives. Replace them with a smooth Bernstein-positive harmonic rule, and use actual-DN-checked outer coupling to eliminate repeated tiny-height tail solves.",
+    "tail_calls_recorded": 14
+  }
+}

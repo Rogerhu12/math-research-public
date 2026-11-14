@@ -1,0 +1,96 @@
+--- strong_actual_three_control_bvp.py@c275e304
++++ strong_actual_three_control_bvp.py@87bb5063
+@@ -62,6 +62,7 @@
+     parser.add_argument('--inspect-warm-output', type=Path)
+     parser.add_argument('--resume-actual-iterate', type=Path)
+     parser.add_argument('--resume-tail-config', type=Path)
++    parser.add_argument('--tail-warm-checkpoint', type=Path)
+     options, remaining = parser.parse_known_args()
+     if options.inspect_local_output and options.inspect_warm_output:
+         raise ValueError('Select exactly one explicit inspection mode')
+@@ -152,10 +153,41 @@
+         if baseline_cfg.get(key) != reference['actual_tail']['config'].get(key):
+             raise ValueError('The actual finite-tail problem changed: '+key)
+     config = dict(baseline_cfg)
++    tail_warm = None
++    tail_warm_info = None
++    if options.tail_warm_checkpoint:
++        recovery = read(options.tail_warm_checkpoint)
++        tail_warm = recovery.get('response', {}).get('checkpoint',
++            recovery.get('checkpoint', recovery))
++        baseline_checkpoint = tail_record['response']['checkpoint']
++        if not all(key in tail_warm for key in ('parameters', 'states', 'rawNode', 'rawStates', 'cutHeight')):
++            raise ValueError('Tail warm recovery is missing complete physical shooting data')
++        old_params, new_params = baseline_checkpoint['parameters'], tail_warm['parameters']
++        for key in (set(old_params) | set(new_params))-io_keys:
++            if canonical(old_params.get(key)) != canonical(new_params.get(key)):
++                raise ValueError('Tail warm recovery changed a physical/numerical parameter: '+key)
++        if (tail_warm['rawNode'] != baseline_checkpoint['rawNode']
++                or len(tail_warm['states']) != len(baseline_checkpoint['states'])
++                or len(tail_warm['cutHeight']) != M
++                or len(tail_warm['rawStates']) != len(tail_warm['rawNode'])
++                or any(len(row) != 2*M or not all(map(math.isfinite, row))
++                    for row in tail_warm['states'])
++                or not all(map(math.isfinite, tail_warm['cutHeight']))
++                or any(tail_warm['rawStates'][j] != tail_warm['states'][k]
++                    for j, k in enumerate(tail_warm['rawNode']))):
++            raise ValueError('Tail warm recovery dimensions, complete raw states or finite values differ')
++        tail_warm_info = dict(file=str(options.tail_warm_checkpoint),
++            sha256=sha(options.tail_warm_checkpoint), prior_status=recovery.get('status'),
++            prior_iteration=recovery.get('iteration'),
++            physical_and_numerical_tail_parameters_identical=True,
++            complete_states_and_raw_states_preserved=True,
++            complete_H_must_equal_first_live_request=True,
++            warm_only=True, prior_state_not_accepted=True,
++            original_nonlinear_full_jacobian_and_final_audit_required=True)
+     config.update(traceFile=str(out.with_name(out.name+'-tail-trace.jsonl').resolve()),
+         iterationCheckpointFile=str(out.with_name(out.name+'-tail-iteration.json.gz').resolve()),
+         trialDiagnosticFile=str(out.with_name(out.name+'-tail-trials.jsonl').resolve()),
+-        initialCheckpoint=str(options.actual_reference_tail.resolve()))
++        initialCheckpoint=str((options.tail_warm_checkpoint or options.actual_reference_tail).resolve()))
+     own_config = out.with_name(out.name+'-config.json')
+     base_profile = {**reference['frozen_profile'],
+         **{name: reference['frozen_profile'][name]+value for name, value in external_shifts.items()}}
+@@ -203,6 +235,8 @@
+     if options.resume_actual_iterate:
+         for path in (options.resume_actual_iterate, options.resume_tail_config):
+             hashes[str(path)] = sha(path)
++    if options.tail_warm_checkpoint:
++        hashes[str(options.tail_warm_checkpoint)] = sha(options.tail_warm_checkpoint)
+     original_actual = (HERE/'root_actual_neck_bvp.py').read_text()
+     old_client = "'stored-resumable':HERE/'tail_resumable_client.py',"
+     new_client = "'stored-resumable':HERE/'tail_frozen_client.py',"
+@@ -225,6 +259,7 @@
+         command_arguments=remaining, radial_batch_size=options.radial_batch_size,
+         collocation_batch_size=options.collocation_batch_size, point_cache_limit=options.point_cache_limit,
+         tail_config_io_changes={key: config[key] for key in io_keys},
++        explicit_same_H_tail_warm_recovery=tail_warm_info,
+         local_inspection_only=bool(options.inspect_local_output),
+         unsolved_warm_inspection_only=bool(options.inspect_warm_output),
+         explicit_unaccepted_iterate_recovery=str(options.resume_actual_iterate) if options.resume_actual_iterate else None)
+@@ -489,13 +524,21 @@
+                         parameter_layout=augmented.LAYOUT, actual_targets=target,
+                         baseline_sha256=hashes[str(options.actual_reference)],
+                         fixed_external_profile_shifts=external_shifts)
+-                def coupled(self, *a, **kw):
++                def coupled(self, fun, bc, x, y, p, **kw):
+                     recorder.obj = self
++                    if tail_warm is not None:
++                        live_H = self.tail_height(y[:, -1])
++                        if not np.array_equal(live_H, tail_warm['cutHeight']):
++                            raise ValueError('Tail recovery complete H does not match the first live actual request')
++                        self.design_provenance['same_H_tail_warm_recovery'] = dict(
++                            tail_warm_info, complete_first_H_bitwise_equal=True)
++                        print(json.dumps(dict(event='same_H_tail_recovery_guard_passed',
++                            **self.design_provenance['same_H_tail_warm_recovery'])), flush=True)
+                     if options.inspect_local_output:
+-                        return local_inspect(self, *a, **kw)
++                        return local_inspect(self, fun, bc, x, y, p, **kw)
+                     if options.inspect_warm_output:
+-                        return warm_inspect(self, *a, **kw)
+-                    return solve(self, *a, **kw)
++                        return warm_inspect(self, fun, bc, x, y, p, **kw)
++                    return solve(self, fun, bc, x, y, p, **kw)
+                 def before_audit(self, data):
+                     prepare(self, data)
+                     data['actual_augmented_continuation'] = dict(self.design_provenance)

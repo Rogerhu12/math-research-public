@@ -1,0 +1,50 @@
+{
+  "status": "Completed weighted panel Green ledger",
+  "modes": [
+    92
+  ],
+  "cells": [
+    {
+      "cell": 12,
+      "path": "notes/2026-11-12-closure-physical-panels-m92-probe-cell012.json.gz",
+      "sha256": "8b9c5b0e07fd1dabb1156606219f069baeead9584773fa43eb6fd20685008a6f",
+      "bytes": 2301,
+      "source_panels": 1873,
+      "PB_pieces": 8949,
+      "diagonal_maximum_log2_upper": 3
+    },
+    {
+      "cell": 13,
+      "path": "notes/2026-11-12-closure-physical-panels-m92-probe-cell013.json.gz",
+      "sha256": "59131be5b0d0b5052b1ec36713f8f4d226c591b7213eea3af0d9ae2d5a360b03",
+      "bytes": 2307,
+      "source_panels": 1975,
+      "PB_pieces": 3856,
+      "diagonal_maximum_log2_upper": -43
+    }
+  ],
+  "input_hashes": {
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz": "cabdb3fca1d9176b1f2c46a2f7b2ff5b82ff1af426c4c942c7863c3c15c65f91",
+    "notes/2026-11-12-closure-ordered-green-low46-v2.json.gz": "482a56deff89bb0e330690713fb33afc3d6f478dc02e58c8f765d2a12fc25ce0",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-r33-plateau2-continuous-strip-panels-summary.json": "601e272366b51c694ad38d80358c948d2f81e8ea99608b21518d6def1799e29a"
+  },
+  "group_hashes": {
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-01-08.json.gz": "673ba350f50d2c7d15b633487261dcc7cc636287f6da74a5ecd161794e9bf4b1",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-09-16.json.gz": "14721b2a8a5f9913fbb356c8e8274843216955a4aa2bd380e0694a882e6b9557",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-17-24.json.gz": "7a623cf30f8c62e5201177aa9ff72903186fb23827498beca5fe99fa7b3bd40e",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-25-32.json.gz": "159887777e7d54de463a610a554d13d6c422090eefee24d032f9dad445bc63c0",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-33-40.json.gz": "94cbb5a34c2b09eb42542a03487b8b35fdc307c7dec26f7fdc4665c995bccec5",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-41-46.json.gz": "257777b57a7ce92112cea790c5b445dc2070a78d96c8f1770311ea42e0d65f7d"
+  },
+  "source_hashes": {
+    "closure_weighted_panel_low_green.py": "4edcfb8c777be35177dc16c7ac9079058825b06a79ecacc40485ba9fbb9bfa17",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47",
+    "closure_real_linear_head_enclosure.py": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e",
+    "closure_real_head_green_enclosure.py": "4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0",
+    "closure_projective_interval_column.py": "45997a1d5be6326a1ebbe85ac4240ea7d9dde1c2fb6acdf832460dade89e4f97"
+  },
+  "elapsed_seconds": 30.34265878699989,
+  "peak_RSS_KiB": 93696
+}

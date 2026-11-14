@@ -1,0 +1,41 @@
+{
+  "scope": "First actually accepted nonlinear tail trial at q096 complete H; unaccepted recovery only until original full Jacobian, tolerance and audit pass.",
+  "numerical_solution_accepted": false,
+  "full_audit_completed": false,
+  "formal_process_exit_observed": false,
+  "actual_iteration": {
+    "iteration": 1,
+    "norm": 0.0002935846698899707,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 0,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  },
+  "complete_H_float64LE_sha256": "c486a7cac208969a2c7e4febd7961098a9e075e641ebee2596876c7179d8f4f7",
+  "states_shape": [
+    577,
+    48
+  ],
+  "all_state_values_finite": true,
+  "stage_identity_sha256": "66e22f1f5e5a150402bb6f187babf4f2e48c11f491842e6f33d4fdfad1d97231",
+  "source_mutations_during_run": false,
+  "mathematical_and_acceptance_gates_unchanged": true,
+  "recovery_file": {
+    "path": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-young4-r4-accepted0001-recovery.json.gz",
+    "bytes": 282923,
+    "sha256": "8c6494bc2176dd0b3823eaaaffc7c364fbbc20cb09b15ed4b542000b2629b693"
+  },
+  "stable_dependencies": [
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-young4-r4-ready.json",
+      "bytes": 83011,
+      "sha256": "bc03f50492dffff8452e2adaf87339f19bd8ce7dad7d5fb69f089a431282b74c"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-young4-r4-response_Node-resource-observed.json",
+      "bytes": 1052,
+      "sha256": "5c1a6ccedfa589ca8a64201bf487674818a2ea319a8bb584aeb5873e51e73136"
+    }
+  ],
+  "resource_scope": "Actual old-heap128 plus young-semi-space4; preceding initialization/first-correction exact replay verified. No attribution of earlier signal9 causes."
+}

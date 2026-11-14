@@ -1,0 +1,248 @@
+{
+  "schema": "actual-q122-frontload-first-append-anchor-check-v1",
+  "scope": "Replay the real q122 first-append schema without a flow or nonlinear solve.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nTests the actual provider chain, exact zero-weight identity, nonzero forward\nand half finite-difference constructions, and original endpoint definitions.\nNumerical provider endpoint checks are not continuum roundoff certificates.\n",
+  "all_gates": true,
+  "gate_count": 54,
+  "checks": [
+    "all_zero_law_segment_metadata_exactly_unchanged",
+    "all_zero_law_profile_metadata_exactly_unchanged",
+    "zero_law_scalar_bits_S",
+    "zero_law_scalar_bits_Tu",
+    "zero_law_scalar_bits_Td",
+    "zero_law_scalar_bits_period",
+    "zero_law_scalar_bits_aend",
+    "zero_law_scalar_bits_end",
+    "zero_law_scalar_bits_height",
+    "zero_law_scalar_bits_loop_begin",
+    "zero_law_all_breakpoints_bits_unchanged",
+    "nonzero_original_complete_prefix_constructs",
+    "current_actual_anchor_reaches_original_parent_append",
+    "first_piece_length_propagates_to_original_prefix",
+    "all_actual_binary_Bernstein_speeds_in_domain",
+    "all_actual_binary_acceleration_controls_nonnegative",
+    "original_endpoint_definitions_with_explicit_binary_roundoff",
+    "original_radius_increment_matches_complete_append",
+    "terminal_original_radius_retained",
+    "nonzero_original_complete_prefix_constructs",
+    "current_actual_anchor_reaches_original_parent_append",
+    "first_piece_length_propagates_to_original_prefix",
+    "all_actual_binary_Bernstein_speeds_in_domain",
+    "all_actual_binary_acceleration_controls_nonnegative",
+    "original_endpoint_definitions_with_explicit_binary_roundoff",
+    "original_radius_increment_matches_complete_append",
+    "terminal_original_radius_retained",
+    "nonzero_original_complete_prefix_constructs",
+    "current_actual_anchor_reaches_original_parent_append",
+    "first_piece_length_propagates_to_original_prefix",
+    "all_actual_binary_Bernstein_speeds_in_domain",
+    "all_actual_binary_acceleration_controls_nonnegative",
+    "original_endpoint_definitions_with_explicit_binary_roundoff",
+    "original_radius_increment_matches_complete_append",
+    "terminal_original_radius_retained",
+    "nonzero_original_complete_prefix_constructs",
+    "current_actual_anchor_reaches_original_parent_append",
+    "first_piece_length_propagates_to_original_prefix",
+    "all_actual_binary_Bernstein_speeds_in_domain",
+    "all_actual_binary_acceleration_controls_nonnegative",
+    "original_endpoint_definitions_with_explicit_binary_roundoff",
+    "original_radius_increment_matches_complete_append",
+    "terminal_original_radius_retained",
+    "nonzero_original_complete_prefix_constructs",
+    "current_actual_anchor_reaches_original_parent_append",
+    "first_piece_length_propagates_to_original_prefix",
+    "all_actual_binary_Bernstein_speeds_in_domain",
+    "all_actual_binary_acceleration_controls_nonnegative",
+    "original_endpoint_definitions_with_explicit_binary_roundoff",
+    "original_radius_increment_matches_complete_append",
+    "terminal_original_radius_retained",
+    "original_nonzero_pulse_frontload_combination_rejected",
+    "already_installed_unfixed_provider_not_silently_accepted",
+    "fixed_provider_reinstallation_idempotent"
+  ],
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed_anchor_check.py": "615d91a9da5751086e4fe72132a693ead10b6de866a5555a8830d0c6d4ceff90",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1.json.gz": "006eaa15e9b1416aa72140e616e1ecf75461033df8448ade0bbd812826d210a8",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed_anchor.py": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "computations/alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7"
+  },
+  "original_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.17472508565265676,
+    "vu": 0.32202183767271175,
+    "vd": 0.98,
+    "start_acceleration": 0.642,
+    "boost_speed": 0.8457565977004763,
+    "boost_length": 0.12870065483393484,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.831283041357157,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "adapter": {
+    "original_source_sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "adapter_source_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "transformed_original_sha256": "7b47a0a8b631a4d399680413c2aaed1d152164630c4ee4458aa40eea63dc15d1",
+    "exact_reverse_recovers_original_source": true,
+    "only_changed_expression": "first nonzero Hermite physical_piece a0 argument: segment[a0] -> self.aend"
+  },
+  "zero_weight_full_original_arithmetic_preserved": true,
+  "actual_nonzero_rows": [
+    {
+      "weight": -0.01,
+      "length": 0.8498618778078849,
+      "degree": 22,
+      "actual_anchor": 1.0,
+      "left_jet": [
+        1.0,
+        0.0,
+        0.642
+      ],
+      "right_jet": [
+        1.1747250856526568,
+        0.32202183767271175,
+        0.0
+      ],
+      "left_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "right_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physical_profile_is_new_metric": true,
+      "complete_prefix_length": 3.1070989466013086,
+      "minimum_derivative_control": 0.0
+    },
+    {
+      "weight": -0.005,
+      "length": 0.8483654316845831,
+      "degree": 22,
+      "actual_anchor": 1.0,
+      "left_jet": [
+        1.0,
+        0.0,
+        0.642
+      ],
+      "right_jet": [
+        1.1747250856526568,
+        0.32202183767271175,
+        0.0
+      ],
+      "left_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "right_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physical_profile_is_new_metric": true,
+      "complete_prefix_length": 3.105602500478007,
+      "minimum_derivative_control": 0.0
+    },
+    {
+      "weight": 0.005,
+      "length": 0.8453776005815884,
+      "degree": 22,
+      "actual_anchor": 1.0,
+      "left_jet": [
+        1.0,
+        0.0,
+        0.6420000000000001
+      ],
+      "right_jet": [
+        1.1747250856526568,
+        0.32202183767271175,
+        0.0
+      ],
+      "left_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        1.1102230246251565e-16
+      ],
+      "right_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physical_profile_is_new_metric": true,
+      "complete_prefix_length": 3.102614669375012,
+      "minimum_derivative_control": 0.0
+    },
+    {
+      "weight": 0.01,
+      "length": 0.8438862408557813,
+      "degree": 22,
+      "actual_anchor": 1.0,
+      "left_jet": [
+        1.0,
+        0.0,
+        0.642
+      ],
+      "right_jet": [
+        1.1747250856526568,
+        0.32202183767271175,
+        0.0
+      ],
+      "left_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "right_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physical_profile_is_new_metric": true,
+      "complete_prefix_length": 3.101123309649205,
+      "minimum_derivative_control": 0.0
+    },
+    {
+      "weight": 0.5,
+      "length": 0.7076896331962751,
+      "degree": 22,
+      "actual_anchor": 1.0,
+      "left_jet": [
+        1.0,
+        0.0,
+        0.6420000000000001
+      ],
+      "right_jet": [
+        1.1747250856526568,
+        0.32202183767271175,
+        0.0
+      ],
+      "left_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        1.1102230246251565e-16
+      ],
+      "right_endpoint_absolute_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physical_profile_is_new_metric": true,
+      "complete_prefix_length": 2.9649267019896985,
+      "minimum_derivative_control": 0.0
+    }
+  ],
+  "Flow_ODE_Node_Newton_or_new_accepted_solution": 0,
+  "complete_continuous_roundoff_metric_or_reach_certificate": false
+}

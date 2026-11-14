@@ -1,0 +1,15 @@
+{
+  "scope": "Interrupted large homotopy step, not a successful response.",
+  "attempted_scale": 0.5,
+  "validated_previous_scale": 0.375,
+  "validated_previous_response": "notes/numerical-m2-smallcut30-q02-tail24-parts8-path-response_0001.json.gz",
+  "last_iteration": {
+    "iteration": 3,
+    "norm": 560.6126912361107,
+    "minA": 0.22549742092076805,
+    "minD": 0.9997593687986093
+  },
+  "reason": "Good Gblock conditioning approximately2.45e4, but accepted residual changes slowed 591.4 -> 579.0 -> 560.6 with 1/4 and 1/16 Newton steps; stop this poor predictor and retry from actual lambda .375 with maximum homotopy increment1/32.",
+  "checkpoint_sha256": "0ceea3ab562a47232e6ff760078dc3389a9e1340f362a4c294de92c080c3c621",
+  "retry_maximum_step": 0.03125
+}

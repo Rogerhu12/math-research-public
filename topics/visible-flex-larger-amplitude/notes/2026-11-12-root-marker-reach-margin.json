@@ -1,0 +1,52 @@
+{
+  "scope": "Exact rational example for R24; no actual closed surface is certified.",
+  "checks": {
+    "positive_reach_margin": true,
+    "small_displacement": true,
+    "marker_Hessian": true,
+    "full_pair_inequality": true,
+    "simpler_sufficient_inequality": true,
+    "height_identity": true,
+    "normal_change_identity": true,
+    "marker_Hessian_identity": true,
+    "diameter_budget": true
+  },
+  "source_sha256": "dd9747ba54924235ecc243239d768f008d37f3becae5698e5ce778d4c6f9e1b3",
+  "exact": {
+    "rc": "1/20",
+    "k": "1/160",
+    "height_bound": "1/32768000",
+    "normal_change_bound": "1/6400",
+    "marker_Hessian_bound": "1/10",
+    "separation_lower": "3/160",
+    "base_reach_certificate": "149/1250",
+    "target_reach": "1183/10000",
+    "pair_left": "3607301/429120",
+    "pair_right": "94371225601/11164188672",
+    "pair_slack": "388873904873/8317320560640",
+    "simpler_linear_cost": "116309/6814080",
+    "inverse_reach_margin": "11250/176267",
+    "target_diameter_upper": "1183/300"
+  },
+  "display": {
+    "rc": 0.05,
+    "k": 0.00625,
+    "height_bound": 3.0517578125e-08,
+    "normal_change_bound": 0.00015625,
+    "marker_Hessian_bound": 0.1,
+    "separation_lower": 0.01875,
+    "base_reach_certificate": 0.1192,
+    "target_reach": 0.1183,
+    "pair_left": 8.406275633855332,
+    "pair_right": 8.453030343143954,
+    "pair_slack": 0.04675470928862179,
+    "simpler_linear_cost": 0.017068921996806614,
+    "inverse_reach_margin": 0.06382363119585628,
+    "target_diameter_upper": 3.9433333333333334
+  },
+  "unpaid": [
+    "An actual closed unmarked surface with the stated all-pair certificate.",
+    "The stated support separation from every part outside its own flat patch.",
+    "The continuous diameter upper bound and fixed-g exact family."
+  ]
+}

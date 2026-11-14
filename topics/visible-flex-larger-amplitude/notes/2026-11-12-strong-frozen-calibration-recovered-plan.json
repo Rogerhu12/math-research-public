@@ -1,0 +1,39 @@
+{
+  "status": "formal-exit0-archived-five-and-seven-point-fingerprints-match",
+  "source_sha256": {
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-staged-audit-ready.json": "fb1bec00c1d07b41441cde9c3e4fb7ff52d3d23b257e7d30fcdc0cac75ae47a6",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-staged-audit-config.json": "e2575897068a69c261b6ae4f1eb505e721f2315baea318633b243df968c2ac7d",
+    "computations/strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "computations/strong_frozen_calibration_check.mjs": "711bd993db037c5b4f58020b31b021c89a93a8ded9bcee0595aeb7ccb5cc1780"
+  },
+  "command": [
+    "python",
+    "-u",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-12-strong-frozen-calibration-recovered-geometry-r1-resource.json",
+    "--",
+    "node",
+    "--max-old-space-size=128",
+    "computations/strong_frozen_calibration_check.mjs",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--config",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-staged-audit-config.json",
+    "--ledger-ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--stored-ready",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-staged-audit-ready.json",
+    "--out",
+    "notes/2026-11-12-strong-frozen-calibration-recovered-geometry-r1.json"
+  ],
+  "node_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+  "runtime_tested": true,
+  "scope": "Same full160-cell physical head. Only frozen calibration alpha reuse; original far computations and physical quadrature order stay intact. Rational deep source not imported.",
+  "started_utc": "2026-11-12T08:13:15.201442+00:00",
+  "session_id": 51788,
+  "tool_exitcode": 0,
+  "observed_terminal_utc": "2026-11-12T08:13:37.184910+00:00",
+  "report_sha256": "029dbefcf6ba040fb4a8697d4f15e9fb901891c2fb060bc02486065a695c9d57"
+}

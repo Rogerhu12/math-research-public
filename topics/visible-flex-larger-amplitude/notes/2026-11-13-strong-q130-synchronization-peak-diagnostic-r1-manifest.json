@@ -1,0 +1,35 @@
+{
+  "schema": "actual-warm-synchronization-peak-diagnostic-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "classification": "numerical diagnostic",
+  "files": [
+    {
+      "path": "computations/root_fine_warm_chart_extrema_diagnostic.py",
+      "sha256": "fd709a901886cf7d15b4a7113818b6e2ffaa84fd650d7a9f88f7787223999a9d",
+      "bytes": 6689,
+      "original_path": "computations/root_fine_warm_chart_extrema_diagnostic.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-synchronization-peak-diagnostic-r1-primary.json",
+      "sha256": "669cf82e8e5f55d4f40bdb322523de7050d98aec62b86ba028b87564fda48b30",
+      "bytes": 33355,
+      "original_path": "m32-q122-r1/q130-eight-tail4-size1035-extrema-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-synchronization-peak-diagnostic-r1-resource.json",
+      "sha256": "772c32fcd3224289857462dc3c42cb876774a215e50077a0bf5e43760a10efbb",
+      "bytes": 1491,
+      "original_path": "m32-q122-r1/q130-eight-tail4-size1035-extrema-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-synchronization-peak-diagnostic-r1-proof.md",
+      "sha256": "ed1c1858922e446a45cb804f130a1c035acfda491caa34154b7706dba1ca5bf8",
+      "bytes": 2822,
+      "original_path": "m32-q122-r1/q130-synchronization-peak-proof-r1.md"
+    }
+  ],
+  "total_bytes": 44357,
+  "prior_full_warm_manifest": "notes/2026-11-13-strong-eight-fine-q130-exact-chart-warm-r1-manifest.json",
+  "derived_field_chunks_not_copied": true,
+  "new_ODE_Node_geometry_or_Jacobian_calls": 0
+}

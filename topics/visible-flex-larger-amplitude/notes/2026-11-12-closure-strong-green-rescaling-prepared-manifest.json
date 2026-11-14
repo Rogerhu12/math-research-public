@@ -1,0 +1,21 @@
+{
+  "status": "Complete R42 rescaling entry prepared and syntax parsed only; not numerically executed",
+  "files": [
+    {
+      "path": "computations/closure_rescale_strong_centred_green.py",
+      "bytes": 15608,
+      "sha256": "d5482aee9cdac0f7a0ee03363c9e7ea9b9477594105d7113a05c8238e74dc709"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-green-rescaling-plan.md",
+      "bytes": 3145,
+      "sha256": "b312f96e8532099c2052f5d16bcc788edf6fc2253276135d140858e8238adfd7"
+    }
+  ],
+  "continuous_strip": "Exactly the original q function, with a checked path/SHA origin, not reconstructed from the new V and k.",
+  "source_adapters_only": true,
+  "numerical_execution": false,
+  "planned_density": "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+  "planned_middle": "notes/2026-11-12-tail-r42-strong-same-tau-r1-middle.json.gz",
+  "planned_high": "notes/2026-11-12-tail-r42-strong-same-tau-r1-high.json.gz"
+}

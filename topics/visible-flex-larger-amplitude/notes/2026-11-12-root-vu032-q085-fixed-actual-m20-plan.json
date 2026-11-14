@@ -1,0 +1,56 @@
+{
+  "status": "Tool wait cancelled and original session became unavailable; no formal exit code or success packet observed. Recovery-only accepted tail state preserved.",
+  "reference": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+  "reference_sha256": "7d9ff26ec1f33106e1ea341a6711004d076bfa9dbb181b99b0e1507449cb297e",
+  "complete_physical_data_frozen": true,
+  "changed_discretization": {
+    "modes": [
+      16,
+      20
+    ],
+    "angular": [
+      384,
+      512
+    ]
+  },
+  "prefix_tolerance_unchanged": 1e-06,
+  "tail_physical_and_numerical_parameters_unchanged_except_modes_and_IO": true,
+  "command": [
+    "python",
+    "-u",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-resource.json",
+    "--",
+    "python",
+    "-u",
+    "computations/root_actual_bounded_neck.py",
+    "--fixed-reference",
+    "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+    "--restart",
+    "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+    "--client",
+    "stored-resumable",
+    "--tail-config",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-config.json",
+    "--node-heap",
+    "448",
+    "--modes",
+    "20",
+    "--angular",
+    "512",
+    "--nodes",
+    "0",
+    "--tol",
+    "1e-6",
+    "--max-nodes",
+    "2400",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--out-prefix",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20"
+  ],
+  "started_utc": "2026-11-12T06:20:53.946629+00:00"
+}

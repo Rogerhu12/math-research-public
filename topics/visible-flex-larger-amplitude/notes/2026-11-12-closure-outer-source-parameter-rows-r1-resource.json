@@ -1,0 +1,24 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_source_parameter_rows.py",
+    "--functional",
+    "notes/2026-11-12-closure-outer-two-cell-adjoint-r1.json",
+    "--refined-source",
+    "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+    "--family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+    "--completed-centres",
+    "notes/2026-11-12-closure-two-cell-refined-source-reweight-r1.json",
+    "--out",
+    "notes/2026-11-12-closure-outer-source-parameter-rows-r1.json"
+  ],
+  "wall_seconds": 34.26776671409607,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 15688,
+  "user_seconds": 2.943383,
+  "system_seconds": 0.22391799999999998,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

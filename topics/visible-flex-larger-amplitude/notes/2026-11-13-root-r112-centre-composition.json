@@ -1,0 +1,69 @@
+{
+  "status": "Exact composition of actual reference comparisons; true exterior remains unpaid",
+  "inputs_sha256": {
+    "2026-11-13-geometry-original64-centre-drift-r1-summary.json": "b96cf11fa2e7c4eb74ad919b875aeda611f477b618431a97663c82277145b796",
+    "2026-11-13-geometry-same-measure-r1-summary.json": "486c277467599de5a43083a9b72a2b6066a5ccff301017f4249e4da392023f34"
+  },
+  "source_sha256": "0c27b2dc02fd29cc63d28d6de308a911309497ea93f466e48a212e52975b26b1",
+  "gauge": "sigma(r,0)=0; one common left circle; Delta h0(rL)=0; C_O(rL)=C_CF(rL)=0; no resets",
+  "scope": "Only the original cell0/seg7 metric and original R48/carrier references",
+  "terms": {
+    "old_all_eight_parts_drift": {
+      "numerator": "178197012042959817720202276359240816845",
+      "denominator": "713623846352979940529142984724747568191373312",
+      "display_only": 2.497071993230705e-07
+    },
+    "left_radial_bridge": {
+      "numerator": "38051303929503439663154805139",
+      "denominator": "2658455991569831745807614120560689152",
+      "display_only": 1.4313309699377025e-08
+    },
+    "centred_horizontal_bridge": {
+      "numerator": "45323950696002124008353944279",
+      "denominator": "21267647932558653966460912964485513216",
+      "display_only": 2.131121920003935e-09
+    },
+    "complete_height_bridge": {
+      "numerator": "25020708932374267155712006535",
+      "denominator": "680564733841876926926749214863536422912",
+      "display_only": 3.6764627504468375e-11
+    },
+    "centred_euclidean_bridge": {
+      "numerator": "1475387131204442235423038223463",
+      "denominator": "680564733841876926926749214863536422912",
+      "display_only": 2.1678865475084036e-09
+    },
+    "carrier_all_eight_parts_drift": {
+      "numerator": "189958386701160494621200670603525363917",
+      "denominator": "713623846352979940529142984724747568191373312",
+      "display_only": 2.6618839556995595e-07
+    },
+    "old_carrier_reference_vector_difference": {
+      "numerator": "47796532254774365451072761379",
+      "denominator": "83076749736557242056487941267521536",
+      "display_only": 5.75329829420877e-07
+    }
+  },
+  "rational_cap": {
+    "numerator": "2663",
+    "denominator": "10000000000",
+    "display_only": 2.663e-07
+  },
+  "strict_margin": {
+    "numerator": "777769361699839274512756139403452073854619",
+    "denominator": "6968982874540819731729911960202612970618880000000000",
+    "display_only": 1.116044300440451e-10
+  },
+  "gates": {
+    "all_original_two_ledger_gates": true,
+    "actual_old_drift_positive": true,
+    "centred_euclidean_bridge_less_than_2168e_12": true,
+    "carrier_whole_seg7_drift_less_than_2663e_10": true,
+    "reference_vector_less_than_576e_9": true,
+    "conditional_position_8192_plus_reference_less_than_8000": true,
+    "conditional_vector_4096_plus_reference_less_than_4000": true
+  },
+  "all_gates": true,
+  "conditional_last_two_gates_are_not_true_solution_error_certificates": true,
+  "full_closed_surface_or_reach_claimed": false
+}

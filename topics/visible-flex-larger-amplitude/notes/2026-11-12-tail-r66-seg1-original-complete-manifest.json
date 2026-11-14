@@ -1,0 +1,94 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Stable original segment1 failure and fresh successful full mean/J/R77 audit",
+  "successful_formal_sessions": [
+    1927,
+    59222
+  ],
+  "all_successful_sessions_resource_exit0": true,
+  "preserved_failure": {
+    "session": 51527,
+    "resource_exitcode": 1,
+    "reason": "KeyError:0 before the first complete leaf; missing zero/beyond-height weights",
+    "not_a_mathematical_mean_failure": true
+  },
+  "original_leaf_count": 292,
+  "whole_cell_count": 7563,
+  "whole_cell_upper": [
+    633884224885,
+    -44
+  ],
+  "same_true_five_moments_bubble_enclosures_bitwise": true,
+  "files": [
+    {
+      "path": "computations/tail_outer_original_piece_finite_j.py",
+      "bytes": 15608,
+      "sha256": "b5196622ed649c6e3a3d6ad3227f30b0c54651d402c5866cfa2102d5e6def2d4"
+    },
+    {
+      "path": "computations/tail_outer_original_piece_finite_j_v2.py",
+      "bytes": 2161,
+      "sha256": "20e17cf86c204106ee7071523875eaa2fe10d0c3332efcc9b57dd88b7a79beb1"
+    },
+    {
+      "path": "computations/tail_outer_combine_complete_audits.py",
+      "bytes": 10194,
+      "sha256": "32a9f0c5de34fa230bd7c9392a09b8080dff323a5194f8ee1d8109bbb34656a1"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg1-original-finiteJ-r1-plan.json",
+      "bytes": 1842,
+      "sha256": "fd0ec4f107a7140c178280e4cc5f4df0670ab450bd786b9b292fa82eb8d65aff"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg1-original-finiteJ-r1-resource.json",
+      "bytes": 1196,
+      "sha256": "7a0f381b65a5e43adc9c4350780dd9462541e67d2a9e2aecf23aa039de47b3d9"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg1-original-finiteJ-r1-segment1.jsonl.gz",
+      "bytes": 1239,
+      "sha256": "81f930e3bb973bd3dc40b61c2c9d9bb29690f68a0a757219100c2f78abb74ec8"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg1-original-finiteJ-r2-plan.json",
+      "bytes": 2484,
+      "sha256": "4729c894c904e6fc6115d6e099c7794c7cc93dbe001c05666416803b95ed3ffb"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg1-original-finiteJ-r2.json",
+      "bytes": 28766,
+      "sha256": "568a0f2825fa41e54326308e8daa3ddfaa1b51a6629b5c55788a9b9d48ae2528"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg1-original-finiteJ-r2-resource.json",
+      "bytes": 1185,
+      "sha256": "c78315ce4d26c9658b116b582b9a6433f4c08b7f9d5e21106f5d0096440ad19a"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg1-original-finiteJ-r2-segment1.jsonl.gz",
+      "bytes": 634338,
+      "sha256": "a1dca85763287344290e1ff9e00a2631f4774c52372fe6f9fb5d7145be9eb399"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-R77-seg1-r1.json",
+      "bytes": 16181,
+      "sha256": "96fcf5c5c408eb678b112ef88366e3dc8c4d9f714fa1a930c17126089b4f2a10"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-R77-seg1-r1-resource.json",
+      "bytes": 1383,
+      "sha256": "c487394ea5a6c49ae74acece03705deb013da3bdb0b7321f5f14e1c07f7daa57"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r66-seg1-original-complete.md",
+      "bytes": 3225,
+      "sha256": "8302b049199e50599892ae9bbc6e4ee10ffd364471c82995b0dae4c468956053"
+    }
+  ],
+  "total_bytes": 719802,
+  "excluded": [
+    "notes/2026-11-12-tail-outer-cell0-seg1-original-finiteJ-r2-recovery.json",
+    "prepared R80 capped true-moment source/proof"
+  ]
+}

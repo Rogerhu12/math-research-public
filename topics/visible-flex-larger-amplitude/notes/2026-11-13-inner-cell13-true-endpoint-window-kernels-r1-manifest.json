@@ -1,0 +1,89 @@
+{
+  "schema": "immutable-original-inner-cell13-true-endpoint-window-kernel-archive-v1",
+  "files": [
+    {
+      "path": "computations/inner_true_cell13_endpoint_window_kernels.py",
+      "sha256": "cff396cf882488df91c5450490a0c345e408d3fe1a6b29f683910e97b7aa4019",
+      "bytes": 17943,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/inner_true_cell13_endpoint_window_kernels.py"
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell13-true-endpoint-window-kernels-r1.json",
+      "sha256": "5d0383e35038f53f13c59e2a85bdbabe656ed14af3659928c2861fdc2d8fea81",
+      "bytes": 42042,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell13-endpoint-r1/kernels.json"
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell13-true-endpoint-window-kernels-r1-resource.json",
+      "sha256": "43f06e446098a05f2670d19aef7b115c37844fd19ed731f003711d1674163feb",
+      "bytes": 1279,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell13-endpoint-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell13-true-endpoint-window-kernels-r1.md",
+      "sha256": "5cfb48474a54d5e0b481ea67e91d0aa8381a76c92f8128c1e9cfb827e5722d97",
+      "bytes": 8743,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell13-endpoint-r1/proof.md"
+    }
+  ],
+  "same_original_geometry": true,
+  "panels": 1975,
+  "windows": [
+    [
+      94,
+      94
+    ],
+    [
+      96,
+      96
+    ],
+    [
+      98,
+      104
+    ],
+    [
+      106,
+      112
+    ],
+    [
+      114,
+      128
+    ],
+    [
+      130,
+      184
+    ],
+    [
+      186,
+      192
+    ],
+    [
+      194,
+      256
+    ],
+    [
+      258,
+      512
+    ],
+    [
+      514,
+      1024
+    ],
+    [
+      1026,
+      2048
+    ],
+    [
+      2050,
+      4096
+    ],
+    [
+      4098,
+      8190
+    ]
+  ],
+  "actual_gate_count": 7990,
+  "owned_wait4_exitcode": 0,
+  "new_ODE_or_radial_quadrature_or_Node_calls": 0,
+  "source_and_infinite_field_not_removed": true
+}

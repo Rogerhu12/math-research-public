@@ -1,0 +1,36 @@
+{
+  "scope": "Observe original domain exceptions without changing the numerical path.\n\nThe original radial batching code and Flow methods are called in their original\norder. Only a failed block is saved, losslessly, before the same exception is\nre-raised. Constructor/boundary failures are explicitly distinguished from a\nfailed radial block. No extra RHS, geometry or derivative evaluation is made.\n",
+  "source_sha256_at_start": {
+    "strong_fresh_observer_check.py": "1fc1b8e53712f0292ee7d3229e2c5e16918c1e7f007e51e7e337997ef4fa13fa",
+    "strong_domain_rejection_observer.py": "97b469fe8a6f22a0152b12e700d17d6a2b9cededea8e9dab143025c8ab5a3049",
+    "strong_fresh_physical_merit_runtime.py": "6dd391ed4b996a892eab2a93551cb77a2eb410c237ea4b89680486b22cf663b4",
+    "strong_physical_merit_and_affine_resume.py": "e330336daab09ef9d0bcb93cb36e04581636e33e645ed5e319987c3cc0f2810f",
+    "strong_actual_newton_checkpoints.py": "7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb",
+    "root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c"
+  },
+  "configuration": {},
+  "failures": [
+    {
+      "index": 1,
+      "kind": "radial-value",
+      "exception_repr": "FloatingPointError('synthetic exact radial block')",
+      "path": "notes/2026-11-12-strong-fresh-observer-check-r1-radial-domain-0001.npz",
+      "bytes": 1665,
+      "sha256": "575bc6b59da77c79c59191d43b04956ec0d31dfaceb102d775fb71c571cc8e8a",
+      "physical_radial_block": true
+    },
+    {
+      "index": 2,
+      "kind": "radial-state-jacobian",
+      "exception_repr": "FloatingPointError('synthetic exact radial block')",
+      "path": "notes/2026-11-12-strong-fresh-observer-check-r1-radial-domain-0002.npz",
+      "bytes": 1672,
+      "sha256": "e1b7d287c860cef0b389c7020f97de6897a89b7afc1cbd44d0afd2a7265252d2",
+      "physical_radial_block": true
+    }
+  ],
+  "count": 2,
+  "seconds": 0.020832458001677878,
+  "original_equations_domain_decisions_and_acceptance_unchanged": true
+}

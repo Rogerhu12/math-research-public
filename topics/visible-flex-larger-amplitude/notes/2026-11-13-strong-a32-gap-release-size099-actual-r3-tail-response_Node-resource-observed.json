@@ -1,0 +1,19 @@
+{
+  "schema": "explicit-Node-young-space-resource-only-v1",
+  "actual_command_unchanged": [
+    "node",
+    "--expose-gc",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_full_tangent_tail_worker.mjs",
+    "notes/2026-11-13-strong-a32-gap-release-size099-actual-r3-config.json"
+  ],
+  "worker_sha256": "2a0a93902999f244a838effd4ae09930f456f0a97393416bacb1554c075c1653",
+  "NODE_OPTIONS_before": "--max-old-space-size=768",
+  "NODE_OPTIONS_after": "--max-old-space-size=768 --max-semi-space-size=16",
+  "source_sha256": "bb7b1c863f8fef204131bf7fe1acc063c5ce074e46e04a8332bb2e96453255fd",
+  "constructor_cleanup_sha256": "6f51a896e44aff8aa8a2f66a71320b68f15d279ec2a8e2ee0e3093cedf0696a3",
+  "only_changed_environment_key": "NODE_OPTIONS",
+  "mathematical_parameters_and_MJS_sources_unchanged": true,
+  "all_original_nonlinear_full_Jacobian_and_audit_gates_preserved": true,
+  "exact_stage_identity_and_original_cached_bytes_unchanged": true,
+  "owned_child_pid": 9
+}

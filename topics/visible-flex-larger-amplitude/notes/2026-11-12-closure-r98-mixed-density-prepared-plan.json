@@ -1,0 +1,188 @@
+{
+  "status": "Prepared only; original m94/m96 run retains priority and has not started in unavailable executor",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted), 2026-11-12",
+  "working_directory": "topics/visible-flex-larger-amplitude",
+  "original_v1_first": {
+    "source": "computations/closure_outer_middle_volterra_recovered_v1.py",
+    "source_sha256": "6655a72f38f89d6eb31ded7b78bd4b84f94c500653bbb8e6c3ca2611d6af2e31",
+    "argv": [
+      "python",
+      "computations/closure_outer_middle_volterra_recovered_v1.py",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--physical-flow",
+      "notes/2026-11-12-closure-outer-physical-low46-r1.json",
+      "--physical-manifest",
+      "notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+      "--source11",
+      "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+      "--source10",
+      "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+      "--head",
+      "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+      "--r91",
+      "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+      "--modes",
+      "94,96",
+      "--precision",
+      "256",
+      "--order",
+      "24",
+      "--root-bits",
+      "160",
+      "--remainder-bits",
+      "100",
+      "--rss-kib",
+      "98304",
+      "--out-prefix",
+      "ABS_FRESH_PREFIX"
+    ]
+  },
+  "subsequent_mixed_v2": {
+    "source": "computations/closure_outer_middle_mixed_density_v2.py",
+    "source_sha256": "a285a385d657e226ddcb7a080f86478b627e7406f970bb85b7ffc70a6c42feeb",
+    "argv": [
+      "python",
+      "computations/closure_outer_middle_mixed_density_v2.py",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--physical-flow",
+      "notes/2026-11-12-closure-outer-physical-low46-r1.json",
+      "--physical-manifest",
+      "notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+      "--source11",
+      "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+      "--source10",
+      "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+      "--head",
+      "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+      "--r91",
+      "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+      "--modes",
+      "94,96",
+      "--precision",
+      "256",
+      "--order",
+      "24",
+      "--root-bits",
+      "160",
+      "--remainder-bits",
+      "100",
+      "--rss-kib",
+      "98304",
+      "--out-prefix",
+      "ABS_DIFFERENT_FRESH_PREFIX"
+    ],
+    "read_only_prepare_flag": "--prepare-only",
+    "numerical_status": "Not executed; no Python AST claim"
+  },
+  "environment": {
+    "BLAS_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "local_PYTHONPATH_when_available": "/tmp/visible-flex-larger-20261112T2304/python-deps"
+  },
+  "output": {
+    "glob": "ABS_FRESH_PREFIX*",
+    "recursive": false,
+    "working_spool": false,
+    "primary": ".json",
+    "failure": "-failure.json",
+    "complete_segments": "-completed-cell011-segment0.json ... -completed-cell010-segment8.json",
+    "fresh_only": true,
+    "absolute_output_prefix_supported": true,
+    "archive_only_completed_source_data_and_actual_terminal_resource_records": true
+  },
+  "no_new_background_or_head_identity": true,
+  "material_channels": {
+    "indices_0_1": "Original s*V^2, |ell|*V^2 kept",
+    "indices_2_3": "s*V, |ell|*V",
+    "indices_4_5": "s, |ell|"
+  },
+  "outputs_are_constant_strip_kernels": true,
+  "required_postprocessing": [
+    "Preserve output (1+m) factor",
+    "For high source use actual positionwise tau cost or rigorous exp(m*Delta_max)",
+    "Use R96 independent pure centre caps with sum over modes",
+    "Apply full mixed-field domain and three-row Schur conditions R98",
+    "Do not infer original R74 data applies to R92 new domain"
+  ],
+  "source_transform": {
+    "status": "Prepared source transformation only; no Python parser, Arb or ODE run in unavailable executor",
+    "base_sha256": "6655a72f38f89d6eb31ded7b78bd4b84f94c500653bbb8e6c3ca2611d6af2e31",
+    "new_sha256": "a285a385d657e226ddcb7a080f86478b627e7406f970bb85b7ffc70a6c42feeb",
+    "bytes": 28269,
+    "unique_anchor_changes": [
+      {
+        "old": "\"\"\"Prepared actual middle-window Volterra geometry, source-position preserving.",
+        "new": "\"\"\"Prepared mixed-density middle Volterra geometry, source-position preserving.\n\nRecovery v2 preserves every original physical Taylor/root transition and\nall original V^2 results. It also accumulates the independent positive\nmaterials s*V, |ell|*V, s, |ell|. These are linear geometric kernels;\nthe complete mixed-field domain and strip-transfer gates are NOT claimed\nby producing them. The original v1 entry remains frozen and unchanged.",
+        "count": 1
+      },
+      {
+        "old": "    'closure_outer_physical_trace_flow.py':",
+        "new": "    'closure_outer_middle_volterra_recovered_v1.py':\n        '6655a72f38f89d6eb31ded7b78bd4b84f94c500653bbb8e6c3ca2611d6af2e31',\n    'closure_outer_physical_trace_flow.py':",
+        "count": 1
+      },
+      {
+        "old": "LABELS = ('radial', 'log_w')",
+        "new": "LABELS = ('radial', 'log_w', 'V1_radial', 'V1_log_w', 'V0_radial', 'V0_log_w')\nMATERIAL_POWERS = (2, 1, 0)",
+        "count": 1
+      },
+      {
+        "old": "density_definitions={'radial': '(r_x/r) V^2', 'log_w': '|w_x/w| V^2'},",
+        "new": "density_definitions={LABELS[2*i]: '(r_x/r) V^'+str(p)\n                             for i, p in enumerate(MATERIAL_POWERS)} |\n                            {LABELS[2*i+1]: '|w_x/w| V^'+str(p)\n                             for i, p in enumerate(MATERIAL_POWERS)},\n        mixed_density_kernel_scope='Linear exact-background kernels only; full mixed domain and strip transfer are separate R98 gates',",
+        "count": 1
+      },
+      {
+        "old": "ds = [((rx/r)*V*V).upper(), (abs(ell)*V*V).upper()]",
+        "new": "ds = []\n                for material_power in MATERIAL_POWERS:\n                    vpower = V**material_power if material_power else arb(1)\n                    ds.extend([((rx/r)*vpower).upper(), (abs(ell)*vpower).upper()])",
+        "count": 1
+      },
+      {
+        "old": "for channel in range(2):",
+        "new": "for channel in range(len(LABELS)):",
+        "count": 2
+      },
+      {
+        "old": "            initial=max(sum(row,arb(0)).upper() for row in initial_max[k])\n            rows.append(dict(mode=m,base_source_Green_upper=upper(gamma,96),",
+        "new": "            initial=max(sum(row,arb(0)).upper() for row in initial_max[k])\n            mixed_rows=[]\n            for pi, power in enumerate(MATERIAL_POWERS):\n                by_component=[sum((source_max[k][2*pi+ch][c]\n                                   for ch in range(2)), arb(0)).upper()\n                              for c in range(2)]\n                mixed_rows.append(dict(V_power=power,\n                    source_Green_upper=upper(((1+m)*sum(by_component,arb(0))).upper(),96),\n                    radial_source_Green_upper=upper(((1+m)*sum(source_max[k][2*pi],arb(0))).upper(),96),\n                    log_w_source_Green_upper=upper(((1+m)*sum(source_max[k][2*pi+1],arb(0))).upper(),96),\n                    source_units='source-x (s+|ell|) V^'+str(power),\n                    output_units='same local-V strong norm; output (1+m) included',\n                    constant_strip_only=True))\n            rows.append(dict(mode=m,mixed_density_rows=mixed_rows,\n                base_source_Green_upper=upper(gamma,96),",
+        "count": 1
+      },
+      {
+        "old": "            full_middle_low_high_joint_solution_paid=False,cut_consistency_paid=False,",
+        "new": "            mixed_density_powers=[2,1,0],\n            mixed_density_high_strip_transfer_paid=False,\n            mixed_density_full_field_domain_paid=False,\n            full_middle_low_high_joint_solution_paid=False,cut_consistency_paid=False,",
+        "count": 1
+      }
+    ],
+    "no_Taylor_root_or_matrix_formula_changed": true,
+    "old_material_pair_indices": [
+      0,
+      1
+    ],
+    "new_pairs": [
+      {
+        "power": 1,
+        "indices": [
+          2,
+          3
+        ]
+      },
+      {
+        "power": 0,
+        "indices": [
+          4,
+          5
+        ]
+      }
+    ],
+    "extra_r_x_factor_added": false
+  },
+  "total_finite_middle_modes": 2833,
+  "only_initial_declared_modes": [
+    94,
+    96
+  ],
+  "full_joint_existence_claimed": false
+}

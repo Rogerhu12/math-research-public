@@ -1,0 +1,188 @@
+{
+  "scope": "Prepared-only explicit M28 stage-persistence continuation; not a numerical result",
+  "intended_path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-cached-tail-prepared.json",
+  "prerequisite": "Read original r4 resource/summary/trace when available. Do not assume r4 worker exit or tail success from its outer exit1.",
+  "source": {
+    "path": "computations/strong_sameg_m28_cached_audit.py",
+    "blob": "164066aa978182f0b12d1d56ef001b41a8192cb2",
+    "sha256": "f10443df29783d0128ebcdbf660904bb5981503d292d336900d5a39a79ab2eda",
+    "bytes": 14103
+  },
+  "preserved_sources": [
+    {
+      "path": "computations/strong_sameg_m28_staged_audit.py",
+      "blob": "282692a9dc0f00a783dffb4b44f0ef83d072e504",
+      "sha256": "2bfd570f1497022767b0736d099ab42d248cd492a8914f3c69707fed3ef6bf8f"
+    },
+    {
+      "path": "computations/strong_observed_foreground_resource_run.py",
+      "blob": "723aa181fbbf0e3d2280208eb2ebc844096aa55c",
+      "sha256": "a9c8822148dec0f39e396effc9602e51adbe5e58a81e99952b45fd9e3044566d"
+    },
+    {
+      "path": "computations/strong_sameg_m28_postprocess.py",
+      "blob": "c1581bc3d138065bb5aa8eaeea212a1010f8965b",
+      "sha256": "80044bf34cb90b104149e4c212647f322dce1d59dac6fe1ba7723d8ba60b5277",
+      "status": "not executed"
+    },
+    {
+      "path": "computations/strong_tail_young_space_guard.py",
+      "sha256": "867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba",
+      "already_in_original_repository": true,
+      "changed": false
+    }
+  ],
+  "mathematical_data": {
+    "r1_manifest": {
+      "path": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-stable-files.json",
+      "sha256": "42bcef485ba3e1aabbfbe843fbbce1a07a41ffe286b42b7ef83a000256ef4c1f",
+      "files": 60,
+      "bytes": 22213737
+    },
+    "accepted_raw": {
+      "path": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-raw-collocation.json.gz",
+      "sha256": "4ce9b8927b864fd5627b64949d786aff0f4a409d1d6f19a3329ff26363bad1b3",
+      "solver_success": true,
+      "physical_surface": false,
+      "nodes": 2208,
+      "M": 28,
+      "N": 1024,
+      "tol": 1e-7,
+      "RMS": 9.989625002548099e-8
+    },
+    "pending_raw": {
+      "path": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-outer-00-raw-collocation.json.gz",
+      "sha256": "2defe8acda9dadd4c85fa05c9c01f6528622b491c898712386fa89976a4b3163",
+      "five_complete_arrays_bitwise_equal_to_accepted": true
+    },
+    "original_config_sha256": "e9d204c32e2542754d23d58d3f0cf6a55632291a7b5e04eb147d67b1ff6ebe13",
+    "true_H_response2": {
+      "path": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-tail-response_0002.json.gz",
+      "sha256": "1099732fbe52c757268429018b1e1a2fa416c560f831c7d55f8271075bab7352",
+      "converged": true,
+      "jacobian": true,
+      "audit": false,
+      "residual": 1.824531905140757e-9,
+      "true_physical_BC": 4.412401016331283e-19
+    },
+    "original_M24_recompute_needed": false,
+    "M28_Newton_recompute_needed": false
+  },
+  "snapshot": {
+    "source_topic": "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+    "source_manifest_sha256": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
+    "same_all_MJS_bytes_as_original_spectral_plan": true,
+    "required_layout": "The computations directory and both pinned source trees must consist of actual files/directories, not symlinks. Copy byte-identically before the first cached run; keep that snapshot location for resumes.",
+    "old_q096_M24_cache_reused": false,
+    "persistent_identity": "Full MJS trees, frozen source calibration/reference hashes, exact physical parameters/warp, actual Fourier-root backend, complete 56-input binary row, variational flag, stage mu/portRatio/breakpoints, resolved discretization, Node/V8/platform/arch."
+  },
+  "diagnostic_command_template": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "-u",
+    "computations/strong_sameg_m28_cached_audit.py",
+    "--accepted-raw",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-raw-collocation.json.gz",
+    "--original-spectral-plan",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-spectral-plan.json",
+    "--node-young-space",
+    "4",
+    "--raw",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-outer-00-raw-collocation.json.gz",
+    "--config",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-config.json",
+    "--warm",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-tail-response_0002.json.gz",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--out-prefix",
+    "notes/2026-11-13-strong-q096-sameg-m28-stage-check-r1",
+    "--node-heap",
+    "96",
+    "--storage",
+    "frozen",
+    "--point-cache-limit",
+    "8",
+    "--reference-adapter",
+    "notes/2026-11-13-strong-q096-sameg-m28-local-recovery6-r2-tail-ready.json",
+    "--calibration-ledger",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--cache-directory",
+    "<owned-real-file-runtime>/m28-stage-cache",
+    "--seed-prefix",
+    "notes/2026-11-13-strong-q096-sameg-m28-stage-check-r1-seed",
+    "--diagnostic-complete-evaluate"
+  ],
+  "template_tokens_are_not_executed": true,
+  "order": [
+    "Use the saved successful M28 raw and its original full28H true-J response only; no M28 prefix Newton.",
+    "Compile new Python wrapper. Run prepare-only full original raw/config/H/source guards; the existing stage-specific resource factory must record exactly one owned stage-worker spawn with heap96/young4 on the first actual request.",
+    "Run one diagnostic full evaluate: original uncached-vs-stored stages0/575, then all576 stage miss/hit evaluations and every complete Float64 output byte. Save initial seed before the first stage; diagnostic is not DN acceptance.",
+    "If interrupted, retain completed exact-key stage files and initial seed. Resume the diagnostic at a fresh output prefix with --initial-seed <recorded seed path>; unchanged runtime/source/key required for hits.",
+    "Once diagnostic completes, a fresh normal request omits --diagnostic-complete-evaluate, takes that exact seed, and still pays the full original nonlinear residual/Newton, Jacobian and complete audit. Final audit is not served from stage cache.",
+    "Read the actual successful summary response/ready paths; run strong_sameg_m28_complete.py with the original postprocessor arguments. It validates the complete original spectral chain, invokes the unchanged zero-Node/zero-Newton full postprocessor, and attaches same-g provenance only after all original physical acceptance gates passed.",
+    "Complete original old/new interior quintic, full Cartesian/mean seam at768/1536, and full material-point/two-jet comparison."
+  ],
+  "source_transform": {
+    "root_source_sha256": "b6f587ac428a477f32e04c13a2686ecb196cbefd342deadc669e13cc988e6753",
+    "anchor_count": 1,
+    "transformed_stage_sha256": "666b9496347d5002bca4c49860711d0f3740b80e13da2710109625e76c5ecff0",
+    "source_sha256": "f10443df29783d0128ebcdbf660904bb5981503d292d336900d5a39a79ab2eda",
+    "scope": "Text anchor/source check only; Python compile and actual M28 execution not run."
+  },
+  "disk_estimate": {
+    "modes": 28,
+    "state_dimension": 56,
+    "stages": 576,
+    "one_J_bytes": 25088,
+    "one_out_bytes": 448,
+    "three_scalar_bytes": 24,
+    "payload_total_bytes": 14722560,
+    "scope": "Uncompressed output payload estimate; excludes keys/headers/seed and any later changed-state entries."
+  },
+  "actual_runtime_verification": {
+    "Python_AST": false,
+    "M28_stage_equivalence": false,
+    "M28_complete_tail_audit": false,
+    "postprocess_equivalence": false,
+    "reason": "Executor unavailable; only pinned text/hash/unique-anchor checks performed."
+  },
+  "no_new_physical_metric_or_t_range_change": true,
+  "no_approximate_nearby_cache_hits": true,
+  "cause_of_prior_signal9": "unknown",
+  "superseded_prepared_source": {
+    "blob": "8533fa4996c4ed25e095ffe8ff4bf228a68a7ca3",
+    "sha256": "0f8cc5fe0ab3e78e52345254a9c4ed1965b20517bd1175e139914fa8d4a2494e",
+    "executed": false,
+    "reason": "Its frozen-only resource wrapper did not recognize the selected exact-stage worker; corrected by binding the existing stage-specific resource factory."
+  },
+  "resource_factory_static_check": {
+    "scope": "Static source binding only; no Python compile or worker/numerical execution claimed.",
+    "old_entry_sha256": "0f8cc5fe0ab3e78e52345254a9c4ed1965b20517bd1175e139914fa8d4a2494e",
+    "new_entry_sha256": "4d1f5c7cb6a2c83b6c1a8d04d81637f39adb88315f8df021afc4ccb698e54ef6",
+    "guard_sha256": "867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba",
+    "all_eight_unique_patches": true,
+    "expected_stage_worker_guard": true,
+    "replacement_occurrences": 1,
+    "restoration_occurrences": 1,
+    "all_original_math_calls_kept": true,
+    "MJS_modified": false
+  },
+  "effective_cache_identity": {
+    "native_MJS_stage_identity_unchanged": true,
+    "outer_namespace": "complete Python source trees SHA including all newly added Python files",
+    "manifest": "<cache-base>/python-<complete-Python-SHA>/Python-source-identity.json",
+    "effective_key": [
+      "complete Python source trees SHA",
+      "original native stage identity",
+      "complete exact native input key"
+    ],
+    "each_extra_or_modified_Python_source_changes_namespace": true
+  },
+  "source_collection_frozen_for_next_runtime_snapshot": true,
+  "completion_entry": {
+    "path": "computations/strong_sameg_m28_complete.py",
+    "blob": "5e4397f3f33e2ed92cad5701abd6ff4047f9e1c5",
+    "sha256": "905e256ab7e51364fe36cefb293f9d8198eae96ac2dca72e08d91993eeb48da1"
+  }
+}

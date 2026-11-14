@@ -1,0 +1,45 @@
+{
+  "schema": "inner-Cs-Lambda-input-artifacts-v1",
+  "author": "/root/geometry_audit",
+  "date": "2026-11-13",
+  "files": [
+    {
+      "path": "computations/inner_r100_cs_lambda_modal_input.py",
+      "sha256": "bb6a44373d4b002f017019ee1801f53e62bce15ba63ab50bcb67ebf0f9895ccc",
+      "bytes": 13850
+    },
+    {
+      "path": "notes/2026-11-13-inner-r100-Cs-Lambda-modal-input.md",
+      "sha256": "0458be2304f59fe3d92eb005cb057f7dedd819c6bcf537b8e429a2b6efddb6b2",
+      "bytes": 7165
+    },
+    {
+      "path": "notes/2026-11-13-inner-r100-Cs-Lambda-input-all213.json.gz",
+      "sha256": "28161832153c4f0b3e632f4c4fba2741b9b90d198a4d75ff5761a18a72c8fa8f",
+      "bytes": 1121546
+    },
+    {
+      "path": "notes/2026-11-13-inner-r100-Cs-Lambda-input-cell12.json",
+      "sha256": "d85cb3e424a16eff9cee7071483332a1b56bdec2ba6d33b69443838da067c706",
+      "bytes": 19564
+    },
+    {
+      "path": "notes/2026-11-13-inner-r100-Cs-Lambda-input-resource.json",
+      "sha256": "9e0710e718dc0773bc35d0a997a0bd54fdaa6196c75760015a2fa3c84f6209f6",
+      "bytes": 907
+    },
+    {
+      "path": "notes/2026-11-13-inner-r100-Cs-Lambda-input-failed-r1-resource.json",
+      "sha256": "92f848245b4ce605de5ce51c67082fc2059d1573d23797307b78d08ed9b6d29c",
+      "bytes": 921
+    },
+    {
+      "path": "notes/2026-11-13-inner-r100-Cs-Lambda-input-failed-r1-source.py",
+      "sha256": "177ac2098166acc2e808e903fa0fcf8dfee428a11da7782802666c08694d64ce",
+      "bytes": 13516
+    }
+  ],
+  "actual_exitcode": 0,
+  "actual_gates": 1051,
+  "original_complete_head_still_requires_e_mean_inverse_and_far": true
+}

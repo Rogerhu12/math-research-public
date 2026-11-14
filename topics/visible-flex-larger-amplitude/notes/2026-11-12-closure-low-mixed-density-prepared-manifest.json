@@ -1,0 +1,60 @@
+{
+  "status": "Prepared only; no Python, Arb, AST, ordered-data, or mathematical gate execution for these new sources.",
+  "author": "exact_closure, GPT-6 Astra Pro (AI-assisted)",
+  "date_utc": "2026-11-12",
+  "scope": "R98 low-output p=2,1,0 sourcewise ordered material kernels on the exact paid R90 geometry; finite variable-to-constant strip fee explicit.",
+  "priority": "Original m94/96 recovered_v1 actual probe retains first unique 96MiB numerical slot.",
+  "files": [
+    {
+      "path": "computations/closure_outer_low_mixed_density_ordered_v1.py",
+      "git_blob": "bec8c297bd18c0cefe7d8ee7b35340da9077ba9a",
+      "sha256": "7d3aed00e96bd9186cb8274e329435fa2d2a310271d6700e92876152f6c90646",
+      "bytes": 17142
+    },
+    {
+      "path": "notes/2026-11-12-closure-low-mixed-density-prepared-interface.md",
+      "git_blob": "9ccb99028d6a6657f31fa3077922533126b6e5fb",
+      "sha256": "c914930ffdde305500699a5810001fe52c4601cb48cbd0f4a269547fbd377247",
+      "bytes": 6098
+    }
+  ],
+  "data_dependency": {
+    "geometry": {
+      "path": "notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json",
+      "sha256": "e3bb0bad3afac3e19d6b811ad068d0b4251b2a1214718dcbd14a2eb98e1aaa03"
+    },
+    "reference_budget": {
+      "path": "notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval.json",
+      "sha256": "86c9b5604a765a50028865a4f3edae3171d9582052e2b7e7515d0471d8685d45"
+    },
+    "working_data": "All98 complete hash-bound geometry gzip chunks listed in the geometry primary; restore via CLI or exact regeneration, no connector data splitting."
+  },
+  "execution": {
+    "actual_new_execution": false,
+    "last_executor_probe": {
+      "time_utc": "2026-11-12 23:47:01 UTC",
+      "result": "No usable execution environment is available",
+      "process_created": false
+    },
+    "owned_session": null,
+    "resource_policy": "40MiB observed own RSS for the pure Fraction consumer, resource_run wait4 required; not an OS hard cap."
+  },
+  "guards": [
+    "all18 groups,10793 original leaves,all46 modes",
+    "sourcewise Fcap/(sigma^2*V^(2-p)), no Vmin aggregation",
+    "two complete ordered passes",
+    "same physical source-x second-source units",
+    "all output1+m retained",
+    "p2 independently compared with the paid original operator",
+    "explicit exp(m*(18/125-1/64)) finite strip transfer",
+    "true cut V extracted only from actually read full cover"
+  ],
+  "not_claimed": [
+    "all middle modes",
+    "new R98 three-block selfmap or Schur gate",
+    "full frequency PDE",
+    "cut consistency",
+    "closed flex or geometric completion"
+  ],
+  "publication_policy": "Only these independent small texts via connector. No new primary/data or large split encoding."
+}

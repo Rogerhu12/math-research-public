@@ -1,0 +1,57 @@
+{
+  "scope": "Only existing coarse warm height diagnostics; not the full field grid and not true nonlinear candidates.",
+  "diagnostics": [
+    {
+      "control": "vu",
+      "physical_step": 0.0002,
+      "central_difference_per_normalized_step": 0.0002723791440005785,
+      "inputs": {
+        "plus": {
+          "file": "notes/2026-11-12-root-q095-actual-neutral-geometry-r2-vu-plus-screen.json",
+          "sha256": "4690a1c647635f0d393f4b28b9d720c17d57873d465917e78c8935dadfb1d6ad",
+          "resource_file": "notes/2026-11-12-root-q095-actual-neutral-geometry-r2-vu-plus-resource.json",
+          "resource_sha256": "b79a8fa87299cc718dd67878a70e1d790085925a3b1469ba58691887678eea78",
+          "height_max_sample": 1.9224342741323073,
+          "radial_samples": 386,
+          "angular": 384
+        },
+        "minus": {
+          "file": "notes/2026-11-12-root-q095-actual-neutral-geometry-r2-vu-minus-screen.json",
+          "sha256": "d836c06c0312a4bace1bdf3ed5c49c7b77f794dcbabd76c0d4b906ff82d4f63f",
+          "resource_file": "notes/2026-11-12-root-q095-actual-neutral-geometry-r2-vu-minus-resource.json",
+          "resource_sha256": "7d33ea18923a26360aaf9069700bf5961baffe960924926e9504eb3567af9334",
+          "height_max_sample": 1.9218895158443061,
+          "radial_samples": 386,
+          "angular": 384
+        }
+      },
+      "continuous_bound": false
+    },
+    {
+      "control": "descending_turn_curvature",
+      "physical_step": 0.0025,
+      "central_difference_per_normalized_step": 8.055807218354527e-05,
+      "inputs": {
+        "plus": {
+          "file": "notes/2026-11-12-root-q095-actual-neutral-geometry-r2-firstk-plus-screen.json",
+          "sha256": "bb6a1a981218e6659a720c5ae7c5a2c244760562179f8a23d04fc812d9bfe96f",
+          "resource_file": "notes/2026-11-12-root-q095-actual-neutral-geometry-r2-firstk-plus-resource.json",
+          "resource_sha256": "4d50549d44090f307ad7e35b3210f20470b841c9e029a47e2bd9b03f11fa147c",
+          "height_max_sample": 1.9222427047099542,
+          "radial_samples": 386,
+          "angular": 384
+        },
+        "minus": {
+          "file": "notes/2026-11-12-root-q095-actual-neutral-geometry-r2-firstk-minus-screen.json",
+          "sha256": "3f360d744699ce755c5d213fb1f1a3a37be7f29dd81e8b7c27d79efb05d5b19e",
+          "resource_file": "notes/2026-11-12-root-q095-actual-neutral-geometry-r2-firstk-minus-resource.json",
+          "resource_sha256": "a24ed4f6e90c78fb634a48257c7a1ced99eb2021a0a19d78e87b619d45bdc9c2",
+          "height_max_sample": 1.922081588565587,
+          "radial_samples": 386,
+          "angular": 384
+        }
+      },
+      "continuous_bound": false
+    }
+  ]
+}

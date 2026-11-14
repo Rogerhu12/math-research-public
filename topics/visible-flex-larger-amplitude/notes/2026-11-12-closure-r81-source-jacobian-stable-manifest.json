@@ -1,0 +1,75 @@
+{
+  "status": "Frozen complete R81 evidence; old wrapper failure preserved; no active numerical output included",
+  "author": "exact_closure",
+  "files": [
+    {
+      "path": "results/R81-complete-source-parameter-rows-and-candidate-boundary-map.md",
+      "bytes": 11983,
+      "sha256": "d21ea9d4be09573502616ee2244365d8a67117cc8303ceeaff4339c98f617a1f"
+    },
+    {
+      "path": "computations/closure_outer_source_parameter_rows.py",
+      "bytes": 12229,
+      "sha256": "93dd01f62eb9642c881640550df6253235798cb531ee439dbf29ddeaebadd10e"
+    },
+    {
+      "path": "computations/closure_candidate_boundary_row_budget.py",
+      "bytes": 4273,
+      "sha256": "6eed1b044d548414106a86c9e721c2997ddcbffe510be259991fe4ea15a68f5e"
+    },
+    {
+      "path": "computations/closure_candidate_boundary_row_budget_v2.py",
+      "bytes": 5322,
+      "sha256": "733cc9d5d35f5d4269d8e33cfed6ee0a558c6e9c4433e6260a580ea33fd2dd69"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-parameter-rows-r1-plan.json",
+      "bytes": 905,
+      "sha256": "e286f535431811b1d087fe11fd4465b4cf1fb3bced46916b49dbf9bccc1cca41"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-parameter-rows-r1-resource.json",
+      "bytes": 1190,
+      "sha256": "08a6c38016ddfad84bc57cf821d93608f0b45638459cdcd4cae3972d7ad9dd45"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-parameter-rows-r1.json",
+      "bytes": 90364,
+      "sha256": "1af45c9d6104eb23031c930c174d6160b9c0bd27116e4282f728f8e66ddedcfe"
+    },
+    {
+      "path": "notes/2026-11-12-closure-candidate-boundary-row-budget-r1-resource.json",
+      "bytes": 1070,
+      "sha256": "f10a065e5d6e003750221ef0e9a7868eaf836b473e0974546a5941fc06abadca"
+    },
+    {
+      "path": "notes/2026-11-12-closure-candidate-boundary-row-budget-r2-plan.json",
+      "bytes": 1549,
+      "sha256": "7b92cfbf657b3d3fa79ab19073d2db521bf43044b4341c7e99e88754ce5dd30c"
+    },
+    {
+      "path": "notes/2026-11-12-closure-candidate-boundary-row-budget-r2-resource.json",
+      "bytes": 1152,
+      "sha256": "2526a5df82e4be6f8187ccbc94377482319caece4da36cc24763b64b83aa5201"
+    },
+    {
+      "path": "notes/2026-11-12-closure-candidate-boundary-row-budget-r2.json",
+      "bytes": 36845,
+      "sha256": "5a6a4b33ed5911016156fb6c3694be1e980ecec23c920c3bbf5afe16a00066cb"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r81-source-jacobian-execution.json",
+      "bytes": 1947,
+      "sha256": "9e190e73bccc608b75d82da3f67e586f62425ef99dcd085b3f3882130bd85e81"
+    }
+  ],
+  "file_count": 12,
+  "total_bytes": 168829,
+  "formal_source_derivative_exit": 0,
+  "formal_combiner_v2_exit": 0,
+  "complete_mathematical_gates_true": true,
+  "new_inputs_already_published": "R74,R78,R79 and all R73 original position kernels",
+  "unchanged_source_kernel_identity": "all10793 original leaves / 18 groups / two terminal readouts",
+  "whole_field_Green_still_unpaid": true,
+  "git_actions_performed": false
+}

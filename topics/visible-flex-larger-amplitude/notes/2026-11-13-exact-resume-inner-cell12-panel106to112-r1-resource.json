@@ -1,0 +1,26 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-cell12-panel-forced-106to112-v1.py",
+    "--sources",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell12-canonical-forced-r1/inputs",
+    "--base",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell12-canonical-forced-r1/r2-kernels.json",
+    "--base-resource",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell12-canonical-forced-r1/r2-resource.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-cell12-panel106to112-r1",
+    "--rss-kib",
+    "98304"
+  ],
+  "wall_seconds": 10.300240993499756,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 26916,
+  "user_seconds": 3.697718,
+  "system_seconds": 0.115547,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

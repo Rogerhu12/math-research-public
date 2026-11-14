@@ -1,0 +1,51 @@
+{
+  "schema": "same-R100-inner13-window-exact-Fraction-audit-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "gates_count": 48253,
+  "gate_categories": {
+    "formal_success": 1,
+    "all_primary_gates": 1,
+    "same_original_domain": 1,
+    "all_input_sha_pins": 13,
+    "whole_window_coverage": 1,
+    "all213_rows": 1,
+    "full_Hessian_domain": 213,
+    "original_error_domain": 213,
+    "complete_new_square": 213,
+    "complete_mean_inverse_T": 213,
+    "material_B_floor": 213,
+    "exact_DQ_support": 5538,
+    "s_pointwise_common_material_dominance": 41535,
+    "reference_first_source_part_pin": 1,
+    "reference_source_cell12": 1,
+    "endpoint_individual_incoming": 13,
+    "endpoint_individual_reference": 13,
+    "endpoint_individual_change": 13,
+    "endpoint_individual_addition": 13,
+    "endpoint_individual_intersections": 13,
+    "endpoint_individual_export_identity": 13,
+    "endpoint_band_incoming": 2,
+    "endpoint_band_reference_shared_tail_once": 2,
+    "endpoint_band_DQ_shared_input_support": 2,
+    "endpoint_band_shared_square_T_once": 2,
+    "endpoint_band_addition": 2,
+    "endpoint_band_sum_individuals": 2,
+    "endpoint_band_intersections": 2,
+    "endpoint_band_export_identity": 2,
+    "complete_infinite_band_identity": 1
+  },
+  "primary": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-window13-bootstrap-r1.json.gz",
+    "sha256": "a589cf1027bacb6414df4f18446411e6fc4994c1dd78effcf5b40826a11e7e81"
+  },
+  "resource": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-window13-bootstrap-r1-resource.json",
+    "sha256": "5bd55bebcbcdc8cd6872e55a61fb61daa4348785bb3c6e1000938d68f228fec1"
+  },
+  "audit_source_sha256": "3500d668fa6681aa9839d56431cec3f83b02aa090fb4f47dbcc9312740c99058",
+  "no_floating_point_decisions": true,
+  "all_complete_mean_inverse_far_retained": true,
+  "elapsed_seconds": 13.777772567998909,
+  "peak_rss_kib": 81532
+}

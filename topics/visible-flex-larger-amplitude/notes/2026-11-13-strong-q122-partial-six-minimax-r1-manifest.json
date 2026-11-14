@@ -1,0 +1,48 @@
+{
+  "schema": "2026-11-13-strong-q122-partial-six-minimax-r1-immutable-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "members": [
+    {
+      "path": "notes/2026-11-13-strong-q122-partial-six-minimax-r1-T128.json",
+      "sha256": "0d56fb0ad3122d14263420afe194829c5f0e83a47f58a605dcb558f16001d5c1",
+      "bytes": 146986,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/minimax-t128-k0nonpositive-r2.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-partial-six-minimax-r1-T128-resource.json",
+      "sha256": "4ffc80a91f69c8b9148c231887387cc11b8b0d0caa48e1ab06df711be6e492bf",
+      "bytes": 1613,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/minimax-t128-k0nonpositive-r2-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-partial-six-minimax-r1-T256.json",
+      "sha256": "5fbe5de7437dfacbb02154c3f0383926797fbeafe71d903dc50c798e87982f60",
+      "bytes": 122310,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/minimax-t256-k0nonpositive-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-partial-six-minimax-r1-T256-resource.json",
+      "sha256": "4d70fe68687bddf5673aae0cfcb18e2abf3d0b726f2b7ecc0192e6c94fc5ddab",
+      "bytes": 1592,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/minimax-t256-k0nonpositive-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-partial-six-minimax-r1-proof.md",
+      "sha256": "c01e2577f596918d48adedf1c496040c8b8bc4002ab2c5124512ec50349048b2",
+      "bytes": 5937,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/partial-six-minimax-proof.md"
+    }
+  ],
+  "predecessor_manifest": {
+    "path": "notes/2026-11-13-strong-q122-partial-six-complete-fields-r1-manifest.json",
+    "sha256": "3352f1398ce3df3b6b412e2a02dd49ed67b4543166e7e46d156bc1a215acd4d3"
+  },
+  "all_24_complete_finite_row_checks_executed": true,
+  "rows_per_candidate": 14453760,
+  "partial_six_response": true,
+  "full_eight_response": false,
+  "interval_LP_certificate": false,
+  "nonlinear_warm_result_included": false,
+  "new_actual_solution_or_continuous_geometry_certificate": false,
+  "large_reproducible_geometry_arrays_stored_only_in_scratch": true
+}

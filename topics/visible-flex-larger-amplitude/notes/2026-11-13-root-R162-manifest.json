@@ -1,0 +1,111 @@
+{
+  "schema": "root-R162-complete-conditional-rest-head-budget-v1",
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R162-R162-rest-targets-r1.json.gz",
+      "sha256": "b9489cb3df053d94f88379a78fd7051c752179dcfd69d451b6a9edb4200bb5af",
+      "bytes": 349309
+    },
+    {
+      "path": "notes/2026-11-13-root-R162-R162-rest-targets-r1-resource.json",
+      "sha256": "805b32cefcf5b045b0c8d5962d3491a65ad90d2cfc8a0b2ab3491ded2e7a6c1d",
+      "bytes": 1050
+    },
+    {
+      "path": "notes/2026-11-13-root-R162-R162-rest-targets-r1.log",
+      "sha256": "bbfd45757a7ea323139e10f59c9686885c62e085ede987033ae3b7389d0e6463",
+      "bytes": 17873
+    },
+    {
+      "path": "notes/2026-11-13-root-R162-input-manifest.json",
+      "sha256": "3d573b50fbe3d95cc5bead216b1042623f28c729b60f9e6f9252b5d288312096",
+      "bytes": 3721
+    },
+    {
+      "path": "notes/2026-11-13-root-R162-launch-plan.json",
+      "sha256": "00b38b6f0f3ead3effe3c2c1eb17572db90263aa6f681c8dd31e6ba232c7dd08",
+      "bytes": 704
+    },
+    {
+      "path": "computations/root_R162_conditional_rest_head_budget.py",
+      "sha256": "58910c21c220049634f01e4d388f1c436d587a5fe693a5414583bae2c736fcb0",
+      "bytes": 10127
+    },
+    {
+      "path": "results/R162-conditional-rest-head-full50.md",
+      "sha256": "f1d79417d47f8e046fe9277679de52acc450dddb32a6fa51d72b948606f310b9",
+      "bytes": 2820
+    }
+  ],
+  "primary_sha256": "b9489cb3df053d94f88379a78fd7051c752179dcfd69d451b6a9edb4200bb5af",
+  "formal_child_exit": 0,
+  "all_input_and_actual_head_gates": true,
+  "proved_sufficient_rest_hypotheses": [
+    "1e-46",
+    "1e-48",
+    "1e-50"
+  ],
+  "actual_new_width_field_proved": false,
+  "actual_available_rest_failure": {
+    "block": 21,
+    "reason": "nonlow_positive_metric_failed"
+  },
+  "dependencies": {
+    "R160_primary": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/R160_primary.json.gz",
+      "sha256": "be04d5fddf74632d57b11acee45bdbabecbfc339a5420f8e202f72a95a6a039d",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R160-fixed-LF-shift040-r1.json.gz"
+    },
+    "R160_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/R160_resource.json",
+      "sha256": "f7c8b21f9c060ad5347c9795429dac63a5e38adfcf8a6768f98a7d347bf7be0f",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R160-fixed-LF-shift040-r1-resource.json"
+    },
+    "R160_inputs": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/R160_inputs.json",
+      "sha256": "b96afc260d704c41187f2595a17c232aefd36f26be1778637eb5bd6528b00ddd",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R160-fixed-low-newwidth-inputs/input-manifest.json"
+    },
+    "R160_source": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/R160_source.py",
+      "sha256": "00c9cec750fb50dbd0cfc2526f5ad47cd960340beb186d8d0a7c4df27585efc7",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R160-fixed-low-newwidth-inputs/root_R160_fixed_low_newwidth_nonlow.py"
+    },
+    "R159": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/R159.json.gz",
+      "sha256": "f4e16254dfaff8373f6abf179114b63717fac4ce7c68f41396638a2df34556d2",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R159-P1-endpoint-r1.json.gz"
+    },
+    "R159_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/R159_resource.json",
+      "sha256": "f615f3e707732ca263f5e3b54b7c5a2f5019be799d492edca7b5c0d8bbc1a486",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R159-P1-endpoint-r1-resource.json"
+    },
+    "head045to040": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/head045to040.json",
+      "sha256": "3ea0049fd53e094687c0d5cfafe857b74d7df9132c6c20939bd04b5858e984de",
+      "original_path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-P1-shift045-head-export-r1.json"
+    },
+    "head045to040_resource": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/head045to040_resource.json",
+      "sha256": "f04b539a190e00007d5e64656960768e579800ec47ff29bd9a4b0200f7cb9b33",
+      "original_path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-P1-shift045-head-export-run1-resource.json"
+    },
+    "prior_endpoint": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/prior_endpoint.json.gz",
+      "sha256": "d89fbe3eb1cd0ea2b5bf5ff8376275dbbf3d95833de73af30f64aa926db751d6",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/restricted-outer-r6-inputs/inner-restricted-deep-port-head-r6.json.gz"
+    },
+    "prior_endpoint_export": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/prior_endpoint_export.json",
+      "sha256": "087c9dbdf8d7f86c96656ae439268963abc04c8f8dc1c761c34772620e0e2629",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/restricted-outer-r6-inputs/2026-11-13-exact-resume-inner-restricted-deep-port-head-r6-head-export.json"
+    },
+    "R116_reference": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R162-conditional-rest-inputs/R116_reference.md",
+      "sha256": "c49b631b4b3f33deff5f5683f61ecba73a3103e7f92f4d0641ecaf36a752873f",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R116-actual-low46-centre-jacobian-and-quadratic-remainder.md"
+    }
+  }
+}

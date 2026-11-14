@@ -1,0 +1,56 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Stable complete same-candidate physical-r segment8 audit and whole-cell composition",
+  "formal_sessions": [
+    6972
+  ],
+  "composition_tool_completed_directly": true,
+  "all_resource_exitcodes_zero": true,
+  "physical_r_panels": 16,
+  "whole_cell_panels": 7563,
+  "new_source_integrals_or_profile_or_ODEs": 0,
+  "candidate_and_g_and_all_mean_unchanged": true,
+  "files": [
+    {
+      "path": "computations/tail_outer_last_piece_finite_j.py",
+      "bytes": 9398,
+      "sha256": "e863f24a5536cb772679b128f914c4c23e7d0f4a1a342441427daf2cae230686"
+    },
+    {
+      "path": "computations/tail_outer_replace_last_piece_audit.py",
+      "bytes": 5929,
+      "sha256": "a0a488fb29b7e934dd4e9e97c883604452b5138cf4ee063d5e5677a7febdec82"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-last-physical-r-finite-J-r2-plan.json",
+      "bytes": 1104,
+      "sha256": "ba6310087c7f8ff18bd808c10984c6f354603b134a749ac1fc8baf2e59f986ee"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-last-physical-r-finite-J-r2.json.gz",
+      "bytes": 91176,
+      "sha256": "4a2fb4164a8c56e25278b4598f2accc189f93f89bad04d6a34ee012dc765c6d2"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-last-physical-r-finite-J-r2-resource.json",
+      "bytes": 972,
+      "sha256": "1add1b322dbf1b5f46b17bcb3e68fead408f7db15d202f96d5b63c724f9177f5"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-3578-horner-r2.json",
+      "bytes": 13537,
+      "sha256": "5e2107e5a9d997e549fdd82bec680c59a38e90d7b7c747b2088ebccafcb19e1e"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-3578-horner-r2-resource.json",
+      "bytes": 1037,
+      "sha256": "c6a57e513a7d3ddfd340cd0c19ecf05388ae949de311980a5e2eb139aefbc885"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r66-last-piece-finite-J-complete.md",
+      "bytes": 5530,
+      "sha256": "e12881da697e1b74ffdee920e4e7cf8c9a18905169da623122795a3b072db619"
+    }
+  ],
+  "total_bytes": 128683
+}

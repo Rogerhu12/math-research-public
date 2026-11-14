@@ -1,0 +1,39 @@
+{
+  "schema": "visible-flex-R104-two-frame-diagonal-prepared-plan-v2",
+  "status": "Prepared only; unique source transformations checked, no Python AST/Arb/execution",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_middle_two_frame_diagonal_materials_v2.py",
+      "blob": "d33f4cc1ed3c7121cde0c807fb692d79dc63f935",
+      "sha256": "3f7f4bb7bd26bbdb83b9df7a40e7fd9ca52cf0b6652f89e94978872cfb272ca7",
+      "bytes": 16646
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-r104-two-frame-diagonal-prepared.md",
+      "blob": "533ec194d0889aa384cd0994e425c104d00a34ae",
+      "sha256": "63de1597a98a5d6f8448f6766ee2a35ae6287fe3d5849f9e57a53d943a87abe0",
+      "bytes": 8100
+    }
+  ],
+  "old_single_frame_source_kept": "7e5b9a38af269bee7803fb8e6c002a6ca9987267b0c01b3cbe7da2d2b82a2ba8",
+  "actual_R104_blocks_sha256": "62156ade93e31729c7500e79dbc01c3f4267d1a89a2b7730af7fe1c6440df45a",
+  "actual_R68_producer_sha256": "ef41df6103a8c8b9cabc4ac8f2be133a244d5e0361e7d861ff7266426498e63b",
+  "frame_packet_sha256": "Actual CLI read after restore; not guessed",
+  "no_new_ODE_or_source_integration": true,
+  "modes": [
+    94,
+    96
+  ],
+  "source_material_powers": [
+    2,
+    1,
+    0
+  ],
+  "whole_source_segments": 18,
+  "source_leaves": 10793,
+  "output_norm": "absolute physical strong; separate P/K radial sup; factor1+m; no localV divisor",
+  "old_offdiagonal_and_all_initial_data_retained": true,
+  "mathematical_result_scope": "New candidate frame proof; numerical improvement and nonlinear existence remain unexecuted",
+  "resource_limit_kib": 98304,
+  "slot": "After root16532 actual terminal and release; never parallel Arb"
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "owned-subprocess-resource-v1",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_gauss64_piecewise_C2_bridge.py",
+    "--table",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/newg-gauss64-r1/certificate.json",
+    "--table-source",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_gauss64_table_bridge.py",
+    "--profile-source",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_analytic_profile_bounds.py",
+    "--profiles",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/q098-newg-profile-r1/profile.json",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/q106-newg-profile-r1/profile.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/newg-gauss64-C2-r1/certificate.json"
+  ],
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "exit_code": 0,
+  "wall_seconds": 0.3267071539994504,
+  "peak_rss_kib": 12416,
+  "source_sha256": "a830cdd1da8c4dc187b0ca4e27c0c67d4834c92b8539677f6ef32fbb93e60ea6"
+}

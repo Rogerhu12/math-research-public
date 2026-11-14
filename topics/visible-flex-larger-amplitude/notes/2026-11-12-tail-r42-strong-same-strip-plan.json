@@ -1,0 +1,53 @@
+{
+  "status": "Prepared static same-function strong high rescaling; no numerical adapter execution yet",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "theorem": "R42 sections4/5",
+  "source": {
+    "path": "computations/tail_r42_same_strip_strong_high.py",
+    "bytes": 19958,
+    "sha256": "52c82cb1462f44c397dfee17cb94cd2f8b0b888d1b0c7490543bb569f91ac284"
+  },
+  "AST": "pass",
+  "input_hashes": {
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-tail-r33-strong-m20-density-window.json.gz": "3dc23cefdaafb0210548d868d85e5f81f231d9069dcec6670b7684dcbd1eb5a3",
+    "notes/2026-11-12-tail-r33-plateau2-quadratic-high-recovered-r1.json": "51496d1d7307ea491a4e8a9aef22756745bf6c9ca92f8fc9ab1b364deae41e27",
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz": "07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6"
+  },
+  "static_checks": {
+    "all_original_density_high_gates": true,
+    "all213_cells_present": true,
+    "all12_geometry_and_reference_fields_identical_on_every_cell": true,
+    "all_canonical_envelopes_exact_stored_dyadics": true
+  },
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python computations/tail_r42_same_strip_strong_high.py --q-density notes/2026-11-12-tail-r33-plateau2-density-window.json.gz --strong-density notes/2026-11-12-tail-r33-strong-m20-density-window.json.gz --q-high notes/2026-11-12-tail-r33-plateau2-quadratic-high-recovered-r1.json --q-middle notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz --z-log2 -2200 --infinite-radius-log2 -120 --out-prefix notes/2026-11-12-tail-r42-strong-same-tau-r1",
+  "workdir": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude",
+  "executed": false,
+  "no_new_ODE_or_Node": true,
+  "run_policy": "Use a root-assigned short sequential numeric window; current exact6434 large job remains exclusive",
+  "outputs": [
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-middle.json.gz",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-high.json.gz",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-summary.json"
+  ],
+  "strip_definition": "Define the new strong tau(r) identically equal to the original q continuous function. The new k pays domination only. Do not regenerate tau by normalizing new strong V/k.",
+  "complete_mean_and_pointwise_inverse": true,
+  "independent_far_z": "2^-2200",
+  "whole_head_claim": false,
+  "retained_low_parameter_count": 46,
+  "other_source_dependencies": [
+    {
+      "path": "computations/tail_r33_quadratic_high_box.py",
+      "sha256": "25f75d8ac5049eedf408d7caa952eeca5953b12229038454853caa7d2904174b"
+    },
+    {
+      "path": "computations/closure_real_head_source_enclosure.py",
+      "sha256": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+    },
+    {
+      "path": "computations/closure_real_head_green_enclosure.py",
+      "sha256": "4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0"
+    }
+  ]
+}

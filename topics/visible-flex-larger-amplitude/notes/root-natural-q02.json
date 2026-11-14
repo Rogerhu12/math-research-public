@@ -1,0 +1,71 @@
+{
+  "scope": "Measure the actual small-amplitude natural cos(4 phi) coefficient.\n\nThis scans design parameters and solves finite linear-DN prefixes. It does\nnot freeze a common metric, close a surface, or solve the nonlinear tail.\n",
+  "q": 0.02,
+  "vu": 0.55,
+  "rows": [
+    {
+      "vd": 0.35,
+      "linear_roots": [
+        0.14729746819756087
+      ],
+      "returncode": 0,
+      "seconds": 23.034525156021118,
+      "solver_success": true,
+      "error": null,
+      "q4": 3.090165585142966e-05,
+      "q4_over_q2": 0.07725413962857414,
+      "delta": 0.14729199130004533,
+      "metric_l1": 3.040341118505793e-08,
+      "height": 1.4958174106767597,
+      "kappa": 4.18246638137865
+    },
+    {
+      "vd": 0.4,
+      "linear_roots": [
+        0.1535008043852179
+      ],
+      "returncode": 0,
+      "seconds": 15.030587911605835,
+      "solver_success": true,
+      "error": null,
+      "q4": 3.18930892516996e-05,
+      "q4_over_q2": 0.07973272312924899,
+      "delta": 0.1534957935456155,
+      "metric_l1": 6.973153264742338e-09,
+      "height": 1.4472063762760679,
+      "kappa": 4.182929103630895
+    },
+    {
+      "vd": 0.42,
+      "linear_roots": [
+        0.15573339342228834
+      ],
+      "returncode": 0,
+      "seconds": 17.11998224258423,
+      "solver_success": true,
+      "error": null,
+      "q4": 3.304045434311812e-05,
+      "q4_over_q2": 0.0826011358577953,
+      "delta": 0.15572843948362242,
+      "metric_l1": 3.446198217288663e-09,
+      "height": 1.430141935691004,
+      "kappa": 4.1831504804264075
+    },
+    {
+      "vd": 0.47,
+      "linear_roots": [
+        0.16077283906549836
+      ],
+      "returncode": 0,
+      "seconds": 112.87098336219788,
+      "solver_success": true,
+      "error": null,
+      "q4": 2.8025268693991526e-05,
+      "q4_over_q2": 0.07006317173497881,
+      "delta": 0.16076943747806374,
+      "metric_l1": 3.2860660735729393e-09,
+      "height": 1.3919533465934528,
+      "kappa": 4.1833222058999855
+    }
+  ]
+}

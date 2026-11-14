@@ -1,0 +1,36 @@
+{
+  "schema": "visible-larger-r92-complete-proof-manifest-v1",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Complete proof and exact scalar/axis arithmetic; no new Arb or 641-row run",
+  "files": [
+    {
+      "path": "results/R92-strong-full46-product-parameter-family.md",
+      "git_blob": "1ddaf88c6e649011ef81ad3c7fb932246d231e19",
+      "utf8_bytes": 12707
+    },
+    {
+      "path": "computations/closure_r92_product_parameter_budget.js",
+      "git_blob": "7584a077c463ea72bf4a201c48ca0f17949acb43",
+      "utf8_bytes": 5368
+    },
+    {
+      "path": "notes/2026-11-12-root-r92-product-parameter-exact-ledger.json",
+      "git_blob": "00eb0b20a97f82c0885b9e0f383f25fa67429469",
+      "utf8_bytes": 12350
+    }
+  ],
+  "actual_execution": {
+    "engine": "functions.exec V8 BigInt",
+    "all_15_scalar_and_axis_gates": true,
+    "new_terminal_node": false,
+    "new_Arb": false,
+    "new_641_row_replay": false
+  },
+  "proved_input_blobs": {
+    "R59": "447344660f4d65835047d9e2503ccd93b2b71b7a",
+    "R74": "06eb1adcd6ff056cc8d93a6f71cc1766c7a95abf"
+  },
+  "result": "R74 original20 product box times original R59 transverse26 weighted l1 unit ball; new641 joint radius1048832W, lambda33159425/33554432, strict slack34407935/8192 W.",
+  "limitations": "Existing R78/R88/R90/R91 outer/head numerical bounds are not automatically valid on the enlarged parameter domain. The exterior, full cut and closed-surface problem remain open."
+}

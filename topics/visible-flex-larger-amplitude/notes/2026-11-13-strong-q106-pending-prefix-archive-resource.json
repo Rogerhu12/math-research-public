@@ -1,0 +1,24 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/strong_archive_pending_prefix.py",
+    "--raw",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-outer-00-raw-collocation.json.gz",
+    "--warm-tail",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_0001.json.gz",
+    "--launch-plan",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-launch-plan.json",
+    "--archive-topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--manifest",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-pending-prefix-recovery-manifest.json"
+  ],
+  "wall_seconds": 0.5683739185333252,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 42872,
+  "user_seconds": 0.7447429999999999,
+  "system_seconds": 0.20366099999999998,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

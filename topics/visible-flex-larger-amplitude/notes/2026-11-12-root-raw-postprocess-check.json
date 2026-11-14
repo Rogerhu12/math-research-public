@@ -1,0 +1,35 @@
+{
+  "scope": "Actual accepted raw Newton state replayed through physical postprocessing with no new solve; exact saved-array comparison, not a new refinement.",
+  "original": "notes/2026-11-12-root-q0775-fixed-tol7-checkpointed.json.gz",
+  "original_sha256": "55e74a280f52a9e50e62658d3c7318a9b906dbe3b363bccca4d5a1d8162b81f5",
+  "recovered_scratch_output": "/workspace/scratch/c0de65fac774/root-raw-postprocess-check.json.gz",
+  "recovered_sha256": "187e8120c23eee660cd21d81cd4bddff0ea4ddb12b0543e2851b8dd0fb6912f7",
+  "raw_input": "notes/2026-11-12-root-q0775-fixed-tol7-checkpointed-raw-collocation.json.gz",
+  "raw_input_sha256": "d1895ca91085f1d922dec1be66a33fe8338bbb50813c1165a4373d29ea5cb1e0",
+  "checks": {
+    "solver_success": true,
+    "mesh": true,
+    "parameters": true,
+    "frozen_profile": true,
+    "physical_tail_parameters": true,
+    "physical_tail_cut": true,
+    "gauge_amplitude": true,
+    "meridian_length": true,
+    "angular_chart": true,
+    "chart_reference_coefficients": true,
+    "chart_reference_frequencies": true,
+    "core": true,
+    "summary": true,
+    "audit_pending": true,
+    "physical_coefficients_bitwise_equal": true
+  },
+  "physical_coefficient_shape": [
+    6,
+    1633,
+    61
+  ],
+  "decoded_coefficient_bytes_sha256": "c5c9655268394945a54b44b7adfa42e6d424b6fa703573b186a59b952487fb1d",
+  "comparison_procedure": "Validate all chunk SHA256; load each NPY with allow_pickle=False; concatenate state chunks on axis2; compare the float64 bit patterns as uint64. Listed JSON fields use exact recursive equality.",
+  "resource_file": "notes/2026-11-12-root-raw-postprocess-check-resource.json",
+  "duplicate_output_policy": "Recovered physical outputs are reproducible scratch intermediates; the original committed physical and raw packages are authoritative."
+}

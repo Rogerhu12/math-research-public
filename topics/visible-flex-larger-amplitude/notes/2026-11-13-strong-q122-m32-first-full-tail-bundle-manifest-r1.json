@@ -1,0 +1,151 @@
+{
+  "scope": "Complete genuinely converged first-H M32 finite tail, full H Jacobian and full shooting-flow checkpoint. Prefix RMS/current final H/BC/audit/closed surface remain pending.",
+  "created_utc": "2026-11-13T14:25:36.189786+00:00",
+  "tail_recovery_manifest": {
+    "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-recovery-manifest-r2.json",
+    "sha256": "8135778787d0541b838c4d64bb86d26829371e0efe19896e6bbae4b7ed7f3f8c"
+  },
+  "owned_archive": {
+    "exitcode": 0,
+    "wall_seconds": 2.536599795002985,
+    "peak_rss_kib": 37640
+  },
+  "previous_original_archiver_exitcode": 1,
+  "previous_archive_failure": "Original checkpoint JSON has +0 for four requested -0 H entries; exact physical values match and original binary base preserves all request H bits.",
+  "binary_base_H_identity": {
+    "complete_request_H_binary_base_bits_equal": true,
+    "original_JSON_checkpoint_H_values_equal": true,
+    "original_JSON_checkpoint_H_bits_equal": false,
+    "JSON_stringify_signed_zero_indices": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "original_request_H_f64le_sha256": "633c7dc91253daf187a5a6e8dc14ba3cc8a043529f0c93ee790d250ebd957440",
+    "original_checkpoint_JSON_H_f64le_sha256": "e91b4355b3019748281c9e2d043d872b670a32dfbd0a5ea5332ee3bf58a29c2f",
+    "original_archiver_source_sha256": "0b8f5380eadc6255f8000a4660e0189b136201d9030550e5aa5e93d85978f8c2",
+    "original_packet_and_sidecars_unchanged": true,
+    "scope": "Only original JSON signed-zero serialization; nonzero H bits and complete binary H stay exact."
+  },
+  "first_tail_residual": 9.898273354555164e-11,
+  "full_H_Jacobian_entries": 3136,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-base.f64le.gz",
+      "sha256": "d3a13ffdfc6b31efeb65fdf830859f8ec4b9608bbade61e9cb34855be74c9c5c",
+      "bytes": 290985
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0000.f64le.gz",
+      "sha256": "6eb678b9cb1bcce67183ed67f82cd39ff6a0a64fc0e33c8c7854fd2cdaf340d4",
+      "bytes": 1966879
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0001.f64le.gz",
+      "sha256": "da2b3f85aa319d5e0e775c8de7e2418226bc8582e2f432221cdb13a367bdf626",
+      "bytes": 1967437
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0002.f64le.gz",
+      "sha256": "dfa6d69ffe9efca9e6cf5e4e484db18bad08c5e27b776757c932d6bdebbebc77",
+      "bytes": 1966634
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0003.f64le.gz",
+      "sha256": "d86b96a16d3d6488cd4f8bbeed35163493359e297aeb8cd848caec35c6cf847a",
+      "bytes": 1965080
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0004.f64le.gz",
+      "sha256": "b790048024e48c074fdf1101fc81efd5b715145859422d208dea27bfd2af2f2b",
+      "bytes": 1964592
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0005.f64le.gz",
+      "sha256": "acee8e61ea16b15633b643b49149e1d6b3cde0103c5488fdeb7308ab8aa0782c",
+      "bytes": 1960523
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0006.f64le.gz",
+      "sha256": "0b9a6e56bbdf6f7406749efcc3e060a11e9bde7fe212068fae1f3eea924b6b96",
+      "bytes": 1958568
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0007.f64le.gz",
+      "sha256": "39d0ccb4553cc584cf7b2a18f68ca34ecaa50d6b6421369cacf73bc3563ff8a5",
+      "bytes": 1957369
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0008.f64le.gz",
+      "sha256": "cd3fd42ead5081b157d7be95e56acf3cc6d93bbc080500497be25648d69d8216",
+      "bytes": 1958864
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-flow-0009.f64le.gz",
+      "sha256": "de18358ff19480b938ea1051cb647bf03db48a434b71d005518decf6df21623c",
+      "bytes": 866656
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0001-manifest.json.gz",
+      "sha256": "6e02efcd3b30bc9ee245258fd3bb624f5c54f10a3b91bb6a6671f71d36289ead",
+      "bytes": 16065
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response_0001.json.gz",
+      "sha256": "3ce69e17533cce7e7e4b613536670040fbde6aee736375d6a0530d74ce3a0105",
+      "bytes": 406333
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-recovery-manifest-r2.json",
+      "sha256": "8135778787d0541b838c4d64bb86d26829371e0efe19896e6bbae4b7ed7f3f8c",
+      "bytes": 8599
+    },
+    {
+      "file": "computations/strong_archive_fullflow_tail_recovery_exact_base.py",
+      "sha256": "6ea44b541f3efaf45a76a4f95c4e1c42d80a49fea6c4de97289463b8cc3f26ca",
+      "bytes": 4708
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-archive-r1-heartbeat.json",
+      "sha256": "12a39195d4d862e08158817af3453c61365c3ef12cf947332189dba99de60b97",
+      "bytes": 311
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-archive-r1-ownership.json",
+      "sha256": "dea4e36c56368c3b09b3e57888d8dadee3b8e8f40128d68b575fdc4cdaf67673",
+      "bytes": 1774
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-archive-r1-resource.json",
+      "sha256": "9df40be149325ef56121238b515512943faf539a7a5d2454d32962284e534c09",
+      "bytes": 1560
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-archive-r1-stdout.log",
+      "sha256": "122e486333bc9efd005e528b45344635a9eb6d5050089819d627e76d08b9851e",
+      "bytes": 2066
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-archive-r2-heartbeat.json",
+      "sha256": "cb58b9c86febb87e17098381fa1ed57655ef015977b362ebac60ad8a7feb5d89",
+      "bytes": 311
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-archive-r2-ownership.json",
+      "sha256": "52f41285060f8d9b01d755ea2baa7e8d784fbaac11ea1883b68caf0c4051ed6e",
+      "bytes": 1785
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-archive-r2-resource.json",
+      "sha256": "aa5de44f4f08b466223bc440090c472b6bec26156c991d51f70e0ecabdc6faa9",
+      "bytes": 1579
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-full-tail-archive-r2-stdout.log",
+      "sha256": "d0c988f6a694bf519283d33ba9de6df599e984cba344c8580f4b4ede6fe7c301",
+      "bytes": 1773
+    }
+  ],
+  "total_bytes": 19270451
+}

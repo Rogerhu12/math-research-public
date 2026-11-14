@@ -1,0 +1,86 @@
+{
+  "scope": "Frozen explicit algorithm-change sources, actual saved-data protocol checks and immutable new plan. Active session20793 output excluded. The protocol fixture performs no BVP/Jacobian/Node or new audit.",
+  "created_utc": "2026-11-12T14:17:37.033138+00:00",
+  "files": [
+    {
+      "path": "computations/strong_physical_merit_actual_bvp.py",
+      "bytes": 13701,
+      "sha256": "11f3e91efaa52ec1daae63aac042576e84867e5ded7b1e8cff2b23721f8fe8a0"
+    },
+    {
+      "path": "computations/strong_physical_merit_and_affine_resume.py",
+      "bytes": 17055,
+      "sha256": "e330336daab09ef9d0bcb93cb36e04581636e33e645ed5e319987c3cc0f2810f"
+    },
+    {
+      "path": "computations/strong_physical_merit_affine_protocol_check.py",
+      "bytes": 11981,
+      "sha256": "426f642fcd756fb18efa662598aae38fee31ff1f8ad6ae705b199427ccb76679"
+    },
+    {
+      "path": "notes/2026-11-12-strong-physical-merit-affine-restart.md",
+      "bytes": 6703,
+      "sha256": "bd4195a972cd851d8f83466f25704882761d4cd72d0ef2e8ff63066768f2688e"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r3-draft-command-plan.json",
+      "bytes": 5679,
+      "sha256": "2ecd6eb08237561edebeebbafc6144c63a1dd36064b1fe698f13315d3be2bbd2"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r3-command-plan.json",
+      "bytes": 6776,
+      "sha256": "2bc534d7adc77b90793dc33edb6336ab9ee9ed2ff45095c2ee86e6c0f43bcdbc"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r3-prepare-r1-actual-three-control-adapter.json",
+      "bytes": 34420,
+      "sha256": "1211243ee16372c85bdc409ff64b65d5f3db2245f70ba3681444239dbbc64867"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r3-prepare-r1-base-profile.json",
+      "bytes": 507,
+      "sha256": "4a5a3ee472d721aa4e2020b86d5a108c0819b454407f297d8488a3a2c7f4e7c3"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r3-prepare-r1-config.json",
+      "bytes": 3023,
+      "sha256": "6805274676ef099db901a2f7c9023325f1741dee61e14e4c0f6c0b3191429326"
+    },
+    {
+      "path": "notes/2026-11-12-strong-physical-merit-affine-protocol-r1-fixed-merit-affine-adapter.json",
+      "bytes": 10323,
+      "sha256": "5770473ef699bab0a6bd0a5c1d57f27cc14a8a6680c833094236cfc750435f1a"
+    },
+    {
+      "path": "notes/2026-11-12-strong-physical-merit-affine-protocol-r1-resource.json",
+      "bytes": 1153,
+      "sha256": "8d4b086b5303df2ea402b0ea37cc2d60935adb9efc05a9bcf2b7c328b657c50f"
+    },
+    {
+      "path": "notes/2026-11-12-strong-physical-merit-affine-protocol-r1-tail-fixture_0001.json.gz",
+      "bytes": 302113,
+      "sha256": "ac10e7b56340d2e918721a8590851b0a97c3bca597e57d21bb5aedbc71397c0d"
+    },
+    {
+      "path": "notes/2026-11-12-strong-physical-merit-affine-protocol-r1-tail-fixture_dispatch.jsonl",
+      "bytes": 251,
+      "sha256": "9a8f28de9ec5deec4b3da0b13ce95acc99130a80fd81e8bc3bb7b98cdb52cd49"
+    },
+    {
+      "path": "notes/2026-11-12-strong-physical-merit-affine-protocol-r1-tail-fixture_recorded-adapter.json",
+      "bytes": 1391,
+      "sha256": "f6859cffd91ba1e847b14fda01a914ab8e4b9ce58afe4602c90987c1549257a9"
+    },
+    {
+      "path": "notes/2026-11-12-strong-physical-merit-affine-protocol-r1.json",
+      "bytes": 11390,
+      "sha256": "5a6ae3d040779edd3ff51841981ad08efb8a13b842b6a3df83734148594dae8a"
+    }
+  ],
+  "total_bytes": 426466,
+  "active_session": 20793,
+  "active_output_prefix_excluded": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r3 except immutable command-plan and finished prepare-r1 files",
+  "original_merit_changed": true,
+  "original_equations_and_final_physical_gates_unchanged": true
+}

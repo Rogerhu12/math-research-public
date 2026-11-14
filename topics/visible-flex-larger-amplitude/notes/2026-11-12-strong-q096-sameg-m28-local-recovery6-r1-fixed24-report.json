@@ -1,0 +1,92 @@
+{
+  "scope": "Freeze an accepted actual design without changing its fields or metric.\n\nThe complete numerical x/y/cubic and physical quintic pieces are reused by\ntheir original hashes. Only the three design offsets are removed from p;\ntheir already accepted final physical profile is used by the real Fixed\nfactory. The original collocation RMS and all fixed boundary conditions are\nevaluated again before writing a fixed view. No Newton step, tail worker,\nresampling, or new physical solution is produced. This is a finite-problem\nrepresentation change, not an infinite closure or a refinement result.\n",
+  "nonlinear_solve_run": false,
+  "tail_worker_started": false,
+  "identity_check_only": false,
+  "complete_H_bitwise_equal": true,
+  "raw_x_y_cubic_unchanged": true,
+  "physical_quintics_unchanged": true,
+  "all_core_coefficients_unchanged": true,
+  "gauge_unchanged": true,
+  "original_numerical_reference_unchanged": true,
+  "eight_physical_data_unchanged": true,
+  "original_parameter_count": 27,
+  "fixed_parameter_count": 24,
+  "rms_max": 9.989627469854713e-08,
+  "original_rms_max": 9.989627469854713e-08,
+  "rms_array_max_difference": 0.0,
+  "rms_array_bitwise_equal": true,
+  "all_boundary_max": 2.20457847517028e-14,
+  "true_physical_boundary_max": 2.2045784751702799e-16,
+  "nodes": 2181,
+  "modes": 24,
+  "angular": 768,
+  "source_sha256": {
+    "/tmp/visible-flex-larger-20261113-recovery6-r1/work/runtime/topics/visible-flex-larger-amplitude/computations/root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong.json.gz": "e316e8fe2942f49746a858282e32d859ded13efec6530a124a9af4fbd19c116e",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation.json.gz": "5ac3d60123c75756dfdf640a0b2e8f51feb1ff66cee53d75eac5bf46269aaad6",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-tail-response_0003.json.gz": "a9271c95ff453e5731e0db171a3258fb3097bc08b9913afe540483b5217d639a",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/root_actual_fixed_refinement.py": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/strong_actual_augmented_core.py": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-x-000.npy.gz": "fde42714bf28fddb3241406c75c261fa292a1f99afb42651179c9ff56ba22771",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-y-000.npy.gz": "1fdfd46ecf0a04b83cbdf255930816a6ce6b858100cd33b4c730292c24ad79f2",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-p-000.npy.gz": "3c93271c0024fa4d2f30bba93df11f0cf43932e6426d7d496c11a81a1d7df6c7",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-cubic-000.npy.gz": "8f4a6ccdf01bb55b1251ef99d1fe5a453bbc862173c246d153fb57956fcc6b58",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-cubic-001.npy.gz": "f31e1d5cc33ca48e9478dc357b2b79a5d780af166299f765d669eed2994c8174",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-rms-000.npy.gz": "9fc4de4bbc594b1bbc6ba89b603417a8fa613937fd82bbfa59738dc2e7e996c8",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong_coeff_00.npy.gz": "bdbabb95b8af642e743c0b854bb165b9de22ec5ee55f326b9f20a65ed739c037",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong_coeff_01.npy.gz": "5aac465e7d97fa42a27710bf0970e6115dda3470778e4a0991f74b99ab3642cb",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-config.json": "cb941ad34696f9c7c97c18543f577c2c1b1c3e04ad2c0e6238982413aa4c3851"
+  },
+  "fixed_factory_provenance": {
+    "fixed_reference": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong.json.gz",
+    "fixed_reference_sha256": "e316e8fe2942f49746a858282e32d859ded13efec6530a124a9af4fbd19c116e",
+    "physical_profile_sha256": "80138a527da61209078fb232405e15d2d2f30e31725f47e459e46b2eb778fc62",
+    "physical_tail_parameters_sha256": "20a7621928d095a30825ddfd147311a186859c200604feaf5186c5734f8b74c8",
+    "physical_cut_sha256": "bfd7667d03eeae4ac7fee31c7ecffd5d798592311938d0f27631db5562136427",
+    "chart_reference_coefficients": [
+      0.09,
+      -0.006363961030678927
+    ],
+    "chart_reference_frequencies": [
+      2,
+      4
+    ],
+    "gauge_amplitude": 0.09,
+    "physical_length": 3.1496673569886275,
+    "port_verification": {
+      "kind": "identical_file",
+      "sha256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100"
+    },
+    "adapter_sha256": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "radial_batching_sha256": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "radial_batch_size": 48,
+    "scope": "Physical metric and reference chart frozen. Core coefficients are solved fields, not changed design controls. Finite tail only."
+  },
+  "counters": {
+    "raw_restorations": 1,
+    "residual_checks": 1,
+    "tail_start_attempts": 0
+  },
+  "seconds": 34.07957498000178,
+  "output": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24.json.gz",
+    "sha256": "144dc8f8fc3698414c066a5529f70b4c0a4701b2b6fd67598ab6a6dcd1439595",
+    "bytes": 74730
+  },
+  "raw_output": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-raw-collocation.json.gz",
+    "sha256": "baeb4cfe7ba1d9c74e3d51d0aa6b4cfe758dd40c1710daa8c339e71214ec16ea",
+    "bytes": 6884,
+    "nodes": 2181,
+    "solver_success": true,
+    "physical_surface": false
+  }
+}

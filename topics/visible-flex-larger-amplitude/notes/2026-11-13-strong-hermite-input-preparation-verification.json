@@ -1,0 +1,57 @@
+{
+  "scope": "Fresh input-only Hermite warm generator preparation and replay, no new nonlinear solve. The unmodified production main accepts its explicitly unaccepted complete warm state through all original input checks. The live q122 job continues with its original linear guess.",
+  "created_utc": "2026-11-13T11:35:37.438011+00:00",
+  "production_prepare": {
+    "exitcode": 0,
+    "wall_seconds": 12.47290301322937,
+    "peak_rss_kib": 119940,
+    "unchanged_actual_target_and_neutral_profile": true,
+    "parameters": 31,
+    "boundary_equations": 116,
+    "explicit_prior_state_not_accepted": true,
+    "source": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-production-prepare-r1-actual-three-control-adapter.json",
+    "sha256": "828b5d5a29f26cf80e21fe78b49292d6157672b1615fc5a1dacfa8883965ada3"
+  },
+  "generator": {
+    "exitcode": 0,
+    "wall_seconds": 5.463059425354004,
+    "peak_rss_kib": 85004,
+    "identity_and_complete_data_checks": 113,
+    "applicability": {
+      "alpha": 2.000000000000006,
+      "declared_alpha_interval": [
+        -1.0,
+        2.0
+      ],
+      "alpha_comparison_roundoff_slack": 2e-12,
+      "orthogonal_relative_l2": 7.34086456437689e-18,
+      "frequency_squared_orthogonal_relative_l2": 2.9362887983669734e-17,
+      "declared_orthogonal_limit": 1e-08,
+      "mode": "near_collinear_cubic",
+      "previous_delta_H_max": 1.6338825497698096e-06,
+      "target_delta_H_max": 3.2677650995396294e-06,
+      "existing_collinear_diagnostic_does_not_validate_new_projected_direction": false,
+      "practical_initial_guess_applicability_checks_only": true
+    }
+  },
+  "preparation_corrections": [
+    {
+      "attempt": "r1",
+      "exitcode": 1,
+      "worker_started": false,
+      "new_warm_written": false,
+      "reason": "Canonical typed-identity numbers decode as floats. NumPy indices now require and verify integral values before conversion; numeric index values do not change."
+    },
+    {
+      "attempt": "r2",
+      "exitcode": 1,
+      "worker_started": false,
+      "new_warm_written": false,
+      "reason": "The original frozen worker records its extra predictor equivalence probe only for call===1, so a final call3 legitimately has null. The v3 input reader follows this exact original rule; every full base/flow bit-roundtrip and complete actual audited packet/source binding remains mandatory. An available extra probe must have passed; null is explicitly reported rather than called a pass."
+    }
+  ],
+  "production_source_and_all_MJS_unchanged": true,
+  "original_nonlinear_acceptance_gates_unchanged": true,
+  "projected_frontload_direction_not_validated_by_collinear_replay": true,
+  "newton_iteration_improvement_claim": false
+}

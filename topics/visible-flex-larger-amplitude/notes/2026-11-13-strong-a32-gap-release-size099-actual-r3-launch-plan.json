@@ -1,0 +1,177 @@
+{
+  "schema": "native-actual-same-H-tail-trial-recovery-launch-v1",
+  "created_utc": "2026-11-13T19:48:15.039809+00:00",
+  "cwd": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_full_tangent_initial_laws_anchor_actual_bvp.py",
+    "--actual-reference",
+    "notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+    "--actual-reference-raw",
+    "notes/2026-11-13-strong-q126-m32-fixed-view-r1-raw-collocation.json.gz",
+    "--actual-reference-tail",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz",
+    "--target-core",
+    "0.12607986673518667",
+    "-0.01081607525214568",
+    "-0.0007131189296221398",
+    "--frozen-reference-ready",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+    "--frozen-calibration-ledger",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--source-topic",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--tail-config",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+    "--out-prefix",
+    "notes/2026-11-13-strong-a32-gap-release-size099-actual-r3",
+    "--radial-batch-size",
+    "48",
+    "--collocation-batch-size",
+    "24",
+    "--point-cache-limit",
+    "8",
+    "--node-heap",
+    "768",
+    "--node-young-semi-space",
+    "16",
+    "--max-nodes",
+    "4000",
+    "--stage-cache-directory",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-stage-cache",
+    "--prefix-cache-directory",
+    "/workspace/scratch/d1aa462cfc02/strong-work/a32-gap-release-size099-prefix-cache-r3",
+    "--prefix-cache-budget-MiB",
+    "256",
+    "--disk-temporary-parent",
+    "/workspace/scratch/d1aa462cfc02/strong-work",
+    "--response-data",
+    "notes/2026-11-13-strong-q126-m32-nine-control-response-r1.json",
+    "--neutral-control-step",
+    "vu=-0.0008734078437981",
+    "--neutral-control-step",
+    "descending_turn_curvature=0.0011795651192600648",
+    "--neutral-control-step",
+    "initial_speed_frontload=0.064",
+    "--neutral-control-step",
+    "vd=0.002",
+    "--neutral-control-step",
+    "descending_sync_curvature=-0.5",
+    "--tail-warm-checkpoint",
+    "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-checkpoint.json.gz"
+  ],
+  "source_preparation_plan": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-size099-native-prepare-r1-launch-plan.json",
+  "source_preparation_plan_sha256": "a72324356c5ae89c46ddcf712b8da6b2b4555622522e9b36fcb551a4f00779b0",
+  "source_sha256": {
+    "computations/strong_full_tangent_initial_laws_anchor_actual_bvp.py": "d151cb67c2dbfbadd5ba35a9f386c5e15ff98f056df45d89677b989cd887f651",
+    "computations/strong_foreground_resource_run.py": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6"
+  },
+  "input_sha256": {
+    "notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz": "cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa",
+    "notes/2026-11-13-strong-q126-m32-fixed-view-r1-raw-collocation.json.gz": "f52a6d63eb61daaf13c059b8115a3532f563e1d165f4af9b71670afd7c1bf50d",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz": "018d19c6ca8c27acc5cc1dde6d396ee783e34ae25e5b525158c5bb37086520d9",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-accepted-ready-extracted.json": "621b71f00bec98ccf7cb90e465c613b53fdba2adc6a79c9d974797d9d59c6ec0",
+    "notes/2026-11-13-strong-q126-m32-nine-control-response-r1.json": "1b4349d08079b77314329f41ef70546cdd61b4ebaa922f3cd6fc935c0f3cf34d",
+    "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-checkpoint.json.gz": "f64ef5570e68f949d99606d8b652b882fd81244a1ae7bd60c60b099f551ec60a"
+  },
+  "completed_same_candidate_inlet_and_fullwarm": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/gap-release-tail2-size099-exact-warm-r2-screen.json": "c782a9bda980b0a31443be14d24444b695b246f58390d8f3bf4932e26807d8fa",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/gap-release-tail2-size099-exact-warm-r2-resource.json": "38df0540f3ffdfed9175f32e30a6ba3c287f39fcd58b66b6661cbea67080dc13",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/gap-release-tail2-size099-exact-warm-r2-plan.json": "05a0b5d7ae79cc7b2511063a5bf94e31ca6eddaea5fa740385daf90cbd342ab7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/gap-release-tail2-size099-inlet-data-r2-report.json": "486e6b7653e0aaa693f5097d2104abe9673f89752b6a10e83ea0438651028b4e"
+  },
+  "full32_warm_core_float64le_sha256": "256d7ef559919a9daf47fe8383b9dfab034dd7a80770e79415a37696b3881d14",
+  "exact_target_core_cli": [
+    "0.12607986673518667",
+    "-0.01081607525214568",
+    "-0.0007131189296221398"
+  ],
+  "complete_physical_steps": {
+    "actual_q1": 7.986869978841203e-05,
+    "actual_q4": -0.0015595227894595678,
+    "actual_c6": -6.808867965026208e-05,
+    "vu": -0.0008734078437981,
+    "descending_turn_curvature": 0.0011795651192600648,
+    "start_acceleration": 0.0,
+    "initial_speed_frontload": 0.064,
+    "vd": 0.002,
+    "descending_sync_curvature": -0.5
+  },
+  "actual_warm_budget": {
+    "kappa_sample": 8.279007052446111,
+    "size_2maxnorm_sample": 3.938532664305123,
+    "kappa_times_size_sample": 32.607139704071486,
+    "axis_core_gap": 0.2506381130462593,
+    "gap_over_size": 0.06363743414337775,
+    "R7": 0.23644261112015857,
+    "scope": "Actual complete finite warm geometry only; not a new BVP or closed-surface certificate."
+  },
+  "source_production_d151_original_acceptance_gates_unchanged": true,
+  "initial_fullflow_is_original_linear_tangent_guess_only": false,
+  "Hermite_seed_used": false,
+  "Hermite_not_used_reason": "Three saved complete32H vectors give projection alpha3.6268554846826118 outside originalv3 interval[-1,2]; no scope extension or seed.",
+  "execution_environment_overrides": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "own_large_job_count_before_launch": 0,
+  "disk_free_before_launch": 4725006336,
+  "expected_same_mesh_original_J_and_factor_bytes": 1299537712,
+  "future_final_acceptance_not_claimed": true,
+  "all_original_same_finite_tail_physical_numerical_parameters_preserved_except_existing_IO_repointing": true,
+  "previous_failure_manifest": {
+    "file": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-H-guard-failure-manifest-r1.json",
+    "sha256": "35e719786bd1a7aab579b74b36501050a7719f0cb149e8ed3ef14bd1f4a8c2c3"
+  },
+  "invocation_correction": {
+    "removed_optional_arguments": [
+      [
+        "--initial-audited-tail-packet",
+        "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz"
+      ],
+      [
+        "--initial-audited-tail-ready",
+        "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-accepted-ready-extracted.json"
+      ]
+    ],
+    "same_H_recovery_guard_source_unchanged": true,
+    "native_actual_reference_tail_is_initial_guess_only": true,
+    "source_SHA_unchanged": true,
+    "every_new_H_requires_original_live_tail_solve": true,
+    "previous_live_work_zero": true,
+    "same_successful_dispatch_as_q126_A_launch": true
+  },
+  "same_H_recovery": {
+    "previous_owned_resource": {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-resource.json",
+      "sha256": "ed3bd6753e3f8e5b7fa3608de15c3ef1c41933f1da17f899a39fd48531ee3e71"
+    },
+    "previous_launch": {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-launch-plan.json",
+      "sha256": "b8a211863373616f352cf5010576704194b7d4d400305c03ce610948bae5b910"
+    },
+    "complete_trial3": {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-checkpoint.json.gz",
+      "sha256": "f64ef5570e68f949d99606d8b652b882fd81244a1ae7bd60c60b099f551ec60a"
+    },
+    "original_trial_norm": 8.576952388440954e-11,
+    "original_tail_tolerance": 2e-09,
+    "original_failure": "ENOSPC while storing final complete-J stage271",
+    "removed_prior_fullflow_manifest": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz",
+    "prior_A_manifest_not_relabelled": true,
+    "complete_H_guard_original_unchanged": true,
+    "original_same_H_exact_raw_seed_only": true,
+    "full_new_H_J_required": true,
+    "original_exact_stage_cache_unchanged": true,
+    "math_parameters_unchanged": true,
+    "completed_Newton_steps_not_repeated": true,
+    "whole_BVP_not_accepted": true
+  }
+}

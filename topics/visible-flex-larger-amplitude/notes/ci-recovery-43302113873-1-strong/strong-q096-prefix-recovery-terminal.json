@@ -1,0 +1,26 @@
+{
+  "name": "strong-q096-prefix-recovery",
+  "argv": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "topics/visible-flex-larger-amplitude/computations/strong_ci_q096_recovery.py",
+    "--repo",
+    "/home/runner/work/math-research/math-research",
+    "--work-root",
+    "/home/runner/work/_temp",
+    "--run-id",
+    "actions-43302113873-1-strong"
+  ],
+  "cwd": "/home/runner/work/math-research/math-research",
+  "started_utc": "2026-11-12T20:39:06.387424+00:00",
+  "ended_utc": "2026-11-12T20:47:54.619740+00:00",
+  "wall_seconds": 528.232341799,
+  "wait4_status": 0,
+  "exit_code": 0,
+  "signal": null,
+  "maxrss_kib": 400668,
+  "utime": 640.120925,
+  "stime": 5.410096,
+  "log": "topics/visible-flex-larger-amplitude/notes/ci-recovery-43302113873-1-strong/strong-q096-prefix-recovery.log",
+  "log_sha256": "7ebfb0ee892458dfd69c9a9839d08112109a2f3e9fa166f8786d879c7bd44039"
+}

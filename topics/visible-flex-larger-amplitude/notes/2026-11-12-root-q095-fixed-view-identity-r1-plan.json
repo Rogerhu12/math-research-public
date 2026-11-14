@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-12T11:25:49.104130+00:00",
+  "status": "prepared-not-run",
+  "scope": "Verify the same accepted q095 raw state through the real Fixed/Actual factory, including unchanged RMS and all BC; no Newton/Jacobian/Node or new geometry.",
+  "source_sha256": {
+    "computations/root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b"
+  },
+  "command": [
+    "python",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-12-root-q095-fixed-view-identity-r1-resource.json",
+    "--",
+    "python",
+    "computations/root_actual_freeze_design_view.py",
+    "--design-checkpoint",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz",
+    "--design-raw",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz",
+    "--design-tail",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0003.json.gz",
+    "--fixed-view-prefix",
+    "notes/2026-11-12-root-q095-fixed-view-identity-r1",
+    "--allow-fixed-input-for-identity-check",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--tail-config",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-config.json"
+  ],
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

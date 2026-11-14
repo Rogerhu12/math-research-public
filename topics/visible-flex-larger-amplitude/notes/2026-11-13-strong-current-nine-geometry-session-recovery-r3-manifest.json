@@ -1,0 +1,32 @@
+{
+  "schema": "current-M32-nine-field-second-interruption-recovery-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "notes/2026-11-13-strong-current-nine-geometry-session-recovery-r3-plan.json",
+      "sha256": "4808d3cacb6c522f866d4e50ae86ad1fc409f6c39673eabc9a2bc8b1b0013ef7",
+      "bytes": 84089,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/geometry-plan-recovery-r3.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-nine-geometry-session-recovery-r3-receipt.json",
+      "sha256": "2ca4abd0f66eee6c981ff5ae8fad942fcd17d427328ff363401945610aeddfd8",
+      "bytes": 216444,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/geometry-tool-session-interruption-recovery-r3.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-nine-geometry-session-recovery-r3-note.md",
+      "sha256": "aced114111f247bc0a7c5e52526159f4617d1fd45640166da0cb7427e4928889",
+      "bytes": 1203
+    }
+  ],
+  "total_bytes": 301736,
+  "frozen_recovery_source": {
+    "path": "computations/recover_interrupted_current_geometry_plan.py",
+    "sha256": "38cc02e3312cd2943115fe935dea4dded1799b8c954d2627a5d5a8454fd3b96a"
+  },
+  "completed_fields_reused": 14,
+  "unfinished_fields_restarted": 5,
+  "original_partial_files_preserved": true,
+  "no_child_exit_inferred_from_unknown_tool_session": true
+}

@@ -1,0 +1,83 @@
+{
+  "status": "Authorized streaming run prepared with an explicit120MiB own-process RSS stop",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "command_argv": [
+    "python",
+    "computations/tail_middle_frequency_split.py",
+    "--density",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+    "--positive",
+    "notes/2026-11-12-closure-positive-highband-38.json.gz",
+    "--subhead",
+    "notes/2026-11-12-closure-middle-high-subhead24.json.gz",
+    "--local",
+    "notes/2026-11-12-tail-r33-plateau2-middle-local-homogeneous.json.gz",
+    "--hybrid",
+    "notes/2026-11-12-tail-r33-plateau2-middle-hybrid-density.json.gz",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--extra-positive",
+    "notes/2026-11-12-closure-middle-high-subhead16to23.json.gz",
+    "--wide-low",
+    "notes/2026-11-12-tail-r33-plateau2-middle-wide-low-density.json.gz",
+    "--original-middle",
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz",
+    "--reference-high",
+    "notes/2026-11-12-tail-r33-plateau2-quadratic-high-recovered-r1.json",
+    "--z-log2",
+    "-2200",
+    "--out",
+    "notes/2026-11-12-tail-r50-split-middle-r1.json.gz",
+    "--resource-out",
+    "notes/2026-11-12-tail-r50-split-middle-r1-resource.json",
+    "--rss-limit-mib",
+    "120"
+  ],
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "input_hashes": {
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-closure-positive-highband-38.json.gz": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600",
+    "notes/2026-11-12-closure-middle-high-subhead24.json.gz": "33acb8d33185b539fef61bbcf91b9d46422625e50fef5101039b858a4e603948",
+    "notes/2026-11-12-tail-r33-plateau2-middle-local-homogeneous.json.gz": "876c8ca3c40ec5b567af2814409f6ecb9be470a20c6438caaf5c7c074e270e67",
+    "notes/2026-11-12-tail-r33-plateau2-middle-hybrid-density.json.gz": "b4ba7bb332c4845cef31da7363169cb85bb6197a93c8f17f628707e023eeb5b3",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-closure-middle-high-subhead16to23.json.gz": "ae75b84ff4e9a55e5ba538a3651c71d0e3dcd19344aac35249ca553d3438b03b",
+    "notes/2026-11-12-tail-r33-plateau2-middle-wide-low-density.json.gz": "4c79356c3791dd491fbf5c4222a0051ab0046923718f1f26ba1be09eef1fd089",
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz": "07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6",
+    "notes/2026-11-12-tail-r33-plateau2-quadratic-high-recovered-r1.json": "51496d1d7307ea491a4e8a9aef22756745bf6c9ca92f8fc9ab1b364deae41e27"
+  },
+  "source_hashes": {
+    "computations/tail_middle_frequency_split.py": "4dc17ec37763d533a2e7003df94698ab0d3b7ea544efb93569134f12c5f962d6",
+    "computations/tail_r33_middle_causal_box.py": "9b9c5b5fd0c76a853dc07aa6c4f5ceaea54594e445e961320c7debf3bd867346",
+    "computations/closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390"
+  },
+  "no_new_ODE_or_source_integrals": true,
+  "same_real_metric_and_continuous_strip": true,
+  "actual_disjoint_supports": {
+    "near": [
+      94,
+      184
+    ],
+    "rest": [
+      186,
+      8190
+    ]
+  },
+  "shared_saved_upper": [
+    130,
+    192
+  ],
+  "original_triangle_identity_count_expected": 22791,
+  "original_pure_and_far_identity_expected": "bitwise before output rounding",
+  "output_rounding": "32bit upward dyadic per Gamma, relative inflation<2^-31; exact lower/upper JSON endpoint schema",
+  "memory_design": [
+    "Stream each source cell, source band, original triangle row and output row",
+    "Retain only exact numerical inputs used by the original propagation",
+    "Do not retain an entire uncompressed triangle or full export dictionary"
+  ],
+  "peak_RSS_measured": false,
+  "static_patch_anchors": 9
+}

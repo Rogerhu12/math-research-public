@@ -1,0 +1,53 @@
+{
+  "schema": "root-R161-complete-actual-newwidth-budget-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R161-R161-physical2m20-r1.json.gz",
+      "sha256": "69f32b303d106188e708ad654ea6412730e03c85192fa4a8c27bad640eecfbe4",
+      "bytes": 69450
+    },
+    {
+      "path": "notes/2026-11-13-root-R161-R161-physical2m20-r1-resource.json",
+      "sha256": "9cebd3ec2ebb0b2f97cf393d566f094a5078a9fb135bfc8dae285cefd2672f41",
+      "bytes": 997
+    },
+    {
+      "path": "notes/2026-11-13-root-R161-R161-physical2m20-r1.log",
+      "sha256": "b6eeec049bec9eb1634e24c69dad1608379d9a35a4fba3dc12fb11cf226ac0b8",
+      "bytes": 4709
+    },
+    {
+      "path": "notes/2026-11-13-root-R161-input-manifest.json",
+      "sha256": "8c2e4cb55246adcd5a1639f161b5eb0d9c85f53d9348db8bc364249da8952958",
+      "bytes": 1719
+    },
+    {
+      "path": "notes/2026-11-13-root-R161-launch-plan.json",
+      "sha256": "d3411be2993df42c83e3d9c52df6d1de40bbffd0c27d2d6e892b2a13c4276167",
+      "bytes": 621
+    },
+    {
+      "path": "computations/root_R161_repaid_physical_ball_nonlow.py",
+      "sha256": "47c8f6b7f3a3dbd9aed9185c278e4044fb7c8c2e23d0de721457372c124d3f15",
+      "bytes": 9032
+    },
+    {
+      "path": "notes/2026-11-13-root-R161-R116_reference.md",
+      "sha256": "c49b631b4b3f33deff5f5683f61ecba73a3103e7f92f4d0641ecaf36a752873f",
+      "bytes": 11398
+    },
+    {
+      "path": "results/R161-actual-fixed-LF-newwidth-budget.md",
+      "sha256": "79cb9e17bf16d5b72ac437ab21b8536e1b7a18c6ae9f36772656f33b9c74b06f",
+      "bytes": 1222
+    }
+  ],
+  "primary_sha256": "69f32b303d106188e708ad654ea6412730e03c85192fa4a8c27bad640eecfbe4",
+  "formal_child_exit": 0,
+  "all_mathematical_gates_pass": false,
+  "failure": {
+    "block": 21,
+    "reason": "nonlow_positive_metric_failed"
+  },
+  "proof_scope": "Actual full positive budget failure; never a PDE impossibility certificate."
+}

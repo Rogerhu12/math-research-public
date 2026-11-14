@@ -1,0 +1,210 @@
+{
+  "scope": "Small owned-process fixtures for durable wait4/exit/signal bookkeeping.",
+  "passed": true,
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_durable_resource_run.py": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_durable_resource_check.py": "7c376ebf5dea12c8ff010ce5757a28c6df62a058d5534dade8ef6994b8432fcf"
+  },
+  "cases": [
+    {
+      "name": "normal",
+      "passed": true,
+      "resource": {
+        "scope": "Own one explicit command and persist its actual wait4 result and heartbeats.\n\nThis supervisor may be launched in a separate session so losing a tool session\ndoes not erase its ownership record. It never restarts a command or changes its\narguments, numerical options, environment, or acceptance criteria. Received\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\nheartbeat or a missing PID in another namespace is never an exit observation.\n",
+        "task_prefix": "fixture-normal",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-c",
+          "import sys;sys.exit(0)"
+        ],
+        "started_utc": "2026-11-12T19:10:12.441269+00:00",
+        "finished_utc": "2026-11-12T19:10:12.945232+00:00",
+        "wall_seconds": 0.5159518469990871,
+        "exitcode": 0,
+        "termination_signal": null,
+        "wait4_observed": true,
+        "wait_status": 0,
+        "peak_rss_kib": 11520,
+        "user_seconds": 0.0047929999999999995,
+        "system_seconds": 0.014943,
+        "resource_wrapper_sha256": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf",
+        "received_supervisor_signals": [],
+        "owned_child_pid": 5,
+        "supervisor_pid": 4,
+        "supervisor_pid_namespace": "pid:[4026532426]",
+        "automatic_restarts": 0
+      },
+      "ownership": {
+        "scope": "Own one explicit command and persist its actual wait4 result and heartbeats.\n\nThis supervisor may be launched in a separate session so losing a tool session\ndoes not erase its ownership record. It never restarts a command or changes its\narguments, numerical options, environment, or acceptance criteria. Received\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\nheartbeat or a missing PID in another namespace is never an exit observation.\n",
+        "created_utc": "2026-11-12T19:10:12.429315+00:00",
+        "task_prefix": "fixture-normal",
+        "supervisor_pid": 4,
+        "supervisor_pid_namespace": "pid:[4026532426]",
+        "cwd": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-c",
+          "import sys;sys.exit(0)"
+        ],
+        "resource_wrapper_sha256": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf",
+        "resource_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/normal.json",
+        "heartbeat_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/normal-heartbeat.json",
+        "owned_child_pid": 5,
+        "status": "spawned",
+        "resource_limits_modified": false,
+        "automatic_restarts": 0,
+        "owned_child_process_group": 5,
+        "spawned_utc": "2026-11-12T19:10:12.441269+00:00"
+      },
+      "final_heartbeat": {
+        "task_prefix": "fixture-normal",
+        "utc": "2026-11-12T19:10:12.945453+00:00",
+        "status": "completed-by-owned-wait4",
+        "resource_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/normal.json",
+        "exitcode": 0,
+        "termination_signal": null
+      },
+      "supervisor_returncode": 0,
+      "stdout": "{\"event\": \"durable_child_exit\", \"scope\": \"Own one explicit command and persist its actual wait4 result and heartbeats.\\n\\nThis supervisor may be launched in a separate session so losing a tool session\\ndoes not erase its ownership record. It never restarts a command or changes its\\narguments, numerical options, environment, or acceptance criteria. Received\\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\\nheartbeat or a missing PID in another namespace is never an exit observation.\\n\", \"task_prefix\": \"fixture-normal\", \"command\": [\"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python\", \"-c\", \"import sys;sys.exit(0)\"], \"started_utc\": \"2026-11-12T19:10:12.441269+00:00\", \"finished_utc\": \"2026-11-12T19:10:12.945232+00:00\", \"wall_seconds\": 0.5159518469990871, \"exitcode\": 0, \"termination_signal\": null, \"wait4_observed\": true, \"wait_status\": 0, \"peak_rss_kib\": 11520, \"user_seconds\": 0.0047929999999999995, \"system_seconds\": 0.014943, \"resource_wrapper_sha256\": \"c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf\", \"received_supervisor_signals\": [], \"owned_child_pid\": 5, \"supervisor_pid\": 4, \"supervisor_pid_namespace\": \"pid:[4026532426]\", \"automatic_restarts\": 0}\n",
+      "stderr": "",
+      "fixture_wall_seconds": 0.7686431589972926
+    },
+    {
+      "name": "nonzero",
+      "passed": true,
+      "resource": {
+        "scope": "Own one explicit command and persist its actual wait4 result and heartbeats.\n\nThis supervisor may be launched in a separate session so losing a tool session\ndoes not erase its ownership record. It never restarts a command or changes its\narguments, numerical options, environment, or acceptance criteria. Received\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\nheartbeat or a missing PID in another namespace is never an exit observation.\n",
+        "task_prefix": "fixture-nonzero",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-c",
+          "import sys;sys.exit(7)"
+        ],
+        "started_utc": "2026-11-12T19:10:13.232134+00:00",
+        "finished_utc": "2026-11-12T19:10:13.733160+00:00",
+        "wall_seconds": 0.5096628170031181,
+        "exitcode": 7,
+        "termination_signal": null,
+        "wait4_observed": true,
+        "wait_status": 1792,
+        "peak_rss_kib": 11520,
+        "user_seconds": 0.015271,
+        "system_seconds": 0.0040089999999999995,
+        "resource_wrapper_sha256": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf",
+        "received_supervisor_signals": [],
+        "owned_child_pid": 7,
+        "supervisor_pid": 6,
+        "supervisor_pid_namespace": "pid:[4026532426]",
+        "automatic_restarts": 0
+      },
+      "ownership": {
+        "scope": "Own one explicit command and persist its actual wait4 result and heartbeats.\n\nThis supervisor may be launched in a separate session so losing a tool session\ndoes not erase its ownership record. It never restarts a command or changes its\narguments, numerical options, environment, or acceptance criteria. Received\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\nheartbeat or a missing PID in another namespace is never an exit observation.\n",
+        "created_utc": "2026-11-12T19:10:13.223527+00:00",
+        "task_prefix": "fixture-nonzero",
+        "supervisor_pid": 6,
+        "supervisor_pid_namespace": "pid:[4026532426]",
+        "cwd": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-c",
+          "import sys;sys.exit(7)"
+        ],
+        "resource_wrapper_sha256": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf",
+        "resource_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/nonzero.json",
+        "heartbeat_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/nonzero-heartbeat.json",
+        "owned_child_pid": 7,
+        "status": "spawned",
+        "resource_limits_modified": false,
+        "automatic_restarts": 0,
+        "owned_child_process_group": 7,
+        "spawned_utc": "2026-11-12T19:10:13.232134+00:00"
+      },
+      "final_heartbeat": {
+        "task_prefix": "fixture-nonzero",
+        "utc": "2026-11-12T19:10:13.733571+00:00",
+        "status": "completed-by-owned-wait4",
+        "resource_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/nonzero.json",
+        "exitcode": 7,
+        "termination_signal": null
+      },
+      "supervisor_returncode": 7,
+      "stdout": "{\"event\": \"durable_child_exit\", \"scope\": \"Own one explicit command and persist its actual wait4 result and heartbeats.\\n\\nThis supervisor may be launched in a separate session so losing a tool session\\ndoes not erase its ownership record. It never restarts a command or changes its\\narguments, numerical options, environment, or acceptance criteria. Received\\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\\nheartbeat or a missing PID in another namespace is never an exit observation.\\n\", \"task_prefix\": \"fixture-nonzero\", \"command\": [\"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python\", \"-c\", \"import sys;sys.exit(7)\"], \"started_utc\": \"2026-11-12T19:10:13.232134+00:00\", \"finished_utc\": \"2026-11-12T19:10:13.733160+00:00\", \"wall_seconds\": 0.5096628170031181, \"exitcode\": 7, \"termination_signal\": null, \"wait4_observed\": true, \"wait_status\": 1792, \"peak_rss_kib\": 11520, \"user_seconds\": 0.015271, \"system_seconds\": 0.0040089999999999995, \"resource_wrapper_sha256\": \"c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf\", \"received_supervisor_signals\": [], \"owned_child_pid\": 7, \"supervisor_pid\": 6, \"supervisor_pid_namespace\": \"pid:[4026532426]\", \"automatic_restarts\": 0}\n",
+      "stderr": "",
+      "fixture_wall_seconds": 0.9110642499981623
+    },
+    {
+      "name": "signal",
+      "passed": true,
+      "resource": {
+        "scope": "Own one explicit command and persist its actual wait4 result and heartbeats.\n\nThis supervisor may be launched in a separate session so losing a tool session\ndoes not erase its ownership record. It never restarts a command or changes its\narguments, numerical options, environment, or acceptance criteria. Received\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\nheartbeat or a missing PID in another namespace is never an exit observation.\n",
+        "task_prefix": "fixture-signal",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-c",
+          "import time;time.sleep(30)"
+        ],
+        "started_utc": "2026-11-12T19:10:14.108573+00:00",
+        "finished_utc": "2026-11-12T19:10:14.613246+00:00",
+        "wall_seconds": 0.5113641549978638,
+        "exitcode": -15,
+        "termination_signal": 15,
+        "wait4_observed": true,
+        "wait_status": 15,
+        "peak_rss_kib": 11520,
+        "user_seconds": 0.008308,
+        "system_seconds": 0.0,
+        "resource_wrapper_sha256": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf",
+        "received_supervisor_signals": [
+          {
+            "signal": 15,
+            "utc": "2026-11-12T19:10:14.117157+00:00",
+            "target_owned_group": 9,
+            "forwarded": true
+          }
+        ],
+        "owned_child_pid": 9,
+        "supervisor_pid": 8,
+        "supervisor_pid_namespace": "pid:[4026532426]",
+        "automatic_restarts": 0
+      },
+      "ownership": {
+        "scope": "Own one explicit command and persist its actual wait4 result and heartbeats.\n\nThis supervisor may be launched in a separate session so losing a tool session\ndoes not erase its ownership record. It never restarts a command or changes its\narguments, numerical options, environment, or acceptance criteria. Received\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\nheartbeat or a missing PID in another namespace is never an exit observation.\n",
+        "created_utc": "2026-11-12T19:10:14.101928+00:00",
+        "task_prefix": "fixture-signal",
+        "supervisor_pid": 8,
+        "supervisor_pid_namespace": "pid:[4026532426]",
+        "cwd": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-c",
+          "import time;time.sleep(30)"
+        ],
+        "resource_wrapper_sha256": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf",
+        "resource_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/signal.json",
+        "heartbeat_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/signal-heartbeat.json",
+        "owned_child_pid": 9,
+        "status": "spawned",
+        "resource_limits_modified": false,
+        "automatic_restarts": 0,
+        "owned_child_process_group": 9,
+        "spawned_utc": "2026-11-12T19:10:14.108573+00:00"
+      },
+      "final_heartbeat": {
+        "task_prefix": "fixture-signal",
+        "utc": "2026-11-12T19:10:14.613460+00:00",
+        "status": "completed-by-owned-wait4",
+        "resource_file": "/tmp/strong-owned-resource-fixture-m9c9knx6/signal.json",
+        "exitcode": -15,
+        "termination_signal": 15
+      },
+      "supervisor_returncode": 143,
+      "stdout": "{\"event\": \"durable_child_exit\", \"scope\": \"Own one explicit command and persist its actual wait4 result and heartbeats.\\n\\nThis supervisor may be launched in a separate session so losing a tool session\\ndoes not erase its ownership record. It never restarts a command or changes its\\narguments, numerical options, environment, or acceptance criteria. Received\\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\\nheartbeat or a missing PID in another namespace is never an exit observation.\\n\", \"task_prefix\": \"fixture-signal\", \"command\": [\"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python\", \"-c\", \"import time;time.sleep(30)\"], \"started_utc\": \"2026-11-12T19:10:14.108573+00:00\", \"finished_utc\": \"2026-11-12T19:10:14.613246+00:00\", \"wall_seconds\": 0.5113641549978638, \"exitcode\": -15, \"termination_signal\": 15, \"wait4_observed\": true, \"wait_status\": 15, \"peak_rss_kib\": 11520, \"user_seconds\": 0.008308, \"system_seconds\": 0.0, \"resource_wrapper_sha256\": \"c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf\", \"received_supervisor_signals\": [{\"signal\": 15, \"utc\": \"2026-11-12T19:10:14.117157+00:00\", \"target_owned_group\": 9, \"forwarded\": true}], \"owned_child_pid\": 9, \"supervisor_pid\": 8, \"supervisor_pid_namespace\": \"pid:[4026532426]\", \"automatic_restarts\": 0}\n",
+      "stderr": "",
+      "fixture_wall_seconds": 0.7260338900014176
+    }
+  ],
+  "physical_Flow_or_RHS_loaded": false,
+  "Node_processes_started": 0,
+  "BVPs_solved": 0,
+  "prior_unknown_job_exit_not_inferred": true
+}

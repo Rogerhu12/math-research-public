@@ -1,0 +1,37 @@
+{
+  "schema": "prepared-source-coverage-correction-v2",
+  "date_utc": "2026-11-13",
+  "status": "Static correction only; neither source version has executed or been AST checked.",
+  "original_summary": {
+    "path": "notes/2026-11-12-root-linear-centre-local-restored-r1-summary.json",
+    "bytes": 58473,
+    "sha256": "94fb941354dbb4769cb7ce80d5f7fd14eed6bdbce893842881c5c949c460288a",
+    "source_sha256": "306b2bc0c49635d731f3bbe91653310f2b2ecba19bcb7437f8ef932f37a5d75b",
+    "groups": 18,
+    "chunks": 98,
+    "sum_group_panels": 10793,
+    "sum_chunk_panels": 10793,
+    "sum_group_subpanels": 10933
+  },
+  "finding": "The stored field rows are whole original-material panel enclosures.10933 counts the already-certified Green profile subpanels used to enclose those10793 rows, not10933 independent field source rows.",
+  "old_source": {
+    "path": "computations/root_outer_fixed_centre_low46_source.py",
+    "sha256": "746a29ed3ea33cc561a809df129e7e028bd4ce56b08bad2ec867e63f579bf8d0",
+    "status": "Prepared-only v1 retained; its coverage gate would incorrectly compare source row count to underlying profile count."
+  },
+  "new_source": {
+    "path": "topics/visible-flex-larger-amplitude/computations/root_outer_fixed_centre_low46_source_v2.py",
+    "blob": "bc3e8d81b6e24bc3e90f10af38cfafc350b91e6e",
+    "sha256": "b42689bfa29c4a9dbb8ac235fde57f2a3eba4f7172e2ddf83c21f866895898e3",
+    "bytes": 15131
+  },
+  "changes": "Require each group row count to equal original g.panels, total source rows10793 and underlying profile provenance10933 independently. No Laurent, mean, inverse, source identity, input field or arithmetic formula changed.",
+  "execution": {
+    "python_AST": false,
+    "Arb": false,
+    "new_ODE": false,
+    "new_source_integral": false,
+    "scientific_gates": false
+  },
+  "next": "Use v2 with the exact original summary SHA above. Keep all whole original source rows, then refine them by intersection with the actual signed geometry panels."
+}

@@ -1,0 +1,65 @@
+{
+  "name": "actual_q1-plus",
+  "started_utc": "2026-11-13T08:06:34.088208+00:00",
+  "reused_existing_complete_case": false,
+  "process_returncode": 0,
+  "exitcode": 0,
+  "complete_finite_field": true,
+  "shape": [
+    3383,
+    384,
+    3
+  ],
+  "report_sha256": "68949ea0fda06cb148c225387878c5fcc40bbfd77c808d2d8d6bc45598480ab7",
+  "resource_sha256": "ffcefd3691e77938df2edfb2d352439781f93e0a28bae5175bafe364be0a8e0e",
+  "field_manifest_sha256": "ff25b6a696633f7169e207433c1a09e85242b32b476664fe53547e67b1e0d6f9",
+  "chunks": [
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-actual_q1-plus-field-part000.npy.gz",
+      "sha256": "792eca2b22d4df0b187aaae4d2390826376252d6b5ba24a104b8e30081b7cb9d",
+      "bytes": 1615676
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-actual_q1-plus-field-part001.npy.gz",
+      "sha256": "e330ea8a3ee43235af3d18327100f3eae0ab9b3ec9c1824ec62ad7e870d929fa",
+      "bytes": 1573315
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-actual_q1-plus-field-part002.npy.gz",
+      "sha256": "4c16b19dc51b0f28302d60992894077d16a4059b96e18360207afdec3566e3b0",
+      "bytes": 1582809
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-actual_q1-plus-field-part003.npy.gz",
+      "sha256": "6a42cdbadbb51b4692b47e4f22a70c063c9f73267e705812b47db343c89749e1",
+      "bytes": 1593283
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-actual_q1-plus-field-part004.npy.gz",
+      "sha256": "ce23f8621961f1bee6a44fd2d4068986038b3a254afc13063d6c6fdf5fd983f0",
+      "bytes": 1518632
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-actual_q1-plus-field-part005.npy.gz",
+      "sha256": "cb446a0cd62b99231955c7d6857f74049b99ca56a5acb1e76d6ff9b1fa0aa7cd",
+      "bytes": 1424778
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-actual_q1-plus-field-part006.npy.gz",
+      "sha256": "61c3469d5d8f5dc16f4277aa59e3919c05b7f905099bc9f234bb77a509af682c",
+      "bytes": 1385168
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-actual_q1-plus-field-part007.npy.gz",
+      "sha256": "8d91580bb213864b3ac1134fef03297c2f1f472dda430b2ffac90c224b602c3a",
+      "bytes": 979594
+    }
+  ],
+  "kappa_abs_max_sample": 8.187916947199476,
+  "twice_norm_max_sample": 3.9223368362181072,
+  "height_abs_max_sample": 1.9330925781615345,
+  "peak_rss_kib": 169348,
+  "wall_seconds": 62.59961557388306,
+  "accepted_nonlinear_solution": false,
+  "continuous_geometry_certified": false
+}

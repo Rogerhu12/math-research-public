@@ -1,0 +1,640 @@
+{
+  "scope": "Background-only enclosing-ball screen after changing the initial speed law.\n\nThe accepted physical profile and its original provider determine every later\npiece, including the bridge.  Only the first piece is replaced by the explicit\nradius-preserving pulse from strong_initial_speed_pulse_budget.py.  No Flow,\nRHS, Jac, BVP, Node worker, actual flexible field, tail, or cap is evaluated.\nThe sampled background envelope and its unit-speed sampling pad do not include\nan interval enclosure of the provider's quadrature error.\n",
+  "source_sha256_at_start": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_initial_speed_pulse_envelope.py": "807d11bc7c3aa700609466cf00360d786967db8fff5c61112191fbe974be8b2b",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+    "notes/2026-11-12-strong-initial-speed-pulse-budget-r1.json": "210d8e62fab2b3d24861d8b8bd86bf05fe6ad502e2a1e230479f64359421fd79",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_angle_boost.py": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c"
+  },
+  "reference_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.16134505278447636,
+    "vu": 0.32,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8644270801836136,
+    "boost_length": 0.12448680155192346,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.75,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "physical_cut": {
+    "radius": 0.30000000000000004,
+    "backgroundSlope": 0.08000000000000027,
+    "backgroundSecond": -1.866666666666673,
+    "E": 1.0064,
+    "Ep": -0.2986666666666687,
+    "_prefix_bridge": {
+      "kind": "finite_neck_terminal_v1",
+      "radius": 0.35,
+      "speed": 0.985,
+      "curvature": 7.5,
+      "peak_fraction": 0.1
+    }
+  },
+  "reference_physical_length": 3.145246282569609,
+  "baseline_length_disagreement": 0.0,
+  "samples_per_piece": 1025,
+  "batch": 16,
+  "rows": [
+    {
+      "pulse": 0.0,
+      "initial_length": 0.8421743295757173,
+      "first_height": 0.8220348369405669,
+      "background_prefix_bridge_height": 1.9250876296776027,
+      "background_prefix_bridge_length": 3.145246282569609,
+      "twice_max_sampled_norm": 3.9066023537378824,
+      "maximizer": {
+        "norm": 1.9533011768689412,
+        "radius": 0.40366884670120246,
+        "height": 1.9111349899367422,
+        "s": 3.040516145851689,
+        "segment": 7,
+        "kind": "turn",
+        "u": 0.953125
+      },
+      "unit_speed_diameter_sampling_pad": 0.0008240293835350209,
+      "provider_endpoint_quadrature_disagreement": 1.83118781162811e-09,
+      "envelope_with_sampling_pad_and_endpoint_disagreement": 3.907426386783793,
+      "background_curvature_max_sample": 7.500000000000081,
+      "metric_necessary_curvature_lower_sample": 5.78956602911487,
+      "initial_endpoint_jet": [
+        1.1613450527844762,
+        0.31999999999999995,
+        -1.3182817210594398e-16
+      ],
+      "initial_radius_endpoint_error": -2.220446049250313e-16,
+      "remaining_tail_and_cap_height_B_formula": "2*sqrt(rCut^2+(background_prefix_bridge_height+B)^2)",
+      "rCut": 0.30000000000000004,
+      "segments": [
+        {
+          "index": 0,
+          "kind": "hermite",
+          "length": 0.8421743295757173,
+          "height": 0.8220348369405669,
+          "curvature_max_sample": 1.0
+        },
+        {
+          "index": 1,
+          "kind": "boost",
+          "length": 0.12448680155192349,
+          "height": 0.09403690472947245,
+          "curvature_max_sample": 6.27166375343925
+        },
+        {
+          "index": 2,
+          "kind": "turn",
+          "length": 0.38880373332612034,
+          "height": 0.28446140238734424,
+          "curvature_max_sample": 6.7500000000000036
+        },
+        {
+          "index": 3,
+          "kind": "coast",
+          "length": 0.8438060887398614,
+          "height": 0.1679152915300473,
+          "curvature_max_sample": 0.5461394389705031
+        },
+        {
+          "index": 4,
+          "kind": "turn",
+          "length": 0.014626370232345214,
+          "height": 0.00271737852067105,
+          "curvature_max_sample": 2.000000000000005
+        },
+        {
+          "index": 5,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 6,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 7,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 8,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 9,
+          "kind": "turn",
+          "length": 0.014721062891969686,
+          "height": 0.0017998960601320363,
+          "curvature_max_sample": 7.500000000000081
+        },
+        {
+          "index": 10,
+          "kind": "coast",
+          "length": 0.02685456420717109,
+          "height": 0.0019277600170690813,
+          "curvature_max_sample": 0.232607007159097
+        },
+        {
+          "index": 11,
+          "kind": "brake",
+          "length": 0.008635454834876767,
+          "height": 0.0006428133768467981,
+          "curvature_max_sample": 1.8488889638985033
+        }
+      ]
+    },
+    {
+      "pulse": 0.2,
+      "initial_length": 0.589825636676246,
+      "first_height": 0.5616715871861823,
+      "background_prefix_bridge_height": 1.664724379923218,
+      "background_prefix_bridge_length": 2.892897589670138,
+      "twice_max_sampled_norm": 3.3990318748638177,
+      "maximizer": {
+        "norm": 1.6995159374319089,
+        "radius": 0.409837650668157,
+        "height": 1.649359730828865,
+        "s": 2.7818387663322035,
+        "segment": 7,
+        "kind": "turn",
+        "u": 0.9375
+      },
+      "unit_speed_diameter_sampling_pad": 0.0008240293835350209,
+      "provider_endpoint_quadrature_disagreement": 1.83118781162811e-09,
+      "envelope_with_sampling_pad_and_endpoint_disagreement": 3.3998559079097284,
+      "background_curvature_max_sample": 7.500000000000081,
+      "metric_necessary_curvature_lower_sample": 5.78956602911487,
+      "initial_endpoint_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_radius_endpoint_error": 0.0,
+      "remaining_tail_and_cap_height_B_formula": "2*sqrt(rCut^2+(background_prefix_bridge_height+B)^2)",
+      "rCut": 0.30000000000000004,
+      "segments": [
+        {
+          "index": 0,
+          "kind": "hermite",
+          "length": 0.589825636676246,
+          "height": 0.5616715871861823,
+          "curvature_max_sample": 1.9161005488918676
+        },
+        {
+          "index": 1,
+          "kind": "boost",
+          "length": 0.12448680155192349,
+          "height": 0.09403690472947245,
+          "curvature_max_sample": 6.27166375343925
+        },
+        {
+          "index": 2,
+          "kind": "turn",
+          "length": 0.38880373332612034,
+          "height": 0.28446140238734424,
+          "curvature_max_sample": 6.7500000000000036
+        },
+        {
+          "index": 3,
+          "kind": "coast",
+          "length": 0.8438060887398614,
+          "height": 0.1679152915300473,
+          "curvature_max_sample": 0.5461394389705031
+        },
+        {
+          "index": 4,
+          "kind": "turn",
+          "length": 0.014626370232345214,
+          "height": 0.00271737852067105,
+          "curvature_max_sample": 2.000000000000005
+        },
+        {
+          "index": 5,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 6,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 7,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 8,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 9,
+          "kind": "turn",
+          "length": 0.014721062891969686,
+          "height": 0.0017998960601320363,
+          "curvature_max_sample": 7.500000000000081
+        },
+        {
+          "index": 10,
+          "kind": "coast",
+          "length": 0.02685456420717109,
+          "height": 0.0019277600170690813,
+          "curvature_max_sample": 0.232607007159097
+        },
+        {
+          "index": 11,
+          "kind": "brake",
+          "length": 0.008635454834876767,
+          "height": 0.0006428133768467981,
+          "curvature_max_sample": 1.8488889638985033
+        }
+      ]
+    },
+    {
+      "pulse": 0.35,
+      "initial_length": 0.47748543727812714,
+      "first_height": 0.4411677578064054,
+      "background_prefix_bridge_height": 1.5442205505434412,
+      "background_prefix_bridge_length": 2.780557390272019,
+      "twice_max_sampled_norm": 3.165722210680027,
+      "maximizer": {
+        "norm": 1.5828611053400135,
+        "radius": 0.41251797111537064,
+        "height": 1.5281617068573166,
+        "s": 2.666729766537828,
+        "segment": 7,
+        "kind": "turn",
+        "u": 0.9306640625
+      },
+      "unit_speed_diameter_sampling_pad": 0.0008240293835350209,
+      "provider_endpoint_quadrature_disagreement": 1.83118781162811e-09,
+      "envelope_with_sampling_pad_and_endpoint_disagreement": 3.1665462437259375,
+      "background_curvature_max_sample": 7.500000000000081,
+      "metric_necessary_curvature_lower_sample": 5.78956602911487,
+      "initial_endpoint_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_radius_endpoint_error": 0.0,
+      "remaining_tail_and_cap_height_B_formula": "2*sqrt(rCut^2+(background_prefix_bridge_height+B)^2)",
+      "rCut": 0.30000000000000004,
+      "segments": [
+        {
+          "index": 0,
+          "kind": "hermite",
+          "length": 0.47748543727812714,
+          "height": 0.4411677578064054,
+          "curvature_max_sample": 3.531430861476301
+        },
+        {
+          "index": 1,
+          "kind": "boost",
+          "length": 0.12448680155192349,
+          "height": 0.09403690472947245,
+          "curvature_max_sample": 6.27166375343925
+        },
+        {
+          "index": 2,
+          "kind": "turn",
+          "length": 0.38880373332612034,
+          "height": 0.28446140238734424,
+          "curvature_max_sample": 6.7500000000000036
+        },
+        {
+          "index": 3,
+          "kind": "coast",
+          "length": 0.8438060887398614,
+          "height": 0.1679152915300473,
+          "curvature_max_sample": 0.5461394389705031
+        },
+        {
+          "index": 4,
+          "kind": "turn",
+          "length": 0.014626370232345214,
+          "height": 0.00271737852067105,
+          "curvature_max_sample": 2.000000000000005
+        },
+        {
+          "index": 5,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 6,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 7,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 8,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 9,
+          "kind": "turn",
+          "length": 0.014721062891969686,
+          "height": 0.0017998960601320363,
+          "curvature_max_sample": 7.500000000000081
+        },
+        {
+          "index": 10,
+          "kind": "coast",
+          "length": 0.02685456420717109,
+          "height": 0.0019277600170690813,
+          "curvature_max_sample": 0.232607007159097
+        },
+        {
+          "index": 11,
+          "kind": "brake",
+          "length": 0.008635454834876767,
+          "height": 0.0006428133768467981,
+          "curvature_max_sample": 1.8488889638985033
+        }
+      ]
+    },
+    {
+      "pulse": 0.5,
+      "initial_length": 0.3998004638361709,
+      "first_height": 0.3535077630569779,
+      "background_prefix_bridge_height": 1.4565605557940138,
+      "background_prefix_bridge_length": 2.7028724168300626,
+      "twice_max_sampled_norm": 2.9968472245836213,
+      "maximizer": {
+        "norm": 1.4984236122918106,
+        "radius": 0.4148041553357946,
+        "height": 1.4398648667808367,
+        "s": 2.5866715356133656,
+        "segment": 7,
+        "kind": "turn",
+        "u": 0.9248046875
+      },
+      "unit_speed_diameter_sampling_pad": 0.0008240293835350209,
+      "provider_endpoint_quadrature_disagreement": 1.83118781162811e-09,
+      "envelope_with_sampling_pad_and_endpoint_disagreement": 2.997671257629532,
+      "background_curvature_max_sample": 7.500000000000081,
+      "metric_necessary_curvature_lower_sample": 5.78956602911487,
+      "initial_endpoint_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_radius_endpoint_error": 0.0,
+      "remaining_tail_and_cap_height_B_formula": "2*sqrt(rCut^2+(background_prefix_bridge_height+B)^2)",
+      "rCut": 0.30000000000000004,
+      "segments": [
+        {
+          "index": 0,
+          "kind": "hermite",
+          "length": 0.3998004638361709,
+          "height": 0.3535077630569779,
+          "curvature_max_sample": 5.737601996765778
+        },
+        {
+          "index": 1,
+          "kind": "boost",
+          "length": 0.12448680155192349,
+          "height": 0.09403690472947245,
+          "curvature_max_sample": 6.27166375343925
+        },
+        {
+          "index": 2,
+          "kind": "turn",
+          "length": 0.38880373332612034,
+          "height": 0.28446140238734424,
+          "curvature_max_sample": 6.7500000000000036
+        },
+        {
+          "index": 3,
+          "kind": "coast",
+          "length": 0.8438060887398614,
+          "height": 0.1679152915300473,
+          "curvature_max_sample": 0.5461394389705031
+        },
+        {
+          "index": 4,
+          "kind": "turn",
+          "length": 0.014626370232345214,
+          "height": 0.00271737852067105,
+          "curvature_max_sample": 2.000000000000005
+        },
+        {
+          "index": 5,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 6,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 7,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 8,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 9,
+          "kind": "turn",
+          "length": 0.014721062891969686,
+          "height": 0.0017998960601320363,
+          "curvature_max_sample": 7.500000000000081
+        },
+        {
+          "index": 10,
+          "kind": "coast",
+          "length": 0.02685456420717109,
+          "height": 0.0019277600170690813,
+          "curvature_max_sample": 0.232607007159097
+        },
+        {
+          "index": 11,
+          "kind": "brake",
+          "length": 0.008635454834876767,
+          "height": 0.0006428133768467981,
+          "curvature_max_sample": 1.8488889638985033
+        }
+      ]
+    },
+    {
+      "pulse": 0.6,
+      "initial_length": 0.360308251641012,
+      "first_height": 0.30598763986557015,
+      "background_prefix_bridge_height": 1.409040432602606,
+      "background_prefix_bridge_length": 2.6633802046349038,
+      "twice_max_sampled_norm": 2.9056525010476473,
+      "maximizer": {
+        "norm": 1.4528262505238236,
+        "radius": 0.4159429777520232,
+        "height": 1.3920113338151712,
+        "s": 2.545992694676954,
+        "segment": 7,
+        "kind": "turn",
+        "u": 0.921875
+      },
+      "unit_speed_diameter_sampling_pad": 0.0008240293835350209,
+      "provider_endpoint_quadrature_disagreement": 1.83118781162811e-09,
+      "envelope_with_sampling_pad_and_endpoint_disagreement": 2.906476534093558,
+      "background_curvature_max_sample": 7.632593045412347,
+      "metric_necessary_curvature_lower_sample": 5.78956602911487,
+      "initial_endpoint_jet": [
+        1.1613450527844764,
+        0.32,
+        0.0
+      ],
+      "initial_radius_endpoint_error": 0.0,
+      "remaining_tail_and_cap_height_B_formula": "2*sqrt(rCut^2+(background_prefix_bridge_height+B)^2)",
+      "rCut": 0.30000000000000004,
+      "segments": [
+        {
+          "index": 0,
+          "kind": "hermite",
+          "length": 0.360308251641012,
+          "height": 0.30598763986557015,
+          "curvature_max_sample": 7.632593045412347
+        },
+        {
+          "index": 1,
+          "kind": "boost",
+          "length": 0.12448680155192349,
+          "height": 0.09403690472947245,
+          "curvature_max_sample": 6.27166375343925
+        },
+        {
+          "index": 2,
+          "kind": "turn",
+          "length": 0.38880373332612034,
+          "height": 0.28446140238734424,
+          "curvature_max_sample": 6.7500000000000036
+        },
+        {
+          "index": 3,
+          "kind": "coast",
+          "length": 0.8438060887398614,
+          "height": 0.1679152915300473,
+          "curvature_max_sample": 0.5461394389705031
+        },
+        {
+          "index": 4,
+          "kind": "turn",
+          "length": 0.014626370232345214,
+          "height": 0.00271737852067105,
+          "curvature_max_sample": 2.000000000000005
+        },
+        {
+          "index": 5,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 6,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 7,
+          "kind": "turn",
+          "length": 0.4050359436809542,
+          "height": 0.2686443005964492,
+          "curvature_max_sample": 7.500000000000005
+        },
+        {
+          "index": 8,
+          "kind": "coast",
+          "length": 0.0355329949238579,
+          "height": 0.006131372461277256,
+          "curvature_max_sample": 0.49301239790678275
+        },
+        {
+          "index": 9,
+          "kind": "turn",
+          "length": 0.014721062891969686,
+          "height": 0.0017998960601320363,
+          "curvature_max_sample": 7.500000000000081
+        },
+        {
+          "index": 10,
+          "kind": "coast",
+          "length": 0.02685456420717109,
+          "height": 0.0019277600170690813,
+          "curvature_max_sample": 0.232607007159097
+        },
+        {
+          "index": 11,
+          "kind": "brake",
+          "length": 0.008635454834876767,
+          "height": 0.0006428133768467981,
+          "curvature_max_sample": 1.8488889638985033
+        }
+      ]
+    }
+  ],
+  "original_later_radius_curves_and_speeds_unchanged": true,
+  "later_background_heights_shift_only_by_first_piece_height": true,
+  "numerical_newton_or_flow_or_tail_evaluations": 0,
+  "actual_complete_field_and_tail_cap_envelope_not_computed": true,
+  "exact_first_piece_curvature_certificate": "notes/2026-11-12-strong-initial-speed-pulse-budget-r1.json",
+  "global_D_or_reach_certificate": false,
+  "seconds": 14.18459177017212
+}

@@ -1,0 +1,115 @@
+{
+  "status": "Complete real cell11 source functional and candidate centre residual; full outer solution remains separate",
+  "files": [
+    {
+      "path": "computations/closure_outer_adjoint_source.py",
+      "bytes": 19591,
+      "sha256": "776dbfd8cabd06247c8ddc38d989e1f833e7be96c44adfc9d4bfad927687eee0"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1.json",
+      "bytes": 10800,
+      "sha256": "4755d86eed418afa28487b9ca9828d07503feab672cea5789d1ba034307af0a8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-resource.json",
+      "bytes": 1184,
+      "sha256": "5e3f59f01f2636bfc0e942390e4686fd05e87cb2ac49aa8aceac2c0442d8cc83"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment0.json",
+      "bytes": 5528,
+      "sha256": "00fb1f917efa9b17f06a04ebd3796a9ec2c8d5e5d12559a917f215c47a1dc8c7"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment1.json",
+      "bytes": 5549,
+      "sha256": "f4582695ed8aea5524254c78287838bf366af16999a726c583f672123e5d9e81"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment2.json",
+      "bytes": 5522,
+      "sha256": "55b915e5cf9ce6365551d9f92698446b962adea36a6b10a9a2ad726e1d1af403"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment3.json",
+      "bytes": 5534,
+      "sha256": "1a9b7197b7de12197adcb978b55b77384ba9793166e03da492ef5929888368fa"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment4.json",
+      "bytes": 5510,
+      "sha256": "054778fa9c7b8da6f89827b2de50a78fb573880ff740df715fa4480ef6a722ef"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment5.json",
+      "bytes": 5522,
+      "sha256": "0b8ae6078acd570ca756d1336a99f59508e611ec680dc2b20acd0ece0f8720ee"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment6.json",
+      "bytes": 5515,
+      "sha256": "7255a00ffd9ff828fda3eca46594396ea8394dd5ca491523dc0a7a4f0a66da77"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment7.json",
+      "bytes": 5517,
+      "sha256": "de95629dacae5d604eb0818b4128d0439bb93218cbd388042501bec35253df8b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-completed-segment8.json",
+      "bytes": 5428,
+      "sha256": "418255982031f972943466315617d7225c01ba7d03572a3d155de30b9c3825f5"
+    }
+  ],
+  "input_hashes": {
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1.json": "d4a1eb3cb91ade453dc72e655a95ae7582a4b65366bf924567c7df52132b3509",
+    "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json": "f3d06071519f674de420a7fd66de45d14a8274bfb2089bd045bf0bfb2763cf83",
+    "notes/2026-11-12-closure-outer-linear-cancellation-r1.json": "80e3d069ee7484702db7a06601db66db25f446c4efae9d53a24a3fc5864e0a95"
+  },
+  "counts": {
+    "original_material": 5545,
+    "taylor": 5609,
+    "root_brackets": 4,
+    "rejected": 60
+  },
+  "wait4": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+      "computations/closure_outer_adjoint_source.py",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--flow",
+      "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1.json",
+      "--source-summary",
+      "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+      "--linear-cancellation",
+      "notes/2026-11-12-closure-outer-linear-cancellation-r1.json",
+      "--out-prefix",
+      "notes/2026-11-12-closure-outer-adjoint-cell11-r1",
+      "--rss-kib",
+      "40960"
+    ],
+    "wall_seconds": 235.94804883003235,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 31116,
+    "user_seconds": 32.73491,
+    "system_seconds": 2.638832,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "all_gates": {
+    "same_original_candidate_and_fixed_real_g": true,
+    "no_new_background_source_integrals": true,
+    "all5545_original_source_positions_and_all_subpositions_paid": true,
+    "actual_Taylor_remainders_and_critical_root_brackets_paid": true,
+    "exact_global_mu11_no_rho_repeat": true,
+    "same_actual_complete_signed_N_with_mean_and_inverse": true,
+    "final_adjoint_intersects_complete_original_background_first_row": true,
+    "complete_candidate_linear_source_already_cancelled": true,
+    "original_R63_R58_cut_feedback_retained": true
+  },
+  "new_background_integrals": 0
+}

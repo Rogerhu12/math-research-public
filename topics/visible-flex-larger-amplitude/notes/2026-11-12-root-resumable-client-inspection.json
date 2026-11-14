@@ -1,0 +1,78 @@
+{
+  "scope": "Check the real actual-coupling loader's prefix-only Flow cache wiring.\n\nThe actual class, its original physical prefix constructor, and a small\nwarm mesh are created through root_actual_bounded_neck.main. Before any\ncoupled solve, only three-point prefix Jacobians are compared. ensure_tail\nis replaced by a hard failure guard, so no tail worker or BVP can start.\nThe expected inspection exception is not a nonlinear solver outcome.\n",
+  "nonlinear_solve_run": false,
+  "tail_worker_started": false,
+  "loader_chain": "root_actual_bounded_neck.main -> actual.module=adapter.module -> cached root_dual.make_dual -> Actual(Base)",
+  "actual_class": "main.<locals>.make_actual.<locals>.Actual",
+  "modes": 16,
+  "angular": 384,
+  "warm_nodes": 49,
+  "selected_radial_points": [
+    0.3333333333333333,
+    0.7006680496392915,
+    0.8518518518518519
+  ],
+  "cache_size": 8,
+  "prefix_J_PJ_array_equal": [
+    true,
+    true
+  ],
+  "prefix_J_PJ_max_abs_difference": [
+    0.0,
+    0.0
+  ],
+  "cache_after_first": {
+    "hits": 0,
+    "misses": 4,
+    "bypassed": 0,
+    "evictions": 0,
+    "maximum_entries": 4,
+    "constructor_cpu_seconds": 0.12385956399999998,
+    "constructor_wall_seconds": 0.12386548100039363
+  },
+  "cache_after_second": {
+    "hits": 4,
+    "misses": 4,
+    "bypassed": 0,
+    "evictions": 0,
+    "maximum_entries": 4,
+    "constructor_cpu_seconds": 0.12385956399999998,
+    "constructor_wall_seconds": 0.12386548100039363
+  },
+  "cache_instance_records": [
+    {
+      "size": 8,
+      "stats": {
+        "hits": 4,
+        "misses": 4,
+        "bypassed": 0,
+        "evictions": 0,
+        "maximum_entries": 4,
+        "constructor_cpu_seconds": 0.12385956399999998,
+        "constructor_wall_seconds": 0.12386548100039363
+      }
+    }
+  ],
+  "actual_recovery_context": {
+    "actual_nonlinear_tail": true,
+    "tail_config_sha256": "f639ecbdf998f091181fde31b289c084bcb0d05bbb8475cc25bfc3d79313f732",
+    "client": "stored-resumable",
+    "coupling": "outer",
+    "actual_tail_tolerance": 1e-10
+  },
+  "source_sha256": {
+    "strong_actual_cache_check.py": "151db47e37ee60652ae5efcd266557c58434b11e73fcb0abc34238892a7568c0",
+    "root_actual_bounded_neck.py": "4e7830175f602e5110b562a66929aeb95326278097274e38a8bc3a9b47ebfd8b",
+    "root_actual_neck_bvp.py": "f79bde7cb655b7209adf332b0f57bb037f7971d9c80c4622105211a589d6d423",
+    "strong_neck_bvp.py": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "strong_flow_lru.py": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2"
+  },
+  "counts": {
+    "guarded_tail_start_attempts": 0,
+    "coupled_solve_inspections": 1
+  },
+  "memory": {
+    "peak_rss_kib": 119716,
+    "rss_kib": 95688
+  }
+}

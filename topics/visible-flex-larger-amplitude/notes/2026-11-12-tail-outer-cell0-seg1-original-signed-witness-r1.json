@@ -1,0 +1,53 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "scope": "Exact all-angle lower witness from an already paid full-J cosine interval.\n\nFor a continuous real 2pi-periodic f, |cosine_m(f)|<=2 sup|f|.\nThe full R64 defect is its recorded positive theta-independent physical\nfactor times complete J.  A signed nonzero coefficient therefore gives\na genuine defect lower bound on every radial point in the certified leaf.\nThis is not a lower bound on the error of a nearby exact solution.\nAuthor: tail_refinement (GPT-6 Astra Pro, AI-assisted), 2026-11-12.\n",
+  "status": "Exact signed complete-J coefficient gives an actual candidate defect lower bound",
+  "cell": 0,
+  "segment": 1,
+  "panel": 286,
+  "mode": 2,
+  "source_left": "570528782233903027/576460752303423488",
+  "source_right": "142928794061951575/144115188075855872",
+  "complete_J_cosine_interval": [
+    [
+      1089733815080,
+      -57
+    ],
+    [
+      676138204565,
+      -56
+    ]
+  ],
+  "physical_factor_interval": [
+    [
+      51693433,
+      -16
+    ],
+    [
+      199920131,
+      -17
+    ]
+  ],
+  "all_angle_sup_lower_at_every_true_radial_point": [
+    7041510244709046205,
+    -71
+  ],
+  "lower_decimal_diagnostic": 0.0029821955878486265,
+  "proof": "a_m=(1/pi) integral_0^(2pi) f(theta) cos(m theta)dtheta implies |a_m|<=2 sup|f|. The real factor is theta-independent and positive. Every true coefficient and factor lies in its complete stored interval, hence sup|Dphys|>=factor_lower*distance(0,Jm)/2.",
+  "gates": {
+    "original_formal_exit0_and_all_input_source_hashes": true,
+    "complete_actual_mean_and_all_finite_modes_retained": true,
+    "whole_radial_leaf_not_a_point_sample": true,
+    "strict_signed_coefficient_and_positive_physical_factor": true,
+    "exact_rational_lower_arithmetic": true
+  },
+  "input_hashes": {
+    "notes/2026-11-12-tail-r80-cell0-seg1-refined-moments-fullJ-r1.json": "2b0db24d2c9cd120c6056fec85a9b214cb790465c1053077dbe784d6528a12c7",
+    "notes/2026-11-12-tail-r80-cell0-seg1-refined-moments-fullJ-r1-resource.json": "2c346fc8fd93c096b7ac487529c3ffb1b23186600921b6c70dec9f7af01f0a86",
+    "notes/2026-11-12-tail-r80-cell0-seg1-refined-moments-fullJ-r1-segment1.jsonl.gz": "252c7420276b91a8aad2e46ec8936f9d2772a141d4ff526656b0339cf7dab933"
+  },
+  "source_sha256": "43dff4017fe2690995fcb9237bfc6ab8909272f81c32299e570af7f69ffe282f",
+  "new_Arb_or_ODE_or_samples": 0,
+  "exact_solution_error_lower_or_nonexistence_claimed": false,
+  "peak_RSS_KiB": 11776
+}

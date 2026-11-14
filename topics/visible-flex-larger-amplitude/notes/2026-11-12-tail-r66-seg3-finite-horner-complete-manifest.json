@@ -1,0 +1,131 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Stable complete same-candidate segment3 finite-Horner audit and full-cell composition",
+  "formal_sessions": [
+    36033,
+    73074,
+    75229,
+    36744
+  ],
+  "formal_all_exit0": true,
+  "segment_panels": 4211,
+  "whole_cell_panels": 7563,
+  "segment_full_Darboux_upper_dyadic": [
+    183781526409,
+    -47
+  ],
+  "whole_cell_maximum_original_segment": 5,
+  "whole_cell_upper_dyadic": [
+    422931315185,
+    -41
+  ],
+  "candidate_true_g_complete_mean_unchanged": true,
+  "files": [
+    {
+      "path": "computations/tail_outer_centered_quartic_fields_v2.py",
+      "bytes": 3452,
+      "sha256": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b"
+    },
+    {
+      "path": "computations/tail_outer_centered_span_refinement_v2.py",
+      "bytes": 2820,
+      "sha256": "21754fb1d4b537eb20e245259bfde46d85a97ff6c07e667d8061ea7fdfb596f4"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-plan.json",
+      "bytes": 2942,
+      "sha256": "b64bb6047624bf492bd5e710e39782c88660712c729fd2db568981267c4e5a68"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3.json",
+      "bytes": 213888,
+      "sha256": "9a36b00c9ac1f2f588ab1bca7b0a5f373ecf1d82c5b098a04b2aab995a331d95"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-resource.json",
+      "bytes": 1124,
+      "sha256": "98275e6bbfd52e0bc16bf8c4cdb7949aaee34778e28028c0858aa734c123884a"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-streamcheck.json",
+      "bytes": 8764,
+      "sha256": "b50081b7de1eeeb8f33a475e6e7c1045277643d542283ee10799729e19c8accb"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-streamcheck-resource.json",
+      "bytes": 940,
+      "sha256": "067567d87886b0b55932b5723641584ad9e58b9bb57f7e877f7e29ff1a04bcf5"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-part00.jsonl.gz",
+      "bytes": 40999,
+      "sha256": "cda5dd07d416ed7ffc55b25bf7ee15b4300d7435cca971dc212bb5d8abc25961"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-part01.jsonl.gz",
+      "bytes": 40645,
+      "sha256": "928490df6e64ea3bbe6f12231bd3d71f75e79267ad6635946052b7c02cf51d01"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-part02.jsonl.gz",
+      "bytes": 49950,
+      "sha256": "0eb535c716906577c84c56e3f2abb015bdeccfa89cdac3bbfa7431e88ceaf7ee"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-part03.jsonl.gz",
+      "bytes": 453161,
+      "sha256": "7e78abf6309e6b9daa03ab1b39b10aa0c43562c8372d9a33cc746799decf09db"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-part04.jsonl.gz",
+      "bytes": 541254,
+      "sha256": "aabea08a2790e97ada221a3ac8490c4cd25f04144a69b19da56c8c1f471ffacf"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-part05.jsonl.gz",
+      "bytes": 840636,
+      "sha256": "b94fe91b455f2ce6dd5f57c15b4b19222a1b02b0d3748cb39e5cc95872e91548"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-part06.jsonl.gz",
+      "bytes": 1051064,
+      "sha256": "f0d17fb74de784298041bae8613175c9ec828d5e1440a24c3f7304eb322c1dfd"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-part07.jsonl.gz",
+      "bytes": 1356014,
+      "sha256": "c28cdc51e49823623bf05133423233d5cccfe93f7ace8ead86e1d6f396cd46e0"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-357-span2-horner-r3.json",
+      "bytes": 15285,
+      "sha256": "0e6c9abc4e0fc23c5818e92fc8aa042e6dba37a0c5c9cf45aad9b257530ed144"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-357-span2-horner-r3-resource.json",
+      "bytes": 1397,
+      "sha256": "2024e6d804c13a79fe5bfafc78a937c3b4123939f91ba56b83b1f5951cf52939"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-3578-horner-r3.json",
+      "bytes": 14488,
+      "sha256": "fe62285092616d1f44714b8052dbbf9e84ca0f9208c9da70b9cd322a5609d05f"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-3578-horner-r3-resource.json",
+      "bytes": 1037,
+      "sha256": "4d420432fc0cf294851d0830b7ea86005c4c3395fd3bf222f57368bf8a082862"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r66-seg3-finite-horner-complete.md",
+      "bytes": 5445,
+      "sha256": "1c613b5fef2b61fddb6eb08f701724785e3b9fdc7123439e0a3c7f8304d45c38"
+    }
+  ],
+  "total_bytes": 4645305,
+  "excluded": [
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-recovery.json",
+    "active segment5 rerun",
+    "R77 independently executed subsequent zero-mode postprocessing"
+  ]
+}

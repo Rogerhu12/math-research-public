@@ -1,0 +1,32 @@
+{
+  "scope": "Input identity check only, with no Flow, RHS, Jacobian assembly, Node or BVP.",
+  "full_height_bitwise_equal": true,
+  "modes": 24,
+  "angular": 768,
+  "nodes": 2004,
+  "actual_primary_amplitude": 0.09499996014428179,
+  "gauge": 0.09,
+  "raw_fixed_parameter_layout": "p0=log(actual_q/gauge_q); p1=(q4-reference_q4)/gauge_q^2; p2..=higher support/recorded scale",
+  "raw_tolerance": 1e-07,
+  "tail_jacobian_method": {
+    "slope": "analytic actual shooting tangent plus exact cut chain rule",
+    "meanSlopeCorrection": "analytic actual shooting tangent plus exact cut chain rule",
+    "second": "source symmetric difference on actual tangent graph",
+    "meanSecondCorrection": "source symmetric difference on actual tangent graph",
+    "height": "source symmetric difference; mathematically identity",
+    "sourceSecondDifferenceStep": 0.0001
+  },
+  "tail_residual": 5.636296429175181e-10,
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+    "notes/2026-11-12-root-q095-fixed-view-identity-r1.json.gz": "925994ffa7a015d13a84b98b0545e1992e4463f74307e9a05e9ff815cd4eb6b9",
+    "notes/2026-11-12-root-q095-fixed-view-identity-r1-raw-collocation.json.gz": "db41c63096e97b8e1dfda606d583f9a62fd96a315477518b41073a10d1df8db2",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0003.json.gz": "32ee699bd596bf397db66a73f9e7470b315286d05e2f13b97a818a64a2c271cb",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-x-000.npy.gz": "c0c0aacb6d1c71272beb96899f66262efb7dd5d56f1d7765af6d7a2f86769b7c",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-y-000.npy.gz": "b10a16c2bfe80bd5e0f504e5aef7ede84e7fcc07f75da932a559f7232a23c19c",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-p-000.npy.gz": "7823be999b0a85330460380bb8d521065e124976641527b8dae9a2c9834427a4"
+  },
+  "metadata_only": true,
+  "actual_full_jacobian_run": false,
+  "inspection_only": true
+}

@@ -1,0 +1,53 @@
+{
+  "status": "Executed full-row current-baseline finite numerical minimax; selected combined field is separately executing.",
+  "files": [
+    {
+      "path": "notes/2026-11-13-geometry-m28-fullmean-minimax-r1.json",
+      "sha256": "77ed66b6101d481aa7c18de8d34231db6674d9c68ba8bf8a73960a1877657f13",
+      "bytes": 75038
+    },
+    {
+      "path": "notes/2026-11-13-geometry-m28-fullmean-minimax-r1-resource.json",
+      "sha256": "9674a182b435c4e0503763d9c44ef6419a36f853be7d6c6b23a11c9a6b175389",
+      "bytes": 1016
+    },
+    {
+      "path": "notes/2026-11-13-geometry-m28-fullmean-minimax.md",
+      "sha256": "a0a47ed448cbff9c89ad2cdf0fce6b8f6107b0caed160d096661bbe26e69259f",
+      "bytes": 7157
+    },
+    {
+      "path": "computations/root_geometry_minimax_from_plan.py",
+      "sha256": "4fdd46bf198e573bd83a86195143caa86d7105d3847d4e12431d844c2111e213",
+      "bytes": 10886
+    },
+    {
+      "path": "computations/root_saved_geometry_minimax.py",
+      "sha256": "07cee1165b871ddac6252b02b870df259fb34addf65b441fcf05e27d6895741b",
+      "bytes": 18619
+    },
+    {
+      "path": "computations/root_geometry_minimax_combined_plan.py",
+      "sha256": "4e7be58bc2d0f8bf0641309aa5f098b360c2d55e23dade989a10d2f8aea74156",
+      "bytes": 5813
+    },
+    {
+      "path": "notes/2026-11-13-geometry-m28-q096-r1-all-fields-ledger.json",
+      "sha256": "9eb01edf46a45340cffa16f853bbc4f71ccb2f7dc0146a3b3001232e0531b3e4",
+      "bytes": 34732
+    },
+    {
+      "path": "notes/2026-11-13-geometry-m28-q096-r1-all-fields-manifest.json",
+      "sha256": "0afb00f3cb0a2f4f69ec6850ac953760cb960835785c5c16f14e1517be37c20f",
+      "bytes": 9829
+    }
+  ],
+  "result_sha256": "77ed66b6101d481aa7c18de8d34231db6674d9c68ba8bf8a73960a1877657f13",
+  "resource_exitcode": 0,
+  "successful_finite_models": 9,
+  "models": 12,
+  "all_successful_models_rechecked_original_rows": true,
+  "new_nonlinear_solution": false,
+  "continuous_geometry_certified": false,
+  "readme_conformance": "Full reproducible field arrays remain local; original input path spellings and SHA are retained in the immutable plan and field manifests."
+}

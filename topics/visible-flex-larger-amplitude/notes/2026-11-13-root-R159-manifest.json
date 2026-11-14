@@ -1,0 +1,77 @@
+{
+  "schema": "root-R159-actual-P1-complete-deep-endpoint-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R159-P1-chain-r1.json.gz",
+      "sha256": "ad7b797a43f74c08d9b40dfe0526a36ce16084a5682c993253aa3aa00c8576ae",
+      "bytes": 29932
+    },
+    {
+      "path": "notes/2026-11-13-root-R159-P1-chain-r1-resource.json",
+      "sha256": "b0614a661edcd15563567065b966279a6a6ff3b04c258f32f39a6165876e908e",
+      "bytes": 1609
+    },
+    {
+      "path": "notes/2026-11-13-root-R159-P1-chain-r1.log",
+      "sha256": "16b10a14ef814cb27d9aee118a9acb4b2975d133265ad0bce8f6ef191a23d496",
+      "bytes": 1867
+    },
+    {
+      "path": "notes/2026-11-13-root-R159-P1-endpoint-r1.json.gz",
+      "sha256": "f4e16254dfaff8373f6abf179114b63717fac4ce7c68f41396638a2df34556d2",
+      "bytes": 15997
+    },
+    {
+      "path": "notes/2026-11-13-root-R159-P1-endpoint-r1-resource.json",
+      "sha256": "f615f3e707732ca263f5e3b54b7c5a2f5019be799d492edca7b5c0d8bbc1a486",
+      "bytes": 3447
+    },
+    {
+      "path": "notes/2026-11-13-root-R159-P1-endpoint-r1.log",
+      "sha256": "2b7478fec8a5d2494d8f502cb225ca96076e0fe0f5cde58314af11defcfdf4df",
+      "bytes": 3657
+    },
+    {
+      "path": "notes/2026-11-13-root-R159-R159-parent-endpoint-restriction-preparation.json",
+      "sha256": "7849b5f48e63792aa6d8f3375c914d8aa65af3d418d693a7af66b6b84601a0d0",
+      "bytes": 2230
+    },
+    {
+      "path": "notes/2026-11-13-root-R159-R159-deep-plan.json",
+      "sha256": "3e2c1a888813d5e0e2cb5b55b712e68778ec1d199292acb1c619c0c229ce083a",
+      "bytes": 4360
+    },
+    {
+      "path": "notes/2026-11-13-root-R159-2026-11-13-exact-resume-inner-restricted-deep-port-chain-v1.py",
+      "sha256": "21905de919d35aad48c2541c8331ced9ad542dddb429a71d11155591c3f976ee",
+      "bytes": 12528
+    },
+    {
+      "path": "computations/root_R159_P1_deep_endpoint.py",
+      "sha256": "006edb157310e40233750467afc820be7e0eeac6b5143d79dfc592f24505c0a0",
+      "bytes": 20827
+    },
+    {
+      "path": "results/R159-P1-complete-deep-port-endpoint.md",
+      "sha256": "140ff588ab3caa25d83669cb92fda678a82e323c5567207c422b4cdd65c99b46",
+      "bytes": 1286
+    }
+  ],
+  "actual_results": [
+    {
+      "kind": "chain",
+      "sha256": "ad7b797a43f74c08d9b40dfe0526a36ce16084a5682c993253aa3aa00c8576ae",
+      "gate_count": 470,
+      "wall_seconds": 1.771618127822876,
+      "peak_rss_kib": 38500
+    },
+    {
+      "kind": "endpoint",
+      "sha256": "f4e16254dfaff8373f6abf179114b63717fac4ce7c68f41396638a2df34556d2",
+      "gate_count": 261,
+      "wall_seconds": 1.498138666152954,
+      "peak_rss_kib": 36468
+    }
+  ],
+  "old_parent_data_and_domain_unchanged": true
+}

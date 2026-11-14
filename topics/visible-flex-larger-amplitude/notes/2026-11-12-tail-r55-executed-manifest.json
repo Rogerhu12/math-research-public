@@ -1,0 +1,118 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "result": "R55 complete two-material coefficient/kernel proof and actual whole-near edge",
+  "files": [
+    {
+      "path": "computations/tail_high_two_material_kernel.py",
+      "bytes": 14124,
+      "sha256": "eeeed8974da5732759a05004168042d2e84ffc38543e0be175537592295247e1"
+    },
+    {
+      "path": "results/R55-two-material-kernels-and-low-near-interface.md",
+      "bytes": 12754,
+      "sha256": "85c692251e2cb74922c20d034b24dab351fba94784fb7ff283d3dce4c4e244d1"
+    },
+    {
+      "path": "notes/2026-11-12-tail-two-material-high-interface.md",
+      "bytes": 10586,
+      "sha256": "b0be15f74e67ebd516e6aa248e10902a304cb4e0e8148f4674112e62bcd7eeb4"
+    },
+    {
+      "path": "notes/2026-11-12-tail-strong-two-material-high-13to12-r1.json",
+      "bytes": 11403,
+      "sha256": "ece2c8e70f29ae2f65fde0dd70c98c5c34c0179f8ef021ff03b4a2ea27dc5814"
+    },
+    {
+      "path": "notes/2026-11-12-tail-strong-two-material-high-13to12-r1.json-resource.jsonl",
+      "bytes": 1945,
+      "sha256": "f4285fac90b702bc339e79877b27d73b7d72fedc885d8120d9fdf88bb4d96085"
+    },
+    {
+      "path": "notes/2026-11-12-tail-strong-two-material-high-13to12-near-rest-r1.json",
+      "bytes": 37172,
+      "sha256": "17bff82e7ed70c6e40f193746c1bab04e79c892405b880b40bd21c6b50a4e597"
+    },
+    {
+      "path": "notes/2026-11-12-tail-strong-two-material-high-13to12-near-rest-r1.json-resource.jsonl",
+      "bytes": 7165,
+      "sha256": "612c5bf3bdd43db4c0dcd198986dc77bed93da5f1982fb98ce8b5276014c0d17"
+    },
+    {
+      "path": "notes/2026-11-12-tail-two-material-high-executed-manifest.json",
+      "bytes": 2838,
+      "sha256": "2e4ae58f5dd4e82eaddea93586fcb6e72e484e8c918b3f7d9bba68a38ed492fc"
+    }
+  ],
+  "formal_executions": [
+    {
+      "session_id": 26265,
+      "final_chunk": "20975a",
+      "exit_code": 0,
+      "bands": [
+        [
+          94,
+          96
+        ]
+      ],
+      "resource": {
+        "event": "completed",
+        "seconds": 10.363593374999255,
+        "peak_RSS_KiB": 36328,
+        "bands": 1
+      }
+    },
+    {
+      "session_id": 42692,
+      "final_chunk": "88002a",
+      "exit_code": 0,
+      "bands": [
+        [
+          98,
+          104
+        ],
+        [
+          106,
+          112
+        ],
+        [
+          114,
+          128
+        ],
+        [
+          130,
+          192
+        ]
+      ],
+      "resource": {
+        "event": "completed",
+        "seconds": 16.79587968799933,
+        "peak_RSS_KiB": 36596,
+        "bands": 4
+      }
+    }
+  ],
+  "proved_scope": {
+    "actual_source_cell": 13,
+    "actual_output_cell": 12,
+    "actual_near_support": [
+      94,
+      184
+    ],
+    "comparison_last_window": [
+      130,
+      192
+    ],
+    "full_near_DQ_low_upper_decimal": "0.215559016401676",
+    "coefficient_already_included": true,
+    "complete_strong_641_gate_paid": false,
+    "new_ODE_or_source_integrations": 0
+  },
+  "input_hashes": {
+    "notes/2026-11-12-tail-r33-plateau2-continuous-strip-panels-assembled-recovered-r1-summary.json": "247449b2fd48d99f8db0e63eebd0f26c038b63e831af6c31bbb7f8fc8adac47b",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz": "d0dc6791001a1668afa2f9442bbefbe7e6644e73b0b753943df5a9bc12258181",
+    "notes/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell013.json.gz": "7397ebc436ae5c4cd396ae2e6d5d27c4f2b45e17fae5e75f94eb0acb9e95dc22",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+  },
+  "scope_warning": "This actual strong reference is R39 q085 M20 rational-deep same-q-strip, not the later q095/q105 stored-prefix family. Complete mean and inverse remainder remain unchanged."
+}

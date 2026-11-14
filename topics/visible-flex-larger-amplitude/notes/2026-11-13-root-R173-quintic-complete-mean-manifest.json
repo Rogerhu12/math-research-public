@@ -1,0 +1,67 @@
+{
+  "schema": "R173-quintic-complete-continuous-mean-archive-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R173-quintic-mean-r1-certificate.json.gz",
+      "sha256": "f69594108c881c7164ab06df58d9f959e9b2329dfd6b639c0ad70b17fec82de8",
+      "bytes": 2395561
+    },
+    {
+      "path": "notes/2026-11-13-root-R173-quintic-mean-r1-polynomials.json.gz",
+      "sha256": "8b850b6f0cca86b311cf0a1a1c892cfba76bc374b015ef64d04c94c8ba0706b3",
+      "bytes": 619634
+    },
+    {
+      "path": "notes/2026-11-13-root-R173-quintic-mean-run1-resource.json",
+      "sha256": "81f5ef488068a47557ba7ae74a28278c7390b43354fe01740b43e5b48beda181",
+      "bytes": 890
+    },
+    {
+      "path": "notes/2026-11-13-root-R173-quintic-mean-run1.log",
+      "sha256": "b345c173eea92a40fd3b54f4d2b11f4cadc295aa38a45440cd65de2764e688ab",
+      "bytes": 1702
+    },
+    {
+      "path": "notes/2026-11-13-root-R173-quintic-second-jets-r1.json.gz",
+      "sha256": "807e81e3b1813f887264325de935a8a78c3e89075e55321ccf0e2264951302a7",
+      "bytes": 113381
+    },
+    {
+      "path": "notes/2026-11-13-root-R173-second-jets-run1-resource.json",
+      "sha256": "89261861253975e571a7565c895099d545022c06b380a1c7195b410e5b02625a",
+      "bytes": 893
+    },
+    {
+      "path": "notes/2026-11-13-root-R173-second-jets-run1.log",
+      "sha256": "753a50369952cb92f011dd2ce94d8f5c470a8584a5daa4b7029fd4fab32c783f",
+      "bytes": 1182
+    },
+    {
+      "path": "notes/2026-11-13-root-input-manifest.json",
+      "sha256": "c96a8b8f610482783e35348f351cf9c88ce27482f8633947711a4dbe9b517077",
+      "bytes": 3982
+    },
+    {
+      "path": "notes/2026-11-13-root-launch-plan.json",
+      "sha256": "fa96ec308719439872393744e26619f8d4fc91946de9e40c941983ca128923ed",
+      "bytes": 994
+    },
+    {
+      "path": "results/R173-quintic-continuous-complete-mean-domain.md",
+      "sha256": "65c3711b0495739940a4782af77d9fffea9e3a8e4a02b60dc542228e855fd8f9",
+      "bytes": 3498
+    },
+    {
+      "path": "computations/root_R173_quintic_continuous_mean.py",
+      "sha256": "4fe66bb1362325074dfce92ee492da9cfd610e9b4b6b201ddfcf50689a87577f",
+      "bytes": 14669
+    },
+    {
+      "path": "computations/root_R173_quintic_candidate_second_jets.py",
+      "sha256": "1d1f1caf5f5d415052878a0bbfc82adbd0efdeab49ca8a33393ebedab52e96c6",
+      "bytes": 6438
+    }
+  ],
+  "primary_sha256": "f69594108c881c7164ab06df58d9f959e9b2329dfd6b639c0ad70b17fec82de8",
+  "scope": "Explicit quintic candidate complete mean and inverse domain, not actual-solution tube or residual."
+}

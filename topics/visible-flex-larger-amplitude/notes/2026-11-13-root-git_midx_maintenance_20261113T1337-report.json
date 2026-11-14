@@ -1,0 +1,29 @@
+{
+  "scope": "Canonical small MIDX batches, preserving the complete registered OID union.",
+  "source_sha256": "5e78816c15ca09f9d334b754ff5b16f0ec49430eb9b3ce448136f3cbea03cf28",
+  "refs_before": "refs/heads/main e71f525ba4cabb6553b03c6a3925a60935aa6e5c\nrefs/remotes/origin/main 062f1b5a685aaf8a76d6013f08a184822a2b450c\n",
+  "oid_count_before": 200758,
+  "oid_sha256_before": "7f4688e28f1c7fdeda98f6e86f546595c0effed40a677804249aef099b80237a",
+  "steps": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "pack.window=0",
+        "multi-pack-index",
+        "write",
+        "--preferred-pack=pack-1beac3da7406801423b2119401a37f696f3c4881.pack"
+      ],
+      "exitcode": 255,
+      "aborted_for_disk_reserve": false,
+      "wall_seconds": 1.0624890790022619,
+      "log": "/workspace/scratch/d1aa462cfc02/git_midx_20261113T1337-write.log",
+      "log_sha256": "9c996c8ad2ecc60e8cda5fdfede1c0f56a92b456aadb846587e4fd41919c502b",
+      "free_after": 1286533120
+    }
+  ],
+  "free_before": 1275285504,
+  "started_utc": "2026-11-13T13:36:16Z"
+}

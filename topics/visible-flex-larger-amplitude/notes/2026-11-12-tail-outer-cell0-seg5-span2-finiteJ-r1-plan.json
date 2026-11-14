@@ -1,0 +1,40 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Prepared for one serial actual complete-segment audit",
+  "command": [
+    "python",
+    "computations/tail_outer_substage_span_refinement.py",
+    "--candidate",
+    "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--rx-ratio",
+    "2",
+    "--log-w-span",
+    "1/32",
+    "--u-span",
+    "1/32",
+    "--max-level",
+    "28",
+    "--max-panels",
+    "100000",
+    "--rss-limit-mib",
+    "40",
+    "--out",
+    "notes/2026-11-12-tail-outer-cell0-seg5-span2-finiteJ-r1.json"
+  ],
+  "resource_output": "notes/2026-11-12-tail-outer-cell0-seg5-span2-finiteJ-r1-resource.json",
+  "source_and_input_hashes": {
+    "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz": "a4496918b68c332958715c3757e460d1893f0cf42354bb6638cde7b8c85d67c0",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "computations/tail_outer_substage_span_refinement.py": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8"
+  },
+  "same_candidate_source_all_moments_and_endpoint_jets": true,
+  "new_source_integrals": 0,
+  "full_mean_and_derivative": "Unchanged R64 general_mean_and_defect on every accepted interval",
+  "full_spectrum": "All cosine coefficients through80; retain complete c and cx; no angular sampling",
+  "continuous_coverage": "Every saved source bin; subdivide until positive rx upper/lower<=2, logw span<=1/32, local polynomial u span<=1/32 and all original R64 gates",
+  "memory_limit_mib_observed": 40,
+  "formal_status": "Not yet executed at plan creation",
+  "recovery": "Complete each substage stream atomically, checkpoint after every bin; first-part/stop-part permit rerunning only unfinished selected substages to fresh prefixes."
+}

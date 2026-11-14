@@ -1,0 +1,206 @@
+{
+  "schema": "r102-local-only-complete-input-plan-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-13",
+  "status": "BigInt eight-part budget completed; Python local gzip consumer prepared and not executed",
+  "production_scope": "Original cell0/seg7 R48 compatible candidate; no replacement by PA/carrier",
+  "files": {
+    "proof": {
+      "path": "results/R102-seg7-nonuniform-field-and-defect-budget.md",
+      "sha256": "4620a679fb0d546b3f3d947fde4c4fd2ede0054b4ca30ef640a358ea3307aa5b"
+    },
+    "bigint_source": {
+      "path": "computations/tail_r102_seg7_field_defect_budget.js",
+      "sha256": "b360bb1994a3ffcaf4925830e5e6d9cc12d8339426361592318324921c7464a0"
+    },
+    "budget": {
+      "path": "notes/2026-11-12-tail-r102-seg7-field-defect-budget.json",
+      "sha256": "d01b7310f9d76fa5d5d56f44805c67fedf7be776a78435803943edcda424bc6f"
+    },
+    "local_consumer": {
+      "path": "computations/tail_r102_local_physical_defect.py",
+      "sha256": "db189dfe9b6149ee56f8ad918424c1874ab353e9e67a2165a6de32bfa966af9a"
+    },
+    "input_access_correction": {
+      "path": "notes/2026-11-12-tail-r102-input-access-correction.md",
+      "sha256": "0aa00298999f19abeb8d49baa9f7a1f7a9b29404993bde7425d46f9a0dbc6a4f"
+    }
+  },
+  "completed_bigint_replay": {
+    "input_texts": [
+      {
+        "path": "notes/2026-11-12-tail-r95-seg7-curvature-budget.json",
+        "sha256": "690d9eaeb61311aaf15e47416534020ba04e2391ecde6012ccbaab50cd45559d",
+        "bytes": 80544
+      },
+      {
+        "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+        "sha256": "806fdb96b9aa6eafd921c07518a5b52218180d2182f7b8d18abb8e3d695638e4"
+      }
+    ],
+    "exact_call": "Function(sourceText + ';return runR102Budget;')()(r95Text, originalSummaryText)",
+    "acceptance": "Every finite gate uses exact BigInt rational comparisons. The pure serializer only rounds final bounds outward.",
+    "runtime": "functions.exec V8, completed; no OS process exitcode",
+    "producer_metadata": "The saved ledger adds actual execution metadata after the pure returned mathematical result.",
+    "encoded_or_binary_input_used": false
+  },
+  "local_dependency_hashes": {
+    "original_summary": "806fdb96b9aa6eafd921c07518a5b52218180d2182f7b8d18abb8e3d695638e4",
+    "original_resource": "912ad6200027fdb445cd3e8636c1f6cd404a3480d2c013b6c4722e6888016820",
+    "original_stream_check": "2c33f3a08428ed0573d61ed8bafd0fb64636c4e5c9487b8c419cf2f57abc7f2a",
+    "original_source_hashes": {
+      "tail_outer_substage_span_refinement.py": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+      "tail_outer_centered_span_refinement_v2.py": "21754fb1d4b537eb20e245259bfde46d85a97ff6c07e667d8061ea7fdfb596f4",
+      "tail_outer_centered_quartic_fields_v2.py": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+      "tail_outer_centered_quartic_fields.py": "16a868a4f59311a7e83d5758d1653b7c64a4836bc77e8c8f39aade459006889a",
+      "tail_outer_general_mean_bounds.py": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+      "tail_outer_weighted_compatible.py": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+      "tail_outer_positive_moment_panels.py": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+      "tail_outer_candidate_domain.py": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+      "tail_r41_connection_polynomial.py": "81d5da68b0065c9e24978875c0d03cb96b6600252634c6bb028294db8e955e1e",
+      "closure_real_outer_radius.py": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+      "tail_r33_middle_ordered_physical.py": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e"
+    },
+    "original_candidate_input_hashes": {
+      "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    },
+    "stream_schema_checker": "cb8714409d0fbe6209b58cd2de867fd79e785464089e8ba151163b16ddfb6262",
+    "resource_wrapper": "bbf6c8ac8cb32cbc0f5c1e1c1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "original_local_primary_manifest": [
+    {
+      "part": 0,
+      "panels": 37,
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part00.jsonl.gz",
+      "sha256": "2ed331b98bd0004e2824088f2542483703a5e1fb9dfcdaa9105a863c2b6ba20a",
+      "bytes": 47029
+    },
+    {
+      "part": 1,
+      "panels": 53,
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part01.jsonl.gz",
+      "sha256": "af56ac6810d1226234d2232594be5e58b35cc6f69d3ee9b9021ac0234c8b77ff",
+      "bytes": 63437
+    },
+    {
+      "part": 2,
+      "panels": 125,
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part02.jsonl.gz",
+      "sha256": "a560755a9f860fe0a2828f56de36a3ed557a5b24ecb1e5213dde03539758142f",
+      "bytes": 139844
+    },
+    {
+      "part": 3,
+      "panels": 208,
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part03.jsonl.gz",
+      "sha256": "5181dce29cefe73de6e00ee06f6c03182b7d8ecd5114395f3d48d634ea901605",
+      "bytes": 226532
+    },
+    {
+      "part": 4,
+      "panels": 304,
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part04.jsonl.gz",
+      "sha256": "a398383644f2d077d0ea10d86f41784b02284fc71f1ba5f700787d57e0603441",
+      "bytes": 326502
+    },
+    {
+      "part": 5,
+      "panels": 257,
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part05.jsonl.gz",
+      "sha256": "8842ecd64dba441d60fa360761471f2026d16e83d9a9a485256ae4d8c3a9e7da",
+      "bytes": 272671
+    },
+    {
+      "part": 6,
+      "panels": 256,
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part06.jsonl.gz",
+      "sha256": "53cfb3121234f41e433991de2bb08b664c4e2b9b91b863cc53bc0cc4475862a6",
+      "bytes": 267317
+    },
+    {
+      "part": 7,
+      "panels": 500,
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part07.jsonl.gz",
+      "sha256": "a2b0836b2603993aaa6aa828168f817184bab4ddaf278c96be90774420070676",
+      "bytes": 517207
+    }
+  ],
+  "prospective_execution": {
+    "owner": "tail_refinement; parent serializes the small numerical lane",
+    "working_directory": "<TOPIC_ABSOLUTE_PATH>",
+    "output_directory": "<TAIL_OWNED_TMP_DIRECTORY>",
+    "substitutions": "Replace the three <...> path/run placeholders once; do not rewrite old input JSON or producer identities.",
+    "ast_argv": [
+      "python3",
+      "-B",
+      "-c",
+      "import ast,pathlib; p=pathlib.Path('computations/tail_r102_local_physical_defect.py'); ast.parse(p.read_text(),filename=str(p))"
+    ],
+    "first_minimal_argv": [
+      "python3",
+      "-B",
+      "computations/strong_resource_run.py",
+      "--out",
+      "<TAIL_OWNED_TMP_DIRECTORY>/2026-11-12-tail-r102-local-part0-<RUN_ID>-resource.json",
+      "--",
+      "python3",
+      "-B",
+      "computations/tail_r102_local_physical_defect.py",
+      "--topic",
+      "<TOPIC_ABSOLUTE_PATH>",
+      "--summary",
+      "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+      "--resource",
+      "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+      "--stream-check",
+      "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-streamcheck.json",
+      "--budget",
+      "notes/2026-11-12-tail-r102-seg7-field-defect-budget.json",
+      "--parts",
+      "0",
+      "--rss-limit-mib",
+      "96",
+      "--out",
+      "<TAIL_OWNED_TMP_DIRECTORY>/2026-11-12-tail-r102-local-part0-<RUN_ID>.json"
+    ],
+    "optional_all_parts": "Only if a concrete remaining comparison needs the other leaves: change --parts 0 to --parts all and use a different output prefix. All original 1740 leaves are then checked; no new integrals are computed.",
+    "default_read_count": 37,
+    "original_total_count": 1740,
+    "unchanged_other_parts": "Seven original formal coarse physical-defect bounds are reused; they already fit the R102 epsilon=1/512 budget.",
+    "expected_output_fields": [
+      "parts[].physical_R_H_upper",
+      "parts[].R102_strict_budget_lower",
+      "parts[].conditional_budget_paid",
+      "locally_read_leaves",
+      "all_1740_primary_leaves_read_this_run",
+      "all_conditional_defect_budgets_paid",
+      "gates",
+      "input_hashes",
+      "source_sha256"
+    ],
+    "mathematical_failure_handling": "A computed but unpassed curvature budget is recorded explicitly and does not become a claim of actual curvature failure. A missing or mismatched original file is not silently replaced; restore its exact bytes first.",
+    "current_execution_count": 0,
+    "python_AST_checked": false
+  },
+  "local_access_policy": {
+    "original_gzip_direct_filesystem_only": true,
+    "no_encoded_or_chunked_tool_transfer": true,
+    "one_prior_encoded_fetch_stopped_before_decode_or_mathematics": true,
+    "exact_incident_note": "notes/2026-11-12-tail-r102-input-access-correction.md",
+    "no_recompute_if_original_data_exist_and_match": true
+  },
+  "limits": {
+    "no_new_g_or_H": true,
+    "no_Node_or_Arb": true,
+    "no_new_source_integral_or_ODE": true,
+    "same_candidate_only": true,
+    "complete_mean_and_every_finite_J_mode": true,
+    "true_external_PDE_solution_and_complete_field_error_still_unpaid": true,
+    "original_R48_to_new_PA_to_CF_bridge_still_separate": true
+  },
+  "local_dependency_paths": {
+    "stream_check": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-streamcheck.json",
+    "path_confirmed_from": "notes/2026-11-12-tail-r66-seg7-finite-horner-complete-manifest.json"
+  }
+}

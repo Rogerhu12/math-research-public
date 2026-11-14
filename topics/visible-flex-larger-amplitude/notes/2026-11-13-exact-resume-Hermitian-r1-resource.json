@@ -1,0 +1,31 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "-B",
+    "notes/2026-11-13-exact-resume-Hermitian-diagonal-v4.py",
+    "--computations",
+    "computations",
+    "--blocks",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-causal-r1.json",
+    "--blocks-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-causal-r1-resource.json",
+    "--frame",
+    "notes/2026-11-12-root-outer-optimal-frame-r1.json",
+    "--frame-sha256",
+    "e726b2006b27c84ac61d73e0d899d504da7997fd7c3775c7ca3b35e175261751",
+    "--precision",
+    "256",
+    "--rss-kib",
+    "98304",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-Hermitian-r1"
+  ],
+  "wall_seconds": 0.35858917236328125,
+  "exitcode": 1,
+  "termination_signal": null,
+  "peak_rss_kib": 33720,
+  "user_seconds": 0.28363299999999997,
+  "system_seconds": 0.060723,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

@@ -1,0 +1,121 @@
+{
+  "scope": "Execute owned finite geometry cases sequentially, retaining every outcome.\n\nEach field's existing formal resource wrapper remains authoritative.  Completed\ncases are reused after their full manifests and recorded hashes are checked.\nA pause file is observed between fields so the main nonlinear solver may own\nthe larger numerical slot; this driver never interrupts another process.\n",
+  "plan": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-plan.json",
+  "plan_sha256": "e82be07c1f909213cefb80504f02246dd1cd7a155cdac27c660ac3333831bdba",
+  "source_sha256": "9ad8bf39cff08346dbaf1e60830dc39a21f7afa098dbc3cf4ec5d8a0dc36cd15",
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "cases": [
+    {
+      "name": "combined",
+      "started_utc": "2026-11-13T09:52:35.017866+00:00",
+      "reused_existing_complete_case": false,
+      "process_returncode": 0,
+      "exitcode": 0,
+      "complete_finite_field": true,
+      "shape": [
+        3387,
+        768,
+        3
+      ],
+      "report_sha256": "d1af131ed0348f0534c3d339cb2c9648b0af575206c7d76f428c04be1930bd15",
+      "resource_sha256": "be72c4d8bc5c4597273d87837ad7e82be713d4b0c2569a021a8c63a993ec0a1b",
+      "field_manifest_sha256": "fd0a5a3478b76417f19b8de55a9318688a12b3263813c69135ab800b717dc017",
+      "chunks": [
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part000.npy.gz",
+          "sha256": "a3b3f3578a68b7e5899c2550f82a75af57002d1cc22421215cdfe5f7b784d44f",
+          "bytes": 1665692
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part001.npy.gz",
+          "sha256": "53f0e34038779bd021c36da18c46cbe404c37165bca429801afc9acb397871ac",
+          "bytes": 1623181
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part002.npy.gz",
+          "sha256": "1519a0c7291acafd92d41260aacdd58efed81d03aa57fdfe34bb2bf97db47226",
+          "bytes": 1623229
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part003.npy.gz",
+          "sha256": "82a113220612d327a61973faf2125c8ecc614846aec7fae756efe25d9938fba1",
+          "bytes": 1572052
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part004.npy.gz",
+          "sha256": "d6e1bffcc797595e29d54cc4d9348164bd8ebd846ba284c714c35787b3927dc0",
+          "bytes": 1540729
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part005.npy.gz",
+          "sha256": "7c59d89997d39efac4470002fc64b2c2d95cd4fedd2b715866e4396213fbdcd9",
+          "bytes": 1630230
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part006.npy.gz",
+          "sha256": "f2baf07d67fd6960a3746a999eb3f6bf29fcc2dbf95b7e37882b1b42b1525f98",
+          "bytes": 1578876
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part007.npy.gz",
+          "sha256": "fb1b8c13e0a82d71b6df3c1850459c5809c4919d86ff7b084ed42da21376d240",
+          "bytes": 1525050
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part008.npy.gz",
+          "sha256": "73d045fc78c9205a6f926448c159ccdab61d8d343641a50fc55ce1cfae2b2e07",
+          "bytes": 1487616
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part009.npy.gz",
+          "sha256": "4422882efd5ec52fe73261baad384d379d9fb01fec0e17b28593d8412055e4f0",
+          "bytes": 1516230
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part010.npy.gz",
+          "sha256": "bd6f6aa8d67850a1e4178cfacb30156247272d097766e2d39879d84fc3a9b3b5",
+          "bytes": 1446053
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part011.npy.gz",
+          "sha256": "ba47395c73d0e408e2e309bc96348bb01137e9ba3f0f5e8430be7603f6ab0cc4",
+          "bytes": 1427404
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part012.npy.gz",
+          "sha256": "b648da0c224665b94d598d05fac2758e7cf3dcdc33228f61dedcf920b4ce0d87",
+          "bytes": 1440694
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part013.npy.gz",
+          "sha256": "0195a8009f84e1f7d170fa4eef879a1f969d62751ad0d9f7f6281509e0bcd5b8",
+          "bytes": 1331492
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part014.npy.gz",
+          "sha256": "e2190b7334c3ad8fae14fa9d5cc478b171a1faf8c15478f66129a707ecd5e32a",
+          "bytes": 1242741
+        },
+        {
+          "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field-part015.npy.gz",
+          "sha256": "d5e1ac53fb3319e5523ccc456ea1e6c2425b2dad29583d2df0f4b419f4a70e6c",
+          "bytes": 740210
+        }
+      ],
+      "kappa_abs_max_sample": 8.263016483303872,
+      "twice_norm_max_sample": 3.9065112344867945,
+      "height_abs_max_sample": 1.9250029000342406,
+      "peak_rss_kib": 164100,
+      "wall_seconds": 81.54082727432251,
+      "accepted_nonlinear_solution": false,
+      "continuous_geometry_certified": false,
+      "finished_utc": "2026-11-13T09:53:56.672185+00:00"
+    }
+  ],
+  "paused": false,
+  "started_utc": "2026-11-13T09:52:35.017310+00:00",
+  "accepted_nonlinear_solution": false,
+  "continuous_geometry_certified": false,
+  "all_requested_cases_completed": true,
+  "finished_utc": "2026-11-13T09:53:56.672893+00:00"
+}

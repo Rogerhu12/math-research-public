@@ -1,0 +1,30 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "exact-work/2026-11-13-exact-resume-inner-shifted641-certificate-v2.py",
+    "--modal-input",
+    "exact-work/inner-P1-shift040-modal-r1.json.gz",
+    "--modal-resource",
+    "exact-work/inner-P1-shift040-modal-run1-resource.json",
+    "--source-summary",
+    "exact-work/inner-P1-shift040-source-r1-summary.json",
+    "--source-resource",
+    "exact-work/inner-P1-shift040-source-run1-resource.json",
+    "--candidate",
+    "exact-work/inner-P1-shift040-641-recon-r2.json",
+    "--candidate-resource",
+    "exact-work/inner-P1-shift040-641-recon-run2-resource.json",
+    "--out-prefix",
+    "exact-work/inner-P1-shift040-641-cert-r1",
+    "--rss-kib",
+    "98304"
+  ],
+  "wall_seconds": 15.888979434967041,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 72824,
+  "user_seconds": 9.438831,
+  "system_seconds": 0.366181,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

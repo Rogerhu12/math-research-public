@@ -1,0 +1,71 @@
+{
+  "status": "Exact rational presentation of the completed cell11 functional",
+  "checks": [
+    {
+      "mode": 2,
+      "field": "signed_canonical_cut_forcing_contribution",
+      "strict_decimal_lower": "-9.347006e-57",
+      "strict_decimal_upper": "1.242606e-56",
+      "passed": true
+    },
+    {
+      "mode": 2,
+      "field": "absolute_canonical_cut_forcing_upper",
+      "strict_decimal_lower": "0",
+      "strict_decimal_upper": "1.242929e-56",
+      "passed": true
+    },
+    {
+      "mode": 2,
+      "field": "complete_candidate_centre_residual_canonical_Q",
+      "strict_decimal_lower": "9.6530184e-48",
+      "strict_decimal_upper": "9.6530185e-48",
+      "passed": true
+    },
+    {
+      "mode": 2,
+      "field": "complete_candidate_centre_residual_axis_ratio_upper",
+      "strict_decimal_lower": "1.2118595e11",
+      "strict_decimal_upper": "1.2118596e11",
+      "passed": true
+    },
+    {
+      "mode": 4,
+      "field": "signed_canonical_cut_forcing_contribution",
+      "strict_decimal_lower": "-1.058163e-52",
+      "strict_decimal_upper": "1.409053e-52",
+      "passed": true
+    },
+    {
+      "mode": 4,
+      "field": "absolute_canonical_cut_forcing_upper",
+      "strict_decimal_lower": "0",
+      "strict_decimal_upper": "1.409051e-52",
+      "passed": true
+    },
+    {
+      "mode": 4,
+      "field": "complete_candidate_centre_residual_canonical_Q",
+      "strict_decimal_lower": "-1.057652e-52",
+      "strict_decimal_upper": "1.409564e-52",
+      "passed": true
+    },
+    {
+      "mode": 4,
+      "field": "complete_candidate_centre_residual_axis_ratio_upper",
+      "strict_decimal_lower": "0",
+      "strict_decimal_upper": "1.415677e7",
+      "passed": true
+    }
+  ],
+  "signs_and_scope": {
+    "mode2_centre_strictly_positive": true,
+    "mode4_centre_interval_contains_zero": true,
+    "no_unknown_outer_nonlinearity_claim": true,
+    "complete_outer_problem_not_claimed": true
+  },
+  "all_gates": true,
+  "input_path": "notes/2026-11-12-closure-outer-adjoint-cell11-r1.json",
+  "input_sha256": "4755d86eed418afa28487b9ca9828d07503feab672cea5789d1ba034307af0a8",
+  "source_sha256": "fca056f1a3d10eeaf921a243a56931e93e029189b1147339103d590fd8c02e61"
+}

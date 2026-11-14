@@ -1,0 +1,75 @@
+{
+  "status": "Complete conditional proof and static code; numerical split/float/direct-row checks not yet all executed",
+  "files": [
+    {
+      "path": "results/R51-positive-factor-and-direct-split-head-certificate.md",
+      "bytes": 12552,
+      "sha256": "c4a6dbcd0beec168561abf8dbb9fe0a6be87f87e5330fe327b9494c5658b7954"
+    },
+    {
+      "path": "computations/closure_split_joint_io.py",
+      "bytes": 6174,
+      "sha256": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390"
+    },
+    {
+      "path": "computations/closure_split_joint_float_proposal.py",
+      "bytes": 11214,
+      "sha256": "2c01a7d761419b226d9ca89ab11f83d54630ce56bdb226dbba463a1888c8d14b"
+    },
+    {
+      "path": "computations/closure_split_joint_verify.py",
+      "bytes": 12475,
+      "sha256": "7de7b0d07508eb18487a5b8a61fc49d48f5445b047ca5f9033fe49de8140ac81"
+    }
+  ],
+  "current_input_hashes": {
+    "notes/2026-11-12-closure-recovery2-centred-four-green-r1.json.gz": "31c65d6c8053325502542c008720f880d7386cd39168be79ca466851e76bb7ee",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9"
+  },
+  "pending_dependency": "notes/2026-11-12-tail-r50-split-middle-r1.json.gz",
+  "commands_argv": [
+    [
+      "python3",
+      "computations/strong_resource_run.py",
+      "--out",
+      "notes/2026-11-12-closure-r51-split-float-r1-resource.json",
+      "--",
+      "python3",
+      "computations/closure_split_joint_float_proposal.py",
+      "--low",
+      "notes/2026-11-12-closure-recovery2-centred-four-green-r1.json.gz",
+      "--split",
+      "notes/2026-11-12-tail-r50-split-middle-r1.json.gz",
+      "--density",
+      "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+      "--out",
+      "notes/2026-11-12-closure-r51-split-float-r1.json"
+    ],
+    [
+      "python3",
+      "computations/strong_resource_run.py",
+      "--out",
+      "notes/2026-11-12-closure-r51-split-full641-r1-resource.json",
+      "--",
+      "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+      "computations/closure_split_joint_verify.py",
+      "--low",
+      "notes/2026-11-12-closure-recovery2-centred-four-green-r1.json.gz",
+      "--split",
+      "notes/2026-11-12-tail-r50-split-middle-r1.json.gz",
+      "--density",
+      "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+      "--proposal",
+      "notes/2026-11-12-closure-r51-split-float-r1.json",
+      "--out",
+      "notes/2026-11-12-closure-r51-split-full641-r1.json.gz"
+    ]
+  ],
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "numerical_order": "After the split package has formally completed, run the float proposal then direct641 Arb check sequentially; no interval inverse. Preserve any failed proposal and do not call it a certificate.",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted)"
+}

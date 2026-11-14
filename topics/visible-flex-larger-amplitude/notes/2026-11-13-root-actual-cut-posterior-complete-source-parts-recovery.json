@@ -1,0 +1,88 @@
+{
+  "scope": "Complete new-domain high source is actually computed; its11 derived positive Laurent parts are cheap to reproduce and remain scratch under Rule11.",
+  "producer": {
+    "path": "notes/2026-11-13-exact-resume-inner-restricted-complete-source-v1.py",
+    "sha256": "7adc09ca1ee631807bc36fbf0a2197f5b2725670aeef3531ce2e54c49fb48c03"
+  },
+  "modal": {
+    "path": "notes/2026-11-13-root-actual-cut-posterior-modal-r1.json.gz",
+    "sha256": "0a76756d411a350836ab27ca274142df0306628293401763453842130fa6f77c"
+  },
+  "density": {
+    "path": "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+    "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+  },
+  "actual_resource_path": "notes/2026-11-13-root-actual-cut-posterior-source-r1-resource.json",
+  "actual_command": [
+    "python",
+    "-u",
+    "root-work/actual-cut-posterior-inputs/2026-11-13-exact-resume-inner-restricted-complete-source-v1.py",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1.json.gz",
+    "--modal-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1-resource.json",
+    "--density",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/frozen-topic/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1"
+  ],
+  "parts": [
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part1.jsonl.gz",
+      "sha256": "4095baf159f40c4c24defb273ef05922e04fca9b43188dc8befb6c585362f2e3",
+      "bytes": 440042
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part2.jsonl.gz",
+      "sha256": "4f435fab3a78f2ba366f55254d0195d72d8df76bbe4bfa95723173d75e27e172",
+      "bytes": 440697
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part3.jsonl.gz",
+      "sha256": "fec1df55bb0ba8dfa7feac5237abd0aee6e8b6d1718062a697918e4d613e3091",
+      "bytes": 441193
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part4.jsonl.gz",
+      "sha256": "f9fc34ce7a06ca3c0d5112def195044968f56214982a11c06e0cbfd9a0b3ba8d",
+      "bytes": 441312
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part5.jsonl.gz",
+      "sha256": "c2093826169b321603745a1c44a559ceac0a138275d5d7c6dbc56bb483ca8d21",
+      "bytes": 441325
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part6.jsonl.gz",
+      "sha256": "3cd0a2e2db037da7719d64fc556c5114bcb16aad5911a2bc7409dabfad40360c",
+      "bytes": 441533
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part7.jsonl.gz",
+      "sha256": "8fbf05c8c085d232835433e235527cbdd46ebd767135662aece2b003d306d2ec",
+      "bytes": 441902
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part8.jsonl.gz",
+      "sha256": "9af498bb4ce8b0a8fe8eb189b16719b261fdd3dff4ee64fdcab25d167a1d31db",
+      "bytes": 441816
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part9.jsonl.gz",
+      "sha256": "792cedf67e29e658b92b499c424e22a321e30be0c6cd73a5612eb241953c94e2",
+      "bytes": 442149
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part10.jsonl.gz",
+      "sha256": "f30d0c4750cad7eabdf41068574c84978b65a9dbb0644f4a539b8dae02e7ef9b",
+      "bytes": 442183
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-cells-part11.jsonl.gz",
+      "sha256": "32112b78057cdb95efe865579e2f68be44715e3876d5e4110ec079e68f896ac0",
+      "bytes": 287530
+    }
+  ],
+  "total_derived_bytes": 4701682,
+  "regenerate_only_if_original_is_lost": true
+}

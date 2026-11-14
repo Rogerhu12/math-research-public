@@ -1,0 +1,48 @@
+{
+  "schema": "saved-current-initial-law-tail-pair-manifest-v1",
+  "scope": "Exact one-dimensional tail cancellation in the saved current tangent model.\n\nAI-assisted research, strong_recovery, 2026-11-13.\nFor a unit frontload increment and a decrease r in start_acceleration, minimize\nsum_{m>=floor}(m^2-1)|dc_frontload[m]-r*dc_k0[m]|. A weighted median gives an\nexact minimizer for these saved binary coefficients; its subgradient condition\nis checked with Fractions. This is not a finite warm field or a solved design,\nand does not predict its geometry or certify its numerical BVP derivative.\n",
+  "main_report": {
+    "file": "notes/2026-11-13-strong-q126-m32-nine-initial-law-tail-pair-r1.json",
+    "sha256": "4476bf812b9377bdce8608a48c1ebcf3f16c5b3a450782a34a6b5c8959609f04"
+  },
+  "actual_owned_resource": {
+    "exitcode": 0,
+    "wall_seconds": 0.5115150499987067,
+    "peak_rss_kib": 11648
+  },
+  "checks": 20,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-initial-law-tail-pair-r1-heartbeat.json",
+      "sha256": "ebb5fef24f29956684f7f5a529d8a4810e3348bea844d3384e2638ed61b96b97",
+      "bytes": 317
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-initial-law-tail-pair-r1-ownership.json",
+      "sha256": "159b6b05d0c087ca07033ccfa6881de600084af82f4c60e84b0102549808c594",
+      "bytes": 1656
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-initial-law-tail-pair-r1-resource.json",
+      "sha256": "d1a4bdd38ac0173a482c9e397779e90d4809e1319d04b6610d1935d568824ad7",
+      "bytes": 1435
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-initial-law-tail-pair-r1-stdout.log",
+      "sha256": "21332363db9664d2390ec886a4589d07ffd1950b033282735e993561f307346d",
+      "bytes": 2346
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-initial-law-tail-pair-r1.json",
+      "sha256": "4476bf812b9377bdce8608a48c1ebcf3f16c5b3a450782a34a6b5c8959609f04",
+      "bytes": 52974
+    },
+    {
+      "file": "computations/strong_initial_laws_core_tail_pair.py",
+      "sha256": "93fa0bdbe9d00e56ed0f0f29ae2270cfe885c6f22718c5244ec58fb57edb3afd",
+      "bytes": 6702
+    }
+  ],
+  "total_bytes": 65430,
+  "new_geometric_or_nonlinear_success_not_claimed": true
+}

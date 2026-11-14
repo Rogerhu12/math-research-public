@@ -1,0 +1,37 @@
+{
+  "schema": "same-background-height-correct-schema-retry-v1",
+  "previous_failed_owned_resource": "notes/2026-11-13-strong-q126-same-tail-background-height-r1-resource.json",
+  "previous_failure_manifest_sha256": "c27b407cfdbd0333810a1aef97aff3e3f5df2649d568ca61b1f8b74de7529d63",
+  "source": "/workspace/scratch/d1aa462cfc02/strong-work/tail-height-work/strong_frozen_tail_background_stats_v2.mjs",
+  "source_sha256": "a2a8ff0dc398feafc252596e72f187f140799ce9d5a792585d50c9cedb79b548",
+  "only_changes": [
+    "Correct the actual summary.height_max field and check it before factory construction.",
+    "Save the verified original factory stats before endpoint diagnostics.",
+    "Fresh output filenames."
+  ],
+  "all_physical_inputs_and_original_factory_unchanged": true,
+  "command": [
+    "node",
+    "--max-old-space-size=384",
+    "--expose-gc",
+    "/workspace/scratch/d1aa462cfc02/strong-work/tail-height-work/strong_frozen_tail_background_stats_v2.mjs",
+    "--runtime-computations",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations",
+    "--source-topic",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+    "--config",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json",
+    "--actual-primary",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz",
+    "--actual-owned",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-resource.json",
+    "--actual-ready",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-accepted-ready-extracted.json",
+    "--stored-reference-ready",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+    "--ledger-ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--out",
+    "notes/2026-11-13-strong-q126-same-tail-background-height-r2.json.gz"
+  ]
+}

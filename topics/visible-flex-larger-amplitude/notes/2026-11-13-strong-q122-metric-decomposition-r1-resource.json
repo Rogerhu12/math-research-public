@@ -1,0 +1,33 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "notes/2026-11-13-strong-q122-metric-decomposition-r1",
+  "command": [
+    "python",
+    "-u",
+    "computations/strong_saved_metric_residual_decomposition.py",
+    "--input",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1.json.gz",
+    "--source-topic",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--out",
+    "notes/2026-11-13-strong-q122-metric-decomposition-r1.json"
+  ],
+  "started_utc": "2026-11-13T13:11:01.233565+00:00",
+  "finished_utc": "2026-11-13T13:12:29.893166+00:00",
+  "wall_seconds": 88.77387105000162,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 201920,
+  "user_seconds": 46.874102,
+  "system_seconds": 4.133977,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 6,
+  "supervisor_pid": 5,
+  "supervisor_pid_namespace": "pid:[4026532331]",
+  "automatic_restarts": 0
+}

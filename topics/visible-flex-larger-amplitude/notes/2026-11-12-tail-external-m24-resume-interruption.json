@@ -1,0 +1,37 @@
+{
+  "scope": "Observed second interruption of the M24 external factor3.5 recovery. The accepted residual2.7663460164511373e-10 again did not become a complete response. This record establishes SIGKILL and measured child RSS only; it does not establish why the process was killed.",
+  "worker_returncode": -9,
+  "peak_child_rss_KiB": 405232,
+  "node_heap_MiB": 512,
+  "seconds": 941.8931066989899,
+  "complete_successful_response_saved": false,
+  "latest_saved_iteration": {
+    "iteration": 0,
+    "norm": 1.081380382582393e-05,
+    "minA": 0.6044561314827063,
+    "minD": 0.999801283794
+  },
+  "files": [
+    {
+      "file": "notes/2026-11-12-tail-external-m24-resume-summary.json",
+      "sha256": "aa20be2ab28962cc3b7e6e0575c2b882ec87257820e42d83472b3c8642ab508e",
+      "bytes": 25340
+    },
+    {
+      "file": "notes/2026-11-12-tail-external-m24-resume-iteration.json.gz",
+      "sha256": "2b7420b7229d0122d7a79443f0a34e2c911c6fc9c8d5cd228ef5b1385b2f2794",
+      "bytes": 283384
+    },
+    {
+      "file": "notes/2026-11-12-tail-external-m24-resume-trace.jsonl",
+      "sha256": "0bdec55868a415da7d287b09ee235c52bca780b334f1202f8b811cfa606f9973",
+      "bytes": 3015
+    },
+    {
+      "file": "notes/2026-11-12-tail-external-m24-resume-trials.jsonl",
+      "sha256": "b133efc782682e3e356f65b03a9835a5623f366d33fd248a7f2e97e0861ea0b1",
+      "bytes": 165
+    }
+  ],
+  "next_change": "A separate adapter will retain every accepted trial immediately through the existing recovery-only checkpoint recorder, keeping original full variational evaluation and success gates."
+}

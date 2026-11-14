@@ -1,0 +1,94 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "scope": "Pure exact initial-seed storage fixture; no physical source, RHS, Newton, stage map, Jacobian or audit",
+  "finished": true,
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "name": "unmarked prior is returned by identity",
+      "passed": true
+    },
+    {
+      "name": "complete initial warm saved atomically",
+      "passed": true
+    },
+    {
+      "name": "plain checkpoint is explicitly unaccepted",
+      "passed": true
+    },
+    {
+      "name": "all state and height Float64 bits including negative zero restore",
+      "passed": true
+    },
+    {
+      "name": "complete nested parameter encoding preserves negative zero and undefined",
+      "passed": true
+    },
+    {
+      "name": "marked restoration is idempotent without changing exact bytes",
+      "passed": true
+    },
+    {
+      "name": "the original guard permits only original I/O differences",
+      "passed": true
+    },
+    {
+      "name": "the complete stage identity is mandatory and verified",
+      "passed": true
+    },
+    {
+      "name": "tampered authoritative binary payload is rejected",
+      "passed": true
+    },
+    {
+      "name": "tampered exact parameter encoding is rejected",
+      "passed": true
+    },
+    {
+      "name": "ordinary JSON contradictions are rejected",
+      "passed": true
+    },
+    {
+      "name": "marked incomplete or accepted metadata is rejected",
+      "passed": true
+    },
+    {
+      "name": "missing initial states never construct a different warm guess",
+      "passed": true
+    },
+    {
+      "name": "nonfinite complete input and invalid source manifests are rejected",
+      "passed": true
+    },
+    {
+      "name": "repeated identical seed is retained and a conflicting seed is not overwritten",
+      "passed": true
+    },
+    {
+      "name": "actual-size 577 by 48 byte layout round-trips completely",
+      "passed": true
+    }
+  ],
+  "checked_full_states": 577,
+  "checked_full_dimension": 48,
+  "small_seed_bytes": 1501,
+  "full_seed_bytes": 131978,
+  "helper_sha256": "57b87555bac5040eb08dfd02cd72f42611b9aa7e88f2a9483eaccce6f74aaaf0",
+  "fixture_sha256": "1d796bce2b2c388280c1628094c98bc01f4eb4127724ad80db535fee6a6be1b3",
+  "original_warm_helper_sha256": "d5c67a3207679f105eadbe532b27311927a5b8a783370ecfee9c58903c54b3be",
+  "runtime": {
+    "node": "24.22.1",
+    "v8": "13.6.233.17-node.58",
+    "arch": "x64",
+    "platform": "linux"
+  },
+  "memory": {
+    "rss": 56791040,
+    "heapTotal": 19435520,
+    "heapUsed": 12350560,
+    "external": 4996295,
+    "arrayBuffers": 1098387
+  },
+  "physical_computation_started": false,
+  "numerical_solution_accepted": false
+}

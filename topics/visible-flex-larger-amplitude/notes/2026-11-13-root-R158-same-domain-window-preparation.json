@@ -1,0 +1,30 @@
+{
+  "original_source": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_restricted_window13_low46.py",
+  "original_sha256": "4302572f599f3fd03987ba74865ae2919b4c4d54733bf528017716659c6738ba",
+  "fresh_source": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R158_P1_window13_same_domain.py",
+  "fresh_sha256": "0eab999cbbcf1d357ad651775ca54d22e28c69a19885778ab9639647a575311a",
+  "changes": [
+    {
+      "before": "Adapted from exact_closure v3 with an explicit proved parent-domain bridge.",
+      "after": "Adapted from R150 with original parent DQ and fresh same-domain low/window data."
+    },
+    {
+      "before": "for newkey,oldkey in [('modal_input','new_modal'),('previous_window_primary','parent_window'),('low_mode_field','parent_low'),('dq_kernels','parent_dq')]:",
+      "after": "for newkey,oldkey in [('modal_input','new_modal'),('dq_kernels','parent_dq')]:"
+    },
+    {
+      "before": "if not(prev['all_gates'] and all(prev['gates'].values()) and prev['domain']==parent_domain and prev['windows']==WINDOWS and prev['input_identities']['modal_input']['sha256']==parent_modal_sha and sha(a.previous_window_primary)==bridge_ids['parent_window']['sha256']):raise ArithmeticError('Previous exact restricted same-field window bound required')",
+      "after": "if not(prev['all_gates'] and all(prev['gates'].values()) and prev['domain']==field['domain'] and prev['windows']==WINDOWS and prev['input_identities']['modal_input']['sha256']==sha(a.modal_input) and prev['input_identities']['field']['sha256']==sha(a.field)):raise ArithmeticError('Previous window must be the actual same P1 modal and641 field')"
+    },
+    {
+      "before": "if not(lowdata['all_gates'] and all(lowdata['gates'].values()) and lowdata['domain']==parent_domain and lowdata['modes']==list(range(2,93,2)) and lowdata['input_identities']['modal_input']['sha256']==parent_modal_sha and lowdata['input_identities']['window_field']['sha256']==bridge_ids['parent_low_window']['sha256']):raise ArithmeticError('Actual same-field complete low46 spectrum required')",
+      "after": "if not(lowdata['all_gates'] and all(lowdata['gates'].values()) and lowdata['domain']==field['domain'] and lowdata['modes']==list(range(2,93,2)) and lowdata['input_identities']['modal_input']['sha256']==sha(a.modal_input) and lowdata['input_identities']['field641']['sha256']==sha(a.field) and lowdata['input_identities']['window_field']['sha256']==sha(a.previous_window_primary)):raise ArithmeticError('Actual complete low46 spectrum must follow the same P1 field and window')"
+    },
+    {
+      "before": "old_DQ_low_window_provenance_unchanged=True,all_original_ODE_and_Green_reused=True",
+      "after": "old_parent_DQ_provenance_unchanged=True,fresh_same_domain_low_and_window_inputs=True,no_old_domain_labels_changed=True,all_original_ODE_and_Green_reused=True"
+    }
+  ],
+  "mathematical_positive_propagation_loops_unchanged": true,
+  "prelaunch_argument_lookup_error": "First launch plan used a relative source path while original resource stored absolute path. No numerical child was launched; use the unique producer basename."
+}

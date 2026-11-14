@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-13T17:33:53.653990+00:00",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/root_R165_same_CL_frequency_cut.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R165-same-CL-cut-r1.json.gz"
+  ],
+  "source_sha256": "b7e7accbeda55ce107e60bd19410919d4ab0b023a7a5ad7959629054e161b6cb",
+  "input_manifest_sha256": "a490cf47882b85af7d199de839cd07a249ef2835b8c31cd6f7f9b407f30e8b97",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_wall_seconds": 30,
+    "planned_peak_rss_mib": 256
+  },
+  "purpose": "New finite C-spectrum cut coefficients only; preserve all other completed R164 source components. No repeated ODE, complete nonlow solve or qvv construction."
+}

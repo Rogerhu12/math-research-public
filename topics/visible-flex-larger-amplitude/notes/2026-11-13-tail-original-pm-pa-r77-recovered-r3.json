@@ -1,0 +1,914 @@
+{
+  "status": "actual fresh read-only original recovery, no scientific recomputation",
+  "date_utc": "2026-11-13",
+  "original_files": [
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77.json",
+      "is_file": true,
+      "bytes": 11544,
+      "expected_sha256": "9961c22641962656ae9274998fb3bb0e8c0da700cc9a58ff0799d6b2aef7d46b",
+      "actual_sha256": "9961c22641962656ae9274998fb3bb0e8c0da700cc9a58ff0799d6b2aef7d46b",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77-resource.json",
+      "is_file": true,
+      "bytes": 1083,
+      "expected_sha256": "cac46b96770e4d19ddab5b7fa7dbaa10f05b5d9b9517f5ddcc6b2aa8de9d2c22",
+      "actual_sha256": "cac46b96770e4d19ddab5b7fa7dbaa10f05b5d9b9517f5ddcc6b2aa8de9d2c22",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1.json",
+      "is_file": true,
+      "bytes": 16967,
+      "expected_sha256": "563fa719f9abd2308dd8fb2fd14f4a96a6fd2c7e3bf9ab187dd58b608c7bf0a8",
+      "actual_sha256": "563fa719f9abd2308dd8fb2fd14f4a96a6fd2c7e3bf9ab187dd58b608c7bf0a8",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1-resource.json",
+      "is_file": true,
+      "bytes": 1075,
+      "expected_sha256": "ae0da197ffb1eb78739582e2bd779ed2a970972bbf73cd16c3e42f0de1540c43",
+      "actual_sha256": "ae0da197ffb1eb78739582e2bd779ed2a970972bbf73cd16c3e42f0de1540c43",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "is_file": true,
+      "bytes": 310011,
+      "expected_sha256": "b899a0915927680dfc133456083b1af591e9347d59a2d1957a0bd6af0cad6687",
+      "actual_sha256": "b899a0915927680dfc133456083b1af591e9347d59a2d1957a0bd6af0cad6687",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "is_file": true,
+      "bytes": 1253,
+      "expected_sha256": "b167e48cfb99146ad93db7370dc544e00c7db11b51e7fbc5b366ddb203bbc7f6",
+      "actual_sha256": "b167e48cfb99146ad93db7370dc544e00c7db11b51e7fbc5b366ddb203bbc7f6",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "is_file": true,
+      "bytes": 199593,
+      "expected_sha256": "027192774cf63d4928eb278cca0a1942ac18f0bbeb0c51bd967fcecd5ac42421",
+      "actual_sha256": "027192774cf63d4928eb278cca0a1942ac18f0bbeb0c51bd967fcecd5ac42421",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "is_file": true,
+      "bytes": 384170,
+      "expected_sha256": "75bdfe5d5bcc4fc66fde91ff098f18159fd483c7f5b2017762513f7f7e0e1978",
+      "actual_sha256": "75bdfe5d5bcc4fc66fde91ff098f18159fd483c7f5b2017762513f7f7e0e1978",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-resource.json",
+      "is_file": true,
+      "bytes": 1114,
+      "expected_sha256": "4555b1bfb814362fd2de27c14e6109997b7940932fe0f5f14c97e6941efc72ea",
+      "actual_sha256": "4555b1bfb814362fd2de27c14e6109997b7940932fe0f5f14c97e6941efc72ea",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-part00-fields.jsonl.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-part00-fields.jsonl.gz",
+      "is_file": true,
+      "bytes": 239049,
+      "expected_sha256": "6af1032c206236167ddd0f613bd045a2105369b3dc6e5fb1e9acebc8cc54dde5",
+      "actual_sha256": "6af1032c206236167ddd0f613bd045a2105369b3dc6e5fb1e9acebc8cc54dde5",
+      "matches": true
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-r1-plan.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-r1-plan.json",
+      "is_file": true,
+      "bytes": 3286,
+      "expected_sha256": "6e4c9c5f06dcc294eb0c6290854db1c162ddf1dc216b5a6a7a32e099fcb0720f",
+      "actual_sha256": "6e4c9c5f06dcc294eb0c6290854db1c162ddf1dc216b5a6a7a32e099fcb0720f",
+      "matches": true
+    },
+    {
+      "path": "computations/tail_outer_physical_substage_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_moments.py",
+      "is_file": true,
+      "bytes": 21632,
+      "expected_sha256": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+      "actual_sha256": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+      "matches": true
+    },
+    {
+      "path": "computations/tail_outer_physical_substage_candidate.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_candidate.py",
+      "is_file": true,
+      "bytes": 16626,
+      "expected_sha256": "20d0ce487d61361501e9086d3f8126c7ae3eadf11590d16626915b0743416a13",
+      "actual_sha256": "20d0ce487d61361501e9086d3f8126c7ae3eadf11590d16626915b0743416a13",
+      "matches": true
+    }
+  ],
+  "producer_dependency_checks": [
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "input_hashes",
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "expected_sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+      "actual_sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "input_hashes",
+      "path": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "expected_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "actual_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "source_hashes",
+      "path": "closure_real_outer_radius.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/closure_real_outer_radius.py",
+      "expected_sha256": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+      "actual_sha256": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_r33_middle_ordered_physical.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_r33_middle_ordered_physical.py",
+      "expected_sha256": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+      "actual_sha256": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_positive_moment_panels.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_positive_moment_panels.py",
+      "expected_sha256": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+      "actual_sha256": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_capped_true_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_capped_true_moments.py",
+      "expected_sha256": "88ca736fe426fc3aa9d7f09507aba4f11dd80ea7100dcbec346df6d542b53c6b",
+      "actual_sha256": "88ca736fe426fc3aa9d7f09507aba4f11dd80ea7100dcbec346df6d542b53c6b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_physical_r_true_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_r_true_moments.py",
+      "expected_sha256": "67ac79f49c47b4fc0cdef9d145decc955b6b6428c18e56150f3d299d1956c670",
+      "actual_sha256": "67ac79f49c47b4fc0cdef9d145decc955b6b6428c18e56150f3d299d1956c670",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_centered_quartic_fields_v2.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_centered_quartic_fields_v2.py",
+      "expected_sha256": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+      "actual_sha256": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_candidate_domain.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_candidate_domain.py",
+      "expected_sha256": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+      "actual_sha256": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_physical_substage_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_moments.py",
+      "expected_sha256": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+      "actual_sha256": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_input_hashes",
+      "path": "notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json",
+      "expected_sha256": "1ac05db87c40fe4421eb6067d81448a466548060c58a2dfc0c4ea51bd7ed7582",
+      "actual_sha256": "1ac05db87c40fe4421eb6067d81448a466548060c58a2dfc0c4ea51bd7ed7582",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_input_hashes",
+      "path": "notes/2026-11-12-root-real-outer-radius-v4-recovered-full.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-root-real-outer-radius-v4-recovered-full.json",
+      "expected_sha256": "28d491b998174029a80daf41e9365de6ab2c54757419de7b64f54445047b717f",
+      "actual_sha256": "28d491b998174029a80daf41e9365de6ab2c54757419de7b64f54445047b717f",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_input_hashes",
+      "path": "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+      "expected_sha256": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+      "actual_sha256": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_input_hashes",
+      "path": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "expected_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "actual_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_input_hashes",
+      "path": "notes/2026-11-12-tail-outer-cell0-remaining-segment-bounds-r1.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-remaining-segment-bounds-r1.json",
+      "expected_sha256": "0100cdb8095f134c97963dc384d3c7cb1e1b7b84a335380072c185815bef5046",
+      "actual_sha256": "0100cdb8095f134c97963dc384d3c7cb1e1b7b84a335380072c185815bef5046",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_input_hashes",
+      "path": "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "absolute_path": "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "expected_sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "actual_sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_saved_substage_candidate.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_saved_substage_candidate.py",
+      "expected_sha256": "9c2903ea8e44191166bd5f00c929f596915669482a1d3709844cd6945a227ffc",
+      "actual_sha256": "9c2903ea8e44191166bd5f00c929f596915669482a1d3709844cd6945a227ffc",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_checked_substage_candidate.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_checked_substage_candidate.py",
+      "expected_sha256": "3830ca80beac62bd0ae153f0326f3a304321fde5a4886ad3d66ead06b07e3e9c",
+      "actual_sha256": "3830ca80beac62bd0ae153f0326f3a304321fde5a4886ad3d66ead06b07e3e9c",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_candidate_domain.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_candidate_domain.py",
+      "expected_sha256": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+      "actual_sha256": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_weighted_endpoint.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_weighted_endpoint.py",
+      "expected_sha256": "2ab276f326063f99dda67d26daa86f41280997fa9909e2c6d250a0dc2e062526",
+      "actual_sha256": "2ab276f326063f99dda67d26daa86f41280997fa9909e2c6d250a0dc2e062526",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_weighted_compatible.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_weighted_compatible.py",
+      "expected_sha256": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+      "actual_sha256": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_finite_momentum_root.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_finite_momentum_root.py",
+      "expected_sha256": "71a69da161fdd63d5043a3118ac024e1dc57f5f759609f9a61477eb67a7d1a56",
+      "actual_sha256": "71a69da161fdd63d5043a3118ac024e1dc57f5f759609f9a61477eb67a7d1a56",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_general_mean_bounds.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_general_mean_bounds.py",
+      "expected_sha256": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+      "actual_sha256": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_positive_moment_panels.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_positive_moment_panels.py",
+      "expected_sha256": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+      "actual_sha256": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "closure_real_outer_radius.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/closure_real_outer_radius.py",
+      "expected_sha256": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+      "actual_sha256": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_r33_middle_ordered_physical.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_r33_middle_ordered_physical.py",
+      "expected_sha256": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+      "actual_sha256": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "group": "original_candidate_source_hashes",
+      "path": "tail_outer_same_candidate_point_probe.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_same_candidate_point_probe.py",
+      "expected_sha256": "3ca36917ab669383e48ec5920e0879824cfbc14a4d141259e28eb3cf083c53a9",
+      "actual_sha256": "3ca36917ab669383e48ec5920e0879824cfbc14a4d141259e28eb3cf083c53a9",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "input_hashes",
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "expected_sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+      "actual_sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "input_hashes",
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "expected_sha256": "b899a0915927680dfc133456083b1af591e9347d59a2d1957a0bd6af0cad6687",
+      "actual_sha256": "b899a0915927680dfc133456083b1af591e9347d59a2d1957a0bd6af0cad6687",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "input_hashes",
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "expected_sha256": "b167e48cfb99146ad93db7370dc544e00c7db11b51e7fbc5b366ddb203bbc7f6",
+      "actual_sha256": "b167e48cfb99146ad93db7370dc544e00c7db11b51e7fbc5b366ddb203bbc7f6",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "input_hashes",
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "expected_sha256": "027192774cf63d4928eb278cca0a1942ac18f0bbeb0c51bd967fcecd5ac42421",
+      "actual_sha256": "027192774cf63d4928eb278cca0a1942ac18f0bbeb0c51bd967fcecd5ac42421",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_physical_substage_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_moments.py",
+      "expected_sha256": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+      "actual_sha256": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_original_piece_finite_j.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_original_piece_finite_j.py",
+      "expected_sha256": "b5196622ed649c6e3a3d6ad3227f30b0c54651d402c5866cfa2102d5e6def2d4",
+      "actual_sha256": "b5196622ed649c6e3a3d6ad3227f30b0c54651d402c5866cfa2102d5e6def2d4",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_general_mean_bounds.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_general_mean_bounds.py",
+      "expected_sha256": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+      "actual_sha256": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_substage_span_refinement.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_substage_span_refinement.py",
+      "expected_sha256": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+      "actual_sha256": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_weighted_compatible.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_weighted_compatible.py",
+      "expected_sha256": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+      "actual_sha256": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_centered_quartic_fields_v2.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_centered_quartic_fields_v2.py",
+      "expected_sha256": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+      "actual_sha256": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_candidate_domain.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_candidate_domain.py",
+      "expected_sha256": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+      "actual_sha256": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_saved_substage_candidate.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_saved_substage_candidate.py",
+      "expected_sha256": "9c2903ea8e44191166bd5f00c929f596915669482a1d3709844cd6945a227ffc",
+      "actual_sha256": "9c2903ea8e44191166bd5f00c929f596915669482a1d3709844cd6945a227ffc",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_checked_substage_candidate.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_checked_substage_candidate.py",
+      "expected_sha256": "3830ca80beac62bd0ae153f0326f3a304321fde5a4886ad3d66ead06b07e3e9c",
+      "actual_sha256": "3830ca80beac62bd0ae153f0326f3a304321fde5a4886ad3d66ead06b07e3e9c",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_weighted_endpoint.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_weighted_endpoint.py",
+      "expected_sha256": "2ab276f326063f99dda67d26daa86f41280997fa9909e2c6d250a0dc2e062526",
+      "actual_sha256": "2ab276f326063f99dda67d26daa86f41280997fa9909e2c6d250a0dc2e062526",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_finite_momentum_root.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_finite_momentum_root.py",
+      "expected_sha256": "71a69da161fdd63d5043a3118ac024e1dc57f5f759609f9a61477eb67a7d1a56",
+      "actual_sha256": "71a69da161fdd63d5043a3118ac024e1dc57f5f759609f9a61477eb67a7d1a56",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_positive_moment_panels.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_positive_moment_panels.py",
+      "expected_sha256": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+      "actual_sha256": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "closure_real_outer_radius.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/closure_real_outer_radius.py",
+      "expected_sha256": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+      "actual_sha256": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_r33_middle_ordered_physical.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_r33_middle_ordered_physical.py",
+      "expected_sha256": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+      "actual_sha256": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_same_candidate_point_probe.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_same_candidate_point_probe.py",
+      "expected_sha256": "3ca36917ab669383e48ec5920e0879824cfbc14a4d141259e28eb3cf083c53a9",
+      "actual_sha256": "3ca36917ab669383e48ec5920e0879824cfbc14a4d141259e28eb3cf083c53a9",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_capped_true_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_capped_true_moments.py",
+      "expected_sha256": "88ca736fe426fc3aa9d7f09507aba4f11dd80ea7100dcbec346df6d542b53c6b",
+      "actual_sha256": "88ca736fe426fc3aa9d7f09507aba4f11dd80ea7100dcbec346df6d542b53c6b",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_physical_r_true_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_r_true_moments.py",
+      "expected_sha256": "67ac79f49c47b4fc0cdef9d145decc955b6b6428c18e56150f3d299d1956c670",
+      "actual_sha256": "67ac79f49c47b4fc0cdef9d145decc955b6b6428c18e56150f3d299d1956c670",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "source_hashes",
+      "path": "tail_outer_physical_substage_candidate.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_candidate.py",
+      "expected_sha256": "20d0ce487d61361501e9086d3f8126c7ae3eadf11590d16626915b0743416a13",
+      "actual_sha256": "20d0ce487d61361501e9086d3f8126c7ae3eadf11590d16626915b0743416a13",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "original_moment_inputs",
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "expected_sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+      "actual_sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+      "matches": true
+    },
+    {
+      "owner": "2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "group": "original_moment_inputs",
+      "path": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "expected_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "actual_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "matches": true
+    }
+  ],
+  "summaries": [
+    {
+      "path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "keys": [
+        "author",
+        "scope",
+        "status",
+        "cell",
+        "segment",
+        "modes",
+        "tau",
+        "first_part",
+        "stop_part",
+        "parts",
+        "nodes",
+        "counts",
+        "parameters",
+        "gates",
+        "whole_segment_moment_cover",
+        "input_hashes",
+        "source_hashes",
+        "original_candidate_input_hashes",
+        "original_candidate_source_hashes",
+        "new_candidate_definition",
+        "original_source_x_candidate_unchanged_on_disk",
+        "new_radial_ODE_or_Node",
+        "candidate_R64_or_exact_solution_claimed",
+        "elapsed_seconds",
+        "peak_RSS_KiB"
+      ],
+      "mapping_keys": {
+        "input_hashes": 2,
+        "source_hashes": 8,
+        "original_candidate_input_hashes": 6,
+        "original_candidate_source_hashes": 11
+      }
+    },
+    {
+      "path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "keys": [
+        "author",
+        "scope",
+        "status",
+        "cell",
+        "segment",
+        "modes",
+        "tau",
+        "parts",
+        "nodes",
+        "first_part",
+        "stop_part",
+        "total_panels",
+        "whole_segment_candidate_audited",
+        "bounds",
+        "minima",
+        "gates",
+        "input_hashes",
+        "source_hashes",
+        "original_moment_inputs",
+        "complete_mean_height",
+        "new_source_evaluation_integral_ODE_or_Node",
+        "exact_outer_solution_or_Schur_inverse_claimed",
+        "elapsed_seconds",
+        "peak_RSS_KiB"
+      ],
+      "mapping_keys": {
+        "input_hashes": 4,
+        "source_hashes": 18,
+        "original_moment_inputs": 2
+      }
+    }
+  ],
+  "local_stream_schema_observations": [
+    {
+      "path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "kind_counts": {
+        "header": 1,
+        "complete_new_physical_substage_moment_leaf": 111,
+        "trailer": 1
+      },
+      "record_key_sets": {
+        "header": [
+          "kind",
+          "cell",
+          "segment",
+          "part",
+          "physical_coordinate",
+          "NEW_candidate_moments",
+          "input_hashes",
+          "source_hashes"
+        ],
+        "complete_new_physical_substage_moment_leaf": [
+          "kind",
+          "panel",
+          "source_left",
+          "source_right",
+          "branch_sign",
+          "complete_branch_union",
+          "width",
+          "u",
+          "radius",
+          "source_radius_x",
+          "w",
+          "log_w_r",
+          "moments",
+          "prefix_moments",
+          "suffix_moments",
+          "width_relative_remainder",
+          "moment_relative_remainder"
+        ],
+        "trailer": [
+          "kind",
+          "complete",
+          "panels",
+          "source_left",
+          "source_right"
+        ]
+      }
+    },
+    {
+      "path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-part00-fields.jsonl.gz",
+      "kind_counts": {
+        "header": 1,
+        "complete_new_physical_substage_R64_J_R77_leaf": 111,
+        "trailer": 1
+      },
+      "record_key_sets": {
+        "header": [
+          "kind",
+          "cell",
+          "segment",
+          "part",
+          "coordinate",
+          "NEW_physical_candidate",
+          "complete_J_cosine_modes",
+          "input_hashes",
+          "source_hashes"
+        ],
+        "complete_new_physical_substage_R64_J_R77_leaf": [
+          "kind",
+          "segment",
+          "part",
+          "panel",
+          "source_left",
+          "source_right",
+          "physical_u",
+          "complete_mean_of_defined_new_candidate",
+          "actual_derivative_coordinate",
+          "source",
+          "bounds_upper",
+          "gates_lower",
+          "full_J_cosine_intervals",
+          "actual_nonmean_jet_cosine_intervals"
+        ],
+        "trailer": [
+          "kind",
+          "complete",
+          "panels",
+          "part",
+          "complete_source_and_physical_cover"
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77-resource.json",
+      "exitcode": 0,
+      "termination_signal": null,
+      "wall_seconds": 1.683398962020874,
+      "keys": [
+        "scope",
+        "command",
+        "wall_seconds",
+        "exitcode",
+        "termination_signal",
+        "peak_rss_kib",
+        "user_seconds",
+        "system_seconds",
+        "resource_wrapper_sha256"
+      ]
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1-resource.json",
+      "exitcode": 0,
+      "termination_signal": null,
+      "wall_seconds": 0.09115195274353027,
+      "keys": [
+        "scope",
+        "command",
+        "wall_seconds",
+        "exitcode",
+        "termination_signal",
+        "peak_rss_kib",
+        "user_seconds",
+        "system_seconds",
+        "resource_wrapper_sha256"
+      ]
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "exitcode": 0,
+      "termination_signal": null,
+      "wall_seconds": 0.8791379928588867,
+      "keys": [
+        "scope",
+        "command",
+        "wall_seconds",
+        "exitcode",
+        "termination_signal",
+        "peak_rss_kib",
+        "user_seconds",
+        "system_seconds",
+        "resource_wrapper_sha256"
+      ]
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-resource.json",
+      "exitcode": 0,
+      "termination_signal": null,
+      "wall_seconds": 3.540830373764038,
+      "keys": [
+        "scope",
+        "command",
+        "wall_seconds",
+        "exitcode",
+        "termination_signal",
+        "peak_rss_kib",
+        "user_seconds",
+        "system_seconds",
+        "resource_wrapper_sha256"
+      ]
+    }
+  ],
+  "gates": {
+    "all13_original_sha_match": true,
+    "all_discovered_original_dependencies_match": true,
+    "all_four_original_resources_formal_zero": true,
+    "all34_original_primary_dependencies_match": true,
+    "all17_extra_nested_candidate_dependencies_match": true
+  },
+  "old_tmp_manifest_missing": true,
+  "old_tmp_manifest_expected_sha256": "68e7764eeba3369bbe560ea46e86c2534f379e5c0a4e3decf354ff08bd1f5744",
+  "new_Arb_Node_ODE_source_integrals_or_recomputation": 0,
+  "peak_RSS_KiB": 9728,
+  "previous_observation": {
+    "path": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-original-pm-pa-r77-recovered-r2.json",
+    "sha256": "b5b0225b898ff35cb1acf6626280ad3efd2264f3c500a5e76b61121acbd4fd06",
+    "reason_for_fresh_r3": "r2 resolved original_candidate_source_hashes basename keys under topic instead of computations; original files were not missing and no mathematical data changed"
+  },
+  "files": [
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77.json",
+      "sha256": "9961c22641962656ae9274998fb3bb0e8c0da700cc9a58ff0799d6b2aef7d46b",
+      "bytes": 11544
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-R77-resource.json",
+      "sha256": "cac46b96770e4d19ddab5b7fa7dbaa10f05b5d9b9517f5ddcc6b2aa8de9d2c22",
+      "bytes": 1083
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1.json",
+      "sha256": "563fa719f9abd2308dd8fb2fd14f4a96a6fd2c7e3bf9ab187dd58b608c7bf0a8",
+      "bytes": 16967
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-seg7R77-r1-resource.json",
+      "sha256": "ae0da197ffb1eb78739582e2bd779ed2a970972bbf73cd16c3e42f0de1540c43",
+      "bytes": 1075
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-summary.json",
+      "sha256": "b899a0915927680dfc133456083b1af591e9347d59a2d1957a0bd6af0cad6687",
+      "bytes": 310011
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-resource.json",
+      "sha256": "b167e48cfb99146ad93db7370dc544e00c7db11b51e7fbc5b366ddb203bbc7f6",
+      "bytes": 1253
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-moments-r1-part00-moments.jsonl.gz",
+      "sha256": "027192774cf63d4928eb278cca0a1942ac18f0bbeb0c51bd967fcecd5ac42421",
+      "bytes": 199593
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-summary.json",
+      "sha256": "75bdfe5d5bcc4fc66fde91ff098f18159fd483c7f5b2017762513f7f7e0e1978",
+      "bytes": 384170
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-resource.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-resource.json",
+      "sha256": "4555b1bfb814362fd2de27c14e6109997b7940932fe0f5f14c97e6941efc72ea",
+      "bytes": 1114
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-part00-fields.jsonl.gz",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-audit-r1-part00-fields.jsonl.gz",
+      "sha256": "6af1032c206236167ddd0f613bd045a2105369b3dc6e5fb1e9acebc8cc54dde5",
+      "bytes": 239049
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-r1-plan.json",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-outer-cell0-seg7-part0-physical-r-r1-plan.json",
+      "sha256": "6e4c9c5f06dcc294eb0c6290854db1c162ddf1dc216b5a6a7a32e099fcb0720f",
+      "bytes": 3286
+    },
+    {
+      "path": "computations/tail_outer_physical_substage_moments.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_moments.py",
+      "sha256": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+      "bytes": 21632
+    },
+    {
+      "path": "computations/tail_outer_physical_substage_candidate.py",
+      "absolute_path": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_candidate.py",
+      "sha256": "20d0ce487d61361501e9086d3f8126c7ae3eadf11590d16626915b0743416a13",
+      "bytes": 16626
+    }
+  ]
+}

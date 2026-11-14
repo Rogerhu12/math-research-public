@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/R160-fixed-low-newwidth-inputs/root_R160_fixed_low_newwidth_nonlow.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R160-fixed-low-newwidth-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R160-fixed-LF-shift040-r1.json.gz",
+    "--shift",
+    "2/5",
+    "--finite-source-extra-width",
+    "1/2"
+  ],
+  "source_sha256": "00c9cec750fb50dbd0cfc2526f5ad47cd960340beb186d8d0a7c4df27585efc7",
+  "inputs_sha256": "b96afc260d704c41187f2595a17c232aefd36f26be1778637eb5bd6528b00ddd"
+}

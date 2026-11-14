@@ -1,0 +1,12 @@
+{
+  "scope": "Interrupted original linear transfer run, not a complete 64-mode port. Completed rows are actual computations but no rows were extrapolated.",
+  "exit_code": 137,
+  "cause": "Not established by the available process output.",
+  "requested_modes": 64,
+  "completed_modes": 39,
+  "last_physical_frequency": 78,
+  "raw_file": "notes/2026-11-12-tail-linear64-r2048-original-partial39.json",
+  "raw_sha256": "dc7173d9b2074cd564f989ccde1793eb0b0c77b29786a2cd7fdc03f6f454b26d",
+  "source_script": "950f-tail-linear-cusp.mjs",
+  "next_step": "Use the cell-major implementation, with identical per-mode RK4 arithmetic and released completed-cell private caches."
+}

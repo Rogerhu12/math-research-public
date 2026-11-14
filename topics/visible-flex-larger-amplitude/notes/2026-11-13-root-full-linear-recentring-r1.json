@@ -1,0 +1,72 @@
+{
+  "schema": "true-all-linear-recentring-v1",
+  "scope": "Same existing R105/R100 low46 solution, now centred at the full true L_R on the unchanged full unit parameter domain. No cut or all-frequency PDE closure asserted.",
+  "all_gates": true,
+  "gates": {
+    "same_actual_all_linear_source": true,
+    "same_existing_R105_true_solution": true,
+    "actual_owned_source_formal_zero": true,
+    "all_source_gates": true,
+    "all_existing_solution_gates": true,
+    "exact_all46_modes": true,
+    "complete_original_materials": true,
+    "complete_actual_geometry": true,
+    "joint_centre_covers_separate_radial_suprema": true,
+    "joint_green_covers_separate_radial_suprema": true,
+    "same_complete_head_far_and_full_mean": true,
+    "same_absolute9_complete_contraction": true,
+    "all_linear_centre_inside_absolute9": true,
+    "whole_recentered_ball_inside_absolute9": true,
+    "strict_recentered_selfmap": true,
+    "posterior_is_inside_recentered_ball": true,
+    "actual_posterior_below_1p31e_minus13": true
+  },
+  "inputs": {
+    "/workspace/scratch/d1aa462cfc02/root-work/all-linear/full-linear-r1-summary.json": "58ae9b5d9332ce09530d2380b00348eb50efa3693a27294ecf185d9ea6f175db",
+    "notes/2026-11-13-root-signed46-projected-ball-r1.json": "cbf948ece6dcbad4f7a11c85d7ad721006fd7cf295da9baea87cf4f9de80c0a8",
+    "/workspace/scratch/d1aa462cfc02/root-work/all-linear/full-linear-r1-resource.json": "5ae8a3e16e3891a9d7716b906c12bf44f864fab3913ea9a2533f713e6936aa89"
+  },
+  "source_sha256": "fc245a3644ce752d5f3d56c8ae90f060f1c8c0870097b60172d5dbd2a53630c3",
+  "centre_norm_upper": {
+    "numerator": "298882158656559424106078424914818421067",
+    "denominator": "42535295865117307932921825928971026432",
+    "display_only": 7.026685781247125
+  },
+  "complete_fixed_centre_green": {
+    "numerator": "195450218252212536374532772257303755507",
+    "denominator": "1496577676626844588240573268701473812127674924007424",
+    "display_only": 1.305981114810828e-13
+  },
+  "same_complete_head_field": {
+    "numerator": "20605735184123951883357512549392593458657312946064869582541414758028664848523255256075",
+    "denominator": "559936185544451052639360570142111069530411374308662383724997275240947967795040236345219373317901778944",
+    "display_only": 3.6800149224305034e-17
+  },
+  "same_absolute9_contraction": {
+    "numerator": "50288421734824939652518682949",
+    "denominator": "20282409603651670423947251286016",
+    "display_only": 0.0024794106182418753
+  },
+  "chosen_radius": {
+    "numerator": "3",
+    "denominator": "20000000000000",
+    "display_only": 1.5e-13
+  },
+  "complete_image": {
+    "numerator": "89545240326912990065572776873252257846471922193905067549868559421318219829867278719770908798950247",
+    "denominator": "683515851494691226366406945974256676672865447154128886383053314503110312249804976007347867819704320000000000000",
+    "display_only": 1.3100682322304338e-13
+  },
+  "strict_selfmap_slack": {
+    "numerator": "12982137397290693889388265022886243654457894879214265407589437754148327007603467681331271374005401",
+    "denominator": "683515851494691226366406945974256676672865447154128886383053314503110312249804976007347867819704320000000000000",
+    "display_only": 1.899317677695661e-14
+  },
+  "a_posteriori_radius": {
+    "numerator": "73147214117210606733708874316587683979864027919469885308337748963987123518475780642477067",
+    "denominator": "558547873820474287785971606822240631877306236030148076868233442481236220020696942446824296730568163328",
+    "display_only": 1.3095961428853496e-13
+  },
+  "all46_cut_claimed": false,
+  "all_frequency_PDE_claimed": false
+}

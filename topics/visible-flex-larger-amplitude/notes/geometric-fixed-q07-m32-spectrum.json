@@ -1,0 +1,1241 @@
+{
+  "scope": "Angular Frenet RHS spectrum at specified saved-prefix latitudes.\n\nReprojection at larger Fourier cutoffs uses the same saved curve, not a new\nBVP solution. It distinguishes unresolved angular structure from quadrature\nerror and predicts only the projection error of this particular curve.\n",
+  "input_file": "notes/geometric-fixed-q07-m32.json.gz",
+  "input_sha256": "37d2fee408aed31d05909bf6c1eb042ad052f72939f8175b31597440e097c8a1",
+  "script_sha256": "f216640dc184ca3724a5d56368d037619e5fcf06c60e2ef9393134f1f63053d6",
+  "angular": 4096,
+  "rows": [
+    {
+      "s": 1.136057604736223,
+      "curve_curvature_min": 0.8760404591705766,
+      "frenet_margin_min": 0.9963905762220019,
+      "chart_rho_min": 0.9580592810372563,
+      "nonlinear_RHS_modes": [
+        {
+          "mode": 1,
+          "physical_frequency": 2,
+          "cos_sin_vector_amplitude": [
+            0.014973835605501404,
+            0.06102511365263462,
+            0.004883208045056481
+          ]
+        },
+        {
+          "mode": 2,
+          "physical_frequency": 4,
+          "cos_sin_vector_amplitude": [
+            0.07115635302611062,
+            0.020213303249042608,
+            0.0028657691882100125
+          ]
+        },
+        {
+          "mode": 3,
+          "physical_frequency": 6,
+          "cos_sin_vector_amplitude": [
+            0.0005962420238783532,
+            2.864599996709637e-05,
+            0.0008031776625978813
+          ]
+        },
+        {
+          "mode": 4,
+          "physical_frequency": 8,
+          "cos_sin_vector_amplitude": [
+            0.006564032248946003,
+            0.0001491793635308185,
+            0.0015129755910697903
+          ]
+        },
+        {
+          "mode": 5,
+          "physical_frequency": 10,
+          "cos_sin_vector_amplitude": [
+            1.1998453744472584e-05,
+            2.410726466576738e-06,
+            0.00012441617846174465
+          ]
+        },
+        {
+          "mode": 6,
+          "physical_frequency": 12,
+          "cos_sin_vector_amplitude": [
+            0.0001560283555250764,
+            0.00013000739427787968,
+            0.00023789062601346732
+          ]
+        },
+        {
+          "mode": 7,
+          "physical_frequency": 14,
+          "cos_sin_vector_amplitude": [
+            1.5301898448048904e-05,
+            3.0510480567514215e-06,
+            6.464312895271256e-06
+          ]
+        },
+        {
+          "mode": 8,
+          "physical_frequency": 16,
+          "cos_sin_vector_amplitude": [
+            0.00013646449611608733,
+            2.1084062205468095e-05,
+            1.0522220994424217e-05
+          ]
+        },
+        {
+          "mode": 9,
+          "physical_frequency": 18,
+          "cos_sin_vector_amplitude": [
+            2.3402565150797056e-06,
+            9.23994180130477e-07,
+            2.4607908200779617e-06
+          ]
+        },
+        {
+          "mode": 10,
+          "physical_frequency": 20,
+          "cos_sin_vector_amplitude": [
+            5.2216603074205574e-05,
+            5.54110245460847e-07,
+            6.794032579419096e-06
+          ]
+        },
+        {
+          "mode": 11,
+          "physical_frequency": 22,
+          "cos_sin_vector_amplitude": [
+            1.8097025460925585e-07,
+            1.2102343074077516e-07,
+            1.2722656762684545e-06
+          ]
+        },
+        {
+          "mode": 12,
+          "physical_frequency": 24,
+          "cos_sin_vector_amplitude": [
+            1.2116718925920176e-05,
+            8.25776934472022e-07,
+            2.933618678786961e-06
+          ]
+        },
+        {
+          "mode": 13,
+          "physical_frequency": 26,
+          "cos_sin_vector_amplitude": [
+            2.3173336837809948e-07,
+            1.6728910674102636e-08,
+            3.6530580771987733e-07
+          ]
+        },
+        {
+          "mode": 14,
+          "physical_frequency": 28,
+          "cos_sin_vector_amplitude": [
+            1.833402629976036e-06,
+            3.121612859891944e-07,
+            7.263144704887933e-07
+          ]
+        },
+        {
+          "mode": 15,
+          "physical_frequency": 30,
+          "cos_sin_vector_amplitude": [
+            7.213817644845287e-08,
+            1.51890293847632e-08,
+            7.32191827496331e-08
+          ]
+        },
+        {
+          "mode": 16,
+          "physical_frequency": 32,
+          "cos_sin_vector_amplitude": [
+            3.449937149778492e-08,
+            6.701596172186459e-08,
+            1.1300734700585397e-07
+          ]
+        },
+        {
+          "mode": 17,
+          "physical_frequency": 34,
+          "cos_sin_vector_amplitude": [
+            1.1518003852271074e-08,
+            5.0155466339276535e-09,
+            7.760288491032256e-09
+          ]
+        },
+        {
+          "mode": 18,
+          "physical_frequency": 36,
+          "cos_sin_vector_amplitude": [
+            7.452123633517781e-08,
+            6.507222450427455e-09,
+            1.7234093502217942e-09
+          ]
+        },
+        {
+          "mode": 19,
+          "physical_frequency": 38,
+          "cos_sin_vector_amplitude": [
+            1.7600053200942573e-09,
+            9.427104663522284e-10,
+            1.4033342609481677e-09
+          ]
+        },
+        {
+          "mode": 20,
+          "physical_frequency": 40,
+          "cos_sin_vector_amplitude": [
+            4.0230048627942534e-08,
+            8.620041468740415e-10,
+            6.330298023550415e-09
+          ]
+        },
+        {
+          "mode": 21,
+          "physical_frequency": 42,
+          "cos_sin_vector_amplitude": [
+            1.9817075568194997e-09,
+            2.0741023788197617e-12,
+            1.4540397117508694e-09
+          ]
+        },
+        {
+          "mode": 22,
+          "physical_frequency": 44,
+          "cos_sin_vector_amplitude": [
+            1.8489004915946796e-08,
+            6.589703877239434e-10,
+            3.345729441951231e-09
+          ]
+        },
+        {
+          "mode": 23,
+          "physical_frequency": 46,
+          "cos_sin_vector_amplitude": [
+            9.486377265269231e-10,
+            6.409561227828076e-11,
+            7.763183030242248e-10
+          ]
+        },
+        {
+          "mode": 24,
+          "physical_frequency": 48,
+          "cos_sin_vector_amplitude": [
+            8.585770395464974e-09,
+            3.0172473904094787e-10,
+            1.4473279194915681e-09
+          ]
+        },
+        {
+          "mode": 25,
+          "physical_frequency": 50,
+          "cos_sin_vector_amplitude": [
+            2.574795698533519e-09,
+            1.5484368277306728e-10,
+            4.906157622097852e-11
+          ]
+        },
+        {
+          "mode": 26,
+          "physical_frequency": 52,
+          "cos_sin_vector_amplitude": [
+            2.396134324235239e-09,
+            5.296434981471648e-11,
+            5.010944202010634e-10
+          ]
+        },
+        {
+          "mode": 27,
+          "physical_frequency": 54,
+          "cos_sin_vector_amplitude": [
+            7.902385632635019e-09,
+            5.900108969312087e-10,
+            7.809202598495778e-10
+          ]
+        },
+        {
+          "mode": 28,
+          "physical_frequency": 56,
+          "cos_sin_vector_amplitude": [
+            4.389319041387955e-09,
+            9.385715411496776e-12,
+            3.4932890089156104e-10
+          ]
+        },
+        {
+          "mode": 29,
+          "physical_frequency": 58,
+          "cos_sin_vector_amplitude": [
+            1.4425883288437164e-08,
+            1.3663255993843378e-09,
+            2.6933862995109894e-09
+          ]
+        },
+        {
+          "mode": 30,
+          "physical_frequency": 60,
+          "cos_sin_vector_amplitude": [
+            4.254097721781273e-09,
+            1.1509841261979066e-09,
+            3.0876060278463746e-09
+          ]
+        },
+        {
+          "mode": 31,
+          "physical_frequency": 62,
+          "cos_sin_vector_amplitude": [
+            2.9518128721194346e-08,
+            4.7062185113457824e-09,
+            1.1845567123051285e-08
+          ]
+        },
+        {
+          "mode": 32,
+          "physical_frequency": 64,
+          "cos_sin_vector_amplitude": [
+            7.812316069730567e-08,
+            2.170971637507204e-09,
+            3.765943106668051e-09
+          ]
+        },
+        {
+          "mode": 33,
+          "physical_frequency": 66,
+          "cos_sin_vector_amplitude": [
+            2.3246287435636402e-07,
+            3.753052789400641e-09,
+            1.0112816385958909e-08
+          ]
+        },
+        {
+          "mode": 34,
+          "physical_frequency": 68,
+          "cos_sin_vector_amplitude": [
+            1.6482881879432235e-07,
+            3.5120861207309312e-09,
+            8.967087332663433e-11
+          ]
+        },
+        {
+          "mode": 35,
+          "physical_frequency": 70,
+          "cos_sin_vector_amplitude": [
+            5.843243833669681e-09,
+            4.928623550469204e-09,
+            4.903876456638885e-09
+          ]
+        },
+        {
+          "mode": 36,
+          "physical_frequency": 72,
+          "cos_sin_vector_amplitude": [
+            2.8275379981606987e-09,
+            2.855427664360258e-09,
+            5.3874343605490385e-09
+          ]
+        },
+        {
+          "mode": 37,
+          "physical_frequency": 74,
+          "cos_sin_vector_amplitude": [
+            3.777372256159024e-09,
+            5.439313185676305e-10,
+            7.21232328785182e-10
+          ]
+        },
+        {
+          "mode": 38,
+          "physical_frequency": 76,
+          "cos_sin_vector_amplitude": [
+            2.4450300545506707e-09,
+            3.837117192467033e-10,
+            6.052389472174637e-10
+          ]
+        },
+        {
+          "mode": 39,
+          "physical_frequency": 78,
+          "cos_sin_vector_amplitude": [
+            4.63017534996939e-10,
+            6.409785438311075e-11,
+            6.953458733407297e-11
+          ]
+        },
+        {
+          "mode": 40,
+          "physical_frequency": 80,
+          "cos_sin_vector_amplitude": [
+            2.656768069248745e-10,
+            2.6841862602262973e-11,
+            5.3857734329643215e-11
+          ]
+        },
+        {
+          "mode": 41,
+          "physical_frequency": 82,
+          "cos_sin_vector_amplitude": [
+            5.279522341704418e-11,
+            2.678680791726618e-11,
+            3.742132422565709e-11
+          ]
+        },
+        {
+          "mode": 42,
+          "physical_frequency": 84,
+          "cos_sin_vector_amplitude": [
+            4.039449703978635e-11,
+            1.4731664558029145e-11,
+            2.4190934528457377e-11
+          ]
+        },
+        {
+          "mode": 43,
+          "physical_frequency": 86,
+          "cos_sin_vector_amplitude": [
+            3.80347979268653e-11,
+            3.680926990999753e-12,
+            5.9785663460087465e-12
+          ]
+        },
+        {
+          "mode": 44,
+          "physical_frequency": 88,
+          "cos_sin_vector_amplitude": [
+            2.5771915276267473e-11,
+            2.150346994373736e-12,
+            3.1400390490631964e-12
+          ]
+        },
+        {
+          "mode": 45,
+          "physical_frequency": 90,
+          "cos_sin_vector_amplitude": [
+            8.893888928247879e-12,
+            1.922170497745665e-13,
+            7.541615457613774e-14
+          ]
+        },
+        {
+          "mode": 46,
+          "physical_frequency": 92,
+          "cos_sin_vector_amplitude": [
+            6.193044619293583e-12,
+            9.826388651858856e-14,
+            2.788822151611115e-13
+          ]
+        },
+        {
+          "mode": 47,
+          "physical_frequency": 94,
+          "cos_sin_vector_amplitude": [
+            7.691280895029568e-13,
+            2.1799537153963254e-13,
+            2.0614903800152862e-13
+          ]
+        },
+        {
+          "mode": 48,
+          "physical_frequency": 96,
+          "cos_sin_vector_amplitude": [
+            7.113005877331014e-13,
+            1.295964779538059e-13,
+            2.329233026109262e-13
+          ]
+        },
+        {
+          "mode": 49,
+          "physical_frequency": 98,
+          "cos_sin_vector_amplitude": [
+            3.817130434593587e-13,
+            5.131780492343967e-14,
+            5.082034689258135e-14
+          ]
+        },
+        {
+          "mode": 50,
+          "physical_frequency": 100,
+          "cos_sin_vector_amplitude": [
+            1.768319886973809e-13,
+            3.2932414496594004e-14,
+            5.731054606532018e-14
+          ]
+        },
+        {
+          "mode": 51,
+          "physical_frequency": 102,
+          "cos_sin_vector_amplitude": [
+            1.0787836109050002e-13,
+            1.0650130278635704e-15,
+            2.1768056496330417e-17
+          ]
+        },
+        {
+          "mode": 52,
+          "physical_frequency": 104,
+          "cos_sin_vector_amplitude": [
+            4.442768520076722e-14,
+            3.4028047534800016e-16,
+            2.7384344192896357e-15
+          ]
+        },
+        {
+          "mode": 53,
+          "physical_frequency": 106,
+          "cos_sin_vector_amplitude": [
+            2.4648301412231718e-14,
+            1.5481765253406174e-15,
+            2.1397897999559942e-15
+          ]
+        },
+        {
+          "mode": 54,
+          "physical_frequency": 108,
+          "cos_sin_vector_amplitude": [
+            1.5096766036043334e-15,
+            4.052739988419706e-16,
+            4.845028530403599e-16
+          ]
+        },
+        {
+          "mode": 55,
+          "physical_frequency": 110,
+          "cos_sin_vector_amplitude": [
+            1.2644130154196724e-14,
+            4.3625817785986375e-16,
+            7.047060180846779e-16
+          ]
+        },
+        {
+          "mode": 56,
+          "physical_frequency": 112,
+          "cos_sin_vector_amplitude": [
+            2.6976406358290317e-14,
+            1.7160990772876375e-16,
+            1.8363133447022782e-15
+          ]
+        },
+        {
+          "mode": 57,
+          "physical_frequency": 114,
+          "cos_sin_vector_amplitude": [
+            3.126948328702597e-14,
+            5.348216587010266e-16,
+            2.7204539082305703e-16
+          ]
+        },
+        {
+          "mode": 58,
+          "physical_frequency": 116,
+          "cos_sin_vector_amplitude": [
+            3.43449524978278e-14,
+            2.2901601800069882e-15,
+            2.4521402074191926e-15
+          ]
+        },
+        {
+          "mode": 59,
+          "physical_frequency": 118,
+          "cos_sin_vector_amplitude": [
+            4.588883414901985e-14,
+            4.5529773583671864e-18,
+            2.5978473562435665e-15
+          ]
+        },
+        {
+          "mode": 60,
+          "physical_frequency": 120,
+          "cos_sin_vector_amplitude": [
+            3.3992766771929813e-14,
+            4.659314203603066e-15,
+            1.0982212772725362e-14
+          ]
+        },
+        {
+          "mode": 61,
+          "physical_frequency": 122,
+          "cos_sin_vector_amplitude": [
+            2.373260235583311e-14,
+            4.460372889678573e-15,
+            8.042541974201686e-15
+          ]
+        },
+        {
+          "mode": 62,
+          "physical_frequency": 124,
+          "cos_sin_vector_amplitude": [
+            1.0709774847862247e-13,
+            2.2053271382115096e-14,
+            5.126842163527851e-14
+          ]
+        },
+        {
+          "mode": 63,
+          "physical_frequency": 126,
+          "cos_sin_vector_amplitude": [
+            2.7240659637990353e-13,
+            2.7555625363038045e-14,
+            9.864738967119973e-15
+          ]
+        },
+        {
+          "mode": 64,
+          "physical_frequency": 128,
+          "cos_sin_vector_amplitude": [
+            1.0058544690319944e-12,
+            2.4844876237713834e-14,
+            4.1339718524405754e-14
+          ]
+        }
+      ],
+      "cutoffs": [
+        {
+          "modes": 32,
+          "maximum_projection_defect_sample": 3.9976235966201073e-07,
+          "fourier_l1_tail": 4.207641757292358e-07,
+          "psi": 1.5707963267948966
+        },
+        {
+          "modes": 36,
+          "maximum_projection_defect_sample": 6.8714140057064275e-09,
+          "fourier_l1_tail": 7.3818316936854e-09,
+          "psi": 4.628020037050979
+        },
+        {
+          "modes": 40,
+          "maximum_projection_defect_sample": 1.885894580674693e-10,
+          "fourier_l1_tail": 2.0507576062964405e-10,
+          "psi": 1.5707963267948966
+        },
+        {
+          "modes": 48,
+          "maximum_projection_defect_sample": 3.1072659558379048e-12,
+          "fourier_l1_tail": 4.2931135493253e-12,
+          "psi": 4.615748190747894
+        },
+        {
+          "modes": 64,
+          "maximum_projection_defect_sample": 1.6898795477484994e-12,
+          "fourier_l1_tail": 1.922245846282534e-12,
+          "psi": 1.1366797638232602
+        }
+      ]
+    },
+    {
+      "s": 0.8904978172589821,
+      "curve_curvature_min": 0.7410028232682349,
+      "frenet_margin_min": 0.7881066413902164,
+      "chart_rho_min": 0.90966594174976,
+      "nonlinear_RHS_modes": [
+        {
+          "mode": 1,
+          "physical_frequency": 2,
+          "cos_sin_vector_amplitude": [
+            0.06096971632209348,
+            0.05021780810514783,
+            0.010053347564966886
+          ]
+        },
+        {
+          "mode": 2,
+          "physical_frequency": 4,
+          "cos_sin_vector_amplitude": [
+            0.025551168088161977,
+            0.0064532928384130935,
+            0.011683775380692624
+          ]
+        },
+        {
+          "mode": 3,
+          "physical_frequency": 6,
+          "cos_sin_vector_amplitude": [
+            0.002406297580991668,
+            1.2530926675550588e-05,
+            0.0008381574598354097
+          ]
+        },
+        {
+          "mode": 4,
+          "physical_frequency": 8,
+          "cos_sin_vector_amplitude": [
+            0.006133163510992293,
+            0.0002506442997236377,
+            0.0021994033775390998
+          ]
+        },
+        {
+          "mode": 5,
+          "physical_frequency": 10,
+          "cos_sin_vector_amplitude": [
+            7.710022705062887e-05,
+            5.343208612251747e-05,
+            6.244868673481315e-05
+          ]
+        },
+        {
+          "mode": 6,
+          "physical_frequency": 12,
+          "cos_sin_vector_amplitude": [
+            0.00024054641136305236,
+            0.00021052458596033098,
+            2.4287603561749696e-06
+          ]
+        },
+        {
+          "mode": 7,
+          "physical_frequency": 14,
+          "cos_sin_vector_amplitude": [
+            0.00015012720722829722,
+            6.920976341805016e-07,
+            6.151466212854091e-05
+          ]
+        },
+        {
+          "mode": 8,
+          "physical_frequency": 16,
+          "cos_sin_vector_amplitude": [
+            4.493542217630483e-05,
+            4.487904013253641e-05,
+            2.9544258569372243e-05
+          ]
+        },
+        {
+          "mode": 9,
+          "physical_frequency": 18,
+          "cos_sin_vector_amplitude": [
+            5.891372438413844e-05,
+            4.735079093000087e-06,
+            2.055142991376565e-05
+          ]
+        },
+        {
+          "mode": 10,
+          "physical_frequency": 20,
+          "cos_sin_vector_amplitude": [
+            2.119914857704423e-05,
+            1.0749800455671338e-05,
+            6.853424224852335e-06
+          ]
+        },
+        {
+          "mode": 11,
+          "physical_frequency": 22,
+          "cos_sin_vector_amplitude": [
+            1.9429349605205594e-05,
+            2.692934853985761e-06,
+            5.825720540414951e-06
+          ]
+        },
+        {
+          "mode": 12,
+          "physical_frequency": 24,
+          "cos_sin_vector_amplitude": [
+            1.2738123566685452e-05,
+            3.5320034779604676e-06,
+            3.7934744423092145e-06
+          ]
+        },
+        {
+          "mode": 13,
+          "physical_frequency": 26,
+          "cos_sin_vector_amplitude": [
+            7.152387980029394e-06,
+            1.15377275094753e-06,
+            1.9975731789117302e-06
+          ]
+        },
+        {
+          "mode": 14,
+          "physical_frequency": 28,
+          "cos_sin_vector_amplitude": [
+            7.858274972978677e-06,
+            1.1642638354271594e-06,
+            2.4714176243285198e-06
+          ]
+        },
+        {
+          "mode": 15,
+          "physical_frequency": 30,
+          "cos_sin_vector_amplitude": [
+            2.8494992540352946e-06,
+            5.03062652767438e-07,
+            7.523907717094401e-07
+          ]
+        },
+        {
+          "mode": 16,
+          "physical_frequency": 32,
+          "cos_sin_vector_amplitude": [
+            4.4340498990771885e-06,
+            3.404536718019958e-07,
+            1.4126676350832426e-06
+          ]
+        },
+        {
+          "mode": 17,
+          "physical_frequency": 34,
+          "cos_sin_vector_amplitude": [
+            1.1522398693139585e-06,
+            2.2555228366210549e-07,
+            2.7920458272851727e-07
+          ]
+        },
+        {
+          "mode": 18,
+          "physical_frequency": 36,
+          "cos_sin_vector_amplitude": [
+            2.284693082859636e-06,
+            7.575483569508816e-08,
+            7.243696851246964e-07
+          ]
+        },
+        {
+          "mode": 19,
+          "physical_frequency": 38,
+          "cos_sin_vector_amplitude": [
+            4.4584716243663544e-07,
+            1.0082150407175865e-07,
+            9.383650481663669e-08
+          ]
+        },
+        {
+          "mode": 20,
+          "physical_frequency": 40,
+          "cos_sin_vector_amplitude": [
+            1.1117309751099907e-06,
+            1.0008913244536361e-08,
+            3.480961784241042e-07
+          ]
+        },
+        {
+          "mode": 21,
+          "physical_frequency": 42,
+          "cos_sin_vector_amplitude": [
+            2.0387618794090742e-07,
+            4.716148171821556e-08,
+            4.210520812729678e-08
+          ]
+        },
+        {
+          "mode": 22,
+          "physical_frequency": 44,
+          "cos_sin_vector_amplitude": [
+            6.61739306849288e-07,
+            4.0905476165529145e-09,
+            2.1740773425963844e-07
+          ]
+        },
+        {
+          "mode": 23,
+          "physical_frequency": 46,
+          "cos_sin_vector_amplitude": [
+            9.083109325347897e-09,
+            2.1046298654578986e-08,
+            2.3178699090378527e-08
+          ]
+        },
+        {
+          "mode": 24,
+          "physical_frequency": 48,
+          "cos_sin_vector_amplitude": [
+            2.930767379862176e-07,
+            9.337998262025136e-09,
+            9.222116225695305e-08
+          ]
+        },
+        {
+          "mode": 25,
+          "physical_frequency": 50,
+          "cos_sin_vector_amplitude": [
+            4.926045745321718e-08,
+            7.022953243761401e-10,
+            9.365283071626217e-09
+          ]
+        },
+        {
+          "mode": 26,
+          "physical_frequency": 52,
+          "cos_sin_vector_amplitude": [
+            1.655289422629816e-07,
+            1.976441882550338e-09,
+            4.879670166113916e-08
+          ]
+        },
+        {
+          "mode": 27,
+          "physical_frequency": 54,
+          "cos_sin_vector_amplitude": [
+            1.792527917404286e-07,
+            1.1622996572517202e-08,
+            6.555358601936822e-08
+          ]
+        },
+        {
+          "mode": 28,
+          "physical_frequency": 56,
+          "cos_sin_vector_amplitude": [
+            2.5567904902885806e-07,
+            4.060616272891843e-09,
+            9.539832915517574e-08
+          ]
+        },
+        {
+          "mode": 29,
+          "physical_frequency": 58,
+          "cos_sin_vector_amplitude": [
+            2.279720705070499e-07,
+            1.3970809812988425e-08,
+            9.306776619680574e-08
+          ]
+        },
+        {
+          "mode": 30,
+          "physical_frequency": 60,
+          "cos_sin_vector_amplitude": [
+            1.497612578351857e-08,
+            9.80719388320426e-09,
+            7.933635489318754e-09
+          ]
+        },
+        {
+          "mode": 31,
+          "physical_frequency": 62,
+          "cos_sin_vector_amplitude": [
+            3.4848446860870764e-08,
+            8.5590974305879e-09,
+            1.0980984730098387e-08
+          ]
+        },
+        {
+          "mode": 32,
+          "physical_frequency": 64,
+          "cos_sin_vector_amplitude": [
+            2.013341113466268e-08,
+            4.591383671761762e-09,
+            5.821041225804481e-09
+          ]
+        },
+        {
+          "mode": 33,
+          "physical_frequency": 66,
+          "cos_sin_vector_amplitude": [
+            1.3009588010782949e-08,
+            3.214348017419291e-10,
+            4.831310806508253e-09
+          ]
+        },
+        {
+          "mode": 34,
+          "physical_frequency": 68,
+          "cos_sin_vector_amplitude": [
+            1.0628004287074877e-07,
+            8.331553443963475e-10,
+            4.082597812041973e-08
+          ]
+        },
+        {
+          "mode": 35,
+          "physical_frequency": 70,
+          "cos_sin_vector_amplitude": [
+            1.938044779562387e-08,
+            4.0793124467842456e-10,
+            8.833285342364229e-09
+          ]
+        },
+        {
+          "mode": 36,
+          "physical_frequency": 72,
+          "cos_sin_vector_amplitude": [
+            1.3463952515053616e-08,
+            5.384007989750007e-09,
+            6.633957318341234e-09
+          ]
+        },
+        {
+          "mode": 37,
+          "physical_frequency": 74,
+          "cos_sin_vector_amplitude": [
+            9.676736456085109e-09,
+            1.3625345138352095e-09,
+            4.146490970231833e-09
+          ]
+        },
+        {
+          "mode": 38,
+          "physical_frequency": 76,
+          "cos_sin_vector_amplitude": [
+            1.0929184600623715e-08,
+            6.03788878854952e-10,
+            4.457940897838506e-09
+          ]
+        },
+        {
+          "mode": 39,
+          "physical_frequency": 78,
+          "cos_sin_vector_amplitude": [
+            3.3081407056176155e-09,
+            4.764210123801636e-11,
+            1.3606290551091677e-09
+          ]
+        },
+        {
+          "mode": 40,
+          "physical_frequency": 80,
+          "cos_sin_vector_amplitude": [
+            4.344782415587334e-09,
+            1.1477118945567271e-10,
+            1.4818694877899003e-09
+          ]
+        },
+        {
+          "mode": 41,
+          "physical_frequency": 82,
+          "cos_sin_vector_amplitude": [
+            1.4576673077746296e-09,
+            6.415344944169754e-11,
+            5.594217996041487e-10
+          ]
+        },
+        {
+          "mode": 42,
+          "physical_frequency": 84,
+          "cos_sin_vector_amplitude": [
+            1.8437903123114702e-09,
+            1.0398984016818968e-10,
+            6.076358141316448e-10
+          ]
+        },
+        {
+          "mode": 43,
+          "physical_frequency": 86,
+          "cos_sin_vector_amplitude": [
+            6.336676899689683e-10,
+            4.670672747781357e-11,
+            2.423172532573058e-10
+          ]
+        },
+        {
+          "mode": 44,
+          "physical_frequency": 88,
+          "cos_sin_vector_amplitude": [
+            7.384479647554279e-10,
+            6.630156175677981e-11,
+            2.424392074785208e-10
+          ]
+        },
+        {
+          "mode": 45,
+          "physical_frequency": 90,
+          "cos_sin_vector_amplitude": [
+            2.6406152117682367e-10,
+            2.7553869306775726e-11,
+            9.954770561881373e-11
+          ]
+        },
+        {
+          "mode": 46,
+          "physical_frequency": 92,
+          "cos_sin_vector_amplitude": [
+            2.895848412678592e-10,
+            3.470734490750711e-11,
+            9.459881289671592e-11
+          ]
+        },
+        {
+          "mode": 47,
+          "physical_frequency": 94,
+          "cos_sin_vector_amplitude": [
+            1.0836657684944821e-10,
+            1.4269226779734636e-11,
+            4.029757402638567e-11
+          ]
+        },
+        {
+          "mode": 48,
+          "physical_frequency": 96,
+          "cos_sin_vector_amplitude": [
+            1.1104252099531628e-10,
+            1.6761794438025726e-11,
+            3.615328330503959e-11
+          ]
+        },
+        {
+          "mode": 49,
+          "physical_frequency": 98,
+          "cos_sin_vector_amplitude": [
+            4.37283497486051e-11,
+            7.0071244045708485e-12,
+            1.6087799655655658e-11
+          ]
+        },
+        {
+          "mode": 50,
+          "physical_frequency": 100,
+          "cos_sin_vector_amplitude": [
+            4.044962020744709e-11,
+            7.772037934036811e-12,
+            1.3092105441288118e-11
+          ]
+        },
+        {
+          "mode": 51,
+          "physical_frequency": 102,
+          "cos_sin_vector_amplitude": [
+            1.6880612902383443e-11,
+            3.3868987795717894e-12,
+            6.1044267264325554e-12
+          ]
+        },
+        {
+          "mode": 52,
+          "physical_frequency": 104,
+          "cos_sin_vector_amplitude": [
+            1.3855480664184706e-11,
+            3.490396039267629e-12,
+            4.444047594530805e-12
+          ]
+        },
+        {
+          "mode": 53,
+          "physical_frequency": 106,
+          "cos_sin_vector_amplitude": [
+            5.1060398167246055e-12,
+            1.5816059693706123e-12,
+            1.7851996225569807e-12
+          ]
+        },
+        {
+          "mode": 54,
+          "physical_frequency": 108,
+          "cos_sin_vector_amplitude": [
+            3.664368651474936e-12,
+            1.554673562444209e-12,
+            1.122818468783146e-12
+          ]
+        },
+        {
+          "mode": 55,
+          "physical_frequency": 110,
+          "cos_sin_vector_amplitude": [
+            1.7929149248316739e-12,
+            7.039749510398703e-13,
+            6.416215082241e-13
+          ]
+        },
+        {
+          "mode": 56,
+          "physical_frequency": 112,
+          "cos_sin_vector_amplitude": [
+            2.9183086781757835e-13,
+            6.930533961278241e-13,
+            6.374260485221254e-14
+          ]
+        },
+        {
+          "mode": 57,
+          "physical_frequency": 114,
+          "cos_sin_vector_amplitude": [
+            3.581319137665524e-13,
+            3.2140922990337223e-13,
+            2.25987770310633e-13
+          ]
+        },
+        {
+          "mode": 58,
+          "physical_frequency": 116,
+          "cos_sin_vector_amplitude": [
+            1.4679193554550892e-12,
+            2.615971064226657e-13,
+            5.820552655286808e-13
+          ]
+        },
+        {
+          "mode": 59,
+          "physical_frequency": 118,
+          "cos_sin_vector_amplitude": [
+            1.7175094132821986e-13,
+            1.2798420424207077e-13,
+            6.511705970633518e-14
+          ]
+        },
+        {
+          "mode": 60,
+          "physical_frequency": 120,
+          "cos_sin_vector_amplitude": [
+            1.186905175763991e-13,
+            8.865508460986655e-14,
+            1.536931538580014e-14
+          ]
+        },
+        {
+          "mode": 61,
+          "physical_frequency": 122,
+          "cos_sin_vector_amplitude": [
+            5.854459629395922e-13,
+            8.18372734650696e-14,
+            2.1171489773524465e-13
+          ]
+        },
+        {
+          "mode": 62,
+          "physical_frequency": 124,
+          "cos_sin_vector_amplitude": [
+            1.1755572404359147e-12,
+            7.519368015792855e-14,
+            4.548562163292226e-13
+          ]
+        },
+        {
+          "mode": 63,
+          "physical_frequency": 126,
+          "cos_sin_vector_amplitude": [
+            8.340563671312329e-13,
+            1.8683191479195742e-14,
+            3.4785086463127686e-13
+          ]
+        },
+        {
+          "mode": 64,
+          "physical_frequency": 128,
+          "cos_sin_vector_amplitude": [
+            6.782391239091781e-13,
+            5.9088943576427105e-15,
+            2.4451829843523654e-13
+          ]
+        }
+      ],
+      "cutoffs": [
+        {
+          "modes": 32,
+          "maximum_projection_defect_sample": 1.394595168271471e-07,
+          "fourier_l1_tail": 2.015237880354168e-07,
+          "psi": 2.6813984172241008
+        },
+        {
+          "modes": 36,
+          "maximum_projection_defect_sample": 3.6385456215833866e-08,
+          "fourier_l1_tail": 3.6539142685959355e-08,
+          "psi": 3.141592653589793
+        },
+        {
+          "modes": 40,
+          "maximum_projection_defect_sample": 5.901384166142584e-09,
+          "fourier_l1_tail": 5.935476030092751e-09,
+          "psi": 3.141592653589793
+        },
+        {
+          "modes": 48,
+          "maximum_projection_defect_sample": 1.319675012502303e-10,
+          "fourier_l1_tail": 1.4400617169292764e-10,
+          "psi": 3.048019825528769
+        },
+        {
+          "modes": 64,
+          "maximum_projection_defect_sample": 1.7783543345133003e-12,
+          "fourier_l1_tail": 1.8604798683759474e-12,
+          "psi": 0.0
+        }
+      ]
+    }
+  ]
+}

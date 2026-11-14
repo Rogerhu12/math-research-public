@@ -1,0 +1,71 @@
+{
+  "schema": "visible-flex-exact-resume-R104-reconstruction-v1",
+  "input_producer_sha256": "3bbbecae0b3df6927b157d56d0d11add096a6fe979e0d222339383a90d31f2b2",
+  "actual_fresh_primary_sha256": "9e28fcf3ea53003e16ec8720a2fd4c52da0d16a40c8a90398c0b847d0f2fc317",
+  "old_primary_sha256": "62156ade93e31729c7500e79dbc01c3f4267d1a89a2b7730af7fe1c6440df45a",
+  "old_primary_unavailable": true,
+  "scientific_parameters_changed": false,
+  "counts": {
+    "original_panels": 10793,
+    "taylor": 10872,
+    "root_brackets": 8,
+    "rejected": 71
+  },
+  "old_selected_dyadics_exactly_reproduced": [
+    "cell11/segment3/m94/p1",
+    "cell10/segment3/m96/p1"
+  ],
+  "full_old_primary_bitwise_comparison_claimed": false,
+  "new_source_paths": [
+    {
+      "path": "notes/2026-11-13-exact-resume-Hermitian-diagonal-v4.py",
+      "sha256": "51e70a9f37c28d0d71770f88e46fab4033885574a1ae79e4195bb4925d0f8a62"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-correlated-v5.py",
+      "sha256": "bb7bacecb4baaf180e230bd2a2196de6ee21461babf0588da86296152ac7c973"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-Hermitian-diagonal-v5.py",
+      "sha256": "ba88f71cd3f2e836dead49ca23a09e0fa94422241bf3dc7673db979abba04099"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-localV-correlated-v6.py",
+      "sha256": "aef6017aa6365ef11c0c0dc18252cbab1b02ed77f921ea2a4f213abc9b089a9b"
+    }
+  ],
+  "source_changes": [
+    "Fresh consumer packet SHA replaces unavailable old packet SHA; all original producer/input/dependency gates retained.",
+    "Hermitian v4 retains the three original scalar strategies and independently adds each with the exact 2x2 Hermitian maximum eigenvalue. All true leaves, source materials, source norms and frame-change costs retained.",
+    "Completed Hermitian v5 uses the outward nonnegative radicand endpoint before sqrt, preserving the v4 theorem and all original source data. The failed v4 run is retained separately.",
+    "Prepared localV correlated v6 adds per-original-target-leaf V-normalized signed-origin and correlated C/U readouts. Its original physical tensor is required to match the completed fresh R104 packet exactly; preparation is not an executed enclosure."
+  ],
+  "python_flint_version": "0.9.0",
+  "completed_packets": [
+    {
+      "path": "notes/2026-11-13-exact-resume-causal-r1.json.gz",
+      "sha256": "eab2106db893c33c408683dd6405b89fc9bfacaf92faace7d56324063eea0669"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-causal-r1-resource.json",
+      "sha256": "43c76ca1ff6e90779fdf5ecf5f28c4c0394108726a611b4900dd2207360f419d"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-Hermitian-r2.json.gz",
+      "sha256": "f03c9b7ae68d831c607a20aa1b312f50b0c199ddf69a97f1c7d4977733607208"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-Hermitian-r2-resource.json",
+      "sha256": "6178d45878b5bfe48cf4004ffbf97f626b91c8bb5f8923f9701ced2ee8a06897"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-Hermitian-exact-consumer.json",
+      "sha256": "03db883f360360d7e7815823a445ba18a5d4b16ad1781dcb1153d4ef3638d47c"
+    }
+  ],
+  "completed_Hermitian_original_leaves": 10793,
+  "completed_Hermitian_all15_gates": true,
+  "completed_Hermitian_old_physical_block_comparison_passed": false,
+  "final_diagonal_scalar_selection": "min(original scalar row, new outward sum of componentwise minima)",
+  "whole_problem_closed": false
+}

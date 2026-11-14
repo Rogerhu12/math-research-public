@@ -1,0 +1,24 @@
+{
+  "status": "Exact dyadic/rational checks for the R29 auxiliary M8 projected pointwise boundary problem; not full-frequency closure",
+  "checks": {
+    "mapping_into_radius_1over500": true,
+    "contraction_below_one": true,
+    "all_doubled_R23_balls_paid": true,
+    "eta_equals_original_completed_run": true,
+    "entrypoint_hash_matches_current": true,
+    "column_entrypoint_hash_matches_current": true,
+    "projective_hash_matches_current": true,
+    "column_group_byte_identical_to_original": true
+  },
+  "eta_upper_exact": "3159843714651572576465137747092799057133187720535785487121/1606938044258990275541962092341162602522202993782792835301376",
+  "relative_correction_radius": "1/500",
+  "mapping_bound_exact": "793123932221259368265326039658039656139487251042202693052858121/401734511064747568885490523085290650630550748445698208825344000000",
+  "contraction_bound_exact": "1583081701040437860809034011293492327623727047988428529047621/200867255532373784442745261542645325315275374222849104412672000",
+  "mapping_bound_decimal": 0.001974248938980081,
+  "contraction_bound_decimal": 0.007881233289341639,
+  "source_archive": "notes/2026-11-12-closure-real-head-interval-v2-source.json.gz",
+  "input_hashes": {
+    "notes/2026-11-12-closure-real-green-q003-m8-recovered-summary.json": "1b44c9fa998f61e7b55d1645da1674130ab26781031f6240690f6f12bbc9d31d",
+    "notes/2026-11-12-closure-real-linear-q003-m8-recovered-summary.json": "9528174895ba596cc394f3d204c1141bdd7266ee9ec8fea43f54d5fbfbd0b5aa"
+  }
+}

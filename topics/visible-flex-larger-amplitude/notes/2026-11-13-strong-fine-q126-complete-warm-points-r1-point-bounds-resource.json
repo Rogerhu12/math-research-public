@@ -1,0 +1,32 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "actual-fine-q126-complete-stored-points-diameter",
+  "command": [
+    "python",
+    "computations/root_fine_saved_point_diameter_bounds.py",
+    "--screen",
+    "m32-q122-r1/q126-tail2-size102-r1-screen.json",
+    "--resource",
+    "m32-q122-r1/q126-tail2-size102-r1-geometry-resource.json",
+    "--prepared-core",
+    "m32-q122-r1/q126-tail2-size102-r1-prepared-core.json",
+    "--out",
+    "m32-q122-r1/q126-tail2-size102-r1-points-bounds.json"
+  ],
+  "started_utc": "2026-11-13T15:54:50.661277+00:00",
+  "finished_utc": "2026-11-13T15:55:12.804976+00:00",
+  "wall_seconds": 22.16680131600151,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 167800,
+  "user_seconds": 7.891824,
+  "system_seconds": 0.8294929999999999,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 5,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026532474]",
+  "automatic_restarts": 0
+}

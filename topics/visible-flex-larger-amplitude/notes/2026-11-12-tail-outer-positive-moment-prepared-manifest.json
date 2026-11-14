@@ -1,0 +1,30 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Prepared exact-source positive weighted moment integration; unexecuted",
+  "files": [
+    {
+      "path": "computations/tail_outer_positive_moment_panels.py",
+      "bytes": 18579,
+      "sha256": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moment-proof-and-plan.md",
+      "bytes": 9041,
+      "sha256": "bc2071c941ee1ec2df7af66946388cd2209db48d1bd4bc02d8932b5b2aff0d3b"
+    }
+  ],
+  "checks": {
+    "AST": true,
+    "pinned_real_source_hashes_match": true,
+    "actual_source_range_execution": false,
+    "positive_moments_paid": false,
+    "continuous_Darboux_defect_paid": false,
+    "locator109_run": false
+  },
+  "inputs": {
+    "notes/2026-11-12-root-real-outer-radius-v4-recovered-full.json": "28d491b998174029a80daf41e9365de6ab2c54757419de7b64f54445047b717f",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+  },
+  "next_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python computations/tail_outer_positive_moment_panels.py --ready notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json --radius-ledger notes/2026-11-12-root-real-outer-radius-v4-recovered-full.json --first-cell 11 --last-cell 11 --log-span 1/8 --u-span 1/32 --precision 192 --max-level 40 --max-panels 20000 --rss-limit-mib 120 --out-prefix notes/2026-11-12-tail-outer-positive-moments-cell11-r1",
+  "integration_scope": "True range-times-length enclosures with saved R26 parent-integral constraints; no ODE, no binary quadrature, no recalibration"
+}

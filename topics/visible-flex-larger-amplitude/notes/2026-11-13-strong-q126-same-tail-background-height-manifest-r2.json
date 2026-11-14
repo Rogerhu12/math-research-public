@@ -1,0 +1,63 @@
+{
+  "schema": "same-frozen-background-height-diagnostic-manifest-v1",
+  "scope": "Original 160-cell frozen rotational background geometry only. Its existing scalar height integrals and all profile endpoints are reused. No nonlinear tail mean, complete closed-surface diameter, reach, or Hausdorff amplitude is certified.",
+  "main_report": {
+    "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r2.json.gz",
+    "sha256": "12d50025e0ee39087ab42a7af4e1f54f5ae7662fd32058516386f88689301240"
+  },
+  "original_owned_resource": {
+    "exitcode": 0,
+    "wall_seconds": 5.569655073995818,
+    "peak_rss_kib": 104484
+  },
+  "checks": 1701,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r2-factory-checkpoint.json.gz",
+      "sha256": "3f370a0e4655888643a5a1cd45146cdc21dbce9e934dedf05e49e6ce2172726b",
+      "bytes": 12076
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r2-heartbeat.json",
+      "sha256": "007f2018ee6046717f6f060efbcb2315847b713cde2888a07a0a20ac41b55896",
+      "bytes": 311
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r2-launch-plan.json",
+      "sha256": "16600189e504bdec5be2389a3490f2844987779af331b9e8f370d0cee48644cf",
+      "bytes": 1918
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r2-ownership.json",
+      "sha256": "51216d78754cfc820658aabe7e2044c3d79ffb61530586e9aac22d05c523f85c",
+      "bytes": 2413
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r2-resource.json",
+      "sha256": "7ebf5f24712c6e5975a39f1ca063dbee394b16543e2efa62f471a1d1158171ed",
+      "bytes": 2208
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r2-stdout.log",
+      "sha256": "9dcb74f35b24871a388d711c9e22cafed0eb5f1e6ab2eba1cd21b551ac20526e",
+      "bytes": 2946
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-same-tail-background-height-r2.json.gz",
+      "sha256": "12d50025e0ee39087ab42a7af4e1f54f5ae7662fd32058516386f88689301240",
+      "bytes": 93428
+    },
+    {
+      "file": "computations/strong_frozen_tail_background_stats_v2.mjs",
+      "sha256": "a2a8ff0dc398feafc252596e72f187f140799ce9d5a792585d50c9cedb79b548",
+      "bytes": 10133
+    }
+  ],
+  "total_bytes": 125433,
+  "failed_auxiliary_schema_attempt": {
+    "file": "notes/2026-11-13-strong-q126-background-height-schema-failure-manifest-r1.json",
+    "sha256": "c27b407cfdbd0333810a1aef97aff3e3f5df2649d568ca61b1f8b74de7529d63"
+  },
+  "production_MJS_directory_not_modified": true,
+  "actual_nonlinear_mean_and_closed_diameter_not_certified": true
+}

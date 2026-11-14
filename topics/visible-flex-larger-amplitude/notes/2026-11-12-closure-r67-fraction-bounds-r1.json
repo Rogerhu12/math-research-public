@@ -1,0 +1,154 @@
+{
+  "status": "Strict R67 bounds compared to exact dyadic endpoints",
+  "all_checks": true,
+  "inequalities": [
+    {
+      "name": "entire_cell11_w_min",
+      "relation": ">",
+      "bound": "1356599/50000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "original_relative_A1",
+      "relation": "<",
+      "bound": "685959/200000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "candidate_relative_A1_change",
+      "relation": "<",
+      "bound": "3982867/100000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "recentred_complete_mean_domain",
+      "relation": "<",
+      "bound": "1/64",
+      "passed": true
+    },
+    {
+      "name": "mean_slope_change",
+      "relation": "<",
+      "bound": "2185667/1000000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "mean_height_change",
+      "relation": "<",
+      "bound": "2643039/1000000000000000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "node11_all46_two_output_l1_columns",
+      "relation": "<",
+      "bound": "4441/100000000000",
+      "passed": true
+    },
+    {
+      "name": "node11_old_m2_cut_ratio_lower",
+      "relation": ">",
+      "bound": "31984771/10000",
+      "passed": true
+    },
+    {
+      "name": "node11_old_m2_cut_ratio_upper",
+      "relation": "<",
+      "bound": "15992389/5000",
+      "passed": true
+    },
+    {
+      "name": "node11_new_m2_cut_ratio",
+      "relation": "<",
+      "bound": "298351/1000000000",
+      "passed": true
+    },
+    {
+      "name": "node11_old_m4_cut_ratio",
+      "relation": "<",
+      "bound": "207027/50000000",
+      "passed": true
+    },
+    {
+      "name": "node11_new_m4_cut_ratio",
+      "relation": "<",
+      "bound": "411477/100000000",
+      "passed": true
+    },
+    {
+      "name": "node10_all46_two_output_l1_columns",
+      "relation": "<",
+      "bound": "4441/100000000000",
+      "passed": true
+    },
+    {
+      "name": "node10_old_m2_cut_ratio_lower",
+      "relation": ">",
+      "bound": "31984771/10000",
+      "passed": true
+    },
+    {
+      "name": "node10_old_m2_cut_ratio_upper",
+      "relation": "<",
+      "bound": "15992389/5000",
+      "passed": true
+    },
+    {
+      "name": "node10_new_m2_cut_ratio",
+      "relation": "<",
+      "bound": "298351/1000000000",
+      "passed": true
+    },
+    {
+      "name": "node10_old_m4_cut_ratio",
+      "relation": "<",
+      "bound": "207027/50000000",
+      "passed": true
+    },
+    {
+      "name": "node10_new_m4_cut_ratio",
+      "relation": "<",
+      "bound": "411477/100000000",
+      "passed": true
+    },
+    {
+      "name": "m2_bump_height",
+      "relation": "<",
+      "bound": "1071721/500000000000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "m2_bump_first_derivative",
+      "relation": "<",
+      "bound": "174521/500000000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    },
+    {
+      "name": "m2_bump_second_derivative",
+      "relation": "<",
+      "bound": "202093/2000000000000000000000000000000000000000000000000000000",
+      "passed": true
+    }
+  ],
+  "polynomial_identities": {
+    "B0": true,
+    "B1": true,
+    "D0": true,
+    "D1": true,
+    "DD0": true,
+    "DD1": true,
+    "B_at_1over3": true,
+    "D_at_3over5": true,
+    "first_factor_coefficients": true,
+    "second_factor_coefficients": true
+  },
+  "continuous_polynomial_bounds": "Sign and factor arguments are in R67(67.24)-(67.25); checking selected values alone is not their proof.",
+  "input_hashes": {
+    "notes/2026-11-12-closure-outer-shared-schur-cut-r1.json": "a94ec23862271bd36eda323fb4553b582a928003c50723f32c2f66f98b6fe4f8"
+  },
+  "source_sha256": "95db2cf4e11b8922db595fa7a0d843083b0b39734ea277e044461fa430f4ca05",
+  "new_Arb_operations": 0,
+  "new_radial_integrals": 0,
+  "new_ODE_solves": 0,
+  "elapsed_seconds": 0.002257094998640241,
+  "peak_RSS_KiB": 11392
+}

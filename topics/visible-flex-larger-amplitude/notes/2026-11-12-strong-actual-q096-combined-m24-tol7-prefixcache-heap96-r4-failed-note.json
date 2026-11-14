@@ -1,0 +1,36 @@
+{
+  "scope": "Formal execution interruption before first complete prefix Jacobian; completed exact-input calls preserved, not a failed mathematical branch.",
+  "formal_tool_session": 96065,
+  "formal_tool_exit": 137,
+  "actual_child_wait4": {
+    "exitcode": -9,
+    "termination_signal": 9,
+    "wait4_observed": true,
+    "wall_seconds": 67.31828855200001,
+    "peak_rss_kib": 188368,
+    "user_seconds": 24.878441,
+    "system_seconds": 3.816367,
+    "received_supervisor_signals": []
+  },
+  "termination_cause": "unknown",
+  "new_accepted_prefix_steps": 0,
+  "newton_entry_only": true,
+  "initial_scaled_collocation": 0.00015616055003179834,
+  "initial_boundary_max": 2.4581922476547945e-09,
+  "complete_Jacobian_or_factor": false,
+  "original_full_H_audited_anchor_SHA": "c8420b9b33df6472b05bd31604c69feb2470cf6d41310c8d8ca785942d15efd2",
+  "completed_cache_archive": {
+    "path": "notes/2026-11-12-strong-q096-prefix-cache-r4-completed-archive.json",
+    "sha256": "8f6f2a325a89074bca4103588848109af7283b7dbaa9d30ced94893485ab2a7f",
+    "identity_sha256": "73ffd487f526387ed5b33c4185b9b9e313ef41cce3a97d65513ede05853aa006",
+    "complete_Jacobian_calls": 17,
+    "complete_whole_field_RHS_calls": 2,
+    "source_identity_items": 1,
+    "selected_items": 20,
+    "archives": 4,
+    "all_selected_items_full_byte_checks_passed": true,
+    "unarchived_small_FD_RHS_may_be_recomputed": true
+  },
+  "fresh_r5_resource_change": "write budget192\u2192256MiB; exact source/key and all mathematical gates unchanged",
+  "new_solver_or_physical_solution": false
+}

@@ -1,0 +1,546 @@
+{
+  "schema": "actual-warm-chart-orientation-diagnostic-v1",
+  "scope": "Inspect the original warm chart gate without evaluating a geometry field.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nThis explicit diagnostic installs the identical actual/provider/response path,\nthen stops at the original raw-node/common-grid orientation check. It records\nevery nonpositive displayed spacing and exact binary-coefficient polynomial\nvalues. It neither accepts the failed field nor changes the production gate.\n",
+  "source_sha256": "cd9aedc0edc0b3d13dcc4bd4724c386b0f5ddb847fa0317f9e4b16c559e88868",
+  "original_geometry_source_sha256": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+  "original_chart_source_sha256": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+  "raw_nodes": 2587,
+  "common_grid_nodes": 3764,
+  "all_actual_raw_nodes_retained": true,
+  "raw_min_displayed_spacing": 4.8843662723285775e-06,
+  "grid_min_displayed_spacing": 0.0,
+  "raw_strict_increase": true,
+  "grid_strict_increase": false,
+  "raw_nonpositive_spacings": [],
+  "grid_nonpositive_spacings": [
+    {
+      "index": 2384,
+      "t": [
+        0.703700781996772,
+        0.7037007819967721
+      ],
+      "t_hex": [
+        "0x1.684b7809b107ap-1",
+        "0x1.684b7809b107bp-1"
+      ],
+      "exact_dt": {
+        "numerator": "1",
+        "denominator": "9007199254740992"
+      },
+      "displayed_s": [
+        2.30255715969692,
+        2.30255715969692
+      ],
+      "displayed_ds": 0.0,
+      "displayed_chart_derivatives": [
+        0.9461682285282065,
+        0.9461682285284316
+      ],
+      "chart_intervals": [
+        8,
+        8
+      ],
+      "exact_binary_coefficient_polynomial_ds": {
+        "numerator": "5482122135793118101712339429109178304744379026975178989825278869",
+        "denominator": "52187935429536520572154009163216095294921860268984915304993817963380147564314624"
+      },
+      "same_piece_strict_positive_exact_ds": true
+    }
+  ],
+  "raw_min_displayed_derivative": 0.8939370475234234,
+  "grid_min_displayed_derivative": 0.8939370475234234,
+  "physical_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.19914590237829932,
+    "vu": 0.32542718608992743,
+    "vd": 0.9833098592792588,
+    "start_acceleration": 0.642,
+    "boost_speed": 0.8164710382204018,
+    "boost_length": 0.1098609217892883,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.372440902262507,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle",
+    "initial_speed_frontload": 0.02
+  },
+  "actual_physical_breaks": [
+    0.0,
+    0.9298230787390569,
+    1.0396840005283452,
+    1.0716574278088487,
+    1.4073784142541346,
+    1.4393518415346378,
+    2.297611377780071,
+    2.298025963100993,
+    2.302379108970677,
+    2.3027936942915996,
+    2.335196569786076,
+    2.6754267624780774,
+    2.7078296379725537,
+    2.7433626328964116,
+    2.775765508390888,
+    3.1159957010828894,
+    3.1483985765773657,
+    3.1839315715012235,
+    3.185109256532581,
+    3.1974749493618355,
+    3.198652634393193,
+    3.2255071986003645,
+    3.234142653435241
+  ],
+  "original_numerical_knots": [
+    0.0,
+    0.2677610126249561,
+    0.3073403620202028,
+    0.3172296666633604,
+    0.4210673654165145,
+    0.4309566700596721,
+    0.6992364843991988,
+    0.6996085091989966,
+    0.7035147695968731,
+    0.7038867943966709,
+    0.7141889687205218,
+    0.822361799120957,
+    0.8326639734448079,
+    0.8439613383350474,
+    0.8542635126588983,
+    0.9624363430593335,
+    0.9727385173831844,
+    0.9840358822734238,
+    0.9844103156009136,
+    0.9883418655395568,
+    0.9887162988670467,
+    0.9972544424000331,
+    1.0
+  ],
+  "exact_binary_chart_piece_Bernstein": [
+    {
+      "interval": 0,
+      "t": [
+        0.0,
+        0.2677610126249561
+      ],
+      "s": [
+        0.0,
+        0.9298230787390569
+      ],
+      "secant": 3.4725857570662426,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "6578016013938889",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 1,
+      "t": [
+        0.2677610126249561,
+        0.3073403620202028
+      ],
+      "s": [
+        0.9298230787390569,
+        1.0396840005283452
+      ],
+      "secant": 2.775713180431462,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "5358748989261255",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 2,
+      "t": [
+        0.3073403620202028,
+        0.3172296666633604
+      ],
+      "s": [
+        1.0396840005283452,
+        1.0716574278088487
+      ],
+      "secant": 3.233131998074903,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "3184242773889311",
+        "denominator": "1125899906842624"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 3,
+      "t": [
+        0.3172296666633604,
+        0.4210673654165145
+      ],
+      "s": [
+        1.0716574278088487,
+        1.4073784142541346
+      ],
+      "secant": 3.2331319980749114,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "6893227288024133",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 4,
+      "t": [
+        0.4210673654165145,
+        0.4309566700596721
+      ],
+      "s": [
+        1.4073784142541346,
+        1.4393518415346378
+      ],
+      "secant": 3.2331319980748807,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "3428389323925573",
+        "denominator": "1125899906842624"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 5,
+      "t": [
+        0.4309566700596721,
+        0.6992364843991988
+      ],
+      "s": [
+        1.4393518415346378,
+        2.297611377780071
+      ],
+      "secant": 3.199120807349472,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "440534276328939",
+        "denominator": "281474976710656"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 6,
+      "t": [
+        0.6992364843991988,
+        0.6996085091989966
+      ],
+      "s": [
+        2.297611377780071,
+        2.298025963100993
+      ],
+      "secant": 1.1144023762593533,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "1493128548544745",
+        "denominator": "4503599627370496"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 7,
+      "t": [
+        0.6996085091989966,
+        0.7035147695968731
+      ],
+      "s": [
+        2.298025963100993,
+        2.302379108970677
+      ],
+      "secant": 1.1144023762600233,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "4751942620620649",
+        "denominator": "4503599627370496"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 8,
+      "t": [
+        0.7035147695968731,
+        0.7038867943966709
+      ],
+      "s": [
+        2.302379108970677,
+        2.3027936942915996
+      ],
+      "secant": 1.114402376260547,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "777618503146215",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 9,
+      "t": [
+        0.7038867943966709,
+        0.7141889687205218
+      ],
+      "s": [
+        2.3027936942915996,
+        2.335196569786076
+      ],
+      "secant": 3.1452462825696124,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "7017494192400079",
+        "denominator": "4503599627370496"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 10,
+      "t": [
+        0.7141889687205218,
+        0.822361799120957
+      ],
+      "s": [
+        2.335196569786076,
+        2.6754267624780774
+      ],
+      "secant": 3.14524628256961,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "6705849781411595",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 11,
+      "t": [
+        0.822361799120957,
+        0.8326639734448079
+      ],
+      "s": [
+        2.6754267624780774,
+        2.7078296379725537
+      ],
+      "secant": 3.1452462825696124,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "6705849781411583",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 12,
+      "t": [
+        0.8326639734448079,
+        0.8439613383350474
+      ],
+      "s": [
+        2.7078296379725537,
+        2.7433626328964116
+      ],
+      "secant": 3.145246282569587,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "3352924890705787",
+        "denominator": "1125899906842624"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 13,
+      "t": [
+        0.8439613383350474,
+        0.8542635126588983
+      ],
+      "s": [
+        2.7433626328964116,
+        2.775765508390888
+      ],
+      "secant": 3.1452462825696124,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "3352924890705787",
+        "denominator": "1125899906842624"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 14,
+      "t": [
+        0.8542635126588983,
+        0.9624363430593335
+      ],
+      "s": [
+        2.775765508390888,
+        3.1159957010828894
+      ],
+      "secant": 3.14524628256961,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "6705849781411595",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 15,
+      "t": [
+        0.9624363430593335,
+        0.9727385173831844
+      ],
+      "s": [
+        3.1159957010828894,
+        3.1483985765773657
+      ],
+      "secant": 3.1452462825696124,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "6705849781411599",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 16,
+      "t": [
+        0.9727385173831844,
+        0.9840358822734238
+      ],
+      "s": [
+        3.1483985765773657,
+        3.1839315715012235
+      ],
+      "secant": 3.145246282569618,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "3352924890705691",
+        "denominator": "1125899906842624"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 17,
+      "t": [
+        0.9840358822734238,
+        0.9844103156009136
+      ],
+      "s": [
+        3.1839315715012235,
+        3.185109256532581
+      ],
+      "secant": 3.145246282569399,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "1676462445352845",
+        "denominator": "562949953421312"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 18,
+      "t": [
+        0.9844103156009136,
+        0.9883418655395568
+      ],
+      "s": [
+        3.185109256532581,
+        3.1974749493618355
+      ],
+      "secant": 3.1452462825696292,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "104778902834553",
+        "denominator": "35184372088832"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 19,
+      "t": [
+        0.9883418655395568,
+        0.9887162988670467
+      ],
+      "s": [
+        3.1974749493618355,
+        3.198652634393193
+      ],
+      "secant": 3.145246282569399,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "3352924890705691",
+        "denominator": "1125899906842624"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 20,
+      "t": [
+        0.9887162988670467,
+        0.9972544424000331
+      ],
+      "s": [
+        3.198652634393193,
+        3.2255071986003645
+      ],
+      "secant": 3.1452462825696137,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "6705849781411375",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    },
+    {
+      "interval": 21,
+      "t": [
+        0.9972544424000331,
+        1.0
+      ],
+      "s": [
+        3.2255071986003645,
+        3.234142653435241
+      ],
+      "secant": 3.1452462825695586,
+      "exact_derivative_Bernstein_lower": {
+        "numerator": "6705849781411477",
+        "denominator": "2251799813685248"
+      },
+      "exact_binary_polynomial_strictly_increasing": true
+    }
+  ],
+  "all_exact_binary_polynomial_piece_derivatives_positive": true,
+  "original_geometry_gate_passed": false,
+  "geometry_field_computed": false,
+  "continuous_C2_chart_or_original_floating_function_certified": false,
+  "original_gate_changed_or_bypassed_for_geometry": false,
+  "new_ODE_Node_Newton_calls": 0,
+  "actual_exact_order_adapter": {
+    "source_sha256": "12c39ad8b698f735842249208e311035dd8a31dc74d2743fc8695a52ac73e3d7",
+    "original_sources": {
+      "root_actual_geometry_field_complete_mean.py": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+      "root_actual_coarse_increment_geometry_complete_mean.py": "c986073622d4ebabb2be7d1eea46fe8ac4966a404b56bbc6a6af3b48371092bc",
+      "root_actual_warm_chart_orientation_probe.py": "cd9aedc0edc0b3d13dcc4bd4724c386b0f5ddb847fa0317f9e4b16c559e88868"
+    },
+    "height_function_sha256": "ad9ba92e667ebbf572c6d31622959b804aba482d506e6523a7538e33569cd282",
+    "raw_physical_float_knots_remain_strict": true,
+    "raw_exact_binary_polynomial_sample_order": {
+      "points": 2587,
+      "exact_adjacent_pairs": 2586,
+      "all_strict": true,
+      "minimum_exact_spacing": {
+        "numerator": "24395204278206534443055862764041180961427699112918104132110574087592128613",
+        "denominator": "4994548507904862320381926658198415370021818658555196972548236484776615684866048"
+      }
+    },
+    "common_exact_binary_polynomial_sample_order": {
+      "points": 3764,
+      "exact_adjacent_pairs": 3763,
+      "all_strict": true,
+      "minimum_exact_spacing": {
+        "numerator": "5482122135793118101712339429109178304744379026975178989825278869",
+        "denominator": "52187935429536520572154009163216095294921860268984915304993817963380147564314624"
+      }
+    },
+    "displayed_equal_pairs": 1,
+    "exact_same_piece_ties_all_positive": true,
+    "no_input_t_physical_s_raw_state_or_parameter_changed": true,
+    "both_displayed_equal_samples_retained": true,
+    "cubic_knots_only_original_strict_raw_nodes": true,
+    "geometry_jets_are_analytic_cubic_derivatives_not_common_grid_differences": true,
+    "Gauss6_full_widths_only_original_raw_intervals": true,
+    "partial_Gauss6_widths_multiply_only_and_are_not_derivative_denominators": true,
+    "no_common_grid_adjacent_s_difference_used_as_a_denominator": true,
+    "original_float_strict_common_gate_would_pass": false,
+    "arbitrary_binary_polynomial_seam_continuity_not_claimed": true,
+    "continuous_chart_alignment_error_not_certified": true
+  }
+}

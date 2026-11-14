@@ -1,0 +1,145 @@
+{
+  "scope": "Find low-height linear resonances for a planar core and a physical tail port.\n\nThis is a design screen, not a nonlinear solution, a closed surface, or a\nreach certificate. A selected design must subsequently be solved at fixed g.\nThe two-component linear equation is the one recorded in the source topic's\nnotes/fixed_metric_mode3_flow.py, with an arbitrary base mode m >= 2.\n",
+  "port": "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/notes/2026-11-09-950f-prefix-weighted-k6-port96-cusp1024.json",
+  "port_sha256": "500e0a0c6d5388e07e3673ef192856804264c612edd6fe26ee09b882698a3702",
+  "mode": 3,
+  "cut": {
+    "radius": 0.6,
+    "backgroundSlope": 0.5000000000000018,
+    "backgroundSecond": -5.833333333333356,
+    "E": 1.2500000000000018,
+    "Ep": -5.833333333333377
+  },
+  "slope": 10.576513803204914,
+  "bridge_length": 0.6388482209066094,
+  "rows": [
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.17,
+        "vd": 0.18,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.17,
+            "vd": 0.18,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.07251477967796054
+          },
+          "mode": 3,
+          "linear_core_g_over_f": -5.1908963272396465e-09,
+          "meridian_length": 2.0212105786019356,
+          "background_height": 1.7747261539683883,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.008128334332662641,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.07835363024822625,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.791806640685023,
+              "linear_core_gap_over_D": 0.052745305589703875,
+              "background_kappa_times_D": 15.82697649139944
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.7961702841738334,
+              "linear_core_gap_over_D": 0.10536935122947275,
+              "background_kappa_times_D": 15.845190311211141
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.79974089270967,
+              "linear_core_gap_over_D": 0.14737847022001888,
+              "background_kappa_times_D": 15.860094008237862
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.801554448527818,
+              "linear_core_gap_over_D": 0.16835218557709863,
+              "background_kappa_times_D": 15.867663778539884
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.804309808873577,
+              "linear_core_gap_over_D": 0.19977342492645978,
+              "background_kappa_times_D": 15.87916463487305
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.8061728481154886,
+              "linear_core_gap_over_D": 0.2206941285958415,
+              "background_kappa_times_D": 15.886940948667089
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.17,
+            "vd": 0.18,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.6710553610059455
+          },
+          "mode": 3,
+          "linear_core_g_over_f": -1.8652638714708225e-08,
+          "meridian_length": 13.431297913285746,
+          "background_height": 13.10169481631226,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.5809216560526548,
+          "linear_f_max": 47.02919143437234,
+          "linear_g_max": 5.700206425739875,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 26.53726164842318,
+              "linear_core_gap_over_D": 0.007536572636984338,
+              "background_kappa_times_D": 110.76635916746854
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 32.05207725695074,
+              "linear_core_gap_over_D": 0.012479690373679507,
+              "background_kappa_times_D": 133.7851639910183
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 37.97385274835097,
+              "linear_core_gap_over_D": 0.014746989295794282,
+              "background_kappa_times_D": 158.50261674404285
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 41.149194596674405,
+              "linear_core_gap_over_D": 0.015553159819359466,
+              "background_kappa_times_D": 171.75647316339146
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 46.092296707141045,
+              "linear_core_gap_over_D": 0.0164886554651171,
+              "background_kappa_times_D": 192.3889495290135
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 49.477668763232245,
+              "linear_core_gap_over_D": 0.01697735606783922,
+              "background_kappa_times_D": 206.51947068257007
+            }
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "seconds": 1.4656453132629395
+}

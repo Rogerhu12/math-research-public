@@ -1,0 +1,46 @@
+{
+  "status": "execution-blocked-before-any-mathematical-stage",
+  "author": "GPT-6 Astra Pro (AI-assisted)",
+  "source_commit": "b3cf63d9c958acb9ac29fc36b68ed19707504b39",
+  "run_id": 43309712288,
+  "attempts": [
+    {
+      "attempt": 1,
+      "sync_job": 131502268771,
+      "started_at": "2026-11-12T21:23:01Z",
+      "completed_at": "2026-11-12T21:23:03Z",
+      "conclusion": "failure",
+      "steps": null,
+      "strong": "skipped",
+      "interval": "skipped",
+      "annotations_count": 1
+    },
+    {
+      "attempt": 2,
+      "sync_job": 131502887901,
+      "conclusion": "failure",
+      "steps": null,
+      "strong": "skipped",
+      "interval": "skipped"
+    }
+  ],
+  "rerun_failed_jobs_tool_success": true,
+  "formal_numerical_exit_observed": false,
+  "reason": "Unknown. Decoded job logs returned BlobNotFound; annotations endpoint not supported by the available connector.",
+  "actual_git_pull_this_failed_batch": false,
+  "last_known_actual_pull_utc": "2026-11-12T21:13:48.576498+00:00",
+  "api_read_main": "1b2df28d16be4cc14c1eda4bc2475a56f861c4fa",
+  "api_read_is_not_git_pull": true,
+  "readme_blobs": [
+    "f787a306d90892d8dec765dc59747d60ba39f055",
+    "696eb3ba7d3a90636e51e8fbdd573b2f37cae707"
+  ],
+  "next_computation_source_and_request_committed": true,
+  "mathematical_work_continues": [
+    "R90 complete low46 Green/projected field theorem",
+    "R89 high-frequency threshold and middle bridge",
+    "carrier complete mean height/geometric interface",
+    "accepted q096 actual control/fixed-g continuation"
+  ],
+  "task_complete": false
+}

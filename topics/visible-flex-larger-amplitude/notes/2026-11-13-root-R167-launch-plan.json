@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-13T17:52:43.800731+00:00",
+  "command": [
+    "node",
+    "--max-old-space-size=256",
+    "/workspace/scratch/d1aa462cfc02/root-work/R167-M8-root-inputs/root_R167_M8_actual_root_coordinates.mjs",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R167-M8-root-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R167-M8-root-coordinates-r1.json"
+  ],
+  "source_sha256": "a31f4a96d85ddba2228cf96f7053b78da316e01c30f9f4fcfc9bc933581bbe49",
+  "input_manifest_sha256": "eeaff04656b2e0998241f1c136e31583bac268a66adfb23c9fea5d03c73205af",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_seconds": 90,
+    "planned_peak_rss_mib": 320
+  },
+  "purpose": "Full original finite-M8 momentum-root conversion at all109 existing cell9..7 knots. No ODE, far graph, Newton BVP, or new geometry solve."
+}

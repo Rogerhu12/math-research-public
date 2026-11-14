@@ -1,0 +1,95 @@
+{
+  "scope": "Complete original M32 fixed-layout raw after the original affine-inner RMS gate. New-H true tail, final physical boundary and audit remain pending. This is recovery only.",
+  "created_utc": "2026-11-13T14:40:52.689491+00:00",
+  "recovery_manifest": {
+    "file": "notes/2026-11-13-strong-q122-m32-pending-prefix-recovery-manifest-r1.json",
+    "sha256": "74a4858ecdee197bfd088f2cc3f7c85e7d17b4313bb33716dd79dd4d3090bbb8"
+  },
+  "nodes": 2587,
+  "modes": 32,
+  "original_inner_RMS": 9.935499777985971e-08,
+  "original_tolerance": 1e-07,
+  "owned_archive": {
+    "exitcode": 0,
+    "wall_seconds": 1.0309314569967682,
+    "peak_rss_kib": 51652
+  },
+  "actual_full_H_difference_from_prior_true_tail": 1.382006177067659e-12,
+  "no_newton_or_tail_repeated_by_archive": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-outer-00-raw-collocation-cubic-000.npy.gz",
+      "bytes": 3894965,
+      "sha256": "454c6a5f20affe3a2b2269acbe2e6868b822b0a7998a474408a421feb5ae2a79",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-outer-00-raw-collocation-cubic-001.npy.gz",
+      "bytes": 3897718,
+      "sha256": "380a3d525b56a8da2923eb198296633521fb373f8cd70e48888585d10e67ab3e",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-outer-00-raw-collocation-cubic-002.npy.gz",
+      "bytes": 26381,
+      "sha256": "0173e3dcce6607d8363aa02507b7fe4a14ffb787ee535f9250ed769e340fc051",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-outer-00-raw-collocation-p-000.npy.gz",
+      "bytes": 442,
+      "sha256": "1e88ad34faa89b0b6ba015eca25884e7f1442beb1fbce9308699f600f747f5eb",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-outer-00-raw-collocation-rms-000.npy.gz",
+      "bytes": 19962,
+      "sha256": "d47f9b3ec00682eacade58ba624571d10c9725391444380882ed553fd2533abe",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-outer-00-raw-collocation-x-000.npy.gz",
+      "bytes": 19377,
+      "sha256": "8e412221448cc2dd2ca0c7a2e38295d84015d06303e51758c811b86fb376e647",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-outer-00-raw-collocation-y-000.npy.gz",
+      "bytes": 1935051,
+      "sha256": "3724283d0b0844250426c2df0bddb807bc99acede02e69da9f1963e448cd7b99",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-outer-00-raw-collocation.json.gz",
+      "bytes": 2827,
+      "sha256": "a47c3b2c1d416971ee9f12bbf08631d967184382eef57d75af1920c2d9073de2",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-pending-prefix-recovery-manifest-r1.json",
+      "sha256": "74a4858ecdee197bfd088f2cc3f7c85e7d17b4313bb33716dd79dd4d3090bbb8",
+      "bytes": 14302
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-pending-prefix-archive-r1-heartbeat.json",
+      "sha256": "381a1913241092e1883cd03114262cfa354ebb668885b513b1738617de309c25",
+      "bytes": 309
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-pending-prefix-archive-r1-ownership.json",
+      "sha256": "4348180d4f8a81f90f1a146da18cf9dab6674c8263fd2b456e1c3c26248be312",
+      "bytes": 1873
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-pending-prefix-archive-r1-resource.json",
+      "sha256": "bba7e28f37e46d05592e5806cb6c0447ea535b578d14638e16d7318508f37ed0",
+      "bytes": 1660
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-pending-prefix-archive-r1-stdout.log",
+      "sha256": "9ec05efd481a7191f4a4bb12674334c120d4b0c6ab145b904df16a7960e33e4a",
+      "bytes": 1844
+    }
+  ],
+  "total_bytes": 9816711
+}

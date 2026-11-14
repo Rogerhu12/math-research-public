@@ -1,0 +1,158 @@
+{
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "scope": "Fresh P1 bounds, unchanged original complete source/641/window algorithms",
+  "steps": [
+    {
+      "name": "source",
+      "command": [
+        "python",
+        "-u",
+        "root-work/actual-cut-posterior-inputs/2026-11-13-exact-resume-inner-restricted-complete-source-v1.py",
+        "--modal-input",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1.json.gz",
+        "--modal-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1-resource.json",
+        "--density",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/frozen-topic/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+        "--out-prefix",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-source-r1"
+      ],
+      "resource": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-source-r1-resource.json",
+      "stdout": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-source-r1.log",
+      "original_command_resource": {
+        "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-resource.json",
+        "sha256": "81799b408937ccb7569a2d003684de1e7202cdc49a6d3a0cc63914b2b5666b88"
+      },
+      "source": {
+        "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/2026-11-13-exact-resume-inner-restricted-complete-source-v1.py",
+        "sha256": "7adc09ca1ee631807bc36fbf0a2197f5b2725670aeef3531ce2e54c49fb48c03"
+      }
+    },
+    {
+      "name": "parent-bridge",
+      "command": [
+        "python",
+        "-u",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_parent_domain_bridge.py",
+        "--inputs",
+        "/workspace/scratch/d1aa462cfc02/root-work/R157-P1-inputs/parent-bridge-inputs.json",
+        "--out",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-parent-bridge-r1.json"
+      ],
+      "resource": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-parent-bridge-r1-resource.json",
+      "stdout": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-parent-bridge-r1.log",
+      "source": {
+        "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_parent_domain_bridge.py",
+        "sha256": "60be7f55dfc0e7e5e8620c215da3ca0cb9b978bdc7d8dcbb28c735d08f91ca68"
+      }
+    },
+    {
+      "name": "641",
+      "command": [
+        "python",
+        "-u",
+        "root-work/actual-cut-posterior-inputs/2026-11-13-exact-resume-inner-restricted-nonlinear641-v1.py",
+        "--topic",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/frozen-topic",
+        "--modal-input",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1.json.gz",
+        "--source-summary",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-source-r1-summary.json",
+        "--source-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-source-r1-resource.json",
+        "--old-bootstrap",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/inner-full641-bootstrap-r1.json.gz",
+        "--old-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/inner-full641-bootstrap-r1-resource.json",
+        "--out-prefix",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-641-r1",
+        "--steps",
+        "128"
+      ],
+      "resource": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-641-r1-resource.json",
+      "stdout": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-641-r1.log",
+      "original_command_resource": {
+        "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r2-resource.json",
+        "sha256": "a2406e71557675806859b86c1fe9838a9ba2b843f7ec34b68be2c5d36b0b32d3"
+      },
+      "source": {
+        "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/2026-11-13-exact-resume-inner-restricted-nonlinear641-v1.py",
+        "sha256": "87959e4ed4bcff985d22cd7f9cb079a0dc94cf636a9fe213f6ca4a455d29d660"
+      }
+    },
+    {
+      "name": "window13",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-u",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_restricted_window13_low46.py",
+        "--topic",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/frozen-topic",
+        "--field",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-641-r1.json.gz",
+        "--field-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-641-r1-resource.json",
+        "--modal-input",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1.json.gz",
+        "--source-summary",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-source-r1-summary.json",
+        "--source-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-source-r1-resource.json",
+        "--dq-kernels",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/r2-kernels.json.gz",
+        "--dq-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/r2-resource.json",
+        "--scalar-endpoint",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-endpoint-high-r1.json",
+        "--scalar-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-endpoint-high-r1-resource.json",
+        "--canonical-endpoint",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-canonical-endpoint-r1.json",
+        "--canonical-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-canonical-endpoint-r1-resource.json",
+        "--previous-window-primary",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-window13.json.gz",
+        "--previous-window-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-window13-resource.json",
+        "--window-gamma",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/gamma/certificate.json",
+        "--window-gamma-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/gamma-resource.json",
+        "--low-mode-field",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-low46.json.gz",
+        "--low-mode-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-low46-resource.json",
+        "--restriction-bridge",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-parent-bridge-r1.json",
+        "--restriction-resource",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-parent-bridge-r1-resource.json",
+        "--out-prefix",
+        "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-window13-r1",
+        "--steps",
+        "8"
+      ],
+      "resource": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-window13-r1-resource.json",
+      "stdout": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-window13-r1.log",
+      "original_command_resource": {
+        "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-window13-r1-resource.json",
+        "sha256": "a7701f9bc09944c5295c27e9fe14bbc45133aa67597331df12d30a565f7d9652"
+      },
+      "source": {
+        "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_restricted_window13_low46.py",
+        "sha256": "4302572f599f3fd03987ba74865ae2919b4c4d54733bf528017716659c6738ba"
+      }
+    }
+  ],
+  "modal": {
+    "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1.json.gz",
+    "sha256": "b6449aa97ea25e1f26760867fe1916efa2eb71cbce910658632473940435f8a0"
+  },
+  "modal_resource": {
+    "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1-resource.json",
+    "sha256": "3fa6bf674c8d9e48fc09afa468e84c6a643e2361cca68bcc1a71d62971dd6992"
+  },
+  "wrapper": {
+    "path": "/workspace/scratch/d1aa462cfc02/root-work/R157-P1-inputs/strong_resource_run.py",
+    "sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  }
+}

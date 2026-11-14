@@ -1,0 +1,22 @@
+{
+  "schema": "owned-subprocess-resource-v1",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/inner_CsLambda_DQ_window_kernels.py",
+    "--input",
+    "/workspace/scratch/d1aa462cfc02/exact-work/aux-modal-physical-transfer-r1.json.gz",
+    "--input-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/aux-modal-physical-transfer-r1-resource.json",
+    "--density",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cs-lambda-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-DQ-windows-r1/kernels.json.gz",
+    "--rss-kib",
+    "98304"
+  ],
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "exit_code": 0,
+  "wall_seconds": 38.51186644799964,
+  "peak_rss_kib": 54828,
+  "source_sha256": "ecd091b4400b21d66dcc78b0933fe09689ae65473d287f0b119f8782a5e1b673"
+}

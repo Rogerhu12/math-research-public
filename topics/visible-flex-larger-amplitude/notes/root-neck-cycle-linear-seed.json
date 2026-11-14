@@ -1,0 +1,112 @@
+{
+  "scope": "Exact constant-slope linear matrix product with instantaneous slope changes. The height and radius figures are ideal constant-curvature turning budgets only; no C2 glued surface or nonlinear solution is asserted.",
+  "rows": [
+    {
+      "mode": 2,
+      "radius_ratio": 1.5,
+      "trace": -6.0,
+      "determinant": 1,
+      "unstable_gain": 5.82842712474619,
+      "stable_attenuation": 0.1715728752538099
+    },
+    {
+      "mode": 2,
+      "radius_ratio": 2.0,
+      "trace": -22.0,
+      "determinant": 1,
+      "unstable_gain": 21.954451150103324,
+      "stable_attenuation": 0.04554884989667773
+    },
+    {
+      "mode": 2,
+      "radius_ratio": 2.2,
+      "trace": -29.418181818181825,
+      "determinant": 1,
+      "unstable_gain": 29.38414986542567,
+      "stable_attenuation": 0.034031952756156884
+    },
+    {
+      "mode": 2,
+      "radius_ratio": 2.5,
+      "trace": -41.2,
+      "determinant": 1,
+      "unstable_gain": 41.1757138393787,
+      "stable_attenuation": 0.02428616062130397
+    },
+    {
+      "mode": 4,
+      "radius_ratio": 1.5,
+      "trace": -158.0,
+      "determinant": 1,
+      "unstable_gain": 157.993670632526,
+      "stable_attenuation": 0.00632936747400393
+    },
+    {
+      "mode": 4,
+      "radius_ratio": 2.0,
+      "trace": -478.0,
+      "determinant": 1,
+      "unstable_gain": 477.9979079406345,
+      "stable_attenuation": 0.0020920593655070897
+    },
+    {
+      "mode": 4,
+      "radius_ratio": 2.2,
+      "trace": -626.3636363636365,
+      "determinant": 1,
+      "unstable_gain": 626.3620398428764,
+      "stable_attenuation": 0.0015965207601834415
+    },
+    {
+      "mode": 4,
+      "radius_ratio": 2.5,
+      "trace": -862.0,
+      "determinant": 1,
+      "unstable_gain": 861.9988399056313,
+      "stable_attenuation": 0.0011600943686994713
+    },
+    {
+      "mode": 6,
+      "radius_ratio": 1.5,
+      "trace": -838.0,
+      "determinant": 1,
+      "unstable_gain": 837.9988066808783,
+      "stable_attenuation": 0.0011933191217309382
+    },
+    {
+      "mode": 6,
+      "radius_ratio": 2.0,
+      "trace": -2518.0,
+      "determinant": 1,
+      "unstable_gain": 2517.9996028593496,
+      "stable_attenuation": 0.00039714065040535987
+    },
+    {
+      "mode": 6,
+      "radius_ratio": 2.2,
+      "trace": -3296.9090909090914,
+      "determinant": 1,
+      "unstable_gain": 3296.9087875946643,
+      "stable_attenuation": 0.0003033144270665653
+    },
+    {
+      "mode": 6,
+      "radius_ratio": 2.5,
+      "trace": -4534.0,
+      "determinant": 1,
+      "unstable_gain": 4533.999779444189,
+      "stable_attenuation": 0.00022055581134646358
+    }
+  ],
+  "ideal_turn_budget": {
+    "speed": 0.985,
+    "curvature": 8.0,
+    "r0": 0.3,
+    "r1": 0.66,
+    "radial_coast_height": 0.1261310906319891,
+    "two_turns_height": 0.4925,
+    "total_height": 0.6186310906319891,
+    "min_radius": 0.19656929240842175,
+    "max_radius": 0.7634307075915783
+  }
+}

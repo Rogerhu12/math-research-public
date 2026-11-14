@@ -1,0 +1,44 @@
+{
+  "schema": "two-accepted-newg-analytic-profile-domain-archive-v1",
+  "accepted_primary_sha256": [
+    "88175797998edbbe6d7ed18065fb8786cc58cec5e255b0efb95da9d08c728699",
+    "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293"
+  ],
+  "files": [
+    {
+      "path": "computations/strong_newg_analytic_profile_bounds.py",
+      "sha256": "cf80d379758054726cc1f77d8065eaf2eab59c3015fb263cb8a8f5918a664af5",
+      "bytes": 9694
+    },
+    {
+      "path": "notes/2026-11-13-strong-q098-q106-analytic-profile-domains.md",
+      "sha256": "ac7d87b489a711aa383cf8bcb8938ea3a509cd252cc926019819b5a36da70a1b",
+      "bytes": 7876
+    },
+    {
+      "path": "notes/2026-11-13-strong-q098-analytic-profile-domain-profile.json",
+      "sha256": "c76b32f41dc2b29501ad98d3870d8b15f75d830d4f837efdada1b019dd2b66d5",
+      "bytes": 17827
+    },
+    {
+      "path": "notes/2026-11-13-strong-q098-analytic-profile-domain-resource.json",
+      "sha256": "5af98dbc8f37f84e029af16a0142a273f9dc91becfe42baaca3a7b319da7a92e",
+      "bytes": 947
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-analytic-profile-domain-profile.json",
+      "sha256": "af23c29c15c9e94185ba83394eec46c93ad51deaab8918fbf29d8ffd339a961e",
+      "bytes": 17825
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-analytic-profile-domain-resource.json",
+      "sha256": "feb7f4b8fb3d6e67f76a95a27d1f89c463d9ac28eb4e4514a4a6987fd93e0c4a",
+      "bytes": 994
+    }
+  ],
+  "all_runs_formal_exit0": true,
+  "guards_per_actual_profile": 39,
+  "ODE_Node_Newton_calls": 0,
+  "only_ideal_analytic_background_domain_certified": true,
+  "actual_floating_Gauss_mean_Cartesian_curvature_reach_not_certified": true
+}

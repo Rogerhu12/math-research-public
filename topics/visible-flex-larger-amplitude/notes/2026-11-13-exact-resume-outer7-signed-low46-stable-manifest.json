@@ -1,0 +1,31 @@
+{
+  "schema": "original-cell7-signed-low46-stable-package-v1",
+  "all_linear_gates": true,
+  "formal_exitcode": 0,
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-outer7-signed-low46-primary.json",
+      "sha256": "90f6ef971b581bd30b73cbcc9085791bb0cf7f27c3e5341e96d6e85fed1cbd72",
+      "bytes": 215743,
+      "source_path": "/workspace/scratch/d1aa462cfc02/exact-work/outer7-signed-low46-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer7-signed-low46-resource.json",
+      "sha256": "1f29b7bcbbc8f710feec69f25204b9bc831cd2b302e7c5d71f2ec311a4119760",
+      "bytes": 1108,
+      "source_path": "/workspace/scratch/d1aa462cfc02/exact-work/outer7-signed-low46-run1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer7-signed-low46-proof.md",
+      "sha256": "4bbe7899bc9ed9ecb991edf1014e5ef133a52cc6f958c940384c4676b1545eba",
+      "bytes": 2669,
+      "source_path": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-outer7-signed-low46-proof.md"
+    }
+  ],
+  "total_bytes": 219520,
+  "source_already_archived": {
+    "path": "notes/2026-11-13-exact-resume-outer8-signed-low46-producer.py",
+    "sha256": "d34c1e1a7c5933921d5aceeab159eab558b7198af8ee68eca86d4aca407bc0ab"
+  },
+  "scope": "Complete new original cell7 low46 homogeneous contribution only. Its saved upper bound does not pay the generic small-field nonlinear domain."
+}

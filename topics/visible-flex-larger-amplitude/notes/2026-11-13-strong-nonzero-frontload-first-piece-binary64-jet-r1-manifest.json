@@ -1,0 +1,55 @@
+{
+  "schema": "actual-frontload-binary64-first-piece-jet-compact-archive-v1",
+  "files": [
+    {
+      "path": "computations/strong_frontload_first_piece_binary64_jet_bridge.py",
+      "sha256": "b1896e46adefef0cf11ceeeae04a37bd61048001a518be9a510e30cf075347c1",
+      "bytes": 11008,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_first_piece_binary64_jet_bridge.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-first-piece-binary64-jet-r1-certificate.json",
+      "sha256": "d56d778fb7cb627b66b20837463212d60ddb62d3fa3f4c797f9c3e0334e7de55",
+      "bytes": 26447,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-first-piece-binary64-jet-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-first-piece-binary64-jet-r1-resource.json",
+      "sha256": "28a547cfa43f20081c6fed81f8e1ebcd1de05cbda79ed8178e15ae11e74cd4e9",
+      "bytes": 1588,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-first-piece-binary64-jet-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-first-piece-binary64-jet-r1-proof.md",
+      "sha256": "dcb06263a7bd014d83a92d47d006a5b894232d04e734cb81b32da3bad97a0983",
+      "bytes": 6153,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-first-piece-binary64-jet-r1-proof.md"
+    }
+  ],
+  "total_bytes": 45196,
+  "all_owned_outcomes_verified": true,
+  "input_kind": "completed-unsolved-warm",
+  "gate_count": 89,
+  "complete_binary64_argument_domain": true,
+  "sample_based_maximum": false,
+  "basic_arithmetic_model": {
+    "format": "binary64 basic +,-,*,/; actual input arrays binary64",
+    "permitted_rounding": "any standard IEEE rounding direction; no overflow",
+    "relative_operation_error": {
+      "numerator": "1",
+      "denominator": "4503599627370496"
+    },
+    "absolute_operation_error": {
+      "numerator": "1",
+      "denominator": "2808895523222368605827039360607851146278089029597354019897345018089573059460952548948569958162617750330001779372990521213418590137725259726450741103741783193402623334763523207442222181269470220616454421126328215138096104411600982523029892352200425580677351729446660909999175717788745567263052442650378502144"
+    },
+    "subnormal_input_or_result_flush_included": true,
+    "single_operation_bound": "abs(fl(z)-z)<=eps*abs(z)+eta on the explicitly bounded operands",
+    "layer_bound": "Enew <= (1+eps)^3 E + ((1+eps)^3-1) A + 16 eta (A+E+1)",
+    "transcendental_function_accuracy_assumed": false
+  },
+  "global_neighbor_mask_overlap_paid": false,
+  "rounded_function_C2_claimed": false,
+  "complete_mean_or_surface_or_closed_D_certified": false,
+  "new_ODE_RHS_Flow_Node_Newton_calls": 0
+}

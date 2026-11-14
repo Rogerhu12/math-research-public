@@ -1,0 +1,80 @@
+{
+  "status": "Executed explicit mathematical correction, replacing old complete-centre endpoint claims while preserving all old primary data",
+  "source_commit_of_superseded_claims": "353b5cf0ab6ab70ded39770f6178238f9441dd5a",
+  "old_source_publication_status": "Old main merge unconfirmed; interruption request auto-review rejected; terminal state unknown; no retry of old source; corrected new source only",
+  "old_proof_hashes": [
+    {
+      "path": "results/R63-actual-auxiliary-cut-momentum-functional.md",
+      "sha256": "cd9449687899d47196755ebfb5ec4c77d4937a3bff36d2408ceeaaedf76f24ed"
+    },
+    {
+      "path": "results/R70-actual-cell11-forcing-and-centre-residual.md",
+      "sha256": "ca57d1e5f2c0e94ad7ca358095a3d2c45dc0e9d376e9bf6d668ee69ff2e7655d"
+    },
+    {
+      "path": "results/R71-two-sided-internal-height-recentring.md",
+      "sha256": "d9c71cda049751fefc91421ec143ab708e7a226c3c61fcc3f75e5cc32162b838"
+    }
+  ],
+  "superseded_scope": "Old R63 source-only fields must be supplemented by B D(z_aux); old dependent R70/R71 complete centre raw endpoints require the explicitly saved +/- propagated term",
+  "old_primary_outputs_modified": false,
+  "R39_R58_R61_coarse_auxiliary_box_R72_existence_certificates_unchanged": true,
+  "formal_sessions": {
+    "completion": 80848,
+    "display": 6560
+  },
+  "files": [
+    {
+      "path": "results/R63-actual-auxiliary-cut-momentum-functional.md",
+      "bytes": 16785,
+      "sha256": "2d4ddc5a14ea9a700648f36298e3dcef6f93aeee49b7c0229a2e883c4f5c43fb"
+    },
+    {
+      "path": "results/R70-actual-cell11-forcing-and-centre-residual.md",
+      "bytes": 12943,
+      "sha256": "c4481b8337d671c1fb7d3f7855565ff12406b51c47d753e5d9d23e19592e26af"
+    },
+    {
+      "path": "results/R71-two-sided-internal-height-recentring.md",
+      "bytes": 12671,
+      "sha256": "39e6f2470f186a4e2de1c301e4d7277d050fc5fa0ad3351e85462e05c95c147f"
+    },
+    {
+      "path": "computations/closure_r63_far_boundary_completion.py",
+      "bytes": 9983,
+      "sha256": "4ac163e1585982cf89dd6eecdefb3bc9dba1bd5ea8b86cb3a73992121aab1666"
+    },
+    {
+      "path": "computations/closure_r63_far_completion_display.py",
+      "bytes": 2200,
+      "sha256": "f2c448aa3a643d07bf95212c8384aaafeeb91941a4b8321104e6c9a57beb4392"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r63-far-boundary-completion-r1.json",
+      "bytes": 54096,
+      "sha256": "6ee19d3288cd6d8662eecbc7d72e83d59245383798c6a066d8c9160c432ea4dd"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r63-far-boundary-completion-r1-resource.json",
+      "bytes": 1378,
+      "sha256": "55398ee44869e53af99620dba9cba2c151457b420ec028de496b3fbbedf3119b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r63-far-completion-display-r1.json",
+      "bytes": 720,
+      "sha256": "b42d4ae02faad5cd3716a38c22fa5af802e68ce56a586bffaec59c4e94d0e966"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r63-far-completion-display-r1-resource.json",
+      "bytes": 892,
+      "sha256": "83b8ffa99eb6259e81b4abeb5db33c3c0a2d74a68309e3327af6ffb66e89f897"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r63-far-boundary-correction.md",
+      "bytes": 2731,
+      "sha256": "2a3930d9de0a36f397c11de4f9e7c31f4d70b56a5c3dea09c1a2eb9a76c1ca02"
+    }
+  ],
+  "total_bytes": 114399,
+  "active1753_outputs_excluded": true
+}

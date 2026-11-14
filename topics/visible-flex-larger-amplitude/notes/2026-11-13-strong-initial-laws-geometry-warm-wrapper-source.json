@@ -1,0 +1,91 @@
+{
+  "schema": "actual-fullmean-geometry-initial-laws-source-v1",
+  "scope": "Run the unchanged complete-mean warm geometry with explicit inlet laws.\n\nThe retained actual entry receives the already reviewed optional-default\naugmented core and the identical provider installation order angle, pulse,\nthen frontload. The full raw interpolation, mean, Cartesian jet, and finite\ngeometry loops are unchanged. A missing zero frontload is never inserted\ninto an accepted profile. Every nonzero response must be from the same\naccepted field's complete actual Jacobian. No new solution is certified.\n",
+  "source_sha256": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+  "source_inputs": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_augmented_core.py": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646"
+  },
+  "original_main_sha256": "b67ecdc3a0493d3b9f3ce50156f101c0813a20785b3f0ff2bc9de0aa9533b034",
+  "transformed_main_sha256": "b4c917c87e6000c88870914eaa5b1a0bf69c86e403c6c78f07b60d987eb1c67f",
+  "original_augmented_default_adapter": {
+    "scope": "Optional absent defaults for pulse and monotone physical design controls.\n\nOnly these two explicit profile keys may be absent with value zero. Every\nother baseline lookup, all-core/geometry parameter layout, raw/chart mapping,\nphysical equation, derivative and original acceptance gate remains unchanged.\n",
+    "prior": {
+      "scope": "Explicit optional pulse default for the retained all-core actual factory.\n\nOnly the absent initial_speed_pulse baseline value is defined to be zero.\nEvery other control lookup, parameter layout, physical equation, derivative,\nchart, raw conversion and acceptance condition remains the original source.\n",
+      "original_sha256": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+      "transformed_sha256": "448fb31902ac311f0567a6db9ea7f8edbe1ad18caf329c1d1a5d01e97da866f2",
+      "adapter_sha256": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+      "replacements": [
+        {
+          "before": "        **{name: baseline_profile[name]+value for name, value in external_shifts.items()}}",
+          "after": "        **{name: (baseline_profile.get(name,0.) if name=='initial_speed_pulse' else baseline_profile[name])+value for name, value in external_shifts.items()}}",
+          "count": 1
+        }
+      ],
+      "exact_reverse_recovers_original": true,
+      "default_pulse": 0.0,
+      "all_other_profile_keys_still_required": true,
+      "all_original_actual_equations_and_gates_unchanged": true
+    },
+    "pulse_adapter_sha256": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+    "adapter_sha256": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+    "prior_transformed_sha256": "448fb31902ac311f0567a6db9ea7f8edbe1ad18caf329c1d1a5d01e97da866f2",
+    "transformed_sha256": "2a8aef436093d0c853a56a7b95474a88d77af954a9bbf503f970293d561d9831",
+    "replacements": [
+      {
+        "before": "baseline_profile.get(name,0.) if name=='initial_speed_pulse' else baseline_profile[name]",
+        "after": "baseline_profile.get(name,0.) if name in ('initial_speed_pulse','initial_speed_frontload') else baseline_profile[name]",
+        "count": 1
+      }
+    ],
+    "missing_defaults": {
+      "initial_speed_pulse": 0.0,
+      "initial_speed_frontload": 0.0
+    },
+    "every_other_profile_key_remains_required": true,
+    "every_original_actual_equation_and_gate_unchanged": true
+  },
+  "source_transforms": [
+    {
+      "before": "    import strong_actual_augmented_core as augmented\n",
+      "after": "    from strong_initial_laws_augmented_core import load_augmented_core\n    augmented = load_augmented_core()\n",
+      "count": 1
+    },
+    {
+      "before": "        **{name: reference['frozen_profile'][name]+value for name, value in external_shifts.items()}}",
+      "after": "        **{name: (reference['frozen_profile'].get(name,0.) if name in ('initial_speed_pulse','initial_speed_frontload') else reference['frozen_profile'][name])+value for name, value in external_shifts.items()}}",
+      "count": 1
+    },
+    {
+      "before": "        source_factory = loaded.make_dual\n        original_main = loaded.main",
+      "after": "        original_provider_loader = loaded.module\n        def initial_laws_provider_loader(provider_name,provider_path):\n            value = original_provider_loader(provider_name,provider_path)\n            if Path(provider_path).name=='alternative-neck-provider.py':\n                if not getattr(value,'_strong_angle_boost_installed',False):\n                    raise ValueError('Original angle hook must be installed before inlet laws')\n                import strong_initial_speed_pulse as pulse_hook\n                pulse_hook.install(value)\n                import strong_monotone_initial_speed as frontload_hook\n                frontload_hook.install(value)\n            return value\n        loaded.module = initial_laws_provider_loader\n        source_factory = loaded.make_dual\n        original_main = loaded.main",
+      "count": 1
+    },
+    {
+      "before": "    hashes = {str(HERE/name): sha(HERE/name) for name in source_names}",
+      "after": "    source_names += ('root_actual_geometry_field_initial_laws.py','strong_initial_laws_augmented_core.py','strong_pulse_augmented_core.py','strong_initial_speed_pulse.py','strong_monotone_initial_speed.py')\n    hashes = {str(HERE/name): sha(HERE/name) for name in source_names}",
+      "count": 1
+    }
+  ],
+  "exact_reverse_recovers_original_main": true,
+  "reviewed_external_controls": [
+    "vu",
+    "vd",
+    "start_acceleration",
+    "descending_turn_curvature",
+    "descending_sync_curvature",
+    "coast_outward",
+    "loop_ratio",
+    "initial_speed_frontload"
+  ],
+  "complete_mean_original_source_sha256": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+  "provider_install_order": [
+    "original angle at provider import",
+    "pulse",
+    "frontload"
+  ],
+  "absent_frontload_zero_profile_keys_inserted": false,
+  "actual_fullmean_geometry_or_new_solution_executed": false
+}

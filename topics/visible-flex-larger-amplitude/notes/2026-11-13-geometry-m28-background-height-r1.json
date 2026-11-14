@@ -1,0 +1,268 @@
+{
+  "scope": "Locate the height cost in an accepted candidate's actual background program.\n\nThis only instantiates the existing finite neck and terminal profile formulas.\nIt does not call their linear ODE screen, solve a BVP, differentiate a true\nsolution, or assert the perturbed background matches the prescribed core.\nThe controls are varied with all other physical profile entries fixed.\n",
+  "source_sha256": "2bee010c3d3e70508b0d542f15ccae39296efccf52b4eb678fbcfa203416698a",
+  "checkpoint": "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz",
+  "checkpoint_sha256": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd",
+  "port": "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+  "port_sha256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+  "original_provider_sha256": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+  "provider_dependency_sha256": {
+    "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "strong_angle_boost.py": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be"
+  },
+  "actual_primary": 0.0959999590672073,
+  "profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.16208341673538396,
+    "vu": 0.31980000000000003,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8634500737670308,
+    "boost_length": 0.12481215570536809,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.7475,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "accepted_prefix_height_sample": 1.926153401821087,
+  "baseline": {
+    "background_height": 1.9291208510740632,
+    "background_length": 3.1496673569886275,
+    "background_height_is_not_true_prefix_height": true,
+    "segments": [
+      {
+        "part": "prefix",
+        "index": 0,
+        "kind": "hermite",
+        "length": 0.8458597089649649,
+        "radius_change": 0.16208341673538396,
+        "height_change": 0.8256357006222683,
+        "height_fraction": 0.42798547336346754,
+        "radius_start": 1.0,
+        "radius_end": 1.162083416735384
+      },
+      {
+        "part": "prefix",
+        "index": 1,
+        "kind": "boost",
+        "length": 0.12481215570536809,
+        "radius_change": 0.0769129493705345,
+        "height_change": 0.09437684075581589,
+        "height_fraction": 0.0489222024132238,
+        "radius_start": 1.162083416735384,
+        "radius_end": 1.2389963661059185
+      },
+      {
+        "part": "prefix",
+        "index": 2,
+        "kind": "turn",
+        "length": 0.38863526356744277,
+        "radius_change": -0.04712795615605718,
+        "height_change": 0.28443864221370135,
+        "height_fraction": 0.14744469847772182,
+        "radius_start": 1.2389963661059185,
+        "radius_end": 1.1918684099498613
+      },
+      {
+        "part": "prefix",
+        "index": 3,
+        "kind": "coast",
+        "length": 0.8443848993748655,
+        "radius_change": -0.8274972013873682,
+        "height_change": 0.1680304733921059,
+        "height_fraction": 0.08710209798341702,
+        "radius_start": 1.1918684099498613,
+        "radius_end": 0.36437120856249317
+      },
+      {
+        "part": "prefix",
+        "index": 4,
+        "kind": "turn",
+        "length": 0.014626370232345214,
+        "radius_change": -0.01437120856249321,
+        "height_change": 0.00271737852067105,
+        "height_fraction": 0.0014086097919464788,
+        "radius_start": 0.36437120856249317,
+        "radius_end": 0.35
+      },
+      {
+        "part": "prefix",
+        "index": 5,
+        "kind": "turn",
+        "length": 0.4050359436809542,
+        "radius_change": -1.686300864282651e-17,
+        "height_change": 0.2686443005964492,
+        "height_fraction": 0.13925737231385893,
+        "radius_start": 0.35,
+        "radius_end": 0.35
+      },
+      {
+        "part": "prefix",
+        "index": 6,
+        "kind": "coast",
+        "length": 0.0355329949238579,
+        "radius_change": 0.03500000000000003,
+        "height_change": 0.006131372461277252,
+        "height_fraction": 0.0031783247057142793,
+        "radius_start": 0.35,
+        "radius_end": 0.385
+      },
+      {
+        "part": "prefix",
+        "index": 7,
+        "kind": "turn",
+        "length": 0.4050359436809542,
+        "radius_change": 1.686300864282651e-17,
+        "height_change": 0.2686443005964492,
+        "height_fraction": 0.13925737231385893,
+        "radius_start": 0.385,
+        "radius_end": 0.385
+      },
+      {
+        "part": "prefix",
+        "index": 8,
+        "kind": "coast",
+        "length": 0.0355329949238579,
+        "radius_change": -0.03500000000000003,
+        "height_change": 0.006131372461277252,
+        "height_fraction": 0.0031783247057142793,
+        "radius_start": 0.385,
+        "radius_end": 0.35
+      },
+      {
+        "part": "bridge",
+        "index": 0,
+        "kind": "turn",
+        "length": 0.014721062891969686,
+        "radius_change": -0.014603245545936781,
+        "height_change": 0.0017998960601320363,
+        "height_fraction": 0.0009330136363048074,
+        "radius_start": 0.35,
+        "radius_end": 0.3353967544540632
+      },
+      {
+        "part": "bridge",
+        "index": 1,
+        "kind": "coast",
+        "length": 0.02685456420717109,
+        "radius_change": -0.02678528252741913,
+        "height_change": 0.001927760017069077,
+        "height_fraction": 0.0009992945833309363,
+        "radius_start": 0.3353967544540632,
+        "radius_end": 0.30861147192664407
+      },
+      {
+        "part": "bridge",
+        "index": 2,
+        "kind": "brake",
+        "length": 0.008635454834876767,
+        "radius_change": -0.008611471926644007,
+        "height_change": 0.0006428133768467981,
+        "height_fraction": 0.0003332157114412523,
+        "radius_start": 0.30861147192664407,
+        "radius_end": 0.30000000000000004
+      }
+    ]
+  },
+  "directions": [
+    {
+      "control": "vu",
+      "step": 0.0002,
+      "plus_height": 1.9287258192527799,
+      "minus_height": 1.9295161694269936,
+      "central_background_height_difference_per_step": -0.0003951750871068471,
+      "central_background_height_derivative": -1.9758754355342356,
+      "observed_second_difference": 2.865316468536605e-07,
+      "low_core_constraints_held": false,
+      "true_solution_response_computed": false
+    },
+    {
+      "control": "descending_turn_curvature",
+      "step": 0.0025,
+      "plus_height": 1.9290190477768197,
+      "minus_height": 1.9292227298370577,
+      "central_background_height_difference_per_step": -0.0001018410301190098,
+      "central_background_height_derivative": -0.04073641204760392,
+      "observed_second_difference": 7.546575098160702e-08,
+      "low_core_constraints_held": false,
+      "true_solution_response_computed": false
+    },
+    {
+      "control": "start_acceleration",
+      "step": 0.01,
+      "plus_height": 1.926445563773525,
+      "minus_height": 1.9318272537865502,
+      "central_background_height_difference_per_step": -0.002690845006512621,
+      "central_background_height_derivative": -0.2690845006512621,
+      "observed_second_difference": 3.111541194877887e-05,
+      "low_core_constraints_held": false,
+      "true_solution_response_computed": false
+    },
+    {
+      "control": "vd",
+      "step": 0.001,
+      "plus_height": 1.9246780994018646,
+      "minus_height": 1.9334534946829267,
+      "central_background_height_difference_per_step": -0.004387697640531041,
+      "central_background_height_derivative": -4.387697640531041,
+      "observed_second_difference": -0.00011010806333500156,
+      "low_core_constraints_held": false,
+      "true_solution_response_computed": false
+    },
+    {
+      "control": "loop_curvature",
+      "step": 0.1,
+      "plus_height": 1.922041410429271,
+      "minus_height": 1.9363916279524986,
+      "central_background_height_difference_per_step": -0.007175108761613869,
+      "central_background_height_derivative": -0.07175108761613869,
+      "observed_second_difference": 0.0001913362336432023,
+      "low_core_constraints_held": false,
+      "true_solution_response_computed": false
+    },
+    {
+      "control": "loop_ratio",
+      "step": 0.01,
+      "plus_height": 1.9303471255663187,
+      "minus_height": 1.9278945765818076,
+      "central_background_height_difference_per_step": 0.0012262744922555413,
+      "central_background_height_derivative": 0.12262744922555413,
+      "observed_second_difference": 0.0,
+      "low_core_constraints_held": false,
+      "true_solution_response_computed": false
+    },
+    {
+      "control": "loop_radius",
+      "step": 0.005,
+      "plus_height": 1.9286405941782183,
+      "minus_height": 1.9296011079699076,
+      "central_background_height_difference_per_step": -0.00048025689584463294,
+      "central_background_height_derivative": -0.09605137916892659,
+      "observed_second_difference": -4.440892098500626e-16,
+      "low_core_constraints_held": false,
+      "true_solution_response_computed": false
+    },
+    {
+      "control": "loop_speed",
+      "step": 0.001,
+      "plus_height": 1.9287239512085617,
+      "minus_height": 1.9294713612159493,
+      "central_background_height_difference_per_step": -0.000373705003693825,
+      "central_background_height_derivative": -0.373705003693825,
+      "observed_second_difference": -4.638972361536986e-05,
+      "low_core_constraints_held": false,
+      "true_solution_response_computed": false
+    }
+  ],
+  "new_bvp_or_ode_or_tail_started": false,
+  "background_quadrature_is_floating_point": true,
+  "continuous_geometry_certified": false
+}

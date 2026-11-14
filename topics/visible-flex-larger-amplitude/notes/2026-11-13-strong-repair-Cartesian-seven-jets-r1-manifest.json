@@ -1,0 +1,52 @@
+{
+  "schema": "actual-repair-seven-Cartesian-jets-immutable-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "members": [
+    {
+      "path": "computations/strong_newg_repair_Cartesian_seven_jets.py",
+      "sha256": "e5f078fdb03a209903ffe6fad37c3bd7276ce7dbc6652fc47414b09fe66e77be",
+      "bytes": 9249,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_repair_Cartesian_seven_jets.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-repair-Cartesian-seven-jets-r1-certificate.json",
+      "sha256": "05ea9580832c1b59ec6ec80e88ac484dcc8b2fa3f0ead68867d0bad8212f7775",
+      "bytes": 21828,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/repair-Cartesian-seven-r1/certificate.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-repair-Cartesian-seven-jets-r1-resource.json",
+      "sha256": "ce021fda2841bd4608d774a4769d7f2855d309f4cc2f33a8dec7ab157caf5165",
+      "bytes": 1644,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/repair-Cartesian-seven-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-repair-Cartesian-seven-jets-r1-proof.md",
+      "sha256": "b4bcc510e46d6c9adda820ee02d7169edbc54544a2419a89f3edbe75ec540505",
+      "bytes": 6143,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/repair-Cartesian-seven-r1/proof.md"
+    }
+  ],
+  "formal_exitcode": 0,
+  "gate_count": 28,
+  "scope": "Exact whole-angle repair transfer of actual q106 background+all state repairs and actual q122 background repair to seven nonmean Cartesian jets. Full mean, floating evaluator and coordinate alignment costs remain unpaid; original accepted fields and target g stay unchanged.",
+  "continuous_mean_or_full_metric_or_reach_certified": false,
+  "regenerate_command": [
+    "python",
+    "computations/strong_newg_repair_Cartesian_seven_jets.py",
+    "--background",
+    "binary-background-C2-r1/certificate.json",
+    "--background-resource",
+    "binary-background-C2-r1/resource.json",
+    "--background-check",
+    "binary-background-C2-r1/saved-check.json",
+    "--chart-source",
+    "computations/geometric-general-core-chart.py",
+    "--synthesis-source",
+    "computations/geometric-checkpoint-core-pullback.py",
+    "--state-repair",
+    "q106-C2-comparison-r1/certificate.json.gz",
+    "--out",
+    "repair-Cartesian-seven-r1/certificate.json"
+  ]
+}

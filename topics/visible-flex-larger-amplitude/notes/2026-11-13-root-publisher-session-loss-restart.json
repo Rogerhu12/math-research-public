@@ -1,0 +1,21 @@
+{
+  "schema": "owned-publisher-restart-after-session-loss-v1",
+  "start_utc": "20261113T182328Z",
+  "source_sha256": "3ce38d1136976fee7c0451e20abcaeeee1781c29dfaed7a32eeb70392d085979",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/sync_queue.py",
+    "--read-sha",
+    "41556b9ea57c586184b224838eeeed95efef32e6",
+    "--watch"
+  ],
+  "log": "/workspace/scratch/d1aa462cfc02/sync-publisher-20261113T182328Z-watch.log",
+  "read_sha": "41556b9ea57c586184b224838eeeed95efef32e6",
+  "previous_session": 9495,
+  "previous_tool_status": "Unknown process id; final wait and pending push result unavailable; no success inferred",
+  "observed_git_locks": [],
+  "observed_rebase_state": false,
+  "owned_child_pid": 4,
+  "runtime_exclusive_flock": "/workspace/scratch/d1aa462cfc02/sole-publisher-runtime.lock"
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "visible-flex-r127-full-frequency-mixed-boundary-frozen-v1",
+  "result": "R127",
+  "scope": "Complete1200-component low/middle/infinite-high mixed-boundary family on original certified cells11 and10; same R100 six complex unit axes times T weighted-l1 radius1/32. No parameter cut, remaining exterior, closed surface, or larger-amplitude completion claim.",
+  "files": [
+    {
+      "file": "notes/2026-11-13-root-joint1200-r1-certificate.json.gz",
+      "sha256": "36242d95a210e6aee3e38c994d0a70b61fa1fbb2df672a9ab3f4783bcca93ca1",
+      "bytes": 106458,
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/joint1200-r1-certificate.json.gz"
+    },
+    {
+      "file": "notes/2026-11-13-root-joint1200-r1-summary.json",
+      "sha256": "7115b1621f81800ad11c2245439436467c7ba307b550951d7961c127f500aa9d",
+      "bytes": 4761,
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/joint1200-r1-summary.json"
+    },
+    {
+      "file": "notes/2026-11-13-root-joint1200-r1-resource.json",
+      "sha256": "44dec68f3a98e171da24bc907e4767e1b389956bd683d56b287c1517b4ff7a82",
+      "bytes": 909,
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/joint1200-r1-resource.json"
+    },
+    {
+      "file": "notes/2026-11-13-root-joint1200-r1-console.log",
+      "sha256": "745f66689b400396a5d351d56733a6dd88e2f20b24fec65ba4eb32802b55b86b",
+      "bytes": 1395,
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127-joint1200-r1-console.log"
+    },
+    {
+      "file": "notes/2026-11-13-root-joint1200-r1-input-manifest.json",
+      "sha256": "b82050c823430a73dc43aae19f4ffd19877713a0f193213c6d436543100dfb3d",
+      "bytes": 2849,
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/joint1200-inputs/input-manifest.json"
+    },
+    {
+      "file": "computations/root_full_frequency_joint_ball.py",
+      "sha256": "ecdf2516665f10b95ab201dbd92aa42f4e6145f08be0c6c8b6d1db540d611074",
+      "bytes": 18404,
+      "original": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_full_frequency_joint_ball.py"
+    },
+    {
+      "file": "results/R127-complete-low-middle-high-mixed-boundary-family.md",
+      "sha256": "35b208c7cd98c5536c56c7d9a08d4fd2ea87097d549646dce9ee223125243b2c",
+      "bytes": 12083,
+      "original": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R127-complete-low-middle-high-mixed-boundary-family.md"
+    },
+    {
+      "file": "computations/root_joint1200_independent_consumer.py",
+      "sha256": "c88217b8e9048b69f7078d46cc9e39502e83a03a0226f15fe1cfd3ae3a3c4fbc",
+      "bytes": 8743,
+      "original": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_joint1200_independent_consumer.py"
+    },
+    {
+      "file": "notes/2026-11-13-root-joint1200-independent-saved-consumer.json",
+      "sha256": "ea09ba61ad260c2e454985096bad4eb7afc2ec454f153844100346b07d237d69",
+      "bytes": 287422,
+      "original": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-root-joint1200-independent-saved-consumer.json"
+    },
+    {
+      "file": "notes/2026-11-13-root-joint1200-independent-saved-consumer-resource.json",
+      "sha256": "832434c1b4c4173f97d4335220976ab349ef2e1189622f6cf750d7ceb4f14149",
+      "bytes": 1160,
+      "original": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-root-joint1200-independent-saved-consumer-resource.json"
+    },
+    {
+      "file": "notes/2026-11-13-root-joint1200-independent-audit.md",
+      "sha256": "f8fe26f95287a703c2f87fb31b88608e55a76f74d14ec2bc4ddb3d82c799827c",
+      "bytes": 8120,
+      "original": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-root-joint1200-independent-audit.md"
+    },
+    {
+      "file": "notes/2026-11-13-root-joint1200-independent-manifest.json",
+      "sha256": "4347c13286d85bc0d202d58f19f3edfe839b789897941370b8c8e2fbd000e810",
+      "bytes": 1443,
+      "original": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-root-joint1200-independent-manifest.json"
+    }
+  ],
+  "formal_resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "python",
+      "/workspace/scratch/d1aa462cfc02/root-work/joint1200-inputs/root_full_frequency_joint_ball.py",
+      "--inputs",
+      "/workspace/scratch/d1aa462cfc02/root-work/joint1200-inputs/input-manifest.json",
+      "--out-prefix",
+      "/workspace/scratch/d1aa462cfc02/root-work/r127/joint1200-r1"
+    ],
+    "wall_seconds": 9.113563060760498,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 102684,
+    "user_seconds": 8.799077,
+    "system_seconds": 0.19525099999999998,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "all1200_strict_selfmaps": true,
+  "all1200_complete_weighted_distances_below_one_half": true,
+  "all25_complete_physical_domains": true,
+  "independent_exact_saved_gates": 6096,
+  "complete_mean_and_inverse_retained": true,
+  "finite_positive_modes_94_to34814": 17361,
+  "infinite_high_signed_even_cutoff": 34816,
+  "total_bytes": 453747
+}

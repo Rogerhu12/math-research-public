@@ -1,0 +1,24 @@
+{
+  "schema": "visible-flex-exact-resume-localV-correlated-prepared-v6",
+  "status": "AST checked; new Taylor/root/readout run not yet started",
+  "source": "notes/2026-11-13-exact-resume-localV-correlated-v6.py",
+  "source_sha256": "aef6017aa6365ef11c0c0dc18252cbab1b02ed77f921ea2a4f213abc9b089a9b",
+  "base_v5_sha256": "bb7bacecb4baaf180e230bd2a2196de6ee21461babf0588da86296152ac7c973",
+  "unique_transform_anchors": [
+    "title",
+    "allocate",
+    "localV-source",
+    "localV-correlated",
+    "localV-initial",
+    "localV-rows",
+    "localV-initial-rows",
+    "remove-additional-initial",
+    "remove-additional-source"
+  ],
+  "comparison_reference_sha256": "9e28fcf3ea53003e16ec8720a2fd4c52da0d16a40c8a90398c0b847d0f2fc317",
+  "source_parameters_changed": false,
+  "new_ODE_definition": false,
+  "original_causal_tensor_exact_equality_required": true,
+  "original_Taylor_root_counts_exact_equality_required": true,
+  "new_output_scope": "Same signed source origins, all18 targets, all10793 true leaves; divide by actual target F*V before taking each component radial supremum, preserve physical and weak C/U outputs and both true initial columns."
+}

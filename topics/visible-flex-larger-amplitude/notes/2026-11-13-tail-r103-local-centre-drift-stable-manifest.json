@@ -1,0 +1,24 @@
+{
+  "schema": "prepared-local-Fraction-consumer-manifest-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Prepared only; no local AST or numerical execution claimed while executor is unavailable",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/tail_r103_local_carrier_centre_drift.py",
+      "blob_sha": "9715123f1bffc5d0ad0d50e2eeaa7d35b1c632c7",
+      "sha256": "71b8e666c07e5e2a203dbde028ff8e0bb64a883551b0cd47d609773e88c848fe",
+      "bytes": 16224
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-tail-r103-local-centre-drift-plan.json",
+      "blob_sha": "501ee8b19df875e15fa42628965309d56f89e0c5",
+      "sha256": "a8d11d1a64cc6763a343b71c7e1df676a4f539e70ef4c08ba1068bcada5dd5e4",
+      "bytes": 6923
+    }
+  ],
+  "mathematical_theorem": "R103 sections6-7",
+  "expected_new_result": false,
+  "no_new_ODE_Arb_Node_or_integrals": true,
+  "only_actual_CLI_may_read_primaries": true
+}

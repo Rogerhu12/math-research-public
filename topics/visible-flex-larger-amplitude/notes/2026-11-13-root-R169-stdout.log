@@ -1,0 +1,8 @@
+{"complete_pieces":1,"stage":504,"cell":7}
+{"complete_pieces":37,"stage":540,"cell":7}
+{"complete_pieces":73,"stage":576,"cell":8}
+{"complete_pieces":109,"stage":612,"cell":8}
+{"complete_pieces":145,"stage":648,"cell":9}
+{"complete_pieces":181,"stage":684,"cell":9}
+{"primary":"root-work/r127/R169-M20-root-jets-r1.json","sha256":"7eaf5fd2531694e618894ef73dc18c669a0be7e2e96c4616fd55dc894412aea2","all_gates":true,"gate_count":668,"summary":{"root_relative_residual":2.281374649809887e-14,"direct_kinematic_difference":2.710505431213761e-20,"canonical_node_P_difference":1.0842021724855044e-19,"canonical_node_K_difference":9.43689570931383e-16,"finite_Darboux_diagnostic":6.419000513132553e-28},"elapsed_seconds":19.425265326,"peak_rss_kib":153056}
+{"event": "child_exit", "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n", "command": ["node", "--max-old-space-size=256", "root-work/R169-M20-root-jets-inputs/root_R169_M20_split_root_derivatives.mjs", "--inputs", "root-work/R169-M20-root-jets-inputs/input-manifest.json", "--out", "root-work/r127/R169-M20-root-jets-r1.json"], "wall_seconds": 20.616591215133667, "exitcode": 0, "termination_signal": null, "peak_rss_kib": 160620, "user_seconds": 11.732301, "system_seconds": 0.925526, "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"}

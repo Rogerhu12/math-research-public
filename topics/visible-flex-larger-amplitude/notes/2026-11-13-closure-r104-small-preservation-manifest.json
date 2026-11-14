@@ -1,0 +1,103 @@
+{
+  "schema": "visible-flex-R104-small-preservation-manifest-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_outer_middle_causal_mixed_v3.py",
+      "blob": "a8af663cf820098b6fc38bdf6e4703e0824bc38a",
+      "bytes": 33939,
+      "sha256": "3bbbecae0b3df6927b157d56d0d11add096a6fe979e0d222339383a90d31f2b2"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_middle_signed_origins_and_envelope.py",
+      "blob": "66abfbfa6e42fe6fef178b22c401d2565bdbc495",
+      "bytes": 11179,
+      "sha256": "58e9568f9180d4a6305c993d9b4c20cc1ff98f73f2f48bf92f4b7d9cae0f9513"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R104-source-resolved-middle-physical-Green.md",
+      "blob": "12a10b2ca68f8031483aafa589afcd03fce18f26",
+      "bytes": 13223,
+      "sha256": "f06551c4f7cfdd4b2949b3afd69c59f5b0c9fca92a87e2fd624e17c7eae21189"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_r104_selected_exact_ledger.js",
+      "blob": "4c725c6d4aef4f8c8a4d082bdda706ba07e947ed",
+      "bytes": 2817,
+      "sha256": "91f6160d2ff29709fd1ba370919209b342997c3b17cc2fc8e9fefea7c1a95089"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-r104-selected-exact-ledger.json",
+      "blob": "08c5bb651bbb6120097c9d9138bc3764b5082628",
+      "bytes": 2671,
+      "sha256": "01faa81aefbef3c88748aebbeb17340e0fa9156ec12d97b88290f509a49076d5"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-r104-outage-observation.json",
+      "blob": "dccee59bcfe0579064031131b49e62538267a034",
+      "bytes": 8920,
+      "sha256": "7fb474730b2c60396f0f60df4ad7a35a0a8a37fdf19a004c3271bb6b0a1a876e"
+    }
+  ],
+  "actual_science_primary": {
+    "path": "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-causal-mixed-m94m96-r1.json",
+    "repository_path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-middle-causal-mixed-m94m96-r1.json",
+    "bytes": 429376,
+    "sha256": "62156ade93e31729c7500e79dbc01c3f4267d1a89a2b7730af7fe1c6440df45a"
+  },
+  "actual_termination": {
+    "owned_session": "54526",
+    "tool_exitcode": 0,
+    "wait4_exitcode": 0,
+    "termination_signal": null,
+    "wall_seconds": "96.79877495765686",
+    "peak_rss_kib": 36396,
+    "child_argv": [
+      "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+      "/tmp/visible-flex-larger-20261113T0030/exact-owned/prepared/closure_outer_middle_causal_mixed_v3.py",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--physical-flow",
+      "notes/2026-11-12-closure-outer-physical-low46-r1.json",
+      "--physical-manifest",
+      "notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+      "--source11",
+      "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+      "--source10",
+      "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+      "--head",
+      "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+      "--r91",
+      "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+      "--modes",
+      "94,96",
+      "--precision",
+      "256",
+      "--order",
+      "24",
+      "--root-bits",
+      "160",
+      "--remainder-bits",
+      "100",
+      "--rss-kib",
+      "98304",
+      "--out-prefix",
+      "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-causal-mixed-m94m96-r1",
+      "--computations",
+      "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations"
+    ],
+    "cwd": "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude",
+    "env": {
+      "PYTHONPATH": "/tmp/visible-flex-larger-20261113T0030/python-deps",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1"
+    }
+  },
+  "large_science_included_in_API": false,
+  "note": "The large scientific primary and complete recovery files have real completed execution evidence. Their CLI archival waits for executor availability; this small manifest does not claim their main publication.",
+  "superseded_unpublished_proof_blob": "dc407809aa2673935b94c985fa6e8bed24cb60e7",
+  "supersession_reason": "Use C0=10 for width18/125 from actual R101 total<9.084; do not use the original width1/64 radius9 as a width18/125 radius."
+}

@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-13T17:22:06.315881+00:00",
+  "prior_publisher_session": 95962,
+  "prior_publisher_actual_exit": 6,
+  "prior_last_actual_pull": "8098ddedcde2a0d4a52bc6870fa9dcf851ef1b70",
+  "old_helper_sha256": "a0305de60ecac34e92727aa8ef5eec9dd7d3355948936ae7932e1adafb529e27",
+  "new_helper_sha256": "261a4a25b83061bff2516665a9e8ef15b39fdd94d89dd1537daf56cb21691ec9",
+  "changes": [
+    "Minimum requested batch64MiB with400MiB reserve in estimate; live400MiB stop remains.",
+    "After all canonical MIDX, indexed OID and refs checks, retire only the own inactive prior MIDX backup and keep hash in report."
+  ],
+  "inactive_cache_cleanup": "completed-inactive-midx-backups-cleanup-20261113T1720.json",
+  "free_before": 924160000,
+  "all_registered_object_packs_and_refs_retained": true
+}

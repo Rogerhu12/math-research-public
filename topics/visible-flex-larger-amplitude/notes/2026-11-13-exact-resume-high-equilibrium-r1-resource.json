@@ -1,0 +1,33 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "2026-11-13-exact-resume-high-localV-kernel-v6.py",
+    "--summary",
+    "2026-11-13-exact-resume-common-high-coeff34816-r1.json",
+    "--leaves",
+    "2026-11-13-exact-resume-common-high-coeff34816-r1-leaves.jsonl.gz",
+    "--resource",
+    "2026-11-13-exact-resume-common-high-coeff34816-r1-resource.json",
+    "--balanced",
+    "2026-11-13-exact-resume-balanced-head-r1.json",
+    "--original",
+    "2026-11-13-exact-resume-high-localV34816-r1.json",
+    "--out-prefix",
+    "2026-11-13-exact-resume-high-equilibrium-r1",
+    "--floor-shift",
+    "0",
+    "--precision",
+    "256",
+    "--rss-kib",
+    "98304"
+  ],
+  "wall_seconds": 12.180253744125366,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 39964,
+  "user_seconds": 10.614497,
+  "system_seconds": 0.144177,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

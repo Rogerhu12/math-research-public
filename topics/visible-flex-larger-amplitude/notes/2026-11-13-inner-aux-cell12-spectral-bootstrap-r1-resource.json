@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "python",
+    "computations/inner_aux_cell12_spectral_bootstrap.py",
+    "--out",
+    "notes/2026-11-13-inner-aux-cell12-spectral-bootstrap-r1.json.gz",
+    "--passes",
+    "32"
+  ],
+  "source_sha256": "e646a7a8e396af91fb289ee6ad966910d8e805904c8dfcc7e0d999234c3106a0",
+  "exit_code": 0,
+  "elapsed_seconds": 4.839242629000182,
+  "peak_rss_kib": 65636,
+  "user_seconds": 3.146674,
+  "system_seconds": 0.210082,
+  "no_ODE": true,
+  "no_Arb": true,
+  "no_Node": true,
+  "output": "notes/2026-11-13-inner-aux-cell12-spectral-bootstrap-r1.json.gz",
+  "output_sha256": "490bbdaa71cbd14b4dab9fbf6ac820d72b895b7fc5664b8a3a2ff454bb63a1c6",
+  "output_bytes": 99637
+}

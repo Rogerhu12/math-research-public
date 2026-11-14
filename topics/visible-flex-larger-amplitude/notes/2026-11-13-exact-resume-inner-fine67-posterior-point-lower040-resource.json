@@ -1,0 +1,22 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-fine67-lower040-export-v1.py",
+    "--primary",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-fine67-two-material-point-r2.json.gz",
+    "--primary-sha",
+    "e0fb6d9d5e4055971ee5d6328a2a61239354cfdb1d0a134726178af608b41ade",
+    "--primary-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-fine67-two-material-point-r2-resource.json",
+    "--out",
+    "/dev/shm/inner-fine67-lowered040-r1.json"
+  ],
+  "wall_seconds": 1.7388174533843994,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 29624,
+  "user_seconds": 0.6885789999999999,
+  "system_seconds": 0.106567,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

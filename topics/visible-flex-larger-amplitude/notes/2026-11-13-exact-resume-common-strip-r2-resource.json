@@ -1,0 +1,31 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-common-strip-v1.py",
+    "--topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--coefficients",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-hybrid-leaves-r1.json",
+    "--leaves",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-hybrid-leaves-r1-leaves.jsonl.gz",
+    "--frame",
+    "notes/2026-11-12-root-outer-optimal-frame-r1.json",
+    "--high",
+    "notes/2026-11-12-closure-r93-positive-prefix-high-exact-ledger.json",
+    "--partition",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-hybrid-refined-probe-r1.json",
+    "--cutoffs",
+    "33792,34816,36864,40960",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-common-strip-r2.json"
+  ],
+  "wall_seconds": 19.37080955505371,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 15868,
+  "user_seconds": 9.67258,
+  "system_seconds": 0.24110299999999998,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

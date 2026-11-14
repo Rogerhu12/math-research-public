@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-11-13T17:57:20.626326+00:00",
+  "command": [
+    "node",
+    "--max-old-space-size=256",
+    "/workspace/scratch/d1aa462cfc02/root-work/R168-M20-root-inputs/root_R168_M20_actual_root_coordinates.mjs",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R168-M20-root-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R168-M20-root-coordinates-r1.json"
+  ],
+  "source_sha256": "00123a49cb84baf5fb68f393d699b7a2774b11318405b1a4108b0db4c1a4cc88",
+  "input_manifest_sha256": "91353af602d3839514c143f2a2cf8a03c440d82e0d4b8b3adeb527935ffd981a",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_seconds": 30,
+    "planned_peak_rss_mib": 320
+  },
+  "environment": {
+    "CLOSING_TAIL_CACHE": "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "purpose": "Actual R39 original strong M20 finite response, all217 saved cell9..7 knots; original frozen160 calibration lookup. Full finite root conversion only, no ODE or far graph. Current R143 same-solution identification and continuous residual remain unpaid."
+}

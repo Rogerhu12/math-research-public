@@ -1,0 +1,52 @@
+{
+  "schema": "actual-owned-session-loss-observation-v1",
+  "observed_utc": "2026-11-13T20:21:29.404047+00:00",
+  "session_id": 89142,
+  "tool_observed": "Unknown process id",
+  "formal_exit_status_observed": false,
+  "formal_exitcode": null,
+  "missing_resource": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r3-resource.json",
+  "last_heartbeat": {
+    "task_prefix": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r3",
+    "utc": "2026-11-13T19:55:47.953984+00:00",
+    "elapsed_seconds": 445.95251627300604,
+    "status": "running-wait4-not-returned",
+    "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+    "own_process": {
+      "owned_child_pid_in_supervisor_namespace": 7,
+      "State": "S (sleeping)",
+      "PPid": "6",
+      "VmHWM": "194076 kB",
+      "VmRSS": "150520 kB",
+      "Threads": "2"
+    },
+    "received_signals": []
+  },
+  "last_tail_event": {
+    "time": "2026-11-13T19:55:48.010Z",
+    "event": "exact_stage_cache",
+    "kind": "stored-completed-stage",
+    "stage": 448,
+    "key": "2bc4893aa7937084fd28ff7f5b6c5a68a9bc4c91ed431c61569916e98e7a8ff6",
+    "identitySHA": "cfbd416badbaa450fbbc02f979ec50408ed4449862ebafa91e4aae76f2a8567b",
+    "inputSHA": "ec45a31ce647d2fd113f551e1acd6d8283fe6c6a005b84634908bdd00b2f6e00",
+    "payloadSHA256": "50501ad8b13a1170dfcfdc04096e7c45b528640df423e66438c181e600e7d6b2",
+    "bytes": 33641
+  },
+  "complete_final_J_not_observed": true,
+  "complete_response_not_observed": true,
+  "prefix_J_and_QR_started": false,
+  "tail_trial3_checkpoint_unchanged": true,
+  "previous_original_Newton_steps_not_to_repeat": true,
+  "exact_stage_cache_entries_observed": 449,
+  "follower_session_id": 49171,
+  "follower_tool_observed": "Unknown process id",
+  "follower_status": {
+    "event": "waiting_original_actual_owned_exit",
+    "utc": "2026-11-13T19:48:53.038687+00:00",
+    "actual_prefix": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r3",
+    "plan_sha256": "5d476a6ad32f5512ddffbebee9ecb887a262ce1fc4b9a33f0c57bb2dbc423fa1",
+    "watcher_sha256": "7c604028f85a1f6407ba78d0622a464c6b888436c1e97a07bc4a28b75aa7792f"
+  },
+  "root_cause_not_inferred": true
+}

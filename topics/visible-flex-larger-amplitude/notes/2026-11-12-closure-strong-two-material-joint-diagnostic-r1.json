@@ -1,0 +1,527 @@
+{
+  "status": "Float-only full641 diagnosis; no joint self-map or contraction gate paid",
+  "full641_dimension": 641,
+  "physical_domain_log2": -30,
+  "complete_old_range_preserved": true,
+  "matrix_entry_changes": [
+    {
+      "row": 1,
+      "column": 0,
+      "old_log2": -4.437889510501937,
+      "new_log2": -6.9018680757765605,
+      "reason": "Independent full46 radial source plus separate lambda coefficient",
+      "terms": {
+        "main": -17.76679813359279,
+        "independent_two_material_corr": -6.902646151792283,
+        "perturbation_and_complete_remainder": -25.262166310381648
+      }
+    },
+    {
+      "row": 1,
+      "column": 213,
+      "old_log2": -4.437889510501937,
+      "new_log2": -7.628647434908496,
+      "reason": "Independent full46 radial source plus separate lambda coefficient",
+      "terms": {
+        "main": -17.76679813359279,
+        "independent_two_material_corr": -7.629935331940118,
+        "perturbation_and_complete_remainder": -25.262166310381648
+      }
+    },
+    {
+      "row": 214,
+      "column": 1,
+      "old_log2": -24.33319721751598,
+      "new_log2": -33.030406985369,
+      "reason": "Full five-window independent high material, DQ coefficients already included",
+      "terms": {
+        "independent_centre_DQ": -33.03040754306275,
+        "perturbation_and_complete_remainder": -54.33319719373105
+      }
+    },
+    {
+      "row": 213,
+      "column": 1,
+      "old_log2": 6.486043378382584,
+      "new_log2": -2.213844627336441,
+      "reason": "Full five-window independent high material, DQ coefficients already included",
+      "terms": {
+        "independent_centre_DQ": -2.2138451860664645,
+        "perturbation_and_complete_remainder": -23.513956597832486
+      }
+    }
+  ],
+  "spectral_radius_float": 61.036885230288775,
+  "power_history": [
+    {
+      "iteration": 1,
+      "collatz_log2_lower_float": -968.0412470518858,
+      "collatz_log2_upper_float": 41.40591175431388
+    },
+    {
+      "iteration": 4,
+      "collatz_log2_lower_float": -0.676951677075408,
+      "collatz_log2_upper_float": 11.38833205420105
+    },
+    {
+      "iteration": 16,
+      "collatz_log2_lower_float": 1.308098216384792,
+      "collatz_log2_upper_float": 9.386589445282187
+    },
+    {
+      "iteration": 32,
+      "collatz_log2_lower_float": 2.380063966163462,
+      "collatz_log2_upper_float": 8.429071706072193
+    },
+    {
+      "iteration": 64,
+      "collatz_log2_lower_float": 3.2684166737884652,
+      "collatz_log2_upper_float": 7.391391072743347
+    },
+    {
+      "iteration": 128,
+      "collatz_log2_lower_float": 4.238191146715504,
+      "collatz_log2_upper_float": 7.104288138392599
+    }
+  ],
+  "two_cycles": [
+    {
+      "first": {
+        "index": 2,
+        "block": "low",
+        "cell": 14
+      },
+      "second": {
+        "index": 213,
+        "block": "near",
+        "cell": 12
+      },
+      "log2_product_float": -1.7668995454721155,
+      "forward": {
+        "log2_summands": {
+          "perturbation_and_complete_remainder": -16.957434635440084,
+          "main": -9.462066432621715,
+          "corr": 3.866701127713929
+        }
+      },
+      "reverse": {
+        "group": "near",
+        "source_cell": 14,
+        "target_cell": 12,
+        "log2_raw_gamma": -7.2187041673274415,
+        "maximizing_band": 0,
+        "log2_full_slope": 1.5849625020647706
+      }
+    },
+    {
+      "first": {
+        "index": 3,
+        "block": "low",
+        "cell": 15
+      },
+      "second": {
+        "index": 426,
+        "block": "rest",
+        "cell": 12
+      },
+      "log2_product_float": -6.983524301886989,
+      "forward": {
+        "log2_summands": {
+          "perturbation_and_complete_remainder": -16.39482478768349
+        }
+      },
+      "reverse": {
+        "group": "rest",
+        "source_cell": 15,
+        "target_cell": 12,
+        "log2_raw_gamma": 7.8263379837317295,
+        "maximizing_band": 6,
+        "log2_full_slope": 1.5849625020647706
+      }
+    },
+    {
+      "first": {
+        "index": 1,
+        "block": "low",
+        "cell": 13
+      },
+      "second": {
+        "index": 213,
+        "block": "near",
+        "cell": 12
+      },
+      "log2_product_float": -9.842492062244936,
+      "forward": {
+        "patched": true,
+        "log2_summands": {
+          "main": -17.76679813359279,
+          "independent_two_material_corr": -7.629935331940118,
+          "perturbation_and_complete_remainder": -25.262166310381648
+        }
+      },
+      "reverse": {
+        "patched": true,
+        "log2_summands": {
+          "independent_centre_DQ": -2.2138451860664645,
+          "perturbation_and_complete_remainder": -23.513956597832486
+        }
+      }
+    },
+    {
+      "first": {
+        "index": 3,
+        "block": "low",
+        "cell": 15
+      },
+      "second": {
+        "index": 213,
+        "block": "near",
+        "cell": 12
+      },
+      "log2_product_float": -13.686970393150261,
+      "forward": {
+        "log2_summands": {
+          "perturbation_and_complete_remainder": -16.39482478768349,
+          "main": -8.899456676645123,
+          "corr": 4.429311020702071
+        }
+      },
+      "reverse": {
+        "group": "near",
+        "source_cell": 15,
+        "target_cell": 12,
+        "log2_raw_gamma": -19.701384907980387,
+        "maximizing_band": 0,
+        "log2_full_slope": 1.5849625020647706
+      }
+    },
+    {
+      "first": {
+        "index": 2,
+        "block": "low",
+        "cell": 14
+      },
+      "second": {
+        "index": 426,
+        "block": "rest",
+        "cell": 12
+      },
+      "log2_product_float": -16.025568886467003,
+      "forward": {
+        "log2_summands": {
+          "perturbation_and_complete_remainder": -16.957434635440084
+        }
+      },
+      "reverse": {
+        "group": "rest",
+        "source_cell": 14,
+        "target_cell": 12,
+        "log2_raw_gamma": -0.6530967530916882,
+        "maximizing_band": 6,
+        "log2_full_slope": 1.5849625020647706
+      }
+    },
+    {
+      "first": {
+        "index": 12,
+        "block": "low",
+        "cell": 24
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.066395544090824,
+      "forward": {
+        "log2_entry": 19.581634132159166
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 13,
+        "block": "low",
+        "cell": 25
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.0761875887773,
+      "forward": {
+        "log2_entry": 19.57184208747269
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 14,
+        "block": "low",
+        "cell": 26
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.08570546161301,
+      "forward": {
+        "log2_entry": 19.56232421463698
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 15,
+        "block": "low",
+        "cell": 27
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.095037869120038,
+      "forward": {
+        "log2_entry": 19.552991807129953
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 16,
+        "block": "low",
+        "cell": 28
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.104267057901307,
+      "forward": {
+        "log2_entry": 19.543762618348683
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 17,
+        "block": "low",
+        "cell": 29
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.113442119117625,
+      "forward": {
+        "log2_entry": 19.534587557132365
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 18,
+        "block": "low",
+        "cell": 30
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.12258870075217,
+      "forward": {
+        "log2_entry": 19.52544097549782
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 19,
+        "block": "low",
+        "cell": 31
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.13172031510894,
+      "forward": {
+        "log2_entry": 19.51630936114105
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 20,
+        "block": "low",
+        "cell": 32
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.140844020651638,
+      "forward": {
+        "log2_entry": 19.507185655598352
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 21,
+        "block": "low",
+        "cell": 33
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.149964412438933,
+      "forward": {
+        "log2_entry": 19.498065263811057
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 22,
+        "block": "low",
+        "cell": 34
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.159082253948398,
+      "forward": {
+        "log2_entry": 19.488947422301592
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 23,
+        "block": "low",
+        "cell": 35
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.16819934872031,
+      "forward": {
+        "log2_entry": 19.47983032752968
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 24,
+        "block": "low",
+        "cell": 36
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.1773155941274,
+      "forward": {
+        "log2_entry": 19.47071408212259
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 25,
+        "block": "low",
+        "cell": 37
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.186432105277394,
+      "forward": {
+        "log2_entry": 19.461597570972597
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    },
+    {
+      "first": {
+        "index": 26,
+        "block": "low",
+        "cell": 38
+      },
+      "second": {
+        "index": 639,
+        "block": "infinite",
+        "cell": null
+      },
+      "log2_product_float": -16.195547954122453,
+      "forward": {
+        "log2_entry": 19.452481722127537
+      },
+      "reverse": {
+        "log2_entry": -35.64802967624999
+      }
+    }
+  ],
+  "full_mean_inverse_quadratic_far_preserved": true,
+  "input_hashes": {
+    "notes/2026-11-12-closure-strong-same-tau-four-green-r1.json.gz": "841c42ff527f2ca3846abf7ede8e9e03eb296a1f979cf7b01f48069197d312ac",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-split.json.gz": "b31ba4868bf825fe19981af820f92d798161df027519992b9380a4b9f7f6b5dd",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700",
+    "notes/2026-11-12-closure-strong-two-material-low-pb-12to13-low46-r1.json": "e0511941a70d0eb4e9720a6aab5a9f7eb5465813370f499a4c64e06fbbda1d82",
+    "notes/2026-11-12-tail-strong-two-material-high-13to12-r1.json": "ece2c8e70f29ae2f65fde0dd70c98c5c34c0179f8ef021ff03b4a2ea27dc5814",
+    "notes/2026-11-12-tail-strong-two-material-high-13to12-near-rest-r1.json": "17bff82e7ed70c6e40f193746c1bab04e79c892405b880b40bd21c6b50a4e597"
+  },
+  "source_sha256": "f50ef629864d27e342452e3f4680313a84ef43479c61431080f51caf8a80213d",
+  "helper_hashes": {
+    "closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390",
+    "closure_split_joint_io_v2.py": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0",
+    "closure_split_joint_component_diagnostic.py": "6454b8792160c49ce304212ed52aabab64aa3f278898ebb0631a526f2d6c812a"
+  },
+  "elapsed_seconds": 13.091289601001336,
+  "peak_RSS_KiB": 70560
+}

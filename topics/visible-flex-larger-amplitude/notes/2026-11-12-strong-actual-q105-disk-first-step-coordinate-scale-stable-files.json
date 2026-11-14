@@ -1,0 +1,18 @@
+{
+  "scope": "Read-only full saved-state arithmetic. The reported signed step is (after-before)/alpha, namely the actual update direction, opposite to factor.solve(residual). No alternative merit or Newton step was used in session4388.",
+  "files": [
+    {
+      "path": "computations/strong_actual_checkpoint_step_scale.py",
+      "bytes": 7705,
+      "sha256": "cae3532149ecdfaf793e51e5b21c34185cfd1d03ba534567214653bdd34d8f8f"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-disk-first-step-coordinate-scale.json",
+      "bytes": 17269,
+      "sha256": "2b29f37737db6f09606607cf3eb10cf8f9dbb2af1aec2e2345d7b81c9a635c4b"
+    }
+  ],
+  "actual_runtime_changes": false,
+  "new_RHS_or_Jacobian_evaluations": 0,
+  "accepted_iterate_is_still_outer_pending": true
+}

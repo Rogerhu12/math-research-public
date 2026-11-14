@@ -1,0 +1,18 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/root-work/outer-singleton-frequency-inputs/root_outer_singleton_frequency_sources.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/outer-singleton-frequency-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/outer-singleton-frequency-r1.json.gz"
+  ],
+  "wall_seconds": 2.9907407760620117,
+  "exitcode": 1,
+  "termination_signal": null,
+  "peak_rss_kib": 55080,
+  "user_seconds": 0.909204,
+  "system_seconds": 0.5087929999999999,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

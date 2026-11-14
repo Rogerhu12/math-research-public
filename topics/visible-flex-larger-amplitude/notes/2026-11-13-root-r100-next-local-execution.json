@@ -1,0 +1,56 @@
+{
+  "schema": "visible-flex-larger-R100-next-local-execution-v1",
+  "status": "R100 grouped-domain and source multiplier theorem proved; scalar/linear V8 exact ledger executed. Full original R83 source-piece reweight is prepared only.",
+  "created_utc": "2026-11-13 00:11:31 UTC",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "original_R97_first": "Read/hash six fifth-window outputs and original source; archive with terminal git if present. Do not rerun an original solely because its data have not yet been pushed.",
+  "new_source": {
+    "path": "computations/root_hybrid46_complete_source_reweight.py",
+    "sha256": "58e0d7750faa1e9d58458f238c93f7c6cab3803cef3b776c2f01b494287bb5c1",
+    "python_AST_checked": false,
+    "executed": false
+  },
+  "pure_fraction_command": [
+    "python",
+    "-B",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-13-root-r100-source-reweight-r1-resource.json",
+    "--",
+    "python",
+    "-B",
+    "computations/root_hybrid46_complete_source_reweight.py",
+    "--r83",
+    "notes/2026-11-12-root-r83-complete-cut-difference-r1.json",
+    "--r100",
+    "notes/2026-11-13-root-r100-hybrid46-exact-ledger.json",
+    "--far",
+    "notes/2026-11-12-closure-r63-far-boundary-completion-r1.json",
+    "--trace",
+    "notes/2026-11-12-closure-strong-true-cut-trace-r1.json",
+    "--r78",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+    "--rss-kib",
+    "98304",
+    "--out",
+    "notes/2026-11-13-root-r100-source-reweight-r1.json"
+  ],
+  "resource_command_status": "Check existing strong_resource_run CLI before running; command uses its conventional --out form and does not claim invocation happened.",
+  "input_hashes": {
+    "notes/2026-11-12-root-r83-complete-cut-difference-r1.json": "4ec6d30adb9eb639e658bcaa86873cfed0675ab975d3a8f92778888339f966b2",
+    "notes/2026-11-13-root-r100-hybrid46-exact-ledger.json": "7e6b3c140c57df34ab10f17facbc624104b39fa9870a4eecfcce06bf3ea62ca9",
+    "notes/2026-11-12-closure-r63-far-boundary-completion-r1.json": "6ee19d3288cd6d8662eecbc7d72e83d59245383798c6a066d8c9160c432ea4dd",
+    "notes/2026-11-12-closure-strong-true-cut-trace-r1.json": "44db92699bd9bf3d8ba613465b013033c82a7ed9f8fc8e5cc1f6a003539ad494",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930"
+  },
+  "slot_policy": "Pure Fraction can overlap the one authorized large M28 Node and the one original m94/96 small-Arb probe; respect actual observed RSS and disk.",
+  "output_policy": "One complete immutable output. Data over1MB gzip; each under5MB. Large primary only via actual terminal git, no connector splitting or encoding.",
+  "next_scientific_use": "Fresh low46 spectral enclosure, then all46 cut using S6 maximum and T40 weighted-l1 output sum with actual outer source and true-head beta.",
+  "not_claimed": [
+    "new full46 source arithmetic completed",
+    "all46 cut selfmap",
+    "middle/high joint closure",
+    "new M28",
+    "closed surface or completion"
+  ]
+}

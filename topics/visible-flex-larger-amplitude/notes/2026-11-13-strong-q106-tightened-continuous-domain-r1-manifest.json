@@ -1,0 +1,109 @@
+{
+  "schema": "q106-actual-small-denominator-domain-tightening-immutable-archive-v1",
+  "members": [
+    {
+      "path": "computations/strong_newg_continuous_mean_domain_tighten.py",
+      "sha256": "2f81023bfbc8baba4e0b73cbd10e94390aee890bebcb1f05bb24f6dd07f1e7a3",
+      "bytes": 6149,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_continuous_mean_domain_tighten.py"
+    },
+    {
+      "path": "computations/strong_newg_continuous_mean_domain_tightened_saved_check.py",
+      "sha256": "b6ad02bad864f3fe5f0ba025964816f910ae82546eff05b71cb9cb36858cea16",
+      "bytes": 3976,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_continuous_mean_domain_tightened_saved_check.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-tightened-continuous-domain-r1-certificate.json.gz",
+      "sha256": "d9c057155600660827770378e9a55054bfad06003fb74405d5cb2a285cb1040f",
+      "bytes": 573996,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-continuous-mean-domain-r4/certificate.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-tightened-continuous-domain-r1-resource.json",
+      "sha256": "894ffcefb50f0c9092aea219bed770fd8410662c6fc77ab9ca4aa228fb9b8cc3",
+      "bytes": 1824,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-continuous-mean-domain-r4/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-tightened-continuous-domain-r1-saved-check.json",
+      "sha256": "abbe6b3c292af7a46df07438f10a104042540eba47c0b61b10948e717220714b",
+      "bytes": 4008,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-continuous-mean-domain-r4/saved-check.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-tightened-continuous-domain-r1-saved-check-resource.json",
+      "sha256": "69b18d1aec43b2506d47c78e7ddc75b0bca36d7f19118484f4054e712f08e6e2",
+      "bytes": 1695,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-continuous-mean-domain-r4/saved-check-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-tightened-continuous-domain-r1-proof.md",
+      "sha256": "0812309bfafde3c3f0213d99f6352b23e4d4586531e1d0944b2fe54162bf12b0",
+      "bytes": 2866,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-continuous-mean-domain-r4/proof.md"
+    }
+  ],
+  "formal_exitcodes": [
+    0,
+    0
+  ],
+  "independent_exact_gates": 57345,
+  "complete_original_intervals": 2227,
+  "complete_atoms": 3326,
+  "prior_boxes_retained_verbatim": 2954,
+  "prior_small_D_boxes_refined": 198,
+  "new_exact_leaves": 372,
+  "quality_target_D_lower": [
+    "1",
+    -10
+  ],
+  "quality_target_failures": 0,
+  "scope": "Same actual q106 full repair homotopy; only genuinely small D boxes refined using original binary quintics and full angular intervals. No new mean, original-g, floating, PDE or reach certificate.",
+  "regenerate_commands": [
+    [
+      "python",
+      "computations/strong_newg_continuous_mean_domain_tighten.py",
+      "--background",
+      "binary-background-C2-r1/certificate.json",
+      "--state-repair",
+      "q106-C2-comparison-r1/certificate.json.gz",
+      "--radial",
+      "q106-newg-packet-r1/packet-manifest.json",
+      "--table",
+      "newg-gauss64-r1/certificate.json",
+      "--background-source",
+      "computations/strong_newg_binary_background_C2_comparison.py",
+      "--prior",
+      "q106-continuous-mean-domain-r3/certificate.json.gz",
+      "--primary",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+      "--out",
+      "q106-continuous-mean-domain-r4/certificate.json.gz",
+      "--angular-start",
+      "512",
+      "--angular-max",
+      "8192",
+      "--max-radial-depth",
+      "6"
+    ],
+    [
+      "python",
+      "computations/strong_newg_continuous_mean_domain_tightened_saved_check.py",
+      "--certificate",
+      "q106-continuous-mean-domain-r4/certificate.json.gz",
+      "--resource",
+      "q106-continuous-mean-domain-r4/resource.json",
+      "--prior",
+      "q106-continuous-mean-domain-r3/certificate.json.gz",
+      "--prior-resource",
+      "q106-continuous-mean-domain-r3/resource.json",
+      "--background",
+      "binary-background-C2-r1/certificate.json",
+      "--primary",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+      "--out",
+      "q106-continuous-mean-domain-r4/saved-check.json"
+    ]
+  ]
+}

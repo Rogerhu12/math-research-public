@@ -1,0 +1,65 @@
+{
+  "scope": "Restore the recorded numerical reference before the unchanged actual response.\n\nThe accepted fixed physical profile and raw state remain unchanged. The\noriginal raw reader is still authoritative for every physical, layout,\ntolerance, context, chunk and parameter identity. This wrapper only restores\nthe old numerical knots that an ordinary newly constructed Fixed object would\notherwise replace by final-profile normalized knots. No worker is permitted by\nthe original response entry; all full-field, half-step and backward gates stay.\n",
+  "entry_sha256": "2395db1d8cea3e9bba3cc02221bdb59793128357b71ae9f63991675bd7e7a6eb",
+  "original_sources": {
+    "strong_initial_laws_disk_control_response.py": "42db431d26f8cc87b56f3e8baf38b7afba38816f701d185efd1955028afe9750",
+    "root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f"
+  },
+  "input_raw": {
+    "file": "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz",
+    "sha256": "086637ebb7da8995f069e626900649434ae42b27bf04c30275498d67bb315787"
+  },
+  "input_checkpoint": {
+    "file": "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+    "sha256": "5545638d33d78240a2eb6dd82269d4c10975b14f686a9562971e3b20e60ce154"
+  },
+  "numerical_reference_knots": [
+    0.0,
+    0.2677610126249561,
+    0.3073403620202028,
+    0.3172296666633604,
+    0.4210673654165145,
+    0.4309566700596721,
+    0.6992364843991988,
+    0.6996085091989966,
+    0.7035147695968731,
+    0.7038867943966709,
+    0.7141889687205218,
+    0.822361799120957,
+    0.8326639734448079,
+    0.8439613383350474,
+    0.8542635126588983,
+    0.9624363430593335,
+    0.9727385173831844,
+    0.9840358822734238,
+    0.9844103156009136,
+    0.9883418655395568,
+    0.9887162988670467,
+    0.9972544424000331,
+    1.0
+  ],
+  "original_raw_reader_kept": true,
+  "metadata_only": false,
+  "read_calls": 2,
+  "restored_objects": 1,
+  "observations": [
+    {
+      "call": 1,
+      "first_for_object": true,
+      "constructor_reference_was_already_equal": false,
+      "original_full_raw_reader_passed": true,
+      "same_recorded_numerical_reference_after_read": true
+    },
+    {
+      "call": 2,
+      "first_for_object": false,
+      "constructor_reference_was_already_equal": true,
+      "original_full_raw_reader_passed": true,
+      "same_recorded_numerical_reference_after_read": true
+    }
+  ],
+  "physical_profile_or_raw_arrays_modified": false,
+  "worker_started": false,
+  "completed": false,
+  "error": "RuntimeError('The actual control response did not finish')"
+}

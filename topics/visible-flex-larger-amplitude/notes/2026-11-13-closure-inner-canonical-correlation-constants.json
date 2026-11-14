@@ -1,0 +1,125 @@
+{
+  "schema": "visible-flex-inner-canonical-correlation-identities-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "status": "Actual V8 BigInt universal finite-mode coefficient checks, not new field/Green evaluation",
+  "all_gates": true,
+  "gates": {
+    "all46_positive_even_modes": true,
+    "all92_signed_nonzero_even_modes": true,
+    "exact_C_Q_cancellation": true,
+    "exact_full_inverse_nonmean_correlation": true,
+    "exact_signed_mean_quadratic_all46": true,
+    "Pweak_coefficient_is2over27": true,
+    "KQweak_coefficient_is4over27": true,
+    "Cweak_Xi_coefficient_is1over3": true,
+    "UQweak_coefficient_is8372over8649": true,
+    "UXiweak_coefficient_is92over93": true,
+    "joint_Q_strong_coefficient_is92over93": true,
+    "all8464_signed_ordered_quadratic_pairs": true,
+    "all8464_canonical_quadratic_Jacobian_pairs": true,
+    "zero_output_pairs_retained": true,
+    "exact_cut_mu_and_sqrt12_cancellation": true
+  },
+  "norm": "Canonical Q weight (1+|m|)^3, Xi weight (1+|m|), same true reference strip; radial modal masses fixed before sums",
+  "positive_modes": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92
+  ],
+  "signed_ordered_pairs": 8464,
+  "zero_output_pairs_kept": 92,
+  "maxima": {
+    "Pweak": {
+      "numerator": "2",
+      "denominator": "27"
+    },
+    "KQweak": {
+      "numerator": "4",
+      "denominator": "27"
+    },
+    "CweakXi": {
+      "numerator": "1",
+      "denominator": "3"
+    },
+    "UQweak": {
+      "numerator": "8372",
+      "denominator": "8649"
+    },
+    "UXiweak": {
+      "numerator": "92",
+      "denominator": "93"
+    },
+    "jointQstrong": {
+      "numerator": "92",
+      "denominator": "93"
+    }
+  },
+  "cut_source_multiplier_exponents": {
+    "variables": [
+      "r",
+      "w",
+      "b",
+      "w_b",
+      "mu_n",
+      "mu_12",
+      "sqrt12"
+    ],
+    "result": [
+      4,
+      2,
+      -4,
+      -2,
+      0,
+      0,
+      0
+    ]
+  },
+  "source_units": "outward source-x complete relative source N_x; multiplier r^4 w^2/(b^4 w_b^2), with no second r_x",
+  "complete_mean_inverse_and_true_auxiliary_error_required": true,
+  "signed_Q_gain_required": true,
+  "no_interval_scientific_source_evaluation_claimed": true,
+  "no_inner_cut_or_outer_closure_numeric_gate_claimed": true
+}

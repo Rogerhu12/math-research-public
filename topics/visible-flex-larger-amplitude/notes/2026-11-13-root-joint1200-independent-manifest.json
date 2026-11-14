@@ -1,0 +1,35 @@
+{
+  "schema": "root-joint1200-independent-audit-artifacts-v1",
+  "author": "/root/geometry_audit",
+  "date": "2026-11-13",
+  "scope": "Read-only complete source audit and independent exact saved-row consumption; same full-frequency outer mixed-boundary problem only.",
+  "original_producer_sha256": "ecdf2516665f10b95ab201dbd92aa42f4e6145f08be0c6c8b6d1db540d611074",
+  "original_certificate_sha256": "36242d95a210e6aee3e38c994d0a70b61fa1fbb2df672a9ab3f4783bcca93ca1",
+  "files": [
+    {
+      "path": "computations/root_joint1200_independent_consumer.py",
+      "sha256": "c88217b8e9048b69f7078d46cc9e39502e83a03a0226f15fe1cfd3ae3a3c4fbc",
+      "bytes": 8743
+    },
+    {
+      "path": "notes/2026-11-13-root-joint1200-independent-saved-consumer.json",
+      "sha256": "ea09ba61ad260c2e454985096bad4eb7afc2ec454f153844100346b07d237d69",
+      "bytes": 287422
+    },
+    {
+      "path": "notes/2026-11-13-root-joint1200-independent-saved-consumer-resource.json",
+      "sha256": "832434c1b4c4173f97d4335220976ab349ef2e1189622f6cf750d7ceb4f14149",
+      "bytes": 1160
+    },
+    {
+      "path": "notes/2026-11-13-root-joint1200-independent-audit.md",
+      "sha256": "f8fe26f95287a703c2f87fb31b88608e55a76f74d14ec2bc4ddb3d82c799827c",
+      "bytes": 8120
+    }
+  ],
+  "actual_independent_exitcode": 0,
+  "independent_comparisons": 6096,
+  "ODE_Node_or_near_kernel_calls": 0,
+  "parameter_cut_closed": false,
+  "closed_surface_claimed": false
+}

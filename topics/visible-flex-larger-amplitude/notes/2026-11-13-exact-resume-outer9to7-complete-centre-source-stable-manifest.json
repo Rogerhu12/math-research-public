@@ -1,0 +1,69 @@
+{
+  "schema": "same-original9to7-complete-centre-source-compact-archive-v1",
+  "status": "proved_complete_source_of_fixed_centre_only",
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-complete-centre-source-v2.py",
+      "sha256": "8170b161ab7a0bc40acc6b8adb2f2e994cc028cf95d942fb85f3adacf7ab3804",
+      "bytes": 14898
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-complete-centre-source-failed-v1.py",
+      "sha256": "616d5dbf2bce6c780282e9ad80b0ed9eb4ae1aa7a67bf227063c1adc374266dd",
+      "bytes": 14890
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-complete-centre-source-r2-summary.json.gz",
+      "sha256": "e4e4bf14d08cb6a6221d31e2da25fb315f9d342bc88d12cff7aa8ef775b020d2",
+      "bytes": 28230
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-complete-centre-source-run2-resource.json",
+      "sha256": "613c40d4836497c06bff63aa8b1e24281fde74394784a06296ff60dbf6dea205",
+      "bytes": 915
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-complete-centre-source-failed-run1-resource.json",
+      "sha256": "61d09854f32e0a5651670a8b8d392bc69420f53e7b49fd6f4a1d1db234f14ad5",
+      "bytes": 936
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-complete-centre-source-proof.md",
+      "sha256": "ac49b1a9992d6eefb68105345d4d8a35543bccf5ec88f9d74e7b3d6d8507eaab",
+      "bytes": 7136
+    }
+  ],
+  "total_bytes": 67005,
+  "complete_original_leaves": 3940,
+  "original_counts": {
+    "9": 1377,
+    "8": 1316,
+    "7": 1247
+  },
+  "precision_bits": 256,
+  "mean_finite_posterior_steps": 4,
+  "inverse_degree": 32,
+  "source_sigma": "1/64",
+  "minimum_actual_source_wide_sigmas": {
+    "9": "3/2",
+    "8": "1",
+    "7": "1/2"
+  },
+  "primary_sha256": "e4e4bf14d08cb6a6221d31e2da25fb315f9d342bc88d12cff7aa8ef775b020d2",
+  "formal_resource_sha256": "613c40d4836497c06bff63aa8b1e24281fde74394784a06296ff60dbf6dea205",
+  "complete_chunk_data_location": "scratch; 493 deterministic gzip source parts, all pins in compact primary; regenerate with the archived producer and pinned original inputs",
+  "scratch_intermediate_bytes": 86072989,
+  "no_new_ODE": true,
+  "actual_nonlinear_continuation_claimed": false,
+  "failed_attempt_retained": true,
+  "reproduce_argv": [
+    "python",
+    "2026-11-13-exact-resume-outer9to7-complete-centre-source-v2.py",
+    "--out-prefix",
+    "FRESH_PREFIX",
+    "--rss-kib",
+    "98304"
+  ],
+  "depends_on_signed_helper_sha256": "d34c1e1a7c5933921d5aceeab159eab558b7198af8ee68eca86d4aca407bc0ab",
+  "depends_on_R154_mean_primary_sha256": "d9c11913cacae77751cf45c42b862970626e4c72ec32e9614111c96f3745eff3"
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "actual-all213-canonical-modal-input-archive-v1",
+  "files": [
+    {
+      "path": "computations/inner_aux_all213_canonical_modal_input.py",
+      "sha256": "da9cb78873062c905122a8373834a955274d12a87cadf1017565838e697cc358",
+      "bytes": 14350
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-all213-canonical-modal-input-r2.json.gz",
+      "sha256": "325bc24ddfed3a06702ea23a98511f7c87fb93c446c5978d47e28d203d61016e",
+      "bytes": 1508330
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-all213-canonical-modal-input-r2-resource.json",
+      "sha256": "e98fc816eda07b29abc2db880e241f95ff0b813c43501c55aa9708ea9bc46796",
+      "bytes": 895
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-all213-canonical-modal-input-r2.md",
+      "sha256": "9ce270a5368676aa26df5d95e4ad6463f7192ea1bf3cf9ba88a3ef8d7acf893c",
+      "bytes": 7860
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-all213-canonical-input-unreleased-r1-source.py",
+      "sha256": "77eb359d0a4dfe741b76101b50a8494e82fe32ed7172ed1b33252ab79ccd88ea",
+      "bytes": 14141
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-all213-canonical-input-unreleased-r1-resource.json",
+      "sha256": "f19ad2d09aa64f291f22a0794b7509a38db108b8af43da59df7574b7ba89db7e",
+      "bytes": 884
+    }
+  ],
+  "consumer_input_sha256": "325bc24ddfed3a06702ea23a98511f7c87fb93c446c5978d47e28d203d61016e",
+  "formal_exit0": true,
+  "exact_gates": 20352,
+  "unreleased_r1_output": {
+    "scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-all213-input-r1/input.json.gz",
+    "sha256": "a2aab9a8552f61285e72fe94cc26cd3ba7d95969eb343eade3ee663f2ab65cda",
+    "reproducible_from_saved_r1_source_and_command": true,
+    "not_a_consumer_input": true
+  },
+  "old_R74_auxiliary_only": true,
+  "new_existence": false,
+  "no_ODE_Green_or_Node": true
+}

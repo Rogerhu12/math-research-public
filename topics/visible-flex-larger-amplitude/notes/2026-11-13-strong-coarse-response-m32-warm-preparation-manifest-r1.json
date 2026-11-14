@@ -1,0 +1,70 @@
+{
+  "scope": "Fresh input-only adapter preparation: complete accepted M32 baseline plus exact saved M28 control increments in the pinned cylindrical channels. Original coarse responses retain their true scope and missing-half limitations. No future fine acceptance is invented, no M32 derivative or new BVP is claimed. This record checks only source transforms/AST/exact reverse and original protocol composition; actual two-baseline read-back follows only after owned M32 final acceptance.",
+  "created_utc": "2026-11-13T14:58:30.257064+00:00",
+  "source_only": true,
+  "actual_fine_baseline_verified_yet": false,
+  "new_Node_started": false,
+  "new_flow_or_Jacobian_evaluated": false,
+  "all_original_Newton_full_H_J_RMS_BC_audit_gates_retained": true,
+  "original_MJS_unchanged": true,
+  "resources": {
+    "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+    "task_prefix": "strong-coarse-response-m32-warm-source-prepare-r1",
+    "command": [
+      "python",
+      "-u",
+      "computations/strong_coarse_response_warm_actual_bvp.py",
+      "--prepare-source-record",
+      "notes/2026-11-13-strong-coarse-response-m32-warm-source-prepare-r1.json"
+    ],
+    "started_utc": "2026-11-13T14:57:55.053139+00:00",
+    "finished_utc": "2026-11-13T14:57:57.058036+00:00",
+    "wall_seconds": 2.014316325999971,
+    "exitcode": 0,
+    "termination_signal": null,
+    "wait4_observed": true,
+    "wait_status": 0,
+    "peak_rss_kib": 29616,
+    "user_seconds": 0.431205,
+    "system_seconds": 0.233601,
+    "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+    "received_supervisor_signals": [],
+    "owned_child_pid": 6,
+    "supervisor_pid": 5,
+    "supervisor_pid_namespace": "pid:[4026533075]",
+    "automatic_restarts": 0
+  },
+  "files": [
+    {
+      "file": "computations/strong_coarse_response_warm_actual_bvp.py",
+      "sha256": "ff5acad191d51544bfebaf46902f7e58f89a2e4575130f9b33932aa25ef8972c",
+      "bytes": 22403
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-source-prepare-r1.json",
+      "sha256": "43de3cdeded9399ea3257db5636035417281fe37e54fd588656171b6deec25e8",
+      "bytes": 35179
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-source-prepare-r1-resource.json",
+      "sha256": "de69810c55a5c60cad571fe3b5198e349656ae590b2f6053e02dd023aec9a159",
+      "bytes": 1260
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-source-prepare-r1-heartbeat.json",
+      "sha256": "7990f6a4d145c9232670ae195f784a0b87ac7b803f8dee221746e8cf2174ebbc",
+      "bytes": 308
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-source-prepare-r1-ownership.json",
+      "sha256": "99c9a87864550b752099c267e4042ca869134477efac273da2b67d0cf0d9dbc0",
+      "bytes": 1490
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-source-prepare-r1-stdout.log",
+      "sha256": "1cbaae105eb77e216b7835e7b0d359fb4a8a4d2f0bb2a456e057c335b782939c",
+      "bytes": 1373
+    }
+  ],
+  "total_bytes": 62013
+}

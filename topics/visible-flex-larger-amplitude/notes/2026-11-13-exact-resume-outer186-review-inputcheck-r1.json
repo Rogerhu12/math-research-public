@@ -1,0 +1,77 @@
+{
+  "schema": "independent-restricted-outer186-source-input-review-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "gates": {
+    "reviewed_source_sha": true,
+    "all_direct_actual_input_pins": true,
+    "exact_export_primary_and_resource": true,
+    "same_complete_head_arrays": true,
+    "same_head_strip_units_domain": true,
+    "all13_inner_head_frequencies": true,
+    "working_and_expanded_shared_domains": true,
+    "each_exact_original_fine_axis": true,
+    "all_exact_head_profile_axes": true,
+    "seed_is_same_original_R127_field": true,
+    "same_frozen_R127_nonlow_interface": true,
+    "all186_even_windows": true,
+    "actual_frequency_producer_identity": true,
+    "all25_source_blocks": true,
+    "correct_source_and_two_output_ids": true,
+    "complete46_or47_distinct_linear_inputs": true,
+    "actual_low_middle_support": true,
+    "complete_positive_source_columns": true,
+    "unique_difference_window_edges": true,
+    "complete_exact_difference_interval": true,
+    "strict_positive_infinite_cancellation_tails": true
+  },
+  "gate_count": 21828,
+  "gate_categories": {
+    "reviewed_source_sha": 3,
+    "all_direct_actual_input_pins": 24,
+    "exact_export_primary_and_resource": 1,
+    "same_complete_head_arrays": 1,
+    "same_head_strip_units_domain": 1,
+    "all13_inner_head_frequencies": 1,
+    "working_and_expanded_shared_domains": 1,
+    "each_exact_original_fine_axis": 40,
+    "all_exact_head_profile_axes": 1,
+    "seed_is_same_original_R127_field": 1,
+    "same_frozen_R127_nonlow_interface": 1,
+    "all186_even_windows": 1,
+    "actual_frequency_producer_identity": 1,
+    "all25_source_blocks": 1,
+    "correct_source_and_two_output_ids": 25,
+    "complete46_or47_distinct_linear_inputs": 50,
+    "actual_low_middle_support": 2325,
+    "complete_positive_source_columns": 2325,
+    "unique_difference_window_edges": 50,
+    "complete_exact_difference_interval": 16925,
+    "strict_positive_infinite_cancellation_tails": 50
+  },
+  "source_sha256": "f8ed0972aca0711f3bba3332d3e04461f1b9815f7e9040389ad5cfd59fe2fcb9",
+  "input_manifest": {
+    "path": "/workspace/scratch/d1aa462cfc02/root-work/restricted-outer-r6-inputs/input-manifest.json",
+    "sha256": "dc77e8b03f4dfd62b72b6fec0ce0df546a9e785a445e8ebae175a0430cbf47c6"
+  },
+  "reviewed_sources": [
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_full_field_restricted_window_rebootstrap.py",
+      "sha256": "31adc4e8163ab69293fcfe3a8c7b134c36d0fdc4f41260babf11669a81c42a12"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_refined_window_cut_support.py",
+      "sha256": "3d4ac8d58f9fe7683a13d29519f379fd6eff15a4cb4a0da6721e02767626a025"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_outer_singleton_frequency_sources.py",
+      "sha256": "76c5a3ccb49d09a7b29af5e3eb430c3cf6b3e3e3935f5ce0290b9812c6c7ecc0"
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/restricted-outer-r6-inputs/nonlow_interface.py",
+      "sha256": "eb5a9a9f2cf01f635f0942bef9299184afb30baab273d26251450395d9046f65"
+    }
+  ],
+  "full_field_run_or_cut_success_claimed": false,
+  "elapsed_seconds": 1.2542111330003536
+}

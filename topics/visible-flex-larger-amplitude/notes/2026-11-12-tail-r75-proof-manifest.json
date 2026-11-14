@@ -1,0 +1,24 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Complete conditional proof; no numerical outer existence claim",
+  "result": "R75",
+  "files": [
+    {
+      "path": "results/R75-complete-mean-transport-and-shear-constraint.md",
+      "bytes": 9705,
+      "sha256": "75b3d1b15fd3d3b91ba4015354cd335a8e9e6639ec6a4d3ddf8b5cd65e997148"
+    }
+  ],
+  "basis": [
+    "R44.34 complete connection curl",
+    "R44/R64 complete scalar root",
+    "R69 full-variable shear"
+  ],
+  "main_identities": [
+    "DM[X]=<D^(-3/2)(L k-E U p)>=<W(SX)_2>",
+    "M_x+2 ell M=<W(Sf)_2>",
+    "q_x+2 ell q=<W(Sg)_2>+<DW[X] Rhat_K> at a compatible nonexact center"
+  ],
+  "new_radial_or_ODE_calculations": 0,
+  "index_and_HANDOFF_owned_by_parent": true
+}

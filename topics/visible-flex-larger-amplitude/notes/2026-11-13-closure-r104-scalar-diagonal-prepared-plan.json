@@ -1,0 +1,28 @@
+{
+  "schema": "visible-flex-R104-scalar-diagonal-prepared-plan-v1",
+  "status": "Prepared source/proof only; no Python AST, Arb, or numerical gate executed",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_middle_frame_diagonal_materials.py",
+      "blob": "f647d79aa1dac3b8a2defd41cabd8f904c67b9a6",
+      "sha256": "7e5b9a38af269bee7803fb8e6c002a6ca9987267b0c01b3cbe7da2d2b82a2ba8",
+      "bytes": 13220
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-r104-scalar-diagonal-prepared.md",
+      "blob": "1d6113cf9acb2d5bcd47615ab13bffceb08604b2",
+      "sha256": "cb5a5bcf48bd9c868474a2f0f3c02d2b2f975eba33acfe6a34d76294f3096e7b"
+    }
+  ],
+  "input_semantics": "True R104 completed primary and wait4 result, same old source groups and true R68 frames; arbitrary new frame identity is not substituted.",
+  "original_actual_blocks_sha256": "62156ade93e31729c7500e79dbc01c3f4267d1a89a2b7730af7fe1c6440df45a",
+  "expected_frame_path": "notes/2026-11-12-root-outer-optimal-frame-r1.json",
+  "frame_sha256": "Must be computed from the actual restored complete packet and passed explicitly; not yet reread.",
+  "new_density_or_g_definition": false,
+  "kernel_scope": "Two physical modes94/96, original18 same-source/same-target diagonal blocks only; all three original material powers; physical strong norm without output V",
+  "source_existence_changes": false,
+  "old_initial_or_offdiagonal_rows_deleted": false,
+  "declared_rss_observation_limit_kib": 98304,
+  "no_new_source_integration_or_ODE": true,
+  "root_pipeline_priority": "After root's currently owned low46 geometry; do not start parallel Arb."
+}

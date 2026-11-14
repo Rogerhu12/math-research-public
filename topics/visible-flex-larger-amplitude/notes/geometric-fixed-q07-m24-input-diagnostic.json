@@ -1,0 +1,113 @@
+{
+  "samples": 1080,
+  "nodes": 466,
+  "angular": 1024,
+  "rhs_angular": 384,
+  "profile_sha256": "44baa11c4dc833095096d0f3ac58364ab328d5d7112e2464b6871fe31f63d13b",
+  "groups": {
+    "all": {
+      "metric_pp_E": {
+        "value": 2.58812077217563e-06,
+        "s": 0.8620888889966967
+      },
+      "metric_pp_F": {
+        "value": 2.127650774329448e-06,
+        "s": 0.8745829308662139
+      },
+      "metric_G": {
+        "value": 6.198138353797102e-06,
+        "s": 0.9067104671021158
+      },
+      "metric_rhs_E": {
+        "value": 2.5881356468342e-06,
+        "s": 0.8620888889966967
+      },
+      "metric_rhs_F": {
+        "value": 2.1276507742461142e-06,
+        "s": 0.8745829308662139
+      },
+      "radial_interpolant_velocity_defect": {
+        "value": 1.0372583884838822e-07,
+        "s": 0.49629583266832045
+      },
+      "fourier_projection_velocity_defect": {
+        "value": 1.9538589402061193e-05,
+        "s": 0.8745829308662139
+      },
+      "angular_quadrature_velocity_difference": {
+        "value": 5.833538502440907e-15,
+        "s": 0.5711561997493642
+      }
+    },
+    "nodes": {
+      "metric_pp_E": {
+        "value": 2.5833590253269056e-06,
+        "s": 0.8638737521209134
+      },
+      "metric_pp_F": {
+        "value": 2.127650774329448e-06,
+        "s": 0.8745829308662139
+      },
+      "metric_G": {
+        "value": 6.198138353797102e-06,
+        "s": 0.9067104671021158
+      },
+      "metric_rhs_E": {
+        "value": 2.583359017199859e-06,
+        "s": 0.8638737521209134
+      },
+      "metric_rhs_F": {
+        "value": 2.1276507742461142e-06,
+        "s": 0.8745829308662139
+      },
+      "radial_interpolant_velocity_defect": {
+        "value": 4.4766495567278475e-17,
+        "s": 1.3133913409658866
+      },
+      "fourier_projection_velocity_defect": {
+        "value": 1.9538589402061193e-05,
+        "s": 0.8745829308662139
+      },
+      "angular_quadrature_velocity_difference": {
+        "value": 5.833538502440907e-15,
+        "s": 0.5711561997493642
+      }
+    },
+    "between_nodes": {
+      "metric_pp_E": {
+        "value": 2.58812077217563e-06,
+        "s": 0.8620888889966967
+      },
+      "metric_pp_F": {
+        "value": 2.1177832350650332e-06,
+        "s": 0.8763677939904306
+      },
+      "metric_G": {
+        "value": 6.192602245669908e-06,
+        "s": 0.9084953302263326
+      },
+      "metric_rhs_E": {
+        "value": 2.5881356468342e-06,
+        "s": 0.8620888889966967
+      },
+      "metric_rhs_F": {
+        "value": 2.1177793254097036e-06,
+        "s": 0.8763677939904306
+      },
+      "radial_interpolant_velocity_defect": {
+        "value": 1.0372583884838822e-07,
+        "s": 0.49629583266832045
+      },
+      "fourier_projection_velocity_defect": {
+        "value": 1.9477134250582334e-05,
+        "s": 0.8727980677419971
+      },
+      "angular_quadrature_velocity_difference": {
+        "value": 5.797302358780058e-15,
+        "s": 1.187330423011976
+      }
+    }
+  },
+  "seconds": 4.015823602676392,
+  "scope": "Finite angular FFT l1 metric diagnostics; not a continuous-angle enclosure. Original saved PPoly is unchanged."
+}

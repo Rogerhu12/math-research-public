@@ -1,0 +1,28 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/low-kernel-r125/root_low_block_three_material_kernels.py",
+    "--geometry",
+    "/workspace/scratch/d1aa462cfc02/root-work/signed-geometry/geometry-v3.json",
+    "--partition",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-middle-high-mixed-r3.json.gz",
+    "--leaves",
+    "/workspace/scratch/d1aa462cfc02/root-work/low-coupling-inputs/common-strip34816-original-leaves.jsonl.gz",
+    "--axes",
+    "/workspace/scratch/d1aa462cfc02/root-work/full-linear-cut-inputs/notes/2026-11-13-root-r100-hybrid46-exact-ledger.json",
+    "--input-root",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--frozen-helper-dir",
+    "/workspace/scratch/d1aa462cfc02/root-work/all-linear-frozen",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/low-kernel-r125/low-three-r1"
+  ],
+  "wall_seconds": 411.422247171402,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 79068,
+  "user_seconds": 396.012742,
+  "system_seconds": 4.795235,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

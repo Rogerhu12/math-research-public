@@ -1,0 +1,23 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "-u",
+    "root-work/actual-cut-posterior-inputs/2026-11-13-exact-resume-inner-restricted-complete-source-v1.py",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1.json.gz",
+    "--modal-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1-resource.json",
+    "--density",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/frozen-topic/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1"
+  ],
+  "wall_seconds": 18.969513416290283,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 56356,
+  "user_seconds": 11.047723,
+  "system_seconds": 0.388169,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

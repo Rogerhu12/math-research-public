@@ -1,0 +1,36 @@
+{
+  "schema": "current19-complete-readonly-array-relocation-result-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "source_sha256": "49a37ac232c86ccda5432185c6c86f277b8cbc6323babfaf39f4e63493a156a6",
+  "inventory_path": "m32-q126-r1/current19-readonly-relocation-r1-inventory.json",
+  "inventory_sha256": "576c1241bf6223f0b121fe279e4e0743e6796a0303aae9fcbf521b88bbb2a2a8",
+  "receipt_path": "m32-q126-r1/current19-readonly-relocation-r1-receipt.jsonl",
+  "receipt_sha256": "87a31137ec0e101cc38e5654ab8ace64261caaf8a004464ee1c88ff05fa58f1b",
+  "input_sha256": {
+    "m32-q126-r1/geometry-plan-exact-chart-r4.json": "56715b1a962a10412d2913b4187ddcf33baac85ed0f2bd33f189b3fd95855c66",
+    "m32-q126-r1/complete19-reader.json": "22f815f1f989b526e0cec1464625f37480b492676fa90ef1b3f0681f48c95dbd",
+    "m32-q126-r1/complete19-reader-resource.json": "8cefc6c46188219e693ec500b8d62ca7f0cf329d6391ddfd6db3aff567da0157"
+  },
+  "original_cases": 19,
+  "complete_chunks": 342,
+  "total_bytes_preserved": 498653953,
+  "newly_replaced_private_paths": 342,
+  "recovered_already_verified_links": 0,
+  "original_allocated_bytes_for_new_links": 499363840,
+  "every_original_reader_path_bytes_and_SHA_unchanged": true,
+  "all_owned_completed_cases": true,
+  "original_metadata_hashes_unchanged": true,
+  "full_raw_accepted_source_certificates_and_current_BVP_untouched": true,
+  "free_bytes_before": {
+    "workspace_free": 931450880,
+    "destination_free": 4771938304
+  },
+  "free_bytes_after": {
+    "workspace_free": 1437081600,
+    "destination_free": 4272574464
+  },
+  "no_scientific_bytes_discarded": true,
+  "new_ODE_or_geometry_or_LP_calls": 0,
+  "elapsed_seconds": 17.4237784460056,
+  "peak_rss_kib": 14492
+}

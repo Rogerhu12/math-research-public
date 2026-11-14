@@ -1,0 +1,65 @@
+{
+  "status": "Source and complete proof recovered after second executor replacement; all unpushed numerical packages must be recomputed. No new numerical run has started.",
+  "files": [
+    {
+      "path": "computations/closure_weighted_panel_flow_v4.py",
+      "bytes": 3414,
+      "sha256": "c28b42101288c5ba43ca0814ff5ca596695979ffd8c2dfb6b94427f11c73b567"
+    },
+    {
+      "path": "computations/closure_panel_centred_low_green_v2.py",
+      "bytes": 15077,
+      "sha256": "28766849994c88cbfbda385a38766c7d1171dca9070f9d29b0667b8d0fcb0e44"
+    },
+    {
+      "path": "computations/closure_assemble_centred_green.py",
+      "bytes": 17237,
+      "sha256": "9e420455ef59285219422bdbd1fc82d7d3f15a2af9178a25fd89a2c86faee809"
+    },
+    {
+      "path": "results/R42-common-strip-centred-green-and-strong-rescaling.md",
+      "bytes": 16423,
+      "sha256": "6b3d1a8e090295367e125714f52ebcb3dddb6f45e624bdcb40a0fb1d0ec98c98"
+    }
+  ],
+  "byte_identical_to_prior_execution": [
+    "computations/closure_weighted_panel_flow_v4.py",
+    "computations/closure_panel_centred_low_green_v2.py",
+    "results/R42-common-strip-centred-green-and-strong-rescaling.md"
+  ],
+  "changed_source": {
+    "path": "computations/closure_assemble_centred_green.py",
+    "prior_sha256": "7ae887b4974b9e2897625030b77b9da74befbc5c57356e19753f3763fd66b8b1",
+    "change": "Mathematical assembly transcribed from tool read; final serialization reconstructed; fresh-output guard added."
+  },
+  "prior_completed_runs": [
+    {
+      "session": 52401,
+      "formal_exit": 0,
+      "seconds": 968.0433736,
+      "RSS_KiB": 123424
+    },
+    {
+      "session": 22069,
+      "formal_exit": 0,
+      "seconds": 44.1867554,
+      "RSS_KiB": 133788
+    }
+  ],
+  "lost_complete_output": {
+    "path": "notes/2026-11-12-closure-centred-four-green.json.gz",
+    "sha256": "d33768666cda08a4991d48911f276135b67aab4354b3d7bc6e83b491da655456",
+    "bytes": 1521122,
+    "current_file_available": false
+  },
+  "interrupted_joint": {
+    "session": 90734,
+    "formal_exit": null,
+    "last_event": "assembled",
+    "dimension": 428,
+    "seconds": 5.5329869510005665,
+    "RSS_KiB": 152092,
+    "status": "No radius, map, Lipschitz or termination record; never counted as joint closure."
+  },
+  "next": "Recompute twelve full46 panel packages, assemble all213 four-family matrices, then run a fresh full joint check under the parent resource queue."
+}

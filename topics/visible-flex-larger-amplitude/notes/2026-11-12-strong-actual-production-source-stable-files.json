@@ -1,0 +1,41 @@
+{
+  "scope": "Historical production-source snapshot for actual q105 r1. The exact c275 entry is archived as gzip; the other five source files retain their recorded bytes. This is not the current r2 source inventory.",
+  "files": [
+    {
+      "file": "notes/2026-11-12-strong-actual-q105-r1-entry-source.py.gz",
+      "bytes": 9667,
+      "sha256": "bdca629b6def1b617ce36d39009b032f72c05b21e112a8c3800c7b1c54a48c9c",
+      "uncompressed_sha256": "c275e304f9be7bef25b26d46b3ff41e0881eda6ae629957d48b99121ad913393",
+      "original_source_path": "computations/strong_actual_three_control_bvp.py",
+      "scope": "Historical exact production entry used by q105 r1; current default-disabled same-H recovery option is recorded separately."
+    },
+    {
+      "file": "computations/strong_actual_augmented_core.py",
+      "bytes": 14980,
+      "sha256": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7"
+    },
+    {
+      "file": "computations/strong_actual_newton_checkpoints.py",
+      "bytes": 7886,
+      "sha256": "7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb"
+    },
+    {
+      "file": "computations/strong_actual_iterate_restore.py",
+      "bytes": 4264,
+      "sha256": "8277739ed3f3efd0e07e31d580c1e5c351c36ff0aa90b8c73605b1855bde5ee7"
+    },
+    {
+      "file": "computations/strong_actual_warm_screen.py",
+      "bytes": 5623,
+      "sha256": "0e5a07052bbbec195d59cf95a312e6375855c86db18b4adc6614a74f45c08618"
+    },
+    {
+      "file": "computations/strong_run_actual_warm_candidates.py",
+      "bytes": 5672,
+      "sha256": "77f2f1a4b05995f19094cadd8df0ee2131e7dd016a300f518297855702c1f329"
+    }
+  ],
+  "prior_session": 30348,
+  "prior_formal_exitcode": 1,
+  "prior_worker_returncode": -9
+}

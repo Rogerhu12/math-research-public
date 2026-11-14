@@ -1,0 +1,25 @@
+{
+  "status": "Prepared exact same-candidate dual-readout source reweight",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_two_cell_refined_source_reweight.py",
+    "--functional",
+    "notes/2026-11-12-closure-outer-two-cell-adjoint-r1.json",
+    "--linear-cancellation",
+    "notes/2026-11-12-closure-outer-linear-cancellation-r1.json",
+    "--far-completion",
+    "notes/2026-11-12-closure-r63-far-boundary-completion-r1.json",
+    "--old-budget",
+    "notes/2026-11-12-closure-two-cell-parameter-budget-r2.json",
+    "--family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+    "--refined-source",
+    "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+    "--out",
+    "notes/2026-11-12-closure-two-cell-refined-source-reweight-r1.json"
+  ],
+  "source_sha256": "3a14e3d595988d84db69d820f346202c4f0adaa4c2b5cd3a11ad53613362b804",
+  "arithmetic": "stdlib Fraction only",
+  "R63_actual_low_far_retained": true,
+  "same_g_and_exact_candidate": true
+}

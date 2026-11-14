@@ -1,0 +1,26 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Prepared same-candidate exact rational R77 full-leaf postprocessing",
+  "command": [
+    "python",
+    "computations/tail_outer_mean_constraint_stream.py",
+    "--summary",
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3.json",
+    "--resource",
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-resource.json",
+    "--stream-check",
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-streamcheck.json",
+    "--out",
+    "notes/2026-11-12-tail-r77-seg3-mean-constraint-r1.json"
+  ],
+  "resource_output": "notes/2026-11-12-tail-r77-seg3-mean-constraint-r1-resource.json",
+  "input_source_hashes": {
+    "computations/tail_outer_mean_constraint_stream.py": "7c838e9f703bd47ee958223b0f8e814ad81b2f9f68452a3edd3a5cff2cc09ca1",
+    "results/R77-complete-mean-defect-zero-mode.md": "653a9a52def56e868aed9a91fd15c07a6923e635a90e82f0524c1526b03db1ec",
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3.json": "9a36b00c9ac1f2f588ab1bca7b0a5f373ecf1d82c5b098a04b2aab995a331d95",
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-resource.json": "98275e6bbfd52e0bc16bf8c4cdb7949aaee34778e28028c0858aa734c123884a",
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-streamcheck.json": "b50081b7de1eeeb8f33a475e6e7c1045277643d542283ee10799729e19c8accb"
+  },
+  "no_Arb_or_new_source_or_candidate_changes": true,
+  "formal_status": "Not yet run at plan creation"
+}

@@ -1,0 +1,2831 @@
+{
+  "status": "both_actual_producers_formal_zero_all_original_gates_true",
+  "scope": "Same R88 fixed centre, same original10793 material leaves and all46 outputs; not a nonlinear solution or cut selfmap.",
+  "entries": [
+    {
+      "kind": "geometry",
+      "archived_complete_primary_and_actual_resource": [
+        {
+          "original_path": "/workspace/scratch/d1aa462cfc02/root-work/signed-geometry/geometry-v3.json",
+          "archive_path": "notes/2026-11-13-root-signed46-geometry-v3.json",
+          "bytes": 178602,
+          "sha256": "7b785c177478d2b960172f85286005bcc6dbdcc2de5eb2cec56bffad6c998e5d"
+        },
+        {
+          "original_path": "/workspace/scratch/d1aa462cfc02/root-work/signed-geometry/geometry-v3-resource.json",
+          "archive_path": "notes/2026-11-13-root-signed46-geometry-v3-resource.json",
+          "bytes": 1651,
+          "sha256": "622387fe815525e1203b83e788f92381178ef52f202a0c06bc96930ca04f1f60"
+        }
+      ],
+      "local_generated_inventory": [
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment0.json",
+          "bytes": 122047,
+          "sha256": "1c8da6029bd028c8d925bd1e70d41815cb408d456fa97578115707a37c6057c2"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment1.json",
+          "bytes": 121923,
+          "sha256": "d258d0e760f618c76e2b2a26ef3d994ff043fa95867c189438d2602bfc51238b"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment2.json",
+          "bytes": 114337,
+          "sha256": "ff1f6bb2a08b20cfa1a2345a4e41f4e526392b405c664d7476dd13ba88d46567"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment3.json",
+          "bytes": 114017,
+          "sha256": "ab9457a90216290bb24e955ab4562f59fa319052ddfd33f260a14c0d79957b00"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment4.json",
+          "bytes": 100044,
+          "sha256": "b4f8189a52de2415beebb746792b7829735ac8dbafd42cf8572003c90355f968"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment5.json",
+          "bytes": 99805,
+          "sha256": "bbbf446800dd520956b6914ba185f55d70a0f1a790593b7367db3912b86913f9"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment6.json",
+          "bytes": 86665,
+          "sha256": "760374493bb1c5ce5773c31cb91c7fff08bb0a9fbb6220fb3c3e144db4051508"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment7.json",
+          "bytes": 86470,
+          "sha256": "646c402e0d68c82c246b26e68707ec9e002504edfd9017702671fba230d25173"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell010-segment8.json",
+          "bytes": 79980,
+          "sha256": "05cc4f83506f5edd9fcf30e374ab547722cac0e2c64f065f3c67653aae8067e7"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment0.json",
+          "bytes": 166909,
+          "sha256": "d44d58f7287fc027a783ad614d4c1d3b91e08bac9886a24ff9aa735bae189cab"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment1.json",
+          "bytes": 166813,
+          "sha256": "3fafbf14d681726505e996f899625fd1e873ade3a354a0a4085b76597bf275f7"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment2.json",
+          "bytes": 158323,
+          "sha256": "38f8a6f03ba5ebc27db740e592093188d58644605595352b935a86184848456e"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment3.json",
+          "bytes": 158046,
+          "sha256": "2d7a143bed2c66733bbb77305c67613d3ad757dfe88d9c255bbbbe9fe8f21443"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment4.json",
+          "bytes": 143395,
+          "sha256": "c922827d64f6ceaa9d151b7ae7b26b5e307804a7d0a63a0be9c7f53aa22f5e71"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment5.json",
+          "bytes": 143154,
+          "sha256": "2ec066b5277e6072f61f3a8115172d17a7b5ba473a539a2351641c0c2554f649"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment6.json",
+          "bytes": 129567,
+          "sha256": "c979ee3ba51d4c91dfa914db6a0ebc965cc6244f40fac943015dd41d9bb7f649"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment7.json",
+          "bytes": 129093,
+          "sha256": "a23435dc328a46fdfbe82b36923a4d6e31be2a7c33e70907c033608f312bebf5"
+        },
+        {
+          "relative_path": "geometry-v3-completed-cell011-segment8.json",
+          "bytes": 122677,
+          "sha256": "7cd570e771266f85cb30d49237d4a1f48583a17a6aac3d8e7d7c542dffca3ec0"
+        },
+        {
+          "relative_path": "geometry-v3-prepared.json",
+          "bytes": 59714,
+          "sha256": "171356eedb2bf4a9e9410e6f222fff64f5b7bf75f923c93e52f1d3d222ec81a1"
+        },
+        {
+          "relative_path": "geometry-v3-resource.json",
+          "bytes": 1651,
+          "sha256": "622387fe815525e1203b83e788f92381178ef52f202a0c06bc96930ca04f1f60"
+        },
+        {
+          "relative_path": "geometry-v3.json",
+          "bytes": 178602,
+          "sha256": "7b785c177478d2b960172f85286005bcc6dbdcc2de5eb2cec56bffad6c998e5d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment0-geometry000.json.gz",
+          "bytes": 10005,
+          "sha256": "8521a6ac45d1f55ffcbbc1a0a8d273b4f5b6af58dd329fa444928f4dc9999e53"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry000.json.gz",
+          "bytes": 251494,
+          "sha256": "d264531286f5889c7b60e1db202157f499a0f61a9da22233cabbdf8ede205db8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry001.json.gz",
+          "bytes": 263555,
+          "sha256": "52bd9acdc945446d83bfec53339fd5495b24abd517c7e7c8f296095082bc9228"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry002.json.gz",
+          "bytes": 267793,
+          "sha256": "deda3d2fc974746be747ed69ef1747f5ad72554fe8713bf83dff6e78f2668d5f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry003.json.gz",
+          "bytes": 270178,
+          "sha256": "9510b19d10eebca56bf28dd2b57cbcd7719ca5cf8405794e794e5ba76c83a856"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry004.json.gz",
+          "bytes": 271874,
+          "sha256": "7081b0a43ea27448d146689d49c2313bb2f2d09e493bc951d06bf9ac4b8ef183"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry005.json.gz",
+          "bytes": 273024,
+          "sha256": "c1462c4b78760cea0ad21a219c5264cb58571ffe84bd50960cbd417ed2f36c07"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry006.json.gz",
+          "bytes": 274226,
+          "sha256": "44ca87301621fe2f79c0a0db7a9e5f81205ff1df37c3ea82622a893e4cc56160"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry007.json.gz",
+          "bytes": 274843,
+          "sha256": "71e80c03bb1a6896c7bc27f95e42b7c22809cb74ed547e18af1d335a47bdb23f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry008.json.gz",
+          "bytes": 275814,
+          "sha256": "c861080c5f7156690f7212add15b06a4b0be49460b5ad6f098eef3a34c49fa79"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry009.json.gz",
+          "bytes": 276399,
+          "sha256": "62028ec14973b8e8b602a0c7cfbe62dfd204242b94d97590ac820ec0fd4e04cb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry010.json.gz",
+          "bytes": 276706,
+          "sha256": "853b4adaf9fe53bf51b7f4fd9e934d9d2e83c63484bbb2b8495701a28d350ad0"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry011.json.gz",
+          "bytes": 276942,
+          "sha256": "31e23b4250272059c24478b09a4b724175c0685860bb6a18abc17e3318b6250e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry012.json.gz",
+          "bytes": 277582,
+          "sha256": "2d6a601b27570bb1ef862b0a3461a2d428fdad8eca5df4d8f44bc1ebbfe6e07f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry013.json.gz",
+          "bytes": 277612,
+          "sha256": "61c18d9fbd2d12a5a55f0387a50069c9b8b38f0fb149ce2ce288836342e35e3f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry014.json.gz",
+          "bytes": 277565,
+          "sha256": "ab1214c737dd06017ffd70edf711137bf78f636ad23834d1ed66fb632e4b2783"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry015.json.gz",
+          "bytes": 278008,
+          "sha256": "046124c27099f3a105865097938aaf43e8cf4af058bb8f97e3665189e676b4be"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry016.json.gz",
+          "bytes": 278065,
+          "sha256": "2beb6e0d37fe4d6ddd90ece2459220829c85c284c1fb2489a05dd5f9901c28ab"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry017.json.gz",
+          "bytes": 278237,
+          "sha256": "3fde6086598c1b403b2e54da84d0a7df64c88671f397d7b94e227119f5e8c49b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry018.json.gz",
+          "bytes": 279844,
+          "sha256": "931b181fcdb5d25b5d9e95b0963a4275cbd3e65b7690a643ca5c3c2e680917c7"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry019.json.gz",
+          "bytes": 280165,
+          "sha256": "205d41c0b1d2e9717cc1440d6394eb4c2130e356d871b861e5404f6a92e30b54"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry020.json.gz",
+          "bytes": 280540,
+          "sha256": "389043b6bf068652ad5f551ae68450d36ff68e8ba698889605ec413f11873019"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry021.json.gz",
+          "bytes": 280916,
+          "sha256": "c0d7b0ab21a4f41ad1c8e64aec9e33c0b33eff6badc32ffd058dd536a3744250"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry022.json.gz",
+          "bytes": 281181,
+          "sha256": "dd094f4d00b00b82d18657494a5fe327f37074beb2f3e1cdbec0b6ca7869a628"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry023.json.gz",
+          "bytes": 281470,
+          "sha256": "7f8602e2637406c582b88c99d507d3a5ffec698efc2fc3d5d8cb4e8a1c9f593b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry024.json.gz",
+          "bytes": 281295,
+          "sha256": "7014958095d92ef7047b29426ac60070654b4e811e15b47d3e6c70820bdd0ab7"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry025.json.gz",
+          "bytes": 281911,
+          "sha256": "0d82c5293ba4292a4f7562319ffe028be2d5d01dd2d85e3096b5c42b6288cbbc"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry026.json.gz",
+          "bytes": 283119,
+          "sha256": "3ee14fda6e3a43e5fe54ef1f53ba5312ac8b35851ffc928bbb52c2fe4d9e3f33"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry027.json.gz",
+          "bytes": 283476,
+          "sha256": "8e4419841dc685cc55f8a0ccb57ad612f5a3109f64f03a306cdc3da38552fe57"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry028.json.gz",
+          "bytes": 283937,
+          "sha256": "f2af7f90d72bf6ca0078c2f48343a0deaed90e618fae309f63a23a18dcb2fb30"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment1-geometry029.json.gz",
+          "bytes": 267874,
+          "sha256": "50bd64087a2ae8e60ddfb79eae3da4fc49b72acb715e8408dc3ac4c69d70326b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment2-geometry000.json.gz",
+          "bytes": 138350,
+          "sha256": "670e3a27eb0a10a408b3c03cea3b44c5b371910924b9c1b819fb2f5097ba7f08"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry000.json.gz",
+          "bytes": 259561,
+          "sha256": "315d104f033f8e0f79eb29d49efda2ea2c8544723ebcedccbcb0ae79b4dceec1"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry001.json.gz",
+          "bytes": 264212,
+          "sha256": "e57db4a3474316a350b09acb4299f268933047e1b9f059890f2ea4b7b2666cfc"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry002.json.gz",
+          "bytes": 266615,
+          "sha256": "e205ea80e8e239624aed19cddcc8285ab7babd921ce64c91dbddb7bab54191dc"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry003.json.gz",
+          "bytes": 268192,
+          "sha256": "4f85bee54f53faac1dd2e099b821190c73ca1276bf0236e84085a3c383d5f1cb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry004.json.gz",
+          "bytes": 269519,
+          "sha256": "9d63246d4193ce9db45b753d69d8809295e91a47dd5215ddfb020ecbfb0135a1"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry005.json.gz",
+          "bytes": 270592,
+          "sha256": "434a64ca8e7374abbc5ca6c3c80cf31f2c3528606092220c2c45854d481031b6"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry006.json.gz",
+          "bytes": 271237,
+          "sha256": "547891fc2dd6dda90ef9313fb2c6059f8e6822e07143336374da3373a427e593"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry007.json.gz",
+          "bytes": 271864,
+          "sha256": "eff16ff95ba2fef461e891ade4d385cbb93aa7cc6a52ca76780c260bd59879f9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry008.json.gz",
+          "bytes": 272404,
+          "sha256": "7c23dbb777a514367e5a09d51030564298dfe37603795d5c11b7f836886033b7"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry009.json.gz",
+          "bytes": 272553,
+          "sha256": "ada1f0636eee72dadf799d00f69140c042d956f0c388cf6f9faa580103c5da1c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry010.json.gz",
+          "bytes": 272989,
+          "sha256": "20532981d5bd93a3340e406e295c2e670676bd99a7cf369c6d0d6162f0aa0b7a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry011.json.gz",
+          "bytes": 273394,
+          "sha256": "969fd22f4fdd405b40fdc3e062412687a2ca7c94ec6c7022d67750fd70b9064b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry012.json.gz",
+          "bytes": 273610,
+          "sha256": "1035cd85eade16a6ee6889acc313109b68c021a21f9cf7c95c8bac8421a5dae3"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry013.json.gz",
+          "bytes": 273420,
+          "sha256": "951a34037202b773231658f0b1445d7e55fd6c09b7fc5ed401f4abdf7a87226c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry014.json.gz",
+          "bytes": 273846,
+          "sha256": "526b208c8e941a88584e149975b837d027df4b4627cceadf6396dae4a6dc1a0f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry015.json.gz",
+          "bytes": 274611,
+          "sha256": "a91e07053e2a4d0be271d8cd99ac502eff714c345517fa2f3b1a84539ae60640"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry016.json.gz",
+          "bytes": 275325,
+          "sha256": "a7c91e68bc67f3fa38887c5839d1a3185d3d84562246d3715ae0e5109377d074"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry017.json.gz",
+          "bytes": 275670,
+          "sha256": "d2a91f94e8b33a5aec0f7cbe9bf2802b7697776907169787199e795961a199d3"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry018.json.gz",
+          "bytes": 275928,
+          "sha256": "39a8a26d363bcdcab21c2acc87e63f80f3771a665963059dbbbeed806de84004"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry019.json.gz",
+          "bytes": 276272,
+          "sha256": "32506cc18f8f292cab73ba8b6e4caf3e4bb021b2efdb479efaaf1f7a4e1a1e35"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry020.json.gz",
+          "bytes": 276439,
+          "sha256": "a45a8a6a2816470f59c121bf864dc5a171273d93de88678b76812a3c61e5645a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry021.json.gz",
+          "bytes": 276536,
+          "sha256": "856b0ded15e10f832295bf2c56310a2465bd620ae030d1c144053f48076d4a57"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry022.json.gz",
+          "bytes": 276782,
+          "sha256": "9a3950804dc90c1ceb3e1d0628600281a05fb0b4d21ff62529b630c057796789"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry023.json.gz",
+          "bytes": 276995,
+          "sha256": "1afe65fe6118a04846f1d68b6cc3914221cc2a12f0a0bf1394dda72026bcbc51"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry024.json.gz",
+          "bytes": 277112,
+          "sha256": "777fe8e509d2ba6c927c545613d9aeff9d51fe4056e830d108d50acd75193a19"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry025.json.gz",
+          "bytes": 277114,
+          "sha256": "589ca25907cc533d3638e855292d3d6b20a0e715cbbfe95cb888bd55d75024e2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry026.json.gz",
+          "bytes": 277264,
+          "sha256": "7c4928a86756ca39435352e619e4f5fce1abb2edb5d28dba390d843278c5560b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry027.json.gz",
+          "bytes": 277482,
+          "sha256": "931cec36292eb265ed9565bcbd66fb8604ec410b0b01c0ddd1b347dd98081c35"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry028.json.gz",
+          "bytes": 277323,
+          "sha256": "03e98e709bf849185ed92549569ea345bb8d2f8df2f237db377eec5b8fe6dacf"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry029.json.gz",
+          "bytes": 277516,
+          "sha256": "38839269a3fa4510674ba82a61ca0e061ed489106fe192c18c4047ff17eb36f9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry030.json.gz",
+          "bytes": 277583,
+          "sha256": "91c9cd074b1529dff342d9cd5394469e4e2eb903a5840e96655110a72c553017"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry031.json.gz",
+          "bytes": 277560,
+          "sha256": "55f5c356e54da48ff7517ecda7cee92995b62e1e2ec6343bb048f8ab6149ff3a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry032.json.gz",
+          "bytes": 278526,
+          "sha256": "89f2b93cd106f2e285feb080c55af7c0eb5693bd51c77a645fcd80e3f29cbf53"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry033.json.gz",
+          "bytes": 280558,
+          "sha256": "089613b63585159cea86424f77c462b5ee20f79255300e4c232f4a4fadd03258"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry034.json.gz",
+          "bytes": 280458,
+          "sha256": "d3e1e3497a271a03980e048f51b50836c9bab29e4893c96018f8cd5034f663bb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry035.json.gz",
+          "bytes": 280691,
+          "sha256": "8d66f87b7a5b5f28ea06599d1ba4185d8341469344bfddc45c9f15cd13c8c8ea"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry036.json.gz",
+          "bytes": 280715,
+          "sha256": "8f33df9ba7ffbeb90e8ad5edb77c4701311ddc125ba2458470ceb04d9ec4a151"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry037.json.gz",
+          "bytes": 280771,
+          "sha256": "3decaeb19daea9c9594fbd49b66353fbfc4febbdfd2e0a56c2b97d9a40eed4d9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry038.json.gz",
+          "bytes": 280754,
+          "sha256": "964869a2cdeadedcf0e114aa6a4824273552ee97fb3289312fd95eef14f96b74"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry039.json.gz",
+          "bytes": 280481,
+          "sha256": "af6a24ec81a88f7ebd3b3e494ad5fba1b59528db2f567628640f5ea18c538e8d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry040.json.gz",
+          "bytes": 280641,
+          "sha256": "6b466b75ea03b67c4a75d42e3e7ed85a2dc9ae295b097478969182e6729de00a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry041.json.gz",
+          "bytes": 280563,
+          "sha256": "5c5989f838c1852d0250e43fcde6902a518c56a40a85640e07921de97039eabd"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry042.json.gz",
+          "bytes": 280311,
+          "sha256": "3693abaf975dd1bd3a89167a239749b8c7a53a49ee6467f9691d63230fe2e75c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry043.json.gz",
+          "bytes": 280405,
+          "sha256": "bdd2490a75dad4a3d14daa6fe2e1a77966a92557ae1f9ee35b2b9b5942b838af"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry044.json.gz",
+          "bytes": 280220,
+          "sha256": "5d7e9d773e4370430ed9a3b76dc4ed9daa67265ce35cd9e682675777a8f54f5d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry045.json.gz",
+          "bytes": 280074,
+          "sha256": "109b6d15e09e382c04f10cde84d33ac1ade09951dd13bd97eaa930977f426efe"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry046.json.gz",
+          "bytes": 280252,
+          "sha256": "22644f007d5932319c2736df2884a0cf0efc1e53cc4330f6ca4aa1ee32288957"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry047.json.gz",
+          "bytes": 280365,
+          "sha256": "798793725507c829f9977c9e53e8bc442931582e5ecad6b939c432024186920c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry048.json.gz",
+          "bytes": 281598,
+          "sha256": "8b151c8e153c71c2086c01c1986b455a50b6c16f3307661287a3e904d2661ee9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry049.json.gz",
+          "bytes": 281990,
+          "sha256": "107c2922a92af230d3602a27b275c66f65276fd579f227c5d40c7080739d2480"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry050.json.gz",
+          "bytes": 282515,
+          "sha256": "4279c3af2a63d669ca98ff310a0ced0518ee1675866c31212ecbc96298952cd8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry051.json.gz",
+          "bytes": 283126,
+          "sha256": "3be07efe61d61a5a48f1901a3600a6df1a4245d37588635ee023965f1391b8e9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry052.json.gz",
+          "bytes": 283096,
+          "sha256": "6b9c78f470ac388a9effbf17216fecf8e7bb14ee704995df6fb80f86f26e97df"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry053.json.gz",
+          "bytes": 283352,
+          "sha256": "360c8d7ca392f4504cef960325b9787bfc5db37be9a6380abf3e47393aeecf2b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry054.json.gz",
+          "bytes": 283779,
+          "sha256": "dd7fcca6e376d95749ede0e7d69bb768ae030c1c8de06825d57e0ba6188807d9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry055.json.gz",
+          "bytes": 283700,
+          "sha256": "46c6d85d039790ed0e8e618c29f845d6698854c753e0d3176b36c57a6799da6d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment3-geometry056.json.gz",
+          "bytes": 252639,
+          "sha256": "93903fbed24df2568e763c8dc581f7c68026a255296d43db10f8e938f57b5ce5"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment4-geometry000.json.gz",
+          "bytes": 139366,
+          "sha256": "edc1a6de48ca455e9e5c0173e4926161076a2e639f73e5bf505e99167b85b336"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry000.json.gz",
+          "bytes": 249072,
+          "sha256": "f5975f5cefdc6e2b7b89a998d6271849b4cf8846518e8c7a45e9919572708b2a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry001.json.gz",
+          "bytes": 258438,
+          "sha256": "f78d754d3e1be6a0a81f095725a22847a9b78f9cf8d3b82d41b73285dd280762"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry002.json.gz",
+          "bytes": 260218,
+          "sha256": "0b5708b98059a015d3e4d1f798ff4194b162e010347d0a25d55218386f64d1e8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry003.json.gz",
+          "bytes": 263846,
+          "sha256": "e78f9b75b10f7a9205290c69e789597be171325523e122462ab9691469378c46"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry004.json.gz",
+          "bytes": 266282,
+          "sha256": "a8991d7ec757fd895c49f37f3af2a8f13dd2e0d383d6b94287cf74aeb50034ed"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry005.json.gz",
+          "bytes": 267912,
+          "sha256": "9ae1ce9d53d1e0101c2ff05a1c8452d526b582b1566a44ec77c4f2f6144853e3"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry006.json.gz",
+          "bytes": 269129,
+          "sha256": "3be94da9865a268246c5d8ff908f0691f578e2d9f4eaf8c07f1c98dd2e07d9fe"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry007.json.gz",
+          "bytes": 269998,
+          "sha256": "daf175d58c083b6977865982513a0cd055f15ca6aacc041941740de885c0998e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry008.json.gz",
+          "bytes": 270917,
+          "sha256": "46ef367e5c3df88b3ac68fd838e983e28c39692d8fddde32dddb8ffb40691bd4"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry009.json.gz",
+          "bytes": 271677,
+          "sha256": "086623d78b7e350e89be57408621975cd8c116ccab34ac487cf2234819c74a61"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry010.json.gz",
+          "bytes": 272218,
+          "sha256": "2c84229133e88ad383adf71bd3504dbe9c99ee61bb8fa46c083e9d2add77ac96"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry011.json.gz",
+          "bytes": 272819,
+          "sha256": "570ada7cd2668d6deb3a48ef38398467e9dda31eee2a3d95ec29d2a1f92cfee2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry012.json.gz",
+          "bytes": 273426,
+          "sha256": "841241a59594cc73b78fe80f42d3d6948241a328656df1e34041ed36a9ec3d28"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry013.json.gz",
+          "bytes": 273981,
+          "sha256": "6051bfc33e0ca0f44b890c33003573a98beff7ec216c8d626cf6fc6c1ff2c2bd"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry014.json.gz",
+          "bytes": 274276,
+          "sha256": "e1e1a08af808619a24c2293de75b9ae4f25aa50aaa9c6d42a5370c4ed5251b30"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry015.json.gz",
+          "bytes": 274731,
+          "sha256": "e77d68e91ab335ec3126774ba2ad973657b43226ba0ec0d9e6d769a3a84209f1"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry016.json.gz",
+          "bytes": 275150,
+          "sha256": "3cf553b863c3123a9303d88c9263ea52906a643f38716b649ca0961e86ad77f2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry017.json.gz",
+          "bytes": 275543,
+          "sha256": "eb25e1ea9a93d8a2ac1f50d718fa3b3a814f70bae33b14e11cb7d18e673db461"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry018.json.gz",
+          "bytes": 275882,
+          "sha256": "2d489f22658215e024997451f627816e6268ef365d5265809f153d475da474a8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry019.json.gz",
+          "bytes": 276247,
+          "sha256": "6368aa667f5287b708c4e9a6d0d268c93ed28521acb0fa0674018237215b81f4"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry020.json.gz",
+          "bytes": 276593,
+          "sha256": "b4db83f3d6d93dde23d29dbf71e0e37de3ff870da5ab4b5ff2d8629b1df2f334"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry021.json.gz",
+          "bytes": 276556,
+          "sha256": "6fa1dde7e1843806a7d5fda2d3f9af8602fb6a16cec4df7e70a05042978c36be"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry022.json.gz",
+          "bytes": 276846,
+          "sha256": "663f72d649ff5ba21c908e2bfac0e1098065fc3bd2448fadac51adbc4eadafb8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry023.json.gz",
+          "bytes": 277206,
+          "sha256": "73e99fb25b4ed1dbe38afc30f0c126819744c564251547b56126e5f116e93c0b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry024.json.gz",
+          "bytes": 277272,
+          "sha256": "82545d5054505069c076948c29d39234b074cb311fcc7422c02897ffa806faa7"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry025.json.gz",
+          "bytes": 277599,
+          "sha256": "e81ff762293b8ba26931f6e60c177c96be461b66707560fa5c84e327069ee369"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry026.json.gz",
+          "bytes": 277838,
+          "sha256": "11899bb5bfb0535c8bccf140606d72e8f8bb58f23a55f63f76ef17e897280a88"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry027.json.gz",
+          "bytes": 277776,
+          "sha256": "9a36c446b6e549304883a8b04e8051ec576fb8d87528010afb6c567f4a00f729"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry028.json.gz",
+          "bytes": 278489,
+          "sha256": "2668a0a10a10ca9e98ffde8f8fa4a26c021391de47bd6b722f9076276abc1b01"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry029.json.gz",
+          "bytes": 280227,
+          "sha256": "6a1c83156e45f42dc0e5eb913c8172d9e4ccfae884865a36ae71dc905b23839d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry030.json.gz",
+          "bytes": 280528,
+          "sha256": "bef9f940e2bcf9ef4a758f070f81c617b4f06eaaa61c5aa23951858acbf44b5b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry031.json.gz",
+          "bytes": 280789,
+          "sha256": "b69f39584b8843eeb4a1d94f3b65f85fb64036c96ef9d0a6d0eb501c7d19f403"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry032.json.gz",
+          "bytes": 280947,
+          "sha256": "2ab071bbe8847da9cbf1e028b31b5a5530cf42f227c1c6147a482d331189ac31"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry033.json.gz",
+          "bytes": 281135,
+          "sha256": "8be625635acca66a42287f36923b02d9b19f039b6debbf4b7b0110bca9fc396a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry034.json.gz",
+          "bytes": 281253,
+          "sha256": "3016aebaba11d283c38119075cb04f62b107b6dbdbbc233bdd3d109e1b059454"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry035.json.gz",
+          "bytes": 281557,
+          "sha256": "8dcff812000418bbd8045d3b9896b44c5d0c0a98001f01ab89a2358a09d7aea5"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry036.json.gz",
+          "bytes": 282033,
+          "sha256": "79e1953addd9229edc487aebfdd19105f81d3cebc08d167a640e86e9a747e75f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry037.json.gz",
+          "bytes": 281765,
+          "sha256": "56034cded2d9243c44e6a42023b754c1f4245d2baba8b0ac171ee5093ce737ee"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry038.json.gz",
+          "bytes": 281876,
+          "sha256": "172df4773a39557b2e8f21ecd2962125238658c8ba87e73e8ebbc4bbd005a7e6"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry039.json.gz",
+          "bytes": 281777,
+          "sha256": "d4fc37872f81551923ae802e34e1c0b6555c4f7e4bec83e5c560174560c35eba"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry040.json.gz",
+          "bytes": 281365,
+          "sha256": "ba774472901d41a82fe326430a676e7991f1901b5aa61db5b1e9f16da5e453de"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry041.json.gz",
+          "bytes": 281386,
+          "sha256": "40680a9f22d71a22399766f10e7a9aa06d98201f851bb05c2daec39fdfbf4063"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry042.json.gz",
+          "bytes": 280975,
+          "sha256": "80e84c4112736442383f7cdacfb254c5c8072dff25bc6bfde73e249c405ae355"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry043.json.gz",
+          "bytes": 280711,
+          "sha256": "1b42803422e87d3f50476c7da117bbc8b451bfd8f2b8a90cc215b7725a5e0ea9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry044.json.gz",
+          "bytes": 280488,
+          "sha256": "06fa89562935e375537a0ee8d6942f7d9ca19948264ea600b7d2c08d19783984"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry045.json.gz",
+          "bytes": 281585,
+          "sha256": "b44e6d19b0d5f03b3ba3fd8c8a39e4ee9dc4c3ba4b5c0bfa49734c91cf188426"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry046.json.gz",
+          "bytes": 281959,
+          "sha256": "706c0e75f4724fdc5570fa2415b610fc99e261b341100a205dd7936a1c13d85b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry047.json.gz",
+          "bytes": 282466,
+          "sha256": "1bb59c00192fd7f0ff8700f74093c3ac3ce64580930948626a7f5265778e4b91"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry048.json.gz",
+          "bytes": 282581,
+          "sha256": "6ee20d267c82beeb20bae6c7fa44cd97d2e8eba1b0d0cda5e4a7a9ccf702f5e0"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry049.json.gz",
+          "bytes": 282460,
+          "sha256": "494c677d7f5be79cce7c788fd38a9cb269e1b7c564cfe46ab2a22e232e592cbf"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry050.json.gz",
+          "bytes": 283302,
+          "sha256": "68e848ac5a9b5392bcd453e13cd80c71be1e44e16f4222b0527cf98576631bda"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry051.json.gz",
+          "bytes": 283933,
+          "sha256": "0972000af4fd8b93d299cc3c7faafce19f5a7fb6c93ce810720c17d867cccaf2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry052.json.gz",
+          "bytes": 284353,
+          "sha256": "8b90d1f82bd2419bd76997474a8de00551ff424fad7d1ae83782795907aaba10"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment5-geometry053.json.gz",
+          "bytes": 162429,
+          "sha256": "663321daa0ba63b7976e4652b5198c3155a88a7eb51c31d277ee9f7c52cbef59"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment6-geometry000.json.gz",
+          "bytes": 138334,
+          "sha256": "18f0ff4a689a840f45c24248d54a83642fdacb225eb5610deec05a9e80516e28"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry000.json.gz",
+          "bytes": 252715,
+          "sha256": "e896fe411252f34b08b050f580bbf70494b8fd959b0cd76fbca4f8392d818843"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry001.json.gz",
+          "bytes": 260793,
+          "sha256": "fbcc74507923377bc4e9504b3b9725e14b7374ac9cc45a823e5b4c3886ac542b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry002.json.gz",
+          "bytes": 263550,
+          "sha256": "63a74322ad578b94f2a419bee51b2ed1dcdd670d67339fd080c2bc0d26beceee"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry003.json.gz",
+          "bytes": 264949,
+          "sha256": "83ee45efeddf9c096848fb4c89d5c7965448b75e059c120e70d196f5716c293b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry004.json.gz",
+          "bytes": 266274,
+          "sha256": "4d6536d5dbcfa718a91ca5156d021086d16fa31df70fb160990367aaffea3c4a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry005.json.gz",
+          "bytes": 267689,
+          "sha256": "f6ae2c542c8dadf58367264d2393d9443d16f4a0a08c8722af670921a630b85a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry006.json.gz",
+          "bytes": 268506,
+          "sha256": "600aea28d652803da3bb3ed918ed0678a19f9cb8c484a794bd7bb0bf09408c84"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry007.json.gz",
+          "bytes": 269679,
+          "sha256": "7b67a1ff5ac744c538684db9f89ebfccd01affb75a0e4ce5f7ccfa68e2a2ff9f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry008.json.gz",
+          "bytes": 270374,
+          "sha256": "1ebfe218b7a171331451cea74df90686562b12e9e34072d740e45a82b25675e0"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry009.json.gz",
+          "bytes": 271391,
+          "sha256": "e5cb5a0e0acf6bffa907d2f0ddd57b3c1dc533bcb643b0764e97a90d88ce3373"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry010.json.gz",
+          "bytes": 273431,
+          "sha256": "12e618135ffb7e81c6dfe9952ad89d081cfb7eb6bd564a8f381c830705504dd3"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry011.json.gz",
+          "bytes": 274200,
+          "sha256": "12ff97203086b0cbcfd314f3c314e3bde17bff10122445c1c46f9686c9f6c3dd"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry012.json.gz",
+          "bytes": 274717,
+          "sha256": "bf1899b6ac1fad7a27d834b69b69171186c6fe07b39e32905410efed3383c402"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry013.json.gz",
+          "bytes": 275345,
+          "sha256": "8f63fb2e676f71cbce51c9578963d76f1504ffd77096380b4420ec137be1a561"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry014.json.gz",
+          "bytes": 276017,
+          "sha256": "ec347e009684a81dc25b710e82f46a6395ecb7253091689f0e5d1efb636f2cc4"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry015.json.gz",
+          "bytes": 276291,
+          "sha256": "6ce571c6f03140d7421479ea780461d23247af5cbfec669f298c2ce720e78f28"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry016.json.gz",
+          "bytes": 276633,
+          "sha256": "e7d18ba6c81e56061e2b0b7434f19c548aef0cdb9a1d3af3777b991519d9b8f8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry017.json.gz",
+          "bytes": 277267,
+          "sha256": "976c7fe8a24465cd31e02755cd099f1d9e3916e3e6532afb4e09f1cb0e904acb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry018.json.gz",
+          "bytes": 279071,
+          "sha256": "8039dd8f2eafe6f3f90e6ddb47a102e2eeab0ecfdc5f84df994757bb37f7e799"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry019.json.gz",
+          "bytes": 280496,
+          "sha256": "4c0ee1fa5f23097c60bf21550f39b9961e5e58312d825d8484eb05e6d2b295c4"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry020.json.gz",
+          "bytes": 281998,
+          "sha256": "443732450f05055d0e76ad7d7e4162519fcd74f90774c68b85f0a8bd46fba3b8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry021.json.gz",
+          "bytes": 282947,
+          "sha256": "fa85342edab91892ce0145e0bc15dadb1d4e50bae989f43590593ef2f6a9752d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry022.json.gz",
+          "bytes": 282553,
+          "sha256": "fa625059d256e332ac6d21180efba31fe1a35576787d07627836bdfbfa1c3680"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment7-geometry023.json.gz",
+          "bytes": 120836,
+          "sha256": "7122e7d82a8ae03bddd17304656c92be88294103a00f201bdd1c36003aa5aa0b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell010-segment8-geometry000.json.gz",
+          "bytes": 7724,
+          "sha256": "5a0533a992b990182a78caddf5736d9bb5110291a4c6b1391aa37865b0bf241e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment0-geometry000.json.gz",
+          "bytes": 9991,
+          "sha256": "02927f9570fede1e8acfe7bbed53cc10e193bb8ee0d517c81c048350b733e9d8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry000.json.gz",
+          "bytes": 246644,
+          "sha256": "4267e0ea169bd4387f52f75f423468c1c5618cda6166d22b2261eefe17ae3f88"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry001.json.gz",
+          "bytes": 257246,
+          "sha256": "3f8986640a67f74fba263cdb752bbf07a84470e0406e145dce9a342e6c1bd096"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry002.json.gz",
+          "bytes": 260780,
+          "sha256": "86702e9d471df399fd9004826f1b9c51353e3c68e092a9411a2cbaf1f4893804"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry003.json.gz",
+          "bytes": 263893,
+          "sha256": "1f188199dea9655b9d0fbd9fec86340cadd07df138b436ca247600049e78b793"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry004.json.gz",
+          "bytes": 268336,
+          "sha256": "c523bcada1e145b6220c7621b24626704a97111d048f5e1aef1750f156521645"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry005.json.gz",
+          "bytes": 270090,
+          "sha256": "5d4154c0b6ddbdbcaebc0cf93b125748dfb1b04979edc498b8a511c8ce8700c8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry006.json.gz",
+          "bytes": 271749,
+          "sha256": "e075f1fca14b5692bf51b998e5d7b4f66ffe9469d0a3ec1a923167c20d83d4f8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry007.json.gz",
+          "bytes": 273072,
+          "sha256": "42a7f219c26dc592fc916bfe17e2d75ca3aa935cb2a2676a0dbc65a406cdff33"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry008.json.gz",
+          "bytes": 274217,
+          "sha256": "4a29952da325d679ef84325a15953cbe3f9baf28f8028ea42e2787624c7c4896"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry009.json.gz",
+          "bytes": 274840,
+          "sha256": "06c1463af794e8507fe558d7dc4a6fe1e8965f9cbd6bc55906f30548d0e182e2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry010.json.gz",
+          "bytes": 275263,
+          "sha256": "296ab1f3705f53a3609bb4a5176c2c79624a54df8d56d2130890b0ae27a9d68e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry011.json.gz",
+          "bytes": 275768,
+          "sha256": "5ded598031b753584b2e2b172514144741ff7b51d5c0c7e5fda546a7ea73ade5"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry012.json.gz",
+          "bytes": 275921,
+          "sha256": "2747070b3305394e9fc9d17898aae28932fb542d656cf57674ddb1beb41517e1"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry013.json.gz",
+          "bytes": 276439,
+          "sha256": "819292ce7edebcd3697ca26ae941a478a4f162a75715e9e3098fd33e01aac17b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry014.json.gz",
+          "bytes": 276710,
+          "sha256": "2b96fa85a9d147d57ad7e987bd0580bb24b5b8cae06eda862680e799dadd1481"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry015.json.gz",
+          "bytes": 277155,
+          "sha256": "13195fe7ca69fa0cfb1de4e794d11569c033f34fa6a546895017d95cac994216"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry016.json.gz",
+          "bytes": 277581,
+          "sha256": "402a98efa9896d1ecb6e19889615d692ad8176797266cdb0aaef21f38c94b48f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry017.json.gz",
+          "bytes": 277259,
+          "sha256": "971ad5f5f30cb190e9c68dccb928f7873296c22eecc39a5f9c6903f176a6da9e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry018.json.gz",
+          "bytes": 277393,
+          "sha256": "497386797b88f5eea366bd0dafff3e9af922e33b600975c2db53606c1ddfc07d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry019.json.gz",
+          "bytes": 277514,
+          "sha256": "84de9db5e27a5bff756561a503a52083a63a0ab0998f74b8ac2dd348ace02654"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry020.json.gz",
+          "bytes": 277554,
+          "sha256": "fba75b51bfba4d1f2ba4aa2fd4eb54435f0b7c7a27942aeafa926e313fddd8d2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry021.json.gz",
+          "bytes": 277903,
+          "sha256": "8eada3c7b37109f9787ad492c43bcf809cd4d0493d63025a7eec72b6c4a07fe4"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry022.json.gz",
+          "bytes": 279845,
+          "sha256": "6ba700cb2deff05f911e2d10e5906eb2a867a0e2d5027f7bf03d25201b2aa70f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry023.json.gz",
+          "bytes": 280350,
+          "sha256": "11e98c360097ec64424bed7385159629cc6f8c7db22e8a2ffe195b6ebd8ef561"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry024.json.gz",
+          "bytes": 280487,
+          "sha256": "931bc3f2440db64a87e37467c2d69ef9ce47b3345cbc7eab9906332b2e263d9c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry025.json.gz",
+          "bytes": 280866,
+          "sha256": "9049eef5e3ad8c2e4276dcef4371c8ebc0ef666a64e504603b74965538ba9361"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry026.json.gz",
+          "bytes": 280607,
+          "sha256": "d37dae1b66d5f424a4d46de4ab284599244083decea8c420ac39760432ae4261"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry027.json.gz",
+          "bytes": 280916,
+          "sha256": "4136768fa89c51c74e7224b408f20b557ea3792f9b9d0bcbcb86da5b2ac2a2bd"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry028.json.gz",
+          "bytes": 281186,
+          "sha256": "d6bc8b41ffb9a30811fd7215d97bcb28b0c0f3f608b69f3fc8a022a94bdc79cb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry029.json.gz",
+          "bytes": 282283,
+          "sha256": "a976e4a545091ee7a49f9b3934676d0553ab672d9861a56bfc39feecdd1adfd7"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry030.json.gz",
+          "bytes": 282541,
+          "sha256": "85722d0a41d5cc391c276a7b8ae7d581e7db9760a1e31ee7aee5e73f79b77a5c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry031.json.gz",
+          "bytes": 282716,
+          "sha256": "32c847a7093b1a76c1e3da16dce2a20019bfb865d31ec74afd4911c7e7dedc3b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry032.json.gz",
+          "bytes": 283236,
+          "sha256": "88f249a70faeb981292378aa6b69d75dd187b221f76e7a322cae4581c61ec062"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment1-geometry033.json.gz",
+          "bytes": 47405,
+          "sha256": "91b6031635eb208eea3a290339d4c0f280a51dba22a702e6c3969403b0ebc4b7"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment2-geometry000.json.gz",
+          "bytes": 137466,
+          "sha256": "784149c05cbd03c33b0b3717babd5fbb9c7ad7f3fb81e1d1a4eca235fa27ae66"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry000.json.gz",
+          "bytes": 260141,
+          "sha256": "d0691a08a0e326c1461923969c399f671c41daf81387cee1fbc24098d87ab9c3"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry001.json.gz",
+          "bytes": 264486,
+          "sha256": "9fd3932911587247e9873762a86c331f198287360cafb9d513594fe4deceb1db"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry002.json.gz",
+          "bytes": 267145,
+          "sha256": "a502c42f732d66df439b14525d3b51591ea9da96755a8d79c4f7508e851a2e48"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry003.json.gz",
+          "bytes": 268730,
+          "sha256": "6685631432b1de184d0f2fe4794a4c8251989fb31609ffe0118357e5f53b56bb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry004.json.gz",
+          "bytes": 270207,
+          "sha256": "5a37e2a687f0a8d74e11ffbe67460fb2a07deeaf8a6b69e329b4c1509bc18b0d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry005.json.gz",
+          "bytes": 271064,
+          "sha256": "2478f0b9c73232c621ab47842844d768aaa74189ca9d03d2d523b70f6ccfb384"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry006.json.gz",
+          "bytes": 271721,
+          "sha256": "3141d7d8bc173157707e0ba2d96e27202228a084b56608831d5e2332f58621ea"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry007.json.gz",
+          "bytes": 272116,
+          "sha256": "e9dbfe57e698ab2d23aa9fcb01a6d9ebc75515eb48793f0d534c189eaa811923"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry008.json.gz",
+          "bytes": 272860,
+          "sha256": "c68c066f7d22b45f54655c6f5c598bbff5554fad1148b6f6de55c2e6d66ede06"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry009.json.gz",
+          "bytes": 273067,
+          "sha256": "7057d009ff991d329f74e0caea3600d1d626b474ed5013dc42e5a7dfcadcc109"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry010.json.gz",
+          "bytes": 273581,
+          "sha256": "20534ad4beebaff4ad9e338b446d97fb303aa5af5356bb38a73a49c3ad4906ec"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry011.json.gz",
+          "bytes": 273821,
+          "sha256": "1179702de0a6d97ddbfeded849eea598f585ca5c05849894598912e9cc18e273"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry012.json.gz",
+          "bytes": 274014,
+          "sha256": "aeebe66079f0a4d765082de4fa3e4138dea14c8fd0ac3b3664bc496aadbe76b9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry013.json.gz",
+          "bytes": 274024,
+          "sha256": "45d95caf717303e76a0f9c4ad68d3c2ba7a4fe77d02dff8054b8fbf0fd96bb16"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry014.json.gz",
+          "bytes": 274760,
+          "sha256": "560b0325f1e13a1ce4541a35fda551494c5f8ec7e3acabea878faf908dc2cdbd"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry015.json.gz",
+          "bytes": 275554,
+          "sha256": "3654e9c1b49767359bb7a2f51ef04f6271d06c596e1fde2e3d1042d6792a15a0"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry016.json.gz",
+          "bytes": 276029,
+          "sha256": "474e6a104346ce916d181e8875456b36dd5a51194d772951c0a4da1f11dd47e9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry017.json.gz",
+          "bytes": 276214,
+          "sha256": "486c0e2984ec3c785e680492a57b10ccb4882f72a9bcfb435e6dea6fc50d807a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry018.json.gz",
+          "bytes": 276615,
+          "sha256": "c8b951134df8e8873dfe11b1e558cd8db19900a73422215ee90fa0712f357350"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry019.json.gz",
+          "bytes": 276976,
+          "sha256": "bb584fb58fe022a955b0e45d42a0cc2948cb528578d78fcdf4c454bc6207a4b5"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry020.json.gz",
+          "bytes": 277301,
+          "sha256": "108846d2f76d2c065a44fc3aac84e140df9c2cb2132492620ea07cb759277338"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry021.json.gz",
+          "bytes": 277435,
+          "sha256": "843ccc3fde5e4921ffe5f0e345ab648a728f0a2539dfa8181f7cd781d3f4fd25"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry022.json.gz",
+          "bytes": 277472,
+          "sha256": "9263650911ed58da931cdfc2741256d8e476b7b7b39868691876fda9b1d0772c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry023.json.gz",
+          "bytes": 277863,
+          "sha256": "c7dcbe5578183fc91c1ce74af1237d2f4bb100afe4147477b1e61e455a9b03cb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry024.json.gz",
+          "bytes": 278132,
+          "sha256": "bd62f7a15cc7934d00b9d500a437fde329422a5a79e74245ac4ab491681a75dc"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry025.json.gz",
+          "bytes": 278232,
+          "sha256": "682abe442e98985ec683412e08c4892ca7bdc1c7f1c5b5320d8e333cbb5dc5e4"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry026.json.gz",
+          "bytes": 278245,
+          "sha256": "ba4754334e7968d81bb785a7342f9375db14ac7b44106f726e7e03c8e48a2dc8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry027.json.gz",
+          "bytes": 278169,
+          "sha256": "2df07780d160baf72cf13c904e04d19a627ebeefb58154c9ba36a236fadaa6b6"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry028.json.gz",
+          "bytes": 278410,
+          "sha256": "4cb4150a1bfd8c2512b9a90dbc355e2bd76bb47f069c13217272b6f9592cde6e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry029.json.gz",
+          "bytes": 278298,
+          "sha256": "48be5ab384ccfc752bb3f69c9680c30d49a7d81c86862340607a3fb8e13a51d1"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry030.json.gz",
+          "bytes": 278648,
+          "sha256": "fdefe726ff418d16415bd56b01e0e16f8ee3ee27fd9b017bbd67c6356dda40eb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry031.json.gz",
+          "bytes": 278390,
+          "sha256": "7ea3cdb7ca3b9c8f527e0f751ba2726b1149026612dae72d6b923325071ce888"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry032.json.gz",
+          "bytes": 278466,
+          "sha256": "a52e281b0dad7c0b7b0fe391c2d6c23676f8df998c9dd18c6a9ef924e25454ee"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry033.json.gz",
+          "bytes": 278329,
+          "sha256": "bbe18ac5072ac095a33156c2a9ff96b04da239cc62f1b03e6c7d88cc6245eb9a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry034.json.gz",
+          "bytes": 278382,
+          "sha256": "fdb9836729ea0dbd3db679759bcdcdbd20f10bc54b4f0255d94b8169a3f3fa8f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry035.json.gz",
+          "bytes": 278379,
+          "sha256": "26a4858c73189f3816fa91dcf75852dc56f17fac717c3da9367204afa056beb5"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry036.json.gz",
+          "bytes": 281148,
+          "sha256": "248c14642ee46020afbd699ddfa364830263495f749a5614b9ec9d1c62f8c65a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry037.json.gz",
+          "bytes": 281297,
+          "sha256": "f869f3618a64c817562c23753237c93b0408df51bd13f4e947040b33d11ea3fd"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry038.json.gz",
+          "bytes": 281344,
+          "sha256": "ff7018cd0b4f23ace1015d07733a67096d62e04dbd202dca56539ca9288769f0"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry039.json.gz",
+          "bytes": 281400,
+          "sha256": "d10922de252edf55490dca39587c7a03a2bcfe7a7e5cbf03391a9d82f0ee626d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry040.json.gz",
+          "bytes": 281321,
+          "sha256": "502cdc5e8d9bec3e783445ae708d8bfe4adf0c0ab2a06bd7b834865feb442158"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry041.json.gz",
+          "bytes": 281216,
+          "sha256": "ba5a754bd991186b2376da13807b89d6fa2e50f74a1ad8c3ee8674d8a0cad27f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry042.json.gz",
+          "bytes": 281126,
+          "sha256": "88d966778fb986ce75dfcffed2bcb493f3446b3808fe1d9b4a86522f0e83a107"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry043.json.gz",
+          "bytes": 281112,
+          "sha256": "1ab717d57220ae0c83252be694c9ae0fabeec426e05b0d0596e354aca5b2e8a4"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry044.json.gz",
+          "bytes": 280840,
+          "sha256": "d6d552e3d4e78877b9985029296b8fa2740d3c3fcd77a2e4fe4a99c6be651657"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry045.json.gz",
+          "bytes": 280752,
+          "sha256": "dcb736405f46263b0910cb222eef4f1953527b035d1280fb83b7938aeef4c92e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry046.json.gz",
+          "bytes": 280756,
+          "sha256": "33cc27b892f3829e0bf00858a938d8f543624be9fcf5d5c64000a2a6194bc925"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry047.json.gz",
+          "bytes": 280737,
+          "sha256": "ca3817ce02c33380fbdf0a1b8e0ca610ea666885d00ee272806f6d6e04effd56"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry048.json.gz",
+          "bytes": 281207,
+          "sha256": "e0b045dad218abc790611daec966e1f2261d08e5f5529a4c7b2cea0cc2a0d9ce"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry049.json.gz",
+          "bytes": 281216,
+          "sha256": "628db275bbc73a42355697d9a5e910925c305b03a00645155f171dc0f8dcd9fc"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry050.json.gz",
+          "bytes": 281387,
+          "sha256": "d89e74bf3a121578297a61091b1b86a3102a3becd0fd41692d08fb77698549a6"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry051.json.gz",
+          "bytes": 283163,
+          "sha256": "3c09e650ea0365826994d596ed2947766b25a60f9af511a0c3e79a1e90809085"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry052.json.gz",
+          "bytes": 283873,
+          "sha256": "87312fbef8f72cc51f7afe86e7c8a34d27dd3d52fe118e461a1ba4bc94a9f066"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry053.json.gz",
+          "bytes": 284363,
+          "sha256": "cabc67077748bcf255cf14ab3af2ae708811e4faddd7e1cd21aee5c2c0d61c17"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry054.json.gz",
+          "bytes": 284333,
+          "sha256": "7cc9b17bb926af479497169ea6e112ecac616312cf3e523c4fdccd9465b69b25"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry055.json.gz",
+          "bytes": 283888,
+          "sha256": "990cd52f2c090af72c26f3eb0fb0fdaa1e7e5eb8a87094f73c33a758c573c240"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry056.json.gz",
+          "bytes": 284173,
+          "sha256": "7085dcf0ff1cdd86f38e340d15dcd0d5842a7ec5cd391442c8edc3aea273bfa2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry057.json.gz",
+          "bytes": 283275,
+          "sha256": "8da3c68408904cd83421954f5010792f4bfbd74dfdaaf233a01906aaa0df21c0"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry058.json.gz",
+          "bytes": 282795,
+          "sha256": "5f423137cefa07523b40b6c63927b9b5f39fec5af9abdd020857808cec8c8773"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment3-geometry059.json.gz",
+          "bytes": 87019,
+          "sha256": "f6146626faf80877395f772ad5c7bba5bddb1523c5c5667f5bfa28a793e87a67"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment4-geometry000.json.gz",
+          "bytes": 138920,
+          "sha256": "eff26fa53209c4af215c6ba147ea6f1212a29acc2f6528ab7661002777840d1c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry000.json.gz",
+          "bytes": 248829,
+          "sha256": "1032d9071e70728d0838151a3bf8d38d03288c064a4d9465882c10e2dcb9bb09"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry001.json.gz",
+          "bytes": 258382,
+          "sha256": "e6629f611a981bd4edaf1b1c5b7060301a4d78c98119c4837cbf82bb4073bf81"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry002.json.gz",
+          "bytes": 259472,
+          "sha256": "1cf05fca1921ab4a863341ad34dd526432b8527de4d7a5989b43fe111082f687"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry003.json.gz",
+          "bytes": 263358,
+          "sha256": "d0dcacd8e0e773dfb52422f57931a0ce320d929ba356575544d163c01af6eb96"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry004.json.gz",
+          "bytes": 266149,
+          "sha256": "8972e4f9bcc45cfc21c687b9b6c04f2d2df4e0f1d4a33ba84aed4bd7afcc4fff"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry005.json.gz",
+          "bytes": 267599,
+          "sha256": "32595a3db10625d22a4159736fdfe377ae2423664743932310ac6db4f57556cc"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry006.json.gz",
+          "bytes": 268796,
+          "sha256": "d6a384083b3faef2357819f68051c5098928416a025242a749cd5d266e7295dd"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry007.json.gz",
+          "bytes": 269740,
+          "sha256": "6cada7019bfb60e89b82b54d175600a53998b614ee6a8d8db088d4d717a2010f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry008.json.gz",
+          "bytes": 270345,
+          "sha256": "3089e9f6e07d66940ec895415d5d8ef11cd3c0cb9b86951295929519a910df96"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry009.json.gz",
+          "bytes": 271182,
+          "sha256": "6f55beae2efff8ebb1a10461f19a8e3060f5a5ce1e11fb31d634d13506a0c529"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry010.json.gz",
+          "bytes": 271851,
+          "sha256": "018006f6be21b9df3d35ce691a47b1faea15b5729541cc9c83c4540d16553ea2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry011.json.gz",
+          "bytes": 272420,
+          "sha256": "51879ae48485d30756ba740a2b87907bbcdff3bb89e635150a6bfab191cd8d64"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry012.json.gz",
+          "bytes": 273022,
+          "sha256": "8ddaa5735de083908ff0cf861c1f7bba7ddbf693251f6af3da56ac0b956b85cb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry013.json.gz",
+          "bytes": 273691,
+          "sha256": "43e1a94584892a439c5e5faa6b320759e9ba71f4a94e55781d64988694c952dc"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry014.json.gz",
+          "bytes": 274337,
+          "sha256": "39b90ae1dd11d5e12c87d8189bbfa2c549dd1cd13d031006a4337c73de283f26"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry015.json.gz",
+          "bytes": 274821,
+          "sha256": "a80d2565ac6481c22689f3da74ee70adce1182af64dc9d342bbe84f9330ca17f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry016.json.gz",
+          "bytes": 275030,
+          "sha256": "569de4f98690058f3cb3b24fa0cf8a194b7732be9c8ad1709f7d70dea4c6e038"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry017.json.gz",
+          "bytes": 275428,
+          "sha256": "798dc4d53e0aba1a5ec58f0123b7173d87680a9fcaac454456783155ce969206"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry018.json.gz",
+          "bytes": 275812,
+          "sha256": "3fbd3ff342ef309688bbe0e3ee5f2050d667fb017bdba379f085627277b5638f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry019.json.gz",
+          "bytes": 275843,
+          "sha256": "f340429d83ee29fe3f002da73aebf41a37a3fd0c7f5d5590cdfe9e8ccce40163"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry020.json.gz",
+          "bytes": 276326,
+          "sha256": "b36423c03150f17fb3a564c46109f476cabf18e7cea10876a57ab3f315ee3b7a"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry021.json.gz",
+          "bytes": 276502,
+          "sha256": "32dfbd02d118afc8bf96eaa028b47ffce4664322296d3079a971dcbb907d44d2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry022.json.gz",
+          "bytes": 276706,
+          "sha256": "9c55e944a8f669bff44496aae6e1335705c5fd4ecbc12e0ea6d17c5211000174"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry023.json.gz",
+          "bytes": 276909,
+          "sha256": "2bce9401fef5452693189a2f0499de22c102a5bf45e9d063a02725d9627464a1"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry024.json.gz",
+          "bytes": 277111,
+          "sha256": "02529770490f82392a06aa42a5f7b20b37a8d1e0427b24c29b689ddf50f225ad"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry025.json.gz",
+          "bytes": 277226,
+          "sha256": "a8886c10c38a5f250c3b617b1e687ce1eae697c6607a15c188d6912b39661c9d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry026.json.gz",
+          "bytes": 277417,
+          "sha256": "e45265d76ca13840a9753590ac90e8fb3768cc92bfdeee0ed3e1d6d4929ef53b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry027.json.gz",
+          "bytes": 277581,
+          "sha256": "96bb3264259d663b8d11689f7ac8cf0cdb78ea8ec10434548bee979805caf4eb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry028.json.gz",
+          "bytes": 277768,
+          "sha256": "2d1568c5db2b6247043f5860f3d388d18754db8ab2c9be4d726961c9e971397f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry029.json.gz",
+          "bytes": 277881,
+          "sha256": "4d055960a9a71ff5b72074c7352d1b0e90bca42fc6af79d1b48be718400ea5ff"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry030.json.gz",
+          "bytes": 278072,
+          "sha256": "297f02570fdad5c6b86eadd30b0e142ba7a8bebf0e079d665d20ffabffe1985d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry031.json.gz",
+          "bytes": 279115,
+          "sha256": "5f08e49bc869b247a162a2da2804291b3625b4dcc6fc27fd1958b1a6c3954373"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry032.json.gz",
+          "bytes": 280461,
+          "sha256": "6ebcb5db9b6906a3bc4a97ad83752a12a2eb9ec0ef4cb23b23eaab624d2f7f32"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry033.json.gz",
+          "bytes": 280599,
+          "sha256": "cc5302ae65f1f91766c4662e5d86fcd38c870fc1232ffbeb2e5cd184b8ebdede"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry034.json.gz",
+          "bytes": 280838,
+          "sha256": "2d7feba9fcfee8455007f6246cae7dd9d6b0e4feb38a456d38d66e7e59727591"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry035.json.gz",
+          "bytes": 281226,
+          "sha256": "ecb948a05f89818ca353ef048ce562be39fec451febfd659cddb80fa7e8b58c3"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry036.json.gz",
+          "bytes": 281244,
+          "sha256": "eb6c286186ae8b74938bc7c42aa494cc7787bd86b23217c80dde7e5aec965fac"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry037.json.gz",
+          "bytes": 281660,
+          "sha256": "a15c5cf2bb3258fc79ef873cf89c6a2812e6bf9b609bd584e130e2cdbc077212"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry038.json.gz",
+          "bytes": 281995,
+          "sha256": "44a393621423c5c4c1bc811b3dd2d1464cfe32526c9730f0c67c58e14f7389ce"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry039.json.gz",
+          "bytes": 281977,
+          "sha256": "7a8854ca242ef6cd9e1830fbd64e19b885643b0f521366811b172d932c85c29b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry040.json.gz",
+          "bytes": 282333,
+          "sha256": "0e71b052d359d054640b70fb5f2bb3bd950f2d2263a33f64afccdc217b5c0145"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry041.json.gz",
+          "bytes": 282094,
+          "sha256": "06dc41e65e00550fa6c3e6e41ccb3b757dda9243dafedbc7f1c42d6c93bc7f9c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry042.json.gz",
+          "bytes": 281855,
+          "sha256": "65a5cb3a75298c7851fe293628651f63df24810fac853e757e8111efb2e8f006"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry043.json.gz",
+          "bytes": 281400,
+          "sha256": "955626b10fa5627b52be18250ff13e5c22a6160038c9d490625682fc3052b529"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry044.json.gz",
+          "bytes": 281287,
+          "sha256": "b5be93350d153eb93c5d168128b3193db186a38e727463a04697ac644c3a6b34"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry045.json.gz",
+          "bytes": 281162,
+          "sha256": "85cc931624ebd5841eeb4750633ff2ace8b48b37bd308385d2ab17a7704a11b8"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry046.json.gz",
+          "bytes": 280883,
+          "sha256": "b4663eb78d22f1a72d00224956f5fb6dc04a225d573eb71ee650c34306166f8f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry047.json.gz",
+          "bytes": 281547,
+          "sha256": "899aa1667abc91d794ae1fc5ef617a3c7c4c4513d067366f87961c18d7a22120"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry048.json.gz",
+          "bytes": 282248,
+          "sha256": "83bcbabf51c6c07c3015c9947a2971ef8b995f998d3d5ee575306fbce7b9c634"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry049.json.gz",
+          "bytes": 282755,
+          "sha256": "7e4100e48606c3f80e69a41211e339fc996f7d22cc76e8d19b2d00a3a1e0f449"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry050.json.gz",
+          "bytes": 282746,
+          "sha256": "3447bebfac833cffce5a97af8663891c495e51cd3defd4ff92e8131aaa91609d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry051.json.gz",
+          "bytes": 282830,
+          "sha256": "0446dab931d1085abcbc18f0873263e0c04882626b39fbc1a0e6ab0d44245e55"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry052.json.gz",
+          "bytes": 283291,
+          "sha256": "25a866d99857694f808017721eaf187be7a14192b124cbaed0653a58cf44d0fa"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry053.json.gz",
+          "bytes": 284292,
+          "sha256": "66eae39f758d2078aa59d7f9591071b4f65420cf43492775deb6d1a4fd457a16"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry054.json.gz",
+          "bytes": 284531,
+          "sha256": "b8d08a3aeb73807b017b3f063f4d5ccf7dfe6c02658bd004d17d0d2ddc5b830e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment5-geometry055.json.gz",
+          "bytes": 189643,
+          "sha256": "43dfb156208e2a5d4c6c40be4fe7703233db98480a92eb8a8777d59dae871fe6"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment6-geometry000.json.gz",
+          "bytes": 137305,
+          "sha256": "9cfaf1951f94f5f1a4ec3546fe9004120583b2a3017bbaa93244c3cb7e4d57cb"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry000.json.gz",
+          "bytes": 262930,
+          "sha256": "9f39a25d85635ff82c5141b6e905a4b47c2107a90c450667f12757c7ceee54f3"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry001.json.gz",
+          "bytes": 267269,
+          "sha256": "1f7915c01e0854c964d83d67dca5e3d1c29150bc0c253fbe40a6b94e1fdbebf9"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry002.json.gz",
+          "bytes": 270152,
+          "sha256": "bd7368ed247de93edb72ec403caa2f4de1a0f076b78dbd04398865cd347bdef7"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry003.json.gz",
+          "bytes": 271815,
+          "sha256": "c982ceeb5f5fc04ac8ee29d6e44483d2e1e3489557359eedea3b653acc2562fc"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry004.json.gz",
+          "bytes": 272832,
+          "sha256": "a142d1ee10624cf54704060e7caf1e35416b9458c44795eab3ad4fae97b0fa2e"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry005.json.gz",
+          "bytes": 273531,
+          "sha256": "524ff32fa67d9bf69a5b1da5bd097270b3f7e45941ad16fc83d125d6d8d3d333"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry006.json.gz",
+          "bytes": 274303,
+          "sha256": "3358a44186b226e5a17fa18143fbf4be38e686578bdf9a15b3da8c5e8caa5e37"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry007.json.gz",
+          "bytes": 275337,
+          "sha256": "0446a1cacecf2f41a98c79a44eddbdf5c01d5bcd5387a62afab853002119de54"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry008.json.gz",
+          "bytes": 276260,
+          "sha256": "d7a288704be9fdb82777d7eb2acfcb852d6ab78a352269e23517f7a650693d8f"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry009.json.gz",
+          "bytes": 276772,
+          "sha256": "c30aac9d2ee3ca9d66399b79f1988e431bd89c627a9d6781654534c3ed06bace"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry010.json.gz",
+          "bytes": 277197,
+          "sha256": "3cb58009e53f590945ca0502bf40c7315534ff01782e774278cd5185d3cf7bbd"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry011.json.gz",
+          "bytes": 278601,
+          "sha256": "a43b95dc9a60990e5bfb9be9a38ecb9cfd2ca246c235d1f27bf041ccfe151763"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry012.json.gz",
+          "bytes": 279589,
+          "sha256": "72597337aa11544fc72cafda70b05bb2c81d9d4afa3792a3f85c1a98d4dd828d"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry013.json.gz",
+          "bytes": 279620,
+          "sha256": "ce0e6586ba434c9524e658fc8cbfd144a9492119d50d14df27ed381e12d86619"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry014.json.gz",
+          "bytes": 279597,
+          "sha256": "ec198c0baf98286dfe4dd47e335768ba8e50ea2f8f110081fec2c078ed99578b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry015.json.gz",
+          "bytes": 280344,
+          "sha256": "b0b97121717c8ac09e6ed70cc6855e34b8748aca0dfe5a0d222c5fb545791c62"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry016.json.gz",
+          "bytes": 280475,
+          "sha256": "1f279fac4adb5fb79c659c56d813e825ddd308d931b1a76932e2e9d071522f3c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry017.json.gz",
+          "bytes": 280357,
+          "sha256": "36c7f0d549ab0c753314cc25086c1ef35b3094cbccc6d885626cb49b08444e4b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry018.json.gz",
+          "bytes": 280946,
+          "sha256": "ee4ae67f3c9082f4c946b8ba47dafb4fb8f1d3154beb9eda847a78ead39a4f9b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry019.json.gz",
+          "bytes": 281324,
+          "sha256": "2ea1f793bc1d24d3d7de5513ab06859d9c63dec29e9917cdae0b848b0fdaf099"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry020.json.gz",
+          "bytes": 282494,
+          "sha256": "ae708162c1eb0ea0aecac1f94c83cc1ca73b22288f68ac0e1bd8e4ebde11955b"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry021.json.gz",
+          "bytes": 283068,
+          "sha256": "b481c85f1abfb66065cd46fe97d984c69b3f6d1375526d7ae13dbbf35ee1d47c"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry022.json.gz",
+          "bytes": 283587,
+          "sha256": "54677e2b5e6a713162374625c32534a59af9764e29a7fe0409d418b94a2e36ad"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry023.json.gz",
+          "bytes": 284144,
+          "sha256": "ffe768063b7110f4de9a90dfc522e94f38e4fdbfa970c97747f76643b4f031a2"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment7-geometry024.json.gz",
+          "bytes": 201343,
+          "sha256": "f7277e7cc96dff72c3685a32f0bb28d0ea5ff23a99371e292a3e548d51134d19"
+        },
+        {
+          "relative_path": "profiles/geometry-v3-cell011-segment8-geometry000.json.gz",
+          "bytes": 10019,
+          "sha256": "87442a3d13d031bff7c2cba8487d4d69c3f2318af7a43fabcd4a4c07103a0c74"
+        }
+      ],
+      "generated_bytes": 96431283,
+      "generated_chunks_not_committed": true,
+      "reason": "Reproducible large intermediates: retain exact source, complete primary, full original dependencies and every generated content hash instead of adding another150MB to this topic."
+    },
+    {
+      "kind": "source",
+      "archived_complete_primary_and_actual_resource": [
+        {
+          "original_path": "/workspace/scratch/d1aa462cfc02/root-work/signed-source/source-v3-summary.json",
+          "archive_path": "notes/2026-11-13-root-signed46-source-v3-summary.json",
+          "bytes": 80828,
+          "sha256": "87a3464406e8f4193a3507d18fcf9a21c5c1d4ceb3e84aca784684af3c06af18"
+        },
+        {
+          "original_path": "/workspace/scratch/d1aa462cfc02/root-work/signed-source/source-v3-resource.json",
+          "archive_path": "notes/2026-11-13-root-signed46-source-v3-resource.json",
+          "bytes": 1197,
+          "sha256": "d8abeb58b697c2e3e3dfa81447c463dc4c60f52831c4e98d560d237063389016"
+        }
+      ],
+      "local_generated_inventory": [
+        {
+          "relative_path": "source-v3-cell010-segment0-part000.jsonl.gz",
+          "bytes": 6895,
+          "sha256": "06212edb3e702c62df04ecac70c1b8c161c852db9f4b393fbc21a6f109827a69"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part000.jsonl.gz",
+          "bytes": 356832,
+          "sha256": "506bf0ef74d0d8188adbfa31f1577d9edd4d21b52eeaca470e82e73b053be7e2"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part001.jsonl.gz",
+          "bytes": 352636,
+          "sha256": "a8067072777c1d6b96d474dec3896744be235eea845a46a7377e605ecfcc7ee5"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part002.jsonl.gz",
+          "bytes": 347856,
+          "sha256": "f6274efc6f2b746fd1c1fdba536e3c065fb8d7ef5996584186c64589cc88b43a"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part003.jsonl.gz",
+          "bytes": 347210,
+          "sha256": "e72b9a635c7f617159df4824708a3214fad23d53ab93f4c618abe73e5384579b"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part004.jsonl.gz",
+          "bytes": 345745,
+          "sha256": "3e8e28e4f554aec140d05b05560f6a8934cd9ad9c756fc4b48cfe8bd8e553bbb"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part005.jsonl.gz",
+          "bytes": 346386,
+          "sha256": "6e701d13673037e7f26f8de39c9caaef1cc625e247881f5581e02a146ec25f0c"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part006.jsonl.gz",
+          "bytes": 345068,
+          "sha256": "e5b39b58b786dd5e84975ff0fe0a4719838eddbfcb9aa43fbb4111fe9bc03e00"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part007.jsonl.gz",
+          "bytes": 345438,
+          "sha256": "0328761d125c4e078bbdc586d5bbd5204fc3db2fe04696af7f6979bd8d628e71"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part008.jsonl.gz",
+          "bytes": 345829,
+          "sha256": "8f156c349c4ea313c6fa431421b21cdbffa14e001d0ccee9197a7b77110a17b7"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part009.jsonl.gz",
+          "bytes": 346005,
+          "sha256": "b2900e5d7935fed40c9f2eaf4cf173d64e896bd5d3470596ca0a3535c73bc93b"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part010.jsonl.gz",
+          "bytes": 346211,
+          "sha256": "30b4de664a570dc055c3dfc6ad354d90d1570a4671e60b3306f2b5068fc237d3"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part011.jsonl.gz",
+          "bytes": 346652,
+          "sha256": "f73ed19afeff226e4b26e8cc1ec110f75ec2345fcb14596a04ebdce758bf9c5c"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part012.jsonl.gz",
+          "bytes": 347809,
+          "sha256": "5847b27cfe47d500dc351c2b3525aec259aec2a0a474b0064a27a4a8108ed329"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part013.jsonl.gz",
+          "bytes": 350002,
+          "sha256": "69ae54c2cc638f8e2162803a220a9ac4b8b21718eb26398745bfd26525cd4f2e"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment1-part014.jsonl.gz",
+          "bytes": 305008,
+          "sha256": "f710fa97cddbbc536751189dc526d513e2eb38a6ef94a53c3378eecedf25910d"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment2-part000.jsonl.gz",
+          "bytes": 91439,
+          "sha256": "10f66642b3081bc4d8997a0fcce58a70c3c907ba54c79b0bd589473dac063bc3"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part000.jsonl.gz",
+          "bytes": 353363,
+          "sha256": "9147090521cad30e440ecc46e15bee3d391d665c6e745d4621315666dfe1bbd1"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part001.jsonl.gz",
+          "bytes": 357873,
+          "sha256": "0eda177e903437935f414349809cd47159f2e93a68b0933601e619a450a3725e"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part002.jsonl.gz",
+          "bytes": 356738,
+          "sha256": "e3cc0c7c35474728bab08afec2d4f43379ef3a67692258f280e522a1155855d1"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part003.jsonl.gz",
+          "bytes": 358229,
+          "sha256": "72ad85832c37abe2002eec690c1fee2291d9bb4feae72a0ccab12d1e9e85f6d5"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part004.jsonl.gz",
+          "bytes": 352500,
+          "sha256": "cf74ce53b3404533191ad078ee6e71d88dea27dae94786d82efb8c3a1b65eba9"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part005.jsonl.gz",
+          "bytes": 353063,
+          "sha256": "9bae799569928ace7f43b80642979b2b5f21f8e1ff2ac74c17064fba5f097597"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part006.jsonl.gz",
+          "bytes": 352468,
+          "sha256": "b8e26be8d59cc7ba754793368dac971873e6d580e15d971adf6d08eee87b85f4"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part007.jsonl.gz",
+          "bytes": 352164,
+          "sha256": "dcc7419bd1c3c19eaccb5a74e19f0d53290e3b643face27ea39f3a4cb554b694"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part008.jsonl.gz",
+          "bytes": 352261,
+          "sha256": "127d3832a4850e3bca8f91d86b5dde6ad389b36a1c2d1236bbd2a8b68cab2471"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part009.jsonl.gz",
+          "bytes": 351739,
+          "sha256": "db32d63f776fb1f9bc6b30f405b0cfa3b5c900606fca39c1440d7c9177dca731"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part010.jsonl.gz",
+          "bytes": 351358,
+          "sha256": "1109af30bf7b03deabdb362cd92926002dd9b02d237159e04d0c6070586fbf20"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part011.jsonl.gz",
+          "bytes": 350397,
+          "sha256": "1d883fd9b2bbd4b758cffc5f40632a12940d495e38866a6fc1319a1daf7e3251"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part012.jsonl.gz",
+          "bytes": 347043,
+          "sha256": "6ce937836dc6f5a2f7862f4c929c80ac615a01af4b74f079e2c138f066c00e84"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part013.jsonl.gz",
+          "bytes": 347040,
+          "sha256": "ecabb752418b97a6473a64b3d0b5c446d7a1f73ead85bff9294bd215c1ed4063"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part014.jsonl.gz",
+          "bytes": 346611,
+          "sha256": "7a70a17c6d47827cacead76ffcb45288ea7f46ccf4e84bf3db9c6e7412a6b271"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part015.jsonl.gz",
+          "bytes": 345222,
+          "sha256": "c57a3041e44bf73f169159115755258973cd41d8a2b952cd01e3caeff26f07c1"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part016.jsonl.gz",
+          "bytes": 344687,
+          "sha256": "4e7421adb72153867270e1d2088ea62a3a13471b9e1856018ee983a614f25718"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part017.jsonl.gz",
+          "bytes": 344598,
+          "sha256": "cc862409110011d2bc9a9bfccbc514cb1c6b2e6d4855742d786f5b5649898106"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part018.jsonl.gz",
+          "bytes": 344259,
+          "sha256": "99740e61679201a910ead6cb9bf946a173005b47f124ab58049d727c483705bb"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part019.jsonl.gz",
+          "bytes": 343778,
+          "sha256": "c3768b70866256b0da9e3c8bca128f45781d7425a692344ae6ca9f1c0ecf8eaa"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part020.jsonl.gz",
+          "bytes": 342584,
+          "sha256": "544983c8e4a2a3066fd34d9203d0f5c38bc2ca1f5970bef1c3c1d153ee653079"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part021.jsonl.gz",
+          "bytes": 340495,
+          "sha256": "222dd9f6fdf8dda274e2af91617f7dbfe44e6d1823a382297f3ae743eb1bdf72"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part022.jsonl.gz",
+          "bytes": 341100,
+          "sha256": "28d7f1c6ad9c8923921cd8c017e3a889b92c268b68841c80150a484019b60d80"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part023.jsonl.gz",
+          "bytes": 342420,
+          "sha256": "b8c8d0c73b9aa72627bbc9039a9ec0956e83eb5f94329f6f8f207bbe7d9d78c2"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part024.jsonl.gz",
+          "bytes": 342517,
+          "sha256": "000468148101b7a75b70aaa9252e6fc6ed76c5a75996c24b55bb987be339b454"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part025.jsonl.gz",
+          "bytes": 344531,
+          "sha256": "b1f2be0aa073140ab358dceda252f6721098bf7433af735de81e7f064c85c70b"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part026.jsonl.gz",
+          "bytes": 346582,
+          "sha256": "364d1f8f69b8354733f6f6b75cd12ca39cdba0ae20116ae821642168f2c35270"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part027.jsonl.gz",
+          "bytes": 349046,
+          "sha256": "d36482dbc74abf7559e567966d8367629aac1aee21fb2627e46d5ff16536f3b6"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment3-part028.jsonl.gz",
+          "bytes": 74526,
+          "sha256": "66b616c92772d5cb5c8ac2e17fe60e08bae5d1bd6a73ee255bc856e3c97042fa"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment4-part000.jsonl.gz",
+          "bytes": 81568,
+          "sha256": "029a542a598b957424c11014903a70fd770afd26ab6f5f0d8fc1cff2e3fc27cc"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part000.jsonl.gz",
+          "bytes": 358053,
+          "sha256": "e20998730d9051024a83c7d5ed5bd277c70221f14ecdc2e2ad5dc87261c221af"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part001.jsonl.gz",
+          "bytes": 357304,
+          "sha256": "76d33263172d79832514a134cc61357e615a54bc516b7f2728e7685a55bd1773"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part002.jsonl.gz",
+          "bytes": 357734,
+          "sha256": "f7be54c5fbc6188b54769b4bd5d34c351a32d176757bdbeadb48044ac46ee20c"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part003.jsonl.gz",
+          "bytes": 356190,
+          "sha256": "8726f735c4e12d80deacdb1caf986fecdb1b701f2aaf6307e42c681c903ae497"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part004.jsonl.gz",
+          "bytes": 352768,
+          "sha256": "d877c34f961f36cfcc3694a7412e4268e46ceaa5f9665923300c1fc2fa70b2eb"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part005.jsonl.gz",
+          "bytes": 352016,
+          "sha256": "f6707434ee6c4ddf38a48726641e9ff6b83c1a9eda3768908724e553e30e371e"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part006.jsonl.gz",
+          "bytes": 351804,
+          "sha256": "8c21e9b35e13f10b559a907ab67249df0a46f2dd5d2614ae5e25ecbfbd775b92"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part007.jsonl.gz",
+          "bytes": 352050,
+          "sha256": "e095db0750992f3f949ee5d66052b2ba954ae0a9bd02cf157487ac11a6adf657"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part008.jsonl.gz",
+          "bytes": 351729,
+          "sha256": "578e5a531b00e863f153129c53918e9d8afe29ce42fca51467c480b78977b672"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part009.jsonl.gz",
+          "bytes": 351622,
+          "sha256": "72a9ae03f1dcde7078b121a673571db390a0188d83ddb04dd69eb3f4c7bcfd8f"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part010.jsonl.gz",
+          "bytes": 351272,
+          "sha256": "6c57632aac185292164dea5d205ddfaa21012687c46b0dfbcfa87b4b1f9de9c4"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part011.jsonl.gz",
+          "bytes": 351253,
+          "sha256": "62ae6cfe93c49f47e328e32febe2c63b290c1f835891a8bbf80013799a650c46"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part012.jsonl.gz",
+          "bytes": 348720,
+          "sha256": "b22cb3576c24e4367454193b848ff6efef49c3f2268c8d32a5078724024c7936"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part013.jsonl.gz",
+          "bytes": 346975,
+          "sha256": "f5ffa9a4b2845b7b656f614a55be6f16743d591070135c63cf6ac606e8c7569c"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part014.jsonl.gz",
+          "bytes": 346923,
+          "sha256": "1fa0cbfd3ca403acb9c89681155be8a1f3e4e349f07039e65d33fa989c43b86c"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part015.jsonl.gz",
+          "bytes": 346073,
+          "sha256": "27bf0188ac598df6bec8e2a73bafe8e04743e10e6e5ebee7143728b5015c4190"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part016.jsonl.gz",
+          "bytes": 346048,
+          "sha256": "7746f7852d132ff4909cc78430034d94714c989107062cce46286161ec9960a0"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part017.jsonl.gz",
+          "bytes": 345717,
+          "sha256": "97ac02d9d7c33e0477126c01f9a3c0ada0fa418a940eef2b931cc8a045a2d877"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part018.jsonl.gz",
+          "bytes": 345425,
+          "sha256": "bb5c0ce64eaa123e4bbccfbf3e3ef921b9ca0db0aa68b8cb37efa5815936f31c"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part019.jsonl.gz",
+          "bytes": 345305,
+          "sha256": "dbe0e2378f049d2ac1376905756e2308a8d182508a808895bcec1c857cd6357d"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part020.jsonl.gz",
+          "bytes": 345240,
+          "sha256": "1fee417f543e1c83d66ed7b6c7bee0861bfa336505bdff156137b160845d5c4e"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part021.jsonl.gz",
+          "bytes": 345084,
+          "sha256": "53f409318a6fc36eeee0c937795a08afdeb5a325609eedd6a2465856267335e7"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part022.jsonl.gz",
+          "bytes": 345082,
+          "sha256": "3d8fd0d4bef282399c7a65c2599e1ae4a2cf91c1d8b63578b353170fae51c009"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part023.jsonl.gz",
+          "bytes": 345611,
+          "sha256": "8f81e0922c8024888bf82c812ce88fa1e153ea759afc8241f19d5b9ce96b75e9"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part024.jsonl.gz",
+          "bytes": 346832,
+          "sha256": "ce9560339d10c56f9cf978654ab2931ad8a88103e65f113a57de9282f0c25e31"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part025.jsonl.gz",
+          "bytes": 348497,
+          "sha256": "6f75be682d2ab3b2aafa67373002a91fa305e6d53bb5b0e329bdd102e769d5e2"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment5-part026.jsonl.gz",
+          "bytes": 243547,
+          "sha256": "697b240b466f9bdc551dc4a44189c375f1471ab33e8c5e97801b28fd2b3e024e"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment6-part000.jsonl.gz",
+          "bytes": 88893,
+          "sha256": "d57d6b587a7b03ea71bba6013e082a6afa3950c6701f83f229c3cb99b73de405"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part000.jsonl.gz",
+          "bytes": 354083,
+          "sha256": "12cfeccadf06d670c75d6521ee39f7542040393ef9a5507e670a91a71ebab812"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part001.jsonl.gz",
+          "bytes": 348148,
+          "sha256": "e3991bfdcea18855ac83c36116ab5efc9b2f18cdfb934079f8a7deadc8d04feb"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part002.jsonl.gz",
+          "bytes": 346053,
+          "sha256": "ce40877db55a1c1831010a10702038d7c1fe4bd21b489134131bfc69bc91a294"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part003.jsonl.gz",
+          "bytes": 345081,
+          "sha256": "f9b140a55a5fd9944003e2eda89d32defdbae25057c0be42f5524aaaac97d528"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part004.jsonl.gz",
+          "bytes": 345376,
+          "sha256": "4fce6e2eac099e8476d96e63a79a2f0ee73547a2bf2dc402e5cb22a4e8276737"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part005.jsonl.gz",
+          "bytes": 344461,
+          "sha256": "841e12875758be17d05049a75dd3f42866ef39bbf9916478a272a988a88c30fa"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part006.jsonl.gz",
+          "bytes": 342084,
+          "sha256": "22dfad0acdde4db543435663278cac405404898b15a49b6e0fe0cb70facacd76"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part007.jsonl.gz",
+          "bytes": 340214,
+          "sha256": "c509d7996944ddeee35cbb31818e300ae6c91ab54505764a87a9d1f78e701551"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part008.jsonl.gz",
+          "bytes": 340348,
+          "sha256": "cc231e36e9ed5d22f35a5b161ddd81f0720112ccb39a7e2cf16420d909d660e3"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part009.jsonl.gz",
+          "bytes": 342633,
+          "sha256": "46e822e9733af4bc5d396f8e319fd95701e14a10731130bf62bf2400cb1fcec6"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part010.jsonl.gz",
+          "bytes": 346292,
+          "sha256": "c3211ea60e86b67f5379d20e9cf76b1bb8cf461df80f99f9db015f2442f7603d"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment7-part011.jsonl.gz",
+          "bytes": 167054,
+          "sha256": "329e2f75c4774ff53a7a819a85aeab0f5a776fba28ab0f7abad7b5a20fda0462"
+        },
+        {
+          "relative_path": "source-v3-cell010-segment8-part000.jsonl.gz",
+          "bytes": 6469,
+          "sha256": "9e57d10f6f5a031a0feb80d1cbc76059bb3f7a44b1dce0841262c7e5cd55bd28"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment0-part000.jsonl.gz",
+          "bytes": 6918,
+          "sha256": "8a623b60f206e106e2fea1035694cb2965182eeb6e0b41f2f2752b3041a5b5c9"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part000.jsonl.gz",
+          "bytes": 363975,
+          "sha256": "cb8f77e98aa5790849ab4816e1eff2f1099b9367513bcfe3319542907c321322"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part001.jsonl.gz",
+          "bytes": 359948,
+          "sha256": "3e70ad62634d4a9ec5703b4e9c8e0fb8011052a5b41ceb381b2093eb6a9ecffc"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part002.jsonl.gz",
+          "bytes": 354305,
+          "sha256": "19ba99e568fe36073ca6e7907de26e6786ee8813be767bbf60ca0aabc257a507"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part003.jsonl.gz",
+          "bytes": 353478,
+          "sha256": "c2cd5fbb2ac70dada3f5c1ebf2231926c98260dd82f2bfb69b77484aa1b6a7b1"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part004.jsonl.gz",
+          "bytes": 351768,
+          "sha256": "79675fbd0d1107cdc92ef483f790e9f86ce06f3d80329726b0b3879482a2b3f2"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part005.jsonl.gz",
+          "bytes": 350531,
+          "sha256": "885af4653abfaad411fca82c0b523ea464b41b83ce7fcf1bde182ef8cd4ea0c3"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part006.jsonl.gz",
+          "bytes": 348901,
+          "sha256": "8bb85d3ca165f803b92e6dc559d04b0ad7883eaaf4dfbbd3d12ce6d73764f792"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part007.jsonl.gz",
+          "bytes": 349407,
+          "sha256": "999391bcc9d60f49d2806c230252b6aaecd93adecafe175a94720801f7cd11d9"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part008.jsonl.gz",
+          "bytes": 349808,
+          "sha256": "4f8978a8d8b36c25f3e73202a856f1cbaca4cfb3516261573b2291dc2fd8730b"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part009.jsonl.gz",
+          "bytes": 350021,
+          "sha256": "536b107ec791e223fd909313c3cbf4b130d01be49484a9f2cbe5164333575ad9"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part010.jsonl.gz",
+          "bytes": 349566,
+          "sha256": "9fdd186a1629cab8435eaa38853abc3ea39ddc8f063709a9aa48b625ef3ba759"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part011.jsonl.gz",
+          "bytes": 349813,
+          "sha256": "9a0a93500db8de131652e60cb60f7a3b44cf55b9ae16c12a87a7e3ffa9ad5966"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part012.jsonl.gz",
+          "bytes": 350438,
+          "sha256": "faa65c4417a4d70df751d84b16d4127f7651097e5c5381f328865c80aaacd11f"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part013.jsonl.gz",
+          "bytes": 351661,
+          "sha256": "c718a54d2e1b86706d0d252175c82eb3a014683a5284430b182aacd86da90d4e"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part014.jsonl.gz",
+          "bytes": 353336,
+          "sha256": "dcceddd681b73e44607dae4f1b9dff0043611187549f8b0ae59f58393a551320"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part015.jsonl.gz",
+          "bytes": 354018,
+          "sha256": "5f73ed433bdc00b0f2a334c2f8d4b89d7c603420f3b188eb9a79ea620ca0df02"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment1-part016.jsonl.gz",
+          "bytes": 170128,
+          "sha256": "d4f99427dfbd54ad74e058870d8dead568432a29a2520b869de2ace22aaab56d"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment2-part000.jsonl.gz",
+          "bytes": 93085,
+          "sha256": "b7b48a9f91139fa929ca4fd8c7164f8745a14da8979a1969674500c064644ace"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part000.jsonl.gz",
+          "bytes": 356190,
+          "sha256": "a1ef15f4c076aa665d35e556c096523971c06df843ad138912bed79a0e75b7a0"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part001.jsonl.gz",
+          "bytes": 361741,
+          "sha256": "f03b72d97a8653bd98dd9c9ee6ae053efc71903a2482c72cb3ea7137d7160328"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part002.jsonl.gz",
+          "bytes": 363324,
+          "sha256": "8763c26beae7fd1cec208bd1c1a54621c12627b48bc227ea956411341e194756"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part003.jsonl.gz",
+          "bytes": 362161,
+          "sha256": "a8c818eaa303e55025e9410e45798256e5c91ff083f6a5001a26fe1ba9975792"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part004.jsonl.gz",
+          "bytes": 358145,
+          "sha256": "0baecc7ef9fb46a407f57df229f6db12843c21eb557d0ac5af42fcfd2d3b4bff"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part005.jsonl.gz",
+          "bytes": 358553,
+          "sha256": "bcdfaec2536171c4b43f005a123f2b26d2332881570379ecffaca44c387ad24f"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part006.jsonl.gz",
+          "bytes": 358522,
+          "sha256": "ab02dac71b1859ad40492b4a66d68559dbc8850f1802abfa8c191e550a6807f8"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part007.jsonl.gz",
+          "bytes": 358490,
+          "sha256": "a77a4ed9d9aa933ed1875598f5319cacc79db3988090ce3fdc6a3124a91e6410"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part008.jsonl.gz",
+          "bytes": 358409,
+          "sha256": "c9b30c911dafc28043ff995b5e2979fb7ec2dbd2a1dd0e90b0a5ea378ce1e721"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part009.jsonl.gz",
+          "bytes": 357402,
+          "sha256": "a71dbef94689a18a6abe4a68b6ce2c68a04a4955b4a45c32a357177e84c8db13"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part010.jsonl.gz",
+          "bytes": 356042,
+          "sha256": "28c085d77c164f6b54ef76d93919a51a82d7c4405aa2e09ac0c24b79df9d2825"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part011.jsonl.gz",
+          "bytes": 353916,
+          "sha256": "08e0b051ad7ada5773b00b9b45e6105ea9b8c4835d8fc5d6a30b809cf59b093f"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part012.jsonl.gz",
+          "bytes": 352573,
+          "sha256": "3badf3ff2e4816c597a36504bf09c9517aa6851b407bbb03929e49ebef4eb3fe"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part013.jsonl.gz",
+          "bytes": 352049,
+          "sha256": "514944adb238046a36679756f949e760732d26e38a0462a375ba610aab1ca7a1"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part014.jsonl.gz",
+          "bytes": 351783,
+          "sha256": "8283758ce117c55f8747075ae74e4a58ba7eff9c22957fd4bbd8f65be34cc0a6"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part015.jsonl.gz",
+          "bytes": 351322,
+          "sha256": "e776a61c6730e776d0a67280df89466d1b2f136390e75a4e10f557aa8233c88c"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part016.jsonl.gz",
+          "bytes": 351044,
+          "sha256": "ffa9a59abb29ba63a13c257f2c3713ac720b70047d1ff979c3a33ba553fadf98"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part017.jsonl.gz",
+          "bytes": 350424,
+          "sha256": "33b8d9b1ce0255ae104357215945c6f9342240738dcd15c6c9c8c791e0f76042"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part018.jsonl.gz",
+          "bytes": 350063,
+          "sha256": "fc4b97b88bf8f4d7ae7a09a0c4840c207c642bfc5da7d41a42dba3ea5a91a051"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part019.jsonl.gz",
+          "bytes": 349104,
+          "sha256": "fafbd5d20f6a17fd11fc944c59080d73cf7997b28be7fe2e3192b9eaaf1012a7"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part020.jsonl.gz",
+          "bytes": 348598,
+          "sha256": "ce07a13b797e768724775a21ca0e756c5879ee65a1b02ce8beda46d562a9c781"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part021.jsonl.gz",
+          "bytes": 347432,
+          "sha256": "b203797779a501f05fc05674dd0dae1a1714e71df87e9f2ac80ced1bd94f34aa"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part022.jsonl.gz",
+          "bytes": 345450,
+          "sha256": "e1b603fc2fa1b3aaad2aec763d77dfcb988fb3ac47859bf51ba4cd755b43d144"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part023.jsonl.gz",
+          "bytes": 344907,
+          "sha256": "138392e408633406c889a1de608b504823dece51bf84f1ca8b5b41f8d455e757"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part024.jsonl.gz",
+          "bytes": 346449,
+          "sha256": "58d68f8287ba57a584bb43f76286572309a8e5ad8072e29602d473b8aa3de6fc"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part025.jsonl.gz",
+          "bytes": 346290,
+          "sha256": "3471ec5f009e2b89c329771c9d42b5c791e096f8e865c4d6b796330d8095f4d6"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part026.jsonl.gz",
+          "bytes": 348128,
+          "sha256": "4fd3b0445d5fafb77d813a0db520df235d48160c76d0ec7e33259b335426f2b4"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part027.jsonl.gz",
+          "bytes": 350133,
+          "sha256": "d8e113f754a0df499c7bf8025bb59ebfbccdcf35be110665159be2fc43408923"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part028.jsonl.gz",
+          "bytes": 352331,
+          "sha256": "b15661589c857340ca0e5a1e18ecbd08d31bbf93abf53d8fb0155c14fb807e15"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment3-part029.jsonl.gz",
+          "bytes": 174902,
+          "sha256": "cb1f8456b065f9e81c9f37ffde1e1f5ede70205f540ef0e03c243d8a52c31275"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment4-part000.jsonl.gz",
+          "bytes": 84981,
+          "sha256": "5baa73d1af2080a2bcda792ba6fcfa81bc1eb315cbcc25e04f5c7071e57af7e0"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part000.jsonl.gz",
+          "bytes": 364641,
+          "sha256": "267aab9e134132cdc4f9325f00cde05758e92be41479bb92b0d2c7d16b435330"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part001.jsonl.gz",
+          "bytes": 363559,
+          "sha256": "e186f407d000fa2378d8dfbb83d68c19799482ffcea092ab4288961300ba57fe"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part002.jsonl.gz",
+          "bytes": 363902,
+          "sha256": "1e7cbfa1a475ea0c970264a794b7604fffaab31a9e8d880092a9c0c443bfd307"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part003.jsonl.gz",
+          "bytes": 361481,
+          "sha256": "8263deed0b2a2e4d5ac6c090db9e2ca87a4630e67414b267d08e9e1b032e813c"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part004.jsonl.gz",
+          "bytes": 357224,
+          "sha256": "71b2e3447a89d423af3ef035495dd78f493d53b80f2e1328a29db6493b11ce0f"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part005.jsonl.gz",
+          "bytes": 356616,
+          "sha256": "a3a357d44f47fc6f4bfdfc2c28ef009dd5d586475800971bc24093892bee83f9"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part006.jsonl.gz",
+          "bytes": 356664,
+          "sha256": "7d5a18ae2343bd11791b21b6cc997c422cef4b1d9a249ef7997c6398e3b49c23"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part007.jsonl.gz",
+          "bytes": 356164,
+          "sha256": "5623e89142f8ba1795ed4d74779b5d5ed8a381e2e70e5b7dd52869bb63e9e27c"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part008.jsonl.gz",
+          "bytes": 356063,
+          "sha256": "7ec3b41c6701a4bc31e7d5f62716e3024f80b6e01fec0680717fb649cbe284bb"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part009.jsonl.gz",
+          "bytes": 355805,
+          "sha256": "cc1471502c0ce3c26ed84fe65d1e04e5d5366b5394c7b387646f523e7ce1d972"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part010.jsonl.gz",
+          "bytes": 355721,
+          "sha256": "998519625bb2a10557bf7eefbfe603471c43f73659643043ec719c7f77cb53d2"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part011.jsonl.gz",
+          "bytes": 355011,
+          "sha256": "3ab46b1a4799dfed2c672f6523118d93456c4fb6fb881ca17840ebf44a518fb6"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part012.jsonl.gz",
+          "bytes": 352542,
+          "sha256": "081e5f25e5216de61ea67a034c072ce37aaf81afb07745e5889c7d437a400682"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part013.jsonl.gz",
+          "bytes": 351913,
+          "sha256": "bd9f99fc437ed181921bf0d98784d0fcb752cc0b12bfe3149e2ded8fd1690060"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part014.jsonl.gz",
+          "bytes": 351902,
+          "sha256": "15a7b5128096cdc877646a6d3de39de1d17a452d7e67a10b95804109c4152a18"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part015.jsonl.gz",
+          "bytes": 351731,
+          "sha256": "3ea4835932623e491f0c9c9fdf4d0dc14499e10e3794d3c00809fae22383b935"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part016.jsonl.gz",
+          "bytes": 351636,
+          "sha256": "8f8a287139f34d29f1c800745f0a81a8ec9523aa98890c577e08d123e98c43fb"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part017.jsonl.gz",
+          "bytes": 351147,
+          "sha256": "71d620092e896c8818f02c46bbdba68a6f7d11435445ad5982f48deabb88b8c8"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part018.jsonl.gz",
+          "bytes": 350564,
+          "sha256": "4c89294590f21fb28a27f3df81325e431b7ead51f1f524b97ac312336f7bdb81"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part019.jsonl.gz",
+          "bytes": 350509,
+          "sha256": "b9ecc48691431c44d9b667fb1515ab570ef1bc5ad9b07a8d7663cdd370c7ad81"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part020.jsonl.gz",
+          "bytes": 350418,
+          "sha256": "e7f8e45d9f2cfb2a2248cfdb53f7b86de6a35f7a885e0dcd0070ca39706f2c56"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part021.jsonl.gz",
+          "bytes": 350053,
+          "sha256": "26b2e8ab47c471c4949bf374b99cceff9d07ecc1fa327cbac8bb68468d1fb0ec"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part022.jsonl.gz",
+          "bytes": 350183,
+          "sha256": "58c98ee8973af28af967bb4956d4dc7a9fbbb56a487e64222d79e7c68b47dedf"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part023.jsonl.gz",
+          "bytes": 350478,
+          "sha256": "8c37b8226bbf140c3eb83f3abcd65ac71057f774c20d2cf6187dc2d5da556d6c"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part024.jsonl.gz",
+          "bytes": 351243,
+          "sha256": "17bf9b4933a8d177f8df1abf6cf4c189f6d3ac1eee0605b8f489761937db3fdf"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part025.jsonl.gz",
+          "bytes": 352278,
+          "sha256": "0ac2f3a8872bd603279f8805236ea7d1c1ba4b468b7551733807428eb48225f3"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part026.jsonl.gz",
+          "bytes": 353957,
+          "sha256": "321d7f8e3ad8fb8511e49f46efd0722d3b08d5727f65297f788e1d934e511ca5"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment5-part027.jsonl.gz",
+          "bytes": 264494,
+          "sha256": "7a015949ae50e195bcfde8ee653cd836e3c3c7f8b327626bd901808ee7ffa4c0"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment6-part000.jsonl.gz",
+          "bytes": 90285,
+          "sha256": "351140137242fa32681331e32580936435654c69b54b66e8cf7e34f0ab6e4985"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part000.jsonl.gz",
+          "bytes": 358082,
+          "sha256": "64418a626152d897e9776ccee16b4e14a508724c9891da8e606f99ccd56d9031"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part001.jsonl.gz",
+          "bytes": 352404,
+          "sha256": "d2a4bb6c1672978a12805e6b3d952aeff1beea10a7b8112f6701316ce2782bfd"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part002.jsonl.gz",
+          "bytes": 349474,
+          "sha256": "688be6832a7aa97a31b27d810a07b0b2cdb3d5b0cbdd06330407e9643b3d90f0"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part003.jsonl.gz",
+          "bytes": 348519,
+          "sha256": "d8c5d7ca04e7f6d758c22dd09eb220023b0e9411be9a8db8de6e1cac4f5ed328"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part004.jsonl.gz",
+          "bytes": 347737,
+          "sha256": "ab4f46bacba7afef2b3853ff7960fd8e477044147e1d9b45dcc07cf435f138ee"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part005.jsonl.gz",
+          "bytes": 347234,
+          "sha256": "709c1971839c213e0493ecf06ec198ec0887aa77ecbc9fbcc1d77ac89bc5a269"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part006.jsonl.gz",
+          "bytes": 344346,
+          "sha256": "fb231e1065ce8e89c2f61a8dc72bc7de08aa4337fddcb6839a61f989704d7de1"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part007.jsonl.gz",
+          "bytes": 341599,
+          "sha256": "898bd70050f84551843a93108f7a3885bf458d1b7004d54507cb7a5735ee1804"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part008.jsonl.gz",
+          "bytes": 342451,
+          "sha256": "57c6f41f6c86d0dff2decee917f21f3cdd0e97072050157dc97fb7c2f29975a1"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part009.jsonl.gz",
+          "bytes": 342935,
+          "sha256": "b7dddf086c2364f25c29ab608ea32128208de844114d98c2d2cd56a4ce05ab6a"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part010.jsonl.gz",
+          "bytes": 346027,
+          "sha256": "f4d74ddb1aca01b2732b85f322b24595fc1a09a6f66929fe854ee08d5267445a"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part011.jsonl.gz",
+          "bytes": 349853,
+          "sha256": "e3e0865abc12804b859bbc92390f66ca03b74cee973f66a68cfa5e178a87aa4c"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment7-part012.jsonl.gz",
+          "bytes": 64128,
+          "sha256": "71af8f47e1cb5c36cdbb99c2867aa2c499be5999266a3d72ccf8f09ab1e9ba5d"
+        },
+        {
+          "relative_path": "source-v3-cell011-segment8-part000.jsonl.gz",
+          "bytes": 6739,
+          "sha256": "b0861f73d060395dec4dc7797e6e0be8c279de8b4b89933d638513e74324db97"
+        },
+        {
+          "relative_path": "source-v3-resource.json",
+          "bytes": 1197,
+          "sha256": "d8abeb58b697c2e3e3dfa81447c463dc4c60f52831c4e98d560d237063389016"
+        },
+        {
+          "relative_path": "source-v3-summary.json",
+          "bytes": 80828,
+          "sha256": "87a3464406e8f4193a3507d18fcf9a21c5c1d4ceb3e84aca784684af3c06af18"
+        }
+      ],
+      "generated_bytes": 59239544,
+      "generated_chunks_not_committed": true,
+      "reason": "Reproducible large intermediates: retain exact source, complete primary, full original dependencies and every generated content hash instead of adding another150MB to this topic."
+    }
+  ],
+  "ordered_consumer_running": {
+    "source": "computations/root_outer_fixed_centre_low46_ordered_v2.py",
+    "sha256": "b80ecd71be918161e0a862e4636822d5d5ac72993179c1a71600cd6a4fc354e6",
+    "actual_out_prefix": "/workspace/scratch/d1aa462cfc02/root-work/signed-ordered/ordered-v2",
+    "session_id": 82572
+  },
+  "entry_sources": {
+    "computations/closure_outer_physical_green_signed_profiles_v3.py": "98b5e8a0b06688830b7aee69df9f6a76f39f94d8b259a093d476bbf78abee642",
+    "computations/root_outer_fixed_centre_low46_source_v3.py": "3a19cb838f256cc9dd454267b5a32c2e280df927cc21820a2a8a867ad160eb59"
+  },
+  "rebuild": "Original argv is preserved in each actual resource. Use the same topic cwd and scientific inputs, choose fresh output prefixes/work-dir and input-root at the checkout; rerun geometry/source with python-flint0.9.0 and then supply their newly generated exact primary hashes/resources to ordered_v2. Do not edit old runtime metadata or pretend a relocated rerun has the same primary SHA. Primary-generated chunk paths are absolute: archived primaries are evidence, fresh ones are executable inputs."
+}

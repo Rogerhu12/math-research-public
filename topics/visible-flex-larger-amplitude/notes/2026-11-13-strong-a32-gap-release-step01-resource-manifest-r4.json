@@ -1,0 +1,74 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T20:40:48.317545+00:00",
+  "title": "Original first accepted inner-Newton step is recoverable, full BVP acceptance remains pending",
+  "scope": "M32, angular1280, gauge.09,2590 nodes,97 states and35 parameters. Original full raw/cubic/x/y/p arrays and all source hashes verified. Prior same initial-H tail has complete3136 Jacobian entries and full-flow snapshot; it is not asserted to solve this current raw H. RMS, new-H full tail, physical boundary and final audit remain mandatory. Live production unchanged.",
+  "owned_exitcode": 0,
+  "owned_wait4": true,
+  "wall_seconds": 1.0145265529936296,
+  "peak_rss_kib": 52328,
+  "current_H_difference_from_initial_tail": 6.222827098737219e-08,
+  "solver_success": false,
+  "physical_surface": false,
+  "original_RMS_evaluated": false,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-step01-recovery-r4-heartbeat.json",
+      "bytes": 309,
+      "sha256": "c3d720a2e6824b4f228feb69adbc33bce9d4136ba914a799731f709f21cd911c",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-step01-recovery-r4-heartbeat.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-step01-recovery-r4-ownership.json",
+      "bytes": 1979,
+      "sha256": "8f768c849cc661e884a89b39a09386fbd27c7c1eb15d64e1109588ede528da03",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-step01-recovery-r4-ownership.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-step01-recovery-r4-resource.json",
+      "bytes": 1766,
+      "sha256": "5a739c46b0bf4e55b277115bb362dcc9da060713da2e108043b23a55dfd6b12c",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-step01-recovery-r4-resource.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-step01-recovery-manifest-r4.json",
+      "sha256": "37b7a3e376c0a3b570fe379891d57a22478f2657bfb99317a91329f66fb2c2be",
+      "bytes": 28361
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-iterate-0002-cubic-000.npy.gz",
+      "sha256": "faa75a7883a477c868fcc78a31d147d22846f06f8a4b05540e84ed4f1c164009",
+      "bytes": 3868293
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-iterate-0002-cubic-001.npy.gz",
+      "sha256": "e626f46d57e8df3fa43636e5efc05d4d88089025d45a15d58d7e285e173573f8",
+      "bytes": 3880904
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-iterate-0002-cubic-002.npy.gz",
+      "sha256": "b023e836ae3b38185e35822ee4adc218b9c592ea0d4680b5b89f6cc16e118551",
+      "bytes": 35469
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-iterate-0002-p-000.npy.gz",
+      "sha256": "b150813f11aab2405c95eb5af7407cfddb7d8f74239ad0d27ebdfea093c0774a",
+      "bytes": 464
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-iterate-0002-x-000.npy.gz",
+      "sha256": "585b4bb0f602deba2632ee1c375ec107ebfa774f007ca4e070bfa4f9c8c21653",
+      "bytes": 19400
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-iterate-0002-y-000.npy.gz",
+      "sha256": "16dcb3392b7f09cf61beb2a044e486e7aa2594a716b2eeaad44e43c8e1c47be6",
+      "bytes": 1933657
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r4-iterate-0002.json.gz",
+      "sha256": "41d4ed0aef7e8a70bffd105c52ad2f262f3def318da9a89182827ff4865e2feb",
+      "bytes": 7217
+    }
+  ]
+}

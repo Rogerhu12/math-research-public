@@ -1,0 +1,115 @@
+{
+  "scope": "Executed complete unchanged M28 full-H Jacobian and full finite-tail audit; prefix physical postprocessing follows separately.",
+  "status": "complete",
+  "tail_converged": true,
+  "residual": 1.654347043206027e-10,
+  "audit": {
+    "fullD": 1.423894006062384e-12,
+    "normalizedFullDefect": 6.608603909333959e-14,
+    "minLeading": 0.8851456361708966,
+    "minD": 0.9999396782054736,
+    "formalCurvature": 7.9942546935404035,
+    "maxPhysicalPV": 4.77192330139162e-05,
+    "actualMetric": 6.000224587934537e-15,
+    "holonomy": 6.01256907749482e-20
+  },
+  "new_prefix_Newton_calls": 0,
+  "original_raw_unchanged": true,
+  "files": [
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-command.json",
+      "bytes": 2228,
+      "sha256": "25dd6177ebbf6120d56acc17ffff15aa20d962472f10ffeb72fde4b0394fabab"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-config.json",
+      "bytes": 2906,
+      "sha256": "8ef4ce9e6f53f1fc617aaf0d06c95511c9a9ef9e48c1347720bc0471ee1496cf"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-heartbeat.json",
+      "bytes": 289,
+      "sha256": "1a62680fd17ef53d2d567040d1163477c10801287a486ed0be71e353549684c9"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-iteration.json.gz",
+      "bytes": 329668,
+      "sha256": "89729150f66c7d78f767eeba2c883427af9a417647534f6a98789eca6476e28d"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-memory.jsonl",
+      "bytes": 20091,
+      "sha256": "f7051bd1fd0d37fc7ffebc3cf03e44115c9d543b3d682bce023d67739c90128b"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ownership.json",
+      "bytes": 2519,
+      "sha256": "13964b4de9668f66a485767c2d20be595504f5469c73ff39b35f0683118a756c"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-plan.json",
+      "bytes": 2853,
+      "sha256": "c3494efdb6c319c7e283ec9949e62eac94376c7b9adcaa6492f36683d4f5cd9a"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+      "bytes": 29774,
+      "sha256": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-recovery-guards.json",
+      "bytes": 3829,
+      "sha256": "c86551c2c1ccce4c4cb0502c5d41af932b487a0b78f5b1a999e122b923549055"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-recovery-terminal.json",
+      "bytes": 296,
+      "sha256": "52fbd1bbf91b6e5e94bb42a0b7bbce697674e077641a2e576a1495c1e34cf26e"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-resource.json",
+      "bytes": 2335,
+      "sha256": "269fe10807ea9e1e78d8712199ed737dce37f0e28ed51a5af5e6a3b970209ddc"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz",
+      "bytes": 353289,
+      "sha256": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_adapter.json",
+      "bytes": 22628,
+      "sha256": "2b7b5906727ca77d01a42c0e0cf68e623d53dfb7da5c05862cca347152926b32"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_spectral-Node-intent.json",
+      "bytes": 774,
+      "sha256": "06c84794ff3308f76c486e16a71adb7c52ea72d6ee5d1c630a8147c430002031"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_spectral-Node-observed.json",
+      "bytes": 798,
+      "sha256": "33fdaf4976749b7b4e00d34261b243d183e2c5fe1518fc3f39b87393f57b908f"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-stdout.log",
+      "bytes": 2520,
+      "sha256": "9c43b3b5af0a5c95607e09076c0432770cb57f1fffd77a8f8051b2e402b042b8"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-summary.json",
+      "bytes": 3790,
+      "sha256": "7cda2be4c75d94073dc51d2da8ee572e1af500199378beca6def2ad0f5f282cb"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-trace.jsonl",
+      "bytes": 4283,
+      "sha256": "decc4fed7747ac173bed907517f91804b76809b2be45bf610ab558d56a4b91b5"
+    },
+    {
+      "path": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-trials.jsonl",
+      "bytes": 162,
+      "sha256": "83df5158a3d6ae1ffe37a340700acd462b18788246a3e0e2eaf18d38f8ce250f"
+    }
+  ]
+}

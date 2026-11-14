@@ -1,0 +1,60 @@
+{
+  "schema": "current-M32-complete-gap-tail-source-preparation-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "source_sha256": "ba36c553dc141a559676429b4222b193489c90a531874428b5b577a94e0301c3",
+  "pinned_sources": {
+    "root_geometry_anchor_current_reader.py": "b69abdc1f615a9d96b65fb187f2e87831bf975f5b2752303db4c10c37f9c3b84",
+    "root_geometry_anchor_current_interfaces.py": "8da06d8c7909b55e56bef75e92dceec8e1dd3226b208a80896fa2ce7aaaa0b48",
+    "root_geometry_minimax_initial_laws_controls.py": "ccdcc95d3e7dd2a1447714578e6976179f1b5c32d3495e13a074399872c31e57",
+    "root_geometry_minimax_control_constraints.py": "7d5f91ca193ef9d6c02070b5c062f278ab29a01f070eb12b66c8c9dff701cc63",
+    "root_fine_core_tail_proxy_eight_sync_trust.py": "9af5df6752ccf7865fc180c22d50e5ee1aaca40de1fd2e430041f61a4ac01c9e"
+  },
+  "source_transformations": {
+    "kernel": {
+      "original_source": "root_geometry_minimax_control_constraints.py",
+      "original_sha256": "7d5f91ca193ef9d6c02070b5c062f278ab29a01f070eb12b66c8c9dff701cc63",
+      "transformed_sha256": "3f96dc4943afbd358b43be6cf5131db438ad163159daca2949ac55e3591ddde1",
+      "exact_reverse_recovers_original_source": true,
+      "edits": [
+        {
+          "before": "    bounds = [(q1_step, q1_step)]+[(-trust, trust)]*(controls-1)+[(0., None)]",
+          "after": "    bounds = [(-trust, trust)]*controls+[(0., None)]"
+        }
+      ]
+    },
+    "driver": {
+      "original_source": "root_geometry_minimax_initial_laws_controls.py",
+      "original_sha256": "ccdcc95d3e7dd2a1447714578e6976179f1b5c32d3495e13a074399872c31e57",
+      "transformed_sha256": "d94f0ba035719ff4fb5dc688c81d154884a0caa8135cce81f1c582c72522dcd4",
+      "exact_reverse_recovers_original_source": true,
+      "edits": [
+        {
+          "before": "    ap.add_argument('--q1-factors',type=float,nargs='+',default=[.5,1.,2.])",
+          "after": "    ap.add_argument('--gap-increments',dest='q1_factors',type=float,nargs='+',required=True)"
+        },
+        {
+          "before": "                normalized_bounds=[(qstep,qstep)]+[(-args.trust_factor,args.trust_factor)]*(controls-1)",
+          "after": "                normalized_bounds=[CURRENT_Q1_NORMALIZED_RANGE]+[(-args.trust_factor,args.trust_factor)]*(controls-1)"
+        },
+        {
+          "before": "                result.update(fixed_q1_factor=qstep,size_factor=factor,size_cap=cap,",
+          "after": "                result.update(minimum_complete_gap_increment=qstep,size_factor=factor,size_cap=cap,"
+        },
+        {
+          "before": "print(json.dumps({key:result.get(key) for key in ('fixed_q1_factor','size_factor','success',",
+          "after": "print(json.dumps({key:result.get(key) for key in ('minimum_complete_gap_increment','size_factor','success',"
+        }
+      ]
+    }
+  },
+  "source_only": true,
+  "no_future_accepted_response_or_fields_created": true,
+  "unchanged_original_complete_row_generation_and_replay": true,
+  "mathematical_additions": [
+    "bounded free first core coordinate",
+    "full32-mode gap lower constraint",
+    "optional full32-mode gap objective under explicit curvature-size cap",
+    "same original positive core-tail auxiliary rows and final complete-tail replay"
+  ],
+  "no_new_ODE_Node_Jacobian_or_field": true
+}

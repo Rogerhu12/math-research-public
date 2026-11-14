@@ -1,0 +1,39 @@
+{
+  "status": "R48 weighted same-height interface prepared; no actual13port radial execution",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "computations/tail_outer_compatible_mean_defect.py",
+      "bytes": 15769,
+      "sha256": "ca4f99740ac9ec64b73aaf6601fec78f9017c4026dadebfb98f9549e25854537"
+    },
+    {
+      "path": "computations/tail_outer_weighted_compatible.py",
+      "bytes": 8506,
+      "sha256": "d4aaaa4213e4d9f4e1acad618c84c222a5871a3827ca192bd1d1d65db78ad3ed"
+    },
+    {
+      "path": "computations/tail_outer_weighted_fixture.py",
+      "bytes": 2243,
+      "sha256": "29c267c11c8f3f782bb97509a908ec0ffd70cc14b00a7556236aba0f0b71f096"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r48-weighted-helper-and-13port-plan.md",
+      "bytes": 3944,
+      "sha256": "77479f6a9ae98e90bfe1553d564d84cef7fc10e4eca66becc0694089abc96d55"
+    }
+  ],
+  "previous_R44_helper_sha256": "fecac52ad3aac4e77c8e49ea40434b1d4b10095917969820e32802a029327a1a",
+  "historical_manifest_retained": "notes/2026-11-12-tail-r44-compatible-helper-manifest.json",
+  "constant_polynomial_fixture": {
+    "executed_as_equivalent_inline_command": true,
+    "checks": 11,
+    "all_passed": true,
+    "tool_chunk": "e3189d",
+    "formal_exit_code": 0,
+    "actual_source_evaluated": false
+  },
+  "actual_13port_radial_run": false,
+  "locator109_run": false,
+  "full_exact_outer_solution_claimed": false
+}

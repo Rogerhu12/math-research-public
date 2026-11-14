@@ -1,0 +1,55 @@
+{
+  "status": "Complete exact R49 for the existing positive-budget polynomial, plus separately labelled numerical diagnostics",
+  "files": [
+    {
+      "path": "results/R49-current-scalar-majorant-two-cycle.md",
+      "bytes": 6296,
+      "sha256": "9b989ed9f9de881b635c98e7cc899e1ec665b1837f38cb5eb80522041296cfcd"
+    },
+    {
+      "path": "computations/closure_majorant_two_cycle.py",
+      "bytes": 5179,
+      "sha256": "c3d935fb77d89f24d920e5775370c391a3d8991ebd83af1006601cedf26fa4bc"
+    },
+    {
+      "path": "notes/2026-11-12-closure-majorant-two-cycle-r1.json",
+      "bytes": 3006,
+      "sha256": "85c3b7ffe36df8b0d50c0c45a2ee0fcdb0d6b61b159f2b5add3a23ca1a3c264c"
+    },
+    {
+      "path": "notes/2026-11-12-closure-majorant-two-cycle-r1-resource.json",
+      "bytes": 901,
+      "sha256": "498c8807829f20c88938b3b0d2c4ab5723b62b7b4543508fd35d662430d4e15e"
+    },
+    {
+      "path": "computations/closure_joint_majorant_diagnostic.py",
+      "bytes": 10766,
+      "sha256": "95a5dbe9c8959fa0f306e4128165deb9f27ce37ab1be245318a70079f262ccd9"
+    },
+    {
+      "path": "notes/2026-11-12-closure-joint-rho30-diagnostic-r1.json",
+      "bytes": 69695,
+      "sha256": "05df50d97ead74d83622df916876b328be84befd0fcacda55b929b1ec24f9f89"
+    },
+    {
+      "path": "notes/2026-11-12-closure-joint-rho30-diagnostic-r1-resource.json",
+      "bytes": 1032,
+      "sha256": "8d966beda3419d96257cf5f4280a12b93bc9939464c4b3afc582fc990cc03c1c"
+    },
+    {
+      "path": "notes/2026-11-12-closure-joint-rho-sensitivity-r1.json",
+      "bytes": 274460,
+      "sha256": "3d185858ea3fed71ca29905e45fdefe27214b9f460204dba5f265fbd03484fe8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-joint-rho-sensitivity-r1-resource.json",
+      "bytes": 1047,
+      "sha256": "0758dc2cf188de8cb85454dcc73a43c066b8bcd5c9aff2c4cff3faff319a904b"
+    }
+  ],
+  "exact_witness": "Only9*H[12,15]*Gamma_corr[15,12]>1 is used for R49.",
+  "exact_problem_nonexistence": false,
+  "repair_in_progress": "Split near94..184/rest186..8190; preserve the complete mean/inverse remainder and every true far mode.",
+  "actual_Arb_inverse_negative_coordinates_saved": false,
+  "float_coordinates_are_not_interval_proofs": true
+}

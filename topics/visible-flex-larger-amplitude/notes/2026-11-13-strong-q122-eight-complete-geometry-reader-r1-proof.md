@@ -1,0 +1,31 @@
+# Complete actual q122 eight-control geometry input
+
+Author: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.
+
+## Complete actual input
+
+The immutable symmetric-step plan SHA `0bfc0774122aa74cb10b242ffb964ef57db7e81526a56382f1333ca615f63ff1` contains exactly one already completed baseline and sixteen complete positive/negative fields. All are at the same q122 M28 accepted state. The original thirteen records, historical commands, source preparation and full chunks are unchanged. The added four fields use the explicitly corrected frontload provider hook `583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc` and the actually assembled eight-control response `5c83df392bb2e9ed75b767e0ed90fc85bfb83ae545945acb4177d200891937c0`.
+
+The control order is actual_q1, actual_q4, actual_c6, vu, descending_turn_curvature, start_acceleration, initial_speed_frontload, vd. Positive stencil scales are respectively .001, .00003, .000002, .0002, .0025, .002, .01, .001. The original common grid has 3764 radial coordinates and 768 material angles, all 2587 raw nodes and all 28 modes. Height, first radial mean and second radial mean use the complete original 1360 angular rule. None of the sixteen fields is a new nonlinear solution.
+
+The vd stencil was reduced from +/- .002 to +/- .001 only after the actual original chart gate rejected +.002 and both smaller signs passed chart-only checks. The failure was independently located at one displayed binary64 coordinate tie, while the exact piece derivative was strictly positive. That complete diagnosis is in the preceding archive `9bb660254e61946e0892f277ea3cf6a5abf6f475eb4b36f1d051952ddfe3263f`. No original gate, accepted baseline, grid or completed field was changed. The negative .002 geometry was never supplied or fabricated.
+
+Both actual vd full fields subsequently completed owned exit 0: +.001 after 199.912987 seconds with peak 170528 KiB; -.001 after 202.463549 seconds with peak 167620 KiB. Finite scalar summaries are curvature/size 8.408061784067527/3.895300476579872 and 8.41484732711433/3.913487406347121. Their full arrays, rather than these scalar extrema, are the required input for central pointwise differences.
+
+## Actual identity and complete-chunk bridge
+
+The fresh reader completed owned exit 0 after 7.035670 seconds, peak RSS 60604 KiB, and 886 explicit identity/chunk gates. It verifies the original thirteen-field source bridge and inventory, every original source and actual-input hash, the exact preserved historical commands, the standard eight-response identity, the original six combined rows verbatim, all four new actual source-preparation records, every explicit nonzero provider fingerprint, the same full mean rule, full grid and mode counts, contiguous chunk coverage, every chunk byte count and every chunk SHA.
+
+The old six direct combined-half vectors remain unavailable. The new assembly's observed external full/half columns and algebraic combination perturbation estimates are not reclassified as complete measured combined-half or interval certificates. All those limitations appear unchanged in the new bridge.
+
+The executed outer wrapper and saved inner geometry wrapper are distinct layers. For the original thirteen, the already verified zero-frontload delegation remains the original initial-laws wrapper. For the new four, the corrected anchor wrapper is explicitly checked against its current preparation record, which itself is an exactly reversible provider-only transformation of the original loader. All mathematical mean, geometry and domain formulas remain the original complete-mean producer. The checked loader passes only this verified outer/inner identity through to the unchanged original complete-field loader. Every original finite-domain, profile, core, mean, chunk and array-read check remains in that loader.
+
+The assembled response is deliberately selected through the new plan's `assembled_response_file`. Historical q1 field commands still point to the old six-response package, because that is what those fields actually used. Their six combined rows are checked identical in the new eight package. The sole algorithm source substitution changes the response-path selection to this explicit verified key; it does not rewrite old commands or change any geometry/LP formula. The original full-row algorithm still checks four signed principal-curvature inequalities plus one size inequality per point, 14,453,760 finite rows in total. This archive verifies the inputs; it does not claim that an unrun eight-control LP has passed those rows.
+
+The source exposes `verify(plan_path, bridge_out)`, returning the actual plan, full bridge record and a checked complete-field loader. Its CLI accepts `--plan --bridge-out --verify-only`, or the same original minimax arguments with `--out`. In a later tail-proxy wrapper the current `solve_minimax` global is retained when the original main is wrapped, so full geometry inequalities and independently supplied high-core constraints can be combined without a second geometry computation.
+
+## Scope, reproduction and storage
+
+These remain M28 finite design slopes. Using an accepted M32 core as a separate tail-budget centre does not turn them into an M32 Jacobian. Every proposed fine candidate must still pass the actual fine full-mean/inlet warm evaluation and the original nonlinear tail/BVP/audit process. No curvature derivative beyond the actual stencil, continuous remainder, reach, closed-surface D, fixed-H family, Hausdorff amplitude or Euclidean-congruence minimum is certified.
+
+The previous frontload/chart archive already contains the actual immutable final plan, all new plan/probe sources and the two complete frontload field metadata. This archive adds the actual complete vd field metadata, executed resources, complete-chunk reader source, successful bridge and its resource record. The original thirteen-field archive and scientific raw/response inputs are reused. All reproducible large field chunks remain scratch-only; complete hashes, coverage and original commands suffice to reproduce and verify every block under repository rule 11. No new ODE, Node, Newton or geometry call was made by the reader.

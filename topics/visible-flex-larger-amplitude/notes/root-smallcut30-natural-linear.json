@@ -1,0 +1,131 @@
+{
+  "scope": "Linear first-mode design only",
+  "rows": [
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "delta": 0.1718058081277058,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.5
+        }
+      },
+      "mode": 2,
+      "linear_core_g_over_f": 1.4497685003008133e-09,
+      "meridian_length": 1.9290843362123833,
+      "background_height": 1.2858906471303209,
+      "background_kappa_sample": 4.076515710467923,
+      "linear_tail_height_gain": 0.01360199513415844,
+      "linear_f_max": 1.0,
+      "linear_g_max": 0.25480402269839847,
+      "budgets": [
+        {
+          "q": 0.1,
+          "linear_ball_D": 3.028246586578456,
+          "linear_core_gap_over_D": 0.06604481976019505,
+          "background_kappa_times_D": 12.344694785357937
+        },
+        {
+          "q": 0.2,
+          "linear_ball_D": 3.054967011231046,
+          "linear_core_gap_over_D": 0.13093431075670237,
+          "background_kappa_times_D": 12.453621016244595
+        },
+        {
+          "q": 0.28,
+          "linear_ball_D": 3.0773758542489773,
+          "linear_core_gap_over_D": 0.1819732221616024,
+          "background_kappa_times_D": 12.544971016860602
+        },
+        {
+          "q": 0.32,
+          "linear_ball_D": 3.0889461071194635,
+          "linear_core_gap_over_D": 0.2071904066325131,
+          "background_kappa_times_D": 12.592137334461226
+        },
+        {
+          "q": 0.38,
+          "linear_ball_D": 3.106771276861902,
+          "linear_core_gap_over_D": 0.2446269558561335,
+          "background_kappa_times_D": 12.664801918958034
+        },
+        {
+          "q": 0.42,
+          "linear_ball_D": 3.1189771847643404,
+          "linear_core_gap_over_D": 0.2693190588579017,
+          "background_kappa_times_D": 12.714559494282849
+        }
+      ]
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "delta": 0.18439587842055488,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 8.0,
+          "peak_fraction": 0.5
+        }
+      },
+      "mode": 2,
+      "linear_core_g_over_f": -1.6648695442216975e-09,
+      "meridian_length": 1.8868912276706573,
+      "background_height": 1.181139893730274,
+      "background_kappa_sample": 7.999997565856188,
+      "linear_tail_height_gain": 0.01800823764111842,
+      "linear_f_max": 1.0,
+      "linear_g_max": 0.2731279682683963,
+      "budgets": [
+        {
+          "q": 0.1,
+          "linear_ball_D": 2.9716329248394757,
+          "linear_core_gap_over_D": 0.0673030636887306,
+          "background_kappa_times_D": 23.773056165333912
+        },
+        {
+          "q": 0.2,
+          "linear_ball_D": 2.9998051054844797,
+          "linear_core_gap_over_D": 0.1333419958745615,
+          "background_kappa_times_D": 23.998433541918804
+        },
+        {
+          "q": 0.28,
+          "linear_ball_D": 3.0229929474530275,
+          "linear_core_gap_over_D": 0.185246876103968,
+          "background_kappa_times_D": 24.183936221224645
+        },
+        {
+          "q": 0.32,
+          "linear_ball_D": 3.0348074397467877,
+          "linear_core_gap_over_D": 0.21088652664348256,
+          "background_kappa_times_D": 24.27845213081655
+        },
+        {
+          "q": 0.38,
+          "linear_ball_D": 3.0528092054414855,
+          "linear_core_gap_over_D": 0.248951031281397,
+          "background_kappa_times_D": 24.422466212555246
+        },
+        {
+          "q": 0.42,
+          "linear_ball_D": 3.0649989732885556,
+          "linear_core_gap_over_D": 0.2740620820171863,
+          "background_kappa_times_D": 24.51998432566016
+        }
+      ]
+    }
+  ]
+}

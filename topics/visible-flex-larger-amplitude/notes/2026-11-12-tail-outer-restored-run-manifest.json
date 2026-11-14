@@ -1,0 +1,100 @@
+{
+  "status": "All text restored and13-port candidate job genuinely rerun;109-point and complete-root numerical jobs remain unexecuted",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "file": "results/R41-exact-angular-connection-inverse.md",
+      "bytes": 17753,
+      "sha256": "ce3234ebe7f848b1aef0ac043015def2a83c35c5a1a7a237552d096c32ba129f"
+    },
+    {
+      "file": "computations/tail_outer_saved_port_norms.py",
+      "bytes": 13764,
+      "sha256": "663e2f06db45ae701d6d04907231ad557d939951ec93db86f18a014ce2739e2e"
+    },
+    {
+      "file": "computations/tail_r41_connection_polynomial.py",
+      "bytes": 6090,
+      "sha256": "81d5da68b0065c9e24978875c0d03cb96b6600252634c6bb028294db8e955e1e"
+    },
+    {
+      "file": "computations/tail_outer_saved_segment_norms.py",
+      "bytes": 9865,
+      "sha256": "7c3f5f709a5204c3cbdc1e993e6f5286bff9e0fff251c1e7d61d8b05bb879bbb"
+    },
+    {
+      "file": "computations/tail_r41_general_connection_polynomial.py",
+      "bytes": 4919,
+      "sha256": "6e804914afe4d83099941a168a70b6576a2e148addcf40ce36af3bbab31f77f2"
+    },
+    {
+      "file": "notes/2026-11-12-tail-outer-general-connection-root.md",
+      "bytes": 5481,
+      "sha256": "d44f5160eefa63dd7cbda9b0eb26501878a9abb194e87a1ad648c0f47feac3e5"
+    },
+    {
+      "file": "notes/2026-11-12-tail-outer-strong-m20-interface.md",
+      "bytes": 8832,
+      "sha256": "5410e8af0820155cc5d4bf96d63a9cbc6078a57e6d511ae51494906ea13fe619"
+    },
+    {
+      "file": "notes/2026-11-12-tail-outer-source-coordinate-defect.md",
+      "bytes": 8092,
+      "sha256": "3d07b8b8cdaa9568b595c1684160752c42e3f377cda0897fc9a10bb5f8d9cec9"
+    },
+    {
+      "file": "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+      "bytes": 319136,
+      "sha256": "fc75a411e96b01cbff0047783619b8193479f68ad97b437cb4fce8472f2910ec"
+    }
+  ],
+  "total_selected_bytes": 393932,
+  "restored_original_SHA_verified": [
+    "results/R41-exact-angular-connection-inverse.md",
+    "computations/tail_outer_saved_port_norms.py",
+    "computations/tail_r41_connection_polynomial.py",
+    "computations/tail_outer_saved_segment_norms.py"
+  ],
+  "completed_job": {
+    "observed_tool_exit_code": 0,
+    "tool_chunk_id": "810fcd",
+    "tool_wall_seconds": 0.582993301,
+    "elapsed_seconds": 0.1794004750000795,
+    "peak_RSS_KiB": 43652,
+    "no_remaining_session": true,
+    "all13_ports": true,
+    "new_radial_flow_or_BVP": false,
+    "node_process_started": false,
+    "candidate_only": true,
+    "exact_projected_root_certified": false,
+    "continuous_radial_solution_certified": false
+  },
+  "inputs": {
+    "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+    "notes/2026-11-12-root-real-outer-radius-v4-recovered-full.json": "28d491b998174029a80daf41e9365de6ab2c54757419de7b64f54445047b717f",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+  },
+  "run_source_hashes": {
+    "tail_outer_saved_port_norms.py": "663e2f06db45ae701d6d04907231ad557d939951ec93db86f18a014ce2739e2e",
+    "closure_real_outer_radius.py": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47",
+    "tail_r33_middle_ordered_physical.py": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e"
+  },
+  "translated_pinned_root_source_sha256": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+  "mathematical_payload_sha256": "dd2048048f15640b1726a1585c06b2c171bcbd6ca1745064ee2b9eadddcb3323",
+  "mathematical_payload_rule": "JSON sorted compact keys after omitting only elapsed_seconds and peak_RSS_KiB",
+  "old_unpushed_packet": {
+    "sha256": "e41fa524b12f746218310a990445dbd1d1af86449821583a4e77436182ae5a48",
+    "bytes": 319136,
+    "lost": true,
+    "reconstructed_from_text": false,
+    "full_old_new_field_comparison_possible": false
+  },
+  "outstanding_prepared_jobs": {
+    "segment109_executed": false,
+    "complete_R41_root_gate_executed": false,
+    "general_R41_root_gate_executed": false
+  },
+  "source_static_checks": "AST and Markdown control-character checks only; no optional numerical tests",
+  "rebuild_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python computations/tail_outer_saved_port_norms.py --response notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz --radius-ledger notes/2026-11-12-root-real-outer-radius-v4-recovered-full.json --ready-reference notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json --source-topic /workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface --out notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json"
+}

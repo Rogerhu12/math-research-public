@@ -1,0 +1,49 @@
+{
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Complete proof and formally executed R74 true-cut/Cauchy interface, including explicit nonlinear far and full-frequency correction",
+  "formal_session": 97965,
+  "formal_tool_exit": 0,
+  "formal_wait4_exit": 0,
+  "all_ten_gates": true,
+  "wall_seconds": 1.4068078994750977,
+  "peak_rss_kib": 21620,
+  "files": [
+    {
+      "path": "computations/root_anisotropic_true_cut_cauchy.py",
+      "bytes": 13727,
+      "sha256": "a27fb1d89f06f366d2d1debf221299b9f16e23b933cae4e19da80821e8b15e42"
+    },
+    {
+      "path": "computations/root_moving_auxiliary_centre_family.py",
+      "bytes": 16174,
+      "sha256": "8882dc2c7f837b1bc64a573329dcc8c6631d89f1c5e48459dd18ef03bf1ecc93"
+    },
+    {
+      "path": "computations/strong_resource_run.py",
+      "bytes": 1658,
+      "sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+    },
+    {
+      "path": "results/R78-anisotropic-true-cut-holomorphic-interface.md",
+      "bytes": 11575,
+      "sha256": "5830476af8f5c791fbc8dafae251e59f671d754bd55f4cb665f953dea54392ec"
+    },
+    {
+      "path": "notes/2026-11-12-root-r78-true-cut-cauchy-r1-plan.json",
+      "bytes": 1111,
+      "sha256": "464e9b6a93934baf9b752657a8b6d2e52e196b25ab1f9962b1f9a467821589a1"
+    },
+    {
+      "path": "notes/2026-11-12-root-r78-true-cut-cauchy-r1-resource.json",
+      "bytes": 1147,
+      "sha256": "9068ccdff05bf57f1049a148a66a63f806b74d358d93b7bce78550f099bc0d26"
+    },
+    {
+      "path": "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+      "bytes": 40560,
+      "sha256": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930"
+    }
+  ],
+  "total_bytes": 85952,
+  "full_outer_Schur_or_closed_surface_claimed": false
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "R103-all-original-positive-bins-centre-drift-stable-manifest-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Complete application proof and prepared exact Fraction consumer. No actual Python parse or numerical execution is asserted.",
+  "files": [
+    {
+      "path": "notes/2026-11-13-tail-r103-all-original-bins-centre-drift.md",
+      "sha256": "08f40aa33fe37055cf2f4870f9f4b7c05566f53e9e15e0de18171fe9880fa95f",
+      "bytes": 6526,
+      "git_blob_sha": "55a1011d548757390b7c04f280a130794244b8e5"
+    },
+    {
+      "path": "computations/tail_r103_original_all_bins_centre_drift.py",
+      "sha256": "877ed62a25f854bcd77e52e3d75f41328645be45b4003ab361af8f8f7e331604",
+      "bytes": 19638,
+      "git_blob_sha": "9ab3fca175756e8bc5ff4c9395fd3708c257abe8"
+    },
+    {
+      "path": "notes/2026-11-13-tail-r103-all-original-bins-drift-plan.json",
+      "sha256": "aad73d236882d8f26619544ce044b928b11b60923d0ee6ab5b9766d150226182",
+      "bytes": 6553,
+      "git_blob_sha": "3e12962fd7a42ab6de73623dd47dedede9484dab"
+    }
+  ],
+  "total_bytes": 32717,
+  "dependencies": [
+    {
+      "path": "results/R103-reflection-centred-position-and-defect-bridge.md",
+      "sha256": "0ec4830574c64a4c4bc3628f70e37a1d9ef501c1d6822d39fb630908add7fd96"
+    },
+    {
+      "path": "computations/tail_r103_local_carrier_centre_drift.py",
+      "sha256": "71b8e666c07e5e2a203dbde028ff8e0bb64a883551b0cd47d609773e88c848fe"
+    },
+    {
+      "manifest": "notes/2026-11-13-tail-centred-reference-composition-stable-manifest.json",
+      "git_blob_sha": "acefd852a9c4cc01f0160c2f4ddb5bbe91d4ae15",
+      "role": "Separate downstream conditional geometry composition; its numeric execution is still pending"
+    }
+  ],
+  "no_new_Arb_Node_ODE_integrals": true,
+  "no_numeric_result_claimed": true,
+  "preserves_all_original1740_leaves_and64_positive_bins": true,
+  "all_original_pending25_still_require_CLI_recovery": true,
+  "static_scope_clarification": "Only nonzero real cosine modes split into two conjugate complex coefficients; the zero mode is itself invariant. Actual J0 computation was already retained."
+}

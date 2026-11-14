@@ -1,0 +1,61 @@
+{
+  "scope": "Complete the original same-g M28 provenance after staged postprocessing.\n\nThe original spectral plan, real M24 fixed view, full exact M24-to-M28 warm\nembedding, accepted M28 raw and complete staged acceptance must all bind.\nOnly after the original physical postprocessor and its full RMS/BC/audit\ngates finish is the standard same_g_spectral_refinement record attached.\nThis does not rerun Newton, modify the metric/chart, or replace an audit with\na metadata flag. --attach-completed-only is for an already completed physical\npacket and repeats all the identity/acceptance checks before metadata writes.\n",
+  "entry_sha256": "905e256ab7e51364fe36cefb293f9d8198eae96ac2dca72e08d91993eeb48da1",
+  "postprocessor_sha256": "80044bf34cb90b104149e4c212647f322dce1d59dac6fe1ba7723d8ba60b5277",
+  "original_plan": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-spectral-plan.json",
+    "sha256": "625be5f52341af64198d70722ae7c7c3922e3bef678effedc425560021e582e0"
+  },
+  "original_warm_verification": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-spectral-warm-verified.json",
+    "sha256": "0021c30166d833f94a437656c3ca884549a1957b4133abd7b88dd8b34f1281d2"
+  },
+  "fixed_reference": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24.json.gz",
+    "sha256": "144dc8f8fc3698414c066a5529f70b4c0a4701b2b6fd67598ab6a6dcd1439595"
+  },
+  "original_fixed_raw": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-raw-collocation.json.gz",
+    "sha256": "baeb4cfe7ba1d9c74e3d51d0aa6b4cfe758dd40c1710daa8c339e71214ec16ea"
+  },
+  "actual_fixed_view_report": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-report.json",
+    "sha256": "224dec43c219892dc320f211a5fc7430830fa878e361d2adb41e11a05999487d"
+  },
+  "original_warm_raw": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-spectral-warm-raw-collocation.json.gz",
+    "sha256": "ddc255b31e14285f24058e73ca9ead54e0f80c63c515870918ad705086a348c4"
+  },
+  "accepted_raw": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-raw-collocation.json.gz",
+    "sha256": "4ce9b8927b864fd5627b64949d786aff0f4a409d1d6f19a3329ff26363bad1b3"
+  },
+  "pending_raw": {
+    "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-outer-00-raw-collocation.json.gz",
+    "sha256": "2defe8acda9dadd4c85fa05c9c01f6528622b491c898712386fa89976a4b3163"
+  },
+  "original_M24_to_M28_complete_embedding_replayed_bitwise": true,
+  "new_channels_originally_exact_zero": true,
+  "old_t_nodes": 2181,
+  "new_t_nodes": 2208,
+  "all_original_t_nodes_retained_bitwise": true,
+  "original_t_interval": [
+    0.0,
+    1.0
+  ],
+  "all_five_accepted_pending_arrays_bitwise_equal": true,
+  "original_complete_warm_H_bitwise_equal": true,
+  "physical_metric_profile_gauge_length_and_both_charts_unchanged": true,
+  "tail_configuration_changes": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "modes",
+    "traceFile",
+    "trialDiagnosticFile"
+  ],
+  "only_new_tail_spectrum_and_IO": true,
+  "prefix_Newton_calls": 0,
+  "Node_workers": 0,
+  "old_warm_RMS_not_used_as_new_RMS": true,
+  "final_physical_acceptance_not_yet_inferred": true
+}

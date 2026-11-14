@@ -1,0 +1,50 @@
+{
+  "scope": "Identical physical q096 fresh retry, with durable wait4 supervision only. Prior45096 exit remains unknown. Original prepare-only and three owned-process supervision fixtures passed; numerical retry not yet launched.",
+  "files": [
+    {
+      "path": "computations/strong_durable_resource_run.py",
+      "bytes": 6881,
+      "sha256": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf"
+    },
+    {
+      "path": "computations/strong_durable_resource_check.py",
+      "bytes": 3429,
+      "sha256": "7c376ebf5dea12c8ff010ce5757a28c6df62a058d5534dade8ef6994b8432fcf"
+    },
+    {
+      "path": "notes/2026-11-12-strong-durable-resource-check-r1.json",
+      "bytes": 15210,
+      "sha256": "2675bbc3d7e18f732761f35436387a8fb3f83d3a95b89bc7b59d58a961fb2738"
+    },
+    {
+      "path": "notes/2026-11-12-strong-durable-resource-check-r1-resource.json",
+      "bytes": 747,
+      "sha256": "6c00c7d0b11dc3869bda7a6fd0a031126c172a72d55256b9cc63d405d6c10857"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r2-actual-three-control-adapter.json",
+      "bytes": 41805,
+      "sha256": "52addbab68d8be4d53c644fe1965542b5745ab276c471007c3cc2c6b873acfe3"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r2-base-profile.json",
+      "bytes": 524,
+      "sha256": "7fe8cfbbfad3deb7163cb66f983a2fb68f2cdbe4472e734381f38e5e50919e18"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r2-command-plan.json",
+      "bytes": 10550,
+      "sha256": "228e9a44d503d08fcf56c2913919c8ab0ceecd4e1021506dd22a659c7dba87e3"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r2-config.json",
+      "bytes": 3034,
+      "sha256": "b2809ca4d6b1acde7ef5da19e40748e8920766c8aafc1a84bad478702f6d683a"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r2-prepare.log",
+      "bytes": 239,
+      "sha256": "8989b2f22c9862a8071fd1b558ebe0216cc015e758db8c6dc5c05ce91521e35b"
+    }
+  ]
+}

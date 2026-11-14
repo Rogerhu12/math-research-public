@@ -1,0 +1,49 @@
+{
+  "scope": "Actual read-only merge with an explicit bridge for the two new verified provenance records. Every old physical-input key remains exactly equal. Original complete arrays, half gates and core-exchange arithmetic unchanged; original failed merger is preserved.",
+  "created_utc": "2026-11-13T15:54:02.785803+00:00",
+  "cwd": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_merge_completed_six_missing_two_identity.py",
+    "--partial-six",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+    "--missing-two",
+    "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2.json",
+    "--out-prefix",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2"
+  ],
+  "owned_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_foreground_resource_run.py",
+    "--out",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2-resource.json",
+    "--heartbeat",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2-heartbeat.json",
+    "--ownership",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2-ownership.json",
+    "--task-prefix",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2",
+    "--",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_merge_completed_six_missing_two_identity.py",
+    "--partial-six",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+    "--missing-two",
+    "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2.json",
+    "--out-prefix",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r2"
+  ],
+  "source": {
+    "file": "computations/strong_merge_completed_six_missing_two_identity.py",
+    "sha256": "679dad4aef123de939f0f3e594e5e945a607187f40e7ed3ad204f7b57ecbb426"
+  },
+  "original_merger_sha256": "a022090a89062002a591a062a40cd9bc1af83dfae0599ae448985a6766878e0b",
+  "inputs": {
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json": "2e848e2b59507a4bec44546a4916fb54e461b59713c0b37a968313669dc97f30",
+    "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2.json": "35a06db06cb03d93edacbf024aa748a1b33149795d3a5702e104c2aa9780bca5"
+  },
+  "new_ODE_Jacobian_or_Node": false
+}

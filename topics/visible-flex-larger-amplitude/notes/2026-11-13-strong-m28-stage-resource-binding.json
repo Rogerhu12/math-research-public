@@ -1,0 +1,90 @@
+{
+  "scope": "Prepared-source correction found by static interface reading; no numerical execution or acceptance claimed.",
+  "path": "notes/2026-11-13-strong-m28-stage-resource-binding.json",
+  "old_source": {
+    "blob": "8533fa4996c4ed25e095ffe8ff4bf228a68a7ca3",
+    "sha256": "0f8cc5fe0ab3e78e52345254a9c4ed1965b20517bd1175e139914fa8d4a2494e",
+    "executed": false,
+    "reason": "Its frozen-only resource wrapper did not recognize the selected exact-stage worker; corrected by binding the existing stage-specific resource factory."
+  },
+  "new_source": {
+    "path": "computations/strong_sameg_m28_cached_audit.py",
+    "blob": "2853fed7cd8e6ce0dddd98f1d07e46d1c0ffc709",
+    "sha256": "4d1f5c7cb6a2c83b6c1a8d04d81637f39adb88315f8df021afc4ccb698e54ef6"
+  },
+  "check": {
+    "scope": "Static source binding only; no Python compile or worker/numerical execution claimed.",
+    "old_entry_sha256": "0f8cc5fe0ab3e78e52345254a9c4ed1965b20517bd1175e139914fa8d4a2494e",
+    "new_entry_sha256": "4d1f5c7cb6a2c83b6c1a8d04d81637f39adb88315f8df021afc4ccb698e54ef6",
+    "guard_sha256": "867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba",
+    "all_eight_unique_patches": true,
+    "expected_stage_worker_guard": true,
+    "replacement_occurrences": 1,
+    "restoration_occurrences": 1,
+    "all_original_math_calls_kept": true,
+    "MJS_modified": false
+  },
+  "specific_original_code": {
+    "source": "computations/strong_sameg_spectral_refinement.py",
+    "function": "resource_class",
+    "worker": "HERE/'tail_frozen_worker.mjs'",
+    "failure_path": "StagePort launches strong_exact_stage_tail_worker.mjs; the old spawn wrapper returns original Popen without appending the young-space option, leaves seen empty, and rejects len(seen)!=1 after initialization."
+  },
+  "replacement": {
+    "source": "computations/strong_tail_young_space_guard.py",
+    "function": "resource_port_class",
+    "sha256": "867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba",
+    "worker": "HERE/'strong_exact_stage_tail_worker.mjs'",
+    "protocol": "Exactly one owned matching launch, unchanged explicit old heap, append explicit young semi-space, record intent before launch and observed child after initialization, retain original owned-constructor cleanup."
+  },
+  "binding_lifetime": "Replace original.spectral.resource_class immediately before original.main; restore in finally. The original spectral and stage source files are not edited.",
+  "source_patches": [
+    [
+      "STAGE_SHA='b6f587ac428a477f32e04c13a2686ecb196cbefd342deadc669e13cc988e6753'\n",
+      "STAGE_SHA='b6f587ac428a477f32e04c13a2686ecb196cbefd342deadc669e13cc988e6753'\nYOUNG_GUARD_SHA=\"867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba\"\n"
+    ],
+    [
+      "        'strong_exact_raw_tail_warm.mjs')\n",
+      "        'strong_exact_raw_tail_warm.mjs','strong_tail_young_space_guard.py',\n        'strong_tail_constructor_guard.py')\n"
+    ],
+    [
+      "    hashes={name:original.stage.sha(HERE/name) for name in names}\n",
+      "    hashes={name:original.stage.sha(HERE/name) for name in names}\n    if hashes['strong_tail_young_space_guard.py']!=YOUNG_GUARD_SHA:\n        raise ValueError('The explicit exact-stage resource adapter changed')\n"
+    ],
+    [
+      "        persistent_identity_includes_Node_V8_platform_arch_and_complete_source=True,\n",
+      "        persistent_identity_includes_Node_V8_platform_arch_and_complete_source=True,\n        resource_factory_binding=dict(\n            original_module='strong_sameg_spectral_refinement',\n            original_module_sha256=original.stage.sha(original.spectral.__file__),\n            replacement_module='strong_tail_young_space_guard',\n            replacement_module_sha256=YOUNG_GUARD_SHA,\n            replacement_function='resource_port_class',\n            original_recognized_worker='tail_frozen_worker.mjs',\n            actual_recognized_worker='strong_exact_stage_tail_worker.mjs',\n            same_explicit_old_and_young_heap_arguments=True,\n            original_one_owned_spawn_and_cleanup_guards_retained=True,\n            purely_Python_launch_binding=True),\n"
+    ],
+    [
+      "    import strong_exact_stage_tail_client\n    import tail_frozen_client\n",
+      "    import strong_exact_stage_tail_client\n    import strong_tail_young_space_guard as young_guard\n    import tail_frozen_client\n    if (original.stage.sha(young_guard.__file__)!=YOUNG_GUARD_SHA or\n            young_guard.WORKER_SHA!=hashes['strong_exact_stage_tail_worker.mjs']):\n        raise ValueError('The resource factory is not bound to the actual frozen stage worker')\n"
+    ],
+    [
+      "    old_main=original.stage.main\n",
+      "    old_main=original.stage.main\n    old_resource_factory=original.spectral.resource_class\n"
+    ],
+    [
+      "    original.stage.main=execute_after_original_guards\n",
+      "    original.stage.main=execute_after_original_guards\n    # The original frozen-only launch wrapper cannot recognize a stage worker.\n    # Use the previously validated stage-specific wrapper with identical heap\n    # arguments; this changes no MJS, source/cache identity or mathematical path.\n    original.spectral.resource_class=young_guard.resource_port_class\n"
+    ],
+    [
+      "        original.stage.main=old_main\n",
+      "        original.stage.main=old_main\n        original.spectral.resource_class=old_resource_factory\n"
+    ]
+  ],
+  "not_changed": [
+    "all MJS bytes",
+    "whole-state prefix/raw/config/H guards",
+    "actual tail source and runtime cache key",
+    "full nonlinear/Jacobian/audit calls",
+    "prefix RMS/inlet/true-BC acceptance",
+    "M28/N1024/tol1e-7 and physical chart/profile"
+  ],
+  "runtime_checks_pending": [
+    "Python AST/prepare-only",
+    "actual stage-worker launch intent and exactly-one-observed record",
+    "complete uncached/stored M28 stage equivalence",
+    "original full tail audit",
+    "zero-Node postprocessing acceptance and all geometric audits"
+  ]
+}

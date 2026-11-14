@@ -1,0 +1,37 @@
+{
+  "schema": "R129-wide-complete-remainder-and-projected-profile-archive-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-wide-cut-profile-r1.json.gz",
+      "sha256": "9eba3b8f2f50426ca65e01ca5aaf70fb878dadf4fbb4b93fabba8594b96e297b",
+      "bytes": 23815
+    },
+    {
+      "path": "notes/2026-11-13-root-wide-cut-profile-r1-resource.json",
+      "sha256": "3b37d1d39ec57ab1f77993b6179b1de29a8f4d92822b667f631c10681e8816d2",
+      "bytes": 925
+    },
+    {
+      "path": "notes/2026-11-13-root-wide-cut-profile-input-manifest.json",
+      "sha256": "d89b0dd0cc987c193067ebe01770fb6ee60442c158a0750f96fb936449a83be8",
+      "bytes": 1927
+    },
+    {
+      "path": "computations/root_low_cut_wide_remainder_profile.py",
+      "sha256": "03b5756fa154f81aade50d371b283300175e8d175b862564dbf93d01edc46bea",
+      "bytes": 10019
+    },
+    {
+      "path": "results/R129-wide-remainder-and-projected-cut-profile.md",
+      "sha256": "170f023d710adf5c2e32ebdf66595cad90f9a515af04cf738b98a23ad0750aa4",
+      "bytes": 7170
+    }
+  ],
+  "formal_exitcode": 0,
+  "actual_gates": 116,
+  "original_axes_unchanged": true,
+  "same_original_norm_Lipschitz_bound_retained": true,
+  "profile_domain_within_R127_domain": true,
+  "only_projected_low_cut_closed": true,
+  "full_frequency_cut_closed": false
+}

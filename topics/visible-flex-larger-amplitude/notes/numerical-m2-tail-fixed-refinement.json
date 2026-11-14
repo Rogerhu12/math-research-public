@@ -1,0 +1,57 @@
+{
+  "scope": "Actual finite nonlinear tail order refinement with identical physical metric, identical first16 boundary heights and strict zero higher heights. No infinite-tail or closed-surface theorem.",
+  "height_first16_identical": true,
+  "new_high_heights_strict_zero": true,
+  "physical_height_max": 0.00020937885686298383,
+  "rows": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/numerical-m2-q20-tail-opt-w16-audit-response_0001.json.gz",
+      "sha256": "9d5a9955574f2eb06a24a5279e5b58f333ddcf978e735d4358a8fc71eda1c132",
+      "modes": 16,
+      "quadrature": 256,
+      "depth": 8,
+      "parts": 4,
+      "steps": 24,
+      "residual": 1.9569406342161863e-10,
+      "audit": {
+        "fullD": 4.222579522673713e-07,
+        "normalizedFullDefect": 0.0005276971539503137,
+        "minLeading": 0.25798301886219893,
+        "minD": 0.9988042091035362,
+        "formalCurvature": 5.999021202732373,
+        "maxPhysicalPV": 0.0004187574691565194,
+        "actualMetric": 1.765773083306745e-10,
+        "holonomy": 1.1084716516578103e-19
+      },
+      "first_cut_slope": -0.0011926392341178565,
+      "source_revision": "869436630c99aa5a68afb55bd8877c826034d117"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/numerical-m2-q20-tail-opt-w24-n512-audit-response_0001.json.gz",
+      "sha256": "8dfe6feea80dfba1dcc3ecb8fa42ee64e5cfd40cc241fb8bfd09035087720f33",
+      "modes": 24,
+      "quadrature": 512,
+      "depth": 8,
+      "parts": 4,
+      "steps": 24,
+      "residual": 1.5473704423342316e-09,
+      "audit": {
+        "fullD": 1.0996679952856304e-07,
+        "normalizedFullDefect": 0.0001985122248211919,
+        "minLeading": 0.25663194055310545,
+        "minD": 0.9988042091036407,
+        "formalCurvature": 5.999021202732373,
+        "maxPhysicalPV": 0.0004187574691565194,
+        "actualMetric": 2.1607715616874617e-11,
+        "holonomy": 1.1161148005178002e-19
+      },
+      "first_cut_slope": -0.0011926392340342257,
+      "source_revision": "869436630c99aa5a68afb55bd8877c826034d117"
+    }
+  ],
+  "ratios_M16_over_M24": {
+    "fullD": 3.839867615295042,
+    "normalizedFullDefect": 2.658260237754285,
+    "actualMetric": 8.171956326228944
+  }
+}

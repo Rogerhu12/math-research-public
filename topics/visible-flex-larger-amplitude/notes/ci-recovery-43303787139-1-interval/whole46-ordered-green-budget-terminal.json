@@ -1,0 +1,24 @@
+{
+  "name": "whole46-ordered-green-budget",
+  "argv": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "computations/closure_outer_physical_green_budget_recovered_v2.py",
+    "--geometry",
+    "notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json",
+    "--out-prefix",
+    "notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval"
+  ],
+  "cwd": "/home/runner/work/math-research/math-research/topics/visible-flex-larger-amplitude",
+  "started_utc": "2026-11-12T20:56:21.884338+00:00",
+  "ended_utc": "2026-11-12T21:02:53.937410+00:00",
+  "wall_seconds": 392.05308925800006,
+  "wait4_status": 0,
+  "exit_code": 0,
+  "signal": null,
+  "maxrss_kib": 24636,
+  "utime": 391.467709,
+  "stime": 0.070996,
+  "log": "topics/visible-flex-larger-amplitude/notes/ci-recovery-43303787139-1-interval/whole46-ordered-green-budget.log",
+  "log_sha256": "3f1a0aa352ec18e61f550b9170b867e103f9a3eba43cf8ca3ba9813217ae3af2"
+}

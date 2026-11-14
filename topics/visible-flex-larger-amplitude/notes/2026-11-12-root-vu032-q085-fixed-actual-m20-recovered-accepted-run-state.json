@@ -1,0 +1,108 @@
+{
+  "status": "accepted finite original-g problem; not exact infinite closure",
+  "accepted_full_state": true,
+  "records": {
+    "accepted": {
+      "file": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted.json.gz",
+      "sha256": "493bd60833db5d0cb4bba8020e0223e7f55675f19a17faf026033f468f5b9457"
+    },
+    "true_tail": {
+      "file": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-frozen-recovered-audit-response_0001.json.gz",
+      "sha256": "b667b7b24fd60756c341132fd14d9fe2a15857a96eb4d6598186f86741e4d091"
+    },
+    "validation": {
+      "file": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-validation.json",
+      "sha256": "78f05a8b06b22f71ff7fed1cce38220711579d03073d472c3bc73a624fdb5f82"
+    },
+    "fixed_chain": {
+      "file": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-fixed-chain.json",
+      "sha256": "813839910e8170c93a6ca0ddd893cd3dc2d6b73752a6f98328b9c6ab06d4fb6f"
+    },
+    "cartesian_seam": {
+      "file": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-cartesian-seam.json",
+      "sha256": "ffd76918dcf05e2221bf9b15991c0cee5047004f43cb47181f6936be0ad74800"
+    }
+  },
+  "solver_rms_max": 9.97554535390274e-07,
+  "true_physical_bc_max": 2.787072402950709e-15,
+  "tail_residual": 1.1564059929048096e-10,
+  "metric_l1_sample": 1.0662241426512917e-07,
+  "darboux_l1_default_sample": 0.0003338332851333996,
+  "cartesian_seam_second_max_sample": 1.3500019279901032e-07,
+  "canonical_physical_data_identical_to_m16": true,
+  "maximum_material_point_displacement_from_m16_sample": 2.4627842941511896e-07,
+  "maximum_material_Fss_difference_from_m16_sample": 0.001863581580730997,
+  "pending_raw_BVP_rerun": false,
+  "acceptance_RMS_and_actual_BC_recomputed": true,
+  "executions": {
+    "chain": {
+      "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+      "command": [
+        "python",
+        "-u",
+        "computations/root_fixed_chain_audit.py",
+        "--checkpoints",
+        "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+        "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted.json.gz",
+        "--source-topic",
+        "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+        "--port",
+        "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--angular",
+        "512",
+        "--out",
+        "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-fixed-chain.json"
+      ],
+      "wall_seconds": 27.546139001846313,
+      "exitcode": 0,
+      "termination_signal": null,
+      "peak_rss_kib": 156664,
+      "user_seconds": 24.07274,
+      "system_seconds": 0.36105699999999996,
+      "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+    },
+    "seam": {
+      "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+      "command": [
+        "python",
+        "-u",
+        "computations/root_actual_seam_audit.py",
+        "--source-topic",
+        "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted.json.gz",
+        "--port",
+        "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--tail-response",
+        "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-frozen-recovered-audit-response_0001.json.gz",
+        "--angular",
+        "512",
+        "1024",
+        "--out",
+        "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-cartesian-seam.json"
+      ],
+      "wall_seconds": 5.82161545753479,
+      "exitcode": 0,
+      "termination_signal": null,
+      "peak_rss_kib": 223328,
+      "user_seconds": 4.657513,
+      "system_seconds": 0.28776799999999997,
+      "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+    }
+  },
+  "remaining": [
+    "full interior physical two-jet refinement",
+    "same-g higher angular and radial discretization",
+    "real infinite-tail closure",
+    "strong amplitude and full all-time geometry"
+  ],
+  "full_interior_audit": {
+    "file": "2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-interior-jets.json",
+    "formal_exitcode": 0,
+    "metric_fourier_l1_sample": 1.0830874599458186e-07,
+    "darboux_fourier_l1_sample": 0.0003338332851245243,
+    "actual_vs_PDE_second_sample": 0.0001970921769568111,
+    "radial_sites": 4440,
+    "angular": 768
+  }
+}

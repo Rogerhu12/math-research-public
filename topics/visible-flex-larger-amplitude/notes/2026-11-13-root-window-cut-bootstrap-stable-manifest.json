@@ -1,0 +1,66 @@
+{
+  "schema": "R128-existing-full-field-window-bootstrap-artifacts-v1",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-window-cut-bootstrap-certificate.json.gz",
+      "sha256": "178ba84e6e4901f6ec78a2deec701616d5cc576a875ac43b8d5dd77059468b74",
+      "bytes": 124289
+    },
+    {
+      "path": "notes/2026-11-13-root-window-cut-bootstrap-summary.json",
+      "sha256": "5636444eb04d4b64cbcd06b5d01c853f46a5b0885cc1dee09b2e292b8040e9fe",
+      "bytes": 529
+    },
+    {
+      "path": "notes/2026-11-13-root-window-cut-bootstrap-resource.json",
+      "sha256": "b35ebe80b7350884e2451bb5e153c4fd1a89e4e6b36c312de833341606649caa",
+      "bytes": 940
+    },
+    {
+      "path": "notes/2026-11-13-root-window-cut-bootstrap-step00.json.gz",
+      "sha256": "02de8928c5787c52dbbe3ed6c07c2e3d161d64f62260fc199eaf4d5ad79793c8",
+      "bytes": 90349
+    },
+    {
+      "path": "notes/2026-11-13-root-window-cut-bootstrap-step01.json.gz",
+      "sha256": "0bd3b37bdc5f85b44be460dd301ee8284cf46c93faea4fa58622b9ab040faeeb",
+      "bytes": 90341
+    },
+    {
+      "path": "notes/2026-11-13-root-window-cut-bootstrap-step02.json.gz",
+      "sha256": "8521c242bac0eec3983577028c1b31528d892dc501793a5ef3d621bb5697b4a1",
+      "bytes": 90405
+    },
+    {
+      "path": "notes/2026-11-13-root-window-cut-bootstrap-step03.json.gz",
+      "sha256": "6f89f3b3761a9e2dd5ca6bc560d3758ac4125e15418239d13299eeb710a7bbd2",
+      "bytes": 90332
+    },
+    {
+      "path": "notes/2026-11-13-root-window-cut-bootstrap-input-manifest.json",
+      "sha256": "ba815d57173ca8fe35269538e0f9f7a454261fa04abad09ff7f06adbe08d0fbb",
+      "bytes": 2036
+    },
+    {
+      "path": "computations/root_window_frequency_cut_bootstrap.py",
+      "sha256": "e854ddc93e01086922b85df02a4a6acecc1e29077b26d319b0af811d0adf5e79",
+      "bytes": 19147
+    },
+    {
+      "path": "results/R128-window-mass-low-bootstrap-and-complete-cut-budget.md",
+      "sha256": "622f068e6ffa5ee65935f0a61cf4b96c20c091941bf5046cdcc226b574c7c225",
+      "bytes": 9888
+    }
+  ],
+  "formal_exitcode": 0,
+  "wall_seconds": 126.55133199691772,
+  "peak_rss_kib": 298228,
+  "same_existing_R127_field": true,
+  "actual_finite_substitutions": 4,
+  "all1150_mode_caps_reduced_in_each_step": true,
+  "complete_cut_consumed": true,
+  "parameter_cut_smallness_gate_passed": false,
+  "no_new_ODE_or_solver": true,
+  "original_mean_inverse_and_infinite_high_retained": true
+}

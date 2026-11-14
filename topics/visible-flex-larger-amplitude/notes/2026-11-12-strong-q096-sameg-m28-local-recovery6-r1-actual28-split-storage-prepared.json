@@ -1,0 +1,38 @@
+{
+  "scope": "Run the unchanged same-g M28 entry with separate Jacobian/QR disks.\n\nOnly the directory supplied to the already implemented QR file arena changes.\nAll arrays, arithmetic, iteration rules, full streamed backward checks, full-H\ntail requests and original acceptance gates remain those of the locked source.\n",
+  "entry_sha256": "4cfec7a654611d94f54e6c17ef8580c9a04c775adce65ed35c561efd3194f437",
+  "base_source_sha256": "65e81c73707c6f094ce5d494965d2fd468e971f4fa450d88513cf4ac622476fd",
+  "backend_source_sha256": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+  "disk_source_sha256": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+  "original_factor_initializer_sha256": "ca22407b9a71f5e982ab2d409e73b0283b2ed0980b58bfa857d8510bd5b0f1d3",
+  "matrix_parent": "/tmp/visible-flex-larger-20261113-recovery6-r1/matrix",
+  "factor_parent": "/tmp/visible-flex-larger-20261113-recovery6-r1/work/factor-arena",
+  "original_single_temporary_parent": "/tmp/visible-flex-larger-20261113-recovery6-r1/work/work-root/strong-sameg-m28-local-recovery6-r1/disk",
+  "changed_only": [
+    "spectral-temporary-parent storage path",
+    "QR initializer directory keyword"
+  ],
+  "mathematical_arguments_unchanged": true,
+  "MJS_unchanged": true,
+  "initial_dimensions": {
+    "n": 85,
+    "nodes": 2181,
+    "parameters": 28
+  },
+  "initial_storage_bytes": {
+    "matrix_bytes": 293515200,
+    "factor_bytes": 546754680,
+    "boundary_resident_bytes": 178992
+  },
+  "maximum_allowed_mesh_storage_bytes": {
+    "matrix_bytes": 430713360,
+    "factor_bytes": 802442160,
+    "boundary_resident_bytes": 178992
+  },
+  "free_bytes_before": {
+    "matrix": 2846109696,
+    "factor": 2846109696
+  },
+  "exact_original_float64_storage": true,
+  "old_termination_causes_not_inferred": true
+}

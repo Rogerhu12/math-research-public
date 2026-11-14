@@ -1,0 +1,30 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-nonlinear641-v1.py",
+    "--topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-modal-r1.json.gz",
+    "--source-summary",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-source-r1-summary.json",
+    "--source-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-source-r1-resource.json",
+    "--old-bootstrap",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-full641-bootstrap-r1.json.gz",
+    "--old-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-full641-bootstrap-r1-resource.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-nonlinear641-r1",
+    "--steps",
+    "128"
+  ],
+  "wall_seconds": 19.952442407608032,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 71460,
+  "user_seconds": 10.219105,
+  "system_seconds": 0.314724,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

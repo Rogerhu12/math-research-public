@@ -1,0 +1,73 @@
+{
+  "scope": "Exact rational weighted sums over all saved Float64 coefficients at the actual accepted same-g M28/M32 points; only a design regularity diagnostic. No unrepresented Fourier tail or true metric error is certified.",
+  "created_utc": "2026-11-13T15:08:11.353503+00:00",
+  "actual_fine_primary_sha256": "4c0e13b2ea4e2541e75891a3b4fafa93ffc2f8331cfdcdc7e4083ac3cbfef1ad",
+  "new_solution_claim": false,
+  "new_Node_or_Flow_started": false,
+  "resources": [
+    {
+      "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+      "task_prefix": "strong-q122-sameg-core-tail-exact-r1",
+      "command": [
+        "python",
+        "-u",
+        "computations/strong_saved_core_tail_exact_sums.py",
+        "--coarse",
+        "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+        "--fine",
+        "notes/2026-11-13-strong-q122-m32-sameg-actual-r1.json.gz",
+        "--out",
+        "notes/2026-11-13-strong-q122-sameg-core-tail-exact-r1.json"
+      ],
+      "started_utc": "2026-11-13T15:07:25.280598+00:00",
+      "finished_utc": "2026-11-13T15:07:26.805665+00:00",
+      "wall_seconds": 1.5455819249982596,
+      "exitcode": 0,
+      "termination_signal": null,
+      "wait4_observed": true,
+      "wait_status": 0,
+      "peak_rss_kib": 12724,
+      "user_seconds": 0.311427,
+      "system_seconds": 0.13808199999999998,
+      "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+      "received_supervisor_signals": [],
+      "owned_child_pid": 6,
+      "supervisor_pid": 5,
+      "supervisor_pid_namespace": "pid:[4026532256]",
+      "automatic_restarts": 0
+    }
+  ],
+  "files": [
+    {
+      "file": "computations/strong_saved_core_tail_exact_sums.py",
+      "sha256": "2040535c552ef87776fe49b9d390f5dc6bcc4c3409b4ebd74422e58ab5221b51",
+      "bytes": 3768
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-sameg-core-tail-exact-r1.json",
+      "sha256": "a96f14c60f7ba0d56f818dda64777e95b2a190103e5b253cd8a4c7d5d02adac0",
+      "bytes": 10463
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-sameg-core-tail-exact-r1-resource.json",
+      "sha256": "d677ae4cf401d1be82a88cd163eb818e67e039a962576c2c1b608f524d7730f9",
+      "bytes": 1379
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-sameg-core-tail-exact-r1-heartbeat.json",
+      "sha256": "e8b9e62f2aaec4a77870f1b0e2a402cbe5a0f95be1b2f2391f497db40b9a7e25",
+      "bytes": 282
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-sameg-core-tail-exact-r1-ownership.json",
+      "sha256": "f57890508d7a1c7d392ce8a822fa5ae1e36217030479615822f012a0f43f8aef",
+      "bytes": 1571
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-sameg-core-tail-exact-r1-stdout.log",
+      "sha256": "cf8544a407e58674eedc0d7fa6105487212c6134cec84b3710481f818eb5fd22",
+      "bytes": 1526
+    }
+  ],
+  "total_bytes": 18989
+}

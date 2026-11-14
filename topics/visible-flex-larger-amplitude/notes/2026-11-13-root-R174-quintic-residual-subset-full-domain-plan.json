@@ -1,0 +1,349 @@
+{
+  "schema": "R174-complete-owned-batch-plan-v1",
+  "created_utc": "2026-11-13T19:20:55.226171+00:00",
+  "worker": "/workspace/scratch/d1aa462cfc02/root-work/R174-owned-batches/root_R174_quintic_correlated_residual.py",
+  "worker_sha256": "ebbcba4e7dcf73b1cefc66ba72f4fd8d4f9fe6458a470f6e08919e2d844b9327",
+  "input_manifest": "/workspace/scratch/d1aa462cfc02/root-work/R174-quintic-residual-inputs/input-manifest.json",
+  "input_manifest_sha256": "e797f0f55dbc5a514575fcb96aa1cb9fd829712079384baf955085a30c66dee7",
+  "wrapper": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_resource_run.py",
+  "wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59",
+  "inverse_order": 32,
+  "rss_kib": 131072,
+  "max_parallel": 3,
+  "whole_original_leaves": 3940,
+  "whole_refined_leaves": 3976,
+  "batches": [
+    {
+      "id": 0,
+      "start_row": 0,
+      "end_row": 64
+    },
+    {
+      "id": 1,
+      "start_row": 64,
+      "end_row": 128
+    },
+    {
+      "id": 2,
+      "start_row": 128,
+      "end_row": 192
+    },
+    {
+      "id": 3,
+      "start_row": 192,
+      "end_row": 256
+    },
+    {
+      "id": 4,
+      "start_row": 256,
+      "end_row": 320
+    },
+    {
+      "id": 5,
+      "start_row": 320,
+      "end_row": 384
+    },
+    {
+      "id": 6,
+      "start_row": 384,
+      "end_row": 448
+    },
+    {
+      "id": 7,
+      "start_row": 448,
+      "end_row": 512
+    },
+    {
+      "id": 8,
+      "start_row": 512,
+      "end_row": 576
+    },
+    {
+      "id": 9,
+      "start_row": 576,
+      "end_row": 640
+    },
+    {
+      "id": 10,
+      "start_row": 640,
+      "end_row": 704
+    },
+    {
+      "id": 11,
+      "start_row": 704,
+      "end_row": 768
+    },
+    {
+      "id": 12,
+      "start_row": 768,
+      "end_row": 832
+    },
+    {
+      "id": 13,
+      "start_row": 832,
+      "end_row": 896
+    },
+    {
+      "id": 14,
+      "start_row": 896,
+      "end_row": 960
+    },
+    {
+      "id": 15,
+      "start_row": 960,
+      "end_row": 1024
+    },
+    {
+      "id": 16,
+      "start_row": 1024,
+      "end_row": 1088
+    },
+    {
+      "id": 17,
+      "start_row": 1088,
+      "end_row": 1152
+    },
+    {
+      "id": 18,
+      "start_row": 1152,
+      "end_row": 1216
+    },
+    {
+      "id": 19,
+      "start_row": 1216,
+      "end_row": 1280
+    },
+    {
+      "id": 20,
+      "start_row": 1280,
+      "end_row": 1344
+    },
+    {
+      "id": 21,
+      "start_row": 1344,
+      "end_row": 1408
+    },
+    {
+      "id": 22,
+      "start_row": 1408,
+      "end_row": 1472
+    },
+    {
+      "id": 23,
+      "start_row": 1472,
+      "end_row": 1536
+    },
+    {
+      "id": 24,
+      "start_row": 1536,
+      "end_row": 1600
+    },
+    {
+      "id": 25,
+      "start_row": 1600,
+      "end_row": 1664
+    },
+    {
+      "id": 26,
+      "start_row": 1664,
+      "end_row": 1728
+    },
+    {
+      "id": 27,
+      "start_row": 1728,
+      "end_row": 1792
+    },
+    {
+      "id": 28,
+      "start_row": 1792,
+      "end_row": 1856
+    },
+    {
+      "id": 29,
+      "start_row": 1856,
+      "end_row": 1920
+    },
+    {
+      "id": 30,
+      "start_row": 1920,
+      "end_row": 1984
+    },
+    {
+      "id": 31,
+      "start_row": 1984,
+      "end_row": 2048
+    },
+    {
+      "id": 32,
+      "start_row": 2048,
+      "end_row": 2112
+    },
+    {
+      "id": 33,
+      "start_row": 2112,
+      "end_row": 2176
+    },
+    {
+      "id": 34,
+      "start_row": 2176,
+      "end_row": 2240
+    },
+    {
+      "id": 35,
+      "start_row": 2240,
+      "end_row": 2304
+    },
+    {
+      "id": 36,
+      "start_row": 2304,
+      "end_row": 2368
+    },
+    {
+      "id": 37,
+      "start_row": 2368,
+      "end_row": 2432
+    },
+    {
+      "id": 38,
+      "start_row": 2432,
+      "end_row": 2496
+    },
+    {
+      "id": 39,
+      "start_row": 2496,
+      "end_row": 2560
+    },
+    {
+      "id": 40,
+      "start_row": 2560,
+      "end_row": 2624
+    },
+    {
+      "id": 41,
+      "start_row": 2624,
+      "end_row": 2688
+    },
+    {
+      "id": 42,
+      "start_row": 2688,
+      "end_row": 2752
+    },
+    {
+      "id": 43,
+      "start_row": 2752,
+      "end_row": 2816
+    },
+    {
+      "id": 44,
+      "start_row": 2816,
+      "end_row": 2880
+    },
+    {
+      "id": 45,
+      "start_row": 2880,
+      "end_row": 2944
+    },
+    {
+      "id": 46,
+      "start_row": 2944,
+      "end_row": 3008
+    },
+    {
+      "id": 47,
+      "start_row": 3008,
+      "end_row": 3072
+    },
+    {
+      "id": 48,
+      "start_row": 3072,
+      "end_row": 3136
+    },
+    {
+      "id": 49,
+      "start_row": 3136,
+      "end_row": 3200
+    },
+    {
+      "id": 50,
+      "start_row": 3200,
+      "end_row": 3264
+    },
+    {
+      "id": 51,
+      "start_row": 3264,
+      "end_row": 3328
+    },
+    {
+      "id": 52,
+      "start_row": 3328,
+      "end_row": 3392
+    },
+    {
+      "id": 53,
+      "start_row": 3392,
+      "end_row": 3408
+    },
+    {
+      "id": 54,
+      "start_row": 3408,
+      "end_row": 3424
+    },
+    {
+      "id": 55,
+      "start_row": 3424,
+      "end_row": 3456
+    },
+    {
+      "id": 56,
+      "start_row": 3456,
+      "end_row": 3520
+    },
+    {
+      "id": 57,
+      "start_row": 3520,
+      "end_row": 3584
+    },
+    {
+      "id": 58,
+      "start_row": 3584,
+      "end_row": 3648
+    },
+    {
+      "id": 59,
+      "start_row": 3648,
+      "end_row": 3712
+    },
+    {
+      "id": 60,
+      "start_row": 3712,
+      "end_row": 3776
+    },
+    {
+      "id": 61,
+      "start_row": 3776,
+      "end_row": 3840
+    },
+    {
+      "id": 62,
+      "start_row": 3840,
+      "end_row": 3904
+    },
+    {
+      "id": 63,
+      "start_row": 3904,
+      "end_row": 3968
+    },
+    {
+      "id": 64,
+      "start_row": 3968,
+      "end_row": 3976
+    }
+  ],
+  "reuse": {
+    "batch": 54,
+    "original_resource": "/workspace/scratch/d1aa462cfc02/root-work/r127/R174-subset-run1-resource.json",
+    "sha256": "5057375a265cc914c8982e39d22ada7303f0a1030379b6fa657af122f11a11bf",
+    "reason": "These16 successful R174 leaves are reused byte-for-byte, not recomputed. Other64 batches cover exactly the previously unpaid leaves."
+  },
+  "mathematical_scope": "Same exact quintic R173 candidate/full mean and original background; complete residual with degree9 correlated linear terms, inverse32 and positive infinite tail. Each child owns only its declared subset."
+}

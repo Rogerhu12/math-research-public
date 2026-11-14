@@ -1,0 +1,63 @@
+{
+  "title": "Complete original initial-tail accepted trial 3, before full Jacobian completion",
+  "scope": "Actual same new complete H; original 577x64 state and raw subset preserved byte for byte. Accepted trial norm does not assert full J, audit, physical boundary conditions or full BVP acceptance.",
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-heartbeat.json",
+      "bytes": 337,
+      "sha256": "1dc26b282be11e4691b8b8ae6f3bd9616e2e64ee4d53314e81fe70c5dd81983c",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-heartbeat.json",
+      "original_sha256": "1dc26b282be11e4691b8b8ae6f3bd9616e2e64ee4d53314e81fe70c5dd81983c"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-ownership.json",
+      "bytes": 2106,
+      "sha256": "3caf4988b6fedde8f7cc7e2680e55ba93b97e2c7a4a79f17830b645b4f25c633",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-ownership.json",
+      "original_sha256": "3caf4988b6fedde8f7cc7e2680e55ba93b97e2c7a4a79f17830b645b4f25c633"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-resource.json",
+      "bytes": 1886,
+      "sha256": "fc62110d7542b58bdd6fcdeb0214a72b9376fa456c15782cc058d4cb193e4297",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-resource.json",
+      "original_sha256": "fc62110d7542b58bdd6fcdeb0214a72b9376fa456c15782cc058d4cb193e4297"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1.json",
+      "bytes": 6425,
+      "sha256": "d8a37a70ae6d1604510f602a3a4d026d2ece2eda177a5a54f2a97fe838ac5eaa",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1.json",
+      "original_sha256": "d8a37a70ae6d1604510f602a3a4d026d2ece2eda177a5a54f2a97fe838ac5eaa"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1.stdout.log",
+      "bytes": 2070,
+      "sha256": "fae5be1fe07ebba7a4c57c434ef28b04c01e22b450f8a1cec75576855736ba03",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1.stdout.log",
+      "original_sha256": "fae5be1fe07ebba7a4c57c434ef28b04c01e22b450f8a1cec75576855736ba03"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-initial-tail-trial03-recovery-r1-checkpoint.json.gz",
+      "bytes": 376205,
+      "sha256": "f64ef5570e68f949d99606d8b652b882fd81244a1ae7bd60c60b099f551ec60a"
+    }
+  ],
+  "original_call": 1,
+  "original_iteration": 3,
+  "norm": 8.576952388440954e-11,
+  "tail_converged": false,
+  "whole_BVP_accepted": false,
+  "checks": 14,
+  "storage_owned_exitcode": 0,
+  "storage_wait4": true,
+  "storage_wall_seconds": 1.073688995995326,
+  "storage_peak_rss_kib": 21296,
+  "same_candidate_original_launch": {
+    "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r2-launch-plan.json",
+    "sha256": "b8a211863373616f352cf5010576704194b7d4d400305c03ce610948bae5b910"
+  },
+  "created_utc": "2026-11-13T19:49:38.395138+00:00",
+  "schema": "strong-small-archive-manifest-v1",
+  "bytes": 389029
+}

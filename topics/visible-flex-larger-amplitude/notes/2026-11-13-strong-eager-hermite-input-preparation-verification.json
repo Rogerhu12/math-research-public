@@ -1,0 +1,40 @@
+{
+  "scope": "Fresh first-live input adapter plus frozen eager audit scheduling. Complete old data verification and production prepare only; no new solve or timing benefit.",
+  "passed": true,
+  "checks": {
+    "target_actual_low_core_unchanged_from_frozen_eager_entry": true,
+    "fixed_representation_gauge_unchanged_from_frozen_eager_entry": true,
+    "all_core_unknown_count_unchanged_from_frozen_eager_entry": true,
+    "total_parameter_count_unchanged_from_frozen_eager_entry": true,
+    "field_dimension_unchanged_from_frozen_eager_entry": true,
+    "boundary_residual_count_unchanged_from_frozen_eager_entry": true,
+    "fixed_external_profile_shifts_unchanged_from_frozen_eager_entry": true,
+    "original_nodes_unchanged_from_frozen_eager_entry": true,
+    "radial_batch_size_unchanged_from_frozen_eager_entry": true,
+    "collocation_batch_size_unchanged_from_frozen_eager_entry": true,
+    "point_cache_limit_unchanged_from_frozen_eager_entry": true,
+    "source_transform_unchanged_from_frozen_eager_entry": true,
+    "full_base_profile_unchanged": true,
+    "all_nonIO_tail_config_unchanged": true,
+    "original_config_explicit_warm_is_selected_input": true,
+    "all_15_protocol_checks_and_55_full_input_checks_passed": true,
+    "zero_new_Numerics_and_Node": true,
+    "2026-11-13-strong-explicit-hermite-port-protocol-r1_owned_formal0": true,
+    "2026-11-13-strong-q106-eager-hermite-production-prepare-r1_owned_formal0": true
+  },
+  "resources": [
+    {
+      "file": "notes/2026-11-13-strong-explicit-hermite-port-protocol-r1-resource.json",
+      "sha256": "389a6a50dd29a4ca14aa49e709c13efaa7805eb75916817ed7dff9e8bd86fce2",
+      "wall_seconds": 2.0149635800007673,
+      "peak_rss_kib": 34308
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-eager-hermite-production-prepare-r1-resource.json",
+      "sha256": "16706b5d40e95a7ab0122895ea96624bca3a64196515cecb14a317567aca229b",
+      "wall_seconds": 1.01792543099873,
+      "peak_rss_kib": 34104
+    }
+  ],
+  "development_boundary": "An initial read-only draft incorrectly compared rawStates to all 577 shooting states and rejected before port/worker creation; corrected to the frozen original 9 rawNode-indexed states, with all 577 shooting states retained. No production run or numerical result was changed."
+}

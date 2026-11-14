@@ -1,0 +1,30 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/tail_carrier_conditional_curvature_relocated.py",
+    "--topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--math-directory",
+    "computations",
+    "--carrier-summary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-summary.json",
+    "--carrier-resource",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-resource.json",
+    "--background",
+    "notes/2026-11-12-tail-r31-recovered-background-ledger.json",
+    "--r102-budget",
+    "notes/2026-11-12-tail-r102-seg7-field-defect-budget.json",
+    "--out",
+    "/tmp/vfla-20261113-geometry/curvature-r1.json",
+    "--rss-limit-mib",
+    "40"
+  ],
+  "wall_seconds": 0.4759831428527832,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 17972,
+  "user_seconds": 0.46215,
+  "system_seconds": 0.012752999999999999,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

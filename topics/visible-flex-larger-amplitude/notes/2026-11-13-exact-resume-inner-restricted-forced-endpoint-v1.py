@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+"""Actual same-field two-cell endpoint with intersected forced columns.
+
+Author: exact_closure (GPT-6 Astra Pro; AI-assisted), 2026-11-13.
+Exact FLINT rationals, full low46/common masses, complete Q/T/mean/inverse.
+"""
+import argparse,gzip,hashlib,json,resource,sys,time
+from pathlib import Path
+from flint import fmpq as Q
+
+MATERIALS=('d1','d_lambda')
+GROUPS=[list(range(6)),list(range(6,13))]
+
+
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+
+
+def read(p):
+    p=Path(p)
+    with (gzip.open(p,'rt') if p.suffix=='.gz' else p.open()) as f:return json.load(f)
+
+
+def q(v):
+    if isinstance(v,list):return Q(int(v[0]))*Q(2)**int(v[1])
+    if 'upper' in v:return q(v['upper'])
+    if 'mantissa' in v:return Q(int(v['mantissa']))*Q(2)**int(v['binary_exponent'])
+    return Q(int(v['numerator']),int(v['denominator']))
+
+
+def pack(z):
+    if z<0:raise ArithmeticError('Negative complete endpoint budget')
+    if not z:return ['0',0]
+    e=z.numerator.bit_length()-z.denominator.bit_length()
+    if z<Q(2)**e:e-=1
+    e-=159;t=z/Q(2)**e;m=(t.numerator+t.denominator-1)//t.denominator
+    if Q(m)*Q(2)**e<z:raise ArithmeticError('Inward endpoint rounding')
+    return [str(m),e]
+
+
+def up(z):return q(pack(z))
+
+
+def support(weights,caps,budget):
+    value=Q(0)
+    for weight,cap in sorted(zip(weights,caps),reverse=True):
+        take=min(cap,budget);value+=weight*take;budget-=take
+        if budget==0:break
+    return value
+
+
+def completed(r):return r.get('exitcode',r.get('exit_code'))==0 and r.get('termination_signal') is None
+
+
+def main():
+    p=argparse.ArgumentParser(description=__doc__)
+    for k in ('topic','field','field-resource','cell13','cell13-resource','out-prefix'):p.add_argument('--'+k,type=Path,required=True)
+    p.add_argument('--forced12',type=Path,action='append',required=True)
+    p.add_argument('--forced12-resource',type=Path,action='append',required=True)
+    a=p.parse_args();started=time.monotonic();out=Path(str(a.out_prefix)+'.json.gz')
+    if out.exists():raise FileExistsError('Preserve every actual endpoint comparison')
+    counts={};ids={}
+    def check(name,value):
+        if not value:raise ArithmeticError('Exact forced endpoint gate: '+name)
+        counts[name]=counts.get(name,0)+1
+    def pinned(name,path):
+        ids[name]=dict(path=str(path),sha256=sha(path));return read(path)
+    x=pinned('field',a.field);k13=pinned('cell13',a.cell13)
+    for name,path in [('field_resource',a.field_resource),('cell13_resource',a.cell13_resource)]:check('formal_input_success',completed(pinned(name,path)))
+    for obj in (x,k13):check('all_input_gates',obj['all_gates'] and all(obj['gates'].values()))
+    check('restricted_current_field_schema',x['schema']=='same-R100-restricted-inner13-window-low46-and-infinite-finite-bootstrap-head-v3')
+    check('same_declared_restricted_profile',x['domain']['simultaneous_original_coordinates'])
+    paths={key:Path(rec['path']) for key,rec in x['input_identities'].items()}
+    for key in ('source_summary','dq_kernels','scalar_endpoint'):
+        check('actual_source_and_kernel_pin',sha(paths[key])==x['input_identities'][key]['sha256']);ids[key]=x['input_identities'][key]
+    summary=read(paths['source_summary']);scalar=read(paths['scalar_endpoint']);windows=x['windows']
+    check('same_complete13_window_cover',k13['windows']==windows and len(windows)==13)
+    check('same_original_density',k13['input_identities']['density']['sha256']==x['input_identities']['density']['sha256'])
+    V13=q(scalar['cell13_boundary_Vprime_upper']);check('strict_saved_construction_scale',V13>0)
+    coefficients12=[[q(row['source_two_material_kernels'][mat]) for mat in MATERIALS] for row in x['endpoint_rows']]
+    check('forced_resources_complete',len(a.forced12)==len(a.forced12_resource)>0)
+    for i,(path,respath) in enumerate(zip(a.forced12,a.forced12_resource)):
+        forced=pinned('forced12_'+str(i),path);rr=pinned('forced12_resource_'+str(i),respath)
+        check('formal_new_forced_kernel',completed(rr) and forced['all_gates'] and all(forced['gates'].values()))
+        check('same_forced_kernel_geometry',forced['input_identities']['density']['sha256']==x['input_identities']['density']['sha256'])
+        for row in forced['rows']:
+            check('forced_kernel_actual_output_window',row['window'] in windows)
+            w=windows.index(row['window'])
+            for m,mat in enumerate(MATERIALS):
+                value=q(row['source_two_material_to_cut'][mat]);check('strict_positive_forced_source_column',value>0)
+                coefficients12[w][m]=min(coefficients12[w][m],value)
+    sys.path.insert(0,str(a.topic/'computations'))
+    from closure_split_joint_io_v2 import iter_array
+    dq=[]
+    for row in iter_array(paths['dq_kernels'],'rows'):
+        dq.append(row)
+        if len(dq)==2:break
+    check('first_two_full_DQ_source_rows',[r['cell'] for r in dq]==[12,13])
+    source_path=paths['source_summary'].parent/Path(summary['source_parts'][0]['path']).name
+    check('complete_source_part_pin',sha(source_path)==summary['source_parts'][0]['sha256'])
+    src=[]
+    with gzip.open(source_path,'rt') as f:
+        for _ in range(2):src.append(json.loads(next(f)))
+    check('both_complete_source_cells',[r['cell'] for r in src]==[12,13] and all(r['complete_mean_and_inverse_retained'] for r in src))
+    poly=[]
+    for row in src:
+        cols={mat:[Q(0)]*13 for mat in MATERIALS}
+        for term in row['high_polynomial_pair_rows']:
+            w=next(i for i,(lo,hi) in enumerate(windows) if lo<=term['mode']<=hi)
+            for mat in MATERIALS:cols[mat][w]+=q(term[mat])
+        poly.append(cols)
+    def source(n,coeff,indices,single=False):
+        row=x['rows'][n];group=int(indices[0]>=6);reference=Q(0)
+        for m,mat in enumerate(MATERIALS):
+            sr=summary['rows'][n]['source_common_mass'][mat];maxk=max(coeff[w][m] for w in indices)
+            reference+=min(sum((coeff[w][m]*poly[n][mat][w] for w in indices),Q(0))+maxk*q(sr['shared_complete_inverse_tail']),maxk*q(sr[('near94to184','rest186to8190')[group]]))
+        if single:
+            w=indices[0]
+            linear=sum((coeff[w][m]*q(row['DQ_two_material_window_sources'][mat][w]) for m,mat in enumerate(MATERIALS)),Q(0))
+        else:
+            aggregate=[sum((coeff[w][m]*q(dq[n][('kernels_s_upper','kernels_ell_upper')[m]][w][j]) for w in indices for m in range(2)),Q(0)) for j in range(15)]
+            lowcols=[sum((coeff[w][m]*q(dq[n][('low_singleton_kernels_s_upper','low_singleton_kernels_ell_upper')[m]][w][j]) for w in indices for m in range(2)),Q(0)) for j in range(46)]
+            caps=list(map(q,row['window_caps']));masses=list(map(q,row['near_rest_common_caps']));lo=q(row['fixed_low_cap'])
+            low=min(aggregate[0]*lo,support(lowcols,list(map(q,row['low_mode_caps'])),lo))
+            linear=low+aggregate[14]*q(row['complete_infinite_cap'])+support(aggregate[1:7],caps[:6],masses[0])+support(aggregate[7:14],caps[6:],masses[1])
+        remainder=max(sum(coeff[w]) for w in indices)*(q(row['full_new_quadratic_window_sources'][indices[0]])+q(row['full_mean_inverse_difference_source']))
+        return reference,linear,remainder
+    coeff13=[[q(row['source_two_material_to_absolute_strong_upper'][mat]) for mat in MATERIALS] for row in k13['rows']]
+    initial13=[q(row['nextcell_Vprime_mass_to_absolute_strong_upper']) for row in k13['rows']]
+    caps14=list(map(q,x['rows'][2]['window_caps']));common14=list(map(q,x['rows'][2]['near_rest_common_caps']))
+    caps13=list(map(q,x['rows'][1]['window_caps']));common13=list(map(q,x['rows'][1]['near_rest_common_caps']))
+    h13=[];h13rows=[];h13common=[];h13bands=[]
+    for w in range(13):
+        incoming=initial13[w]*caps14[w];ref,linear,rest=source(1,coeff13,[w],True)
+        value=up(incoming+ref+linear+rest);chosen=min(value,up(V13*caps13[w]));h13.append(chosen)
+        h13rows.append(dict(window=windows[w],incoming=pack(incoming),reference=pack(ref),DQ=pack(linear),complete_Q_and_T=pack(rest),absolute_sum=pack(value),chosen_absolute_strong=pack(chosen)))
+    for group,indices in enumerate(GROUPS):
+        incoming=support([initial13[w] for w in indices],[caps14[w] for w in indices],common14[group]);ref,linear,rest=source(1,coeff13,indices)
+        value=up(incoming+ref+linear+rest);chosen=min(value,up(V13*common13[group]),up(sum((h13[w] for w in indices),Q(0))));h13common.append(chosen)
+        h13bands.append(dict(incoming=pack(incoming),reference=pack(ref),DQ=pack(linear),complete_Q_and_T=pack(rest),absolute_sum=pack(value),chosen_absolute_strong=pack(chosen)))
+    bare12=[q(row['initial_column'])/V13 for row in x['endpoint_rows']]
+    endpoint=[]
+    for w in range(13):
+        incoming=min(q(x['endpoint_rows'][w]['incoming']),up(bare12[w]*h13[w]));ref,linear,rest=source(0,coefficients12,[w],True)
+        value=up(incoming+ref+linear+rest);chosen=min(value,q(x['actual_R100_head_window_masses'][w]))
+        check('monotone_complete_window_readout',0<chosen<=q(x['actual_R100_head_window_masses'][w]))
+        endpoint.append(dict(window=windows[w],incoming=pack(incoming),complete_reference_source=pack(ref),complete_DQ_source=pack(linear),complete_shared_Q_and_T=pack(rest),endpoint_sum=pack(value),chosen_same_field_bound=pack(chosen),source_two_material_to_cut={mat:pack(coefficients12[w][m]) for m,mat in enumerate(MATERIALS)}))
+    bands=[]
+    for group,indices in enumerate(GROUPS):
+        incoming=min(q(x['complete_band_budgets'][group]['incoming']),up(support([bare12[w] for w in indices],[h13[w] for w in indices],h13common[group])))
+        ref,linear,rest=source(0,coefficients12,indices);value=up(incoming+ref+linear+rest)
+        chosen=min(value,q(x['actual_R100_head_band_masses'][group]),up(sum((q(endpoint[w]['chosen_same_field_bound']) for w in indices),Q(0))))
+        check('monotone_complete_shared_band',0<chosen<=q(x['actual_R100_head_band_masses'][group]))
+        bands.append(dict(group=('near','rest')[group],incoming=pack(incoming),complete_reference_source=pack(ref),complete_DQ_source=pack(linear),shared_complete_Q_and_T=pack(rest),endpoint_sum=pack(value),chosen_same_field_bound=pack(chosen)))
+    result=dict(schema='same-R100-restricted-actual-forced-and-two-cell-head-v1',author='exact_closure (GPT-6 Astra Pro; AI-assisted)',all_gates=True,gates={k:True for k in counts},gate_count=sum(counts.values()),gate_categories=counts,
+      input_identities=ids,source_sha256=sha(__file__),domain=x['domain'],head_strip=x['head_strip'],head_bands=x['head_bands'],windows=windows,units=x['units'],
+      actual_R100_head_band_masses=[row['chosen_same_field_bound'] for row in bands]+[x['actual_R100_head_band_masses'][2]],actual_R100_head_window_masses=[row['chosen_same_field_bound'] for row in endpoint],
+      cell13_absolute_window_rows=h13rows,cell13_absolute_band_rows=h13bands,endpoint_rows=endpoint,complete_band_budgets=bands,
+      original_cell13_Vprime_upper=scalar['cell13_boundary_Vprime_upper'],complete_mean_inverse_far=True,shared_inverse_Q_T_once_per_band=True,
+      exact_original_absolute_input_operator_restored=True,full_low46_spectral_and_common_mass_constraints=True,wholecell_bounds_unchanged=True,
+      no_new_ODE_or_radial_source_integral=True,new_fixedpoint_or_complete_parameter_cut_claimed=False,
+      elapsed_seconds=time.monotonic()-started,peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
+    out.write_bytes(gzip.compress((json.dumps(result,separators=(',',':'))+'\n').encode(),mtime=0))
+    print(json.dumps(dict(path=str(out),sha256=sha(out),bytes=out.stat().st_size,all_gates=True,gate_count=result['gate_count'],head=[float(q(z)) for z in result['actual_R100_head_band_masses']],mode94=float(q(result['actual_R100_head_window_masses'][0])),elapsed_seconds=result['elapsed_seconds'],peak_rss_kib=result['peak_rss_kib'])),flush=True)
+
+
+if __name__=='__main__':main()

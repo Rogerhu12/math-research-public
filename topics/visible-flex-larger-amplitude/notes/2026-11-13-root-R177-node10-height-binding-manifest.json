@@ -1,0 +1,63 @@
+{
+  "schema": "R177-exact-low46-boundary-binding-archive-v1",
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "created_utc": "2026-11-13T20:15:04.917840+00:00",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R177-node10-height-binding-primary.json.gz",
+      "sha256": "af2a769bffc883a8580f286f9ffcd22164ec78346b40b519ee8a6076b26be4b4",
+      "bytes": 32916
+    },
+    {
+      "path": "notes/2026-11-13-root-R177-node10-height-binding-inputs.json",
+      "sha256": "9486763ec798627dfafe13cc383631cc002ac21c694e0a6d3309668b7f32cf2c",
+      "bytes": 2512
+    },
+    {
+      "path": "notes/2026-11-13-root-R177-node10-height-binding-resource.json",
+      "sha256": "1215b2e242ea1f2c846f5ca57cc6ff2018f2089e4a20548f66f07da413a8948b",
+      "bytes": 945
+    },
+    {
+      "path": "notes/2026-11-13-root-R177-node10-height-binding-run.log",
+      "sha256": "8e7ac6799563747ceb3899d89550f7c5b3bf800cc17aab27d201c84f3a791d2f",
+      "bytes": 600
+    },
+    {
+      "path": "computations/root_R177_node10_exact_height_binding.py",
+      "sha256": "5f6a5740d8b11498701b4363f34b8921ef71fb8077201fddfe11d5acc80861f9",
+      "bytes": 8210
+    },
+    {
+      "path": "results/R177-node10-exact-low-height-and-P-entry.md",
+      "sha256": "e2cfe2d924ae99acaf3b56a2e0593edb1ae4bf3646cb0c7de2463ee2e4d3928d",
+      "bytes": 5581
+    }
+  ],
+  "original_byte_relocations": [
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R177-node10-height-binding-r1.json.gz",
+      "archived_path": "notes/2026-11-13-root-R177-node10-height-binding-primary.json.gz",
+      "sha256": "af2a769bffc883a8580f286f9ffcd22164ec78346b40b519ee8a6076b26be4b4"
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R177-node10-height-binding-inputs-r1.json",
+      "archived_path": "notes/2026-11-13-root-R177-node10-height-binding-inputs.json",
+      "sha256": "9486763ec798627dfafe13cc383631cc002ac21c694e0a6d3309668b7f32cf2c"
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R177-node10-height-binding-r1-resource.json",
+      "archived_path": "notes/2026-11-13-root-R177-node10-height-binding-resource.json",
+      "sha256": "1215b2e242ea1f2c846f5ca57cc6ff2018f2089e4a20548f66f07da413a8948b"
+    },
+    {
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R177-node10-height-binding-r1.log",
+      "archived_path": "notes/2026-11-13-root-R177-node10-height-binding-run.log",
+      "sha256": "8e7ac6799563747ceb3899d89550f7c5b3bf800cc17aab27d201c84f3a791d2f"
+    }
+  ],
+  "actual_owned_exit": 0,
+  "primary_sha256": "af2a769bffc883a8580f286f9ffcd22164ec78346b40b519ee8a6076b26be4b4",
+  "low_P_entry_paid": true,
+  "full_K_and_nonlow_entry_unpaid": true
+}

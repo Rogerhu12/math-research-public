@@ -1,0 +1,76 @@
+{
+  "scope": "Audit the actual saved C2 polynomial at nodes, midpoints and both jet lobes.\n\nEvery reported quantity is a finite spatial sample, not a continuous bound.\nThe saved polynomial's actual second derivatives are authoritative; pointwise\nPDE derivatives are compared, never substituted. No metric or map is changed.\n",
+  "input": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz",
+  "input_sha256": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+  "source_sha256": "1b7f45785fffc41595eda9aae844c3081d2954d3ea08ac0da6e5a90c935294fa",
+  "config": {
+    "angular": 768,
+    "radial": 801,
+    "batch": 8,
+    "interior_fractions": [
+      0.5,
+      0.21132486540518713,
+      0.7886751345948128
+    ]
+  },
+  "sample_count": 8812,
+  "modes": 24,
+  "q": 0.09,
+  "physical_metric_sha256": "02033db253a76d01e4268092bd867642e5d585bd79b2c273f4c9c793e294cb61",
+  "top": {
+    "metric_component_max": {
+      "value": 8.258880757061604e-08,
+      "s": 0.964281553383364,
+      "psi": 0.0,
+      "segment": "boost",
+      "interval": 361,
+      "interval_width": 0.00020693615240408025,
+      "normalized_interval_position": 0.49999999999973177
+    },
+    "kappa": {
+      "value": 8.444008476158594,
+      "s": 0.9568304105534176,
+      "psi": 1.1617347833587257,
+      "segment": "boost",
+      "interval": 322,
+      "interval_width": 0.00014425978184995358,
+      "normalized_interval_position": 0.5
+    },
+    "darboux_frobenius": {
+      "value": 0.00023868640761550013,
+      "s": 2.2184164329038656,
+      "psi": 1.5707963267948966,
+      "segment": "loop outward turn",
+      "interval": 1268,
+      "interval_width": 0.00041633487177961115,
+      "normalized_interval_position": 0.21132486540496243
+    },
+    "flow_defect": {
+      "value": 6.316630597507588e-07,
+      "s": 1.334692629468575,
+      "psi": 3.9597157404621353,
+      "segment": "first descending turn",
+      "interval": 744,
+      "interval_width": 0.00041227422507161826,
+      "normalized_interval_position": 0.4999999999997307
+    },
+    "actual_vs_PDE_second": {
+      "value": 3.410303970230719e-05,
+      "s": 0.8520537171208158,
+      "psi": 0.0,
+      "segment": "boost",
+      "interval": 190,
+      "interval_width": 0.00023299426973844017,
+      "normalized_interval_position": 0.21132486540537238
+    },
+    "metric_fourier_l1": {
+      "value": 8.776139679040119e-08,
+      "s": 0.964281553383364
+    },
+    "darboux_fourier_l1": {
+      "value": 0.00031333499706217,
+      "s": 2.2184164329038656
+    }
+  },
+  "seconds": 45.55470824241638
+}

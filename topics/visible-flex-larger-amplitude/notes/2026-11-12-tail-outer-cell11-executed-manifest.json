@@ -1,0 +1,135 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Complete true cell11 background/positive moments, formally recovered without recomputation",
+  "files": [
+    {
+      "path": "computations/tail_outer_positive_moment_panels.py",
+      "bytes": 18579,
+      "sha256": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b"
+    },
+    {
+      "path": "computations/tail_outer_compact_completed_panels.py",
+      "bytes": 11338,
+      "sha256": "51f458147dad592a180aa433dd007501efc2245673fcfaf0d1e76e49e3ac6c2b"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moment-proof-and-plan.md",
+      "bytes": 9713,
+      "sha256": "d2bf76c7fd9b098724d0541b61ce38f1a5b4a67466a890d415fc12f4275f00f5"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell11-positive-moment-execution.md",
+      "bytes": 4855,
+      "sha256": "05a23b20271208893fb396cc2e8fe656b82b968ad789be67f5f640023f3f45e6"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json",
+      "bytes": 22613,
+      "sha256": "ed68183d518c7abf99c84dd0aeab04b559993f9114d1ee153b1d2ca9c3d3fc4b"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-r1-resource.json",
+      "bytes": 1184,
+      "sha256": "cf64b985d9e044603eef92e218f15a4a6d88c0bc77a0ef8c76b99b3c0b1509bc"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r1-resource.json",
+      "bytes": 985,
+      "sha256": "afd6dc43bdb4701e581c5fd20df3c750d7af66fe84c82fd6f6714eb21e5213cf"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-resource.json",
+      "bytes": 985,
+      "sha256": "bd7c22d9ad1553b3fef1a33eda6d98e1728a2a726476e01714b2748150108515"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment0.json.gz",
+      "bytes": 1425,
+      "sha256": "080e350d4269d4ef6839e795625715ddcfaea2e1d52aa03529eded4a345f2f10"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment1.json.gz",
+      "bytes": 1462058,
+      "sha256": "ba2f6a28d01d8c2ba94f60709d84843e40a5576168957b6eb1bd526eec470c72"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment2.json.gz",
+      "bytes": 22029,
+      "sha256": "834644c8b424ee36d955a2b7dfe52cc9ab51809853d4c5cc803ecbc3b63b535b"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment3.json.gz",
+      "bytes": 2483360,
+      "sha256": "6c37ac7ca94a0f47f0cc20b55b745ca7ebf3e048d7ba17d2a45b290e9613077f"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment4.json.gz",
+      "bytes": 22842,
+      "sha256": "36fcbe8e5d40134fb52aca6a96684328081864009d900ec58f4f642f6fed4a5b"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment5.json.gz",
+      "bytes": 2434095,
+      "sha256": "33edb67af799623d76bb99d5276eed047a28628f2c27c66106d4a7e460cd903a"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment6.json.gz",
+      "bytes": 22108,
+      "sha256": "bbebf434ef5bfb102ef520147f6215d611d0b8eceeca2e593ae8e84376ec00a4"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment7.json.gz",
+      "bytes": 1050104,
+      "sha256": "96021049083566820da7f322ab91fd7aa441d8cac8f95efab33260cd82e562be"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment8.json.gz",
+      "bytes": 1448,
+      "sha256": "34263eef796a534c8b6e51d765052de126ea71de99a41abb82e2d4a73eca1579"
+    }
+  ],
+  "formal_states": {
+    "initial_missing_time": {
+      "exit_code": 127,
+      "mathematical_program_started": false
+    },
+    "mathematical_run": {
+      "session_id": 18001,
+      "final_chunk": "339ebb",
+      "exit_code": 1,
+      "reason": "Complete8,082,721-byte gzip exceeded single-file cap; all math completed"
+    },
+    "first_serializer": {
+      "session_id": 20823,
+      "final_chunk": "77ee68",
+      "exit_code": 1,
+      "reason": "Extra nonnegative-lower check rejected outward-rounded zero partial-integral hulls; exact bounds remain valid"
+    },
+    "completed_serializer": {
+      "session_id": 88345,
+      "final_chunk": "10ddb9",
+      "exit_code": 0
+    }
+  },
+  "coverage": {
+    "cell": 11,
+    "source_segments": 9,
+    "panels": 5545,
+    "original_parent_panels": 17,
+    "total_positive_moments": 5,
+    "partial_hulls_with_negative_lower": 42
+  },
+  "exact_nondisplay_payload_sha256": "970c593945ee3827b8695960ba1c8dcaf306c4c338dc13705bf95fe49d2169cd",
+  "excluded_large_redundant_input": {
+    "path": "notes/2026-11-12-tail-outer-positive-moments-cell11-r1-cell011.json.gz.partial",
+    "bytes": 8082721,
+    "sha256": "af14424853ec8c6bfe8f60342a49b9b0227088ff90fa72c4de573bc44e22728e"
+  },
+  "scope_limits": {
+    "actual_candidate_continuous_Darboux_defect_paid": false,
+    "other_outer_cells_paid_by_this_run": false,
+    "locator109_run": false,
+    "new_ODE": false
+  },
+  "data_persistence": "All exact mathematical input/header/row values from the completed oversized result are retained in nine groups plus main manifest; display strings only are omitted."
+}

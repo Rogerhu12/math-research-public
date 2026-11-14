@@ -1,0 +1,22 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "exact-work/2026-11-13-exact-resume-aux-modal-physical-transfer-v1.py",
+    "--original",
+    "geometry-work/inner-cs-lambda-r2/input-all213.json.gz",
+    "--bootstrap",
+    "exact-work/aux-all213-modal-bootstrap-r1.json.gz",
+    "--bootstrap-resource",
+    "exact-work/aux-all213-modal-bootstrap-r1-resource.json",
+    "--out",
+    "exact-work/aux-modal-physical-transfer-r1.json.gz"
+  ],
+  "wall_seconds": 7.205216407775879,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 53228,
+  "user_seconds": 5.367361,
+  "system_seconds": 0.33253299999999997,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

@@ -1,0 +1,1102 @@
+{
+  "status": "Complete true-panel domain bounds of the specified actual R48 candidate",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "cell": 0,
+  "panels": 2165,
+  "tau": "1/64",
+  "modes": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40
+  ],
+  "inverse_degree": 8,
+  "endpoints": [
+    {
+      "node": 1,
+      "side": "inner",
+      "source_cell": 0,
+      "source_segment": 0,
+      "source_x": "0",
+      "same_true_background_point": true,
+      "true_source_radius": {
+        "lower": {
+          "mantissa": "3402475141313083648716685883350709376037530474861075558171",
+          "binary_exponent": -194
+        },
+        "upper": {
+          "mantissa": "3402475141313083648716686132092959408898131204275318222619",
+          "binary_exponent": -194
+        },
+        "display": "[0.13551139063637802648094994 +/- 6.35e-27]"
+      },
+      "true_source_w": {
+        "lower": {
+          "mantissa": "4523183867530765018743841754558933760550981257034646429133",
+          "binary_exponent": -198
+        },
+        "upper": {
+          "mantissa": "4523183867530765018743841754558933760550981257034646429481",
+          "binary_exponent": -198
+        },
+        "display": "[0.011259136924887598902620820662198812225398779274672486655 +/- 5.07e-58]"
+      },
+      "status": "Explicit saved-Q/L finite candidate endpoint two-jet, not an exact radial-solution jet",
+      "modes": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "all_saved_nonmean_modes_retained": true,
+      "candidate_mean": {
+        "lower": {
+          "mantissa": "4887724826001953",
+          "binary_exponent": -77
+        },
+        "upper": {
+          "mantissa": "4887724826001953",
+          "binary_exponent": -77
+        },
+        "display": "[3.23442497245034887333628534789725650355762809340376406908e-8 +/- 3.53e-66]"
+      },
+      "inverse_degree": 8,
+      "inverse_nonconstant_W1": {
+        "lower": {
+          "mantissa": "5017542623426699040321015493566940488884287322625441405709",
+          "binary_exponent": -203
+        },
+        "upper": {
+          "mantissa": "5017542623426699040321015493566940488884287322625441405709",
+          "binary_exponent": -203
+        },
+        "display": "[0.000390303055036297767975058646649043457943378530725843666191 +/- 4.07e-61]"
+      },
+      "complete_inverse_remainder_W1": {
+        "lower": {
+          "mantissa": "836596069268589638475160910141167155722818949115449865011",
+          "binary_exponent": -291
+        },
+        "upper": {
+          "mantissa": "836596069268589638475160910141167155722818949115449865011",
+          "binary_exponent": -291
+        },
+        "display": "[2.10274728793098116507747013330937254510465854287260643678e-31 +/- 4.40e-88]"
+      },
+      "discarded_nonmean_polynomial_tail_W1": {
+        "lower": {
+          "mantissa": "4126614312273123452751764431897357979951343101826656988239",
+          "binary_exponent": -276
+        },
+        "upper": {
+          "mantissa": "4126614312273123452751764431897357979951343101826656988239",
+          "binary_exponent": -276
+        },
+        "display": "[3.39871757151182516833538144838321291047325742354315993546e-26 +/- 2.08e-83]"
+      },
+      "source_derivative_error_at_fixed_candidate_mean_W1": {
+        "lower": {
+          "mantissa": "4126614312273198834869125201559652984526994113728865153057",
+          "binary_exponent": -276
+        },
+        "upper": {
+          "mantissa": "4126614312273198834869125201559652984526994113728865153057",
+          "binary_exponent": -276
+        },
+        "display": "[3.39871757151188725374183434430911099087484485141576885406e-26 +/- 7.49e-84]"
+      },
+      "source_error_scope": "Only finite inverse/projection discrepancy at the saved candidate mean; R44 separately restores the true complete mean and computes the actual candidate defect",
+      "source_coordinate": "The same original endpoint source x used by r_x and ell",
+      "mathematical_candidate_definition": "All binary Q/L are exact stored constants; H=r^4Q and Kbar=sqrt2*L_nonmean-P_theta on the fixed real source. Kbar_x is the saved-mode projection of the stated finite inverse-polynomial PDE expression.",
+      "complete_mean_root_solved": false,
+      "exact_connection_momentum_matched": false,
+      "exact_radial_solution_derivative_claimed": false,
+      "new_angular_quadrature_or_radial_flow": false
+    },
+    {
+      "node": 0,
+      "side": "outer",
+      "source_cell": 0,
+      "source_segment": 8,
+      "source_x": "1",
+      "same_true_background_point": true,
+      "true_source_radius": {
+        "lower": {
+          "mantissa": "3766261041232098334863947243502667502893204643407940736761",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "3766261041232098334863947374255395786967303195859779507961",
+          "binary_exponent": -193
+        },
+        "display": "[0.30000000000000715908123386 +/- 6.70e-27]"
+      },
+      "true_source_w": {
+        "lower": {
+          "mantissa": "251084069415467027086100809577161690801728056650901179153",
+          "binary_exponent": -191
+        },
+        "upper": {
+          "mantissa": "251084069415467027086100809577161690801728056650901179169",
+          "binary_exponent": -191
+        },
+        "display": "[0.07999999999999993517156823496435135944082426260576113731 +/- 6.12e-57]"
+      },
+      "status": "Explicit saved-Q/L finite candidate endpoint two-jet, not an exact radial-solution jet",
+      "modes": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ],
+      "all_saved_nonmean_modes_retained": true,
+      "candidate_mean": {
+        "lower": {
+          "mantissa": "2819030038117489",
+          "binary_exponent": -70
+        },
+        "upper": {
+          "mantissa": "2819030038117489",
+          "binary_exponent": -70
+        },
+        "display": "[2.38781132158505933444714655622398424839047947898507118225e-6 +/- 9.77e-64]"
+      },
+      "inverse_degree": 8,
+      "inverse_nonconstant_W1": {
+        "lower": {
+          "mantissa": "4320312583064427650096606531611306661692009015396510020965",
+          "binary_exponent": -201
+        },
+        "upper": {
+          "mantissa": "4320312583064427650096606531611306661692009015396510020965",
+          "binary_exponent": -201
+        },
+        "display": "[0.00134426856047728330474942376169854382127770915962740313619 +/- 3.32e-60]"
+      },
+      "complete_inverse_remainder_W1": {
+        "lower": {
+          "mantissa": "435688753935987355636361321917648830313651713567586849241",
+          "binary_exponent": -274
+        },
+        "upper": {
+          "mantissa": "435688753935987355636361321917648830313651713567586849241",
+          "binary_exponent": -274
+        },
+        "display": "[1.43534908926019857207293564775680639066669449896725418564e-26 +/- 4.44e-83]"
+      },
+      "discarded_nonmean_polynomial_tail_W1": {
+        "lower": {
+          "mantissa": "6166216521574624184952734844834154351762308490797652010995",
+          "binary_exponent": -240
+        },
+        "upper": {
+          "mantissa": "6166216521574624184952734844834154351762308490797652010995",
+          "binary_exponent": -240
+        },
+        "display": "[3.48995487187118420665713045395303799016222219386831008320e-15 +/- 4.48e-72]"
+      },
+      "source_derivative_error_at_fixed_candidate_mean_W1": {
+        "lower": {
+          "mantissa": "6166216521574624185107977348906991985338909192675121398511",
+          "binary_exponent": -240
+        },
+        "upper": {
+          "mantissa": "6166216521574624185107977348906991985338909192675121398511",
+          "binary_exponent": -240
+        },
+        "display": "[3.48995487187118420674499459747035464294664425514342966555e-15 +/- 4.65e-72]"
+      },
+      "source_error_scope": "Only finite inverse/projection discrepancy at the saved candidate mean; R44 separately restores the true complete mean and computes the actual candidate defect",
+      "source_coordinate": "The same original endpoint source x used by r_x and ell",
+      "mathematical_candidate_definition": "All binary Q/L are exact stored constants; H=r^4Q and Kbar=sqrt2*L_nonmean-P_theta on the fixed real source. Kbar_x is the saved-mode projection of the stated finite inverse-polynomial PDE expression.",
+      "complete_mean_root_solved": false,
+      "exact_connection_momentum_matched": false,
+      "exact_radial_solution_derivative_claimed": false,
+      "new_angular_quadrature_or_radial_flow": false
+    }
+  ],
+  "bubble_coefficients": {
+    "2": {
+      "lower": {
+        "mantissa": "-1946570843",
+        "binary_exponent": -35
+      },
+      "upper": {
+        "mantissa": "-473979161",
+        "binary_exponent": -35
+      },
+      "display": "[+/- 0.0567]"
+    },
+    "4": {
+      "lower": {
+        "mantissa": "28046641",
+        "binary_exponent": -45
+      },
+      "upper": {
+        "mantissa": "1614800835",
+        "binary_exponent": -45
+      },
+      "display": "[+/- 4.59e-5]"
+    },
+    "6": {
+      "lower": {
+        "mantissa": "-943864133",
+        "binary_exponent": -54
+      },
+      "upper": {
+        "mantissa": "536223647",
+        "binary_exponent": -54
+      },
+      "display": "[+/- 5.24e-8]"
+    },
+    "8": {
+      "lower": {
+        "mantissa": "-1099697863",
+        "binary_exponent": -57
+      },
+      "upper": {
+        "mantissa": "-263726669",
+        "binary_exponent": -57
+      },
+      "display": "[+/- 7.64e-9]"
+    },
+    "10": {
+      "lower": {
+        "mantissa": "326307165",
+        "binary_exponent": -62
+      },
+      "upper": {
+        "mantissa": "1221002117",
+        "binary_exponent": -62
+      },
+      "display": "[+/- 2.65e-10]"
+    },
+    "12": {
+      "lower": {
+        "mantissa": "-719370541",
+        "binary_exponent": -65
+      },
+      "upper": {
+        "mantissa": "3545711",
+        "binary_exponent": -65
+      },
+      "display": "[+/- 1.95e-11]"
+    },
+    "14": {
+      "lower": {
+        "mantissa": "253568805",
+        "binary_exponent": -70
+      },
+      "upper": {
+        "mantissa": "1831215865",
+        "binary_exponent": -70
+      },
+      "display": "[+/- 1.56e-12]"
+    },
+    "16": {
+      "lower": {
+        "mantissa": "242138003",
+        "binary_exponent": -72
+      },
+      "upper": {
+        "mantissa": "1454655991",
+        "binary_exponent": -72
+      },
+      "display": "[+/- 3.09e-13]"
+    },
+    "18": {
+      "lower": {
+        "mantissa": "391300439",
+        "binary_exponent": -75
+      },
+      "upper": {
+        "mantissa": "1536223965",
+        "binary_exponent": -75
+      },
+      "display": "[+/- 4.07e-14]"
+    },
+    "20": {
+      "lower": {
+        "mantissa": "-1655464929",
+        "binary_exponent": -76
+      },
+      "upper": {
+        "mantissa": "-405321961",
+        "binary_exponent": -76
+      },
+      "display": "[+/- 2.20e-14]"
+    },
+    "22": {
+      "lower": {
+        "mantissa": "326344305",
+        "binary_exponent": -72
+      },
+      "upper": {
+        "mantissa": "1346524821",
+        "binary_exponent": -72
+      },
+      "display": "[+/- 2.86e-13]"
+    },
+    "24": {
+      "lower": {
+        "mantissa": "214614343",
+        "binary_exponent": -70
+      },
+      "upper": {
+        "mantissa": "891735589",
+        "binary_exponent": -70
+      },
+      "display": "[+/- 7.56e-13]"
+    },
+    "26": {
+      "lower": {
+        "mantissa": "-1404767031",
+        "binary_exponent": -68
+      },
+      "upper": {
+        "mantissa": "-338291303",
+        "binary_exponent": -68
+      },
+      "display": "[+/- 4.76e-12]"
+    },
+    "28": {
+      "lower": {
+        "mantissa": "188496523",
+        "binary_exponent": -65
+      },
+      "upper": {
+        "mantissa": "780415961",
+        "binary_exponent": -65
+      },
+      "display": "[+/- 2.12e-11]"
+    },
+    "30": {
+      "lower": {
+        "mantissa": "-613687739",
+        "binary_exponent": -63
+      },
+      "upper": {
+        "mantissa": "-148916459",
+        "binary_exponent": -63
+      },
+      "display": "[+/- 6.66e-11]"
+    },
+    "32": {
+      "lower": {
+        "mantissa": "154317963",
+        "binary_exponent": -62
+      },
+      "upper": {
+        "mantissa": "632167277",
+        "binary_exponent": -62
+      },
+      "display": "[+/- 1.38e-10]"
+    },
+    "34": {
+      "lower": {
+        "mantissa": "-1157548499",
+        "binary_exponent": -63
+      },
+      "upper": {
+        "mantissa": "-284740185",
+        "binary_exponent": -63
+      },
+      "display": "[+/- 1.26e-10]"
+    },
+    "36": {
+      "lower": {
+        "mantissa": "-1152635385",
+        "binary_exponent": -62
+      },
+      "upper": {
+        "mantissa": "-284816035",
+        "binary_exponent": -62
+      },
+      "display": "[+/- 2.50e-10]"
+    },
+    "38": {
+      "lower": {
+        "mantissa": "113835245",
+        "binary_exponent": -58
+      },
+      "upper": {
+        "mantissa": "227949805",
+        "binary_exponent": -57
+      },
+      "display": "[+/- 1.59e-9]"
+    },
+    "40": {
+      "lower": {
+        "mantissa": "-1185887531",
+        "binary_exponent": -65
+      },
+      "upper": {
+        "mantissa": "-303777485",
+        "binary_exponent": -65
+      },
+      "display": "[+/- 3.22e-11]"
+    }
+  },
+  "worst": {
+    "P_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "56259473070878328296213710394711916119452198272194411541",
+          "binary_exponent": -188
+        },
+        "upper": {
+          "mantissa": "56259473070878328296213710394711916119452198272194411541",
+          "binary_exponent": -188
+        },
+        "display": "[0.143402418358064463658533259024620870525355327323678878600 +/- 6.70e-59]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 1091,
+        "original_parent": 17,
+        "x_left": "2305055655457942801/2305843009213693952",
+        "x_right": "1",
+        "radius": {
+          "lower": {
+            "mantissa": "2947864831368188855225926093184226319238718617938437020653",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2947873930898896179484499508990869100419015170613353061357",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5513760265030086697026438248674366338400456706993275061169",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6066078641889877191031471445387679386206688014467495150513",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "K_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "3473706841869105753390392845689098525437854683249578396589",
+          "binary_exponent": -197
+        },
+        "upper": {
+          "mantissa": "3473706841869105753390392845689098525437854683249578396589",
+          "binary_exponent": -197
+        },
+        "display": "[0.0172935445982097777420817490496610432248484627922601106170 +/- 2.89e-59]"
+      },
+      "witness": {
+        "segment": 4,
+        "panel": 12,
+        "original_parent": 18,
+        "x_left": "3/4",
+        "x_right": "13/16",
+        "radius": {
+          "lower": {
+            "mantissa": "1672827896336015788162004597193687400051380352408905896267",
+            "binary_exponent": -192
+          },
+          "upper": {
+            "mantissa": "1689420388959065202385053013030973755801906241251583775051",
+            "binary_exponent": -192
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5726637077692392672464784935328505691128339163127367628027",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "5730978209334844773472300482860216825166233604369668404475",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "R_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "1939568248884039838633941851738144867904348754712410341543",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "1939568248884039838633941851738144867904348754712410341543",
+          "binary_exponent": -193
+        },
+        "display": "[0.154495524419324943747354367107978668343720124197503557565 +/- 2.85e-58]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 1091,
+        "original_parent": 17,
+        "x_left": "2305055655457942801/2305843009213693952",
+        "x_right": "1",
+        "radius": {
+          "lower": {
+            "mantissa": "2947864831368188855225926093184226319238718617938437020653",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2947873930898896179484499508990869100419015170613353061357",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5513760265030086697026438248674366338400456706993275061169",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6066078641889877191031471445387679386206688014467495150513",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "R_zero": {
+      "value": {
+        "lower": {
+          "mantissa": "1879759196761388434397455724517799799047319994066192394763",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "1879759196761388434397455724517799799047319994066192394763",
+          "binary_exponent": -193
+        },
+        "display": "[0.149731458561870184892228299541867135418877758472582273318 +/- 1.73e-58]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 1091,
+        "original_parent": 17,
+        "x_left": "2305055655457942801/2305843009213693952",
+        "x_right": "1",
+        "radius": {
+          "lower": {
+            "mantissa": "2947864831368188855225926093184226319238718617938437020653",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2947873930898896179484499508990869100419015170613353061357",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5513760265030086697026438248674366338400456706993275061169",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6066078641889877191031471445387679386206688014467495150513",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "Kx_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "371333376659271590342922519397194564587387938647855632677",
+          "binary_exponent": -194
+        },
+        "upper": {
+          "mantissa": "371333376659271590342922519397194564587387938647855632677",
+          "binary_exponent": -194
+        },
+        "display": "[0.0147892049672346431250689753169022467449331486679163721049 +/- 3.69e-59]"
+      },
+      "witness": {
+        "segment": 2,
+        "panel": 10,
+        "original_parent": 9,
+        "x_left": "5/8",
+        "x_right": "11/16",
+        "radius": {
+          "lower": {
+            "mantissa": "4658018045067255315800441654078250967661746045279369601689",
+            "binary_exponent": -194
+          },
+          "upper": {
+            "mantissa": "4667535534626787550411330061016764388494618959464355766937",
+            "binary_exponent": -194
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5021681388309344889827946520198922402078362763675746435067",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "5021681388309344889827946520198922402078362763675746435077",
+            "binary_exponent": -193
+          }
+        }
+      }
+    },
+    "nonmean_L_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "3556070827880446484897425451771259546324753243739402543665",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "3556070827880446484897425451771259546324753243739402543665",
+          "binary_exponent": -193
+        },
+        "display": "[0.283257383565521112429360655632148391857969744657011957696 +/- 1.10e-58]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 1091,
+        "original_parent": 17,
+        "x_left": "2305055655457942801/2305843009213693952",
+        "x_right": "1",
+        "radius": {
+          "lower": {
+            "mantissa": "2947864831368188855225926093184226319238718617938437020653",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2947873930898896179484499508990869100419015170613353061357",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5513760265030086697026438248674366338400456706993275061169",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6066078641889877191031471445387679386206688014467495150513",
+            "binary_exponent": -200
+          }
+        }
+      }
+    }
+  },
+  "segments": [
+    {
+      "segment": 0,
+      "panels": 1,
+      "R_tau": {
+        "lower": {
+          "mantissa": "707631253387648871776933462364095845107065037006299873635",
+          "binary_exponent": -198
+        },
+        "upper": {
+          "mantissa": "707631253387648871776933462364095845107065037006299873635",
+          "binary_exponent": -198
+        },
+        "display": "[0.00176144004036934708710016191264296822247006376297525992475 +/- 9.01e-61]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "1133792301147410504764047127584325721012706946142440986401",
+          "binary_exponent": -200
+        },
+        "upper": {
+          "mantissa": "1133792301147410504764047127584325721012706946142440986401",
+          "binary_exponent": -200
+        },
+        "display": "[0.000705560681196167603789382441105546160897331082531681109348 +/- 1.93e-61]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "1696732712403184982343686721872057659415553201882758508139",
+          "binary_exponent": -200
+        },
+        "upper": {
+          "mantissa": "1696732712403184982343686721872057659415553201882758508139",
+          "binary_exponent": -200
+        },
+        "display": "[0.00105587935917317948331077947153742206157273268044357881540 +/- 9.08e-61]"
+      }
+    },
+    {
+      "segment": 1,
+      "panels": 292,
+      "R_tau": {
+        "lower": {
+          "mantissa": "85536729358852716719825261229653139138488652594046123025",
+          "binary_exponent": -195
+        },
+        "upper": {
+          "mantissa": "85536729358852716719825261229653139138488652594046123025",
+          "binary_exponent": -195
+        },
+        "display": "[0.00170334839557892517274889005254039918816388391211653198177 +/- 7.15e-61]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "4636448960526956953291460837680540201218035293683996828439",
+          "binary_exponent": -202
+        },
+        "upper": {
+          "mantissa": "4636448960526956953291460837680540201218035293683996828439",
+          "binary_exponent": -202
+        },
+        "display": "[0.000721317317909566566590216029730107585772265345886550093991 +/- 6.92e-62]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "3156126198703095393423086299857530804254256119176953459381",
+          "binary_exponent": -201
+        },
+        "upper": {
+          "mantissa": "3156126198703095393423086299857530804254256119176953459381",
+          "binary_exponent": -201
+        },
+        "display": "[0.000982031077669358606158674022810291602391618566229981887780 +/- 2.00e-61]"
+      }
+    },
+    {
+      "segment": 2,
+      "panels": 16,
+      "R_tau": {
+        "lower": {
+          "mantissa": "4549315320142638699095655081827010794527474155370104202459",
+          "binary_exponent": -198
+        },
+        "upper": {
+          "mantissa": "4549315320142638699095655081827010794527474155370104202459",
+          "binary_exponent": -198
+        },
+        "display": "[0.0113241834964221566418751775353197748989897439463251604279 +/- 4.69e-59]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "3966419943365137882662031476814921361032467155472173995045",
+          "binary_exponent": -203
+        },
+        "upper": {
+          "mantissa": "3966419943365137882662031476814921361032467155472173995045",
+          "binary_exponent": -203
+        },
+        "display": "[0.000308538648824679718428712150058444837371883722450186951290 +/- 4.06e-62]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "4440281919562637835610213743743584770280271362883624608605",
+          "binary_exponent": -198
+        },
+        "upper": {
+          "mantissa": "4440281919562637835610213743743584770280271362883624608605",
+          "binary_exponent": -198
+        },
+        "display": "[0.0110527768893795569447334665587962564802381842196338654346 +/- 1.19e-59]"
+      }
+    },
+    {
+      "segment": 3,
+      "panels": 1092,
+      "R_tau": {
+        "lower": {
+          "mantissa": "1939568248884039838633941851738144867904348754712410341543",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "1939568248884039838633941851738144867904348754712410341543",
+          "binary_exponent": -193
+        },
+        "display": "[0.154495524419324943747354367107978668343720124197503557565 +/- 2.85e-58]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "56259473070878328296213710394711916119452198272194411541",
+          "binary_exponent": -188
+        },
+        "upper": {
+          "mantissa": "56259473070878328296213710394711916119452198272194411541",
+          "binary_exponent": -188
+        },
+        "display": "[0.143402418358064463658533259024620870525355327323678878600 +/- 6.70e-59]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "2228241769854933330481649905717816833310054560035026755695",
+          "binary_exponent": -197
+        },
+        "upper": {
+          "mantissa": "2228241769854933330481649905717816833310054560035026755695",
+          "binary_exponent": -197
+        },
+        "display": "[0.0110931060612604800888211080833577978183647968738246789653 +/- 4.61e-59]"
+      }
+    },
+    {
+      "segment": 4,
+      "panels": 16,
+      "R_tau": {
+        "lower": {
+          "mantissa": "1876350458653731656860032205609491350655408042100999222221",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "1876350458653731656860032205609491350655408042100999222221",
+          "binary_exponent": -193
+        },
+        "display": "[0.149459936906546337163060791302580584289812170476699376765 +/- 3.87e-58]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "3439909927309032443915798576771598642964281843495512207401",
+          "binary_exponent": -194
+        },
+        "upper": {
+          "mantissa": "3439909927309032443915798576771598642964281843495512207401",
+          "binary_exponent": -194
+        },
+        "display": "[0.137002317005506037157128791865236351761077075781590865185 +/- 4.86e-58]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "3473706841869105753390392845689098525437854683249578396589",
+          "binary_exponent": -197
+        },
+        "upper": {
+          "mantissa": "3473706841869105753390392845689098525437854683249578396589",
+          "binary_exponent": -197
+        },
+        "display": "[0.0172935445982097777420817490496610432248484627922601106170 +/- 2.89e-59]"
+      }
+    },
+    {
+      "segment": 5,
+      "panels": 299,
+      "R_tau": {
+        "lower": {
+          "mantissa": "891211289910834308432699845869765434208231247981698901923",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "891211289910834308432699845869765434208231247981698901923",
+          "binary_exponent": -192
+        },
+        "display": "[0.141978149706686901268794888001540188651691613641258961372 +/- 4.37e-58]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "1582078263345903602269385311687786028453861991569036451463",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "1582078263345903602269385311687786028453861991569036451463",
+          "binary_exponent": -193
+        },
+        "display": "[0.126019804205741834608959030164009426792452897938660901400 +/- 1.03e-58]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "3205509063612240233536230080827917439401608070309781638129",
+          "binary_exponent": -197
+        },
+        "upper": {
+          "mantissa": "3205509063612240233536230080827917439401608070309781638129",
+          "binary_exponent": -197
+        },
+        "display": "[0.0159583455009450666598358578375307618592387157025980599725 +/- 4.36e-59]"
+      }
+    },
+    {
+      "segment": 6,
+      "panels": 16,
+      "R_tau": {
+        "lower": {
+          "mantissa": "470824219260281527580569237804858762403990807076565317195",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "470824219260281527580569237804858762403990807076565317195",
+          "binary_exponent": -193
+        },
+        "display": "[0.0375033127634403322546348694121174937859651409868218446972 +/- 3.08e-61]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "2089304619670132833131493120163276513281724450372339180571",
+          "binary_exponent": -196
+        },
+        "upper": {
+          "mantissa": "2089304619670132833131493120163276513281724450372339180571",
+          "binary_exponent": -196
+        },
+        "display": "[0.0208028393093009578689972657512436586500076612892631473969 +/- 6.85e-60]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "1677289134412119387513060782275593585950202006240183356989",
+          "binary_exponent": -196
+        },
+        "upper": {
+          "mantissa": "1677289134412119387513060782275593585950202006240183356989",
+          "binary_exponent": -196
+        },
+        "display": "[0.0167004734541393743856376036608738351359574796975586973003 +/- 6.55e-60]"
+      }
+    },
+    {
+      "segment": 7,
+      "panels": 432,
+      "R_tau": {
+        "lower": {
+          "mantissa": "399299461529160683824226209097766655511142264107140049383",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "399299461529160683824226209097766655511142264107140049383",
+          "binary_exponent": -193
+        },
+        "display": "[0.0318060371140824849457773240648318897213072245451281041701 +/- 2.60e-59]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "2179714062796289306180881266575551421211218751623622005723",
+          "binary_exponent": -196
+        },
+        "upper": {
+          "mantissa": "2179714062796289306180881266575551421211218751623622005723",
+          "binary_exponent": -196
+        },
+        "display": "[0.0217030302626401414086362797721299095076983882550519102961 +/- 1.41e-59]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "2029363258873992328825856812413163645755838722466996778681",
+          "binary_exponent": -197
+        },
+        "upper": {
+          "mantissa": "2029363258873992328825856812413163645755838722466996778681",
+          "binary_exponent": -197
+        },
+        "display": "[0.0101030068514423435371410442927019802136088362900761938740 +/- 3.51e-59]"
+      }
+    },
+    {
+      "segment": 8,
+      "panels": 1,
+      "R_tau": {
+        "lower": {
+          "mantissa": "3197740505594509041049407257767158087008356284900636393097",
+          "binary_exponent": -197
+        },
+        "upper": {
+          "mantissa": "3197740505594509041049407257767158087008356284900636393097",
+          "binary_exponent": -197
+        },
+        "display": "[0.0159196704167600331582051676019910162817193778209911086101 +/- 1.19e-60]"
+      },
+      "P_tau": {
+        "lower": {
+          "mantissa": "4508325390740026494384470821064665914600760757850626371855",
+          "binary_exponent": -199
+        },
+        "upper": {
+          "mantissa": "4508325390740026494384470821064665914600760757850626371855",
+          "binary_exponent": -199
+        },
+        "display": "[0.00561107555682889724665642253423909786329965063348998558245 +/- 2.95e-60]"
+      },
+      "K_tau": {
+        "lower": {
+          "mantissa": "4141318315819004834906579105001983216716332190875959600265",
+          "binary_exponent": -198
+        },
+        "upper": {
+          "mantissa": "4141318315819004834906579105001983216716332190875959600265",
+          "binary_exponent": -198
+        },
+        "display": "[0.0103085948599311359115487450677519184184197271875011230277 +/- 4.97e-59]"
+      }
+    }
+  ],
+  "gates": {
+    "complete_mean_small_branch": false,
+    "R33_working_domain": false,
+    "R44_Wiener_leading": false
+  },
+  "leading_lower": null,
+  "mean_bound_used": "Only if R_tau<1/32: the complete R33 mean root has |c|<=4R_tau^2; no finite angular projection is substituted",
+  "partial_moment_handling": "Exact saved intervals preserved; evaluation encloses their intersection with the proved nonnegative integral domain using exact dyadic midpoint/radius",
+  "first_height_compatibility_exact_by_R48": true,
+  "full_mean_radial_derivative_evaluated": false,
+  "continuous_Darboux_defect_paid": false,
+  "exact_radial_solution_claimed": false,
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-manifest.json": "d2d4867954e26be565f9a5414805ed11de3a7bc7466e829369755bf47aa04fb2",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json": "fc75a411e96b01cbff0047783619b8193479f68ad97b437cb4fce8472f2910ec",
+    "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment0.json.gz": "f19e791c22d258afd60ed44c5e1d6879803ed7d6f1f6697a9587217f57055c24",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment1.json.gz": "45e0732418a09b6d520a61afca5f6a19ede60272cf6ac029e803a4e5c16539e8",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment2.json.gz": "a0ea020899eeee55d57a2170a3be8d887d26ae3a7f185daf0489e2d7835a0e54",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment3.json.gz": "25d6567ba17e696c20abea12328ec4c1d9e63514be876da72f404418a2cc54ac",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment4.json.gz": "799c1f107a9ea1f8c1679a5b638e01a4c5713478e5e2fd84783c29e6abba74fe",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment5.json.gz": "3e2c6ed783a7f90c29430858a00b434328c9d00b16ebc1b212b71ed1453e25bc",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment6.json.gz": "055d82fabc9d2b7a5845481f4584a299eb53870f7ea7186276cb502f137ec629",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment7.json.gz": "ce7be659bebb070a48ba8b6cbd0340b767630093aa2e57ac3952138560b1b790",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment8.json.gz": "606d2a8a851a1f2dd4efe647bd08078388c52a33975563ffe64c44d47cfc832b"
+  },
+  "source_hashes": {
+    "tail_outer_candidate_domain.py": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+    "tail_outer_weighted_endpoint.py": "2ab276f326063f99dda67d26daa86f41280997fa9909e2c6d250a0dc2e062526",
+    "tail_outer_weighted_compatible.py": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+    "tail_outer_compatible_mean_defect.py": "ca4f99740ac9ec64b73aaf6601fec78f9017c4026dadebfb98f9549e25854537",
+    "closure_real_outer_radius.py": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+    "tail_r33_middle_ordered_physical.py": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e"
+  },
+  "elapsed_seconds": 9.32206417100133,
+  "peak_RSS_KiB": 31876
+}

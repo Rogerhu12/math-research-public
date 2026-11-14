@@ -1,0 +1,436 @@
+{
+  "scope": "Save full warm geometry using the production angular rule for every mean.\n\nThis wraps the existing explicit unsolved actual-J warm inspection. It does\nnot run its residual quadrature, a tail worker, a Newton solve or a new audit.\nEvery raw mode and the complete production mean-height integral are retained\nin the same physical-s C2 cubic used by the existing warm geometry screen.\nThe mean height and its first and second radial derivatives use the same\nangular rule max(512,16*(3*M+1)) as the physical postprocessor.  The geometry\nsampling grid may have a different angular count.  This extends the frozen\nresident wrapper without editing its source or any accepted raw solution.\nThe saved signed principal curvatures and twice-radius are samples for local\ndesign comparisons, not a physical quintic, closed surface or reach bound.\n",
+  "finished": true,
+  "nonlinear_solution": false,
+  "true_new_H_tail_evaluated": false,
+  "actual_reference": "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_augmented_core.py": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_newton_checkpoints.py": "7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_warm_screen.py": "0e5a07052bbbec195d59cf95a312e6375855c86db18b4adc6614a74f45c08618",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_iterate_restore.py": "8277739ed3f3efd0e07e31d580c1e5c351c36ff0aa90b8c73605b1855bde5ee7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_neck_bvp.py": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_flow_lru.py": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_client.py": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_recorded_tail_port.py": "7fc687bd4608f5656140dc19abebccfb66074684c46651513efe68818ec311f0",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_augmented_core.py": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_pulse_augmented_core.py": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz": "5545638d33d78240a2eb6dd82269d4c10975b14f686a9562971e3b20e60ce154",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz": "086637ebb7da8995f069e626900649434ae42b27bf04c30275498d67bb315787",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz": "56716695845a37429203af0204752630d9a41e36e8670b7f6ef073bdb7c231a2",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json": "2e848e2b59507a4bec44546a4916fb54e461b59713c0b37a968313669dc97f30",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-x-000.npy.gz": "ab65caa2a33ae5d0f605cd6fb0c0ccbe759129e71860af48c87ae2d769efebf5",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-y-000.npy.gz": "3d85cfdd34303926d59dc9ab73a28e7dec660c05fe633a466202d31a47de8b42",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-p-000.npy.gz": "e7c194652d1e91b379a29e1c5c8b1d2b5cc3ab493508837d95cdc6ced78defe3",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-core-held-start_acceleration.npy.gz": "3e59477dba155c8ac6886e3d67e8d5402002ced5c9443aba9fd2f92c7034ce87"
+  },
+  "gauge": 0.09,
+  "actual_target": [
+    0.12199999999999998,
+    -0.008607763203260147,
+    -0.0006096734015582711
+  ],
+  "actual_core": [
+    0.12199999999999998,
+    -0.008607763203260147,
+    -0.0006096734015582711,
+    -0.00015370652366430138,
+    -2.8180869808949887e-05,
+    -1.902922815210981e-06,
+    -6.07077873644767e-06,
+    1.6330531754681546e-06,
+    4.3777197790849647e-07,
+    2.8677394778482737e-07,
+    2.2148847813110756e-07,
+    6.118721570742135e-08,
+    9.012545188617082e-08,
+    -1.3338808490252442e-07,
+    -4.0808663820315636e-08,
+    3.0954685175445527e-09,
+    -3.4251295123598325e-08,
+    -8.993974157380258e-09,
+    2.6724396386600292e-08,
+    -7.328821386246859e-08,
+    -1.4282685440847542e-08,
+    -7.51666824832298e-10,
+    -5.184385077097649e-08,
+    -2.1088500242070724e-08,
+    5.827754488023874e-09,
+    5.899111504125812e-08,
+    8.755332119196067e-08,
+    7.256443218156246e-08
+  ],
+  "warm_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.1746702157412224,
+    "vu": 0.32202183767271175,
+    "vd": 0.98,
+    "start_acceleration": 0.644,
+    "boost_speed": 0.8458458103903704,
+    "boost_length": 0.12863468943991652,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.831283041357157,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "original_tolerance": 1e-07,
+  "baseline_accepted_rms": 9.957361490725915e-08,
+  "physical_metric_frozen": false,
+  "complete_actual_tangent_warm": {
+    "response_file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+    "sha256": "2e848e2b59507a4bec44546a4916fb54e461b59713c0b37a968313669dc97f30",
+    "complete_field_and_all_core_kept": true,
+    "weights": [
+      {
+        "direction": "start_acceleration",
+        "weight": 0.002,
+        "file": "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1-core-held-start_acceleration.npy.gz",
+        "sha256": "3e59477dba155c8ac6886e3d67e8d5402002ced5c9443aba9fd2f92c7034ce87"
+      }
+    ],
+    "predicted_geometry_increment": {
+      "delta": -5.4869911434343735e-05,
+      "boost_length": -6.596539401830886e-05,
+      "boost_speed": 8.921268989415229e-05
+    },
+    "old_fixed_tail_entries_are_core_not_geometry": true,
+    "new_geometry_entries_appended_explicitly": true,
+    "warm_only": true,
+    "nonlinear_solution": false
+  },
+  "finite_domain_passed": true,
+  "full_collocation": {
+    "performed": false,
+    "scope": "Only geometry fields requested by this entry"
+  },
+  "geometry_fields": {
+    "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-start_acceleration-plus-field.json",
+    "sha256": "d2c5ea9f7aacae6b7cc19fb96804309d85c48a016330d08a5fb8138a83c2b612",
+    "bytes": 26461601,
+    "storage": {
+      "schema": "complete-geometry-chunks-v1",
+      "dtype": "float64",
+      "shape": [
+        3764,
+        768,
+        3
+      ],
+      "chunks": [
+        {
+          "file": "geometry-start_acceleration-plus-field-part000.npy.gz",
+          "start": 0,
+          "end": 217,
+          "bytes": 1685190,
+          "sha256": "4fb678fbe4b8cd15bacbac8f0ed0947a5fe4129744dffbba714ed8be777396a3"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part001.npy.gz",
+          "start": 217,
+          "end": 434,
+          "bytes": 1665356,
+          "sha256": "9e543c1eb5dcba0e5ccf91290ad671db93b58cab6cd559eec089666d1a688706"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part002.npy.gz",
+          "start": 434,
+          "end": 651,
+          "bytes": 1588815,
+          "sha256": "573b99c612e657e62d68b0950197c6fec2121b677769acdaba2302439b062cb8"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part003.npy.gz",
+          "start": 651,
+          "end": 868,
+          "bytes": 1635568,
+          "sha256": "545e2a471b3649dd5aa253fd93ea54ddd6e1c4f2af5c6f258001a18a82bff8df"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part004.npy.gz",
+          "start": 868,
+          "end": 1085,
+          "bytes": 1551056,
+          "sha256": "53ac18bfb674a343b2b1991a5128a1918fd0b97945c1b14c51618c4f6bc75ca4"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part005.npy.gz",
+          "start": 1085,
+          "end": 1302,
+          "bytes": 1610707,
+          "sha256": "fb5bb45944f2b72a1161be460705b16c79b202c4e9f9740fdbcd8f7ecdb626e5"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part006.npy.gz",
+          "start": 1302,
+          "end": 1519,
+          "bytes": 1671563,
+          "sha256": "71c45d3ab2f55710e793b9079ada95f13441c7ee7dbcb4ac29fda1d485ac4b7b"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part007.npy.gz",
+          "start": 1519,
+          "end": 1736,
+          "bytes": 1624670,
+          "sha256": "e5af1dcb3c49a335e048c3d26fa20154705dcc243029e5ed54caf511899cdf95"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part008.npy.gz",
+          "start": 1736,
+          "end": 1953,
+          "bytes": 1578822,
+          "sha256": "89ed4d3f1e3a1dae33595fb5cb005384e1a6a09d000aec27802d8dfe4dd5df0b"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part009.npy.gz",
+          "start": 1953,
+          "end": 2170,
+          "bytes": 1548542,
+          "sha256": "4ee516a24a4cc9938111ecc0415b879e6e58f5c298a01006f74cd83af7341c0a"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part010.npy.gz",
+          "start": 2170,
+          "end": 2387,
+          "bytes": 1531610,
+          "sha256": "9c0fcc19ec94e8001e0fd4abcb056742d1dafaad88e758583eff55e34d3aff36"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part011.npy.gz",
+          "start": 2387,
+          "end": 2604,
+          "bytes": 1489303,
+          "sha256": "d0b3705c40c0553ef8c8e15880ada0795f2bce94d0db8f6b93c5af881fa97fbe"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part012.npy.gz",
+          "start": 2604,
+          "end": 2821,
+          "bytes": 1439708,
+          "sha256": "46950523156d44a2bc9467f8c280b9d69fa84666c0fea4f0e4ef3aa377e5012e"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part013.npy.gz",
+          "start": 2821,
+          "end": 3038,
+          "bytes": 1435099,
+          "sha256": "ea1831c3274cc92c705633b730dfbd9bdc1f09a44e97ee7453d19a318519ac37"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part014.npy.gz",
+          "start": 3038,
+          "end": 3255,
+          "bytes": 1448270,
+          "sha256": "69756a4ae234e15d849de2f3f482883f846b9e15c44c273805d36215fc87b7c8"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part015.npy.gz",
+          "start": 3255,
+          "end": 3472,
+          "bytes": 1315052,
+          "sha256": "35e2fd9bfd5ed7210a97e815f03bb54268a88c1bf8e595fb55a54c5da2ceb9e4"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part016.npy.gz",
+          "start": 3472,
+          "end": 3689,
+          "bytes": 1217775,
+          "sha256": "abace6f085bbecabe347c46c08fef10ad3d9387edbc016c35507149b01157f1e"
+        },
+        {
+          "file": "geometry-start_acceleration-plus-field-part017.npy.gz",
+          "start": 3689,
+          "end": 3764,
+          "bytes": 424495,
+          "sha256": "d8aeb92031efa17bdbe1e32eb5421e99e7285cb2bda3a18ae07c89d4a29fff92"
+        }
+      ],
+      "complete": true
+    },
+    "storage_source_sha256": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "shape": [
+      3764,
+      768,
+      3
+    ],
+    "components": [
+      "kappa_minus",
+      "kappa_plus",
+      "twice_radius"
+    ],
+    "grid_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-grid.json",
+    "grid_sha256": "6307703991ac484616dcbefca68540748c69ed697f3436303f6ee1c0336dd25f",
+    "common_coordinates": "Original computational t and material chart eta; physical s/theta vary with profile.",
+    "wrapper_sha256": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "signed_normal": "Fs cross F_eta",
+    "all_raw_nodes_and_modes_retained": true,
+    "complete_mean_height": true,
+    "known_reference_witness_samples": [
+      {
+        "radial_index": 606,
+        "angular_index": 243,
+        "actual_s": 0.9649026757017312,
+        "numerical_t": 0.30420152408437534,
+        "eta": 1.988039101099791,
+        "components": [
+          -7.870213499130546,
+          0.3253369792110372,
+          3.0236509483493275
+        ]
+      },
+      {
+        "radial_index": 2962,
+        "angular_index": 192,
+        "actual_s": 2.595856911557439,
+        "numerical_t": 0.8226964654548264,
+        "eta": 1.5707963267948966,
+        "components": [
+          -8.36212890219951,
+          0.7927137454601225,
+          3.3282170103392104
+        ]
+      },
+      {
+        "radial_index": 806,
+        "angular_index": 134,
+        "actual_s": 1.0041551070002748,
+        "numerical_t": 0.31692406342424173,
+        "eta": 1.0962849364089382,
+        "components": [
+          0.3887483058574066,
+          8.410740622002404,
+          3.1109648762418654
+        ]
+      }
+    ],
+    "interpolation": "C2 physical-s cubic through every complete warm raw state",
+    "rms_performed": false,
+    "true_new_H_tail_evaluated": false,
+    "kappa_abs_max_sample": 8.410740622002407,
+    "twice_radius_max_sample": 3.9029231604734926,
+    "twice_radius_semantics": "Twice the three-dimensional norm from the single fixed origin.",
+    "height_abs_max_sample": 1.9231651958544405,
+    "horizontal_radius_max_sample": 1.3571231007426854,
+    "minimum_tangent_area_sample": 0.22012774058972187,
+    "minimum_frenet_margin_sample": 0.005131696418748999,
+    "actual_core": [
+      0.12199999999999998,
+      -0.008607763203260147,
+      -0.0006096734015582711,
+      -0.00015370652366430138,
+      -2.8180869808949887e-05,
+      -1.902922815210981e-06,
+      -6.07077873644767e-06,
+      1.6330531754681546e-06,
+      4.3777197790849647e-07,
+      2.8677394778482737e-07,
+      2.2148847813110756e-07,
+      6.118721570742135e-08,
+      9.012545188617082e-08,
+      -1.3338808490252442e-07,
+      -4.0808663820315636e-08,
+      3.0954685175445527e-09,
+      -3.4251295123598325e-08,
+      -8.993974157380258e-09,
+      2.6724396386600292e-08,
+      -7.328821386246859e-08,
+      -1.4282685440847542e-08,
+      -7.51666824832298e-10,
+      -5.184385077097649e-08,
+      -2.1088500242070724e-08,
+      5.827754488023874e-09,
+      5.899111504125812e-08,
+      8.755332119196067e-08,
+      7.256443218156246e-08
+    ],
+    "physical_profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.1746702157412224,
+      "vu": 0.32202183767271175,
+      "vd": 0.98,
+      "start_acceleration": 0.644,
+      "boost_speed": 0.8458458103903704,
+      "boost_length": 0.12863468943991652,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.831283041357157,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle"
+    },
+    "mean_quadrature": {
+      "angular": 1360,
+      "order": 6,
+      "batch": 8,
+      "original_postprocessor_angular": 1360,
+      "mean_height_first_second_same_angular_rule": true,
+      "geometry_angular": 768,
+      "geometry_batch": 8,
+      "original_source_sha256": "ad9ba92e667ebbf572c6d31622959b804aba482d506e6523a7538e33569cd282",
+      "bounded_source_sha256": "dd5bf81f909edaa3e52d1579f132dde81b69ea3ff01e24aeb4663a61c2580688"
+    }
+  },
+  "complete_warm_H": [
+    -2.8555305753237196e-05,
+    2.8842215306121168e-08,
+    5.383417613657328e-11,
+    3.281449038527647e-12,
+    2.336248857099864e-13,
+    4.8961927260352656e-14,
+    -7.669772401986975e-16,
+    -4.9289110339308344e-15,
+    2.894552406804113e-15,
+    -4.0249866299675555e-15,
+    -2.5290871352573923e-15,
+    4.294670079014972e-15,
+    -3.621701239772714e-15,
+    -1.144661136084338e-15,
+    8.143981426142554e-16,
+    -5.291559778807722e-15,
+    -3.302431312222265e-15,
+    1.2891681970349934e-15,
+    -5.4048106977398364e-15,
+    8.950666501955566e-15,
+    -2.765313920213592e-15,
+    -1.0041638352572665e-15,
+    8.790166452989464e-15,
+    -1.1550144706424642e-14,
+    4.700320015368977e-15,
+    1.425804235966563e-14,
+    -1.087218541067775e-14,
+    -2.4396273776794458e-14
+  ],
+  "complete_H_change_max": 8.63383410398423e-09,
+  "seconds": 550.7976775030002,
+  "peak_rss_kib": 179600,
+  "worker_start_attempts": 0
+}

@@ -1,0 +1,72 @@
+{
+  "scope": "Proved convex planar core and exact flat OPEN annulus; closed transition remains unsolved.",
+  "support_function": "1 + a*cos(2*phi) - c*cos(4*phi)",
+  "a_exact": "19/50",
+  "c_definition": "a/(10*sqrt(2))",
+  "sqrt2": {
+    "lower_exact": "441941738241592202750527726315530649553/312500000000000000000000000000000000000",
+    "upper_exact": "14142135623730950488016887242096980785697/10000000000000000000000000000000000000000",
+    "lower_decimal_approx": 1.4142135623730951,
+    "upper_decimal_approx": 1.4142135623730951
+  },
+  "bounds": {
+    "c": {
+      "lower_exact": "8396893026590251852260026799995082341507/312500000000000000000000000000000000000000",
+      "upper_exact": "268700576850888059272320857599842634928243/10000000000000000000000000000000000000000000",
+      "lower_decimal_approx": 0.026870057685088804,
+      "upper_decimal_approx": 0.026870057685088804
+    },
+    "rho_min": {
+      "lower_exact": "193898269447335822183037427200472095215271/1000000000000000000000000000000000000000000",
+      "upper_exact": "6059320920229244443219919600014752975479/31250000000000000000000000000000000000000",
+      "lower_decimal_approx": 0.19389826944733582,
+      "upper_decimal_approx": 0.19389826944733582
+    },
+    "rho_max": {
+      "lower_exact": "158940679079770755556780080399985247024521/62500000000000000000000000000000000000000",
+      "upper_exact": "5086101730552664177816962572799527904784729/2000000000000000000000000000000000000000000",
+      "lower_decimal_approx": 2.543050865276332,
+      "upper_decimal_approx": 2.543050865276332
+    },
+    "radius_max_A": {
+      "lower_exact": "13531299423149111940727679142400157365071757/10000000000000000000000000000000000000000000",
+      "upper_exact": "422853106973409748147739973200004917658493/312500000000000000000000000000000000000000",
+      "lower_decimal_approx": 1.3531299423149112,
+      "upper_decimal_approx": 1.3531299423149112
+    },
+    "radius_min_B": {
+      "lower_exact": "5931299423149111940727679142400157365071757/10000000000000000000000000000000000000000000",
+      "upper_exact": "185353106973409748147739973200004917658493/312500000000000000000000000000000000000000",
+      "lower_decimal_approx": 0.5931299423149112,
+      "upper_decimal_approx": 0.5931299423149112
+    }
+  },
+  "core_phase_gap_exact": "19/25",
+  "core_phase_gap_approx": 0.76,
+  "core_phase_radians": "pi/2",
+  "core_phase_period_radians": "pi",
+  "core_diameter": {
+    "lower_exact": "13531299423149111940727679142400157365071757/5000000000000000000000000000000000000000000",
+    "upper_exact": "422853106973409748147739973200004917658493/156250000000000000000000000000000000000000",
+    "lower_decimal_approx": 2.7062598846298225,
+    "upper_decimal_approx": 2.7062598846298225
+  },
+  "assumed_whole_diameter_upper_exact": "19/5",
+  "conditional_whole_gap_ratio_exact": "1/5",
+  "conditional_whole_gap_gate": true,
+  "core_curvature_radius_over_assumed_D": {
+    "lower_exact": "193898269447335822183037427200472095215271/3800000000000000000000000000000000000000000",
+    "upper_exact": "6059320920229244443219919600014752975479/118750000000000000000000000000000000000000",
+    "lower_decimal_approx": 0.05102586038087785,
+    "upper_decimal_approx": 0.05102586038087785
+  },
+  "core_curvature_radius_gate": true,
+  "unpaid_conditions": [
+    "C2 isometric transition to both fixed caps for one metric",
+    "Whole closed-surface diameter <= assumed bound",
+    "Whole-surface witness exclusion inequality",
+    "Whole-surface curvature, support, embedding and reach for all phases",
+    "Fixed-metric numerical refinement to solver tolerance",
+    "Noncongruence under all E(3), including reflection"
+  ]
+}

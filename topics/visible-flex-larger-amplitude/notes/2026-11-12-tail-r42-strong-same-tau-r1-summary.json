@@ -1,0 +1,104 @@
+{
+  "status": "Complete strong M20 same-q-strip density and split rescaling, not a joint existence certificate",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "bytes": 281853,
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r42-strong-same-tau-r1-split.json.gz",
+      "bytes": 753297,
+      "sha256": "b31ba4868bf825fe19981af820f92d798161df027519992b9380a4b9f7f6b5dd"
+    }
+  ],
+  "gates": {
+    "identical_real_source_and_envelope_geometry": true,
+    "identical_certified_wide_reference_strips": true,
+    "explicitly_identical_original_q_continuous_strip": true,
+    "pointwise_strong_density_dominated_by_original_strip_budget": true,
+    "all_original_cell_strip_costs_paid": true,
+    "all_contractive_norm_jumps": true,
+    "positive_shallow_strip": true,
+    "complete_mean_working_domain": true,
+    "complete_strong_auxiliary_far_domain": true,
+    "independent_R18_parameter_ball_preserved": true
+  },
+  "rescaled_causal_entry_count": 22791,
+  "q_split_origin": {
+    "path": "notes/2026-11-12-tail-r50-split-middle-r1.json.gz",
+    "sha256": "4ab9e668ab582fe1916c5ef764dc97ecb81984096ab2da7c57ceeba52d58e078"
+  },
+  "strong_scale_semantics": {
+    "sigma": "sigma_n=Xbar_strong,n/Xbar_q,n using their defined exact dyadic envelopes",
+    "gamma": "Both groups: Gamma_s[k,n]=(sigma_n^2/sigma_k)*Gamma_q[k,n], rounded upward",
+    "pure": "Each group: pure_s[k]<=sigma_plus^2/sigma_k*pure_q[k]; original universal complete-source envelope, not a proportional Fourier-state assumption",
+    "far": "Each group: far_s[k]<=far_q[k]/sigma_k on unchanged independentZ=2^-2200",
+    "infinite_gamma_and_pure": "sigma_plus^2/sigma_minus times the original upper",
+    "infinite_deep_boundary": "original bound/sigma_minus"
+  },
+  "sigma_lower": {
+    "lower": {
+      "mantissa": "800940900940596190617571629848463410706238077481286595319",
+      "binary_exponent": -185
+    },
+    "upper": {
+      "mantissa": "1601881801881192381235143259696926821412476154962573190639",
+      "binary_exponent": -186
+    },
+    "display": "[16.3324476234701123697332781691787582796057994276099001715 +/- 2.29e-56]"
+  },
+  "sigma_upper": {
+    "lower": {
+      "mantissa": "109440409628905393124647772750145337121653375775228551287",
+      "binary_exponent": -182
+    },
+    "upper": {
+      "mantissa": "1751046554062486289994364364002325393946454012403656820593",
+      "binary_exponent": -186
+    },
+    "display": "[17.8532998482771276826084667792697966465359134947323496447 +/- 8.18e-57]"
+  },
+  "original_strong_native_strip_not_reused": true,
+  "continuous_strip_origin": {
+    "path": "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+    "sha256": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "definition": "The identical original q continuous function tau_q(r), not a new integral sharing its endpoints",
+    "original_definition": "On each cell use the normalized integral of B/r+abs(lambda)/B+(abs(lambda)+4/r)/M+c*V/(k*w); scale its integral to the assigned endpoint drop. This scale is at least one.",
+    "original_k": {
+      "lower": {
+        "mantissa": "2189136211024100387328410093522207324223603100451815308373",
+        "binary_exponent": -233
+      },
+      "upper": {
+        "mantissa": "2189136211024100387328410093522207324223603100451815308373",
+        "binary_exponent": -233
+      },
+      "display": "[1.58592919894983398488938052796642721649116329480151668149e-13 +/- 1.38e-71]"
+    },
+    "do_not_renormalize_using_new_strong_density": true
+  },
+  "input_hashes": {
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-tail-r33-strong-m20-density-window.json.gz": "3dc23cefdaafb0210548d868d85e5f81f231d9069dcec6670b7684dcbd1eb5a3",
+    "notes/2026-11-12-tail-r33-plateau2-quadratic-high-recovered-r1.json": "51496d1d7307ea491a4e8a9aef22756745bf6c9ca92f8fc9ab1b364deae41e27",
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz": "07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6",
+    "notes/2026-11-12-tail-r50-split-middle-r1.json.gz": "4ab9e668ab582fe1916c5ef764dc97ecb81984096ab2da7c57ceeba52d58e078",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+  },
+  "source_hashes": {
+    "tail_r42_same_strip_strong_high.py": "52c82cb1462f44c397dfee17cb94cd2f8b0b888d1b0c7490543bb569f91ac284",
+    "tail_r33_quadratic_high_box.py": "25f75d8ac5049eedf408d7caa952eeca5953b12229038454853caa7d2904174b",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47",
+    "closure_real_head_green_enclosure.py": "4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0",
+    "tail_r42_same_strip_strong_split.py": "f6af1318eee63601335031b063dd12ed1a950f6062a954f2da77a726c4969ef0",
+    "closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390",
+    "tail_middle_frequency_split.py": "4dc17ec37763d533a2e7003df94698ab0d3b7ea544efb93569134f12c5f962d6"
+  },
+  "no_new_radial_integrations": true,
+  "new_Node": false,
+  "full641_joint_gates_paid": false,
+  "elapsed_seconds": 12.724654728000132,
+  "peak_RSS_KiB": 50896
+}

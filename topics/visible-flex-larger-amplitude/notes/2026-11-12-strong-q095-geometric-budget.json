@@ -1,0 +1,23 @@
+{
+  "scope": "Finite mirrored prefix geometry at the saved physical quintic. Samples only, with boundary; no continuous reach or closed held claim.",
+  "actual_primary_amplitude": 0.095,
+  "gauge_amplitude": 0.09,
+  "modes": 20,
+  "checkpoint": "notes/2026-11-12-strong-multicore-q095-naturalc6-m20-r1.json.gz",
+  "checkpoint_sha256": "fd16ef27d8824a9ea82e042739ef3488f219959f2ed55c547052544a91933b31",
+  "geometry_file": "notes/2026-11-12-strong-q095-geometry.json",
+  "geometry_sha256": "e88793edd0c6ac9dd87542e46b62dedf748ef12d32b707fd34ae816abbc50442",
+  "diameter_sample": 3.900946414698432,
+  "kappa_sample": 8.445623317339855,
+  "kappa_times_diameter_sample": 32.945923999670384,
+  "reciprocal_kappa_D_sample": 0.030352768373107544,
+  "core_phase_support_gap_lower": 0.18906331813354618,
+  "core_gap_over_D_sample": 0.048466012612009175,
+  "point_cloud_phase_gap": 0.19161751093873178,
+  "point_cloud_phase_gap_over_D_sample": 0.0491207749526457,
+  "target_curvature_product": 33.333333333333336,
+  "sample_local_curvature_budget_below_target": true,
+  "metric_l1": 2.022287940049759e-06,
+  "metric_threshold": 1e-06,
+  "metric_sample_pass": false
+}

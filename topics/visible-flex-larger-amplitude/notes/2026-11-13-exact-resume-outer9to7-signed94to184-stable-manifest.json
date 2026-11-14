@@ -1,0 +1,134 @@
+{
+  "schema": "same_original9to7_signed94to184_complete_source_stable_v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "all_actual_required_gates": true,
+  "primary_sha256": "bda654d0d8a4710ba927213e3482958838712c02fafea05bf10df8383de427b4",
+  "resource_sha256": "eb213089a33fb50693929d8288de748fe968d2136e85e4882ba0a54374b81441",
+  "original_leaves": 3940,
+  "new_subleaves": 4041,
+  "rejected_new_proposals": 101,
+  "gate_count": 412815,
+  "source_scope": "Fixed original finite LR centre, complete mean and inverse tail, new signed modes94..184 only, zero initial source response; genuine homogeneous columns also saved.",
+  "wholecell_strong_particular": [
+    {
+      "cell": 9,
+      "upper": [
+        "26929080126966401258755136940224142834727122581690254575081767266693077711335",
+        -560
+      ]
+    },
+    {
+      "cell": 8,
+      "upper": [
+        "23838040126101700885812754118261400742670334905715346128977394595086659410345",
+        -459
+      ]
+    },
+    {
+      "cell": 7,
+      "upper": [
+        "1288052451216455067199816483426218772203683251442388673654781469181354506811",
+        -337
+      ]
+    }
+  ],
+  "original_numeric_gates": {
+    "precision_bits": 256,
+    "Taylor_order": 24,
+    "remainder_bits": 100,
+    "original_root_bits": 160,
+    "rss_kib": 98304
+  },
+  "owned_resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "exact-work/2026-11-13-exact-resume-outer9to7-signed94to184-source-flow-v1.py",
+      "--out-prefix",
+      "exact-work/outer9to7-signed94to184-r1",
+      "--rss-kib",
+      "98304"
+    ],
+    "wall_seconds": 955.3188369274139,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 51944,
+    "user_seconds": 665.191024,
+    "system_seconds": 12.59059,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-source.py",
+      "sha256": "ac3115f6e69b1327155e85468bb27223899c976f58d013bd6e98930fdba8679f",
+      "bytes": 17357,
+      "private_original": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-outer9to7-signed94to184-source-flow-v1.py"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-summary.json.gz",
+      "sha256": "bda654d0d8a4710ba927213e3482958838712c02fafea05bf10df8383de427b4",
+      "bytes": 136042,
+      "private_original": "/workspace/scratch/d1aa462cfc02/exact-work/outer9to7-signed94to184-r1-summary.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-resource.json",
+      "sha256": "eb213089a33fb50693929d8288de748fe968d2136e85e4882ba0a54374b81441",
+      "bytes": 855,
+      "private_original": "/workspace/scratch/d1aa462cfc02/exact-work/outer9to7-signed94to184-run1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-background-manifest.json",
+      "sha256": "e5973f185f1157aaa3743077ec5869ca5bed6fe5ec750142b6b0bec9a861b15f",
+      "bytes": 6565,
+      "private_original": "/workspace/scratch/d1aa462cfc02/exact-work/outer9-low46-inputs/manifest.json"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-cell09-segment8-checkpoint.json.gz",
+      "sha256": "0e92af0878c8570ce4739b7b57b310f9285e8527674d6747a4af94aa1dd249bc",
+      "bytes": 78870,
+      "private_original": "/workspace/scratch/d1aa462cfc02/exact-work/outer9to7-signed94to184-r1-checkpoint-cell09-segment8.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-cell08-segment8-checkpoint.json.gz",
+      "sha256": "6c605a3a0fcde67ee7bdf746a534ba61660681ed5bafa5fdb95b27385de66a28",
+      "bytes": 122898,
+      "private_original": "/workspace/scratch/d1aa462cfc02/exact-work/outer9to7-signed94to184-r1-checkpoint-cell08-segment8.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-cell07-segment8-checkpoint.json.gz",
+      "sha256": "27581f901695dd158cc133a170423960f50edc980e7e6244ee6990e2870f5818",
+      "bytes": 165443,
+      "private_original": "/workspace/scratch/d1aa462cfc02/exact-work/outer9to7-signed94to184-r1-checkpoint-cell07-segment8.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-signed94to184-proof.md",
+      "sha256": "85c0e83718399291476ef1ea65d02dfc20b8de3f15cdb13e6d84ebb3b3e3b319",
+      "bytes": 7438
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-complete-centre-source-stable-manifest.json",
+      "sha256": "e947cf3367438bdb1abf8b97deda44494d932c2e2c55da1bd700ee2b6f36140e"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-complete-centre-duhamel-stable-manifest.json",
+      "sha256": "d44dadd4fc17274b779a3f75483bbe9bc67557f6db0d45f70a30b4d7d1c0fb85"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer9to7-ordered-high-particular-stable-manifest.json",
+      "sha256": "507e4a1d288d5107e72630754e9e7f8cbb1ce0c995389d3e1becafc9cee69594"
+    }
+  ],
+  "private_regenerable_leaf_data": {
+    "count": 1973,
+    "bytes": 134324837,
+    "hash_list": "primary.source_flow_parts",
+    "rule11": "Large intermediate leaf data is not duplicated in Git; generator and immutable inputs are pinned. Current successful data remains on scratch; do not blindly repeat it."
+  },
+  "limitations": {
+    "unknown_initial_high_field_paid": false,
+    "nonlinear_feedback_paid": false,
+    "full_outer_continuation_claimed": false
+  }
+}

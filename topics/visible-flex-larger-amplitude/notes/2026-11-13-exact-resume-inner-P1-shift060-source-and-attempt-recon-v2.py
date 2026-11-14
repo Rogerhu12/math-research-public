@@ -1,0 +1,123 @@
+#!/usr/bin/env python3
+"""Noncertifying P1 positive-map reconnaissance for a new strip space.
+
+Author: exact_closure (GPT-6 Astra Pro; AI-assisted), 2026-11-13.
+Float output chooses candidates only. All strict claims need a new actual
+outward consumer; this script never imports a pre-existing infinite cap.
+"""
+import argparse,gzip,hashlib,json,resource,sys,time
+from pathlib import Path
+import numpy as np
+from flint import arb,ctx
+BASE=Path('/workspace/scratch/d1aa462cfc02');TOP=BASE/'math-research/topics/visible-flex-larger-amplitude'
+def read(p):
+ with (gzip.open(p,'rt') if str(p).endswith('.gz') else open(p)) as f:return json.load(f)
+def ab(v):
+ if isinstance(v,list):return arb(int(v[0]))*arb(2)**int(v[1])
+ if 'upper' in v:return ab(v['upper'])
+ if 'mantissa' in v:return arb(int(v['mantissa']))*arb(2)**int(v['binary_exponent'])
+ return arb(int(v['numerator']))/int(v['denominator'])
+def fl(v):return float(ab(v))
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def main():
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--out-prefix',type=Path,required=True);p.add_argument('--far-domain-exponent',type=int,required=True);args=p.parse_args()
+ if args.far_domain_exponent!=-2142:raise ValueError('Declared fresh far radius2^-2142')
+ ctx.prec=256;ctx.threads=1;start=time.monotonic();sys.path.insert(0,str(TOP/'computations'))
+ from closure_split_joint_io_v2 import read_field,iter_array,metadata_without_array
+ modalpath=BASE/'exact-work/inner-P1-shift060-modal-r1.json.gz';sourcepath=BASE/'exact-work/inner-P1-shift060-source-r1-summary.json'
+ modal,source=read(modalpath),read(sourcepath)
+ if not(modal['all_gates'] and source['all_gates']):raise ArithmeticError('Actual finite inputs required')
+ density=read(TOP/'notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz')
+ lp=TOP/'notes/2026-11-12-closure-strong-same-tau-four-green-r1.json.gz'
+ sp=TOP/'notes/2026-11-12-tail-r42-strong-same-tau-r1-split.json.gz';split=metadata_without_array(sp,'gamma_rows')
+ jp=TOP/'notes/2026-11-12-closure-strong-parameter-jacobian-r1.json.gz';jm=metadata_without_array(jp,'rows')
+ W=np.array([fl(v) for v in jm['metric_weights']]);S=257/256;Z=arb(2)**-2200;ratio=float(arb(2)**args.far_domain_exponent/Z)
+ if not ab(modal['far_domain']['complete_finite_reference_far_bound'])<arb(2)**args.far_domain_exponent/4:raise ArithmeticError('Actual finite far centre margin')
+ C=np.array([fl(r['Cs_common_cap']) for r in modal['rows']]);L=np.array([fl(r['Lambda_common_cap_on_domain']) for r in modal['rows']]);B=np.array([fl(r['Cs_plus_Lambda_common_cap']) for r in modal['rows']]);aa=np.array([S*fl(r['V_over_w_upper']) for r in density['rows']])
+ gl=np.array([[S*fl(v) for v in row] for row in read_field(lp,'base')]);gf=np.array([float(S*S*ab(v)/Z) for v in read_field(lp,'far_z_source_upper')['base']])
+ gh={g:np.zeros((213,213)) for g in ('near','rest')}
+ for k,row in enumerate(iter_array(sp,'gamma_rows')):
+  for n,r in enumerate(row['sources'],k):
+   for g in gh:gh[g][k,n]=S*fl(r[g+'_gamma'])
+ gi=S*fl(density['gamma_high']);fb=np.zeros(641);fd=np.zeros(641)
+ for g,off in [('near',213),('rest',426)]:
+  for n,r in enumerate(split['cells']):
+   f=fl(r['far_boundary_'+g])/S;fb[off+n]=f*ratio**2;fd[off+n]=4*f*ratio
+ f=fl(split['deep_high_boundary'])/S;fb[639]=f*ratio**2;fd[639]=4*f*ratio
+ for row in iter_array(jp,'rows'):
+  i=row['index']
+  if i<213 or i==640:
+   z=next((ab([m,e]) for j,m,e in row['coefficients'] if j==640),arb(0))
+   # Jbar already contains W similarity. Changing only far derivative,
+   # target V'=S Vs divides field rows by S; far target is unchanged.
+   fd[i]=float(z*ab(jm['metric_weights'][i])/ab(jm['metric_weights'][640])*ratio/(S if i<213 else 1))
+ q={g:np.array([fl(r['source_common_mass']['common_d'][band]) for r in source['rows']]) for g,band in [('near','near94to184'),('rest','rest186to8190'),('infinite','infinite8192up')]}
+ pure=np.zeros(641)
+ pure[213:426]=gh['near']@q['near'];pure[426:639]=gh['rest']@q['rest'];pure[639]=gi*sum(q['infinite']);pure[640]=float(ab(modal['far_common_on_domain'])/Z)
+ def mapv(v):
+  lo,ne,re,hi=v[:213],v[213:426],v[426:639],v[639]
+  t=lo+ne+re+hi;var=L+t
+  sl=(23/9)*C*(L+lo+ne)+(23/18)*var*var+270*aa*(C+var)*(C*var+var*var/2)
+  sq=(23/18)*t*t;tt=270*aa*(B+t)*(B*t+t*t/2)
+  h={'near':(23/9)*B*(lo+ne+re)+sq+tt,'rest':(23/9)*B*(ne+re+hi)+sq+tt,'infinite':(23/9)*B*(re+hi)+sq+tt}
+  out=pure+fb
+  out[:213]=gl@sl+fd[:213]*v[640]
+  out[213:426]+=gh['near']@h['near'];out[426:639]+=gh['rest']@h['rest'];out[639]+=gi*sum(h['infinite'])
+  out[640]+=gf@sl+fd[640]*v[640]
+  return out
+ def jmul(v,w):
+  lo,ne,re,hi=v[:213],v[213:426],v[426:639],v[639];t=lo+ne+re+hi;var=L+t
+  d=w[:213]+w[213:426]+w[426:639]+w[639]
+  dl=(23/9)*C*(w[:213]+w[213:426])+(23/9)*var*d+270*aa*(C*C+3*C*var+1.5*var*var)*d
+  rem=(23/9)*t*d+270*aa*(B*B+3*B*t+1.5*t*t)*d
+  out=fd*w[640]
+  out[:213]+=gl@dl;out[640]+=gf@dl
+  out[213:426]+=gh['near']@((23/9)*B*(w[:213]+w[213:426]+w[426:639])+rem)
+  out[426:639]+=gh['rest']@((23/9)*B*(w[213:426]+w[426:639]+w[639])+rem)
+  out[639]+=gi*sum((23/9)*B*(w[426:639]+w[639])+rem)
+  return out
+ v=np.zeros(641);events=[]
+ for it in range(1,2001):
+  nxt=mapv(v);t=nxt[:213]+nxt[213:426]+nxt[426:639]+nxt[639]
+  if it&(it-1)==0 or it==2000:
+   ev=dict(step=it,max_t=float(max(t)),max_t_cell=int(np.argmax(t))+12,far_scaled=float(nxt[640]),head_near=float(nxt[213]),head_rest=float(nxt[426]),high=float(nxt[639]),relative_change=float(max(np.abs(nxt-v)/np.maximum(nxt,1e-300))))
+   print(json.dumps(ev),flush=True);events.append(ev)
+  v=nxt
+  if not np.isfinite(v).all() or max(aa*(C+L+t))>1/256:break
+  if it>10 and max(np.abs(mapv(v)-v)/np.maximum(v,1e-300))<1e-12:break
+ # A uniform factor2 is not an invariant ball for quadratic tail rows.
+ # Positive forcing selects a radius with an explicit componentwise margin.
+ margin=v/64;r=v.copy()
+ for inflate_steps in range(1,1001):
+  rr=mapv(r)+margin
+  if not np.isfinite(rr).all():raise ArithmeticError('Noncertifying radius proposal diverged')
+  change=max(np.abs(rr-r)/np.maximum(rr,1e-300));r=rr
+  if change<1e-13:break
+ new_image_ratio=float(max(mapv(r)/r));z=W.copy();specr=[]
+ for it2 in range(1,501):
+  zz=W+jmul(r,z)/.75
+  if not np.isfinite(zz).all():raise ArithmeticError('New distance proposal diverged')
+  change=max(np.abs(zz-z)/np.maximum(zz,1e-300));z=zz
+  if it2 in (1,2,4,8,16,32,64,128,256,500):specr.append(dict(step=it2,maximum_ratio=float(max(jmul(r,z)/z))))
+  if change<1e-13:break
+ new_distance=z.copy()
+ # Identification has its own newly proved comparison domain. It is not
+ # labelled as the original rho ball when that sharper gate does not hold.
+ parent=read(Path(modal['input_identities']['parent_modal']['path']))
+ C=np.array([fl(row['Cs_common_cap']) for row in parent['rows']]);L=np.array([fl(row['Lambda_common_cap_on_domain']) for row in parent['rows']]);B=np.array([fl(row['Cs_plus_Lambda_common_cap']) for row in parent['rows']]);fd=fd/ratio
+ delta=fl(modal['angular_weight_translation']);drops=np.array([np.exp(-2*delta)]*213+[np.exp(-94*delta)]*213+[np.exp(-186*delta)]*213+[np.exp(-8192*delta),np.exp(-2*delta)])
+ old_radius=np.maximum(drops*r,1048832*W);z=W.copy();oldhist=[]
+ for oldsteps in range(1,1001):
+  zz=W+jmul(old_radius,z)/.9
+  if not np.isfinite(zz).all() or max(zz/W)>1e100:raise ArithmeticError('Old-width comparison proposal diverged')
+  change=max(np.abs(zz-z)/np.maximum(zz,1e-300));z=zz
+  if oldsteps in (1,2,4,8,16,32,64,128,256,512,1000):oldhist.append(dict(step=oldsteps,maximum_ratio=float(max(jmul(old_radius,z)/z))))
+  if change<1e-13:break
+ out=dict(schema='noncertifying-new-shifted641-recon-v1',author='exact_closure (GPT-6 Astra Pro; AI-assisted)',source_sha256=sha(__file__),certified=False,new_fixedpoint_claimed=False,
+   input_sha256={str(p):sha(p) for p in (modalpath,sourcepath)},far_domain_exponent=args.far_domain_exponent,events=events,steps=it,spectral_iteration=specr,
+   candidate_radius=r.tolist(),candidate_distance_weight=new_distance.tolist(),max_new_error=float(max(r[:213]+r[213:426]+r[426:639]+r[639])),
+   inflate_steps=inflate_steps,new_image_ratio=new_image_ratio,new_distance_iterations=it2,
+   comparison_candidate_distance_weight=z.tolist(),comparison_candidate_radius=old_radius.tolist(),comparison_iterations=oldsteps,comparison_history=oldhist,
+   elapsed_seconds=time.monotonic()-start,peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
+ path=Path(str(args.out_prefix)+'.json');path.write_text(json.dumps(out,separators=(',',':'))+'\n');print(json.dumps({k:out[k] for k in ('steps','spectral_iteration','max_new_error','new_image_ratio','comparison_history','elapsed_seconds','peak_rss_kib')}),flush=True)
+if __name__=='__main__':main()

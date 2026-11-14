@@ -1,0 +1,353 @@
+{
+  "scope": "Nonlinear two-control prefix at an m2/m4 double linear resonance.\n\nThe first support coefficient q and a specified second support coefficient\nare fixed. Delta and either vd or boost_length replace the corresponding\nmatching constraints; higher support modes remain unknown. All\noutputs are finite LINEAR-tail-DN prefixes, never complete closed surfaces.\n",
+  "solver_success": false,
+  "base_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.1458033978026112,
+    "vu": 0.35,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.11507506464263191,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.75,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "requested_q": 0.085,
+  "modes": 12,
+  "source_git_head": "869436630c99aa5a68afb55bd8877c826034d117",
+  "secondary_law": "linear",
+  "secondary_scale": 0.2,
+  "requested_meridian_chart": "all-knots",
+  "second_design_control": "boost_length",
+  "interface_hashes": {
+    "root_dual_core_bvp.py": "fb74736c229f958290a73bf93fc050b3da38ab8487b7db802b16cc8a54788ed4",
+    "root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "geometric-general-core-chart.py": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+    "numerical-m2-prefix.py": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+    "root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+    "alternative-angle-plateau-connector.py": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7",
+    "alternative-direct-tail-connector.py": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+  },
+  "warm_start": {
+    "checkpoint": "notes/2026-11-12-strong-first675-q085-m20.json.gz",
+    "metadata_sha256": "1884e9ff335853e59793ebaa674fb18f3098bb863db889292b4015d224fc7996",
+    "checkpoint_solver_success": true,
+    "conversion": {
+      "scope": "Explicit changed-metric warm start for the finite-neck nonlinear BVP.\n\nThe old and new physical profiles are recorded separately. Positive C2\nmaps match every corresponding meridian knot; material angles are inverted\nbefore Fourier projection. The intermediate map retains the old image\nbefore projection. It is NOT isometric to the new target metric. The BVP\nsubsequently solves the new problem and reconstructs its own height mean.\n\nExtra flags: --design-fields comma,separated,fields (default loop_curvature),\n--design-control-map keep_offsets|keep_physical (default keep_offsets), and\n--design-latitude-map preserve_image|scale_radius (default preserve_image).\nThe latter option explicitly rescales latitude xy and mean-free z by the\nnew/old target radius; that changes the image and its angular metric.\nAll other flags are those of alternative-neck-bvp.py. This wrapper keeps\nq and both prescribed core coefficients fixed during a design step.\n",
+      "changed_metric_design": true,
+      "declared_fields": [
+        "boost_law",
+        "vu"
+      ],
+      "changed_uncontrolled_fields": [
+        "boost_law",
+        "vu"
+      ],
+      "control_map": "keep_offsets",
+      "design_latitude_map": "scale_radius",
+      "old_physical_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.12499169711497989,
+        "vu": 0.25,
+        "vd": 0.98,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.8689804963021789,
+        "boost_length": 0.18402293134457642,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.75,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1
+      },
+      "old_base_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.09924103685702657,
+        "vu": 0.25,
+        "vd": 0.98,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.8689804963021789,
+        "boost_length": 0.1935415543336927,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.75,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1
+      },
+      "new_base_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.1458033978026112,
+        "vu": 0.35,
+        "vd": 0.98,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.8689804963021789,
+        "boost_length": 0.11507506464263191,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.75,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "new_initial_physical_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.1715540580605645,
+        "vu": 0.35,
+        "vd": 0.98,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.8689804963021789,
+        "boost_length": 0.10555644165351565,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.75,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "old_meridian_length": 3.160288529961614,
+      "new_initial_meridian_length": 3.1191146257479523,
+      "old_physical_breaks": [
+        0.0,
+        0.8053547128614126,
+        0.989377644205989,
+        1.020599542049773,
+        1.3484294694095078,
+        1.3796513672532922,
+        2.214313200585628,
+        2.2154833102042155,
+        2.2277694611993857,
+        2.228939570817973,
+        2.261342446312449,
+        2.6015726390044507,
+        2.633975514498927,
+        2.669508509422785,
+        2.701911384917261,
+        3.0421415776092626,
+        3.074544453103739,
+        3.110077448027597,
+        3.1112551330589544,
+        3.1236208258882088,
+        3.1247985109195664,
+        3.1516530751267378,
+        3.160288529961614
+      ],
+      "new_initial_physical_breaks": [
+        0.0,
+        0.8319817103960421,
+        0.9375381520495577,
+        0.968760049893342,
+        1.2965899772530767,
+        1.3278118750968608,
+        2.173139296371966,
+        2.1743094059905537,
+        2.186595556985724,
+        2.187765666604311,
+        2.2201685420987873,
+        2.560398734790789,
+        2.592801610285265,
+        2.628334605209123,
+        2.6607374807035993,
+        3.0009676733956008,
+        3.033370548890077,
+        3.068903543813935,
+        3.0700812288452926,
+        3.082446921674547,
+        3.0836246067059045,
+        3.110479170913076,
+        3.1191146257479523
+      ],
+      "common_numerical_knots": [
+        0.0,
+        0.24068021341567622,
+        0.27906271082760287,
+        0.28947656040401687,
+        0.39882198095636395,
+        0.40923583053277796,
+        0.6844764263719659,
+        0.6848667083982815,
+        0.6889646696745939,
+        0.6893549517009092,
+        0.7001627082610995,
+        0.8136441521430968,
+        0.824451908703287,
+        0.8363036950997442,
+        0.8471114516599344,
+        0.9605928955419317,
+        0.971400652102122,
+        0.9832524384985791,
+        0.9836452472517919,
+        0.9877697391605256,
+        0.9881625479137383,
+        0.9971197033529394,
+        1.0
+      ],
+      "radial_map_derivative_range": [
+        0.8320477287235413,
+        2.207040869772435
+      ],
+      "old_modes": 20,
+      "new_modes": 12,
+      "gauge": 0.085,
+      "angular_projection": 800,
+      "height_angular": 128,
+      "height_quadrature_order": 6,
+      "intermediate_image_projection_error": null,
+      "projected_design_position_error": 9.308062989772792e-09,
+      "angle_inverse_error": 3.099742684753437e-13,
+      "physical_radius_ratio_range": [
+        0.9999608936014983,
+        1.0413890707504712
+      ],
+      "preprojection_angular_metric_error": 9.06376396159203e-09,
+      "initial_projected_Frenet_margin_min": 0.005136047426082313,
+      "intermediate_mean_height_range": [
+        -2.530156481215603e-42,
+        1.9424926162565368
+      ],
+      "mean_height_angular_correction_max": 9.087577274957681e-05,
+      "inlet_guess_correction_max": 7.24558566305092e-10,
+      "height_mean_disposition": "The intermediate position comparison retains its angle-dependent mean correction. The following new-metric BVP independently reconstructs the solved mean from its velocity; this is a design initial guess, not an image-preserving or isometric new solution.",
+      "physical_tail_parameters_unchanged": true,
+      "fixed_metric_refinement": false
+    }
+  },
+  "error": "RuntimeError('Inspection complete; no nonlinear solve requested')",
+  "seconds": 17.335933923721313,
+  "alternative_neck_adapter": {
+    "scope": "Install the finite-neck metric provider, then run the existing dual BVP.\n\nAll command-line options are those of root_dual_core_bvp.py. The input port\nmust carry finite_neck_terminal_v1 metadata and the profile must select\nhermite_boost_neck. A solved output is still a finite linear-tail-DN prefix.\n",
+    "source_sha256": {
+      "alternative-neck-bvp.py": "508731deaba6e66c9ff57cbc21535eb5fe8fb976dec087e756f6e55140677ef0",
+      "alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+      "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+      "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+      "alternative-angle-plateau-connector.py": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7",
+      "alternative-direct-tail-connector.py": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+    }
+  },
+  "alternative_neck_design_warm": {
+    "scope": "Explicit changed-metric warm start for the finite-neck nonlinear BVP.\n\nThe old and new physical profiles are recorded separately. Positive C2\nmaps match every corresponding meridian knot; material angles are inverted\nbefore Fourier projection. The intermediate map retains the old image\nbefore projection. It is NOT isometric to the new target metric. The BVP\nsubsequently solves the new problem and reconstructs its own height mean.\n\nExtra flags: --design-fields comma,separated,fields (default loop_curvature),\n--design-control-map keep_offsets|keep_physical (default keep_offsets), and\n--design-latitude-map preserve_image|scale_radius (default preserve_image).\nThe latter option explicitly rescales latitude xy and mean-free z by the\nnew/old target radius; that changes the image and its angular metric.\nAll other flags are those of alternative-neck-bvp.py. This wrapper keeps\nq and both prescribed core coefficients fixed during a design step.\n",
+    "source_sha256": {
+      "alternative-neck-design-warm.py": "ba52585e5d6bdfc26a9e0e06abbe4aae6e772aeb848983f6299ad5260be4da76",
+      "alternative-neck-bvp.py": "508731deaba6e66c9ff57cbc21535eb5fe8fb976dec087e756f6e55140677ef0",
+      "root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+      "geometric-checkpoint-core-pullback.py": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33"
+    }
+  },
+  "strong_mesh_adapter": {
+    "scope": "Run the existing neck BVP with retained warm mesh and bounded radial batches.\n\nUse --workflow amplitude, design, or triple, then the original arguments.\nWith --nodes 0 the successful previous physical mesh is carried through the\nexplicit radial-coordinate map. A fresh nonlinear solve remains mandatory.\nThe original files and frozen source remain unchanged. This adapter changes\nneither the physical flow nor boundary conditions or requested mesh tolerance.\nOptional --newton-residual-factor tightens only the inner Newton stopping\nthreshold; its exact text replacement is recorded in the output.\nOptional --linear-solver block-qr factors the same adjacent-node/parameter\nJacobian by balanced orthogonal elimination, avoiding global sparse-LU fill.\n",
+    "workflow": "design",
+    "newton_residual_factor": 1.0,
+    "linear_solver": "sparse-lu",
+    "trace_newton": false,
+    "collect_flow_garbage": false,
+    "memory": {
+      "peak_rss_kib": 117868,
+      "rss_kib": 105396
+    },
+    "angle_boost_helper_sha256": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be",
+    "wrapper_sha256": "7f5e09400c670b13affbe15a0f57eb3c01c0aa382cba63f59e74dadd923703b2",
+    "transforms": {
+      "alternative-neck-design-warm.py": {
+        "original_sha256": "ba52585e5d6bdfc26a9e0e06abbe4aae6e772aeb848983f6299ad5260be4da76",
+        "replacements": [
+          {
+            "old": "t=merge_profile_mesh(np.linspace(0,1,nodes),self.chart_breaks)",
+            "new": "old_grid=neck_chart.NeckChart(self._neck_knots,saved.flow.breaks).inverse(np.asarray(saved.sol.x))\n                grid=old_grid if nodes<=0 else np.linspace(0,1,nodes)\n                t=merge_profile_mesh(grid,self.chart_breaks)",
+            "count": 1
+          }
+        ]
+      },
+      "alternative-neck-bvp.py": {
+        "original_sha256": "508731deaba6e66c9ff57cbc21535eb5fe8fb976dec087e756f6e55140677ef0",
+        "replacements": []
+      },
+      "root_neck_chart.py": {
+        "original_sha256": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+        "replacements": []
+      },
+      "alternative-neck-provider.py": {
+        "original_sha256": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+        "replacements": []
+      },
+      "root_dual_core_bvp.py": {
+        "original_sha256": "fb74736c229f958290a73bf93fc050b3da38ab8487b7db802b16cc8a54788ed4",
+        "replacements": [
+          {
+            "old": "import numpy as np",
+            "new": "import numpy as np\nimport root_radial_batching as radial",
+            "count": 1
+          },
+          {
+            "old": "t=merge_profile_mesh(np.linspace(0,1,nodes),self.chart_breaks)\n            s,_=self.chart(t,p[0])\n            arrays,record=pullback.convert",
+            "new": "grid=self.inverse_chart(np.asarray(saved.sol.x),p[0]) if nodes<=0 else np.linspace(0,1,nodes)\n            t=merge_profile_mesh(grid,self.chart_breaks)\n            s,_=self.chart(t,p[0])\n            arrays,record=pullback.convert",
+            "count": 1
+          },
+          {
+            "old": "return ds[None,:]*f.fun(s,y,p)",
+            "new": "return ds[None,:]*radial.value(f,s,y,p)",
+            "count": 1
+          },
+          {
+            "old": "J,_=f.fun_jac(s,y,p)",
+            "new": "J=radial.state_jacobian(f,s,y,p)",
+            "count": 1
+          }
+        ]
+      },
+      "numerical-m2-prefix.py": {
+        "original_sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+        "replacements": []
+      },
+      "geometric-general-core-chart.py": {
+        "original_sha256": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+        "replacements": []
+      },
+      "root_domain_newton.py": {
+        "original_sha256": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+        "replacements": []
+      },
+      "geometric-checkpoint-core-pullback.py": {
+        "original_sha256": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33",
+        "replacements": []
+      }
+    },
+    "radial_batching_sha256": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "block_qr_sha256": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb"
+  }
+}

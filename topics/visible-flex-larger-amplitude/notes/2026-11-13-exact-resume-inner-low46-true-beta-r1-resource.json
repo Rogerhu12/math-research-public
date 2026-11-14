@@ -1,0 +1,30 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-low46-true-beta-v1.py",
+    "--topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--field",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-window13-frequency-square-bootstrap-r3.json.gz",
+    "--field-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-window13-frequency-square-bootstrap-r3-resource.json",
+    "--source-summary",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-low46-source-DQ-r1-summary.json",
+    "--source-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-low46-source-DQ-r1-resource.json",
+    "--cut-kernels",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-low46-cut-kernels-r1/kernels.json.gz",
+    "--cut-resource",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-low46-cut-kernels-r1/resource.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-low46-true-beta-r1"
+  ],
+  "wall_seconds": 322.3636920452118,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 56020,
+  "user_seconds": 200.393278,
+  "system_seconds": 2.4797,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

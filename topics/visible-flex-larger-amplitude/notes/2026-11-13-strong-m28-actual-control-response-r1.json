@@ -1,0 +1,849 @@
+{
+  "scope": "Differentiate an accepted actual-tail problem in physical design controls.\n\nAt the unchanged accepted raw state, the fixed-metric full Jacobian has all\ncore coefficients as boundary unknowns.  Delta/LB/vp, and optional other\nprefix-only controls, enter as external forcing columns.  A 3x3 exchange\nthen prescribes actual c2/c4/c6 while solving for those three controls.\n\nThe recorded complete nonlinear-tail height Jacobian is used only at its\nexact recorded boundary H.  There is no Node worker, new tail solve, BVP\ncontinuation, or new accepted surface.  The original actual/fixed loader and\nboundary Jacobian are reused, with a local affine tail tangent for this\nderivative calculation only.  --metadata-only does not import NumPy or load\nany Flow; it checks the linked input data and complete H byte identity.\n",
+  "schema": "fixed-actual-to-three-control-response-v1",
+  "finished": true,
+  "inspection_only": true,
+  "new_solution": false,
+  "tail_worker_started": false,
+  "input_identity": {
+    "scope": "Input identity check only, with no Flow, RHS, Jacobian assembly, Node or BVP.",
+    "full_height_bitwise_equal": true,
+    "modes": 28,
+    "angular": 1024,
+    "nodes": 2208,
+    "actual_primary_amplitude": 0.0959999590672073,
+    "gauge": 0.09,
+    "raw_fixed_parameter_layout": "p0=log(actual_q/gauge_q); p1=(q4-reference_q4)/gauge_q^2; p2..=higher support/recorded scale",
+    "raw_tolerance": 1e-07,
+    "tail_jacobian_method": {
+      "slope": "analytic actual shooting tangent plus exact cut chain rule",
+      "meanSlopeCorrection": "analytic actual shooting tangent plus exact cut chain rule",
+      "second": "source symmetric difference on actual tangent graph",
+      "meanSecondCorrection": "source symmetric difference on actual tangent graph",
+      "height": "source symmetric difference; mathematically identity",
+      "sourceSecondDifferenceStep": 0.0001
+    },
+    "tail_residual": 1.654347043206027e-10,
+    "source_sha256": {
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_fixed_control_response.py": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf",
+      "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd",
+      "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706",
+      "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d",
+      "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-x-000.npy.gz": "ce8e64194faa790aec0437a4e8e555ca43717306b5387576e91123f75bcd840d",
+      "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-y-000.npy.gz": "c232874ff88a2cd5920a197ceac93e6bbe7df1c271bde2e2f4ca4047eb667769",
+      "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-p-000.npy.gz": "d7698c6645c7817c890d3f23279052cca631e67f9cb42345b189865d4d75cc85"
+    },
+    "disk_response_adapter": {
+      "scope": "Optional disk storage for the original accepted fixed-g control response.\n\nThe input must still be a genuinely checked fixed view with M core parameters.\nThis does not relabel an M+3 design endpoint or create a new nonlinear solution.\nAll original complete-H identities, full-field forcing, half-step checks and\noriginal matrix residual checks remain. Every QR solve additionally receives\nthe production backend's complete streamed numerical backward-error gate.\n",
+      "original_source_sha256": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+      "transformed_source_sha256": "2e7ff712e5ff2ccebd9f0b216559944607b4a5c3b4caa40257ed28d33f6dd485",
+      "source_sha256": {
+        "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+        "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+        "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+        "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_fixed_control_response.py": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf"
+      },
+      "explicit_transforms": [
+        {
+          "before": "    hashes={str(Path(__file__)):digest(__file__)}\n",
+          "after": "    hashes={str(Path(__file__)):digest(__file__)}\n    hashes.update(DISK_WRAPPER_SOURCE_HASHES)\n",
+          "replacements": 1
+        },
+        {
+          "before": "    if opts.metadata_only:\n",
+          "after": "    input_report['disk_response_adapter'] = DISK_WRAPPER_PROVENANCE\n    if opts.metadata_only:\n",
+          "replacements": 1
+        },
+        {
+          "before": "    import root_block_collocation as blocks\n",
+          "after": "    from strong_disk_actual_backend import install_disk_backend\n    disk_runtime = install_disk_backend(bounded, prefix, DISK_WRAPPER_CONFIGURATION)\n    blocks = bounded.blocks\n",
+          "replacements": 1
+        },
+        {
+          "before": "        output.write_text(json.dumps(result,indent=2)+'\\n')\n",
+          "after": "        result['disk_block_storage'] = dict(\n            adapter=DISK_WRAPPER_PROVENANCE, configuration=DISK_WRAPPER_CONFIGURATION,\n            stats=dict(disk_runtime.stats), original_full_field_checks_preserved=True,\n            numerical_backward_check_is_not_an_interval_inverse_certificate=True)\n        output.write_text(json.dumps(result,indent=2)+'\\n')\n",
+          "replacements": 1
+        },
+        {
+          "before": "        for function,default in zip(functions,defaults):function.__defaults__=default\n",
+          "after": "        for function,default in zip(functions,defaults):function.__defaults__=default\n        disk_runtime.finish()\n",
+          "replacements": 1
+        }
+      ],
+      "original_source_file_unchanged": true,
+      "original_fixed_input_identity_gate_preserved": true,
+      "accepted_M_plus_3_design_requires_real_fixed_view_conversion": true,
+      "original_forcing_and_half_step_rules_preserved": true,
+      "original_full_matrix_residual_checks_preserved": true,
+      "independent_tail_worker_started": false
+    }
+  },
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_fixed_control_response.py": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-x-000.npy.gz": "ce8e64194faa790aec0437a4e8e555ca43717306b5387576e91123f75bcd840d",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-y-000.npy.gz": "c232874ff88a2cd5920a197ceac93e6bbe7df1c271bde2e2f4ca4047eb667769",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-p-000.npy.gz": "d7698c6645c7817c890d3f23279052cca631e67f9cb42345b189865d4d75cc85",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_actual_fixed_refinement.py": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_block_qr.py": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-config.json": "e9d204c32e2542754d23d58d3f0cf6a55632291a7b5e04eb147d67b1ff6ebe13"
+  },
+  "fields": [
+    "delta",
+    "boost_length",
+    "boost_speed",
+    "vu",
+    "descending_turn_curvature"
+  ],
+  "baseline": {
+    "profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.16208341673538396,
+      "vu": 0.31980000000000003,
+      "vd": 0.98,
+      "start_acceleration": 0.45,
+      "boost_speed": 0.8634500737670308,
+      "boost_length": 0.12481215570536809,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.7475,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle"
+    },
+    "core": [
+      0.0959999590672073,
+      -0.006718092923546803,
+      -0.000413673319692686,
+      -8.163707669408273e-05,
+      -3.249953378127154e-05,
+      2.115425693881145e-05,
+      1.4477698263593671e-05,
+      -6.1315729408465116e-06,
+      -7.142034782574165e-07,
+      -2.236456752720823e-06,
+      -2.6731143455807378e-06,
+      -6.710380674505458e-07,
+      -5.682280138359476e-07,
+      2.2431634982447345e-07,
+      1.1531939234926578e-07,
+      -7.90246477957877e-09,
+      4.695322810944602e-08,
+      1.5969867039222143e-08,
+      3.519773143188463e-10,
+      4.4512564299029864e-08,
+      2.225261691633938e-09,
+      2.260819333436455e-09,
+      -2.860384130872248e-08,
+      -4.154624495076156e-09,
+      -3.899372707278858e-09,
+      1.200225615606364e-08,
+      1.0357111038998134e-09,
+      1.0846686351784592e-09
+    ],
+    "gauge": 0.09,
+    "numerical_reference_knots": [
+      0.0,
+      0.2677610126249561,
+      0.3073403620202028,
+      0.3172296666633604,
+      0.4210673654165145,
+      0.4309566700596721,
+      0.6992364843991988,
+      0.6996085091989966,
+      0.7035147695968731,
+      0.7038867943966709,
+      0.7141889687205218,
+      0.822361799120957,
+      0.8326639734448079,
+      0.8439613383350474,
+      0.8542635126588983,
+      0.9624363430593335,
+      0.9727385173831844,
+      0.9840358822734238,
+      0.9844103156009136,
+      0.9883418655395568,
+      0.9887162988670467,
+      0.9972544424000331,
+      1.0
+    ],
+    "reference_coefficients": [
+      0.09,
+      -0.006363961030678927
+    ],
+    "actual_physical_bc_max": 4.1873668780374653e-19,
+    "accepted_rms_max": 9.989625002548099e-08,
+    "raw_state_bitwise_equal": true
+  },
+  "modes": 28,
+  "angular": 1024,
+  "nodes": 2208,
+  "external_responses": [
+    {
+      "field": "delta",
+      "width": 3.241668334707679e-07,
+      "half_width": 1.6208341673538396e-07,
+      "half_step_response_relative_difference": 1.5786746507644325e-09,
+      "equation_error_over_forcing_norm": 6.1115485478336504e-12,
+      "equation_relative_backward_error": 7.602490221045809e-16,
+      "physical_core_derivative": [
+        12.213398219431795,
+        -1.257634327410987,
+        -0.12810733964449975,
+        -0.03038635310600257,
+        -0.030573862235152207,
+        0.027685567669897417,
+        0.022671758924578046,
+        -0.005940752701149787,
+        0.008199410898825636,
+        -0.03975794846432675,
+        -0.051448441171382565,
+        -0.013444059777208927,
+        -0.01154921785446986,
+        0.004718148124779967,
+        0.002479489688790198,
+        -0.0001725713278174986,
+        0.0011091144582162605,
+        0.0003830812442967044,
+        -3.742486724508393e-05,
+        0.0013240259692025103,
+        6.0310426224237575e-05,
+        7.846930381558728e-05,
+        -0.0009145368189064718,
+        -0.000138936555282908,
+        -0.00012376797029164406,
+        0.00037655191210392633,
+        2.902623203051097e-05,
+        2.4325378460976857e-05
+      ],
+      "field_correction_derivative_max": 12.22960925346222
+    },
+    {
+      "field": "boost_length",
+      "width": 2.496243114107362e-07,
+      "half_width": 1.248121557053681e-07,
+      "half_step_response_relative_difference": 2.1724868607784604e-09,
+      "equation_error_over_forcing_norm": 1.233878625250332e-11,
+      "equation_relative_backward_error": 8.866729980400772e-16,
+      "physical_core_derivative": [
+        12.732214890435088,
+        -1.533612822198465,
+        -0.14821228240520568,
+        -0.035295316062586055,
+        -0.04187882176786938,
+        0.040138269543567334,
+        0.03158454698507223,
+        -0.008780079849793874,
+        0.0110934678489075,
+        -0.05405994016704184,
+        -0.07041584807733038,
+        -0.01830897955228238,
+        -0.01565638979096731,
+        0.006429283528787515,
+        0.003363833051328769,
+        -0.0002348736085329377,
+        0.0015081409530944387,
+        0.0005146548231845661,
+        -3.979856844192122e-05,
+        0.0017129185453668245,
+        8.377301047203399e-05,
+        9.651441544594729e-05,
+        -0.0011454107532642905,
+        -0.00017202618508836985,
+        -0.00015584794380134394,
+        0.00047626734086875374,
+        3.688457831389135e-05,
+        3.312697240510756e-05
+      ],
+      "field_correction_derivative_max": 12.751641406314924
+    },
+    {
+      "field": "boost_speed",
+      "width": 1.7269001475340614e-06,
+      "half_width": 8.634500737670307e-07,
+      "half_step_response_relative_difference": 1.324052150152071e-10,
+      "equation_error_over_forcing_norm": 2.6978444791403335e-11,
+      "equation_relative_backward_error": 8.338964187722895e-16,
+      "physical_core_derivative": [
+        12.85562928013165,
+        -1.4857145487641312,
+        -0.14695176516450034,
+        -0.03345931915201088,
+        -0.04050336154322974,
+        0.038323652217366735,
+        0.03050363360432965,
+        -0.008682680451334822,
+        0.010152579544800353,
+        -0.050072924090077645,
+        -0.06512998849946862,
+        -0.016951705781724235,
+        -0.014509792446544002,
+        0.005960342981543581,
+        0.003119538245045781,
+        -0.00021651557890011846,
+        0.0013973979463008193,
+        0.00047711082360050197,
+        -3.648399268817422e-05,
+        0.0015869036037741758,
+        7.789547864271657e-05,
+        8.927891435885966e-05,
+        -0.0010598407850323705,
+        -0.00015907284352859255,
+        -0.0001439256550169801,
+        0.000440623388160065,
+        3.395314542347558e-05,
+        2.957821419982395e-05
+      ],
+      "field_correction_derivative_max": 12.87453799866504
+    },
+    {
+      "field": "vu",
+      "width": 6.396e-07,
+      "half_width": 3.198e-07,
+      "half_step_response_relative_difference": 3.7960280832762647e-10,
+      "equation_error_over_forcing_norm": 3.0836155419328573e-12,
+      "equation_relative_backward_error": 7.604972105775801e-16,
+      "physical_core_derivative": [
+        4.403022292509188,
+        -0.6533865276818119,
+        -0.06068005424213233,
+        -0.018048037959575616,
+        -0.010179437241372455,
+        0.006820051704539118,
+        0.0056149618700024944,
+        -0.0016046249359193282,
+        0.0024325265658109575,
+        -0.011715041029866787,
+        -0.015133487701315559,
+        -0.003954869712049503,
+        -0.003418758524828632,
+        0.0014030231929901711,
+        0.0007378161447842086,
+        -5.040542322032099e-05,
+        0.00032691835911021513,
+        0.00011410771561390327,
+        -1.1857350925592852e-05,
+        0.0003992462006435166,
+        1.7696222581110608e-05,
+        2.4162347212644764e-05,
+        -0.00027835479082279226,
+        -4.266490700661873e-05,
+        -3.7789523167853474e-05,
+        0.00011461117709557336,
+        8.617082878309627e-06,
+        6.5235178003241846e-06
+      ],
+      "field_correction_derivative_max": 4.41115796077262
+    },
+    {
+      "field": "descending_turn_curvature",
+      "width": 1.3494999999999999e-05,
+      "half_width": 6.747499999999999e-06,
+      "half_step_response_relative_difference": 1.919529474174287e-09,
+      "equation_error_over_forcing_norm": 8.175631145266046e-12,
+      "equation_relative_backward_error": 8.902628897035893e-16,
+      "physical_core_derivative": [
+        -0.5384836045028892,
+        0.0654470287789025,
+        0.006277847640641274,
+        0.0015400179897697992,
+        0.0014122462043811045,
+        -0.0011996328729374538,
+        -0.0009668118550439366,
+        0.0002863637423670297,
+        -0.0003267010913269378,
+        0.0016215716812205995,
+        0.0021054370728239035,
+        0.0005486337239079689,
+        0.0004710018811202331,
+        -0.00019377149130438858,
+        -0.00010151910233302705,
+        6.972607870923096e-06,
+        -4.538307654837135e-05,
+        -1.5559956222796143e-05,
+        1.2322046678406759e-06,
+        -5.203235742324227e-05,
+        -2.524648387049868e-06,
+        -2.959813036999716e-06,
+        3.491808772962683e-05,
+        5.270018736010844e-06,
+        4.7261765532131835e-06,
+        -1.4482443606804357e-05,
+        -1.0889519437122005e-06,
+        -8.63844904780804e-07
+      ],
+      "field_correction_derivative_max": 0.5393149284401705
+    }
+  ],
+  "physical_core_parameter_scales": [
+    0.0959999590672073,
+    0.0081,
+    0.0007289999999999999,
+    6.560999999999999e-05,
+    5.904899999999999e-06,
+    5.314409999999999e-07,
+    4.7829689999999986e-08,
+    4.304672099999998e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "low_three_core_by_physical_control": [
+    [
+      12.213398219431795,
+      12.732214890435088,
+      12.85562928013165
+    ],
+    [
+      -1.257634327410987,
+      -1.533612822198465,
+      -1.4857145487641312
+    ],
+    [
+      -0.12810733964449975,
+      -0.14821228240520568,
+      -0.14695176516450034
+    ]
+  ],
+  "control_order": [
+    "delta",
+    "boost_length",
+    "boost_speed"
+  ],
+  "half_step_low_three_core_by_physical_control": [
+    [
+      12.213398238711266,
+      12.73221491809443,
+      12.855629281833654
+    ],
+    [
+      -1.2576343294975427,
+      -1.5336128255612975,
+      -1.4857145489628552
+    ],
+    [
+      -0.12810733985382097,
+      -0.14821228272938497,
+      -0.14695176518288694
+    ]
+  ],
+  "low_exchange_condition": {
+    "singular_values": [
+      21.970882591344047,
+      0.15762758968676935,
+      0.0011286603910403473
+    ],
+    "condition_2": 19466.336167863832,
+    "observed_half_step_matrix_perturbation_norm": 2.3352763018533076e-09,
+    "scope": "Only the physical 3x3 low-core/control response, not the condition of the global BVP Jacobian."
+  },
+  "prescribed_low_core_responses": [
+    {
+      "direction": "actual_q1",
+      "physical_profile_derivative": {
+        "delta": 1.321626102421884,
+        "boost_length": 1.412034230359886,
+        "boost_speed": -2.5762931100426885
+      },
+      "core_derivative": [
+        0.9999999999999977,
+        4.932516266237005e-16,
+        4.253905505118903e-17,
+        -0.003796578475998918,
+        0.004806987032190648,
+        -0.005466381723441517,
+        -0.004024251210230331,
+        0.002119902692401333,
+        0.00034489107399520255,
+        0.00012290085668888203,
+        0.00036875000231272417,
+        5.163663406555423e-05,
+        1.0372220453624028e-05,
+        -4.1594420702983825e-05,
+        -1.0039180142899902e-05,
+        -1.9167522925864443e-06,
+        -4.725432513557148e-06,
+        3.823071398435254e-06,
+        -1.1665163400699132e-05,
+        8.023808035336918e-05,
+        -2.6833930177572216e-06,
+        9.980086559584396e-06,
+        -9.557441070301853e-05,
+        -1.6710769127864324e-05,
+        -1.2842938181287817e-05,
+        3.499162502213966e-05,
+        2.970858439304397e-06,
+        2.7233246591440854e-06
+      ],
+      "low_core_target_error": 2.3314683517128287e-15,
+      "half_step_exchange_response_relative_difference": 5.64559678978881e-09,
+      "equation_relative_backward_error": 1.4027588667897113e-14
+    },
+    {
+      "direction": "actual_q4",
+      "physical_profile_derivative": {
+        "delta": -8.785493898468495,
+        "boost_length": -37.83261000239458,
+        "boost_speed": 45.81601126777857
+      },
+      "core_derivative": [
+        3.379920236200717e-14,
+        0.9999999999999956,
+        -1.7080068339302664e-16,
+        0.06930050403583642,
+        -0.002710857424382131,
+        -0.00593000183899426,
+        0.003446373036182064,
+        -0.013440002037480414,
+        -0.026580018302898138,
+        0.10038019241982887,
+        0.13201899733246103,
+        0.03412964498308622,
+        0.02900685777567812,
+        -0.01160869669953656,
+        -0.006121326090984439,
+        0.00048212577653554075,
+        -0.002777826759134736,
+        -0.0009769782757197319,
+        0.00016292864125455164,
+        -0.0037308079751785296,
+        -0.0001303483883183453,
+        -0.00025038008282397215,
+        0.0028108586141301346,
+        0.0004407426378566878,
+        0.0003893977933540513,
+        -0.0011390249734224674,
+        -9.485195755333529e-05,
+        -0.00011183449654946867
+      ],
+      "low_core_target_error": 3.379920236200717e-14,
+      "half_step_exchange_response_relative_difference": 2.2491125411869085e-08,
+      "equation_relative_backward_error": 4.634328861092841e-14
+    },
+    {
+      "direction": "actual_c6",
+      "physical_profile_derivative": {
+        "delta": 204.44171792753542,
+        "boost_length": 506.0235078591855,
+        "boost_speed": -695.3940534988037
+      },
+      "core_derivative": [
+        1.369031638507573e-12,
+        2.797602591624142e-14,
+        0.9999999999999926,
+        -0.8050863031053145,
+        0.723555548852897,
+        -0.6790468902467566,
+        -0.5944688160479429,
+        0.3804198614063889,
+        0.22981372224918048,
+        -0.6633701897685859,
+        -0.8592754437654491,
+        -0.2251853378687783,
+        -0.19361983649464135,
+        0.07316784614620019,
+        0.039781386778999575,
+        -0.003568699960434111,
+        0.018161818417912732,
+        0.006965197062633336,
+        -0.0024194638002995785,
+        0.0339398651876216,
+        0.0005530271266197653,
+        0.002796936191593414,
+        -0.02956726610463649,
+        -0.004835412204093203,
+        -0.00408101504109693,
+        0.011578506345593865,
+        0.0009878210205180166,
+        0.0011676346753150893
+      ],
+      "low_core_target_error": 1.369031638507573e-12,
+      "half_step_exchange_response_relative_difference": 1.8724350786935237e-08,
+      "equation_relative_backward_error": 4.128473263170774e-14
+    }
+  ],
+  "additional_core_held_directions": [
+    {
+      "external_field": "vu",
+      "physical_profile_derivative": {
+        "vu": 1.0,
+        "delta": 0.8460619895818977,
+        "boost_length": -0.2310019719759614,
+        "boost_speed": -0.9175083759232877
+      },
+      "low_core_derivative_max": 6.821207354847111e-16,
+      "core_derivative": [
+        6.821207354847111e-16,
+        0.0,
+        -3.107913926214678e-17,
+        -0.004904283137945567,
+        0.010789443928121936,
+        -0.014190533151634993,
+        -0.010486756632534473,
+        0.0033637778131057282,
+        -0.002507953254460451,
+        0.013077550033816724,
+        0.017361451536610173,
+        0.00445336474715114,
+        0.003739400257454154,
+        -0.0015589727999006917,
+        -0.0008036364130675547,
+        5.649965971657299e-05,
+        -0.00036520991010881055,
+        -0.00011842126060461127,
+        -8.531918963790632e-07,
+        -0.00033223066365449533,
+        -2.2098902933727432e-05,
+        -1.3656929489745682e-05,
+        0.0001848953087661335,
+        2.547520891140218e-05,
+        2.5549277975519e-05,
+        -8.109690716189797e-05,
+        -6.497631140881429e-06,
+        -7.6863593260138e-06
+      ],
+      "half_step_combination_relative_difference": 7.59207572558879e-09,
+      "equation_relative_backward_error": 2.1105284945868375e-14
+    },
+    {
+      "external_field": "descending_turn_curvature",
+      "physical_profile_derivative": {
+        "descending_turn_curvature": 1.0,
+        "delta": 0.0032045029071543782,
+        "boost_length": 0.059650712730558345,
+        "boost_speed": -0.02023549005513411
+      },
+      "low_core_derivative_max": 0.0,
+      "core_derivative": [
+        0.0,
+        0.0,
+        0.0,
+        1.431979367228654e-05,
+        -0.00036422402309628147,
+        0.0005078641118710633,
+        0.00037262462682567573,
+        -8.071314388101512e-05,
+        0.00015586478616340315,
+        -0.0007172965838949634,
+        -0.0009418478972458309,
+        -0.00024356541063127703,
+        -0.00020630967013431087,
+        8.42487117886548e-05,
+        4.3956083467095964e-05,
+        -3.209476757732501e-06,
+        1.9855734462141373e-05,
+        6.7125844252430125e-06,
+        -5.234649300494353e-07,
+        2.2275527632108577e-05,
+        1.0894831479441741e-06,
+        1.2421931616818033e-06,
+        -1.4890718301171255e-05,
+        -2.2177714648787196e-06,
+        -2.0544730319663914e-06,
+        6.217674234163659e-06,
+        5.171955498457619e-07,
+        5.916236964960672e-07
+      ],
+      "half_step_combination_relative_difference": 3.0738463687197836e-08,
+      "equation_relative_backward_error": 4.783151559414356e-14
+    }
+  ],
+  "tangent_arrays": [
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-external-delta.npy.gz",
+      "sha256": "80e3db24941815ef348ef38208662b9b1f82058c1672b489ab13ae16fb37f59e",
+      "bytes": 1457870,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-external-boost_length.npy.gz",
+      "sha256": "1a44b8201eab082085402305793e618611485e3a63d25b1789a83fa1d06234b8",
+      "bytes": 1457723,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-external-boost_speed.npy.gz",
+      "sha256": "aea84f0c92758366805d41d3abb0f51eef23e310c4e03abcf0dc3d8a3a3900e6",
+      "bytes": 1457689,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-external-vu.npy.gz",
+      "sha256": "4ef6537f79e4acd914b0aef4b35682f6e2e49eef4ad8eaa49654a551e6432b55",
+      "bytes": 1457953,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-external-descending_turn_curvature.npy.gz",
+      "sha256": "b3f368e8aa2c328c16d2996886d0223c0d7a9cb47c7a73ec3898445cfb0fa7a1",
+      "bytes": 1457946,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_q1.npy.gz",
+      "sha256": "f210731e59b36eb0e4d2c342a418333b35fef41aaed73ea9c534d60d3b9cb94a",
+      "bytes": 1457693,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_q4.npy.gz",
+      "sha256": "2e9d0ce6140860f681f4c56e0d3a2a0ffc4aca87a0375fe73f39594183298a32",
+      "bytes": 1457228,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_c6.npy.gz",
+      "sha256": "b9e27d7c4f13337407ec8c2f95f4ce3288c6962202349e0f9bfe02dc9a6c5c02",
+      "bytes": 1459738,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-core-held-vu.npy.gz",
+      "sha256": "4579d0499ee9ee31cb5339760cb5db31ac24ae532ffc760bf17ad1ff0f925094",
+      "bytes": 1449440,
+      "shape": [
+        187708
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-m28-actual-control-response-r1-core-held-descending_turn_curvature.npy.gz",
+      "sha256": "baf786ae02d330614192f1c88df96a08350419d40aca202acb116e7ccfe44533",
+      "bytes": 1431567,
+      "shape": [
+        187708
+      ]
+    }
+  ],
+  "radial_batch_size": 8,
+  "collocation_batch_size": 12,
+  "jacobian_seconds": 113.69080467999993,
+  "factor_seconds": 25.545147878999842,
+  "seconds": 1033.5208471580002,
+  "peak_rss_kib": 205792,
+  "counters": {
+    "inspections": 1,
+    "tail_start_attempts": 0
+  },
+  "field_parameter_layout": "Saved fixed-core layout. Tail entries of every tangent array are all-core parameter derivatives, not delta/LB/vp design offsets.",
+  "limitations": [
+    "The stored finite D-N derivative is used only at its exact complete H; it is not a new nonlinear tail solve.",
+    "These are local derivatives; a finite step needs a new actual nonlinear coupled BVP and geometry audit.",
+    "The old triple warm launcher cannot consume this all-core parameter layout without explicit conversion."
+  ],
+  "disk_block_storage": {
+    "adapter": {
+      "scope": "Optional disk storage for the original accepted fixed-g control response.\n\nThe input must still be a genuinely checked fixed view with M core parameters.\nThis does not relabel an M+3 design endpoint or create a new nonlinear solution.\nAll original complete-H identities, full-field forcing, half-step checks and\noriginal matrix residual checks remain. Every QR solve additionally receives\nthe production backend's complete streamed numerical backward-error gate.\n",
+      "original_source_sha256": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+      "transformed_source_sha256": "2e7ff712e5ff2ccebd9f0b216559944607b4a5c3b4caa40257ed28d33f6dd485",
+      "source_sha256": {
+        "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+        "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+        "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+        "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_fixed_control_response.py": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf"
+      },
+      "explicit_transforms": [
+        {
+          "before": "    hashes={str(Path(__file__)):digest(__file__)}\n",
+          "after": "    hashes={str(Path(__file__)):digest(__file__)}\n    hashes.update(DISK_WRAPPER_SOURCE_HASHES)\n",
+          "replacements": 1
+        },
+        {
+          "before": "    if opts.metadata_only:\n",
+          "after": "    input_report['disk_response_adapter'] = DISK_WRAPPER_PROVENANCE\n    if opts.metadata_only:\n",
+          "replacements": 1
+        },
+        {
+          "before": "    import root_block_collocation as blocks\n",
+          "after": "    from strong_disk_actual_backend import install_disk_backend\n    disk_runtime = install_disk_backend(bounded, prefix, DISK_WRAPPER_CONFIGURATION)\n    blocks = bounded.blocks\n",
+          "replacements": 1
+        },
+        {
+          "before": "        output.write_text(json.dumps(result,indent=2)+'\\n')\n",
+          "after": "        result['disk_block_storage'] = dict(\n            adapter=DISK_WRAPPER_PROVENANCE, configuration=DISK_WRAPPER_CONFIGURATION,\n            stats=dict(disk_runtime.stats), original_full_field_checks_preserved=True,\n            numerical_backward_check_is_not_an_interval_inverse_certificate=True)\n        output.write_text(json.dumps(result,indent=2)+'\\n')\n",
+          "replacements": 1
+        },
+        {
+          "before": "        for function,default in zip(functions,defaults):function.__defaults__=default\n",
+          "after": "        for function,default in zip(functions,defaults):function.__defaults__=default\n        disk_runtime.finish()\n",
+          "replacements": 1
+        }
+      ],
+      "original_source_file_unchanged": true,
+      "original_fixed_input_identity_gate_preserved": true,
+      "accepted_M_plus_3_design_requires_real_fixed_view_conversion": true,
+      "original_forcing_and_half_step_rules_preserved": true,
+      "original_full_matrix_residual_checks_preserved": true,
+      "independent_tail_worker_started": false
+    },
+    "configuration": {
+      "backward_error_tolerance": 5e-11,
+      "heartbeat_seconds": 20.0,
+      "temporary_parent": "/workspace/scratch/d1aa462cfc02/strong-work",
+      "purpose": "original accepted fixed-g complete control response with disk storage"
+    },
+    "stats": {
+      "jacobian_callbacks": 368,
+      "jacobian_points": 4598,
+      "assembled_matrices": 1,
+      "factors": 1,
+      "linear_solves": 10,
+      "maximum_numerical_backward_error": 4.93114072058572e-27
+    },
+    "original_full_field_checks_preserved": true,
+    "numerical_backward_check_is_not_an_interval_inverse_certificate": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "actual-fine-warm-complete-points-small-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/root_actual_coarse_increment_geometry_points.py",
+      "sha256": "d7e56def8759411b626914ec41a80c72f21c4069e4e8484bcac62532642744ba",
+      "bytes": 5647,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_coarse_increment_geometry_points.py"
+    },
+    {
+      "path": "computations/root_fine_saved_point_diameter_bounds.py",
+      "sha256": "d400fe722759d64f354205ec17b2fbc8b6a95ae272acdb8ba596ad2820cc4859",
+      "bytes": 11570,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_fine_saved_point_diameter_bounds.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q130-complete-warm-points-r1-screen.json",
+      "sha256": "0448d54e934ed644418923500a07a5d98937d1d02e4acf79b02960bd03cabcff",
+      "bytes": 40669,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q130-tail4-size1035-r1-screen.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q130-complete-warm-points-r1-geometry-prepared.json",
+      "sha256": "36e2c457d9b7bc96a09f7fe84449a8464ae7deab2f06c08253a946449748d31a",
+      "bytes": 31147,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q130-tail4-size1035-r1-coarse-fine-geometry-prepared.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q130-complete-warm-points-r1-geometry-resource.json",
+      "sha256": "0613e5459db7234889a870285865993656f598c1af626c4d2ce44bd9237409fb",
+      "bytes": 3716,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q130-tail4-size1035-r1-geometry-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q130-complete-warm-points-r1-field-chunks.json",
+      "sha256": "7cb29e5d0fbb4466dd81e3ca9801e7a6f391d546bf1ca37964a3c254189b9fe2",
+      "bytes": 4115,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q130-tail4-size1035-r1-field.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q130-complete-warm-points-r1-point-chunks.json",
+      "sha256": "a1ef1781b5ed771d60682b3d750c943a5757b5d35ec5af2b6887ab7971713fea",
+      "bytes": 4133,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q130-tail4-size1035-r1-points.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q130-complete-warm-points-r1-point-bounds.json",
+      "sha256": "9b4150774fe2fd48638f65b239c5be31692083bbb44e3948ceeb70ef1329772d",
+      "bytes": 13825,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q130-tail4-size1035-r1-points-bounds.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q130-complete-warm-points-r1-point-bounds-resource.json",
+      "sha256": "1e3592adb00386ae867a740926439c44799bf3afc5125a493a69c0b4b91f28ec",
+      "bytes": 1451,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q130-tail4-size1035-r1-points-bounds-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-fine-q130-complete-warm-points-r1-proof.md",
+      "sha256": "2a97a2105942cf8c382ddc5fd958c8d0ff41a289a1696459dd1216b3f9b6d4ce",
+      "bytes": 7255,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q130-tail4-size1035-r1-complete-warm-points-proof.md"
+    }
+  ],
+  "complete_geometry_and_points_owned_exit0": true,
+  "actual_point_count": 2890752,
+  "complete_mean": 1552,
+  "actual_fine_32_core_bits_verified": true,
+  "new_BVP_or_continuous_certificate": false,
+  "field_and_point_chunks_scratch_only": true,
+  "derived_chunks": {
+    "field_manifest_sha256": "7cb29e5d0fbb4466dd81e3ca9801e7a6f391d546bf1ca37964a3c254189b9fe2",
+    "point_manifest_sha256": "a1ef1781b5ed771d60682b3d750c943a5757b5d35ec5af2b6887ab7971713fea",
+    "original_directory": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1",
+    "field_prefix": "q130-tail4-size1035-r1-field",
+    "point_prefix": "q130-tail4-size1035-r1-points"
+  },
+  "bytes_total": 123528
+}

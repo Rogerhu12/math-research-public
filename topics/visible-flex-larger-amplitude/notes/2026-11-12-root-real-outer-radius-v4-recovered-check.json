@@ -1,0 +1,95 @@
+{
+  "scope": "Exact bookkeeping and a closed-form cap-platform check for R26's radius.\n\nThis does not rerun or replace the rigorous integral. It checks the saved\ndyadic interval ledger, its source hashes, complete panel coverage, overlap\nwith earlier independently executed cell bounds, and one analytic primitive.\n",
+  "passed": true,
+  "full_file": "notes/2026-11-12-root-real-outer-radius-v4-recovered-full.json",
+  "full_sha256": "28d491b998174029a80daf41e9365de6ab2c54757419de7b64f54445047b717f",
+  "check_source_sha256": "883b792d44a1762d99f89f3697f3ce8bf826c1b997e70a1e8162ad9d867d631d",
+  "exact_interval_arithmetic": true,
+  "complete_cells": 12,
+  "complete_segments": 108,
+  "panel_count": 304,
+  "interval_remainder_panels": 100,
+  "source_hashes_verified": true,
+  "full_radius_covers_saved_interval_sum": true,
+  "nominal_radius_difference_strictly_positive": true,
+  "complete_metric_or_tail_solution_claimed": false,
+  "prior_interval_comparisons": [
+    {
+      "file": "notes/2026-11-12-root-real-outer-radius-cell0.json",
+      "sha256": "960fa2dd0639b115fe12fe33c0ae7507ea856af47df798aa63625f491e4e02d2",
+      "cells": [
+        {
+          "cell": 0,
+          "intersects": true,
+          "current_contains_prior": true
+        }
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-root-real-outer-radius-cell11.json",
+      "sha256": "741fbf4db2002e920f46a96537cc6a485473f76e0db16e34bf78037879ee4fae",
+      "cells": [
+        {
+          "cell": 11,
+          "intersects": true,
+          "current_contains_prior": true
+        }
+      ]
+    }
+  ],
+  "cap_platform": {
+    "cell": 0,
+    "segment": 2,
+    "cap": {
+      "lower": {
+        "mantissa": "3602879701896397",
+        "binary_exponent": -53
+      },
+      "upper": {
+        "mantissa": "3602879701896397",
+        "binary_exponent": -53
+      },
+      "display": "0.400000000000000022204460492503130808472633361816406250000"
+    },
+    "weight": {
+      "lower": {
+        "mantissa": "1",
+        "binary_exponent": -1
+      },
+      "upper": {
+        "mantissa": "1",
+        "binary_exponent": -1
+      },
+      "display": "0.500000000000000000000000000000000000000000000000000000000"
+    },
+    "formula": "alpha_w*weight/(1+cap^2)*r_o(0)*expm1(length/sqrt(12))",
+    "entire_segment_branch": [
+      "cap",
+      0
+    ],
+    "primitive": {
+      "lower": {
+        "mantissa": "4868736552678981447336803827732968579235143374814220820755",
+        "binary_exponent": -199
+      },
+      "upper": {
+        "mantissa": "4868736552678981447336803827732968579235143374814220820789",
+        "binary_exponent": -199
+      },
+      "display": "[0.0060596443902404577860370369230963374156574446778943572958 +/- 3.61e-59]"
+    },
+    "saved_integral": {
+      "lower": {
+        "mantissa": "1217184138169745361834200956933242141493666489931968541287",
+        "binary_exponent": -197
+      },
+      "upper": {
+        "mantissa": "1217184138169745361834200956933242148123905197474808066663",
+        "binary_exponent": -197
+      },
+      "display": "[0.0060596443902404577860370369230963374 +/- 3.22e-38]"
+    },
+    "intervals_intersect": true,
+    "saved_integral_contains_primitive": true
+  }
+}

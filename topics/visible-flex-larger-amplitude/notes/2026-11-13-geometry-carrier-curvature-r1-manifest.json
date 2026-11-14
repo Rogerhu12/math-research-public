@@ -1,0 +1,26 @@
+{
+  "schema": "fresh-reconstructed-carrier-curvature-v1",
+  "old_pending_files_recovered": false,
+  "reason": "Recorded old runtime and tmp directories are absent. Fresh consumer changes only archive path resolution; all original hashes/formulas/gates retained.",
+  "actual_exitcode": 0,
+  "termination_signal": null,
+  "files": [
+    {
+      "path": "notes/2026-11-13-geometry-carrier-curvature-r1.json",
+      "bytes": 208914,
+      "sha256": "1bbbc88f2ef45ead0aea4451f6f90c25e826e989382c03f73f47254eaa3f838c",
+      "actual_output": "/tmp/vfla-20261113-geometry/curvature-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-carrier-curvature-r1-resource.json",
+      "bytes": 1303,
+      "sha256": "b0f1db131aa0e572bd23461cd82419f04bfc3d145fb00ba30d3a50ee09aa2fe9",
+      "actual_output": "/tmp/vfla-20261113-geometry/curvature-r1-resource.json"
+    },
+    {
+      "path": "computations/tail_carrier_conditional_curvature_relocated.py",
+      "bytes": 15114,
+      "sha256": "52b10e7c2140ed54e70283acf00ebecda46ee3f3c0b52b8fd00c62f269ea211d"
+    }
+  ]
+}

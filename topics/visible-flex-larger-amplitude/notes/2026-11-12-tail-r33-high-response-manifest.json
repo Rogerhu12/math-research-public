@@ -1,0 +1,96 @@
+{
+  "status": "Stable files for the R33 fixed-low complete high response checkpoint",
+  "scope": "q003 plateau2 low46 held fixed; low feedback, strong rebase and outer cells0..11 remain open",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "computations/tail_r33_plateau2_density_budget.py",
+      "bytes": 2497,
+      "sha256": "8daa4d0960ef2b72c3cd7a8c7bd7b29cc6d268ebb267136e943247c1f610d58b"
+    },
+    {
+      "path": "computations/tail_r33_middle_positive_density.py",
+      "bytes": 8143,
+      "sha256": "324bd2528ba3a43ea5c4a4af941f9a96d347d6523d15483c0d9d95d6da5b3ca6"
+    },
+    {
+      "path": "computations/tail_r33_middle_ordered_physical.py",
+      "bytes": 11941,
+      "sha256": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e"
+    },
+    {
+      "path": "computations/tail_r33_middle_local_scalar.py",
+      "bytes": 6928,
+      "sha256": "41620b257f0a35e21432660bcfd02a69b3ac1475c1b563e449899e1ceb11aece"
+    },
+    {
+      "path": "computations/tail_r33_middle_local_homogeneous.py",
+      "bytes": 2271,
+      "sha256": "253b0617c61bcecd57b2256c4791b057afa6a9fb8b1cd205156cde36818c6580"
+    },
+    {
+      "path": "computations/tail_r33_middle_hybrid_density.py",
+      "bytes": 9430,
+      "sha256": "465b2a6a6cb5e28fd2f35ddbf489e0f3594348b66ba844468526523136c1b8fc"
+    },
+    {
+      "path": "computations/tail_r33_middle_causal_box.py",
+      "bytes": 11768,
+      "sha256": "9b9c5b5fd0c76a853dc07aa6c4f5ceaea54594e445e961320c7debf3bd867346"
+    },
+    {
+      "path": "computations/tail_r33_high_joint_box.py",
+      "bytes": 6729,
+      "sha256": "0883e4fd68fa2941588236ab6b8e921fb0b0b1b8193aa7fce6f5aeec208386be"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+      "bytes": 240282,
+      "sha256": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-middle-local-homogeneous.json.gz",
+      "bytes": 104541,
+      "sha256": "876c8ca3c40ec5b567af2814409f6ecb9be470a20c6438caaf5c7c074e270e67"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-middle-hybrid-density.json.gz",
+      "bytes": 2836907,
+      "sha256": "b4ba7bb332c4845cef31da7363169cb85bb6197a93c8f17f628707e023eeb5b3"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz",
+      "bytes": 1979228,
+      "sha256": "07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-high-joint-box.json",
+      "bytes": 469230,
+      "sha256": "ba0ea67bdbf503742998f062daa24c047d58fa1260883dddb17d514938f3b614"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-middle-failed-majorants-summary.json",
+      "bytes": 37912,
+      "sha256": "2349e8972d196ff0f4b132e36bcaa94e94dbad91ceeafa4eed4d8e3b05ba11d2"
+    },
+    {
+      "path": "results/R33-full-head-forcing-on-a-variable-analytic-strip.md",
+      "bytes": 44819,
+      "sha256": "d8f29cf0bec62e92a6d2012983ef5c8fe6ab6f4b655e6e7961d80fd93a6a2c39"
+    }
+  ],
+  "index_change": "results.md R33 line only",
+  "do_not_collect_large_superseded_intermediates": [
+    "2026-11-12-tail-r33-middle-positive-density.json.gz",
+    "2026-11-12-tail-r33-plateau2-middle-positive-density.json.gz",
+    "2026-11-12-tail-r33-plateau2-middle-ordered-physical.json.gz",
+    "2026-11-12-tail-r33-plateau2-middle-causal-box.json.gz",
+    "2026-11-12-tail-r33-plateau2-middle-local-scalar.json.gz"
+  ],
+  "external_required_inputs": [
+    "notes/2026-11-12-closure-middle-high-subhead24.json.gz",
+    "notes/2026-11-12-closure-middle-high-subhead16to23.json.gz",
+    "R38 plateau2 reference/box/low-far packages and R34 original nine-band matrices"
+  ],
+  "all_owned_jobs_exited": true
+}

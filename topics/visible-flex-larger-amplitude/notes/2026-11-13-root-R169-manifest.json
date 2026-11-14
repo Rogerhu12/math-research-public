@@ -1,0 +1,57 @@
+{
+  "schema": "actual-original-split-root-jets-manifest-v1",
+  "owned_exitcode": 0,
+  "gate_count": 668,
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R169-primary.json.gz",
+      "sha256": "c68cb2b2860815890e9c64fd0f90a97b993e48c8722cfaa36aeb3cf0af36ba12",
+      "bytes": 248849,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R169-M20-root-jets-r1.json",
+      "original_sha256": "7eaf5fd2531694e618894ef73dc18c669a0be7e2e96c4616fd55dc894412aea2"
+    },
+    {
+      "path": "notes/2026-11-13-root-R169-resource.json",
+      "sha256": "b806b61b44c88c55ec790935af60684c0ad281c4db6add8a88d377531e60b345",
+      "bytes": 866,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R169-M20-root-jets-r1-resource.json",
+      "original_sha256": "b806b61b44c88c55ec790935af60684c0ad281c4db6add8a88d377531e60b345"
+    },
+    {
+      "path": "notes/2026-11-13-root-R169-stdout.log",
+      "sha256": "c1002c849062f44775b9ed6a56734787aa059fa28babd2884c027a6b9c2fc7ee",
+      "bytes": 1587,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R169-M20-root-jets-r1.log",
+      "original_sha256": "c1002c849062f44775b9ed6a56734787aa059fa28babd2884c027a6b9c2fc7ee"
+    },
+    {
+      "path": "notes/2026-11-13-root-R169-inputs.json",
+      "sha256": "a3ada4324f94c0c40806c00535e4b0bbf41a028c3a3678d7ce774ab00224ed4b",
+      "bytes": 1523,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R169-M20-root-jets-inputs/input-manifest.json",
+      "original_sha256": "a3ada4324f94c0c40806c00535e4b0bbf41a028c3a3678d7ce774ab00224ed4b"
+    },
+    {
+      "path": "notes/2026-11-13-root-R169-launch-plan.json",
+      "sha256": "ff94d599b68dbcbdf033af7602b77c321695258df7f5f57d8555ebedd1531e81",
+      "bytes": 1021,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R169-M20-root-jets-inputs/launch-plan.json",
+      "original_sha256": "ff94d599b68dbcbdf033af7602b77c321695258df7f5f57d8555ebedd1531e81"
+    },
+    {
+      "path": "computations/root_R169_M20_split_root_derivatives.mjs",
+      "sha256": "36b71071d016a171fa0d1e6dcdaf54975b9804275080a89addf33d2efe5de3a9",
+      "bytes": 7892,
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R169_M20_split_root_derivatives.mjs",
+      "original_sha256": "36b71071d016a171fa0d1e6dcdaf54975b9804275080a89addf33d2efe5de3a9"
+    },
+    {
+      "path": "results/R169-original-strong-M20-split-root-jets.md",
+      "sha256": "ba1581227dc7786c4a07f245066ed79c22c049b396d7c27ace6d7174b739f982",
+      "bytes": 2899,
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R169-original-strong-M20-split-root-jets.md",
+      "original_sha256": "ba1581227dc7786c4a07f245066ed79c22c049b396d7c27ace6d7174b739f982"
+    }
+  ],
+  "full_continuous_residual_claimed": false
+}

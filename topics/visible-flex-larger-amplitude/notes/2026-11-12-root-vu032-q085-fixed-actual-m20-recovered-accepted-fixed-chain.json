@@ -1,0 +1,306 @@
+{
+  "scope": "Audit frozen physical data and material two-jets along a true finite D-N chain.\n\nOnly saved successful solutions are compared. This is a spatial sample audit,\nnot an infinite-tail existence theorem or a continuous error enclosure.\n",
+  "physical_data_canonically_identical": true,
+  "fixed_datum_sha256": {
+    "frozen_profile": "ce2e846785d66035829661936eefd0d7d120310a7bc44ba538365ae1860ec0b4",
+    "physical_tail_parameters": "20a7621928d095a30825ddfd147311a186859c200604feaf5186c5734f8b74c8",
+    "physical_tail_cut": "bfd7667d03eeae4ac7fee31c7ecffd5d798592311938d0f27631db5562136427",
+    "angular_chart": "f43948346672a39a03dc0e908f376155cf626f1a8ab5d3c9f4ab16fb0e9cec1a",
+    "chart_reference_coefficients": "5b4f21fbd2cd1e1315578d10658defad4c4641ef8dc4a53b22decc4f9a30de03",
+    "chart_reference_frequencies": "f25ed8cd5464710aff6e5d655a575ac273cb9c19d696e53fa13de05db97454ca",
+    "gauge_amplitude": "70a47fadae9fed82f294777ca26d270e646679d5ee8456d683ce5fa81bfe5d6e",
+    "meridian_length": "a8afc0d7fae54343c7d9ce1979a5e7da17b766e52a4fe037b8bc2486b5819285"
+  },
+  "finite_tail_depth": 8,
+  "shooting_parts": 8,
+  "checkpoints": [
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+      "sha256": "7d9ff26ec1f33106e1ea341a6711004d076bfa9dbb181b99b0e1507449cb297e",
+      "modes": 16,
+      "angular": 384,
+      "nodes": 911,
+      "tolerance": 1e-06,
+      "fixed_metric": false,
+      "summary": {
+        "metric_l1": 2.6021101014544363e-06,
+        "flow_defect": 8.52725808242942e-06,
+        "darboux_l1": 0.0015233288151906854,
+        "kappa_sample": 8.477587632321214,
+        "radius_max": 1.3394151993325962,
+        "height_max": 1.9045237125114085,
+        "root_min": 0.0051368896628972704,
+        "chart_rho_min": 0.8196877707974304,
+        "support_amplitude": 0.085,
+        "core": {
+          "base_mode": 2,
+          "support_amplitude": 0.085,
+          "coefficients": [
+            0.085,
+            -0.006010407640085654,
+            -0.00033755022035039005,
+            -5.881525813896368e-05,
+            -2.7093672507215727e-05,
+            1.9377306055865826e-05,
+            1.1594593583095389e-05,
+            -6.441657442104707e-06,
+            -1.0017116209453585e-06,
+            -3.0766615198118435e-07,
+            -3.379614101250012e-07,
+            -4.571261656990084e-08,
+            -2.216060494066804e-08,
+            6.189217964986742e-08,
+            3.108792306655732e-08,
+            -1.3453742012218357e-07
+          ],
+          "frequencies": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32
+          ],
+          "exact_perimeter": 6.283185307179586,
+          "constant_width_exact": false,
+          "width_defect_bound": 0.18294644615618136,
+          "width_min_sample": 1.8185953335427352,
+          "width_max_sample": 2.1571778133627855,
+          "curvature_radius_lower": 0.802556514343211,
+          "curvature_radius_upper": 1.3356871360677764,
+          "curvature_lower_bound": 0.7486783191937976,
+          "curvature_upper_bound": 1.2460181708429232,
+          "radius_max_sample": 1.0785889066813927,
+          "radius_min_sample": 0.9092976667713676,
+          "radius_upper_bound": 1.0785889066813927,
+          "radius_lower_bound": 0.9092976667713676,
+          "support_monotone": true,
+          "phase_pi_over_base_mode_support_gap_at_phi0": 0.1692912399100251,
+          "phase_pi_over_base_mode_support_gap_lower": 0.16924473718400046
+        },
+        "inlet": {
+          "position": 9.011550876349181e-09,
+          "first": 3.452176545899897e-07,
+          "second": 1.335984027859682e-05,
+          "metric_l1": 3.203260595342332e-08
+        },
+        "dn_matrix": {
+          "physical_modes": 32,
+          "psi_modes": 16,
+          "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+        },
+        "terminal_height_coeff_max": 2.1668389630452756e-05,
+        "physical_bc_max": 2.114338654826326e-14,
+        "samples_s": 1970,
+        "samples_psi": 784,
+        "scope": "Sampled physical prefix metric with actual nonlinear finite-tail height slope boundary. Infinite closure, full Cartesian seam, cap and all-time geometry remain open."
+      },
+      "actual_tail_residual": 4.249050468400791e-11,
+      "actual_tail_audit": {
+        "fullD": 3.6985684663637756e-12,
+        "normalizedFullDefect": 1.496551228210782e-13,
+        "minLeading": 0.8958717304855329,
+        "minD": 0.9999452382780398,
+        "formalCurvature": 7.994254693538454,
+        "maxPhysicalPV": 4.333673211937738e-05,
+        "actualMetric": 5.777110745959964e-15,
+        "holonomy": 4.0188983651195126e-20
+      },
+      "actual_tail_final_response": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-tail-response_0003.json.gz",
+      "actual_tail_response_sha256": "671f4921924995e7c4ec4f2cc5807c127d6fc67364b7d79f8023a58ca84dfd7c",
+      "physical_polynomial_degree": 5,
+      "coefficient_chunks": [
+        {
+          "file": "2026-11-12-root-vu032-q085-actual-resumable-m16_coeff_00.npy.gz",
+          "state_first": 0,
+          "state_last_exclusive": 49,
+          "bytes": 2077688,
+          "sha256": "005031f809f9f7b4a02adfd3ac4b937c33606f155950b1a2a70b2c54d708b51c"
+        }
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted.json.gz",
+      "sha256": "493bd60833db5d0cb4bba8020e0223e7f55675f19a17faf026033f468f5b9457",
+      "modes": 20,
+      "angular": 512,
+      "nodes": 911,
+      "tolerance": 1e-06,
+      "fixed_metric": true,
+      "summary": {
+        "metric_l1": 1.0662241426512917e-07,
+        "flow_defect": 3.443195702191562e-07,
+        "darboux_l1": 0.0003338332851333996,
+        "kappa_sample": 8.47814466911891,
+        "radius_max": 1.3394151946914195,
+        "height_max": 1.904523713027691,
+        "root_min": 0.005136889625823704,
+        "chart_rho_min": 0.8196877707974304,
+        "support_amplitude": 0.08499998997227064,
+        "core": {
+          "base_mode": 2,
+          "support_amplitude": 0.08499998997227064,
+          "coefficients": [
+            0.08499998997227064,
+            -0.006010406474311625,
+            -0.00033755007566764375,
+            -5.881517851101598e-05,
+            -2.7092275809707478e-05,
+            1.9375729618505804e-05,
+            1.159381829108232e-05,
+            -6.439741156296921e-06,
+            -9.968858141486205e-07,
+            -3.250684330252649e-07,
+            -3.85381279953137e-07,
+            -5.225093470218672e-08,
+            -2.562003374391495e-08,
+            5.098328380067941e-10,
+            2.0949667738894712e-09,
+            -6.113653650074298e-10,
+            2.270060351524491e-09,
+            1.9535622202068814e-10,
+            -6.077305204052391e-10,
+            3.6541835918426184e-09
+          ],
+          "frequencies": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40
+          ],
+          "exact_perimeter": 6.283185307179586,
+          "constant_width_exact": false,
+          "width_defect_bound": 0.1829461168312555,
+          "width_min_sample": 1.818595606910052,
+          "width_max_sample": 2.1571777561470644,
+          "curvature_radius_lower": 0.8026210522001931,
+          "curvature_radius_upper": 1.3355524065514124,
+          "curvature_lower_bound": 0.7487538452962271,
+          "curvature_upper_bound": 1.2459179799218323,
+          "radius_max_sample": 1.0785888780735322,
+          "radius_min_sample": 0.909297803455026,
+          "radius_upper_bound": 1.0785888780735322,
+          "radius_lower_bound": 0.909297803455026,
+          "support_monotone": true,
+          "phase_pi_over_base_mode_support_gap_at_phi0": 0.16929107461850626,
+          "phase_pi_over_base_mode_support_gap_lower": 0.16924468188523342
+        },
+        "inlet": {
+          "position": 2.3194522906008158e-10,
+          "first": 1.0997584629316206e-08,
+          "second": 5.188755677774247e-07,
+          "metric_l1": 8.820273262891931e-10
+        },
+        "dn_matrix": {
+          "physical_modes": 32,
+          "psi_modes": 20,
+          "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+        },
+        "terminal_height_coeff_max": 2.1668387574702766e-05,
+        "physical_bc_max": 2.787072402950709e-15,
+        "samples_s": 1970,
+        "samples_psi": 976,
+        "scope": "Sampled physical prefix metric with actual nonlinear finite-tail height slope boundary. Infinite closure, full Cartesian seam, cap and all-time geometry remain open."
+      },
+      "actual_tail_residual": 1.1564059929048096e-10,
+      "actual_tail_audit": {
+        "fullD": 3.5278683145139444e-14,
+        "normalizedFullDefect": 8.597289546941056e-15,
+        "minLeading": 0.8958717405295062,
+        "minD": 0.9999452382891372,
+        "formalCurvature": 7.994254693538454,
+        "maxPhysicalPV": 4.333672801932093e-05,
+        "actualMetric": 5.555598866692135e-15,
+        "holonomy": 4.008145017156323e-20
+      },
+      "actual_tail_final_response": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-frozen-recovered-audit-response_0001.json.gz",
+      "actual_tail_response_sha256": "b667b7b24fd60756c341132fd14d9fe2a15857a96eb4d6598186f86741e4d091",
+      "physical_polynomial_degree": 5,
+      "coefficient_chunks": [
+        {
+          "file": "2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted_coeff_00.npy.gz",
+          "state_first": 0,
+          "state_last_exclusive": 61,
+          "bytes": 2587458,
+          "sha256": "b790c36aa7cdd779a9558be3bf5f54568fc98f8854085f87e063b3cbf03c9129"
+        }
+      ]
+    }
+  ],
+  "consecutive_material_comparisons": [
+    {
+      "maximum_material_point_displacement_sample": {
+        "distance": 2.4627842941511896e-07,
+        "s": 0.0,
+        "psi": 0.8835729338221293
+      },
+      "rms_point_displacement_sample": 2.8236452534368536e-08,
+      "mean_height_difference_max": 7.71894548279306e-10,
+      "radial_samples": 4826,
+      "angular": 512,
+      "interior_interval_fractions": [
+        0.5,
+        0.21132486540518713,
+        0.7886751345948128
+      ],
+      "physical_material_jet_differences_max_sample": {
+        "s": {
+          "value": 1.0102779519537208e-05,
+          "s": 0.9199345778485326,
+          "psi": 5.878214379177777
+        },
+        "theta": {
+          "value": 7.469933900753894e-06,
+          "s": 0.0,
+          "psi": 0.8222137023067037
+        },
+        "ss": {
+          "value": 0.001863581580730997,
+          "s": 0.9441793268718821,
+          "psi": 0.6872233929727672
+        },
+        "s_theta": {
+          "value": 0.00035694248473180576,
+          "s": 0.9199345778485326,
+          "psi": 2.7857091108003242
+        },
+        "theta_theta": {
+          "value": 0.00024233474916256594,
+          "s": 0.0,
+          "psi": 2.36846633649543
+        }
+      },
+      "scope": "Physical points and two jets at identical fixed material angle theta and physical s, including height mean jets; sample comparison, not a Hausdorff or continuum error certificate.",
+      "previous_file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+      "current_file": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted.json.gz"
+    }
+  ],
+  "code_sha256": "f2cd7a44eeb1587894292393606c64d0d53e24270b29e73d1ee5d9a5507cb172",
+  "seconds": 26.66445517539978
+}

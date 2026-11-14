@@ -1,0 +1,13 @@
+{
+  "scope": "Regeneration of the complete numerical port payload using --preserve-port; source metadata layout may differ.",
+  "published_port": "computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+  "published_port_sha256": "fd2bdd92b8e76ef9746c60a9d2d66213ae796bb29fc96e1c111bac4ccbbb84c9",
+  "equal_payload_fields": {
+    "parameters": true,
+    "cut": true,
+    "modes": true,
+    "linearSlope": true
+  },
+  "generator": "computations/numerical-m2-make-port.py",
+  "generator_sha256": "73f26038056db1f590e171f80de14107ba5cdaee3bf223ebbd13eca37c3b07f2"
+}

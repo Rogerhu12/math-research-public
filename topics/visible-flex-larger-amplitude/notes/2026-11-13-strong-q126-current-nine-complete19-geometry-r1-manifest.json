@@ -1,0 +1,40 @@
+{
+  "schema": "actual-current-M32-nineteen-field-compact-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/archive_current_m32_nineteen_geometry_fields.py",
+      "sha256": "a34d206813ff9405cb0acd8bd44143f96914935a34b96d5c8c71bb5a9facb7d6",
+      "bytes": 15010
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-nine-complete19-geometry-r1-reconstruction.json.gz",
+      "sha256": "4d291feb9296740b24402e164e949cf120ccc4993764128edb595a77cd7a5e47",
+      "bytes": 315055
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-nine-complete19-geometry-r1-proof.md",
+      "sha256": "311a15befd9e64e7809cfb8b86b5445a40a0ce128048573364d2c1a61d175062",
+      "bytes": 4049
+    },
+    {
+      "path": "computations/root_actual_current_geometry_exact_chart_order.py",
+      "sha256": "2a5ddc83127566cdf88d3709ec328235379b5083b6c069d51927b3defc0eb1a2",
+      "bytes": 9257
+    },
+    {
+      "path": "computations/root_geometry_current_exact_chart_reader.py",
+      "sha256": "167de07932c93a60fda5f5a1c51d32933027f108fdb73171f908db30228224cf",
+      "bytes": 8828
+    }
+  ],
+  "total_bytes": 352199,
+  "actual_completed_fields": 19,
+  "original_owned_field_exitcodes_all_zero": true,
+  "baseline_recomputed": false,
+  "complete_finite_row_count": 14465280,
+  "original_exact_chart_order_field_proofs": 1,
+  "all_derived_chunks_preserved_by_hash": true,
+  "derived_arrays_archived": false,
+  "no_continuous_geometry_or_new_solution_claimed": true
+}

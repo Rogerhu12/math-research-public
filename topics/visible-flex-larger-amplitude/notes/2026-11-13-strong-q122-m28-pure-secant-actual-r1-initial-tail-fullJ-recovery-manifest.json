@@ -1,0 +1,190 @@
+{
+  "scope": "Archive a genuine converged finite-tail response as recovery data only.\n\nThe complete response, full height Jacobian and all original full-flow\nsidecars are retained exactly. This does not accept the associated prefix,\ninfer a physical audit when absent, or claim an infinite closed surface.\nThe live coupled job is neither changed nor restarted.\n",
+  "created_utc": "2026-11-13T11:21:03.902711+00:00",
+  "archiver_source_sha256": "0b8f5380eadc6255f8000a4660e0189b136201d9030550e5aa5e93d85978f8c2",
+  "packet": {
+    "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0001.json.gz",
+    "sha256": "f2c245ca2ffed58f7ea8402227782dda74cc2a0cd76b24d976f8dbda2a111d64"
+  },
+  "launch_plan": {
+    "file": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-launch-plan.json",
+    "sha256": "5025786adf96235556179121871b9990a1d691d385e7af518224cb64832bc740"
+  },
+  "full_height": [
+    -2.902282837925667e-05,
+    2.94040847890916e-08,
+    5.3558522410873096e-11,
+    3.181852872722985e-12,
+    2.187378145773883e-13,
+    3.874540092864188e-14,
+    -1.802409718374321e-15,
+    -2.8086205681181916e-16,
+    -8.902232780902334e-18,
+    -9.995648353113782e-18,
+    -6.512614435095846e-18,
+    -7.264417025301723e-18,
+    -1.3337562314203122e-17,
+    -1.4125662072174082e-18,
+    -2.1863773090944796e-17,
+    1.2664177586503808e-18,
+    -8.432103088430705e-18,
+    -6.077778356230548e-19,
+    -1.5285561682024484e-17,
+    -9.277295336245058e-18,
+    7.758827650422432e-18,
+    1.461308098366216e-17,
+    -2.117251571103722e-17,
+    -8.777249077903976e-18,
+    -7.66777211421977e-18,
+    1.242597188415105e-17,
+    3.09766195994968e-17,
+    7.56869720165065e-18
+  ],
+  "modes": 28,
+  "residual": 1.499946469287228e-09,
+  "tolerance": 2e-09,
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 11.072805447956895,
+      "minA": 0.8596186773320962,
+      "minD": 0.9999265466117943,
+      "chartCondition": 130992.60514043081,
+      "step": 1
+    },
+    {
+      "iteration": 1,
+      "norm": 0.0031394848353824252,
+      "minA": 0.8597277624258096,
+      "minD": 0.9999265482519127,
+      "chartCondition": 130992.608412981,
+      "step": 1
+    },
+    {
+      "iteration": 2,
+      "norm": 1.499946469287228e-09,
+      "minA": 0.8597277680648348,
+      "minD": 0.9999265482519174
+    }
+  ],
+  "full_height_jacobian_entries": 2408,
+  "full_state_shape": [
+    577,
+    56
+  ],
+  "complete_snapshot": {
+    "schema": "full-shooting-flow-tangent-storage-v1",
+    "manifestPath": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-manifest.json.gz",
+    "manifestSha256": "0bd17dae5bafa8e2192cdeec73eddfc108d211834f4b4c295382cb575b99a901",
+    "manifestBytes": 15844,
+    "chunks": 8,
+    "rawFlowBytes": 14450688,
+    "baseRawBytes": 259024,
+    "helperSha256": "fb6ed25102cb91a332e1c2d879cf6218f9c88faaebe6916e801e46e6f8c1551f",
+    "newTargetAccepted": false,
+    "roundtrip": {
+      "allBaseAndFlowValuesBitwiseEqual": true,
+      "checkedValues": 1838705,
+      "originalFactoryPredictorCheck": {
+        "allStateValuesBitwiseEqual": true,
+        "values": 32312,
+        "probeCompleteHeight": [
+          -2.902285605760908e-05,
+          2.9404112817814006e-08,
+          5.355856688923318e-11,
+          3.181852607660768e-12,
+          2.1873637342523402e-13,
+          3.8744613000740586e-14,
+          -1.8028238764836987e-15,
+          -2.8106854426151015e-16,
+          -9.00535107011356e-18,
+          -1.0047212785397124e-17,
+          -6.538398095854082e-18,
+          -7.277312678112223e-18,
+          -1.3344019396355024e-17,
+          -1.4157897355761596e-18,
+          -2.1865405032478972e-17,
+          1.2656134210928113e-18,
+          -8.432513902564683e-18,
+          -6.079798015720818e-19,
+          -1.528567695263553e-17,
+          -9.277354530345077e-18,
+          7.758809876526223e-18,
+          1.4613082333136747e-17,
+          -2.1172542196044386e-17,
+          -8.777260595202349e-18,
+          -7.667781000107778e-18,
+          1.2425982947815953e-17,
+          3.097664874777065e-17,
+          7.568704223056445e-18
+        ],
+        "probePurpose": "Storage equivalence only; no probe nonlinear solve or accepted target."
+      }
+    }
+  },
+  "actual_request_audit": false,
+  "original_physical_tail_audit_present": false,
+  "all_compressed_and_raw_sidecar_hashes_verified": true,
+  "all_original_stages_preserved": true,
+  "original_live_coupled_job_unchanged": true,
+  "coupled_prefix_or_closed_family_accepted": false,
+  "full_original_prefix_RMS_true_H_physical_BC_and_audit_gates_still_required": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-base.f64le.gz",
+      "sha256": "157343d7f2c56678ac0fcc06ca9c46b2ff82de50f8d787a2656eef5fd3f18021",
+      "bytes": 254839
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-flow-0000.f64le.gz",
+      "sha256": "04e0a523e9f951ea80a22666da00fbbf48247ba35d6565c377194cbe08f84827",
+      "bytes": 1953891
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-flow-0001.f64le.gz",
+      "sha256": "a3a43368784d67e78afc3f05ec673c0350a93e6fbd3a8a5bcba49d8df9683295",
+      "bytes": 1952878
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-flow-0002.f64le.gz",
+      "sha256": "35f080259265891b6e88d35ccdf5ba0b44f917871e884585d78bf69b7ca57605",
+      "bytes": 1951067
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-flow-0003.f64le.gz",
+      "sha256": "789bc086ecc82cff13405f03a2bbbfa9ad2494d344ca1c0c0f33f8da8e812784",
+      "bytes": 1951644
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-flow-0004.f64le.gz",
+      "sha256": "9b30cbcc4f094643eed7410ad56095f929c6625e23323fbb458bd91a3816dbe3",
+      "bytes": 1947612
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-flow-0005.f64le.gz",
+      "sha256": "8620ba12473ed5b003e9725e68121f275675e609f6f7a116a8f6f1d1f53d1f55",
+      "bytes": 1943011
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-flow-0006.f64le.gz",
+      "sha256": "4ca06b32bf58b6ffb9b05cf18f6e4158d7d99ca52d05b76d716cc90aefc7ccc3",
+      "bytes": 1944472
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-flow-0007.f64le.gz",
+      "sha256": "531d38c39ea39e5b827c7f3472013dc7f6311c00fab41411f61cf5c4cdac992c",
+      "bytes": 565555
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-full-tangent-call0001-manifest.json.gz",
+      "sha256": "0bd17dae5bafa8e2192cdeec73eddfc108d211834f4b4c295382cb575b99a901",
+      "bytes": 15844
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0001.json.gz",
+      "sha256": "f2c245ca2ffed58f7ea8402227782dda74cc2a0cd76b24d976f8dbda2a111d64",
+      "bytes": 354515
+    }
+  ],
+  "total_bytes": 14835328
+}

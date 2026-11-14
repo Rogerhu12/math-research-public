@@ -1,0 +1,437 @@
+{
+  "schema": "visible-larger-ci-recovery-v1",
+  "revision": 7,
+  "purpose": "Continue genuinely unexecuted same-g q096 M28 and original m94/m96 actual Volterra kernels; preserve recovered actual results without rerunning R88.",
+  "enabled_lanes": [
+    "strong",
+    "interval"
+  ],
+  "continue_independent": true,
+  "runner_source": "topics/visible-flex-larger-amplitude/computations/ci_recover_visible_larger_v2.py",
+  "publish_sources": [],
+  "handoff_replacements": [],
+  "log_append": null,
+  "main_input_globs": {
+    "strong": [
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong*",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-root-vu032-q085-fixed-actual-m20-staged-audit-ready.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json"
+    ],
+    "interval": [
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-outer-physical-low46-r1*",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-outer-source-cell11-r1*",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1*",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json"
+    ]
+  },
+  "main_text_diagnostics": {
+    "strong": [],
+    "interval": []
+  },
+  "stages": [
+    {
+      "lane": "strong",
+      "name": "accepted-q096-same-g-m28",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "needs_git_source_recovery": true,
+      "depends_on": [],
+      "argv": [
+        "{python}",
+        "-u",
+        "computations/strong_ci_q096_sameg_m28.py",
+        "--repo",
+        "{repo}",
+        "--work-root",
+        "{runner_temp}",
+        "--run-id",
+        "{run_id}",
+        "--phase",
+        "all",
+        "--node-heap",
+        "128",
+        "--max-nodes",
+        "3200"
+      ]
+    },
+    {
+      "lane": "interval",
+      "name": "actual-middle-m94-m96-original-volterra",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "depends_on": [],
+      "argv": [
+        "{python}",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-closure-middle-m94m96-actions-{id}-resource.json",
+        "--",
+        "{python}",
+        "-B",
+        "computations/closure_outer_middle_volterra_recovered_v1.py",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--physical-flow",
+        "notes/2026-11-12-closure-outer-physical-low46-r1.json",
+        "--physical-manifest",
+        "notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json",
+        "--source11",
+        "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+        "--source10",
+        "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+        "--head",
+        "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+        "--r91",
+        "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+        "--modes",
+        "94,96",
+        "--precision",
+        "256",
+        "--order",
+        "24",
+        "--root-bits",
+        "160",
+        "--remainder-bits",
+        "100",
+        "--rss-kib",
+        "98304",
+        "--out-prefix",
+        "{repo}/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-middle-m94m96-actions-{id}"
+      ]
+    }
+  ],
+  "publish_output_globs": {
+    "sync": [],
+    "strong": [
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-q096-sameg-m28-{run_id}*"
+    ],
+    "interval": [
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-middle-m94m96-actions-{id}*",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-carrier-*-actions-{id}*",
+      "topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-subdivision-binding-actions-{id}*"
+    ]
+  },
+  "deferred_tail_recovery_stages": [
+    {
+      "lane": "interval",
+      "name": "tail-restore-locked-subdivision-source",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "needs_git_source_recovery": true,
+      "depends_on": [],
+      "argv": [
+        "{python}",
+        "-B",
+        "computations/tail_ci_restore_subdivision_binding.py",
+        "--repo",
+        "{repo}",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--work-root",
+        "{runner_temp}",
+        "--out",
+        "notes/2026-11-12-tail-subdivision-binding-actions-{id}.json"
+      ]
+    },
+    {
+      "lane": "interval",
+      "name": "tail-physical-r-positive-moments",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "depends_on": [
+        "tail-restore-locked-subdivision-source"
+      ],
+      "argv": [
+        "{python}",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-actions-{id}-resource.json",
+        "--",
+        "{python}",
+        "-B",
+        "computations/tail_outer_physical_substage_moments_rebuilt.py",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--first-part",
+        "0",
+        "--stop-part",
+        "1",
+        "--order",
+        "16",
+        "--precision",
+        "224",
+        "--remainder-bits",
+        "48",
+        "--max-u-span",
+        "1/64",
+        "--max-rx-ratio",
+        "2",
+        "--max-panels-per-part",
+        "8192",
+        "--rss-limit-mib",
+        "96",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-actions-{id}"
+      ]
+    },
+    {
+      "lane": "interval",
+      "name": "tail-physical-r-complete-J",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "depends_on": [
+        "tail-physical-r-positive-moments"
+      ],
+      "argv": [
+        "{python}",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}-resource.json",
+        "--",
+        "{python}",
+        "-B",
+        "computations/tail_outer_physical_substage_candidate_rebuilt.py",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--moment-summary",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-actions-{id}-summary.json",
+        "--moment-resource",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-actions-{id}-resource.json",
+        "--mode",
+        "physical",
+        "--rss-limit-mib",
+        "96",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}"
+      ]
+    },
+    {
+      "lane": "interval",
+      "name": "tail-carrier-actual-positive-A",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "depends_on": [
+        "tail-physical-r-complete-J"
+      ],
+      "argv": [
+        "{python}",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-positive-A-actions-{id}-resource.json",
+        "--",
+        "{python}",
+        "-B",
+        "computations/tail_outer_background_carrier_integral.py",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--moment-summary",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-actions-{id}-summary.json",
+        "--moment-resource",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-actions-{id}-resource.json",
+        "--baseline-audit",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}-summary.json",
+        "--baseline-audit-resource",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}-resource.json",
+        "--order",
+        "16",
+        "--precision",
+        "224",
+        "--remainder-bits",
+        "48",
+        "--max-subpanels",
+        "100000",
+        "--rss-limit-mib",
+        "96",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-positive-A-actions-{id}"
+      ]
+    },
+    {
+      "lane": "interval",
+      "name": "tail-carrier-complete-J",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "depends_on": [
+        "tail-carrier-actual-positive-A"
+      ],
+      "argv": [
+        "{python}",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-actions-{id}-resource.json",
+        "--",
+        "{python}",
+        "-B",
+        "computations/tail_outer_physical_substage_candidate_rebuilt.py",
+        "--candidate",
+        "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+        "--moment-summary",
+        "notes/2026-11-12-tail-carrier-positive-A-actions-{id}-summary.json",
+        "--moment-resource",
+        "notes/2026-11-12-tail-carrier-positive-A-actions-{id}-resource.json",
+        "--mode",
+        "carrier",
+        "--rss-limit-mib",
+        "96",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-actions-{id}"
+      ]
+    },
+    {
+      "lane": "interval",
+      "name": "tail-carrier-same-cover-comparison",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "depends_on": [
+        "tail-carrier-complete-J"
+      ],
+      "argv": [
+        "{python}",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-comparison-actions-{id}-resource.json",
+        "--",
+        "{python}",
+        "-B",
+        "computations/tail_outer_carrier_candidate_comparison.py",
+        "--physical-summary",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}-summary.json",
+        "--physical-resource",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}-resource.json",
+        "--carrier-summary",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-actions-{id}-summary.json",
+        "--carrier-resource",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-actions-{id}-resource.json",
+        "--rss-limit-mib",
+        "96",
+        "--out",
+        "notes/2026-11-12-tail-carrier-comparison-actions-{id}.json"
+      ]
+    },
+    {
+      "lane": "interval",
+      "name": "tail-carrier-complete-mean-v3",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "depends_on": [
+        "tail-carrier-same-cover-comparison"
+      ],
+      "argv": [
+        "{python}",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-mean-v3-actions-{id}-resource.json",
+        "--",
+        "{python}",
+        "-B",
+        "computations/tail_outer_carrier_mean_ledger_v3.py",
+        "--selected-composition",
+        "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-r1.json",
+        "--selected-resource",
+        "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-r1-resource.json",
+        "--original-summary",
+        "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+        "--original-resource",
+        "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+        "--physical-summary",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}-summary.json",
+        "--physical-resource",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}-resource.json",
+        "--carrier-summary",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-actions-{id}-summary.json",
+        "--carrier-resource",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-actions-{id}-resource.json",
+        "--comparison",
+        "notes/2026-11-12-tail-carrier-comparison-actions-{id}.json",
+        "--comparison-resource",
+        "notes/2026-11-12-tail-carrier-comparison-actions-{id}-resource.json",
+        "--rss-limit-mib",
+        "96",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-mean-v3-actions-{id}"
+      ]
+    },
+    {
+      "lane": "interval",
+      "name": "tail-carrier-complete-frame",
+      "cwd": "topics/visible-flex-larger-amplitude/",
+      "depends_on": [
+        "tail-carrier-complete-mean-v3"
+      ],
+      "argv": [
+        "{python}",
+        "computations/strong_resource_run.py",
+        "--out",
+        "notes/2026-11-12-tail-carrier-frame-actions-{id}-resource.json",
+        "--",
+        "{python}",
+        "-B",
+        "computations/tail_outer_carrier_frame_ledger.py",
+        "--mean-summary",
+        "notes/2026-11-12-tail-carrier-mean-v3-actions-{id}-summary.json",
+        "--mean-resource",
+        "notes/2026-11-12-tail-carrier-mean-v3-actions-{id}-resource.json",
+        "--physical-summary",
+        "notes/2026-11-12-tail-carrier-recovery-physical-audit-actions-{id}-summary.json",
+        "--carrier-summary",
+        "notes/2026-11-12-tail-carrier-part0-fullJ-actions-{id}-summary.json",
+        "--moment-summary",
+        "notes/2026-11-12-tail-carrier-recovery-physical-moments-actions-{id}-summary.json",
+        "--rss-limit-mib",
+        "96",
+        "--out-prefix",
+        "notes/2026-11-12-tail-carrier-frame-actions-{id}"
+      ]
+    }
+  ],
+  "deferred_tail_reason": "Original PM/PA/R77/composition files were recovered locally, with original parts/output schema and four actual exit0 resources. Preserve and publish those originals first; read their actual schema and prepare an explicit compatible consumer before activating new work. The recorded rebuilt fallback chain is only for actual loss of those originals. Mean-v3/frame commands are complete and do not reset mean or frame constants.",
+  "completed_inputs_not_to_rerun": {
+    "R88_main": "1472688dc0860182c0a5a082e5bd3cd6be3f854d",
+    "R88_original_files": 108,
+    "R88_original_bytes": 20414698,
+    "original_q096_BVP": "Already accepted and preserved; M28 bootstrap verifies existing63 and never repeats the original BVP"
+  },
+  "strong_response_fields": [
+    "delta",
+    "boost_length",
+    "boost_speed",
+    "initial_speed_pulse",
+    "initial_speed_frontload",
+    "vd",
+    "vu",
+    "descending_turn_curvature"
+  ],
+  "strong_followup_status": "Eight-column actual response deferred until the fixed-g M28 endpoint and complete finite geometric audits. It is not a prerequisite of M28 and must use the new same-chart wrapper; the old raw/reference_t mismatch is not bypassed.",
+  "source_guards": {
+    "strong_sameg_spectral_refinement.py": "65e81c73707c6f094ce5d494965d2fd468e971f4fa450d88513cf4ac622476fd",
+    "strong_sameg_actual_comparison.py": "7c152306f09faf7de890377af4f69406677c374ed707b2bc2e391208c8d57f57",
+    "root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+    "strong_foreground_resource_run.py": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+    "strong_interior_jet_audit.py": "1b7f45785fffc41595eda9aae844c3081d2954d3ea08ac0da6e5a90c935294fa",
+    "root_actual_seam_audit.py": "c084d31f8671434ce393d778507103c1b786353812126d60dbcd6db9fce2bb87"
+  },
+  "middle_source_sha256": "6655a72f38f89d6eb31ded7b78bd4b84f94c500653bbb8e6c3ca2611d6af2e31",
+  "mixed_density_source_status": "R98 independent v2 prepared; original m94/m96 v1 remains the first actual task",
+  "old_local_r7_terminal": "unknown",
+  "platform_prelaunch_failure": {
+    "run_id": 43309712288,
+    "attempts": [
+      1,
+      2
+    ],
+    "mathematical_steps_started": false,
+    "latest_other_run": 43323641535,
+    "latest_other_utc": "2026-11-12T22:50:51Z",
+    "latest_other_jobs": [
+      131550474870,
+      131550475447
+    ],
+    "latest_other_runner_ids": [
+      0,
+      0
+    ],
+    "latest_other_steps_empty": true,
+    "annotations_retrieval": "GitHub fetch endpoint unsupported (400); no annotation body read",
+    "reason": "Unknown; no platform recovery evidence, no workflow dispatched by this change"
+  },
+  "no_MJS_changes": true,
+  "no_workflow_dispatched_by_preparation": true
+}

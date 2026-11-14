@@ -1,0 +1,81 @@
+{
+  "schema": "immutable-completed-scientific-conclusion-manifest-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "date": "2026-11-13",
+  "members": [
+    {
+      "path": "computations/strong_newg_binary_background_C2_comparison.py",
+      "sha256": "483b784c9c7aabde360aa04a06eea063b7dee8b1dadd0f0ae81f8be0d7f14e08",
+      "bytes": 21473
+    },
+    {
+      "path": "computations/strong_newg_binary_background_saved_check.py",
+      "sha256": "cfce92ab43af982fb0c76f1c9a7941cb781aa7d38fb1d54e1e1c9582b1f66079",
+      "bytes": 5402
+    },
+    {
+      "path": "notes/2026-11-13-strong-binary-background-C2-comparison-r1.json",
+      "sha256": "a3f57c4efdbd5170183cd97ffe4d2828c57c6a2c13c5f603fd1ed144f99db60f",
+      "bytes": 270428
+    },
+    {
+      "path": "notes/2026-11-13-strong-binary-background-C2-comparison-r1-resource.json",
+      "sha256": "fdf92de289304dd42942e8956647f14b3559ab1eeed1684c991ccdd6a231af7d",
+      "bytes": 1609
+    },
+    {
+      "path": "notes/2026-11-13-strong-binary-background-C2-comparison-r1-saved-check.json",
+      "sha256": "08f3f53ddc666a95c3b228796fa89ec9b53559d0d50ce1d055d50194d8428316",
+      "bytes": 9269
+    },
+    {
+      "path": "notes/2026-11-13-strong-binary-background-C2-comparison-r1-saved-check-resource.json",
+      "sha256": "d45a89382615b6850d1b2baddf7f1adc87c47352d58836462495610ad3ba63f9",
+      "bytes": 1342
+    },
+    {
+      "path": "notes/2026-11-13-strong-binary-background-C2-comparison-r1-proof.md",
+      "sha256": "8078c83de8a6e32ddc4261e32b327d4245e50a9af6a10c9a2ba6889856731f5f",
+      "bytes": 8581
+    }
+  ],
+  "all_gates": true,
+  "actual_gate_count": 1589,
+  "independent_saved_gate_count": 236,
+  "observed_formal_exitcode": 0,
+  "resource": {
+    "wall_seconds": 15.473607617997914,
+    "peak_rss_kib": 79044
+  },
+  "actual_command": [
+    "python",
+    "computations/strong_newg_binary_background_C2_comparison.py",
+    "--accepted",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1.json.gz",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--source-dir",
+    "computations",
+    "--table",
+    "newg-gauss64-r1/certificate.json",
+    "--out",
+    "binary-background-C2-r1/certificate.json",
+    "--radius-subdivisions",
+    "32",
+    "--rss-kib",
+    "131072"
+  ],
+  "actual_cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "source_and_input_identities": {
+    "newg-gauss64-r1/certificate.json": "0a6bb86d0b492ba47ff5d34a4ef63419686aef316cacdec62ed1781f48da621d",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1.json.gz": "006eaa15e9b1416aa72140e616e1ecf75461033df8448ade0bbd812826d210a8"
+  },
+  "complete_actual_background_segments_and_binary_table": true,
+  "actual_original_target_g_or_accepted_field_modified": false,
+  "claim": "An explicit exact-real continuous C2 comparison radius for each of the actually accepted q106 and q122 profiles. All per-piece enclosures, original binary constants, joins and repair costs are retained.",
+  "original_floating_evaluation_mean_Cartesian_surface_and_same_g_refinement_still_pending": true,
+  "new_ODE_Node_Newton_calls": 0
+}

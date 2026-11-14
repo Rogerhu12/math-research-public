@@ -1,0 +1,45 @@
+{
+  "schema": "small-stable-theorem-and-prepared-kernel-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Complete R48/R99/R103 application proof and prepared exact Fraction kernel; no Python AST or numerical execution yet",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-tail-old-r48-to-carrier-same-measure-bridge.md",
+      "blob_sha": "ebfca2a2b4fccb577e8f6a7f69fbec4e5764caa1",
+      "sha256": "1310f0a98b2520d8dbd3671191b8d6598e9dfc0919cc1c3de8271aadf0107278",
+      "bytes": 10588
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/tail_r48_same_measure_core.py",
+      "blob_sha": "5e97099f211357a7efbaa261ebfd3858d0279803",
+      "sha256": "734af51836d7a57cd9d80a7804eccdc286ae4a4c38263cb519e93d473a460eaf",
+      "bytes": 8925
+    }
+  ],
+  "mathematical_content": [
+    "Reweight identical positive measure integral w dr for the old u=8x basis, not the physical u_r basis",
+    "Refine the same real lambda only, intersect old totals/bins; never select a new midpoint",
+    "Two-sided zero-endpoint integral of full nonmean slope difference",
+    "Complete mean and its physical radial derivative retained",
+    "Two separately reported global spatial gauges; never pointwise min between them",
+    "Outside part0 both candidates differ only by one fixed translation, with identical reference vectors"
+  ],
+  "new_numeric_result": false,
+  "executed_finite_gate_count": 0,
+  "original_PM_PA_A_CF_recomputed": false,
+  "followup": "A local-only original-file wrapper is being implemented against the actually read original generator/CF schemas. Its actual execution remains pending the executor.",
+  "first_local_checks": [
+    [
+      "python",
+      "-c",
+      "import ast,pathlib;ast.parse(pathlib.Path('computations/tail_r48_same_measure_core.py').read_text())"
+    ],
+    [
+      "python",
+      "-c",
+      "import importlib.util; p='computations/tail_r48_same_measure_core.py'; s=importlib.util.spec_from_file_location('r48_core',p); m=importlib.util.module_from_spec(s);s.loader.exec_module(m);print(m.exact_basis_checks())"
+    ]
+  ],
+  "no_binary_or_encoded_primary_in_tool_calls": true
+}

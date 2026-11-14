@@ -1,0 +1,66 @@
+{
+  "scope": "Prepare one original complete response with the additional existing vd column. The real q106 accepted fixed-view metadata-only path passed; no eight-column Jacobian/RHS or new BVP was computed. Current q122 actual solve is unchanged.",
+  "created_utc": "2026-11-13T12:14:38.044859+00:00",
+  "plan": {
+    "file": "notes/2026-11-13-strong-q122-frontload-eight-control-followup-plan-r1.json",
+    "sha256": "fb71e786df7eed3cb7da7bc04e5745a1b939fac099218c4a5f2a73a372fb229b",
+    "private_exact_path": "/workspace/scratch/d1aa462cfc02/strong-work/2026-11-13-strong-q122-frontload-eight-control-followup-plan-r1.json"
+  },
+  "fields": [
+    "delta",
+    "boost_length",
+    "boost_speed",
+    "vu",
+    "descending_turn_curvature",
+    "start_acceleration",
+    "initial_speed_frontload",
+    "vd"
+  ],
+  "metadata_formal_exit": 0,
+  "metadata_seconds": 3.037208563000604,
+  "metadata_peak_rss_kib": 77448,
+  "original_complete_H_bitwise_equal": true,
+  "numerical_response_not_run": true,
+  "source_or_MJS_modified": false,
+  "unique_fixed_baseline_unchanged": true,
+  "full_J_half_step_full_row_and_all_original_gates_required": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-frontload-eight-control-followup-plan-r1.json",
+      "sha256": "fb71e786df7eed3cb7da7bc04e5745a1b939fac099218c4a5f2a73a372fb229b",
+      "bytes": 7155
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-frontload-eight-control-metadata-r1-heartbeat.json",
+      "sha256": "749b814c6cb2c3cafa8406ee23915f4fd16f68244a27acc97d28c394263f2285",
+      "bytes": 321
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-frontload-eight-control-metadata-r1-ownership.json",
+      "sha256": "ee8866fb5d5a9742db91ea336a60d43a1c8eb75cf4dbfd6c9653928efbc08e29",
+      "bytes": 2419
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-frontload-eight-control-metadata-r1-resource.json",
+      "sha256": "c5f537a1b44773fcfabc1e0f0a2a887a8028d8e35534626a52184578b430a821",
+      "bytes": 2203
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-frontload-eight-control-metadata-r1-samechart-adapter.json",
+      "sha256": "4c184be0eeab13bcf9fcdfa7b24db90b96632d508c75cae7cca4b7d766517c99",
+      "bytes": 2067
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-frontload-eight-control-metadata-r1-stdout.log",
+      "sha256": "ce38c0c6631dcbee46f136f96d4e22fff408963d2525ca19cbe14f1e1eca85af",
+      "bytes": 19115
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-frontload-eight-control-metadata-r1.json",
+      "sha256": "38f780a8041506ee10340a82233e6bcb1083674acf183b0dab740b8ef6c0cec8",
+      "bytes": 20716
+    }
+  ],
+  "file_count": 7,
+  "total_bytes": 53996
+}

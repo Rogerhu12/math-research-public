@@ -1,0 +1,15 @@
+{
+  "name": "same-stored-metric-depth-only-initial-guess-v1",
+  "storedWorkerSha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+  "depthWarmSha256": "fb1f1e413cb3286e1b50ef3fabcd8081d8a001e6c92991166a162a0303af9047",
+  "selfSha256": "213306520cc269e58e427a4cf16089679d34a1f9f4c3409548ee5ec76d405b74",
+  "transformedSha256": "d6dc3d50c6572959695d14284e3e1a77e834f85e464fc6a95cf932dd0740129a",
+  "mathematicalChange": "Only extend the finite nonlinear physical depth; all fixed metric parameters and cut H retained.",
+  "unchanged": [
+    "original stored metric factory",
+    "original complete equations",
+    "original solve tolerance",
+    "original line search",
+    "requested complete finite audit"
+  ]
+}

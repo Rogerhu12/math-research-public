@@ -1,0 +1,104 @@
+{
+  "lift_inputs": {
+    "original_lift": {
+      "path": "notes/2026-11-13-inner-r100-Cs-Lambda-input-all213.json.gz",
+      "sha256": "28161832153c4f0b3e632f4c4fba2741b9b90d198a4d75ff5761a18a72c8fa8f"
+    },
+    "R148_posterior": {
+      "path": "notes/2026-11-13-root-sparse-complete-low-r1.json.gz",
+      "sha256": "0c7e11319c9f9d4e705a7f3ed742ab0f4239529e7117a4fbaf5b2cd33a15c56f"
+    },
+    "R148_resource": {
+      "path": "notes/2026-11-13-root-sparse-complete-low-r1-resource.json",
+      "sha256": "33acd484c72c18b2f3edced56be170fb39890b66f263c2fd35b5291a0aef769b"
+    },
+    "R148_exact_domain": {
+      "path": "notes/2026-11-13-root-sparse-complete-low-exact-domain.json",
+      "sha256": "c90ac9213b86ac92d1f851415602529665baa0b6b5a2f5bb0343d73ed0fb0b89"
+    },
+    "R143_contraction": {
+      "path": "notes/2026-11-13-root-full-cut-homothetic-contraction-r1.json",
+      "sha256": "e76e2e452079afec5d05939a8f8ddd79ed7bf1e656446ac5576086efebd47e83"
+    },
+    "R143_resource": {
+      "path": "notes/2026-11-13-root-full-cut-homothetic-contraction-r1-resource.json",
+      "sha256": "3a063b1a7c3f5434ae1f2ce6a70f8025eef6a225d52deff5e2509408adae052b"
+    },
+    "R148_independent_audit": {
+      "path": "notes/2026-11-13-exact-resume-r148-saved-fraction-audit-primary.json",
+      "sha256": "9584eff087c66d25efa2e365ee408171701ab3c27ef8d1bd779f305d7946e639"
+    },
+    "R148_audit_resource": {
+      "path": "notes/2026-11-13-exact-resume-r148-saved-fraction-audit-resource.json",
+      "sha256": "9ca5de7dd319219a1a697c6f5b24e3884115ca31cff44e17d3372d11535ca00c"
+    }
+  },
+  "parent_bridge_inputs": {
+    "new_modal": {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-modal-r1.json.gz",
+      "sha256": "0a76756d411a350836ab27ca274142df0306628293401763453842130fa6f77c"
+    },
+    "new_resource": {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-modal-r1-resource.json",
+      "sha256": "d0fbd2946dbbe84c97ef6a22659d28382678ba299ed0634364a822132c94222e"
+    },
+    "parent_modal": {
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-expanded-modal-r1.json.gz",
+      "sha256": "d74b5972d555086b0e5dc9b7b63f6b7ee0a6399838f077da538bd79cfd497968"
+    },
+    "parent_modal_resource": {
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-expanded-modal-r1-resource.json",
+      "sha256": "64f0621c647f379dc11a332cc7579a8149a4f2f479d6c32d932695d1e4d1222f"
+    },
+    "parent_window": {
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-alternate4-window13.json.gz",
+      "sha256": "8259ea4d96e66ec2b479f7c2dce959034c48ab29d1da01a54c0dc6fbf008c797"
+    },
+    "parent_window_resource": {
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-alternate4-window13-resource.json",
+      "sha256": "18fdac70d25dd81bef2fcc0aa5ac9fa9a77e1c799153d28e40eabdeb94fa2984"
+    },
+    "parent_low": {
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-alternate4-low46.json.gz",
+      "sha256": "99449aa840fb802c14f19d2840b851e8bb61b00a6aaf2e4d1e5b0aa19b572b69"
+    },
+    "parent_low_resource": {
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-alternate4-low46-resource.json",
+      "sha256": "b9939aeeb120de5103f999ace500985d41d3abdd80da17f7934f14048e983e39"
+    },
+    "parent_low_window": {
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-alternate3-window13.json.gz",
+      "sha256": "adbc64b54d75f95f7316311b440e1bc3e5119db6d820ecd0be59fe728a78bd11"
+    },
+    "parent_low_window_resource": {
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-alternate3-window13-resource.json",
+      "sha256": "56fa4ae8ed0d4b93e4973a4f85366220b8da575856bf6bd63154c8914a7af9f5"
+    },
+    "parent_dq": {
+      "storage": "regenerable-derived-original-not-duplicated",
+      "original_primary_sha256": "d519f6e5d8f0a8bb06c5d87f9257f6b9c01a19bfd04ce394a661ff3ffa3857ac",
+      "canonical_mathematical_rows_sha256": "312f3d9c9f4bffd87f054bee57fb361f3d7b2833dda819ee3b5aad9d423f6f9e",
+      "recipe_manifest_path": "notes/2026-11-13-inner-restricted-DQ-windows-and-low46-r2-manifest.json",
+      "recipe_manifest_sha256": "81df15d9a372de0b7498e492f93f59d9897d11882b5f0b91389dc9bc319a28d8",
+      "original_command": [
+        "python",
+        "computations/inner_restricted_DQ_windows_and_low_modes_v2.py",
+        "--input",
+        "inner-restricted-DQ-r1/inner-restricted-expanded-modal-r1.json.gz",
+        "--input-resource",
+        "inner-restricted-DQ-r1/inner-restricted-expanded-modal-r1-resource.json",
+        "--density",
+        "inner-window-gamma-r1/frozen/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+        "--out",
+        "inner-restricted-DQ-r1/r2-kernels.json.gz",
+        "--rss-kib",
+        "98304"
+      ],
+      "regeneration_only_if_original_is_lost": true
+    },
+    "parent_dq_resource": {
+      "path": "notes/2026-11-13-inner-restricted-DQ-windows-and-low46-r2-resource.json",
+      "sha256": "0aba2b45eec0739c79411620bd327285cb02736151f8a03d0d0318f77e0a48c0"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "status": "Actual same-q-strip strong low four-kernel rescaling complete. Float original641 positive-majorant proposal failed; no strong full-frequency existence claimed.",
+  "files": [
+    {
+      "path": "computations/closure_split_joint_io_v2.py",
+      "bytes": 5738,
+      "sha256": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0"
+    },
+    {
+      "path": "computations/closure_split_joint_float_proposal_v2.py",
+      "bytes": 11244,
+      "sha256": "98b3468ea807d54c4d71650d37d51cbd6a761ea97f467a278648f44e0c82b63f"
+    },
+    {
+      "path": "computations/closure_split_joint_verify_v2.py",
+      "bytes": 12510,
+      "sha256": "57349e4bd24a684b9c4503475700ff8e0db00cfd48c4b229af1da22446c0f746"
+    },
+    {
+      "path": "computations/closure_rescale_strong_centred_green_v2.py",
+      "bytes": 17417,
+      "sha256": "2f519f27b2c4fd700ff0f3f92eab5d4b5811109d1915196c35e7e3e188d21acf"
+    },
+    {
+      "path": "computations/closure_split_joint_component_diagnostic.py",
+      "bytes": 15254,
+      "sha256": "6454b8792160c49ce304212ed52aabab64aa3f278898ebb0631a526f2d6c812a"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-split-v2-prepared-manifest.json",
+      "bytes": 1723,
+      "sha256": "72a3b46022642aeb06eec8e0c3bd835400c67bc1e90fe99d3a6eca55569875a3"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-same-tau-four-green-r1.json.gz",
+      "bytes": 1525444,
+      "sha256": "841c42ff527f2ca3846abf7ede8e9e03eb296a1f979cf7b01f48069197d312ac"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-same-tau-four-green-r1-summary.json",
+      "bytes": 74979,
+      "sha256": "7db9f24800d09f0f040da6fa2b822f7ee2cab3f4ed2cc38d4c8d67fd063299fe"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-same-tau-four-green-r1-resource.json",
+      "bytes": 1910,
+      "sha256": "42370bfa83c9ee9d6e9a77692fd34bf0900e8dc9f5027ac9cae9d4b6982316a2"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-same-tau-four-green-r1-monitor.json",
+      "bytes": 562,
+      "sha256": "1e964e00cf90cc5f3a708d252d8154a573fb58be6cdd71d99a09971e76760c42"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-same-tau-four-green-r1-monitor.jsonl",
+      "bytes": 7919,
+      "sha256": "16a3837c3845084e6e6d239ea47a1ea4101dcadcb84a6fcde342c07a20be374a"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-split-float-r1.json",
+      "bytes": 6444,
+      "sha256": "a756bfdbd6ecf9844a671039f1b98b216a40e03f78e539a0c683119c0e8fb6b2"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-split-float-r1-resource.json",
+      "bytes": 1028,
+      "sha256": "4b20b24bb95fb5960a8def3e2c3bb94b4cc6b871d3dd775d3e0ca88bec93aad5"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-split-components-r1.json",
+      "bytes": 501265,
+      "sha256": "ea6a43a3fa7bfcfe9cecc9010f24f5769ce91e3b59757c767ba6e37d5f172fdd"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-split-components-r1-resource.json",
+      "bytes": 1036,
+      "sha256": "44025ca8fd4d6251e70b4d973d1d2465695a9fd34b9982b706c0c47381e988c5"
+    }
+  ],
+  "resource_helper_sha256": "4dc17ec37763d533a2e7003df94698ab0d3b7ea544efb93569134f12c5f962d6",
+  "reported_spectral_radius_float": 61.059409231403926,
+  "largest_two_cycle_scope": "Float diagnostic low13/near12; corr dominates reverse, actual near94..96 band dominates forward."
+}

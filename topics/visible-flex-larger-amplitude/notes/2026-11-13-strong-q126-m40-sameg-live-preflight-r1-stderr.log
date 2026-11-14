@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_sameg_m40_initial_laws_fullflow_refinement.py", line 313, in <module>
+    main()
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_sameg_m40_initial_laws_fullflow_refinement.py", line 285, in main
+    namespace['main']()
+  File "<original-spectral-M40-explicit-initial-laws>", line 464, in main
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_frozen_neck.py", line 237, in main
+    bounded.main()
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_bounded_neck.py", line 102, in main
+    actual.main()
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_fixed_refinement.py", line 157, in main
+    actual.main()
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py", line 211, in main
+    try:root.main()
+        ^^^^^^^^^^^
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py", line 279, in main
+    if a.newton_backend=='refresh':
+                                    
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py", line 60, in __init__
+    super().__init__(*a,**kw)
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_fixed_refinement.py", line 126, in __init__
+    super().__init__(cfg,port,q,M,angular)
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/geometric-fixed-dual-prefix.py", line 108, in __init__
+    super().__init__(cfg,port,q,M,angular)
+  File "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py", line 53, in __init__
+    self.Flow=self.make_flow
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py", line 93, in __init__
+    super().__init__(*args,**kwargs);self.Flow=lambda *a,**kw:Flow(*a,warp_q=self.warp_q,**kw);self._flow_key=None;self._flow=None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py", line 101, in __init__
+    super().__init__(cfg,port,q,M,angular,3,fixed,'support')
+  File "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py", line 37, in __init__
+    if len(port['linearSlope'])<self.M:raise ValueError('Actual physical port has too few modes')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Actual physical port has too few modes

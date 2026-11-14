@@ -1,0 +1,26 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/root_geometry_secant_budget.py",
+    "--baseline-screen",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q106-r1/geometry-baseline-screen.json",
+    "--candidate-screen",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q106-r1/secant-secant0-scale2-screen.json",
+    "--geometry-prepared",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q106-r1/secant-secant0-scale2-secant-geometry-prepared.json",
+    "--production-prepare",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-prepare-r1-secant-predictor.json",
+    "--accepted-tail-kappa",
+    "7.994254693542082",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q106-r1/secant-budget.json"
+  ],
+  "wall_seconds": 0.7941274642944336,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 11136,
+  "user_seconds": 0.353311,
+  "system_seconds": 0.17860399999999998,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

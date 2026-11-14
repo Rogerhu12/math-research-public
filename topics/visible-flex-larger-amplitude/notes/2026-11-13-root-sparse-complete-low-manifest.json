@@ -1,0 +1,67 @@
+{
+  "schema": "complete-sparse-source-posterior-stable-archive-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-sparse-complete-low-r1.json.gz",
+      "sha256": "0c7e11319c9f9d4e705a7f3ed742ab0f4239529e7117a4fbaf5b2cd33a15c56f",
+      "bytes": 577598
+    },
+    {
+      "path": "notes/2026-11-13-root-sparse-complete-low-r1-resource.json",
+      "sha256": "33acd484c72c18b2f3edced56be170fb39890b66f263c2fd35b5291a0aef769b",
+      "bytes": 918
+    },
+    {
+      "path": "notes/2026-11-13-root-sparse-complete-low-r1-stdout.log",
+      "sha256": "f811f2830a10b83fbcccc50d224bb9e51b6cadb765b55c002fe86e48b295fca9",
+      "bytes": 3270
+    },
+    {
+      "path": "notes/2026-11-13-root-sparse-complete-low-inputs.json",
+      "sha256": "2cfc49d58fead5a679c0bde1ec5e161bf708d0e9e2d7fb10cc5c615a010d7b96",
+      "bytes": 3267
+    },
+    {
+      "path": "computations/root_sparse_complete_low_posterior.py",
+      "sha256": "df57523d9c303b298f376bbc3fc8648aabc74912c90845f8e07e5b5a6f0dbd50",
+      "bytes": 16975
+    },
+    {
+      "path": "results/R148-complete-sparse-source-posterior.md",
+      "sha256": "518d118def1bab523694920ea719b4c7a3c81dca119dd5fa82024b9871831372",
+      "bytes": 8331
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r148-saved-fraction-audit-producer.py",
+      "sha256": "b23d2543e3ccc5f90adaa7c6d108aefdd73cc1fc1b279307bd37a4210576889e",
+      "bytes": 9650
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r148-saved-fraction-audit-primary.json",
+      "sha256": "9584eff087c66d25efa2e365ee408171701ab3c27ef8d1bd779f305d7946e639",
+      "bytes": 182560
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r148-saved-fraction-audit-resource.json",
+      "sha256": "9ca5de7dd319219a1a697c6f5b24e3884115ca31cff44e17d3372d11535ca00c",
+      "bytes": 791
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r148-saved-fraction-audit-proof.md",
+      "sha256": "18a92ce9545daa9670c16a4e466e7e335ded2fc08a40b6b8b17a1620416cd520",
+      "bytes": 2350
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r148-saved-fraction-audit-stable-manifest.json",
+      "sha256": "f130ff59a499b546aa29432b3bbf6d1b30114df5f63b4c5bb29411b45da1c74d",
+      "bytes": 961
+    },
+    {
+      "path": "notes/2026-11-13-root-sparse-complete-low-exact-domain.json",
+      "sha256": "c90ac9213b86ac92d1f851415602529665baa0b6b5a2f5bb0343d73ed0fb0b89",
+      "bytes": 1243
+    }
+  ],
+  "exact_scope_sidecar": "notes/2026-11-13-root-sparse-complete-low-exact-domain.json",
+  "one_original_mathematical_run_only": true
+}

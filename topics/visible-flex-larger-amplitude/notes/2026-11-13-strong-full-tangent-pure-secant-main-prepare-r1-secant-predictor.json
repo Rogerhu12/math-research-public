@@ -1,0 +1,83 @@
+{
+  "scope": "Use two accepted full fields as a secant predictor for the actual BVP.\n\nOnly the initial guess changes. Both input surfaces must have completed the\noriginal actual-tail and physical audits. Their gauge, spectrum, reference\ncharts and tail problem agree; their physical prefix profiles may differ.\nEvery new candidate still runs the original full Newton, true-H nonlinear\ntail, full Jacobian, final audit, RMS and physical boundary acceptance gates.\nThis predictor is not a control derivative or an accepted solution.\nThe optional initial-height hold subtracts a C2 quintic taper from the warm\nheight field only. This enables exact reuse of the current audited tail at\nthe first outer anchor; every changed H still requires the original solve.\n",
+  "current_reference": "notes/2026-11-13-strong-q098-m28-newjac-actual-r1.json.gz",
+  "current_raw": "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation.json.gz",
+  "current_reference_sha256": "88175797998edbbe6d7ed18065fb8786cc58cec5e255b0efb95da9d08c728699",
+  "current_raw_sha256": "03f1ed050abfd3a4cbafc7a23c7c60a63aa415085c149db9b5e401320e7e4b35",
+  "previous_reference": "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz",
+  "previous_raw": "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz",
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_secant_actual_bvp_v2.py": "99817229111f91bbec5b27a241a5eb20ff6cad6bb4eca58d7ebd85fcd3dc2a30",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1.json.gz": "88175797998edbbe6d7ed18065fb8786cc58cec5e255b0efb95da9d08c728699",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation.json.gz": "03f1ed050abfd3a4cbafc7a23c7c60a63aa415085c149db9b5e401320e7e4b35",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-x-000.npy.gz": "ce8e64194faa790aec0437a4e8e555ca43717306b5387576e91123f75bcd840d",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-y-000.npy.gz": "c232874ff88a2cd5920a197ceac93e6bbe7df1c271bde2e2f4ca4047eb667769",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-p-000.npy.gz": "d7698c6645c7817c890d3f23279052cca631e67f9cb42345b189865d4d75cc85",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-cubic-000.npy.gz": "13ac9077c2ca5ade19f8be600e3d247bddea76f50262276545b1ba4f0d96e66a",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-cubic-001.npy.gz": "9a3d6801fab7307fbb66735efcab6de59956da4d7305d04639e108a03d5a0066",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-x-000.npy.gz": "289f2b8938edfa120099256ecd8b397cc52c1572e2449a6e6cf16d0d4129f187",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-y-000.npy.gz": "3dd7379c640943280cb780cebc3748dbde3fe420448b4c9aebfe18863dbaa90a",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-p-000.npy.gz": "407e016acd2a4893881ce3ac7e4e3bfd46e590c60abaec47a38997e90218dc3b",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-cubic-000.npy.gz": "8cee2b0386ddc0d88ca7b432faec2ea47507dccaff66c4f27f6dce45a7b235d3",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-cubic-001.npy.gz": "7cfd0c2a7edbe147602c07d97db5f888ce944b551a1de24073419dc0982a211d"
+  },
+  "target_core": [
+    0.1020000818655854,
+    -0.006670878745230493,
+    -0.0004256735652894421
+  ],
+  "external_shifts": {
+    "vu": 0.0008000163731171073,
+    "descending_turn_curvature": -0.0045015240680896795
+  },
+  "scale": 2.0,
+  "original_current_mesh_preserved": true,
+  "previous_mesh_identical": false,
+  "previous_field_evaluation": "complete accepted numerical cubic at the current material nodes",
+  "geometry_increment": {
+    "delta": 0.004202969804668943,
+    "boost_length": 8.1139269562297e-05,
+    "boost_speed": -0.0042963740043791
+  },
+  "full_direction_shape": [
+    188048
+  ],
+  "full_direction_float64le_sha256": "423dc2517a66a05355a86d19a1171b5d6b6b5c2b0a4c28e9135dbfc2f0554567",
+  "pure_secant_direction_float64le_sha256": "423dc2517a66a05355a86d19a1171b5d6b6b5c2b0a4c28e9135dbfc2f0554567",
+  "initial_complete_height_hold": null,
+  "warm_only": true,
+  "control_derivative_claim": false,
+  "nonlinear_solution": false,
+  "original_complete_Newton_tail_RMS_boundary_and_audit_required": true,
+  "source_transforms": [
+    {
+      "before": "import types\n",
+      "after": "import types\nfrom strong_secant_actual_bvp import verified_secant\n",
+      "count": 1
+    },
+    {
+      "before": "    if external_shifts and not options.response_data:\n",
+      "after": "    if external_shifts and not options.response_data and not verified_secant(\n            options.actual_reference, options.actual_reference_raw, target, external_shifts):\n",
+      "count": 1
+    },
+    {
+      "before": "    warm = None\n",
+      "after": "    warm = verified_secant(options.actual_reference, options.actual_reference_raw,\n        target, external_shifts, payload=True)\n",
+      "count": 1
+    },
+    {
+      "before": "complete_actual_tangent_warm=warm['provenance'] if warm else None",
+      "after": "complete_accepted_secant_warm=warm['provenance'] if warm else None",
+      "count": 1
+    },
+    {
+      "before": "Complete actual-J warm field on the original residual quadrature and a complete-mean C2 cubic physical image; unsolved comparison only.",
+      "after": "Complete two-accepted-field secant warm on the original residual quadrature and original physical cubic screen; no control derivative or new solution is claimed.",
+      "count": 1
+    }
+  ],
+  "transformed_source_sha256": "247ce008706fa217d5abc2478410c95e1e40f4f59f550871b8286c84dacaf10d",
+  "original_source_files_unchanged": true
+}

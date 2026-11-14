@@ -1,0 +1,72 @@
+{
+  "input": "/workspace/scratch/ffc1334c1988/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+  "input_sha256": "cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa",
+  "source_sha256": {
+    "root_20261114_radial_thread_benchmark.py": "2eb5da4db7e8e717eff103302c9093afe7b55a499b1020f74fc86816e8b3801d",
+    "root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "root_20261114_radial_threads.py": "5b37646476abaddea51f9ba6c4f00047365683c4b00443219f4c2b71fdc6a9c6"
+  },
+  "modes": 32,
+  "angular": 1280,
+  "physical_nodes": 2590,
+  "source_config_angular": 1280,
+  "requested_angular": 1280,
+  "production_angular_retained": true,
+  "state_dimension": 97,
+  "output_values": 251230,
+  "batch": 24,
+  "workers": 4,
+  "original_profile": {
+    "provider_loads": 1,
+    "saved_fields": [
+      {
+        "initial_speed_frontload": 0.0,
+        "initial_speed_pulse": 0.0,
+        "initial_speed_frontload_degree": 22,
+        "physical_profile_unchanged": true,
+        "zero_weight_uses_original_arithmetic": true,
+        "physical_length": 3.191226831699177,
+        "physical_length_original_gate_passed": true
+      }
+    ]
+  },
+  "loader_provenance": {
+    "scope": "Fresh provider-only anchor adapters for geometry and actual saved loaders.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nEach original loader and all its mathematical/acceptance formulas are frozen.\nExactly its frontload import is redirected to the separately identified\ncurrent-anchor hook. Both the original and repaired hook identities and all\nadapter sources are carried into actual result provenance.\n",
+    "role": "audit",
+    "original_loader_sha256": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0",
+    "original_monotone_hook_sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "current_anchor_hook_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "loader_adapter_source_sha256": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+    "entry_source_sha256": "3d464d3022c82016f6d2f94b7f18394c672ef815fdb4574979aa0f0582bf2ffe",
+    "transformed_loader_sha256": "1ce50fcd173c4225eedbcf2f84ca40c7f93dbc9290757e70f75256dfe1058fe1",
+    "exact_reverse_recovers_original_loader": true,
+    "mathematical_geometry_mean_quintic_and_acceptance_formulas_changed": false,
+    "actual_hook_source_fingerprints_explicit_in_result": true,
+    "installation_order": [
+      "original angle",
+      "original pulse",
+      "fresh current-anchor frontload"
+    ],
+    "original_zero_weight_arithmetic_delegated": true,
+    "old_frozen_sources_modified": false
+  },
+  "serial_seconds": 42.14573028700033,
+  "parallel_seconds": 17.425925489999827,
+  "speedup": 2.418564816611112,
+  "bitwise_equal": true,
+  "max_abs_difference": 0.0,
+  "callback_calls": 108,
+  "expected_callback_calls": 108,
+  "parallel_stats": {
+    "parallel_calls": 1,
+    "serial_calls": 0,
+    "radial_batches": 108,
+    "radial_points": 2590,
+    "deepcopy_seconds": 0.46670009900026344,
+    "evaluation_seconds": 16.958975450000253
+  },
+  "populated_Fourier_jacobian_table_retained": true,
+  "peak_rss_kib": 363896,
+  "fixed_state_RHS_comparison": true,
+  "new_nonlinear_solution": false
+}

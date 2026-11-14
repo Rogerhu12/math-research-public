@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/runner/work/math-research/math-research/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_moments_rebuilt.py", line 391, in <module>
+    main()
+  File "/home/runner/work/math-research/math-research/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_moments_rebuilt.py", line 162, in main
+    bindings = check_record(old, sources)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/math-research/math-research/topics/visible-flex-larger-amplitude/computations/tail_outer_physical_substage_moments_rebuilt.py", line 70, in check_record
+    raise ValueError("Restore this exact original input without rewriting it: "+name)
+ValueError: Restore this exact original input without rewriting it: /workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs
+{"event": "child_exit", "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n", "command": ["/opt/hostedtoolcache/Python/3.12.14/x64/bin/python", "-B", "computations/tail_outer_physical_substage_moments_rebuilt.py", "--candidate", "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz", "--ready", "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json", "--first-part", "0", "--stop-part", "1", "--order", "16", "--precision", "224", "--remainder-bits", "48", "--max-u-span", "1/64", "--max-rx-ratio", "2", "--max-panels-per-part", "8192", "--rss-limit-mib", "96", "--out-prefix", "notes/2026-11-12-tail-carrier-recovery-physical-moments-actions-43303787139-1-interval"], "wall_seconds": 0.310197114944458, "exitcode": 1, "termination_signal": null, "peak_rss_kib": 40108, "user_seconds": 0.291061, "system_seconds": 0.018002999999999998, "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"}

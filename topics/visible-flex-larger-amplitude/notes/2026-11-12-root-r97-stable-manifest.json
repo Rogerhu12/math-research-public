@@ -1,0 +1,141 @@
+{
+  "status": "R97 actual fifth-window run completed; original full files await terminal archive; independent complete recovery source prepared",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted), 2026-11-12",
+  "files": [
+    {
+      "path": "results/R97-full46-modewise-true-cut-source-transfer.md",
+      "bytes": 14610,
+      "sha256": "96a7fddd75016de50cc7c146fdd1011503c1a08dd511668b6aca4707a0850342",
+      "git_blob": "27b3c291a4d51db29259fec5ae725bfbcf71c2fc"
+    },
+    {
+      "path": "computations/root_full46_source_cut_transfer_recovered_v2.py",
+      "bytes": 11395,
+      "sha256": "f989a3f2a07b70d0da36be3a05a87509e9d254215d0a11f7726b48b3767189ef",
+      "execution": "Prepared recovery source, not executed and not the original source identity",
+      "git_blob": "a5077cc15c98c3735abd19e6251d8e43acc88f86"
+    },
+    {
+      "path": "notes/2026-11-12-root-fifth-window-final-state.json",
+      "git_blob": "05f133e171b4103e9e770ea9a1e2f202b5bff62a",
+      "sha256": "977554e06d078a0d58d19a0d7041df808c1ce00c6782d110ea62ea89f87d2f1a",
+      "bytes": 5779
+    }
+  ],
+  "actual_original_execution": {
+    "status": "Completed actual pure Fraction run, original source and complete outputs not yet published",
+    "formal_tool_exit": 0,
+    "tool_chunk": "9e2942",
+    "wait4_exit": 0,
+    "signal": null,
+    "wall_seconds": 0.08518123626708984,
+    "peak_rss_kib": 13596,
+    "user_seconds": 0.072283,
+    "system_seconds": 0.008371,
+    "mathematical_gates": 25,
+    "all_gates": true,
+    "input_sha_gates": 4,
+    "source": "/tmp/visible-flex-larger-20261112T2304/root-r97-source/root_full46_source_cut_transfer.py",
+    "source_sha256": null,
+    "source_hash_status": "Not read before outage; not fabricated",
+    "output_directory": "/tmp/visible-flex-larger-20261112T2304/root-r97-run/notes",
+    "artifacts": [
+      {
+        "suffix": "-summary.json",
+        "bytes": 23710,
+        "sha256": "4d9a1e130f93d810370136cd6e602a0afc6542a9ad21f98992cbdb9267e7f76d"
+      },
+      {
+        "suffix": "-modes02to32.json",
+        "bytes": 59935,
+        "sha256": "21bf3890b7c55fc263723f0cda11deb48facaf31c952ff32b6f54c1699a99390"
+      },
+      {
+        "suffix": "-modes34to64.json",
+        "bytes": 59933,
+        "sha256": "fbff791ca95a9253af4216daaacf448b6db945f4fd3d37be0099952ad507d408"
+      },
+      {
+        "suffix": "-modes66to92.json",
+        "bytes": 52497,
+        "sha256": "ab7fad867402a3fac2153f5a2eaba4c5841a2370aaef95d2485da88142330876"
+      },
+      {
+        "suffix": "-resource.json",
+        "bytes": 1549,
+        "sha256": "e1b110abb497da4c0b3bf0c0efcf5ea228a5fd98b734ffe9a5fe91cb24ae0510"
+      },
+      {
+        "suffix": "-console.log",
+        "bytes": 2029,
+        "sha256": "e41cb524b7de08133586581880d798b2b96dae5e509384c524bc3803a515de71"
+      }
+    ],
+    "output_prefix": "2026-11-12-root-r97-full46-cut-r1",
+    "all_artifact_bytes": 199653,
+    "inputs": [
+      {
+        "name": "R83 complete primary",
+        "sha256": "4ec6d30adb9eb639e658bcaa86873cfed0675ab975d3a8f92778888339f966b2"
+      },
+      {
+        "name": "R92 ledger",
+        "sha256": "9ef88cdeef25ed0dd688082e53b25b5f8aacda2bd67c9dada61c250cefa4052a"
+      },
+      {
+        "name": "R94 ledger",
+        "sha256": "5eb45673a9080ae251e77c3203cfc2142ba31850fc244c7e2c8500df774249bc"
+      },
+      {
+        "name": "R78 complete primary",
+        "sha256": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930"
+      }
+    ],
+    "directed_upper_results": {
+      "whole_beta_sigma": "6.884236842473447735478950341e-49",
+      "whole_beta_head": "1.169846810758746776775870934e-48",
+      "whole_transverse_beta_head_bridge": "1.784041434191851112938687039e-60",
+      "mode92_beta_sigma": "9.954255913517759718156967457e-74",
+      "high_head_near": "5.499972163462194567846076791e-48",
+      "high_head_rest": "1.246487962558795791062788432e-45",
+      "high_head_infinite": "1.526102889681399792436203179e-54"
+    },
+    "recovery": "Read and hash originals first. Only if lost, reconstruct from complete proof and pinned inputs and rerun under original owned resource wrapper. Do not move the large complete ledger as connector chunks."
+  },
+  "new_recovery_source": {
+    "executed": false,
+    "Python_AST_checked": false,
+    "original_source_identity": false
+  },
+  "recovery_argv": [
+    "python",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-12-root-r97-full46-complete-recovered-v2-resource.json",
+    "--",
+    "python",
+    "-B",
+    "computations/root_full46_source_cut_transfer_recovered_v2.py",
+    "--r83",
+    "notes/2026-11-12-root-r83-complete-cut-difference-r1.json",
+    "--r92",
+    "notes/2026-11-12-root-r92-product-parameter-exact-ledger.json",
+    "--r94",
+    "notes/2026-11-12-root-r94-full46-cut-exact-ledger.json",
+    "--r78",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+    "--out",
+    "notes/2026-11-12-root-r97-full46-complete-recovered-v2.json",
+    "--rss-kib",
+    "98304"
+  ],
+  "recovery_policy": "First verify original source and six original outputs. Only if lost, execute the new complete recovery source; its output has new metadata and hash. Large data moves only through normal terminal git; no connector chunks.",
+  "scope": {
+    "same_R92_full46_complex_parameter_product": true,
+    "complete_mean_inverse_far_retained": true,
+    "all46_mode_caps": true,
+    "middle_joint_feedback": false,
+    "all46_cut_consistency": false,
+    "closed_family": false
+  }
+}

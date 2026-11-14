@@ -1,0 +1,20 @@
+{
+  "schema": "sole-publisher-restart-v1",
+  "start_utc": "20261113T180640Z",
+  "argv": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/sync_queue.py",
+    "--read-sha",
+    "1ccbb87b431b0f93260aa7b7305436fba5483ebf",
+    "--watch"
+  ],
+  "source_sha256": "3ce38d1136976fee7c0451e20abcaeeee1781c29dfaed7a32eeb70392d085979",
+  "owned_child_pid": 6,
+  "log": "/workspace/scratch/d1aa462cfc02/sync-publisher-20261113T180640Z-watch.log",
+  "last_actually_read_sha": "1ccbb87b431b0f93260aa7b7305436fba5483ebf",
+  "previous_session": 47355,
+  "previous_actual_exit": 1,
+  "previous_reason": "generic remote rejected (failed), preserving exact ordinary push failure",
+  "canonical_recovery": "publisher-owned-generic-rejection-recovery-20261113T1801-report.json"
+}

@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-11-13T10:52:49.976854+00:00",
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-prepare-r1-actual-three-control-adapter.json",
+      "bytes": 66684,
+      "sha256": "98f71b306c381fa1759ab4086c628d41ea88d71f7ae87199e0a4d370bbe857f9",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-prepare-r1-base-profile.json",
+      "bytes": 536,
+      "sha256": "8a4e594995de9046388bb93b29850271f2f3263d0f8039c8b02105e3cf2393ec",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-prepare-r1-config.json",
+      "bytes": 2923,
+      "sha256": "8161e1fcb3c12dd96cc590de26418d2a6d68335e50c13611a1d79041b33ab8c3",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-prepare-r1-plan.json",
+      "bytes": 6194,
+      "sha256": "0868964e8d6483d5efa8ea7f6207b9750e68f075843cc9e7d29980a5bb024472",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-prepare-r1-resource.json",
+      "bytes": 2534,
+      "sha256": "2cb4b0851725aeccc4b3f0a026297bb723ebd3505b100264b5c8ebd235a27888",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-prepare-r1-secant-predictor.json",
+      "bytes": 6153,
+      "sha256": "261ee2205b51bf8a235775ee1213609c992a1052f436187f020688fc7c55b698",
+      "reused_existing_archival_bytes": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-prepare-r1-stdout.log.gz",
+      "bytes": 1090,
+      "sha256": "ac49d3e912868db0f4bd2e78183266c78ee6e31ee72b07212aa74cfee6472240",
+      "reused_existing_archival_bytes": false
+    }
+  ],
+  "total_bytes": 86114,
+  "scope": "Actual production main preparation at the genuinely accepted q106 p31 state, with previous q098 p31 and pure secant scale2. No Node/BVP/geometry acceptance implied.",
+  "owned_preparation_exitcode": 0,
+  "worker_started": false,
+  "pure_secant": true,
+  "exact_target_core": [
+    0.12199999999999998,
+    -0.008607763203260147,
+    -0.0006096734015582711
+  ],
+  "external_shifts": {
+    "vu": 0.0012145529907687802,
+    "start_acceleration": 0.128,
+    "descending_turn_curvature": 0.05735586892746802
+  },
+  "all_modes_and_original_acceptance_gates_preserved": true,
+  "original_secant_source_sha256": "99817229111f91bbec5b27a241a5eb20ff6cad6bb4eca58d7ebd85fcd3dc2a30"
+}

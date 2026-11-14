@@ -1,0 +1,34 @@
+{
+  "scope": "Exact audited-H reuse followed by the original lazy live tail client.\n\nThis is an I/O/storage adapter, not a nearby-H approximation. Every counted\nresponse has its own standard packet; unchanged non-audit requests retain\nthe original client's exact-cache behavior. An audited saved response may\nserve only its exact complete H. Every different H starts the original client\nand undergoes its original nonlinear solve/Jacobian/audit rules.\n",
+  "packet": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap96-young4-r11-response_0001.json.gz",
+  "packet_sha256": "c8420b9b33df6472b05bd31604c69feb2470cf6d41310c8d8ca785942d15efd2",
+  "ready_file": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap96-young4-r11-ready.json",
+  "ready_sha256": "e2be7cb8c4e136624d804faf3da394d1f859ba73427d17be89680cbbf6b0fde5",
+  "wrapper_sha256": "7fc687bd4608f5656140dc19abebccfb66074684c46651513efe68818ec311f0",
+  "complete_packet_ready_binding": true,
+  "ready_checkpoint_I_O_differences": {},
+  "all_recorded_tail_source_hashes_checked": true,
+  "exact_H_only": true,
+  "saved_response_had_full_jacobian_and_audit": true,
+  "live_client_started": true,
+  "saved_replays": 1,
+  "live_logical_responses": 1,
+  "live_new_Node_requests": 1,
+  "release_worker_between_responses": true,
+  "audit_every_live_response": true,
+  "live_worker_generations": 1,
+  "live_configurations": [
+    {
+      "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-tail-response-live-0001-config.json",
+      "sha256": "e5e3e7abcdf0072a228cb74e798b2fe0f623369fd710f7819ae9fbbba949e739",
+      "warm": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-tail-response_0001.json.gz",
+      "warm_sha256": "60c0b59bce2d7ead25f8b136bcf404033812c04bb38e90a91f65fdd3e906ffbd",
+      "changed_keys": [
+        "initialCheckpoint",
+        "iterationCheckpointFile",
+        "traceFile",
+        "trialDiagnosticFile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "exact-original-gzip-header-payload-recovery-v1",
+  "recipe_file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-exact-raw-gzip-recovery.json",
+  "recipe_sha256": "18572a836097defee12a61253629c2a4da380d8e33472886cebf0106970bbf7e",
+  "helper_sha256": "c4b96e8c2d3c401eb7cfe24f6a90d091426a3618623fea045580f179e51daa4f",
+  "all_original_target_bytes_reconstructed_and_read_back": true,
+  "files": [
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/q122-accepted-exact-restored/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-x-000.npy.gz",
+      "sha256": "ab65caa2a33ae5d0f605cd6fb0c0ccbe759129e71860af48c87ae2d769efebf5",
+      "bytes": 19374,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/q122-accepted-exact-restored/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-y-000.npy.gz",
+      "sha256": "3d85cfdd34303926d59dc9ab73a28e7dec660c05fe633a466202d31a47de8b42",
+      "bytes": 1694725,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/q122-accepted-exact-restored/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-p-000.npy.gz",
+      "sha256": "c8e110f1ed41928b8cdd519276e2baca5e487b14e1409f30fdb1c20481b8d62c",
+      "bytes": 429,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/q122-accepted-exact-restored/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-cubic-000.npy.gz",
+      "sha256": "01df94b7e2694fcaadb7bae6cf0a215eecd604d5b60e3d649bda5c8801ed0950",
+      "bytes": 3887664,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/q122-accepted-exact-restored/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-cubic-001.npy.gz",
+      "sha256": "978fcdd2a310c66de27435f98f3f3b40a093c754a489a584d5a0ddda508577cb",
+      "bytes": 2952537,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/q122-accepted-exact-restored/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-rms-000.npy.gz",
+      "sha256": "30737af6bac06ca72462e5b9f37b6aed8e6c5e0127fcfad576e71675c5515c22",
+      "bytes": 19745,
+      "already_existed": false
+    }
+  ],
+  "original_numerical_arrays_and_raw_metadata_unchanged": true
+}

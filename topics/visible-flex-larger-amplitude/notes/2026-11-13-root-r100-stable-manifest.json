@@ -1,0 +1,57 @@
+{
+  "schema": "root-r100-stable-small-text-v1",
+  "status": "Complete proof and actual20 V8 gates; full source consumer prepared",
+  "files": [
+    {
+      "key": "source",
+      "path": "computations/root_hybrid46_parameter_budget.js",
+      "git_blob": "f852dc2ecdd0dadbc9d95a2d2017d20910bd8a26",
+      "sha256": "2b5372b7cb4fddd9be80339f7e00d4c9aa950e36b210275987df87b79ad9a0fb",
+      "bytes": 11821
+    },
+    {
+      "key": "ledger",
+      "path": "notes/2026-11-13-root-r100-hybrid46-exact-ledger.json",
+      "git_blob": "5c34dd22beeeb5be1d01351f31b75c77a68a0667",
+      "sha256": "7e6b3c140c57df34ab10f17facbc624104b39fa9870a4eecfcce06bf3ea62ca9",
+      "bytes": 45447
+    },
+    {
+      "key": "proof",
+      "path": "results/R100-hybrid46-parameter-chart-and-source-transfer.md",
+      "git_blob": "46e9ea9cfc2fbd842982ee955535a80ccab53694",
+      "sha256": "c0b479f2403a233139b4cf3c894445d22d7ed4f29010f783d041ec840e8c5bfc",
+      "bytes": 15307
+    },
+    {
+      "key": "consumer",
+      "path": "computations/root_hybrid46_complete_source_reweight.py",
+      "git_blob": "266ba09ea2c48f00a2bc4fd6644a4ad893f49e22",
+      "sha256": "58e0d7750faa1e9d58458f238c93f7c6cab3803cef3b776c2f01b494287bb5c1",
+      "bytes": 12644
+    },
+    {
+      "key": "plan",
+      "path": "notes/2026-11-13-root-r100-next-local-execution.json",
+      "git_blob": "df7dd0c64b477b45be6371911da3a9dfe2dafb86",
+      "sha256": "acc8211b7b179f81e2134e179aa931c01fb949b00d2cc33fc06b113989ecef41",
+      "bytes": 3039
+    },
+    {
+      "key": "readNote",
+      "path": "notes/2026-11-13-root-input-reading-and-execution-state.md",
+      "git_blob": "21fc8da955ece400f9f161f4343b8fde9c1cd5b0",
+      "sha256": "23dd65f8e449c869467809c8ca06829b6a47435351392f949d2c5d4ab2064301",
+      "bytes": 2683
+    }
+  ],
+  "scientific_execution": {
+    "engine": "functions.exec V8 BigInt",
+    "elapsed_ms": 395
+  },
+  "actual_V8_gates": 20,
+  "full_source_consumer_executed": false,
+  "no_MJS_change": true,
+  "no_new_M28_or_Arb": true,
+  "original_R97_recovery_first": true
+}

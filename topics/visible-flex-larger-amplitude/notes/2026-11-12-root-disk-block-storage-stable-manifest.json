@@ -1,0 +1,37 @@
+{
+  "scope": "Optional original-formula disk backend; synthetic exact-storage comparisons only, not production-connected",
+  "files": [
+    {
+      "path": "computations/root_disk_block_collocation.py",
+      "bytes": 11834,
+      "sha256": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2"
+    },
+    {
+      "path": "computations/root_disk_block_storage_check.py",
+      "bytes": 5098,
+      "sha256": "7b38a5fea311941233f73c1b6e73ff293ceff9355c4fb959b709ace96238a7f0"
+    },
+    {
+      "path": "notes/2026-11-12-root-disk-block-storage.md",
+      "bytes": 1925,
+      "sha256": "c3bd33e268fa29d6b821f1b40991ae91186b3575d687d5f59b65935182b99d0d"
+    },
+    {
+      "path": "notes/2026-11-12-root-disk-block-check-r1-resource.json",
+      "bytes": 738,
+      "sha256": "ef636748ad307e06186260e8d7f3d2a4097cd3d9f3a187a11701c97bbac3c54a"
+    },
+    {
+      "path": "notes/2026-11-12-root-disk-block-check-r2-resource.json",
+      "bytes": 728,
+      "sha256": "ec77493be38d7d5853e0df2affeaa9b8b0cfca8c190aedb3e8a73ef74e45b01c"
+    },
+    {
+      "path": "notes/2026-11-12-root-disk-block-check-r2.json",
+      "bytes": 3231,
+      "sha256": "322a86c2b2ba60cc6e28ebbff70f7d87b52d6a342ddf321cc5739dfadc15df5a"
+    }
+  ],
+  "actual_research_jacobian_checked": false,
+  "production_connected": false
+}

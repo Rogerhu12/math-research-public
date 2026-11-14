@@ -1,0 +1,120 @@
+{
+  "scope": "Freeze a completed all-cache failure and prepare a resource-only tail retry.\n\nNo Node/ODE/Jacobian is executed here. The original prepare-only guards still\nrun. This entry requires every stage of the authentic accepted state to have\nbeen hit, with no new cache entry, in the already completed prior attempt.\n",
+  "files": [
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10.log.gz",
+      "bytes": 2132,
+      "sha256": "3c33088405b2c63f11399ede2617599369cf391f2eeecbe644c398a6f27be43f"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-events.jsonl.gz",
+      "bytes": 886,
+      "sha256": "d6a3bb677bd121083a367457c8bdb3c10ef4cb17996ed8dd80a3068fb2e21071"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-trace.jsonl.gz",
+      "bytes": 77686,
+      "sha256": "7eb6c01616763c064909ba8c19e8c1fbc9f0f74b436174607389441db0dae7d1"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-command-plan.json",
+      "bytes": 11414,
+      "sha256": "9505139595ebf6caaf7c8e05b86d814f008b1badc28499b3a384fa5850372532"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-plan.json",
+      "bytes": 23617,
+      "sha256": "acaa8a17d44399d0b008539844e046e423e1659f8f7f66b9555a22d3ec21e7b9"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-summary.json",
+      "bytes": 27768,
+      "sha256": "708d97aaeee2b85d103074f291269d450781917d5e5eb57e72a0655712fe7b12"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-resource.json",
+      "bytes": 2286,
+      "sha256": "f02671d386e5b8517e60d2e7ca4b02b7b3660b398f0ca680cfd0cd55ca72ed18"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-ready.json",
+      "bytes": 83089,
+      "sha256": "78a69520ed5ab445ff7e7d5e0929ec7e09c3f3f753cc0e67ca9f8b4681e9eeec"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-config.json",
+      "bytes": 3039,
+      "sha256": "24e625cfccc0b9d5df7d15df2ae8e07780b58e5d5a74f9e8c46278fbe1e89abb"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-response_adapter.json",
+      "bytes": 61280,
+      "sha256": "989b5cab9daa86fc00cccd5c4cddf678734767c907dbc36be86bff5ca57ded18"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-response_exact-raw-adapter.json",
+      "bytes": 3512,
+      "sha256": "77e82131b6f3f7d9c1129d8b32b3f7a7ed38ed3d78d3efb39ecf0c8deac4f960"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-response_exact-stage-adapter.json",
+      "bytes": 14937,
+      "sha256": "76f6063572e747e39b611df479669db7477f0125f529750c77a48e3da0fe354e"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-response_Node-limits-spawn.json",
+      "bytes": 3254,
+      "sha256": "12ed132828fd3d41af031ad8d88d3933166e21d94b7eb68995a9568fb350c736"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-response_Node-limits-ready.json",
+      "bytes": 1593,
+      "sha256": "a87fce05f20b7935a439aba4540bac5e2b9f7b1c5eabe3508780088abbef094a"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-response_Node-resource-intent.json",
+      "bytes": 1034,
+      "sha256": "d92b80041812baf54d74f4743a6bdd06cf5fd4edbf3ffd4c2ab93f8f0218ec5a"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-response_Node-resource-observed.json",
+      "bytes": 1058,
+      "sha256": "65c4e6b5db4530ad0d68abbfcf2104dadc1800ad14a008f6cdc75135510c3908"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-initial-call000001-initial-seed.json.gz",
+      "bytes": 510874,
+      "sha256": "d6a0f1ac35a821ededd70c791e474378f762ee627b6df7d00ae2ab47702dcb89"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-iteration.json.gz",
+      "bytes": 283113,
+      "sha256": "fee9dddaad28bb54512e82d3e3de748f0f1836b9d22539f8e300bc523cc1a6ba"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-completed-J-cache-binding.json",
+      "bytes": 174396,
+      "sha256": "c9a2653c3e30ffd3aeab37e9115fb8287133366b219e42886efcbfb6c09c9b1e"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-resource-retry-storage-actions.json",
+      "bytes": 1654,
+      "sha256": "ad1e338f72e9a7927d7a96455ea5938c42f4f36294402fd1939c5d74972c4d1f"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r10-failed-note.json",
+      "bytes": 5180,
+      "sha256": "acca027bee5ff057069a51db02b9b8e844094160ea3a71ae7a218ee0e94e744c"
+    },
+    {
+      "path": "notes/2026-11-12-strong-node-heap96-young4-resource-probe.json",
+      "bytes": 1636,
+      "sha256": "73d5574fb55ff7b6d7c673661e3b68b3fd41ce38ac38f2aa1ab71abc9f825598"
+    },
+    {
+      "path": "computations/strong_tail_resource_retry_prepare.py",
+      "bytes": 9476,
+      "sha256": "2357a8c68e8edcb46a932fa6ae9db6f3aaac0d1711485734b8fa51c3fd6e613d"
+    }
+  ]
+}

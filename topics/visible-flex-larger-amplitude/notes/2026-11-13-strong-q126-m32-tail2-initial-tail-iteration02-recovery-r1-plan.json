@@ -1,0 +1,52 @@
+{
+  "schema": "authentic-live-tail-trial-storage-plan-v1",
+  "scope": "Snapshot one authentic live accepted inner tail trial, without changing it.\n\nAI-assisted research workflow, strong_recovery, 2026-11-13.\nAn accepted line-search trial is only a recovery state. Its complete final\nvariational evaluation, original tail audit and coupled BVP gates remain.\nThis storage consumer calls the existing exact stage-input binding checker;\nit never starts Node, an ODE, a Jacobian, or a replacement numerical solve.\n",
+  "created_utc": "2026-11-13T16:24:47.766522+00:00",
+  "source_sha256": "4e42d4210ab29f1d019c899682dd5dc620b4fc590a564348951faf9a9f5c4932",
+  "binding_source_sha256": "af4a5ef9c3bf4b96905785bbcf336f2832d4d88dc6e0040f9607787041cf14e3",
+  "original_live_session": 40663,
+  "original_step": {
+    "iteration": 2,
+    "norm": 1.8519471491503151e-10,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 1,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  },
+  "original_solve_tolerance": 2e-09,
+  "snapshot_sha256": "b27b35be3123286c9ba60bcce8e182c8bf38ed2feb560204b9c1f0406c4dfec4",
+  "trace_sha256": "adfd6e7e0e7860df5aad57ae250d2002a07f0ff52b1995e38246596ddc41ce9e",
+  "complete_states_shape": [
+    577,
+    64
+  ],
+  "complete_raw_indices": [
+    0,
+    72,
+    144,
+    216,
+    288,
+    360,
+    432,
+    504,
+    576
+  ],
+  "complete_raw_state_bits_equal": true,
+  "complete_request_H_values_equal": true,
+  "complete_request_H_bits_equal": true,
+  "original_job_changed": false,
+  "tail_or_whole_BVP_accepted": false,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_recovery_binding.py",
+    "--checkpoint",
+    "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1.json.gz",
+    "--trace",
+    "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-trace.jsonl",
+    "--source-topic",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+    "--out",
+    "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-binding.json"
+  ]
+}

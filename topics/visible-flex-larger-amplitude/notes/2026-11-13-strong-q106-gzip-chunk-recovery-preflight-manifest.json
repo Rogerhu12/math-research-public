@@ -1,0 +1,61 @@
+{
+  "scope": "Actual owned single-member gzip-header/payload storage roundtrip on complete original q106 inner-state bytes. This changes storage only; q106 final BVP/audit still running.",
+  "created_utc": "2026-11-13T10:44:29.053666+00:00",
+  "helper_runtime_validated": true,
+  "accepted_archive_v2_syntax_checked_only": true,
+  "accepted_archive_v2_has_not_yet_run": true,
+  "original_targets_reconstructed": 5,
+  "original_target_total_bytes": 7382891,
+  "all_target_full_original_SHA_readback_passed": true,
+  "resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "python",
+      "computations/strong_gzip_chunk_recovery.py",
+      "--recipe",
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-gzip-chunk-recovery-preflight-recipe.json",
+      "--archive-topic",
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+      "--output-directory",
+      "/workspace/scratch/d1aa462cfc02/strong-work/gzip-recovery-preflight",
+      "--report",
+      "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-gzip-chunk-recovery-preflight-report.json"
+    ],
+    "wall_seconds": 0.3301243782043457,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 39436,
+    "user_seconds": 0.18302,
+    "system_seconds": 0.123552,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "files": [
+    {
+      "file": "computations/strong_gzip_chunk_recovery.py",
+      "bytes": 6907,
+      "sha256": "c4b96e8c2d3c401eb7cfe24f6a90d091426a3618623fea045580f179e51daa4f"
+    },
+    {
+      "file": "computations/strong_archive_accepted_fullflow_actual_v2.py",
+      "bytes": 18459,
+      "sha256": "797fbbdad8b7887e524f490cf950f62e8075de713e2b6e5bb70d66d79d977576"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-gzip-chunk-recovery-preflight-recipe.json",
+      "bytes": 6488,
+      "sha256": "0191c17ab9356fab8e9447a7ba6277d5b777ea8e3f8cc7d93fcab32977e6d6ed"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-gzip-chunk-recovery-preflight-report.json",
+      "bytes": 2101,
+      "sha256": "af4ef712948b2ead680131f76c6a40c3d9233c7c7f0da0f7136bf067c6338207"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-gzip-chunk-recovery-preflight-resource.json",
+      "bytes": 1226,
+      "sha256": "3cdc9531ff645a1a2dd9d79ff523aaba3b23be949c942c0dd463a885ede8cd0c"
+    }
+  ],
+  "total_bytes": 35181,
+  "full_coupled_BVP_acceptance_claim": false
+}

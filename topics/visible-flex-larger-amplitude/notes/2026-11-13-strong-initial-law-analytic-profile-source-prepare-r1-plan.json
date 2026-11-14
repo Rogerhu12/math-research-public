@@ -1,0 +1,18 @@
+{
+  "schema": "exact-ideal-initial-law-profile-owned-plan-v1",
+  "created_utc": "2026-11-13T19:26:09.533947+00:00",
+  "cwd": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_newg_initial_law_analytic_profile_bounds.py",
+    "--prepare-source-record",
+    "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r1.json"
+  ],
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/strong-work/profile-proof-work/computations/strong_newg_initial_law_analytic_profile_bounds.py": "d768f27048058b3cb3ca9cb3251b3ea1480f854e19198315d376cd40455375bb",
+    "/workspace/scratch/d1aa462cfc02/strong-work/profile-proof-work/computations/strong_newg_analytic_profile_bounds.py": "cf80d379758054726cc1f77d8065eaf2eab59c3015fb263cb8a8f5918a664af5"
+  },
+  "Node_ODE_geometry_calls": 0,
+  "scope": "Current accepted lambda0 whole-profile proof or explicitly unsolved nonzero first-piece proof; no future accepted profile created."
+}

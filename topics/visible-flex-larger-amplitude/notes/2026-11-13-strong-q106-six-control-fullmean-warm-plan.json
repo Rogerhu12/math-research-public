@@ -1,0 +1,275 @@
+{
+  "scope": "Prepare one complete warm field from an explicit five/six-control choice.\n\nAll actual response fields are combined by the unchanged production warm\nconstructor.  This re-evaluates the geometry of the combined warm candidate,\nnot its linearized predicted geometry, and still does not solve a new BVP or\ntail.  Selection is explicit so a size/curvature/amplitude tradeoff is visible.\n",
+  "prepared_only": true,
+  "executed": false,
+  "nonlinear_solution": false,
+  "new_tail_evaluation": false,
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "grid": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/geometry-grid.json",
+  "geometry_wrapper": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py",
+  "source_and_input_sha256": {
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-x-000.npy.gz": "289f2b8938edfa120099256ecd8b397cc52c1572e2449a6e6cf16d0d4129f187",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_fullmean_six_plan.py": "5f34aec029cfce876fc5f61957d51bb8f924f2ed08e2d01fb412c527a49b3101",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_array_io_resident.py": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "notes/2026-11-13-strong-q098-m28-fixed-view-r1.json.gz": "3696f145fdab26526a74010ebacd1c2a4925be9b57884301ffdcf3c47d4cd891",
+    "notes/2026-11-13-strong-q098-m28-fixed-view-r1-raw-collocation.json.gz": "f6a3dea92329f5793ac3968c0069c2c13740ce8e67c60806e013f1a0844d0541",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-response_0003.json.gz": "1e0af8ea57b700b46c78e1fb09cc5babd72c54dd7132e2cb3be377979e62ca57",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-config.json": "51dccdc03aab9fb667744be16077d607b7b835f018fa806ce7fb6f65bf539531",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/geometry-grid.json": "4c517eb266fc40dd044bdaa3f263f211e0a221d41af5fb7c939569c38e85ea0d",
+    "notes/2026-11-13-strong-q098-fixed-view-geometry-witness-bridge.json": "a703323b6f71b39abd202bb75d265fe4e854fc3920077086990f57a1346900b5",
+    "notes/2026-11-13-strong-q098-m28-six-control-response-r1.json": "db14ca195faac43797d955c436a75a29afb7666e0cfaffbae08680b4a4fb5a82",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/geometry-plan.json": "49e5d8c384ac8353b86d877ad727502c30ab3d1e3ae29c0d276b2cc56ac5800f",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/geometry-minimax-t32.json": "7d6cb37f53867e19cc3a37ab57e3a993ff3f9e83e6198a1486f9da45b812d7c9",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_minimax_current_combined_plan.py": "f64e0daad78d1c2b6d44d32d42ba027b1bb3408a5a7b6376b7c2f2a35f57967a"
+  },
+  "baseline_core": [
+    0.098,
+    -0.006702354864108033,
+    -0.00041767340155827136
+  ],
+  "modes": 28,
+  "directions": [
+    {
+      "name": "actual_q1",
+      "step": 0.001
+    },
+    {
+      "name": "actual_q4",
+      "step": 3e-05
+    },
+    {
+      "name": "actual_c6",
+      "step": 2e-06
+    },
+    {
+      "name": "vu",
+      "step": 0.0002
+    },
+    {
+      "name": "descending_turn_curvature",
+      "step": 0.0025
+    },
+    {
+      "name": "start_acceleration",
+      "step": 0.002
+    }
+  ],
+  "candidates": [
+    {
+      "name": "combined",
+      "direction": null,
+      "step": null,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_resource_run.py",
+        "--out",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-resource.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py",
+        "--actual-reference",
+        "notes/2026-11-13-strong-q098-m28-fixed-view-r1.json.gz",
+        "--actual-reference-raw",
+        "notes/2026-11-13-strong-q098-m28-fixed-view-r1-raw-collocation.json.gz",
+        "--actual-reference-tail",
+        "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-response_0003.json.gz",
+        "--source-topic",
+        "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+        "--frozen-reference-ready",
+        "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+        "--frozen-calibration-ledger",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--port",
+        "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--tail-config",
+        "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-config.json",
+        "--target-core",
+        "0.10600000000000001",
+        "-0.007337490977158738",
+        "-0.00048167340155827134",
+        "--max-nodes",
+        "2612",
+        "--radial-batch-size",
+        "8",
+        "--collocation-batch-size",
+        "12",
+        "--geometry-grid",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/geometry-grid.json",
+        "--mean-angular",
+        "1360",
+        "--geometry-batch",
+        "8",
+        "--resident-rss-guard-mib",
+        "384.0",
+        "--out-prefix",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined",
+        "--inspect-warm-output",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-screen.json",
+        "--geometry-array",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field.json",
+        "--response-data",
+        "notes/2026-11-13-strong-q098-m28-six-control-response-r1.json",
+        "--neutral-control-step",
+        "vu=0.0006072764953844092",
+        "--neutral-control-step",
+        "descending_turn_curvature=0.02867793446373396",
+        "--neutral-control-step",
+        "start_acceleration=0.064"
+      ],
+      "expected_core": [
+        0.10600000000000001,
+        -0.007337490977158738,
+        -0.00048167340155827134
+      ],
+      "expected_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.166323328241906,
+        "vu": 0.320807284681943,
+        "vd": 0.98,
+        "start_acceleration": 0.514,
+        "boost_speed": 0.8584977761579007,
+        "boost_length": 0.12592387285414378,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.773927172429689,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "report": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-screen.json",
+      "field": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-field.json",
+      "resource": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-resource.json",
+      "log": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/q106-t32-combined-log.txt",
+      "complete_mean_angular": 1360,
+      "complete_physical_steps": {
+        "actual_q1": 0.008,
+        "actual_q4": -0.000635136113050705,
+        "actual_c6": -6.4e-05,
+        "vu": 0.0006072764953844092,
+        "descending_turn_curvature": 0.02867793446373396,
+        "start_acceleration": 0.064
+      }
+    }
+  ],
+  "selected_minimax_candidate_index": 4,
+  "selected_minimax_candidate": {
+    "success": true,
+    "normalized_steps": [
+      8.0,
+      -21.171203768356833,
+      -32.0,
+      3.0363824769220455,
+      11.471173785493583,
+      32.0
+    ],
+    "optimized_curvature_cap": 8.260154082908185,
+    "control_count": 6,
+    "all_finite_rows_checked": true,
+    "finite_rows": 13006080,
+    "max_float_inequality_violation": 1.1901590823981678e-13,
+    "history": [
+      {
+        "round": 0,
+        "active_rows": 640,
+        "worst_violation": 0.0946815657083544,
+        "added": 136
+      },
+      {
+        "round": 1,
+        "active_rows": 776,
+        "worst_violation": 1.1901590823981678e-13,
+        "added": 0
+      }
+    ],
+    "predicted_max_abs_curvature": 8.260154082908304,
+    "predicted_max_twice_norm": 3.9058742234838433,
+    "predicted_kappa_times_twice_norm": 32.26312291443637,
+    "extrema_witnesses": [
+      {
+        "flat_index": 409099,
+        "predicted_signed_value": -8.260154082908304
+      },
+      {
+        "flat_index": 563185,
+        "predicted_signed_value": 8.260154082908183
+      },
+      {
+        "flat_index": 2394624,
+        "predicted_signed_value": 3.9058742234838433
+      }
+    ],
+    "linear_program_optimum_is_floating_point": true,
+    "fixed_q1_factor": 8.0,
+    "size_factor": 0.995,
+    "size_cap": 3.9058742234838433,
+    "other_control_trust_factor": 32.0,
+    "all_geometry_slopes_from_this_new_baseline": true,
+    "stale_q095_or_other_baseline_slopes_used": false,
+    "physical_steps": {
+      "actual_q1": 0.008,
+      "actual_q4": -0.000635136113050705,
+      "actual_c6": -6.4e-05,
+      "vu": 0.0006072764953844092,
+      "descending_turn_curvature": 0.02867793446373396,
+      "start_acceleration": 0.064
+    },
+    "predicted_profile_increment": {
+      "delta": 0.002138426604187547,
+      "boost_length": 0.0010711475139945133,
+      "boost_speed": -0.00280411060694054,
+      "vu": 0.0006072764953844092,
+      "descending_turn_curvature": 0.02867793446373396,
+      "start_acceleration": 0.064
+    },
+    "predicted_complete_core_increment": [
+      0.008000000000000135,
+      -0.0006351361130507142,
+      -6.400000000000038e-05,
+      -1.585518892100585e-05,
+      -1.9927554442070512e-06,
+      -4.536626070256938e-06,
+      -3.6585745544006316e-06,
+      3.425013253841026e-07,
+      1.1155560524139398e-08,
+      3.4612133641591664e-07,
+      3.3255209080619215e-07,
+      8.834878978263422e-08,
+      8.512777137096452e-08,
+      -2.839137864049105e-08,
+      -1.284812477749697e-08,
+      -6.171017976716154e-11,
+      -1.8492465175230257e-10,
+      -3.8661031782747847e-10,
+      -4.251497024217263e-10,
+      4.7823595874867094e-11,
+      -1.1981270770992827e-10,
+      1.3851908569611603e-10,
+      -8.053507542505752e-10,
+      -1.8953089789781156e-10,
+      -1.2132146004047867e-10,
+      2.136134472799819e-10,
+      3.091323979129395e-11,
+      2.311795167112673e-11
+    ],
+    "predicted_complete_axis_gap": 0.2109906192504284,
+    "predicted_axis_gap_over_twice_norm": 0.05401879507073205,
+    "predicted_relative_kappa_size_change": -0.004485073076674784,
+    "candidate_is_new_nonlinear_solution": false
+  },
+  "selection_rule": "Explicit current-minimax candidate index.",
+  "limitations": [
+    "Warm numerical samples, with no new true nonlinear-tail solve.",
+    "No continuous curvature, reach, closed-surface diameter or amplitude certificate."
+  ]
+}

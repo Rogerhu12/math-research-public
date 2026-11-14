@@ -1,0 +1,92 @@
+{
+  "schema": "inner-three-cell-point-homogeneous-archive-manifest-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "all_actual_gates": true,
+  "files": [
+    {
+      "path": "computations/inner_true_three_cell_two_column_point_homogeneous.py",
+      "sha256": "a6ca79b27757258cb590c73e2438adbc1b3e11ac9aa6181c05e50b3148d0a095",
+      "bytes": 10882
+    },
+    {
+      "path": "computations/inner_three_cell_point_saved_audit.py",
+      "sha256": "279cb928b5e075b5178ad4293b20047f4d5cf6cafa444eb0428c6c273fd10229",
+      "bytes": 4761
+    },
+    {
+      "path": "notes/2026-11-13-inner-three-cell-point-homogeneous-r1.json",
+      "sha256": "c10a92c818833595c55682655bd9ac5ca2e628fd6a1f48d975270d2fdfbc927f",
+      "bytes": 110005
+    },
+    {
+      "path": "notes/2026-11-13-inner-three-cell-point-homogeneous-r1-resource.json",
+      "sha256": "0ac54f2ba028e2a34d099cc48d99676e3b2ba49c9d78d994700399eda1062061",
+      "bytes": 1432
+    },
+    {
+      "path": "notes/2026-11-13-inner-three-cell-point-homogeneous-r1-saved-audit.json",
+      "sha256": "189af7a413fe80f6056db945e9fb3914a06f6f532ace319cf9b23d6f50d40749",
+      "bytes": 2086
+    },
+    {
+      "path": "notes/2026-11-13-inner-three-cell-point-homogeneous-r1-saved-audit-resource.json",
+      "sha256": "85f9de8710a3f409e3b8685d154d20a29651336dd60c640710349caefcac33fb",
+      "bytes": 1471
+    },
+    {
+      "path": "notes/2026-11-13-inner-three-cell-point-homogeneous-r1-proof.md",
+      "sha256": "e1c282cc342044f81edd58285d691d16897011f7779d61e8b7582613e9eab6b0",
+      "bytes": 5680
+    }
+  ],
+  "frozen_inputs": {
+    "density": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+    },
+    "positive": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-positive-highband-38.json.gz",
+      "sha256": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600"
+    },
+    "ready": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    },
+    "panels": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz",
+      "sha256": "d0dc6791001a1668afa2f9442bbefbe7e6644e73b0b753943df5a9bc12258181"
+    },
+    "panels13": {
+      "path": "inner-cell13-endpoint-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell013.json.gz",
+      "sha256": "7397ebc436ae5c4cd396ae2e6d5d27c4f2b45e17fae5e75f94eb0acb9e95dc22"
+    }
+  },
+  "frozen_reference_sources": {
+    "inner_true_cell13_endpoint_window_kernels.py": "cff396cf882488df91c5450490a0c345e408d3fe1a6b29f683910e97b7aa4019",
+    "closure_split_joint_io_v2.py": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0",
+    "closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390",
+    "closure_positive_linear_band_enclosure.py": "270e475e33f988ca9d48c1f68e249f2d127fa3afafd3e3d20d80cce3407a170f",
+    "closure_real_linear_head_enclosure.py": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+  },
+  "actual_primary": {
+    "path": "notes/2026-11-13-inner-three-cell-point-homogeneous-r1.json",
+    "sha256": "c10a92c818833595c55682655bd9ac5ca2e628fd6a1f48d975270d2fdfbc927f",
+    "bytes": 110005
+  },
+  "actual_resource": {
+    "path": "notes/2026-11-13-inner-three-cell-point-homogeneous-r1-resource.json",
+    "sha256": "0ac54f2ba028e2a34d099cc48d99676e3b2ba49c9d78d994700399eda1062061",
+    "bytes": 1432
+  },
+  "independent_saved_audit": {
+    "path": "notes/2026-11-13-inner-three-cell-point-homogeneous-r1-saved-audit.json",
+    "sha256": "189af7a413fe80f6056db945e9fb3914a06f6f532ace319cf9b23d6f50d40749",
+    "bytes": 2086
+  },
+  "same_old_g_only": true,
+  "one_actual_U_plus_V_input_mass": true,
+  "all_sources_still_required": true,
+  "point_Vprime_is_an_upper_not_wholecell_lower": true,
+  "new_ODE_quadrature_or_Node_calls": 0
+}

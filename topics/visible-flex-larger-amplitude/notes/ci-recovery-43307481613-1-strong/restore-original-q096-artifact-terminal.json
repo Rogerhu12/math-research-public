@@ -1,0 +1,26 @@
+{
+  "name": "restore-original-q096-artifact",
+  "argv": [
+    "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+    "-u",
+    "computations/strong_ci_artifact_recovery.py",
+    "--repo",
+    "/home/runner/work/math-research/math-research",
+    "--work-root",
+    "/home/runner/work/_temp",
+    "--out",
+    "notes/2026-11-12-strong-artifact-restored-43307481613-1-strong.json"
+  ],
+  "cwd": "/home/runner/work/math-research/math-research/topics/visible-flex-larger-amplitude",
+  "started_utc": "2026-11-12T21:12:15.619798+00:00",
+  "ended_utc": "2026-11-12T21:12:19.622726+00:00",
+  "wall_seconds": 4.002946324999996,
+  "wait4_status": 256,
+  "exit_code": 1,
+  "signal": null,
+  "maxrss_kib": 33428,
+  "utime": 0.418224,
+  "stime": 0.09952899999999999,
+  "log": "topics/visible-flex-larger-amplitude/notes/ci-recovery-43307481613-1-strong/restore-original-q096-artifact.log",
+  "log_sha256": "0eec90e400cb0f78dc97987b024d5e7f5147e117c0b7fbe5b606a85f04800eab"
+}

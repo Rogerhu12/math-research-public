@@ -1,0 +1,77 @@
+{
+  "schema": "inner-P1-shift040-DQ-compact-reproduction-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "classification": "proved conditional source coefficients from rigorous actual input",
+  "files": [
+    {
+      "path": "computations/inner_CsLambda_DQ_window_kernels.py",
+      "sha256": "ecd091b4400b21d66dcc78b0933fe09689ae65473d287f0b119f8782a5e1b673",
+      "bytes": 12933,
+      "original_path": "computations/inner_CsLambda_DQ_window_kernels.py"
+    },
+    {
+      "path": "computations/inner_restricted_DQ_windows_and_low_modes_v2.py",
+      "sha256": "58083926d2cbfcc2800f4b694eb59f5aad20cd68fbfc3115dadab15b51aedd22",
+      "bytes": 6757,
+      "original_path": "computations/inner_restricted_DQ_windows_and_low_modes_v2.py"
+    },
+    {
+      "path": "computations/inner_P1_shift040_DQ_windows_and_low_modes.py",
+      "sha256": "e449bb1f23ab238d72a7374e1eb9bf624173ccc8fa826f0ee43b2c9eb7a3a1b5",
+      "bytes": 8774,
+      "original_path": "computations/inner_P1_shift040_DQ_windows_and_low_modes.py"
+    },
+    {
+      "path": "computations/inner_P1_shift040_DQ_windows_and_low_modes_v2.py",
+      "sha256": "a7de87d1f9be09e3a2004263c7d932b55628d473f4b19e30e2e33f739fd29514",
+      "bytes": 9183,
+      "original_path": "computations/inner_P1_shift040_DQ_windows_and_low_modes_v2.py"
+    },
+    {
+      "path": "computations/inner_DQ_source_math_digest.py",
+      "sha256": "64bc5fbf74eecfbc6c846009b02933e04113bba60df3917936e8642b6c0f08d2",
+      "bytes": 4035,
+      "original_path": "computations/inner_DQ_source_math_digest.py"
+    },
+    {
+      "path": "notes/2026-11-13-inner-P1-shift040-DQ-windows-r1-reproduction-digest.json",
+      "sha256": "b33bca92339ab3580d3a4a9f870df2170ab95e65287461bfd6e3e8e977dfbf2a",
+      "bytes": 19695,
+      "original_path": "inner-P1-shift040-DQ-r2/reproduction-digest.json"
+    },
+    {
+      "path": "notes/2026-11-13-inner-P1-shift040-DQ-windows-r1-resource.json",
+      "sha256": "d334a184c5e684db2c09d482e53b381ee88675bece377f78dfc8fb47a4f8d7e9",
+      "bytes": 1561,
+      "original_path": "inner-P1-shift040-DQ-r2/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-inner-P1-shift040-DQ-windows-r1-original-over-budget-resource.json",
+      "sha256": "25e5f69c845d15b3e2d77e0a5a0b17d2a934d93a96a266c788517a547ac7da3e",
+      "bytes": 1550,
+      "original_path": "inner-P1-shift040-DQ-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-inner-P1-shift040-DQ-windows-r1-proof.md",
+      "sha256": "35d74fa9a4a71766fc4051c48864f54e592b1e9c34f8dabf995959dafa918ac6",
+      "bytes": 9072,
+      "original_path": "inner-P1-shift040-DQ-r2/proof.md"
+    }
+  ],
+  "total_bytes": 73560,
+  "scratch_complete_primary": "inner-P1-shift040-DQ-r2/kernels.json.gz",
+  "scratch_primary_sha256": "5ea3bb43d88beac1b1cbe784097397d9756e6e96b6c9ecdeda72fa047409be3d",
+  "scratch_primary_bytes": 4433403,
+  "complete_mathematical_payload_sha256": "4421fdbce8153c6bf7006fd1c51e6cbb52a413f2c1d1dbd6036b09a1ed4456b2",
+  "producer_sha256": "a7de87d1f9be09e3a2004263c7d932b55628d473f4b19e30e2e33f739fd29514",
+  "actual_owned_exitcode": 0,
+  "actual_wall_seconds": 17.672854739998,
+  "actual_peak_rss_kib": 91892,
+  "original_attempt_owned_exitcode": 0,
+  "original_attempt_actual_memory_budget_satisfied": false,
+  "original_attempt_peak_rss_kib": 98536,
+  "original_attempt_primary_sha256": "8d5cfaffaf20bf7cd5a2ceaaee53a3ed084c3492af6412048cf54fec06abeaf8",
+  "cheap_regenerable_complete_kernel_not_committed": true,
+  "new_ODE_Node_Green_calls": 0,
+  "new_full_nonlinear_ball_or_cut_claimed": false
+}

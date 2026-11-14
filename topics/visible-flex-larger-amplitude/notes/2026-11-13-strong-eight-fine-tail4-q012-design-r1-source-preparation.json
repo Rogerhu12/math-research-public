@@ -1,0 +1,65 @@
+{
+  "parent_source": "/workspace/scratch/d1aa462cfc02/root-work/core-tail-proxy-inputs/root_fine_core_tail_proxy_from_coarse_fields.py",
+  "parent_sha256": "a4982368cd86d09fc542ec64d4e7dd43c292cd2b6861aeca20b3f1f058176cf6",
+  "fresh_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_fine_core_tail_proxy_eight_fields.py",
+  "fresh_sha256": "e383770d5e1828a837d323a45ba779f1afca3ce5997cf4c481f7d1fe84d0152d",
+  "source_replacements": [
+    [
+      "Author: /root (GPT-6 Astra Pro; AI-assisted), 2026-11-13.",
+      "Author: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nFresh actual-eight adapter of parent source a4982368cd86d09fc542ec64d4e7dd43c292cd2b6861aeca20b3f1f058176cf6."
+    ],
+    [
+      "actual coarse13 fields",
+      "actual coarse17 fields"
+    ],
+    [
+      "The entry below binds the completed q122 partial-six fields; the LP adapter\nitself accepts any complete current control matrix without changing its rows.",
+      "The entry binds the completed q122 thirteen-plus-four fields and explicit\nassembled eight-response identity. Original six combined-half vectors remain\nunavailable; no direct combined-half gate or fine-Jacobian claim is added."
+    ],
+    [
+      " 'root_geometry_minimax_initial_laws_reader_bridge.py':'5c1c963a2e630e1bcb22a193129d9c7e18ffe9c6f4a689385a3537e04f5ba0df',",
+      " 'root_geometry_eight_actual_reader_bridge.py':'841e98e4156b3c42c72b3aeeb6da917676452f6f22e57bf149f4c26b718ff8c7',"
+    ],
+    [
+      "    command=rows['actual_q1-plus']['command'];response_path=Path(command[command.index('--response-data')+1]);response=read(response_path)",
+      "    response_path=Path(plan['assembled_response_file']);response=read(response_path)\n    if (sha(response_path)!='5c83df392bb2e9ed75b767e0ed90fc85bfb83ae545945acb4177d200891937c0'\n        or names!=['actual_q1','actual_q4','actual_c6','vu','descending_turn_curvature','start_acceleration','initial_speed_frontload','vd']):\n        raise ValueError('Require the actual assembled eight response and all eight exact control names')"
+    ],
+    [
+      "raise ValueError('This entry requires the actual q122 partial-six baseline and directions')",
+      "raise ValueError('This entry requires the actual q122 partial-recovery eight-control baseline and directions')"
+    ],
+    [
+      "or coarse_slopes.shape!=(28,6)):",
+      "or coarse_slopes.shape!=(28,8)):"
+    ],
+    [
+      "raise ValueError('Complete original core identities or actual six directions changed')",
+      "raise ValueError('Complete original core identities or actual eight directions changed')"
+    ],
+    [
+      "slopes=np.zeros((32,6),dtype=np.float64);slopes[:28]=coarse_slopes",
+      "slopes=np.zeros((32,8),dtype=np.float64);slopes[:28]=coarse_slopes"
+    ],
+    [
+      "import root_geometry_minimax_initial_laws_reader_bridge as bridge",
+      "import root_geometry_eight_actual_reader_bridge as bridge"
+    ],
+    [
+      "            if ratio>1+2e-8:raise ArithmeticError('Original final predicted core violates the declared tail proxy')",
+      "            if value>factor*exact[k]*(1+F(1,50_000_000)):\n                raise ArithmeticError('Original final predicted core violates the declared exact rational tail proxy and original tolerance')"
+    ],
+    [
+      "        response_path=str(response_path),response_sha256=sha(response_path),baseline_report=rows['baseline']['report'],",
+      "        response_path=str(response_path),response_sha256=sha(response_path),baseline_report=rows['baseline']['report'],\n        parent_fine_tail_adapter_sha256='a4982368cd86d09fc542ec64d4e7dd43c292cd2b6861aeca20b3f1f058176cf6',\n        actual_seventeen_field_reader_sha256=PINS['root_geometry_eight_actual_reader_bridge.py'],\n        original_six_combined_half_vectors_remain_unavailable=True,\n        new_two_measured_external_half_columns_do_not_replace_that_missing_direct_gate=True,"
+    ]
+  ],
+  "original_tail_solver_AST_unchanged": true,
+  "additional_checks": [
+    "explicit k0/frontload/vd physical ranges",
+    "exact binary final physical box",
+    "all 14453760 original rows",
+    "exact rational tail replay with unchanged relative tolerance 2e-8"
+  ],
+  "new_geometry_calls": 0,
+  "fine_Jacobian_claimed": false
+}

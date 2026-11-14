@@ -1,0 +1,41 @@
+{
+  "schema": "visible-larger-r88-proof-and-formal-execution-manifest-v1",
+  "proof": {
+    "path": "results/R88-actual-two-mode-cut-consistency.md",
+    "git_blob": "4346cb95f86b53923e4a38ccc5a0b9a727134d06",
+    "utf8_bytes": 12982,
+    "complete": true
+  },
+  "source_commit": "fb75a6c56deec11f5ffd70c5731d326a1a985557",
+  "evidence": {
+    "path": "notes/2026-11-12-root-fourth-interruption-and-formal-success.json",
+    "git_blob": "9b00e12f975bbd1f61e6e1a799487435150dd064"
+  },
+  "executed_sources": [
+    {
+      "path": "computations/root_outer_linear_centre_fields_rebuilt_v2.py",
+      "git_blob": "f6d176dcdb14bdf0d37f9a07500bd4f7e6657832",
+      "sha256": "306b2bc0c49635d731f3bbe91653310f2b2ecba19bcb7437f8ef932f37a5d75b",
+      "owned_session": 19031,
+      "tool_exit_code": 0,
+      "wait4_exit_code": 0
+    },
+    {
+      "path": "computations/closure_outer_linear_centre_ordered_cut_recovered_v1.py",
+      "git_blob": "0fd6fe4a3250d9c77871b92d2c2eb3c39f712b0a",
+      "sha256": "5cc4e1d628d4676edb11f704846347cd260e374875315e5c9564c28175c92c38",
+      "owned_session": 20874,
+      "tool_exit_code": 0,
+      "wait4_exit_code": 0
+    }
+  ],
+  "exact_mathematical_gates_observed": {
+    "common_complete_rho16_line_domain": true,
+    "conditional_field_contraction": true,
+    "both_selected_cut_self_maps": true,
+    "strict_selected_cut_contraction": true
+  },
+  "numeric_primary_status": "Completed and written locally before fourth executor disconnection; not yet retrieved or published. Original path/argv is in evidence. Existence not guessed; original output hashes and individual cut decimal rows not invented.",
+  "result_scope": "Selected two-mode projected exterior solution with actual selected cut consistency for each fixed original rest18 parameter; not a full exterior or closed-surface theorem",
+  "resume": "Retrieve original files first; if unavailable rerun identical pinned inputs under a fresh output prefix. Original formal failures remain recorded."
+}

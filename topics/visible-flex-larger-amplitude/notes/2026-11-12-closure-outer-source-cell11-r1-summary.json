@@ -1,0 +1,138 @@
+{
+  "status": "Complete position-resolved actual candidate N and selected signed coefficients",
+  "cell": 11,
+  "panels": 5545,
+  "tau": "1/64",
+  "selected_cosine_modes": [
+    2,
+    4
+  ],
+  "original_candidate_modes": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40
+  ],
+  "groups": [
+    {
+      "segment": 0,
+      "panels": 1,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment0.json.gz",
+      "bytes": 1615,
+      "sha256": "e91a3386499aa4dda8783cfd792b6cdd3938720cc6fe502d75fe20addae4127e"
+    },
+    {
+      "segment": 1,
+      "panels": 1054,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment1.json.gz",
+      "bytes": 1049870,
+      "sha256": "b8b61eff6bb1cf521b252613e226350eeb9d1987f80c4de223e5082228f20bfc"
+    },
+    {
+      "segment": 2,
+      "panels": 16,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment2.json.gz",
+      "bytes": 15753,
+      "sha256": "ae428bd8acdeb87c9851569c6f4272b923ca47081c32fa3b7f4dd806f2f28ce8"
+    },
+    {
+      "segment": 3,
+      "panels": 1887,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment3.json.gz",
+      "bytes": 1819419,
+      "sha256": "9e4b4e0d9e1458831cb2e2364de2e2a8709214df92f2c04d5415c9168b8ca02d"
+    },
+    {
+      "segment": 4,
+      "panels": 16,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment4.json.gz",
+      "bytes": 16769,
+      "sha256": "e5174a313060d67aafd89255179099abc74bffab6ff84b3ba0e6cc30bff7830b"
+    },
+    {
+      "segment": 5,
+      "panels": 1775,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment5.json.gz",
+      "bytes": 1765163,
+      "sha256": "7da71a838a17baa402766da69b264ccda3cd551bf52ee3d58319c9b0d02a44f1"
+    },
+    {
+      "segment": 6,
+      "panels": 16,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment6.json.gz",
+      "bytes": 15679,
+      "sha256": "53d2d11544e612ab0a5d1c39fa2c262874c37b1eb0600c6a764f0ab1af400551"
+    },
+    {
+      "segment": 7,
+      "panels": 779,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment7.json.gz",
+      "bytes": 753250,
+      "sha256": "28c7a7c08080457cdb48d83ed6187f6fcaca7ff8f9c1d99411b0153afabdbf6f"
+    },
+    {
+      "segment": 8,
+      "panels": 1,
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment8.json.gz",
+      "bytes": 1595,
+      "sha256": "616535c981333e37bb946868a5f7edb444154e04be3c0694463b338b9c584518"
+    }
+  ],
+  "gates": {
+    "original_candidate_and_all20_modes_unchanged": true,
+    "original_aggregate_mathematics_bitwise_reproduced": true,
+    "all_original_true_material_panels_recorded": true,
+    "complete_mean_and_inverse_remainder_in_selected_signed_sources": true,
+    "true_angular_weight_lower_used_for_coefficient_caps": true,
+    "same_background_and_same_source_coordinate": true,
+    "no_new_source_integrals_or_ODE": true
+  },
+  "all_gates": true,
+  "original_aggregate_replay_path": "notes/2026-11-12-closure-outer-source-cell11-r1-domain-replay.json",
+  "original_aggregate_replay_sha256": "3299285850f9a4b637d7bbabe6aef4477a8e65803d57b43fbeb9ab7c0e6437d7",
+  "maximum_complete_source_minus_quadratic_W1": {
+    "lower": {
+      "mantissa": "4304698101126659604038060426323156883162693813113070266959",
+      "binary_exponent": -359
+    },
+    "upper": {
+      "mantissa": "4304698101126659604038060426323156883162693813113070266959",
+      "binary_exponent": -359
+    }
+  },
+  "source_units": "N_perp in Kbar_x=-ell(2Kbar+P_theta)+N_perp. Multiply by (r/rc)^u*r^4*w^2/(sqrt12*mu11) for the fixed-global-gauge v_x forcing.",
+  "signed_source_proof": "N=(Q+deltaQ)/(1+c+K+E*T); |c|<=4R^2, l=|c|+||K+E*T||_1<1, ||N-Q||_1<=(||deltaQ||_1+l||Q||_1)/(1-l). Full mean and every inverse-generated mode retained.",
+  "actual_forced_Schur_integral_paid": false,
+  "complete_outer_solution_claimed": false,
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json": "ed68183d518c7abf99c84dd0aeab04b559993f9114d1ee153b1d2ca9c3d3fc4b",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json": "fc75a411e96b01cbff0047783619b8193479f68ad97b437cb4fce8472f2910ec",
+    "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-cell11-candidate-defect-r1.json": "d707ec765c86015e3192a02db35ec04932710adde6a464bc874574323f5fc122"
+  },
+  "source_hashes": {
+    "tail_outer_candidate_defect.py": "241104402884d7988df2af8d3881c889cfc4e3d70486de6b3ef6ab76645a45bf",
+    "tail_outer_full_mean_residual_bounds.py": "16f9d2d5c2e858686aff9d332df4cc565606481ab45a46d6a9080db29317c8af",
+    "tail_outer_candidate_domain.py": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690"
+  },
+  "entrypoint_sha256": "544bab2538a33ac32c546d980e08dc0d95fea383d5f25aed894fea9ce27c3d34",
+  "elapsed_seconds": 54.87492525400012,
+  "peak_RSS_KiB": 34632
+}

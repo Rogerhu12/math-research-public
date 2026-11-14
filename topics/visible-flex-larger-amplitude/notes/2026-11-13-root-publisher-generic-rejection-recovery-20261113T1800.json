@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-13T17:58:42.769549+00:00",
+  "prior_owned_exit": 1,
+  "actual_push_rejection": "remote rejected HEAD -> main (failed)",
+  "before_source_sha256": "ba281543d314bdaba4f9f16c74b20b2248b8da0ffe2b8f44a44e5c764ff7cdb4",
+  "after_source_sha256": "3ce38d1136976fee7c0451e20abcaeeee1781c29dfaed7a32eeb70392d085979",
+  "last_successful_actual_pull": [
+    "2026-11-13T17:56:21+00:00",
+    "1ccbb87b431b0f93260aa7b7305436fba5483ebf"
+  ],
+  "changes": [
+    "Retry every actual rejected ordinary push through immediate actual pull --rebase; preserve exact failure output.",
+    "Trigger exclusive canonical pack maintenance above1.5GiB instead of2GiB to account for an observed918MB fetched pack and preserve the unchanged400MiB command reserve."
+  ],
+  "original_instruction_diff_and_push_logic_otherwise_unchanged": true
+}

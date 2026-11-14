@@ -1,0 +1,8 @@
+{
+  "scope": "Only future calls by the sole live publisher use the corrected canonical Git batch. Current running helper and all scientific jobs are untouched.",
+  "old_source_sha256": "65072dd1e74b560899c9af7e40b4ef21950c42086d4ccacfa3bfe1073d20668c",
+  "new_source_sha256": "52ca6712a20af9f15a6661e14de8dfe4148e7eb6f99658538cbba33aa860660b",
+  "evidence": "Actual git multi-pack-index repack -h: collect pack-files of smaller size into a batch larger than batch-size; old10MB did not select large fetched packs.",
+  "old_guard_and_all_oid_ref_verification_unchanged": true,
+  "no_direct_git_object_mutation_by_root": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "Formal tool31154/wait4 exit1 after complete10793 density rows; no completed final summary or self-map certificate",
+  "utc": "2026-11-12T19:34:13.642842+00:00",
+  "tool_session": 31154,
+  "tool_exitcode": 1,
+  "wait4_exitcode": 1,
+  "wall_seconds": 35.990562438964844,
+  "peak_RSS_KiB": 25520,
+  "failure": "Old ordered Gamma is a non-dyadic exact Fraction; the dyadic-only serializer refused it while constructing final metadata",
+  "preserved_complete_density_row_count": 10793,
+  "source_sha256": "fe9ba68d87de66601518421ac4f06ed0c151cb908ea4367ab03741b3858a7873",
+  "repair": "New v2 uses the existing exact numerator/denominator serializer for this one original rational input; all bound computations byte-identical after inverse substitution; fresh full replay",
+  "inverse_source_edit_verified": true
+}

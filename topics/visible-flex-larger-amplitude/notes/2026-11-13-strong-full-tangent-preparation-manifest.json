@@ -1,0 +1,90 @@
+{
+  "scope": "Fresh full shooting tangent storage entry prepared. Original mathematical MJS unchanged. Source transforms, syntax, real accepted input guards and prepare-only actually completed with exit 0; no new tail engine/ODE/Jacobian or binary flow roundtrip has run yet. Runtime roundtrip is required before use.",
+  "created_utc": "2026-11-13T08:58:18.368866+00:00",
+  "files": [
+    {
+      "file": "computations/strong_full_flow_tangent_storage.mjs",
+      "bytes": 19189,
+      "sha256": "fb6ed25102cb91a332e1c2d879cf6218f9c88faaebe6916e801e46e6f8c1551f",
+      "kind": "fresh-storage-source"
+    },
+    {
+      "file": "computations/strong_full_tangent_tail_worker.mjs",
+      "bytes": 16153,
+      "sha256": "2a0a93902999f244a838effd4ae09930f456f0a97393416bacb1554c075c1653",
+      "kind": "fresh-storage-source"
+    },
+    {
+      "file": "computations/strong_full_tangent_tail_client.py",
+      "bytes": 7283,
+      "sha256": "9ee68e2af6578f357535317abdf4bbb89dc96e783782c3e66914e83fdbedf045",
+      "kind": "fresh-storage-source"
+    },
+    {
+      "file": "computations/strong_full_tangent_resource_guard.py",
+      "bytes": 4422,
+      "sha256": "bb7b1c863f8fef204131bf7fe1acc063c5ce074e46e04a8332bb2e96453255fd",
+      "kind": "fresh-storage-source"
+    },
+    {
+      "file": "computations/strong_full_tangent_actual_bvp.py",
+      "bytes": 5746,
+      "sha256": "ca5e356c19cdbdd0c391bdcc452ee6f22b07666907155ba621b8a1e0ebcff28a",
+      "kind": "fresh-storage-source"
+    },
+    {
+      "file": "computations/strong_full_tangent_accepted_audit.py",
+      "bytes": 9604,
+      "sha256": "77e7605eded1bf9210b8e16946775d34f6614ec32e9144e70ddf785d009947b7",
+      "kind": "fresh-storage-source"
+    },
+    {
+      "file": "notes/2026-11-13-strong-full-tangent-source-prepare.json",
+      "bytes": 37748,
+      "sha256": "ff4462175ea01d91e24fb3dde7745e4e94a55ec6bf0c9ddd8c9dd312ded787c4",
+      "kind": "actual-source-transform-check-no-numerical-evaluation"
+    },
+    {
+      "file": "notes/2026-11-13-strong-full-tangent-python-transform-check.json",
+      "bytes": 16739,
+      "sha256": "98f19edc72d08572b6445798035e363c4d6ad20abf7e39896c2e66eaf5a32f04",
+      "kind": "actual-source-transform-check-no-numerical-evaluation"
+    },
+    {
+      "file": "notes/2026-11-13-strong-full-tangent-q096-prepare-accepted-storage-guards.json",
+      "bytes": 2483,
+      "sha256": "d7e5416c42e48ee1c54869afe62891e6a3fe7ba6dacc30cb63cc570c41de422c",
+      "kind": "actual-accepted-input-prepare-only-no-worker"
+    },
+    {
+      "file": "notes/2026-11-13-strong-full-tangent-q096-prepare-config.json",
+      "bytes": 2886,
+      "sha256": "9a0d84e3780c5fc937af9763e123e3ff280e657022f82350edab7fb621023106",
+      "kind": "actual-accepted-input-prepare-only-no-worker"
+    },
+    {
+      "file": "notes/2026-11-13-strong-full-tangent-q096-prepare-plan.json",
+      "bytes": 5464,
+      "sha256": "d0cad4f22e3a8a7e841503d859c2f47ecf45bff79727b23863f5baac8c8549cb",
+      "kind": "actual-accepted-input-prepare-only-no-worker"
+    },
+    {
+      "file": "notes/2026-11-13-strong-full-tangent-runtime-source-manifest.json.gz",
+      "bytes": 35444,
+      "sha256": "8cc0236a605861ce7ce23eb3230f8d1f61f1b18c8434f5db91ef1fc18e49bf4a",
+      "kind": "complete-independent-runtime-source-identity"
+    },
+    {
+      "file": "notes/2026-11-13-strong-full-tangent-storage-preparation.md",
+      "bytes": 4181,
+      "sha256": "994a8e307775c58f967b7399d8a11836f276d0505550f35bafaa93d0a81af5a3",
+      "kind": "preparation-scope-and-reproduction-note"
+    }
+  ],
+  "total_bytes": 167342,
+  "all_under_5MB": true,
+  "q098_original_live_run_untouched": true,
+  "prefix_Newton_calls": 0,
+  "new_tail_workers": 0,
+  "next": "After genuine q098 acceptance, freeze its real fixed view; independently compute its six full control columns and perform the original same-H full-J/audit with this adapter. Consume sidecars only after actual exact roundtrip and original predictor equality."
+}

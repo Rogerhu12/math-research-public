@@ -1,0 +1,145 @@
+{
+  "scope": "Freeze an accepted actual design without changing its fields or metric.\n\nThe complete numerical x/y/cubic and physical quintic pieces are reused by\ntheir original hashes. Only the three design offsets are removed from p;\ntheir already accepted final physical profile is used by the real Fixed\nfactory. The original collocation RMS and all fixed boundary conditions are\nevaluated again before writing a fixed view. No Newton step, tail worker,\nresampling, or new physical solution is produced. This is a finite-problem\nrepresentation change, not an infinite closure or a refinement result.\n",
+  "nonlinear_solve_run": false,
+  "tail_worker_started": false,
+  "identity_check_only": false,
+  "complete_H_bitwise_equal": true,
+  "raw_x_y_cubic_unchanged": true,
+  "physical_quintics_unchanged": true,
+  "all_core_coefficients_unchanged": true,
+  "gauge_unchanged": true,
+  "original_numerical_reference_unchanged": true,
+  "eight_physical_data_unchanged": true,
+  "original_parameter_count": 31,
+  "fixed_parameter_count": 28,
+  "rms_max": 9.957361490725915e-08,
+  "original_rms_max": 9.957361490725915e-08,
+  "rms_array_max_difference": 0.0,
+  "rms_array_bitwise_equal": true,
+  "all_boundary_max": 6.082947372145787e-09,
+  "true_physical_boundary_max": 6.082947372145787e-11,
+  "nodes": 2587,
+  "modes": 28,
+  "angular": 1024,
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_initial_laws_freeze_design_view.py": "785442ffad4a72f9671aef285dae4a4bfc11f410b2cec54027cd913a09a61ab3",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1.json.gz": "006eaa15e9b1416aa72140e616e1ecf75461033df8448ade0bbd812826d210a8",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation.json.gz": "f76f4adaad899e101fa99868010a291617aea999fc0941ec0551379329b7b223",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz": "56716695845a37429203af0204752630d9a41e36e8670b7f6ef073bdb7c231a2",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_fixed_refinement.py": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_actual_augmented_core.py": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_pulse_freeze_design_view.py": "18ff9e44b4f69e52017c5a7d20998e1a7d06c77fd3930bd7b21b767d984f4e7e",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-x-000.npy.gz": "ab65caa2a33ae5d0f605cd6fb0c0ccbe759129e71860af48c87ae2d769efebf5",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-y-000.npy.gz": "3d85cfdd34303926d59dc9ab73a28e7dec660c05fe633a466202d31a47de8b42",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-p-000.npy.gz": "c8e110f1ed41928b8cdd519276e2baca5e487b14e1409f30fdb1c20481b8d62c",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-cubic-000.npy.gz": "01df94b7e2694fcaadb7bae6cf0a215eecd604d5b60e3d649bda5c8801ed0950",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-cubic-001.npy.gz": "978fcdd2a310c66de27435f98f3f3b40a093c754a489a584d5a0ddda508577cb",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-raw-collocation-rms-000.npy.gz": "30737af6bac06ca72462e5b9f37b6aed8e6c5e0127fcfad576e71675c5515c22",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1_coeff_00.npy.gz": "2277f1061bfb0a8d0f8d816458a87a86098bbd0caa18bee1573650ca097d6ff5",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1_coeff_01.npy.gz": "4c02af889aaabd491ca66e57d41efb4ddf15bc289bf504765c2551118a289703",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1_coeff_02.npy.gz": "236e9bcc76b9fabf1c36b48b415cd87d147222a4eb60c5c145c652a9b62d7ac7",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-config.json": "e74ed95609bb024ab638bfbe44133edfa6031f443deb2729ab0a2db2e53fa330"
+  },
+  "fixed_factory_provenance": {
+    "fixed_reference": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1.json.gz",
+    "fixed_reference_sha256": "006eaa15e9b1416aa72140e616e1ecf75461033df8448ade0bbd812826d210a8",
+    "physical_profile_sha256": "5398b8533ea853285fa301cbf301d3a2c32507b99c18d21532c0749696a06797",
+    "physical_tail_parameters_sha256": "20a7621928d095a30825ddfd147311a186859c200604feaf5186c5734f8b74c8",
+    "physical_cut_sha256": "bfd7667d03eeae4ac7fee31c7ecffd5d798592311938d0f27631db5562136427",
+    "chart_reference_coefficients": [
+      0.09,
+      -0.006363961030678927
+    ],
+    "chart_reference_frequencies": [
+      2,
+      4
+    ],
+    "gauge_amplitude": 0.09,
+    "physical_length": 3.154318819114381,
+    "port_verification": {
+      "kind": "identical_file",
+      "sha256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100"
+    },
+    "adapter_sha256": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "radial_batching_sha256": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "radial_batch_size": 48,
+    "scope": "Physical metric and reference chart frozen. Core coefficients are solved fields, not changed design controls. Finite tail only."
+  },
+  "counters": {
+    "raw_restorations": 1,
+    "residual_checks": 1,
+    "tail_start_attempts": 0
+  },
+  "seconds": 120.05226702899745,
+  "initial_speed_pulse_fixed_view_adapter": {
+    "scope": "Use the real fixed-view verification with the explicit pulse provider.\n\nThe complete accepted raw state, physical quintics, core, numerical/material\ncharts, physical tail, RMS and boundary conditions are unchanged. Only the\nprovider loader is extended so a saved nonzero initial_speed_pulse remains\nthe same physical metric. This is a representation conversion, not a solve.\n",
+    "original_sha256": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+    "transformed_sha256": "09912d8af267c67c5d41451c5cc732b1caa1c95fa4e1a36ea5667a9e2117660a",
+    "source_sha256": {
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_pulse_freeze_design_view.py": "18ff9e44b4f69e52017c5a7d20998e1a7d06c77fd3930bd7b21b767d984f4e7e",
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_initial_laws_freeze_design_view.py": "785442ffad4a72f9671aef285dae4a4bfc11f410b2cec54027cd913a09a61ab3"
+    },
+    "replacements": [
+      {
+        "before": "        if Path(path).name == 'root_dual_core_bvp.py':\n            original_main = loaded.main",
+        "after": "        if Path(path).name == 'root_dual_core_bvp.py':\n            original_provider_loader = loaded.module\n            def pulse_provider_loader(provider_name,provider_path):\n                value = original_provider_loader(provider_name,provider_path)\n                if Path(provider_path).name=='alternative-neck-provider.py':\n                    import strong_initial_speed_pulse as pulse_hook\n                    pulse_hook.install(value)\n                return value\n            loaded.module = pulse_provider_loader\n            original_main = loaded.main",
+        "count": 1
+      },
+      {
+        "before": "        hashes[str(HERE / name)] = digest(HERE / name)\n    for key in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS'):",
+        "after": "        hashes[str(HERE / name)] = digest(HERE / name)\n    hashes.update(PULSE_FIXED_VIEW_TRANSFORM['source_sha256'])\n    for key in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS'):",
+        "count": 1
+      },
+      {
+        "before": "        mapped = copy.deepcopy(record)",
+        "after": "        report['initial_speed_pulse_fixed_view_adapter'] = PULSE_FIXED_VIEW_TRANSFORM\n        mapped = copy.deepcopy(record)",
+        "count": 1
+      },
+      {
+        "before": "                    pulse_hook.install(value)\n",
+        "after": "                    pulse_hook.install(value)\n                    import strong_monotone_initial_speed as frontload_hook\n                    frontload_hook.install(value)\n",
+        "count": 1
+      }
+    ],
+    "exact_reverse_recovers_original_fixed_view": true,
+    "pulse_is_part_of_frozen_physical_profile": true,
+    "original_full_H_RMS_BC_identity_and_no_worker_gates_preserved": true,
+    "prior_transformed_sha256": "9aa7fa012a83cafb9c683698093df0ed08204f1a1fb52c334e3e0c4cfd25ea5a",
+    "monotone_initial_speed_fixed_view": {
+      "scope": "Genuine fixed-view verification with both explicit first-piece providers.\n\nA nonzero saved front-loading weight is reloaded as its actual physical g.\nThe original complete raw/PPoly/core/chart/H/RMS/BC identities remain\nmandatory. This representation conversion starts no Node or BVP and does\nnot accept an unaccepted endpoint.\n",
+      "physical_profile_key": "initial_speed_frontload",
+      "fixed_degree_key": "initial_speed_frontload_degree",
+      "absent_degree": 22,
+      "same_explicit_saved_physical_metric_required": true,
+      "original_raw_PPoly_core_chart_H_RMS_BC_gates_unchanged": true,
+      "original_no_worker_and_no_BVP_conditions_unchanged": true,
+      "exact_reverse_recovers_original_pulse_fixed_view": true
+    }
+  },
+  "output": {
+    "file": "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+    "sha256": "5545638d33d78240a2eb6dd82269d4c10975b14f686a9562971e3b20e60ce154",
+    "bytes": 92244
+  },
+  "raw_output": {
+    "file": "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz",
+    "sha256": "086637ebb7da8995f069e626900649434ae42b27bf04c30275498d67bb315787",
+    "bytes": 9173,
+    "nodes": 2587,
+    "solver_success": true,
+    "physical_surface": false
+  }
+}

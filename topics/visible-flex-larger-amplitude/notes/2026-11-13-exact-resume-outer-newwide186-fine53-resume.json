@@ -1,0 +1,39 @@
+{
+  "schema": "completed_samefield_stages_before_owned_resource_failure-v1",
+  "producer": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-outer-newwide186-finehead-posterior-v2.py",
+    "sha256": "9a643bdeabb4e18cc779c02c2ef7ab38ed0cc7dddbb892ed4e713e57fd52fa23"
+  },
+  "resource": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer-newwide186-fine53-run1-resource.json",
+    "sha256": "ec25acb1c3c956a26b1446ba9fa246ac65edfab883098922e078bce21bdd156c"
+  },
+  "input_manifest": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/newwide186-fine53-inputs/input-manifest.json",
+    "sha256": "51ebd7e384f78b68fd5e3a142f4b5555b86185f4469731b9c17a9b0b3fb0f67a"
+  },
+  "completed_math_stages": 4,
+  "stages": [
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer-newwide186-fine53-r1-state01.json.gz",
+      "sha256": "866a5afaa39c12378a452eda390dfba8baf58ffccd62c01432f5b9b0087188c6",
+      "bytes": 398815
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer-newwide186-fine53-r1-state02.json.gz",
+      "sha256": "c485279b67cb21907acc5a280fe557d2e67f8535ef83b0d0fc63d45238021471",
+      "bytes": 404479
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer-newwide186-fine53-r1-state03.json.gz",
+      "sha256": "bdab51a8d1589bbe1c73e4cf5d1909cef3cc93175f328652e1d5006f06e703f7",
+      "bytes": 403221
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/exact-work/outer-newwide186-fine53-r1-state04.json.gz",
+      "sha256": "6ae21169279f9964ddd6a61ed27f2b22b70c6d29a98763c20bf6769fe1449e00",
+      "bytes": 400016
+    }
+  ],
+  "warning": "The prior overall job failed its96MiB guard after the fourth complete saved finite-image stage. That overall job is not asserted successful. New consumer explicitly preserves this failure and continues these saved samefield bounds."
+}

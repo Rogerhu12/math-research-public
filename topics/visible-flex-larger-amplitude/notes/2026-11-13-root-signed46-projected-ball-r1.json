@@ -1,0 +1,132 @@
+{
+  "schema": "signed46-r105-true-projected-ball-v1",
+  "scope": "True low46 projected solution on the complete R100 parameter domain, within 1e-9 of the fixed R88 mixed centre; no cut consistency or low/high coupling claimed",
+  "all_gates": true,
+  "gates": {
+    "identity_ordered": true,
+    "all_gates_ordered": true,
+    "identity_fields": true,
+    "all_gates_fields": true,
+    "identity_head": true,
+    "all_gates_head": true,
+    "identity_budget": true,
+    "all_gates_budget": true,
+    "identity_geometry": true,
+    "all_gates_geometry": true,
+    "identity_r94": true,
+    "all_gates_r94": true,
+    "ordered_actual_exit_zero": true,
+    "complete_18_groups_10793_materials_10878_subpanels": true,
+    "all46_modes": true,
+    "same_fixed_centre": true,
+    "same_true_Green_operator": true,
+    "complete_head_on_R100_domain": true,
+    "same_paid_whole_ball_contraction": true,
+    "centre_plus_radius_inside_absolute_nine": true,
+    "old_density_covers_absolute_nine": true,
+    "complete_mean_inverse_physical_domain": true,
+    "strict_full_mean_inverse_and_head_selfmap": true,
+    "a_posteriori_radius_below_1e_minus9": true,
+    "simple_signed_residual_bounds": true
+  },
+  "inputs": {
+    "ordered": {
+      "path": "notes/2026-11-13-root-signed46-ordered-v2-summary.json",
+      "sha256": "e30a95b57dc4ba7b64af5f6e95ea30b233611c3703b5f5111793482b368a8ca3"
+    },
+    "fields": {
+      "path": "notes/2026-11-12-root-linear-centre-local-restored-r1-summary.json",
+      "sha256": "94fb941354dbb4769cb7ce80d5f7fd14eed6bdbce893842881c5c949c460288a"
+    },
+    "head": {
+      "path": "notes/2026-11-13-root-r100-source-reweight-r1.json",
+      "sha256": "617987048c3a599acb42bcafe8dba99155c5cde82d252706769d5e24340ce1b9"
+    },
+    "budget": {
+      "path": "notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval.json",
+      "sha256": "86c9b5604a765a50028865a4f3edae3171d9582052e2b7e7515d0471d8685d45"
+    },
+    "geometry": {
+      "path": "notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json",
+      "sha256": "e3bb0bad3afac3e19d6b811ad068d0b4251b2a1214718dcbd14a2eb98e1aaa03"
+    },
+    "r94": {
+      "path": "notes/2026-11-12-root-r94-full46-cut-exact-ledger.json",
+      "sha256": "5eb45673a9080ae251e77c3203cfc2142ba31850fc244c7e2c8500df774249bc"
+    },
+    "resource": {
+      "path": "notes/2026-11-13-root-signed46-ordered-v2-resource.json",
+      "sha256": "617b65bfd846f28bf5933c450d049cd09281c82e83a6ec06768cbe829b09a2a8"
+    }
+  },
+  "source_sha256": "692abb77a5381c88fef08939205b2cb2c90d1e6e7a2464c10f857259a213e5dd",
+  "centre_norm_upper": {
+    "numerator": "24285980871743184923056987384455101945270640016861921365802903531927",
+    "denominator": "3369993333393829974333376885877453834204643052817571560137951281152",
+    "display_only": 7.2065367699957505
+  },
+  "signed_complete_affine_residual": {
+    "numerator": "328535421387856370864429448870317384915623311687808605321098346938693697744525149794534681140762940788375292224890302858691",
+    "denominator": "354901720847464302026037015570314714039863945648104521621821386318671527399120079749116723981329865996466075003059657194108692201472",
+    "display_only": 9.257081667661452e-10
+  },
+  "weak_C_signed_affine_residual": {
+    "numerator": "12908617391296235545999438346035106790132326511056623264249542764156103850511318313348940599861935704130293035036895925",
+    "denominator": "21661481985318866090456360813617841433097164651373566993519371723551728967231450179999800047688590453885868835635965404913860608",
+    "display_only": 5.959249417950762e-10
+  },
+  "weak_U_signed_affine_residual": {
+    "numerator": "269050507057951102243938481897628591428117717886638195001214338112635916780680925808804158981407965449794552386229561",
+    "denominator": "1353842624082429130653522550851115089568572790710847937094960732721983060451965636249987502980536903367866802227247837807116288",
+    "display_only": 1.9873100630163782e-10
+  },
+  "complete_head_mass": {
+    "numerator": "789449383517304412237300849251256608262068107649308870943",
+    "denominator": "1146749307995035755805410447651043470398282494584140561868794419693461438044242404035009276555062843277312",
+    "display_only": 6.884236842467071e-49
+  },
+  "head_trace_to_field_operator": {
+    "numerator": "53455669911433700560420613171200",
+    "denominator": "1",
+    "display_only": 5.34556699114337e+31
+  },
+  "complete_head_field": {
+    "numerator": "20605735184123951883357512549392593458657312946064869582541414758028664848523255256075",
+    "denominator": "559936185544451052639360570142111069530411374308662383724997275240947967795040236345219373317901778944",
+    "display_only": 3.6800149224305034e-17
+  },
+  "full_ball_contraction": {
+    "numerator": "50288421734824939652518682949",
+    "denominator": "20282409603651670423947251286016",
+    "display_only": 0.0024794106182418753
+  },
+  "chosen_radius": {
+    "numerator": "1",
+    "denominator": "1000000000",
+    "display_only": 1e-09
+  },
+  "complete_image": {
+    "numerator": "643389417076941747982268642745765076698578125311579324940067688309473372912391961419046065927907657061893294509006197724731141359",
+    "denominator": "693167423530203714894603546035770925859109268843954143792619895153655326951406405759993601526034894524347802740350892957243539456000000000",
+    "display_only": 9.281876141845362e-10
+  },
+  "strict_selfmap_slack": {
+    "numerator": "49778006453261966912334903290005849160531143532374818852552206844181954039014444340947535598127237462454508231344695232512398097",
+    "denominator": "693167423530203714894603546035770925859109268843954143792619895153655326951406405759993601526034894524347802740350892957243539456000000000",
+    "display_only": 7.181238581546376e-11
+  },
+  "a_posteriori_radius": {
+    "numerator": "328535434448292658013765792761042265375596380878279116134209874903214653886525893605824419694540409695983915647536401188291",
+    "denominator": "354021773752362785072881263245525260145788326366855023386716604807435814354501289108389557920781555276760623861984885147337347825664",
+    "display_only": 9.280091192303393e-10
+  },
+  "complete_mean_input_radius_old": {
+    "numerator": "311598583939500454528368887",
+    "denominator": "21267647932558653966460912964485513216",
+    "display_only": 1.4651295005804285e-11
+  },
+  "head_far_paid_once_in_complete_mass": true,
+  "independent_of_rejected_DN4_r1": true,
+  "full46_cut_consistency_paid": false,
+  "full_frequency_PDE_paid": false
+}

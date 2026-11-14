@@ -1,0 +1,32 @@
+{
+  "scope": "Reconstructed r2 exact rational bounds for the intended analytic q096 neck. All33 guards actually passed. Not an actual floating provider/surface/reach certificate. No MJS changes and no local Node/ODE/BVP execution.",
+  "files": [
+    {
+      "file": "computations/strong_q096_analytic_profile_bounds_r2.js",
+      "bytes": 13271,
+      "sha256": "f569a91103cc6fe0c0807783eac8bf33badf3f40081d0a69f1512b8b15c48598",
+      "blob_sha": "dd5132d450d58aadde7d0ea5b3587de7a96fb512"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q096-analytic-profile-bounds-r2.json",
+      "bytes": 19109,
+      "sha256": "9d95dc521e86c764fb627f2d4e4658f14eea65706ac614a759d3e8768993b459",
+      "blob_sha": "3e532f2d1c6c2e57940d17cc630070a36536ccec"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q096-analytic-profile-bounds-r2.md",
+      "bytes": 6271,
+      "sha256": "9e5c36878877ea3b26ff48748a95cb348f8f243fed4f7345a8a15a644e8b0f9e",
+      "blob_sha": "1156b703c7f5a4ac2d2828251372ecafec869f08"
+    }
+  ],
+  "executed_source_sha256": "f569a91103cc6fe0c0807783eac8bf33badf3f40081d0a69f1512b8b15c48598",
+  "execution": "functions.exec V8 isolate; artifact source read back; only Node shebang removed",
+  "all_passed": true,
+  "guards": 33,
+  "prior_gauss64_stable_manifest_blob": "c4a2c2dc22082923fa931faa48455bec61d1308c",
+  "actual_M28_job_not_changed": {
+    "owned_session": 61413
+  },
+  "source_old_hash_not_reconstructed": true
+}

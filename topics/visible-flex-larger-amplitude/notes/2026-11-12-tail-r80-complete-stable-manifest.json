@@ -1,0 +1,156 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Frozen complete R80 actual capped moments, same-candidate full replay and full nine-piece composition",
+  "files": [
+    {
+      "path": "results/R80-capped-source-positive-moment-refinement.md",
+      "sha256": "5c7ff9a0c93b34497cc133a869e4a8716ef83bb8d4c1ec1815b6ef367c5ede24",
+      "bytes": 9087
+    },
+    {
+      "path": "computations/tail_outer_capped_true_moments.py",
+      "sha256": "88ca736fe426fc3aa9d7f09507aba4f11dd80ea7100dcbec346df6d542b53c6b",
+      "bytes": 14813
+    },
+    {
+      "path": "computations/tail_outer_capped_moment_replay.py",
+      "sha256": "d4bb3fd3c8c1cafb901ce6bbe5a1ceba707a42f8b9f0b578d34e5117799c2980",
+      "bytes": 10667
+    },
+    {
+      "path": "computations/tail_outer_combine_refined_moments.py",
+      "sha256": "a592fbb3a15677eb804c275c815ad7d70218dd55f65b8f0e5e22ee9b835e080a",
+      "bytes": 3960
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg1-capped-moments-r1-plan.json",
+      "sha256": "236a50b5a038dd3f5eb96b705c8d102e4410f04921c0e506e865d6f4662b9fe6",
+      "bytes": 3756
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg1-capped-moments-r1-resource.json",
+      "sha256": "e1600b828f6edf32d67d532561fc88873fe16239ab4061ddf2af618a9fefd241",
+      "bytes": 1282
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg1-capped-moments-r1-summary.json",
+      "sha256": "f1e6bd0138a71c418d3a3764924c8b23db79f74654ecfc7396bfc0f5463a6962",
+      "bytes": 9600
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg1-capped-moments-r1-integrals.jsonl.gz",
+      "sha256": "fbdcc1f33469a40c88227591bdd23dad3ac86913239d6f0255d6f0330bcab709",
+      "bytes": 223762
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg1-refined-moments-fullJ-r1-plan.json",
+      "sha256": "1c807af46d0e3507d842778bfd6a1570e818975eb8b8b9f9691dd2758d201551",
+      "bytes": 3255
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg1-refined-moments-fullJ-r1-resource.json",
+      "sha256": "2c346fc8fd93c096b7ac487529c3ffb1b23186600921b6c70dec9f7af01f0a86",
+      "bytes": 1393
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg1-refined-moments-fullJ-r1.json",
+      "sha256": "2b0db24d2c9cd120c6056fec85a9b214cb790465c1053077dbe784d6528a12c7",
+      "bytes": 45525
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-cell0-seg1-refined-moments-fullJ-r1-segment1.jsonl.gz",
+      "sha256": "252c7420276b91a8aad2e46ec8936f9d2772a141d4ff526656b0339cf7dab933",
+      "bytes": 638016
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-R80-r1.json",
+      "sha256": "dbb08c22c2fcbd072dc28dc0adb0aace526e6fa701861569156223c2b0d44b89",
+      "bytes": 16852
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-R80-r1-resource.json",
+      "sha256": "9e3390834c9e15a7501e24d84f8fd39546e20da24f4ba82d50ff690b05b61926",
+      "bytes": 1039
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-capped-moments-and-complete-replay.md",
+      "sha256": "a1ec26856e542d650449a83d353f8554d1b0c314b95fd271d7182a126910985a",
+      "bytes": 5397
+    },
+    {
+      "path": "notes/2026-11-12-tail-r80-preexecution-proof-snapshot.md",
+      "sha256": "84c385c30c2216527ea5daaef740aee70765139fb1505b6b53d55b17e391e11f",
+      "bytes": 6211
+    }
+  ],
+  "file_count": 16,
+  "total_bytes": 994615,
+  "formal_sessions": [
+    69328,
+    88305,
+    28404
+  ],
+  "formal_exitcodes": [
+    0,
+    0,
+    0
+  ],
+  "actual_capped_integral_original_leaves": 292,
+  "complete_J_modes": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80
+  ],
+  "total_continuous_candidate_leaves": 7563,
+  "full_cell_physical_Darboux_upper": [
+    6015979993482261971517619054331757444725165055056181874071,
+    -197
+  ],
+  "largest_bound_segment": 6,
+  "scope": "Same metric/candidate/physical endpoint jets. Full mean and true derivatives retained. No exact outer solution, inverse, closed surface or reach certificate claimed.",
+  "preexecution_document_snapshot": {
+    "path": "notes/2026-11-12-tail-r80-preexecution-proof-snapshot.md",
+    "sha256": "84c385c30c2216527ea5daaef740aee70765139fb1505b6b53d55b17e391e11f",
+    "reason": "The original plans recorded the complete conditional proof before its actual execution section was appended; the exact old bytes are preserved."
+  },
+  "excluded": "Completed duplicate recovery JSON files; existing immutable inputs and old primary data remain in the repository.",
+  "next_scope": "Read the actual largest segment6 source and candidate bounds; coordinate the one small-Arb slot with exact_closure."
+}

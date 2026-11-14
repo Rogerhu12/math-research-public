@@ -1,0 +1,55 @@
+{
+  "status": "Frozen complete R84 Green proof/consumer; original40 geometry files separately frozen",
+  "files": [
+    {
+      "path": "results/R84-actual-two-cell-whole-field-wronskian-green.md",
+      "bytes": 14977,
+      "sha256": "4a493a10f41a4f5ea0bc916bd7733b3a8764d5a24283e7fd840e2012efdeb45c"
+    },
+    {
+      "path": "computations/closure_outer_whole_field_green_budget.py",
+      "bytes": 15700,
+      "sha256": "0face3a58c11ba97864835468beecc8eb9cad37b943320a99694abe38f383dd1"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-whole-field-green-budget-r1-plan.json",
+      "bytes": 1748,
+      "sha256": "83a26b481b5bdf0d7f0fa4469a99d5cbd1e1a61a91362423a750c516613b96b4"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-whole-field-green-budget-r1-resource.json",
+      "bytes": 1248,
+      "sha256": "6a4a25bd46a69ab1288469261066ade9e9e4bc5aa734a39dde8345dd8aa5ff17"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-whole-field-green-budget-r1.json",
+      "bytes": 67236,
+      "sha256": "7c2425f35a5d1a972a6a112e34ab7cf8bc2a0edf28e17a20bf6a86a48d805d00"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r84-whole-field-execution.json",
+      "bytes": 1169,
+      "sha256": "c3cb80db436fe108a5ae3aea45e9d9e8e0e166b0760ca46c9191d1c127d6782b"
+    }
+  ],
+  "file_count": 6,
+  "total_bytes": 102078,
+  "geometry_manifest": {
+    "path": "notes/2026-11-12-closure-whole-field-profiles-stable-manifest.json",
+    "sha256": "b9c5e8d2da55d533b5c99a6c9848a5d84874492635b395afd2ff80ddd189f3e9"
+  },
+  "all_gates": true,
+  "formal_tool_exit": 0,
+  "wait4_exit": 0,
+  "projected_operator_norm": {
+    "numerator": "1246135463801519691100061791994638758483844120558160160729451851637222950781275849938173730808025525481079294638854786427589616702210413457466748810836647052613692253306448388488994429415807963692334614819280599612271557218064494801228920483826921505432670926719591567",
+    "denominator": "269099513438586776370464563146695596035107317197419267838405086288817547624494409015579985433052699895643185101497006402300465587717504447268603771594437284452764157574886948072641175420228442848404761416262365758094239584100325187530311357452622919707486516502694199296",
+    "display": "0.0046307607467521848062175267845880"
+  },
+  "no_Git_actions": true,
+  "proof_typesetting_correction": {
+    "old_proof_sha256": "06a474747150611df454c3b2cbc40ec8f2547284e5f5e0b2240d3d4ebbbedced",
+    "new_proof_sha256": "4a493a10f41a4f5ea0bc916bd7733b3a8764d5a24283e7fd840e2012efdeb45c",
+    "change": "Only the 2x2 matrix row separator in (84.2) gains its missing second backslash; equations, arithmetic, source and primary certificates are unchanged."
+  }
+}

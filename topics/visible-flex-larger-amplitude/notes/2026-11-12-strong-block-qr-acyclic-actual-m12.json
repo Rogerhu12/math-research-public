@@ -1,0 +1,55 @@
+{
+  "scope": "Compare block QR and sparse LU on one actual finite-neck Jacobian.\n\nPass --check-output PATH and an otherwise ordinary strong_neck_bvp invocation.\nIt stops after assembling and solving one actual collocation Jacobian. This is\nan inspection, not a nonlinear solve, fixed-g refinement, or surface result.\n",
+  "inspection_only": true,
+  "nonlinear_solution": false,
+  "n": 37,
+  "nodes": 122,
+  "parameters": 12,
+  "shape": [
+    4526,
+    4526
+  ],
+  "nnz": 389236,
+  "value_seconds": 0.6795077323913574,
+  "jacobian_seconds": 5.3059656620025635,
+  "qr_factor_seconds": 0.1934363842010498,
+  "qr_solve_seconds": 0.03783082962036133,
+  "lu_factor_seconds": 0.1510326862335205,
+  "lu_solve_seconds": 0.0016124248504638672,
+  "qr_relative_backward_error": 3.943828605399385e-16,
+  "qr_vs_lu_relative_difference": 1.0613770767745716e-12,
+  "step_norm_qr": 961.0140734705743,
+  "step_norm_lu": 961.0140734695543,
+  "source_sha256": {
+    "strong_block_qr.py": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+    "strong_block_qr_check.py": "5f22ce0dbe9081106c4f8b3a20e71431bbf059abec7ce9dd3a6f96114216a586",
+    "strong_neck_bvp.py": "7f5e09400c670b13affbe15a0f57eb3c01c0aa382cba63f59e74dadd923703b2"
+  },
+  "seconds": 6.4048497676849365,
+  "profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.1715540580605645,
+    "vu": 0.35,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.10555644165351565,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.75,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "recursive_closure_retention_without_gc": {
+    "jacobian": false,
+    "rhs": false,
+    "answer_storage": false
+  }
+}

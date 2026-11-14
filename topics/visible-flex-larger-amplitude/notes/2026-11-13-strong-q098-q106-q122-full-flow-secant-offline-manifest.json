@@ -1,0 +1,33 @@
+{
+  "schema": "immutable-small-offline-full-flow-diagnostic-archive-v1",
+  "files": [
+    {
+      "path": "computations/strong_full_flow_secant_offline_diagnostic.py",
+      "sha256": "db44242a7cd0098cd9779950c0d9f27551d7ce86b21bad05ab2962a14747b491",
+      "bytes": 11641,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_full_flow_secant_offline_diagnostic.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q098-q106-q122-full-flow-secant-offline.json",
+      "sha256": "0b0bf4fd3dcb16c274ce0a2484fc8ba4551a7e108278e9fd2253d31b32ca34ce",
+      "bytes": 20827,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/full-flow-secant-offline-r1/diagnostic.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q098-q106-q122-full-flow-secant-offline-resource.json",
+      "sha256": "41aea7bca73cd18cc7cadc3648e06bde3a26263bf3fc7c701b14cbfc7dfdeb72",
+      "bytes": 1626,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/full-flow-secant-offline-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q098-q106-q122-full-flow-secant-offline.md",
+      "sha256": "bbc374c76d8cbdccb7edadd472b53caf6db76bbb315410c48c94fd8e13a064b7",
+      "bytes": 4235,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/full-flow-secant-offline-r1/proof.md"
+    }
+  ],
+  "ODE_Node_Newton_residual_evaluations": 0,
+  "current_q122_job_changed": false,
+  "new_target_accepted": false,
+  "all_input_data_remain_at_original_pinned_paths": true
+}

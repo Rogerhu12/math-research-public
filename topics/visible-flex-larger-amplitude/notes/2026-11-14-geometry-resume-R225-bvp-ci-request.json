@@ -1,0 +1,100 @@
+{
+  "scope": "Actual two-end new-high-core BVP from full R225 seed, no local RSS gate.",
+  "python_packages": [
+    "numpy",
+    "scipy==1.17.0"
+  ],
+  "entry_sha256": "e12916dcf30dd2088ad59d2059647c8a03bed446aeee693b88f423730fa5a530",
+  "seed_sha256": "348de3c85b66803deef5fa0c25e882b4f242ca8378d19106edca358f2470b28f",
+  "dependencies": [
+    "topics/visible-flex-larger-amplitude/computations/geometry_20261114_r225_high_core_bvp.py",
+    "topics/visible-flex-larger-amplitude/computations/geometry_20261114_r225_outward_probe.py",
+    "topics/visible-flex-larger-amplitude/computations/alternative-outward-probe.py",
+    "topics/visible-flex-larger-amplitude/computations/alternative-controlled-profile.py",
+    "topics/visible-flex-larger-amplitude/computations/alternative-neck-flatturn.py",
+    "topics/visible-flex-larger-amplitude/computations/alternative-neck-excursion.py",
+    "topics/visible-flex-larger-amplitude/computations/alternative-angle-plateau-connector.py",
+    "topics/visible-flex-larger-amplitude/computations/alternative-direct-tail-connector.py",
+    "topics/visible-flex-larger-amplitude/computations/root_profile_scan.py"
+  ],
+  "jobs": [
+    {
+      "name": "r225-highcore-m48-end0955",
+      "timeout_minutes": 340,
+      "argv": [
+        "python",
+        "topics/visible-flex-larger-amplitude/computations/geometry_20261114_r225_high_core_bvp.py",
+        "--seed",
+        "topics/visible-flex-larger-amplitude/notes/2026-11-14-geometry-resume-R225-full-spectrum-seed.json.gz",
+        "--end",
+        ".955",
+        "--coast",
+        ".05",
+        "--target-speed",
+        "-.6",
+        "--curvature",
+        "4",
+        "--base-step",
+        ".0125",
+        "--turn-step",
+        ".001",
+        "--tol",
+        ".000002",
+        "--max-nodes",
+        "800",
+        "--M",
+        "48",
+        "--N",
+        "512",
+        "--prefix-refined-step",
+        ".003125",
+        "--out",
+        "ci-results/r225-highcore-M48-end0955.json.gz"
+      ],
+      "artifacts": [
+        "ci-results/r225-highcore-M48-end0955.json.gz",
+        "ci-results/r225-highcore-M48-end0955-newton-checkpoint.json.gz"
+      ],
+      "notes": "Solver success is finite BVP convergence only. Inspect redefined core rho, G fee, full metric defect and domain before extending. No complete surface exists yet."
+    },
+    {
+      "name": "r225-highcore-m64-end0955",
+      "timeout_minutes": 340,
+      "argv": [
+        "python",
+        "topics/visible-flex-larger-amplitude/computations/geometry_20261114_r225_high_core_bvp.py",
+        "--seed",
+        "topics/visible-flex-larger-amplitude/notes/2026-11-14-geometry-resume-R225-full-spectrum-seed.json.gz",
+        "--end",
+        ".955",
+        "--coast",
+        ".05",
+        "--target-speed",
+        "-.6",
+        "--curvature",
+        "4",
+        "--base-step",
+        ".0125",
+        "--turn-step",
+        ".001",
+        "--tol",
+        ".000002",
+        "--max-nodes",
+        "800",
+        "--M",
+        "64",
+        "--N",
+        "768",
+        "--prefix-refined-step",
+        ".0025",
+        "--out",
+        "ci-results/r225-highcore-M64-end0955.json.gz"
+      ],
+      "artifacts": [
+        "ci-results/r225-highcore-M64-end0955.json.gz",
+        "ci-results/r225-highcore-M64-end0955-newton-checkpoint.json.gz"
+      ],
+      "notes": "Solver success is finite BVP convergence only. Inspect redefined core rho, G fee, full metric defect and domain before extending. No complete surface exists yet."
+    }
+  ]
+}

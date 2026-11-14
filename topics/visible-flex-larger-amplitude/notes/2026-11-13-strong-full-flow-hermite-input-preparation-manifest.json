@@ -1,0 +1,143 @@
+{
+  "schema": "strong-full-flow-hermite-input-preparation-archive-v1",
+  "created_utc": "2026-11-13T11:39:26.265339+00:00",
+  "scope": "Fresh input-only Hermite warm generator preparation and replay, no new nonlinear solve. The unmodified production main accepts its explicitly unaccepted complete warm state through all original input checks. The live q122 job continues with its original linear guess.",
+  "current_generator": "computations/strong_full_flow_hermite_warm_v3.py",
+  "current_generator_sha256": "f60cba658e06d364b4dd5b894bd3ec97ab8877cf7b76fe4be771b2f8e62138da",
+  "complete_data_and_original_input_gates_passed": true,
+  "nonlinear_hermite_solve_performed": false,
+  "newton_iteration_improvement_claim": false,
+  "current_q122_job_changed": false,
+  "earlier_collinear_diagnostic_does_not_validate_new_frontload_directions": true,
+  "verification_file": "notes/2026-11-13-strong-hermite-input-preparation-verification.json",
+  "files": [
+    {
+      "path": "computations/strong_full_flow_hermite_warm.py",
+      "sha256": "eacdcbeb1e26091cd2a0f740d9c0c884f2581522dae6905fc20c2c560545c9f8",
+      "bytes": 15915,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_full_flow_hermite_warm.py"
+    },
+    {
+      "path": "computations/strong_full_flow_hermite_warm_v2.py",
+      "sha256": "5c48912ef5e98862081ea79d2a747049aa6c13f2edb733beafeedf5bc28c57f7",
+      "bytes": 16332,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_full_flow_hermite_warm_v2.py"
+    },
+    {
+      "path": "computations/strong_full_flow_hermite_warm_v3.py",
+      "sha256": "f60cba658e06d364b4dd5b894bd3ec97ab8877cf7b76fe4be771b2f8e62138da",
+      "bytes": 17168,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_full_flow_hermite_warm_v3.py"
+    },
+    {
+      "path": "computations/strong_full_flow_secant_offline_diagnostic.py",
+      "sha256": "db44242a7cd0098cd9779950c0d9f27551d7ce86b21bad05ab2962a14747b491",
+      "bytes": 11641,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_full_flow_secant_offline_diagnostic.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r1-resource.json",
+      "sha256": "e5409f38833bc26a3ddeab508516c408be10a07c0d1afab51715c9a8257b2074",
+      "bytes": 2226,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r1-stdout.log",
+      "sha256": "16ddc07d6c555a490c86f4785252164a1b6498d151928acdb146ed6547a10705",
+      "bytes": 3161,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r2-resource.json",
+      "sha256": "6938ab77c14158f15b373cb1e185314ca2b25365576000034c3fa16c7bbe11ca",
+      "bytes": 2228,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r2-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r2-stdout.log",
+      "sha256": "1bce33228ff392d9ccc7d0bd61c40b94ecfadcdf7a167461e956a5137d353d55",
+      "bytes": 3135,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r2-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3-report.json",
+      "sha256": "73c3c482ee0ea20cba16c2ab04f1f3e813db78c41963cb36ab682d121ce2e83b",
+      "bytes": 21957,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3-report.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3-resource.json",
+      "sha256": "7f43d6a1d1c7a67b1be660d56a1e5d871079435165667c13a5fbed9871845be5",
+      "bytes": 2239,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3-stdout.log",
+      "sha256": "681a6c9b1138de49ed4ca7b8e35e87e1668dc00c7c3606062aa64666a2a91168",
+      "bytes": 2393,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3.json.gz",
+      "sha256": "bb2c6169b915a4a0f1444c732f79e84771e012037c73268e233c664ab040fa9c",
+      "bytes": 335329,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-hermite-production-prepare-r1-actual-three-control-adapter.json",
+      "sha256": "828b5d5a29f26cf80e21fe78b49292d6157672b1615fc5a1dacfa8883965ada3",
+      "bytes": 67484,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-production-prepare-r1-actual-three-control-adapter.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-hermite-production-prepare-r1-base-profile.json",
+      "sha256": "8a4e594995de9046388bb93b29850271f2f3263d0f8039c8b02105e3cf2393ec",
+      "bytes": 536,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-production-prepare-r1-base-profile.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-hermite-production-prepare-r1-config.json",
+      "sha256": "97a90c9d289c8344ba2df677492341b0345665acf8504b6985af136f4f16aeb9",
+      "bytes": 2925,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-production-prepare-r1-config.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-hermite-production-prepare-r1-plan.json",
+      "sha256": "066d73205cff7d367ce1bb8b8efa87c196806aeb52cc2a38974dbef53f25102d",
+      "bytes": 6371,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-production-prepare-r1-plan.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-hermite-production-prepare-r1-resource.json",
+      "sha256": "2bae171062331add9998b829b08f3a8042360976199ab5253e35e6a81c190ad9",
+      "bytes": 2653,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-production-prepare-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-hermite-production-prepare-r1-secant-predictor.json",
+      "sha256": "261ee2205b51bf8a235775ee1213609c992a1052f436187f020688fc7c55b698",
+      "bytes": 6153,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-production-prepare-r1-secant-predictor.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-hermite-production-prepare-r1-stdout.log",
+      "sha256": "6ed6eee131bf8052baebe9adf891d8a3a87f45db5fd51db9a1363449901c6daf",
+      "bytes": 2663,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-production-prepare-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-hermite-input-comparison-r3.json",
+      "sha256": "f4061012c5280cdb409142d15451eece21a569ed636a8f90aa0a8390ae73c91d",
+      "bytes": 2879,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-hermite-input-comparison-r3.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-hermite-input-preparation-verification.json",
+      "sha256": "03f98a086b223272c4b1e1d42f47adaa8beeddaaf64be923d141584b7d5c4d79",
+      "bytes": 2795,
+      "runtime_source": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-hermite-input-preparation-verification.json"
+    }
+  ],
+  "file_count": 21,
+  "total_bytes": 528183
+}

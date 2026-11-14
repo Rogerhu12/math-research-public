@@ -1,0 +1,40 @@
+{
+  "schema": "exact-original-gzip-header-payload-recovery-v1",
+  "recipe_file": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-gzip-chunk-recovery-preflight-recipe.json",
+  "recipe_sha256": "0191c17ab9356fab8e9447a7ba6277d5b777ea8e3f8cc7d93fcab32977e6d6ed",
+  "helper_sha256": "c4b96e8c2d3c401eb7cfe24f6a90d091426a3618623fea045580f179e51daa4f",
+  "all_original_target_bytes_reconstructed_and_read_back": true,
+  "files": [
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/gzip-recovery-preflight/2026-11-13-strong-q106-m28-sixctrl-actual-r2-iterate-0009-x-000.npy.gz",
+      "sha256": "9c03f665fcca3b4be2c612540d7b2327cd2f86a001e0c74fbb6cd84d3fa766bd",
+      "bytes": 16754,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/gzip-recovery-preflight/2026-11-13-strong-q106-m28-sixctrl-actual-r2-iterate-0009-y-000.npy.gz",
+      "sha256": "3baac3aebaf90768488fab62dae8e279a90f87f9b8293343d21901dcd7ebd0d1",
+      "bytes": 1461546,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/gzip-recovery-preflight/2026-11-13-strong-q106-m28-sixctrl-actual-r2-iterate-0009-p-000.npy.gz",
+      "sha256": "6d83e8ae4895f623a48a790071b2069a5dd34a4107a0acf2043e7b5c42ee655e",
+      "bytes": 424,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/gzip-recovery-preflight/2026-11-13-strong-q106-m28-sixctrl-actual-r2-iterate-0009-cubic-000.npy.gz",
+      "sha256": "771b032e7ecc595d01b4a8cae79ed93628d29ac1167634b1c9d47297e3a27370",
+      "bytes": 3897958,
+      "already_existed": false
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/strong-work/gzip-recovery-preflight/2026-11-13-strong-q106-m28-sixctrl-actual-r2-iterate-0009-cubic-001.npy.gz",
+      "sha256": "df39af802a343c05ea5ddb7993effc6711bddcf8994bf61baafa998ad254218d",
+      "bytes": 2006209,
+      "already_existed": false
+    }
+  ],
+  "original_numerical_arrays_and_raw_metadata_unchanged": true
+}

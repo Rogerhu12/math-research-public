@@ -1,0 +1,23 @@
+{
+  "source_sha256": "9af5df6752ccf7865fc180c22d50e5ee1aaca40de1fd2e430041f61a4ac01c9e",
+  "source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_fine_core_tail_proxy_eight_sync_trust.py",
+  "previous_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_fine_core_tail_proxy_eight_fields.py",
+  "previous_source_sha256": "e383770d5e1828a837d323a45ba779f1afca3ce5997cf4c481f7d1fe84d0152d",
+  "original_tail_solver_AST_unchanged": true,
+  "only_physical_range_change": {
+    "vd": {
+      "old": [
+        -0.004,
+        0.004
+      ],
+      "new": [
+        -0.004,
+        0.001
+      ]
+    }
+  },
+  "reason": "Actual preceding candidate shortened physical sync segments6/7/8 to35.4313% and had warm kappa233; this is a new local design trust range, not a new problem standard.",
+  "all17_actual_fields_retained": true,
+  "original_fixed_mean_and_geometric_rows_unchanged": true,
+  "fine_core_32_original_baseline_preserved": true
+}

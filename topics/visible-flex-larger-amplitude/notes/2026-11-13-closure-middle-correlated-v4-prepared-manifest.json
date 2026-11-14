@@ -1,0 +1,28 @@
+{
+  "schema": "visible-flex-R106-middle-correlated-v4-prepared-v1",
+  "status": "Prepared only; no AST/Python/numerical execution",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_outer_middle_correlated_outputs_v4.py",
+      "blob": "dc6a95bbe88fb17f8d3a790bd7c6234d873751af",
+      "sha256": "fc7f83b7cf69b19c41e7fa40db72afd948d15ff99539063a408722f1d443bff8",
+      "bytes": 40451
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-middle-correlated-v4-prepared.md",
+      "blob": "199f95b4277e1b70b3196edefeef613b5fa9aad4",
+      "sha256": "277675847cdbf6d62bb0526c0a850e0f224f0bfa23350303233352ca8e94b00c",
+      "bytes": 3191
+    }
+  ],
+  "original_source_sha256": "3bbbecae0b3df6927b157d56d0d11add096a6fe979e0d222339383a90d31f2b2",
+  "actual_original_primary_sha256": "62156ade93e31729c7500e79dbc01c3f4267d1a89a2b7730af7fe1c6440df45a",
+  "output_scope": "New weak C/U output rows only; original tensor must reproduce bitwise",
+  "other_original_inputs_argv_and_actual_execution": "See original R104 outage observation and actual session54526",
+  "new_Taylor_execution_required": true,
+  "new_ODE_definition": false,
+  "new_source_or_radius_quadrature": false,
+  "old_original_files_overwritten": false,
+  "declared_rss_kib": 98304,
+  "schedule": "After existing root small-Arb job; scalar two-frame consumer is the cheaper first probe"
+}

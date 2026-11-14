@@ -1,0 +1,119 @@
+{
+  "schema": "R178-explicit-Y-candidate-compact-actual-coefficient-archive-v1",
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "created_utc": "2026-11-13T20:27:59.105775+00:00",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-definition.json.gz",
+      "sha256": "fbb5ff13f972437ef83087289c036b6bcfb414ef3012c3dcc1bc9ff4f9556409",
+      "bytes": 202305
+    },
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-actual-second-jets.json.gz",
+      "sha256": "da3ab52e1f594e6e8f4d47773e5fd3dd452a292fe1a828c2eb42699cd33c92c7",
+      "bytes": 74503
+    },
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-compact-certificate.json",
+      "sha256": "18344afdee3efd75b60a6a041a4289fe007a957ae6cc168b67120acec2da0eea",
+      "bytes": 2015
+    },
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-first-prefix-failure-resource.json",
+      "sha256": "98ca927e7eda3f96de6a758941cafed172a7dd5133a2a6b0b0c0e41fc9c48879",
+      "bytes": 947
+    },
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-first-prefix-failure.log",
+      "sha256": "c434f39ec800998921b8331acda11fe860d6e0a904c221d161f1738e5f37131a",
+      "bytes": 681
+    },
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-definition-resource.json",
+      "sha256": "9518bf915adffbefde467c46c26447081e136eda007764b85d986e7cb63d4d13",
+      "bytes": 955
+    },
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-definition-run.log",
+      "sha256": "cfcb5d58ef626421720ae62e9a530d097c7cc240a96522b845acb43e2e02e688",
+      "bytes": 580
+    },
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-compact-resource.json",
+      "sha256": "389adaf41bb1c2d0c880539b381c78a174cd110295761e7c44749a6166f709b8",
+      "bytes": 1157
+    },
+    {
+      "path": "notes/2026-11-13-root-R178-canonical-Y-candidate-compact-run.log",
+      "sha256": "202fd6d3db8f1fea4e5256174c10506e6a39f14c1b030ef928fbf6c8bb105c4b",
+      "bytes": 494
+    },
+    {
+      "path": "computations/root_R178_canonical_Y_quintic_candidate.py",
+      "sha256": "f60a6ef07a6917d460edf3b648b4a855c5d84c87e6329c239d461d28fc5be054",
+      "bytes": 8277
+    },
+    {
+      "path": "computations/root_R178_Y_compact_recipe.py",
+      "sha256": "cd427dc5009f711f2752d074e6ac40b79bfef4cbe74aff3f7ac58eefd89098ab",
+      "bytes": 6697
+    },
+    {
+      "path": "results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md",
+      "sha256": "2d5380edd289e5766de74ec274ddfbe219e27ca1785a1e653bac62f4512ae7c3",
+      "bytes": 4590
+    }
+  ],
+  "original_byte_relocations": [
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-canonical-Y-quintic-r2-output-definition.json.gz",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-definition.json.gz",
+      "sha256": "fbb5ff13f972437ef83087289c036b6bcfb414ef3012c3dcc1bc9ff4f9556409"
+    },
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-Y-compact-r1-output-compact.json.gz",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-actual-second-jets.json.gz",
+      "sha256": "da3ab52e1f594e6e8f4d47773e5fd3dd452a292fe1a828c2eb42699cd33c92c7"
+    },
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-Y-compact-r1-output-certificate.json",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-compact-certificate.json",
+      "sha256": "18344afdee3efd75b60a6a041a4289fe007a957ae6cc168b67120acec2da0eea"
+    },
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-canonical-Y-quintic-r1-resource.json",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-first-prefix-failure-resource.json",
+      "sha256": "98ca927e7eda3f96de6a758941cafed172a7dd5133a2a6b0b0c0e41fc9c48879"
+    },
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-canonical-Y-quintic-r1.log",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-first-prefix-failure.log",
+      "sha256": "c434f39ec800998921b8331acda11fe860d6e0a904c221d161f1738e5f37131a"
+    },
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-canonical-Y-quintic-r2-resource.json",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-definition-resource.json",
+      "sha256": "9518bf915adffbefde467c46c26447081e136eda007764b85d986e7cb63d4d13"
+    },
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-canonical-Y-quintic-r2.log",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-definition-run.log",
+      "sha256": "cfcb5d58ef626421720ae62e9a530d097c7cc240a96522b845acb43e2e02e688"
+    },
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-Y-compact-r1-resource.json",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-compact-resource.json",
+      "sha256": "389adaf41bb1c2d0c880539b381c78a174cd110295761e7c44749a6166f709b8"
+    },
+    {
+      "original": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-Y-compact-r1.log",
+      "archive": "notes/2026-11-13-root-R178-canonical-Y-candidate-compact-run.log",
+      "sha256": "202fd6d3db8f1fea4e5256174c10506e6a39f14c1b030ef928fbf6c8bb105c4b"
+    }
+  ],
+  "actual_candidate_definition_owned_exit": 0,
+  "actual_lossless_compaction_owned_exit": 0,
+  "first_prefix_failure_owned_exit": 1,
+  "large_cheap_polynomials_retained_in_scratch_with_exact_restoration": true,
+  "complete_mean_and_original_residual_not_claimed": true
+}

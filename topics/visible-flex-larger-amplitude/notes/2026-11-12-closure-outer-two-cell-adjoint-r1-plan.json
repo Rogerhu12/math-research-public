@@ -1,0 +1,54 @@
+{
+  "status": "Prepared and statically checked; numerical execution not started",
+  "source": {
+    "path": "computations/closure_outer_two_cell_adjoint.py",
+    "bytes": 22256,
+    "sha256": "184667ec3f78b9d99d2a5fe28465c243ecee0e6ba4d4685199e72bd9bef0899a"
+  },
+  "input_hashes": {
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1.json": "d4a1eb3cb91ade453dc72e655a95ae7582a4b65366bf924567c7df52132b3509",
+    "notes/2026-11-12-closure-outer-linear-cancellation-r1.json": "80e3d069ee7484702db7a06601db66db25f446c4efae9d53a24a3fc5864e0a95",
+    "notes/2026-11-12-closure-outer-source-cell10-r1-summary.json": "388f0ea07840bc31851f025aecda7e8e73d9d893596bd088c95f7ea9002fd885",
+    "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json": "f3d06071519f674de420a7fd66de45d14a8274bfb2089bd045bf0bfb2763cf83"
+  },
+  "argv": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_two_cell_adjoint.py",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--flow",
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1.json",
+    "--linear-cancellation",
+    "notes/2026-11-12-closure-outer-linear-cancellation-r1.json",
+    "--source-summary",
+    "notes/2026-11-12-closure-outer-source-cell10-r1-summary.json",
+    "--source-summary",
+    "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+    "--out-prefix",
+    "notes/2026-11-12-closure-outer-two-cell-adjoint-r1",
+    "--rss-kib",
+    "40960"
+  ],
+  "resource_output": "notes/2026-11-12-closure-outer-two-cell-adjoint-r1-resource.json",
+  "expected_scope": {
+    "cells": [
+      11,
+      10
+    ],
+    "modes": [
+      2,
+      4
+    ],
+    "terminal_physical_node": 10,
+    "original_material_panels": 10793,
+    "terminal_readouts": [
+      "global_q",
+      "global_v"
+    ],
+    "global_mu": "mu11",
+    "background_integrals_recomputed": 0
+  },
+  "observed_RSS_guard_KiB": 40960,
+  "actual_execution_paid": false
+}

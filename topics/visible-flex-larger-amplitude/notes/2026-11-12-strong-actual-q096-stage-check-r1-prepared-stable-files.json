@@ -1,0 +1,113 @@
+{
+  "scope": "Frozen historical r1 adapter and plan, initialization failure; original engine path replaced by exact source snapshot before link-only fix.",
+  "files": [
+    {
+      "path": "computations/strong_cached_target_tail_audit.py",
+      "bytes": 6742,
+      "sha256": "061809242a2eb12aec99ca71272f86c0096da77cbb4d7d6006d7119ee1081702"
+    },
+    {
+      "path": "computations/strong_exact_stage_tail_client.py",
+      "bytes": 3629,
+      "sha256": "e40bc403408d433129980aa590d63b8c52e081d61135024832a3a38362d02052"
+    },
+    {
+      "path": "computations/strong_exact_stage_tail_worker.mjs",
+      "bytes": 6353,
+      "sha256": "b7bb40dc25a8a4add993fdb99e8cc48aa0b636d6200e31818f9f1e8844cc9e35"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-engine-before-link-fix-488266f1bfd1.mjs.gz",
+      "bytes": 2774,
+      "sha256": "45dcc821e7665fe6095c335b70b7ad194f0c4703fd3599c8c24ee7602df353b8",
+      "original_path": "computations/strong_exact_stage_engine.mjs",
+      "uncompressed_sha256": "488266f1bfd18b9bde26f0202e284b153dfb4c77211d8cad268840f05386db65",
+      "scope": "Exact historical source before explicit top-level relative import redirection; used by r1 initialization failure"
+    },
+    {
+      "path": "computations/strong_exact_stage_flow_store.mjs",
+      "bytes": 5899,
+      "sha256": "cf418e0d82210a226376db19f610520c3eb4be1b7ea3559f8a0e85092d75aafe"
+    },
+    {
+      "path": "computations/strong_exact_stage_seed.mjs",
+      "bytes": 14269,
+      "sha256": "57b87555bac5040eb08dfd02cd72f42611b9aa7e88f2a9483eaccce6f74aaaf0"
+    },
+    {
+      "path": "computations/strong_exact_stage_evaluation_check.mjs",
+      "bytes": 5866,
+      "sha256": "53d0be4f003f35c3d4d713c03bf692bd1e680b924e5fe909124fdc2be169b8b0"
+    },
+    {
+      "path": "computations/strong_exact_stage_transform_check.mjs",
+      "bytes": 3649,
+      "sha256": "52ac2822751643dd917d14d553674ebd63a224949e604fdc1bc26b440eed94cb"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-stage-check-r1-command-plan.json",
+      "bytes": 4992,
+      "sha256": "4a9607542db440909209885ae28157a591825ea93da8342b9b180a170f7c9f2b"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-stage-check-r1-plan.json",
+      "bytes": 17053,
+      "sha256": "7c0357cc4593935049ff86eea38972e75b09dd49e2defc76f9595a94630fc466"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-stage-check-r1-config.json",
+      "bytes": 2924,
+      "sha256": "5d4fd223b4629e3bebdc3e7ac68ab657371356313ad4f93244eb497c68a23941"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r1-static.stderr.txt",
+      "bytes": 878,
+      "sha256": "9c7003871b307743a6809d16dbdd34274f6b16cfe42759434e13a72399380f57"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r1-static.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r2-static.stderr.txt",
+      "bytes": 499,
+      "sha256": "ed024ef33e52b49607470e3645a4c337eed6b36f90794a8581e59b415459cc97"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r2-static.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r3-static.stderr.txt",
+      "bytes": 169,
+      "sha256": "4f5c218d8502024ff934abb329df9abea189074321ec8d109cd5aeafc22bf85e"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r3-static.stdout.txt",
+      "bytes": 1417,
+      "sha256": "4b4e3cf6a3614ab1a672c544f26ad63d77fdbc87356c46d489f5ac03b8712883"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r3-frozen-host.txt.gz",
+      "bytes": 3910,
+      "sha256": "4fd811416ec5317d5635dbce5985bbfcdb12c26bd9ef20d4d4ba8279ecdb00a7"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r3-host.txt.gz",
+      "bytes": 3002,
+      "sha256": "21ada6d3aabcee8dda77d858f408716deda7fd3a28c93cdb1f352901366bdc53"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r3-physical-worker.txt.gz",
+      "bytes": 8841,
+      "sha256": "8550b363838979e753f24d079e51d7f1dd493d2a0fb38d5ba2531f6ff5ead66e"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-transforms-r3.json",
+      "bytes": 1654,
+      "sha256": "2139e2cda72ec7aa7549613b358c599d7b84f0d112d2e63abee304492c00428e"
+    }
+  ]
+}

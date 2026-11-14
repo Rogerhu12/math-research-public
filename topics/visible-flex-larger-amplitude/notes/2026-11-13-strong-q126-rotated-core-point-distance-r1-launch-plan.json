@@ -1,0 +1,68 @@
+{
+  "schema": "saved-point-distance-owned-launch-v1",
+  "scope": "Only streaming existing complete warm point chunks; not a new solution, continuous Hausdorff bound, or deltaE witness.",
+  "created_utc": "2026-11-13T16:12:16.238495+00:00",
+  "cwd": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_saved_rotated_core_point_distance.py",
+    "--screen",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-screen.json",
+    "--geometry-resource",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-geometry-resource.json",
+    "--prepared-core",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-prepared-core.json",
+    "--point-root",
+    "/workspace/scratch/d1aa462cfc02/geometry-work",
+    "--out",
+    "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1.json"
+  ],
+  "owned_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_foreground_resource_run.py",
+    "--out",
+    "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-resource.json",
+    "--heartbeat",
+    "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-heartbeat.json",
+    "--ownership",
+    "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-ownership.json",
+    "--task-prefix",
+    "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1",
+    "--",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_saved_rotated_core_point_distance.py",
+    "--screen",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-screen.json",
+    "--geometry-resource",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-geometry-resource.json",
+    "--prepared-core",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-prepared-core.json",
+    "--point-root",
+    "/workspace/scratch/d1aa462cfc02/geometry-work",
+    "--out",
+    "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1.json"
+  ],
+  "source_sha256": {
+    "computations/strong_saved_rotated_core_point_distance.py": "a7f8722c8dd3bd127f90a0df3c85d4213251d61479dc3e70b49e76d1bae04365",
+    "computations/strong_foreground_resource_run.py": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6"
+  },
+  "input_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-screen.json": "5cc3ce0c5175339e799a011b8504e0496ff2003c86ae14db604d503da5f4dbdf",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-geometry-resource.json": "f18c26d5c43c5d76605b634ec1910e9f6b1ec6d3713fbebbe1fa90af9d367301",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1/q126-tail2-size102-r1-prepared-core.json": "4caafe07078dd2bce737f68ea878ad0c8dce5f23809aba81bb5af7f8dd8f525a"
+  },
+  "process_start_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "complete_point_shape": [
+    3764,
+    768,
+    3
+  ],
+  "new_ODE_Node_Newton_or_geometry_field_calls": 0
+}

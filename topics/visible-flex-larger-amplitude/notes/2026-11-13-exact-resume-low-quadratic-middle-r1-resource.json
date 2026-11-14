@@ -1,0 +1,33 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "2026-11-13-exact-resume-low-quadratic-middle-v1.py",
+    "--manifest",
+    "2026-11-13-exact-resume-full-middle-stable-manifest.json",
+    "--common",
+    "2026-11-13-exact-resume-common-strip34816-r1.json",
+    "--leaves",
+    "2026-11-13-exact-resume-common-strip34816-r1-leaves.jsonl.gz",
+    "--spectral",
+    "2026-11-13-closure-r101-exact-summary-r1.json",
+    "--joint",
+    "2026-11-13-exact-resume-middle-high-r100-profile-t32-r1.json.gz",
+    "--joint-certificate",
+    "2026-11-13-exact-resume-r126-certificate-r1.json",
+    "--window-prefix",
+    "2026-11-13-exact-resume-hybrid-refined-probe-r1",
+    "--window-prefix",
+    "2026-11-13-exact-resume-hybrid-full-r1-part1",
+    "--out-prefix",
+    "2026-11-13-exact-resume-low-quadratic-middle-r1"
+  ],
+  "wall_seconds": 9.590008974075317,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 43148,
+  "user_seconds": 9.020846,
+  "system_seconds": 0.16772499999999999,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

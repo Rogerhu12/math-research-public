@@ -1,0 +1,219 @@
+{
+  "status": "Complete combined actual-J warm geometry evaluated; no nonlinear BVP or new-H tail.",
+  "actual": {
+    "kappa_sample": 8.396613333618197,
+    "size_sample": 3.9087553775613295,
+    "kappa_times_size": 32.820307521083286,
+    "full_core_axis_gap": 0.19213579022970215,
+    "full_core_axis_gap_over_size": 0.04915523527839073,
+    "height_abs_max_sample": 1.9261524835063086,
+    "horizontal_radius_max_sample": 1.3452987629261222,
+    "size_change_from_baseline": -1.454805485412436e-06,
+    "relative_size_change": -3.7219135085031496e-07,
+    "curvature_minus_finite_prediction": 0.00047164920759001916,
+    "size_minus_finite_prediction": -1.454805485412436e-06,
+    "minimum_tangent_area_sample": 0.22011632878447154,
+    "minimum_frenet_margin_sample": 0.005135148747629215
+  },
+  "selected_minimax": {
+    "success": true,
+    "normalized_steps": [
+      0.5,
+      -0.5309626258837494,
+      -2.0,
+      2.0,
+      0.43447881087935203
+    ],
+    "optimized_curvature_cap": 8.396141684410605,
+    "all_finite_rows_checked": true,
+    "finite_rows": 6495360,
+    "max_float_inequality_violation": 1.7763568394002505e-15,
+    "history": [
+      {
+        "round": 0,
+        "active_rows": 640,
+        "worst_violation": 0.028397371061357646,
+        "added": 64
+      },
+      {
+        "round": 1,
+        "active_rows": 704,
+        "worst_violation": 1.7763568394002505e-15,
+        "added": 0
+      }
+    ],
+    "predicted_max_abs_curvature": 8.396141684410606,
+    "predicted_max_twice_norm": 3.908756832366815,
+    "predicted_kappa_times_twice_norm": 32.818476174459775,
+    "extrema_witnesses": [
+      {
+        "flat_index": 204933,
+        "predicted_signed_value": -8.396141684410606
+      },
+      {
+        "flat_index": 281545,
+        "predicted_signed_value": 8.159956336327634
+      },
+      {
+        "flat_index": 1195776,
+        "predicted_signed_value": 3.908756832366815
+      }
+    ],
+    "linear_program_optimum_is_floating_point": true,
+    "fixed_q1_factor": 0.5,
+    "size_factor": 1.0,
+    "size_cap": 3.908756832366815,
+    "other_control_trust_factor": 2.0,
+    "all_geometry_slopes_from_this_new_baseline": true,
+    "stale_q095_or_other_baseline_slopes_used": false,
+    "physical_steps": {
+      "actual_q1": 0.0005,
+      "actual_q4": -1.5928878776512483e-05,
+      "actual_c6": -4e-06,
+      "vu": 0.0004,
+      "descending_turn_curvature": 0.0010861970271983802
+    },
+    "predicted_profile_increment": {
+      "delta": 0.00032489476416545395,
+      "boost_length": -0.0007430542196817695,
+      "boost_speed": 0.00037464888995499164,
+      "vu": 0.0004,
+      "descending_turn_curvature": 0.0010861970271983802
+    },
+    "predicted_complete_core_increment": [
+      0.0004999999999999931,
+      -1.5928878776512276e-05,
+      -3.999999999999959e-06,
+      -1.7279824913775486e-06,
+      3.472610760104487e-06,
+      -5.0471177924148e-06,
+      -3.4791060903302134e-06,
+      1.010196812089115e-06,
+      -1.1573008969833538e-06,
+      5.567881867280761e-06,
+      7.440110400095263e-06,
+      1.8996985647913127e-06,
+      1.5892858876085567e-06,
+      -6.60633492126221e-07,
+      -3.4034887397043245e-07,
+      2.4750440419494504e-08,
+      -1.552790485179256e-07,
+      -5.046439902441732e-08,
+      3.4014011566917456e-10,
+      -1.4490948616726342e-07,
+      -9.133669156132253e-09,
+      -6.322932775698592e-09,
+      8.349190249951457e-08,
+      1.174687499478534e-08,
+      1.1688069517992132e-08,
+      -3.635996574176145e-08,
+      -2.992245716467756e-09,
+      -3.9594020631709e-09
+    ],
+    "predicted_complete_axis_gap": 0.19213579022970215,
+    "predicted_axis_gap_over_twice_norm": 0.04915521698323731,
+    "predicted_relative_kappa_size_change": 0.001486460053154337,
+    "candidate_is_new_nonlinear_solution": false
+  },
+  "all_raw_nodes_and_modes_retained": true,
+  "mean_quadrature": {
+    "angular": 1360,
+    "order": 6,
+    "batch": 8,
+    "original_postprocessor_angular": 1360,
+    "mean_height_first_second_same_angular_rule": true,
+    "geometry_angular": 384,
+    "geometry_batch": 8,
+    "original_source_sha256": "ad9ba92e667ebbf572c6d31622959b804aba482d506e6523a7538e33569cd282",
+    "bounded_source_sha256": "dd5bf81f909edaa3e52d1579f132dde81b69ea3ff01e24aeb4663a61c2580688"
+  },
+  "finite_domain_passed": true,
+  "worker_start_attempts": 0,
+  "full_collocation_performed": false,
+  "formal_exitcode": 0,
+  "wall_seconds": 98.836918592453,
+  "peak_rss_kib": 170848,
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_augmented_core.py": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_newton_checkpoints.py": "7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_warm_screen.py": "0e5a07052bbbec195d59cf95a312e6375855c86db18b4adc6614a74f45c08618",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_iterate_restore.py": "8277739ed3f3efd0e07e31d580c1e5c351c36ff0aa90b8c73605b1855bde5ee7",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_neck_bvp.py": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_flow_lru.py": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/tail_frozen_client.py": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_actual_recorded_tail_port.py": "7fc687bd4608f5656140dc19abebccfb66074684c46651513efe68818ec311f0",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-13-strong-m28-actual-control-response-r1.json": "800302c9cbf99631a0b63e895033444ee7bc18db6606e08285dc7ca7ffa51508",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-x-000.npy.gz": "ce8e64194faa790aec0437a4e8e555ca43717306b5387576e91123f75bcd840d",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-y-000.npy.gz": "c232874ff88a2cd5920a197ceac93e6bbe7df1c271bde2e2f4ca4047eb667769",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-p-000.npy.gz": "d7698c6645c7817c890d3f23279052cca631e67f9cb42345b189865d4d75cc85",
+    "notes/2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_q1.npy.gz": "f210731e59b36eb0e4d2c342a418333b35fef41aaed73ea9c534d60d3b9cb94a",
+    "notes/2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_q4.npy.gz": "2e9d0ce6140860f681f4c56e0d3a2a0ffc4aca87a0375fe73f39594183298a32",
+    "notes/2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_c6.npy.gz": "b9e27d7c4f13337407ec8c2f95f4ce3288c6962202349e0f9bfe02dc9a6c5c02",
+    "notes/2026-11-13-strong-m28-actual-control-response-r1-core-held-vu.npy.gz": "4579d0499ee9ee31cb5339760cb5db31ac24ae532ffc760bf17ad1ff0f925094",
+    "notes/2026-11-13-strong-m28-actual-control-response-r1-core-held-descending_turn_curvature.npy.gz": "baf786ae02d330614192f1c88df96a08350419d40aca202acb116e7ccfe44533"
+  },
+  "archive": [
+    {
+      "kind": "plan",
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-plan.json",
+      "path": "notes/2026-11-13-geometry-m28-constant-size-q0965-r1-plan.json",
+      "sha256": "aaa3d879b638ecd30fc2d06ef18b9a712ccf136f50f4bace6be27f5ade1b49f5",
+      "bytes": 11728
+    },
+    {
+      "kind": "ledger",
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-ledger.json",
+      "path": "notes/2026-11-13-geometry-m28-constant-size-q0965-r1-ledger.json",
+      "sha256": "3a3256cbf17e309aa6bbc069cbc5d9b5fe794e2fad7ac970756af4ba122720bb",
+      "bytes": 4192
+    },
+    {
+      "kind": "screen",
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-screen.json",
+      "path": "notes/2026-11-13-geometry-m28-constant-size-q0965-r1-screen.json",
+      "sha256": "e3f6354c151736759ca8558ef182c6160ea2d7235ea04b8c7fd8fe43ff5959f5",
+      "bytes": 18090
+    },
+    {
+      "kind": "resource",
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-resource.json",
+      "path": "notes/2026-11-13-geometry-m28-constant-size-q0965-r1-resource.json",
+      "sha256": "cf6b566cabd3dad5438473fe49c7ac822d01615e34769f4c1d52ad3c96c5a800",
+      "bytes": 2709
+    },
+    {
+      "kind": "field-manifest",
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field.json",
+      "path": "notes/2026-11-13-geometry-m28-constant-size-q0965-r1-field-manifest.json",
+      "sha256": "09648dbd49a8bde3bd1a23ee5bd7a3e872c67e4adc16472cb2b1e64262baa1e8",
+      "bytes": 2045
+    },
+    {
+      "kind": "execution",
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-execution.json",
+      "path": "notes/2026-11-13-geometry-m28-constant-size-q0965-r1-execution.json",
+      "sha256": "e3abd909633950ada2f2cba5f6d093dbe5291eee63fd5b66c07f8dea1876d0be",
+      "bytes": 2858
+    }
+  ],
+  "field_chunks_archived": false,
+  "accepted_new_nonlinear_solution": false,
+  "continuous_geometry_certificate": false
+}

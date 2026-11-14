@@ -1,0 +1,79 @@
+{
+  "schema": "immutable-completed-scientific-conclusion-manifest-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "date": "2026-11-13",
+  "topic": "visible-flex-larger-amplitude",
+  "same_original_inner_R33_R42_field": true,
+  "new_strong_candidate_certificate": false,
+  "all_gates": true,
+  "gate_count": 13135,
+  "owned_formal_exitcode": 0,
+  "resource": {
+    "wall_seconds": 10.073863580000761,
+    "peak_rss_kib": 27776,
+    "wait4_observed": true
+  },
+  "members": [
+    {
+      "path": "computations/inner_cell12_panel_canonical_forced_98to104.py",
+      "sha256": "a3bdb0d238c89ca4e42099174b60a44bb3774ba1350e4f4b9f7cd898b0345169",
+      "bytes": 10500
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-panel-canonical-98to104-r1.json",
+      "sha256": "24efddbcaee51e0636771b9265c0f548bb83d45db38f53e2912793985d35cfbc",
+      "bytes": 9400
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-panel-canonical-98to104-r1-resource.json",
+      "sha256": "260e21de456ae8baa45c34607944907d250c7eca49840d27b15172de86d35826",
+      "bytes": 1454
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-panel-canonical-98to104-r1-proof.md",
+      "sha256": "ccb7609be24b22bfc5895929248e91ba3644207b5a5ab0f0f5c751fe675e1c6d",
+      "bytes": 4848
+    }
+  ],
+  "source_and_input_identities": {
+    "panels": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz",
+      "sha256": "d0dc6791001a1668afa2f9442bbefbe7e6644e73b0b753943df5a9bc12258181"
+    },
+    "qdensity": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+      "sha256": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9"
+    },
+    "density": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+    },
+    "positive": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-positive-highband-38.json.gz",
+      "sha256": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600"
+    },
+    "ready": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    }
+  },
+  "actual_reproduction_command": [
+    "python",
+    "computations/inner_cell12_panel_canonical_forced_98to104.py",
+    "--inputs",
+    "inner-cell12-canonical-forced-r1/inputs",
+    "--base",
+    "inner-cell12-canonical-forced-r1/r2-kernels.json",
+    "--base-resource",
+    "inner-cell12-canonical-forced-r1/r2-resource.json",
+    "--out-prefix",
+    "inner-cell12-panel-canonical-98to104-r1/kernels",
+    "--rss-kib",
+    "98304"
+  ],
+  "scratch_working_directory": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "original_inputs_reusable_from_topic_notes_by_same_basename_and_sha256": true,
+  "new_ODE_calls": 0,
+  "continuous_or_cut_solution_claimed": false,
+  "storage": "The complete source, scientific kernel, observed resource record and proof are small and archived. Existing pinned geometry inputs are reused without duplication."
+}

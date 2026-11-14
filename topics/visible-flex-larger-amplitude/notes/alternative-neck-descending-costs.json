@@ -1,0 +1,110 @@
+{
+  "scope": "Exact metric-profile design comparison using its defining quadrature; actual nonlinear map and phase matching must be re-solved at changed controls. Not a reach estimate.",
+  "source_sha256": "77c2994538717bfd26bd96ed475553bece7d9a315afd9c054153698926cab41a",
+  "reference_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.09984719083351601,
+    "vu": 0.25,
+    "vd": 0.9611713558413112,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.23484080028265214,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 8.0,
+    "descending_turn_curvature": 8.0,
+    "descending_sync_curvature": 8.0,
+    "terminal_peak_fraction": 0.1
+  },
+  "rows": [
+    {
+      "descending_curvature": 8,
+      "prefix_height": 1.8389315358518716,
+      "total_background_height": 1.8432551998177116,
+      "height_increase": 0.0,
+      "prefix_length": 2.9365968293514424,
+      "length_increase": 0.0,
+      "loop_curvature": 8.0,
+      "terminal_jets": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ]
+    },
+    {
+      "descending_curvature": 7.9,
+      "prefix_height": 1.8418407657409057,
+      "total_background_height": 1.8461644297067457,
+      "height_increase": 0.0029092298890340818,
+      "prefix_length": 2.9402502019560712,
+      "length_increase": 0.003653372604628835,
+      "loop_curvature": 8.0,
+      "terminal_jets": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ]
+    },
+    {
+      "descending_curvature": 7.8,
+      "prefix_height": 1.84482459126812,
+      "total_background_height": 1.84914825523396,
+      "height_increase": 0.005893055416248405,
+      "prefix_length": 2.9439972507813317,
+      "length_increase": 0.007400421429889281,
+      "loop_curvature": 8.0,
+      "terminal_jets": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ]
+    },
+    {
+      "descending_curvature": 7.5,
+      "prefix_height": 1.8542534799341177,
+      "total_background_height": 1.8585771438999577,
+      "height_increase": 0.015321944082246075,
+      "prefix_length": 2.955837925069155,
+      "length_increase": 0.019241095717712486,
+      "loop_curvature": 8.0,
+      "terminal_jets": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ]
+    },
+    {
+      "descending_curvature": 7.0,
+      "prefix_height": 1.8717642731709705,
+      "total_background_height": 1.8760879371368104,
+      "height_increase": 0.03283273731909886,
+      "prefix_length": 2.9778277487465408,
+      "length_increase": 0.041230919395098375,
+      "loop_curvature": 8.0,
+      "terminal_jets": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ]
+    },
+    {
+      "descending_curvature": 6.5,
+      "prefix_height": 1.8919690345981086,
+      "total_background_height": 1.8962926985639486,
+      "height_increase": 0.05303749874623698,
+      "prefix_length": 3.0032006222204477,
+      "length_increase": 0.06660379286900531,
+      "loop_curvature": 8.0,
+      "terminal_jets": [
+        0.35000000000000003,
+        -0.985,
+        0.0
+      ]
+    }
+  ]
+}

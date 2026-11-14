@@ -1,0 +1,106 @@
+{
+  "scope": "Original exact-raw protocol with explicit complete-input stage persistence.\n\nThe worker records the actual Fourier-root engine choice in the complete cache\nidentity. The old full-H, final Jacobian and audit protocol is unchanged. Source\nfingerprints explicitly include this adapter; a different client cannot silently\nreuse its packets. The diagnostic request is separate from solve().\n",
+  "original_client_sha256": "ff5f521f4a40522b134710ff0db7eff9a6342637b58b5aaf1080ca370d0bafef",
+  "transformed_client_sha256": "f4bcbc41f0c7c46f235832673868452f2fc2f68732873963919f5a165ab1fbea",
+  "source_transform": [
+    {
+      "before": "AFTER=\"worker = HERE / 'strong_exact_raw_tail_worker.mjs'\"",
+      "after": "AFTER=\"worker = HERE / 'strong_exact_stage_tail_worker.mjs'\"",
+      "count": 1
+    },
+    {
+      "before": "expected_worker=hashlib.sha256((HERE/'strong_exact_raw_tail_worker.mjs').read_bytes()).hexdigest()",
+      "after": "expected_worker=hashlib.sha256((HERE/'strong_exact_stage_tail_worker.mjs').read_bytes()).hexdigest()",
+      "count": 1
+    }
+  ],
+  "source_sha256_at_start": {
+    "strong_exact_stage_tail_client.py": "e40bc403408d433129980aa590d63b8c52e081d61135024832a3a38362d02052",
+    "strong_exact_stage_tail_worker.mjs": "b7bb40dc25a8a4add993fdb99e8cc48aa0b636d6200e31818f9f1e8844cc9e35",
+    "strong_exact_stage_engine.mjs": "968cab71ddfc8d091ad511bc7d381ea448f5987d1f1dd1107c848cde08fefa57",
+    "strong_exact_stage_flow_store.mjs": "cf418e0d82210a226376db19f610520c3eb4be1b7ea3559f8a0e85092d75aafe",
+    "strong_exact_stage_seed.mjs": "57b87555bac5040eb08dfd02cd72f42611b9aa7e88f2a9483eaccce6f74aaaf0",
+    "strong_exact_stage_evaluation_check.mjs": "53d0be4f003f35c3d4d713c03bf692bd1e680b924e5fe909124fdc2be169b8b0"
+  },
+  "ready_stage_manifest": {
+    "name": "exact-input-persistent-actual-stage-worker-v1",
+    "workerSHA256": "b7bb40dc25a8a4add993fdb99e8cc48aa0b636d6200e31818f9f1e8844cc9e35",
+    "exactRawWorkerSHA256": "ec69703a4b0786313c2506aae5f82ec8da39330876d15519225e2d4b7f7d2cc8",
+    "stageEngineSHA256": "968cab71ddfc8d091ad511bc7d381ea448f5987d1f1dd1107c848cde08fefa57",
+    "seedHelperSHA256": "57b87555bac5040eb08dfd02cd72f42611b9aa7e88f2a9483eaccce6f74aaaf0",
+    "evaluationCheckSHA256": "53d0be4f003f35c3d4d713c03bf692bd1e680b924e5fe909124fdc2be169b8b0",
+    "transformedExactRawHostSHA256": "47d4c93aea90fd98fb64ef5e6589d51a1675d56ec4ec322652146a859d625c14",
+    "sourceTransforms": {
+      "originalExactRawWorkerSHA256": "ec69703a4b0786313c2506aae5f82ec8da39330876d15519225e2d4b7f7d2cc8",
+      "hostEdits": [
+        {
+          "before": "for(const {before,after} of templateEdits){",
+          "after": "templateEdits.push(...[{\"before\":\"const engineURL=new URL('./tail_resumable_engine.mjs',import.meta.url).href;\",\"after\":\"const engineURL=new URL('./strong_exact_stage_engine.mjs',import.meta.url).href;\"},{\"before\":\"const rawWarmURL=new URL('./strong_exact_raw_tail_warm.mjs',import.meta.url).href;\",\"after\":\"const rawWarmURL=new URL('./strong_exact_raw_tail_warm.mjs',import.meta.url).href;\\nconst stageSeedURL=new URL('./strong_exact_stage_seed.mjs',import.meta.url).href;\\nconst stageCheckURL=new URL('./strong_exact_stage_evaluation_check.mjs',import.meta.url).href;\\nconst stageCacheWorkerManifest={name:'exact-input-persistent-actual-stage-worker-v1',\\n workerSHA256:sha256(fs.readFileSync(new URL(import.meta.url))),\\n exactRawWorkerSHA256:\\\"ec69703a4b0786313c2506aae5f82ec8da39330876d15519225e2d4b7f7d2cc8\\\",\\n stageEngineSHA256:sha256(fs.readFileSync(new URL(engineURL))),\\n seedHelperSHA256:sha256(fs.readFileSync(new URL(stageSeedURL))),\\n evaluationCheckSHA256:sha256(fs.readFileSync(new URL(stageCheckURL))),\\n transformedExactRawHostSHA256:process.env.STRONG_EXACT_STAGE_HOST_SHA,\\n sourceTransforms:JSON.parse(process.env.STRONG_EXACT_STAGE_SOURCE_TRANSFORMS),\\n actualVariationalBackend:'fourier-root-and-product-moments-v1',\\n scope:'Exact binary stage persistence and unaccepted initial-seed retention only. Every original full nonlinear solve, Jacobian, positivity, line search and final audit gate remains.'};\"},{\"before\":\"const dn=createSourceCompactTailDN(options),sourceSolve=dn.solve;\",\"after\":\"if(backend!=='fourier-root')throw Error('The explicitly verified cache requires the actual Fourier-root backend');\\n  if(!process.env.VISIBLE_FLEX_EXACT_STAGE_CACHE||!process.env.VISIBLE_FLEX_EXACT_STAGE_SEED_PREFIX)\\n   throw Error('Exact-stage storage and initial-seed paths must be explicit');\\n  const dn=createSourceCompactTailDN({...options,exactStageCache:{\\n   directory:process.env.VISIBLE_FLEX_EXACT_STAGE_CACHE,\\n   identity:{worker:stageCacheWorkerManifest,actualVariationalBackend:backend,predictor,\\n    splitConstructorFollowedByOriginalFourierRootObjectAssign:true},\\n   event:row=>trace({event:'exact_stage_cache',...row})}}),sourceSolve=dn.solve;\"},{\"before\":\"const importRedirects=[];\",\"after\":\"for(const {before,after} of [{\\\"before\\\":\\\" const prior=record.response?.checkpoint??record.seam?.tail_checkpoint??record.checkpoint??record;\\\",\\\"after\\\":\\\" const prior=restoreExactInitialSeed(record.response?.checkpoint??record.seam?.tail_checkpoint??record.checkpoint??record,dn);\\\"},{\\\"before\\\":\\\"console.log(JSON.stringify({event:'ready',exactRawWarmAdapter:exactRawWarmAdapterManifest,\\\",\\\"after\\\":\\\"console.log(JSON.stringify({event:'ready',exactStageCacheAdapter:stageCacheWorkerManifest,exactStageStorage:dn.tail.exactStagePersistence,exactRawWarmAdapter:exactRawWarmAdapterManifest,\\\"},{\\\"before\\\":\\\"const sol=dn.solve(req.height,\\\",\\\"after\\\":\\\"const exactInitialSeed=saveExactInitialSeed({dn,height:req.height,states:initial,call,\\\\n    prefix:process.env.VISIBLE_FLEX_EXACT_STAGE_SEED_PREFIX,sourceIdentity:{...stageCacheWorkerManifest,\\\\n     engineSHA256:stageCacheWorkerManifest.stageEngineSHA256,helperSHA256:stageCacheWorkerManifest.seedHelperSHA256}});\\\\n  trace({event:'exact_initial_stage_seed_saved',call,...exactInitialSeed});\\\\n  if(req.exactStageDiagnostic===true){\\\\n   const check=compareCompleteStageEvaluation(dn,initial,req.height,row=>trace({...row,call}));\\\\n   console.log(JSON.stringify({exactStageDiagnostic:check,exactInitialSeed,\\\\n    prefixAccepted:false,tailConverged:false}));continue;\\\\n  }\\\\n  const sol=dn.solve(req.height,\\\"}])replaceOnce(before,after);\\nconst importRedirects=[];\"},{\"before\":\"source=`import {preserveExactRawWarm,samePhysicalHeight,rawWarmGarbageCollection} from ${JSON.stringify(rawWarmURL)};\\\\n`+\",\"after\":\"source=`import {saveExactInitialSeed,restoreExactInitialSeed} from ${JSON.stringify(stageSeedURL)};\\\\n`+\\n  `import {compareCompleteStageEvaluation} from ${JSON.stringify(stageCheckURL)};\\\\n`+\\n  `const stageCacheWorkerManifest=${JSON.stringify(stageCacheWorkerManifest)};\\\\n`+\\n  `import {preserveExactRawWarm,samePhysicalHeight,rawWarmGarbageCollection} from ${JSON.stringify(rawWarmURL)};\\\\n`+\"},{\"before\":\"  exactRawWarmAdapter:rawWarmAdapterManifest,\",\"after\":\"  exactStageCacheAdapter:stageCacheWorkerManifest,\\n  exactRawWarmAdapter:rawWarmAdapterManifest,\"}]);\nfor(const {before,after} of templateEdits){"
+        },
+        {
+          "before": "const templateURL=new URL('./tail_frozen_worker.mjs',import.meta.url);",
+          "after": "const templateURL=new URL(\"file:///workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/tail_frozen_worker.mjs\");"
+        },
+        {
+          "before": "source=source.replaceAll('import.meta.url',JSON.stringify(import.meta.url));",
+          "after": "source=source.replaceAll('import.meta.url',JSON.stringify(\"file:///workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_tail_worker.mjs\"));"
+        }
+      ],
+      "extraTemplateEdits": [
+        {
+          "before": "const engineURL=new URL('./tail_resumable_engine.mjs',import.meta.url).href;",
+          "after": "const engineURL=new URL('./strong_exact_stage_engine.mjs',import.meta.url).href;"
+        },
+        {
+          "before": "const rawWarmURL=new URL('./strong_exact_raw_tail_warm.mjs',import.meta.url).href;",
+          "after": "const rawWarmURL=new URL('./strong_exact_raw_tail_warm.mjs',import.meta.url).href;\nconst stageSeedURL=new URL('./strong_exact_stage_seed.mjs',import.meta.url).href;\nconst stageCheckURL=new URL('./strong_exact_stage_evaluation_check.mjs',import.meta.url).href;\nconst stageCacheWorkerManifest={name:'exact-input-persistent-actual-stage-worker-v1',\n workerSHA256:sha256(fs.readFileSync(new URL(import.meta.url))),\n exactRawWorkerSHA256:\"ec69703a4b0786313c2506aae5f82ec8da39330876d15519225e2d4b7f7d2cc8\",\n stageEngineSHA256:sha256(fs.readFileSync(new URL(engineURL))),\n seedHelperSHA256:sha256(fs.readFileSync(new URL(stageSeedURL))),\n evaluationCheckSHA256:sha256(fs.readFileSync(new URL(stageCheckURL))),\n transformedExactRawHostSHA256:process.env.STRONG_EXACT_STAGE_HOST_SHA,\n sourceTransforms:JSON.parse(process.env.STRONG_EXACT_STAGE_SOURCE_TRANSFORMS),\n actualVariationalBackend:'fourier-root-and-product-moments-v1',\n scope:'Exact binary stage persistence and unaccepted initial-seed retention only. Every original full nonlinear solve, Jacobian, positivity, line search and final audit gate remains.'};"
+        },
+        {
+          "before": "const dn=createSourceCompactTailDN(options),sourceSolve=dn.solve;",
+          "after": "if(backend!=='fourier-root')throw Error('The explicitly verified cache requires the actual Fourier-root backend');\n  if(!process.env.VISIBLE_FLEX_EXACT_STAGE_CACHE||!process.env.VISIBLE_FLEX_EXACT_STAGE_SEED_PREFIX)\n   throw Error('Exact-stage storage and initial-seed paths must be explicit');\n  const dn=createSourceCompactTailDN({...options,exactStageCache:{\n   directory:process.env.VISIBLE_FLEX_EXACT_STAGE_CACHE,\n   identity:{worker:stageCacheWorkerManifest,actualVariationalBackend:backend,predictor,\n    splitConstructorFollowedByOriginalFourierRootObjectAssign:true},\n   event:row=>trace({event:'exact_stage_cache',...row})}}),sourceSolve=dn.solve;"
+        },
+        {
+          "before": "const importRedirects=[];",
+          "after": "for(const {before,after} of [{\"before\":\" const prior=record.response?.checkpoint??record.seam?.tail_checkpoint??record.checkpoint??record;\",\"after\":\" const prior=restoreExactInitialSeed(record.response?.checkpoint??record.seam?.tail_checkpoint??record.checkpoint??record,dn);\"},{\"before\":\"console.log(JSON.stringify({event:'ready',exactRawWarmAdapter:exactRawWarmAdapterManifest,\",\"after\":\"console.log(JSON.stringify({event:'ready',exactStageCacheAdapter:stageCacheWorkerManifest,exactStageStorage:dn.tail.exactStagePersistence,exactRawWarmAdapter:exactRawWarmAdapterManifest,\"},{\"before\":\"const sol=dn.solve(req.height,\",\"after\":\"const exactInitialSeed=saveExactInitialSeed({dn,height:req.height,states:initial,call,\\n    prefix:process.env.VISIBLE_FLEX_EXACT_STAGE_SEED_PREFIX,sourceIdentity:{...stageCacheWorkerManifest,\\n     engineSHA256:stageCacheWorkerManifest.stageEngineSHA256,helperSHA256:stageCacheWorkerManifest.seedHelperSHA256}});\\n  trace({event:'exact_initial_stage_seed_saved',call,...exactInitialSeed});\\n  if(req.exactStageDiagnostic===true){\\n   const check=compareCompleteStageEvaluation(dn,initial,req.height,row=>trace({...row,call}));\\n   console.log(JSON.stringify({exactStageDiagnostic:check,exactInitialSeed,\\n    prefixAccepted:false,tailConverged:false}));continue;\\n  }\\n  const sol=dn.solve(req.height,\"}])replaceOnce(before,after);\nconst importRedirects=[];"
+        },
+        {
+          "before": "source=`import {preserveExactRawWarm,samePhysicalHeight,rawWarmGarbageCollection} from ${JSON.stringify(rawWarmURL)};\\n`+",
+          "after": "source=`import {saveExactInitialSeed,restoreExactInitialSeed} from ${JSON.stringify(stageSeedURL)};\\n`+\n  `import {compareCompleteStageEvaluation} from ${JSON.stringify(stageCheckURL)};\\n`+\n  `const stageCacheWorkerManifest=${JSON.stringify(stageCacheWorkerManifest)};\\n`+\n  `import {preserveExactRawWarm,samePhysicalHeight,rawWarmGarbageCollection} from ${JSON.stringify(rawWarmURL)};\\n`+"
+        },
+        {
+          "before": "  exactRawWarmAdapter:rawWarmAdapterManifest,",
+          "after": "  exactStageCacheAdapter:stageCacheWorkerManifest,\n  exactRawWarmAdapter:rawWarmAdapterManifest,"
+        }
+      ],
+      "lowerEdits": [
+        {
+          "before": " const prior=record.response?.checkpoint??record.seam?.tail_checkpoint??record.checkpoint??record;",
+          "after": " const prior=restoreExactInitialSeed(record.response?.checkpoint??record.seam?.tail_checkpoint??record.checkpoint??record,dn);"
+        },
+        {
+          "before": "console.log(JSON.stringify({event:'ready',exactRawWarmAdapter:exactRawWarmAdapterManifest,",
+          "after": "console.log(JSON.stringify({event:'ready',exactStageCacheAdapter:stageCacheWorkerManifest,exactStageStorage:dn.tail.exactStagePersistence,exactRawWarmAdapter:exactRawWarmAdapterManifest,"
+        },
+        {
+          "before": "const sol=dn.solve(req.height,",
+          "after": "const exactInitialSeed=saveExactInitialSeed({dn,height:req.height,states:initial,call,\n    prefix:process.env.VISIBLE_FLEX_EXACT_STAGE_SEED_PREFIX,sourceIdentity:{...stageCacheWorkerManifest,\n     engineSHA256:stageCacheWorkerManifest.stageEngineSHA256,helperSHA256:stageCacheWorkerManifest.seedHelperSHA256}});\n  trace({event:'exact_initial_stage_seed_saved',call,...exactInitialSeed});\n  if(req.exactStageDiagnostic===true){\n   const check=compareCompleteStageEvaluation(dn,initial,req.height,row=>trace({...row,call}));\n   console.log(JSON.stringify({exactStageDiagnostic:check,exactInitialSeed,\n    prefixAccepted:false,tailConverged:false}));continue;\n  }\n  const sol=dn.solve(req.height,"
+        }
+      ]
+    },
+    "actualVariationalBackend": "fourier-root-and-product-moments-v1",
+    "scope": "Exact binary stage persistence and unaccepted initial-seed retention only. Every original full nonlinear solve, Jacobian, positivity, line search and final audit gate remains."
+  },
+  "initial_cache_identity_and_statistics": {
+    "identitySHA": "66e22f1f5e5a150402bb6f187babf4f2e48c11f491842e6f33d4fdfad1d97231",
+    "root": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-q096-exact-stage-cache/66e22f1f5e5a150402bb6f187babf4f2e48c11f491842e6f33d4fdfad1d97231",
+    "stats": {
+      "hits": 0,
+      "misses": 0,
+      "uncachedNonJacobian": 0,
+      "storedBytes": 0,
+      "loadedBytes": 0
+    }
+  },
+  "every_changed_H_still_requires_original_true_solve_and_full_audit": true,
+  "cached_local_maps_are_identified_prior_computations": true
+}

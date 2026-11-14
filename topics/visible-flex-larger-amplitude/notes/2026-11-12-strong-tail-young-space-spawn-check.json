@@ -1,0 +1,16 @@
+{
+  "scope": "Pure Popen/constructor hook integration fixture; all processes here are explicit fake objects, no OS process or physical model was started.",
+  "passed": true,
+  "checks": {
+    "one_intended_Popen_received_flags": true,
+    "all_original_other_spawn_values_retained": true,
+    "original_Base_sources_and_open_process_preserved": true,
+    "Popen_restored_after_success": true,
+    "original_ENOSPC_propagated_after_original_close": true,
+    "Popen_restored_after_error": true,
+    "same_own_fake_process_recorded": true
+  },
+  "source_sha256": "867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba",
+  "real_processes_started": 0,
+  "physical_models": 0
+}

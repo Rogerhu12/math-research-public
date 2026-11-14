@@ -1,0 +1,40 @@
+{
+  "scope": "Reevaluate an accepted tail at its exact H and save its full tangent.\n\nThe original accepted fixed prefix is unchanged. The original complete tail\nresidual, full Jacobian and requested physical audit run again at the exact\nsaved H. The new worker only retains already computed full-stage flow\nJacobians. Its exact binary roundtrip and unchanged original predictor are\nchecked before the sidecar is marked usable. No prefix Newton is run.\n",
+  "wrapper_sha256": "77e7605eded1bf9210b8e16946775d34f6614ec32e9144e70ddf785d009947b7",
+  "retained_source_sha256": "b6f587ac428a477f32e04c13a2686ecb196cbefd342deadc669e13cc988e6753",
+  "transformed_source_sha256": "b75ea404839dd40b148c46310c2bb149ca54edc32be3d916a71fe2a456ad6eb7",
+  "replacements": [
+    {
+      "before": "    if (raw['solver_success'] or raw['status'] != 0 or\n            not raw['provenance'].get('actual_nonlinear_coupling_pending') or\n            not raw['provenance'].get('affine_inner_success')):\n        raise ValueError('Expected a successful affine inner state awaiting true DN')",
+      "after": "    if not raw['solver_success'] or raw['status'] != 0:\n        raise ValueError('Expected the original formally accepted fixed prefix')",
+      "count": 1
+    },
+    {
+      "before": "    plan = dict(scope=__doc__, status='prepared', raw=str(args.raw),",
+      "after": "    plan = dict(scope=__doc__, full_flow_tangent_storage=FULL_TANGENT_WRAPPER,\n                status='prepared', raw=str(args.raw),",
+      "count": 1
+    }
+  ],
+  "accepted_reference": {
+    "file": "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz",
+    "sha256": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd"
+  },
+  "accepted_raw": {
+    "file": "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz",
+    "sha256": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706"
+  },
+  "accepted_tail": {
+    "file": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz",
+    "sha256": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d"
+  },
+  "full_H_bitwise_equal": true,
+  "modes": 28,
+  "nodes": 2208,
+  "original_complete_problem_unchanged": true,
+  "original_tolerance": 2e-09,
+  "original_RMS_max": 9.989625002548099e-08,
+  "prefix_Newton_calls": 0,
+  "stage_cache_directory": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-stage-cache",
+  "node_old_heap_MiB": 256,
+  "node_young_semi_space_MiB": 4
+}

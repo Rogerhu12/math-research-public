@@ -1,0 +1,109 @@
+{
+  "schema": "actual-q106-complete-periodic-mean-alias-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/strong_newg_complex_angular_mean_strip.py",
+      "sha256": "013a0355bbd7a85d4fe64cabda6faa3140929caf85335986a44f083fe29be336",
+      "bytes": 20025,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_complex_angular_mean_strip.py"
+    },
+    {
+      "path": "computations/strong_newg_complex_angular_mean_boundary_refine.py",
+      "sha256": "3d0c0eee684d17f74e6dddf3a84d0d130ae644d4f416d51ecb16c0cb455b273d",
+      "bytes": 9574,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_complex_angular_mean_boundary_refine.py"
+    },
+    {
+      "path": "computations/strong_newg_complex_angular_mean_radial_refine.py",
+      "sha256": "443f55564377efa3c2ab5d6843bd0e45aa4ca4d5eabbe741c1ddbe487a1155d9",
+      "bytes": 10443,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_complex_angular_mean_radial_refine.py"
+    },
+    {
+      "path": "computations/strong_newg_complex_mean_saved_check.py",
+      "sha256": "f11ae4a05dd5f901f132a8ca58d1fc43b8e6aee6620c5dcb3ffde5be4333cc27",
+      "bytes": 10178,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_complex_mean_saved_check.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-original-rectangle-primary.json.gz",
+      "sha256": "d8433d6a6c1e981f692e68470ef333b3b5e720a81dac51eaa7368fb0eda3226f",
+      "bytes": 898105,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-strip-r1/certificate.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-original-rectangle-resource.json",
+      "sha256": "3ab04491bd43fd6a48863a108bef2046ce1fda8c47b7a12f89012e643b1a3464",
+      "bytes": 1724,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-strip-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-boundary-refinement-primary.json.gz",
+      "sha256": "91a106babf5c705591fb24b1ce6edc7e5f2a967f67be7783914cbaa9ab0c8a3e",
+      "bytes": 898284,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-boundary-r1/certificate.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-boundary-refinement-resource.json",
+      "sha256": "d76f3b8c1cac95c6d2c3da56118438aa0934d1f9c4ccab473060531b5d63ede9",
+      "bytes": 1873,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-boundary-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-final-radial-primary.json.gz",
+      "sha256": "6439232c6375cb2646c20893c2ffc7879865bc991ac39da6089f7908e878a4d2",
+      "bytes": 914717,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-radial-refine-r1/certificate.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-final-radial-resource.json",
+      "sha256": "773b7b60a73e466e63f33b7043aa6d2fbac6215a0f3f2dd06980b8f2034ef90f",
+      "bytes": 1880,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-radial-refine-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-saved-check.json.gz",
+      "sha256": "595906cb3b8acd4010bfb96eae9cdee6cb670782c62e2dd115884f80518ecf57",
+      "bytes": 255234,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-radial-refine-r1/saved-check.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-saved-check-resource.json",
+      "sha256": "f84bdaf8e78b6d686043dd875e72088ca3bbd479c5a7eb3a4651bff26cc1aec5",
+      "bytes": 1777,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-radial-refine-r1/saved-check-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-periodic-mean-alias-r1-proof.md",
+      "sha256": "1db51f25db85dcf5e33af36398a3bf76883739f4823a25b017ba8809331acd54",
+      "bytes": 8698,
+      "source_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-radial-refine-r1/complete-periodic-mean-alias-proof.md"
+    }
+  ],
+  "all_final_complex_domain_gates": true,
+  "independent_fraction_gates": 33288,
+  "original_parents": 3326,
+  "final_exact_atoms": 3327,
+  "prior_negative_runs_preserved": true,
+  "actual_new_final_refinement_boxes": 2,
+  "complete_original_mean": 1360,
+  "uniform_alias_H_Hs_Hss_upper": [
+    [
+      "2156799741737873726793526647805474098013848852300",
+      -217
+    ],
+    [
+      "1888548241923762426428583663990648793000111900505",
+      -217
+    ],
+    [
+      "1610173737652093649791885392476419482039608475448",
+      -207
+    ]
+  ],
+  "unpaid_floating_function_and_coordinate_alignment_remain": true,
+  "radial_Gauss6_fee_separate": true,
+  "new_PDE_reach_closed_surface_certificate": false,
+  "bytes_total": 3032512
+}

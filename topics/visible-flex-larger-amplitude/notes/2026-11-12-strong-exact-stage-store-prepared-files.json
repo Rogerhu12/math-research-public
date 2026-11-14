@@ -1,0 +1,30 @@
+{
+  "scope": "Experimental stage persistence; no production integration and no physical numerical validation yet. Exactraw-r1 remains unchanged.",
+  "files": [
+    {
+      "path": "computations/strong_exact_stage_flow_store.mjs",
+      "bytes": 5899,
+      "sha256": "cf418e0d82210a226376db19f610520c3eb4be1b7ea3559f8a0e85092d75aafe"
+    },
+    {
+      "path": "computations/strong_exact_stage_engine.mjs",
+      "bytes": 6720,
+      "sha256": "488266f1bfd18b9bde26f0202e284b153dfb4c77211d8cad268840f05386db65"
+    },
+    {
+      "path": "computations/strong_exact_stage_store_check.mjs",
+      "bytes": 5355,
+      "sha256": "97959b999c542db7f509263ba9cb56feb661649f64ad599066ebce815bbe2cd4"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-store-fixtures.json",
+      "bytes": 1752,
+      "sha256": "37f1ee0fedaf9f2e18ce53ecf4fcffbc59811f2ca121fc8e4023589b239ff045"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-stage-store-status.md",
+      "bytes": 2391,
+      "sha256": "6763dc899f9233074afe7c02c0e7d06729c542b2ebc55429453654458b9975d9"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "actual-nonzero-frontload-first-piece-Gauss64-compact-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/strong_frontload_stored_first_piece_ellipse_gauss64.py",
+      "sha256": "a46528bc7447ded31f716ee24d2a8dded3331066a4c9200ca35258db0c346b80",
+      "bytes": 13014,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_stored_first_piece_ellipse_gauss64.py"
+    },
+    {
+      "path": "computations/strong_frontload_first_piece_provider_identity.py",
+      "sha256": "6149b75cfa254794bfe3abf0f70737a454b888cfe467d60fba49f5a89d55f98f",
+      "bytes": 5110,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_first_piece_provider_identity.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-stored-first-piece-gauss64-r1-certificate.json",
+      "sha256": "21dde900416fa727e2523722114b0cf19ed56e114ff411b15920dabf93286147",
+      "bytes": 315186,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-stored-first-piece-ellipse-gauss64-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-stored-first-piece-gauss64-r1-resource.json",
+      "sha256": "cf77555799f0efe5ed2b8dd0033e56aba77214fce4a99831537e1a7f05610303",
+      "bytes": 1585,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-stored-first-piece-ellipse-gauss64-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-stored-first-piece-gauss64-r1-provider-identity.json",
+      "sha256": "daf724be01ff5787778b93b1211efa0ae70e4572f06d2e6e65d6c60ce622f051",
+      "bytes": 10837,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-first-piece-provider-identity-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-stored-first-piece-gauss64-r1-provider-identity-resource.json",
+      "sha256": "239381fa5c761f7ca2226b9820179e7d50d6eb90294455d87c605e2969f0d4f0",
+      "bytes": 1488,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-first-piece-provider-identity-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-stored-first-piece-gauss64-r1-proof.md",
+      "sha256": "e7041bb5d93107357540c3c3abc62b31cd8640e695eab826e50d575c50c5dc1f",
+      "bytes": 7497,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-stored-first-piece-ellipse-gauss64-r1-proof.md"
+    }
+  ],
+  "total_bytes": 354717,
+  "all_owned_outcomes_verified": true,
+  "input_kind": "completed-unsolved-warm",
+  "main_gate_count": 1041,
+  "provider_identity_gate_count": 271,
+  "full_ellipse_boundary_intervals": 1024,
+  "warm_screen_sha256": "c782a9bda980b0a31443be14d24444b695b246f58390d8f3bf4932e26807d8fa",
+  "prior_Gauss64_table": {
+    "path": "notes/2026-11-13-strong-newg-Gauss64-table-bridge.json",
+    "sha256": "0a6bb86d0b492ba47ff5d34a4ef63419686aef316cacdec62ed1781f48da621d"
+  },
+  "new_ODE_Node_Newton_or_geometry_samples": 0,
+  "first_piece_polynomial_and_ideal_Gauss_table_fees_only": true,
+  "internal_floating_evaluation_coordinate_alignment_seams_complete_mean_or_full_geometry_certified": false
+}

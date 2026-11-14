@@ -1,0 +1,37 @@
+{
+  "scope": "Prepared11 complete common-grid warm geometry cases plus actual finite-row LP implementation. No physical case executed.",
+  "files": [
+    {
+      "path": "computations/root_actual_geometry_design_plan.py",
+      "bytes": 6134,
+      "sha256": "43294db18f751fbe93dd927afc7709ae1a77a2efef3f5528453be601f97789f2"
+    },
+    {
+      "path": "computations/root_geometry_field_linear_program.py",
+      "bytes": 8709,
+      "sha256": "c5f11581b05599830ce40f858afc8d729ca2701d6eb31497b14656f3248d9e2a"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r1-grid.json",
+      "bytes": 14126,
+      "sha256": "b8dd5f3d0df0442ef3dd0ed529d5d9ca7ca50422b8734f1f20c1955e25b63fbb"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r1-plan.json",
+      "bytes": 42008,
+      "sha256": "24e2e401584da802ec58d711c78967fdda6d0efd6a1813f21e8654f0a8e3fa10"
+    },
+    {
+      "path": "notes/2026-11-12-root-five-direction-lp-fixture-check.json",
+      "bytes": 889,
+      "sha256": "18c223c5241ff5e2c2a1482e97c0df6b74cd2faba362d0aa009393f73fe71eb4"
+    },
+    {
+      "path": "notes/2026-11-12-root-full-field-local-design.md",
+      "bytes": 2187,
+      "sha256": "10c35e7a424c909ec41ca695200988502857103b78919f342b17403095ca8290"
+    }
+  ],
+  "actual_geometry_executed": false,
+  "synthetic_lp_full_matrix_comparison_passed": true
+}

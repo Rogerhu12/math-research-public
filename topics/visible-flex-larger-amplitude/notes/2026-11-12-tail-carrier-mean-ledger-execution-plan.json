@@ -1,0 +1,98 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Prepared source and exact execution plan; not executed locally or on CI",
+  "scope": "Exact streaming mean-height differences for the published 8594-leaf candidate and a proposed carrier replacement; separate full six-jet comparison of the physical and carrier variants.",
+  "source": {
+    "path": "computations/tail_outer_carrier_mean_ledger.py",
+    "sha256": "1c4698d2b5a0e658ed486251837e6941dd3166b5581372374c1689a16e8eca6b",
+    "bytes": 25623,
+    "git_blob": "737ccf2f02e46bf498f0dc7e97b82c62067fc50b"
+  },
+  "proof": {
+    "path": "notes/2026-11-12-tail-carrier-mean-and-geometric-interface.md",
+    "sha256": "53f94bddfcd87980413f022e4c35ad4d937d5d73cf2ef002a8eec228348a4f0a",
+    "git_blob": "f9825c51552e9cc0be8e09e28894b8943c9ba4f8"
+  },
+  "prerequisites": {
+    "original_selected_composition": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-r1.json",
+    "original_selected_sha256": "dd5e3e74f5707be007d7ed539e1001b33e91205066c7a0c6c1bc95f9c891f179",
+    "original_selected_resource": "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-r1-resource.json",
+    "original_complete_segment": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "original_segment_sha256": "806fdb96b9aa6eafd921c07518a5b52218180d2182f7b8d18abb8e3d695638e4",
+    "original_complete_segment_resource": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+    "original_candidate": "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+    "original_candidate_sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+    "old_primary_requirement": "Only complete old primaries for the requested replacement parts, each checked against the original summary. Part 0 has 37 original complete mean panels. The unpushed/lost old R77 output is not an input.",
+    "new_numerical_chain": "PM true physical moments -> PA full physical candidate audit -> CA only additional integral -> CF full carrier audit -> formal comparison; every actual exit and hash remains mandatory.",
+    "comparison_source": "computations/tail_outer_carrier_candidate_comparison.py",
+    "comparison_sha256": "8e30c100e9428f2c7aeae0efe7e4bd02cf6adf80ab5f43a78179ff9c442b0fb9"
+  },
+  "command": [
+    "{python}",
+    "-B",
+    "computations/strong_resource_run.py",
+    "--out",
+    "{mean_prefix}-resource.json",
+    "--",
+    "{python}",
+    "-B",
+    "computations/tail_outer_carrier_mean_ledger.py",
+    "--selected-composition",
+    "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-r1.json",
+    "--selected-resource",
+    "notes/2026-11-12-tail-outer-cell0-components-new-seg1-seg0J-r1-resource.json",
+    "--original-summary",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "--original-resource",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+    "--physical-summary",
+    "{PA}-summary.json",
+    "--physical-resource",
+    "{PA}-resource.json",
+    "--carrier-summary",
+    "{CF}-summary.json",
+    "--carrier-resource",
+    "{CF}-resource.json",
+    "--comparison",
+    "{comparison_json}",
+    "--comparison-resource",
+    "{comparison_resource_json}",
+    "--rss-limit-mib",
+    "96",
+    "--out-prefix",
+    "{mean_prefix}"
+  ],
+  "recommended_prefix": "notes/2026-11-12-tail-carrier-mean-ledger-actions-{run_id}-{attempt}-interval",
+  "outputs": [
+    "{mean_prefix}-summary.json",
+    "{mean_prefix}-part00-mean.jsonl.gz",
+    "{mean_prefix}-resource.json"
+  ],
+  "exact_consumption": {
+    "positive_mass": "omega=I00+I01=integral w dr. Intersect only with Delta_r*w enclosure of the same integral, not with a different candidate residual.",
+    "original_mean": "For each new true leaf take the maximum of the already certified complete mean root bounds on all intersecting old source leaves; verify those leaves cover it.",
+    "mean_derivative_units": "Old c_x is divided by its certified positive r_x. PA/CF already differentiate in physical r, with radius_x=1.",
+    "three_absolute_comparisons": [
+      "old_to_carrier",
+      "old_to_physical",
+      "physical_to_carrier"
+    ],
+    "mean_constant": "Fix one common left height. All cumulative differences thereafter remain one signed integral, enclosed symmetrically; the final shift persists through unchanged later pieces.",
+    "six_jets": "PA/CF full height, r, rr, theta, rtheta, thetatheta; retains complete c and c_r and all 20 nonmean modes.",
+    "scope_limit": "No new exact outer solution, spatial immersion, held ratio, reach, automatic replacement, or signed mean cancellation is claimed."
+  },
+  "runtime": {
+    "stdlib_only": true,
+    "new_Arb": false,
+    "new_integrals": false,
+    "new_ODE": false,
+    "new_Node": false,
+    "numerical_source_modification": false,
+    "network_or_git_auth_needed": false,
+    "rss_observation_mib": 96
+  },
+  "formal_execution_performed": false,
+  "AST_execution_performed": false,
+  "four_step_scientific_sources_unchanged": true
+}

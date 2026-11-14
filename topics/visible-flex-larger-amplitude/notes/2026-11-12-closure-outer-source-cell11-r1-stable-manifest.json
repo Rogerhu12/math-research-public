@@ -1,0 +1,114 @@
+{
+  "status": "Complete original actual candidate signed N source, no forcing integral claim",
+  "files": [
+    {
+      "path": "computations/closure_outer_candidate_source_record.py",
+      "bytes": 13436,
+      "sha256": "544bab2538a33ac32c546d980e08dc0d95fea383d5f25aed894fea9ce27c3d34"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-signed-source-interface.md",
+      "bytes": 5176,
+      "sha256": "5c9be5a686c399c6ae7b0ca33858033c1750b06c90b765a653e19a7a1c8c3fdd"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+      "bytes": 5240,
+      "sha256": "f3d06071519f674de420a7fd66de45d14a8274bfb2089bd045bf0bfb2763cf83"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-resource.json",
+      "bytes": 1321,
+      "sha256": "4b3f872c0dbe75dce48b7b58baa057184fb996a6ed555b996fd3cbfca614ad44"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-domain-replay.json",
+      "bytes": 57185,
+      "sha256": "3299285850f9a4b637d7bbabe6aef4477a8e65803d57b43fbeb9ab7c0e6437d7"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment0.json.gz",
+      "bytes": 1615,
+      "sha256": "e91a3386499aa4dda8783cfd792b6cdd3938720cc6fe502d75fe20addae4127e"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment1.json.gz",
+      "bytes": 1049870,
+      "sha256": "b8b61eff6bb1cf521b252613e226350eeb9d1987f80c4de223e5082228f20bfc"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment2.json.gz",
+      "bytes": 15753,
+      "sha256": "ae428bd8acdeb87c9851569c6f4272b923ca47081c32fa3b7f4dd806f2f28ce8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment3.json.gz",
+      "bytes": 1819419,
+      "sha256": "9e4b4e0d9e1458831cb2e2364de2e2a8709214df92f2c04d5415c9168b8ca02d"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment4.json.gz",
+      "bytes": 16769,
+      "sha256": "e5174a313060d67aafd89255179099abc74bffab6ff84b3ba0e6cc30bff7830b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment5.json.gz",
+      "bytes": 1765163,
+      "sha256": "7da71a838a17baa402766da69b264ccda3cd551bf52ee3d58319c9b0d02a44f1"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment6.json.gz",
+      "bytes": 15679,
+      "sha256": "53d2d11544e612ab0a5d1c39fa2c262874c37b1eb0600c6a764f0ab1af400551"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment7.json.gz",
+      "bytes": 753250,
+      "sha256": "28c7a7c08080457cdb48d83ed6187f6fcaca7ff8f9c1d99411b0153afabdbf6f"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell11-r1-segment8.json.gz",
+      "bytes": 1595,
+      "sha256": "616535c981333e37bb946868a5f7edb444154e04be3c0694463b338b9c584518"
+    }
+  ],
+  "panels": 5545,
+  "groups": 9,
+  "all_original_aggregate_math_fields_bitwise_identical": true,
+  "wait4": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+      "computations/closure_outer_candidate_source_record.py",
+      "--cell-manifest",
+      "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json",
+      "--port-candidates",
+      "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+      "--response",
+      "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--reference-defect",
+      "notes/2026-11-12-tail-outer-cell11-candidate-defect-r1.json",
+      "--out-prefix",
+      "notes/2026-11-12-closure-outer-source-cell11-r1",
+      "--rss-kib",
+      "40960"
+    ],
+    "wall_seconds": 55.55462074279785,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 34632,
+    "user_seconds": 10.303173,
+    "system_seconds": 0.349786,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json": "ed68183d518c7abf99c84dd0aeab04b559993f9114d1ee153b1d2ca9c3d3fc4b",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json": "fc75a411e96b01cbff0047783619b8193479f68ad97b437cb4fce8472f2910ec",
+    "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-cell11-candidate-defect-r1.json": "d707ec765c86015e3192a02db35ec04932710adde6a464bc874574323f5fc122"
+  },
+  "actual_forced_Green_functional_paid": false
+}

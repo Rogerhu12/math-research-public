@@ -1,0 +1,77 @@
+{
+  "status": "Exact obstruction only for the current scalar positive-budget polynomial; repair by retaining frequency support",
+  "checks": {
+    "two_selected_budget_coefficients_positive": true,
+    "exact_two_cycle_product_above_one": true,
+    "positive_gap": true
+  },
+  "low_entry": {
+    "family": "corr",
+    "output_cell": 15,
+    "source_cell": 12,
+    "array_index": [
+      3,
+      0
+    ],
+    "compact": [
+      9897292,
+      -30
+    ],
+    "actual_low_modal_witness": 92,
+    "value": {
+      "numerator": "2474323",
+      "denominator": "268435456"
+    }
+  },
+  "middle_entry": {
+    "output_cell": 12,
+    "source_cell": 15,
+    "array_row": 0,
+    "maximizing_band": 6,
+    "band": {
+      "first_mode": 258,
+      "last_mode": 512
+    },
+    "chosen_gamma": {
+      "lower": {
+        "mantissa": "709417753292729077260836714408649131535969169929862868739",
+        "binary_exponent": -185
+      },
+      "upper": {
+        "mantissa": "709417753292729077260836714408649131535969169929862868739",
+        "binary_exponent": -185
+      },
+      "display": "[14.4661463601203751025544638405390500211101979107418240880 +/- 1.41e-56]"
+    },
+    "value": {
+      "numerator": "709417753292729077260836714408649131535969169929862868739",
+      "denominator": "49039857307708443467467104868809893875799651909875269632"
+    }
+  },
+  "original428_cycle": [
+    "low(cell15)",
+    "middle(cell12)"
+  ],
+  "exact_product_9_H_corr": {
+    "numerator": "15797957972224727597717387535351767505805264600035312746701998273",
+    "denominator": "13164036458569648337239753460458804039861886925068638906788872192"
+  },
+  "exact_product_minus_one": {
+    "numerator": "2633921513655079260477634074892963465943377674966673839913126081",
+    "denominator": "13164036458569648337239753460458804039861886925068638906788872192"
+  },
+  "display_product": 1.200084641359408,
+  "proof": "The current budget has Phi_low15>=3*C*r_middle12 and Phi_middle12>=3*H*r_low15. Positive invariant radii would imply 1>=9*C*H>1. The same two inequalities rule out any positive weighted Lipschitz row bound below1 for this chosen majorant.",
+  "limitations": [
+    "These are coefficients of an upper-budget polynomial, not lower bounds on the exact PDE map.",
+    "The true auxiliary centre has frequencies <=92, so its quadratic linearization cannot couple a 258..512 perturbation directly to low output <=92. The full mean/inverse remainder is not zero.",
+    "No nonexistence of a physical solution, no altered g, and no discarded high mode are asserted."
+  ],
+  "input_hashes": {
+    "notes/2026-11-12-closure-recovery2-centred-four-green-r1.json.gz": "31c65d6c8053325502542c008720f880d7386cd39168be79ca466851e76bb7ee",
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz": "07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6"
+  },
+  "source_sha256": "c3d935fb77d89f24d920e5775370c391a3d8991ebd83af1006601cedf26fa4bc",
+  "elapsed_seconds": 0.06585444200027268,
+  "peak_RSS_KiB": 12964
+}

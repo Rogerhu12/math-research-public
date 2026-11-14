@@ -1,0 +1,26 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R178_Y_compact_recipe.py",
+    "--definition",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-canonical-Y-quintic-r2-output-definition.json.gz",
+    "--jets",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R169-M20-root-jets-r1.json",
+    "--polynomials",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-canonical-Y-quintic-r2-output-polynomials.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-Y-compact-r1-output"
+  ],
+  "source_sha256": "cd427dc5009f711f2752d074e6ac40b79bfef4cbe74aff3f7ac58eefd89098ab",
+  "started_utc": "2026-11-13T20:26:35.584742+00:00",
+  "finished_utc": "2026-11-13T20:26:44.193642+00:00",
+  "exitcode": 0,
+  "termination_signal": null,
+  "wall_seconds": 8.608941200000118,
+  "peak_rss_kib": 71492,
+  "user_seconds": 3.299529,
+  "system_seconds": 0.411496,
+  "log": "/workspace/scratch/d1aa462cfc02/root-work/r127/R178-Y-compact-r1.log",
+  "log_sha256": "202fd6d3db8f1fea4e5256174c10506e6a39f14c1b030ef928fbf6c8bb105c4b"
+}

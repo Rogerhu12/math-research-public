@@ -1,0 +1,97 @@
+{
+  "status": "Complete executed R71 candidate recentering, full mean and source transfer",
+  "files": [
+    {
+      "path": "computations/closure_outer_internal_height_recentre.py",
+      "bytes": 23066,
+      "sha256": "de1f64511d94d76810f084f3b7fd472d9c27258d91e8a0942901c5f8e394cc8a"
+    },
+    {
+      "path": "results/R71-two-sided-internal-height-recentring.md",
+      "bytes": 12059,
+      "sha256": "d9c71cda049751fefc91421ec143ab708e7a226c3c61fcc3f75e5cc32162b838"
+    },
+    {
+      "path": "notes/2026-11-12-closure-two-sided-internal-height-recentre.md",
+      "bytes": 409,
+      "sha256": "d2741642498e7ac8a37cb460a41239fd8e51b983d02c2b077b8535a558c4cc0b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-internal-node11-height-recentre-r1.json",
+      "bytes": 14736,
+      "sha256": "dfe863459a42496af5fe2b1ad963db67c9f3df9a0026fb57b1ea5d7d318a5e89"
+    },
+    {
+      "path": "notes/2026-11-12-closure-internal-node11-height-recentre-r1-cell011.json",
+      "bytes": 29619,
+      "sha256": "d42368ffdf488ac19d95765ff554c04c1bf5c9e1781f9c413a2fc7f1c8c6efdf"
+    },
+    {
+      "path": "notes/2026-11-12-closure-internal-node11-height-recentre-r1-cell010.json",
+      "bytes": 21915,
+      "sha256": "ed05e927643506a11d4ed67507942157f7294635a8db6c8c1fe123bf8ed80926"
+    },
+    {
+      "path": "notes/2026-11-12-closure-internal-node11-height-recentre-r1-resource.json",
+      "bytes": 1755,
+      "sha256": "6a2b5f51190554bf5730744c22469db1f0a6381646ef3aebe14ea0e8f4ec640f"
+    },
+    {
+      "path": "computations/closure_r71_fraction_bounds.py",
+      "bytes": 3296,
+      "sha256": "597fc13a334ea04d03de8aa9603b8a0b47c32a30a8bb849ef09f921f2270efa3"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r71-fraction-bounds-r1.json",
+      "bytes": 1914,
+      "sha256": "456a4a4d84e38bdac118edcc4427c6684941bba6b0f1d5c62fd5fcdac500d70d"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r71-fraction-bounds-r1-resource.json",
+      "bytes": 955,
+      "sha256": "d64e8790f6973ab8ef8743da8cb8292b7941f7ca99002748c79a1ff1b02cba7b"
+    }
+  ],
+  "total_bytes": 109724,
+  "formal_exit": 0,
+  "primary_session": 39026,
+  "scope": "Two same-g neighboring candidates; no complete outer existence claim",
+  "main_resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+      "computations/closure_outer_internal_height_recentre.py",
+      "--flow",
+      "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1.json",
+      "--adjoint",
+      "notes/2026-11-12-closure-outer-adjoint-cell11-r1.json",
+      "--source-summary",
+      "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+      "--manifest11",
+      "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json",
+      "--manifest10",
+      "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json",
+      "--candidate11",
+      "notes/2026-11-12-tail-outer-cell11-candidate-defect-r1.json",
+      "--candidate10",
+      "notes/2026-11-12-tail-outer-cell10-candidate-defect-r1.json",
+      "--ports",
+      "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+      "--response",
+      "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--out-prefix",
+      "notes/2026-11-12-closure-internal-node11-height-recentre-r1",
+      "--rss-kib",
+      "40960"
+    ],
+    "wall_seconds": 84.2121970653534,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 34568,
+    "user_seconds": 11.614832,
+    "system_seconds": 0.698672,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  }
+}

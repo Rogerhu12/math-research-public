@@ -1,0 +1,181 @@
+{
+  "source_sha256": "c6a07b4e72806f921af0302bbe2f759fff61e627c75d898e464a3b454ab0e589",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/root-work/inner-low46-field-inputs/computations/root_inner_low46_factored_green_v2.py",
+    "--columns",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz",
+    "--ordered",
+    "notes/2026-11-12-closure-ordered-green-low46-v2.json.gz",
+    "--density",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+    "--reference",
+    "notes/2026-11-12-closure-plateau2-reference.json",
+    "--box",
+    "notes/2026-11-12-closure-plateau2-box.json",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--panel-summary",
+    "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-summary.json",
+    "--low-far-lift",
+    "notes/2026-11-12-closure-plateau2-nonlinear-low-far-lift.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/inner-low46-factored-r2"
+  ],
+  "data_inputs": [
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz",
+      "sha256": "cabdb3fca1d9176b1f2c46a2f7b2ff5b82ff1af426c4c942c7863c3c15c65f91",
+      "bytes": 112548
+    },
+    {
+      "path": "notes/2026-11-12-closure-ordered-green-low46-v2.json.gz",
+      "sha256": "482a56deff89bb0e330690713fb33afc3d6f478dc02e58c8f765d2a12fc25ce0",
+      "bytes": 148938
+    },
+    {
+      "path": "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+      "sha256": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+      "bytes": 240282
+    },
+    {
+      "path": "notes/2026-11-12-closure-plateau2-reference.json",
+      "sha256": "0e8fcd3ee16f27262389a91647b129b3c2f520c0b36d33a20bad580fa9fa8fb5",
+      "bytes": 566084
+    },
+    {
+      "path": "notes/2026-11-12-closure-plateau2-box.json",
+      "sha256": "5474b056b5012e290e5efd3bebb2b6f4681b42150a53d03f03b61c55b8c59ceb",
+      "bytes": 589775
+    },
+    {
+      "path": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "bytes": 109004
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-summary.json",
+      "sha256": "2c5aab0f6210ca76d7db0b5979e12c1069f8e2cf8b4aaf18ead65f397a6ae9db",
+      "bytes": 7539
+    },
+    {
+      "path": "notes/2026-11-12-closure-plateau2-nonlinear-low-far-lift.json",
+      "sha256": "ba839f5b7c0eb8587ab2ff6bc9985399eceb0eb02d7aa649e83dc47fde2b4da2",
+      "bytes": 305739
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-four-green-r1.json.gz",
+      "sha256": "31c65d6c8053325502542c008720f880d7386cd39168be79ca466851e76bb7ee",
+      "bytes": 1521189
+    },
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-01-08.json.gz",
+      "sha256": "673ba350f50d2c7d15b633487261dcc7cc636287f6da74a5ecd161794e9bf4b1",
+      "bytes": 1315560
+    },
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-09-16.json.gz",
+      "sha256": "14721b2a8a5f9913fbb356c8e8274843216955a4aa2bd380e0694a882e6b9557",
+      "bytes": 1312411
+    },
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-17-24.json.gz",
+      "sha256": "7a623cf30f8c62e5201177aa9ff72903186fb23827498beca5fe99fa7b3bd40e",
+      "bytes": 1307820
+    },
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-25-32.json.gz",
+      "sha256": "159887777e7d54de463a610a554d13d6c422090eefee24d032f9dad445bc63c0",
+      "bytes": 1301549
+    },
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-33-40.json.gz",
+      "sha256": "94cbb5a34c2b09eb42542a03487b8b35fdc307c7dec26f7fdc4665c995bccec5",
+      "bytes": 1301385
+    },
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-low46-recovered-columns-41-46.json.gz",
+      "sha256": "257777b57a7ce92112cea790c5b445dc2070a78d96c8f1770311ea42e0d65f7d",
+      "bytes": 989700
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell012.json.gz",
+      "sha256": "3cbc55fad60c0745e7a30c7b31f61ff3517d686224465a89a9184b53a68288c7",
+      "bytes": 40102
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell013.json.gz",
+      "sha256": "9503f95e167d58a4b049b18eb92c87348dc1201d2ef666c6efd786b0d0e9ac0d",
+      "bytes": 40275
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell014.json.gz",
+      "sha256": "976ee378fc99ea5e156731fa68f99d69f9110cc069b09e3a6daf1a8d6f44f73d",
+      "bytes": 40333
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell015.json.gz",
+      "sha256": "427725e599890756b651d13dbb91603d49b2a7c5ddd75c24f270b1e49e7910fd",
+      "bytes": 40234
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell016.json.gz",
+      "sha256": "8f9b554dafc48bfc823dcf7e68af9ed5fb2f18e4febd493c203ac42a876f2e24",
+      "bytes": 40280
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell017.json.gz",
+      "sha256": "c214a39b0a057b9620a6e175e1f5ef179d11e2f1ec671bb524884f87b538c3a2",
+      "bytes": 40214
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell018.json.gz",
+      "sha256": "d5059cc5883ae5b84b20492a7d0fb52b44f2e0c250c9646646c92d514c22980f",
+      "bytes": 40297
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell019.json.gz",
+      "sha256": "aa5d897cebb8e64bfce5187f1efdd16d9e4969cc1cb9ef986bea19b3907ac042",
+      "bytes": 40262
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell020.json.gz",
+      "sha256": "51dc84d557793ed9641b1d11934742b66ba3c19bd42b8546249f4131bae1f9be",
+      "bytes": 40279
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell021.json.gz",
+      "sha256": "8a769e4282e1fa589423494006e2390c79992de42da9c859d486c530390f8fdb",
+      "bytes": 40327
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell022.json.gz",
+      "sha256": "8c2941b00c0313c729d04aed6ed4a8d48a8e0dd496ac317e4f91ed502acb8661",
+      "bytes": 40375
+    },
+    {
+      "path": "notes/2026-11-12-closure-recovery2-centred-panels-low46-r1-cell023.json.gz",
+      "sha256": "106470043d5f2f3f77bc70c8120204558b7ed874c9aaba861a05d58a176ecab4",
+      "bytes": 40317
+    }
+  ],
+  "source_inputs": [
+    {
+      "path": "computations/closure_projective_interval_column.py",
+      "sha256": "45997a1d5be6326a1ebbe85ac4240ea7d9dde1c2fb6acdf832460dade89e4f97"
+    },
+    {
+      "path": "computations/closure_real_head_green_enclosure.py",
+      "sha256": "4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0"
+    },
+    {
+      "path": "computations/closure_real_head_source_enclosure.py",
+      "sha256": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+    },
+    {
+      "path": "computations/root_inner_low46_factored_green.py",
+      "sha256": "4ba8d1188141f5cd54bfea46e8cafa2d930412b3c5cd7e906cf58ed88015d936"
+    }
+  ],
+  "cwd": "/workspace/scratch/d1aa462cfc02/root-work/inner-low46-field-inputs"
+}

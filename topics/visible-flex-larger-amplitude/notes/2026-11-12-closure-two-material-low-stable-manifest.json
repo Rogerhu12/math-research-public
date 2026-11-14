@@ -1,0 +1,106 @@
+{
+  "status": "Stable completed coarse/full46 material bounds and honest failed complete-matrix float diagnostic; no strong joint gate claimed",
+  "files": [
+    {
+      "path": "computations/closure_two_material_low_edge.py",
+      "bytes": 8087,
+      "sha256": "35086c14cfe464100d9de8fe1207d92bff6bb49d6194a18370f071db2bec9205"
+    },
+    {
+      "path": "computations/closure_two_material_low_pb_edge.py",
+      "bytes": 12463,
+      "sha256": "43e668c5f04c9fec609b95ea9ed676f2acdef203f0cd96e1a106f3ce294679fb"
+    },
+    {
+      "path": "computations/closure_two_material_joint_diagnostic.py",
+      "bytes": 10219,
+      "sha256": "f50ef629864d27e342452e3f4680313a84ef43479c61431080f51caf8a80213d"
+    },
+    {
+      "path": "notes/2026-11-12-closure-two-material-low-source-position.md",
+      "bytes": 5991,
+      "sha256": "38c344a0f21921fbf3a24efc6e89ae41bb12d5695cc6d587034574ef99047437"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-low-12to13-r1.json",
+      "bytes": 88903,
+      "sha256": "a401a7c3d7cc0bc1897a92b99791aa9c46380946b9d44f6d47b38bd7a3aa0971"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-low-12to13-r1-resource.json",
+      "bytes": 1376,
+      "sha256": "b863cce768ff50d69dd86d0839270333f0f2e8931cdb22a9b519758a67439628"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-low-pb-12to13-m92-r1.json",
+      "bytes": 10525,
+      "sha256": "4c66e048a45d1038832e5c20949afefc417f8f4b5e02873e6ead31eefb885347"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-low-pb-12to13-m92-r1-resource.json",
+      "bytes": 1611,
+      "sha256": "a47d686be46ba374677d772302025cde1bb76059f1a5b79f9b88ff69e4fcbc1d"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-low-pb-12to13-low46-r1.json",
+      "bytes": 168666,
+      "sha256": "e0511941a70d0eb4e9720a6aab5a9f7eb5465813370f499a4c64e06fbbda1d82"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-low-pb-12to13-low46-r1-resource.json",
+      "bytes": 1584,
+      "sha256": "66852768f81166c819105f45a4a0cdcb65791ef3879260549433a90956a5caab"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-joint-diagnostic-r1.json",
+      "bytes": 13210,
+      "sha256": "b050722e63147ae7ed5a5b86e122bd1e64336520d7fba376a9bf9fb75dc48df9"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-joint-diagnostic-r1-resource.json",
+      "bytes": 1342,
+      "sha256": "df9f146ca35a0930dec348f6dbaf52e5e4a54b377e0434efe36acd2b24f1041d"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-low-pb-12to13-m92-r1-monitor.jsonl",
+      "bytes": 1499,
+      "sha256": "e912f8d3eca7bbd3999d3ac02f8a9a91619ef5aa1a0ee06c7ab3375b56cb53a5"
+    },
+    {
+      "path": "notes/2026-11-12-closure-strong-two-material-low-pb-12to13-low46-r1-monitor.jsonl",
+      "bytes": 48544,
+      "sha256": "790567b79d64330a718dfdcf88484881b3931f379e294d1526116ff37d657dc4"
+    }
+  ],
+  "total_bytes": 374020,
+  "formal_jobs": [
+    {
+      "session": 39839,
+      "exitcode": 0,
+      "wall_seconds": 4.248166084289551,
+      "peak_rss_kib": 72356
+    },
+    {
+      "session": 6291,
+      "exitcode": 0,
+      "wall_seconds": 14.876689195632935,
+      "peak_rss_kib": 65496
+    },
+    {
+      "session": 66660,
+      "exitcode": 0,
+      "wall_seconds": 93.92280411720276,
+      "peak_rss_kib": 65820
+    },
+    {
+      "session": 91559,
+      "exitcode": 0,
+      "wall_seconds": 14.357216358184814,
+      "peak_rss_kib": 70560
+    }
+  ],
+  "recovery_files": "Completed-modes files duplicate the complete final output and are not needed in this stable manifest.",
+  "active_excluded": [
+    "computations/closure_two_material_joint_diagnostic_v2.py"
+  ]
+}

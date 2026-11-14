@@ -1,0 +1,109 @@
+{
+  "scope": "Canonical small MIDX batches, preserving the complete registered OID union.",
+  "source_sha256": "c351162c4d9a0b265f06e3b6ff20728ebcdb24c21bd48acce2dd31212fba9e30",
+  "refs_before": "refs/heads/main e71f525ba4cabb6553b03c6a3925a60935aa6e5c\nrefs/remotes/origin/main 062f1b5a685aaf8a76d6013f08a184822a2b450c\n",
+  "oid_count_before": 200758,
+  "oid_sha256_before": "7f4688e28f1c7fdeda98f6e86f546595c0effed40a677804249aef099b80237a",
+  "steps": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "pack.window=0",
+        "multi-pack-index",
+        "write",
+        "--preferred-pack=pack-1beac3da7406801423b2119401a37f696f3c4881.pack",
+        "--stdin-packs"
+      ],
+      "exitcode": 0,
+      "aborted_for_disk_reserve": false,
+      "wall_seconds": 2.0543600450000667,
+      "log": "/workspace/scratch/d1aa462cfc02/git_midx_20261113T1343-write.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "free_after": 1070747648
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "pack.window=0",
+        "multi-pack-index",
+        "verify"
+      ],
+      "exitcode": 0,
+      "aborted_for_disk_reserve": false,
+      "wall_seconds": 3.050211431000207,
+      "log": "/workspace/scratch/d1aa462cfc02/git_midx_20261113T1343-verify-before.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "free_after": 1033871360
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "pack.window=0",
+        "multi-pack-index",
+        "expire"
+      ],
+      "exitcode": 0,
+      "aborted_for_disk_reserve": false,
+      "wall_seconds": 1.0043800029998238,
+      "log": "/workspace/scratch/d1aa462cfc02/git_midx_20261113T1343-expire-initial.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "free_after": 998551552
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "pack.window=0",
+        "multi-pack-index",
+        "repack",
+        "--batch-size=10000000"
+      ],
+      "exitcode": 0,
+      "aborted_for_disk_reserve": false,
+      "wall_seconds": 2.0424296380006126,
+      "log": "/workspace/scratch/d1aa462cfc02/git_midx_20261113T1343-batch00-repack.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "free_after": 1042718720
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "pack.window=0",
+        "multi-pack-index",
+        "expire"
+      ],
+      "exitcode": 0,
+      "aborted_for_disk_reserve": false,
+      "wall_seconds": 2.0017400380020263,
+      "log": "/workspace/scratch/d1aa462cfc02/git_midx_20261113T1343-batch00-expire.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "free_after": 17018609664
+    }
+  ],
+  "free_before": 1084944384,
+  "started_utc": "2026-11-13T13:38:42Z",
+  "stale_index_sha256": "663dab5573416b6a0bc9cd9a758893c665a3fd0ee08647162bfd858e40aaae6c",
+  "stale_cache_moved_to": "/workspace/scratch/d1aa462cfc02/git_midx_20261113T1343-stale-index.bin",
+  "initial_verification": {
+    "registered_pack_count": 356,
+    "pack_bytes": 21029238816,
+    "oid_count": 200758,
+    "oid_sha256": "7f4688e28f1c7fdeda98f6e86f546595c0effed40a677804249aef099b80237a",
+    "all_oid_bytes_and_refs_exactly_unchanged": true,
+    "free_bytes": 1059799040
+  }
+}

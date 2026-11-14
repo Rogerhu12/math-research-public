@@ -1,0 +1,482 @@
+{
+  "scope": "Read-only coordinate-scale diagnostic between two saved inner iterates.\n\nNo physical RHS, Jacobian, tail, geometry audit or new BVP is evaluated. The\nfinite difference of two complete saved states reconstructs the accepted\nNewton direction and its original Euclidean merit. A coordinate scaling is\nreported only as arithmetic; no different line search is run or endorsed.\n",
+  "source_sha256": {
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-exactraw-r1-iterate-0001.json.gz": "25565866efec651ae38fda64684b1a1c8d0f4c89f57ba2abe820800a04a9f18a",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002.json.gz": "f68c61714f4a29ee94cc0a94595818baf8423466906a93a8220de015f7584c93",
+    "notes/2026-11-12-strong-q095-actual-fixed-control-response.json": "72d6615a3699769451dd9af11bb89a769ba2fb9651438cde72da5fe485efb36c",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_actual_checkpoint_step_scale.py": "cae3532149ecdfaf793e51e5b21c34185cfd1d03ba534567214653bdd34d8f8f",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-exactraw-r1-iterate-0001-x-000.npy.gz": "994ab71288d1a38b0398200db135241bbfe9dba674d86f18a14f69e0437b27cf",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-exactraw-r1-iterate-0001-y-000.npy.gz": "8a7aad38a19835353deb899f2df76b352909b7e2bf2317b5712a942c907cb497",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-exactraw-r1-iterate-0001-p-000.npy.gz": "2ea8f1630dc03cf1e47c8d72a0a8b9c6535710f43584144a29ac97587a830e60",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002-x-000.npy.gz": "fad047913c869d7b510162b41f59b9eb0da53ea602f70f0331aee165a0af30c6",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002-y-000.npy.gz": "c08e2f278102de52c205b78dd518107a8ab9fdfe0ba329cf9a11b4de6dbfd73e",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002-p-000.npy.gz": "057a15ddcd6bbd70266c6abce8d1f92b6eae6d484ee56c5ad58fa19044f95f01"
+  },
+  "original_alpha": 0.125,
+  "supplied_original_merit": 887159281.1559111,
+  "reconstructed_original_merit": 887159281.155911,
+  "merit_relative_difference": 1.1102230246251565e-16,
+  "raw_field_squared_norm": 0.08374622115065712,
+  "raw_parameter_squared_norm": 887159281.0721648,
+  "raw_parameter_merit_fraction": 0.9999999999056018,
+  "maximum_raw_field_step": 0.012607373784470077,
+  "maximum_field_location": {
+    "state_component": 25,
+    "node": 133
+  },
+  "maximum_raw_parameter_step": 25498.140785003798,
+  "raw_parameter_rows": [
+    {
+      "index": 0,
+      "role": "c2",
+      "raw_step": 0.0,
+      "raw_merit_fraction": 0.0,
+      "exact_accepted_physical_delta": 0.0,
+      "initial_physical_derivative_unit": 0.105
+    },
+    {
+      "index": 1,
+      "role": "c4",
+      "raw_step": 0.0,
+      "raw_merit_fraction": 0.0,
+      "exact_accepted_physical_delta": 0.0,
+      "initial_physical_derivative_unit": 0.0081
+    },
+    {
+      "index": 2,
+      "role": "c6",
+      "raw_step": 0.0,
+      "raw_merit_fraction": 0.0,
+      "exact_accepted_physical_delta": 0.0,
+      "initial_physical_derivative_unit": 0.0007289999999999999
+    },
+    {
+      "index": 3,
+      "role": "c8",
+      "raw_step": -0.25384582233009034,
+      "raw_merit_fraction": 7.263374557777455e-11,
+      "exact_accepted_physical_delta": -2.081853050384653e-06,
+      "initial_physical_derivative_unit": 6.560999999999999e-05
+    },
+    {
+      "index": 4,
+      "role": "c10",
+      "raw_step": -7.99925950558378,
+      "raw_merit_fraction": 7.212701709472063e-08,
+      "exact_accepted_physical_delta": -5.9043534318152064e-06,
+      "initial_physical_derivative_unit": 5.904899999999999e-06
+    },
+    {
+      "index": 5,
+      "role": "c12",
+      "raw_step": 113.31970278001114,
+      "raw_merit_fraction": 1.4474689394466586e-05,
+      "exact_accepted_physical_delta": 7.527842020638986e-06,
+      "initial_physical_derivative_unit": 5.314409999999999e-07
+    },
+    {
+      "index": 6,
+      "role": "c14",
+      "raw_step": 850.7094603039882,
+      "raw_merit_fraction": 0.0008157572165708057,
+      "exact_accepted_physical_delta": 5.086146220800881e-06,
+      "initial_physical_derivative_unit": 4.7829689999999986e-08
+    },
+    {
+      "index": 7,
+      "role": "c16",
+      "raw_step": -5133.133468678538,
+      "raw_merit_fraction": 0.029700483066509364,
+      "exact_accepted_physical_delta": -2.7620570535245897e-06,
+      "initial_physical_derivative_unit": 4.304672099999998e-09
+    },
+    {
+      "index": 8,
+      "role": "c18",
+      "raw_step": 162.91181117438828,
+      "raw_merit_fraction": 2.9916001313247047e-05,
+      "exact_accepted_physical_delta": 2.0363976396798535e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 9,
+      "role": "c20",
+      "raw_step": -25498.140785003798,
+      "raw_merit_fraction": 0.7328505684399357,
+      "exact_accepted_physical_delta": -3.1872675981254747e-06,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 10,
+      "role": "c22",
+      "raw_step": -12500.285711698234,
+      "raw_merit_fraction": 0.17613200492080083,
+      "exact_accepted_physical_delta": -1.5625357139622793e-06,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 11,
+      "role": "c24",
+      "raw_step": -3223.6103507962125,
+      "raw_merit_fraction": 0.011713413717794642,
+      "exact_accepted_physical_delta": -4.029512938495266e-07,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 12,
+      "role": "c26",
+      "raw_step": -6512.997789252537,
+      "raw_merit_fraction": 0.04781457073586498,
+      "exact_accepted_physical_delta": -8.141247236565672e-07,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 13,
+      "role": "c28",
+      "raw_step": 92.73761808597283,
+      "raw_merit_fraction": 9.69416201908429e-06,
+      "exact_accepted_physical_delta": 1.1592202260746604e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 14,
+      "role": "c30",
+      "raw_step": -208.71333713423428,
+      "raw_merit_fraction": 4.910195725050754e-05,
+      "exact_accepted_physical_delta": -2.6089167141779286e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 15,
+      "role": "c32",
+      "raw_step": 374.88459001110834,
+      "raw_merit_fraction": 0.00015841400615759137,
+      "exact_accepted_physical_delta": 4.6860573751388546e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 16,
+      "role": "c34",
+      "raw_step": -510.7424922937474,
+      "raw_merit_fraction": 0.00029403727039246854,
+      "exact_accepted_physical_delta": -6.384281153671843e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 17,
+      "role": "c36",
+      "raw_step": -307.1109999299948,
+      "raw_merit_fraction": 0.00010631367814256773,
+      "exact_accepted_physical_delta": -3.838887499124935e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 18,
+      "role": "c38",
+      "raw_step": -422.8738549931608,
+      "raw_merit_fraction": 0.00020156729578907516,
+      "exact_accepted_physical_delta": -5.28592318741451e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 19,
+      "role": "c40",
+      "raw_step": -240.70674430174563,
+      "raw_merit_fraction": 6.530928321783912e-05,
+      "exact_accepted_physical_delta": -3.00883430377182e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 20,
+      "role": "c42",
+      "raw_step": 11.895912730550151,
+      "raw_merit_fraction": 1.5951221240506355e-07,
+      "exact_accepted_physical_delta": 1.486989091318769e-09,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 21,
+      "role": "c44",
+      "raw_step": -186.37713027321422,
+      "raw_merit_fraction": 3.915467653522077e-05,
+      "exact_accepted_physical_delta": -2.329714128415178e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 22,
+      "role": "c46",
+      "raw_step": -61.99804971514311,
+      "raw_merit_fraction": 4.332658464073317e-06,
+      "exact_accepted_physical_delta": -7.74975621439289e-09,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 23,
+      "role": "c48",
+      "raw_step": -24.09507418702509,
+      "raw_merit_fraction": 6.544175464430632e-07,
+      "exact_accepted_physical_delta": -3.0118842733781365e-09,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 24,
+      "role": "delta",
+      "raw_step": 0.0036736396310096814,
+      "raw_merit_fraction": 1.521218165123744e-14,
+      "exact_accepted_physical_delta": 0.0004592049538762102,
+      "initial_physical_derivative_unit": 1.0
+    },
+    {
+      "index": 25,
+      "role": "boost_length",
+      "raw_step": -0.0038511613479320778,
+      "raw_merit_fraction": 1.6717904036895844e-14,
+      "exact_accepted_physical_delta": -0.0004813951684915097,
+      "initial_physical_derivative_unit": 1.0
+    },
+    {
+      "index": 26,
+      "role": "boost_speed",
+      "raw_step": -0.0026289663597437174,
+      "raw_merit_fraction": 7.79055606751805e-15,
+      "exact_accepted_physical_delta": -0.0003286207949679647,
+      "initial_physical_derivative_unit": 1.0
+    }
+  ],
+  "parameter_rows_descending_merit": [
+    {
+      "index": 9,
+      "role": "c20",
+      "raw_step": -25498.140785003798,
+      "raw_merit_fraction": 0.7328505684399357,
+      "exact_accepted_physical_delta": -3.1872675981254747e-06,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 10,
+      "role": "c22",
+      "raw_step": -12500.285711698234,
+      "raw_merit_fraction": 0.17613200492080083,
+      "exact_accepted_physical_delta": -1.5625357139622793e-06,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 12,
+      "role": "c26",
+      "raw_step": -6512.997789252537,
+      "raw_merit_fraction": 0.04781457073586498,
+      "exact_accepted_physical_delta": -8.141247236565672e-07,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 7,
+      "role": "c16",
+      "raw_step": -5133.133468678538,
+      "raw_merit_fraction": 0.029700483066509364,
+      "exact_accepted_physical_delta": -2.7620570535245897e-06,
+      "initial_physical_derivative_unit": 4.304672099999998e-09
+    },
+    {
+      "index": 11,
+      "role": "c24",
+      "raw_step": -3223.6103507962125,
+      "raw_merit_fraction": 0.011713413717794642,
+      "exact_accepted_physical_delta": -4.029512938495266e-07,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 6,
+      "role": "c14",
+      "raw_step": 850.7094603039882,
+      "raw_merit_fraction": 0.0008157572165708057,
+      "exact_accepted_physical_delta": 5.086146220800881e-06,
+      "initial_physical_derivative_unit": 4.7829689999999986e-08
+    },
+    {
+      "index": 16,
+      "role": "c34",
+      "raw_step": -510.7424922937474,
+      "raw_merit_fraction": 0.00029403727039246854,
+      "exact_accepted_physical_delta": -6.384281153671843e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 18,
+      "role": "c38",
+      "raw_step": -422.8738549931608,
+      "raw_merit_fraction": 0.00020156729578907516,
+      "exact_accepted_physical_delta": -5.28592318741451e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 15,
+      "role": "c32",
+      "raw_step": 374.88459001110834,
+      "raw_merit_fraction": 0.00015841400615759137,
+      "exact_accepted_physical_delta": 4.6860573751388546e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 17,
+      "role": "c36",
+      "raw_step": -307.1109999299948,
+      "raw_merit_fraction": 0.00010631367814256773,
+      "exact_accepted_physical_delta": -3.838887499124935e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 19,
+      "role": "c40",
+      "raw_step": -240.70674430174563,
+      "raw_merit_fraction": 6.530928321783912e-05,
+      "exact_accepted_physical_delta": -3.00883430377182e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 14,
+      "role": "c30",
+      "raw_step": -208.71333713423428,
+      "raw_merit_fraction": 4.910195725050754e-05,
+      "exact_accepted_physical_delta": -2.6089167141779286e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 21,
+      "role": "c44",
+      "raw_step": -186.37713027321422,
+      "raw_merit_fraction": 3.915467653522077e-05,
+      "exact_accepted_physical_delta": -2.329714128415178e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 8,
+      "role": "c18",
+      "raw_step": 162.91181117438828,
+      "raw_merit_fraction": 2.9916001313247047e-05,
+      "exact_accepted_physical_delta": 2.0363976396798535e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 5,
+      "role": "c12",
+      "raw_step": 113.31970278001114,
+      "raw_merit_fraction": 1.4474689394466586e-05,
+      "exact_accepted_physical_delta": 7.527842020638986e-06,
+      "initial_physical_derivative_unit": 5.314409999999999e-07
+    },
+    {
+      "index": 13,
+      "role": "c28",
+      "raw_step": 92.73761808597283,
+      "raw_merit_fraction": 9.69416201908429e-06,
+      "exact_accepted_physical_delta": 1.1592202260746604e-08,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 22,
+      "role": "c46",
+      "raw_step": -61.99804971514311,
+      "raw_merit_fraction": 4.332658464073317e-06,
+      "exact_accepted_physical_delta": -7.74975621439289e-09,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 23,
+      "role": "c48",
+      "raw_step": -24.09507418702509,
+      "raw_merit_fraction": 6.544175464430632e-07,
+      "exact_accepted_physical_delta": -3.0118842733781365e-09,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 20,
+      "role": "c42",
+      "raw_step": 11.895912730550151,
+      "raw_merit_fraction": 1.5951221240506355e-07,
+      "exact_accepted_physical_delta": 1.486989091318769e-09,
+      "initial_physical_derivative_unit": 1e-09
+    },
+    {
+      "index": 4,
+      "role": "c10",
+      "raw_step": -7.99925950558378,
+      "raw_merit_fraction": 7.212701709472063e-08,
+      "exact_accepted_physical_delta": -5.9043534318152064e-06,
+      "initial_physical_derivative_unit": 5.904899999999999e-06
+    },
+    {
+      "index": 3,
+      "role": "c8",
+      "raw_step": -0.25384582233009034,
+      "raw_merit_fraction": 7.263374557777455e-11,
+      "exact_accepted_physical_delta": -2.081853050384653e-06,
+      "initial_physical_derivative_unit": 6.560999999999999e-05
+    },
+    {
+      "index": 25,
+      "role": "boost_length",
+      "raw_step": -0.0038511613479320778,
+      "raw_merit_fraction": 1.6717904036895844e-14,
+      "exact_accepted_physical_delta": -0.0004813951684915097,
+      "initial_physical_derivative_unit": 1.0
+    },
+    {
+      "index": 24,
+      "role": "delta",
+      "raw_step": 0.0036736396310096814,
+      "raw_merit_fraction": 1.521218165123744e-14,
+      "exact_accepted_physical_delta": 0.0004592049538762102,
+      "initial_physical_derivative_unit": 1.0
+    },
+    {
+      "index": 26,
+      "role": "boost_speed",
+      "raw_step": -0.0026289663597437174,
+      "raw_merit_fraction": 7.79055606751805e-15,
+      "exact_accepted_physical_delta": -0.0003286207949679647,
+      "initial_physical_derivative_unit": 1.0
+    },
+    {
+      "index": 0,
+      "role": "c2",
+      "raw_step": 0.0,
+      "raw_merit_fraction": 0.0,
+      "exact_accepted_physical_delta": 0.0,
+      "initial_physical_derivative_unit": 0.105
+    },
+    {
+      "index": 1,
+      "role": "c4",
+      "raw_step": 0.0,
+      "raw_merit_fraction": 0.0,
+      "exact_accepted_physical_delta": 0.0,
+      "initial_physical_derivative_unit": 0.0081
+    },
+    {
+      "index": 2,
+      "role": "c6",
+      "raw_step": 0.0,
+      "raw_merit_fraction": 0.0,
+      "exact_accepted_physical_delta": 0.0,
+      "initial_physical_derivative_unit": 0.0007289999999999999
+    }
+  ],
+  "arithmetic_alternative_cost_field_plus_core_in_gauge_units": 0.083782587986099,
+  "exact_accepted_core_rho_change_Fourier_l1": 0.006701862500040363,
+  "all_actual_core_modes_retained": true,
+  "original_y_order": "state-major C order from raw manifest",
+  "physical_field_warning": "q times the state coefficient difference is not the full Cartesian immersion change when profile/chart change.",
+  "alternative_merit_was_not_used": true,
+  "alternative_trial_acceptance_unknown": true,
+  "physical_surface": false,
+  "actual_coupled_acceptance_pending": true,
+  "used_arrays": [
+    "x",
+    "y",
+    "p"
+  ],
+  "cubic_not_reaudited_by_this_arithmetic": true,
+  "physical_RHS_evaluations": 0,
+  "Jacobian_evaluations": 0,
+  "tail_workers": 0
+}

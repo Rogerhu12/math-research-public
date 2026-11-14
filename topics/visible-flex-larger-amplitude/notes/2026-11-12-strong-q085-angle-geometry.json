@@ -1,0 +1,82 @@
+{
+  "scope": "Sample the image geometry of a saved m2 prefix in either supported chart.\n\nThe upper prefix is mirrored across z=0. This remains a surface with two\nboundary circles, not a closed candidate. Point-cloud Hausdorff values and\ndiameters have no continuous sampling-error certificate and are design screens.\n",
+  "checkpoint": "notes/2026-11-12-strong-angle-vu032-q085-m20.json.gz",
+  "checkpoint_sha256": "4562ab36dcfcdbef4456ed89429288caafb4c495cf248101c90240c23cad0441",
+  "source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+  "modes": 20,
+  "q": 0.085,
+  "radial_samples": 258,
+  "angular_samples": 128,
+  "upper_points": 33024,
+  "diameter_sample": 3.866429792543022,
+  "phases": [
+    {
+      "phase": 1.5707963267948966,
+      "hausdorff_sample": 0.17176088140020038,
+      "held_over_D_sample": 0.04442363902002475,
+      "forward": 0.17176088140020035,
+      "backward": 0.17176088140020038,
+      "forward_witness": [
+        -0.04097147779732753,
+        1.077601346951361,
+        0.0
+      ],
+      "forward_nearest": [
+        -0.06595483944569451,
+        0.9076671478620647,
+        -0.0
+      ],
+      "backward_witness": [
+        -1.077601346951361,
+        0.04097147779732756,
+        0.0
+      ],
+      "backward_nearest": [
+        -0.9076671478620647,
+        0.06595483944569472,
+        0.0
+      ]
+    }
+  ],
+  "best": {
+    "phase": 1.5707963267948966,
+    "hausdorff_sample": 0.17176088140020038,
+    "held_over_D_sample": 0.04442363902002475,
+    "forward": 0.17176088140020035,
+    "backward": 0.17176088140020038,
+    "forward_witness": [
+      -0.04097147779732753,
+      1.077601346951361,
+      0.0
+    ],
+    "forward_nearest": [
+      -0.06595483944569451,
+      0.9076671478620647,
+      -0.0
+    ],
+    "backward_witness": [
+      -1.077601346951361,
+      0.04097147779732756,
+      0.0
+    ],
+    "backward_nearest": [
+      -0.9076671478620647,
+      0.06595483944569472,
+      0.0
+    ]
+  },
+  "core_axis_witness": {
+    "point": [
+      0.0,
+      1.0785888868301308,
+      0.0
+    ],
+    "distance_sample": 0.1692910944990268,
+    "nearest": [
+      8.23669990383006e-17,
+      0.909297792331104,
+      0.0
+    ]
+  },
+  "seconds": 3.782808303833008
+}

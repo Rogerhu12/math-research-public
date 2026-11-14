@@ -1,0 +1,27 @@
+{
+  "scope": "Finite linear design, maximizing soft minimum of physical mode-two positive-branch gates. Each evaluation changes the metric.",
+  "source_sha256": {
+    "/workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_hard_gate_opt.mjs": "c5913cecf2ef302552c4dbf9dafd1da4739c232124ffdcc4c9debd27162b79dc",
+    "topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-opt-port16.json": "8ebf7483c94a541bc47c4da88e515a0c77034eea4bacfe24ac2522531c484d21"
+  },
+  "replacements": [
+    [
+      "'./closing_weighted_tail.mjs'",
+      "\"file:///workspace/scratch/78718bd0c4a9/math-research/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs\""
+    ],
+    [
+      "p=32",
+      "p=8"
+    ],
+    [
+      "objectivePower:32",
+      "objectivePower:8"
+    ]
+  ],
+  "driver_sha256": "f7d0b0bff82c1bbf1314216a19947d5a5e24ef5929b980dc822c46f123551331",
+  "steps": 64,
+  "mode": 2,
+  "far": 32,
+  "controls": 7,
+  "maxIterations": 180
+}

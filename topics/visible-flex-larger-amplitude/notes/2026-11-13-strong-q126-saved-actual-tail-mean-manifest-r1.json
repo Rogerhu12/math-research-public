@@ -1,0 +1,64 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T18:59:21.639847+00:00",
+  "title": "True accepted A finite-tail saved complete-stage mean recovery",
+  "scope": "Original final A M32 depth8 states and all576 cached variational J match bitwise. No new ODE/factory/solve; finite numerical mean only, no whole closed-surface certificate.",
+  "owned_exitcode": 0,
+  "owned_wait4_observed": true,
+  "checks": 3498,
+  "primary": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1.json.gz",
+  "primary_sha256": "59717e6b83c009671781054b7042624fa30ef39b9f8f9660e9511b1481092e14",
+  "resource": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-resource.json",
+  "files": [
+    {
+      "file": "computations/strong_saved_actual_tail_mean.py",
+      "bytes": 13651,
+      "sha256": "33a91bdf5fb1ad7566e5c87f7ef9d581914d737f970af99db1c56b430c2149c6"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-heartbeat.json",
+      "bytes": 301,
+      "sha256": "5d707b3e92b532b9b1040bc2df477af1fdf27486823edae2e831d20275fbaefb"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-out-and-mean.f64le.gz",
+      "bytes": 299695,
+      "sha256": "ccd837316e5de3a0a0ca3e3a29a8c1257c2655da3297f6b7d6742605d631a981"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-ownership.json",
+      "bytes": 2259,
+      "sha256": "1ceedd63b3c5d9cde59aba32c4ff3467ea9d2d0e68a9a5872262d2d8dacd835c"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-proof.md",
+      "bytes": 2415,
+      "sha256": "8d32038ffa2ab4993e858c258f21ce32fe667452432507a7b87d7ea77403d9b9"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-resource.json",
+      "bytes": 2054,
+      "sha256": "87be4d190ccccab57e4731969abefe2fcd446ebc95f88126e61ebb7b0a504802"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-stage-identity.txt.gz",
+      "bytes": 13911,
+      "sha256": "838cfd4ef233201d7132f8e60feb8970afc232e7395b1f9a69a7718534324c73"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1-stdout.log",
+      "bytes": 2267,
+      "sha256": "5de4943bbe3642437caddf54629f357ba412e268c8658941a1b5962e6db8d6fd"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-saved-actual-tail-mean-r1.json.gz",
+      "bytes": 205021,
+      "sha256": "59717e6b83c009671781054b7042624fa30ef39b9f8f9660e9511b1481092e14"
+    }
+  ],
+  "bytes": 541574,
+  "reused_original_fullflow_manifest": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz",
+  "reused_original_fullflow_manifest_sha256": "3f63c69738fc171709a4cba47baeaf70c40778876e03f93436db56b302578e1f",
+  "original_J_bytes_not_duplicated": 18874368,
+  "every_original_stage_file_reconstructs_bit_for_bit": true
+}

@@ -1,0 +1,104 @@
+{
+  "schema": "accepted-A-all-shooting-node-Cartesian-first-jet-readout-v1",
+  "finished": true,
+  "source_sha256": "aa6678f2411b1f4f106b64c75c25a3961cb680d8ba80f23b6218a3694527b0d2",
+  "input_inventory_commit": "c2efbb20c47a84adbc76fdca62b250c178d0d7fe",
+  "original_fullflow_identity_sha256": "87faa56945ad2a7fc32bd767f4bab6a62c79a90b41efacda5ffd0b5d1d06a53a",
+  "original_A_primary_sha256": "917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf",
+  "original_final_tail_sha256": "018d19c6ca8c27acc5cc1dde6d396ee783e34ae25e5b525158c5bb37086520d9",
+  "original_mean_primary_sha256": "59717e6b83c009671781054b7042624fa30ef39b9f8f9660e9511b1481092e14",
+  "range": [
+    0,
+    577
+  ],
+  "requestedNodes": 577,
+  "completedNodes": 577,
+  "whole_577_node_readout_complete": true,
+  "angular": 512,
+  "columns": [
+    "delta_X_round",
+    "delta_Y_round",
+    "height_oscillatory",
+    "delta_X_r_round",
+    "delta_Y_r_round",
+    "height_r",
+    "delta_X_theta_round",
+    "delta_Y_theta_round",
+    "height_theta",
+    "height_rr",
+    "height_rtheta",
+    "height_thetatheta"
+  ],
+  "layout": "node files: angle-major Float64LE, no omitted angles",
+  "angular_rule": "theta_j=2*Math.PI*j/512, j=0,...,511, exactly the original point evaluator grid",
+  "reconstruction": {
+    "position": [
+      "r*cos(theta)+delta_X_round",
+      "r*sin(theta)+delta_Y_round",
+      "meanHeightInnerAnchor+height_oscillatory"
+    ],
+    "radial": [
+      "cos(theta)+delta_X_r_round",
+      "sin(theta)+delta_Y_r_round",
+      "height_r"
+    ],
+    "angular": [
+      "-r*sin(theta)+delta_X_theta_round",
+      "r*cos(theta)+delta_Y_theta_round",
+      "height_theta"
+    ]
+  },
+  "vertical_second_jets_only": true,
+  "horizontal_rr_not_computed": true,
+  "height_anchor": "The deepest shooting node576 has mean height zero. A separate actual prefix-cut height/rigid frame matching is required.",
+  "original_meanHeightToCut_forward_sum": 0.022683979296285784,
+  "summary": {
+    "sampleMetric": 1.4786489140807087e-16,
+    "formalHeightCurvature": 7.993491041955345,
+    "rootRelativeResidual": 7.742832390102141e-14,
+    "darboux": 3.5743543629857207e-12,
+    "translationPeriod": 5.901596471901923e-22,
+    "angularHolonomyResidual": 1.9868464723217448e-20,
+    "minA": 0.8635336593333647,
+    "minD": 0.9999285144922314
+  },
+  "evaluations": {
+    "pointRoots": 1154,
+    "pointRHS": 577,
+    "RKSteps": 0,
+    "ODEFlows": 0,
+    "shootingOrBVPNewtonSolves": 0,
+    "pointRootNewton": "permitted inside original point roots; iterations not counted here",
+    "newVariationalFlows": 0
+  },
+  "limitations": [
+    "Finite accepted M32/depth8/steps12 state readout at 577 possible radial nodes and 512 original angular nodes only.",
+    "Point roots and actual vertical two-jets are newly evaluated by the pinned original formulas; no interval or continuous radial error bound.",
+    "Horizontal development uses the pinned original centered-round and zero-mean-phase gauge; no fitted rigid transformation.",
+    "Saved stage mean is a finite original integral. It is not replaced by the rotational background and is not a rigorous integral remainder bound.",
+    "Horizontal rr jets, continuous Hermite/tail agreement, flat closure, all-t fixed-g refinement, complete diameter, reach and Hausdorff amplitudes remain separate obligations.",
+    "No new physical solution, changed acceptance gate, or successful CI/owned status is inferred from source preparation."
+  ],
+  "seconds": 68.46129252,
+  "actual_exitcode": 0,
+  "wait4_observed": true,
+  "peak_rss_kib": 181532,
+  "wall_seconds": 69.46133847100009,
+  "complete_file_sha256": "6887c64b49c82b1f1fed64c89c1a5ac0bcd240fcea9ca23de3535c6d5116274b",
+  "complete_file_bytes": 1066833,
+  "preflight_checks": 4411,
+  "source_preparation_root": "/workspace/scratch/ffc1334c1988/source-dependencies",
+  "radial_nodes": {
+    "strictly_decreasing": true,
+    "minimum_gap": 6.028183120732056e-08,
+    "maximum_gap": 0.018067110407346376,
+    "first": 0.30000000000000004,
+    "last": 0.05056158669090205
+  },
+  "original_failed_attempt": {
+    "exitcode": 1,
+    "reason": "The original reader incorrectly required every pinned source to be under one topic; the manifest spans several topics.",
+    "science_started": false
+  },
+  "current_scope": "New finite Cartesian node readout; not a new solution or continuous closed-surface certificate."
+}

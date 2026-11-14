@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "error": null,
+  "limit_KiB": 122880,
+  "peak_RSS_KiB": 50896,
+  "elapsed_seconds": 12.74798736000048,
+  "resource_events": 437,
+  "last_event": {
+    "sequence": 437,
+    "phase": "scale-causal-row",
+    "peak_RSS_KiB": 50896,
+    "seconds": 12.708595877000334,
+    "cell": 224
+  },
+  "trace": "notes/2026-11-12-tail-r42-strong-same-tau-r1-resource.jsonl",
+  "output": "notes/2026-11-12-tail-r42-strong-same-tau-r1",
+  "output_exists": true,
+  "monitor_source_sha256": "4dc17ec37763d533a2e7003df94698ab0d3b7ea544efb93569134f12c5f962d6",
+  "source_sha256": "f6af1318eee63601335031b063dd12ed1a950f6062a954f2da77a726c4969ef0",
+  "output_prefix": "notes/2026-11-12-tail-r42-strong-same-tau-r1"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "tail-original-stored-shared-stable-graphs-v1",
+  "acceptedTrialCheckpoints": "recovery-only-before-full-variational-recheck-v1",
+  "coreSHA256": "ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3",
+  "splitSHA256": "bacb4f2d57d75fa648ae880ef029152263052d6a15030154082732b8a89e1089",
+  "adapterSHA256": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8",
+  "graphSHA256": "be119b692fa20ea4cc646ff6c0e109fe473076974689558b4551c46e00359fdd",
+  "replacements": [
+    {
+      "before": "const wholeGraph=buildStableStageGraphs(physical,stages,{modes:M,spacing,linearFar,linearSteps});",
+      "after": "const wholeGraph=(options.stableGraphFactory??buildStableStageGraphs)(physical,stages,{modes:M,spacing,linearFar,linearSteps});"
+    },
+    {
+      "before": "opts.trialDiagnostic?.({...diagnostic,kind:'accepted',trialNorm:test.norm},null);break;",
+      "after": "opts.trialDiagnostic?.({...diagnostic,kind:'accepted',trialNorm:test.norm},null);\n     opts.progress?.({iteration:it+1,norm:test.norm,phase:'accepted-trial-recovery-only',acceptedFromIteration:it,acceptedTrial:k,acceptedStep:lambda},states.map(v=>Array.from(v)));break;"
+    }
+  ],
+  "solverChangeBeyondProgressCallback": false,
+  "scope": "Original stored metric and shared stable graph arithmetic. An already accepted trial is copied to the existing recovery-only progress recorder before the next variational pass. The pass, solve tolerance, positivity guard, line search and success definition remain unchanged."
+}

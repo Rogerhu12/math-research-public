@@ -1,0 +1,207 @@
+{
+  "schema": "actual-prepared-fine-warm-core-inlet-resolution-diagnostic-v1",
+  "scope": "Inspect a complete unsolved warm core in its genuine reference chart.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nThe geometry screen is explicitly an unsolved warm field. Its complete core\nis projected with the original PlanarSupportCore/GeneralCoreChart and exact\noriginal cylindrical basis/project/values routines. No accepted endpoint is\ninvented, no original accepted file is modified, and no Flow/ODE/BVP/Node is\nconstructed. Higher-M rows are inlet projection diagnostics only.\n",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "source_and_input_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_prepared_fine_warm_inlet_diagnostic.py": "80f914621314962239cbd29135ae936f332128edc5f29707903c98043489963a",
+    "m32-q122-r1/q126-tail2-size102-r1-prepared-core.json": "4caafe07078dd2bce737f68ea878ad0c8dce5f23809aba81bb5af7f8dd8f525a",
+    "notes/2026-11-13-strong-q122-m32-sameg-actual-r1.json.gz": "4c0e13b2ea4e2541e75891a3b4fafa93ffc2f8331cfdcdc7e4083ac3cbfef1ad",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/geometric-general-core-chart.py": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_saved_core_inlet_resolution_diagnostic.py": "95e4ee845167bc95f54c92272fba192c80fa5fe5810dcab344fa4bcdf6ffefca",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+  },
+  "original_inlet_source_sha256": "770eb7872b17e59626f76bfbb2138aa0bbb889737007aae1951a5edc242badfa",
+  "exact_reversible_input_adapter": true,
+  "prepared_core_sha256": "4caafe07078dd2bce737f68ea878ad0c8dce5f23809aba81bb5af7f8dd8f525a",
+  "geometry_field_computed": false,
+  "full_warm_core_coefficients": [
+    0.12599999803539827,
+    -0.009256552462686113,
+    -0.0006450302499718777,
+    -0.0001991058140805389,
+    -2.2060722223385215e-05,
+    -7.066012152959736e-06,
+    -1.3498777374247698e-05,
+    4.964008000283142e-06,
+    1.3008711124268143e-06,
+    5.122015492725259e-07,
+    8.526512829121203e-23,
+    4.477018481413657e-08,
+    1.250787016776142e-07,
+    -1.075956666117865e-07,
+    -1.8585562168986303e-08,
+    5.271584340260523e-09,
+    -8.54170849104012e-08,
+    2.097635880540774e-09,
+    1.7744874817038707e-08,
+    -1.3070747685070162e-08,
+    -6.030831385221536e-09,
+    -4.320821057150441e-09,
+    8.348877145181178e-22,
+    -7.160538168941002e-09,
+    -1.0810659350560974e-09,
+    -1.677632016210252e-09,
+    2.5565779403197076e-09,
+    2.153832667772804e-23,
+    -2.4559150731948207e-10,
+    2.196750534841876e-10,
+    -1.0933093604926717e-10,
+    4.425494598387764e-11
+  ],
+  "frequencies": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64
+  ],
+  "requested_profile_parameters_not_yet_evaluated": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.1799886904653553,
+    "vu": 0.3203723157565417,
+    "vd": 0.98,
+    "start_acceleration": 0.6179514713986892,
+    "boost_speed": 0.8330578212534273,
+    "boost_length": 0.12797033591980586,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.642366928961031,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "material_reference_coefficients": [
+    0.09,
+    -0.006363961030678927
+  ],
+  "material_reference_frequencies": [
+    2,
+    4
+  ],
+  "real_reference_length_used_only_as_positive_chart_constructor": 3.154318819114381,
+  "inlet_formula_independent_of_profile_and_length": true,
+  "gauge": 0.09,
+  "rows": [
+    {
+      "modes": 32,
+      "angular": 4096,
+      "position": 5.584519788592639e-10,
+      "first": 3.7897130641219195e-08,
+      "second": 2.5824355086343274e-06,
+      "metric_l1": 4.181519678478582e-09,
+      "metric_pointwise_max": 3.286454219875168e-09,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 32,
+      "angular": 8192,
+      "position": 5.584519788592639e-10,
+      "first": 3.7897130897756225e-08,
+      "second": 2.5824355273090542e-06,
+      "metric_l1": 4.181526577001217e-09,
+      "metric_pointwise_max": 3.2864553300981925e-09,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 40,
+      "angular": 5120,
+      "position": 1.862810830611889e-12,
+      "first": 1.622064199850378e-10,
+      "second": 1.4259798595230743e-08,
+      "metric_l1": 3.465568323626738e-11,
+      "metric_pointwise_max": 2.7815527658958672e-11,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 64,
+      "angular": 8192,
+      "position": 1.0421276745584676e-14,
+      "first": 1.8158753114442777e-13,
+      "second": 2.3155142418258226e-11,
+      "metric_l1": 4.922433866919763e-13,
+      "metric_pointwise_max": 2.333688797762079e-13,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    }
+  ],
+  "full_core_tail_diagnostics": [
+    {
+      "minimum_frequency": 40,
+      "complete_saved_core_mode_count": 13,
+      "coefficient_l1_exact": {
+        "numerator": "6213056933070290445999035010557",
+        "denominator": "170141183460469231731687303715884105728"
+      },
+      "support_curvature_radius_l1_exact": {
+        "numerator": "12469741727497545924022622015654595",
+        "denominator": "170141183460469231731687303715884105728"
+      }
+    },
+    {
+      "minimum_frequency": 48,
+      "complete_saved_core_mode_count": 9,
+      "coefficient_l1_exact": {
+        "numerator": "2227942055902497613836119273117",
+        "denominator": "170141183460469231731687303715884105728"
+      },
+      "support_curvature_radius_l1_exact": {
+        "numerator": "5682253553138512823101999051281571",
+        "denominator": "170141183460469231731687303715884105728"
+      }
+    },
+    {
+      "minimum_frequency": 56,
+      "complete_saved_core_mode_count": 5,
+      "coefficient_l1_exact": {
+        "numerator": "105292287011661665556700688029",
+        "denominator": "170141183460469231731687303715884105728"
+      },
+      "support_curvature_radius_l1_exact": {
+        "numerator": "377359116374298377346209967608995",
+        "denominator": "170141183460469231731687303715884105728"
+      }
+    }
+  ],
+  "same_complete_core_as_accepted_reference": false,
+  "no_new_accepted_endpoint": true,
+  "original_accepted_candidate_or_g_modified": false,
+  "new_Flow_ODE_Node_Newton_calls": 0,
+  "continuous_metric_reach_or_closed_surface_certificate": false
+}

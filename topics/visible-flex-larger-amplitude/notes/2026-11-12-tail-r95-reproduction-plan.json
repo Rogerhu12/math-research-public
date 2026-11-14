@@ -1,0 +1,54 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Exact pure-BigInt derivation actually completed in functions.exec; this is not an OS subprocess or a new radial computation.",
+  "source": {
+    "path": "computations/tail_r95_seg7_curvature_budget.js",
+    "git_blob": "8c1828877319ff9416366f92524c3dcb11c5d4a2",
+    "sha256": "8586bcb4501f5628086d8db76b155fc71920102abec8b760637c2a1612b180fb",
+    "bytes": 10145
+  },
+  "inputs": [
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+      "sha256": "806fdb96b9aa6eafd921c07518a5b52218180d2182f7b8d18abb8e3d695638e4",
+      "raw_key": "original"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+      "sha256": "912ad6200027fdb445cd3e8636c1f6cd404a3480d2c013b6c4722e6888016820",
+      "raw_key": "resource"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r31-recovered-background-ledger.json",
+      "sha256": "27e9cac085dd4913cdf14526fec847613bede8fae5367ae72cc143f25b254083",
+      "raw_key": "background"
+    }
+  ],
+  "reproduction": [
+    "Read the frozen source and verify its SHA256 against the source row before evaluating it.",
+    "Read the three full original UTF-8 JSON texts as raw.original/raw.resource/raw.background without normalizing line endings.",
+    "Evaluate the side-effect-free plain JavaScript function with Function(source+'; return deriveSeg7Curvature;')(), then call it once on raw.",
+    "The bundled SHA-256 verifies all three input text hashes internally; every inequality uses BigInt cross multiplication and exact reduced fractions.",
+    "Compare exact numerator/denominator fields and all nine gates with the recorded ledger. Do not require environment/provenance fields to equal.",
+    "An environment with ordinary JavaScript BigInt suffices; no Node-specific API, Arb, network, file write, ODE or BVP is called by the source."
+  ],
+  "runtime": {
+    "actual_functions_exec_returned_success": true,
+    "OS_subprocess_started": false,
+    "OS_exitcode": null,
+    "RSS_measurement_available": false,
+    "Node_process_started": false
+  },
+  "scope": "The candidate formal shape-operator bound is paid. The true curvature bound remains conditional on a same-g actual C2 immersion and all five stated physical-polar derivative errors <=1/8192 across all 1740 original continuous leaves and the full real circle.",
+  "true_solution_existence_paid": false,
+  "true_solution_derivative_errors_paid": false,
+  "reference_scope": {
+    "cell": 0,
+    "segment": 7,
+    "parts": 8,
+    "continuous_leaves": 1740,
+    "modes": 20
+  },
+  "old_candidate_and_all_numerical_sources_unchanged": true
+}

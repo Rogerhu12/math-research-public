@@ -1,0 +1,76 @@
+{
+  "schema": "strong-continuous-mean-stable-text-v1",
+  "created_utc": "2026-11-13 00:01:27 UTC",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "source_branch_state": "main 186dfb5b8bb883b4162ee8ca56b649c624b268a7 contains the preceding chart/finite-field interface",
+  "files": [
+    {
+      "path": "computations/strong_mean_homotopy_exact.js",
+      "sha256": "e3529092246444db572868f0dc747480b06becbdcecc907f3aff2dcc137b5d1e",
+      "bytes": 17281,
+      "blob_sha": "543a62388c9b06e034a27062da3f0633e6fe9170",
+      "status": "executed only as pure JavaScript BigInt algebra self-check; no actual field input"
+    },
+    {
+      "path": "notes/2026-11-12-strong-mean-homotopy-exact-check.json",
+      "sha256": "9901a5a952ab0666483264aaaa497290751a67a961bdb7554b94ad57add728d6",
+      "bytes": 16999,
+      "blob_sha": "208a2a8ebc4ce02a56c27acec9f7c36ff05c86fa",
+      "status": "15 executed pure-algebra checks; all true; no actual prefix claim"
+    },
+    {
+      "path": "notes/2026-11-12-strong-mean-homotopy-interface.md",
+      "sha256": "df06a98641f1cae45f8f8967e4f115398e75c79baac037412a89b8afc1528760",
+      "bytes": 7370,
+      "blob_sha": "8d8398559ee272fc5a5b8cd680ff7fb78763e156",
+      "status": "mathematical implication and explicit remaining input/mean/knot obligations"
+    },
+    {
+      "path": "computations/strong_sameg_continuous_finite_field.py",
+      "sha256": "8ceb28045607f7c533c134bf2281a00c644c5728c2bb3714a51238a4c4eefa12",
+      "bytes": 17949,
+      "blob_sha": "b999cbc7236a4acdfa6824bf229905efc3787797",
+      "status": "prepared extension adds exact E12 mean intermediate; actual M28 input not available"
+    },
+    {
+      "path": "computations/strong_q096_convection_mean_exact.js",
+      "sha256": "d0c7b580677bc6930106894c5b2628b57584aa8374f99ec28917d7e41dc3cff9",
+      "bytes": 8817,
+      "blob_sha": "2290851816c1e7d662ae04f20a36265fe17ee78a",
+      "status": "executed pure exact algebra; no field input or worker"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q096-convection-mean-exact.json",
+      "sha256": "7a58d73cd20c45f790e5c930b5136fc87470267cd3c14088be557fe2f9d86e02",
+      "bytes": 56147,
+      "blob_sha": "22f6660143e9823c7d9144320eed733bbceee5f8",
+      "status": "10 groups passed, all 28 finite-mode operator weights; normal mean unpaid"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q096-convection-mean-exact.md",
+      "sha256": "5f8d4d5e93eb9dc5a6a6c5ac07fe99b65fd5eac89b2ac8d8cb7b748507d8ee01",
+      "bytes": 6151,
+      "blob_sha": "c66c83a78abcf7ca9b40622b2633a865ab2922fa",
+      "status": "complete exact series/constant-term proof and actual remaining obligations"
+    }
+  ],
+  "all_mjs_unchanged": true,
+  "physical_RHS_calls": 0,
+  "newton_solves": 0,
+  "tail_workers": 0,
+  "no_new_M28_run": true,
+  "original_accepted_q096_not_recomputed": true,
+  "finite_field_source_replacement": {
+    "previous_sha256": "687362608ccc71b0b22a296a908833385cefad70089b49b445f078dbe5e17828",
+    "new_sha256": "8ceb28045607f7c533c134bf2281a00c644c5728c2bb3714a51238a4c4eefa12",
+    "change": "Add exact E12 from the same existing coefficient loop; no previous execution or numerical gate changed."
+  },
+  "actual_certificates": [
+    "Common fixed-chart convection operator only, all b in [0,1], 28 finite modes."
+  ],
+  "conditional_or_prepared": [
+    "Mean homotopy implication requires supplied strict full field/profile boxes, which are not yet generated.",
+    "Finite-field M24/M28 comparison source remains prepared until actual M28 completes."
+  ],
+  "execution_environment": "Executor still unavailable after fifth loss; pure JavaScript tools were available. No ref mutation by this agent."
+}

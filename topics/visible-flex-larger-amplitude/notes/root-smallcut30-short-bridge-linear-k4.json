@@ -1,0 +1,107 @@
+{
+  "bridge": {
+    "parameters": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.5
+    },
+    "cut": {
+      "radius": 0.30000000000000004,
+      "backgroundSlope": 0.08000000000000027,
+      "backgroundSecond": -1.866666666666673,
+      "E": 1.0064,
+      "Ep": -0.2986666666666687
+    },
+    "length": 0.9312223193090415,
+    "pieces": [
+      0.5740805002270417,
+      0.3139645449076158,
+      0.04317727417438396
+    ],
+    "height": 0.37197620068956444,
+    "angle_max": 1.530881333938778,
+    "minimum_cosine": 0.039904394895017584,
+    "meridian_curvature_bound": 4.0,
+    "parallel_curvature_bound": 3.333333333333333,
+    "initial_jets": [
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    "terminal_jets": [
+      0.30000000000000004,
+      -0.996815278536125,
+      0.14744006140246774
+    ],
+    "scope": "C2 inward bridge with bounded turning angle, plus linear design screening.\n\nThe angle rises by a cubic smoothstep, stays constant, and finishes with a\nquadratic decrease. A positive plateau length pays the exact radial drop.\nThis defines an actual smooth metric profile; the linear search does not\nsolve its nonlinear isometric embedding or establish a closed surface.\n"
+  },
+  "rows": [
+    {
+      "profile": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.4385102367389575,
+        "delta": 0.15729527031374382,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.5
+        }
+      },
+      "residual": [
+        0.03509181766802025,
+        -0.0002586420954861369
+      ],
+      "linear_candidate": false
+    },
+    {
+      "profile": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.44983585903474066,
+        "delta": 0.15207389004244012,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.5
+        }
+      },
+      "residual": [
+        0.042309163754981595,
+        -0.0004680796496637181
+      ],
+      "linear_candidate": false
+    },
+    {
+      "profile": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.05000000000000006,
+        "delta": 0.046142066772739215,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.5
+        }
+      },
+      "residual": [
+        0.07663235831661254,
+        0.09950069529353231
+      ],
+      "linear_candidate": false
+    }
+  ],
+  "seconds": 37.320576667785645
+}

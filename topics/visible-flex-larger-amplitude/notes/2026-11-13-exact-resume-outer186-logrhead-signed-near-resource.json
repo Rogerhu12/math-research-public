@@ -1,0 +1,28 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-outer-newwide186-logrhead-posterior-v4.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/exact-work/newwide186-logr-inputs/input-manifest.json",
+    "--seed-primary",
+    "/workspace/scratch/d1aa462cfc02/exact-work/outer-newwide186-fine53-r2-certificate.json.gz",
+    "--seed-sha256",
+    "490856a99bd8d530dafa288753c09b9298ed18e36c7f43a73c18bff69716f709",
+    "--seed-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/outer-newwide186-fine53-run2-resource.json",
+    "--seed-resource-sha256",
+    "a11f3a4c1970e2797747d6611155425656332b40c5b02c68ec29a26ba27d54d6",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/outer-newwide186-logr-batch01",
+    "--cycles",
+    "2"
+  ],
+  "wall_seconds": 69.34068965911865,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 86028,
+  "user_seconds": 67.294355,
+  "system_seconds": 0.495754,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

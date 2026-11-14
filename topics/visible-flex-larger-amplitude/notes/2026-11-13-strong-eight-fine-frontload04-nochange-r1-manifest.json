@@ -1,0 +1,61 @@
+{
+  "schema": "actual-expanded-frontload-design-diagnostic-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "classification": "heuristic / numerical design evidence",
+  "producer_sha256": "2ecc204c50bf4f46a955e981dbb0e849b38eeddf9729516ade20c060fa83d629",
+  "archive_source_sha256": "571b08efd1386b37a46f7788efb27df30cd12efd0ad2796190258dd24adc2618",
+  "files": [
+    {
+      "path": "computations/root_fine_core_tail_proxy_eight_sync_frontload04.py",
+      "sha256": "2ecc204c50bf4f46a955e981dbb0e849b38eeddf9729516ade20c060fa83d629",
+      "bytes": 16919,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_fine_core_tail_proxy_eight_sync_frontload04.py"
+    },
+    {
+      "path": "computations/archive_eight_fine_frontload_diagnostic.py",
+      "sha256": "571b08efd1386b37a46f7788efb27df30cd12efd0ad2796190258dd24adc2618",
+      "bytes": 9501,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/archive_eight_fine_frontload_diagnostic.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-fine-frontload04-nochange-r1-source-preparation.json",
+      "sha256": "fcf5c9c45f4aedb588e4e2db874d22b1149ffa57f1c2bb97c2edd39e506b6187",
+      "bytes": 1348,
+      "original_path": "m28-q122-r1/eight-fine-tail-sync-frontload04-source-preparation-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-fine-frontload04-nochange-r1-primary.json",
+      "sha256": "0a6446cc2060e74d381e9a72f3a2395d568cb0f0a0872d30d6e7079d8db35012",
+      "bytes": 142432,
+      "original_path": "m28-q122-r1/eight-fine-sync-frontload04-tail4-q008-size1035-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-fine-frontload04-nochange-r1-resource.json",
+      "sha256": "bd90e07fefa706cc711412ebccce77761db68d573872c7acd5eff527308ebc7b",
+      "bytes": 2506,
+      "original_path": "m28-q122-r1/eight-fine-sync-frontload04-tail4-q008-size1035-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-fine-frontload04-nochange-r1-bridge.json",
+      "sha256": "c257ddfe00e5d988673fc6adcfda5535ba571f4aa0982d7dd37e3a81b006b39b",
+      "bytes": 67739,
+      "original_path": "m28-q122-r1/eight-fine-sync-frontload04-tail4-q008-size1035-r1-bridge.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-fine-frontload04-nochange-r1-candidate-equality.json",
+      "sha256": "2c599e820377519c50aba7ab55db0c29b08d87c9dc2c160bdf8e637ac049a10a",
+      "bytes": 1680,
+      "original_path": "m28-q122-r1/eight-fine-sync-frontload04-tail4-q008-size1035-r1-candidate-equality.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-fine-frontload04-nochange-r1-proof.md",
+      "sha256": "15fded4562c3702b94f861d2ff72943b387d7ed9c81d52eb1554aaa8ec25c4b8",
+      "bytes": 2826
+    }
+  ],
+  "total_bytes": 244951,
+  "saved_candidate_unchanged": true,
+  "actual_warm_recomputed": false,
+  "new_BVP_or_fine_Jacobian": false,
+  "previous_seventeen_field_manifest": "notes/2026-11-13-strong-q122-eight-complete-geometry-reader-r1-manifest.json"
+}

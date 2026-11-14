@@ -1,0 +1,24 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/strong_initial_speed_pulse_envelope.py",
+    "--accepted-reference",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz",
+    "--pulse-budget",
+    "notes/2026-11-12-strong-initial-speed-pulse-budget-r1.json",
+    "--samples-per-piece",
+    "1025",
+    "--batch",
+    "16",
+    "--out",
+    "notes/2026-11-12-strong-initial-speed-pulse-envelope-r1.json"
+  ],
+  "wall_seconds": 16.071894645690918,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 64024,
+  "user_seconds": 2.358488,
+  "system_seconds": 0.16082,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

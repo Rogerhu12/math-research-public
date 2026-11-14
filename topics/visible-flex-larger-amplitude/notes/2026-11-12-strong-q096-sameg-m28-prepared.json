@@ -1,0 +1,139 @@
+{
+  "scope": "Same accepted q096 physical metric: genuine fixed-view mapping, exact old numerical-coordinate spectral warm, actual M28 solve, complete finite physical audits.",
+  "status": "prepared_unexecuted",
+  "superseded_unexecuted_source_blob": "7128ec437ce72279aa665dcff93c7dfbf8d8f3d7",
+  "superseded_reason": "Draft guessed equal radial/tangent block lengths; pinned cylindrical basis actually has radial mean at row0 and M+1 radial rows. Corrected before execution/publication; no accepted data or executed calculation was affected.",
+  "files": [
+    {
+      "path": "computations/strong_sameg_spectral_refinement.py",
+      "blob": "992ac187471c36513977edb69d1aec930565f3fd",
+      "sha256": "65e81c73707c6f094ce5d494965d2fd468e971f4fa450d88513cf4ac622476fd",
+      "bytes": 31340,
+      "status": "prepared source; no Python AST/RHS/Node/BVP executed"
+    },
+    {
+      "path": "computations/strong_sameg_actual_comparison.py",
+      "blob": "c1aa63f7a020fb370368e988f99e8fc520aaf381",
+      "sha256": "7c152306f09faf7de890377af4f69406677c374ed707b2bc2e391208c8d57f57",
+      "bytes": 8647,
+      "status": "prepared source; no Python AST/RHS/Node/BVP executed"
+    },
+    {
+      "path": "computations/strong_ci_q096_sameg_m28.py",
+      "blob": "c42ef545ac57b056663b3ec04580c3d0992234eb",
+      "sha256": "77903999c2a1beb3101fb15de27829c330db4121deee1463c145d8d27cd98422",
+      "bytes": 21692,
+      "status": "prepared source; no Python AST/RHS/Node/BVP executed"
+    }
+  ],
+  "bootstrap_command": [
+    "python",
+    "-u",
+    "computations/strong_ci_q096_sameg_m28.py",
+    "--repo",
+    "<owned checkout or materialized runtime>",
+    "--work-root",
+    "<owned temporary root>",
+    "--run-id",
+    "<fresh simple run id>",
+    "--phase",
+    "all",
+    "--node-heap",
+    "128",
+    "--max-nodes",
+    "3200"
+  ],
+  "optional_existing_source": [
+    "--source-topic",
+    "<verified 91-source root>/topics/visible-flexible-closed-surface"
+  ],
+  "sequential_stages": [
+    "Verify all 63 accepted published original byte streams; decode publication gzip logs only for SHA comparison, without claiming a new artifact ZIP check.",
+    "Verify/restore exactly pinned 91 sources and remove temporary authentication environment keys before every numeric worker.",
+    "Run original root_actual_freeze_design_view.py: actual 27-to-24 fixed object, original complete raw/physical profile/H/reference_t, original RMS and true BC; zero Node, zero new BVP.",
+    "Run spectral prepare only: exact input/source/config guards; new tail config changes only modes 24-to-28 and four IO paths.",
+    "Run actual M28/N1024 original outer algorithm with disk QR/full streamed backward check, tolerance1e-7, radial8, collocation12, Node128/young4/pointcache2; preserve original 2181 t nodes and original reference_t; no physical control change.",
+    "Sequential original strong_interior_jet_audit.py for M24 and M28, N1536/radial801/batch8, including midpoint and both second-jet lobes in every quintic interval.",
+    "Original root_actual_seam_audit.py for actual final M28 response, N768 and1536, all Cartesian jets and independent mean first/second derivatives.",
+    "Same-g material comparison of full physical quintics and complete height means, common physical s/material angle, N768/batch8, both meshes' internal second-jet lobes."
+  ],
+  "layout": {
+    "pinned_source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+    "flow_source": "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+    "flow_lines": [
+      45,
+      48
+    ],
+    "flow_sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5",
+    "basis_source": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+    "basis_lines": [
+      436,
+      459
+    ],
+    "basis_sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+    "radial_with_mean": {
+      "old_inclusive": [
+        0,
+        24
+      ],
+      "new_inclusive": [
+        0,
+        24
+      ]
+    },
+    "tangent_sines": {
+      "old_inclusive": [
+        25,
+        48
+      ],
+      "new_inclusive": [
+        29,
+        52
+      ]
+    },
+    "height_cosines": {
+      "old_inclusive": [
+        49,
+        72
+      ],
+      "new_inclusive": [
+        57,
+        80
+      ]
+    },
+    "new_exact_zero_rows": [
+      25,
+      26,
+      27,
+      28,
+      53,
+      54,
+      55,
+      56,
+      81,
+      82,
+      83,
+      84
+    ],
+    "live_basis_check": "Before any tail worker, compare actual pinned bound-method B/Btheta/Bthetatheta at N512 for every old row; require identical binary64 bytes.",
+    "vertical_mean": "Not a raw channel. The original complete mean-height rule remains, with its true derivatives independently checked in the full Cartesian seam."
+  },
+  "invariants": {
+    "all_final_profile_values_frozen": true,
+    "physical_tail_and_cut_unchanged": true,
+    "original_reference_t_and_initial_t_nodes_preserved_bitwise": true,
+    "original_radial_t_interval": [
+      0,
+      1
+    ],
+    "old_raw_coefficients_preserved_bitwise": true,
+    "complete24_core_plus4zero_warm": true,
+    "all28_core_coefficients_are_unknown_boundary_fields": true,
+    "old_M24_response_role": "ordinary geometric warm only, never a new M28 response/Jacobian",
+    "exact_raw_stage_cache_reused": false,
+    "all_MJS_bytes_unchanged": true,
+    "original_M24_BVP_repeated": false,
+    "original_r7_session80885_terminal": "unknown"
+  },
+  "continuation_after_execution": "Read actual metric/Darboux/internal-jet/full-seam results and complete core change. If finite second-jet error remains, continue same-g spectral/radial refinement before a new amplitude design. Two numerical grids alone never prove continuous C2 closure or reach."
+}

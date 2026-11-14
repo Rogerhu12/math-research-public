@@ -1,0 +1,448 @@
+{
+  "scope": "Exact intended analytic profile only: whole finite neck and tagged terminal bridge, not a proof of the NumPy Gauss realization or of a surface solution.",
+  "version": "reconstructed-r2-after-transient-loss",
+  "all_passed": true,
+  "guard_count": 33,
+  "guards": [
+    {
+      "name": "frozen_profile_shape_and_angle_boost",
+      "passed": true
+    },
+    {
+      "name": "positive_physical_domain",
+      "passed": true
+    },
+    {
+      "name": "tagged_bridge_curvature_is_profile_loop_curvature",
+      "passed": true,
+      "original_untagged_port_curvature": 8,
+      "actual_tagged_curvature": 7.5,
+      "source_fact": "root_dual_core_bvp calls neck.tagged_port(port,cfg), whose bridge curvature is cfg.loop_curvature"
+    },
+    {
+      "name": "cut_slope_and_brake_sign",
+      "passed": true
+    },
+    {
+      "name": "Machin_exact_tangent_identity",
+      "passed": true,
+      "meaning": "0<4 atan(1/5)-atan(1/239)<1<pi/2; the last inequality follows from atan(1)=integral_0^1 (1+x^2)^(-1) dx>1/2. Exact tangent 1 selects pi/4."
+    },
+    {
+      "name": "pi_and_Taylor_argument_domain",
+      "passed": true,
+      "pi_lower": {
+        "numerator": "367707752476172207210232155155211800650193769349643679097363623629261005878067849033826612",
+        "denominator": "117045012839587847750696265429793726571056544167331213913740839416277594864368438720703125",
+        "decimal_display": "3.1415926535897932"
+      },
+      "pi_upper": {
+        "numerator": "7885751243558602857662407697083987647837187618916932871201975280927764532056854784214256",
+        "denominator": "2510112580810824626575216210351662524282562745837445721264202802558429539203643798828125",
+        "decimal_display": "3.1415926535897932"
+      }
+    },
+    {
+      "name": "Hermite_length_unique_between_point8_and_point9",
+      "passed": true,
+      "equation": "k0*S^2+6*V*S=12*delta",
+      "length_lower": {
+        "numerator": "4",
+        "denominator": "5",
+        "decimal_display": "0.8000000000000000"
+      },
+      "length_upper": {
+        "numerator": "9",
+        "denominator": "10",
+        "decimal_display": "0.9000000000000000"
+      }
+    },
+    {
+      "name": "Hermite_speed_monotone",
+      "passed": true,
+      "bernstein_derivative": "[k0,3V/S-k0,0]"
+    },
+    {
+      "name": "Hermite_acceleration_below_one",
+      "passed": true,
+      "upper": {
+        "numerator": "53989152332917513",
+        "denominator": "72057594037927936",
+        "decimal_display": "0.7492500000000000"
+      }
+    },
+    {
+      "name": "angle_boost_lower_inlet_angle",
+      "passed": true
+    },
+    {
+      "name": "angle_boost_upper_outlet_angle",
+      "passed": true
+    },
+    {
+      "name": "angle_boost_curvature_below_loop_bound",
+      "passed": true,
+      "upper": {
+        "numerator": "94759417668260604220681558008266752",
+        "denominator": "14905420571446677556959264352664125",
+        "decimal_display": "6.3573796669504861"
+      }
+    },
+    {
+      "name": "loop_angle_below_1point4",
+      "passed": true
+    },
+    {
+      "name": "loop_complement_below_point18",
+      "passed": true
+    },
+    {
+      "name": "first_turn_radius_upper_below_1point8",
+      "passed": true,
+      "upper": {
+        "numerator": "163326849565186731095084398311200878403753992049063407498607068874587555543877034133388377194176156026587629329843558834775777860340041549",
+        "denominator": "91092625275469564266135290651780811803098102064021520834784314369744525982245805798329600000000000000000000000000000000000000000000000000",
+        "decimal_display": "1.7929755462780498"
+      }
+    },
+    {
+      "name": "first_turn_radius_lower_above_point12",
+      "passed": true,
+      "lower": {
+        "numerator": "933704309427082185489319234907391915640552731145663238432526933348918550352717929931732098018310553381423696220605117590407341037930259",
+        "denominator": "1423322269929211941658363916434075184423407844750336263043504912027258218472590715598900000000000000000000000000000000000000000000000000",
+        "decimal_display": "0.6560034428980861"
+      }
+    },
+    {
+      "name": "asin_Lipschitz_six_on_sync_speeds",
+      "passed": true,
+      "meaning": "1/sqrt(1-v^2)<=6 for vd<=v<=vl"
+    },
+    {
+      "name": "descending_coast_strictly_nonnegative",
+      "passed": true,
+      "radius_margin_lower": {
+        "numerator": "3298681388754532142486710695440148937297631590641058305554352553339561213037989422155019578809080470478206119746435957739192718781957697",
+        "denominator": "11386578159433695533266911331472601475387262758002690104348039296218065747780725724791200000000000000000000000000000000000000000000000000",
+        "decimal_display": "0.2896990950719992"
+      }
+    },
+    {
+      "name": "loop_radius_minimum_above_point12",
+      "passed": true,
+      "lower": {
+        "numerator": "2750679310862792978398861595917917680456396155444224983738221254488872908589951466635279682256377430406621179805186967053",
+        "denominator": "22482355677149568505122757394358690750558245771491277225868673253018181600000000000000000000000000000000000000000000000000",
+        "decimal_display": "0.1223483584355222"
+      },
+      "meaning": "odd sine under u->1-u gives exactly zero net radial integral for each symmetric loop turn; maximum inward loss occurs in its first half"
+    },
+    {
+      "name": "loop_radius_maximum_below_1point8",
+      "passed": true,
+      "upper": {
+        "numerator": "31015957619174289476293478644622116136218163812120464571830830179908772961881074413782179714201198048538062814523348467867695342465381481",
+        "denominator": "50625764325010875995921502161659626346001391593290635586765091930176499621764243705036800000000000000000000000000000000000000000000000000",
+        "decimal_display": "0.6126516415644777"
+      }
+    },
+    {
+      "name": "loop_positive_coasts",
+      "passed": true,
+      "meaning": "the symmetric turns have zero ideal radial net increment"
+    },
+    {
+      "name": "bridge_positive_angle_gap",
+      "passed": true,
+      "lower": {
+        "numerator": "93461343453627206728857732788517",
+        "denominator": "1306381889607362686447920796639153",
+        "decimal_display": "0.0715421303656600"
+      },
+      "meaning": "atan(w)>=w/(1+w^2), eta=(1-fraction)*atan(w)"
+    },
+    {
+      "name": "bridge_speed_below_point998",
+      "passed": true,
+      "upper": {
+        "numerator": "180666622580625026624376343379803362964965557191786913548698454960331753236335597886736369494210465226078869657306969452938051262493573219524253966918115184067424867747041489712693601441154399975997542964755699163433882018220235690015477142145123337237723538800838255652762288520967592621057248750948923005486754414007992246816667977221198300864571747485553346009244777515202323150907512120493955917585721536538728887725688852477201273085248062099228763025115077136704261678205193695290931252680533863550282101053361295203307988990936736330206758277189551542042835135670582003475859082350301425253918657438625790848551656916242459372963753557295705778354110717294523093335729462803065992494854973813879622347602460188530779200783032264125102758517222634681111404032737931714690645440649548629357073264748666546972606404862486034636011314430316228553312011440522546357113976765694092226898297686558232941459805443427926961928716840915806333829517788535017234819755972797934849665543309118206432994831612068978704241152147201068457540300836459129573525155914490942928791126028653323711797",
+        "denominator": "181129961510542384699917039219952827858460386738355222989542094796258894336572721309912701331022889221450055943384001374120991551273373172877111132046877698339628443587378087775352232356244680014622597930082931575061470403919107990091448738644539838957203141343935312236236046832950659434265795054096875685604257581424389723578892281564523231851159072070677011880896565492950698668224185600853828686637408276954872778588590261892483159780643516130115076531366566915352502170101911743195566238598570757096895540676657187681431252085908937498184059557709910971730587407661977553907483147356384831449823421782987890988729882392567863338492558028883476433039072074227559409971104908807358179871714942314137459721789234381297008019401224650721805275267813445032602514950722966987355282819025158883183448705013356594442539960643945479675329269659935150572540583639722915702880264119293754232915564084365281609079409702399449169397624690016111558390689733740593498701731875106790054888692514103363379829347378162194265662512215732686781983943476749292151002629848663488668869367567482880000000",
+        "decimal_display": "0.9974419531365583"
+      },
+      "meaning": "|sin(peak)|=cos(eta)<=cos(eta0), not the loop speed .985"
+    },
+    {
+      "name": "bridge_coast_strictly_nonnegative",
+      "passed": true,
+      "radius_margin_lower": {
+        "numerator": "257665949538990122280439741142960338856267692841101745342364077468398079863514738455014078568493204843897004697904821",
+        "denominator": "16916594660318752989731717053136023335332782382952567300512500327148618246386602772411597567915275949239806392795136000",
+        "decimal_display": "0.0152315495354036"
+      }
+    },
+    {
+      "name": "brake_angular_rate_below_loop_bound",
+      "passed": true,
+      "upper": {
+        "numerator": "4203359652212477",
+        "denominator": "2251799813685248",
+        "decimal_display": "1.8666666666666729"
+      },
+      "meaning": "ps=-wprime/(1+w^2)^(3/2), fixed cut wprime; |phi_s|<=ps"
+    },
+    {
+      "name": "all_remaining_nonbridge_speeds_below_point998",
+      "passed": true
+    },
+    {
+      "name": "all_turn_acceleration_caps_below_7point5",
+      "passed": true
+    },
+    {
+      "name": "all_nonconstant_phase_segments_longer_than_point0027",
+      "passed": true,
+      "lower_bounds": {
+        "angle_boost": {
+          "numerator": "8993663646816065",
+          "denominator": "72057594037927936",
+          "decimal_display": "0.1248121557053680"
+        },
+        "first_turn": {
+          "numerator": "149558437920099218153764649172992",
+          "denominator": "503628456386353867882394186109105",
+          "decimal_display": "0.2969618496008233"
+        },
+        "sync": {
+          "numerator": "180143985094820",
+          "denominator": "66292986514893701",
+          "decimal_display": "0.0027173913043478"
+        },
+        "each_loop_turn": {
+          "numerator": "283906920509436064",
+          "denominator": "994394797723405515",
+          "decimal_display": "0.2855072463768115"
+        },
+        "bridge_turn": {
+          "numerator": "1531549175224014518766040728261891914057628506205659770915640586709821305882426449916523842255068895345332",
+          "denominator": "116388951867155359219124178860551873987315905426699199919006380498803814955266489050700329244136810302734375",
+          "decimal_display": "0.0131588879412893"
+        },
+        "brake": {
+          "numerator": "46768052394589051098534992642318884125303373824",
+          "denominator": "5491192925156682543103621077413107790762253311981",
+          "decimal_display": "0.0085169202816261"
+        }
+      }
+    },
+    {
+      "name": "total_nonconstant_phase_length_below_four",
+      "passed": true,
+      "upper": {
+        "numerator": "178693974703836662670493352209730750180144915657927911462091057713348636709155681783864121137865484145205298750207714715145416940912567223947590568582161323589437967543787277694568029194643919233757466576910799218406617",
+        "denominator": "112204679894638903398944812963293397348574502238695162316055217274993612723261828870726675185056054388396958436880281931592781290894797293307973853173444637615856392601600000000000000000000000000000000000000000000000000",
+        "decimal_display": "1.5925714940912602"
+      }
+    },
+    {
+      "name": "all_phase_absolute_values_below_1point6",
+      "passed": true
+    },
+    {
+      "name": "phase_normalized_first_derivative_below_four",
+      "passed": true,
+      "upper": {
+        "numerator": "568228261792431188402288664333789874569775913677702458988600046046373561507163100752790804477036111855616",
+        "denominator": "166402859470557022278353109019071848222150620784774449444492470499506513448295663692988455295562744140625",
+        "decimal_display": "3.4147746234671665"
+      }
+    },
+    {
+      "name": "phase_normalized_second_derivative_below_65",
+      "passed": true,
+      "upper": {
+        "numerator": "20472580704558221996742100321746228988718651229448709515455808118976569271730548139380719891426525962512051734026322444288",
+        "denominator": "319749058519460536506749150653160048475397189512972093876157073211681004979698819980260537931826547719538211822509765625",
+        "decimal_display": "64.0270241900093718"
+      }
+    },
+    {
+      "name": "phase_normalized_third_derivative_below_3300",
+      "passed": true,
+      "upper": {
+        "numerator": "5900819637271092162881722959431542916035558127378726719702013264655664901040236880250856657757950849252419477463840901601726812217275318272",
+        "denominator": "1843227828224396059666836025596375336336930253339090861230533894199568330183574179137912597563858397631264551819185726344585418701171875",
+        "decimal_display": "3201.3512095004685258"
+      }
+    }
+  ],
+  "frozen_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.16208341673538396,
+    "vu": 0.31980000000000003,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8634500737670308,
+    "boost_length": 0.12481215570536809,
+    "coast_outward": 0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.7475,
+    "descending_sync_curvature": 2,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "original_port_cut": {
+    "radius": 0.30000000000000004,
+    "backgroundSlope": 0.08000000000000027,
+    "backgroundSecond": -1.866666666666673,
+    "E": 1.0064,
+    "Ep": -0.2986666666666687,
+    "_prefix_bridge": {
+      "kind": "finite_neck_terminal_v1",
+      "radius": 0.35,
+      "speed": 0.985,
+      "curvature": 8,
+      "peak_fraction": 0.1
+    }
+  },
+  "source_sha256": {
+    "alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+    "strong_angle_boost.py": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be",
+    "root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100"
+  },
+  "ideal_profile_global_bounds": {
+    "radius_lower": "3/25",
+    "radius_upper": "9/5",
+    "speed_absolute_upper": "499/500",
+    "acceleration_absolute_upper": "15/2",
+    "strict_for_radius_and_speed": true
+  },
+  "phase_bounds": {
+    "absolute": "8/5",
+    "first_u": "4",
+    "second_u": "65",
+    "third_u": "3300",
+    "minimum_nonconstant_phase_segment_length": "27/10000",
+    "sum_nonconstant_phase_lengths_upper": "4",
+    "phase_pieces_have_degree_at_most_four": true
+  },
+  "exact_inputs": {
+    "V": {
+      "numerator": "5761004643332339",
+      "denominator": "18014398509481984",
+      "decimal_display": "0.3198000000000000"
+    },
+    "vp": {
+      "numerator": "3888633430470227",
+      "denominator": "4503599627370496",
+      "decimal_display": "0.8634500737670307"
+    },
+    "vd": {
+      "numerator": "2206763817411543",
+      "denominator": "2251799813685248",
+      "decimal_display": "0.9799999999999999"
+    },
+    "vl": {
+      "numerator": "8872091265919877",
+      "denominator": "9007199254740992",
+      "decimal_display": "0.9849999999999999"
+    },
+    "delta": {
+      "numerator": "182489703803103",
+      "denominator": "1125899906842624",
+      "decimal_display": "0.1620834167353839"
+    },
+    "k0": {
+      "numerator": "8106479329266893",
+      "denominator": "18014398509481984",
+      "decimal_display": "0.4500000000000000"
+    },
+    "LB": {
+      "numerator": "8993663646816065",
+      "denominator": "72057594037927936",
+      "decimal_display": "0.1248121557053680"
+    },
+    "R": {
+      "numerator": "3152519739159347",
+      "denominator": "9007199254740992",
+      "decimal_display": "0.3499999999999999"
+    },
+    "ratio": {
+      "numerator": "2476979795053773",
+      "denominator": "2251799813685248",
+      "decimal_display": "1.1000000000000000"
+    },
+    "K": {
+      "numerator": "15",
+      "denominator": "2",
+      "decimal_display": "7.5000000000000000"
+    },
+    "Ks": {
+      "numerator": "7597009621420605",
+      "denominator": "1125899906842624",
+      "decimal_display": "6.7474999999999996"
+    },
+    "Ksync": {
+      "numerator": "2",
+      "denominator": "1",
+      "decimal_display": "2.0000000000000000"
+    },
+    "fraction": {
+      "numerator": "3602879701896397",
+      "denominator": "36028797018963968",
+      "decimal_display": "0.1000000000000000"
+    },
+    "w": {
+      "numerator": "2882303761517127",
+      "denominator": "36028797018963968",
+      "decimal_display": "0.0800000000000002"
+    },
+    "wprime": {
+      "numerator": "-4203359652212477",
+      "denominator": "2251799813685248",
+      "decimal_display": "-1.8666666666666729"
+    },
+    "cutR": {
+      "numerator": "1351079888211149",
+      "denominator": "4503599627370496",
+      "decimal_display": "0.3000000000000000"
+    },
+    "eps": {
+      "numerator": "5764607523034235",
+      "denominator": "72057594037927936",
+      "decimal_display": "0.0800000000000000"
+    }
+  },
+  "no_numeric_BVP_or_Node_worker_run": true,
+  "remaining_obligations": [
+    "actual NumPy leggauss64 node and weight errors",
+    "floating trigonometric and arithmetic evaluation",
+    "segment lengths and accumulated endpoints including seam consistency",
+    "actual tensor field PPoly and complete independent mean",
+    "strict whole-domain mean root positivity",
+    "continuous actual surface curvature and reach"
+  ],
+  "prior_transient_result": {
+    "old_source_sha256": "5e67ba60e438a0a8bc4e0005c05c07a28801ee37fba3b7554233210acd01ac21",
+    "original_source_or_output_bytes_not_recovered": true,
+    "new_computation_not_old_hash_replay": true
+  },
+  "execution": {
+    "runtime": "functions.exec V8 isolate",
+    "executed_source_sha256": "f569a91103cc6fe0c0807783eac8bf33badf3f40081d0a69f1512b8b15c48598",
+    "wall_seconds": 0.013,
+    "physical_evaluator_calls": 0,
+    "local_Node_processes": 0,
+    "source_loading": "Only the Node shebang was removed before new Function; actual artifact source bytes read back before this evaluation.",
+    "preceding_loader_attempt": "Earlier new Function rejected an unstripped Node shebang before executing any mathematical code."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "scope": "Immutable recovery only for the in-progress first new-H nonlinear tail; not a completed tail and not a q098 prefix solution.",
+  "captured_utc": "2026-11-13T08:30:18.162151+00:00",
+  "iteration": {
+    "iteration": 2,
+    "norm": 3.607336772944774e-09,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 1,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  },
+  "source_current_file": "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-iteration.json.gz",
+  "complete_H_matches_original_warm": true,
+  "checkpoint_states": 577,
+  "checkpoint_raw_states": 9,
+  "modes": 28,
+  "files": [
+    {
+      "file": "2026-11-13-strong-q098-initial-tail-iteration02-recovery.json.gz",
+      "sha256": "8026806b3359ea6ec54123a61a5215bb98f0d9f90f3fefd400d0700ea8b909cf",
+      "bytes": 329416
+    },
+    {
+      "file": "2026-11-13-strong-q098-initial-tail-iteration02-recovery-config.json",
+      "sha256": "51dccdc03aab9fb667744be16077d607b7b835f018fa806ce7fb6f65bf539531",
+      "bytes": 2901
+    },
+    {
+      "file": "2026-11-13-strong-q098-initial-tail-iteration02-recovery-source-adapter.json",
+      "sha256": "06f51b54e1b30f4ac13dd63b45383aca89d9a3d80bc47b7d15a3eeaac7fac4a7",
+      "bytes": 61152
+    }
+  ],
+  "original_full_J_and_final_audit_still_required": true,
+  "prefix_Newton_started": false,
+  "accepted_q098_surface": false
+}

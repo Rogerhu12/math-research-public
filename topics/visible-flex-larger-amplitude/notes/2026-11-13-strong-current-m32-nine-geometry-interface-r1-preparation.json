@@ -1,0 +1,392 @@
+{
+  "schema": "current-M32-nine-control-geometry-source-only-preparation-v1",
+  "scope": "Prepare source identities and units for a future actual M32 nine-control model.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nNo future accepted package, response value, geometry field or numerical grid is\ncreated. This checks the reversible adapters and existing physical API only.\n",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "source_sha256": "f0cb744b375c614d3ea89b6bca74f8f31329e5f79bbce4a9e4c01a27050ded98",
+  "all_source_only_gates": true,
+  "gate_count": 18,
+  "gates": {
+    "all_original_source_hashes_match": true,
+    "plan_reversal_exact": true,
+    "combined_reversal_exact": true,
+    "original_current_minimax_accepts_nine_controls": true,
+    "original_combined_validator_accepts_nine_controls": true,
+    "original_plan_validator_accepts_nine_controls": true,
+    "fresh_plan_default_neutrals_are_complete_six": true,
+    "reader_import_has_no_field_execution": true,
+    "same_corrected_provider_explicit": true,
+    "geometry_original_mean_and_formulas_unchanged": true,
+    "original_Ksync_provider_key_exists": true,
+    "original_Ksync_controls_sync_turn": true,
+    "original_turn_length_formula": true,
+    "original_response_fullstep_formula": true,
+    "original_response_halfstep_formula": true,
+    "original_Ksync_response_whitelist": true,
+    "original_core_held_exchange_uses_full_primary_columns": true,
+    "original_neutral_physical_unit_is_one": true
+  },
+  "source_sha256_map": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_fullmean_initial_laws_plan.py": "a6c537cea001d5fcc4104164bee5194620913b9a53bfa1fad0ccf6800ddfcb34",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_minimax_initial_laws_combined_plan.py": "4de2252d400731c5920f6d6d4a4e3317b3c6d6f258dd00fa7b4898eb79c35b10",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_minimax_initial_laws_controls.py": "ccdcc95d3e7dd2a1447714578e6976179f1b5c32d3495e13a074399872c31e57",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_minimax_from_plan.py": "4fdd46bf198e573bd83a86195143caa86d7105d3847d4e12431d844c2111e213",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_anchor.py": "da6726c130503113a9483da2365cea70e59f22f26e09eb19b08ba57632229a77",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_anchor_loader_adapter.py": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed_anchor.py": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_foreground_resource_run.py": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_anchor_current_interfaces.py": "8da06d8c7909b55e56bef75e92dceec8e1dd3226b208a80896fa2ce7aaaa0b48",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_anchor_current_plan.py": "1249b26ff641139da2e442eb8cbc84aa7937fc6da298e257d8593efb9d21ea33",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_anchor_current_reader.py": "b69abdc1f615a9d96b65fb187f2e87831bf975f5b2752303db4c10c37f9c3b84",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_anchor_current_combined_plan.py": "d536e36e54635f7aa31fdf21d7d67c51796fdcb7604b037d475f311ee5779978",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_anchor_current_interface_prepare.py": "f0cb744b375c614d3ea89b6bca74f8f31329e5f79bbce4a9e4c01a27050ded98",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1"
+  },
+  "plan_adapter": {
+    "schema": "accepted-current-M32-nine-control-anchor-interface-v1",
+    "role": "plan",
+    "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+    "adapter_source_sha256": "8da06d8c7909b55e56bef75e92dceec8e1dd3226b208a80896fa2ce7aaaa0b48",
+    "entry_source_sha256": "1249b26ff641139da2e442eb8cbc84aa7937fc6da298e257d8593efb9d21ea33",
+    "original_source": "root_actual_geometry_fullmean_initial_laws_plan.py",
+    "original_source_sha256": "a6c537cea001d5fcc4104164bee5194620913b9a53bfa1fad0ccf6800ddfcb34",
+    "transformed_source_sha256": "a11902c29e1604c11153729b3fedfb2d2350a1996b1bdc3f8aa93628a85f19bc",
+    "exact_reverse_recovers_original_source": true,
+    "source_edits": [
+      {
+        "before": "DEFAULT_NEUTRALS=('vu','descending_turn_curvature','start_acceleration','initial_speed_frontload')",
+        "after": "DEFAULT_NEUTRALS=('vu', 'descending_turn_curvature', 'start_acceleration', 'initial_speed_frontload', 'vd', 'descending_sync_curvature')"
+      },
+      {
+        "before": "    args = ap.parse_args()\n",
+        "after": "    args = ap.parse_args()\n    if args.interior_audit is None:raise ValueError('Require the accepted current fixed-view quintic witness')\n"
+      },
+      {
+        "before": "    if not valid_controls(control_names) or len(args.steps)!=len(control_names):",
+        "after": "    if tuple(control_names)!=CONTROL_NAMES or not valid_controls(control_names) or len(args.steps)!=len(control_names):"
+      },
+      {
+        "before": "    chart_record = actual['numerical_meridian_chart']\n",
+        "after": "    if actual['modes']!=32:raise ValueError('This current response interface is explicitly M32')\n    chart_record = actual['numerical_meridian_chart']\n"
+      },
+      {
+        "before": "        response=read(args.response_data)\n",
+        "after": "        response=read(args.response_data)\n        require_response(response)\n"
+      },
+      {
+        "before": "    wrapper=Path(__file__).with_name('root_actual_geometry_field_initial_laws.py')",
+        "after": "    wrapper=Path(__file__).with_name('root_actual_geometry_field_anchor.py')"
+      },
+      {
+        "before": "command=[sys.executable,str(Path(__file__).with_name('strong_resource_run.py')),\n                 '--out',str(formal),'--',*command]",
+        "after": "command=[sys.executable,str(Path(__file__).with_name('strong_foreground_resource_run.py')),\n                 '--out',str(formal),'--heartbeat',str(case)+'-heartbeat.json','--ownership',str(case)+'-ownership.json',\n                 '--task-prefix','geometry-current-nine-'+case.name,'--',*command]"
+      },
+      {
+        "before": "    if args.known_grid:inputs.append(args.known_grid)\n",
+        "after": "    inputs.extend(Path(__file__).with_name(n) for n in ('root_actual_geometry_fullmean_initial_laws_plan.py','root_actual_geometry_field_initial_laws.py','strong_monotone_initial_speed_anchor.py','strong_frontload_anchor_loader_adapter.py','strong_foreground_resource_run.py','root_geometry_anchor_current_interfaces.py'))\n    if args.known_grid:inputs.append(args.known_grid)\n"
+      },
+      {
+        "before": "    hashes.update({str(p):sha(p) for p in inputs})\n",
+        "after": "    hashes.update({str(p):sha(p) for p in inputs})\n    if not args.baseline_only:\n        baseline_plan=Path(str(prefix)+'-baseline-plan.json')\n        original_baseline=read(baseline_plan)\n        if not original_baseline['baseline_only'] or original_baseline['candidates']!=[planned[0]] or original_baseline['grid']!=str(grid_path):raise ValueError('Reuse the unique previously prepared current baseline verbatim')\n        hashes[str(baseline_plan)]=sha(baseline_plan)\n"
+      },
+      {
+        "before": "        baseline_only=args.baseline_only,nonlinear_solution=False,new_tail_evaluation=False,\n",
+        "after": "        baseline_only=args.baseline_only,nonlinear_solution=False,new_tail_evaluation=False,\n        current_anchor_complete_geometry_interface=INTERFACE_PROVENANCE,\n"
+      }
+    ],
+    "design_controls": [
+      "actual_q1",
+      "actual_q4",
+      "actual_c6",
+      "vu",
+      "descending_turn_curvature",
+      "start_acceleration",
+      "initial_speed_frontload",
+      "vd",
+      "descending_sync_curvature"
+    ],
+    "external_response_fields": [
+      "delta",
+      "boost_length",
+      "boost_speed",
+      "vu",
+      "descending_turn_curvature",
+      "start_acceleration",
+      "initial_speed_frontload",
+      "vd",
+      "descending_sync_curvature"
+    ],
+    "corrected_provider_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "expected_mean_angular": 1552,
+    "geometry_angular_minimum": 768,
+    "original_mean_field_exchange_and_minimax_formulas_unchanged": true,
+    "no_future_accepted_state_or_field_created": true
+  },
+  "combined_adapter": {
+    "schema": "accepted-current-M32-nine-control-anchor-interface-v1",
+    "role": "combined",
+    "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+    "adapter_source_sha256": "8da06d8c7909b55e56bef75e92dceec8e1dd3226b208a80896fa2ce7aaaa0b48",
+    "entry_source_sha256": "d536e36e54635f7aa31fdf21d7d67c51796fdcb7604b037d475f311ee5779978",
+    "original_source": "root_geometry_minimax_initial_laws_combined_plan.py",
+    "original_source_sha256": "4de2252d400731c5920f6d6d4a4e3317b3c6d6f258dd00fa7b4898eb79c35b10",
+    "transformed_source_sha256": "3bdec1f80863635bd5d6847121caa8d9e2f667914198c90dc783933ff0961908",
+    "exact_reverse_recovers_original_source": true,
+    "source_edits": [
+      {
+        "before": "    model=json.loads(args.minimax.read_text())\n",
+        "after": "    model=json.loads(args.minimax.read_text())\n    if tuple(r['name'] for r in plan['directions'])!=CONTROL_NAMES or not model.get('actual_anchor_current_geometry_bridge',{}).get('all_identity_gates'):raise ValueError('Require the complete current nine-control reader bridge')\n"
+      },
+      {
+        "before": "    response=json.loads(response_path.read_text())\n",
+        "after": "    response=json.loads(response_path.read_text())\n    require_response(response)\n"
+      },
+      {
+        "before": "    for flag,value in [('--out',formal),('--out-prefix',case),\n",
+        "after": "    for flag,value in [('--out',formal),('--heartbeat',str(case)+'-heartbeat.json'),('--ownership',str(case)+'-ownership.json'),('--task-prefix','geometry-current-nine-'+case.name),('--out-prefix',case),\n"
+      },
+      {
+        "before": "    for path in (args.plan,args.minimax,Path(__file__)):\n",
+        "after": "    for path in (args.plan,args.minimax,Path(__file__),Path(__file__).with_name('root_geometry_minimax_initial_laws_combined_plan.py'),Path(__file__).with_name('root_geometry_anchor_current_interfaces.py')):\n"
+      },
+      {
+        "before": "        nonlinear_solution=False,new_tail_evaluation=False,cwd=plan['cwd'],\n",
+        "after": "        nonlinear_solution=False,new_tail_evaluation=False,cwd=plan['cwd'],\n        current_anchor_complete_geometry_interface=plan['current_anchor_complete_geometry_interface'],\n        current_anchor_combined_interface=INTERFACE_PROVENANCE,\n"
+      }
+    ],
+    "design_controls": [
+      "actual_q1",
+      "actual_q4",
+      "actual_c6",
+      "vu",
+      "descending_turn_curvature",
+      "start_acceleration",
+      "initial_speed_frontload",
+      "vd",
+      "descending_sync_curvature"
+    ],
+    "external_response_fields": [
+      "delta",
+      "boost_length",
+      "boost_speed",
+      "vu",
+      "descending_turn_curvature",
+      "start_acceleration",
+      "initial_speed_frontload",
+      "vd",
+      "descending_sync_curvature"
+    ],
+    "corrected_provider_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "expected_mean_angular": 1552,
+    "geometry_angular_minimum": 768,
+    "original_mean_field_exchange_and_minimax_formulas_unchanged": true,
+    "no_future_accepted_state_or_field_created": true
+  },
+  "provider_adapter": {
+    "scope": "Fresh provider-only anchor adapters for geometry and actual saved loaders.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nEach original loader and all its mathematical/acceptance formulas are frozen.\nExactly its frontload import is redirected to the separately identified\ncurrent-anchor hook. Both the original and repaired hook identities and all\nadapter sources are carried into actual result provenance.\n",
+    "role": "geometry",
+    "original_loader_sha256": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+    "original_monotone_hook_sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "current_anchor_hook_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "loader_adapter_source_sha256": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+    "entry_source_sha256": "da6726c130503113a9483da2365cea70e59f22f26e09eb19b08ba57632229a77",
+    "transformed_loader_sha256": "1b3f70f50b8ab80d62dc4814b345493a58f708692b49d05ec6ee17222e04589c",
+    "exact_reverse_recovers_original_loader": true,
+    "mathematical_geometry_mean_quintic_and_acceptance_formulas_changed": false,
+    "actual_hook_source_fingerprints_explicit_in_result": true,
+    "installation_order": [
+      "original angle",
+      "original pulse",
+      "fresh current-anchor frontload"
+    ],
+    "original_zero_weight_arithmetic_delegated": true,
+    "old_frozen_sources_modified": false
+  },
+  "unchanged_field_source_preparation": {
+    "schema": "actual-fullmean-geometry-initial-laws-source-v1",
+    "scope": "Run the unchanged complete-mean warm geometry with explicit inlet laws.\n\nThe retained actual entry receives the already reviewed optional-default\naugmented core and the identical provider installation order angle, pulse,\nthen frontload. The full raw interpolation, mean, Cartesian jet, and finite\ngeometry loops are unchanged. A missing zero frontload is never inserted\ninto an accepted profile. Every nonzero response must be from the same\naccepted field's complete actual Jacobian. No new solution is certified.\n",
+    "source_sha256": "da6726c130503113a9483da2365cea70e59f22f26e09eb19b08ba57632229a77",
+    "source_inputs": {
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_augmented_core.py": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed_anchor.py": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_anchor_loader_adapter.py": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_anchor.py": "da6726c130503113a9483da2365cea70e59f22f26e09eb19b08ba57632229a77"
+    },
+    "original_main_sha256": "b67ecdc3a0493d3b9f3ce50156f101c0813a20785b3f0ff2bc9de0aa9533b034",
+    "transformed_main_sha256": "7ab7de0577ded3192cfc6c22e7ec45660752634cb90567132dc74e484d6a722a",
+    "original_augmented_default_adapter": {
+      "scope": "Optional absent defaults for pulse and monotone physical design controls.\n\nOnly these two explicit profile keys may be absent with value zero. Every\nother baseline lookup, all-core/geometry parameter layout, raw/chart mapping,\nphysical equation, derivative and original acceptance gate remains unchanged.\n",
+      "prior": {
+        "scope": "Explicit optional pulse default for the retained all-core actual factory.\n\nOnly the absent initial_speed_pulse baseline value is defined to be zero.\nEvery other control lookup, parameter layout, physical equation, derivative,\nchart, raw conversion and acceptance condition remains the original source.\n",
+        "original_sha256": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+        "transformed_sha256": "448fb31902ac311f0567a6db9ea7f8edbe1ad18caf329c1d1a5d01e97da866f2",
+        "adapter_sha256": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+        "replacements": [
+          {
+            "before": "        **{name: baseline_profile[name]+value for name, value in external_shifts.items()}}",
+            "after": "        **{name: (baseline_profile.get(name,0.) if name=='initial_speed_pulse' else baseline_profile[name])+value for name, value in external_shifts.items()}}",
+            "count": 1
+          }
+        ],
+        "exact_reverse_recovers_original": true,
+        "default_pulse": 0.0,
+        "all_other_profile_keys_still_required": true,
+        "all_original_actual_equations_and_gates_unchanged": true
+      },
+      "pulse_adapter_sha256": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+      "adapter_sha256": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+      "prior_transformed_sha256": "448fb31902ac311f0567a6db9ea7f8edbe1ad18caf329c1d1a5d01e97da866f2",
+      "transformed_sha256": "2a8aef436093d0c853a56a7b95474a88d77af954a9bbf503f970293d561d9831",
+      "replacements": [
+        {
+          "before": "baseline_profile.get(name,0.) if name=='initial_speed_pulse' else baseline_profile[name]",
+          "after": "baseline_profile.get(name,0.) if name in ('initial_speed_pulse','initial_speed_frontload') else baseline_profile[name]",
+          "count": 1
+        }
+      ],
+      "missing_defaults": {
+        "initial_speed_pulse": 0.0,
+        "initial_speed_frontload": 0.0
+      },
+      "every_other_profile_key_remains_required": true,
+      "every_original_actual_equation_and_gate_unchanged": true
+    },
+    "source_transforms": [
+      {
+        "before": "    import strong_actual_augmented_core as augmented\n",
+        "after": "    from strong_initial_laws_augmented_core import load_augmented_core\n    augmented = load_augmented_core()\n",
+        "count": 1
+      },
+      {
+        "before": "        **{name: reference['frozen_profile'][name]+value for name, value in external_shifts.items()}}",
+        "after": "        **{name: (reference['frozen_profile'].get(name,0.) if name in ('initial_speed_pulse','initial_speed_frontload') else reference['frozen_profile'][name])+value for name, value in external_shifts.items()}}",
+        "count": 1
+      },
+      {
+        "before": "        source_factory = loaded.make_dual\n        original_main = loaded.main",
+        "after": "        original_provider_loader = loaded.module\n        def initial_laws_provider_loader(provider_name,provider_path):\n            value = original_provider_loader(provider_name,provider_path)\n            if Path(provider_path).name=='alternative-neck-provider.py':\n                if not getattr(value,'_strong_angle_boost_installed',False):\n                    raise ValueError('Original angle hook must be installed before inlet laws')\n                import strong_initial_speed_pulse as pulse_hook\n                pulse_hook.install(value)\n                import strong_monotone_initial_speed_anchor as frontload_hook\n                frontload_hook.install(value)\n            return value\n        loaded.module = initial_laws_provider_loader\n        source_factory = loaded.make_dual\n        original_main = loaded.main",
+        "count": 1
+      },
+      {
+        "before": "    hashes = {str(HERE/name): sha(HERE/name) for name in source_names}",
+        "after": "    source_names += ('root_actual_geometry_field_initial_laws.py','strong_initial_laws_augmented_core.py','strong_pulse_augmented_core.py','strong_initial_speed_pulse.py','strong_monotone_initial_speed.py','strong_monotone_initial_speed_anchor.py','strong_frontload_anchor_loader_adapter.py','root_actual_geometry_field_anchor.py')\n    hashes = {str(HERE/name): sha(HERE/name) for name in source_names}",
+        "count": 1
+      }
+    ],
+    "exact_reverse_recovers_original_main": true,
+    "reviewed_external_controls": [
+      "vu",
+      "vd",
+      "start_acceleration",
+      "descending_turn_curvature",
+      "descending_sync_curvature",
+      "coast_outward",
+      "loop_ratio",
+      "initial_speed_frontload"
+    ],
+    "complete_mean_original_source_sha256": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "provider_install_order": [
+      "original angle at provider import",
+      "pulse",
+      "frontload"
+    ],
+    "absent_frontload_zero_profile_keys_inserted": false,
+    "actual_fullmean_geometry_or_new_solution_executed": false,
+    "frontload_anchor_adapter": {
+      "scope": "Fresh provider-only anchor adapters for geometry and actual saved loaders.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nEach original loader and all its mathematical/acceptance formulas are frozen.\nExactly its frontload import is redirected to the separately identified\ncurrent-anchor hook. Both the original and repaired hook identities and all\nadapter sources are carried into actual result provenance.\n",
+      "role": "geometry",
+      "original_loader_sha256": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+      "original_monotone_hook_sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "current_anchor_hook_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+      "loader_adapter_source_sha256": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+      "entry_source_sha256": "da6726c130503113a9483da2365cea70e59f22f26e09eb19b08ba57632229a77",
+      "transformed_loader_sha256": "1b3f70f50b8ab80d62dc4814b345493a58f708692b49d05ec6ee17222e04589c",
+      "exact_reverse_recovers_original_loader": true,
+      "mathematical_geometry_mean_quintic_and_acceptance_formulas_changed": false,
+      "actual_hook_source_fingerprints_explicit_in_result": true,
+      "installation_order": [
+        "original angle",
+        "original pulse",
+        "fresh current-anchor frontload"
+      ],
+      "original_zero_weight_arithmetic_delegated": true,
+      "old_frozen_sources_modified": false
+    }
+  },
+  "design_controls": [
+    "actual_q1",
+    "actual_q4",
+    "actual_c6",
+    "vu",
+    "descending_turn_curvature",
+    "start_acceleration",
+    "initial_speed_frontload",
+    "vd",
+    "descending_sync_curvature"
+  ],
+  "external_response_fields": [
+    "delta",
+    "boost_length",
+    "boost_speed",
+    "vu",
+    "descending_turn_curvature",
+    "start_acceleration",
+    "initial_speed_frontload",
+    "vd",
+    "descending_sync_curvature"
+  ],
+  "suggested_geometry_steps": [
+    0.001,
+    3e-05,
+    2e-06,
+    0.0002,
+    0.0025,
+    0.002,
+    0.01,
+    0.001,
+    0.002
+  ],
+  "geometry_step_suggestions_are_not_executed_fields_or_response_forcing_steps": true,
+  "synchronization_control": {
+    "key": "descending_sync_curvature",
+    "unit": "physical phase radians per meridian length",
+    "turn_length": "abs(asin(loop_speed)-asin(vd))/(Ksync*(1-eps)); original eps=.08",
+    "fixed_vd_loop_speed_length_derivative": "-Lsync/Ksync",
+    "original_external_fullstep": "2e-6*max(.1,abs(current Ksync))",
+    "original_external_halfstep": "fullstep/2",
+    "if_current_Ksync_equals_2": {
+      "fullstep": 4e-06,
+      "halfstep": 2e-06,
+      "suggested_geometry_step": 0.002
+    },
+    "core_held_definition": "dKsync=1; delta, boost_length and boost_speed adjusted by the same current full-J 3x3 exchange so the three prescribed core coefficients have zero first derivative.",
+    "higher_core_modes_and_all_shooting_state_derivatives_retained": true,
+    "sign_or_usefulness_not_predicted_without_actual_current_response": true
+  },
+  "execution_contract": {
+    "actual_baseline_owned_accepted_required_before_plan": true,
+    "same_fixed_view_SHA_for_current_quintic_audit": true,
+    "unique_baseline_plan_reused_verbatim": true,
+    "modes": 32,
+    "mean_angular": 1552,
+    "geometry_angular_minimum": 768,
+    "every_current_raw_node_and_current_quintic_witness_retained": true,
+    "full_response_all_nine_columns_required": true,
+    "original_partial_eight_response_not_accepted": true,
+    "planned_fields_after_response": 19,
+    "all_five_finite_minimax_row_families_retained": true,
+    "no_extra_fine_modes_zeroed": true,
+    "no_coarse_or_stale_fields_imported": true,
+    "original_strict_field_domain_and_chart_gates_retained": true
+  },
+  "actual_geometry_fields_generated": 0,
+  "accepted_inputs_fabricated": 0,
+  "new_ODE_Node_Jacobian_calls": 0,
+  "seconds": 1.2374937099957606,
+  "peak_rss_kib": 63344
+}

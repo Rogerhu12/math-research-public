@@ -1,0 +1,53 @@
+{
+  "status": "Exact Fraction comparisons of the actual R58 dyadic upper endpoints",
+  "gates": {
+    "total_below_4477_e_minus18": true,
+    "total_below_original_rho": true,
+    "Lipschitz_below_969_over1000": true,
+    "reported_31_over32_target_was_not_met": true,
+    "far_radius_below_2208_e_minus26": true,
+    "relative_far_increment_below_2_minus51": true,
+    "actual_far_domain": true
+  },
+  "all_gates": true,
+  "endpoints": {
+    "maximum_cell_total_radius": {
+      "lower": {
+        "mantissa": "123588788355733578348989960700147313352787498095099396483",
+        "binary_exponent": -234
+      },
+      "upper": {
+        "mantissa": "123588788355733578348989960700147313352787498095099396483",
+        "binary_exponent": -234
+      },
+      "display": "[4.47672162036223586646469660164796862736533549472135795522e-15 +/- 1.28e-72]"
+    },
+    "maximum_joint_Lipschitz": {
+      "lower": {
+        "mantissa": "3040471153078051890278857664328764760030266023950881252843",
+        "binary_exponent": -191
+      },
+      "upper": {
+        "mantissa": "3040471153078051890278857664328764760030266023950881252843",
+        "binary_exponent": -191
+      },
+      "display": "[0.968750000000040909101464245451248951156078441627158070018 +/- 3.44e-58]"
+    },
+    "far_normalized_radius": {
+      "lower": {
+        "mantissa": "234744836190443",
+        "binary_exponent": -123
+      },
+      "upper": {
+        "mantissa": "234744836190443",
+        "binary_exponent": -123
+      },
+      "display": "[2.20752983061255213485294921150027239639574093987305999394e-23 +/- 5.21e-81]"
+    }
+  },
+  "true_far_conclusion": "norm(z)<(1+2^-51)*2^-2224<2^-2200",
+  "certificate_sha256": "caab251b420f285555569ceb952f14f8abc81fad49a9cc01ffc44e240044e198",
+  "resource_sha256": "2ab13f34595ecff77a44868553d1c1540f456f7bd40191211edd1d677b8f4f45",
+  "source_sha256": "0b54fea6e103dc014766ad3c6146e9c09297855447de6fd380f29184407f9fd1",
+  "scope": "R58 actual strong M20 real inner head only; this helper does not replace the full641 Arb proof."
+}

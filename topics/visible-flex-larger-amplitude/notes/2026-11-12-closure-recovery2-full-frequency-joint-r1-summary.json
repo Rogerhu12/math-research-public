@@ -1,0 +1,78 @@
+{
+  "status": "Completed joint positive-majorant attempt; explicit gates remain unpaid",
+  "whole_head_closed": false,
+  "scope": "Physical cells12..224 and actual R18 infinite tail; outer0..11, full prefix family and closed-surface geometry remain separate.",
+  "centred_at": "The real auxiliary low46 solution certified by the input box and its actual nonlinear low far lift.",
+  "complete_mean_and_pointwise_inverse": true,
+  "independent_far_parameter": true,
+  "all46_shallow_heights_fixed": true,
+  "high_shallow_heights_free": true,
+  "dimension": 428,
+  "proposal_dimension": 214,
+  "reduction": "J=C B, B(low,middle,infinite,z)=(low+middle+infinite,z); only proposals use BC. All428 original rows are directly checked.",
+  "physical_domain": {
+    "lower": {
+      "mantissa": "1",
+      "binary_exponent": -30
+    },
+    "upper": {
+      "mantissa": "1",
+      "binary_exponent": -30
+    },
+    "display": "9.31322574615478515625000000000000000000000000000000000000e-10"
+  },
+  "independent_far_z": {
+    "lower": {
+      "mantissa": "1",
+      "binary_exponent": -2200
+    },
+    "upper": {
+      "mantissa": "1",
+      "binary_exponent": -2200
+    },
+    "display": "[5.42012795535846822165672381021202173621275269071931413309e-663 +/- 4.64e-720]"
+  },
+  "auxiliary_far_z": {
+    "lower": {
+      "mantissa": "1",
+      "binary_exponent": -2231
+    },
+    "upper": {
+      "mantissa": "1",
+      "binary_exponent": -2231
+    },
+    "display": "[2.52394376106488901267606942458638070906174960114029894261e-672 +/- 3.72e-729]"
+  },
+  "far_metric": "Weighted R18 parameter |delta z|_1 / zstar, with width38 already included in z.",
+  "low_map": "(main+3corr)t +1.5 base*t^2 +216 remainder*(t+t^2+t^3/3) + B_low*(D(z)-D(zaux))",
+  "high_map": "Paid wide-centre residual plus full true far boundary plus gamma*[3t+1.5t^2+216A*(t+t^2+t^3/3)]",
+  "proposal_only": "Neither a positive proposal nor the reduced inverse is a certificate; all original nonlinear map, mean, far, radius and derivative inequalities must pass.",
+  "gates": {
+    "radius_proposal_positive": false,
+    "all428_map_inclusions": false,
+    "physical_correction_domain": false,
+    "complete_mean_domain": false,
+    "exact_R18_parameter_domain": false,
+    "all_metric_weights_positive": false,
+    "full_joint_Lipschitz": false
+  },
+  "failure": "The reduced radius proposal has an unproved positive coordinate",
+  "maximum_cell_total_radius": null,
+  "maximum_joint_Lipschitz": null,
+  "source_hash": "babcca8b685d2786db12509ebdcebb0c65642dd22d56c0b94b477908ed405d2e",
+  "helper_hashes": {
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47",
+    "closure_real_head_green_enclosure.py": "4b2e74d07f678e11631c51cf01831a4c1e588e8d207c144e2f1dace8413022e0"
+  },
+  "input_hashes": {
+    "notes/2026-11-12-closure-recovery2-centred-four-green-r1.json.gz": "31c65d6c8053325502542c008720f880d7386cd39168be79ca466851e76bb7ee",
+    "notes/2026-11-12-tail-r33-plateau2-quadratic-high-recovered-r1.json": "51496d1d7307ea491a4e8a9aef22756745bf6c9ca92f8fc9ab1b364deae41e27",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz": "07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6"
+  },
+  "elapsed_seconds": 6.043779845000245,
+  "peak_RSS_KiB": 174688,
+  "output": "notes/2026-11-12-closure-recovery2-full-frequency-joint-r1.json.gz",
+  "output_sha256": "b75fc6c5b385db87d3e96086a7d7f2a5f6feba884db675c1d06d50be29642d81",
+  "bytes": 21862
+}

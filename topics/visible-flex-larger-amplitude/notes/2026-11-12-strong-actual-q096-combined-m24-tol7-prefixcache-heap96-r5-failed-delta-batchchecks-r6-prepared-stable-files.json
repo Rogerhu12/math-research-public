@@ -1,0 +1,305 @@
+{
+  "scope": "r5 failure, five new exact Jac calls, complete13point batch8/4 checks including failed strict check, and prepared r6; no live r6 output.",
+  "files": [
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5.log.gz",
+      "bytes": 3863,
+      "sha256": "6c4602a0144efe5e9df7707b729048e406bdd95c11ed6704b2bdde45028da214"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-disk-events.jsonl.gz",
+      "bytes": 1408,
+      "sha256": "3958bdb36216d710e60a4b8f105234c05e7312734e43bfef04afdae957a56971"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-prefix-cache-events.jsonl.gz",
+      "bytes": 5064,
+      "sha256": "6e83b34455aca2577318e1e6119a04d21af0af6ec29188eff0c50b035217ce8b"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-iterate-ledger.jsonl.gz",
+      "bytes": 364,
+      "sha256": "6827b74cd70096b26ca0970594c65faf46e3d3193a8aac44fcb65dcf6c9db884"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-tail-response_dispatch.jsonl.gz",
+      "bytes": 211,
+      "sha256": "eb8be4cc12863f20e7e530727a5bc3c920abb2f1be113f175c1b1041eaf0a760"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-iterate-0001-x-000.npy.gz",
+      "bytes": 15096,
+      "sha256": "a9c0a960b2eff206fd30e463cd9279d30f45d1db167fd2b398d0e8ecb792d57c"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-iterate-0001-cubic-001.npy.gz",
+      "bytes": 662004,
+      "sha256": "5ecf85b2052121afdcb2a1ed9b88111f659cf1ed52ad4e1438690883ad9dc1cd"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-iterate-0001-p-000.npy.gz",
+      "bytes": 415,
+      "sha256": "44f9d6e47a8845adfde12911afbd65cd853add77887f224ccd21c9947657eadc"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-iterate-0001-y-000.npy.gz",
+      "bytes": 1130502,
+      "sha256": "475f5a2a83427b0e11c59399fc2a5d829d4372a46680505a05c4a7db96c392ac"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-iterate-0001.json.gz",
+      "bytes": 6248,
+      "sha256": "72bad834c0cb2ba176e4549716a0e65533ad367eb38c663dc4586562d285b0ed"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-iterate-0001-cubic-000.npy.gz",
+      "bytes": 3885353,
+      "sha256": "bdc32f0708090f51628b22f795650edb5ae50bcf2852386b7d19bb8651fe1418"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-resource.json",
+      "bytes": 3453,
+      "sha256": "d3634c769645da43e103eac098c9441b0816029c51b856ccab3dae5a11df382e"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-heartbeat.json",
+      "bytes": 341,
+      "sha256": "ec085f2f00cc5beeedc310172de0005df3fe1424c7d1a380f6d41a0e65d64e32"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-ownership.json",
+      "bytes": 3682,
+      "sha256": "d01146861715ca26c4c92bd70b7b385b1e6e5b873f824e10c536b245c1619575"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-config.json",
+      "bytes": 3025,
+      "sha256": "05a521e14bc9b424b66deced3d65584dc81797f1bd5fde6f44659b7555756463"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-base-profile.json",
+      "bytes": 524,
+      "sha256": "7fe8cfbbfad3deb7163cb66f983a2fb68f2cdbe4472e734381f38e5e50919e18"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-actual-three-control-adapter.json",
+      "bytes": 47374,
+      "sha256": "5c308ad59095ed022a0e384a6796257df084f2ccc281395bb501a37947a09f66"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-tail-response_0001.json.gz",
+      "bytes": 302610,
+      "sha256": "8945adc35898eafc66abd6a6bd465625c6e1c637d30aaf95fa80b8f7a2a12a64"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-tail-response_recorded-adapter.json",
+      "bytes": 1425,
+      "sha256": "72f1270761c80730e18f2ee5cd3ad3704a9008f216204cf0d99e60667d095ac6"
+    },
+    {
+      "path": "notes/2026-11-12-strong-q096-prefix-cache-r5-delta-archive.json",
+      "bytes": 6639,
+      "sha256": "5a4f501cfa81a67646e5d965e2dcfe44b35c98a112be11f9ac2aeb6298d29a98"
+    },
+    {
+      "path": "notes/2026-11-12-strong-q096-prefix-cache-r5-delta-part000.tar.gz",
+      "bytes": 2741128,
+      "sha256": "2d645a3b7d9228cc4b8564d895343393c41f51b3164fef186b40b8bd1841097d"
+    },
+    {
+      "path": "computations/strong_prefix_batch_probe.py",
+      "bytes": 5367,
+      "sha256": "39b1921d2b8cf90d8a19597dbbf3e7ed755d49f3cb158e0593727d96292fce7c"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-check.json",
+      "bytes": 4390,
+      "sha256": "cc55c1921441ac684ab77787acaf176ec5ec5fe06fbdb35a8f69f0dc90b6ffc2"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-fresh-physical-merit-adapter.json",
+      "bytes": 4660,
+      "sha256": "bac3c2670f431138035fa57dafa9f92bf4f3edf65e7bcad6622f2b2d064f2f5b"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-base-profile.json",
+      "bytes": 524,
+      "sha256": "7fe8cfbbfad3deb7163cb66f983a2fb68f2cdbe4472e734381f38e5e50919e18"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-domain-observer.json",
+      "bytes": 12322,
+      "sha256": "54011a1881f89f87c6b54017223782eeffa6820976d9875599c40d74b2844d44"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-heartbeat.json",
+      "bytes": 311,
+      "sha256": "e65c22bfc6dd0d4c94b39a05c7d3274e8f61e0f23a35cdf98f172731bd126404"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-plan.json",
+      "bytes": 7201,
+      "sha256": "6d8814fe507478c5942be3eb2cddf01cbc4c475bc177d9062a67c32bd8c1a2d3"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-prefix-cache-events.jsonl",
+      "bytes": 2208,
+      "sha256": "307abf004398b51013d5da6821ca61ca197ac2b4c822d91976ad8f065d8e3325"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1.log",
+      "bytes": 8826,
+      "sha256": "22260fd5c466f36a7fef60f000078cd4d29187228e69cb8963487745fc7158d3"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-resource.json",
+      "bytes": 3966,
+      "sha256": "dfbe991f0eef04c801b5fe467ccffeb6ec982d05480c728e09e36b7085e32233"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-ownership.json",
+      "bytes": 4171,
+      "sha256": "0dbcdd652be589f07e9f9cb4d9d42f09ba90e7e8909258d0f5fbe40d6a0c02d0"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-disk-events.jsonl",
+      "bytes": 2830,
+      "sha256": "d6e607693e1ee07445ecb9c3e02ad5867e17f6fb7dc0c3f0335173efc7859f47"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-actual-three-control-adapter.json",
+      "bytes": 47599,
+      "sha256": "e80ae1461448595316fe94dec66103fedc4eeb76b65f9274b734449de54d1f1d"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-prefix-cache-summary.json",
+      "bytes": 1604,
+      "sha256": "0e4df62c5ed7f0f433109993467fe5484e483d258d31b0f2f69be89db6bb7b0f"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-summary.json",
+      "bytes": 27678,
+      "sha256": "308f1ba551e027eff49e6182c7bc32c8cf4feae7a90476366af52a6c9eab8e70"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-config.json",
+      "bytes": 2977,
+      "sha256": "36b4bda8bf961254351b9ecc71a771c2771251b3860a672068cec906dee6c982"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial8-check-r1-disk-adapter.json",
+      "bytes": 2369,
+      "sha256": "4f02abf41312b1b24eac1146ff187974a25d6befb034f85c9cfce54226ea2a4d"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-fresh-physical-merit-adapter.json",
+      "bytes": 4660,
+      "sha256": "c5b17b9f81af6864477dcc25c6d258bbded06e59c293a5ed4f980d48af468621"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-resource.json",
+      "bytes": 3967,
+      "sha256": "ec88907f452c3c553c38ad3702153bbda165decd0eabfeaf1b4f34755b06607f"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-config.json",
+      "bytes": 2977,
+      "sha256": "09377b428acaccdc2b0b64d4ad904c2583d775b16430805929fcd561569920cc"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-summary.json",
+      "bytes": 27748,
+      "sha256": "e553c1e2ca0fb35892675ea54cd667b7a5744feb85b56cbbd7ffb2d811c241e2"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-disk-adapter.json",
+      "bytes": 2368,
+      "sha256": "c2e3d42c383bea39827d55f4e1bb5aee3b87b5f499cc4aec98c354de551a11e1"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-check.json",
+      "bytes": 4410,
+      "sha256": "a7edb0ec0c168106443dcc388167620750e368b02736b78836cf3a3c543050d1"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1.log",
+      "bytes": 10107,
+      "sha256": "2bad7466bfffd33b86c4a142600c4f950d39569c6ea64d7f42c184c34faa9f2a"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-prefix-cache-summary.json",
+      "bytes": 1605,
+      "sha256": "1a287e5ea13aca2a5294dbda01f1de074f327b9ab964b1d178056d7f00bcf5fb"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-ownership.json",
+      "bytes": 4171,
+      "sha256": "f5e9c17b7c86f0d8f33ae5243b3e106cba08005365ef0fc9ed88f6730e5107b1"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-actual-three-control-adapter.json",
+      "bytes": 47599,
+      "sha256": "8014731ebd23583079fdeece748a4650954b6d55d86b91f5fa343c68a101c0b0"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-disk-events.jsonl",
+      "bytes": 2820,
+      "sha256": "ac69fc0c3df47a3a67239ef8e16182efd92eba7eeb30b4c692fbabb194665e7b"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-prefix-cache-events.jsonl",
+      "bytes": 2204,
+      "sha256": "0dbe47c637df781fdca742ef44dcaddf0f6be54c14e498a5d741871dceed77b9"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-plan.json",
+      "bytes": 7174,
+      "sha256": "15ab396dabfd131e483c1726e1c27953fde1ccd413e603f4d26ae8b51994936b"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-heartbeat.json",
+      "bytes": 311,
+      "sha256": "c445d6f628f5a00732b0f44621bbc01f848013d6d3dc2cbd8157262f31211055"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-base-profile.json",
+      "bytes": 524,
+      "sha256": "7fe8cfbbfad3deb7163cb66f983a2fb68f2cdbe4472e734381f38e5e50919e18"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-prefix-radial4-check-r1-domain-observer.json",
+      "bytes": 12322,
+      "sha256": "5e3f15ad35f2a04aa76e389df8db7da09eff67a6cc43e22d4cfb56b42c66de03"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-radial8-heap96-r6-command-plan.json",
+      "bytes": 8375,
+      "sha256": "fecb01effac42b8945d2bd29612c76373d3afa1982d021c2f3b576306ed9c9e3"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-radial8-heap96-r6-prepare.log",
+      "bytes": 244,
+      "sha256": "807389d16f3e84700c490fcdf27470c5a72d9bb9955ce7373fbe1f3e5f23500b"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-radial8-heap96-r6-config.json",
+      "bytes": 3049,
+      "sha256": "c97520478c6207d0780318ce64b2ff01fcde7145276ce1e6726a5206752f50c4"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-radial8-heap96-r6-base-profile.json",
+      "bytes": 524,
+      "sha256": "7fe8cfbbfad3deb7163cb66f983a2fb68f2cdbe4472e734381f38e5e50919e18"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-radial8-heap96-r6-actual-three-control-adapter.json",
+      "bytes": 47421,
+      "sha256": "05e1db954ce49f1bd37c95bb7340df7ca8ce83268783ac0055f67eaf5acb9b47"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-heap96-r5-failed-note.json",
+      "bytes": 1305,
+      "sha256": "565b5bd2a4dec657934030de605193d26dcd3ea16b356840879af02208bf23f7"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "scope": "Replay only. The fresh input generator uses two previously accepted points and the original complete geometry warm H, without reading the q122 solution. This independent comparison then reads the actually completed first new-H finite tail/full-J packet. No new tail residual evaluation or nonlinear solve uses the generated cubic warm, and the live q122 prefix is unchanged.",
+  "created_utc": "2026-11-13T11:33:52.090240+00:00",
+  "input_sha256": {
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3.json.gz": "bb2c6169b915a4a0f1444c732f79e84771e012037c73268e233c664ab040fa9c",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-exact-initial-call000001-initial-seed.json.gz": "edf97f1c406309adba1d541f2d96b22ec5398bb87f1953a48cd30d6f81acc184",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0001.json.gz": "f2c245ca2ffed58f7ea8402227782dda74cc2a0cd76b24d976f8dbda2a111d64",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-collinear-hermite-input-replay-r3-report.json": "73c3c482ee0ea20cba16c2ab04f1f3e813db78c41963cb36ab682d121ce2e83b"
+  },
+  "actual_reference_tail_residual": 1.499946469287228e-09,
+  "original_tolerance": 2e-09,
+  "actual_reference_full_J_entries": 2408,
+  "actual_reference_request_audit": false,
+  "complete_state_shape": [
+    577,
+    56
+  ],
+  "complete_target_H_bit_equal": true,
+  "target_Dirichlet_Q_bit_equal": true,
+  "original_linear_error": {
+    "max_absolute": 0.26858179730107423,
+    "max_node_relative": 0.011113660605774973,
+    "rms_node_relative": 0.00024522090272173904,
+    "worst_node_relative": [
+      26,
+      29
+    ],
+    "cut_Q_max_absolute": 0.0,
+    "cut_pi_max_absolute": 0.02825809083119335,
+    "raw_final_node_max_absolute": 1.1020949834935052e-19
+  },
+  "generated_cubic_error": {
+    "max_absolute": 3.140269226460657e-05,
+    "max_node_relative": 5.8601738679048755e-06,
+    "rms_node_relative": 5.386980327987379e-08,
+    "worst_node_relative": [
+      314,
+      29
+    ],
+    "cut_Q_max_absolute": 0.0,
+    "cut_pi_max_absolute": 7.944363007439392e-07,
+    "raw_final_node_max_absolute": 8.616779217324078e-23
+  },
+  "observed_error_ratio": {
+    "max_absolute": 8552.8270964139,
+    "max_node_relative": 1896.4728447124248,
+    "rms_node_relative": 4552.103178244863,
+    "cut_pi_max_absolute": 35569.98944374954
+  },
+  "original_job_unchanged": true,
+  "cubic_warm_newton_executed": false,
+  "newton_iteration_improvement_claim": false
+}

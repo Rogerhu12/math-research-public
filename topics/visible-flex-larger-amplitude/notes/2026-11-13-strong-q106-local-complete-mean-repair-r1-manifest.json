@@ -1,0 +1,117 @@
+{
+  "schema": "2026-11-13-strong-q106-local-complete-mean-repair-r1-immutable-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "members": [
+    {
+      "path": "computations/strong_newg_complete_mean_local_repair.py",
+      "sha256": "57c30661115ecde0431e6219c7fbb09bd757401773c7fbea3341b0841843d28a",
+      "bytes": 5441,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_complete_mean_local_repair.py"
+    },
+    {
+      "path": "computations/strong_newg_complete_mean_local_saved_check.py",
+      "sha256": "6b38861771845e398d13e92ce7e08a7219b27c2679c1a0fbb9c278b46a238658",
+      "bytes": 3842,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_complete_mean_local_saved_check.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-local-complete-mean-repair-r1-certificate.json.gz",
+      "sha256": "b3c51fd1972327bbf2fd92ae673b27e20737807167f7fefc304c1ff4b872f719",
+      "bytes": 1570712,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r2/certificate.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-local-complete-mean-repair-r1-resource.json",
+      "sha256": "aa88b3e0d157e9bbc2b1bb6a67ded5dfc7e10ca93e23ec230833acc4b3fdc9b5",
+      "bytes": 1896,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r2/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-local-complete-mean-repair-r1-saved-check.json",
+      "sha256": "9c1110ce43bf823aea5d3a61ae22980e9c96fd3de202c34f213abdc3739b7996",
+      "bytes": 3245,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r2/saved-check.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-local-complete-mean-repair-r1-saved-check-resource.json",
+      "sha256": "a8a63adef286b9e08a8b1cfefbfa68532f3e4aa888cc14bd8d7068fed0d2365e",
+      "bytes": 1575,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r2/saved-check-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-local-complete-mean-repair-r1-proof.md",
+      "sha256": "b2b537e8cc3fe438aee84aa3bacd2fd9035fef66c093c88cefb0c2670fa0c1b0",
+      "bytes": 3370,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r2/proof.md"
+    }
+  ],
+  "formal_exitcodes": [
+    0,
+    0
+  ],
+  "primary_gates": 17849,
+  "independent_exact_gates": 36606,
+  "actual_H_Hs_Hss_display": [
+    8.477361726083709e-12,
+    2.979764859358287e-11,
+    7.173133788444354e-07
+  ],
+  "actual_H_Hs_Hss_upper": [
+    [
+      "1702824384073621620789919033840460745270109789766",
+      -197
+    ],
+    [
+      "1496342973577772324983402408213198553218950060395",
+      -195
+    ],
+    [
+      "2198559108965082795586404698787796559425487542474",
+      -181
+    ]
+  ],
+  "complete_atoms": 3326,
+  "regenerate_commands": [
+    [
+      "python",
+      "computations/strong_newg_complete_mean_local_repair.py",
+      "--domain",
+      "q106-continuous-mean-domain-r4/certificate.json.gz",
+      "--domain-check",
+      "q106-continuous-mean-domain-r4/saved-check.json",
+      "--background",
+      "binary-background-C2-r1/certificate.json",
+      "--state-repair",
+      "q106-C2-comparison-r1/certificate.json.gz",
+      "--radial",
+      "q106-newg-packet-r1/packet-manifest.json",
+      "--cartesian",
+      "repair-Cartesian-seven-r1/certificate.json",
+      "--primary",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+      "--domain-resource",
+      "q106-continuous-mean-domain-r4/resource.json",
+      "--domain-check-resource",
+      "q106-continuous-mean-domain-r4/saved-check-resource.json",
+      "--out",
+      "q106-complete-mean-repair-r2/certificate.json.gz"
+    ],
+    [
+      "python",
+      "computations/strong_newg_complete_mean_local_saved_check.py",
+      "--certificate",
+      "q106-complete-mean-repair-r2/certificate.json.gz",
+      "--resource",
+      "q106-complete-mean-repair-r2/resource.json",
+      "--domain",
+      "q106-continuous-mean-domain-r4/certificate.json.gz",
+      "--cartesian",
+      "repair-Cartesian-seven-r1/certificate.json",
+      "--background",
+      "binary-background-C2-r1/certificate.json",
+      "--out",
+      "q106-complete-mean-repair-r2/saved-check.json"
+    ]
+  ],
+  "scope": "Same full q106 comparison homotopy and single anchor; existing per-piece background fees and tightened actual domain. Complete uniform-psi mean paid; original floating, quadrature, alignment, g/PDE/reach remain unpaid."
+}

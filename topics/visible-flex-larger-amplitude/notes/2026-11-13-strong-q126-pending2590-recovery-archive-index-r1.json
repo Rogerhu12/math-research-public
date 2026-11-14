@@ -1,0 +1,59 @@
+{
+  "schema": "original-RMS-passed-true-H-pending-recovery-index-v1",
+  "created_utc": "2026-11-13T17:11:32.034495+00:00",
+  "scope": "The original complete 2590-node affine-inner RMS passed. A new complete current-H nonlinear tail, true physical boundary and final audit remain mandatory.",
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-pending2590-recovery-manifest-r1.json",
+      "bytes": 12984,
+      "sha256": "d508ea3324c5926d3d168aa2cd41f640b2ef790710b59385d8fbc0f68efd4786",
+      "original_file": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-pending2590-recovery-manifest-r1.json"
+    },
+    {
+      "file": "computations/strong_archive_pending_prefix.py",
+      "bytes": 6880,
+      "sha256": "08a0d7be01d9813a7d27822658af29c9ebc462cbd3dd4080a1793e0b07f12b7e",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_archive_pending_prefix.py"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-pending2590-recovery-r1-heartbeat.json",
+      "bytes": 297,
+      "sha256": "2df253dae076badacf34ba716ad3de05a2a311f977b411e44adbd407f59b72ae",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-pending2590-recovery-r1-heartbeat.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-pending2590-recovery-r1-ownership.json",
+      "bytes": 1932,
+      "sha256": "e7c2a03c56ea65a4190bdd1d864e1b057f26e2528bf521db2deb6b9fd668fb7d",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-pending2590-recovery-r1-ownership.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-pending2590-recovery-r1-resource.json",
+      "bytes": 1752,
+      "sha256": "40df1d50a5301db6a2efd6cb505f2b0580769224b66595c2eb6ce4060bebd09a",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-pending2590-recovery-r1-resource.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-pending2590-recovery-r1-stdout.log",
+      "bytes": 2012,
+      "sha256": "29eb1d68a3f976337c5186ead52b92d7ca5aea260f1dd6bef7cf4e158105891b",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-pending2590-recovery-r1-stdout.log"
+    }
+  ],
+  "total_bytes": 25857,
+  "main_recovery_manifest": {
+    "file": "notes/2026-11-13-strong-q126-pending2590-recovery-manifest-r1.json",
+    "sha256": "d508ea3324c5926d3d168aa2cd41f640b2ef790710b59385d8fbc0f68efd4786"
+  },
+  "recovery_data_files": 8,
+  "recovery_data_bytes": 9799732,
+  "original_inner_RMS": 9.922401143569431e-08,
+  "original_RMS_tolerance": 1e-07,
+  "modes": 32,
+  "nodes": 2590,
+  "original_job_session": 40663,
+  "physical_surface_or_whole_BVP_accepted": false,
+  "archive_owned_exitcode": 0,
+  "archive_wall_seconds": 1.343433844995161,
+  "archive_peak_rss_kib": 51576
+}

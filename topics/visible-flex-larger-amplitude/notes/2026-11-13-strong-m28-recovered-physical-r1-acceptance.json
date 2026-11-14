@@ -1,0 +1,29 @@
+{
+  "scope": "Accept a saved affine-inner prefix only after an independently saved true DN.\n\nThe complete audited tail packet must match the exact raw cut height, all\nequations/discretization, and every loaded tail source hash. Original raw\nidentity checks run unchanged. Collocation RMS is recomputed from the saved\ncubic, and the original inlet and unscaled physical true-DN gates are tested.\nOnly then is the pending state passed to the original physical interpolant\nand audits. This records a genuine staged evaluation of the original finite\nproblem; it asserts neither exact isometry nor infinite closure.\n",
+  "raw": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-outer-00-raw-collocation.json.gz",
+  "raw_sha256": "2defe8acda9dadd4c85fa05c9c01f6528622b491c898712386fa89976a4b3163",
+  "tail_packet": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz",
+  "tail_packet_sha256": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d",
+  "config_sha256": "e9d204c32e2542754d23d58d3f0cf6a55632291a7b5e04eb147d67b1ff6ebe13",
+  "source_sha256": "339a0c75c50adc3f4592c4e7541ab409e8df872dd1a348d55a1851a657917030",
+  "prefix_accepted": true,
+  "numerical_BVP_repeated": false,
+  "saved_full_true_DN_reused": true,
+  "verification": {
+    "exact_complete_height_match": true,
+    "raw_identity_and_all_array_hashes_verified": true,
+    "original_rms_max": 9.989625002548099e-08,
+    "recomputed_rms_max": 9.989625002548099e-08,
+    "rms_tolerance": 1e-07,
+    "rms_replay_max_difference": 0.0,
+    "inlet_scaled_max": 2.874923447418727e-16,
+    "inlet_tolerance": 1e-07,
+    "full_scaled_bc_diagnostic": 2.874923447418727e-16,
+    "true_physical_bc_max": 4.1873668780374653e-19,
+    "true_physical_bc_tolerance": 1e-10,
+    "tail_residual": 1.654347043206027e-10,
+    "tail_audit_present": true,
+    "tail_source_hashes_identical": true,
+    "passed_original_acceptance": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "status": "Prepared; no completion claimed",
+  "utc": "2026-11-12T18:46:06.365163+00:00",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/root_complete_low_cut_reference_strip.py",
+    "--pattern",
+    "notes/2026-11-12-root-r82-source-m{mode:03d}-r2.json.gz",
+    "--batch-state",
+    "notes/2026-11-12-root-r82-full-low46-replay-r1-state.json",
+    "--family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3.json.gz",
+    "--far",
+    "notes/2026-11-12-closure-r63-far-boundary-completion-r1.json",
+    "--trace",
+    "notes/2026-11-12-closure-strong-true-cut-trace-r1.json",
+    "--r78",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+    "--out",
+    "notes/2026-11-12-root-r82-complete-low-cut-r1.json",
+    "--rss-kib",
+    "51200"
+  ],
+  "source_sha256": "9854623ada91011d84bb8a144a7842c4476d59a9ff113269db3b9b8911b4850b",
+  "estimated_seconds": 12,
+  "owned_RSS_KiB": 51200,
+  "arithmetic": "Exact Fraction and outward dyadic serialization",
+  "new_Arb": 0,
+  "new_ODE": 0,
+  "new_source_integrals": 0,
+  "new_Node": 0,
+  "scope": "Actual all46 low DN on R74 complex polydisc; far and full-head mass each added once, high/mean preserved; no outer inverse claim"
+}

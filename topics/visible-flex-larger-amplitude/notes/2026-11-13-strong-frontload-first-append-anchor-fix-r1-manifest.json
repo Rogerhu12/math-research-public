@@ -1,0 +1,39 @@
+{
+  "schema": "first-append-current-anchor-fix-immutable-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "members": [
+    {
+      "path": "computations/strong_monotone_initial_speed_anchor.py",
+      "sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+      "bytes": 3015,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed_anchor.py"
+    },
+    {
+      "path": "computations/strong_monotone_initial_speed_anchor_check.py",
+      "sha256": "615d91a9da5751086e4fe72132a693ead10b6de866a5555a8830d0c6d4ceff90",
+      "bytes": 6675,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed_anchor_check.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-frontload-first-append-anchor-fix-r1-check.json",
+      "sha256": "eaed1cbbedbdb75b9e84b1d95341427f9b1514065144d45d967d60571e6d070f",
+      "bytes": 8560,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/frontload-anchor-fix-r1/check.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-frontload-first-append-anchor-fix-r1-resource.json",
+      "sha256": "388ef5455c8e552eb2d871d61ff34a59997da6eb7fb2ebc78470387c1ac4fe7b",
+      "bytes": 1330,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/frontload-anchor-fix-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-frontload-first-append-anchor-fix-r1-proof.md",
+      "sha256": "bd542303fee0c792d317ad8e3e95c2b3ce973b08033e406fa8204d4b79e7a79c",
+      "bytes": 2801,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/frontload-anchor-fix-r1/proof.md"
+    }
+  ],
+  "formal_exitcode": 0,
+  "gate_count": 54,
+  "scope": "One unique source-site argument replacement, old provider immutable; actual q122 zero identity and full nonzero prefix endpoint replay only. No new actual solution or continuum floating-error certificate."
+}

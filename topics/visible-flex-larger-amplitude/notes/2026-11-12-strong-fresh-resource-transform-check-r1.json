@@ -1,0 +1,151 @@
+{
+  "scope": "Compile and reverse the complete fresh actual resource-only source transform.\n\nThis is a standard-library source check, not a numerical solve.  The original\nfull program is built with its frozen prior transforms, then the two new\nchanges are reversed literally.  The original young-space and constructor\nfixtures separately exercised process dispatch and owned-child cleanup.\n",
+  "passed": true,
+  "checks": {
+    "complete_program_compiles": true,
+    "exactly_two_additive_replacements": true,
+    "reverse_transform_restores_complete_prior_source_bytes": true,
+    "prior_transform_hash_matches": true,
+    "current_transform_hash_matches": true,
+    "full_prior_transform_chain_preserved": true,
+    "wrapper_class_created_before_ExplicitStagePort": true,
+    "original_lazy_port_created_after_ExplicitStagePort": true,
+    "per_generation_seed_prefix_preserved": true,
+    "release_argument_unchanged": true,
+    "all_new_source_hashes_recorded": true,
+    "resource_call_is_in_actual_nested_loader": true
+  },
+  "physical_Flow_instances": 0,
+  "physical_RHS_calls": 0,
+  "tail_workers": 0,
+  "BVPs": 0,
+  "numerical_surface_result": false,
+  "source_sha256_at_start": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_fresh_resource_transform_check.py": "ac6ffcfe87a54810234cc45451dfd11865d6a0cbf28d2d64123ff148bfdcf684",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_fresh_resource_actual_bvp.py": "26f0c2ba1bdbb413ba7819f8f1aaafa7892787a7e14509357b6a28821e8c808f",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_fresh_physical_merit_actual_bvp.py": "b8a898cf5f9dd34e3fe0f9b0ebf2ea12181b93f5a166fb69f7f108c93de47a7d",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_tail_young_space_guard.py": "867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_tail_constructor_guard.py": "6f51a896e44aff8aa8a2f66a71320b68f15d279ec2a8e2ee0e3093cedf0696a3"
+  },
+  "source_transform": {
+    "scope": "Fresh actual M+3 continuation with fixed S, disk QR and domain observations.\n\nThe accepted all-core baseline and original complete actual-J warm construction\nremain unchanged. The original outer coupling method and complete actual new-H\ntests remain unchanged. This entry changes the Newton correction norm, explicitly,\nand adds lossless observations of rejected-domain blocks. It does not reuse a\npending q105 affine state or its different H0 response for another target.\n",
+    "configuration": {
+      "stage_cache_directory": "source-check-only-no-worker"
+    },
+    "disk_configuration": {
+      "temporary_parent": null,
+      "backward_error_tolerance": 5e-11,
+      "heartbeat_seconds": 20.0
+    },
+    "source_sha256": {
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_raw_three_control_bvp.py": "4c0030c38a34f99b4c9c58c02b7c74e32c2795eb55190c623d71f9771e80cc98",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_physical_merit_and_affine_resume.py": "e330336daab09ef9d0bcb93cb36e04581636e33e645ed5e319987c3cc0f2810f",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_fresh_physical_merit_actual_bvp.py": "b8a898cf5f9dd34e3fe0f9b0ebf2ea12181b93f5a166fb69f7f108c93de47a7d",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_fresh_physical_merit_runtime.py": "6dd391ed4b996a892eab2a93551cb77a2eb410c237ea4b89680486b22cf663b4",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_domain_rejection_observer.py": "97b469fe8a6f22a0152b12e700d17d6a2b9cededea8e9dab143025c8ab5a3049",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_tail_young_space_guard.py": "867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_tail_constructor_guard.py": "6f51a896e44aff8aa8a2f66a71320b68f15d279ec2a8e2ee0e3093cedf0696a3",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_fresh_resource_actual_bvp.py": "26f0c2ba1bdbb413ba7819f8f1aaafa7892787a7e14509357b6a28821e8c808f"
+    },
+    "template_sha256": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+    "transformed_source_sha256": "55ac4a161d9f19fe1c9f9f022da702d55c2455d7ca7a88bd4023f3051ce3f724",
+    "replacements": [
+      {
+        "before": "        'strong_frozen_calibration_factory.mjs', 'strong_actual_recorded_tail_port.py')",
+        "after": "        'strong_frozen_calibration_factory.mjs', 'strong_actual_recorded_tail_port.py',\n        'strong_exact_raw_three_control_bvp.py', 'strong_exact_raw_tail_client.py',\n        'strong_exact_raw_tail_worker.mjs', 'strong_exact_raw_tail_warm.mjs')",
+        "count": 1
+      },
+      {
+        "before": "    provenance = dict(scope=__doc__, status=",
+        "after": "    provenance = dict(scope=__doc__, exact_raw_warm_storage_adapter=EXACT_RAW_SOURCE_TRANSFORM, status=",
+        "count": 1
+      },
+      {
+        "before": "        if path.name == 'tail_frozen_client.py' and options.initial_audited_tail_packet:",
+        "after": "        if path.name == 'tail_frozen_client.py':\n            loaded = original_loader(name+'_exact_raw', HERE/'strong_exact_raw_tail_client.py')\n        if path.name == 'tail_frozen_client.py' and options.initial_audited_tail_packet:",
+        "count": 1
+      },
+      {
+        "before": "'strong_exact_raw_tail_worker.mjs', 'strong_exact_raw_tail_warm.mjs')",
+        "after": "'strong_exact_raw_tail_worker.mjs', 'strong_exact_raw_tail_warm.mjs',\n        'strong_fresh_physical_merit_actual_bvp.py', 'strong_fresh_physical_merit_runtime.py',\n        'strong_physical_merit_and_affine_resume.py', 'strong_domain_rejection_observer.py',\n        'strong_disk_actual_backend.py', 'root_disk_block_collocation.py',\n        'strong_exact_stage_tail_client.py', 'strong_exact_stage_tail_worker.mjs',\n        'strong_exact_stage_engine.mjs', 'strong_exact_stage_flow_store.mjs',\n        'strong_exact_stage_seed.mjs', 'strong_exact_stage_evaluation_check.mjs')",
+        "count": 1
+      },
+      {
+        "before": "            loaded = original_loader(name+'_exact_raw', HERE/'strong_exact_raw_tail_client.py')",
+        "after": "            loaded = original_loader(name+'_exact_stage', HERE/'strong_exact_stage_tail_client.py')\n            stage_base = loaded.WeightedTailPort\n            class ExplicitStagePort(stage_base):\n                def __init__(self, config, source_root, record_prefix, node_heap=384):\n                    key = 'VISIBLE_FLEX_EXACT_STAGE_SEED_PREFIX'\n                    old_seed = os.environ.get(key)\n                    os.environ[key] = str(Path(record_prefix).resolve())+'-exact-initial'\n                    try:\n                        super().__init__(config, source_root, record_prefix, node_heap=node_heap)\n                    finally:\n                        if old_seed is None: os.environ.pop(key, None)\n                        else: os.environ[key] = old_seed\n            loaded.WeightedTailPort = ExplicitStagePort",
+        "count": 1
+      },
+      {
+        "before": "    import root_actual_bounded_neck as bounded",
+        "after": "    import root_actual_bounded_neck as bounded\n    from strong_fresh_physical_merit_runtime import Runtime\n    from strong_domain_rejection_observer import DomainObservation\n    merit_runtime = Runtime(FRESH_MERIT_CONFIGURATION, out)\n    disk_runtime = merit_runtime.install_disk_backend(bounded, {'temporary_parent': None, 'backward_error_tolerance': 5e-11, 'heartbeat_seconds': 20.0})\n    domain_runtime = DomainObservation(out, FRESH_MERIT_CONFIGURATION, hashes, emit=merit_runtime.emit)",
+        "count": 1
+      },
+      {
+        "before": "    provenance = dict(scope=__doc__, exact_raw_warm_storage_adapter=EXACT_RAW_SOURCE_TRANSFORM, status=",
+        "after": "    provenance = dict(scope=__doc__, fresh_fixed_physical_merit=FRESH_MERIT_SOURCE_TRANSFORM, exact_raw_warm_storage_adapter=EXACT_RAW_SOURCE_TRANSFORM, status=",
+        "count": 1
+      },
+      {
+        "before": "    bounded.blocks.prepare_sys.__defaults__ = (options.collocation_batch_size,)",
+        "after": "    bounded.blocks.prepare_sys.__defaults__ = (options.collocation_batch_size,)\n    domain_runtime.install_radial(radial)",
+        "count": 1
+      },
+      {
+        "before": "            checkpoints.install_observer(loaded, path, bounded.adapter, recorder)",
+        "after": "            merit_runtime.install_newton(loaded, path, bounded.adapter)\n            domain_runtime.install_newton(loaded, path, bounded.adapter)\n            checkpoints.install_observer(loaded, path, bounded.adapter, recorder)",
+        "count": 1
+      },
+      {
+        "before": "                cls.bc_jac = cls.augmented_bc_jac",
+        "after": "                cls.bc_jac = cls.augmented_bc_jac\n                domain_runtime.install_class(cls)",
+        "count": 1
+      },
+      {
+        "before": "        for function, default in zip((radial.value, radial.state_jacobian, bounded.blocks.prepare_sys), defaults):\n            function.__defaults__ = default\n        gc.collect()",
+        "after": "        for function, default in zip((radial.value, radial.state_jacobian, bounded.blocks.prepare_sys), defaults):\n            function.__defaults__ = default\n        gc.collect()\n        domain_runtime.finish()\n        disk_runtime.finish()\n        merit_runtime.finish()",
+        "count": 1
+      },
+      {
+        "before": "            stage_base = loaded.WeightedTailPort\n",
+        "after": "            from strong_tail_young_space_guard import resource_port_class\n            stage_base = resource_port_class(loaded.WeightedTailPort, 128, 4)\n",
+        "count": 1
+      },
+      {
+        "before": "        'strong_exact_stage_seed.mjs', 'strong_exact_stage_evaluation_check.mjs')",
+        "after": "        'strong_exact_stage_seed.mjs', 'strong_exact_stage_evaluation_check.mjs',\n        'strong_fresh_resource_actual_bvp.py', 'strong_tail_young_space_guard.py',\n        'strong_tail_constructor_guard.py')",
+        "count": 1
+      }
+    ],
+    "original_source_files_unchanged": true,
+    "original_Newton_merit_changed": true,
+    "original_equations_and_final_nonlinear_physical_acceptance_preserved": true,
+    "original_complete_outer_method_and_true_new_H_checks_untouched": true,
+    "tail_stage_storage": {
+      "client": "strong_exact_stage_tail_client.py",
+      "directory": "source-check-only-no-worker",
+      "per_worker_generation_seed_prefix": "actual live record prefix + -exact-initial",
+      "same_complete_input_and_identity_only": true,
+      "original_full_changed_H_solve_and_audit_preserved": true
+    },
+    "domain_observation_only_no_additional_RHS_or_geometry": true,
+    "prior_transformed_source_sha256": "2c1dbc03620eb0159dcf932e7df55195816ae619e577a7d7e142e5ef96480803",
+    "explicit_live_tail_resource_wrapper": {
+      "source_sha256": "26f0c2ba1bdbb413ba7819f8f1aaafa7892787a7e14509357b6a28821e8c808f",
+      "old_heap_MiB": 128,
+      "young_semi_space_MiB": 4,
+      "installed_before_lazy_audited_packet_adapter": true,
+      "exact_saved_H_creates_no_worker": true,
+      "every_live_generation_uses_original_complete_tail": true,
+      "release_worker_and_full_packet_checks_unchanged": true,
+      "no_numerical_MJS_changes": true,
+      "cache_key_and_original_math_unchanged": true,
+      "no_claim_about_prior_signal9_cause": true
+    }
+  },
+  "seconds": 0.31408629300130997
+}

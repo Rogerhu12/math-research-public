@@ -1,0 +1,33 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration01-recovery-r1",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_exact_stage_recovery_binding.py",
+    "--checkpoint",
+    "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration01-recovery-r1.json.gz",
+    "--trace",
+    "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration01-recovery-r1-trace.jsonl",
+    "--source-topic",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+    "--out",
+    "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration01-recovery-r1-binding.json"
+  ],
+  "started_utc": "2026-11-13T16:18:13.297753+00:00",
+  "finished_utc": "2026-11-13T16:18:14.357182+00:00",
+  "wall_seconds": 1.070431791998999,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 15428,
+  "user_seconds": 0.157329,
+  "system_seconds": 0.092786,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 7,
+  "supervisor_pid": 6,
+  "supervisor_pid_namespace": "pid:[4026532826]",
+  "automatic_restarts": 0
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "geometry-compact-completed-relocation-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "scope": "Exact-byte storage relocation only; no new scientific result or recomputation.",
+  "files": [
+    {
+      "path": "computations/relocate_completed_old_three_derived_readonly.py",
+      "sha256": "20605d42d42c095bc056edd3b657bc5a903aeb2fffbd1cf76d9e77175b7ab533",
+      "bytes": 9603
+    },
+    {
+      "path": "notes/2026-11-13-strong-old-derived-readonly-relocation-r1-inventory.json",
+      "sha256": "be5db9a9a6d649a89b50cad920ec909f1262e1bc57d52924423c1c4fffd578ce",
+      "bytes": 67190
+    },
+    {
+      "path": "notes/2026-11-13-strong-old-derived-readonly-relocation-r1-receipt.jsonl",
+      "sha256": "7764d240320920134ef28e6e221d7c1859958f9784cf6e4355b608e53eb980d4",
+      "bytes": 47188
+    },
+    {
+      "path": "notes/2026-11-13-strong-old-derived-readonly-relocation-r1-result.json",
+      "sha256": "628062e730bb403c4f5e2e3e80d71b498a02b8a7ed8b4a0c84120192b5b5ef0b",
+      "bytes": 930
+    },
+    {
+      "path": "notes/2026-11-13-strong-old-derived-readonly-relocation-r1-resource.json",
+      "sha256": "98b8bc3aa3987e8081c007913c70777921ddaadec8ff7b8d6bc6e1ec91ba4b65",
+      "bytes": 1217
+    },
+    {
+      "path": "notes/2026-11-13-strong-old-derived-readonly-relocation-r1-note.md",
+      "sha256": "2e080475dc46adce61f598d6e5aa674c4f8b57b5d1060d7f39e9b9c5c5739fe6",
+      "bytes": 2396
+    }
+  ],
+  "large_derived_files_retained_only_in_private_scratch": true,
+  "result_sha256": "628062e730bb403c4f5e2e3e80d71b498a02b8a7ed8b4a0c84120192b5b5ef0b",
+  "owned_resource_sha256": "98b8bc3aa3987e8081c007913c70777921ddaadec8ff7b8d6bc6e1ec91ba4b65"
+}

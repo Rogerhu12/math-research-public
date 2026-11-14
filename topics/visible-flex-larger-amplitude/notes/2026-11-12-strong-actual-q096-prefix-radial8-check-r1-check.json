@@ -1,0 +1,137 @@
+{
+  "scope": "Compare a smaller actual radial batch with complete recorded old outputs.\n\nThe old, individually input-bound cache entry is a comparison reference only.\nNo old cache item is relabelled for a different batching identity. The original\nactual augmented callbacks compute every new value; no Newton or tail runs.\n",
+  "finished": true,
+  "passed": true,
+  "checks": {
+    "fun_jac_complete_bytes_and_layout_equal": true,
+    "fun_jac_complete_selected_parameters_restored": true,
+    "fun_complete_bytes_and_layout_equal": true,
+    "fun_complete_selected_parameters_restored": true
+  },
+  "comparisons": [
+    {
+      "operation": "fun_jac",
+      "reference_file": "notes/2026-11-12-strong-q096-prefix-call-cache/73ffd487f526387ed5b33c4185b9b9e313ef41cce3a97d65513ede05853aa006/274eb270689e67e85665435d2d82d2f398bf9b0942b3f1911e70048ecde4dced.bin.gz",
+      "reference_sha256": "3e82774f9d448df5891f31305897e792398c29d49a079d4b264d6418e4d8578f",
+      "original_batch_sizes": {
+        "collocation": 12,
+        "radial": 16
+      },
+      "new_batch_sizes": {
+        "radial": 8,
+        "collocation": 12
+      },
+      "input_shapes": {
+        "t": [
+          13
+        ],
+        "y": [
+          73,
+          13
+        ],
+        "p": [
+          27
+        ]
+      },
+      "complete_outputs": 2,
+      "output_descriptors": [
+        {
+          "shape": [
+            73,
+            73,
+            13
+          ],
+          "dtype": "<f8",
+          "strides": [
+            7592,
+            104,
+            8
+          ],
+          "C_contiguous": true,
+          "F_contiguous": false,
+          "bytes": 554216,
+          "C_bytes_sha256": "b2b78495ac072e4f6cc22fa6924ea319b2dbc35644782a54c79e89def6144768"
+        },
+        {
+          "shape": [
+            73,
+            27,
+            13
+          ],
+          "dtype": "<f8",
+          "strides": [
+            2808,
+            104,
+            8
+          ],
+          "C_contiguous": true,
+          "F_contiguous": false,
+          "bytes": 204984,
+          "C_bytes_sha256": "e0552ea119bd109fec131120aae6d0df5ab7bd9adf6a743ed5801466e3c81201"
+        }
+      ],
+      "max_absolute_difference": [
+        0.0,
+        0.0
+      ],
+      "reference_source_and_complete_input_guards_passed": true
+    },
+    {
+      "operation": "fun",
+      "reference_file": "notes/2026-11-12-strong-q096-prefix-call-cache/73ffd487f526387ed5b33c4185b9b9e313ef41cce3a97d65513ede05853aa006/00cb512181def989c49e0e2067168bc8e3db134cbbe46886a44c2edd13c3ab8e.bin.gz",
+      "reference_sha256": "8684bc9830a93c71e60d489274eace4750692fbb51768b4ad4b76736933be010",
+      "original_batch_sizes": {
+        "collocation": 12,
+        "radial": 16
+      },
+      "new_batch_sizes": {
+        "radial": 8,
+        "collocation": 12
+      },
+      "input_shapes": {
+        "t": [
+          13
+        ],
+        "y": [
+          73,
+          13
+        ],
+        "p": [
+          27
+        ]
+      },
+      "complete_outputs": 1,
+      "output_descriptors": [
+        {
+          "shape": [
+            73,
+            13
+          ],
+          "dtype": "<f8",
+          "strides": [
+            104,
+            8
+          ],
+          "C_contiguous": true,
+          "F_contiguous": false,
+          "bytes": 7592,
+          "C_bytes_sha256": "38278eafad87fdb77608e2ebff1466e75af2d3eaf15da1db2a77eaa19110491b"
+        }
+      ],
+      "max_absolute_difference": [
+        0.0
+      ],
+      "reference_source_and_complete_input_guards_passed": true
+    }
+  ],
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_prefix_batch_probe.py": "39b1921d2b8cf90d8a19597dbbf3e7ed755d49f3cb158e0593727d96292fce7c",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_prefix_evaluation_cache.py": "97a2b5b0eccbef3a9645167b2c91c73503a820507136b10bfdb300a97df7f6ea",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_cached_prefix_actual_bvp.py": "986de6d32371144d20dc5a511dd027875e0b43aa976201447e75a7151e940faa"
+  },
+  "old_cache_not_relabelled_or_used_as_result": true,
+  "original_physical_and_angular_equations_unchanged": true,
+  "Node_processes": 0,
+  "Newton_steps": 0,
+  "new_solution": false
+}

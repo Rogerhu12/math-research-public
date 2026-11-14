@@ -1,0 +1,29 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/root_actual_freeze_design_view.py",
+    "--design-checkpoint",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz",
+    "--design-raw",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz",
+    "--design-tail",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0003.json.gz",
+    "--fixed-view-prefix",
+    "notes/2026-11-12-root-q095-fixed-view-identity-r1",
+    "--allow-fixed-input-for-identity-check",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--tail-config",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-config.json"
+  ],
+  "wall_seconds": 171.5999903678894,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 126476,
+  "user_seconds": 32.423323,
+  "system_seconds": 1.01173,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

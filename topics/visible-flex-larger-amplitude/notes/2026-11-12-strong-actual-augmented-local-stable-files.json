@@ -1,0 +1,139 @@
+{
+  "scope": "Completed preparation/local derivative validation only. The exact failed r0 and validated r1 source snapshots are retained. No accepted new actual BVP is claimed.",
+  "r0_exitcode": 1,
+  "r1_exitcode": 0,
+  "validated_entry_sha256": "7ff94e3a02d1d51cfeb98a0b732d947d1cc9db55b710d27cb4bf41a816eef9ec",
+  "files": [
+    {
+      "file": "computations/strong_actual_augmented_core.py",
+      "bytes": 14980,
+      "sha256": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7"
+    },
+    {
+      "file": "computations/strong_actual_newton_checkpoints.py",
+      "bytes": 7886,
+      "sha256": "7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb"
+    },
+    {
+      "file": "computations/strong_actual_warm_screen.py",
+      "bytes": 5623,
+      "sha256": "0e5a07052bbbec195d59cf95a312e6375855c86db18b4adc6614a74f45c08618"
+    },
+    {
+      "file": "notes/2026-11-12-strong-actual-augmented-entry-check.md",
+      "bytes": 4600,
+      "sha256": "c75bdb8226e37e1483b7608697c0ae429909ffc11a0742dbaacf941f61aeef90"
+    },
+    {
+      "file": "notes/2026-11-12-strong-actual-augmented-r0-entry-source.py.gz",
+      "bytes": 8420,
+      "sha256": "3b2f8b1a043ff4acf7e6b41e135faff04fc1d9bd6476057e3456d04c874b3554"
+    },
+    {
+      "file": "notes/2026-11-12-strong-actual-augmented-r0-source-reconstruction.json",
+      "bytes": 8397,
+      "sha256": "97481554495e9a745026bcda1e8ceb70ac34e644621b00234e4e1e0b03dcef98"
+    },
+    {
+      "file": "notes/2026-11-12-strong-actual-augmented-validated-entry-source.py.gz",
+      "bytes": 9325,
+      "sha256": "6dc931ae99050bf54bd9e84bd1b972514d5b665140b374c3b67e03f983d13d2b"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-entry-prepare-actual-three-control-adapter.json",
+      "bytes": 8680,
+      "sha256": "bd211e6d31271687123c5ec2040a54737fb56d0e3617abc67326b0492e7712c1"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-entry-prepare-base-profile.json",
+      "bytes": 507,
+      "sha256": "4a5a3ee472d721aa4e2020b86d5a108c0819b454407f297d8488a3a2c7f4e7c3"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-entry-prepare-config.json",
+      "bytes": 2966,
+      "sha256": "dd842f96cfa266af540f0f0e39549bbc32247499f6c663622f1e5ffa7c8d004c"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-entry-prepare-resource.json",
+      "bytes": 1871,
+      "sha256": "f64b242764482ff1144d4f2a21145b9a038279d35a1b4db7cff57241a8903894"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r0-actual-three-control-adapter.json",
+      "bytes": 8649,
+      "sha256": "70b4d326d4c2a92905507119d235b6af6c81e132b9063fdc52341f05f1c7dd39"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r0-base-profile.json",
+      "bytes": 507,
+      "sha256": "4a5a3ee472d721aa4e2020b86d5a108c0819b454407f297d8488a3a2c7f4e7c3"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r0-command.json",
+      "bytes": 1503,
+      "sha256": "ded85b9d425570de988395b5df8be481c854a129aa87a68565c19fe82a8c2042"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r0-config.json",
+      "bytes": 2951,
+      "sha256": "b3c4e0fd9308660dd41751c86abd9363d7904c2b5c576df86f63a49105c4269d"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r0-log.txt",
+      "bytes": 2557,
+      "sha256": "d7e9a1fdf026b67469755f67572eb8d0929780b880872783930ec7e3e7b5477c"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r0-resource.json",
+      "bytes": 1935,
+      "sha256": "4cd9e8044fd13aa22fd10f71a4de05c8c3960b4e8595394b56e80c4686bd5e90"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r0-summary.json",
+      "bytes": 15808,
+      "sha256": "701a1892d398dff8824d386e543f404cd35ad1e7452c044104e7c259fd5cea60"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r1-actual-three-control-adapter.json",
+      "bytes": 8901,
+      "sha256": "297d45151e119c67e88ba0854d483c54afcfd7a92c16efe1f8bbc2749929cca6"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r1-base-profile.json",
+      "bytes": 507,
+      "sha256": "4a5a3ee472d721aa4e2020b86d5a108c0819b454407f297d8488a3a2c7f4e7c3"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r1-check.json",
+      "bytes": 7712,
+      "sha256": "9bb040d406b1bb6642c3bf5f345ebd3b52d16888d748af432d2c160a1c5d9d1b"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r1-command.json",
+      "bytes": 1503,
+      "sha256": "62b170fc414750b3f2598770b97714b49d1946fab73c4c53e68663a3205c3fe6"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r1-config.json",
+      "bytes": 2951,
+      "sha256": "397ceb56067274208e7c58296e462a7c7df3355bf577fb4f821bc149977083d2"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r1-log.txt",
+      "bytes": 9230,
+      "sha256": "ce93654393868cc4e12885600170d426d3613764db4ff1d62252a546d1fa40a8"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r1-resource.json",
+      "bytes": 1935,
+      "sha256": "9cb1794676285e05a62be9849d099ffcfcefb09b1a42b758ed277efa02281212"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-augmented-local-r1-summary.json",
+      "bytes": 15804,
+      "sha256": "0064e02b6bb37351a252827d48d278ea4a14c1692b60a29b608279c1eb023069"
+    }
+  ],
+  "entry_source_snapshot_note": "The validated 7ff94e entry is preserved in its exact compressed source snapshot. The current production entry adds optional fresh-I/O recovery and explicit actual/gauge labels; its live version is in the production-source manifest."
+}

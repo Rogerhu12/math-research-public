@@ -1,0 +1,87 @@
+{
+  "all_gates": true,
+  "moments": {
+    "00": {
+      "old": {
+        "mid": "1.92615492553052620994700589635E-9",
+        "radius": "2.63022562497355893995631959115E-10",
+        "relative_radius": "0.136553170781374638306803408635"
+      },
+      "new": {
+        "mid": "1.84993101479651952269265720135E-9",
+        "radius": "5.12938147136591647315267946317E-26",
+        "relative_radius": "2.77274202677774735519613122570E-17"
+      }
+    },
+    "10": {
+      "old": {
+        "mid": "1.96774120960191752036174711801E-10",
+        "radius": "3.85918574657626023416412408551E-11",
+        "relative_radius": "0.196122626682041692341833376515"
+      },
+      "new": {
+        "mid": "1.90342749605845962409790472514E-10",
+        "radius": "1.02580211635915149109644199675E-26",
+        "relative_radius": "5.38923661911651935285283138729E-17"
+      }
+    },
+    "01": {
+      "old": {
+        "mid": "3.98364329251386420257275152825E-10",
+        "radius": "7.17310978410462540821868060448E-11",
+        "relative_radius": "0.180064058385560407512400005491"
+      },
+      "new": {
+        "mid": "3.81897490884212316345249422925E-10",
+        "radius": "1.79679391253692933070735495468E-26",
+        "relative_radius": "4.70491154151546950042657657494E-17"
+      }
+    },
+    "11": {
+      "old": {
+        "mid": "8.65370475535000476507813703295E-11",
+        "radius": "1.89262112113095654075678453410E-11",
+        "relative_radius": "0.218706458636790901018039555322"
+      },
+      "new": {
+        "mid": "8.29554926986485948454300746220E-11",
+        "radius": "5.13197337223689201701743089220E-27",
+        "relative_radius": "6.18641780705196822505902967330E-17"
+      }
+    },
+    "b": {
+      "old": {
+        "mid": "5.52411188904312462460230945506E-11",
+        "radius": "1.52852970894661738254782790136E-11",
+        "relative_radius": "0.276701439009300402833247716652"
+      },
+      "new": {
+        "mid": "5.03254813340286020386820181751E-11",
+        "radius": "3.42068981876585157610243985050E-27",
+        "relative_radius": "6.79713284024346189781085751806E-17"
+      }
+    }
+  },
+  "formal_session": 3943,
+  "resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+      "computations/closure_outer_true_moment_taylor.py",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--cell-manifest",
+      "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json",
+      "--out-prefix",
+      "notes/2026-11-12-closure-cell10-true-moments-taylor-r1"
+    ],
+    "wall_seconds": 48.72689604759216,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 30228,
+    "user_seconds": 5.389741,
+    "system_seconds": 0.134648,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "source_summary_sha256": "8fba81a98e51f5e329a2721cea68f692b70dae927a78926b19afe6ad781e7782"
+}

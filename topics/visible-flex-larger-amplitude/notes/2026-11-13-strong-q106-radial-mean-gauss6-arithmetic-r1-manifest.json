@@ -1,0 +1,75 @@
+{
+  "schema": "actual-q106-full-radial-mean-and-arithmetic-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/strong_newg_radial_gauss6_mean_error.py",
+      "sha256": "fefe7507c3a0446b2510db2efded7fe6c1618f585f42a038ec577a9c57c46912",
+      "bytes": 13772
+    },
+    {
+      "path": "computations/strong_newg_radial_gauss6_saved_check.py",
+      "sha256": "24f166680f566138d27f3c494f2cc88a7218b764dd3cf8b7848e400f76228c82",
+      "bytes": 10132
+    },
+    {
+      "path": "computations/strong_newg_radial_affine_arithmetic_budget.py",
+      "sha256": "e4c9202cf46c7ac0691006cfc7865412eb561e6fcd6ffc74b15d1bde84481020",
+      "bytes": 11351
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-radial-mean-gauss6-arithmetic-r1-primary.json.gz",
+      "sha256": "fa9c892db1e00a77c758036f78cfee128eca2e3d3d6f8053ea2d6598af43cd45",
+      "bytes": 825874
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-radial-mean-gauss6-arithmetic-r1-resource.json",
+      "sha256": "1647b941e6320425e0a3506fe5ea1300349b19c1aefaf13bea2d72127eb1c05c",
+      "bytes": 1932
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-radial-mean-gauss6-arithmetic-r1-saved-check.json.gz",
+      "sha256": "20a0dbefa22ff585ad85bed592e7ef73913f4f3bdfc333fe49a3f75d8a9b00bb",
+      "bytes": 57933
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-radial-mean-gauss6-arithmetic-r1-saved-check-resource.json",
+      "sha256": "1f472e0116673e5fb7d815c2ae9e6ee3ede5ba187567fd0294144e632518bce4",
+      "bytes": 1561
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-radial-mean-gauss6-arithmetic-r1-affine.json.gz",
+      "sha256": "32e2ed0ab444d6ed9ed69024190ebc693d261ec406d9b5ccb137002aad914a4e",
+      "bytes": 1233629
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-radial-mean-gauss6-arithmetic-r1-affine-resource.json",
+      "sha256": "02e062f3cff17609e3b0ee2c1cd6cb5c51c345ce38165a008fb3a6feb47a3970",
+      "bytes": 1816
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-radial-mean-gauss6-arithmetic-r1-proof.md",
+      "sha256": "3bf2d5367293c0e3f4e4fb3d09fa2bfbbb798a9aa4d647a43b884af906613f94",
+      "bytes": 5996
+    }
+  ],
+  "all_three_owned_exit0": true,
+  "complete_atoms": 3326,
+  "original_cells": 2227,
+  "independent_exact_gates": 18908,
+  "additional_arithmetic_gates": 17828,
+  "uniform_Gauss6_H_error_upper": [
+    "49716211939551518413095202318472870054044565220263976635983674377975973275227",
+    -269
+  ],
+  "arithmetic_constant_exact": {
+    "numerator": "8829454103679917390717751926611791198315858855237701548615485837698948957694501313431079314395130028341948177803019963167185263187265875919929236511365691426733830636129085736683185279612398561877096277749062641106473924974234090662692146686580885598397257895111782540030000786046093115780182972056304281069052314815415951409654213469201310491640169763224237900721903288053326825335141480318130085874533596032649886831675",
+    "denominator": "5531349070444875321982281519873004517837746021357879467188507386240934755626225306739474321603012476227549188443327085449124814071220996131912398239334155048201617595655238234977025121397566975155417333427854453564073077979496756267428153959298334410864730024900165992314864246305803012967503944956394378469435013372392663657426071727053741266819701862169511164319277923708502062737247230352890625638994263061260696151220097336213504"
+  },
+  "unpaid_point_mean_epsilon_coefficient_exact": {
+    "numerator": "5825484999640167420444581169309",
+    "denominator": "1843855418512863344762638303232"
+  },
+  "continuous_angular_alias_or_unpaid_epsilon_certified": false,
+  "original_g_metric_reach_closed_surface_or_topic_completion_claim": false
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Exact Fraction checks for rounded R54 statements and dyadic physical axes; no new kernel or geometry.",
+  "checks": {
+    "all_formal_gates": true,
+    "all_original_r_equal_64W": true,
+    "all_expanded_r_equal_524289_original": true,
+    "rounded_total_upper": true,
+    "rounded_far_upper": true,
+    "true_height_factor_above_dyadic": true,
+    "true_height_factor_below_dyadic": true,
+    "all_guaranteed_physical_axes_valid": true
+  },
+  "input_sha256": {
+    "notes/2026-11-12-root-r54-weighted-box-parameter-hull-r2.json.gz": "fd5bfaf9d3f3dd8e3e2d13be4c03a904dab050c5676495825c54c2973321fa0b",
+    "notes/2026-11-12-closure-r51-split-full641-r1.json.gz": "2c89aa54d16952b8ab1c16e74a4df28c48efb76b85c8f26b45d59dea7f8bdfd9"
+  }
+}

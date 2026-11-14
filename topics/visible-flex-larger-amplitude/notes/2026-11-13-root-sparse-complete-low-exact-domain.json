@@ -1,0 +1,31 @@
+{
+  "schema": "R148-exact-domain-clarification-v1",
+  "primary_sha256": "0c7e11319c9f9d4e705a7f3ed742ab0f4239529e7117a4fbaf5b2cd33a15c56f",
+  "primary_numeric_bytes_preserved": true,
+  "source_sha256": "df57523d9c303b298f376bbc3fc8648aabc74912c90845f8e07e5b5a6f0dbd50",
+  "new_bounds_apply_to": {
+    "S_product_radius": [
+      "1",
+      0
+    ],
+    "T_l1_radius": [
+      "1",
+      -5
+    ]
+  },
+  "explicit_S_linf_radius": {
+    "numerator": "1",
+    "denominator": "1"
+  },
+  "explicit_T_l1_radius": {
+    "numerator": "1",
+    "denominator": "32"
+  },
+  "all_original_coordinate_axes_and_parameter_formulas_unchanged": true,
+  "R141_expanded_and_R143_K_are_subdomains": true,
+  "original_projected_existence_can_have_larger_domain": true,
+  "historical_primary_boolean_not_an_enlargement_claim": "same_original_complex_unit_parameter_domain must not be read as extending the new bounds to T<=1; the complete true-beta input only pays the exact domain above.",
+  "full_true_beta_sha256": "dea2caf9e9f0c7a55241862e893406c0c1652704871e3f840f74f065eebb0ce5",
+  "independent_saved_audit_manifest_sha256": "f130ff59a499b546aa29432b3bbf6d1b30114df5f63b4c5bb29411b45da1c74d",
+  "no_repetition_of_successful_mathematical_substitutions": true
+}

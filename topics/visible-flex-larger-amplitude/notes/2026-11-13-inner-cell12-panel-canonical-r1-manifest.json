@@ -1,0 +1,94 @@
+{
+  "schema": "inner-cell12-ordered-panel-canonical-endpoint-archive-manifest-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "all_actual_gates": true,
+  "files": [
+    {
+      "path": "computations/inner_cell12_panel_canonical_forced_near.py",
+      "sha256": "6e7bcf9d4b818890ba9727d0d978fa4418336ab69dfa86267ad7dacccce6bcaa",
+      "bytes": 10405
+    },
+    {
+      "path": "computations/inner_cell12_panel_canonical_saved_audit.py",
+      "sha256": "28c9130dbca7ba74ad8eb8e1a8ff4a03c9d39de380cc0105452e35243870c0f7",
+      "bytes": 4016
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-panel-canonical-r1.json",
+      "sha256": "4ffa4e25efb846a3f54569b79b79c379db7c09e356c0561217b49f238aa29329",
+      "bytes": 11999
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-panel-canonical-r1-resource.json",
+      "sha256": "7e996d08fca9b099d1507c63ce8b8c2682598236c34dd2b7b706903c97ddb7aa",
+      "bytes": 1446
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-panel-canonical-r1-saved-audit.json",
+      "sha256": "116037013e1ffa410d99cd657ddd8d1e64351e04608685f6aec3ec8ba77a0212",
+      "bytes": 2024
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-panel-canonical-r1-saved-audit-resource.json",
+      "sha256": "7c774454147804b84f085ae5a99f5cdfd8b3e99d25c02359350eac5b6b2d2f6d",
+      "bytes": 1343
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-panel-canonical-r1-proof.md",
+      "sha256": "9b66819fca6773b915674e54295f06708931e04f6219c244305d090739b0a6cb",
+      "bytes": 6146
+    }
+  ],
+  "frozen_inputs": {
+    "panels": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz",
+      "sha256": "d0dc6791001a1668afa2f9442bbefbe7e6644e73b0b753943df5a9bc12258181"
+    },
+    "qdensity": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+      "sha256": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9"
+    },
+    "density": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+    },
+    "positive": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-positive-highband-38.json.gz",
+      "sha256": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600"
+    },
+    "ready": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    }
+  },
+  "frozen_reference_sources": {
+    "inner_true_cell13_endpoint_window_kernels.py": "cff396cf882488df91c5450490a0c345e408d3fe1a6b29f683910e97b7aa4019",
+    "closure_split_joint_io_v2.py": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0",
+    "closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390",
+    "closure_positive_linear_band_enclosure.py": "270e475e33f988ca9d48c1f68e249f2d127fa3afafd3e3d20d80cce3407a170f",
+    "closure_real_linear_head_enclosure.py": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47",
+    "inner_cell12_canonical_forced_endpoint_kernels_v2.py": "edaca1021dd6d0118ca50e71b5900f270e8c2987e8899fdedd2578bade0d43e6"
+  },
+  "base_primary_sha256": "5e03915b960e6ebdfa6847d155a82af5e54866e2bd0fde3e177815d7ea821133",
+  "base_resource_sha256": "d3cccd1b2087bbe2cdef501dff641063677000bbf4a8b80233f6f9823298e672",
+  "actual_primary": {
+    "path": "notes/2026-11-13-inner-cell12-panel-canonical-r1.json",
+    "sha256": "4ffa4e25efb846a3f54569b79b79c379db7c09e356c0561217b49f238aa29329",
+    "bytes": 11999
+  },
+  "actual_resource": {
+    "path": "notes/2026-11-13-inner-cell12-panel-canonical-r1-resource.json",
+    "sha256": "7e996d08fca9b099d1507c63ce8b8c2682598236c34dd2b7b706903c97ddb7aa",
+    "bytes": 1446
+  },
+  "independent_saved_audit": {
+    "path": "notes/2026-11-13-inner-cell12-panel-canonical-r1-saved-audit.json",
+    "sha256": "116037013e1ffa410d99cd657ddd8d1e64351e04608685f6aec3ec8ba77a0212",
+    "bytes": 2024
+  },
+  "same_old_g_only": true,
+  "new_ODE_quadrature_subdivision_Node_calls": 0,
+  "new_fixedpoint_or_truecut_claimed": false,
+  "repro_commands_recorded_in_resource": true
+}

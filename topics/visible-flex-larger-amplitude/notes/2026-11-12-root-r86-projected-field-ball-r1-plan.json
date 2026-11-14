@@ -1,0 +1,37 @@
+{
+  "status": "Prepared exact pointwise comparison; no enlarged field gate claimed",
+  "utc": "2026-11-12T19:32:20.994964+00:00",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/root_outer_projected_field_ball.py",
+    "--profiles",
+    "notes/2026-11-12-closure-outer-whole-field-m2m4-r1.json",
+    "--green",
+    "notes/2026-11-12-closure-outer-whole-field-green-budget-r1.json",
+    "--family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+    "--rows",
+    "notes/2026-11-12-root-r86-projected-field-ball-r1-rows.jsonl.gz",
+    "--out",
+    "notes/2026-11-12-root-r86-projected-field-ball-r1.json",
+    "--radius",
+    "16",
+    "--rss-kib",
+    "51200"
+  ],
+  "source_sha256": "fe9ba68d87de66601518421ac4f06ed0c151cb908ea4367ab03741b3858a7873",
+  "input_hashes": {
+    "notes/2026-11-12-closure-outer-whole-field-m2m4-r1.json": "b67e06912449b95cb99f84bb6969f34d10f11bf70e8bb798634bc3252ee476d6",
+    "notes/2026-11-12-closure-outer-whole-field-green-budget-r1.json": "7c2425f35a5d1a972a6a112e34ab7cf8bc2a0edf28e17a20bf6a86a48d805d00",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json": "17b1d776cdce044722db61c2981d64838d18fd66c6ef3fdd4c48fa183a9a3776"
+  },
+  "estimated_seconds": 80,
+  "owned_RSS_KiB": 51200,
+  "arithmetic": "Fraction only, original10793 leaves and10933 subpanels; each new positive density/quotient rounded upward128bits",
+  "method": "Uniform pointwise F_rho/F_old and full N(C_eta)/F_old multiply the already paid complete ordered positive Green row; no new flow or source integral",
+  "scope": "Projected m2/m4 PDE with other height functions fixed at C_eta, prescribed true beta(a), fixed original outer heights; cut parameter consistency and all other PDE outputs unpaid",
+  "new_Arb": 0,
+  "new_ODE": 0,
+  "new_Node": 0,
+  "new_source_integrals": 0
+}

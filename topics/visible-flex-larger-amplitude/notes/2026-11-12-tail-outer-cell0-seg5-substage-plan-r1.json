@@ -1,0 +1,23 @@
+{
+  "status": "Prepared actual segment5 eight-substage candidate; not yet executed",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "segment": 5,
+  "state_index_rule": "32-k at x=k/8, k=0..8; no within-cell rho change",
+  "old_segment_continuous_Darboux_upper": "554.245695121789720042405800227631649555408248911907588581",
+  "original_source_sha256": "9c2903ea8e44191166bd5f00c929f596915669482a1d3709844cd6945a227ffc",
+  "wrapper_source": "computations/tail_outer_checked_substage_candidate.py",
+  "wrapper_sha256": "3830ca80beac62bd0ae153f0326f3a304321fde5a4886ad3d66ead06b07e3e9c",
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json": "1ac05db87c40fe4421eb6067d81448a466548060c58a2dfc0c4ea51bd7ed7582",
+    "notes/2026-11-12-root-real-outer-radius-v4-recovered-full.json": "28d491b998174029a80daf41e9365de6ab2c54757419de7b64f54445047b717f",
+    "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-cell0-remaining-segment-bounds-r1.json": "0100cdb8095f134c97963dc384d3c7cb1e1b7b84a335380072c185815bef5046",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+  },
+  "new_true_integrals_required": true,
+  "same_original_outer_jets_g_and_saved_H": true,
+  "rss_limit_mib": 40,
+  "sequential_small_numerical_slot_required": true,
+  "planned_output": "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz"
+}

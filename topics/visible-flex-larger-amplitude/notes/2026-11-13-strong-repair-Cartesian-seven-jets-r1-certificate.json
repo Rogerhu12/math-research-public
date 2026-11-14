@@ -1,0 +1,516 @@
+{
+  "schema": "actual-background-and-state-repair-to-nonmean-seven-Cartesian-jets-v1",
+  "scope": "Consume actual background/state repairs in all required nonmean jets.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nAll estimates use exact rational full-angle bounds and the complete saved\nradial suprema. The seventh jet X_spsipsi is included for the radial derivative\nof the complete mean map. This does not itself pay or evaluate that mean.\n",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "gate_count": 28,
+  "checks": [
+    "actual_complete_background_comparison",
+    "independent_saved_background_consumption",
+    "frozen_original_chart_and_synthesis",
+    "actual_complete_original_state_repair",
+    "one_state_repair_per_original_field",
+    "same_accepted_field",
+    "complete_original_material_reference",
+    "full_positive_chart_transition",
+    "whole_angle_chart_positive",
+    "same_full_state_metric_and_gauge",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "same_accepted_field",
+    "complete_original_material_reference",
+    "full_positive_chart_transition",
+    "whole_angle_chart_positive",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum",
+    "complete_exact_nonmean_transfer_sum"
+  ],
+  "source_sha256": "e5f078fdb03a209903ffe6fad37c3bd7276ce7dbc6652fc47414b09fe66e77be",
+  "input_identities": {
+    "binary-background-C2-r1/certificate.json": "a3f57c4efdbd5170183cd97ffe4d2828c57c6a2c13c5f603fd1ed144f99db60f",
+    "binary-background-C2-r1/resource.json": "fdf92de289304dd42942e8956647f14b3559ab1eeed1684c991ccdd6a231af7d",
+    "binary-background-C2-r1/saved-check.json": "08f3f53ddc666a95c3b228796fa89ec9b53559d0d50ce1d055d50194d8428316",
+    "computations/geometric-general-core-chart.py": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+    "computations/geometric-checkpoint-core-pullback.py": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33",
+    "q106-C2-comparison-r1/certificate.json.gz": "d848f7a1996e7cb620275e86d336faa0d22d84c1e44f5a2ee707c1e29a337dda",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1.json.gz": "006eaa15e9b1416aa72140e616e1ecf75461033df8448ade0bbd812826d210a8"
+  },
+  "profiles": [
+    {
+      "accepted_primary_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+      "background_comparison_definition_sha256": "e615f57be85d5a34708356090b5718acbf8d8cfb877a31664ae48f24ab714904",
+      "state_comparison_definition_sha256": "0c271504ffd32e61cd3e43678a53e27b4f7d725fa11f12d2f65b52e6ffbef7a9",
+      "full_state_repair_included": true,
+      "modes": 28,
+      "gauge": {
+        "numerator": "3242591731706757",
+        "denominator": "36028797018963968"
+      },
+      "chart_reference_coefficients_exact": [
+        {
+          "numerator": "3242591731706757",
+          "denominator": "36028797018963968"
+        },
+        {
+          "numerator": "-7337147526749689",
+          "denominator": "1152921504606846976"
+        }
+      ],
+      "chart_reference_frequencies": [
+        2,
+        4
+      ],
+      "physical_chart_transition_span_exact": {
+        "numerator": "3550457100224749",
+        "denominator": "1125899906842624"
+      },
+      "full_angle_sums": {
+        "arc_offset_A": {
+          "numerator": "732634825388942679",
+          "denominator": "4611686018427387904"
+        },
+        "rho_variation_B": {
+          "numerator": "421346019145094007",
+          "denominator": "1152921504606846976"
+        },
+        "rho_derivative_C": {
+          "numerator": "265701616023169671",
+          "denominator": "288230376151711744"
+        },
+        "support_position_perturbation_P": {
+          "numerator": "347974543877597117",
+          "denominator": "1152921504606846976"
+        }
+      },
+      "global_chart_weight_first_second": [
+        {
+          "numerator": "2111062325329920",
+          "denominator": "3550457100224749"
+        },
+        {
+          "numerator": "7605903601369376408980219232256",
+          "denominator": "12605745620536333365586312113001"
+        }
+      ],
+      "global_dimensionless_base_jet_upper": {
+        "B": {
+          "numerator": "1500896048484444093",
+          "denominator": "1152921504606846976"
+        },
+        "Bpsi": {
+          "numerator": "1574267523751940983",
+          "denominator": "1152921504606846976"
+        },
+        "Bpsipsi": {
+          "numerator": "3703650664027682059618520839040065873",
+          "denominator": "1329227995784915872903807060280344576"
+        },
+        "Bs": {
+          "numerator": "21428758697162053695",
+          "denominator": "58170689130082287616"
+        },
+        "Bss": {
+          "numerator": "6700898995594458817397880444924036571761",
+          "denominator": "13535316295474694446236705597646987853824"
+        },
+        "Bspsi": {
+          "numerator": "4222471033351302260454502851699006525",
+          "denominator": "6096930766897420861129618303175622656"
+        },
+        "Bspsipsi": {
+          "numerator": "211093159176192219531163177595432989251152197378108813545",
+          "denominator": "77322108525806670588783549673008908260092096726817570816"
+        }
+      },
+      "jet_rows": [
+        {
+          "jet": "X",
+          "physical_s_order": 0,
+          "computational_psi_order": 0,
+          "background_repair_uniform_Euclidean_upper": [
+            "2217889125128063134692047392804051172120000317300",
+            -208
+          ],
+          "state_repair_uniform_Euclidean_upper": [
+            "2542459434751042634653201751684797704033704846170",
+            -224
+          ],
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "2217927919980277963833811510262420385952154151907",
+            -208
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "395691563297497567498174447783158307829410881666771759206749167222745213774890131535320145765",
+            "denominator": "73391955711682288371546268649666782105490079653384995959602842860381532034831513858240593699524021969747968"
+          }
+        },
+        {
+          "jet": "Xs",
+          "physical_s_order": 1,
+          "computational_psi_order": 0,
+          "background_repair_uniform_Euclidean_upper": [
+            "1070359390844962952763728136165370270496104073476",
+            -202
+          ],
+          "state_repair_uniform_Euclidean_upper": [
+            "2897682887557922553986304738640199748033315601026",
+            -213
+          ],
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "1071774275067403344635791761526034430529323465859",
+            -202
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "6684417664820447756188252317533291108936347931321087934051423751512318181084395086675627767490924732797661187",
+            "denominator": "40088460039372723438038272328451306383589871060977398130809515549346261300303520711543854971817853171757228093823336316928"
+          }
+        },
+        {
+          "jet": "Xpsi",
+          "physical_s_order": 0,
+          "computational_psi_order": 1,
+          "background_repair_uniform_Euclidean_upper": [
+            "2326310889083470469018787874507448826396740605298",
+            -208
+          ],
+          "state_repair_uniform_Euclidean_upper": [
+            "1609338119267711289075901291429482684222920134924",
+            -222
+          ],
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "2326409115287039054912896511060880801658228820638",
+            -208
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "415045255260442488869905398639475356122765796155685749336636658985302830462508135014226627695",
+            "denominator": "73391955711682288371546268649666782105490079653384995959602842860381532034831513858240593699524021969747968"
+          }
+        },
+        {
+          "jet": "Xss",
+          "physical_s_order": 2,
+          "computational_psi_order": 0,
+          "background_repair_uniform_Euclidean_upper": [
+            "969057797378183267785845800750340709772815174202",
+            -190
+          ],
+          "state_repair_uniform_Euclidean_upper": [
+            "1650579545156577025709676712832269094276802022827",
+            -197
+          ],
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "981952950074719025799202650069342812071852690005",
+            -190
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "21743787652531657996222607163152761100904480085621190528777320165483677812567708569184104030081623264602020449459469421040969",
+            "denominator": "34749110738248780952712005439516390727890401331771771500034907832577671289628391148994103472280216445674819493294383747310441602220032"
+          }
+        },
+        {
+          "jet": "Xspsi",
+          "physical_s_order": 1,
+          "computational_psi_order": 1,
+          "background_repair_uniform_Euclidean_upper": [
+            "1130834332717661819955339972885908121497119878425",
+            -202
+          ],
+          "state_repair_uniform_Euclidean_upper": [
+            "1695579313578973755390826338811584263047174710342",
+            -211
+          ],
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "1134146011064495753071337680578899497010883891531",
+            -202
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "5267766032508685815255173611326697826861039183906638086499929590806109749813567100458332098417563805312571722041",
+            "denominator": "29854969512958304582219047901333918354033474884684258680690141034567688415644221969906114539011986653003201140418251918934016"
+          }
+        },
+        {
+          "jet": "Xpsipsi",
+          "physical_s_order": 0,
+          "computational_psi_order": 2,
+          "background_repair_uniform_Euclidean_upper": [
+            "2373501432385964501435701718512766387381934814285",
+            -207
+          ],
+          "state_repair_uniform_Euclidean_upper": [
+            "2759710179538351936323445432210590350615530393003",
+            -221
+          ],
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "2373669871727977340299002710055259709546889375467",
+            -207
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "976471147876107320683746420944276251883148142030078202661780371884677729448794611572854618624776825250366129305",
+            "denominator": "84615164005151820665845159428194693098035799419427996068435045795123941278247852265624218936283556460491675139202989862944768"
+          }
+        },
+        {
+          "jet": "Xspsipsi",
+          "physical_s_order": 1,
+          "computational_psi_order": 2,
+          "background_repair_uniform_Euclidean_upper": [
+            "1171301099655105011282809691873190642105222094905",
+            -201
+          ],
+          "state_repair_uniform_Euclidean_upper": [
+            "2655916757870884941194468707689803222152397251152",
+            -210
+          ],
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "1176488437072821583433580138567897289023488495786",
+            -201
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "138601391906198648270690137934992429047715273973512531793179093363551325067628209332897477359160857098375606258694147200658824065397",
+            "denominator": "378624800079585773733063179450265690778160243547497650917898166801969026975897093752777202581666804317091783941281681339919452912605056284491776"
+          }
+        }
+      ],
+      "complete_physical_s_and_every_real_psi": true,
+      "complete_mean_H_Hs_Hss_paid": false,
+      "floating_or_coordinate_alignment_costs_paid": false,
+      "original_accepted_field_or_target_g_changed": false
+    },
+    {
+      "accepted_primary_sha256": "006eaa15e9b1416aa72140e616e1ecf75461033df8448ade0bbd812826d210a8",
+      "background_comparison_definition_sha256": "17eff6ba70dec9a010d2af608a746ca6566ad07fc4cfbc673b3745c77428d04a",
+      "state_comparison_definition_sha256": null,
+      "full_state_repair_included": false,
+      "modes": 28,
+      "gauge": {
+        "numerator": "3242591731706757",
+        "denominator": "36028797018963968"
+      },
+      "chart_reference_coefficients_exact": [
+        {
+          "numerator": "3242591731706757",
+          "denominator": "36028797018963968"
+        },
+        {
+          "numerator": "-7337147526749689",
+          "denominator": "1152921504606846976"
+        }
+      ],
+      "chart_reference_frequencies": [
+        2,
+        4
+      ],
+      "physical_chart_transition_span_exact": {
+        "numerator": "7102894529185635",
+        "denominator": "2251799813685248"
+      },
+      "full_angle_sums": {
+        "arc_offset_A": {
+          "numerator": "732634825388942679",
+          "denominator": "4611686018427387904"
+        },
+        "rho_variation_B": {
+          "numerator": "421346019145094007",
+          "denominator": "1152921504606846976"
+        },
+        "rho_derivative_C": {
+          "numerator": "265701616023169671",
+          "denominator": "288230376151711744"
+        },
+        "support_position_perturbation_P": {
+          "numerator": "347974543877597117",
+          "denominator": "1152921504606846976"
+        }
+      },
+      "global_chart_weight_first_second": [
+        {
+          "numerator": "281474976710656",
+          "denominator": "473526301945709"
+        },
+        {
+          "numerator": "10141204801825835211973625643008",
+          "denominator": "16817036897578407830938763451075"
+        }
+      ],
+      "global_dimensionless_base_jet_upper": {
+        "B": {
+          "numerator": "1500896048484444093",
+          "denominator": "1152921504606846976"
+        },
+        "Bpsi": {
+          "numerator": "1574267523751940983",
+          "denominator": "1152921504606846976"
+        },
+        "Bpsipsi": {
+          "numerator": "3703650664027682059618520839040065873",
+          "denominator": "1329227995784915872903807060280344576"
+        },
+        "Bs": {
+          "numerator": "1428583913144136913",
+          "denominator": "3879127465539248128"
+        },
+        "Bss": {
+          "numerator": "2233632998531486272465960148308012190587",
+          "denominator": "4514288968170285201852017875065451315200"
+        },
+        "Bspsi": {
+          "numerator": "3096478757790954990999968757912604785",
+          "denominator": "4472329474131254894743981447790460928"
+        },
+        "Bspsipsi": {
+          "numerator": "14072877278412814635410878506362199283410146491873920903",
+          "denominator": "5156244826412955103707815045695259125754738807802953728"
+        }
+      },
+      "jet_rows": [
+        {
+          "jet": "X",
+          "physical_s_order": 0,
+          "computational_psi_order": 0,
+          "background_repair_uniform_Euclidean_upper": [
+            "2223004436119947419265785906774991970278561950747",
+            -208
+          ],
+          "state_repair_uniform_Euclidean_upper": null,
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "2223004436119947419265785906774991970278561950747",
+            -208
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "6345555904654616673247458840983290393542205374233437252929756234361256302662788192409888083037",
+            "denominator": "1174271291386916613944740298394668513687841274454159935353645485766104512557304221731849499192384351515967488"
+          }
+        },
+        {
+          "jet": "Xs",
+          "physical_s_order": 1,
+          "computational_psi_order": 0,
+          "background_repair_uniform_Euclidean_upper": [
+            "1070379267454481279761946313306210333554291245849",
+            -202
+          ],
+          "state_repair_uniform_Euclidean_upper": null,
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "1070379267454481279761946313306210333554291245849",
+            -202
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "11574470372463702957222274488284248796145427013410159581682420914916056045269919363510795985830312013956912039",
+            "denominator": "69506042761432339087865926995191252782786864097327354009147501505441542463630656389302765683884738421921304964589498138624"
+          }
+        },
+        {
+          "jet": "Xpsi",
+          "physical_s_order": 0,
+          "computational_psi_order": 1,
+          "background_repair_uniform_Euclidean_upper": [
+            "2331676262639184924619986406541061820434709548450",
+            -208
+          ],
+          "state_repair_uniform_Euclidean_upper": null,
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "2331676262639184924619986406541061820434709548450",
+            -208
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "6655759131978064818928514645078248581210368985922834546269594927830659816146536259687259081047",
+            "denominator": "1174271291386916613944740298394668513687841274454159935353645485766104512557304221731849499192384351515967488"
+          }
+        },
+        {
+          "jet": "Xss",
+          "physical_s_order": 2,
+          "computational_psi_order": 0,
+          "background_repair_uniform_Euclidean_upper": [
+            "1938115524291622811786058111163385649713697185925",
+            -191
+          ],
+          "state_repair_uniform_Euclidean_upper": null,
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "1938115524291622811786058111163385649713697185925",
+            -191
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "124050128700164162079354515321354467933036423759058945369303939193734736560410560119292561685241772082266995504733069167891117",
+            "denominator": "200884639841927314355018813234958231631374174227012380302053779198611691136151534618934564371525907760167998908885354210119492462182400"
+          }
+        },
+        {
+          "jet": "Xspsi",
+          "physical_s_order": 1,
+          "computational_psi_order": 1,
+          "background_repair_uniform_Euclidean_upper": [
+            "1130871701153173909435853815112150152193251434969",
+            -202
+          ],
+          "state_repair_uniform_Euclidean_upper": null,
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "1130871701153173909435853815112150152193251434969",
+            -202
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "801413596341061702039035055487387073203892007528628564994860847488665478057448964402466852784796482830378203086737",
+            "denominator": "4555148018413229774462381391556853942372719925482445472343490658660616926896498697129346051859070217219034642159337350012862464"
+          }
+        },
+        {
+          "jet": "Xpsipsi",
+          "physical_s_order": 0,
+          "computational_psi_order": 2,
+          "background_repair_uniform_Euclidean_upper": [
+            "2378975645604641956002317431589105843612565348954",
+            -207
+          ],
+          "state_repair_uniform_Euclidean_upper": null,
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "2378975645604641956002317431589105843612565348954",
+            -207
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "15658461066394386841851745947512993915968337897238153560865488376435088565735373254220393891808762319852270931057",
+            "denominator": "1353842624082429130653522550851115089568572790710847937094960732721983060451965636249987502980536903367866802227247837807116288"
+          }
+        },
+        {
+          "jet": "Xspsipsi",
+          "physical_s_order": 1,
+          "computational_psi_order": 2,
+          "background_repair_uniform_Euclidean_upper": [
+            "1171374752576192426554932113503317065386680686660",
+            -201
+          ],
+          "state_repair_uniform_Euclidean_upper": null,
+          "combined_paid_repair_uniform_Euclidean_upper": [
+            "1171374752576192426554932113503317065386680686660",
+            -201
+          ],
+          "exact_combined_unrounded": {
+            "numerator": "1914119132976166391217692276781564457200856230237466586734458460382353072969246200462807114683893821398304276595090389663747042086759",
+            "denominator": "5251728107095878365277210352400999121973634332060552311246215030769488032417812922609959431986704763305992056557479327453839792359185003382308864"
+          }
+        }
+      ],
+      "complete_physical_s_and_every_real_psi": true,
+      "complete_mean_H_Hs_Hss_paid": false,
+      "floating_or_coordinate_alignment_costs_paid": false,
+      "original_accepted_field_or_target_g_changed": false
+    }
+  ],
+  "seventh_jet_required_for_radial_mean_derivative_explicitly_paid": true,
+  "wholefield_mean_change_paid": false,
+  "PDE_metric_curvature_reach_closed_surface_certified": false,
+  "all_original_candidate_and_g_identities_retained": true,
+  "new_ODE_Node_Newton_or_spatial_sampling": 0,
+  "elapsed_seconds": 1.0656335709973064,
+  "peak_rss_kib": 20532
+}

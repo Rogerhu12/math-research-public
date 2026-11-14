@@ -1,0 +1,120 @@
+{
+  "scope": "Freeze one failed resumed tail attempt and prepare the identical next attempt.\n\nStorage/orchestration only.  The actual accepted recovery state, numerical\nsources, stage-cache identity, mathematical settings and all final gates are\nunchanged.  The previous process must already have been formally polled.\nThis never starts a Node worker or deletes a primary/cache file.  It invokes\nthe existing exact archive, input-binding and prepare-only guards in sequence.\n",
+  "files": [
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9.log.gz",
+      "bytes": 2278,
+      "sha256": "13cc00b0234495b61c6130c792e2bd277d1ce339f0ef3523a01b9fc7a5e39ddf"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-events.jsonl.gz",
+      "bytes": 1033,
+      "sha256": "3c608d3e4179340b6a1920fe1df149ce8a61557e8e6a964a14d340c4a79f7999"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-trace.jsonl.gz",
+      "bytes": 78183,
+      "sha256": "8e709a55262229e3c927fbd2f8178314d50bc1b39515dd2675e158c6dd196ed7"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-summary.json",
+      "bytes": 27766,
+      "sha256": "ccdef174d11da4d7adb2febec2751d4dbd49fb7f1639ad759e302bdc42ed8592"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-resource.json",
+      "bytes": 2282,
+      "sha256": "31e0dc471ccc06333dc07a0c9039a2dce9636222c44f2040eb587ea5542cb6a3"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-ready.json",
+      "bytes": 83083,
+      "sha256": "4aee5d9b228a6dfc63b9370f3845f3a8cac5c066dd86e8f9d999caf99b337734"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-config.json",
+      "bytes": 3036,
+      "sha256": "92474ca2637a12ab495fc174771c8df677500eb4ab6631f07c4a2b49151632aa"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-response_adapter.json",
+      "bytes": 61277,
+      "sha256": "d45914d6e3d2ace0c46e9326befabaa3d870fecec88522ca60d31f4a388ca68d"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-response_exact-raw-adapter.json",
+      "bytes": 3512,
+      "sha256": "77e82131b6f3f7d9c1129d8b32b3f7a7ed38ed3d78d3efb39ecf0c8deac4f960"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-response_exact-stage-adapter.json",
+      "bytes": 14937,
+      "sha256": "76f6063572e747e39b611df479669db7477f0125f529750c77a48e3da0fe354e"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-response_Node-limits-spawn.json",
+      "bytes": 3253,
+      "sha256": "3959c74ee4e87886f829d1cba54a697e31b5cd2b4aee47ce2962151ec2771120"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-response_Node-limits-ready.json",
+      "bytes": 1594,
+      "sha256": "21574d13e7241d629fa78d3a352da2040faea86ea172bb4dc94db18e8b36ec60"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-response_Node-resource-intent.json",
+      "bytes": 1033,
+      "sha256": "616626320c65b0454575c84bb9bd6de58b413e15cfd8aa5c0c48ed098df6ee64"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-response_Node-resource-observed.json",
+      "bytes": 1057,
+      "sha256": "a09affec840508770fdb303b33b96578ee168244513927180c5d5a5686d6d001"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-initial-call000001-initial-seed.json.gz",
+      "bytes": 510870,
+      "sha256": "d5d153e86fb8a9965802da216de4c5ebe12a26a4329c4f8f10f667783076f1c6"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-completed-J-cache-binding.json",
+      "bytes": 174865,
+      "sha256": "428ea68afcdcba18ff92a4f9fdef4e103df3fe042317af52ce9b483b27a2c8ed"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-storage-actions.json",
+      "bytes": 4347,
+      "sha256": "68a84fffbb432cca25a4deeb88a6159257243ac9cb2c648ab660089ebbe38680"
+    },
+    {
+      "path": "notes/2026-11-12-strong-q096-young4-r9-final-J-cache-delta.json",
+      "bytes": 104505,
+      "sha256": "10aed9cbfd4cf3f9c3fd756009428af7b59986df26551517fa9db72bdbf3e346"
+    },
+    {
+      "path": "notes/2026-11-12-strong-q096-young4-r9-final-J-cache-delta-000.tar.gz",
+      "bytes": 3409944,
+      "sha256": "32201f9470673c76dc7ceb895fa78e7a7bc46a56c287dfa12d90ca8194862338"
+    },
+    {
+      "path": "notes/2026-11-12-strong-q096-young4-r9-final-J-cache-delta-001.tar.gz",
+      "bytes": 1004421,
+      "sha256": "25abed48d4956a1ed9f499055a4b0209cedea7f11a9786d0cfa0981c734b57fd"
+    },
+    {
+      "path": "computations/strong_tail_recovery_freeze.py",
+      "bytes": 10072,
+      "sha256": "bab15231438843bc5f59b9b8c2b62518e7b77c3fc1d5abc2f3d5dc4eb32853ce"
+    },
+    {
+      "path": "computations/strong_exact_stage_resume_binding.py",
+      "bytes": 4596,
+      "sha256": "b383f712bf9e8359504c92efca7497a3494b7136015eb37a8fd6ebc583527041"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q096-cached-iteration-tail-audit-heap128-young4-r9-failed-note.json",
+      "bytes": 5532,
+      "sha256": "64ac574c667e00f08d023d124450432a79f2240699a283edcd5abe7916390219"
+    }
+  ]
+}

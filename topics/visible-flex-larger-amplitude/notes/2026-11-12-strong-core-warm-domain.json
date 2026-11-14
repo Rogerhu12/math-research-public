@@ -1,0 +1,207 @@
+{
+  "scope": "Inspect convexity of the existing amplitude warm-core extrapolation only.\n\nThe coefficients follow the actual linear-secondary-law restart exponent:\nq1/q2 scale linearly and coefficient j>=3 scales by (q/q0)^ceil(j/2).\nNo coefficient sequence here is asserted to solve a new BVP. Floating\nChebyshev critical-point calculations are diagnostics, not interval proofs.\n",
+  "nonlinear_solve_run": false,
+  "input": "notes/2026-11-12-strong-angle-vu032-q085-m20.json.gz",
+  "input_sha256": "4562ab36dcfcdbef4456ed89429288caafb4c495cf248101c90240c23cad0441",
+  "source_sha256": "a8395f1ebba4f00ba9d84ae0bc83aa319c9573c850581c19a440c1cca6b9a39e",
+  "restart_formula_source": "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py",
+  "restart_formula_source_sha256": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+  "q0": 0.085,
+  "source_coefficients": [
+    0.085,
+    -0.006010407640085654,
+    -0.00033755018199025175,
+    -5.881519832329665e-05,
+    -2.70923288663655e-05,
+    1.9375786326370167e-05,
+    1.1593857056963438e-05,
+    -6.439759625391243e-06,
+    -9.96888689004688e-07,
+    -3.2506886789605774e-07,
+    -3.853806560556965e-07,
+    -5.2250500544073854e-08,
+    -2.561957879693012e-08,
+    5.093387003365957e-10,
+    2.094717259862261e-09,
+    -6.113809447526148e-10,
+    2.2697942172695745e-09,
+    1.952714818271073e-10,
+    -6.075703527901563e-10,
+    3.6537604028359616e-09
+  ],
+  "warm_exponents": [
+    1.0,
+    1.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0,
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    6.0,
+    6.0,
+    7.0,
+    7.0,
+    8.0,
+    8.0,
+    9.0,
+    9.0,
+    10.0,
+    10.0
+  ],
+  "rho_formula": "1-sum((4*j^2-1)*c_j*T_j(cos(2*phi)))",
+  "secondary_comparison_scope": "Deleting all modes above physical m=6 is only a second extrapolation diagnostic, not a solved field or a spectral refinement.",
+  "rows": [
+    {
+      "q": 0.085,
+      "full_warm": {
+        "minimum_rho": 0.8030440669191587,
+        "cos_two_phi": 0.6269462736752287,
+        "evaluated_real_critical_points": 1
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": 0.8102022649041061,
+        "cos_two_phi": 0.6429007834791954,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.09,
+      "full_warm": {
+        "minimum_rho": 0.7899402761193209,
+        "cos_two_phi": 0.6228983385949093,
+        "evaluated_real_critical_points": 1
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": 0.7983988279868353,
+        "cos_two_phi": 0.6404390170198807,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.1,
+      "full_warm": {
+        "minimum_rho": 0.7629331121327201,
+        "cos_two_phi": 0.6154648119263075,
+        "evaluated_real_critical_points": 1
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": 0.7745678139315849,
+        "cos_two_phi": 0.635780938146883,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.15,
+      "full_warm": {
+        "minimum_rho": 0.6048329601979199,
+        "cos_two_phi": 0.5946282852450115,
+        "evaluated_real_critical_points": 3
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": 0.6508511796044845,
+        "cos_two_phi": 0.6166987483825487,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.2,
+      "full_warm": {
+        "minimum_rho": 0.3668515258123139,
+        "cos_two_phi": 0.5939904063786551,
+        "evaluated_real_critical_points": 13
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": 0.5193757074936722,
+        "cos_two_phi": 0.6025357351079201,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.25,
+      "full_warm": {
+        "minimum_rho": -0.15322450909707483,
+        "cos_two_phi": 0.5950307298130505,
+        "evaluated_real_critical_points": 19
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": 0.38000528420436586,
+        "cos_two_phi": 0.591554484541592,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.3,
+      "full_warm": {
+        "minimum_rho": -1.8292990923482078,
+        "cos_two_phi": 0.5944793816355205,
+        "evaluated_real_critical_points": 19
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": 0.2326582868311428,
+        "cos_two_phi": 0.5827651496968145,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.35,
+      "full_warm": {
+        "minimum_rho": -9.214677824362404,
+        "cos_two_phi": -0.3008389282840787,
+        "evaluated_real_critical_points": 19
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": 0.07728241596657331,
+        "cos_two_phi": 0.5755570439861619,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.38,
+      "full_warm": {
+        "minimum_rho": -21.267074579470567,
+        "cos_two_phi": -0.30095434369169655,
+        "evaluated_real_critical_points": 19
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": -0.019812110201540778,
+        "cos_two_phi": 0.5718190661714974,
+        "evaluated_real_critical_points": 1
+      }
+    },
+    {
+      "q": 0.4,
+      "full_warm": {
+        "minimum_rho": -35.50037443968956,
+        "cos_two_phi": -0.8098498053153185,
+        "evaluated_real_critical_points": 19
+      },
+      "three_harmonic_comparison": {
+        "minimum_rho": -0.08615755211930537,
+        "cos_two_phi": 0.5695306544804398,
+        "evaluated_real_critical_points": 1
+      }
+    }
+  ],
+  "zero_crossing_diagnostics": [
+    {
+      "retained_harmonics": 20,
+      "first_detected_zero": 0.23981368246894763,
+      "bracket": [
+        0.2383,
+        0.24012500000000003
+      ]
+    },
+    {
+      "retained_harmonics": 3,
+      "first_detected_zero": 0.3739508014856986,
+      "bracket": [
+        0.37335,
+        0.37517500000000004
+      ]
+    }
+  ],
+  "conclusion": "Small q=.09 warm has positive inlet rho in this floating calculation. The same frozen coefficients cannot be extrapolated in one jump to q~.4. A true branch changes all free coefficients and geometry; this is not a nonexistence result."
+}

@@ -1,0 +1,103 @@
+{
+  "scope": "Exact M32 original first-H trial recovery with fresh observed-adapter names and owned archival receipt. Original actual BVP remains running; no final full-J, audit or prefix acceptance claimed.",
+  "created_utc": "2026-11-13T14:09:11.559761+00:00",
+  "recovery_manifest": {
+    "file": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r2-manifest.json",
+    "sha256": "8ba2aac39fd8317dc8f47b170e9c6f3bc0b3182f7657b7facbce552ed4f57322"
+  },
+  "owned_archive": {
+    "exitcode": 0,
+    "wall_seconds": 3.5805565929986187,
+    "peak_rss_kib": 28852
+  },
+  "initial_packaging_duplicate_copies_replaced_by_fresh_observed_names": [
+    {
+      "duplicate": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r1-manifest.json",
+      "retained_private": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r1-manifest.json",
+      "sha256": "f4bf837054c530b030bf3e9f8c776ef7aeb870458c66ad50269156b3e97e9d41"
+    },
+    {
+      "duplicate": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r1.json.gz",
+      "retained_private": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r1.json.gz",
+      "sha256": "58d6070e597abede7ce1d42728c262ec5d541affe000caf7fe22a26c8e5054c9"
+    },
+    {
+      "duplicate": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r1-observed-trace.json",
+      "retained_private": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r1-observed-trace.json",
+      "sha256": "ccfc2358b2e45eba1078cc8b51cf8e5eb56b4542e8a6e01a4ca8d4d17b502851"
+    },
+    {
+      "duplicate": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response_full-tangent-adapter.json",
+      "retained_frozen": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r2-full-tangent-adapter-observed.json",
+      "sha256": "52a7597fa64d30e0e274949630136db26c56098c767e99d140edcfbf13692baf"
+    }
+  ],
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r2.json.gz",
+      "sha256": "58d6070e597abede7ce1d42728c262ec5d541affe000caf7fe22a26c8e5054c9",
+      "bytes": 376161
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r2-observed-trace.json",
+      "sha256": "ccfc2358b2e45eba1078cc8b51cf8e5eb56b4542e8a6e01a4ca8d4d17b502851",
+      "bytes": 2203
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-config.json",
+      "sha256": "6abad8c130950dc7d9087cb885ce15fb772df1f2a2500c3a9a607b64de6994d7",
+      "bytes": 2905
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response_sameg-M32-physical-identity.json",
+      "sha256": "ca11441ae36e7d71f12e75726be3bd468ee834253acfc24a58014838cddfc6c1",
+      "bytes": 1448
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r2-full-tangent-adapter-observed.json",
+      "sha256": "52a7597fa64d30e0e274949630136db26c56098c767e99d140edcfbf13692baf",
+      "bytes": 41740
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-spectral-warm-verified.json",
+      "sha256": "c71b60c6b740ba8a32048b12f7998047f04656fe6307b2f39725922e3d8a4461",
+      "bytes": 6665
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-live-physical-identity.json",
+      "sha256": "c5cf2e260fc773da9aa9ace539013d28099c9d0545ede429270a424dd383911d",
+      "bytes": 9495
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-sameg-first-tail-trial1-r2-manifest.json",
+      "sha256": "8ba2aac39fd8317dc8f47b170e9c6f3bc0b3182f7657b7facbce552ed4f57322",
+      "bytes": 5446
+    },
+    {
+      "file": "computations/strong_archive_sameg_first_tail_trial_v2.py",
+      "sha256": "a3a7ec9b52f7f5d4a28b66756240d6058ab25d8a44d4c6595fe2bbc9fb46ce96",
+      "bytes": 9010
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-tail-trial1-archive-r2-heartbeat.json",
+      "sha256": "9405257c1ca859a8dfba65e47f0a5299adc9ca77806a2139ab65a59dc9415c45",
+      "bytes": 315
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-tail-trial1-archive-r2-ownership.json",
+      "sha256": "a4a077ccfc0f4a3f7f42844a5a673f248344631ff74ab72afe15e209b89a42b4",
+      "bytes": 1871
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-tail-trial1-archive-r2-resource.json",
+      "sha256": "bf8a5b4d76ab067852660fa4afbe766598394303bd3107fcb517ba612eb109bb",
+      "bytes": 1663
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m32-first-tail-trial1-archive-r2-stdout.log",
+      "sha256": "5043472c488d987c8c53b7ba4bebbd0331d68ddea951b7195a0fed94e9cb9ad5",
+      "bytes": 1909
+    }
+  ],
+  "total_bytes": 460831
+}

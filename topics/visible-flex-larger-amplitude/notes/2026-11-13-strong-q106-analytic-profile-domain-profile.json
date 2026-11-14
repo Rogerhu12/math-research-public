@@ -1,0 +1,364 @@
+{
+  "schema": "accepted-newg-ideal-analytic-profile-domain-v1",
+  "scope": "Exact intended analytic profile guards for an actually accepted new g.\n\nThe same source formulas as the q096 proof are consumed with THIS accepted\nprofile's exact binary64 constants. No q096 certificate is transferred.\nThis proves an ideal analytic meridian domain only; the actual Gauss64 and\nfloating realization, material chart, physical quintic, complete mean,\nsurface curvature and reach remain separate obligations.\n",
+  "author": "/root/geometry_audit",
+  "all_gates": true,
+  "gates": {
+    "actual_accepted_profile_and_port": true,
+    "pinned_physical_formula_alternative-neck-provider.py": true,
+    "pinned_physical_formula_alternative-neck-flatturn.py": true,
+    "pinned_physical_formula_alternative-neck-excursion.py": true,
+    "pinned_physical_formula_strong_angle_boost.py": true,
+    "pinned_physical_formula_root_dual_core_bvp.py": true,
+    "same_analytic_shape": true,
+    "positive_physical_parameters": true,
+    "actual_tagged_bridge_curvature": true,
+    "cut_brake_signs": true,
+    "exact_Machin_tangent_identity": true,
+    "pi_argument_domain": true,
+    "actual_Hermite_unique_length": true,
+    "actual_Hermite_monotone_speed": true,
+    "actual_Hermite_acceleration_below_one": true,
+    "boost_inlet_angle_lower": true,
+    "boost_outlet_angle_upper": true,
+    "actual_boost_curvature": true,
+    "loop_angle_upper": true,
+    "loop_complement_upper": true,
+    "actual_first_turn_upper_radius": true,
+    "actual_first_turn_lower_radius": true,
+    "sync_asin_Lipschitz_six": true,
+    "actual_descending_coast_positive": true,
+    "actual_loop_radius_lower": true,
+    "actual_loop_radius_upper": true,
+    "actual_loop_coasts_positive": true,
+    "bridge_angle_gap_positive": true,
+    "actual_bridge_speed": true,
+    "actual_bridge_coast_positive": true,
+    "actual_brake_rate": true,
+    "all_other_speeds": true,
+    "actual_acceleration_bound": true,
+    "all_nonconstant_phase_lengths": true,
+    "total_nonconstant_phase_length": true,
+    "phase_absolute_bound": true,
+    "phase_first_u_bound": true,
+    "phase_second_u_bound": true,
+    "phase_third_u_bound": true
+  },
+  "evidence": {
+    "actual_tagged_bridge_curvature": {
+      "rule": "The actual tagged_port uses config.loop_curvature, not the untagged port bridge curvature.",
+      "K": {
+        "numerator": "15",
+        "denominator": "2",
+        "decimal_display": 7.5
+      }
+    },
+    "exact_Machin_tangent_identity": {
+      "proof": "The angle lies in (0,1), below pi/2 because atan(1)>1/2; exact tangent1 selects pi/4."
+    },
+    "pi_argument_domain": {
+      "pi_lower": {
+        "numerator": "367707752476172207210232155155211800650193769349643679097363623629261005878067849033826612",
+        "denominator": "117045012839587847750696265429793726571056544167331213913740839416277594864368438720703125",
+        "decimal_display": 3.141592653589793
+      },
+      "pi_upper": {
+        "numerator": "7885751243558602857662407697083987647837187618916932871201975280927764532056854784214256",
+        "denominator": "2510112580810824626575216210351662524282562745837445721264202802558429539203643798828125",
+        "decimal_display": 3.141592653589793
+      }
+    },
+    "actual_Hermite_unique_length": {
+      "equation": "k0*S0^2+6*V*S0=12*delta",
+      "lower": {
+        "numerator": "4",
+        "denominator": "5",
+        "decimal_display": 0.8
+      },
+      "upper": {
+        "numerator": "9",
+        "denominator": "10",
+        "decimal_display": 0.9
+      }
+    },
+    "actual_Hermite_monotone_speed": {
+      "acceleration_Bernstein": "[k0,3V/S0-k0,0]"
+    },
+    "actual_Hermite_acceleration_below_one": {
+      "numerator": "12412412682396345",
+      "denominator": "18014398509481984",
+      "decimal_display": 0.6890273175572861
+    },
+    "actual_boost_curvature": {
+      "numerator": "5922463604266287763792597375516672",
+      "denominator": "943257507526048205942057118555375",
+      "decimal_display": 6.278734658364474
+    },
+    "actual_first_turn_upper_radius": {
+      "numerator": "20544291647947095589471723664969123546764308105774246635093850779105933573384004986942781148401251259414594347749836218764942413053979803",
+      "denominator": "11431174686207091168992115333139184060718022781658154150200494463937339118886463790584640000000000000000000000000000000000000000000000000",
+      "decimal_display": 1.7972161402393696
+    },
+    "actual_first_turn_lower_radius": {
+      "numerator": "7574632824453693337272078087740514322844389873645339132284482686743296957696749935168195431144210469931251121902140381524402374543676447",
+      "denominator": "11431174686207091168992115333139184060718022781658154150200494463937339118886463790584640000000000000000000000000000000000000000000000000",
+      "decimal_display": 0.662629435065259
+    },
+    "actual_descending_coast_positive": {
+      "numerator": "3387343836136530681796705272728051903670121360487375471848641412163681883460268542015300637358567967851526485769544320890743011750707697",
+      "denominator": "11431174686207091168992115333139184060718022781658154150200494463937339118886463790584640000000000000000000000000000000000000000000000000",
+      "decimal_display": 0.296325087239172
+    },
+    "actual_loop_radius_lower": {
+      "lower": {
+        "numerator": "2750679310862792978398861595917917680456396155444224983738221254488872908589951466635279682256377430406621179805186967053",
+        "denominator": "22482355677149568505122757394358690750558245771491277225868673253018181600000000000000000000000000000000000000000000000000",
+        "decimal_display": 0.1223483584355222
+      },
+      "reason": "Opposite symmetric phase gives exactly zero radial net integral; worst inward loss is in its first half."
+    },
+    "actual_loop_radius_upper": {
+      "numerator": "31015957619174289476293478644622116136218163812120464571830830179908772961881074413782179714201198048538062814523348467867695342465381481",
+      "denominator": "50625764325010875995921502161659626346001391593290635586765091930176499621764243705036800000000000000000000000000000000000000000000000000",
+      "decimal_display": 0.6126516415644778
+    },
+    "bridge_angle_gap_positive": {
+      "numerator": "93461343453627206728857732788517",
+      "denominator": "1306381889607362686447920796639153",
+      "decimal_display": 0.07154213036566001
+    },
+    "actual_bridge_speed": {
+      "upper": {
+        "numerator": "180666622580625026624376343379803362964965557191786913548698454960331753236335597886736369494210465226078869657306969452938051262493573219524253966918115184067424867747041489712693601441154399975997542964755699163433882018220235690015477142145123337237723538800838255652762288520967592621057248750948923005486754414007992246816667977221198300864571747485553346009244777515202323150907512120493955917585721536538728887725688852477201273085248062099228763025115077136704261678205193695290931252680533863550282101053361295203307988990936736330206758277189551542042835135670582003475859082350301425253918657438625790848551656916242459372963753557295705778354110717294523093335729462803065992494854973813879622347602460188530779200783032264125102758517222634681111404032737931714690645440649548629357073264748666546972606404862486034636011314430316228553312011440522546357113976765694092226898297686558232941459805443427926961928716840915806333829517788535017234819755972797934849665543309118206432994831612068978704241152147201068457540300836459129573525155914490942928791126028653323711797",
+        "denominator": "181129961510542384699917039219952827858460386738355222989542094796258894336572721309912701331022889221450055943384001374120991551273373172877111132046877698339628443587378087775352232356244680014622597930082931575061470403919107990091448738644539838957203141343935312236236046832950659434265795054096875685604257581424389723578892281564523231851159072070677011880896565492950698668224185600853828686637408276954872778588590261892483159780643516130115076531366566915352502170101911743195566238598570757096895540676657187681431252085908937498184059557709910971730587407661977553907483147356384831449823421782987890988729882392567863338492558028883476433039072074227559409971104908807358179871714942314137459721789234381297008019401224650721805275267813445032602514950722966987355282819025158883183448705013356594442539960643945479675329269659935150572540583639722915702880264119293754232915564084365281609079409702399449169397624690016111558390689733740593498701731875106790054888692514103363379829347378162194265662512215732686781983943476749292151002629848663488668869367567482880000000",
+        "decimal_display": 0.9974419531365583
+      },
+      "reason": "eta=(1-fraction)atan(w)>=eta0; |sin(peak)|=cos(eta)."
+    },
+    "actual_bridge_coast_positive": {
+      "numerator": "257665949538990122280439741142960338856267692841101745342364077468398079863514738455014078568493204843897004697904821",
+      "denominator": "16916594660318752989731717053136023335332782382952567300512500327148618246386602772411597567915275949239806392795136000",
+      "decimal_display": 0.01523154953540366
+    },
+    "actual_brake_rate": {
+      "numerator": "4203359652212477",
+      "denominator": "2251799813685248",
+      "decimal_display": 1.866666666666673
+    },
+    "all_nonconstant_phase_lengths": {
+      "angle_boost": {
+        "numerator": "569144675546715",
+        "denominator": "4503599627370496",
+        "decimal_display": 0.12637550462695546
+      },
+      "first_turn": {
+        "numerator": "74536113487603947542945502068736",
+        "denominator": "252800480587205860748413364384753",
+        "decimal_display": 0.29484166056358435
+      },
+      "sync": {
+        "numerator": "180143985094820",
+        "denominator": "66292986514893701",
+        "decimal_display": 0.0027173913043478286
+      },
+      "each_loop_turn": {
+        "numerator": "283906920509436064",
+        "denominator": "994394797723405515",
+        "decimal_display": 0.2855072463768116
+      },
+      "bridge_turn": {
+        "numerator": "1531549175224014518766040728261891914057628506205659770915640586709821305882426449916523842255068895345332",
+        "denominator": "116388951867155359219124178860551873987315905426699199919006380498803814955266489050700329244136810302734375",
+        "decimal_display": 0.013158887941289327
+      },
+      "brake": {
+        "numerator": "46768052394589051098534992642318884125303373824",
+        "denominator": "5491192925156682543103621077413107790762253311981",
+        "decimal_display": 0.008516920281626164
+      }
+    },
+    "total_nonconstant_phase_length": {
+      "numerator": "31281548673612766750268335975641051329557794803107005211801909399242595091349657734323901268560334006817330265710385877557435080276479848782538230582161948682954229902135423811101415734961989081918362194150219524965349",
+      "denominator": "19647233601042669576727370076135243396826584673079128698502035806803976606926288145203176539353434853674916516780026403996641589757573435654380952343985778914717650124800000000000000000000000000000000000000000000000000",
+      "decimal_display": 1.5921604694491274
+    },
+    "phase_first_u_bound": {
+      "numerator": "568228261792431188402288664333789874569775913677702458988600046046373561507163100752790804477036111855616",
+      "denominator": "166402859470557022278353109019071848222150620784774449444492470499506513448295663692988455295562744140625",
+      "decimal_display": 3.4147746234671668
+    },
+    "phase_second_u_bound": {
+      "numerator": "20472580704558221996742100321746228988718651229448709515455808118976569271730548139380719891426525962512051734026322444288",
+      "denominator": "319749058519460536506749150653160048475397189512972093876157073211681004979698819980260537931826547719538211822509765625",
+      "decimal_display": 64.02702419000937
+    },
+    "phase_third_u_bound": {
+      "numerator": "5900819637271092162881722959431542916035558127378726719702013264655664901040236880250856657757950849252419477463840901601726812217275318272",
+      "denominator": "1843227828224396059666836025596375336336930253339090861230533894199568330183574179137912597563858397631264551819185726344585418701171875",
+      "decimal_display": 3201.3512095004685
+    }
+  },
+  "source_sha256": "cf80d379758054726cc1f77d8065eaf2eab59c3015fb263cb8a8f5918a664af5",
+  "input_identity": {
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "computations/alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2",
+    "computations/alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "computations/alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+    "computations/strong_angle_boost.py": "ce2117cffe2e55d310eb0be219e7d22e750d97cd22704e75c3dd74a085c020be",
+    "computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652"
+  },
+  "actual_accepted_primary_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+  "frozen_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.16673503533883655,
+    "vu": 0.320807284681943,
+    "vd": 0.98,
+    "start_acceleration": 0.514,
+    "boost_speed": 0.8574570611714787,
+    "boost_length": 0.12637550462695546,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.773927172429689,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "actual_original_port": {
+    "radius": 0.30000000000000004,
+    "backgroundSlope": 0.08000000000000027,
+    "backgroundSecond": -1.866666666666673,
+    "E": 1.0064,
+    "Ep": -0.2986666666666687,
+    "_prefix_bridge": {
+      "kind": "finite_neck_terminal_v1",
+      "radius": 0.35,
+      "speed": 0.985,
+      "curvature": 8.0,
+      "peak_fraction": 0.1
+    }
+  },
+  "exact_binary_physical_parameters": {
+    "V": {
+      "numerator": "1444787567751339",
+      "denominator": "4503599627370496",
+      "decimal_display": 0.320807284681943
+    },
+    "vp": {
+      "numerator": "482705412647259",
+      "denominator": "562949953421312",
+      "decimal_display": 0.8574570611714787
+    },
+    "vd": {
+      "numerator": "2206763817411543",
+      "denominator": "2251799813685248",
+      "decimal_display": 0.98
+    },
+    "vl": {
+      "numerator": "8872091265919877",
+      "denominator": "9007199254740992",
+      "decimal_display": 0.985
+    },
+    "delta": {
+      "numerator": "3003631372086363",
+      "denominator": "18014398509481984",
+      "decimal_display": 0.16673503533883655
+    },
+    "k0": {
+      "numerator": "2314850208468435",
+      "denominator": "4503599627370496",
+      "decimal_display": 0.514
+    },
+    "LB": {
+      "numerator": "569144675546715",
+      "denominator": "4503599627370496",
+      "decimal_display": 0.12637550462695546
+    },
+    "R": {
+      "numerator": "3152519739159347",
+      "denominator": "9007199254740992",
+      "decimal_display": 0.35
+    },
+    "ratio": {
+      "numerator": "2476979795053773",
+      "denominator": "2251799813685248",
+      "decimal_display": 1.1
+    },
+    "K": {
+      "numerator": "15",
+      "denominator": "2",
+      "decimal_display": 7.5
+    },
+    "Ks": {
+      "numerator": "3813381986198653",
+      "denominator": "562949953421312",
+      "decimal_display": 6.773927172429689
+    },
+    "Ksync": {
+      "numerator": "2",
+      "denominator": "1",
+      "decimal_display": 2.0
+    },
+    "fraction": {
+      "numerator": "3602879701896397",
+      "denominator": "36028797018963968",
+      "decimal_display": 0.1
+    },
+    "C": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_display": 0.0
+    },
+    "w": {
+      "numerator": "2882303761517127",
+      "denominator": "36028797018963968",
+      "decimal_display": 0.08000000000000027
+    },
+    "wprime": {
+      "numerator": "-4203359652212477",
+      "denominator": "2251799813685248",
+      "decimal_display": -1.866666666666673
+    },
+    "cutR": {
+      "numerator": "1351079888211149",
+      "denominator": "4503599627370496",
+      "decimal_display": 0.30000000000000004
+    },
+    "eps": {
+      "numerator": "5764607523034235",
+      "denominator": "72057594037927936",
+      "decimal_display": 0.08
+    }
+  },
+  "ideal_global_bounds": {
+    "radius_lower": "3/25",
+    "radius_upper": "9/5",
+    "speed_absolute_upper": "499/500",
+    "acceleration_absolute_upper": "15/2",
+    "radius_speed_inequalities_strict": true
+  },
+  "phase_bounds": {
+    "absolute": "8/5",
+    "first_u": "4",
+    "second_u": "65",
+    "third_u": "3300",
+    "minimum_nonconstant_segment_length": "27/10000",
+    "sum_nonconstant_segment_lengths_upper": "4",
+    "smooth_phase_subpieces_degree_at_most_four": true
+  },
+  "old_q096_certificate_transferred": false,
+  "all_guards_recomputed_from_this_actual_profile": true,
+  "mathematical_domain": "The intended exact analytic profile obtained by interpreting this accepted profile and port binary constants exactly in the pinned formulas.",
+  "actual_numpy_Gauss64_or_floating_realization_certified": false,
+  "actual_material_chart_certified": false,
+  "full_surface_mean_metric_curvature_or_reach_certified": false,
+  "ODE_Node_Newton_calls": 0,
+  "elapsed_seconds": 0.012887552000393043,
+  "peak_rss_kib": 12716
+}

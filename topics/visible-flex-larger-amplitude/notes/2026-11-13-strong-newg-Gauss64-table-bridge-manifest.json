@@ -1,0 +1,30 @@
+{
+  "schema": "actual-Gauss64-table-analytic-phase-bridge-archive-v1",
+  "files": [
+    {
+      "path": "computations/strong_newg_gauss64_table_bridge.py",
+      "sha256": "d83ef3e22b238244ef28f653d8b66b35d5cc5bb1794498a3a184177ef3dfaec0",
+      "bytes": 10164
+    },
+    {
+      "path": "notes/2026-11-13-strong-newg-Gauss64-table-bridge.json",
+      "sha256": "0a6bb86d0b492ba47ff5d34a4ef63419686aef316cacdec62ed1781f48da621d",
+      "bytes": 124970
+    },
+    {
+      "path": "notes/2026-11-13-strong-newg-Gauss64-table-bridge-resource.json",
+      "sha256": "b8fa662c92f2464402f5ec22c8a718b348e61afadad28cbe3a602c3bcc5a62e2",
+      "bytes": 1090
+    },
+    {
+      "path": "notes/2026-11-13-strong-newg-Gauss64-table-bridge.md",
+      "sha256": "86c7c46060956a448231856f2250e5d7cfd72d0af2bca40ae01cf221b829f875",
+      "bytes": 7515
+    }
+  ],
+  "formal_exit0": true,
+  "exact_gates": 399,
+  "all64_actual_binary_nodes_and_weights_consumed": true,
+  "ODE_Node_Newton_calls": 0,
+  "full_floating_provider_and_Cartesian_certified": false
+}

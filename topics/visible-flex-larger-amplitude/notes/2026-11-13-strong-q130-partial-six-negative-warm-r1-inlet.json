@@ -1,0 +1,206 @@
+{
+  "schema": "explicit-unsolved-warm-full-core-inlet-resolution-diagnostic-v1",
+  "scope": "Inspect a complete unsolved warm core in its genuine reference chart.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nThe geometry screen is explicitly an unsolved warm field. Its complete core\nis projected with the original PlanarSupportCore/GeneralCoreChart and exact\noriginal cylindrical basis/project/values routines. No accepted endpoint is\ninvented, no original accepted file is modified, and no Flow/ODE/BVP/Node is\nconstructed. Higher-M rows are inlet projection diagnostics only.\n",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "source_and_input_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_warm_core_inlet_resolution_diagnostic.py": "770eb7872b17e59626f76bfbb2138aa0bbb889737007aae1951a5edc242badfa",
+    "m28-q122-r1/q130-t256-constant-size-combined-screen.json": "bed7e45297f07c04c71cdf34a0b8b87952e2c8b21aa08b301546c10d697dd86e",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz": "5545638d33d78240a2eb6dd82269d4c10975b14f686a9562971e3b20e60ce154",
+    "computations/geometric-general-core-chart.py": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_saved_core_inlet_resolution_diagnostic.py": "95e4ee845167bc95f54c92272fba192c80fa5fe5810dcab344fa4bcdf6ffefca",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2"
+  },
+  "full_warm_core_coefficients": [
+    0.12999999999999998,
+    -0.015726419207124885,
+    -0.0011216734015582711,
+    -0.000507824300903052,
+    -4.774847260065518e-05,
+    -3.071284128874578e-05,
+    -5.0921882872026276e-05,
+    2.2886124922105738e-05,
+    5.556671011958112e-06,
+    2.447060533320848e-06,
+    1.0450521378174784e-06,
+    2.6389270287442406e-07,
+    8.44774376075678e-07,
+    -1.00264192514409e-06,
+    4.549890072753898e-07,
+    1.1234399516019707e-06,
+    -1.5296110413581504e-05,
+    -1.8044079896639645e-06,
+    3.8291429963552905e-06,
+    -7.788268995867008e-06,
+    -2.089523865417192e-06,
+    3.0991763184906016e-07,
+    -6.3558415153724956e-06,
+    -1.6989150032418165e-06,
+    7.832221491176851e-07,
+    2.234068994967322e-06,
+    3.0537613266442626e-06,
+    3.220523595965721e-06
+  ],
+  "frequencies": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56
+  ],
+  "warm_physical_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.17653503397274317,
+    "vu": 0.33553614777023877,
+    "vd": 0.98,
+    "start_acceleration": 0.642,
+    "boost_speed": 0.8156279921148784,
+    "boost_length": 0.13112924403295184,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.34631101598066,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "material_reference_coefficients": [
+    0.09,
+    -0.006363961030678927
+  ],
+  "material_reference_frequencies": [
+    2,
+    4
+  ],
+  "real_reference_length_used_only_as_positive_chart_constructor": 3.154318819114381,
+  "inlet_formula_independent_of_profile_and_length": true,
+  "gauge": 0.09,
+  "rows": [
+    {
+      "modes": 28,
+      "angular": 3584,
+      "position": 8.395624336519436e-06,
+      "first": 0.0005567936828826407,
+      "second": 0.03865888606563326,
+      "metric_l1": 3.59842971623597e-05,
+      "metric_pointwise_max": 2.5833700181721042e-05,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 28,
+      "angular": 7168,
+      "position": 8.40790855992927e-06,
+      "first": 0.000557296342919777,
+      "second": 0.03865888606565055,
+      "metric_l1": 3.598429716358366e-05,
+      "metric_pointwise_max": 2.5858053017691063e-05,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 32,
+      "angular": 4096,
+      "position": 3.33953961976967e-06,
+      "first": 0.00025060901793014055,
+      "second": 0.019239788527897404,
+      "metric_l1": 3.256612407140325e-05,
+      "metric_pointwise_max": 2.237687100103969e-05,
+      "arc_inversion_residual": 9.769962616701378e-15,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 40,
+      "angular": 5120,
+      "position": 3.5437775969060576e-07,
+      "first": 3.8336085603459e-05,
+      "second": 0.004245047948606314,
+      "metric_l1": 4.091721684115622e-06,
+      "metric_pointwise_max": 2.81198281437689e-06,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 64,
+      "angular": 8192,
+      "position": 4.797626412217074e-08,
+      "first": 6.859080958063839e-06,
+      "second": 0.001000084525004824,
+      "metric_l1": 6.738047330656257e-07,
+      "metric_pointwise_max": 5.093465019756493e-07,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    }
+  ],
+  "full_core_tail_diagnostics": [
+    {
+      "minimum_frequency": 40,
+      "complete_saved_core_mode_count": 9,
+      "coefficient_l1_exact": {
+        "numerator": "520103368686104409",
+        "denominator": "18889465931478580854784"
+      },
+      "support_curvature_radius_l1_exact": {
+        "numerator": "1153885424774651722799",
+        "denominator": "18889465931478580854784"
+      }
+    },
+    {
+      "minimum_frequency": 48,
+      "complete_saved_core_mode_count": 5,
+      "coefficient_l1_exact": {
+        "numerator": "103802253317895449",
+        "denominator": "9444732965739290427392"
+      },
+      "support_curvature_radius_l1_exact": {
+        "numerator": "291904750455939902755",
+        "denominator": "9444732965739290427392"
+      }
+    },
+    {
+      "minimum_frequency": 56,
+      "complete_saved_core_mode_count": 1,
+      "coefficient_l1_exact": {
+        "numerator": "950530792929959",
+        "denominator": "295147905179352825856"
+      },
+      "support_curvature_radius_l1_exact": {
+        "numerator": "2979914035835421465",
+        "denominator": "295147905179352825856"
+      }
+    }
+  ],
+  "same_complete_core_as_accepted_reference": false,
+  "no_new_accepted_endpoint": true,
+  "original_accepted_candidate_or_g_modified": false,
+  "new_Flow_ODE_Node_Newton_calls": 0,
+  "continuous_metric_reach_or_closed_surface_certificate": false
+}

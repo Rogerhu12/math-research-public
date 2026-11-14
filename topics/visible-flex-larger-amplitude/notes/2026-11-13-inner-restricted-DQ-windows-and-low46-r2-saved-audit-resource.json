@@ -1,0 +1,32 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "inner-restricted-DQ-saved-low-audit-r1",
+  "command": [
+    "python",
+    "computations/inner_restricted_DQ_saved_low_audit.py",
+    "--primary",
+    "inner-restricted-DQ-r1/r2-kernels.json.gz",
+    "--input",
+    "inner-restricted-DQ-r1/inner-restricted-expanded-modal-r1.json.gz",
+    "--resource",
+    "inner-restricted-DQ-r1/r2-resource.json",
+    "--out",
+    "inner-restricted-DQ-r1/saved-audit.json"
+  ],
+  "started_utc": "2026-11-13T12:31:40.601249+00:00",
+  "finished_utc": "2026-11-13T12:31:50.175323+00:00",
+  "wall_seconds": 9.58255838200057,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 35164,
+  "user_seconds": 5.984587,
+  "system_seconds": 0.15731599999999998,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 5,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026532634]",
+  "automatic_restarts": 0
+}

@@ -1,0 +1,61 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Formal exit0 for the stated actual strong two-material high edge; complete strong head remains unpaid",
+  "formal_execution": {
+    "session_id": 26265,
+    "final_chunk": "20975a",
+    "exit_code": 0,
+    "resource": {
+      "event": "completed",
+      "seconds": 10.363593374999255,
+      "peak_RSS_KiB": 36328,
+      "bands": 1
+    }
+  },
+  "files": [
+    {
+      "path": "computations/tail_high_two_material_kernel.py",
+      "bytes": 14124,
+      "sha256": "eeeed8974da5732759a05004168042d2e84ffc38543e0be175537592295247e1"
+    },
+    {
+      "path": "notes/2026-11-12-tail-two-material-high-interface.md",
+      "bytes": 10586,
+      "sha256": "b0be15f74e67ebd516e6aa248e10902a304cb4e0e8148f4674112e62bcd7eeb4"
+    },
+    {
+      "path": "notes/2026-11-12-tail-strong-two-material-high-13to12-r1.json",
+      "bytes": 11403,
+      "sha256": "ece2c8e70f29ae2f65fde0dd70c98c5c34c0179f8ef021ff03b4a2ea27dc5814"
+    },
+    {
+      "path": "notes/2026-11-12-tail-strong-two-material-high-13to12-r1.json-resource.jsonl",
+      "bytes": 1945,
+      "sha256": "f4285fac90b702bc339e79877b27d73b7d72fedc885d8120d9fdf88bb4d96085"
+    }
+  ],
+  "input_hashes": {
+    "notes/2026-11-12-tail-r33-plateau2-continuous-strip-panels-assembled-recovered-r1-summary.json": "247449b2fd48d99f8db0e63eebd0f26c038b63e831af6c31bbb7f8fc8adac47b",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz": "d0dc6791001a1668afa2f9442bbefbe7e6644e73b0b753943df5a9bc12258181",
+    "notes/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell013.json.gz": "7397ebc436ae5c4cd396ae2e6d5d27c4f2b45e17fae5e75f94eb0acb9e95dc22",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+  },
+  "scope": {
+    "source_cell": 13,
+    "target_cells": [
+      13,
+      12
+    ],
+    "frequency_window": [
+      94,
+      96
+    ],
+    "same_complete_q_strip": true,
+    "same_actual_strong_V_scaling": true,
+    "new_source_evaluations": 0,
+    "new_ODE_or_radial_integrations": 0,
+    "complete_strong_641_gate_paid": false
+  },
+  "rebuild_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python computations/tail_high_two_material_kernel.py --material-summary notes/2026-11-12-tail-r33-plateau2-continuous-strip-panels-assembled-recovered-r1-summary.json --q-density notes/2026-11-12-tail-r33-plateau2-density-window.json.gz --same-tau-density notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz --source-cell 13 --target-first 12 --band 94:96 --rss-limit-mib 100 --out notes/2026-11-12-tail-strong-two-material-high-13to12-recomputed.json"
+}

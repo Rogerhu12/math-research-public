@@ -1,0 +1,67 @@
+{
+  "schema": "immutable-completed-scientific-conclusion-manifest-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "date": "2026-11-13",
+  "topic": "visible-flex-larger-amplitude",
+  "same_original_inner_R33_R42_field": true,
+  "new_strong_candidate_certificate": false,
+  "all_gates": true,
+  "gate_count": 297,
+  "owned_formal_exitcode": 0,
+  "resource": {
+    "wall_seconds": 3.5386190520002856,
+    "peak_rss_kib": 34540,
+    "wait4_observed": true
+  },
+  "members": [
+    {
+      "path": "computations/inner_true_cells15to24_point_and_source.py",
+      "sha256": "29df3ab22016a280a2e144d5cfd0a941d407046f9a7f90c8c19c1ee170f9d1ae",
+      "bytes": 12383
+    },
+    {
+      "path": "notes/2026-11-13-inner-cells15to24-point-source-r1.json",
+      "sha256": "220fe04036eea830a66f407890f2ba91d6808ea189c45e8ffc99e05b99726fdf",
+      "bytes": 457460
+    },
+    {
+      "path": "notes/2026-11-13-inner-cells15to24-point-source-r1-resource.json",
+      "sha256": "6ff40e90634fb49ea778734eeea5a7b2da4ce34478b4c38feb75408f335661c2",
+      "bytes": 1299
+    },
+    {
+      "path": "notes/2026-11-13-inner-cells15to24-point-source-r1-proof.md",
+      "sha256": "c182260e6a69897d4b6e5cd9efb2472d536cee4fbc34d4cdfc6368e7495faf78",
+      "bytes": 7069
+    }
+  ],
+  "source_and_input_identities": {
+    "density": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+    },
+    "positive": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-positive-highband-38.json.gz",
+      "sha256": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600"
+    },
+    "ready": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    }
+  },
+  "actual_reproduction_command": [
+    "python",
+    "computations/inner_true_cells15to24_point_and_source.py",
+    "--inputs",
+    "inner-cell12-canonical-forced-r1/inputs",
+    "--out-prefix",
+    "inner-cells15to24-point-source-r1/kernels",
+    "--rss-kib",
+    "98304"
+  ],
+  "scratch_working_directory": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "original_inputs_reusable_from_topic_notes_by_same_basename_and_sha256": true,
+  "new_ODE_calls": 0,
+  "continuous_or_cut_solution_claimed": false,
+  "storage": "The complete source, scientific kernel, observed resource record and proof are small and archived. Existing pinned geometry inputs are reused without duplication."
+}

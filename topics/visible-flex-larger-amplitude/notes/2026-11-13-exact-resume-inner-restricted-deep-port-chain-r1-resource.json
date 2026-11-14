@@ -1,0 +1,32 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "exact-work/2026-11-13-exact-resume-inner-restricted-deep-port-chain-v1.py",
+    "--topic",
+    "math-research/topics/visible-flex-larger-amplitude",
+    "--field",
+    "exact-work/inner-restricted-alternate4-window13.json.gz",
+    "--field-resource",
+    "exact-work/inner-restricted-alternate4-window13-resource.json",
+    "--first-port-kernels",
+    "geometry-work/inner-three-cell-point-homogeneous-r1/kernels.json",
+    "--first-port-resource",
+    "geometry-work/inner-three-cell-point-homogeneous-r1/resource.json",
+    "--deep-kernels",
+    "geometry-work/inner-cells15to24-point-source-r1/kernels.json",
+    "--deep-resource",
+    "geometry-work/inner-cells15to24-point-source-r1/resource.json",
+    "--expected-deep-schema",
+    "inner-true-cells15to24-point-and-whole-source-v1",
+    "--out-prefix",
+    "exact-work/inner-restricted-deep-port-chain-r1"
+  ],
+  "wall_seconds": 2.683819055557251,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 38164,
+  "user_seconds": 0.716845,
+  "system_seconds": 0.220097,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

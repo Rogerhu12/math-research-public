@@ -1,0 +1,1320 @@
+{
+  "schema": "inner-true-cell14-whole-canonical-endpoint-two-material-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "gate_count": 46,
+  "gates": {
+    "all_original_source_helpers": true,
+    "all_original_geometry_sha256": true,
+    "all_original_density_gates": true,
+    "same_ready_positive_geometry": true,
+    "same_original_positive_generator": true,
+    "adjacent_actual_strip_identity": true,
+    "exact_output_strip": true,
+    "same_actual_mu_source_constant": true,
+    "strict_complete_physical_conversion_domain": true,
+    "positive_complete_cell_strip_drop": true,
+    "complete_positive_original_V_row": true,
+    "complete_positive_original_material_totals": true,
+    "complete_positive_cell14_matrix": true,
+    "actual_positive_full_homogeneous_strip_loss": true,
+    "only_original_nine_matrix_windows_used": true,
+    "owned_RSS_guard": true
+  },
+  "gate_multiplicities": {
+    "all_original_source_helpers": 6,
+    "all_original_geometry_sha256": 3,
+    "all_original_density_gates": 1,
+    "same_ready_positive_geometry": 1,
+    "same_original_positive_generator": 3,
+    "adjacent_actual_strip_identity": 1,
+    "exact_output_strip": 1,
+    "same_actual_mu_source_constant": 1,
+    "strict_complete_physical_conversion_domain": 1,
+    "positive_complete_cell_strip_drop": 1,
+    "complete_positive_original_V_row": 2,
+    "complete_positive_original_material_totals": 1,
+    "complete_positive_cell14_matrix": 11,
+    "actual_positive_full_homogeneous_strip_loss": 11,
+    "only_original_nine_matrix_windows_used": 1,
+    "owned_RSS_guard": 1
+  },
+  "source_sha256": "2b10e184e1b104b3beb3a9139f2c7b0f3c1b21fce9fcecfa994de62f0baa9a4c",
+  "input_identities": {
+    "density": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700",
+      "bytes": 281853
+    },
+    "positive": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-positive-highband-38.json.gz",
+      "sha256": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600",
+      "bytes": 474571
+    },
+    "ready": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "bytes": 109004
+    }
+  },
+  "frozen_reference_source_sha256": {
+    "inner_true_cell13_endpoint_window_kernels.py": "cff396cf882488df91c5450490a0c345e408d3fe1a6b29f683910e97b7aa4019",
+    "closure_split_joint_io_v2.py": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0",
+    "closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390",
+    "closure_positive_linear_band_enclosure.py": "270e475e33f988ca9d48c1f68e249f2d127fa3afafd3e3d20d80cce3407a170f",
+    "closure_real_linear_head_enclosure.py": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+  },
+  "cell": 14,
+  "input_cell": 15,
+  "no_saved_cell14_panels_assumed": true,
+  "global_physical_radius_bounds": [
+    [
+      "900719925474099",
+      -54
+    ],
+    [
+      "231485020846843443",
+      -62
+    ]
+  ],
+  "source_mu_bounds": [
+    [
+      "6129688305482352885859816396249241632873320135211191392703",
+      -267
+    ],
+    [
+      "1427179273563053665184373128285920627618515895496",
+      -235
+    ]
+  ],
+  "true_w_in_lower": [
+    "67396485978493926098636025371657495235443947679477190700323556381282585513273",
+    -300
+  ],
+  "true_w_in_upper": [
+    "850663247003359169978981224094585156220323187454",
+    -204
+  ],
+  "true_w_out_lower": [
+    "113346675089477631568545461791064556158151459079245096062890196275391524264893",
+    -298
+  ],
+  "true_w_out_upper": [
+    "1430636171438035739445782308742337138547322300231",
+    -202
+  ],
+  "frame_jump_upper": [
+    "1",
+    0
+  ],
+  "tau_input": {
+    "lower": {
+      "mantissa": "3833970851724477247797548645209552598376643359085194259849",
+      "binary_exponent": -191
+    },
+    "upper": {
+      "mantissa": "3833970851724477247797548645209552598376643359085194259849",
+      "binary_exponent": -191
+    },
+    "display": "[1.22157359027997265470861606072908828403481133130307190829 +/- 3.42e-58]"
+  },
+  "tau_cell_inner": {
+    "lower": {
+      "mantissa": "3833970851724477247797548645209552598376643359085194259849",
+      "binary_exponent": -191
+    },
+    "upper": {
+      "mantissa": "3833970851724477247797548645209552598376643359085194259849",
+      "binary_exponent": -191
+    },
+    "display": "[1.22157359027997265470861606072908828403481133130307190829 +/- 3.42e-58]"
+  },
+  "tau_output": {
+    "lower": {
+      "mantissa": "201572834097257593431013606782476171066227561471601077187",
+      "binary_exponent": -187
+    },
+    "upper": {
+      "mantissa": "201572834097257593431013606782476171066227561471601077187",
+      "binary_exponent": -187
+    },
+    "display": "[1.02759696481403148877318727945430175886289614124403419265 +/- 3.42e-58]"
+  },
+  "normalization_S": "257/256",
+  "source_scale_squared_upper": [
+    "66049",
+    -16
+  ],
+  "cell14_complete_Vstrong_upper": [
+    "902535169853084582073863358686937197132212716691",
+    -304
+  ],
+  "cell15_complete_Vstrong_upper": [
+    "136990619491741635107818824752520776125310479659",
+    -321
+  ],
+  "cell15_complete_Vprime_upper": [
+    "550102956396525003479834968146841241628199894881",
+    -323
+  ],
+  "whole_cell_canonical_source_integrals_before_S_squared_upper": {
+    "d1": [
+      "79050026349244695107461765800823974484217269925",
+      -403
+    ],
+    "d_lambda": [
+      "985370484204578401401691526771800247089571755697",
+      -386
+    ]
+  },
+  "original_material_totals": {
+    "normalized_width_upper": {
+      "lower": {
+        "mantissa": "3619424275966127112134907614127473891748774941303812423245",
+        "binary_exponent": -205
+      },
+      "upper": {
+        "mantissa": "3619424275966127112134907614127473891748774941303812423245",
+        "binary_exponent": -205
+      },
+      "display": "[7.03866642699959692288236277398987412126176230302728951713e-5 +/- 2.48e-62]"
+    },
+    "TV_log_w_upper": {
+      "lower": {
+        "mantissa": "115",
+        "binary_exponent": 0
+      },
+      "upper": {
+        "mantissa": "115",
+        "binary_exponent": 0
+      },
+      "display": "115.000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "source_units": "Original moving-tau weak Fourier pair coefficient of physical kappa source d1=Vprime14^2/(r*w), d_lambda=abs(w_r/w)*Vprime14^2/w. Vprime14=(257/256)*Vstrong14; S^2 is already paid once.",
+  "absolute_input_units": "Sum(1+m)*exp(m*tau15_out)*(abs(B15*p_m)+abs(kappa_m)) at the actual cell15 outer port; frame jump to B14 is paid.",
+  "normalized_input_units": "Same cell15 strong mass divided by its full original Vprime15 envelope; the full-cell upper Vprime15 is explicitly multiplied, never treated as a pointwise lower denominator.",
+  "absolute_output_units": "Sum(1+m)*exp(m*tau14_out)*(abs(B14*p_m)+abs(kappa_m)) at the actual cell14 outer port.",
+  "cut_output_units": "The corresponding absolute output divided by the true w14_out. This is not cell12 cut unless the remaining original cells are separately propagated.",
+  "positive_source_proof": "The original nonnegative comparison generator makes each saved whole-cell A bound every suffix. All cell14 I_mat/nu_lo source is multiplied by A[:,1], with no free whole-cell strip decay.",
+  "complete_cell15_input_and_complete_cell14_source_required": true,
+  "factor_two_retained": true,
+  "uncovered_windows_keep_original_kernels": [
+    [
+      2050,
+      4096
+    ],
+    [
+      4098,
+      8190
+    ]
+  ],
+  "infinite_far_mean_inverse_source_bounds_changed": false,
+  "new_fixedpoint_or_truecut_consistency_claimed": false,
+  "new_ODE_radial_quadrature_source_field_evaluation_Node_calls": 0,
+  "rows": [
+    {
+      "window": [
+        94,
+        94
+      ],
+      "original_matrix_window": [
+        94,
+        96
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "1418169861945400283955597164880374539311912520368",
+            -113
+          ],
+          [
+            "1088305488102780430083049562806555345677230694919",
+            -115
+          ]
+        ],
+        [
+          [
+            "1255152259100153123562414985315605487004971379666",
+            -108
+          ],
+          [
+            "963205557132260102235310067632136586955029595629",
+            -110
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "389240214032284002142811420803678885148808557319",
+          -162
+        ],
+        [
+          "539621542916139758258215479365794687575130194761",
+          -170
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "372527781658412274770137639448004695623219768839",
+          -154
+        ],
+        [
+          "597654841515539554964866869270293781216482552583",
+          -150
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "295582872079977660575391717347944929138493012455",
+        -184
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "886837055466200012006111857102667809682077207945",
+        -128
+      ],
+      "input_absolute_mass_to_cut": [
+        "113246281137533249304442322073218309746794551911",
+        -83
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "1335206676729818003653304079540803757409736193727",
+        -293
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "170501660657569802626930191861828120169040836561",
+        -248
+      ],
+      "source_absolute_gain_upper": [
+        "760862049188399761232633194818083938672757885131",
+        -116
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "1316917635947673025013660983713872705338380993145",
+          -364
+        ],
+        "d_lambda": [
+          "1025973542104096051834191644597952944008040385019",
+          -343
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "672664832468493342248988477411596018418106578873",
+          -321
+        ],
+        "d_lambda": [
+          "131013569485673712648131478079506036500714593985",
+          -298
+        ]
+      },
+      "source_common_to_cut": [
+        "1048109197388563976100119734819456468042569033553",
+        -301
+      ]
+    },
+    {
+      "window": [
+        96,
+        96
+      ],
+      "original_matrix_window": [
+        94,
+        96
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "1418169861945400283955597164880374539311912520368",
+            -113
+          ],
+          [
+            "1088305488102780430083049562806555345677230694919",
+            -115
+          ]
+        ],
+        [
+          [
+            "1255152259100153123562414985315605487004971379666",
+            -108
+          ],
+          [
+            "963205557132260102235310067632136586955029595629",
+            -110
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "95282760726652854691209045717567227093718761427",
+          -160
+        ],
+        [
+          "248018307273909569008834956316381110465376265887",
+          -169
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "190504207761021383594765716225048469797957213829",
+          -153
+        ],
+        [
+          "1300337185810004079693416150737008587318830130031",
+          -151
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "802145774196963254681494748476400288037777487531",
+        -186
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "320403131163974739075419983506366698007382394703",
+        -127
+      ],
+      "input_absolute_mass_to_cut": [
+        "654631429221316880303352802776445960206213476847",
+        -86
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "964786929771189718133472422246405629798412559073",
+        -293
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "985601864182364348747781850456084636146406148531",
+        -251
+      ],
+      "source_absolute_gain_upper": [
+        "776816335821929566107873520558082883473872833765",
+        -116
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "672265842163747941045448640165741729398247425091",
+          -363
+        ],
+        "d_lambda": [
+          "4091745592208179087755846804179103133143130123",
+          -335
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "686769738288076792051094135315834027558937699857",
+          -321
+        ],
+        "d_lambda": [
+          "535043013904415783364025181945275655359170185877",
+          -300
+        ]
+      },
+      "source_common_to_cut": [
+        "1070086682763492257108902158223184630414793045607",
+        -301
+      ]
+    },
+    {
+      "window": [
+        98,
+        104
+      ],
+      "original_matrix_window": [
+        98,
+        104
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "1445117580393802139958860009772461506973512853557",
+            -112
+          ],
+          [
+            "763644744175359979061799864369814293770834929333",
+            -113
+          ]
+        ],
+        [
+          [
+            "974822602756433370500733761186204581272495165632",
+            -107
+          ],
+          [
+            "1030252717423086451370422489591200945610333238046",
+            -109
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "373352858357496900014533403628018522489673514163",
+          -162
+        ],
+        [
+          "913529246586873759917438360927551187992571396217",
+          -171
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "830323994327814240914024744939100816276461111603",
+          -155
+        ],
+        [
+          "55970785345508903023603904042588566873322810873",
+          -146
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "136052758769109822399482553224540914226244112543",
+        -184
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "483359826656977474989335925796026400079671384685",
+        -127
+      ],
+      "input_absolute_mass_to_cut": [
+        "987576285547245736600152952408616725322237361779",
+        -86
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "1455476547438790090653344843111417941146877726389",
+        -293
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "371719483899309231803423955490139104617384610427",
+        -249
+      ],
+      "source_absolute_gain_upper": [
+        "1140817324793816366248337599088676262133629003105",
+        -115
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "987276508283051452325212052432133210743182401633",
+          -362
+        ],
+        "d_lambda": [
+          "769159398120152449896414779352339757160237257233",
+          -341
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "1008576647341194490941948144394249141735869527571",
+          -320
+        ],
+        "d_lambda": [
+          "196438434551656949172245395249236761614099746461",
+          -297
+        ]
+      },
+      "source_common_to_cut": [
+        "785754219133450144899550458192374175367008105198",
+        -299
+      ]
+    },
+    {
+      "window": [
+        106,
+        112
+      ],
+      "original_matrix_window": [
+        106,
+        112
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "1440022174292333141616503545679430361374332797097",
+            -111
+          ],
+          [
+            "1023436661220373679448019592034135344535182139075",
+            -112
+          ]
+        ],
+        [
+          [
+            "747492623391615744563143493864254523149650219476",
+            -106
+          ],
+          [
+            "1062499409284056646265159377643917492337070921290",
+            -108
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "1380701136567347026468840511530030762414641675017",
+          -164
+        ],
+        [
+          "1334832353397233773398631270398390133180900931221",
+          -172
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "899370505411038574936685082613478129846013345071",
+          -155
+        ],
+        [
+          "301138066241306888454863530233021581971673686369",
+          -148
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "115298463378659793836771100407697289605332894603",
+        -186
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "777973013915194778331605718999342384012629022745",
+        -129
+      ],
+      "input_absolute_mass_to_cut": [
+        "397378752311786158898912844100592501974276051237",
+        -86
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "1171302840913798171506969870512923023497547565603",
+        -294
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "299143320639855447405135912746119941342070417747",
+        -250
+      ],
+      "source_absolute_gain_upper": [
+        "1244330590650878998608567763175766266507775688719",
+        -114
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "538429042927454384035432055684525048393662261827",
+          -360
+        ],
+        "d_lambda": [
+          "104868736142802444769948507393626636966402557511",
+          -337
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "1100090915545635295190103726878229522973640264357",
+          -319
+        ],
+        "d_lambda": [
+          "428524967108778341959729692063165156846938342143",
+          -297
+        ]
+      },
+      "source_common_to_cut": [
+        "857050458781782617774180067273630499006874012873",
+        -298
+      ]
+    },
+    {
+      "window": [
+        114,
+        128
+      ],
+      "original_matrix_window": [
+        114,
+        128
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "1350129751597919722325298440740500867884741718829",
+            -109
+          ],
+          [
+            "818397708544094101974287448944847254596003343399",
+            -109
+          ]
+        ],
+        [
+          [
+            "857661738664034859584614273496373400946772906091",
+            -105
+          ],
+          [
+            "1039764364569938277789369702290427723810611497671",
+            -106
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "1283809828738059515839448194931432112420631732911",
+          -164
+        ],
+        [
+          "997758750325140830299490028188716426978185688343",
+          -172
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "16245024546499595710079705169822560725623089743",
+          -149
+        ],
+        [
+          "256868922832643598452007437119725226816716633753",
+          -147
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "781681211186049835955372574205707151757430827249",
+        -191
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "1275397093587874736811698140451205366905274579743",
+        -130
+      ],
+      "input_absolute_mass_to_cut": [
+        "1302913331662876813051898447877314628593400354355",
+        -88
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "960108006506973354664809920353472937475038938633",
+        -294
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "980821994815071443582544588515655366645968453089",
+        -252
+      ],
+      "source_absolute_gain_upper": [
+        "13851074505365977964384402489613256252598915825",
+        -105
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "383580162788221758056523046945009778355254016403",
+          -357
+        ],
+        "d_lambda": [
+          "597673062542743356805846240304905512572911760013",
+          -337
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "195927884096184209987395273489992331643508399867",
+          -314
+        ],
+        "d_lambda": [
+          "305283823006088425212594474893141565912450095291",
+          -294
+        ]
+      },
+      "source_common_to_cut": [
+        "1221136039429917422256208234790131761972598703874",
+        -296
+      ]
+    },
+    {
+      "window": [
+        130,
+        184
+      ],
+      "original_matrix_window": [
+        130,
+        192
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "1397641442524019299812871961750523687139050583535",
+            -102
+          ],
+          [
+            "1072132409507797533422701070934468217348042892307",
+            -100
+          ]
+        ],
+        [
+          [
+            "738326236597802787712068518775602666863576579493",
+            -100
+          ],
+          [
+            "1132741864919081598383905838327652562028512614406",
+            -99
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "1125802465201067575428439186324486621661169365783",
+          -164
+        ],
+        [
+          "1180032087514269534847203104139389642898833852555",
+          -173
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "97128734758585051130441169704940055862086401215",
+          -151
+        ],
+        [
+          "137109223456135034534015363366463301266535609669",
+          -144
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "35086659662934450163399070912694695876435661395",
+        -191
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "233607737508293597477969297102046420220756752749",
+        -125
+      ],
+      "input_absolute_mass_to_cut": [
+        "477295482496230882788775766097882542208396974239",
+        -84
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "1406863228974348329579934677397953484692654806029",
+        -292
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "1437215802100042929820698157860339898959793864781",
+        -250
+      ],
+      "source_absolute_gain_upper": [
+        "875237265548229770818949819276383337147117708583",
+        -102
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "757440453146899743864496780317469921642830505671",
+          -349
+        ],
+        "d_lambda": [
+          "1180201165866890274747943719069437568164089633763",
+          -329
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "773781961169155200895682357916564223154151600661",
+          -307
+        ],
+        "d_lambda": [
+          "602831792852166370330571577581651207598652599863",
+          -286
+        ]
+      },
+      "source_common_to_cut": [
+        "1205664323640315606142711392165062818414833689938",
+        -287
+      ]
+    },
+    {
+      "window": [
+        186,
+        192
+      ],
+      "original_matrix_window": [
+        130,
+        192
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "1397641442524019299812871961750523687139050583535",
+            -102
+          ],
+          [
+            "1072132409507797533422701070934468217348042892307",
+            -100
+          ]
+        ],
+        [
+          [
+            "738326236597802787712068518775602666863576579493",
+            -100
+          ],
+          [
+            "1132741864919081598383905838327652562028512614406",
+            -99
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "786851185355584864546758571087006778580387191139",
+          -164
+        ],
+        [
+          "563160647622539817429159522013387324160295136299",
+          -174
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "101906234075971339186668976831757623263258401545",
+          -151
+        ],
+        [
+          "650221509502362729106597932238447470894384632167",
+          -146
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "352456213033322849217306478691192439045641056217",
+        -210
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "1414852017525583140993781161321067006334202582993",
+        -144
+      ],
+      "input_absolute_mass_to_cut": [
+        "722688472959574133430748709318391313539212178649",
+        -101
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "266272119655583680265354502951178569838536982663",
+        -306
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "1088067383228639327150816128614560581785077020719",
+        -266
+      ],
+      "source_absolute_gain_upper": [
+        "516480570174643710242259536044700407085477771305",
+        -103
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "893936518732688965370747238864912498479100406161",
+          -351
+        ],
+        "d_lambda": [
+          "696440833887370123480148466063064253912506168903",
+          -330
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "913222880758330855306530769679141538440301396133",
+          -309
+        ],
+        "d_lambda": [
+          "1422932593696938126625761102105644284272051063107",
+          -289
+        ]
+      },
+      "source_common_to_cut": [
+        "1422933464614144660373296146328256359259022384501",
+        -289
+      ]
+    },
+    {
+      "window": [
+        194,
+        256
+      ],
+      "original_matrix_window": [
+        194,
+        256
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "772618162129333747350335328314430960028728885834",
+            -94
+          ],
+          [
+            "936562716623238437694974340636860252065864019374",
+            -91
+          ]
+        ],
+        [
+          [
+            "1042409656045854516332285484455612203878823616021",
+            -95
+          ],
+          [
+            "1263602212779945862171176094351979539200943787771",
+            -92
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "754403713794529818586067495990635365030680502845",
+          -164
+        ],
+        [
+          "951713299928163188120797539925926550974386272087",
+          -175
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "567159044655707221935251854104426038254817411371",
+          -153
+        ],
+        [
+          "1027522728306006117594598510141072620364617261369",
+          -145
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "1194761800897205777681899774006480505928780904493",
+        -214
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "822655558591851937661240336320297750653500804131",
+        -138
+      ],
+      "input_absolute_mass_to_cut": [
+        "840404059288413680982216391410342393754159517501",
+        -96
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "1238576114642970691292986981668256026819263746739",
+        -303
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "632648976605318915170433717308374531244676950561",
+        -260
+      ],
+      "source_absolute_gain_upper": [
+        "512664920325036007261945454456426398542651547071",
+        -94
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "110916537963075513391145071372523635511174229911",
+          -339
+        ],
+        "d_lambda": [
+          "691295675450559155923632279477107565162044638745",
+          -321
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "453238091071518123591266606636426774763442749023",
+          -299
+        ],
+        "d_lambda": [
+          "706210133450777540340609990858112521294325699423",
+          -279
+        ]
+      },
+      "source_common_to_cut": [
+        "1412421131384608424488676172333989775763499504168",
+        -280
+      ]
+    },
+    {
+      "window": [
+        258,
+        512
+      ],
+      "original_matrix_window": [
+        258,
+        512
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "828380804850655875085309373013896080731142808940",
+            -53
+          ],
+          [
+            "1004110143479531643077196845123960905240717318933",
+            -46
+          ]
+        ],
+        [
+          [
+            "1122785099916758432117183048881419631922879890819",
+            -58
+          ],
+          [
+            "1360968169678133936834337160679064739162911902963",
+            -51
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "1134529616094099107020907707148707448185674554665",
+          -165
+        ],
+        [
+          "76062260493784151891022602712747238537720581847",
+          -173
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "1323591125982295080721308862889268456649148981123",
+          -153
+        ],
+        [
+          "513767243774932024270620350278307774319527471479",
+          -140
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "317841545448695390962513966324174095864311167361",
+        -230
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "553451115486768819894043031664115554602431609239",
+        -114
+      ],
+      "input_absolute_mass_to_cut": [
+        "1130783252395294753463099228317327781539409496363",
+        -73
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "52079157332701217434684196177610590371718254253",
+        -275
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "212810986418857498891298232620162766272823267327",
+        -235
+      ],
+      "source_absolute_gain_upper": [
+        "1415370759441800871597865295889844586704431804769",
+        -51
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "1224878226284108883409257019789088495800649879015",
+          -298
+        ],
+        "d_lambda": [
+          "954268223131931423387048129449516730727435970173",
+          -277
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "1251304537788791327315224338593400292736129387479",
+          -256
+        ],
+        "d_lambda": [
+          "974856220193489932926864571684071231982102838491",
+          -235
+        ]
+      },
+      "source_common_to_cut": [
+        "974856816861989778808959582071653340193759759940",
+        -235
+      ]
+    },
+    {
+      "window": [
+        514,
+        1024
+      ],
+      "original_matrix_window": [
+        514,
+        1024
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "1009872736339154507186197549279761125980566822868",
+            110
+          ],
+          [
+            "1223319122714111158781572526719915323497547067030",
+            121
+          ]
+        ],
+        [
+          [
+            "1370077657319817031601924087358745573171343071950",
+            101
+          ],
+          [
+            "829828421687286292367242095287443596645724737987",
+            113
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "569472064109489435041622934716666384497867772575",
+          -165
+        ],
+        [
+          "618017346322918711341202159022208406783808568615",
+          -180
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "851068599662028177211459586125050608464088648943",
+          -151
+        ],
+        [
+          "1027537427360828531277901248160501280707664363355",
+          -137
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "815075735109033899622501396373571256685282971629",
+        -303
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "918887900703031040736817724271547678747607195269",
+        -24
+      ],
+      "input_absolute_mass_to_cut": [
+        "938712579908512844161885869273920918001195301009",
+        18
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "1383461880198457795768095753196383903343212200821",
+        -189
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "1413309577558454881887706664651949957901704886149",
+        -147
+      ],
+      "source_absolute_gain_upper": [
+        "885777561601419032404281292451900667708166536657",
+        114
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "766562147266984277631993451036799500191845625221",
+          -133
+        ],
+        "d_lambda": [
+          "1194414077245571354423141832250718886189888562925",
+          -113
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "783100452591285882926553038412942718443348255969",
+          -91
+        ],
+        "d_lambda": [
+          "1220183135584231126740425494368005149224383781145",
+          -71
+        ]
+      },
+      "source_common_to_cut": [
+        "1220183882407019929159976320014442234321428195044",
+        -71
+      ]
+    },
+    {
+      "window": [
+        1026,
+        2048
+      ],
+      "original_matrix_window": [
+        1026,
+        2048
+      ],
+      "whole_cell_positive_matrix_upper": [
+        [
+          [
+            "969656500609253096096767122435330284882685804342",
+            803
+          ],
+          [
+            "1163669000602485784650823827838127555607613989437",
+            818
+          ]
+        ],
+        [
+          [
+            "1317196413017415219791738703096674459938221267706",
+            790
+          ],
+          [
+            "790372999392094144645056067833173405009925803797",
+            806
+          ]
+        ]
+      ],
+      "input_absolute_to_canonical_covector_bounds": [
+        [
+          "142645536526451057315494243881270234713403525879",
+          -164
+        ],
+        [
+          "249487437210948758934513062730523323015117953317",
+          -182
+        ]
+      ],
+      "canonical_to_output_absolute_covector_bounds": [
+        [
+          "1229614673003789450913069895485883368743116965705",
+          -150
+        ],
+        [
+          "513769081156784825981033192530736356862408359227",
+          -132
+        ]
+      ],
+      "full_homogeneous_strip_multiplier_upper": [
+        "1340023992329077104270938599401977664203115014501",
+        -447
+      ],
+      "input_absolute_mass_to_absolute_endpoint": [
+        "880877071908789898730054202577029406838838595197",
+        525
+      ],
+      "input_absolute_mass_to_cut": [
+        "899881681020189729144616831621350757525950275805",
+        567
+      ],
+      "input_cell15_Vprime_mass_to_absolute_endpoint": [
+        "331558356899210261935215128950402810168346717797",
+        362
+      ],
+      "input_cell15_Vprime_mass_to_cut": [
+        "677423220736632527057399689624445222152726939777",
+        403
+      ],
+      "source_absolute_gain_upper": [
+        "439923704316798337553306437174434125749874960333",
+        809
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "95178765537096714146748901327317268334639700201",
+          564
+        ],
+        "d_lambda": [
+          "296604411834516535642449568336925224045135051817",
+          583
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "388928854026604304774587171309568312264213774209",
+          604
+        ],
+        "d_lambda": [
+          "1212014185549315243411862509721188537263453339049",
+          623
+        ]
+      },
+      "source_common_to_cut": [
+        "1212014927372233232387968723457095728670298935771",
+        623
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.23134256599951186,
+  "peak_rss_kib": 30748
+}

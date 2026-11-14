@@ -1,0 +1,199 @@
+{
+  "schema": "old-R48-to-carrier-same-measure-continuous-consumer-plan-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Prepared source and complete application proof. No Python AST, helper self-check or new numerical result has been executed.",
+  "source": {
+    "path": "computations/tail_old_r48_to_carrier_same_measure.py",
+    "sha256": "ececbca427c0a67b99e58ef0d4b09ded7a482813b9859fc2bbd5ccea53234cce",
+    "bytes": 30342,
+    "git_blob_sha": "0edfc47f33bca9efdf3ce53e31a8428ec0e575ce"
+  },
+  "helper_sources": [
+    {
+      "path": "computations/tail_r48_same_measure_core.py",
+      "sha256": "734af51836d7a57cd9d80a7804eccdc286ae4a4c38263cb519e93d473a460eaf",
+      "git_blob_sha": "5e97099f211357a7efbaa261ebfd3858d0279803"
+    },
+    {
+      "path": "computations/tail_r103_local_carrier_centre_drift.py",
+      "sha256": "71b8e666c07e5e2a203dbde028ff8e0bb64a883551b0cd47d609773e88c848fe",
+      "git_blob_sha": "9715123f1bffc5d0ad0d50e2eeaa7d35b1c632c7"
+    },
+    {
+      "path": "computations/tail_outer_carrier_mean_ledger_v3.py",
+      "sha256": "857d698dde2a6ca548c2ad55f6297d03fb0bc61870427bcf78d000225de16fd5",
+      "git_blob_sha": "313745424889e3fb45f76f5b2e175e31aac1c70a",
+      "role": "Import only paired_mean_radial_bound and its exact helpers. Does not invoke either failed v3 main. Actual complete mean inputs are the separately pinned successful v4 package."
+    }
+  ],
+  "proof": {
+    "path": "notes/2026-11-13-tail-old-r48-to-carrier-same-measure-bridge.md",
+    "git_blob_sha": "ebfca2a2b4fccb577e8f6a7f69fbec4e5764caa1",
+    "sha256": "1310f0a98b2520d8dbd3671191b8d6598e9dfc0919cc1c3de8271aadf0107278"
+  },
+  "frozen_inputs": {
+    "original_candidate": {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf"
+    },
+    "original_summary": {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+      "sha256": "806fdb96b9aa6eafd921c07518a5b52218180d2182f7b8d18abb8e3d695638e4"
+    },
+    "original_resource": {
+      "path": "${ORIGINAL_RESOURCE}",
+      "sha256": "912ad6200027fdb445cd3e8636c1f6cd404a3480d2c013b6c4722e6888016820",
+      "resolution": "Use the complete actual resource identified by this SHA in the already archived original seg7 manifest; do not infer its basename."
+    },
+    "carrier_summary": {
+      "path": "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-summary.json",
+      "sha256": "0ac4b1e14ec34a86035add63e6250660924537c54acc834e497c6ebdd396ae12"
+    },
+    "carrier_resource": {
+      "path": "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-resource.json",
+      "sha256": "dee1cef1a748f4459e00a5428dd4b6b1602c3eb442498091b29bd88e0ea1c865"
+    },
+    "carrier_primary": {
+      "path": "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-part00-fields.jsonl.gz",
+      "sha256": "d07456782cfd2cd292cbb77fbbf437617a82ab6039f774fc5637c74a2e486dbe"
+    },
+    "mean_summary": {
+      "path": "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-summary.json",
+      "sha256": "a178bc76d676eaa3aa6e0e1f57592dceea27bc996017503097a1fd01f8bde1f2"
+    },
+    "mean_resource": {
+      "path": "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-resource.json",
+      "sha256": "263ea6873d694bc3ffaa8540c08bea21bfc6f38defd4a7c52e5dd63a4e0e82ff"
+    },
+    "mean_primary": {
+      "path": "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-part00-mean.jsonl.gz",
+      "sha256": "6b6748eab26c02b1960b367acc22f3a80760d6d40c20aa998ddaa3c4193d0e71"
+    },
+    "original_primary": {
+      "path": "${ORIGINAL_PRIMARY}",
+      "sha256": null,
+      "resolution": "From the frozen original_summary.parts entry with part=0: output and output_sha256. If relocated, local identical-byte SHA verification is mandatory."
+    }
+  },
+  "original_pending25_manifests": [
+    {
+      "path": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-complete-mean-frame-stable-manifest.json",
+      "sha256": "310f87e16ced42e6e6983993911e9f8b82c7835eeb406c209067e7d426b8a62d",
+      "files": 20
+    },
+    {
+      "path": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-own-curvature-stable-manifest.json",
+      "sha256": "b7c629ac05a2be0727c987329763508d81fce5fa111e86b42f6b71d93009cb15",
+      "files": 5
+    }
+  ],
+  "run_from": "repository/topics/visible-flex-larger-amplitude",
+  "resource_wrapper": {
+    "path": "computations/strong_resource_run.py",
+    "sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59",
+    "syntax_read_from_actual_source": true
+  },
+  "child_argv_template": [
+    "python",
+    "computations/tail_old_r48_to_carrier_same_measure.py",
+    "--original-candidate",
+    "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+    "--original-summary",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "--original-resource",
+    "${ORIGINAL_RESOURCE}",
+    "--carrier-summary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-summary.json",
+    "--carrier-resource",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-resource.json",
+    "--carrier-primary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-part00-fields.jsonl.gz",
+    "--mean-summary",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-summary.json",
+    "--mean-resource",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-resource.json",
+    "--mean-primary",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-part00-mean.jsonl.gz",
+    "--original-primary",
+    "${ORIGINAL_PRIMARY}",
+    "--out-prefix",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1",
+    "--rss-limit-mib",
+    "96"
+  ],
+  "wrapped_argv_template": [
+    "python",
+    "computations/strong_resource_run.py",
+    "--out",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-resource.json",
+    "--",
+    "python",
+    "computations/tail_old_r48_to_carrier_same_measure.py",
+    "--original-candidate",
+    "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+    "--original-summary",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "--original-resource",
+    "${ORIGINAL_RESOURCE}",
+    "--carrier-summary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-summary.json",
+    "--carrier-resource",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-resource.json",
+    "--carrier-primary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-part00-fields.jsonl.gz",
+    "--mean-summary",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-summary.json",
+    "--mean-resource",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-resource.json",
+    "--mean-primary",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-part00-mean.jsonl.gz",
+    "--original-primary",
+    "${ORIGINAL_PRIMARY}",
+    "--out-prefix",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1",
+    "--rss-limit-mib",
+    "96"
+  ],
+  "argv_template_resolution": "Resolve ORIGINAL_RESOURCE and ORIGINAL_PRIMARY from actual local manifests/frozen summary before invoking; do not pass the literal placeholders. Other relative note paths are archive destinations. Any original same-byte local path may be supplied explicitly, with all fixed SHA checks unchanged.",
+  "required_preflight": [
+    "First recover and SHA-check the actual pending25 files and both original manifests. No inferred file loss, no encoded or API binary read.",
+    "The original candidate, original37-leaf audit and the complete111-leaf CF are already main a32e4bf. Do not rerun PM, PA, A or CF.",
+    "Perform actual Python AST/compile checks of this new wrapper and its three pinned helpers. The current record asserts only static review.",
+    "Verify exact source SHA and complete real input SHA. Retain the original resources, all real A/D/L and fullmean/J coverage gates.",
+    "Use a fresh owned prefix. Keep every gzip file below5 MB, with no data splitting. No MJS, existing primary, shared manifest or Git/ref modification.",
+    "Run resource-wrapped pure Fraction consumer, inspect actual exitcode/signal and all output gates, then archive complete new primaries through normal CLI Git."
+  ],
+  "expected_outputs": [
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-summary.json",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-leaves.jsonl.gz",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-resource.json"
+  ],
+  "output_glob": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-old-R48-carrier-same-measure-r1-*",
+  "scope": {
+    "fixed_source": "cell0/segment7/part0, x in[0,1/8], all20 nonmean modes",
+    "covers": "37 original continuous leaves and111 common actual physical leaves; no point sampling",
+    "old_coordinate": "u=8x",
+    "new_coordinate": "physical r",
+    "positive_measure": "omega=I00^(r)+I01^(r)=integral w dr",
+    "five_original_integrals": "Bernstein positive-basis envelopes against the same true omega; intersect only equal true total/prefix/suffix moments with original bins",
+    "original_lambda": "The original integral-defined coefficient is enclosed and intersected; no midpoint replacement",
+    "true_endpoint_identity": "Complete9 shared-node records and original candidate input hashes, not interval overlap",
+    "height_difference": "Both endpoints have exact zero nonmean difference, so take min of full current-leaf prefix, suffix and direct bounds for the same difference",
+    "full_mean": "R99 complete two-root line bound, frozen complete G_z radial formula, old c_x/rx conversion, one global mean constant",
+    "output_jets": "h,h_theta,h_thetatheta,h_r,h_rtheta,h_rr; candidate derivatives only",
+    "gauge_drift": "Both complete J spectra through80 including R77 scalar bound; old source rx and new physical rx=1 remain separate",
+    "global_pose": "Report one left-aligned and one right-aligned whole-reference budget separately. Never take pointwise minima of global gauges.",
+    "unchanged_seven_parts": "Right alignment makes the unmodified seven candidate-reference pieces agree exactly. In left alignment one fixed end translation persists.",
+    "exact_outer_solution_or_reach_claimed": false
+  },
+  "arithmetic": {
+    "interval_significant_binary_bits": 128,
+    "positive_cumulative_significant_binary_bits": 128,
+    "display_output_dyadic_bits": 96,
+    "no_exponent_cutoff": true,
+    "rational_integer_string_limit": "Disabled only for exact serialization; no numeric approximation or mathematical gate is altered.",
+    "no_new_Arb_Node_ODE_source_integral": 0
+  },
+  "after_execution": "Combine the actually computed old-reference-to-new-reference position/vector bounds with R103's separate conditional new-reference-to-true-surface bound only after the same global pose/mean convention is fixed. This does not prove the missing exact outer field error."
+}

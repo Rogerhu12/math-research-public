@@ -1,0 +1,26 @@
+{
+  "scope": "r5 formal execution interruption with genuine cross-process cache hits; original targets and full mathematical gates retained.",
+  "formal_session": 48967,
+  "formal_tool_exit": 137,
+  "actual_wait4": {
+    "exitcode": -9,
+    "termination_signal": 9,
+    "wall_seconds": 18.090470310002274,
+    "peak_rss_kib": 188464,
+    "user_seconds": 5.372893,
+    "system_seconds": 0.5979789999999999,
+    "received_supervisor_signals": []
+  },
+  "termination_cause": "unknown",
+  "new_accepted_prefix_steps": 0,
+  "original17_complete_Jacobian_calls_and_full_RHS_genuinely_reused": true,
+  "additional_complete_Jacobian_calls": 5,
+  "total_complete_Jacobian_calls": 22,
+  "complete_first_Jacobian_or_factor": false,
+  "delta_archive": "notes/2026-11-12-strong-q096-prefix-cache-r5-delta-archive.json",
+  "delta_archive_sha256": "5a4f501cfa81a67646e5d965e2dcfe44b35c98a112be11f9ac2aeb6298d29a98",
+  "radial8_check": "Complete13point J/PJ/RHS byte equality passed, formal0.",
+  "radial4_check": "Formal1 strict byte comparison: stateJ max difference9.094947017729282e-13; PJ/RHS equal. Not a mathematical failure; not chosen.",
+  "next_r6": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-prefixcache-radial8-heap96-r6-command-plan.json",
+  "new_batch_has_separate_exact_cache_identity": true
+}

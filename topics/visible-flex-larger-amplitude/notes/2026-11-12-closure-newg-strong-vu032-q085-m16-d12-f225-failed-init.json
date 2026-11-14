@@ -1,0 +1,11 @@
+{
+  "status": "worker failed during initialization; no ready, accepted trial or result was obtained",
+  "session_id": 19376,
+  "parent_exit_code": 1,
+  "worker_exit_code": -9,
+  "node_heap_MiB": 256,
+  "plan": "notes/2026-11-12-closure-newg-strong-vu032-q085-m16-d12-f225-plan.json",
+  "cause": "unidentified; signal 9 alone is not evidence of a particular resource failure",
+  "peak_child_RSS": "not recorded by this first wrapper",
+  "next": "Preserve this attempt; instrument the wrapper and use a fresh prefix for any rerun, retaining H, metric and tolerances."
+}

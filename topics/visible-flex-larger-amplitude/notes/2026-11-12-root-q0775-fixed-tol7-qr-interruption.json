@@ -1,0 +1,13 @@
+{
+  "scope": "Execution diagnostic; no accepted surface.",
+  "termination": "User-authorized owned run proactively interrupted by assistant with Ctrl-C after increasing QR memory; tool exit130.",
+  "observed_factor_peak_rss_kib": [
+    602284,
+    767012,
+    947476
+  ],
+  "final_wait4_record": false,
+  "solver_result": false,
+  "reason": "Recursive local QR closures retained matrices until garbage collection. The helper was repaired without changing arithmetic; rerun uses the original Newton stopping threshold and true tighter radial tolerance.",
+  "prior_command_prefix": "2026-11-12-root-q0775-fixed-tol7-qr"
+}

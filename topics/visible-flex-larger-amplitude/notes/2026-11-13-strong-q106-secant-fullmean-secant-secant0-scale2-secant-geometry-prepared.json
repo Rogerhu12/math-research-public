@@ -1,0 +1,134 @@
+{
+  "schema": "actual-secanted-complete-mean-geometry-preparation-v1",
+  "scope": "Inspect the full-mean geometry of an actual two-accepted-field secant.\n\nThe initial field and physical profile come only from the unchanged\nstrong_secant_actual_bvp_v2.prepare/verified_secant constructor. The original\nall-core M or M+3 restart, prescribed-core correction and inlet correction\nremain in strong_actual_augmented_core. The only replaced callback is the\nexisting explicit unsolved geometry inspection. No residual quadrature,\nNewton solve, tail worker, accepted solution or continuous geometry theorem\nis produced. All original raw nodes must occur in the supplied common grid.\n",
+  "prepared_only": true,
+  "geometry_executed_by_this_record": false,
+  "source_and_input_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_secant_actual_bvp_v2.py": "99817229111f91bbec5b27a241a5eb20ff6cad6bb4eca58d7ebd85fcd3dc2a30",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz": "1efd643c9ef5a98a189f76a99c38026e28dac209d931a31c07432587680ca6aa",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1.json.gz": "88175797998edbbe6d7ed18065fb8786cc58cec5e255b0efb95da9d08c728699",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation.json.gz": "03f1ed050abfd3a4cbafc7a23c7c60a63aa415085c149db9b5e401320e7e4b35",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-x-000.npy.gz": "289f2b8938edfa120099256ecd8b397cc52c1572e2449a6e6cf16d0d4129f187",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-y-000.npy.gz": "3dd7379c640943280cb780cebc3748dbde3fe420448b4c9aebfe18863dbaa90a",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-p-000.npy.gz": "407e016acd2a4893881ce3ac7e4e3bfd46e590c60abaec47a38997e90218dc3b",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-cubic-000.npy.gz": "8cee2b0386ddc0d88ca7b432faec2ea47507dccaff66c4f27f6dce45a7b235d3",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-cubic-001.npy.gz": "7cfd0c2a7edbe147602c07d97db5f888ce944b551a1de24073419dc0982a211d",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz": "d944d8a47c8e424abd8352f10c0cb5c8a3cf74893b6db6ef85f05bbdb8c0843d",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-y-000.npy.gz": "da098580cf01bf3dab32029fde4e02a50936322cafca688c86e0983eeb011f62",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-p-000.npy.gz": "b902d8bed7470019d6d94596a4cc830d7cd8b3889cc0688b48db6d852bcaf456",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-000.npy.gz": "02411a84e50d72f015886091549462335e33c4016006458ae643165d6aaffb6e",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-001.npy.gz": "836b2627512c134d4cd2722bca904fab2e5b72955ebedef6c0fb989f9ebda1fc",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_secant_geometry_complete_mean.py": "32d046c158e2c8d64a45b96d0c45c7c56eda6699d779826a88bfa9ebc34c692e",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_actual_augmented_core.py": "74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_array_io_resident.py": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q106-r1/geometry-grid.json": "8c64fe9e79c079aa99f7eeea274639457cfe159fd3c0543254f1b45b404c81ee"
+  },
+  "original_secant": {
+    "scope": "Use two accepted full fields as a secant predictor for the actual BVP.\n\nOnly the initial guess changes. Both input surfaces must have completed the\noriginal actual-tail and physical audits. Their gauge, spectrum, reference\ncharts and tail problem agree; their physical prefix profiles may differ.\nEvery new candidate still runs the original full Newton, true-H nonlinear\ntail, full Jacobian, final audit, RMS and physical boundary acceptance gates.\nThis predictor is not a control derivative or an accepted solution.\nThe optional initial-height hold subtracts a C2 quintic taper from the warm\nheight field only. This enables exact reuse of the current audited tail at\nthe first outer anchor; every changed H still requires the original solve.\n",
+    "current_reference": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+    "current_raw": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz",
+    "current_reference_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "current_raw_sha256": "1efd643c9ef5a98a189f76a99c38026e28dac209d931a31c07432587680ca6aa",
+    "previous_reference": "notes/2026-11-13-strong-q098-m28-newjac-actual-r1.json.gz",
+    "previous_raw": "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation.json.gz",
+    "source_sha256": {
+      "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_secant_actual_bvp_v2.py": "99817229111f91bbec5b27a241a5eb20ff6cad6bb4eca58d7ebd85fcd3dc2a30",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz": "1efd643c9ef5a98a189f76a99c38026e28dac209d931a31c07432587680ca6aa",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1.json.gz": "88175797998edbbe6d7ed18065fb8786cc58cec5e255b0efb95da9d08c728699",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation.json.gz": "03f1ed050abfd3a4cbafc7a23c7c60a63aa415085c149db9b5e401320e7e4b35",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-x-000.npy.gz": "289f2b8938edfa120099256ecd8b397cc52c1572e2449a6e6cf16d0d4129f187",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-y-000.npy.gz": "3dd7379c640943280cb780cebc3748dbde3fe420448b4c9aebfe18863dbaa90a",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-p-000.npy.gz": "407e016acd2a4893881ce3ac7e4e3bfd46e590c60abaec47a38997e90218dc3b",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-cubic-000.npy.gz": "8cee2b0386ddc0d88ca7b432faec2ea47507dccaff66c4f27f6dce45a7b235d3",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-cubic-001.npy.gz": "7cfd0c2a7edbe147602c07d97db5f888ce944b551a1de24073419dc0982a211d",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz": "d944d8a47c8e424abd8352f10c0cb5c8a3cf74893b6db6ef85f05bbdb8c0843d",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-y-000.npy.gz": "da098580cf01bf3dab32029fde4e02a50936322cafca688c86e0983eeb011f62",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-p-000.npy.gz": "b902d8bed7470019d6d94596a4cc830d7cd8b3889cc0688b48db6d852bcaf456",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-000.npy.gz": "02411a84e50d72f015886091549462335e33c4016006458ae643165d6aaffb6e",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-001.npy.gz": "836b2627512c134d4cd2722bca904fab2e5b72955ebedef6c0fb989f9ebda1fc"
+    },
+    "target_core": [
+      0.12199999999999998,
+      -0.008607763203260147,
+      -0.0006096734015582711
+    ],
+    "external_shifts": {
+      "vu": 0.0012145529907687802,
+      "start_acceleration": 0.128,
+      "descending_turn_curvature": 0.05735586892746802
+    },
+    "scale": 2.0,
+    "original_current_mesh_preserved": true,
+    "previous_mesh_identical": false,
+    "previous_field_evaluation": "complete accepted numerical cubic at the current material nodes",
+    "geometry_increment": {
+      "delta": 0.005100267402236236,
+      "boost_length": 0.003045558573612439,
+      "boost_speed": -0.007689651186725044
+    },
+    "full_direction_shape": [
+      189408
+    ],
+    "full_direction_float64le_sha256": "11dc0bfc4066a8996891157d74298c40c7749eaf0cc516011ad340aac848bf80",
+    "pure_secant_direction_float64le_sha256": "11dc0bfc4066a8996891157d74298c40c7749eaf0cc516011ad340aac848bf80",
+    "initial_complete_height_hold": null,
+    "warm_only": true,
+    "control_derivative_claim": false,
+    "nonlinear_solution": false,
+    "original_complete_Newton_tail_RMS_boundary_and_audit_required": true
+  },
+  "source_transform": {
+    "original_function_sha256": "b67ecdc3a0493d3b9f3ce50156f101c0813a20785b3f0ff2bc9de0aa9533b034",
+    "transformed_function_sha256": "fc5b137ae99301900eb7fd8acfa45445511c18025dae2247006c7a5e266cda58",
+    "source_transforms": [
+      {
+        "before": "    if external_shifts and not options.response_data:\n",
+        "after": "    if external_shifts and not options.response_data and not verified_secant(\n            options.actual_reference, options.actual_reference_raw, target, external_shifts):\n",
+        "count": 1
+      },
+      {
+        "before": "    warm = None\n",
+        "after": "    warm = verified_secant(options.actual_reference, options.actual_reference_raw,\n        target, external_shifts, payload=True)\n",
+        "count": 1
+      },
+      {
+        "before": "complete_actual_tangent_warm=warm['provenance'] if warm else None",
+        "after": "complete_accepted_secant_warm=warm['provenance'] if warm else None",
+        "count": 1
+      },
+      {
+        "before": "Complete actual-J warm field on the original residual quadrature and a complete-mean C2 cubic physical image; unsolved comparison only.",
+        "after": "Complete two-accepted-field secant warm with the original full production mean and actual physical C2 cubic; geometry samples only, with no control derivative or new accepted solution.",
+        "count": 1
+      }
+    ],
+    "original_source_files_unchanged": true
+  },
+  "common_grid": {
+    "grid_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q106-r1/geometry-grid.json",
+    "grid_sha256": "8c64fe9e79c079aa99f7eeea274639457cfe159fd3c0543254f1b45b404c81ee",
+    "current_raw_sha256": "1efd643c9ef5a98a189f76a99c38026e28dac209d931a31c07432587680ca6aa",
+    "original_raw_nodes": 2228,
+    "geometry_radial_nodes": 3404,
+    "angular": 768,
+    "complete_mean_angular": 1360,
+    "original_mean_angular": 1360,
+    "all_raw_nodes_present": true,
+    "saved_witnesses_checked": 2,
+    "raw_array_sha256": {
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz": "d944d8a47c8e424abd8352f10c0cb5c8a3cf74893b6db6ef85f05bbdb8c0843d"
+    },
+    "original_parameter_count": 31,
+    "M_or_Mplus3_layout_preserved": true
+  },
+  "baseline_parameter_offsets_rebased_by_original_restart": true,
+  "original_prescribed_core_and_inlet_corrections_retained": true,
+  "original_production_mean_and_geometry_code_retained": true,
+  "new_nonlinear_solution": false,
+  "new_true_tail_evaluation": false,
+  "original_worker_forbidden_during_warm_inspection": true
+}

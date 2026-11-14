@@ -1,0 +1,13 @@
+{
+  "schema": "owned-publisher-retry-latency-change-v1",
+  "utc": "2026-11-13T18:29:10.339484+00:00",
+  "previous_session": 21294,
+  "tool_observed_controlled_exitcode": 1,
+  "interrupt": "PTY Ctrl-C, controlled stop to reduce repeated maintenance between pull and normal push; no push success inferred",
+  "old_source_sha256": "3ce38d1136976fee7c0451e20abcaeeee1781c29dfaed7a32eeb70392d085979",
+  "new_source_sha256": "355812d6c2a4562f534ed6acea08ec287a73249ed7f986ed94b22d11b246656d",
+  "old_source_copy": "/workspace/scratch/d1aa462cfc02/sync_queue-before-retry-latency-20261113T1830.py",
+  "change": "Only canonical maintenance free-space trigger changes from8GiB to2GiB; pack threshold1.5GiB, helper400MiB reserve, pull/read-diff/normal push loop all unchanged. Local blob:none/skipping transport configuration retained.",
+  "last_actual_pull_and_read": "ACTUAL_PULL 2026-11-13T18:26:06+00:00 37c7c2f94c47a2aa87bd3674b1b7d47cdcfdd516",
+  "measured_latency_improvement_claimed": false
+}

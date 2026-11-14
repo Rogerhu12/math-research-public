@@ -1,0 +1,64 @@
+{
+  "schema": "same-R100-head-mass-export-v1",
+  "all_gates": true,
+  "actual_R100_head_band_masses": [
+    [
+      "602342770269371220281902024498597049999987894125",
+      -338
+    ],
+    [
+      "390724449168911418367943865078083406051392012793",
+      -342
+    ],
+    [
+      "640212444019637913760045670455034731678566667517",
+      -387
+    ]
+  ],
+  "head_strip": {
+    "lower": {
+      "mantissa": "906638403841967895052180654333613742631438328226125039857",
+      "binary_exponent": -192
+    },
+    "upper": {
+      "mantissa": "906638403841967895052180654333613742631438328226125039857",
+      "binary_exponent": -192
+    },
+    "display": "[0.144435830748267669696002419692456487436853282374141578457 +/- 8.66e-59]"
+  },
+  "domain": {
+    "S_product_radius": [
+      "1",
+      0
+    ],
+    "T_l1_radius": [
+      "1",
+      -5
+    ]
+  },
+  "head_bands": [
+    [
+      94,
+      184
+    ],
+    [
+      186,
+      8190
+    ],
+    [
+      8192,
+      null
+    ]
+  ],
+  "primary": {
+    "path": "exact-work/inner-nonlinear641-refined-r2.json.gz",
+    "sha256": "9ea84459d20bc11dbdf54c669de61aacabf974ebafff6e40bc07ef83981b9f4e"
+  },
+  "resource": {
+    "path": "exact-work/inner-nonlinear641-refined-r2-resource.json",
+    "sha256": "a2b3265660e34214c91229d6a4bf8631f8d0b7c4d8762b3f126ba7e946ee0be4"
+  },
+  "complete_mean_inverse_far": true,
+  "same_original617_units": "617987048c3a599acb42bcafe8dba99155c5cde82d252706769d5e24340ce1b9",
+  "scope": "Complete same-R100 actual inner head; no outer cut claim"
+}

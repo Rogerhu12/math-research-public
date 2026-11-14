@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-12T17:46:51.037597+00:00",
+  "status": "Prepared; no success claimed",
+  "source_sha256": "bb56c6ee6c76fcd6cbb4e229057754c72117c5673e1452bc3148f117d919f344",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/root_anisotropic_auxiliary_centre_family_v3.py",
+    "--reference",
+    "notes/2026-11-12-closure-newg-strong-m20-real-reference.json",
+    "--aux-box",
+    "notes/2026-11-12-closure-newg-strong-m20-real-box.json",
+    "--aux-far",
+    "notes/2026-11-12-closure-newg-strong-m20-real-low-far-lift.json",
+    "--columns",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz",
+    "--r72-summary",
+    "notes/2026-11-12-root-moving-auxiliary-family-r1-summary.json",
+    "--two-cell-budget",
+    "notes/2026-11-12-closure-two-cell-parameter-budget-r2.json",
+    "--out-prefix",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3",
+    "--rss-kib",
+    "51200"
+  ],
+  "proposed_relative_axes": {
+    "m4": "2^-4",
+    "m2_and_m6_through_m40": "2^-10"
+  },
+  "nonlinear_auxiliary_factor": "259/256",
+  "rest_comparison_factor": "65/64",
+  "fixed_envelope_factor": "257/256",
+  "retained_joint_Theta": "16705/16384",
+  "planned_actual_operations": "Read six saved true column groups sequentially, exact dyadic upward mass sum, all213 new auxiliary checks, all641 original joint inequalities, two corrected centre comparisons",
+  "estimated_seconds": 30,
+  "self_RSS_guard_KiB": 51200,
+  "new_ODE": 0,
+  "new_source_integrals": 0,
+  "new_Green": 0,
+  "new_Arb": 0,
+  "new_Node": 0,
+  "rounding": "Positive summands rounded upwards to relative binary-128 units; no high modes discarded",
+  "scope": "Same fixed metric and all conditions; this does not solve the full outer matching problem",
+  "streaming_helper_sha256": "99642f2bee59e7f73decbd73b1917f6191ceb3505b8d9c96b2ed389b51ca41aa",
+  "change": "Only mode4 receives the larger relative interval. Preserve the paid alpha_main scaling of all original rest mass and charge only the extra fourth-mode linear mass to the auxiliary/rest slack. All original213/641 gates and observer unchanged.",
+  "previous_execution": {
+    "tool_session": 54628,
+    "formal_exit": 1,
+    "peak_rss_kib": 33208,
+    "wall_seconds": 7.839754104614258,
+    "reason": "All19-axis proposal failed actual cell12 mass gates; full exact failed primary retained. Every other auxiliary cell and all641 original joint conditions passed. No family proof claimed."
+  }
+}

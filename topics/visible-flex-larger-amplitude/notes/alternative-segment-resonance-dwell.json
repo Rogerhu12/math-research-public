@@ -1,0 +1,184 @@
+{
+  "scope": "Exact finite transfer search for two linear core resonances.\n\nThe matrices on constant radial-speed segments are exact for the linearized\nFrenet equation. Turns are instantaneous in this design screen, so resulting\nprofiles are NOT C2 surfaces. The final original smooth bridge is integrated\nfrom the existing physical finite linear tail port. Candidates must be\nsmoothed, re-solved nonlinearly and matched to the true tail at fixed metric.\n",
+  "kind": "dwell",
+  "seed": 20261110,
+  "seeds": 100,
+  "seconds": 2.241637706756592,
+  "bridge_initial": {
+    "2": [
+      0.7589772628946289,
+      0.6511171280261159
+    ],
+    "4": [
+      0.9482740204397909,
+      0.317452960545267
+    ]
+  },
+  "rows": [
+    {
+      "kind": "dwell",
+      "x": [
+        0.06096227134242555,
+        0.94,
+        0.94,
+        0.009534970861754104
+      ],
+      "segments": [
+        {
+          "a0": 1.0,
+          "a1": 1.0609622713424256,
+          "v": 0.94,
+          "length": 0.0648534801515166,
+          "height": 0.022126349914426278
+        },
+        {
+          "a0": 1.0609622713424256,
+          "a1": 1.0,
+          "v": -0.94,
+          "length": 0.0648534801515166,
+          "height": 0.022126349914426278
+        }
+      ],
+      "pauses": [
+        [
+          1,
+          0.009534970861754104
+        ]
+      ],
+      "residual": [
+        -5.551115123125783e-16,
+        3.885780586188048e-15
+      ],
+      "residual_max": 3.885780586188048e-15,
+      "height": 0.45622103852722107,
+      "bridge_height": 0.40243336783661443,
+      "bridge_length": 0.6388482209066094,
+      "turn_total_angle": 4.8905212220877425,
+      "optimistic_turn_length_at_K8": 0.6113151527609678,
+      "maximum_radius": 1.0609622713424256,
+      "minimum_radius": 1.0,
+      "terminal_vectors": {
+        "2": [
+          0.8946950437744853,
+          0.7675477195981836
+        ],
+        "4": [
+          -1.3558952052419622,
+          -0.4539119893778936
+        ]
+      },
+      "seed_index": 3,
+      "optimized": true
+    },
+    {
+      "kind": "dwell",
+      "x": [
+        0.1643703083994396,
+        0.3158552832646125,
+        0.45136994918195966,
+        0.4961720754819546
+      ],
+      "segments": [
+        {
+          "a0": 1.0,
+          "a1": 1.1643703083994397,
+          "v": 0.3158552832646125,
+          "length": 0.5203975273123292,
+          "height": 0.4937570132660999
+        },
+        {
+          "a0": 1.1643703083994397,
+          "a1": 1.0,
+          "v": -0.45136994918195966,
+          "length": 0.3641587320940089,
+          "height": 0.32495227938420324
+        }
+      ],
+      "pauses": [
+        [
+          1,
+          0.4961720754819546
+        ]
+      ],
+      "residual": [
+        -8.791856132006615e-13,
+        -4.99576491286291e-11
+      ],
+      "residual_max": 4.99576491286291e-11,
+      "height": 1.717314735968872,
+      "bridge_height": 0.40243336783661443,
+      "bridge_length": 0.6388482209066094,
+      "turn_total_angle": 1.5793158607672197,
+      "optimistic_turn_length_at_K8": 0.19741448259590247,
+      "maximum_radius": 1.1643703083994397,
+      "minimum_radius": 1.0,
+      "terminal_vectors": {
+        "2": [
+          0.1400041433018617,
+          0.12010780843547222
+        ],
+        "4": [
+          -25.679721922863543,
+          -8.59678064918257
+        ]
+      },
+      "seed_index": 27,
+      "optimized": false
+    },
+    {
+      "kind": "dwell",
+      "x": [
+        0.21593954340986152,
+        0.19600650727038538,
+        0.42450594428194316,
+        0.373163986293589
+      ],
+      "segments": [
+        {
+          "a0": 1.0,
+          "a1": 1.2159395434098614,
+          "v": 0.19600650727038538,
+          "length": 1.1016957876402491,
+          "height": 1.0803257481409065
+        },
+        {
+          "a0": 1.2159395434098614,
+          "a1": 1.0,
+          "v": -0.42450594428194316,
+          "length": 0.5086843807926547,
+          "height": 0.4605756320674674
+        }
+      ],
+      "pauses": [
+        [
+          1,
+          0.373163986293589
+        ]
+      ],
+      "residual": [
+        8.346656699131927e-13,
+        5.4359683421267846e-11
+      ],
+      "residual_max": 5.4359683421267846e-11,
+      "height": 2.3164987343385772,
+      "bridge_height": 0.40243336783661443,
+      "bridge_length": 0.6388482209066094,
+      "turn_total_angle": 1.2713998327165623,
+      "optimistic_turn_length_at_K8": 0.1589249790895703,
+      "maximum_radius": 1.2159395434098614,
+      "minimum_radius": 1.0,
+      "terminal_vectors": {
+        "2": [
+          0.0999781531006566,
+          0.08577001063756842
+        ],
+        "4": [
+          -23.775448739502128,
+          -7.959288590981001
+        ]
+      },
+      "seed_index": 57,
+      "optimized": false
+    }
+  ]
+}

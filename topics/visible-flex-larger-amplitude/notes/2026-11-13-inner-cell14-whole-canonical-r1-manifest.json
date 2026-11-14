@@ -1,0 +1,67 @@
+{
+  "schema": "inner-cell14-whole-canonical-endpoint-archive-manifest-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "all_actual_gates": true,
+  "files": [
+    {
+      "path": "computations/inner_true_cell14_whole_canonical_endpoint.py",
+      "sha256": "2b10e184e1b104b3beb3a9139f2c7b0f3c1b21fce9fcecfa994de62f0baa9a4c",
+      "bytes": 9809
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell14-whole-canonical-r1.json",
+      "sha256": "9b9e07878503a05fdce7efa5141b7689035bfaa2b2e9aa3313e09beb5d9e010c",
+      "bytes": 36622
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell14-whole-canonical-r1-resource.json",
+      "sha256": "19331f2f3cc2f8b44c0dad4acec9e7b7404c293683c0e554cc9747f0016e00af",
+      "bytes": 1287
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell14-whole-canonical-r1-proof.md",
+      "sha256": "5f2e93532d5d0f2e1430dda3d66b7e3ffa262133570d5a4ece28d02edf8636d9",
+      "bytes": 4724
+    }
+  ],
+  "frozen_inputs": {
+    "density": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700",
+      "bytes": 281853
+    },
+    "positive": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-positive-highband-38.json.gz",
+      "sha256": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600",
+      "bytes": 474571
+    },
+    "ready": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "bytes": 109004
+    }
+  },
+  "frozen_reference_sources": {
+    "inner_true_cell13_endpoint_window_kernels.py": "cff396cf882488df91c5450490a0c345e408d3fe1a6b29f683910e97b7aa4019",
+    "closure_split_joint_io_v2.py": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0",
+    "closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390",
+    "closure_positive_linear_band_enclosure.py": "270e475e33f988ca9d48c1f68e249f2d127fa3afafd3e3d20d80cce3407a170f",
+    "closure_real_linear_head_enclosure.py": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+  },
+  "actual_primary": {
+    "path": "notes/2026-11-13-inner-cell14-whole-canonical-r1.json",
+    "sha256": "9b9e07878503a05fdce7efa5141b7689035bfaa2b2e9aa3313e09beb5d9e010c",
+    "bytes": 36622
+  },
+  "actual_resource": {
+    "path": "notes/2026-11-13-inner-cell14-whole-canonical-r1-resource.json",
+    "sha256": "19331f2f3cc2f8b44c0dad4acec9e7b7404c293683c0e554cc9747f0016e00af",
+    "bytes": 1287
+  },
+  "same_old_g_only": true,
+  "complete_cell15_input_and_cell14_sources_required": true,
+  "no_cell14_panels_assumed": true,
+  "no_new_ODE_quadrature_or_Node": true,
+  "new_truecut_or_fixedpoint_claimed": false
+}

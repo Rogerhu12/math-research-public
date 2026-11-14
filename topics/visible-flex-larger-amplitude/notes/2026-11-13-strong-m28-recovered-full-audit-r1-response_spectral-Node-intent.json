@@ -1,0 +1,16 @@
+{
+  "scope": "Only Node young-space launch option; no mathematical change",
+  "entry_sha256": "65e81c73707c6f094ce5d494965d2fd468e971f4fa450d88513cf4ac622476fd",
+  "worker_sha256": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+  "actual_command": [
+    "node",
+    "--expose-gc",
+    "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/computations/tail_frozen_worker.mjs",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-config.json"
+  ],
+  "NODE_OPTIONS_before": "--max-old-space-size=128",
+  "NODE_OPTIONS_after": "--max-old-space-size=128 --max-semi-space-size=4",
+  "only_changed_environment_key": "NODE_OPTIONS",
+  "MJS_bytes_unchanged": true,
+  "original_full_Jacobian_and_audit_preserved": true
+}

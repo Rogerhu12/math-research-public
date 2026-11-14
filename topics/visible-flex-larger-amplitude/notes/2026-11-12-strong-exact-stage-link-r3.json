@@ -1,0 +1,10 @@
+{
+  "code": "const m=await import('./computations/strong_exact_stage_engine.mjs');console.log(JSON.stringify({factoryExport:typeof m.createStoredFiniteTailDN,manifest:m.storedEngineManifest.exactStageHost,status:'all-engine-modules-linked-no-factory-called',physicalFactoryCalls:0,RHSEvaluations:0}));",
+  "returncode": 0,
+  "seconds": 1.420261882001796,
+  "engine_sha256": "968cab71ddfc8d091ad511bc7d381ea448f5987d1f1dd1107c848cde08fefa57",
+  "stdout_sha256": "d312da97eb2db7c14a03014a826350d01bd3e556bf3ca9649856d0294427b94b",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "physical_factory_calls": 0,
+  "RHS_evaluations": 0
+}

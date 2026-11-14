@@ -1,0 +1,67 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Prepared complete same-candidate segment5 finite-Horner/full-J audit; wait until exact cell10 true-moment source replay formally exits",
+  "command": [
+    "python",
+    "computations/tail_outer_centered_span_refinement_v2.py",
+    "--candidate",
+    "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--rx-ratio",
+    "2",
+    "--log-w-span",
+    "1/32",
+    "--u-span",
+    "1/32",
+    "--max-level",
+    "28",
+    "--max-panels",
+    "100000",
+    "--rss-limit-mib",
+    "40",
+    "--out",
+    "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2.json"
+  ],
+  "resource_output": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-resource.json",
+  "source_and_input_hashes": {
+    "computations/tail_outer_centered_quartic_fields.py": "16a868a4f59311a7e83d5758d1653b7c64a4836bc77e8c8f39aade459006889a",
+    "computations/tail_outer_centered_span_refinement.py": "cf33716df8e7c4a3524e43be7f64423dc7a6fd8cb42eb92ecc3bebea748be492",
+    "computations/tail_outer_substage_span_refinement.py": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "computations/tail_outer_centered_quartic_fields_v2.py": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+    "computations/tail_outer_centered_span_refinement_v2.py": "21754fb1d4b537eb20e245259bfde46d85a97ff6c07e667d8061ea7fdfb596f4",
+    "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz": "a4496918b68c332958715c3757e460d1893f0cf42354bb6638cde7b8c85d67c0"
+  },
+  "original_continuous_source": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+  "enclosure_change_only": "Finite integer Horner replaces nonfinite signed powers; explicit finite intersection. Same exact R48 polynomial and full R64/J conditions.",
+  "new_source_integrals_or_ODEs": 0,
+  "all_original_candidate_jets_moments_bubble_modes_g_fixed": true,
+  "source_span_ratio": 2,
+  "observed_memory_limit_mib": 40,
+  "formal_status": "Not yet executed at plan creation",
+  "prior_segment_bound": {
+    "exact_dyadic_upper": [
+      422931315185,
+      -41
+    ],
+    "witness": {
+      "segment": 5,
+      "part": 7,
+      "bin": 7,
+      "source_left": "255/256",
+      "source_right": "1021/1024",
+      "selected_bound": "complete finite J",
+      "R64_upper": [
+        655790230441,
+        -40
+      ],
+      "complete_J_upper": [
+        422931315185,
+        -41
+      ]
+    },
+    "complete_stream_check": "notes/2026-11-12-tail-outer-cell0-seg5-span2-finiteJ-r1-streamcheck.json"
+  },
+  "prior_certified_candidate": "notes/2026-11-12-tail-outer-cell0-seg5-substage-r1.json.gz"
+}

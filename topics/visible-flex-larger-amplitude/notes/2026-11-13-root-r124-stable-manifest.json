@@ -1,0 +1,51 @@
+{
+  "scope": "R124 actual complete46 cut consistency for the true low46 projected exterior problem on the full R100 unit domain; no nonlow feedback or full exterior PDE/closed surface asserted",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-full-linear-jacobian-r1.json.gz",
+      "sha256": "00bec784c5c10de86c453dbc178c2fd9c48ec85ff7b7f67c151d7ab53daebcf8",
+      "bytes": 1905076
+    },
+    {
+      "path": "notes/2026-11-13-root-full-linear-jacobian-r1-resource.json",
+      "sha256": "b52cda64c3bb792b091bc1db70814f745acf0142f0fb21e129549665bede2668",
+      "bytes": 1053
+    },
+    {
+      "path": "notes/2026-11-13-root-full-linear-true-cut-r1.json.gz",
+      "sha256": "716174c9cf639c712064e64249da42aededb3c983038157ab2df67a5660063fe",
+      "bytes": 53368
+    },
+    {
+      "path": "notes/2026-11-13-root-full-linear-true-cut-r1-resource.json",
+      "sha256": "d917c19c265ce085921e6ad5b9b110f778eebf38391aa62e95a626f2ff511b7c",
+      "bytes": 1298
+    },
+    {
+      "path": "computations/root_full_linear_centre_jacobian.py",
+      "sha256": "db9000981220c503c0667b301a84eec61a61bce5ca9fa4c005822524480f8262",
+      "bytes": 5966
+    },
+    {
+      "path": "computations/root_full_linear_true_cut_consumer.py",
+      "sha256": "f9ba243e9bac29823e17124a61702133697300ae1354e49174baafbe5506a468",
+      "bytes": 11392
+    },
+    {
+      "path": "results/R124-actual-full46-projected-cut-consistency.md",
+      "sha256": "03f62847defe77eebdd86c601dbdb2986b350fa638fd854764364ea60e971797",
+      "bytes": 11575
+    }
+  ],
+  "formal_exit_codes": {
+    "new_centre_jacobian": 0,
+    "actual_true_cut_consumer": 0
+  },
+  "true_cut_exact_gate_count": 118,
+  "final_closure_gates": {
+    "selfmap": true,
+    "Cauchy_contraction": true
+  },
+  "actual_new_ODE_calls": 0,
+  "full_input_hashes_in_primary": true
+}

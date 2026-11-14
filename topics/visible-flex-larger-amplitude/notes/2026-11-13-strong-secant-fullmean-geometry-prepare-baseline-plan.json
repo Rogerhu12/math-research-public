@@ -1,0 +1,153 @@
+{
+  "scope": "Prepare complete-mean finite geometry fields from one accepted actual state.\n\nBaseline-only preparation is allowed before the new response has finished.\nAfterward the same prefix/grid can receive a full thirteen-case plan; baseline\nhas no response-data dependency and is never recomputed merely to fill a plan.\nThe sixth control is the newly computed core-held start_acceleration column.\nNo column from a different accepted baseline may be imported.\nEvery case is an unsolved actual-J warm diagnostic, not a new accepted BVP.\n",
+  "prepared_only": true,
+  "executed": false,
+  "baseline_only": true,
+  "nonlinear_solution": false,
+  "new_tail_evaluation": false,
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "grid": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-grid.json",
+  "geometry_wrapper": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py",
+  "source_and_input_sha256": {
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-x-000.npy.gz": "289f2b8938edfa120099256ecd8b397cc52c1572e2449a6e6cf16d0d4129f187",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_fullmean_six_plan.py": "5f34aec029cfce876fc5f61957d51bb8f924f2ed08e2d01fb412c527a49b3101",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_array_io_resident.py": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1.json.gz": "88175797998edbbe6d7ed18065fb8786cc58cec5e255b0efb95da9d08c728699",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation.json.gz": "03f1ed050abfd3a4cbafc7a23c7c60a63aa415085c149db9b5e401320e7e4b35",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-response_0003.json.gz": "1e0af8ea57b700b46c78e1fb09cc5babd72c54dd7132e2cb3be377979e62ca57",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-config.json": "51dccdc03aab9fb667744be16077d607b7b835f018fa806ce7fb6f65bf539531",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-grid.json": "8778cf8c5a60b318a7e32b37185e0f042fea5b276983f1e9da76c4a5fddfd548",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/geometry-grid.json": "4c517eb266fc40dd044bdaa3f263f211e0a221d41af5fb7c939569c38e85ea0d",
+    "notes/2026-11-13-strong-q098-interior-fullmean-audit.json": "125b5a5514936b7a825d6dc8f428756e5142fc500297f2b34b71874335436f2a"
+  },
+  "baseline_core": [
+    0.098,
+    -0.006702354864108033,
+    -0.00041767340155827136
+  ],
+  "modes": 28,
+  "directions": [
+    {
+      "name": "actual_q1",
+      "step": 0.001
+    },
+    {
+      "name": "actual_q4",
+      "step": 3e-05
+    },
+    {
+      "name": "actual_c6",
+      "step": 2e-06
+    },
+    {
+      "name": "vu",
+      "step": 0.0002
+    },
+    {
+      "name": "descending_turn_curvature",
+      "step": 0.0025
+    },
+    {
+      "name": "start_acceleration",
+      "step": 0.002
+    }
+  ],
+  "candidates": [
+    {
+      "name": "baseline",
+      "direction": null,
+      "step": 0.0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_resource_run.py",
+        "--out",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-baseline-resource.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py",
+        "--actual-reference",
+        "notes/2026-11-13-strong-q098-m28-newjac-actual-r1.json.gz",
+        "--actual-reference-raw",
+        "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation.json.gz",
+        "--actual-reference-tail",
+        "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-response_0003.json.gz",
+        "--source-topic",
+        "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+        "--frozen-reference-ready",
+        "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+        "--frozen-calibration-ledger",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--port",
+        "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--tail-config",
+        "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-config.json",
+        "--target-core",
+        "0.098",
+        "-0.006702354864108033",
+        "-0.00041767340155827136",
+        "--max-nodes",
+        "2612",
+        "--radial-batch-size",
+        "8",
+        "--collocation-batch-size",
+        "12",
+        "--geometry-grid",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-grid.json",
+        "--mean-angular",
+        "1360",
+        "--geometry-batch",
+        "8",
+        "--resident-rss-guard-mib",
+        "384.0",
+        "--out-prefix",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-baseline",
+        "--inspect-warm-output",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-baseline-screen.json",
+        "--geometry-array",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-baseline-field.json"
+      ],
+      "expected_core": [
+        0.098,
+        -0.006702354864108033,
+        -0.00041767340155827136
+      ],
+      "expected_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.16418490163771843,
+        "vu": 0.3202000081865586,
+        "vd": 0.98,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.8613018867648412,
+        "boost_length": 0.12485272534014924,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.745249237965955,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "report": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-baseline-screen.json",
+      "field": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-baseline-field.json",
+      "resource": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-baseline-resource.json",
+      "log": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-secant-prep-r1/baseline-baseline-log.txt",
+      "complete_mean_angular": 1360
+    }
+  ],
+  "all_original_fields_and_core_modes_retained": true,
+  "mean_rule": "Original full physical postprocessor angular rule for height and both radial mean derivatives.",
+  "limitations": [
+    "Warm numerical samples, with no new true nonlinear-tail solve.",
+    "No continuous curvature, reach, closed-surface diameter or amplitude certificate."
+  ]
+}

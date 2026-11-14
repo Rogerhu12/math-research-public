@@ -1,0 +1,18 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cs-lambda-r1/inner_r100_cs_lambda_modal_input.py",
+    "--notes",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cs-lambda-r1/inputs",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cs-lambda-r1/input"
+  ],
+  "wall_seconds": 0.34325075149536133,
+  "exitcode": 1,
+  "termination_signal": null,
+  "peak_rss_kib": 34964,
+  "user_seconds": 0.229632,
+  "system_seconds": 0.09569899999999999,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

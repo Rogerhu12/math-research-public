@@ -1,0 +1,60 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T18:51:59.549291+00:00",
+  "title": "Read-only Git transport config overwrite and server filter capability evidence",
+  "scope": "No Git writer operation by strong_recovery; exact retained earlier config write and maintenance overwrite; authenticated ls-remote only. No token or HTTP trace. No claimed fetch-performance improvement.",
+  "owned_saved_evidence_consumer_exitcode": 0,
+  "owned_saved_evidence_consumer_wait4": true,
+  "checks": 14,
+  "files": [
+    {
+      "file": "computations/strong_git_transport_readonly_evidence.py",
+      "bytes": 5812,
+      "sha256": "3006af48e4998ed0f113da0c306648aa592a17c4df98dcd7d6119e51eca94a88"
+    },
+    {
+      "file": "notes/2026-11-13-strong-git-readonly-transport-r1-heartbeat.json",
+      "bytes": 279,
+      "sha256": "0213b10ffbf0a11344b8ca38fc3d514f5e1ed02d4e468d6d3635a32656d8af0a"
+    },
+    {
+      "file": "notes/2026-11-13-strong-git-readonly-transport-r1-inputs.json",
+      "bytes": 21594,
+      "sha256": "1dc4b8f0c65224b96fa259858b6b9ce1a3c98b2bdf422beb9edfb591ffc34aa3"
+    },
+    {
+      "file": "notes/2026-11-13-strong-git-readonly-transport-r1-ownership.json",
+      "bytes": 1432,
+      "sha256": "4a1df670fc1872f4526e3815be517885eb02b8179ed0098c2c2b29b9a048dec7"
+    },
+    {
+      "file": "notes/2026-11-13-strong-git-readonly-transport-r1-packet.log",
+      "bytes": 156568,
+      "sha256": "1922948be2a76039618342fd640908f3c1d96179baae7057df097cf0121e8f13"
+    },
+    {
+      "file": "notes/2026-11-13-strong-git-readonly-transport-r1-proof.md",
+      "bytes": 1997,
+      "sha256": "e738911b130b81f0a42f3cdf71f90f96707d2c4ccb9c6813c90cfea6a75b38a2"
+    },
+    {
+      "file": "notes/2026-11-13-strong-git-readonly-transport-r1-resource.json",
+      "bytes": 1280,
+      "sha256": "a4ecd246dc268f296b1e0974da09f011e72d8d94a4c23d12bf6f8d61fc507c64"
+    },
+    {
+      "file": "notes/2026-11-13-strong-git-readonly-transport-r1-stdout.log",
+      "bytes": 1412,
+      "sha256": "4f2941f890435aa597ab1d3b65e14287fbb4e6a7f6ed1468c7b9578d5b405ff2"
+    },
+    {
+      "file": "notes/2026-11-13-strong-git-readonly-transport-r1.json",
+      "bytes": 21311,
+      "sha256": "5404d153c21c9c76a71196e5a37eadb182fee34544f7d2c79b0c1612d034cb4a"
+    }
+  ],
+  "bytes": 211685,
+  "primary": "notes/2026-11-13-strong-git-readonly-transport-r1.json",
+  "resource": "notes/2026-11-13-strong-git-readonly-transport-r1-resource.json",
+  "original_network_resource": "Recorded actual subprocess exit0 and measured wall time; peak RSS not measured. Consumer resources are separate."
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "actual-frontload-background-C2-warm-compact-archive-v1",
+  "files": [
+    {
+      "path": "computations/strong_frontload_warm_background_C2_comparison.py",
+      "sha256": "25dc57b889a8e9b2292b8572d31cc516de0579bec28a0732a9f2653ada042a2f",
+      "bytes": 8524,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_warm_background_C2_comparison.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-warm-background-C2-r1-certificate.json",
+      "sha256": "01aa989aecc9959f10ce556052b90475d5e60c884b814c10811aef63fbadb5ac",
+      "bytes": 142672,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-warm-background-C2-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-warm-background-C2-r1-resource.json",
+      "sha256": "28fd966fbf472f04b137318099ec9e1665ce3c079704a2d605e1f52c7a4a6e65",
+      "bytes": 1789,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-warm-background-C2-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-warm-background-C2-r1-proof.md",
+      "sha256": "b110d50ccac2df25493829ae265ee554e83badb1c9338dd8e7e7137c0f44c676",
+      "bytes": 6096,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-warm-background-C2-r1-proof.md"
+    }
+  ],
+  "total_bytes": 159081,
+  "all_owned_outcomes_verified": true,
+  "input_kind": "completed-unsolved-warm",
+  "gate_count": 806,
+  "complete_provider_segments": 12,
+  "complete_smooth_pieces": 24,
+  "comparison_definition_sha256": "0425ff91db63a9151f6bf2a70b5c4c8af914a2b0b99e440811b6fb01a6c10578",
+  "new_ODE_RHS_Flow_Node_Newton_calls": 0,
+  "original_candidate_or_target_g_modified": false,
+  "full_surface_or_complete_mean_certified": false
+}

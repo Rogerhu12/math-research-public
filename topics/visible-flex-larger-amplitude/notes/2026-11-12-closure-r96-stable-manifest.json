@@ -1,0 +1,133 @@
+{
+  "status": "Stable complete R96 proof and actual small ledgers; generated large six-round payload excluded from connector publication",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted), 2026-11-12",
+  "files": [
+    {
+      "path": "results/R96-actual-low-spectrum-and-complete-middle-source.md",
+      "blob": "7648f56ab6da831e33e86231217380e36b0c0605",
+      "kind": "Complete proved result",
+      "sha256": "4a1ee2c6f89b0a62d3545e04d0ec6a1b4ed6f33dbae6b2bd1ccfbf560f13bb88",
+      "bytes": 14794
+    },
+    {
+      "path": "computations/closure_outer_low_spectral_enclosure_v1.js",
+      "blob": "4f5fdbfe18b6cf099a147e30b937d26d74cfc011",
+      "sha256": "d494eb66d1f1213c8e987cad6ee200295f8d8432ac105684cafbd7c4ade0d315",
+      "bytes": 13652,
+      "kind": "Preserved failed schema version"
+    },
+    {
+      "path": "notes/2026-11-12-closure-low-spectral-v1-failure.json",
+      "blob": "b4b13b5b1e553a20336726ba7b77ec2ac80c0a19",
+      "kind": "Actual V8 exception before six-round arithmetic",
+      "sha256": "c1db8357d82aee7bcd673c603321399e0ab17be53b2aaf47300b8ad48a87f0f4",
+      "bytes": 266
+    },
+    {
+      "path": "computations/closure_outer_low_spectral_enclosure_v2.js",
+      "blob": "e30e4687b499b76d41030160a46dab7b38b65713",
+      "kind": "Executed six-round spectral enclosure source",
+      "sha256": "eadc4451b297c3308459cbd27330430b8d5eb57f573919a93e6a70972300e600",
+      "bytes": 13843
+    },
+    {
+      "path": "computations/closure_outer_low_spectral_wide_tail.js",
+      "blob": "8cf96acd480d91138f0eadc277332efcb20d5c9d",
+      "kind": "Executed wide-tail source; original input storage arrangement preserved",
+      "sha256": "ee68d5b7773ee0caff312edb334e123fc4fa4aa4bf46a4e27ed61fad52c0bac1",
+      "bytes": 9871
+    },
+    {
+      "path": "computations/closure_outer_low_spectral_wide_tail_full_v2.js",
+      "blob": "68d2f416114279d32cdef3d5504112c658d41d3d",
+      "kind": "Prepared single-complete-input recovery entry; tail arithmetic unchanged",
+      "sha256": "411369362507e806943218caef3933ceccd32411dc27a9e30738cd8c337b7ac5",
+      "bytes": 9874
+    },
+    {
+      "path": "notes/2026-11-12-closure-low-spectral-wide-tail-v1.json",
+      "blob": "261f0e48f023f2261514be0b386db610849a8922",
+      "kind": "Independent complete actual wide-tail ledger",
+      "sha256": "0b9519dafcda5b0ae02f1191539d6054a9a0722f6207c14b96844d9520082de3",
+      "bytes": 71331
+    },
+    {
+      "path": "notes/2026-11-12-closure-r96-execution-summary.json",
+      "blob": "9518538c8a8d1058088a8208e5345642098c18db",
+      "kind": "Actual observations, exact display checks, full-data reproduction instructions",
+      "sha256": "551ecf0c90a97afd48c6ceee2bf18b834a1783085c401a3f9fceba1d16d937ad",
+      "bytes": 7064
+    }
+  ],
+  "pinned_scientific_inputs": [
+    {
+      "path": "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+      "sha256": "badc734ef590c747d62fc75bd57ce2571bd89e8c522604b691406f469d47392f"
+    },
+    {
+      "path": "notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval.json",
+      "sha256": "86c9b5604a765a50028865a4f3edae3171d9582052e2b7e7515d0471d8685d45"
+    },
+    {
+      "path": "notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json",
+      "sha256": "e3bb0bad3afac3e19d6b811ad068d0b4251b2a1214718dcbd14a2eb98e1aaa03"
+    },
+    {
+      "path": "computations/closure_outer_physical_green_geometry_recovered_v2.py",
+      "sha256": "c48606c4e127fb0d3f27479eeed11bff3c5cb69139148633ea4f74a9e1f63829"
+    },
+    {
+      "path": "notes/2026-11-12-root-r83-complete-cut-difference-r1.json",
+      "sha256": "4ec6d30adb9eb639e658bcaa86873cfed0675ab975d3a8f92778888339f966b2"
+    },
+    {
+      "path": "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+      "sha256": "17b1d776cdce044722db61c2981d64838d18fd66c6ef3fdd4c48fa183a9a3776"
+    }
+  ],
+  "large_complete_data": {
+    "path_when_recreated": "notes/2026-11-12-closure-low-spectral-v2-full.json",
+    "bytes": 207334,
+    "sha256": "e78f8fa461077bb7c22d4b41835eeb82c85cb5321136d35477b6113a0f546e11",
+    "connector_payload_transferred_in_this_recovery": false,
+    "connector_split_publication": false,
+    "full_terminal_regeneration_argv_recorded_in": "notes/2026-11-12-closure-r96-execution-summary.json",
+    "fresh_metadata_requires_fresh_result_hash": true
+  },
+  "old_storage_preparation": {
+    "six_small_split_blobs_previously_created": true,
+    "included_in_this_publication": false,
+    "reason": "Root README rule8 forbids transmitting a large dataset as connector chunks; preserve exact scientific generating code and complete hash, and use terminal git for the complete large primary."
+  },
+  "actual_math": {
+    "six_round_v2": {
+      "engine": "functions.exec V8 BigInt",
+      "milliseconds": 23698,
+      "gates": 26,
+      "all_gates": true
+    },
+    "wide_tail_v1": {
+      "engine": "functions.exec V8 BigInt",
+      "milliseconds": 32366,
+      "gates": 11,
+      "all_gates": true
+    },
+    "no_new_source_ODE_Arb": true
+  },
+  "proof_correction": {
+    "old_proof_blob": "5841ca8503935a06831aa6cba67f34a7baaf1061",
+    "old_proof_sha256": "79aaacf33bc5b4b03df06c85aaa33ca6fd57c59b8dbd5e88224751e2325b0211",
+    "change": "Use <= for the upward-rounded total and comply with complete-data storage rule; mathematical sources and primary ledgers unchanged"
+  },
+  "limits": [
+    "R74 real parameter domain only",
+    "Actual middle response and its low/high feedback still unpaid",
+    "Known finite centre alone receives the extra analytic width",
+    "No complete outer PDE, cut consistency or closed-family claim"
+  ],
+  "last_tool_state": {
+    "exec_command": "Rejected before creation: No usable execution environment is available",
+    "m94_m96_started": false,
+    "owned_session": null
+  }
+}

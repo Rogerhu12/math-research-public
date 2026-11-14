@@ -1,0 +1,143 @@
+{
+  "scope": "Final prepared source collection for the next actual M28 cache snapshot; offline static consistency only.",
+  "note_path": "notes/2026-11-13-strong-m28-recovery-source-freeze.json",
+  "sources": [
+    {
+      "path": "computations/strong_sameg_m28_cached_audit.py",
+      "blob": "164066aa978182f0b12d1d56ef001b41a8192cb2",
+      "sha256": "f10443df29783d0128ebcdbf660904bb5981503d292d336900d5a39a79ab2eda",
+      "bytes": 14103
+    },
+    {
+      "path": "computations/strong_sameg_m28_cache_snapshot.py",
+      "blob": "86428f1f49117ce57d3dee72a31f7d624c3fedc4",
+      "sha256": "8440d09061dca6577711c22cba4b2c91c91b8b0ef911970071bff2ad975e27ec",
+      "bytes": 15236
+    },
+    {
+      "path": "computations/strong_sameg_m28_complete.py",
+      "blob": "5e4397f3f33e2ed92cad5701abd6ff4047f9e1c5",
+      "sha256": "905e256ab7e51364fe36cefb293f9d8198eae96ac2dca72e08d91993eeb48da1",
+      "bytes": 18319
+    }
+  ],
+  "static_check": {
+    "scope": "Actual static text/recorded JSON interface checks only. No Python compile, source snapshot construction, binary-array replay, M28 stage evaluation, full audit, postprocess, or geometric computation was executed.",
+    "checks": {
+      "original_plan_text_SHA_matches_complete_guard": true,
+      "original_live_warm_text_SHA_matches_complete_guard": true,
+      "original_M24_M28_dimensions_and_t_range": true,
+      "pinned_full_state_mapping_matches_actual_original_plan": true,
+      "original_live_warm_fixed_identity_matches_plan": true,
+      "original_live_reference_knots_match_plan": true,
+      "original_new_config_SHA_matches_live_identity": true,
+      "source_snapshot_pins_current_cache_entry": true,
+      "source_snapshot_pins_current_complete_entry": true,
+      "complete_entry_pins_unchanged_original_postprocessor": true,
+      "cache_calls_existing_stage_specific_resource_factory": true,
+      "cache_passes_effective_Python_namespace_to_native_engine": true,
+      "snapshot_keeps_virtualenv_entry_path": true,
+      "snapshot_includes_its_actual_executed_source": true,
+      "snapshot_copies_original_raw_and_physical_indirect_primaries": true,
+      "complete_marker_requires_actual_staged_original_acceptance": true,
+      "original_successful_Newton_is_not_rerun": true
+    },
+    "all_static_checks_passed": true,
+    "check_count": 17,
+    "source_sha256": {
+      "cached": "f10443df29783d0128ebcdbf660904bb5981503d292d336900d5a39a79ab2eda",
+      "snapshot": "8440d09061dca6577711c22cba4b2c91c91b8b0ef911970071bff2ad975e27ec",
+      "completion": "905e256ab7e51364fe36cefb293f9d8198eae96ac2dca72e08d91993eeb48da1"
+    },
+    "all_runtime_mathematical_gates_still_pending": true
+  },
+  "effective_cache_identity": {
+    "native_MJS_stage_identity_unchanged": true,
+    "outer_namespace": "complete Python source trees SHA including all newly added Python files",
+    "manifest": "<cache-base>/python-<complete-Python-SHA>/Python-source-identity.json",
+    "effective_key": [
+      "complete Python source trees SHA",
+      "original native stage identity",
+      "complete exact native input key"
+    ],
+    "each_extra_or_modified_Python_source_changes_namespace": true
+  },
+  "freeze_rule": "After real-file snapshot construction, do not add or modify any Python/MJS/source in that runtime. Further proofs or prepared scripts go in another workspace. Namespace changes are explicit misses, not claims that old caches were revalidated.",
+  "original_actual_data_paths": {
+    "plan": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-spectral-plan.json",
+    "live_warm": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-spectral-warm-verified.json",
+    "indirect_primary_inputs": [
+      {
+        "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24.json.gz",
+        "sha256": "144dc8f8fc3698414c066a5529f70b4c0a4701b2b6fd67598ab6a6dcd1439595"
+      },
+      {
+        "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-raw-collocation.json.gz",
+        "sha256": "baeb4cfe7ba1d9c74e3d51d0aa6b4cfe758dd40c1710daa8c339e71214ec16ea"
+      },
+      {
+        "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-report.json",
+        "sha256": "224dec43c219892dc320f211a5fc7430830fa878e361d2adb41e11a05999487d"
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-config.json",
+        "sha256": "cb941ad34696f9c7c97c18543f577c2c1b1c3e04ad2c0e6238982413aa4c3851"
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-tail-response_0003.json.gz",
+        "sha256": "a9271c95ff453e5731e0db171a3258fb3097bc08b9913afe540483b5217d639a",
+        "role": "old-M accepted geometric warm only; not new-M response/Jacobian"
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-x-000.npy.gz",
+        "sha256": "fde42714bf28fddb3241406c75c261fa292a1f99afb42651179c9ff56ba22771",
+        "bytes": 16433
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-y-000.npy.gz",
+        "sha256": "1fdfd46ecf0a04b83cbdf255930816a6ce6b858100cd33b4c730292c24ad79f2",
+        "bytes": 1228253
+      },
+      {
+        "file": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-raw-p-000.npy.gz",
+        "sha256": "e24d459ed4bbdd876f9015d82080fee69c8b7b9f570c714fcf60aa343de0a672",
+        "bytes": 290
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-cubic-000.npy.gz",
+        "sha256": "8f4a6ccdf01bb55b1251ef99d1fe5a453bbc862173c246d153fb57956fcc6b58",
+        "bytes": 3887741
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-cubic-001.npy.gz",
+        "sha256": "f31e1d5cc33ca48e9478dc357b2b79a5d780af166299f765d669eed2994c8174",
+        "bytes": 1064088
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-rms-000.npy.gz",
+        "sha256": "9fc4de4bbc594b1bbc6ba89b603417a8fa613937fd82bbfa59738dc2e7e996c8",
+        "bytes": 16713
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong_coeff_00.npy.gz",
+        "sha256": "bdbabb95b8af642e743c0b854bb165b9de22ec5ee55f326b9f20a65ed739c037",
+        "bytes": 4268792
+      },
+      {
+        "file": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong_coeff_01.npy.gz",
+        "sha256": "5aac465e7d97fa42a27710bf0970e6115dda3470778e4a0991f74b99ab3642cb",
+        "bytes": 3141301
+      }
+    ]
+  },
+  "exact_next_order": [
+    "Read the actual existing r4 resource/summary/trace; if it already contains full success, proceed directly to completion.",
+    "Restore these small Python sources and original input archives; build one fresh real-file snapshot.",
+    "Use original guard/complete-evaluate diagnostic, then same-namespace exact-seed full nonlinear J/audit if needed.",
+    "Run the guarded zero-Newton completion entry; then original complete geometry/interior/seam comparisons and exact R28 inputs."
+  ],
+  "no_MJS_changes": true,
+  "no_new_numerical_result": true,
+  "source_snapshot_not_yet_materialized": true,
+  "r4_status_unchanged": "Original session21985 outer exit1 is formal; child wait4/Node result not read during seventh outage."
+}

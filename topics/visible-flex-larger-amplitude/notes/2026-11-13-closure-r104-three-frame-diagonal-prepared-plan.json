@@ -1,0 +1,126 @@
+{
+  "schema": "visible-flex-R104-three-frame-diagonal-plan-v3",
+  "status": "Prepared; no AST/Python/Arb or source evaluation",
+  "source": {
+    "path": "topics/visible-flex-larger-amplitude/computations/closure_middle_three_frame_diagonal_materials_v3.py",
+    "blob": "0ecd060a02f912f83bb4d98dacf5a33d7ad37ac1",
+    "sha256": "00262283ee1ffcf98405b60ca3f64422f29e1d77c916df3356ccfa97750f9cde",
+    "bytes": 17430
+  },
+  "prior_source_sha256": "3f7f4bb7bd26bbdb83b9df7a40e7fd9ca52cf0b6652f89e94978872cfb272ca7",
+  "exact_transform_checks": [
+    {
+      "tag": "doc-title",
+      "occurrences": 1
+    },
+    {
+      "tag": "doc-scope",
+      "occurrences": 1
+    },
+    {
+      "tag": "strategies",
+      "occurrences": 1
+    },
+    {
+      "tag": "constant-lists",
+      "occurrences": 1
+    },
+    {
+      "tag": "phase-choice",
+      "occurrences": 1
+    },
+    {
+      "tag": "candidate-selection",
+      "occurrences": 1
+    },
+    {
+      "tag": "constant-jump-guard",
+      "occurrences": 1
+    },
+    {
+      "tag": "phase-provenance",
+      "occurrences": 1
+    },
+    {
+      "tag": "phase-gate",
+      "occurrences": 1
+    },
+    {
+      "tag": "schema",
+      "occurrences": 1
+    },
+    {
+      "tag": "v2-preservation",
+      "occurrences": 1
+    }
+  ],
+  "cwd": "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude",
+  "env": {
+    "PYTHONPATH": "/tmp/visible-flex-larger-20261113T0030/python-deps",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1"
+  },
+  "child_argv_template": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/prepared/closure_middle_three_frame_diagonal_materials_v3.py",
+    "--computations",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations",
+    "--blocks",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-causal-mixed-m94m96-r1.json",
+    "--blocks-resource",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-causal-mixed-m94m96-r1-resource.json",
+    "--frame",
+    "notes/2026-11-12-root-outer-optimal-frame-r1.json",
+    "--frame-sha256",
+    "<ACTUAL_CLI_SHA256_OF_FULL_R68_PRIMARY>",
+    "--precision",
+    "256",
+    "--rss-kib",
+    "98304",
+    "--out-prefix",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-three-frame-m94m96-r1"
+  ],
+  "before_execution": [
+    "Restore the new source text at the indicated prepared path and verify its exact SHA256.",
+    "Read the complete actual R68 primary SHA256 through CLI; do not infer it from the producer hash.",
+    "Confirm old R104 primary and resource files plus every source and frame leaf dependency exist at their guarded paths or byte-identical restored aliases.",
+    "Obtain root16532 formal terminal and the single-Arb slot release; do not overlap another Arb task.",
+    "Run the standard resource_run wrapper so actual exitcode, signal, wall time and peak RSS remain on disk."
+  ],
+  "actual_primary_identity": {
+    "sha256": "62156ade93e31729c7500e79dbc01c3f4267d1a89a2b7730af7fe1c6440df45a",
+    "bytes": 429376,
+    "session": "54526",
+    "tool_exitcode": 0,
+    "wait4_exitcode": 0
+  },
+  "coverage": {
+    "source_segments": 18,
+    "source_leaves": 10793,
+    "modes": [
+      94,
+      96
+    ],
+    "V_powers": [
+      2,
+      1,
+      0
+    ]
+  },
+  "norm": "absolute physical strong output, two separate component sups and one factor1+m; no target V divisor",
+  "scope": "Only improved diagonal source bounds; the complete old off-diagonal and both initial-trace columns remain",
+  "output_globs": [
+    "<out-prefix>.json",
+    "<out-prefix>-completed-cell*-segment*.json",
+    "<out-prefix>-failure.json if incomplete",
+    "<out-prefix>-resource.json",
+    "<out-prefix>.log"
+  ],
+  "resource_observation_cap_kib": 98304,
+  "mathematical_parameters_changed": false,
+  "source_or_radial_quadrature_changed": false,
+  "old_versions_overwritten": false
+}

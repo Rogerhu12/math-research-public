@@ -1,0 +1,136 @@
+{
+  "scope": "Exact C2 repair bounds for the stored Fourier-state quintic pieces.\n\nAll binary64 coefficients and physical mesh points are interpreted as exact\nrationals. At an internal knot, the repaired common jets are the average of\nthe two one-sided value/first/second jets. Each piece receives the unique\nquintic endpoint-jet correction. This program computes exact bounds without\nchanging the saved packet. It does not repair the background profile, certify\nisometry, or turn an open prefix into a closed surface.\n",
+  "input": "notes/2026-11-12-strong-angle-vu032-q085-m20.json.gz",
+  "input_sha256": "4562ab36dcfcdbef4456ed89429288caafb4c495cf248101c90240c23cad0441",
+  "source_sha256": "fd83b2cc2694153c2279efa3cee52294bef5098859a9b6217e510f1c0fa49859",
+  "physical_state_count": 61,
+  "interval_count": 888,
+  "internal_seam_count": 887,
+  "nonzero_scalar_jet_jumps": 162321,
+  "physical_mesh_exact_binary": true,
+  "coefficients_exact_binary": true,
+  "correction_definition": "Common interior jets are exact averages; exterior endpoint jets stay unchanged; unique degree-at-most-five Hermite correction on each original physical interval.",
+  "repaired_vector_curve_is_exactly_C2": true,
+  "original_packet_modified": false,
+  "background_profile_repaired": false,
+  "exact_isometry_certified": false,
+  "min_interval_length": {
+    "numerator": "73050534095",
+    "denominator": "2251799813685248",
+    "decimal_upper": 3.244095396537361e-05
+  },
+  "hermite_bernstein_bounds": [
+    [
+      "1",
+      "2/5",
+      "1/20"
+    ],
+    [
+      "5",
+      "2",
+      "1/4"
+    ],
+    [
+      "20",
+      "12",
+      "2"
+    ]
+  ],
+  "max_unrepaired_state_jump": [
+    {
+      "order": 0,
+      "numerator": "569814482877804742677223793827104713279061563366603288863025794216547629",
+      "denominator": "509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
+      "decimal_upper": 1.118909021730974e-18,
+      "location": {
+        "knot": 402,
+        "state": 1
+      }
+    },
+    {
+      "order": 1,
+      "numerator": "362178975185618710381838841096569764083794274633732677005",
+      "denominator": "883423532389192164791648750371459257913741948437809479060803100646309888",
+      "decimal_upper": 4.0997207104741333e-16,
+      "location": {
+        "knot": 184,
+        "state": 41
+      }
+    },
+    {
+      "order": 2,
+      "numerator": "2608365170551526116302191788420972912770577",
+      "denominator": "784637716923335095479473677900958302012794430558004314112",
+      "decimal_upper": 3.3242923635882046e-15,
+      "location": {
+        "knot": 252,
+        "state": 41
+      }
+    }
+  ],
+  "cartesian_Fourier_perturbation_bounds": {
+    "position": {
+      "numerator": "16761781868588566049672537625821539238035492365559430047893553267792689460954325218606644066836896875",
+      "denominator": "80695308690215893426747474125094121072803306025913234775958104891895238188026287332176417290004307232371974124148359168",
+      "decimal_upper": 2.0771693101684475e-19,
+      "location": {
+        "interval": 398,
+        "s_left": 1.4314242679411775,
+        "s_right": 1.4415370078279126
+      }
+    },
+    "radial_first": {
+      "numerator": "115035438491343263332361951457251391180251853551288144332468388880059016707674568821887375",
+      "denominator": "102670750714271069859551921965144152216137747851424766353944964658322744514347556738356148010288743972864",
+      "decimal_upper": 1.1204304798694097e-15,
+      "location": {
+        "interval": 472,
+        "s_left": 2.178679251580027,
+        "s_right": 2.178712039175023
+      }
+    },
+    "radial_second": {
+      "numerator": "38475699292893991582318302210563321196036523092309183556849465877442193803440049889606875",
+      "denominator": "280527249366014808209004788042308142562660797984304957989253513242835563336547256513901451129389056",
+      "decimal_upper": 1.3715494441216745e-10,
+      "location": {
+        "interval": 472,
+        "s_left": 2.178679251580027,
+        "s_right": 2.178712039175023
+      }
+    },
+    "angle_first": {
+      "numerator": "49176363779321146210293209765092019403899425231199644672895881351283477299463468306745070401644458125",
+      "denominator": "80695308690215893426747474125094121072803306025913234775958104891895238188026287332176417290004307232371974124148359168",
+      "decimal_upper": 6.094079640751615e-19,
+      "location": {
+        "interval": 398,
+        "s_left": 1.4314242679411775,
+        "s_right": 1.4415370078279126
+      }
+    },
+    "angle_second": {
+      "numerator": "19860647384800178783909881230072276556097294741635530086442751371859641348755197880426431623588453075",
+      "denominator": "10086913586276986678343434265636765134100413253239154346994763111486904773503285916522052161250538404046496765518544896",
+      "decimal_upper": 1.9689518716428914e-18,
+      "location": {
+        "interval": 391,
+        "s_left": 1.360761646076789,
+        "s_right": 1.370846201855008
+      }
+    },
+    "mixed": {
+      "numerator": "172904947160058546417646590513865185511270241251099101491626749920605550565997777794845375",
+      "denominator": "51335375357135534929775960982572076108068873925712383176972482329161372257173778369178074005144371986432",
+      "decimal_upper": 3.3681442077159187e-15,
+      "location": {
+        "interval": 472,
+        "s_left": 2.178679251580027,
+        "s_right": 2.178712039175023
+      }
+    }
+  },
+  "coordinate_scope": "Derivatives in physical meridian s and computational angle eta. Material-angle conversion is separate; the same smooth reference map must be added to both expressions.",
+  "seconds": 6.388024027997744,
+  "peak_RSS_KiB": 40736
+}

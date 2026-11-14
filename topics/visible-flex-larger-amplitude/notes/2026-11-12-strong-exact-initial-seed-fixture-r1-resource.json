@@ -1,0 +1,17 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "node",
+    "--max-old-space-size=32",
+    "computations/strong_exact_stage_seed_check.mjs",
+    "--out",
+    "notes/2026-11-12-strong-exact-initial-seed-fixture-r1.json"
+  ],
+  "wall_seconds": 0.7366354465484619,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 55716,
+  "user_seconds": 0.148141,
+  "system_seconds": 0.073072,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

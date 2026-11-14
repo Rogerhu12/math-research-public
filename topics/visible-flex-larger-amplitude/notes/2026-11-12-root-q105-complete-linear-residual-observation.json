@@ -1,0 +1,69 @@
+{
+  "scope": "Completed-event observation only, no solver changes or new physical run; no inference of failure cause or forward-error bound.",
+  "sources": {
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r4-disk-events.jsonl.gz": "f5b94f0b355c838befc7da6962efef85ca83cc1fcdf0ab9876a62d9ba72daed3",
+    "notes/2026-11-12-strong-q090-current-control-response.json": "ced9247c118f12760d63449ee997745bb2c9c6988bc48f863fa17bec082e6e10"
+  },
+  "q105_r4_complete_checks": [
+    {
+      "elapsed_seconds": 1236.1107088810004,
+      "column": 0,
+      "residual_infinity": 1.8150221993765148e-17,
+      "rhs_infinity": 2.2387090164746533e-05,
+      "solution_infinity": 288116.710728403,
+      "numerical_normwise_backward_error": 6.881372894088784e-29
+    },
+    {
+      "elapsed_seconds": 1338.1531906960008,
+      "column": 0,
+      "residual_infinity": 3.29077593964216e-17,
+      "rhs_infinity": 0.00015348730694980054,
+      "solution_infinity": 1078468.5862800544,
+      "numerical_normwise_backward_error": 3.3331312324978585e-29
+    },
+    {
+      "elapsed_seconds": 1419.7932501680007,
+      "column": 0,
+      "residual_infinity": 1.3799013743719807e-17,
+      "rhs_infinity": 3.841992271123016e-05,
+      "solution_infinity": 869001.8102467526,
+      "numerical_normwise_backward_error": 1.7345585550458845e-29
+    },
+    {
+      "elapsed_seconds": 2258.226614233001,
+      "column": 0,
+      "residual_infinity": 2.4754537883506927e-17,
+      "rhs_infinity": 3.841992271123016e-05,
+      "solution_infinity": 1563631.9182633823,
+      "numerical_normwise_backward_error": 1.7293253481883312e-29
+    },
+    {
+      "elapsed_seconds": 2413.78849404,
+      "column": 0,
+      "residual_infinity": 2.0587400480811787e-17,
+      "rhs_infinity": 4.18963490476606e-05,
+      "solution_infinity": 1490694.9462552387,
+      "numerical_normwise_backward_error": 1.5085827753576028e-29
+    },
+    {
+      "elapsed_seconds": 3226.283514651999,
+      "column": 0,
+      "residual_infinity": 9.716293762130398e-17,
+      "rhs_infinity": 4.18963490476606e-05,
+      "solution_infinity": 3051116.1861394336,
+      "numerical_normwise_backward_error": 3.47839682598153e-29
+    }
+  ],
+  "absolute_residual_min": 1.3799013743719807e-17,
+  "absolute_residual_max": 9.716293762130398e-17,
+  "old_q090_reduced_system": {
+    "dimension": [
+      142,
+      142
+    ],
+    "raw_condition2": 2.4024324370816794e+17,
+    "physical_column_condition2": 3780615232.402658,
+    "scope": "Different old q090 problem, not current q096 or full BVP conditioning"
+  },
+  "decision": "Keep current equations and solver. The observed absolute full-matrix residuals do not support changing the solver because of a large raw-coordinate step alone. If a new actual solve stalls and the factor remains available, save its actual endpoint matrix and physical column units for diagnosis."
+}

@@ -1,0 +1,25 @@
+{
+  "status": "Formal resource-guard stop; no family certificate produced",
+  "session": 80625,
+  "formal_exit": 1,
+  "resource": "notes/2026-11-12-root-anisotropic-auxiliary-family-r1-resource.json",
+  "source_sha256": "88ca040649952d6fd19da7117ad96924c6a5d35be7e7625c711bccc6f35d9511",
+  "files": [
+    {
+      "path": "computations/root_anisotropic_auxiliary_centre_family.py",
+      "bytes": 15548,
+      "sha256": "88ca040649952d6fd19da7117ad96924c6a5d35be7e7625c711bccc6f35d9511"
+    },
+    {
+      "path": "notes/2026-11-12-root-anisotropic-auxiliary-family-r1-plan.json",
+      "bytes": 1777,
+      "sha256": "1b2e6d59750d87207f8a66d850eaa8dd26e1e2ece2c61600abfa684fe7ea60ca"
+    },
+    {
+      "path": "notes/2026-11-12-root-anisotropic-auxiliary-family-r1-resource.json",
+      "bytes": 1358,
+      "sha256": "015009668ed1cc66864d44303326da61c232693da528cb5fc92a0f73ac001349"
+    }
+  ],
+  "continuation": "Independent v2 streams the same certified cell records; the declared observer, mathematical axes and gates remain unchanged."
+}

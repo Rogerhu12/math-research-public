@@ -1,0 +1,43 @@
+{
+  "scope": "Disk-backed original collocation/QR, with real streamed backward checks.\n\nThis replaces storage only. The original pointwise Jacobians, Newton rules,\nRMS gates, true full-H tail checks and full physical audit remain in force.\nThe matrix and QR arenas are anonymous temporary files, never result files.\n",
+  "configuration": {
+    "backward_error_tolerance": 5e-11,
+    "heartbeat_seconds": 15.0,
+    "temporary_parent": "/workspace/scratch/d1aa462cfc02/strong-work"
+  },
+  "source_sha256": {
+    "strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+    "root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+    "root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "strong_block_qr.py": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb"
+  },
+  "stats": {
+    "jacobian_callbacks": 0,
+    "jacobian_points": 0,
+    "assembled_matrices": 0,
+    "factors": 0,
+    "linear_solves": 0,
+    "maximum_numerical_backward_error": 0.0
+  },
+  "memory": {
+    "prefix": {
+      "pid": 7,
+      "PPid": 6,
+      "VmHWM": 268904,
+      "VmRSS": 227336,
+      "Threads": 2
+    },
+    "direct_owned_children": [],
+    "prefix_user_seconds": 4.143865,
+    "prefix_system_seconds": 0.914944,
+    "prefix_peak_rss_kib": 268904
+  },
+  "seconds": 7.49860079499922,
+  "exact_float64_storage": true,
+  "original_equations_and_nonlinear_gates_unchanged": true,
+  "factor_backward_error_is_numerical_not_an_interval_certificate": true,
+  "no_prefix_success_implied_by_linear_backward_check": true,
+  "formal_summary_exists": true,
+  "formal_solver_success": false,
+  "formal_audit_pending": null
+}

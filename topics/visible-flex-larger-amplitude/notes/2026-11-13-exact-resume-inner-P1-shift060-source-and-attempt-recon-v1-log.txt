@@ -1,0 +1,24 @@
+{"step": 1, "max_t": 0.000308688210670073, "max_t_cell": 15, "far_scaled": 4.794965616419485e-15, "head_near": 1.2213124353157315e-09, "head_rest": 2.40246439788171e-49, "high": 9.809478992621075e-09, "relative_change": 1.0}
+{"step": 2, "max_t": 4992.370636759202, "max_t_cell": 24, "far_scaled": 2.7093387460277164e-06, "head_near": 4.8785469084938036e-06, "head_rest": 0.00736603753687848, "high": 9.816746429146703e-09, "relative_change": 1.0}
+{"step": 4, "max_t": 347153665166.6787, "max_t_cell": 24, "far_scaled": 80.47391999087502, "head_near": 0.008281143951249651, "head_rest": 27.08063617720313, "high": 198868170601.88324, "relative_change": 0.9999999999999352}
+/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py:58: RuntimeWarning: overflow encountered in multiply
+  sl=(23/9)*C*(L+lo+ne)+(23/18)*var*var+270*aa*(C+var)*(C*var+var*var/2)
+/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py:58: RuntimeWarning: invalid value encountered in multiply
+  sl=(23/9)*C*(L+lo+ne)+(23/18)*var*var+270*aa*(C+var)*(C*var+var*var/2)
+/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py:59: RuntimeWarning: overflow encountered in multiply
+  sq=(23/18)*t*t;tt=270*aa*(B+t)*(B*t+t*t/2)
+/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py:59: RuntimeWarning: invalid value encountered in multiply
+  sq=(23/18)*t*t;tt=270*aa*(B+t)*(B*t+t*t/2)
+/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py:62: RuntimeWarning: invalid value encountered in matmul
+  out[:213]=gl@sl+fd[:213]*v[640]
+/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py:63: RuntimeWarning: invalid value encountered in matmul
+  out[213:426]+=gh['near']@h['near'];out[426:639]+=gh['rest']@h['rest'];out[639]+=gi*sum(h['infinite'])
+Traceback (most recent call last):
+  File "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py", line 121, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py", line 91, in main
+    if not np.isfinite(rr).all():raise ArithmeticError('Noncertifying radius proposal diverged')
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ArithmeticError: Noncertifying radius proposal diverged
+{"event": "child_exit", "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n", "command": ["/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python", "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-P1-shift060-641-recon-v1.py", "--out-prefix", "/workspace/scratch/d1aa462cfc02/exact-work/inner-P1-shift060-641-recon-r1"], "wall_seconds": 3.070193290710449, "exitcode": 1, "termination_signal": null, "peak_rss_kib": 58148, "user_seconds": 2.717142, "system_seconds": 0.20469299999999999, "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"}

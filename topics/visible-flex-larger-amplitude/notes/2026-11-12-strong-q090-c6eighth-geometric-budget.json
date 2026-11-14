@@ -1,0 +1,66 @@
+{
+  "checkpoint": "notes/2026-11-12-strong-samechart-vu032-q090-c6eighth-checkpointed-recovered-r1.json.gz",
+  "diameter_sample": 3.8893970793738086,
+  "kappa_sample": 8.295138125682385,
+  "kappa_D_sample": 32.2630859990314,
+  "reciprocal_kappa_D_sample": 0.030995175106002634,
+  "core_gap_lower": 0.17916446383149107,
+  "core_gap_over_cloud_D": 0.046064842487189936,
+  "phase_cloud": {
+    "phase": 1.5707963267948966,
+    "hausdorff_sample": 0.18183565517274322,
+    "held_over_D_sample": 0.046751630512875966,
+    "forward": 0.1818356551727432,
+    "backward": 0.18183565517274322,
+    "forward_witness": [
+      -0.040495266190457985,
+      1.0822159339577453,
+      0.0
+    ],
+    "forward_nearest": [
+      -0.06694819544426843,
+      0.9023147165466514,
+      -0.0
+    ],
+    "backward_witness": [
+      -1.0822159339577453,
+      0.04049526619045802,
+      0.0
+    ],
+    "backward_nearest": [
+      -0.9023147165466514,
+      0.06694819544426865,
+      0.0
+    ]
+  },
+  "scope": "Design samples only: no continuous diameter/curvature/reach or whole-surface held certificate.",
+  "geometry_resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "python",
+      "-u",
+      "computations/root_prefix_geometry.py",
+      "--source-topic",
+      "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+      "--checkpoint",
+      "notes/2026-11-12-strong-samechart-vu032-q090-c6eighth-checkpointed-recovered-r1.json.gz",
+      "--port",
+      "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+      "--out",
+      "notes/2026-11-12-strong-q090-c6eighth-geometry.json",
+      "--radial",
+      "241",
+      "--angular",
+      "128",
+      "--phases",
+      "1"
+    ],
+    "wall_seconds": 3.5945675373077393,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 110488,
+    "user_seconds": 1.879027,
+    "system_seconds": 0.353835,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  }
+}

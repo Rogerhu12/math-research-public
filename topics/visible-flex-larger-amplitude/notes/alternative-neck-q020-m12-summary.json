@@ -1,0 +1,665 @@
+{
+  "scope": "Nonlinear two-control prefix at an m2/m4 double linear resonance.\n\nThe first support coefficient q and the second coefficient -q/(10 sqrt(2))\nare fixed. Delta and the descending speed vd replace the two corresponding\nlinear matching constraints; higher support modes remain unknown. All\noutputs are finite LINEAR-tail-DN prefixes, never complete closed surfaces.\n",
+  "solver_success": true,
+  "base_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.09709375,
+    "vu": 0.25,
+    "vd": 0.96,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.23484080028265214,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 8.0,
+    "descending_turn_curvature": 8.0,
+    "descending_sync_curvature": 8.0,
+    "terminal_peak_fraction": 0.1
+  },
+  "requested_q": 0.02,
+  "modes": 12,
+  "source_git_head": "869436630c99aa5a68afb55bd8877c826034d117",
+  "secondary_law": "linear",
+  "secondary_scale": 0.2,
+  "interface_hashes": {
+    "root_dual_core_bvp.py": "630741d6ab9b78853e9d1aeabb29ded6dd919ac1e179d290d2bb747f780d1504",
+    "geometric-general-core-chart.py": "7678b2b43984b74c94b948efb21ea014f75a25841ed40527e0b76c569190e0cb",
+    "numerical-m2-prefix.py": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360",
+    "root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "alternative-neck-provider.py": "77c2994538717bfd26bd96ed475553bece7d9a315afd9c054153698926cab41a",
+    "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+    "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+    "alternative-angle-plateau-connector.py": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7",
+    "alternative-direct-tail-connector.py": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+  },
+  "warm_start": {
+    "checkpoint": "topics/visible-flex-larger-amplitude/notes/alternative-neck-q008-m10.json.gz",
+    "metadata_sha256": "d13ced3bfc15fe2c4ba4935bdb80e58b76460734552ddbc78fccef05d24b75fb",
+    "conversion": {
+      "scope": "Initial-guess representation conversion, not a new solution or changed physical curve before finite projection.",
+      "old_angular_chart": "general-support-core-blend-v1",
+      "new_angular_chart": "general-support-core-blend-v1",
+      "new_reference_coefficients": [
+        0.02,
+        -0.001414213562373095
+      ],
+      "new_reference_frequencies": [
+        2,
+        4
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.09984719083351601,
+        "vu": 0.25,
+        "vd": 0.9611713558413112,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.8689804963021789,
+        "boost_length": 0.23484080028265214,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 8.0,
+        "descending_turn_curvature": 8.0,
+        "descending_sync_curvature": 8.0,
+        "terminal_peak_fraction": 0.1
+      },
+      "physical_length": 2.9868029084599423,
+      "old_modes": 10,
+      "new_modes": 12,
+      "old_gauge": 0.008,
+      "new_gauge": 0.02,
+      "radial_samples": 442,
+      "angular_projection": 800,
+      "height_angular": 128,
+      "height_quadrature_order": 6,
+      "height_definition": "The source mean-height antiderivative is reconstructed with the stated angular quadrature and span-wise Gauss order; no interval integration certificate is asserted.",
+      "maximum_inverse_iterations": 4,
+      "sampled_projection_errors": {
+        "position": 2.9796358219591634e-13,
+        "radial_first": 2.9728145856104166e-13,
+        "radial_second": 6.792119033762804e-12,
+        "angular_first": 9.811864744216077e-13,
+        "angular_second": 1.6718010447678842e-11,
+        "mixed": 4.801536785757571e-12,
+        "angle_inverse": 3.099742684753437e-13
+      },
+      "mean_correction_max": [
+        5.180839587970443e-05,
+        0.0002769499524805652,
+        0.003898501020794143
+      ],
+      "new_inlet_state_max": 0.5986175043224282,
+      "warning": "The nonzero s-dependent height correction must be retained to represent the same saved image. No PDE solving occurred.",
+      "amplitude_scaling": "linear",
+      "amplitude_ratio": 2.5,
+      "boundary_correction_max": 0.006955788703959024,
+      "higher_core_guess_scaling": "q ratio to ceil(harmonic order/2)",
+      "height_mean_disposition": "The conversion records the preserved mean; the subsequent warm deformation is not claimed to preserve the old image. The solved BVP independently integrates its own mean velocity.",
+      "final_scope": "Deformed warm initial guess only; a fresh nonlinear solve is required."
+    }
+  },
+  "config": {
+    "modes": 12,
+    "base_mode": 2,
+    "core_kind": "dual_support_general_chart",
+    "angular": 256,
+    "tol": 8e-07,
+    "actual_nonlinear_tail": false,
+    "fixed_metric": false
+  },
+  "parameter_layout": "p0=delta offset; p1=vd offset; p2..=support modes 6,8,...",
+  "angular_chart": "general-support-core-blend-v1",
+  "chart_reference_coefficients": [
+    0.02,
+    -0.001414213562373095
+  ],
+  "chart_reference_frequencies": [
+    2,
+    4
+  ],
+  "source_transforms": {
+    "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py": {
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+      "replacements": [
+        [
+          "self.q<.2",
+          "self.q<.48",
+          1
+        ],
+        [
+          "q<.2",
+          "q<.48",
+          1
+        ]
+      ]
+    },
+    "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+      "replacements": [
+        [
+          "self.warp_e=8*float(warp_q)",
+          "self.warp_e=3*float(warp_q)",
+          1
+        ],
+        [
+          "3*psi",
+          "2*psi",
+          4
+        ],
+        [
+          "3*theta",
+          "2*theta",
+          4
+        ],
+        [
+          "/3",
+          "/2",
+          3
+        ],
+        [
+          "rho1=3*e",
+          "rho1=2*e",
+          1
+        ],
+        [
+          "cfg,port,q,M,angular,3,fixed",
+          "cfg,port,q,M,angular,2,fixed",
+          1
+        ],
+        [
+          "self.pscale,3)",
+          "self.pscale,2)",
+          1
+        ],
+        [
+          "q<.124",
+          "q<.48",
+          1
+        ]
+      ]
+    },
+    "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "replacements": [
+        [
+          "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+          "old=sys.modules['numerical_mode2_warp']",
+          1
+        ],
+        [
+          "3*psi",
+          "2*psi",
+          5
+        ],
+        [
+          "3*theta",
+          "2*theta",
+          3
+        ],
+        [
+          "3*np.arange",
+          "2*np.arange",
+          1
+        ],
+        [
+          "*sn/3",
+          "*sn/2",
+          3
+        ],
+        [
+          "rho_p=3*e",
+          "rho_p=2*e",
+          1
+        ],
+        [
+          "rho_ps=3*ep",
+          "rho_ps=2*ep",
+          1
+        ],
+        [
+          "np.sin(2*theta)[:,:,None]*et/3",
+          "np.sin(2*theta)[:,:,None]*et/2",
+          1
+        ],
+        [
+          "max(64,self.nt),3,",
+          "max(64,self.nt),2,",
+          1
+        ],
+        [
+          "psi)/3-target",
+          "psi)/2-target",
+          2
+        ]
+      ]
+    },
+    "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "replacements": []
+    },
+    "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian.py": {
+      "sha256": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+      "replacements": []
+    }
+  },
+  "frozen_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.10371128609890298,
+    "vu": 0.25,
+    "vd": 0.9628817017888675,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.23484080028265214,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 8.0,
+    "descending_turn_curvature": 8.0,
+    "descending_sync_curvature": 8.0,
+    "terminal_peak_fraction": 0.1
+  },
+  "physical_tail_parameters": {
+    "rCut": 0.3,
+    "wCut": 0.08,
+    "width": 0.25,
+    "curvatureBound": 8,
+    "orientation": 1,
+    "prefixR": 2,
+    "prefixEnd": 15,
+    "prefixReturnStart": 8,
+    "protectCell": 160,
+    "slopeCap": 0.02,
+    "capTransition": 2,
+    "calibrationSteps": 512,
+    "warpSteps": 16,
+    "cuspAwareQuadrature": true,
+    "quadratureTolerance": 2e-10,
+    "capMode": "cut-preserving",
+    "valleyControls": [
+      4.25,
+      3.9375,
+      4.9375,
+      4.9375,
+      8.6875,
+      7.5625,
+      6.6875,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "pulseCaps": [
+      [
+        0.4,
+        0.02
+      ]
+    ],
+    "valleyCaps": [
+      0.1
+    ],
+    "maxCachedBetas": 1,
+    "warpWeightLevels": [
+      [
+        1,
+        0.5,
+        3,
+        0.05,
+        1
+      ]
+    ],
+    "spacing": 2
+  },
+  "physical_tail_cut": {
+    "radius": 0.30000000000000004,
+    "backgroundSlope": 0.08000000000000027,
+    "backgroundSecond": -1.866666666666673,
+    "E": 1.0064,
+    "Ep": -0.2986666666666687,
+    "_prefix_bridge": {
+      "kind": "finite_neck_terminal_v1",
+      "radius": 0.35,
+      "speed": 0.985,
+      "curvature": 8.0,
+      "peak_fraction": 0.1
+    }
+  },
+  "physical_port_sha256": "7a31f8675ef661ea785f8e55312bb594d8c7f722efc312fbfb74373755edc2e9",
+  "gauge_amplitude": 0.02,
+  "actual_primary_amplitude": 0.02,
+  "parameters": [
+    0.00661753609890297,
+    0.002881701788867515,
+    -2.222241779968191,
+    -10.671091357056616,
+    -148.1953984359473,
+    53.61298975313795,
+    2.5559480484953774,
+    1.032459612993013,
+    0.329482525260356,
+    -0.031882969726621614,
+    -0.0022493843794823896,
+    0.00027192602406000304
+  ],
+  "central_correction_scales": [
+    0.0004,
+    8e-06,
+    1.6e-07,
+    3.2e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "nodes": 1221,
+  "message": "The algorithm converged to the desired accuracy.",
+  "max_rms_collocation_residual": 7.997476273391013e-07,
+  "newton_domain_audit": {
+    "calls": 6,
+    "rejected_domain_trials": 0,
+    "rejected_merit_trials": 22,
+    "accepted_steps": 14,
+    "no_step": 1,
+    "minimum_alpha": 0.5
+  },
+  "core": {
+    "base_mode": 2,
+    "support_amplitude": 0.02,
+    "coefficients": [
+      0.02,
+      -0.001414213562373095,
+      -1.7777934239745524e-05,
+      -1.7073746171290585e-06,
+      -4.742252749950314e-07,
+      5.3612989753137954e-08,
+      2.5559480484953773e-09,
+      1.0324596129930131e-09,
+      3.29482525260356e-10,
+      -3.1882969726621615e-11,
+      -2.24938437948239e-12,
+      2.7192602406000305e-13
+    ],
+    "frequencies": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24
+    ],
+    "exact_perimeter": 6.283185307179586,
+    "constant_width_exact": false,
+    "width_defect_bound": 0.04286846132357836,
+    "width_min_sample": 1.9572047659063634,
+    "width_max_sample": 2.037131768801029,
+    "curvature_radius_lower": 0.9568972024372646,
+    "curvature_radius_upper": 1.0807248206747473,
+    "curvature_lower_bound": 0.9253049257956831,
+    "curvature_upper_bound": 1.045044334389264,
+    "radius_max_sample": 1.0185658844005145,
+    "radius_min_sample": 0.9786023829531817,
+    "radius_upper_bound": 1.0185658844005145,
+    "radius_lower_bound": 0.9786023829531817,
+    "support_monotone": true,
+    "phase_pi_over_base_mode_support_gap_at_phi0": 0.0399635014473329,
+    "phase_pi_over_base_mode_support_gap_lower": 0.039963489905610605
+  },
+  "meridian_length": 3.011292302087016,
+  "summary": {
+    "metric_l1": 4.0185369746649346e-08,
+    "flow_defect": 4.0651540373171646e-08,
+    "darboux_l1": 0.0001775125272214842,
+    "kappa_sample": 8.408677212352531,
+    "radius_max": 1.3139186612847749,
+    "height_max": 1.8600290149710679,
+    "root_min": 0.005146742334886101,
+    "chart_rho_min": 0.9575735931288072,
+    "support_amplitude": 0.02,
+    "core": {
+      "base_mode": 2,
+      "support_amplitude": 0.02,
+      "coefficients": [
+        0.02,
+        -0.001414213562373095,
+        -1.7777934239745524e-05,
+        -1.7073746171290585e-06,
+        -4.742252749950314e-07,
+        5.3612989753137954e-08,
+        2.5559480484953773e-09,
+        1.0324596129930131e-09,
+        3.29482525260356e-10,
+        -3.1882969726621615e-11,
+        -2.24938437948239e-12,
+        2.7192602406000305e-13
+      ],
+      "frequencies": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24
+      ],
+      "exact_perimeter": 6.283185307179586,
+      "constant_width_exact": false,
+      "width_defect_bound": 0.04286846132357836,
+      "width_min_sample": 1.9572047659063634,
+      "width_max_sample": 2.037131768801029,
+      "curvature_radius_lower": 0.9568972024372646,
+      "curvature_radius_upper": 1.0807248206747473,
+      "curvature_lower_bound": 0.9253049257956831,
+      "curvature_upper_bound": 1.045044334389264,
+      "radius_max_sample": 1.0185658844005145,
+      "radius_min_sample": 0.9786023829531817,
+      "radius_upper_bound": 1.0185658844005145,
+      "radius_lower_bound": 0.9786023829531817,
+      "support_monotone": true,
+      "phase_pi_over_base_mode_support_gap_at_phi0": 0.0399635014473329,
+      "phase_pi_over_base_mode_support_gap_lower": 0.039963489905610605
+    },
+    "inlet": {
+      "position": 2.4063939998238008e-14,
+      "first": 6.411142696404664e-13,
+      "second": 1.7311240431936537e-11,
+      "metric_l1": 1.2843641975218026e-13
+    },
+    "dn_matrix": {
+      "physical_modes": 16,
+      "psi_modes": 12,
+      "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+    },
+    "terminal_height_coeff_max": 8.458621070202207e-06,
+    "physical_bc_max": 8.036875538468577e-19,
+    "samples_s": 2590,
+    "samples_psi": 592,
+    "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+  },
+  "seconds": 130.22742867469788,
+  "alternative_neck_adapter": {
+    "scope": "Install the finite-neck metric provider, then run the existing dual BVP.\n\nAll command-line options are those of root_dual_core_bvp.py. The input port\nmust carry finite_neck_terminal_v1 metadata and the profile must select\nhermite_boost_neck. A solved output is still a finite linear-tail-DN prefix.\n",
+    "source_sha256": {
+      "alternative-neck-bvp.py": "508731deaba6e66c9ff57cbc21535eb5fe8fb976dec087e756f6e55140677ef0",
+      "alternative-neck-provider.py": "77c2994538717bfd26bd96ed475553bece7d9a315afd9c054153698926cab41a",
+      "alternative-neck-flatturn.py": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd",
+      "alternative-neck-excursion.py": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c",
+      "alternative-angle-plateau-connector.py": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7",
+      "alternative-direct-tail-connector.py": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+    }
+  }
+}

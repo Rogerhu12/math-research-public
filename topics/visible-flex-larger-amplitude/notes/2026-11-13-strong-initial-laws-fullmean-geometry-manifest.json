@@ -1,0 +1,84 @@
+{
+  "schema": "initial-laws-fullmean-geometry-source-preparation-archive-v1",
+  "files": [
+    {
+      "path": "computations/root_actual_geometry_field_initial_laws.py",
+      "sha256": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+      "bytes": 6937
+    },
+    {
+      "path": "computations/root_actual_geometry_fullmean_initial_laws_plan.py",
+      "sha256": "a6c537cea001d5fcc4104164bee5194620913b9a53bfa1fad0ccf6800ddfcb34",
+      "bytes": 14635
+    },
+    {
+      "path": "computations/root_geometry_minimax_initial_laws_controls.py",
+      "sha256": "ccdcc95d3e7dd2a1447714578e6976179f1b5c32d3495e13a074399872c31e57",
+      "bytes": 12501
+    },
+    {
+      "path": "computations/root_geometry_minimax_initial_laws_combined_plan.py",
+      "sha256": "4de2252d400731c5920f6d6d4a4e3317b3c6d6f258dd00fa7b4898eb79c35b10",
+      "bytes": 7018
+    },
+    {
+      "path": "computations/root_geometry_minimax_control_constraints.py",
+      "sha256": "7d5f91ca193ef9d6c02070b5c062f278ab29a01f070eb12b66c8c9dff701cc63",
+      "bytes": 6881
+    },
+    {
+      "path": "computations/root_geometry_initial_laws_adapter_prepare.py",
+      "sha256": "80b88aec5385924710dded5cec3eb1ca353a4cc1b07f2f369cd690a9a70d17f9",
+      "bytes": 15252
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-geometry-baseline-plan-resource.json",
+      "sha256": "b71ff870ab9f4201acabea90aec8455ffceccd630d5d4185b46a5fd764d28887",
+      "bytes": 2181
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-geometry-q106-baseline-plan.json",
+      "sha256": "79244dce07a4fcbb8da34bf9651e147ebcc38bf3c2a16ea68df816a266131c5a",
+      "bytes": 8992
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-geometry-q106-grid.json",
+      "sha256": "049dc31fccb4aad22bbf13676c35d088d996c3cb4a8e42e1cdc2e9867f205b57",
+      "bytes": 81513
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-geometry-source-prepare.json",
+      "sha256": "621ec2fa05cd808236d0495d74484aef8a941b811f28af5c514d974a6f56af56",
+      "bytes": 17738
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-geometry-source-resource.json",
+      "sha256": "68a4808df46a2e23163579c536b23859de0da2b5fd1f45e51060d72cf82d836e",
+      "bytes": 830
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-geometry-warm-wrapper-resource.json",
+      "sha256": "afccf62202072c0e909d3a107b319244f663da45e94a7c5d5cf3c3b1f9fc7980",
+      "bytes": 824
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-geometry-warm-wrapper-source.json",
+      "sha256": "494983396967beefbce959302c1c48de25757d06b130a01c9cc2c7b06dba170c",
+      "bytes": 6694
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-fullmean-geometry-preparation.md",
+      "sha256": "b137ce4107858b6e67fff8fa5279c56ada664610fff85b65e4f35a0409edc03a",
+      "bytes": 6939
+    }
+  ],
+  "three_actual_preparations_formal_exit0": true,
+  "all_original_sources_immutable": true,
+  "default_control_count": 7,
+  "geometry_fields_executed": 0,
+  "response_columns_computed": 0,
+  "LPs_executed": 0,
+  "ODE_Node_Newton_Flow_calls": 0,
+  "baseline_plan_only_q106_accepted_primary_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+  "no_optional_zero_profile_keys_inserted": true
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "actual-active-continuous-mean-source-checkpoint-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "utc": "2026-11-13T15:33:50.081134+00:00",
+  "files": [
+    {
+      "path": "computations/strong_newg_complex_angular_mean_strip.py",
+      "sha256": "013a0355bbd7a85d4fe64cabda6faa3140929caf85335986a44f083fe29be336",
+      "bytes": 20025
+    },
+    {
+      "path": "computations/strong_newg_radial_gauss6_mean_error.py",
+      "sha256": "fefe7507c3a0446b2510db2efded7fe6c1618f585f42a038ec577a9c57c46912",
+      "bytes": 13772
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-active-continuous-mean-checkpoint-r1-complex-ownership.json",
+      "sha256": "56155d9f6bfcd8a48235e63f8f4509a79cc673357d18f6ced524a1d1dab0b053",
+      "bytes": 1812
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-active-continuous-mean-checkpoint-r1-complex-heartbeat-snapshot.json",
+      "sha256": "717821c724a7d79b3ae455f0b52b0a09fee7149a146163e868cc01daa76df232",
+      "bytes": 515
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-active-continuous-mean-checkpoint-r1-radial-ownership.json",
+      "sha256": "fc9e9d8b8370588ea4434944c3b0119201a30c6c9a3c74d7f384f092be15a120",
+      "bytes": 2026
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-active-continuous-mean-checkpoint-r1-radial-heartbeat-snapshot.json",
+      "sha256": "a459b4867c650c5a5e44b372a0aa862a5e9eee58f69080cd41e059e41a3f6e9e",
+      "bytes": 516
+    }
+  ],
+  "jobs": [
+    {
+      "role": "complex",
+      "private_directory": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complex-mean-strip-r1",
+      "tool_session_at_snapshot": 74371,
+      "heartbeat_snapshot": {
+        "task_prefix": "q106-actual-complete-complex-strip-and-uniform-mean",
+        "utc": "2026-11-13T15:33:33.565746+00:00",
+        "elapsed_seconds": 2780.104879104001,
+        "status": "running-wait4-not-returned",
+        "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+        "own_process": {
+          "owned_child_pid_in_supervisor_namespace": 5,
+          "State": "R (running)",
+          "PPid": "2",
+          "VmHWM": "117152 kB",
+          "VmRSS": "110832 kB",
+          "Threads": "1"
+        },
+        "received_signals": []
+      },
+      "ownership": {
+        "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+        "created_utc": "2026-11-13T14:47:13.460825+00:00",
+        "task_prefix": "q106-actual-complete-complex-strip-and-uniform-mean",
+        "supervisor_pid": 2,
+        "supervisor_pid_namespace": "pid:[4026532516]",
+        "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+        "command": [
+          "python",
+          "computations/strong_newg_complex_angular_mean_strip.py",
+          "--background",
+          "binary-background-C2-r1/certificate.json",
+          "--state-repair",
+          "q106-C2-comparison-r1/certificate.json.gz",
+          "--radial",
+          "q106-newg-packet-r1/packet-manifest.json",
+          "--table",
+          "newg-gauss64-r1/certificate.json",
+          "--background-source",
+          "computations/strong_newg_binary_background_C2_comparison.py",
+          "--domain",
+          "q106-continuous-mean-domain-r4/certificate.json.gz",
+          "--primary",
+          "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+          "--out",
+          "q106-complex-mean-strip-r1/certificate.json.gz"
+        ],
+        "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+        "resource_file": "q106-complex-mean-strip-r1/resource.json",
+        "heartbeat_file": "q106-complex-mean-strip-r1/heartbeat.json",
+        "owned_child_pid": 5,
+        "status": "spawned",
+        "resource_limits_modified": false,
+        "automatic_restarts": 0,
+        "owned_child_process_group": 1,
+        "start_new_session": false,
+        "inherited_process_group": true,
+        "spawned_utc": "2026-11-13T14:47:13.472798+00:00"
+      },
+      "formal_resource_exists": false,
+      "final_primary_exists": false
+    },
+    {
+      "role": "radial",
+      "private_directory": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-radial-gauss6-mean-r1",
+      "tool_session_at_snapshot": 13932,
+      "heartbeat_snapshot": {
+        "task_prefix": "q106-actual-all-original-cell-radial-Gauss6-mean-cost",
+        "utc": "2026-11-13T15:33:40.700736+00:00",
+        "elapsed_seconds": 1629.8843415310002,
+        "status": "running-wait4-not-returned",
+        "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+        "own_process": {
+          "owned_child_pid_in_supervisor_namespace": 5,
+          "State": "R (running)",
+          "PPid": "2",
+          "VmHWM": "71288 kB",
+          "VmRSS": "71288 kB",
+          "Threads": "1"
+        },
+        "received_signals": []
+      },
+      "ownership": {
+        "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+        "created_utc": "2026-11-13T15:06:30.816222+00:00",
+        "task_prefix": "q106-actual-all-original-cell-radial-Gauss6-mean-cost",
+        "supervisor_pid": 2,
+        "supervisor_pid_namespace": "pid:[4026532871]",
+        "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+        "command": [
+          "python",
+          "computations/strong_newg_radial_gauss6_mean_error.py",
+          "--background",
+          "binary-background-C2-r1/certificate.json",
+          "--state-repair",
+          "q106-C2-comparison-r1/certificate.json.gz",
+          "--radial",
+          "q106-newg-packet-r1/packet-manifest.json",
+          "--table",
+          "newg-gauss64-r1/certificate.json",
+          "--background-source",
+          "computations/strong_newg_binary_background_C2_comparison.py",
+          "--domain",
+          "q106-continuous-mean-domain-r4/certificate.json.gz",
+          "--primary",
+          "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+          "--height-source",
+          "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+          "--out",
+          "q106-radial-gauss6-mean-r1/certificate.json.gz"
+        ],
+        "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+        "resource_file": "q106-radial-gauss6-mean-r1/resource.json",
+        "heartbeat_file": "q106-radial-gauss6-mean-r1/heartbeat.json",
+        "owned_child_pid": 5,
+        "status": "spawned",
+        "resource_limits_modified": false,
+        "automatic_restarts": 0,
+        "owned_child_process_group": 1,
+        "start_new_session": false,
+        "inherited_process_group": true,
+        "spawned_utc": "2026-11-13T15:06:30.837112+00:00"
+      },
+      "formal_resource_exists": false,
+      "final_primary_exists": false
+    }
+  ],
+  "input_sha256": {
+    "/workspace/scratch/d1aa462cfc02/geometry-work/binary-background-C2-r1/certificate.json": "a3f57c4efdbd5170183cd97ffe4d2828c57c6a2c13c5f603fd1ed144f99db60f",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/q106-C2-comparison-r1/certificate.json.gz": "d848f7a1996e7cb620275e86d336faa0d22d84c1e44f5a2ee707c1e29a337dda",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/q106-newg-packet-r1/packet-manifest.json": "2d4993d9d5735e5acafe563cbec6def27718d5b0764ad182c3588f8fedf2a83d",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/newg-gauss64-r1/certificate.json": "0a6bb86d0b492ba47ff5d34a4ef63419686aef316cacdec62ed1781f48da621d",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_binary_background_C2_comparison.py": "483b784c9c7aabde360aa04a06eea063b7dee8b1dadd0f0ae81f8be0d7f14e08",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/q106-continuous-mean-domain-r4/certificate.json.gz": "d9c057155600660827770378e9a55054bfad06003fb74405d5cb2a285cb1040f",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293"
+  },
+  "scope": "Immutable source and owned-run recovery checkpoint only. Both original runs retain their requested whole domains. No complete result, successful strip, quadrature budget, floating-error payment, reach or closed surface is claimed by this checkpoint. Active primary files are not copied or replaced.",
+  "complex_negative_rows_scope": "The original rectangle run currently has at least one failed atom, preserved as an honest incomplete-domain result. After its true exit, a separately identified periodic-boundary refinement may re-evaluate only unpaid/narrow rows. No original failed gate is relabelled.",
+  "radial_scope": "All actual 1360 exact angular nodes are enclosed on complete original radial boxes. The exact positive Gauss6/W1 payment is not yet available until all 3326 atoms and 2227 original intervals finish.",
+  "automatic_restart": false,
+  "source_or_accepted_field_modified": false
+}

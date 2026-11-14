@@ -1,0 +1,16 @@
+{
+  "status": "Static runtime manifest before depth12/far225 exclusive solve; not a successful run",
+  "files": {
+    "closure_scaled_endpoint_worker.mjs": "b3be6397e951ddbaab021e6f2d31670d8d4f2f2d7ee30c623cb6d8cfe2c8b4c7",
+    "closure_scaled_endpoint_engine.mjs": "cee4504c3f8401b2896aa6924b8774192229ff54b80c0a861c8e7d2a497671e4",
+    "closure_scaled_endpoint_graphs.mjs": "8e603fd2ba981d202cd025fa25b7f47ec99e21d5fe2b1c73911202fb5095e54d",
+    "closure_scaled_endpoint_replay.py": "1427d1e03b36a351dc9bcbf7465c17cdd60b9eccd43eeec73881a3ea2312d7a8",
+    "closure_depth_warm_remesh.mjs": "fb1f1e413cb3286e1b50ef3fabcd8081d8a001e6c92991166a162a0303af9047"
+  },
+  "semantic_notes": [
+    "Source cell parameter table reads existing calibrated binary parameters only.",
+    "Canonical Xi conversion runs after a converged response and does not modify state.",
+    "Accepted-trial callback only stores recovery state and leaves the next Jacobian and success gate unchanged.",
+    "Multi-strip diagnostics use retained finite linear labels only; omitted modes are not certified."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schema": "visible-flex-larger-sixth-window-ending-observation-v1",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "completed_main_publication": {
+    "commit": "a32e4bf4882e2bca299aeac2602b8c2e102d9d33",
+    "source_commit": "f6d34e43fa6121869ff01e7d6cf2134572ead09c",
+    "source_branch": "research/visible-flex-larger-recovery6-20261113T005617",
+    "files": 163,
+    "bytes": 27175141,
+    "owned_success_session": 18867,
+    "tool_exitcode": 0,
+    "completed_utc": "2026-11-13T01:03:13.621222+00:00",
+    "scientific_manifest_sha256": "d49d90b1e2e11af0a8cec07ca91b3b17c690eb4bb62917f51485c154731cd9d7",
+    "mutable_status_files_excluded_from_immutable_manifest": true
+  },
+  "last_actual_pull": {
+    "utc": "2026-11-13T01:03:00.521228+00:00",
+    "head": "48ec771d59f6f7e1e9e23d9730da57e52113afa7",
+    "root_readme_blob": "f787a306d90892d8dec765dc59747d60ba39f055",
+    "topic_readme_blob": "696eb3ba7d3a90636e51e8fbdd573b2f37cae707",
+    "diff": "",
+    "exitcode": 0
+  },
+  "publication_resource_recovery": {
+    "first_owned_session": 71933,
+    "first_tool_exitcode": 1,
+    "observed_stderr": "pack-objects died of signal 9",
+    "cause": "unknown",
+    "bounded_retry_owned_session": 83550,
+    "complete_source_branch_saved": true,
+    "ordinary_main_race_then_resume_owned_session": 18867,
+    "force_used": false,
+    "successful_git_options": [
+      "gc.auto=0",
+      "pack.threads=1",
+      "pack.window=0",
+      "pack.windowMemory=8m",
+      "pack.deltaCacheSize=1m",
+      "pack.useBitmaps=false",
+      "core.packedGitWindowSize=1m",
+      "core.packedGitLimit=32m"
+    ],
+    "tree_options": "Only own temporary index; git write-tree --missing-ok. Every new blob existed locally. Ordinary merge has current-main parent and complete source-branch parent."
+  },
+  "environment_observation": {
+    "clock_before_failed_checks": "2026-11-13 01:10:47 UTC",
+    "environment_report": "unavailable",
+    "root_wait_cell": 44,
+    "root_wait_cell_finished": true,
+    "root_wait_stdin_error": "exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 45s",
+    "root_cgroup_read": "CreateProcess failed environment_offline; no reader process was created",
+    "file_loss_inferred": false
+  },
+  "root_signed_geometry": {
+    "owned_session": 16532,
+    "launch_observed": true,
+    "process_terminal": "unknown",
+    "output_prefix": "/tmp/visible-flex-larger-20261113-root-recovery6/signed-geometry/2026-11-13-root-low46-signed-geometry-r1",
+    "work_dir": "/tmp/visible-flex-larger-20261113-root-recovery6/signed-geometry/working",
+    "source_path": "topics/visible-flex-larger-amplitude/computations/closure_outer_physical_green_signed_profiles_v3.py",
+    "source_sha256": "98b5e8a0b06688830b7aee69df9f6a76f39f94d8b259a093d476bbf78abee642",
+    "source_blob": "05725f09c0a402ec923eabad3f81cbe6e445e61e",
+    "original_v2_source_sha256": "c48606c4e127fb0d3f27479eeed11bff3c5cb69139148633ea4f74a9e1f63829",
+    "addition": "Outward signed physical phi/chi columns and physical source F on every same whole subpanel. All original numerical formulas and guards remain; chunk rows reduced to32 only for output size.",
+    "precision": 256,
+    "order": 24,
+    "root_bits": 160,
+    "remainder_bits": 100,
+    "rss_kib": 98304,
+    "chunk_rows": 32,
+    "first_recovery_action": "Read original resource and complete checkpoints. Do not claim process success/failure from the failed session transport. Preserve original complete pieces; rerun with a fresh prefix only if required original outputs are really missing."
+  },
+  "root_new_source": {
+    "status": "prepared only; not Python/AST/Arb executed",
+    "path": "topics/visible-flex-larger-amplitude/computations/root_outer_fixed_centre_low46_source.py",
+    "sha256": "746a29ed3ea33cc561a809df129e7e028bd4ce56b08bad2ec867e63f579bf8d0",
+    "blob": "7535700c2867f7cf5f010515dd90067439eeebf7",
+    "input": "Original complete R88 fixed-centre summary and its10933 signed field records. All20 inputs, both true linear selected modes and all46 outputs retained.",
+    "formula": "Q+B_c keeps its zero mode; c is the complete scalar root, enclosed by the original mean bound. B_c=ell*(2*c*(K+(1+w*w)*P_theta)+c*c). N=(Q+B_c)/(1+c+K+(1+w*w)*P_theta). Four exact finite Neumann terms before nonmean projection; remainder L^4*N uses the full unprojected W^1 norm.",
+    "scope": "New complete source of fixed Z0, not true full46 exterior solution/cut/closed surface. Subsequent Green action, LR-Z0, true head/field errors remain."
+  },
+  "pending_scientific_archival": {
+    "exact": {
+      "causal_primary": "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-causal-mixed-m94m96-r1.json",
+      "bytes": 429376,
+      "sha256": "62156ade93e31729c7500e79dbc01c3f4267d1a89a2b7730af7fe1c6440df45a",
+      "owned_session": 54526,
+      "tool_and_wait4_exitcode": 0,
+      "wall_seconds": "96.79877495765686",
+      "peak_rss_kib": 36396,
+      "completed_source_segments": 18,
+      "full_subpanels": 10880,
+      "source_resolved_material_mode_target_rows": 1026,
+      "large_primary_or_recoveries_transferred_through_API": false,
+      "small_preservation_manifest_blob": "f869e4d522760791e15da44216f349ba24aaa7a2",
+      "full_original_resource_and_paths": "notes/2026-11-13-closure-r104-outage-observation.json"
+    },
+    "tail": {
+      "pending_files": 25,
+      "mean_frame_manifest": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-complete-mean-frame-stable-manifest.json",
+      "mean_frame_manifest_sha256": "310f87e16ced42e6e6983993911e9f8b82c7835eeb406c209067e7d426b8a62d",
+      "own_curvature_manifest": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-own-curvature-stable-manifest.json",
+      "own_curvature_manifest_sha256": "b7c629ac05a2be0727c987329763508d81fce5fa111e86b42f6b71d93009cb15",
+      "observed_manifest_blob": "2d552c1e9628106d5399ff65a039cba01ca103be",
+      "first_recovery_action": "Find and SHA-check these original completed files before any rerun. Original PM/PA and first111-leaf carrier stages are already main; do not repeat them.",
+      "complete_true_same_g_error_gate": "Still unpaid: all-frequency physical(P,K) A_tau^1 difference <=1/512. Carrier conditional curvature/position comparisons do not establish an exterior solution/reach."
+    },
+    "strong": {
+      "already_main": "r1 full60 files and accepted2208-node solved raw",
+      "r2_manifest_sha256": "9c86e21de9ee10583dcb0979922c6d57a76611c94a452f58f2cdb3cc157b24c9",
+      "r3_manifest_sha256": "bf465c0002d659b22908fac8560dcedb8aa4f171cb184c760fde16be1d50731f",
+      "r4_owned_session": 21985,
+      "r4_tool_exitcode": 1,
+      "r4_wait4_and_worker_outcome": "unknown; file reader could not be created after outage",
+      "observed_note_blob": "50b48a11c31607955c749a710cab8c6da4d2119b",
+      "cached_audit_prepared_blob": "2853fed7cd8e6ce0dddd98f1d07e46d1c0ffc709",
+      "cached_plan_blob": "d8d1ac30dd31d5158051df93ee7cb41ebc1ba85b",
+      "postprocess_prepared_blob": "c1581bc3d138065bb5aa8eaeea212a1010f8965b",
+      "no_new_prefix_Newton_authorized_by_need": "Already solved prefix must be reused. Original fullH/J/audit and physical gates remain.",
+      "frozen_stage_cache_note": "All source files must be real files because the frozen engine rejects every symlink. Preserve original MJS bytes and a new complete M28 cache identity; do not reuse M24 cache.",
+      "superseded_prepared_blob": "8533fa4996c4ed25e095ffe8ff4bf228a68a7ca3",
+      "prepared_resource_binding_fix": "Old wrapper recognized only tail_frozen_worker.mjs; new stage worker uses the already frozen strong_tail_young_space_guard.resource_port_class. Only Python prepared wiring changes; no AST/worker success claimed."
+    }
+  },
+  "no_large_file_splitting_or_binary_API_transport": true,
+  "full_topic_completion_claimed": false,
+  "new_completed_small_proof_R103": {
+    "manifest_blob": "bb3102d03874443d0f6cdedbbc3b6bc264b44a66",
+    "all12_exact_arithmetic_gates": true,
+    "conditional_field_error": "<=1/512 in same true metric and full-frequency physical A_tau^1 field norm",
+    "also_required": "common reflection-centred gauge and one complete mean integration constant",
+    "position_bound": "<1/8192",
+    "reference_vector_to_true_normal_bound": "<1/4096",
+    "actual_true_exterior_or_global_reach_claimed": false
+  }
+}

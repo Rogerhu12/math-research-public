@@ -1,0 +1,32 @@
+{
+  "source_sha256": "52b1480822ebca91375fcc3e40bb5866580a413d9913b17d66f27253e91cebb7",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-low46-spectrum-v1.py",
+    "--topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1.json.gz",
+    "--modal-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1-resource.json",
+    "--field641",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-641-r1.json.gz",
+    "--field641-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-641-r1-resource.json",
+    "--window-field",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-window13-r1.json.gz",
+    "--window-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-window13-r1-resource.json",
+    "--mode-kernels",
+    "/workspace/scratch/d1aa462cfc02/root-work/inner-low46-R100-factored-r1.json.gz",
+    "--kernel-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/inner-low46-R100-factored-r1-resource.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R158-P1-low46-r1",
+    "--steps",
+    "16"
+  ],
+  "steps": 16,
+  "previous_low_bound_not_relabelled": true
+}

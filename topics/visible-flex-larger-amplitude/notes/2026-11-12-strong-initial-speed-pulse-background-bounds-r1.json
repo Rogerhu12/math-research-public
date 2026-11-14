@@ -1,0 +1,105 @@
+{
+  "scope": "Exact rational bounds for the unchanged background pieces after a pulse.\n\nCombined with the referenced first-piece Bernstein certificate, this proves\n|kappa_i|<8 for the entire surface-of-revolution prefix and bridge at the five\nlisted pulse values.  It does not bound the actual nonaxisymmetric immersion,\nthe remaining tail/cap, diameter, or reach, and it solves no BVP.\n",
+  "source_sha256_at_start": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_initial_speed_pulse_background_bounds.py": "566810dc142e4ea858c312341e874dff12ae1c533d1885c050a02fc9cbebf5a4",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+    "notes/2026-11-12-strong-initial-speed-pulse-budget-r1.json": "210d8e62fab2b3d24861d8b8bd86bf05fe6ad502e2a1e230479f64359421fd79"
+  },
+  "passed": true,
+  "checks": {
+    "positive_profile_order": true,
+    "positive_lengths_and_curvature_controls": true,
+    "positive_radius_increment_and_coast": true,
+    "pulse_keeps_initial_acceleration_and_endpoint_data": true,
+    "sin_1p4_lower_exceeds_loop_speed": true,
+    "sin_1p05_lower_exceeds_boost_speed": true,
+    "cos_p18_upper_below_loop_speed": true,
+    "cos_p21_upper_below_descending_speed": true,
+    "cos_p1_lower_above_loop_speed": true,
+    "bridge_turn_is_inward": true,
+    "descending_coast_length_positive": true,
+    "bridge_coast_length_positive": true,
+    "loop_radius_lower_exceeds_one_eighth": true,
+    "first_turn_radius_lower_exceeds_one_eighth": true,
+    "coast_and_sync_radius_exceeds_one_eighth": true,
+    "bridge_radius_exceeds_one_eighth": true,
+    "boost_curvature_below_eight": true,
+    "all_original_turn_and_brake_curvatures_below_eight": true,
+    "all_five_referenced_initial_certificates_positive": true
+  },
+  "exact_bounds": {
+    "first_turn_length_upper": "6341068275337658368/12529374451314909489",
+    "first_turn_radius_lower": "6188306175977251121/12529374451314909489",
+    "sync_length_upper": "189151184349560832/1657324662872342525",
+    "loop_radius_lower": "6587726639266061530930591841858357/44783560404862888215010737546854400",
+    "boost_curvature_upper": "9475941766826060335599042955313152/1486656585842331568336414688352995",
+    "bridge_turn_length_upper": "216172782113783808/8286623314361712625",
+    "bridge_brake_length_upper": "17722696990799433974939387063766683156951973895223419297610379024774088282476883128592459760773371/2041434009797484627799939739123679341103997131541819966461436566006605868126391776822015270204735488",
+    "bridge_coast_radial_margin_lower": "257665949538990122280439741142960338856267692841101745342364077468398079863514738455014078568493204843897004697904821/16916594660318752989731717053136023335332782382952567300512500327148618246386602772411597567915275949239806392795136000",
+    "global_background_radius_lower": "6587726639266061530930591841858357/44783560404862888215010737546854400"
+  },
+  "approximate_bounds": {
+    "first_turn_length_upper": 0.5060961582700713,
+    "first_turn_radius_lower": 0.4939038417299287,
+    "sync_length_upper": 0.11413043478260869,
+    "loop_radius_lower": 0.14710144927536228,
+    "boost_curvature_upper": 6.3739950820296825,
+    "bridge_turn_length_upper": 0.02608695652173913,
+    "bridge_brake_length_upper": 0.008681493942857143,
+    "bridge_coast_radial_margin_lower": 0.01523154953540366,
+    "global_background_radius_lower": 0.14710144927536228
+  },
+  "first_piece_certificates": [
+    {
+      "pulse_height": "0",
+      "referenced_initial_certificate_positive": true
+    },
+    {
+      "pulse_height": "1/5",
+      "referenced_initial_certificate_positive": true
+    },
+    {
+      "pulse_height": "7/20",
+      "referenced_initial_certificate_positive": true
+    },
+    {
+      "pulse_height": "1/2",
+      "referenced_initial_certificate_positive": true
+    },
+    {
+      "pulse_height": "3/5",
+      "referenced_initial_certificate_positive": true
+    }
+  ],
+  "complete_background_principal_curvature_strict_upper": 8,
+  "sample_grid_not_used_in_this_proof": true,
+  "trigonometric_bounds": "alternating rational Taylor bounds and pi<22/7",
+  "exact_binary64_profile_parameters": {
+    "cycles": "1",
+    "ramp": "3602879701896397/9007199254740992",
+    "delta": "2906534078392963/18014398509481984",
+    "vu": "5764607523034235/18014398509481984",
+    "vd": "2206763817411543/2251799813685248",
+    "start_acceleration": "8106479329266893/18014398509481984",
+    "boost_speed": "243314592262743/281474976710656",
+    "boost_length": "4485109704654299/36028797018963968",
+    "coast_outward": "0",
+    "loop_radius": "3152519739159347/9007199254740992",
+    "loop_ratio": "2476979795053773/2251799813685248",
+    "loop_speed": "8872091265919877/9007199254740992",
+    "loop_curvature": "15/2",
+    "descending_turn_curvature": "27/4",
+    "descending_sync_curvature": "2",
+    "terminal_peak_fraction": "3602879701896397/36028797018963968"
+  },
+  "exact_binary64_cut_parameters": {
+    "radius": "1351079888211149/4503599627370496",
+    "w": "2882303761517127/36028797018963968",
+    "minus_second": "4203359652212477/2251799813685248"
+  },
+  "actual_nonlinear_surface_or_tail_cap_or_reach_certified": false,
+  "BVP_evaluations": 0,
+  "Node_workers": 0,
+  "proof_explanation_file": "notes/2026-11-12-strong-initial-speed-pulse-envelope.md",
+  "seconds": 0.03716731071472168
+}

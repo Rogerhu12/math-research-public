@@ -1,0 +1,24 @@
+{
+  "status": "Complete conditional Banach theorem and a new syntax-checked implementation. No fresh joint numerical gate has run.",
+  "files": [
+    {
+      "path": "results/R43-conditional-full-head-and-reduced-proposals.md",
+      "bytes": 12534,
+      "sha256": "82e7974adb5116e0e14cf72a903d2d607dd2b6a3f4a1cd797411076fb695c1d9"
+    },
+    {
+      "path": "computations/closure_joint_head_box_reduced.py",
+      "bytes": 13974,
+      "sha256": "babcca8b685d2786db12509ebdcebb0c65642dd22d56c0b94b477908ed405d2e"
+    }
+  ],
+  "original_dimension": 428,
+  "proposal_dimension": 214,
+  "preserved_gates": [
+    "All428 nonlinear map inclusions",
+    "Full low/middle/infinite/far Lipschitz rows",
+    "Complete mean and inverse working domain",
+    "Independent actual R18 parameter domain"
+  ],
+  "prior_session90734": "Only assembled was observed; no final result or exit code; no joint existence claim."
+}

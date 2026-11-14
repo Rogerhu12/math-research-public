@@ -1,0 +1,50 @@
+{
+  "schema": "immutable-q106-exact-C2-comparison-archive-v1",
+  "files": [
+    {
+      "path": "computations/strong_newg_exact_quintic_C2_comparison.py",
+      "sha256": "71c929c36847500dd236e2d1750e4dd82d4ce1e428ad27fcf82053ae42901063",
+      "bytes": 11861,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_exact_quintic_C2_comparison.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-exact-quintic-C2-comparison-r1.json.gz",
+      "sha256": "d848f7a1996e7cb620275e86d336faa0d22d84c1e44f5a2ee707c1e29a337dda",
+      "bytes": 484663,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-C2-comparison-r1/certificate.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-exact-quintic-C2-comparison-r1-resource.json",
+      "sha256": "cdd9cb0330bea7a885bc33cab55eb69a4702a45c541d6cbf009f8610442bc177",
+      "bytes": 1506,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-C2-comparison-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-exact-quintic-C2-comparison-r1.md",
+      "sha256": "6eb22529d852a91fd21f6ea4820421b03d79f31c5da8045adc8aec80fecad613",
+      "bytes": 7727,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-C2-comparison-r1/proof.md"
+    }
+  ],
+  "actual_gate_count": 1712415,
+  "complete_internal_C2_seams": 2226,
+  "states": 85,
+  "exact_display_bounds_sum_state_suprema": [
+    [
+      "1",
+      -59
+    ],
+    [
+      "1",
+      -48
+    ],
+    [
+      "1",
+      -33
+    ]
+  ],
+  "new_comparison_field_only": true,
+  "original_accepted_files_and_target_g_unchanged": true,
+  "PDE_metric_mean_Cartesian_errors_still_separate": true,
+  "owned_wait4_exitcode": 0
+}

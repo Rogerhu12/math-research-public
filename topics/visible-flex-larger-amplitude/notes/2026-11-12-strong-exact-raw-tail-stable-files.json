@@ -1,0 +1,71 @@
+{
+  "scope": "strict source-hash locked warm-only storage extension; syntax and data guards only, no new numerical solve",
+  "created_utc": "2026-11-12T11:49:13.960085+00:00",
+  "files": [
+    {
+      "path": "computations/strong_exact_raw_recorded_tail_check.py",
+      "bytes": 2086,
+      "sha256": "61cb3321531db5718a47eeabc7813cde077387c051424b373f12543c8be9be99"
+    },
+    {
+      "path": "computations/strong_exact_raw_same_height_tail.py",
+      "bytes": 2256,
+      "sha256": "05e2244db41991af83e158f1a2e2a9da0280acbfc2f211fe66f6919c69182842"
+    },
+    {
+      "path": "computations/strong_exact_raw_tail_client.py",
+      "bytes": 2699,
+      "sha256": "ff5f521f4a40522b134710ff0db7eff9a6342637b58b5aaf1080ca370d0bafef"
+    },
+    {
+      "path": "computations/strong_exact_raw_tail_guard_check.mjs",
+      "bytes": 3112,
+      "sha256": "293cceccc82810403ac07e32d29f6e7334e170346e9b4ad657619e9062bded3b"
+    },
+    {
+      "path": "computations/strong_exact_raw_tail_warm.mjs",
+      "bytes": 3914,
+      "sha256": "d5c67a3207679f105eadbe532b27311927a5b8a783370ecfee9c58903c54b3be"
+    },
+    {
+      "path": "computations/strong_exact_raw_tail_worker.mjs",
+      "bytes": 5040,
+      "sha256": "ec69703a4b0786313c2506aae5f82ec8da39330876d15519225e2d4b7f7d2cc8"
+    },
+    {
+      "path": "computations/strong_exact_raw_three_control_bvp.py",
+      "bytes": 2421,
+      "sha256": "4c0030c38a34f99b4c9c58c02b7c74e32c2795eb55190c623d71f9771e80cc98"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-raw-worker-static-transform.json",
+      "bytes": 6004,
+      "sha256": "a03ffc1377127886fcae634e22b28b6e5ce1d194c473b0bda59a69da6addcffb"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-raw-tail-data-guards.json",
+      "bytes": 3184,
+      "sha256": "514b6e8adb549d1a38302ded4058a3bb5ca2231a33417cecbe004c76d18c7e86"
+    },
+    {
+      "path": "notes/2026-11-12-strong-exact-raw-tail-recovery.md",
+      "bytes": 3805,
+      "sha256": "4105b521c94c397c36dc6a27bda0c78ef2a7c8fb0485b19e9e83061e42fe0597"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-exactraw-r1-command-plan.json",
+      "bytes": 4431,
+      "sha256": "0b91ccda504c2b02306556a17850a6ba537259713bdd9fd5827423eed040f4b8"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-exactraw-r1-config.json",
+      "bytes": 2951,
+      "sha256": "99b40345ab8f7f76b4d64e22f226d89a5ec7e503144165f9c5f6a915b2505473"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-exactraw-r1-plan.json",
+      "bytes": 7585,
+      "sha256": "97eea9c45d738036eaeb9e6304517c674b5ab8b83a4e0450fe3b5cf3013a3758"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "same-R100-complete-low46-true-beta-independent-audit-v3",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "gate_count": 173155,
+  "gate_categories": {
+    "formal_success": 1,
+    "primary_completed": 1,
+    "same_original_domain": 1,
+    "all_exact_input_pins": 8,
+    "old_bound_covers_current_domain": 1,
+    "same_full_true_far": 1,
+    "S_squared_once": 1,
+    "full_source_part_pin": 11,
+    "all213_cell_identity": 213,
+    "complete_polynomial_source_identity": 213,
+    "complete_square_identity": 213,
+    "complete_T_identity": 213,
+    "complete_inverse_tail_identity": 213,
+    "independent_DQ_support": 9798,
+    "pointwise_material_majorant": 146970,
+    "no_free_high_to_low_Q_input": 9798,
+    "independent_shared_reference": 1065,
+    "independent_shared_DQ": 1065,
+    "independent_shared_square_T": 1065,
+    "complete_shared_cell_sum": 1065,
+    "complete213_source_coverage": 1,
+    "all46_mode_identity": 46,
+    "all_mode_source_pieces": 552,
+    "all_mode_complete_nonfar": 138,
+    "all_mode_true_far_retained": 138,
+    "all_mode_old_true_bound_identity": 138,
+    "all_mode_chosen_intersection": 138,
+    "same_original_per_mode_cut_weight": 46,
+    "all213_common_sum": 5,
+    "common_true_far_once": 5,
+    "common_complete_addition": 5,
+    "common_chosen_intersection": 5,
+    "independent_Fraction_primary_formal_success": 1,
+    "independent_Fraction_primary_all_scientific_fields": 1,
+    "independent_Fraction_primary_exact_identity": 20
+  },
+  "primary": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-low46-true-beta-r2.json.gz",
+    "sha256": "dea2caf9e9f0c7a55241862e893406c0c1652704871e3f840f74f065eebb0ce5"
+  },
+  "resource": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-low46-true-beta-r2-resource.json",
+    "sha256": "9d1a870985f83df16618604e4c99853e5012fff793b909a123dc4710e128fb76"
+  },
+  "source_sha256": "cbb814a64e527c4fda4c2d803678cd82b0d6ee5e604e185079fe205cfb79ff56",
+  "reference_primary": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-low46-true-beta-r1.json.gz",
+    "sha256": "36514408779fe8b87fcd9fcbd6a1b7044cef6ba28ed00f0ae9f4b47565145c65"
+  },
+  "reference_resource": {
+    "path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-low46-true-beta-r1-resource.json",
+    "sha256": "b9b347f797790875eaec0aa20c7926448b2d3f0603cce4550189b8dfb9975f2d"
+  },
+  "exact_rational_backend": "FLINT fmpq independent reconstruction plus scientific-field identity with Python Fraction primary; no floating point comparisons",
+  "same_original_Sunit_T1over32_domain": true,
+  "all9798_source_mode_outputs_and_shared_mass_consumed": true,
+  "complete_mean_inverse_and_true_far_retained": true,
+  "elapsed_seconds": 35.892004334000376,
+  "peak_rss_kib": 83300
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "visible-flex-R109-complete-source-polynomial-jacobian-stable-v1",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Complete theorem and22 actually executed exact BigInt gates; no new source-row Jacobian/Green/cut computation",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R109-complete-source-polynomial-and-frequency-jacobian.md",
+      "blob": "0a581895015333025640fe7efa4c729b99234be2",
+      "sha256": "fee9fb5772b29d47ce3de4a34f31fea0e8734887b2e7fa531e3f2acbb48fdf3b",
+      "bytes": 12874
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/root_complete_source_polynomial_jacobian_gates.js",
+      "blob": "699b3ed589612d2d7f002094c41e4c0d0f68f309",
+      "sha256": "17e7cd821d29ba4c638217ea43feac6abfc35669bbe97c9218ea045a078ead8a",
+      "bytes": 9441
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-root-r109-polynomial-jacobian-exact-gates.json",
+      "blob": "b036668dfd15ba2fdbcd5d086ad0f90cd35f606f",
+      "sha256": "468f0d7e12aa8a41580375ee07146858e5e1f67609fd43c1659abfdcc844b4fb",
+      "bytes": 7772
+    }
+  ],
+  "scope": {
+    "mean": "Same R33/R75 complete scalar root, all zero modes retained until projection",
+    "polynomial": "Same full physical source approximated by explicit c2/four-Neumann finite polynomial, with complete value and derivative tails",
+    "radius": "R<=1/64 for value, R<=1/128 for derivative",
+    "Jacobian_tail": "6450*c_bg*R^3; shifted q domain gives q^(-abs(m-n)) and reflection folding term q^(-m-n)",
+    "actual_fixed_centre": "R88 true linear2/4 plus original6..40, no R101 spectrum",
+    "global_radial_first_Rsigma": "<2^(-40), formed by sum of original global modal masses, never max of row sums",
+    "no_new_source_ODE_Green_M28_or_tail_execution": true
+  },
+  "actual_execution": {
+    "engine": "functions.exec V8 BigInt",
+    "gate_count": 22,
+    "all_gates": true,
+    "source_sha256": "17e7cd821d29ba4c638217ea43feac6abfc35669bbe97c9218ea045a078ead8a",
+    "no_terminal_exit_claim": true
+  },
+  "dependencies": [
+    "R33",
+    "R106",
+    "R107",
+    "R108"
+  ],
+  "followthrough": "Evaluate exact finite multipliers before adding complete Jacobian tail; keep same physical units, all46 modes, actual cut axes and shared input mass."
+}

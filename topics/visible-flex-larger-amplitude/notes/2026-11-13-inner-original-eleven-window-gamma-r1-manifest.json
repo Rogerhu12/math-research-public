@@ -1,0 +1,142 @@
+{
+  "schema": "inner-original-eleven-window-Gamma-stable-manifest-v1",
+  "scope": "Same original R33/R39/R42/R100 inner g and q continuous strip; no new nonlinear existence or new-g claim",
+  "files": [
+    {
+      "path": "computations/inner_original_window_gamma_replay.py",
+      "bytes": 14669,
+      "sha256": "891450564758b6dbac6d96808513739f32ef4d0c2fccf8a7e1d113d5e5e6c840"
+    },
+    {
+      "path": "notes/2026-11-13-inner-original-eleven-window-gamma-r1.json",
+      "bytes": 55208,
+      "sha256": "3033c330ed219a1e87420818df8dd3d7bca44c246afe4f661d68870a783847b1"
+    },
+    {
+      "path": "notes/2026-11-13-inner-original-eleven-window-gamma-r1-resource.json",
+      "bytes": 1329,
+      "sha256": "891d1b4b28f498570ea01baaad9a72787d031dd647fd8c2a93f63139a38a984c"
+    },
+    {
+      "path": "notes/2026-11-13-inner-original-eleven-window-gamma-r1-frozen-inputs.json",
+      "bytes": 2427,
+      "sha256": "5526ca91c916e851b22d9f24cbf8fcdacc0ac9e160836f8099a396d72dc19ef7"
+    },
+    {
+      "path": "notes/2026-11-13-inner-original-eleven-window-gamma-r1.md",
+      "bytes": 7305,
+      "sha256": "a70b86e61bebb6f47de6a579b9beda4fff7f331201c63f4e7467ce428fec7167"
+    }
+  ],
+  "scratch_only_derived_window_files": [
+    {
+      "index": 0,
+      "first_mode": 94,
+      "last_mode": 96,
+      "path": "window-00.json.gz",
+      "bytes": 331021,
+      "sha256": "c6483f794e7073b67c50a143ea008d4a3c16f8a2d9c84f06da5954dea3c193e3",
+      "entries": 22791
+    },
+    {
+      "index": 1,
+      "first_mode": 98,
+      "last_mode": 104,
+      "path": "window-01.json.gz",
+      "bytes": 334693,
+      "sha256": "8ec24a22793257bb307a439f8b97e4f391ee3874da35801b66a958190d586108",
+      "entries": 22791
+    },
+    {
+      "index": 2,
+      "first_mode": 106,
+      "last_mode": 112,
+      "path": "window-02.json.gz",
+      "bytes": 348215,
+      "sha256": "3886d875bd0429f673df8238655d989541ed9bdcddd5cccee7dbd8c442deacc8",
+      "entries": 22791
+    },
+    {
+      "index": 3,
+      "first_mode": 114,
+      "last_mode": 128,
+      "path": "window-03.json.gz",
+      "bytes": 353245,
+      "sha256": "f35e3f0d7310903fb02a9bd38f413039cbf1c06c2af24f01e1c84f0d58c84095",
+      "entries": 22791
+    },
+    {
+      "index": 4,
+      "first_mode": 130,
+      "last_mode": 192,
+      "path": "window-04.json.gz",
+      "bytes": 353172,
+      "sha256": "d4309a49c85f6d9f97d466d8e18e0f4f2c53ff7d02622c148dc2ff952f11bb0b",
+      "entries": 22791
+    },
+    {
+      "index": 5,
+      "first_mode": 194,
+      "last_mode": 256,
+      "path": "window-05.json.gz",
+      "bytes": 359677,
+      "sha256": "91a8aed21f43e08726a95b7776d330443e2f9814d98bb1377849b5421055de25",
+      "entries": 22791
+    },
+    {
+      "index": 6,
+      "first_mode": 258,
+      "last_mode": 512,
+      "path": "window-06.json.gz",
+      "bytes": 362028,
+      "sha256": "a98b07966bb460ea747ac411040ef71da7eb1b891db3b99ba315d43165b2d048",
+      "entries": 22791
+    },
+    {
+      "index": 7,
+      "first_mode": 514,
+      "last_mode": 1024,
+      "path": "window-07.json.gz",
+      "bytes": 367817,
+      "sha256": "30c34c2cc770bd5b2b2da85dcecca0970eb911e55b5886ada9d6f20f6d5e0c5c",
+      "entries": 22791
+    },
+    {
+      "index": 8,
+      "first_mode": 1026,
+      "last_mode": 2048,
+      "path": "window-08.json.gz",
+      "bytes": 370439,
+      "sha256": "33003cc4f98a6c300390a411e8d179fe1b0a6194e8b4e171b963c5af4abdfb0c",
+      "entries": 22791
+    },
+    {
+      "index": 9,
+      "first_mode": 2050,
+      "last_mode": 4096,
+      "path": "window-09.json.gz",
+      "bytes": 372232,
+      "sha256": "374ded82fab34b7f4197586c4431aa94f25b7b445692983ab4fe56b57e16e4b3",
+      "entries": 22791
+    },
+    {
+      "index": 10,
+      "first_mode": 4098,
+      "last_mode": 8190,
+      "path": "window-10.json.gz",
+      "bytes": 374142,
+      "sha256": "bc432f7c595e2b12f9fd2b8bffbb0cceddfd43aa95c98edc0ff52f63a644c009",
+      "entries": 22791
+    }
+  ],
+  "scratch_root": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-window-gamma-r1/output",
+  "formal_exitcode": 0,
+  "owned_wait4": true,
+  "wall_seconds": 136.85783874799745,
+  "peak_RSS_KiB": 69536,
+  "original_maximum_same_bit_count": 22791,
+  "complete_original_far_and_pure_same_bit": true,
+  "positive_entries": 250701,
+  "new_ODE_or_source_integrations": 0,
+  "reproducibility": "Frozen-inputs manifest pins all 12 existing scientific inputs and 6 existing sources; source prints every derived file SHA. Inexpensive derived window chunks and original split replay remain scratch under root rule11."
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "actual-complete-root-result-manifest-v1",
+  "created_utc": "2026-11-13T17:42:54.449949+00:00",
+  "result": "R165 finite same-CL cut posterior",
+  "owned_exitcode": 0,
+  "all_scientific_gates": true,
+  "gate_count": 40,
+  "primary_sha256": "521b9a8c79d7767b7065b5317875277f274f8bac65380b9eaf1736168a91f7f6",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R165-same-CL-cut-r1.json.gz",
+      "sha256": "521b9a8c79d7767b7065b5317875277f274f8bac65380b9eaf1736168a91f7f6",
+      "bytes": 73981,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R165-same-CL-cut-r1.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-root-R165-same-CL-cut-r1-resource.json",
+      "sha256": "687ae145e3d6c8aa0addde576fb1080cc27c3d52bdb0e13646b44a787063e54d",
+      "bytes": 942,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R165-same-CL-cut-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-R165-same-CL-cut-r1.log",
+      "sha256": "db5a821bc4c17e71835cb78ce04942a388c99d97bddc2f37514f425af4b8cd6a",
+      "bytes": 1339,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R165-same-CL-cut-r1.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-R165-input-manifest.json",
+      "sha256": "a490cf47882b85af7d199de839cd07a249ef2835b8c31cd6f7f9b407f30e8b97",
+      "bytes": 3158,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/input-manifest.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-R165-launch-plan.json",
+      "sha256": "28afa90369bc0f18955d38d6a95fd25475d3e449285f22d11e7eb7bf4297537c",
+      "bytes": 876,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/launch-plan.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-R165-original-outer-inputs.json",
+      "sha256": "ba815d57173ca8fe35269538e0f9f7a454261fa04abad09ff7f06adbe08d0fbb",
+      "bytes": 2036,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/original-outer-inputs.json"
+    },
+    {
+      "path": "computations/root_R165_same_CL_frequency_cut.py",
+      "sha256": "b7e7accbeda55ce107e60bd19410919d4ab0b023a7a5ad7959629054e161b6cb",
+      "bytes": 8523,
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R165_same_CL_frequency_cut.py"
+    },
+    {
+      "path": "results/R165-same-CL-frequency-cut.md",
+      "sha256": "1d0f031d973261033d1f72b2e77d29e14dc8bc140e003b8324d0fe9b96d1cd12",
+      "bytes": 3701,
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R165-same-CL-frequency-cut.md"
+    }
+  ],
+  "upstream_immutable_inputs": [
+    {
+      "name": "R164",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/R164-wide-nonlow-feedback-r2-certificate.json.gz",
+      "sha256": "f4c9cd8c4435a7535b09a398a2ea4cdbf800df40845de8b17da497a5c0c34042",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R164-wide-nonlow-feedback-r2-certificate.json.gz",
+      "bytes": 163962
+    },
+    {
+      "name": "R164_resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/R164-wide-nonlow-feedback-r2-resource.json",
+      "sha256": "60e4eae8b94c4d0696e48859fe74a6b852d3be78fb5e5647695c81c87caaf8d7",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R164-wide-nonlow-feedback-r2-resource.json",
+      "bytes": 993
+    },
+    {
+      "name": "R156",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/R156-P-feedback-r1-certificate.json.gz",
+      "sha256": "c9f38a066bcd9b62523acbaa6eb3ff696494883137329b3a58370ef17783a664",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/R156-P-feedback-r1-certificate.json.gz",
+      "bytes": 479285
+    },
+    {
+      "name": "R155",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/R155-centre-source-r1.json.gz",
+      "sha256": "27b3eb8637613d1cc95148455318577a84017888249d4d349e4cc80d2c0e3a79",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R155-centre-source-r1.json.gz",
+      "bytes": 125948
+    },
+    {
+      "name": "R155_resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/R155-centre-source-r1-resource.json",
+      "sha256": "c52fd64a18d393e16bdaa6f6fc3597df57e90e9d5c9962d78b5fa36f77dc2d2a",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R155-centre-source-r1-resource.json",
+      "bytes": 860
+    },
+    {
+      "name": "original_outer_inputs",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/original-outer-inputs.json",
+      "sha256": "ba815d57173ca8fe35269538e0f9f7a454261fa04abad09ff7f06adbe08d0fbb",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/original-outer-inputs.json",
+      "bytes": 2036
+    },
+    {
+      "name": "R153",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/R153-restricted-outer-posterior-r1.json.gz",
+      "sha256": "648a9611f591b6a44ff17b035fc4fc45743245d91ccee7bf9f8e1a1f2246a106",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R153-restricted-outer-posterior-r1.json.gz",
+      "bytes": 629568
+    },
+    {
+      "name": "low_helper",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/root_refined_window_cut_support.py",
+      "sha256": "3d4ac8d58f9fe7683a13d29519f379fd6eff15a4cb4a0da6721e02767626a025",
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/root_refined_window_cut_support.py",
+      "bytes": 19663
+    },
+    {
+      "name": "R116_reference",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/R165-same-CL-cut-inputs/R116-actual-low46-centre-jacobian-and-quadratic-remainder.md",
+      "sha256": "c49b631b4b3f33deff5f5683f61ecba73a3103e7f92f4d0641ecaf36a752873f",
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/results/R116-actual-low46-centre-jacobian-and-quadratic-remainder.md",
+      "bytes": 11398
+    }
+  ],
+  "upstream_recovery": "R164/R156/R155/R153 complete packages and R116 source are already preserved; restore original recorded absolute layout or create a newly identified relocated input manifest without changing mathematical bytes.",
+  "closed_surface_claimed": false
+}

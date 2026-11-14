@@ -1,0 +1,81 @@
+{
+  "scope": "Complete immutable inner Newton recovery data and checked provenance; the live original q122 continuation is unchanged. This is not RMS or nonlinear BVP acceptance.",
+  "created_utc": "2026-11-13T11:52:06.157637+00:00",
+  "original_raw_sha256": "65b981ea492b44b31bd60775d04734b2dde90aa38416b8676330561ef2e63c03",
+  "archive_check_formal_exit": 0,
+  "archive_check_resource": {
+    "file": "notes/2026-11-13-strong-q122-inner-step03-recovery-archive-resource.json",
+    "wall_seconds": 1.5374820889992407,
+    "peak_rss_kib": 44208
+  },
+  "original_launch_plan": {
+    "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-launch-plan.json",
+    "private_exact_copy": "/workspace/scratch/d1aa462cfc02/strong-work/root-frozen-q122-plans/2026-11-13-strong-q122-m28-pure-secant-actual-r1-launch-plan.json",
+    "sha256": "5025786adf96235556179121871b9990a1d691d385e7af518224cb64832bc740"
+  },
+  "required_prior_tail_fullJ_package": {
+    "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-initial-tail-fullJ-recovery-manifest.json",
+    "sha256": "2556515375785eeafb179d6bf0fc09ff94dad4c0b2139cd9b7702e41c58d20c7"
+  },
+  "physical_BVP_accepted": false,
+  "original_full_RMS_not_yet_evaluated": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-iterate-0004-cubic-000.npy.gz",
+      "sha256": "9739ebc1d900792aebe85da4102fdaa2149067652d046ebf5b4723489bc14648",
+      "bytes": 3868844
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-iterate-0004-cubic-001.npy.gz",
+      "sha256": "a118f821d93c6580763629cca82b5a2b07924801e9532fed598f47260cfd562a",
+      "bytes": 1995726
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-iterate-0004-p-000.npy.gz",
+      "sha256": "bbce31ea225a4538c0d2d6494cf3e30c52e62db2a58f544be17b6ac72e631f82",
+      "bytes": 427
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-iterate-0004-x-000.npy.gz",
+      "sha256": "73feb2f7c508c3fb756a61b24ae396f7d12e8754e64e007eba08df391289b111",
+      "bytes": 16758
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-iterate-0004-y-000.npy.gz",
+      "sha256": "cf60b9172d7958eaae42d844f24e64c84fe991a408fefc4cc03eca8bad0bdb3d",
+      "bytes": 1457302
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-iterate-0004.json.gz",
+      "sha256": "65b981ea492b44b31bd60775d04734b2dde90aa38416b8676330561ef2e63c03",
+      "bytes": 6113
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inner-step03-recovery-manifest.json",
+      "sha256": "4efdc534591c6806ff580618a7762854ad8c0904605b29153bfbc4e6be1dd009",
+      "bytes": 24067
+    },
+    {
+      "file": "computations/strong_archive_unaccepted_newton_recovery.py",
+      "sha256": "5615ec4d6dbfd7d313f9c1b6aeb3c45551104e52619810568b777fe1fb1ebe9c",
+      "bytes": 8167
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inner-step03-recovery-archive-resource.json",
+      "sha256": "bd1ed0aa3db0f5c42f0bfff7558e4da3aabc8ee3d5f8b9f856ffddcc7debd6cd",
+      "bytes": 1749
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inner-step03-recovery-archive-stdout.log",
+      "sha256": "0adf0144d87657e5cd4c99380c76202a8f4d601d6f7382438bda576f66c518fa",
+      "bytes": 2035
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inner-step03-recovery-observed.json",
+      "sha256": "368c420e30b5c1815e2e14b40e634248a81e95a2aa64c4a70df82b00dce40c74",
+      "bytes": 6201
+    }
+  ],
+  "file_count": 11,
+  "total_bytes": 7387389
+}

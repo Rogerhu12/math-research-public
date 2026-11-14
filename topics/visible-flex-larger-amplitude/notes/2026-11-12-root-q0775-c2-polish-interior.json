@@ -1,0 +1,76 @@
+{
+  "scope": "Audit the actual saved C2 polynomial at nodes, midpoints and both jet lobes.\n\nEvery reported quantity is a finite spatial sample, not a continuous bound.\nThe saved polynomial's actual second derivatives are authoritative; pointwise\nPDE derivatives are compared, never substituted. No metric or map is changed.\n",
+  "input": "notes/2026-11-12-root-q0775-c2-polish.json.gz",
+  "input_sha256": "bde0d47ffc64e5be1a678c739fda5e14f21eefbd81e9bce55bd19f867b38a9f4",
+  "source_sha256": "010784cee776ff4eb3f87fef524eaffe8280e6558dd6b676d57d4371c345eba0",
+  "config": {
+    "angular": 512,
+    "radial": 801,
+    "batch": 16,
+    "interior_fractions": [
+      0.5,
+      0.21132486540518713,
+      0.7886751345948128
+    ]
+  },
+  "sample_count": 4300,
+  "modes": 20,
+  "q": 0.0775,
+  "physical_metric_sha256": "7aa7245515c1bf7faf91c4f653bdc7c7189c937be6097ee909c640cab0a68fcf",
+  "top": {
+    "metric_component_max": {
+      "value": 2.7531055657448178e-08,
+      "s": 0.9792627888782985,
+      "psi": 0.07363107781851078,
+      "segment": "boost",
+      "interval": 182,
+      "interval_width": 0.0016341135986516209,
+      "normalized_interval_position": 0.499999999999966
+    },
+    "kappa": {
+      "value": 8.222387829159203,
+      "s": 1.0104698363297173,
+      "psi": 1.5707963267948966,
+      "segment": "first descending turn",
+      "interval": 224,
+      "interval_width": 0.0006262986376510682,
+      "normalized_interval_position": 0.21132486540502787
+    },
+    "darboux_frobenius": {
+      "value": 5.641264805959519e-05,
+      "s": 2.217910964186876,
+      "psi": 1.5707963267948966,
+      "segment": "descending speed sync",
+      "interval": 522,
+      "interval_width": 0.00024563576131697573,
+      "normalized_interval_position": 0.7886751345946862
+    },
+    "flow_defect": {
+      "value": 9.820707424052687e-08,
+      "s": 0.9867306074749391,
+      "psi": 5.608233760509904,
+      "segment": "first descending turn",
+      "interval": 193,
+      "interval_width": 0.0006198279883032898,
+      "normalized_interval_position": 0.49999999999991046
+    },
+    "actual_vs_PDE_second": {
+      "value": 8.254423463318194e-05,
+      "s": 2.217769146313957,
+      "psi": 1.5707963267948966,
+      "segment": "descending speed sync",
+      "interval": 522,
+      "interval_width": 0.00024563576131697573,
+      "normalized_interval_position": 0.2113248654053138
+    },
+    "metric_fourier_l1": {
+      "value": 2.8924096575345044e-08,
+      "s": 0.9842367068886456
+    },
+    "darboux_fourier_l1": {
+      "value": 6.700195472185107e-05,
+      "s": 2.217910964186876
+    }
+  },
+  "seconds": 20.84900188446045
+}

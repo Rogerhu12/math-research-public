@@ -1,0 +1,61 @@
+{
+  "scope": "Copy one complete pending Newton checkpoint beyond the active retention set.\n\nEvery original compressed byte and relative chunk name is retained. No solve,\nphysical audit, RMS calculation or success promotion occurs. Existing files\nare not overwritten and active ledgers/pointers are not included.\n",
+  "created_utc": "2026-11-12T13:52:16.488821+00:00",
+  "active_session": 4388,
+  "source_manifest": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003.json.gz",
+  "preserved_manifest": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003.json.gz",
+  "run_log_alpha": 0.03125,
+  "alpha_is_taken_from_run_log_not_recomputed_here": true,
+  "newton_iteration": 2,
+  "inner_call": 1,
+  "scaled_collocation_max": 0.030003332790476022,
+  "boundary_max": 9.661278361984722e-08,
+  "solver_success": false,
+  "physical_surface": false,
+  "actual_coupled_acceptance_pending": true,
+  "all_piece_hashes_checked": true,
+  "files": [
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003-x-000.npy.gz",
+      "bytes": 15080,
+      "sha256": "3c2eb2980db2c460dd14fc36fbf6f53065911fc072dd62912abf089ca652f331"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003-y-000.npy.gz",
+      "bytes": 1124789,
+      "sha256": "0bdf83e855cf6c845807823efdf79b91269068f1d8099bba4c8d549b65223d9f"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003-p-000.npy.gz",
+      "bytes": 399,
+      "sha256": "cd2a25c0b4e9643e9cd7c41b2a09d1781acf999b0af79762b09cee68c8a9a356"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003-cubic-000.npy.gz",
+      "bytes": 3883394,
+      "sha256": "ee970c337041f052cf567be9a4b68f6a709534e854b29f79dae811c4040ba105"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003-cubic-001.npy.gz",
+      "bytes": 658000,
+      "sha256": "3d27169990f4ff4dd22cee2ed045520edfa853feb16962fb250f1afc52651b27"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003.json.gz",
+      "bytes": 5220,
+      "sha256": "ace0a1ed3a1067ee1de3c13157bf81afe0aa0a90e4eb8b44751f05bfb4c669be"
+    },
+    {
+      "path": "computations/strong_preserve_inner_iterate.py",
+      "bytes": 4196,
+      "sha256": "ec168f0c55e5ae3caebcac37e2ebf22fedd4c1ebd20c8eaabe2bd91cdff7bfe0"
+    }
+  ],
+  "total_bytes": 5691078,
+  "excluded": [
+    "active latest pointer",
+    "active iterate ledger",
+    "active stdout log",
+    "active disk events"
+  ]
+}

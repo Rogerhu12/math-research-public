@@ -1,0 +1,43 @@
+{
+  "status": "Complete R72 proof and exact executed moving-centre certificate; tool/wait4 88746 exit0",
+  "created_utc": "2026-11-12T17:00:42.286717+00:00",
+  "files": [
+    {
+      "path": "computations/root_moving_auxiliary_centre_family.py",
+      "bytes": 16174,
+      "sha256": "8882dc2c7f837b1bc64a573329dcc8c6631d89f1c5e48459dd18ef03bf1ecc93"
+    },
+    {
+      "path": "results/R72-moving-auxiliary-centre-parameter-family.md",
+      "bytes": 12194,
+      "sha256": "d261900aa45a5491b4d348ab46cb432cf3c24fcb902d33b3e2702be50a905591"
+    },
+    {
+      "path": "notes/2026-11-12-root-moving-auxiliary-family-r1-plan.json",
+      "bytes": 1164,
+      "sha256": "871c12a50dc20e83802992b30ce99db53a5a37ffc77ae306239199883a1d2642"
+    },
+    {
+      "path": "notes/2026-11-12-root-moving-auxiliary-family-r1-resource.json",
+      "bytes": 1307,
+      "sha256": "415fe7ceb47a7f3796b8aafeb7106eb4220e0ab48aac90d528147dcb3d4156b1"
+    },
+    {
+      "path": "notes/2026-11-12-root-moving-auxiliary-family-r1-summary.json",
+      "bytes": 23639,
+      "sha256": "50669f53c2f7ddf8c8c7add3af0c7037e8ccf786aba49027e18fa071979c6b77"
+    },
+    {
+      "path": "notes/2026-11-12-root-moving-auxiliary-family-r1.json.gz",
+      "bytes": 609132,
+      "sha256": "119afd7fc4a9965f084fb9d13f1f306f0ef21f25c49603a6b3b9c33c9d180000"
+    }
+  ],
+  "all_original_auxiliary_rows": 213,
+  "all_original_joint_rows": 641,
+  "all_original_domain_rows": 213,
+  "parameters": "Full20 independent relative2^-10 product; remaining26 shallow low heights stay zero. Full46 auxiliary and far coordinates and full infinite-frequency correction retained.",
+  "complete_closed_surface_claimed": false,
+  "formal_exitcode": 0,
+  "total_bytes": 663610
+}

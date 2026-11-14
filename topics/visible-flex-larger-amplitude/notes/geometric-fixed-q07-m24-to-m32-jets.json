@@ -1,0 +1,40 @@
+{
+  "maximum_material_point_displacement_sample": {
+    "distance": 1.0107862624547704e-06,
+    "s": 0.8434515950694722,
+    "psi": 1.030835089459151
+  },
+  "rms_point_displacement_sample": 2.4227277288572394e-07,
+  "mean_height_difference_max": 3.789009483945449e-08,
+  "radial_samples": 1367,
+  "angular": 512,
+  "physical_material_jet_differences_max_sample": {
+    "s": {
+      "value": 6.233107902192264e-05,
+      "s": 0.8656586152451303,
+      "psi": 1.043106935762236
+    },
+    "theta": {
+      "value": 3.6600587928844364e-05,
+      "s": 1.0635303894404,
+      "psi": 0.5890486225480862
+    },
+    "ss": {
+      "value": 0.004873259935241606,
+      "s": 0.8481835471554813,
+      "psi": 4.184699589352029
+    },
+    "s_theta": {
+      "value": 0.0022926147941263113,
+      "s": 0.8638737521209134,
+      "psi": 0.9940195505498954
+    },
+    "theta_theta": {
+      "value": 0.0014284494576812185,
+      "s": 0.8495948471271793,
+      "psi": 3.2765829629237295
+    }
+  },
+  "scope": "Physical points and two jets at identical fixed material angle theta and physical s, including height mean jets; sample comparison, not a Hausdorff or continuum error certificate.",
+  "script_sha256": "39b786dd6e22193f46f9a293fa359bdd065b3e1e6abda0b513bcc4603c3ed44a"
+}

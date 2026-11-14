@@ -1,0 +1,9 @@
+# q096组合新H独立尾首次审计：执行中断
+
+Session52503已由实际工具确认退出1；worker在close之前和之后均为−9。wait4 wall340.197031s，user67.386685s/system1.674421s，peak332520KiB。具体终止原因未知，不据RSS或时长推断OOM/时限。
+
+新24维H来自root完整实际warm构造，并用原raw C-order端点和全部5个完整F-order切向按原次序重新相加，逐位一致；H2=−2.386055074591057e−5，完整H的Float64LE SHA为c486a7cac208969a2c7e4febd7961098a9e075e641ebee2596876c7179d8f4f7。新worker已通过原stored物理profile/fingerprint身份，旧q095实际tail只作不同H初猜。trace记录原geometricAmplitudeWarm ratio=1.006325859688738和完整边界校正前的既定路径；并未走same-H exact-raw快捷。
+
+终止发生在第一次完整solve/Jac期间；尚无iteration或accepted-trial文件，没有最终完整Jac/audit包，没有新尾解或新前缀解。不复用q105旧H0，也不把几何warm样本当物理验收。原目标M24/N512/depth8/steps12/parts8/tol2e−9及原fullJac/audit保持。
+
+后续先核验可跨进程复用的精确完整输入cellFlow缓存。每个已完成局部映射必须保存out/J/meanHeight/minA/minD全部二进制，完整源、物理profile、离散参数、stage与48维输入均相等才命中；全局残差、原Newton、真实完整H和最终审计仍需原样执行。这是拟续算路径，此记录不声称其已通过真实物理核对。

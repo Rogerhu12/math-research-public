@@ -1,0 +1,37 @@
+{
+  "scope": "Explicit lifecycle variant only; original child arguments and equations unchanged. No claim about prior signal9 cause.",
+  "template": "computations/strong_durable_resource_run.py",
+  "template_sha256": "c0148109572dcb887f3b4bb76fff665469c5cce4a98b9f33fd07f77a801988cf",
+  "output": "computations/strong_foreground_resource_run.py",
+  "output_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "replacements": [
+    {
+      "before": "\"\"\"Own one explicit command and persist its actual wait4 result and heartbeats.\n\nThis supervisor may be launched in a separate session so losing a tool session\ndoes not erase its ownership record. It never restarts a command or changes its\narguments, numerical options, environment, or acceptance criteria. Received\nSIGINT/SIGTERM are forwarded to the single owned child process group. An absent\nheartbeat or a missing PID in another namespace is never an exit observation.\n\"\"\"",
+      "after": "\"\"\"Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n\"\"\""
+    },
+    {
+      "before": "subprocess.Popen(command,start_new_session=True)",
+      "after": "subprocess.Popen(command)"
+    },
+    {
+      "before": "owned_child_process_group=child.pid",
+      "after": "owned_child_process_group=os.getpgid(child.pid),\n        start_new_session=False, inherited_process_group=True"
+    },
+    {
+      "before": "os.killpg(child.pid,",
+      "after": "os.kill(child.pid,"
+    },
+    {
+      "before": "target_owned_group=child.pid",
+      "after": "target_owned_child=child.pid"
+    },
+    {
+      "before": "Owned child group no longer observable",
+      "after": "Owned child no longer observable"
+    }
+  ],
+  "additional_comment_replacement": {
+    "before": "# This is only the group returned by this exact Popen invocation.",
+    "after": "# This is only the child returned by this exact Popen invocation."
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "schema": "inner-cell12-ordered-physical-panel-canonical-forced-near-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "gate_count": 15008,
+  "gates": {
+    "actual_complete_base_certificate": true,
+    "frozen_complete_base_producer": true,
+    "all_original_comparison_sources": true,
+    "all_original_physical_inputs": true,
+    "strict_original_denominators": true,
+    "original_panel_order": true,
+    "strict_original_panel": true,
+    "complete_positive_panel_geometry": true,
+    "original_positive_Peano_domain": true,
+    "every_panel_complete_cooperative_matrix": true,
+    "actual_panel_strip_loss_positive": true,
+    "actual_panel_strip_multiplier": true,
+    "whole_original_segment_cover": true,
+    "small_owned_RSS": true,
+    "complete_original_1873_panels": true,
+    "strip_loss_not_increased": true,
+    "final_small_owned_RSS": true
+  },
+  "gate_multiplicities": {
+    "actual_complete_base_certificate": 1,
+    "frozen_complete_base_producer": 1,
+    "all_original_comparison_sources": 6,
+    "all_original_physical_inputs": 5,
+    "strict_original_denominators": 1,
+    "original_panel_order": 1865,
+    "strict_original_panel": 1873,
+    "complete_positive_panel_geometry": 1873,
+    "original_positive_Peano_domain": 1873,
+    "every_panel_complete_cooperative_matrix": 1873,
+    "actual_panel_strip_loss_positive": 1873,
+    "actual_panel_strip_multiplier": 3746,
+    "whole_original_segment_cover": 8,
+    "small_owned_RSS": 7,
+    "complete_original_1873_panels": 1,
+    "strip_loss_not_increased": 1,
+    "final_small_owned_RSS": 1
+  },
+  "source_sha256": "6e7bcf9d4b818890ba9727d0d978fa4418336ab69dfa86267ad7dacccce6bcaa",
+  "input_identities": {
+    "panels": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz",
+      "sha256": "d0dc6791001a1668afa2f9442bbefbe7e6644e73b0b753943df5a9bc12258181"
+    },
+    "qdensity": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+      "sha256": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9"
+    },
+    "density": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700"
+    },
+    "positive": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-positive-highband-38.json.gz",
+      "sha256": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600"
+    },
+    "ready": {
+      "path": "inner-cell12-canonical-forced-r1/inputs/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    }
+  },
+  "base_primary_sha256": "5e03915b960e6ebdfa6847d155a82af5e54866e2bd0fde3e177815d7ea821133",
+  "base_resource_sha256": "d3cccd1b2087bbe2cdef501dff641063677000bbf4a8b80233f6f9823298e672",
+  "frozen_reference_source_sha256": {
+    "inner_true_cell13_endpoint_window_kernels.py": "cff396cf882488df91c5450490a0c345e408d3fe1a6b29f683910e97b7aa4019",
+    "closure_split_joint_io_v2.py": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0",
+    "closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390",
+    "closure_positive_linear_band_enclosure.py": "270e475e33f988ca9d48c1f68e249f2d127fa3afafd3e3d20d80cce3407a170f",
+    "closure_real_linear_head_enclosure.py": "1b8023b53eeca7a0ef28816a99b1b7d4a43f025c2482afae9e88db572e174b8e",
+    "closure_real_head_source_enclosure.py": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47",
+    "inner_cell12_canonical_forced_endpoint_kernels_v2.py": "edaca1021dd6d0118ca50e71b5900f270e8c2987e8899fdedd2578bade0d43e6"
+  },
+  "cell": 12,
+  "original_panels": 1873,
+  "segment_panel_counts": [
+    1,
+    334,
+    1,
+    640,
+    1,
+    614,
+    1,
+    280,
+    1
+  ],
+  "upper_comparison_mode": 96,
+  "maximum_positive_Peano_product_upper": [
+    "1154291497984550223001014171042725555747274149159",
+    -161
+  ],
+  "maximum_product_witness": {
+    "panel": 335,
+    "segment": 2,
+    "x_left": [
+      0,
+      1
+    ],
+    "x_right": [
+      1,
+      1
+    ]
+  },
+  "sum_diagonal_exponents_upper": [
+    "1966053603018639367704569441723665976783644867",
+    -149
+  ],
+  "sum_actual_panel_strip_loss_lower": [
+    "558323701186763006228824201232830409141080510368669981288317265923203266235",
+    -249
+  ],
+  "source_scale_squared_upper": [
+    "831575693080697414051158024083266582723667827815",
+    -151
+  ],
+  "true_w_out_lower": [
+    "5009195843206880451358015123108467938650957354180444966137680769265794402093",
+    -288
+  ],
+  "true_w_out_upper": [
+    "1011599044429186363405611761596658572129929764196",
+    -196
+  ],
+  "source_mu": {
+    "lower": {
+      "mantissa": "2167172083683224690081467372233425929631895833822494771399",
+      "binary_exponent": -260
+    },
+    "upper": {
+      "mantissa": "2167172083683224690081467372233425929631895833822494771477",
+      "binary_exponent": -260
+    }
+  },
+  "physical_output_radius": {
+    "lower": {
+      "mantissa": "5024583886833620205070489441718645886626597602665609102013",
+      "binary_exponent": -196
+    },
+    "upper": {
+      "mantissa": "5024583886833620205070489442717023035639801633898973954749",
+      "binary_exponent": -196
+    }
+  },
+  "source_units": "Weak paired Fourier coefficient in the original moving tau, multiplying d1=Vprime^2/(r*w) or d_lambda=abs(w_r/w)*Vprime^2/w in the physical kappa source. Vprime=(257/256)*sigma12*Vq; scale squared is included once.",
+  "output_units": "source_two_material_to_cut bounds sum(1+m)*exp(m*tauout)*(abs(B12*p_m)+abs(kappa_m))/w_true_out. source_two_material_to_absolute_endpoint omits only the final division by true w.",
+  "cooperative_coefficients": "Aoff=nu96*sqrt(12)*mu_hi*r_lo^-7*w_lo^-1*DeltaLogr; Boff=sqrt(12)*mu_lo^-1*r_hi^7*w_hi*DeltaLogr. d=(96^2-4)*DeltaLogr.",
+  "original_tau_definition": "tau=inner-drop*btau_prefix/btau_total. Each actual drop>=drop*panel_btau.lower/cell_btau.upper.",
+  "positive_source_recurrence": "Y_next<=exp(-m*DeltaTau_lower)*A_panel*Y_previous+A_panel*(0,I_mat/nu_m). The complete positive current-panel source has no free whole-panel strip damping.",
+  "source_scale_and_strong_weight_paid_once": true,
+  "factor_two_retained": true,
+  "not_independent_single_mode_original_ODE_matrices": true,
+  "old_higher_windows_far_infinite_mean_inverse_kept": true,
+  "new_fixedpoint_or_truecut_consistency_claimed": false,
+  "new_ODE_radial_quadrature_subdivision_source_evaluation_Node_calls": 0,
+  "rows": [
+    {
+      "window": [
+        94,
+        94
+      ],
+      "comparison_matrix_upper_mode": 96,
+      "canonical_forced_endpoint_state_upper": {
+        "d1": [
+          [
+            "506797097204329615352022015419324188562035039405",
+            -359
+          ],
+          [
+            "1043519005026098899360191617097964113451223947243",
+            -358
+          ]
+        ],
+        "d_lambda": [
+          [
+            "1445375188935697246660571698752398109342765696039",
+            -358
+          ],
+          [
+            "372011917629182264374820405440614173274250723477",
+            -354
+          ]
+        ]
+      },
+      "complete_weighted_homogeneous_matrix_upper": [
+        [
+          [
+            "794122889599672511872914782179859787385802176507",
+            -190
+          ],
+          [
+            "1229656814703080822933301323287647880134400035691",
+            -190
+          ]
+        ],
+        [
+          [
+            "408784073643476687894742033462849987143679701783",
+            -187
+          ],
+          [
+            "1265960542079794629162766919108614909707392970981",
+            -188
+          ]
+        ]
+      ],
+      "physical_output_covector_upper": [
+        [
+          "23062044790388704662287251181730599931624721413",
+          -151
+        ],
+        [
+          "1192566054929531902600110591138948437350515835099",
+          -151
+        ]
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "722543906989440849108726394304986997164609339171",
+          -333
+        ],
+        "d_lambda": [
+          "1030340389068587884680332329871498056054407321477",
+          -331
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "1043890965421386521989430948944596346282572460373",
+          -297
+        ],
+        "d_lambda": [
+          "372144520579693066225578454465567754642853951611",
+          -293
+        ]
+      },
+      "previous_full_cell_source_two_material_to_cut": {
+        "d1": [
+          "118570579867092874179744724764896502450769284805",
+          -279
+        ],
+        "d_lambda": [
+          "916042564951478387094155913954987587549377181443",
+          -266
+        ]
+      },
+      "chosen_same_material_to_cut": {
+        "d1": [
+          "1043890965421386521989430948944596346282572460373",
+          -297
+        ],
+        "d_lambda": [
+          "372144520579693066225578454465567754642853951611",
+          -293
+        ]
+      },
+      "source_common_to_cut": [
+        "874775411837059447699835777549210052571029460769",
+        -294
+      ]
+    },
+    {
+      "window": [
+        96,
+        96
+      ],
+      "comparison_matrix_upper_mode": 96,
+      "canonical_forced_endpoint_state_upper": {
+        "d1": [
+          [
+            "305120301483530868025434136531565083027923264665",
+            -359
+          ],
+          [
+            "1256514037565555148437967684683305456542828166625",
+            -359
+          ]
+        ],
+        "d_lambda": [
+          [
+            "750803828438107866726116669747847354742498851081",
+            -358
+          ],
+          [
+            "386485079048527945770859844813274251287775513159",
+            -355
+          ]
+        ]
+      },
+      "complete_weighted_homogeneous_matrix_upper": [
+        [
+          [
+            "924411685689268849514928325403005871236716919821",
+            -192
+          ],
+          [
+            "357850511484438334770130816358799725039143653019",
+            -190
+          ]
+        ],
+        [
+          [
+            "951703519817163417164106293189447401763102805375",
+            -190
+          ],
+          [
+            "368415497792171349966331163381268569746896015939",
+            -188
+          ]
+        ]
+      ],
+      "physical_output_covector_upper": [
+        [
+          "377941653498873173324127996500254156988094074985",
+          -155
+        ],
+        [
+          "324338121278167060763510852222897175735860729755",
+          -149
+        ]
+      ],
+      "source_two_material_to_absolute_endpoint": {
+        "d1": [
+          "241532842364037289265380804557124321979509796787",
+          -332
+        ],
+        "d_lambda": [
+          "1188670711288003940020338754666939262131016570205",
+          -332
+        ]
+      },
+      "source_two_material_to_cut": {
+        "d1": [
+          "87238280455131946827319104536382538767959323199",
+          -294
+        ],
+        "d_lambda": [
+          "214665607925591111353391930898944058430397526767",
+          -293
+        ]
+      },
+      "previous_full_cell_source_two_material_to_cut": {
+        "d1": [
+          "1282005062106883093593736829377034794164311366445",
+          -283
+        ],
+        "d_lambda": [
+          "218350326018263794718479913425134367502518736599",
+          -264
+        ]
+      },
+      "chosen_same_material_to_cut": {
+        "d1": [
+          "87238280455131946827319104536382538767959323199",
+          -294
+        ],
+        "d_lambda": [
+          "214665607925591111353391930898944058430397526767",
+          -293
+        ]
+      },
+      "source_common_to_cut": [
+        "516569496306314169534102966334270655628754376733",
+        -294
+      ]
+    }
+  ],
+  "elapsed_seconds": 6.655015426000318,
+  "peak_rss_kib": 28944
+}

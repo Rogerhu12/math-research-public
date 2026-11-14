@@ -1,0 +1,23 @@
+{
+  "scope": "Lossless, complete-input persistence of actual prefix fun/fun_jac calls.\n\nThis does not cache BCs, Newton decisions, RMS tests, or nonlinear tail work.\nOne immutable entry contains every input and both Jacobian outputs. A hit\nrestores the original selected parameters and baseline Flow before returning\narrays with the recorded dtype, layout and bytes. Diagnostic evaluation counts\nand the warmth of internal memoization tables are deliberately not replayed.\n",
+  "configuration": {
+    "directory": "/workspace/scratch/d1aa462cfc02/strong-work/q126-m32-tail2-prefix-cache-r1",
+    "budget_bytes": 268435456,
+    "inspect_output": null
+  },
+  "identity_sha256": "b069379a89947a36f6d4992044123f73ca21c0140d5ddbd2b6333ea1e517c493",
+  "cache_directory": "/workspace/scratch/d1aa462cfc02/strong-work/q126-m32-tail2-prefix-cache-r1/b069379a89947a36f6d4992044123f73ca21c0140d5ddbd2b6333ea1e517c493",
+  "statistics": {
+    "hits": 1,
+    "misses": 4562,
+    "completed_writes": 882,
+    "bypassed_size": 0,
+    "bypassed_budget": 3680,
+    "write_errors": 0,
+    "restored_baseline_Flow": 1
+  },
+  "observed_cache_bytes": 268411651,
+  "seconds": 5350.045754419003,
+  "no_boundary_tail_or_final_acceptance_cached": true,
+  "source_sha256": "97a2b5b0eccbef3a9645167b2c91c73503a820507136b10bfdb300a97df7f6ea"
+}

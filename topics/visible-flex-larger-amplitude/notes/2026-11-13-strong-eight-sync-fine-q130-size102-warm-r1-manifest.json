@@ -1,0 +1,86 @@
+{
+  "schema": "actual-fine-complete-warm-control-design-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "classification": "numerical unsolved design; exact finite-core local diagnostic",
+  "files": [
+    {
+      "path": "computations/archive_fine_warm_control_design.py",
+      "sha256": "2ecb82e4b90bc30753a5f47f4dee57f767949ba5a5e04a1ecd6dd309c23b1490",
+      "bytes": 11482,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/archive_fine_warm_control_design.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-prepared-core.json",
+      "sha256": "497adc4a5cec4b19c8a7a1f2d849fe5d2b5812d6cd2b1a6c198a3f4976f784c2",
+      "bytes": 34023,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-prepared-core.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-prepare-resource.json",
+      "sha256": "2b0bceae798b529a339c10c6291dc361b3b2754240e2784fcccbc45b81b71b4f",
+      "bytes": 1715,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-prepare-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-inlet.json",
+      "sha256": "6edb671f0e69a14fa342d966c09bcca05fc0e43017d4dbceaa9bbf4c712fa514",
+      "bytes": 7561,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-inlet.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-inlet-resource.json",
+      "sha256": "398b2d556a8478c53e3e38bb883cdadd1f60ba9a554167dfb2d85bc94890315b",
+      "bytes": 1950,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-inlet-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-screen.json",
+      "sha256": "e9fdd2615af85b3ae86c294d1c0d141aa79a97754bcf5b8f3b24e0ad5f4380f2",
+      "bytes": 35260,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-screen.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-resource.json",
+      "sha256": "b45ea0baba78483f2030d4dac77242d39e7af0e3835c2337b32c897a31553305",
+      "bytes": 3759,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-field.json",
+      "sha256": "6c0a909faa9a83163ffb38dd36ca1e69ae538a8666c91bc36c57d33d674d2d24",
+      "bytes": 4295,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-field.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-geometry-prepared.json",
+      "sha256": "892c37f41e2c5cf588544090b242078eb57376723967b04cf1fa90516156ecf4",
+      "bytes": 31812,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-coarse-fine-geometry-prepared.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-geometry-launch.json",
+      "sha256": "c5f73daa9347544751ab0fcc22b5690d21b44ea9d884693dce267957b22deb4b",
+      "bytes": 5771,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-geometry-launch.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-saved-budget.json",
+      "sha256": "a75dda2cc16414faa51d72213e4be0370f288d809d797d3ac76878b9fb603549",
+      "bytes": 5689,
+      "original_path": "m32-q122-r1/q130-eight-sync-tail4-size102-r1-saved-budget.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-eight-sync-fine-q130-size102-warm-r1-proof.md",
+      "sha256": "548b686de2630aacf7fc5b9887ef960127f2b0a9ccbbc70856e01200501861b2",
+      "bytes": 3006
+    }
+  ],
+  "total_bytes": 146323,
+  "geometry_chunk_count": 18,
+  "geometry_chunk_bytes_scratch_only": 26949307,
+  "actual_warm_sha256": "e9fdd2615af85b3ae86c294d1c0d141aa79a97754bcf5b8f3b24e0ad5f4380f2",
+  "actual_owned_exitcode": 0,
+  "kappa_times_size_sample": 33.66499977130741,
+  "new_BVP_Node_Newton_or_tail_calls": 0,
+  "original_failed_attempt_retained": false
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "existing-inner-field-wider-head-input-interface-v1",
+  "inputs": {
+    "density": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz",
+      "sha256": "e640e3e693ca198460de902fc8d9bb1bd909c2a7051ec099aa930a86789e0700",
+      "bytes": 281853,
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz"
+    },
+    "panel12": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz",
+      "sha256": "d0dc6791001a1668afa2f9442bbefbe7e6644e73b0b753943df5a9bc12258181",
+      "bytes": 1434563,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell12-canonical-forced-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell012.json.gz"
+    },
+    "panel13": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell013.json.gz",
+      "sha256": "7397ebc436ae5c4cd396ae2e6d5d27c4f2b45e17fae5e75f94eb0acb9e95dc22",
+      "bytes": 1502615,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-cell13-endpoint-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell013.json.gz"
+    },
+    "Cs_Lambda_modal": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/inner-restricted-expanded-modal-r1.json.gz",
+      "sha256": "d74b5972d555086b0e5dc9b7b63f6b7ee0a6399838f077da538bd79cfd497968",
+      "bytes": 1406638,
+      "original_path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-modal-r1.json.gz"
+    },
+    "Cs_Lambda_source": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/inner-restricted-expanded-source-r1-summary.json",
+      "sha256": "ce77045f3f3be8c0bbdd0379b71e4e728d5d589eca5cb8f458c9330c64cfd57d",
+      "bytes": 535707,
+      "original_path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-source-r1-summary.json"
+    },
+    "full_existing_e": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/inner-restricted-alternate4-window13.json.gz",
+      "sha256": "8259ea4d96e66ec2b479f7c2dce959034c48ab29d1da01a54c0dc6fbf008c797",
+      "bytes": 463132,
+      "original_path": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-alternate4-window13.json.gz"
+    },
+    "original_density_source": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/tail_r33_physical_density_budget.py",
+      "sha256": "a31cf7fdecfaaa55899fcd86176cafd585b1e460cd513a6305c7a3e10a3303f6",
+      "bytes": 12707,
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/tail_r33_physical_density_budget.py"
+    },
+    "original_strip_panel_source": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/tail_r33_continuous_strip_panels.py",
+      "sha256": "169a678f692b7a783ae8cb53b36ad2183e01929749cfe1692b5023ebb00be395",
+      "bytes": 10790,
+      "original_path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/tail_r33_continuous_strip_panels.py"
+    },
+    "existing_e_consumer_source": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/2026-11-13-exact-resume-inner-restricted-window13-low46-v3.py",
+      "sha256": "57d6cca7bcc4253f057c93b90bd2ac9b967fa43129995ee9386750a96d394e69",
+      "bytes": 29432,
+      "original_path": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-window13-low46-v3.py"
+    },
+    "Cs_Lambda_source_producer": {
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/wider-inner-head-inputs/2026-11-13-exact-resume-inner-restricted-complete-source-v1.py",
+      "sha256": "7adc09ca1ee631807bc36fbf0a2197f5b2725670aeef3531ce2e54c49fb48c03",
+      "bytes": 10514,
+      "original_path": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-complete-source-v1.py"
+    }
+  },
+  "complete_existing_field": "F=Cs+Lambda+e, same original R100 fixedpoint restricted to exact expanded_profile",
+  "domain": "modal.domain / full_existing_e.domain: S_product_radius3/4, T_l1_radius1/32, full exact coordinate caps4b; Cs inputs conservatively cover original whole-unit S",
+  "normalized_field_units": "Vprime=(257/256)*original_Vs; physical relative strong field is normalized mass times Vprime/w; balanced P weight B>=1",
+  "actual_strips": "cell12 inner .7617343580050646 outer .14443583074826767; cell13 inner1.0275969648140315 outer.7617343580050646; exact fields in density.rows tau_inner/tau_outer",
+  "modal_rows": "213 rows. Cs_plus_Lambda_pair_caps/common_cap in original variable tau_n strip, all46 modes; canonical_bootstrap_provenance retains wider low auxiliary data.",
+  "e_rows": "213 rows. low_mode_caps46, window_caps13, near_rest_common_caps2, fixed_low_cap, complete_infinite_cap; e not total F. Add same-row Cs+Lambda for full low, retain shared constraints.",
+  "infinity": "full_existing_e.complete_infinite_cap is a complete all>=8192 normalized common cap, not a cutoff. complete_infinite_far_source and fixed_far_cap are positive distinct quantities, retain all far dependencies.",
+  "source": "Cs_Lambda_source contains full finite numerator and inverse-tail sources for N(Cs+Lambda), not N(F). source_parts carry full Laurent arrays; their source_radial_units are original two materials. Full e changes must be repaid at the new strip.",
+  "no_new_wide_field_claim": true
+}

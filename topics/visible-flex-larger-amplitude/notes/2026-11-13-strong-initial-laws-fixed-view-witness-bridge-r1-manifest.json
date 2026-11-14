@@ -1,0 +1,41 @@
+{
+  "schema": "immutable-initial-laws-fixed-view-witness-bridge-archive-v1",
+  "files": [
+    {
+      "path": "computations/root_geometry_initial_laws_fixed_view_witness_bridge.py",
+      "sha256": "0ff509f6d2db30f64683fdffa28b621e064963370864262764259f6c54cb220a",
+      "bytes": 6273,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_initial_laws_fixed_view_witness_bridge.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-fixed-view-witness-bridge-r1-source-prepare.json",
+      "sha256": "b2721b625f1c5175becb4630a9243e254e0952e9eb0143b1ca3e83b51d483740",
+      "bytes": 597,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-witness-bridge-r1/source-prepare.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-fixed-view-witness-bridge-r1-q106.json",
+      "sha256": "eb4126a2baf8b943cf6da22f97c3e442cd366bdeb4423bb53201c5089d5eccaa",
+      "bytes": 22518,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-witness-bridge-r1/q106-bridge.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-fixed-view-witness-bridge-r1-q106-resource.json",
+      "sha256": "8302e359f786eaf0234e976542d4d1603544e2d5646365182531053cd4ec8a50",
+      "bytes": 1891,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-witness-bridge-r1/q106-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-initial-laws-fixed-view-witness-bridge-r1.md",
+      "sha256": "5b5c6f3b618976dc78c4fb681e71e243a7b47094f71ffccf58e934a861815972",
+      "bytes": 2862,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-witness-bridge-r1/proof.md"
+    }
+  ],
+  "original_gates_passed": 123,
+  "additional_actual_provider_gates_passed": 13,
+  "owned_wait4_exitcode": 0,
+  "actual_q106_same_field_bridge_only": true,
+  "q122_actual_data_still_required": true,
+  "no_new_geometry_or_BVP": true
+}

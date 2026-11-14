@@ -1,0 +1,66 @@
+{
+  "schema": "saved-point-distance-recovery-manifest-v1",
+  "scope": "Read-only actual finite point-set diagnostic; no continuous Hausdorff, closed-surface deltaHold or deltaE conclusion.",
+  "created_utc": "2026-11-13T16:15:17.902589+00:00",
+  "owned_exitcode": 0,
+  "wait4_observed": true,
+  "new_ODE_Node_Newton_or_geometry_field_calls": 0,
+  "files": [
+    {
+      "file": "computations/strong_saved_rotated_core_point_distance.py",
+      "bytes": 11868,
+      "sha256": "a7f8722c8dd3bd127f90a0df3c85d4213251d61479dc3e70b49e76d1bae04365",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_saved_rotated_core_point_distance.py"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-heartbeat.json",
+      "bytes": 311,
+      "sha256": "7f481d2ac7b9465a0322a15227a19cad683aea4a341723256cd30b60b43dea3c",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-heartbeat.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-launch-plan.json",
+      "bytes": 3381,
+      "sha256": "88873a66aeede3db499b137dbe36987ca96671d8d9e6939170c89dbaf557151b",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-launch-plan.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-ownership.json",
+      "bytes": 1983,
+      "sha256": "57519aa5b67c08b1c9f07ff5eacc9fc47891e934000deae7ff9f4b2448f1ff0b",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-ownership.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-resource.json",
+      "bytes": 1776,
+      "sha256": "2d4230b2139f48d770daa6ea9537a8dbbef71f87a0f8b2688b8e8845a414f97d",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-resource.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-stdout.log",
+      "bytes": 2250,
+      "sha256": "097f4944b1b988427a225994c1278bac875aba5ee3ed0080d9e5eb74304531dc",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-rotated-core-point-distance-r1-stdout.log"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1.json",
+      "bytes": 15200,
+      "sha256": "721944da80900b23ea9b833d18f26b1645d8b1005b9a89287e8eb6400fceb348",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-rotated-core-point-distance-r1.json"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-rotated-core-point-distance-r1.md",
+      "bytes": 4063,
+      "sha256": "fd83ddd227f0ba7176a94f4a35ff64dab6f2a1e0aa42dac4bb45ad788c545abc",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-rotated-core-point-distance-r1.md"
+    }
+  ],
+  "total_bytes": 40832,
+  "point_chunks_stored_remotely": false,
+  "scratch_regenerable_point_manifest": {
+    "file": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-point-chunks.json",
+    "sha256": "1f14804293771fa78f844937cb0d8a9a40024077ccd9fd98960accc6f34b27a6",
+    "direct_directory": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q122-r1"
+  },
+  "actual_A_full_solver_separate_and_pending": true
+}

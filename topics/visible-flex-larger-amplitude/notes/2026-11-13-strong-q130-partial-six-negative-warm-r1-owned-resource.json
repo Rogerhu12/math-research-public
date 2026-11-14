@@ -1,0 +1,25 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "q122-partial-six-q130-t256-complete-nonlinear-warm",
+  "command": [
+    "python",
+    "-c",
+    "import json,os,hashlib;from pathlib import Path;p=Path(\"m28-q122-r1/q130-t256-constant-size-plan.json\");assert hashlib.sha256(p.read_bytes()).hexdigest()==\"d79154658d018593a86835413bce59aa28be57dbf8d33358bfd8ad61c2c53c46\";d=json.loads(p.read_text());assert len(d[\"candidates\"])==1;os.chdir(d[\"cwd\"]);cmd=d[\"candidates\"][0][\"command\"];os.execv(cmd[0],cmd)"
+  ],
+  "started_utc": "2026-11-13T14:47:19.215220+00:00",
+  "finished_utc": "2026-11-13T14:50:02.954965+00:00",
+  "wall_seconds": 163.75182922100066,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 168716,
+  "user_seconds": 87.405077,
+  "system_seconds": 3.030676,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 5,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026532811]",
+  "automatic_restarts": 0
+}

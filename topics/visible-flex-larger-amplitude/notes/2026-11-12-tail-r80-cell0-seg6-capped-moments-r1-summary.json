@@ -1,0 +1,256 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "scope": "Apply the frozen R80 moment/replay/composition tools to other original pieces.\n\nOnly original cell0 pieces 0,2,4,6 are allowed. Their whole-piece R48 candidate\ndefinitions and shared endpoints already occur in the original complete data.\nThe original source, positive integrals, interval intersections, complete mean,\nactual derivatives, all finite J modes and R77 gates are unchanged. This entry\nonly changes the explicit segment guard and records its additional identity.\nIt does not apply to the distinct substage candidates or the physical-r piece8.\nAuthor: tail_refinement (GPT-6 Astra Pro, AI-assisted), 2026-11-12.\n\nSelected phase: moments",
+  "status": "Complete same true capped local-source moments refined by branch Taylor and positive root strips",
+  "cell": 0,
+  "segment": 6,
+  "counts": {
+    "original_leaves": 16,
+    "taylor_subpanels": 16,
+    "unresolved_subpanels": 0,
+    "rejected_taylor": 0,
+    "branch_subdivisions": 0
+  },
+  "parameters": {
+    "order": 16,
+    "precision": 224,
+    "remainder_bits": 48,
+    "unresolved_bits": 120,
+    "max_subpanels": 200000,
+    "rss_limit_mib": 40
+  },
+  "input_hashes": {
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-manifest.json": "d2d4867954e26be565f9a5414805ed11de3a7bc7466e829369755bf47aa04fb2",
+    "notes/2026-11-12-tail-outer-cell0-remaining-segment-bounds-r1.json": "0100cdb8095f134c97963dc384d3c7cb1e1b7b84a335380072c185815bef5046",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment6.json.gz": "055d82fabc9d2b7a5845481f4584a299eb53870f7ea7186276cb502f137ec629"
+  },
+  "source_hashes": {
+    "closure_real_outer_radius.py": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+    "tail_r33_middle_ordered_physical.py": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+    "tail_outer_segment_candidate_domain.py": "836074abfdc5758822633a591d5ed4eb0cdf1aae6d018f486308f20c2330f32f",
+    "tail_outer_positive_moment_panels.py": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+    "tail_outer_centered_quartic_fields_v2.py": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+    "tail_outer_capped_true_moments.py": "88ca736fe426fc3aa9d7f09507aba4f11dd80ea7100dcbec346df6d542b53c6b",
+    "tail_outer_remaining_piece_moment_application.py": "22af41bfe22423817a871cf49c717387b2d625d3166be9c55dbf1c59ce8cf44c"
+  },
+  "output": "notes/2026-11-12-tail-r80-cell0-seg6-capped-moments-r1-integrals.jsonl.gz",
+  "output_sha256": "fae40eedc9bec8a04ecf447745a840d89926ef6a79dd039fed3cbcb6929bc40d",
+  "bytes": 11258,
+  "total_width": {
+    "lower": {
+      "mantissa": "4867098110688184400627605249324916164923996991513399129493260724543",
+      "binary_exponent": -232
+    },
+    "upper": {
+      "mantissa": "9734196221376368801255210498649832329847993983026798258986521449133",
+      "binary_exponent": -233
+    },
+    "display": "[0.00070519805656889615776888904622599712499037299374160709413198376126 +/- 4.77e-69]"
+  },
+  "total_local_positive_moments": {
+    "00": {
+      "lower": {
+        "mantissa": "24910909944503704035502180918231387284055602047648310859372940236293",
+        "binary_exponent": -241
+      },
+      "upper": {
+        "mantissa": "24910909944503704035502180918231387284055602047648310859372940236571",
+        "binary_exponent": -241
+      },
+      "display": "[7.0495376880930778457758871741991134034590307832140480550643672553e-6 +/- 6.28e-71]"
+    },
+    "10": {
+      "lower": {
+        "mantissa": "16610149926475767895911113004399739840791455828660808235765969078115",
+        "binary_exponent": -243
+      },
+      "upper": {
+        "mantissa": "16610149926475767895911113004399739840791455828660808235765969078475",
+        "binary_exponent": -243
+      },
+      "display": "[1.1751264623856380154639418248368357938466470643781680439843870783e-6 +/- 4.74e-71]"
+    },
+    "01": {
+      "lower": {
+        "mantissa": "24928174708943305264408858869214990682774447392736985743281457866765",
+        "binary_exponent": -241
+      },
+      "upper": {
+        "mantissa": "24928174708943305264408858869214990682774447392736985743281457867021",
+        "binary_exponent": -241
+      },
+      "display": "[7.0544234432848456031995634967091293381871963429735646067257137312e-6 +/- 4.97e-71]"
+    },
+    "11": {
+      "lower": {
+        "mantissa": "4153976211963217130068559491826201803238766427129158546225095740361",
+        "binary_exponent": -241
+      },
+      "upper": {
+        "mantissa": "8307952423926434260137118983652403606477532854258317092450191480901",
+        "binary_exponent": -242
+      },
+      "display": "[1.1755336086443481930969291646769450600334740334150509180654725299e-6 +/- 2.17e-71]"
+    },
+    "b": {
+      "lower": {
+        "mantissa": "26580843249873417702202248155224677849003260205342910975650040775925",
+        "binary_exponent": -245
+      },
+      "upper": {
+        "mantissa": "26580843249873417702202248155224677849003260205342910975650048516643",
+        "binary_exponent": -245
+      },
+      "display": "[4.701320041317401302493737867370598328962950088306130970694994e-7 +/- 8.30e-68]"
+    }
+  },
+  "old_total_local_positive_moments": {
+    "00": {
+      "lower": {
+        "mantissa": "11327569949050100298699697492548143242727980989621672497",
+        "binary_exponent": -200
+      },
+      "upper": {
+        "mantissa": "11328796417118157870076976940016724080618829878322207281",
+        "binary_exponent": -200
+      },
+      "display": "[7.050e-6 +/- 8.36e-10]"
+    },
+    "10": {
+      "lower": {
+        "mantissa": "483392823720135720052224438848695924938401958726416165053",
+        "binary_exponent": -208
+      },
+      "upper": {
+        "mantissa": "483445162017520023491770987483992696105074094622674741437",
+        "binary_exponent": -208
+      },
+      "display": "[1.1751e-6 +/- 9.01e-11]"
+    },
+    "01": {
+      "lower": {
+        "mantissa": "5803722267873951855972695310250117950805719236886431523437",
+        "binary_exponent": -209
+      },
+      "upper": {
+        "mantissa": "5804350655511859014178251093752879571420911159284247552621",
+        "binary_exponent": -209
+      },
+      "display": "[7.054e-6 +/- 7.98e-10]"
+    },
+    "11": {
+      "lower": {
+        "mantissa": "1934241209422551433264022315205290425542482224889745603669",
+        "binary_exponent": -210
+      },
+      "upper": {
+        "mantissa": "1934450636080734064831022857132541502099020035128949439573",
+        "binary_exponent": -210
+      },
+      "display": "[1.176e-6 +/- 5.31e-10]"
+    },
+    "b": {
+      "lower": {
+        "mantissa": "3094249937159025169964441768640882812424704208405764191973",
+        "binary_exponent": -212
+      },
+      "upper": {
+        "mantissa": "3094584961063605128539651415615211631838100951488235517669",
+        "binary_exponent": -212
+      },
+      "display": "[4.701e-7 +/- 5.75e-11]"
+    }
+  },
+  "full_unresolved_strip_upper": {
+    "width": {
+      "lower": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "upper": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "display": "0"
+    },
+    "00": {
+      "lower": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "upper": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "display": "0"
+    },
+    "10": {
+      "lower": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "upper": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "display": "0"
+    },
+    "01": {
+      "lower": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "upper": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "display": "0"
+    },
+    "11": {
+      "lower": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "upper": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "display": "0"
+    },
+    "b": {
+      "lower": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "upper": {
+        "mantissa": "0",
+        "binary_exponent": 0
+      },
+      "display": "0"
+    }
+  },
+  "maximum_relative_Taylor_remainder": {
+    "lower": {
+      "mantissa": "22222469637286873123177532384852432342100123179344709662938596246263",
+      "binary_exponent": -421
+    },
+    "upper": {
+      "mantissa": "22222469637286873123177532384852432342100123179344709662938596246263",
+      "binary_exponent": -421
+    },
+    "display": "[4.10359173990924869943870795535514626442574139939601760235443507569e-60 +/- 3.37e-127]"
+  },
+  "gates": {
+    "same_capped_source_and_warp_functions": true,
+    "complete_original_native_x_leaf_cover": true,
+    "all_branch_sign_decisions_certified_or_complete_union": true,
+    "true_ordered_Taylor_derivative_remainders": true,
+    "every_true_integral_intersects_original_same_local_measure": true,
+    "all_five_complete_integrals_strictly_positive": true,
+    "candidate_definition_and_physical_endpoint_data_unchanged": true
+  },
+  "candidate_mean_defect_or_Green_not_recomputed": true,
+  "elapsed_seconds": 0.04748187099903589,
+  "peak_RSS_KiB": 28172
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-12T17:20:02.966220+00:00",
+  "pending_source": "353b5cf0ab6ab70ded39770f6178238f9441dd5a",
+  "session": 81022,
+  "complete_cache_tip": "1375f398d338e75966fff89fa80c9b3a0571881f",
+  "cache_complete": true,
+  "main_confirmed": false,
+  "formal_terminal_status": "unknown",
+  "requested_action": "write_stdin Ctrl-C to interrupt the pending publication",
+  "automatic_review_result": "rejected",
+  "reason": "Pending old-source publication would merge R70-R72 while a real omitted low-far boundary summand in historical R63 bookkeeping was being corrected. Do not retry that old-source publication.",
+  "safer_action": "Complete explicit mathematical addendum and corrected manuscripts, make a new immutable source containing them, and publish only that corrected source. Preserve original primary data and history.",
+  "read_only_observation": "publish-r70-r72-merge-status.json absent at17:16:32 UTC",
+  "correction_executed_session": 80848,
+  "correction_formal_exitcode": 0,
+  "correction_primary": "notes/2026-11-12-closure-r63-far-boundary-completion-r1.json",
+  "no_user_confirmation_needed_for_authorized_mathematical_fix": true
+}

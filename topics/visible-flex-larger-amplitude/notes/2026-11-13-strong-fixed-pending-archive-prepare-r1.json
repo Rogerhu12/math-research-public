@@ -1,0 +1,37 @@
+{
+  "scope": "Source-only preparation; no actual pending field archived.",
+  "prepared": true,
+  "actual_archive_executed": false,
+  "provenance": {
+    "scope": "Archive a real fixed-core pending affine-inner result without accepting it.\n\nThe unchanged original archiver targets the M+3 continuation layout. This\nfresh storage adapter instead requires the exact original fixed-core M-vector\nlayout. Every complete array/hash/RMS/current-H/prior-tail gate remains. No\nRHS, Jacobian, tail worker or BVP is evaluated by this archive operation.\n",
+    "original_source": "strong_archive_pending_prefix.py",
+    "original_sha256": "08a0d7be01d9813a7d27822658af29c9ebc462cbd3dd4080a1793e0b07f12b7e",
+    "adapter_sha256": "5a7275e00c8609060dd97b2b98b8595d993769f08b524eaac336b0e2cb961e73",
+    "transformed_sha256": "e60de0c614b22616cffb9bf74592cbf5f33ff7394d20bf795dd96430738ea793",
+    "exact_parameter_layout": "p0=log(actual_q/gauge_q); p1=(q4-reference_q4)/gauge_q^2; p2..=higher support/recorded scale",
+    "original_complete_pending_acceptance_gates_preserved": true,
+    "transformations": [
+      {
+        "before": "    modes, nodes = int(raw['identity']['modes']), len(arrays['x'])\n",
+        "after": "    if (not raw['identity']['fixed'] or raw['identity']['parameter_layout'] != FIXED_CORE_LAYOUT):\n        raise ValueError('Require the exact original fixed-core raw parameter identity')\n    modes, nodes = int(raw['identity']['modes']), len(arrays['x'])\n",
+        "count": 1
+      },
+      {
+        "before": "arrays['p'].shape != (modes+3,)",
+        "after": "arrays['p'].shape != (modes,)",
+        "count": 1
+      },
+      {
+        "before": "'The complete original augmented field is inconsistent'",
+        "after": "'The complete original fixed-core field is inconsistent'",
+        "count": 1
+      },
+      {
+        "before": "    if args.manifest.exists():\n",
+        "after": "    result['fixed_core_storage_adapter'] = FIXED_STORAGE_PROVENANCE\n    if args.manifest.exists():\n",
+        "count": 1
+      }
+    ],
+    "reverse_transform_recovers_original_source_exactly": true
+  }
+}

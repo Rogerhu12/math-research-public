@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-13T18:15:29.221851+00:00",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/root-work/R170-M20-continuous-mean-inputs/root_R170_M20_continuous_Hermite_mean.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R170-M20-continuous-mean-inputs/input-manifest.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R170-M20-continuous-mean-r1",
+    "--rss-kib",
+    "131072"
+  ],
+  "source_sha256": "e612c4ba6718cab8a089cddf676541e9d7c057b551d2688fb8a92456f4ca8e3a",
+  "input_manifest_sha256": "259f84d531b7b1d69a7504e70f62ec75d2053e6e2ce1b3f1114b0426717e9ba3",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_seconds": 120,
+    "planned_peak_rss_mib": 128
+  },
+  "purpose": "Exact-binary C0 Hermite216 centre; original3940 true background leaves; full infinite-frequency complex mean and inverse domain, no actual solution or residual claim."
+}

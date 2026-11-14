@@ -1,0 +1,41 @@
+{
+  "status": "Prepared same original segment0 complete-J/R77 audit; no new true integrals",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "command": [
+    "python",
+    "-B",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-12-tail-outer-cell0-seg0-original-finiteJ-r1-resource.json",
+    "--",
+    "python",
+    "-B",
+    "computations/tail_outer_original_piece_finite_j_v2.py",
+    "--cell-manifest",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-manifest.json",
+    "--nodes",
+    "notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--prior",
+    "notes/2026-11-12-tail-outer-cell0-remaining-segment-bounds-r1.json",
+    "--segments",
+    "0",
+    "--rss-limit-mib",
+    "40",
+    "--out",
+    "notes/2026-11-12-tail-outer-cell0-seg0-original-finiteJ-r1.json"
+  ],
+  "source_and_input_hashes": {
+    "computations/tail_outer_original_piece_finite_j_v2.py": "20e17cf86c204106ee7071523875eaa2fe10d0c3332efcc9b57dd88b7a79beb1",
+    "computations/tail_outer_original_piece_finite_j.py": "b5196622ed649c6e3a3d6ad3227f30b0c54651d402c5866cfa2102d5e6def2d4",
+    "computations/strong_resource_run.py": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-manifest.json": "d2d4867954e26be565f9a5414805ed11de3a7bc7466e829369755bf47aa04fb2",
+    "notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json": "1ac05db87c40fe4421eb6067d81448a466548060c58a2dfc0c4ea51bd7ed7582",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-cell0-remaining-segment-bounds-r1.json": "0100cdb8095f134c97963dc384d3c7cb1e1b7b84a335380072c185815bef5046"
+  },
+  "original_panels": 1,
+  "observed_RSS_limit_MiB": 40,
+  "new_Arb_source_integrals_ODEs_or_Node": 0
+}

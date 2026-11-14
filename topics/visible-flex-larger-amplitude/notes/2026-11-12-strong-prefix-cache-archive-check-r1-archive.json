@@ -1,0 +1,181 @@
+{
+  "scope": "Archive immutable completed prefix calls without duplicating live partials.\n\nDefault selection keeps complete fun_jac calls (both J and PJ) and whole-field\nRHS calls. Small finite-difference RHS entries are redundant for restoring a\ncompleted Jacobian call and are left local. Every selected gzip is byte-exact,\nall embedded inputs and outputs are hashed again, and each archive is under\n5 MB. This tool neither computes derivatives nor accepts a solution.\n",
+  "identity_sha256": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80",
+  "source_sha256": "1698ecaefa8438d19cd0c2d6cfdf17d81ae51dfcb102933aedbaa7328624adb4",
+  "prior_archives": [],
+  "archives": [
+    {
+      "path": "notes/2026-11-12-strong-prefix-cache-archive-check-r1-part000.tar.gz",
+      "bytes": 235867,
+      "sha256": "42ebb90f2814c018d3c9d7d5498ba21dfaf88f18b37493c1a73960b7fc5d3392",
+      "members": [
+        {
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/identity.json",
+          "bytes": 138602,
+          "sha256": "7a904bf3fedd45dcba2d7840cd2fd9506657955ddc5801bc7b3ff6fc06a2f1be"
+        },
+        {
+          "key": "10c6699c94002ac1f10db39a892bfdee8a3f5f1c94ee87d871fc46d3a25c1b11",
+          "operation": "fun",
+          "points": 3,
+          "bytes": 7799,
+          "sha256": "46403a2029bee9062af18f404dec36fb4b4e75b2d4dc942b9ea28c798e953485",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "e73bf4f8636b3747c4b386c55f3feede7d3865342af2f0366e94003652e54174"
+          },
+          "output_array_hashes": [
+            "fc696e6d489b131c0bbb69e3607591e2b914b909955bddcfde1ffae975a04087"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/10c6699c94002ac1f10db39a892bfdee8a3f5f1c94ee87d871fc46d3a25c1b11.bin.gz"
+        },
+        {
+          "key": "5214163d00594e6d53f80f4350067ebbf31ce2d9ce0fdb19a99958dd7999ad11",
+          "operation": "fun",
+          "points": 3,
+          "bytes": 7807,
+          "sha256": "8f895403623ecd5aa399c646a6302606a6f278b19aef9316fd2496847816b482",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "2bbc3240c0db9f59674e902b3ab250ee9d5fa8e427b778243d237d7c51ec03dc"
+          },
+          "output_array_hashes": [
+            "981ef58a15cd3565c99dde2798a82a20690db0b3a1abeb54776da18d03dc1520"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/5214163d00594e6d53f80f4350067ebbf31ce2d9ce0fdb19a99958dd7999ad11.bin.gz"
+        },
+        {
+          "key": "622dee68e499cd20ef146e65519e188c32d832c12fb8287952f64e8823dae5f2",
+          "operation": "fun",
+          "points": 3,
+          "bytes": 7798,
+          "sha256": "b6a59ec0f14e5330fa86df478660c4d673e83663beb6327c7430bed6ef5b099d",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "a2950f353fab2762cc53a07ee0723b206e55be691b453ca49c219a8b944a708a"
+          },
+          "output_array_hashes": [
+            "ef924230c9cd265ce4f12e6966a643d8d6bef8d04a93d6b6b03609f63b3f21ea"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/622dee68e499cd20ef146e65519e188c32d832c12fb8287952f64e8823dae5f2.bin.gz"
+        },
+        {
+          "key": "830afc9fb2a5e0fa1c1d098faf8b1d5f54ca18375e6b4154c2cdb74a147e4dcf",
+          "operation": "fun",
+          "points": 3,
+          "bytes": 7796,
+          "sha256": "d0eb21a60bda32a1746431e1ef3fcca95eb8713f1260caf183d415d7907a952d",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "453aacd11d80b23658fb64d3912060d7a67c871c5160d82e6881055c77ed3909"
+          },
+          "output_array_hashes": [
+            "d8c3704bae59187fe29df0ea2eafbf930e84cd14903b04936056a28987042b06"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/830afc9fb2a5e0fa1c1d098faf8b1d5f54ca18375e6b4154c2cdb74a147e4dcf.bin.gz"
+        },
+        {
+          "key": "ab6fab7d8d8ac71d8d5ef515f474af2b186695b4af8939eec777f75aa8518b62",
+          "operation": "fun_jac",
+          "points": 3,
+          "bytes": 137498,
+          "sha256": "33fe8a35c19b4e1985fc9c7f5d72fca29693d027f282c3d94e62a7e63c52161c",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "2bbc3240c0db9f59674e902b3ab250ee9d5fa8e427b778243d237d7c51ec03dc"
+          },
+          "output_array_hashes": [
+            "edfe8153336ec2e36305d920cec6294d95c5739c0fcd3bf5f9c75d5868560257",
+            "bce001d26103fd26c83fe5719a8ce99fced3104cbd417516f4df477f0627509f"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/ab6fab7d8d8ac71d8d5ef515f474af2b186695b4af8939eec777f75aa8518b62.bin.gz"
+        },
+        {
+          "key": "b4f936bee229a090499b800a9a573fa01367114fa3a2c78b4297ad1822d8c845",
+          "operation": "fun",
+          "points": 3,
+          "bytes": 7806,
+          "sha256": "dfcace0705417e1c4ab8335760eb37fed3bbdf6f9ca82e55d256fe7f816bcf6b",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "d1e9d73504d5dc13b5ee3c6b5f2f46c1ea591010b695cdd8d7f2cfdaecb2800f"
+          },
+          "output_array_hashes": [
+            "e93c0a206496167ed80e136b16b150f3eaf2d91e9f3821efea542117048dfd82"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/b4f936bee229a090499b800a9a573fa01367114fa3a2c78b4297ad1822d8c845.bin.gz"
+        },
+        {
+          "key": "ee1fb7d8b8852cd19ad5c550e81f2dfeaeeb60316d3cafd37da9c074a3117921",
+          "operation": "fun",
+          "points": 3,
+          "bytes": 7809,
+          "sha256": "8bd982e223177081c9cf0c3cad320ccae27cf73e7c9042e2b45276e0e63516f2",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "0fa9f6e4326264909b0501270b0cca5c0da82a022ed9af1fa353745015f77426"
+          },
+          "output_array_hashes": [
+            "966e4c5ae0112d49ca03af3ee3cdf391c9b19dd57f6967efe0b70c6871bae841"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/ee1fb7d8b8852cd19ad5c550e81f2dfeaeeb60316d3cafd37da9c074a3117921.bin.gz"
+        },
+        {
+          "key": "f13855592bb8cb66e88b1df9e0a5ef700d8bbdb7365b86428d9ecb00fbe0cf4c",
+          "operation": "fun",
+          "points": 3,
+          "bytes": 7791,
+          "sha256": "f3eca83e0d1a51735a047dccbd4493099cdfa4be79aa829454fa9937934f811d",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "57ff16af680c9c10202146548c3ff50d04884768b1382f4b82286e63ca6cfee0"
+          },
+          "output_array_hashes": [
+            "5cb59f3d19b2a78622f73a457999d263891ad37ea67ae4fe23c82a07cdc31560"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/f13855592bb8cb66e88b1df9e0a5ef700d8bbdb7365b86428d9ecb00fbe0cf4c.bin.gz"
+        },
+        {
+          "key": "feb2fa2d88cb7886c80619d027a5f5f17ee0e4c62ee7c5e01e67342216cc2b3f",
+          "operation": "fun",
+          "points": 3,
+          "bytes": 7807,
+          "sha256": "dec86dbcb61ef8a39dd939e46831615a3738f152c6c725bcd411f125da194bcf",
+          "input_array_hashes": {
+            "t": "5a6dca42d4a261bfc707b1c21b744a1cf9137de9f925d579e1f2789235864e9d",
+            "y": "d27fcff23d3e6cd5d48cf9967c1b0c7f5ad8d7b4662ba17b15d14c8b1a960aaa",
+            "p": "88a7613fb811fc4d77899a86c46fc876dc99b855daaebd6f1eccf6f6e2a2c5d6"
+          },
+          "output_array_hashes": [
+            "5b78eae3e045ca66f211484a887832b9c0da718e5ab801cd7a7944461f57cf68"
+          ],
+          "physical_chart_identity_sha256": "15fc5c9c3e819189808714a7499aed325fbb9938f97f8d0a30a4058e6f4de793",
+          "member": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80/feb2fa2d88cb7886c80619d027a5f5f17ee0e4c62ee7c5e01e67342216cc2b3f.bin.gz"
+        }
+      ]
+    }
+  ],
+  "selected_items": 10,
+  "omitted_redundant_small_RHS_calls": 0,
+  "all_selected_items_roundtrip_verified": true,
+  "complete_J_and_PJ_preserved": true,
+  "new_solution": false,
+  "derivative_evaluations": 0,
+  "Node_processes": 0
+}

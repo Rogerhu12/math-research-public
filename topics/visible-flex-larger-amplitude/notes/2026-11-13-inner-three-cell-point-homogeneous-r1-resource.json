@@ -1,0 +1,32 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "inner-three-cell-point-homogeneous-r1",
+  "command": [
+    "python",
+    "computations/inner_true_three_cell_two_column_point_homogeneous.py",
+    "--inputs",
+    "inner-cell12-canonical-forced-r1/inputs",
+    "--panels13",
+    "inner-cell13-endpoint-r1/inputs/2026-11-12-tail-r33-plateau2-continuous-strip-panels-cell013.json.gz",
+    "--out-prefix",
+    "inner-three-cell-point-homogeneous-r1/kernels",
+    "--rss-kib",
+    "98304"
+  ],
+  "started_utc": "2026-11-13T13:02:23.148907+00:00",
+  "finished_utc": "2026-11-13T13:02:25.661296+00:00",
+  "wall_seconds": 2.5445228289972874,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 31492,
+  "user_seconds": 0.879023,
+  "system_seconds": 0.04921,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 5,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026533654]",
+  "automatic_restarts": 0
+}

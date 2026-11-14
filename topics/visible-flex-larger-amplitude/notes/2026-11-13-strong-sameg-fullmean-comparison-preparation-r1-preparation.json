@@ -1,0 +1,34 @@
+{
+  "schema": "sameg-actual-fullmean-comparison-source-preparation-v1",
+  "prepare_only": true,
+  "all_source_and_syntax_gates": true,
+  "loaded_actual_fields": 0,
+  "fullmean_adapter": {
+    "scope": "Compare accepted same-g spectra with each field's full production mean.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nThe frozen comparison's actual-solution, same-metric, chart, gauge and tail\nidentity gates are retained. Only its angular rules for H, H_s and H_ss are\nchanged to max(512,16*(3*M+1)) independently for each complete field. The\nphysical quintics, Gauss6 height integration, material-jet formulas and both\nmeshes' nodes, midpoints and two interior second-jet lobes are unchanged.\nThe existing initial-law saved-field loader is installed in its original\npulse-then-frontload order. Geometry defaults to 768 angles and batch 8.\nPrepare-only validates source transformations without inventing endpoints,\nloading a mathematical field or starting a tail worker.\n",
+    "source_sha256": {
+      "strong_sameg_actual_comparison.py": "7c152306f09faf7de890377af4f69406677c374ed707b2bc2e391208c8d57f57",
+      "geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+      "geometric-checkpoint-core-pullback.py": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33",
+      "strong_initial_laws_interior_fullmean_audit.py": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0",
+      "strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+      "strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "strong_sameg_actual_comparison_complete_mean.py": "186175bb540800a7a4e6c0cde8c480dc87639d932c70214d630fd7c0879469bb"
+    },
+    "original_comparison_function_sha256": "af051ebec79d173f04745bf2bff631b25a2ed84194a33ff7d2c790bed8f1001f",
+    "fullmean_comparison_function_sha256": "fa29dd3258319a1bec6fd2f8581daf448b5b8c25ea118a11a5d04e04dc7441f8",
+    "bounded_fullmean_comparison_function_sha256": "c14076712e91c34c91bff5a434092bfea34249884c23cdebe58688c886833b37",
+    "original_entry_sha256": "7c152306f09faf7de890377af4f69406677c374ed707b2bc2e391208c8d57f57",
+    "transformed_entry_sha256": "192c7394fed24e24d197bc023e9831629b35e938bb6ef95b0dbd12ab3c23847c",
+    "exact_reverse_recovers_frozen_sources": true,
+    "full_sameg_and_original_actual_acceptance_gates_preserved": true,
+    "original_complete_quintics_Gauss6_material_jet_formulas_and_both_meshes_retained": true,
+    "mean_counts_for_requested_spectral_pair": {
+      "M28": 1360,
+      "M32": 1552
+    },
+    "geometry_angular": 768,
+    "independent_radial_batch": 8,
+    "new_ODE_Node_Newton_or_accepted_endpoint_created": false,
+    "continuous_convergence_or_reach_certified": false
+  }
+}

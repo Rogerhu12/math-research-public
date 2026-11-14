@@ -1,0 +1,143 @@
+{
+  "schema": "R103-complete-reflection-centred-geometry-reproduction-plan-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Complete theorem and actual pure-BigInt conditional ledger; physical radial-gauge drift is a proved consumer interface, not yet executed",
+  "new_files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R103-reflection-centred-position-and-defect-bridge.md",
+      "sha256": "0ec4830574c64a4c4bc3628f70e37a1d9ef501c1d6822d39fb630908add7fd96",
+      "bytes": 15712
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/tail_r103_reflection_centred_geometry.js",
+      "sha256": "5f6b6992e13d747b593d8f8f7e1cbfeff35b0e7587170f30f920ea56cac1b833",
+      "bytes": 12586
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-tail-r103-centred-geometry-actual.json",
+      "sha256": "be7bad918196795ea6d128428e459e259e1bed71b123e37b944720b864158f21",
+      "bytes": 25881
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-tail-r103-carrier-observed-extrema.json",
+      "sha256": "f2d12d6c0b41f96fdb969f2923091934012b81e40721c19f2410997c7131baa2",
+      "bytes": 1871
+    }
+  ],
+  "exact_input_paths": [
+    {
+      "path": "notes/2026-11-12-tail-r102-seg7-field-defect-budget.json",
+      "sha256": "d01b7310f9d76fa5d5d56f44805c67fedf7be776a78435803943edcda424bc6f",
+      "bytes": 47985,
+      "scope": "Full eight-part R102 rational report; original part0 coarse failure remains in input and is not relabelled"
+    },
+    {
+      "path": "notes/2026-11-13-tail-r103-carrier-observed-extrema.json",
+      "sha256": "f2d12d6c0b41f96fdb969f2923091934012b81e40721c19f2410997c7131baa2",
+      "scope": "Independent directed extrema from actual carrier 111-leaf formal exit0; does not replace or encode the 208048-byte original primary"
+    }
+  ],
+  "actual_execution": {
+    "engine": "functions.exec V8",
+    "complete_mathematical_function_executed": true,
+    "global_gates": 12,
+    "global_gates_true": 12,
+    "all_eight_position_and_all_eight_normal_gates": true,
+    "OS_process_started": false,
+    "exitcode": null,
+    "RSS": null,
+    "Node_Arb_ODE_or_new_integral_calls": 0,
+    "inputs": "Two complete small UTF-8 JSON texts, no binary or encoded primary"
+  },
+  "reproduction": {
+    "run_from": "repository/topics/visible-flex-larger-amplitude",
+    "argv": [
+      "node",
+      "-e",
+      "const fs=require(\"node:fs\"),vm=require(\"node:vm\"),crypto=require(\"node:crypto\");const [src,a,b,out]=process.argv.slice(1);const S=fs.readFileSync(src,\"utf8\");const c={};vm.createContext(c);vm.runInContext(S,c,{filename:src});const result=c.runR103CentredGeometry(fs.readFileSync(a,\"utf8\"),fs.readFileSync(b,\"utf8\"));result.source_sha256=crypto.createHash(\"sha256\").update(S).digest(\"hex\");fs.writeFileSync(out,JSON.stringify(result,null,2)+\"\\n\");",
+      "computations/tail_r103_reflection_centred_geometry.js",
+      "notes/2026-11-12-tail-r102-seg7-field-defect-budget.json",
+      "notes/2026-11-13-tail-r103-carrier-observed-extrema.json",
+      "notes/2026-11-13-tail-r103-centred-geometry-replay.json"
+    ],
+    "stage": "Optional exact-integer replay after a permitted local execution environment is available; no physical worker, RHS or source factory is loaded",
+    "expected_math_output_sha256": "be7bad918196795ea6d128428e459e259e1bed71b123e37b944720b864158f21",
+    "fresh_output": true
+  },
+  "mathematical_parameters": {
+    "epsilon": "1/512",
+    "radius_upper": "1/3",
+    "w_upper_on_cell0_segment7": "3/25",
+    "pi_upper": "22/7",
+    "mean_constant_once": true,
+    "common_global_centre": "0",
+    "common_global_axis_angle": "0",
+    "incoming_mean_height_difference": "0",
+    "reference": "carrier part0 + original R48 parts1..7"
+  },
+  "actual_bounds": {
+    "centred_horizontal_position": [
+      "669554278124060703624421",
+      -96
+    ],
+    "complete_euclidean_position": [
+      "1961732043744034605627061",
+      -96
+    ],
+    "unit_reference_vector_or_true_normal": [
+      "14350776098686493993402732",
+      -96
+    ],
+    "angular_phase": [
+      "2528609929044809015193611",
+      -96
+    ],
+    "complete_euclidean_position_decimal_upper": "0.000024760539453264",
+    "normal_decimal_upper": "0.000181132259581343"
+  },
+  "original_pending25": {
+    "observed_blob": "2d552c1e9628106d5399ff65a039cba01ca103be",
+    "mean_frame_manifest": {
+      "absolute_path": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-complete-mean-frame-stable-manifest.json",
+      "sha256": "310f87e16ced42e6e6983993911e9f8b82c7835eeb406c209067e7d426b8a62d",
+      "files": 20,
+      "bytes": 7843
+    },
+    "own_curvature_manifest": {
+      "absolute_path": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-own-curvature-stable-manifest.json",
+      "sha256": "b7c629ac05a2be0727c987329763508d81fce5fa111e86b42f6b71d93009cb15",
+      "files": 5,
+      "bytes": 2188
+    },
+    "action": "Verify original manifests and all25 original files through actual CLI before any recomputation. The current transport failure gives no file-loss evidence. Preserve all source identities and both original v3 formal failures."
+  },
+  "next_local_consumer": {
+    "status": "Formula and exact inputs prepared; not executed",
+    "target": "Original radial reference to centred reference, then original R48 to carrier and to a true exact solution",
+    "formula": "dC_I <= (22/7)^2/16 * r_upper*w_upper*J_full_upper/(rx_lower*min(1,D_lower)^2) * omega_upper; omega=I00+I01=integral w dr",
+    "full_carrier_primary": {
+      "path": "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-part00-fields.jsonl.gz",
+      "sha256": "d07456782cfd2cd292cbb77fbbf437617a82ab6039f774fc5637c74a2e486dbe"
+    },
+    "full_mean_primary": {
+      "path": "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-part00-mean.jsonl.gz",
+      "sha256": "6b6748eab26c02b1960b367acc22f3a80760d6d40c20aa998ddaa3c4193d0e71"
+    },
+    "complete_mean_summary": {
+      "path": "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-summary.json",
+      "sha256": "a178bc76d676eaa3aa6e0e1f57592dceea27bc996017503097a1fd01f8bde1f2"
+    },
+    "coverage": "Full same111 leaves, no angular-frequency omission, full scalar mean J0 and all40 nonzero J modes; physical J has rx=1",
+    "operations": "Read complete gzip only in the local CLI, align exact source intervals, use same-leaf omega and actual J including R77 only as another bound on the same J0, sum directed rational increments without resetting across parts",
+    "actual_candidate_normal_claimed": false,
+    "carrier_vs_old_candidate_minimum_forbidden": true,
+    "other_seven_parts": "Need their own original complete J and positive integrals; do not extend the part0 numerical output to them"
+  },
+  "unpaid": [
+    "Same-g exact full-frequency outer height and <=1/512 complete field error",
+    "Explicit common reflection/global pose and mean-height convention for the eventual complete surface",
+    "Executed radial-gauge drift, old-R48-to-carrier spatial bridge, and remaining continuous whole-surface point-pair/held/full-time criteria"
+  ],
+  "data_policy": "No encoded/binary primary through connector tools. No splitting primary into small tool calls. Small independent proof/source/summary/ledger objects do not replace the25 pending CLI originals."
+}

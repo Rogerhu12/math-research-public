@@ -1,0 +1,35 @@
+{
+  "scope": "Source-only preparation; no physical object, raw residual, BVP or worker evaluated.",
+  "prepared": true,
+  "conversion_executed": false,
+  "provenance": {
+    "scope": "Use the real fixed-view verification with the explicit pulse provider.\n\nThe complete accepted raw state, physical quintics, core, numerical/material\ncharts, physical tail, RMS and boundary conditions are unchanged. Only the\nprovider loader is extended so a saved nonzero initial_speed_pulse remains\nthe same physical metric. This is a representation conversion, not a solve.\n",
+    "original_sha256": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+    "transformed_sha256": "9aa7fa012a83cafb9c683698093df0ed08204f1a1fb52c334e3e0c4cfd25ea5a",
+    "source_sha256": {
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+      "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_pulse_freeze_design_view.py": "18ff9e44b4f69e52017c5a7d20998e1a7d06c77fd3930bd7b21b767d984f4e7e"
+    },
+    "replacements": [
+      {
+        "before": "        if Path(path).name == 'root_dual_core_bvp.py':\n            original_main = loaded.main",
+        "after": "        if Path(path).name == 'root_dual_core_bvp.py':\n            original_provider_loader = loaded.module\n            def pulse_provider_loader(provider_name,provider_path):\n                value = original_provider_loader(provider_name,provider_path)\n                if Path(provider_path).name=='alternative-neck-provider.py':\n                    import strong_initial_speed_pulse as pulse_hook\n                    pulse_hook.install(value)\n                return value\n            loaded.module = pulse_provider_loader\n            original_main = loaded.main",
+        "count": 1
+      },
+      {
+        "before": "        hashes[str(HERE / name)] = digest(HERE / name)\n    for key in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS'):",
+        "after": "        hashes[str(HERE / name)] = digest(HERE / name)\n    hashes.update(PULSE_FIXED_VIEW_TRANSFORM['source_sha256'])\n    for key in ('OPENBLAS_NUM_THREADS', 'OMP_NUM_THREADS', 'MKL_NUM_THREADS'):",
+        "count": 1
+      },
+      {
+        "before": "        mapped = copy.deepcopy(record)",
+        "after": "        report['initial_speed_pulse_fixed_view_adapter'] = PULSE_FIXED_VIEW_TRANSFORM\n        mapped = copy.deepcopy(record)",
+        "count": 1
+      }
+    ],
+    "exact_reverse_recovers_original_fixed_view": true,
+    "pulse_is_part_of_frozen_physical_profile": true,
+    "original_full_H_RMS_BC_identity_and_no_worker_gates_preserved": true
+  }
+}

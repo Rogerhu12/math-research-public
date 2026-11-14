@@ -1,0 +1,60 @@
+{
+  "schema": "actual-current-M32-complete-mean-baseline-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "classification": "numerical design comparison",
+  "files": [
+    {
+      "path": "computations/archive_current_m32_geometry_baseline.py",
+      "sha256": "ff7ff6123906aa235d386cc170f3be18e7f86483f5feba97b6939f1660a0ae42",
+      "bytes": 12719,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/archive_current_m32_geometry_baseline.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-m32-geometry-baseline-r1-plan.json",
+      "sha256": "3687c4d2fb65319981091f17723d05ccd75442967284996e1cc8ac98874fd7a8",
+      "bytes": 14616,
+      "original_path": "m32-q126-r1/geometry-baseline-plan.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-m32-geometry-baseline-r1-grid.json",
+      "sha256": "bdd8e3129f4169218665babb2ec3ebbe49d4b62ea048515dc1a6e46fd6a293b3",
+      "bytes": 90611,
+      "original_path": "m32-q126-r1/geometry-grid.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-m32-geometry-baseline-r1-screen.json",
+      "sha256": "353af82726053a49f1e640d2b5b61c4ce3617460610ca6c57f8d110668b6f204",
+      "bytes": 19544,
+      "original_path": "m32-q126-r1/geometry-baseline-screen.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-m32-geometry-baseline-r1-field-manifest.json",
+      "sha256": "924d72db22fb8e457be3dc5b7134adc6406ec59ec64eb5ccc38c96cd1ed59700",
+      "bytes": 4025,
+      "original_path": "m32-q126-r1/geometry-baseline-field.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-m32-geometry-baseline-r1-resource.json",
+      "sha256": "d37dfe1a9c6be6ebd6c8aa87df7cf45a03c69de7d5fd6ec525eed14f2f9da7b7",
+      "bytes": 2673,
+      "original_path": "m32-q126-r1/geometry-baseline-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-m32-geometry-baseline-r1-identity-receipt.json",
+      "sha256": "6bc86c33c117364a3578b4444625f83dcf18bcae23407aca1fe7a70653fae16b",
+      "bytes": 9732,
+      "original_path": "m32-q126-r1/geometry-baseline-identity-receipt.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q126-current-m32-geometry-baseline-r1-proof.md",
+      "sha256": "44fda257a5583b89a91a3c4d6c4a8d5499f2d4a59c96d254ddbbce3fa6e66604",
+      "bytes": 3146
+    }
+  ],
+  "total_bytes": 157066,
+  "original_owned_exitcode": 0,
+  "sole_baseline": true,
+  "derived_arrays_archived": false,
+  "all_derived_array_hashes_preserved": true,
+  "original_accepted_physical_quintic_and_cubic_scopes_distinct": true
+}

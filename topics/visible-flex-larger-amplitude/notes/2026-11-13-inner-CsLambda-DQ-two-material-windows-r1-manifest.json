@@ -1,0 +1,39 @@
+{
+  "schema": "immutable-all213-Cslambda-DQ-window-source-matrix-archive-v1",
+  "files": [
+    {
+      "path": "computations/inner_CsLambda_DQ_window_kernels.py",
+      "sha256": "ecd091b4400b21d66dcc78b0933fe09689ae65473d287f0b119f8782a5e1b673",
+      "bytes": 12933,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/inner_CsLambda_DQ_window_kernels.py"
+    },
+    {
+      "path": "notes/2026-11-13-inner-CsLambda-DQ-two-material-windows-r1.json.gz",
+      "sha256": "bb4c7036f45d23a33cfe7f8dbeb4ccb142ffab22c91b62b0162de9c628dc9772",
+      "bytes": 1408692,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-DQ-windows-r1/kernels.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-inner-CsLambda-DQ-two-material-windows-r1-resource.json",
+      "sha256": "b135d973ba2b8ce6de4d66ae81df571144c9a0b4cb633254a6bcc25b6881d896",
+      "bytes": 913,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-DQ-windows-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-inner-CsLambda-DQ-two-material-windows-r1.md",
+      "sha256": "0b6fdc8544368d3120269b6673653399fcb64d655c8cb28f5d67bb3271a5ba0c",
+      "bytes": 8716,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-DQ-windows-r1/proof.md"
+    }
+  ],
+  "complete_dimensions": [
+    213,
+    2,
+    13,
+    15
+  ],
+  "source_only": true,
+  "same_R100_original_inner_field": true,
+  "full_mean_inverse_unknown_quadratic_far_and_truecut_separate": true,
+  "radial_integrations_ODE_Node_Green_calls": 0
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "R173-complete-quintic-mean-launch-v1",
+  "created_utc": "2026-11-13T19:13:13.346316+00:00",
+  "source": {
+    "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R173_quintic_continuous_mean.py",
+    "sha256": "4fe66bb1362325074dfce92ee492da9cfd610e9b4b6b201ddfcf50689a87577f"
+  },
+  "input_manifest": {
+    "path": "/workspace/scratch/d1aa462cfc02/root-work/R173-quintic-mean-inputs/input-manifest.json",
+    "sha256": "c96a8b8f610482783e35348f351cf9c88ce27482f8633947711a4dbe9b517077"
+  },
+  "candidate_definition": "Exact binary rational quintic from original R169 values and first jets plus explicit R173 approximate second jets; no second-jet accuracy is assumed.",
+  "original_background_leaves": 3940,
+  "refined_leaves": 3976,
+  "complete_mean_disk": "1/8",
+  "nonmean_strong_tube": "1/16",
+  "sigma": "1/64",
+  "cpu_threads": 1,
+  "planned_peak_rss_kib": 131072,
+  "no_new_ODE_BVP_or_source_integration": true
+}

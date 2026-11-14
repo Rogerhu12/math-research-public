@@ -1,0 +1,61 @@
+{
+  "schema": "independent-outer186-four-five-cycle-review-stable-package-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-saved-selfmap-audit-v1.py",
+      "sha256": "43966b1729795045c023894c0d810afb92fcf293ae46ad502c323d9909db52b2",
+      "bytes": 13973
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-saved-selfmap-audit-v2.py",
+      "sha256": "79f10fd9de00214cadf8f78c4609acbe4ba4bb7c24932c5ee835b2ee86ee2c72",
+      "bytes": 14136
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-saved-selfmap-audit-v3.py",
+      "sha256": "9f982c39ac4a4eed8e71eba16c0960e75ed0492c63544c41e82b46e3e16010ca",
+      "bytes": 15130
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-four-cycle-saved-audit-r1-resource.json",
+      "sha256": "0a2f28cdfaa7c4b2fbc33166a46c6896643058196efa888e6e8e982810850433",
+      "bytes": 1234
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-four-cycle-saved-audit-r2-resource.json",
+      "sha256": "fdab7f76ebba0edbc839d8473a3df0a6ddc6d24fe733c99bf81e7f930737ae0c",
+      "bytes": 1222
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-four-cycle-saved-audit-r3.json",
+      "sha256": "ed69abeaf57e936cf4a97f1add789312adbac349cc9a2195064259a7d439dadd",
+      "bytes": 157166
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-four-cycle-saved-audit-r3-resource.json",
+      "sha256": "77d0be3fe6bdae893ed62cc3d784d64d0d03c9fe7b375087a1727abddaf22ad2",
+      "bytes": 1220
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-fifth-cycle-saved-audit-r1.json",
+      "sha256": "125b006152107fdc8384951c6447bd1141373439c3da7567cc9415dcffe9e5c9",
+      "bytes": 66649
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-fifth-cycle-saved-audit-r1-resource.json",
+      "sha256": "ff913ff76a53b0b6a052eb2db812f006103acc126a9c3b3e4617a9f3eaf5a19c",
+      "bytes": 1239
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-outer186-saved-selfmap-audit.md",
+      "sha256": "38f2003d79e1b5c05ef9afa6d39b38e5c1d22dc856277013fed9bc36255cb98d",
+      "bytes": 4799
+    }
+  ],
+  "total_bytes": 276768,
+  "four_cycle_actual_review": "formal0; all1496 validation gates; original selfmap fails92",
+  "fifth_cycle_actual_review": "formal0; all582 gates; every original axis and sharedT strict under more conservative saved positive sums",
+  "failed_auditor_sources_and_actual_resources_retained": true,
+  "bootstrap_inputs_and_mathematical_gates_unchanged": true,
+  "closed_surface_or_uniqueness_claimed": false
+}

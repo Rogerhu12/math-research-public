@@ -1,0 +1,115 @@
+{
+  "utc": "2026-11-12T16:30:07.767064+00:00",
+  "scope": "R67-R69 complete proofs; full R68 original-panel and continuous-position budgets; complete signed cell11 source/adjoint primary; cell0 saved-node improvements through seg5; exact q096 failed attempts/constructor recovery and resource-only prepared r4. No new accepted q096 or closed surface.",
+  "manifest_groups": [
+    {
+      "manifest": "notes/2026-11-12-closure-r67-stable-manifest.json",
+      "sha256": "600e2832d6389795dd6e4339a390599281611cdc1d9e3a649a01e28bfb115eb9",
+      "files": 11,
+      "bytes": 281458
+    },
+    {
+      "manifest": "notes/2026-11-12-root-r68-stable-manifest.json",
+      "sha256": "0aa31cd92d83691629fa2646fe2ec7086242be9736206260d83e37bc3ef219ca",
+      "files": 29,
+      "bytes": 5049353
+    },
+    {
+      "manifest": "notes/2026-11-12-tail-r69-proof-manifest.json",
+      "sha256": "4942dfd803a6b0646114b14d3b7dfb60882ee487b946b7e325386646562e211c",
+      "files": 1,
+      "bytes": 13714
+    },
+    {
+      "manifest": "notes/2026-11-12-closure-outer-source-cell11-r1-stable-manifest.json",
+      "sha256": "3365b543100b4b67e5b1c1505a44d9d969777ec6fac736e1e3f2ea26bada4574",
+      "files": 14,
+      "bytes": 5521471
+    },
+    {
+      "manifest": "notes/2026-11-12-closure-outer-adjoint-cell11-r1-primary-stable-manifest.json",
+      "sha256": "50b7bc7ae4c2f4973fb701ac40f9d04ffba304eb4715270b7a3927c5db7b4e14",
+      "files": 12,
+      "bytes": 81200
+    },
+    {
+      "manifest": "notes/2026-11-12-tail-r66-eight-substage-executed-manifest.json",
+      "sha256": "5e9a711bdb93556c49ec9448dfb8193dc4d51b6a88b1ce786634435e0c016275",
+      "files": 8,
+      "bytes": 909057
+    },
+    {
+      "manifest": "notes/2026-11-12-tail-r66-remaining-segment-executed-manifest.json",
+      "sha256": "f9bf92432ab13c56c754744265684518140916f58c43c68b7cc1a0b2a7cc0639",
+      "files": 4,
+      "bytes": 351685
+    },
+    {
+      "manifest": "notes/2026-11-12-tail-r66-seg5-substage-executed-manifest.json",
+      "sha256": "3617674a3509e32fcc1bccdd702f70ccf2cce258a8bccb18e6b58c23377cb4f9",
+      "files": 5,
+      "bytes": 185681
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-fresh-stage-physical-merit-stable-files.json",
+      "sha256": "56becc5f93b71324684bc14cb7c6a628611f40ede50192354a3b0dd1facaed9d",
+      "files": 14,
+      "bytes": 67283
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-r1-failed-stable-files.json",
+      "sha256": "55c152ae9f9f3dd152f98e1f2537dab24d64dc568220d221998ad7081c677e70",
+      "files": 15,
+      "bytes": 1089710
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-r2-prepared-stable-files.json",
+      "sha256": "0a213d3c3607f325bb6d1141590b719d62b754491a5c7ccb67015cde60e09255",
+      "files": 3,
+      "bytes": 28399
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-r2-failed-stable-files.json",
+      "sha256": "24da5ffcc5c9bc92ba7e2806c0fc6717da250fff7b927bb58c0fbb0ca8d75050",
+      "files": 11,
+      "bytes": 118155
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-guarded-r3-prepared-stable-files.json",
+      "sha256": "7e544bfee80049d5c4ddac4dd8446bcf38e8ceb2b89bac0633cbb12a025bf4a6",
+      "files": 6,
+      "bytes": 37947
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-guarded-r3-failed-stable-files.json",
+      "sha256": "a11538adf8f150a1e4ae0602ea1a85fbf891c144f33a2223764461835a80d502",
+      "files": 11,
+      "bytes": 54355
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-heap128-young4-r4-prepared-stable-files.json",
+      "sha256": "c6db27eb855812d4ef9d6ac34c19c0b289d255033b94aba5cecdc55570ee0c30",
+      "files": 12,
+      "bytes": 50808
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-q096-recovery-static-supplement-stable-files.json",
+      "sha256": "464044178b78bb44b1817311790610073ecc3ad0eff9f238f42dbd0cb21576b7",
+      "files": 4,
+      "bytes": 18124
+    }
+  ],
+  "extra_files": [
+    "HANDOFF.md",
+    "open.md",
+    "log.md",
+    "results.md",
+    "computations/publish_topic_checkpoint_rebase.py",
+    "notes/2026-11-12-root-publisher-rebase-rule-adaptation.json",
+    "notes/2026-11-12-root-disposable-publisher-space-rebuild.json",
+    "notes/2026-11-12-root-outer-stage-cache-publication.json",
+    "notes/2026-11-12-HANDOFF-before-r68-space-checkpoint.md"
+  ],
+  "all_frozen_payload_hashes_verified": true,
+  "active_outputs_excluded": true
+}

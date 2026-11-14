@@ -1,0 +1,96 @@
+{
+  "schema": "strong-ci-M28-static-integration-review-v1",
+  "scope": "Static primary-source inspection only. No local process, RHS/Jacobian, tail worker, BVP, or workflow was started.",
+  "read_ref": "26ecea85ef765cef1b678a818108e6b833498b4f",
+  "request_blob": "faa6b50a5487368f36958298c8a9b1b9eca73297",
+  "runner_blob": "24a66111778e0352ffb091dcf25fdd53e0b2c8ef",
+  "workflow_patch": {
+    "path": ".github/workflows/visible-larger-runtime-recovery.yml",
+    "read_ref": "26ecea85ef765cef1b678a818108e6b833498b4f",
+    "old_blob": "368735a6bede7398393df04aa71be6637009eea8",
+    "new_blob": "b0e8e48982b7b624900a150f89015b36380b8aae",
+    "new_sha256": "5686ac7535ecbb21cfefdb12dad793842b330426003d9ed19f750e1df139951b",
+    "bytes": 8878,
+    "exact_one_line_added": "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-q096-sameg-m28-actions-${{ github.run_id }}-${{ github.run_attempt }}-strong*",
+    "old_lines_unchanged": true,
+    "no_dispatch": true
+  },
+  "strong_replacement_blob": "c8a0fd76347ee2076b0bf01947b086e0767e0668",
+  "source_loading": {
+    "import_globs_mechanism_present": false,
+    "runner_main_import_restricted_to": "topics/visible-flex-larger-amplitude/notes",
+    "actual_source_mechanism": "actions/checkout sparse-checkout includes the entire topic at the trigger commit",
+    "required_trigger_sources": [
+      {
+        "path": "computations/strong_ci_q096_sameg_m28.py",
+        "blob": "c42ef545ac57b056663b3ec04580c3d0992234eb",
+        "sha256": "77903999c2a1beb3101fb15de27829c330db4121deee1463c145d8d27cd98422"
+      },
+      {
+        "path": "computations/strong_sameg_spectral_refinement.py",
+        "blob": "992ac187471c36513977edb69d1aec930565f3fd",
+        "sha256": "65e81c73707c6f094ce5d494965d2fd468e971f4fa450d88513cf4ac622476fd"
+      },
+      {
+        "path": "computations/strong_sameg_actual_comparison.py",
+        "blob": "c1aa63f7a020fb370368e988f99e8fc520aaf381",
+        "sha256": "7c152306f09faf7de890377af4f69406677c374ed707b2bc2e391208c8d57f57"
+      },
+      {
+        "path": "computations/strong_samechart_initial_laws_response.py",
+        "blob": "8351f40dbf77b262fad0a30a08c46ffb83be6055",
+        "sha256": "2395db1d8cea3e9bba3cc02221bdb59793128357b71ae9f63991675bd7e7a6eb",
+        "role": "deferred response only; not imported or executed by M28 bootstrap"
+      }
+    ],
+    "merge_before_future_dispatch": "The future trigger commit must contain the published M28 source chain and newly saved same-chart wrapper; the old b3/ee trigger source cannot supply them merely by reading newer notes."
+  },
+  "inputs_and_order": {
+    "all_63_original_files": "Restored from published main; exact original byte-count/SHA checked. Published gzip logs are decoded only for verification.",
+    "old_artifact_api": "Not invoked; no GH artifact token supplied.",
+    "pinned_source": "91 exact sources restored by ordinary Git at revision869436630c99aa5a68afb55bd8877c826034d117, then authentication keys removed before numerical children.",
+    "frozen_inputs": [
+      "accepted q096 final response_0003",
+      "original q096 tail config bytes",
+      "q085 staged frozen-ready identity",
+      "160-cell frozen calibration ledger",
+      "smallcut30 port32"
+    ],
+    "stages": [
+      "actual zero-worker27-to24 fixed-view RMS/BC check",
+      "same-g M28 prepare",
+      "same-g M28 full actual solve",
+      "saved fixed24 internal jet audit",
+      "new accepted28 internal jet audit",
+      "new accepted28 full Cartesian and mean seam",
+      "fixed24 versus accepted28 physical two-jet comparison"
+    ],
+    "all_sequential": true,
+    "old8_column_report_executed": false,
+    "old24_audit_role": "Coarse comparison only; no old24 statistic substitutes for new28 RMS, tail, metric, two-jet or seam.",
+    "new28_full_tail": "New28 complete H and Jacobian/audit are actually solved. Old24 tail is solely a geometric warm start.",
+    "new28_final_response": "Read actual_tail.final_response from the new28 summary and validate its fresh prefix; no guessed response number."
+  },
+  "sameg_comparison": {
+    "physical_profile_tail_cut_gauge_material_reference_and_reference_t": "Exact equality guards, plus common actual-tail numerical sources.",
+    "initial_raw_grid": "Every original numerical t node, all24 raw parameters, all73 field channels and cubic coefficients embedded bitwise; correct radial/tangent/height block offsets are explicitly checked.",
+    "new28_unknowns": "All28 core coefficients remain unknown boundary fields; no geometric design control retuning.",
+    "evaluation_grid": "Union of both physical meshes, 201 physical-s points, and midpoint plus both quintic second-derivative lobe fractions in every interval of both meshes.",
+    "complete_mean_position": "Both height_integral evaluations retain the complete vertical mean using the unchanged6-point per-cell quadrature; only independent radial batches are reduced128to8.",
+    "complete_mean_jets": "Mean vertical first and second derivatives are taken from mean(V_z) and mean(dW_z), respectively; no nonmean-only seam is substituted.",
+    "physical_derivatives": [
+      "s",
+      "theta",
+      "ss",
+      "s_theta",
+      "theta_theta"
+    ],
+    "angular_chart": "Same saved material-angle reference; explicit rho/v conversion from the saved numerical angle jets to physical theta derivatives.",
+    "saved_polynomial_second": "Actual saved PPoly second derivatives are used, with the PDE-derived state second separately compared in the internal audits.",
+    "scope_limit": "Finite-grid comparison/audit only; no all-t/all-angle C2 bound or exact closure/reach is claimed."
+  },
+  "real_defect_fixed": "The old workflow artifact glob omitted the new M28 output prefix even though the normal publisher would collect it. The one-line workflow addition preserves it after publication failure.",
+  "remaining_execution": "Prepared sources still need the bootstrap's real AST, raw/basis identity, original RMS/BC, full actual solve and all finite audits when an executor becomes available.",
+  "old_session80885_terminal": "unknown",
+  "all_MJS_unchanged": true
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Process termination record only, not a failed mathematical solve or nonexistence result.",
+  "attempt": "root-fixed-neck-q040-m28",
+  "exit_code": 137,
+  "last_prefix_output": "Iteration table header only; no solved prefix was saved.",
+  "initial_tail_converged": true,
+  "initial_tail_residual": 1.4888550705890122e-10,
+  "initial_tail_response": "notes/root-fixed-neck-q040-m28-tail-response_0001.json.gz",
+  "diagnosis": "External SIGKILL exit; resource exhaustion is a working suspicion, not confirmed because cgroup counters were unavailable.",
+  "next_attempt": "Same physical data and tolerances; independent radial flow/Jacobian evaluations in batches of 48, using the actually converged saved tail as warm input."
+}

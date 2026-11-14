@@ -1,0 +1,57 @@
+{
+  "name": "numerical-analytic-first-slope-and-mean-v1",
+  "sourceWorker": "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+  "sourceWorkerSHA256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+  "slopeModule": "file:///workspace/scratch/83b864ada613/math-research/topics/visible-flex-larger-amplitude/computations/numerical-tail-slope-jacobian.mjs",
+  "slopeModuleSHA256": "206d82d3b41e6b9ce24b26447a2026c19c1c7126765107c23d58e55da25639e2",
+  "adapterSHA256": "caaedc190d40cb6704bf17b89d1ea753169f0d3edf63660c88f9423dceb0860f",
+  "sourceRevision": "869436630c99aa5a68afb55bd8877c826034d117",
+  "replacements": [
+    {
+      "before": "import {createSplitFluxCompactTailDN as createCompactTailDN} from './78718-tail-tangent-split.mjs';",
+      "after": "import {createSplitFluxCompactTailDN as createSourceCompactTailDN} from './78718-tail-tangent-split.mjs';",
+      "count": 1
+    },
+    {
+      "before": "amplitudeWarm:'physical-Q-L-amplitude-v1'",
+      "after": "amplitudeWarm:'physical-Q-L-amplitude-v1',endpointJacobianAdapter:adapterManifest",
+      "count": 1
+    },
+    {
+      "before": "jets:sol.jets,heightJetJacobian:sol.heightJetJacobian??null,history:sol.history",
+      "after": "jets:sol.jets,heightJetJacobian:sol.heightJetJacobian??null,heightJetJacobianMethod:sol.heightJetJacobianMethod??null,endpointJacobianDiagnostics:sol.endpointJacobianDiagnostics??null,history:sol.history",
+      "count": 1
+    }
+  ],
+  "importRedirects": [
+    {
+      "relative": "closing_weighted_tail.mjs",
+      "absolute": "file:///workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs"
+    },
+    {
+      "relative": "78718-tail-tangent-split.mjs",
+      "absolute": "file:///workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-split.mjs"
+    },
+    {
+      "relative": "78718-tail-geometric-warm-remesh.mjs",
+      "absolute": "file:///workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-warm-remesh.mjs"
+    },
+    {
+      "relative": "78718-tail-geometric-amplitude-warm.mjs",
+      "absolute": "file:///workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-amplitude-warm.mjs"
+    },
+    {
+      "relative": "78718-tail-fourier-product-flow.mjs",
+      "absolute": "file:///workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-product-flow.mjs"
+    },
+    {
+      "relative": "78718-tail-tangent-predictor.mjs",
+      "absolute": "file:///workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-predictor.mjs"
+    },
+    {
+      "relative": "78718-tail-fourier-root-split-engine.mjs",
+      "absolute": "file:///workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-root-split-engine.mjs"
+    }
+  ],
+  "scope": "In-memory endpoint derivative adapter only. Original worker and dependency files remain immutable."
+}

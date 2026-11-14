@@ -1,0 +1,22 @@
+{
+  "scope": "Complete the original same-g M28 provenance after staged postprocessing.\n\nThe original spectral plan, real M24 fixed view, full exact M24-to-M28 warm\nembedding, accepted M28 raw and complete staged acceptance must all bind.\nOnly after the original physical postprocessor and its full RMS/BC/audit\ngates finish is the standard same_g_spectral_refinement record attached.\nThis does not rerun Newton, modify the metric/chart, or replace an audit with\na metadata flag. --attach-completed-only is for an already completed physical\npacket and repeats all the identity/acceptance checks before metadata writes.\n",
+  "entry_sha256": "905e256ab7e51364fe36cefb293f9d8198eae96ac2dca72e08d91993eeb48da1",
+  "completion_passed": true,
+  "attach_completed_only": false,
+  "original_spectral_chain_sha256": "c541c690bf287329c0a59ce44add79258e33d9f4850be1ebe566db02741e9394",
+  "completed_raw": {
+    "file": "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz",
+    "sha256": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706"
+  },
+  "outputs": {
+    "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-summary.json": "263de9a3fa99bde04be1ee351abcd0cbf125829c639b05ba849c77dea1eb149a"
+  },
+  "output_hashes_before_provenance_attachment": {
+    "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz": "08fd8515040e57f5904851b1da7f45c9f31b9c445889e63c1c857b47b3afdf41",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-summary.json": "a1060e2efc20d3752552f4dfaf645dc270416d3ff6cc8053141ae8c3c9660154"
+  },
+  "mathematical_data_modified": false,
+  "original_successful_Newton_repeated": false,
+  "true_full_tail_audit_reused_by_exact_complete_H": true
+}

@@ -1,0 +1,104 @@
+{
+  "scope": "Reevaluate an accepted tail at its exact H and save its full tangent.\n\nThe original accepted fixed prefix is unchanged. The original complete tail\nresidual, full Jacobian and requested physical audit run again at the exact\nsaved H. The new worker only retains already computed full-stage flow\nJacobians. Its exact binary roundtrip and unchanged original predictor are\nchecked before the sidecar is marked usable. No prefix Newton is run.\n",
+  "full_flow_tangent_storage": {
+    "scope": "Reevaluate an accepted tail at its exact H and save its full tangent.\n\nThe original accepted fixed prefix is unchanged. The original complete tail\nresidual, full Jacobian and requested physical audit run again at the exact\nsaved H. The new worker only retains already computed full-stage flow\nJacobians. Its exact binary roundtrip and unchanged original predictor are\nchecked before the sidecar is marked usable. No prefix Newton is run.\n",
+    "wrapper_sha256": "77e7605eded1bf9210b8e16946775d34f6614ec32e9144e70ddf785d009947b7",
+    "retained_source_sha256": "b6f587ac428a477f32e04c13a2686ecb196cbefd342deadc669e13cc988e6753",
+    "transformed_source_sha256": "b75ea404839dd40b148c46310c2bb149ca54edc32be3d916a71fe2a456ad6eb7",
+    "replacements": [
+      {
+        "before": "    if (raw['solver_success'] or raw['status'] != 0 or\n            not raw['provenance'].get('actual_nonlinear_coupling_pending') or\n            not raw['provenance'].get('affine_inner_success')):\n        raise ValueError('Expected a successful affine inner state awaiting true DN')",
+        "after": "    if not raw['solver_success'] or raw['status'] != 0:\n        raise ValueError('Expected the original formally accepted fixed prefix')",
+        "count": 1
+      },
+      {
+        "before": "    plan = dict(scope=__doc__, status='prepared', raw=str(args.raw),",
+        "after": "    plan = dict(scope=__doc__, full_flow_tangent_storage=FULL_TANGENT_WRAPPER,\n                status='prepared', raw=str(args.raw),",
+        "count": 1
+      }
+    ],
+    "accepted_reference": {
+      "file": "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz",
+      "sha256": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd"
+    },
+    "accepted_raw": {
+      "file": "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz",
+      "sha256": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706"
+    },
+    "accepted_tail": {
+      "file": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz",
+      "sha256": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d"
+    },
+    "full_H_bitwise_equal": true,
+    "modes": 28,
+    "nodes": 2208,
+    "original_complete_problem_unchanged": true,
+    "original_tolerance": 2e-09,
+    "original_RMS_max": 9.989625002548099e-08,
+    "prefix_Newton_calls": 0,
+    "stage_cache_directory": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-stage-cache",
+    "node_old_heap_MiB": 256,
+    "node_young_semi_space_MiB": 4
+  },
+  "status": "prepared",
+  "raw": "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz",
+  "raw_sha256": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706",
+  "original_config": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-config.json",
+  "original_config_sha256": "e9d204c32e2542754d23d58d3f0cf6a55632291a7b5e04eb147d67b1ff6ebe13",
+  "config": "notes/2026-11-13-strong-full-tangent-q096-prepare-config.json",
+  "config_sha256": "9a0d84e3780c5fc937af9763e123e3ff280e657022f82350edab7fb621023106",
+  "warm": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz",
+  "warm_sha256": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d",
+  "modes": 28,
+  "nodes": 2208,
+  "physical_height": [
+    -2.385964796424691e-05,
+    2.0390710462794236e-08,
+    3.136239367949191e-11,
+    1.605810617406664e-12,
+    9.584705998660916e-14,
+    1.480511213029558e-14,
+    -6.077380383162967e-16,
+    -7.39348592253993e-17,
+    -2.7260302741570478e-18,
+    -1.261767847515771e-18,
+    2.000621250636632e-18,
+    -4.500543595044357e-19,
+    2.5308176439775006e-19,
+    -1.2573641124048449e-18,
+    -2.5014066460260005e-18,
+    -9.62354364898472e-19,
+    7.109774338958765e-19,
+    -8.717513126315366e-18,
+    2.9816035833452675e-17,
+    -6.465633676486863e-17,
+    1.203948399309574e-16,
+    -1.2461265112804334e-16,
+    1.0160420217892928e-17,
+    2.892720400518195e-16,
+    -5.977504198356888e-16,
+    4.32371646641069e-16,
+    9.545720425506893e-17,
+    -4.871666188822875e-15
+  ],
+  "sigma": -1,
+  "gauge": 0.09,
+  "equations_and_discretization_identical": true,
+  "changed_configuration_fields": [
+    "initialCheckpoint",
+    "iterationCheckpointFile",
+    "traceFile",
+    "trialDiagnosticFile"
+  ],
+  "jacobian": true,
+  "audit": true,
+  "node_heap_megabytes": 256,
+  "source_sha256": "b6f587ac428a477f32e04c13a2686ecb196cbefd342deadc669e13cc988e6753",
+  "prefix_accepted": false,
+  "storage": "frozen",
+  "point_cache_limit": 8,
+  "reference_adapter": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+  "reference_adapter_sha256": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+  "calibration_ledger": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+  "calibration_ledger_sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+}

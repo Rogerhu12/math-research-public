@@ -1,0 +1,66 @@
+{
+  "utc": "2026-11-12T16:02:10.844153+00:00",
+  "scope": "Stable complete outer11/10 Taylor flow; actual full576 cache byte comparison and exact initial seed, recovery archives; next same-H audit preparation only. Active audit outputs excluded.",
+  "manifests": [
+    {
+      "manifest": "notes/2026-11-12-closure-outer-taylor-flow-stable-manifest.json",
+      "sha256": "776227de0d94d74605e596c902b83d1a16a43336427580a98d195cc225316f2f",
+      "files": 24,
+      "bytes": 165553
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-stage-check-r1-prepared-stable-files.json",
+      "sha256": "3422c72270a5094639bf413a86e3825a1aec12d1497b570ff5be5fc8493b2f20",
+      "files": 21,
+      "bytes": 94520
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-stage-check-r1-failed-stable-files.json",
+      "sha256": "6b1e4dc1eea8d2dd81a95dbf7876ee59d0280e2dc13de765f5b9cbde817920d8",
+      "files": 5,
+      "bytes": 21930
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-stage-check-r2-prepared-stable-files.json",
+      "sha256": "2b3edb0a576cdcbe4408a9541ca243cc52c990c724cc133a3c6bad3ad55c3b83",
+      "files": 17,
+      "bytes": 98254
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-stage-check-r2-initial-seed-stable-files.json",
+      "sha256": "051ab84ac59df37fb7aabe9cf9fdcaf46cf291c082bd26face6fb5fa2400af9b",
+      "files": 2,
+      "bytes": 642643
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-stage-check-r2-executed-stable-files.json",
+      "sha256": "71f73efb988262149e1c70798afb2aa30cb50aff74e8b420b3ee8c8d101c41ac",
+      "files": 17,
+      "bytes": 11953267
+    },
+    {
+      "manifest": "notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-r1-prepared-stable-files.json",
+      "sha256": "7cbb69e04d1a54be8f2ab9957c55c3dafdb1058aea75744392db6c21fd7b854f",
+      "files": 4,
+      "bytes": 29759
+    }
+  ],
+  "extra_paths": [
+    "topics/visible-flex-larger-amplitude/HANDOFF.md",
+    "topics/visible-flex-larger-amplitude/computations/strong_exact_stage_seed_check.mjs",
+    "topics/visible-flex-larger-amplitude/log.md",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-HANDOFF-before-r67-cache-update.md",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-outer-taylor-flow-stable-manifest.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-root-q105-complete-linear-residual-observation.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-root-r63-r66-publication.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-cached-seed-tail-audit-r1-prepared-stable-files.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-stage-check-r1-failed-stable-files.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-stage-check-r1-prepared-stable-files.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-stage-check-r2-executed-stable-files.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-stage-check-r2-initial-seed-stable-files.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-stage-check-r2-prepared-stable-files.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-exact-initial-seed-fixture-r1-resource.json",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-exact-initial-seed-fixture-r1.json",
+    "topics/visible-flex-larger-amplitude/open.md"
+  ]
+}

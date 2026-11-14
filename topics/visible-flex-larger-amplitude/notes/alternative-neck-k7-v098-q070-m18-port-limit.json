@@ -1,0 +1,12 @@
+{
+  "scope": "Construction-time interface limit, before nonlinear solving; no geometric failure or nonexistence claim.",
+  "requested_q": 0.07,
+  "requested_modes": 18,
+  "profile": "computations/alternative-neck-k7-v098-resonant-profile.json",
+  "port": "computations/alternative-neck-provider-smallcut30-port.json",
+  "available_physical_port_modes": 16,
+  "error": "ValueError('Actual physical port has too few modes')",
+  "stage": "Base BVP constructor",
+  "solver_started": false,
+  "action": "Continue at M16 while obtaining an actual same-parameters higher-mode finite linear DN; do not extrapolate the missing slopes."
+}

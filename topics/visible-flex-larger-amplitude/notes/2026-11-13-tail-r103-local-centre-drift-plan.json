@@ -1,0 +1,130 @@
+{
+  "schema": "R103-local-original-primary-centre-drift-plan-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Prepared only; no local AST or numerical execution claimed while executor is unavailable",
+  "source": {
+    "path": "computations/tail_r103_local_carrier_centre_drift.py",
+    "sha256": "71b8e666c07e5e2a203dbde028ff8e0bb64a883551b0cd47d609773e88c848fe",
+    "bytes": 16224
+  },
+  "frozen_input_paths": {
+    "carrier_summary": {
+      "path": "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-summary.json",
+      "sha256": "0ac4b1e14ec34a86035add63e6250660924537c54acc834e497c6ebdd396ae12"
+    },
+    "carrier_resource": {
+      "path": "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-resource.json",
+      "sha256": "dee1cef1a748f4459e00a5428dd4b6b1602c3eb442498091b29bd88e0ea1c865"
+    },
+    "carrier_primary": {
+      "path": "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-part00-fields.jsonl.gz",
+      "sha256": "d07456782cfd2cd292cbb77fbbf437617a82ab6039f774fc5637c74a2e486dbe"
+    },
+    "mean_summary": {
+      "path": "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-summary.json",
+      "sha256": "a178bc76d676eaa3aa6e0e1f57592dceea27bc996017503097a1fd01f8bde1f2"
+    },
+    "mean_resource": {
+      "path": "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-resource.json",
+      "sha256": "263ea6873d694bc3ffaa8540c08bea21bfc6f38defd4a7c52e5dd63a4e0e82ff"
+    },
+    "mean_primary": {
+      "path": "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-part00-mean.jsonl.gz",
+      "sha256": "6b6748eab26c02b1960b367acc22f3a80760d6d40c20aa998ddaa3c4193d0e71"
+    }
+  },
+  "original_local_root": "/tmp/visible-flex-larger-20261113/tail-owned",
+  "provenance": "Actual v4 keeps the original v3 complete_exact_mean_difference_leaf/omega representation. Header/leaf fields were read from the complete frozen v3 text source (Git blob313745424889e3fb45f76f5b2e175e31aac1c70a); the real v4 summary/primary identities are separately pinned. A source-name guess does not bypass any original hash.",
+  "original_full_mean_v3_source_sha256": "857d698dde2a6ca548c2ad55f6297d03fb0bc61870427bcf78d000225de16fd5",
+  "resource_wrapper": {
+    "path": "computations/strong_resource_run.py",
+    "sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59",
+    "syntax_read_from_actual_source": true
+  },
+  "run_from": "repository/topics/visible-flex-larger-amplitude",
+  "child_argv": [
+    "python",
+    "computations/tail_r103_local_carrier_centre_drift.py",
+    "--carrier-summary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-summary.json",
+    "--carrier-resource",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-resource.json",
+    "--carrier-primary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-part00-fields.jsonl.gz",
+    "--mean-summary",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-summary.json",
+    "--mean-resource",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-resource.json",
+    "--mean-primary",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-part00-mean.jsonl.gz",
+    "--out-prefix",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-carrier-centre-drift-r1",
+    "--rss-limit-mib",
+    "96"
+  ],
+  "wrapped_argv": [
+    "python",
+    "computations/strong_resource_run.py",
+    "--out",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-carrier-centre-drift-r1-resource.json",
+    "--",
+    "python",
+    "computations/tail_r103_local_carrier_centre_drift.py",
+    "--carrier-summary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-summary.json",
+    "--carrier-resource",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-resource.json",
+    "--carrier-primary",
+    "notes/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-part00-fields.jsonl.gz",
+    "--mean-summary",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-summary.json",
+    "--mean-resource",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-resource.json",
+    "--mean-primary",
+    "notes/2026-11-13-tail-carrier-mean-v4-legacy-r1-part00-mean.jsonl.gz",
+    "--out-prefix",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-carrier-centre-drift-r1",
+    "--rss-limit-mib",
+    "96"
+  ],
+  "prepare_check": [
+    "Read and verify original25 manifests/files first; archived main a32e first-carrier originals must not be recomputed",
+    "If inputs are locally relocated, explicit current arguments are allowed only after identical-byte SHA checks; recorded original paths remain intact in output",
+    "Perform actual Python AST/compile check of this new source before the first execution",
+    "Verify output prefix is new; create owned writable output directory only; no MJS, Git index or existing primary edits"
+  ],
+  "output_glob": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-carrier-centre-drift-r1-{summary,leaves,resource}.json",
+  "outputs": [
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-carrier-centre-drift-r1-summary.json",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-carrier-centre-drift-r1-leaves.json",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-carrier-centre-drift-r1-resource.json"
+  ],
+  "mathematics": {
+    "part": 0,
+    "leaves": 111,
+    "derivative": "physical r; actual source.radius_x must equal1",
+    "full_J_modes": "0,2,...,80",
+    "complete_scalar_mean_and_inverse": true,
+    "omega": "Actual same-leaf I00+I01=integral w dr, with the original positive intersection",
+    "bound": "(22/7)^2/16*r_hi*w_hi*J_full*omega/(rx_lo*min(1,D_lo)^2)",
+    "R77": "Optional tighter bound only for the same candidate scalar J0; retain all40 other modes",
+    "rounding": "Positive cumulative128 significant binary bits, no exponent cutoff, factor<=1+2^-127 per leaf",
+    "centre": "One initial centre gauge; end bound persists and later contributions add"
+  },
+  "no_expected_numeric_result_claimed": true,
+  "scope": "Only actual candidate radial-to-centred reference drift on carrier part0. This does not pay all8 parts, the old-R48-to-carrier spatial bridge, actual full-frequency error, reach or closed-surface completion.",
+  "binary_primary_policy": "Only direct local gzip reads and normal CLI Git archival; no connector encoding or data splitting.",
+  "pending_original_manifests": [
+    {
+      "path": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-complete-mean-frame-stable-manifest.json",
+      "sha256": "310f87e16ced42e6e6983993911e9f8b82c7835eeb406c209067e7d426b8a62d",
+      "files": 20
+    },
+    {
+      "path": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-own-curvature-stable-manifest.json",
+      "sha256": "b7c629ac05a2be0727c987329763508d81fce5fa111e86b42f6b71d93009cb15",
+      "files": 5
+    }
+  ]
+}

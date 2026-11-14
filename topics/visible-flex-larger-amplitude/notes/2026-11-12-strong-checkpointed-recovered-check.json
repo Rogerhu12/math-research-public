@@ -1,0 +1,33 @@
+{
+  "scope": "Repeat the observation/atomic-roundtrip check after executor replacement.\n\nThis is a new check on an unrelated two-state toy BVP. It does not recreate\nthe lost original test report or the lost real-prefix NPZ files. The restored\nproduction writer is verified against its original SHA separately.\n",
+  "finished": true,
+  "nonlinear_surface": false,
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_checkpointed_recovered_check.py": "d128f86bcadea3354975a5ab7342df952c0aae8248be3ac50840680c7f00cb6c",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_checkpointed_tangent_bvp.py": "f75bbcd1b67c05335761966973acb7407ad0bf4f5422f5708639467c1a2afb05"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "returned_y_p_bitwise_equal": true,
+  "singular_flag_equal": true,
+  "cubic_bitwise_equal": true,
+  "written_bundles": 9,
+  "accepted_step_bundles": 8,
+  "retained_complete_bundles": 2,
+  "retained": [
+    {
+      "bytes": 2542,
+      "phase": "accepted-newton"
+    },
+    {
+      "bytes": 2528,
+      "phase": "accepted-newton"
+    }
+  ],
+  "all_saved_states_explicitly_unaccepted": true,
+  "temporary_bundles_removed_after_check": true
+}

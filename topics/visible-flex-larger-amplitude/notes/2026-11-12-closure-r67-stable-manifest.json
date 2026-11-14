@@ -1,0 +1,68 @@
+{
+  "status": "R67 complete local two-mode/two-cell proof and all executed ledgers; outer nonlinear forcing and full Schur remain unpaid",
+  "files": [
+    {
+      "path": "results/R67-actual-local-schur-and-shared-centre.md",
+      "bytes": 19614,
+      "sha256": "8083f2066794ae940a04a8236812e56bde0ba03d3bb4aeca19e71988058bc29e"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r67-executed.md",
+      "bytes": 3585,
+      "sha256": "e639243b195885d13e25ea879385162413820c238ae16613ac11622432be4ade"
+    },
+    {
+      "path": "computations/closure_outer_shared_schur_cut.py",
+      "bytes": 15177,
+      "sha256": "0bf45b774de18bc898d6c18adb8d7d2c16a035106a61a9ffd37c42f0c08f7f09"
+    },
+    {
+      "path": "computations/closure_r67_fraction_bounds.py",
+      "bytes": 5237,
+      "sha256": "95db2cf4e11b8922db595fa7a0d843083b0b39734ea277e044461fa430f4ca05"
+    },
+    {
+      "path": "computations/closure_outer_linear_cancellation.py",
+      "bytes": 8105,
+      "sha256": "86eb562f83b08f2f99e7ff634990d548eba0320044982958688551f1bf1b368b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-shared-schur-cut-r1.json",
+      "bytes": 184137,
+      "sha256": "a94ec23862271bd36eda323fb4553b582a928003c50723f32c2f66f98b6fe4f8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-shared-schur-cut-r1-resource.json",
+      "bytes": 1248,
+      "sha256": "e920199434eac69752bd7bb0ff150a33f17dee21ce90eb8c5818607dfc5ebb61"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r67-fraction-bounds-r1.json",
+      "bytes": 4051,
+      "sha256": "d15a07559c5566081c72b61f31909a6779753881c779ceda4fad4d887269996a"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r67-fraction-bounds-r1-resource.json",
+      "bytes": 874,
+      "sha256": "f09808bbb649dafab1077c61f865801999d68516a82c8eacbc06a0a97cde5b24"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-linear-cancellation-r1.json",
+      "bytes": 38251,
+      "sha256": "80e3d069ee7484702db7a06601db66db25f446c4efae9d53a24a3fc5864e0a95"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-linear-cancellation-r1-resource.json",
+      "bytes": 1179,
+      "sha256": "c235509629bbc07719f98994b43f92176c38cff6853062d6bb7477c5ff5e599c"
+    }
+  ],
+  "additional_required_stable_manifest": {
+    "path": "notes/2026-11-12-closure-outer-taylor-flow-stable-manifest.json",
+    "sha256": "776227de0d94d74605e596c902b83d1a16a43336427580a98d195cc225316f2f"
+  },
+  "mjs_changes": 0,
+  "new_head_slopes": 0,
+  "full_outer_solution_claimed": false,
+  "all_recorded_child_exitcodes": 0
+}

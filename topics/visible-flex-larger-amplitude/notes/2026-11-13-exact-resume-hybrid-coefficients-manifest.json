@@ -1,0 +1,39 @@
+{
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "status": "Completed full10793-leaf comparison coefficients and exact candidate strip gates, before any interval-frequency response run",
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-hybrid-leaves-r1.json",
+      "bytes": 21648,
+      "sha256": "7e9821bf97dc0ac6955cb1c010ba48039c13f01dc5598378b31317eaab113f87"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-hybrid-leaves-r1-leaves.jsonl.gz",
+      "bytes": 1656696,
+      "sha256": "dadf463497d12f85e5fb3046d46eb6d2d2b2fa26ca36d3c19fbd061c4ea1fad1"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-hybrid-leaves-r1-resource.json",
+      "bytes": 1116,
+      "sha256": "8d3954dca0124984e5b9dde05c0d2e2db06b85ae3ad569471412a9e354ec93dd"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-hybrid-middle-leaves-v1.py",
+      "bytes": 9088,
+      "sha256": "aaecb235974878b88101bc07aec095b655cc1b796cbd92deb3c1206543fc0578"
+    }
+  ],
+  "selected_energy_groups": [
+    [
+      10,
+      3
+    ]
+  ],
+  "fixed_strip_start": "18/125",
+  "window_ratio_upper": "33/32",
+  "strict_required_strip_floor": "1/64",
+  "actual_selected_terminal_strip_display": 0.02163667990889687,
+  "source_parameters_changed": false,
+  "entry_exit_and_every_frame_jump_still_to_be_consumed": true,
+  "full_middle_kernel_or_nonlinear_result_claimed": false
+}

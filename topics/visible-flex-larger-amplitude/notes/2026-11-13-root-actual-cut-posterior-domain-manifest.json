@@ -1,0 +1,115 @@
+{
+  "schema": "R150-actual-cut-domain-lift-modal-and-parent-restriction-stable-v1",
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "formal_exitcodes": [
+    0,
+    0,
+    0
+  ],
+  "gate_counts": [
+    828,
+    10450,
+    31397
+  ],
+  "scope": "Actual same-field posterior-domain restriction, all213 transverse lifts and modal inputs, and explicit unchanged-parent e/DQ restriction. Complete new true beta remains separate.",
+  "files": [
+    {
+      "path": "computations/root_actual_cut_posterior_transverse_lift.py",
+      "sha256": "600cfff07fd05ec647824d8b855bf8f244250b5d1b6b2812e9c549e8856755b0",
+      "bytes": 9002,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_actual_cut_posterior_transverse_lift.py"
+    },
+    {
+      "path": "computations/root_actual_cut_posterior_modal_input.py",
+      "sha256": "ac9b286705625df9a736192fae3421ac5d1fbc3d88264a2fe6f45607374fc8c1",
+      "bytes": 6980,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_actual_cut_posterior_modal_input.py"
+    },
+    {
+      "path": "computations/root_r150_parent_domain_bridge.py",
+      "sha256": "60be7f55dfc0e7e5e8620c215da3ca0cb9b978bdc7d8dcbb28c735d08f91ca68",
+      "bytes": 7519,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_parent_domain_bridge.py"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-lambda-r1-resource.json",
+      "sha256": "bbede5eacf2011d481baa0d3aa9ef1c04fee5811bfb3acf498a0cc6f8d44c017",
+      "bytes": 874,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-lambda-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-lambda-r1-stdout.log",
+      "sha256": "265dbb383eab9997536d39f8d1286e2fc141a2956e69d8b3b503fd5f92da1da1",
+      "bytes": 1156,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-lambda-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-lambda-r1.json.gz",
+      "sha256": "019472c7ea214bee15badab48d0c56e048ac28a7c1b9f7aea9fddb0b54ebe384",
+      "bytes": 266568,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-lambda-r1.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-modal-r1-resource.json",
+      "sha256": "d0fbd2946dbbe84c97ef6a22659d28382678ba299ed0634364a822132c94222e",
+      "bytes": 1432,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-modal-r1-stdout.log",
+      "sha256": "a06c8bcdc593efc6b49e87da8a744a136f352ef72f0b0d256bcec350b4f06f8a",
+      "bytes": 1709,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-modal-r1.json.gz",
+      "sha256": "0a76756d411a350836ab27ca274142df0306628293401763453842130fa6f77c",
+      "bytes": 1406500,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-parent-bridge-r1-resource.json",
+      "sha256": "5a0329607e15112bf39ed92f266f03be940245b3b198fc1ea08ca5d4b71eb1b2",
+      "bytes": 881,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-parent-bridge-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-parent-bridge-r1-stdout.log",
+      "sha256": "0a64cb44af5222b7826e8a002a43a8197e5e1e0e1c234312181022a95bec4fcd",
+      "bytes": 1028,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-parent-bridge-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-parent-bridge-r1.json",
+      "sha256": "97f3a6fd9c59c4d23dead6e83a961411bb0ca1d187343ce598f0b8d2abeefd24",
+      "bytes": 56955,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-parent-bridge-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-input-manifest.json",
+      "sha256": "f398d10dac8bad1fc946a6e28f38eeab384aba5786074831924f5aeddbceb322",
+      "bytes": 2993,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/input-manifest.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-parent-bridge-input-manifest.json",
+      "sha256": "23ae36c9c2f50a3313269e5b938a0805142b7a7b4985b863ef95e7eb2a5266cd",
+      "bytes": 4439,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-input-manifest.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-durable-inputs.json",
+      "sha256": "8ca411abdaaf73a325743734a5c01bd90941a5f60f7180c68929a23a7ebb3e52",
+      "bytes": 5025,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/durable-inputs.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-domain-proof.md",
+      "sha256": "df2233eb7fac8dbb86743d7dda4986ce74e6d3eafaaea3c5e2c41741741734bc",
+      "bytes": 3333,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/domain-proof.md"
+    }
+  ],
+  "total_bytes": 1776394
+}

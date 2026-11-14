@@ -1,0 +1,56 @@
+{
+  "status": "Authorized single streaming strong rescaling prepared",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "command_argv": [
+    "python",
+    "computations/tail_r42_same_strip_strong_split.py",
+    "--q-density",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz",
+    "--strong-density",
+    "notes/2026-11-12-tail-r33-strong-m20-density-window.json.gz",
+    "--q-high",
+    "notes/2026-11-12-tail-r33-plateau2-quadratic-high-recovered-r1.json",
+    "--q-middle",
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz",
+    "--q-split",
+    "notes/2026-11-12-tail-r50-split-middle-r1.json.gz",
+    "--z-log2",
+    "-2200",
+    "--infinite-radius-log2",
+    "-120",
+    "--out-prefix",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1",
+    "--resource-out",
+    "notes/2026-11-12-tail-r42-strong-same-tau-r1-resource.json",
+    "--rss-limit-mib",
+    "120"
+  ],
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "input_hashes": {
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-tail-r33-strong-m20-density-window.json.gz": "3dc23cefdaafb0210548d868d85e5f81f231d9069dcec6670b7684dcbd1eb5a3",
+    "notes/2026-11-12-tail-r33-plateau2-quadratic-high-recovered-r1.json": "51496d1d7307ea491a4e8a9aef22756745bf6c9ca92f8fc9ab1b364deae41e27",
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz": "07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6",
+    "notes/2026-11-12-tail-r50-split-middle-r1.json.gz": "4ab9e668ab582fe1916c5ef764dc97ecb81984096ab2da7c57ceeba52d58e078"
+  },
+  "source_hashes": {
+    "computations/tail_r42_same_strip_strong_split.py": "f6af1318eee63601335031b063dd12ed1a950f6062a954f2da77a726c4969ef0",
+    "computations/tail_r42_same_strip_strong_high.py": "52c82cb1462f44c397dfee17cb94cd2f8b0b888d1b0c7490543bb569f91ac284",
+    "computations/tail_middle_frequency_split.py": "4dc17ec37763d533a2e7003df94698ab0d3b7ea544efb93569134f12c5f962d6",
+    "computations/closure_split_joint_io.py": "cd03e2fc375e19c8b4d291b601e423a37c584a3e4402957c9f377e82b8cce390"
+  },
+  "same_q_continuous_function_required": true,
+  "native_strong_strip_not_used": true,
+  "new_strong_kernel_is_not_bitwise_q": true,
+  "scope": "Same-g actual q085 M20 on the rational-deep metric; not the later q095 or q105 stored prefix",
+  "same_independent_far_log2": -2200,
+  "expected_causal_pairs": 22791,
+  "output_prefix": "notes/2026-11-12-tail-r42-strong-same-tau-r1",
+  "original_unsplit_prepared_adapter_preserved": true,
+  "new_ODE_or_source_integrations": 0,
+  "whole_strong_head_claimed": false,
+  "peak_RSS_limit_KiB": 122880
+}

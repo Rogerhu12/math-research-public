@@ -1,0 +1,11 @@
+{
+  "scope": "Only exact source guards, explicit transform counts and AST parsing; no input metric or raw loaded, no NumPy, physical RHS, Jacobian, BVP, or tail worker.",
+  "source_sha256": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf",
+  "source_bytes": 5724,
+  "transformed_sha256": "2e7ff712e5ff2ccebd9f0b216559944607b4a5c3b4caa40257ed28d33f6dd485",
+  "anchors": 5,
+  "each_anchor_exactly_one": true,
+  "numpy_loaded": false,
+  "actual_runtime_tested": false,
+  "preserved_original_sha256": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1"
+}

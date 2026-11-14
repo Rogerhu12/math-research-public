@@ -1,0 +1,24 @@
+{
+  "schema": "owned-subprocess-resource-v1",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_full_flow_secant_offline_diagnostic.py",
+    "--previous",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q098-m28-full-tangent-bootstrap-r1-response-full-tangent-call0001-manifest.json.gz",
+    "--current",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0003-manifest.json.gz",
+    "--initial-seed",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response-exact-initial-call000001-initial-seed.json.gz",
+    "--iteration-reference",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-initial-tail-iteration02-recovery.json.gz",
+    "--original-predictor",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-predictor.mjs",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/full-flow-secant-offline-r1/diagnostic.json"
+  ],
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "exit_code": 0,
+  "wall_seconds": 4.963774676998582,
+  "peak_rss_kib": 79828,
+  "source_sha256": "db44242a7cd0098cd9779950c0d9f27551d7ce86b21bad05ab2962a14747b491"
+}

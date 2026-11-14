@@ -1,0 +1,31 @@
+{
+  "scope": "Actual new-M worker constructor comparison against the original q122 accepted ready.",
+  "old_reference": "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+  "old_reference_sha256": "5545638d33d78240a2eb6dd82269d4c10975b14f686a9562971e3b20e60ce154",
+  "checked_stored_metric_fields": [
+    "name",
+    "sourceRevision",
+    "frozenWarpAlpha",
+    "cellCount",
+    "pointCacheLimit",
+    "profileFingerprintBefore",
+    "profileFingerprintAfter",
+    "fingerprintFields",
+    "fingerprintFractions",
+    "sourceSHA256",
+    "frozenCalibrationAdapter"
+  ],
+  "all_effective_non_mode_non_IO_parameters_equal": true,
+  "complete_calibration_adapter_and_160_original_cells_identical": true,
+  "profile_fingerprints_identical": true,
+  "original_cut_scalars_bitwise_equal": true,
+  "new_full_flow_snapshot_not_restored_from_old_M": true,
+  "distinct_exact_stage_identity_for_new_M": true,
+  "original_warm_gate_passed": true,
+  "new_M_tail_not_yet_solved_or_audited": true,
+  "old_stored_metric_sha256": "754e7d8accedd81bd49eca912cbea4ed37057e20c26479dd81bb771bfb1c407a",
+  "new_stored_metric_sha256": "ed0147c166c25d330463a5310a4f1c8c5639d3815668ac52a2d98d5a933343ad",
+  "original_profile_fingerprint": "8a87255bf9e025190a1a98ff800859f05f95a94113045a60af9391fcace51d24",
+  "original_frozen_warp_alpha": 161.27721826272244,
+  "original_calibration_table_sha256": "572b1bc740243818ffc41644ddb5cb27dcb99173cb4e3b521682624177cf911d"
+}

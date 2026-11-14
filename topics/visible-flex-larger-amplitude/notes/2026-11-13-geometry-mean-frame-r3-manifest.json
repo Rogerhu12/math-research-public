@@ -1,0 +1,53 @@
+{
+  "schema": "fresh-mean-frame-recovery-v5-archive",
+  "original_lost_v4_v2_files_recovered": false,
+  "actual_exitcode": 0,
+  "termination_signal": null,
+  "complete_true_leaves": 111,
+  "formal_seconds": 6.998840570449829,
+  "peak_RSS_KiB": 32168,
+  "original_PM_PA_A_CF_rerun": false,
+  "files": [
+    {
+      "path": "notes/2026-11-13-geometry-mean-frame-r3-mean-summary.json",
+      "bytes": 41660,
+      "sha256": "ec617b79e87098617ccd399d670942e9d90f8196e42e1fc5ea012fb4b47b4a9f",
+      "actual_output_path": "/tmp/vfla-20261113-geometry/mean-frame-r3-mean-summary.json"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-mean-frame-r3-frame-summary.json",
+      "bytes": 48580,
+      "sha256": "cbd9ce42b2ac7fbdb36e6980c5969c53021e2fb8590b7b2213a4ee33d109b4c3",
+      "actual_output_path": "/tmp/vfla-20261113-geometry/mean-frame-r3-frame-summary.json"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-mean-frame-r3-part00-mean.jsonl.gz",
+      "bytes": 2260283,
+      "sha256": "fc6cce15a3e343adb7f0bf7878b879455254a8e05bd6a73e33e9d15a1176a665",
+      "actual_output_path": "/tmp/vfla-20261113-geometry/mean-frame-r3-part00-mean.jsonl.gz"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-mean-frame-r3-part00-frame.jsonl.gz",
+      "bytes": 1838061,
+      "sha256": "e2a9fa85b54b7641e691b543d6c66e39f57f3e5e711a5ccb7a0cdbeb7151d301",
+      "actual_output_path": "/tmp/vfla-20261113-geometry/mean-frame-r3-part00-frame.jsonl.gz"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-mean-frame-r3-resource.json",
+      "bytes": 962,
+      "sha256": "7081f694c5de15a63b1f255c56a5b52ef276bb4e12abc3cda5e5c050fa122735",
+      "actual_output_path": "/tmp/vfla-20261113-geometry/mean-frame-r3-resource.json"
+    },
+    {
+      "path": "computations/tail_carrier_mean_frame_recovery_v5.py",
+      "bytes": 21491,
+      "sha256": "23910952e003e942e393f2ca985fb7b54bd1ab0d2906c6eee9c10079f1e02655"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-mean-frame-r1-path-failure-resource.json",
+      "bytes": 963,
+      "sha256": "b5c136522ecbb58a4ee7010c84aba8283432eb64071f5c91575cbb6968357916",
+      "scope": "Failed path relocation before numerical output; retained as such"
+    }
+  ]
+}

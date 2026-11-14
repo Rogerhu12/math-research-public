@@ -1,0 +1,67 @@
+{
+  "schema": "small-stable-repository-manifest-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "result": "R103-reflection-centred-position-and-defect-bridge",
+  "status": "Five complete independent small UTF-8 files; no ref modified; exact ledger actually executed in functions.exec V8",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/results/R103-reflection-centred-position-and-defect-bridge.md",
+      "sha256": "0ec4830574c64a4c4bc3628f70e37a1d9ef501c1d6822d39fb630908add7fd96",
+      "bytes": 15712,
+      "blob_sha": "d03fa8ce12f3da48f87bbc97ccf913cff86bcab1"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/tail_r103_reflection_centred_geometry.js",
+      "sha256": "5f6b6992e13d747b593d8f8f7e1cbfeff35b0e7587170f30f920ea56cac1b833",
+      "bytes": 12586,
+      "blob_sha": "8477ef2f06ca1eefcc69d8b17328afe054cff66f"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-tail-r103-centred-geometry-actual.json",
+      "sha256": "be7bad918196795ea6d128428e459e259e1bed71b123e37b944720b864158f21",
+      "bytes": 25881,
+      "blob_sha": "910d16e0ec15cac970df1ca9fe412b3481d6a4ec"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-tail-r103-carrier-observed-extrema.json",
+      "sha256": "f2d12d6c0b41f96fdb969f2923091934012b81e40721c19f2410997c7131baa2",
+      "bytes": 1871,
+      "blob_sha": "d413f921d559c2624045bf737f393e78a1652b58"
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-tail-r103-centred-geometry-plan.json",
+      "sha256": "b8209cd0a58572d2780285317c5105c6c7ebb90db677516f8a23282cfd3581a3",
+      "bytes": 7447,
+      "blob_sha": "882482b1d8fe4e00f8887f0ec1687b81e1d0ec43"
+    }
+  ],
+  "file_count": 5,
+  "total_bytes": 63497,
+  "mathematical_execution": {
+    "global_gates": 12,
+    "all_true": true,
+    "all_eight_positions_below": "1/8192",
+    "all_eight_unit_reference_vector_differences_below": "1/4096",
+    "maximum_position_upper": "0.000024760539453264",
+    "maximum_vector_upper": "0.000181132259581343",
+    "field_error_hypothesis": "Complete joint A_tau^1 error <=1/512",
+    "complete_mean": true,
+    "OS_exitcode": null,
+    "Node_Arb_ODE_calls": 0
+  },
+  "proof_includes": [
+    "Two exact reflection axes and quarter-turn endpoint cancellation",
+    "Complete physical-normalized formula and orientation",
+    "One global centre/axis/height gauge, not per-part resets",
+    "Candidate radial-reference centre drift controlled by full same-leaf J and the true integral I00+I01",
+    "Actual eight-part data semantics and unpaid true field error"
+  ],
+  "parent_may_register_directly": true,
+  "pending25_original_files_not_replaced": {
+    "observed_manifest_blob": "2d552c1e9628106d5399ff65a039cba01ca103be",
+    "files": 25,
+    "CLI_archive_pending": true
+  },
+  "no_api_binary_or_encoded_primary_transfer": true
+}

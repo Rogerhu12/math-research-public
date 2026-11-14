@@ -1,0 +1,326 @@
+{
+  "status": "Actual finite nonlinear physical-depth refinement on the same new fixed g",
+  "converged": true,
+  "residual": 2.1825665269857528e-11,
+  "failed": null,
+  "audit": {
+    "fullD": 2.317353333882727e-17,
+    "normalizedFullDefect": 2.771220752872949e-16,
+    "minLeading": 0.9937826803363398,
+    "minD": 0.9999966889251244,
+    "formalCurvature": 7.998114721193093,
+    "maxPhysicalPV": 2.6296161170353472e-06,
+    "actualMetric": 4.44780320613701e-15,
+    "holonomy": 3.360524636073244e-21
+  },
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 0.020405071484944456,
+      "minA": 0.9937815187191498,
+      "minD": 0.9999966880550246,
+      "chartCondition": 13298217.047865788,
+      "step": 1
+    },
+    {
+      "iteration": 1,
+      "norm": 2.1825665269857528e-11,
+      "minA": 0.9937815187191498,
+      "minD": 0.9999966880550246
+    }
+  ],
+  "old_depth": 8,
+  "new_depth": 12,
+  "old_modes": 8,
+  "new_modes": 8,
+  "old_steps": 16,
+  "new_steps": 16,
+  "old_quadrature": 256,
+  "new_quadrature": 256,
+  "old_linear_far": 192,
+  "new_linear_far": 225,
+  "old_linear_steps": 1024,
+  "new_linear_steps": 1024,
+  "fixed_new_g_fields_verified": [
+    "definition",
+    "start",
+    "deepAlpha",
+    "exactSourceConstants",
+    "frozenWarpAlpha",
+    "headFingerprint"
+  ],
+  "elapsed": 119.71964461899915,
+  "peak_child_RSS_KiB": 390468,
+  "endpoint_diagnostic": {
+    "status": "ACTUAL nonlinear endpoint, followed by an UNVERIFIED linear continuation",
+    "physical_depth": 12,
+    "far_physical_node": 225,
+    "far_mathematical_port": 224,
+    "tau_F": 0.17328679513998632,
+    "rows": [
+      {
+        "mode": 2,
+        "actual_endpoint_Q": -2.2863945785201636e-41,
+        "actual_endpoint_connection_momentum": 5.706585942679951e-40,
+        "actual_endpoint_linear_canonical_Xi": 5.706585942679951e-40,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 2393.0497084069393,
+        "endpoint_linear_slope": -24.958885033629922,
+        "endpoint_connection_boundary_residual": 8.156630584998156e-56,
+        "endpoint_canonical_boundary_residual": 8.156630584998156e-56,
+        "log2_abs_z_from_linear_continuation": -2341.334660575594
+      },
+      {
+        "mode": 4,
+        "actual_endpoint_Q": -7.421456013553295e-51,
+        "actual_endpoint_connection_momentum": 3.701877303473866e-48,
+        "actual_endpoint_linear_canonical_Xi": 3.701877303473866e-48,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3032.2434230620215,
+        "endpoint_linear_slope": -498.8074168617832,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -3294.516915968809
+      },
+      {
+        "mode": 6,
+        "actual_endpoint_Q": 6.632986280619354e-60,
+        "actual_endpoint_connection_momentum": -1.7352819549740577e-56,
+        "actual_endpoint_linear_canonical_Xi": -1.7352819549740577e-56,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3385.493848467256,
+        "endpoint_linear_slope": -2616.1398223365936,
+        "endpoint_connection_boundary_residual": 2.263919769706678e-72,
+        "endpoint_canonical_boundary_residual": 2.263919769706678e-72,
+        "log2_abs_z_from_linear_continuation": -3833.7089494615584
+      },
+      {
+        "mode": 8,
+        "actual_endpoint_Q": 7.357737857630117e-67,
+        "actual_endpoint_connection_momentum": -6.154909189024585e-63,
+        "actual_endpoint_linear_canonical_Xi": -6.154909189024585e-63,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3633.2525985377943,
+        "endpoint_linear_slope": -8365.219457556272,
+        "endpoint_connection_boundary_residual": -1.0795210693868056e-78,
+        "endpoint_canonical_boundary_residual": -1.0795210693868056e-78,
+        "log2_abs_z_from_linear_continuation": -4213.75316245454
+      },
+      {
+        "mode": 10,
+        "actual_endpoint_Q": 2.6878349085379307e-70,
+        "actual_endpoint_connection_momentum": -5.521144598444866e-66,
+        "actual_endpoint_linear_canonical_Xi": -5.521144598444866e-66,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3824.583549260826,
+        "endpoint_linear_slope": -20541.23406503466,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -4500.703978264588
+      },
+      {
+        "mode": 12,
+        "actual_endpoint_Q": -1.5842753883294192e-74,
+        "actual_endpoint_connection_momentum": 6.780650068720069e-70,
+        "actual_endpoint_linear_canonical_Xi": 6.780650068720069e-70,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 3980.5699708092866,
+        "endpoint_linear_slope": -42799.69327725342,
+        "endpoint_connection_boundary_residual": -1.2868893973670072e-85,
+        "endpoint_canonical_boundary_residual": -1.2868893973670072e-85,
+        "log2_abs_z_from_linear_continuation": -4739.29514885094
+      },
+      {
+        "mode": 14,
+        "actual_endpoint_Q": 5.842303841060586e-77,
+        "actual_endpoint_connection_momentum": -4.661384477214853e-72,
+        "actual_endpoint_linear_canonical_Xi": -4.661384477214853e-72,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4112.284178958447,
+        "endpoint_linear_slope": -79786.75200789704,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -4936.901653791756
+      },
+      {
+        "mode": 16,
+        "actual_endpoint_Q": 1.8397833962051657e-77,
+        "actual_endpoint_connection_momentum": -2.527878566893166e-72,
+        "actual_endpoint_linear_canonical_Xi": -2.527878566893166e-72,
+        "connection_minus_canonical": 0.0,
+        "far_to_endpoint_log_Q_gain": 4226.279313346766,
+        "endpoint_linear_slope": -137400.8794789268,
+        "endpoint_connection_boundary_residual": 0.0,
+        "endpoint_canonical_boundary_residual": 0.0,
+        "log2_abs_z_from_linear_continuation": -5102.5288703266915
+      }
+    ],
+    "log2_low_height_l1": -2341.334660575594,
+    "numerical_margin_to_trace_domain": 394.33466057559417,
+    "numerical_margin_to_Robin_envelope": 293.33466057559417,
+    "strip_diagnostics": [
+      {
+        "tau_F": 0.17328679513998632,
+        "retained_modes": 8,
+        "log2_low_height_l1": -2341.334660575594,
+        "numerical_margin_to_trace_domain": 394.33466057559417
+      },
+      {
+        "tau_F": 1.0,
+        "retained_modes": 8,
+        "log2_low_height_l1": -2338.949270493816,
+        "numerical_margin_to_trace_domain": 391.94927049381613
+      },
+      {
+        "tau_F": 8.0,
+        "retained_modes": 8,
+        "log2_low_height_l1": -2318.7515399213707,
+        "numerical_margin_to_trace_domain": 371.75153992137075
+      },
+      {
+        "tau_F": 80.0,
+        "retained_modes": 8,
+        "log2_low_height_l1": -2111.00345403336,
+        "numerical_margin_to_trace_domain": 164.00345403335996
+      },
+      {
+        "tau_F": 96.0,
+        "retained_modes": 8,
+        "log2_low_height_l1": -2064.837212724913,
+        "numerical_margin_to_trace_domain": 117.83721272491312
+      },
+      {
+        "tau_F": 128.0,
+        "retained_modes": 8,
+        "log2_low_height_l1": -1972.5047301080194,
+        "numerical_margin_to_trace_domain": 25.50473010801943
+      }
+    ],
+    "canonical_coordinate_conversion_available": true,
+    "limits": [
+      "No omitted nonlinear flow or radial integration error is enclosed here.",
+      "Only retained finite modes enter these linear label diagnostics; unrepresented low modes through 46 are not bounded by this report.",
+      "No unrepresented Fourier mode is declared zero in the exact problem.",
+      "R18 applies only after a true trace inclusion and its complete residual are controlled."
+    ]
+  },
+  "cut_jet_comparisons": {
+    "height": {
+      "max_absolute": 0.0,
+      "added_modes_max": 0.0,
+      "old": [
+        -1.3148080654131213e-06,
+        2.18125914362109e-11,
+        6.875611078525914e-15,
+        1.816631641131182e-17,
+        4.748439882470906e-18,
+        6.619956968190949e-18,
+        1.508799238491519e-17,
+        -1.2020325901481256e-17
+      ],
+      "new": [
+        -1.3148080654131213e-06,
+        2.18125914362109e-11,
+        6.875611078525914e-15,
+        1.816631641131182e-17,
+        4.748439882470906e-18,
+        6.619956968190949e-18,
+        1.508799238491519e-17,
+        -1.2020325901481256e-17
+      ]
+    },
+    "slope": {
+      "max_absolute": 3.3881317890172014e-21,
+      "added_modes_max": 0.0,
+      "old": [
+        -1.5589516503142843e-05,
+        1.9837208117479765e-10,
+        -7.600021921214062e-14,
+        1.3392570976789047e-16,
+        2.1835966192080247e-16,
+        2.3551536521436346e-16,
+        2.5611032234851156e-16,
+        1.5646989189029293e-16
+      ],
+      "new": [
+        -1.558951650314284e-05,
+        1.9837208117479806e-10,
+        -7.600021921214476e-14,
+        1.3392570977370438e-16,
+        2.1835966189776497e-16,
+        2.355153651830441e-16,
+        2.5611032234539714e-16,
+        1.5646989186658135e-16
+      ]
+    },
+    "second": {
+      "max_absolute": 2.6469779601696886e-23,
+      "added_modes_max": 0.0,
+      "old": [
+        4.5296012156057175e-05,
+        -3.3446897425966105e-08,
+        -1.9863477383882118e-11,
+        -8.756734755647465e-14,
+        -3.183560272818115e-14,
+        -6.86427344014309e-14,
+        -2.240369519675799e-13,
+        2.4299718543067014e-13
+      ],
+      "new": [
+        4.5296012156057175e-05,
+        -3.344689742596613e-08,
+        -1.9863477383882554e-11,
+        -8.756734755381772e-14,
+        -3.183560272828452e-14,
+        -6.864273439948984e-14,
+        -2.2403695196738124e-13,
+        2.4299718543130577e-13
+      ]
+    },
+    "meanSlopeCorrection": {
+      "max_absolute": 0.0,
+      "added_modes_max": 0.0,
+      "old": [
+        7.033368270620824e-10
+      ],
+      "new": [
+        7.033368270620824e-10
+      ]
+    },
+    "meanSecondCorrection": {
+      "max_absolute": 0.0,
+      "added_modes_max": 0.0,
+      "old": [
+        2.668970170653261e-08
+      ],
+      "new": [
+        2.668970170653261e-08
+      ]
+    }
+  },
+  "physical_cut_comparison": {
+    "nonmean_height_l1": 0.0,
+    "physical_gradient_l2_upper": 3.3778446525835578e-21,
+    "covariant_Hessian_Frobenius_upper": 3.37784316058531e-20,
+    "gradient_components": [
+      3.3778446525835578e-21,
+      0.0
+    ],
+    "Hessian_components": [
+      5.3171701659977e-22,
+      2.2524763996527996e-20,
+      1.1223623860722799e-20
+    ],
+    "mean_slope_correction_change": 0.0,
+    "mean_second_correction_change": 0.0,
+    "scope": "Floating Fourier-l1 bounds on the complete two saved finite spectra, including newly added modes. No source evaluation, floating rounding or missing exact radial-solution error is enclosed."
+  },
+  "response": "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-response.json.gz",
+  "response_bytes": 93261,
+  "response_sha256": "054044cae617b440eae24b4bad3d54a8e14ded554f3f46861730c2d6ae46ca78",
+  "limits": [
+    "Finite Fourier and finite nonlinear depth only.",
+    "An amplitude margin is not the exact F224 trace match.",
+    "No complete strong closed surface or reach claim."
+  ]
+}

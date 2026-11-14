@@ -1,0 +1,190 @@
+{
+  "status": "Stable executed actual cell11 compatible candidate domain and complete mean/Darboux residual bounds",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "files": [
+    {
+      "path": "computations/tail_outer_candidate_domain.py",
+      "bytes": 13168,
+      "sha256": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690"
+    },
+    {
+      "path": "computations/tail_outer_full_mean_residual_bounds.py",
+      "bytes": 3971,
+      "sha256": "16f9d2d5c2e858686aff9d332df4cc565606481ab45a46d6a9080db29317c8af"
+    },
+    {
+      "path": "computations/tail_outer_candidate_defect.py",
+      "bytes": 3881,
+      "sha256": "241104402884d7988df2af8d3881c889cfc4e3d70486de6b3ef6ab76645a45bf"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-complete-mean-defect.md",
+      "bytes": 10557,
+      "sha256": "f704f5a9437df83052a171b6267aad27a6569140684ec868a0b654a6b467696d"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell11-candidate-domain-r1.json",
+      "bytes": 36883,
+      "sha256": "050ba1222b7ba65fb908d1ca41cb4e20849efd455b9b041539dec1de979c0b30"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell11-candidate-domain-r1-resource.json",
+      "bytes": 1234,
+      "sha256": "0cb0d1a1d11b0787d007f34be58574363c9937abd41e36e6e2afb6c83115dcd3"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell11-candidate-defect-r1.json",
+      "bytes": 57184,
+      "sha256": "d707ec765c86015e3192a02db35ec04932710adde6a464bc874574323f5fc122"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell11-candidate-defect-r1-resource.json",
+      "bytes": 1245,
+      "sha256": "fdab07d4be9bdfb52ac88add57faa67d71ef209b43ea043c11332b241489afbd"
+    }
+  ],
+  "formal_sessions": {
+    "domain": {
+      "session": 57646,
+      "final_chunk": "95d9fe"
+    },
+    "defect": {
+      "session": 23908,
+      "final_chunk": "9c2e22"
+    }
+  },
+  "resource_records": {
+    "domain": {
+      "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+      "command": [
+        "python",
+        "computations/tail_outer_candidate_domain.py",
+        "--cell-manifest",
+        "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json",
+        "--port-candidates",
+        "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+        "--response",
+        "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--tau",
+        "1/64",
+        "--inverse-degree",
+        "8",
+        "--rss-limit-mib",
+        "120",
+        "--out",
+        "notes/2026-11-12-tail-outer-cell11-candidate-domain-r1.json"
+      ],
+      "wall_seconds": 38.64935064315796,
+      "exitcode": 0,
+      "termination_signal": null,
+      "peak_rss_kib": 32172,
+      "user_seconds": 3.482846,
+      "system_seconds": 1.475204,
+      "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+    },
+    "defect": {
+      "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+      "command": [
+        "python",
+        "computations/tail_outer_candidate_defect.py",
+        "--cell-manifest",
+        "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json",
+        "--port-candidates",
+        "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+        "--response",
+        "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+        "--ready",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--tau",
+        "1/64",
+        "--inverse-degree",
+        "8",
+        "--rss-limit-mib",
+        "120",
+        "--out",
+        "notes/2026-11-12-tail-outer-cell11-candidate-defect-r1.json"
+      ],
+      "wall_seconds": 42.39503741264343,
+      "exitcode": 0,
+      "termination_signal": null,
+      "peak_rss_kib": 32052,
+      "user_seconds": 4.467584,
+      "system_seconds": 0.24096099999999998,
+      "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+    }
+  },
+  "candidate_identity_checks": {
+    "cell": true,
+    "panels": true,
+    "tau": true,
+    "modes": true,
+    "inverse_degree": true,
+    "endpoints": true,
+    "bubble_coefficients": true,
+    "worst": true,
+    "segments": true,
+    "gates": true,
+    "leading_lower": true,
+    "input_hashes": true
+  },
+  "complete_mean": true,
+  "all_rational_source_frequencies_retained": true,
+  "exact_radial_solution_claimed": false,
+  "coverage": {
+    "cell": 11,
+    "panels": 5545,
+    "source_segments": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "modes": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40
+    ],
+    "tau": "1/64"
+  },
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json": "ed68183d518c7abf99c84dd0aeab04b559993f9114d1ee153b1d2ca9c3d3fc4b",
+    "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json": "fc75a411e96b01cbff0047783619b8193479f68ad97b437cb4fce8472f2910ec",
+    "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz": "528fd51921f7cad71445d76669b44e60279c0fc31cddf9041f8ea5b1f7477962",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment0.json.gz": "080e350d4269d4ef6839e795625715ddcfaea2e1d52aa03529eded4a345f2f10",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment1.json.gz": "ba2f6a28d01d8c2ba94f60709d84843e40a5576168957b6eb1bd526eec470c72",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment2.json.gz": "834644c8b424ee36d955a2b7dfe52cc9ab51809853d4c5cc803ecbc3b63b535b",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment3.json.gz": "6c37ac7ca94a0f47f0cc20b55b745ca7ebf3e048d7ba17d2a45b290e9613077f",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment4.json.gz": "36fcbe8e5d40134fb52aca6a96684328081864009d900ec58f4f642f6fed4a5b",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment5.json.gz": "33edb67af799623d76bb99d5276eed047a28628f2c27c66106d4a7e460cd903a",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment6.json.gz": "bbebf434ef5bfb102ef520147f6215d611d0b8eceeca2e593ae8e84376ec00a4",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment7.json.gz": "96021049083566820da7f322ab91fd7aa441d8cac8f95efab33260cd82e562be",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-segment8.json.gz": "34263eef796a534c8b6e51d765052de126ea71de99a41abb82e2d4a73eca1579"
+  },
+  "remaining": "cells0..10; complete outer Green/Schur; matching the new exact node12 low momentum and high height/momentum traces"
+}

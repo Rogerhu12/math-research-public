@@ -1,0 +1,29 @@
+{
+  "status": "Executed exact rational combination, fresh v2 source; no new source integrals or ODE",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_candidate_boundary_row_budget_v2.py",
+    "--source-rows",
+    "notes/2026-11-12-closure-outer-source-parameter-rows-r1.json",
+    "--inner-head",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+    "--family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+    "--full-family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3.json.gz",
+    "--out",
+    "notes/2026-11-12-closure-candidate-boundary-row-budget-r2.json"
+  ],
+  "source_sha256": "733cc9d5d35f5d4269d8e33cfed6ee0a558c6e9c4433e6260a580ea33fd2dd69",
+  "preserved_first_wrapper_source_sha256": "6eed1b044d548414106a86c9e721c2997ddcbffe510be259991fe4ea15a68f5e",
+  "input_hashes": {
+    "notes/2026-11-12-closure-outer-source-parameter-rows-r1.json": "1af45c9d6104eb23031c930c174d6160b9c0bd27116e4282f728f8e66ddedcfe",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json": "17b1d776cdce044722db61c2981d64838d18fd66c6ef3fdd4c48fa183a9a3776",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3.json.gz": "4306f0641856e85a8390dee4c22271dbefe1c6c3c7934f9c9b9a1ec6195ad866"
+  },
+  "formal_tool_exit": 0,
+  "wait4_exit": 0,
+  "wall_seconds": 0.11683821678161621,
+  "peak_rss_kib": 21488
+}

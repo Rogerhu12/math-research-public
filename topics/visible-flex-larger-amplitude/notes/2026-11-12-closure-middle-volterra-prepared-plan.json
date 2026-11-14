@@ -1,0 +1,69 @@
+{
+  "status": "Prepared source only. No new middle numerical flow has executed.",
+  "date": "2026-11-12",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted)",
+  "source": {
+    "path": "computations/closure_outer_middle_volterra_recovered_v1.py",
+    "git_blob": "dc0b69d9f6521fa9b2891c4aba412e18840e67b5",
+    "sha256": "6655a72f38f89d6eb31ded7b78bd4b84f94c500653bbb8e6c3ca2611d6af2e31",
+    "bytes": 26163
+  },
+  "scope": {
+    "default_even_modes": [
+      94,
+      96
+    ],
+    "background_cells": [
+      11,
+      10
+    ],
+    "complete_original_panels": 10793,
+    "all18_source_segments": true,
+    "same_metric_and_local_V": true,
+    "full_mean_and_quotient": true,
+    "source_terms": [
+      "(r_x/r)*V^2",
+      "abs(w_x/w)*V^2"
+    ],
+    "constant_strip": "18/125",
+    "actual_low_centre_same_V_bound": "11.1552855545848102071456540278 < 12",
+    "true_high_initial_input": "R78 both physical components; not a new linear head slope or zero high Dirichlet condition",
+    "all_middle_modes_computed": false,
+    "complete_cut_matching_claimed": false
+  },
+  "method": "Within each original source segment retain the signed physical trace-zero fundamental matrix, determinant-one inverse and ordered source prefix. At its endpoint only the genuine incoming source uncertainty is propagated by the absolute signed endpoint matrix. The two material integrals and each output component's radial supremum remain separate. Global actual initial columns are never reset. No whole-domain exponential prefactor is substituted.",
+  "numerical": {
+    "precision": 256,
+    "taylor_order": 24,
+    "root_bits": 160,
+    "remainder_bits": 100,
+    "observed_RSS_stop_KiB": 98304,
+    "observed_stop_not_OS_limit": true,
+    "default_window_first": 94,
+    "default_window_last": 96,
+    "actual_execution": false,
+    "terminal_status": null
+  },
+  "commands": [
+    "python computations/closure_outer_middle_volterra_recovered_v1.py --ready notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json --physical-flow notes/2026-11-12-closure-outer-physical-low46-r1.json --physical-manifest notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json --source11 notes/2026-11-12-closure-outer-source-cell11-r1-summary.json --source10 notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json --head notes/2026-11-12-root-r78-true-cut-cauchy-r1.json --r91 notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json --modes 94,96 --out-prefix notes/2026-11-12-closure-middle-m94m96-prepare-r1 --prepare-only",
+    "python computations/closure_outer_middle_volterra_recovered_v1.py --ready notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json --physical-flow notes/2026-11-12-closure-outer-physical-low46-r1.json --physical-manifest notes/2026-11-12-closure-r87-physical-low46-stable-manifest.json --source11 notes/2026-11-12-closure-outer-source-cell11-r1-summary.json --source10 notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json --head notes/2026-11-12-root-r78-true-cut-cauchy-r1.json --r91 notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json --modes 94,96 --out-prefix notes/2026-11-12-closure-middle-m94m96-run-r1 --rss-kib 98304"
+  ],
+  "cwd": "topics/visible-flex-larger-amplitude",
+  "outputs": "Primary and eighteen completed-segment JSON files share the out-prefix, no subdirectory or hidden working spool. Failure JSON and completed segments remain immutable. Resume accepts a completed-segment primary, requires identical configuration/source hashes and a new out-prefix.",
+  "no_external_ref_mutations": true,
+  "static_validation": "Manual source/interface inspection only while the local executor is unavailable. Python AST/compile and actual numerical guards remain to be executed. Mathematical finite-window failure will be recorded, not reported as whole-problem nonexistence.",
+  "R91_input": {
+    "path": "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+    "sha256": "badc734ef590c747d62fc75bd57ce2571bd89e8c522604b691406f469d47392f"
+  },
+  "proof_note": {
+    "path": "notes/2026-11-12-closure-middle-volterra-prepared-interface.md",
+    "git_blob": "774be694865ed26fb99e8dd712effbc0cc19efda",
+    "sha256": "b63e3c2a31614b62e9aeb27c9a0714d75cfd08a6b3e5a8799477323abe277f30"
+  },
+  "last_read_only_execution_attempt": {
+    "command": "pwd",
+    "workdir": "/",
+    "tool_result": "No usable execution environment is available; no child process was started."
+  }
+}

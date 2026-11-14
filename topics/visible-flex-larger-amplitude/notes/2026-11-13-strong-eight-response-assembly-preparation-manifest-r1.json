@@ -1,0 +1,55 @@
+{
+  "scope": "Preparation and genuine saved-six verification for a fresh algebraic eight-column assembly consumer. No future frontload/vd values, new BVP or combined half measurements are created.",
+  "created_utc": "2026-11-13T14:16:46.182389+00:00",
+  "owned_preparation": {
+    "exitcode": 0,
+    "wall_seconds": 3.5514743509993423,
+    "peak_rss_kib": 54212
+  },
+  "actual_saved_arrays_verified": 12,
+  "new_two_columns_consumed": false,
+  "old_combined_half_and_matrix_values_remain_null": true,
+  "planned_after_missing_two_owned_exit0": [
+    "python",
+    "computations/strong_merge_completed_six_missing_two.py",
+    "--partial-six",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+    "--missing-two",
+    "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r1.json",
+    "--out-prefix",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r1"
+  ],
+  "files": [
+    {
+      "file": "computations/strong_merge_completed_six_missing_two.py",
+      "sha256": "a022090a89062002a591a062a40cd9bc1af83dfae0599ae448985a6766878e0b",
+      "bytes": 14548
+    },
+    {
+      "file": "notes/2026-11-13-strong-eight-response-assembly-preparation-r1-heartbeat.json",
+      "sha256": "33b83ddcfe41fd147b9c3e7e315a63c3c0a29b28c6a6bc4370af7378e22537a7",
+      "bytes": 317
+    },
+    {
+      "file": "notes/2026-11-13-strong-eight-response-assembly-preparation-r1-ownership.json",
+      "sha256": "5cc1cf446532ab3c69ce625c16b09f2a2350315b4ac36b83128dfb2448bf36fe",
+      "bytes": 1589
+    },
+    {
+      "file": "notes/2026-11-13-strong-eight-response-assembly-preparation-r1-resource.json",
+      "sha256": "b01aafd5bcefe8f574d90bd97a6142ac2aec2c76ac4e0df7d4b328d30af2872b",
+      "bytes": 1368
+    },
+    {
+      "file": "notes/2026-11-13-strong-eight-response-assembly-preparation-r1-stdout.log",
+      "sha256": "7b325b7ade1b9a86ea2f7ca2cd1f400622d63aac11b2551a070152a81a7b205c",
+      "bytes": 2481
+    },
+    {
+      "file": "notes/2026-11-13-strong-eight-response-assembly-preparation-r1.json",
+      "sha256": "8f05b7c36f12d754c51ce5e8dd313a09f278616a53e39f047b292493d02c02de",
+      "bytes": 1200
+    }
+  ],
+  "total_bytes": 21503
+}

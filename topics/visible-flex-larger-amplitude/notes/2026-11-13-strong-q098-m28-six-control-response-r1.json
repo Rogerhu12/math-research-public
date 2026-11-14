@@ -1,0 +1,947 @@
+{
+  "scope": "Differentiate an accepted actual-tail problem in physical design controls.\n\nAt the unchanged accepted raw state, the fixed-metric full Jacobian has all\ncore coefficients as boundary unknowns.  Delta/LB/vp, and optional other\nprefix-only controls, enter as external forcing columns.  A 3x3 exchange\nthen prescribes actual c2/c4/c6 while solving for those three controls.\n\nThe recorded complete nonlinear-tail height Jacobian is used only at its\nexact recorded boundary H.  There is no Node worker, new tail solve, BVP\ncontinuation, or new accepted surface.  The original actual/fixed loader and\nboundary Jacobian are reused, with a local affine tail tangent for this\nderivative calculation only.  --metadata-only does not import NumPy or load\nany Flow; it checks the linked input data and complete H byte identity.\n",
+  "schema": "fixed-actual-to-three-control-response-v1",
+  "finished": true,
+  "inspection_only": true,
+  "new_solution": false,
+  "tail_worker_started": false,
+  "input_identity": {
+    "scope": "Input identity check only, with no Flow, RHS, Jacobian assembly, Node or BVP.",
+    "full_height_bitwise_equal": true,
+    "modes": 28,
+    "angular": 1024,
+    "nodes": 2212,
+    "actual_primary_amplitude": 0.098,
+    "gauge": 0.09,
+    "raw_fixed_parameter_layout": "p0=log(actual_q/gauge_q); p1=(q4-reference_q4)/gauge_q^2; p2..=higher support/recorded scale",
+    "raw_tolerance": 1e-07,
+    "tail_jacobian_method": {
+      "slope": "analytic actual shooting tangent plus exact cut chain rule",
+      "meanSlopeCorrection": "analytic actual shooting tangent plus exact cut chain rule",
+      "second": "source symmetric difference on actual tangent graph",
+      "meanSecondCorrection": "source symmetric difference on actual tangent graph",
+      "height": "source symmetric difference; mathematically identity",
+      "sourceSecondDifferenceStep": 0.0001
+    },
+    "tail_residual": 1.1080697263706002e-09,
+    "source_sha256": {
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_fixed_control_response.py": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf",
+      "notes/2026-11-13-strong-q098-m28-fixed-view-r1.json.gz": "3696f145fdab26526a74010ebacd1c2a4925be9b57884301ffdcf3c47d4cd891",
+      "notes/2026-11-13-strong-q098-m28-fixed-view-r1-raw-collocation.json.gz": "f6a3dea92329f5793ac3968c0069c2c13740ce8e67c60806e013f1a0844d0541",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-response_0003.json.gz": "1e0af8ea57b700b46c78e1fb09cc5babd72c54dd7132e2cb3be377979e62ca57",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-x-000.npy.gz": "289f2b8938edfa120099256ecd8b397cc52c1572e2449a6e6cf16d0d4129f187",
+      "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-y-000.npy.gz": "3dd7379c640943280cb780cebc3748dbde3fe420448b4c9aebfe18863dbaa90a",
+      "notes/2026-11-13-strong-q098-m28-fixed-view-r1-raw-p-000.npy.gz": "02b7fd1f63abaaf8f6b23bfc6d43a97c2a979ea5867bed3b29190a5929b9ff05"
+    },
+    "disk_response_adapter": {
+      "scope": "Optional disk storage for the original accepted fixed-g control response.\n\nThe input must still be a genuinely checked fixed view with M core parameters.\nThis does not relabel an M+3 design endpoint or create a new nonlinear solution.\nAll original complete-H identities, full-field forcing, half-step checks and\noriginal matrix residual checks remain. Every QR solve additionally receives\nthe production backend's complete streamed numerical backward-error gate.\n",
+      "original_source_sha256": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+      "transformed_source_sha256": "2e7ff712e5ff2ccebd9f0b216559944607b4a5c3b4caa40257ed28d33f6dd485",
+      "source_sha256": {
+        "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+        "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+        "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+        "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_fixed_control_response.py": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf"
+      },
+      "explicit_transforms": [
+        {
+          "before": "    hashes={str(Path(__file__)):digest(__file__)}\n",
+          "after": "    hashes={str(Path(__file__)):digest(__file__)}\n    hashes.update(DISK_WRAPPER_SOURCE_HASHES)\n",
+          "replacements": 1
+        },
+        {
+          "before": "    if opts.metadata_only:\n",
+          "after": "    input_report['disk_response_adapter'] = DISK_WRAPPER_PROVENANCE\n    if opts.metadata_only:\n",
+          "replacements": 1
+        },
+        {
+          "before": "    import root_block_collocation as blocks\n",
+          "after": "    from strong_disk_actual_backend import install_disk_backend\n    disk_runtime = install_disk_backend(bounded, prefix, DISK_WRAPPER_CONFIGURATION)\n    blocks = bounded.blocks\n",
+          "replacements": 1
+        },
+        {
+          "before": "        output.write_text(json.dumps(result,indent=2)+'\\n')\n",
+          "after": "        result['disk_block_storage'] = dict(\n            adapter=DISK_WRAPPER_PROVENANCE, configuration=DISK_WRAPPER_CONFIGURATION,\n            stats=dict(disk_runtime.stats), original_full_field_checks_preserved=True,\n            numerical_backward_check_is_not_an_interval_inverse_certificate=True)\n        output.write_text(json.dumps(result,indent=2)+'\\n')\n",
+          "replacements": 1
+        },
+        {
+          "before": "        for function,default in zip(functions,defaults):function.__defaults__=default\n",
+          "after": "        for function,default in zip(functions,defaults):function.__defaults__=default\n        disk_runtime.finish()\n",
+          "replacements": 1
+        }
+      ],
+      "original_source_file_unchanged": true,
+      "original_fixed_input_identity_gate_preserved": true,
+      "accepted_M_plus_3_design_requires_real_fixed_view_conversion": true,
+      "original_forcing_and_half_step_rules_preserved": true,
+      "original_full_matrix_residual_checks_preserved": true,
+      "independent_tail_worker_started": false
+    }
+  },
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_fixed_control_response.py": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf",
+    "notes/2026-11-13-strong-q098-m28-fixed-view-r1.json.gz": "3696f145fdab26526a74010ebacd1c2a4925be9b57884301ffdcf3c47d4cd891",
+    "notes/2026-11-13-strong-q098-m28-fixed-view-r1-raw-collocation.json.gz": "f6a3dea92329f5793ac3968c0069c2c13740ce8e67c60806e013f1a0844d0541",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-response_0003.json.gz": "1e0af8ea57b700b46c78e1fb09cc5babd72c54dd7132e2cb3be377979e62ca57",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-x-000.npy.gz": "289f2b8938edfa120099256ecd8b397cc52c1572e2449a6e6cf16d0d4129f187",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-raw-collocation-y-000.npy.gz": "3dd7379c640943280cb780cebc3748dbde3fe420448b4c9aebfe18863dbaa90a",
+    "notes/2026-11-13-strong-q098-m28-fixed-view-r1-raw-p-000.npy.gz": "02b7fd1f63abaaf8f6b23bfc6d43a97c2a979ea5867bed3b29190a5929b9ff05",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_actual_fixed_refinement.py": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_block_qr.py": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-config.json": "51dccdc03aab9fb667744be16077d607b7b835f018fa806ce7fb6f65bf539531"
+  },
+  "fields": [
+    "delta",
+    "boost_length",
+    "boost_speed",
+    "vu",
+    "descending_turn_curvature",
+    "start_acceleration"
+  ],
+  "baseline": {
+    "profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.16418490163771843,
+      "vu": 0.3202000081865586,
+      "vd": 0.98,
+      "start_acceleration": 0.45,
+      "boost_speed": 0.8613018867648412,
+      "boost_length": 0.12485272534014924,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.745249237965955,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle"
+    },
+    "core": [
+      0.098,
+      -0.006702354864108033,
+      -0.00041767340155827136,
+      -8.679178608093335e-05,
+      -2.469709745024028e-05,
+      1.1466961382243357e-05,
+      7.607826603145691e-06,
+      -3.1477223117732823e-06,
+      -6.344842682626708e-07,
+      -1.676619093551141e-07,
+      -4.787502608725516e-08,
+      -6.661824204160668e-09,
+      -8.078880644501606e-09,
+      -1.1114634100349704e-09,
+      3.317582317772611e-11,
+      -2.5497808877110383e-10,
+      -2.1540211905923108e-10,
+      -4.451332578637533e-11,
+      -6.043698728387043e-11,
+      6.746912493790507e-11,
+      8.359264997323587e-12,
+      1.1416222098077663e-11,
+      -5.556227562465254e-11,
+      -1.3759110993668338e-11,
+      -7.537073979109471e-12,
+      1.3643498845509383e-11,
+      1.5445116099048206e-12,
+      -1.6103557244186259e-12
+    ],
+    "gauge": 0.09,
+    "numerical_reference_knots": [
+      0.0,
+      0.2677610126249561,
+      0.3073403620202028,
+      0.3172296666633604,
+      0.4210673654165145,
+      0.4309566700596721,
+      0.6992364843991988,
+      0.6996085091989966,
+      0.7035147695968731,
+      0.7038867943966709,
+      0.7141889687205218,
+      0.822361799120957,
+      0.8326639734448079,
+      0.8439613383350474,
+      0.8542635126588983,
+      0.9624363430593335,
+      0.9727385173831844,
+      0.9840358822734238,
+      0.9844103156009136,
+      0.9883418655395568,
+      0.9887162988670467,
+      0.9972544424000331,
+      1.0
+    ],
+    "reference_coefficients": [
+      0.09,
+      -0.006363961030678927
+    ],
+    "actual_physical_bc_max": 5.642201742845016e-14,
+    "accepted_rms_max": 9.981852503852003e-08,
+    "raw_state_bitwise_equal": true
+  },
+  "modes": 28,
+  "angular": 1024,
+  "nodes": 2212,
+  "external_responses": [
+    {
+      "field": "delta",
+      "width": 3.2836980327543685e-07,
+      "half_width": 1.6418490163771842e-07,
+      "half_step_response_relative_difference": 1.153272282334912e-09,
+      "equation_error_over_forcing_norm": 7.030599098227988e-12,
+      "equation_relative_backward_error": 8.395986345545602e-16,
+      "physical_core_derivative": [
+        12.617908049941864,
+        -1.2785661030711246,
+        -0.13072202119083723,
+        -0.03472481433703747,
+        -0.018877951602946343,
+        0.012657866999365814,
+        0.010368289710533676,
+        -0.003990889685895965,
+        -0.0008746338738097769,
+        -0.00044465774686400727,
+        -0.00026316114322457644,
+        -6.020429832082657e-05,
+        -6.189247288195101e-05,
+        1.2769785930232662e-05,
+        7.018219673283033e-06,
+        -6.098948875734878e-07,
+        -3.7034414908810676e-07,
+        1.1628356598754028e-07,
+        6.750591272678269e-08,
+        1.7346094388633485e-07,
+        9.397690180964544e-08,
+        -4.3405611069490083e-08,
+        2.9179757780271264e-07,
+        6.51631612772455e-08,
+        4.9909506616575336e-08,
+        -8.486032192755523e-08,
+        -1.8337982439465802e-08,
+        -3.475458829138136e-08
+      ],
+      "field_correction_derivative_max": 12.636446490639464
+    },
+    {
+      "field": "boost_length",
+      "width": 2.4970545068029847e-07,
+      "half_width": 1.2485272534014924e-07,
+      "half_step_response_relative_difference": 2.0138066746325204e-10,
+      "equation_error_over_forcing_norm": 1.0505214795044826e-11,
+      "equation_relative_backward_error": 7.61243714131955e-16,
+      "physical_core_derivative": [
+        12.94763719000228,
+        -1.5242915434631255,
+        -0.147909487120397,
+        -0.03998992235335941,
+        -0.023827029207224203,
+        0.016848329203897637,
+        0.01326873179075171,
+        -0.005288320379833377,
+        -0.001111391029105306,
+        -0.0005888468977364115,
+        -0.0003765323727236143,
+        -8.681275599234663e-05,
+        -8.719085967735672e-05,
+        1.9042536892064825e-05,
+        1.0267587558366864e-05,
+        -7.512556037067608e-07,
+        -4.779083704035881e-07,
+        1.9164661690252298e-07,
+        1.3403632425896866e-07,
+        2.600191771238536e-07,
+        1.3001632589341584e-07,
+        -6.397445364123456e-08,
+        4.017342590490611e-07,
+        9.224680018400214e-08,
+        6.984075176302362e-08,
+        -1.1339770727996419e-07,
+        -2.4767776605179754e-08,
+        -4.232902338659968e-08
+      ],
+      "field_correction_derivative_max": 12.97036355163216
+    },
+    {
+      "field": "boost_speed",
+      "width": 1.7226037735296824e-06,
+      "half_width": 8.613018867648412e-07,
+      "half_step_response_relative_difference": 1.0081290941028257e-10,
+      "equation_error_over_forcing_norm": 2.507595668630666e-11,
+      "equation_relative_backward_error": 7.700111697875393e-16,
+      "physical_core_derivative": [
+        12.855950995867522,
+        -1.44876421558958,
+        -0.14408751166627876,
+        -0.03707048931202142,
+        -0.023092506308097522,
+        0.016414675854972114,
+        0.013138404342550885,
+        -0.0052039545815025,
+        -0.0010928874933948673,
+        -0.0006098174576845727,
+        -0.00039813172288869717,
+        -9.413983065735707e-05,
+        -9.433311407112584e-05,
+        2.1838907801219386e-05,
+        1.1530019847963555e-05,
+        -7.231735974896174e-07,
+        -2.7364410581889263e-07,
+        2.815952651710388e-07,
+        2.1613168185918877e-07,
+        2.473398108683852e-07,
+        1.4212516236810584e-07,
+        -8.626480792734497e-08,
+        5.158495365836555e-07,
+        1.2065187442952642e-07,
+        8.76506166829814e-08,
+        -1.4247890141489643e-07,
+        -2.9297948868445972e-08,
+        -4.597745774537146e-08
+      ],
+      "field_correction_derivative_max": 12.877396070657541
+    },
+    {
+      "field": "vu",
+      "width": 6.404000163731172e-07,
+      "half_width": 3.202000081865586e-07,
+      "half_step_response_relative_difference": 4.023297431898336e-09,
+      "equation_error_over_forcing_norm": 3.4452859993063536e-12,
+      "equation_relative_backward_error": 8.276950784665921e-16,
+      "physical_core_derivative": [
+        4.53642793793098,
+        -0.6588053613546997,
+        -0.06164322275753399,
+        -0.01982270153665395,
+        -0.007212331540480012,
+        0.003236760941331108,
+        0.0024895871382625756,
+        -0.00117934882263109,
+        -0.0002817185297195544,
+        -3.913891988320095e-05,
+        2.290422859551854e-05,
+        1.0716878562181302e-05,
+        8.4869461029417e-06,
+        -5.680958723033862e-06,
+        -2.2265930860239656e-06,
+        -2.3724917867352616e-07,
+        -4.0905232387775e-07,
+        -1.649419402199458e-07,
+        -1.7844189364399178e-07,
+        6.465489720475e-08,
+        -1.2090674441727342e-08,
+        4.3100438764449296e-08,
+        -2.1270439991733881e-07,
+        -5.374680353068005e-08,
+        -3.232679719821091e-08,
+        5.2740659234984485e-08,
+        6.969039469851228e-09,
+        -6.286284768729999e-10
+      ],
+      "field_correction_derivative_max": 4.5465339921216215
+    },
+    {
+      "field": "descending_turn_curvature",
+      "width": 1.349049847593191e-05,
+      "half_width": 6.745249237965955e-06,
+      "half_step_response_relative_difference": 1.4040657994943205e-09,
+      "equation_error_over_forcing_norm": 1.2315790957398529e-11,
+      "equation_relative_backward_error": 1.32616429052431e-15,
+      "physical_core_derivative": [
+        -0.5447608367862227,
+        0.06469464655667345,
+        0.006246583405274592,
+        0.0016924438843999555,
+        0.0008751142938144586,
+        -0.000539895384675838,
+        -0.0004307304487597148,
+        0.00018033258030554898,
+        3.91595131144407e-05,
+        1.705516112464502e-05,
+        9.25520395673954e-06,
+        2.00306341035391e-06,
+        2.0894993011173534e-06,
+        -3.425480816880621e-07,
+        -2.114280589099699e-07,
+        2.7636902899289894e-08,
+        1.9703600994915007e-08,
+        -1.82036111676408e-09,
+        6.215681661836786e-10,
+        -8.94592855774985e-09,
+        -3.2102811887466228e-09,
+        6.905432727297742e-10,
+        -5.511619759611119e-09,
+        -1.1699653566377081e-09,
+        -1.1064992562472301e-09,
+        1.735740857161994e-09,
+        5.213277663377406e-10,
+        1.2603393038335688e-09
+      ],
+      "field_correction_derivative_max": 0.5457275628630024
+    },
+    {
+      "field": "start_acceleration",
+      "width": 9e-07,
+      "half_width": 4.5e-07,
+      "half_step_response_relative_difference": 1.2360071577503808e-08,
+      "equation_error_over_forcing_norm": 1.5999751101707442e-12,
+      "equation_relative_backward_error": 9.249499369484967e-16,
+      "physical_core_derivative": [
+        0.2510306002267472,
+        -0.027906283947828864,
+        -0.0026839003396332546,
+        -0.0006126766026567451,
+        -0.00033706111292064586,
+        0.00015460079276392432,
+        0.00011935875970554402,
+        -7.041472043307307e-05,
+        -1.4758604353615722e-05,
+        -3.868797899848129e-06,
+        -1.5173456821118303e-06,
+        -2.789030716073241e-07,
+        -2.925371576690447e-07,
+        -2.4746836017077935e-08,
+        1.3949301379819875e-08,
+        -9.830333591965902e-09,
+        5.462568160305195e-10,
+        1.584966311098143e-09,
+        -2.5755311542225975e-10,
+        4.831667878138978e-09,
+        5.921751917838373e-10,
+        1.873683612221545e-10,
+        -1.96755782216913e-09,
+        -3.6210789270726703e-10,
+        -8.927473762063026e-11,
+        5.502260250069898e-10,
+        -7.312210814742305e-11,
+        -3.4233339908837913e-10
+      ],
+      "field_correction_derivative_max": 0.25144498933707937
+    }
+  ],
+  "physical_core_parameter_scales": [
+    0.098,
+    0.0081,
+    0.0007289999999999999,
+    6.560999999999999e-05,
+    5.904899999999999e-06,
+    5.314409999999999e-07,
+    4.7829689999999986e-08,
+    4.304672099999998e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "low_three_core_by_physical_control": [
+    [
+      12.617908049941864,
+      12.94763719000228,
+      12.855950995867522
+    ],
+    [
+      -1.2785661030711246,
+      -1.5242915434631255,
+      -1.44876421558958
+    ],
+    [
+      -0.13072202119083723,
+      -0.147909487120397,
+      -0.14408751166627876
+    ]
+  ],
+  "control_order": [
+    "delta",
+    "boost_length",
+    "boost_speed"
+  ],
+  "half_step_low_three_core_by_physical_control": [
+    [
+      12.617908064492788,
+      12.947637187989601,
+      12.855950994572197
+    ],
+    [
+      -1.2785661046018388,
+      -1.5242915434186635,
+      -1.448764215401114
+    ],
+    [
+      -0.13072202134732017,
+      -0.1479094871078326,
+      -0.14408751164858155
+    ]
+  ],
+  "low_exchange_condition": {
+    "singular_values": [
+      22.320898134130115,
+      0.15077793382712734,
+      0.001133716732120272
+    ],
+    "condition_2": 19688.24972035622,
+    "observed_half_step_matrix_perturbation_norm": 2.826084431451993e-09,
+    "scope": "Only the physical 3x3 low-core/control response, not the condition of the global BVP Jacobian."
+  },
+  "prescribed_low_core_responses": [
+    {
+      "direction": "actual_q1",
+      "physical_profile_derivative": {
+        "delta": 1.4009624059830026,
+        "boost_length": 1.35236479690267,
+        "boost_speed": -2.6592465675962065
+      },
+      "core_derivative": [
+        1.0000000000000038,
+        -8.911812699435213e-16,
+        -2.5214982050825726e-17,
+        -0.004149551200378686,
+        0.002738532124685958,
+        -0.0031323873175161886,
+        -0.002468506779465527,
+        0.0010957736259918974,
+        0.0001779220360168975,
+        0.0002023703790582948,
+        0.00018084242340414078,
+        4.8594547797450375e-05,
+        4.623213284402925e-05,
+        -1.4432594053187179e-05,
+        -6.9433798227621934e-06,
+        5.268546587989281e-08,
+        -4.37457537285313e-07,
+        -3.2674619983077655e-07,
+        -2.9890818078699036e-07,
+        -6.308450012866635e-08,
+        -7.045824156948907e-08,
+        8.20729660625754e-08,
+        -4.196824032499507e-07,
+        -1.0480061855057908e-07,
+        -6.871308501739589e-08,
+        1.0664534138742452e-07,
+        1.8724576788361434e-08,
+        1.633124394922911e-08
+      ],
+      "low_core_target_error": 3.774758283725532e-15,
+      "half_step_exchange_response_relative_difference": 4.023868314300344e-09,
+      "equation_relative_backward_error": 1.2772990055233691e-14
+    },
+    {
+      "direction": "actual_q4",
+      "physical_profile_derivative": {
+        "delta": -9.415301406448945,
+        "boost_length": -36.04410086267464,
+        "boost_speed": 45.54212663124046
+      },
+      "core_derivative": [
+        -9.970463184262181e-14,
+        1.0000000000000107,
+        -1.1282534406343403e-15,
+        0.08007646953107535,
+        -0.015116398234917,
+        0.02109873624329942,
+        0.022470794621202043,
+        -0.008810976096559777,
+        -0.0014783887247355242,
+        -0.0023613401956905458,
+        -0.0020822530372737614,
+        -0.0005913987410316341,
+        -0.0005706781990584706,
+        0.0001879878007233594,
+        8.893700884592415e-05,
+        -1.1418660682917726e-07,
+        8.25034477462622e-06,
+        4.821872413162893e-06,
+        4.376289118361624e-06,
+        2.5903647209625315e-07,
+        9.015397219751617e-07,
+        -1.214104235817273e-06,
+        6.2653726199190495e-06,
+        1.5562591694525382e-06,
+        1.0045353355689963e-06,
+        -1.6024882633259338e-06,
+        -2.689010274473438e-07,
+        -2.409746904367051e-07
+      ],
+      "low_core_target_error": 9.970463184262181e-14,
+      "half_step_exchange_response_relative_difference": 1.7229947587983285e-08,
+      "equation_relative_backward_error": 4.953508187952967e-14
+    },
+    {
+      "direction": "actual_c6",
+      "physical_profile_derivative": {
+        "delta": 219.66689152305668,
+        "boost_length": 483.0768348035227,
+        "boost_speed": -702.1215492876928
+      },
+      "core_derivative": [
+        -7.450152730998924e-13,
+        -7.812909474510191e-14,
+        1.000000000000013,
+        -0.9181077500224557,
+        0.5565995068383685,
+        -0.6055458017387084,
+        -0.5373698857033394,
+        0.2224772509582566,
+        0.03832449520976334,
+        0.046031097584532256,
+        0.039835004977009994,
+        0.010935481297008477,
+        0.010517700557362687,
+        -0.003329460150986177,
+        -0.0015937712005500795,
+        1.0867873397220665e-05,
+        -0.00012008738739360446,
+        -7.959041328419512e-05,
+        -7.217205403728803e-05,
+        -9.949743790061288e-06,
+        -1.6337650113792416e-05,
+        2.0129028359366738e-05,
+        -0.00010402229466201654,
+        -2.583579966569435e-05,
+        -1.683947130358407e-05,
+        2.6616698363982102e-05,
+        4.577734523632066e-06,
+        4.199160850435417e-06
+      ],
+      "low_core_target_error": 7.450152730998924e-13,
+      "half_step_exchange_response_relative_difference": 1.3867088742031308e-08,
+      "equation_relative_backward_error": 3.7113088149720125e-14
+    }
+  ],
+  "additional_core_held_directions": [
+    {
+      "external_field": "vu",
+      "physical_profile_derivative": {
+        "vu": 1.0,
+        "delta": 0.9827590827795324,
+        "boost_length": -0.10253940368523691,
+        "boost_speed": -1.214157450359773
+      },
+      "low_core_derivative_max": 2.3021584638627245e-16,
+      "core_derivative": [
+        0.0,
+        -2.3021584638627245e-16,
+        2.071942617476452e-17,
+        -0.0048388746460049014,
+        0.004716338005408192,
+        -0.005981223910642127,
+        -0.0046335413396512625,
+        0.0017592495348932298,
+        0.0002996259525832152,
+        0.00032466406002088654,
+        0.00028628422739407166,
+        7.475286256498507e-05,
+        7.113730824573355e-05,
+        -2.1599818607084572e-05,
+        -1.0381465763884966e-05,
+        1.1845099393760931e-07,
+        -3.917599310039304e-07,
+        -4.1221552857662784e-07,
+        -3.882617413202215e-07,
+        -9.184647018887665e-08,
+        -1.0562814191610246e-07,
+        1.1174214181861382e-07,
+        -5.934538294691585e-07,
+        -1.4565641904405956e-07,
+        -9.686085456670591e-08,
+        1.5396296004881716e-07,
+        2.7059216610202297e-08,
+        2.5380249898293564e-08
+      ],
+      "half_step_combination_relative_difference": 6.806496236788807e-09,
+      "equation_relative_backward_error": 2.5108194184821104e-14
+    },
+    {
+      "external_field": "descending_turn_curvature",
+      "physical_profile_derivative": {
+        "descending_turn_curvature": 1.0,
+        "delta": 0.00014149002792548707,
+        "boost_length": 0.0509960044084928,
+        "boost_speed": -0.009124352965778468
+      },
+      "low_core_derivative_max": 8.704148513061228e-17,
+      "core_derivative": [
+        -8.704148513061228e-17,
+        -1.4388490399142028e-17,
+        0.0,
+        -1.3551358080498844e-05,
+        -0.00013193585615836275,
+        0.00017131975131747405,
+        0.00012750942710869993,
+        -4.243258177155244e-05,
+        -7.668849434983102e-06,
+        -7.47240277666169e-06,
+        -6.350982893607922e-06,
+        -1.5735935417395176e-06,
+        -1.5049147019398562e-06,
+        4.31086107811015e-07,
+        2.0796691878340168e-07,
+        -4.161934064892311e-09,
+        -2.223390964542091e-09,
+        5.399928975756023e-09,
+        5.494374810098485e-09,
+        2.081737802093281e-09,
+        2.136528587386273e-09,
+        -1.7909291522577068e-09,
+        1.0309715484306757e-08,
+        2.44260252144607e-09,
+        1.662406561753627e-09,
+        -2.7590682258334634e-09,
+        -4.76999693606997e-10,
+        -4.836746341266157e-10
+      ],
+      "half_step_combination_relative_difference": 2.9593969845817038e-08,
+      "equation_relative_backward_error": 4.85718884069473e-14
+    },
+    {
+      "external_field": "start_acceleration",
+      "physical_profile_derivative": {
+        "start_acceleration": 1.0,
+        "delta": -0.024866463406864655,
+        "boost_length": -0.04881177901184996,
+        "boost_speed": 0.05403951477690243
+      },
+      "low_core_derivative_max": 4.352074256530614e-17,
+      "core_derivative": [
+        -4.352074256530614e-17,
+        3.597122599785507e-18,
+        -9.712231019420868e-19,
+        0.00019951472001459927,
+        4.7498628110355026e-05,
+        -9.551139718148567e-05,
+        -7.614134529669598e-05,
+        5.7377371209483695e-06,
+        2.1803103235162835e-06,
+        2.9766928194891913e-06,
+        1.8909111019859748e-06,
+        3.6837920052821105e-07,
+        4.0473501703688107e-07,
+        -9.16223723297673e-08,
+        -3.8671538239028835e-08,
+        2.925767513656533e-09,
+        1.8295369111317336e-08,
+        4.556064453350728e-09,
+        3.200913352307164e-09,
+        1.1924324161949706e-09,
+        -4.1065135363738916e-10,
+        -2.7228906864239813e-10,
+        -9.566368321333588e-10,
+        3.475306788006338e-11,
+        -2.802203189965588e-12,
+        4.960552447062376e-10,
+        8.590958596863527e-12,
+        1.0344572697862665e-10
+      ],
+      "half_step_combination_relative_difference": 7.058862792895515e-08,
+      "equation_relative_backward_error": 2.0517182717061228e-14
+    }
+  ],
+  "tangent_arrays": [
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-external-delta.npy.gz",
+      "sha256": "88e7487d55c853e89cb76e492a907df2806ebf45dd18b0953a52266023dea8a7",
+      "bytes": 1466223,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-external-boost_length.npy.gz",
+      "sha256": "336446cb2fca4100dd2d83b74c38889f25ef09704df05efa7768ebc2eb04eb09",
+      "bytes": 1466086,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-external-boost_speed.npy.gz",
+      "sha256": "8fc7d730c66015a261875b926493af8b1bffb789ad7c38ce3be382a41767aa7c",
+      "bytes": 1466494,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-external-vu.npy.gz",
+      "sha256": "5b5f1fe47c4e5821cee40c098351ff04a1c10fff95fcc74825312aab3e0baceb",
+      "bytes": 1466691,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-external-descending_turn_curvature.npy.gz",
+      "sha256": "db46c6f0784aecd0ff47c4995b8a1d1423fecd1041660d933634cb73d70b0b25",
+      "bytes": 1467375,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-external-start_acceleration.npy.gz",
+      "sha256": "4889d5afec3258dedabd6127a349bef846efe8b3207104c4a968880970d958ba",
+      "bytes": 1466697,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-prescribed-actual_q1.npy.gz",
+      "sha256": "79da84e5e13711e3780b50247143b5b550f2a5b7bddd6cd6df7d6cf830e089bc",
+      "bytes": 1465089,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-prescribed-actual_q4.npy.gz",
+      "sha256": "c5f3a8c8d678335abf5144ca2887af61e0d0169dc898661b19d5bb12fcf72869",
+      "bytes": 1464074,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-prescribed-actual_c6.npy.gz",
+      "sha256": "7b44787054a652a68facd3bc9e72c496960df7d4b908ce6f51eabe1902e18c06",
+      "bytes": 1463597,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-core-held-vu.npy.gz",
+      "sha256": "ec88d72786e545a012a4656d1070d82e226f606a40fd0159272a84919fe1a6f9",
+      "bytes": 1460614,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-core-held-descending_turn_curvature.npy.gz",
+      "sha256": "a1931eb8c63ceae0335e1ede09dc7571aba209813e8633621e0d7e463bf57141",
+      "bytes": 1429385,
+      "shape": [
+        188048
+      ]
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-m28-six-control-response-r1-core-held-start_acceleration.npy.gz",
+      "sha256": "b1d5d3c9d288ec4fd972b07b5761fd021c53164163e75d558131629e7a9548c5",
+      "bytes": 1459996,
+      "shape": [
+        188048
+      ]
+    }
+  ],
+  "radial_batch_size": 24,
+  "collocation_batch_size": 24,
+  "jacobian_seconds": 122.39247758599959,
+  "factor_seconds": 26.357270190000236,
+  "seconds": 1451.594511125999,
+  "peak_rss_kib": 214560,
+  "counters": {
+    "inspections": 1,
+    "tail_start_attempts": 0
+  },
+  "field_parameter_layout": "Saved fixed-core layout. Tail entries of every tangent array are all-core parameter derivatives, not delta/LB/vp design offsets.",
+  "limitations": [
+    "The stored finite D-N derivative is used only at its exact complete H; it is not a new nonlinear tail solve.",
+    "These are local derivatives; a finite step needs a new actual nonlinear coupled BVP and geometry audit.",
+    "The old triple warm launcher cannot consume this all-core parameter layout without explicit conversion."
+  ],
+  "disk_block_storage": {
+    "adapter": {
+      "scope": "Optional disk storage for the original accepted fixed-g control response.\n\nThe input must still be a genuinely checked fixed view with M core parameters.\nThis does not relabel an M+3 design endpoint or create a new nonlinear solution.\nAll original complete-H identities, full-field forcing, half-step checks and\noriginal matrix residual checks remain. Every QR solve additionally receives\nthe production backend's complete streamed numerical backward-error gate.\n",
+      "original_source_sha256": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+      "transformed_source_sha256": "2e7ff712e5ff2ccebd9f0b216559944607b4a5c3b4caa40257ed28d33f6dd485",
+      "source_sha256": {
+        "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1",
+        "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+        "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+        "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_disk_actual_fixed_control_response.py": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf"
+      },
+      "explicit_transforms": [
+        {
+          "before": "    hashes={str(Path(__file__)):digest(__file__)}\n",
+          "after": "    hashes={str(Path(__file__)):digest(__file__)}\n    hashes.update(DISK_WRAPPER_SOURCE_HASHES)\n",
+          "replacements": 1
+        },
+        {
+          "before": "    if opts.metadata_only:\n",
+          "after": "    input_report['disk_response_adapter'] = DISK_WRAPPER_PROVENANCE\n    if opts.metadata_only:\n",
+          "replacements": 1
+        },
+        {
+          "before": "    import root_block_collocation as blocks\n",
+          "after": "    from strong_disk_actual_backend import install_disk_backend\n    disk_runtime = install_disk_backend(bounded, prefix, DISK_WRAPPER_CONFIGURATION)\n    blocks = bounded.blocks\n",
+          "replacements": 1
+        },
+        {
+          "before": "        output.write_text(json.dumps(result,indent=2)+'\\n')\n",
+          "after": "        result['disk_block_storage'] = dict(\n            adapter=DISK_WRAPPER_PROVENANCE, configuration=DISK_WRAPPER_CONFIGURATION,\n            stats=dict(disk_runtime.stats), original_full_field_checks_preserved=True,\n            numerical_backward_check_is_not_an_interval_inverse_certificate=True)\n        output.write_text(json.dumps(result,indent=2)+'\\n')\n",
+          "replacements": 1
+        },
+        {
+          "before": "        for function,default in zip(functions,defaults):function.__defaults__=default\n",
+          "after": "        for function,default in zip(functions,defaults):function.__defaults__=default\n        disk_runtime.finish()\n",
+          "replacements": 1
+        }
+      ],
+      "original_source_file_unchanged": true,
+      "original_fixed_input_identity_gate_preserved": true,
+      "accepted_M_plus_3_design_requires_real_fixed_view_conversion": true,
+      "original_forcing_and_half_step_rules_preserved": true,
+      "original_full_matrix_residual_checks_preserved": true,
+      "independent_tail_worker_started": false
+    },
+    "configuration": {
+      "backward_error_tolerance": 5e-11,
+      "heartbeat_seconds": 20.0,
+      "temporary_parent": "/workspace/scratch/d1aa462cfc02/strong-work",
+      "purpose": "original accepted fixed-g complete control response with disk storage"
+    },
+    "stats": {
+      "jacobian_callbacks": 186,
+      "jacobian_points": 4515,
+      "assembled_matrices": 1,
+      "factors": 1,
+      "linear_solves": 12,
+      "maximum_numerical_backward_error": 3.0528941943537703e-25
+    },
+    "original_full_field_checks_preserved": true,
+    "numerical_backward_check_is_not_an_interval_inverse_certificate": true
+  }
+}

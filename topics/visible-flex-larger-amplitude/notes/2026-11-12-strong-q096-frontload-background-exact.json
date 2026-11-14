@@ -1,0 +1,263 @@
+{
+  "format": "exact-background-frontload-curvature-v1",
+  "computation_kind": "Exact BigInt rational arithmetic only; no physical RHS or BVP",
+  "scope": "The exact ideal surface-of-revolution first-piece family only, at fixed accepted q096 delta/V/k0.",
+  "source_summary": "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-summary.json",
+  "source_summary_sha256": "c3291bbc2de37008f5a9272e762c628a3f4e95106b3382d6253bf4a5b14c3c2a",
+  "source_profile_lines": [
+    300,
+    360
+  ],
+  "provider": "computations/strong_monotone_initial_speed.py",
+  "provider_sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+  "parameters": {
+    "delta": {
+      "numerator": "182489703803103",
+      "denominator": "1125899906842624",
+      "decimal_display": 0.16208341673538396
+    },
+    "V": {
+      "numerator": "5761004643332339",
+      "denominator": "18014398509481984",
+      "decimal_display": 0.31980000000000003
+    },
+    "k0": {
+      "numerator": "8106479329266893",
+      "denominator": "18014398509481984",
+      "decimal_display": 0.45
+    },
+    "a0": {
+      "numerator": "1",
+      "denominator": "1",
+      "decimal_display": 1
+    },
+    "degree": 22
+  },
+  "lambda_interval": [
+    0,
+    1
+  ],
+  "length_lower_strict": {
+    "numerator": "277",
+    "denominator": "500",
+    "decimal_display": 0.554
+  },
+  "length_upper_strict": {
+    "numerator": "423",
+    "denominator": "500",
+    "decimal_display": 0.846
+  },
+  "endpoint_length_brackets": [
+    {
+      "degree": 3,
+      "lower_travel_slack": {
+        "numerator": "3350108871484450858003",
+        "denominator": "54043195528445952000000",
+        "decimal_display": 0.06198946673538394
+      },
+      "upper_travel_slack": {
+        "numerator": "564449915396696199",
+        "denominator": "18014398509481984000000",
+        "decimal_display": 0.00003133326461605669
+      }
+    },
+    {
+      "degree": 22,
+      "lower_travel_slack": {
+        "numerator": "107754332118776974003",
+        "denominator": "2278821411449470976000000",
+        "decimal_display": 0.000047285114830581904
+      },
+      "upper_travel_slack": {
+        "numerator": "195016370456358764604597",
+        "denominator": "2278821411449470976000000",
+        "decimal_display": 0.0855777330669876
+      }
+    }
+  ],
+  "exact_monotone_domain_slack": {
+    "numerator": "5212466208718612761",
+    "denominator": "9007199254740992000",
+    "decimal_display": 0.5787
+  },
+  "exact_frontloaded_travel_order_slack": {
+    "numerator": "145535623398328542393",
+    "denominator": "4503599627370496000",
+    "decimal_display": 32.315400000000004
+  },
+  "acceleration_bounds": [
+    {
+      "degree": 3,
+      "coefficient_B": {
+        "numerator": "10546529607376228917",
+        "denominator": "4989988387126509568",
+        "decimal_display": 2.1135379061371844
+      },
+      "critical_u": {
+        "numerator": "4150517416584649778",
+        "denominator": "10546529607376228917",
+        "decimal_display": 0.393543428132206
+      },
+      "candidates": [
+        {
+          "u": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0
+          },
+          "physical_acceleration": {
+            "numerator": "8106479329266893",
+            "denominator": "18014398509481984",
+            "decimal_display": 0.45
+          }
+        },
+        {
+          "u": {
+            "numerator": "1",
+            "denominator": "1",
+            "decimal_display": 1
+          },
+          "physical_acceleration": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0
+          }
+        },
+        {
+          "u": {
+            "numerator": "4150517416584649778",
+            "denominator": "10546529607376228917",
+            "decimal_display": 0.393543428132206
+          },
+          "physical_acceleration": {
+            "numerator": "40908971944754495745414006353299981321",
+            "denominator": "52627060265293288740211963212758777856",
+            "decimal_display": 0.7773372052045499
+          }
+        }
+      ],
+      "maximum_acceleration_upper": {
+        "numerator": "40908971944754495745414006353299981321",
+        "denominator": "52627060265293288740211963212758777856",
+        "decimal_display": 0.7773372052045499
+      }
+    },
+    {
+      "degree": 22,
+      "coefficient_B": {
+        "numerator": "640695593788608931529",
+        "denominator": "2494994193563254784",
+        "decimal_display": 256.79241877256317
+      },
+      "critical_u": {
+        "numerator": "29440030764120935139",
+        "denominator": "640695593788608931529",
+        "decimal_display": 0.045950106492903986
+      },
+      "candidates": [
+        {
+          "u": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0
+          },
+          "physical_acceleration": {
+            "numerator": "8106479329266893",
+            "denominator": "18014398509481984",
+            "decimal_display": 0.45
+          }
+        },
+        {
+          "u": {
+            "numerator": "1",
+            "denominator": "1",
+            "decimal_display": 1
+          },
+          "physical_acceleration": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0
+          }
+        },
+        {
+          "u": {
+            "numerator": "29440030764120935139",
+            "denominator": "640695593788608931529",
+            "decimal_display": 0.045950106492903986
+          },
+          "physical_acceleration": {
+            "numerator": "3090860500060102045356982226483329515946789874233413201942273337295240970602619196917229507135311564583621361976191244406805661385001525231697559814320708912825532364420841738465356125981497063423045593545825112335442838725155180922370231530347516752030697142976410952704655232719055355898835136701754761484426043708114598542557626639129439367018741908836175364261256394298599217172455675349263701648173741821393627071380615234375",
+            "denominator": "646449147124129139054156518221423575919549716303992427237381452598608466899186657685237762235502472652357921731106753433211163470004115048757155636923267549985118080719935368390834990376152172948194542708001467178812526989168470511906622482429965371501970118299846033098729089527181175357723975827599489698291474912177754684062189563812174654025164322297623443662870233153081160608729559459466092462188113431209225476233565831168",
+            "decimal_display": 4.781289470038708
+          }
+        }
+      ],
+      "maximum_acceleration_upper": {
+        "numerator": "3090860500060102045356982226483329515946789874233413201942273337295240970602619196917229507135311564583621361976191244406805661385001525231697559814320708912825532364420841738465356125981497063423045593545825112335442838725155180922370231530347516752030697142976410952704655232719055355898835136701754761484426043708114598542557626639129439367018741908836175364261256394298599217172455675349263701648173741821393627071380615234375",
+        "denominator": "646449147124129139054156518221423575919549716303992427237381452598608466899186657685237762235502472652357921731106753433211163470004115048757155636923267549985118080719935368390834990376152172948194542708001467178812526989168470511906622482429965371501970118299846033098729089527181175357723975827599489698291474912177754684062189563812174654025164322297623443662870233153081160608729559459466092462188113431209225476233565831168",
+        "decimal_display": 4.781289470038708
+      }
+    }
+  ],
+  "maximum_acceleration_upper": {
+    "numerator": "3090860500060102045356982226483329515946789874233413201942273337295240970602619196917229507135311564583621361976191244406805661385001525231697559814320708912825532364420841738465356125981497063423045593545825112335442838725155180922370231530347516752030697142976410952704655232719055355898835136701754761484426043708114598542557626639129439367018741908836175364261256394298599217172455675349263701648173741821393627071380615234375",
+    "denominator": "646449147124129139054156518221423575919549716303992427237381452598608466899186657685237762235502472652357921731106753433211163470004115048757155636923267549985118080719935368390834990376152172948194542708001467178812526989168470511906622482429965371501970118299846033098729089527181175357723975827599489698291474912177754684062189563812174654025164322297623443662870233153081160608729559459466092462188113431209225476233565831168",
+    "decimal_display": 4.781289470038708
+  },
+  "minimum_vertical_speed_squared": {
+    "numerator": "291329379157929956289945617365335",
+    "denominator": "324518553658426726783156020576256",
+    "decimal_display": 0.8977279599999999
+  },
+  "meridian_curvature_cap": {
+    "numerator": "51",
+    "denominator": "10",
+    "decimal_display": 5.1
+  },
+  "exact_squared_curvature_cap_slack": {
+    "numerator": "4495344977220634481593181113872351660925716077767628666699927540963300035268087498076763881026281894560012436121266318926893530330491002966842463488674998249569508168261278615517194291474945724523244352810148547116314174453867081289358673592467485788054542310559224872077037221429668803517028480371363615574958150181531147806452854633207893977886787192336214094771122225132604776575046667958789981635723080918205056428457087653987263139088361865391772427531057900178449035138469595793130189679684614956035583764689566272001904185682692256453251526308768479135691826173907719235297294712095426392956668450880458554479253392121285593274084513263496792659525542696588355347099944454935717414928147126434432157351580527635691254252407011927851594397021685591418752183051128110091431729626601680281565736095603709695899541942115745191131303632890937235298452991185720408404043",
+    "denominator": "9189641215124953247205743811503782285541580334186438776950391990350808391936325742457733089573143082300734085277091056596539861034312965950926954085437817064815934026840455787382056256253083085683363035157351742813005732378496074495294266713304283397279018582227243752870989618169646906786169223587179785134708129103665204994212213823346903445726963369897501734388943475142072569580844898312266739868170881586673794809219494017836016825624432219059020923147445570407957990888497633755497029212757576532652756100290327709309183462652665742778276098604976637965817739486442152300483270366255728951131389308779448331702898142109633488209630184976290339174911629363672919633482495685656475430282320909735903350900085351119994071907524554916842593410695085855673571867927788572740873755229104098115233138596696229479001907425384110195851473577468286340109567750673269239316480",
+    "decimal_display": 0.48917524329697243
+  },
+  "display_tighter_meridian_bound": 5.0462953093015654,
+  "circumferential_curvature_cap": 1,
+  "checks": {
+    "original_binary64_inputs_roundtrip": true,
+    "all_endpoint_length_brackets_strict": true,
+    "k0_times_all_lengths_less_than_3V": true,
+    "all_lambda_velocity_bernstein_controls_monotone": true,
+    "all_lambda_speed_between_zero_and_V": true,
+    "all_lambda_meridian_curvature_strictly_less_than_5p1": true,
+    "all_lambda_absolute_circumferential_curvature_at_most_one": true,
+    "all_lambda_background_gaussian_curvature_nonpositive": true
+  },
+  "formula": {
+    "velocity": "v_d(u;S)=V[1-(1-u)^(d-1)(1+(d-1)u)]+k0*S*u*(1-u)^(d-1)",
+    "blend": "v_lambda=(1-lambda)*v_3+lambda*v_22, evaluated at the common positive length S_lambda",
+    "length": "delta=[(1-lambda)/2+lambda*21/23]*V*S+[(1-lambda)/12+lambda/(22*23)]*k0*S^2",
+    "acceleration": "a_d=(1-u)^(d-2)*[k0+d*((d-1)*V/S-k0)*u]",
+    "stationary": "u*=(B-(d-2)*k0)/((d-1)*B), B=d*((d-1)*V/S-k0)",
+    "principal_curvatures": "absolute meridian=a_lambda/sqrt(1-v_lambda^2); absolute angular=sqrt(1-v_lambda^2)/r"
+  },
+  "proof": [
+    "Both endpoint travel polynomials are strictly below delta at S=.554 and above it at S=.846. Their convex combination is increasing in positive S, hence each unique S_lambda lies strictly in that interval.",
+    "The exact inequality k0*.846<3V makes both degree-elevated cubic and degree22 endpoint velocity controls monotone. Thus every convex combination satisfies 0<=v_lambda<=V and a_lambda>=0.",
+    "The travel difference has the positive factor (d-3)*S/[12*d*(d+1)] times [6*d*V-(d+4)*k0*S]. The saved exact slack makes S_lambda strictly decrease with lambda.",
+    "For each fixed u, a_d increases as S decreases. Evaluate both d=3 and d=22 at S=.554, maximize each at endpoints and its sole interior critical point, and take the larger rational value.",
+    "The saved exact positive squared slack proves a_max^2<(51/10)^2*(1-V^2). Hence absolute meridian curvature is strictly below5.1. Since r>=a0=1, absolute angular curvature is at most1. Gaussian curvature is -a_lambda/r<=0.",
+    "The radius increment and common endpoint data r(0)=1,r'(0)=0,r''(0)=k0,r(S)=1+delta,r'(S)=V,r''(S)=0 are preserved by the defining length equation and polynomial controls."
+  ],
+  "limitations": [
+    "The general-core immersion is not a surface of revolution; no actual nonlinear curvature or continuation is certified.",
+    "Only the first piece and fixed delta/V/k0 are covered. A core-held physical response changes geometric controls and must be recomputed.",
+    "This exact-family certificate does not enclose the NumPy provider's floating-point rounding.",
+    "Nonzero lambda changes the physical metric; the explicit provider hook and full actual BVP/tail/RMS/jet gates remain necessary.",
+    "No whole-profile/global reach/closed-held or diameter claim is made."
+  ],
+  "actual_execution": {
+    "environment": "functions.exec V8 isolate",
+    "physical_rhs_evaluations": 0,
+    "python_processes": 0,
+    "node_processes": 0
+  }
+}

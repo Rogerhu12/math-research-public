@@ -1,0 +1,7377 @@
+{
+  "status": "Balanced full46 parameter axes certified using unchanged cell lift budgets and half the actual saved far-row slack",
+  "checks": {
+    "all46_axes_present": true,
+    "all46_new_axes_positive": true,
+    "all46_previous_axes_contained": true,
+    "all213_lift_budgets_not_increased": true,
+    "extra_far_lift_within_half_actual_retained_slack": true,
+    "all640_nonfar_lifted_inclusions_inherited": true,
+    "actual_far_row_still_strict": true,
+    "original_full_state_mean_far_and_metric_inherited": true
+  },
+  "all_gates": true,
+  "new_parameter_radius": {
+    "lower": {
+      "mantissa": "1",
+      "binary_exponent": 0
+    },
+    "upper": {
+      "mantissa": "1",
+      "binary_exponent": 0
+    }
+  },
+  "new_parameter_norm": "sum_j |delta Q_(2j)(b)|/v_j <=1, with exact positive dyadic v_j in rows; an l1 ball, not the product of its axis intervals.",
+  "original_scalar_radius": {
+    "lower": {
+      "mantissa": "1",
+      "binary_exponent": -2075
+    },
+    "upper": {
+      "mantissa": "1",
+      "binary_exponent": -2075
+    },
+    "display": "[2.30546746207965781947984052447318870864253960839284140315e-625 +/- 2.13e-682]"
+  },
+  "original_scalar_radius_log2": -2075,
+  "unchanged_original641_radii_and_J_and_W": true,
+  "inheritance_reason": "Every new actual parameter lift has each cell norm<=R*l_n, preserving all original source/mean/working-domain budgets. The independent direct far lift is <=R*e plus HALF the actual saved strict far-row slack. Its nonlinear source contribution does not increase, so this extra lift consumes at most half that saved slack. All641 map rows remain strict, and J/W/radii are unchanged.",
+  "true_cut_radius": {
+    "lower": {
+      "mantissa": "1256145971708405051267622360403103502687023912083750456337",
+      "binary_exponent": -194
+    },
+    "upper": {
+      "mantissa": "1256145971708405051267622360683691893339844973031634308113",
+      "binary_exponent": -194
+    },
+    "display": "[0.05002889966825685830298558258 +/- 6.08e-30]"
+  },
+  "Q_to_physical_H_factor": {
+    "lower": {
+      "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+      "binary_exponent": -209
+    },
+    "upper": {
+      "mantissa": "161065646465118968737081496217635477676179139000358057317",
+      "binary_exponent": -204
+    },
+    "display": "[6.26446236681885459895361488e-6 +/- 7.55e-33]"
+  },
+  "Q_to_physical_H_log2_factor": {
+    "lower": {
+      "mantissa": "-11487439477578660216611548319596500343",
+      "binary_exponent": -119
+    },
+    "upper": {
+      "mantissa": "-11487439477578660216611548318739777713",
+      "binary_exponent": -119
+    },
+    "display": "[-17.28437787047250527508031032 +/- 5.02e-27]"
+  },
+  "physical_height_convention": "H=b^4 Q at the same true node12; no extra w. Listed positive lower endpoints give guaranteed physical axis intercepts.",
+  "rows": [
+    {
+      "j": 1,
+      "physical_mode": 2,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -2162
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -2162
+        }
+      },
+      "canonical_Q_axis_log2": -2162,
+      "previous_Q_axis_log2": -2178,
+      "enlargement_log2": 16,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2371
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -2366
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2371
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2371
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1448382902921072718825626980482648986999",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1448382902921072718825626980481792264369",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 2,
+      "physical_mode": 4,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1355
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1355
+        }
+      },
+      "canonical_Q_axis_log2": -1355,
+      "previous_Q_axis_log2": -1366,
+      "enlargement_log2": 11,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1564
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1559
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1564
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1564
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-912039406621859164108940831659529950583",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-912039406621859164108940831658673227953",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 3,
+      "physical_mode": 6,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -959
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -959
+        }
+      },
+      "canonical_Q_axis_log2": -959,
+      "previous_Q_axis_log2": -966,
+      "enlargement_log2": 7,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1168
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1163
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1168
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1168
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-648852263456445821273987033724021724535",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-648852263456445821273987033723165001905",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 4,
+      "physical_mode": 8,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -713
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -713
+        }
+      },
+      "canonical_Q_axis_log2": -713,
+      "previous_Q_axis_log2": -718,
+      "enlargement_log2": 5,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -922
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -917
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -922
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -922
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-485357219974901168906818765309539341687",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-485357219974901168906818765308682619057",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 5,
+      "physical_mode": 10,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -548
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -548
+        }
+      },
+      "canonical_Q_axis_log2": -548,
+      "previous_Q_axis_log2": -552,
+      "enlargement_log2": 4,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -757
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -752
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -757
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -757
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-375695910322645609392254682836410914167",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-375695910322645609392254682835554191537",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 6,
+      "physical_mode": 12,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -434
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -434
+        }
+      },
+      "canonical_Q_axis_log2": -434,
+      "previous_Q_axis_log2": -436,
+      "enlargement_log2": 2,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -643
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -638
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -643
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -643
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-299929914562905404636737680400431273335",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-299929914562905404636737680399574550705",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 7,
+      "physical_mode": 14,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -355
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -355
+        }
+      },
+      "canonical_Q_axis_log2": -355,
+      "previous_Q_axis_log2": -356,
+      "enlargement_log2": 1,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -564
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -559
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -564
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -564
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-247425408729401227657037301519357662583",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-247425408729401227657037301518500939953",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 8,
+      "physical_mode": 16,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -301
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -301
+        }
+      },
+      "canonical_Q_axis_log2": -301,
+      "previous_Q_axis_log2": -301,
+      "enlargement_log2": 0,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -510
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -505
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -510
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -510
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-211536252843208499088634510891788359031",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-211536252843208499088634510890931636401",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 9,
+      "physical_mode": 18,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -266
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -266
+        }
+      },
+      "canonical_Q_axis_log2": -266,
+      "previous_Q_axis_log2": -266,
+      "enlargement_log2": 0,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -475
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -470
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -475
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -475
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-188274762916972471312817887336882328951",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-188274762916972471312817887336025606321",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 10,
+      "physical_mode": 20,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -246
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -246
+        }
+      },
+      "canonical_Q_axis_log2": -246,
+      "previous_Q_axis_log2": -246,
+      "enlargement_log2": 0,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -455
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -450
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -455
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -455
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-174982482959123312583779816734078883191",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-174982482959123312583779816733222160561",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 11,
+      "physical_mode": 22,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -238
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -238
+        }
+      },
+      "canonical_Q_axis_log2": -238,
+      "previous_Q_axis_log2": -238,
+      "enlargement_log2": 0,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 12
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -447
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -442
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -447
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -447
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-169665570975983649092164588492957504887",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-169665570975983649092164588492100782257",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 12,
+      "physical_mode": 24,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -241
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -241
+        }
+      },
+      "canonical_Q_axis_log2": -241,
+      "previous_Q_axis_log2": -241,
+      "enlargement_log2": 0,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 24
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -450
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -445
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -450
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -450
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-171659412969661022901520299083378021751",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-171659412969661022901520299082521299121",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 13,
+      "physical_mode": 26,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -253
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -253
+        }
+      },
+      "canonical_Q_axis_log2": -253,
+      "previous_Q_axis_log2": -253,
+      "enlargement_log2": 0,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -462
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -457
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -462
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -462
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-179634780944370518138943141445060089207",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-179634780944370518138943141444203366577",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 14,
+      "physical_mode": 28,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -271
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -271
+        }
+      },
+      "canonical_Q_axis_log2": -271,
+      "previous_Q_axis_log2": -271,
+      "enlargement_log2": 0,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -480
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -475
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -480
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -480
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-191597832906434760995077404987583190391",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-191597832906434760995077404986726467761",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 15,
+      "physical_mode": 30,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -296
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -296
+        }
+      },
+      "canonical_Q_axis_log2": -296,
+      "previous_Q_axis_log2": -297,
+      "enlargement_log2": 1,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -505
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -500
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -505
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -505
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-208213182853746209406374993241087497591",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-208213182853746209406374993240230774961",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 16,
+      "physical_mode": 32,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -327
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -327
+        }
+      },
+      "canonical_Q_axis_log2": -327,
+      "previous_Q_axis_log2": -328,
+      "enlargement_log2": 1,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -536
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -531
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -536
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -536
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-228816216788412405436384002675432838519",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-228816216788412405436384002674576115889",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 17,
+      "physical_mode": 34,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -363
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -363
+        }
+      },
+      "canonical_Q_axis_log2": -363,
+      "previous_Q_axis_log2": -364,
+      "enlargement_log2": 1,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -572
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -567
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -572
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -572
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-252742320712540891148652529760479040887",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-252742320712540891148652529759622318257",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 18,
+      "physical_mode": 36,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -406
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -406
+        }
+      },
+      "canonical_Q_axis_log2": -406,
+      "previous_Q_axis_log2": -407,
+      "enlargement_log2": 1,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -615
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -610
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -615
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -615
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-281320722621916582416084381556506449271",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-281320722621916582416084381555649726641",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 19,
+      "physical_mode": 38,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -448
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -448
+        }
+      },
+      "canonical_Q_axis_log2": -448,
+      "previous_Q_axis_log2": -450,
+      "enlargement_log2": 2,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -657
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -652
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -657
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -657
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-309234510533399815747064329822393685367",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-309234510533399815747064329821536962737",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 20,
+      "physical_mode": 40,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -494
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -494
+        }
+      },
+      "canonical_Q_axis_log2": -494,
+      "previous_Q_axis_log2": -496,
+      "enlargement_log2": 2,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -703
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -698
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -703
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -703
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-339806754436452880823851892208841610615",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-339806754436452880823851892207984887985",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 21,
+      "physical_mode": 42,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -541
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -541
+        }
+      },
+      "canonical_Q_axis_log2": -541,
+      "previous_Q_axis_log2": -543,
+      "enlargement_log2": 2,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -750
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -745
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -750
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -750
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-371043612337398403837091358125429708151",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-371043612337398403837091358124572985521",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 22,
+      "physical_mode": 44,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -592
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -592
+        }
+      },
+      "canonical_Q_axis_log2": -592,
+      "previous_Q_axis_log2": -595,
+      "enlargement_log2": 3,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -801
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -796
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -801
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -801
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-404938926229913758596138438162578494839",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-404938926229913758596138438161721772209",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 23,
+      "physical_mode": 46,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -647
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -647
+        }
+      },
+      "canonical_Q_axis_log2": -647,
+      "previous_Q_axis_log2": -650,
+      "enlargement_log2": 3,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -856
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -851
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -856
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -856
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-441492696113998945100993132320287970679",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-441492696113998945100993132319431248049",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 24,
+      "physical_mode": 48,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -705
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -705
+        }
+      },
+      "canonical_Q_axis_log2": -705,
+      "previous_Q_axis_log2": -709,
+      "enlargement_log2": 4,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -914
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -909
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -914
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -914
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-480040307991761505415203537068417963383",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-480040307991761505415203537067561240753",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 25,
+      "physical_mode": 50,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -760
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -760
+        }
+      },
+      "canonical_Q_axis_log2": -760,
+      "previous_Q_axis_log2": -765,
+      "enlargement_log2": 5,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -969
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -964
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -969
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -969
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-516594077875846691920058231226127439223",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-516594077875846691920058231225270716593",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 26,
+      "physical_mode": 52,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -819
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -819
+        }
+      },
+      "canonical_Q_axis_log2": -819,
+      "previous_Q_axis_log2": -825,
+      "enlargement_log2": 6,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1028
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1023
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1028
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1028
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-555806303751501710170720539504397604215",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-555806303751501710170720539503540881585",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 27,
+      "physical_mode": 54,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -881
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -881
+        }
+      },
+      "canonical_Q_axis_log2": -881,
+      "previous_Q_axis_log2": -887,
+      "enlargement_log2": 6,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1090
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1085
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1090
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1090
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-597012371620834102230738558373088286071",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-597012371620834102230738558372231563441",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 28,
+      "physical_mode": 56,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -947
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -947
+        }
+      },
+      "canonical_Q_axis_log2": -947,
+      "previous_Q_axis_log2": -953,
+      "enlargement_log2": 6,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1156
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1151
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1156
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1156
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-640876895481736326036564191362339657079",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-640876895481736326036564191361482934449",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 29,
+      "physical_mode": 58,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1015
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1015
+        }
+      },
+      "canonical_Q_axis_log2": -1015,
+      "previous_Q_axis_log2": -1022,
+      "enlargement_log2": 7,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1224
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1219
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1224
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1224
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-686070647338423465715293631411871372663",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-686070647338423465715293631411014650033",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 30,
+      "physical_mode": 60,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1079
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1079
+        }
+      },
+      "canonical_Q_axis_log2": -1079,
+      "previous_Q_axis_log2": -1087,
+      "enlargement_log2": 8,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1288
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1283
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1288
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1288
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-728605943203540773648215457340842399095",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-728605943203540773648215457339985676465",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 31,
+      "physical_mode": 62,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1148
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1148
+        }
+      },
+      "canonical_Q_axis_log2": -1148,
+      "previous_Q_axis_log2": -1157,
+      "enlargement_log2": 9,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1357
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1352
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1357
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1357
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-774464309058120371263396800920514286967",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-774464309058120371263396800919657564337",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 32,
+      "physical_mode": 64,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1214
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1214
+        }
+      },
+      "canonical_Q_axis_log2": -1214,
+      "previous_Q_axis_log2": -1224,
+      "enlargement_log2": 10,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1423
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1418
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1423
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1423
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-818328832919022595069222433909765657975",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-818328832919022595069222433908908935345",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 33,
+      "physical_mode": 66,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1284
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1284
+        }
+      },
+      "canonical_Q_axis_log2": -1284,
+      "previous_Q_axis_log2": -1295,
+      "enlargement_log2": 11,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1493
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1488
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1493
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1493
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-864851812771494650620855681019577718135",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-864851812771494650620855681018720995505",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 34,
+      "physical_mode": 68,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1356
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1356
+        }
+      },
+      "canonical_Q_axis_log2": -1356,
+      "previous_Q_axis_log2": -1366,
+      "enlargement_log2": 10,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1565
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1560
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1565
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1565
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-912704020619751622045392735189670122871",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-912704020619751622045392735188813400241",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 35,
+      "physical_mode": 70,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1428
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1428
+        }
+      },
+      "canonical_Q_axis_log2": -1428,
+      "previous_Q_axis_log2": -1440,
+      "enlargement_log2": 12,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1637
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1632
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1637
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1637
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-960556228468008593469929789359762527607",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-960556228468008593469929789358905804977",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 36,
+      "physical_mode": 72,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1502
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1502
+        }
+      },
+      "canonical_Q_axis_log2": -1502,
+      "previous_Q_axis_log2": -1514,
+      "enlargement_log2": 12,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1711
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1706
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1711
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1711
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1009737664312050480767370650590135276919",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1009737664312050480767370650589278554289",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 37,
+      "physical_mode": 74,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1577
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1577
+        }
+      },
+      "canonical_Q_axis_log2": -1577,
+      "previous_Q_axis_log2": -1590,
+      "enlargement_log2": 13,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1786
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1781
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1786
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1786
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1059583714153984826001263415350648198519",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1059583714153984826001263415349791475889",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 38,
+      "physical_mode": 76,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1654
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1654
+        }
+      },
+      "canonical_Q_axis_log2": -1654,
+      "previous_Q_axis_log2": -1668,
+      "enlargement_log2": 14,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1863
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1858
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1863
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1863
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1110758991991704087108059987171441464695",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1110758991991704087108059987170584742065",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 39,
+      "physical_mode": 78,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1732
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1732
+        }
+      },
+      "canonical_Q_axis_log2": -1732,
+      "previous_Q_axis_log2": -1747,
+      "enlargement_log2": 15,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1941
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -1936
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1941
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -1941
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1162598883827315806151308462522374903159",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1162598883827315806151308462521518180529",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 40,
+      "physical_mode": 80,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1810
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1810
+        }
+      },
+      "canonical_Q_axis_log2": -1810,
+      "previous_Q_axis_log2": -1826,
+      "enlargement_log2": 16,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2019
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -2014
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2019
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2019
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1214438775662927525194556937873308341623",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1214438775662927525194556937872451618993",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 41,
+      "physical_mode": 82,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1885
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1885
+        }
+      },
+      "canonical_Q_axis_log2": -1885,
+      "previous_Q_axis_log2": -1901,
+      "enlargement_log2": 16,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2094
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -2089
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2094
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2094
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1264284825504861870428449702633821263223",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1264284825504861870428449702632964540593",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 42,
+      "physical_mode": 84,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -1962
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -1962
+        }
+      },
+      "canonical_Q_axis_log2": -1962,
+      "previous_Q_axis_log2": -1979,
+      "enlargement_log2": 17,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2171
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -2166
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2171
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2171
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1315460103342581131535246274454614529399",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1315460103342581131535246274453757806769",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 43,
+      "physical_mode": 86,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -2043
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -2043
+        }
+      },
+      "canonical_Q_axis_log2": -2043,
+      "previous_Q_axis_log2": -2061,
+      "enlargement_log2": 18,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2252
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -2247
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2252
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2252
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1369293837171870224387850460395968484727",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1369293837171870224387850460395111762097",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 44,
+      "physical_mode": 88,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -2121
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -2121
+        }
+      },
+      "canonical_Q_axis_log2": -2121,
+      "previous_Q_axis_log2": -2140,
+      "enlargement_log2": 19,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2330
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -2325
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2330
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2330
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1421133729007481943431098935746901923191",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1421133729007481943431098935746045200561",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 45,
+      "physical_mode": 90,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -2201
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -2201
+        }
+      },
+      "canonical_Q_axis_log2": -2201,
+      "previous_Q_axis_log2": -2221,
+      "enlargement_log2": 20,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2410
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -2405
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2410
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2410
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1474302848838878578347251218158115706231",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1474302848838878578347251218157258983601",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "j": 46,
+      "physical_mode": 92,
+      "canonical_Q_axis": {
+        "lower": {
+          "mantissa": "1",
+          "binary_exponent": -2282
+        },
+        "upper": {
+          "mantissa": "1",
+          "binary_exponent": -2282
+        }
+      },
+      "canonical_Q_axis_log2": -2282,
+      "previous_Q_axis_log2": -2303,
+      "enlargement_log2": 21,
+      "limiting_lift": {
+        "kind": "cell",
+        "cell": 224
+      },
+      "actual_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2491
+        },
+        "upper": {
+          "mantissa": "161065646465118968737081496217635477676179139000358057317",
+          "binary_exponent": -2486
+        }
+      },
+      "guaranteed_physical_height_axis": {
+        "lower": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2491
+        },
+        "upper": {
+          "mantissa": "5154100686883806999586607874359199062018189704442433416351",
+          "binary_exponent": -2491
+        }
+      },
+      "actual_physical_height_axis_log2": {
+        "lower": {
+          "mantissa": "-1528136582668167671199855404099469661559",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "-1528136582668167671199855404098612938929",
+          "binary_exponent": -119
+        }
+      }
+    }
+  ],
+  "cells": [
+    {
+      "cell": 12,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5619351",
+          "binary_exponent": -117
+        },
+        "upper": {
+          "mantissa": "5619351",
+          "binary_exponent": -117
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5619351",
+          "binary_exponent": -117
+        },
+        "upper": {
+          "mantissa": "5619351",
+          "binary_exponent": -117
+        }
+      }
+    },
+    {
+      "cell": 13,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4485365",
+          "binary_exponent": -112
+        },
+        "upper": {
+          "mantissa": "4485365",
+          "binary_exponent": -112
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4485365",
+          "binary_exponent": -112
+        },
+        "upper": {
+          "mantissa": "4485365",
+          "binary_exponent": -112
+        }
+      }
+    },
+    {
+      "cell": 14,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7317011",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "7317011",
+          "binary_exponent": -119
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7317011",
+          "binary_exponent": -119
+        },
+        "upper": {
+          "mantissa": "7317011",
+          "binary_exponent": -119
+        }
+      }
+    },
+    {
+      "cell": 15,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1209051",
+          "binary_exponent": -125
+        },
+        "upper": {
+          "mantissa": "1209051",
+          "binary_exponent": -125
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1209051",
+          "binary_exponent": -125
+        },
+        "upper": {
+          "mantissa": "1209051",
+          "binary_exponent": -125
+        }
+      }
+    },
+    {
+      "cell": 16,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "15804663",
+          "binary_exponent": -138
+        },
+        "upper": {
+          "mantissa": "15804663",
+          "binary_exponent": -138
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "15804663",
+          "binary_exponent": -138
+        },
+        "upper": {
+          "mantissa": "15804663",
+          "binary_exponent": -138
+        }
+      }
+    },
+    {
+      "cell": 17,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13342445",
+          "binary_exponent": -147
+        },
+        "upper": {
+          "mantissa": "13342445",
+          "binary_exponent": -147
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13342445",
+          "binary_exponent": -147
+        },
+        "upper": {
+          "mantissa": "13342445",
+          "binary_exponent": -147
+        }
+      }
+    },
+    {
+      "cell": 18,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5374293",
+          "binary_exponent": -155
+        },
+        "upper": {
+          "mantissa": "5374293",
+          "binary_exponent": -155
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5374293",
+          "binary_exponent": -155
+        },
+        "upper": {
+          "mantissa": "5374293",
+          "binary_exponent": -155
+        }
+      }
+    },
+    {
+      "cell": 19,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6851769",
+          "binary_exponent": -165
+        },
+        "upper": {
+          "mantissa": "6851769",
+          "binary_exponent": -165
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6851769",
+          "binary_exponent": -165
+        },
+        "upper": {
+          "mantissa": "6851769",
+          "binary_exponent": -165
+        }
+      }
+    },
+    {
+      "cell": 20,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9040775",
+          "binary_exponent": -175
+        },
+        "upper": {
+          "mantissa": "9040775",
+          "binary_exponent": -175
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9040775",
+          "binary_exponent": -175
+        },
+        "upper": {
+          "mantissa": "9040775",
+          "binary_exponent": -175
+        }
+      }
+    },
+    {
+      "cell": 21,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "386333",
+          "binary_exponent": -180
+        },
+        "upper": {
+          "mantissa": "386333",
+          "binary_exponent": -180
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "386333",
+          "binary_exponent": -180
+        },
+        "upper": {
+          "mantissa": "386333",
+          "binary_exponent": -180
+        }
+      }
+    },
+    {
+      "cell": 22,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8763801",
+          "binary_exponent": -194
+        },
+        "upper": {
+          "mantissa": "8763801",
+          "binary_exponent": -194
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8763801",
+          "binary_exponent": -194
+        },
+        "upper": {
+          "mantissa": "8763801",
+          "binary_exponent": -194
+        }
+      }
+    },
+    {
+      "cell": 23,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "3216417",
+          "binary_exponent": -202
+        },
+        "upper": {
+          "mantissa": "3216417",
+          "binary_exponent": -202
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "3216417",
+          "binary_exponent": -202
+        },
+        "upper": {
+          "mantissa": "3216417",
+          "binary_exponent": -202
+        }
+      }
+    },
+    {
+      "cell": 24,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6932327",
+          "binary_exponent": -194
+        },
+        "upper": {
+          "mantissa": "6932327",
+          "binary_exponent": -194
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6932327",
+          "binary_exponent": -194
+        },
+        "upper": {
+          "mantissa": "6932327",
+          "binary_exponent": -194
+        }
+      }
+    },
+    {
+      "cell": 25,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5819489",
+          "binary_exponent": -203
+        },
+        "upper": {
+          "mantissa": "5819489",
+          "binary_exponent": -203
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5819489",
+          "binary_exponent": -203
+        },
+        "upper": {
+          "mantissa": "5819489",
+          "binary_exponent": -203
+        }
+      }
+    },
+    {
+      "cell": 26,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1221323",
+          "binary_exponent": -210
+        },
+        "upper": {
+          "mantissa": "1221323",
+          "binary_exponent": -210
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1221323",
+          "binary_exponent": -210
+        },
+        "upper": {
+          "mantissa": "1221323",
+          "binary_exponent": -210
+        }
+      }
+    },
+    {
+      "cell": 27,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16404573",
+          "binary_exponent": -223
+        },
+        "upper": {
+          "mantissa": "16404573",
+          "binary_exponent": -223
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16404573",
+          "binary_exponent": -223
+        },
+        "upper": {
+          "mantissa": "16404573",
+          "binary_exponent": -223
+        }
+      }
+    },
+    {
+      "cell": 28,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6885797",
+          "binary_exponent": -231
+        },
+        "upper": {
+          "mantissa": "6885797",
+          "binary_exponent": -231
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6885797",
+          "binary_exponent": -231
+        },
+        "upper": {
+          "mantissa": "6885797",
+          "binary_exponent": -231
+        }
+      }
+    },
+    {
+      "cell": 29,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1445161",
+          "binary_exponent": -238
+        },
+        "upper": {
+          "mantissa": "1445161",
+          "binary_exponent": -238
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1445161",
+          "binary_exponent": -238
+        },
+        "upper": {
+          "mantissa": "1445161",
+          "binary_exponent": -238
+        }
+      }
+    },
+    {
+      "cell": 30,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2426441",
+          "binary_exponent": -248
+        },
+        "upper": {
+          "mantissa": "2426441",
+          "binary_exponent": -248
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2426441",
+          "binary_exponent": -248
+        },
+        "upper": {
+          "mantissa": "2426441",
+          "binary_exponent": -248
+        }
+      }
+    },
+    {
+      "cell": 31,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16296115",
+          "binary_exponent": -260
+        },
+        "upper": {
+          "mantissa": "16296115",
+          "binary_exponent": -260
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16296115",
+          "binary_exponent": -260
+        },
+        "upper": {
+          "mantissa": "16296115",
+          "binary_exponent": -260
+        }
+      }
+    },
+    {
+      "cell": 32,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13680721",
+          "binary_exponent": -269
+        },
+        "upper": {
+          "mantissa": "13680721",
+          "binary_exponent": -269
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13680721",
+          "binary_exponent": -269
+        },
+        "upper": {
+          "mantissa": "13680721",
+          "binary_exponent": -269
+        }
+      }
+    },
+    {
+      "cell": 33,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11485083",
+          "binary_exponent": -278
+        },
+        "upper": {
+          "mantissa": "11485083",
+          "binary_exponent": -278
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11485083",
+          "binary_exponent": -278
+        },
+        "upper": {
+          "mantissa": "11485083",
+          "binary_exponent": -278
+        }
+      }
+    },
+    {
+      "cell": 34,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4820915",
+          "binary_exponent": -286
+        },
+        "upper": {
+          "mantissa": "4820915",
+          "binary_exponent": -286
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4820915",
+          "binary_exponent": -286
+        },
+        "upper": {
+          "mantissa": "4820915",
+          "binary_exponent": -286
+        }
+      }
+    },
+    {
+      "cell": 35,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2023601",
+          "binary_exponent": -294
+        },
+        "upper": {
+          "mantissa": "2023601",
+          "binary_exponent": -294
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2023601",
+          "binary_exponent": -294
+        },
+        "upper": {
+          "mantissa": "2023601",
+          "binary_exponent": -294
+        }
+      }
+    },
+    {
+      "cell": 36,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6795327",
+          "binary_exponent": -305
+        },
+        "upper": {
+          "mantissa": "6795327",
+          "binary_exponent": -305
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6795327",
+          "binary_exponent": -305
+        },
+        "upper": {
+          "mantissa": "6795327",
+          "binary_exponent": -305
+        }
+      }
+    },
+    {
+      "cell": 37,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1426185",
+          "binary_exponent": -312
+        },
+        "upper": {
+          "mantissa": "1426185",
+          "binary_exponent": -312
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1426185",
+          "binary_exponent": -312
+        },
+        "upper": {
+          "mantissa": "1426185",
+          "binary_exponent": -312
+        }
+      }
+    },
+    {
+      "cell": 38,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9578365",
+          "binary_exponent": -324
+        },
+        "upper": {
+          "mantissa": "9578365",
+          "binary_exponent": -324
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9578365",
+          "binary_exponent": -324
+        },
+        "upper": {
+          "mantissa": "9578365",
+          "binary_exponent": -324
+        }
+      }
+    },
+    {
+      "cell": 39,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8041127",
+          "binary_exponent": -333
+        },
+        "upper": {
+          "mantissa": "8041127",
+          "binary_exponent": -333
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8041127",
+          "binary_exponent": -333
+        },
+        "upper": {
+          "mantissa": "8041127",
+          "binary_exponent": -333
+        }
+      }
+    },
+    {
+      "cell": 40,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13501203",
+          "binary_exponent": -343
+        },
+        "upper": {
+          "mantissa": "13501203",
+          "binary_exponent": -343
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13501203",
+          "binary_exponent": -343
+        },
+        "upper": {
+          "mantissa": "13501203",
+          "binary_exponent": -343
+        }
+      }
+    },
+    {
+      "cell": 41,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11334387",
+          "binary_exponent": -352
+        },
+        "upper": {
+          "mantissa": "11334387",
+          "binary_exponent": -352
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11334387",
+          "binary_exponent": -352
+        },
+        "upper": {
+          "mantissa": "11334387",
+          "binary_exponent": -352
+        }
+      }
+    },
+    {
+      "cell": 42,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2378831",
+          "binary_exponent": -359
+        },
+        "upper": {
+          "mantissa": "2378831",
+          "binary_exponent": -359
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2378831",
+          "binary_exponent": -359
+        },
+        "upper": {
+          "mantissa": "2378831",
+          "binary_exponent": -359
+        }
+      }
+    },
+    {
+      "cell": 43,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1997051",
+          "binary_exponent": -368
+        },
+        "upper": {
+          "mantissa": "1997051",
+          "binary_exponent": -368
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1997051",
+          "binary_exponent": -368
+        },
+        "upper": {
+          "mantissa": "1997051",
+          "binary_exponent": -368
+        }
+      }
+    },
+    {
+      "cell": 44,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1676543",
+          "binary_exponent": -377
+        },
+        "upper": {
+          "mantissa": "1676543",
+          "binary_exponent": -377
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1676543",
+          "binary_exponent": -377
+        },
+        "upper": {
+          "mantissa": "1676543",
+          "binary_exponent": -377
+        }
+      }
+    },
+    {
+      "cell": 45,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11259789",
+          "binary_exponent": -389
+        },
+        "upper": {
+          "mantissa": "11259789",
+          "binary_exponent": -389
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11259789",
+          "binary_exponent": -389
+        },
+        "upper": {
+          "mantissa": "11259789",
+          "binary_exponent": -389
+        }
+      }
+    },
+    {
+      "cell": 46,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9452699",
+          "binary_exponent": -398
+        },
+        "upper": {
+          "mantissa": "9452699",
+          "binary_exponent": -398
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9452699",
+          "binary_exponent": -398
+        },
+        "upper": {
+          "mantissa": "9452699",
+          "binary_exponent": -398
+        }
+      }
+    },
+    {
+      "cell": 47,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "15871259",
+          "binary_exponent": -408
+        },
+        "upper": {
+          "mantissa": "15871259",
+          "binary_exponent": -408
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "15871259",
+          "binary_exponent": -408
+        },
+        "upper": {
+          "mantissa": "15871259",
+          "binary_exponent": -408
+        }
+      }
+    },
+    {
+      "cell": 48,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13324071",
+          "binary_exponent": -417
+        },
+        "upper": {
+          "mantissa": "13324071",
+          "binary_exponent": -417
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13324071",
+          "binary_exponent": -417
+        },
+        "upper": {
+          "mantissa": "13324071",
+          "binary_exponent": -417
+        }
+      }
+    },
+    {
+      "cell": 49,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11185683",
+          "binary_exponent": -426
+        },
+        "upper": {
+          "mantissa": "11185683",
+          "binary_exponent": -426
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11185683",
+          "binary_exponent": -426
+        },
+        "upper": {
+          "mantissa": "11185683",
+          "binary_exponent": -426
+        }
+      }
+    },
+    {
+      "cell": 50,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4695243",
+          "binary_exponent": -434
+        },
+        "upper": {
+          "mantissa": "4695243",
+          "binary_exponent": -434
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4695243",
+          "binary_exponent": -434
+        },
+        "upper": {
+          "mantissa": "4695243",
+          "binary_exponent": -434
+        }
+      }
+    },
+    {
+      "cell": 51,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7883401",
+          "binary_exponent": -444
+        },
+        "upper": {
+          "mantissa": "7883401",
+          "binary_exponent": -444
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7883401",
+          "binary_exponent": -444
+        },
+        "upper": {
+          "mantissa": "7883401",
+          "binary_exponent": -444
+        }
+      }
+    },
+    {
+      "cell": 52,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6618189",
+          "binary_exponent": -453
+        },
+        "upper": {
+          "mantissa": "6618189",
+          "binary_exponent": -453
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6618189",
+          "binary_exponent": -453
+        },
+        "upper": {
+          "mantissa": "6618189",
+          "binary_exponent": -453
+        }
+      }
+    },
+    {
+      "cell": 53,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "86813",
+          "binary_exponent": -456
+        },
+        "upper": {
+          "mantissa": "86813",
+          "binary_exponent": -456
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "86813",
+          "binary_exponent": -456
+        },
+        "upper": {
+          "mantissa": "86813",
+          "binary_exponent": -456
+        }
+      }
+    },
+    {
+      "cell": 54,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4664341",
+          "binary_exponent": -471
+        },
+        "upper": {
+          "mantissa": "4664341",
+          "binary_exponent": -471
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4664341",
+          "binary_exponent": -471
+        },
+        "upper": {
+          "mantissa": "4664341",
+          "binary_exponent": -471
+        }
+      }
+    },
+    {
+      "cell": 55,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "15663033",
+          "binary_exponent": -482
+        },
+        "upper": {
+          "mantissa": "15663033",
+          "binary_exponent": -482
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "15663033",
+          "binary_exponent": -482
+        },
+        "upper": {
+          "mantissa": "15663033",
+          "binary_exponent": -482
+        }
+      }
+    },
+    {
+      "cell": 56,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13149263",
+          "binary_exponent": -491
+        },
+        "upper": {
+          "mantissa": "13149263",
+          "binary_exponent": -491
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13149263",
+          "binary_exponent": -491
+        },
+        "upper": {
+          "mantissa": "13149263",
+          "binary_exponent": -491
+        }
+      }
+    },
+    {
+      "cell": 57,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5519465",
+          "binary_exponent": -499
+        },
+        "upper": {
+          "mantissa": "5519465",
+          "binary_exponent": -499
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5519465",
+          "binary_exponent": -499
+        },
+        "upper": {
+          "mantissa": "5519465",
+          "binary_exponent": -499
+        }
+      }
+    },
+    {
+      "cell": 58,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4633643",
+          "binary_exponent": -508
+        },
+        "upper": {
+          "mantissa": "4633643",
+          "binary_exponent": -508
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4633643",
+          "binary_exponent": -508
+        },
+        "upper": {
+          "mantissa": "4633643",
+          "binary_exponent": -508
+        }
+      }
+    },
+    {
+      "cell": 59,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7779973",
+          "binary_exponent": -518
+        },
+        "upper": {
+          "mantissa": "7779973",
+          "binary_exponent": -518
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7779973",
+          "binary_exponent": -518
+        },
+        "upper": {
+          "mantissa": "7779973",
+          "binary_exponent": -518
+        }
+      }
+    },
+    {
+      "cell": 60,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13062721",
+          "binary_exponent": -528
+        },
+        "upper": {
+          "mantissa": "13062721",
+          "binary_exponent": -528
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13062721",
+          "binary_exponent": -528
+        },
+        "upper": {
+          "mantissa": "13062721",
+          "binary_exponent": -528
+        }
+      }
+    },
+    {
+      "cell": 61,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10966277",
+          "binary_exponent": -537
+        },
+        "upper": {
+          "mantissa": "10966277",
+          "binary_exponent": -537
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10966277",
+          "binary_exponent": -537
+        },
+        "upper": {
+          "mantissa": "10966277",
+          "binary_exponent": -537
+        }
+      }
+    },
+    {
+      "cell": 62,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9206293",
+          "binary_exponent": -546
+        },
+        "upper": {
+          "mantissa": "9206293",
+          "binary_exponent": -546
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9206293",
+          "binary_exponent": -546
+        },
+        "upper": {
+          "mantissa": "9206293",
+          "binary_exponent": -546
+        }
+      }
+    },
+    {
+      "cell": 63,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7728769",
+          "binary_exponent": -555
+        },
+        "upper": {
+          "mantissa": "7728769",
+          "binary_exponent": -555
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7728769",
+          "binary_exponent": -555
+        },
+        "upper": {
+          "mantissa": "7728769",
+          "binary_exponent": -555
+        }
+      }
+    },
+    {
+      "cell": 64,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12976749",
+          "binary_exponent": -565
+        },
+        "upper": {
+          "mantissa": "12976749",
+          "binary_exponent": -565
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12976749",
+          "binary_exponent": -565
+        },
+        "upper": {
+          "mantissa": "12976749",
+          "binary_exponent": -565
+        }
+      }
+    },
+    {
+      "cell": 65,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5447051",
+          "binary_exponent": -573
+        },
+        "upper": {
+          "mantissa": "5447051",
+          "binary_exponent": -573
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5447051",
+          "binary_exponent": -573
+        },
+        "upper": {
+          "mantissa": "5447051",
+          "binary_exponent": -573
+        }
+      }
+    },
+    {
+      "cell": 66,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9145701",
+          "binary_exponent": -583
+        },
+        "upper": {
+          "mantissa": "9145701",
+          "binary_exponent": -583
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9145701",
+          "binary_exponent": -583
+        },
+        "upper": {
+          "mantissa": "9145701",
+          "binary_exponent": -583
+        }
+      }
+    },
+    {
+      "cell": 67,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "3838951",
+          "binary_exponent": -591
+        },
+        "upper": {
+          "mantissa": "3838951",
+          "binary_exponent": -591
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "3838951",
+          "binary_exponent": -591
+        },
+        "upper": {
+          "mantissa": "3838951",
+          "binary_exponent": -591
+        }
+      }
+    },
+    {
+      "cell": 68,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6445671",
+          "binary_exponent": -601
+        },
+        "upper": {
+          "mantissa": "6445671",
+          "binary_exponent": -601
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6445671",
+          "binary_exponent": -601
+        },
+        "upper": {
+          "mantissa": "6445671",
+          "binary_exponent": -601
+        }
+      }
+    },
+    {
+      "cell": 69,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10822403",
+          "binary_exponent": -611
+        },
+        "upper": {
+          "mantissa": "10822403",
+          "binary_exponent": -611
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10822403",
+          "binary_exponent": -611
+        },
+        "upper": {
+          "mantissa": "10822403",
+          "binary_exponent": -611
+        }
+      }
+    },
+    {
+      "cell": 70,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9085509",
+          "binary_exponent": -620
+        },
+        "upper": {
+          "mantissa": "9085509",
+          "binary_exponent": -620
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9085509",
+          "binary_exponent": -620
+        },
+        "upper": {
+          "mantissa": "9085509",
+          "binary_exponent": -620
+        }
+      }
+    },
+    {
+      "cell": 71,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "3813685",
+          "binary_exponent": -628
+        },
+        "upper": {
+          "mantissa": "3813685",
+          "binary_exponent": -628
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "3813685",
+          "binary_exponent": -628
+        },
+        "upper": {
+          "mantissa": "3813685",
+          "binary_exponent": -628
+        }
+      }
+    },
+    {
+      "cell": 72,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12806497",
+          "binary_exponent": -639
+        },
+        "upper": {
+          "mantissa": "12806497",
+          "binary_exponent": -639
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12806497",
+          "binary_exponent": -639
+        },
+        "upper": {
+          "mantissa": "12806497",
+          "binary_exponent": -639
+        }
+      }
+    },
+    {
+      "cell": 73,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10751175",
+          "binary_exponent": -648
+        },
+        "upper": {
+          "mantissa": "10751175",
+          "binary_exponent": -648
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10751175",
+          "binary_exponent": -648
+        },
+        "upper": {
+          "mantissa": "10751175",
+          "binary_exponent": -648
+        }
+      }
+    },
+    {
+      "cell": 74,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9025713",
+          "binary_exponent": -657
+        },
+        "upper": {
+          "mantissa": "9025713",
+          "binary_exponent": -657
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9025713",
+          "binary_exponent": -657
+        },
+        "upper": {
+          "mantissa": "9025713",
+          "binary_exponent": -657
+        }
+      }
+    },
+    {
+      "cell": 75,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "15154341",
+          "binary_exponent": -667
+        },
+        "upper": {
+          "mantissa": "15154341",
+          "binary_exponent": -667
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "15154341",
+          "binary_exponent": -667
+        },
+        "upper": {
+          "mantissa": "15154341",
+          "binary_exponent": -667
+        }
+      }
+    },
+    {
+      "cell": 76,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12722211",
+          "binary_exponent": -676
+        },
+        "upper": {
+          "mantissa": "12722211",
+          "binary_exponent": -676
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12722211",
+          "binary_exponent": -676
+        },
+        "upper": {
+          "mantissa": "12722211",
+          "binary_exponent": -676
+        }
+      }
+    },
+    {
+      "cell": 77,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "333763",
+          "binary_exponent": -680
+        },
+        "upper": {
+          "mantissa": "333763",
+          "binary_exponent": -680
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "333763",
+          "binary_exponent": -680
+        },
+        "upper": {
+          "mantissa": "333763",
+          "binary_exponent": -680
+        }
+      }
+    },
+    {
+      "cell": 78,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4483155",
+          "binary_exponent": -693
+        },
+        "upper": {
+          "mantissa": "4483155",
+          "binary_exponent": -693
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4483155",
+          "binary_exponent": -693
+        },
+        "upper": {
+          "mantissa": "4483155",
+          "binary_exponent": -693
+        }
+      }
+    },
+    {
+      "cell": 79,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7527301",
+          "binary_exponent": -703
+        },
+        "upper": {
+          "mantissa": "7527301",
+          "binary_exponent": -703
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7527301",
+          "binary_exponent": -703
+        },
+        "upper": {
+          "mantissa": "7527301",
+          "binary_exponent": -703
+        }
+      }
+    },
+    {
+      "cell": 80,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "789905",
+          "binary_exponent": -709
+        },
+        "upper": {
+          "mantissa": "789905",
+          "binary_exponent": -709
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "789905",
+          "binary_exponent": -709
+        },
+        "upper": {
+          "mantissa": "789905",
+          "binary_exponent": -709
+        }
+      }
+    },
+    {
+      "cell": 81,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10610123",
+          "binary_exponent": -722
+        },
+        "upper": {
+          "mantissa": "10610123",
+          "binary_exponent": -722
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10610123",
+          "binary_exponent": -722
+        },
+        "upper": {
+          "mantissa": "10610123",
+          "binary_exponent": -722
+        }
+      }
+    },
+    {
+      "cell": 82,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4453649",
+          "binary_exponent": -730
+        },
+        "upper": {
+          "mantissa": "4453649",
+          "binary_exponent": -730
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4453649",
+          "binary_exponent": -730
+        },
+        "upper": {
+          "mantissa": "4453649",
+          "binary_exponent": -730
+        }
+      }
+    },
+    {
+      "cell": 83,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "14605",
+          "binary_exponent": -731
+        },
+        "upper": {
+          "mantissa": "14605",
+          "binary_exponent": -731
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "14605",
+          "binary_exponent": -731
+        },
+        "upper": {
+          "mantissa": "14605",
+          "binary_exponent": -731
+        }
+      }
+    },
+    {
+      "cell": 84,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "3138825",
+          "binary_exponent": -748
+        },
+        "upper": {
+          "mantissa": "3138825",
+          "binary_exponent": -748
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "3138825",
+          "binary_exponent": -748
+        },
+        "upper": {
+          "mantissa": "3138825",
+          "binary_exponent": -748
+        }
+      }
+    },
+    {
+      "cell": 85,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2635073",
+          "binary_exponent": -757
+        },
+        "upper": {
+          "mantissa": "2635073",
+          "binary_exponent": -757
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2635073",
+          "binary_exponent": -757
+        },
+        "upper": {
+          "mantissa": "2635073",
+          "binary_exponent": -757
+        }
+      }
+    },
+    {
+      "cell": 86,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4424337",
+          "binary_exponent": -767
+        },
+        "upper": {
+          "mantissa": "4424337",
+          "binary_exponent": -767
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4424337",
+          "binary_exponent": -767
+        },
+        "upper": {
+          "mantissa": "4424337",
+          "binary_exponent": -767
+        }
+      }
+    },
+    {
+      "cell": 87,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7428545",
+          "binary_exponent": -777
+        },
+        "upper": {
+          "mantissa": "7428545",
+          "binary_exponent": -777
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7428545",
+          "binary_exponent": -777
+        },
+        "upper": {
+          "mantissa": "7428545",
+          "binary_exponent": -777
+        }
+      }
+    },
+    {
+      "cell": 88,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12472667",
+          "binary_exponent": -787
+        },
+        "upper": {
+          "mantissa": "12472667",
+          "binary_exponent": -787
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12472667",
+          "binary_exponent": -787
+        },
+        "upper": {
+          "mantissa": "12472667",
+          "binary_exponent": -787
+        }
+      }
+    },
+    {
+      "cell": 89,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10470921",
+          "binary_exponent": -796
+        },
+        "upper": {
+          "mantissa": "10470921",
+          "binary_exponent": -796
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10470921",
+          "binary_exponent": -796
+        },
+        "upper": {
+          "mantissa": "10470921",
+          "binary_exponent": -796
+        }
+      }
+    },
+    {
+      "cell": 90,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8790437",
+          "binary_exponent": -805
+        },
+        "upper": {
+          "mantissa": "8790437",
+          "binary_exponent": -805
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8790437",
+          "binary_exponent": -805
+        },
+        "upper": {
+          "mantissa": "8790437",
+          "binary_exponent": -805
+        }
+      }
+    },
+    {
+      "cell": 91,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "3689827",
+          "binary_exponent": -813
+        },
+        "upper": {
+          "mantissa": "3689827",
+          "binary_exponent": -813
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "3689827",
+          "binary_exponent": -813
+        },
+        "upper": {
+          "mantissa": "3689827",
+          "binary_exponent": -813
+        }
+      }
+    },
+    {
+      "cell": 92,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6195289",
+          "binary_exponent": -823
+        },
+        "upper": {
+          "mantissa": "6195289",
+          "binary_exponent": -823
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6195289",
+          "binary_exponent": -823
+        },
+        "upper": {
+          "mantissa": "6195289",
+          "binary_exponent": -823
+        }
+      }
+    },
+    {
+      "cell": 93,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10402007",
+          "binary_exponent": -833
+        },
+        "upper": {
+          "mantissa": "10402007",
+          "binary_exponent": -833
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10402007",
+          "binary_exponent": -833
+        },
+        "upper": {
+          "mantissa": "10402007",
+          "binary_exponent": -833
+        }
+      }
+    },
+    {
+      "cell": 94,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4366291",
+          "binary_exponent": -841
+        },
+        "upper": {
+          "mantissa": "4366291",
+          "binary_exponent": -841
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4366291",
+          "binary_exponent": -841
+        },
+        "upper": {
+          "mantissa": "4366291",
+          "binary_exponent": -841
+        }
+      }
+    },
+    {
+      "cell": 95,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "14662169",
+          "binary_exponent": -852
+        },
+        "upper": {
+          "mantissa": "14662169",
+          "binary_exponent": -852
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "14662169",
+          "binary_exponent": -852
+        },
+        "upper": {
+          "mantissa": "14662169",
+          "binary_exponent": -852
+        }
+      }
+    },
+    {
+      "cell": 96,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12309029",
+          "binary_exponent": -861
+        },
+        "upper": {
+          "mantissa": "12309029",
+          "binary_exponent": -861
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12309029",
+          "binary_exponent": -861
+        },
+        "upper": {
+          "mantissa": "12309029",
+          "binary_exponent": -861
+        }
+      }
+    },
+    {
+      "cell": 97,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5166773",
+          "binary_exponent": -869
+        },
+        "upper": {
+          "mantissa": "5166773",
+          "binary_exponent": -869
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5166773",
+          "binary_exponent": -869
+        },
+        "upper": {
+          "mantissa": "5166773",
+          "binary_exponent": -869
+        }
+      }
+    },
+    {
+      "cell": 98,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8675109",
+          "binary_exponent": -879
+        },
+        "upper": {
+          "mantissa": "8675109",
+          "binary_exponent": -879
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8675109",
+          "binary_exponent": -879
+        },
+        "upper": {
+          "mantissa": "8675109",
+          "binary_exponent": -879
+        }
+      }
+    },
+    {
+      "cell": 99,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7282835",
+          "binary_exponent": -888
+        },
+        "upper": {
+          "mantissa": "7282835",
+          "binary_exponent": -888
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7282835",
+          "binary_exponent": -888
+        },
+        "upper": {
+          "mantissa": "7282835",
+          "binary_exponent": -888
+        }
+      }
+    },
+    {
+      "cell": 100,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12228017",
+          "binary_exponent": -898
+        },
+        "upper": {
+          "mantissa": "12228017",
+          "binary_exponent": -898
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12228017",
+          "binary_exponent": -898
+        },
+        "upper": {
+          "mantissa": "12228017",
+          "binary_exponent": -898
+        }
+      }
+    },
+    {
+      "cell": 101,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10265535",
+          "binary_exponent": -907
+        },
+        "upper": {
+          "mantissa": "10265535",
+          "binary_exponent": -907
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10265535",
+          "binary_exponent": -907
+        },
+        "upper": {
+          "mantissa": "10265535",
+          "binary_exponent": -907
+        }
+      }
+    },
+    {
+      "cell": 102,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8618013",
+          "binary_exponent": -916
+        },
+        "upper": {
+          "mantissa": "8618013",
+          "binary_exponent": -916
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8618013",
+          "binary_exponent": -916
+        },
+        "upper": {
+          "mantissa": "8618013",
+          "binary_exponent": -916
+        }
+      }
+    },
+    {
+      "cell": 103,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7234903",
+          "binary_exponent": -925
+        },
+        "upper": {
+          "mantissa": "7234903",
+          "binary_exponent": -925
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7234903",
+          "binary_exponent": -925
+        },
+        "upper": {
+          "mantissa": "7234903",
+          "binary_exponent": -925
+        }
+      }
+    },
+    {
+      "cell": 104,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6073769",
+          "binary_exponent": -934
+        },
+        "upper": {
+          "mantissa": "6073769",
+          "binary_exponent": -934
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6073769",
+          "binary_exponent": -934
+        },
+        "upper": {
+          "mantissa": "6073769",
+          "binary_exponent": -934
+        }
+      }
+    },
+    {
+      "cell": 105,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2549493",
+          "binary_exponent": -942
+        },
+        "upper": {
+          "mantissa": "2549493",
+          "binary_exponent": -942
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2549493",
+          "binary_exponent": -942
+        },
+        "upper": {
+          "mantissa": "2549493",
+          "binary_exponent": -942
+        }
+      }
+    },
+    {
+      "cell": 106,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4280647",
+          "binary_exponent": -952
+        },
+        "upper": {
+          "mantissa": "4280647",
+          "binary_exponent": -952
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4280647",
+          "binary_exponent": -952
+        },
+        "upper": {
+          "mantissa": "4280647",
+          "binary_exponent": -952
+        }
+      }
+    },
+    {
+      "cell": 107,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "14374573",
+          "binary_exponent": -963
+        },
+        "upper": {
+          "mantissa": "14374573",
+          "binary_exponent": -963
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "14374573",
+          "binary_exponent": -963
+        },
+        "upper": {
+          "mantissa": "14374573",
+          "binary_exponent": -963
+        }
+      }
+    },
+    {
+      "cell": 108,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12067589",
+          "binary_exponent": -972
+        },
+        "upper": {
+          "mantissa": "12067589",
+          "binary_exponent": -972
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12067589",
+          "binary_exponent": -972
+        },
+        "upper": {
+          "mantissa": "12067589",
+          "binary_exponent": -972
+        }
+      }
+    },
+    {
+      "cell": 109,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5065427",
+          "binary_exponent": -980
+        },
+        "upper": {
+          "mantissa": "5065427",
+          "binary_exponent": -980
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5065427",
+          "binary_exponent": -980
+        },
+        "upper": {
+          "mantissa": "5065427",
+          "binary_exponent": -980
+        }
+      }
+    },
+    {
+      "cell": 110,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2126237",
+          "binary_exponent": -988
+        },
+        "upper": {
+          "mantissa": "2126237",
+          "binary_exponent": -988
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2126237",
+          "binary_exponent": -988
+        },
+        "upper": {
+          "mantissa": "2126237",
+          "binary_exponent": -988
+        }
+      }
+    },
+    {
+      "cell": 111,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7139983",
+          "binary_exponent": -999
+        },
+        "upper": {
+          "mantissa": "7139983",
+          "binary_exponent": -999
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7139983",
+          "binary_exponent": -999
+        },
+        "upper": {
+          "mantissa": "7139983",
+          "binary_exponent": -999
+        }
+      }
+    },
+    {
+      "cell": 112,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5994083",
+          "binary_exponent": -1008
+        },
+        "upper": {
+          "mantissa": "5994083",
+          "binary_exponent": -1008
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5994083",
+          "binary_exponent": -1008
+        },
+        "upper": {
+          "mantissa": "5994083",
+          "binary_exponent": -1008
+        }
+      }
+    },
+    {
+      "cell": 113,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5032089",
+          "binary_exponent": -1017
+        },
+        "upper": {
+          "mantissa": "5032089",
+          "binary_exponent": -1017
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5032089",
+          "binary_exponent": -1017
+        },
+        "upper": {
+          "mantissa": "5032089",
+          "binary_exponent": -1017
+        }
+      }
+    },
+    {
+      "cell": 114,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2112243",
+          "binary_exponent": -1025
+        },
+        "upper": {
+          "mantissa": "2112243",
+          "binary_exponent": -1025
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2112243",
+          "binary_exponent": -1025
+        },
+        "upper": {
+          "mantissa": "2112243",
+          "binary_exponent": -1025
+        }
+      }
+    },
+    {
+      "cell": 115,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "14185983",
+          "binary_exponent": -1037
+        },
+        "upper": {
+          "mantissa": "14185983",
+          "binary_exponent": -1037
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "14185983",
+          "binary_exponent": -1037
+        },
+        "upper": {
+          "mantissa": "14185983",
+          "binary_exponent": -1037
+        }
+      }
+    },
+    {
+      "cell": 116,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5954633",
+          "binary_exponent": -1045
+        },
+        "upper": {
+          "mantissa": "5954633",
+          "binary_exponent": -1045
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5954633",
+          "binary_exponent": -1045
+        },
+        "upper": {
+          "mantissa": "5954633",
+          "binary_exponent": -1045
+        }
+      }
+    },
+    {
+      "cell": 117,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9997941",
+          "binary_exponent": -1055
+        },
+        "upper": {
+          "mantissa": "9997941",
+          "binary_exponent": -1055
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9997941",
+          "binary_exponent": -1055
+        },
+        "upper": {
+          "mantissa": "9997941",
+          "binary_exponent": -1055
+        }
+      }
+    },
+    {
+      "cell": 118,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8393365",
+          "binary_exponent": -1064
+        },
+        "upper": {
+          "mantissa": "8393365",
+          "binary_exponent": -1064
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8393365",
+          "binary_exponent": -1064
+        },
+        "upper": {
+          "mantissa": "8393365",
+          "binary_exponent": -1064
+        }
+      }
+    },
+    {
+      "cell": 119,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "14092617",
+          "binary_exponent": -1074
+        },
+        "upper": {
+          "mantissa": "14092617",
+          "binary_exponent": -1074
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "14092617",
+          "binary_exponent": -1074
+        },
+        "upper": {
+          "mantissa": "14092617",
+          "binary_exponent": -1074
+        }
+      }
+    },
+    {
+      "cell": 120,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11830885",
+          "binary_exponent": -1083
+        },
+        "upper": {
+          "mantissa": "11830885",
+          "binary_exponent": -1083
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11830885",
+          "binary_exponent": -1083
+        },
+        "upper": {
+          "mantissa": "11830885",
+          "binary_exponent": -1083
+        }
+      }
+    },
+    {
+      "cell": 121,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9932139",
+          "binary_exponent": -1092
+        },
+        "upper": {
+          "mantissa": "9932139",
+          "binary_exponent": -1092
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9932139",
+          "binary_exponent": -1092
+        },
+        "upper": {
+          "mantissa": "9932139",
+          "binary_exponent": -1092
+        }
+      }
+    },
+    {
+      "cell": 122,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2084531",
+          "binary_exponent": -1099
+        },
+        "upper": {
+          "mantissa": "2084531",
+          "binary_exponent": -1099
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2084531",
+          "binary_exponent": -1099
+        },
+        "upper": {
+          "mantissa": "2084531",
+          "binary_exponent": -1099
+        }
+      }
+    },
+    {
+      "cell": 123,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13999867",
+          "binary_exponent": -1111
+        },
+        "upper": {
+          "mantissa": "13999867",
+          "binary_exponent": -1111
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13999867",
+          "binary_exponent": -1111
+        },
+        "upper": {
+          "mantissa": "13999867",
+          "binary_exponent": -1111
+        }
+      }
+    },
+    {
+      "cell": 124,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2938255",
+          "binary_exponent": -1118
+        },
+        "upper": {
+          "mantissa": "2938255",
+          "binary_exponent": -1118
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2938255",
+          "binary_exponent": -1118
+        },
+        "upper": {
+          "mantissa": "2938255",
+          "binary_exponent": -1118
+        }
+      }
+    },
+    {
+      "cell": 125,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9866771",
+          "binary_exponent": -1129
+        },
+        "upper": {
+          "mantissa": "9866771",
+          "binary_exponent": -1129
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9866771",
+          "binary_exponent": -1129
+        },
+        "upper": {
+          "mantissa": "9866771",
+          "binary_exponent": -1129
+        }
+      }
+    },
+    {
+      "cell": 126,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16566493",
+          "binary_exponent": -1139
+        },
+        "upper": {
+          "mantissa": "16566493",
+          "binary_exponent": -1139
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16566493",
+          "binary_exponent": -1139
+        },
+        "upper": {
+          "mantissa": "16566493",
+          "binary_exponent": -1139
+        }
+      }
+    },
+    {
+      "cell": 127,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13907727",
+          "binary_exponent": -1148
+        },
+        "upper": {
+          "mantissa": "13907727",
+          "binary_exponent": -1148
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13907727",
+          "binary_exponent": -1148
+        },
+        "upper": {
+          "mantissa": "13907727",
+          "binary_exponent": -1148
+        }
+      }
+    },
+    {
+      "cell": 128,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11675667",
+          "binary_exponent": -1157
+        },
+        "upper": {
+          "mantissa": "11675667",
+          "binary_exponent": -1157
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11675667",
+          "binary_exponent": -1157
+        },
+        "upper": {
+          "mantissa": "11675667",
+          "binary_exponent": -1157
+        }
+      }
+    },
+    {
+      "cell": 129,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1225229",
+          "binary_exponent": -1163
+        },
+        "upper": {
+          "mantissa": "1225229",
+          "binary_exponent": -1163
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1225229",
+          "binary_exponent": -1163
+        },
+        "upper": {
+          "mantissa": "1225229",
+          "binary_exponent": -1163
+        }
+      }
+    },
+    {
+      "cell": 130,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4114365",
+          "binary_exponent": -1174
+        },
+        "upper": {
+          "mantissa": "4114365",
+          "binary_exponent": -1174
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4114365",
+          "binary_exponent": -1174
+        },
+        "upper": {
+          "mantissa": "4114365",
+          "binary_exponent": -1174
+        }
+      }
+    },
+    {
+      "cell": 131,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13816193",
+          "binary_exponent": -1185
+        },
+        "upper": {
+          "mantissa": "13816193",
+          "binary_exponent": -1185
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13816193",
+          "binary_exponent": -1185
+        },
+        "upper": {
+          "mantissa": "13816193",
+          "binary_exponent": -1185
+        }
+      }
+    },
+    {
+      "cell": 132,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1449853",
+          "binary_exponent": -1191
+        },
+        "upper": {
+          "mantissa": "1449853",
+          "binary_exponent": -1191
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1449853",
+          "binary_exponent": -1191
+        },
+        "upper": {
+          "mantissa": "1449853",
+          "binary_exponent": -1191
+        }
+      }
+    },
+    {
+      "cell": 133,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9737321",
+          "binary_exponent": -1203
+        },
+        "upper": {
+          "mantissa": "9737321",
+          "binary_exponent": -1203
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9737321",
+          "binary_exponent": -1203
+        },
+        "upper": {
+          "mantissa": "9737321",
+          "binary_exponent": -1203
+        }
+      }
+    },
+    {
+      "cell": 134,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16349145",
+          "binary_exponent": -1213
+        },
+        "upper": {
+          "mantissa": "16349145",
+          "binary_exponent": -1213
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16349145",
+          "binary_exponent": -1213
+        },
+        "upper": {
+          "mantissa": "16349145",
+          "binary_exponent": -1213
+        }
+      }
+    },
+    {
+      "cell": 135,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13725261",
+          "binary_exponent": -1222
+        },
+        "upper": {
+          "mantissa": "13725261",
+          "binary_exponent": -1222
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13725261",
+          "binary_exponent": -1222
+        },
+        "upper": {
+          "mantissa": "13725261",
+          "binary_exponent": -1222
+        }
+      }
+    },
+    {
+      "cell": 136,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5761243",
+          "binary_exponent": -1230
+        },
+        "upper": {
+          "mantissa": "5761243",
+          "binary_exponent": -1230
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5761243",
+          "binary_exponent": -1230
+        },
+        "upper": {
+          "mantissa": "5761243",
+          "binary_exponent": -1230
+        }
+      }
+    },
+    {
+      "cell": 137,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9673235",
+          "binary_exponent": -1240
+        },
+        "upper": {
+          "mantissa": "9673235",
+          "binary_exponent": -1240
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9673235",
+          "binary_exponent": -1240
+        },
+        "upper": {
+          "mantissa": "9673235",
+          "binary_exponent": -1240
+        }
+      }
+    },
+    {
+      "cell": 138,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16241543",
+          "binary_exponent": -1250
+        },
+        "upper": {
+          "mantissa": "16241543",
+          "binary_exponent": -1250
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16241543",
+          "binary_exponent": -1250
+        },
+        "upper": {
+          "mantissa": "16241543",
+          "binary_exponent": -1250
+        }
+      }
+    },
+    {
+      "cell": 139,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "852183",
+          "binary_exponent": -1255
+        },
+        "upper": {
+          "mantissa": "852183",
+          "binary_exponent": -1255
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "852183",
+          "binary_exponent": -1255
+        },
+        "upper": {
+          "mantissa": "852183",
+          "binary_exponent": -1255
+        }
+      }
+    },
+    {
+      "cell": 140,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11446651",
+          "binary_exponent": -1268
+        },
+        "upper": {
+          "mantissa": "11446651",
+          "binary_exponent": -1268
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11446651",
+          "binary_exponent": -1268
+        },
+        "upper": {
+          "mantissa": "11446651",
+          "binary_exponent": -1268
+        }
+      }
+    },
+    {
+      "cell": 141,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9609571",
+          "binary_exponent": -1277
+        },
+        "upper": {
+          "mantissa": "9609571",
+          "binary_exponent": -1277
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9609571",
+          "binary_exponent": -1277
+        },
+        "upper": {
+          "mantissa": "9609571",
+          "binary_exponent": -1277
+        }
+      }
+    },
+    {
+      "cell": 142,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8067325",
+          "binary_exponent": -1286
+        },
+        "upper": {
+          "mantissa": "8067325",
+          "binary_exponent": -1286
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8067325",
+          "binary_exponent": -1286
+        },
+        "upper": {
+          "mantissa": "8067325",
+          "binary_exponent": -1286
+        }
+      }
+    },
+    {
+      "cell": 143,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6772595",
+          "binary_exponent": -1295
+        },
+        "upper": {
+          "mantissa": "6772595",
+          "binary_exponent": -1295
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6772595",
+          "binary_exponent": -1295
+        },
+        "upper": {
+          "mantissa": "6772595",
+          "binary_exponent": -1295
+        }
+      }
+    },
+    {
+      "cell": 144,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5685657",
+          "binary_exponent": -1304
+        },
+        "upper": {
+          "mantissa": "5685657",
+          "binary_exponent": -1304
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5685657",
+          "binary_exponent": -1304
+        },
+        "upper": {
+          "mantissa": "5685657",
+          "binary_exponent": -1304
+        }
+      }
+    },
+    {
+      "cell": 145,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9546325",
+          "binary_exponent": -1314
+        },
+        "upper": {
+          "mantissa": "9546325",
+          "binary_exponent": -1314
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9546325",
+          "binary_exponent": -1314
+        },
+        "upper": {
+          "mantissa": "9546325",
+          "binary_exponent": -1314
+        }
+      }
+    },
+    {
+      "cell": 146,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16028459",
+          "binary_exponent": -1324
+        },
+        "upper": {
+          "mantissa": "16028459",
+          "binary_exponent": -1324
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16028459",
+          "binary_exponent": -1324
+        },
+        "upper": {
+          "mantissa": "16028459",
+          "binary_exponent": -1324
+        }
+      }
+    },
+    {
+      "cell": 147,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6738401",
+          "binary_exponent": -1332
+        },
+        "upper": {
+          "mantissa": "6738401",
+          "binary_exponent": -1332
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6738401",
+          "binary_exponent": -1332
+        },
+        "upper": {
+          "mantissa": "6738401",
+          "binary_exponent": -1332
+        }
+      }
+    },
+    {
+      "cell": 148,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5667157",
+          "binary_exponent": -1341
+        },
+        "upper": {
+          "mantissa": "5667157",
+          "binary_exponent": -1341
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5667157",
+          "binary_exponent": -1341
+        },
+        "upper": {
+          "mantissa": "5667157",
+          "binary_exponent": -1341
+        }
+      }
+    },
+    {
+      "cell": 149,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4766215",
+          "binary_exponent": -1350
+        },
+        "upper": {
+          "mantissa": "4766215",
+          "binary_exponent": -1350
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4766215",
+          "binary_exponent": -1350
+        },
+        "upper": {
+          "mantissa": "4766215",
+          "binary_exponent": -1350
+        }
+      }
+    },
+    {
+      "cell": 150,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16034005",
+          "binary_exponent": -1361
+        },
+        "upper": {
+          "mantissa": "16034005",
+          "binary_exponent": -1361
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16034005",
+          "binary_exponent": -1361
+        },
+        "upper": {
+          "mantissa": "16034005",
+          "binary_exponent": -1361
+        }
+      }
+    },
+    {
+      "cell": 151,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1685623",
+          "binary_exponent": -1367
+        },
+        "upper": {
+          "mantissa": "1685623",
+          "binary_exponent": -1367
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1685623",
+          "binary_exponent": -1367
+        },
+        "upper": {
+          "mantissa": "1685623",
+          "binary_exponent": -1367
+        }
+      }
+    },
+    {
+      "cell": 152,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11341195",
+          "binary_exponent": -1379
+        },
+        "upper": {
+          "mantissa": "11341195",
+          "binary_exponent": -1379
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11341195",
+          "binary_exponent": -1379
+        },
+        "upper": {
+          "mantissa": "11341195",
+          "binary_exponent": -1379
+        }
+      }
+    },
+    {
+      "cell": 153,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4769109",
+          "binary_exponent": -1387
+        },
+        "upper": {
+          "mantissa": "4769109",
+          "binary_exponent": -1387
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4769109",
+          "binary_exponent": -1387
+        },
+        "upper": {
+          "mantissa": "4769109",
+          "binary_exponent": -1387
+        }
+      }
+    },
+    {
+      "cell": 154,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4010935",
+          "binary_exponent": -1396
+        },
+        "upper": {
+          "mantissa": "4010935",
+          "binary_exponent": -1396
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4010935",
+          "binary_exponent": -1396
+        },
+        "upper": {
+          "mantissa": "4010935",
+          "binary_exponent": -1396
+        }
+      }
+    },
+    {
+      "cell": 155,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13493171",
+          "binary_exponent": -1407
+        },
+        "upper": {
+          "mantissa": "13493171",
+          "binary_exponent": -1407
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13493171",
+          "binary_exponent": -1407
+        },
+        "upper": {
+          "mantissa": "13493171",
+          "binary_exponent": -1407
+        }
+      }
+    },
+    {
+      "cell": 156,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11348081",
+          "binary_exponent": -1416
+        },
+        "upper": {
+          "mantissa": "11348081",
+          "binary_exponent": -1416
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11348081",
+          "binary_exponent": -1416
+        },
+        "upper": {
+          "mantissa": "11348081",
+          "binary_exponent": -1416
+        }
+      }
+    },
+    {
+      "cell": 157,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9544009",
+          "binary_exponent": -1425
+        },
+        "upper": {
+          "mantissa": "9544009",
+          "binary_exponent": -1425
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9544009",
+          "binary_exponent": -1425
+        },
+        "upper": {
+          "mantissa": "9544009",
+          "binary_exponent": -1425
+        }
+      }
+    },
+    {
+      "cell": 158,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16053481",
+          "binary_exponent": -1435
+        },
+        "upper": {
+          "mantissa": "16053481",
+          "binary_exponent": -1435
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16053481",
+          "binary_exponent": -1435
+        },
+        "upper": {
+          "mantissa": "16053481",
+          "binary_exponent": -1435
+        }
+      }
+    },
+    {
+      "cell": 159,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13501363",
+          "binary_exponent": -1444
+        },
+        "upper": {
+          "mantissa": "13501363",
+          "binary_exponent": -1444
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13501363",
+          "binary_exponent": -1444
+        },
+        "upper": {
+          "mantissa": "13501363",
+          "binary_exponent": -1444
+        }
+      }
+    },
+    {
+      "cell": 160,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8545181",
+          "binary_exponent": -1456
+        },
+        "upper": {
+          "mantissa": "8545181",
+          "binary_exponent": -1456
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8545181",
+          "binary_exponent": -1456
+        },
+        "upper": {
+          "mantissa": "8545181",
+          "binary_exponent": -1456
+        }
+      }
+    },
+    {
+      "cell": 161,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "14119503",
+          "binary_exponent": -1466
+        },
+        "upper": {
+          "mantissa": "14119503",
+          "binary_exponent": -1466
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "14119503",
+          "binary_exponent": -1466
+        },
+        "upper": {
+          "mantissa": "14119503",
+          "binary_exponent": -1466
+        }
+      }
+    },
+    {
+      "cell": 162,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2916269",
+          "binary_exponent": -1473
+        },
+        "upper": {
+          "mantissa": "2916269",
+          "binary_exponent": -1473
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2916269",
+          "binary_exponent": -1473
+        },
+        "upper": {
+          "mantissa": "2916269",
+          "binary_exponent": -1473
+        }
+      }
+    },
+    {
+      "cell": 163,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2409327",
+          "binary_exponent": -1482
+        },
+        "upper": {
+          "mantissa": "2409327",
+          "binary_exponent": -1482
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2409327",
+          "binary_exponent": -1482
+        },
+        "upper": {
+          "mantissa": "2409327",
+          "binary_exponent": -1482
+        }
+      }
+    },
+    {
+      "cell": 164,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7962031",
+          "binary_exponent": -1493
+        },
+        "upper": {
+          "mantissa": "7962031",
+          "binary_exponent": -1493
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7962031",
+          "binary_exponent": -1493
+        },
+        "upper": {
+          "mantissa": "7962031",
+          "binary_exponent": -1493
+        }
+      }
+    },
+    {
+      "cell": 165,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1644493",
+          "binary_exponent": -1500
+        },
+        "upper": {
+          "mantissa": "1644493",
+          "binary_exponent": -1500
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1644493",
+          "binary_exponent": -1500
+        },
+        "upper": {
+          "mantissa": "1644493",
+          "binary_exponent": -1500
+        }
+      }
+    },
+    {
+      "cell": 166,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5434507",
+          "binary_exponent": -1511
+        },
+        "upper": {
+          "mantissa": "5434507",
+          "binary_exponent": -1511
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5434507",
+          "binary_exponent": -1511
+        },
+        "upper": {
+          "mantissa": "5434507",
+          "binary_exponent": -1511
+        }
+      }
+    },
+    {
+      "cell": 167,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8979627",
+          "binary_exponent": -1521
+        },
+        "upper": {
+          "mantissa": "8979627",
+          "binary_exponent": -1521
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8979627",
+          "binary_exponent": -1521
+        },
+        "upper": {
+          "mantissa": "8979627",
+          "binary_exponent": -1521
+        }
+      }
+    },
+    {
+      "cell": 168,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7418677",
+          "binary_exponent": -1530
+        },
+        "upper": {
+          "mantissa": "7418677",
+          "binary_exponent": -1530
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7418677",
+          "binary_exponent": -1530
+        },
+        "upper": {
+          "mantissa": "7418677",
+          "binary_exponent": -1530
+        }
+      }
+    },
+    {
+      "cell": 169,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12258141",
+          "binary_exponent": -1540
+        },
+        "upper": {
+          "mantissa": "12258141",
+          "binary_exponent": -1540
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12258141",
+          "binary_exponent": -1540
+        },
+        "upper": {
+          "mantissa": "12258141",
+          "binary_exponent": -1540
+        }
+      }
+    },
+    {
+      "cell": 170,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10127279",
+          "binary_exponent": -1549
+        },
+        "upper": {
+          "mantissa": "10127279",
+          "binary_exponent": -1549
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10127279",
+          "binary_exponent": -1549
+        },
+        "upper": {
+          "mantissa": "10127279",
+          "binary_exponent": -1549
+        }
+      }
+    },
+    {
+      "cell": 171,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8366829",
+          "binary_exponent": -1558
+        },
+        "upper": {
+          "mantissa": "8366829",
+          "binary_exponent": -1558
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8366829",
+          "binary_exponent": -1558
+        },
+        "upper": {
+          "mantissa": "8366829",
+          "binary_exponent": -1558
+        }
+      }
+    },
+    {
+      "cell": 172,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6912403",
+          "binary_exponent": -1567
+        },
+        "upper": {
+          "mantissa": "6912403",
+          "binary_exponent": -1567
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6912403",
+          "binary_exponent": -1567
+        },
+        "upper": {
+          "mantissa": "6912403",
+          "binary_exponent": -1567
+        }
+      }
+    },
+    {
+      "cell": 173,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11421607",
+          "binary_exponent": -1577
+        },
+        "upper": {
+          "mantissa": "11421607",
+          "binary_exponent": -1577
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11421607",
+          "binary_exponent": -1577
+        },
+        "upper": {
+          "mantissa": "11421607",
+          "binary_exponent": -1577
+        }
+      }
+    },
+    {
+      "cell": 174,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9436161",
+          "binary_exponent": -1586
+        },
+        "upper": {
+          "mantissa": "9436161",
+          "binary_exponent": -1586
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9436161",
+          "binary_exponent": -1586
+        },
+        "upper": {
+          "mantissa": "9436161",
+          "binary_exponent": -1586
+        }
+      }
+    },
+    {
+      "cell": 175,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "15591701",
+          "binary_exponent": -1596
+        },
+        "upper": {
+          "mantissa": "15591701",
+          "binary_exponent": -1596
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "15591701",
+          "binary_exponent": -1596
+        },
+        "upper": {
+          "mantissa": "15591701",
+          "binary_exponent": -1596
+        }
+      }
+    },
+    {
+      "cell": 176,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6440679",
+          "binary_exponent": -1604
+        },
+        "upper": {
+          "mantissa": "6440679",
+          "binary_exponent": -1604
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6440679",
+          "binary_exponent": -1604
+        },
+        "upper": {
+          "mantissa": "6440679",
+          "binary_exponent": -1604
+        }
+      }
+    },
+    {
+      "cell": 177,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "665135",
+          "binary_exponent": -1610
+        },
+        "upper": {
+          "mantissa": "665135",
+          "binary_exponent": -1610
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "665135",
+          "binary_exponent": -1610
+        },
+        "upper": {
+          "mantissa": "665135",
+          "binary_exponent": -1610
+        }
+      }
+    },
+    {
+      "cell": 178,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "549513",
+          "binary_exponent": -1619
+        },
+        "upper": {
+          "mantissa": "549513",
+          "binary_exponent": -1619
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "549513",
+          "binary_exponent": -1619
+        },
+        "upper": {
+          "mantissa": "549513",
+          "binary_exponent": -1619
+        }
+      }
+    },
+    {
+      "cell": 179,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7263837",
+          "binary_exponent": -1632
+        },
+        "upper": {
+          "mantissa": "7263837",
+          "binary_exponent": -1632
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7263837",
+          "binary_exponent": -1632
+        },
+        "upper": {
+          "mantissa": "7263837",
+          "binary_exponent": -1632
+        }
+      }
+    },
+    {
+      "cell": 180,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "6001147",
+          "binary_exponent": -1641
+        },
+        "upper": {
+          "mantissa": "6001147",
+          "binary_exponent": -1641
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "6001147",
+          "binary_exponent": -1641
+        },
+        "upper": {
+          "mantissa": "6001147",
+          "binary_exponent": -1641
+        }
+      }
+    },
+    {
+      "cell": 181,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4957953",
+          "binary_exponent": -1650
+        },
+        "upper": {
+          "mantissa": "4957953",
+          "binary_exponent": -1650
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4957953",
+          "binary_exponent": -1650
+        },
+        "upper": {
+          "mantissa": "4957953",
+          "binary_exponent": -1650
+        }
+      }
+    },
+    {
+      "cell": 182,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1024025",
+          "binary_exponent": -1657
+        },
+        "upper": {
+          "mantissa": "1024025",
+          "binary_exponent": -1657
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1024025",
+          "binary_exponent": -1657
+        },
+        "upper": {
+          "mantissa": "1024025",
+          "binary_exponent": -1657
+        }
+      }
+    },
+    {
+      "cell": 183,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "3384065",
+          "binary_exponent": -1668
+        },
+        "upper": {
+          "mantissa": "3384065",
+          "binary_exponent": -1668
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "3384065",
+          "binary_exponent": -1668
+        },
+        "upper": {
+          "mantissa": "3384065",
+          "binary_exponent": -1668
+        }
+      }
+    },
+    {
+      "cell": 184,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11183219",
+          "binary_exponent": -1679
+        },
+        "upper": {
+          "mantissa": "11183219",
+          "binary_exponent": -1679
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11183219",
+          "binary_exponent": -1679
+        },
+        "upper": {
+          "mantissa": "11183219",
+          "binary_exponent": -1679
+        }
+      }
+    },
+    {
+      "cell": 185,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9239213",
+          "binary_exponent": -1688
+        },
+        "upper": {
+          "mantissa": "9239213",
+          "binary_exponent": -1688
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9239213",
+          "binary_exponent": -1688
+        },
+        "upper": {
+          "mantissa": "9239213",
+          "binary_exponent": -1688
+        }
+      }
+    },
+    {
+      "cell": 186,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "15266277",
+          "binary_exponent": -1698
+        },
+        "upper": {
+          "mantissa": "15266277",
+          "binary_exponent": -1698
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "15266277",
+          "binary_exponent": -1698
+        },
+        "upper": {
+          "mantissa": "15266277",
+          "binary_exponent": -1698
+        }
+      }
+    },
+    {
+      "cell": 187,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12612503",
+          "binary_exponent": -1707
+        },
+        "upper": {
+          "mantissa": "12612503",
+          "binary_exponent": -1707
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12612503",
+          "binary_exponent": -1707
+        },
+        "upper": {
+          "mantissa": "12612503",
+          "binary_exponent": -1707
+        }
+      }
+    },
+    {
+      "cell": 188,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10420041",
+          "binary_exponent": -1716
+        },
+        "upper": {
+          "mantissa": "10420041",
+          "binary_exponent": -1716
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10420041",
+          "binary_exponent": -1716
+        },
+        "upper": {
+          "mantissa": "10420041",
+          "binary_exponent": -1716
+        }
+      }
+    },
+    {
+      "cell": 189,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2152175",
+          "binary_exponent": -1723
+        },
+        "upper": {
+          "mantissa": "2152175",
+          "binary_exponent": -1723
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2152175",
+          "binary_exponent": -1723
+        },
+        "upper": {
+          "mantissa": "2152175",
+          "binary_exponent": -1723
+        }
+      }
+    },
+    {
+      "cell": 190,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "7112229",
+          "binary_exponent": -1734
+        },
+        "upper": {
+          "mantissa": "7112229",
+          "binary_exponent": -1734
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "7112229",
+          "binary_exponent": -1734
+        },
+        "upper": {
+          "mantissa": "7112229",
+          "binary_exponent": -1734
+        }
+      }
+    },
+    {
+      "cell": 191,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5875893",
+          "binary_exponent": -1743
+        },
+        "upper": {
+          "mantissa": "5875893",
+          "binary_exponent": -1743
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5875893",
+          "binary_exponent": -1743
+        },
+        "upper": {
+          "mantissa": "5875893",
+          "binary_exponent": -1743
+        }
+      }
+    },
+    {
+      "cell": 192,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9708945",
+          "binary_exponent": -1753
+        },
+        "upper": {
+          "mantissa": "9708945",
+          "binary_exponent": -1753
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9708945",
+          "binary_exponent": -1753
+        },
+        "upper": {
+          "mantissa": "9708945",
+          "binary_exponent": -1753
+        }
+      }
+    },
+    {
+      "cell": 193,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16042431",
+          "binary_exponent": -1763
+        },
+        "upper": {
+          "mantissa": "16042431",
+          "binary_exponent": -1763
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16042431",
+          "binary_exponent": -1763
+        },
+        "upper": {
+          "mantissa": "16042431",
+          "binary_exponent": -1763
+        }
+      }
+    },
+    {
+      "cell": 194,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13253737",
+          "binary_exponent": -1772
+        },
+        "upper": {
+          "mantissa": "13253737",
+          "binary_exponent": -1772
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13253737",
+          "binary_exponent": -1772
+        },
+        "upper": {
+          "mantissa": "13253737",
+          "binary_exponent": -1772
+        }
+      }
+    },
+    {
+      "cell": 195,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10949807",
+          "binary_exponent": -1781
+        },
+        "upper": {
+          "mantissa": "10949807",
+          "binary_exponent": -1781
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10949807",
+          "binary_exponent": -1781
+        },
+        "upper": {
+          "mantissa": "10949807",
+          "binary_exponent": -1781
+        }
+      }
+    },
+    {
+      "cell": 196,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1130797",
+          "binary_exponent": -1787
+        },
+        "upper": {
+          "mantissa": "1130797",
+          "binary_exponent": -1787
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1130797",
+          "binary_exponent": -1787
+        },
+        "upper": {
+          "mantissa": "1130797",
+          "binary_exponent": -1787
+        }
+      }
+    },
+    {
+      "cell": 197,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "14947645",
+          "binary_exponent": -1800
+        },
+        "upper": {
+          "mantissa": "14947645",
+          "binary_exponent": -1800
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "14947645",
+          "binary_exponent": -1800
+        },
+        "upper": {
+          "mantissa": "14947645",
+          "binary_exponent": -1800
+        }
+      }
+    },
+    {
+      "cell": 198,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "3087315",
+          "binary_exponent": -1807
+        },
+        "upper": {
+          "mantissa": "3087315",
+          "binary_exponent": -1807
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "3087315",
+          "binary_exponent": -1807
+        },
+        "upper": {
+          "mantissa": "3087315",
+          "binary_exponent": -1807
+        }
+      }
+    },
+    {
+      "cell": 199,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "5101279",
+          "binary_exponent": -1817
+        },
+        "upper": {
+          "mantissa": "5101279",
+          "binary_exponent": -1817
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "5101279",
+          "binary_exponent": -1817
+        },
+        "upper": {
+          "mantissa": "5101279",
+          "binary_exponent": -1817
+        }
+      }
+    },
+    {
+      "cell": 200,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "8429023",
+          "binary_exponent": -1827
+        },
+        "upper": {
+          "mantissa": "8429023",
+          "binary_exponent": -1827
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "8429023",
+          "binary_exponent": -1827
+        },
+        "upper": {
+          "mantissa": "8429023",
+          "binary_exponent": -1827
+        }
+      }
+    },
+    {
+      "cell": 201,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "13927571",
+          "binary_exponent": -1837
+        },
+        "upper": {
+          "mantissa": "13927571",
+          "binary_exponent": -1837
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "13927571",
+          "binary_exponent": -1837
+        },
+        "upper": {
+          "mantissa": "13927571",
+          "binary_exponent": -1837
+        }
+      }
+    },
+    {
+      "cell": 202,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2876627",
+          "binary_exponent": -1844
+        },
+        "upper": {
+          "mantissa": "2876627",
+          "binary_exponent": -1844
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2876627",
+          "binary_exponent": -1844
+        },
+        "upper": {
+          "mantissa": "2876627",
+          "binary_exponent": -1844
+        }
+      }
+    },
+    {
+      "cell": 203,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "18567",
+          "binary_exponent": -1846
+        },
+        "upper": {
+          "mantissa": "18567",
+          "binary_exponent": -1846
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "18567",
+          "binary_exponent": -1846
+        },
+        "upper": {
+          "mantissa": "18567",
+          "binary_exponent": -1846
+        }
+      }
+    },
+    {
+      "cell": 204,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "15707599",
+          "binary_exponent": -1865
+        },
+        "upper": {
+          "mantissa": "15707599",
+          "binary_exponent": -1865
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "15707599",
+          "binary_exponent": -1865
+        },
+        "upper": {
+          "mantissa": "15707599",
+          "binary_exponent": -1865
+        }
+      }
+    },
+    {
+      "cell": 205,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12977109",
+          "binary_exponent": -1874
+        },
+        "upper": {
+          "mantissa": "12977109",
+          "binary_exponent": -1874
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12977109",
+          "binary_exponent": -1874
+        },
+        "upper": {
+          "mantissa": "12977109",
+          "binary_exponent": -1874
+        }
+      }
+    },
+    {
+      "cell": 206,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10721267",
+          "binary_exponent": -1883
+        },
+        "upper": {
+          "mantissa": "10721267",
+          "binary_exponent": -1883
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10721267",
+          "binary_exponent": -1883
+        },
+        "upper": {
+          "mantissa": "10721267",
+          "binary_exponent": -1883
+        }
+      }
+    },
+    {
+      "cell": 207,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2214391",
+          "binary_exponent": -1890
+        },
+        "upper": {
+          "mantissa": "2214391",
+          "binary_exponent": -1890
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2214391",
+          "binary_exponent": -1890
+        },
+        "upper": {
+          "mantissa": "2214391",
+          "binary_exponent": -1890
+        }
+      }
+    },
+    {
+      "cell": 208,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "914729",
+          "binary_exponent": -1898
+        },
+        "upper": {
+          "mantissa": "914729",
+          "binary_exponent": -1898
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "914729",
+          "binary_exponent": -1898
+        },
+        "upper": {
+          "mantissa": "914729",
+          "binary_exponent": -1898
+        }
+      }
+    },
+    {
+      "cell": 209,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "12091511",
+          "binary_exponent": -1911
+        },
+        "upper": {
+          "mantissa": "12091511",
+          "binary_exponent": -1911
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "12091511",
+          "binary_exponent": -1911
+        },
+        "upper": {
+          "mantissa": "12091511",
+          "binary_exponent": -1911
+        }
+      }
+    },
+    {
+      "cell": 210,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "4994807",
+          "binary_exponent": -1919
+        },
+        "upper": {
+          "mantissa": "4994807",
+          "binary_exponent": -1919
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "4994807",
+          "binary_exponent": -1919
+        },
+        "upper": {
+          "mantissa": "4994807",
+          "binary_exponent": -1919
+        }
+      }
+    },
+    {
+      "cell": 211,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "16506191",
+          "binary_exponent": -1930
+        },
+        "upper": {
+          "mantissa": "16506191",
+          "binary_exponent": -1930
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "16506191",
+          "binary_exponent": -1930
+        },
+        "upper": {
+          "mantissa": "16506191",
+          "binary_exponent": -1930
+        }
+      }
+    },
+    {
+      "cell": 212,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "852305",
+          "binary_exponent": -1935
+        },
+        "upper": {
+          "mantissa": "852305",
+          "binary_exponent": -1935
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "852305",
+          "binary_exponent": -1935
+        },
+        "upper": {
+          "mantissa": "852305",
+          "binary_exponent": -1935
+        }
+      }
+    },
+    {
+      "cell": 213,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2816587",
+          "binary_exponent": -1946
+        },
+        "upper": {
+          "mantissa": "2816587",
+          "binary_exponent": -1946
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2816587",
+          "binary_exponent": -1946
+        },
+        "upper": {
+          "mantissa": "2816587",
+          "binary_exponent": -1946
+        }
+      }
+    },
+    {
+      "cell": 214,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2326973",
+          "binary_exponent": -1955
+        },
+        "upper": {
+          "mantissa": "2326973",
+          "binary_exponent": -1955
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2326973",
+          "binary_exponent": -1955
+        },
+        "upper": {
+          "mantissa": "2326973",
+          "binary_exponent": -1955
+        }
+      }
+    },
+    {
+      "cell": 215,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "3844939",
+          "binary_exponent": -1965
+        },
+        "upper": {
+          "mantissa": "3844939",
+          "binary_exponent": -1965
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "3844939",
+          "binary_exponent": -1965
+        },
+        "upper": {
+          "mantissa": "3844939",
+          "binary_exponent": -1965
+        }
+      }
+    },
+    {
+      "cell": 216,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "794141",
+          "binary_exponent": -1972
+        },
+        "upper": {
+          "mantissa": "794141",
+          "binary_exponent": -1972
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "794141",
+          "binary_exponent": -1972
+        },
+        "upper": {
+          "mantissa": "794141",
+          "binary_exponent": -1972
+        }
+      }
+    },
+    {
+      "cell": 217,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "10497497",
+          "binary_exponent": -1985
+        },
+        "upper": {
+          "mantissa": "10497497",
+          "binary_exponent": -1985
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "10497497",
+          "binary_exponent": -1985
+        },
+        "upper": {
+          "mantissa": "10497497",
+          "binary_exponent": -1985
+        }
+      }
+    },
+    {
+      "cell": 218,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "2168173",
+          "binary_exponent": -1992
+        },
+        "upper": {
+          "mantissa": "2168173",
+          "binary_exponent": -1992
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "2168173",
+          "binary_exponent": -1992
+        },
+        "upper": {
+          "mantissa": "2168173",
+          "binary_exponent": -1992
+        }
+      }
+    },
+    {
+      "cell": 219,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "14330193",
+          "binary_exponent": -2004
+        },
+        "upper": {
+          "mantissa": "14330193",
+          "binary_exponent": -2004
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "14330193",
+          "binary_exponent": -2004
+        },
+        "upper": {
+          "mantissa": "14330193",
+          "binary_exponent": -2004
+        }
+      }
+    },
+    {
+      "cell": 220,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11839141",
+          "binary_exponent": -2013
+        },
+        "upper": {
+          "mantissa": "11839141",
+          "binary_exponent": -2013
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11839141",
+          "binary_exponent": -2013
+        },
+        "upper": {
+          "mantissa": "11839141",
+          "binary_exponent": -2013
+        }
+      }
+    },
+    {
+      "cell": 221,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "9781115",
+          "binary_exponent": -2022
+        },
+        "upper": {
+          "mantissa": "9781115",
+          "binary_exponent": -2022
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "9781115",
+          "binary_exponent": -2022
+        },
+        "upper": {
+          "mantissa": "9781115",
+          "binary_exponent": -2022
+        }
+      }
+    },
+    {
+      "cell": 222,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "1010105",
+          "binary_exponent": -2028
+        },
+        "upper": {
+          "mantissa": "1010105",
+          "binary_exponent": -2028
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "1010105",
+          "binary_exponent": -2028
+        },
+        "upper": {
+          "mantissa": "1010105",
+          "binary_exponent": -2028
+        }
+      }
+    },
+    {
+      "cell": 223,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "208629",
+          "binary_exponent": -2035
+        },
+        "upper": {
+          "mantissa": "208629",
+          "binary_exponent": -2035
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "208629",
+          "binary_exponent": -2035
+        },
+        "upper": {
+          "mantissa": "208629",
+          "binary_exponent": -2035
+        }
+      }
+    },
+    {
+      "cell": 224,
+      "lift_upper": {
+        "lower": {
+          "mantissa": "11031201",
+          "binary_exponent": -2050
+        },
+        "upper": {
+          "mantissa": "11031201",
+          "binary_exponent": -2050
+        }
+      },
+      "retained_budget": {
+        "lower": {
+          "mantissa": "11031201",
+          "binary_exponent": -2050
+        },
+        "upper": {
+          "mantissa": "11031201",
+          "binary_exponent": -2050
+        }
+      }
+    }
+  ],
+  "far_lift_upper": {
+    "numerator": "5275009",
+    "denominator": "17350060522614277525173454099813777175999813325311786692851255852550191506889491231347276117651993860147640895790919750496801746358162006056040015092107466199807305147543044750286364342432040881938320862323820561650383706857166670559823637303839738330808637379043748145485251982360865086119154106605452507099661744152783294372921430078359925771590814536918186740925948491283809341975278838973655835786827460786187796588897208596787736912832435535798277953788778184586861845489322502263176362547414394592533323502107994979296661315410183116833527048638448969500143694215185492951331568139093147517033483651108058714704049078272"
+  },
+  "previous_direct_far_lift_budget": {
+    "lower": {
+      "mantissa": "128183",
+      "binary_exponent": -2092
+    },
+    "upper": {
+      "mantissa": "128183",
+      "binary_exponent": -2092
+    }
+  },
+  "new_direct_far_lift_budget": {
+    "lower": {
+      "mantissa": "118803350455572431287069180103469072454940136145958391562295990917421348105788358447481171353963258709865197393925092674576297630461984468795883502066017240278207766123458823971264158152673507134447578673684663049822655352155121879333008115047126694230882174552323744573691931478467777595069999696713092123783454812399607650052819828009474352182539533946530691789019902206553696950647319992922788464025654570958645287118769962645686024024437861408309212941085927307068877712713029449333832947813596620567677959602200726922724030738890006823228607086077394976454822496541776007226806105352036886811636919",
+      "binary_exponent": -2092
+    },
+    "upper": {
+      "mantissa": "118803350455572431287069180103469072454940136145958391562295990917421348105788358447481171353963258709865197393925092674576297630461984468795883502066017240278207766123458823971264158152673507134447578673684663049822655352155121879333008115047126694230882174552323744573691931478467777595069999696713092123783454812399607650052819828009474352182539533946530691789019902206553696950647319992922788464025654570958645287118769962645686024024437861408309212941085927307068877712713029449333832947813596620567677959602200726922724030738890006823228607086077394976454822496541776007226806105352036886811636919",
+      "binary_exponent": -2092
+    }
+  },
+  "actual_previous_retained_far_slack": {
+    "lower": {
+      "mantissa": "12686054335972760950230405223028751342761417970323619413",
+      "binary_exponent": -274
+    },
+    "upper": {
+      "mantissa": "12686054335972760950230405223028751342761417970323619413",
+      "binary_exponent": -274
+    }
+  },
+  "certified_remaining_far_slack": {
+    "lower": {
+      "mantissa": "237606700911144862574138360206938144909880272291916783124591981834842696211576716894962342707926517419730394787850185349152595260923968937591767004132034480556415532246917647942528316305347014268895157347369326099645310704310243758666016230094253388461764349104647489147383862956935555190139999393426184247566909624799215300105639656018948704365079067893061383578039804413107393901294639985845576928051309141917290574237539925291372048048875722816618425882171854614137755425426058898667665895627193241135355919204401453845448061477780013646457214172154789952909644993083552014453612210704073600771650743",
+      "binary_exponent": -2092
+    },
+    "upper": {
+      "mantissa": "237606700911144862574138360206938144909880272291916783124591981834842696211576716894962342707926517419730394787850185349152595260923968937591767004132034480556415532246917647942528316305347014268895157347369326099645310704310243758666016230094253388461764349104647489147383862956935555190139999393426184247566909624799215300105639656018948704365079067893061383578039804413107393901294639985845576928051309141917290574237539925291372048048875722816618425882171854614137755425426058898667665895627193241135355919204401453845448061477780013646457214172154789952909644993083552014453612210704073600771650743",
+      "binary_exponent": -2092
+    }
+  },
+  "input_hashes": {
+    "notes/2026-11-12-closure-r51-parameter-lifts-r1.json.gz": "c0633ab5afe4d305a72a4f1034e781049047194513520ff618aa9cf07775773f",
+    "notes/2026-11-12-closure-r51-parameter-ball-r1.json.gz": "217fd30338545983fb886e359059be369830a3d7b43ce18961ad3edda8a11a82",
+    "notes/2026-11-12-closure-r53-parameter-axes-r1.json": "216720a66b3068aa67d01adee51fef6b4a708d60d2368de236ded2fc850aee64"
+  },
+  "source_sha256": "ef2f1d9cc160633ca59d81c71a51780a9ef4fe9995cf6826050c1f2237516ea8",
+  "exact_arithmetic": "fractions.Fraction only; dyadic output bounds and exact rational inequalities",
+  "new_matrix_inverses": 0,
+  "new_radial_integrations": 0,
+  "elapsed_seconds": 1.1562729639999816,
+  "peak_RSS_KiB": 19404
+}

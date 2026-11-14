@@ -1,0 +1,45 @@
+{
+  "scope": "Exact same-core and same-chart finite inlet projection diagnostics only; no new solve or refinement.",
+  "created_utc": "2026-11-13T13:11:29.086963+00:00",
+  "owned_exitcode": 0,
+  "all_original_four_inlet_metrics_reproduced_exactly": true,
+  "original_raw_state_difference_max": 5.022566564039099e-16,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-inlet-resolution-diagnostic-r1-heartbeat.json",
+      "sha256": "e4ae4efd751bddc1bb0683c330bcce6b753a672c1ac45893a9bbc1e15093782d",
+      "bytes": 311
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inlet-resolution-diagnostic-r1.md",
+      "sha256": "f83911957e125274fb0c02c8ec733ad45fba62742de423af4a68937657a83783",
+      "bytes": 2826
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inlet-resolution-diagnostic-r1-resource.json",
+      "sha256": "463b50a17767f3ac56afab7cbbce757282027e5b6749311c59ac8460947ebfde",
+      "bytes": 1567
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inlet-resolution-diagnostic-r1.json",
+      "sha256": "31ad5351f1cf5419cda64946fa45fe4e7cdcd0ded1c3bd70c10946b51dda5add",
+      "bytes": 7566
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inlet-resolution-diagnostic-r1-ownership.json",
+      "sha256": "dec5666455fcb77bc9e83eb9ecf6bba4342db87a3a3d60d8a1090f1cdb8122ab",
+      "bytes": 1783
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-inlet-resolution-diagnostic-r1-stdout.log",
+      "sha256": "3c8d9e353ca96365e28b7144f0adaec156f7db7336d4f110cc82420ea6970f7f",
+      "bytes": 4016
+    },
+    {
+      "file": "computations/strong_saved_core_inlet_resolution_diagnostic.py",
+      "sha256": "95e4ee845167bc95f54c92272fba192c80fa5fe5810dcab344fa4bcdf6ffefca",
+      "bytes": 8208
+    }
+  ],
+  "total_bytes": 26277
+}

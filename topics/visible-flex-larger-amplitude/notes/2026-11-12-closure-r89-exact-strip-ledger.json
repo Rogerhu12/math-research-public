@@ -1,0 +1,82 @@
+{
+  "arithmetic": "Exact JavaScript BigInt rational arithmetic; no floating point in any gate",
+  "M": {
+    "numerator": "16384",
+    "denominator": "1"
+  },
+  "kappa": {
+    "numerator": "1",
+    "denominator": "65536"
+  },
+  "Rmax": {
+    "numerator": "1",
+    "denominator": "64"
+  },
+  "Rstar": {
+    "numerator": "1",
+    "denominator": "17179869184"
+  },
+  "source_cap_coefficient_at_Rmax": {
+    "numerator": "13252",
+    "denominator": "9027"
+  },
+  "source_derivative_coefficient_at_Rmax": {
+    "numerator": "31451168",
+    "denominator": "9054081"
+  },
+  "strip_cost": {
+    "numerator": "8203",
+    "denominator": "65536"
+  },
+  "strip_remaining_over_sigma": {
+    "numerator": "26273",
+    "denominator": "8192000"
+  },
+  "source_inverse_constant": {
+    "numerator": "65540",
+    "denominator": "1"
+  },
+  "lipschitz_numerator": {
+    "numerator": "67375120",
+    "denominator": "1"
+  },
+  "high_lipschitz_at_Rstar": {
+    "numerator": "4210945",
+    "denominator": "1073741824"
+  },
+  "actual_head_high_boundary_times_256": {
+    "numerator": "695120740485650607377290890840438620026179722216766164723",
+    "denominator": "4809815209520810450717656262224562232065397860164239095208531909697964083434718092213655548692006303809402830848"
+  },
+  "gates": {
+    "phase_lt_21_256": true,
+    "forward_lt_282": true,
+    "inverse_lt_289": true,
+    "frame_min_ge_1_256": true,
+    "physical_separate_norm_factor_lt18555": true,
+    "head_high_lift_lt2m181": true,
+    "complete_source_constant_lt_3_2": true,
+    "complete_derivative_constant_lt4": true,
+    "same_fixed_strip_endpoint_above_sigma": true,
+    "high_lipschitz_lt_1_250": true
+  },
+  "input_sha256": {
+    "notes/2026-11-12-root-outer-continuous-frame-r1.json": "d47f1507427d75c9e94452296cf4e5706e1b3468135d44b486845b1c212f70fe",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930",
+    "results/R68-optimal-fixed-frames-and-actual-outer-strip.md": "165ca609d263a068c4c8473e876873e748a8d59fc183bb03fb180128e92c1636",
+    "computations/root_outer_optimal_frame_budget.py": "ef41df6103a8c8b9cabc4ac8f2be133a244d5e0361e7d861ff7266426498e63b",
+    "computations/tail_outer_background_column_flow.py": "5b548692afa79035e8ac612c8148de0f4ed2a22e9c40ee7592fa36913156193c"
+  },
+  "status": "Exact arithmetic certificate for R89; executed in tools JavaScript BigInt, no new Python/Arb/ODE",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted)",
+  "result_path": "results/R89-actual-outer-high-frequency-source-inverse.md",
+  "result_sha256": "549702a02610aac0b1d2977af9a34dc28c085873e50e0c23b2668eb622ce56f4",
+  "computational_scope": {
+    "existing_true_panels": 10793,
+    "new_source_integrals": false,
+    "new_ODE": false,
+    "new_Taylor_flow": false,
+    "finite_middle_window_paid": false,
+    "current_centre_in_new_strip_paid": false
+  }
+}

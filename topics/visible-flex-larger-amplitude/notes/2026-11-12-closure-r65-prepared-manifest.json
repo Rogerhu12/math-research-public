@@ -1,0 +1,100 @@
+{
+  "status": "Prepared; no new Taylor numerical flow has run",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "syntax_checked": true,
+  "files": [
+    {
+      "path": "computations/closure_taylor_cut_slope.py",
+      "bytes": 25214,
+      "sha256": "ee340f5247f79bc71cf3b4e4106ffcd2fb6b26eefd903fe9a8591c7f00366fcd"
+    },
+    {
+      "path": "results/R65-local-taylor-flow-true-wronskian-and-shared-slope.md",
+      "bytes": 13325,
+      "sha256": "cde9d9be88bce71a250ec3a4ad82076cde166a48d06886226fa48c2e8a0f644b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "bytes": 109004,
+      "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+    },
+    {
+      "path": "notes/2026-11-12-closure-real-head-source-enclosure.json",
+      "bytes": 199673,
+      "sha256": "2b2f3e6246945cb6662453b62b7cd8a16ee508c8914cd1c11880286e5d08e149"
+    },
+    {
+      "path": "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz",
+      "bytes": 112548,
+      "sha256": "cabdb3fca1d9176b1f2c46a2f7b2ff5b82ff1af426c4c942c7863c3c15c65f91"
+    }
+  ],
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_taylor_cut_slope.py",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--source-ledger",
+    "notes/2026-11-12-closure-real-head-source-enclosure.json",
+    "--columns",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz",
+    "--out-prefix",
+    "notes/2026-11-12-closure-taylor-cut-m2m4-n16-r1",
+    "--inner",
+    "16",
+    "--cut",
+    "12",
+    "--mode",
+    "2",
+    "--mode",
+    "4",
+    "--order",
+    "24",
+    "--precision",
+    "256",
+    "--remainder-bits",
+    "100",
+    "--root-bits",
+    "160",
+    "--rss-kib",
+    "40960"
+  ],
+  "resource_wrapper": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/strong_resource_run.py",
+    "--out",
+    "notes/2026-11-12-closure-taylor-cut-m2m4-n16-r1-resource.json",
+    "--",
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_taylor_cut_slope.py",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--source-ledger",
+    "notes/2026-11-12-closure-real-head-source-enclosure.json",
+    "--columns",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz",
+    "--out-prefix",
+    "notes/2026-11-12-closure-taylor-cut-m2m4-n16-r1",
+    "--inner",
+    "16",
+    "--cut",
+    "12",
+    "--mode",
+    "2",
+    "--mode",
+    "4",
+    "--order",
+    "24",
+    "--precision",
+    "256",
+    "--remainder-bits",
+    "100",
+    "--root-bits",
+    "160",
+    "--rss-kib",
+    "40960"
+  ],
+  "mathematical_scope": "True m2/m4 homogeneous cut slopes through the identical real metric, arbitrary finite comparison initial Q1/Xi0 at node16, and the old true infinite-column Wronskian error. No new nonlinear or outer Schur existence claim.",
+  "resource_scope": "Observed self RSS guard40960KiB; resource wait4 peak remains authoritative and the threshold is not an OS memory cap."
+}

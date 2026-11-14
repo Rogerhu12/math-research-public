@@ -1,0 +1,137 @@
+{
+  "scope": "New M28 baseline full-mean finite field actually executed; reproducible field chunks remain in geometry-work, with source, plan, complete hashes and small outputs archived.",
+  "files": [
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-grid.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-grid.json",
+      "bytes": 80177,
+      "sha256": "686f5262aa33bdd5f57fe5563462eda72f15f6af0f03668af9e430bd561ab291"
+    },
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-baseline-plan.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-plan.json",
+      "bytes": 7564,
+      "sha256": "7cd0344dc4c32b1a08aaba14bbd8db569503abcf193654c24aa90e26ba3d8f4c"
+    },
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-baseline-screen.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-screen.json",
+      "bytes": 14930,
+      "sha256": "ffb3e8e0641aa2ee670824c91496c25f95d5f6357d78bc6bd89ded145a3f128b"
+    },
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-baseline-field-manifest.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field.json",
+      "bytes": 1869,
+      "sha256": "56eed9878e269d88989130121e6d4eb9618fb4a1dc07d0d60796862658198564"
+    },
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-baseline-resource.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-resource.json",
+      "bytes": 2424,
+      "sha256": "4e4476037f213c0b253dbd5dff4fd260e1c32c188d96aadbaf8454e224b43436"
+    },
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-baseline-execution.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-execution.json",
+      "bytes": 2883,
+      "sha256": "887047685bd9bdda8a9f2203ba5e19a1cbbea30e57b363b1d9f2c36b2c3e7b16"
+    },
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-baseline-base-profile.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-base-profile.json",
+      "bytes": 524,
+      "sha256": "d92cc8ff91eb3077b530e217f73d007260184627480eeca461e90c3acff93a9a"
+    },
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-baseline-config.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-config.json",
+      "bytes": 2712,
+      "sha256": "cf977e5e3a81fb8e7980be3bc73323984372b89883da2f3bf0cc063711e6e87a"
+    },
+    {
+      "archived_file": "notes/2026-11-13-geometry-m28-q096-r1-baseline-adapter.json",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-actual-three-control-adapter.json",
+      "bytes": 8970,
+      "sha256": "6fe7b3198ee43217a8a3e19dd7982bf78e889454c6495be4198c3c099644576b"
+    },
+    {
+      "archived_file": "computations/root_actual_geometry_field_complete_mean.py",
+      "bytes": 12555,
+      "sha256": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+      "executed": true
+    },
+    {
+      "archived_file": "computations/root_actual_geometry_fullmean_plan.py",
+      "bytes": 11317,
+      "sha256": "551843a82b4b033e37ccb94cfa62b2b1c84721e94004193a70501b79caf9b61b",
+      "executed": true
+    },
+    {
+      "archived_file": "computations/root_geometry_minimax_from_plan.py",
+      "bytes": 10886,
+      "sha256": "4fdd46bf198e573bd83a86195143caa86d7105d3847d4e12431d844c2111e213",
+      "executed": false
+    }
+  ],
+  "local_complete_field_chunks": [
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field-part000.npy.gz",
+      "start": 0,
+      "end": 434,
+      "bytes": 1615876,
+      "sha256": "a4bed5eb1e8c16b7b01f681ce92ff22d56caaca8ae682d06153a502ae19aacac"
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field-part001.npy.gz",
+      "start": 434,
+      "end": 868,
+      "bytes": 1573370,
+      "sha256": "efa24d72b335ae5b9cd7c9e2fe2a7ff41270913b7bf187476f2c8996b904d686"
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field-part002.npy.gz",
+      "start": 868,
+      "end": 1302,
+      "bytes": 1568367,
+      "sha256": "3b4756895aab6304141b5bb96f125d6bc8b0e7e53363a7a950504670476a89bf"
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field-part003.npy.gz",
+      "start": 1302,
+      "end": 1736,
+      "bytes": 1549642,
+      "sha256": "bb0e81c1cf5a814edb6a907e7235984533cf3c749612141513b5b6e164cb287c"
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field-part004.npy.gz",
+      "start": 1736,
+      "end": 2170,
+      "bytes": 1491188,
+      "sha256": "9da267ec668688fa3300ff5b54ce84d71aa1f55d88584dbd7ca96e434b45efac"
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field-part005.npy.gz",
+      "start": 2170,
+      "end": 2604,
+      "bytes": 1422888,
+      "sha256": "47b6f8cd902039a0c595c0cdbea04751d107779afb80755620502a83170b80bd"
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field-part006.npy.gz",
+      "start": 2604,
+      "end": 3038,
+      "bytes": 1377302,
+      "sha256": "46113edc037f4e168102faa6879c5fcd093e6f5f04136b437cbee5b723bfe1ec"
+    },
+    {
+      "file": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-baseline-field-part007.npy.gz",
+      "start": 3038,
+      "end": 3383,
+      "bytes": 979703,
+      "sha256": "296561912bf068cd2c5db55df99fa856065a25720e8bae9cda2578a4f6b7a868"
+    }
+  ],
+  "data_archive_policy": "No new large intermediate arrays are committed; restore accepted M28 input and rerun the exact archived baseline command if this scratch field is lost.",
+  "all_chunks_present_and_sha_checked": true
+}

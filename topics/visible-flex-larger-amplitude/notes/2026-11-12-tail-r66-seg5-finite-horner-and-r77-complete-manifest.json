@@ -1,0 +1,141 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Stable complete same-candidate segment5 finite-Horner/R77 audit and full-cell composition",
+  "formal_sessions": [
+    20244,
+    9284,
+    63375,
+    6424,
+    4232
+  ],
+  "formal_all_exit0": true,
+  "segment_panels": 1255,
+  "whole_cell_panels": 7563,
+  "segment_full_J_upper": [
+    101132930225,
+    -44
+  ],
+  "segment_R77_upper": [
+    203425525692141,
+    -55
+  ],
+  "whole_cell_largest_segment": 1,
+  "candidate_true_g_complete_mean_unchanged": true,
+  "files": [
+    {
+      "path": "computations/tail_outer_centered_quartic_fields_v2.py",
+      "bytes": 3452,
+      "sha256": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b"
+    },
+    {
+      "path": "computations/tail_outer_centered_span_refinement_v2.py",
+      "bytes": 2820,
+      "sha256": "21754fb1d4b537eb20e245259bfde46d85a97ff6c07e667d8061ea7fdfb596f4"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-plan.json",
+      "bytes": 2928,
+      "sha256": "9ac41ff28f0e780509f6d363b5dc22b691cd1ac94294930e9f08a40b3f9a1cca"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2.json",
+      "bytes": 213391,
+      "sha256": "36ee4cb6dd2fffc68468ca8add1c2ec9938ac4ed64c5068bd23bb178de44c563"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-resource.json",
+      "bytes": 1124,
+      "sha256": "4e3937ed37125a834ebf6691501b17ffaacfb409838cae537b9873269ef79795"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-streamcheck.json",
+      "bytes": 8749,
+      "sha256": "4b1087d9a74acb11120555db0692a993ac1a21aba80930c27e32e96d258db979"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-streamcheck-resource.json",
+      "bytes": 939,
+      "sha256": "35d680c712f8376cfc10cd2437c8224ec5503f5f2b2cf2b0083ed91a234f403d"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-part00.jsonl.gz",
+      "bytes": 41614,
+      "sha256": "178e08ca4ea21cc89795edd5bcbaf0c1c66af7b14af51f7e7322a63e39660cc0"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-part01.jsonl.gz",
+      "bytes": 92077,
+      "sha256": "1eeec4d7033f90e71589c9b80d5b4f1e3ccf6e0cbed2519cff6bb39934484cd7"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-part02.jsonl.gz",
+      "bytes": 215994,
+      "sha256": "e8b5f268e5fcfd7dd4b2a810cfa05edb89d00e3e7ac55f4d4d4d6d06cf5a1ab1"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-part03.jsonl.gz",
+      "bytes": 557399,
+      "sha256": "41687af0591733be48c83ff8e875221458a2c53190d51290fdaa4341b12a4091"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-part04.jsonl.gz",
+      "bytes": 120199,
+      "sha256": "62783c0ff51ad450c868de04997afa8053f95d0d7abbdf61df5462d8bdcf9d77"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-part05.jsonl.gz",
+      "bytes": 73601,
+      "sha256": "a12fdb174b142151749904055cc280bf36706c3bf4719fde22ec131467e20068"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-part06.jsonl.gz",
+      "bytes": 140703,
+      "sha256": "ea6429e9e59fd5cace36efb75ea6ea24a6a3a20d5955aeef33c67c7843f445c0"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-part07.jsonl.gz",
+      "bytes": 142386,
+      "sha256": "481995afd1197c794987ecaae67d71002062cee0721e4c8370616ccbc675ad10"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-357-span2-horner-r4.json",
+      "bytes": 15296,
+      "sha256": "6ba827213a83aac43870f623a323a6e2abd79e92d92722c5efa2650a3eba25ef"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-357-span2-horner-r4-resource.json",
+      "bytes": 1427,
+      "sha256": "683ad3e8bb005c704e3954031430bd6e805bc92d02574daf4653b2e917c7eb2d"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-3578-horner-r4.json",
+      "bytes": 15047,
+      "sha256": "c6bd2a69d21563dd70c8f80fe3b0f7739cadb9fe2a0b5b146747fb6fbe2d1b5c"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-3578-horner-r4-resource.json",
+      "bytes": 1035,
+      "sha256": "3b8b7c49806b3ce68c90899f562dec6823d4b54c8cb7e66d0e81ce4f1d8c26a1"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r77-seg5-mean-constraint-r1.json",
+      "bytes": 11546,
+      "sha256": "3b69125696f018414448477e9c33633ae66cc3213b22d63513d48e0df5a584a5"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r77-seg5-mean-constraint-r1-resource.json",
+      "bytes": 1027,
+      "sha256": "28853b5232ae7feb514ba1ce5b87e56044b4b61d30d126b2e3cb0a686696cb44"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r66-seg5-finite-horner-and-r77-complete.md",
+      "bytes": 3646,
+      "sha256": "cf885cf6d09a55cd0a083441e15fb4fb0c17596a86f4c7974f7fabbdfa511e0d"
+    }
+  ],
+  "total_bytes": 1666400,
+  "excluded": [
+    "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-recovery.json",
+    "prepared original segment1 audit source and plan"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "-u",
+    "computations/strong_physical_merit_affine_protocol_check.py",
+    "--plan",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r3-draft-command-plan.json",
+    "--previous-accepted",
+    "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002.json.gz",
+    "--alpha",
+    "0.03125",
+    "--original-merit",
+    "18308544847.650482",
+    "--out-prefix",
+    "notes/2026-11-12-strong-physical-merit-affine-protocol-r1"
+  ],
+  "wall_seconds": 16.558046340942383,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 75220,
+  "user_seconds": 1.123827,
+  "system_seconds": 0.75232,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

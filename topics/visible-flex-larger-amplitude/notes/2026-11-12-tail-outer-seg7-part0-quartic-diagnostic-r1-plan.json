@@ -1,0 +1,30 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Prepared only; queued after exact_closure current Arb job",
+  "command": [
+    "python",
+    "computations/tail_outer_substage_quartic_diagnostic.py",
+    "--candidate",
+    "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--audit",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r1.json",
+    "--rss-limit-mib",
+    "40",
+    "--out",
+    "notes/2026-11-12-tail-outer-seg7-part0-quartic-diagnostic-r1.json.gz"
+  ],
+  "resource_output": "notes/2026-11-12-tail-outer-seg7-part0-quartic-diagnostic-r1-resource.json",
+  "source_sha256": "43c4b0b2cf4f90f3e17ddc7bf2c34db1578115765279962ed81b9b2e1d07537a",
+  "inputs": {
+    "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r1.json": "fe83592f1467fc0701c7a721f0f8b5558abe2510afdf66eacb5b2e12b10f7428"
+  },
+  "case_count": 6,
+  "methods_per_case": 2,
+  "same_candidate_moments_g_H_and_complete_mean": true,
+  "new_source_integrals_or_ODEs": 0,
+  "objective": "Locate normalized endpoint/quartic interval widths and actual point values without asserting that a wide interval upper bound is reached."
+}

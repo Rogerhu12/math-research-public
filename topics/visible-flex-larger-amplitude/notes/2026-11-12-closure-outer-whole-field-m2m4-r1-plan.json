@@ -1,0 +1,40 @@
+{
+  "status": "Ready to execute actual whole-field columns on all18 segments; no success claim",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_whole_field_profiles.py",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--flow",
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1.json",
+    "--adjoint",
+    "notes/2026-11-12-closure-outer-two-cell-adjoint-r1.json",
+    "--refined-source",
+    "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+    "--source-summary",
+    "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json",
+    "--source-summary",
+    "notes/2026-11-12-closure-outer-source-cell10-r1-summary.json",
+    "--out-prefix",
+    "notes/2026-11-12-closure-outer-whole-field-m2m4-r1"
+  ],
+  "source_sha256": "88552242e5ace583f51093b3bd35dbb491f1eed1546a9d79437ec73e5b4c24d9",
+  "input_hashes": {
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-closure-outer-taylor-m2m4-12to10-r1.json": "d4a1eb3cb91ade453dc72e655a95ae7582a4b65366bf924567c7df52132b3509",
+    "notes/2026-11-12-closure-outer-two-cell-adjoint-r1.json": "8e292078b603610f78e7daa2c6353b381ce14e01f66796f27da4cd2d735376f5",
+    "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json": "bf4061ba1ca5295245165099d274b637630d16418a9e5283dd58898fb184e0c9",
+    "notes/2026-11-12-closure-outer-source-cell11-r1-summary.json": "f3d06071519f674de420a7fd66de45d14a8274bfb2089bd045bf0bfb2763cf83",
+    "notes/2026-11-12-closure-outer-source-cell10-r1-summary.json": "388f0ea07840bc31851f025aecda7e8e73d9d893596bd088c95f7ea9002fd885"
+  },
+  "precision": 256,
+  "Taylor_order": 24,
+  "root_bits": 160,
+  "relative_remainder_bits": 100,
+  "owned_RSS_stop_KiB": 40960,
+  "original_panels": 10793,
+  "physical_normalization": "P=h_theta/(r*w), K=h_perp,r/w",
+  "source_direction_scope": "complete mean and inverse; unknown nonmean input cutoff92 in a relative1/16 ball around sigma17/16 amplitude candidate",
+  "correct_outer_affine_lift_retained": true,
+  "all_frequency_outer_PDE_claimed": false
+}

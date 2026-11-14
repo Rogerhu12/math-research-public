@@ -1,0 +1,143 @@
+{
+  "scope": "BVP-ready C2 Hermite/late-boost/finite-neck metric and terminal bridge.\n\nThe two design controls retain their physical meanings: delta is the\ninitial Hermite radius increase, and vd is the speed of the inward leg\nbefore a C2 transition to the fixed loop speed. The loop and terminal\nbridge are finite. Linear roots are only seeds for a nonlinear BVP.\n",
+  "config": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.09709375,
+    "vu": 0.25,
+    "vd": 0.9,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.65,
+    "boost_length": 0.2,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 2.2,
+    "loop_speed": 0.985,
+    "loop_curvature": 8.0,
+    "descending_turn_curvature": 4.5,
+    "descending_sync_curvature": 8.0,
+    "terminal_peak_fraction": 0.1
+  },
+  "rows": [],
+  "attempts": [
+    {
+      "seed": [
+        0.09709375,
+        0.9
+      ],
+      "residual": [
+        -0.017564124962508636,
+        0.009279977267107203
+      ],
+      "x": [
+        0.2321984790389884,
+        0.9649999999999999
+      ],
+      "height": 2.746075953365322,
+      "H": [
+        1.9961224300187064e-05,
+        -5.597751866471643e-09
+      ]
+    },
+    {
+      "seed": [
+        0.07,
+        0.7
+      ],
+      "residual": [
+        -0.017564123406059323,
+        0.009279980212985086
+      ],
+      "x": [
+        0.2321984741757536,
+        0.9649999999999999
+      ],
+      "height": 2.7460759309630256,
+      "H": [
+        1.9961224509140317e-05,
+        -5.597751809267136e-09
+      ]
+    },
+    {
+      "seed": [
+        0.12,
+        0.6
+      ],
+      "residual": [
+        -0.017564119435963636,
+        0.009279987727151929
+      ],
+      "x": [
+        0.23219846177091236,
+        0.9649999999999999
+      ],
+      "height": 2.7460758738206192,
+      "H": [
+        1.996122504212542e-05,
+        -5.59775166335344e-09
+      ]
+    },
+    {
+      "seed": [
+        0.16,
+        0.8
+      ],
+      "residual": [
+        -0.017564116391052376,
+        0.009279993490227257
+      ],
+      "x": [
+        0.23219845225687483,
+        0.9649999999999999
+      ],
+      "height": 2.7460758299945844,
+      "H": [
+        1.996122545090462e-05,
+        -5.59775155144316e-09
+      ]
+    },
+    {
+      "seed": [
+        0.22,
+        0.4
+      ],
+      "residual": [
+        -0.017564124709615513,
+        0.009279977745756276
+      ],
+      "x": [
+        0.23219847824880607,
+        0.9649999999999999
+      ],
+      "height": 2.7460759497253786,
+      "H": [
+        1.9961224334137964e-05,
+        -5.597751857177017e-09
+      ]
+    },
+    {
+      "seed": [
+        0.04,
+        0.95
+      ],
+      "residual": [
+        -0.01756411642747066,
+        0.009279993421300477
+      ],
+      "x": [
+        0.23219845237066658,
+        0.9649999999999999
+      ],
+      "height": 2.7460758305187616,
+      "H": [
+        1.996122544601543e-05,
+        -5.597751552781698e-09
+      ]
+    }
+  ],
+  "seconds": 16.866822004318237,
+  "source_sha256": "742cd2f2345eeddb7eeb30b22135e56772701e9813c0393220d12798a717869e",
+  "port_sha256": "705c7afaa39a528d421dee6b0ec4f73f8a6dd5e2b8d2d293260e7f6e3e202b35"
+}

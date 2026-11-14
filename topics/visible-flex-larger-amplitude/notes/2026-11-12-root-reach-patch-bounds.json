@@ -1,0 +1,32 @@
+{
+  "scope": "Exact rational lower bounds for certified surface patch enclosures (R16).\n\nThis module does not certify the input position/normal radii. It does not\ninfer a continuous surface or reach from a mesh. All rational inequalities\nand outward square roots below are exact for the supplied numeric inputs.\n",
+  "static_example": {
+    "exact_lower": "1964858430353755572319889968327/7922816251426433759354395033600",
+    "decimal_lower": 0.248,
+    "nonnegative": true
+  },
+  "all_phase_example": [
+    {
+      "exact_lower": "3878380384337038067829841886474283/198070406285660843983859875840000",
+      "decimal_lower": 19.580817028989003,
+      "nonnegative": true
+    },
+    {
+      "exact_lower": "4036836709365566743016929787146283/198070406285660843983859875840000",
+      "decimal_lower": 20.380817028989,
+      "nonnegative": true
+    },
+    {
+      "exact_lower": "4116064871879831080610473737482283/198070406285660843983859875840000",
+      "decimal_lower": 20.780817028989002,
+      "nonnegative": true
+    },
+    {
+      "exact_lower": "3799152221822773730236297936138283/198070406285660843983859875840000",
+      "decimal_lower": 19.180817028989,
+      "nonnegative": true
+    }
+  ],
+  "current_surface_certified": false,
+  "missing": "Certified continuous position/normal enclosures, curvature/path bounds and a closed embedded surface."
+}

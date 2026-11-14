@@ -1,0 +1,39 @@
+{
+  "schema": "visible-flex-R104-three-frame-prepared-manifest-v3",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "status": "Prepared only, independent v3; no Python AST, Arb or numerical execution",
+  "files": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/closure_middle_three_frame_diagonal_materials_v3.py",
+      "blob": "0ecd060a02f912f83bb4d98dacf5a33d7ad37ac1",
+      "sha256": "00262283ee1ffcf98405b60ca3f64422f29e1d77c916df3356ccfa97750f9cde",
+      "bytes": 17430
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-r104-three-frame-diagonal-prepared.md",
+      "blob": "61339fcbb3854b32f2bec82f065fd3feb453c6f4",
+      "sha256": "8256b5e9095a0c10034bb162865b240b6aa16378d010486f3058082bf5658cbc",
+      "bytes": 6178
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-r104-three-frame-diagonal-prepared-plan.json",
+      "blob": "7c578e4e614463dbdf44a50a031f3fb459ab77f9",
+      "sha256": "8f23339c1edbea819e54cdd80581a9474aab8b48964c8d62de6a3a6346f14463",
+      "bytes": 4181
+    }
+  ],
+  "published_v2_source_sha256": "3f7f4bb7bd26bbdb83b9df7a40e7fd9ca52cf0b6652f89e94978872cfb272ca7",
+  "preserved_original_R104_primary_sha256": "62156ade93e31729c7500e79dbc01c3f4267d1a89a2b7730af7fe1c6440df45a",
+  "actual_new_execution": {
+    "kind": "V8 unique text-anchor checks only",
+    "unique_anchors": 11,
+    "all_unique": true
+  },
+  "mathematical_change": "One additional exact positive constant candidate b_phase=max(1,sqrt(L/S)); each actual signed leaf/source cost re-evaluated, minima taken per output component",
+  "unchanged_scope": "18 diagonal segments,10793 actual source leaves,m94/96,p=2/1/0 densities,physical strong output,old complete off-diagonal and two initial-trace columns",
+  "no_new_ODE_or_source_integrals": true,
+  "no_numerical_gain_claimed": true,
+  "no_new_middle_or_outer_solution_claimed": true,
+  "pending": "CLI source restore/AST, complete R68 actual primary hash, same original dependencies, released single-Arb slot, actual resource-wrapped execution",
+  "publication": "Small independent text blobs only; parent controls Git/ref/index"
+}

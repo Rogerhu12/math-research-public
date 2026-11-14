@@ -1,0 +1,27 @@
+{
+  "schema": "inner-cell12-homogeneous-negative-archive-manifest-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "files": [
+    {
+      "path": "computations/inner_cell12_saved_homogeneous_comparison.py",
+      "sha256": "55abaa5934023a016d0dd67a866cd8b0bfd2874fe06d665ae7f17f41c0ac8792",
+      "bytes": 3140
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-homogeneous-negative-r1.json",
+      "sha256": "4446d2e855f0580efea856ff94619ed967ed5240baa4ad9f18f1da90bbfd13f0",
+      "bytes": 6423
+    },
+    {
+      "path": "notes/2026-11-13-inner-cell12-homogeneous-negative-r1-resource.json",
+      "sha256": "5ef78e3840330c6484b5c5dfd2050cf4f4ba0f61e0a08c066c5ac296fe9f86a2",
+      "bytes": 1479
+    }
+  ],
+  "formal_exitcode": 0,
+  "strict_entrywise_comparisons": 8,
+  "result": "Old full-cell weighted matrix is strictly smaller entrywise than the ordered-panel complete homogeneous bound. Retain old homogeneous input; the new inhomogeneous source improvement remains valid.",
+  "new_ODE_quadrature_or_replay": 0,
+  "proof": "Both original and new matrices are valid positive comparison upper bounds for the same complete cell and strip. Exact outward Arb evaluation proves each old coefficient less than the new one; multiplication by any common nonnegative input and output conversion preserves that relation."
+}

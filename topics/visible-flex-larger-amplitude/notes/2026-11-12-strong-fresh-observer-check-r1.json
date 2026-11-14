@@ -1,0 +1,102 @@
+{
+  "scope": "Check storage observations against the original batching/Newton execution.\n\nSynthetic fields only: no physical Flow, BVP, tail worker or geometry is built.\nThe actual owned Newton source is compiled with its fixed-S and checkpoint\nhooks, with and without the new exception observer, then compared literally.\n",
+  "passed": true,
+  "checks": {
+    "successful_RHS_and_state_Jacobian_literal_bytes": true,
+    "independent_radial_batch_order_and_inputs_unchanged": true,
+    "value_same_exception_object_and_exact_failed_block": true,
+    "value_no_extra_evaluation": true,
+    "value_unaccepted_observation": true,
+    "state_jacobian_same_exception_object_and_exact_failed_block": true,
+    "state_jacobian_no_extra_evaluation": true,
+    "state_jacobian_unaccepted_observation": true,
+    "radial_methods_restored": true,
+    "actual_Newton_final_arrays_and_status_bitwise_equal": true,
+    "actual_Newton_all_checkpoint_values_and_order_identical": true,
+    "actual_Newton_RHS_BC_Jacobian_counts_identical": true,
+    "actual_Newton_domain_merit_factor_decisions_identical": true,
+    "actual_Newton_fixed_merit_evaluations_identical": true,
+    "nonlinear_trial_really_rejected_then_accepted": true,
+    "actual_checkpoint_hook_survives_both_transforms": true,
+    "original_final_residual_satisfied": true
+  },
+  "source_sha256_at_start": {
+    "strong_fresh_observer_check.py": "1fc1b8e53712f0292ee7d3229e2c5e16918c1e7f007e51e7e337997ef4fa13fa",
+    "strong_domain_rejection_observer.py": "97b469fe8a6f22a0152b12e700d17d6a2b9cededea8e9dab143025c8ab5a3049",
+    "strong_fresh_physical_merit_runtime.py": "6dd391ed4b996a892eab2a93551cb77a2eb410c237ea4b89680486b22cf663b4",
+    "strong_physical_merit_and_affine_resume.py": "e330336daab09ef9d0bcb93cb36e04581636e33e645ed5e319987c3cc0f2810f",
+    "strong_actual_newton_checkpoints.py": "7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb",
+    "root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c"
+  },
+  "calls": {
+    "collocation": 11,
+    "boundary": 10,
+    "Jacobian": 2
+  },
+  "Newton_stats": {
+    "calls": 1,
+    "rejected_domain_trials": 1,
+    "rejected_merit_trials": 0,
+    "accepted_steps": 9,
+    "no_step": 0,
+    "minimum_alpha": 0.5,
+    "stale_lu_retries": 0,
+    "fresh_lu_recovered": 0,
+    "factor_budget_exhausted": 0
+  },
+  "checkpoints": 11,
+  "actual_physical_Flow_instances": 0,
+  "physical_RHS_calls": 0,
+  "tail_workers": 0,
+  "numerical_surface_result": false,
+  "domain_observations": [
+    {
+      "event": "original_domain_failure_observed",
+      "index": 1,
+      "kind": "radial-value",
+      "exception_repr": "FloatingPointError('synthetic exact radial block')",
+      "path": "notes/2026-11-12-strong-fresh-observer-check-r1-radial-domain-0001.npz",
+      "bytes": 1665,
+      "sha256": "575bc6b59da77c79c59191d43b04956ec0d31dfaceb102d775fb71c571cc8e8a",
+      "physical_radial_block": true
+    },
+    {
+      "event": "original_domain_failure_observed",
+      "index": 2,
+      "kind": "radial-state-jacobian",
+      "exception_repr": "FloatingPointError('synthetic exact radial block')",
+      "path": "notes/2026-11-12-strong-fresh-observer-check-r1-radial-domain-0002.npz",
+      "bytes": 1672,
+      "sha256": "e1b7d287c860cef0b389c7020f97de6897a89b7afc1cbd44d0afd2a7265252d2",
+      "physical_radial_block": true
+    },
+    {
+      "event": "original_domain_failure_observed",
+      "index": 1,
+      "kind": "Newton-evaluation-or-linear-solve",
+      "exception_repr": "FloatingPointError('synthetic parameter domain upper bound')",
+      "path": "notes/2026-11-12-strong-fresh-observer-check-r1-newton-domain-0001.npz",
+      "bytes": 1205,
+      "sha256": "4464219885738126d0d89d7e997a1e67398833b52975d28e14ff1f57aee00642",
+      "physical_radial_block": false
+    },
+    {
+      "event": "original_Newton_domain_rejection_detail",
+      "iteration": 0,
+      "alpha": 1.0,
+      "exception_repr": "FloatingPointError('synthetic parameter domain upper bound')",
+      "observation": {
+        "index": 1,
+        "kind": "Newton-evaluation-or-linear-solve",
+        "exception_repr": "FloatingPointError('synthetic parameter domain upper bound')",
+        "path": "notes/2026-11-12-strong-fresh-observer-check-r1-newton-domain-0001.npz",
+        "bytes": 1205,
+        "sha256": "4464219885738126d0d89d7e997a1e67398833b52975d28e14ff1f57aee00642",
+        "physical_radial_block": false
+      },
+      "original_continue_unchanged": true
+    }
+  ],
+  "final_synthetic_residual": 5.71412084315881e-10
+}

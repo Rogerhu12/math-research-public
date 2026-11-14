@@ -1,0 +1,42 @@
+{
+  "scope": "Frozen source/immutable plan/synthetic fixture only. Active production session4388 output excluded. No q105 success claimed.",
+  "created_utc": "2026-11-12T13:01:26.830277+00:00",
+  "files": [
+    {
+      "path": "computations/strong_disk_actual_backend.py",
+      "bytes": 13339,
+      "sha256": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1"
+    },
+    {
+      "path": "computations/strong_disk_actual_three_control_bvp.py",
+      "bytes": 3740,
+      "sha256": "71cddd00f4400ec0e3ebfd52d7b12b4c49eb3997823587690de4eb3843856b37"
+    },
+    {
+      "path": "computations/strong_disk_backend_check.py",
+      "bytes": 4552,
+      "sha256": "16a1fe6811df0a83e398c9c6c2e28c09b01bc5979c270eb619f0f9a03623d2f4"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-command-plan.json",
+      "bytes": 7482,
+      "sha256": "eedff9f35de8847baad9498ca2813f93315f333bb557487a1e8b02e32ca0a420"
+    },
+    {
+      "path": "notes/2026-11-12-strong-disk-actual-backend-synthetic-check.json",
+      "bytes": 1457,
+      "sha256": "360940b024f5c70d44ea1a5158a129d0434068cc2e61d68f3f7fd5900639d20d"
+    },
+    {
+      "path": "notes/2026-11-12-strong-disk-actual-backend.md",
+      "bytes": 4720,
+      "sha256": "d146a0e49aea1cf99ac9ceff8ce5be392ffb8a8eaaa165422459ae234cc63108"
+    }
+  ],
+  "total_bytes": 35290,
+  "published_dependency": {
+    "path": "computations/root_disk_block_collocation.py",
+    "sha256": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2"
+  },
+  "excluded_active_prefix": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2 except immutable command-plan.json"
+}

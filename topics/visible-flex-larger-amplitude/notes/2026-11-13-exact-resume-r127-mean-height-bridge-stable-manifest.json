@@ -1,0 +1,36 @@
+{
+  "schema": "R142-complete-mean-height-embedded-annulus-stable-package-v1",
+  "scope": "Same original R127 full-frequency field, original two cells10/11: complete mean PDE, single height primitive, full physical two-jet and true analytic node10 Cauchy trace, embedded annulus. Inner gluing requires complete cut; outer0..9 and closed surface not claimed.",
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-r127-mean-height-bridge-v1.py",
+      "sha256": "0764ee7d946ab1144a09705d4623a33018c4940f2229b18794b5712fba5aace6",
+      "bytes": 16093
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r127-mean-height-bridge-r1-inputs.json",
+      "sha256": "608c11a4d3e294518e6e5230a450481e1b2c59154c8e6fdcd822fcf0be2fccb2",
+      "bytes": 5274
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r127-mean-height-bridge-r1.json",
+      "sha256": "b26c36452bc651f8d1ce55f9da23b6c904ad209878c268787a38cdce45612ae5",
+      "bytes": 29585
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r127-mean-height-bridge-r1-resource.json",
+      "sha256": "dc6a9d12e7fb0915e31b743d08c3f7c4d09000e52a09c2bbcc3600b0eec1484f",
+      "bytes": 978
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-r127-mean-height-bridge-proof.md",
+      "sha256": "84f6eaa1deb6e3db59d5b97220c48113b6d7d1327315bc1d73cf051909431255",
+      "bytes": 18547
+    }
+  ],
+  "actual_resource_exit": 0,
+  "all175_gates": true,
+  "source_arithmetic": "Exact Fraction; 160-bit outward dyadic serialization; no new ODE or integrals",
+  "new_field_or_new_metric": false,
+  "total_bytes": 70477
+}

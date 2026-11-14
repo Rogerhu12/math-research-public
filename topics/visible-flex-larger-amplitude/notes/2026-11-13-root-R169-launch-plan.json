@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-13T18:10:59.899404+00:00",
+  "command": [
+    "node",
+    "--max-old-space-size=256",
+    "/workspace/scratch/d1aa462cfc02/root-work/R169-M20-root-jets-inputs/root_R169_M20_split_root_derivatives.mjs",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R169-M20-root-jets-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R169-M20-root-jets-r1.json"
+  ],
+  "source_sha256": "36b71071d016a171fa0d1e6dcdaf54975b9804275080a89addf33d2efe5de3a9",
+  "input_manifest_sha256": "a3ada4324f94c0c40806c00535e4b0bbf41a028c3a3678d7ce774ab00224ed4b",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_seconds": 40,
+    "planned_peak_rss_mib": 320
+  },
+  "environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "purpose": "Original split-RHS implicit-root derivatives at every endpoint of216 original strong M20 pieces; no ODE/BVP/far graph, no infinite-angle or continuous residual claim."
+}

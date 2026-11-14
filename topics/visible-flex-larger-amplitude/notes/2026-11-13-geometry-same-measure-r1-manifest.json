@@ -1,0 +1,36 @@
+{
+  "schema": "actual-old-R48-carrier-same-measure-archive",
+  "formal_exitcode": 0,
+  "termination_signal": null,
+  "formal_seconds": 24.245914936065674,
+  "peak_RSS_KiB": 34964,
+  "old_leaves": 37,
+  "new_common_leaves": 111,
+  "files": [
+    {
+      "path": "notes/2026-11-13-geometry-same-measure-r1-summary.json",
+      "bytes": 8005,
+      "sha256": "486c277467599de5a43083a9b72a2b6066a5ccff301017f4249e4da392023f34",
+      "actual_output_path": "/tmp/vfla-20261113-geometry/same-measure-r1-summary.json"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-same-measure-r1-leaves.jsonl.gz",
+      "bytes": 450974,
+      "sha256": "4471317ddc9aca4a70b9fdf899ebb31b92ae1ebefc7e5fb78b6f19f8783e0941",
+      "actual_output_path": "/tmp/vfla-20261113-geometry/same-measure-r1-leaves.jsonl.gz"
+    },
+    {
+      "path": "notes/2026-11-13-geometry-same-measure-r1-resource.json",
+      "bytes": 1751,
+      "sha256": "2c97f17a9cd461fa3c22c8df5a71dd21f61a0565280851af6fbc18e56c632469",
+      "actual_output_path": "/tmp/vfla-20261113-geometry/same-measure-r1-resource.json"
+    },
+    {
+      "path": "computations/tail_old_r48_to_carrier_same_measure_recovered.py",
+      "bytes": 31649,
+      "sha256": "215c60c9acf4a0189401fc76fff13262f166cba24c6000289b0ed1004dafdb39"
+    }
+  ],
+  "all_original_producers_rerun": false,
+  "exact_outer_error_paid": false
+}

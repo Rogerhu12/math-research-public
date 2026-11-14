@@ -1,0 +1,68 @@
+{
+  "scope": "Pure binary storage fixtures only; no numerical-tail equivalence claim",
+  "physicalFactories": 0,
+  "physicalRHS": 0,
+  "physicalJacobian": 0,
+  "nonlinearSolves": 0,
+  "sourceSHA256": "cf418e0d82210a226376db19f610520c3eb4be1b7ea3559f8a0e85092d75aafe",
+  "checkSHA256": "97959b999c542db7f509263ba9cb56feb661649f64ad599066ebce815bbe2cd4",
+  "checks": [
+    {
+      "name": "initial-miss-calls-original-map-once",
+      "passed": true
+    },
+    {
+      "name": "same-input-hit-restores-every-Float64-byte",
+      "passed": true
+    },
+    {
+      "name": "second-store-instance-restores-complete-payload",
+      "passed": true
+    },
+    {
+      "name": "one-ULP-in-one-input-component-misses",
+      "passed": true
+    },
+    {
+      "name": "signed-zero-input-is-part-of-binary-key",
+      "passed": true
+    },
+    {
+      "name": "different-stage-misses",
+      "passed": true
+    },
+    {
+      "name": "different-source-and-parameter-identities-miss",
+      "passed": true
+    },
+    {
+      "name": "non-Jacobian-path-calls-original-without-storage",
+      "passed": true
+    },
+    {
+      "name": "orphan-temporary-file-never-counts-as-hit",
+      "passed": true
+    },
+    {
+      "name": "nonfinite-input-and-unrecorded-output-are-rejected",
+      "passed": true
+    },
+    {
+      "name": "checksum-corruption-is-rejected-without-recomputation",
+      "passed": true
+    },
+    {
+      "name": "truncated-payload-is-rejected-without-recomputation",
+      "passed": true
+    },
+    {
+      "name": "identity-manifest-corruption-is-rejected",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "computedFixtureMaps": 8,
+  "events": 6,
+  "realPhysicalStageComparisonRequired": true,
+  "fullEvaluationComparisonRequired": true
+}

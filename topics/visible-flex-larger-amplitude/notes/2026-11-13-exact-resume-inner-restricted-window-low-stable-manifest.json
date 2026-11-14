@@ -1,0 +1,75 @@
+{
+  "schema": "same-R100-restricted-window-and-low46-finite-bootstrap-stable-package-v1",
+  "status": "proved",
+  "formal_exitcodes": [
+    0,
+    0
+  ],
+  "all644229_low_spectrum_gates": true,
+  "failed_attempt_retained": "window r1 coverage iteration order mismatch, before finite propagation; r2 uses actual vertex indices and full unique coverage, same kernel values",
+  "full_mean_inverse_far_infinite": true,
+  "exact_restricted_expanded_profile": true,
+  "files": [
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-window13-v1.py",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-window13-v1.py",
+      "sha256": "0e96122708b95203243de09ff6f9d612ee89e0ba6a86c736e459326169adee66",
+      "bytes": 27108
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-window13-v2.py",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-window13-v2.py",
+      "sha256": "2936a903a69b30d8c4ab3b2e95ca618ac669b25f7114a82a486175722c9926f4",
+      "bytes": 27234
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-low46-spectrum-v1.py",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-low46-spectrum-v1.py",
+      "sha256": "52b1480822ebca91375fcc3e40bb5866580a413d9913b17d66f27253e91cebb7",
+      "bytes": 14821
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-window-low-proof.md",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-window-low-proof.md",
+      "sha256": "4cea0d99019961d752105773a43fa61aacae21826b8aa4a8b19ed8a519ca5655",
+      "bytes": 6234
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-window13-r1-resource.json",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-expanded-window13-r1-resource.json",
+      "sha256": "9112044fb561deb91c24c794e9e5978b094284de6bc46dc47b80f68efd4d356c",
+      "bytes": 2837
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-window13-r2.json.gz",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-expanded-window13-r2.json.gz",
+      "sha256": "d1da07fbcc48fbb35d39277da375b9b838f8c075f5bac855875025d9f1bdee89",
+      "bytes": 247282
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-window13-r2-resource.json",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-expanded-window13-r2-resource.json",
+      "sha256": "d822e0af12aa21e586488d78b29b9757a943e42964dee69e7b07c0f7473e4688",
+      "bytes": 2847
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-window13-r2-head-export.json",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-expanded-window13-r2-head-export.json",
+      "sha256": "36866745a45fbe324363e5502538fee3e2f8aee857169c51ea05c5fdbcc6064e",
+      "bytes": 12116
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-low46-r1.json.gz",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-expanded-low46-r1.json.gz",
+      "sha256": "7e39d0a0f0b80ede11e369a565db989f95f5dbd2ebfe18841a7009da6b41e027",
+      "bytes": 970403
+    },
+    {
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-low46-r1-resource.json",
+      "path": "notes/2026-11-13-exact-resume-inner-restricted-expanded-low46-r1-resource.json",
+      "sha256": "f1faf1614b4917146d5de317b44d7c0deec799fb866f3f303d73c4c14f80b6a3",
+      "bytes": 1979
+    }
+  ],
+  "total_bytes": 1312861
+}

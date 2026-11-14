@@ -1,0 +1,93 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T19:29:48.990109+00:00",
+  "title": "failure-r1",
+  "scope": "Original coarse first-turn sufficient bound rejected true accepted A; no invalid certificate emitted.",
+  "actual_owned_runs": [
+    {
+      "prefix": "2026-11-13-strong-initial-law-analytic-profile-source-prepare-r1",
+      "owned_exitcode": 0,
+      "wait4_observed": true,
+      "wall_seconds": 0.511459179004305,
+      "peak_rss_kib": 13952
+    },
+    {
+      "prefix": "2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r1",
+      "owned_exitcode": 1,
+      "wait4_observed": true,
+      "wall_seconds": 0.5437269679969177,
+      "peak_rss_kib": 15268
+    }
+  ],
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r1-heartbeat.json",
+      "bytes": 333,
+      "sha256": "5821b8cb006c5153ac3f1a4f88f23d03f2e1b536b7c3d828c55e62484b05b573"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r1-ownership.json",
+      "bytes": 1598,
+      "sha256": "5b2f4a3c0d6d096c398ca27527f1a68bd68f074f02c16fa24683364eba5f4cef"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r1-plan.json",
+      "bytes": 1119,
+      "sha256": "65041321d767211c51204516449d11439776adc879825a9f24e8e0d2f5cc079d"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r1-resource.json",
+      "bytes": 1371,
+      "sha256": "0149ae37a09028e51fd28922502001568331b8476e33c860cb8a202a900c6de2"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r1-stdout.log",
+      "bytes": 1560,
+      "sha256": "680ace259b2e2119c8255e761f4812300a9c5f601440afb0f38c927cd3deac90"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-source-prepare-r1.json",
+      "bytes": 3400,
+      "sha256": "1b708aaa870d783f8f8847d29fb2d1a2c178b7d271cbff64ef85e3edeaa4f4af"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r1-heartbeat.json",
+      "bytes": 331,
+      "sha256": "e00c43904f3a717ba1dbb4f4b99b90ee3e0c418ffcc67b9fb2b85e231a6a1be2"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r1-ownership.json",
+      "bytes": 1785,
+      "sha256": "a4235ba09bae4b7f1517b513ba4cab761cc794e4db70ea7ddd1d32c5ffe1cfa6"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r1-plan.json",
+      "bytes": 1309,
+      "sha256": "617aac4423ecccff51fbd942feadc7e76c7bc1be8271dd70e3f6407eea6e05a7"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r1-resource.json",
+      "bytes": 1552,
+      "sha256": "788ab989a7531884c84d1f088af31adeec29100fab996f22d953aec782ee60e7"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-actual-A-zero-r1-stdout.log",
+      "bytes": 2254,
+      "sha256": "15d43c36d83f0084389b5cdcdf06f3fbcd5bff214f85d273e0f5f6552bfe03e2"
+    },
+    {
+      "file": "computations/strong_newg_initial_law_analytic_profile_bounds.py",
+      "bytes": 13492,
+      "sha256": "d768f27048058b3cb3ca9cb3251b3ea1480f854e19198315d376cd40455375bb"
+    },
+    {
+      "file": "notes/2026-11-13-strong-initial-law-analytic-profile-domain-extension.md",
+      "bytes": 4598,
+      "sha256": "e35c670b5b47f737590ed9462832f62d6bb2ad5f04641bdcf10476d13f5278b9"
+    }
+  ],
+  "bytes": 34702,
+  "mathematical_provider_and_production_sources_unchanged": true,
+  "Node_ODE_or_geometry_calls": 0,
+  "original_proof_sha256": "cf80d379758054726cc1f77d8065eaf2eab59c3015fb263cb8a8f5918a664af5"
+}

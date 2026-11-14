@@ -1,0 +1,14 @@
+{
+  "schema": "R172-correlated-residual-first-declared-subset-v1",
+  "created_utc": "2026-11-13T19:04:35.422579+00:00",
+  "source": "math-research/topics/visible-flex-larger-amplitude/computations/root_R172_correlated_Bernstein_residual.py",
+  "source_sha256": "290a8ebf61856eebb76e7e17664279948d33ca64152f0b68cf1829d2272bc58a",
+  "range": [
+    3408,
+    3424
+  ],
+  "reason": "The actual R171 maximum low residual is leaf3420; compute a fresh continuous bound on these16 original leaves with exact degree7 linear-term Bernstein correlation. Same full mean/inverse32/positive infinite tail; not a repeat gate or full-domain claim.",
+  "precision_bits": 256,
+  "cpu_threads": 1,
+  "planned_peak_rss_kib": 131072
+}

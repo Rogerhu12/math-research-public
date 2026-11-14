@@ -1,0 +1,38 @@
+{
+  "schema": "frontload-explicit-first-piece-alignment-compact-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/strong_frontload_first_piece_ideal_alignment.py",
+      "sha256": "fb904883c4185cd48a92abb39e2d722595f0b93b4acb86e7e919a84883f35b78",
+      "bytes": 8396,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_frontload_first_piece_ideal_alignment.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-first-piece-ideal-alignment-r1-certificate.json",
+      "sha256": "62439f15f971ceaee81bf62241c4547fc623370166bfda306b50d39ca3684795",
+      "bytes": 13003,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-first-piece-ideal-alignment-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-first-piece-ideal-alignment-r1-resource.json",
+      "sha256": "8aa7e35ea5ca6ba77efc495962fa37d22f3f1550dc72a174b5f942a04b169d03",
+      "bytes": 2092,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-first-piece-ideal-alignment-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-nonzero-frontload-first-piece-ideal-alignment-r1-proof.md",
+      "sha256": "cbd011651a1ae66bd74cf80ddad6b6b131ecdb454fcb913e8f5e6bae0a0d29a3",
+      "bytes": 4309,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/frontload-first-piece-ideal-alignment-r1-proof.md"
+    }
+  ],
+  "total_bytes": 27800,
+  "all_owned_outcomes_verified": true,
+  "input_kind": "completed-unsolved-warm",
+  "gate_count": 11,
+  "comparison_map": "s_ideal = S_ideal*s_actual/S_binary; equivalently the same u in [0,1]",
+  "first_piece_alignment_paid": true,
+  "global_seams_internal_floating_or_complete_surface_paid": false,
+  "new_ODE_Node_Newton_or_geometry_samples": 0
+}

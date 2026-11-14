@@ -1,0 +1,52 @@
+{
+  "scope": "Small acceptance/replay/R7 index. The nested accepted recovery manifest carries the complete original finite BVP and tail package. R7 extrapolation rows are artificial-direction diagnostics only.",
+  "created_utc": "2026-11-13T10:49:05.380366+00:00",
+  "original_actual_BVP_exitcode": 0,
+  "archive_exitcode": 0,
+  "original_raw_replay_exitcode": 0,
+  "secant_core_budget_exitcode": 0,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q106-accepted-fullflow-recovery-manifest.json",
+      "bytes": 28598,
+      "sha256": "35d932214b83a18d247f64487e7d53f8aff95c4ecf7b0f0b2d1c7ff9b0d13323"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-accepted-fullflow-archive-resource.json",
+      "bytes": 1175,
+      "sha256": "591e46efef34f4e274426b81125ff59905737f45cc19fa6c06bd60533d616394"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-accepted-raw-replay-report.json",
+      "bytes": 2460,
+      "sha256": "920a00c2557b05c790493d6c1f7e8927af3450f3d13f667a7ab18bb17c60debd"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-accepted-raw-replay-resource.json",
+      "bytes": 1251,
+      "sha256": "5aa6a299ba03fd9ec9cde50375aa87cf7d4ce29f5a432c68e5a6d856f82802a4"
+    },
+    {
+      "file": "computations/strong_accepted_secant_core_budget.py",
+      "bytes": 7009,
+      "sha256": "900dad9f3919cd155d6de734a0ca0e4b51943965324cb02bf4c99b21b285715c"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-accepted-secant-core-budget.json",
+      "bytes": 30888,
+      "sha256": "ebb9dd5eabb773164b5bc8c91d3f9446e9e0dd9580f825dfec306d4021d53551"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-accepted-secant-core-budget-resource.json",
+      "bytes": 999,
+      "sha256": "4c93fa290123505bd2192d65b47a05381235d0787ee478c1a7838bc945a1c1e3"
+    }
+  ],
+  "total_bytes": 72380,
+  "nested_complete_bundle_manifest": {
+    "file": "notes/2026-11-13-strong-q106-accepted-fullflow-recovery-manifest.json",
+    "bytes": 28598,
+    "sha256": "35d932214b83a18d247f64487e7d53f8aff95c4ecf7b0f0b2d1c7ff9b0d13323"
+  },
+  "full_closed_held_or_reach_claim": false
+}

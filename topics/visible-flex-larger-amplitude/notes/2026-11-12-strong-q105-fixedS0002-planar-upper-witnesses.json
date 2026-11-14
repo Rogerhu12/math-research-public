@@ -1,0 +1,82 @@
+{
+  "scope": "Exact arithmetic upper witness for these artificial finite planar landing curves only. Not a surface reach or BVP failure.",
+  "source_file": "notes/2026-11-12-strong-q105-fixedS0002-planar-corridor.json",
+  "source_sha256": "f9646b212fd5a19dad4006c046813bf981bed325ed13e3e414803810e731cbe4",
+  "rule": "The Bernstein witness is for midpoint rho-.15*d-15*eps4; adding 30*eps4 is an upper bound for actual rho-.15*d for the complete c4 interval.",
+  "source_solver_success": false,
+  "rows": [
+    {
+      "path": "old_R40_slope",
+      "x": {
+        "numerator": "3",
+        "denominator": "4",
+        "decimal_display": 0.75
+      },
+      "lower_polynomial_value": {
+        "numerator": "-4981064859632360736969692384738812680103",
+        "denominator": "6044629098073145873530880000000000000000000",
+        "decimal_display": -0.0008240480563514114
+      },
+      "uniform_c4_error": {
+        "numerator": "2675138178658074659",
+        "denominator": "1801439850948198400000000000000000000",
+        "decimal_display": 1.485e-18
+      },
+      "actual_radius_surplus_upper": {
+        "numerator": "-4981064859632091448743373226086623664039",
+        "denominator": "6044629098073145873530880000000000000000000",
+        "decimal_display": -0.0008240480563513668
+      },
+      "strictly_negative_upper": true
+    },
+    {
+      "path": "affine_to_canonical_landing_c4",
+      "x": {
+        "numerator": "5",
+        "denominator": "8",
+        "decimal_display": 0.625
+      },
+      "lower_polynomial_value": {
+        "numerator": "-3559923498115140500768903600362200970979601415537",
+        "denominator": "50706024009129176059868128215040000000000000000000",
+        "decimal_display": -0.07020711183101652
+      },
+      "uniform_c4_error": {
+        "numerator": "201",
+        "denominator": "100000000000000000000",
+        "decimal_display": 2.01e-18
+      },
+      "actual_radius_surplus_upper": {
+        "numerator": "-28479387984921099545565246798983076487451760389",
+        "denominator": "405648192073033408478945025720320000000000000000",
+        "decimal_display": -0.07020711183101645
+      },
+      "strictly_negative_upper": true
+    },
+    {
+      "path": "affine_to_canonical_landing_c4",
+      "x": {
+        "numerator": "15",
+        "denominator": "16",
+        "decimal_display": 0.9375
+      },
+      "lower_polynomial_value": {
+        "numerator": "-1479964594038238252528591785747415500123565294802878621",
+        "denominator": "425352958651173079329218259289710264320000000000000000000",
+        "decimal_display": -0.0034793800394178984
+      },
+      "uniform_c4_error": {
+        "numerator": "201",
+        "denominator": "100000000000000000000",
+        "decimal_display": 2.01e-18
+      },
+      "actual_radius_surplus_upper": {
+        "numerator": "-11839716752305700829961480960085855586100241002191521",
+        "denominator": "3402823669209384634633746074317682114560000000000000000",
+        "decimal_display": -0.003479380039417838
+      },
+      "strictly_negative_upper": true
+    }
+  ],
+  "all_recorded_upper_witnesses_strictly_negative": true
+}

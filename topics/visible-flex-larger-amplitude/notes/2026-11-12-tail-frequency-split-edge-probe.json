@@ -1,0 +1,107 @@
+{
+  "status": "Read-only small floating band diagnostic; not an interval certificate",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "output_cell": 12,
+  "source_cell": 15,
+  "bands": [
+    {
+      "index": 0,
+      "first_mode": 94,
+      "last_mode": 96,
+      "approximate_gamma_12_15": 7.476228247980123e-08
+    },
+    {
+      "index": 1,
+      "first_mode": 98,
+      "last_mode": 104,
+      "approximate_gamma_12_15": 4.6950674088995684e-08
+    },
+    {
+      "index": 2,
+      "first_mode": 106,
+      "last_mode": 112,
+      "approximate_gamma_12_15": 3.1138013143264904e-09
+    },
+    {
+      "index": 3,
+      "first_mode": 114,
+      "last_mode": 128,
+      "approximate_gamma_12_15": 9.766303058140462e-10
+    },
+    {
+      "index": 4,
+      "first_mode": 130,
+      "last_mode": 192,
+      "approximate_gamma_12_15": 4.3079485930349984e-08
+    },
+    {
+      "index": 5,
+      "first_mode": 194,
+      "last_mode": 256,
+      "approximate_gamma_12_15": 3.6162910794738676e-17
+    },
+    {
+      "index": 6,
+      "first_mode": 258,
+      "last_mode": 512,
+      "approximate_gamma_12_15": 14.466146360120344
+    },
+    {
+      "index": 7,
+      "first_mode": 514,
+      "last_mode": 1024,
+      "approximate_gamma_12_15": 3.7151721517941096e-14
+    },
+    {
+      "index": 8,
+      "first_mode": 1026,
+      "last_mode": 2048,
+      "approximate_gamma_12_15": 1.3299939740430319e-33
+    },
+    {
+      "index": 9,
+      "first_mode": 2050,
+      "last_mode": 4096,
+      "approximate_gamma_12_15": 5.632773269262285e-40
+    },
+    {
+      "index": 10,
+      "first_mode": 4098,
+      "last_mode": 8190,
+      "approximate_gamma_12_15": 1.1260982774181839e-39
+    }
+  ],
+  "original_gamma": 14.466146360120375,
+  "original_maximizing_band": 6,
+  "near_true_modes": [
+    94,
+    184
+  ],
+  "rest_true_modes": [
+    186,
+    8190
+  ],
+  "shared_saved_band": [
+    130,
+    192
+  ],
+  "near_approximate_gamma": 7.476228247980123e-08,
+  "rest_approximate_gamma": 14.466146360120344,
+  "low_corr_15_12": 0.009217571467161179,
+  "old_cycle_9_H_C": 1.2000846413594077,
+  "near_cycle_9_H_C_diagnostic": 6.202140136250939e-09,
+  "notes": [
+    "Band4's existing upper covers either true subband conservatively.",
+    "This changes only the comparison grouping, never the true kernel or source.",
+    "Full mean, inverse remainder and quadratic changes retain all frequencies."
+  ],
+  "input_hashes": {
+    "notes/2026-11-12-tail-r33-plateau2-middle-causal-box-v2.json.gz": "07c428b0c1a1977985200172dbee0bf14ae57e5fd4ea97ddebdf9b671479b3e6",
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-closure-positive-highband-38.json.gz": "cf293799252e8beb9ef15ff27dba1ebbe698186cee3258b6f9df34ab8dff5600",
+    "notes/2026-11-12-tail-r33-plateau2-middle-local-homogeneous.json.gz": "876c8ca3c40ec5b567af2814409f6ecb9be470a20c6438caaf5c7c074e270e67",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-closure-recovery2-centred-four-green-r1.json.gz": "31c65d6c8053325502542c008720f880d7386cd39168be79ca466851e76bb7ee"
+  },
+  "source_sha256": "bb91fda61cc259481352dc9c9fd5d510d15c75e38a89b3579b15d257fc708804"
+}

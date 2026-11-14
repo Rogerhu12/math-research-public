@@ -1,0 +1,17 @@
+{
+  "scope": "Explicit smaller radial batches around the accepted-iterate BVP wrapper.\n\nThe original radial and collocation function bodies stay unchanged. Only\ntheir optional batch-size defaults change in this fresh process. An immutable\nconfiguration record is included in every iterate's source hash map and in\nthe final design provenance. The optional real-state inspection does not\ntake a Newton step or produce a nonlinear solution.\n",
+  "radial_batch_size": 16,
+  "collocation_interval_batch_size": 12,
+  "original_radial_batch_size": 48,
+  "original_collocation_interval_batch_size": 24,
+  "function_bodies_changed": false,
+  "radial_point_formulas_changed": false,
+  "floating_order_identity_claimed": false,
+  "physical_data_or_acceptance_changed": false,
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_small_batch_bvp.py": "2b1d3edc9b9a645bea98d191b2d74dbae0c4506f128259cdb263e304f995612e",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_checkpointed_tangent_bvp.py": "f75bbcd1b67c05335761966973acb7407ad0bf4f5422f5708639467c1a2afb05"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "visible-flex-two-mode-physical-interface-v1",
+  "all_gates": true,
+  "source_sha256": "f7973fb53e7ad99fe608a6f4125688cc4437d8fd08840d3ea7d529a2b947e0d6",
+  "source_path": "notes/2026-11-13-exact-resume-localV-budget-r1.json",
+  "formula": "sum_i radius_i*Vmax_i, with Vmax_i = physical_whole_field_domain_i/(10+radius_i); separate component/global sup paid by summing all18 blocks",
+  "physical_strong_tau18over125_upper": {
+    "numerator": "159876570588935389319165416533269066293366199538815721430440227928787941445155515091899733",
+    "denominator": "1174271291386916613944740298394668513687841274454159935353645485766104512557304221731849499192384351515967488",
+    "display_only": 1.3614960338518304e-19
+  },
+  "strict_simple_upper": "2^-62",
+  "R98_given_middle_physical_two_minus43_gate": true,
+  "all_middle_modes_paid": false,
+  "high_fixed_point_claimed": false,
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "simple_exact_gates": {
+    "maximum_radius_below_567_over1000": true,
+    "maximum_image_over_radius_below_503_over1000": true,
+    "global_physical_sum_below_two_minus62": true
+  }
+}

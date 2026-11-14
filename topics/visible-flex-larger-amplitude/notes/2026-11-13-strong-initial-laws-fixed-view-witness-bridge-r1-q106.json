@@ -1,0 +1,639 @@
+{
+  "scope": "Retain a physical-polynomial sample across a checked fixed-view conversion.\n\nThe original interior-audit input identity is preserved.  Equal complete raw\nstates, physical polynomial chunks, core, metric and charts are checked before\nthe original physical witness is mapped to the fixed numerical chart.  The\noutput is a one-point comparison grid for the existing geometry-plan adapter.\nIt does not replace either polynomial evaluation, solve a BVP, or certify a\ncontinuous curvature bound.\n",
+  "finished": true,
+  "accepted_primary": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+  "accepted_primary_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+  "fixed_primary": "notes/2026-11-13-strong-q106-m28-fixed-view-r2.json.gz",
+  "fixed_primary_sha256": "1a0c344fe9a0dadb58acf51cdda80f5011712540fcc33cd2f8356d2013ea70cc",
+  "original_audit": "notes/2026-11-13-strong-q106-initial-laws-fullmean-zero-audit-r1.json",
+  "original_audit_sha256": "8c4bb6f61e22741a9e8e39070f8548066f359703f3e4f7c38a261d3a2745b8f6",
+  "original_audit_input_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+  "conversion_report": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-report.json",
+  "conversion_report_sha256": "0b2f01bd63644d6d7379320c3cc3669663dae33a26729c9c31724c04d43a0a17",
+  "all_physical_polynomials_metric_core_and_charts_identical": true,
+  "comparison_grid_only": true,
+  "numerical_t": [
+    0.8226964654548264
+  ],
+  "angular": 768,
+  "known_reference_witnesses": [
+    {
+      "radial_index": 0,
+      "angular_index": 192,
+      "eta": 1.5707963267948966,
+      "physical_s": 2.595776087507138,
+      "source_polynomial_sample": 8.257143662247577,
+      "source_witness": {
+        "value": 8.257143662247577,
+        "s": 2.595776087507138,
+        "psi": 1.5707963267948966,
+        "segment": "loop outward turn",
+        "interval": 1868,
+        "interval_width": 0.0003774559845250991,
+        "normalized_interval_position": 0.7886751345942369
+      },
+      "source_audit_input_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+      "same_physical_field_through_explicit_fixed_view_bridge": true
+    }
+  ],
+  "original_complete_mean_angular": 1360,
+  "witness_physical_roundtrip_error": 0.0,
+  "checks": [
+    {
+      "name": "both_primary_states_formally_accepted",
+      "passed": true
+    },
+    {
+      "name": "both_raw_states_formally_accepted",
+      "passed": true
+    },
+    {
+      "name": "primary_raw_links_match",
+      "passed": true
+    },
+    {
+      "name": "fixed_conversion_report_inputs_match",
+      "passed": true
+    },
+    {
+      "name": "fixed_conversion_report_outputs_match",
+      "passed": true
+    },
+    {
+      "name": "original_report_complete_H_bitwise_equal",
+      "passed": true
+    },
+    {
+      "name": "original_report_raw_x_y_cubic_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_report_physical_quintics_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_report_all_core_coefficients_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_report_gauge_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_report_original_numerical_reference_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_report_eight_physical_data_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_report_rms_array_bitwise_equal",
+      "passed": true
+    },
+    {
+      "name": "fixed_conversion_did_not_solve_or_start_tail",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_frozen_profile",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_physical_tail_parameters",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_physical_tail_cut",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_angular_chart",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_chart_reference_coefficients",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_chart_reference_frequencies",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_gauge_amplitude",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_meridian_length",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_physical_port_sha256",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_core",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_numerical_meridian_chart",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_mesh",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_pp_coefficient_chunks",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_array_format",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_modes",
+      "passed": true
+    },
+    {
+      "name": "complete_primary_identity_nodes",
+      "passed": true
+    },
+    {
+      "name": "accepted_raw_profile",
+      "passed": true
+    },
+    {
+      "name": "accepted_raw_gauge",
+      "passed": true
+    },
+    {
+      "name": "accepted_raw_physical_tail_parameters",
+      "passed": true
+    },
+    {
+      "name": "accepted_raw_physical_tail_cut",
+      "passed": true
+    },
+    {
+      "name": "accepted_raw_reference_coefficients",
+      "passed": true
+    },
+    {
+      "name": "accepted_raw_reference_frequencies",
+      "passed": true
+    },
+    {
+      "name": "accepted_raw_chart",
+      "passed": true
+    },
+    {
+      "name": "fixed_raw_profile",
+      "passed": true
+    },
+    {
+      "name": "fixed_raw_gauge",
+      "passed": true
+    },
+    {
+      "name": "fixed_raw_physical_tail_parameters",
+      "passed": true
+    },
+    {
+      "name": "fixed_raw_physical_tail_cut",
+      "passed": true
+    },
+    {
+      "name": "fixed_raw_reference_coefficients",
+      "passed": true
+    },
+    {
+      "name": "fixed_raw_reference_frequencies",
+      "passed": true
+    },
+    {
+      "name": "fixed_raw_chart",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:x:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:x:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:x:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:x:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:x:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:x:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "raw_x_same_complete_binary64",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:y:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:y:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-y-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-y-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:y:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:y:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:y:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-y-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-y-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:y:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "raw_y_same_complete_binary64",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:cubic:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:cubic:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:cubic:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-001.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-001.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:cubic:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:cubic:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:cubic:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:cubic:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-001.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-001.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:cubic:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "raw_cubic_same_complete_binary64",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:rms:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:rms:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-rms-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-rms-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:rms:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:rms:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:rms:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-rms-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-rms-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:rms:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "raw_rms_same_complete_binary64",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:p:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:p:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-p-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-p-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz:p:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:p:dtype",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:p:chunk_order",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-p-000.npy.gz:sha",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-p-000.npy.gz:shape",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz:p:complete_finite",
+      "passed": true
+    },
+    {
+      "name": "all_retained_parameter_bits_equal",
+      "passed": true
+    },
+    {
+      "name": "all_original_raw_nodes_retained",
+      "passed": true
+    },
+    {
+      "name": "complete_tail_height_bits_equal",
+      "passed": true
+    },
+    {
+      "name": "original_tail_full_jacobian_audit_retained",
+      "passed": true
+    },
+    {
+      "name": "physical_quintic_chunk_order_0",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2_coeff_00.npy.gz:physical_quintic",
+      "passed": true
+    },
+    {
+      "name": "physical_quintic_chunk_order_41",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2_coeff_01.npy.gz:physical_quintic",
+      "passed": true
+    },
+    {
+      "name": "physical_quintic_chunk_order_82",
+      "passed": true
+    },
+    {
+      "name": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2_coeff_02.npy.gz:physical_quintic",
+      "passed": true
+    },
+    {
+      "name": "all_physical_quintic_states_and_mean_retained",
+      "passed": true
+    },
+    {
+      "name": "original_audit_primary_identity_retained",
+      "passed": true
+    },
+    {
+      "name": "audit_full_mean_rule",
+      "passed": true
+    },
+    {
+      "name": "audit_physical_metric_identity",
+      "passed": true
+    },
+    {
+      "name": "audit_actual_source_identity",
+      "passed": true
+    },
+    {
+      "name": "conversion_actual_source_identity",
+      "passed": true
+    },
+    {
+      "name": "exact_saved_angular_witness_in_grid",
+      "passed": true
+    },
+    {
+      "name": "physical_witness_within_original_chart",
+      "passed": true
+    },
+    {
+      "name": "physical_numerical_witness_roundtrip",
+      "passed": true
+    }
+  ],
+  "checks_count": 123,
+  "all_checks_passed": true,
+  "source_and_input_sha256": {
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz": "1efd643c9ef5a98a189f76a99c38026e28dac209d931a31c07432587680ca6aa",
+    "notes/2026-11-13-strong-q106-m28-fixed-view-r2.json.gz": "1a0c344fe9a0dadb58acf51cdda80f5011712540fcc33cd2f8356d2013ea70cc",
+    "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-collocation.json.gz": "204318ed9c5096a53299e121cac744be3c81de3352c704990267542485941967",
+    "notes/2026-11-13-strong-q106-m28-fixed-view-r2-report.json": "0b2f01bd63644d6d7379320c3cc3669663dae33a26729c9c31724c04d43a0a17",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_0003.json.gz": "4334640495f0b73123db9eacad836f1ed3ef24391a4b6f10f3456c79aed98040",
+    "notes/2026-11-13-strong-q106-initial-laws-fullmean-zero-audit-r1.json": "8c4bb6f61e22741a9e8e39070f8548066f359703f3e4f7c38a261d3a2745b8f6",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz": "d944d8a47c8e424abd8352f10c0cb5c8a3cf74893b6db6ef85f05bbdb8c0843d",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-y-000.npy.gz": "da098580cf01bf3dab32029fde4e02a50936322cafca688c86e0983eeb011f62",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-000.npy.gz": "02411a84e50d72f015886091549462335e33c4016006458ae643165d6aaffb6e",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-cubic-001.npy.gz": "836b2627512c134d4cd2722bca904fab2e5b72955ebedef6c0fb989f9ebda1fc",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-rms-000.npy.gz": "6ad3886d8e12e80b01a261f353c666284ca095a4e3da1898700ffd368dd8bd2a",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-p-000.npy.gz": "b902d8bed7470019d6d94596a4cc830d7cd8b3889cc0688b48db6d852bcaf456",
+    "notes/2026-11-13-strong-q106-m28-fixed-view-r2-raw-p-000.npy.gz": "a01cf16448c06b0f5934c46dc1f77cc88b2f3ba669d3ac84f0e7d80ce336d9c5",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2_coeff_00.npy.gz": "19ce7c0de2755e14b07a905c3904104cd291713ba8321f1e47eca61a6e0f2c6e",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2_coeff_01.npy.gz": "a235c89cb2756fa1edb778aefb2309bc2013dcc887bd2034b14ce89a9273a115",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2_coeff_02.npy.gz": "f017c29f9ea853aafc14331be545e82402e84a221ac29031f637201a2c7cc3d9",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_initial_laws_fixed_view_witness_bridge.py": "0ff509f6d2db30f64683fdffa28b621e064963370864262764259f6c54cb220a",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_freeze_design_view.py": "4209f87b8cae531f8899c5fa9af48a13666411c340981ae759daa9034315628b",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_interior_fullmean_audit.py": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_interior_jet_audit.py": "1b7f45785fffc41595eda9aae844c3081d2954d3ea08ac0da6e5a90c935294fa"
+  },
+  "limitations": [
+    "The physical quintic sample keeps the original audit identity.",
+    "The next geometry plan uses the original raw cubic; its value does not replace this quintic audit.",
+    "No new solve, tail response, interval certification or continuous curvature bound."
+  ],
+  "initial_laws_source_bridge": {
+    "base_source_sha256": "ef519e4d24a199b3e2c395e3adfa775f9a405f8cb8b2953c058baa0acba80733",
+    "adapter_source_sha256": "0ff509f6d2db30f64683fdffa28b621e064963370864262764259f6c54cb220a",
+    "actual_audit_source_sha256": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0",
+    "transformed_source_sha256": "1815662b24f02ff6e26c3bfcf6cb30943b9ecee17cb7fceab7119adb633c40c4",
+    "exact_reverse_recovers_original": true,
+    "only_original_audit_source_name_and_extra_provenance_changed": true,
+    "checks": [
+      {
+        "name": "original_audit_primary_SHA_kept",
+        "passed": true
+      },
+      {
+        "name": "one_real_profile_loader",
+        "passed": true
+      },
+      {
+        "name": "same_actual_initial_law_parameters",
+        "passed": true
+      },
+      {
+        "name": "profile_and_physical_length_reloaded",
+        "passed": true
+      },
+      {
+        "name": "unchanged_physical_formula_and_complete_mean",
+        "passed": true
+      },
+      {
+        "name": "actual_initial_laws_audit_source",
+        "passed": true
+      },
+      {
+        "name": "complete_actual_audit_provider_source_strong_interior_jet_fullmean_audit.py",
+        "passed": true
+      },
+      {
+        "name": "complete_actual_audit_provider_source_strong_interior_jet_audit.py",
+        "passed": true
+      },
+      {
+        "name": "complete_actual_audit_provider_source_geometric-checkpoint-core-pullback.py",
+        "passed": true
+      },
+      {
+        "name": "complete_actual_audit_provider_source_strong_initial_speed_pulse.py",
+        "passed": true
+      },
+      {
+        "name": "complete_actual_audit_provider_source_strong_monotone_initial_speed.py",
+        "passed": true
+      },
+      {
+        "name": "complete_actual_audit_provider_source_strong_initial_laws_interior_fullmean_audit.py",
+        "passed": true
+      },
+      {
+        "name": "legacy_conversion_only_at_exact_zero_laws",
+        "passed": true
+      }
+    ],
+    "all_checks_passed": true,
+    "actual_same_PP_bridge_required": true,
+    "audit_original_input_sha256": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "initial_speed_frontload": 0.0,
+    "initial_speed_pulse": 0.0,
+    "initial_speed_frontload_degree": 22,
+    "source_and_input_sha256": {
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+      "notes/2026-11-13-strong-q106-m28-fixed-view-r2-report.json": "0b2f01bd63644d6d7379320c3cc3669663dae33a26729c9c31724c04d43a0a17",
+      "notes/2026-11-13-strong-q106-initial-laws-fullmean-zero-audit-r1.json": "8c4bb6f61e22741a9e8e39070f8548066f359703f3e4f7c38a261d3a2745b8f6"
+    }
+  }
+}

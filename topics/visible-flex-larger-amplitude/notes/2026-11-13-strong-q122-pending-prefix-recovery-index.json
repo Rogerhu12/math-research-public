@@ -1,0 +1,73 @@
+{
+  "scope": "Complete successful original RMS affine-prefix recovery only; current-H true tail/Jacobian/BC/final audit and whole owned job exit remain pending. Original active job unchanged.",
+  "created_utc": "2026-11-13T12:43:59.124900+00:00",
+  "RMS": 9.957361490725915e-08,
+  "nodes": 2587,
+  "core_manifest_sha256": "9940397c49f6f49d4bf03676ce2e9c88e1cd633710b68537f0174cd7dfd7f262",
+  "archival_owned_resource": {
+    "file": "notes/2026-11-13-strong-q122-pending-prefix-archive-r1-resource.json",
+    "sha256": "5430795b17dcf70601d265ce62be5ddab9f219ac2a5c70a1c89c594416f33ef9",
+    "wall_seconds": 2.543330431999493,
+    "peak_rss_kib": 45220,
+    "exitcode": 0
+  },
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-outer-00-raw-collocation-cubic-000.npy.gz",
+      "sha256": "fde832318e7bd83acfa9f8d19753eda50c30eb9232ceebbb0635a4692992aa8c",
+      "bytes": 3887673
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-outer-00-raw-collocation-cubic-001.npy.gz",
+      "sha256": "8da507ee4e80c46e6ce5d697bff18255fe86a9b4f8326818fe085d1d01eb1b9b",
+      "bytes": 2952546
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-outer-00-raw-collocation-p-000.npy.gz",
+      "sha256": "841c7f98e748699ff334c48901e2cfbdb881547bdba5d7e8882111f676050a28",
+      "bytes": 438
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-outer-00-raw-collocation-rms-000.npy.gz",
+      "sha256": "1d0a6ffd037d57625e095b25499bcdc83a785b127d8850cfbf6472ae5f475c70",
+      "bytes": 19754
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-outer-00-raw-collocation-x-000.npy.gz",
+      "sha256": "e9d15ad3aeefde1d98b8e6f04c5f471fee316530832c712a09ec3e3e07b465c4",
+      "bytes": 19383
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-outer-00-raw-collocation-y-000.npy.gz",
+      "sha256": "d23ec105e6ed3a67515b2b99c38f7886beb661cfeddde4336818b81e8c19911b",
+      "bytes": 1694734
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-outer-00-raw-collocation.json.gz",
+      "sha256": "20002599cac5b775a701517562d539f76a9e4cdb59d42de5ec8f0bbd8e291f92",
+      "bytes": 2969
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-pending-prefix-recovery-manifest.json",
+      "sha256": "9940397c49f6f49d4bf03676ce2e9c88e1cd633710b68537f0174cd7dfd7f262",
+      "bytes": 12556
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-pending-prefix-archive-r1-resource.json",
+      "sha256": "5430795b17dcf70601d265ce62be5ddab9f219ac2a5c70a1c89c594416f33ef9",
+      "bytes": 1811
+    },
+    {
+      "file": "notes/2026-11-13-strong-q122-pending-prefix-archive-r1-stdout.log",
+      "sha256": "e283b04d05f2214130e7996b3e99b425ba140ebb1600ea15a5e1f37c39c32e10",
+      "bytes": 2071
+    },
+    {
+      "file": "computations/strong_archive_pending_prefix.py",
+      "sha256": "08a0d7be01d9813a7d27822658af29c9ebc462cbd3dd4080a1793e0b07f12b7e",
+      "bytes": 6880
+    }
+  ],
+  "total_bytes": 8600815,
+  "not_an_accepted_new_BVP": true
+}

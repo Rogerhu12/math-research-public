@@ -1,0 +1,72 @@
+{
+  "schema": "finite-complete-phase-saved-rational-consumption-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "source_sha256": "1cd6ca093541e7c78aa49d4630d8b66f6549de4360f72a178e20bd91c29f6a65",
+  "primary_sha256": "366aa54a66c33e3bce305052c97c289d196a90bff8ea8d79ec34f59e0324cae3",
+  "original_owned_resource_sha256": "62ff68d9289f31217ecb84e71d1476bb1540972366478ea7cae0d634019b2eb7",
+  "exact_saved_gate_count": 34,
+  "exact_saved_gate_multiplicities": {
+    "exact_binary_actual_pair_identity": 4,
+    "nonnegative_exact_finite_sandwich": 4,
+    "upper_exact_square_sandwich": 4,
+    "all_original_sources_scanned": 4,
+    "all_witness_targets_directly_scanned": 4,
+    "original_set_members_and_scope": 4,
+    "actual_core_witness": 4,
+    "both_directions_aggregated": 2,
+    "strict_positive_interval": 2,
+    "ratio_is_finite_diagnostic_below_one_fifth": 2
+  },
+  "all_saved_consumption_gates": true,
+  "aggregate": {
+    "prefix": {
+      "H_lower": {
+        "numerator": "39723962644727428759612553745",
+        "denominator": "158456325028528675187087900672"
+      },
+      "H_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "1267650600228229401496703205376"
+      },
+      "ratio_lower": {
+        "numerator": "4413773627191936528845839305",
+        "denominator": "48979786114068550642337301504"
+      },
+      "ratio_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "3455088827493109495442448582656"
+      }
+    },
+    "reflected_union": {
+      "H_lower": {
+        "numerator": "39723962644727428759612553745",
+        "denominator": "158456325028528675187087900672"
+      },
+      "H_upper": {
+        "numerator": "317791701157819606486732260065",
+        "denominator": "1267650600228229401496703205376"
+      },
+      "ratio_lower": {
+        "numerator": "882754725438387305769167861",
+        "denominator": "13992889288521614974234000128"
+      },
+      "ratio_upper": {
+        "numerator": "4743159718773426962488541195",
+        "denominator": "75185673789071345286896473088"
+      }
+    }
+  },
+  "actual_full_query_block_count": 118,
+  "original_points": {
+    "chunks": 18,
+    "bytes": 32154075,
+    "sha256_manifest_complete": true,
+    "copied": false
+  },
+  "original_point_reproduction_archive": {
+    "path": "notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-manifest.json",
+    "sha256": "506fc2250ef10ea1a146ab19cdf65397694b957fdbae6fb8cf8a286226f1f9a7"
+  },
+  "no_new_point_scan_ODE_or_geometry_field": true,
+  "scope": "Exact saved binary finite sets and their prescribed ambient rotation only; no continuous curve, accepted A, closure or rigid-motion quotient amplitude theorem."
+}

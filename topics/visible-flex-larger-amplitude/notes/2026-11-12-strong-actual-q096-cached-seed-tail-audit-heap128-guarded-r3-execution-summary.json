@@ -1,0 +1,16 @@
+{
+  "scope": "Original frozen cached tail constructor exited before ready; the new error-only guard observed and reaped its own Node. No solve request or mathematical failure was inferred.",
+  "formal_tool_exit": 1,
+  "Node_before_original_close": -9,
+  "Node_after_original_close": -9,
+  "Node_observed_final": -9,
+  "cause": "unknown",
+  "wall_seconds": 76.98926424980164,
+  "actual_waited_child_peak_rss_kib": 241856,
+  "solve_requests_sent": 0,
+  "cache_unchanged": true,
+  "initial_seed_unchanged": true,
+  "nonlinear_solution": false,
+  "free_bytes_after_failure": 5873565696,
+  "no_ENOSPC_exception_in_this_attempt": true
+}

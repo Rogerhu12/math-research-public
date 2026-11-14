@@ -1,0 +1,72 @@
+{
+  "status": "R123 completed: same-object true inner beta with the full R100 transverse source difference and positive true far",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "results/R123-bootstrap-auxiliary-source-and-complete-true-beta.md",
+      "sha256": "943d646421e2442c729e35f431b473e805aacf4e28f2143f1b14e24bacb51ce7",
+      "bytes": 13036
+    },
+    {
+      "path": "computations/inner_aux_bootstrap_cut_consumer.py",
+      "sha256": "4121303812eba278e6f69cdfd28ef87f47427cf7546c20bc11286872512bb0d1",
+      "bytes": 20736
+    },
+    {
+      "path": "computations/inner_aux_bootstrap_beta_interface.py",
+      "sha256": "e3ead2bff1dd57780a606770d24b134c256efc9755f0c31a11ac106a0128d25b",
+      "bytes": 11583
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-bootstrap-cut-r1.json.gz",
+      "sha256": "33cdff5738747578aedb22412cf4fd8bd78e087d9df2fde474fbbec59ffdc475",
+      "bytes": 1172675
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-bootstrap-cut-r1-resource.json",
+      "sha256": "3d99f75276140262463767214ca96d298ee767e1a69ca31ea868c6f4c475818c",
+      "bytes": 637
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-bootstrap-beta-interface-r1.json.gz",
+      "sha256": "1bd50cb4f32bb17d1238dd2487df379526246651a5ebbf1ec6fdf5809699f5ea",
+      "bytes": 253556
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-bootstrap-beta-interface-r1-resource.json",
+      "sha256": "8e7f73cc185979c9cff18dd18a82d3dc229e7e047dc39e7a340fd14439c117d9",
+      "bytes": 669
+    }
+  ],
+  "formal_exit_codes": [
+    0,
+    0
+  ],
+  "fraction_gates": [
+    10142,
+    80
+  ],
+  "all46_modes": true,
+  "all9752_other_source_terms_retained": true,
+  "R121_domain_not_extended": true,
+  "R100_transverse_four_complete_blocks_retained": true,
+  "true_far_charged_once_per_whole_mass": true,
+  "working_radii": [
+    "1/64",
+    "1/32",
+    "3/64",
+    "1/16",
+    "3/32",
+    "1/8",
+    "3/16",
+    "1/4",
+    "3/8",
+    "1/2"
+  ],
+  "full_unit_domain_also_consumed": true,
+  "full_cut_claimed": false,
+  "no_ODE": true,
+  "no_Arb": true,
+  "no_Node": true,
+  "no_new_source_integral": true
+}

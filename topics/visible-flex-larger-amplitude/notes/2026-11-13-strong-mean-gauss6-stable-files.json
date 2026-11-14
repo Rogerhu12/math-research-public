@@ -1,0 +1,43 @@
+{
+  "schema": "visible-flex-stable-small-text-files-v1",
+  "scope": "R111 completed exact reference Gauss6 primitive interface; not actual M28 audit or field enclosures.",
+  "status": "proof-complete-and-exact-BigInt-constants-executed",
+  "files": [
+    {
+      "path": "computations/strong_mean_gauss6_exact.js",
+      "bytes": 11470,
+      "sha256": "51e5ba0ba7e03b12f36b0298a894920c19f3d2a86973c6165acb7763cdb9dcda",
+      "blob": "f0df9e4de1f5662c4f4b0241e8cac8ddc9b853c7"
+    },
+    {
+      "path": "notes/2026-11-13-strong-mean-gauss6-exact.json",
+      "bytes": 31720,
+      "sha256": "8fe17bbb9702b19a4c2d1d6e4a53a8c555bc46512aaeff880bd9c34368e5fc4b",
+      "blob": "e90425226b99d532fb653f936507b569414bfded"
+    },
+    {
+      "path": "results/R111-exact-mean-primitive-and-gauss-six-bridge.md",
+      "bytes": 9095,
+      "sha256": "01ccd34bd2790df961cc11cb36a376f89ec2f6a9681f040da9607c80947dcf33",
+      "blob": "d6dad5738d06927bbc37ca220a13653e41fc7566"
+    }
+  ],
+  "execution": {
+    "engine": "functions JavaScript isolate",
+    "all_checks_passed": true,
+    "check_count": 16,
+    "physical_RHS_calls": 0,
+    "Node_workers": 0,
+    "newton_solves": 0,
+    "Node_CLI_executed": false
+  },
+  "runtime_source_tree_modified": false,
+  "MJS_modified": false,
+  "actual_obligations_still_open": [
+    "M28 full nonlinear tail audit and physical postprocessing",
+    "actual complete mean derivative interval boxes",
+    "actual NumPy6 table and sample/accumulation roundoff",
+    "background/nonmean exact knot consistency",
+    "continuous-angle conversion, PDE, closed surface and reach"
+  ]
+}

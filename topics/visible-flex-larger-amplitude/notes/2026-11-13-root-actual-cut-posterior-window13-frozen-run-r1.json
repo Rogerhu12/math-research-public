@@ -1,0 +1,149 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_restricted_window13_low46.py",
+    "--topic",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/frozen-topic",
+    "--field",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r2.json.gz",
+    "--field-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r2-resource.json",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1.json.gz",
+    "--source-summary",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-summary.json",
+    "--source-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-resource.json",
+    "--dq-kernels",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/r2-kernels.json.gz",
+    "--dq-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/r2-resource.json",
+    "--scalar-endpoint",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-endpoint-high-r1.json",
+    "--scalar-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-endpoint-high-r1-resource.json",
+    "--canonical-endpoint",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-canonical-endpoint-r1.json",
+    "--canonical-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-canonical-endpoint-r1-resource.json",
+    "--previous-window-primary",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-window13.json.gz",
+    "--previous-window-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-window13-resource.json",
+    "--window-gamma",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/gamma/certificate.json",
+    "--window-gamma-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/gamma-resource.json",
+    "--low-mode-field",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-low46.json.gz",
+    "--low-mode-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-low46-resource.json",
+    "--restriction-bridge",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-parent-bridge-r1.json",
+    "--restriction-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-parent-bridge-r1-resource.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-window13-r1",
+    "--steps",
+    "8"
+  ],
+  "source_sha256": "4302572f599f3fd03987ba74865ae2919b4c4d54733bf528017716659c6738ba",
+  "inputs": [
+    {
+      "argument": "field",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r2.json.gz",
+      "sha256": "1a0d05f817d9e25a851508c97aff43216e46b9c0d8f3026dabb881d154b274be"
+    },
+    {
+      "argument": "field-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r2-resource.json",
+      "sha256": "a2406e71557675806859b86c1fe9838a9ba2b843f7ec34b68be2c5d36b0b32d3"
+    },
+    {
+      "argument": "modal-input",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1.json.gz",
+      "sha256": "0a76756d411a350836ab27ca274142df0306628293401763453842130fa6f77c"
+    },
+    {
+      "argument": "source-summary",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-summary.json",
+      "sha256": "7b51cee14c2e17960fbb66ee7a43535ef9f307f7e576d286db6d0a69c12416e4"
+    },
+    {
+      "argument": "source-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-resource.json",
+      "sha256": "81799b408937ccb7569a2d003684de1e7202cdc49a6d3a0cc63914b2b5666b88"
+    },
+    {
+      "argument": "dq-kernels",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/r2-kernels.json.gz",
+      "sha256": "d519f6e5d8f0a8bb06c5d87f9257f6b9c01a19bfd04ce394a661ff3ffa3857ac"
+    },
+    {
+      "argument": "dq-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/r2-resource.json",
+      "sha256": "0aba2b45eec0739c79411620bd327285cb02736151f8a03d0d0318f77e0a48c0"
+    },
+    {
+      "argument": "scalar-endpoint",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-endpoint-high-r1.json",
+      "sha256": "8f90a5b5e617c3059736d4b80ba0008f456ad7412e2e9bf9159049ebd873e716"
+    },
+    {
+      "argument": "scalar-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-endpoint-high-r1-resource.json",
+      "sha256": "73eb11617c48a86c16b20161f8777b96119c2f958a5f2bcf7b33d050a84bc7f3"
+    },
+    {
+      "argument": "canonical-endpoint",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-canonical-endpoint-r1.json",
+      "sha256": "5741ce64f40e252c7b568bc8be61ae14695a41faf6fbaa3cbac13eaab5c9a5c9"
+    },
+    {
+      "argument": "canonical-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/inner-cut-canonical-endpoint-r1-resource.json",
+      "sha256": "7ac0112bcbbeb52a6872df4cc8c5bb32de0e9a0a4604d012bdb6cc0e2dd1117d"
+    },
+    {
+      "argument": "previous-window-primary",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-window13.json.gz",
+      "sha256": "8259ea4d96e66ec2b479f7c2dce959034c48ab29d1da01a54c0dc6fbf008c797"
+    },
+    {
+      "argument": "previous-window-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-window13-resource.json",
+      "sha256": "18fdac70d25dd81bef2fcc0aa5ac9fa9a77e1c799153d28e40eabdeb94fa2984"
+    },
+    {
+      "argument": "window-gamma",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/gamma/certificate.json",
+      "sha256": "3033c330ed219a1e87420818df8dd3d7bca44c246afe4f661d68870a783847b1"
+    },
+    {
+      "argument": "window-gamma-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window-fixed-inputs/gamma-resource.json",
+      "sha256": "891d1b4b28f498570ea01baaad9a72787d031dd647fd8c2a93f63139a38a984c"
+    },
+    {
+      "argument": "low-mode-field",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-low46.json.gz",
+      "sha256": "99449aa840fb802c14f19d2840b851e8bb61b00a6aaf2e4d1e5b0aa19b572b69"
+    },
+    {
+      "argument": "low-mode-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/parent-bridge-inputs/inner-restricted-alternate4-low46-resource.json",
+      "sha256": "b9939aeeb120de5103f999ace500985d41d3abdd80da17f7934f14048e983e39"
+    },
+    {
+      "argument": "restriction-bridge",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-parent-bridge-r1.json",
+      "sha256": "97f3a6fd9c59c4d23dead6e83a961411bb0ca1d187343ce598f0b8d2abeefd24"
+    },
+    {
+      "argument": "restriction-resource",
+      "path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-parent-bridge-r1-resource.json",
+      "sha256": "5a0329607e15112bf39ed92f266f03be940245b3b198fc1ea08ca5d4b71eb1b2"
+    }
+  ]
+}

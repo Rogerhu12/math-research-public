@@ -1,0 +1,18 @@
+{
+  "schema": "explicit-Node-young-space-resource-only-v1",
+  "actual_command_unchanged": [
+    "node",
+    "--expose-gc",
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_tail_worker.mjs",
+    "fail"
+  ],
+  "worker_sha256": "b7bb40dc25a8a4add993fdb99e8cc48aa0b636d6200e31818f9f1e8844cc9e35",
+  "NODE_OPTIONS_before": "--max-old-space-size=128",
+  "NODE_OPTIONS_after": "--max-old-space-size=128 --max-semi-space-size=4",
+  "source_sha256": "867244ef03a99ea50f7629d437873c073e9a07ee8a88b48568c79817be7b7eba",
+  "constructor_cleanup_sha256": "6f51a896e44aff8aa8a2f66a71320b68f15d279ec2a8e2ee0e3093cedf0696a3",
+  "only_changed_environment_key": "NODE_OPTIONS",
+  "mathematical_parameters_and_MJS_sources_unchanged": true,
+  "all_original_nonlinear_full_Jacobian_and_audit_gates_preserved": true,
+  "exact_stage_identity_and_original_cached_bytes_unchanged": true
+}

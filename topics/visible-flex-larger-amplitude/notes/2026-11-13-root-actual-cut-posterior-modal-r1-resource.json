@@ -1,0 +1,27 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "-u",
+    "root-work/actual-cut-posterior-inputs/root_actual_cut_posterior_modal_input.py",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/aux-modal-physical-transfer-r1.json.gz",
+    "--modal-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/aux-modal-physical-transfer-r1-resource.json",
+    "--lambda-primary",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/actual-cut-posterior-lambda-r1.json.gz",
+    "--lambda-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/actual-cut-posterior-lambda-r1-resource.json",
+    "--domain",
+    "R148_actual_full_cut_posterior",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-modal-r1"
+  ],
+  "wall_seconds": 6.3991968631744385,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 72064,
+  "user_seconds": 2.524337,
+  "system_seconds": 0.20578,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

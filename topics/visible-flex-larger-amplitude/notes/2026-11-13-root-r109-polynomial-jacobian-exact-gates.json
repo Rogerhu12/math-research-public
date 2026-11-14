@@ -1,0 +1,118 @@
+{
+  "schema": "visible-flex-larger-R109-source-polynomial-and-Jacobian-tail-v1",
+  "author": "/root (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Actually evaluated exact BigInt gates; no new source-row Jacobian or physical integration",
+  "input_sha256": {
+    "notes/2026-11-13-root-r108-tilted-wiener-exact-gates.json": "e5c28ae70288c46f50da826eceaee684c1350260f694f0409123f8066878026a",
+    "notes/2026-11-12-root-linear-centre-local-restored-r1-summary.json": "94fb941354dbb4769cb7ce80d5f7fd14eed6bdbce893842881c5c949c460288a"
+  },
+  "all_gates": true,
+  "gates": {
+    "R108_all18_actual_gates": true,
+    "R108_original_R88_identity": true,
+    "R88_actual_source_and_coverage": true,
+    "quadratic_mean_norm_below_quarter": true,
+    "approximate_complete_inverse_domain": true,
+    "complete_four_term_inverse_tail_coefficient_below4": true,
+    "mean_cauchy_circle_inside_original_domain": true,
+    "inverse_cauchy_circle_inside_original_domain": true,
+    "exact_mean_cauchy_constant": true,
+    "exact_inverse_cauchy_constant": true,
+    "complete_DN_minus_Dpolynomial_coefficient_below6450": true,
+    "source_error_coefficient_below681": true,
+    "6450_below_8192": true,
+    "same_global_radial_first_Rsigma_below_2_minus40": true,
+    "same_global_Rsigma_inside_derivative_domain": true,
+    "global_strong_to_weak_Jacobian_tail_below_2_minus107": true,
+    "q2_global_strong_radius_below_2_minus38": true,
+    "q2_inside_original_derivative_ball": true,
+    "q2_full_Jacobian_tail_prefactor_below_2_minus101": true,
+    "q4_global_strong_radius_below_2_minus36": true,
+    "q4_inside_original_derivative_ball": true,
+    "q4_full_Jacobian_tail_prefactor_below_2_minus95": true
+  },
+  "arithmetic": "Exact BigInt rational operations and comparisons",
+  "constants": {
+    "working_radius": "1/64",
+    "derivative_radius": "1/128",
+    "approximate_leading_at_working_radius": "321/16384",
+    "complete_inverse_tail_coefficient": "895915571636097/275960238702592",
+    "mean_derivative_cauchy": "174080/27",
+    "inverse_derivative_cauchy": "186624/3125",
+    "complete_derivative_coefficient_at_radius": "34816019683/5400000",
+    "derivative_slack6450": "13980317/5400000"
+  },
+  "original_R88_V_upper": "1/8796093022208",
+  "original_R88_global_radial_first_Rsigma_upper": "27999829607503257914452181792160927825141479998542237137208463697973705487190595901795/34175792574734561318320347298712833833643272357706444319152665725155515612490248800367393390985216",
+  "original_R88_global_derivative_tail_upper": "70793907546698899016350924362903060099371442859123526031886971621648562817703495811557866923959526096590226610581457190268222873469691614309668798168462031578384209014820672579886222400389746323748663019929362361885803296761878224594188786020244611600212471875/19958403095347198116563727130368385660674512604354575415025472424372118918689640657849579654926357010893424468441924952439724379883935936607391717982848314203200056729510856765175377214443629871826533567445439239933308104551208703888888552684480441575071209068757560416423584952303440099278848",
+  "global_strict_operator_tail": "<2^(-107) from joint strong A_sigma,1 to density-normalized weak A_sigma,0",
+  "sigma": "1/64",
+  "tilted": [
+    {
+      "q": 2,
+      "global_radial_first_strong_radius_upper": "26703624624974125133516165861696768268637557145224486776110331186685563714068991/8148143905337944345073782753637512644205873574663745002544561797417525199053346824733589504",
+      "exact_derivative_tail_prefactor_upper": "61410178871306603925489659394037943599964560686568048766068384432474153252460147153089595045250209111267154294133754170189705710719239699567266239882732187344914917300314831000490329327362690291193301122686335157204094042237021696683946223975/270486799941460606132397969877256502537649830930494219329515883021657038109043128050901635014480480202073290236547649883587761950465374995072275956973025063377093982207490603094390537050330337819148407249004128462923790485888799610285259212168722675962643753419641855148032",
+      "strict_simple_prefactor": "2^(-101)",
+      "even_frequency_folded_weight_sum_upper": "4993/2945",
+      "formula": "cosine output m from sineP/cosineK input n: prefactor*(1+n)*(q^(-abs(m-n))+q^(-m-n))"
+    },
+    {
+      "q": 4,
+      "global_radial_first_strong_radius_upper": "412512409420577665786189799848483715341469864128897299011654007613917130679/31082702275611665134711390509176302506278509424834232340028998555822468563283335970816",
+      "exact_derivative_tail_prefactor_upper": "226381416096759350796878285366229599582914812072473998565950250715107560001128385230482043916690196294966428283748251361171755047231288184688435956201077561223772228619763781472677525621888126773699140337677550253824977368805775/15015033657609400459942315391018513722623519187099007073355798781525263125238463415894820397160662761697108038369410925238365381332604486523522921813279810320079453845181805154673256699778290824639959535835805252308660678089369234238529227774479195332149248",
+      "strict_simple_prefactor": "2^(-95)",
+      "even_frequency_folded_weight_sum_upper": "4225/3713",
+      "formula": "cosine output m from sineP/cosineK input n: prefactor*(1+n)*(q^(-abs(m-n))+q^(-m-n))"
+    }
+  ],
+  "samples": [
+    {
+      "output_m": 92,
+      "input_n": 2,
+      "selected_bound": "q4",
+      "strict_Jacobian_tail_over_c_bg_per_unit_amplitude": "771/15541351137805832567355695254588151253139254712417116170014499277911234281641667985408",
+      "scope": "error DN-DN4 only; the complete finite signed DN4 must still be evaluated and added"
+    },
+    {
+      "output_m": 92,
+      "input_n": 4,
+      "selected_bound": "q4",
+      "strict_Jacobian_tail_over_c_bg_per_unit_amplitude": "327685/248661618204893321077691124073410420050228075398673858720231988446579748506266687766528",
+      "scope": "error DN-DN4 only; the complete finite signed DN4 must still be evaluated and added"
+    },
+    {
+      "output_m": 92,
+      "input_n": 40,
+      "selected_bound": "q4",
+      "strict_Jacobian_tail_over_c_bg_per_unit_amplitude": "59921567130567019646351078141367603805893234262057/1174271291386916613944740298394668513687841274454159935353645485766104512557304221731849499192384351515967488",
+      "scope": "error DN-DN4 only; the complete finite signed DN4 must still be evaluated and added"
+    },
+    {
+      "output_m": 92,
+      "input_n": 92,
+      "selected_bound": "original_sigma",
+      "strict_Jacobian_tail_over_c_bg_per_unit_amplitude": "93/162259276829213363391578010288128",
+      "scope": "error DN-DN4 only; the complete finite signed DN4 must still be evaluated and added"
+    },
+    {
+      "output_m": 42,
+      "input_n": 2,
+      "selected_bound": "q4",
+      "strict_Jacobian_tail_over_c_bg_per_unit_amplitude": "771/12259964326927110866866776217202473468949912977468817408",
+      "scope": "error DN-DN4 only; the complete finite signed DN4 must still be evaluated and added"
+    },
+    {
+      "output_m": 6,
+      "input_n": 4,
+      "selected_bound": "original_sigma",
+      "strict_Jacobian_tail_over_c_bg_per_unit_amplitude": "5/162259276829213363391578010288128",
+      "scope": "error DN-DN4 only; the complete finite signed DN4 must still be evaluated and added"
+    }
+  ],
+  "polynomial": "N4=Pi_perp [Q+ell(2c2D0+c2^2)]*(1-L2+L2^2-L2^3), L2=D0+c2",
+  "retained": "complete mean error, all inverse terms, finite numerator zero mode and c2^2, exact Dc2, all signed Fourier modes",
+  "no_new_source_ODE_Green_or_cut_execution": true,
+  "actual_full46_closure_or_closed_surface_claimed": false,
+  "source_sha256": "17e7cd821d29ba4c638217ea43feac6abfc35669bbe97c9218ea045a078ead8a",
+  "actual_runtime": "functions.exec V8 exact BigInt,2026-11-13; no spawned Node/Python process"
+}

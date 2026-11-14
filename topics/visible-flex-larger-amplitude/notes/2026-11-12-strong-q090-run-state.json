@@ -1,0 +1,95 @@
+{
+  "status": "successful-finite-linear-DN-prefix-complete",
+  "updated_utc": "2026-11-12T05:37:31.922675+00:00",
+  "session_id": 93629,
+  "profile": "notes/2026-11-12-strong-angle-vu032-design-profile.json",
+  "restart": "notes/2026-11-12-strong-angle-vu032-q085-m20.json.gz",
+  "q": 0.09,
+  "modes": 20,
+  "angular": 512,
+  "tol": 1e-06,
+  "max_nodes": 2000,
+  "geometric_flow_cache_size": 8,
+  "linear_solver": "direct-block-qr",
+  "log": "/workspace/scratch/c0de65fac774/strong-angle-vu032-q090-m20.log",
+  "output_prefix": "notes/2026-11-12-strong-angle-vu032-q090-m20",
+  "physical_scope": "New-g design; finite linear-tail-DN prefix, no closed-surface claim.",
+  "next_exclusive_owner_after_terminal": "tail_refinement: M32 same-H",
+  "source_hashes_at_run_observation": {
+    "strong_neck_bvp.py": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "strong_flow_lru.py": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2",
+    "root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "root_raw_collocation.py": "e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f",
+    "root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "alternative-neck-provider.py": "84ed048425c8b0f4deeec8af37828e318150cde5d59995da77f64d923591b9c2"
+  },
+  "session_exit_code": 0,
+  "solver_success": true,
+  "audit_pending": false,
+  "nodes": 891,
+  "max_rms_collocation_residual": 9.97066530906029e-07,
+  "resource": "notes/2026-11-12-strong-angle-vu032-q090-m20-resource.json",
+  "response": "notes/2026-11-12-strong-angle-vu032-q090-m20.json.gz",
+  "response_sha256": "9959985ea96ca1df3fe8b77139fb202aefd0c0b6fa0fcd2f9378830629bc46cf",
+  "complete_file_manifest": [
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-raw-collocation-cubic-000.npy.gz",
+      "bytes": 1690591,
+      "sha256": "f8320ff84d873d310dbbc5eeec12a12ed1ba3e106028c7efe37d89bcf2f92c60"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-raw-collocation-p-000.npy.gz",
+      "bytes": 329,
+      "sha256": "111adb9adc9d4e6b0d5f58019da7ca9f879a807652347147f361f619ef778337"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-raw-collocation-rms-000.npy.gz",
+      "bytes": 6910,
+      "sha256": "edd6f88b74f6437f62885d8feff3270b6026418658392cb24edd907ac87ec0d4"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-raw-collocation-x-000.npy.gz",
+      "bytes": 6815,
+      "sha256": "ff1c2f007bb6ca5dd4ae1da08d317d260964ebbb25993004631625e3e08a5631"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-raw-collocation-y-000.npy.gz",
+      "bytes": 421572,
+      "sha256": "2dec269c056cf045a8e9b41f01793e6556eeebf82a8b32b1c819ce05fccb1782"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-raw-collocation.json.gz",
+      "bytes": 4532,
+      "sha256": "9d1b159344efb350a876144bf78bb44977707cef2a8e17687642b74287d0800f"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-resource.json",
+      "bytes": 1554,
+      "sha256": "ec2b50e4dac6ecdafb125a4b62389923cecea40ab7989167d1ca7d464ba4864f"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-summary.json",
+      "bytes": 31759,
+      "sha256": "ace2e9776ab2ba5be2e6d5c99de3e1fc2b1d235ea28393689bd1129aa22c21ae"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20.json.gz",
+      "bytes": 18996,
+      "sha256": "9959985ea96ca1df3fe8b77139fb202aefd0c0b6fa0fcd2f9378830629bc46cf"
+    },
+    {
+      "file": "notes/2026-11-12-strong-angle-vu032-q090-m20_coeff_00.npy.gz",
+      "bytes": 2532150,
+      "sha256": "a7b707211293484f30b8a1ee1b984091d509e92d36fdc4b895c3842b6d096782"
+    }
+  ],
+  "compressed_log": {
+    "file": "notes/2026-11-12-strong-angle-vu032-q090-m20-newton.log.gz",
+    "bytes": 3615,
+    "sha256": "a6aea38799d123ec3d25ee98e993af43a71334246a2965158b68a8dbf33ea329"
+  },
+  "window_released_to": "tail_refinement: M32 same-H",
+  "window_release_notified": true
+}

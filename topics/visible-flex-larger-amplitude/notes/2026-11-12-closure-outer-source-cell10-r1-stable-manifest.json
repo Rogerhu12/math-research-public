@@ -1,0 +1,105 @@
+{
+  "status": "Complete original cell10 signed-source record, no ODE or source integration",
+  "files": [
+    {
+      "path": "computations/closure_outer_candidate_source_record.py",
+      "bytes": 13436,
+      "sha256": "544bab2538a33ac32c546d980e08dc0d95fea383d5f25aed894fea9ce27c3d34"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-summary.json",
+      "bytes": 5236,
+      "sha256": "388f0ea07840bc31851f025aecda7e8e73d9d893596bd088c95f7ea9002fd885"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-domain-replay.json",
+      "bytes": 57175,
+      "sha256": "66c3451dc4fd6232b7fe1885467cf15a2f42086f99bd6edffa4bb0c66a4ebc7b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-resource.json",
+      "bytes": 1320,
+      "sha256": "0ef2dc7ee250f93f91b08eb9f2e1dcbbe33cc70466231d4170fd8618d0d7dc12"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-executed.md",
+      "bytes": 994,
+      "sha256": "b421bc5fed3769f1ae229f8a78a036e9f7c51dd15b5af404a93fb07c575c419a"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment0.json.gz",
+      "bytes": 1614,
+      "sha256": "d1223a8135bad1ea71fb46f8cb20f869fe20fd99197a211ab085d3e5bf4618f7"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment1.json.gz",
+      "bytes": 949605,
+      "sha256": "8a4ad8d9b433f69f43c7a9918124c6f67d038d055924714a35e823876e1344e0"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment2.json.gz",
+      "bytes": 15685,
+      "sha256": "95cd0c8e1c105cbe34984408034f809f0ce5b4d0dbb8056293fed1b339f3b030"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment3.json.gz",
+      "bytes": 1743482,
+      "sha256": "1fbd62c312c6d95c167b6e2e88b9de19dbbcfe765a03db460a311df6dc84fb00"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment4.json.gz",
+      "bytes": 16808,
+      "sha256": "256b7fe09f7952eaca683d43487acf58854f1eb26e9a6448c17b136f45b09ac9"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment5.json.gz",
+      "bytes": 1702381,
+      "sha256": "cbc7562f6595b6b5f2b452c8ff679ae2bd5ede4dabc9fc5124dcf40dc15c501b"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment6.json.gz",
+      "bytes": 15699,
+      "sha256": "7d2a11b5953ca1cb992a11361b73e93cb34f1ba3ee4ff8455de6cd3ac1c6a9d8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment7.json.gz",
+      "bytes": 711438,
+      "sha256": "f7808317866cf60799077c4d5876acda221edca3ff26df9f8b1834aff8e3f2eb"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-r1-segment8.json.gz",
+      "bytes": 1602,
+      "sha256": "a674f06d1ecf4a8a27d9cf0476e16599e654a8b88fbeacc66e5d3b98085d4544"
+    }
+  ],
+  "total_bytes": 5236475,
+  "formal_session": 13234,
+  "resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+      "computations/closure_outer_candidate_source_record.py",
+      "--cell-manifest",
+      "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json",
+      "--port-candidates",
+      "notes/2026-11-12-tail-outer-strong-m20-port-norms-recovery.json",
+      "--response",
+      "notes/2026-11-12-closure-newg-strong-m20-frozen-d12-f225-response.json.gz",
+      "--ready",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--reference-defect",
+      "notes/2026-11-12-tail-outer-cell10-candidate-defect-r1.json",
+      "--out-prefix",
+      "notes/2026-11-12-closure-outer-source-cell10-r1",
+      "--rss-kib",
+      "40960"
+    ],
+    "wall_seconds": 150.38565874099731,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 34420,
+    "user_seconds": 9.057785,
+    "system_seconds": 3.028735,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  }
+}

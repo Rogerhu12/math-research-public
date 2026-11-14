@@ -1,0 +1,113 @@
+{
+  "schema": "R103-original-eight-part-drift-positive-mass-plan-v1",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "Complete application proof and prepared exact Fraction consumer. No actual Python parse or numerical execution is asserted.",
+  "source": {
+    "path": "computations/tail_r103_original_all_bins_centre_drift.py",
+    "sha256": "877ed62a25f854bcd77e52e3d75f41328645be45b4003ab361af8f8f7e331604",
+    "bytes": 19638,
+    "git_blob_sha": "9ab3fca175756e8bc5ff4c9395fd3708c257abe8"
+  },
+  "proof": {
+    "path": "notes/2026-11-13-tail-r103-all-original-bins-centre-drift.md",
+    "sha256": "08f40aa33fe37055cf2f4870f9f4b7c05566f53e9e15e0de18171fe9880fa95f",
+    "bytes": 6526,
+    "git_blob_sha": "55a1011d548757390b7c04f280a130794244b8e5"
+  },
+  "pinned_inputs": [
+    {
+      "role": "original_candidate",
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+      "sha256": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf"
+    },
+    {
+      "role": "original_summary",
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+      "sha256": "806fdb96b9aa6eafd921c07518a5b52218180d2182f7b8d18abb8e3d695638e4"
+    },
+    {
+      "role": "original_resource",
+      "path": "${ORIGINAL_RESOURCE}",
+      "sha256": "912ad6200027fdb445cd3e8636c1f6cd404a3480d2c013b6c4722e6888016820"
+    },
+    {
+      "role": "all8_original_J_primaries",
+      "path_rule": "${ORIGINAL_PRIMARY_DIR}/basename(original_summary.parts[k].output), k=0..7",
+      "sha256_rule": "original_summary.parts[k].output_sha256; all8 checked before output"
+    },
+    {
+      "role": "io_helper",
+      "path": "computations/tail_r103_local_carrier_centre_drift.py",
+      "sha256": "71b8e666c07e5e2a203dbde028ff8e0bb64a883551b0cd47d609773e88c848fe"
+    }
+  ],
+  "run_from": "repository/topics/visible-flex-larger-amplitude",
+  "child_argv_template": [
+    "python",
+    "computations/tail_r103_original_all_bins_centre_drift.py",
+    "--original-candidate",
+    "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+    "--original-summary",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "--original-resource",
+    "${ORIGINAL_RESOURCE}",
+    "--original-primary-dir",
+    "${ORIGINAL_PRIMARY_DIR}",
+    "--out-prefix",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-original-allbins-drift-r1",
+    "--rss-limit-mib",
+    "40"
+  ],
+  "wrapped_argv_template": [
+    "python",
+    "computations/strong_resource_run.py",
+    "--out",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-original-allbins-drift-r1-resource.json",
+    "--",
+    "python",
+    "computations/tail_r103_original_all_bins_centre_drift.py",
+    "--original-candidate",
+    "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz",
+    "--original-summary",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "--original-resource",
+    "${ORIGINAL_RESOURCE}",
+    "--original-primary-dir",
+    "${ORIGINAL_PRIMARY_DIR}",
+    "--out-prefix",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-original-allbins-drift-r1",
+    "--rss-limit-mib",
+    "40"
+  ],
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59",
+  "resolve_placeholders": "Resolve the exact resource by its archived SHA and choose the explicit local directory containing the8 original same-byte primary basenames. No literal placeholders, guessed source data, API binary read or primary reconstruction.",
+  "outputs": [
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-original-allbins-drift-r1-summary.json",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-original-allbins-drift-r1-bins.jsonl.gz",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-r103-original-allbins-drift-r1-resource.json"
+  ],
+  "input_availability": "All scientific inputs were archived already before current pending25 mean/frame group. This consumer does not depend on those25 files and does not justify skipping their recovery/archival priority.",
+  "execution_order": [
+    "Read and verify original pending25 manifests/files first; absence of execution access is not evidence of loss. Archive actual originals with normal CLI Git.",
+    "Perform actual AST checks of this source and its pinned I/O helper; preserve all original hashes and resource exit0.",
+    "Run this pure Fraction consumer with one fresh owned prefix. No PM/PA/A/CF, Arb, Node, source evaluation or ODE is run.",
+    "Record actual formal exit, complete primary SHA/size, all64 mass-feasibility checks,1740 coverage and resulting whole-segment centre bound.",
+    "If successful, add its whole old-radial-to-old-centred position bound to the separately fixed left/right old-centred-to-true conditional composition. Reference-vector difference from recentering is exactly zero; actual candidate normals remain unasserted."
+  ],
+  "exact_positive_budget": {
+    "coverage": "Original8parts,64true positive bins,1740 complete mean/J leaves",
+    "true_mass": "Mbin=I00+I01=integral w dr",
+    "leaf_mass": "dx*w_lower*rx_lower <= integral_leaf w dr <= dx*w_upper*rx_upper",
+    "density": "(22/7)^2/16*r_upper*w_upper*J_full/(rx_lower*min(1,D_lower)^2)",
+    "constraints": "Each exact leaf-mass interval and same true total-bin mass",
+    "optimization": "Fill total M*=min(original total upper,sum leaf uppers) from all lower masses, highest density first; this comparison allocation is not the true measure",
+    "output_bound": "Minimum of three valid directed upper bounds: greedy optimum upper, max density times total mass upper, independent leaf-mass upper sum",
+    "arithmetic": "Exact capacities/comparisons; every positive cost sum rounded upward at128 significant binary bits, no exponent cutoff",
+    "complete_J": "All0,2,...,80 kept. R77 may tighten only the same scalar mode."
+  },
+  "phase_uniformity": "For the explicitly defined angular translate h_alpha(r,theta)=h_0(r,theta-alpha), complete mean and complex Fourier l1 norms are invariant; the bound is uniform over all alpha. No other varying-shape family or prefix/held matching is asserted.",
+  "mathematical_scope": "Actual candidate reference drift only; exact outer field error, Cartesian interpolant bridge, outer0..9 and closed-surface completion remain unpaid.",
+  "no_new_theorem_number_requested": true,
+  "no_numeric_result_or_exitcode_claimed": true
+}

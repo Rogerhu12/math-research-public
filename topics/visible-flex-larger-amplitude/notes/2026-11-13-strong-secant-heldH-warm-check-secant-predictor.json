@@ -1,0 +1,147 @@
+{
+  "scope": "Use two accepted full fields as a secant predictor for the actual BVP.\n\nOnly the initial guess changes. Both input surfaces must have completed the\noriginal actual-tail and physical audits. Their gauge, spectrum, reference\ncharts and tail problem agree; their physical prefix profiles may differ.\nEvery new candidate still runs the original full Newton, true-H nonlinear\ntail, full Jacobian, final audit, RMS and physical boundary acceptance gates.\nThis predictor is not a control derivative or an accepted solution.\nThe optional initial-height hold subtracts a C2 quintic taper from the warm\nheight field only. This enables exact reuse of the current audited tail at\nthe first outer anchor; every changed H still requires the original solve.\n",
+  "current_reference": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24.json.gz",
+  "current_raw": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-raw-collocation.json.gz",
+  "current_reference_sha256": "144dc8f8fc3698414c066a5529f70b4c0a4701b2b6fd67598ab6a6dcd1439595",
+  "current_raw_sha256": "baeb4cfe7ba1d9c74e3d51d0aa6b4cfe758dd40c1710daa8c339e71214ec16ea",
+  "previous_reference": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz",
+  "previous_raw": "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz",
+  "source_sha256": {
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/strong_secant_actual_bvp.py": "99817229111f91bbec5b27a241a5eb20ff6cad6bb4eca58d7ebd85fcd3dc2a30",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24.json.gz": "144dc8f8fc3698414c066a5529f70b4c0a4701b2b6fd67598ab6a6dcd1439595",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-raw-collocation.json.gz": "baeb4cfe7ba1d9c74e3d51d0aa6b4cfe758dd40c1710daa8c339e71214ec16ea",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz": "8fe885fe87eec09e4d0d9508099a82c48a9627f8568021e2bfe28907f62d1f5e",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-x-000.npy.gz": "c0c0aacb6d1c71272beb96899f66262efb7dd5d56f1d7765af6d7a2f86769b7c",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-y-000.npy.gz": "b10a16c2bfe80bd5e0f504e5aef7ede84e7fcc07f75da932a559f7232a23c19c",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-p-000.npy.gz": "7823be999b0a85330460380bb8d521065e124976641527b8dae9a2c9834427a4",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-cubic-000.npy.gz": "5987e0e568e33cbcd2f2ec2f6fbfa7a6eab6a3ccbbb5091d520a7b2bc92edb6d",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation-cubic-001.npy.gz": "801ec5a839f4fa2e5202c1ad399bbd7924e11e7070106ade60a89786c899c17c",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-x-000.npy.gz": "fde42714bf28fddb3241406c75c261fa292a1f99afb42651179c9ff56ba22771",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-y-000.npy.gz": "1fdfd46ecf0a04b83cbdf255930816a6ce6b858100cd33b4c730292c24ad79f2",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-fixed24-raw-p-000.npy.gz": "e24d459ed4bbdd876f9015d82080fee69c8b7b9f570c714fcf60aa343de0a672",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-cubic-000.npy.gz": "8f4a6ccdf01bb55b1251ef99d1fe5a453bbc862173c246d153fb57956fcc6b58",
+    "notes/2026-11-12-strong-actual-q096-ci-actions-43302113873-1-strong-raw-collocation-cubic-001.npy.gz": "f31e1d5cc33ca48e9478dc357b2b79a5d780af166299f765d669eed2994c8174"
+  },
+  "target_core": [
+    0.09799996014428179,
+    -0.006719260307389374,
+    -0.00041767333804088453
+  ],
+  "external_shifts": {
+    "vu": -0.00039999999999995595,
+    "descending_turn_curvature": -0.005000000000000782
+  },
+  "scale": 2.0,
+  "original_current_mesh_preserved": true,
+  "previous_mesh_identical": false,
+  "previous_field_evaluation": "complete accepted numerical cubic at the current material nodes",
+  "geometry_increment": {
+    "delta": 0.001476727901815189,
+    "boost_length": 0.0006507083068892638,
+    "boost_speed": -0.0019540128331656526
+  },
+  "full_direction_shape": [
+    159237
+  ],
+  "full_direction_float64le_sha256": "f685d5f3665b2d3868c9edf5f6641f29bc10bb337293d5034dd34bab857e0b4f",
+  "pure_secant_direction_float64le_sha256": "05efa2f7aa18b0c541baef8bd2805873afffcdc651dbb38cb7477b3cdbbf6321",
+  "initial_complete_height_hold": {
+    "scope": "Initial guess only; no boundary condition or accepted state is changed.",
+    "material_taper": "u^3 (10 - 15u + 6u^2), u normalized over the accepted material interval",
+    "taper_value_first_second_jet_zero_at_inlet": true,
+    "taper_value_one_and_first_second_jet_zero_at_terminal": true,
+    "removed_terminal_raw_state_increment": [
+      3.313038689353601e-06,
+      -5.726266419746006e-09,
+      -1.2906238306724694e-11,
+      -8.94586946873441e-13,
+      -6.65403202741536e-14,
+      -1.2210695663708451e-14,
+      1.092154519987044e-15,
+      2.444448825142571e-16,
+      7.498130826750304e-18,
+      -1.1562979475414507e-16,
+      2.9105451539075126e-17,
+      -1.097957311050997e-16,
+      9.159174201391834e-16,
+      -4.42431755284056e-15,
+      1.6051327503294096e-14,
+      -4.668147343166522e-14,
+      1.0644526332982963e-13,
+      -1.8051887177133691e-13,
+      1.9671040787275386e-13,
+      -4.147069899003409e-14,
+      -2.4903284631712234e-13,
+      4.012865187767062e-13,
+      -1.8054972819284402e-13,
+      -1.0141351369930681e-12
+    ],
+    "maximum_raw_field_change": 3.313038689353601e-06,
+    "maximum_physical_field_change": 2.9817348204182406e-07,
+    "baseline_complete_H": [
+      -2.385964780450264e-05,
+      2.039070964906233e-08,
+      3.1362397742086814e-11,
+      1.6058111756961206e-12,
+      9.58409299121211e-14,
+      1.4802304156852627e-14,
+      -6.26531972296016e-16,
+      -8.279273071863361e-17,
+      -3.966196574594415e-18,
+      3.0068867666079973e-18,
+      -1.4467073234615565e-19,
+      6.910135370075143e-18,
+      -4.0707889788004254e-17,
+      1.900071933957717e-16,
+      -7.29329149134974e-16,
+      2.175224817964419e-15,
+      -5.1083418631577236e-15,
+      8.895712524012966e-15,
+      -9.985675077878424e-15,
+      2.4459624234294438e-15,
+      1.2227882979209861e-14,
+      -2.0336731180755265e-14,
+      9.366930925564935e-15,
+      5.248783915679267e-14
+    ],
+    "predicted_complete_H_bitwise_equal": true,
+    "complete_H_float64le_sha256": "ef0f9408c386aefdbf92ab982029ddb59e77686569460d7adea3740cc6853807",
+    "original_near_inlet_correction_has_zero_terminal_weight": true,
+    "original_exact_audited_packet_guard_still_required_for_reuse": true,
+    "changed_H_always_requires_original_nonlinear_tail_and_full_J": true
+  },
+  "warm_only": true,
+  "control_derivative_claim": false,
+  "nonlinear_solution": false,
+  "original_complete_Newton_tail_RMS_boundary_and_audit_required": true,
+  "source_transforms": [
+    {
+      "before": "import types\n",
+      "after": "import types\nfrom strong_secant_actual_bvp import verified_secant\n",
+      "count": 1
+    },
+    {
+      "before": "    if external_shifts and not options.response_data:\n",
+      "after": "    if external_shifts and not options.response_data and not verified_secant(\n            options.actual_reference, options.actual_reference_raw, target, external_shifts):\n",
+      "count": 1
+    },
+    {
+      "before": "    warm = None\n",
+      "after": "    warm = verified_secant(options.actual_reference, options.actual_reference_raw,\n        target, external_shifts, payload=True)\n",
+      "count": 1
+    },
+    {
+      "before": "complete_actual_tangent_warm=warm['provenance'] if warm else None",
+      "after": "complete_accepted_secant_warm=warm['provenance'] if warm else None",
+      "count": 1
+    },
+    {
+      "before": "Complete actual-J warm field on the original residual quadrature and a complete-mean C2 cubic physical image; unsolved comparison only.",
+      "after": "Complete two-accepted-field secant warm on the original residual quadrature and original physical cubic screen; no control derivative or new solution is claimed.",
+      "count": 1
+    }
+  ],
+  "transformed_source_sha256": "9b69253b227dcf4972b2709102c8ef593d7155127c8b9a0b2fe9080c88c2c620",
+  "original_source_files_unchanged": true
+}

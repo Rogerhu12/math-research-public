@@ -1,0 +1,82 @@
+{
+  "scope": "Accepted original Newton iterate for the first real q106 warm H, recovery only. Not a converged tail, no full-J response or audit, no accepted prefix or physical surface.",
+  "created_utc": "2026-11-13T10:08:59.920951+00:00",
+  "active_run_unchanged": true,
+  "call": 1,
+  "iteration": {
+    "iteration": 1,
+    "norm": 0.000267471900341482,
+    "minA": 0.8754255254272558,
+    "minD": 0.9999346371423402
+  },
+  "states_shape": [
+    577,
+    56
+  ],
+  "complete_cutHeight": [
+    -2.5838990455360474e-05,
+    2.3766518108706272e-08,
+    3.9301649804808464e-11,
+    2.349379984844834e-12,
+    -5.0582068403915764e-14,
+    -2.4104387662763766e-13,
+    -4.401032025643495e-15,
+    5.251177756126867e-13,
+    -3.04896534551517e-14,
+    3.3062091189871994e-14,
+    6.670117716890964e-14,
+    -7.54012668149388e-14,
+    1.141002851107312e-13,
+    -1.1141336969538023e-13,
+    -1.8663556633317418e-13,
+    7.695539171678715e-14,
+    2.9011568638866895e-14,
+    7.662268003392237e-14,
+    6.358371879846053e-14,
+    -1.4150272009500933e-14,
+    -1.9336019787373843e-13,
+    5.884711035832169e-14,
+    -1.7517809005697645e-13,
+    3.6444723651048586e-14,
+    -5.246947909478792e-14,
+    2.917465076641756e-13,
+    2.1268395429565284e-13,
+    1.7112512431028605e-13
+  ],
+  "modes": 28,
+  "finite_tail_physical_depth": 8,
+  "tail_tolerance": 2e-09,
+  "final_resource_exit_not_yet_observed": true,
+  "entry": "computations/strong_full_tangent_actual_bvp_v2.py",
+  "entry_sha256": "44a0c4c06a6171ddb2219b58bbdbfb8336aacf3454f674bdfdba874b9bdf81d5",
+  "actual_launch_plan": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-launch-plan.json",
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-initial-tail-iteration0001-recovery.json.gz",
+      "bytes": 329433,
+      "sha256": "121b87fbe83dac9339071749088a3cabf0c79e0985c2053f901aa643149eacc9"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-config.json",
+      "bytes": 2907,
+      "sha256": "872f9779a799d667f687f1bc03812c0aa219c4ca37d88737a9e64fcdd935e7e1"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-base-profile.json",
+      "bytes": 534,
+      "sha256": "febefa49f09e94bf61cbafef7b781ac57a1a98a485b1be009382df4c96b70bb6"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-actual-three-control-adapter.json",
+      "bytes": 53927,
+      "sha256": "15d0c1dd95a22afaca99f240be82f51a9fa77dc3861ca4b8bca00890eda38488"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-initial-tail-iteration0001-recovery-trace.jsonl.gz",
+      "bytes": 153374,
+      "sha256": "044960eca71341d89968214844843ef1d3d841ed61bb051468823941239186ae"
+    }
+  ],
+  "total_bytes": 540175,
+  "recovery_note": "Use as --tail-warm-checkpoint only with this exact warm H after the original guard. Do not pair the old q098 tangent manifest with these new checkpoint states. Full original nonlinear/Jacobian/audit gates still required; no live run has been restarted."
+}

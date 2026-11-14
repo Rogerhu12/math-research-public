@@ -1,0 +1,47 @@
+{
+  "schema": "owned-tool-session-interruption-evidence-v1",
+  "created_utc": "2026-11-13T15:33:30.161561+00:00",
+  "scope": "Resource interruption of the incomplete missing-two derivative phase; not a mathematical rejection or a new accepted derivative. Actual M32 solve, fullmean audit, and six earlier responses are unchanged.",
+  "tool_session_id": 42370,
+  "tool_reported_exit_code": 130,
+  "explicit_interrupt": "write_stdin Ctrl-C on session 42370",
+  "owned_wait4_resource_present": false,
+  "child_final_exit_code": null,
+  "child_final_resource_claimed": false,
+  "last_recorded_prefix_event": {
+    "event": "owned_prefix_resource_heartbeat",
+    "elapsed_seconds": 1431.9019572149991,
+    "phase": "factorizing-disk-block-jacobian",
+    "stats": {
+      "jacobian_callbacks": 216,
+      "jacobian_points": 5280,
+      "assembled_matrices": 1,
+      "factors": 0,
+      "linear_solves": 0,
+      "maximum_numerical_backward_error": 0.0
+    },
+    "prefix": {
+      "pid": 9,
+      "PPid": 8,
+      "VmHWM": 184056,
+      "VmRSS": 178440,
+      "Threads": 18
+    },
+    "direct_owned_children": [],
+    "prefix_user_seconds": 2328.456917,
+    "prefix_system_seconds": 46.37002,
+    "prefix_peak_rss_kib": 184056
+  },
+  "last_log_modified_utc": "2026-11-13T15:32:08.565506+00:00",
+  "seconds_without_log_update_at_read": 81.59602499008179,
+  "completion_outputs_present": false,
+  "new_columns_completed": 0,
+  "old_six_recomputed": false,
+  "source_and_math_flags_unchanged": true,
+  "reason": "Original same-matrix QR completed in 16.102295321 seconds with Threads2; this phase remained at factors0/solves0 for more than1200 seconds after QR start with Threads18. Start-environment correction is being applied to a fresh retry. This observation alone does not establish a general performance ratio.",
+  "old_plan": {
+    "file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m32-postaccept-followup-plan-r1.json",
+    "sha256": "624cffa4dd179a367058914805fa354d2dd0d11f520049696f9688a08ada06f9"
+  },
+  "retry_prefix": "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2"
+}

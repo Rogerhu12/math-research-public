@@ -1,0 +1,106 @@
+{
+  "schema": "authentic-live-tail-trial-recovery-manifest-v1",
+  "scope": "Snapshot one authentic live accepted inner tail trial, without changing it.\n\nAI-assisted research workflow, strong_recovery, 2026-11-13.\nAn accepted line-search trial is only a recovery state. Its complete final\nvariational evaluation, original tail audit and coupled BVP gates remain.\nThis storage consumer calls the existing exact stage-input binding checker;\nit never starts Node, an ODE, a Jacobian, or a replacement numerical solve.\n",
+  "created_utc": "2026-11-13T16:24:49.029797+00:00",
+  "actual_original_session": 40663,
+  "original_step": {
+    "iteration": 2,
+    "norm": 1.8519471491503151e-10,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 1,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  },
+  "complete_states_shape": [
+    577,
+    64
+  ],
+  "complete_H_verified": true,
+  "stage_binding_owned_exitcode": 0,
+  "checked_stage_inputs": 112,
+  "complete_stage_count": 576,
+  "partial_Jacobian_only": true,
+  "final_original_tail_full_J_and_audit_still_required": true,
+  "actual_coupled_BVP_not_yet_accepted": true,
+  "original_live_job_unchanged": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-binding.json",
+      "bytes": 45521,
+      "sha256": "9d47473013c6501b1a79421be54edc1e62523f53ee43d61136dd730b563a2cc2",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-binding.json",
+      "original_sha256": "9d47473013c6501b1a79421be54edc1e62523f53ee43d61136dd730b563a2cc2"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-config.json",
+      "bytes": 2900,
+      "sha256": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-config.json",
+      "original_sha256": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-heartbeat.json",
+      "bytes": 343,
+      "sha256": "573d3965b0f135023610da3d0e534bce107fbd5279850d96de6d3c9f83ff8235",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-heartbeat.json",
+      "original_sha256": "573d3965b0f135023610da3d0e534bce107fbd5279850d96de6d3c9f83ff8235"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-ownership.json",
+      "bytes": 2045,
+      "sha256": "df24e618c3118dbbe115c34935ba87c2935101987c275fc6e0be1c9d7b9f38bd",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-ownership.json",
+      "original_sha256": "df24e618c3118dbbe115c34935ba87c2935101987c275fc6e0be1c9d7b9f38bd"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-plan.json",
+      "bytes": 2289,
+      "sha256": "ba2a8858ceb4786283f50e71ed39c43ea79918e6239b8e5449f42e36eca46161",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-plan.json",
+      "original_sha256": "ba2a8858ceb4786283f50e71ed39c43ea79918e6239b8e5449f42e36eca46161"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-resource.json",
+      "bytes": 1809,
+      "sha256": "a328e718595222f8c7f91b2e78aa41964e0c1a785684211217844d8aee5eac51",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-resource.json",
+      "original_sha256": "a328e718595222f8c7f91b2e78aa41964e0c1a785684211217844d8aee5eac51"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-stdout.log",
+      "bytes": 1888,
+      "sha256": "c2581481ca175accedbabc90ff7a73f56eb6e569dc1030f96cc5391c12e37cbc",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-stdout.log",
+      "original_sha256": "c2581481ca175accedbabc90ff7a73f56eb6e569dc1030f96cc5391c12e37cbc"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-trace.jsonl",
+      "bytes": 559861,
+      "sha256": "adfd6e7e0e7860df5aad57ae250d2002a07f0ff52b1995e38246596ddc41ce9e",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1-trace.jsonl",
+      "original_sha256": "adfd6e7e0e7860df5aad57ae250d2002a07f0ff52b1995e38246596ddc41ce9e"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1.json.gz",
+      "bytes": 376320,
+      "sha256": "b27b35be3123286c9ba60bcce8e182c8bf38ed2feb560204b9c1f0406c4dfec4",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-initial-tail-iteration02-recovery-r1.json.gz",
+      "original_sha256": "b27b35be3123286c9ba60bcce8e182c8bf38ed2feb560204b9c1f0406c4dfec4"
+    },
+    {
+      "file": "computations/strong_archive_live_tail_trial.py",
+      "bytes": 9220,
+      "sha256": "4e42d4210ab29f1d019c899682dd5dc620b4fc590a564348951faf9a9f5c4932",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_archive_live_tail_trial.py",
+      "original_sha256": "4e42d4210ab29f1d019c899682dd5dc620b4fc590a564348951faf9a9f5c4932"
+    },
+    {
+      "file": "computations/strong_exact_stage_recovery_binding.py",
+      "bytes": 4494,
+      "sha256": "af4a5ef9c3bf4b96905785bbcf336f2832d4d88dc6e0040f9607787041cf14e3",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_recovery_binding.py",
+      "original_sha256": "af4a5ef9c3bf4b96905785bbcf336f2832d4d88dc6e0040f9607787041cf14e3"
+    }
+  ],
+  "total_bytes": 1006690
+}

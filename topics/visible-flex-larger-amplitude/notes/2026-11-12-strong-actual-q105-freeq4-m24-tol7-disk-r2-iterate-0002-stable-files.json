@@ -1,0 +1,53 @@
+{
+  "scope": "Exact immutable copy of the first original-Newton accepted inner iterate. Not an accepted nonlinear-tail solution or physical surface. All original array bytes and the original raw manifest are unchanged; copy prevents the running recorder keep-last-two policy from deleting this published recovery point.",
+  "created_utc": "2026-11-12T13:24:55.036642+00:00",
+  "active_session": 4388,
+  "source_manifest": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002.json.gz",
+  "preserved_manifest": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002.json.gz",
+  "alpha": 0.125,
+  "newton_iteration": 1,
+  "inner_call": 1,
+  "solver_success": false,
+  "physical_surface": false,
+  "actual_coupled_acceptance_pending": true,
+  "all_piece_hashes_checked": true,
+  "files": [
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002-x-000.npy.gz",
+      "bytes": 15080,
+      "sha256": "fad047913c869d7b510162b41f59b9eb0da53ea602f70f0331aee165a0af30c6"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002-y-000.npy.gz",
+      "bytes": 1124920,
+      "sha256": "c08e2f278102de52c205b78dd518107a8ab9fdfe0ba329cf9a11b4de6dbfd73e"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002-p-000.npy.gz",
+      "bytes": 399,
+      "sha256": "057a15ddcd6bbd70266c6abce8d1f92b6eae6d484ee56c5ad58fa19044f95f01"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002-cubic-000.npy.gz",
+      "bytes": 3883994,
+      "sha256": "b3bc002da6fbaba024f71ac77371a246df084490acb6e59d5b6938a0f13d8332"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002-cubic-001.npy.gz",
+      "bytes": 659334,
+      "sha256": "4ed2a6b7992f7e4c1aa3ccb9c781cc9185033db2b932bbf5194cbd773cef24a7"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0002/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0002.json.gz",
+      "bytes": 5220,
+      "sha256": "f68c61714f4a29ee94cc0a94595818baf8423466906a93a8220de015f7584c93"
+    }
+  ],
+  "total_bytes": 5688947,
+  "excluded": [
+    "active latest pointer",
+    "active iterate ledger",
+    "active stdout log",
+    "active disk events"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/computations/root_R175_quintic_low46_defect_Duhamel.py",
+    "--residual",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R174-complete-continuous-residual-r1-certificate.json.gz",
+    "--resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R174-composition-run1-resource.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R175-quintic-defect-r1",
+    "--rss-kib",
+    "196608"
+  ],
+  "wall_seconds": 120.29353857040405,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 60788,
+  "user_seconds": 65.187768,
+  "system_seconds": 2.356969,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

@@ -1,0 +1,161 @@
+{
+  "scope": "Actual original accepted M28 and M32 identities, full raw fields and same-g constructors read back; zero and six nonzero coarse increments are exactly embedded as initial guesses only. Both runs owned0, no Flow/ODE/Node/new solver. The original partial-response scope and missing half vectors are retained; no M32 derivative or accepted new target is claimed.",
+  "created_utc": "2026-11-13T15:08:11.298642+00:00",
+  "actual_fine_primary_sha256": "4c0e13b2ea4e2541e75891a3b4fafa93ffc2f8331cfdcdc7e4083ac3cbfef1ad",
+  "new_solution_claim": false,
+  "new_Node_or_Flow_started": false,
+  "resources": [
+    {
+      "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+      "task_prefix": "strong-coarse-response-m32-warm-zero-prepare-r1",
+      "command": [
+        "python",
+        "-u",
+        "computations/strong_coarse_response_warm_actual_bvp.py",
+        "--coarse-reference",
+        "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+        "--coarse-raw",
+        "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz",
+        "--coarse-tail",
+        "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz",
+        "--coarse-response-data",
+        "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+        "--actual-reference",
+        "notes/2026-11-13-strong-q122-m32-sameg-actual-r1.json.gz",
+        "--actual-reference-raw",
+        "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-raw-collocation.json.gz",
+        "--actual-reference-tail",
+        "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response_0003.json.gz",
+        "--coarse-warm-prepare-report",
+        "notes/2026-11-13-strong-coarse-response-m32-warm-zero-prepare-r1.json"
+      ],
+      "started_utc": "2026-11-13T15:03:35.777449+00:00",
+      "finished_utc": "2026-11-13T15:03:37.850103+00:00",
+      "wall_seconds": 2.087922279999475,
+      "exitcode": 0,
+      "termination_signal": null,
+      "wait4_observed": true,
+      "wait_status": 0,
+      "peak_rss_kib": 45320,
+      "user_seconds": 0.7829919999999999,
+      "system_seconds": 0.188099,
+      "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+      "received_supervisor_signals": [],
+      "owned_child_pid": 6,
+      "supervisor_pid": 5,
+      "supervisor_pid_namespace": "pid:[4026532253]",
+      "automatic_restarts": 0
+    },
+    {
+      "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+      "task_prefix": "notes/2026-11-13-strong-coarse-response-m32-warm-six-increment-prepare-r1",
+      "command": [
+        "python",
+        "-u",
+        "computations/strong_coarse_response_warm_actual_bvp.py",
+        "--coarse-reference",
+        "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+        "--coarse-raw",
+        "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz",
+        "--coarse-tail",
+        "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz",
+        "--coarse-response-data",
+        "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+        "--actual-reference",
+        "notes/2026-11-13-strong-q122-m32-sameg-actual-r1.json.gz",
+        "--actual-reference-raw",
+        "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-raw-collocation.json.gz",
+        "--actual-reference-tail",
+        "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response_0003.json.gz",
+        "--coarse-warm-prepare-report",
+        "notes/2026-11-13-strong-coarse-response-m32-warm-six-increment-prepare-r1.json",
+        "--coarse-control",
+        "actual_q1=.0001",
+        "--coarse-control",
+        "actual_q4=.000001",
+        "--coarse-control",
+        "actual_c6=.0000001",
+        "--coarse-control",
+        "vu=.00002",
+        "--coarse-control",
+        "descending_turn_curvature=-.00025",
+        "--coarse-control",
+        "start_acceleration=-.0002"
+      ],
+      "started_utc": "2026-11-13T15:05:32.601263+00:00",
+      "finished_utc": "2026-11-13T15:05:35.656721+00:00",
+      "wall_seconds": 3.0584886510005163,
+      "exitcode": 0,
+      "termination_signal": null,
+      "wait4_observed": true,
+      "wait_status": 0,
+      "peak_rss_kib": 45668,
+      "user_seconds": 0.785065,
+      "system_seconds": 0.242315,
+      "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+      "received_supervisor_signals": [],
+      "owned_child_pid": 7,
+      "supervisor_pid": 6,
+      "supervisor_pid_namespace": "pid:[4026533011]",
+      "automatic_restarts": 0
+    }
+  ],
+  "files": [
+    {
+      "file": "computations/strong_coarse_response_warm_actual_bvp.py",
+      "sha256": "ff5acad191d51544bfebaf46902f7e58f89a2e4575130f9b33932aa25ef8972c",
+      "bytes": 22403
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-zero-prepare-r1.json",
+      "sha256": "e1a67e518ae311e493bd87595a2a1cfc56860cdde3cd81904fa1cb651d83f676",
+      "bytes": 7929
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-zero-prepare-r1-resource.json",
+      "sha256": "93bf8baac5be2d4b655359a87dbcf641409172868040ed46a8b13adb99f361f6",
+      "bytes": 1982
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-zero-prepare-r1-heartbeat.json",
+      "sha256": "68d3e741ec4b3423891983f6942b3f6685912a54ed7f1588f99115acf4ac8e5f",
+      "bytes": 304
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-zero-prepare-r1-ownership.json",
+      "sha256": "72cd4aae742d79af1e02e67a8093a30150c9a6601caaaa73cbf3595bd529aba6",
+      "bytes": 2198
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-zero-prepare-r1-stdout.log",
+      "sha256": "02771d9cae35d004708109825460415dcc6c50ddcf31f9dd039f6c4a4cc07f91",
+      "bytes": 2080
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-six-increment-prepare-r1.json",
+      "sha256": "c30f33260b8ed3a5e66d7f437f0d97d2805ddf2e71dcd57a646be71ff44d5888",
+      "bytes": 10810
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-six-increment-prepare-r1-resource.json",
+      "sha256": "fc41fa48a852a5d69d2aeb0cae5e8cd14513d7cf43da0aa55f09b5cad97d1283",
+      "bytes": 2317
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-six-increment-prepare-r1-heartbeat.json",
+      "sha256": "dfba4f309619f3713d67c4d093cc54ff6f0796810b2952a46fbcb0f8c849b697",
+      "bytes": 339
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-six-increment-prepare-r1-ownership.json",
+      "sha256": "d4d8e9dca02095ec5c1a75cc6ea3fd8b4c3c8cf217082167d51958a42af85b5d",
+      "bytes": 2560
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-warm-six-increment-prepare-r1-stdout.log",
+      "sha256": "ca0f887fee60ceeba004d91f4d6830764f5796b3ed4b8acc590cf32593cf9851",
+      "bytes": 2376
+    }
+  ],
+  "total_bytes": 55298
+}

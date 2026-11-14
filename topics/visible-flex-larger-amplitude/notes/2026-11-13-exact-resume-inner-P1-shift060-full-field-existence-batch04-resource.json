@@ -1,0 +1,22 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-actual-LF-shift060-conditional-certificate-v1.py",
+    "--stage",
+    "sources",
+    "--first-cell",
+    "171",
+    "--last-cell",
+    "224",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-actual-LF-shift060-conditional-batch04.json.gz"
+  ],
+  "wall_seconds": 25.924798250198364,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 46536,
+  "user_seconds": 9.141542,
+  "system_seconds": 0.42830199999999996,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

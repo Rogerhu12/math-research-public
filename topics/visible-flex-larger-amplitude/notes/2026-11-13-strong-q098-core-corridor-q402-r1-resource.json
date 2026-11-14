@@ -1,0 +1,31 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "notes/2026-11-13-strong-q098-core-corridor-q402-r1",
+  "command": [
+    "python",
+    "-u",
+    "computations/strong_core_corridor_refresh.py",
+    "--input",
+    "notes/2026-11-13-strong-q098-m28-newjac-actual-r1.json.gz",
+    "--landing-q",
+    ".402",
+    "--out",
+    "notes/2026-11-13-strong-q098-core-corridor-q402-r1.json"
+  ],
+  "started_utc": "2026-11-13T09:45:22.369018+00:00",
+  "finished_utc": "2026-11-13T09:45:22.878958+00:00",
+  "wall_seconds": 0.5201654709999275,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 12404,
+  "user_seconds": 0.14582399999999998,
+  "system_seconds": 0.029464999999999998,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 5,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026533009]",
+  "automatic_restarts": 0
+}

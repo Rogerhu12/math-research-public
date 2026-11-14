@@ -1,0 +1,64 @@
+{
+  "schema": "actual-current-M32-original-inlet-zero-preflight-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "computations/root_current_complete_warm_inlet_preflight.py",
+      "sha256": "d66e49190a1ac65608b7effbeae04106ec3f86b32cb7241a555a0a00b4d848eb",
+      "bytes": 8866,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_current_complete_warm_inlet_preflight.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-M32-original-inlet-preflight-r1-resource.json",
+      "sha256": "15ddb8d40f44f0f1e39fed379b887c609f9f6ac3eec02ffc6c2c8927be1f060a",
+      "bytes": 1283,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/inlet-zero-owned-r2-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-M32-original-inlet-preflight-r1-first-prefix-collision-resource.json",
+      "sha256": "77a1219c0c72c94ef03d99b4923b396c10886ab9222a6f3c24d9e7ef072cfe5e",
+      "bytes": 1296,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/current-inlet-zero-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-M32-original-inlet-preflight-r1-proof.md",
+      "sha256": "8be7595560010328d67e4f48d1072b949a2de7447d21a296f6b8eadc974384fb",
+      "bytes": 2891,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/current-inlet-preflight-note.md"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-M32-original-inlet-preflight-r1-report.json",
+      "sha256": "907a3e1537d987fb6f13123683d37fe66e20659d61ba4361f5f1146b27113a95",
+      "bytes": 27901,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/current-inlet-zero-r2-report.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-M32-original-inlet-preflight-r1-config.json",
+      "sha256": "1a8c7ee841463e807fd7b3612b4071f449b8cf70764209f02b274bd41fa8f89d",
+      "bytes": 2726,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/current-inlet-zero-r2-config.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-M32-original-inlet-preflight-r1-base-profile.json",
+      "sha256": "b6fdc6d6a1a9a058ee8a16bb66e3956acbea5ab77f2ad7fa3ec44651e316799d",
+      "bytes": 547,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/current-inlet-zero-r2-base-profile.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-M32-original-inlet-preflight-r1-actual-three-control-adapter.json",
+      "sha256": "97950309786eb6eea8eb06ca033ded403c5c8466a995c2ecdd87cdef13e31907",
+      "bytes": 9484,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/current-inlet-zero-r2-actual-three-control-adapter.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-M32-original-inlet-preflight-r1-summary.json",
+      "sha256": "5958590e4399bea6d6ec826838008e6b04d0490a7a1aeaa1825b66fdd0e2131e",
+      "bytes": 16120,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/current-inlet-zero-r2-summary.json"
+    }
+  ],
+  "total_bytes": 71114,
+  "actual_original_zero_inlet_regression_all_four_values_exact": true,
+  "actual_full32_core_and_H_bits_unchanged": true,
+  "new_geometry_RMS_Jacobian_Node_or_BVP": false
+}

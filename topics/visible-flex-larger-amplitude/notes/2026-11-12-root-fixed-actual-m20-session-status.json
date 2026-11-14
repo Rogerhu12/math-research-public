@@ -1,0 +1,15 @@
+{
+  "observed_utc": "2026-11-12T06:25:13.415967+00:00",
+  "tool_session": 14958,
+  "tool_poll": "Unknown process id after wait cancellation; no exit code observed",
+  "formal_completion": false,
+  "accepted_recovery_file": "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-accepted-before-session-loss.json.gz",
+  "accepted_recovery_sha256": "0584d3bff42a8ca0cb66ac6471d8f645b2c04c54a66a209034ade2f0cb7742f2",
+  "bytes": 235933,
+  "note": "Accepted recovery-only tail state. Preserve it and check final resource/result files before starting another large job.",
+  "latest_check_utc": "2026-11-12T06:26:59.637118+00:00",
+  "last_trace_utc": "2026-11-12T06:23:23.654Z",
+  "final_resource_exists": false,
+  "physical_success_packet_exists": false,
+  "namespace_visibility": "Each exec has a distinct PID namespace; an empty new-exec process list is not a proof of the old process exit."
+}

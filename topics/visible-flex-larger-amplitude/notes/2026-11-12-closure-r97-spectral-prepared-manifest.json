@@ -1,0 +1,86 @@
+{
+  "status": "Prepared only: fresh R92-domain spectral re-enclosure with full R97 input. No new spectral numerical result.",
+  "files": [
+    {
+      "path": "computations/closure_outer_low_spectral_r97_v1.js",
+      "blob": "26f4b4d99916708646646f7b41990e3a75444281",
+      "sha256": "4c8af5bd70e354ed85936df1067ee91d8fb76684b2a2695c4dcb6b99854df056",
+      "bytes": 15159
+    },
+    {
+      "path": "computations/closure_outer_low_spectral_r97_wide_tail_v1.js",
+      "blob": "7c0a1802d446c9d33a30262b324a67319c618368",
+      "sha256": "765d0cf1c542b71321b49c8dfb851fa7f460dc11d3d421fa92e3caabe43c7772",
+      "bytes": 10553
+    },
+    {
+      "path": "notes/2026-11-12-closure-r97-spectral-prepared-interface.md",
+      "blob": "2dca31f0c0fcec6f829f2002c324360f9f77d255",
+      "sha256": "6d2f29a3a9379db6cdacb44d4426328dc7d8b3bebb8543f593b380a25d5eb1a8",
+      "bytes": 5191
+    }
+  ],
+  "upstream_complete_recovery_source": {
+    "path": "computations/root_full46_source_cut_transfer_recovered_v2.py",
+    "blob": "a5077cc15c98c3735abd19e6251d8e43acc88f86",
+    "sha256": "f989a3f2a07b70d0da36be3a05a87509e9d254215d0a11f7726b48b3767189ef",
+    "status": "Prepared new source, not bytes of original formal success"
+  },
+  "fixed_inputs": [
+    {
+      "key": "r91",
+      "path": "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+      "sha256": "badc734ef590c747d62fc75bd57ce2571bd89e8c522604b691406f469d47392f"
+    },
+    {
+      "key": "budget",
+      "path": "notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval.json",
+      "sha256": "86c9b5604a765a50028865a4f3edae3171d9582052e2b7e7515d0471d8685d45"
+    },
+    {
+      "key": "geometry",
+      "path": "notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json",
+      "sha256": "e3bb0bad3afac3e19d6b811ad068d0b4251b2a1214718dcbd14a2eb98e1aaa03"
+    },
+    {
+      "key": "geometry_source",
+      "path": "computations/closure_outer_physical_green_geometry_recovered_v2.py",
+      "sha256": "c48606c4e127fb0d3f27479eeed11bff3c5cb69139148633ea4f74a9e1f63829"
+    },
+    {
+      "key": "head",
+      "path": "notes/2026-11-12-root-r97-full46-cut-recovered-v2.json",
+      "sha256": "Explicit expected SHA of actual complete R97 file is required as CLI argument"
+    },
+    {
+      "key": "r94",
+      "path": "notes/2026-11-12-root-r94-full46-cut-exact-ledger.json",
+      "sha256": "5eb45673a9080ae251e77c3203cfc2142ba31850fc244c7e2c8500df774249bc"
+    },
+    {
+      "key": "head_source",
+      "path": "computations/root_full46_source_cut_transfer_recovered_v2.py",
+      "sha256": "f989a3f2a07b70d0da36be3a05a87509e9d254215d0a11f7726b48b3767189ef"
+    },
+    {
+      "key": "family",
+      "path": "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+      "sha256": "17b1d776cdce044722db61c2981d64838d18fd66c6ef3fdd4c48fa183a9a3776"
+    }
+  ],
+  "static_checks": {
+    "V8_syntax": true,
+    "finite_mean_inverse_math_body_unchanged": true,
+    "wide_tail_math_body_unchanged": true,
+    "Python_run": false,
+    "six_round_run": false,
+    "wide_tail_run": false
+  },
+  "expected_new_spectral_gate_count": 29,
+  "scientific_domain": "Same real R92 original20-product x transverse26 weighted-l1 ball; existing low projection is R94, not old R96 object",
+  "old_R96_values_reused": false,
+  "old_R91_background_row_bounds_used": true,
+  "no_MJS_mutation": true,
+  "no_new_ODE_Arb": true,
+  "archive_rule": "No connector chunks of a complete large numerical payload."
+}

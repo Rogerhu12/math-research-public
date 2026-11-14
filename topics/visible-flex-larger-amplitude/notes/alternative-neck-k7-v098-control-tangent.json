@@ -1,0 +1,82 @@
+{
+  "scope": "Local heuristic only: use actual q001/q003 control secants and the linear matching Jacobian to predict an alternate control direction at q=0. No new nonlinear BVP, no large-q extrapolation or viability claim.",
+  "profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.09815441405341828,
+    "vu": 0.25,
+    "vd": 0.98,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.2070595516254682,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 8.0,
+    "descending_turn_curvature": 7.0,
+    "descending_sync_curvature": 7.0,
+    "terminal_peak_fraction": 0.1
+  },
+  "fields": [
+    "delta",
+    "boost_length",
+    "boost_speed"
+  ],
+  "finite_difference_step": 1e-05,
+  "matching_jacobian": [
+    [
+      -0.22684327331848353,
+      -0.5294753952152914,
+      -0.7371241386187914
+    ],
+    [
+      -1.567766193513074,
+      -0.20948315137899073,
+      -0.46231065679539235
+    ]
+  ],
+  "height_gradient": [
+    5.842131037192554,
+    0.8971322018713755,
+    0.08183509772052844
+  ],
+  "fixed_delta_control_condition": 11.88159988695816,
+  "rows": [
+    {
+      "amplitude": 0.001,
+      "original_secant": [
+        0.37939019462183976,
+        -0.10902882360705468,
+        0.0
+      ],
+      "fixed_delta_predicted_tangent": [
+        0.0,
+        -4.5204873860861206,
+        3.285499351568379
+      ],
+      "original_background_height_tangent": 2.118633962616731,
+      "fixed_delta_predicted_background_height_tangent": -3.7866056417148894,
+      "equation_residual": 1.1102230246251565e-16
+    },
+    {
+      "amplitude": 0.003,
+      "original_secant": [
+        0.37678998224822957,
+        -0.10927561139782253,
+        0.0
+      ],
+      "fixed_delta_predicted_tangent": [
+        0.0,
+        -4.490499525479451,
+        3.26298164766211
+      ],
+      "original_background_height_tangent": 2.1032217799314443,
+      "fixed_delta_predicted_background_height_tangent": -3.761545304799027,
+      "equation_residual": 3.8163916471489756e-17
+    }
+  ],
+  "provider_sha256": "77c2994538717bfd26bd96ed475553bece7d9a315afd9c054153698926cab41a"
+}

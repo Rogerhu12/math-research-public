@@ -1,0 +1,152 @@
+{
+  "status": "Formally complete actual finite coupling; not a closed surface",
+  "tool_session": 9041,
+  "tool_exit_code": 0,
+  "worker_exit_code": 0,
+  "physical_packet_sha256": "7d9ff26ec1f33106e1ea341a6711004d076bfa9dbb181b99b0e1507449cb297e",
+  "actual_tail": {
+    "height_max": 2.1668389630452756e-05,
+    "first_max": 2.1143386548261644e-14,
+    "second_max": 7.102890007813921e-09,
+    "scope": "Physical PPoly derivatives versus actual finite-tail jets. Height means and Cartesian frame closure remain separate."
+  },
+  "physical_g_changes_during_design": true,
+  "next_fixed_reference": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+  "verified_packet_files": [
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-config.json",
+      "bytes": 2882,
+      "sha256": "ec6b79decc1f8c3fc20b0bb33105223dd1bcc1081c5bf7a31814a0a831bbb017"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-newton.log.gz",
+      "bytes": 3274,
+      "sha256": "9aadb5a6f80a20610319501f584ba2aa5099a11ca56bd302617b90abe2332177"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-outer-00-raw-collocation-cubic-000.npy.gz",
+      "bytes": 1386479,
+      "sha256": "f0703ed48fd0755bebda8caa4e6ba4e31ecd20d1441a20c3a7ceed4362c5b4eb"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-outer-00-raw-collocation-p-000.npy.gz",
+      "bytes": 312,
+      "sha256": "a1feff938aa564a8aedc082bc73755cdfa845e7f2e2d915eb674e4e7b9516ab2"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-outer-00-raw-collocation-rms-000.npy.gz",
+      "bytes": 7086,
+      "sha256": "168ee8016b31201cc44a9bdf6baeadc119bf3dcc0798349f8e1eee3579af78b0"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-outer-00-raw-collocation-x-000.npy.gz",
+      "bytes": 6992,
+      "sha256": "dfa7916f4c489a18f554722d9fb1dae003e2079b7dc6485430451f9799468512"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-outer-00-raw-collocation-y-000.npy.gz",
+      "bytes": 345359,
+      "sha256": "6320577f2029fe3f31beeedeaf1ed9c8e5c003686663e7c8d9a6d06b4bd4ad73"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-outer-00-raw-collocation.json.gz",
+      "bytes": 2474,
+      "sha256": "cba983f880e42ffddbd7aa2e89a12918cba4abb6655de906ce7e7db847a64e7a"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-plan.json",
+      "bytes": 2268,
+      "sha256": "5af21205bbf623f396717d7313573e27a955ca4191f12e1cdfe1b61db8e4a2f2"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-profile.json",
+      "bytes": 507,
+      "sha256": "1bf649f3434ce98401d1c615b98d7171c44bce565bb1e6562404f0a7e8132697"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-raw-collocation-cubic-000.npy.gz",
+      "bytes": 1386470,
+      "sha256": "c6676ce5c71681d0e344792fe25e9653e54489320aeeb886d25fd37cadcaa04e"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-raw-collocation-p-000.npy.gz",
+      "bytes": 303,
+      "sha256": "1e2a173dd62b0a43f62ca74002cb92de31764d6da6271e94aa4f9f85693a8f37"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-raw-collocation-rms-000.npy.gz",
+      "bytes": 7077,
+      "sha256": "928adc46d96d4f61f4d36e01b6f77f330d5ff8fee00bd1a20977ecf59e9ab719"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-raw-collocation-x-000.npy.gz",
+      "bytes": 6983,
+      "sha256": "958ca1af4fef57f96cccf792964673da9516830675fa3115629ad1e2dc924d33"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-raw-collocation-y-000.npy.gz",
+      "bytes": 345350,
+      "sha256": "709b7efb54819504c6a8cd61be0f3f18ced8ac55dce28650b965e9ea08836f2d"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-raw-collocation.json.gz",
+      "bytes": 4564,
+      "sha256": "1d9089f59fc584ec28f71d35c82f222e9ed32aba83846e93000f55c75cc022bd"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-resource.json",
+      "bytes": 1534,
+      "sha256": "99dd6760f6b4c5cc45f179e3c3f330291e67074d725fe4e290f17de475425fa4"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-summary.json",
+      "bytes": 62868,
+      "sha256": "00f2251856bc503b32021dde57bb1bb4fbb1d00cd543d1f529045b8ec76b8981"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-tail-iteration.json.gz",
+      "bytes": 188998,
+      "sha256": "9baf5bf3d2fd5c352fe351866ecd24d4b526b81d6f93ff7efb2325f21ae013ed"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-tail-response_0001.json.gz",
+      "bytes": 200250,
+      "sha256": "03e910892d3c8a958dec42d3356f0ca41fc061485ee5729ef153255f7eec23bb"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-tail-response_0002.json.gz",
+      "bytes": 200108,
+      "sha256": "fe376519509a653bb759651fcd0cf9f16dd57568237e0a69a27d4ed558653340"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-tail-response_0003.json.gz",
+      "bytes": 200161,
+      "sha256": "671f4921924995e7c4ec4f2cc5807c127d6fc67364b7d79f8023a58ca84dfd7c"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-tail-response_adapter.json",
+      "bytes": 11059,
+      "sha256": "243eec4abd0e09ac8204a0c2fd94222097701d1ca158c334ceb8618718ca9350"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-tail-trace.jsonl",
+      "bytes": 8719,
+      "sha256": "191662f911de1fbfd7f5fe556d1e8ce95d567c6a2350db24548e91878fabce2a"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16-tail-trials.jsonl",
+      "bytes": 804,
+      "sha256": "678e47f0ea9939c7691e4449f0770fd1f4ea16fb218b17228c0e3df26a5b232a"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16.json.gz",
+      "bytes": 25329,
+      "sha256": "7d9ff26ec1f33106e1ea341a6711004d076bfa9dbb181b99b0e1507449cb297e"
+    },
+    {
+      "file": "notes/2026-11-12-root-vu032-q085-actual-resumable-m16_coeff_00.npy.gz",
+      "bytes": 2077688,
+      "sha256": "005031f809f9f7b4a02adfd3ac4b937c33606f155950b1a2a70b2c54d708b51c"
+    }
+  ]
+}

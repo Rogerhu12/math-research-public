@@ -1,0 +1,43 @@
+{
+  "status": "Complete R44 proof and prepared compatible-height panel helper; no actual panel numerical run yet",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "results/R44-compatible-outer-height-and-continuous-defect.md",
+      "bytes": 22149,
+      "sha256": "a3f40958a1dcb4f8edfac947064b98eba548448f63d87eff0bb407d1555dc2f1"
+    },
+    {
+      "path": "computations/tail_outer_compatible_mean_defect.py",
+      "bytes": 14332,
+      "sha256": "fecac52ad3aac4e77c8e49ea40434b1d4b10095917969820e32802a029327a1a"
+    }
+  ],
+  "helper_AST": "pass",
+  "helper_executed": false,
+  "dependencies": [
+    {
+      "path": "computations/tail_r41_connection_polynomial.py",
+      "sha256": "81d5da68b0065c9e24978875c0d03cb96b6600252634c6bb028294db8e955e1e"
+    },
+    {
+      "path": "computations/tail_r41_general_connection_polynomial.py",
+      "sha256": "6e804914afe4d83099941a168a70b6576a2e148addcf40ce36af3bbab31f77f2"
+    },
+    {
+      "path": "computations/closure_real_head_source_enclosure.py",
+      "sha256": "97ff78a171b284cd8d5acc8dc233bcfe1f0b7c428ce2fbbd5b7104bd0ecb8c47"
+    }
+  ],
+  "input_obligations": [
+    "Same actual R26 r,r_x,w,(log w)_x enclosures over an entire radial panel",
+    "One fixed physical-r height polynomial and its real endpoint parameters; the helper obtains both derivatives internally",
+    "An explicit mean bracket and the same angular width throughout each certificate"
+  ],
+  "not_claimed": [
+    "A full real-source radial enclosure from finitely many node values",
+    "An exact radial solution or a paid outer Green/Schur bound",
+    "An R43 full-head existence certificate from unpassed numerical gates"
+  ],
+  "next_actual_step": "After the root releases the numerical slot, run the prepared109 endpoint locator; then form continuous same-source height panels and call this helper. No109 run belongs to this manifest."
+}

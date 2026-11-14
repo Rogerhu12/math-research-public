@@ -1,0 +1,20 @@
+{
+  "status": "INTERRUPTED during initialization; no nonlinear response produced",
+  "reason": "Parent requested serialization of all large numeric jobs after concurrent jobs were killed with exit -9. Wait for explicit exclusive window before restarting.",
+  "observed_exec_exit_code": 130,
+  "time_utc": "2026-11-12T04:05:50.558489+00:00",
+  "retained_files": [
+    {
+      "path": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-config.json",
+      "bytes": 2594,
+      "sha256": "25850789ef9351eee0446ef55a2b8ee4c6655cf60d810636673879c9898e4ae2"
+    }
+  ],
+  "source_files": {
+    "closure_scaled_endpoint_worker.mjs": "6d739e373f5ab9d56fe74a4e62459705422b3ba0249ca90afebde48f65768f2c",
+    "closure_scaled_endpoint_engine.mjs": "83f4fe9751f985740ec84501bcded1e385595432e59e57c385db7170f7c39e3e",
+    "closure_scaled_endpoint_graphs.mjs": "8e603fd2ba981d202cd025fa25b7f47ec99e21d5fe2b1c73911202fb5095e54d",
+    "closure_scaled_endpoint_replay.py": "fd0ad66011d16760a5ec765eff56011c4b85f4059189889dc8a974f41d2e77df"
+  },
+  "scope": "Configuration and unfinished trace only; not a result or convergence claim."
+}

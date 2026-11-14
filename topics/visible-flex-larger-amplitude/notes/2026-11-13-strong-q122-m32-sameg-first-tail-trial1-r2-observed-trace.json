@@ -1,0 +1,65 @@
+[
+  {
+    "time": "2026-11-13T13:48:11.169Z",
+    "event": "exact_raw_same_H_initial",
+    "call": 1,
+    "complete_H_bitwise_equal": true,
+    "all_original_raw_values_preserved": true,
+    "warm_Q_L_remesh_bypassed": true,
+    "warm_ratio_one_rescale_bypassed": true,
+    "warm_only_boundary_correction_bypassed": true,
+    "full_original_residual_Newton_Jacobian_audit_required": true
+  },
+  {
+    "time": "2026-11-13T13:48:11.517Z",
+    "event": "exact_initial_stage_seed_saved",
+    "call": 1,
+    "path": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-exact-stage-seed-call000001-initial-seed.json.gz",
+    "sha256": "6ae55016199b2bd0809dd30872101b211d81fce58d0469e18765f84fc14e313e",
+    "bytes": 601486,
+    "status": "initial-warm-only",
+    "numericalSolutionAccepted": false,
+    "fullOriginalAcceptanceRequired": true,
+    "stageIdentitySHA": "cfbd416badbaa450fbbc02f979ec50408ed4449862ebafa91e4aae76f2a8567b",
+    "bindingSHA256": "1c007396ba16052e1fa30d322e1da983cf0ed83989274ee7a6343bcc6c5147e4",
+    "heightSHA256": "633c7dc91253daf187a5a6e8dc14ba3cc8a043529f0c93ee790d250ebd957440",
+    "statesSHA256": "887cb01015089d79b6231c922f6e935a6ed36444226abe88ddacc6ab7d61d8bb",
+    "nodeCount": 577,
+    "shapeDimension": 64,
+    "alreadyStored": false
+  },
+  {
+    "time": "2026-11-13T13:57:22.629Z",
+    "event": "iteration",
+    "call": 1,
+    "elapsed_ms": 551577,
+    "iteration": 0,
+    "norm": 0.025669151298371412,
+    "minA": 0.8620809171983795,
+    "minD": 0.9999277562434686
+  },
+  {
+    "time": "2026-11-13T13:57:29.403Z",
+    "event": "iteration",
+    "call": 1,
+    "elapsed_ms": 558351,
+    "iteration": 0,
+    "norm": 0.025669151298371412,
+    "minA": 0.8620809171983795,
+    "minD": 0.9999277562434686,
+    "chartCondition": 665779.5995186606,
+    "phase": "correction"
+  },
+  {
+    "time": "2026-11-13T14:02:40.885Z",
+    "event": "iteration",
+    "call": 1,
+    "elapsed_ms": 869833,
+    "iteration": 1,
+    "norm": 9.901281154430217e-11,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 0,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  }
+]

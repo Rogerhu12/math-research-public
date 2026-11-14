@@ -1,0 +1,21 @@
+{
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "status": "Actual failed sufficient comparison, not an operator nonexistence claim",
+  "source_primary": "notes/2026-11-13-exact-resume-middle-high-incomplete-probe-r1.json.gz",
+  "actual_failed_block": 3,
+  "cell": 11,
+  "segment": 3,
+  "cross_product": {
+    "numerator": "540463474563237701758487759231167868703298388089187276156991618864254936434465172183349375",
+    "denominator": "15914343565113172548972231940698266883214596825515126958094847260581103904401068017057792",
+    "display_only": 33.96077710349433
+  },
+  "affine_inverse_determinant": {
+    "numerator": "-524573449997443216695212440523047227168181823429651417384935076541330795209563918850881663",
+    "denominator": "15914343565113172548972231940698266883214596825515126958094847260581103904401068017057792",
+    "display_only": -32.96230522177449
+  },
+  "diagnostic_finite_scope": "Old complete94..5758 plus high>=34816; finite gap omitted explicitly",
+  "failure_also_applies_to_same_coarse_enlarged_test": "Full common-middle matrices are elementwise maxima containing the old matrices, with the sameV andGH, so this positive cross-product cannot decrease. No second redundant run is required.",
+  "next_actual_bridge": "Retain ordered high attenuation against the true source/targetV values; never use a future whole-blockVmax high radius as an early source amplitude."
+}

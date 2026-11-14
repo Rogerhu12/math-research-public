@@ -1,0 +1,116 @@
+{
+  "scope": "Formal complete enriched baseline only; other ten cases have a separate live execution ledger",
+  "formal_exitcode": 0,
+  "wall_seconds": 147.4706687927246,
+  "peak_rss_kib": 172352,
+  "all_eight_field_chunks_verified": true,
+  "known_peak_reproduced": true,
+  "kappa_abs_max_sample": 8.44332482581809,
+  "twice_radius_max_sample": 3.900946460074288,
+  "kappa_times_twice_radius_sample": 32.93695809053243,
+  "external_proc_monitor_observed_children": false,
+  "external_memory_cap_claimed": false,
+  "files": [
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-actual-three-control-adapter.json",
+      "bytes": 9657,
+      "sha256": "82be7d53d7637ed8d5c7f9d8a5ecb0a859619c4ac40d07566020ddf78f2d12e1"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-base-profile.json",
+      "bytes": 507,
+      "sha256": "4a5a3ee472d721aa4e2020b86d5a108c0819b454407f297d8488a3a2c7f4e7c3"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-config.json",
+      "bytes": 2975,
+      "sha256": "cb488e14a6e6354baf9837548148b91603eb37336496ea9f3f92fb26a56b7b0a"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field-part000.npy.gz",
+      "bytes": 1615879,
+      "sha256": "b6518b778c2057d646f754379eb9a4683e7bb23a86b4e1211614469e56f2d831"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field-part001.npy.gz",
+      "bytes": 1570659,
+      "sha256": "de284f13c11f84539f474eed279d4650f675cbc2725cc4faa87ade04a8f5f46b"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field-part002.npy.gz",
+      "bytes": 1567221,
+      "sha256": "4462ba9f3318b32cce57625fed1e71de1a8561fb0aa72252fec7592dfe194d74"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field-part003.npy.gz",
+      "bytes": 1522775,
+      "sha256": "739b5fe88cff2c1c39421d6d7d4154c8519c21a13b5c5557dc3a75693680e98a"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field-part004.npy.gz",
+      "bytes": 1475177,
+      "sha256": "bb9f9738e5c13e751923ffff159e448513eb8877208cdbc8cbf9b2efc032070c"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field-part005.npy.gz",
+      "bytes": 1417401,
+      "sha256": "3a4dc04458bb029bae0bf61ebe881096d3f92ab2f20dfc38ca8c67b2b7caa81d"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field-part006.npy.gz",
+      "bytes": 1289798,
+      "sha256": "0221ae5334ae1258556064ac8b70ca54370606c378bf668d3b50d4b3f5c987ba"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field-part007.npy.gz",
+      "bytes": 391279,
+      "sha256": "1adfb502c57d35a2c0d39e6961c43fab63ce87c45b68f6a3349c73acb07a0b16"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-field.json",
+      "bytes": 2181,
+      "sha256": "32f81641714efa7f2f8418933257157c5251b12c1c23299a57233ec97fc3877a"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-log.txt",
+      "bytes": 2586,
+      "sha256": "7a7a212e0d3041a9f9d43e07ea7cbc8e53873fdab4334118a260dd5309ae72e8"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-owned-monitor.jsonl",
+      "bytes": 3408,
+      "sha256": "d75d0b1e36a07c3aa0907e1f411a544c341d177f480a81b3f9fc69562d1fb490"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-resource.json",
+      "bytes": 2371,
+      "sha256": "0cc75e3bc189675441390fe1693022a9c532f2e7d27ea46c5d47e1991a91654f"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-screen.json",
+      "bytes": 15148,
+      "sha256": "9ec84d46f60854aa19a79bb1b37fef00e7c4b74282d11c932b8714e863dda4a6"
+    },
+    {
+      "path": "notes/2026-11-12-root-q095-five-direction-geometry-r2-baseline-summary.json",
+      "bytes": 16479,
+      "sha256": "1462b6191c3ab0bec792a509c64c4e10aba52f0238557a447a81f1bce5fee9dd"
+    },
+    {
+      "path": "notes/2026-11-12-root-enriched-common-grid-baseline.md",
+      "bytes": 1825,
+      "sha256": "6a2c14143911d3e2fd8e8cf42605b1e319c6322a8dee05587dbcda97b0a81f9e"
+    },
+    {
+      "path": "notes/2026-11-12-root-enriched-baseline-monitor-scope.md",
+      "bytes": 752,
+      "sha256": "d3a3b01726858e7e600f7e1f63b517a4980ad10ee5d999db30f88d72b35dd83a"
+    },
+    {
+      "path": "computations/root_geometry_plan_execute.py",
+      "bytes": 6326,
+      "sha256": "ecc03e1c43d2df195344797cd2bf6f080ff52ec16cf959dced33e3264dc2fe2e"
+    }
+  ],
+  "total_bytes": 10914404
+}

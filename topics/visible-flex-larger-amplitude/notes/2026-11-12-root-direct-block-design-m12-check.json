@@ -1,0 +1,27 @@
+{
+  "scope": "Check the direct blocks on one actual saved-neck collocation Jacobian.\n\nUse --runner fixed or strong, --check-output PATH, then that runner's normal\narguments. This is a linear-algebra inspection, never a nonlinear solution.\n",
+  "runner": "strong",
+  "inspection_only": true,
+  "nonlinear_solution": false,
+  "n": 37,
+  "nodes": 122,
+  "parameters": 12,
+  "input_nodes": 873,
+  "inspection_node_subset_only": true,
+  "original_nnz": 389236,
+  "exact_sparse_entries_equal": false,
+  "maximum_jacobian_entry_difference": 4.9785438786166264e-12,
+  "qr_steps_bitwise_equal": false,
+  "direct_vs_original_qr_relative_difference": 1.045702387782162e-12,
+  "direct_vs_sparse_lu_relative_difference": 1.069030546509117e-12,
+  "relative_backward_error": 3.1470510247826337e-15,
+  "direct_matvec_relative_error": 3.1470235351503133e-15,
+  "peak_rss_kib": 430016,
+  "seconds": 15.557601649998105,
+  "source_sha256": {
+    "root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "root_block_collocation_check.py": "d38b2621d635a5d3d9cbeee0729591f5d217dea69d25af3383b8763d5c41b692",
+    "strong_block_qr.py": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+    "strong_neck_bvp.py": "7f5e09400c670b13affbe15a0f57eb3c01c0aa382cba63f59e74dadd923703b2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/inner_R150_low46_complete_source_DQ_singletons.py",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/modal.json.gz",
+    "--modal-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/modal_resource.json",
+    "--parent-modal",
+    "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/parent_modal.json.gz",
+    "--parent-modal-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/parent_modal_resource.json",
+    "--density",
+    "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/density.json.gz",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/R150-low46-inputs/R150-low46-source-r1",
+    "--rss-kib",
+    "98304"
+  ],
+  "wall_seconds": 175.8256516456604,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 76836,
+  "user_seconds": 72.47543,
+  "system_seconds": 2.179144,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

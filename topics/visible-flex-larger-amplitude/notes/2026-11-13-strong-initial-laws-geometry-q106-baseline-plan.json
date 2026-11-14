@@ -1,0 +1,162 @@
+{
+  "scope": "Prepare complete-mean finite geometry fields from one accepted actual state.\n\nBaseline-only preparation is allowed before the new response has finished.\nAfterward the same prefix/grid can receive a complete two-sided variable-control plan; baseline\nhas no response-data dependency and is never recomputed merely to fill a plan.\nThe reviewed neutral list is explicit; default controls are vu, first-turn K, k0, and degree22 inlet frontload, each from the same newly computed actual core-held response.\nNo column from a different accepted baseline may be imported.\nEvery case is an unsolved actual-J warm diagnostic, not a new accepted BVP.\n",
+  "prepared_only": true,
+  "executed": false,
+  "baseline_only": true,
+  "nonlinear_solution": false,
+  "new_tail_evaluation": false,
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "grid": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-grid.json",
+  "geometry_wrapper": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py",
+  "source_and_input_sha256": {
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation-x-000.npy.gz": "d944d8a47c8e424abd8352f10c0cb5c8a3cf74893b6db6ef85f05bbdb8c0843d",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_fullmean_initial_laws_plan.py": "a6c537cea001d5fcc4104164bee5194620913b9a53bfa1fad0ccf6800ddfcb34",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py": "7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_array_io_resident.py": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz": "83c4c9fdb2b493a42ed4328c507b977c4d12fa5d5839a901bfa20f488621a293",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz": "1efd643c9ef5a98a189f76a99c38026e28dac209d931a31c07432587680ca6aa",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_0003.json.gz": "4334640495f0b73123db9eacad836f1ed3ef24391a4b6f10f3456c79aed98040",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-config.json": "872f9779a799d667f687f1bc03812c0aa219c4ca37d88737a9e64fcdd935e7e1",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-grid.json": "049dc31fccb4aad22bbf13676c35d088d996c3cb4a8e42e1cdc2e9867f205b57",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_laws_augmented_core.py": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_pulse_augmented_core.py": "4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q106-r1/geometry-grid.json": "8c64fe9e79c079aa99f7eeea274639457cfe159fd3c0543254f1b45b404c81ee",
+    "notes/2026-11-13-strong-q106-interior-fullmean-audit-r2.json": "cc4b51d2cc0fd84498c78936e7fe89bf1e5b563c2dac232d4b1830ad568672a7"
+  },
+  "baseline_core": [
+    0.106,
+    -0.007337490977158738,
+    -0.0004816734015582713
+  ],
+  "modes": 28,
+  "directions": [
+    {
+      "name": "actual_q1",
+      "step": 0.001
+    },
+    {
+      "name": "actual_q4",
+      "step": 2e-05
+    },
+    {
+      "name": "actual_c6",
+      "step": 2e-06
+    },
+    {
+      "name": "vu",
+      "step": 0.0002
+    },
+    {
+      "name": "descending_turn_curvature",
+      "step": 0.002
+    },
+    {
+      "name": "start_acceleration",
+      "step": 0.002
+    },
+    {
+      "name": "initial_speed_frontload",
+      "step": 0.01
+    }
+  ],
+  "candidates": [
+    {
+      "name": "baseline",
+      "direction": null,
+      "step": 0.0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_resource_run.py",
+        "--out",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-baseline-resource.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_initial_laws.py",
+        "--actual-reference",
+        "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+        "--actual-reference-raw",
+        "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-raw-collocation.json.gz",
+        "--actual-reference-tail",
+        "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_0003.json.gz",
+        "--source-topic",
+        "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+        "--frozen-reference-ready",
+        "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+        "--frozen-calibration-ledger",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--port",
+        "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--tail-config",
+        "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-config.json",
+        "--target-core",
+        "0.106",
+        "-0.007337490977158738",
+        "-0.0004816734015582713",
+        "--max-nodes",
+        "2628",
+        "--radial-batch-size",
+        "8",
+        "--collocation-batch-size",
+        "12",
+        "--geometry-grid",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-grid.json",
+        "--mean-angular",
+        "1360",
+        "--geometry-batch",
+        "8",
+        "--resident-rss-guard-mib",
+        "384.0",
+        "--out-prefix",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-baseline",
+        "--inspect-warm-output",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-baseline-screen.json",
+        "--geometry-array",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-baseline-field.json"
+      ],
+      "expected_core": [
+        0.106,
+        -0.007337490977158738,
+        -0.0004816734015582713
+      ],
+      "expected_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.16673503533883655,
+        "vu": 0.320807284681943,
+        "vd": 0.98,
+        "start_acceleration": 0.514,
+        "boost_speed": 0.8574570611714787,
+        "boost_length": 0.12637550462695546,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.773927172429689,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "report": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-baseline-screen.json",
+      "field": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-baseline-field.json",
+      "resource": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-baseline-resource.json",
+      "log": "/workspace/scratch/d1aa462cfc02/geometry-work/initial-laws-geometry-prep-r1/q106-baseline-log.txt",
+      "complete_mean_angular": 1360
+    }
+  ],
+  "all_original_fields_and_core_modes_retained": true,
+  "mean_rule": "Original full physical postprocessor angular rule for height and both radial mean derivatives.",
+  "limitations": [
+    "Warm numerical samples, with no new true nonlinear-tail solve.",
+    "No continuous curvature, reach, closed-surface diameter or amplitude certificate."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "actual-finite-design-expanded-box-equality-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "current": {
+    "path": "m28-q122-r1/eight-fine-sync-frontload04-tail4-q008-size1035-r1.json",
+    "sha256": "0a6446cc2060e74d381e9a72f3a2395d568cb0f0a0872d30d6e7079d8db35012",
+    "prediction_index": 0
+  },
+  "previous": {
+    "path": "m28-q122-r1/eight-fine-sync-tail4-q008-size102to1035-r1.json",
+    "sha256": "340b1239b7d0d4599fd1774454c90433ee010ad737ae62ecbb40540d406e86de",
+    "prediction_index": 1
+  },
+  "exact_saved_candidate_equalities": {
+    "normalized_steps": true,
+    "physical_steps": true,
+    "predicted_profile_increment": true,
+    "predicted_complete_core_increment": true,
+    "predicted_complete_core_for_tail_proxy": true,
+    "predicted_max_abs_curvature": true,
+    "predicted_max_twice_norm": true,
+    "predicted_kappa_times_twice_norm": true,
+    "extrema_witnesses": true
+  },
+  "all_saved_candidate_equalities": true,
+  "actual_warm_manifest": {
+    "path": "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-eight-sync-fine-q130-size1035-warm-r1-manifest.json",
+    "sha256": "c39bdd33a87166422b75992b348894defc58a794c2623c1b64eb327b5cdadadb"
+  },
+  "frontload_step": -0.0015957928829956744,
+  "frontload_strictly_inside_both_boxes": true,
+  "predicted_kappa_size": 33.53431528137435,
+  "previous_actual_warm_kappa_size": 33.52518911003503,
+  "new_warm_not_run_because_all_candidate_controls_and_full_core_are_equal": true,
+  "numerical_optimality_is_not_an_exact_impossibility_proof": true,
+  "original_coarse_geometry_and_fine_core_scopes_preserved": true
+}

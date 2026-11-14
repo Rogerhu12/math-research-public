@@ -1,0 +1,18 @@
+{
+  "status": "Exact displayed bounds after the explicit nonzero far addition",
+  "gates": {
+    "R70_mode2_lower": true,
+    "R70_mode2_upper": true,
+    "R70_mode4_lower": true,
+    "R70_mode4_upper": true,
+    "R71_mode2_display": true,
+    "R71_mode4_display": true,
+    "R63_mode2_complete_difference_display": true,
+    "R63_mode4_complete_difference_display": true
+  },
+  "all_gates": true,
+  "input": "notes/2026-11-12-closure-r63-far-boundary-completion-r1.json",
+  "input_sha256": "6ee19d3288cd6d8662eecbc7d72e83d59245383798c6a066d8c9160c432ea4dd",
+  "source_sha256": "f2c448aa3a643d07bf95212c8384aaafeeb91941a4b8321104e6c9a57beb4392",
+  "arithmetic": "Exact fractions.Fraction only; no floating comparison"
+}

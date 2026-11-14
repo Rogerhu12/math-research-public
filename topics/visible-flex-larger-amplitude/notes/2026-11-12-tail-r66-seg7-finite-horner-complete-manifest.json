@@ -1,0 +1,116 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "status": "Stable complete same-candidate segment7 finite-Horner audit and complete-cell composition",
+  "formal_sessions": [
+    81965,
+    61112,
+    7144
+  ],
+  "formal_all_exit0": true,
+  "segment_panels": 1740,
+  "whole_cell_panels": 7563,
+  "segment_full_Darboux_upper_dyadic": [
+    999981489979,
+    -47
+  ],
+  "whole_cell_maximum_original_segment": 8,
+  "candidate_and_true_g_and_complete_mean_unchanged": true,
+  "old_original_source_and_primary_preserved": true,
+  "files": [
+    {
+      "path": "computations/tail_outer_centered_quartic_fields_v2.py",
+      "bytes": 3452,
+      "sha256": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b"
+    },
+    {
+      "path": "computations/tail_outer_centered_span_refinement_v2.py",
+      "bytes": 2820,
+      "sha256": "21754fb1d4b537eb20e245259bfde46d85a97ff6c07e667d8061ea7fdfb596f4"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-plan.json",
+      "bytes": 2363,
+      "sha256": "985ae7abe846af8d452907ead6d5074649ad2794919fd153bc4871982f42913e"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+      "bytes": 213663,
+      "sha256": "806fdb96b9aa6eafd921c07518a5b52218180d2182f7b8d18abb8e3d695638e4"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+      "bytes": 1134,
+      "sha256": "912ad6200027fdb445cd3e8636c1f6cd404a3480d2c013b6c4722e6888016820"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-streamcheck.json",
+      "bytes": 8759,
+      "sha256": "2c33f3a08428ed0573d61ed8bafd0fb64636c4e5c9487b8c419cf2f57abc7f2a"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-streamcheck-resource.json",
+      "bytes": 948,
+      "sha256": "803682a09052dd9a9dd65e9dfa64a541e7e443931cdb1005e6b09eef34d5ea0b"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part00.jsonl.gz",
+      "bytes": 47029,
+      "sha256": "2ed331b98bd0004e2824088f2542483703a5e1fb9dfcdaa9105a863c2b6ba20a"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part01.jsonl.gz",
+      "bytes": 63437,
+      "sha256": "af56ac6810d1226234d2232594be5e58b35cc6f69d3ee9b9021ac0234c8b77ff"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part02.jsonl.gz",
+      "bytes": 139844,
+      "sha256": "a560755a9f860fe0a2828f56de36a3ed557a5b24ecb1e5213dde03539758142f"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part03.jsonl.gz",
+      "bytes": 226532,
+      "sha256": "5181dce29cefe73de6e00ee06f6c03182b7d8ecd5114395f3d48d634ea901605"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part04.jsonl.gz",
+      "bytes": 326502,
+      "sha256": "a398383644f2d077d0ea10d86f41784b02284fc71f1ba5f700787d57e0603441"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part05.jsonl.gz",
+      "bytes": 272671,
+      "sha256": "8842ecd64dba441d60fa360761471f2026d16e83d9a9a485256ae4d8c3a9e7da"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part06.jsonl.gz",
+      "bytes": 267317,
+      "sha256": "53cfb3121234f41e433991de2bb08b664c4e2b9b91b863cc53bc0cc4475862a6"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part07.jsonl.gz",
+      "bytes": 517207,
+      "sha256": "a2b0836b2603993aaa6aa828168f817184bab4ddaf278c96be90774420070676"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-357-span2-horner-r2.json",
+      "bytes": 14456,
+      "sha256": "48d480d495135b35c9731a6aea5fe470cea19d2e08ee62e3d3f8acf8b280ed9d"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-components-357-span2-horner-r2-resource.json",
+      "bytes": 1210,
+      "sha256": "3a6d01f19f829c39ee3b699cbc3b61f73f2d70af92b73b8d4c1304945ee64aad"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r66-seg7-finite-horner-complete.md",
+      "bytes": 6369,
+      "sha256": "f9a350cbf71750bd20dcafc5e6f078775a8d0c3297a38e09b4f41a916919def5"
+    }
+  ],
+  "total_bytes": 2115713,
+  "excluded": [
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-recovery.json",
+    "prepared segment8 finite-J source/plan not part of this executed package"
+  ]
+}

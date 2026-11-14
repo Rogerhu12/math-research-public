@@ -1,0 +1,1691 @@
+{
+  "scope": "Diagnose saved finite-prefix metric residuals at independently audited peaks.\n\nThe derivative of the height mean is evaluated at the saved solve's original\nangular quadrature, then held fixed while the observation grid is doubled.\nFourier labels here refer to the computational eta grid, not material theta.\nNo BVP, new metric, continuous certificate or exact closure is produced.\n",
+  "input": "notes/2026-11-12-root-q0775-fixed-tol7-checkpointed.json.gz",
+  "input_sha256": "55e74a280f52a9e50e62658d3c7318a9b906dbe3b363bccca4d5a1d8162b81f5",
+  "audit": "notes/2026-11-12-root-q0775-fixed-tol7-interior.json",
+  "audit_sha256": "3d6f2e6f1dc3986ea70a1de71b109753c36f631718e33e1a8d300f40f6978739",
+  "source_sha256": "07b20c1c7030f2eb7daf593787d7dd4bbec370d9c89c371680291a9789167f22",
+  "modes": 20,
+  "retained_eta_frequency": 40,
+  "selected_audit_peaks": [
+    "metric_component_max",
+    "metric_fourier_l1",
+    "flow_defect",
+    "darboux_fourier_l1"
+  ],
+  "rows": [
+    {
+      "angular_observation_grid": 512,
+      "mean_height_quadrature": 512,
+      "points": [
+        {
+          "s": 0.9842367068886456,
+          "original_mean_height_s": 0.49020619120780007,
+          "components": {
+            "E_minus_1": {
+              "fourier_l1": 2.873360363222828e-08,
+              "pointwise_max": 2.5804781422777978e-08,
+              "power_above_retained_frequency_fraction": 0.417623127468124,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.4693886210802574e-08,
+                  "pair_power": 1.0795514598800702e-16
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.244606295181777e-08,
+                  "pair_power": 7.745224150030543e-17
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 6.707685029555627e-10,
+                  "pair_power": 2.2496519227862345e-19
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 5.1126584881593e-10,
+                  "pair_power": 1.306963840827367e-19
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 1.1444262255449406e-10,
+                  "pair_power": 6.548556928575196e-21
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 8.822846293442665e-11,
+                  "pair_power": 3.892130835885749e-21
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 7.423402930420766e-11,
+                  "pair_power": 2.7553455533689806e-21
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 7.339350900914473e-11,
+                  "pair_power": 2.693303582337705e-21
+                },
+                {
+                  "eta_frequency": 0,
+                  "pair_l1": 1.888871676257453e-11,
+                  "pair_power": 3.567836209367641e-22
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 1.1887743667434208e-11,
+                  "pair_power": 7.065922475131106e-23
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 8.637836528467894e-12,
+                  "pair_power": 3.7306109946267143e-23
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 7.940657681754931e-12,
+                  "pair_power": 3.152702220940679e-23
+                }
+              ]
+            },
+            "F_over_a": {
+              "fourier_l1": 5.698296722581515e-09,
+              "pointwise_max": 4.115296055911094e-09,
+              "power_above_retained_frequency_fraction": 0.6728922867876073,
+              "top_modes": [
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 2.8410043702855153e-09,
+                  "pair_power": 4.0356529159906984e-18
+                },
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.9314204295703793e-09,
+                  "pair_power": 1.8651924378809143e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 5.009433463474483e-10,
+                  "pair_power": 1.254721181248898e-19
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 3.446799860144021e-10,
+                  "pair_power": 5.940214637944423e-20
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 2.7708214303689707e-11,
+                  "pair_power": 3.8387256994959747e-22
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.7712289237299325e-11,
+                  "pair_power": 1.5686259501287475e-22
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 1.1254318295427098e-11,
+                  "pair_power": 6.332984014739256e-23
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 9.74909018358241e-12,
+                  "pair_power": 4.752237970381145e-23
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 9.37154853564388e-12,
+                  "pair_power": 4.391296097796446e-23
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 1.2078571642342173e-12,
+                  "pair_power": 7.294594645959624e-25
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.1723600268834437e-12,
+                  "pair_power": 6.872140163170744e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 7.411134718713415e-13,
+                  "pair_power": 2.7462458909459685e-25
+                }
+              ]
+            },
+            "G_over_a2_minus_1": {
+              "fourier_l1": 1.3538293008886693e-09,
+              "pointwise_max": 1.0489091817333929e-09,
+              "power_above_retained_frequency_fraction": 0.030882328781831263,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 6.960704711219858e-10,
+                  "pair_power": 2.422570503839917e-19
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.1626404837186316e-10,
+                  "pair_power": 8.663787898346642e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 1.0862767744699729e-10,
+                  "pair_power": 5.8999861537644415e-21
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 9.36000736652461e-11,
+                  "pair_power": 4.380486895069748e-21
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 2.0037977851279626e-11,
+                  "pair_power": 2.0076027818418644e-22
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 8.397533160062637e-12,
+                  "pair_power": 3.525928158717579e-23
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 4.1959631326585285e-12,
+                  "pair_power": 8.803053305314786e-24
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.9600543260213503e-12,
+                  "pair_power": 1.9209064804775054e-24
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 1.1757842557476052e-12,
+                  "pair_power": 6.912343080319748e-25
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 9.028506231281122e-13,
+                  "pair_power": 4.075696238414102e-25
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 7.335653287634195e-13,
+                  "pair_power": 2.6905904578189183e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 5.49670272432337e-13,
+                  "pair_power": 1.510687041979198e-25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "s": 0.9867306074749391,
+          "original_mean_height_s": 0.49170091552792294,
+          "components": {
+            "E_minus_1": {
+              "fourier_l1": 2.136388999809064e-08,
+              "pointwise_max": 1.9632002690173067e-08,
+              "power_above_retained_frequency_fraction": 0.0014716520693389887,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.9344507285073118e-08,
+                  "pair_power": 1.8710498105112347e-16
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 7.34188657044949e-10,
+                  "pair_power": 2.695164920667329e-19
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 7.286616226095103e-10,
+                  "pair_power": 2.654738801319622e-19
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 1.3408045435526185e-10,
+                  "pair_power": 8.988784120056727e-21
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.1004333721289111e-10,
+                  "pair_power": 6.0547680324750326e-21
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 1.0050637376515017e-10,
+                  "pair_power": 5.050765583710033e-21
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 9.481582088115342e-11,
+                  "pair_power": 4.495019944683484e-21
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 5.381115148074063e-11,
+                  "pair_power": 1.4478200118416074e-21
+                },
+                {
+                  "eta_frequency": 0,
+                  "pair_l1": 1.9657061351915917e-11,
+                  "pair_power": 3.864000609929864e-22
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 1.806103441182031e-11,
+                  "pair_power": 1.6310048201247872e-22
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.1402924008191937e-11,
+                  "pair_power": 6.501333796830002e-23
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 5.634506826938028e-12,
+                  "pair_power": 1.587383359140562e-23
+                }
+              ]
+            },
+            "F_over_a": {
+              "fourier_l1": 4.769662317762331e-09,
+              "pointwise_max": 3.5643180077544685e-09,
+              "power_above_retained_frequency_fraction": 0.2987356805134677,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 2.4286230969160395e-09,
+                  "pair_power": 2.949105073437027e-18
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.631123208528899e-09,
+                  "pair_power": 1.3302814607008053e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 5.94737345258119e-10,
+                  "pair_power": 1.7685625492233754e-19
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 5.5063566621749964e-11,
+                  "pair_power": 1.5159981845539483e-21
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 2.6469267285619886e-11,
+                  "pair_power": 3.503110553187936e-22
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 1.136875646702238e-11,
+                  "pair_power": 6.46243118032316e-23
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 7.36781587575601e-12,
+                  "pair_power": 2.7142355389521145e-23
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 6.865058085781962e-12,
+                  "pair_power": 2.3564511260580154e-23
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 4.323827187596178e-12,
+                  "pair_power": 9.347740774097938e-24
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.5511989383896332e-12,
+                  "pair_power": 1.2031090732305625e-24
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 7.75566046474511e-13,
+                  "pair_power": 3.0075134622205173e-25
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 3.232569519579953e-13,
+                  "pair_power": 5.224752849458684e-26
+                }
+              ]
+            },
+            "G_over_a2_minus_1": {
+              "fourier_l1": 2.1290284791992527e-09,
+              "pointwise_max": 1.540384819698204e-09,
+              "power_above_retained_frequency_fraction": 0.08964222254752971,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.0989721978909283e-09,
+                  "pair_power": 6.038699458686088e-19
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.872376549184915e-10,
+                  "pair_power": 1.1870026618523553e-19
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 3.4847805381075115e-10,
+                  "pair_power": 6.071847699386438e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 1.415795358988728e-10,
+                  "pair_power": 1.0022382492670109e-20
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 2.8906928120860142e-11,
+                  "pair_power": 4.178052466922874e-22
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.0764903391334046e-11,
+                  "pair_power": 5.794157251237761e-23
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 7.380357914346229e-12,
+                  "pair_power": 2.723484147192651e-23
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.325529200879708e-12,
+                  "pair_power": 8.785138311923985e-25
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 1.1031926814956068e-12,
+                  "pair_power": 6.085170462527336e-25
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 8.558564329812366e-13,
+                  "pair_power": 3.66245116937683e-25
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 6.157096739797436e-13,
+                  "pair_power": 1.8954920131612111e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 5.474005953566135e-13,
+                  "pair_power": 1.4982370589838743e-25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "s": 0.9892189607238004,
+          "original_mean_height_s": 0.49440617198656117,
+          "components": {
+            "E_minus_1": {
+              "fourier_l1": 2.712436649247233e-08,
+              "pointwise_max": 2.7091072274387784e-08,
+              "power_above_retained_frequency_fraction": 0.3337535729798507,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.5133752365385756e-08,
+                  "pair_power": 1.1451523032840948e-16
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.0711919094602985e-08,
+                  "pair_power": 5.737260534466002e-17
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.621976031852796e-10,
+                  "pair_power": 1.0681331219510857e-19
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 3.0926023980951495e-10,
+                  "pair_power": 4.782094796351935e-20
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 1.4772040487839057e-10,
+                  "pair_power": 1.0910659008717818e-20
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 1.185163259615433e-10,
+                  "pair_power": 7.02305975971139e-21
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 8.373052118018194e-11,
+                  "pair_power": 3.505400088552448e-21
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 7.239941916550076e-11,
+                  "pair_power": 2.6208379477509396e-21
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 3.8955745936040567e-11,
+                  "pair_power": 7.587750707166706e-22
+                },
+                {
+                  "eta_frequency": 0,
+                  "pair_l1": 1.944830190989122e-11,
+                  "pair_power": 3.7823644717827844e-22
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 9.666144953333455e-12,
+                  "pair_power": 4.6717179129426915e-23
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 5.0563088720264126e-12,
+                  "pair_power": 1.2783129704666508e-23
+                }
+              ]
+            },
+            "F_over_a": {
+              "fourier_l1": 2.884596068169401e-09,
+              "pointwise_max": 2.862584157806084e-09,
+              "power_above_retained_frequency_fraction": 0.05521481921843876,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.8246904332276942e-09,
+                  "pair_power": 1.6647475885563354e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.2123991996537555e-10,
+                  "pair_power": 8.8721535086218e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 4.1654046660770585e-10,
+                  "pair_power": 8.675298016088267e-20
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.7737790796724144e-10,
+                  "pair_power": 1.5731461117417587e-20
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 2.2819495327120042e-11,
+                  "pair_power": 2.6036468349222672e-22
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 8.198703463620518e-12,
+                  "pair_power": 3.3609369242191537e-23
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 3.809463650620578e-12,
+                  "pair_power": 7.256006652699727e-24
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 3.2031115101073382e-12,
+                  "pair_power": 5.129961673091057e-24
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 2.512842680419757e-12,
+                  "pair_power": 3.157189168269575e-24
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.2035181868498097e-12,
+                  "pair_power": 7.242280130391267e-25
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 1.0169085087178662e-12,
+                  "pair_power": 5.170514575513973e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 8.435996124388891e-13,
+                  "pair_power": 3.5583015305352205e-25
+                }
+              ]
+            },
+            "G_over_a2_minus_1": {
+              "fourier_l1": 2.5645567081569615e-09,
+              "pointwise_max": 1.8735200058017654e-09,
+              "power_above_retained_frequency_fraction": 0.0557620955905254,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.4657852580138332e-09,
+                  "pair_power": 1.0742632113053397e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 5.462682112568212e-10,
+                  "pair_power": 1.4920447931486354e-19
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 3.5395716094573653e-10,
+                  "pair_power": 6.264283589238301e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 1.357708846541286e-10,
+                  "pair_power": 9.216866559882344e-21
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 2.8558638281965248e-11,
+                  "pair_power": 4.077979102600655e-22
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 2.2593365741364166e-11,
+                  "pair_power": 2.55230087761524e-22
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 6.3768630631924815e-12,
+                  "pair_power": 2.0332191263354302e-23
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 1.065652924860039e-12,
+                  "pair_power": 5.678080781313779e-25
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 8.188275037751049e-13,
+                  "pair_power": 3.3523924046928475e-25
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 8.000215250115621e-13,
+                  "pair_power": 3.200172202409127e-25
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 7.841623192019192e-13,
+                  "pair_power": 3.0745527142806625e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 5.454168566419444e-13,
+                  "pair_power": 1.4873977375458965e-25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "s": 2.217681372601851,
+          "original_mean_height_s": 0.17146799941014446,
+          "components": {
+            "E_minus_1": {
+              "fourier_l1": 2.4028726305496333e-09,
+              "pointwise_max": 2.4028696810063366e-09,
+              "power_above_retained_frequency_fraction": 0.2333241530635203,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.1438420656266181e-09,
+                  "pair_power": 6.541873355484843e-19
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 6.47097930065524e-10,
+                  "pair_power": 2.0936786554754292e-19
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 2.6252053097505106e-10,
+                  "pair_power": 3.4458514591711365e-20
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 1.620233813639091e-10,
+                  "pair_power": 1.3125788054297363e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 9.40022893640204e-11,
+                  "pair_power": 4.418215202838512e-21
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 3.631664078281891e-11,
+                  "pair_power": 6.59449198874153e-22
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.9434698105470286e-11,
+                  "pair_power": 1.8885374522538514e-22
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 1.1760778537561603e-11,
+                  "pair_power": 6.915795590478482e-23
+                },
+                {
+                  "eta_frequency": 0,
+                  "pair_l1": 8.782376952412574e-12,
+                  "pair_power": 7.713014493426757e-23
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 6.001207556567198e-12,
+                  "pair_power": 1.800724606849962e-23
+                },
+                {
+                  "eta_frequency": 6,
+                  "pair_l1": 3.8563867056191445e-12,
+                  "pair_power": 7.435859211638038e-24
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 3.485785605924489e-12,
+                  "pair_power": 6.0753506452351785e-24
+                }
+              ]
+            },
+            "F_over_a": {
+              "fourier_l1": 3.173027647075067e-10,
+              "pointwise_max": 2.372132963020518e-10,
+              "power_above_retained_frequency_fraction": 0.7522325509764847,
+              "top_modes": [
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.289462347231341e-10,
+                  "pair_power": 8.313565724636797e-21
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 5.1270820402673625e-11,
+                  "pair_power": 1.314348512381607e-21
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.622466341878586e-11,
+                  "pair_power": 1.06835975409002e-21
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 4.518178706734861e-11,
+                  "pair_power": 1.020696941299615e-21
+                },
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 3.705138548708934e-11,
+                  "pair_power": 6.864025832564473e-22
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 2.528696912161547e-12,
+                  "pair_power": 3.1971540367876718e-24
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.649468971707175e-12,
+                  "pair_power": 1.3603739443123624e-24
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 1.5342484481563675e-12,
+                  "pair_power": 1.176959150335111e-24
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 1.4975927814669407e-12,
+                  "pair_power": 1.1213920695509438e-24
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 4.0769501686931433e-13,
+                  "pair_power": 8.310761339003526e-26
+                },
+                {
+                  "eta_frequency": 6,
+                  "pair_l1": 3.6314043530003203e-13,
+                  "pair_power": 6.593548787494838e-26
+                },
+                {
+                  "eta_frequency": 8,
+                  "pair_l1": 2.9267141722937164e-13,
+                  "pair_power": 4.282827923152447e-26
+                }
+              ]
+            },
+            "G_over_a2_minus_1": {
+              "fourier_l1": 7.795138395145036e-09,
+              "pointwise_max": 7.660326262204364e-09,
+              "power_above_retained_frequency_fraction": 0.00012056885963943359,
+              "top_modes": [
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 2.6097460217452407e-09,
+                  "pair_power": 3.4053871490075552e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 2.4002816430787296e-09,
+                  "pair_power": 2.8806759830503634e-18
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 1.5990914645131442e-09,
+                  "pair_power": 1.278546755939396e-18
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 6.398944174452566e-10,
+                  "pair_power": 2.0473243273880214e-19
+                },
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 2.368715302650658e-10,
+                  "pair_power": 2.8054060925056995e-20
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 1.7710149173124323e-10,
+                  "pair_power": 1.5682469186715807e-20
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 3.5719046989399053e-11,
+                  "pair_power": 6.379251589154486e-22
+                },
+                {
+                  "eta_frequency": 28,
+                  "pair_l1": 3.3359326955022986e-11,
+                  "pair_power": 5.5642234744606155e-22
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 2.4637879051337865e-11,
+                  "pair_power": 3.0351254207417663e-22
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 1.996113031771408e-11,
+                  "pair_power": 1.9922336178038212e-22
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 8.528977188833442e-12,
+                  "pair_power": 3.6371725943820617e-23
+                },
+                {
+                  "eta_frequency": 26,
+                  "pair_l1": 3.738596200904355e-12,
+                  "pair_power": 6.988550776708239e-24
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "diagnostic_recomputed_mean_height_s_difference": 0.0
+    },
+    {
+      "angular_observation_grid": 1024,
+      "mean_height_quadrature": 512,
+      "points": [
+        {
+          "s": 0.9842367068886456,
+          "original_mean_height_s": 0.49020619120780007,
+          "components": {
+            "E_minus_1": {
+              "fourier_l1": 2.873360528876283e-08,
+              "pointwise_max": 2.5804781422777978e-08,
+              "power_above_retained_frequency_fraction": 0.4176231270543567,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.469388621292457e-08,
+                  "pair_power": 1.079551460191874e-16
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.2446062943887599e-08,
+                  "pair_power": 7.745224140160602e-17
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 6.70768524149632e-10,
+                  "pair_power": 2.249652064949377e-19
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 5.112658505024648e-10,
+                  "pair_power": 1.3069638494500435e-19
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 1.1444264317064612e-10,
+                  "pair_power": 6.548559287941918e-21
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 8.822846151647622e-11,
+                  "pair_power": 3.8921307107821626e-21
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 7.423404116623687e-11,
+                  "pair_power": 2.7553464339352745e-21
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 7.339352191361162e-11,
+                  "pair_power": 2.6933045294418942e-21
+                },
+                {
+                  "eta_frequency": 0,
+                  "pair_l1": 1.888872511093126e-11,
+                  "pair_power": 3.567839363163251e-22
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 1.1887739570790835e-11,
+                  "pair_power": 7.065917605147313e-23
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 8.637842856323171e-12,
+                  "pair_power": 3.7306164605266616e-23
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 7.940653196852752e-12,
+                  "pair_power": 3.1526986596343924e-23
+                }
+              ]
+            },
+            "F_over_a": {
+              "fourier_l1": 5.698297838104591e-09,
+              "pointwise_max": 4.147606520264827e-09,
+              "power_above_retained_frequency_fraction": 0.6728922882265406,
+              "top_modes": [
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 2.8410043839346216e-09,
+                  "pair_power": 4.035652954767869e-18
+                },
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.931420434234779e-09,
+                  "pair_power": 1.8651924468898306e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 5.009433420593023e-10,
+                  "pair_power": 1.254721159767716e-19
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 3.44679993574934e-10,
+                  "pair_power": 5.940214898540826e-20
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 2.7708204948725935e-11,
+                  "pair_power": 3.8387231074030017e-22
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.7712291578129342e-11,
+                  "pair_power": 1.5686263647433582e-22
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 1.1254313037807952e-11,
+                  "pair_power": 6.332978097648702e-23
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 9.749090848137405e-12,
+                  "pair_power": 4.752238618261825e-23
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 9.371553192297818e-12,
+                  "pair_power": 4.391300461803371e-23
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 1.2078613239786198e-12,
+                  "pair_power": 7.294644889816922e-25
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.1723545777382859e-12,
+                  "pair_power": 6.872076279719572e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 7.411200809924966e-13,
+                  "pair_power": 2.7462948722516234e-25
+                }
+              ]
+            },
+            "G_over_a2_minus_1": {
+              "fourier_l1": 1.3538314492302035e-09,
+              "pointwise_max": 1.0489091817333929e-09,
+              "power_above_retained_frequency_fraction": 0.030882331973052464,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 6.960704693309774e-10,
+                  "pair_power": 2.4225704913732356e-19
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.1626404387990294e-10,
+                  "pair_power": 8.663787711362489e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 1.0862767534891608e-10,
+                  "pair_power": 5.899985925854755e-21
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 9.360008906001494e-11,
+                  "pair_power": 4.380488336021364e-21
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 2.0037967245170645e-11,
+                  "pair_power": 2.0076006565926583e-22
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 8.397513265774013e-12,
+                  "pair_power": 3.525911452442527e-23
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 4.195981785988999e-12,
+                  "pair_power": 8.803131574175717e-24
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.9600619754433195e-12,
+                  "pair_power": 1.9209214737893842e-24
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 1.1757787298811168e-12,
+                  "pair_power": 6.912278108204261e-25
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 9.028412115828089e-13,
+                  "pair_power": 4.0756112666615713e-25
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 7.33589724232341e-13,
+                  "pair_power": 2.6907694174964106e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 5.49649181789954e-13,
+                  "pair_power": 1.5105711152118295e-25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "s": 0.9867306074749391,
+          "original_mean_height_s": 0.49170091552792294,
+          "components": {
+            "E_minus_1": {
+              "fourier_l1": 2.1363891562133843e-08,
+              "pointwise_max": 1.9632002690173067e-08,
+              "power_above_retained_frequency_fraction": 0.0014716520982962474,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.9344507272727103e-08,
+                  "pair_power": 1.8710498081229588e-16
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 7.341886632036463e-10,
+                  "pair_power": 2.6951649658837854e-19
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 7.286616463244157e-10,
+                  "pair_power": 2.6547389741210396e-19
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 1.3408045482653532e-10,
+                  "pair_power": 8.98878418324529e-21
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.1004334198947298e-10,
+                  "pair_power": 6.054768558106054e-21
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 1.0050639124111471e-10,
+                  "pair_power": 5.05076734015601e-21
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 9.481582361359034e-11,
+                  "pair_power": 4.495020203761737e-21
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 5.381112969573925e-11,
+                  "pair_power": 1.4478188395658354e-21
+                },
+                {
+                  "eta_frequency": 0,
+                  "pair_l1": 1.965704584782485e-11,
+                  "pair_power": 3.8639945146348816e-22
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 1.8061035850455132e-11,
+                  "pair_power": 1.6310050799571277e-22
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.1402938551406881e-11,
+                  "pair_power": 6.501350380358064e-23
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 5.634494346905145e-12,
+                  "pair_power": 1.5873763272653014e-23
+                }
+              ]
+            },
+            "F_over_a": {
+              "fourier_l1": 4.769663559498588e-09,
+              "pointwise_max": 3.5643180077544685e-09,
+              "power_above_retained_frequency_fraction": 0.2987356819471569,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 2.428623092834492e-09,
+                  "pair_power": 2.9491050635244876e-18
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.6311232122000104e-09,
+                  "pair_power": 1.33028146668884e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 5.94737350039085e-10,
+                  "pair_power": 1.7685625776575658e-19
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 5.5063568640175975e-11,
+                  "pair_power": 1.5159982956956857e-21
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 2.646925697806906e-11,
+                  "pair_power": 3.503107824855289e-22
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 1.1368770584412174e-11,
+                  "pair_power": 6.462447230049776e-23
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 7.367811344493492e-12,
+                  "pair_power": 2.714232200402349e-23
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 6.865046895937763e-12,
+                  "pair_power": 2.356443444171236e-23
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 4.323819711306805e-12,
+                  "pair_power": 9.347708447942632e-24
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.5512076487265206e-12,
+                  "pair_power": 1.2031225847338303e-24
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 7.755730296585191e-13,
+                  "pair_power": 3.0075676216684704e-25
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 3.2326086693003763e-13,
+                  "pair_power": 5.224879404417976e-26
+                }
+              ]
+            },
+            "G_over_a2_minus_1": {
+              "fourier_l1": 2.1290304578118132e-09,
+              "pointwise_max": 1.540384819698204e-09,
+              "power_above_retained_frequency_fraction": 0.08964222119114695,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.0989721882768302e-09,
+                  "pair_power": 6.038699353029824e-19
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.872376383693502e-10,
+                  "pair_power": 1.1870025812187086e-19
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 3.484780493636087e-10,
+                  "pair_power": 6.071847544413286e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 1.4157952292225738e-10,
+                  "pair_power": 1.0022380655447e-20
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 2.8906941346534702e-11,
+                  "pair_power": 4.1780562900599874e-22
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.0764915086271224e-11,
+                  "pair_power": 5.79416984073149e-23
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 7.380360439004522e-12,
+                  "pair_power": 2.7234860104811513e-23
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.3255467940744355e-12,
+                  "pair_power": 8.785371516405069e-25
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 1.1031940209221476e-12,
+                  "pair_power": 6.085185238991879e-25
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 8.558495362650926e-13,
+                  "pair_power": 3.662392143625871e-25
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 6.157143899925473e-13,
+                  "pair_power": 1.895521050219473e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 5.474093902341413e-13,
+                  "pair_power": 1.4982852025825723e-25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "s": 0.9892189607238004,
+          "original_mean_height_s": 0.49440617198656117,
+          "components": {
+            "E_minus_1": {
+              "fourier_l1": 2.7124368013601122e-08,
+              "pointwise_max": 2.7091072274387784e-08,
+              "power_above_retained_frequency_fraction": 0.3337535728305009,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.5133752373065403e-08,
+                  "pair_power": 1.1451523044463137e-16
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.071191909650809e-08,
+                  "pair_power": 5.737260536506734e-17
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.621976112017515e-10,
+                  "pair_power": 1.0681331590030273e-19
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 3.0926023651180485e-10,
+                  "pair_power": 4.7820946943668736e-20
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 1.4772039959539772e-10,
+                  "pair_power": 1.0910658228311989e-20
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 1.1851633717556887e-10,
+                  "pair_power": 7.023061088756563e-21
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 8.37305276165416e-11,
+                  "pair_power": 3.505400627472217e-21
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 7.23994197938525e-11,
+                  "pair_power": 2.62083799324324e-21
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 3.895576232492948e-11,
+                  "pair_power": 7.587757091581975e-22
+                },
+                {
+                  "eta_frequency": 0,
+                  "pair_l1": 1.9448301584630567e-11,
+                  "pair_power": 3.7823643452674383e-22
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 9.666139813092982e-12,
+                  "pair_power": 4.67171294431306e-23
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 5.056313789278102e-12,
+                  "pair_power": 1.278315456782194e-23
+                }
+              ]
+            },
+            "F_over_a": {
+              "fourier_l1": 2.88459723588227e-09,
+              "pointwise_max": 2.862584157806084e-09,
+              "power_above_retained_frequency_fraction": 0.05521482347632846,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.8246904363945506e-09,
+                  "pair_power": 1.6647475943348677e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.2123992735939504e-10,
+                  "pair_power": 8.87215382008742e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 4.1654048209978233e-10,
+                  "pair_power": 8.675298661395953e-20
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.77377921611806e-10,
+                  "pair_power": 1.5731463537661992e-20
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 2.2819501155871525e-11,
+                  "pair_power": 2.6036481650141095e-22
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 8.198705506249573e-12,
+                  "pair_power": 3.360938598910353e-23
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 3.80946276924902e-12,
+                  "pair_power": 7.256003295147206e-24
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 3.2031128867866812e-12,
+                  "pair_power": 5.129966082749454e-24
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 2.5128436781982128e-12,
+                  "pair_power": 3.1571916755303616e-24
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 1.2035187161467283e-12,
+                  "pair_power": 7.2422865005773455e-25
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 1.016920202595152e-12,
+                  "pair_power": 5.170633492230824e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 8.43599248925398e-13,
+                  "pair_power": 3.558298463937478e-25
+                }
+              ]
+            },
+            "G_over_a2_minus_1": {
+              "fourier_l1": 2.56455867184956e-09,
+              "pointwise_max": 1.888057932220022e-09,
+              "power_above_retained_frequency_fraction": 0.05576209383207375,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.4657852644657378e-09,
+                  "pair_power": 1.0742632207624463e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 5.46268216924196e-10,
+                  "pair_power": 1.4920448241077029e-19
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 3.5395715773238666e-10,
+                  "pair_power": 6.264283475499481e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 1.3577087883681188e-10,
+                  "pair_power": 9.216865770060126e-21
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 2.855864700493193e-11,
+                  "pair_power": 4.077981593761537e-22
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 2.2593350597125468e-11,
+                  "pair_power": 2.552297456023148e-22
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 6.376866067319026e-12,
+                  "pair_power": 2.0332210420262408e-23
+                },
+                {
+                  "eta_frequency": 50,
+                  "pair_l1": 1.0656559810090932e-12,
+                  "pair_power": 5.678113349302264e-25
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 8.18827423246622e-13,
+                  "pair_power": 3.352391745303514e-25
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 8.000174705284605e-13,
+                  "pair_power": 3.2001397657537807e-25
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 7.841399968118314e-13,
+                  "pair_power": 3.074377673000295e-25
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 5.453939769617814e-13,
+                  "pair_power": 1.4872729505309405e-25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "s": 2.217681372601851,
+          "original_mean_height_s": 0.17146799941014446,
+          "components": {
+            "E_minus_1": {
+              "fourier_l1": 2.4028743348200224e-09,
+              "pointwise_max": 2.4028696810063366e-09,
+              "power_above_retained_frequency_fraction": 0.2333241557484198,
+              "top_modes": [
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 1.1438420728025797e-09,
+                  "pair_power": 6.541873437566509e-19
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 6.470979390563399e-10,
+                  "pair_power": 2.093678713654813e-19
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 2.625205134948075e-10,
+                  "pair_power": 3.445851000278871e-20
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 1.6202340619848603e-10,
+                  "pair_power": 1.3125792078079801e-20
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 9.400228631212019e-11,
+                  "pair_power": 4.418214915952909e-21
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 3.631664620764588e-11,
+                  "pair_power": 6.5944939588566e-22
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.9434686672805405e-11,
+                  "pair_power": 1.8885352303506003e-22
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 1.1760784058933645e-11,
+                  "pair_power": 6.915802084043386e-23
+                },
+                {
+                  "eta_frequency": 0,
+                  "pair_l1": 8.782390830200382e-12,
+                  "pair_power": 7.713038869438775e-23
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 6.001228992993645e-12,
+                  "pair_power": 1.8007374713173762e-23
+                },
+                {
+                  "eta_frequency": 6,
+                  "pair_l1": 3.856383372236813e-12,
+                  "pair_power": 7.435846356832288e-24
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 3.485797355789815e-12,
+                  "pair_power": 6.075391602815634e-24
+                }
+              ]
+            },
+            "F_over_a": {
+              "fourier_l1": 3.173036032011674e-10,
+              "pointwise_max": 2.3822506901990773e-10,
+              "power_above_retained_frequency_fraction": 0.752232570545633,
+              "top_modes": [
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 1.289462268863568e-10,
+                  "pair_power": 8.313564714113903e-21
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 5.127081496918587e-11,
+                  "pair_power": 1.3143482338022468e-21
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 4.622465569285677e-11,
+                  "pair_power": 1.0683593969615779e-21
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 4.518178653417255e-11,
+                  "pair_power": 1.020696917209768e-21
+                },
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 3.705138440705519e-11,
+                  "pair_power": 6.864025432396865e-22
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 2.5286996766573906e-12,
+                  "pair_power": 3.197161027363596e-24
+                },
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 1.6494733536078993e-12,
+                  "pair_power": 1.3603811721312449e-24
+                },
+                {
+                  "eta_frequency": 48,
+                  "pair_l1": 1.5342421386188144e-12,
+                  "pair_power": 1.1769494699568168e-24
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 1.497591106058811e-12,
+                  "pair_power": 1.1213895604732263e-24
+                },
+                {
+                  "eta_frequency": 46,
+                  "pair_l1": 4.076929805499631e-13,
+                  "pair_power": 8.310678319485631e-26
+                },
+                {
+                  "eta_frequency": 6,
+                  "pair_l1": 3.6314567247915083e-13,
+                  "pair_power": 6.593738972016734e-26
+                },
+                {
+                  "eta_frequency": 8,
+                  "pair_l1": 2.926567935889782e-13,
+                  "pair_power": 4.28239994168909e-26
+                }
+              ]
+            },
+            "G_over_a2_minus_1": {
+              "fourier_l1": 7.795139980805072e-09,
+              "pointwise_max": 7.660326262204364e-09,
+              "power_above_retained_frequency_fraction": 0.00012056881198029213,
+              "top_modes": [
+                {
+                  "eta_frequency": 36,
+                  "pair_l1": 2.6097460243559485e-09,
+                  "pair_power": 3.4053871558208386e-18
+                },
+                {
+                  "eta_frequency": 38,
+                  "pair_l1": 2.4002816622851678e-09,
+                  "pair_power": 2.880676029151224e-18
+                },
+                {
+                  "eta_frequency": 34,
+                  "pair_l1": 1.5990914461719353e-09,
+                  "pair_power": 1.2785467266101257e-18
+                },
+                {
+                  "eta_frequency": 32,
+                  "pair_l1": 6.398944028117326e-10,
+                  "pair_power": 2.0473242337489194e-19
+                },
+                {
+                  "eta_frequency": 40,
+                  "pair_l1": 2.368715250761461e-10,
+                  "pair_power": 2.805405969594966e-20
+                },
+                {
+                  "eta_frequency": 30,
+                  "pair_l1": 1.7710150597990462e-10,
+                  "pair_power": 1.5682471710175095e-20
+                },
+                {
+                  "eta_frequency": 42,
+                  "pair_l1": 3.571903390582819e-11,
+                  "pair_power": 6.379246915828518e-22
+                },
+                {
+                  "eta_frequency": 28,
+                  "pair_l1": 3.3359330343091405e-11,
+                  "pair_power": 5.564224604697495e-22
+                },
+                {
+                  "eta_frequency": 44,
+                  "pair_l1": 2.463788322827411e-11,
+                  "pair_power": 3.0351264498503536e-22
+                },
+                {
+                  "eta_frequency": 2,
+                  "pair_l1": 1.996113828949282e-11,
+                  "pair_power": 1.9922352090612821e-22
+                },
+                {
+                  "eta_frequency": 4,
+                  "pair_l1": 8.528963349913907e-12,
+                  "pair_power": 3.6371607912087326e-23
+                },
+                {
+                  "eta_frequency": 26,
+                  "pair_l1": 3.73857989013652e-12,
+                  "pair_power": 6.988489797466596e-24
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "diagnostic_recomputed_mean_height_s_difference": 5.551115123125783e-17,
+      "shared_angles_max_difference": 0.0
+    }
+  ],
+  "seconds": 1.5260835430017323,
+  "peak_RSS_KiB": 85664
+}

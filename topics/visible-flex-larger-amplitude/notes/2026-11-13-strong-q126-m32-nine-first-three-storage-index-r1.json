@@ -1,0 +1,31 @@
+{
+  "schema": "owned-storage-resource-index-v1",
+  "scope": "Exact archival of first three completed original external full/half/forcing columns while nine-column producer continues. Partial recovery only.",
+  "main_recovery": {
+    "file": "notes/2026-11-13-strong-q126-m32-nine-first-three-recovery-r1.json",
+    "sha256": "67e978538584cc256e8ca7310a7026a787a88204b1a474edf38216f58e1d341b"
+  },
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-first-three-storage-r1-resource.json",
+      "sha256": "153ff1bf08c98d7d2eb3a4eaf6d856a6b597a288d5fb0b7b3c58104ea2636fcc",
+      "bytes": 1526
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-first-three-storage-r1-heartbeat.json",
+      "sha256": "c5977c92fee5f41fe97aef4f813447b33b909124a3feb08c9496cfdb248427c5",
+      "bytes": 313
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-first-three-storage-r1-ownership.json",
+      "sha256": "b37687ca091617c6a093096db2f3aee3d1a0e4c6851a0cc2efbf513e10c113f9",
+      "bytes": 1745
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-nine-first-three-storage-r1-stdout.log",
+      "sha256": "759db2fc60671ee88083442c48afb46e52b1a0df54fe88a5faaf18e123a27d41",
+      "bytes": 1800
+    }
+  ],
+  "total_bytes": 5384
+}

@@ -1,0 +1,362 @@
+{
+  "scope": "Session98541 formal tool exit137 and owned child signal9. Cause unknown; this was not a deliberate interruption or a mathematical nonconvergence result.",
+  "created_utc": "2026-11-12T15:21:02.763326+00:00",
+  "formal_session": 98541,
+  "formal_tool_exit": 137,
+  "child_resource": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "computations/strong_physical_merit_actual_bvp_v2.py",
+      "--actual-reference",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz",
+      "--actual-reference-raw",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-raw-collocation.json.gz",
+      "--actual-reference-tail",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-tail-response_0003.json.gz",
+      "--target-core",
+      "0.105",
+      "-0.006655700963004517",
+      "-0.0004116733380408847",
+      "--frozen-reference-ready",
+      "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-staged-audit-ready.json",
+      "--frozen-calibration-ledger",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--source-topic",
+      "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+      "--port",
+      "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+      "--tail-config",
+      "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1-config.json",
+      "--out-prefix",
+      "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r4",
+      "--max-nodes",
+      "2400",
+      "--initial-audited-tail-packet",
+      "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-exactraw-r1-response_0001.json.gz",
+      "--initial-audited-tail-ready",
+      "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-exactraw-r1-ready.json",
+      "--release-tail-worker-between-responses",
+      "--node-heap",
+      "256",
+      "--point-cache-limit",
+      "2",
+      "--resume-actual-iterate",
+      "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-iterate-0003.json.gz",
+      "--resume-tail-config",
+      "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-disk-r2-config.json",
+      "--radial-batch-size",
+      "16",
+      "--collocation-batch-size",
+      "12",
+      "--disk-backward-error-tol",
+      "5e-11",
+      "--disk-heartbeat-seconds",
+      "20",
+      "--resume-original-affine-anchor",
+      "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-exactraw-r1-response_0001.json.gz",
+      "--original-inner-entry-raw",
+      "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-exactraw-r1-iterate-0001.json.gz",
+      "--original-inner-entry-tail-config",
+      "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-exactraw-r1-config.json"
+    ],
+    "wall_seconds": 3442.3969740867615,
+    "exitcode": -9,
+    "termination_signal": 9,
+    "peak_rss_kib": 260076,
+    "user_seconds": 526.609725,
+    "system_seconds": 22.278373,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "solver_success": false,
+  "physical_gates_passed": false,
+  "outer_coupling_pending": true,
+  "final_new_H_evaluated": false,
+  "new_Node_requests": 0,
+  "current_H_must_not_be_labelled_audited": true,
+  "original_equations_and_final_gates_unchanged": true,
+  "newton_merit_changed": true,
+  "fixed_merit": "Fixed positive physical-core-coordinate norm from the frozen r4 plan.",
+  "original_affine_H0_restore": "Full original H0/K0/J0 and restored raw x/y/p identities passed.",
+  "completed_full_matrices": 3,
+  "completed_full_factors": 3,
+  "full_linear_checks": 6,
+  "maximum_checked_backward_error": 6.881372894088784e-29,
+  "checkpoint_events": [
+    {
+      "event": "actual_iterate_checkpoint_saved",
+      "phase": "newton-entry",
+      "call": 1,
+      "iteration": 0,
+      "file": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r4-iterate-0001.json.gz",
+      "sha256": "2750bb3a68ed3e12f6d823694bd92e20be1dfa3c2398bf12eb73d4e46a2d6cf7",
+      "nodes": 2004,
+      "solver_success": false,
+      "physical_surface": false,
+      "unique_immutable_manifest": true,
+      "complete_piece_readback_passed": true,
+      "actual_coupled_acceptance_pending": true
+    },
+    {
+      "event": "actual_iterate_checkpoint_saved",
+      "phase": "accepted-newton",
+      "call": 1,
+      "iteration": 1,
+      "file": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r4-iterate-0002.json.gz",
+      "sha256": "5cd1fde174cab4fafb5c0f162e5d146b887a85c56b47e0258fed939f0050eba4",
+      "nodes": 2004,
+      "solver_success": false,
+      "physical_surface": false,
+      "unique_immutable_manifest": true,
+      "complete_piece_readback_passed": true,
+      "actual_coupled_acceptance_pending": true
+    },
+    {
+      "event": "actual_iterate_checkpoint_saved",
+      "phase": "accepted-newton",
+      "call": 1,
+      "iteration": 2,
+      "file": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r4-iterate-0003.json.gz",
+      "sha256": "3fa8656197215d9978204138d960b25f2928ff99c618d639478b2e7f136c883a",
+      "nodes": 2004,
+      "solver_success": false,
+      "physical_surface": false,
+      "unique_immutable_manifest": true,
+      "complete_piece_readback_passed": true,
+      "actual_coupled_acceptance_pending": true
+    }
+  ],
+  "trial_events": [
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 1.0,
+      "status": "evaluated",
+      "merit": 0.060310585784466596,
+      "old_merit": 0.061016754249092135,
+      "armijo": false,
+      "before_gc_memory": {
+        "peak_rss_kib": 248752,
+        "rss_kib": 225208
+      },
+      "collected_unreachable_objects": 95,
+      "peak_rss_kib": 248752,
+      "rss_kib": 225208
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 0,
+      "alpha": 0.5,
+      "status": "evaluated",
+      "merit": 0.04604002663162272,
+      "old_merit": 0.061016754249092135,
+      "armijo": true,
+      "before_gc_memory": {
+        "peak_rss_kib": 248752,
+        "rss_kib": 225216
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 248752,
+      "rss_kib": 225216
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 1,
+      "alpha": 1.0,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 256836,
+        "rss_kib": 232804
+      },
+      "collected_unreachable_objects": 127,
+      "peak_rss_kib": 256836,
+      "rss_kib": 232804
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 1,
+      "alpha": 0.5,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 256836,
+        "rss_kib": 232804
+      },
+      "collected_unreachable_objects": 78,
+      "peak_rss_kib": 256836,
+      "rss_kib": 232804
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 1,
+      "alpha": 0.25,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 256836,
+        "rss_kib": 220660
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 256836,
+      "rss_kib": 220660
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 1,
+      "alpha": 0.125,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 256836,
+        "rss_kib": 220664
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 256836,
+      "rss_kib": 220664
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 1,
+      "alpha": 0.0625,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 256836,
+        "rss_kib": 220668
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 256836,
+      "rss_kib": 220668
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 1,
+      "alpha": 0.03125,
+      "status": "evaluated",
+      "merit": 0.1055475554080988,
+      "old_merit": 0.11948984247345353,
+      "armijo": true,
+      "before_gc_memory": {
+        "peak_rss_kib": 256836,
+        "rss_kib": 220720
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 256836,
+      "rss_kib": 220720
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 2,
+      "alpha": 1.0,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 260076,
+        "rss_kib": 237776
+      },
+      "collected_unreachable_objects": 127,
+      "peak_rss_kib": 260076,
+      "rss_kib": 237776
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 2,
+      "alpha": 0.5,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 260076,
+        "rss_kib": 237776
+      },
+      "collected_unreachable_objects": 78,
+      "peak_rss_kib": 260076,
+      "rss_kib": 223544
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 2,
+      "alpha": 0.25,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 260076,
+        "rss_kib": 223544
+      },
+      "collected_unreachable_objects": 78,
+      "peak_rss_kib": 260076,
+      "rss_kib": 223544
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 2,
+      "alpha": 0.125,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 260076,
+        "rss_kib": 223544
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 260076,
+      "rss_kib": 223544
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 2,
+      "alpha": 0.0625,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 260076,
+        "rss_kib": 223544
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 260076,
+      "rss_kib": 223544
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 2,
+      "alpha": 0.03125,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 260076,
+        "rss_kib": 223544
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 260076,
+      "rss_kib": 223544
+    },
+    {
+      "event": "newton_trial",
+      "iteration": 2,
+      "alpha": 0.015625,
+      "status": "outside-domain",
+      "before_gc_memory": {
+        "peak_rss_kib": 260076,
+        "rss_kib": 223544
+      },
+      "collected_unreachable_objects": 46,
+      "peak_rss_kib": 260076,
+      "rss_kib": 223544
+    }
+  ],
+  "latest_immutable_raw": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r4-saved-iterate-0003/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r4-iterate-0003.json.gz",
+  "latest_raw_sha256": "3fa8656197215d9978204138d960b25f2928ff99c618d639478b2e7f136c883a",
+  "last_accepted_scaled_collocation": 0.01392039637772231,
+  "last_accepted_boundary": 4.18963490476606e-05,
+  "last_full_direction": {
+    "merit": 0.614819407490457,
+    "raw_merit": 13022576127465.242,
+    "parameter_step_max": 3051116.1861394336,
+    "domain_rejected_alphas": [
+      1,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625
+    ],
+    "no_further_accepted_step_observed": true
+  },
+  "no_OOM_or_wall_limit_causal_claim": true,
+  "observed_ENOSPC_in_this_owned_log": false,
+  "narrow_restart_scope": "Only original first inner call and original2004-node grid are supported by the frozen affine-restart entry.",
+  "original_log_sha256": "4fc7c6069e537f44c48c52bdeb6e9bd334913e8a2f1505d72ae040599c336256",
+  "source_plan": {
+    "path": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-physical-merit-r4-command-plan.json",
+    "sha256": "0a387ef8562443bc6687ce0f22844c387999038584ac6e97b0543d29fb307924"
+  }
+}

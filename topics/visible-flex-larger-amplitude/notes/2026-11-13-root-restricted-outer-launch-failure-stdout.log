@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/d1aa462cfc02/root-work/restricted-outer-r6-inputs/root_full_field_restricted_window_rebootstrap.py", line 315, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/d1aa462cfc02/root-work/restricted-outer-r6-inputs/root_full_field_restricted_window_rebootstrap.py", line 126, in main
+    if list(a.out_prefix.parent.glob(a.out_prefix.name+'-*')):raise FileExistsError('Fresh finite-bootstrap outputs required')
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileExistsError: Fresh finite-bootstrap outputs required
+{"event": "child_exit", "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n", "command": ["python", "/workspace/scratch/d1aa462cfc02/root-work/restricted-outer-r6-inputs/root_full_field_restricted_window_rebootstrap.py", "--inputs", "/workspace/scratch/d1aa462cfc02/root-work/restricted-outer-r6-inputs/input-manifest.json", "--out-prefix", "/workspace/scratch/d1aa462cfc02/root-work/r127/restricted-outer-r6-r1", "--cycles", "4"], "wall_seconds": 0.37183189392089844, "exitcode": 1, "termination_signal": null, "peak_rss_kib": 28004, "user_seconds": 0.271598, "system_seconds": 0.022720999999999998, "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"}

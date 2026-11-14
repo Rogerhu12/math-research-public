@@ -1,0 +1,364 @@
+{
+  "schema": "actual-q130-partial-six-complete-warm-and-inlet-negative-v1",
+  "scope": "Consume the actual q130 six-control warm field and its failed inlet proxy.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nAll 18 complete field blocks are re-read. Exact binary core algebra is retained.\nNo nonlinear solution, continuous curvature or inlet accuracy is inferred.\n",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "source_sha256": "320d4e54599fbdd0319668f6664fa5f07153dad0d5fb905374493dfd334ba4f6",
+  "input_sha256": {
+    "m28-q122-r1/q130-t256-constant-size-combined-screen.json": "bed7e45297f07c04c71cdf34a0b8b87952e2c8b21aa08b301546c10d697dd86e",
+    "m28-q122-r1/q130-t256-constant-size-plan.json": "d79154658d018593a86835413bce59aa28be57dbf8d33358bfd8ad61c2c53c46",
+    "m28-q122-r1/minimax-t256-k0nonpositive-r1.json": "5fbe5de7437dfacbb02154c3f0383926797fbeafe71d903dc50c798e87982f60",
+    "m28-q122-r1/q130-t256-warm-inlet.json": "72ab07e367b5cf3263e6c772b80edb247933e25397d7527a6bbdd42df978bc3b",
+    "m28-q122-r1/q130-t256-constant-size-combined-resource.json": "2260e5d69ee9c64cc29e77acad538758e798a25af14b0f443f547c7f893a9c3b",
+    "m28-q122-r1/q130-t256-constant-size-owned-resource.json": "442f30b40ebe5dbf6518b5682fd36fde4d8b31eb9470e43de1b87f41ac88f1e9",
+    "m28-q122-r1/q130-t256-warm-inlet-resource.json": "7920c28c5b1245f75d906917227f258c7632d0cd902147faed4f0257caae173e"
+  },
+  "all_saved_data_gates": true,
+  "gate_count": 76,
+  "complete_blocks": [
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part000.npy.gz",
+      "sha256": "15c86f614afa9ab49baf23a0c116f979ff56d9418baee5410a8884c5197fc6aa",
+      "bytes": 1764454,
+      "first": 0,
+      "last_exclusive": 217
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part001.npy.gz",
+      "sha256": "b1f9570f57468ac2525d84430ba3196e0e6b54ca0636d5d79664f8dfe819556a",
+      "bytes": 1754420,
+      "first": 217,
+      "last_exclusive": 434
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part002.npy.gz",
+      "sha256": "e9532064f264ec5bdeeced0509bc0e69b61884f9436f97c2cfce81bdb704f2ef",
+      "bytes": 1651295,
+      "first": 434,
+      "last_exclusive": 651
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part003.npy.gz",
+      "sha256": "d2604b00a0ecca890c059e6b0641fe98503d0a331d741c2f264d5fe1418490d8",
+      "bytes": 1700096,
+      "first": 651,
+      "last_exclusive": 868
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part004.npy.gz",
+      "sha256": "0f9394bb4e6246c6293e25ab4c0f411281cc7b924f7d551fbcb3543af82257de",
+      "bytes": 1561809,
+      "first": 868,
+      "last_exclusive": 1085
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part005.npy.gz",
+      "sha256": "754047ab035693c0373777b8eec56364684842908725f0c0945ba6e2d8076325",
+      "bytes": 1654011,
+      "first": 1085,
+      "last_exclusive": 1302
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part006.npy.gz",
+      "sha256": "ba1874598fe6ebe069e7e623c2758bbb4f918d1eed00209b399398ea5cdb33aa",
+      "bytes": 1806631,
+      "first": 1302,
+      "last_exclusive": 1519
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part007.npy.gz",
+      "sha256": "45f8edbfaa9890d5c25dcb3c029ebf83cc116b650fd8b5a4044d6ee8fe045f35",
+      "bytes": 1776248,
+      "first": 1519,
+      "last_exclusive": 1736
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part008.npy.gz",
+      "sha256": "bc5c3d3f41a05f5d43e26e64f9ffa62aa315b5344b7d272a34b22b82d5bf7a00",
+      "bytes": 1744681,
+      "first": 1736,
+      "last_exclusive": 1953
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part009.npy.gz",
+      "sha256": "783ca03df941f77e08ad0e1037fba3c53cc6ac9666efa787191f6ce6bcc34953",
+      "bytes": 1729670,
+      "first": 1953,
+      "last_exclusive": 2170
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part010.npy.gz",
+      "sha256": "cd7576a943fd6da18322f812885f1f5742b7ebba1b099b1181b9e759c153c25c",
+      "bytes": 1663002,
+      "first": 2170,
+      "last_exclusive": 2387
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part011.npy.gz",
+      "sha256": "8ddeef538fd9d9e6123f85d14d90bb61223694b56a329c82af5437cdc38ae077",
+      "bytes": 1549266,
+      "first": 2387,
+      "last_exclusive": 2604
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part012.npy.gz",
+      "sha256": "0ec1a3eaaaa8dfc6cf2d5476b6de03b46660f1c51e1532d7deccf1a490d69154",
+      "bytes": 1446643,
+      "first": 2604,
+      "last_exclusive": 2821
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part013.npy.gz",
+      "sha256": "62b321e15eadfab4d31016d5d9aad0aef8a5867f2731e91bb7693b7f4f65dca7",
+      "bytes": 1452894,
+      "first": 2821,
+      "last_exclusive": 3038
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part014.npy.gz",
+      "sha256": "95950c8c83540c3c751a38dfecab259f655ce8171e7ab7be314ae399d3cbd241",
+      "bytes": 1562874,
+      "first": 3038,
+      "last_exclusive": 3255
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part015.npy.gz",
+      "sha256": "8dd83cea8aa15dbd62bb15c3ee4f06a7016421e4f888f3a7c4b6354b60d1d8d7",
+      "bytes": 1315040,
+      "first": 3255,
+      "last_exclusive": 3472
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part016.npy.gz",
+      "sha256": "e15bde88a59250cb866016a2902cd4200242fa5fef963ea520c29c75e7c05186",
+      "bytes": 1224929,
+      "first": 3472,
+      "last_exclusive": 3689
+    },
+    {
+      "path": "m28-q122-r1/q130-t256-constant-size-combined-field-part017.npy.gz",
+      "sha256": "9f7589df843e8121866f5420f719f26d451cf0bc00f8798c9e08cdb71533aca0",
+      "bytes": 425370,
+      "first": 3689,
+      "last_exclusive": 3764
+    }
+  ],
+  "complete_field_points": 2890752,
+  "kappa_sample": 8.474192947542846,
+  "twice_fixed_origin_norm_sample": 3.9065922643269304,
+  "product_exact_binary": {
+    "numerator": "5245730964131402380877315660691",
+    "denominator": "158456325028528675187087900672"
+  },
+  "product_display": 33.10521661528471,
+  "finite_sample_budget_margin": 0.2281167180486206,
+  "actual_complete_core_axis_gap": {
+    "numerator": "608106132341600629131",
+    "denominator": "2361183241434822606848"
+  },
+  "actual_complete_core_short_axis_radius": {
+    "numerator": "234329031782653315331",
+    "denominator": "147573952589676412928"
+  },
+  "actual_R7_expression": {
+    "numerator": "824005820357054537609844600709989522063479688719200800837",
+    "denominator": "3138550867693340381917894711603833208051177722232017256448"
+  },
+  "gap_display": 0.2575429647603598,
+  "rho_short_display": 1.5878752833448597,
+  "R7_display": 0.2625434014273768,
+  "complete_high_core_tail_comparison": [
+    {
+      "minimum_physical_frequency": 16,
+      "baseline": {
+        "numerator": "242113387869261015849141",
+        "denominator": "154742504910672534362390528"
+      },
+      "actual_warm": {
+        "numerator": "233267437938171228069",
+        "denominator": "2361183241434822606848"
+      },
+      "ratio": 63.14155093716276
+    },
+    {
+      "minimum_physical_frequency": 24,
+      "baseline": {
+        "numerator": "121785578062890812459189",
+        "denominator": "154742504910672534362390528"
+      },
+      "actual_warm": {
+        "numerator": "423505126174647918463",
+        "denominator": "4722366482869645213696"
+      },
+      "ratio": 113.9495841397943
+    },
+    {
+      "minimum_physical_frequency": 32,
+      "baseline": {
+        "numerator": "85528427177083973895349",
+        "denominator": "154742504910672534362390528"
+      },
+      "actual_warm": {
+        "numerator": "1657827064825570553591",
+        "denominator": "18889465931478580854784"
+      },
+      "ratio": 158.78836736857323
+    },
+    {
+      "minimum_physical_frequency": 40,
+      "baseline": {
+        "numerator": "74174640424291525411829",
+        "denominator": "154742504910672534362390528"
+      },
+      "actual_warm": {
+        "numerator": "1153885424774651722799",
+        "denominator": "18889465931478580854784"
+      },
+      "ratio": 127.4374819437385
+    },
+    {
+      "minimum_physical_frequency": 48,
+      "baseline": {
+        "numerator": "16753252088572190021599",
+        "denominator": "38685626227668133590597632"
+      },
+      "actual_warm": {
+        "numerator": "291904750455939902755",
+        "denominator": "9444732965739290427392"
+      },
+      "ratio": 71.3677470825564
+    },
+    {
+      "minimum_physical_frequency": 56,
+      "baseline": {
+        "numerator": "5280931065449250255",
+        "denominator": "37778931862957161709568"
+      },
+      "actual_warm": {
+        "numerator": "2979914035835421465",
+        "denominator": "295147905179352825856"
+      },
+      "ratio": 72.22760378041134
+    }
+  ],
+  "inlet_projection_rows": [
+    {
+      "modes": 28,
+      "angular": 3584,
+      "position": 8.395624336519436e-06,
+      "first": 0.0005567936828826407,
+      "second": 0.03865888606563326,
+      "metric_l1": 3.59842971623597e-05,
+      "metric_pointwise_max": 2.5833700181721042e-05,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 28,
+      "angular": 7168,
+      "position": 8.40790855992927e-06,
+      "first": 0.000557296342919777,
+      "second": 0.03865888606565055,
+      "metric_l1": 3.598429716358366e-05,
+      "metric_pointwise_max": 2.5858053017691063e-05,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 32,
+      "angular": 4096,
+      "position": 3.33953961976967e-06,
+      "first": 0.00025060901793014055,
+      "second": 0.019239788527897404,
+      "metric_l1": 3.256612407140325e-05,
+      "metric_pointwise_max": 2.237687100103969e-05,
+      "arc_inversion_residual": 9.769962616701378e-15,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 40,
+      "angular": 5120,
+      "position": 3.5437775969060576e-07,
+      "first": 3.8336085603459e-05,
+      "second": 0.004245047948606314,
+      "metric_l1": 4.091721684115622e-06,
+      "metric_pointwise_max": 2.81198281437689e-06,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    },
+    {
+      "modes": 64,
+      "angular": 8192,
+      "position": 4.797626412217074e-08,
+      "first": 6.859080958063839e-06,
+      "second": 0.001000084525004824,
+      "metric_l1": 6.738047330656257e-07,
+      "metric_pointwise_max": 5.093465019756493e-07,
+      "arc_inversion_residual": 1.0658141036401503e-14,
+      "is_new_bvp_solution": false
+    }
+  ],
+  "target": [
+    0.12999999999999998,
+    -0.015726419207124885,
+    -0.0011216734015582711
+  ],
+  "warm_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.17653503397274317,
+    "vu": 0.33553614777023877,
+    "vd": 0.98,
+    "start_acceleration": 0.642,
+    "boost_speed": 0.8156279921148784,
+    "boost_length": 0.13112924403295184,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.34631101598066,
+    "descending_sync_curvature": 2.0,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle"
+  },
+  "complete_warm_H": [
+    -2.8959910206059017e-05,
+    2.7968685829752624e-08,
+    5.714256419821692e-11,
+    3.4672386079423888e-12,
+    2.8327043345803733e-13,
+    4.56191323688324e-13,
+    -3.9794519437187083e-13,
+    9.54087061004578e-14,
+    -1.9487398520832288e-14,
+    -1.216537113565417e-13,
+    5.962213912468251e-14,
+    1.2636179142852042e-13,
+    7.597272512521445e-14,
+    -3.6590261494162584e-15,
+    -6.39014354222652e-14,
+    -2.6149205813838108e-14,
+    -1.5457785318761514e-13,
+    1.1901290884683968e-13,
+    -1.6492349958685973e-13,
+    1.8426902646742194e-13,
+    -9.60731878775387e-14,
+    -2.1045678649204654e-14,
+    4.886334701474452e-13,
+    -6.751535960095065e-13,
+    3.0147963215382536e-13,
+    4.571196702165988e-13,
+    -2.4955553711426655e-13,
+    -1.5094807127088477e-12
+  ],
+  "nonlinear_solution": false,
+  "true_new_H_tail_evaluated": false,
+  "continuous_geometry_or_reach_certified": false,
+  "old_M28_physical_metric_accuracy_not_repaired": true,
+  "design_conclusion": "Finite sample curvature-size passes, but this actual complete warm core fails inlet representation accuracy even at the inspected higher projection orders; do not launch it as an accepted or validated next solution.",
+  "all_large_derived_arrays_remain_reproducible_scratch_only": true,
+  "elapsed_seconds": 1.8656034259984153,
+  "peak_rss_kib": 32552
+}

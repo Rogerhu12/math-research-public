@@ -1,0 +1,108 @@
+{
+  "scope": "Sample the accepted actual C2 polynomial with its original complete mean.\n\nThe saved nonmean polynomial and all original curvature/metric formulas are\nretained. Geometry angles remain independent from the original postprocessor\nmean rule max(512,16*(3*M+1)); the latter supplies both mean first and second\njets. All values remain finite spatial samples, not continuous certificates.\nNo field, profile, metric, nonlinear solve or acceptance gate is changed.\n",
+  "input": "notes/2026-11-13-strong-q122-m32-sameg-actual-r1.json.gz",
+  "input_sha256": "4c0e13b2ea4e2541e75891a3b4fafa93ffc2f8331cfdcdc7e4083ac3cbfef1ad",
+  "source_sha256": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0",
+  "config": {
+    "angular": 768,
+    "radial": 801,
+    "batch": 8,
+    "interior_fractions": [
+      0.5,
+      0.21132486540518713,
+      0.7886751345948128
+    ],
+    "mean_angular": 1552,
+    "mean_rule": "original physical postprocessor",
+    "original_audit_source_sha256": "1b7f45785fffc41595eda9aae844c3081d2954d3ea08ac0da6e5a90c935294fa"
+  },
+  "sample_count": 11144,
+  "modes": 32,
+  "q": 0.09,
+  "physical_metric_sha256": "b4847618fc0193078c9f0b293dafac6300f3778d2cc69b8ee575ac8ea0154988",
+  "top": {
+    "metric_component_max": {
+      "value": 5.454620755074302e-09,
+      "s": 0.9163055768544072,
+      "psi": 0.0,
+      "segment": "boost",
+      "interval": 325,
+      "interval_width": 0.0009454362900105373,
+      "normalized_interval_position": 0.7886751345948103
+    },
+    "kappa": {
+      "value": 8.408826761678815,
+      "s": 1.0049114341418386,
+      "psi": 1.0962849364089382,
+      "segment": "first descending turn",
+      "interval": 554,
+      "interval_width": 0.0001700166649927226,
+      "normalized_interval_position": 0.5
+    },
+    "darboux_frobenius": {
+      "value": 1.6865674485978878e-05,
+      "s": 0.9652231689427729,
+      "psi": 0.04908738521234052,
+      "segment": "boost",
+      "interval": 392,
+      "interval_width": 0.00014525819299970877,
+      "normalized_interval_position": 0.2113248654050201
+    },
+    "flow_defect": {
+      "value": 3.8737378219106525e-08,
+      "s": 0.9729256841330811,
+      "psi": 4.1560652813114976,
+      "segment": "boost",
+      "interval": 433,
+      "interval_width": 0.00015567586472775563,
+      "normalized_interval_position": 0.0
+    },
+    "actual_vs_PDE_second": {
+      "value": 2.0440252233952743e-05,
+      "s": 0.9652231689427729,
+      "psi": 0.0,
+      "segment": "boost",
+      "interval": 392,
+      "interval_width": 0.00014525819299970877,
+      "normalized_interval_position": 0.2113248654050201
+    },
+    "metric_fourier_l1": {
+      "value": 5.619686442865929e-09,
+      "s": 0.9160326529061376
+    },
+    "darboux_fourier_l1": {
+      "value": 2.9740090885209643e-05,
+      "s": 0.9652231689427729
+    }
+  },
+  "seconds": 305.27026200294495,
+  "initial_laws_provider_adapter": {
+    "scope": "Reload the accepted physical quintic with the declared initial-speed law.\n\nThis adds only the existing pulse/frontload providers to the saved physical\nloader used by the frozen complete-mean interior audit. Its original C2\npolynomial, curvature and metric formulas, complete mean rule and sampling\ngrid are unchanged. Every reported number remains a finite sample, not a\ncontinuous certificate or a new nonlinear solution.\n",
+    "observations": {
+      "provider_loads": 1,
+      "saved_fields": [
+        {
+          "initial_speed_frontload": 0.0,
+          "initial_speed_pulse": 0.0,
+          "initial_speed_frontload_degree": 22,
+          "physical_profile_unchanged": true,
+          "zero_weight_uses_original_arithmetic": true,
+          "physical_length": 3.154318819114381,
+          "physical_length_original_gate_passed": true
+        }
+      ]
+    },
+    "source_sha256": {
+      "strong_interior_jet_fullmean_audit.py": "5622e694bd16a3a8a294d564cdab42bcec33555cf212ebc1d26ff342fcc999e0",
+      "strong_interior_jet_audit.py": "1b7f45785fffc41595eda9aae844c3081d2954d3ea08ac0da6e5a90c935294fa",
+      "geometric-checkpoint-core-pullback.py": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33",
+      "strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+      "strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "strong_initial_laws_interior_fullmean_audit.py": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0"
+    },
+    "complete_mean_source_transformed_sha256": "5a9c257777c597b84e4cdf333abf6bdc039f91cfac1e2f860e6fcb33401dd448",
+    "exact_reverse_recovers_original_complete_mean_source": true,
+    "original_physical_quintic_and_all_metric_curvature_formulas_unchanged": true,
+    "numerical_solution_or_continuous_certificate_created": false
+  }
+}

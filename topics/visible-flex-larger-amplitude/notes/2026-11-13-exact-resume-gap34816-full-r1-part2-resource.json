@@ -1,0 +1,29 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "2026-11-13-exact-resume-common-gap-windows-v3.py",
+    "--summary",
+    "2026-11-13-exact-resume-hybrid-leaves-r1.json",
+    "--leaves",
+    "2026-11-13-exact-resume-common-strip34816-r1-leaves.jsonl.gz",
+    "--common-strip",
+    "2026-11-13-exact-resume-common-strip34816-r1.json",
+    "--out-prefix",
+    "2026-11-13-exact-resume-gap34816-full-r1-part2",
+    "--windows",
+    "14282:14728,14730:15190,15192:15666,15668:16156,16158:16662,16664:17184,17186:17722,17724:18276,18278:18848,18850:19438,19440:20046,20048:20674,20676:21322,21324:21990,21992:22678,22680:23388,23390:24120,24122:24874,24876:25652,25654:26454,26456:27282,27284:28136,28138:29016,29018:29924,29926:30860,30862:31826,31828:32822,32824:33848",
+    "--precision",
+    "256",
+    "--rss-kib",
+    "98304"
+  ],
+  "wall_seconds": 646.5606486797333,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 29832,
+  "user_seconds": 414.333855,
+  "system_seconds": 4.055162,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

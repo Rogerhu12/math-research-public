@@ -1,0 +1,25 @@
+{
+  "scope": "I/O-only continuation: wait for genuine missing-two owned0, verify full arrays, archive, then execute the frozen no-ODE merger and archive complete dependencies. No new response, Node or J.",
+  "created_utc": "2026-11-13T15:49:43.282924+00:00",
+  "cwd": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_completed_missing_columns_followup.py",
+    "--launch-plan",
+    "notes/2026-11-13-strong-q122-m28-missing-two-single-thread-launch-plan-r2.json",
+    "--archive-topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--assembled-prefix",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r1",
+    "--status",
+    "/workspace/scratch/d1aa462cfc02/strong-work/q122-missing-two-r2-followup-status.json"
+  ],
+  "source": {
+    "file": "computations/strong_completed_missing_columns_followup.py",
+    "sha256": "de027e34554a072a717e62a407bf0cbe8a84e7add10df0ea86a8767d3317ea98"
+  },
+  "missing_response_session": 50006,
+  "old_six_forcings_not_recomputed": true,
+  "newton_or_geometry_or_continuous_success_not_claimed": true
+}

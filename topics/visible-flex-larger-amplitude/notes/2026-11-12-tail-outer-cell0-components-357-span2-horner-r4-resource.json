@@ -1,0 +1,30 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/tail_outer_replace_component_audits.py",
+    "--base",
+    "notes/2026-11-12-tail-outer-cell0-components-357-r1.json",
+    "--audit",
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3.json",
+    "--stream-check",
+    "notes/2026-11-12-tail-outer-cell0-seg3-span2-centeredJ-r3-streamcheck.json",
+    "--audit",
+    "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2.json",
+    "--stream-check",
+    "notes/2026-11-12-tail-outer-cell0-seg5-span2-centeredJ-r2-streamcheck.json",
+    "--audit",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "--stream-check",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-streamcheck.json",
+    "--out",
+    "notes/2026-11-12-tail-outer-cell0-components-357-span2-horner-r4.json"
+  ],
+  "wall_seconds": 0.9381494522094727,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 12992,
+  "user_seconds": 0.048284999999999995,
+  "system_seconds": 0.046453999999999995,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

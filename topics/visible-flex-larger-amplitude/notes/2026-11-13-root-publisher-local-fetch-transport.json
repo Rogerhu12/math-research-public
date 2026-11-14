@@ -1,0 +1,35 @@
+{
+  "schema": "local-fetch-transport-config-only-v1",
+  "utc": "2026-11-13T18:17:37.815219+00:00",
+  "scope": "Only two local transport configuration keys. Current Git child may already have read its configuration; future pull uses these settings. No index, refs, branch, worktree, authentication, or scientific files are edited. Actual performance effect not yet measured.",
+  "entries": [
+    {
+      "key": "remote.origin.partialclonefilter",
+      "previous": "blob:limit=10485760",
+      "new": "blob:none",
+      "command": [
+        "git",
+        "config",
+        "--local",
+        "--replace-all",
+        "remote.origin.partialclonefilter",
+        "blob:none"
+      ],
+      "exitcode": 0
+    },
+    {
+      "key": "fetch.negotiationAlgorithm",
+      "previous": null,
+      "new": "skipping",
+      "command": [
+        "git",
+        "config",
+        "--local",
+        "--replace-all",
+        "fetch.negotiationAlgorithm",
+        "skipping"
+      ],
+      "exitcode": 0
+    }
+  ]
+}

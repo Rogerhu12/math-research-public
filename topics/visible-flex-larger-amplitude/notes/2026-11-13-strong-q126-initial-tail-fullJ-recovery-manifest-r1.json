@@ -1,0 +1,219 @@
+{
+  "scope": "Archive a genuine converged finite-tail response as recovery data only.\n\nThe complete response, full height Jacobian and all original full-flow\nsidecars are retained exactly. This does not accept the associated prefix,\ninfer a physical audit when absent, or claim an infinite closed surface.\nThe live coupled job is neither changed nor restarted.\n",
+  "created_utc": "2026-11-13T16:31:38.160583+00:00",
+  "archiver_source_sha256": "6ea44b541f3efaf45a76a4f95c4e1c42d80a49fea6c4de97289463b8cc3f26ca",
+  "packet": {
+    "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0001.json.gz",
+    "sha256": "63876d08f5190bbfd60182ad62d2950495fa342fc02cdfb0af60f824bfbe88c9"
+  },
+  "launch_plan": {
+    "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-launch-plan.json",
+    "sha256": "91e1a3de0f97aa0a57a85726ca785f0f1c8257f998b65711617e06f6835a3b55"
+  },
+  "full_height": [
+    -2.8315245811552136e-05,
+    2.810694061195865e-08,
+    5.268745956881841e-11,
+    3.204608748016028e-12,
+    2.2631559326030465e-13,
+    -1.0029928062494587e-13,
+    -1.5977833670367168e-13,
+    1.0341899099494314e-13,
+    -8.73547383995819e-14,
+    3.059058357990163e-14,
+    8.068857315461442e-14,
+    -4.3313431823589246e-16,
+    6.252128644793725e-14,
+    3.1661344761016246e-16,
+    -4.25394372640378e-14,
+    3.133593936433116e-14,
+    4.3177985501361383e-14,
+    3.987824094080966e-15,
+    4.288830312278354e-15,
+    -4.979650408504013e-14,
+    -7.498982693526848e-14,
+    3.6093661981605723e-16,
+    4.23489284295463e-14,
+    -5.008313160600049e-14,
+    9.067759987107256e-14,
+    -6.620326779017538e-14,
+    9.730890467575362e-14,
+    -1.8653962668685552e-13,
+    1.5948742543191007e-17,
+    -1.1594690619653674e-17,
+    -8.096418893650376e-18,
+    -2.930197305124653e-17
+  ],
+  "modes": 32,
+  "residual": 1.8519471491503151e-10,
+  "original_H_serialization_identity": {
+    "complete_request_H_binary_base_bits_equal": true,
+    "original_JSON_checkpoint_H_values_equal": true,
+    "original_JSON_checkpoint_H_bits_equal": true,
+    "JSON_stringify_signed_zero_indices": [],
+    "original_request_H_f64le_sha256": "5fa542b6da75ac73e64437d663689714ee30e6e371d490e0c6aecc4857de4cf7",
+    "original_checkpoint_JSON_H_f64le_sha256": "5fa542b6da75ac73e64437d663689714ee30e6e371d490e0c6aecc4857de4cf7",
+    "original_archiver_source_sha256": "0b8f5380eadc6255f8000a4660e0189b136201d9030550e5aa5e93d85978f8c2",
+    "original_packet_and_sidecars_unchanged": true,
+    "scope": "Only original JSON signed-zero serialization; nonzero H bits and complete binary H stay exact."
+  },
+  "tolerance": 2e-09,
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 0.05694946439569615,
+      "minA": 0.863222558035648,
+      "minD": 0.9999283463622566,
+      "chartCondition": 665778.7679214234,
+      "step": 1
+    },
+    {
+      "iteration": 1,
+      "norm": 8.10941311877992e-08,
+      "minA": 0.8632231076048464,
+      "minD": 0.9999283463705837,
+      "chartCondition": 665778.7680282814,
+      "step": 1
+    },
+    {
+      "iteration": 2,
+      "norm": 1.8519471491503151e-10,
+      "minA": 0.863223107604991,
+      "minD": 0.9999283463705837
+    }
+  ],
+  "full_height_jacobian_entries": 3136,
+  "full_state_shape": [
+    577,
+    64
+  ],
+  "complete_snapshot": {
+    "schema": "full-shooting-flow-tangent-storage-v1",
+    "manifestPath": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-manifest.json.gz",
+    "manifestSha256": "2b7a2cbd2100d4299563004a42c74202bdf0c3c44a5682c7fe46efd73730f0b5",
+    "manifestBytes": 16060,
+    "chunks": 10,
+    "rawFlowBytes": 18874368,
+    "baseRawBytes": 296016,
+    "helperSha256": "fb6ed25102cb91a332e1c2d879cf6218f9c88faaebe6916e801e46e6f8c1551f",
+    "newTargetAccepted": false,
+    "roundtrip": {
+      "allBaseAndFlowValuesBitwiseEqual": true,
+      "checkedValues": 2396289,
+      "originalFactoryPredictorCheck": {
+        "allStateValuesBitwiseEqual": true,
+        "values": 36928,
+        "probeCompleteHeight": [
+          -2.831527281510058e-05,
+          2.810696740394974e-08,
+          5.268750337735388e-11,
+          3.2046085850983296e-12,
+          2.2631419955629553e-13,
+          -1.0030018104548266e-13,
+          -1.5977889146401218e-13,
+          1.0341888843105644e-13,
+          -8.735492230351344e-14,
+          3.059056245537496e-14,
+          8.068862495624399e-14,
+          -4.331473058001065e-16,
+          6.252133978563479e-14,
+          3.1661060593249085e-16,
+          -4.2539479404618446e-14,
+          3.1335968462705767e-14,
+          4.317802628614422e-14,
+          3.987827700689896e-15,
+          4.288834304187427e-15,
+          -4.9796551623806247e-14,
+          -7.498989847569997e-14,
+          3.60936951752261e-16,
+          4.234896881049178e-14,
+          -5.0083179372066733e-14,
+          9.067768634643566e-14,
+          -6.620333092729903e-14,
+          9.730899747637303e-14,
+          -1.8653980458509835e-13,
+          1.5948757657161366e-17,
+          -1.1594701725180218e-17,
+          -8.096426638981076e-18,
+          -2.930200100777762e-17
+        ],
+        "probePurpose": "Storage equivalence only; no probe nonlinear solve or accepted target."
+      }
+    }
+  },
+  "actual_request_audit": false,
+  "original_physical_tail_audit_present": false,
+  "all_compressed_and_raw_sidecar_hashes_verified": true,
+  "all_original_stages_preserved": true,
+  "original_live_coupled_job_unchanged": true,
+  "coupled_prefix_or_closed_family_accepted": false,
+  "full_original_prefix_RMS_true_H_physical_BC_and_audit_gates_still_required": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-base.f64le.gz",
+      "sha256": "614b05bc2d1c4db0f0224e1458877b60b776953c480caf4c456ad6fd76ce7cac",
+      "bytes": 291071
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0000.f64le.gz",
+      "sha256": "4dbd317d351d67591c620bcd7a7557c48c77dd96e647b8624bc019bf086e4960",
+      "bytes": 1965276
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0001.f64le.gz",
+      "sha256": "e161c1c47f0b6ef3631cbc749eac68023b2de0205ed1250cc1f3e1076a99daa6",
+      "bytes": 1967600
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0002.f64le.gz",
+      "sha256": "23612a711170b54a05fe2825798e638399017d438c88ca15afdde3e23d3b8906",
+      "bytes": 1966715
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0003.f64le.gz",
+      "sha256": "45fad5a00145b42a1c1898c885dd0711ab41436bf4347218801fca2295206bf1",
+      "bytes": 1964990
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0004.f64le.gz",
+      "sha256": "e0eb55774487a6adb6d89f28a5bc3a754d24cdd03d6022b590e37b531106aa95",
+      "bytes": 1964411
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0005.f64le.gz",
+      "sha256": "8798f34bd5d28b32d2dcdd94c09a0aef2012d618a761dc0377a2daaf2ba94d80",
+      "bytes": 1960505
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0006.f64le.gz",
+      "sha256": "01d042ca4b2600d9c68b2048e5f1682e1532117143ecb92cc9367519bd700426",
+      "bytes": 1958519
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0007.f64le.gz",
+      "sha256": "505aae1f7605212f00116e2ef4379fb2c2ab411507511c0ec2e3a20d3479c4ea",
+      "bytes": 1957335
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0008.f64le.gz",
+      "sha256": "69ceef650fb9c1d412bbe6b465b802c0330294871b0792055b2737bf1bb800d9",
+      "bytes": 1958880
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-flow-0009.f64le.gz",
+      "sha256": "47941447e671c0d774b6a889872592063f60240c13f7b7118e3c35630f846a0b",
+      "bytes": 866632
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0001-manifest.json.gz",
+      "sha256": "2b7a2cbd2100d4299563004a42c74202bdf0c3c44a5682c7fe46efd73730f0b5",
+      "bytes": 16060
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0001.json.gz",
+      "sha256": "63876d08f5190bbfd60182ad62d2950495fa342fc02cdfb0af60f824bfbe88c9",
+      "bytes": 406378
+    }
+  ],
+  "total_bytes": 19244372
+}

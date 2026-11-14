@@ -1,0 +1,39 @@
+{
+  "scope": "Necessary arithmetic check of the cell-major linear implementation against the immutable reference. This does not validate any nonlinear tail or infinite closure.",
+  "reference_source_sha256": "40eb9d9dd40ffcb3f9493ae5f933a6bb358923a3982c510ed512b820fbceda3f",
+  "cell_major_source_sha256": "a11903b7530f11a0d2e3b2713b5adf0a1eaa8a8a29b0bcb99431e9b3e0e75cae",
+  "modes": 3,
+  "steps": 64,
+  "far": 12,
+  "exactly_equal_fields": [
+    "config",
+    "stats",
+    "cut",
+    "rows",
+    "modes",
+    "spacing",
+    "steps",
+    "far"
+  ],
+  "rows": [
+    {
+      "mode": 2,
+      "slope": 11.85687832462087,
+      "logHeightGain": 80.02925762919627
+    },
+    {
+      "mode": 4,
+      "slope": 30.839573766333867,
+      "logHeightGain": 114.61259003576224
+    },
+    {
+      "mode": 6,
+      "slope": 44.30310766030115,
+      "logHeightGain": 145.11067803453534
+    }
+  ],
+  "reference_seconds": 28.642,
+  "cell_major_seconds": 32.924,
+  "maximum_cell_major_heap": 37018648,
+  "maximum_cell_major_rss": 95051776
+}

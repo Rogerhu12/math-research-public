@@ -1,0 +1,68 @@
+{
+  "scope": "Exact finite transfer search for two linear core resonances.\n\nThe matrices on constant radial-speed segments are exact for the linearized\nFrenet equation. Turns are instantaneous in this design screen, so resulting\nprofiles are NOT C2 surfaces. The final original smooth bridge is integrated\nfrom the existing physical finite linear tail port. Candidates must be\nsmoothed, re-solved nonlinearly and matched to the true tail at fixed metric.\n",
+  "kind": "one",
+  "seed": 20261110,
+  "seeds": 120,
+  "seconds": 2.4531493186950684,
+  "bridge_initial": {
+    "2": [
+      0.7589772628946289,
+      0.6511171280261159
+    ],
+    "4": [
+      0.9482740204397909,
+      0.317452960545267
+    ]
+  },
+  "rows": [
+    {
+      "kind": "one",
+      "x": [
+        0.071364329881761,
+        0.9068949317256971,
+        0.94
+      ],
+      "segments": [
+        {
+          "a0": 1.0,
+          "a1": 1.071364329881761,
+          "v": 0.9068949317256971,
+          "length": 0.07869084651952397,
+          "height": 0.033156926071131375
+        },
+        {
+          "a0": 1.071364329881761,
+          "a1": 1.0,
+          "v": -0.94,
+          "length": 0.07591949987421384,
+          "height": 0.02590179302052173
+        }
+      ],
+      "pauses": [],
+      "residual": [
+        -5.551115123125783e-16,
+        3.2751579226442118e-15
+      ],
+      "residual_max": 3.2751579226442118e-15,
+      "height": 0.46149208692826754,
+      "bridge_height": 0.40243336783661443,
+      "bridge_length": 0.6388482209066094,
+      "turn_total_angle": 4.716971396546083,
+      "optimistic_turn_length_at_K8": 0.5896214245682604,
+      "maximum_radius": 1.071364329881761,
+      "minimum_radius": 1.0,
+      "terminal_vectors": {
+        "2": [
+          0.8983947357074887,
+          0.7707216391656966
+        ],
+        "4": [
+          -1.0321052858502255,
+          -0.3455170884420322
+        ]
+      },
+      "seed_index": 3,
+      "optimized": true
+    }
+  ]
+}

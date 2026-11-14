@@ -1,0 +1,68 @@
+{
+  "schema": "complete-geometry-chunks-v1",
+  "dtype": "float64",
+  "shape": [
+    3383,
+    384,
+    3
+  ],
+  "chunks": [
+    {
+      "file": "geometry-vu-minus-field-part000.npy.gz",
+      "start": 0,
+      "end": 434,
+      "bytes": 1617516,
+      "sha256": "180daf9e4d0eca78e36a415ede585a9c3fced65ad9fc3c74d922482076872664"
+    },
+    {
+      "file": "geometry-vu-minus-field-part001.npy.gz",
+      "start": 434,
+      "end": 868,
+      "bytes": 1576236,
+      "sha256": "ee8c0ca3ebd65a40a5d1a84e2ba1862ccd0b762a3268236554ccf303ffed2b40"
+    },
+    {
+      "file": "geometry-vu-minus-field-part002.npy.gz",
+      "start": 868,
+      "end": 1302,
+      "bytes": 1573949,
+      "sha256": "abbe5c7c14d6d2f3cbce4a9a585ed1fceff46f93d3f4da4be97ca7e321518d2f"
+    },
+    {
+      "file": "geometry-vu-minus-field-part003.npy.gz",
+      "start": 1302,
+      "end": 1736,
+      "bytes": 1562328,
+      "sha256": "fdcbab86d243ab04f9c0dc684f8f43055dfe5b0b1b42b2b25e0e5917dcd01eb3"
+    },
+    {
+      "file": "geometry-vu-minus-field-part004.npy.gz",
+      "start": 1736,
+      "end": 2170,
+      "bytes": 1499592,
+      "sha256": "f7a7fd91c304aad856f600cbc35b1889d4a4f9c82d59e21d5cd362aba88e08b2"
+    },
+    {
+      "file": "geometry-vu-minus-field-part005.npy.gz",
+      "start": 2170,
+      "end": 2604,
+      "bytes": 1423243,
+      "sha256": "a11629b836add18f43768485f673c16e9f04af3666b2536fc35e2f31ca7cad85"
+    },
+    {
+      "file": "geometry-vu-minus-field-part006.npy.gz",
+      "start": 2604,
+      "end": 3038,
+      "bytes": 1377602,
+      "sha256": "79c4b2e891a090b7f7d5c3b52369efd2012a4097ff6e4e3ad6726cfca330181e"
+    },
+    {
+      "file": "geometry-vu-minus-field-part007.npy.gz",
+      "start": 3038,
+      "end": 3383,
+      "bytes": 979691,
+      "sha256": "923fae35ea1da2d455cbc224e8d28758bf3eb2391d1165ee732753c2655c4b79"
+    }
+  ],
+  "complete": true
+}

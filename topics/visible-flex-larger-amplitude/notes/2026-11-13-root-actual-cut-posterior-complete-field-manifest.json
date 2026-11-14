@@ -1,0 +1,115 @@
+{
+  "schema": "R150-complete-same-field-source641-window13-stable-v1",
+  "all_gates": true,
+  "formal_successes": [
+    "source-r1",
+    "641-r2",
+    "window13-r1"
+  ],
+  "retained_pre_math_failure": "641-r1",
+  "files": [
+    {
+      "path": "computations/root_r150_restricted_window13_low46.py",
+      "sha256": "4302572f599f3fd03987ba74865ae2919b4c4d54733bf528017716659c6738ba",
+      "bytes": 30807,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_restricted_window13_low46.py"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-source641-input-freeze.json",
+      "sha256": "c60c74176a5b8386512b1377faff1cd2bbc94c29c0a036264877f763784bbc58",
+      "bytes": 2314,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/source641-input-freeze.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-transitive-IO-helper-freeze-r2.json",
+      "sha256": "d69e84c79fa465e0f57c96e645ab2ec9b4a26a95f0c95ff8bad9e953859f18dc",
+      "bytes": 646,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/transitive-IO-helper-freeze-r2.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-window13-frozen-run-r1.json",
+      "sha256": "d564d8c45dc92b40b6b6a9ea722288e4ec65bccfaf5518245796a544bc54123b",
+      "bytes": 8319,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/window13-frozen-run-r1.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-source-r1-resource.json",
+      "sha256": "81799b408937ccb7569a2d003684de1e7202cdc49a6d3a0cc63914b2b5666b88",
+      "bytes": 1236,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-source-r1-stdout.log",
+      "sha256": "e5d2833e1f4802d20b01ab54418f3bbc233cb9a875de0cb826624b17ccd0d10e",
+      "bytes": 2759,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-source-r1-summary.json",
+      "sha256": "7b51cee14c2e17960fbb66ee7a43535ef9f307f7e576d286db6d0a69c12416e4",
+      "bytes": 535837,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-source-r1-summary.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-641-r1-resource.json",
+      "sha256": "88aeee9632a0f3508834670b1c007bfa12dc8d10f9fef4fb706c301be09a226b",
+      "bytes": 1591,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-641-r1-stdout.log",
+      "sha256": "ea1f82cc89384ec63672ce4342ffa267682ceaecdf296ae55a9e213d3ef79564",
+      "bytes": 2346,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-641-r2-resource.json",
+      "sha256": "a2406e71557675806859b86c1fe9838a9ba2b843f7ec34b68be2c5d36b0b32d3",
+      "bytes": 1591,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r2-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-641-r2-stdout.log",
+      "sha256": "489b245ad9b916bccf39722337997f7a22b4a3dcf0cf1d4ca47d8830d80eaf3c",
+      "bytes": 5919,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r2-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-641-r2.json.gz",
+      "sha256": "1a0d05f817d9e25a851508c97aff43216e46b9c0d8f3026dabb881d154b274be",
+      "bytes": 211971,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-641-r2.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-window13-r1-resource.json",
+      "sha256": "a7701f9bc09944c5295c27e9fe14bbc45133aa67597331df12d30a565f7d9652",
+      "bytes": 3792,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-window13-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-window13-r1-stdout.log",
+      "sha256": "67368303fe47b312a6110acab9d0c8026c00286addd903e6a948f412e78744ed",
+      "bytes": 9049,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-window13-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-window13-r1.json.gz",
+      "sha256": "28e2aaf17c0094c1aaac49750c1e98d1e066eea6846267c77438c3a0a441d333",
+      "bytes": 465223,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/actual-cut-posterior-window13-r1.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-complete-source-parts-recovery.json",
+      "sha256": "4abac4ebee77e60f5fd98a87a76961324f9438de2b44b5c553644cd246bafbb8",
+      "bytes": 4247,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/complete-source-parts-recovery.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-actual-cut-posterior-complete-field-proof.md",
+      "sha256": "02bab60e22025700bd470ee8f5979c627052ccff11455036d0e4c28ff3ab8373",
+      "bytes": 2197,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/complete-field-proof.md"
+    }
+  ],
+  "total_bytes": 1289844
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Storage-only geometry variant; all original row/curvature calculations are unchanged. Does not change any grid, mode, profile, mean quadrature, tail or acceptance condition.",
+  "original": "topics/visible-flex-larger-amplitude/computations/root_actual_geometry_field_chunks.py",
+  "original_sha256": "dc200cddf813994bb1623fe23098581cee98fdcec94acdc3d21f46fa162e359a",
+  "resident": "topics/visible-flex-larger-amplitude/computations/root_actual_geometry_field_resident.py",
+  "resident_sha256": "2dd322b4719ad0884a513aed32bab824c45cbd15df788cf70ca7b001e3a3c1de",
+  "writer_sha256": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+  "all_original_row_loop_statements_ast_identical": true,
+  "summary_identity": "Every field entry is finite; max over a finite partition equals the original global max, with identical float entries. Every original row and chunk remains stored.",
+  "allocation_change": "Original float64 array becomes temporary-file-backed float64 memmap with the same shape. Flush/MADV_DONTNEED affect residence only. Finite checks and extrema stream over complete rows.",
+  "memory_scope": "144 MiB is an observed-peak diagnostic guard checked after preparation/row batches/storage, not an OS-enforced maximum or a prediction of successful execution."
+}

@@ -1,0 +1,148 @@
+{
+  "scope": "Check the same-chart triple adapter locally, without a nonlinear solve.\n\nOnly a small warm mesh, three radial Jacobian points, and inlet derivatives\nare used. The diagnostic checks actual prescribed coefficients separately\nfrom the unchanged numerical reference chart and the third physical control.\n",
+  "inspection_only": true,
+  "nonlinear_solution": false,
+  "modes": 20,
+  "angular": 512,
+  "warm_nodes": 49,
+  "reference_coefficients": [
+    0.09,
+    -0.006363961030678927
+  ],
+  "reference_frequencies": [
+    2,
+    4
+  ],
+  "actual_prescribed_coefficients": [
+    0.09,
+    -0.006363961030678927,
+    -0.0003571750033152808
+  ],
+  "actual_core_coefficients": [
+    0.09,
+    -0.006363961030678927,
+    -0.0003571750033152808,
+    -6.694586040366469e-05,
+    -3.177606918333369e-05,
+    2.190072534380696e-05,
+    1.4349175727400475e-05,
+    -7.455038211935777e-06,
+    -1.230354431033679e-06,
+    -5.337589354347033e-07,
+    -5.973416976182854e-07,
+    -1.0526826755223978e-07,
+    -6.70955607103141e-08,
+    1.912969593448776e-08,
+    1.1812141971153448e-08,
+    -1.9149877567478486e-09,
+    1.4193070955331615e-08,
+    5.1612322726580745e-09,
+    -6.643609420528854e-10,
+    -6.630858267186079e-09
+  ],
+  "inlet_warm_residual": 0.0,
+  "control_parameter_checks": [
+    {
+      "parameter_index": 0,
+      "physical_control": "delta",
+      "measurements": [
+        {
+          "step": 4.766961608166699e-07,
+          "max_abs_error": 3.219835775780666e-08,
+          "normalized_error": 1.0477312484189915e-09
+        },
+        {
+          "step": 2.3834808040833495e-07,
+          "max_abs_error": 5.54300783051076e-08,
+          "normalized_error": 1.8036890446219125e-09
+        }
+      ]
+    },
+    {
+      "parameter_index": 1,
+      "physical_control": "boost_length",
+      "measurements": [
+        {
+          "step": 3.650998131982597e-07,
+          "max_abs_error": 8.210363411365051e-08,
+          "normalized_error": 8.834928435149735e-09
+        },
+        {
+          "step": 1.8254990659912986e-07,
+          "max_abs_error": 1.2133092752719676e-07,
+          "normalized_error": 1.305606107750717e-08
+        }
+      ]
+    },
+    {
+      "parameter_index": 2,
+      "physical_control": "boost_speed",
+      "measurements": [
+        {
+          "step": 2.6069414889065367e-06,
+          "max_abs_error": 1.2589836950738231e-08,
+          "normalized_error": 1.7535252614716009e-09
+        },
+        {
+          "step": 1.3034707444532684e-06,
+          "max_abs_error": 5.700904868284688e-09,
+          "normalized_error": 7.940278129811248e-10
+        }
+      ]
+    }
+  ],
+  "first_free_core_derivative": {
+    "parameter_index": 3,
+    "physical_frequency": 8,
+    "measurements": [
+      {
+        "step": 1.0203606219122802e-05,
+        "max_abs_error": 1.7447766327487827e-11
+      },
+      {
+        "step": 5.101803109561401e-06,
+        "max_abs_error": 3.392838664060631e-11
+      }
+    ]
+  },
+  "raw_recovery_context": {
+    "kind": "three-physical-controls-old-two-mode-chart-v1",
+    "prescribed_actual_support": [
+      0.09,
+      -0.006363961030678927,
+      -0.0003571750033152808
+    ],
+    "reference_coefficients": [
+      0.09,
+      -0.006363961030678927
+    ],
+    "reference_frequencies": [
+      2,
+      4
+    ],
+    "control_names": [
+      "delta",
+      "boost_length",
+      "boost_speed"
+    ]
+  },
+  "preaudit_output_fields": {
+    "prescribed_actual_core": {
+      "q1": 0.09,
+      "q4": -0.006363961030678927,
+      "c6": -0.0003571750033152808
+    },
+    "three_control_reference_policy": "unchanged previous [2,4] chart"
+  },
+  "source_sha256": {
+    "strong_triple_same_chart_bvp.py": "b8475efa88d8aff09530cd332648825982872950e04b10306603f2b363ccaacd",
+    "strong_triple_same_chart_check.py": "ce3aec06135f4c515d5ba68730521fcb083688de995713164ee00b6954ac9793",
+    "root_triple_core_bvp.py": "78953f8279275b52998702e298d4523e0da911416a5bceed5c140c886b1103c6",
+    "strong_neck_bvp.py": "2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435",
+    "strong_flow_lru.py": "c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2"
+  },
+  "memory": {
+    "peak_rss_kib": 194164,
+    "rss_kib": 176744
+  }
+}

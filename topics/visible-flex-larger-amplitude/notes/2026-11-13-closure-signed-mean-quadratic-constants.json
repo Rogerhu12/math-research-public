@@ -1,0 +1,83 @@
+{
+  "schema": "visible-flex-signed-complete-mean-quadratic-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "status": "Actual V8 BigInt exact universal coefficient checks; no new numerical field evaluation",
+  "all_gates": true,
+  "gates": {
+    "complete_mean_small_root_radius_matches_R33": true,
+    "total_full_K_domain_at_R33_radius": true,
+    "quadratic_correlation_polynomial_identity": true,
+    "c2_joint_strong_bound_exact": true,
+    "c2_joint_strong_bound_below_one_quarter": true,
+    "line_Cauchy_radius_ratio_at_Rmax": true,
+    "complete_mean_tail_at_Rmax_is256": true,
+    "full_pointwise_inverse_denominator_exact": true,
+    "full_pointwise_inverse_denominator_positive": true,
+    "unprojected_complete_source_below_three_halves": true,
+    "source_quartic_error_coefficient_exact": true,
+    "complete_mean_source_error_below680": true
+  },
+  "norm": "R = norm_A1(P) + norm_A1(Kbar), each norm sums signed Fourier modes after radial sup; min nonzero absolute mode is 2",
+  "background": "Fixed real 0<w<=1/2, z=w^2, E=1+z; no physical-to-relative normalization omitted",
+  "formulas": {
+    "quadratic": "c2=-< (1+3z)Kbar^2+E P^2+2E Kbar P_theta >/2",
+    "correlated": "c2=-E*<C^2+P^2-P_theta^2>/2-z*<Kbar^2>, C=Kbar+P_theta",
+    "complete_mean_error": "epsilon(R)=128 R^3/(1-32R), R<1/32",
+    "mean_enclosure": "real: (c2+[-epsilon,+epsilon]) intersect [-4R^2,+4R^2]; complex: intersection of the corresponding closed disks",
+    "source_error": "norm_A0((N(X;c)-N(X;c2))/c_bg) <= 680 R^4 for R<=1/64"
+  },
+  "values": {
+    "Rmax": {
+      "numerator": "1",
+      "denominator": "64"
+    },
+    "root_domain_radius": {
+      "numerator": "1",
+      "denominator": "32"
+    },
+    "quadratic_norm_coefficient": {
+      "numerator": "29",
+      "denominator": "144"
+    },
+    "quadratic_slack_to_one_quarter": {
+      "numerator": "7",
+      "denominator": "144"
+    },
+    "Cauchy_tail_coefficient": {
+      "numerator": "128",
+      "denominator": "1"
+    },
+    "tail_denominator_at_Rmax": {
+      "numerator": "1",
+      "denominator": "2"
+    },
+    "tail_coefficient_at_Rmax": {
+      "numerator": "256",
+      "denominator": "1"
+    },
+    "full_quotient_denominator": {
+      "numerator": "1003",
+      "denominator": "1024"
+    },
+    "unprojected_complete_source_coefficient": {
+      "numerator": "13252",
+      "denominator": "9027"
+    },
+    "source_slack_to_three_halves": {
+      "numerator": "577",
+      "denominator": "18054"
+    },
+    "complete_source_quartic_error_coefficient": {
+      "numerator": "39936",
+      "denominator": "59"
+    },
+    "source_quartic_slack_to680": {
+      "numerator": "184",
+      "denominator": "59"
+    }
+  },
+  "complete_mean_root_unchanged": true,
+  "all_signed_Laurent_zero_modes_retained_until_complete_inverse": true,
+  "no_complex_conjugacy_assumed": true,
+  "no_current_Green_or_cut_numerical_gate_claimed": true
+}

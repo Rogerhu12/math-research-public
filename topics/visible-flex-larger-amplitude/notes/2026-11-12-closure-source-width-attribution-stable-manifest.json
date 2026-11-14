@@ -1,0 +1,51 @@
+{
+  "status": "Completed immutable position attribution and same-candidate source probe",
+  "files": [
+    {
+      "path": "computations/closure_two_cell_source_attribution.py",
+      "bytes": 8101,
+      "sha256": "a6822c50434a70daeff8083e01c197e61e04d2b3a3c1cc72646073dbc71f3a24"
+    },
+    {
+      "path": "computations/closure_outer_source_quartic_probe.py",
+      "bytes": 8138,
+      "sha256": "9f8fbc8da17c2cbfe7d798756252f9f9f19ce9ddef54cf67a8c7e28e13bdade0"
+    },
+    {
+      "path": "notes/2026-11-12-closure-two-cell-m4-source-attribution-r1.json",
+      "bytes": 130706,
+      "sha256": "a0ab08808c7ed44c7dd7646408067f207995a98e289e56ac480b2af50a8afff5"
+    },
+    {
+      "path": "notes/2026-11-12-closure-two-cell-m4-source-attribution-r1-resource.json",
+      "bytes": 919,
+      "sha256": "c68c916158ccfbff6f9913f8094aaaebc4eb21a2bea303669aa97e0dbd310626"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-cell10-seg3-source-probe-r1.json",
+      "bytes": 29622,
+      "sha256": "5110fed7a99e51acb2386ae4485d3beb1e83a1eaa0ba9601eec7abf10fc5b503"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-cell10-seg3-source-probe-r1-resource.json",
+      "bytes": 1334,
+      "sha256": "8875e1003d2b0e3f344a4efb7058d51fbd45e490e038c7cf38a0aeb211450caf"
+    },
+    {
+      "path": "notes/2026-11-12-closure-two-cell-source-width-executed.md",
+      "bytes": 2077,
+      "sha256": "c73fdb5136df3a313389a90509f670f5b0581918552d2238f82efc4782ffc866"
+    }
+  ],
+  "formal_sessions": [
+    88276,
+    95101
+  ],
+  "resource_exitcodes": [
+    0,
+    0
+  ],
+  "same_metric_and_candidate": true,
+  "no_claim_of_complete_outer_solution": true,
+  "R73_actual_m4_parameter_gate_remains_false": true
+}

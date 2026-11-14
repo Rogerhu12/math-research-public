@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258/topics/visible-flex-larger-amplitude/computations/strong_resource_run.py",
+    "--out",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1-wide-resource.json",
+    "--",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "--max-old-space-size=48",
+    "--max-semi-space-size=4",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/prepared/closure_outer_low_spectral_r100_wide_tail_v2.js",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1-wide.json",
+    "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1.json",
+    "1c12cde9889048daaced137a79a1504a4780d7f5315a5950c5fde4fda0d38651"
+  ],
+  "spectral_sha256": "1c12cde9889048daaced137a79a1504a4780d7f5315a5950c5fde4fda0d38651",
+  "source_sha256": "0eba517db1b0b3bae68c3a2b7e5891166bb81468eb03b50e2679cb1b3460f9f5"
+}

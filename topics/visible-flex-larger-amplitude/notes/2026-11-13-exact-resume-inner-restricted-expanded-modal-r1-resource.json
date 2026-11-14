@@ -1,0 +1,26 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-restricted-modal-input-v1.py",
+    "--modal-input",
+    "/workspace/scratch/d1aa462cfc02/exact-work/aux-modal-physical-transfer-r1.json.gz",
+    "--modal-resource",
+    "/workspace/scratch/d1aa462cfc02/exact-work/aux-modal-physical-transfer-r1-resource.json",
+    "--lambda-primary",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/true-beta-lambda-r1.json.gz",
+    "--lambda-resource",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/true-beta-lambda-r1-resource.json",
+    "--domain",
+    "expanded_profile",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/exact-work/inner-restricted-expanded-modal-r1"
+  ],
+  "wall_seconds": 6.6008594036102295,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 74084,
+  "user_seconds": 2.595188,
+  "system_seconds": 0.271966,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

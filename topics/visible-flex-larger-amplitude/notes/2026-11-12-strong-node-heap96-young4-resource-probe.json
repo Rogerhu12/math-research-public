@@ -1,0 +1,43 @@
+{
+  "scope": "Tiny V8 resource utility only. No physical source/profile/ODE/worker solution loaded. Does not identify the cause of prior signal9.",
+  "command": [
+    "node",
+    "-e",
+    "const v8=require('node:v8');process.stdout.write(JSON.stringify({runtime:{node:process.versions.node,v8:process.versions.v8,arch:process.arch,platform:process.platform},NODE_OPTIONS:process.env.NODE_OPTIONS,heap:v8.getHeapStatistics()}));"
+  ],
+  "NODE_OPTIONS": "--max-old-space-size=96 --max-semi-space-size=4",
+  "exitcode": 0,
+  "wall_seconds": 0.812140941619873,
+  "child_peak_rss_kib": 35200,
+  "probe": {
+    "runtime": {
+      "node": "24.22.1",
+      "v8": "13.6.233.17-node.58",
+      "arch": "x64",
+      "platform": "linux"
+    },
+    "NODE_OPTIONS": "--max-old-space-size=96 --max-semi-space-size=4",
+    "heap": {
+      "total_heap_size": 12636160,
+      "total_heap_size_executable": 786432,
+      "total_physical_size": 11042816,
+      "total_available_size": 105147464,
+      "used_heap_size": 8086608,
+      "heap_size_limit": 113246208,
+      "malloced_memory": 499848,
+      "peak_malloced_memory": 362288,
+      "does_zap_garbage": 0,
+      "number_of_native_contexts": 1,
+      "number_of_detached_contexts": 0,
+      "total_global_handles_size": 12360,
+      "used_global_handles_size": 3360,
+      "external_memory": 3989812
+    }
+  },
+  "exact_recorded_cache_runtime_matches": true,
+  "cache_identity_file_sha256": "f9f4ae422f774c2b3d05fc454107274db9aef95f6a674d2dafdf1a2a488bd734",
+  "expected_total_heap_MiB": 108,
+  "total_heap_limit_MiB": 108.0,
+  "mathematical_sources_changed": false,
+  "physical_evaluations": 0
+}

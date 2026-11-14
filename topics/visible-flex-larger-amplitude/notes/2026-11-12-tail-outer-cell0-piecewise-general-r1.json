@@ -1,0 +1,3419 @@
+{
+  "status": "Incomplete piecewise scan; actual failed gate retained",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "cell": 0,
+  "modes": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40
+  ],
+  "tau": "1/64",
+  "panels": 1732,
+  "segments": [
+    {
+      "segment": 0,
+      "panels": 1,
+      "general_mean_passed_panels": 1,
+      "all_general_mean_gates": true,
+      "R_tau": {
+        "lower": {
+          "mantissa": "2681178175605766279720857368203792219975927856399436908467",
+          "binary_exponent": -198
+        },
+        "upper": {
+          "mantissa": "2681178175605766279720857368203792219975927856399436908467",
+          "binary_exponent": -198
+        },
+        "display": "[0.00667400509978501865571716297116665445614456375654773074024 +/- 1.66e-60]"
+      },
+      "local_Wiener_L_lower": {
+        "lower": {
+          "mantissa": "6243214901907115370940770172206670968506991599702367121941",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "6243214901907115370940770172206670968506991599702367121941",
+          "binary_exponent": -192
+        },
+        "display": "[0.994601515968981200052774102455171251568345370619034219621 +/- 1.85e-58]"
+      },
+      "total_local_positive_moments": {
+        "00": {
+          "lower": {
+            "mantissa": "1626375561893928647508563171738930820426669535724327848129",
+            "binary_exponent": -208
+          },
+          "upper": {
+            "mantissa": "1627925262300577085005960686834729592227571431030779201729",
+            "binary_exponent": -208
+          },
+          "display": "[3.96e-6 +/- 6.51e-9]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "4337001498385712723613109737811893235763718088780051257175",
+            "binary_exponent": -212
+          },
+          "upper": {
+            "mantissa": "4341134032799635896425620551717867864647591155900234209111",
+            "binary_exponent": -212
+          },
+          "display": "[6.59e-7 +/- 5.45e-10]"
+        },
+        "01": {
+          "lower": {
+            "mantissa": "1626375561893928647508563171738930820426669535724327848129",
+            "binary_exponent": -208
+          },
+          "upper": {
+            "mantissa": "1627925262300577085005960686834729592227571431030779201729",
+            "binary_exponent": -208
+          },
+          "display": "[3.96e-6 +/- 6.51e-9]"
+        },
+        "11": {
+          "lower": {
+            "mantissa": "4337001498385712723613109737811893235763718088780051257175",
+            "binary_exponent": -212
+          },
+          "upper": {
+            "mantissa": "4341134032799635896425620551717867864647591155900234209111",
+            "binary_exponent": -212
+          },
+          "display": "[6.59e-7 +/- 5.45e-10]"
+        },
+        "b": {
+          "lower": {
+            "mantissa": "3469601198710853775198817326059207846162093663242253400339",
+            "binary_exponent": -213
+          },
+          "upper": {
+            "mantissa": "3472907226237425120832166905564601034166953732501974972691",
+            "binary_exponent": -213
+          },
+          "display": "[2.64e-7 +/- 4.34e-10]"
+        }
+      },
+      "bubble_coefficients": {
+        "2": {
+          "lower": {
+            "mantissa": "-644252517",
+            "binary_exponent": -47
+          },
+          "upper": {
+            "mantissa": "643915615",
+            "binary_exponent": -47
+          },
+          "display": "[+/- 4.58e-6]"
+        },
+        "4": {
+          "lower": {
+            "mantissa": "-295975955",
+            "binary_exponent": -55
+          },
+          "upper": {
+            "mantissa": "73999995",
+            "binary_exponent": -53
+          },
+          "display": "[+/- 8.22e-9]"
+        },
+        "6": {
+          "lower": {
+            "mantissa": "-1279359667",
+            "binary_exponent": -65
+          },
+          "upper": {
+            "mantissa": "1278299377",
+            "binary_exponent": -65
+          },
+          "display": "[+/- 3.47e-11]"
+        },
+        "8": {
+          "lower": {
+            "mantissa": "-1435704263",
+            "binary_exponent": -69
+          },
+          "upper": {
+            "mantissa": "1434691597",
+            "binary_exponent": -69
+          },
+          "display": "[+/- 2.44e-12]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "-1450034159",
+            "binary_exponent": -75
+          },
+          "upper": {
+            "mantissa": "1451256073",
+            "binary_exponent": -75
+          },
+          "display": "[+/- 3.85e-14]"
+        },
+        "12": {
+          "lower": {
+            "mantissa": "-118597883",
+            "binary_exponent": -77
+          },
+          "upper": {
+            "mantissa": "14812399",
+            "binary_exponent": -74
+          },
+          "display": "[+/- 7.85e-16]"
+        },
+        "14": {
+          "lower": {
+            "mantissa": "-942269905",
+            "binary_exponent": -86
+          },
+          "upper": {
+            "mantissa": "943179263",
+            "binary_exponent": -86
+          },
+          "display": "[+/- 1.22e-17]"
+        },
+        "16": {
+          "lower": {
+            "mantissa": "-1506185303",
+            "binary_exponent": -92
+          },
+          "upper": {
+            "mantissa": "1504975341",
+            "binary_exponent": -92
+          },
+          "display": "[+/- 3.05e-19]"
+        },
+        "18": {
+          "lower": {
+            "mantissa": "-92057287",
+            "binary_exponent": -93
+          },
+          "upper": {
+            "mantissa": "92010673",
+            "binary_exponent": -93
+          },
+          "display": "[+/- 9.30e-21]"
+        },
+        "20": {
+          "lower": {
+            "mantissa": "-448534015",
+            "binary_exponent": -100
+          },
+          "upper": {
+            "mantissa": "84654543",
+            "binary_exponent": -98
+          },
+          "display": "[+/- 3.54e-22]"
+        },
+        "22": {
+          "lower": {
+            "mantissa": "-292754213",
+            "binary_exponent": -105
+          },
+          "upper": {
+            "mantissa": "618668855",
+            "binary_exponent": -105
+          },
+          "display": "[+/- 1.53e-23]"
+        },
+        "24": {
+          "lower": {
+            "mantissa": "-664303873",
+            "binary_exponent": -104
+          },
+          "upper": {
+            "mantissa": "-647616771",
+            "binary_exponent": -104
+          },
+          "display": "[-3.2e-23 +/- 7.53e-25]"
+        },
+        "26": {
+          "lower": {
+            "mantissa": "-36764849",
+            "binary_exponent": -100
+          },
+          "upper": {
+            "mantissa": "-293170303",
+            "binary_exponent": -103
+          },
+          "display": "[-2.90e-23 +/- 9.12e-26]"
+        },
+        "28": {
+          "lower": {
+            "mantissa": "445698949",
+            "binary_exponent": -105
+          },
+          "upper": {
+            "mantissa": "915090289",
+            "binary_exponent": -106
+          },
+          "display": "[1.1e-23 +/- 2.80e-25]"
+        },
+        "30": {
+          "lower": {
+            "mantissa": "-381094745",
+            "binary_exponent": -103
+          },
+          "upper": {
+            "mantissa": "-47478299",
+            "binary_exponent": -100
+          },
+          "display": "[-3.75e-23 +/- 7.89e-26]"
+        },
+        "32": {
+          "lower": {
+            "mantissa": "332587781",
+            "binary_exponent": -105
+          },
+          "upper": {
+            "mantissa": "336440885",
+            "binary_exponent": -105
+          },
+          "display": "[8.2e-24 +/- 9.40e-26]"
+        },
+        "34": {
+          "lower": {
+            "mantissa": "-558046631",
+            "binary_exponent": -106
+          },
+          "upper": {
+            "mantissa": "-274762975",
+            "binary_exponent": -105
+          },
+          "display": "[-6.8e-24 +/- 7.85e-26]"
+        },
+        "36": {
+          "lower": {
+            "mantissa": "582860057",
+            "binary_exponent": -109
+          },
+          "upper": {
+            "mantissa": "849513043",
+            "binary_exponent": -109
+          },
+          "display": "[1e-24 +/- 3.09e-25]"
+        },
+        "38": {
+          "lower": {
+            "mantissa": "-729631939",
+            "binary_exponent": -105
+          },
+          "upper": {
+            "mantissa": "-713032097",
+            "binary_exponent": -105
+          },
+          "display": "[-1.8e-23 +/- 4.23e-25]"
+        },
+        "40": {
+          "lower": {
+            "mantissa": "32472029",
+            "binary_exponent": -100
+          },
+          "upper": {
+            "mantissa": "1043649457",
+            "binary_exponent": -105
+          },
+          "display": "[2.57e-23 +/- 8.41e-26]"
+        }
+      },
+      "shared_endpoint_points": [
+        0,
+        1
+      ]
+    },
+    {
+      "segment": 1,
+      "panels": 292,
+      "general_mean_passed_panels": 292,
+      "all_general_mean_gates": true,
+      "R_tau": {
+        "lower": {
+          "mantissa": "6068360066891060490686835473379303528707993039039436488143",
+          "binary_exponent": -201
+        },
+        "upper": {
+          "mantissa": "6068360066891060490686835473379303528707993039039436488143",
+          "binary_exponent": -201
+        },
+        "display": "[0.00188817487039127646379213639693245019246559849716642306411 +/- 8.89e-61]"
+      },
+      "local_Wiener_L_lower": {
+        "lower": {
+          "mantissa": "1568240937087099462256091338560380415646706350567519219765",
+          "binary_exponent": -190
+        },
+        "upper": {
+          "mantissa": "1568240937087099462256091338560380415646706350567519219765",
+          "binary_exponent": -190
+        },
+        "display": "[0.999340780632094055527888166039073527049340549752328740050 +/- 2.58e-58]"
+      },
+      "total_local_positive_moments": {
+        "00": {
+          "lower": {
+            "mantissa": "2713741277299613042648256702309660709231045982840641143125",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "3419424210886830716577952213290121454277401888553163145557",
+            "binary_exponent": -200
+          },
+          "display": "[0.002 +/- 3.12e-4]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "2997803928624503008256444934422099108795468022081521942733",
+            "binary_exponent": -202
+          },
+          "upper": {
+            "mantissa": "3761369457716512975222344280556423484165051757790770725069",
+            "binary_exponent": -202
+          },
+          "display": "[0.0005 +/- 8.52e-5]"
+        },
+        "01": {
+          "lower": {
+            "mantissa": "5087220078761598422952303690248076319590083984361742652807",
+            "binary_exponent": -199
+          },
+          "upper": {
+            "mantissa": "795588270514192685566774245127507447856439570244227726001",
+            "binary_exponent": -196
+          },
+          "display": "[0.007 +/- 9.22e-4]"
+        },
+        "11": {
+          "lower": {
+            "mantissa": "3331563955893517946968058054419119123837227210913350122763",
+            "binary_exponent": -201
+          },
+          "upper": {
+            "mantissa": "4159269920663024019114490754979813717568205312710649806091",
+            "binary_exponent": -201
+          },
+          "display": "[0.001 +/- 2.95e-4]"
+        },
+        "b": {
+          "lower": {
+            "mantissa": "3869161568061140482771700991635559889783604139266588569149",
+            "binary_exponent": -203
+          },
+          "upper": {
+            "mantissa": "4836598347306593233843584885188197553721789801820772396605",
+            "binary_exponent": -203
+          },
+          "display": "[0.0003 +/- 7.63e-5]"
+        }
+      },
+      "bubble_coefficients": {
+        "2": {
+          "lower": {
+            "mantissa": "-1016541309",
+            "binary_exponent": -39
+          },
+          "upper": {
+            "mantissa": "-70706797",
+            "binary_exponent": -36
+          },
+          "display": "[-0.001 +/- 8.50e-4]"
+        },
+        "4": {
+          "lower": {
+            "mantissa": "-543345347",
+            "binary_exponent": -47
+          },
+          "upper": {
+            "mantissa": "126478729",
+            "binary_exponent": -47
+          },
+          "display": "[+/- 3.87e-6]"
+        },
+        "6": {
+          "lower": {
+            "mantissa": "-1187768795",
+            "binary_exponent": -56
+          },
+          "upper": {
+            "mantissa": "-192539633",
+            "binary_exponent": -56
+          },
+          "display": "[+/- 1.65e-8]"
+        },
+        "8": {
+          "lower": {
+            "mantissa": "433750605",
+            "binary_exponent": -58
+          },
+          "upper": {
+            "mantissa": "1435117269",
+            "binary_exponent": -58
+          },
+          "display": "[+/- 4.98e-9]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "-1724077081",
+            "binary_exponent": -63
+          },
+          "upper": {
+            "mantissa": "-796260327",
+            "binary_exponent": -63
+          },
+          "display": "[-1e-10 +/- 8.70e-11]"
+        },
+        "12": {
+          "lower": {
+            "mantissa": "-236718147",
+            "binary_exponent": -65
+          },
+          "upper": {
+            "mantissa": "-517467261",
+            "binary_exponent": -67
+          },
+          "display": "[+/- 6.42e-12]"
+        },
+        "14": {
+          "lower": {
+            "mantissa": "-787776743",
+            "binary_exponent": -75
+          },
+          "upper": {
+            "mantissa": "-90719547",
+            "binary_exponent": -73
+          },
+          "display": "[+/- 2.09e-14]"
+        },
+        "16": {
+          "lower": {
+            "mantissa": "972780441",
+            "binary_exponent": -76
+          },
+          "upper": {
+            "mantissa": "1694401701",
+            "binary_exponent": -76
+          },
+          "display": "[2e-14 +/- 7.13e-15]"
+        },
+        "18": {
+          "lower": {
+            "mantissa": "-305991355",
+            "binary_exponent": -78
+          },
+          "upper": {
+            "mantissa": "-178852853",
+            "binary_exponent": -78
+          },
+          "display": "[+/- 1.02e-15]"
+        },
+        "20": {
+          "lower": {
+            "mantissa": "-1126506363",
+            "binary_exponent": -91
+          },
+          "upper": {
+            "mantissa": "-682636067",
+            "binary_exponent": -91
+          },
+          "display": "[+/- 4.55e-19]"
+        },
+        "22": {
+          "lower": {
+            "mantissa": "878485943",
+            "binary_exponent": -87
+          },
+          "upper": {
+            "mantissa": "1467807185",
+            "binary_exponent": -87
+          },
+          "display": "[+/- 9.49e-18]"
+        },
+        "24": {
+          "lower": {
+            "mantissa": "-285619079",
+            "binary_exponent": -90
+          },
+          "upper": {
+            "mantissa": "-86083585",
+            "binary_exponent": -89
+          },
+          "display": "[-2e-19 +/- 6.10e-20]"
+        },
+        "26": {
+          "lower": {
+            "mantissa": "545075397",
+            "binary_exponent": -89
+          },
+          "upper": {
+            "mantissa": "14049107",
+            "binary_exponent": -83
+          },
+          "display": "[1e-18 +/- 4.53e-19]"
+        },
+        "28": {
+          "lower": {
+            "mantissa": "-1208019341",
+            "binary_exponent": -95
+          },
+          "upper": {
+            "mantissa": "-735841897",
+            "binary_exponent": -95
+          },
+          "display": "[+/- 3.05e-20]"
+        },
+        "30": {
+          "lower": {
+            "mantissa": "150748219",
+            "binary_exponent": -90
+          },
+          "upper": {
+            "mantissa": "986099581",
+            "binary_exponent": -92
+          },
+          "display": "[2e-19 +/- 7.83e-20]"
+        },
+        "32": {
+          "lower": {
+            "mantissa": "-949174801",
+            "binary_exponent": -93
+          },
+          "upper": {
+            "mantissa": "-582360587",
+            "binary_exponent": -93
+          },
+          "display": "[+/- 9.59e-20]"
+        },
+        "34": {
+          "lower": {
+            "mantissa": "-375554877",
+            "binary_exponent": -92
+          },
+          "upper": {
+            "mantissa": "-462112709",
+            "binary_exponent": -93
+          },
+          "display": "[+/- 7.59e-20]"
+        },
+        "36": {
+          "lower": {
+            "mantissa": "-322179799",
+            "binary_exponent": -93
+          },
+          "upper": {
+            "mantissa": "-397497811",
+            "binary_exponent": -94
+          },
+          "display": "[+/- 3.26e-20]"
+        },
+        "38": {
+          "lower": {
+            "mantissa": "536894799",
+            "binary_exponent": -100
+          },
+          "upper": {
+            "mantissa": "918585929",
+            "binary_exponent": -100
+          },
+          "display": "[+/- 7.25e-22]"
+        },
+        "40": {
+          "lower": {
+            "mantissa": "425479665",
+            "binary_exponent": -95
+          },
+          "upper": {
+            "mantissa": "686880939",
+            "binary_exponent": -95
+          },
+          "display": "[1e-20 +/- 7.34e-21]"
+        }
+      },
+      "shared_endpoint_points": [
+        1,
+        2
+      ]
+    },
+    {
+      "segment": 2,
+      "panels": 16,
+      "general_mean_passed_panels": 16,
+      "all_general_mean_gates": true,
+      "R_tau": {
+        "lower": {
+          "mantissa": "2858181235301560117020368130091425725814433896185586474729",
+          "binary_exponent": -204
+        },
+        "upper": {
+          "mantissa": "2858181235301560117020368130091425725814433896185586474729",
+          "binary_exponent": -204
+        },
+        "display": "[0.000111165659338610246115289836924079569731933817280461314955 +/- 3.73e-61]"
+      },
+      "local_Wiener_L_lower": {
+        "lower": {
+          "mantissa": "6276771143910221464738057006091239648898622463481051883853",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "6276771143910221464738057006091239648898622463481051883853",
+          "binary_exponent": -192
+        },
+        "display": "[0.999947333739296335609284951417268510806847854791912021808 +/- 5.06e-59]"
+      },
+      "total_local_positive_moments": {
+        "00": {
+          "lower": {
+            "mantissa": "3893433628037237685279783184028774027563258927111588991483",
+            "binary_exponent": -201
+          },
+          "upper": {
+            "mantissa": "3893855182226469332081201606806075614985473560958120415739",
+            "binary_exponent": -201
+          },
+          "display": "[0.0012115 +/- 7.61e-8]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "5192138196591790742847302137820664265840210825802732151077",
+            "binary_exponent": -204
+          },
+          "upper": {
+            "mantissa": "5192700365586516336090919006023668439946901086128297091365",
+            "binary_exponent": -204
+          },
+          "display": "[0.0002020 +/- 5.78e-8]"
+        },
+        "01": {
+          "lower": {
+            "mantissa": "3896123218887398356789999236178286676924432657025067275181",
+            "binary_exponent": -201
+          },
+          "upper": {
+            "mantissa": "3896545065424770267477650955708007387579809309126929306541",
+            "binary_exponent": -201
+          },
+          "display": "[0.001212 +/- 4.13e-7]"
+        },
+        "11": {
+          "lower": {
+            "mantissa": "2596968545057633216567844311169740491056112146914695212233",
+            "binary_exponent": -203
+          },
+          "upper": {
+            "mantissa": "2597249727476319338206501244858655513085144341593149435081",
+            "binary_exponent": -203
+          },
+          "display": "[0.0002020 +/- 3.41e-8]"
+        },
+        "b": {
+          "lower": {
+            "mantissa": "2077215012843869610572220693642235896357396126472330987701",
+            "binary_exponent": -204
+          },
+          "upper": {
+            "mantissa": "2077439919652464347195867955243675090387579637688935827637",
+            "binary_exponent": -204
+          },
+          "display": "[8.080e-5 +/- 9.13e-9]"
+        }
+      },
+      "bubble_coefficients": {
+        "2": {
+          "lower": {
+            "mantissa": "-264811321",
+            "binary_exponent": -53
+          },
+          "upper": {
+            "mantissa": "16545763",
+            "binary_exponent": -49
+          },
+          "display": "[+/- 2.94e-8]"
+        },
+        "4": {
+          "lower": {
+            "mantissa": "-1389867873",
+            "binary_exponent": -60
+          },
+          "upper": {
+            "mantissa": "1390285135",
+            "binary_exponent": -60
+          },
+          "display": "[+/- 1.21e-9]"
+        },
+        "6": {
+          "lower": {
+            "mantissa": "-1741129249",
+            "binary_exponent": -69
+          },
+          "upper": {
+            "mantissa": "1741474699",
+            "binary_exponent": -69
+          },
+          "display": "[+/- 2.96e-12]"
+        },
+        "8": {
+          "lower": {
+            "mantissa": "-1034201783",
+            "binary_exponent": -70
+          },
+          "upper": {
+            "mantissa": "1034532005",
+            "binary_exponent": -70
+          },
+          "display": "[+/- 8.77e-13]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "-436145327",
+            "binary_exponent": -74
+          },
+          "upper": {
+            "mantissa": "109001123",
+            "binary_exponent": -72
+          },
+          "display": "[+/- 2.31e-14]"
+        },
+        "12": {
+          "lower": {
+            "mantissa": "-725526013",
+            "binary_exponent": -80
+          },
+          "upper": {
+            "mantissa": "725374329",
+            "binary_exponent": -80
+          },
+          "display": "[+/- 6.01e-16]"
+        },
+        "14": {
+          "lower": {
+            "mantissa": "-1451448681",
+            "binary_exponent": -89
+          },
+          "upper": {
+            "mantissa": "1450382459",
+            "binary_exponent": -89
+          },
+          "display": "[+/- 2.35e-18]"
+        },
+        "16": {
+          "lower": {
+            "mantissa": "-149831629",
+            "binary_exponent": -86
+          },
+          "upper": {
+            "mantissa": "299768579",
+            "binary_exponent": -87
+          },
+          "display": "[+/- 1.94e-18]"
+        },
+        "18": {
+          "lower": {
+            "mantissa": "-1656014471",
+            "binary_exponent": -94
+          },
+          "upper": {
+            "mantissa": "1655249029",
+            "binary_exponent": -94
+          },
+          "display": "[+/- 8.37e-20]"
+        },
+        "20": {
+          "lower": {
+            "mantissa": "-1853669059",
+            "binary_exponent": -106
+          },
+          "upper": {
+            "mantissa": "1863679405",
+            "binary_exponent": -106
+          },
+          "display": "[+/- 2.30e-23]"
+        },
+        "22": {
+          "lower": {
+            "mantissa": "-232566317",
+            "binary_exponent": -98
+          },
+          "upper": {
+            "mantissa": "116346297",
+            "binary_exponent": -97
+          },
+          "display": "[+/- 7.35e-22]"
+        },
+        "24": {
+          "lower": {
+            "mantissa": "-1422114657",
+            "binary_exponent": -106
+          },
+          "upper": {
+            "mantissa": "1413514607",
+            "binary_exponent": -106
+          },
+          "display": "[+/- 1.76e-23]"
+        },
+        "26": {
+          "lower": {
+            "mantissa": "-548569175",
+            "binary_exponent": -102
+          },
+          "upper": {
+            "mantissa": "548380677",
+            "binary_exponent": -102
+          },
+          "display": "[+/- 1.09e-22]"
+        },
+        "28": {
+          "lower": {
+            "mantissa": "-187369711",
+            "binary_exponent": -106
+          },
+          "upper": {
+            "mantissa": "350318149",
+            "binary_exponent": -107
+          },
+          "display": "[+/- 2.31e-24]"
+        },
+        "30": {
+          "lower": {
+            "mantissa": "-579845021",
+            "binary_exponent": -105
+          },
+          "upper": {
+            "mantissa": "590353571",
+            "binary_exponent": -105
+          },
+          "display": "[+/- 1.46e-23]"
+        },
+        "32": {
+          "lower": {
+            "mantissa": "-550523363",
+            "binary_exponent": -106
+          },
+          "upper": {
+            "mantissa": "563679169",
+            "binary_exponent": -106
+          },
+          "display": "[+/- 6.95e-24]"
+        },
+        "34": {
+          "lower": {
+            "mantissa": "-857899469",
+            "binary_exponent": -107
+          },
+          "upper": {
+            "mantissa": "889083913",
+            "binary_exponent": -107
+          },
+          "display": "[+/- 5.48e-24]"
+        },
+        "36": {
+          "lower": {
+            "mantissa": "-1315472575",
+            "binary_exponent": -109
+          },
+          "upper": {
+            "mantissa": "1650408433",
+            "binary_exponent": -109
+          },
+          "display": "[+/- 2.55e-24]"
+        },
+        "38": {
+          "lower": {
+            "mantissa": "-278112343",
+            "binary_exponent": -111
+          },
+          "upper": {
+            "mantissa": "2062299",
+            "binary_exponent": -109
+          },
+          "display": "[+/- 1.08e-25]"
+        },
+        "40": {
+          "lower": {
+            "mantissa": "-151070515",
+            "binary_exponent": -107
+          },
+          "upper": {
+            "mantissa": "238780099",
+            "binary_exponent": -107
+          },
+          "display": "[+/- 1.48e-24]"
+        }
+      },
+      "shared_endpoint_points": [
+        2,
+        3
+      ]
+    },
+    {
+      "segment": 3,
+      "panels": 1092,
+      "general_mean_passed_panels": 1092,
+      "all_general_mean_gates": true,
+      "R_tau": {
+        "lower": {
+          "mantissa": "2056088555940847429638278301133822879603726809357015804417",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "2056088555940847429638278301133822879603726809357015804417",
+          "binary_exponent": -192
+        },
+        "display": "[0.327553804704136864564927059220951444536922839602520345717 +/- 2.55e-58]"
+      },
+      "local_Wiener_L_lower": {
+        "lower": {
+          "mantissa": "2117700134164095493291541157811444907250594334262112628127",
+          "binary_exponent": -191
+        },
+        "upper": {
+          "mantissa": "2117700134164095493291541157811444907250594334262112628127",
+          "binary_exponent": -191
+        },
+        "display": "[0.674738190788185896365741789038457186169244391408772447405 +/- 4.86e-58]"
+      },
+      "total_local_positive_moments": {
+        "00": {
+          "lower": {
+            "mantissa": "1578284039832849826769260648732062872349411318403802713253",
+            "binary_exponent": -198
+          },
+          "upper": {
+            "mantissa": "3653201426989874079309180066620958614916158974309581311141",
+            "binary_exponent": -198
+          },
+          "display": "[+/- 9.10e-3]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "2459012291630679938131999687749030208417736793147400027101",
+            "binary_exponent": -201
+          },
+          "upper": {
+            "mantissa": "5393374245943697114871026608221419912920858292972536232925",
+            "binary_exponent": -201
+          },
+          "display": "[0.001 +/- 6.79e-4]"
+        },
+        "01": {
+          "lower": {
+            "mantissa": "748352952554866212942475520894665971151899468412348165169",
+            "binary_exponent": -198
+          },
+          "upper": {
+            "mantissa": "1399604332992019417565818639513071212253058077985940073521",
+            "binary_exponent": -198
+          },
+          "display": "[+/- 3.49e-3]"
+        },
+        "11": {
+          "lower": {
+            "mantissa": "1582382512152914529599171479082188446638680045632079150689",
+            "binary_exponent": -201
+          },
+          "upper": {
+            "mantissa": "3037089891442160799698652657674443355467175696283641462369",
+            "binary_exponent": -201
+          },
+          "display": "[+/- 9.45e-4]"
+        },
+        "b": {
+          "lower": {
+            "mantissa": "1821897096402055288034519147735011102614770942266084274211",
+            "binary_exponent": -202
+          },
+          "upper": {
+            "mantissa": "3704717496893429688368514163842339427745944328242389430307",
+            "binary_exponent": -202
+          },
+          "display": "[+/- 5.77e-4]"
+        }
+      },
+      "bubble_coefficients": {
+        "2": {
+          "lower": {
+            "mantissa": "177274535",
+            "binary_exponent": -29
+          },
+          "upper": {
+            "mantissa": "84474829",
+            "binary_exponent": -26
+          },
+          "display": "[+/- 1.26]"
+        },
+        "4": {
+          "lower": {
+            "mantissa": "-82838563",
+            "binary_exponent": -32
+          },
+          "upper": {
+            "mantissa": "-86289531",
+            "binary_exponent": -34
+          },
+          "display": "[+/- 0.0193]"
+        },
+        "6": {
+          "lower": {
+            "mantissa": "-1202942733",
+            "binary_exponent": -41
+          },
+          "upper": {
+            "mantissa": "-312774511",
+            "binary_exponent": -41
+          },
+          "display": "[+/- 5.48e-4]"
+        },
+        "8": {
+          "lower": {
+            "mantissa": "-1742784521",
+            "binary_exponent": -48
+          },
+          "upper": {
+            "mantissa": "-298474319",
+            "binary_exponent": -48
+          },
+          "display": "[+/- 6.20e-6]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "389031715",
+            "binary_exponent": -51
+          },
+          "upper": {
+            "mantissa": "1487815337",
+            "binary_exponent": -51
+          },
+          "display": "[+/- 6.61e-7]"
+        },
+        "12": {
+          "lower": {
+            "mantissa": "71418035",
+            "binary_exponent": -53
+          },
+          "upper": {
+            "mantissa": "575578693",
+            "binary_exponent": -54
+          },
+          "display": "[+/- 3.20e-8]"
+        },
+        "14": {
+          "lower": {
+            "mantissa": "102057179",
+            "binary_exponent": -61
+          },
+          "upper": {
+            "mantissa": "1270797593",
+            "binary_exponent": -61
+          },
+          "display": "[+/- 5.52e-10]"
+        },
+        "16": {
+          "lower": {
+            "mantissa": "-957170457",
+            "binary_exponent": -64
+          },
+          "upper": {
+            "mantissa": "-31234779",
+            "binary_exponent": -61
+          },
+          "display": "[+/- 5.19e-11]"
+        },
+        "18": {
+          "lower": {
+            "mantissa": "-1873972295",
+            "binary_exponent": -70
+          },
+          "upper": {
+            "mantissa": "-397180673",
+            "binary_exponent": -70
+          },
+          "display": "[+/- 1.59e-12]"
+        },
+        "20": {
+          "lower": {
+            "mantissa": "-1332183495",
+            "binary_exponent": -73
+          },
+          "upper": {
+            "mantissa": "-222350077",
+            "binary_exponent": -73
+          },
+          "display": "[+/- 1.42e-13]"
+        },
+        "22": {
+          "lower": {
+            "mantissa": "303680741",
+            "binary_exponent": -76
+          },
+          "upper": {
+            "mantissa": "1165489427",
+            "binary_exponent": -76
+          },
+          "display": "[+/- 1.55e-14]"
+        },
+        "24": {
+          "lower": {
+            "mantissa": "178412031",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "2072488613",
+            "binary_exponent": -82
+          },
+          "display": "[+/- 4.29e-16]"
+        },
+        "26": {
+          "lower": {
+            "mantissa": "-1624580463",
+            "binary_exponent": -83
+          },
+          "upper": {
+            "mantissa": "-407599149",
+            "binary_exponent": -83
+          },
+          "display": "[-1e-16 +/- 6.80e-17]"
+        },
+        "28": {
+          "lower": {
+            "mantissa": "326049675",
+            "binary_exponent": -83
+          },
+          "upper": {
+            "mantissa": "1283882977",
+            "binary_exponent": -83
+          },
+          "display": "[+/- 1.33e-16]"
+        },
+        "30": {
+          "lower": {
+            "mantissa": "-1600874099",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "-415330663",
+            "binary_exponent": -82
+          },
+          "display": "[+/- 3.32e-16]"
+        },
+        "32": {
+          "lower": {
+            "mantissa": "401376743",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "1528649461",
+            "binary_exponent": -82
+          },
+          "display": "[+/- 3.17e-16]"
+        },
+        "34": {
+          "lower": {
+            "mantissa": "-1265690033",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "-332651187",
+            "binary_exponent": -82
+          },
+          "display": "[+/- 2.62e-16]"
+        },
+        "36": {
+          "lower": {
+            "mantissa": "-684480625",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "-86247565",
+            "binary_exponent": -81
+          },
+          "display": "[+/- 1.42e-16]"
+        },
+        "38": {
+          "lower": {
+            "mantissa": "557696103",
+            "binary_exponent": -88
+          },
+          "upper": {
+            "mantissa": "2135618765",
+            "binary_exponent": -88
+          },
+          "display": "[+/- 6.91e-18]"
+        },
+        "40": {
+          "lower": {
+            "mantissa": "-1438608633",
+            "binary_exponent": -85
+          },
+          "upper": {
+            "mantissa": "-377387901",
+            "binary_exponent": -85
+          },
+          "display": "[+/- 3.72e-17]"
+        }
+      },
+      "shared_endpoint_points": [
+        3,
+        4
+      ]
+    },
+    {
+      "segment": 4,
+      "panels": 16,
+      "general_mean_passed_panels": 16,
+      "all_general_mean_gates": true,
+      "R_tau": {
+        "lower": {
+          "mantissa": "6008878392044388637922243927956892384798128931976450951075",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "6008878392044388637922243927956892384798128931976450951075",
+          "binary_exponent": -193
+        },
+        "display": "[0.478634778067224595871507570343138611877298360696208707459 +/- 2.86e-58]"
+      },
+      "local_Wiener_L_lower": {
+        "lower": {
+          "mantissa": "3946614958047292952397313991997877399204218925688479881127",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "3946614958047292952397313991997877399204218925688479881127",
+          "binary_exponent": -192
+        },
+        "display": "[0.628732036601948489566107221383442112142192280524321966552 +/- 5.07e-60]"
+      },
+      "total_local_positive_moments": {
+        "00": {
+          "lower": {
+            "mantissa": "3892908767518864300172167250250232408248752176633152445081",
+            "binary_exponent": -205
+          },
+          "upper": {
+            "mantissa": "3896282093519244677474347455836027523784767930264522758809",
+            "binary_exponent": -205
+          },
+          "display": "[7.57e-5 +/- 7.07e-8]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "2592593550459445045330621381966568993952049670851482578531",
+            "binary_exponent": -207
+          },
+          "upper": {
+            "mantissa": "2594840113089852865506997613677618151000170348038692236899",
+            "binary_exponent": -207
+          },
+          "display": "[1.261e-5 +/- 5.51e-9]"
+        },
+        "01": {
+          "lower": {
+            "mantissa": "484601260017673413562506912488023667437117779175086091227",
+            "binary_exponent": -202
+          },
+          "upper": {
+            "mantissa": "485021181806629004849370973661330556693765126618993781723",
+            "binary_exponent": -202
+          },
+          "display": "[7.54e-5 +/- 5.74e-8]"
+        },
+        "11": {
+          "lower": {
+            "mantissa": "5174419736642578858089212208228969160509044010736684568795",
+            "binary_exponent": -208
+          },
+          "upper": {
+            "mantissa": "5178903528845282355629110455307456050466689531054380224731",
+            "binary_exponent": -208
+          },
+          "display": "[1.258e-5 +/- 9.22e-9]"
+        },
+        "b": {
+          "lower": {
+            "mantissa": "4143839537804764983141784837332483887986148382903834244391",
+            "binary_exponent": -209
+          },
+          "upper": {
+            "mantissa": "4147430302045289875686743078281422393162434086489381926183",
+            "binary_exponent": -209
+          },
+          "display": "[5.04e-6 +/- 3.45e-9]"
+        }
+      },
+      "bubble_coefficients": {
+        "2": {
+          "lower": {
+            "mantissa": "-365516453",
+            "binary_exponent": -38
+          },
+          "upper": {
+            "mantissa": "188575343",
+            "binary_exponent": -37
+          },
+          "display": "[+/- 1.38e-3]"
+        },
+        "4": {
+          "lower": {
+            "mantissa": "-19488021",
+            "binary_exponent": -42
+          },
+          "upper": {
+            "mantissa": "863398139",
+            "binary_exponent": -44
+          },
+          "display": "[+/- 4.91e-5]"
+        },
+        "6": {
+          "lower": {
+            "mantissa": "-159433037",
+            "binary_exponent": -43
+          },
+          "upper": {
+            "mantissa": "-280332259",
+            "binary_exponent": -44
+          },
+          "display": "[-2e-5 +/- 4.07e-6]"
+        },
+        "8": {
+          "lower": {
+            "mantissa": "208554665",
+            "binary_exponent": -46
+          },
+          "upper": {
+            "mantissa": "219506965",
+            "binary_exponent": -46
+          },
+          "display": "[3e-6 +/- 1.20e-7]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "70317897",
+            "binary_exponent": -47
+          },
+          "upper": {
+            "mantissa": "144396947",
+            "binary_exponent": -48
+          },
+          "display": "[5e-7 +/- 1.31e-8]"
+        },
+        "12": {
+          "lower": {
+            "mantissa": "-69818823",
+            "binary_exponent": -51
+          },
+          "upper": {
+            "mantissa": "-537301917",
+            "binary_exponent": -54
+          },
+          "display": "[-3e-8 +/- 1.01e-9]"
+        },
+        "14": {
+          "lower": {
+            "mantissa": "-685044299",
+            "binary_exponent": -55
+          },
+          "upper": {
+            "mantissa": "-680271471",
+            "binary_exponent": -55
+          },
+          "display": "[-1.9e-8 +/- 1.19e-10]"
+        },
+        "16": {
+          "lower": {
+            "mantissa": "-1050460993",
+            "binary_exponent": -58
+          },
+          "upper": {
+            "mantissa": "-1046144029",
+            "binary_exponent": -58
+          },
+          "display": "[-3.6e-9 +/- 4.46e-11]"
+        },
+        "18": {
+          "lower": {
+            "mantissa": "-37645593",
+            "binary_exponent": -56
+          },
+          "upper": {
+            "mantissa": "-300190379",
+            "binary_exponent": -59
+          },
+          "display": "[-5.2e-10 +/- 2.44e-12]"
+        },
+        "20": {
+          "lower": {
+            "mantissa": "-615261445",
+            "binary_exponent": -63
+          },
+          "upper": {
+            "mantissa": "-306748835",
+            "binary_exponent": -62
+          },
+          "display": "[-6.7e-11 +/- 4.85e-13]"
+        },
+        "22": {
+          "lower": {
+            "mantissa": "-604308871",
+            "binary_exponent": -66
+          },
+          "upper": {
+            "mantissa": "-602714633",
+            "binary_exponent": -66
+          },
+          "display": "[-8.2e-12 +/- 3.17e-14]"
+        },
+        "24": {
+          "lower": {
+            "mantissa": "-144519255",
+            "binary_exponent": -67
+          },
+          "upper": {
+            "mantissa": "-576640073",
+            "binary_exponent": -69
+          },
+          "display": "[-9.8e-13 +/- 3.14e-15]"
+        },
+        "26": {
+          "lower": {
+            "mantissa": "-551818443",
+            "binary_exponent": -72
+          },
+          "upper": {
+            "mantissa": "-550515745",
+            "binary_exponent": -72
+          },
+          "display": "[-1.17e-13 +/- 4.24e-16]"
+        },
+        "28": {
+          "lower": {
+            "mantissa": "-1044148979",
+            "binary_exponent": -76
+          },
+          "upper": {
+            "mantissa": "-1041749543",
+            "binary_exponent": -76
+          },
+          "display": "[-1.38e-14 +/- 1.92e-17]"
+        },
+        "30": {
+          "lower": {
+            "mantissa": "-965247917",
+            "binary_exponent": -79
+          },
+          "upper": {
+            "mantissa": "-481443747",
+            "binary_exponent": -78
+          },
+          "display": "[-1.59e-15 +/- 6.87e-18]"
+        },
+        "32": {
+          "lower": {
+            "mantissa": "-916287577",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "-912899777",
+            "binary_exponent": -82
+          },
+          "display": "[-1.89e-16 +/- 4.84e-19]"
+        },
+        "34": {
+          "lower": {
+            "mantissa": "-615182797",
+            "binary_exponent": -84
+          },
+          "upper": {
+            "mantissa": "-606590963",
+            "binary_exponent": -84
+          },
+          "display": "[-3.2e-17 +/- 6.40e-19]"
+        },
+        "36": {
+          "lower": {
+            "mantissa": "-496143833",
+            "binary_exponent": -84
+          },
+          "upper": {
+            "mantissa": "-979727423",
+            "binary_exponent": -85
+          },
+          "display": "[-2.5e-17 +/- 6.51e-19]"
+        },
+        "38": {
+          "lower": {
+            "mantissa": "-230711997",
+            "binary_exponent": -83
+          },
+          "upper": {
+            "mantissa": "-455763363",
+            "binary_exponent": -84
+          },
+          "display": "[-2.4e-17 +/- 4.38e-19]"
+        },
+        "40": {
+          "lower": {
+            "mantissa": "-72110243",
+            "binary_exponent": -81
+          },
+          "upper": {
+            "mantissa": "-143529821",
+            "binary_exponent": -82
+          },
+          "display": "[-3.0e-17 +/- 3.19e-19]"
+        }
+      },
+      "shared_endpoint_points": [
+        4,
+        5
+      ]
+    },
+    {
+      "segment": 5,
+      "panels": 299,
+      "general_mean_passed_panels": 299,
+      "all_general_mean_gates": true,
+      "R_tau": {
+        "lower": {
+          "mantissa": "1602670718104296756929989126398508793414742715572265623101",
+          "binary_exponent": -191
+        },
+        "upper": {
+          "mantissa": "1602670718104296756929989126398508793414742715572265623101",
+          "binary_exponent": -191
+        },
+        "display": "[0.510640351444158760749824773470405983827582475611274193892 +/- 4.66e-58]"
+      },
+      "local_Wiener_L_lower": {
+        "lower": {
+          "mantissa": "4866369986227617472542006861488284937172461657353013651651",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "4866369986227617472542006861488284937172461657353013651651",
+          "binary_exponent": -192
+        },
+        "display": "[0.775257466163696058584978501415376575539865140118308814807 +/- 3.22e-59]"
+      },
+      "total_local_positive_moments": {
+        "00": {
+          "lower": {
+            "mantissa": "3945736467845734886418042229807184135769751975099510365197",
+            "binary_exponent": -205
+          },
+          "upper": {
+            "mantissa": "3436076298642993363696456796975282128850313502523945815559",
+            "binary_exponent": -204
+          },
+          "display": "[0.0001 +/- 3.37e-5]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "1813918041457635987009398021554306130989198481703536232067",
+            "binary_exponent": -206
+          },
+          "upper": {
+            "mantissa": "3211620056523858542607657089925099373186222304124912076419",
+            "binary_exponent": -206
+          },
+          "display": "[+/- 3.13e-5]"
+        },
+        "01": {
+          "lower": {
+            "mantissa": "3885593516864280944471304155840253581449006932806428363041",
+            "binary_exponent": -205
+          },
+          "upper": {
+            "mantissa": "3367969675645214294224100650511086070123169155102487135377",
+            "binary_exponent": -204
+          },
+          "display": "[0.0001 +/- 3.10e-5]"
+        },
+        "11": {
+          "lower": {
+            "mantissa": "3536641582082232526862637943889425759156411788308288133461",
+            "binary_exponent": -207
+          },
+          "upper": {
+            "mantissa": "3140588583951694944393760035705026358924478434060684635307",
+            "binary_exponent": -206
+          },
+          "display": "[+/- 3.06e-5]"
+        },
+        "b": {
+          "lower": {
+            "mantissa": "1666137750704206840179222309764141368817101153193142127431",
+            "binary_exponent": -207
+          },
+          "upper": {
+            "mantissa": "3009478525464136916210523765050181087445003326390230453063",
+            "binary_exponent": -207
+          },
+          "display": "[1e-5 +/- 4.64e-6]"
+        }
+      },
+      "bubble_coefficients": {
+        "2": {
+          "lower": {
+            "mantissa": "497376169",
+            "binary_exponent": -30
+          },
+          "upper": {
+            "mantissa": "1779016517",
+            "binary_exponent": -30
+          },
+          "display": "[1e+0 +/- 0.657]"
+        },
+        "4": {
+          "lower": {
+            "mantissa": "274764277",
+            "binary_exponent": -35
+          },
+          "upper": {
+            "mantissa": "219608397",
+            "binary_exponent": -33
+          },
+          "display": "[+/- 0.0256]"
+        },
+        "6": {
+          "lower": {
+            "mantissa": "118001199",
+            "binary_exponent": -38
+          },
+          "upper": {
+            "mantissa": "757061711",
+            "binary_exponent": -39
+          },
+          "display": "[+/- 1.38e-3]"
+        },
+        "8": {
+          "lower": {
+            "mantissa": "538602375",
+            "binary_exponent": -44
+          },
+          "upper": {
+            "mantissa": "1724099161",
+            "binary_exponent": -44
+          },
+          "display": "[+/- 9.81e-5]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "347213233",
+            "binary_exponent": -47
+          },
+          "upper": {
+            "mantissa": "1109926509",
+            "binary_exponent": -47
+          },
+          "display": "[+/- 7.89e-6]"
+        },
+        "12": {
+          "lower": {
+            "mantissa": "481196599",
+            "binary_exponent": -51
+          },
+          "upper": {
+            "mantissa": "1536372685",
+            "binary_exponent": -51
+          },
+          "display": "[+/- 6.83e-7]"
+        },
+        "14": {
+          "lower": {
+            "mantissa": "350404315",
+            "binary_exponent": -54
+          },
+          "upper": {
+            "mantissa": "1117719219",
+            "binary_exponent": -54
+          },
+          "display": "[+/- 6.21e-8]"
+        },
+        "16": {
+          "lower": {
+            "mantissa": "137300281",
+            "binary_exponent": -56
+          },
+          "upper": {
+            "mantissa": "54366923",
+            "binary_exponent": -53
+          },
+          "display": "[+/- 6.04e-9]"
+        },
+        "18": {
+          "lower": {
+            "mantissa": "401478177",
+            "binary_exponent": -61
+          },
+          "upper": {
+            "mantissa": "1286636663",
+            "binary_exponent": -61
+          },
+          "display": "[+/- 5.58e-10]"
+        },
+        "20": {
+          "lower": {
+            "mantissa": "638120825",
+            "binary_exponent": -65
+          },
+          "upper": {
+            "mantissa": "2036707235",
+            "binary_exponent": -65
+          },
+          "display": "[+/- 5.53e-11]"
+        },
+        "22": {
+          "lower": {
+            "mantissa": "499023585",
+            "binary_exponent": -68
+          },
+          "upper": {
+            "mantissa": "1618958993",
+            "binary_exponent": -68
+          },
+          "display": "[+/- 5.49e-12]"
+        },
+        "24": {
+          "lower": {
+            "mantissa": "310831407",
+            "binary_exponent": -71
+          },
+          "upper": {
+            "mantissa": "1214122415",
+            "binary_exponent": -71
+          },
+          "display": "[+/- 5.15e-13]"
+        },
+        "26": {
+          "lower": {
+            "mantissa": "420478075",
+            "binary_exponent": -72
+          },
+          "upper": {
+            "mantissa": "1316531719",
+            "binary_exponent": -72
+          },
+          "display": "[+/- 2.79e-13]"
+        },
+        "28": {
+          "lower": {
+            "mantissa": "-267030069",
+            "binary_exponent": -69
+          },
+          "upper": {
+            "mantissa": "-330970313",
+            "binary_exponent": -71
+          },
+          "display": "[+/- 4.53e-13]"
+        },
+        "30": {
+          "lower": {
+            "mantissa": "508561329",
+            "binary_exponent": -71
+          },
+          "upper": {
+            "mantissa": "1640802141",
+            "binary_exponent": -71
+          },
+          "display": "[+/- 6.95e-13]"
+        },
+        "32": {
+          "lower": {
+            "mantissa": "-1685109695",
+            "binary_exponent": -71
+          },
+          "upper": {
+            "mantissa": "-513394653",
+            "binary_exponent": -71
+          },
+          "display": "[+/- 7.14e-13]"
+        },
+        "34": {
+          "lower": {
+            "mantissa": "473746015",
+            "binary_exponent": -72
+          },
+          "upper": {
+            "mantissa": "1584433595",
+            "binary_exponent": -72
+          },
+          "display": "[+/- 3.36e-13]"
+        },
+        "36": {
+          "lower": {
+            "mantissa": "443947579",
+            "binary_exponent": -72
+          },
+          "upper": {
+            "mantissa": "1518943999",
+            "binary_exponent": -72
+          },
+          "display": "[+/- 3.22e-13]"
+        },
+        "38": {
+          "lower": {
+            "mantissa": "-1249497003",
+            "binary_exponent": -70
+          },
+          "upper": {
+            "mantissa": "-353293273",
+            "binary_exponent": -70
+          },
+          "display": "[+/- 1.06e-12]"
+        },
+        "40": {
+          "lower": {
+            "mantissa": "261207359",
+            "binary_exponent": -76
+          },
+          "upper": {
+            "mantissa": "998781373",
+            "binary_exponent": -76
+          },
+          "display": "[+/- 1.33e-14]"
+        }
+      },
+      "shared_endpoint_points": [
+        5,
+        6
+      ]
+    },
+    {
+      "segment": 6,
+      "panels": 16,
+      "general_mean_passed_panels": 16,
+      "all_general_mean_gates": true,
+      "R_tau": {
+        "lower": {
+          "mantissa": "3239794556558159103461718683480402797052331926703627081297",
+          "binary_exponent": -195
+        },
+        "upper": {
+          "mantissa": "3239794556558159103461718683480402797052331926703627081297",
+          "binary_exponent": -195
+        },
+        "display": "[0.0645161312722969179362222018058881170277862626801516360738 +/- 2.73e-59]"
+      },
+      "local_Wiener_L_lower": {
+        "lower": {
+          "mantissa": "389514869612887564926023087126881179079186308166570474011",
+          "binary_exponent": -188
+        },
+        "upper": {
+          "mantissa": "389514869612887564926023087126881179079186308166570474011",
+          "binary_exponent": -188
+        },
+        "display": "[0.992852780873764819924750567026205319264382937506941206030 +/- 2.79e-58]"
+      },
+      "total_local_positive_moments": {
+        "00": {
+          "lower": {
+            "mantissa": "11327569949050100298699697492548143242727980989621672497",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "11328796417118157870076976940016724080618829878322207281",
+            "binary_exponent": -200
+          },
+          "display": "[7.050e-6 +/- 8.36e-10]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "483392823720135720052224438848695924938401958726416165053",
+            "binary_exponent": -208
+          },
+          "upper": {
+            "mantissa": "483445162017520023491770987483992696105074094622674741437",
+            "binary_exponent": -208
+          },
+          "display": "[1.1751e-6 +/- 9.01e-11]"
+        },
+        "01": {
+          "lower": {
+            "mantissa": "5803722267873951855972695310250117950805719236886431523437",
+            "binary_exponent": -209
+          },
+          "upper": {
+            "mantissa": "5804350655511859014178251093752879571420911159284247552621",
+            "binary_exponent": -209
+          },
+          "display": "[7.054e-6 +/- 7.98e-10]"
+        },
+        "11": {
+          "lower": {
+            "mantissa": "1934241209422551433264022315205290425542482224889745603669",
+            "binary_exponent": -210
+          },
+          "upper": {
+            "mantissa": "1934450636080734064831022857132541502099020035128949439573",
+            "binary_exponent": -210
+          },
+          "display": "[1.176e-6 +/- 5.31e-10]"
+        },
+        "b": {
+          "lower": {
+            "mantissa": "3094249937159025169964441768640882812424704208405764191973",
+            "binary_exponent": -212
+          },
+          "upper": {
+            "mantissa": "3094584961063605128539651415615211631838100951488235517669",
+            "binary_exponent": -212
+          },
+          "display": "[4.701e-7 +/- 5.75e-11]"
+        }
+      },
+      "bubble_coefficients": {
+        "2": {
+          "lower": {
+            "mantissa": "-711468391",
+            "binary_exponent": -45
+          },
+          "upper": {
+            "mantissa": "711677843",
+            "binary_exponent": -45
+          },
+          "display": "[+/- 2.03e-5]"
+        },
+        "4": {
+          "lower": {
+            "mantissa": "-1618601227",
+            "binary_exponent": -56
+          },
+          "upper": {
+            "mantissa": "1618034285",
+            "binary_exponent": -56
+          },
+          "display": "[+/- 2.25e-8]"
+        },
+        "6": {
+          "lower": {
+            "mantissa": "-677965901",
+            "binary_exponent": -59
+          },
+          "upper": {
+            "mantissa": "678108755",
+            "binary_exponent": -59
+          },
+          "display": "[+/- 1.18e-9]"
+        },
+        "8": {
+          "lower": {
+            "mantissa": "-1184834091",
+            "binary_exponent": -64
+          },
+          "upper": {
+            "mantissa": "1185047997",
+            "binary_exponent": -64
+          },
+          "display": "[+/- 6.43e-11]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "-1241046297",
+            "binary_exponent": -68
+          },
+          "upper": {
+            "mantissa": "1241255795",
+            "binary_exponent": -68
+          },
+          "display": "[+/- 4.21e-12]"
+        },
+        "12": {
+          "lower": {
+            "mantissa": "-200685357",
+            "binary_exponent": -69
+          },
+          "upper": {
+            "mantissa": "401437583",
+            "binary_exponent": -70
+          },
+          "display": "[+/- 3.41e-13]"
+        },
+        "14": {
+          "lower": {
+            "mantissa": "-1287155001",
+            "binary_exponent": -75
+          },
+          "upper": {
+            "mantissa": "1287384035",
+            "binary_exponent": -75
+          },
+          "display": "[+/- 3.41e-14]"
+        },
+        "16": {
+          "lower": {
+            "mantissa": "-176588467",
+            "binary_exponent": -73
+          },
+          "upper": {
+            "mantissa": "176635763",
+            "binary_exponent": -73
+          },
+          "display": "[+/- 1.88e-14]"
+        },
+        "18": {
+          "lower": {
+            "mantissa": "-113013119",
+            "binary_exponent": -79
+          },
+          "upper": {
+            "mantissa": "451117225",
+            "binary_exponent": -81
+          },
+          "display": "[+/- 1.87e-16]"
+        },
+        "20": {
+          "lower": {
+            "mantissa": "-613665063",
+            "binary_exponent": -87
+          },
+          "upper": {
+            "mantissa": "614797189",
+            "binary_exponent": -87
+          },
+          "display": "[+/- 3.98e-18]"
+        },
+        "22": {
+          "lower": {
+            "mantissa": "-301558375",
+            "binary_exponent": -85
+          },
+          "upper": {
+            "mantissa": "298618555",
+            "binary_exponent": -85
+          },
+          "display": "[+/- 7.80e-18]"
+        },
+        "24": {
+          "lower": {
+            "mantissa": "-610961111",
+            "binary_exponent": -86
+          },
+          "upper": {
+            "mantissa": "605143929",
+            "binary_exponent": -86
+          },
+          "display": "[+/- 7.90e-18]"
+        },
+        "26": {
+          "lower": {
+            "mantissa": "-427751991",
+            "binary_exponent": -84
+          },
+          "upper": {
+            "mantissa": "428106017",
+            "binary_exponent": -84
+          },
+          "display": "[+/- 2.22e-17]"
+        },
+        "28": {
+          "lower": {
+            "mantissa": "-1805919367",
+            "binary_exponent": -85
+          },
+          "upper": {
+            "mantissa": "1804367985",
+            "binary_exponent": -85
+          },
+          "display": "[+/- 4.67e-17]"
+        },
+        "30": {
+          "lower": {
+            "mantissa": "-1403158017",
+            "binary_exponent": -84
+          },
+          "upper": {
+            "mantissa": "1404598851",
+            "binary_exponent": -84
+          },
+          "display": "[+/- 7.27e-17]"
+        },
+        "32": {
+          "lower": {
+            "mantissa": "-1472727899",
+            "binary_exponent": -84
+          },
+          "upper": {
+            "mantissa": "1472998941",
+            "binary_exponent": -84
+          },
+          "display": "[+/- 7.62e-17]"
+        },
+        "34": {
+          "lower": {
+            "mantissa": "-707249957",
+            "binary_exponent": -84
+          },
+          "upper": {
+            "mantissa": "707184097",
+            "binary_exponent": -84
+          },
+          "display": "[+/- 3.66e-17]"
+        },
+        "36": {
+          "lower": {
+            "mantissa": "-700432461",
+            "binary_exponent": -84
+          },
+          "upper": {
+            "mantissa": "700168583",
+            "binary_exponent": -84
+          },
+          "display": "[+/- 3.63e-17]"
+        },
+        "38": {
+          "lower": {
+            "mantissa": "-1188456259",
+            "binary_exponent": -83
+          },
+          "upper": {
+            "mantissa": "1187918733",
+            "binary_exponent": -83
+          },
+          "display": "[+/- 1.23e-16]"
+        },
+        "40": {
+          "lower": {
+            "mantissa": "-987103967",
+            "binary_exponent": -89
+          },
+          "upper": {
+            "mantissa": "963932417",
+            "binary_exponent": -89
+          },
+          "display": "[+/- 1.60e-18]"
+        }
+      },
+      "shared_endpoint_points": [
+        6,
+        7
+      ]
+    }
+  ],
+  "abort": {
+    "type": "ArithmeticError",
+    "message": "A local original endpoint branch is unresolved",
+    "completed_segments": 7,
+    "scanned_panels": 1732
+  },
+  "failed_mean_panels": 0,
+  "first_failed_mean_panels": [],
+  "gates": {
+    "complete_same_background_cover": false,
+    "all_general_mean_branches": false,
+    "all_continuous_full_mean_derivatives": false,
+    "all_continuous_Darboux_defects": false
+  },
+  "worst": {
+    "R_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "1602670718104296756929989126398508793414742715572265623101",
+          "binary_exponent": -191
+        },
+        "upper": {
+          "mantissa": "1602670718104296756929989126398508793414742715572265623101",
+          "binary_exponent": -191
+        },
+        "display": "[0.510640351444158760749824773470405983827582475611274193892 +/- 4.66e-58]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 2,
+        "original_parent": 21,
+        "x_left": "15735098245/8796093022208",
+        "x_right": "87039521028013/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "3478421600900523846807357333835692060801389700364867993671",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3481479419406065838430930164716184649508799092571386150983",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5401368175408009152226680167713672618597982031727440656415",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6088440852825021624888379654509276335505964093390366144543",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "P_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "5298857279599656822708305102511152110048636067405462487961",
+          "binary_exponent": -195
+        },
+        "upper": {
+          "mantissa": "5298857279599656822708305102511152110048636067405462487961",
+          "binary_exponent": -195
+        },
+        "display": "[0.105519583379694053937082440898325198890524747612779004055 +/- 2.89e-58]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 2,
+        "original_parent": 21,
+        "x_left": "15735098245/8796093022208",
+        "x_right": "87039521028013/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "3478421600900523846807357333835692060801389700364867993671",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3481479419406065838430930164716184649508799092571386150983",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5401368175408009152226680167713672618597982031727440656415",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6088440852825021624888379654509276335505964093390366144543",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "K_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "1271492138129318205510720057491561786536702961359424217603",
+          "binary_exponent": -191
+        },
+        "upper": {
+          "mantissa": "1271492138129318205510720057491561786536702961359424217603",
+          "binary_exponent": -191
+        },
+        "display": "[0.405120768064464706812742332572080784937057727998495189838 +/- 3.86e-58]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 2,
+        "original_parent": 21,
+        "x_left": "15735098245/8796093022208",
+        "x_right": "87039521028013/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "3478421600900523846807357333835692060801389700364867993671",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3481479419406065838430930164716184649508799092571386150983",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5401368175408009152226680167713672618597982031727440656415",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6088440852825021624888379654509276335505964093390366144543",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "T_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "166257067128629472150386858160573324993694809129009520515",
+          "binary_exponent": -189
+        },
+        "upper": {
+          "mantissa": "166257067128629472150386858160573324993694809129009520515",
+          "binary_exponent": -189
+        },
+        "display": "[0.211890231048979788569849179969846809106622816054174856583 +/- 6.10e-59]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 2,
+        "original_parent": 21,
+        "x_left": "15735098245/8796093022208",
+        "x_right": "87039521028013/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "3478421600900523846807357333835692060801389700364867993671",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3481479419406065838430930164716184649508799092571386150983",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5401368175408009152226680167713672618597982031727440656415",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6088440852825021624888379654509276335505964093390366144543",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "L_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "2305805841407554976819739672337702144122098103695888902057",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "2305805841407554976819739672337702144122098103695888902057",
+          "binary_exponent": -192
+        },
+        "display": "[0.367336063458833392194024390868440407665602323459364701345 +/- 8.71e-59]"
+      },
+      "witness": {
+        "segment": 4,
+        "panel": 0,
+        "original_parent": 18,
+        "x_left": "0",
+        "x_right": "1/16",
+        "radius": {
+          "lower": {
+            "mantissa": "2947873930856992850842331761703105853625001490553247570925",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2981005097721126679952777944693533469697753613814392888301",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5778948396299854653883883007586679258141856614815745420513",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "5783329182569364934197438520438833001441428392108123466977",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "linear_tau": {
+      "value": {
+        "lower": {
+          "mantissa": "2719710535197316312821675864881405423121332651591093326279",
+          "binary_exponent": -189
+        },
+        "upper": {
+          "mantissa": "2719710535197316312821675864881405423121332651591093326279",
+          "binary_exponent": -189
+        },
+        "display": "[3.46619908339564580808870153423880485700476889204670129653 +/- 4.93e-57]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 337,
+        "original_parent": 17,
+        "x_left": "191385864194320171/288230376151711744",
+        "x_right": "766330810533031835/1152921504606846976",
+        "radius": {
+          "lower": {
+            "mantissa": "729974566535421495043479918865150165919753826223557609539",
+            "binary_exponent": -191
+          },
+          "upper": {
+            "mantissa": "730122614336644169863203515032429054434926234761441740867",
+            "binary_exponent": -191
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "3105960798310479665187306630307089746742078520514637045589",
+            "binary_exponent": -197
+          },
+          "upper": {
+            "mantissa": "3379559136629310926774757870632357844135808705884264963925",
+            "binary_exponent": -197
+          }
+        }
+      }
+    },
+    "complete_mean_abs": {
+      "value": {
+        "lower": {
+          "mantissa": "3159159799274602831198177135627119715332917130197213402945",
+          "binary_exponent": -199
+        },
+        "upper": {
+          "mantissa": "3159159799274602831198177135627119715332917130197213402945",
+          "binary_exponent": -199
+        },
+        "display": "[0.00393189993921811823986838774811748019220539601631333210285 +/- 4.37e-60]"
+      },
+      "witness": {
+        "segment": 4,
+        "panel": 0,
+        "original_parent": 18,
+        "x_left": "0",
+        "x_right": "1/16",
+        "radius": {
+          "lower": {
+            "mantissa": "2947873930856992850842331761703105853625001490553247570925",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2981005097721126679952777944693533469697753613814392888301",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5778948396299854653883883007586679258141856614815745420513",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "5783329182569364934197438520438833001441428392108123466977",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "complete_mean_source_derivative_abs": {
+      "value": {
+        "lower": {
+          "mantissa": "2206454210105984140790893389105902601406942466049184624877",
+          "binary_exponent": -193
+        },
+        "upper": {
+          "mantissa": "2206454210105984140790893389105902601406942466049184624877",
+          "binary_exponent": -193
+        },
+        "display": "[0.175754217720199383583837734333286727328144270555475235531 +/- 2.08e-58]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 2,
+        "original_parent": 21,
+        "x_left": "15735098245/8796093022208",
+        "x_right": "87039521028013/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "3478421600900523846807357333835692060801389700364867993671",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3481479419406065838430930164716184649508799092571386150983",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5401368175408009152226680167713672618597982031727440656415",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6088440852825021624888379654509276335505964093390366144543",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "finite_actual_linear_residual_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "2719710535197316312821675864881405423121332651591093326279",
+          "binary_exponent": -189
+        },
+        "upper": {
+          "mantissa": "2719710535197316312821675864881405423121332651591093326279",
+          "binary_exponent": -189
+        },
+        "display": "[3.46619908339564580808870153423880485700476889204670129653 +/- 4.93e-57]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 337,
+        "original_parent": 17,
+        "x_left": "191385864194320171/288230376151711744",
+        "x_right": "766330810533031835/1152921504606846976",
+        "radius": {
+          "lower": {
+            "mantissa": "729974566535421495043479918865150165919753826223557609539",
+            "binary_exponent": -191
+          },
+          "upper": {
+            "mantissa": "730122614336644169863203515032429054434926234761441740867",
+            "binary_exponent": -191
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "3105960798310479665187306630307089746742078520514637045589",
+            "binary_exponent": -197
+          },
+          "upper": {
+            "mantissa": "3379559136629310926774757870632357844135808705884264963925",
+            "binary_exponent": -197
+          }
+        }
+      }
+    },
+    "complete_nonlinear_source_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "447844618508751856588738364136301600740682200263242803897",
+          "binary_exponent": -188
+        },
+        "upper": {
+          "mantissa": "447844618508751856588738364136301600740682200263242803897",
+          "binary_exponent": -188
+        },
+        "display": "[1.14153222270478640786298496024757173244131812329784746653 +/- 6.38e-58]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 11,
+        "original_parent": 21,
+        "x_left": "773285226375317/4503599627370496",
+        "x_right": "1631595881203287/9007199254740992",
+        "radius": {
+          "lower": {
+            "mantissa": "3483364608645814796311365770260734193167149408102492433905",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3485621983730803661350839410709016975594655595245845900785",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "3508213246384364265046959633176781621185506296236268882527",
+            "binary_exponent": -199
+          },
+          "upper": {
+            "mantissa": "3931025387263627655753570982868587168171203277496278616671",
+            "binary_exponent": -199
+          }
+        }
+      }
+    },
+    "complete_nonmean_source_residual_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "1570592013344849057730324898622802206051732432991085373983",
+          "binary_exponent": -188
+        },
+        "upper": {
+          "mantissa": "1570592013344849057730324898622802206051732432991085373983",
+          "binary_exponent": -188
+        },
+        "display": "[4.00335589143825852133928253022681246158499912937250814065 +/- 3.17e-57]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 356,
+        "original_parent": 17,
+        "x_left": "780503178136552553/1152921504606846976",
+        "x_right": "97661316486537963/144115188075855872",
+        "radius": {
+          "lower": {
+            "mantissa": "730788661450708626712581446291319915171695543885752338499",
+            "binary_exponent": -191
+          },
+          "upper": {
+            "mantissa": "731009378769234358891714364999280968023487037234078713923",
+            "binary_exponent": -191
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "2713954574137043399251315732138803125089624787242090481261",
+            "binary_exponent": -197
+          },
+          "upper": {
+            "mantissa": "2961774733928143963521115780748478262363484274480522708589",
+            "binary_exponent": -197
+          }
+        }
+      }
+    },
+    "complete_scalar_mean_residual_abs": {
+      "value": {
+        "lower": {
+          "mantissa": "4410217768215264718146993928846319485905232987598893901389",
+          "binary_exponent": -195
+        },
+        "upper": {
+          "mantissa": "4410217768215264718146993928846319485905232987598893901389",
+          "binary_exponent": -195
+        },
+        "display": "[0.0878235281609544314349626227309475096763108348827295389215 +/- 4.95e-59]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 442,
+        "original_parent": 17,
+        "x_left": "848215601131151539/1152921504606846976",
+        "x_right": "424501477443451345/576460752303423488",
+        "radius": {
+          "lower": {
+            "mantissa": "2933374168567238781075673727184304495120967544615946886125",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2934390283182540285200447372218022920979651742018731449325",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "791944386380606048236972544201624507952986025048069021739",
+            "binary_exponent": -196
+          },
+          "upper": {
+            "mantissa": "876679146809542551597079629012739001913200178503608868907",
+            "binary_exponent": -196
+          }
+        }
+      }
+    },
+    "full_finite_J_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "3870052790368192458555501041788667405365336937822277471041",
+          "binary_exponent": -189
+        },
+        "upper": {
+          "mantissa": "3870052790368192458555501041788667405365336937822277471041",
+          "binary_exponent": -189
+        },
+        "display": "[4.93227983679291473737776870216270371889568305828707708090 +/- 3.98e-57]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 379,
+        "original_parent": 17,
+        "x_left": "399306157259414513/576460752303423488",
+        "x_right": "799399668274580177/1152921504606846976",
+        "radius": {
+          "lower": {
+            "mantissa": "731617088313978683669762945776731712348347138756093052995",
+            "binary_exponent": -191
+          },
+          "upper": {
+            "mantissa": "731913681733996634530839831776673346500072798020161407043",
+            "binary_exponent": -191
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "4644009479875339790666682871548822343460093553006610790973",
+            "binary_exponent": -198
+          },
+          "upper": {
+            "mantissa": "5086713090643161420037310160104606986363081594332556606013",
+            "binary_exponent": -198
+          }
+        }
+      }
+    },
+    "actual_Darboux_defect_abs": {
+      "value": {
+        "lower": {
+          "mantissa": "3855885830578903967381700999240028206038128283976668560163",
+          "binary_exponent": -179
+        },
+        "upper": {
+          "mantissa": "3855885830578903967381700999240028206038128283976668560163",
+          "binary_exponent": -179
+        },
+        "display": "[5032.16580767374476566951304109092754840243842751610619239 +/- 2.57e-54]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 1,
+        "original_parent": 11,
+        "x_left": "1/274877906944",
+        "x_right": "223401941531307/2251799813685248",
+        "radius": {
+          "lower": {
+            "mantissa": "4715107526724178901897008667136295523839547107816198572535",
+            "binary_exponent": -194
+          },
+          "upper": {
+            "mantissa": "4757348463160600645347693021412348827631703343877353572855",
+            "binary_exponent": -194
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "2476981102265156640992215108945909601318513416363933727821",
+            "binary_exponent": -192
+          },
+          "upper": {
+            "mantissa": "2537190291091073335669240024507749728727321163580491725901",
+            "binary_exponent": -192
+          }
+        }
+      }
+    },
+    "physical_nonmean_second_source_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "6074333696271377968875049827039330936233563308104132974501",
+          "binary_exponent": -181
+        },
+        "upper": {
+          "mantissa": "6074333696271377968875049827039330936233563308104132974501",
+          "binary_exponent": -181
+        },
+        "display": "[1981.84384041968075418477593485426179617814831395958304806 +/- 3.85e-54]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 180,
+        "original_parent": 25,
+        "x_left": "4387481722187313/9007199254740992",
+        "x_right": "17640096450725321/36028797018963968",
+        "radius": {
+          "lower": {
+            "mantissa": "3545334607423474217414679254446541757506467577304135507297",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3547063915265945592086708448726350230417817064571287903585",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "1982130081587214644111008286466248376136311774588805212815",
+            "binary_exponent": -195
+          },
+          "upper": {
+            "mantissa": "2239239129257223788021579267822490884142443767129618147983",
+            "binary_exponent": -195
+          }
+        }
+      }
+    },
+    "nonmean_physical_hrr_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "4733632544779115757435657313695321377273257322962947170533",
+          "binary_exponent": -181
+        },
+        "upper": {
+          "mantissa": "4733632544779115757435657313695321377273257322962947170533",
+          "binary_exponent": -181
+        },
+        "display": "[1544.41967971551948883504973912357790212320084130769164030 +/- 1.67e-54]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 2,
+        "original_parent": 11,
+        "x_left": "223401941531307/2251799813685248",
+        "x_right": "223401941527211/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "4715860721337399739455605883159428454343579032449304744871",
+            "binary_exponent": -194
+          },
+          "upper": {
+            "mantissa": "4793826479477755048378931629785457497339380524108203152295",
+            "binary_exponent": -194
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "285759812077654858056851614181480281213802640041252505393",
+            "binary_exponent": -189
+          },
+          "upper": {
+            "mantissa": "320703951535906306604232910518495694478778738624391300913",
+            "binary_exponent": -189
+          }
+        }
+      }
+    },
+    "mean_physical_hrr_minus_background_abs": {
+      "value": {
+        "lower": {
+          "mantissa": "5608082963416622519258258630030486171081235300278708234891",
+          "binary_exponent": -186
+        },
+        "upper": {
+          "mantissa": "5608082963416622519258258630030486171081235300278708234891",
+          "binary_exponent": -186
+        },
+        "display": "[57.1788262782638951465099299998114684265851061448923835215 +/- 1.87e-57]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 180,
+        "original_parent": 25,
+        "x_left": "4387481722187313/9007199254740992",
+        "x_right": "17640096450725321/36028797018963968",
+        "radius": {
+          "lower": {
+            "mantissa": "3545334607423474217414679254446541757506467577304135507297",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3547063915265945592086708448726350230417817064571287903585",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "1982130081587214644111008286466248376136311774588805212815",
+            "binary_exponent": -195
+          },
+          "upper": {
+            "mantissa": "2239239129257223788021579267822490884142443767129618147983",
+            "binary_exponent": -195
+          }
+        }
+      }
+    },
+    "full_D_nonconstant_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "2244539018926314480411195245651116233832473228093009545931",
+          "binary_exponent": -195
+        },
+        "upper": {
+          "mantissa": "2244539018926314480411195245651116233832473228093009545931",
+          "binary_exponent": -195
+        },
+        "display": "[0.0446969619409085225965275340938590935712261706706219457912 +/- 2.45e-59]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 2,
+        "original_parent": 11,
+        "x_left": "223401941531307/2251799813685248",
+        "x_right": "223401941527211/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "4715860721337399739455605883159428454343579032449304744871",
+            "binary_exponent": -194
+          },
+          "upper": {
+            "mantissa": "4793826479477755048378931629785457497339380524108203152295",
+            "binary_exponent": -194
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "285759812077654858056851614181480281213802640041252505393",
+            "binary_exponent": -189
+          },
+          "upper": {
+            "mantissa": "320703951535906306604232910518495694478778738624391300913",
+            "binary_exponent": -189
+          }
+        }
+      }
+    },
+    "full_weight_minus_one_W0": {
+      "value": {
+        "lower": {
+          "mantissa": "3056439586051781093576509165528007588618516689074718444917",
+          "binary_exponent": -194
+        },
+        "upper": {
+          "mantissa": "3056439586051781093576509165528007588618516689074718444917",
+          "binary_exponent": -194
+        },
+        "display": "[0.121729729535102831752330946199198587497196347448614278323 +/- 1.13e-58]"
+      },
+      "witness": {
+        "segment": 4,
+        "panel": 0,
+        "original_parent": 18,
+        "x_left": "0",
+        "x_right": "1/16",
+        "radius": {
+          "lower": {
+            "mantissa": "2947873930856992850842331761703105853625001490553247570925",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2981005097721126679952777944693533469697753613814392888301",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5778948396299854653883883007586679258141856614815745420513",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "5783329182569364934197438520438833001441428392108123466977",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "P_theta_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "166257067128629472150386858160573324993694809129009520515",
+          "binary_exponent": -189
+        },
+        "upper": {
+          "mantissa": "166257067128629472150386858160573324993694809129009520515",
+          "binary_exponent": -189
+        },
+        "display": "[0.211890231048979788569849179969846809106622816054174856583 +/- 6.10e-59]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 2,
+        "original_parent": 21,
+        "x_left": "15735098245/8796093022208",
+        "x_right": "87039521028013/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "3478421600900523846807357333835692060801389700364867993671",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3481479419406065838430930164716184649508799092571386150983",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5401368175408009152226680167713672618597982031727440656415",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6088440852825021624888379654509276335505964093390366144543",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "K_theta_minus_P_W1": {
+      "value": {
+        "lower": {
+          "mantissa": "4782817458627224201414996032042589303554816091692381530691",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "4782817458627224201414996032042589303554816091692381530691",
+          "binary_exponent": -192
+        },
+        "display": "[0.761946780576210310266632374306657941029854432241558852571 +/- 1.20e-58]"
+      },
+      "witness": {
+        "segment": 4,
+        "panel": 0,
+        "original_parent": 18,
+        "x_left": "0",
+        "x_right": "1/16",
+        "radius": {
+          "lower": {
+            "mantissa": "2947873930856992850842331761703105853625001490553247570925",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2981005097721126679952777944693533469697753613814392888301",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5778948396299854653883883007586679258141856614815745420513",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "5783329182569364934197438520438833001441428392108123466977",
+            "binary_exponent": -200
+          }
+        }
+      }
+    }
+  },
+  "minima_over_passed_panels": {
+    "mean_sign_margin": {
+      "value": {
+        "lower": {
+          "mantissa": "18845491588092548052299969203470639771015767436326376529",
+          "binary_exponent": -223
+        },
+        "upper": {
+          "mantissa": "18845491588092548052299969203470639771015767436326376529",
+          "binary_exponent": -223
+        },
+        "display": "[1.39803626622561879894087814041643473264147416991725048260e-12 +/- 4.88e-69]"
+      },
+      "witness": {
+        "segment": 1,
+        "panel": 216,
+        "original_parent": 7,
+        "x_left": "487481201260673917/576460752303423488",
+        "x_right": "244333797637288595/288230376151711744",
+        "radius": {
+          "lower": {
+            "mantissa": "2235025252217418876158867634106465952995875797542611543799",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2243541122079411317545758321447998639533593832451262736119",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "4438374222404602277971543017050462163070884904483391429501",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "4796571135415456422390195854039032283695723975473843821437",
+            "binary_exponent": -193
+          }
+        }
+      }
+    },
+    "mean_derivative_lower": {
+      "value": {
+        "lower": {
+          "mantissa": "2756499781463889447931641413681081286652047395350671442607",
+          "binary_exponent": -191
+        },
+        "upper": {
+          "mantissa": "2756499781463889447931641413681081286652047395350671442607",
+          "binary_exponent": -191
+        },
+        "display": "[0.878271500977698938156531395575608393969582293170499027105 +/- 4.00e-58]"
+      },
+      "witness": {
+        "segment": 4,
+        "panel": 0,
+        "original_parent": 18,
+        "x_left": "0",
+        "x_right": "1/16",
+        "radius": {
+          "lower": {
+            "mantissa": "2947873930856992850842331761703105853625001490553247570925",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2981005097721126679952777944693533469697753613814392888301",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5778948396299854653883883007586679258141856614815745420513",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "5783329182569364934197438520438833001441428392108123466977",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "real_y_lower": {
+      "value": {
+        "lower": {
+          "mantissa": "5445499318068264382684896277564263880212129553933718696589",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "5445499318068264382684896277564263880212129553933718696589",
+          "binary_exponent": -192
+        },
+        "display": "[0.867518091569183691810207376693586831799984286627535823524 +/- 4.64e-58]"
+      },
+      "witness": {
+        "segment": 5,
+        "panel": 2,
+        "original_parent": 21,
+        "x_left": "15735098245/8796093022208",
+        "x_right": "87039521028013/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "3478421600900523846807357333835692060801389700364867993671",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "3481479419406065838430930164716184649508799092571386150983",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5401368175408009152226680167713672618597982031727440656415",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "6088440852825021624888379654509276335505964093390366144543",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "real_N_lower": {
+      "value": {
+        "lower": {
+          "mantissa": "3132718498762433931751546217930400636812930942065196443857",
+          "binary_exponent": -191
+        },
+        "upper": {
+          "mantissa": "3132718498762433931751546217930400636812930942065196443857",
+          "binary_exponent": -191
+        },
+        "display": "[0.998141700046686541159378910837729477212073410140871731442 +/- 2.10e-58]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 13,
+        "original_parent": 13,
+        "x_left": "100632769116235227/288230376151711744",
+        "x_right": "25729795859128125/72057594037927936",
+        "radius": {
+          "lower": {
+            "mantissa": "2468428739836485609052576603243029976989208135818675549557",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2564107578483183704542243382536444421675399735077182436725",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "1688097501959033523551837275917507215859676640981791710845",
+            "binary_exponent": -192
+          },
+          "upper": {
+            "mantissa": "1849810490357394360389321577042035805557816672200141741693",
+            "binary_exponent": -192
+          }
+        }
+      }
+    },
+    "real_D_lower": {
+      "value": {
+        "lower": {
+          "mantissa": "386856619645327809791291071210749986869355227969772280745",
+          "binary_exponent": -188
+        },
+        "upper": {
+          "mantissa": "386856619645327809791291071210749986869355227969772280745",
+          "binary_exponent": -188
+        },
+        "display": "[0.986077042440024740604114524264127420466012425811573522525 +/- 2.21e-58]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 2,
+        "original_parent": 11,
+        "x_left": "223401941531307/2251799813685248",
+        "x_right": "223401941527211/1125899906842624",
+        "radius": {
+          "lower": {
+            "mantissa": "4715860721337399739455605883159428454343579032449304744871",
+            "binary_exponent": -194
+          },
+          "upper": {
+            "mantissa": "4793826479477755048378931629785457497339380524108203152295",
+            "binary_exponent": -194
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "285759812077654858056851614181480281213802640041252505393",
+            "binary_exponent": -189
+          },
+          "upper": {
+            "mantissa": "320703951535906306604232910518495694478778738624391300913",
+            "binary_exponent": -189
+          }
+        }
+      }
+    },
+    "real_S_lower": {
+      "value": {
+        "lower": {
+          "mantissa": "1569261929403222635252208809161247720000294151285254939173",
+          "binary_exponent": -190
+        },
+        "upper": {
+          "mantissa": "1569261929403222635252208809161247720000294151285254939173",
+          "binary_exponent": -190
+        },
+        "display": "[0.999991394472151741342635318663085566202210293252261553486 +/- 3.40e-58]"
+      },
+      "witness": {
+        "segment": 3,
+        "panel": 13,
+        "original_parent": 13,
+        "x_left": "100632769116235227/288230376151711744",
+        "x_right": "25729795859128125/72057594037927936",
+        "radius": {
+          "lower": {
+            "mantissa": "2468428739836485609052576603243029976989208135818675549557",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2564107578483183704542243382536444421675399735077182436725",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "1688097501959033523551837275917507215859676640981791710845",
+            "binary_exponent": -192
+          },
+          "upper": {
+            "mantissa": "1849810490357394360389321577042035805557816672200141741693",
+            "binary_exponent": -192
+          }
+        }
+      }
+    },
+    "real_L_lower": {
+      "value": {
+        "lower": {
+          "mantissa": "1378256856885069789683077941497475416925606829354818726611",
+          "binary_exponent": -190
+        },
+        "upper": {
+          "mantissa": "1378256856885069789683077941497475416925606829354818726611",
+          "binary_exponent": -190
+        },
+        "display": "[0.878275940066577039055871179753004461764664577834408824879 +/- 1.47e-58]"
+      },
+      "witness": {
+        "segment": 4,
+        "panel": 0,
+        "original_parent": 18,
+        "x_left": "0",
+        "x_right": "1/16",
+        "radius": {
+          "lower": {
+            "mantissa": "2947873930856992850842331761703105853625001490553247570925",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2981005097721126679952777944693533469697753613814392888301",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5778948396299854653883883007586679258141856614815745420513",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "5783329182569364934197438520438833001441428392108123466977",
+            "binary_exponent": -200
+          }
+        }
+      }
+    },
+    "Wiener_L_lower": {
+      "value": {
+        "lower": {
+          "mantissa": "3946614958047292952397313991997877399204218925688479881127",
+          "binary_exponent": -192
+        },
+        "upper": {
+          "mantissa": "3946614958047292952397313991997877399204218925688479881127",
+          "binary_exponent": -192
+        },
+        "display": "[0.628732036601948489566107221383442112142192280524321966552 +/- 5.07e-60]"
+      },
+      "witness": {
+        "segment": 4,
+        "panel": 0,
+        "original_parent": 18,
+        "x_left": "0",
+        "x_right": "1/16",
+        "radius": {
+          "lower": {
+            "mantissa": "2947873930856992850842331761703105853625001490553247570925",
+            "binary_exponent": -193
+          },
+          "upper": {
+            "mantissa": "2981005097721126679952777944693533469697753613814392888301",
+            "binary_exponent": -193
+          }
+        },
+        "w": {
+          "lower": {
+            "mantissa": "5778948396299854653883883007586679258141856614815745420513",
+            "binary_exponent": -200
+          },
+          "upper": {
+            "mantissa": "5783329182569364934197438520438833001441428392108123466977",
+            "binary_exponent": -200
+          }
+        }
+      }
+    }
+  },
+  "first_height_compatibility_exact_by_R48": true,
+  "shared_nonmean_physical_two_jets": true,
+  "saved_true_outer_cut_height_preserved": true,
+  "mean_scope": "R64 complete M(c) and true actual candidate derivative; no R33 small-ball hypothesis",
+  "local_moment_semantics": "Same true w dr measure, original-segment x coordinate; intersect exact polynomial primitive times the real density range with original physical-width times basis range",
+  "partial_defect_scope": "Worst defect fields cover only panels whose full general mean gate passed unless all four gates are true",
+  "exact_radial_solution_claimed": false,
+  "new_source_quadrature": 0,
+  "new_Node_or_BVP": false,
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-manifest.json": "d2d4867954e26be565f9a5414805ed11de3a7bc7466e829369755bf47aa04fb2",
+    "notes/2026-11-12-tail-outer-cell0-segment-nodes-r1.json": "1ac05db87c40fe4421eb6067d81448a466548060c58a2dfc0c4ea51bd7ed7582",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment0.json.gz": "f19e791c22d258afd60ed44c5e1d6879803ed7d6f1f6697a9587217f57055c24",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment1.json.gz": "45e0732418a09b6d520a61afca5f6a19ede60272cf6ac029e803a4e5c16539e8",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment2.json.gz": "a0ea020899eeee55d57a2170a3be8d887d26ae3a7f185daf0489e2d7835a0e54",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment3.json.gz": "25d6567ba17e696c20abea12328ec4c1d9e63514be876da72f404418a2cc54ac",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment4.json.gz": "799c1f107a9ea1f8c1679a5b638e01a4c5713478e5e2fd84783c29e6abba74fe",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment5.json.gz": "3e2c6ed783a7f90c29430858a00b434328c9d00b16ebc1b212b71ed1453e25bc",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment6.json.gz": "055d82fabc9d2b7a5845481f4584a299eb53870f7ea7186276cb502f137ec629",
+    "notes/2026-11-12-tail-outer-positive-moments-cell0-stream-r1-segment7.json.gz": "ce7be659bebb070a48ba8b6cbd0340b767630093aa2e57ac3952138560b1b790"
+  },
+  "source_hashes": {
+    "tail_outer_segment_candidate_domain.py": "836074abfdc5758822633a591d5ed4eb0cdf1aae6d018f486308f20c2330f32f",
+    "tail_outer_general_mean_bounds.py": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+    "tail_outer_weighted_compatible.py": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+    "tail_outer_positive_moment_panels.py": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+    "tail_outer_candidate_domain.py": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+    "closure_real_outer_radius.py": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+    "tail_r33_middle_ordered_physical.py": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e"
+  },
+  "elapsed_seconds": 14.692378419998931,
+  "peak_RSS_KiB": 31364
+}

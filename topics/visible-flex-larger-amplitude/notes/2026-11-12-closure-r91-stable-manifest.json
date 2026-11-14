@@ -1,0 +1,108 @@
+{
+  "schema": "visible-flex-R91-stable-manifest-v1",
+  "status": "Complete proof and actually executed exact arithmetic; no new Arb/source integration/ODE",
+  "date": "2026-11-12",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted)",
+  "files": [
+    {
+      "path": "computations/closure_r91_split_jump_high_ledger.js",
+      "git_blob": "a9d2f68ac05632b6c2ec0ab7d718d6b4e571370c",
+      "sha256": "d123377a8928c79a06456ddd62e4254ced8c9bffb34738750860472cf9ff8e34",
+      "bytes": 12521
+    },
+    {
+      "path": "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json",
+      "git_blob": "ad94de7b118c251d0298e9d22d0d5161cc010c51",
+      "sha256": "badc734ef590c747d62fc75bd57ce2571bd89e8c522604b691406f469d47392f",
+      "bytes": 48806
+    },
+    {
+      "path": "results/R91-actual-jump-split-high-inverse-and-wide-centre.md",
+      "git_blob": "f222d41653067450245af0ba84556933b35e4239",
+      "sha256": "70d00f19b36b481449711286a7f1c6c8030d4786e26be6db0314d296db739c90",
+      "bytes": 17254
+    }
+  ],
+  "execution": {
+    "engine": "functions.exec V8 BigInt",
+    "complete": true,
+    "all_gates": true,
+    "gate_count": 28,
+    "gates": {
+      "original_R68_complete_real_source": true,
+      "R90_all28_original_gates": true,
+      "same_full46_geometry_budget_and_head_hashes": true,
+      "both_endpoint_frame_conversions_retained_in_parent_bounds": true,
+      "every_actual_frame_ratio_below_two23": true,
+      "actual_phase_and_two_positive_budget_totals": true,
+      "uniform_complete_original_log_error": true,
+      "all10793_jump_errors": true,
+      "new_strip_stays_strictly_above_one64": true,
+      "new_input_strip_is_narrower_than_actual_head": true,
+      "complete_source_inverse_below50000": true,
+      "complete_high_feedback_below_one300": true,
+      "same_exact_point_envelope": true,
+      "full_candidate_cap_comparison_for_absolute_nine": true,
+      "full_derivative_comparison_for_absolute_nine": true,
+      "absolute_nine_complete_mean_and_inverse_domain": true,
+      "absolute_nine_entire_ball_selfmap": true,
+      "absolute_nine_contraction": true,
+      "same_R90_solution_by_old_ball_inclusion": true,
+      "all46_output_rows_retained": true,
+      "actual_all46_projected_solution_in_constant_wide_strip": true,
+      "nonzero_true_R74_high_initial_trace": true,
+      "finite_centre_support_requires_at_least88_inverse_terms": true,
+      "complete_inverse_neumann_factor": true,
+      "finite_centre_pure_high_source_below_two2963": true,
+      "finite_centre_pure_high_image_below_two2947": true,
+      "actual_low_centre_plus_declared_middle_high_domain": true,
+      "strict_high_block_selfmap_for_all_declared_middle": true
+    },
+    "arithmetic": "Lossless JSON numeric tokens; normalized BigInt rationals; positive rational exponential Taylor remainder; no IEEE-754 value enters a gate",
+    "new_terminal_execution": false,
+    "new_Arb_execution": false,
+    "new_ODE_or_source_integration": false,
+    "cli_below_is_reproduction_only": true,
+    "terminal_exit_code": null,
+    "observed_orchestration_elapsed_seconds_approx": 4.5
+  },
+  "reproducibility": {
+    "cwd": "topics/visible-flex-larger-amplitude",
+    "command": "node computations/closure_r91_split_jump_high_ledger.js notes/2026-11-12-closure-r91-split-jump-high-exact-ledger-recheck.json",
+    "output_policy": "Fresh output only; source uses flag wx. The recorded primary is the actual orchestration-runtime execution, not a claimed execution of this CLI.",
+    "inputs": {
+      "notes/2026-11-12-root-outer-continuous-frame-r1.json": "d47f1507427d75c9e94452296cf4e5706e1b3468135d44b486845b1c212f70fe",
+      "notes/2026-11-12-root-outer-optimal-frame-r1.json": "e726b2006b27c84ac61d73e0d899d504da7997fd7c3775c7ca3b35e175261751",
+      "computations/root_outer_frame_continuous_prefix.py": "828ea557a5f9b702658eed425cc6344128d7e4be4a13a3efefc1d25b6c302fe5",
+      "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930",
+      "notes/2026-11-12-closure-physical-green-budget-actions-43303787139-1-interval.json": "86c9b5604a765a50028865a4f3edae3171d9582052e2b7e7515d0471d8685d45",
+      "notes/2026-11-12-closure-physical-green-actions-43303787139-1-interval.json": "e3bb0bad3afac3e19d6b811ad068d0b4251b2a1214718dcbd14a2eb98e1aaa03",
+      "notes/2026-11-12-closure-r90-projected-ball-exact-ledger.json": "fcf7c26d57cfe443fb227a62c95df30c1a3b6f1dff7ec5fa90673ad0903b0815"
+    },
+    "source_retrieval_after_runtime_store_reset": "Source and primary were re-read from their already-created Git blobs and their original SHA256 values were verified; no recomputation or change of primary was introduced."
+  },
+  "scope": {
+    "actual_low_wide_strip_paid": true,
+    "actual_low46_projected_solution_constant_strip": "18/125",
+    "actual_low46_wide_physical_strong_bound": "< 1.014567311e-11 < 2^-34",
+    "high_frequency_minimum": 8192,
+    "source_inverse": "349568/7 < 50000",
+    "high_contraction": "< 1/300",
+    "middle_input_radius": "2^-41 in physical variable-strip strong norm",
+    "high_radius": "2^-179 + 2^-41/250 in the balanced high norm",
+    "complete_mean_and_inverse_retained": true,
+    "true_nonzero_high_initial_trace_retained": true,
+    "middle_actual_solution_paid": false,
+    "joint_low_middle_high_solution_paid": false,
+    "complete_cut_consistency_paid": false,
+    "outer_cells0_to9_paid": false,
+    "closed_family_claimed": false
+  },
+  "outage_status": {
+    "local_executor": "Fourth outage reported by parent; no active Arb process owned by this agent",
+    "parent_R88_fields19031": "Formal tool and wait4 exit0 reported; full output not yet published at latest checkpoint",
+    "parent_R88_consumer20874": "Formal tool and wait4 exit0 with four mathematical gates true reported; full output not yet published at latest checkpoint",
+    "unpushed_data_assumed_lost": false,
+    "this_manifest_and_its_three_files": "Durable Git blobs only; parent performs ordinary commit/ref publication."
+  }
+}

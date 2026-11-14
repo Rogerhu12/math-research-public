@@ -1,0 +1,244 @@
+{
+  "scope": "The first real q106 warm-H finite tail has converged through the unchanged complete nonlinear solver and full Jacobian. Initial BVP coupling only: request.audit=false, no physical tail audit yet, prefix Newton still live, no accepted new physical surface or closed-family claim.",
+  "created_utc": "2026-11-13T10:13:36.094900+00:00",
+  "actual_H": [
+    -2.5838990455360474e-05,
+    2.3766518108706272e-08,
+    3.9301649804808464e-11,
+    2.349379984844834e-12,
+    -5.0582068403915764e-14,
+    -2.4104387662763766e-13,
+    -4.401032025643495e-15,
+    5.251177756126867e-13,
+    -3.04896534551517e-14,
+    3.3062091189871994e-14,
+    6.670117716890964e-14,
+    -7.54012668149388e-14,
+    1.141002851107312e-13,
+    -1.1141336969538023e-13,
+    -1.8663556633317418e-13,
+    7.695539171678715e-14,
+    2.9011568638866895e-14,
+    7.662268003392237e-14,
+    6.358371879846053e-14,
+    -1.4150272009500933e-14,
+    -1.9336019787373843e-13,
+    5.884711035832169e-14,
+    -1.7517809005697645e-13,
+    3.6444723651048586e-14,
+    -5.246947909478792e-14,
+    2.917465076641756e-13,
+    2.1268395429565284e-13,
+    1.7112512431028605e-13
+  ],
+  "residual": 6.110476820645264e-10,
+  "tolerance": 2e-09,
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 3.4346892659157238,
+      "minA": 0.8753963192805541,
+      "minD": 0.9999346366928967,
+      "chartCondition": 131085.65081734533,
+      "step": 1
+    },
+    {
+      "iteration": 1,
+      "norm": 0.000267471900341482,
+      "minA": 0.8754255254272558,
+      "minD": 0.9999346371423402,
+      "chartCondition": 131085.760190488,
+      "step": 1
+    },
+    {
+      "iteration": 2,
+      "norm": 6.110476820645264e-10,
+      "minA": 0.875425525791436,
+      "minD": 0.9999346371423405
+    }
+  ],
+  "full_height_jacobian_entries": 2408,
+  "full_state_shape": [
+    577,
+    56
+  ],
+  "complete_snapshot": {
+    "schema": "full-shooting-flow-tangent-storage-v1",
+    "manifestPath": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-manifest.json.gz",
+    "manifestSha256": "a854e2889a572724e05cbbf2bc6a88fe916f15f0d1b7c26d3e6ccdaf9ad2791e",
+    "manifestBytes": 15840,
+    "chunks": 8,
+    "rawFlowBytes": 14450688,
+    "baseRawBytes": 259024,
+    "helperSha256": "fb6ed25102cb91a332e1c2d879cf6218f9c88faaebe6916e801e46e6f8c1551f",
+    "newTargetAccepted": false,
+    "roundtrip": {
+      "allBaseAndFlowValuesBitwiseEqual": true,
+      "checkedValues": 1838705,
+      "originalFactoryPredictorCheck": {
+        "allStateValuesBitwiseEqual": true,
+        "values": 32312,
+        "probeCompleteHeight": [
+          -2.5839015097365535e-05,
+          2.376654076247397e-08,
+          3.930168141067624e-11,
+          2.34937928783507e-12,
+          -5.058358541929267e-14,
+          -2.4104484089327063e-13,
+          -4.401403416934053e-15,
+          5.251180928069527e-13,
+          -3.0489774330885953e-14,
+          3.3062076821071786e-14,
+          6.670121783047547e-14,
+          -7.540135019800725e-14,
+          1.1410038818783416e-13,
+          -1.1141347881615363e-13,
+          -1.8663574575707244e-13,
+          7.695546438999168e-14,
+          2.9011595947866755e-14,
+          7.662275292771036e-14,
+          6.358377934697307e-14,
+          -1.4150285549075421e-14,
+          -1.933603822988047e-13,
+          5.884716646809355e-14,
+          -1.7517825712542466e-13,
+          3.644475840464403e-14,
+          -5.246952913498326e-14,
+          2.917467858946265e-13,
+          2.126841571265274e-13,
+          1.711252875077469e-13
+        ],
+        "probePurpose": "Storage equivalence only; no probe nonlinear solve or accepted target."
+      }
+    }
+  },
+  "all_compressed_and_raw_sidecar_hashes_verified": true,
+  "original_new_target_predictor_actually_used": true,
+  "original_global_acceptance_required": true,
+  "actual_run_unchanged": true,
+  "whole_job_resource_exit_not_yet_observed": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_0001.json.gz",
+      "sha256": "de720170697f71e88b870f8bb14c6bd8e46ed2781f0682642f1aa7e1414fdb72",
+      "bytes": 353901,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-manifest.json.gz",
+      "sha256": "a854e2889a572724e05cbbf2bc6a88fe916f15f0d1b7c26d3e6ccdaf9ad2791e",
+      "bytes": 15840,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-base.f64le.gz",
+      "sha256": "07f7cd0c6894a0c28a94c2f39658d61846912f7607148cdf30bfcbe501b78aff",
+      "bytes": 254800,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-flow-0000.f64le.gz",
+      "sha256": "8bec56c4db2c635173c20b39693fe1d4371f0746936e0bb6df8375d146f9a891",
+      "bytes": 1952293,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-flow-0001.f64le.gz",
+      "sha256": "daec581a3e74f5dfa0ec415ab479ff66de3ddc2acdca88e36c47778924eb805a",
+      "bytes": 1952753,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-flow-0002.f64le.gz",
+      "sha256": "f57e88029bdb0a84ce1f803a7051f9e0a6d4c2e9b0633747f49cad8abd805e1c",
+      "bytes": 1951006,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-flow-0003.f64le.gz",
+      "sha256": "e527a41788a43c1cf1336f88ea70473b54035026037b2d93bede8ad14b15f9b9",
+      "bytes": 1951646,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-flow-0004.f64le.gz",
+      "sha256": "47ca29a30f03334174c3371ee04fda488e0bb375fe1a85cb0bdd7ab5bb503501",
+      "bytes": 1947149,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-flow-0005.f64le.gz",
+      "sha256": "d2c3d30afd88a6d74581cb373f208a2ee0e0e8fd289d9ed5ce183a2c948f6865",
+      "bytes": 1942857,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-flow-0006.f64le.gz",
+      "sha256": "ee2b391ab55677cfbc08b8842e6df92870ff1792ca34500cd264d62694d863f8",
+      "bytes": 1944221,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response-full-tangent-call0001-flow-0007.f64le.gz",
+      "sha256": "af60266f353ebcb277a0b38856c7d6e75145fed3230112dcf73dbc9a4de062bc",
+      "bytes": 565459,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-config.json",
+      "sha256": "872f9779a799d667f687f1bc03812c0aa219c4ca37d88737a9e64fcdd935e7e1",
+      "bytes": 2907,
+      "reused": true
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-base-profile.json",
+      "sha256": "febefa49f09e94bf61cbafef7b781ac57a1a98a485b1be009382df4c96b70bb6",
+      "bytes": 534,
+      "reused": true
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-actual-three-control-adapter.json",
+      "sha256": "15d0c1dd95a22afaca99f240be82f51a9fa77dc3861ca4b8bca00890eda38488",
+      "bytes": 53927,
+      "reused": true
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_adapter.json",
+      "sha256": "90c543375d3099514694c252355bf2f5c7a8e663deb7b54a1197233c98c63f7b",
+      "bytes": 95504,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_exact-raw-adapter.json",
+      "sha256": "f4985bdef172d72e653ffaa02747157cb547c37a89fedceb898a2c76caf5cf27",
+      "bytes": 3522,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_full-tangent-adapter.json",
+      "sha256": "e741e8d651add167f113898295c1a179c196debac89d12b273462c996220959d",
+      "bytes": 43209,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_Node-resource-intent.json",
+      "sha256": "ddeac550ac5d8dcd4fea76e490a6bb443cd232aa612b06072ad1f12cffafe8bb",
+      "bytes": 1012,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-tail-response_Node-resource-observed.json",
+      "sha256": "90056538b0d19131063ef4fdbf84602150bee93dcafa522eba8185834b1b110a",
+      "bytes": 1037,
+      "reused": false
+    },
+    {
+      "file": "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-initial-tail-fullJ-trace.jsonl.gz",
+      "sha256": "2e22cf2730a5ec6e340979712ef439f11117d17bef62fbe2260cd14ba511dbe1",
+      "bytes": 229499,
+      "reused": false
+    }
+  ],
+  "total_bytes": 15263076,
+  "new_bytes": 15205708
+}

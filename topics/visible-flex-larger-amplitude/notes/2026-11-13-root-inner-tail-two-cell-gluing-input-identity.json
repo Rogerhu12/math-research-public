@@ -1,0 +1,43 @@
+{
+  "schema": "logical-C2-gluing-input-identity-v1",
+  "inputs": {
+    "R141": {
+      "path": "notes/2026-11-13-root-restricted-outer-r6-cont-r1-certificate.json.gz",
+      "sha256": "b9acf8f7492f9f85f9cf010868d61348082b8cd4e1e11d12d5b195f9f97f3582"
+    },
+    "R143": {
+      "path": "notes/2026-11-13-root-full-cut-homothetic-contraction-r1.json",
+      "sha256": "e76e2e452079afec5d05939a8f8ddd79ed7bf1e656446ac5576086efebd47e83"
+    },
+    "R142": {
+      "path": "notes/2026-11-13-exact-resume-r127-mean-height-bridge-r1.json",
+      "sha256": "b26c36452bc651f8d1ce55f9da23b6c904ad209878c268787a38cdce45612ae5"
+    },
+    "proofs": [
+      {
+        "path": "results/R100-hybrid46-parameter-chart-and-source-transfer.md",
+        "sha256": "c0b479f2403a233139b4cf3c894445d22d7ed4f29010f783d041ec840e8c5bfc"
+      },
+      {
+        "path": "results/R127-complete-low-middle-high-mixed-boundary-family.md",
+        "sha256": "35b208c7cd98c5536c56c7d9a08d4fd2ea87097d549646dce9ee223125243b2c"
+      },
+      {
+        "path": "results/R141-complete-two-cell-low46-cut-existence.md",
+        "sha256": "e0da596404d2eecf5e511042c69276ef26d6376fd7840c3445cc0a5ff61af2d7"
+      },
+      {
+        "path": "results/R142-full-mean-height-and-nested-annulus-bridge.md",
+        "sha256": "84f6eaa1deb6e3db59d5b97220c48113b6d7d1327315bc1d73cf051909431255"
+      },
+      {
+        "path": "results/R143-full-cut-homothetic-Cauchy-contraction.md",
+        "sha256": "998f0471bcbfe8e9d662dddc6d012e8ea03e9a4082b8990f151bebc9f441a17f"
+      }
+    ]
+  },
+  "same_complete_R127_field_verified": true,
+  "same_original_R100_inner_field_used": true,
+  "conditional_R142_full_cut_hypothesis_discharged_by_R141_R143": true,
+  "no_new_numerical_certificate_claimed": true
+}

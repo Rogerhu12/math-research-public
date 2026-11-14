@@ -1,0 +1,36 @@
+{
+  "source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_fine_core_tail_proxy_eight_sync_frontload04.py",
+  "source_sha256": "2ecc204c50bf4f46a955e981dbb0e849b38eeddf9729516ade20c060fa83d629",
+  "previous_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_fine_core_tail_proxy_eight_sync_trust.py",
+  "previous_source_sha256": "9af5df6752ccf7865fc180c22d50e5ee1aaca40de1fd2e430041f61a4ac01c9e",
+  "original_tail_solver_AST_unchanged": true,
+  "source_changes": [
+    {
+      "before": "Fresh sync-length trust-box design successor; only vd upper increment becomes +.001.",
+      "after": "Fresh frontload-trust design successor; only the frontload interval becomes [-.04,.04].\nThe sync interval [-.004,+.001] is retained; no nonlinear domain is certified by the box."
+    },
+    {
+      "before": "'initial_speed_frontload':(-.02,.02)",
+      "after": "'initial_speed_frontload':(-.04,.04)"
+    }
+  ],
+  "only_physical_range_change": {
+    "initial_speed_frontload": {
+      "old": [
+        -0.02,
+        0.02
+      ],
+      "new": [
+        -0.04,
+        0.04
+      ]
+    }
+  },
+  "vd_range_preserved": [
+    -0.004,
+    0.001
+  ],
+  "original_17_fields_not_recomputed": true,
+  "original_complete_rows_and_fine32_tail_checks_retained": true,
+  "nonlinear_domain_or_fine_Jacobian_claimed": false
+}

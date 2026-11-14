@@ -1,0 +1,60 @@
+{
+  "status": "R121 completed: exact auxiliary spectral enclosure on the unchanged full R74 family",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "files": [
+    {
+      "path": "results/R121-inner-aux-cell12-spectral-bootstrap.md",
+      "sha256": "3fc35f6136f821575cd578a8935d0dd1ffc7e5c516e1399548a6412bc8dc3ef9",
+      "bytes": 14896
+    },
+    {
+      "path": "computations/inner_aux_cell12_outside_floor.py",
+      "sha256": "6749ab3f2cc4360eba0b307ecf4c0b5d6a587b48ecbe91631048189b25572220",
+      "bytes": 9772
+    },
+    {
+      "path": "computations/inner_aux_cell12_spectral_bootstrap.py",
+      "sha256": "e646a7a8e396af91fb289ee6ad966910d8e805904c8dfcc7e0d999234c3106a0",
+      "bytes": 24775
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-cell12-outside-floor-r1.json.gz",
+      "sha256": "28e68f029dc61e22192407ee8b8c49c549ee37ab957b31c76d082b1f1bbbf02d",
+      "bytes": 27956
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-cell12-outside-floor-r1-resource.json",
+      "sha256": "7244d6c59dd0e0c0d49e12a14daa1adb7d85ffb964519e3563c62dc8d3cf80e5",
+      "bytes": 741
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-cell12-spectral-bootstrap-r1.json.gz",
+      "sha256": "490bbdaa71cbd14b4dab9fbf6ac820d72b895b7fc5664b8a3a2ff454bb63a1c6",
+      "bytes": 99637
+    },
+    {
+      "path": "notes/2026-11-13-inner-aux-cell12-spectral-bootstrap-r1-resource.json",
+      "sha256": "5b4331ad0b01590e919009ecd249745b1eab169aeec02490eb018f708cc5d3f8",
+      "bytes": 676
+    }
+  ],
+  "formal_exit_codes": [
+    0,
+    0
+  ],
+  "exact_gate_counts": [
+    878,
+    529
+  ],
+  "bootstrap_passes": 32,
+  "full46_modes": true,
+  "all20_R74_axes": true,
+  "canonical_tau": 2,
+  "complete_mean_and_inverse_retained": true,
+  "true_far_strictly_positive": true,
+  "proof_scope": "same R39/R74 auxiliary low46 field only; complete cut consumption remains a separate result",
+  "no_new_ODE": true,
+  "no_Arb": true,
+  "no_Node": true,
+  "no_outer_spectral_cap_imported": true
+}

@@ -1,0 +1,13 @@
+{"event": "actual_complete_inner_source", "completed": 20, "cell": 31, "elapsed_seconds": 5.967389309000282, "peak_rss_kib": 53056}
+{"event": "actual_complete_inner_source", "completed": 40, "cell": 51, "elapsed_seconds": 9.85894743300014, "peak_rss_kib": 53056}
+{"event": "actual_complete_inner_source", "completed": 60, "cell": 71, "elapsed_seconds": 21.13850867000292, "peak_rss_kib": 53184}
+{"event": "actual_complete_inner_source", "completed": 80, "cell": 91, "elapsed_seconds": 25.33653396400041, "peak_rss_kib": 53312}
+{"event": "actual_complete_inner_source", "completed": 100, "cell": 111, "elapsed_seconds": 29.522498816000734, "peak_rss_kib": 53312}
+{"event": "actual_complete_inner_source", "completed": 120, "cell": 131, "elapsed_seconds": 34.18158812600086, "peak_rss_kib": 53440}
+{"event": "actual_complete_inner_source", "completed": 140, "cell": 151, "elapsed_seconds": 39.34243608200268, "peak_rss_kib": 53440}
+{"event": "actual_complete_inner_source", "completed": 160, "cell": 171, "elapsed_seconds": 43.94565209600114, "peak_rss_kib": 53568}
+{"event": "actual_complete_inner_source", "completed": 180, "cell": 191, "elapsed_seconds": 47.641210041001614, "peak_rss_kib": 53696}
+{"event": "actual_complete_inner_source", "completed": 200, "cell": 211, "elapsed_seconds": 51.651930797001114, "peak_rss_kib": 53696}
+{"event": "actual_complete_inner_source", "completed": 213, "cell": 224, "elapsed_seconds": 56.132125104002625, "peak_rss_kib": 53824}
+{"all_gates": true, "cells": 213, "elapsed_seconds": 56.31327736000094, "peak_rss_kib": 54848}
+{"event": "child_exit", "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n", "command": ["python", "-u", "root-work/actual-cut-posterior-inputs/2026-11-13-exact-resume-inner-restricted-complete-source-v1.py", "--modal-input", "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1.json.gz", "--modal-resource", "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-modal-r1-resource.json", "--density", "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/frozen-topic/notes/2026-11-12-tail-r42-strong-same-tau-r1-density.json.gz", "--out-prefix", "/workspace/scratch/d1aa462cfc02/root-work/r127/R157-P1-source-r1"], "wall_seconds": 57.75599765777588, "exitcode": 0, "termination_signal": null, "peak_rss_kib": 56256, "user_seconds": 20.748072, "system_seconds": 0.6665369999999999, "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"}

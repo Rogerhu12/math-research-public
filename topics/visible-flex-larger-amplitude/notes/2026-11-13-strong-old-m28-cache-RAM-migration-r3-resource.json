@@ -1,0 +1,25 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "old-m28-cache-RAM-migration",
+  "command": [
+    "python",
+    "-u",
+    "/dev/shm/vfla-strong-oldm28-cache-migration-20261113T2036/migrate.py"
+  ],
+  "started_utc": "2026-11-13T20:37:05.286054+00:00",
+  "finished_utc": "2026-11-13T20:37:06.288000+00:00",
+  "wall_seconds": 1.004099097001017,
+  "exitcode": 1,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 256,
+  "peak_rss_kib": 19712,
+  "user_seconds": 0.43807399999999996,
+  "system_seconds": 0.431708,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 5,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026532443]",
+  "automatic_restarts": 0
+}

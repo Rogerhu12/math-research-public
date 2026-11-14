@@ -1,0 +1,42 @@
+{
+  "schema": "original-inner-head-width-budget-stable-archive-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-wider-inner-head-budget-inputs.json",
+      "sha256": "a0bb28df660702b3c27c811abbba20e396ed3a3be3de894f96b7918d15d8a04f",
+      "bytes": 5804
+    },
+    {
+      "path": "notes/2026-11-13-root-wider-inner-head-budget-durable-inputs.json",
+      "sha256": "f7c0766629572562f560b329025176654ecfa628c7796edb5ec31314f90d2704",
+      "bytes": 1934
+    },
+    {
+      "path": "notes/2026-11-13-root-wider-inner-head-budget-r1.json",
+      "sha256": "a4caea1bc3f0da10aa69bd8091b45da9257c1aa824c958ce09bf3fab9f70dafe",
+      "bytes": 430243
+    },
+    {
+      "path": "notes/2026-11-13-root-wider-inner-head-budget-r1-resource.json",
+      "sha256": "a595333abe3f9bbc8de2499ac09fd215ccef9cdcbc5b448e5728c419ebe5ac59",
+      "bytes": 848
+    },
+    {
+      "path": "notes/2026-11-13-root-wider-inner-head-budget-r1-stdout.log",
+      "sha256": "28ace3e69dbdc691d6130cea4d845da79b31dc41e2ffc2003753fdeb92b71d10",
+      "bytes": 1147
+    },
+    {
+      "path": "computations/root_wider_inner_head_budget.py",
+      "sha256": "3b3b3ad12f6f478455dbd24c969a7c01a5fe1222dd8a9bfde6732c30c65109ed",
+      "bytes": 12204
+    },
+    {
+      "path": "results/R146-inner-head-width-budget-and-infinite-tail-limit.md",
+      "sha256": "4864102fb5924c323247907c71286f1723ba2adad474be910c4f2e9f035a52c6",
+      "bytes": 7447
+    }
+  ],
+  "reproduction": "Reconstruct the frozen input paths by copying the ten byte-identical tracked files listed in durable-inputs.json; keep the frozen input JSON and source unchanged. The existing complete tail remains on its original strip.",
+  "independent_mathematical_review": "exact_closure checked the fixed-entrance k construction, finite-cap-only failure interpretation, and infinity unbounded identity-map argument in-session; no separate numerical rerun claimed."
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "completed-owned-prefix-cache-maintenance-v1",
+  "created_utc": "2026-11-13T17:37:35.439501+00:00",
+  "directory": "/workspace/scratch/d1aa462cfc02/strong-work/q126-m32-tail2-prefix-cache-r1",
+  "old_actual_owned_exit": 0,
+  "old_actual_finished_utc": "2026-11-13T17:28:33.787290+00:00",
+  "old_actual_resource_sha256": "9f02862b2592d5d3d7ab0f7aec0aeecdc6264ae67e4eec3369ed58c3cc86efc6",
+  "launch_plan_sha256": "91e1a3de0f97aa0a57a85726ca785f0f1c8257f998b65711617e06f6835a3b55",
+  "current_nine_response_plan_sha256": "dec781325713cb32c9b6623f9a9eafe111970bea2c62714d0c1ac8f318919605",
+  "current_nine_plan_does_not_reference_directory": true,
+  "fixed_view_and_fullmean_followups_already_finished": true,
+  "completed_original_accepted_archive_manifest_sha256": "3e13322c21e0fcd5cb3b09b7b483260e8433632ef8828d3092dd595697795ecb",
+  "file_count": 883,
+  "file_bytes": 268564600,
+  "allocated_regular_bytes": 271179776,
+  "subdirectories": 1,
+  "all_files_regular_single_link_cache_or_identity": true,
+  "cache_identity_file": "/workspace/scratch/d1aa462cfc02/strong-work/q126-m32-tail2-prefix-cache-r1/b069379a89947a36f6d4992044123f73ca21c0140d5ddbd2b6333ea1e517c493/identity.json",
+  "cache_identity_sha256": "e56e7ecd545836579e9a37741f1a7443cb5ef321483503c68edef039f573ddaa",
+  "complete_scientific_files_before": {
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz": "917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation.json.gz": "dd926f98205c9edaa78fb6952b18e3ac536511c3b0dc70ee16d47e877ee83e5f",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz": "3f63c69738fc171709a4cba47baeaf70c40778876e03f93436db56b302578e1f"
+  },
+  "free_bytes_before": 0,
+  "scope": "Only function/J evaluation cache of the genuinely completed A producer. No current nine-control matrix/factor, full-stage cache, raw/full-flow recovery, or scientific notes are removed.",
+  "status": "completed",
+  "durable_record_written_utc": "2026-11-13T17:40:22.772748+00:00",
+  "complete_scientific_files_after": {
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz": "917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-raw-collocation.json.gz": "dd926f98205c9edaa78fb6952b18e3ac536511c3b0dc70ee16d47e877ee83e5f",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz": "3f63c69738fc171709a4cba47baeaf70c40778876e03f93436db56b302578e1f"
+  },
+  "all_scientific_file_hashes_unchanged": true,
+  "observed_free_after_deletion": 0,
+  "current_free_bytes_after_other_concurrent_maintenance": 3314163712,
+  "net_free_change_not_isolated_from_other_writes": true,
+  "original_cache_identity_bytes_retained": false,
+  "original_cache_identity_sha_recorded_before_deletion": true,
+  "post_deletion_record_first_write_failed_with": "ENOSPC while workspace remained full; pre-deletion record had been durably written to /dev/shm and read back.",
+  "no_current_scientific_job_restarted": true
+}

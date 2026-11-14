@@ -1,0 +1,134 @@
+{
+  "scope": "Measure the actual endpoint collocation defect and its quintic lobe scale.\n\nThe cubic collocation midpoint is reconstructed in the recorded numerical\ncoordinate, not in physical arclength. The lobe scale (10/sqrt(3))*|e|/h_s^2\nis the exact norm for an isolated endpoint-position correction e*S(u).\nIt is a diagnostic for one source of C2 error, not a bound for the whole map.\n",
+  "input": "notes/2026-11-12-strong-first675-q0775-m20.json.gz",
+  "input_sha256": "a9466db911cafaccc5295fd2250cc17fcef7d4454f06384085205a451793ac24",
+  "source_sha256": "fa040294ebffad45fc11a3d6afe17caaf0c4369119d86cb21ce92afdb1485423",
+  "modes": 20,
+  "quadrature": 512,
+  "angular": 512,
+  "numerical_coordinate_reconstruction_error": 1.1102230246251565e-16,
+  "maximum_relative_collocation_defect": 6.413155856282176e-12,
+  "worst_lobe_scales": [
+    {
+      "interval": 481,
+      "s_left": 2.203779142185509,
+      "s_right": 2.203811869173744,
+      "physical_width": 3.272698823497677e-05,
+      "numerical_width": 1.0812952318750568e-05,
+      "relative_collocation_defect": 6.413155856282176e-12,
+      "cartesian_endpoint_defect": 1.3718150203408077e-17,
+      "isolated_quintic_second_lobe_scale": 7.394738926213026e-08
+    },
+    {
+      "interval": 478,
+      "s_left": 2.2036807459661807,
+      "s_right": 2.2037135767867557,
+      "physical_width": 3.283082057503606e-05,
+      "numerical_width": 1.0812952318750568e-05,
+      "relative_collocation_defect": 6.3623124431567356e-12,
+      "cartesian_endpoint_defect": 1.3733480252221162e-17,
+      "isolated_quintic_second_lobe_scale": 7.356250415521872e-08
+    },
+    {
+      "interval": 476,
+      "s_left": 2.2036150162592545,
+      "s_right": 2.2036478901423493,
+      "physical_width": 3.287388309480832e-05,
+      "numerical_width": 1.0812952318750568e-05,
+      "relative_collocation_defect": 6.188644878014078e-12,
+      "cartesian_endpoint_defect": 1.3497051393504538e-17,
+      "isolated_quintic_second_lobe_scale": 7.210680644638355e-08
+    },
+    {
+      "interval": 477,
+      "s_left": 2.2036478901423493,
+      "s_right": 2.2036807459661807,
+      "physical_width": 3.2855823831390296e-05,
+      "numerical_width": 1.0812952318528524e-05,
+      "relative_collocation_defect": 6.165371986468279e-12,
+      "cartesian_endpoint_defect": 1.3379008463501545e-17,
+      "isolated_quintic_second_lobe_scale": 7.155476811684244e-08
+    },
+    {
+      "interval": 475,
+      "s_left": 2.2035821326676794,
+      "s_right": 2.2036150162592545,
+      "physical_width": 3.2883591575050275e-05,
+      "numerical_width": 1.0812952318528524e-05,
+      "relative_collocation_defect": 6.1020687291147645e-12,
+      "cartesian_endpoint_defect": 1.331287412454886e-17,
+      "isolated_quintic_second_lobe_scale": 7.108086551815736e-08
+    },
+    {
+      "interval": 480,
+      "s_left": 2.203746376985104,
+      "s_right": 2.203779142185509,
+      "physical_width": 3.2765200405293626e-05,
+      "numerical_width": 1.0812952318528524e-05,
+      "relative_collocation_defect": 6.080954080887716e-12,
+      "cartesian_endpoint_defect": 1.3174818324097307e-17,
+      "isolated_quintic_second_lobe_scale": 7.085301746384263e-08
+    },
+    {
+      "interval": 491,
+      "s_left": 2.204314760413083,
+      "s_right": 2.2043632304432443,
+      "physical_width": 4.847003016150708e-05,
+      "numerical_width": 1.6219428477848297e-05,
+      "relative_collocation_defect": 4.128909771801708e-12,
+      "cartesian_endpoint_defect": 1.3360945479744839e-17,
+      "isolated_quintic_second_lobe_scale": 3.283446803751785e-08
+    },
+    {
+      "interval": 486,
+      "s_left": 2.2039748894357882,
+      "s_right": 2.204023603539381,
+      "physical_width": 4.8714103592750746e-05,
+      "numerical_width": 1.6219428477848297e-05,
+      "relative_collocation_defect": 3.928742253967279e-12,
+      "cartesian_endpoint_defect": 1.3024248096855294e-17,
+      "isolated_quintic_second_lobe_scale": 3.1687107877954946e-08
+    },
+    {
+      "interval": 492,
+      "s_left": 2.2043632304432443,
+      "s_right": 2.2044278915985176,
+      "physical_width": 6.466115527326011e-05,
+      "numerical_width": 2.1625904637390114e-05,
+      "relative_collocation_defect": 3.0178770831503883e-12,
+      "cartesian_endpoint_defect": 1.2959428254751407e-17,
+      "isolated_quintic_second_lobe_scale": 1.7895271633296587e-08
+    },
+    {
+      "interval": 485,
+      "s_left": 2.2039098044283385,
+      "s_right": 2.2039748894357882,
+      "physical_width": 6.508500744972778e-05,
+      "numerical_width": 2.1625904637390114e-05,
+      "relative_collocation_defect": 2.901441728724238e-12,
+      "cartesian_endpoint_defect": 1.2901458772665257e-17,
+      "isolated_quintic_second_lobe_scale": 1.7583943262634853e-08
+    },
+    {
+      "interval": 482,
+      "s_left": 2.203811869173744,
+      "s_right": 2.2038445558153006,
+      "physical_width": 3.268664155653411e-05,
+      "numerical_width": 1.0812952318639546e-05,
+      "relative_collocation_defect": 4.2358413464095504e-13,
+      "cartesian_endpoint_defect": 8.661430192575774e-19,
+      "isolated_quintic_second_lobe_scale": 4.6804583077909785e-09
+    },
+    {
+      "interval": 513,
+      "s_left": 2.217962873131075,
+      "s_right": 2.218085688642801,
+      "physical_width": 0.00012281551172588223,
+      "numerical_width": 4.085809967013798e-05,
+      "relative_collocation_defect": 1.3099908814579708e-12,
+      "cartesian_endpoint_defect": 1.1858334987201757e-17,
+      "isolated_quintic_second_lobe_scale": 4.538963005035813e-09
+    }
+  ],
+  "seconds": 9.884238243103027
+}

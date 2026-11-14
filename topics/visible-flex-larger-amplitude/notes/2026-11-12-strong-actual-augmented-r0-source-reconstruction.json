@@ -1,0 +1,89 @@
+{
+  "scope": "Exact reconstruction of the failed r0 local-check entry; code and acceptance equations were not modified in that check. The coarse finite-difference endpoint test failed before its details were saved.",
+  "current_source": "computations/strong_actual_three_control_bvp.py",
+  "current_sha256": "7ff94e3a02d1d51cfeb98a0b732d947d1cc9db55b710d27cb4bf41a816eef9ec",
+  "r0_sha256": "f3c890ab0c9689e5173efe1419a8e7ad6c09c6ff8818bfdd222a993bf67429b5",
+  "r0_bytes": 28688,
+  "reconstructed_snapshot": "notes/2026-11-12-strong-actual-augmented-r0-entry-source.py.gz",
+  "snapshot_sha256": "3b2f8b1a043ff4acf7e6b41e135faff04fc1d9bd6476057e3456d04c874b3554",
+  "inverse_edits_in_order": [
+    {
+      "old": "    parser.add_argument('--inspect-warm-output', type=Path)\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "old": "    if options.inspect_local_output and options.inspect_warm_output:\n        raise ValueError('Select exactly one explicit inspection mode')\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "old": "'strong_actual_newton_checkpoints.py', 'strong_actual_warm_screen.py', 'root_actual_bounded_neck.py',",
+      "new": "'strong_actual_newton_checkpoints.py', 'root_actual_bounded_neck.py',",
+      "count": 1
+    },
+    {
+      "old": "        local_inspection_only=bool(options.inspect_local_output),\n        unsolved_warm_inspection_only=bool(options.inspect_warm_output))",
+      "new": "        local_inspection_only=bool(options.inspect_local_output))",
+      "count": 1
+    },
+    {
+      "old": "        from scipy.integrate import _bvp\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "old": "        hgrid = np.diff(x)\n        cr, ym, ff, fm = _bvp.collocation_fun(fun, y, p, x, hgrid)\n        br = bc(y[:, 0], y[:, -1], p)\n        spline = _bvp.create_spline(y, ff, x, hgrid)\n        rms = _bvp.estimate_rms_residuals(fun, spline, x, hgrid, p, 1.5*cr/hgrid, fm)\n        old_rms = np.asarray(raw_flat(options.actual_reference_raw, raw_record, 'rms', hashes))\n        rms_delta = float(np.max(abs(rms-old_rms)))\n        physical_bc = float(np.max(abs(br[n:n+M]*self.bcweights)))\n        if (rms_delta > 2e-11*max(1., float(np.max(old_rms)))\n                or physical_bc > ident['coupling_context']['actual_tail_tolerance']):\n            raise ValueError('The full accepted baseline RMS or true-H boundary failed to reproduce')\n        baseline_residual = dict(rms_max=float(np.max(rms)),\n            accepted_rms_max=float(np.max(old_rms)), rms_array_max_difference=rms_delta,\n            scaled_collocation_max=float(np.max(abs(cr)/(hgrid[None, :]*(1+abs(fm))))),\n            all_boundary_max=float(np.max(abs(br))), actual_physical_bc_max=physical_bc,\n            prescribed_core_constraint_max=float(np.max(abs(br[-3:]))))\n        del cr, ym, ff, fm, br, spline, rms, old_rms\n        gc.collect()\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "old": "        av, bv = rng.normal(size=n), rng.normal(size=n)\n        endpoint_checks = []\n        for h in (2e-7, 2e-8, 2e-9):\n            endpoint_fd = (self.bc(y[:, 0]+h*av, y[:, -1]+h*bv, p)-\n                self.bc(y[:, 0]-h*av, y[:, -1]-h*bv, p))/(2*h)\n            endpoint_checks.append(dict(step=h, relative_error=float(\n                np.max(abs(endpoint_fd-A@av-B@bv))/max(1., np.max(abs(endpoint_fd))))))\n        endpoint_error = endpoint_checks[-1]['relative_error']\n",
+      "new": "        av, bv = rng.normal(size=n), rng.normal(size=n)\n        h = 2e-7\n        endpoint_fd = (self.bc(y[:, 0]+h*av, y[:, -1]+h*bv, p)-\n            self.bc(y[:, 0]-h*av, y[:, -1]-h*bv, p))/(2*h)\n        endpoint_error = float(np.max(abs(endpoint_fd-A@av-B@bv))/max(1., np.max(abs(endpoint_fd))))\n",
+      "count": 1
+    },
+    {
+      "old": "        record = dict(scope='Local real-loader actual all-core+geometry derivative verification only; no global Jacobian, Node, BVP or new solution.',",
+      "new": "        if error > 2e-5:\n            raise ValueError('Local actual augmented derivative check failed: '+repr(error))\n        record = dict(scope='Local real-loader actual all-core+geometry derivative verification only; no global Jacobian, Node, BVP or new solution.',",
+      "count": 1
+    },
+    {
+      "old": "            original_full_baseline_residual=baseline_residual,\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "old": "            endpoint_step_checks=endpoint_checks,\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "old": "        record['passed'] = bool(error <= 2e-5)\n        options.inspect_local_output.write_text(json.dumps(record, indent=2)+'\\n')\n        if not record['passed']:\n            raise ValueError('Local actual augmented derivative check failed: '+repr(error))\n",
+      "new": "        options.inspect_local_output.write_text(json.dumps(record, indent=2)+'\\n')\n",
+      "count": 1
+    },
+    {
+      "old": "    def warm_inspect(self, fun, bc, x, y, p, **kw):\n        import resource\n        import time\n        from strong_actual_warm_screen import inspect_warm\n        begin = time.monotonic()\n        def forbidden():\n            inspection['worker_attempts'] += 1\n            raise RuntimeError('A worker is forbidden during the explicit unsolved warm comparison')\n        self.ensure_tail = forbidden\n        official = tail_record['response']\n        slope = np.asarray(official['jets']['slope'])\n        JH = np.asarray(official['heightJetJacobian']).reshape(3*M+2, M)[:M].copy()\n        self.tail_boundary = lambda value: (slope+JH@(self.tail_height(value)-H), JH)\n        report = dict(scope='Complete actual-J warm field on the original residual quadrature and a complete-mean C2 cubic physical image; unsolved comparison only.',\n            finished=True, nonlinear_solution=False, true_new_H_tail_evaluated=False,\n            actual_reference=str(options.actual_reference), source_sha256=hashes,\n            gauge=self.q, actual_target=target, actual_core=self.actual_coefficients(p).tolist(),\n            warm_profile=dict(self.flow().cfg), original_tolerance=kw['tol'],\n            baseline_accepted_rms=reference['max_rms_collocation_residual'],\n            physical_metric_frozen=False, complete_actual_tangent_warm=warm['provenance'] if warm else None)\n        try:\n            report.update(inspect_warm(self, x, y, p, H))\n        except (FloatingPointError, ValueError) as error:\n            report.update(finite_domain_passed=False, inspection_error=repr(error))\n        report.update(seconds=time.monotonic()-begin,\n            peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,\n            worker_start_attempts=inspection['worker_attempts'])\n        options.inspect_warm_output.write_text(json.dumps(report, indent=2)+'\\n')\n        inspection['finished'] = True\n        print(json.dumps(dict(event='actual_unsolved_warm_inspected',\n            out=str(options.inspect_warm_output), finite_domain_passed=report['finite_domain_passed'],\n            seconds=report['seconds'])), flush=True)\n        raise RuntimeError('Explicit actual warm inspection complete; no solve requested')\n\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "old": "                        baseline_sha256=hashes[str(options.actual_reference)],",
+      "new": "                        baseline_sha256=sha(options.actual_reference),",
+      "count": 1
+    },
+    {
+      "old": "                    if options.inspect_local_output:\n                        return local_inspect(self, *a, **kw)\n                    if options.inspect_warm_output:\n                        return warm_inspect(self, *a, **kw)\n                    return solve(self, *a, **kw)",
+      "new": "                    return local_inspect(self, *a, **kw) if options.inspect_local_output else solve(self, *a, **kw)",
+      "count": 1
+    },
+    {
+      "old": "        if options.inspect_local_output or options.inspect_warm_output:\n",
+      "new": "        if options.inspect_local_output:\n",
+      "count": 1
+    }
+  ],
+  "r0_run_record": "notes/2026-11-12-strong-q095-actual-augmented-local-r0-actual-three-control-adapter.json",
+  "field_equations_changed_between_r0_r1": false,
+  "notes": "The inverse list also removes the subsequently added warm-only inspector. The actual augmented factory and Newton observer source hashes are unchanged."
+}

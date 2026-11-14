@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-13T17:12:46.042149+00:00",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/root_R164_wide_nonlow_low_feedback.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/input-manifest.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R164-wide-nonlow-feedback-r1",
+    "--cycles",
+    "4"
+  ],
+  "source_sha256": "4181b8762b578e7c0c3633b22890be387afce035167482942a7272398bf70d3c",
+  "input_manifest_sha256": "8a31c7aa9aab0e2d93b667b1f07c4d7201b36eba5553da7af7b38efced1dfa13",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_wall_seconds": 180,
+    "planned_peak_rss_mib": 640
+  },
+  "purpose": "New real-a* finite low and cut posterior using actual R163 wide nonlow bounds lowered into all186 original windows; no new ODE/source integration or parameter selfmap gate."
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "same-R100-full641-finite-bootstrap-stable-v1",
+  "all_gates": true,
+  "formal_exitcode": 0,
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-full641-bootstrap-v1.py",
+      "sha256": "3f32209d1c16429f1e15347e1ffcdd7ef7f376ad11eded4ca26f56559acb115d",
+      "bytes": 12018,
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-full641-bootstrap-v1.py"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-full641-bootstrap-proof.md",
+      "sha256": "87d10e111444fdd4a8cd6cf4969dadd9e89b5c108940828574e17fe38b488c2b",
+      "bytes": 4751,
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/2026-11-13-exact-resume-inner-full641-bootstrap-proof.md"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-full641-bootstrap-r1-resource.json",
+      "sha256": "fe4829de981ab18d118902caba8b1767ceca8b7b8f9059325cd4953d03c68963",
+      "bytes": 1161,
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/inner-full641-bootstrap-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-inner-full641-bootstrap-r1.json.gz",
+      "sha256": "143828de5eeac3148becd09467c6fa5ffb04a70c896d6f09614cd6d64b7b4fd3",
+      "bytes": 202236,
+      "source": "/workspace/scratch/d1aa462cfc02/exact-work/inner-full641-bootstrap-r1.json.gz"
+    }
+  ],
+  "scope": "Same existing full inner head; finite128 substitutions; no outer cut claim",
+  "total_bytes": 220166
+}

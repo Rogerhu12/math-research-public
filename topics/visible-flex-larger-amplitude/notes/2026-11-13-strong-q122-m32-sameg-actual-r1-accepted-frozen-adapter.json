@@ -1,0 +1,127 @@
+{
+  "scope": "Fixed-metric actual coupling with the verified frozen binary geometry.\n\nThis opt-in entry reuses the original resumable protocol and its acceptance\ngates. The original entry files remain unchanged. Explicit in-memory source\nsubstitutions select the frozen client and report the effective independent\nradial batch size. Full boundary vectors and all solved core coefficients\nare retained. The result is still a finite original-g problem. By default\nthe reference is an accepted actual nonlinear-tail solution. An explicit\n--allow-converged-design-reference instead anchors only the metric of a\nconverged finite design: this starts its first actual nonlinear-tail solve\nand is never described as refinement of a previous actual joined solution.\n",
+  "status": "entry_returned_or_raised; inspect solver and resource records",
+  "source_sha256": {
+    "root_actual_frozen_neck.py": "50acde6b243f964ba03c9e1916a25ec80fbec7ef72b1d17ea3fb5ee2f86fcfe1",
+    "root_actual_bounded_neck.py": "d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734",
+    "root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+    "root_actual_fixed_refinement.py": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+    "root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "tail_frozen_client.py": "fe14e590f56fc43b1d87eb976377cbd1ec6db1c85ce680c264f18afada687e69",
+    "tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+    "tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+    "strong_frozen_calibration_factory.mjs": "77e9d2fc0e277ef69c9a4300ceba2d3d6b03056fc6a4868fab049a1a1c290247"
+  },
+  "frozen_reference_ready": {
+    "file": "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+    "sha256": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d"
+  },
+  "frozen_calibration_ledger": {
+    "file": "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "sha256": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+  },
+  "substitutions": {
+    "root_actual_neck_bvp.py": {
+      "original_sha256": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7",
+      "compiled_sha256": "5b95479e39b2c6f81330f13593dc1cded7c2111c91547d18dff8c5314b8dec2a",
+      "replacements": [
+        {
+          "old": "'stored-resumable':HERE/'tail_resumable_client.py',",
+          "new": "'stored-resumable':HERE/'tail_frozen_client.py',",
+          "count": 1
+        }
+      ]
+    },
+    "root_actual_fixed_refinement.py": {
+      "original_sha256": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+      "compiled_sha256": "aac9619f0c54e3bc5dcca2270734d484c858eee1efba7ca78209679372821816",
+      "replacements": [
+        {
+          "old": "radial_batch_size=48,",
+          "new": "radial_batch_size=48,",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "point_cache_limit": 8,
+  "reference_kind": "accepted-actual-nonlinear-tail-solution",
+  "reference_was_actual_nonlinear_tail": true,
+  "explicit_design_anchor_opt_in": false,
+  "physical_mesh_extension": null,
+  "baseline_physical_metric_l1_sample": 2.068924291591987e-06,
+  "fixed_gauge_amplitude": 0.09,
+  "baseline_actual_core_coefficients": [
+    0.12199999999999998,
+    -0.008607763203260147,
+    -0.0006096734015582711,
+    -0.0001543939208519568,
+    -2.8135487667232938e-05,
+    -1.9328286648422368e-06,
+    -6.1240537484846145e-06,
+    1.6234620719616218e-06,
+    4.374206851280021e-07,
+    2.899713632317512e-07,
+    2.2077010748359962e-07,
+    6.158783974606575e-08,
+    8.892475430054945e-08,
+    -1.2771723563020512e-07,
+    -4.323307388825831e-08,
+    -3.889698955217184e-09,
+    5.6143305063822996e-08,
+    2.6077763992181025e-09,
+    8.110723341636628e-10,
+    -1.7315891646063765e-08,
+    4.680008373926887e-11,
+    -2.698552066735903e-09,
+    -6.283047272366449e-09,
+    -8.571510002497228e-09,
+    -5.77175992560787e-11,
+    3.779314332982532e-08,
+    5.8743411585422885e-08,
+    4.45885427094724e-08
+  ],
+  "baseline_is_not_an_actual_refinement_checkpoint": false,
+  "radial_batch_size": 48,
+  "collocation_interval_batch_size": 24,
+  "physical_data_unchanged": true,
+  "original_acceptance_gates_unchanged": true,
+  "full_boundary_vector_retained": true,
+  "command_arguments": [
+    "--fixed-reference",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+    "--source-topic",
+    "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "--out-prefix",
+    "notes/2026-11-13-strong-q122-m32-sameg-actual-r1",
+    "--modes",
+    "32",
+    "--angular",
+    "1280",
+    "--tol",
+    "1e-7",
+    "--max-nodes",
+    "4000",
+    "--node-heap",
+    "768",
+    "--tail-config",
+    "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-config.json",
+    "--raw-collocation-restart",
+    "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz",
+    "--nodes",
+    "0",
+    "--meridian-chart",
+    "all-knots",
+    "--client",
+    "stored-resumable",
+    "--coupling",
+    "outer",
+    "--actual-tail-tol",
+    "1e-10"
+  ],
+  "protocol_kind": "stored-resumable",
+  "actual_client": "tail_frozen_client.py"
+}

@@ -1,0 +1,92 @@
+{
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "scope": "same finite CL on actual P plus complete source only",
+  "files": [
+    {
+      "path": "computations/root_R155_restricted_finite_centre_source.py",
+      "sha256": "b066b9da2f7c0accff0267705da28fc77fa4160d25049976bbab839f19b26d75",
+      "bytes": 10894
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-primary.json.gz",
+      "sha256": "27b3eb8637613d1cc95148455318577a84017888249d4d349e4cc80d2c0e3a79",
+      "bytes": 125948
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-resource.json",
+      "sha256": "c52fd64a18d393e16bdaa6f6fc3597df57e90e9d5c9962d78b5fa36f77dc2d2a",
+      "bytes": 860
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-stdout.log",
+      "sha256": "d6b57b4b7c1ae3ab4f42e76c159b1c5e2e672a32ee40768fbd6e2f80c7aede6d",
+      "bytes": 1429
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-manifest.json",
+      "sha256": "f2c644fb85f965e8eb30ec7e3face717f232f3674b048ebb80b24dd4406a01ba",
+      "bytes": 3280
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-R153.json.gz",
+      "sha256": "648a9611f591b6a44ff17b035fc4fc45743245d91ccee7bf9f8e1a1f2246a106",
+      "bytes": 629568
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-R153_resource.json",
+      "sha256": "6e977a862ac2a881af2542440076d59af9fb5e3d6ab1f44fba516fcac0a3dfd7",
+      "bytes": 903
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-linear_centre.json",
+      "sha256": "58ae9b5d9332ce09530d2380b00348eb50efa3693a27294ecf185d9ea6f175db",
+      "bytes": 577210
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-R101_spectrum.json",
+      "sha256": "1c12cde9889048daaced137a79a1504a4780d7f5315a5950c5fde4fda0d38651",
+      "bytes": 214941
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-R141.json.gz",
+      "sha256": "b9acf8f7492f9f85f9cf010868d61348082b8cd4e1e11d12d5b195f9f97f3582",
+      "bytes": 153914
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-R141_resource.json",
+      "sha256": "98a01bed66c8d3116272abd6e90908804a3642f678f4ec4f715aba9e827d7f5e",
+      "bytes": 899
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-r6_head.json",
+      "sha256": "087c9dbdf8d7f86c96656ae439268963abc04c8f8dc1c761c34772620e0e2629",
+      "bytes": 17382
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-r6_lift.json.gz",
+      "sha256": "087a68ddc9932825ec0a56e765095e507249374db7e7ce482a4bdf890055c5c7",
+      "bytes": 402754
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-input-R101_source.js",
+      "sha256": "eac90d6f7c816a67590c2c07d031e24d27af0adfd21e1b5ef5411891943b903e",
+      "bytes": 16822
+    },
+    {
+      "path": "notes/2026-11-13-root-R155-durable-input-map.json",
+      "sha256": "47ed31354fd4ef976c6c73487f8827784acff5ae420aa4356a2fed36b7fa5576",
+      "bytes": 3157
+    },
+    {
+      "path": "results/R155-restricted-finite-centre-complete-source.md",
+      "sha256": "7ee4571e8d90e86b760e3f0251eb185c49893d4fd38fe53f6167f71c90f26e6d",
+      "bytes": 3878
+    }
+  ],
+  "total_bytes": 2163839,
+  "primary_sha256": "27b3eb8637613d1cc95148455318577a84017888249d4d349e4cc80d2c0e3a79",
+  "formal_owned_exitcode": 0,
+  "gate_count": 112,
+  "new_unknown_strip_or_fixed_point": false,
+  "parameter_scope": "real restriction of actual P, containing the same real a_star"
+}

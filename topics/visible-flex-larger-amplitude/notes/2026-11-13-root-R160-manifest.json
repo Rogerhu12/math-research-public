@@ -1,0 +1,66 @@
+{
+  "schema": "root-R160-complete-actual-newwidth-budget-v1",
+  "files": [
+    {
+      "path": "notes/2026-11-13-root-R160-R160-fixed-LF-shift040-r1.json.gz",
+      "sha256": "be04d5fddf74632d57b11acee45bdbabecbfc339a5420f8e202f72a95a6a039d",
+      "bytes": 78243
+    },
+    {
+      "path": "notes/2026-11-13-root-R160-R160-fixed-LF-shift040-r1-resource.json",
+      "sha256": "f7c8b21f9c060ad5347c9795429dac63a5e38adfcf8a6768f98a7d347bf7be0f",
+      "bytes": 1028
+    },
+    {
+      "path": "notes/2026-11-13-root-R160-R160-fixed-LF-shift040-r1.log",
+      "sha256": "ee2cadb4ec5709620a465902cc65739efee9038c6018ae9654b505f19e2d9e15",
+      "bytes": 4551
+    },
+    {
+      "path": "notes/2026-11-13-root-R160-input-manifest.json",
+      "sha256": "b96afc260d704c41187f2595a17c232aefd36f26be1778637eb5bd6528b00ddd",
+      "bytes": 6033
+    },
+    {
+      "path": "notes/2026-11-13-root-R160-launch-plan.json",
+      "sha256": "488bd910d579664cd5d6b265cdd1ad4bc90895bf9f5ac98b99bd38231eb7513d",
+      "bytes": 628
+    },
+    {
+      "path": "computations/root_R160_fixed_low_newwidth_nonlow.py",
+      "sha256": "00c9cec750fb50dbd0cfc2526f5ad47cd960340beb186d8d0a7c4df27585efc7",
+      "bytes": 14908
+    },
+    {
+      "path": "notes/2026-11-13-root-R160-nonlow_interface.py",
+      "sha256": "eb5a9a9f2cf01f635f0942bef9299184afb30baab273d26251450395d9046f65",
+      "bytes": 17990
+    },
+    {
+      "path": "notes/2026-11-13-root-R160-source_helper.py",
+      "sha256": "b066b9da2f7c0accff0267705da28fc77fa4160d25049976bbab839f19b26d75",
+      "bytes": 10894
+    },
+    {
+      "path": "results/R160-actual-fixed-LF-newwidth-budget.md",
+      "sha256": "84214d9c6321cfb70daea8189ac74afc2799d95043350b9e8115308eaaeeb37e",
+      "bytes": 1517
+    }
+  ],
+  "primary_sha256": "be04d5fddf74632d57b11acee45bdbabecbfc339a5420f8e202f72a95a6a039d",
+  "formal_child_exit": 0,
+  "all_mathematical_gates_pass": false,
+  "failure": {
+    "reason": "complete_constant_upper_budget_exceeds_paid_physical_domain",
+    "blocks": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      24
+    ]
+  },
+  "proof_scope": "Actual full positive budget failure; never a PDE impossibility certificate."
+}

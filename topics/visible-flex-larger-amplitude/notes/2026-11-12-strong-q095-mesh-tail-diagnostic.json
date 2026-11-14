@@ -1,0 +1,34 @@
+{
+  "scope": "Read only numerical x and metadata from latest two owned atomic snapshots, no RHS/Jacobian. An insertion location is not a diagnosed cause.",
+  "from_file": "notes/2026-11-12-strong-multicore-q095-naturalc6-m20-r1-iterate-0016.npz",
+  "to_file": "notes/2026-11-12-strong-multicore-q095-naturalc6-m20-r1-iterate-0017.npz",
+  "from_nodes": 1001,
+  "to_nodes": 1003,
+  "from_phase": "accepted-newton",
+  "to_phase": "newton-entry",
+  "added": [
+    {
+      "t": 0.43465532375033944,
+      "old_interval_index": 395,
+      "left": 0.4330173692513633,
+      "right": 0.4362932782493156,
+      "old_width": 0.0032759089979522704,
+      "reference_cell": 5,
+      "reference_left": 0.4191621516501113,
+      "reference_right": 0.6895044543002993
+    },
+    {
+      "t": 0.6138737515344406,
+      "old_interval_index": 498,
+      "left": 0.613055356485423,
+      "right": 0.6146921465834582,
+      "old_width": 0.0016367900980351902,
+      "reference_cell": 5,
+      "reference_left": 0.4191621516501113,
+      "reference_right": 0.6895044543002993
+    }
+  ],
+  "min_new_width": 1.0655084491606459e-05,
+  "from_scaled_collocation": 2.592566595830672e-10,
+  "observed_utc": "2026-11-12T08:49:14.294203+00:00"
+}

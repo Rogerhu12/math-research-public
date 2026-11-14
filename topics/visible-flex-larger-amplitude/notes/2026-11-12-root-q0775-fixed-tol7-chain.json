@@ -1,0 +1,107 @@
+{
+  "scope": "Compare actual saved physical two-jets on a fixed finite linear-port metric.\n\nThis explicitly rejects nonlinear-tail input. It verifies identical physical\ndata before comparing the real saved quintics, including their interior jet\nlobes. Results are finite samples, not a closed-surface or continuum theorem.\n",
+  "fixed_data_sha256": {
+    "frozen_profile": "e4a561f860a12b32a94a64b0e5bd41a5a366c50a41070d254daa4e4753961a04",
+    "physical_tail_parameters": "20a7621928d095a30825ddfd147311a186859c200604feaf5186c5734f8b74c8",
+    "physical_tail_cut": "bfd7667d03eeae4ac7fee31c7ecffd5d798592311938d0f27631db5562136427",
+    "angular_chart": "f43948346672a39a03dc0e908f376155cf626f1a8ab5d3c9f4ab16fb0e9cec1a",
+    "chart_reference_coefficients": "44999511e56b4342f997fbda5e101dcf65b6d174e69536bfc812de3f7bc8a048",
+    "chart_reference_frequencies": "f25ed8cd5464710aff6e5d655a575ac273cb9c19d696e53fa13de05db97454ca",
+    "gauge_amplitude": "d325bd42d3a8b1fe376453303116dae197f860cab2d3d650dfe6063a24f8fb8d",
+    "meridian_length": "a125180c496909743047f1abcf6fafcc28233304c817c0e02b2178a96ef5c99a"
+  },
+  "source_sha256": "746a17519901ee111c9cb114f3fe8930fdd7e93dc59e4572c4f650d3121bf415",
+  "comparison_helper_sha256": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+  "checkpoints": [
+    {
+      "file": "notes/2026-11-12-strong-first675-q0775-m20.json.gz",
+      "sha256": "a9466db911cafaccc5295fd2250cc17fcef7d4454f06384085205a451793ac24",
+      "modes": 20,
+      "angular": 512,
+      "tol": 1e-06,
+      "nodes": 859,
+      "coefficient_chunks": [
+        {
+          "file": "2026-11-12-strong-first675-q0775-m20_coeff_00.npy.gz",
+          "state_first": 0,
+          "state_last_exclusive": 61,
+          "bytes": 2444062,
+          "sha256": "79498622f124ca1c82ee62e43146f9dbb7a05525bb30d5e12e910ea25c84b5e7"
+        }
+      ]
+    },
+    {
+      "file": "notes/2026-11-12-root-q0775-fixed-tol7-checkpointed.json.gz",
+      "sha256": "55e74a280f52a9e50e62658d3c7318a9b906dbe3b363bccca4d5a1d8162b81f5",
+      "modes": 20,
+      "angular": 512,
+      "tol": 1e-07,
+      "nodes": 1634,
+      "coefficient_chunks": [
+        {
+          "file": "2026-11-12-root-q0775-fixed-tol7-checkpointed_coeff_00.npy.gz",
+          "state_first": 0,
+          "state_last_exclusive": 56,
+          "bytes": 4270430,
+          "sha256": "cb7a3b79aa5d06c5f6d600e937995ddee933a92c1605c2188383d09d042272e8"
+        },
+        {
+          "file": "2026-11-12-root-q0775-fixed-tol7-checkpointed_coeff_01.npy.gz",
+          "state_first": 56,
+          "state_last_exclusive": 61,
+          "bytes": 377765,
+          "sha256": "178276e701adbe56fd7bfd88bbcaf93936b632b515882841a5eeeec78eacc47e"
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "maximum_material_point_displacement_sample": {
+        "distance": 1.1824942782597787e-08,
+        "s": 0.12508548409526293,
+        "psi": 1.5707963267948966
+      },
+      "rms_point_displacement_sample": 3.3625418153938986e-09,
+      "mean_height_difference_max": 8.244007698721134e-10,
+      "radial_samples": 9051,
+      "angular": 512,
+      "interior_interval_fractions": [
+        0.5,
+        0.21132486540518713,
+        0.7886751345948128
+      ],
+      "physical_material_jet_differences_max_sample": {
+        "s": {
+          "value": 4.063954573595847e-08,
+          "s": 0.9464735747739939,
+          "psi": 4.945554060143307
+        },
+        "theta": {
+          "value": 2.386242701759753e-08,
+          "s": 0.0,
+          "psi": 5.460971604872882
+        },
+        "ss": {
+          "value": 0.0001662547730708968,
+          "s": 2.204245809168851,
+          "psi": 5.240078371417351
+        },
+        "s_theta": {
+          "value": 5.098890742185564e-07,
+          "s": 0.9469165601203536,
+          "psi": 1.2885438618239387
+        },
+        "theta_theta": {
+          "value": 4.1444310504661136e-07,
+          "s": 0.0,
+          "psi": 2.8961557275280905
+        }
+      },
+      "scope": "Physical points and two jets at identical fixed material angle theta and physical s, including height mean jets; sample comparison, not a Hausdorff or continuum error certificate.",
+      "previous_file": "notes/2026-11-12-strong-first675-q0775-m20.json.gz",
+      "current_file": "notes/2026-11-12-root-q0775-fixed-tol7-checkpointed.json.gz"
+    }
+  ],
+  "seconds": 119.81162705499446
+}

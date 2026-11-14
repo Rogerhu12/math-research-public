@@ -1,0 +1,27 @@
+{
+  "schema": "completed-local-fixed-A-radial-refinement-record-v1",
+  "finished": true,
+  "actual_readout_exit_code": 0,
+  "actual_metric_exit_codes": {
+    "1": 0,
+    "2": 0,
+    "4": 0
+  },
+  "source_g_H_modes_and_solver_steps_unchanged": true,
+  "source_readout": "computations/exact_20261114_radial_perturbation_readout.mjs",
+  "source_metric": "computations/exact_20261114_background_preserving_metric.py",
+  "large_sidecar_location": "/workspace/scratch/ffc1334c1988/exact-work/A-radial4-steps12-r1",
+  "large_sidecars_retained_in_git": false,
+  "files": {
+    "metric-1.json": "1b84e2b64299bb53cebb4c872b44495f80b13fdf7234219ef769339808ebc2d4",
+    "metric-2.json": "c6b4fab2f50e264e7060ae30bb4afa1dbd5f5a3243080446956d0c4ddc91b9af",
+    "readout-result.json": "8939b77f121cec4402ea39e21bbf496c927334c20918955030ae7c064091504f",
+    "metric-4.json": "b456fd7ffdcddad8ef2797bc7ec9a55969cfe22bfcb39abc9a79cea4e879d3af"
+  },
+  "scope": "Actual process completion observed through the owned tool sessions; numerical finite reconstruction only. This is not a wait4 or interval certificate.",
+  "limits": [
+    "Radial samples cover the full finite annulus but are not a continuous supremum proof.",
+    "These are actual RK interior states with fixed old shooting endpoint data, not a new BVP.",
+    "No closed-surface or full-time amplitude/reach claim."
+  ]
+}

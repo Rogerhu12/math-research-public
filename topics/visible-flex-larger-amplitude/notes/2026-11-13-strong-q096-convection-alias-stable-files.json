@@ -1,0 +1,30 @@
+{
+  "schema": "visible-flex-stable-small-text-files-v1",
+  "scope": "Actual exact fixed-chart convection alias coefficients, conditional on actual field norms; no full mean or physical surface claim.",
+  "files": [
+    {
+      "path": "computations/strong_q096_convection_alias_exact.js",
+      "bytes": 6967,
+      "sha256": "0d45f9dd3c525e567050e410d35b9cb8cb5b05e11c010a4e3cf77b7e5293c5ad",
+      "blob": "7aa1c8d1d2bd1a9a4d2d6c79ddc17132cf5ed16a"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q096-convection-alias-exact.json",
+      "bytes": 17632,
+      "sha256": "7f1774cbebacd0c0957c3120c1ffbb9b0404933f8e5b6dbcace31515cfc925e6",
+      "blob": "6589d89e511b2bcf1e7502d005f71b54b2f124b2"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q096-convection-alias-exact.md",
+      "bytes": 5077,
+      "sha256": "8b10cddbdb12bc0f6d1d006758892e7081d4b42691b40f8a53aa31093a70837a",
+      "blob": "766c7b179a90c5a4b76155f9604f7f91744d8e04"
+    }
+  ],
+  "all_checks_passed": true,
+  "check_count": 8,
+  "physical_RHS_calls": 0,
+  "Node_workers": 0,
+  "newton_solves": 0,
+  "frozen_runtime_modified": false
+}

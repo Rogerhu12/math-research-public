@@ -1,0 +1,64 @@
+{
+  "schema": "accepted-current-M32-nine-geometry-source-interface-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "classification": "source preparation / API and units; no new field or accepted solution",
+  "files": [
+    {
+      "path": "computations/root_geometry_anchor_current_interfaces.py",
+      "sha256": "8da06d8c7909b55e56bef75e92dceec8e1dd3226b208a80896fa2ce7aaaa0b48",
+      "bytes": 11448,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_anchor_current_interfaces.py"
+    },
+    {
+      "path": "computations/root_actual_geometry_anchor_current_plan.py",
+      "sha256": "1249b26ff641139da2e442eb8cbc84aa7937fc6da298e257d8593efb9d21ea33",
+      "bytes": 430,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_anchor_current_plan.py"
+    },
+    {
+      "path": "computations/root_geometry_anchor_current_reader.py",
+      "sha256": "b69abdc1f615a9d96b65fb187f2e87831bf975f5b2752303db4c10c37f9c3b84",
+      "bytes": 11573,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_anchor_current_reader.py"
+    },
+    {
+      "path": "computations/root_geometry_anchor_current_combined_plan.py",
+      "sha256": "d536e36e54635f7aa31fdf21d7d67c51796fdcb7604b037d475f311ee5779978",
+      "bytes": 515,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_anchor_current_combined_plan.py"
+    },
+    {
+      "path": "computations/root_geometry_anchor_current_interface_prepare.py",
+      "sha256": "f0cb744b375c614d3ea89b6bca74f8f31329e5f79bbce4a9e4c01a27050ded98",
+      "bytes": 7125,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_anchor_current_interface_prepare.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-m32-nine-geometry-interface-r1-preparation.json",
+      "sha256": "fc9d5634e6ea5add5da920dca81178b31da11622b77d17d5028dd106de954e21",
+      "bytes": 25722,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/current-m32-nine-interface-r1/preparation.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-m32-nine-geometry-interface-r1-resource.json",
+      "sha256": "26937c8f2eee4cc57f867f931a1db86c4b66c23db9dc1458db289d9144e8e17b",
+      "bytes": 1402,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/current-m32-nine-interface-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-current-m32-nine-geometry-interface-r1-proof.md",
+      "sha256": "8d6125b1552c74ed2fbbc3fc6bc504cae0782393234accf2f96e599e7a0efbcf",
+      "bytes": 5839,
+      "original_path": "/workspace/scratch/d1aa462cfc02/geometry-work/current-m32-nine-interface-r1/proof.md"
+    }
+  ],
+  "total_bytes": 64054,
+  "actual_owned_resource_sha256": "26937c8f2eee4cc57f867f931a1db86c4b66c23db9dc1458db289d9144e8e17b",
+  "actual_source_preparation_sha256": "fc9d5634e6ea5add5da920dca81178b31da11622b77d17d5028dd106de954e21",
+  "actual_geometry_fields_generated": 0,
+  "new_ODE_Node_Jacobian_calls": 0,
+  "original_frozen_sources_modified": false,
+  "original_partial_or_coarse_fields_promoted": false,
+  "planned_actual_current_fields": 19,
+  "expected_M32_mean_angles": 1552
+}

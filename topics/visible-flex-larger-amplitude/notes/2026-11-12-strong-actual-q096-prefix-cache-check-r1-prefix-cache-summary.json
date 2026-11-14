@@ -1,0 +1,23 @@
+{
+  "scope": "Lossless, complete-input persistence of actual prefix fun/fun_jac calls.\n\nThis does not cache BCs, Newton decisions, RMS tests, or nonlinear tail work.\nOne immutable entry contains every input and both Jacobian outputs. A hit\nrestores the original selected parameters and baseline Flow before returning\narrays with the recorded dtype, layout and bytes. Diagnostic evaluation counts\nand the warmth of internal memoization tables are deliberately not replayed.\n",
+  "configuration": {
+    "directory": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-q096-prefix-call-cache",
+    "budget_bytes": 201326592,
+    "inspect_output": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-actual-q096-prefix-cache-check-r1-check.json"
+  },
+  "identity_sha256": "6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80",
+  "cache_directory": "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-q096-prefix-call-cache/6d879d5dd2101cee8e9b15e8b07b01c5aebbc161d5ade458d1d6d322c666ca80",
+  "statistics": {
+    "hits": 8,
+    "misses": 9,
+    "completed_writes": 9,
+    "bypassed_size": 0,
+    "bypassed_budget": 0,
+    "write_errors": 0,
+    "restored_baseline_Flow": 8
+  },
+  "observed_cache_bytes": 199911,
+  "seconds": 4.939797243001522,
+  "no_boundary_tail_or_final_acceptance_cached": true,
+  "source_sha256": "97a2b5b0eccbef3a9645167b2c91c73503a820507136b10bfdb300a97df7f6ea"
+}

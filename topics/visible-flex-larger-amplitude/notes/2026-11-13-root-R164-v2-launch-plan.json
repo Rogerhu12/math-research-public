@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-13T17:14:47.690893+00:00",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs-v2/root_R164_wide_nonlow_low_feedback_v2.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/input-manifest.json",
+    "--out-prefix",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R164-wide-nonlow-feedback-r2",
+    "--cycles",
+    "4"
+  ],
+  "source_sha256": "00c7d48b66e6e87d8e8de6d0174aa51f41e00cd832c033b6ec16a6d601fff5fd",
+  "input_manifest_sha256": "8a31c7aa9aab0e2d93b667b1f07c4d7201b36eba5553da7af7b38efced1dfa13",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_wall_seconds": 180,
+    "planned_peak_rss_mib": 640
+  },
+  "prior_actual_failure": {
+    "source_sha256": "4181b8762b578e7c0c3633b22890be387afce035167482942a7272398bf70d3c",
+    "resource": "/workspace/scratch/d1aa462cfc02/root-work/r127/R164-wide-nonlow-feedback-r1-resource.json",
+    "reason": "Original joint low schema has no comparison_partition; actual partition is in already checked nonlow schema. Failed before new feedback arithmetic."
+  },
+  "change": "Read the actual original nonlow comparison partition; no numeric loop or mathematical bound changed."
+}

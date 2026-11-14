@@ -1,0 +1,80 @@
+{
+  "schema": "sole-publisher-canonical-small-pack-maintenance-v1",
+  "source_sha256": "261a4a25b83061bff2516665a9e8ef15b39fdd94d89dd1537daf56cb21691ec9",
+  "start_utc": "2026-11-13T17:58:43Z",
+  "initial_refs": "refs/heads/main ef16eeb1a0d7181c93e06297a3a650b33e2a7458\nrefs/remotes/origin/main 1ccbb87b431b0f93260aa7b7305436fba5483ebf\n",
+  "initial_inventory": [
+    {
+      "index": "pack-13631847cae414cf45d9ebe546a9083db8e3eed1.idx",
+      "objects": 52,
+      "pack_bytes": 782775,
+      "index_sha256": "325852cddcd602b7bf62c7d53f81a91f66cb40470cee5d714c720370f89b561c",
+      "pack_trailer_sha1": "13631847cae414cf45d9ebe546a9083db8e3eed1"
+    },
+    {
+      "index": "pack-44e397627940604b46382b5db188d0ba235af671.idx",
+      "objects": 23,
+      "pack_bytes": 179201,
+      "index_sha256": "f128b3a84def8ce98d770ee408e8a5387cd7dd6fe505a13c35366adb834554a9",
+      "pack_trailer_sha1": "44e397627940604b46382b5db188d0ba235af671"
+    },
+    {
+      "index": "pack-47660adf468462e3d7fd522fb78c5fa71faa9be9.idx",
+      "objects": 202633,
+      "pack_bytes": 1077751965,
+      "index_sha256": "e2409073eeed2892b95e4dc40da54baa04ae3820eb7551130ec3c50a46795831",
+      "pack_trailer_sha1": "47660adf468462e3d7fd522fb78c5fa71faa9be9"
+    },
+    {
+      "index": "pack-9420a98bcc87f104c3474bae1301c107f2edd1a1.idx",
+      "objects": 13827,
+      "pack_bytes": 1057705681,
+      "index_sha256": "78e8d4444b6d4d08ee3c3cd11ff976e8f4f6aeb4a80b3daef108cc1002d48204",
+      "pack_trailer_sha1": "9420a98bcc87f104c3474bae1301c107f2edd1a1"
+    },
+    {
+      "index": "pack-cfeacbab25c5d3024f46b3d7aa1ea6f705f22d58.idx",
+      "objects": 64,
+      "pack_bytes": 463658,
+      "index_sha256": "e9d81ebb6a6fb6a0accf5fa141a66cdcba5138053318bceaf3fa2ff90b57b210",
+      "pack_trailer_sha1": "cfeacbab25c5d3024f46b3d7aa1ea6f705f22d58"
+    }
+  ],
+  "original_oid_count": 208376,
+  "original_oid_sha256": "26185eb1000c6b72e954827cd3781b15a50bdb6f4de8c25dfa04f5488f0dd0b5",
+  "free_before": 439754752,
+  "steps": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "pack.threads=1",
+        "-c",
+        "pack.window=0",
+        "multi-pack-index",
+        "write",
+        "--preferred-pack=pack-47660adf468462e3d7fd522fb78c5fa71faa9be9.pack",
+        "--stdin-packs"
+      ],
+      "exitcode": -15,
+      "wall_seconds": 0.002668443994480185,
+      "disk_reserve_cancelled": true,
+      "log": "/workspace/scratch/d1aa462cfc02/publisher-owned-generic-rejection-recovery-20261113T1800-write.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "free_after": 393113600
+    }
+  ],
+  "renames": [],
+  "before_midx_write": {
+    "pack_count": 5,
+    "pack_bytes": 2136883280,
+    "oid_count": 208376,
+    "oid_sha256": "26185eb1000c6b72e954827cd3781b15a50bdb6f4de8c25dfa04f5488f0dd0b5",
+    "all_original_oid_bytes_and_ref_tips_identical": true,
+    "free_bytes": 439791616
+  },
+  "prior_midx_backup": {
+    "path": "/workspace/scratch/d1aa462cfc02/publisher-owned-generic-rejection-recovery-20261113T1800-prior-midx.bin",
+    "sha256": "cc8e33723f89a874d73646204876efa5dd531f784715289de210455920297130"
+  }
+}

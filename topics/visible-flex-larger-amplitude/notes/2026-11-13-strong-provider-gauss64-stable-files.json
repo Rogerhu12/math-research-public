@@ -1,0 +1,55 @@
+{
+  "schema": "strong-provider-gauss64-stable-text-v1",
+  "created_utc": "2026-11-13 00:19:20 UTC",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "files": [
+    {
+      "path": "computations/strong_exact_rational_fast.js",
+      "sha256": "ac4a3e419e064c23a2eb42a1cb626507866d5e74e0ef608313fb887f8dbfcb80",
+      "bytes": 1932,
+      "blob_sha": "4fcc910936b97b91e6dd100c6cf149bd637eda74",
+      "status": "exact arithmetic; 49 four-operation cases, zero/sign and large dyadic reduction actually checked"
+    },
+    {
+      "path": "computations/strong_provider_gauss64_exact.js",
+      "sha256": "6f99ef2a04b6c6773ced73bb93faf340e246148d9b88604f7e7d8c29cda7454a",
+      "bytes": 12660,
+      "blob_sha": "021fb03004c1d0fd58e327ae2addc1acafd71bfc",
+      "status": "actual pure rational reference rule and conditional primitive constants; actual table comparison prepared"
+    },
+    {
+      "path": "computations/strong_provider_gauss64_table.py",
+      "sha256": "3b8f3cfd1bb38b5ab504691e77d203495c9caf98debc01a7b98c7a9c57d2844b",
+      "bytes": 3958,
+      "blob_sha": "ff4538ed405603501b20eec304edc0e2a8da50a2",
+      "status": "prepared local exact-binary table observation; not executed"
+    },
+    {
+      "path": "notes/2026-11-13-strong-provider-gauss64-exact.json",
+      "sha256": "426115502492b77eb9597a1816d96141016b4e77f0e9896400e74a54af669ba8",
+      "bytes": 83760,
+      "blob_sha": "88da55c1bdad922f1e5167f4c6cd8f96806eb04b",
+      "status": "11 actual certificate groups passed; all64 root/weight intervals; no actual NumPy table or neck claim"
+    },
+    {
+      "path": "notes/2026-11-13-strong-provider-gauss64-interface.md",
+      "sha256": "2d1f4d60202d6828a566232a0f01892b44452d95ebb629946a6b22e69f157dfe",
+      "bytes": 7866,
+      "blob_sha": "5b65b497363b115133300ef957ec190d59b86b57",
+      "status": "full reference-rule, derivative/quadrature proof and remaining same-g/profile obligations"
+    }
+  ],
+  "all_mjs_unchanged": true,
+  "physical_RHS_calls": 0,
+  "tail_workers": 0,
+  "newton_solves": 0,
+  "new_M28_started": false,
+  "actual_completed": "Exact reference Legendre64 roots/positive weights and four normalized polynomial moments; conditional phase primitive constants.",
+  "not_completed": "Original local or accepted-CI NumPy table, actual neck phase bounds, floating evaluations, exact segment seams and full profile boxes.",
+  "prior_attempt": "An earlier pure arithmetic attempt was deliberately terminated before certificate return; the completed calculation uses exact binary-factor gcd reduction and outward final interval packing.",
+  "gate_status": {
+    "M28_remains_priority": true,
+    "old_q096_accepted_solve_not_repeated": true,
+    "no_new_approval_gate": true
+  }
+}

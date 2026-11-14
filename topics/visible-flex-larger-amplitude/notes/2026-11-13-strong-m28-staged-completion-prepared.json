@@ -1,0 +1,49 @@
+{
+  "scope": "Prepared only: bind the already solved original M28 spectral run to staged full-audit/physical completion. No original Newton or completed physical calculation has been rerun.",
+  "path": "notes/2026-11-13-strong-m28-staged-completion-prepared.json",
+  "source": {
+    "path": "computations/strong_sameg_m28_complete.py",
+    "blob": "5e4397f3f33e2ed92cad5701abd6ff4047f9e1c5",
+    "sha256": "905e256ab7e51364fe36cefb293f9d8198eae96ac2dca72e08d91993eeb48da1",
+    "bytes": 18319
+  },
+  "original_postprocessor_unchanged": {
+    "path": "computations/strong_sameg_m28_postprocess.py",
+    "sha256": "80044bf34cb90b104149e4c212647f322dce1d59dac6fe1ba7723d8ba60b5277"
+  },
+  "actual_problem_found": "The prepared postprocessor preserves the physical gates but never invokes the final metadata block in strong_sameg_spectral_refinement.py. Both the numerical same-g comparison and the continuous finite-field comparison correctly reject an output without a completed same_g_spectral_refinement provenance chain. A naked True label would not explain or verify staged completion.",
+  "exact_original_text_inputs_read": {
+    "plan": {
+      "path": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-spectral-plan.json",
+      "sha256": "625be5f52341af64198d70722ae7c7c3922e3bef678effedc425560021e582e0"
+    },
+    "live_warm_verification": {
+      "path": "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-spectral-warm-verified.json",
+      "sha256": "0021c30166d833f94a437656c3ca884549a1957b4133abd7b88dd8b34f1281d2"
+    }
+  },
+  "chain_checked_before_postprocess": [
+    "Original fixed reference, fixed raw and actually executed27-to24 report hashes; every original fixed-view invariant.",
+    "Original baseline/new-tail configs: only M24toM28 and the four I/O fields changed.",
+    "Original complete warm raw source plan/fixed raw/live identity bindings.",
+    "Actual x/y/p/cubic/RMS24to28 spectral embedding replayed bitwise; all12 new state channels and4 parameters initially exact zero.",
+    "Original actual basis 0/1/2-order equality record and complete warm H bitwise match.",
+    "Original2181 t nodes retained bitwise in accepted2208; complete accepted/pending five arrays equal; full metric/profile/gauge/length/reference and physical tail data equal.",
+    "No old warm RMS is used to accept the new M28 state."
+  ],
+  "chain_checked_after_original_postprocess": [
+    "Original physical primary and summary are both solver_success true and audit_pending false.",
+    "Exact source-bound bounded C2 and complete-mean equivalence records exist; original raw-restoration count is at least2; no entry error.",
+    "Original staged RMS/inlet/truephysicalBC acceptance passed with exact fullH audited packet SHA.",
+    "All fixed physical data, both chart definitions and full tail config match the original fixed metric.",
+    "Final written raw x/y/p/cubic remain bitwise the accepted original M28 state; final recomputed RMS passes1e-7.",
+    "Every written physical coefficient part exists with its recorded SHA and bytes."
+  ],
+  "provenance": "Only then attach same_g_spectral_refinement with execution_mode explicitly staged completion, historical spectral entry/plan/warm record, current full source chain, and zero repeated Newton/Node. The already audited tail packet is clearly reused, not called a new independent audit.",
+  "invocation": "Use computations/strong_sameg_m28_complete.py in place of strong_sameg_m28_postprocess.py with the same exact original arguments after obtaining a genuinely successful complete M28 tail audit. It invokes the unchanged bounded postprocessor.",
+  "metadata_only_recovery": "--attach-completed-only is permitted only for an already completed original physical package and rechecks the same full provenance/array/coefficient/acceptance chain; it cannot accept raw-only or un-audited data.",
+  "subsequent_actual_comparison_interface": "strong_sameg_actual_comparison.py uses --design <fixed24> --actual <completeM28>, not --coarse/--fine. The continuous exact field consumer separately uses --coarse/--fine.",
+  "no_new_MJS_or_math_or_acceptance_changes": true,
+  "Python_compile_or_runtime_executed": false,
+  "final_physical_M28_status": "Still pending; no marker has been attached to any scientific output."
+}

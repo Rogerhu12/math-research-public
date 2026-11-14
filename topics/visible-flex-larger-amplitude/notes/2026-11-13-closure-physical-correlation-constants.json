@@ -1,0 +1,58 @@
+{
+  "schema": "visible-flex-physical-correlation-complete-mean-constants-v1",
+  "status": "Actual V8 BigInt universal comparison, complete complex small-root algebra",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "all_gates": true,
+  "gates": {
+    "complex_small_root_domain_r_below_1over32": true,
+    "full_quotient_denominator_positive": true,
+    "full_cubic_remainder_below13": true,
+    "full_remainder_derivative_below60": true,
+    "no_large_inner_balance_assumed": true,
+    "exact_quadratic_constant_preserved": true
+  },
+  "scope": "Physical nonmean(P,Kbar), all signed nonzero even modes, fixed real0<w<=1/2, R<=1/64; no inner B>=120 assumed",
+  "values": {
+    "Rmax": {
+      "numerator": "1",
+      "denominator": "64"
+    },
+    "Emax": {
+      "numerator": "5",
+      "denominator": "4"
+    },
+    "denominator": {
+      "numerator": "1003",
+      "denominator": "1024"
+    },
+    "Q_coefficient": {
+      "numerator": "23",
+      "denominator": "18"
+    },
+    "DQ_coefficient": {
+      "numerator": "23",
+      "denominator": "9"
+    },
+    "full_cubic_coefficient": {
+      "numerator": "36640",
+      "denominator": "3009"
+    },
+    "cubic_slack_to13": {
+      "numerator": "2477",
+      "denominator": "3009"
+    },
+    "complete_remainder_derivative_coefficient": {
+      "numerator": "177343168",
+      "denominator": "3018027"
+    },
+    "derivative_slack_to60": {
+      "numerator": "3738452",
+      "denominator": "3018027"
+    }
+  },
+  "complete_mean_root_retained": true,
+  "complete_mean_derivative_retained": true,
+  "complete_denominator_retained": true,
+  "nonmean_projection_after_full_product": true,
+  "new_actual_outer_solution_or_new_Green_kernel_claimed": false
+}

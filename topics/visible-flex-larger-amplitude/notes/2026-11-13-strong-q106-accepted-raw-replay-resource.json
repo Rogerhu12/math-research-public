@@ -1,0 +1,22 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "python",
+    "computations/strong_gzip_chunk_recovery.py",
+    "--recipe",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2-exact-raw-gzip-recovery.json",
+    "--archive-topic",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude",
+    "--output-directory",
+    "/workspace/scratch/d1aa462cfc02/strong-work/q106-accepted-gzip-restored",
+    "--report",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q106-accepted-raw-replay-report.json"
+  ],
+  "wall_seconds": 0.531529426574707,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 39396,
+  "user_seconds": 0.22461899999999999,
+  "system_seconds": 0.12903799999999999,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

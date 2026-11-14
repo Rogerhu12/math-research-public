@@ -1,0 +1,32 @@
+{
+  "scope": "Input identity check only, with no Flow, RHS, Jacobian assembly, Node or BVP.",
+  "full_height_bitwise_equal": true,
+  "modes": 20,
+  "angular": 512,
+  "nodes": 911,
+  "actual_primary_amplitude": 0.08499998997227064,
+  "gauge": 0.085,
+  "raw_fixed_parameter_layout": "p0=log(actual_q/gauge_q); p1=(q4-reference_q4)/gauge_q^2; p2..=higher support/recorded scale",
+  "raw_tolerance": 1e-06,
+  "tail_jacobian_method": {
+    "slope": "analytic actual shooting tangent plus exact cut chain rule",
+    "meanSlopeCorrection": "analytic actual shooting tangent plus exact cut chain rule",
+    "second": "source symmetric difference on actual tangent graph",
+    "meanSecondCorrection": "source symmetric difference on actual tangent graph",
+    "height": "source symmetric difference; mathematically identity",
+    "sourceSecondDifferenceStep": 0.0001
+  },
+  "tail_residual": 1.1564059929048096e-10,
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_actual_fixed_control_response.py": "4e18b8d0dd111c238c29dd878ced4deb27142a4509b463a276c588dd121a15cc",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted.json.gz": "493bd60833db5d0cb4bba8020e0223e7f55675f19a17faf026033f468f5b9457",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-raw-collocation.json.gz": "3a21c4b2ce4988f5e87e6a6180bc5d946b27bbe5e1137a986e38fb3b5fcd40e6",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-frozen-recovered-audit-response_0001.json.gz": "b667b7b24fd60756c341132fd14d9fe2a15857a96eb4d6598186f86741e4d091",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-raw-collocation-x-000.npy.gz": "c6abbddcff8261775527ef14e83c18b2470878503948b81c7473af712a964dd0",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-raw-collocation-y-000.npy.gz": "d3e0e4fe8154ef43334ff84afca1722ac2df0c8964a447a5078ce5f47c96837c",
+    "notes/2026-11-12-root-vu032-q085-fixed-actual-m20-recovered-accepted-raw-collocation-p-000.npy.gz": "e9ad2cd698942bd4390ab8a37c4bf765a66df3efbd71d28dfebd15587e9dfdf5"
+  },
+  "metadata_only": true,
+  "actual_full_jacobian_run": false,
+  "inspection_only": true
+}

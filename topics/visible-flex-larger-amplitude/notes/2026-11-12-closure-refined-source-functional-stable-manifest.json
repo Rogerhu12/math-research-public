@@ -1,0 +1,115 @@
+{
+  "status": "Complete immutable same-candidate source replay and both true terminal functionals",
+  "files": [
+    {
+      "path": "computations/closure_outer_refined_moment_source.py",
+      "bytes": 17299,
+      "sha256": "67a736057b18d99a6b2383fbd080dc887430c698de01404e1d441aa6a9f4b134"
+    },
+    {
+      "path": "computations/closure_two_cell_refined_source_reweight.py",
+      "bytes": 12120,
+      "sha256": "3a14e3d595988d84db69d820f346202c4f0adaa4c2b5cd3a11ad53613362b804"
+    },
+    {
+      "path": "results/R79-refined-source-and-two-cell-boundary-functional.md",
+      "bytes": 8127,
+      "sha256": "e5506385df370c196af5390fa5838dfd447f12d466a6675c6d1fe6c969735935"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+      "bytes": 27426,
+      "sha256": "bf4061ba1ca5295245165099d274b637630d16418a9e5283dd58898fb184e0c9"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-resource.json",
+      "bytes": 1403,
+      "sha256": "619da2b30f577492b29a90894958133f3f133ea01c381a0d695e0983c74a7c76"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-recovery.json",
+      "bytes": 12724,
+      "sha256": "f839a5ce3e062820d7b4ae89a0d3d5da873f9bcd7a3030d1584fa8b081456270"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-plan.json",
+      "bytes": 1057,
+      "sha256": "e1bc7616c8bc419ffdcd32e9c6265dcb33bd8a89882641164f1dc9d647ae2652"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment0.json.gz",
+      "bytes": 1703,
+      "sha256": "9fcdb2a1456a7edde25ad5a08afda3e0df4a1d2add8243601b09f395cecf8603"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment1.json.gz",
+      "bytes": 947076,
+      "sha256": "63dacf74fd9d0e08af6e484d95661ee2fbd2fab2d3ceb4fdf238fe47d9476d61"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment2.json.gz",
+      "bytes": 15731,
+      "sha256": "85b3ab6692dcdedb2ff4778d91a3d0aa84eb9100a680687289b11d975ecb7bf7"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment3.json.gz",
+      "bytes": 1742002,
+      "sha256": "d06834be43e6fbf97a335255beae8cb24e3dd82c75ad047a1cc823b088ac1654"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment4.json.gz",
+      "bytes": 16839,
+      "sha256": "5dad9ea5f0f3a846f69184c4e66017cc6fe521727f54319b21905eca9b39d1e8"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment5.json.gz",
+      "bytes": 1696559,
+      "sha256": "3ac509278b46ff40d1904f20cc530cafb2ab0e4114d4e6eb92e10b31addd2175"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment6.json.gz",
+      "bytes": 15697,
+      "sha256": "c4c5c4a94a627c226290e02a51f2324ecfe6f847f872d7d1cc0a7b67c7afe7d2"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment7.json.gz",
+      "bytes": 711425,
+      "sha256": "ee62e7066a59953081320674950f0a7ae096966717ac4d7177b60bdbad587b2f"
+    },
+    {
+      "path": "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-segment8.json.gz",
+      "bytes": 1673,
+      "sha256": "593b0b24d0920046041531e8c3dc6e4de43ecb5aded8c8214a514c66e9fc4f91"
+    },
+    {
+      "path": "notes/2026-11-12-closure-two-cell-refined-source-reweight-r1.json",
+      "bytes": 134967,
+      "sha256": "900a497590f7a1c030843fcd816ac3abe863c527657b38c99539ce4c7cb62e05"
+    },
+    {
+      "path": "notes/2026-11-12-closure-two-cell-refined-source-reweight-r1-resource.json",
+      "bytes": 1362,
+      "sha256": "6350795acbfa330405071a45ceb18027926f8caf45ada2bc7746ddd8b732ec6a"
+    },
+    {
+      "path": "notes/2026-11-12-closure-two-cell-refined-source-reweight-r1-plan.json",
+      "bytes": 1068,
+      "sha256": "d076a04afb6afb7cf324880803ca98838afff2a1af4fd7cb3313131da304586e"
+    }
+  ],
+  "formal_tool_sessions": [
+    84530,
+    37292
+  ],
+  "wait4_exitcodes": [
+    0,
+    0
+  ],
+  "all_original_panels": 10793,
+  "all_gates": true,
+  "explicit_R63_actual_low_far_supplement": true,
+  "same_metric_candidate_all20_modes_and_endpoint_jets": true,
+  "full_outer_matching_or_contraction_claimed": false,
+  "original_R72_m4_axis_gate_remains_false": true,
+  "actual_R74_two_axes_gate": true
+}

@@ -1,0 +1,349 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "scope": "Read the completed same-candidate streams and check exact coverage.\n\nOnly stdlib integers/Fractions are used.  This does not repeat the Arb source\nevaluation.  It verifies the preserved stream hashes, all source intervals,\npositive recorded root/denominator bounds, the complete signed finite\nspectrum, and a per-panel minimum of the two separately valid physical\ndefect bounds.  All directed dyadics remain exact.\nAuthor: tail_refinement (GPT-6 Astra Pro, AI-assisted), 2026-11-12.\n",
+  "status": "Exact stored-evidence coverage checks passed",
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1.json": "29dd40c6aa58bdaf4f5bb0ea90a7910778570544abc8b2a33dcb14a33b92134e",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-resource.json": "0e56ef9279b3c09917e4b5eb33c3aa3d3e0607186d8eee878e544c15ac2908fc",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-part00.jsonl.gz": "637299d76fb520832bdd9a62242cab75cf420eec695fee75b95a6e2c6441335b",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-part01.jsonl.gz": "4f60d61df99bb767452f763f20ddd95ce9daae84a7f7d96fd5de3ea66c6c0f18",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-part02.jsonl.gz": "6bce343b6d61512ceb7338815915a360b2fbfc8d9c39b042d85c23f00250e640",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-part03.jsonl.gz": "d7614df7b9a15114a42f05e716902726b1bafaed4245ed0bec35ae87832c0d23",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-part04.jsonl.gz": "ea16e00905d6d81b39b7e95385b74eb56fb8fb7809b46e2c2609dd4f449583b5",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-part05.jsonl.gz": "6429e7cb588baa9336f165a7f53e9ce2a2ddcb588a6eda667392343ff962121a",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-part06.jsonl.gz": "c7bfa6125afbc6a5bf7d0abf92862a26beef99c7b07141f84b4ec970db1ed3d7",
+    "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-part07.jsonl.gz": "0572ec24093892ed7b0fcb2cb2893c57e27894c18a519f6bd9caf7f52ccd13e4"
+  },
+  "source_sha256": "cb8714409d0fbe6209b58cd2de867fd79e785464089e8ba151163b16ddfb6262",
+  "formal_numerical_resource": "notes/2026-11-12-tail-outer-cell0-seg1-substage-span2-centeredJ-r1-resource.json",
+  "cell": 0,
+  "segment": 1,
+  "complete_parts": 8,
+  "complete_positive_bins": 64,
+  "continuous_panels": 1095,
+  "parts": [
+    {
+      "part": 0,
+      "left": "0",
+      "right": "1/8",
+      "accepted_panels": 32,
+      "panels_by_bin": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "per_panel_minimum_global_upper": [
+        548075520529,
+        -55
+      ],
+      "witness": {
+        "segment": 1,
+        "part": 0,
+        "bin": 7,
+        "source_left": "31/256",
+        "source_right": "1/8",
+        "selected_bound": "complete finite J",
+        "R64_upper": [
+          223650730361,
+          -52
+        ],
+        "complete_J_upper": [
+          548075520529,
+          -55
+        ]
+      }
+    },
+    {
+      "part": 1,
+      "left": "1/8",
+      "right": "1/4",
+      "accepted_panels": 61,
+      "panels_by_bin": [
+        4,
+        4,
+        4,
+        8,
+        8,
+        8,
+        9,
+        16
+      ],
+      "per_panel_minimum_global_upper": [
+        10779923583,
+        -49
+      ],
+      "witness": {
+        "segment": 1,
+        "part": 1,
+        "bin": 2,
+        "source_left": "43/256",
+        "source_right": "11/64",
+        "selected_bound": "complete finite J",
+        "R64_upper": [
+          139403252745,
+          -51
+        ],
+        "complete_J_upper": [
+          10779923583,
+          -49
+        ]
+      }
+    },
+    {
+      "part": 2,
+      "left": "1/4",
+      "right": "3/8",
+      "accepted_panels": 136,
+      "panels_by_bin": [
+        16,
+        16,
+        16,
+        24,
+        16,
+        16,
+        16,
+        16
+      ],
+      "per_panel_minimum_global_upper": [
+        286349953479,
+        -54
+      ],
+      "witness": {
+        "segment": 1,
+        "part": 2,
+        "bin": 7,
+        "source_left": "23/64",
+        "source_right": "369/1024",
+        "selected_bound": "complete finite J",
+        "R64_upper": [
+          114661424563,
+          -51
+        ],
+        "complete_J_upper": [
+          286349953479,
+          -54
+        ]
+      }
+    },
+    {
+      "part": 3,
+      "left": "3/8",
+      "right": "1/2",
+      "accepted_panels": 128,
+      "panels_by_bin": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "per_panel_minimum_global_upper": [
+        672528237481,
+        -55
+      ],
+      "witness": {
+        "segment": 1,
+        "part": 3,
+        "bin": 5,
+        "source_left": "29/64",
+        "source_right": "465/1024",
+        "selected_bound": "complete finite J",
+        "R64_upper": [
+          268617025915,
+          -52
+        ],
+        "complete_J_upper": [
+          672528237481,
+          -55
+        ]
+      }
+    },
+    {
+      "part": 4,
+      "left": "1/2",
+      "right": "5/8",
+      "accepted_panels": 128,
+      "panels_by_bin": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "per_panel_minimum_global_upper": [
+        761899951823,
+        -55
+      ],
+      "witness": {
+        "segment": 1,
+        "part": 4,
+        "bin": 7,
+        "source_left": "39/64",
+        "source_right": "625/1024",
+        "selected_bound": "complete finite J",
+        "R64_upper": [
+          617618157269,
+          -53
+        ],
+        "complete_J_upper": [
+          761899951823,
+          -55
+        ]
+      }
+    },
+    {
+      "part": 5,
+      "left": "5/8",
+      "right": "3/4",
+      "accepted_panels": 128,
+      "panels_by_bin": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "per_panel_minimum_global_upper": [
+        852933245499,
+        -55
+      ],
+      "witness": {
+        "segment": 1,
+        "part": 5,
+        "bin": 3,
+        "source_left": "703/1024",
+        "source_right": "11/16",
+        "selected_bound": "complete finite J",
+        "R64_upper": [
+          343217082199,
+          -52
+        ],
+        "complete_J_upper": [
+          852933245499,
+          -55
+        ]
+      }
+    },
+    {
+      "part": 6,
+      "left": "3/4",
+      "right": "7/8",
+      "accepted_panels": 226,
+      "panels_by_bin": [
+        16,
+        18,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "per_panel_minimum_global_upper": [
+        805098774607,
+        -55
+      ],
+      "witness": {
+        "segment": 1,
+        "part": 6,
+        "bin": 0,
+        "source_left": "3/4",
+        "source_right": "769/1024",
+        "selected_bound": "complete finite J",
+        "R64_upper": [
+          165556818875,
+          -51
+        ],
+        "complete_J_upper": [
+          805098774607,
+          -55
+        ]
+      }
+    },
+    {
+      "part": 7,
+      "left": "7/8",
+      "right": "1",
+      "accepted_panels": 256,
+      "panels_by_bin": [
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32,
+        32
+      ],
+      "per_panel_minimum_global_upper": [
+        298138719789,
+        -53
+      ],
+      "witness": {
+        "segment": 1,
+        "part": 7,
+        "bin": 7,
+        "source_left": "2031/2048",
+        "source_right": "127/128",
+        "selected_bound": "complete finite J",
+        "R64_upper": [
+          468913044339,
+          -52
+        ],
+        "complete_J_upper": [
+          298138719789,
+          -53
+        ]
+      }
+    }
+  ],
+  "per_panel_minimum_global_upper": [
+    298138719789,
+    -53
+  ],
+  "witness": {
+    "segment": 1,
+    "part": 7,
+    "bin": 7,
+    "source_left": "2031/2048",
+    "source_right": "127/128",
+    "selected_bound": "complete finite J",
+    "R64_upper": [
+      468913044339,
+      -52
+    ],
+    "complete_J_upper": [
+      298138719789,
+      -53
+    ]
+  },
+  "actual_stored_rx_ratio_max_exact_fraction": "6691890095/5862459146",
+  "gates": {
+    "formal_actual_exit0": true,
+    "all_stream_hashes_match": true,
+    "exact_complete_source_cover": true,
+    "all_original_bins_present": true,
+    "all_stored_positive_root_and_inverse_margins": true,
+    "full_signed_cosine_spectrum_to_twice_height_cutoff": true,
+    "all_stored_relative_rx_span_gates": true,
+    "two_valid_physical_bounds_minimized_only_on_same_panel": true
+  },
+  "new_Arb_or_source_evaluations": 0,
+  "accepted_exact_outer_solution": false,
+  "elapsed_seconds": 0.42398110500289476,
+  "peak_RSS_KiB": 12160
+}

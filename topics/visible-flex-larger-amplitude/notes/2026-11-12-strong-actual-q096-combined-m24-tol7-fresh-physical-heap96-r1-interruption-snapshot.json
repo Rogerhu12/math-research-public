@@ -1,0 +1,51 @@
+{
+  "scope": "Immutable observation of a tool-session interruption. No process exit code was obtained, no accepted Newton step or final coupled solution exists, and no cause is inferred.",
+  "observation_utc": "2026-11-12T19:07:17.053485+00:00",
+  "session_id": 45096,
+  "poll_result": "Unknown process id",
+  "formal_tool_exit": null,
+  "formal_resource_present": false,
+  "formal_summary_present": false,
+  "raw_phase": "newton-entry",
+  "raw_solver_success": false,
+  "raw_physical_surface": false,
+  "raw_checkpoint": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1-iterate-0001.json.gz",
+  "raw_sha256": "15bb94cdcbf99ff0fb1102e972961e96bf5baafcfcdd8bfa2564d291ef753927",
+  "all_raw_piece_hashes_verified": true,
+  "large_computation_restarted": false,
+  "copies": [
+    {
+      "original": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1.log",
+      "original_bytes": 17256,
+      "original_sha256": "17831363aff046d0a171e7d44097df1a239cf1f54d72895328b61dd28658b74f",
+      "snapshot": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1-interruption-snapshot.log.gz",
+      "sha256": "f740feb3442680104a296237aea5339af7617427c685a057f79735ad97dd61ec",
+      "source_mtime_utc": "2026-11-12T18:47:02.665517+00:00"
+    },
+    {
+      "original": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1-iterate-ledger.jsonl",
+      "original_bytes": 535,
+      "original_sha256": "448ab79d1a7dea78d56708acc1a426c3fe494a0e95d75121a4f3d89b39f92602",
+      "snapshot": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1-interruption-snapshot-iterate-ledger.jsonl.gz",
+      "sha256": "87c314536ad9e77e0b1c832adbcf479c61b5093f821b8fd3a3bcb1aa52cce0d7",
+      "source_mtime_utc": "2026-11-12T18:43:39.193465+00:00"
+    },
+    {
+      "original": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1-latest-iterate.json",
+      "original_bytes": 393,
+      "original_sha256": "ed2fc067b7264ba96d0fff317a15ad3c67a504f7a28eac3f22db3d5c585a029d",
+      "snapshot": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1-interruption-snapshot-latest-iterate.json.gz",
+      "sha256": "cb01240de02296a1bcb347275ebdd47f954da6507ac3b8dc1ffd60d823c257bc",
+      "source_mtime_utc": "2026-11-12T18:43:39.185465+00:00"
+    },
+    {
+      "original": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1-disk-events.jsonl",
+      "original_bytes": 14991,
+      "original_sha256": "c1961166cf24675a2e18e351cbf02d7d0dda916bc3b04feeb0136c1208978c7b",
+      "snapshot": "notes/2026-11-12-strong-actual-q096-combined-m24-tol7-fresh-physical-heap96-r1-interruption-snapshot-disk-events.jsonl.gz",
+      "sha256": "5d83b21b480fdf5a173f3e070b3060b586720151d323f3630e4ea7f015ef4be8",
+      "source_mtime_utc": "2026-11-12T18:47:02.665517+00:00"
+    }
+  ],
+  "disk_available_bytes": 949129216
+}

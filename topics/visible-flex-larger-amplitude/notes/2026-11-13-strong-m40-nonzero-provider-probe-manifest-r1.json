@@ -1,0 +1,71 @@
+{
+  "schema": "strong-small-archive-manifest-v1",
+  "created_utc": "2026-11-13T20:35:44.277199+00:00",
+  "title": "M40 production and saved provider hooks agree on the real nonzero unsolved warm profile",
+  "scope": "Both real loader wrappers from unchanged M40 entry36f73382 run on the actual saved lambda=.064 warm profile. Complete prefix and bridge segments, breakpoints and radius/speed/acceleration samples agree bitwise. This is an interface preparation check only; no accepted nonzero checkpoint, finer field, ODE, Node, Newton or convergence result is fabricated. Actual future nonzero accepted fixed-view and same-g live identity gates remain required.",
+  "owned_exitcode": 0,
+  "owned_wait4": true,
+  "wall_seconds": 3.536205414995493,
+  "peak_rss_kib": 66572,
+  "checks": 16,
+  "Node_ODE_or_J_calls": 0,
+  "future_nonzero_accepted_field_not_fabricated": true,
+  "files": [
+    {
+      "file": "computations/strong_sameg_m40_nonzero_provider_probe.py",
+      "bytes": 5719,
+      "sha256": "31148996e9183389f1901ec77eab159202c0e7016c0db6a68be53fe406486350",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_sameg_m40_nonzero_provider_probe.py",
+      "original_sha256": "31148996e9183389f1901ec77eab159202c0e7016c0db6a68be53fe406486350"
+    },
+    {
+      "file": "notes/2026-11-13-strong-m40-nonzero-provider-probe-r1-heartbeat.json",
+      "bytes": 299,
+      "sha256": "9a6f603f7d743faa465bcb911a6f3721ac21271483b4e6ea9b31fa3687ad6307",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m40-nonzero-provider-probe-r1-heartbeat.json",
+      "original_sha256": "9a6f603f7d743faa465bcb911a6f3721ac21271483b4e6ea9b31fa3687ad6307"
+    },
+    {
+      "file": "notes/2026-11-13-strong-m40-nonzero-provider-probe-r1-ownership.json",
+      "bytes": 1773,
+      "sha256": "258f24c72df7078e0a29929fafdee122640794e2f8a779e396321cb039e59e77",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m40-nonzero-provider-probe-r1-ownership.json",
+      "original_sha256": "258f24c72df7078e0a29929fafdee122640794e2f8a779e396321cb039e59e77"
+    },
+    {
+      "file": "notes/2026-11-13-strong-m40-nonzero-provider-probe-r1-resource.json",
+      "bytes": 1569,
+      "sha256": "3507031a712efa9985a8c7872d34fa1dcd4293f23b2c825ba3b4086a518e5309",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m40-nonzero-provider-probe-r1-resource.json",
+      "original_sha256": "3507031a712efa9985a8c7872d34fa1dcd4293f23b2c825ba3b4086a518e5309"
+    },
+    {
+      "file": "notes/2026-11-13-strong-m40-nonzero-provider-probe-r1.json",
+      "bytes": 14389,
+      "sha256": "42a033d7074d42b5f459e67d69b51ed53c666c9bb1b9ad990cc42277a47e5f41",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m40-nonzero-provider-probe-r1.json",
+      "original_sha256": "42a033d7074d42b5f459e67d69b51ed53c666c9bb1b9ad990cc42277a47e5f41"
+    },
+    {
+      "file": "notes/2026-11-13-strong-m40-nonzero-provider-probe-r1-actual-unsolved-inlet-input.json",
+      "bytes": 33387,
+      "sha256": "486e6b7653e0aaa693f5097d2104abe9673f89752b6a10e83ea0438651028b4e",
+      "original_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/gap-release-tail2-size099-inlet-data-r2-report.json",
+      "original_sha256": "486e6b7653e0aaa693f5097d2104abe9673f89752b6a10e83ea0438651028b4e"
+    }
+  ],
+  "cwd": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude",
+  "resource_command": [
+    "python",
+    "-u",
+    "computations/strong_sameg_m40_nonzero_provider_probe.py",
+    "--inlet-report",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/gap-release-tail2-size099-inlet-data-r2-report.json",
+    "--inlet-sha256",
+    "486e6b7653e0aaa693f5097d2104abe9673f89752b6a10e83ea0438651028b4e",
+    "--port",
+    "computations/alternative-neck-provider-smallcut30-port40-exact-prefix-r4096.json",
+    "--out",
+    "notes/2026-11-13-strong-m40-nonzero-provider-probe-r1.json"
+  ]
+}

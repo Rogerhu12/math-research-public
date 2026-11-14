@@ -1,0 +1,57 @@
+{
+  "scope": "Sample actual C2 axisymmetric loop double-normal chord equations.\n\nThis examines the two loop turns and their connecting coast only. It is\nneither a reach certificate nor a substitute for the complete nonaxis field.\n",
+  "parameters": {
+    "radius": 0.35,
+    "ratio": 1.1,
+    "speed": 0.985,
+    "curvature": 7.5,
+    "samples": 2001
+  },
+  "turn1": {
+    "kind": "turn",
+    "p0": -1.397374005699292,
+    "p1": 1.397374005699292,
+    "length": 0.4050359436809542,
+    "K": 7.5,
+    "turn_ramp": 0.08,
+    "dr": -1.686300864282651e-17,
+    "dh": 0.2686443005964492,
+    "dr_min": -0.12624680742161695,
+    "dr_max": 0.0
+  },
+  "turn2": {
+    "kind": "turn",
+    "p0": 1.397374005699292,
+    "p1": -1.397374005699292,
+    "length": 0.4050359436809542,
+    "K": 7.5,
+    "turn_ramp": 0.08,
+    "dr": 1.686300864282651e-17,
+    "dh": 0.2686443005964492,
+    "dr_min": 0.0,
+    "dr_max": 0.12624680742161695
+  },
+  "coast_length": 0.0355329949238579,
+  "coast_height": 0.006131372461277252,
+  "same_angle_equation_sample_min": 0.035532994923857905,
+  "same_angle_equation_sample_max": 0.2755638391303588,
+  "same_angle_cross_turn_roots": [],
+  "opposite_angle_cross_turn": {
+    "phase": 0.35775720341664574,
+    "first_point": [
+      0.23219525276252256,
+      0.18101206001061568
+    ],
+    "second_point": [
+      0.5028047472374775,
+      0.4557877330683422
+    ],
+    "chord": 0.7846825284816317,
+    "half_chord": 0.39234126424081583
+  },
+  "parallel_descending_line_separation": 0.5413080759237212,
+  "parallel_descending_half_separation": 0.2706540379618606,
+  "local_background_curvature_radius": 0.13333333333333333,
+  "statement": "No cross-turn same-angle root was found on this grid. These partial background checks do not certify continuous reach or exclude other nonlocal bottlenecks.",
+  "source_sha256": "ba586df9d15dd2fedcf334e0306f21131aedf396ada05431502c04b0c86ed87b"
+}

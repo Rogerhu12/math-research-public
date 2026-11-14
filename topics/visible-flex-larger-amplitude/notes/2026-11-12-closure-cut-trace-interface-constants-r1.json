@@ -1,0 +1,88 @@
+{
+  "status": "Exact dyadic/rational cut-interface constants paid; joint and outer-head gates remain separate",
+  "checks": {
+    "all213_same_B_and_real_material_shapes": true,
+    "all213_strong_scale_positive": true,
+    "all213_strong_scale_below18": true,
+    "common_q_cut_strip_minus_outer1over64_above1over8": true,
+    "cut_balance_B_at_least4": true,
+    "q_cut_envelope_below_2minus51": true,
+    "strong_reweighted_cut_envelope_below_2minus46": true,
+    "all_fields_of_physical_norm_at_most2_fit_R0": true,
+    "cauchy_derivative_loss_below3": true,
+    "full_mean_corrected_T_below1over128": true,
+    "forward_connection_eta_below1over32": true,
+    "normalized_Darboux_denominator_above_three_quarters": true,
+    "numerator_A_derivative_below_half": true,
+    "numerator_B_derivative_below_one_eighth": true,
+    "full_radial_second_jet_lipschitz_below144": true
+  },
+  "scope": "Only the fixed q continuous strip and its explicit same-source strong-envelope rescaling at physical node12.",
+  "chosen_outer_strip": {
+    "numerator": "1",
+    "denominator": "64"
+  },
+  "q_cut_strip_lower": {
+    "numerator": "906638403841967895052180654333613742631438328226125039857",
+    "denominator": "6277101735386680763835789423207666416102355444464034512896"
+  },
+  "strip_gap_lower": {
+    "numerator": "808558689226551008117246444595993954879839024406374500593",
+    "denominator": "6277101735386680763835789423207666416102355444464034512896"
+  },
+  "cut_B_lower": {
+    "numerator": "3631406124059090489838405377440176861363633637037134898919",
+    "denominator": "6129982163463555433433388108601236734474956488734408704"
+  },
+  "q_cut_A_upper": {
+    "numerator": "5337120491100543146863516018659241335022509012458714093813",
+    "denominator": "14134776518227074636666380005943348126619871175004951664972849610340958208"
+  },
+  "strong_reweighted_cut_A_upper": {
+    "numerator": "31381020638388664971256272529249709772619726045780247375838241629644577584006193233346909590979143242610720560080463",
+    "denominator": "4888278496679666290655017893047220371908954543623925272770645220254471124660924811618034595246669032446354610565169120299853021184"
+  },
+  "sigma_min": {
+    "numerator": "15814636141623651053798459482228234322310708102740912492576",
+    "denominator": "968295536971301594377733509790638577219535073313050920625"
+  },
+  "sigma_max": {
+    "numerator": "32164736022587496247012767406388675740303525950614829687368",
+    "denominator": "1801612939676888096820737604420442299175558441747561287115"
+  },
+  "R0": {
+    "numerator": "1",
+    "denominator": "256"
+  },
+  "T_upper": {
+    "numerator": "65",
+    "denominator": "16384"
+  },
+  "connection_eta_upper": {
+    "numerator": "1069185",
+    "denominator": "134217728"
+  },
+  "normalized_radial_denominator_lower": {
+    "numerator": "253",
+    "denominator": "256"
+  },
+  "radial_second_jet_lipschitz_upper": {
+    "numerator": "8833",
+    "denominator": "64"
+  },
+  "background_assumption": "R31 exact principal background curvatures <=8 and w<=1/2; therefore |w_r| and E*w/r are <12.",
+  "derivative_statement": "For the same true metric and a complete physical cut difference d, |delta h_rr| <=144*(V(b)/w(b))*d under the declared domains; this is a polar-coordinate jet bound.",
+  "complete_mean": true,
+  "actual_joint_fixed_point_paid": false,
+  "outer_continuous_kernel_paid": false,
+  "operator_solves": 0,
+  "radial_integrations": 0,
+  "input_hashes": {
+    "notes/2026-11-12-tail-r33-plateau2-density-window.json.gz": "0b493a5278ce08d12ed1d83add9dd3214125d971e746c750dfa42efa0729ace9",
+    "notes/2026-11-12-tail-r33-strong-m20-density-window.json.gz": "3dc23cefdaafb0210548d868d85e5f81f231d9069dcec6670b7684dcbd1eb5a3",
+    "notes/2026-11-12-closure-newg-strong-m20-real-reference.json": "d87a6862836c31f9cb72ed9b8ad74c0ee618797e45a83785c8206a83455233cb"
+  },
+  "source_sha256": "e3160cbbf844c380e514ce601c99ea54f87b32e6d39a2485351726297cebb2c2",
+  "elapsed_seconds": 0.4504652180003177,
+  "peak_RSS_KiB": 24360
+}

@@ -1,0 +1,44 @@
+{
+  "finished": true,
+  "new_solution": false,
+  "preparation_only": true,
+  "worker_started": false,
+  "runs": [
+    {
+      "label": "full",
+      "returncode": 0,
+      "record_sha256": "cc5806c238e47c2168c83df7c0769062af3e354f16bf9f129043341682859fa9",
+      "target_actual_low_core": [
+        0.13732455536077084,
+        -0.010256552462686122,
+        -0.0006764751770582023
+      ],
+      "all_core_unknown_count": 32,
+      "physical_control_unknown_count": 3,
+      "total_parameter_count": 35,
+      "boundary_residual_count": 132,
+      "exact_initial_audited_tail_reuse": null,
+      "explicit_same_H_tail_warm_recovery": null,
+      "status": "prepared-only",
+      "original_true_full_H_outer_and_final_acceptance_preserved": true
+    },
+    {
+      "label": "half",
+      "returncode": 0,
+      "record_sha256": "1f8587eeb74835907cde46bb1ead811359fa4838f22cbaf49c368494683c322b",
+      "target_actual_low_core": [
+        0.1316622766980846,
+        -0.009756552462686117,
+        -0.0006607527135150398
+      ],
+      "all_core_unknown_count": 32,
+      "physical_control_unknown_count": 3,
+      "total_parameter_count": 35,
+      "boundary_residual_count": 132,
+      "exact_initial_audited_tail_reuse": null,
+      "explicit_same_H_tail_warm_recovery": null,
+      "status": "prepared-only",
+      "original_true_full_H_outer_and_final_acceptance_preserved": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "actual-A-R230-finite-field-sampled-metric-v1",
+  "finished": true,
+  "definition": "R230 unprojected finite cardinal/quintic Hermite field with horizontal W from (2.1)-(2.2); circular frame kept analytic.",
+  "complete_sha256": "6887c64b49c82b1f1fed64c89c1a5ac0bcd240fcea9ca23de3535c6d5116274b",
+  "background_sha256": "c89a835fd0d77c2da688e8f063ddb076bb05873fda526a4908c6f01b5778f055",
+  "source_sha256": "e6e74b5b6f6cc1439a397ba04d5d296053bc34e07db0a45d7dfe8c23680f8c6f",
+  "angular_evaluation": 512,
+  "radial_samples": 6336,
+  "maxima": {
+    "metric": 0.0008152721048134474,
+    "kappa": 13.168404605384044,
+    "minimum_metric_det": 0.0025564740487016035
+  },
+  "witnesses": {
+    "metric": {
+      "stage": 56,
+      "x": 0.5,
+      "r": 0.1814459822220788,
+      "theta": 0.0,
+      "components": [
+        0.0008152721048134474,
+        -5.887866866384e-19,
+        0.0
+      ]
+    },
+    "kappa": {
+      "stage": 28,
+      "x": 0.5,
+      "r": 0.2816053898916996,
+      "theta": 0.0
+    }
+  },
+  "seconds": 53.99610233306885,
+  "limitations": [
+    "Floating FFT and finite samples are not interval bounds.",
+    "Same finite node data; this angular evaluation refinement is not a new solution or the required fixed-g convergence chain.",
+    "No closed surface, global reach or large amplitude conclusion."
+  ],
+  "full_result_sha256": "fef0009bb57dd1a8ffaccbf1c8868798e5f8d20ec144689381cdf449667503ab"
+}

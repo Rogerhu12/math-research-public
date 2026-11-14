@@ -1,0 +1,3190 @@
+{
+  "status": "Recovery-only completed leaves, not a final candidate certificate",
+  "stage": "complete physical substage candidate",
+  "mode": "carrier",
+  "completed": 111,
+  "parts": [
+    {
+      "part": 0,
+      "panels": 111,
+      "source_left": "0",
+      "source_right": "1/8",
+      "true_width": {
+        "lower": {
+          "mantissa": "637103731823437201032887061537348590435370554701847789426055",
+          "binary_exponent": -211
+        },
+        "upper": {
+          "mantissa": "637103731823437201032887081114432282011704219162259375904135",
+          "binary_exponent": -211
+        },
+        "display": "[0.00019358917269138659003555005 +/- 6.91e-30]"
+      },
+      "bounds": {
+        "complete_mean_abs": {
+          "value": {
+            "lower": {
+              "mantissa": "6219358520079204907296715267587975391109113654807754929615",
+              "binary_exponent": -207
+            },
+            "upper": {
+              "mantissa": "6219358520079204907296715267587975391109113654807754929615",
+              "binary_exponent": -207
+            },
+            "display": "[3.02368461632412128136271985714890222060888230831622664722e-5 +/- 3.20e-62]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 16,
+            "source_left": "5/128",
+            "source_right": "11/256",
+            "physical_u": {
+              "lower": {
+                "mantissa": "3362934159879281757092016015182349",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "4318319836244294626608363885201933",
+                "binary_exponent": -116
+              },
+              "display": "[0.05 +/- 9.53e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "complete_mean_source_derivative_abs": {
+          "value": {
+            "lower": {
+              "mantissa": "749527182006273639061258644095526931009304481940701617061",
+              "binary_exponent": -190
+            },
+            "upper": {
+              "mantissa": "749527182006273639061258644095526931009304481940701617061",
+              "binary_exponent": -190
+            },
+            "display": "[0.477626276331238347037118317728082008157734331478469968040 +/- 4.07e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "finite_actual_linear_residual_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "3938055638150359030563785039563851134209189625820383063217",
+              "binary_exponent": -187
+            },
+            "upper": {
+              "mantissa": "3938055638150359030563785039563851134209189625820383063217",
+              "binary_exponent": -187
+            },
+            "display": "[20.0757906647260301109644910441562708835950765094550385905 +/- 3.25e-56]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "complete_nonlinear_source_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "817636870282827554516366721970558654856718487948167515155",
+              "binary_exponent": -187
+            },
+            "upper": {
+              "mantissa": "817636870282827554516366721970558654856718487948167515155",
+              "binary_exponent": -187
+            },
+            "display": "[4.16822618973192551859092212325834374193589312889413123114 +/- 2.74e-57]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "complete_nonmean_source_residual_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "1188923127108296646270037940383602447266477028442137644593",
+              "binary_exponent": -185
+            },
+            "upper": {
+              "mantissa": "1188923127108296646270037940383602447266477028442137644593",
+              "binary_exponent": -185
+            },
+            "display": "[24.2440168544579556295554131674146146255309696383491698216 +/- 4.78e-57]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "complete_scalar_mean_residual_abs": {
+          "value": {
+            "lower": {
+              "mantissa": "52532281715581965601717148326385532277192713809883418043",
+              "binary_exponent": -194
+            },
+            "upper": {
+              "mantissa": "52532281715581965601717148326385532277192713809883418043",
+              "binary_exponent": -194
+            },
+            "display": "[0.00209221882686062130970818219061066479610773896670732341786 +/- 9.49e-61]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "full_finite_J_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "595073465928150575272286516296487038165147544786112277301",
+              "binary_exponent": -184
+            },
+            "upper": {
+              "mantissa": "595073465928150575272286516296487038165147544786112277301",
+              "binary_exponent": -184
+            },
+            "display": "[24.2689721625520543799789489171710287199695688589588425760 +/- 1.98e-56]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "actual_Darboux_defect_abs": {
+          "value": {
+            "lower": {
+              "mantissa": "3417142124002327312996024400409279190678666665871318342629",
+              "binary_exponent": -196
+            },
+            "upper": {
+              "mantissa": "3417142124002327312996024400409279190678666665871318342629",
+              "binary_exponent": -196
+            },
+            "display": "[0.0340238842308629677672734042320390855218443529462742791414 +/- 2.59e-59]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "physical_nonmean_second_source_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "381096592574012126746209793513596824793785466308989156657",
+              "binary_exponent": -189
+            },
+            "upper": {
+              "mantissa": "381096592574012126746209793513596824793785466308989156657",
+              "binary_exponent": -189
+            },
+            "display": "[0.485697519191838799511735192280077226926157467349749517590 +/- 1.45e-59]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "nonmean_physical_hrr_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "1286083377477645051740190718607840953877678590933895629491",
+              "binary_exponent": -191
+            },
+            "upper": {
+              "mantissa": "1286083377477645051740190718607840953877678590933895629491",
+              "binary_exponent": -191
+            },
+            "display": "[0.409769805140308117410476302123239263494867974496810346662 +/- 4.78e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "mean_physical_hrr_minus_background_abs": {
+          "value": {
+            "lower": {
+              "mantissa": "1002558654664385477733136230285509195177290418090707736199",
+              "binary_exponent": -196
+            },
+            "upper": {
+              "mantissa": "1002558654664385477733136230285509195177290418090707736199",
+              "binary_exponent": -196
+            },
+            "display": "[0.00998230051988541313142399228245333800466828309559817643207 +/- 3.57e-60]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "full_D_nonconstant_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "1755572393093792017833620807823447690942891540949561185975",
+              "binary_exponent": -205
+            },
+            "upper": {
+              "mantissa": "1755572393093792017833620807823447690942891540949561185975",
+              "binary_exponent": -205
+            },
+            "display": "[3.41404806987934800888845521134505632224358035791508760792e-5 +/- 7.23e-63]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 110,
+            "source_left": "255/2048",
+            "source_right": "1/8",
+            "physical_u": {
+              "lower": {
+                "mantissa": "82164021484193756660669273915061335",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "83076749737905820231206848705393751",
+                "binary_exponent": -116
+              },
+              "display": "[1e+0 +/- 0.0110]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "full_weight_minus_one_W0": {
+          "value": {
+            "lower": {
+              "mantissa": "2075658173764235000609967619876288720622757304915619877417",
+              "binary_exponent": -202
+            },
+            "upper": {
+              "mantissa": "2075658173764235000609967619876288720622757304915619877417",
+              "binary_exponent": -202
+            },
+            "display": "[0.000322921313173804770705419912292855308326457524379843148593 +/- 3.19e-61]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 29,
+            "source_left": "17/256",
+            "source_right": "35/512",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1762238532048992393925184646137543",
+                "binary_exponent": -113
+              },
+              "upper": {
+                "mantissa": "1909808259745160708627876341728967",
+                "binary_exponent": -113
+              },
+              "display": "[0.2 +/- 0.0304]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "P_theta_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "3948515734887569617890443031887253294904306226567351324547",
+              "binary_exponent": -196
+            },
+            "upper": {
+              "mantissa": "3948515734887569617890443031887253294904306226567351324547",
+              "binary_exponent": -196
+            },
+            "display": "[0.0393146779889287347042552957387945581837352222038725094810 +/- 2.28e-59]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 2,
+            "source_left": "1073741833/274877906944",
+            "source_right": "1073741827/137438953472",
+            "physical_u": {
+              "lower": {
+                "mantissa": "59158292653784043680050970253301",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "141547346465935739923398580131829",
+                "binary_exponent": -116
+              },
+              "display": "[0.001 +/- 7.04e-4]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "K_theta_minus_P_W1": {
+          "value": {
+            "lower": {
+              "mantissa": "2907843907221426180892982887652106537630645236992554096701",
+              "binary_exponent": -195
+            },
+            "upper": {
+              "mantissa": "2907843907221426180892982887652106537630645236992554096701",
+              "binary_exponent": -195
+            },
+            "display": "[0.0579057825928779885177533515564206779425198911898022057142 +/- 3.56e-59]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 2,
+            "source_left": "1073741833/274877906944",
+            "source_right": "1073741827/137438953472",
+            "physical_u": {
+              "lower": {
+                "mantissa": "59158292653784043680050970253301",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "141547346465935739923398580131829",
+                "binary_exponent": -116
+              },
+              "display": "[0.001 +/- 7.04e-4]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "complete_J_l1": {
+          "value": {
+            "lower": {
+              "mantissa": "1640971878678803183307583106371824685416844888338149539509",
+              "binary_exponent": -191
+            },
+            "upper": {
+              "mantissa": "1640971878678803183307583106371824685416844888338149539509",
+              "binary_exponent": -191
+            },
+            "display": "[0.522843805263805036071945605113403478755378875146165208376 +/- 1.45e-59]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "complete_J_W1_tau": {
+          "value": {
+            "lower": {
+              "mantissa": "416831125688056317001702844844129744819143170472666447425",
+              "binary_exponent": -189
+            },
+            "upper": {
+              "mantissa": "416831125688056317001702844844129744819143170472666447425",
+              "binary_exponent": -189
+            },
+            "display": "[0.531240235713501647729407259959851718163816979726446306284 +/- 1.12e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "finite_J_l1_Darboux_upper": {
+          "value": {
+            "lower": {
+              "mantissa": "294471736054345916754326312986044934645686513159786477617",
+              "binary_exponent": -198
+            },
+            "upper": {
+              "mantissa": "294471736054345916754326312986044934645686513159786477617",
+              "binary_exponent": -198
+            },
+            "display": "[0.000733000844945795294278503432438880566961884559006902297844 +/- 3.47e-61]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "finite_J_mean_l1_Darboux_upper": {
+          "value": {
+            "lower": {
+              "mantissa": "2344498222550942774707591966908854928332486318729158322653",
+              "binary_exponent": -201
+            },
+            "upper": {
+              "mantissa": "2344498222550942774707591966908854928332486318729158322653",
+              "binary_exponent": -201
+            },
+            "display": "[0.000729492412892640399976092834572413978418068659284682092610 +/- 9.08e-62]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "finite_J_retained_nonmean_l1_Darboux_upper": {
+          "value": {
+            "lower": {
+              "mantissa": "3429725864499073015370591436600574952051016511531140007357",
+              "binary_exponent": -208
+            },
+            "upper": {
+              "mantissa": "3429725864499073015370591436600574952051016511531140007357",
+              "binary_exponent": -208
+            },
+            "display": "[8.33720173970829816913301913056988311707934522337972907020e-6 +/- 3.61e-63]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 29,
+            "source_left": "17/256",
+            "source_right": "35/512",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1762238532048992393925184646137543",
+                "binary_exponent": -113
+              },
+              "upper": {
+                "mantissa": "1909808259745160708627876341728967",
+                "binary_exponent": -113
+              },
+              "display": "[0.2 +/- 0.0304]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "finite_J_outside_saved_height_l1_Darboux_upper": {
+          "value": {
+            "lower": {
+              "mantissa": "5118032005509454469669672026626828823895234508651984646195",
+              "binary_exponent": -245
+            },
+            "upper": {
+              "mantissa": "5118032005509454469669672026626828823895234508651984646195",
+              "binary_exponent": -245
+            },
+            "display": "[9.05219831192529061102410185811167446463452131848253387064e-17 +/- 1.40e-74]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "signed_actual_nonmean_Hrr_l1": {
+          "value": {
+            "lower": {
+              "mantissa": "3302411174797309491279173636921505492175450478921915554371",
+              "binary_exponent": -194
+            },
+            "upper": {
+              "mantissa": "3302411174797309491279173636921505492175450478921915554371",
+              "binary_exponent": -194
+            },
+            "display": "[0.131526113245075317372697504191460556771582561578992853288 +/- 3.69e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "signed_actual_nonmean_Hrr_W1_tau": {
+          "value": {
+            "lower": {
+              "mantissa": "5144333769847232381499412562136040210931290787111424264885",
+              "binary_exponent": -193
+            },
+            "upper": {
+              "mantissa": "5144333769847232381499412562136040210931290787111424264885",
+              "binary_exponent": -193
+            },
+            "display": "[0.409769825845457016715840524029575043858218330007099874098 +/- 4.55e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 13,
+            "source_left": "7/256",
+            "source_right": "1/32",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1381352864468647458359330627602979",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "1908702612371540756677158448351779",
+                "binary_exponent": -116
+              },
+              "display": "[0.02 +/- 3.38e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "R77_mean_multiplier": {
+          "value": {
+            "lower": {
+              "mantissa": "5271772611280499738081841444469523949270225091113784812871",
+              "binary_exponent": -206
+            },
+            "upper": {
+              "mantissa": "5271772611280499738081841444469523949270225091113784812871",
+              "binary_exponent": -206
+            },
+            "display": "[5.12598773459507432319237623726227257210828348943435279871e-5 +/- 3.58e-62]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 110,
+            "source_left": "255/2048",
+            "source_right": "1/8",
+            "physical_u": {
+              "lower": {
+                "mantissa": "82164021484193756660669273915061335",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "83076749737905820231206848705393751",
+                "binary_exponent": -116
+              },
+              "display": "[1e+0 +/- 0.0110]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "R77_mean_physical_Darboux_upper": {
+          "value": {
+            "lower": {
+              "mantissa": "2801400570145003310316613739314891763110936071562657775989",
+              "binary_exponent": -222
+            },
+            "upper": {
+              "mantissa": "2801400570145003310316613739314891763110936071562657775989",
+              "binary_exponent": -222
+            },
+            "display": "[4.15638889012843813292619741373739406784300741440644245655e-10 +/- 3.40e-67]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 91,
+            "source_left": "59/512",
+            "source_right": "237/2048",
+            "physical_u": {
+              "lower": {
+                "mantissa": "4127593803608344560375594721230033",
+                "binary_exponent": -112
+              },
+              "upper": {
+                "mantissa": "4177097558672326951490392869584081",
+                "binary_exponent": -112
+              },
+              "display": "[0.80 +/- 5.06e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "R77_full_physical_Darboux_upper": {
+          "value": {
+            "lower": {
+              "mantissa": "3429891715926462290595898386606034082113148761503176000969",
+              "binary_exponent": -208
+            },
+            "upper": {
+              "mantissa": "3429891715926462290595898386606034082113148761503176000969",
+              "binary_exponent": -208
+            },
+            "display": "[8.33760490219521166035737735211215497458675802041943713320e-6 +/- 2.48e-63]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 29,
+            "source_left": "17/256",
+            "source_right": "35/512",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1762238532048992393925184646137543",
+                "binary_exponent": -113
+              },
+              "upper": {
+                "mantissa": "1909808259745160708627876341728967",
+                "binary_exponent": -113
+              },
+              "display": "[0.2 +/- 0.0304]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        }
+      },
+      "minima": {
+        "mean_sign_margin": {
+          "value": {
+            "lower": {
+              "mantissa": "57724883396006641770456300201247123841112300053330181539",
+              "binary_exponent": -207
+            },
+            "upper": {
+              "mantissa": "57724883396006641770456300201247123841112300053330181539",
+              "binary_exponent": -207
+            },
+            "display": "[2.80642836942267404033863344216266381477031815612525578724e-7 +/- 1.25e-64]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 16,
+            "source_left": "5/128",
+            "source_right": "11/256",
+            "physical_u": {
+              "lower": {
+                "mantissa": "3362934159879281757092016015182349",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "4318319836244294626608363885201933",
+                "binary_exponent": -116
+              },
+              "display": "[0.05 +/- 9.53e-3]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "mean_derivative_lower": {
+          "value": {
+            "lower": {
+              "mantissa": "3137537393639892472516058348584082548877141510101054977091",
+              "binary_exponent": -191
+            },
+            "upper": {
+              "mantissa": "3137537393639892472516058348584082548877141510101054977091",
+              "binary_exponent": -191
+            },
+            "display": "[0.999677088536661903385196955338524385306344620326052503048 +/- 4.02e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 29,
+            "source_left": "17/256",
+            "source_right": "35/512",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1762238532048992393925184646137543",
+                "binary_exponent": -113
+              },
+              "upper": {
+                "mantissa": "1909808259745160708627876341728967",
+                "binary_exponent": -113
+              },
+              "display": "[0.2 +/- 0.0304]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "real_y_lower": {
+          "value": {
+            "lower": {
+              "mantissa": "387415764236027889138986598582675969085309623355506278095",
+              "binary_exponent": -188
+            },
+            "upper": {
+              "mantissa": "387415764236027889138986598582675969085309623355506278095",
+              "binary_exponent": -188
+            },
+            "display": "[0.987502272399381160140272137062473661689852473113550315480 +/- 4.95e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 2,
+            "source_left": "1073741833/274877906944",
+            "source_right": "1073741827/137438953472",
+            "physical_u": {
+              "lower": {
+                "mantissa": "59158292653784043680050970253301",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "141547346465935739923398580131829",
+                "binary_exponent": -116
+              },
+              "display": "[0.001 +/- 7.04e-4]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "real_N_lower": {
+          "value": {
+            "lower": {
+              "mantissa": "3138533464789241185965337388495177292055989163511333992511",
+              "binary_exponent": -191
+            },
+            "upper": {
+              "mantissa": "3138533464789241185965337388495177292055989163511333992511",
+              "binary_exponent": -191
+            },
+            "display": "[0.999994455114849871426420427010241757321116845296587837855 +/- 2.55e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 110,
+            "source_left": "255/2048",
+            "source_right": "1/8",
+            "physical_u": {
+              "lower": {
+                "mantissa": "82164021484193756660669273915061335",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "83076749737905820231206848705393751",
+                "binary_exponent": -116
+              },
+              "display": "[1e+0 +/- 0.0110]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "real_D_lower": {
+          "value": {
+            "lower": {
+              "mantissa": "6277033480498718712493807631696488196304338318641497069139",
+              "binary_exponent": -192
+            },
+            "upper": {
+              "mantissa": "6277033480498718712493807631696488196304338318641497069139",
+              "binary_exponent": -192
+            },
+            "display": "[0.999989126369009240421679318841610318333523545495953442770 +/- 3.17e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 110,
+            "source_left": "255/2048",
+            "source_right": "1/8",
+            "physical_u": {
+              "lower": {
+                "mantissa": "82164021484193756660669273915061335",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "83076749737905820231206848705393751",
+                "binary_exponent": -116
+              },
+              "display": "[1e+0 +/- 0.0110]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "real_S_lower": {
+          "value": {
+            "lower": {
+              "mantissa": "6277101633950827850685224690863063875144353043355964474299",
+              "binary_exponent": -192
+            },
+            "upper": {
+              "mantissa": "6277101633950827850685224690863063875144353043355964474299",
+              "binary_exponent": -192
+            },
+            "display": "[0.999999983840336322523864010910655030481592540699344913885 +/- 1.97e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 110,
+            "source_left": "255/2048",
+            "source_right": "1/8",
+            "physical_u": {
+              "lower": {
+                "mantissa": "82164021484193756660669273915061335",
+                "binary_exponent": -116
+              },
+              "upper": {
+                "mantissa": "83076749737905820231206848705393751",
+                "binary_exponent": -116
+              },
+              "display": "[1e+0 +/- 0.0110]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "real_L_lower": {
+          "value": {
+            "lower": {
+              "mantissa": "3137585628235606640321022868370113222362764378301118440403",
+              "binary_exponent": -191
+            },
+            "upper": {
+              "mantissa": "3137585628235606640321022868370113222362764378301118440403",
+              "binary_exponent": -191
+            },
+            "display": "[0.999692456965515700341240857561396975148544411574523732659 +/- 9.47e-59]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 29,
+            "source_left": "17/256",
+            "source_right": "35/512",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1762238532048992393925184646137543",
+                "binary_exponent": -113
+              },
+              "upper": {
+                "mantissa": "1909808259745160708627876341728967",
+                "binary_exponent": -113
+              },
+              "display": "[0.2 +/- 0.0304]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        },
+        "Wiener_L_lower": {
+          "value": {
+            "lower": {
+              "mantissa": "6270825057895700448215335660439722488524155541429648057001",
+              "binary_exponent": -192
+            },
+            "upper": {
+              "mantissa": "6270825057895700448215335660439722488524155541429648057001",
+              "binary_exponent": -192
+            },
+            "display": "[0.999000067586033212349897190167616863537775037074915517493 +/- 4.34e-58]"
+          },
+          "witness": {
+            "segment": 7,
+            "part": 0,
+            "panel": 29,
+            "source_left": "17/256",
+            "source_right": "35/512",
+            "physical_u": {
+              "lower": {
+                "mantissa": "1762238532048992393925184646137543",
+                "binary_exponent": -113
+              },
+              "upper": {
+                "mantissa": "1909808259745160708627876341728967",
+                "binary_exponent": -113
+              },
+              "display": "[0.2 +/- 0.0304]"
+            },
+            "derivative_coordinate": "physical r"
+          }
+        }
+      },
+      "bubble_coefficients": {
+        "2": {
+          "lower": {
+            "mantissa": "-1901055979",
+            "binary_exponent": -49
+          },
+          "upper": {
+            "mantissa": "861149761",
+            "binary_exponent": -49
+          },
+          "display": "[+/- 3.38e-6]"
+        },
+        "4": {
+          "lower": {
+            "mantissa": "-440027853",
+            "binary_exponent": -50
+          },
+          "upper": {
+            "mantissa": "965394783",
+            "binary_exponent": -50
+          },
+          "display": "[+/- 8.58e-7]"
+        },
+        "6": {
+          "lower": {
+            "mantissa": "-372585145",
+            "binary_exponent": -55
+          },
+          "upper": {
+            "mantissa": "630085595",
+            "binary_exponent": -55
+          },
+          "display": "[+/- 1.75e-8]"
+        },
+        "8": {
+          "lower": {
+            "mantissa": "-209198815",
+            "binary_exponent": -59
+          },
+          "upper": {
+            "mantissa": "774417259",
+            "binary_exponent": -59
+          },
+          "display": "[+/- 1.35e-9]"
+        },
+        "10": {
+          "lower": {
+            "mantissa": "-290813365",
+            "binary_exponent": -63
+          },
+          "upper": {
+            "mantissa": "843341923",
+            "binary_exponent": -63
+          },
+          "display": "[+/- 9.15e-11]"
+        },
+        "12": {
+          "lower": {
+            "mantissa": "-219586027",
+            "binary_exponent": -66
+          },
+          "upper": {
+            "mantissa": "602448795",
+            "binary_exponent": -66
+          },
+          "display": "[+/- 8.17e-12]"
+        },
+        "14": {
+          "lower": {
+            "mantissa": "-752468957",
+            "binary_exponent": -71
+          },
+          "upper": {
+            "mantissa": "1938907367",
+            "binary_exponent": -71
+          },
+          "display": "[+/- 8.22e-13]"
+        },
+        "16": {
+          "lower": {
+            "mantissa": "-124673311",
+            "binary_exponent": -69
+          },
+          "upper": {
+            "mantissa": "560494179",
+            "binary_exponent": -70
+          },
+          "display": "[+/- 4.75e-13]"
+        },
+        "18": {
+          "lower": {
+            "mantissa": "-736220657",
+            "binary_exponent": -77
+          },
+          "upper": {
+            "mantissa": "248636811",
+            "binary_exponent": -77
+          },
+          "display": "[+/- 4.88e-15]"
+        },
+        "20": {
+          "lower": {
+            "mantissa": "477464019",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "1557086551",
+            "binary_exponent": -82
+          },
+          "display": "[+/- 3.22e-16]"
+        },
+        "22": {
+          "lower": {
+            "mantissa": "-274937893",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "154113865",
+            "binary_exponent": -82
+          },
+          "display": "[+/- 5.69e-17]"
+        },
+        "24": {
+          "lower": {
+            "mantissa": "-1857331771",
+            "binary_exponent": -88
+          },
+          "upper": {
+            "mantissa": "1319095913",
+            "binary_exponent": -88
+          },
+          "display": "[+/- 6.01e-18]"
+        },
+        "26": {
+          "lower": {
+            "mantissa": "-648767209",
+            "binary_exponent": -82
+          },
+          "upper": {
+            "mantissa": "279818581",
+            "binary_exponent": -82
+          },
+          "display": "[+/- 1.35e-16]"
+        },
+        "28": {
+          "lower": {
+            "mantissa": "-85246831",
+            "binary_exponent": -78
+          },
+          "upper": {
+            "mantissa": "95689595",
+            "binary_exponent": -77
+          },
+          "display": "[+/- 6.34e-16]"
+        },
+        "30": {
+          "lower": {
+            "mantissa": "-483166031",
+            "binary_exponent": -78
+          },
+          "upper": {
+            "mantissa": "108955485",
+            "binary_exponent": -77
+          },
+          "display": "[+/- 1.60e-15]"
+        },
+        "32": {
+          "lower": {
+            "mantissa": "-41581741",
+            "binary_exponent": -75
+          },
+          "upper": {
+            "mantissa": "731405095",
+            "binary_exponent": -78
+          },
+          "display": "[+/- 2.43e-15]"
+        },
+        "34": {
+          "lower": {
+            "mantissa": "-956890901",
+            "binary_exponent": -79
+          },
+          "upper": {
+            "mantissa": "442139829",
+            "binary_exponent": -79
+          },
+          "display": "[+/- 1.59e-15]"
+        },
+        "36": {
+          "lower": {
+            "mantissa": "-631347921",
+            "binary_exponent": -78
+          },
+          "upper": {
+            "mantissa": "35560541",
+            "binary_exponent": -75
+          },
+          "display": "[+/- 2.09e-15]"
+        },
+        "38": {
+          "lower": {
+            "mantissa": "-328033957",
+            "binary_exponent": -76
+          },
+          "upper": {
+            "mantissa": "89006839",
+            "binary_exponent": -73
+          },
+          "display": "[+/- 9.43e-15]"
+        },
+        "40": {
+          "lower": {
+            "mantissa": "-484835375",
+            "binary_exponent": -81
+          },
+          "upper": {
+            "mantissa": "9804939",
+            "binary_exponent": -77
+          },
+          "display": "[+/- 2.01e-16]"
+        }
+      },
+      "carrier": {
+        "a": {
+          "2": {
+            "lower": {
+              "mantissa": "-2688586865849806532081826799375603",
+              "binary_exponent": -123
+            },
+            "upper": {
+              "mantissa": "-2688586865849806532081826312344115",
+              "binary_exponent": -123
+            },
+            "display": "[-0.0002528334938001157536745915 +/- 4.57e-29]"
+          },
+          "4": {
+            "lower": {
+              "mantissa": "1858971176765649062738265747629761",
+              "binary_exponent": -131
+            },
+            "upper": {
+              "mantissa": "1858971176765649062738266084378227",
+              "binary_exponent": -131
+            },
+            "display": "[6.828781614467126636437382e-7 +/- 8.21e-32]"
+          },
+          "6": {
+            "lower": {
+              "mantissa": "2421904646203027543553073392032903",
+              "binary_exponent": -138
+            },
+            "upper": {
+              "mantissa": "4843809292406055087106147661511011",
+              "binary_exponent": -139
+            },
+            "display": "[6.95052546348122501563772e-9 +/- 3.32e-33]"
+          },
+          "8": {
+            "lower": {
+              "mantissa": "2915411708602859536507556082606327",
+              "binary_exponent": -142
+            },
+            "upper": {
+              "mantissa": "1457705854301429768253778305363313",
+              "binary_exponent": -141
+            },
+            "display": "[5.229263296178916027188374e-10 +/- 6.23e-35]"
+          },
+          "10": {
+            "lower": {
+              "mantissa": "3827380561636568494231385037557633",
+              "binary_exponent": -146
+            },
+            "upper": {
+              "mantissa": "3827380561636568494231385730879051",
+              "binary_exponent": -146
+            },
+            "display": "[4.290642002726383440430754e-11 +/- 4.42e-36]"
+          },
+          "12": {
+            "lower": {
+              "mantissa": "3134885165493441769029877485357351",
+              "binary_exponent": -149
+            },
+            "upper": {
+              "mantissa": "391860645686680221128734756654347",
+              "binary_exponent": -146
+            },
+            "display": "[4.392909768240609970152842e-12 +/- 8.83e-37]"
+          },
+          "14": {
+            "lower": {
+              "mantissa": "1308307828372028048090491603166447",
+              "binary_exponent": -151
+            },
+            "upper": {
+              "mantissa": "163538478546503506011311480020435",
+              "binary_exponent": -148
+            },
+            "display": "[4.583324376904648102581280e-13 +/- 7.95e-38]"
+          },
+          "16": {
+            "lower": {
+              "mantissa": "3407597213603024630178110986764391",
+              "binary_exponent": -153
+            },
+            "upper": {
+              "mantissa": "3407597213603024630178111604042997",
+              "binary_exponent": -153
+            },
+            "display": "[2.984412964037152541145720e-13 +/- 4.97e-38]"
+          },
+          "18": {
+            "lower": {
+              "mantissa": "-2074634545655222571980228308525149",
+              "binary_exponent": -159
+            },
+            "upper": {
+              "mantissa": "-2074634545655222571980227932709747",
+              "binary_exponent": -159
+            },
+            "display": "[-2.839045119982302714893491e-15 +/- 5.02e-40]"
+          },
+          "20": {
+            "lower": {
+              "mantissa": "-5748379595234306701351737098608803",
+              "binary_exponent": -165
+            },
+            "upper": {
+              "mantissa": "-5748379595234306701351736057302715",
+              "binary_exponent": -165
+            },
+            "display": "[-1.229125289788505176298651e-16 +/- 4.55e-41]"
+          },
+          "22": {
+            "lower": {
+              "mantissa": "2530579632578260689121643125519137",
+              "binary_exponent": -166
+            },
+            "upper": {
+              "mantissa": "5061159265156521378243287167855937",
+              "binary_exponent": -167
+            },
+            "display": "[2.705457575213299962960097e-17 +/- 5.92e-42]"
+          },
+          "24": {
+            "lower": {
+              "mantissa": "2081309237603757195568103259884777",
+              "binary_exponent": -164
+            },
+            "upper": {
+              "mantissa": "2081309237603757195568103636909285",
+              "binary_exponent": -164
+            },
+            "display": "[8.90055980968994375312343e-17 +/- 5.16e-41]"
+          },
+          "26": {
+            "lower": {
+              "mantissa": "-1229659716118386771960621555297055",
+              "binary_exponent": -161
+            },
+            "upper": {
+              "mantissa": "-4918638864473547087842485330187805",
+              "binary_exponent": -163
+            },
+            "display": "[-4.206836601168910871408243e-16 +/- 4.14e-41]"
+          },
+          "28": {
+            "lower": {
+              "mantissa": "3742953686062018421903556493726177",
+              "binary_exponent": -161
+            },
+            "upper": {
+              "mantissa": "3742953686062018421903557171753853",
+              "binary_exponent": -161
+            },
+            "display": "[1.280516419022856415103271e-15 +/- 5.66e-40]"
+          },
+          "30": {
+            "lower": {
+              "mantissa": "-3920103066468647183780409837219783",
+              "binary_exponent": -160
+            },
+            "upper": {
+              "mantissa": "-3920103066468647183780409127101893",
+              "binary_exponent": -160
+            },
+            "display": "[-2.682243362811289843046333e-15 +/- 2.76e-40]"
+          },
+          "32": {
+            "lower": {
+              "mantissa": "5336630244787551993422485847828795",
+              "binary_exponent": -160
+            },
+            "upper": {
+              "mantissa": "5336630244787551993422486814547409",
+              "binary_exponent": -160
+            },
+            "display": "[3.651470589204184189168919e-15 +/- 6.88e-40]"
+          },
+          "34": {
+            "lower": {
+              "mantissa": "-1631857086879302620141827371473761",
+              "binary_exponent": -159
+            },
+            "upper": {
+              "mantissa": "-203982135859912827517728384483313",
+              "binary_exponent": -156
+            },
+            "display": "[-2.233123857267125345822444e-15 +/- 6.74e-40]"
+          },
+          "36": {
+            "lower": {
+              "mantissa": "-2033671629449465754756731355184235",
+              "binary_exponent": -159
+            },
+            "upper": {
+              "mantissa": "-2033671629449465754756730986789175",
+              "binary_exponent": -159
+            },
+            "display": "[-2.782989190711410927402023e-15 +/- 6.02e-40]"
+          },
+          "38": {
+            "lower": {
+              "mantissa": "4429951424052758433029460444739415",
+              "binary_exponent": -158
+            },
+            "upper": {
+              "mantissa": "4429951424052758433029461247215191",
+              "binary_exponent": -158
+            },
+            "display": "[1.212438306163802127551260e-14 +/- 2.77e-39]"
+          },
+          "40": {
+            "lower": {
+              "mantissa": "-5197318519293389914267661414902367",
+              "binary_exponent": -164
+            },
+            "upper": {
+              "mantissa": "-5197318519293389914267660473419759",
+              "binary_exponent": -164
+            },
+            "display": "[-2.222593524076159494113434e-16 +/- 6.02e-41]"
+          }
+        },
+        "b": {
+          "2": {
+            "lower": {
+              "mantissa": "3983540665846725740593402890292516517403205050400327947453",
+              "binary_exponent": -215
+            },
+            "upper": {
+              "mantissa": "3983540665846725740593499356818202749688345722842186601661",
+              "binary_exponent": -215
+            },
+            "display": "[7.565196052107336252932e-8 +/- 1.96e-30]"
+          },
+          "4": {
+            "lower": {
+              "mantissa": "-4053652626549866268281470403755829907706599369524336396229",
+              "binary_exponent": -217
+            },
+            "upper": {
+              "mantissa": "-4053652626549866268281469361569797114614150170559803819973",
+              "binary_exponent": -217
+            },
+            "display": "[-1.924586656659070047975062e-8 +/- 7.02e-33]"
+          },
+          "6": {
+            "lower": {
+              "mantissa": "-1446007356837422502592595054165870240217265064175705746647",
+              "binary_exponent": -221
+            },
+            "upper": {
+              "mantissa": "-1446007356837422502592594884443282307826615871116776008919",
+              "binary_exponent": -221
+            },
+            "display": "[-4.290831505536502782224247e-10 +/- 4.30e-35]"
+          },
+          "8": {
+            "lower": {
+              "mantissa": "-5674107179959101153707463682676233124882956034021528439103",
+              "binary_exponent": -227
+            },
+            "upper": {
+              "mantissa": "-5674107179959101153707462865449643500643698239357361850687",
+              "binary_exponent": -227
+            },
+            "display": "[-2.630804156445494671030211e-11 +/- 6.82e-36]"
+          },
+          "10": {
+            "lower": {
+              "mantissa": "-3271255270788936549329374590260823688619359103983110045245",
+              "binary_exponent": -230
+            },
+            "upper": {
+              "mantissa": "-3271255270788936549329374053829353020471553134198186294845",
+              "binary_exponent": -230
+            },
+            "display": "[-1.895900026699839005009417e-12 +/- 3.99e-37]"
+          },
+          "12": {
+            "lower": {
+              "mantissa": "-4742007607850879189816255963483216354533345949744947571803",
+              "binary_exponent": -234
+            },
+            "upper": {
+              "mantissa": "-4742007607850879189816255084735453206975231098698876365915",
+              "binary_exponent": -234
+            },
+            "display": "[-1.717683963442092462374292e-13 +/- 6.19e-38]"
+          },
+          "14": {
+            "lower": {
+              "mantissa": "-3881383819950841367484816360094284557913180038650924366003",
+              "binary_exponent": -237
+            },
+            "upper": {
+              "mantissa": "-3881383819950841367484815626623987028296242196355841521843",
+              "binary_exponent": -237
+            },
+            "display": "[-1.757428312761267058351615e-14 +/- 5.14e-39]"
+          },
+          "16": {
+            "lower": {
+              "mantissa": "-4671675671882298082345309561252632792884133064564423505303",
+              "binary_exponent": -238
+            },
+            "upper": {
+              "mantissa": "-4671675671882298082345308606060246741466168148443625141655",
+              "binary_exponent": -238
+            },
+            "display": "[-1.057629891123206291944763e-14 +/- 4.38e-39]"
+          },
+          "18": {
+            "lower": {
+              "mantissa": "5681098812425260338180756452311877326847931283396084366201",
+              "binary_exponent": -245
+            },
+            "upper": {
+              "mantissa": "5681098812425260338180757615404225478714120140402879101817",
+              "binary_exponent": -245
+            },
+            "display": "[1.004808743367709201805469e-16 +/- 2.25e-41]"
+          },
+          "20": {
+            "lower": {
+              "mantissa": "6227917575483939032025042430984150931436100407099368150883",
+              "binary_exponent": -250
+            },
+            "upper": {
+              "mantissa": "6227917575483939032025044042327289023365473288751343212387",
+              "binary_exponent": -250
+            },
+            "display": "[3.442262139463323297168990e-18 +/- 7.65e-43]"
+          },
+          "22": {
+            "lower": {
+              "mantissa": "4950078552692477173805638586855980775067199906917041579259",
+              "binary_exponent": -251
+            },
+            "upper": {
+              "mantissa": "4950078552692477173805639296209298654461578109339498194171",
+              "binary_exponent": -251
+            },
+            "display": "[1.367990807744326088576563e-18 +/- 3.94e-43]"
+          },
+          "24": {
+            "lower": {
+              "mantissa": "1145163909659926090038677560208565440165944918729560204249",
+              "binary_exponent": -252
+            },
+            "upper": {
+              "mantissa": "1145163909659926090038682227545958762476131669795833684953",
+              "binary_exponent": -252
+            },
+            "display": "[1.58237256752545104301919e-19 +/- 4.88e-43]"
+          },
+          "26": {
+            "lower": {
+              "mantissa": "2678323908962892364456835601888710133533833444681269221393",
+              "binary_exponent": -249
+            },
+            "upper": {
+              "mantissa": "2678323908962892364456838359401462953010136499022558500881",
+              "binary_exponent": -249
+            },
+            "display": "[2.96069846053669977574618e-18 +/- 3.31e-42]"
+          },
+          "28": {
+            "lower": {
+              "mantissa": "-3191505135486889521917069437472906798167362984736605172395",
+              "binary_exponent": -247
+            },
+            "upper": {
+              "mantissa": "-3191505135486889521917067339078863636611708261109618799275",
+              "binary_exponent": -247
+            },
+            "display": "[-1.411193666279132693036997e-17 +/- 5.10e-42]"
+          },
+          "30": {
+            "lower": {
+              "mantissa": "505532068030639266685506662895381255197653867148198241749",
+              "binary_exponent": -243
+            },
+            "upper": {
+              "mantissa": "505532068030639266685506937608937522732368186237406373333",
+              "binary_exponent": -243
+            },
+            "display": "[3.57651263448520490867390e-17 +/- 5.10e-41]"
+          },
+          "32": {
+            "lower": {
+              "mantissa": "-6138168369683606692553353429794465103531055162309275105477",
+              "binary_exponent": -246
+            },
+            "upper": {
+              "mantissa": "-6138168369683606692553350437945233577509050280800816281797",
+              "binary_exponent": -246
+            },
+            "display": "[-5.42825028199801819437567e-17 +/- 4.47e-41]"
+          },
+          "34": {
+            "lower": {
+              "mantissa": "504405680762893206021070816334116172593975554508959514581",
+              "binary_exponent": -243
+            },
+            "upper": {
+              "mantissa": "504405680762893206021071045049156006620275620239725821909",
+              "binary_exponent": -243
+            },
+            "display": "[3.56854372697334179612648e-17 +/- 2.16e-41]"
+          },
+          "36": {
+            "lower": {
+              "mantissa": "1320774086779020573912088754925090939451933917126667648793",
+              "binary_exponent": -244
+            },
+            "upper": {
+              "mantissa": "1320774086779020573912089324988842850429954702991341240089",
+              "binary_exponent": -244
+            },
+            "display": "[4.67207275996141925497384e-17 +/- 3.36e-41]"
+          },
+          "38": {
+            "lower": {
+              "mantissa": "-749986694709820874859896505198370540527487601155454358733",
+              "binary_exponent": -241
+            },
+            "upper": {
+              "mantissa": "-749986694709820874859896194755587727435454394426962040013",
+              "binary_exponent": -241
+            },
+            "display": "[-2.122387131463162954243848e-16 +/- 7.66e-41]"
+          },
+          "40": {
+            "lower": {
+              "mantissa": "925443115310482697916681482763581617926089527566075413935",
+              "binary_exponent": -247
+            },
+            "upper": {
+              "mantissa": "925443115310482697916681846982028506012870715573064943023",
+              "binary_exponent": -247
+            },
+            "display": "[4.09204875877019282737228e-18 +/- 2.24e-42]"
+          }
+        },
+        "A_total": {
+          "lower": {
+            "mantissa": "3748869584566833092026884637856369473752172064579996761397",
+            "binary_exponent": -198
+          },
+          "upper": {
+            "mantissa": "3752358034940861969694622630217608274452777676588533824821",
+            "binary_exponent": -198
+          },
+          "display": "[0.00934 +/- 8.30e-6]"
+        },
+        "residual_left": {
+          "H": {
+            "2": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "4": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "6": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "8": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "10": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "12": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "14": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "16": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "18": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "20": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "22": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "24": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "26": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "28": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "30": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "32": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "34": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "36": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "38": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "40": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            }
+          },
+          "Hr": {
+            "2": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "4": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "6": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "8": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "10": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "12": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "14": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "16": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "18": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "20": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "22": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "24": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "26": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "28": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "30": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "32": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "34": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "36": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "38": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            },
+            "40": {
+              "lower": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "upper": {
+                "mantissa": "0",
+                "binary_exponent": 0
+              },
+              "display": "0"
+            }
+          },
+          "Hrr": {
+            "2": {
+              "lower": {
+                "mantissa": "4348145821369553258719061863839878609746693905075007873389",
+                "binary_exponent": -215
+              },
+              "upper": {
+                "mantissa": "4348145821369553258719069672732821668071291557398990774637",
+                "binary_exponent": -215
+              },
+              "display": "[8.25762264305139547949200e-8 +/- 7.48e-32]"
+            },
+            "4": {
+              "lower": {
+                "mantissa": "-310388362284045710708524660164198151296909125636860825547",
+                "binary_exponent": -204
+              },
+              "upper": {
+                "mantissa": "-310388362284045710708524457500868999281472021361593044939",
+                "binary_exponent": -204
+              },
+              "display": "[-1.207219700352447147050253e-5 +/- 7.87e-30]"
+            },
+            "6": {
+              "lower": {
+                "mantissa": "-1081188824399214834000590860439603072695231435351432724331",
+                "binary_exponent": -213
+              },
+              "upper": {
+                "mantissa": "-1081188824399214834000589654510019059321902885384111095659",
+                "binary_exponent": -213
+              },
+              "display": "[-8.21320138243291143649770e-8 +/- 4.69e-32]"
+            },
+            "8": {
+              "lower": {
+                "mantissa": "-5159357577910683314072456845861389542427766113474759959417",
+                "binary_exponent": -219
+              },
+              "upper": {
+                "mantissa": "-5159357577910683314072454247269223116135105058925434708857",
+                "binary_exponent": -219
+              },
+              "display": "[-6.12387867570626029918490e-9 +/- 5.50e-33]"
+            },
+            "10": {
+              "lower": {
+                "mantissa": "-2970014096183335620223201363414915438445419525885005352205",
+                "binary_exponent": -222
+              },
+              "upper": {
+                "mantissa": "-2970014096183335620223199829465128965834869246741923187981",
+                "binary_exponent": -222
+              },
+              "display": "[-4.40655782127662848627484e-10 +/- 2.80e-34]"
+            },
+            "12": {
+              "lower": {
+                "mantissa": "-1956238429253047069594685277304917175618787058752571882799",
+                "binary_exponent": -225
+              },
+              "upper": {
+                "mantissa": "-1956238429253047069594684227121340799412065027257531415855",
+                "binary_exponent": -225
+              },
+              "display": "[-3.62804580699825111431944e-11 +/- 3.71e-35]"
+            },
+            "14": {
+              "lower": {
+                "mantissa": "-5716212331889401480443412777752823415717743906601423708503",
+                "binary_exponent": -230
+              },
+              "upper": {
+                "mantissa": "-5716212331889401480443409155450769270417349324702096662871",
+                "binary_exponent": -230
+              },
+              "display": "[-3.31290780313741495209438e-12 +/- 4.00e-36]"
+            },
+            "16": {
+              "lower": {
+                "mantissa": "-5710673483188163772468236117750539823965524472352706998251",
+                "binary_exponent": -233
+              },
+              "upper": {
+                "mantissa": "-5710673483188163772468232910680388829660726566714627665899",
+                "binary_exponent": -233
+              },
+              "display": "[-4.13712211101740190455489e-13 +/- 5.51e-37]"
+            },
+            "18": {
+              "lower": {
+                "mantissa": "-3366879144496898912121861998228677789457292657952638581105",
+                "binary_exponent": -233
+              },
+              "upper": {
+                "mantissa": "-3366879144496898912121860038179758127352466481188190239089",
+                "binary_exponent": -233
+              },
+              "display": "[-2.43915016238068375544376e-13 +/- 1.26e-37]"
+            },
+            "20": {
+              "lower": {
+                "mantissa": "4487395385584274344306036642578446437991835441819815265951",
+                "binary_exponent": -241
+              },
+              "upper": {
+                "mantissa": "4487395385584274344306046559091134861465238960547868984991",
+                "binary_exponent": -241
+              },
+              "display": "[1.26988789098934503902220e-15 +/- 5.72e-39]"
+            },
+            "22": {
+              "lower": {
+                "mantissa": "-266769743174628069292452224961996363964929254940543447515",
+                "binary_exponent": -240
+              },
+              "upper": {
+                "mantissa": "-266769743174628069292451927346367728546282752184037568987",
+                "binary_exponent": -240
+              },
+              "display": "[-1.50986323883153409592681e-16 +/- 5.21e-40]"
+            },
+            "24": {
+              "lower": {
+                "mantissa": "129978194859305927659964984594513400941658377212854969683",
+                "binary_exponent": -237
+              },
+              "upper": {
+                "mantissa": "129978194859305927659965061775046927901341274435647350099",
+                "binary_exponent": -237
+              },
+              "display": "[5.88520409945539211954213e-16 +/- 5.75e-40]"
+            },
+            "26": {
+              "lower": {
+                "mantissa": "-3132165485288773037705398145214137334920854444139782041703",
+                "binary_exponent": -241
+              },
+              "upper": {
+                "mantissa": "-3132165485288773037705395106996846139776455077777872220263",
+                "binary_exponent": -241
+              },
+              "display": "[-8.86371420517270585300397e-16 +/- 6.66e-40]"
+            },
+            "28": {
+              "lower": {
+                "mantissa": "1123206365901387502446377935435589582148631180187201958633",
+                "binary_exponent": -239
+              },
+              "upper": {
+                "mantissa": "1123206365901387502446379538325115616588292758521589527273",
+                "binary_exponent": -239
+              },
+              "display": "[1.27142454861227200137875e-15 +/- 1.42e-39]"
+            },
+            "30": {
+              "lower": {
+                "mantissa": "-396317138582767887296869309452874735684501777431087844469",
+                "binary_exponent": -238
+              },
+              "upper": {
+                "mantissa": "-396317138582767887296868088102080642653692031635772181621",
+                "binary_exponent": -238
+              },
+              "display": "[-8.9723020511110950206168e-16 +/- 2.48e-39]"
+            },
+            "32": {
+              "lower": {
+                "mantissa": "-655178787344973028888526978446959749256444205253379301411",
+                "binary_exponent": -239
+              },
+              "upper": {
+                "mantissa": "-655178787344973028888524564852504436738226846462189838371",
+                "binary_exponent": -239
+              },
+              "display": "[-7.4163610468136597907598e-16 +/- 2.76e-39]"
+            },
+            "34": {
+              "lower": {
+                "mantissa": "5231443675743996858606243208344619790121623608460257941047",
+                "binary_exponent": -240
+              },
+              "upper": {
+                "mantissa": "5231443675743996858606249626645899378746419283574109656631",
+                "binary_exponent": -240
+              },
+              "display": "[2.96089219040595172645270e-15 +/- 4.26e-39]"
+            },
+            "36": {
+              "lower": {
+                "mantissa": "-2075155002988558512765736384685659396756103607923178423421",
+                "binary_exponent": -238
+              },
+              "upper": {
+                "mantissa": "-2075155002988558512765732867726615807586103204301504988285",
+                "binary_exponent": -238
+              },
+              "display": "[-4.69798443647151827572513e-15 +/- 4.91e-39]"
+            },
+            "38": {
+              "lower": {
+                "mantissa": "-875543682612975915267234515126256333880855362332389201999",
+                "binary_exponent": -239
+              },
+              "upper": {
+                "mantissa": "-875543682612975915267233022907977437902579191684101232719",
+                "binary_exponent": -239
+              },
+              "display": "[-9.91080326154652644739252e-16 +/- 8.62e-40]"
+            },
+            "40": {
+              "lower": {
+                "mantissa": "1639371265330764698825807160270837536844177549961629761425",
+                "binary_exponent": -238
+              },
+              "upper": {
+                "mantissa": "1639371265330764698825810126979252553863632572797151313809",
+                "binary_exponent": -238
+              },
+              "display": "[3.71140501747137028322147e-15 +/- 7.47e-39]"
+            }
+          }
+        },
+        "residual_right": {
+          "H": {
+            "2": {
+              "lower": {
+                "mantissa": "-10936428033008223153639983714064685930930562099948479445",
+                "binary_exponent": -222
+              },
+              "upper": {
+                "mantissa": "-6508784639429347553157695861753240170637323591743890389",
+                "binary_exponent": -222
+              },
+              "display": "[-1e-12 +/- 6.23e-13]"
+            },
+            "4": {
+              "lower": {
+                "mantissa": "-7454132701498435336584027744129826977634412107110613955",
+                "binary_exponent": -224
+              },
+              "upper": {
+                "mantissa": "-2948560955908829535973609812240612225116815624827110339",
+                "binary_exponent": -224
+              },
+              "display": "[-2e-13 +/- 9.07e-14]"
+            },
+            "6": {
+              "lower": {
+                "mantissa": "-3950909394576445502952842152541201531733354618233303991",
+                "binary_exponent": -229
+              },
+              "upper": {
+                "mantissa": "-736480084422075358160995156918256504624987275551060919",
+                "binary_exponent": -229
+              },
+              "display": "[+/- 4.58e-15]"
+            },
+            "8": {
+              "lower": {
+                "mantissa": "-7249759525554799416650498315826757345589893131249337",
+                "binary_exponent": -225
+              },
+              "upper": {
+                "mantissa": "5067978274020058668354573484842189592928827511560519",
+                "binary_exponent": -225
+              },
+              "display": "[+/- 1.35e-16]"
+            },
+            "10": {
+              "lower": {
+                "mantissa": "-1747468692328343384451620719009124654567837510156878267",
+                "binary_exponent": -236
+              },
+              "upper": {
+                "mantissa": "70505948232948775959439981250082794270715696274800197",
+                "binary_exponent": -236
+              },
+              "display": "[+/- 1.59e-17]"
+            },
+            "12": {
+              "lower": {
+                "mantissa": "-5848201596318012935933472774067628603490144638610246039",
+                "binary_exponent": -241
+              },
+              "upper": {
+                "mantissa": "-577534017617236457187722995442345824485733655566158231",
+                "binary_exponent": -241
+              },
+              "display": "[+/- 1.66e-18]"
+            },
+            "14": {
+              "lower": {
+                "mantissa": "-2875902642850816060487021859517650217966719830063149951",
+                "binary_exponent": -243
+              },
+              "upper": {
+                "mantissa": "-718853816385140495207910132960941388021775468647773055",
+                "binary_exponent": -243
+              },
+              "display": "[+/- 2.04e-19]"
+            },
+            "16": {
+              "lower": {
+                "mantissa": "-3479309439691575466938371593439771939190548539477639073",
+                "binary_exponent": -244
+              },
+              "upper": {
+                "mantissa": "-883062072965927978505294148225870333957943490008891297",
+                "binary_exponent": -244
+              },
+              "display": "[+/- 1.24e-19]"
+            },
+            "18": {
+              "lower": {
+                "mantissa": "-14283685273022829744297409484600675572635923061964699681",
+                "binary_exponent": -251
+              },
+              "upper": {
+                "mantissa": "-11126458851504052598532078501673051973017861642465212449",
+                "binary_exponent": -251
+              },
+              "display": "[-4e-21 +/- 9.26e-22]"
+            },
+            "20": {
+              "lower": {
+                "mantissa": "24074028944718799983856943240287235330097445088920108581",
+                "binary_exponent": -256
+              },
+              "upper": {
+                "mantissa": "27535145635756413377181786904040454647709766928851041829",
+                "binary_exponent": -256
+              },
+              "display": "[2e-22 +/- 3.78e-23]"
+            },
+            "22": {
+              "lower": {
+                "mantissa": "29583671869027359449719954613207255787805956288299988731",
+                "binary_exponent": -258
+              },
+              "upper": {
+                "mantissa": "35085607067190024048573488783441491745982083849775544059",
+                "binary_exponent": -258
+              },
+              "display": "[7e-23 +/- 6.13e-24]"
+            },
+            "24": {
+              "lower": {
+                "mantissa": "182031439592610670579881739265405841505112713638799852397",
+                "binary_exponent": -260
+              },
+              "upper": {
+                "mantissa": "184577103285833076749314759001562664140024781575475807085",
+                "binary_exponent": -260
+              },
+              "display": "[9.9e-23 +/- 7.47e-25]"
+            },
+            "26": {
+              "lower": {
+                "mantissa": "-38080896098622931592652262678100686168361116195665849909",
+                "binary_exponent": -256
+              },
+              "upper": {
+                "mantissa": "-35103980797420512597154528332263997180474708340731915829",
+                "binary_exponent": -256
+              },
+              "display": "[-3e-22 +/- 2.89e-23]"
+            },
+            "28": {
+              "lower": {
+                "mantissa": "2586404051275449289274993425797201813200797018716314755",
+                "binary_exponent": -251
+              },
+              "upper": {
+                "mantissa": "3029817582238951234328496906327951921010077325582081155",
+                "binary_exponent": -251
+              },
+              "display": "[8e-22 +/- 8.53e-23]"
+            },
+            "30": {
+              "lower": {
+                "mantissa": "-22414311131452030032474386458918915434146165956101599323",
+                "binary_exponent": -253
+              },
+              "upper": {
+                "mantissa": "-17919182979695270781277796798720809594592042400158904411",
+                "binary_exponent": -253
+              },
+              "display": "[-1e-21 +/- 5.49e-22]"
+            },
+            "32": {
+              "lower": {
+                "mantissa": "10368116477542799337574034003926185019294731054370416953",
+                "binary_exponent": -252
+              },
+              "upper": {
+                "mantissa": "13779355742907448487438683792385159999163842328786004281",
+                "binary_exponent": -252
+              },
+              "display": "[2e-21 +/- 5.68e-22]"
+            },
+            "34": {
+              "lower": {
+                "mantissa": "-14865708517143038490963682178807208801148718522909763335",
+                "binary_exponent": -253
+              },
+              "upper": {
+                "mantissa": "-10380596070360852542408579516166570915916180345870001927",
+                "binary_exponent": -253
+              },
+              "display": "[+/- 1.03e-21]"
+            },
+            "36": {
+              "lower": {
+                "mantissa": "-10014236940032541056017018879836391486486672905213333861",
+                "binary_exponent": -252
+              },
+              "upper": {
+                "mantissa": "-7078197299125374398532853315021751314558698722217447781",
+                "binary_exponent": -252
+              },
+              "display": "[-1e-21 +/- 3.84e-22]"
+            },
+            "38": {
+              "lower": {
+                "mantissa": "5919772273078768221652378244174153838467144290625503891",
+                "binary_exponent": -250
+              },
+              "upper": {
+                "mantissa": "9254166387505580203404867852842157703748684458215981715",
+                "binary_exponent": -250
+              },
+              "display": "[+/- 5.12e-21]"
+            },
+            "40": {
+              "lower": {
+                "mantissa": "-853276456448327491375483111601077583034388984174685051",
+                "binary_exponent": -255
+              },
+              "upper": {
+                "mantissa": "1203954759735875920515350969416493938223997224075449477",
+                "binary_exponent": -255
+              },
+              "display": "[+/- 2.08e-23]"
+            }
+          },
+          "Hr": {
+            "2": {
+              "lower": {
+                "mantissa": "-229862995291548786235201337232747096528599579303645731",
+                "binary_exponent": -203
+              },
+              "upper": {
+                "mantissa": "-229862995291548786232927936142994830573308816695267875",
+                "binary_exponent": -203
+              },
+              "display": "[-1.7880511643927897224e-8 +/- 3.39e-28]"
+            },
+            "4": {
+              "lower": {
+                "mantissa": "-946629658713735954516640023024430905690787451316051603",
+                "binary_exponent": -208
+              },
+              "upper": {
+                "mantissa": "-946629658713735954516443869882012328448155543570325139",
+                "binary_exponent": -208
+              },
+              "display": "[-2.301129229942209880874e-9 +/- 6.79e-31]"
+            },
+            "6": {
+              "lower": {
+                "mantissa": "-8003012413179115022490055068744362660946059396278273035",
+                "binary_exponent": -217
+              },
+              "upper": {
+                "mantissa": "-8003012413179115022489044602933975431461110471062864907",
+                "binary_exponent": -217
+              },
+              "display": "[-3.799657326974944816137e-11 +/- 3.91e-33]"
+            },
+            "8": {
+              "lower": {
+                "mantissa": "-3530128303277544795421707788066123019125995826669133275",
+                "binary_exponent": -221
+              },
+              "upper": {
+                "mantissa": "-3530128303277544795420495747576071363918757083550817755",
+                "binary_exponent": -221
+              },
+              "display": "[-1.047517889218625600170e-12 +/- 2.85e-34]"
+            },
+            "10": {
+              "lower": {
+                "mantissa": "-3985877574125122849575042012198191132743674949267658725",
+                "binary_exponent": -224
+              },
+              "upper": {
+                "mantissa": "-3985877574125122849574249525790686053206474347935733733",
+                "binary_exponent": -224
+              },
+              "display": "[-1.478444161383196402851e-13 +/- 1.53e-35]"
+            },
+            "12": {
+              "lower": {
+                "mantissa": "-7159868087900134131456637734461849507270101528236458767",
+                "binary_exponent": -228
+              },
+              "upper": {
+                "mantissa": "-7159868087900134131455342901509111101521780871454982927",
+                "binary_exponent": -228
+              },
+              "display": "[-1.659839171859360284304e-14 +/- 2.63e-36]"
+            },
+            "14": {
+              "lower": {
+                "mantissa": "-15152688493518021570239244562070622094938503522228900515",
+                "binary_exponent": -232
+              },
+              "upper": {
+                "mantissa": "-15152688493518021570237098150664145639599921607047385763",
+                "binary_exponent": -232
+              },
+              "display": "[-2.195486146859670424451e-15 +/- 5.48e-37]"
+            },
+            "16": {
+              "lower": {
+                "mantissa": "-4821917865830048552536146965618892983242368503881422047",
+                "binary_exponent": -231
+              },
+              "upper": {
+                "mantissa": "-4821917865830048552535450062273660088490507775314777311",
+                "binary_exponent": -231
+              },
+              "display": "[-1.397303703597373469303e-15 +/- 1.42e-37]"
+            },
+            "18": {
+              "lower": {
+                "mantissa": "-24127498824128949885952186434957768703141288021032820965",
+                "binary_exponent": -239
+              },
+              "upper": {
+                "mantissa": "-24127498824128949885950503115103713567797947781475852517",
+                "binary_exponent": -239
+              },
+              "display": "[-2.731136079076007934141e-17 +/- 2.11e-39]"
+            },
+            "20": {
+              "lower": {
+                "mantissa": "67344786148976087563755458101047848547572270672954462287",
+                "binary_exponent": -244
+              },
+              "upper": {
+                "mantissa": "67344786148976087563757825475674722389623286238115991631",
+                "binary_exponent": -244
+              },
+              "display": "[2.3822373867083660737110e-18 +/- 6.68e-41]"
+            },
+            "22": {
+              "lower": {
+                "mantissa": "1933542367603605455117809329944504877697140840294957283",
+                "binary_exponent": -240
+              },
+              "upper": {
+                "mantissa": "1933542367603605455117852524182129988271176323105734883",
+                "binary_exponent": -240
+              },
+              "display": "[1.0943461978958148941049e-18 +/- 3.89e-41]"
+            },
+            "24": {
+              "lower": {
+                "mantissa": "41197516244897267127455349144593799313510819968976815527",
+                "binary_exponent": -244
+              },
+              "upper": {
+                "mantissa": "41197516244897267127457301613611436577232032042786358695",
+                "binary_exponent": -244
+              },
+              "display": "[1.4573104920255461030305e-18 +/- 7.43e-41]"
+            },
+            "26": {
+              "lower": {
+                "mantissa": "-66167460254400863227782100574398971099054781143039981125",
+                "binary_exponent": -243
+              },
+              "upper": {
+                "mantissa": "-66167460254400863227777617174106798202283716798378784325",
+                "binary_exponent": -243
+              },
+              "display": "[-4.681181918163093064656e-18 +/- 4.80e-40]"
+            },
+            "28": {
+              "lower": {
+                "mantissa": "80969336642968033235123356356837571018095422817004603055",
+                "binary_exponent": -242
+              },
+              "upper": {
+                "mantissa": "80969336642968033235130091822223787180084340445542270639",
+                "binary_exponent": -242
+              },
+              "display": "[1.1456755122878167599717e-17 +/- 6.13e-40]"
+            },
+            "30": {
+              "lower": {
+                "mantissa": "-18142001140319749828113484355139884956084586324349892449",
+                "binary_exponent": -239
+              },
+              "upper": {
+                "mantissa": "-18142001140319749828111734176724155716410217441916565345",
+                "binary_exponent": -239
+              },
+              "display": "[-2.053601752180548968284e-17 +/- 3.45e-39]"
+            },
+            "32": {
+              "lower": {
+                "mantissa": "43481797942992639680808615128620655722059289512986839833",
+                "binary_exponent": -240
+              },
+              "upper": {
+                "mantissa": "43481797942992639680813355532010790337225053710697401113",
+                "binary_exponent": -240
+              },
+              "display": "[2.460982549638305149916e-17 +/- 4.02e-39]"
+            },
+            "34": {
+              "lower": {
+                "mantissa": "-46060751848874659669410892519702773675322268747830179051",
+                "binary_exponent": -241
+              },
+              "upper": {
+                "mantissa": "-46060751848874659669405118361363570808899994232524944619",
+                "binary_exponent": -241
+              },
+              "display": "[-1.303473083977759583196e-17 +/- 5.25e-39]"
+            },
+            "36": {
+              "lower": {
+                "mantissa": "-465268531743837866223361479903649640746988888755917743",
+                "binary_exponent": -234
+              },
+              "upper": {
+                "mantissa": "-465268531743837866223305429907830828203138102852965295",
+                "binary_exponent": -234
+              },
+              "display": "[-1.685329003579637867995e-17 +/- 3.99e-39]"
+            },
+            "38": {
+              "lower": {
+                "mantissa": "6755608702338751592489261506043897701625495925153918199",
+                "binary_exponent": -236
+              },
+              "upper": {
+                "mantissa": "6755608702338751592490234644230146471744796379456007415",
+                "binary_exponent": -236
+              },
+              "display": "[6.117662439050870772902e-17 +/- 8.68e-39]"
+            },
+            "40": {
+              "lower": {
+                "mantissa": "-4740465385714987506127446523849428362779117690617461837",
+                "binary_exponent": -244
+              },
+              "upper": {
+                "mantissa": "-4740465385714987506122916868880321113630409529848101965",
+                "binary_exponent": -244
+              },
+              "display": "[-1.67688020380161772626e-19 +/- 5.21e-40]"
+            }
+          },
+          "Hrr": {
+            "2": {
+              "lower": {
+                "mantissa": "-575154401032672612970183482645005822771791271978218639693",
+                "binary_exponent": -201
+              },
+              "upper": {
+                "mantissa": "-575154401032672612969864849279339139410686451067488391501",
+                "binary_exponent": -201
+              },
+              "display": "[-0.0001789597312377697844714 +/- 8.29e-26]"
+            },
+            "4": {
+              "lower": {
+                "mantissa": "-149179757843171206261291054323551350845015080609225061071",
+                "binary_exponent": -203
+              },
+              "upper": {
+                "mantissa": "-149179757843171206261287447801978278126816421935422845647",
+                "binary_exponent": -203
+              },
+              "display": "[-1.1604348902570998725387e-5 +/- 5.46e-28]"
+            },
+            "6": {
+              "lower": {
+                "mantissa": "-96374332791290749680205149046373953046661693978670608735",
+                "binary_exponent": -208
+              },
+              "upper": {
+                "mantissa": "-96374332791290749680203447430525322688115877851773088095",
+                "binary_exponent": -208
+              },
+              "display": "[-2.3427302552885794737244e-7 +/- 6.01e-30]"
+            },
+            "8": {
+              "lower": {
+                "mantissa": "-148492950115343366526312426671727848088824186486158046073",
+                "binary_exponent": -213
+              },
+              "upper": {
+                "mantissa": "-148492950115343366526309345988876572197065564522912199545",
+                "binary_exponent": -213
+              },
+              "display": "[-1.1280198940703786066346e-8 +/- 5.58e-31]"
+            },
+            "10": {
+              "lower": {
+                "mantissa": "-138283458046332987993011255946585285120045285802899086249",
+                "binary_exponent": -216
+              },
+              "upper": {
+                "mantissa": "-138283458046332987993009344338196496109529305124096908201",
+                "binary_exponent": -216
+              },
+              "display": "[-1.3130799439968878345358e-9 +/- 3.58e-32]"
+            },
+            "12": {
+              "lower": {
+                "mantissa": "-250456341666611810150821007799957267925752218345061172843",
+                "binary_exponent": -220
+              },
+              "upper": {
+                "mantissa": "-250456341666611810150818008795471000460477016053254932075",
+                "binary_exponent": -220
+              },
+              "display": "[-1.4863907247815469141245e-10 +/- 1.36e-33]"
+            },
+            "14": {
+              "lower": {
+                "mantissa": "-267824966104155631564626974157731489215855083853077633319",
+                "binary_exponent": -223
+              },
+              "upper": {
+                "mantissa": "-267824966104155631564624535842022209095623379987428104487",
+                "binary_exponent": -223
+              },
+              "display": "[-1.9868360231623684369790e-11 +/- 4.44e-34]"
+            },
+            "16": {
+              "lower": {
+                "mantissa": "-179733724097504518934755063649829793600833086150446517785",
+                "binary_exponent": -223
+              },
+              "upper": {
+                "mantissa": "-179733724097504518934753601265992887059233793871631191577",
+                "binary_exponent": -223
+              },
+              "display": "[-1.33333886981683953393483e-11 +/- 7.12e-35]"
+            },
+            "18": {
+              "lower": {
+                "mantissa": "-121591908804997835556677737306428065761803612552569399429",
+                "binary_exponent": -231
+              },
+              "upper": {
+                "mantissa": "-121591908804997835556671385501213744229892408045947168901",
+                "binary_exponent": -231
+              },
+              "display": "[-3.523511375104078131469e-14 +/- 3.09e-36]"
+            },
+            "20": {
+              "lower": {
+                "mantissa": "686408085282122756590502403473861814712298889140586518675",
+                "binary_exponent": -235
+              },
+              "upper": {
+                "mantissa": "686408085282122756590505582133061629363531935558920149139",
+                "binary_exponent": -235
+              },
+              "display": "[1.24317826748536416550906e-14 +/- 3.13e-38]"
+            },
+            "22": {
+              "lower": {
+                "mantissa": "1198032567460359483477394558018967726306320329047154561583",
+                "binary_exponent": -236
+              },
+              "upper": {
+                "mantissa": "1198032567460359483477396694734174995135968698198053818927",
+                "binary_exponent": -236
+              },
+              "display": "[1.08489984569038293090833e-14 +/- 3.04e-38]"
+            },
+            "24": {
+              "lower": {
+                "mantissa": "6188839268672301937106986749033809702854455498962983703401",
+                "binary_exponent": -238
+              },
+              "upper": {
+                "mantissa": "6188839268672301937107006992731906442910435874244527903593",
+                "binary_exponent": -238
+              },
+              "display": "[1.40110355718842438634740e-14 +/- 7.01e-38]"
+            },
+            "26": {
+              "lower": {
+                "mantissa": "-2558696753184131490706368319518102962775062437289300836585",
+                "binary_exponent": -235
+              },
+              "upper": {
+                "mantissa": "-2558696753184131490706357199040833060239784004711440433385",
+                "binary_exponent": -235
+              },
+              "display": "[-4.6341473313742751345107e-14 +/- 4.80e-37]"
+            },
+            "28": {
+              "lower": {
+                "mantissa": "1590580475837714748334899073084787404461168317152668098105",
+                "binary_exponent": -233
+              },
+              "upper": {
+                "mantissa": "1590580475837714748334907257000020990797192141955564772921",
+                "binary_exponent": -233
+              },
+              "display": "[1.15230290705870644165776e-13 +/- 3.24e-37]"
+            },
+            "30": {
+              "lower": {
+                "mantissa": "-5656540448669368828073552671832379393733690725193847869",
+                "binary_exponent": -224
+              },
+              "upper": {
+                "mantissa": "-5656540448669368828073519870224996748982658853644637245",
+                "binary_exponent": -224
+              },
+              "display": "[-2.0981274623816609047381e-13 +/- 4.99e-36]"
+            },
+            "32": {
+              "lower": {
+                "mantissa": "220738560275540385908976391312405263373258294961831149727",
+                "binary_exponent": -229
+              },
+              "upper": {
+                "mantissa": "220738560275540385908977799410982918723958910178485338271",
+                "binary_exponent": -229
+              },
+              "display": "[2.5586400795872515655500e-13 +/- 3.53e-36]"
+            },
+            "34": {
+              "lower": {
+                "mantissa": "-241499621960330202952743670748878329358083123122343726909",
+                "binary_exponent": -230
+              },
+              "upper": {
+                "mantissa": "-241499621960330202952741952726924679063492327342776471357",
+                "binary_exponent": -230
+              },
+              "display": "[-1.39964356744366226500738e-13 +/- 6.56e-37]"
+            },
+            "36": {
+              "lower": {
+                "mantissa": "-598622793050947258086310779891507776612241466643426287893",
+                "binary_exponent": -231
+              },
+              "upper": {
+                "mantissa": "-598622793050947258086306480126104641038342629410628673813",
+                "binary_exponent": -231
+              },
+              "display": "[-1.73469948900488823667895e-13 +/- 7.13e-37]"
+            },
+            "38": {
+              "lower": {
+                "mantissa": "570687250392039511768654520956067672809243269001291486309",
+                "binary_exponent": -229
+              },
+              "upper": {
+                "mantissa": "570687250392039511768659051003144616095479262202960794725",
+                "binary_exponent": -229
+              },
+              "display": "[6.6149895602282671518101e-13 +/- 3.66e-36]"
+            },
+            "40": {
+              "lower": {
+                "mantissa": "-295619940703298332103568983414576833656040933536259059433",
+                "binary_exponent": -235
+              },
+              "upper": {
+                "mantissa": "-295619940703298332103562323756963488839111578038982094569",
+                "binary_exponent": -235
+              },
+              "display": "[-5.354078624621703945369e-15 +/- 4.92e-37]"
+            }
+          }
+        }
+      },
+      "mean_correction_height_abs": {
+        "lower": {
+          "mantissa": "1535700340758959994772656513630339794601097186957667831313",
+          "binary_exponent": -223
+        },
+        "upper": {
+          "mantissa": "1535700340758959994772656513630339794601097186957667831313",
+          "binary_exponent": -223
+        },
+        "display": "[1.13924582991118066730558554269309684212166694996282826980e-10 +/- 3.20e-67]"
+      },
+      "mean_height_change_from_original_abs": {
+        "lower": {
+          "mantissa": "3847599934906171003878276087002849578020635303806894461609",
+          "binary_exponent": -223
+        },
+        "upper": {
+          "mantissa": "3847599934906171003878276087002849578020635303806894461609",
+          "binary_exponent": -223
+        },
+        "display": "[2.85430826878769832790630199490819948949550328489824978148e-10 +/- 2.47e-67]"
+      },
+      "path": "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-part0-fullJ-legacy-r1-part00-fields.jsonl.gz",
+      "sha256": "d07456782cfd2cd292cbb77fbbf437617a82ab6039f774fc5637c74a2e486dbe",
+      "bytes": 238759
+    }
+  ],
+  "error": null,
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-cell0-seg7-substage-r1.json.gz": "7da554bdb467fe2b997a01971dd4917003fd5deeb36978e200e1457ea3c8fddf",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-positive-A-legacy-r1-summary.json": "e39d8177a4fb81d17dd413f5a9ffe9c75427113ed69ffd6e3624b045e7d3e81a",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-positive-A-legacy-r1-resource.json": "965e625e84ef712db92c4020d85c7c90a6d99c8ef79234f9324a6a6cc7cb544a",
+    "/tmp/visible-flex-larger-20261113/tail-owned/2026-11-13-tail-carrier-positive-A-legacy-r1-part00-moments.jsonl.gz": "c565c6ded2294039656707a25833bbe040c027433223a51f9312d71510043cd2"
+  },
+  "source_hashes": {
+    "closure_real_outer_radius.py": "bab793b360f198a34b80fbccf4d725a963bc24f568e782ec9775f20c3925f5fe",
+    "tail_r33_middle_ordered_physical.py": "ac1bb495b33a37f7f88b6b7258a88a466c205cb452141668b6c454f88386008e",
+    "tail_outer_positive_moment_panels.py": "d5fb54fe3e0e8db26cabe83fbab6c59ef9f085ce98d2ad26afe9453b50a25d9b",
+    "tail_outer_capped_true_moments.py": "88ca736fe426fc3aa9d7f09507aba4f11dd80ea7100dcbec346df6d542b53c6b",
+    "tail_outer_physical_r_true_moments.py": "67ac79f49c47b4fc0cdef9d145decc955b6b6428c18e56150f3d299d1956c670",
+    "tail_outer_centered_quartic_fields_v2.py": "671f6b0c02b3a59dcac79129dc8e73cff4baebe9ec477ee5509e3425f9fb086b",
+    "tail_outer_physical_substage_moments_rebuilt.py": "bfeaa1457e69619266cb0b751d39e93e4e50dd2caec376e3b7d8b925505ebcd3",
+    "tail_outer_physical_substage_candidate_rebuilt.py": "f69411f1f9d5bdf2d893ce8e40d356a08d6d9a73e06acbced18733f7cfdcae20",
+    "tail_outer_legacy_carrier_stage.py": "d69e59039a16fa52b9d7f9ad6293c2204c967e3fc0e39d8fb0762150fe2ad49f",
+    "tail_outer_legacy_schema_reader.py": "66ef8c8030a8df8d7b6f5ac5c5adbcff9d8e82d716438d4741c36494fea622fa",
+    "tail_outer_weighted_compatible.py": "03c88b010447c78e4fb6bb26f0d3704fafd23510d16cc00084f315daa07f3d1b",
+    "tail_outer_candidate_domain.py": "17d6b7d85be80f8f40b3eec411ae49a73c51c6b624d030df57b94202a7d08690",
+    "tail_outer_general_mean_bounds.py": "4b16b860eb89d7b8f19d7f8ff05642ea0122b0a2016d4be623d5483430023a5c",
+    "tail_outer_substage_span_refinement.py": "85bf30e818e7ab92107a5f5a537225afb9273877327bf6e0092b303b01a1b5d8",
+    "tail_outer_original_piece_finite_j.py": "b5196622ed649c6e3a3d6ad3227f30b0c54651d402c5866cfa2102d5e6def2d4",
+    "tail_outer_saved_substage_candidate.py": "9c2903ea8e44191166bd5f00c929f596915669482a1d3709844cd6945a227ffc",
+    "tail_outer_checked_substage_candidate.py": "3830ca80beac62bd0ae153f0326f3a304321fde5a4886ad3d66ead06b07e3e9c",
+    "tail_outer_weighted_endpoint.py": "2ab276f326063f99dda67d26daa86f41280997fa9909e2c6d250a0dc2e062526",
+    "tail_outer_finite_momentum_root.py": "71a69da161fdd63d5043a3118ac024e1dc57f5f759609f9a61477eb67a7d1a56",
+    "tail_outer_same_candidate_point_probe.py": "3ca36917ab669383e48ec5920e0879824cfbc14a4d141259e28eb3cf083c53a9",
+    "tail_outer_background_carrier_integral.py": "57c4106d087ff8d8483a63ef6d3f3ff01bd6b74fdf41e3d2d301cb25d8d34c3e",
+    "tail_outer_physical_substage_moments.py": "fff04ec7e4547fc23d00f25ac6794eb5e2429ef14bebbe29c8cd74731e90ff77",
+    "tail_outer_physical_substage_candidate.py": "20d0ce487d61361501e9086d3f8126c7ae3eadf11590d16626915b0743416a13"
+  },
+  "elapsed_seconds": 4.154128096000932
+}

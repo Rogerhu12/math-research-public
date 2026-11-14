@@ -1,0 +1,46 @@
+{
+  "status": "Prepared only; no background flow started",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "source": {
+    "path": "computations/tail_outer_background_column_flow.py",
+    "sha256": "5b548692afa79035e8ac612c8148de0f4ed2a22e9c40ee7592fa36913156193c"
+  },
+  "command": [
+    "python",
+    "computations/tail_outer_background_column_flow.py",
+    "--cell-manifests",
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json",
+    "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json",
+    "--columns",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--modes",
+    "2,4",
+    "--max-product",
+    "1/64",
+    "--precision",
+    "192",
+    "--rss-limit-mib",
+    "40",
+    "--out",
+    "notes/2026-11-12-tail-outer-background-flow-m2m4-11to10-r1.json"
+  ],
+  "resource_output": "notes/2026-11-12-tail-outer-background-flow-m2m4-11to10-r1-resource.json",
+  "input_hashes": {
+    "notes/2026-11-12-tail-outer-positive-moments-cell11-compact-r2-manifest.json": "ed68183d518c7abf99c84dd0aeab04b559993f9114d1ee153b1d2ca9c3d3fc4b",
+    "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json": "144ee0b93afb41cd55f1c542a09fe6c8e3002904409ec56b8e6d0b38842bd65b",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz": "cabdb3fca1d9176b1f2c46a2f7b2ff5b82ff1af426c4c942c7863c3c15c65f91",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6"
+  },
+  "scope": "True background m2/m4 B0 columns and two independent gauge basis columns from node12 to node10; not full outer S0 or nonlinear Schur inverse",
+  "global_mu": "mu11 is fixed on the entire flow; true-head raw_worker_slope already uses this exact boundary chart",
+  "same_true_source": true,
+  "actual_execution_yet": false,
+  "resource_cap": "40MiB at startup, after input loading, every64 panels and every source group; this preparation has not been executed",
+  "proof": {
+    "path": "notes/2026-11-12-tail-outer-background-positive-flow-proof.md",
+    "sha256": "78523b2ba89444d8cd5cfec77642e1095047dc1c93ff7ea54ff17ba80e4b0e3f"
+  },
+  "additional_readonly_output": "All-mode homogeneous analytic strip budget from the same source panel, with every constant-frame jump included; no nonlinear high source assertion"
+}

@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-13T17:11:15.646188+00:00",
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/R163-actual-wide-nonlow-inputs/root_R163_actual_wide_nonlow_field.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R163-actual-wide-nonlow-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R163-actual-wide-nonlow-r1.json.gz"
+  ],
+  "source_sha256": "0a83530dece04bea3b68df79735a6316e152ca78cf413b1094c0ffcc147e0839",
+  "input_manifest_sha256": "7fa18096b28df0f76f8ebe65264fcaa292acaa5d0ae5755fb1958cf0e0a4c69a",
+  "resources": {
+    "cpu_threads": 1,
+    "expected_wall_seconds": 10,
+    "planned_peak_rss_mib": 128
+  },
+  "purpose": "Instantiate the proved R162 condition with the actual complete fresh head and compute tighter actual caps, not a repeated acceptance gate; no source integral or ODE rerun."
+}

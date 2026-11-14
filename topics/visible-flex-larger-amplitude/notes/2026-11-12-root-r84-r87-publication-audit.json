@@ -1,0 +1,38 @@
+{
+  "schema": "visible-flex-publication-audit-v1",
+  "state": "published-and-post-pull-verified",
+  "source": "22a28bbecd259cd3038853d689c6652330d92ceb",
+  "source_parent": "268c3bec2b0b270dcc9c24a7fa63234ad0839b4f",
+  "main": "cb6b2058a1c288ee9d3b90a3033fdcd3050d4338",
+  "topic_tree": "70d2f9be1e1b85b7f791428a50c3814e2f13763f",
+  "changed_files": 260,
+  "changed_bytes": 46328659,
+  "cache_batches": 8,
+  "formal_sessions": {
+    "source": 76433,
+    "cache": 11707,
+    "merge": 11127
+  },
+  "formal_exit_codes": {
+    "source": 0,
+    "cache": 0,
+    "merge": 0
+  },
+  "last_actual_pull_utc": "2026-11-12T20:09:06.891921+00:00",
+  "both_readmes_unchanged": true,
+  "post_pull_topic_tree_equal": true,
+  "ancestry_verified": true,
+  "owned_cache_ref_deleted_after_tip_check": true,
+  "aggregate": {
+    "path": "notes/2026-11-12-root-r84-r87-stable-batch-v2.json",
+    "bytes": 60017,
+    "sha256": "f9a98ff72dc810fd66d433e84cea200c6fc3c537b59845ee20aa8b01890f468d"
+  },
+  "first_source_failure": {
+    "session": 28152,
+    "exit_code": 1,
+    "reason": "git diff --check: blank line at EOF in three tail documents",
+    "commit_or_ref_created": false
+  },
+  "reconstruction_note": "This compact audit was written from already observed formal tool outcomes after the executor became unavailable; it does not claim recovery of inaccessible stdout/status files."
+}

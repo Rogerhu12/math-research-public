@@ -1,0 +1,21 @@
+{
+  "scope": "Optional independent disk entry for the original a255 accepted fixed-g response. Static source/AST preparation only; no real response run. A new accepted augmented endpoint must first pass the actual M+3 to M fixed-view RMS/BC conversion.",
+  "files": [
+    {
+      "path": "computations/strong_disk_actual_fixed_control_response.py",
+      "bytes": 5724,
+      "sha256": "e20e9724b82130848562142ac23cec3c65959949e5470436a643358b664ba0bf"
+    },
+    {
+      "path": "notes/2026-11-12-strong-disk-fixed-control-response-static-check.json",
+      "bytes": 584,
+      "sha256": "9b2de4eef006eaa2a97360bb9075ba3a46104f30090d9a96f73efddadcb064b7"
+    }
+  ],
+  "invocation": "Replace only strong_actual_fixed_control_response.py by strong_disk_actual_fixed_control_response.py in the complete original response command. All original input/config arguments and --metadata-only are preserved. Optional --disk-backward-error-tol 5e-11 --disk-heartbeat-seconds 20.",
+  "original_equations_and_half_step_checks_preserved": true,
+  "new_tail_workers": 0,
+  "physical_Jacobian_tests": 0,
+  "parallel_BVPs_started": 0,
+  "current_production_source_unchanged": true
+}

@@ -1,0 +1,83 @@
+{
+  "scope": "Reuse the real saved 64-mode linear transfer to extend only port entries.\n\nAuthor: strong_recovery (GPT-6 Astra Pro, AI assisted), 2026-11-13.\nKeep every physical parameter, physical cut field and the original32 slopes\nbit for bit. Append frequencies66..80 from the actually saved original-g\n4096-step transfer. This is a finite linear initialization port, not a new\nnonlinear tail response. The original --frozen-port identity gate is required.\nNo source, curve, ODE or mathematical acceptance criterion is changed.\n",
+  "all_checks": true,
+  "gates": {
+    "sha:computations/alternative-neck-provider-smallcut30-port32-r2048.json": true,
+    "sha:computations/tail_smallcut30_port64_r4096.json": true,
+    "sha:notes/2026-11-12-tail-linear64-r4096-shared.json": true,
+    "sha:computations/geometric-fixed-dual-prefix.py": true,
+    "same_physical_parameters": true,
+    "same_untagged_physical_cut": true,
+    "original_modes_preserved": true,
+    "original_slopes_all_bits_preserved": true,
+    "actual_original_linear_run": true,
+    "all_physical_config_keys_same": true,
+    "added_actual_rows_match_saved_port": true,
+    "original_prefix_extension_gate_passed": true
+  },
+  "original_port": "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+  "original_port_sha256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+  "output": {
+    "file": "computations/alternative-neck-provider-smallcut30-port40-exact-prefix-r4096.json",
+    "sha256": "b3d2b22159e78d94e24342486f3e2721f0e654bd472e79a5d6a62a3338fbcec3"
+  },
+  "source_sha256": {
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "computations/tail_smallcut30_port64_r4096.json": "af9482cfbd026c048c621d1aa5c78633c08f9d351b97d64ea6f3ee6366378d79",
+    "notes/2026-11-12-tail-linear64-r4096-shared.json": "ad19f6592e0d658a96fce9f46459ad97aff8f3f4b0604135e28b63acb1c44571",
+    "computations/geometric-fixed-dual-prefix.py": "f189c8f94880ff5455a140a686219a1805399e1d45a3809e176630bb92772280",
+    "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_sameg_port40_exact_prefix_extension.py": "c7da192fcd8c276a6e78a2eb4121b8dd6caf50c0a2f50317db326dd68a9b2282"
+  },
+  "original_verification": {
+    "kind": "exact_prefix_preserving_extension",
+    "frozen_file": "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+    "frozen_sha256": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "extended_sha256": "b3d2b22159e78d94e24342486f3e2721f0e654bd472e79a5d6a62a3338fbcec3",
+    "preserved_modes": 32,
+    "old_mode_values_identical": true,
+    "physical_parameters_and_cut_canonical_bytes_identical": true
+  },
+  "added_rows": [
+    {
+      "mode": 66,
+      "slope": 506.09535931049504,
+      "logHeightGain": 1565.6859583452353
+    },
+    {
+      "mode": 68,
+      "slope": 422.2053043228516,
+      "logHeightGain": 1582.3113086262424
+    },
+    {
+      "mode": 70,
+      "slope": 333.1878070913517,
+      "logHeightGain": 1599.7956686486189
+    },
+    {
+      "mode": 72,
+      "slope": 236.14995837703827,
+      "logHeightGain": 1620.1624847283317
+    },
+    {
+      "mode": 74,
+      "slope": 127.49967643782657,
+      "logHeightGain": 1634.42706077599
+    },
+    {
+      "mode": 76,
+      "slope": 2.443116177997581,
+      "logHeightGain": 1648.636760993573
+    },
+    {
+      "mode": 78,
+      "slope": -145.8373507119577,
+      "logHeightGain": 1658.7608081947758
+    },
+    {
+      "mode": 80,
+      "slope": -327.6488365711193,
+      "logHeightGain": 1669.0103200443261
+    }
+  ],
+  "Node_ODE_or_J_calls": 0
+}

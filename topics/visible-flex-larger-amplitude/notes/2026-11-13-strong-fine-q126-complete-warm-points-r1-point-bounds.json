@@ -1,0 +1,302 @@
+{
+  "schema": "complete-stored-fine-point-diameter-bounds-v1",
+  "scope": "Bound diameters of actual saved finite warm point sets.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nEvery saved Cartesian chunk is hash-checked and consumed. Exact dyadic\ndistances of exhibited point pairs give lower bounds; a complete scan with\nexplicit binary64 roundoff inflation gives enclosing-ball upper bounds.\nBoth the actual prefix set P and the explicitly defined diagnostic set\nP union R_z(P) are reported. Neither set is asserted to be a complete closed\nsurface; sampled curvatures and their products remain numerical diagnostics.\n",
+  "source_sha256": "d400fe722759d64f354205ec17b2fbc8b6a95ae272acdb8ba596ad2820cc4859",
+  "input_sha256": {
+    "m32-q122-r1/q126-tail2-size102-r1-screen.json": "5cc3ce0c5175339e799a011b8504e0496ff2003c86ae14db604d503da5f4dbdf",
+    "m32-q122-r1/q126-tail2-size102-r1-geometry-resource.json": "f18c26d5c43c5d76605b634ec1910e9f6b1ec6d3713fbebbe1fa90af9d367301",
+    "m32-q122-r1/q126-tail2-size102-r1-prepared-core.json": "4caafe07078dd2bce737f68ea878ad0c8dce5f23809aba81bb5af7f8dd8f525a",
+    "m32-q122-r1/q126-tail2-size102-r1-points.json": "1f14804293771fa78f844937cb0d8a9a40024077ccd9fd98960accc6f34b27a6"
+  },
+  "chunks": [
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part000.npy.gz",
+      "sha256": "1e0d1fc2d50c34bf1123a698b0b526a986dd398ffbfaf5b8b795798e71bfb2af",
+      "bytes": 1845090
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part001.npy.gz",
+      "sha256": "f3d8887ec30259c46ae23bf4045990e2abf3b2d179d88eb084c7f47d3edd4df9",
+      "bytes": 1861270
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part002.npy.gz",
+      "sha256": "bd193831c599fe9d80fbb89c60229724410dab6100795c5f5593d709df22af0a",
+      "bytes": 1870977
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part003.npy.gz",
+      "sha256": "0cd942be5d26894694b82b1ed995edb1c1353199597263ccf2d485817257d0c2",
+      "bytes": 1881788
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part004.npy.gz",
+      "sha256": "c8aa973ddc6256b1c994cb63c52dbe411fa59c5d5065855b81f96de1123e319e",
+      "bytes": 1871511
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part005.npy.gz",
+      "sha256": "591df9fab0f56b8125dc5170aedca39252485d36a3a24bbe7d7030812ae615d7",
+      "bytes": 1866388
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part006.npy.gz",
+      "sha256": "8edeff96e1c183e3b312971123a7708cd0744ad2dc96f7d7016db9e97afdec82",
+      "bytes": 1875177
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part007.npy.gz",
+      "sha256": "1a21b6ff5315c603517eeb43873226ea0ab4de2211653566a4b6a614ca2ce318",
+      "bytes": 1864428
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part008.npy.gz",
+      "sha256": "38ccbc9626134a2d2bf844b54bf4e0fbc81fc37e250905e4d6246e2df8ee43ea",
+      "bytes": 1855443
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part009.npy.gz",
+      "sha256": "8050992006c80e9d6cf76f3f1f965030cbd8da3e2e145fabcc609555f82b0947",
+      "bytes": 1856353
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part010.npy.gz",
+      "sha256": "48e348bc4a9541b2ac058eb633617feb8e01f76c10d626acc4c86223593bf081",
+      "bytes": 1836182
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part011.npy.gz",
+      "sha256": "a1724a88529a52b2146bbd1e327e8546a60411b822d634a2b589daa756c64012",
+      "bytes": 1837167
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part012.npy.gz",
+      "sha256": "ba9398eb83306abdb983832ec7edfa318cf7f8393b636b9a354315270dcf2702",
+      "bytes": 1852550
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part013.npy.gz",
+      "sha256": "36cd94060cd7b48a807388fb4309e225aedd1311708dc5ee777cc4dfbd560334",
+      "bytes": 1848052
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part014.npy.gz",
+      "sha256": "a6358aa8c13d4fda3d7a813f2b2c688dd255a7cb87b747d6e0656139bd47829a",
+      "bytes": 1843665
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part015.npy.gz",
+      "sha256": "dc92a4db2bbcb0ac365579da64bddbc58d340f8983baa2ad20950c0ce61c2fc9",
+      "bytes": 1849476
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part016.npy.gz",
+      "sha256": "2e81c87fc6e8d401136292ff46ca6f0d5247ed4a01a81dd432b3c7b89dd232eb",
+      "bytes": 1815549
+    },
+    {
+      "file": "m32-q122-r1/q126-tail2-size102-r1-points-part017.npy.gz",
+      "sha256": "447b34ce9f110d1f2d29711e1e717fd713bae698d1601b1c903df2c0d91d19ff",
+      "bytes": 623009
+    }
+  ],
+  "all_complete_points_consumed": true,
+  "point_shape": [
+    3764,
+    768,
+    3
+  ],
+  "prefix_point_count": 2890752,
+  "complete_mean_angular": 1552,
+  "original_kappa_abs_max_sample": 8.346240070716018,
+  "original_twice_norm_max_sample": 3.973839591888201,
+  "prefix_set": {
+    "definition": "P: exactly the stored finite prefix Cartesian points interpreted as binary rational coordinates.",
+    "diameter_lower": {
+      "numerator": "1687055091549369870821508097",
+      "denominator": "618970019642690137449562112"
+    },
+    "diameter_upper": {
+      "numerator": "430486401393180620879917689",
+      "denominator": "154742504910672534362390528"
+    },
+    "diameter_display": [
+      2.7255845000752186,
+      2.7819531656262475
+    ],
+    "exhibited_pair_indices": [
+      0,
+      754560
+    ],
+    "exhibited_pair_points": [
+      [
+        1.115863414081677,
+        0.0,
+        0.0
+      ],
+      [
+        -1.3449741091423273,
+        1.4826204965480053e-16,
+        1.1717890387535752
+      ]
+    ],
+    "exhibited_exact_squared_distance": {
+      "numerator": "3056035534302133797279943685050099038730442913346756382828289873",
+      "denominator": "411376139330301510538742295639337626245683966408394965837152256"
+    },
+    "enclosing_balls": [
+      {
+        "center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "all_points_scanned": 2890752,
+        "squared_radius_upper": {
+          "numerator": "2507870970595859267798122724585707095221517637486387820977401678226626028792221057637964606167002855384657352725845963314189044839651149999236563951223070486146086294874924444002543849673921545749811424901820105727010037558291009354107069723208353770076715901453432251700783796873305013392261986718344924671223077754296466008651033243506465336066960012156379267409317743555938091007",
+          "denominator": "635249767740746661643204327419373754047043568978905850376463581006524592494160423896560023186068148811585923602107333083972924108751757540700659259288566438958539738739729174118748984949492572160170454173550573380480982509741321507526269666859618425298645733771390224493659745339090729224909986109724038743241250974544251128300844398863832701753728798855937168947218458877494296576"
+        },
+        "diameter_upper": {
+          "numerator": "2459687570247940132189570335",
+          "denominator": "618970019642690137449562112"
+        },
+        "diameter_upper_display": 3.973839591888202,
+        "farthest_index": 2684160
+      },
+      {
+        "center": [
+          0.0,
+          0.0,
+          0.9796961113339803
+        ],
+        "all_points_scanned": 2890752,
+        "squared_radius_upper": {
+          "numerator": "1400697551486090976921494323167988569566504448473270408901255047574828544245712738045534793448229077206311120988159200933529670200183694371914204783243739878802189217312632991960302484104896366315312923952791543842698098921216690554101001741074834311510106853275680711495228629048880133678830374656670322453572778817015656071763281919454339546603106292507780094919755215776470007807",
+          "denominator": "635249767740746661643204327419373754047043568978905850376463581006524592494160423896560023186068148811585923602107333083972924108751757540700659259288566438958539738739729174118748984949492572160170454173550573380480982509741321507526269666859618425298645733771390224493659745339090729224909986109724038743241250974544251128300844398863832701753728798855937168947218458877494296576"
+        },
+        "diameter_upper": {
+          "numerator": "1838228677269952634352725867",
+          "denominator": "618970019642690137449562112"
+        },
+        "diameter_upper_display": 2.9698186001498073,
+        "farthest_index": 0
+      },
+      {
+        "center": [
+          0.0,
+          0.0,
+          0.830460531901617
+        ],
+        "all_points_scanned": 2890752,
+        "squared_radius_upper": {
+          "numerator": "1229091321832989691332036339739589454668550769535924747493293451861905872731173520426235905676390971675964225648099675112525378496175852498420937777455242814152082327475702647560033520949242325344361598828397756562204151326611795303088623608179238161416459448692772947203543414563903404826150617480798716039746417677325317290795379413608927101597181294959029308273879670182591332351",
+          "denominator": "635249767740746661643204327419373754047043568978905850376463581006524592494160423896560023186068148811585923602107333083972924108751757540700659259288566438958539738739729174118748984949492572160170454173550573380480982509741321507526269666859618425298645733771390224493659745339090729224909986109724038743241250974544251128300844398863832701753728798855937168947218458877494296576"
+        },
+        "diameter_upper": {
+          "numerator": "430486401393180620879917689",
+          "denominator": "154742504910672534362390528"
+        },
+        "diameter_upper_display": 2.7819531656262475,
+        "farthest_index": 738048
+      }
+    ],
+    "exact_axis_box_squared_diagonal": {
+      "numerator": "367980646032152845277191230085757",
+      "denominator": "20282409603651670423947251286016"
+    },
+    "axis_box_diameter_upper": {
+      "numerator": "659116732674675294195804255",
+      "denominator": "154742504910672534362390528"
+    }
+  },
+  "explicitly_reflected_diagnostic_set": {
+    "definition": "P union R_z(P), where R_z(x,y,z)=(x,y,-z). This is an explicitly defined finite diagnostic set, not a claim about an existing complete surface.",
+    "diameter_lower": {
+      "numerator": "4919375140495879037326234079",
+      "denominator": "1237940039285380274899124224"
+    },
+    "diameter_upper": {
+      "numerator": "2459687570247940132189570335",
+      "denominator": "618970019642690137449562112"
+    },
+    "diameter_display": [
+      3.973839591888201,
+      3.973839591888202
+    ],
+    "exhibited_prefix_point_index": 2684160,
+    "exhibited_reflected_original_index": 2684544,
+    "exhibited_pair": [
+      [
+        0.4029314469617789,
+        0.0,
+        1.945635249619988
+      ],
+      [
+        -0.4029314469617789,
+        4.934414152636224e-17,
+        -1.945635249619988
+      ]
+    ],
+    "exact_pair_squared_distance": {
+      "numerator": "103939289919695427242431880606607004707799975801862433217853072553",
+      "denominator": "6582018229284824168619876730229402019930943462534319453394436096"
+    },
+    "original_half_period_pair_central_symmetry_defect_upper": {
+      "numerator": "2115845794419",
+      "denominator": "1237940039285380274899124224"
+    },
+    "symmetry_defect_display": 1.7091666213820858e-15
+  },
+  "roundoff_contract": {
+    "binary64_unit_roundoff": {
+      "numerator": "1",
+      "denominator": "9007199254740992"
+    },
+    "norm_squared_inflation": {
+      "numerator": "59285549689505892056868344324448208820874232148807968788202283012051522375647232",
+      "denominator": "59285549689505859146777197900334673229677235515577591173502484983630641288445951"
+    },
+    "absolute_subnormal_allowance": {
+      "numerator": "1",
+      "denominator": "10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831652624386837205668069376"
+    },
+    "squared_distance_formula": "sum(fl(fl(X-c)*fl(X-c))) over three real coordinates; <=5 relative factors per positive contribution; all coordinates and proposed centers small and finite.",
+    "exact_selected_pair_and_bbox_arithmetic": true,
+    "exact_square_root_dyadic_bits": 90
+  },
+  "complete_core_budget": {
+    "axis_gap": {
+      "numerator": "666319360552242360163355555136490265",
+      "denominator": "2658455991569831745807614120560689152"
+    },
+    "short_axis_radius": {
+      "numerator": "255560104740842684063281374534818100413",
+      "denominator": "170141183460469231731687303715884105728"
+    },
+    "initial_acceleration": {
+      "numerator": "5566012032648373",
+      "denominator": "9007199254740992"
+    },
+    "original_R7_witness_product": {
+      "numerator": "947806386237823026642139697269874424320676840635046877383296653438120194389279138203692985",
+      "denominator": "4074071952668972172536891376818756322102936787331872501272280898708762599526673412366794752"
+    },
+    "display": {
+      "axis_gap": 0.25064148613525755,
+      "short_axis_radius": 1.5020472970920633,
+      "R7": 0.2326435068523775
+    }
+  },
+  "finite_numerical_design_products": {
+    "kappa_times_original_S": 33.16661923641509,
+    "current_tail_floor_times_S": 33.16661923641509,
+    "kappa_times_prefix_diameter_upper": 23.21884898580506,
+    "kappa_times_explicit_reflected_diameter_upper": 33.166619236415094
+  },
+  "squared_distance_float_scan_points_total": 72268800,
+  "physical_continuum_roundoff_or_geometry_error_paid": false,
+  "full_closed_surface_D_reach_deltaE_or_deltaHold_certified": false,
+  "new_ODE_Node_Newton_calls": 0,
+  "elapsed_seconds": 21.173659465999663,
+  "peak_rss_kib": 167800
+}

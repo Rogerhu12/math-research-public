@@ -1,0 +1,78 @@
+{
+  "scope": "Prepared standalone sources and complete algebra note for a monotone first-piece control; local executor unavailable. No Python fixture/AST/source transformation/actual Jacobian/BVP/conversion has yet executed.",
+  "status": "prepared-not-executed",
+  "current_q096_CI_unchanged": true,
+  "all_MJS_unchanged": true,
+  "files": [
+    {
+      "path": "notes/2026-11-12-strong-monotone-bernstein-initial-speed.md",
+      "git_blob_sha": "6589145e053ffe49adb151160a2c68e73a63a337",
+      "sha256": "0526f12b36ed6f138d06a96176518e1cd54e32a688cc9b7a4b1639fd59c56403",
+      "bytes": 7434
+    },
+    {
+      "path": "computations/strong_monotone_initial_speed.py",
+      "git_blob_sha": "029ac455cb52ff1146aa08e589e1e919780c0918",
+      "sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "bytes": 6683
+    },
+    {
+      "path": "computations/strong_monotone_initial_speed_check.py",
+      "git_blob_sha": "a21b2b6cee7a194d3dbcd7053c65b7a5bb8f1b2e",
+      "sha256": "d2b5a0a28b79658c8b83a21fcc8c53323792182e221ec9d203aff8f12af3646a",
+      "bytes": 6185
+    },
+    {
+      "path": "computations/strong_initial_laws_disk_control_response.py",
+      "git_blob_sha": "f69338aa1fb86e7d8670d113283fe65046b75d23",
+      "sha256": "42db431d26f8cc87b56f3e8baf38b7afba38816f701d185efd1955028afe9750",
+      "bytes": 5440
+    },
+    {
+      "path": "computations/strong_initial_laws_augmented_core.py",
+      "git_blob_sha": "1fd18e6ac8e865ec425eed66976b1ff9763d1647",
+      "sha256": "067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646",
+      "bytes": 2389
+    },
+    {
+      "path": "computations/strong_initial_laws_actual_bvp.py",
+      "git_blob_sha": "a7098706719378b9707f3b6a75203dc645de9f63",
+      "sha256": "55af2c6b3f2fb91631481ed0078d89b608fe37eb439b46eb7b17f999fc65d9cc",
+      "bytes": 7972
+    },
+    {
+      "path": "computations/strong_initial_laws_freeze_design_view.py",
+      "git_blob_sha": "5ebca74bb8f256087e0ac43e26f0e30ad889d018",
+      "sha256": "785442ffad4a72f9671aef285dae4a4bfc11f410b2cec54027cd913a09a61ab3",
+      "bytes": 3855
+    }
+  ],
+  "ready_to_run_from_topic": [
+    [
+      "python",
+      "computations/strong_monotone_initial_speed_check.py",
+      "--out",
+      "notes/FRESH-initial-laws-polynomial-check.json"
+    ],
+    [
+      "python",
+      "computations/strong_initial_laws_disk_control_response.py",
+      "--prepare-source-record",
+      "notes/FRESH-initial-laws-response-source-check.json"
+    ],
+    [
+      "python",
+      "computations/strong_initial_laws_actual_bvp.py",
+      "--prepare-source-record",
+      "notes/FRESH-initial-laws-production-source-check.json"
+    ],
+    [
+      "python",
+      "computations/strong_initial_laws_freeze_design_view.py",
+      "--prepare-source-record",
+      "notes/FRESH-initial-laws-fixed-view-source-check.json"
+    ]
+  ],
+  "next_actual_gate": "Only after actual q096 succeeds and the original full raw/H/RMS/BC fixed-view conversion passes, compute one real full-field response containing the old delta/LB/vp columns and both b/lambda external columns. Do not treat source-only preparation or background shortening as a new actual solution.",
+  "recovery_note_blob": "09987b428f2273f4ceeddd9f9487b355fad42f52"
+}

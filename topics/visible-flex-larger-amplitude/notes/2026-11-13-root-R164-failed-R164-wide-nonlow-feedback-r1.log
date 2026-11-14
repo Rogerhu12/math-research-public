@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/root_R164_wide_nonlow_low_feedback.py", line 140, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/root_R164_wide_nonlow_low_feedback.py", line 58, in main
+    gate('all25_comparison_blocks_identical',wide['comparison_partition']==b.joint['comparison_partition'])
+                                                                           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'comparison_partition'
+{"event": "child_exit", "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n", "command": ["python", "-u", "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/root_R164_wide_nonlow_low_feedback.py", "--inputs", "/workspace/scratch/d1aa462cfc02/root-work/R164-wide-nonlow-feedback-inputs/input-manifest.json", "--out-prefix", "/workspace/scratch/d1aa462cfc02/root-work/r127/R164-wide-nonlow-feedback-r1", "--cycles", "4"], "wall_seconds": 12.463031768798828, "exitcode": 1, "termination_signal": null, "peak_rss_kib": 124208, "user_seconds": 5.18757, "system_seconds": 0.694342, "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"}

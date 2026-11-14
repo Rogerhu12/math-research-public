@@ -1,0 +1,40 @@
+{
+  "schema": "immutable-original-inner-low46-raw-material-cut-kernel-archive-v1",
+  "files": [
+    {
+      "path": "computations/inner_low46_common_material_cut_kernels.py",
+      "sha256": "f9490f8c06123417c7b7088805405b61a90c562ba59cc08ab7919c28df5b4c46",
+      "bytes": 11589,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/inner_low46_common_material_cut_kernels.py"
+    },
+    {
+      "path": "notes/2026-11-13-inner-low46-common-material-cut-kernels-r1.json.gz",
+      "sha256": "2181172e2cd395167e40887e0b464bd56b3cd28baa6d9a9271e81eee1f335a83",
+      "bytes": 1158429,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-low46-cut-kernels-r1/kernels.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-inner-low46-common-material-cut-kernels-r1-resource.json",
+      "sha256": "8af9f7e09bf60c8205b671ef2bf1c874a9fa9c0b657d867d38ea99f272aac6de",
+      "bytes": 1284,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-low46-cut-kernels-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-inner-low46-common-material-cut-kernels-r1.md",
+      "sha256": "df31a9a30501f231e44c4c2d9b73cd2e7274c8d6b620db660e05f882e55362f1",
+      "bytes": 6707,
+      "private_source": "/workspace/scratch/d1aa462cfc02/geometry-work/inner-low46-cut-kernels-r1/proof.md"
+    }
+  ],
+  "actual_gate_count": 20279,
+  "complete_dimensions": [
+    213,
+    46,
+    3
+  ],
+  "true_w_squared_conversion_paid": true,
+  "Vprime_source_scale_squared_paid": true,
+  "nonlinear_source_and_far_boundary_not_included": true,
+  "same_original_geometry_only": true,
+  "owned_wait4_exitcode": 0
+}

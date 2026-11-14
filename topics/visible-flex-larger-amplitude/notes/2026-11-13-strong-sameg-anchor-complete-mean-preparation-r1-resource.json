@@ -1,0 +1,27 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "sameg-anchor-complete-mean-source-preparation",
+  "command": [
+    "python",
+    "computations/strong_sameg_anchor_complete_mean_comparison.py",
+    "--prepare-only",
+    "--out",
+    "m32-q126-r1/sameg-anchor-complete-mean-preparation-r1.json"
+  ],
+  "started_utc": "2026-11-13T20:44:20.355686+00:00",
+  "finished_utc": "2026-11-13T20:44:20.861310+00:00",
+  "wall_seconds": 0.5113517680001678,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 15372,
+  "user_seconds": 0.10987899999999999,
+  "system_seconds": 0.019644,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 3,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026532759]",
+  "automatic_restarts": 0
+}

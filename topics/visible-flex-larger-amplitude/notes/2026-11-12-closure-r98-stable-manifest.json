@@ -1,0 +1,70 @@
+{
+  "status": "Complete conditional R98 theorem and ten executed scalar bridge gates; actual mixed finite kernels and joint Schur gates not yet paid",
+  "files": [
+    {
+      "path": "results/R98-mixed-density-low-middle-high-closure.md",
+      "blob": "ee1595fbad1699bfff566e7e3416ce87e7e04a9a",
+      "sha256": "5640e5d92b0b626b111506b0b6d2c97f84824d31e9d860d6cc08b93a9ea4f546",
+      "bytes": 15144
+    },
+    {
+      "path": "computations/closure_outer_middle_mixed_density_v2.py",
+      "blob": "fe77566896a90a4367557bd0f042f40ba76ec1ec",
+      "sha256": "a285a385d657e226ddcb7a080f86478b627e7406f970bb85b7ffc70a6c42feeb",
+      "bytes": 28269
+    },
+    {
+      "path": "computations/closure_outer_mixed_density_domain_ledger.js",
+      "blob": "359cc20d9e7bf84ec3996c3877b357436509a14b",
+      "sha256": "e6b3b52dec76621c60dd0aaad512d8f105013adafb4b591e06a66024ebb4dbfe",
+      "bytes": 4510
+    },
+    {
+      "path": "notes/2026-11-12-closure-r98-mixed-domain-exact-ledger.json",
+      "blob": "f7cfffefb24bf4352dd342fde4a0fe1ac41b22e4",
+      "sha256": "75f41546fbb21e3059de8a3a467b4c3b3ca76a320a446810f6619e2c648f5376",
+      "bytes": 4571
+    },
+    {
+      "path": "notes/2026-11-12-closure-r98-mixed-density-prepared-plan.json",
+      "blob": "a9c9e71fc7e1d4b58e411fe48f8092b2488231b1",
+      "sha256": "f65ffd3de1ee282f451d4e1e454f02313c96b836285d4362639cabb7b02cccb6",
+      "bytes": 8691
+    }
+  ],
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted), 2026-11-12",
+  "proved": "Three material powers, exact source-position operator formulas, explicit strip loss, complete mean/inverse derivative, 27/2<16 second derivative via complex mean domain, three-block map and constructive 2x2 Schur reduction",
+  "actual_execution": {
+    "engine": "functions.exec V8 BigInt",
+    "milliseconds": 8,
+    "gates": 10,
+    "all_scalar_gates": true,
+    "new_ODE": false,
+    "new_Arb": false
+  },
+  "prepared_python": {
+    "static_unique_anchor_transform": true,
+    "Python_AST_run": false,
+    "actual_m94_m96_run": false,
+    "expected_own_RSS_observation_threshold_KiB": 98304
+  },
+  "scope": {
+    "R74_real_family": true,
+    "R92_extended_family": false,
+    "centre": "R96",
+    "high_inverse": "R93",
+    "all_middle_kernels_paid": false,
+    "all_final_selfmaps_or_Schur_paid": false,
+    "outer_cut_consistency_paid": false,
+    "closed_family_claimed": false
+  },
+  "old_original_source_unchanged": {
+    "path": "computations/closure_outer_middle_volterra_recovered_v1.py",
+    "sha256": "6655a72f38f89d6eb31ded7b78bd4b84f94c500653bbb8e6c3ca2611d6af2e31"
+  },
+  "no_MJS_changes": true,
+  "old_unpublished_draft_proof_blob": "b8d4e68bf5bd7494e87d1be201ba607b5a5f08fe",
+  "final_proof_difference": "High-dependent finite derivative cross term uses the proved second derivative constant16, not a formal derivative of the selfmap upper bound with coefficient4.",
+  "manifest_assembly_note": "One pre-publication JS assembly raised ReferenceError from unquoted result labels; fixed text only, no scientific computation rerun or modified.",
+  "next": "Execute original m94/m96 full trace0 window once executor returns; then pay new mixed-density columns and actual positive inequalities without changing source or metric."
+}

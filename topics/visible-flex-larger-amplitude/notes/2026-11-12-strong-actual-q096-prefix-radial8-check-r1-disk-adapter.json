@@ -1,0 +1,49 @@
+{
+  "scope": "Disk-backed original collocation/QR, with real streamed backward checks.\n\nThis replaces storage only. The original pointwise Jacobians, Newton rules,\nRMS gates, true full-H tail checks and full physical audit remain in force.\nThe matrix and QR arenas are anonymous temporary files, never result files.\n",
+  "configuration": {
+    "temporary_parent": null,
+    "backward_error_tolerance": 5e-11,
+    "heartbeat_seconds": 20.0
+  },
+  "source_sha256": {
+    "strong_disk_actual_backend.py": "402830e66390f660d7f8e846165a2ae7c1e9858addc2317df06348dc1e8634f1",
+    "root_disk_block_collocation.py": "f252024e7193b0e98c6f243b9dc6814c94c28c358e059b8a901da8e6396620b2",
+    "root_block_collocation.py": "fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748",
+    "strong_block_qr.py": "74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb",
+    "strong_fresh_physical_merit_runtime.py": "6dd391ed4b996a892eab2a93551cb77a2eb410c237ea4b89680486b22cf663b4",
+    "strong_fresh_physical_merit_actual_bvp.py": "b8a898cf5f9dd34e3fe0f9b0ebf2ea12181b93f5a166fb69f7f108c93de47a7d",
+    "strong_domain_rejection_observer.py": "97b469fe8a6f22a0152b12e700d17d6a2b9cededea8e9dab143025c8ab5a3049",
+    "strong_physical_merit_and_affine_resume.py": "e330336daab09ef9d0bcb93cb36e04581636e33e645ed5e319987c3cc0f2810f",
+    "root_domain_newton.py": "fd0f63fed7d74115c6e482bf47560230409ce2c20880aaa91e4e4ea1fbda0c83",
+    "root_actual_neck_bvp.py": "03bd353875b4a7ca248c938887b706ce6e2d3115e9b82f2cf772ccc4b5ce98b7"
+  },
+  "stats": {
+    "jacobian_callbacks": 0,
+    "jacobian_points": 0,
+    "assembled_matrices": 0,
+    "factors": 0,
+    "linear_solves": 0,
+    "maximum_numerical_backward_error": 0.0
+  },
+  "memory": {
+    "prefix": {
+      "pid": 5,
+      "PPid": 4,
+      "VmHWM": 175648,
+      "VmRSS": 175648,
+      "Threads": 1
+    },
+    "direct_owned_children": [],
+    "prefix_user_seconds": 1.871356,
+    "prefix_system_seconds": 0.314399,
+    "prefix_peak_rss_kib": 175504
+  },
+  "seconds": 1.4446317769979942,
+  "exact_float64_storage": true,
+  "original_equations_and_nonlinear_gates_unchanged": true,
+  "factor_backward_error_is_numerical_not_an_interval_certificate": true,
+  "no_prefix_success_implied_by_linear_backward_check": true,
+  "formal_summary_exists": true,
+  "formal_solver_success": false,
+  "formal_audit_pending": null
+}

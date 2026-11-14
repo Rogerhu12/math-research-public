@@ -1,0 +1,126 @@
+{
+  "scope": "Inspect baseline-Flow retention on three actual radial BVP states.\n\nPass --check-output PATH and an ordinary strong_neck_bvp command. No nonlinear\nsolve or global Jacobian is performed. The candidate only restores the already\nselected baseline Flow and its exact key after geometric finite differences;\nall derivative arithmetic is obtained from the same loaded root source.\n",
+  "inspection_only": true,
+  "nonlinear_solution": false,
+  "n": 61,
+  "modes": 20,
+  "radial_points": [
+    0.4124537238454766,
+    0.7017083540990336,
+    0.9607960371412886
+  ],
+  "selected_mesh_indices": [
+    7,
+    14,
+    20
+  ],
+  "full_warm_nodes": 28,
+  "exact_return_comparison": [
+    {
+      "label": "original_first",
+      "state_array_equal": true,
+      "parameter_array_equal": true,
+      "state_max_abs": 0.0,
+      "parameter_max_abs": 0.0
+    },
+    {
+      "label": "original_repeat",
+      "state_array_equal": true,
+      "parameter_array_equal": true,
+      "state_max_abs": 0.0,
+      "parameter_max_abs": 0.0
+    },
+    {
+      "label": "retained_first",
+      "state_array_equal": true,
+      "parameter_array_equal": true,
+      "state_max_abs": 0.0,
+      "parameter_max_abs": 0.0
+    },
+    {
+      "label": "retained_repeat",
+      "state_array_equal": true,
+      "parameter_array_equal": true,
+      "state_max_abs": 0.0,
+      "parameter_max_abs": 0.0
+    }
+  ],
+  "measurements": [
+    {
+      "label": "original_first",
+      "seconds": 2.813038416999916,
+      "cpu_seconds": 0.5023775080000004,
+      "table_builds": 1,
+      "table_build_seconds": 1.3936053040015395,
+      "table_build_cpu_seconds": 0.26554645999999993,
+      "baseline_flow_id": 140199300171776,
+      "table_id": null,
+      "selected_key": [
+        0.023820298502637838,
+        -0.010487329965176775
+      ],
+      "table_retained": false
+    },
+    {
+      "label": "original_repeat",
+      "seconds": 1.6902576809952734,
+      "cpu_seconds": 0.36880086200000006,
+      "table_builds": 1,
+      "table_build_seconds": 0.8697106539984816,
+      "table_build_cpu_seconds": 0.1903699440000004,
+      "baseline_flow_id": 140199292798064,
+      "table_id": null,
+      "selected_key": [
+        0.023820298502637838,
+        -0.010487329965176775
+      ],
+      "table_retained": false
+    },
+    {
+      "label": "retained_first",
+      "seconds": 1.9284667519968934,
+      "cpu_seconds": 0.3844797609999997,
+      "table_builds": 1,
+      "table_build_seconds": 1.0069875460030744,
+      "table_build_cpu_seconds": 0.20484708900000026,
+      "baseline_flow_id": 140199292317824,
+      "table_id": 140199308688704,
+      "selected_key": [
+        0.023820298502637838,
+        -0.010487329965176775
+      ],
+      "table_retained": true
+    },
+    {
+      "label": "retained_repeat",
+      "seconds": 0.739715294999769,
+      "cpu_seconds": 0.1604943400000005,
+      "table_builds": 0,
+      "table_build_seconds": 0.0,
+      "table_build_cpu_seconds": 0.0,
+      "baseline_flow_id": 140199292317824,
+      "table_id": 140199308688704,
+      "selected_key": [
+        0.023820298502637838,
+        -0.010487329965176775
+      ],
+      "table_retained": true
+    }
+  ],
+  "source_sha256": {
+    "strong_flow_cache_check.py": "4c5fd142a31b22ae9f6b7d55ca6a31fc9e0f36dfb6747e5bc83d3f715c25410e",
+    "strong_neck_bvp.py": "1a5d091383a02ea8f4bc14607ea10857cd196489e81238155f4bf8e1d9795c9a",
+    "root_dual_core_bvp.py": "85c057132c34694558360af857c9686b3ce7be7c31861ae6a3b6e6313184d652",
+    "root_radial_batching.py": "6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+  },
+  "transform": {
+    "old": "self.select(p);self.flow(p[0])\n            return ds[None,None,:]*J,PJ",
+    "new": "self.select(p);self._flow=f;self._flow_key=(float(p[0]),float(p[1]))\n            return ds[None,None,:]*J,PJ"
+  },
+  "memory": {
+    "peak_rss_kib": 126308,
+    "rss_kib": 100864
+  },
+  "explanation": "Only three radial points are inspected. Timing is diagnostic, not a full-Jacobian speed claim."
+}

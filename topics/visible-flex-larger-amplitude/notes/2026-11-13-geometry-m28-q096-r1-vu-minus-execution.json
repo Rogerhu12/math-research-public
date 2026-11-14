@@ -1,0 +1,65 @@
+{
+  "name": "vu-minus",
+  "started_utc": "2026-11-13T08:22:52.388781+00:00",
+  "reused_existing_complete_case": false,
+  "process_returncode": 0,
+  "exitcode": 0,
+  "complete_finite_field": true,
+  "shape": [
+    3383,
+    384,
+    3
+  ],
+  "report_sha256": "575de864f4c0026ef5e3df70d655b7cf0a0b3a65561cd909d917d7883f4c719a",
+  "resource_sha256": "cfc0010649f9b6dfde95c654137274a9bc40fdac28cd3a31bf2a31af7bd5f2ce",
+  "field_manifest_sha256": "9aef82bd310d8d94c6fb8caa57cfe744c671dbc311a3a163336db1c3604f8801",
+  "chunks": [
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-vu-minus-field-part000.npy.gz",
+      "sha256": "180daf9e4d0eca78e36a415ede585a9c3fced65ad9fc3c74d922482076872664",
+      "bytes": 1617516
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-vu-minus-field-part001.npy.gz",
+      "sha256": "ee8c0ca3ebd65a40a5d1a84e2ba1862ccd0b762a3268236554ccf303ffed2b40",
+      "bytes": 1576236
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-vu-minus-field-part002.npy.gz",
+      "sha256": "abbe5c7c14d6d2f3cbce4a9a585ed1fceff46f93d3f4da4be97ca7e321518d2f",
+      "bytes": 1573949
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-vu-minus-field-part003.npy.gz",
+      "sha256": "fdcbab86d243ab04f9c0dc684f8f43055dfe5b0b1b42b2b25e0e5917dcd01eb3",
+      "bytes": 1562328
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-vu-minus-field-part004.npy.gz",
+      "sha256": "f7a7fd91c304aad856f600cbc35b1889d4a4f9c82d59e21d5cd362aba88e08b2",
+      "bytes": 1499592
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-vu-minus-field-part005.npy.gz",
+      "sha256": "a11629b836add18f43768485f673c16e9f04af3666b2536fc35e2f31ca7cad85",
+      "bytes": 1423243
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-vu-minus-field-part006.npy.gz",
+      "sha256": "79c4b2e891a090b7f7d5c3b52369efd2012a4097ff6e4e3ad6726cfca330181e",
+      "bytes": 1377602
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/geometry-vu-minus-field-part007.npy.gz",
+      "sha256": "923fae35ea1da2d455cbc224e8d28758bf3eb2391d1165ee732753c2655c4b79",
+      "bytes": 979691
+    }
+  ],
+  "kappa_abs_max_sample": 8.432815154305466,
+  "twice_norm_max_sample": 3.908138447152417,
+  "height_abs_max_sample": 1.9258373656303176,
+  "peak_rss_kib": 169444,
+  "wall_seconds": 112.187495470047,
+  "accepted_nonlinear_solution": false,
+  "continuous_geometry_certified": false
+}

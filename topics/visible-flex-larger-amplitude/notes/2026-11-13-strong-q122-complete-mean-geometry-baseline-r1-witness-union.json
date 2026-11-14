@@ -1,0 +1,64 @@
+{
+  "scope": "Merge saved finite witness coordinates without relabelling their identities.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nThis only prepares a comparison grid. It samples no field and proves no bound.\n",
+  "angular": 768,
+  "numerical_t": [
+    0.30420152408437534,
+    0.31692406342424173,
+    0.8226964654548264
+  ],
+  "known_reference_witnesses": [
+    {
+      "numerical_t": 0.30420152408437534,
+      "angular_index": 243,
+      "eta": 1.988039101099791,
+      "source_grid": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q098-r1/geometry-grid.json",
+      "old_witness_only": true,
+      "radial_index": 0,
+      "witness_original_grid": "m28-q106-r1/geometry-grid.json",
+      "witness_original_grid_sha256": "8c64fe9e79c079aa99f7eeea274639457cfe159fd3c0543254f1b45b404c81ee"
+    },
+    {
+      "numerical_t": 0.8226964654548264,
+      "physical_s": 2.595776087507138,
+      "angular_index": 192,
+      "eta": 1.5707963267948966,
+      "source_audit": "notes/2026-11-13-strong-q106-interior-fullmean-audit-r2.json",
+      "source_audit_sha256": "cc4b51d2cc0fd84498c78936e7fe89bf1e5b563c2dac232d4b1830ad568672a7",
+      "source_polynomial_sample": 8.257143662247577,
+      "same_accepted_baseline_physical_polynomial_witness": true,
+      "raw_cubic_evaluation_does_not_replace_physical_quintic_audit": true,
+      "radial_index": 2,
+      "witness_original_grid": "m28-q106-r1/geometry-grid.json",
+      "witness_original_grid_sha256": "8c64fe9e79c079aa99f7eeea274639457cfe159fd3c0543254f1b45b404c81ee"
+    },
+    {
+      "radial_index": 1,
+      "angular_index": 134,
+      "eta": 1.0962849364089382,
+      "physical_s": 1.0049114341418386,
+      "source_polynomial_sample": 8.409022709039338,
+      "source_witness": {
+        "value": 8.409022709039338,
+        "s": 1.0049114341418386,
+        "psi": 1.0962849364089382,
+        "segment": "first descending turn",
+        "interval": 554,
+        "interval_width": 0.0001700166649927226,
+        "normalized_interval_position": 0.5
+      },
+      "source_audit_input_sha256": "006eaa15e9b1416aa72140e616e1ecf75461033df8448ade0bbd812826d210a8",
+      "same_physical_field_through_explicit_fixed_view_bridge": true,
+      "numerical_t": 0.31692406342424173,
+      "witness_original_grid": "m28-q122-r1/fixed-view-witness-grid.json",
+      "witness_original_grid_sha256": "a3dc3b85c59f7c187e02227eefb61b13885494aa1edf4768460ca860bbfbf3df"
+    }
+  ],
+  "only_coordinate_union": true,
+  "new_field_evaluation": false,
+  "original_witness_identity_and_values_retained": true,
+  "source_sha256": "726d4e5434a9e8db0397ce8711f3184ace2bfa78eaa3eebc046161e86a31ff84",
+  "input_sha256": {
+    "m28-q106-r1/geometry-grid.json": "8c64fe9e79c079aa99f7eeea274639457cfe159fd3c0543254f1b45b404c81ee",
+    "m28-q122-r1/fixed-view-witness-grid.json": "a3dc3b85c59f7c187e02227eefb61b13885494aa1edf4768460ca860bbfbf3df"
+  }
+}

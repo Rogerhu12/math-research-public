@@ -1,0 +1,129 @@
+{
+  "schema": "strong-local-sameg-M28-split-storage-prepared-v1",
+  "status": "prepared only; neither new Python entry has run or been AST-parsed",
+  "scope": "Resume already accepted q096 by real fixed-view conversion and unchanged same-g M28 actual refinement; storage only is split across two owned filesystems.",
+  "source_blobs": [
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/strong_sameg_split_storage.py",
+      "blob": "57f92082cd89c2673530b31d1bc348345dfc1ce5",
+      "sha256": "4cfec7a654611d94f54e6c17ef8580c9a04c775adce65ed35c561efd3194f437",
+      "bytes": 7816
+    },
+    {
+      "path": "topics/visible-flex-larger-amplitude/computations/strong_local_sameg_m28.py",
+      "blob": "d9a548c2b3202db5e5652d5598033893686be66e",
+      "bytes": 12086,
+      "sha256": "b6d6cb50428ee564952756a91ccb11e2729077ef1cc54282c7c0e6a86ce3324b"
+    }
+  ],
+  "frozen_runtime": {
+    "path": "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258",
+    "parent_provided_source": "63aa2751892f99380668f4d22c0a8255a5e59ea7",
+    "MJS_changes": 0
+  },
+  "pinned_source": {
+    "path": "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "revision": "869436630c99aa5a68afb55bd8877c826034d117",
+    "files": 91,
+    "bytes": 866846,
+    "manifest_sha256": "7de25376ab0ec10277840ccdca8ec6b46b41bee6add97acd9d38c06bbc8cd941",
+    "action": "Verify every exact existing file twice (launcher and original bootstrap); no Git restoration or source-origin label is substituted for the actual hashes."
+  },
+  "runtime": {
+    "python": "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "python_version": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "node_expected_by_original_bootstrap": "v24.22.1",
+    "flint_not_required_for_this_lane": true,
+    "blas_omp_mkl_numexpr_threads": 1
+  },
+  "source_materialization": "Place the two exact new source blobs side-by-side in /tmp/visible-flex-larger-20261112T2304/strong-m28-launch-sources. This does not alter the frozen runtime. The launcher copies the small split helper into its owned computations directory and links original immutable sources.",
+  "exact_argv": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "-u",
+    "/tmp/visible-flex-larger-20261112T2304/strong-m28-launch-sources/strong_local_sameg_m28.py",
+    "--frozen-runtime",
+    "/workspace/scratch/c0de65fac774/math-research-runtime-20261112T2258",
+    "--owned-root",
+    "/tmp/visible-flex-larger-20261112T2304/strong-m28-local-recovery6-r1",
+    "--matrix-parent",
+    "/workspace/scratch/c0de65fac774/strong-m28-jac-local-recovery6-r1",
+    "--source-topic",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "--run-id",
+    "local-recovery6-r1",
+    "--source-reference",
+    "63aa2751892f99380668f4d22c0a8255a5e59ea7",
+    "--phase",
+    "all"
+  ],
+  "fresh_identity_rule": "If either owned root or matrix parent exists, the launcher refuses. Use a new explicit run ID; never erase an unknown old run.",
+  "outputs": "/tmp/visible-flex-larger-20261112T2304/strong-m28-local-recovery6-r1/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1*",
+  "factor_parent": "/tmp/visible-flex-larger-20261112T2304/strong-m28-local-recovery6-r1/factor-arena",
+  "unchanged_math": {
+    "initial_nodes": 2181,
+    "modes": 28,
+    "angular": 1024,
+    "radial_tol": 1e-7,
+    "max_nodes": 3200,
+    "tail_modes": 28,
+    "tail_quadrature": 512,
+    "tail_depth": 8,
+    "tail_steps": 12,
+    "tail_shooting_parts": 8,
+    "tail_tolerance": 2e-9,
+    "all28_core_unknown": true,
+    "physical_profile_and_reference_t_frozen": true,
+    "new_node_heap128_young4_resource_only": true
+  },
+  "original_stages": [
+    "restore63 exact original bytes",
+    "real27to24 fixed-view RMS/BC with0workers",
+    "same-g M28 prepare",
+    "same-g M28 full actual BVP/tail",
+    "old24 and new28 internal second-jet audits",
+    "actual final28 Cartesian/mean seam",
+    "same-g material points and all five derivatives"
+  ],
+  "storage": {
+    "formula_matrix": "8*(nodes-1)*n*(2*n+k)",
+    "formula_QR": "8*(nodes-2)*(4*n*n+n*k+n)",
+    "n": 85,
+    "k": 28,
+    "initial2181": {
+      "matrix_bytes": 293515200,
+      "QR_bytes": 546754680,
+      "total_bytes": 840269880
+    },
+    "maximum3200": {
+      "matrix_bytes": 430713360,
+      "QR_bytes": 802442160,
+      "total_bytes": 1233155520
+    },
+    "boundary_blocks": "Resident NumPy arrays, not arena file bytes. Earlier BC-inclusive estimate was a conservative upper estimate, corrected by the actual lines145-186 of the locked disk source.",
+    "output_and_guard_headroom_not_included_in_totals": true,
+    "two_disk_paths_use_existing_directory_keyword": true,
+    "all_old_matrix_QR_float64_bytes_and_arithmetic_retained": true,
+    "old_factor_released_before_refresh": "The original strong_neck_bvp transform already assigns factor=None before rebuilding the original Jacobian; it remains unchanged.",
+    "checks_at_actual_run": "Current first-factor capacity checked before the new tail/solve; actual QR capacity checked before each exact factor. Space exceptions are resource failures, not mathematical nonexistence.",
+    "last_observed_free": {
+      "tmp": 630763520,
+      "workspace": 465379328
+    },
+    "shared_free_space_can_change": true,
+    "no_cache_or_scientific_file_deleted": true
+  },
+  "authentication": "All GH/GITHUB token and GIT_CONFIG_* keys are removed before any numerical child; only removed key names are logged. No authentication is needed because sources and inputs already exist.",
+  "new_wrapper_effect": "Only the two supervised spectral child commands are routed; the QR initializer executes its original unchanged function with a different directory keyword. Every original streamed backward check and scientific final gate stays active.",
+  "latest_loss": {
+    "new_M28_or_other_numerical_job_started": false,
+    "read_only_cell": "g2:5",
+    "formal_tool_return": "CreateProcess failed before exec-server connection;409 environment_offline",
+    "node_version_command_reached": false,
+    "old_r7_session80885_terminal": "unknown"
+  },
+  "future_first_action": "After actual executor recovery, materialize these two source blobs, then execute exact_argv directly. No further approval is needed and no old q096 BVP should be repeated.",
+  "no_workflow_dispatched": true,
+  "no_ref_changed": true
+}

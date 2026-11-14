@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-11-12T11:10:40.394758+00:00",
+  "scope": "exact source restoration and historical observations only; no lost numerical response recreated",
+  "base_main": "95189144e667089085b8603b78822f88b92166c6",
+  "strict_87bb_to_a84_replay": true,
+  "files": [
+    {
+      "path": "computations/strong_actual_same_height_tail.py",
+      "bytes": 11041,
+      "sha256": "ef8ffa1ceaa813d3a04f3551c3b44111d0e0af2d60953a750e7ec25e46a72ea3"
+    },
+    {
+      "path": "computations/strong_actual_recorded_tail_port.py",
+      "bytes": 14744,
+      "sha256": "7fc687bd4608f5656140dc19abebccfb66074684c46651513efe68818ec311f0"
+    },
+    {
+      "path": "computations/strong_actual_recorded_tail_check.py",
+      "bytes": 9534,
+      "sha256": "e009628fe6a94f8537a6513c6a017e18948c4f9024b94c8dfe7660b627548f5d"
+    },
+    {
+      "path": "computations/strong_actual_prefix_geometry.py",
+      "bytes": 7231,
+      "sha256": "530a786d65cae809fb38c07f13203b51f7ca36f6e94897c967225e19934e628d"
+    },
+    {
+      "path": "computations/strong_actual_three_control_bvp.py",
+      "bytes": 40199,
+      "sha256": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-q105-r2-entry-source.py.gz",
+      "bytes": 10295,
+      "sha256": "d41b157e925a4dbe8883f7e100eff9f82415b57997a3817e5a9be08030657e5d"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-recorded-port-entry.diff",
+      "bytes": 5912,
+      "sha256": "6677f6a5f895e811ea2c1c663a43114a43d3ff2ec2650c6dbe6aa7a98422e493"
+    },
+    {
+      "path": "notes/2026-11-12-strong-actual-entry-recovery-edits.json",
+      "bytes": 4184,
+      "sha256": "e4b917f83d08c4c9475cf9cbfe9acf84b81ddd3da9fddb685d05524f7cede86f"
+    },
+    {
+      "path": "notes/2026-11-12-strong-executor-recovery-metadata.json",
+      "bytes": 1953,
+      "sha256": "b764e52897b4cfb71e375b6f6ed1d9c5ecd18781e652db9d0c872604244a3be6"
+    },
+    {
+      "path": "notes/2026-11-12-strong-executor-second-recovery.md",
+      "bytes": 5218,
+      "sha256": "5a03e4c33b7f9e80a645aaced319287a9c4afaaa782c30810f23f5284a125935"
+    },
+    {
+      "path": "notes/2026-11-12-strong-executor-second-recovery-rerun-plan.json",
+      "bytes": 2930,
+      "sha256": "48c10f0353e3fc68c026eb465d94727baf68f2c7d64ac9c0a11727d9c261ca9e"
+    }
+  ]
+}

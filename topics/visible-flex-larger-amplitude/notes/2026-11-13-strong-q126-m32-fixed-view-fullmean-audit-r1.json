@@ -1,0 +1,131 @@
+{
+  "scope": "Sample the accepted actual C2 polynomial with its original complete mean.\n\nThe saved nonmean polynomial and all original curvature/metric formulas are\nretained. Geometry angles remain independent from the original postprocessor\nmean rule max(512,16*(3*M+1)); the latter supplies both mean first and second\njets. All values remain finite spatial samples, not continuous certificates.\nNo field, profile, metric, nonlinear solve or acceptance gate is changed.\n",
+  "input": "notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+  "input_sha256": "cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa",
+  "source_sha256": "3d464d3022c82016f6d2f94b7f18394c672ef815fdb4574979aa0f0582bf2ffe",
+  "config": {
+    "angular": 768,
+    "radial": 801,
+    "batch": 8,
+    "interior_fractions": [
+      0.5,
+      0.21132486540518713,
+      0.7886751345948128
+    ],
+    "mean_angular": 1552,
+    "mean_rule": "original physical postprocessor",
+    "original_audit_source_sha256": "1b7f45785fffc41595eda9aae844c3081d2954d3ea08ac0da6e5a90c935294fa"
+  },
+  "sample_count": 11156,
+  "modes": 32,
+  "q": 0.09,
+  "physical_metric_sha256": "a96207b9d9d4e978b3b270e5d96a548edf7aa73ddf3de1e341e3af6249317ab1",
+  "top": {
+    "metric_component_max": {
+      "value": 4.747124493498234e-08,
+      "s": 2.6655682283959155,
+      "psi": 1.1862784759648959,
+      "segment": "loop outward coast",
+      "interval": 2299,
+      "interval_width": 0.0008297613690610994,
+      "normalized_interval_position": 0.7886751345945642
+    },
+    "kappa": {
+      "value": 8.345514341083943,
+      "s": 2.6336433085309867,
+      "psi": 1.5707963267948966,
+      "segment": "loop outward turn",
+      "interval": 2214,
+      "interval_width": 0.00037745597879057513,
+      "normalized_interval_position": 0.0
+    },
+    "darboux_frobenius": {
+      "value": 6.308316028022977e-05,
+      "s": 0.9804604458484882,
+      "psi": 0.0,
+      "segment": "boost",
+      "interval": 362,
+      "interval_width": 0.000877700425704453,
+      "normalized_interval_position": 0.788675134594838
+    },
+    "flow_defect": {
+      "value": 1.6871662365088206e-07,
+      "s": 0.4575123950115372,
+      "psi": 0.0,
+      "segment": "hermite",
+      "interval": 93,
+      "interval_width": 0.0031157056854329013,
+      "normalized_interval_position": 0.7886751345948066
+    },
+    "actual_vs_PDE_second": {
+      "value": 1.2280053946976116e-05,
+      "s": 2.24592614658351,
+      "psi": 1.5707963267948966,
+      "segment": "descending speed sync",
+      "interval": 1716,
+      "interval_width": 4.836851059097924e-05,
+      "normalized_interval_position": 0.788675134598215
+    },
+    "metric_fourier_l1": {
+      "value": 6.732632338692604e-08,
+      "s": 2.9014087977616674
+    },
+    "darboux_fourier_l1": {
+      "value": 0.000109742672124582,
+      "s": 0.9806459257728163
+    }
+  },
+  "seconds": 106.97385215759277,
+  "frontload_anchor_adapter": {
+    "scope": "Fresh provider-only anchor adapters for geometry and actual saved loaders.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nEach original loader and all its mathematical/acceptance formulas are frozen.\nExactly its frontload import is redirected to the separately identified\ncurrent-anchor hook. Both the original and repaired hook identities and all\nadapter sources are carried into actual result provenance.\n",
+    "role": "audit",
+    "original_loader_sha256": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0",
+    "original_monotone_hook_sha256": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+    "current_anchor_hook_sha256": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+    "loader_adapter_source_sha256": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+    "entry_source_sha256": "3d464d3022c82016f6d2f94b7f18394c672ef815fdb4574979aa0f0582bf2ffe",
+    "transformed_loader_sha256": "1ce50fcd173c4225eedbcf2f84ca40c7f93dbc9290757e70f75256dfe1058fe1",
+    "exact_reverse_recovers_original_loader": true,
+    "mathematical_geometry_mean_quintic_and_acceptance_formulas_changed": false,
+    "actual_hook_source_fingerprints_explicit_in_result": true,
+    "installation_order": [
+      "original angle",
+      "original pulse",
+      "fresh current-anchor frontload"
+    ],
+    "original_zero_weight_arithmetic_delegated": true,
+    "old_frozen_sources_modified": false
+  },
+  "initial_laws_provider_adapter": {
+    "scope": "Reload the accepted physical quintic with the declared initial-speed law.\n\nThis adds only the existing pulse/frontload providers to the saved physical\nloader used by the frozen complete-mean interior audit. Its original C2\npolynomial, curvature and metric formulas, complete mean rule and sampling\ngrid are unchanged. Every reported number remains a finite sample, not a\ncontinuous certificate or a new nonlinear solution.\n",
+    "observations": {
+      "provider_loads": 1,
+      "saved_fields": [
+        {
+          "initial_speed_frontload": 0.0,
+          "initial_speed_pulse": 0.0,
+          "initial_speed_frontload_degree": 22,
+          "physical_profile_unchanged": true,
+          "zero_weight_uses_original_arithmetic": true,
+          "physical_length": 3.191226831699177,
+          "physical_length_original_gate_passed": true
+        }
+      ]
+    },
+    "source_sha256": {
+      "strong_interior_jet_fullmean_audit.py": "5622e694bd16a3a8a294d564cdab42bcec33555cf212ebc1d26ff342fcc999e0",
+      "strong_interior_jet_audit.py": "1b7f45785fffc41595eda9aae844c3081d2954d3ea08ac0da6e5a90c935294fa",
+      "geometric-checkpoint-core-pullback.py": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33",
+      "strong_initial_speed_pulse.py": "f1d8c0867d598313da760fcd4910cd20c5f387afd7c6bd90a31b257848acbf73",
+      "strong_monotone_initial_speed.py": "12d6340d4e9dce27ee93d390971d0258cc1e2299dedf99fe21365a70494549e7",
+      "strong_initial_laws_interior_fullmean_audit.py": "35155b17516ce3ff72ddfc957894e53cbd2c7a4a6707d57e62887a8d72e4fbe0",
+      "strong_monotone_initial_speed_anchor.py": "583af82cdd6bb672325844587d8aac67e47365ccb5152ac2eae543837adc0ffc",
+      "strong_frontload_anchor_loader_adapter.py": "aa32079179e20a95493cd911185ea69e7df2b4d5b150a713597e9d2f9fd73c86",
+      "strong_anchor_interior_fullmean_audit.py": "3d464d3022c82016f6d2f94b7f18394c672ef815fdb4574979aa0f0582bf2ffe"
+    },
+    "complete_mean_source_transformed_sha256": "5a9c257777c597b84e4cdf333abf6bdc039f91cfac1e2f860e6fcb33401dd448",
+    "exact_reverse_recovers_original_complete_mean_source": true,
+    "original_physical_quintic_and_all_metric_curvature_formulas_unchanged": true,
+    "numerical_solution_or_continuous_certificate_created": false
+  }
+}

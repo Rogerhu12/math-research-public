@@ -1,0 +1,20 @@
+{
+  "status": "Prepared real/complex candidate-amplitude source derivative only",
+  "source_sha256": "93dd01f62eb9642c881640550df6253235798cb531ee439dbf29ddeaebadd10e",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_source_parameter_rows.py",
+    "--functional",
+    "notes/2026-11-12-closure-outer-two-cell-adjoint-r1.json",
+    "--refined-source",
+    "notes/2026-11-12-closure-outer-source-cell10-refined-moments-r1-summary.json",
+    "--family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3-summary.json",
+    "--completed-centres",
+    "notes/2026-11-12-closure-two-cell-refined-source-reweight-r1.json",
+    "--out",
+    "notes/2026-11-12-closure-outer-source-parameter-rows-r1.json"
+  ],
+  "actual_head_DN_or_outer_correction_derivative_claimed": false,
+  "arithmetic": "exact Fraction and outward80bit local dyadics"
+}

@@ -1,0 +1,38 @@
+{
+  "base_sha256": "87bb5063e3b0580701cfa2589d1b6eb495fc7a83fb226944e6df3f1c2ce685da",
+  "expected_sha256": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+  "edits": [
+    {
+      "old": "    parser.add_argument('--tail-warm-checkpoint', type=Path)\n",
+      "new": "    parser.add_argument('--tail-warm-checkpoint', type=Path)\n    parser.add_argument('--initial-audited-tail-packet', type=Path)\n    parser.add_argument('--initial-audited-tail-ready', type=Path)\n    parser.add_argument('--release-tail-worker-between-responses', action='store_true')\n"
+    },
+    {
+      "old": "    if bool(options.resume_actual_iterate) != bool(options.resume_tail_config):\n        raise ValueError('Actual iterate recovery requires its exact prior tail-config file')\n",
+      "new": "    if bool(options.resume_actual_iterate) != bool(options.resume_tail_config):\n        raise ValueError('Actual iterate recovery requires its exact prior tail-config file')\n    if bool(options.initial_audited_tail_packet) != bool(options.initial_audited_tail_ready):\n        raise ValueError('Exact audited-H reuse requires its complete packet and ready record')\n    if options.initial_audited_tail_packet and not options.tail_warm_checkpoint:\n        options.tail_warm_checkpoint = options.initial_audited_tail_packet\n    if options.release_tail_worker_between_responses and not options.initial_audited_tail_packet:\n        raise ValueError('Worker release mode requires the explicit exact audited-H port')\n"
+    },
+    {
+      "old": "        tail_warm_info = dict(file=str(options.tail_warm_checkpoint),\n",
+      "new": "        prior_tail_audited = bool(recovery.get('response', {}).get('converged')\n            and recovery['response'].get('audit') is not None)\n        tail_warm_info = dict(file=str(options.tail_warm_checkpoint),\n"
+    },
+    {
+      "old": "            warm_only=True, prior_state_not_accepted=True,\n",
+      "new": "            warm_only=True, prior_state_not_accepted=not prior_tail_audited,\n            prior_tail_audited=prior_tail_audited, does_not_accept_prefix=True,\n"
+    },
+    {
+      "old": "        'strong_frozen_calibration_factory.mjs')\n",
+      "new": "        'strong_frozen_calibration_factory.mjs', 'strong_actual_recorded_tail_port.py')\n"
+    },
+    {
+      "old": "    if options.tail_warm_checkpoint:\n        hashes[str(options.tail_warm_checkpoint)] = sha(options.tail_warm_checkpoint)\n",
+      "new": "    if options.tail_warm_checkpoint:\n        hashes[str(options.tail_warm_checkpoint)] = sha(options.tail_warm_checkpoint)\n    if options.initial_audited_tail_packet:\n        for path in (options.initial_audited_tail_packet, options.initial_audited_tail_ready):\n            hashes[str(path)] = sha(path)\n"
+    },
+    {
+      "old": "        explicit_same_H_tail_warm_recovery=tail_warm_info,\n",
+      "new": "        explicit_same_H_tail_warm_recovery=tail_warm_info,\n        exact_initial_audited_tail_reuse=dict(packet=str(options.initial_audited_tail_packet),\n            ready=str(options.initial_audited_tail_ready), exact_H_only=True,\n            changed_H_requires_original_live_solve=True,\n            release_worker_between_responses=options.release_tail_worker_between_responses,\n            audit_every_live_response=options.release_tail_worker_between_responses)\n            if options.initial_audited_tail_packet else None,\n"
+    },
+    {
+      "old": "        else:\n            loaded = original_loader(name, path)\n        if path.name == 'root_domain_newton.py':\n",
+      "new": "        else:\n            loaded = original_loader(name, path)\n        if path.name == 'tail_frozen_client.py' and options.initial_audited_tail_packet:\n            from strong_actual_recorded_tail_port import make_port_class\n            loaded.WeightedTailPort = make_port_class(loaded.WeightedTailPort,\n                options.initial_audited_tail_packet, options.initial_audited_tail_ready,\n                Path(argument('--source-topic')),\n                release_between_responses=options.release_tail_worker_between_responses)\n        if path.name == 'root_domain_newton.py':\n"
+    }
+  ]
+}

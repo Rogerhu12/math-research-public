@@ -1,0 +1,82 @@
+{
+  "status": "Executed and proved actual conditional two-mode field ball; first failed serialization run retained",
+  "files": [
+    {
+      "path": "computations/root_outer_projected_field_ball.py",
+      "bytes": 13624,
+      "sha256": "fe9ba68d87de66601518421ac4f06ed0c151cb908ea4367ab03741b3858a7873"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-projected-field-ball-r1-plan.json",
+      "bytes": 1883,
+      "sha256": "c61c6dd66044eddf335000559ead125f9d00e38f1d39dc7532641528c6e5c18f"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-projected-field-ball-r1-resource.json",
+      "bytes": 1188,
+      "sha256": "b325d4169a847821dc946d8d826087bcf67557bcaf15eb3f67187bfbbd56fc93"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-projected-field-ball-r1-rows.jsonl.gz",
+      "bytes": 1739988,
+      "sha256": "29770eabdcf1c3bb1467b14e9e0f0fd3fd5f827686baaef6a442510a8f1e56d4"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-r1-serialization-failure.json",
+      "bytes": 825,
+      "sha256": "196802b3f12f84bee1dd5f3eb97adabd2ebfd705e637d87431d7b926aa3d39bd"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-r1-failed-stable-manifest.json",
+      "bytes": 1164,
+      "sha256": "941c039107519e90f200d52d3ad85955de4a2f7b74d47af4b77de094ba2c3c39"
+    },
+    {
+      "path": "computations/root_outer_projected_field_ball_v2.py",
+      "bytes": 13633,
+      "sha256": "799e1150478d24f1b46ebb41fcf380ebde6fb1961d90c1005cd13d250a51f1c4"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-projected-field-ball-r2-plan.json",
+      "bytes": 2031,
+      "sha256": "a34c7078c9ceb3075580472dcfc948598e76b8d689f3dca85f83a5b1ec618f3c"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-projected-field-ball-r2-resource.json",
+      "bytes": 1200,
+      "sha256": "7f5bd5a1cfabd3b0c915d9c8760005104ba4ccc53afa64331ba4e582c434851e"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-projected-field-ball-r2.json",
+      "bytes": 33358,
+      "sha256": "027311615c86e468be9a1f4b53f594a2d88192dd7760537b190f818b6a0d0a67"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-projected-field-ball-r2-rows.jsonl.gz",
+      "bytes": 1739988,
+      "sha256": "54af08db9280b40acb52b1dd17aae922f177c6e653614c55e405e910e7d9f8ea"
+    },
+    {
+      "path": "results/R86-actual-two-mode-outer-projected-field-ball.md",
+      "bytes": 10165,
+      "sha256": "5867afb6f155b838141ca4434604889c2406c46522ca58fffec143c430923068"
+    },
+    {
+      "path": "notes/2026-11-12-root-r86-complete-execution.json",
+      "bytes": 1224,
+      "sha256": "9fcf293259bff715a555ad019356222ec021da935cc3f89237c990025763fd43"
+    }
+  ],
+  "file_count": 13,
+  "total_bytes": 3560271,
+  "formal_success_session": "23614",
+  "formal_exitcode": 0,
+  "complete_groups": 18,
+  "complete_original_leaves": 10793,
+  "complete_subpanels": 10933,
+  "unpaid": [
+    "actual cut equals inner parameter",
+    "remaining PDE modes and mean height position",
+    "outer0..9 and full closed geometry"
+  ]
+}

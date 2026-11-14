@@ -1,0 +1,138 @@
+{
+  "scope": "Locate sampled Frenet square-root margins of an actual saved neck map.\n\nThe reported margin is 1-(a'/(a*kappa_latitude))^2, computed from the\nactual first and second angular derivatives. It is not an embedding or\nreach certificate. Negative Newton trial margins do not prove nonexistence.\n",
+  "input": "topics/visible-flex-larger-amplitude/notes/alternative-neck-k7-q008-m10.json.gz",
+  "input_sha256": "f72a5d9e87d9aca02be15c5e5b519f094a4c0bec437163df2b96ab6898020edc",
+  "source_sha256": {
+    "alternative-neck-domain-map.py": "f084ccf361a43e3a1e35bf04cb00471c0fb43fdf308db278333fe9fd0027a117",
+    "alternative-neck-curvature-map.py": "a10a7a8debd0b5ac62f1138ba8378342b24da1c9ddb8bc199d663b329204dc8d",
+    "geometric-checkpoint-core-pullback.py": "d319574d946f2f6c465b76ffeb92117201aa95bc4318e7100377b184a530fa33",
+    "alternative-neck-provider.py": "77c2994538717bfd26bd96ed475553bece7d9a315afd9c054153698926cab41a"
+  },
+  "frozen_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.09711303030031365,
+    "vu": 0.25,
+    "vd": 0.9993297729553412,
+    "start_acceleration": 0.45,
+    "boost_speed": 0.8689804963021789,
+    "boost_length": 0.23484080028265214,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 8.0,
+    "descending_turn_curvature": 7.0,
+    "descending_sync_curvature": 7.0,
+    "terminal_peak_fraction": 0.1
+  },
+  "gauge_amplitude": 0.008,
+  "meridian_length": 2.9789539272666588,
+  "angular": 256,
+  "radial_samples": 2019,
+  "rows": [
+    {
+      "label": "first descending turn",
+      "margin": 0.0009639061755738476,
+      "s": 1.2863096448329217,
+      "psi": 1.5707963267948966,
+      "a": 1.161263803079934,
+      "ap": -0.9993297571851585,
+      "latitude_curve_curvature": 0.8609686559248513,
+      "background_margin": 0.0013400364042521762
+    },
+    {
+      "label": "descending coast",
+      "margin": 0.0009640474717181879,
+      "s": 1.2873557637636976,
+      "psi": 1.5707963267948966,
+      "a": 1.1602183852879362,
+      "ap": -0.9993297729553412,
+      "latitude_curve_curvature": 0.8617445085086326,
+      "background_margin": 0.0013400048850261692
+    },
+    {
+      "label": "descending speed sync",
+      "margin": 0.0011627928873818583,
+      "s": 2.0770423949818033,
+      "psi": 0.0,
+      "a": 0.37106102340698005,
+      "ap": -0.9993297642026355,
+      "latitude_curve_curvature": 2.69473540760788,
+      "background_margin": 0.001340022378704897
+    },
+    {
+      "label": "terminal bridge",
+      "margin": 0.0051525428066188095,
+      "s": 2.9425488446193806,
+      "psi": 1.5707963267948966,
+      "a": 0.336309457300684,
+      "ap": -0.9974201152840357,
+      "latitude_curve_curvature": 2.9734510624172086,
+      "background_margin": 0.005153113626780836
+    },
+    {
+      "label": "loop outward turn",
+      "margin": 0.02952568890397278,
+      "s": 2.4779606611095484,
+      "psi": 1.5707963267948966,
+      "a": 0.35000000000000003,
+      "ap": 0.985,
+      "latitude_curve_curvature": 2.8567758390967066,
+      "background_margin": 0.029774999999999996
+    },
+    {
+      "label": "loop outward coast",
+      "margin": 0.02952898407057447,
+      "s": 2.4795918163551613,
+      "psi": 1.5707963267948966,
+      "a": 0.3516066879169288,
+      "ap": 0.985,
+      "latitude_curve_curvature": 2.843726457830231,
+      "background_margin": 0.029774999999999996
+    },
+    {
+      "label": "loop inward turn",
+      "margin": 0.029593405397987937,
+      "s": 2.5141735536585976,
+      "psi": 1.5707963267948966,
+      "a": 0.3856696990816151,
+      "ap": 0.9849995351073784,
+      "latitude_curve_curvature": 2.5926484757046144,
+      "background_margin": 0.029775915838248457
+    },
+    {
+      "label": "loop inward coast",
+      "margin": 0.029773180272334776,
+      "s": 2.8933090018577423,
+      "psi": 1.5707963267948966,
+      "a": 0.38490726360591027,
+      "ap": -0.985,
+      "latitude_curve_curvature": 2.59802595785449,
+      "background_margin": 0.029774999999999996
+    },
+    {
+      "label": "boost",
+      "margin": 0.23413919472551536,
+      "s": 0.8846475114333368,
+      "psi": 1.5707963267948966,
+      "a": 1.2282397792326458,
+      "ap": 0.8689773821302388,
+      "latitude_curve_curvature": 0.8084448370122753,
+      "background_margin": 0.2448783093460769
+    },
+    {
+      "label": "hermite",
+      "margin": 0.935641872203612,
+      "s": 0.6455084581801644,
+      "psi": 1.5707963267948966,
+      "a": 1.095962439160405,
+      "ap": 0.24997714608119487,
+      "latitude_curve_curvature": 0.8990895177553991,
+      "background_margin": 0.937511426437101
+    }
+  ],
+  "seconds": 0.3853003978729248
+}

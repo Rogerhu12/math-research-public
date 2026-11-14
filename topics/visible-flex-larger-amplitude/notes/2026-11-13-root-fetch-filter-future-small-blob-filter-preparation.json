@@ -1,0 +1,15 @@
+{
+  "schema": "sole-publisher-future-small-blob-filter-preparation-v1",
+  "previous_source": "/workspace/scratch/d1aa462cfc02/maintain_git_pack_space-before-new-blob-filter.py",
+  "previous_sha256": "9f33f43c668255d0cf3f7a268fea1394bcaa49fa38ca46d0f2603dcb309a6c3e",
+  "new_source": "/workspace/scratch/d1aa462cfc02/maintain_git_pack_space.py",
+  "new_sha256": "a0305de60ecac34e92727aa8ef5eec9dd7d3355948936ae7932e1adafb529e27",
+  "local_config_not_modified_by_this_preparation": true,
+  "applied_only_by_existing_exclusive_maintenance_invocation": true,
+  "refs_and_history_never_changed_by_filter": true,
+  "observed_problem": "Repeated approximately 0.94GB duplicate fetch packs with one unpublished conclusion and repeated non-fast-forward pushes. Exact transfer cause is not yet proved.",
+  "official_docs": [
+    "https://git-scm.com/docs/git-config",
+    "https://git-scm.com/docs/partial-clone"
+  ]
+}

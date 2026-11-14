@@ -1,0 +1,553 @@
+{
+  "scope": "Small committed source dependencies for the prefix and nonlinear tail workflows; no source data payloads.",
+  "source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+  "files": [
+    {
+      "path": "topics/continuous-flexibility-swarm/agent-work/914b-final-height/R78-explicit-caps-phase-activation-extract.md",
+      "sha256": "dace21a8f4b5eaf72b059bda21ea3d49eced285b6311f44c07626518ab7747d1",
+      "bytes": 7292,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/continuous-flexibility-swarm/results/R520-actual-newton-zero-height-closed-flexibility.md",
+      "sha256": "919f21d91c1e6597e44be0d875d435a9177d925b44e6eec50bf6bedbdbfc292f",
+      "bytes": 70061,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/notes/general-exact-mild-tail-full-analytic-map.md",
+      "sha256": "8f5dad9e32f32eff99fc2d67bfa10be823fed4e73ccec4cc344af7f4eb9cf95d",
+      "bytes": 16439,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/notes/general-exact-mild-tail-quadratic-material.md",
+      "bytes": 13650,
+      "sha256": "62522177e86dd2c0420c9f52f9fef2d3f88de5e244fa5bd7613a14635cf8120e"
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/notes/general-geometry-mild-tail-forced-shadowing-lemma.md",
+      "sha256": "9da80e91c7500bf4ca198e0f03765ed6a98c251b7c63471493cee3327076463f",
+      "bytes": 14651,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/notes/general-geometry-mild-tail-huge-r-cell-estimates.md",
+      "sha256": "53d0012321fe0c33c9a0ae1fb382eb68080281e36ca33c2504e306895e363978",
+      "bytes": 18105,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/results/R16-periodic-development-and-metric-error.md",
+      "sha256": "55b9f882f0691ccb4b837c1fe2aec2896b54fd4e2852bea1cf694965b595b4d1",
+      "bytes": 14544,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/results/R18-cuff-mean-period-and-c2-development.md",
+      "sha256": "063783197840bb03fab062fe65085af831526edf28f7912f012541e245c43646",
+      "bytes": 18025,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/results/R20-mild-r64-c2-single-tail.md",
+      "sha256": "2b8aef5d75f1be23cf5e2d690c51fc43db7006ddfa1bcb92e5082fae4e65153c",
+      "bytes": 31209,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/results/R28-fixed-deep-background-c2-cuff.md",
+      "sha256": "ff37c93014ddae437add50e6bed7c495df099ce3a6883fd0a14e6666163b2163",
+      "bytes": 9372,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/large-amplitude-twist-flex/results/R31-fixed-background-cartesian-tail-taper.md",
+      "sha256": "b035b389a9b86cfc9db82a65f54b881a313cc7c9f9707285a9ef02653b6e8b34",
+      "bytes": 11832,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/smooth-unrippled-twist-flex/results/R6-fixed-metric-c2-collar-closure.md",
+      "sha256": "ffc19cabf6735462833b8b7336eeb20f19bc4bc4776a981c345bf80b65726dbc",
+      "bytes": 8582,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/closing_tail_dependency_blobs.json",
+      "sha256": "71d6aa7ced8ee553901a7c2748d569359dace927fc6573eaccd5032714c3fa60",
+      "bytes": 719,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py",
+      "sha256": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+      "bytes": 22225,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py",
+      "sha256": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+      "bytes": 10411,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py",
+      "sha256": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5",
+      "bytes": 5131,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_tangent_core.py",
+      "sha256": "0bd3386b9c070134df59295233fd40f052e82694b8f6156b44856e89c4bfd20c",
+      "bytes": 12758,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py",
+      "sha256": "c8a49714f838119be8e300f83bedaa02ee0f106e57ab936803b01f36fe685604",
+      "bytes": 18439,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py",
+      "sha256": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984",
+      "bytes": 13127,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py",
+      "sha256": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158",
+      "bytes": 6579,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py",
+      "sha256": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a",
+      "bytes": 8737,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py",
+      "sha256": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef",
+      "bytes": 10432,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py",
+      "sha256": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+      "bytes": 36488,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py",
+      "sha256": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+      "bytes": 5123,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py",
+      "sha256": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8",
+      "bytes": 3834,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654",
+      "bytes": 2576,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py",
+      "sha256": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e",
+      "bytes": 10959,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py",
+      "sha256": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f",
+      "bytes": 5012,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "sha256": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc",
+      "bytes": 6349,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py",
+      "sha256": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302",
+      "bytes": 10353,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs",
+      "sha256": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad",
+      "bytes": 1414,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs",
+      "sha256": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+      "bytes": 4133,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs",
+      "sha256": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+      "bytes": 7447,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs",
+      "sha256": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+      "bytes": 1805,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs",
+      "sha256": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+      "bytes": 5715,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs",
+      "sha256": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+      "bytes": 2892,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs",
+      "sha256": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+      "bytes": 3245,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs",
+      "sha256": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+      "bytes": 4129,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs",
+      "sha256": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+      "bytes": 2420,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs",
+      "sha256": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+      "bytes": 3560,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs",
+      "sha256": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+      "bytes": 5394,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs",
+      "sha256": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+      "bytes": 2464,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs",
+      "sha256": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+      "bytes": 10389,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs",
+      "sha256": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+      "bytes": 6514,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs",
+      "sha256": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+      "bytes": 12799,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs",
+      "sha256": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+      "bytes": 9657,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs",
+      "sha256": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+      "bytes": 6319,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+      "sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+      "bytes": 13095,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs",
+      "sha256": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+      "bytes": 7047,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs",
+      "sha256": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311",
+      "bytes": 6520,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/results/R15-weighted-inner-background-and-collar-bounds.md",
+      "sha256": "268da9dd07a1009825a62636c039f6f4c847eca6b723959eb75822530cd5904a",
+      "bytes": 6027,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian.py",
+      "sha256": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+      "bytes": 4594,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-geometric-client.py",
+      "sha256": "57326a2d91d262c0057d268c5114f18bad818cecd98e43ee640b6fca5844f3e5",
+      "bytes": 4752,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-geometric-fourier-worker.mjs",
+      "sha256": "b55dbf519d7432036efbc6482e512691991ca75294d27aecf2b918de4aa425af",
+      "bytes": 10362,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-geometric-worker.mjs",
+      "sha256": "756f42d7047d224652aee078d2d0bc7b0b84cc93a44827a513de4d11c6cb1a11",
+      "bytes": 9643,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+      "sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+      "bytes": 12294,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-product-flow.mjs",
+      "sha256": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f",
+      "bytes": 2400,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-product-jacobian.mjs",
+      "sha256": "205b28dbde3b43392ef8ad0a915e9f4265264f4663b5bc2a0ea34421516cfd25",
+      "bytes": 3948,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-root-momentum.mjs",
+      "sha256": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+      "bytes": 13809,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-fourier-root-split-engine.mjs",
+      "sha256": "a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372",
+      "bytes": 2045,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-amplitude-warm.mjs",
+      "sha256": "61c401abf66ca792f1c085f6a4b5b5911a62c3f966adb2dc11bd911b196148af",
+      "bytes": 3416,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-geometric-warm-remesh.mjs",
+      "sha256": "365c51f6dffcbc9e63ca80744c05badc6fe35b7f70100a779ea5636118134c15",
+      "bytes": 5122,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-core.mjs",
+      "sha256": "ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3",
+      "bytes": 17250,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-predictor.mjs",
+      "sha256": "8d39830939a52fc40f7de06cf5a2a9de9959f94058594051a7989b8b40744459",
+      "bytes": 4250,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/78718-tail-tangent-split.mjs",
+      "sha256": "bacb4f2d57d75fa648ae880ef029152263052d6a15030154082732b8a89e1089",
+      "bytes": 1948,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "bytes": 19011,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "sha256": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+      "bytes": 6004,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py",
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+      "bytes": 19466,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-linear-cusp.mjs",
+      "sha256": "40eb9d9dd40ffcb3f9493ae5f933a6bb358923a3982c510ed512b820fbceda3f",
+      "bytes": 3015,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs",
+      "sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "bytes": 5118,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs",
+      "sha256": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+      "bytes": 3312,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs",
+      "sha256": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+      "bytes": 17812,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs",
+      "sha256": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7",
+      "bytes": 1515,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_weighted_hard_gate_opt.mjs",
+      "sha256": "c5913cecf2ef302552c4dbf9dafd1da4739c232124ffdcc4c9debd27162b79dc",
+      "bytes": 3308,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_weighted_modes_diagnostic.mjs",
+      "sha256": "975e2bbeed7b01e3b878e96df4da53a2114c6c0ae81de7afceca0803d4a00705",
+      "bytes": 1169,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+      "bytes": 3033,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-closed-mesh.py",
+      "sha256": "351c9828602a7ba38e918ed7ac46fb93699f8b92395a76fc1593cbde4114386e",
+      "bytes": 9956,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-audit-mesh-family.py",
+      "sha256": "cac3abcbafd8666b9cc5f902d476dfd60bb481f73c90162dec72d95d17f8b8b7",
+      "bytes": 5183,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-export-closed-mesh.py",
+      "sha256": "ee4a474ebdecf4462e41f19b8b22c591f0e532e0419f0d7b3e4f2677d43b1708",
+      "bytes": 25226,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py",
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "bytes": 2008,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-core.mjs",
+      "sha256": "95cd3c52b16f5c1605c52c9d67125cd914eb66370524fe1c22059c382888df39",
+      "bytes": 16010,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-shared-split.mjs",
+      "sha256": "1753a7a3c408c7a34630f3dd392294bf8ce53a2e5d0ad9518e154d275a3c4cf7",
+      "bytes": 1953,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-client.py",
+      "sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+      "bytes": 3711,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-core.mjs",
+      "sha256": "d475d0f6a0dab247efa751e468052d0f30829e1761ccf7f85094a13fe95902e5",
+      "bytes": 17134,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-split.mjs",
+      "sha256": "aa50ed54848a0e4e7e2be64a08160e17fa4379df2eed8bf8675baf2d2f344727",
+      "bytes": 1952,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-prefix-tail-trial-worker.mjs",
+      "sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837",
+      "bytes": 9280,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-collar-exact-check.py",
+      "sha256": "5dba8adfa32273b79fe99cf9a9a85e79fbf64dbf674173ac6ae5e4d6521ae1ba",
+      "bytes": 3619,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-collar-packet.mjs",
+      "sha256": "2ffee5aff046439bd7b08b10e28bd6b418010baa43b1a915f0f2c68494913c5a",
+      "bytes": 6993,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-increment-export-v2.mjs",
+      "sha256": "3e87f6641f993d5bb440398c49112a37ad13937a5419ecd901bd33249a101921",
+      "bytes": 21688,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f-tail-sample-background-height.mjs",
+      "sha256": "106061533820a1639387b33b535408d312ade7a8337d59ed8c2b48ec80bc08a4",
+      "bytes": 9474,
+      "matches_commit": true
+    },
+    {
+      "path": "topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+      "sha256": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+      "bytes": 8064,
+      "matches_commit": true
+    }
+  ],
+  "total_bytes": 866846,
+  "unmatched": []
+}

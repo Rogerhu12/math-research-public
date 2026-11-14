@@ -1,0 +1,27 @@
+{
+  "title": "Same-H complete trial3 native recovery and accepted-only follower bound to actual r3",
+  "scope": "Preparation and actual launch only. The original d151 producer remains unchanged; new prefix and original tail-warm-checkpoint input retain complete H/state identity. The old A fullflow manifest is not paired with a different base state. Only original exact stage cache may reuse identical completed flow evaluations. Future complete acceptance is not asserted.",
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-actual-r3-launch-plan.json",
+      "bytes": 9128,
+      "sha256": "791e7cf011a9749d4b71fd2fc139c68d273a2e8960b2c81f7af6a944707f002e",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-size099-actual-r3-launch-plan.json",
+      "original_sha256": "791e7cf011a9749d4b71fd2fc139c68d273a2e8960b2c81f7af6a944707f002e"
+    },
+    {
+      "file": "notes/2026-11-13-strong-a32-gap-release-size099-fixed-view-fullmean-followup-plan-r2.json",
+      "bytes": 14751,
+      "sha256": "5d476a6ad32f5512ddffbebee9ecb887a262ce1fc4b9a33f0c57bb2dbc423fa1",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-a32-gap-release-size099-fixed-view-fullmean-followup-plan-r2.json",
+      "original_sha256": "5d476a6ad32f5512ddffbebee9ecb887a262ce1fc4b9a33f0c57bb2dbc423fa1"
+    }
+  ],
+  "original_native_source_sha256": "d151cb67c2dbfbadd5ba35a9f386c5e15ff98f056df45d89677b989cd887f651",
+  "active_solver_session": 89142,
+  "active_accepted_only_follower_session": 49171,
+  "full_BVP_accepted": false,
+  "created_utc": "2026-11-13T19:49:39.032119+00:00",
+  "schema": "strong-small-archive-manifest-v1",
+  "bytes": 23879
+}

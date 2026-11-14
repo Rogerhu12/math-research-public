@@ -1,0 +1,31 @@
+{
+  "status": "Sources initially prepared statically; low rescaling/float diagnostic now formally executed, strict strong verifier not executed because the positive proposal failed.",
+  "records": [
+    {
+      "source": "computations/closure_split_joint_float_proposal.py",
+      "source_sha256": "2c01a7d761419b226d9ca89ab11f83d54630ce56bdb226dbba463a1888c8d14b",
+      "output": "computations/closure_split_joint_float_proposal_v2.py",
+      "output_sha256": "98b3468ea807d54c4d71650d37d51cbd6a761ea97f467a278648f44e0c82b63f",
+      "replacement_count": 2
+    },
+    {
+      "source": "computations/closure_split_joint_verify.py",
+      "source_sha256": "7de7b0d07508eb18487a5b8a61fc49d48f5445b047ca5f9033fe49de8140ac81",
+      "output": "computations/closure_split_joint_verify_v2.py",
+      "output_sha256": "57349e4bd24a684b9c4503475700ff8e0db00cfd48c4b229af1da22446c0f746",
+      "replacement_count": 2
+    },
+    {
+      "source": "computations/closure_rescale_strong_centred_green.py",
+      "source_sha256": "d5482aee9cdac0f7a0ee03363c9e7ea9b9477594105d7113a05c8238e74dc709",
+      "output": "computations/closure_rescale_strong_centred_green_v2.py",
+      "output_sha256": "2f519f27b2c4fd700ff0f3f92eab5d4b5811109d1915196c35e7e3e188d21acf",
+      "change_scope": "Explicit original q-reference schema guards; stream actual response/true column cells; release auxiliary documents; same complete46 R42 formulas and physical parameters.",
+      "initial_prepared_sha256": "a5c6206d5f9aa8beed75307a1db40ae38ea5d1070d94d3468e915ce00608e490"
+    },
+    {
+      "output": "computations/closure_split_joint_io_v2.py",
+      "output_sha256": "6cbcb8cf69a39d8df5d10be35a29b941b47fd66456364eb90fab7bbb22b386f0"
+    }
+  ]
+}

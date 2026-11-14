@@ -1,0 +1,64 @@
+{
+  "schema": "same-R100-head-mass-export-v1",
+  "all_gates": true,
+  "actual_R100_head_band_masses": [
+    [
+      "969010627137928207893569411918144927528500486193",
+      -360
+    ],
+    [
+      "390724449168911418367943865078083406051392012793",
+      -342
+    ],
+    [
+      "640212444019637913760045670455034731678566667517",
+      -387
+    ]
+  ],
+  "head_strip": {
+    "lower": {
+      "mantissa": "906638403841967895052180654333613742631438328226125039857",
+      "binary_exponent": -192
+    },
+    "upper": {
+      "mantissa": "906638403841967895052180654333613742631438328226125039857",
+      "binary_exponent": -192
+    },
+    "display": "[0.144435830748267669696002419692456487436853282374141578457 +/- 8.66e-59]"
+  },
+  "domain": {
+    "S_product_radius": [
+      "1",
+      0
+    ],
+    "T_l1_radius": [
+      "1",
+      -5
+    ]
+  },
+  "head_bands": [
+    [
+      94,
+      184
+    ],
+    [
+      186,
+      8190
+    ],
+    [
+      8192,
+      null
+    ]
+  ],
+  "primary": {
+    "path": "exact-work/inner-cut-canonical-endpoint-r1.json",
+    "sha256": "5741ce64f40e252c7b568bc8be61ae14695a41faf6fbaa3cbac13eaab5c9a5c9"
+  },
+  "resource": {
+    "path": "exact-work/inner-cut-canonical-endpoint-r1-resource.json",
+    "sha256": "7ac0112bcbbeb52a6872df4cc8c5bb32de0e9a0a4604d012bdb6cc0e2dd1117d"
+  },
+  "complete_mean_inverse_far": true,
+  "same_original617_units": "617987048c3a599acb42bcafe8dba99155c5cde82d252706769d5e24340ce1b9",
+  "scope": "Same complete inner head, canonical/physical endpoint intersection; no outer cut claim"
+}

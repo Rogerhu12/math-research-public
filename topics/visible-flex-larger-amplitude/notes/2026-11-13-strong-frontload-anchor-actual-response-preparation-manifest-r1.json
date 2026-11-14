@@ -1,0 +1,160 @@
+{
+  "scope": "Fresh corrected first-append production/response entries and exact same-state missing-two plan; preparation and metadata results only. No new response or BVP is claimed.",
+  "created_utc": "2026-11-13T14:07:26.242295+00:00",
+  "original_frozen_sources_unchanged": true,
+  "all_MJS_unchanged": true,
+  "preparation_results": {
+    "2026-11-13-strong-anchor-actual-source-prepare-r1": {
+      "owned_exitcode": 0,
+      "wall_seconds": 1.5936816719986382,
+      "peak_rss_kib": 28728
+    },
+    "2026-11-13-strong-anchor-missing-two-source-prepare-r1": {
+      "owned_exitcode": 0,
+      "wall_seconds": 1.5435554399991815,
+      "peak_rss_kib": 22932
+    },
+    "2026-11-13-strong-anchor-complete-response-source-prepare-r1": {
+      "owned_exitcode": 0,
+      "wall_seconds": 1.741235494002467,
+      "peak_rss_kib": 22716
+    },
+    "2026-11-13-strong-anchor-missing-two-metadata-r1": {
+      "owned_exitcode": 0,
+      "wall_seconds": 14.006145701001515,
+      "peak_rss_kib": 79272
+    }
+  },
+  "plan": {
+    "file": "notes/2026-11-13-strong-anchor-missing-two-production-plan-r1.json",
+    "sha256": "dfccf2ca55ecd15e95ea661e454d101864150d39477b5e3d51124443f9e78eba"
+  },
+  "files": [
+    {
+      "file": "computations/strong_full_tangent_initial_laws_anchor_actual_bvp.py",
+      "sha256": "d151cb67c2dbfbadd5ba35a9f386c5e15ff98f056df45d89677b989cd887f651",
+      "bytes": 4405
+    },
+    {
+      "file": "computations/strong_samechart_initial_laws_anchor_response.py",
+      "sha256": "d83947ea4f7457435a272863b9ba88a9a7ddfe551e76dc4db596c63dc61de212",
+      "bytes": 10276
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-actual-source-prepare-r1-heartbeat.json",
+      "sha256": "eb0a70bd3da6b1f9276f3ae8a679d3d1d2ef7f4e86a58195c6ab27a37c8640e4",
+      "bytes": 303
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-actual-source-prepare-r1-ownership.json",
+      "sha256": "08135b26d8ddcf4173fb71d0d73a6ca6a0115f69fcdca938fa61802899ac8c13",
+      "bytes": 1475
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-actual-source-prepare-r1-resource.json",
+      "sha256": "f360723bb5f0ddff68d6b1b7304ef9be78374e1124c4b448a2337fa40e0912e2",
+      "bytes": 1278
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-actual-source-prepare-r1-stdout.log",
+      "sha256": "d573fa429c6b14e0f25a0481df192472824d76b1e53d14de9ecbecdac08ba3cb",
+      "bytes": 1391
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-actual-source-prepare-r1.json",
+      "sha256": "0bc2e20291babf86e5bd465f31a86fd613a032b33b30b2b4d900e8e4fef75933",
+      "bytes": 32274
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-complete-response-source-prepare-r1-heartbeat.json",
+      "sha256": "e200b47b3f04fcf5345e13d54a6689f77f8f5deed902edf2b9ab5e09c7ae62d6",
+      "bytes": 325
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-complete-response-source-prepare-r1-ownership.json",
+      "sha256": "c03c3b4638e67ccdd5b31a866aa6b6e211898bf4ea049018e5f0959b733dce9d",
+      "bytes": 1513
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-complete-response-source-prepare-r1-resource.json",
+      "sha256": "a189073f962e4658fd4e97cbb13750e81088758ea39a8b53e69fa3a593964f00",
+      "bytes": 1294
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-complete-response-source-prepare-r1-stdout.log",
+      "sha256": "bee17ddd5e9c192e702c9f3fdaee10f1ef535c509d8f8d6daa3e4a35dd54195e",
+      "bytes": 1412
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-complete-response-source-prepare-r1.json",
+      "sha256": "c0ea32aa5b72912a3ab19dcb4de36598bd5e70c1a4719258f0f427cba82d4939",
+      "bytes": 14432
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-metadata-r1-heartbeat.json",
+      "sha256": "ff2d358125079fee44eb5895816eefaa0d6a4e3585a6b17963790f33113e180d",
+      "bytes": 301
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-metadata-r1-ownership.json",
+      "sha256": "e4c3b306fe1e5f90a5188e00dce07b0b292ed38cabe431dea4c2b62a4b9824bd",
+      "bytes": 2413
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-metadata-r1-resource.json",
+      "sha256": "075d9ee717c5ef863f695ca3ffd05989782e7eb580504110d7930a6685360d90",
+      "bytes": 2208
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-metadata-r1-samechart-adapter.json",
+      "sha256": "96ff573005bcb853c4abde5fbd99ac776e05a33dcac4d8e4d331bd2c81c3db2f",
+      "bytes": 2067
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-metadata-r1-stdout.log",
+      "sha256": "2b91a3bd893eafe0acd729110956057147f771a716d9aff679a384090c7a5e65",
+      "bytes": 36930
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-metadata-r1.json",
+      "sha256": "074f4ab89a38214a83a325469e6786f52bbee23a284c06baa691ae23d207aea0",
+      "bytes": 40202
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-production-plan-r1.json",
+      "sha256": "dfccf2ca55ecd15e95ea661e454d101864150d39477b5e3d51124443f9e78eba",
+      "bytes": 12782
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-source-prepare-r1-heartbeat.json",
+      "sha256": "856eb5d26eea14c0a7fefc5f8895269e7358ef30680ecec6463f9097a9d6a048",
+      "bytes": 313
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-source-prepare-r1-ownership.json",
+      "sha256": "f4a6ec60353a5dff1961100fe510ad9de461d05da0d15c1fe5bcaea8b1644f75",
+      "bytes": 1587
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-source-prepare-r1-resource.json",
+      "sha256": "80313b1ad44e5d8826471d03a2c120c729bb3c45bc6704a1f4dc8f46020aa704",
+      "bytes": 1370
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-source-prepare-r1-stdout.log",
+      "sha256": "506a4b8c587fd10341734f604c61e2c0eb1f2dc1eb73c2e113512498cd198dfb",
+      "bytes": 1480
+    },
+    {
+      "file": "notes/2026-11-13-strong-anchor-missing-two-source-prepare-r1.json",
+      "sha256": "6e9ce4d3b15f0c0824ae5c199228c946eed7f052ecae6062f2a1549a4f402ac0",
+      "bytes": 30629
+    },
+    {
+      "file": "notes/2026-11-13-strong-frontload-anchor-actual-response-preparation-r1.md",
+      "sha256": "d2227f44be88b3932bb4bd0c2069b05f240d3d73a1fb33e37fd0f7d20b8b3109",
+      "bytes": 1286
+    }
+  ],
+  "total_bytes": 203946
+}

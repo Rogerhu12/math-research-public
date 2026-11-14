@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "all_46_physical_modes": true,
+    "all_shallow_height_charts_nonzero": true,
+    "all_213_cells": true,
+    "all_column_group_hashes": true,
+    "frozen_v2_entrypoint": true,
+    "all_R23_reference_balls": true,
+    "green_covers_46": true
+  },
+  "linear_terminal_status": "98069 complete output exists, but final tool exit code was lost across context compression; subsequent poll Unknown process",
+  "green_terminal_status": {
+    "session_id": 24209,
+    "observed_exitcode": 0
+  },
+  "linear_seconds": 93.46660766399998,
+  "linear_peak_RSS_KiB": 93608,
+  "green_seconds": 11.992134696999983,
+  "green_peak_RSS_KiB": 87780,
+  "projected_contraction_gate_paid": false,
+  "eta_upper": {
+    "mantissa": "1577999014353775689658318750711133572308321097549771923853",
+    "binary_exponent": -172
+  },
+  "hashes": {
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered-raw-manifest.json": "9e53ed106942175c5c7e274ffd398a07e05b1f9f2326c229fce96d8c9d33afd1",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz": "cabdb3fca1d9176b1f2c46a2f7b2ff5b82ff1af426c4c942c7863c3c15c65f91",
+    "notes/2026-11-12-closure-real-green-q003-low46-recovered.json.gz": "1dae324c054ff18ab55ab1dc905c0370cb79dba2d7098c0cf360bfeed97a3ffe"
+  },
+  "limits": "Validation of actual data/provenance and linear height charts; the full 46-mode scalar-source contraction gate is not paid."
+}

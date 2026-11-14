@@ -1,0 +1,26 @@
+{
+  "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/root_anisotropic_true_cut_cauchy.py",
+    "--family",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r3.json.gz",
+    "--source",
+    "notes/2026-11-12-closure-auxiliary-cut-m2m4-r3.json.gz",
+    "--far-completion",
+    "notes/2026-11-12-closure-r63-far-boundary-completion-r1.json",
+    "--trace",
+    "notes/2026-11-12-closure-strong-true-cut-trace-r1.json",
+    "--out",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json",
+    "--rss-kib",
+    "51200"
+  ],
+  "wall_seconds": 1.4068078994750977,
+  "exitcode": 0,
+  "termination_signal": null,
+  "peak_rss_kib": 21620,
+  "user_seconds": 0.120212,
+  "system_seconds": 0.017103,
+  "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+}

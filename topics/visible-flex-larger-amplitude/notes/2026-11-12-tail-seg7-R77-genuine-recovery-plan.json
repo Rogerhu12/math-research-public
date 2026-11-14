@@ -1,0 +1,116 @@
+{
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "date": "2026-11-12",
+  "status": "Exact fresh recovery plan; the unpushed old numerical output is absent and is not recreated from prose",
+  "scope": "R77 postprocess of the identical already audited seg7 source-x candidate. No candidate change and no new source integration.",
+  "verified_small_source_inputs": [
+    {
+      "path": "computations/tail_outer_mean_constraint_stream.py",
+      "sha256": "7c838e9f703bd47ee958223b0f8e814ad81b2f9f68452a3edd3a5cff2cc09ca1"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+      "sha256": "806fdb96b9aa6eafd921c07518a5b52218180d2182f7b8d18abb8e3d695638e4"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+      "sha256": "912ad6200027fdb445cd3e8636c1f6cd404a3480d2c013b6c4722e6888016820"
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-streamcheck.json",
+      "sha256": "2c33f3a08428ed0573d61ed8bafd0fb64636c4e5c9487b8c419cf2f57abc7f2a"
+    }
+  ],
+  "primary_dependencies": [
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part00.jsonl.gz",
+      "sha256": "2ed331b98bd0004e2824088f2542483703a5e1fb9dfcdaa9105a863c2b6ba20a",
+      "bytes": 47029,
+      "part": 0,
+      "panels": 37
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part01.jsonl.gz",
+      "sha256": "af56ac6810d1226234d2232594be5e58b35cc6f69d3ee9b9021ac0234c8b77ff",
+      "bytes": 63437,
+      "part": 1,
+      "panels": 53
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part02.jsonl.gz",
+      "sha256": "a560755a9f860fe0a2828f56de36a3ed557a5b24ecb1e5213dde03539758142f",
+      "bytes": 139844,
+      "part": 2,
+      "panels": 125
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part03.jsonl.gz",
+      "sha256": "5181dce29cefe73de6e00ee06f6c03182b7d8ecd5114395f3d48d634ea901605",
+      "bytes": 226532,
+      "part": 3,
+      "panels": 208
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part04.jsonl.gz",
+      "sha256": "a398383644f2d077d0ea10d86f41784b02284fc71f1ba5f700787d57e0603441",
+      "bytes": 326502,
+      "part": 4,
+      "panels": 304
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part05.jsonl.gz",
+      "sha256": "8842ecd64dba441d60fa360761471f2026d16e83d9a9a485256ae4d8c3a9e7da",
+      "bytes": 272671,
+      "part": 5,
+      "panels": 257
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part06.jsonl.gz",
+      "sha256": "53cfb3121234f41e433991de2bb08b664c4e2b9b91b863cc53bc0cc4475862a6",
+      "bytes": 267317,
+      "part": 6,
+      "panels": 256
+    },
+    {
+      "path": "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-part07.jsonl.gz",
+      "sha256": "a2b0836b2603993aaa6aa828168f817184bab4ddaf278c96be90774420070676",
+      "bytes": 517207,
+      "part": 7,
+      "panels": 500
+    }
+  ],
+  "published_primary_dependency_count": 8,
+  "original_continuous_panels": 1740,
+  "command": [
+    "{python}",
+    "-B",
+    "computations/strong_resource_run.py",
+    "--out",
+    "{fresh_prefix}-resource.json",
+    "--",
+    "{python}",
+    "-B",
+    "computations/tail_outer_mean_constraint_stream.py",
+    "--summary",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2.json",
+    "--resource",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-resource.json",
+    "--stream-check",
+    "notes/2026-11-12-tail-outer-cell0-seg7-span2-centeredJ-r2-streamcheck.json",
+    "--rss-limit-mib",
+    "96",
+    "--out",
+    "{fresh_prefix}.json"
+  ],
+  "recommended_fresh_prefix": "notes/2026-11-12-tail-outer-cell0-seg7-R77-recovered-actions-{run_id}-{attempt}-interval",
+  "execution_requires": "Restore the listed repository files and the already recorded summary source/input dependencies. The original script enforces every source hash and all 8 complete primary hashes/partitions.",
+  "independent_of_carrier_four_steps": true,
+  "lost_historical_output_not_used": true,
+  "historical_numbers_not_supplied_as_targets": true,
+  "original_mean_root_and_derivative_retained": true,
+  "all_J_modes_retained": true,
+  "original_candidate_source_x_derivative_units_retained": true,
+  "new_Arb_ODE_Node": false,
+  "formal_fresh_execution_performed": false,
+  "followup": "Only after formal exit0 may its fresh exact bound be composed into the original same-function 8594-leaf report; do not substitute this into a different carrier candidate."
+}

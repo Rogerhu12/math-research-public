@@ -1,0 +1,3388 @@
+{
+  "scope": "Find low-height linear resonances for a planar core and a physical tail port.\n\nThis is a design screen, not a nonlinear solution, a closed surface, or a\nreach certificate. A selected design must subsequently be solved at fixed g.\nThe two-component linear equation is the one recorded in the source topic's\nnotes/fixed_metric_mode3_flow.py, with an arbitrary base mode m >= 2.\n",
+  "port": "topics/visible-flex-larger-amplitude/computations/numerical-m2-port.json",
+  "port_sha256": "3f9d2abcad2c6758a1f0c558bc7bf8931f78e39619d0c740257d1d83679d7103",
+  "mode": 2,
+  "cut": {
+    "radius": 0.6,
+    "backgroundSlope": 0.5000000000000018,
+    "backgroundSecond": -5.833333333333356,
+    "E": 1.2500000000000018,
+    "Ep": -5.833333333333377
+  },
+  "slope": 5.7127541910311574,
+  "bridge_length": 0.6388482209066094,
+  "rows": [
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.45,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.19409126295490536
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.786423488740876e-09,
+          "meridian_length": 2.281948859678295,
+          "background_height": 1.9821102655850236,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.03166407836672329,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.16741095582686819,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 4.177474615765607,
+              "linear_core_gap_over_D": 0.04787581455198046,
+              "background_kappa_times_D": 17.436752134912552
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 4.191092376229053,
+              "linear_core_gap_over_D": 0.09544051146873102,
+              "background_kappa_times_D": 17.493592579361355
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 4.202261252510301,
+              "linear_core_gap_over_D": 0.13326158616756,
+              "background_kappa_times_D": 17.54021139700938
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 4.207940318256283,
+              "linear_core_gap_over_D": 0.15209341188213615,
+              "background_kappa_times_D": 17.563915780848568
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 4.21657928196962,
+              "linear_core_gap_over_D": 0.18024088939814595,
+              "background_kappa_times_D": 17.59997475973583
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 4.22242167679963,
+              "linear_core_gap_over_D": 0.19893797074210623,
+              "background_kappa_times_D": 17.62436087811958
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.6,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.6,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.20578722916926512
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.2430789949198125e-07,
+          "meridian_length": 2.190418599563767,
+          "background_height": 1.8720437010791087,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.036558776095797454,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.17728986758182771,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.978865410257293,
+              "linear_core_gap_over_D": 0.050265585632630644,
+              "background_kappa_times_D": 16.607758590561428
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.9950777823555463,
+              "linear_core_gap_over_D": 0.10012320705409525,
+              "background_kappa_times_D": 16.675428927259432
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 4.0084247892792595,
+              "linear_core_gap_over_D": 0.13970575211932357,
+              "background_kappa_times_D": 16.731139248177584
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 4.015229321106748,
+              "linear_core_gap_over_D": 0.15939313768101096,
+              "background_kappa_times_D": 16.759541320190724
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 4.025603932252114,
+              "linear_core_gap_over_D": 0.1887915484956365,
+              "background_kappa_times_D": 16.802844880278233
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 4.032634442846367,
+              "linear_core_gap_over_D": 0.2083005568456882,
+              "background_kappa_times_D": 16.832190186208095
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.75,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.75,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.21119197339878634
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 1.1114608911687626e-09,
+          "meridian_length": 2.1138397811521012,
+          "background_height": 1.7755365019874016,
+          "background_kappa_sample": 6.155829146491321,
+          "linear_tail_height_gain": 0.04449499306518968,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.18184415521645295,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.808620121287815,
+              "linear_core_gap_over_D": 0.05251245690850725,
+              "background_kappa_times_D": 23.44521475053684
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.829002406238368,
+              "linear_core_gap_over_D": 0.10446585234532724,
+              "background_kappa_times_D": 23.570684614307545
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.845890062444502,
+              "linear_core_gap_over_D": 0.14560998648101142,
+              "background_kappa_times_D": 23.67464214059719
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.8545369143845263,
+              "linear_core_gap_over_D": 0.16603810372437233,
+              "background_kappa_times_D": 23.72787068379499
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.8677700532917707,
+              "linear_core_gap_over_D": 0.19649565241169945,
+              "background_kappa_times_D": 23.809331625979773
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.8767719958841442,
+              "linear_core_gap_over_D": 0.21667511034742395,
+              "background_kappa_times_D": 23.864746046564946
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.85,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.20820337433425332
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -2.0751223734974886e-09,
+          "meridian_length": 2.0385347710528503,
+          "background_height": 1.6870617504137158,
+          "background_kappa_sample": 9.762129465414576,
+          "linear_tail_height_gain": 0.05608738653919679,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.22397756460837837,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.656788936631692,
+              "linear_core_gap_over_D": 0.054692792902677666,
+              "background_kappa_times_D": 35.698047027094276
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.6834286682160577,
+              "linear_core_gap_over_D": 0.10859447434168076,
+              "background_kappa_times_D": 35.958107535744745
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.7057131662871723,
+              "linear_core_gap_over_D": 0.151118010183469,
+              "background_kappa_times_D": 36.17565169098675
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.7171983551324574,
+              "linear_core_gap_over_D": 0.17217267922125573,
+              "background_kappa_times_D": 36.287771591429156
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.734872330872996,
+              "linear_core_gap_over_D": 0.20348754459897594,
+              "background_kappa_times_D": 36.46030723077689
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.746963515312389,
+              "linear_core_gap_over_D": 0.22418152633919314,
+              "background_kappa_times_D": 36.57834293866445
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.6088929921645064
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -2.5809323120738657e-09,
+          "meridian_length": 4.732246487558754,
+          "background_height": 4.1593418780854154,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.4555053805280971,
+          "linear_f_max": 3.3187246528846948,
+          "linear_g_max": 1.986332611657436,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 8.539375465145728,
+              "linear_core_gap_over_D": 0.02342091653146287,
+              "background_kappa_times_D": 35.64329818085822
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 8.80476001513109,
+              "linear_core_gap_over_D": 0.04542997189163533,
+              "background_kappa_times_D": 36.75101158288974
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 9.07332631416288,
+              "linear_core_gap_over_D": 0.06171937177282778,
+              "background_kappa_times_D": 37.87200558494423
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 9.245690293254183,
+              "linear_core_gap_over_D": 0.06922144044419865,
+              "background_kappa_times_D": 38.59145172330251
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 9.638233943323721,
+              "linear_core_gap_over_D": 0.0788526201448391,
+              "background_kappa_times_D": 40.22992638992642
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 9.90507887271911,
+              "linear_core_gap_over_D": 0.0848049784150185,
+              "background_kappa_times_D": 41.343735406207635
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.45,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.17558755575841178
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -6.521833621428271e-10,
+          "meridian_length": 1.9394967820800302,
+          "background_height": 1.6380322362526156,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.03918790754402561,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.20236903668739667,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.56285485318231,
+              "linear_core_gap_over_D": 0.05613475941108345,
+              "background_kappa_times_D": 14.871333205270618
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.5812830552987562,
+              "linear_core_gap_over_D": 0.11169181375043012,
+              "background_kappa_times_D": 14.94825240219018
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.5964830975444286,
+              "linear_core_gap_over_D": 0.15570766907881517,
+              "background_kappa_times_D": 15.011697280604938
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.6042420738654655,
+              "linear_core_gap_over_D": 0.1775685392056963,
+              "background_kappa_times_D": 15.044083197785618
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.6160863194971653,
+              "linear_core_gap_over_D": 0.21017197402126223,
+              "background_kappa_times_D": 15.093521002751698
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.62412338648232,
+              "linear_core_gap_over_D": 0.23178018804026662,
+              "background_kappa_times_D": 15.127067668572945
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.6,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.6,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.18763074574901695
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 1.1862090961898093e-07,
+          "meridian_length": 1.854973424835423,
+          "background_height": 1.5356311075795457,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.045176949133827284,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.21599560682889532,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.388326747356407,
+              "linear_core_gap_over_D": 0.05902618457799007,
+              "background_kappa_times_D": 14.142854015863426
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.410297810372844,
+              "linear_core_gap_over_D": 0.11729180917377667,
+              "background_kappa_times_D": 14.234561091356436
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.428510491188342,
+              "linear_core_gap_over_D": 0.1633362363741523,
+              "background_kappa_times_D": 14.31058070375423
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.437839157750581,
+              "linear_core_gap_over_D": 0.18616345053756372,
+              "background_kappa_times_D": 14.34951849788974
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.452121032080245,
+              "linear_core_gap_over_D": 0.22015450586389917,
+              "background_kappa_times_D": 14.409130949337918
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.4618414446577233,
+              "linear_core_gap_over_D": 0.24264542828680932,
+              "background_kappa_times_D": 14.44970388881741
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.75,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.75,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.19344542646676166
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.224076014392534e-07,
+          "meridian_length": 1.7851914888577896,
+          "background_height": 1.4469971497569951,
+          "background_kappa_sample": 6.720560568934665,
+          "linear_tail_height_gain": 0.05435218791613191,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.2225583327538692,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.242585336840411,
+              "linear_core_gap_over_D": 0.06167917856400376,
+              "background_kappa_times_D": 21.791991156175396
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.2699694929812355,
+              "linear_core_gap_over_D": 0.12232530023860237,
+              "background_kappa_times_D": 21.976028036148968
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.29284928539078,
+              "linear_core_gap_over_D": 0.17006548173477726,
+              "background_kappa_times_D": 22.129793066841962
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.3046323480970625,
+              "linear_core_gap_over_D": 0.19366753471639203,
+              "background_kappa_times_D": 22.208981853447092
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.3227572162174317,
+              "linear_core_gap_over_D": 0.22872570896563144,
+              "background_kappa_times_D": 22.330791127453985
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.335150149031436,
+              "linear_core_gap_over_D": 0.2518627235550235,
+              "background_kappa_times_D": 22.41407858305724
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.85,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.19088337437881311
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.3571988416641397e-08,
+          "meridian_length": 1.7201048078018473,
+          "background_height": 1.369862399551284,
+          "background_kappa_sample": 10.64790635644144,
+          "linear_tail_height_gain": 0.06680566713573514,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.26539961977176085,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.1210880019313736,
+              "linear_core_gap_over_D": 0.06408021814067312,
+              "background_kappa_times_D": 33.23305277477819
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.156039203472066,
+              "linear_core_gap_over_D": 0.12674113793008224,
+              "background_kappa_times_D": 33.605209895828594
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.18556853952046,
+              "linear_core_gap_over_D": 0.17579279587068616,
+              "background_kappa_times_D": 33.91963550083978
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.200894765446166,
+              "linear_core_gap_over_D": 0.19994409279206396,
+              "background_kappa_times_D": 34.082827719294364
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.2246285512291015,
+              "linear_core_gap_over_D": 0.23568606055736804,
+              "background_kappa_times_D": 34.335542847794905
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.2409693105760327,
+              "linear_core_gap_over_D": 0.25918171988203825,
+              "background_kappa_times_D": 34.50953772311417
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.6212178484748826
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -7.067135486007212e-09,
+          "meridian_length": 4.157729279805727,
+          "background_height": 3.5508687865124235,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.5243832375652064,
+          "linear_f_max": 3.847537869014079,
+          "linear_g_max": 2.291323644910347,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 7.389875172756264,
+              "linear_core_gap_over_D": 0.027064056607793055,
+              "background_kappa_times_D": 30.845291365505926
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 7.732621120417638,
+              "linear_core_gap_over_D": 0.051728901981737865,
+              "background_kappa_times_D": 32.27591074307497
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 8.201374256378523,
+              "linear_core_gap_over_D": 0.06828123952086038,
+              "background_kappa_times_D": 34.23248331286782
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 8.517880662717705,
+              "linear_core_gap_over_D": 0.07513606087500671,
+              "background_kappa_times_D": 35.55357901399317
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 9.000547268785791,
+              "linear_core_gap_over_D": 0.08443930988904488,
+              "background_kappa_times_D": 37.568226318382905
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 9.326378802930892,
+              "linear_core_gap_over_D": 0.0900671115498786,
+              "background_kappa_times_D": 38.928245042897686
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.45,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.15884536685721803
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 7.081532734687136e-08,
+          "meridian_length": 1.7085139909888856,
+          "background_height": 1.405842151558928,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.046729819142503244,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.23587422406110906,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.1702667635570996,
+              "linear_core_gap_over_D": 0.06308617378797367,
+              "background_kappa_times_D": 13.232673048227616
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.193836051440633,
+              "linear_core_gap_over_D": 0.12524124393284788,
+              "background_kappa_times_D": 13.331051104020124
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.2134040550906957,
+              "linear_core_gap_over_D": 0.17427002343911416,
+              "background_kappa_times_D": 13.412727825198397
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.22343900969272,
+              "linear_core_gap_over_D": 0.1985457140884478,
+              "background_kappa_times_D": 13.454613661062066
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.2388172293232507,
+              "linear_core_gap_over_D": 0.2346535621458336,
+              "background_kappa_times_D": 13.518802250733403
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.249293421877133,
+              "linear_core_gap_over_D": 0.25851774245575143,
+              "background_kappa_times_D": 13.562529810965671
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.6,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.17076594893144723
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -3.641816585229291e-09,
+          "meridian_length": 1.6306706515690554,
+          "background_height": 1.310816273147949,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.05375452727697816,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.25328767122487955,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.018740687531727,
+              "linear_core_gap_over_D": 0.06625279237334228,
+              "background_kappa_times_D": 12.600204183028751
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.0468395707020504,
+              "linear_core_gap_over_D": 0.13128357785763967,
+              "background_kappa_times_D": 12.717488740368665
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.0703200324958835,
+              "linear_core_gap_over_D": 0.18239141003967993,
+              "background_kappa_times_D": 12.81549603663498
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.0824151163322826,
+              "linear_core_gap_over_D": 0.20762939962529317,
+              "background_kappa_times_D": 12.865980838651575
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.1010236345157476,
+              "linear_core_gap_over_D": 0.24508036363891847,
+              "background_kappa_times_D": 12.943652673673277
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.113751885345953,
+              "linear_core_gap_over_D": 0.2697710128906664,
+              "background_kappa_times_D": 12.996780310643159
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.75,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.75,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.17673495579249376
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.3352142655797701e-09,
+          "meridian_length": 1.5671530392106172,
+          "background_height": 1.229506490861231,
+          "background_kappa_sample": 7.355996438416425,
+          "linear_tail_height_gain": 0.06396842063620359,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.26198563692665994,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.8956058412603713,
+              "linear_core_gap_over_D": 0.06907017424476045,
+              "background_kappa_times_D": 21.30006625536909
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.930319974531383,
+              "linear_core_gap_over_D": 0.13650386424573585,
+              "background_kappa_times_D": 21.555423296073364
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.959613875177318,
+              "linear_core_gap_over_D": 0.1892138716799498,
+              "background_kappa_times_D": 21.77090912489219
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.974809161589953,
+              "linear_core_gap_over_D": 0.21513985107466113,
+              "background_kappa_times_D": 21.882685597624246
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.998330942730586,
+              "linear_core_gap_over_D": 0.25347435440460964,
+              "background_kappa_times_D": 22.055711735919953
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.0145224751551996,
+              "linear_core_gap_over_D": 0.2786510987803312,
+              "background_kappa_times_D": 22.174816590767914
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.85,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.1746405913075312
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 5.647017866891733e-10,
+          "meridian_length": 1.5104946659352856,
+          "background_height": 1.1617915837649766,
+          "background_kappa_sample": 11.638235304689474,
+          "linear_tail_height_gain": 0.07693657255927745,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.3041189360205072,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.799123527015652,
+              "linear_core_gap_over_D": 0.07145093743441701,
+              "background_kappa_times_D": 32.576858254300475
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.842520947625113,
+              "linear_core_gap_over_D": 0.14072015910179816,
+              "background_kappa_times_D": 33.081927646969966
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.87963424279117,
+              "linear_core_gap_over_D": 0.19446914183698677,
+              "background_kappa_times_D": 33.513860909044936
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.8990723630994024,
+              "linear_core_gap_over_D": 0.2207602708184128,
+              "background_kappa_times_D": 33.74008632707301
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.9294259397287172,
+              "linear_core_gap_over_D": 0.2594364956263003,
+              "background_kappa_times_D": 34.093348394223895
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.9564885400975,
+              "linear_core_gap_over_D": 0.28412083747576383,
+              "background_kappa_times_D": 34.40830930527256
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.6318707914277134
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 3.3954137158891775e-09,
+          "meridian_length": 3.7925705310627547,
+          "background_height": 3.1498820312528792,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.6026536034182596,
+          "linear_f_max": 4.448488524208834,
+          "linear_g_max": 2.6378639621678555,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 6.662573770084858,
+              "linear_core_gap_over_D": 0.030018429349031088,
+              "background_kappa_times_D": 27.809539996031393
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 7.129007552367859,
+              "linear_core_gap_over_D": 0.056108791730363976,
+              "background_kappa_times_D": 29.75643159851403
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 7.875736333217342,
+              "linear_core_gap_over_D": 0.07110446265679297,
+              "background_kappa_times_D": 32.87327271935268
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 8.257093852007797,
+              "linear_core_gap_over_D": 0.07750911052614201,
+              "background_kappa_times_D": 34.465056546078756
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 8.83552772234775,
+              "linear_core_gap_over_D": 0.0860163675427929,
+              "background_kappa_times_D": 36.8794357946065
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 9.224524291427116,
+              "linear_core_gap_over_D": 0.09106160637255414,
+              "background_kappa_times_D": 38.50310496802773
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.65,
+        "vd": 0.45,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.14289304118830534
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 1.86715899485421e-09,
+          "meridian_length": 1.5344741200925687,
+          "background_height": 1.2311609992337982,
+          "background_kappa_sample": 6.029883029047241,
+          "linear_tail_height_gain": 0.05469155871090611,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.26974560679503695,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.8933077148710873,
+              "linear_core_gap_over_D": 0.06912503601743968,
+              "background_kappa_times_D": 17.446307087712622
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.9225987179299953,
+              "linear_core_gap_over_D": 0.13686449581532362,
+              "background_kappa_times_D": 17.622928409961304
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.94711278085908,
+              "linear_core_gap_over_D": 0.19001648109196578,
+              "background_kappa_times_D": 17.770745341990384
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.9597539463617997,
+              "linear_core_gap_over_D": 0.216234190949117,
+              "background_kappa_times_D": 17.846970091322614
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.979221996994947,
+              "linear_core_gap_over_D": 0.2551001572781718,
+              "background_kappa_times_D": 17.964360159444063
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.9925534389226,
+              "linear_core_gap_over_D": 0.28069674181070686,
+              "background_kappa_times_D": 18.044747194876344
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.65,
+        "vd": 0.6,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.6,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.15432861860201275
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 1.985442858424985e-09,
+          "meridian_length": 1.4632532348062504,
+          "background_height": 1.1435513586613688,
+          "background_kappa_sample": 5.5830754647801495,
+          "linear_tail_height_gain": 0.0627299180593723,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.291018766972063,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.764151020933753,
+              "linear_core_gap_over_D": 0.07235494677582355,
+              "background_kappa_times_D": 15.432463745922238
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.799027853953755,
+              "linear_core_gap_over_D": 0.14290675937182323,
+              "background_kappa_times_D": 15.627183736645446
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.8284664995174187,
+              "linear_core_gap_over_D": 0.19798714253661656,
+              "background_kappa_times_D": 15.791541916408296
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.843741104915677,
+              "linear_core_gap_over_D": 0.22505564901590341,
+              "background_kappa_times_D": 15.87682119104151
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.8673943648239932,
+              "linear_core_gap_over_D": 0.26504899686048256,
+              "background_kappa_times_D": 16.008879126097696
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.8836853513788667,
+              "linear_core_gap_over_D": 0.29129391651497083,
+              "background_kappa_times_D": 16.099832933429276
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.65,
+        "vd": 0.75,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.75,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.16023725971636937
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 5.7602768643661574e-11,
+          "meridian_length": 1.4057957887798302,
+          "background_height": 1.069418169682143,
+          "background_kappa_sample": 8.113354582164376,
+          "linear_tail_height_gain": 0.07383511149257146,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.30198440508146834,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.662255597324623,
+              "linear_core_gap_over_D": 0.07512426688143158,
+              "background_kappa_times_D": 21.599823649446492
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.7049568345101314,
+              "linear_core_gap_over_D": 0.1478766666058241,
+              "background_kappa_times_D": 21.946273927829623
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.741457254014292,
+              "linear_core_gap_over_D": 0.20427092167131075,
+              "background_kappa_times_D": 22.242414773664624
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.7768609814929177,
+              "linear_core_gap_over_D": 0.23047606785699376,
+              "background_kappa_times_D": 22.529657768229033
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.842368890258884,
+              "linear_core_gap_over_D": 0.26738260561625377,
+              "background_kappa_times_D": 23.06114665998339
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.8882029847432493,
+              "linear_core_gap_over_D": 0.2908382840254813,
+              "background_kappa_times_D": 23.43301492048747
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.65,
+        "vd": 0.85,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.15861723585875404
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -4.1665456877846576e-09,
+          "meridian_length": 1.3565732700412432,
+          "background_height": 1.0100746373083909,
+          "background_kappa_sample": 12.813918262937515,
+          "linear_tail_height_gain": 0.08705370611747854,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.3423644891040827,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.5870999156170313,
+              "linear_core_gap_over_D": 0.07730663929626366,
+              "background_kappa_times_D": 33.15088685676918
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.6477385084221843,
+              "linear_core_gap_over_D": 0.15107232029433462,
+              "background_kappa_times_D": 33.92790482855396
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.7315377147643223,
+              "linear_core_gap_over_D": 0.20501272853496624,
+              "background_kappa_times_D": 35.001701009121156
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.7741573005180564,
+              "linear_core_gap_over_D": 0.23070068877510444,
+              "background_kappa_times_D": 35.54782489736976
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.84024509360118,
+              "linear_core_gap_over_D": 0.26758254127864267,
+              "background_kappa_times_D": 36.39466847611483
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.8864086771440496,
+              "linear_core_gap_over_D": 0.2910190807876645,
+              "background_kappa_times_D": 36.98620486235745
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.6413543980339222
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 1.6124448089067658e-09,
+          "meridian_length": 3.540904320607615,
+          "background_height": 2.8593742459065714,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.6970099118029626,
+          "linear_f_max": 5.172290551933956,
+          "linear_g_max": 3.055465851320639,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 6.170219418844829,
+              "linear_core_gap_over_D": 0.03241375815407282,
+              "background_kappa_times_D": 25.754456105702435
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 6.950288852475773,
+              "linear_core_gap_over_D": 0.057551564904747145,
+              "background_kappa_times_D": 29.0104608964704
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 7.848703448782894,
+              "linear_core_gap_over_D": 0.07134936408978987,
+              "background_kappa_times_D": 32.760437633869145
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 8.304125735611159,
+              "linear_core_gap_over_D": 0.07707012398131734,
+              "background_kappa_times_D": 34.661367325259775
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 8.992656852577555,
+              "linear_core_gap_over_D": 0.08451339937230698,
+              "background_kappa_times_D": 37.53529177195979
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 9.454506898168317,
+              "linear_core_gap_over_D": 0.08884651616920801,
+              "background_kappa_times_D": 39.46305088701746
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.75,
+        "vd": 0.45,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.45,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.12665615877478337
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.0817562340121859e-08,
+          "meridian_length": 1.3894032358682886,
+          "background_height": 1.0863496042210892,
+          "background_kappa_sample": 10.264496554526053,
+          "linear_tail_height_gain": 0.06372994323454492,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.30654359614491805,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.6808950109053282,
+              "linear_core_gap_over_D": 0.07460195165660768,
+              "background_kappa_times_D": 27.518037602483826
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.7170182732381245,
+              "linear_core_gap_over_D": 0.1472202097202985,
+              "background_kappa_times_D": 27.888824704237056
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.747573763152727,
+              "linear_core_gap_over_D": 0.20381618412217742,
+              "background_kappa_times_D": 28.202461425187344
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.763454289858499,
+              "linear_core_gap_over_D": 0.23159420524837807,
+              "background_kappa_times_D": 28.3654670368428
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.792882378898748,
+              "linear_core_gap_over_D": 0.27212030329027787,
+              "background_kappa_times_D": 28.667531555402725
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.849532674608019,
+              "linear_core_gap_over_D": 0.2947851791576842,
+              "background_kappa_times_D": 29.249018320523422
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.75,
+        "vd": 0.6,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.6,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.13725506367768361
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 6.754772856347677e-09,
+          "meridian_length": 1.3251235392950274,
+          "background_height": 1.0066792535475146,
+          "background_kappa_sample": 9.471866979029688,
+          "linear_tail_height_gain": 0.07280546104568454,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.33186172026000765,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.574324997433113,
+              "linear_core_gap_over_D": 0.07769026840023002,
+              "background_kappa_times_D": 24.383663936477387
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.6172497387428657,
+              "linear_core_gap_over_D": 0.15283218642792973,
+              "background_kappa_times_D": 24.79024137627263
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.6718421946684017,
+              "linear_core_gap_over_D": 0.20959321666431757,
+              "background_kappa_times_D": 25.307333856857845
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.7226365540226967,
+              "linear_core_gap_over_D": 0.2350662629040221,
+              "background_kappa_times_D": 25.78845127194676
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.8015235223037442,
+              "linear_core_gap_over_D": 0.2712809633577654,
+              "background_kappa_times_D": 26.535658141883776
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.85626777872948,
+              "linear_core_gap_over_D": 0.2940900731561126,
+              "background_kappa_times_D": 27.054188456614234
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.75,
+        "vd": 0.75,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.75,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.1428867188966262
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -5.398968045723897e-10,
+          "meridian_length": 1.2739003048916149,
+          "background_height": 0.9400636703141674,
+          "background_kappa_sample": 9.098548244318073,
+          "linear_tail_height_gain": 0.08468472268629915,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.3452841662900461,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.4930998990118285,
+              "linear_core_gap_over_D": 0.08022141434415546,
+              "background_kappa_times_D": 22.683589709063636
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.5837516528218,
+              "linear_core_gap_over_D": 0.1548136406852984,
+              "background_kappa_times_D": 23.508389064535706
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.679342857166663,
+              "linear_core_gap_over_D": 0.20900647280064255,
+              "background_kappa_times_D": 24.37813024899991
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.7290933200660863,
+              "linear_core_gap_over_D": 0.2345101192745223,
+              "background_kappa_times_D": 24.83078723586747
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.8064872387205284,
+              "linear_core_gap_over_D": 0.27080116008169786,
+              "background_kappa_times_D": 25.53495953856174
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.8602442748937458,
+              "linear_core_gap_over_D": 0.29368121015859905,
+              "background_kappa_times_D": 26.024070525655308
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.75,
+        "vd": 0.85,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.14173942484500943
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 2.0790522158548398e-10,
+          "meridian_length": 1.2317451614347537,
+          "background_height": 0.8887435851810206,
+          "background_kappa_sample": 14.339752666625266,
+          "linear_tail_height_gain": 0.09790429421151191,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.3829151617919929,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.466230558797849,
+              "linear_core_gap_over_D": 0.08109541879064582,
+              "background_kappa_times_D": 35.365136232034175
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.5816478634569195,
+              "linear_core_gap_over_D": 0.15493979859220056,
+              "background_kappa_times_D": 37.02019183429378
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.67779651092593,
+              "linear_core_gap_over_D": 0.20912716769743006,
+              "background_kappa_times_D": 38.398939658229935
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.727758388771655,
+              "linear_core_gap_over_D": 0.23462488563299785,
+              "background_kappa_times_D": 39.11538062929778
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.8054553216431843,
+              "linear_core_gap_over_D": 0.2709007675641258,
+              "background_kappa_times_D": 40.22953542963089
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.859411784694385,
+              "linear_core_gap_over_D": 0.2937667126142097,
+              "background_kappa_times_D": 41.00325776455102
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.85,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.6500403836059325
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.9216624120390098e-08,
+          "meridian_length": 3.357971394160183,
+          "background_height": 2.6327305385267006,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.8212424390855665,
+          "linear_f_max": 6.123559092925505,
+          "linear_g_max": 3.60498536586405,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 5.833992434782592,
+              "linear_core_gap_over_D": 0.03428184082097685,
+              "background_kappa_times_D": 24.35104684020102
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 7.006211425914512,
+              "linear_core_gap_over_D": 0.05709219657866498,
+              "background_kappa_times_D": 29.243881357750457
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 8.094415888060961,
+              "linear_core_gap_over_D": 0.06918349733252334,
+              "background_kappa_times_D": 33.78603977253617
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 8.64367462185246,
+              "linear_core_gap_over_D": 0.07404258350748041,
+              "background_kappa_times_D": 36.07864218905691
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 9.472001990412558,
+              "linear_core_gap_over_D": 0.08023646962587873,
+              "background_kappa_times_D": 39.53607528934153
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 10.026545441615117,
+              "linear_core_gap_over_D": 0.08377760863812425,
+              "background_kappa_times_D": 41.85073608229188
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.45,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.45,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.19299744888188514
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 3.465698905918569e-07,
+          "meridian_length": 2.5240491867858292,
+          "background_height": 2.2313714955114237,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.027642360412162816,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.14792594791588468,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 4.638233651999642,
+              "linear_core_gap_over_D": 0.043119863078431964,
+              "background_kappa_times_D": 19.359957383943527
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 4.6494605286965935,
+              "linear_core_gap_over_D": 0.08603148634797293,
+              "background_kappa_times_D": 19.406818294953055
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 4.658643153827476,
+              "linear_core_gap_over_D": 0.12020667424160014,
+              "background_kappa_times_D": 19.445146513094883
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 4.663304657706578,
+              "linear_core_gap_over_D": 0.1372417302700427,
+              "background_kappa_times_D": 19.464603600256847
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 4.670384228721048,
+              "linear_core_gap_over_D": 0.162727510795856,
+              "background_kappa_times_D": 19.494153684064646
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 4.6751635652528725,
+              "linear_core_gap_over_D": 0.17967285813123537,
+              "background_kappa_times_D": 19.514102603959994
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.6,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.6,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.20502472296540786
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 1.7685609135678294e-09,
+          "meridian_length": 2.422488210074535,
+          "background_height": 2.113546156352758,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.03141731855649508,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.15692475854861168,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 4.419994516721697,
+              "linear_core_gap_over_D": 0.0452489249123186,
+              "background_kappa_times_D": 18.44902863918998
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 4.433130624778395,
+              "linear_core_gap_over_D": 0.09022968954811598,
+              "background_kappa_times_D": 18.503858669595818
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 4.443905372769677,
+              "linear_core_gap_over_D": 0.12601528453585822,
+              "background_kappa_times_D": 18.5488323983005
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 4.449384205618323,
+              "linear_core_gap_over_D": 0.1438401294255191,
+              "background_kappa_times_D": 18.571701011316105
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 4.457719826043906,
+              "linear_core_gap_over_D": 0.1704907508003879,
+              "background_kappa_times_D": 18.60649383727442
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 4.463356934897588,
+              "linear_core_gap_over_D": 0.1881991541909417,
+              "background_kappa_times_D": 18.63002309331543
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.75,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.75,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.21174421278457745
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 3.715674531627911e-10,
+          "meridian_length": 2.3452118404160247,
+          "background_height": 2.018832449360287,
+          "background_kappa_sample": 4.422926552658452,
+          "linear_tail_height_gain": 0.0368938592845411,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.1619367521545375,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 4.247172256031779,
+              "linear_core_gap_over_D": 0.04709015503573292,
+              "background_kappa_times_D": 18.784930944917257
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 4.263021767979447,
+              "linear_core_gap_over_D": 0.09383015658153414,
+              "background_kappa_times_D": 18.855032172157276
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 4.276078408365692,
+              "linear_core_gap_over_D": 0.13096111589170573,
+              "background_kappa_times_D": 18.912780733610113
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 4.282736828536981,
+              "linear_core_gap_over_D": 0.1494371533024198,
+              "background_kappa_times_D": 18.94223043698446
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 4.292892463646454,
+              "linear_core_gap_over_D": 0.17703681292646298,
+              "background_kappa_times_D": 18.987148065169258
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 4.299776987450952,
+              "linear_core_gap_over_D": 0.19535896918644133,
+              "background_kappa_times_D": 19.01759780830658
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.85,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.21220399023066105
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.287322177380779e-09,
+          "meridian_length": 2.2849037365937024,
+          "background_height": 1.9463039085640261,
+          "background_kappa_sample": 6.8905162843581955,
+          "linear_tail_height_gain": 0.04367605698334424,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.1785598215334764,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 4.117068510539778,
+              "linear_core_gap_over_D": 0.048578254038764715,
+              "background_kappa_times_D": 28.368727615692684
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 4.136299145491166,
+              "linear_core_gap_over_D": 0.09670480444723781,
+              "background_kappa_times_D": 28.501236618983768
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 4.152226222610916,
+              "linear_core_gap_over_D": 0.13486741087239523,
+              "background_kappa_times_D": 28.610982403239635
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 4.16037872318905,
+              "linear_core_gap_over_D": 0.1538321490860384,
+              "background_kappa_times_D": 28.667157341231505
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 4.172851888453401,
+              "linear_core_gap_over_D": 0.18212963707218505,
+              "background_kappa_times_D": 28.753103889603008
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 4.181334439003544,
+              "linear_core_gap_over_D": 0.20089280402076154,
+              "background_kappa_times_D": 28.81155304230166
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.35,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.701777112392922
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -2.8543980260339437e-09,
+          "meridian_length": 6.082497444381118,
+          "background_height": 5.508146864047292,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.5118671388592941,
+          "linear_f_max": 4.455259008686737,
+          "linear_g_max": 2.3443975799552494,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 11.219172246832057,
+              "linear_core_gap_over_D": 0.017826627098667974,
+              "background_kappa_times_D": 46.82875268436505
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 11.514739725232175,
+              "linear_core_gap_over_D": 0.034738084363598994,
+              "background_kappa_times_D": 48.062449435161334
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 11.811345643763406,
+              "linear_core_gap_over_D": 0.04741204066749919,
+              "background_kappa_times_D": 49.30048062837525
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 11.973506926072137,
+              "linear_core_gap_over_D": 0.0534513408604132,
+              "background_kappa_times_D": 49.977340776088845
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 12.43859968628275,
+              "linear_core_gap_over_D": 0.06110012534916818,
+              "background_kappa_times_D": 51.91863496108021
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 12.763362170799558,
+              "linear_core_gap_over_D": 0.06581337963767726,
+              "background_kappa_times_D": 53.27419147933331
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.45,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.45,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.1754044195877373
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -5.727841869135812e-09,
+          "meridian_length": 2.1380312943060735,
+          "background_height": 1.8437153471712808,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.03413996718865083,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.17859381289230455,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.926561391099885,
+              "linear_core_gap_over_D": 0.050935151670703206,
+              "background_kappa_times_D": 16.389441951540917
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.9417516190345445,
+              "linear_core_gap_over_D": 0.1014777283450377,
+              "background_kappa_times_D": 16.452845865084733
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.954231525319033,
+              "linear_core_gap_over_D": 0.1416204378560809,
+              "background_kappa_times_D": 16.504936913520627
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.960584858461932,
+              "linear_core_gap_over_D": 0.16159229580263051,
+              "background_kappa_times_D": 16.531455685130915
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.9702611110878525,
+              "linear_core_gap_over_D": 0.19142317815760984,
+              "background_kappa_times_D": 16.571844301257084
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.976811270176247,
+              "linear_core_gap_over_D": 0.211224507006281,
+              "background_kappa_times_D": 16.599184623095912
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.6,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.6,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.18784879202344656
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -2.1010294438464954e-09,
+          "meridian_length": 2.0437002980050347,
+          "background_height": 1.7335871062180983,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.03881113913572083,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.1909967634060153,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.7312548208159524,
+              "linear_core_gap_over_D": 0.05360127078007069,
+              "background_kappa_times_D": 15.574233585340785
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.7490786050540525,
+              "linear_core_gap_over_D": 0.10669288167518509,
+              "background_kappa_times_D": 15.648629945929791
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.76377688258504,
+              "linear_core_gap_over_D": 0.1487867154376538,
+              "background_kappa_times_D": 15.709980461657823
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.7712777129562243,
+              "linear_core_gap_over_D": 0.16970375790710931,
+              "background_kappa_times_D": 15.741288879306794
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.7827274651222114,
+              "linear_core_gap_over_D": 0.20091323179039708,
+              "background_kappa_times_D": 15.789080071088316
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.7904938795696146,
+              "linear_core_gap_over_D": 0.22160700602301894,
+              "background_kappa_times_D": 15.821497034960533
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.75,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.75,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.19502848540458143
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -5.600683395783606e-10,
+          "meridian_length": 1.9723763262370806,
+          "background_height": 1.6455749161968123,
+          "background_kappa_sample": 4.802011865876228,
+          "linear_tail_height_gain": 0.04527509686476797,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.19813000405375475,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.578877969693399,
+              "linear_core_gap_over_D": 0.05588343656688968,
+              "background_kappa_times_D": 17.185814476990725
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.6002968262659594,
+              "linear_core_gap_over_D": 0.11110195056190943,
+              "background_kappa_times_D": 17.28866808040566
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.6180527685272144,
+              "linear_core_gap_over_D": 0.1547793898616788,
+              "background_kappa_times_D": 17.37393232583402
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.627147575958183,
+              "linear_core_gap_over_D": 0.1764471906911401,
+              "background_kappa_times_D": 17.41760569903539
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.641070726019398,
+              "linear_core_gap_over_D": 0.2087298097696856,
+              "background_kappa_times_D": 17.48446483083972
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.650545659460092,
+              "linear_core_gap_over_D": 0.23010258694428554,
+              "background_kappa_times_D": 17.52996357365032
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.85,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.19578681228262698
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.7668099689019094e-09,
+          "meridian_length": 1.9185005887669164,
+          "background_height": 1.5802529612156058,
+          "background_kappa_sample": 7.468302043650486,
+          "linear_tail_height_gain": 0.05284720250007783,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.21477998557245054,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.468763360740054,
+              "linear_core_gap_over_D": 0.05765743557592536,
+              "background_kappa_times_D": 25.905772495954874
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.4944280944887103,
+              "linear_core_gap_over_D": 0.11446794416255582,
+              "background_kappa_times_D": 26.09744447945971
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.515838924316605,
+              "linear_core_gap_over_D": 0.15927919681611996,
+              "background_kappa_times_D": 26.25734702361963
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.5268536757788795,
+              "linear_core_gap_over_D": 0.18146485758546838,
+              "background_kappa_times_D": 26.339608514475636
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.5437778690258943,
+              "linear_core_gap_over_D": 0.21446039455314594,
+              "background_kappa_times_D": 26.466003501489453
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.5553391188034293,
+              "linear_core_gap_over_D": 0.2362643820831097,
+              "background_kappa_times_D": 26.55234640683017
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.45,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.7133110476278269
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -4.1072939735234365e-10,
+          "meridian_length": 5.301011930892407,
+          "background_height": 4.693587975524496,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.579272759585401,
+          "linear_f_max": 5.0757707458504315,
+          "linear_g_max": 2.65778758900007,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 9.648311346536023,
+              "linear_core_gap_over_D": 0.020729015971463736,
+              "background_kappa_times_D": 40.27198940601593
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 10.017153971502292,
+              "linear_core_gap_over_D": 0.039931501615923674,
+              "background_kappa_times_D": 41.81153614654081
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 10.481299141243285,
+              "linear_core_gap_over_D": 0.053428491301849554,
+              "background_kappa_times_D": 43.74887509501635
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 10.85830451230526,
+              "linear_core_gap_over_D": 0.058941062048381024,
+              "background_kappa_times_D": 45.32249308516028
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 11.440064267517327,
+              "linear_core_gap_over_D": 0.06643319322583945,
+              "background_kappa_times_D": 47.750754555718885
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 11.835931149455,
+              "linear_core_gap_over_D": 0.07097033510867277,
+              "background_kappa_times_D": 49.40310037075213
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.45,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.45,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.1597010785635748
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 3.892918880989566e-09,
+          "meridian_length": 1.8797268422242066,
+          "background_height": 1.5840870467967083,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.04057385559080163,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.2076887840673844,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.4696039055639383,
+              "linear_core_gap_over_D": 0.057643467509151496,
+              "background_kappa_times_D": 14.482104350634176
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.488977190672615,
+              "linear_core_gap_over_D": 0.11464677988418918,
+              "background_kappa_times_D": 14.562968317875082
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.504975415571872,
+              "linear_core_gap_over_D": 0.15977287529950632,
+              "background_kappa_times_D": 14.62974480554401
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.513148370626097,
+              "linear_core_gap_over_D": 0.1821727785114701,
+              "background_kappa_times_D": 14.663858667290166
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.525632748150203,
+              "linear_core_gap_over_D": 0.21556414246456893,
+              "background_kappa_times_D": 14.71596837865142
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.5341101819086678,
+              "linear_core_gap_over_D": 0.2376835912756803,
+              "background_kappa_times_D": 14.751353132547619
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.6,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.17210773073713612
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 6.489685886414172e-08,
+          "meridian_length": 1.7922508453104933,
+          "background_height": 1.4813002281070569,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.046103984596937785,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.22351736750906803,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.296292917410663,
+              "linear_core_gap_over_D": 0.06067421949779451,
+              "background_kappa_times_D": 13.75870540255186
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.319062028411371,
+              "linear_core_gap_over_D": 0.12051597607275064,
+              "background_kappa_times_D": 13.853743525190191
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.3379536245547996,
+              "linear_core_gap_over_D": 0.1677674596436882,
+              "background_kappa_times_D": 13.932596925793192
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.3476359506927893,
+              "linear_core_gap_over_D": 0.19117968901832136,
+              "background_kappa_times_D": 13.973010892719612
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.362466122752457,
+              "linear_core_gap_over_D": 0.2260245820344138,
+              "background_kappa_times_D": 14.034911935360691
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.372564632436835,
+              "linear_core_gap_over_D": 0.2490686144072681,
+              "background_kappa_times_D": 14.077063049728682
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.75,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.75,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.17945906907088016
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.0302484480395652e-08,
+          "meridian_length": 1.7264789425483071,
+          "background_height": 1.3995805849390812,
+          "background_kappa_sample": 5.218622307278168,
+          "linear_tail_height_gain": 0.05343860211092751,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.23286682902775516,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.163233773086533,
+              "linear_core_gap_over_D": 0.06322643672486132,
+              "background_kappa_times_D": 16.507722331365066
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.1904720296710884,
+              "linear_core_gap_over_D": 0.125373297831806,
+              "background_kappa_times_D": 16.649868504788596
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.213216971935457,
+              "linear_core_gap_over_D": 0.1742801699639624,
+              "background_kappa_times_D": 16.768565767867184
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.2249263287796324,
+              "linear_core_gap_over_D": 0.19845414584778656,
+              "background_kappa_times_D": 16.82967247869808
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.242932026525408,
+              "linear_core_gap_over_D": 0.2343558217636436,
+              "background_kappa_times_D": 16.92363741461229
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.2552401188572775,
+              "linear_core_gap_over_D": 0.2580454803115643,
+              "background_kappa_times_D": 16.987868699815422
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.85,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.1804660545643055
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.3459074147288032e-09,
+          "meridian_length": 1.6781426527866081,
+          "background_height": 1.3405099927580666,
+          "background_kappa_sample": 8.102327353586228,
+          "linear_tail_height_gain": 0.06160492784687375,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.2489444340771352,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.0706437672192175,
+              "linear_core_gap_over_D": 0.06513292168082412,
+              "background_kappa_times_D": 24.87936098825933
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.1029140001190654,
+              "linear_core_gap_over_D": 0.12891108164282064,
+              "background_kappa_times_D": 25.140824978990363
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.1300605828216117,
+              "linear_core_gap_over_D": 0.17891027511524546,
+              "background_kappa_times_D": 25.360775478577594
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.1441078760041443,
+              "linear_core_gap_over_D": 0.20355535663533844,
+              "background_kappa_times_D": 25.474591246374274
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.165805607875021,
+              "linear_core_gap_over_D": 0.24006527694229896,
+              "background_kappa_times_D": 25.65039337282246
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.180706106949778,
+              "linear_core_gap_over_D": 0.26409230270115713,
+              "background_kappa_times_D": 25.77112209405795
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.55,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.723270459088709
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 4.027496415722337e-10,
+          "meridian_length": 4.804124414753556,
+          "background_height": 4.162048184870273,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.6542745060900595,
+          "linear_f_max": 5.7658170144960375,
+          "linear_g_max": 3.0064223197482915,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 8.649325396659659,
+              "linear_core_gap_over_D": 0.023123190633715707,
+              "background_kappa_times_D": 36.102228486699865
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 9.104923693409452,
+              "linear_core_gap_over_D": 0.04393227373113932,
+              "background_kappa_times_D": 38.0038928423691
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 9.919325184092745,
+              "linear_core_gap_over_D": 0.05645545333043939,
+              "background_kappa_times_D": 41.403199418106446
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 10.373098009842966,
+              "linear_core_gap_over_D": 0.0616980577444374,
+              "background_kappa_times_D": 43.297244269583146
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 11.067369243698549,
+              "linear_core_gap_over_D": 0.06867033919851574,
+              "background_kappa_times_D": 46.195127927200794
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 11.537222789867462,
+              "linear_core_gap_over_D": 0.07280781651696351,
+              "background_kappa_times_D": 48.15629360211311
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.65,
+        "vd": 0.45,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.45,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.14501135222182918
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -4.243082890199113e-09,
+          "meridian_length": 1.6875825236285822,
+          "background_height": 1.391023094843663,
+          "background_kappa_sample": 4.284862816033642,
+          "linear_tail_height_gain": 0.04723595566069993,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.23661469276062894,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 3.1460204818583923,
+              "linear_core_gap_over_D": 0.06357237696108628,
+              "background_kappa_times_D": 13.480266181195265
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.1699580198087207,
+              "linear_core_gap_over_D": 0.12618463635809807,
+              "background_kappa_times_D": 13.582835247466022
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.189841823986742,
+              "linear_core_gap_over_D": 0.1755572943426074,
+              "background_kappa_times_D": 13.668034620629719
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.2000407299841838,
+              "linear_core_gap_over_D": 0.19999745440838912,
+              "background_kappa_times_D": 13.711735533702381
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.2156767220405493,
+              "linear_core_gap_over_D": 0.23634216548911427,
+              "background_kappa_times_D": 13.778733614656499
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.2263314124989835,
+              "linear_core_gap_over_D": 0.2603576299526435,
+              "background_kappa_times_D": 13.824387501618192
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.65,
+        "vd": 0.6,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.6,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.1570453129109401
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -2.2555041570634942e-08,
+          "meridian_length": 1.6068296860874534,
+          "background_height": 1.295506539380161,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": 0.053614417051624855,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.2559126323000031,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.9941624915155196,
+              "linear_core_gap_over_D": 0.06679664198811347,
+              "background_kappa_times_D": 12.497614951189849
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 3.0223048897809073,
+              "linear_core_gap_over_D": 0.13234932099421537,
+              "background_kappa_times_D": 12.615081140256237
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 3.0458214794677034,
+              "linear_core_gap_over_D": 0.18385844468398302,
+              "background_kappa_times_D": 12.713239234115045
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 3.057935720181966,
+              "linear_core_gap_over_D": 0.20929151511461988,
+              "background_kappa_times_D": 12.763803996816433
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 3.0765728782038635,
+              "linear_core_gap_over_D": 0.24702811540212766,
+              "background_kappa_times_D": 12.841595374339255
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 3.0893225628055507,
+              "linear_core_gap_over_D": 0.27190427121898164,
+              "background_kappa_times_D": 12.894812475733223
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.65,
+        "vd": 0.75,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.75,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.16433958807287086
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 2.4327080348398633e-08,
+          "meridian_length": 1.546443579099979,
+          "background_height": 1.2199524919282352,
+          "background_kappa_sample": 5.698743145695342,
+          "linear_tail_height_gain": 0.06173984885437175,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.2675740451919149,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.87962793899484,
+              "linear_core_gap_over_D": 0.06945341698199102,
+              "background_kappa_times_D": 16.41025997949965
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.9131246311614647,
+              "linear_core_gap_over_D": 0.13730960760182778,
+              "background_kappa_times_D": 16.60114902438767
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.941338717778714,
+              "linear_core_gap_over_D": 0.19038949734524613,
+              "background_kappa_times_D": 16.76193385710977
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.955954119042165,
+              "linear_core_gap_over_D": 0.21651215621959075,
+              "background_kappa_times_D": 16.84522327488145
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.97855226804936,
+              "linear_core_gap_over_D": 0.2551575166742736,
+              "background_kappa_times_D": 16.97400432164161
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.994090786879114,
+              "linear_core_gap_over_D": 0.2805526150646797,
+              "background_kappa_times_D": 17.062554349316922
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.65,
+        "vd": 0.85,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.16554151591801555
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -4.6247783510347745e-09,
+          "meridian_length": 1.503144336037216,
+          "background_height": 1.166613617580513,
+          "background_kappa_sample": 8.832799688836422,
+          "linear_tail_height_gain": 0.07035520178066648,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.28266775116885046,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.8028058424913262,
+              "linear_core_gap_over_D": 0.07135706546916082,
+              "background_kappa_times_D": 24.75662257342629
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.842064987757336,
+              "linear_core_gap_over_D": 0.1407427352024201,
+              "background_kappa_times_D": 25.103390739515888
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.875425444133578,
+              "linear_core_gap_over_D": 0.1947537889193086,
+              "background_kappa_times_D": 25.398056968215396
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.8928166660633936,
+              "linear_core_gap_over_D": 0.22123766345377346,
+              "background_kappa_times_D": 25.551670147865558
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.9198626408837343,
+              "linear_core_gap_over_D": 0.2602862166728419,
+              "background_kappa_times_D": 25.790561825842943
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.9385714044451365,
+              "linear_core_gap_over_D": 0.2858531865958212,
+              "background_kappa_times_D": 25.95581258680661
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.7320795034159783
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 3.459369608424734e-09,
+          "meridian_length": 4.461052380753346,
+          "background_height": 3.781890326980301,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.7415072937895744,
+          "linear_f_max": 6.567373100324909,
+          "linear_g_max": 3.4117468895469214,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 7.96327283853551,
+              "linear_core_gap_over_D": 0.025115301717676813,
+              "background_kappa_times_D": 33.238649528640515
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 8.68757833387909,
+              "linear_core_gap_over_D": 0.046042750307080806,
+              "background_kappa_times_D": 36.26189600022833
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 9.733506970413423,
+              "linear_core_gap_over_D": 0.05753322021571579,
+              "background_kappa_times_D": 40.627595391249955
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 10.270922137278289,
+              "linear_core_gap_over_D": 0.06231183446295649,
+              "background_kappa_times_D": 42.8707628357152
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 11.088928564008754,
+              "linear_core_gap_over_D": 0.06853682892923721,
+              "background_kappa_times_D": 46.28511639129044
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 11.640510469099649,
+              "linear_core_gap_over_D": 0.07216178381779943,
+              "background_kappa_times_D": 48.58741570984899
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.75,
+        "vd": 0.45,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.45,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.13044643173726736
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 4.974898585611145e-09,
+          "meridian_length": 1.5307896344947622,
+          "background_height": 1.2339191353756693,
+          "background_kappa_sample": 7.179415248267851,
+          "linear_tail_height_gain": 0.0545690903525698,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.26719087141719294,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.8975360706136972,
+              "linear_core_gap_over_D": 0.0690241622971893,
+              "background_kappa_times_D": 20.802614647770092
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.9267329636642754,
+              "linear_core_gap_over_D": 0.13667116370575855,
+              "background_kappa_times_D": 21.01223126693946
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.951163685446117,
+              "linear_core_gap_over_D": 0.18975565562889027,
+              "background_kappa_times_D": 21.1876295634262
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.963761462019896,
+              "linear_core_gap_over_D": 0.2159418051018924,
+              "background_kappa_times_D": 21.278074232654262
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.98316138644067,
+              "linear_core_gap_over_D": 0.25476328684543165,
+              "background_kappa_times_D": 21.417354345856012
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.99644349906293,
+              "linear_core_gap_over_D": 0.2803323340696032,
+              "background_kappa_times_D": 21.512712147745475
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.75,
+        "vd": 0.6,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.6,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.1418055828144726
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.4734534258918853e-09,
+          "meridian_length": 1.4569573525285668,
+          "background_height": 1.1459982181044674,
+          "background_kappa_sample": 6.604317562884322,
+          "linear_tail_height_gain": 0.061820922628347826,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.2900916545052513,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.767305577081435,
+              "linear_core_gap_over_D": 0.07227246663916743,
+              "background_kappa_times_D": 18.276164824586655
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.8016083053748146,
+              "linear_core_gap_over_D": 0.14277513356617702,
+              "background_kappa_times_D": 18.502710935509473
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.830535835856747,
+              "linear_core_gap_over_D": 0.19784239892179253,
+              "background_kappa_times_D": 18.69375753312217
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.8455356051037013,
+              "linear_core_gap_over_D": 0.22491372058466166,
+              "background_kappa_times_D": 18.792820772599043
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.8687499905003437,
+              "linear_core_gap_over_D": 0.26492374815396413,
+              "background_kappa_times_D": 18.946135945785652
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.8847288498745534,
+              "linear_core_gap_over_D": 0.291188546208261,
+              "background_kappa_times_D": 19.051665407385602
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.75,
+        "vd": 0.75,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.75,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.14882890881903235
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 2.9167692035332287e-08,
+          "meridian_length": 1.4020733943375445,
+          "background_height": 1.0768367586781689,
+          "background_kappa_sample": 6.292655832311691,
+          "linear_tail_height_gain": 0.07068789663046252,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.3042090915993214,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.671087220595738,
+              "linear_core_gap_over_D": 0.07487587767927459,
+              "background_kappa_times_D": 16.808232577294994
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.711681917569839,
+              "linear_core_gap_over_D": 0.1475099263701522,
+              "background_kappa_times_D": 17.063681033969996
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.7462655398480758,
+              "linear_core_gap_over_D": 0.20391327490894395,
+              "background_kappa_times_D": 17.281303866401608
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.764332330193572,
+              "linear_core_gap_over_D": 0.2315206435237778,
+              "background_kappa_times_D": 17.394991960040347
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.8253931223531974,
+              "linear_core_gap_over_D": 0.26898911658955815,
+              "background_kappa_times_D": 17.779226509949186
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.8748200604735983,
+              "linear_core_gap_over_D": 0.29219220066998497,
+              "background_kappa_times_D": 18.090253220385836
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "config": {
+        "direction": "outward",
+        "vu": 0.75,
+        "vd": 0.85,
+        "ramp": 0.48,
+        "ramp_eta": 0.05,
+        "cycles": 1
+      },
+      "roots": [
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.15016911000058594
+          },
+          "mode": 2,
+          "linear_core_g_over_f": 3.5509215224749895e-09,
+          "meridian_length": 1.3636463385564963,
+          "background_height": 1.029100138846828,
+          "background_kappa_sample": 9.736989519911598,
+          "linear_tail_height_gain": 0.07963050992720097,
+          "linear_f_max": 1.0,
+          "linear_g_max": 0.31796778831504086,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 2.6089574919402025,
+              "linear_core_gap_over_D": 0.07665897225917087,
+              "background_kappa_times_D": 25.403391756916598
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 2.6560335289330936,
+              "linear_core_gap_over_D": 0.15060050848103437,
+              "background_kappa_times_D": 25.86177063575535
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 2.712417475752991,
+              "linear_core_gap_over_D": 0.20645789411327217,
+              "background_kappa_times_D": 26.410780535031943
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 2.756797220675145,
+              "linear_core_gap_over_D": 0.23215345517624353,
+              "background_kappa_times_D": 26.842905646235305
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 2.826963133791998,
+              "linear_core_gap_over_D": 0.26883972801603545,
+              "background_kappa_times_D": 27.526110406909133
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 2.8761159067789586,
+              "linear_core_gap_over_D": 0.29206055222605376,
+              "background_kappa_times_D": 28.004710442357762
+            }
+          ]
+        },
+        {
+          "config": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.85,
+            "ramp": 0.48,
+            "ramp_eta": 0.05,
+            "cycles": 1,
+            "delta": 0.7400500060818859
+          },
+          "mode": 2,
+          "linear_core_g_over_f": -1.1923920233339072e-09,
+          "meridian_length": 4.21073361979354,
+          "background_height": 3.4907147515674892,
+          "background_kappa_sample": 4.173993557999613,
+          "linear_tail_height_gain": -0.8498063054843603,
+          "linear_f_max": 7.560412769205195,
+          "linear_g_max": 3.9146167297513887,
+          "budgets": [
+            {
+              "q": 0.1,
+              "linear_ball_D": 7.473730917678162,
+              "linear_core_gap_over_D": 0.0267603961398885,
+              "background_kappa_times_D": 31.195304704611182
+            },
+            {
+              "q": 0.2,
+              "linear_ball_D": 8.597978142310383,
+              "linear_core_gap_over_D": 0.04652256534959218,
+              "background_kappa_times_D": 35.88790537782502
+            },
+            {
+              "q": 0.28,
+              "linear_ball_D": 9.845938151670092,
+              "linear_core_gap_over_D": 0.05687624595783303,
+              "background_kappa_times_D": 41.09688241753358
+            },
+            {
+              "q": 0.32,
+              "linear_ball_D": 10.482297290214554,
+              "linear_core_gap_over_D": 0.061055318531888385,
+              "background_kappa_times_D": 43.753041362392345
+            },
+            {
+              "q": 0.38,
+              "linear_ball_D": 11.447286820246106,
+              "linear_core_gap_over_D": 0.06639127785772216,
+              "background_kappa_times_D": 47.78090144428112
+            },
+            {
+              "q": 0.42,
+              "linear_ball_D": 12.096099725605601,
+              "linear_core_gap_over_D": 0.06944387191367543,
+              "background_kappa_times_D": 50.48904233159867
+            }
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "seconds": 42.743093967437744
+}

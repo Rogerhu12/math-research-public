@@ -1,0 +1,31 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r1",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "computations/strong_merge_completed_six_missing_two.py",
+    "--partial-six",
+    "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+    "--missing-two",
+    "notes/2026-11-13-strong-q122-m28-missing-frontload-vd-response-r2.json",
+    "--out-prefix",
+    "notes/2026-11-13-strong-q122-m28-eight-control-assembled-r1"
+  ],
+  "started_utc": "2026-11-13T15:50:48.244975+00:00",
+  "finished_utc": "2026-11-13T15:50:50.753702+00:00",
+  "wall_seconds": 2.5198536989992135,
+  "exitcode": 1,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 256,
+  "peak_rss_kib": 54340,
+  "user_seconds": 0.5398769999999999,
+  "system_seconds": 0.37754699999999997,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 7,
+  "supervisor_pid": 6,
+  "supervisor_pid_namespace": "pid:[4026532333]",
+  "automatic_restarts": 0
+}

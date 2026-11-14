@@ -1,0 +1,76 @@
+{
+  "scope": "Rejected prior mathematical certificate; formal process exit0 does not prove all coefficients were finite",
+  "observed_exact_consumer_exitcode": 1,
+  "rejected_primary_sha256": "0e665c06cd981c7a64509077ee3222b49496d0d8555ed445e68a5e1b30e0ab15",
+  "failed_invariant": "a complete positive derivative bound must dominate its own complete derivative remainder",
+  "bad_groups": [
+    {
+      "cell": 11,
+      "segment": 3,
+      "violations": 818,
+      "first_input_mode": 2,
+      "first_component": "P",
+      "first_output_mode": 48,
+      "stored_complete": [
+        274736355232570655515973539151522687294,
+        -303
+      ],
+      "stored_remainder": [
+        274744362049986998255676964003328491177,
+        -303
+      ]
+    },
+    {
+      "cell": 11,
+      "segment": 5,
+      "violations": 952,
+      "first_input_mode": 2,
+      "first_component": "P",
+      "first_output_mode": 48,
+      "stored_complete": [
+        242872314362394279354734965188245739627,
+        -303
+      ],
+      "stored_remainder": [
+        267131190855781001343074905786592362991,
+        -303
+      ]
+    },
+    {
+      "cell": 10,
+      "segment": 3,
+      "violations": 644,
+      "first_input_mode": 2,
+      "first_component": "P",
+      "first_output_mode": 54,
+      "stored_complete": [
+        190197105260393622993911317088409599185,
+        -286
+      ],
+      "stored_remainder": [
+        190213627618835095292317944019756582231,
+        -286
+      ]
+    },
+    {
+      "cell": 10,
+      "segment": 7,
+      "violations": 173,
+      "first_input_mode": 2,
+      "first_component": "P",
+      "first_output_mode": 84,
+      "stored_complete": [
+        243454302491757656860641768717566192143,
+        -399
+      ],
+      "stored_remainder": [
+        243539123270027315160944623361250533073,
+        -399
+      ]
+    }
+  ],
+  "total_failed_entries": 2587,
+  "cause": "At cell11/segment3/row0, physical s>0 but ball enclosure s+abs(ell) contains0. abs(finite coefficient)/(s+abs(ell)) is nan. Python max can silently retain the previous finite bound. Original primary lacks a per-entry finite check.",
+  "replacement": "Fresh v2 normalizes the s and ell materials by exact quotient endpoints before polynomial algebra and rejects every nonfinite or negative derivative bound. All original data,20 centre inputs,92 input directions,46 outputs,mean and inverse tails are kept.",
+  "old_operator_less_than_37_valid": false
+}

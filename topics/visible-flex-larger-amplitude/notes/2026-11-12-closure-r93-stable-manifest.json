@@ -1,0 +1,76 @@
+{
+  "status": "Stable complete conditional result; 25 exact mathematical gates passed",
+  "author": "exact_closure (GPT-6 Astra Pro, AI-assisted), 2026-11-12",
+  "result": "R93",
+  "actual_execution": {
+    "engine": "functions.exec V8 BigInt",
+    "elapsed_milliseconds": 267,
+    "all_gates": true,
+    "gate_count": 25,
+    "terminal_process_or_Arb_or_CI_execution_claimed": false
+  },
+  "files": [
+    {
+      "path": "computations/closure_r93_actual_positive_prefix_high_ledger.js",
+      "sha256": "447d580ad2fbae38308659cbdbabc36fb9e754de5cec346c1676624b053a743a",
+      "bytes": 11790,
+      "git_blob_sha": "7e11308fe9987528ec8603279346942de18c6906"
+    },
+    {
+      "path": "notes/2026-11-12-closure-r93-positive-prefix-high-exact-ledger.json",
+      "sha256": "c55f52b53182ee6a9c5fe8f4a61ac209f785cd233b443c14e7109fea2b7a8277",
+      "bytes": 14010,
+      "git_blob_sha": "c8f939de37107739be41890b7007cdb1e62fb996"
+    },
+    {
+      "path": "results/R93-actual-positive-prefix-high-inverse.md",
+      "sha256": "b70be27b3547404e7e529058ae682744563ff9190b6f837374eb0d680d824b39",
+      "bytes": 14339,
+      "git_blob_sha": "b5df2cbe054388d5d3b5f9d2d0b384743b5735ea"
+    }
+  ],
+  "input_hashes": {
+    "notes/2026-11-12-root-outer-continuous-frame-r1.json": "d47f1507427d75c9e94452296cf4e5706e1b3468135d44b486845b1c212f70fe",
+    "computations/root_outer_frame_continuous_prefix.py": "828ea557a5f9b702658eed425cc6344128d7e4be4a13a3efefc1d25b6c302fe5",
+    "notes/2026-11-12-root-r78-true-cut-cauchy-r1.json": "9e891098dd625f7418c48d91ee92db900bd7b0d1c44b2b69c1cdebbd8d03c930",
+    "notes/2026-11-12-closure-r91-split-jump-high-exact-ledger.json": "badc734ef590c747d62fc75bd57ce2571bd89e8c522604b691406f469d47392f"
+  },
+  "preserved_objects": {
+    "background": "The same real node12-to-node10 / cells11 and10",
+    "panels": 10793,
+    "parameter_domain": "original R74 only",
+    "new_R92_transverse_domain": false,
+    "source_evaluation_changed": false,
+    "mathematical_equation_changed": false,
+    "frame_values_changed": false
+  },
+  "semantic_change": "Exact reconstruction of the original R68 positive forward/inverse totals after removing only the identically computed physical endpoint norm cost from strip budget; actual endpoint norm conversions retained separately.",
+  "conclusions": {
+    "minimum_high_mode": 5760,
+    "remaining_middle_positive_even_modes": 2833,
+    "source_inverse": "11798528/45",
+    "complete_feedback": "1480577/94371840 < 1/60",
+    "middle_radius": "2^-43 in physical variable-strip norm",
+    "high_radius": "2^-149 + 2^-43/50 in balanced variable-strip norm",
+    "full_mean_inverse_and_rest_plus_infinite_head_retained": true
+  },
+  "outstanding": [
+    "Actual middle94..5758 solution",
+    "Low-middle-high joint fixed point",
+    "All46 cut consistency and true full trace matching",
+    "Any transfer of the new high ball into the variable local-V radius1",
+    "R92 transverse26-domain extension",
+    "Outer0..9 and final closed-family geometric completion"
+  ],
+  "replay": {
+    "working_directory": "topics/visible-flex-larger-amplitude",
+    "command": "node computations/closure_r93_actual_positive_prefix_high_ledger.js notes/2026-11-12-closure-r93-positive-prefix-high-replay-fresh.json",
+    "all_inputs_pinned_by_sha256": true,
+    "fresh_output_required": true,
+    "note": "The checked-in primary was executed in the orchestration V8 BigInt runtime, not by this optional Node CLI."
+  },
+  "environment": {
+    "executor_state_at_execution": "Unavailable; no new local process claimed",
+    "publication_mode": "Individual immutable blobs; refs/index/HANDOFF/log remain parent-owned"
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "schema": "unsolved-profile-initial-law-ideal-domain-v1",
+  "all_gates": true,
+  "gates": {
+    "initial_physical_parameters": true,
+    "initial_law_convex_domain": true,
+    "initial_length_positive_coefficients": true,
+    "initial_length_unique_positive_root": true,
+    "initial_monotone_Bernstein_controls": true,
+    "initial_exact_endpoint_velocity_and_acceleration": true,
+    "initial_exact_radius_increment_identity": true,
+    "initial_complete_speed_and_acceleration_hulls": true,
+    "initial_degree_and_high_derivative_record": true
+  },
+  "evidence": {
+    "initial_length_unique_positive_root": {
+      "equation": "B*k0*S^2+A*V*S-delta=0",
+      "A": {
+        "numerator": "436236674305615725",
+        "denominator": "828662331436171264",
+        "decimal_display": 0.5264347826086957
+      },
+      "B": {
+        "numerator": "1424290403753683581",
+        "denominator": "18230571291595767808",
+        "decimal_display": 0.07812648221343874
+      },
+      "lower": {
+        "numerator": "3164660518039986170700623200645407466273102987",
+        "denominator": "3680864926822416716266991526125131016437760000",
+        "decimal_display": 0.8597600240582436
+      },
+      "upper": {
+        "numerator": "1582330259019993085350311600347604261301050103",
+        "denominator": "1840432463411208358133495763062565508218880000",
+        "decimal_display": 0.8597600240582436
+      },
+      "derivative_positive": true
+    },
+    "initial_monotone_Bernstein_controls": {
+      "degree": 22,
+      "minimum_difference_lower": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal_display": 0.0
+      }
+    },
+    "initial_exact_endpoint_velocity_and_acceleration": {
+      "velocity_start": "0",
+      "velocity_end": {
+        "numerator": "2877790325242225",
+        "denominator": "9007199254740992",
+        "decimal_display": 0.3194989079127436
+      },
+      "acceleration_start": {
+        "numerator": "5566012032648373",
+        "denominator": "9007199254740992",
+        "decimal_display": 0.6179514713986892
+      },
+      "acceleration_end": "0"
+    },
+    "initial_exact_radius_increment_identity": {
+      "identity": "S*sum(c_j)/(n+1)=A*V*S+B*k0*S^2=delta",
+      "delta": {
+        "numerator": "6495789955956159",
+        "denominator": "36028797018963968",
+        "decimal_display": 0.18029438930578398
+      }
+    },
+    "initial_complete_speed_and_acceleration_hulls": {
+      "radius_lower": "1",
+      "radius_upper": {
+        "numerator": "42524586974920127",
+        "denominator": "36028797018963968",
+        "decimal_display": 1.180294389305784
+      },
+      "speed_lower": "0",
+      "speed_upper": {
+        "numerator": "2877790325242225",
+        "denominator": "9007199254740992",
+        "decimal_display": 0.3194989079127436
+      },
+      "acceleration_lower": "0",
+      "acceleration_upper": {
+        "numerator": "134958764448549837839166455349240315227326649628106836415623228457530141335669",
+        "denominator": "128373881766782971816091525814294142374441419654468687283384756904213121859584",
+        "decimal_display": 1.0512945670189333
+      }
+    },
+    "initial_degree_and_high_derivative_record": {
+      "degree": 22,
+      "radial_degree": 23,
+      "velocity_derivative_hulls": [
+        {
+          "order": 0,
+          "normalized_u_lower": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          },
+          "normalized_u_upper": {
+            "numerator": "2877790325242225",
+            "denominator": "9007199254740992",
+            "decimal_display": 0.3194989079127436
+          },
+          "physical_s_absolute_upper": {
+            "numerator": "2877790325242225",
+            "denominator": "9007199254740992",
+            "decimal_display": 0.3194989079127436
+          }
+        },
+        {
+          "order": 1,
+          "normalized_u_lower": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          },
+          "normalized_u_upper": {
+            "numerator": "134958764448549837839166455349240315227326649628106836415623228457530141335669",
+            "denominator": "149313620283055175778072575248711376046277434932310199658059274790444728320000",
+            "decimal_display": 0.9038610422324989
+          },
+          "physical_s_absolute_upper": {
+            "numerator": "134958764448549837839166455349240315227326649628106836415623228457530141335669",
+            "denominator": "128373881766782971816091525814294142374441419654468687283384756904213121859584",
+            "decimal_display": 1.0512945670189333
+          }
+        },
+        {
+          "order": 2,
+          "normalized_u_lower": {
+            "numerator": "-26750962922518002571597243913297244351593617186138860670408236255675411334749381",
+            "denominator": "2986272405661103515561451504974227520925548698646203993161185495808894566400000",
+            "decimal_display": -8.957978137495415
+          },
+          "normalized_u_upper": {
+            "numerator": "2336457283507407409890987630130662277673471856435470758320130348955687241006789",
+            "denominator": "298627240566110351556145150497422752092554869864620399316118549580889456640000",
+            "decimal_display": 7.823992476634631
+          },
+          "physical_s_absolute_upper": {
+            "numerator": "2238873120864432402256338661130376940725537838631180813093396305320382060624762432963294582407657788975597673375",
+            "denominator": "184745547437556221998838651873364377972337676863078086002854738031528986111656902141905274731546879153462575104",
+            "decimal_display": 12.118685142445281
+          }
+        },
+        {
+          "order": 3,
+          "normalized_u_lower": {
+            "numerator": "-100231071515184153341014240429101912636436029494587180671411703613876112437417829",
+            "denominator": "298627240566110351556145150497422752092554869864620399316118549580889456640000",
+            "decimal_display": -335.6394122826009
+          },
+          "normalized_u_upper": {
+            "numerator": "51976940968418908113073491430405089919977513402744728111796169218216292704908691",
+            "denominator": "298627240566110351556145150497422752092554869864620399316118549580889456640000",
+            "decimal_display": 174.0529124867703
+          },
+          "physical_s_absolute_upper": {
+            "numerator": "17551834200492052420890189540340674982727874233479155900040653685004944739148831773603744907520504660978595413636734608665320363001854931226953125",
+            "denominator": "33233899322301426375417232046861208860190820160717334777384955310232894448161510822231838789806439112824584784182544648382479525963071543574528",
+            "decimal_display": 528.1304498841636
+          }
+        },
+        {
+          "order": 4,
+          "normalized_u_lower": {
+            "numerator": "-99099395880396158915610815974886979546559844318266658600786450438873394906605097",
+            "denominator": "29862724056611035155614515049742275209255486986462039931611854958088945664000",
+            "decimal_display": -3318.4981950250935
+          },
+          "normalized_u_upper": {
+            "numerator": "72298805929711454190691672633265826214296432876232656672023739595243892442605097",
+            "denominator": "7465681014152758788903628762435568802313871746615509982902963739522236416000",
+            "decimal_display": 9684.154170618052
+          },
+          "physical_s_absolute_upper": {
+            "numerator": "1777711239130182462806515511258111188050562845770386807774049314268290853353873088121141261606210102750591862696070298145939115267660939884764491047132905047224814796648529920000000000000",
+            "denominator": "100301751180461098973003035139993643030971614154897218788762396399395588341882235928986401345303116089453612995587606939825158470684806202513073833945434720371925675746539677496864561",
+            "decimal_display": 17723.63112516108
+          }
+        }
+      ],
+      "exact_control_affine_in_length": [
+        {
+          "constant": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          },
+          "length_coefficient": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          }
+        },
+        {
+          "constant": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          },
+          "length_coefficient": {
+            "numerator": "5566012032648373",
+            "denominator": "198158383604301824",
+            "decimal_display": 0.028088703245394964
+          }
+        },
+        {
+          "constant": {
+            "numerator": "75999876119115882098355720170525",
+            "denominator": "3123491078962357245287876698046464",
+            "decimal_display": 0.024331709038965307
+          },
+          "length_coefficient": {
+            "numerator": "594390831349939456988291844279973",
+            "denominator": "12493964315849428981151506792185856",
+            "decimal_display": 0.047574237953914675
+          }
+        },
+        {
+          "constant": {
+            "numerator": "792389431449837946551636300591535",
+            "denominator": "24987928631698857962303013584371712",
+            "decimal_display": 0.03171088901080976
+          },
+          "length_coefficient": {
+            "numerator": "16048552446448365338683879795559271",
+            "denominator": "249879286316988579623030135843717120",
+            "decimal_display": 0.0642252212377848
+          }
+        },
+        {
+          "constant": {
+            "numerator": "75315566184073364692219677708185",
+            "denominator": "1784852045121346997307358113169408",
+            "decimal_display": 0.04219709212869399
+          },
+          "length_coefficient": {
+            "numerator": "4786410378765301943116244851307151",
+            "denominator": "62469821579247144905757533960929280",
+            "decimal_display": 0.07661956217840994
+          }
+        },
+        {
+          "constant": {
+            "numerator": "173047466906963718816666530290175",
+            "denominator": "3123491078962357245287876698046464",
+            "decimal_display": 0.05540194049936302
+          },
+          "length_coefficient": {
+            "numerator": "531823375418366882568471650145239",
+            "denominator": "6246982157924714490575753396092928",
+            "decimal_display": 0.08513284686489994
+          }
+        },
+        {
+          "constant": {
+            "numerator": "13848203893805477323488870959375",
+            "denominator": "195218192435147327830492293627904",
+            "decimal_display": 0.07093705622956188
+          },
+          "length_coefficient": {
+            "numerator": "281553551692076584889190873606303",
+            "denominator": "3123491078962357245287876698046464",
+            "decimal_display": 0.09014066138636465
+          }
+        },
+        {
+          "constant": {
+            "numerator": "315612036707488051805567732619775",
+            "denominator": "3569704090242693994614716226338816",
+            "decimal_display": 0.0884140614260356
+          },
+          "length_coefficient": {
+            "numerator": "656958287281512031408112038414707",
+            "denominator": "7139408180485387989229432452677632",
+            "decimal_display": 0.09201859183191391
+          }
+        },
+        {
+          "constant": {
+            "numerator": "191772675129490768754192649851765",
+            "denominator": "1784852045121346997307358113169408",
+            "decimal_display": 0.10744457819552919
+          },
+          "length_coefficient": {
+            "numerator": "406688463555221733728831261875771",
+            "denominator": "4462130112803367493268395282923520",
+            "decimal_display": 0.09114222429065758
+          }
+        },
+        {
+          "constant": {
+            "numerator": "1594732461954839756746956655273445",
+            "denominator": "12493964315849428981151506792185856",
+            "decimal_display": 0.12764022864478772
+          },
+          "length_coefficient": {
+            "numerator": "10980588515990986810678444070645817",
+            "denominator": "124939643158494289811515067921858560",
+            "decimal_display": 0.08788714485170553
+          }
+        },
+        {
+          "constant": {
+            "numerator": "42199112660955202633781723695375",
+            "denominator": "283953734451123385935261518004224",
+            "decimal_display": 0.14861263488055618
+          },
+          "length_coefficient": {
+            "numerator": "93851183897358861629730291202101",
+            "denominator": "1135814937804493543741046072016896",
+            "decimal_display": 0.08262893960416759
+          }
+        },
+        {
+          "constant": {
+            "numerator": "55159528097366505632772742088975",
+            "denominator": "324518553658426726783156020576256",
+            "decimal_display": 0.1699734190095796
+          },
+          "length_coefficient": {
+            "numerator": "344121007623649159309011067741037",
+            "denominator": "4543259751217974174964184288067584",
+            "decimal_display": 0.07574319463715362
+          }
+        },
+        {
+          "constant": {
+            "numerator": "217320246037744728894282299841325",
+            "denominator": "1135814937804493543741046072016896",
+            "decimal_display": 0.19133420313860303
+          },
+          "length_coefficient": {
+            "numerator": "844660655076229754667572620818909",
+            "denominator": "12493964315849428981151506792185856",
+            "decimal_display": 0.06760549603977348
+          }
+        },
+        {
+          "constant": {
+            "numerator": "1326275600771190588488272242788815",
+            "denominator": "6246982157924714490575753396092928",
+            "decimal_display": 0.21230660937437149
+          },
+          "length_coefficient": {
+            "numerator": "3660196171996995603559481356881939",
+            "denominator": "62469821579247144905757533960929280",
+            "decimal_display": 0.05859142990113702
+          }
+        },
+        {
+          "constant": {
+            "numerator": "25936383371346299575394219570435",
+            "denominator": "111553252820084187331709882073088",
+            "decimal_display": 0.23250225982363
+          },
+          "length_coefficient": {
+            "numerator": "218986095760504010469370679471569",
+            "denominator": "4462130112803367493268395282923520",
+            "decimal_display": 0.04907658231035408
+          }
+        },
+        {
+          "constant": {
+            "numerator": "897897581434575072115432593337675",
+            "denominator": "3569704090242693994614716226338816",
+            "decimal_display": 0.2515327765931236
+          },
+          "length_coefficient": {
+            "numerator": "281553551692076584889190873606303",
+            "denominator": "7139408180485387989229432452677632",
+            "decimal_display": 0.03943653935653453
+          }
+        },
+        {
+          "constant": {
+            "numerator": "3360998614293670385020213399451075",
+            "denominator": "12493964315849428981151506792185856",
+            "decimal_display": 0.26900978178959734
+          },
+          "length_coefficient": {
+            "numerator": "93851183897358861629730291202101",
+            "denominator": "3123491078962357245287876698046464",
+            "decimal_display": 0.030046887128788214
+          }
+        },
+        {
+          "constant": {
+            "numerator": "3555093795869366058456835019690375",
+            "denominator": "12493964315849428981151506792185856",
+            "decimal_display": 0.28454489751979617
+          },
+          "length_coefficient": {
+            "numerator": "531823375418366882568471650145239",
+            "denominator": "24987928631698857962303013584371712",
+            "decimal_display": 0.021283211716224985
+          }
+        },
+        {
+          "constant": {
+            "numerator": "132859810721739549317070121317635",
+            "denominator": "446213011280336749326839528292352",
+            "decimal_display": 0.2977497458904652
+          },
+          "length_coefficient": {
+            "numerator": "844660655076229754667572620818909",
+            "denominator": "62469821579247144905757533960929280",
+            "decimal_display": 0.013521099207954697
+          }
+        },
+        {
+          "constant": {
+            "numerator": "7702177895544603920895365981110615",
+            "denominator": "24987928631698857962303013584371712",
+            "decimal_display": 0.30823594900834944
+          },
+          "length_coefficient": {
+            "numerator": "1783172494049818370964875532839919",
+            "denominator": "249879286316988579623030135843717120",
+            "decimal_display": 0.0071361356930872005
+          }
+        },
+        {
+          "constant": {
+            "numerator": "3943284159020757405330078260168975",
+            "denominator": "12493964315849428981151506792185856",
+            "decimal_display": 0.3156151289801939
+          },
+          "length_coefficient": {
+            "numerator": "31283727965786287209910097067367",
+            "denominator": "12493964315849428981151506792185856",
+            "decimal_display": 0.002503907260732351
+          }
+        },
+        {
+          "constant": {
+            "numerator": "2877790325242225",
+            "denominator": "9007199254740992",
+            "decimal_display": 0.3194989079127436
+          },
+          "length_coefficient": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          }
+        },
+        {
+          "constant": {
+            "numerator": "2877790325242225",
+            "denominator": "9007199254740992",
+            "decimal_display": 0.3194989079127436
+          },
+          "length_coefficient": {
+            "numerator": "0",
+            "denominator": "1",
+            "decimal_display": 0.0
+          }
+        }
+      ],
+      "intended_analytic_only": true,
+      "stored_binary_controls_or_Gauss64_not_certified": true
+    }
+  },
+  "input_file": "/workspace/scratch/d1aa462cfc02/geometry-work/m32-q126-r1/gap-release-tail2-size099-exact-warm-r2-screen.json",
+  "input_sha256": "c782a9bda980b0a31443be14d24444b695b246f58390d8f3bf4932e26807d8fa",
+  "physical_profile": {
+    "direction": "outward",
+    "cycles": 1,
+    "ramp": 0.4,
+    "ramp_law": "hermite_boost_neck",
+    "delta": 0.18029438930578398,
+    "vu": 0.3194989079127436,
+    "vd": 0.982,
+    "start_acceleration": 0.6179514713986892,
+    "boost_speed": 0.821344778311526,
+    "boost_length": 0.1381191846456539,
+    "coast_outward": 0.0,
+    "loop_radius": 0.35,
+    "loop_ratio": 1.1,
+    "loop_speed": 0.985,
+    "loop_curvature": 7.5,
+    "descending_turn_curvature": 6.643546494080291,
+    "descending_sync_curvature": 1.5,
+    "terminal_peak_fraction": 0.1,
+    "boost_law": "angle",
+    "initial_speed_frontload": 0.064
+  },
+  "source_sha256": "2a51ad3d69e9e86c8b5463264c90b4cf66593f0b60adf7897cb318bb9f96b287",
+  "original_proof_sha256": "cf80d379758054726cc1f77d8065eaf2eab59c3015fb263cb8a8f5918a664af5",
+  "acceleration_upper": {
+    "numerator": "134958764448549837839166455349240315227326649628106836415623228457530141335669",
+    "denominator": "128373881766782971816091525814294142374441419654468687283384756904213121859584",
+    "decimal_display": 1.0512945670189333
+  },
+  "whole_profile_certified": false,
+  "accepted_new_solution": false,
+  "actual_Gauss_or_floating_realization_certified": false,
+  "Node_ODE_or_geometry_calls": 0,
+  "elapsed_seconds": 0.017550005002703983,
+  "peak_rss_kib": 14080
+}

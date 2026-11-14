@@ -1,0 +1,67 @@
+{
+  "status": "Exact rational R71 presentation bounds",
+  "all_gates": true,
+  "checks": [
+    {
+      "name": "physical shared height change",
+      "strict_bound": "3.340350e-47",
+      "passed": true
+    },
+    {
+      "name": "complete mean total height change",
+      "strict_bound": "1.005408e-62",
+      "passed": true
+    },
+    {
+      "name": "complete source functional change m2",
+      "strict_bound": "1.542922e-65",
+      "passed": true
+    },
+    {
+      "name": "complete source functional change m4",
+      "strict_bound": "3.457076e-61",
+      "passed": true
+    },
+    {
+      "name": "new complete m2 centre absolute value",
+      "strict_bound": "1.088656e-56",
+      "passed": true
+    },
+    {
+      "name": "new complete m2 old-axis ratio",
+      "strict_bound": "136.6721",
+      "passed": true
+    },
+    {
+      "name": "complete state change cell11",
+      "strict_bound": "1.565127e-28",
+      "passed": true
+    },
+    {
+      "name": "complete state change cell10",
+      "strict_bound": "1.320659e-30",
+      "passed": true
+    },
+    {
+      "name": "whole connecting state domain cell11",
+      "strict_bound": "3.429795e-18",
+      "passed": true
+    },
+    {
+      "name": "whole connecting state domain cell10",
+      "strict_bound": "1.118059e-13",
+      "passed": true
+    }
+  ],
+  "scope": {
+    "gain_strictly_more_than29_bits": true,
+    "gain_not_claimed30_bits": true,
+    "node10_complete_linear_residual_explicitly_unchanged": true,
+    "complete_outer_solution_not_claimed": true
+  },
+  "input_hashes": {
+    "notes/2026-11-12-closure-internal-node11-height-recentre-r1.json": "dfe863459a42496af5fe2b1ad963db67c9f3df9a0026fb57b1ea5d7d318a5e89",
+    "notes/2026-11-12-closure-outer-adjoint-cell11-r1.json": "4755d86eed418afa28487b9ca9828d07503feab672cea5789d1ba034307af0a8"
+  },
+  "source_sha256": "597fc13a334ea04d03de8aa9603b8a0b47c32a30a8bb849ef09f921f2270efa3"
+}

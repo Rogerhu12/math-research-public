@@ -1,0 +1,123 @@
+{
+  "scope": "Completed actual fixed-point five-control response, not a new surface.",
+  "finished": true,
+  "new_solution": false,
+  "files": [
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-command.json",
+      "bytes": 1412,
+      "sha256": "29141e8104c54ae841381771d924f7dd3431eafbb281b495cfc527b3156db847"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-core-held-descending_turn_curvature.npy.gz",
+      "bytes": 1431567,
+      "sha256": "baf786ae02d330614192f1c88df96a08350419d40aca202acb116e7ccfe44533"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-core-held-vu.npy.gz",
+      "bytes": 1449440,
+      "sha256": "4579d0499ee9ee31cb5339760cb5db31ac24ae532ffc760bf17ad1ff0f925094"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-disk-adapter.json",
+      "bytes": 1797,
+      "sha256": "0281453e0d3a0b1c64b4e52a0d19dd1a4ce61ea66e7e79d8c2f2bf7cdd14f206"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-disk-events.jsonl",
+      "bytes": 44155,
+      "sha256": "5caddc1b17e7337f555b66334529d6abad739ffaadadf9c19731cb10cbc6f4d1"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-external-boost_length.npy.gz",
+      "bytes": 1457723,
+      "sha256": "1a44b8201eab082085402305793e618611485e3a63d25b1789a83fa1d06234b8"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-external-boost_speed.npy.gz",
+      "bytes": 1457689,
+      "sha256": "aea84f0c92758366805d41d3abb0f51eef23e310c4e03abcf0dc3d8a3a3900e6"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-external-delta.npy.gz",
+      "bytes": 1457870,
+      "sha256": "80e3db24941815ef348ef38208662b9b1f82058c1672b489ab13ae16fb37f59e"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-external-descending_turn_curvature.npy.gz",
+      "bytes": 1457946,
+      "sha256": "b3f368e8aa2c328c16d2996886d0223c0d7a9cb47c7a73ec3898445cfb0fa7a1"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-external-vu.npy.gz",
+      "bytes": 1457953,
+      "sha256": "4ef6537f79e4acd914b0aef4b35682f6e2e49eef4ad8eaa49654a551e6432b55"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-heartbeat.json",
+      "bytes": 295,
+      "sha256": "9c82bb124e3aebda4157b1cc6a284f733f7a8fbaa1a20e4105df5fe2fd2fd6e7"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-loader-frozen-profile.json",
+      "bytes": 524,
+      "sha256": "d92cc8ff91eb3077b530e217f73d007260184627480eeca461e90c3acff93a9a"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-ownership.json",
+      "bytes": 2454,
+      "sha256": "64a2e2cd3dfed92d2ff9b5bddf6dd10230de53c6e271a848619b3e1ab8e0c591"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_c6.npy.gz",
+      "bytes": 1459738,
+      "sha256": "b9e27d7c4f13337407ec8c2f95f4ce3288c6962202349e0f9bfe02dc9a6c5c02"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_q1.npy.gz",
+      "bytes": 1457693,
+      "sha256": "f210731e59b36eb0e4d2c342a418333b35fef41aaed73ea9c534d60d3b9cb94a"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-prescribed-actual_q4.npy.gz",
+      "bytes": 1457228,
+      "sha256": "2e9d0ce6140860f681f4c56e0d3a2a0ffc4aca87a0375fe73f39594183298a32"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-resource.json",
+      "bytes": 2262,
+      "sha256": "65d7bba0cf99c649a5556a40f15ee88560c228e67022b95608e695635eb6fdae"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1-saved-chart.json",
+      "bytes": 732,
+      "sha256": "fd3ce3551ff2d9fc0a4f9dc7ccc9df9960b9c60a1982cdc449888fc8d77216bc"
+    },
+    {
+      "file": "2026-11-13-strong-m28-actual-control-response-r1.json",
+      "bytes": 35933,
+      "sha256": "800302c9cbf99631a0b63e895033444ee7bc18db6606e08285dc7ca7ffa51508"
+    }
+  ],
+  "modes": 28,
+  "nodes": 2208,
+  "condition": {
+    "singular_values": [
+      21.970882591344047,
+      0.15762758968676935,
+      0.0011286603910403473
+    ],
+    "condition_2": 19466.336167863832,
+    "observed_half_step_matrix_perturbation_norm": 2.3352763018533076e-09,
+    "scope": "Only the physical 3x3 low-core/control response, not the condition of the global BVP Jacobian."
+  },
+  "half_steps": {
+    "delta": 1.5786746507644325e-09,
+    "boost_length": 2.1724868607784604e-09,
+    "boost_speed": 1.324052150152071e-10,
+    "vu": 3.7960280832762647e-10,
+    "descending_turn_curvature": 1.919529474174287e-09
+  },
+  "seconds": 1033.5208471580002,
+  "primary_sha256": "800302c9cbf99631a0b63e895033444ee7bc18db6606e08285dc7ca7ffa51508"
+}

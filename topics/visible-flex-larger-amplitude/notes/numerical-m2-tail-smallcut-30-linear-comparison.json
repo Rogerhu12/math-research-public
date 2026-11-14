@@ -1,0 +1,90 @@
+{
+  "scope": "Same fixed physical tail, finite linear cusp-RK4 radial-step comparison; no nonlinear or infinite-tail theorem.",
+  "files": {
+    "topics/visible-flex-larger-amplitude/notes/numerical-m2-tail-smallcut-30-linear512.json": "89a6e5893ac51896600874fa051c823cd0d96003dc66ad7c3038b9b52b5f5e27",
+    "topics/visible-flex-larger-amplitude/notes/numerical-m2-tail-smallcut-30-linear1024.json": "11633c9178dc9bfd3e25f327f16b2d4b1b51d88a3e43b792e49d2af39869fdf7"
+  },
+  "rows": [
+    {
+      "mode": 2,
+      "slope_1024": 11.856879482263345,
+      "difference": 2.508979690674096e-10
+    },
+    {
+      "mode": 4,
+      "slope_1024": 30.839583663099948,
+      "difference": 2.1610979672459507e-09
+    },
+    {
+      "mode": 6,
+      "slope_1024": 44.30312987952939,
+      "difference": 4.8756731985122315e-09
+    },
+    {
+      "mode": 8,
+      "slope_1024": 49.41059187702052,
+      "difference": 7.153715841923258e-09
+    },
+    {
+      "mode": 10,
+      "slope_1024": 46.38052286052408,
+      "difference": 8.036465715122176e-09
+    },
+    {
+      "mode": 12,
+      "slope_1024": 35.585898364731804,
+      "difference": 5.783647338830633e-09
+    },
+    {
+      "mode": 14,
+      "slope_1024": 16.967858464721417,
+      "difference": 1.35844402393559e-09
+    },
+    {
+      "mode": 16,
+      "slope_1024": -13.004561531387708,
+      "difference": 2.3143707039707806e-07
+    },
+    {
+      "mode": 18,
+      "slope_1024": -44.56245118452375,
+      "difference": -6.367076821334194e-08
+    },
+    {
+      "mode": 20,
+      "slope_1024": -91.66964986622497,
+      "difference": -1.1888892004208174e-07
+    },
+    {
+      "mode": 22,
+      "slope_1024": -152.47820833553033,
+      "difference": -2.132146619260311e-07
+    },
+    {
+      "mode": 24,
+      "slope_1024": -231.67159043337028,
+      "difference": -3.7386507756309584e-07
+    },
+    {
+      "mode": 26,
+      "slope_1024": -336.68116160188947,
+      "difference": -6.542650226037949e-07
+    },
+    {
+      "mode": 28,
+      "slope_1024": -480.2527313354926,
+      "difference": -1.167205482488498e-06
+    },
+    {
+      "mode": 30,
+      "slope_1024": -686.1081889953703,
+      "difference": -2.175921054003993e-06
+    },
+    {
+      "mode": 32,
+      "slope_1024": -1003.8194109769338,
+      "difference": -4.393826202431228e-06
+    }
+  ],
+  "max_abs_difference": 4.393826202431228e-06
+}

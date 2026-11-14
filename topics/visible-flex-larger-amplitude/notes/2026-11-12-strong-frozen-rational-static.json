@@ -1,0 +1,26 @@
+{
+  "scope": "Static transform-anchor check only; Node was not started. Original rational model and worker remain untouched.",
+  "adapter": "computations/strong_frozen_rational_model.mjs",
+  "adapter_sha256": "fb542f2cced2aea09cc9f1a1f157c6a17d290d3a8ea58386f6da0ce2e018a9aa",
+  "original_adapter": "computations/closure_rational_tail_model.mjs",
+  "original_sha256": "12e6ae86a49b5282e00b56e78993190b5818373ffaecfc096b66e7d7a48a53a8",
+  "anchors": [
+    {
+      "anchor": "import.meta.url",
+      "count": 2
+    },
+    {
+      "anchor": "'./closure_bounded_point_cache.mjs'",
+      "count": 2
+    },
+    {
+      "anchor": "  const factory=weighted.createRecalibrationFactory(p);",
+      "count": 1
+    },
+    {
+      "anchor": "  function assertFrozenHead(){",
+      "count": 1
+    }
+  ],
+  "runtime_tested": false
+}

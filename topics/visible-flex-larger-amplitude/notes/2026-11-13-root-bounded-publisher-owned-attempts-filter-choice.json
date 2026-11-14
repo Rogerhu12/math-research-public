@@ -1,0 +1,18 @@
+{
+  "schema": "explicit-independent-local-fetch-filter-choice-v1",
+  "utc": "2026-11-13T18:56:04.671177+00:00",
+  "key": "remote.origin.partialclonefilter",
+  "before": "blob:limit=10485760",
+  "after": "blob:limit=1",
+  "command": [
+    "git",
+    "config",
+    "--local",
+    "remote.origin.partialclonefilter",
+    "blob:limit=1"
+  ],
+  "maintenance_source_sha256": "261a4a25b83061bff2516665a9e8ef15b39fdd94d89dd1537daf56cb21691ec9",
+  "maintenance_source_unchanged": true,
+  "reason": "Use an explicitly selected one-byte small-blob filter; the existing maintenance helper preserves independently changed values. Future transfer performance remains unmeasured.",
+  "historical_promisor_and_mathematical_gates_unchanged": true
+}

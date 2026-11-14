@@ -1,0 +1,152 @@
+{
+  "scope": "Prepare complete-mean finite geometry fields from one accepted actual state.\n\nBaseline-only preparation is allowed before the new response has finished.\nAfterward the same prefix/grid can receive a full thirteen-case plan; baseline\nhas no response-data dependency and is never recomputed merely to fill a plan.\nThe sixth control is the newly computed core-held start_acceleration column.\nNo column from a different accepted baseline may be imported.\nEvery case is an unsolved actual-J warm diagnostic, not a new accepted BVP.\n",
+  "prepared_only": true,
+  "executed": false,
+  "baseline_only": true,
+  "nonlinear_solution": false,
+  "new_tail_evaluation": false,
+  "cwd": "/workspace/scratch/d1aa462cfc02/geometry-work",
+  "grid": "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-grid.json",
+  "geometry_wrapper": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py",
+  "source_and_input_sha256": {
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation-x-000.npy.gz": "ce8e64194faa790aec0437a4e8e555ca43717306b5387576e91123f75bcd840d",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_fullmean_six_plan.py": "5f34aec029cfce876fc5f61957d51bb8f924f2ed08e2d01fb412c527a49b3101",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py": "614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_geometry_array_io_resident.py": "cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_neck_chart.py": "d04cc54e45ab9a1e2b45eed5f86aae80e7a2ae639c16040b2369ba25363a19be",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz": "a3a1811fb066f367c23efdfd0b7de2f8267bd3d2d90ec239575575270fc9b2bd",
+    "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz": "aa5ac317819e9cd9df157ad9c40a7952ef2c4ed166cfa29c619e95c79713d706",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz": "ee807bed036d53cb5283636e0033c0a77d8dba9fd1ca459860254b32ce6e3a0d",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+    "computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100",
+    "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-config.json": "e9d204c32e2542754d23d58d3f0cf6a55632291a7b5e04eb147d67b1ff6ebe13",
+    "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-grid.json": "354f0d59fcb8357ec2c803d1dbb4a7259379f3721e29296d809d53d11c15f71e",
+    "/workspace/scratch/d1aa462cfc02/math-research/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-interior-jet-audit.json": "9de1dca249ad5cc362c7475799aa96b670f408a8b50d94e2c822dcea10596850"
+  },
+  "baseline_core": [
+    0.0959999590672073,
+    -0.006718092923546803,
+    -0.000413673319692686
+  ],
+  "modes": 28,
+  "directions": [
+    {
+      "name": "actual_q1",
+      "step": 0.001
+    },
+    {
+      "name": "actual_q4",
+      "step": 3e-05
+    },
+    {
+      "name": "actual_c6",
+      "step": 2e-06
+    },
+    {
+      "name": "vu",
+      "step": 0.0002
+    },
+    {
+      "name": "descending_turn_curvature",
+      "step": 0.0025
+    },
+    {
+      "name": "start_acceleration",
+      "step": 0.002
+    }
+  ],
+  "candidates": [
+    {
+      "name": "baseline",
+      "direction": null,
+      "step": 0.0,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_resource_run.py",
+        "--out",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-baseline-resource.json",
+        "--",
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_field_complete_mean.py",
+        "--actual-reference",
+        "notes/2026-11-13-strong-m28-recovered-physical-r1.json.gz",
+        "--actual-reference-raw",
+        "notes/2026-11-13-strong-m28-recovered-physical-r1-raw-collocation.json.gz",
+        "--actual-reference-tail",
+        "notes/2026-11-13-strong-m28-recovered-full-audit-r1-response_0001.json.gz",
+        "--source-topic",
+        "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+        "--frozen-reference-ready",
+        "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+        "--frozen-calibration-ledger",
+        "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+        "--port",
+        "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+        "--tail-config",
+        "notes/2026-11-12-strong-q096-sameg-m28-local-recovery6-r1-actual28-config.json",
+        "--target-core",
+        "0.0959999590672073",
+        "-0.006718092923546803",
+        "-0.000413673319692686",
+        "--max-nodes",
+        "2608",
+        "--radial-batch-size",
+        "8",
+        "--collocation-batch-size",
+        "12",
+        "--geometry-grid",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-grid.json",
+        "--mean-angular",
+        "1360",
+        "--geometry-batch",
+        "8",
+        "--resident-rss-guard-mib",
+        "192.0",
+        "--out-prefix",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-baseline",
+        "--inspect-warm-output",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-baseline-screen.json",
+        "--geometry-array",
+        "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-baseline-field.json"
+      ],
+      "expected_core": [
+        0.0959999590672073,
+        -0.006718092923546803,
+        -0.000413673319692686
+      ],
+      "expected_profile": {
+        "direction": "outward",
+        "cycles": 1,
+        "ramp": 0.4,
+        "ramp_law": "hermite_boost_neck",
+        "delta": 0.16208341673538396,
+        "vu": 0.31980000000000003,
+        "vd": 0.98,
+        "start_acceleration": 0.45,
+        "boost_speed": 0.8634500737670308,
+        "boost_length": 0.12481215570536809,
+        "coast_outward": 0.0,
+        "loop_radius": 0.35,
+        "loop_ratio": 1.1,
+        "loop_speed": 0.985,
+        "loop_curvature": 7.5,
+        "descending_turn_curvature": 6.7475,
+        "descending_sync_curvature": 2.0,
+        "terminal_peak_fraction": 0.1,
+        "boost_law": "angle"
+      },
+      "report": "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-baseline-screen.json",
+      "field": "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-baseline-field.json",
+      "resource": "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-baseline-resource.json",
+      "log": "/workspace/scratch/d1aa462cfc02/geometry-work/six-control-preparation/q096-identity-check-r1-baseline-log.txt",
+      "complete_mean_angular": 1360
+    }
+  ],
+  "all_original_fields_and_core_modes_retained": true,
+  "mean_rule": "Original full physical postprocessor angular rule for height and both radial mean derivatives.",
+  "limitations": [
+    "Warm numerical samples, with no new true nonlinear-tail solve.",
+    "No continuous curvature, reach, closed-surface diameter or amplitude certificate."
+  ]
+}

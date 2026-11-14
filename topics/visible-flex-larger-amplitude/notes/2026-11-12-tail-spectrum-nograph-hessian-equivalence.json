@@ -1,0 +1,65 @@
+{
+  "command": [
+    "node",
+    "--max-old-space-size=256",
+    "computations/tail_defect_spectrum_nograph.mjs",
+    "/workspace/scratch/c0de65fac774/visible-flex-source/topics/visible-flexible-closed-surface",
+    "notes/2026-11-12-tail-stored-adapter-check-original-response_0001.json.gz",
+    "notes/2026-11-12-tail-spectrum-nograph-hessian-check.json"
+  ],
+  "returncode": 0,
+  "seconds": 12.823273181915283,
+  "peak_child_rss_KiB": 135772,
+  "ignored_nonphysical_metadata_or_new_diagnostic": [
+    "audit_stage_adapter",
+    "horizontalGraphDiagnostics",
+    "script_sha256",
+    "seconds",
+    "stable_graph_adapter"
+  ],
+  "all_other_fields_bitwise_equal": true,
+  "unequal_fields": [],
+  "horizontalGraphDiagnostics": {
+    "scope": "Source projected-ODE physical height jets on the stated finite RK/angle grid only. These are horizontal-graph diagnostics, not an all-domain Cartesian interpolation or a continuous enclosure.",
+    "formula": "nz2=1-|grad_g h|^2; graph Hessian is orthogonally conjugate to nz2^-1 (I-vv^T)^-1/2 Hess_g(h) (I-vv^T)^-1/2.",
+    "minimumNzSquared": 0.8620687348630647,
+    "maximumHessianOperatorNorm": 9.749209891214974,
+    "nonpositiveNzSquaredCount": 0,
+    "angularSamples": 46080,
+    "minimumNzLocation": {
+      "stage": 23,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "profile": 0,
+      "step": 0,
+      "x": 0,
+      "theta": 0,
+      "r": 0.18778999152490436
+    },
+    "maximumHessianLocation": {
+      "stage": 23,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "profile": 0,
+      "step": 2,
+      "x": 0.5,
+      "theta": 0,
+      "r": 0.1887129923329368,
+      "nzSquared": 0.8672760352492571,
+      "orthonormalGradient": [
+        0.3643130038177925,
+        0
+      ],
+      "intrinsicHessian": [
+        -7.333040988522863,
+        0,
+        1.7978397996279933
+      ],
+      "conjugateHorizontalHessian": [
+        -9.749209891214974,
+        0,
+        2.0729729942454713
+      ]
+    }
+  }
+}

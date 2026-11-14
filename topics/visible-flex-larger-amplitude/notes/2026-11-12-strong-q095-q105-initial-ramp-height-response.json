@@ -1,0 +1,170 @@
+{
+  "scope": "Scalar background-Hermite height diagnostic, with no physical BVP or tail.\n\nThis does not differentiate the full flexible immersion or certify diameter.\nAll quadrature values are ordinary floating-point diagnostics, not intervals.\n",
+  "source_sha256": {
+    "/workspace/scratch/c0de65fac774/math-research-recovered/topics/visible-flex-larger-amplitude/computations/strong_initial_ramp_height_response.py": "f7e7f47dba50f98f81abda3ee98ec04e1964df9eb95914a02be30b82059945da",
+    "notes/2026-11-12-root-q095-design-fixed-actual-m24-tol7-frozen-r1.json.gz": "1d7f6f0ab3b7b51b8d647cf823f9aa72d5de9b6925fc87fd1b687b864a9e3423",
+    "notes/2026-11-12-strong-q095-actual-warm-six-r1-q105-moderate-free-q4-screen.json": "661575ad28e007082723fb47728390e7873f12ea58d80ef88ea06e4491a8ddcf",
+    "notes/2026-11-12-strong-q095-actual-fixed-control-response.json": "72d6615a3699769451dd9af11bb89a769ba2fb9651438cde72da5fe485efb36c"
+  },
+  "formulas": {
+    "length": "S=4delta/(V+sqrt(V^2+4kdelta/3))",
+    "speed": "v(u)=V(3u^2-2u^3)+kS*u(1-u)^2",
+    "height": "H=S*integral_0^1 sqrt(1-v(u)^2) du"
+  },
+  "baseline": {
+    "delta": 0.16134505278447636,
+    "vu": 0.32,
+    "start_acceleration": 0.45,
+    "length": 0.8421743295757174,
+    "k_times_length": 0.37897844830907285,
+    "height": 0.8220348369405645,
+    "quadrature_panels": 4096,
+    "dheight_ddelta": 4.350388481200202,
+    "dheight_dvu": -1.9464983179812156,
+    "dheight_dstart_acceleration": -0.2669359506851996
+  },
+  "unsolved_warm": {
+    "delta": 0.1738590874049078,
+    "vu": 0.32,
+    "start_acceleration": 0.45,
+    "length": 0.8977314040005052,
+    "k_times_length": 0.4039791318002274,
+    "height": 0.8759502071349441,
+    "quadrature_panels": 4096,
+    "dheight_ddelta": 4.267152055888486,
+    "dheight_dvu": -2.0382962442297274,
+    "dheight_dstart_acceleration": -0.29792676640043525
+  },
+  "partial_derivative_scope": "Each H_delta/H_vu/H_start_acceleration above holds the other two scalar ramp parameters fixed. It is not a core-held design derivative.",
+  "initial_ramp_partials_at_fixed_other_parameters": {
+    "delta": 4.350388481200202,
+    "vu": -1.9464983179812156,
+    "start_acceleration": -0.2669359506851996
+  },
+  "saved_actual_full_field_directions": [
+    {
+      "direction": "actual_q1",
+      "physical_profile_derivative": {
+        "delta": 1.3051100191064184,
+        "boost_length": 1.4415789774042669,
+        "boost_speed": -2.5658861352065934
+      },
+      "low_core_derivative": [
+        1.0000000000000002,
+        3.210286444083665e-17,
+        3.133551120878508e-17
+      ],
+      "initial_ramp_chain_rule_terms": {
+        "delta": 5.677735593819539,
+        "vu": -0.0,
+        "start_acceleration": -0.0
+      },
+      "initial_ramp_total_directional_derivative": 5.677735593819539,
+      "doubled_initial_ramp_directional_derivative": 11.355471187639077,
+      "saved_full_field_equation_backward_error": 1.2521217195750933e-14
+    },
+    {
+      "direction": "actual_q4",
+      "physical_profile_derivative": {
+        "delta": -8.690032216934915,
+        "boost_length": -38.524982227307994,
+        "boost_speed": 46.07586661490484
+      },
+      "low_core_derivative": [
+        3.411016484928561e-14,
+        1.0000000000000056,
+        -5.537257345025405e-16
+      ],
+      "initial_ramp_chain_rule_terms": {
+        "delta": -37.80501605781231,
+        "vu": -0.0,
+        "start_acceleration": -0.0
+      },
+      "initial_ramp_total_directional_derivative": -37.80501605781231,
+      "doubled_initial_ramp_directional_derivative": -75.61003211562462,
+      "saved_full_field_equation_backward_error": 3.4388708966515263e-14
+    },
+    {
+      "direction": "actual_c6",
+      "physical_profile_derivative": {
+        "delta": 201.3387019188584,
+        "boost_length": 515.5714106482043,
+        "boost_speed": -696.4378413973822
+      },
+      "low_core_derivative": [
+        -2.8407485587192777e-13,
+        -6.258976214388755e-14,
+        1.0000000000000124
+      ],
+      "initial_ramp_chain_rule_terms": {
+        "delta": 875.9015696476025,
+        "vu": -0.0,
+        "start_acceleration": -0.0
+      },
+      "initial_ramp_total_directional_derivative": 875.9015696476025,
+      "doubled_initial_ramp_directional_derivative": 1751.803139295205,
+      "saved_full_field_equation_backward_error": 2.886425875970983e-14
+    },
+    {
+      "direction": "core_held_vu",
+      "physical_profile_derivative": {
+        "vu": 1.0,
+        "delta": 0.8034216517929711,
+        "boost_length": -0.2804328268469794,
+        "boost_speed": -0.8159439396237247
+      },
+      "low_core_derivative": [
+        -6.750153157801846e-16,
+        0.0,
+        2.071942617476452e-17
+      ],
+      "initial_ramp_chain_rule_terms": {
+        "delta": 3.495196299506981,
+        "vu": -1.9464983179812156,
+        "start_acceleration": -0.0
+      },
+      "initial_ramp_total_directional_derivative": 1.5486979815257653,
+      "doubled_initial_ramp_directional_derivative": 3.0973959630515306,
+      "saved_full_field_equation_backward_error": 1.8397523394676174e-14
+    },
+    {
+      "direction": "core_held_descending_turn_curvature",
+      "physical_profile_derivative": {
+        "descending_turn_curvature": 1.0,
+        "delta": 0.0042946146967546665,
+        "boost_length": 0.06302112638231526,
+        "boost_speed": -0.02437881628379496
+      },
+      "low_core_derivative": [
+        8.437691447252308e-17,
+        -1.4388490399142028e-17,
+        0.0
+      ],
+      "initial_ramp_chain_rule_terms": {
+        "delta": 0.0186832423079546,
+        "vu": -0.0,
+        "start_acceleration": -0.0
+      },
+      "initial_ramp_total_directional_derivative": 0.0186832423079546,
+      "doubled_initial_ramp_directional_derivative": 0.0373664846159092,
+      "saved_full_field_equation_backward_error": 4.064374783166301e-14
+    }
+  ],
+  "core_held_vu_includes_induced_delta": true,
+  "actual_start_acceleration_response_available": false,
+  "no_actual_core_held_k0_claim_from_background_partial": true,
+  "length_change": 0.055557074424787856,
+  "one_initial_ramp_height_change": 0.05391537019437964,
+  "twice_initial_ramp_height_change": 0.10783074038875928,
+  "whole_warm_diameter_sample": 4.026698988103026,
+  "quadrature_2048_to_4096_height_changes": [
+    -2.1094237467877974e-15,
+    7.771561172376096e-16
+  ],
+  "physical_solves": 0,
+  "physical_Jacobians": 0,
+  "Node_workers": 0,
+  "full_immersion_diameter_sensitivity": false,
+  "new_branch_acceptance": false,
+  "future_design_use": "Use the five saved actual core/vu/first-turn directions together with the complete signed-curvature and diameter constraints. Any future k0 direction first requires its actual full-field response; the fixed-parameter background partial cannot supply it."
+}

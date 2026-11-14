@@ -1,0 +1,65 @@
+{
+  "name": "combined",
+  "started_utc": "2026-11-13T08:29:43.187096+00:00",
+  "reused_existing_complete_case": false,
+  "process_returncode": 0,
+  "exitcode": 0,
+  "complete_finite_field": true,
+  "shape": [
+    3383,
+    384,
+    3
+  ],
+  "report_sha256": "e3f6354c151736759ca8558ef182c6160ea2d7235ea04b8c7fd8fe43ff5959f5",
+  "resource_sha256": "cf6b566cabd3dad5438473fe49c7ac822d01615e34769f4c1d52ad3c96c5a800",
+  "field_manifest_sha256": "09648dbd49a8bde3bd1a23ee5bd7a3e872c67e4adc16472cb2b1e64262baa1e8",
+  "chunks": [
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field-part000.npy.gz",
+      "sha256": "23eefe9aa38129e7b610836e17230f390af68b7d0c5bb5969f842ffb73edb5b0",
+      "bytes": 1615787
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field-part001.npy.gz",
+      "sha256": "64369d038f1b5d2b4cbf3ef27efc3043c2d04a6d93d0fed1552b27fe8f05ffd7",
+      "bytes": 1574034
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field-part002.npy.gz",
+      "sha256": "308f2a330ebd925ca7162a7fc3d8fa18d474ab6796f8a41b2a2927a093fde5cd",
+      "bytes": 1570530
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field-part003.npy.gz",
+      "sha256": "d810761b592f98570dd3e19fa8614ba07988a5805303f2641b84dd5a8eee1626",
+      "bytes": 1549824
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field-part004.npy.gz",
+      "sha256": "4055d62e0e4bb4c04148fdae0b42d31b34fbc68a23df42acd4ff1ba8d1bbbb7a",
+      "bytes": 1488308
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field-part005.npy.gz",
+      "sha256": "0458afdbef8f8a45329a37376b6d7c8b78209a5091119c46cf04c7ab6543e43a",
+      "bytes": 1422984
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field-part006.npy.gz",
+      "sha256": "f77210a06dcb1e1b2cb3481adbd211fda6711a06ec057d9373ba1782376d49d3",
+      "bytes": 1374264
+    },
+    {
+      "path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q096-r1/minimax-constant-size-q0965-r1-combined-field-part007.npy.gz",
+      "sha256": "37699985ba68a97c659c532af81826a850f1d32ba0696840a9aec28c18b8f6b6",
+      "bytes": 980065
+    }
+  ],
+  "kappa_abs_max_sample": 8.396613333618197,
+  "twice_norm_max_sample": 3.9087553775613295,
+  "height_abs_max_sample": 1.9261524835063086,
+  "peak_rss_kib": 170848,
+  "wall_seconds": 98.836918592453,
+  "accepted_nonlinear_solution": false,
+  "continuous_geometry_certified": false
+}

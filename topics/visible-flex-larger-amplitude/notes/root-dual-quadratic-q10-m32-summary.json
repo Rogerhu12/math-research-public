@@ -1,0 +1,13 @@
+{
+  "scope": "Interrupted computational attempt, not a mathematical nonexistence statement.",
+  "q": 0.1,
+  "modes": 32,
+  "tol": 2e-07,
+  "max_nodes": 2400,
+  "restart": "notes/geometric-fixed-q07-m32.json.gz",
+  "port": "computations/numerical-m2-port32.json",
+  "exit_code": 137,
+  "solver_success": false,
+  "reason": "The process was killed before emitting a result or checkpoint; exit 137 was observed. The exact external resource cause was not reported, so no mathematical failure is inferred.",
+  "next_step": "Use a smaller amplitude continuation step, harmonic-order core warm scaling, unbuffered progress, and a lower node cap."
+}

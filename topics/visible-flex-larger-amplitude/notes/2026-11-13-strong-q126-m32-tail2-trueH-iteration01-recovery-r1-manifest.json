@@ -1,0 +1,106 @@
+{
+  "schema": "authentic-live-tail-trial-recovery-manifest-v1",
+  "scope": "Snapshot one authentic live accepted inner tail trial, without changing it.\n\nAI-assisted research workflow, strong_recovery, 2026-11-13.\nAn accepted line-search trial is only a recovery state. Its complete final\nvariational evaluation, original tail audit and coupled BVP gates remain.\nThis storage consumer calls the existing exact stage-input binding checker;\nit never starts Node, an ODE, a Jacobian, or a replacement numerical solve.\n",
+  "created_utc": "2026-11-13T17:21:42.282249+00:00",
+  "actual_original_session": 40663,
+  "original_step": {
+    "iteration": 1,
+    "norm": 9.459008014674125e-10,
+    "phase": "accepted-trial-recovery-only",
+    "acceptedFromIteration": 0,
+    "acceptedTrial": 0,
+    "acceptedStep": 1
+  },
+  "complete_states_shape": [
+    577,
+    64
+  ],
+  "complete_H_verified": true,
+  "stage_binding_owned_exitcode": 0,
+  "checked_stage_inputs": 538,
+  "complete_stage_count": 576,
+  "partial_Jacobian_only": true,
+  "final_original_tail_full_J_and_audit_still_required": true,
+  "actual_coupled_BVP_not_yet_accepted": true,
+  "original_live_job_unchanged": true,
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-binding.json",
+      "bytes": 212499,
+      "sha256": "9346deecff90f91e7b467e7a695d40edda5d7333a8e01a7cd9b68f6fc2814298",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-binding.json",
+      "original_sha256": "9346deecff90f91e7b467e7a695d40edda5d7333a8e01a7cd9b68f6fc2814298"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-config.json",
+      "bytes": 2900,
+      "sha256": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-config.json",
+      "original_sha256": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-heartbeat.json",
+      "bytes": 329,
+      "sha256": "ddd5ba3d343f4cf33204c897b861ba4dd69e93e81b7b02d402fe81b4f5311177",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-heartbeat.json",
+      "original_sha256": "ddd5ba3d343f4cf33204c897b861ba4dd69e93e81b7b02d402fe81b4f5311177"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-ownership.json",
+      "bytes": 2003,
+      "sha256": "9eee317dd3a8086038de839f59b17a459a3972b504654ec50731f1c1ca108224",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-ownership.json",
+      "original_sha256": "9eee317dd3a8086038de839f59b17a459a3972b504654ec50731f1c1ca108224"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-plan.json",
+      "bytes": 2267,
+      "sha256": "91b5304f106b5eed70001c63515f602b07d87bb15b10a1cf713e5d890d3c7213",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-plan.json",
+      "original_sha256": "91b5304f106b5eed70001c63515f602b07d87bb15b10a1cf713e5d890d3c7213"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-resource.json",
+      "bytes": 1782,
+      "sha256": "b7f73b0d2e82a6685607b35f2f0cf1fc7596b610f413a67ffd2c6b2d313e9f69",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-resource.json",
+      "original_sha256": "b7f73b0d2e82a6685607b35f2f0cf1fc7596b610f413a67ffd2c6b2d313e9f69"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-stdout.log",
+      "bytes": 1861,
+      "sha256": "cdeed9edfe1c12c1bd3a477526217de769a8e7bde067ff696d1514985c7b3805",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-stdout.log",
+      "original_sha256": "cdeed9edfe1c12c1bd3a477526217de769a8e7bde067ff696d1514985c7b3805"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-trace.jsonl.gz",
+      "bytes": 377318,
+      "sha256": "6ce1ae19b9a28b21771ea84985402ae7b93b0b8b76ec448591df4fd816588573",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1-trace.jsonl",
+      "original_sha256": "b434c563de09233ee3d959525241f2cc0597b88deb69f7060a9eff91680ec2da"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1.json.gz",
+      "bytes": 376231,
+      "sha256": "d6e1a506fcf43a904f84e4e2a6a1101b8408504ad4afd02f96b3c9f0f2b7fb13",
+      "original_file": "notes/2026-11-13-strong-q126-m32-tail2-trueH-iteration01-recovery-r1.json.gz",
+      "original_sha256": "d6e1a506fcf43a904f84e4e2a6a1101b8408504ad4afd02f96b3c9f0f2b7fb13"
+    },
+    {
+      "file": "computations/strong_archive_live_tail_trial.py",
+      "bytes": 9220,
+      "sha256": "4e42d4210ab29f1d019c899682dd5dc620b4fc590a564348951faf9a9f5c4932",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_archive_live_tail_trial.py",
+      "original_sha256": "4e42d4210ab29f1d019c899682dd5dc620b4fc590a564348951faf9a9f5c4932"
+    },
+    {
+      "file": "computations/strong_exact_stage_recovery_binding.py",
+      "bytes": 4494,
+      "sha256": "af4a5ef9c3bf4b96905785bbcf336f2832d4d88dc6e0040f9607787041cf14e3",
+      "original_file": "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-runtime/topics/visible-flex-larger-amplitude/computations/strong_exact_stage_recovery_binding.py",
+      "original_sha256": "af4a5ef9c3bf4b96905785bbcf336f2832d4d88dc6e0040f9607787041cf14e3"
+    }
+  ],
+  "total_bytes": 990904
+}

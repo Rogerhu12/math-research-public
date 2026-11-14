@@ -1,0 +1,103 @@
+{
+  "schema": "q106-complete-uniform-mean-C2-repair-immutable-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "members": [
+    {
+      "path": "computations/strong_newg_complete_mean_repair_transfer.py",
+      "sha256": "bca68d259c3c8ac2d505dbe8b1cdfe8c1daaeaf03368db325755adec60b6a6aa",
+      "bytes": 16545,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_complete_mean_repair_transfer.py"
+    },
+    {
+      "path": "computations/strong_newg_complete_mean_repair_saved_check.py",
+      "sha256": "21960d46bd316121760e6a68a3ef1ca9db46cfc4b8e322ad26ceebd5c6a3ef05",
+      "bytes": 6492,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/strong_newg_complete_mean_repair_saved_check.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-mean-repair-r1-certificate.json.gz",
+      "sha256": "c8bf32eb3b5c300de9cd61a3eefaf3b3d3849ee7a49f715d6083f3702d564909",
+      "bytes": 1429160,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r1/certificate.json.gz"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-mean-repair-r1-resource.json",
+      "sha256": "a9b4275fe69e24b684de2341ff9f22fd5aec2ff8fde17dcf0fa720e61851d21c",
+      "bytes": 1884,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r1/resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-mean-repair-r1-saved-check.json",
+      "sha256": "d40d5336f9f8c48dcbf062fac5e30a7e30fd778a5ecae9d742a275eae7088d6b",
+      "bytes": 2959,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r1/saved-check.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-mean-repair-r1-saved-check-resource.json",
+      "sha256": "1a20fadc4b5773e3340dda43550b51845ded57a3ff1c85b03f561ac9e4a4dd06",
+      "bytes": 1503,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r1/saved-check-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q106-complete-mean-repair-r1-proof.md",
+      "sha256": "18b1c6b96c5e3eaeac233c152cd43873270104ba85238a08c662313de0d138ce",
+      "bytes": 7561,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/q106-complete-mean-repair-r1/proof.md"
+    }
+  ],
+  "formal_exitcodes": [
+    0,
+    0
+  ],
+  "primary_gate_count": 14001,
+  "independent_saved_gate_count": 18931,
+  "complete_atoms": 3152,
+  "actual_H_Hs_Hss_display": [
+    4.196966341391447e-11,
+    1.5910143600725459e-09,
+    0.09763016560819147
+  ],
+  "scope": "Complete uniform-psi mean repair difference and same left-anchored height integral. Original Hs/Hss are piecewise one-sided jets; repaired mean is C2 from prior exact comparison. Hss cap remains too coarse for a tight metric/curvature budget.",
+  "regenerate_commands": [
+    [
+      "python",
+      "computations/strong_newg_complete_mean_repair_transfer.py",
+      "--domain",
+      "q106-continuous-mean-domain-r3/certificate.json.gz",
+      "--domain-check",
+      "q106-continuous-mean-domain-r3/saved-check.json",
+      "--background",
+      "binary-background-C2-r1/certificate.json",
+      "--state-repair",
+      "q106-C2-comparison-r1/certificate.json.gz",
+      "--radial",
+      "q106-newg-packet-r1/packet-manifest.json",
+      "--cartesian",
+      "repair-Cartesian-seven-r1/certificate.json",
+      "--primary",
+      "notes/2026-11-13-strong-q106-m28-sixctrl-actual-r2.json.gz",
+      "--domain-resource",
+      "q106-continuous-mean-domain-r3/resource.json",
+      "--domain-check-resource",
+      "q106-continuous-mean-domain-r3/saved-check-resource.json",
+      "--out",
+      "q106-complete-mean-repair-r1/certificate.json.gz"
+    ],
+    [
+      "python",
+      "computations/strong_newg_complete_mean_repair_saved_check.py",
+      "--certificate",
+      "q106-complete-mean-repair-r1/certificate.json.gz",
+      "--resource",
+      "q106-complete-mean-repair-r1/resource.json",
+      "--domain",
+      "q106-continuous-mean-domain-r3/certificate.json.gz",
+      "--cartesian",
+      "repair-Cartesian-seven-r1/certificate.json",
+      "--out",
+      "q106-complete-mean-repair-r1/saved-check.json"
+    ]
+  ],
+  "original_floating_quadrature_alignment_target_g_or_PDE_certified": false,
+  "new_ODE_Node_Newton_or_sampling_calls": 0
+}

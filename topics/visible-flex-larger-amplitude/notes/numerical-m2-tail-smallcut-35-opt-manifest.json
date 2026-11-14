@@ -1,0 +1,30 @@
+{
+  "scope": "Finite linear design optimization only, with independently documented source adaptation.",
+  "source_revision": "869436630c99aa5a68afb55bd8877c826034d117",
+  "sourceHashes": {
+    "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/closing_weighted_hard_gate_opt.mjs": "c5913cecf2ef302552c4dbf9dafd1da4739c232124ffdcc4c9debd27162b79dc",
+    "topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-35-config.json": "0d6a47bdac402add61f274a725f2f2f5a011a1bfe93f27afef16e15d22298182",
+    "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "changes": [
+    [
+      "'./closing_weighted_tail.mjs'",
+      "\"file:///workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs\""
+    ],
+    [
+      "[2,1,.5,.25,.125,.0625,.03125,.015625]",
+      "[2,1,.5,.25,.125,.0625]"
+    ],
+    [
+      "pass<5",
+      "pass<3"
+    ]
+  ],
+  "sourceTopic": "/workspace/scratch/83b864ada613/visible-flex-source/topics/visible-flexible-closed-surface",
+  "portFile": "topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-35-config.json",
+  "steps": 64,
+  "mode": 2,
+  "far": 32,
+  "controls": 7
+}

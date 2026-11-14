@@ -1,0 +1,68 @@
+{
+  "schema": "complete-geometry-chunks-v1",
+  "dtype": "float64",
+  "shape": [
+    3383,
+    384,
+    3
+  ],
+  "chunks": [
+    {
+      "file": "geometry-actual_q4-plus-field-part000.npy.gz",
+      "start": 0,
+      "end": 434,
+      "bytes": 1614629,
+      "sha256": "216095dfab5868e853e3bc00b198984e9cabcbf5486687e478cfc3b8ac292495"
+    },
+    {
+      "file": "geometry-actual_q4-plus-field-part001.npy.gz",
+      "start": 434,
+      "end": 868,
+      "bytes": 1572193,
+      "sha256": "623a9b5064e72f96e68fac0605c6accd36626c25f1303f8ac005008dba9555f3"
+    },
+    {
+      "file": "geometry-actual_q4-plus-field-part002.npy.gz",
+      "start": 868,
+      "end": 1302,
+      "bytes": 1569144,
+      "sha256": "5829c160a8122cbe21eb81a1289b2b642e7a860c02ed0d27c0d0c8e21f92e4e3"
+    },
+    {
+      "file": "geometry-actual_q4-plus-field-part003.npy.gz",
+      "start": 1302,
+      "end": 1736,
+      "bytes": 1549594,
+      "sha256": "dbe7a44fa42e8ebf7fc1e4bff0f8ead94c0fd6d30b4ffcc2d751ef0c8d9586bc"
+    },
+    {
+      "file": "geometry-actual_q4-plus-field-part004.npy.gz",
+      "start": 1736,
+      "end": 2170,
+      "bytes": 1491139,
+      "sha256": "cfdb21f4b5100e681bb4b57e6307bcbd0be4ca64e5198f185e133ff0f9daacb5"
+    },
+    {
+      "file": "geometry-actual_q4-plus-field-part005.npy.gz",
+      "start": 2170,
+      "end": 2604,
+      "bytes": 1423886,
+      "sha256": "8d75ca3eb2a74a3d95759e86bf2ddfb46b2ea94034d0201b87c5e36541af0f1a"
+    },
+    {
+      "file": "geometry-actual_q4-plus-field-part006.npy.gz",
+      "start": 2604,
+      "end": 3038,
+      "bytes": 1376756,
+      "sha256": "1c23a3f35ca594a605b69b8dbe66b7de34517fac6b8487435d25667c87242253"
+    },
+    {
+      "file": "geometry-actual_q4-plus-field-part007.npy.gz",
+      "start": 3038,
+      "end": 3383,
+      "bytes": 978003,
+      "sha256": "37024ca6d4806cdd0d9240a622931c3391a3da933fe135f6de78f93a240eced8"
+    }
+  ],
+  "complete": true
+}

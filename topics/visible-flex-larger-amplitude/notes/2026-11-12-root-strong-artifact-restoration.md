@@ -1,0 +1,9 @@
+# q096 原正式运行恢复和下一实际门
+
+原run43302113873 strong数值阶段 wait4 exit0/signalnull，528.232341799s、400668KiB。后续发布只因SciPy原.log尾空格触发git diff --check而失败；全部72文件已在artifact13983440730，35741100B、ZIP SHA256 27c0e11f6ab2c0fc45338dd186c0fdd36cfe7f2f962f1b849f509708054331fb。不能仅凭退出0、2181节点或RMS显示判断全部actual门。
+
+本请求首先只下载这份原artifact，核整ZIP和原ci-stable全部文件SHA，再读solver_success/audit_pending及完整原summary。原数值不重算。日志和jsonl今后无条件gzip保原字节后入git，原失败记录不删除。工作流只增加actions:read以读取本仓库已有artifact，按根README2条记于本题log。
+
+只有恢复结果显式证明实际原27参数已成功且audit完成，下一入口才允许按原raw/config/finaltail做真实27到24固定视图核验及实际五控制列；所有原RMS/H/BC、halfstep/完整流式后向误差门保留。该入口本身拒绝缺少接受门的包，不启动第二个q096 BVP。原本地r7/80885终态仍未知。
+
+独立interval lane执行新重建R88线性中心源；已完成的全46 geometry/Fraction不重跑。R89固定条带高频源逆完整条件证明直接登记，94..16382及中心新条带域仍未付。

@@ -1,0 +1,25 @@
+{
+  "scope": "Nonlinear two-control prefix at an m2/m4 double linear resonance.\n\nThe first support coefficient q and the second coefficient -q/(10 sqrt(2))\nare fixed. Delta and the descending speed vd replace the two corresponding\nlinear matching constraints; higher support modes remain unknown. All\noutputs are finite LINEAR-tail-DN prefixes, never complete closed surfaces.\n",
+  "solver_success": false,
+  "base_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.44634731358817764,
+    "delta": 0.15848094366013005,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1
+  },
+  "requested_q": 0.04,
+  "modes": 6,
+  "jacobian_relative": 1.4204406369611928e-15,
+  "parameter_jacobian_max": 74.53687125167949,
+  "initial": {
+    "position": 9.42055475210265e-15,
+    "first": 9.451415399428094e-15,
+    "second": 5.517375607139622e-14,
+    "metric_l1": 2.1569262274447704e-14
+  },
+  "seconds": 1.1305177211761475
+}

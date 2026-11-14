@@ -1,0 +1,84 @@
+{
+  "status": "Complete genuine streaming split execution; full641 joint gates remain separate",
+  "author": "tail_refinement (GPT-6 Astra Pro, AI-assisted)",
+  "execution": {
+    "session_id": 47121,
+    "formal_exit_code": 0,
+    "completion_chunk": "98bff6",
+    "elapsed_seconds": 70.15325740099979,
+    "peak_RSS_KiB": 68544,
+    "limit_KiB": 122880,
+    "events": 3244
+  },
+  "files": [
+    {
+      "path": "results/R50-frequency-support-and-split-head-majorant.md",
+      "bytes": 14307,
+      "sha256": "5fe99d91e9912470fb20faf8e52dec22c41499676f63ed4e82805e24ca4ccce8"
+    },
+    {
+      "path": "computations/tail_frequency_split_edge_probe.py",
+      "bytes": 6455,
+      "sha256": "bb91fda61cc259481352dc9c9fd5d510d15c75e38a89b3579b15d257fc708804"
+    },
+    {
+      "path": "notes/2026-11-12-tail-frequency-split-edge-probe.json",
+      "bytes": 3355,
+      "sha256": "7e104ae0e4d5192bce732baa76ef541ce6e760def7183185f19838ce69f72a8e"
+    },
+    {
+      "path": "computations/tail_middle_frequency_split.py",
+      "bytes": 19643,
+      "sha256": "4dc17ec37763d533a2e7003df94698ab0d3b7ea544efb93569134f12c5f962d6"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r50-split-plan.json",
+      "bytes": 4064,
+      "sha256": "3bae397fb7995241d2ebe1ae5796341026360384f3172077a85488d0b43b8cd5"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r50-prepared-manifest.json",
+      "bytes": 1480,
+      "sha256": "ef6cd18ec1958e935f38d5d835f3a032486021c3dc44834151aed3b29122ba0c"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r50-split-middle-r1.json.gz",
+      "bytes": 748483,
+      "sha256": "4ab9e668ab582fe1916c5ef764dc97ecb81984096ab2da7c57ceeba52d58e078"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r50-split-middle-r1-resource.json",
+      "bytes": 556,
+      "sha256": "83d5336b878cb564d550b452ee564786b53d56a1bececc7f3bae1eff7fb4fd3a"
+    },
+    {
+      "path": "notes/2026-11-12-tail-r50-split-middle-r1-resource.jsonl",
+      "bytes": 354401,
+      "sha256": "7d040fbfa884fa528c9565c4e3f27ea0f97515d05913c9094244d0b834c38704"
+    }
+  ],
+  "mathematical_identity": {
+    "original_causal_entries_compared_bitwise": 22791,
+    "old_full_pure_and_far_responses_bitwise": true,
+    "disjoint_actual_supports": {
+      "near": [
+        94,
+        184
+      ],
+      "rest": [
+        186,
+        8190
+      ]
+    },
+    "shared_old_window_upper": [
+      130,
+      192
+    ],
+    "export_upper_rounding_bits": 32,
+    "export_relative_inflation_less_than": "2^-31"
+  },
+  "new_ODE_or_source_integrations": 0,
+  "whole_head_closed": false,
+  "released_slot_to": "exact_closure: floating427 proposal, then full641 Arb row gates",
+  "next_execution_owner": "exact_closure"
+}

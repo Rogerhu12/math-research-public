@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-12T17:37:51.761500+00:00",
+  "status": "Prepared; no success claimed",
+  "source_sha256": "88ca040649952d6fd19da7117ad96924c6a5d35be7e7625c711bccc6f35d9511",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/root_anisotropic_auxiliary_centre_family.py",
+    "--reference",
+    "notes/2026-11-12-closure-newg-strong-m20-real-reference.json",
+    "--aux-box",
+    "notes/2026-11-12-closure-newg-strong-m20-real-box.json",
+    "--aux-far",
+    "notes/2026-11-12-closure-newg-strong-m20-real-low-far-lift.json",
+    "--columns",
+    "notes/2026-11-12-closure-real-linear-q003-low46-recovered.json.gz",
+    "--r72-summary",
+    "notes/2026-11-12-root-moving-auxiliary-family-r1-summary.json",
+    "--two-cell-budget",
+    "notes/2026-11-12-closure-two-cell-parameter-budget-r2.json",
+    "--out-prefix",
+    "notes/2026-11-12-root-anisotropic-auxiliary-family-r1",
+    "--rss-kib",
+    "51200"
+  ],
+  "proposed_relative_axes": {
+    "m2": "2^-10",
+    "m4_through_m40": "2^-4"
+  },
+  "nonlinear_auxiliary_factor": "259/256",
+  "rest_comparison_factor": "65/64",
+  "fixed_envelope_factor": "257/256",
+  "retained_joint_Theta": "16705/16384",
+  "planned_actual_operations": "Read six saved true column groups sequentially, exact dyadic upward mass sum, all213 new auxiliary checks, all641 original joint inequalities, two corrected centre comparisons",
+  "estimated_seconds": 30,
+  "self_RSS_guard_KiB": 51200,
+  "new_ODE": 0,
+  "new_source_integrals": 0,
+  "new_Green": 0,
+  "new_Arb": 0,
+  "new_Node": 0,
+  "rounding": "Positive summands rounded upwards to relative binary-128 units; no high modes discarded",
+  "scope": "Same fixed metric and all conditions; this does not solve the full outer matching problem"
+}

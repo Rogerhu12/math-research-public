@@ -1,0 +1,132 @@
+{
+  "scope": "Use a saved complete linear response as an explicit new-design warm guess.\n\nThe successful source checkpoint remains the only claimed solution. This\nadapter changes only the initial guess of the existing same-chart triple or\nfree-q4 solver. Nonlinear equations, domain checks, tolerance and acceptance\nare unchanged. Optional inspection evaluates the whole finite collocation\nmesh and an explicitly defined C2 cubic warm image, without a Newton factor.\n",
+  "inspection_only": true,
+  "nonlinear_solution": false,
+  "warm": {
+    "scope": "Use a saved complete linear response as an explicit new-design warm guess.\n\nThe successful source checkpoint remains the only claimed solution. This\nadapter changes only the initial guess of the existing same-chart triple or\nfree-q4 solver. Nonlinear equations, domain checks, tolerance and acceptance\nare unchanged. Optional inspection evaluates the whole finite collocation\nmesh and an explicitly defined C2 cubic warm image, without a Newton factor.\n",
+    "warm_only": true,
+    "source_solution": "notes/2026-11-12-strong-angle-vu032-q090-m20.json.gz",
+    "source_sha256": {
+      "notes/2026-11-12-strong-q090-current-control-response.json": "ced9247c118f12760d63449ee997745bb2c9c6988bc48f863fa17bec082e6e10",
+      "notes/2026-11-12-strong-q090-current-control-response-inspection-summary.json": "64113c9bf76a8df2c486131977e5d2a022098d539edcf97f8f46acb022b8709c",
+      "notes/2026-11-12-strong-angle-vu032-q090-m20.json.gz": "9959985ea96ca1df3fe8b77139fb202aefd0c0b6fa0fcd2f9378830629bc46cf",
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/computations/strong_tangent_warm_bvp.py": "c8351f01eb05265adada6392b1d0a7d63834f3d6388903e6a4bd67923d3f4b86",
+      "notes/2026-11-12-strong-q090-current-control-response-t.npy.gz": "b44d5385d1c5c3f959cdf1d573c9b54d8df444c817213053fdad2e5e556688fc",
+      "notes/2026-11-12-strong-q090-current-control-response-warm-y.npy.gz": "3eadc3487f0b018ddfec47f9f3115d71113232bb666f20d14e8756f8ed725daf",
+      "notes/2026-11-12-strong-q090-current-control-response-warm-p.npy.gz": "f37ca422a64c57e3bc3e08c2408da8b9322bfb3b32b4a37aaaa5c977eb20100f",
+      "notes/2026-11-12-strong-q090-current-control-response-direction-boost_speed.npy.gz": "368f0c7c015d8c270a90fa455fa7572f2af2e5c98796cc4d9ff6fc4ac09d8a3d",
+      "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/computations/strong_triple_same_chart_bvp.py": "b8475efa88d8aff09530cd332648825982872950e04b10306603f2b363ccaacd"
+    },
+    "external_direction": "boost_speed",
+    "direction_step": -0.015258692942816702,
+    "target_c6": -0.0003571750033152808,
+    "predicted_core": [
+      0.09,
+      -0.006363961030678927,
+      -0.0003571750033152808,
+      -7.925455380888946e-05,
+      -3.1039035681148397e-05,
+      2.7273046426698272e-05,
+      1.5545038986190013e-05,
+      -5.738126077990234e-06,
+      -8.601586166320543e-07,
+      -9.014748320490656e-07,
+      -1.198785558556518e-06,
+      -2.1574132125305313e-07,
+      -1.4574618585250046e-07,
+      3.78026556560245e-08,
+      2.8139640664758607e-08,
+      -5.304330201442289e-09,
+      2.4828864812916505e-08,
+      1.0980066746371037e-08,
+      1.1477220850723629e-10,
+      -1.9159748163643768e-08
+    ],
+    "predicted_profile": {
+      "direction": "outward",
+      "cycles": 1,
+      "ramp": 0.4,
+      "ramp_law": "hermite_boost_neck",
+      "delta": 0.16280821183804794,
+      "vu": 0.32,
+      "vd": 0.98,
+      "start_acceleration": 0.45,
+      "boost_speed": 0.8537218033593622,
+      "boost_length": 0.13399078145171187,
+      "coast_outward": 0.0,
+      "loop_radius": 0.35,
+      "loop_ratio": 1.1,
+      "loop_speed": 0.985,
+      "loop_curvature": 7.5,
+      "descending_turn_curvature": 6.75,
+      "descending_sync_curvature": 2.0,
+      "terminal_peak_fraction": 0.1,
+      "boost_law": "angle"
+    },
+    "finite_state_shape": [
+      61,
+      891
+    ],
+    "numerical_t_max_difference": 0.0,
+    "exact_inlet_second_order_correction_max": 7.408820450906833e-08,
+    "correction_definition": "The same C2 cubic cutoff as the production warm loader; explicitly an additional initial-guess deformation.",
+    "solver_equations_changed": false,
+    "tolerance_changed": false
+  },
+  "modes": 20,
+  "angular": 512,
+  "nodes": 891,
+  "source_sha256": {
+    "notes/2026-11-12-strong-q090-current-control-response.json": "ced9247c118f12760d63449ee997745bb2c9c6988bc48f863fa17bec082e6e10",
+    "notes/2026-11-12-strong-q090-current-control-response-inspection-summary.json": "64113c9bf76a8df2c486131977e5d2a022098d539edcf97f8f46acb022b8709c",
+    "notes/2026-11-12-strong-angle-vu032-q090-m20.json.gz": "9959985ea96ca1df3fe8b77139fb202aefd0c0b6fa0fcd2f9378830629bc46cf",
+    "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/computations/strong_tangent_warm_bvp.py": "c8351f01eb05265adada6392b1d0a7d63834f3d6388903e6a4bd67923d3f4b86",
+    "notes/2026-11-12-strong-q090-current-control-response-t.npy.gz": "b44d5385d1c5c3f959cdf1d573c9b54d8df444c817213053fdad2e5e556688fc",
+    "notes/2026-11-12-strong-q090-current-control-response-warm-y.npy.gz": "3eadc3487f0b018ddfec47f9f3115d71113232bb666f20d14e8756f8ed725daf",
+    "notes/2026-11-12-strong-q090-current-control-response-warm-p.npy.gz": "f37ca422a64c57e3bc3e08c2408da8b9322bfb3b32b4a37aaaa5c977eb20100f",
+    "notes/2026-11-12-strong-q090-current-control-response-direction-boost_speed.npy.gz": "368f0c7c015d8c270a90fa455fa7572f2af2e5c98796cc4d9ff6fc4ac09d8a3d",
+    "/workspace/scratch/c0de65fac774/math-research/topics/visible-flex-larger-amplitude/computations/strong_triple_same_chart_bvp.py": "b8475efa88d8aff09530cd332648825982872950e04b10306603f2b363ccaacd"
+  },
+  "finite_domain_passed": true,
+  "full_collocation": {
+    "scaled_max": 0.01332822292143853,
+    "boundary_max": 5.1062753797047034e-08,
+    "inlet_max": 2.0679515313825692e-25,
+    "terminal_max": 5.1062753797047034e-08,
+    "rms_max": 0.018836916051474167,
+    "radial_sites_evaluated": 3561,
+    "scope": "All nodes, Simpson midpoints and both residual-quadrature sites of every interval; finite angular resolution only, no continuous domain enclosure."
+  },
+  "baseline_cubic_geometry": {
+    "scope": "Explicit C2 cubic interpolation of the complete warm coefficients in physical s, with the production mean-height integral. This is an unsolved warm image, not the final PDE-jet quintic reconstruction or a curvature/reach certificate.",
+    "radial_samples": 382,
+    "angular": 256,
+    "diameter_sample": 3.875788074913607,
+    "kappa_sample": 8.585259638750763,
+    "kappa_times_D_sample": 33.274646927907305,
+    "reciprocal_kappa_D_sample": 0.030052910919433504,
+    "height_max_sample": 1.9093052654578064,
+    "frenet_margin_min_sample": 0.00513885121025659,
+    "area_min_sample": 0.2200576755355886,
+    "curvature_witness": {
+      "s": 0.9414825460363944,
+      "psi": 4.295146206079795
+    }
+  },
+  "warm_cubic_geometry": {
+    "scope": "Explicit C2 cubic interpolation of the complete warm coefficients in physical s, with the production mean-height integral. This is an unsolved warm image, not the final PDE-jet quintic reconstruction or a curvature/reach certificate.",
+    "radial_samples": 382,
+    "angular": 256,
+    "diameter_sample": 3.928836280649335,
+    "kappa_sample": 8.105487611056255,
+    "kappa_times_D_sample": 31.84513379867152,
+    "reciprocal_kappa_D_sample": 0.031401972003701144,
+    "height_max_sample": 1.936417293987199,
+    "frenet_margin_min_sample": 0.005139270471176571,
+    "area_min_sample": 0.2202847452439107,
+    "curvature_witness": {
+      "s": 2.602855353212994,
+      "psi": 1.5707963267948966
+    }
+  }
+}

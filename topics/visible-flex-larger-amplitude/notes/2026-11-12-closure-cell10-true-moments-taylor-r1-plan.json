@@ -1,0 +1,20 @@
+{
+  "status": "Prepared exact same-moment Taylor refinement; no executed result claimed",
+  "command": [
+    "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+    "computations/closure_outer_true_moment_taylor.py",
+    "--ready",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--cell-manifest",
+    "notes/2026-11-12-tail-outer-positive-moments-cell10-groups-r1-manifest.json",
+    "--out-prefix",
+    "notes/2026-11-12-closure-cell10-true-moments-taylor-r1"
+  ],
+  "source_sha256": "38ee3b538a5095fd4501f24c429ff7973bf324a70f515da5c3fff89b34d4e333",
+  "source_bytes": 15488,
+  "fixed_g_candidate_endpoints": true,
+  "new_background_width_or_ODE": false,
+  "new_integrals_are_the_original_five_true_weighted_integrals": true,
+  "observed_owned_rss_stop_KiB": 40960,
+  "old_output_overwrite": false
+}

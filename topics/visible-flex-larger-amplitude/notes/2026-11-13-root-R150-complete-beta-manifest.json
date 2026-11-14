@@ -1,0 +1,137 @@
+{
+  "schema": "R150-complete-restricted-singleton-inner-beta-and-independent-saved-audit-v1",
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "all_completed_math_gates": true,
+  "primary_sha256": "31958f41d78459723a79a0ed61949f7fb2650d8261ba0a0f84a5511eb290b415",
+  "independent_audit_sha256": "ae86cddcdaee02b8587813a1c69e5286fac2c4ffe430069f8bd28263bb7aea20",
+  "independent_audit_gate_count": 2635,
+  "exact_scope": "Only R148_actual_full_cut_posterior, which contains the same unique R143 fixed point; no extension to the old full unit domain.",
+  "original_R123_failed_selfmap_remains_false": true,
+  "files": [
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-source.py",
+      "sha256": "01cccbd40997544c134b12d244bb089e96ed8097d8fb4ef8687d5ca3bb669f33",
+      "bytes": 15836
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-source-summary.json.gz",
+      "sha256": "302cfb21d30683488a1a7a7f4de13ceb62cd4cd7e757c44b5ac02df81c4797aa",
+      "bytes": 89263
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-source-resource.json",
+      "sha256": "7387cd4ae9b5c3bdf3ab3df7ca387c4c0b1fd3b34f4af9ed69350e4cc6e12496",
+      "bytes": 1484
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-consumer.py",
+      "sha256": "813d23b59a077e19d5da1cfcf8f69832ea7c48a7d65654862ec2a79218553022",
+      "bytes": 18592
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-primary.json.gz",
+      "sha256": "31958f41d78459723a79a0ed61949f7fb2650d8261ba0a0f84a5511eb290b415",
+      "bytes": 1289275
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-resource.json",
+      "sha256": "d9c7b58e49bcc74e5fc70084adcb0ae72a3c08c71b84d2672113c94001aee69b",
+      "bytes": 2689
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-exporter.py",
+      "sha256": "42a95dd3b86bdfd3e320dd04e6ac67b13ca666ac3b852e6dfe2a3512748a88ea",
+      "bytes": 5645
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-export.json",
+      "sha256": "81f8d08699a7d32733db76ae8c68c51b910dbc01b058e25c60bbb91e1520e476",
+      "bytes": 66037
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-export-resource.json",
+      "sha256": "bf8d6e16f55b149122a3bfd5b106600423533ee5e4ce04db8fc948f786f168e9",
+      "bytes": 1387
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-input-manifest.json",
+      "sha256": "c55de643a8e7ebc7c2247eae728ab339d8c930cfb9f57eeaee96cb89a1d7da10",
+      "bytes": 3092
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-beta-input-manifest.json",
+      "sha256": "0e62af1c5495e904a36662c16af12424f5d048de5fb962d7141b31bb63d65b91",
+      "bytes": 7507
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-proof-v2.md",
+      "sha256": "699683f0a863ca410472f9b80f6470bae42c4c713bd854288be58674721d1651",
+      "bytes": 7507
+    },
+    {
+      "path": "notes/2026-11-13-exact-resume-R150-restricted-low46-singletons-stable-manifest-v2.json",
+      "sha256": "edf58ed0db7c87bea1d122e74ed9255dcb7133ce159a0d601182ff9cc4dc638e",
+      "bytes": 8248
+    },
+    {
+      "path": "computations/root_r150_saved_beta_audit.py",
+      "sha256": "d29ff371cdff30b5578d5c0c6b50cc10d8c57589a22873457ff9d7471ee588e7",
+      "bytes": 10248,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_saved_beta_audit.py"
+    },
+    {
+      "path": "computations/root_r150_saved_beta_audit_v2.py",
+      "sha256": "fa289a24723a99fba8a3d5649e0b13d2f507047a78c398dc9cbc92122117bc86",
+      "bytes": 11864,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/root_r150_saved_beta_audit_v2.py"
+    },
+    {
+      "path": "notes/2026-11-13-root-R150-beta-audit-input-manifest.json",
+      "sha256": "1e4a6051f4d833d7dd511f641de0ab288fd551d288595f4a2ff2a8d17c03cd73",
+      "bytes": 3350,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/beta-audit-input-manifest.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-R150-beta-audit-input-manifest-v2.json",
+      "sha256": "74c1a9f16baf2300a7c8f6a502571cd270399af10de3ae06902c5bc6221d1a31",
+      "bytes": 4202,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/actual-cut-posterior-inputs/beta-audit-input-manifest-v2.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-R150-beta-saved-audit-r1-resource.json",
+      "sha256": "f6a736760c67722095cccd2e2bcccd4e5845a0de60c1e4f7c60f3bbd3087f27c",
+      "bytes": 850,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R150-beta-saved-audit-r1-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-R150-beta-saved-audit-r1-stdout.log",
+      "sha256": "aa9f2a84f5d830dab03fbf0b4b195a54e8b1377558ec36bf2a811f902ac42f93",
+      "bytes": 1483,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R150-beta-saved-audit-r1-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-R150-beta-saved-audit-r2-stdout.log",
+      "sha256": "44b1d878c4c8db9eb39fb928f963a94e41a34a9f6b572f7df73a48bdcd6e6958",
+      "bytes": 1014,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R150-beta-saved-audit-r2-stdout.log"
+    },
+    {
+      "path": "notes/2026-11-13-root-R150-beta-saved-audit-r2-resource.json",
+      "sha256": "8129733080450a6580e92fde9d44fb914b9f0d826e38f21510c3d257a419a992",
+      "bytes": 868,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R150-beta-saved-audit-r2-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-root-R150-beta-saved-audit-r2.json",
+      "sha256": "ae86cddcdaee02b8587813a1c69e5286fac2c4ffe430069f8bd28263bb7aea20",
+      "bytes": 15340,
+      "original_path": "/workspace/scratch/d1aa462cfc02/root-work/r127/R150-beta-saved-audit-r2.json"
+    },
+    {
+      "path": "results/R150-restricted-complete-singleton-inner-beta.md",
+      "sha256": "3ecdb207fb747224fc573b5b1cc0f1a348560fb030b091af9190b63419d4eb2a",
+      "bytes": 5261
+    }
+  ],
+  "total_bytes": 1571042
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "actual-q122-partial-six-complete-mean-geometry-plan-archive-v1",
+  "members": [
+    {
+      "path": "computations/root_actual_geometry_partial_six_plan.py",
+      "sha256": "730e672dd959f701ae5f47af52114c2e36abcb4f89843cad569b1fa81286b4ad",
+      "bytes": 4120,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_actual_geometry_partial_six_plan.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q122-partial-six-geometry-plan-r1-plan.json",
+      "sha256": "240b5d5bd2bd51019296bab9c8eaa28d30de04e195cc2273a38c2d8c61cefab3",
+      "bytes": 57924,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/geometry-plan.json"
+    }
+  ],
+  "scope": {
+    "scope": "Plan only the six genuinely recovered q122 warm directions.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nThe original eight-column producer failed. Its six completed external full\nvectors and measured per-column half checks are real, but combination half\nvectors and combination matrix residuals were not saved. This entry preserves\nthat distinction while passing only the available six directions to the\noriginal actual-input, complete-mean geometry planner. No missing frontload\nor vd direction is generated or declared passed.\n",
+    "response_sha256": "2e848e2b59507a4bec44546a4916fb54e461b59713c0b37a968313669dc97f30",
+    "original_eight_control_job_exitcode": 1,
+    "unavailable_fields": [
+      "initial_speed_frontload",
+      "vd"
+    ],
+    "all_six_original_external_full_and_half_gates_observed": true,
+    "combined_direct_half_vectors_or_matrix_residuals_observed": false,
+    "numerical_combination_perturbation_estimates": [
+      {
+        "direction": "actual_q1",
+        "half_step_exchange_numerical_perturbation_bound": 0.0004961340079531158
+      },
+      {
+        "direction": "actual_q4",
+        "half_step_exchange_numerical_perturbation_bound": 0.0025784166791468894
+      },
+      {
+        "direction": "actual_c6",
+        "half_step_exchange_numerical_perturbation_bound": 0.0018686141009281961
+      },
+      {
+        "external_field": "vu",
+        "half_step_combination_numerical_perturbation_bound": 0.002399985120429473
+      },
+      {
+        "external_field": "descending_turn_curvature",
+        "half_step_combination_numerical_perturbation_bound": 0.006158402258673333
+      },
+      {
+        "external_field": "start_acceleration",
+        "half_step_combination_numerical_perturbation_bound": 0.00878957909299029
+      }
+    ],
+    "local_unsolved_warm_design_only": true,
+    "original_new_BVP_gates_unchanged": true
+  },
+  "common_grid_sha256": "6307703991ac484616dcbefca68540748c69ed697f3436303f6ee1c0336dd25f",
+  "complete_original_mean": 1360,
+  "geometry_angles": 768,
+  "complete_common_radial_points": 3764,
+  "baseline_is_existing_and_not_recomputed": true,
+  "planned_new_fields": 12,
+  "not_an_eight_column_response": true,
+  "no_missing_frontload_or_vd_data_created": true,
+  "run_ownership": "three independent foreground sequential groups 1..4, 5..8, 9..12",
+  "large_reproducible_field_chunks_scratch_only": true
+}

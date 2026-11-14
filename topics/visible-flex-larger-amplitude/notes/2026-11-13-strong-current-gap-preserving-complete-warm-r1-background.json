@@ -1,0 +1,31 @@
+{
+  "schema": "current-warm-plus-saved-frozen-background-size-diagnostic-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "scope": "Reuse saved frozen-background heights with a completed current warm screen.\n\nAuthor: geometry_audit (GPT-6 Astra Pro; AI-assisted), 2026-11-13.\nThis is a floating background-size diagnostic.  It pays neither the changed-H\nnonlinear tail mean nor the remaining cap, continuous errors or closed D.\nNo factory, ODE, new field, worker or variational solve is started.\n",
+  "source_sha256": "732e8ca1e8bbee2b3c81575611dee6b65425640a428b0a8809221ec84db43a3a",
+  "input_sha256": {
+    "m32-q126-r1/gap-release-tail2-size099-exact-warm-r2-plan.json": "05a0b5d7ae79cc7b2511063a5bf94e31ca6eddaea5fa740385daf90cbd342ab7",
+    "notes/2026-11-13-strong-q126-same-tail-background-height-r2.json.gz": "12d50025e0ee39087ab42a7af4e1f54f5ae7662fd32058516386f88689301240",
+    "m32-q126-r1/gap-release-tail2-size099-exact-warm-r2-screen.json": "c782a9bda980b0a31443be14d24444b695b246f58390d8f3bf4932e26807d8fa",
+    "m32-q126-r1/gap-release-tail2-size099-exact-warm-r2-resource.json": "38df0540f3ffdfed9175f32e30a6ba3c287f39fcd58b66b6661cbea67080dc13",
+    "notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+    "notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz": "cd2392da6fdc8676a563ef6a18037fe43ea1519288ae39e811d6ac7a55bbcdfa"
+  },
+  "case": "combined",
+  "prefix_height_abs_max_sample": 1.9413622597270204,
+  "prefix_size_twice_norm_sample": 3.938532664305123,
+  "prefix_raw_cubic_curvature_sample": 8.279007052446111,
+  "frozen_background_endpoint_size_sample": 3.9356787401045015,
+  "endpoint_argmax": 8,
+  "frozen_background_floating_rectangle_size_diagnostic": 3.9430259488970205,
+  "rectangle_argmax": 7,
+  "maximum_prefix_and_background_size_diagnostic": 3.9430259488970205,
+  "prefix_curvature_times_combined_size_diagnostic": 32.644339638896454,
+  "full_profile_count": 1440,
+  "complete_mean_angular": 1552,
+  "original_same_tail_configuration_unchanged": true,
+  "changed_H_nonlinear_tail_mean_not_evaluated": true,
+  "endpoint_prefix_height_anchor_is_finite_maximum_not_exact_cut_mean": true,
+  "exact_closed_surface_diameter_reach_or_Hausdorff_certified": false,
+  "no_new_factory_ODE_Node_Jacobian_or_field": true
+}

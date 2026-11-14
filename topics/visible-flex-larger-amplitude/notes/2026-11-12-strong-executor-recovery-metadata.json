@@ -1,0 +1,41 @@
+{
+  "repo": "/workspace/scratch/c0de65fac774/math-research-recovered",
+  "topic": "topics/visible-flex-larger-amplitude",
+  "latestConfirmedMain": "7246caa2ce3da61d127e049934c4847e1ec804ca",
+  "unavailableAfterSession": 98619,
+  "session98619": "initial exact audited H replay saved; no accepted Newton step observed; Ctrl-C delivery and termination unknown",
+  "completed": {
+    "session29674": {
+      "exitcode": 0,
+      "worker_exitcode": 0,
+      "residual": 3.2267755969289545e-10,
+      "wall": 456.5526793003082,
+      "peak_rss_kib": 436104,
+      "packet": "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-r2-response_0001.json.gz",
+      "packet_sha256": "7a4c1c2c5390dd997fcef71c58c3e483f31cecd06ce240863c44d929ad1951de",
+      "ready": "notes/2026-11-12-strong-actual-q105-sameH-tail-audit-r2-ready.json",
+      "ready_sha256": "3ab4396baa55cbafdb50064a30affbc7ad9913e20725305db95f7087db62a9fa"
+    },
+    "session7181": {
+      "exitcode": 0,
+      "wall": 4.926039934158325,
+      "peak_rss_kib": 36428,
+      "checks_passed": 10,
+      "Node_processes": 0,
+      "BVPs": 0
+    }
+  },
+  "pushedRecovery": {
+    "file": "notes/2026-11-12-strong-actual-q105-freeq4-m24-tol7-r1-tail-iteration.json.gz",
+    "sha256": "9bfe41493d962208f9ede593f95b64a3393dc8c39afb76616640e877b92b7346",
+    "norm": 5.560497277748043e-11,
+    "unaccepted": true
+  },
+  "unpublishedSourceHashes": {
+    "strong_actual_same_height_tail.py": "ef8ffa1ceaa813d3a04f3551c3b44111d0e0af2d60953a750e7ec25e46a72ea3",
+    "strong_actual_three_control_bvp.py": "a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4",
+    "strong_actual_recorded_tail_port.py": "7fc687bd4608f5656140dc19abebccfb66074684c46651513efe68818ec311f0",
+    "strong_actual_recorded_tail_check.py": "e009628fe6a94f8537a6513c6a017e18948c4f9024b94c8dfe7660b627548f5d",
+    "strong_actual_prefix_geometry.py": "530a786d65cae809fb38c07f13203b51f7ca36f6e94897c967225e19934e628d"
+  }
+}

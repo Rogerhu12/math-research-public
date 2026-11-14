@@ -1,0 +1,77 @@
+{
+  "schema": "visible-flex-larger-R101-actual-proof-stable-manifest-v1",
+  "author": "exact_closure (GPT-6 Astra Pro; AI-assisted)",
+  "date_utc": "2026-11-13",
+  "status": "complete theorem and actual fresh spectral enclosure; not a full PDE or all-cut certificate",
+  "files": [
+    {
+      "local_path": "/tmp/visible-flex-larger-20261113T0030/exact-owned/R101-hybrid46-low-spectrum-and-complete-middle-sources.md",
+      "repository_path": "topics/visible-flex-larger-amplitude/results/R101-hybrid46-low-spectrum-and-complete-middle-sources.md",
+      "bytes": 12214,
+      "sha256": "f0abde4788bde719e66461fc8138b344ecef4c014519630bc6797ad0f5ff214e"
+    },
+    {
+      "local_path": "/tmp/visible-flex-larger-20261113T0030/exact-owned/prepared/closure_r101_actual_spectral_summary.py",
+      "repository_path": "topics/visible-flex-larger-amplitude/computations/closure_r101_actual_spectral_summary.py",
+      "bytes": 7735,
+      "sha256": "6c39fbe6551bef50182d75f75f55ab4bb8bae20158b02047141b1a6b2d3177fa"
+    },
+    {
+      "local_path": "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r101-exact-summary-r1.json",
+      "repository_path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-r101-exact-summary-r1.json",
+      "bytes": 38133,
+      "sha256": "1c3c7e9e68e5166c3a1db0693b23b50d54c21fb59bd337c40f57a4d538513d29"
+    },
+    {
+      "local_path": "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r101-exact-summary-r1-resource.json",
+      "repository_path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-r101-exact-summary-r1-resource.json",
+      "bytes": 1403,
+      "sha256": "b5624a0bc50f1233220bc10bd4917fe127dd885429931c7cb49cd6eabfc9d4a7"
+    }
+  ],
+  "frozen_executed_science_manifest": {
+    "local_path": "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-middle-and-r100-executed-stable-manifest.json",
+    "repository_path": "topics/visible-flex-larger-amplitude/notes/2026-11-13-closure-middle-and-r100-executed-stable-manifest.json",
+    "sha256": "add5c5bdef32382b4e2cd3d2a84443e75a107a08ad13a2f6c1fdf520b10f44a2",
+    "artifact_count": 32
+  },
+  "actual_summary_execution": {
+    "scope": "Run one owned numerical command and record wait4 resource/exit status.\n\nThis is a small replacement for /usr/bin/time, absent in this environment.\nUsage: strong_resource_run.py --out resource.json -- python ...\nThe child inherits ordinary stdin/stdout/stderr; no solver behavior changes.\n",
+    "command": [
+      "/workspace/scratch/c0de65fac774/research-venv/bin/python",
+      "/tmp/visible-flex-larger-20261113T0030/exact-owned/prepared/closure_r101_actual_spectral_summary.py",
+      "--spectral",
+      "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1.json",
+      "--wide",
+      "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1-wide.json",
+      "--spectral-resource",
+      "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1-resource.json",
+      "--wide-resource",
+      "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r100-spectral-r1-wide-resource.json",
+      "--out",
+      "/tmp/visible-flex-larger-20261113T0030/exact-owned/2026-11-13-closure-r101-exact-summary-r1.json"
+    ],
+    "wall_seconds": 0.13289642333984375,
+    "exitcode": 0,
+    "termination_signal": null,
+    "peak_rss_kib": 12400,
+    "user_seconds": 0.057165,
+    "system_seconds": 0.0051909999999999994,
+    "resource_wrapper_sha256": "bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59"
+  },
+  "proof_scope": {
+    "R100_S6_infinity_times_T40_weighted_l1": true,
+    "complex_reflection_P_odd_K_even_not_real_conjugacy": true,
+    "six_actual_enclosure_rounds_complete_mean_and_inverse": true,
+    "full46_low_source_rows_and_complete_middle_sources": true,
+    "low_middle_high_joint_closed": false,
+    "all46_cut_paid": false,
+    "closed_surface_claimed": false
+  },
+  "actual_gate_counts": {
+    "spectral": 30,
+    "wide": 14,
+    "independent_Fraction_summary": 90
+  },
+  "do_not_mutate_original_primary": true
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "publisher-lost-owned-session-recovery-v1",
+  "observed_utc": "2026-11-13T18:25:27.828623+00:00",
+  "former_session": 9495,
+  "actual_tool_response": "write_stdin failed: Unknown process id 9495",
+  "last_heartbeat_before_restart": {
+    "utc": "2026-11-13T18:17:18+00:00",
+    "kind": "git_start",
+    "args": [
+      "push",
+      "origin",
+      "HEAD:main"
+    ]
+  },
+  "last_actual_completed_pull": "2026-11-13T18:17:01+00:00",
+  "read_sha": "41556b9ea57c586184b224838eeeed95efef32e6",
+  "former_final_exit_or_push_success_observed": false,
+  "before_restart_git_locks": [],
+  "before_restart_rebase_state": false,
+  "current_session": 21294,
+  "restart_receipt": "publisher-restart-20261113T182328Z.json",
+  "root_three_child_agents_observed_interrupted": true,
+  "child_agents_resumed_by_followup": true,
+  "no_successful_scientific_package_recomputed": true
+}

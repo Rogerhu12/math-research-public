@@ -1,0 +1,139 @@
+{
+  "scope": "Full original production prepare-only at genuine accepted M32, using actual saved M28 six-direction initial-guess increments. Original corrected initial-law and full-flow entry composed, complete input identities checked, p35 and 132 boundary equations prepared. No Flow, Node or BVP was executed; a selected future candidate still requires complete fine-mean geometry and every original nonlinear acceptance gate.",
+  "created_utc": "2026-11-13T15:12:08.459041+00:00",
+  "source": {
+    "file": "computations/strong_coarse_response_warm_actual_bvp.py",
+    "sha256": "ff5acad191d51544bfebaf46902f7e58f89a2e4575130f9b33932aa25ef8972c"
+  },
+  "new_solver_or_field_evaluation": false,
+  "source_refinement_identity": "actual M32 accepted primary 4c0e13b2ea4e2541e75891a3b4fafa93ffc2f8331cfdcdc7e4083ac3cbfef1ad",
+  "resources": {
+    "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+    "task_prefix": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1",
+    "command": [
+      "python",
+      "-u",
+      "computations/strong_coarse_response_warm_actual_bvp.py",
+      "--coarse-reference",
+      "notes/2026-11-13-strong-q122-m28-fixed-view-r1.json.gz",
+      "--coarse-raw",
+      "notes/2026-11-13-strong-q122-m28-fixed-view-r1-raw-collocation.json.gz",
+      "--coarse-tail",
+      "notes/2026-11-13-strong-q122-m28-pure-secant-actual-r1-tail-response_0003.json.gz",
+      "--coarse-response-data",
+      "notes/2026-11-13-strong-q122-m28-completed-six-recovery-r1.json",
+      "--actual-reference",
+      "notes/2026-11-13-strong-q122-m32-sameg-actual-r1.json.gz",
+      "--actual-reference-raw",
+      "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-raw-collocation.json.gz",
+      "--actual-reference-tail",
+      "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response_0003.json.gz",
+      "--coarse-control",
+      "actual_q1=.0001",
+      "--coarse-control",
+      "actual_q4=.000001",
+      "--coarse-control",
+      "actual_c6=.0000001",
+      "--coarse-control",
+      "vu=.00002",
+      "--coarse-control",
+      "descending_turn_curvature=-.00025",
+      "--coarse-control",
+      "start_acceleration=-.0002",
+      "--frozen-reference-ready",
+      "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+      "--frozen-calibration-ledger",
+      "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+      "--source-topic",
+      "/workspace/scratch/d1aa462cfc02/strong-work/pinned-source/topics/visible-flexible-closed-surface",
+      "--port",
+      "computations/alternative-neck-provider-smallcut30-port32-r2048.json",
+      "--tail-config",
+      "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-config.json",
+      "--initial-full-tangent-manifest",
+      "notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz",
+      "--out-prefix",
+      "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1",
+      "--radial-batch-size",
+      "48",
+      "--collocation-batch-size",
+      "24",
+      "--point-cache-limit",
+      "8",
+      "--node-heap",
+      "768",
+      "--node-young-semi-space",
+      "16",
+      "--max-nodes",
+      "4000",
+      "--stage-cache-directory",
+      "/workspace/scratch/d1aa462cfc02/strong-work/full-tangent-stage-cache",
+      "--prefix-cache-directory",
+      "/workspace/scratch/d1aa462cfc02/strong-work/m32-coarse-warm-prepare-prefix-cache-r1",
+      "--prefix-cache-budget-MiB",
+      "256",
+      "--disk-temporary-parent",
+      "/workspace/scratch/d1aa462cfc02/strong-work",
+      "--prepare-only"
+    ],
+    "started_utc": "2026-11-13T15:11:24.597053+00:00",
+    "finished_utc": "2026-11-13T15:11:29.776891+00:00",
+    "wall_seconds": 5.201603378998698,
+    "exitcode": 0,
+    "termination_signal": null,
+    "wait4_observed": true,
+    "wait_status": 0,
+    "peak_rss_kib": 45692,
+    "user_seconds": 1.286742,
+    "system_seconds": 0.37734199999999996,
+    "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+    "received_supervisor_signals": [],
+    "owned_child_pid": 7,
+    "supervisor_pid": 6,
+    "supervisor_pid_namespace": "pid:[4026533375]",
+    "automatic_restarts": 0
+  },
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1-actual-three-control-adapter.json",
+      "sha256": "b43e1319d05b1dc1227fc0076dccb86d24c392170d2f92e63cb0a8b900ebef7a",
+      "bytes": 119048
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1-base-profile.json",
+      "sha256": "07c424b446de47b1069c291df18cec46c23342172b296fcc955edf062f70d6bc",
+      "bytes": 537
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1-config.json",
+      "sha256": "1c1ca40c21d634d662f31948d2d006a9f3b31215fa4983368a042f4dee0a4552",
+      "bytes": 2951
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1-heartbeat.json",
+      "sha256": "973d22ea52249e7fea55be4c383c27130c4ed059d4dd839a9674a529f83da66c",
+      "bytes": 323
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1-ownership.json",
+      "sha256": "c849cc61a0946e5c3901f8f0c4b8cbe0753b8574346193b6c921688202c93593",
+      "bytes": 3777
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1-plan.json",
+      "sha256": "e5b2e0cb4ef1e1c93af01e3540568f1a0bc08adfc6cf925566ef01c12ce46d48",
+      "bytes": 6450
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1-resource.json",
+      "sha256": "92452126ab2c7a074ef2801cbdebc9b562a092880676fbbaf889b3ee2182373c",
+      "bytes": 3560
+    },
+    {
+      "file": "notes/2026-11-13-strong-coarse-response-m32-full-entry-prepare-r1-stdout.log",
+      "sha256": "31bf6c3b9abd1679ed8b9ddf12f404054a9159e3ad30f0e532743f95f0f783a0",
+      "bytes": 3517
+    }
+  ],
+  "total_bytes": 140163
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "2026-11-13-strong-q130-partial-six-negative-warm-r1-immutable-archive-v1",
+  "author": "geometry_audit (GPT-6 Astra Pro; AI-assisted)",
+  "members": [
+    {
+      "path": "computations/root_q122_q130_warm_diagnostic_consumer.py",
+      "sha256": "320d4e54599fbdd0319668f6664fa5f07153dad0d5fb905374493dfd334ba4f6",
+      "bytes": 6695,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/computations/root_q122_q130_warm_diagnostic_consumer.py"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-plan.json",
+      "sha256": "d79154658d018593a86835413bce59aa28be57dbf8d33358bfd8ad61c2c53c46",
+      "bytes": 13387,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-constant-size-plan.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-screen.json",
+      "sha256": "bed7e45297f07c04c71cdf34a0b8b87952e2c8b21aa08b301546c10d697dd86e",
+      "bytes": 21344,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-constant-size-combined-screen.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-field.json",
+      "sha256": "95b09aae9760845d2813730455625b5199e2b5e15f2b91160bbd0c769ad1a55c",
+      "bytes": 4295,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-constant-size-combined-field.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-warm-resource.json",
+      "sha256": "2260e5d69ee9c64cc29e77acad538758e798a25af14b0f443f547c7f893a9c3b",
+      "bytes": 2560,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-constant-size-combined-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-owned-resource.json",
+      "sha256": "442f30b40ebe5dbf6518b5682fd36fde4d8b31eb9470e43de1b87f41ac88f1e9",
+      "bytes": 1466,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-constant-size-owned-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-source-preparation.json",
+      "sha256": "494983396967beefbce959302c1c48de25757d06b130a01c9cc2c7b06dba170c",
+      "bytes": 6694,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-constant-size-combined-initial-laws-geometry-source.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-inlet.json",
+      "sha256": "72ab07e367b5cf3263e6c772b80edb247933e25397d7527a6bbdd42df978bc3b",
+      "bytes": 7115,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-warm-inlet.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-inlet-resource.json",
+      "sha256": "7920c28c5b1245f75d906917227f258c7632d0cd902147faed4f0257caae173e",
+      "bytes": 1827,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-warm-inlet-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-consumer.json",
+      "sha256": "a9f305a5e3c94bc94d5729aabe30a465ee3466ea3d4b01ddf61ec6ed18993178",
+      "bytes": 12978,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-consumer.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-consumer-resource.json",
+      "sha256": "c1f42dedc3d372572340a163b70529162c51b50d9fd4b251091cfba375cc853d",
+      "bytes": 1740,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-consumer-resource.json"
+    },
+    {
+      "path": "notes/2026-11-13-strong-q130-partial-six-negative-warm-r1-proof.md",
+      "sha256": "428b30af5128c730b9e0b2a4d04bd359449d35f3b6deef43c40d0195e6e4d1f1",
+      "bytes": 5091,
+      "original_scratch_path": "/workspace/scratch/d1aa462cfc02/geometry-work/m28-q122-r1/q130-t256-negative-proof.md"
+    }
+  ],
+  "predecessor_minimax_manifest_sha256": "c8b316843c338c8cb9e27c8ffc7b74907194fd855d1c94e19ffd385c3ca58e1c",
+  "actual_complete_warm_executed": true,
+  "independent_saved_data_gates": 76,
+  "inlet_representation_negative": true,
+  "new_BVP_or_tail_evaluation": false,
+  "derived_large_array_archive": "Scratch only; 18 complete chunks and hashes retained in field metadata.",
+  "original_g_or_accepted_candidate_modified": false
+}

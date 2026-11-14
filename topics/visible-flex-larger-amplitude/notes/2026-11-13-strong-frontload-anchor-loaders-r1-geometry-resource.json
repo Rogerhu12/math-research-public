@@ -1,0 +1,26 @@
+{
+  "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+  "task_prefix": "current-anchor-geometry-source-preparation",
+  "command": [
+    "python",
+    "computations/root_actual_geometry_field_anchor.py",
+    "--geometry-initial-laws-prepare-only",
+    "frontload-anchor-loaders-r1/geometry-preparation.json"
+  ],
+  "started_utc": "2026-11-13T13:56:38.152268+00:00",
+  "finished_utc": "2026-11-13T13:56:38.773816+00:00",
+  "wall_seconds": 0.7082817320006143,
+  "exitcode": 0,
+  "termination_signal": null,
+  "wait4_observed": true,
+  "wait_status": 0,
+  "peak_rss_kib": 16876,
+  "user_seconds": 0.169928,
+  "system_seconds": 0.046194,
+  "resource_wrapper_sha256": "e683fbbeb1eb579d07799acbdd08b2254917e49209566c28a85628eb9cb72bc6",
+  "received_supervisor_signals": [],
+  "owned_child_pid": 5,
+  "supervisor_pid": 2,
+  "supervisor_pid_namespace": "pid:[4026532717]",
+  "automatic_restarts": 0
+}

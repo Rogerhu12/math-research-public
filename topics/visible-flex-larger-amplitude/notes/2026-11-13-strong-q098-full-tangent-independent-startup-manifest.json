@@ -1,0 +1,130 @@
+{
+  "scope": "Actual independent production-worker startup restored the accepted original full-state tangent, exact frozen identity and original predictor factory, then closed with zero solve requests. No new H or new solution is claimed.",
+  "created_utc": "2026-11-13T09:37:18.597575+00:00",
+  "owned_exitcode": 0,
+  "summary": {
+    "scope": "Verify the actual next-worker tangent restore without a new nonlinear solve.\n\nThis opens the unchanged production full-tangent client against an explicitly\nbound accepted checkpoint, verifies the new worker's original predictor-factory\nrestore and exact physical identity, then closes it before any request. It does\nnot calculate or accept new-H jets, a prefix, an audit, or a geometric result.\n",
+    "status": "complete",
+    "source_sha256": "4d57e6510df94244b79577436d37826acfd6583f95c7ed80497028f5d3d3c91a",
+    "accepted_tail": {
+      "file": "notes/2026-11-13-strong-q098-m28-newjac-actual-r1-tail-response_0003.json.gz",
+      "sha256": "1e0af8ea57b700b46c78e1fb09cc5babd72c54dd7132e2cb3be377979e62ca57"
+    },
+    "snapshot": {
+      "file": "notes/2026-11-13-strong-q098-m28-full-tangent-bootstrap-r1-response-full-tangent-call0001-manifest.json.gz",
+      "sha256": "b9aaad5f2b90211f2e003d6b897ae977bd48e836e6b263d3796f71c1c237891a"
+    },
+    "original_equations_unchanged": true,
+    "nonlinear_requests": 0,
+    "new_H_accepted": false,
+    "independent_worker_started": true,
+    "original_factory_restored": true,
+    "original_geometry_exactly_matched": true,
+    "restored": {
+      "schema": "full-shooting-flow-tangent-storage-v1",
+      "manifestPath": "/workspace/scratch/d1aa462cfc02/strong-work/runtime/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q098-m28-full-tangent-bootstrap-r1-response-full-tangent-call0001-manifest.json.gz",
+      "manifestSha256": "b9aaad5f2b90211f2e003d6b897ae977bd48e836e6b263d3796f71c1c237891a",
+      "completeFrozenIdentityMatched": true,
+      "completeCheckpointNumericJSONMatched": true,
+      "allOriginalBaseFloat64BitsRestored": true,
+      "allOriginalFlowFloat64BitsRestored": true,
+      "modes": 28,
+      "stages": 576,
+      "rawFlowBytes": 14450688,
+      "noNewRootODEJacobianOrPredictorEvaluation": true,
+      "newTargetAccepted": false,
+      "maxChartCondition": 133152.25530412758,
+      "originalFactoryCalled": true,
+      "initialGuessOnly": true
+    },
+    "ready": {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-ready.json",
+      "sha256": "49a678b7ed28b26431e562f7dccf5afb90533a93836e3872802ccace3a0010f8"
+    },
+    "owned_worker_returncode_after_close": 0,
+    "trace_events": [
+      "tail_variational_backend",
+      "exact_raw_storage_gc",
+      "exact_raw_warm_loaded",
+      "warm_initial_state",
+      "full_flow_tangent_restored",
+      "exact_raw_storage_gc"
+    ],
+    "wall_seconds": 85.31724685500012
+  },
+  "resources": {
+    "wall_seconds": 85.90385634999984,
+    "peak_rss_kib": 170740,
+    "started_utc": "2026-11-13T09:34:41.972750+00:00",
+    "finished_utc": "2026-11-13T09:36:07.868109+00:00"
+  },
+  "files": [
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-config.json",
+      "bytes": 2934,
+      "sha256": "01eb2844e22a89a247dbfcf17490e70adc57c5f48dd2fd5a05c61e27d7b5a321"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-ownership.json",
+      "bytes": 2428,
+      "sha256": "653230d58c360d8a1cdcb175b3180feea786f5222e2855c54b7c005fd6c700d7"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-ready.json",
+      "bytes": 145100,
+      "sha256": "49a678b7ed28b26431e562f7dccf5afb90533a93836e3872802ccace3a0010f8"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-resource.json",
+      "bytes": 2214,
+      "sha256": "880b752c56c8c984252b1340bef8c69b5510caa223c110d83f3a9944f6bf8597"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-response_Node-resource-intent.json",
+      "bytes": 1026,
+      "sha256": "6ab4ce2ae5bce22ea6a92a9c405c0fff34f9999e343fb3aa2a5396daff8b4b43"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-response_Node-resource-observed.json",
+      "bytes": 1050,
+      "sha256": "40b2c72016b10c34be10f59329672acca40d831487d177cb192700449f2f832e"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-response_adapter.json",
+      "bytes": 95531,
+      "sha256": "0f43d6b4e8d2fb249332933b8f4a753e7761ddddf2899fa9d3475a424fc40808"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-response_exact-raw-adapter.json",
+      "bytes": 3522,
+      "sha256": "f4985bdef172d72e653ffaa02747157cb547c37a89fedceb898a2c76caf5cf27"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-response_full-tangent-adapter.json",
+      "bytes": 43209,
+      "sha256": "e741e8d651add167f113898295c1a179c196debac89d12b273462c996220959d"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-stdout.log.gz",
+      "bytes": 1892,
+      "sha256": "88ec5bf22b48abeecd3dd84f11dbf6b7a4a4950be7c5a0499a8a49b04f94a20a"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-summary.json",
+      "bytes": 2475,
+      "sha256": "07b0ed315c68d40a6d2536d7a4bcfceec4d8ded8e293306b052647d752d50dc6"
+    },
+    {
+      "file": "notes/2026-11-13-strong-q098-full-tangent-independent-startup-r1-trace.jsonl.gz",
+      "bytes": 1696,
+      "sha256": "34609a57ba3bccc21a68d25c25b6365525e857a9d0c583291e9518c60ea0e923"
+    },
+    {
+      "file": "computations/strong_full_tangent_startup_restore.py",
+      "bytes": 6297,
+      "sha256": "4d57e6510df94244b79577436d37826acfd6583f95c7ed80497028f5d3d3c91a"
+    }
+  ],
+  "total_bytes": 309374,
+  "frozen_MJS_and_existing_adapters_changed": false
+}

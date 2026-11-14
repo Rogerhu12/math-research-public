@@ -1,0 +1,64 @@
+{
+  "author": "/root (GPT-6 Astra Pro; AI-assisted)",
+  "scope": "P1 contains same real a_star; original complete inner complex-domain modal bounds restricted",
+  "files": [
+    {
+      "path": "computations/root_R157_P1_transverse_lift.py",
+      "sha256": "6dfe32d4e01cd91c6fc2f27de197cf988bd332326a3ed7e86443bef80c894d13",
+      "bytes": 9851
+    },
+    {
+      "path": "computations/root_R157_P1_modal_input.py",
+      "sha256": "b20263f006e8d61a0391f99b02e2c1fad604b526d0b732f27f867a9fb8e61206",
+      "bytes": 6980
+    },
+    {
+      "path": "notes/2026-11-13-root-R157-lift-inputs.json",
+      "sha256": "553ca780b65b5b3f549ff250d968d4c357bc0589200d27c8e0ca327a1f372cc0",
+      "bytes": 1870
+    },
+    {
+      "path": "notes/2026-11-13-root-R157-P1-lift-r1.json.gz",
+      "sha256": "e9724edbce6515de15ac40ef0fa12824b269dd3438b528056db9fbee2ae240c2",
+      "bytes": 508763
+    },
+    {
+      "path": "notes/2026-11-13-root-R157-P1-lift-r1-resource.json",
+      "sha256": "a9016d9246ffe8c2c7fd566f7c0175f8909a57c010a6b983e2d497b25aac616c",
+      "bytes": 807
+    },
+    {
+      "path": "notes/2026-11-13-root-R157-P1-lift-r1.log",
+      "sha256": "1335977b9518aed319b78225f716e406f7b3f2c1168a920a79f3e19b4ccfa5cb",
+      "bytes": 1091
+    },
+    {
+      "path": "notes/2026-11-13-root-R157-P1-modal-r1.json.gz",
+      "sha256": "b6449aa97ea25e1f26760867fe1916efa2eb71cbce910658632473940435f8a0",
+      "bytes": 1405355
+    },
+    {
+      "path": "notes/2026-11-13-root-R157-P1-modal-r1-resource.json",
+      "sha256": "3fa6bf674c8d9e48fc09afa468e84c6a643e2361cca68bcc1a71d62971dd6992",
+      "bytes": 1317
+    },
+    {
+      "path": "notes/2026-11-13-root-R157-P1-modal-r1.log",
+      "sha256": "92730292c653b618f4ea18129130c24fec5db2d3343c47e5086648c4427a9091",
+      "bytes": 1581
+    },
+    {
+      "path": "results/R157-P1-actual-fixedpoint-modal-domain.md",
+      "sha256": "4f35f8680fcf63e2035a49ee2907375195fd7520bfc1a2cb3696fbd7d8975507",
+      "bytes": 3012
+    }
+  ],
+  "total_bytes": 1940627,
+  "lift_gate_count": 827,
+  "modal_gate_count": 10450,
+  "formal_owned_exit_codes": [
+    0,
+    0
+  ],
+  "dependency_map": "R156/R150 already archived original input graphs; exact remaining old paths/hashes in lift input manifest and modal provenance"
+}

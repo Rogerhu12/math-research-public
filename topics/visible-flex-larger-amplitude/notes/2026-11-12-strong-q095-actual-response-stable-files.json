@@ -1,0 +1,107 @@
+{
+  "scope": "Completed exact-baseline actual full-field response only; no new BVP/worker, full arrays preserved.",
+  "session_id": 70254,
+  "actual_tool_exitcode": 0,
+  "files": [
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-descending_turn_curvature.npy.gz",
+      "bytes": 1117916,
+      "sha256": "181b136fa556c3c0b37723cad79949f3b9149aaf325927567cce20fc9e70d0f6"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-core-held-vu.npy.gz",
+      "bytes": 1130178,
+      "sha256": "ebaad13a5e07970853d4689d0764297dbcd0ce0ed7afd5e17b5c2689560e4ea1"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-boost_length.npy.gz",
+      "bytes": 1135567,
+      "sha256": "e3bfc83829362312e7f2b2cca8a5af943d39056d869cb2f27452e04e31b84030"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-boost_speed.npy.gz",
+      "bytes": 1135644,
+      "sha256": "ee54c9ed166127b3070ca5d5e3c6b98102ef629bf581af6f5a7965285bee0858"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-delta.npy.gz",
+      "bytes": 1135813,
+      "sha256": "25c5a66642eb1644931f2882f37e584e7b61ba158c5bc8484ba70dce7b4e4888"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-descending_turn_curvature.npy.gz",
+      "bytes": 1135351,
+      "sha256": "b0d2a271000ed10f1dc9c34d70cae2bcdbe31fa7dcf6fd95e2831ebc297299e7"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-external-vu.npy.gz",
+      "bytes": 1135694,
+      "sha256": "e7d427fd6059e047c98c8933b91d7b482029d7f4619298913c03213b2ff8d1f0"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-loader-frozen-profile.json",
+      "bytes": 507,
+      "sha256": "4a5a3ee472d721aa4e2020b86d5a108c0819b454407f297d8488a3a2c7f4e7c3"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-loader-summary.json",
+      "bytes": 11999,
+      "sha256": "b2e3f7d5a6a8a77baf09ac58dbf2b00e58a56120d83bea0d764e9588bab08a56"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-log.txt",
+      "bytes": 6566,
+      "sha256": "bf5a72b4503f55881c9c089b358441a3cffa70dfe9ff7b472df489d2f00fb536"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_c6.npy.gz",
+      "bytes": 1137870,
+      "sha256": "3e97d12dbda747c85306b106549c71dcb1c9e06fa08d2b6d16a461e682ce4b34"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_q1.npy.gz",
+      "bytes": 1135884,
+      "sha256": "7ffc76b6c6e23f477c69dacaaee0086bbd8d60baa27c7f31da85eba6816ba573"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-prescribed-actual_q4.npy.gz",
+      "bytes": 1135349,
+      "sha256": "fc8afe844d2d66dc035ea044e703d79ecfd93c74c7570a744db63f18aab6f723"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response-resource.json",
+      "bytes": 1605,
+      "sha256": "5694dd3fa19cd628085a7eb4d0295642e9d1420cddf680667777da8237b20017"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response.json",
+      "bytes": 25734,
+      "sha256": "72d6615a3699769451dd9af11bb89a769ba2fb9651438cde72da5fe485efb36c"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-fixed-control-response.md",
+      "bytes": 3615,
+      "sha256": "8ce5c74c52069e98151b08e9542ba0684f61534272dd34536e1d602f9d41a102"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-response-metadata.json",
+      "bytes": 2233,
+      "sha256": "845ecde9f26ee03399d1fe9c3c93fdbb1a569ba7e5ec076cfc143d157b69ec48"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-response-metadata-resource.json",
+      "bytes": 1146,
+      "sha256": "6f279fc9a5743c6c76a2b15680237b113471fc28ae042c634e64320cf02058f3"
+    },
+    {
+      "file": "notes/2026-11-12-strong-q095-actual-response-plan.json",
+      "bytes": 1956,
+      "sha256": "75138165aded3509e78bfa89ba1878aa3f41559301fe41884e6dec8eb8a0448a"
+    },
+    {
+      "file": "computations/strong_actual_fixed_control_response.py",
+      "bytes": 24387,
+      "sha256": "a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1"
+    }
+  ]
+}

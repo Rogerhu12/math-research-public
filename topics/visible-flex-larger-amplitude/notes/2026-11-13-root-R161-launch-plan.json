@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "/workspace/scratch/d1aa462cfc02/root-work/R161-repaid-physical-ball-inputs/root_R161_repaid_physical_ball_nonlow.py",
+    "--inputs",
+    "/workspace/scratch/d1aa462cfc02/root-work/R161-repaid-physical-ball-inputs/input-manifest.json",
+    "--out",
+    "/workspace/scratch/d1aa462cfc02/root-work/r127/R161-physical2m20-r1.json.gz",
+    "--physical-radius",
+    "1/1048576"
+  ],
+  "source_sha256": "47c8f6b7f3a3dbd9aed9185c278e4044fb7c8c2e23d0de721457372c124d3f15",
+  "new_physical_radius": "1/1048576",
+  "Hessian_rule": "R116 23/9+270R on every complete complex R<=1/128"
+}
