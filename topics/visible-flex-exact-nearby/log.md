@@ -367,3 +367,7 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 ### 2026-11-14 20:56:01 UTC — E1–12 辅助解析延拓与完整复三阶jets已独推
 
 root全文核 E1–12，tail已核原degree20/Horner/Nyquist与新完整bilinear jet公式；仅在原piece认同真germ，扩域是新数学，旧成功域不重算。证明blob da8b704e553e2d39af91e12edfd259773da7c34f，11394B，SHA cfaf9234c4fbdaf5515a299194762232a802312fd3fd2c4699e608c47c33ea64。96xxB旧H完整归档 notes/2026-11-14-handoff-before-auxiliary-root-domain.md 后整理活跃检查点；所有数值/失败/原身份留在旧H及actual。未声称新域或fold已通过；下一步57pin消费者。
+
+### 2026-11-14 20:57:04 UTC — 四个辅助复根域57pin入口部署
+
+root全文读科学source/CI、核worker相对成功G/H版本全部差异及flow，39源共享原pins无差异；tail核六jets/complex bilinear/完整mean。修后的response shard64字符SHA和原index一致。manifest404e8352112f38cd5b96dc42ebe49c9c11ebab3a2f2fc53db3f1e247314285da共57文件6742246B；数学source70f848effb2e57c64b2c9e8100d6ac0af01968c13c939a4874c6f44b0a759d21。四新域逐域及32component checkpoint；45min child/50min wrapper，公开runner前后真pull，出版非FF循环。此条只记部署，待actual，不授新fold/完整逆。

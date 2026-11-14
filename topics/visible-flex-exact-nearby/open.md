@@ -110,3 +110,7 @@ C1–15已证明。最小窗原RQJgd项仍主导；用新gd/qv恒等式只新增
 ### 辅助复根域：已证契约，部署新的完整复thirdjets
 
 E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/γ/β/s3，见 [证明](results/R133-supplement-auxiliary-root-piece-analytic-extension-and-complete-complex-third-jets.md)。原germ唯一性只用于原piece内；新域不能改写邻piece对象。phase已交57pin六件，root审后在公开Actions跑四域，失败域与完成前缀都保留；再支付真实新fold/leading/forcing。原小域全部成功证据原样保留。
+
+### 辅助复域57pin消费者已装
+
+公开Actions新入口 `visible-exact-auxiliary-root-complex-third-jets.yml`：四复矩形，完整6primitive/E4/A5和K/γ/β/s三阶，65/193原cubic及true mean；39递归源/2原NPZ完整、旧97pin共享字节均一致。source70f848ef…、manifest404e8352…，0外部artifact/0旧成功域重算。保四域成功与失败；phase检查实际结果后继续真正辅助fold/leading。
