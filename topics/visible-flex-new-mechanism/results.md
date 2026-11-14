@@ -115,3 +115,5 @@
 - [R55：饱和热反射的三阶Cauchy jet与有限解析自由角基障碍](results/R55-saturated-heat-third-Cauchy-jet-analytic-space-obstruction.md) — 当前饱和3−3+1反射与自然单帽外延的三阶差为g_rrr+g_r/(3c²)，热Oδ6与cutoff Oδ5不改。准确R0的δ²项先迫u/v三阶相同，RT的δ³项再迫beta；所需v补偿在每个帽顶点二角导跳正比相邻正幅度之和，有限全角解析自由列不能提供。故此明确表示无准确R0，但没有正残差下界，不排1e−6近似或一般C2/非解析连接。
 
 - [R56：完整变系数range的分子演算与有限第四系统](results/R56-full-variable-range-numerator-calculus-and-finite-fourth-system.md) — 任意二次forcing用Zi=FVi/(xi+omega)表示，真实变系数右锚rho=P+B/z；完整characteristic RHS、eta0与恢复分子的所有1/z项逐点消去。有限阶只需固定profile乘积/微分/Volterra及真实s系数积分，故全连接段、双collar及整个period均准确有限化。冗余生成元用真实Gram kernel，不能用采样代全函数。当前重叠pair六交叉密度满秩，固定六profile右逆使全部第三gauge一次支付ruling在同一全局W内的部分；完整第四恰还需全period零及全ruling属于W，尚未求得共同零解。
+
+- [R57：直接重构度量、准确误差范数与辅助框架空间限制](results/R57-direct-reconstructed-metric-and-auxiliary-frame-space.md) — 准确零角均值的单位T重构X=aΠT+zez，使G=a²；真实e=|Xt|²−1、q=Xt·T给最大相对算子误差η=(|e|+√(e²+4q²))/2，直接残差(e,√2q)与其等价。准确R0是充分条件；直接等距得到V*=Xt，但它未必属于旧有限beta和全部高端口jet类，故R55不得未经证明外推。全参数导数含δa/δa′/δb，保持同一中心锚。没有证明零点或任何完成门。
