@@ -539,3 +539,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### 原生缺失点 Hessian → 同一Z Green消费者（2026-11-14 20:01:21 UTC）
 
 [完整合同](notes/2026-11-14-R133-native-point-Hessian-cached-Green-contract.md) 与新 source/CI/287pin manifest/workflow 已推。原279/193科学pins全不变；root逐字核新旧科学函数、CI/flow和所有pins，tail独核。后继仅在真实原生64点成功后消费，不算旧target/whole/Taylor64/residual/Green传播；完整四源、mean、已知high和真实切口97行保留。此提交只授接口，不授未运行数值。
+
+### 原生缺失64点的最小补证（2026-11-14 20:01:43 UTC）
+
+[合同](notes/2026-11-14-R133-missing-native-point-Hessian-contract.md) 随 source5845549d…、CIa934d2ad…、193pin manifest a4ca896c…和公开workflow独立推送。原189科学pins零改，root核全部源码/CI/flow/清单，tail核数学和冻结provider。只有64真正缺失原生点及其新point-model residual/16 local可新算；原Taylor完整证书和fallback保留，所有物理14费/6边界、独立mean与未知输入算子不变。发布本身不授数值结论。

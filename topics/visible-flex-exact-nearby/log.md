@@ -325,3 +325,5 @@ root已核source/CI差异、完整flow及全部旧pins；tail独核数学无改�
 root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins；tail数学独核通过。首次运行前修复tensor嵌套序列化和partial幅度重复计算，数学公式不动。公开Actions自动启动，原五native SHA/字节和所有失败证据保留。
 
 - 2026-11-14 20:01:21 UTC：独立推原生64point→同一Z Green五件，manifest f5cdddf72bde6dbd2785452811832a3d6109a242796943782954a6d98c21d18c；先安装workflow_run再启动上游。原279/193 pins逐项零改，root/tail审核通过；新算仅右通道6391 profile重标定，待实际成功。两README blob未变。
+
+- 2026-11-14 20:01:43 UTC：独立推193pin原生64中点五件，source5845549dd474d744be2dae5ef3f0c608ea61eb7a2c97c6cedebd3b73d0b159e5，manifest a4ca896cc3eb2b0b3f02a7249aec49deabe3920ee9e50f0b59f984c4661f60f0。原189 pins逐项不变，root/tail审核通过；先前08179e2已安装真实success后继。所有旧成功/native保留，只新64点/64点模型残差/16local。两README未变。

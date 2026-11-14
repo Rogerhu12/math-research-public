@@ -239,3 +239,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 原生64点后继的同一Z Green消费接口（2026-11-14 20:01:21 UTC）
 
 已审并先发布 [native-point→Green合同](notes/2026-11-14-R133-native-point-Hessian-cached-Green-contract.md) 及287pin消费者，等待公开原生64点workflow真实success；旧279/193 pins零改。数学 `refined_cut` 与已审Taylor版本逐字相同，仅换完整身份门及新增point scope。完整6391 profiles、其他三源、独立mean、14物理费/6边界费、未知误差算子全保；真实高块逆和cap无限cross-block仍未付。下一步直接消费上游实际证据，不为触发重跑已成数学。
+
+### 只补原先未保存的64原生中点（2026-11-14 20:01:43 UTC）
+
+已审并推 [原生中点合同](notes/2026-11-14-R133-missing-native-point-Hessian-contract.md) 和193pin五件。固定同一目标、同一物理η₀/ν和64准确中点；新点 jets 与旧whole及已成Taylor enclosure求交，空交即失败，whole三阶jet原样保。逐点、逐residual、逐local保存成功prefix；已成完整child0即使publication失败也直接复用。原7908 whole、7844 residual、64 Taylor及1325未受影响local全不重算。已先安装287pin Green后继，成功后自动消费同一Z真实97切口；仍须实际核验是否达到1/200。
