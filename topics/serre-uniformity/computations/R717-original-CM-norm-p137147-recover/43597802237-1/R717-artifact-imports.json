@@ -1,0 +1,104 @@
+{
+  "restore_driver_sha256": "0bef6862ebe22baeac34a2f65d7e1b99de5623ff5e3f7778428158664c135e08",
+  "request_sha256": "cdfa544b1d9b9162556e8aad56163d029cec89254a368dd850c4c3c17629460f",
+  "source_archive": "R717-artifact-restore-source.py.gz",
+  "source_archive_sha256": "63a3ecdbbffad2a9e58026bb801babcef20a8cf3d0cfcc6919ffb7d74dd2f518",
+  "phase": "recover",
+  "shard_index": 0,
+  "imports": [
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43597802237",
+      "artifact_name": "serre-cartier-R717-original-CM-norm-p137147-bins-0-43597802237-1",
+      "result": "R717-original-CM-norm-p137147-bins-0",
+      "source": "same workflow bin dependency",
+      "artifact_metadata": {
+        "id": 14115138942,
+        "name": "serre-cartier-R717-original-CM-norm-p137147-bins-0-43597802237-1",
+        "size_in_bytes": 35479283,
+        "digest": "sha256:7c3ce197a153f121f97bade283e48217ddf5f2f4691db754627cc1c4843bcfc6",
+        "created_at": "2026-11-14T13:06:48Z"
+      },
+      "fixed_input_hashes": [],
+      "verified_output": {
+        "file": "R717-bins-0.json.gz",
+        "sha256": "fae9b0aadc62a36f0a5d251a17c802d698af183145cccec7f0f3b6e4352a71d8",
+        "complete": true,
+        "row_count": 2029,
+        "completed_through_a": 8113
+      },
+      "destination": "/home/runner/work/_temp/R717-imports/R717-original-CM-norm-p137147-bins-0/serre-cartier-R717-original-CM-norm-p137147-bins-0-43597802237-1"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43597802237",
+      "artifact_name": "serre-cartier-R717-original-CM-norm-p137147-bins-1-43597802237-1",
+      "result": "R717-original-CM-norm-p137147-bins-1",
+      "source": "same workflow bin dependency",
+      "artifact_metadata": {
+        "id": 14114303928,
+        "name": "serre-cartier-R717-original-CM-norm-p137147-bins-1-43597802237-1",
+        "size_in_bytes": 35527621,
+        "digest": "sha256:8be663c01ff6ec8699cc94ee8d45ead4e5e1d5040f754b4de6f7257d21e3a430",
+        "created_at": "2026-11-14T13:05:56Z"
+      },
+      "fixed_input_hashes": [],
+      "verified_output": {
+        "file": "R717-bins-1.json.gz",
+        "sha256": "eabe4b445631f071839f9cf45ec162620c0537ed1eb6e1d28d79b27d66316f6a",
+        "complete": true,
+        "row_count": 2028,
+        "completed_through_a": 8110
+      },
+      "destination": "/home/runner/work/_temp/R717-imports/R717-original-CM-norm-p137147-bins-1/serre-cartier-R717-original-CM-norm-p137147-bins-1-43597802237-1"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43597802237",
+      "artifact_name": "serre-cartier-R717-original-CM-norm-p137147-bins-2-43597802237-1",
+      "result": "R717-original-CM-norm-p137147-bins-2",
+      "source": "same workflow bin dependency",
+      "artifact_metadata": {
+        "id": 14115490036,
+        "name": "serre-cartier-R717-original-CM-norm-p137147-bins-2-43597802237-1",
+        "size_in_bytes": 35486760,
+        "digest": "sha256:2d9e358678a3f71a05db181ea6e4a00d45aae119f225f4965b6f7a612325c02b",
+        "created_at": "2026-11-14T13:09:40Z"
+      },
+      "fixed_input_hashes": [],
+      "verified_output": {
+        "file": "R717-bins-2.json.gz",
+        "sha256": "5ef6d896e45f62d7ed24be78eb70b6913a6109ac044ae74a375daca969dfeea8",
+        "complete": true,
+        "row_count": 2028,
+        "completed_through_a": 8111
+      },
+      "destination": "/home/runner/work/_temp/R717-imports/R717-original-CM-norm-p137147-bins-2/serre-cartier-R717-original-CM-norm-p137147-bins-2-43597802237-1"
+    },
+    {
+      "repository": "Rogerhu12/math-research-public",
+      "run_id": "43597802237",
+      "artifact_name": "serre-cartier-R717-original-CM-norm-p137147-bins-3-43597802237-1",
+      "result": "R717-original-CM-norm-p137147-bins-3",
+      "source": "same workflow bin dependency",
+      "artifact_metadata": {
+        "id": 14115027960,
+        "name": "serre-cartier-R717-original-CM-norm-p137147-bins-3-43597802237-1",
+        "size_in_bytes": 35525352,
+        "digest": "sha256:7d264293087f075a13674cfbc34c101b9b9c5c3db6e405efb3dbcc8c921548d9",
+        "created_at": "2026-11-14T13:10:00Z"
+      },
+      "fixed_input_hashes": [],
+      "verified_output": {
+        "file": "R717-bins-3.json.gz",
+        "sha256": "fa90bcd9cfe7b392dbcd6ea526eb765ef819770418cbe2df1530a71a0773496b",
+        "complete": true,
+        "row_count": 2028,
+        "completed_through_a": 8112
+      },
+      "destination": "/home/runner/work/_temp/R717-imports/R717-original-CM-norm-p137147-bins-3/serre-cartier-R717-original-CM-norm-p137147-bins-3-43597802237-1"
+    }
+  ],
+  "imports_complete": true,
+  "no_prior_lattice_terms_recomputed": true
+}
