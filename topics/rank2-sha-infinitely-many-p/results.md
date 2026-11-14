@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R460：原奇伴随正Tc提取与同域连接carry](results/R460-original-odd-companion-tests-and-same-domain-connection-carries.md)：完整六维奇矩阵抽原C13/C15，奇Euler、tame1移权及非零单位质量全保；同一两输入实现原qC连接。两个真实相消环带以单位行列式消移权未知，完整返回原S；物理p归一仍须非零质量修正，不将第一推前身份等同独立隐藏域。
+
 - [R459：真角含量与实际首次修正的非零分支余项](results/R459-actual-angular-content-and-padded-cubic-first-lift.md)：保原t^r后全部角层charge准确；两真实carry强制原修正在F分支的法向首项系数5，较窄可读窗另强制值首项−2，未知根修正全消。同格指定jet像及结式排除条件明确，J0实际次数免17倍；未预设像缺口、低预算实例或完整中央失败传播。
 
 - [R457：原五sigma完整伴随核心与原输入深度运输](results/R457-original-five-sigma-full-companion-core-and-depth-transport.md)：真实五输入正交格det114114，五轴绝对核心及四伴随全部保留；Z核心准确移动每个原输入并改变Y。原六sigma归一后四伴随深域返回原JS，同一五输入全深小域每n值v5n，补域仍保，不混同带权Theta展开。
