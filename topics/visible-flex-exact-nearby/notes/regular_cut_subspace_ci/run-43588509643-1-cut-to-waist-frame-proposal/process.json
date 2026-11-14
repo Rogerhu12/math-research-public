@@ -41,7 +41,9 @@
         "10000000"
       ],
       "started_utc": "2026-11-14T11:08:12.132603+00:00",
-      "actual_returncode": null
+      "actual_returncode": 0,
+      "wall_seconds": 683.185436709,
+      "finished_utc": "2026-11-14T11:19:35.318321+00:00"
     }
   ],
   "readme_checks": [
@@ -60,9 +62,31 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:19:36.510877+00:00",
+      "before": "467b161338bf3dd3a33ee95e7813e0c10ca42b3d",
+      "after": "5e8f17700cd24cc1b0404bb8ba90ce3cef58046f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T11:19:38.199026+00:00",
+      "before": "5e8f17700cd24cc1b0404bb8ba90ce3cef58046f",
+      "after": "0c1f6ad558cf92f2fa99bb417c0e13c8bbbfd24a",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T11:18:15.313526+00:00",
+      "final": false,
+      "commit": "6a713a491d5fbfbe9ef57acdccfbbcb524eb48d4"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -94,16 +118,16 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "467b161338bf3dd3a33ee95e7813e0c10ca42b3d",
+  "last_read_commit": "0c1f6ad558cf92f2fa99bb417c0e13c8bbbfd24a",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cut-head-work/science",
-  "snapshot_utc": "2026-11-14T11:18:13.459728+00:00",
-  "wall_seconds": 602.108758238,
+  "snapshot_utc": "2026-11-14T11:19:36.540963+00:00",
+  "wall_seconds": 685.1899921309999,
   "native_files": [
     {
       "logical_file": "native/complete-cut-proposal.json.gz",
       "file": "native/complete-cut-proposal.json.gz",
-      "bytes": 1070962,
-      "sha256": "51cc374d8723609909ca53244b86a86ab707688ea9b446ec16dda240050e0ca6"
+      "bytes": 1192679,
+      "sha256": "6dbc3acfcfbdd051c83344561f13102d30f20699db1e0046357d0ede1ec79639"
     }
   ]
 }
