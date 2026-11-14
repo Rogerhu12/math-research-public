@@ -1,0 +1,18 @@
+{
+  "result": "R700",
+  "proof_file": "results/R700-p-ramified-free-lattices-and-the-retained-ordinary-quotient.md",
+  "proof_sha256": "7ac86f08103567eff1e80cdaf4fb5db068f8ae1104b5483668ec114414405072",
+  "ordinary_quotient_computed": false,
+  "primary_sources": [
+    {
+      "url": "https://www.jmilne.org/math/Books/ADTnot.pdf",
+      "location": "I.5.1, printed p.67",
+      "use": "global Euler characteristic with actual nontrivial character"
+    },
+    {
+      "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+      "location": "V.1.7 and V.3-5",
+      "use": "ordinary ray class sequence and norm compatibility"
+    }
+  ]
+}

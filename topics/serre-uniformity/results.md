@@ -634,3 +634,5 @@
 - **R625（已证明）**：[SS_j0_15二重残根无整提升](results/R625-SS_j0_15-double-residual-root-has-no-integral-lift.md)。真实F2/47模47为10(y−28)²，但f(28)=658 mod47²且导数0，全部47个第二位均无解；完整链/Norm/中心及全尾保持。四标签整盘排除，累计61/105。
 
 - **R659（已证明）**：[SS_j44_08原规范高度与整盘排除](results/R659-SS_j44_08-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2全部简单Hensel提升的四同标签F3差值全非零。非CM SS累计62/105。
+
+- **R700（已证明）**：[p分歧自由整格与保留的普通有限商](results/R700-p-ramified-free-lattices-and-the-retained-ordinary-quotient.md)。原q-Frob本原性排除p分歧模的唯一可能k挠元，给实际X_L^(p)=O⊕RΓ及指数k子格O[Γ]；精确Hom/上同调给X_Mn^(p)=O[P_n]^43，U_Mn=O[P_n]^86。普通A_Mn=RΓ/π^m_n仍为完整序列末商，未计算m/C/b。
