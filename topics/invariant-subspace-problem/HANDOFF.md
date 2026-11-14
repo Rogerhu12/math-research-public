@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `e9ec39a80b26d9af36aa22ff3016a1d96482e458`（2026-11-14 18:17:19 UTC，Actions run43625747876/job132541034861实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `fa32dee6bb851ebdc6b5e30fe6d396fb9c0fc590`（2026-11-14 18:20:46 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `03b0d75c5467b135fa4031ec32f491396770dd0c`（2026-11-14 18:21:00 UTC，Actions run43626096194/job132542108998实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `e914791b1e174ba10e7155456b7129e78d91c541`（2026-11-14 18:26:35 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -43,4 +43,4 @@
 
 ## 当前分工与继续
 
-normal已完成31·h0在真实第二饱和像内的全315常数组合，正冻结证明/下一来源入口；根已成H0原17模31³/cost87。literature接维数无关临界收缩及总曲率大区；boundary已成有限Q中央退化窗口，接漂移大端峰。根逐结论立即推送，每pull核两README并记录，不在阶段结果停。
+[原31h0完整来源入口](notes/2026-11-14-r150-one31-h0-lift-interface-789f.md)已冻结并触发本库Actions：先≤20秒/512MiB重建失联10040B全315payload及真实新回执，再四阶段共享120秒/512MiB，目标AZ=31h0T模31³、临时来源≤183；未预称新原式成功或费用87。所有原4433系数/18缩放不变，只改固定26目标系数。只恢复T96/all198，不重198/旧四列；真实检查点/结果先artifacts，独立run目录终端pull/rebase后推。normal接完整31饱和的七关系；literature接近端内峰，boundary接大S端峰；根即时登记每条已成结论。

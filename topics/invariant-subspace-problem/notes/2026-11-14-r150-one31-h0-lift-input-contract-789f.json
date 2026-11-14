@@ -1,0 +1,193 @@
+{
+  "format": "r150-original-h0-one31-denominator-four-stage-fixed-inputs-v1",
+  "sourceRun": 43619888599,
+  "sourceTarget": "31*h0",
+  "RHSBound": 87,
+  "temporarySourceBound": 183,
+  "allInputsAlreadyComputed": true,
+  "noOld198OrSelectedVQRecomputation": true,
+  "inputs": {
+    "graph": {
+      "scope": "t96",
+      "names": [
+        "reweighted-basis.bin"
+      ],
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    "originalNF": {
+      "scope": "t96",
+      "names": [
+        "nf-normal-forms.bin"
+      ],
+      "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840"
+    },
+    "normalTrace": {
+      "scope": "t96",
+      "names": [
+        "nf-reduction.bin"
+      ],
+      "sha256": "e977b75f618f30d00fd4edca3bdcadba1e5553a956bf4d781ee45df0d15c1e8b"
+    },
+    "forward": {
+      "scope": "t96",
+      "names": [
+        "nf-forward.bin"
+      ],
+      "sha256": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e"
+    },
+    "backward": {
+      "scope": "t96",
+      "names": [
+        "nf-backward.bin"
+      ],
+      "sha256": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+    },
+    "model": {
+      "scope": "notes",
+      "relative": "r150-module-actions-789f/43588728414-1/char31/native-normal-form-input.txt",
+      "sha256": "291062a79112191f52dccf8ac066c72b735c76936199c1366a30d3824a63cac6"
+    },
+    "integerModel": {
+      "scope": "notes",
+      "relative": "r150-one31-h0-lift-inputs-789f/original-integer-31h0-mod29791.txt",
+      "sha256": "5b477ce57ac84ac5a29138adff44dffced33d9c540aa149d8b9e7ce66e029170"
+    },
+    "betaNF": {
+      "scope": "all198",
+      "relative": "inputs/betaNF.bin",
+      "sha256": "7f716fd2ed58088c1e8d8d2e4f77771d65d6b039418e884b226991b3a58afdcc"
+    },
+    "betaQ": {
+      "scope": "all198",
+      "relative": "inputs/betaQ.bin",
+      "sha256": "934c42fb9979b91743af2d4e66bdcf5ed30f99555ba35aa6cec01a5e33fec667"
+    },
+    "betaRem": {
+      "scope": "all198",
+      "relative": "inputs/betaRem.bin",
+      "sha256": "eec6e8ae82e3bb3581e1817e85a479bc1951d6b819273c1df4bde7e72fbd0cdd"
+    },
+    "betaTrace": {
+      "scope": "all198",
+      "relative": "inputs/betaTrace.bin",
+      "sha256": "2705394b3744d8a1140edcbf3a269c9739ed6a39a6ceda63cb2cfb3f644922f2"
+    },
+    "kernels": {
+      "scope": "all198",
+      "relative": "inputs/kernels.bin",
+      "sha256": "c6ebd427d59033755a8f9852f64d7509f249727e05c0d62834537aa0a3bdbf7f"
+    },
+    "fourK2": {
+      "scope": "all198",
+      "relative": "inputs/fourK2.bin",
+      "sha256": "653867bccc606ec234c65eacfbb014fe14e055fcd50f2ea3f2506344d2aad8c7"
+    },
+    "fourNF": {
+      "scope": "all198",
+      "relative": "inputs/fourNF.bin",
+      "sha256": "517801d261d62f525aa35b7dfc461585a03550d659f4832f2b0438141ceae8b4"
+    },
+    "fourTrace": {
+      "scope": "all198",
+      "relative": "inputs/fourTrace.bin",
+      "sha256": "dd134dd6ea43939639a68cd93e62ea210f3e4fd68042d95c334484361535472c"
+    },
+    "fourQ": {
+      "scope": "all198",
+      "relative": "inputs/fourQ.bin",
+      "sha256": "fb7e33645c4f670889714fa357b3a52a8582352892835d6cf3c74336af1d6bcb"
+    },
+    "fourRem": {
+      "scope": "all198",
+      "relative": "inputs/fourRem.bin",
+      "sha256": "84d0f30fc12a9d1c16c53dec6ebe5b2f11d0b97d58c076b456da355736f8404f"
+    },
+    "selectedK2": {
+      "scope": "all198",
+      "relative": "selected-delta/selected-delta-primitive-source-mod29791.bin",
+      "sha256": "5ab8223d69912ea5b102f71ad3439b3860594188386fce9b82f937944c90a554"
+    },
+    "selectedNF": {
+      "scope": "all198",
+      "relative": "selected-normal/selected-normal-normal-forms.bin",
+      "sha256": "843c4c943f78f3868cabc8d51aca90f3a2f8246a20ae0cca28d4d6d16eff8b08"
+    },
+    "selectedTrace": {
+      "scope": "all198",
+      "relative": "selected-normal/selected-normal-reduction.bin",
+      "sha256": "c84a42049122ddc78207cb3a3ab586f00f356e54648ffbfb514aa8a9ef237e90"
+    },
+    "selectedQ": {
+      "scope": "all198",
+      "relative": "selected-delta-image/selected-delta-image-image-quotients.bin",
+      "sha256": "c273e67b09609c4a5f1c4d689a7265243725da35d0c726c8cd28c81f2a91813a"
+    },
+    "selectedRem": {
+      "scope": "all198",
+      "relative": "selected-delta-image/selected-delta-image-image-remainders.bin",
+      "sha256": "0a7b1adc3c0f06bcadddb0c1f747185996bb67eb8dce0f53dc6bc49e24f838e9"
+    },
+    "globalSystem": {
+      "scope": "all198",
+      "relative": "global-check/selected-global315-reconciliation.bin.gz",
+      "sha256": "ab7b852301f1d495bef67b6322ca6bb54de17a62457a43bd2441177afd8e85f8"
+    },
+    "r1NF": {
+      "scope": "notes",
+      "gzipRelative": "r150-first-residual-image-obstruction-789f/rhs-normal-form/normal-forms.bin.gz",
+      "compressedSHA256": "807e007c4b0447194203522690a80db3758c4f5cc7500be2a64c878b99edcc39",
+      "sha256": "5016b8e42f2ef1b36c9107b95616a190a47697b640599cb9eb98b2476be8f317"
+    },
+    "r1Trace": {
+      "scope": "notes",
+      "gzipRelative": "r150-first-residual-image-obstruction-789f/rhs-normal-form/reduction.bin.gz",
+      "compressedSHA256": "cec87792ec50e687d74ee86e57280214abd44eda70f822a9396d60931c42c286",
+      "sha256": "6e1e0894d6cafa180f482129e19a387e64f401a28f566e96eefcb2b9761742be"
+    },
+    "r1Q": {
+      "scope": "notes",
+      "gzipRelative": "r150-first-residual-image-obstruction-789f/image-certificate/image-quotients.bin.gz",
+      "compressedSHA256": "0e87cee3002e51ae78e0c098dba2b0ff7ae0d7140c1202c995e0fab1bc9f9732",
+      "sha256": "1affe414767f1820fcf0deebe728d409fddaea45636393530f710b7e0bbef284"
+    },
+    "r1Rem": {
+      "scope": "notes",
+      "gzipRelative": "r150-first-residual-image-obstruction-789f/image-certificate/image-remainders.bin.gz",
+      "compressedSHA256": "eb7c3fb250a1b13a1e7a3d50d17a399aba056d0d8bc46258016e2a57b33ed2f9",
+      "sha256": "f3efdaf748571cd830decf3e67b87d9821f1508cc794a6eecd93b5a6a1260e45"
+    },
+    "originalX0": {
+      "scope": "notes",
+      "gzipRelative": "r150-first-padic-residual-789f/initial-standard-source.bin.gz",
+      "compressedSHA256": "1ef3cda9c6f1e6332fa0d77db4e517066f24b9717c68b72290dcb4373cff6bc6",
+      "sha256": "265b0b420afd925d72eb1ab2e2e329fe6232644d740a78aede67866da3545c96"
+    },
+    "integerFirstModel": {
+      "scope": "notes",
+      "relative": "r150-first-padic-residual-789f/original-integer-mod961.txt",
+      "sha256": "71630a822927659a58a7b9df4cdcdb5385b9ea71be9f246097bbbfd1fdc9a5f8"
+    },
+    "firstFullSystem": {
+      "scope": "notes",
+      "relative": "r150-high-kernel-bockstein-actions-789f/43605503242-1/complete-infinite-quotient-system.bin.gz",
+      "sha256": "4a412dec33139ca7f41beb90a9a037e08ff9f2023a47f9e482f7c75ac3794449"
+    },
+    "fourFullSystem": {
+      "scope": "notes",
+      "relative": "r150-four-second-bockstein-actions-789f/43615783424-1/four-second-bockstein-system.bin.gz",
+      "sha256": "57a5c3314281fd82cd4ba306b7d9c015a543b8aae05fd2713b50b303ca059f2d"
+    }
+  },
+  "dependencies": {
+    "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+    "2026-11-14-r150-second-bockstein-all198-global-common-789f.hpp": "52be084cbb2b7ea63bb4dcedfc972fc9cb1cab9fad7a62285b738778ed47f59e",
+    "2026-11-14-r150-second-bockstein-all198-global-image-mixture-789f.cpp": "5eef9a7d3e37b834fe6e8bd72dce0dca83e6d13e214d85ecd418f0cab9f0d56d",
+    "2026-11-14-r150-second-bockstein-source-checkpoint-789f.cpp": "dbaabefa84d5828dc110abd80c78096cd274c1540e241811d29ac5433d9f2c65",
+    "2026-11-14-r150-second-bockstein-all198-global-original-transport-789f.cpp": "944fa6dc149ac728d0b6747db7283e35cae14cb6a93689b58f13d69fbfcc93da",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "2026-11-14-r150-one31-h0-original-common-789f.hpp": "60d0ad6c9ce4f9bf73d83e799b1902142f6e8a9f3d641e206071bfba8518de39",
+    "2026-11-14-r150-one31-h0-original-combination-789f.cpp": "42bf147d4b3874a3fbe6e967b6258cf568b40265d6246257f80aef60ba0b4add"
+  },
+  "newTargetModelOnlyChangesScalarTarget": true,
+  "originalEquationAndScaleTokensUnchanged": true
+}
