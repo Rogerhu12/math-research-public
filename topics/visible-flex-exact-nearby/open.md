@@ -34,7 +34,7 @@ signed dual积分跨0，不提供真Schur。
 [repair实际差源](results/R133-supplement-actual-complete-response-repair-source.md)现已由43597921732真实47门完成。
 全7721格新L2源<5.597282e−16，完整修复残差L2<.001284069679776281；逐格分布全部保存。
 未知h的主部mean变化仍是一阶导数项；新mean残差不设零。
-下一步消费真正腰0+、cut .9−与完整cap低97/独立high边界源。newton已有五小文本待根读取后公开执行；原trial/body/mean不重算。
+真正腰0+、cut .9−与完整cap低97/独立high边界源现已接[独立公开CI合同](notes/2026-11-14-R133-known-response-boundary-source-contract.md)。123固定输入中原117逐字节不变；只评估原全193立方和完整mean，精确单侧，R权在边界源中准确取消。待真实十门；原trial/body/mean/cap格不重算，独立high源不作未知反馈界。
 
 [原全正区N97逆](results/R133-supplement-actual-whole-positive-N97-inverse.md)已完成4650闭盒、3594接口、整个原whole-η范围和无穷高模；χ0<.303291679含原真外high反射，χ1<.788277736保独立右highport。
 [正根桥](results/R133-supplement-current-moving-positive-root-Riccati-and-full-head.md)已保全193head、mean、低高回路和普通源。

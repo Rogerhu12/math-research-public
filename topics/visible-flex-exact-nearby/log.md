@@ -411,3 +411,7 @@
 ## 2026-11-14 13:25:26 UTC：实际ordered scalar根结构已证明
 
 逐式核O1–20：AC一阶抵消、A(D0−E)J=D0−Q、完整V/source/mean、投影commutator有限秩项、T0=ηr/η−4b〈S〉+5dφ及R−1真实一阶增益。独立原稿SHA256 66bde1b99a6b6f51e3dadae608f53ad2e7e92d84160b582636f2ca4c7f0eae00入results；实际principal fold、倾斜非局部项、两行连接和strong继续。
+
+## 2026-11-14 13:26:25 UTC：全已知响应腰/cut边界源接公开计算
+
+已逐式核完整B1–11和producer/driver/workflow，全部123manifest输入中原117逐SHA不变。真腰0+、精确9/10左迹、96+97全部槽和mean、cap真低误差及独立high源全部保；B_R(Rh)=B_true h消去额外ρ。Fν紧支撑使外cap确为homogeneous，内准解不必继续传播旧外trial残差；未知high输入仍独立。五小文本已接公开workflow，新数学待真实执行，不宣称门已过。

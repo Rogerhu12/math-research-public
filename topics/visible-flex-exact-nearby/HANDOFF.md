@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 13:25:26 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 13:26:25 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：bed1fd49efd5ea5fd3071b2ec39a92b061125498；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：dd746d6bdca491628943929d09de7874538e33dc；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -27,7 +27,7 @@ repair定义440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47。�
 signed Green正逆/无pole/全跳与源证明已成。七原字节源/93manifest已接；run43596517945七代数门全成。全5970成功会自动触发完整Green消费；复用七门不重算。四通道：残差、trial跳、左/右端单位，保全[0,.9]和phase负段L2。
 完整body/mean run43583838026/43586413510：40parts/7721rows/6143jumps，native a4f31dccc4b54661b43fc06bac59b6afbb4fa2d6d19614f68f71e044be6e5870；signed dual跨0，非Schur。
 repair已知差源run43597921732真实47门/child0：全7721格，native05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4。新增L2源<5.597282e−16，完整修复残差L2<.001284069679776281；新mean源及主部mean变化完整保，未知h仍一阶扰动。见actual-complete-response-repair-source。
-边界源五小文本已由newton完成，根待读后接公开CI；必须真实0+、.9−、193/97mean、独立high源。
+完整已知边界源已接visible-exact-known-response-boundaries.yml：123输入保原117原字节，只消费实际0+、.9−全193迹/原mean/真97行，保独立high源；R权在真实边界源准确取消。待实际十门，未授未知反馈。
 原positive4650盒N97与实际正根桥已经完整成功，见actual-whole-positive-N97-inverse/current-moving-positive-root-Riccati-and-full-head。χ0<.303291679含原真外high反射，χ1<.788277736保独立右highport；须转授repair/δ及新mean/Riccati，不重算旧4650，不说原正high缺失。
 mean-v2 run43589465579十门：||q*−Z||<4.572198020300e−6。还须完整逆给||qν−q*||≤.004995427801979700，才保真物理ν行>1/200；未知high/cap/背景及全反馈仍欠。
 
