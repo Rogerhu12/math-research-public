@@ -815,3 +815,7 @@
 ### R286：固定有限源的真实ℓ¹零模逆能量与全部高度统一界
 
 [完整证明](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)。两个固定正权锚给全部附加尾位一致coherent界，真实ℓ1 creation像绝对合成后经同一完整右逆返回原有限源，准确落入逆平方根形式域。原慢尾固定源块同时控制全部高度及指数加权和，原未除阶乘幂另付几何和。实际测试流的谱旗显示其祖先出生随窗口上移，固定出生塔最终无分量；这使已证固定源估计与尚未支付的原graph跨出生费用明确分开，N=M及普通ISP仍开。
+
+### R287：真移动角色的双侧极限与非周期单位盘来源的四次预算
+
+[完整证明](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)。R_n、R_n*同时强近同一移动角色c_n，故R_n² WOT→I、N_nR_n² WOT→−I/2，固定迹类配对完整保留。任意可和闭单位盘逐位参数给真实可逆无穷来源，纯多变量最低次数投影保分母范数，全部carry误差在B≤b·2^(4m)、b<770/64内统一支付；其真空比至多2exp((m+1)/2−π2^m/16)。没有周期、支持最高位或参数个数限制；完整尾理想范数及一般正常有限秩见证仍开。
