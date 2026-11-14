@@ -427,3 +427,7 @@ root全文核20KB独立runner与4KB说明、旧冻结控制API以及小Fraction 
 ## 2026-11-14 16:44 UTC — R60 用准确一维函数显式表示中心速度
 
 以永久原c0自然场的准确角平均作固定b0，加入9个两端O3的一维b=z′样条，保b/b′与准确核心/尾；单一积分使尾只有一个共同竖直平移。去可变beta后153个u/v+9个b+5个body metric共167维，固定g162维；新空间不声称包含旧全部高度函数。给完整位置二jet和全部参数列、固定Nb评价身份，旧U−V=−ΠR不再未经核对沿用。没有等距、嵌入或reach结论。 root与source全文核b0导数、O3支持、B样条原函数、同一z0/h、零控制准确重放与离散Nb差别、全部位置二jet/metricJac。新接口人工开发中；真实主优化仍需先读repair初态，不能由去冗余推断满秩或可解。
+
+## 2026-11-14 16:46 UTC — 独立中心速度接口冻结，尚无真实求解入口
+
+root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说明、5867B人工check所有依赖SHA；source独立核后加均匀θ guard，模型/源已冻结。人工两侧全位置二jet参数Jac≤6.10e−9、directmetric/shape≤3.83e−9，b0_ss差≤2.09e−8，设计g冻结重放0、同均值规则原c0重放≤4.45e−16。CLI只check-only；原17数学依赖身份与当前Nb/GH评价身份分开，不自动解真实候选。下一独立driver需完整人工main/audit适配及公开初态后的一次有界solve。
