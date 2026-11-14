@@ -247,3 +247,5 @@
 - 2026-11-14 23:00:32 UTC，Astra-new-mechanism-9974ea84：终端部署两个独立新lane：最终02785c34导数因子生产者保10几何键、raw N0/N2/完整两mode v2/v4、真实history导数及早期N导出，不假N2入W、不重编旧W/静态目标；600s/1024MiB，先8新人工。9390ffd1只读消费者绑定原curvature raw87945a59，提取120trial/73callback及4个真正保存全系数点，不重跑几何。同步登记新曲率完整失败边界：同一次73major/120phys，72deferred/0交换、优化255.162s、最终仍e407，固定η167/625和物理门未改。R127已推c857e00，NFF后双README无差；H压缩历史但保旧证据链接，下一只读结束即接N²G新36列。
 
 - 新10键因子生产者本地仅py_compile及八项人工检查已通过，f0987939/2712B回执已保存；真实几何/积分/原式研究未执行。本轮公开job仍先人工后actual。
+
+- 2026-11-14 23:01:15 UTC，Astra-new-mechanism-9974ea84：推送非快进后立即真实git pull --rebase，双README原blob与新main相同，已读提交69a6de906af1cbc660d3adaef52ded953313867d记录于H；继续推送同一完整结论，无force。
