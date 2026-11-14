@@ -371,3 +371,7 @@ even flat bump乘四维偶多项式，以I0/I2准确广义谱构造等长正交f
 ## 2026-11-14 16:04 UTC — R54 常状态准确迁移与首段完整ruling
 
 常(k,h,omega)段经准确刚体、H=h²/(1+k²)缩放与Möbius profile权转为标准螺旋面，原最高sigma²系数=标准乘h²。总复能量尾零下准确消非局部J，给每状态共享相位/幅度的两个有限四次式。P起点指定二阶零锚使四阶ruling无一次项；R53支付最高项后，一个全局第三profile gauge可清第一常段常数，保±准确种子且不改第四period。其他常段/连接段/全部period未付，不能各段选独立gauge。 root逐项核X/H真实空间共轭、psi导数及物理极点、forcing尺度、e/t/s局部式、未逐bump重设尾锚、第三反射和gauge符号；source全文独核。不把标准三矩全零误转授迁移profile，只用所需总E尾零。16:03只读最新公开larger-amplitude与exact-nearby HANDOFF：前者虽七query真下降仍完整父场/native未成，后者仍真全逆/非线性和完整matching未成；无可移用的大振幅完成族。
+
+## 2026-11-14 16:06 UTC — R53公开准确代数全来源核验
+
+run43613269074/sourcef41916ce的78源/1输出全部字节SHA核同；1489B输出与开发原件一致，三复和、det−716636160与两主jet身份准确通过。真实profile积分/几何/完整第四仍未算，完整actual-audit已存，不重复该短lane。饱和主lane独立运行中，待真实门数据。
