@@ -172,3 +172,5 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 **R150。** [pair原式](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)已完成j6/9的AZ=31h0 mod31⁴/cost87；九raw全315 ann=(s−1)(s−2)²，商U8后七列非零且共一维s−2。[八常数固定族](notes/2026-11-14-r150-eight-constant-unit-family-seven-all-budget-obstructions-789f.md)仍排七目标全部预算，仅6/9未排；条件性char0成员只能需一层31分母。[第九真除列](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)现给rank_Q A87≥226091，U9真不变九维；原全部有理像/精确秩/Smith恰层仍开。
 
 [本轮九原式全成](notes/2026-11-14-r150-all-nine-original31squaredh0-mod31five-and-complete-related-second-789f.md)：run43634830833，数据6b525504，九列AX=31²h0 mod31⁵全17成功、费用全87；完整相关δ2秩1/基7004，七正解只用常数。64恢复/14cache全入主线，已成K4/VQ/原式不重做。下一提取第九真除列、准确J9与完整下一层关系，仍非char0来源或两层分母必要性。普通ISP及其它mean秩/高本质/自然幂继续。
+
+[真实双投影](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)已把boson真MP送入bare/完整物理右核，实际源为βt=B⁻¹M_Bt和γt=GM_Bt；M_B≤B≤G⁻¹，正差读取E_ret。原t_p=−A v_p进一步给逐cut T*M_BT≤(C_m−1)Ψ，原同一good-top付两链及差费用≤4n(C_m−1)/K。原flat已付<Lr,γt>；必须继续真实剩余<Lr,(I−γ)t>，不把M正收缩或源差当L耗散。

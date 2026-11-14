@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** bb22306683c4cad0b663680330680874575ba8da（2026-11-14 20:19:51 UTC，Actions run43636878076实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43636878076-1.json。
-- **最新规则读取（GitHub API，非实际pull）：** `bb22306683c4cad0b663680330680874575ba8da`（2026-11-14 20:19:20 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `bb22306683c4cad0b663680330680874575ba8da`（2026-11-14 20:19:51 UTC，Actions run43636878076/job132575514243实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `665bd6e9a997aad9e26e107205993bfe422611fb`（2026-11-14 20:24:32 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -20,8 +20,7 @@
 
 ## 原尾、全出生与真实graph
 
-- [平衡star全范围](notes/2026-11-14-balanced-star-bounded-positive-weights-all-size-uniform-phase-bound-789f-next.md)已闭固定正权区间全Q/组数/漂移/S的统一κ；[全出生中央/极平](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)保完整E_d、硬U_d、真顶逆和全部Schur。权比发散/原graph未闭。
-- [原连续尾宽窗](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)：偶2≤Q≤x，Φ≤25exp(80Q²/x)，Q≤√x/4为25e⁵。旧birth2全height/高方差范围保快照。原s≈q而x≈m不能直接套窗；[全费换权](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)与[primitive平移真费](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)保flat=L̃G̃L̃，排免费统一范数搬运，未排实际t_q特殊抵消。
+- 原相位：固定正权区间平衡star全范围、全出生中央/极平已闭；[连续尾宽窗](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)对偶Q≤x给Φ≤25exp(80Q²/x)。原s≈q/x≈m不直接套窗；换权/primitive平移保全费和LGL，特殊t_q抵消未排。全部旧birth/height范围、常数与原链接保[本次H](notes/2026-11-14-handoff-before-actual-double-projection-789f.md)。
 - [真核Fock重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)：v=Σ_(j<d)(−A_m)^j(a0*)^jP0v/(S^(j/2)j!)，精确正范数和；原头carry给logC_m=O(m logm)，Γ/C≤Ξ=T*P0T≤Γ，实际零模像Z_A闭不可扩大。[占据矩/旋转](notes/2026-11-14-true-kernel-collective-occupation-moments-and-one-bit-rotation-789f-next.md)给EN0≤k0、EN0²≤k0²、四次指数尾，k0=max(2m,16)。旧核加真空的旋转硬核距离≤√3 k0θ²||v||/2；仍欠新核交集/总强度变化。
 - [同测试滑动切口](notes/2026-11-14-transverse-kernel-cuts-and-same-test-sliding-budget-789f-next.md)：固定真核Σ||(R_q−P_q)v||²=EN0；正交核增量/Fourier区间mask给Σ||(R_q−P_q)P_K_(q+w)f||²≤k0(1+logw)²||f||²，原w=d为O(m³)。QhcR_qk保整个≤q前缀，碰撞块≤√(2S)，原残量总平方≤2S同预算；同窗选点成，精确右链/高返回仍开。
 - [left+bare完整一位](notes/2026-11-14-one-bit-joined-left-bare-quotient-gram-and-source-schur-789f-next.md)：商(z,w)=(Q_hu+aR_hP_hv,Q_hv)，度量diag((I+a²RR*)⁻¹,I)，offdiag A_hw=w+R_(h−1)P_(h−1)Dw。Khat=Q(P′−PR_d)+R_bare P，保q/q−1切口和实际B_a，(L+B)⁻¹=B_a Gjoint⁻¹B_a*。固定低孔增量/反馈新left+bare能量≤a²c_s²，非旧欧氏源界。
@@ -40,3 +39,5 @@
 - 原射影B≥85有限商、仿射315及∞torsion u⁹⁶/length≤745继续保旧证明；其余mean秩/高本质/自然幂、同一相容全链与普通ISP全部仍开。子问题完成接open，不在阶段报告或时长处结束。
 
 - **[实际左域/Z逆](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)：** V_p=P≤p R_A Z_p^left，准确像压缩Gram I≤H_p≤C_m，同源Z0⁻¹≤Z⁻¹≤C_mZ0⁻¹。固定测试y_f=R_A*f、尾真空为f；逆后高birth不预先删除。[实际测试未来总预算](notes/2026-11-14-actual-low-test-full-image-inverse-bosonic-future-budget-789f-next.md)现付Σ||P>p R_A P0P_Vp f||²≤C_m²k0(2+logd)²||f||²。递减boson核空间/正交增量/区间mask与同像两逆比较给完整证明。减真实k_p不改未来，同t_p的完整bosonic右链已付；投硬核后残量≤2S倍总预算，仍须原硬核/短旗和E_ret/flat修复。
+
+- **[boson未来的真实双投影](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)：** 真MP给M_B=P_R[Σ_j(A^(j−1))*A^(j−1)/(S^j(N0+1)_j)]P_R，M_B≤B≤G⁻¹。两可行投影源βt=B⁻¹M_Bt、γt=GM_Bt；原M度量下正有序收缩，差范数²=<Mt,(B⁻¹−G)Mt>保E_ret。由原t_p=−A v_p，逐切口T_p*M_BT_p≤(C_m−1)Ψ_p，总费≤(C_m−1)||f||²；原同一good-top直接付双投影/正差≤4n(C_m−1)/K。仅余<Lr,(I−γ)t>未付，M收缩不能当L收缩。

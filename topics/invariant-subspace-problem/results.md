@@ -216,3 +216,8 @@
 ### 第九个真除列：rank_Q A87至少226091
 
 [完整证明](notes/2026-11-14-r150-ninth-true-divided-column-and-rational-rank-226091-789f.md)取实际K4_7004（cost87），原17式已核Aκ9被31⁴整除，b9=Aκ9/p⁴为真列。完整315、505自由和Krylov证明其类在U8外，商作用2，故U9真不变九维。标准原像列与九真除列有31单位minor，且都在原A_B有理像内，于B≥87得rank_Q A_B≥4354(B+1)−157070+9；B87为226091。固定九常数族列秩恰为此数，未宣称原精确秩、Smith恰4或目标char0成员。
+
+
+### 同源boson未来的真实双投影与C_m−1正耗散预算
+
+[完整证明](notes/2026-11-14-bosonic-future-actual-bare-full-projections-and-ordered-source-contractions-789f-next.md)保creation右侧的(N0+1)_j逆及真实源压缩，给bosonic真最小右链的M_B、M_B≤B≤G⁻¹。投向真实bare/完整右核得到合法链，源准确为B⁻¹M_Bt、GM_Bt；它们在同一M_B度量下正有序收缩，投影差平方=<Mt,(B⁻¹−G)Mt>保完整E_ret。root再用旧t_p=−A v_p，得逐切口<M_Bt,t>≤<(H_A−I)v,v>，总费锐化至(C_m−1)||f||²（p≥s+1）。算子序T*M_BT≤(C_m−1)Ψ直接接已经选定的原good-top，双投影及差均≤4n(C_m−1)/K，无另选窗。原flat支付γt项；同源(I−γ)t的左配对仍须控制，不宣称L收缩或N=M。
