@@ -99,3 +99,5 @@
 - [R47：四阶完整 range 与第三阶 gauge 的准确作用](results/R47-fourth-order-range-and-third-gauge.md) — 固定 R46 的二阶解时，第三阶全部 profile gauge 不改变三条四阶周期函数；沿母线只能改三列 w 的常系数跨度。交叉矩的三密度严格线性独立，Gram 右逆使分离 f/g 的六矩准确可调，故三周期恒零与三 ruling 属于 span(w) 是完整必要充分条件。尚未证明本构造实际支付这些条件，改变二阶解不在排除范围。
 
 - [R48：六帽反射外延的角跳障碍与保二jet热平滑](results/R48-six-cap-angular-jump-and-heat-extension.md) — 准确六帽顶点的 beta 第五角导跳是两正幅度之和；原固定角反射外延保留此跳，且任意背景下 Vv 与 Vbeta 正交，不能被解析自由列抵消。乘积邻域中 (aT)t 为角 C4，故该明确有限类无准确 R=0。无限周期热时间 O(delta^6) 消此门并保完整端口二jet/tttheta；Gaussian 路径式避免小热时间除法。未给近似误差下界，也未证明热修正后存在连接。
+
+- [R49：四阶沿母线最高次与窄packet严格障碍](results/R49-fourth-ruling-leading-coefficient-and-narrow-packets.md) — 常k/h/omega段的四阶ruling为s二次多项式，最高系数由完整R的三条能量式给出，任意同collar二/三阶gauge只改低次。k0/h1/omega0上得到准确局部四次泛函T；不交支撑使T按幅度四次相加。共同缩窄到非零c时主项严格为负的lambda^-9，故足够窄的R46八packet圆不能延至四阶。未排宽/重叠profile、别的几何或其他族。
