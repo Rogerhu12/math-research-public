@@ -1,4 +1,4 @@
-// R575: fixed primitive towers and full support-valued core certificates.
+// R575: fixed primitive towers, positive w normalization and full support-valued cores.
 // Run: node check-r575-fixed-primitives-and-complete-dirac-defects.mjs
 // Algebraic independence is proved in the companion text, not inferred from jets.
 const data=(()=>{
@@ -42,6 +42,22 @@ for(const[source,maxr,leading]of[["4",2,4],["1",5,1]]){
    complete_formula:Object.fromEntries([...A].map(([k,c])=>[k,qs(c)]))});
  }
 }
+
+for(const[source,R,leading]of[["4",2,4],["1",5,1]]){
+ const F=new Map();
+ for(let j=0;j<R;j++)addterm(F,"J"+source+":"+j,R-1-j,rat((j%2?-1:1)*binom(R-1,j),fact(R-1)));
+ for(let r=1;r<=R;r++){
+  const a=R-r;
+  check((leading+r+a)%6===0,"positive normalization tame type "+source+","+r);
+  check(r+a===R,"actual normalized distribution order "+source+","+r);
+  const V=new Map();
+  for(let j=0;j<r;j++)addterm(V,"J"+source+":"+j,r-1-j+a,rat((j%2?-1:1)*binom(r-1,j),fact(r-1)));
+  let H=F;for(let j=0;j<a;j++)H=diff(H);
+  H=new Map([...H].map(([k,c])=>{const[t,e]=k.split("|");return[key(t,Number(e)+a),c]}));
+  check(V.size===H.size&&[...V].every(([k,c])=>qs(c)===qs(H.get(k)||rat(0))),"entire Euler primitive identity "+source+","+r);
+ }
+}
+
 const coeff=(source,r,n,c)=>rat(BigInt(c[0])*fact(n),BigInt(c[1])*fact(n+r));
 const F4z6=coeff("4",2,4,[1,1]),F4z12=coeff("4",2,10,[-4,35]),
  F1z6=coeff("1",5,1,[1,1]),F1z12=coeff("1",5,7,[6,35]);
@@ -72,4 +88,5 @@ return {result:"all exact checks passed",checks,towers,
  algebraic_independence:"proved in text, not inferred from this finite certificate",
  bounded_measure_claim:false,arithmetic_saturation_claim:false,target_nonvanishing_proved:false};
 })();
+data.positive_normalization={"V4r":"z^(2-r) U4r","V1r":"z^(5-r) U1r","all_w_order":"1/3","new_transcendence_degree_with_ST":9,"actual_distribution":"(-partial_t)^(R-r) rho","normalized_core":"beta*kappa^(-R), R=2 or 5; only original I4,I1 defects"};
 console.log(JSON.stringify(data,null,2));

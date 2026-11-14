@@ -58,4 +58,4 @@
 - [R577：同一原临界因子的Euler整提升与完整首forcing](../results/R577-original-critical-factor-euler-lift-and-complete-first-forcing.md)：低ell、r=ν≤2的原相对首核，经全十九角因子提升和正权1/n真积分得到同预算Pcrit；整个JA准确为实际代数临界支三法向jet。首forcing给充要像判据，完整p³及同R的26carry/d2保全部二次高尾，未赋实际非零。
 
 
-- [R575：固定原函数七塔的代数独立与完整普通Dirac缺陷](../results/R575-fixed-primitive-towers-and-complete-ordinary-dirac-defects.md)：七塔在整个原椭圆/sigma域上代数独立，两principal在w上阶1/3；实际有限阶分布的完整p^m核心/Dirac几何和严格付清，只有原I4/I1两个缺陷未由tame消去。所有塔都非有界测度；原中央桥和全乘积饱和/惰性成本仍保。
+- [R575：固定原函数七塔的代数独立与完整普通Dirac缺陷](../results/R575-fixed-primitive-towers-and-complete-ordinary-dirac-defects.md)：七塔在整个原椭圆/sigma域上代数独立，全部七塔正幂规整后在同w上阶1/3，连S/T真九坐标；实际有限阶分布的完整p^m核心/Dirac几何和严格付清，只有原I4/I1两个缺陷未由tame消去。所有塔都非有界测度；原中央桥和全乘积饱和/惰性成本仍保。

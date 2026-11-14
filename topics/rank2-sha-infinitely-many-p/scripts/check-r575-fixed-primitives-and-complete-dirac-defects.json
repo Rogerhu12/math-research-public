@@ -1,6 +1,6 @@
 {
   "result": "all exact checks passed",
-  "checks": 108,
+  "checks": 129,
   "towers": [
     {
       "source": "4",
@@ -104,5 +104,13 @@
   "algebraic_independence": "proved in text, not inferred from this finite certificate",
   "bounded_measure_claim": false,
   "arithmetic_saturation_claim": false,
-  "target_nonvanishing_proved": false
+  "target_nonvanishing_proved": false,
+  "positive_normalization": {
+    "V4r": "z^(2-r) U4r",
+    "V1r": "z^(5-r) U1r",
+    "all_w_order": "1/3",
+    "new_transcendence_degree_with_ST": 9,
+    "actual_distribution": "(-partial_t)^(R-r) rho",
+    "normalized_core": "beta*kappa^(-R), R=2 or 5; only original I4,I1 defects"
+  }
 }

@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：2b5de38c629076b1cf3c7bc445b283fe5726b102；2026-11-14 20:10:23 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：9fff5a8cb297375a95f87b18649b35637b333f72；2026-11-14 20:11:04 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；19:48:33 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟20:48重试；恢复后先实际pull --rebase核规再接API历史。
@@ -61,7 +61,7 @@ R565完整V差/deck相位、wholeC12非零双线性行及Frob根按正文保持�
 R570/573的原V、规范Cartier-zero、全E6相位及degree12/8强制因子和两个S6(p−13)单位质量商全部保[前检](notes/2026-11-14-frontier-before-r575.md)/正文。两个原负矩首层由同一P1常/一次项读取，下一项单位不排前两项同零；不延E6p或把p依赖商当固定测度。
 
 
-R575：原f4/f1固定积分七塔在K=C(z,x,y,ζ,σ)上代数独立；两principal F4/F1是w=z6整函数阶1/3。原ρℓr=Σβnκ^-rn[κn]*(1unit t^-rµf−Iℓrδ0)为实际C^r分布，Amice=Ω^-rUℓr(Ωlog)，全p深ρ|p=βκ^-r[κ]ρ−Iδ0，任意深度Dirac几何和全保。五个I由tame零，只有原I4/I1；κn单位小球值增长p^(rn)，I零也不成测度。原中央→I零桥、所有乘积的普通/惰性全饱和成本仍未付，不由有限阶冒认R158界。
+R575：原f4/f1固定积分七塔在K=C(z,x,y,ζ,σ)上代数独立；七塔乘正z幂规整为V4,r=z^(2−r)U4,r、V1,r=z^(5−r)U1,r，均在w=z6阶1/3，连S/T真九坐标。原ρℓr=Σβnκ^-rn[κn]*(1unit t^-rµf−Iℓrδ0)为实际C^r分布，Amice=Ω^-rUℓr(Ωlog)，全p深ρ|p=βκ^-r[κ]ρ−Iδ0，任意深度Dirac几何和全保。正幂为真实分布导数，整塔各有βκ^-2/βκ^-5核；五个I由tame零，只有原I4/I1；κn单位小球值增长p^(rn)，I零也不成测度。原中央→I零桥、所有乘积的普通/惰性全饱和成本仍未付，不由有限阶冒认R158界。
 
 ## 惰性完整 forcing
 
