@@ -1,0 +1,2946 @@
+{
+  "schema": "audited-physical-trial-dense-mirror-minimax-continuation-v1",
+  "status": "complete-one-dense-mirror-minimax-and-physical-best-audit",
+  "phase": "independent-selected-state-work-and-fine-audit",
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+    "frame_collar_bent_tail.py": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab",
+    "polygonal_flat_tail_port.py": "3870844de95284c570839f489a6c6be74c825cbf6631d21684ff4374cae78797",
+    "frame_collar_polygonal.py": "56a4013f78aa120bb2eaa17e430c6212f4af808fb7e87951a26164129bc0aaaa",
+    "polygonal_tail_heat_extension.py": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+    "frame_collar_polygonal_heat.py": "15dec10f4adbe5f7adce7f0a6f3abbfbfbe0fcdf14d52f1d08272cb1246a209f",
+    "polygonal_tail_saturated_heat_extension.py": "cda1570637d8b9bdc8d5891a944ee6fc2a6a2252d56141c2a6b8053b73ccfcdc",
+    "frame_collar_polygonal_saturated_heat.py": "483d0decb4cedd083ee3c9da8b499096c4aa51b3c23bb0140f8f7281f5a248fa",
+    "polygonal_tail_natural_extension.py": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
+    "frame_body_metric_design.py": "8e4fd2b153be450e83e2eea8997847c84e40498307769e0fc01a29cb93430865",
+    "frame_collar_natural_body_audit.py": "8185d72b866f17703c5abd5224fedfc57d197712a60ad021f246d46fd8521c3d",
+    "frame_independent_height.py": "d7c52dd824a9302d8877092c551cc567ed1477a0dc6192799d8ad42969121de6",
+    "frame_independent_height_solve.py": "a406d44946cf32e2d4a90fcf0b1711a74b5342d27e26709653a7e7058fe3e74f",
+    "frame_fixed_height_primitive.py": "16d7200ed2fe3c4f433d5f3ae787696311499264cb21172d9915efea9ae7b780",
+    "frame_fixed_height_primitive_audit.py": "824f0cda6ba87132bb2063d836f1b5d4504818899fc0b88060e4e3e854514e41",
+    "frame_entry_paired_repair.py": "8f09d96a4377175e0242a37f1450960f0914e28a787699565d437058e7625ac1",
+    "frame_entry_paired_repair_audit.py": "7c2329f432d00b4962527ab99f94742338581948ed2e346e364fc591ea9464b3",
+    "frame_entry_bounded_height.py": "deac1dbb3410fc426bd1cbb84c126062a5ff61e2aa19c6fcdf1bbd9d0727b612",
+    "frame_height_feasible_initializer.py": "fa379eb61996dfd0646e8ce99f5de88f51c105f13d1e5bea8cba0906525ed6a2",
+    "frame_entry_short_bounded_audit.py": "c6f943addd1435ad4c5e1660ada72c1a43c1bca494574d0711a58e5018e13ff9",
+    "frame_height_polytope.py": "6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c",
+    "frame_height_polytope_audit.py": "b43189a3cfc82ca8569f6f28469946ef2ac03605c4b2bd0eecebe1385476a502",
+    "frame_height_quartic.py": "e41054263108f2070f846be77920059c210b11f3286fe88046a7d90c217dd45f",
+    "frame_published_height_rows.py": "6b59b7650604bb8031ba0214ff31e22e37e8214d40233f53a3cdf6b0a316f3d2",
+    "frame_entry_single_q.py": "b0744e42b00854b85ac6828afc4520c0505b5d4800c47ab4d8bb96c84d04e286",
+    "frame_height_affine_gate.py": "c55fe53cc8f5ebaae10480cf759dc5e228316e80bfab13bef3d01d5c51e37e0c",
+    "frame_joint_height_objective.py": "c1a92c46590783fcda8867a5304ab3fcc3c670ad58fce0f079737512f9af69fb",
+    "frame_height_quartic_joint_audit.py": "d2fc289a80e51a94b6481ddd06c3d649caac06c34227d77600f462dbb478ed15",
+    "frame_height_joint_resume.py": "54ae55525da9dcf1471fa9fff3caf13d159e6b33c86d25468a92cf9afb63d6ae",
+    "frame_metric_epigraph.py": "6f1cd9e3f987f3c3209e6fdee6a24b72d83146a3ea5f522656b22e61cb241d03",
+    "frame_metric_epigraph_audit.py": "5923221ec495b08f3be491a709eeab740394c04f6c8e4a602e1d512bd4e1b3c9",
+    "frame_metric_epigraph_trial_audit.py": "47f02c5a8d1e9084b2abec50751e6346112f91ce5bca55391d659b266d204e53",
+    "frame_metric_epigraph_dense.py": "7a62290ec82a7a1499fcfd5a029cf0b4a33e044af2f74f80f478fe12aab38b9e",
+    "frame_metric_epigraph_dense_audit.py": "c0fe3a6c085681c8608b1e9a00733891575600d98fb1855c52ea3e6dcd0b573d"
+  },
+  "configuration": {
+    "delta_min_exact": "1/100000000",
+    "initial_delta_margin_exact": "1/1000000",
+    "minimum_signed_height_exact": "1/10000",
+    "hard_ball_radius_exact": "101/100",
+    "hard_strip_half_width_exact": "39/100",
+    "maxiter": 80,
+    "max_physical_evaluations": 120,
+    "max_seconds": 300.0,
+    "ftol": 1e-10,
+    "box_tolerance": 0.0,
+    "height_tolerance": 1e-09,
+    "height_reconstruction_tolerance": 1e-10,
+    "signed_height_tolerance": 1e-09,
+    "shape_constraint_tolerance": 1e-09,
+    "metric_row_tolerance": 1e-09,
+    "direct_eta_tolerance": 1e-09,
+    "checkpoint_physical_evaluations": 10,
+    "checkpoint_seconds": 60.0,
+    "final_selection": "best_physical_max_eta_point",
+    "optimizer_objective": "min auxiliary_delta only, no L2 or soft-shape term",
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_radius_tolerance": 1e-09,
+    "normal_area_numerical_floor": 1e-10,
+    "physical_selection_ignores_only_the_auxiliary_delta_coverage": true,
+    "mirror_constraint": "z^2*|Xs cross T|^2-tau^2*(Xs cross T)_z^2 >= 0",
+    "mirror_constraint_is_necessary_for_these_sampled_pairs_only": true,
+    "no_curvature_or_all_pairs_constraint_added": true
+  },
+  "exact_input_storage": {
+    "saved_trial_readonly_audit": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43639240317-1-metric_epigraph_saved_trial/metric-epigraph-saved-trial-audit.json",
+      "stored_bytes": 732167,
+      "stored_sha256": "169e6cb8fa1bf2c5bb5c1821ee09903b344467fff66d7243cede4c938d66e05f",
+      "gzip_storage": false,
+      "decoded_bytes": 732167,
+      "decoded_sha256": "169e6cb8fa1bf2c5bb5c1821ee09903b344467fff66d7243cede4c938d66e05f"
+    },
+    "completed_epigraph_audit": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43637739532-1-metric_epigraph/frame-metric-epigraph-audit.json.gz",
+      "stored_bytes": 213421,
+      "stored_sha256": "c602412f2022022ff02094deb1803a2d29532796ccb1fa3af20353acd49ea555",
+      "gzip_storage": true,
+      "decoded_bytes": 1600886,
+      "decoded_sha256": "b4d34b0d37928b2f3ffeacf5de3a072068a6314e474fb72c6cd4adb3ae9c5bc5"
+    },
+    "latest_joint_resume": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43635770962-1-joint_resume/quartic-reused-joint-resume.json.gz",
+      "stored_bytes": 279639,
+      "stored_sha256": "28f746945924f5c12ba3d2f790397ee296f81de345cfaf5a48eb6ed6345e7989",
+      "gzip_storage": true,
+      "decoded_bytes": 2051125,
+      "decoded_sha256": "40deb9dffa6882b14dd445d981f2ed09b1f4d488dbaa83e952c768537f91375d"
+    },
+    "prior_completed_joint": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43634358250-1-quartic_joint_audit/quartic-joint-audit.json.gz",
+      "stored_bytes": 440742,
+      "stored_sha256": "6c6752545768aa4be9ad3e9dbec353fb61841e366d2f2f4ef39d739ec948b916",
+      "gzip_storage": true,
+      "decoded_bytes": 3183049,
+      "decoded_sha256": "e344e6e0a62be10dfa8dad4f52e4b889191f462b97bb19dd4b1cc0283f6f33dc"
+    },
+    "selected": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43618467921-1-independent_height_solve/frame-independent-height-bounded.json",
+      "stored_bytes": 425422,
+      "stored_sha256": "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46",
+      "gzip_storage": false,
+      "decoded_bytes": 425422,
+      "decoded_sha256": "c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46"
+    },
+    "original_c0": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json",
+      "stored_bytes": 987644,
+      "stored_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3",
+      "gzip_storage": false,
+      "decoded_bytes": 987644,
+      "decoded_sha256": "6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3"
+    },
+    "short": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43627111925-1-short_entry_audit/frame-entry-short-bounded-initial-audit.json.gz",
+      "stored_bytes": 340222,
+      "stored_sha256": "9eacb4b9ed9f9f04218fba46aa207fced92cd1032e3bcb2341032668bae93dd1",
+      "gzip_storage": true,
+      "decoded_bytes": 2618547,
+      "decoded_sha256": "9d64a1ea03745405bd72fce6078eace92e02f3987be6ae079b75f0b71f69502c"
+    },
+    "height_polytope": {
+      "path": "topics/visible-flex-new-mechanism/notes/actions-43630874689-1-height_polytope_audit/height-polytope-bounded-audit.json.gz",
+      "stored_bytes": 244085,
+      "stored_sha256": "6dd67eeee77bc48d0875631417a4843ece426e690f452c6e67a4af3fbbd08d20",
+      "gzip_storage": true,
+      "decoded_bytes": 1815965,
+      "decoded_sha256": "f457282f0a21cd27802748066537caa4cf90c687c63c73d62b0391ce2435d1a3"
+    }
+  },
+  "input_replay": {
+    "schema": "eight-input-saved-trial-dense-continuation-replay-v1",
+    "physical_state_sha256": "5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea",
+    "complete_metric_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+    "fixed_b0_definition_sha256": "d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5",
+    "physical_parameter_count": 163,
+    "all_coefficients_and_current_layout_exactly_replayed": true,
+    "old_auxiliary_delta_evaluated": 0.2651667068964935,
+    "old_auxiliary_delta_exact_binary64": "4776818729480439/18014398509481984",
+    "source_original_run_did_not_accept_this_trial": true,
+    "read_only_audit_had_zero_optimizer_and_zero_delta_changes": true,
+    "prior_work_fine_and_doubled_physical_gates_recorded_as_passed": true,
+    "prior_auxiliary_failures_are_preserved": true,
+    "no_geometry_was_recomputed_during_this_structural_replay": true
+  },
+  "github_sha": "509a1caf221dea9a9bba98dab1f77bd1c1b3bef1",
+  "github_run_id": "43640503728",
+  "github_repository": "Rogerhu12/math-research-public",
+  "artificial_inputs_only": false,
+  "old_optimizer_calls_this_run": 0,
+  "old_auxiliary_delta": 0.2651667068964935,
+  "new_auxiliary_initialization": {
+    "old_auxiliary_delta": 0.2651667068964935,
+    "new_auxiliary_delta": 0.3677593598218209,
+    "new_exact_binary64_delta": "6624963663422259/18014398509481984",
+    "new_work_direct_max_eta": 0.3677579920638288,
+    "rule": "max(2*delta_min, new_work_max_eta+(1+new_work_max_eta)/1000000)",
+    "does_not_modify_the_old_run_or_old_auxiliary_value": true,
+    "does_not_change_the_physical_coefficients_or_g": true
+  },
+  "initial_current_constraints": {
+    "eligible_under_all_declared_sampled_constraints": true,
+    "cap_and_box": {
+      "eligible_under_declared_numerical_gate_tolerances": true,
+      "box_violation": 0.0,
+      "affine_height_evaluated": 0.14270420087976415,
+      "reconstructed_common_cap_height_evaluated": 0.14270420087976413,
+      "target_height_evaluated": 0.14270420084310476,
+      "affine_height_margin": 3.6659397739668975e-11,
+      "reconstructed_height_margin": 3.665936998409336e-11,
+      "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+      "box_tolerance": 0.0,
+      "height_tolerance": 1e-09,
+      "height_reconstruction_consistency_tolerance": 1e-10,
+      "both_height_margins_nonnegative_in_current_arithmetic": true,
+      "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+    },
+    "auxiliary_delta": 0.3677593598218209,
+    "delta_min_exact": "1/100000000",
+    "delta_bound_pass": true,
+    "divided_metric_row_min": 1.3738287935006685e-06,
+    "metric_row_tolerance": 1e-09,
+    "divided_metric_row_pass": true,
+    "direct_max_eta": 0.3677579920638288,
+    "direct_eta_tolerance": 1e-09,
+    "direct_eta_minus_delta": -1.3677579920878813e-06,
+    "independent_direct_eta_pass": true,
+    "direct_max_eta_location": {
+      "t": 0.7875,
+      "theta": 4.843288674284264,
+      "E_minus_one": -0.3661256901085387,
+      "F_over_a": -0.0245008589547257
+    },
+    "mean_squared_direct_metric_cost_diagnostic": 0.02125344854647509,
+    "minimum_signed_height": 0.02,
+    "signed_height_threshold_exact": "1/10000",
+    "signed_height_margin": 0.0199,
+    "signed_height_pass": true,
+    "hard_ball_radius_exact": "101/100",
+    "ball_radius_squared_normalized_max": 0.9904611154488825,
+    "hard_ball_pass": true,
+    "hard_strip_half_width_exact": "39/100",
+    "maximum_absolute_y": 0.389999875032893,
+    "hard_strip_pass": true,
+    "unit_tangent_error_sample": 6.661338147750939e-16,
+    "first_order_normal_area_over_a_min_sample": 0.7957851580683959,
+    "auxiliary_delta_is_not_a_physical_parameter": true,
+    "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+    "eligible_under_original_physical_gate_groups": true,
+    "eligible_under_physical_gates_including_mirror": true,
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_min": 0.0003999999999999999,
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_polynomial_pass": true,
+    "direct_mirror_radius_min_finite": 0.10271189389572803,
+    "mirror_radius_tolerance": 1e-09,
+    "independent_direct_mirror_radius_pass": true,
+    "zero_normal_z_pairs_without_finite_upper_bound_count": 1152,
+    "regular_normal_area_floor": 1e-10,
+    "nonregular_sample_count": 0,
+    "regularity_screen_pass": true,
+    "auxiliary_delta_failure_does_not_erase_a_physically_eligible_trial": true,
+    "mirror_pair_screen_does_not_certify_whole_surface_reach": true
+  },
+  "final_work_constraints": {
+    "eligible_under_all_declared_sampled_constraints": false,
+    "cap_and_box": {
+      "eligible_under_declared_numerical_gate_tolerances": true,
+      "box_violation": 0.0,
+      "affine_height_evaluated": 0.14270420084310476,
+      "reconstructed_common_cap_height_evaluated": 0.14270420084310473,
+      "target_height_evaluated": 0.14270420084310476,
+      "affine_height_margin": 0.0,
+      "reconstructed_height_margin": -2.7755575615628914e-17,
+      "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+      "box_tolerance": 0.0,
+      "height_tolerance": 1e-09,
+      "height_reconstruction_consistency_tolerance": 1e-10,
+      "both_height_margins_nonnegative_in_current_arithmetic": false,
+      "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+    },
+    "auxiliary_delta": 0.2659538765233066,
+    "delta_min_exact": "1/100000000",
+    "delta_bound_pass": true,
+    "divided_metric_row_min": -2.90831777588485e-05,
+    "metric_row_tolerance": 1e-09,
+    "divided_metric_row_pass": false,
+    "direct_max_eta": 0.26598295970106545,
+    "direct_eta_tolerance": 1e-09,
+    "direct_eta_minus_delta": 2.90831777588485e-05,
+    "independent_direct_eta_pass": false,
+    "direct_max_eta_location": {
+      "t": 0.4725,
+      "theta": 0.0,
+      "E_minus_one": 0.26598295970106545,
+      "F_over_a": -1.4091154640052095e-15
+    },
+    "mean_squared_direct_metric_cost_diagnostic": 0.021152459990876827,
+    "minimum_signed_height": 0.02,
+    "signed_height_threshold_exact": "1/10000",
+    "signed_height_margin": 0.0199,
+    "signed_height_pass": true,
+    "hard_ball_radius_exact": "101/100",
+    "ball_radius_squared_normalized_max": 0.9905366221144891,
+    "hard_ball_pass": true,
+    "hard_strip_half_width_exact": "39/100",
+    "maximum_absolute_y": 0.3899999310163637,
+    "hard_strip_pass": true,
+    "unit_tangent_error_sample": 6.661338147750939e-16,
+    "first_order_normal_area_over_a_min_sample": 0.8567640067022666,
+    "auxiliary_delta_is_not_a_physical_parameter": true,
+    "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+    "eligible_under_original_physical_gate_groups": true,
+    "eligible_under_physical_gates_including_mirror": true,
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_min": 0.0003999999999999999,
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_polynomial_pass": true,
+    "direct_mirror_radius_min_finite": 0.10105572286990937,
+    "mirror_radius_tolerance": 1e-09,
+    "independent_direct_mirror_radius_pass": true,
+    "zero_normal_z_pairs_without_finite_upper_bound_count": 1152,
+    "regular_normal_area_floor": 1e-10,
+    "nonregular_sample_count": 0,
+    "regularity_screen_pass": true,
+    "auxiliary_delta_failure_does_not_erase_a_physically_eligible_trial": true,
+    "mirror_pair_screen_does_not_certify_whole_surface_reach": true
+  },
+  "final_fine_constraints": {
+    "eligible_under_all_declared_sampled_constraints": false,
+    "cap_and_box": {
+      "eligible_under_declared_numerical_gate_tolerances": true,
+      "box_violation": 0.0,
+      "affine_height_evaluated": 0.14270420084310476,
+      "reconstructed_common_cap_height_evaluated": 0.14270420084310473,
+      "target_height_evaluated": 0.14270420084310476,
+      "affine_height_margin": 0.0,
+      "reconstructed_height_margin": -2.7755575615628914e-17,
+      "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+      "box_tolerance": 0.0,
+      "height_tolerance": 1e-09,
+      "height_reconstruction_consistency_tolerance": 1e-10,
+      "both_height_margins_nonnegative_in_current_arithmetic": false,
+      "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+    },
+    "auxiliary_delta": 0.2659538765233066,
+    "delta_min_exact": "1/100000000",
+    "delta_bound_pass": true,
+    "divided_metric_row_min": -0.004187547092968924,
+    "metric_row_tolerance": 1e-09,
+    "divided_metric_row_pass": false,
+    "direct_max_eta": 0.26819787599467493,
+    "direct_eta_tolerance": 1e-09,
+    "direct_eta_minus_delta": 0.0022439994713683298,
+    "independent_direct_eta_pass": false,
+    "direct_max_eta_location": {
+      "t": 0.21,
+      "theta": 1.030835089459151,
+      "E_minus_one": 0.037852891172936554,
+      "F_over_a": 0.24855187723132544
+    },
+    "mean_squared_direct_metric_cost_diagnostic": 0.021152473304464438,
+    "minimum_signed_height": 0.02,
+    "signed_height_threshold_exact": "1/10000",
+    "signed_height_margin": 0.0199,
+    "signed_height_pass": true,
+    "hard_ball_radius_exact": "101/100",
+    "ball_radius_squared_normalized_max": 0.9905374643909075,
+    "hard_ball_pass": true,
+    "hard_strip_half_width_exact": "39/100",
+    "maximum_absolute_y": 0.39000001946659923,
+    "hard_strip_pass": false,
+    "unit_tangent_error_sample": 6.661338147750939e-16,
+    "first_order_normal_area_over_a_min_sample": 0.8567639699615552,
+    "auxiliary_delta_is_not_a_physical_parameter": true,
+    "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+    "eligible_under_original_physical_gate_groups": false,
+    "eligible_under_physical_gates_including_mirror": false,
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_min": 0.0003999999999999999,
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_polynomial_pass": true,
+    "direct_mirror_radius_min_finite": 0.10105573106576309,
+    "mirror_radius_tolerance": 1e-09,
+    "independent_direct_mirror_radius_pass": true,
+    "zero_normal_z_pairs_without_finite_upper_bound_count": 2304,
+    "regular_normal_area_floor": 1e-10,
+    "nonregular_sample_count": 0,
+    "regularity_screen_pass": true,
+    "auxiliary_delta_failure_does_not_erase_a_physically_eligible_trial": true,
+    "mirror_pair_screen_does_not_certify_whole_surface_reach": true
+  },
+  "final_doubled_constraints": {
+    "eligible_under_all_declared_sampled_constraints": false,
+    "cap_and_box": {
+      "eligible_under_declared_numerical_gate_tolerances": true,
+      "box_violation": 0.0,
+      "affine_height_evaluated": 0.14270420084310476,
+      "reconstructed_common_cap_height_evaluated": 0.14270420084310473,
+      "target_height_evaluated": 0.14270420084310476,
+      "affine_height_margin": 0.0,
+      "reconstructed_height_margin": -2.7755575615628914e-17,
+      "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+      "box_tolerance": 0.0,
+      "height_tolerance": 1e-09,
+      "height_reconstruction_consistency_tolerance": 1e-10,
+      "both_height_margins_nonnegative_in_current_arithmetic": false,
+      "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+    },
+    "auxiliary_delta": 0.2659538765233066,
+    "delta_min_exact": "1/100000000",
+    "delta_bound_pass": true,
+    "divided_metric_row_min": -0.004187543519119485,
+    "metric_row_tolerance": 1e-09,
+    "divided_metric_row_pass": false,
+    "direct_max_eta": 0.2681978740756454,
+    "direct_eta_tolerance": 1e-09,
+    "direct_eta_minus_delta": 0.0022439975523387834,
+    "independent_direct_eta_pass": false,
+    "direct_max_eta_location": {
+      "t": 0.21,
+      "theta": 1.030835089459151,
+      "E_minus_one": 0.037852888392463147,
+      "F_over_a": 0.2485518768068639
+    },
+    "mean_squared_direct_metric_cost_diagnostic": 0.02115247333749864,
+    "minimum_signed_height": 0.02,
+    "signed_height_threshold_exact": "1/10000",
+    "signed_height_margin": 0.0199,
+    "signed_height_pass": true,
+    "hard_ball_radius_exact": "101/100",
+    "ball_radius_squared_normalized_max": 0.9905374644359695,
+    "hard_ball_pass": true,
+    "hard_strip_half_width_exact": "39/100",
+    "maximum_absolute_y": 0.3900000194761695,
+    "hard_strip_pass": false,
+    "unit_tangent_error_sample": 6.661338147750939e-16,
+    "first_order_normal_area_over_a_min_sample": 0.8566731293005745,
+    "auxiliary_delta_is_not_a_physical_parameter": true,
+    "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+    "eligible_under_original_physical_gate_groups": false,
+    "eligible_under_physical_gates_including_mirror": false,
+    "mirror_target_exact": "61/1000",
+    "mirror_polynomial_min": 0.0003999999999999999,
+    "mirror_polynomial_tolerance": 1e-12,
+    "mirror_polynomial_pass": true,
+    "direct_mirror_radius_min_finite": 0.10105573106590054,
+    "mirror_radius_tolerance": 1e-09,
+    "independent_direct_mirror_radius_pass": true,
+    "zero_normal_z_pairs_without_finite_upper_bound_count": 4608,
+    "regular_normal_area_floor": 1e-10,
+    "nonregular_sample_count": 0,
+    "regularity_screen_pass": true,
+    "auxiliary_delta_failure_does_not_erase_a_physically_eligible_trial": true,
+    "mirror_pair_screen_does_not_certify_whole_surface_reach": true
+  },
+  "selected_raw_auxiliary_delta": 0.2659538765233066,
+  "unchanged_physical_metric_and_b0": true,
+  "elapsed_seconds": 322.68059742799994,
+  "peak_rss_kib_linux": 3101156,
+  "initial_state": {
+    "physical_state_sha256": "5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea",
+    "physical_field_schema": "fixed-metric-one-Q-column-independent-height-v1",
+    "T_space_schema": "paired-entry-one-Q-column-tangent-space-v1",
+    "height_base_schema": "bounded-atan-complete-metric-immutable-entry-height-v1",
+    "metric_definition_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+    "core_identity_sha256": "caaf925860078f5a8fd654e25b69c2cccb417a5cc9795deb76a2c9887b85c4fb",
+    "physical_cap_identity_sha256": "110199445b89af16ca7550aef276a84af534eda5b9b3eb9d1b619dc4a472cf10",
+    "parameter_count": 163,
+    "parameter_blocks": {
+      "u": {
+        "count": 81,
+        "exact_rational_vector_sha256": "d1214b9c280518d4a5081a9a0b77df36fa5aec60cded0a3a31da425e4770f0d2",
+        "minimum": -7.485560813610583,
+        "maximum": 7.922847342677471,
+        "euclidean_norm_evaluated": 29.49048129073474
+      },
+      "v": {
+        "count": 73,
+        "exact_rational_vector_sha256": "4b6c1bb90d5dd76bcce2eb8c9c6fbb9f0316ebe7e04f1cea4292b3fc3a2b8a98",
+        "minimum": -7.994403291647853,
+        "maximum": 7.970152058734955,
+        "euclidean_norm_evaluated": 29.923313021733243
+      },
+      "height": {
+        "count": 9,
+        "exact_rational_vector_sha256": "0f5e1ac2978fd9786dad18c7cd156579bea380f75f885822c1c1c885b3de175f",
+        "minimum": -1.0,
+        "maximum": 0.9713653050206086,
+        "euclidean_norm_evaluated": 1.8773335125016064
+      },
+      "metric": {
+        "count": 0,
+        "exact_rational_vector_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "minimum": null,
+        "maximum": null,
+        "euclidean_norm_evaluated": 0.0
+      }
+    },
+    "all_exact_parameter_blocks_sha256": "1646f923db51e28da8407f3b8a0732afbe126b8cedd3a52c2d1a6ce8154c456d",
+    "evaluation": {
+      "source_GH_order": 64,
+      "height_mean_angular_nodes": 384,
+      "height_primitive_GL_order": 8,
+      "height_primitive_fixed_partition_nodes": 140,
+      "height_primitive_partition_definition_sha256": "b16c95cc3fe0c4cc2bf401ab20449a3220480ca9b5f3f0174fa247fd477f7dae",
+      "full_evaluation_definition_sha256": "65803b60c3b767e6e889554b7bce4f888c23a288770170d162db28d499c7fe61"
+    }
+  },
+  "final_state": {
+    "physical_state_sha256": "028c8954574251287035d2a6c255655050778b4d59e3b05de1086719b887df73",
+    "physical_field_schema": "fixed-metric-one-Q-column-independent-height-v1",
+    "T_space_schema": "paired-entry-one-Q-column-tangent-space-v1",
+    "height_base_schema": "bounded-atan-complete-metric-immutable-entry-height-v1",
+    "metric_definition_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+    "core_identity_sha256": "caaf925860078f5a8fd654e25b69c2cccb417a5cc9795deb76a2c9887b85c4fb",
+    "physical_cap_identity_sha256": "110199445b89af16ca7550aef276a84af534eda5b9b3eb9d1b619dc4a472cf10",
+    "parameter_count": 163,
+    "parameter_blocks": {
+      "u": {
+        "count": 81,
+        "exact_rational_vector_sha256": "afa290f5fef080958fd6ba846e7e7992d537dce4e2362a628912261dc9101a95",
+        "minimum": -7.501575670755124,
+        "maximum": 7.904667392580447,
+        "euclidean_norm_evaluated": 29.482727158529645
+      },
+      "v": {
+        "count": 73,
+        "exact_rational_vector_sha256": "9b2e3332d6d963bcf8e3f4f424bb89e5750017cc7177982bdab64c020163ec1c",
+        "minimum": -7.9956439229315,
+        "maximum": 7.964777316581014,
+        "euclidean_norm_evaluated": 29.929136916838978
+      },
+      "height": {
+        "count": 9,
+        "exact_rational_vector_sha256": "eeef0b6ff7cd182a9864684325632b38fdf881124efa414a8b1424c56302df52",
+        "minimum": -0.9858704036423113,
+        "maximum": 0.9986150980263109,
+        "euclidean_norm_evaluated": 1.8890200245415798
+      },
+      "metric": {
+        "count": 0,
+        "exact_rational_vector_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "minimum": null,
+        "maximum": null,
+        "euclidean_norm_evaluated": 0.0
+      }
+    },
+    "all_exact_parameter_blocks_sha256": "fa31a311b1cebd89c3c91f6db4261a6eac1363e5c96fa88324e038e6263595a7",
+    "evaluation": {
+      "source_GH_order": 64,
+      "height_mean_angular_nodes": 384,
+      "height_primitive_GL_order": 8,
+      "height_primitive_fixed_partition_nodes": 140,
+      "height_primitive_partition_definition_sha256": "b16c95cc3fe0c4cc2bf401ab20449a3220480ca9b5f3f0174fa247fd477f7dae",
+      "full_evaluation_definition_sha256": "65803b60c3b767e6e889554b7bce4f888c23a288770170d162db28d499c7fe61"
+    }
+  },
+  "initial_work_audit": {
+    "full": {
+      "schema": "independent-height-actual-position-audit-v1",
+      "radial_nodes": 160,
+      "angular_nodes": 192,
+      "extrema": {
+        "E_minus_one": {
+          "value": -0.3661256901085387,
+          "magnitude": 0.3661256901085387,
+          "t": 0.7875,
+          "theta": 4.843288674284264,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "F_over_a": {
+          "value": 0.26602488369023813,
+          "magnitude": 0.26602488369023813,
+          "t": 0.4575,
+          "theta": 1.014472627721704,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "metric_operator_error": {
+          "value": 0.3677579920638288,
+          "magnitude": 0.3677579920638288,
+          "t": 0.7875,
+          "theta": 4.843288674284264,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "area": {
+          "value": 0.21999999999999992,
+          "magnitude": 0.21999999999999992,
+          "t": 0.9,
+          "theta": 0.8508480103472357,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 87.5629376605229,
+          "magnitude": 87.5629376605229,
+          "t": 0.7875,
+          "theta": 1.5707963267948966,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "curvature_discriminant": {
+          "value": 6.789315448899303e-32,
+          "magnitude": 6.789315448899303e-32,
+          "t": 0.885,
+          "theta": 6.1850105367549055,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "ball_radius_squared_normalized": {
+          "value": 0.9904611154488825,
+          "magnitude": 0.9904611154488825,
+          "t": 0.0825,
+          "theta": 0.0,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "strip_abs_normalized": {
+          "value": 1.0263154606128764,
+          "magnitude": 1.0263154606128764,
+          "t": 0.345,
+          "theta": 1.5707963267948966,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "signed_side_height_minus_core_width": {
+          "value": 0.0,
+          "magnitude": 0.0,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "G_over_a_squared_minus_one": {
+          "value": 8.881784197001252e-16,
+          "magnitude": 8.881784197001252e-16,
+          "t": 0.5475,
+          "theta": 4.516039439535327,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        }
+      },
+      "objective_cost": {
+        "metric_only": 0.02125344854647509,
+        "ball_strip_only": 5.99412775295509e-06,
+        "total": 0.021259442674228045
+      },
+      "coordinate_min_sample": [
+        -1.0002195159857898,
+        -0.389999875032893,
+        0.02
+      ],
+      "coordinate_max_sample": [
+        1.0002195159857898,
+        0.389999875032893,
+        0.360878269700903
+      ],
+      "center_height_first_last": [
+        0.02,
+        0.14270420087976413
+      ],
+      "center_speed_min_max_sample": [
+        -0.6471939141445435,
+        1.0441574406695198
+      ],
+      "target_K_min_max_sample": [
+        -8.266329130127069,
+        10.861241377707342
+      ],
+      "radius_min_max_sample": [
+        0.22,
+        0.7061198214088047
+      ],
+      "position_ports": {
+        "core_position_two_jet_errors": {
+          "X": 3.0849678289701643e-07,
+          "Xs": 0.0,
+          "Xt": 3.554447978966673e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 2.7465400791133423e-15
+        },
+        "open_tail_position_two_jet_errors_from_one_exact_cap": {
+          "X": 6.433395736119593e-08,
+          "Xs": 4.7859458128443456e-05,
+          "Xt": 2.288792643847387e-16,
+          "Xss": 0.029759505408982274,
+          "Xst": 7.850462293418876e-16,
+          "Xtt": 2.364320550091284e-16
+        },
+        "single_cap_height": 0.14270420087976413,
+        "held_disk_radius": 0.22,
+        "height_not_refitted_by_radial_row": true,
+        "exact_cap_geometric_budget": {
+          "maximum_amplitude_exact": "3/16",
+          "curvature_upper_formula": "315*Amax/(128*R*(1-sqrt(3)/2))",
+          "all_cap_normal_chord_lower_formula": "128*R*(1-sqrt(3)/2)*cos(Amax)^2/(315*Amax)",
+          "height_drop_upper_formula": "Amax*R*(1-sqrt(3)/2)/2",
+          "uniform_exact_normal_chord_lower_when_selected": "3/40",
+          "uniform_exact_lower_is_strict": true,
+          "global_cap_embedding_follows_from_horizontal_strong_monotonicity": true,
+          "whole_surface_reach_not_implied": true,
+          "proof_source": "results/R44-S9-six-cap-exact-embedding-and-normal-chord.md"
+        },
+        "global_reference_center_quadrature_error_not_bounded_by_this_comparison": true,
+        "finite_Pi_and_quadrature_differences_are_not_continuous_bounds": true
+      },
+      "metric_identity_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+      "auxiliary_R_not_evaluated_or_used_as_a_goal": true,
+      "sampled_only": true,
+      "embedding_proved": false,
+      "whole_surface_reach_proved": false,
+      "task_complete": false
+    },
+    "regions": {
+      "regions": {
+        "open_core": {
+          "interval": [
+            0.0,
+            0.036
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 6,
+          "metric_operator_error": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 12.755102040816325,
+            "magnitude": 12.755102040816325,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.6917169621957358,
+            "magnitude": 0.6917169621957358,
+            "t": 0.0,
+            "theta": 0.39269908169872414,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          }
+        },
+        "entry_repair_support": {
+          "interval": [
+            0.036,
+            0.11699999999999999
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 34,
+          "metric_operator_error": {
+            "value": 0.2663791333095261,
+            "magnitude": 0.2663791333095261,
+            "t": 0.0975,
+            "theta": 0.06544984694978735,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.2651893118995965,
+            "magnitude": 0.2651893118995965,
+            "t": 0.093375,
+            "theta": 1.5707963267948966,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": -0.2553720990381469,
+            "magnitude": 0.2553720990381469,
+            "t": 0.0975,
+            "theta": 3.010692959690218,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 35.099287432114494,
+            "magnitude": 35.099287432114494,
+            "t": 0.086625,
+            "theta": 3.141592653589793,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.6252003183829179,
+            "magnitude": 0.6252003183829179,
+            "t": 0.113625,
+            "theta": 3.6324665057131984,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.03599999999999999,
+            "magnitude": 0.03599999999999999,
+            "t": 0.036,
+            "theta": 0.0,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          }
+        },
+        "body_after_entry_before_patch": {
+          "interval": [
+            0.11699999999999999,
+            0.746
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 98,
+          "metric_operator_error": {
+            "value": 0.27423235260950873,
+            "magnitude": 0.27423235260950873,
+            "t": 0.1725,
+            "theta": 6.05411084285533,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.27012067877037205,
+            "magnitude": 0.27012067877037205,
+            "t": 0.5775,
+            "theta": 0.0,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.26602488369023813,
+            "magnitude": 0.26602488369023813,
+            "t": 0.4575,
+            "theta": 1.014472627721704,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 31.76881293838077,
+            "magnitude": 31.76881293838077,
+            "t": 0.198,
+            "theta": 6.021385919380436,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.31980317513582013,
+            "magnitude": 0.31980317513582013,
+            "t": 0.746,
+            "theta": 1.5707963267948966,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.0827115403306365,
+            "magnitude": 0.0827115403306365,
+            "t": 0.391,
+            "theta": 0.0,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          }
+        },
+        "natural_cap_patch": {
+          "interval": [
+            0.746,
+            0.846
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 16,
+          "metric_operator_error": {
+            "value": 0.3677579920638288,
+            "magnitude": 0.3677579920638288,
+            "t": 0.7875,
+            "theta": 4.843288674284264,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": -0.3661256901085387,
+            "magnitude": 0.3661256901085387,
+            "t": 0.7875,
+            "theta": 4.843288674284264,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.22339376847526293,
+            "magnitude": 0.22339376847526293,
+            "t": 0.746,
+            "theta": 0.916297857297023,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 87.5629376605229,
+            "magnitude": 87.5629376605229,
+            "t": 0.7875,
+            "theta": 1.5707963267948966,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.26456401544968555,
+            "magnitude": 0.26456401544968555,
+            "t": 0.7875,
+            "theta": 4.843288674284264,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.10533586065623936,
+            "magnitude": 0.10533586065623936,
+            "t": 0.746,
+            "theta": 2.5525440310417067,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          }
+        },
+        "open_cap": {
+          "interval": [
+            0.846,
+            0.9
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 9,
+          "metric_operator_error": {
+            "value": 1.6730180281304254e-06,
+            "magnitude": 1.6730180281304254e-06,
+            "t": 0.8475,
+            "theta": 3.370667117914049,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": -1.6475632305112953e-06,
+            "magnitude": 1.6475632305112953e-06,
+            "t": 0.8475,
+            "theta": 3.370667117914049,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 2.6307999829479345e-07,
+            "magnitude": 2.6307999829479345e-07,
+            "t": 0.8475,
+            "theta": 5.988660995905543,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 12.554415611319419,
+            "magnitude": 12.554415611319419,
+            "t": 0.855,
+            "theta": 2.8797932657906435,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.21999999999999992,
+            "magnitude": 0.21999999999999992,
+            "t": 0.9,
+            "theta": 0.8508480103472357,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.11927767151295794,
+            "magnitude": 0.11927767151295794,
+            "t": 0.846,
+            "theta": 0.0,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          }
+        }
+      },
+      "all_values_are_sampled_only": true
+    },
+    "height_conditions": {
+      "target_reach_exact": "61/1000",
+      "single_cap_height_evaluated": 0.14270420087976413,
+      "minimum_sampled_signed_side_height_minus_core_width": 0.0,
+      "signed_height_nonnegative_is_a_chosen_mirror_separation_condition_not_a_general_necessity": true,
+      "mirrored_held_flat_disks_normal_chord_upper_formula": "abs(h)",
+      "mirrored_held_disks_evaluated_normal_chord_upper": 0.14270420087976413,
+      "mirrored_held_disks_height_margin_to_target": 0.08170420087976413,
+      "core_minor_tangent_ball_witness_available": true,
+      "core_minor_tangent_ball_witness_definition": "p=(0,B,w), normal-center=(0,B-tau,w), q=(0,B-tau,h) in held disk",
+      "core_minor_tangent_ball_general_necessary_condition": "abs(h-core_half_width) >= tau",
+      "evaluated_core_minor_tangent_ball_general_margin": 0.06170420087976412,
+      "cap_is_at_or_above_core_top": true,
+      "necessary_upper_cap_height_condition_if_h_at_least_core_width_and_witness_available": "h >= core_half_width + tau",
+      "evaluated_upper_cap_height_margin": 0.06170420087976412,
+      "these_height_values_have_no_continuous_quadrature_error_bound": true,
+      "no_strict_reach_exclusion_or_embedding_certificate_claimed": true,
+      "polygon_vertex_witness": {
+        "core_point": "(0,B,w)",
+        "cap_point": "(0,R,h)",
+        "core_normal": "horizontal y direction",
+        "cap_normal": "vertical z direction",
+        "reason_cap_vertex_is_flat": "theta=pi/2 is a common vertex of the j*pi/3 six-cap pattern",
+        "B_exact": "7/25",
+        "R_exact": "137/500",
+        "horizontal_gap_exact": "3/500",
+        "normal_chord_upper_formula": "(d^2+(h-w)^2)/(2*max(d,abs(h-w)))",
+        "evaluated_normal_chord_upper": 0.06149879468401505,
+        "evaluated_upper_minus_target": 0.0004987946840150498
+      },
+      "standard_positive_upper_cap_necessary_height_formula": "1/50+(61/1000+sqrt(737/200000))",
+      "standard_positive_upper_cap_height_threshold_evaluated": 0.14170420084310476,
+      "height_threshold_branch_reason": "both normals exclude the small vertical root when d<tau",
+      "general_necessary_abs_height_gap_formula": "61/1000+sqrt(737/200000)",
+      "general_necessary_abs_height_gap_evaluated": 0.12170420084310475,
+      "general_abs_height_gap_margin_evaluated": 0.0010000000366593709,
+      "both_height_branches_before_assuming_positive_h": [
+        "h <= w-L",
+        "h >= w+L"
+      ],
+      "positive_h_forces_upper_branch_because_L_at_least_w": true,
+      "upper_branch_height_threshold_if_h_at_least_w": 0.14170420084310476,
+      "standard_positive_cap_height_margin_evaluated": 0.0010000000366593709,
+      "height_constraint_is_not_added_to_this_audit_only_objective": true,
+      "necessary_formulas_assume_a_complete_C2_embedding_with_reach_at_least_target": true,
+      "current_approximate_candidate_is_not_claimed_such_an_embedding": true,
+      "no_continuous_height_integral_bound_or_strict_reach_exclusion_claimed": true
+    },
+    "mirror_pair_samples": {
+      "same_material_coordinate_reflection_pair_normal_chord_upper": {
+        "value": 0.10271189389572803,
+        "magnitude": 0.10271189389572803,
+        "t": 0.391,
+        "theta": 0.0,
+        "finite_count": 29568,
+        "nonfinite_count": 1152
+      },
+      "zero_normal_z_pair_gives_no_finite_bound_count": 1152,
+      "nonregular_sample_count": 0,
+      "chosen_upper_branch_signed_height_minimum": {
+        "value": 0.02,
+        "magnitude": 0.02,
+        "t": 0.0,
+        "theta": 0.0,
+        "finite_count": 30720,
+        "nonfinite_count": 0
+      },
+      "normal_chord_target_evaluated": 0.061,
+      "formula": "abs(z)*norm(Xs cross T)/abs((Xs cross T)_z)",
+      "requires_distinct_mirrored_material_points_and_a_complete_embedding": true,
+      "noncentral_z_zero_points_would_be_coincident_under_this_mirror": true,
+      "positive_signed_z_is_the_selected_upper_branch_condition": true,
+      "sampled_diagnostic_not_a_continuous_reach_certificate": true
+    }
+  },
+  "final_work_audit": {
+    "full": {
+      "schema": "independent-height-actual-position-audit-v1",
+      "radial_nodes": 160,
+      "angular_nodes": 192,
+      "extrema": {
+        "E_minus_one": {
+          "value": 0.26598295970106545,
+          "magnitude": 0.26598295970106545,
+          "t": 0.4725,
+          "theta": 0.0,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "F_over_a": {
+          "value": 0.2653881628325715,
+          "magnitude": 0.2653881628325715,
+          "t": 0.45,
+          "theta": 1.014472627721704,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "metric_operator_error": {
+          "value": 0.26598295970106545,
+          "magnitude": 0.26598295970106545,
+          "t": 0.4725,
+          "theta": 0.0,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "area": {
+          "value": 0.21999999999999992,
+          "magnitude": 0.21999999999999992,
+          "t": 0.9,
+          "theta": 0.8508480103472357,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 73.09643281440265,
+          "magnitude": 73.09643281440265,
+          "t": 0.7875,
+          "theta": 1.5707963267948966,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "curvature_discriminant": {
+          "value": 6.789315448899303e-32,
+          "magnitude": 6.789315448899303e-32,
+          "t": 0.885,
+          "theta": 6.1850105367549055,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "ball_radius_squared_normalized": {
+          "value": 0.9905366221144891,
+          "magnitude": 0.9905366221144891,
+          "t": 0.0825,
+          "theta": 0.0,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "strip_abs_normalized": {
+          "value": 1.0263156079377993,
+          "magnitude": 1.0263156079377993,
+          "t": 0.345,
+          "theta": 1.5707963267948966,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "signed_side_height_minus_core_width": {
+          "value": 0.0,
+          "magnitude": 0.0,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        },
+        "G_over_a_squared_minus_one": {
+          "value": -7.771561172376096e-16,
+          "magnitude": 7.771561172376096e-16,
+          "t": 0.6375,
+          "theta": 6.1850105367549055,
+          "finite_count": 30720,
+          "nonfinite_count": 0
+        }
+      },
+      "objective_cost": {
+        "metric_only": 0.021152459990876827,
+        "ball_strip_only": 7.479232083076567e-06,
+        "total": 0.021159939222959903
+      },
+      "coordinate_min_sample": [
+        -1.000241354385724,
+        -0.3899999310163637,
+        0.02
+      ],
+      "coordinate_max_sample": [
+        1.0002413543857238,
+        0.3899999310163637,
+        0.359553136595587
+      ],
+      "center_height_first_last": [
+        0.02,
+        0.14270420084310473
+      ],
+      "center_speed_min_max_sample": [
+        -0.644791206766642,
+        1.0424100400952223
+      ],
+      "target_K_min_max_sample": [
+        -8.266329130127069,
+        10.861241377707342
+      ],
+      "radius_min_max_sample": [
+        0.22,
+        0.7061198214088047
+      ],
+      "position_ports": {
+        "core_position_two_jet_errors": {
+          "X": 3.0849678289701643e-07,
+          "Xs": 0.0,
+          "Xt": 3.554447978966673e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 2.7465400791133423e-15
+        },
+        "open_tail_position_two_jet_errors_from_one_exact_cap": {
+          "X": 6.433395736119593e-08,
+          "Xs": 4.7859458128443456e-05,
+          "Xt": 2.288792643847387e-16,
+          "Xss": 0.029759505408982274,
+          "Xst": 7.850462293418876e-16,
+          "Xtt": 2.364320550091284e-16
+        },
+        "single_cap_height": 0.14270420084310473,
+        "held_disk_radius": 0.22,
+        "height_not_refitted_by_radial_row": true,
+        "exact_cap_geometric_budget": {
+          "maximum_amplitude_exact": "3/16",
+          "curvature_upper_formula": "315*Amax/(128*R*(1-sqrt(3)/2))",
+          "all_cap_normal_chord_lower_formula": "128*R*(1-sqrt(3)/2)*cos(Amax)^2/(315*Amax)",
+          "height_drop_upper_formula": "Amax*R*(1-sqrt(3)/2)/2",
+          "uniform_exact_normal_chord_lower_when_selected": "3/40",
+          "uniform_exact_lower_is_strict": true,
+          "global_cap_embedding_follows_from_horizontal_strong_monotonicity": true,
+          "whole_surface_reach_not_implied": true,
+          "proof_source": "results/R44-S9-six-cap-exact-embedding-and-normal-chord.md"
+        },
+        "global_reference_center_quadrature_error_not_bounded_by_this_comparison": true,
+        "finite_Pi_and_quadrature_differences_are_not_continuous_bounds": true
+      },
+      "metric_identity_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+      "auxiliary_R_not_evaluated_or_used_as_a_goal": true,
+      "sampled_only": true,
+      "embedding_proved": false,
+      "whole_surface_reach_proved": false,
+      "task_complete": false
+    },
+    "regions": {
+      "regions": {
+        "open_core": {
+          "interval": [
+            0.0,
+            0.036
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 6,
+          "metric_operator_error": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 12.755102040816325,
+            "magnitude": 12.755102040816325,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.6917169621957358,
+            "magnitude": 0.6917169621957358,
+            "t": 0.0,
+            "theta": 0.39269908169872414,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 1152,
+            "nonfinite_count": 0
+          }
+        },
+        "entry_repair_support": {
+          "interval": [
+            0.036,
+            0.11699999999999999
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 34,
+          "metric_operator_error": {
+            "value": 0.2659707866355694,
+            "magnitude": 0.2659707866355694,
+            "t": 0.09,
+            "theta": 1.5707963267948966,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.2659707866355694,
+            "magnitude": 0.2659707866355694,
+            "t": 0.09,
+            "theta": 1.5707963267948966,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.2617157663861639,
+            "magnitude": 0.2617157663861639,
+            "t": 0.0975,
+            "theta": 0.1308996938995747,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 36.167209461667355,
+            "magnitude": 36.167209461667355,
+            "t": 0.086625,
+            "theta": 3.141592653589793,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.6225140500920454,
+            "magnitude": 0.6225140500920454,
+            "t": 0.113625,
+            "theta": 3.6324665057131984,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.03599999999999999,
+            "magnitude": 0.03599999999999999,
+            "t": 0.036,
+            "theta": 0.0,
+            "finite_count": 6528,
+            "nonfinite_count": 0
+          }
+        },
+        "body_after_entry_before_patch": {
+          "interval": [
+            0.11699999999999999,
+            0.746
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 98,
+          "metric_operator_error": {
+            "value": 0.26598295970106545,
+            "magnitude": 0.26598295970106545,
+            "t": 0.4725,
+            "theta": 0.0,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.26598295970106545,
+            "magnitude": 0.26598295970106545,
+            "t": 0.4725,
+            "theta": 0.0,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.2653881628325715,
+            "magnitude": 0.2653881628325715,
+            "t": 0.45,
+            "theta": 1.014472627721704,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 32.22296171854635,
+            "magnitude": 32.22296171854635,
+            "t": 0.198,
+            "theta": 6.021385919380436,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.319842850922884,
+            "magnitude": 0.319842850922884,
+            "t": 0.746,
+            "theta": 1.5707963267948966,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.08104140200519731,
+            "magnitude": 0.08104140200519731,
+            "t": 0.391,
+            "theta": 0.0,
+            "finite_count": 18816,
+            "nonfinite_count": 0
+          }
+        },
+        "natural_cap_patch": {
+          "interval": [
+            0.746,
+            0.846
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 16,
+          "metric_operator_error": {
+            "value": 0.26596065752876974,
+            "magnitude": 0.26596065752876974,
+            "t": 0.7875,
+            "theta": 4.876013597759158,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": -0.26594420897966387,
+            "magnitude": 0.26594420897966387,
+            "t": 0.7875,
+            "theta": 4.876013597759158,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": -0.2155964955780392,
+            "magnitude": 0.2155964955780392,
+            "t": 0.746,
+            "theta": 2.2252947962927703,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 73.09643281440265,
+            "magnitude": 73.09643281440265,
+            "t": 0.7875,
+            "theta": 1.5707963267948966,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.27399988528841546,
+            "magnitude": 0.27399988528841546,
+            "t": 0.846,
+            "theta": 0.7526732399225545,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.1046422549236767,
+            "magnitude": 0.1046422549236767,
+            "t": 0.746,
+            "theta": 0.6544984694978736,
+            "finite_count": 3072,
+            "nonfinite_count": 0
+          }
+        },
+        "open_cap": {
+          "interval": [
+            0.846,
+            0.9
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 9,
+          "metric_operator_error": {
+            "value": 1.6730180281304254e-06,
+            "magnitude": 1.6730180281304254e-06,
+            "t": 0.8475,
+            "theta": 3.370667117914049,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": -1.6475632305112953e-06,
+            "magnitude": 1.6475632305112953e-06,
+            "t": 0.8475,
+            "theta": 3.370667117914049,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 2.6307999829479345e-07,
+            "magnitude": 2.6307999829479345e-07,
+            "t": 0.8475,
+            "theta": 5.988660995905543,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 12.554415611319419,
+            "magnitude": 12.554415611319419,
+            "t": 0.855,
+            "theta": 2.8797932657906435,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.21999999999999992,
+            "magnitude": 0.21999999999999992,
+            "t": 0.9,
+            "theta": 0.8508480103472357,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.11927767147629854,
+            "magnitude": 0.11927767147629854,
+            "t": 0.846,
+            "theta": 0.0,
+            "finite_count": 1728,
+            "nonfinite_count": 0
+          }
+        }
+      },
+      "all_values_are_sampled_only": true
+    },
+    "height_conditions": {
+      "target_reach_exact": "61/1000",
+      "single_cap_height_evaluated": 0.14270420084310473,
+      "minimum_sampled_signed_side_height_minus_core_width": 0.0,
+      "signed_height_nonnegative_is_a_chosen_mirror_separation_condition_not_a_general_necessity": true,
+      "mirrored_held_flat_disks_normal_chord_upper_formula": "abs(h)",
+      "mirrored_held_disks_evaluated_normal_chord_upper": 0.14270420084310473,
+      "mirrored_held_disks_height_margin_to_target": 0.08170420084310473,
+      "core_minor_tangent_ball_witness_available": true,
+      "core_minor_tangent_ball_witness_definition": "p=(0,B,w), normal-center=(0,B-tau,w), q=(0,B-tau,h) in held disk",
+      "core_minor_tangent_ball_general_necessary_condition": "abs(h-core_half_width) >= tau",
+      "evaluated_core_minor_tangent_ball_general_margin": 0.061704200843104726,
+      "cap_is_at_or_above_core_top": true,
+      "necessary_upper_cap_height_condition_if_h_at_least_core_width_and_witness_available": "h >= core_half_width + tau",
+      "evaluated_upper_cap_height_margin": 0.061704200843104726,
+      "these_height_values_have_no_continuous_quadrature_error_bound": true,
+      "no_strict_reach_exclusion_or_embedding_certificate_claimed": true,
+      "polygon_vertex_witness": {
+        "core_point": "(0,B,w)",
+        "cap_point": "(0,R,h)",
+        "core_normal": "horizontal y direction",
+        "cap_normal": "vertical z direction",
+        "reason_cap_vertex_is_flat": "theta=pi/2 is a common vertex of the j*pi/3 six-cap pattern",
+        "B_exact": "7/25",
+        "R_exact": "137/500",
+        "horizontal_gap_exact": "3/500",
+        "normal_chord_upper_formula": "(d^2+(h-w)^2)/(2*max(d,abs(h-w)))",
+        "evaluated_normal_chord_upper": 0.06149879466572918,
+        "evaluated_upper_minus_target": 0.0004987946657291839
+      },
+      "standard_positive_upper_cap_necessary_height_formula": "1/50+(61/1000+sqrt(737/200000))",
+      "standard_positive_upper_cap_height_threshold_evaluated": 0.14170420084310476,
+      "height_threshold_branch_reason": "both normals exclude the small vertical root when d<tau",
+      "general_necessary_abs_height_gap_formula": "61/1000+sqrt(737/200000)",
+      "general_necessary_abs_height_gap_evaluated": 0.12170420084310475,
+      "general_abs_height_gap_margin_evaluated": 0.0009999999999999731,
+      "both_height_branches_before_assuming_positive_h": [
+        "h <= w-L",
+        "h >= w+L"
+      ],
+      "positive_h_forces_upper_branch_because_L_at_least_w": true,
+      "upper_branch_height_threshold_if_h_at_least_w": 0.14170420084310476,
+      "standard_positive_cap_height_margin_evaluated": 0.0009999999999999731,
+      "height_constraint_is_not_added_to_this_audit_only_objective": true,
+      "necessary_formulas_assume_a_complete_C2_embedding_with_reach_at_least_target": true,
+      "current_approximate_candidate_is_not_claimed_such_an_embedding": true,
+      "no_continuous_height_integral_bound_or_strict_reach_exclusion_claimed": true
+    },
+    "mirror_pair_samples": {
+      "same_material_coordinate_reflection_pair_normal_chord_upper": {
+        "value": 0.10105572286990937,
+        "magnitude": 0.10105572286990937,
+        "t": 0.391,
+        "theta": 0.0,
+        "finite_count": 29568,
+        "nonfinite_count": 1152
+      },
+      "zero_normal_z_pair_gives_no_finite_bound_count": 1152,
+      "nonregular_sample_count": 0,
+      "chosen_upper_branch_signed_height_minimum": {
+        "value": 0.02,
+        "magnitude": 0.02,
+        "t": 0.0,
+        "theta": 0.0,
+        "finite_count": 30720,
+        "nonfinite_count": 0
+      },
+      "normal_chord_target_evaluated": 0.061,
+      "formula": "abs(z)*norm(Xs cross T)/abs((Xs cross T)_z)",
+      "requires_distinct_mirrored_material_points_and_a_complete_embedding": true,
+      "noncentral_z_zero_points_would_be_coincident_under_this_mirror": true,
+      "positive_signed_z_is_the_selected_upper_branch_condition": true,
+      "sampled_diagnostic_not_a_continuous_reach_certificate": true
+    }
+  },
+  "final_fine_audit": {
+    "full": {
+      "schema": "independent-height-actual-position-audit-v1",
+      "radial_nodes": 160,
+      "angular_nodes": 384,
+      "extrema": {
+        "E_minus_one": {
+          "value": 0.26659917207843287,
+          "magnitude": 0.26659917207843287,
+          "t": 0.09,
+          "theta": 5.1869003707706485,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "F_over_a": {
+          "value": 0.2656485057561981,
+          "magnitude": 0.2656485057561981,
+          "t": 0.45,
+          "theta": 0.9981101659842572,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "metric_operator_error": {
+          "value": 0.26819787599467493,
+          "magnitude": 0.26819787599467493,
+          "t": 0.21,
+          "theta": 1.030835089459151,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "area": {
+          "value": 0.2199999999999999,
+          "magnitude": 0.2199999999999999,
+          "t": 0.9,
+          "theta": 3.370667117914049,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 73.10262014906769,
+          "magnitude": 73.10262014906769,
+          "t": 0.7875,
+          "theta": 4.71238898038469,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "curvature_discriminant": {
+          "value": 6.7893154488993e-32,
+          "magnitude": 6.7893154488993e-32,
+          "t": 0.885,
+          "theta": 0.3108867730114899,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "ball_radius_squared_normalized": {
+          "value": 0.9905374643909075,
+          "magnitude": 0.9905374643909075,
+          "t": 0.0825,
+          "theta": 0.0,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "strip_abs_normalized": {
+          "value": 1.0263158407015769,
+          "magnitude": 1.0263158407015769,
+          "t": 0.345,
+          "theta": 1.5707963267948966,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "signed_side_height_minus_core_width": {
+          "value": 0.0,
+          "magnitude": 0.0,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        },
+        "G_over_a_squared_minus_one": {
+          "value": -7.771561172376096e-16,
+          "magnitude": 7.771561172376096e-16,
+          "t": 0.3825,
+          "theta": 1.9798578702310676,
+          "finite_count": 61440,
+          "nonfinite_count": 0
+        }
+      },
+      "objective_cost": {
+        "metric_only": 0.021152473304464438,
+        "ball_strip_only": 7.4786805536990395e-06,
+        "total": 0.021159951985018136
+      },
+      "coordinate_min_sample": [
+        -1.0002417216792387,
+        -0.39000001946659923,
+        0.02
+      ],
+      "coordinate_max_sample": [
+        1.0002417216792387,
+        0.39000001946659923,
+        0.35955313758656615
+      ],
+      "center_height_first_last": [
+        0.02,
+        0.14270420084310473
+      ],
+      "center_speed_min_max_sample": [
+        -0.644791206766642,
+        1.0424100400952223
+      ],
+      "target_K_min_max_sample": [
+        -8.266329130127069,
+        10.861241377707342
+      ],
+      "radius_min_max_sample": [
+        0.22,
+        0.7061198214088047
+      ],
+      "position_ports": {
+        "core_position_two_jet_errors": {
+          "X": 1.4176881891355652e-11,
+          "Xs": 0.0,
+          "Xt": 3.554447978966673e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 2.7465400791133423e-15
+        },
+        "open_tail_position_two_jet_errors_from_one_exact_cap": {
+          "X": 9.772411653093409e-10,
+          "Xs": 1.7665700545428536e-06,
+          "Xt": 2.288792643847387e-16,
+          "Xss": 0.0022323323594426983,
+          "Xst": 9.550499576785472e-16,
+          "Xtt": 2.3757479755373554e-16
+        },
+        "single_cap_height": 0.14270420084310473,
+        "held_disk_radius": 0.22,
+        "height_not_refitted_by_radial_row": true,
+        "exact_cap_geometric_budget": {
+          "maximum_amplitude_exact": "3/16",
+          "curvature_upper_formula": "315*Amax/(128*R*(1-sqrt(3)/2))",
+          "all_cap_normal_chord_lower_formula": "128*R*(1-sqrt(3)/2)*cos(Amax)^2/(315*Amax)",
+          "height_drop_upper_formula": "Amax*R*(1-sqrt(3)/2)/2",
+          "uniform_exact_normal_chord_lower_when_selected": "3/40",
+          "uniform_exact_lower_is_strict": true,
+          "global_cap_embedding_follows_from_horizontal_strong_monotonicity": true,
+          "whole_surface_reach_not_implied": true,
+          "proof_source": "results/R44-S9-six-cap-exact-embedding-and-normal-chord.md"
+        },
+        "global_reference_center_quadrature_error_not_bounded_by_this_comparison": true,
+        "finite_Pi_and_quadrature_differences_are_not_continuous_bounds": true
+      },
+      "metric_identity_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+      "auxiliary_R_not_evaluated_or_used_as_a_goal": true,
+      "sampled_only": true,
+      "embedding_proved": false,
+      "whole_surface_reach_proved": false,
+      "task_complete": false
+    },
+    "regions": {
+      "regions": {
+        "open_core": {
+          "interval": [
+            0.0,
+            0.036
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 6,
+          "metric_operator_error": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 2304,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 2304,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 2304,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 12.755102040816325,
+            "magnitude": 12.755102040816325,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 2304,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.6917169621957358,
+            "magnitude": 0.6917169621957358,
+            "t": 0.0,
+            "theta": 0.04908738521234052,
+            "finite_count": 2304,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 2304,
+            "nonfinite_count": 0
+          }
+        },
+        "entry_repair_support": {
+          "interval": [
+            0.036,
+            0.11699999999999999
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 34,
+          "metric_operator_error": {
+            "value": 0.26666116470431833,
+            "magnitude": 0.26666116470431833,
+            "t": 0.09,
+            "theta": 5.1869003707706485,
+            "finite_count": 13056,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.26659917207843287,
+            "magnitude": 0.26659917207843287,
+            "t": 0.09,
+            "theta": 5.1869003707706485,
+            "finite_count": 13056,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": -0.26171729313029146,
+            "magnitude": 0.26171729313029146,
+            "t": 0.0975,
+            "theta": 3.010692959690218,
+            "finite_count": 13056,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 36.16705689458106,
+            "magnitude": 36.16705689458106,
+            "t": 0.086625,
+            "theta": 3.141592653589793,
+            "finite_count": 13056,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.6225138025715716,
+            "magnitude": 0.6225138025715716,
+            "t": 0.113625,
+            "theta": 3.6324665057131984,
+            "finite_count": 13056,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.03599999999999999,
+            "magnitude": 0.03599999999999999,
+            "t": 0.036,
+            "theta": 0.0,
+            "finite_count": 13056,
+            "nonfinite_count": 0
+          }
+        },
+        "body_after_entry_before_patch": {
+          "interval": [
+            0.11699999999999999,
+            0.746
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 98,
+          "metric_operator_error": {
+            "value": 0.26819787599467493,
+            "magnitude": 0.26819787599467493,
+            "t": 0.21,
+            "theta": 1.030835089459151,
+            "finite_count": 37632,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.26599090603211706,
+            "magnitude": 0.26599090603211706,
+            "t": 0.4725,
+            "theta": 0.0,
+            "finite_count": 37632,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.2656485057561981,
+            "magnitude": 0.2656485057561981,
+            "t": 0.45,
+            "theta": 0.9981101659842572,
+            "finite_count": 37632,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 32.245749100712075,
+            "magnitude": 32.245749100712075,
+            "t": 0.198,
+            "theta": 6.037748381117884,
+            "finite_count": 37632,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.3198428502032831,
+            "magnitude": 0.3198428502032831,
+            "t": 0.746,
+            "theta": 4.71238898038469,
+            "finite_count": 37632,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.0810414119340115,
+            "magnitude": 0.0810414119340115,
+            "t": 0.391,
+            "theta": 0.0,
+            "finite_count": 37632,
+            "nonfinite_count": 0
+          }
+        },
+        "natural_cap_patch": {
+          "interval": [
+            0.746,
+            0.846
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 16,
+          "metric_operator_error": {
+            "value": 0.2659678152214914,
+            "magnitude": 0.2659678152214914,
+            "t": 0.7875,
+            "theta": 5.006913291658733,
+            "finite_count": 6144,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": -0.2659451004413649,
+            "magnitude": 0.2659451004413649,
+            "t": 0.7875,
+            "theta": 4.876013597759158,
+            "finite_count": 6144,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": -0.21559649946311998,
+            "magnitude": 0.21559649946311998,
+            "t": 0.746,
+            "theta": 2.2252947962927703,
+            "finite_count": 6144,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 73.10262014906769,
+            "magnitude": 73.10262014906769,
+            "t": 0.7875,
+            "theta": 4.71238898038469,
+            "finite_count": 6144,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.27399999849382267,
+            "magnitude": 0.27399999849382267,
+            "t": 0.846,
+            "theta": 0.7690357016600015,
+            "finite_count": 6144,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.1046111640218269,
+            "magnitude": 0.1046111640218269,
+            "t": 0.746,
+            "theta": 2.5034566458293663,
+            "finite_count": 6144,
+            "nonfinite_count": 0
+          }
+        },
+        "open_cap": {
+          "interval": [
+            0.846,
+            0.9
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 9,
+          "metric_operator_error": {
+            "value": 3.0049353875957974e-08,
+            "magnitude": 3.0049353875957974e-08,
+            "t": 0.855,
+            "theta": 6.266822845442139,
+            "finite_count": 3456,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 3.0047344612427196e-08,
+            "magnitude": 3.0047344612427196e-08,
+            "t": 0.855,
+            "theta": 0.016362461737446838,
+            "finite_count": 3456,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": -3.453317969255576e-09,
+            "magnitude": 3.453317969255576e-09,
+            "t": 0.8475,
+            "theta": 2.8470683423157497,
+            "finite_count": 3456,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 12.565534377788214,
+            "magnitude": 12.565534377788214,
+            "t": 0.8625,
+            "theta": 0.11453723216212787,
+            "finite_count": 3456,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.2199999999999999,
+            "magnitude": 0.2199999999999999,
+            "t": 0.9,
+            "theta": 3.370667117914049,
+            "finite_count": 3456,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.1192776720641185,
+            "magnitude": 0.1192776720641185,
+            "t": 0.846,
+            "theta": 0.0,
+            "finite_count": 3456,
+            "nonfinite_count": 0
+          }
+        }
+      },
+      "all_values_are_sampled_only": true
+    },
+    "height_conditions": {
+      "target_reach_exact": "61/1000",
+      "single_cap_height_evaluated": 0.14270420084310473,
+      "minimum_sampled_signed_side_height_minus_core_width": 0.0,
+      "signed_height_nonnegative_is_a_chosen_mirror_separation_condition_not_a_general_necessity": true,
+      "mirrored_held_flat_disks_normal_chord_upper_formula": "abs(h)",
+      "mirrored_held_disks_evaluated_normal_chord_upper": 0.14270420084310473,
+      "mirrored_held_disks_height_margin_to_target": 0.08170420084310473,
+      "core_minor_tangent_ball_witness_available": true,
+      "core_minor_tangent_ball_witness_definition": "p=(0,B,w), normal-center=(0,B-tau,w), q=(0,B-tau,h) in held disk",
+      "core_minor_tangent_ball_general_necessary_condition": "abs(h-core_half_width) >= tau",
+      "evaluated_core_minor_tangent_ball_general_margin": 0.061704200843104726,
+      "cap_is_at_or_above_core_top": true,
+      "necessary_upper_cap_height_condition_if_h_at_least_core_width_and_witness_available": "h >= core_half_width + tau",
+      "evaluated_upper_cap_height_margin": 0.061704200843104726,
+      "these_height_values_have_no_continuous_quadrature_error_bound": true,
+      "no_strict_reach_exclusion_or_embedding_certificate_claimed": true,
+      "polygon_vertex_witness": {
+        "core_point": "(0,B,w)",
+        "cap_point": "(0,R,h)",
+        "core_normal": "horizontal y direction",
+        "cap_normal": "vertical z direction",
+        "reason_cap_vertex_is_flat": "theta=pi/2 is a common vertex of the j*pi/3 six-cap pattern",
+        "B_exact": "7/25",
+        "R_exact": "137/500",
+        "horizontal_gap_exact": "3/500",
+        "normal_chord_upper_formula": "(d^2+(h-w)^2)/(2*max(d,abs(h-w)))",
+        "evaluated_normal_chord_upper": 0.06149879466572918,
+        "evaluated_upper_minus_target": 0.0004987946657291839
+      },
+      "standard_positive_upper_cap_necessary_height_formula": "1/50+(61/1000+sqrt(737/200000))",
+      "standard_positive_upper_cap_height_threshold_evaluated": 0.14170420084310476,
+      "height_threshold_branch_reason": "both normals exclude the small vertical root when d<tau",
+      "general_necessary_abs_height_gap_formula": "61/1000+sqrt(737/200000)",
+      "general_necessary_abs_height_gap_evaluated": 0.12170420084310475,
+      "general_abs_height_gap_margin_evaluated": 0.0009999999999999731,
+      "both_height_branches_before_assuming_positive_h": [
+        "h <= w-L",
+        "h >= w+L"
+      ],
+      "positive_h_forces_upper_branch_because_L_at_least_w": true,
+      "upper_branch_height_threshold_if_h_at_least_w": 0.14170420084310476,
+      "standard_positive_cap_height_margin_evaluated": 0.0009999999999999731,
+      "height_constraint_is_not_added_to_this_audit_only_objective": true,
+      "necessary_formulas_assume_a_complete_C2_embedding_with_reach_at_least_target": true,
+      "current_approximate_candidate_is_not_claimed_such_an_embedding": true,
+      "no_continuous_height_integral_bound_or_strict_reach_exclusion_claimed": true
+    },
+    "mirror_pair_samples": {
+      "same_material_coordinate_reflection_pair_normal_chord_upper": {
+        "value": 0.10105573106576309,
+        "magnitude": 0.10105573106576309,
+        "t": 0.391,
+        "theta": 0.0,
+        "finite_count": 59136,
+        "nonfinite_count": 2304
+      },
+      "zero_normal_z_pair_gives_no_finite_bound_count": 2304,
+      "nonregular_sample_count": 0,
+      "chosen_upper_branch_signed_height_minimum": {
+        "value": 0.02,
+        "magnitude": 0.02,
+        "t": 0.0,
+        "theta": 0.0,
+        "finite_count": 61440,
+        "nonfinite_count": 0
+      },
+      "normal_chord_target_evaluated": 0.061,
+      "formula": "abs(z)*norm(Xs cross T)/abs((Xs cross T)_z)",
+      "requires_distinct_mirrored_material_points_and_a_complete_embedding": true,
+      "noncentral_z_zero_points_would_be_coincident_under_this_mirror": true,
+      "positive_signed_z_is_the_selected_upper_branch_condition": true,
+      "sampled_diagnostic_not_a_continuous_reach_certificate": true
+    }
+  },
+  "final_doubled_angle_audit": {
+    "full": {
+      "schema": "independent-height-actual-position-audit-v1",
+      "radial_nodes": 160,
+      "angular_nodes": 768,
+      "extrema": {
+        "E_minus_one": {
+          "value": 0.2665991721311072,
+          "magnitude": 0.2665991721311072,
+          "t": 0.09,
+          "theta": 5.1869003707706485,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "F_over_a": {
+          "value": 0.26564850576167015,
+          "magnitude": 0.26564850576167015,
+          "t": 0.45,
+          "theta": 0.9981101659842572,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "metric_operator_error": {
+          "value": 0.2681978740756454,
+          "magnitude": 0.2681978740756454,
+          "t": 0.21,
+          "theta": 1.030835089459151,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "area": {
+          "value": 0.2199999999999999,
+          "magnitude": 0.2199999999999999,
+          "t": 0.9,
+          "theta": 2.7325311101536225,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "principal_curvature_absolute": {
+          "value": 73.10260670415082,
+          "magnitude": 73.10260670415082,
+          "t": 0.7875,
+          "theta": 1.5707963267948966,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "curvature_discriminant": {
+          "value": 6.7893154488993e-32,
+          "magnitude": 6.7893154488993e-32,
+          "t": 0.885,
+          "theta": 3.918809586118518,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "ball_radius_squared_normalized": {
+          "value": 0.9905374644359695,
+          "magnitude": 0.9905374644359695,
+          "t": 0.0825,
+          "theta": 0.0,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "strip_abs_normalized": {
+          "value": 1.0263158407267619,
+          "magnitude": 1.0263158407267619,
+          "t": 0.345,
+          "theta": 1.5707963267948966,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "signed_side_height_minus_core_width": {
+          "value": 0.0,
+          "magnitude": 0.0,
+          "t": 0.0,
+          "theta": 0.0,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        },
+        "G_over_a_squared_minus_one": {
+          "value": 8.881784197001252e-16,
+          "magnitude": 8.881784197001252e-16,
+          "t": 0.8625,
+          "theta": 2.757074802759792,
+          "finite_count": 122880,
+          "nonfinite_count": 0
+        }
+      },
+      "objective_cost": {
+        "metric_only": 0.02115247333749864,
+        "ball_strip_only": 7.478773573036768e-06,
+        "total": 0.02115995211107168
+      },
+      "coordinate_min_sample": [
+        -1.0002417216974886,
+        -0.3900000194761695,
+        0.02
+      ],
+      "coordinate_max_sample": [
+        1.0002417216974888,
+        0.3900000194761695,
+        0.35955313758659585
+      ],
+      "center_height_first_last": [
+        0.02,
+        0.14270420084310473
+      ],
+      "center_speed_min_max_sample": [
+        -0.644791206766642,
+        1.0424100400952223
+      ],
+      "target_K_min_max_sample": [
+        -8.266329130127069,
+        10.861241377707342
+      ],
+      "radius_min_max_sample": [
+        0.22,
+        0.7061198214088047
+      ],
+      "position_ports": {
+        "core_position_two_jet_errors": {
+          "X": 8.740734912882104e-14,
+          "Xs": 0.0,
+          "Xt": 3.775166431889533e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 2.7465400791133423e-15
+        },
+        "open_tail_position_two_jet_errors_from_one_exact_cap": {
+          "X": 1.0951434210016644e-11,
+          "Xs": 5.77652107831876e-08,
+          "Xt": 2.288792643847387e-16,
+          "Xss": 0.00010653652723984624,
+          "Xst": 9.566618574882216e-16,
+          "Xtt": 2.3757479755373554e-16
+        },
+        "single_cap_height": 0.14270420084310473,
+        "held_disk_radius": 0.22,
+        "height_not_refitted_by_radial_row": true,
+        "exact_cap_geometric_budget": {
+          "maximum_amplitude_exact": "3/16",
+          "curvature_upper_formula": "315*Amax/(128*R*(1-sqrt(3)/2))",
+          "all_cap_normal_chord_lower_formula": "128*R*(1-sqrt(3)/2)*cos(Amax)^2/(315*Amax)",
+          "height_drop_upper_formula": "Amax*R*(1-sqrt(3)/2)/2",
+          "uniform_exact_normal_chord_lower_when_selected": "3/40",
+          "uniform_exact_lower_is_strict": true,
+          "global_cap_embedding_follows_from_horizontal_strong_monotonicity": true,
+          "whole_surface_reach_not_implied": true,
+          "proof_source": "results/R44-S9-six-cap-exact-embedding-and-normal-chord.md"
+        },
+        "global_reference_center_quadrature_error_not_bounded_by_this_comparison": true,
+        "finite_Pi_and_quadrature_differences_are_not_continuous_bounds": true
+      },
+      "metric_identity_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+      "auxiliary_R_not_evaluated_or_used_as_a_goal": true,
+      "sampled_only": true,
+      "embedding_proved": false,
+      "whole_surface_reach_proved": false,
+      "task_complete": false
+    },
+    "regions": {
+      "regions": {
+        "open_core": {
+          "interval": [
+            0.0,
+            0.036
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 6,
+          "metric_operator_error": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 4608,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 4608,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 4608,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 12.755102040816325,
+            "magnitude": 12.755102040816325,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 4608,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.6917169621957358,
+            "magnitude": 0.6917169621957358,
+            "t": 0.0,
+            "theta": 0.008181230868723419,
+            "finite_count": 4608,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.0,
+            "magnitude": 0.0,
+            "t": 0.0,
+            "theta": 0.0,
+            "finite_count": 4608,
+            "nonfinite_count": 0
+          }
+        },
+        "entry_repair_support": {
+          "interval": [
+            0.036,
+            0.11699999999999999
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 34,
+          "metric_operator_error": {
+            "value": 0.2666611647573728,
+            "magnitude": 0.2666611647573728,
+            "t": 0.09,
+            "theta": 5.1869003707706485,
+            "finite_count": 26112,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.2665991721311072,
+            "magnitude": 0.2665991721311072,
+            "t": 0.09,
+            "theta": 5.1869003707706485,
+            "finite_count": 26112,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": -0.2617172933965398,
+            "magnitude": 0.2617172933965398,
+            "t": 0.0975,
+            "theta": 3.010692959690218,
+            "finite_count": 26112,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 36.16705684949951,
+            "magnitude": 36.16705684949951,
+            "t": 0.086625,
+            "theta": 3.141592653589793,
+            "finite_count": 26112,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.6225138026209902,
+            "magnitude": 0.6225138026209902,
+            "t": 0.113625,
+            "theta": 3.6324665057131984,
+            "finite_count": 26112,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.03599999999999999,
+            "magnitude": 0.03599999999999999,
+            "t": 0.036,
+            "theta": 0.0,
+            "finite_count": 26112,
+            "nonfinite_count": 0
+          }
+        },
+        "body_after_entry_before_patch": {
+          "interval": [
+            0.11699999999999999,
+            0.746
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 98,
+          "metric_operator_error": {
+            "value": 0.2681978740756454,
+            "magnitude": 0.2681978740756454,
+            "t": 0.21,
+            "theta": 1.030835089459151,
+            "finite_count": 75264,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 0.26599090639254896,
+            "magnitude": 0.26599090639254896,
+            "t": 0.4725,
+            "theta": 0.0,
+            "finite_count": 75264,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": 0.26564850576167015,
+            "magnitude": 0.26564850576167015,
+            "t": 0.45,
+            "theta": 0.9981101659842572,
+            "finite_count": 75264,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 32.27938193665686,
+            "magnitude": 32.27938193665686,
+            "t": 0.198,
+            "theta": 0.253618156930426,
+            "finite_count": 75264,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.31984285020324915,
+            "magnitude": 0.31984285020324915,
+            "t": 0.746,
+            "theta": 4.71238898038469,
+            "finite_count": 75264,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.0810414119341895,
+            "magnitude": 0.0810414119341895,
+            "t": 0.391,
+            "theta": 3.141592653589793,
+            "finite_count": 75264,
+            "nonfinite_count": 0
+          }
+        },
+        "natural_cap_patch": {
+          "interval": [
+            0.746,
+            0.846
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 16,
+          "metric_operator_error": {
+            "value": 0.26612333979757036,
+            "magnitude": 0.26612333979757036,
+            "t": 0.7875,
+            "theta": 4.867832366890434,
+            "finite_count": 12288,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": -0.26610672901830723,
+            "magnitude": 0.26610672901830723,
+            "t": 0.7875,
+            "theta": 4.867832366890434,
+            "finite_count": 12288,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": -0.21564891306748057,
+            "magnitude": 0.21564891306748057,
+            "t": 0.746,
+            "theta": 5.35870621901384,
+            "finite_count": 12288,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 73.10260670415082,
+            "magnitude": 73.10260670415082,
+            "t": 0.7875,
+            "theta": 1.5707963267948966,
+            "finite_count": 12288,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.27399999992814833,
+            "magnitude": 0.27399999992814833,
+            "t": 0.846,
+            "theta": 3.141592653589793,
+            "finite_count": 12288,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.10461116402183689,
+            "magnitude": 0.10461116402183689,
+            "t": 0.746,
+            "theta": 2.5034566458293663,
+            "finite_count": 12288,
+            "nonfinite_count": 0
+          }
+        },
+        "open_cap": {
+          "interval": [
+            0.846,
+            0.9
+          ],
+          "closed_sample_intervals_may_share_boundary_rows": true,
+          "radial_sample_count": 9,
+          "metric_operator_error": {
+            "value": 5.828259882277853e-10,
+            "magnitude": 5.828259882277853e-10,
+            "t": 0.8475,
+            "theta": 1.153553552490002,
+            "finite_count": 6912,
+            "nonfinite_count": 0
+          },
+          "E_minus_one": {
+            "value": 5.819345005875221e-10,
+            "magnitude": 5.819345005875221e-10,
+            "t": 0.8475,
+            "theta": 2.0534889480495786,
+            "finite_count": 6912,
+            "nonfinite_count": 0
+          },
+          "F_over_a": {
+            "value": -7.170169926545844e-11,
+            "magnitude": 7.170169926545844e-11,
+            "t": 0.8475,
+            "theta": 4.949644675577669,
+            "finite_count": 6912,
+            "nonfinite_count": 0
+          },
+          "principal_curvature_absolute": {
+            "value": 12.56982526985826,
+            "magnitude": 12.56982526985826,
+            "t": 0.846,
+            "theta": 0.3681553890925539,
+            "finite_count": 6912,
+            "nonfinite_count": 0
+          },
+          "area": {
+            "value": 0.2199999999999999,
+            "magnitude": 0.2199999999999999,
+            "t": 0.9,
+            "theta": 2.7325311101536225,
+            "finite_count": 6912,
+            "nonfinite_count": 0
+          },
+          "signed_side_height_minus_core_width": {
+            "value": 0.1192776720482319,
+            "magnitude": 0.1192776720482319,
+            "t": 0.846,
+            "theta": 0.0,
+            "finite_count": 6912,
+            "nonfinite_count": 0
+          }
+        }
+      },
+      "all_values_are_sampled_only": true
+    },
+    "height_conditions": {
+      "target_reach_exact": "61/1000",
+      "single_cap_height_evaluated": 0.14270420084310473,
+      "minimum_sampled_signed_side_height_minus_core_width": 0.0,
+      "signed_height_nonnegative_is_a_chosen_mirror_separation_condition_not_a_general_necessity": true,
+      "mirrored_held_flat_disks_normal_chord_upper_formula": "abs(h)",
+      "mirrored_held_disks_evaluated_normal_chord_upper": 0.14270420084310473,
+      "mirrored_held_disks_height_margin_to_target": 0.08170420084310473,
+      "core_minor_tangent_ball_witness_available": true,
+      "core_minor_tangent_ball_witness_definition": "p=(0,B,w), normal-center=(0,B-tau,w), q=(0,B-tau,h) in held disk",
+      "core_minor_tangent_ball_general_necessary_condition": "abs(h-core_half_width) >= tau",
+      "evaluated_core_minor_tangent_ball_general_margin": 0.061704200843104726,
+      "cap_is_at_or_above_core_top": true,
+      "necessary_upper_cap_height_condition_if_h_at_least_core_width_and_witness_available": "h >= core_half_width + tau",
+      "evaluated_upper_cap_height_margin": 0.061704200843104726,
+      "these_height_values_have_no_continuous_quadrature_error_bound": true,
+      "no_strict_reach_exclusion_or_embedding_certificate_claimed": true,
+      "polygon_vertex_witness": {
+        "core_point": "(0,B,w)",
+        "cap_point": "(0,R,h)",
+        "core_normal": "horizontal y direction",
+        "cap_normal": "vertical z direction",
+        "reason_cap_vertex_is_flat": "theta=pi/2 is a common vertex of the j*pi/3 six-cap pattern",
+        "B_exact": "7/25",
+        "R_exact": "137/500",
+        "horizontal_gap_exact": "3/500",
+        "normal_chord_upper_formula": "(d^2+(h-w)^2)/(2*max(d,abs(h-w)))",
+        "evaluated_normal_chord_upper": 0.06149879466572918,
+        "evaluated_upper_minus_target": 0.0004987946657291839
+      },
+      "standard_positive_upper_cap_necessary_height_formula": "1/50+(61/1000+sqrt(737/200000))",
+      "standard_positive_upper_cap_height_threshold_evaluated": 0.14170420084310476,
+      "height_threshold_branch_reason": "both normals exclude the small vertical root when d<tau",
+      "general_necessary_abs_height_gap_formula": "61/1000+sqrt(737/200000)",
+      "general_necessary_abs_height_gap_evaluated": 0.12170420084310475,
+      "general_abs_height_gap_margin_evaluated": 0.0009999999999999731,
+      "both_height_branches_before_assuming_positive_h": [
+        "h <= w-L",
+        "h >= w+L"
+      ],
+      "positive_h_forces_upper_branch_because_L_at_least_w": true,
+      "upper_branch_height_threshold_if_h_at_least_w": 0.14170420084310476,
+      "standard_positive_cap_height_margin_evaluated": 0.0009999999999999731,
+      "height_constraint_is_not_added_to_this_audit_only_objective": true,
+      "necessary_formulas_assume_a_complete_C2_embedding_with_reach_at_least_target": true,
+      "current_approximate_candidate_is_not_claimed_such_an_embedding": true,
+      "no_continuous_height_integral_bound_or_strict_reach_exclusion_claimed": true
+    },
+    "mirror_pair_samples": {
+      "same_material_coordinate_reflection_pair_normal_chord_upper": {
+        "value": 0.10105573106590054,
+        "magnitude": 0.10105573106590054,
+        "t": 0.391,
+        "theta": 3.141592653589793,
+        "finite_count": 118272,
+        "nonfinite_count": 4608
+      },
+      "zero_normal_z_pair_gives_no_finite_bound_count": 4608,
+      "nonregular_sample_count": 0,
+      "chosen_upper_branch_signed_height_minimum": {
+        "value": 0.02,
+        "magnitude": 0.02,
+        "t": 0.0,
+        "theta": 0.0,
+        "finite_count": 122880,
+        "nonfinite_count": 0
+      },
+      "normal_chord_target_evaluated": 0.061,
+      "formula": "abs(z)*norm(Xs cross T)/abs((Xs cross T)_z)",
+      "requires_distinct_mirrored_material_points_and_a_complete_embedding": true,
+      "noncentral_z_zero_points_would_be_coincident_under_this_mirror": true,
+      "positive_signed_z_is_the_selected_upper_branch_condition": true,
+      "sampled_diagnostic_not_a_continuous_reach_certificate": true
+    }
+  },
+  "same_parameter_Pi_refinement": {
+    "name": "one dense-mirror-minimax physical-best state, with saved raw auxiliary delta unchanged",
+    "same_canonical_state_and_exact_coefficients": true,
+    "physical_identity_sha256": "028c8954574251287035d2a6c255655050778b4d59e3b05de1086719b887df73",
+    "angular_nodes": [
+      384,
+      768
+    ],
+    "position_jet_differences": {
+      "X": 9.409588959670203e-09,
+      "Xs": 6.692596186110539e-06,
+      "Xt": 0.0,
+      "Xss": 0.006018556195810926,
+      "Xst": 0.0,
+      "Xtt": 0.0
+    },
+    "direct_metric_differences": {
+      "E_minus_one": 2.1129120935103884e-06,
+      "F_over_a": 1.2461963002892776e-07,
+      "metric_operator_error": 2.1025800356899715e-06
+    },
+    "center_height_difference": 0.0,
+    "center_speed_differences": {
+      "b": 0.0,
+      "b_s": 0.0,
+      "b_ss": 0.0
+    },
+    "same_state_objective_costs": [
+      {
+        "metric_only": 0.021152473304464438,
+        "ball_strip_only": 7.4786805536990395e-06,
+        "total": 0.021159951985018136
+      },
+      {
+        "metric_only": 0.02115247333749864,
+        "ball_strip_only": 7.478773573036768e-06,
+        "total": 0.02115995211107168
+      }
+    ],
+    "no_parameter_step_or_reoptimization_in_this_comparison": true,
+    "finite_evaluation_differences_are_not_error_enclosures": true,
+    "evaluation_before": {
+      "source_GH_order": 64,
+      "height_mean_angular_nodes": 384,
+      "height_primitive_GL_order": 8,
+      "height_primitive_fixed_partition_nodes": 140,
+      "height_primitive_partition_definition_sha256": "b16c95cc3fe0c4cc2bf401ab20449a3220480ca9b5f3f0174fa247fd477f7dae",
+      "full_evaluation_definition_sha256": "65803b60c3b767e6e889554b7bce4f888c23a288770170d162db28d499c7fe61"
+    },
+    "evaluation_after": {
+      "source_GH_order": 64,
+      "height_mean_angular_nodes": 384,
+      "height_primitive_GL_order": 8,
+      "height_primitive_fixed_partition_nodes": 140,
+      "height_primitive_partition_definition_sha256": "b16c95cc3fe0c4cc2bf401ab20449a3220480ca9b5f3f0174fa247fd477f7dae",
+      "full_evaluation_definition_sha256": "65803b60c3b767e6e889554b7bce4f888c23a288770170d162db28d499c7fe61"
+    }
+  },
+  "work_sampling_definition": {
+    "schema": "exact-source-work-fine-radial-union-objective-grid-v1",
+    "definition_sha256": "c661b4f896b1c2d6dc1b4a7ac3cf9d2990c10536168a940b0903ba06ae3f1052",
+    "old_work_radial_count": 100,
+    "old_fine_radial_count": 160,
+    "union_radial_count": 160,
+    "angular_nodes": 192
+  },
+  "fine_sampling_definition": {
+    "schema": "exact-source-work-fine-radial-union-objective-grid-v1",
+    "definition_sha256": "7f8a298d10af7457744c3d44a44f189eb44e1619bbe2abe2fc8e5616f6a8cce1",
+    "old_work_radial_count": 100,
+    "old_fine_radial_count": 160,
+    "union_radial_count": 160,
+    "angular_nodes": 384
+  },
+  "dense_epigraph_stage": {
+    "status": "epigraph-budget-exit",
+    "error": null,
+    "budget_message": "wall budget reached; previous independently eligible physical states retained",
+    "solver": {
+      "method": "SLSQP",
+      "minimize_invocation_count": 1,
+      "maxiter": 80,
+      "ftol": 1e-10,
+      "objective": "auxiliary_delta only",
+      "hard_constraint_groups": [
+        "original affine cap height",
+        "original physical coefficient bounds",
+        "delta lower bound",
+        "two direct-metric epigraph rows per point",
+        "current signed-z",
+        "current normalized ball",
+        "both current strip sides",
+        "current mirror-pair polynomial; independent direct-radius and regularity selection"
+      ],
+      "keep_feasible_not_passed_or_claimed": true,
+      "artificial_inputs_only": false,
+      "evaluate_only": false,
+      "numpy_version": "2.3.5",
+      "scipy_version": "1.17.0",
+      "initial_auxiliary_delta": 0.3677593598218209
+    },
+    "selected_point": "best_physical_max_eta_point; saved auxiliary failure remains separately visible",
+    "checkpoint": {
+      "physical_geometry_evaluations": 14,
+      "epigraph_vector_evaluations": 14,
+      "elapsed_seconds": 305.484746764,
+      "final_selection": "best_physical_max_eta_point",
+      "objective_evaluation_sha256": "7bc1cbf3a743f55781cf41e9730a7564ecebeb6723a60de1cd65f58c790845e1",
+      "maximum_geometry_cache_array_bytes": 249464600,
+      "maximum_single_constraint_Jacobian_bytes": 282132480,
+      "best_physical_max_eta_point": {
+        "physical_state_sha256": "028c8954574251287035d2a6c255655050778b4d59e3b05de1086719b887df73",
+        "auxiliary_delta_evaluated": 0.2659538765233066,
+        "record": {
+          "epigraph_evaluation": 14,
+          "physical_geometry_evaluation": 14,
+          "elapsed_seconds": 293.979107609,
+          "decision": {
+            "eligible_under_all_declared_sampled_constraints": false,
+            "cap_and_box": {
+              "eligible_under_declared_numerical_gate_tolerances": true,
+              "box_violation": 0.0,
+              "affine_height_evaluated": 0.14270420084310476,
+              "reconstructed_common_cap_height_evaluated": 0.14270420084310473,
+              "target_height_evaluated": 0.14270420084310476,
+              "affine_height_margin": 0.0,
+              "reconstructed_height_margin": -2.7755575615628914e-17,
+              "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+              "box_tolerance": 0.0,
+              "height_tolerance": 1e-09,
+              "height_reconstruction_consistency_tolerance": 1e-10,
+              "both_height_margins_nonnegative_in_current_arithmetic": false,
+              "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+            },
+            "auxiliary_delta": 0.2659538765233066,
+            "delta_min_exact": "1/100000000",
+            "delta_bound_pass": true,
+            "divided_metric_row_min": -2.90831777588485e-05,
+            "metric_row_tolerance": 1e-09,
+            "divided_metric_row_pass": false,
+            "direct_max_eta": 0.26598295970106545,
+            "direct_eta_tolerance": 1e-09,
+            "direct_eta_minus_delta": 2.90831777588485e-05,
+            "independent_direct_eta_pass": false,
+            "direct_max_eta_location": {
+              "t": 0.4725,
+              "theta": 0.0,
+              "E_minus_one": 0.26598295970106545,
+              "F_over_a": -1.4091154640052095e-15
+            },
+            "mean_squared_direct_metric_cost_diagnostic": 0.021152459990876827,
+            "minimum_signed_height": 0.02,
+            "signed_height_threshold_exact": "1/10000",
+            "signed_height_margin": 0.0199,
+            "signed_height_pass": true,
+            "hard_ball_radius_exact": "101/100",
+            "ball_radius_squared_normalized_max": 0.9905366221144891,
+            "hard_ball_pass": true,
+            "hard_strip_half_width_exact": "39/100",
+            "maximum_absolute_y": 0.3899999310163637,
+            "hard_strip_pass": true,
+            "unit_tangent_error_sample": 6.661338147750939e-16,
+            "first_order_normal_area_over_a_min_sample": 0.8567640067022666,
+            "auxiliary_delta_is_not_a_physical_parameter": true,
+            "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+            "eligible_under_original_physical_gate_groups": true,
+            "eligible_under_physical_gates_including_mirror": true,
+            "mirror_target_exact": "61/1000",
+            "mirror_polynomial_min": 0.0003999999999999999,
+            "mirror_polynomial_tolerance": 1e-12,
+            "mirror_polynomial_pass": true,
+            "direct_mirror_radius_min_finite": 0.10105572286990937,
+            "mirror_radius_tolerance": 1e-09,
+            "independent_direct_mirror_radius_pass": true,
+            "zero_normal_z_pairs_without_finite_upper_bound_count": 1152,
+            "regular_normal_area_floor": 1e-10,
+            "nonregular_sample_count": 0,
+            "regularity_screen_pass": true,
+            "auxiliary_delta_failure_does_not_erase_a_physically_eligible_trial": true,
+            "mirror_pair_screen_does_not_certify_whole_surface_reach": true
+          }
+        }
+      },
+      "best_eligible_direct_max_eta_point": {
+        "physical_state_sha256": "5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea",
+        "auxiliary_delta_evaluated": 0.3677593598218209,
+        "record": {
+          "epigraph_evaluation": 1,
+          "physical_geometry_evaluation": 1,
+          "elapsed_seconds": 159.63576284100003,
+          "decision": {
+            "eligible_under_all_declared_sampled_constraints": true,
+            "cap_and_box": {
+              "eligible_under_declared_numerical_gate_tolerances": true,
+              "box_violation": 0.0,
+              "affine_height_evaluated": 0.14270420087976415,
+              "reconstructed_common_cap_height_evaluated": 0.14270420087976413,
+              "target_height_evaluated": 0.14270420084310476,
+              "affine_height_margin": 3.6659397739668975e-11,
+              "reconstructed_height_margin": 3.665936998409336e-11,
+              "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+              "box_tolerance": 0.0,
+              "height_tolerance": 1e-09,
+              "height_reconstruction_consistency_tolerance": 1e-10,
+              "both_height_margins_nonnegative_in_current_arithmetic": true,
+              "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+            },
+            "auxiliary_delta": 0.3677593598218209,
+            "delta_min_exact": "1/100000000",
+            "delta_bound_pass": true,
+            "divided_metric_row_min": 1.3738287935006685e-06,
+            "metric_row_tolerance": 1e-09,
+            "divided_metric_row_pass": true,
+            "direct_max_eta": 0.3677579920638288,
+            "direct_eta_tolerance": 1e-09,
+            "direct_eta_minus_delta": -1.3677579920878813e-06,
+            "independent_direct_eta_pass": true,
+            "direct_max_eta_location": {
+              "t": 0.7875,
+              "theta": 4.843288674284264,
+              "E_minus_one": -0.3661256901085387,
+              "F_over_a": -0.0245008589547257
+            },
+            "mean_squared_direct_metric_cost_diagnostic": 0.02125344854647509,
+            "minimum_signed_height": 0.02,
+            "signed_height_threshold_exact": "1/10000",
+            "signed_height_margin": 0.0199,
+            "signed_height_pass": true,
+            "hard_ball_radius_exact": "101/100",
+            "ball_radius_squared_normalized_max": 0.9904611154488825,
+            "hard_ball_pass": true,
+            "hard_strip_half_width_exact": "39/100",
+            "maximum_absolute_y": 0.389999875032893,
+            "hard_strip_pass": true,
+            "unit_tangent_error_sample": 6.661338147750939e-16,
+            "first_order_normal_area_over_a_min_sample": 0.7957851580683959,
+            "auxiliary_delta_is_not_a_physical_parameter": true,
+            "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+            "eligible_under_original_physical_gate_groups": true,
+            "eligible_under_physical_gates_including_mirror": true,
+            "mirror_target_exact": "61/1000",
+            "mirror_polynomial_min": 0.0003999999999999999,
+            "mirror_polynomial_tolerance": 1e-12,
+            "mirror_polynomial_pass": true,
+            "direct_mirror_radius_min_finite": 0.10271189389572803,
+            "mirror_radius_tolerance": 1e-09,
+            "independent_direct_mirror_radius_pass": true,
+            "zero_normal_z_pairs_without_finite_upper_bound_count": 1152,
+            "regular_normal_area_floor": 1e-10,
+            "nonregular_sample_count": 0,
+            "regularity_screen_pass": true,
+            "auxiliary_delta_failure_does_not_erase_a_physically_eligible_trial": true,
+            "mirror_pair_screen_does_not_certify_whole_surface_reach": true
+          }
+        }
+      },
+      "best_eligible_auxiliary_delta_point": {
+        "physical_state_sha256": "5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea",
+        "auxiliary_delta_evaluated": 0.3677593598218209,
+        "record": {
+          "epigraph_evaluation": 1,
+          "physical_geometry_evaluation": 1,
+          "elapsed_seconds": 159.63576284100003,
+          "decision": {
+            "eligible_under_all_declared_sampled_constraints": true,
+            "cap_and_box": {
+              "eligible_under_declared_numerical_gate_tolerances": true,
+              "box_violation": 0.0,
+              "affine_height_evaluated": 0.14270420087976415,
+              "reconstructed_common_cap_height_evaluated": 0.14270420087976413,
+              "target_height_evaluated": 0.14270420084310476,
+              "affine_height_margin": 3.6659397739668975e-11,
+              "reconstructed_height_margin": 3.665936998409336e-11,
+              "reconstructed_minus_affine_height_absolute": 2.7755575615628914e-17,
+              "box_tolerance": 0.0,
+              "height_tolerance": 1e-09,
+              "height_reconstruction_consistency_tolerance": 1e-10,
+              "both_height_margins_nonnegative_in_current_arithmetic": true,
+              "gate_is_not_a_continuous_height_integral_or_reach_certificate": true
+            },
+            "auxiliary_delta": 0.3677593598218209,
+            "delta_min_exact": "1/100000000",
+            "delta_bound_pass": true,
+            "divided_metric_row_min": 1.3738287935006685e-06,
+            "metric_row_tolerance": 1e-09,
+            "divided_metric_row_pass": true,
+            "direct_max_eta": 0.3677579920638288,
+            "direct_eta_tolerance": 1e-09,
+            "direct_eta_minus_delta": -1.3677579920878813e-06,
+            "independent_direct_eta_pass": true,
+            "direct_max_eta_location": {
+              "t": 0.7875,
+              "theta": 4.843288674284264,
+              "E_minus_one": -0.3661256901085387,
+              "F_over_a": -0.0245008589547257
+            },
+            "mean_squared_direct_metric_cost_diagnostic": 0.02125344854647509,
+            "minimum_signed_height": 0.02,
+            "signed_height_threshold_exact": "1/10000",
+            "signed_height_margin": 0.0199,
+            "signed_height_pass": true,
+            "hard_ball_radius_exact": "101/100",
+            "ball_radius_squared_normalized_max": 0.9904611154488825,
+            "hard_ball_pass": true,
+            "hard_strip_half_width_exact": "39/100",
+            "maximum_absolute_y": 0.389999875032893,
+            "hard_strip_pass": true,
+            "unit_tangent_error_sample": 6.661338147750939e-16,
+            "first_order_normal_area_over_a_min_sample": 0.7957851580683959,
+            "auxiliary_delta_is_not_a_physical_parameter": true,
+            "finite_constraints_do_not_certify_continuous_metric_shape_embedding_or_reach": true,
+            "eligible_under_original_physical_gate_groups": true,
+            "eligible_under_physical_gates_including_mirror": true,
+            "mirror_target_exact": "61/1000",
+            "mirror_polynomial_min": 0.0003999999999999999,
+            "mirror_polynomial_tolerance": 1e-12,
+            "mirror_polynomial_pass": true,
+            "direct_mirror_radius_min_finite": 0.10271189389572803,
+            "mirror_radius_tolerance": 1e-09,
+            "independent_direct_mirror_radius_pass": true,
+            "zero_normal_z_pairs_without_finite_upper_bound_count": 1152,
+            "regular_normal_area_floor": 1e-10,
+            "nonregular_sample_count": 0,
+            "regularity_screen_pass": true,
+            "auxiliary_delta_failure_does_not_erase_a_physically_eligible_trial": true,
+            "mirror_pair_screen_does_not_certify_whole_surface_reach": true
+          }
+        }
+      }
+    }
+  },
+  "full_report": {
+    "path": "/home/runner/work/_temp/visible-new-mechanism/metric_epigraph_dense/metric-epigraph-dense-mirror-audit.json",
+    "bytes": 1706835,
+    "sha256": "51f00f616c667bddd418371ed8230c902112dda4e7f6d33ea9b81b1ac34a396e"
+  },
+  "sampled_only": true,
+  "task_complete": false,
+  "no_whole_reach_or_curvature_certificate": true,
+  "old_underestimated_delta_and_original_run_acceptance_not_rewritten": true
+}
