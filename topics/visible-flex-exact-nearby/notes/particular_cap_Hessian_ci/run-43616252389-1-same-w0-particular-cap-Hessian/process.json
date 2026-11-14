@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_same_w0_particular_cap_Hessian_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43616252389",
   "run_attempt": "1",
@@ -58,6 +58,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T16:36:12.876812+00:00",
+      "before": "35f7133acc50006ea7745c2cb4dbc637307008ed",
+      "after": "5fd683323dea40a4400fdb3437a990838762bd17",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -65,6 +73,11 @@
       "time": "2026-11-14T16:34:43.539698+00:00",
       "final": false,
       "commit": "50d47849e612b510b106b33a0eb382b4abea5440"
+    },
+    {
+      "time": "2026-11-14T16:36:12.332485+00:00",
+      "final": false,
+      "commit": "5fd683323dea40a4400fdb3437a990838762bd17"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -97,7 +110,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "35f7133acc50006ea7745c2cb4dbc637307008ed",
+  "last_read_commit": "5fd683323dea40a4400fdb3437a990838762bd17",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-particular-Hessian-work/science",
   "original_prepared_bundle_sha256": "0d417ea1da798b8d268fe17eccfb25884e98cf6de71aaaa0b261dfae0faafa70",
   "all_original_large_array_bytes_verified": true,
@@ -109,9 +122,21 @@
     "local": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd",
     "old-hessian": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26"
   },
-  "snapshot_utc": "2026-11-14T16:36:10.153401+00:00",
-  "wall_seconds": 92.05765000000002,
+  "snapshot_utc": "2026-11-14T16:36:12.905441+00:00",
+  "wall_seconds": 94.809707377,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-child-outcome.json",
+      "file": "evidence/actual-latest-child-outcome.json",
+      "bytes": 1505,
+      "sha256": "862ded5cced8f244fd359446b63ace5ebeb44406563234bf5c8fdb28f3b1c3df"
+    },
+    {
+      "logical_file": "evidence/complete-same-w0-particular-cap-Hessian-summary.json",
+      "file": "evidence/complete-same-w0-particular-cap-Hessian-summary.json",
+      "bytes": 11597,
+      "sha256": "25a788b030b7082f98b1a1f29dfca40f4e0a838627b30f7965695614a926fe14"
+    },
     {
       "logical_file": "evidence/original-prepared-manifest.json",
       "file": "evidence/original-prepared-manifest.json",
@@ -130,5 +155,22 @@
       "bytes": 1550110,
       "sha256": "9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650"
     }
-  ]
+  ],
+  "complete_native_sha256": "9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650",
+  "actual_scientific_gates": 10,
+  "actual_complete_local_rows": 1341,
+  "actual_complete_intersections": 1977,
+  "actual_new_local_rows_in_this_child": 1341,
+  "actual_new_intersections_in_this_child": 1977,
+  "additive_same_w0_actual_moving_cap_error": {
+    "ball": "[1.0334847707018127284748691138224024814037482465353464796710559036163001036398447e-5 +/- 3.66e-85]",
+    "lower": "[1.0334847707018127284748691138224024814037482465353464796710559036163001036398447e-5 +/- 3.66e-85]",
+    "upper": "[1.0334847707018127284748691138224024814037482465353464796710559036163001036398447e-5 +/- 3.66e-85]"
+  },
+  "original97_HS_additive_times_same_w0_norm": {
+    "ball": "[1.3727406548679165433765049471534355954736910436457098291445066001585469684870442e-5 +/- 1.63e-85]",
+    "lower": "[1.3727406548679165433765049471534355954736910436457098291445066001585469684870442e-5 +/- 1.63e-85]",
+    "upper": "[1.3727406548679165433765049471534355954736910436457098291445066001585469684870442e-5 +/- 1.63e-85]"
+  },
+  "finished_utc": "2026-11-14T16:36:12.469906+00:00"
 }
