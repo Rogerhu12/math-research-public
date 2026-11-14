@@ -159,7 +159,8 @@ $$
 $$
 A strictly positive speed alone does not imply (A.9).
 
-For every real $M>0$, define a **new single full-interval reference**
+For the continuous frequency range $M\ge4$, which contains every actual
+nonzero physical mode $M=4|j|$, define a **new single full-interval reference**
 on $[r_*,R]$:
 $$
 \begin{split}
