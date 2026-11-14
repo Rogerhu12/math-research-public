@@ -1,0 +1,50 @@
+{
+  "kind": "actual_public_negative_old_mean_compression_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43652283078",
+  "run_attempt": "1",
+  "workflow_commit": "39619eb4f5ca828774d97815c99f046916e9156a",
+  "worker_sha256": "0b56afc204ff55094b71be75eb929ec88d25e49f39f5f16f37fead5d1ba95111",
+  "manifest_sha256": "3a107f5b268af999f336dd8efa7bef0ef4769c05c741aafd3c04de65b49e7204",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T23:15:43.391607+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-14T23:15:43.783100+00:00",
+      "before": "dc995ef46692ab152d5a825db858d41eb258e5d0",
+      "after": "dc995ef46692ab152d5a825db858d41eb258e5d0",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:16:03.531400+00:00",
+      "before": "dc995ef46692ab152d5a825db858d41eb258e5d0",
+      "after": "dc995ef46692ab152d5a825db858d41eb258e5d0",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-negative-old-mean-compression-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_negative_old_mean_compression_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-negative-old-mean-compression-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-negative-old-mean-compression-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-negative-old-mean-compression-CI-inputs.json",
+    "--manifest-sha",
+    "3a107f5b268af999f336dd8efa7bef0ef4769c05c741aafd3c04de65b49e7204",
+    "--out-dir",
+    "/__w/_temp/visible-exact-negative-old-mean-compression-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-negative-old-mean-compression-science/originals"
+  ],
+  "complete_original_inputs_verified": 28,
+  "actual_scientific_checkout_commit": "dc995ef46692ab152d5a825db858d41eb258e5d0",
+  "mathematical_wall_seconds": 19.406983311999994
+}
