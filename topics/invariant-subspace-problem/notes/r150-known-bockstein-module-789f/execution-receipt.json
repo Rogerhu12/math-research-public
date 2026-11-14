@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "exitCode": 0,
+  "command": [
+    "timeout",
+    "--kill-after=10s",
+    "60s",
+    "prlimit",
+    "--as=536870912",
+    "--core=0",
+    "--",
+    "python3",
+    "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-known-bockstein-module-and-h-correction-789f.py",
+    "--notes",
+    "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+    "--results",
+    "/tmp/isp-high-kernel-bockstein-43605503242/results",
+    "--out",
+    "/tmp/isp-known-bockstein-module-789f"
+  ],
+  "secondsLimit": 60,
+  "addressSpaceMiBLimit": 512,
+  "elapsedSeconds": 0.8062328739979421,
+  "sourceSHA256": "10eb6fb0ace3b4599e15bdb511165ce1924a1a8c8f5081bf799136ba79173cae",
+  "resultSHA256": "d5ce008439820c4ed9ff33f58ca33267f4e3badf429ab581311818d1fb5b3a76"
+}

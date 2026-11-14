@@ -1,0 +1,491 @@
+{
+  "format": "r150-known-bockstein-polynomial-module-and-common-h-v1",
+  "status": "completed",
+  "field": 31,
+  "sourceSHA256": "10eb6fb0ace3b4599e15bdb511165ce1924a1a8c8f5081bf799136ba79173cae",
+  "stateSHA256": "06bfc5632e0485221587ede871b99bf89eb2efa3cde209458a749b6787f1cfaf",
+  "baseColumnsSHA256": "9d5e8398f8bd586a1c91eaa5ab93868c9ec1d813c40c7131152d866c287d2b95",
+  "originalB85SystemSHA256": "b46b9f338f961c33d528651c515fec1335943417574f8b83dd942407b87e7ef2",
+  "stateReaderSHA256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+  "all200BaseColumnsRetained": true,
+  "nonzeroBaseColumnsOneBased": [
+    199,
+    200
+  ],
+  "twoUnknownCost86KernelsIncluded": false,
+  "finite_budget_verified": false,
+  "minimumPolynomials": [
+    {
+      "baseColumn": 199,
+      "originalLabel": [
+        2192,
+        2275,
+        85,
+        1241,
+        3485
+      ],
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315RelationZero": true,
+      "initialKrylovColumnsIndependent": true
+    },
+    {
+      "baseColumn": 200,
+      "originalLabel": [
+        2193,
+        2276,
+        85,
+        1242,
+        3497
+      ],
+      "degree": 2,
+      "coefficientsAscending": [
+        2,
+        28,
+        1
+      ],
+      "unit": 1,
+      "factors": [
+        {
+          "coefficientsAscending": [
+            29,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        },
+        {
+          "coefficientsAscending": [
+            30,
+            1
+          ],
+          "exponent": 1,
+          "degree": 1
+        }
+      ],
+      "full315RelationZero": true,
+      "initialKrylovColumnsIndependent": true
+    }
+  ],
+  "wholePolynomialModuleDimension": 2,
+  "basisDescriptors": [
+    [
+      199,
+      2275,
+      0,
+      85
+    ],
+    [
+      200,
+      2276,
+      0,
+      85
+    ]
+  ],
+  "all632KrylovColumnsVerified": true,
+  "full315JInvarianceVerified": true,
+  "originalResidualsInKnownPolynomialImage": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "commonHCorrection": {
+    "coefficientRank": 24,
+    "augmentedRank": 24,
+    "compatible": true,
+    "solution": [
+      0,
+      0,
+      0,
+      4,
+      3,
+      30,
+      22,
+      18,
+      22,
+      28,
+      28,
+      20,
+      23,
+      17,
+      30,
+      0,
+      9,
+      9,
+      1,
+      29,
+      23,
+      17,
+      18,
+      21
+    ],
+    "fullVectorIdentity": true,
+    "unknowns": 24,
+    "equations": 2817,
+    "allPolynomialCorrectionsReduceModuloH31": true,
+    "kernelModuleBasisCoefficients": [
+      [
+        2,
+        23,
+        3,
+        6,
+        7,
+        19,
+        24,
+        2,
+        14
+      ],
+      [
+        3,
+        22,
+        14,
+        20,
+        15,
+        28,
+        11,
+        18,
+        7
+      ]
+    ],
+    "full315OriginalIdentity": true
+  },
+  "individualHCorrections": [
+    {
+      "target": 2,
+      "coefficientRank": 24,
+      "augmentedRank": 24,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        4,
+        3,
+        30,
+        22,
+        18,
+        22,
+        28,
+        28,
+        20,
+        23,
+        17,
+        30,
+        0,
+        9,
+        9,
+        1,
+        29,
+        23,
+        17,
+        18,
+        21
+      ],
+      "fullVectorIdentity": true
+    },
+    {
+      "target": 3,
+      "coefficientRank": 24,
+      "augmentedRank": 24,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        4,
+        3,
+        30,
+        22,
+        18,
+        22,
+        28,
+        28,
+        20,
+        23,
+        17,
+        30,
+        0,
+        9,
+        9,
+        1,
+        29,
+        23,
+        17,
+        18,
+        21
+      ],
+      "fullVectorIdentity": true
+    },
+    {
+      "target": 4,
+      "coefficientRank": 23,
+      "augmentedRank": 23,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        27,
+        24,
+        25,
+        3,
+        16,
+        25,
+        28,
+        0,
+        11,
+        19,
+        2,
+        3,
+        3,
+        25,
+        16,
+        15,
+        17,
+        25,
+        8,
+        21,
+        0
+      ],
+      "fullVectorIdentity": true
+    },
+    {
+      "target": 5,
+      "coefficientRank": 24,
+      "augmentedRank": 24,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        4,
+        3,
+        30,
+        22,
+        18,
+        22,
+        28,
+        28,
+        20,
+        23,
+        17,
+        30,
+        0,
+        9,
+        9,
+        1,
+        29,
+        23,
+        17,
+        18,
+        21
+      ],
+      "fullVectorIdentity": true
+    },
+    {
+      "target": 6,
+      "coefficientRank": 24,
+      "augmentedRank": 24,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        4,
+        3,
+        30,
+        22,
+        18,
+        22,
+        28,
+        28,
+        20,
+        23,
+        17,
+        30,
+        0,
+        9,
+        9,
+        1,
+        29,
+        23,
+        17,
+        18,
+        21
+      ],
+      "fullVectorIdentity": true
+    },
+    {
+      "target": 7,
+      "coefficientRank": 24,
+      "augmentedRank": 24,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        4,
+        3,
+        30,
+        22,
+        18,
+        22,
+        28,
+        28,
+        20,
+        23,
+        17,
+        30,
+        0,
+        9,
+        9,
+        1,
+        29,
+        23,
+        17,
+        18,
+        21
+      ],
+      "fullVectorIdentity": true
+    },
+    {
+      "target": 8,
+      "coefficientRank": 24,
+      "augmentedRank": 24,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        4,
+        3,
+        30,
+        22,
+        18,
+        22,
+        28,
+        28,
+        20,
+        23,
+        17,
+        30,
+        0,
+        9,
+        9,
+        1,
+        29,
+        23,
+        17,
+        18,
+        21
+      ],
+      "fullVectorIdentity": true
+    },
+    {
+      "target": 9,
+      "coefficientRank": 24,
+      "augmentedRank": 24,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        4,
+        3,
+        30,
+        22,
+        18,
+        22,
+        28,
+        28,
+        20,
+        23,
+        17,
+        30,
+        0,
+        9,
+        9,
+        1,
+        29,
+        23,
+        17,
+        18,
+        21
+      ],
+      "fullVectorIdentity": true
+    },
+    {
+      "target": 10,
+      "coefficientRank": 23,
+      "augmentedRank": 23,
+      "compatible": true,
+      "solution": [
+        0,
+        0,
+        0,
+        27,
+        24,
+        25,
+        3,
+        16,
+        25,
+        28,
+        0,
+        11,
+        19,
+        2,
+        3,
+        3,
+        25,
+        16,
+        15,
+        17,
+        25,
+        8,
+        21,
+        0
+      ],
+      "fullVectorIdentity": true
+    }
+  ],
+  "pythonFlintVersion": "0.9.0",
+  "flintVersion": "3.6.0",
+  "system": {
+    "file": "/tmp/isp-known-bockstein-module-789f/complete-known-bockstein-module-system.bin.gz",
+    "bytes": 77772,
+    "sha256": "8a2f3eab9ffc0fff1f0882b26598968689b31571bc2c7c48f968acf549f571c6",
+    "gzipBytes": 8403,
+    "gzipSHA256": "c9f2bab1847d007ccbaa74543ed932682663bfd5174626f0a93b55cad1481e45"
+  },
+  "elapsedSeconds": 0.6864671600051224,
+  "scope": "All polynomial multiples of the200 computed original kernel Bocksteins are included via their full315-dimensional J-invariant span. The two original cost86 kernel rows are not computed and are not silently set to zero. Common scalar changes h0+31g reduce modulo the actual h31 target annihilator. Any positive infinite-module result still requires an original finite-cost source identity."
+}
