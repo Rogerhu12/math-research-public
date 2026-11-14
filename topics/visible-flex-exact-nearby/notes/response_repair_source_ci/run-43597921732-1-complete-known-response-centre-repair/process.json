@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_complete_known_response_centre_repair_source_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43597921732",
   "run_attempt": "1",
@@ -109,6 +109,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T13:06:20.578943+00:00",
+      "before": "6644131cdeff73b4f36f6b04fd928d3fd241a6f0",
+      "after": "a16d223d18a23eeabdadf81fac7ccbb1c1e48c10",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -116,6 +124,11 @@
       "time": "2026-11-14T13:05:35.182382+00:00",
       "final": false,
       "commit": "1f00227d3f8a5eca0f187209719505e27032fce4"
+    },
+    {
+      "time": "2026-11-14T13:06:19.996136+00:00",
+      "final": false,
+      "commit": "a16d223d18a23eeabdadf81fac7ccbb1c1e48c10"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -152,14 +165,20 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "6644131cdeff73b4f36f6b04fd928d3fd241a6f0",
+  "last_read_commit": "a16d223d18a23eeabdadf81fac7ccbb1c1e48c10",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-response-repair-work/science",
   "original_complete_40_parts_and_7721_rows_verified": true,
   "original_prepared_bundle_sha256": "fd7594990ecc126e63a79198e00bbaf5912537ff1db480ade8ac82ff8917c893",
   "original_complete_body_mean_process_sha256": "0a5dc06520bad5a1230b65cba6e895e998e1f3ce6a32a65d9ffa8800b8ea1a9e",
-  "snapshot_utc": "2026-11-14T13:06:16.493176+00:00",
-  "wall_seconds": 47.221439071999995,
+  "snapshot_utc": "2026-11-14T13:06:21.087120+00:00",
+  "wall_seconds": 51.81538489299999,
   "native_files": [
+    {
+      "logical_file": "evidence/complete-known-response-centre-repair-source-summary.json",
+      "file": "evidence/complete-known-response-centre-repair-source-summary.json",
+      "bytes": 18829,
+      "sha256": "7c43eeed609006195893d6ceee5003887e533ac6222515171d27b624e47115ec"
+    },
     {
       "logical_file": "evidence/original-complete-body-mean-process.json",
       "file": "evidence/original-complete-body-mean-process.json",
@@ -281,5 +300,43 @@
       "sha256": "05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4",
       "parts": 4
     }
-  ]
+  ],
+  "complete_native_sha256": "05e0493dbe55490adec8fb6603e0ec431d1bc03f051aec86be8a78741f60f0a4",
+  "actual_original_common_rows_consumed": 7721,
+  "complete_repair_source_L2_radial": {
+    "delta_operator": {
+      "ball": "[4.9995488626353756405811223849499393322393962180900814911915411990456190599351477e-16 +/- 1.79e-96]",
+      "lower": "[4.9995488626353756405811223849499393322393962180900814911915411990456190599351477e-16 +/- 1.79e-96]",
+      "upper": "[4.9995488626353756405811223849499393322393962180900814911915411990456190599351477e-16 +/- 1.79e-96]"
+    },
+    "delta_parameter": {
+      "ball": "[1.1737867297287044459177634982592860636323536333542480039504878383922342607032719e-16 +/- 1.11e-97]",
+      "lower": "[1.1737867297287044459177634982592860636323536333542480039504878383922342607032719e-16 +/- 1.11e-97]",
+      "upper": "[1.1737867297287044459177634982592860636323536333542480039504878383922342607032719e-16 +/- 1.11e-97]"
+    },
+    "complete_repair": {
+      "ball": "[5.5972813575184650608097283077146968804162290156479279148666506220905198459566702e-16 +/- 4.55e-96]",
+      "lower": "[5.5972813575184650608097283077146968804162290156479279148666506220905198459566702e-16 +/- 4.55e-96]",
+      "upper": "[5.5972813575184650608097283077146968804162290156479279148666506220905198459566702e-16 +/- 4.55e-96]"
+    }
+  },
+  "complete_repaired_response_residual_L2_radial": {
+    "L2": {
+      "ball": "[0.0012840696797762805932304755129580250336745777710870898862692644822142316455308964 +/- 4.26e-83]",
+      "lower": "[0.0012840696797762805932304755129580250336745777710870898862692644822142316455308964 +/- 4.26e-83]",
+      "upper": "[0.0012840696797762805932304755129580250336745777710870898862692644822142316455308964 +/- 4.26e-83]"
+    },
+    "H_one_third": {
+      "ball": "[0.011057020099385893892464907970093064803993299659353560028109751197451177959703536 +/- 2.08e-83]",
+      "lower": "[0.011057020099385893892464907970093064803993299659353560028109751197451177959703536 +/- 2.08e-83]",
+      "upper": "[0.011057020099385893892464907970093064803993299659353560028109751197451177959703536 +/- 2.08e-83]"
+    },
+    "H1": {
+      "ball": "[0.82101337140589251255232236880565118327512470766085645906196324215310196069984117 +/- 2.49e-81]",
+      "lower": "[0.82101337140589251255232236880565118327512470766085645906196324215310196069984117 +/- 2.49e-81]",
+      "upper": "[0.82101337140589251255232236880565118327512470766085645906196324215310196069984117 +/- 2.49e-81]"
+    }
+  },
+  "full_high_input_feedback_and_true_regular_boundary_fees_still_required": true,
+  "finished_utc": "2026-11-14T13:06:20.294500+00:00"
 }
