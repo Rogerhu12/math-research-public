@@ -1,0 +1,286 @@
+{
+  "schema": "Gaussian-six-cap-frame-development-v1",
+  "checks": [
+    {
+      "side": 1,
+      "unknowns": 22,
+      "full_parameter_Jacobian_relative_error": 3.3950712118692096e-09,
+      "independent_objective_cost_difference": 0.0,
+      "same_prefix_replay": {
+        "source_replayed_on_the_new_grid": true,
+        "prefix_last_sample": 0.934,
+        "compact_support_start": 0.934,
+        "prefix_position_jet_and_R_differences": {
+          "X": 0.0,
+          "Xs": 0.0,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0,
+          "R": 0.0
+        },
+        "metric_evaluation_bitwise": true,
+        "metric_full_identity_equal": true,
+        "free_coefficients_initially_bitwise_equal": true,
+        "new_tail_field_not_claimed_equal_to_old_on_the_patch": true,
+        "finite_replay_not_a_continuous_certificate": true
+      },
+      "GH_evaluation_comparison": {
+        "GH_orders": [
+          16,
+          32
+        ],
+        "all_full_physical_identities_and_exact_coefficients_equal": true,
+        "identity_bundle_sha256": "480579754ba6ae7cca5bfec30804ca26a8bf309ee611f379a430bbbb5a32cc52",
+        "radial_nodes": 9,
+        "angular_nodes": 24,
+        "radial_center_quadrature_order": 3,
+        "only_GH_evaluation_order_changed": true,
+        "objective_costs_at_the_same_fixed_coefficients_and_grid": [
+          0.3439707006002036,
+          0.3439707008393287
+        ],
+        "patch_scalar_jet_max_differences": {
+          "value": 2.1505897507267946e-07,
+          "s": 2.2430071909364246e-05,
+          "ss": 0.00029696910318932623,
+          "theta": 1.4929128709951014e-05,
+          "st": 0.0016735234243399066,
+          "ss_theta": 0.056363233591440576
+        },
+        "whole_grid_position_jet_and_R_differences": {
+          "X": 1.9997418226587572e-09,
+          "Xs": 1.596003247195961e-07,
+          "Xt": 5.194758257309714e-09,
+          "Xss": 5.785526078502339e-06,
+          "Xst": 5.29454544534784e-07,
+          "Xtt": 5.2645144498849135e-06,
+          "R": 3.415774049294258e-06
+        },
+        "patch_rows": [
+          {
+            "t": 0.934,
+            "delta": 0.09999999999999998,
+            "first_scalar_jet_difference": 0.0,
+            "ss_scalar_difference": 0.0,
+            "R_difference": 0.0
+          },
+          {
+            "t": 0.9673333333333334,
+            "delta": 0.06666666666666665,
+            "first_scalar_jet_difference": 2.2430071909364246e-05,
+            "ss_scalar_difference": 0.00029696910318932623,
+            "R_difference": 3.415774049294258e-06
+          },
+          {
+            "t": 1.0006666666666666,
+            "delta": 0.03333333333333344,
+            "first_scalar_jet_difference": 1.947808526048169e-08,
+            "ss_scalar_difference": 7.73185369834506e-06,
+            "R_difference": 1.0005397630206708e-09
+          },
+          {
+            "t": 1.034,
+            "delta": 0.0,
+            "first_scalar_jet_difference": 0.0,
+            "ss_scalar_difference": 0.0,
+            "R_difference": 0.0
+          }
+        ],
+        "differences_are_not_continuous_error_bounds": true,
+        "GH_cost_difference_is_not_optimization_improvement": true
+      },
+      "row_chunking_fixed_query_difference": 1.9099388737231493e-11,
+      "position_two_jet_endpoint_errors": {
+        "core": {
+          "X": 1.6693244404564211e-06,
+          "Xs": 0.0,
+          "Xt": 4.335559509131367e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 4.47545209131181e-16
+        },
+        "tail": {
+          "X": 1.457167719820518e-16,
+          "Xs": 6.863365126944042e-16,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0
+        }
+      },
+      "core_Pi_angle_refinement": [
+        {
+          "angular_nodes": 24,
+          "core_X_error": 1.6693244404564211e-06,
+          "same_core_same_field_coefficients_no_reoptimization": true,
+          "no_heat_extension_evaluated_at_the_core": true
+        },
+        {
+          "angular_nodes": 48,
+          "core_X_error": 3.6584624219859855e-11,
+          "same_core_same_field_coefficients_no_reoptimization": true,
+          "no_heat_extension_evaluated_at_the_core": true
+        },
+        {
+          "angular_nodes": 96,
+          "core_X_error": 2.7018723498128807e-14,
+          "same_core_same_field_coefficients_no_reoptimization": true,
+          "no_heat_extension_evaluated_at_the_core": true
+        }
+      ],
+      "tail_R_max_sample": 1.6410337382425186e-16,
+      "model_hash_independent_of_GH_order": true
+    },
+    {
+      "side": -1,
+      "unknowns": 22,
+      "full_parameter_Jacobian_relative_error": 2.3952690129234193e-09,
+      "independent_objective_cost_difference": 0.0,
+      "same_prefix_replay": {
+        "source_replayed_on_the_new_grid": true,
+        "prefix_last_sample": 0.934,
+        "compact_support_start": 0.934,
+        "prefix_position_jet_and_R_differences": {
+          "X": 0.0,
+          "Xs": 0.0,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0,
+          "R": 0.0
+        },
+        "metric_evaluation_bitwise": true,
+        "metric_full_identity_equal": true,
+        "free_coefficients_initially_bitwise_equal": true,
+        "new_tail_field_not_claimed_equal_to_old_on_the_patch": true,
+        "finite_replay_not_a_continuous_certificate": true
+      },
+      "GH_evaluation_comparison": {
+        "GH_orders": [
+          16,
+          32
+        ],
+        "all_full_physical_identities_and_exact_coefficients_equal": true,
+        "identity_bundle_sha256": "d0033be74b9453b75db6ecb9710e76c90cdba171f0b06735a7128d7030d688ce",
+        "radial_nodes": 9,
+        "angular_nodes": 24,
+        "radial_center_quadrature_order": 3,
+        "only_GH_evaluation_order_changed": true,
+        "objective_costs_at_the_same_fixed_coefficients_and_grid": [
+          0.3437330704341509,
+          0.34373307052603636
+        ],
+        "patch_scalar_jet_max_differences": {
+          "value": 2.1505897507267946e-07,
+          "s": 2.2430071909357308e-05,
+          "ss": 0.00029696910318932623,
+          "theta": 1.4929128709951014e-05,
+          "st": 0.0016735234243399066,
+          "ss_theta": 0.056363233591440576
+        },
+        "whole_grid_position_jet_and_R_differences": {
+          "X": 1.9997414440765084e-09,
+          "Xs": 1.5960034763683906e-07,
+          "Xt": 5.194758225515217e-09,
+          "Xss": 5.785535480607684e-06,
+          "Xst": 5.294545381434582e-07,
+          "Xtt": 5.26451442740866e-06,
+          "R": 3.4157731123364816e-06
+        },
+        "patch_rows": [
+          {
+            "t": 0.934,
+            "delta": 0.09999999999999998,
+            "first_scalar_jet_difference": 0.0,
+            "ss_scalar_difference": 0.0,
+            "R_difference": 0.0
+          },
+          {
+            "t": 0.9673333333333334,
+            "delta": 0.06666666666666665,
+            "first_scalar_jet_difference": 2.2430071909357308e-05,
+            "ss_scalar_difference": 0.00029696910318932623,
+            "R_difference": 3.4157731123364816e-06
+          },
+          {
+            "t": 1.0006666666666666,
+            "delta": 0.03333333333333344,
+            "first_scalar_jet_difference": 1.9478085260454586e-08,
+            "ss_scalar_difference": 7.73185369834506e-06,
+            "R_difference": 1.0005397631073345e-09
+          },
+          {
+            "t": 1.034,
+            "delta": 0.0,
+            "first_scalar_jet_difference": 0.0,
+            "ss_scalar_difference": 0.0,
+            "R_difference": 0.0
+          }
+        ],
+        "differences_are_not_continuous_error_bounds": true,
+        "GH_cost_difference_is_not_optimization_improvement": true
+      },
+      "row_chunking_fixed_query_difference": 1.9099388737231493e-11,
+      "position_two_jet_endpoint_errors": {
+        "core": {
+          "X": 1.6693244404564211e-06,
+          "Xs": 0.0,
+          "Xt": 4.335559509131367e-16,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 4.47545209131181e-16
+        },
+        "tail": {
+          "X": 1.457167719820518e-16,
+          "Xs": 6.863365126944042e-16,
+          "Xt": 0.0,
+          "Xss": 0.0,
+          "Xst": 0.0,
+          "Xtt": 0.0
+        }
+      },
+      "core_Pi_angle_refinement": [
+        {
+          "angular_nodes": 24,
+          "core_X_error": 1.6693244404564211e-06,
+          "same_core_same_field_coefficients_no_reoptimization": true,
+          "no_heat_extension_evaluated_at_the_core": true
+        },
+        {
+          "angular_nodes": 48,
+          "core_X_error": 3.6584624219859855e-11,
+          "same_core_same_field_coefficients_no_reoptimization": true,
+          "no_heat_extension_evaluated_at_the_core": true
+        },
+        {
+          "angular_nodes": 96,
+          "core_X_error": 2.7018723498128807e-14,
+          "same_core_same_field_coefficients_no_reoptimization": true,
+          "no_heat_extension_evaluated_at_the_core": true
+        }
+      ],
+      "tail_R_max_sample": 1.6410337382425186e-16,
+      "model_hash_independent_of_GH_order": true
+    }
+  ],
+  "passed": true,
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "passed_does_not_certify_GH_accuracy_or_geometric_feasibility": true,
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "ellipse_frame_port.py": "4371f3d816c913b0e7a34f5568672f8f318fd3a923c83e3b28e3ec731c67689b",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_collar_enriched.py": "1b2557048c8b02b75201d151bf3ceb89d046734f93a9195bfe283c620a10f028",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa",
+    "frame_collar_bent_tail.py": "b62725bb7e82349306dd041f59529d54f32e7bea8c5cca413b3a27b515ffe6ab",
+    "polygonal_flat_tail_port.py": "3870844de95284c570839f489a6c6be74c825cbf6631d21684ff4374cae78797",
+    "frame_collar_polygonal.py": "56a4013f78aa120bb2eaa17e430c6212f4af808fb7e87951a26164129bc0aaaa",
+    "polygonal_tail_heat_extension.py": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+    "frame_collar_polygonal_heat.py": "15dec10f4adbe5f7adce7f0a6f3abbfbfbe0fcdf14d52f1d08272cb1246a209f"
+  },
+  "model_variant_label": "raw-reflection-Gaussian"
+}

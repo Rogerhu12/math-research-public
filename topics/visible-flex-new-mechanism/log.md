@@ -359,3 +359,7 @@ run43611706012/source13ba4296的71源/1输出全字节SHA核同，775B输出同�
 ## 2026-11-14 15:54 UTC — R52 真重叠完整三阶正向构造
 
 even flat bump乘四维偶多项式，以I0/I2准确广义谱构造等长正交f/g，含全部谱退化情形；任意O2换基后仍在同一开稠密集重叠。三矩及三交叉矩支付Hd/Hc两个二阶解，局部化八packet七差分同时消四条third ruling，倒行消四period。正确Ztheta=sin²theta Zd−cos theta sin theta Zc，给同一指定g的完整三阶Oepsilon4；四阶仍欠，不把复平方当正模平方。 root核四维准确谱选择退化分支、支撑不可旋回、双二阶极化与共同锚、四third通道的局部化/平移次数和全period。没有把离散特征向量或真实profile积分当精确定义，也无本地研究计算。R50排除范围不直接覆盖这个新平面，但未宣称四阶可过。
+
+## 2026-11-14 15:56 UTC — 冻结并部署唯一饱和热六帽case
+
+六个独立源码及六份人工check、四份实现说明归档。旧七模块字节不改；原反射/raw热版只供复核，唯一实际入口frame_collar_polygonal_saturated_heat.py显式factory选R51有界源。root全文/source独立审全部链式、13源码身份、真实g/c0回放、双工程门、一次solve、同参数最终加密及16384点分行；所有人工check的来源SHA逐件核同。全Jac最差3.37e−9、端口1.82e−12、前缀/分块差0；人工核心24角X差1.6693e−6完整保留，48/96降3.6585e−11/2.7019e−14；高阶GH不利差未隐去。共享workflow只加ellipse_saturated_heat lane（40min step/50min job），先4项人工复核和原输入SHA门，再真实case；request只有这一lane。真实评价/优化仅公开Actions，成功与完成均待实际证据。
