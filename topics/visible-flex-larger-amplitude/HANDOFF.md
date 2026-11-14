@@ -43,4 +43,4 @@ R241完整参数块门同时排自交/瓶颈，给reach。v2真实D+=3.980751407
 逐结论普通push并保持本H最新；取回包有失败仍保原日志。request02/run43584222071三lane均已完成、产物已原bot发布。request03已设仅geometry的q4余空间对；fullDN改3个控制均置非轴prefix内以去掉全圆coast的不可观测方向，并补原RMS的两个Lobatto点域预检；原690各node/全部模/真正tail/原门保留，不原样重跑失败初猜。新真实coupled field后做完整六jet/实际角谱/C²闭组装/大幅见证/全t覆盖；设计定型才固定同g精化。任何分项完成继续open下一项。
 原publisher缺identity已修；遇README变动正确退出保artifact，由root读差异后归档。公开源仅78实际消费件，逐件匹配原91清单SHA（12未迁移MD+1未用client排除），只取公开repo，无私仓secret。临时传输分支仅上传本题大blob帮助繁忙main普通rebase推送，成功主线含全部数据，禁止force。
 
-规则同步记录：2026-11-14T10:24:44.528338+00:00 实际pull --rebase成功；双README自0248503无变化，已读提交 dce9b8f50cf3b7df4ba5f9daaee14a8fb5c56d74。
+规则同步记录：2026-11-14T10:27:19.819042+00:00 实际pull --rebase成功；双README自3725b8e无变化，已读提交 7cb71093f8adc954aafeafb1ae40f18f91abd4c5。
