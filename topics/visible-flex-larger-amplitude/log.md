@@ -396,3 +396,7 @@ R240的四个独立入口已接：只接受真实完整parent/final-audit/config
 ### 2026-11-14 11:31 UTC — actual T112 full zero tail passed and genuine M112 coupled solve requested
 
 公开run43588155190/tailzero112真success：1351.741789s、resid/fullD0、metric9.992e−16，全338×112 J/577×224state/raw/full audit。strict源/config/Node/capacity与实际prepare112全同；J-second相对1.524e−12，ready对真J差.035157884。request10只触发coupling112，复用真699/FD/自己新锚直接原QR，任何新H和最终audit仍真求；同时接v4完整saved_prefix物理API，原finite闭面不会冒精确反射C²。
+
+### 2026-11-14 11:34 UTC — bind complete T112 evidence and observe actual M112 mainline run
+
+T112实际13件已bot归档；详记七件strict缓存SHA、全部跨job源/配置/ready/capacity同一性、真实J差及trace condition3.85639e20，不以零残差冒非零尾稳定。request10已实际启动run43590496434/sourceeef66c97，直接原fullDN；接下来看真实QR/linear residual/Newton接受，而非准备或代理。
