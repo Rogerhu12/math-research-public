@@ -1,0 +1,99 @@
+﻿2026-11-14T12:49:34.1934823Z Current runner version: '2.338.2'
+2026-11-14T12:49:34.1952711Z ##[group]Runner Image Provisioner
+2026-11-14T12:49:34.1953262Z Hosted Compute Agent
+2026-11-14T12:49:34.1953644Z Version: 20261103.629
+2026-11-14T12:49:34.1954007Z Commit: 15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc
+2026-11-14T12:49:34.1954454Z Build Date: 2026-11-03T17:26:59Z
+2026-11-14T12:49:34.1954973Z Worker ID: {1d10fcfa-7ac7-48f6-9cfc-5d961de73604}
+2026-11-14T12:49:34.1955362Z Region: westus3
+2026-11-14T12:49:34.1955751Z Cloud: Azure
+2026-11-14T12:49:34.1956086Z ##[endgroup]
+2026-11-14T12:49:34.1956891Z ##[group]Operating System
+2026-11-14T12:49:34.1957244Z Ubuntu
+2026-11-14T12:49:34.1957532Z 26.04.1
+2026-11-14T12:49:34.1957897Z LTS
+2026-11-14T12:49:34.1958194Z ##[endgroup]
+2026-11-14T12:49:34.1958529Z ##[group]Runner Image
+2026-11-14T12:49:34.1958875Z Image: ubuntu-26.04
+2026-11-14T12:49:34.1959200Z Version: 20261111.196.1
+2026-11-14T12:49:34.1959978Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261111.196/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-14T12:49:34.1960810Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261111.196
+2026-11-14T12:49:34.1961348Z ##[endgroup]
+2026-11-14T12:49:34.1962032Z ##[group]GITHUB_TOKEN Permissions
+2026-11-14T12:49:34.1963299Z Contents: read
+2026-11-14T12:49:34.1963626Z Metadata: read
+2026-11-14T12:49:34.1964012Z ##[endgroup]
+2026-11-14T12:49:34.1965457Z Secret source: Actions
+2026-11-14T12:49:34.1966043Z Cache mode: write
+2026-11-14T12:49:34.1966443Z Prepare workflow directory
+2026-11-14T12:49:34.2159790Z Prepare all required actions
+2026-11-14T12:49:34.2220797Z Complete job name: original-certificate
+2026-11-14T12:49:34.2893238Z ##[group]Run set -euo pipefail
+2026-11-14T12:49:34.2893727Z [36;1mset -euo pipefail[0m
+2026-11-14T12:49:34.2894150Z [36;1mgit init source[0m
+2026-11-14T12:49:34.2894740Z [36;1mcd source[0m
+2026-11-14T12:49:34.2895255Z [36;1mgit remote add origin https://github.com/Rogerhu12/math-research-public.git[0m
+2026-11-14T12:49:34.2895988Z [36;1mgit -c protocol.version=2 fetch --filter=blob:none --depth=1 origin "$GITHUB_SHA"[0m
+2026-11-14T12:49:34.2896553Z [36;1mgit sparse-checkout init --cone[0m
+2026-11-14T12:49:34.2897075Z [36;1mgit sparse-checkout set topics/rank2-sha-infinitely-many-p/scripts[0m
+2026-11-14T12:49:34.2897603Z [36;1mgit checkout --detach FETCH_HEAD[0m
+2026-11-14T12:49:34.2898012Z [36;1mtest "$(git rev-parse HEAD)" = "$GITHUB_SHA"[0m
+2026-11-14T12:49:34.3554866Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-14T12:49:34.3555912Z ##[endgroup]
+2026-11-14T12:49:34.3828631Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-14T12:49:34.3829278Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-14T12:49:34.3829920Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-14T12:49:34.3830376Z hint: call:
+2026-11-14T12:49:34.3830656Z hint:
+2026-11-14T12:49:34.3831059Z hint: 	git config --global init.defaultBranch <name>
+2026-11-14T12:49:34.3831486Z hint:
+2026-11-14T12:49:34.3831912Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-14T12:49:34.3832471Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-14T12:49:34.3832924Z hint:
+2026-11-14T12:49:34.3903738Z hint: 	git branch -m <name>
+2026-11-14T12:49:34.3904197Z hint:
+2026-11-14T12:49:34.3904805Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-14T12:49:34.3905894Z Initialized empty Git repository in /home/runner/work/math-research-public/math-research-public/source/.git/
+2026-11-14T12:49:35.2398376Z From https://github.com/Rogerhu12/math-research-public
+2026-11-14T12:49:35.2399541Z  * branch            1dafbfa774b9232c561b48def4d8a61d2117837c -> FETCH_HEAD
+2026-11-14T12:49:37.0176079Z HEAD is now at 1dafbfa rank2: recover original R502 certificate with public Actions
+2026-11-14T12:49:37.0287701Z ##[group]Run set -euo pipefail
+2026-11-14T12:49:37.0288073Z [36;1mset -euo pipefail[0m
+2026-11-14T12:49:37.0288351Z [36;1mpython3 topics/rank2-sha-infinitely-many-p/scripts/check-r502-full-low-ell-bockstein.py[0m
+2026-11-14T12:49:37.0328524Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-11-14T12:49:37.0328753Z ##[endgroup]
+2026-11-14T12:49:37.0944211Z {
+2026-11-14T12:49:37.0944996Z   "certificate_identity": "reconstructed_after_workspace_disconnect",
+2026-11-14T12:49:37.0945453Z   "p": 239,
+2026-11-14T12:49:37.0945665Z   "s": 40,
+2026-11-14T12:49:37.0945901Z   "ell": 1,
+2026-11-14T12:49:37.0946104Z   "D": 40,
+2026-11-14T12:49:37.0946316Z   "charges": [
+2026-11-14T12:49:37.0946481Z     37,
+2026-11-14T12:49:37.0946609Z     38,
+2026-11-14T12:49:37.0946737Z     39,
+2026-11-14T12:49:37.0946882Z     40
+2026-11-14T12:49:37.0947038Z   ],
+2026-11-14T12:49:37.0947188Z   "r": 10,
+2026-11-14T12:49:37.0947330Z   "h": 15,
+2026-11-14T12:49:37.0947459Z   "k": 0,
+2026-11-14T12:49:37.0947718Z   "source_quotient_degrees": [
+2026-11-14T12:49:37.0947901Z     46,
+2026-11-14T12:49:37.0948028Z     32,
+2026-11-14T12:49:37.0948164Z     15,
+2026-11-14T12:49:37.0948293Z     2
+2026-11-14T12:49:37.0948423Z   ],
+2026-11-14T12:49:37.0948587Z   "relative_rows_checked": 81,
+2026-11-14T12:49:37.0948790Z   "actual_xi_t1": 175,
+2026-11-14T12:49:37.0948948Z   "live_V1_first_row": 70,
+2026-11-14T12:49:37.0949108Z   "live_V1_first_coefficient": 55,
+2026-11-14T12:49:37.0949336Z   "third_block_constant": 40,
+2026-11-14T12:49:37.0949517Z   "raw_zeta3_nonzero_mod_p": true,
+2026-11-14T12:49:37.0949693Z   "raw_zeta4_zero_mod_p": true,
+2026-11-14T12:49:37.0949862Z   "raw_zeta6_zero_mod_p2": true,
+2026-11-14T12:49:37.0950034Z   "full_physical_Q_unit_checked": true,
+2026-11-14T12:49:37.0950211Z   "prime_scan": false,
+2026-11-14T12:49:37.0950372Z   "central_zero_or_nonzero_claim": false
+2026-11-14T12:49:37.0950539Z }
+2026-11-14T12:49:37.0950858Z R502 reconstructed certificate PASS: all 81 actual relative Bockstein rows, live V1, raw normal terms, and full Q-unit transport
+2026-11-14T12:49:37.1043025Z Cleaning up orphan processes
