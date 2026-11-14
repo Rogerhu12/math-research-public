@@ -225,3 +225,6 @@ RK24完整八级与三整闭mesh七命令均真exit0，global metric4.7703317350
 
 ### 2026-11-14T08:26:13+00:00 — sourcecusp (local; public approval pending)
 真实原stage28源knot以25 RK步加入，8.73s退出0、端点差4.97e−14、旧4609节点不变；stage27局部metric2.6729e−8→4.2003e−9。仅局部改善，不冒全域或更高阶求解。
+
+### 2026-11-14T08:26:13+00:00 — regionalmetric (local; public approval pending)
+全区域真实289.59s退出0，patch4.77033e−8、未patch/bare tail2.67290e−8；浮点快速读数对原longdouble抽点差1.4934e−16。原prefix容差1e−7与尾2e−9明确分区，后续保持原longdouble六jet比较。
