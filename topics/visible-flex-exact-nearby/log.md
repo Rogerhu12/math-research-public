@@ -127,3 +127,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:29:07 UTC — 大根区 Cauchy 原分片完成语义修复
 
 43620358162 child1，前三输入门通过但0条commonrow完成；失败native `8cbc844f80334327f6750c0c00c82c769e5d9b1c792222d44f67a9bc9332245f` 原样保留。亲读原 correlated producer 和独立 body finish：旧分片仅 `selected_cells_complete=True`，全7721格 `complete=False` 是正确语义。新读取器严格要求此值、failure=None；整个原identity和6片SHA逐字不变，不改变任何数学公式。source `3a93e68fd688b7bd7e0d7ad6eaf941b098d1eba845b09a9b0ace01cabbb99850` / 16pin manifest `d6dc0d86940d3a9e899ff965fcdd2298daaf1b581d06f354b7f1e6c26a92d105`，公开Actions重新运行只补从未执行的新标量行。
+
+### 2026-11-14 17:32:44 UTC — residual-split Hessian 合同与公开消费器
+
+根完整读 source17533B、合同8427B、CI10540B、flow6658B及164pin；tail独核H1–8及三原joint producer通过。156旧pin逐项0改；新source a8b1a68d…、manifest a3b144b5…，只下载两个既有Hessian artifacts，0target/array重算。公开工作流启实际1341 scalar消费；短child前后真pull、长10min checkpoint、失败和完整native全保。H原9774B归档后更新；另43621351216首row K_r门实失败/0row，root正在补正确非单调能量费用，不把失败算通过。

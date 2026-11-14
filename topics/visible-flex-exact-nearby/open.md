@@ -83,3 +83,7 @@ root负责全δ根图/科学核对/发布；newton负责同Z全源/真帽边界/
 ### 已核固定参数 pilot；接全父格四分（2026-11-14）
 
 公开运行 43619535345 实际通过 6 门，336 个新域完整；仅 16 父格细分后，所有 1977 父格仍按完整八源表示整组选择、保留六端点和十四增益，物理帽误差上界为 $1.508953388222\,10^{-6}$。径向细分是主要改进来源；固定参数本身改善很小。接着计算其余 1961 父格的四分域，原已成 64 个 quarter 原字节复用。见 [实际 pilot](results/R133-supplement-actual-fixed-eta-physical-cap-coefficient-pilot.md)。这还不是 moving Hessian、完整有限响应或无限逆。
+
+### 接实际 Hessian 残差导数分部（2026-11-14）
+
+H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\mu_h)$，三项 mean、完整物理模块与四源逐格整组选择保留。原 raw residual 的 joint Fourier 系数界已追到原 producer；repair 保守加全193槽费，composition 用单一合法非负凸弦。164 pin public consumer 只消费1341已成 t/tθ/module 行，不重做 target/array/旧试验。待实际加性界，不能先报改进。见 [合同](notes/2026-11-14-R133-residual-split-cap-Hessian-contract.md)。

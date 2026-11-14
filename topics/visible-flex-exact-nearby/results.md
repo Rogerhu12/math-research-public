@@ -381,3 +381,7 @@
 ### 固定参数物理帽 pilot 实际完成
 
 公开 43619535345 / 6 门 / 443.609966474 秒，native `b5a157d4005eb4aad1c536512c4ea5dcb431e90d09c4b05f324db5cf09203138`。336 新域（16 父格各 1、4、16 分）给完整 1977 父格物理上界 $1.508953388222\,10^{-6}$，完整 direct 基线为 $2.418183101946\,10^{-6}$；八源表示整组选择且所有边界源保留。原数组、target 和已成父域未重算。证明/实际摘要见 [报告](results/R133-supplement-actual-fixed-eta-physical-cap-coefficient-pilot.md)。
+
+### 残差角导移入 divergence 的完整 Hessian 表示
+
+[H.1–8 合同](notes/2026-11-14-R133-residual-split-cap-Hessian-contract.md) 给同一个完整 $w_0$ 的另一四源表示，保全部 mean 与完整修复差。joint 范数语义由三份原 producer 独核，且只在完整有效加性界之间取小者；沿径向更换该 angular-divergence 表示不产生新径向 jump。数值 consumer 及164文件清单已部署，实际尺寸未先宣称。
