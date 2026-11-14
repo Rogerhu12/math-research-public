@@ -379,3 +379,7 @@ root已全文读 fc676d548e889f83bade6a34e1dbda855c257bc4（17683B，SHA5b26a62f
 ### 2026-11-14 20:59:00 UTC — 新固定stop简单根A1–28完成
 
 root全文核新根半盘/Airy能量/混频及源，phase亲核CK、Piola与两mean、真实t方向。以tail原稿9b2b4cd615153469d4027963553b62ea92ee9ba7为底，仅明确真实参数圆盘的Cauchy费q!r_p^-q（原句半径未显写）；最终SHA c8deba8e612c0aa9646f8113af0c214ae27ca0879931214eb05947bd772ab574。重新支付b>2^28、B0半盘、V0<1、混频差和正逆端口，没有转授旧特殊根native。完整新外DN/Γ联合选择/强闭合仍在进行。
+
+### 2026-11-14 20:59:28 UTC — 正高两种输出actual逐项核实并独推
+
+run43639514776 child0/11科学门；science30.811261698s、wrapper35.001307279s。root全文核报告6555B及process13346B，核summary35088B全部门/七列/两独立窗/真cut和4次真pull（README差异均空，至a62b45b24db9925f136b288481b257ab4fea8839）。native54b3940463e8efca02c136fdb2fc5bd2a0ff8a7f57b604db86ba67cec620e6b2；processcecc2d2e703d849f8c216303a7010befa71a0e9d2c81b0cb57c7af417fe7aad1；summary8fdca559e91e67f11e864ddb4fab02c48a383f6be292070e3ff9a538e5f941d5。已付列是upper，不证明真实反馈大；有限193门与全无限门的区别保留。

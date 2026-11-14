@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 20:59:00 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 20:59:28 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步、可恢复记录
 
 仅 Rogerhu12/math-research-public；新数学只用该仓库Actions。每结论独推；非FF立即真pull --rebase再推，禁force。root管main/H/open/results/log，代理交小文本。PAT只瞬时CLI/env，禁文件/输出/提交/connector。
 最后成功真pull：12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145。12:35终端失联；最近真pull尝试2026-11-14 20:56:00 UTC仍No usable execution environment。至少每小时重试，非FF即时重试。规则8暂用connector传<100KB文本，先核size，任何binary/gzip禁取；摘要≤60KB。API不是pull，终端恢复即回git。
-最新远端 main/两README blob 核：21b9de5a5c2e28c00272694312c1b8d50a184b8e；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：da346d172715761d7da23da84c92d97a92b438de；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 runner长算10min真pull，phase child45/outer50min前后真pull；每次核两README差异并保实录。失联checkout /workspace/scratch/0df957a82d09/math-research-public，真实/tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 原9601B H完整存 notes/2026-11-14-handoff-before-auxiliary-root-domain.md，旧9967B H/40283B open见 notes/2026-11-14-handoff-before-infinite-cap-and-return.md、notes/2026-11-14-open-before-infinite-cap-and-return.md；更早档案链在旧H。旧94540B results逐链接平移归档 notes/2026-11-14-results-before-infinite-cap-and-return.md；现索引保152旧入口。所有原native/失败/身份见档案、actual报告与manifest。成功数学不重算，出版失败不等于数学失败。
 
@@ -24,7 +24,7 @@ finiteL²43633074696/9门 nativeac4441cb…18075636B，6391signedGram/5970接口
 weighted body43637596465 child0/13门/288.202510s；7721新交叉费、两12361扫，6391Gram/exp复用。175pin nativea12fd95f…20999028B/11片，process887fac3e…14348B/summaryfb7ac727…26724B；G_L A_LH全L²<2884413.051957、负窗<1351427.386989。只是粗upper，不证反馈大。M32 cross仅high97..160↔low33..96，全低mean保留。
 newton继续保33..96/128输入列的双端矩阵Green/controllability。43601964129的5971 Q锚非全传播子；43601964129旧5970范数证书每格存完整 exact_new_reference_definition，可0旧target重算重建同A_ref，既成粗G_L支付新缺陷/边界。run43588509643的916MB artifact可用；先结构/误差pilot。
 完整帽P1–19已推768f1f11，results/R133-supplement-full-frequency-moving-cap-boundary-and-Poisson-interface.md：全频 h1+S(HB−KB P⊥HC)h2、−m^-2Π0h2−K0P⊥HC h2；S=v·composition、奇h1系数I。物理全逆ad6efc2a…、repair共轭35db98d4…、Hessian bf42a295…都保。有限97矩阵528e2f47…不授任意high输入；独立高迹/mean不置0，body L²不控制截面迹。
-正高双输出193pin已推a8351952；sourcef12f2ee1…/manifestc15abff3…，旧175+87pin不改，只新增两加权source扫/真cut迹。输出内bodyL²与cutC0；输入保两独立head/mean/弱源。newton查actual。
+正高双输出43639514776 child0/11门/30.811262s，193pin旧4650行0重算，新4651权重格+双扫。真cut even重构<.595330881947；内head→内bodyL²<226.101680824/→cut<111.623062290，外帽独立列<69.241039838/<34.183279287。root stable/原7源/mean齐。native54b39404…3715980B，processcecc2d2e…13346B/summary8fdca559…35088B；4真pull至a62b45b2…空diff。actual报告R133-supplement-actual-positive-high-inner-body-and-cut-trace.md；仍非全Schur。
 
 ## root/phase：Airy与全高模
 
