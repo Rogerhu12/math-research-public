@@ -8,7 +8,48 @@
   "workflow_commit": "750cf9d22358bb8cf47cd1cb46ac1b2094885fd2",
   "worker_source_sha256": "9733869ca3ad7e8645a31a5d622222ccd5fe52da9d82d9f3eaa29a27a8e4b6f4",
   "started_utc": "2026-11-14T19:06:30.860514+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_same_Z_quarter_Hessian_cut_and_positive_profile_reweight",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-quarter-Green-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_quarter_Hessian_cached_Green.py",
+        "--out",
+        "/__w/_temp/visible-exact-quarter-Green-output/native/complete-same-Z-quarter-Hessian-cut-and-Green.json.gz",
+        "--green-run",
+        "43616648792",
+        "--cut-run",
+        "43615251195",
+        "--hessian-run",
+        "43628443697",
+        "--quarter-run",
+        "43626024582",
+        "--same-z-green",
+        "/__w/_temp/visible-exact-quarter-Green-original/native/complete-finite193-same-Z-known-source-Green.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-quarter-Green-original/process.json",
+        "--cut-source",
+        "/__w/_temp/visible-exact-quarter-Green-cut/native/complete1977-cut-direction-and-same-Z-sources.json.gz",
+        "--cut-process",
+        "/__w/_temp/visible-exact-quarter-Green-cut/process.json",
+        "--particular-hessian",
+        "/__w/_temp/visible-exact-quarter-Green-Hessian/native/complete-cached-quarter-centre-residual-Hessian.json.gz",
+        "--hessian-process",
+        "/__w/_temp/visible-exact-quarter-Green-Hessian/process.json",
+        "--quarter",
+        "/__w/_temp/visible-exact-quarter-Green-physical/visible-exact-quarter-inlet-recovery-finish-43626024582-1/native/complete1977-fixed-eta-quarter-cap-sources.json.gz",
+        "--quarter-process",
+        "/__w/_temp/visible-exact-quarter-Green-physical/visible-exact-quarter-inlet-recovery-finish-43626024582-1/process.json",
+        "--cut",
+        "/__w/_temp/visible-exact-quarter-Green-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-moving-cap-cut-boundary-v2-native.json.gz"
+      ],
+      "started_utc": "2026-11-14T19:06:35.154492+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 10.000683515999995,
+      "finished_utc": "2026-11-14T19:06:45.155828+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T19:06:31.982796+00:00",
@@ -25,9 +66,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T19:06:46.040748+00:00",
+      "before": "6e1b3ab9504d302965075e4ca660a9f24f9c83cb",
+      "after": "1619e9199003d141437e141d07190df5203a23dc",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T19:06:35.152410+00:00",
+      "final": false,
+      "commit": "5653af6fde41b5c1aef412f6178f90feb60144da"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -60,7 +115,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "6e1b3ab9504d302965075e4ca660a9f24f9c83cb",
+  "last_read_commit": "1619e9199003d141437e141d07190df5203a23dc",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-quarter-Green-work/science",
   "actual_input_sha256": {
     "same-z-green": "eb34e2506c1cda9c1f53b4ef44605d02034e0cddf3feef44593edd635506bb18",
@@ -73,8 +128,8 @@
     "quarter-process": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a",
     "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba"
   },
-  "snapshot_utc": "2026-11-14T19:06:33.759905+00:00",
-  "wall_seconds": 2.8999385320000073,
+  "snapshot_utc": "2026-11-14T19:06:46.103970+00:00",
+  "wall_seconds": 15.244007368000013,
   "native_files": [
     {
       "logical_file": "evidence/original-cut-process.json",
@@ -99,6 +154,12 @@
       "file": "evidence/original-quarter-process.json",
       "bytes": 16508,
       "sha256": "ed384e247e771fa6062dbeafa825b3d11d6b370624b79f8ba5fb70260302a28a"
+    },
+    {
+      "logical_file": "native/complete-same-Z-quarter-Hessian-cut-and-Green.json.gz",
+      "file": "native/complete-same-Z-quarter-Hessian-cut-and-Green.json.gz",
+      "bytes": 3992860,
+      "sha256": "ff1982291b6c00cf0c05ff033efd6591752279089d2b37133a35056a65c020bd"
     }
   ]
 }
