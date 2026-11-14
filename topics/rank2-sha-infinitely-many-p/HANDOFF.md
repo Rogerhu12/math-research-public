@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：9fff5a8cb297375a95f87b18649b35637b333f72；2026-11-14 20:11:04 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：05ca5a96481d7d5fefa9c553df5e5fc4e7fb42ab；2026-11-14 20:17:57 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；19:48:33 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟20:48重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,14 +14,14 @@
 
 ## 发布、归档、当前分工
 
-R1–363、R365–560、R562–573、R575、R577已登记；R364仍开，R561/574/576/578/579进行中。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r575.md)、[open](notes/2026-11-14-open-before-r575.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–573、R575、R577–578已登记；R364仍开，R561/574/576/579/580进行中。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r578.md)、[open](notes/2026-11-14-open-before-r578.md)，沿归档链保全部旧条件；压缩不关闭任何问题。编号/标题见results.md及notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b保持，不复跑。
 root统一元数据/ref，代理只建proof/script/data blobs，结论随成随推。
 
 - theta续R576同一原arith测试与R572简单极点单位行的混合补偿；R572全C来源/真实五变量arith式已付。
 - literature续R579原指定两负矩/完整arith及多坐标实际格；R575七塔独立/全普通Dirac缺陷已付，不预支全饱和或惰性预算。
-- deep续R578实际临界支全来源jet像与forcing/d2；R577真整提升和完整p³已付，R561实际非零仍开。
+- deep续R580实际全双jet forcing/d2及七塔惰性连接；R577/578真整临界基准/全低边界消元已付，R561实际非零仍开。
 - root续R574整个uunit补项与原算术总行；R571已付全部cd共同深度、双sigma首项和整尾，仍不由局部非零排中央零。
 
 ## 完成标准及旧支线
@@ -52,7 +52,7 @@ R572：完整(c,v,Z,Q,r,d)框架Gram(1,3,6,2,1,1)，v=δC；µ0=σc⊗(BvΛB+σv
 
 ## 固定负矩与 Cartier
 
-R533/554两负矩同域差及全S6双核保K/四伴随；R540/549完整Schwartz/有限角色/普通地点/周期及Cartier上尾按原文保。147个首层点只是有限证据，p61首层零不等p进零。R562四unit(I4,J)=O与反对称杀P只对独立伴随，原混Y/W条件未付。
+R533/554/540/549原负矩接口、全Schwartz/周期/普通地点及所有伴随保持前检；有限点不证无穷，原中央比较仍缺。
 
 [pairedV](notes/2026-11-14-paired-verschiebung-cartier-checkpoint.md)：同一r/N/M、两微分方程、规范Cartier-zero和deck相位；目标最高A4/h、A1/h4未证联合非零，十二jet不传播全纤维。
 R565完整V差/deck相位、wholeC12非零双线性行及Frob根按正文保持；该配对看不见R4最高Frobenius项，不能代两指定负矩。
@@ -71,4 +71,4 @@ R552的完整forcing商、上层共同核、活f2/同R/低右逆高尾与两13ca
 
 [低ell最近二支](notes/2026-11-14-deep-low-ell-visible-kernel-and-two-nearest-branches.md)：原K1(M)实际carry可见迫1≤r≤ν≤2，T=s−13−r,U=ν−r∈{0,1}；p>101有T>3U。H<2T−U时近二支disc阶H−U、几何δ=floor((H−U)/2)+2U；U1保光滑外支及交数2。高接触只给≥s−13−ν，不赋全局平方/立方、新预算列或实际forcing非零。
 
-R577：低ell1/2、Pbar∈kerJ、r=ν≤2时，将真实E P的全十九角因子按R491整提升，再用正权1/n积分及原常权得到同一W_D中Pcrit；其整临界支上E Pcrit=0，B=E²Pcrit=t^r unit。h≥s−r付整个原JA为该支三法向jet。实际首forcing=(πA/p,π(aBξ+S A),aπell S(Bη0))；可解 iff落该全来源像。完整p³保第二块最后r行Bη0²/Cη0²ξ和第三块S²A/S²(Bη0²)/Cη0ξ；同一个R给26carry和d2。U1非单位临界支不套用，未赋forcing非零。
+R577/578：低ell1/2、Pbar∈kerJ、r=ν≤2的同预算Euler临界真整提升及全部JA三法向jet已付。首forcing=(πA/p,π(aBξ+S A),aπell S(Bη0))。用原n0/1/2列整消低r边界，核精确为W_D^(r)加r2时≤4条Qn、ell1时再Qquad；不只计维数。完整首forcing iff余下两条长度s−13−r的G_P落同一Dψ像。固定Rbd只由carry α/β给出；所有解临界支pp(v)=pp(α/(aB))、次临界值pp=−½pp(α²/(a²B))，不代d2非零。R577完整p³的二次高尾、同一个R/26carry/原U0全保；r1ν2外支不套用。

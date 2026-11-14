@@ -164,9 +164,9 @@ R560完整π5、两个不交strip、全部Y/W对数和S14第六质量校正按[�
 
 [R562](results/R562-original-four-unit-domain-and-negative-two-unit-relation.md)已逐项支付σc/Bv两个深补集，给真实四线单位域J与I4的(I4,J)=O；同时用该域的c反对称测试严格杀另一个P核。**待做：** 由原S/T或R560同一七条件源条带合法控制J，保Y/W、全部R/T伴随及完整物理转置。I4∈p迫J单位不等于已证I4非零，也不能把依赖H/K的原中央权冒认独立伴随。
 
-### R563：同一双unit域的两个完整互补行
+### R563：完整三态及两个native补域
 
-[R563](results/R563-original-s24-three-state-and-native-unit-complement.md)已付整个S24三态、完整连续逆及真实Cunit交叉消失，把原native行准确分成D12unit·UKf和D12deep·UHf。浅环带只有指定第j项，深尾/常数质量与K侧p^r首项全部保。**待做：** 两条同域真实测试与原S/T、R562固定四unit行的合法比较，不能延旧gluing/−Rc至µ−，不能删独立原Y/W或额外伴随cut；原两零中央仅替换所显示的第一列完整补域。
+原S24三态、D12偶深、UK/UH连续单位逆及全部浅环带/深尾/常数质量保[完整前检](notes/2026-11-14-open-before-r578.md)。**待做：** 同一原S/T与四unit行的合法测试比较；不延旧gluing至µ−，不删混Y/W和原伴随。
 
 ### 一般二重接触与实际首像尾带
 
@@ -180,13 +180,13 @@ R560完整π5、两个不交strip、全部Y/W对数和S14第六质量校正按[�
 
 [Bertrand与2026年11月新稿核对](notes/2026-11-14-deep-bertrand-and-new-rank-two-heegner-hypotheses.md)记录单点高度非零与rank2行列式的量词差别，以及2611.09192的Sha有限/c2非零前提。**待做：** 原完整中央非零或R418全量词饱和jet改善；不从这些条件身份填补缺项。
 
-### R566：两个完整native补域回原五观察
+### R566：三态两个完整补域
 
-[R566：完整第三态十四度核与原两补域的五观察返回](results/R566-original-third-state-fourteen-core-and-native-complements.md)：原整数D14/2K/Q1008完整frame付全部三态wholeS14及β；完整K单位逆把两native补域分别准确回原π5的14X−E unit/deep，第三态整条消去且原两strip/全部log质量保留。 **待做：** 对14X−E两互补域内的同一真实P·log行继续原算术比较；二者各自βn比例不付非零或分别零。三态已准确消去，原Y/W、所有伴随cut、七条件源及质量校正不得省略。
+三态D14全β、完整K单位逆与H̄ unit/deep两π5补域全部保[完整前检](notes/2026-11-14-open-before-r578.md)。**待做：** 两真实P·log行与原中央的合法比较，βn比例不赋各自零/非零；七条件源和全部质量修正保持。
 
-### R565：真实非零Cartier双线性行及其精确边界
+### R565：原Cartier双线性行的边界
 
-[R565：原V完整差、deck相位及非零Cartier双线性行](results/R565-original-paired-v-lame-and-nonzero-cartier-bilinear-row.md)：真实zV=r4yNx、QV完整多项式及全étale相位/gcd已付；同ray的完整十二度Cartier输出h²(x6+20x3+10)/18最高为单位，b17保全部Frob根。该非线性行不等两指定负矩乘积，且分部配对看不见R4最高Frobenius项。 **待做：** 同一规范Cartier-zero条件与真正非exact配对如何控制R549两个指定最高系数；保原r/N/M、全部deck相位、两处归一和p进矩，不把微分前gcd穿过高阶D，也不由双线性非零直接赋原I4/I1非零。
+完整V/deck/gcd、非零C12输出及b17 Frob根保[完整前检](notes/2026-11-14-open-before-r578.md)。**待做：** 规范Cartier-zero与两指定最高线性值；双线性配对不读取最高Frobenius项，不能代原I4/I1非零。
 
 ### R567：两完整条带的同一首层与五sigma消元
 
@@ -237,3 +237,8 @@ ell≥3、后三尾在原kerJ上被真首像吸收时，完整C1剪切保持同�
 ### R575：七个固定原函数及两个原负矩缺陷
 
 [R575：固定原函数七塔的代数独立与完整普通Dirac缺陷](results/R575-fixed-primitive-towers-and-complete-ordinary-dirac-defects.md)：七塔在整个原椭圆/sigma域上代数独立，全部七塔正幂规整后在同w上阶1/3，连S/T真九坐标；实际有限阶分布的完整p^m核心/Dirac几何和严格付清，只有原I4/I1两个缺陷未由tame消去。所有塔都非有界测度；原中央桥和全乘积饱和/惰性成本仍保。 **待做：** 原全中央到两I的合法比较，或同一个真实多坐标格的全量词饱和jet成本；一般C^r分布不等于有限个有界测度的导数和，有限阶/代数独立均不直接给R158普通界。不得用cofinite原中央失败擅自赋两I零。
+
+
+### R578：整个低边界核与固定临界极部
+
+[R578：全原临界低边界消元、二jet forcing与固定carry极部](results/R578-complete-critical-boundary-elimination-and-fixed-polar-carry.md)：原低r行由实际列整可逆消去，其核为全t内容子格加≤4条Qn及必要Qquad；完整首forcing等价同一原来源的两条短jet像判据。固定临界极部由carry α/B给出，同一R/26carry与原d2保持，极部不代非零证书。 **待做：** 具体G_P与全部Dψ原像的比较，或将固定极部接到真正杀全原列的左行；α非零只阻整临界支延拓，不排物理提升。r2/ordα1时临界支极部与临界值极部不同，原同R高尾和下一位不能改配。

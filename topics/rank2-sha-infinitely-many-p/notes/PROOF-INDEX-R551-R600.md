@@ -59,3 +59,6 @@
 
 
 - [R575：固定原函数七塔的代数独立与完整普通Dirac缺陷](../results/R575-fixed-primitive-towers-and-complete-ordinary-dirac-defects.md)：七塔在整个原椭圆/sigma域上代数独立，全部七塔正幂规整后在同w上阶1/3，连S/T真九坐标；实际有限阶分布的完整p^m核心/Dirac几何和严格付清，只有原I4/I1两个缺陷未由tame消去。所有塔都非有界测度；原中央桥和全乘积饱和/惰性成本仍保。
+
+
+- [R578：全原临界低边界消元、二jet forcing与固定carry极部](../results/R578-complete-critical-boundary-elimination-and-fixed-polar-carry.md)：原低r行由实际列整可逆消去，其核为全t内容子格加≤4条Qn及必要Qquad；完整首forcing等价同一原来源的两条短jet像判据。固定临界极部由carry α/B给出，同一R/26carry与原d2保持，极部不代非零证书。
