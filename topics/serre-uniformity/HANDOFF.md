@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：9de87d35b22311a8aaa1edf4dda8a221ddaccc25
-最近实际 pull：2026-11-14 18:51:50 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：dbf7dc4ee4211bf59808cc4ff83397c42c8e4b90
+最近实际 pull：2026-11-14 18:52:01 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -23,7 +23,7 @@
 
 Xns+(41)g54；V1/V2/V3维73/199/325，V4维451。R222原54全局h及s=H⁻¹h、m⁻¹mod47⁴=4074216；QC=global−800λσ。同一四坏标签0/3/28/32跨方向保持，F3靶0/0/2621472/2621472，基点2^-9；R140/141对数不冒认unit-root。
 
-19普通盘全部完成：16排除，j38/39/40仅真CM根94227/9310/13002。五有理CM SS盘各唯一真CM根。105非CM SS盘已排除100、尚余5，逐盘表notes/p41-SS-disk-progress.md；最后R617排j0_08、R618排j0_07。旧R583“121排除、8CM”证书丢失，忠实重建前不计定理。R389已按原9文件SHA恢复。
+19普通盘全部完成：16排除，j38/39/40仅真CM根94227/9310/13002。五有理CM SS盘各唯一真CM根。105非CM SS盘已排除101、尚余4，逐盘表notes/p41-SS-disk-progress.md；最后R617排j0_08、R618排j0_07。旧R583“121排除、8CM”证书丢失，忠实重建前不计定理。R389已按原9文件SHA恢复。
 
 单位参数依R435/R436，原Norm/height保持；R620–632=j0_09/11–22；R635–654=20个j36（排02/06）；R659–665=j44_08/16/18–22；R666–681=R470余16j9两flip。R655续两个真CM4原1-bit前缀，完整高度接R554/R656，不套普通分歧公式。R470真实四数据块/两函数已封存，不重跑已完成几何。前缀和输入SHA见notes/RUN20261114-handoff-manifest.json。未推209项和R583/585/590只按真实输入恢复；请求、接口、运行中任务不算结果。
 
