@@ -305,3 +305,7 @@
 ## 原6391连续Green端口对同一Z完整body/腰/cut源的消费者
 
 [完整合同](notes/2026-11-14-R133-same-Z-complete-known-source-Green-contract.md)已推。只重传播新的已知源；旧6391连续ports/5970projector/真腰末端跳和两边界unit profiles逐字节复用。body逐格取完整low193（含mean）并付真实径向权；Z连续只令真实trialjump为零，projector secant/tangent及分母仍全保。旧raw跳profile另作明确非负surplus；两端乘同Z真g0/gR，精确权取消避免重复收费。完整high源单列，尚不包含未知高反馈。workflow监听两完整DAG，只选公开main成功finish；缺一项时0新数学，后续完成自动续。有限193误差是否<1/200仅记有限系统条件，不授真PDE响应/νSchur。
+
+## 更大真实逐片根域与闭式forced Airy传输
+
+[完整M.1–17合同](results/R133-supplement-piecewise-real-root-fold-and-closed-forced-Airy-transport.md)给真实旧角characteristics、Abel形式A、分片fold/Jacobian/μ与旧圆完整J；完整参数族193槽及mean保留。forced两branch严格沿旧ray积分，原seam一般有非零[a_r],[b_r]，完整重构j1=JPΣn^-k U_n([a_kr],[b_kr])不能塞进volume L2。新199input消费者只读原169scalar germs/4650positive行/完整原NPZ；核半径.001至.02的真实闭格、全部seam和负Sobolev J，至少.005通过才complete。原004/006仅原字节恢复。未预授任何数值域、next amplitude、CE/Cs或97 cutoff。

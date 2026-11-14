@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 16:26:38 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 16:28:53 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则、同步
 
 只在 Rogerhu12/math-research-public；全部新数学代码只用公开 Actions。每结论独立推；非快进立即接新main/rebase再推，不force。root独占ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，不进文件/输出/提交/connector。
 最后本地真实pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35后终端失联，16:20重试仍无环境。根规则8只允许connector处理<100KB文本，禁止二进制及大文件；先查size，摘要≤60KB。API不是pull；终端恢复即回git。runner真实pull/核README差异≤10min或短child前后；已亲核43613560173 finish于16:16:51拉到e142a68e2d758720f708d78ced44289dab3efc91，两README无差。
-最新远端 main/两README blob 核：7061ec59f54a70486a8fa9284cfd205420dfd287；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：c16129a555dae6c8c83b2b570653a9f26484c8ea；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 压缩前H原字节见 notes/2026-11-14-handoff-before-actual-negative-one.md，其前档链保全；open/log前档为2026-11-14-{open,log}-before-closed-leading-amplitudes.md。各完整SHA/失败/端口在results与manifest，严禁重算已成数学或偷换对象。
 
@@ -41,7 +41,7 @@ R31/物理Wiener域43586895661/43588332723成：|δ*|<9.368259853002e−11。ρ1
 scalarization43594466882、fold43602612900、negativeCauchy43604498718、oldI/Airy43605453793全成；旧I沿旧r，mean/J/弱flux全保。
 P1–37 rootparametrix：Id−SI消wrongbranch一阶，densityn7/6、列HS给H−4/3→L2强类；δ0/givenhead scalarbrootfin=0。actual43608838195/25门：Fc→negative<.953797、Fb<13.367963，rootfloor>1/25，J:L2→H1/3<7/2；微小positive指数不授N97。
 closedleading L1–20真G/a0/b0和C1 seam已证；43612196888/22门a0<1.004641504569、a0^-1<1.004667223723、两branch^-1<1.004667221675、b0/T²<5.287642787676，完整复δ1e−8/root9e−6。后幅度/seam/C_E/C_s/数值cutoff未付。
-s−1负根43613506152实际13门/.214434376s，native7c91e9745b997ccadd1b987b5765e5bd51006261872cd58ff52b8ccd416240b0；growth<101.103437943193<112，raw<4.005123341343、I后<4.226183266259。激活H−1输出41/10、I后17/4，普通源H−2/3、jump两行(H−2/3,H−1)，fullmean/全频保。仅原9e−6负窗/realδ1e−8；真逐片更大根域及forcedAiry消费者在做，不伪称跨缝joint解析。
+s−1负根43613506152实际13门/.214434376s，native7c91e9745b997ccadd1b987b5765e5bd51006261872cd58ff52b8ccd416240b0；growth<101.103437943193<112，raw<4.005123341343、I后<4.226183266259。激活H−1输出41/10、I后17/4，普通源H−2/3、jump两行(H−2/3,H−1)，fullmean/全频保。仅原9e−6负窗/realδ1e−8；真逐片更大根域M.1–17合同/199input流水线已推，原169germ/4650行只读、原004/006片原字节补全；候选半径.001至.02，须实际≥.005通过。真实非零seam M.16/JP重构M.17保，forced系数先界V/V0；未授幅度/CE/跨缝joint解析。
 directed word V−^-1V+=U_(S−∘X+)非平方；root(buv/η)Swap仅均值0。完整β到δ*尚欠正图+实际strong。
 
 ## 无限尾、非线性与几何
