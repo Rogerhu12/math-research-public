@@ -1,0 +1,196 @@
+{
+  "schema": "native-equilibrated-exact-global-row-witness-v1",
+  "iteration": 0,
+  "direction_float64le_sha256": "ed6a80275b2ce2b75690b0ce555da68d6d0e5f396fc7888d38c02d734be0f94a",
+  "exact_global_original_sigma_norm": {
+    "kind": "stage",
+    "node": 518,
+    "row": 223,
+    "global_equation_row": 116367,
+    "component": "Pi",
+    "mode": 112,
+    "original_sigma_float64le_hex": "4e3c472c8ac1a53c",
+    "exact_unscaled_dyadic": [
+      "0x1c1e3faf511eb3d663499513307ce6ab5136766f576a0f873cf1960e39a9e065",
+      -232
+    ],
+    "exact_signed_scaled_residual": {
+      "numerator": "12718204708828250858198403489751590113615162630386896752833576115461750906981",
+      "denominator": "1041906105146938073552894499581427979825088619788369920",
+      "decimal_display_64_significant_digits": "1.220667068366455745400027170381442499984279435694246877103584908E+22",
+      "display_never_used_for_comparison": true
+    },
+    "exact_absolute_scaled_residual": {
+      "numerator": "12718204708828250858198403489751590113615162630386896752833576115461750906981",
+      "denominator": "1041906105146938073552894499581427979825088619788369920",
+      "decimal_display_64_significant_digits": "1.220667068366455745400027170381442499984279435694246877103584908E+22",
+      "display_never_used_for_comparison": true
+    },
+    "matrix_scope": "rawcell0-original-RK-step-expanded-system",
+    "new_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+    "source_stage": {
+      "newStage": 518,
+      "originalStage": 42,
+      "rawCell": 0,
+      "kind": "actual-original-RK-step",
+      "stepIndex": 0,
+      "originalStepCount": 12,
+      "schedule": {
+        "global_step": 0,
+        "profile_index": 0,
+        "grid_index": 0,
+        "grid_branch": "ordinary",
+        "x": {
+          "value": 0,
+          "float64le_hex": "0000000000000000",
+          "classification": "finite"
+        },
+        "h": {
+          "value": 0.08333333333333333,
+          "float64le_hex": "555555555555b53f",
+          "classification": "finite"
+        },
+        "final_original_step": false,
+        "port_applied": false,
+        "port_ratio": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "field_calls": 4,
+        "full_state_row": 1,
+        "shape_output_row": 0,
+        "shape_J_row": 0,
+        "shape_J_statistics": {
+          "entries": 50176,
+          "finite": 50176,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 0,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 25108449735.79109,
+            "float64le_hex": "132a1f2752621742",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": 25108449735.79109,
+            "float64le_hex": "132a1f2752621742",
+            "classification": "finite"
+          }
+        },
+        "cumulative_minA": {
+          "value": 0.9999999999999958,
+          "float64le_hex": "daffffffffffef3f",
+          "classification": "finite"
+        },
+        "cumulative_minD": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "cumulative_maxRootRelative": {
+          "value": 2.1268835585537372e-15,
+          "float64le_hex": "8bfb27744228e33c",
+          "classification": "finite"
+        }
+      },
+      "port": "one"
+    }
+  },
+  "operands": {
+    "new_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+    "complete_direction_float64le_sha256": "ed6a80275b2ce2b75690b0ce555da68d6d0e5f396fc7888d38c02d734be0f94a",
+    "node": 518,
+    "row": 223,
+    "kind": "stage",
+    "explicit_node_sigma_float64le_hex": "4e3c472c8ac1a53c",
+    "source_stage": {
+      "newStage": 518,
+      "originalStage": 42,
+      "rawCell": 0,
+      "kind": "actual-original-RK-step",
+      "stepIndex": 0,
+      "originalStepCount": 12,
+      "schedule": {
+        "global_step": 0,
+        "profile_index": 0,
+        "grid_index": 0,
+        "grid_branch": "ordinary",
+        "x": {
+          "value": 0,
+          "float64le_hex": "0000000000000000",
+          "classification": "finite"
+        },
+        "h": {
+          "value": 0.08333333333333333,
+          "float64le_hex": "555555555555b53f",
+          "classification": "finite"
+        },
+        "final_original_step": false,
+        "port_applied": false,
+        "port_ratio": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "field_calls": 4,
+        "full_state_row": 1,
+        "shape_output_row": 0,
+        "shape_J_row": 0,
+        "shape_J_statistics": {
+          "entries": 50176,
+          "finite": 50176,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 0,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 25108449735.79109,
+            "float64le_hex": "132a1f2752621742",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": 25108449735.79109,
+            "float64le_hex": "132a1f2752621742",
+            "classification": "finite"
+          }
+        },
+        "cumulative_minA": {
+          "value": 0.9999999999999958,
+          "float64le_hex": "daffffffffffef3f",
+          "classification": "finite"
+        },
+        "cumulative_minD": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "cumulative_maxRootRelative": {
+          "value": 2.1268835585537372e-15,
+          "float64le_hex": "8bfb27744228e33c",
+          "classification": "finite"
+        }
+      },
+      "port": "one"
+    },
+    "complete_stage_J_raw_sha256": "57968442a06c8b4e70766338e6a610da81811a1b00b9edfc29166f15b265636c",
+    "full_J_row_float64le_hex": "989dbd165adb173bcea8434b41d5233b60f9e01c7f8b34bb4b4f62d837d157bbdcb254ecfd7446bbd8b02dc175ba5c3b33d3271cb6ab87bbc007442684698bbb87a15f76c2156ebb38332f321fbaa5bbb1eb9f7842a392bbf1fcc4e14544953bac066bf5687eb03b87b9b88cd5de55bb6d0e9e1f346bb6bbc72d6e542ffbb93bbbf8cb34bfacc53be5b75280d9c5c33b30c822729208c1bb198c806c12aa93bbe313a3733063debb8de827e5bc2e693bf118ae81d24bdf3b238ad4b74f48d5bb070e061893b5083cc36bd151e505b43bb17ffc4506c0e13b4cef6f9acf5ed7bb4bfefdf08937d23b2b0a88077268b53b4b9a7bf5d947d8bbb7fedbf68123cebb93c54b50545b943b8549fcd8e3b8b6bb4e945e4e09b494bb75ce87a4ea89ec3b206e12d314c2ecbbb1216b77ec7df9bb1ccce336f0ecfb3b18f9aba72ed4153c4080de37c35c06bc9daaa05272c9e33bed7d223db7ecfa3bfc46a0ea68b4e43b4313f88b104af6bbe7db4d07649e0b3cc62b49b6d001c03b2c7bbf8cd8ddedbb752089918a4c1c3c330588ccbe490c3c4bb3326a67b61d3c75a0812c8fd1f13b55b31e85df40223c9bf74865fc0c06bcc1112209372441bc555f49e81106f73b914aa7daac85133cbcae58665e7232bc60459c2624fe27bc415bed06c90b313cd9e260601313123c8501bd931d2c6a3c2338d9daaff41b3c737edfae4e2c223c987f7e311ffd22bc586c41c80d2c073c0069e3149ab540bce1572a13faeef5bbd8851048c09d58bceed62f6d1367503c5c07716b0b1509bcc79dc4446423c93b17fccbdc39aa3cbc09b3abbfed0f51bc0d13d961e2f264bc318f50fc918458bcc1c094afa712c53cdcdd8f9df2357bbcdb90c9167614be3c47750cfe2077a0bccdb8de646fefe8bc9658c0f86603a4bc4d9838d8dc4cfcbcdc79809b70a60cbde4ab96a16518ecbcd8388e7b92516ebd808b238d4533f43cd9e68dc1c1c18a3df36692d40e3845bd403ce8641537febd14adb4739c9086bdf523936043bed6bd6723b567e514b63d7d10bae2b549aa3dc12787695939b53dc381b3315408a43d40a6087c1686e73df8761d93f3c5a63db572c9f21c053fbe8ed389e975eec3bde36a10b10d082c3e9109519f7216393e98684d97067f803ee5da1992e90dc7be48a9a7eacc75abbe655168ab7289eabe7c39e43a820dd2be11813f54a3fcfe3e0c9bdbb087d905bfc7b490b51ccdf5be8d07093b787238bf132a1f275262174280a396387f67203ab96800e8621bf0391961f120f24df0b9e3dc350a4368fbb9b7d06719eb94f9b9f31e1d925745003a835f22c9aec82bba8d9c68a5fe4317ba8e8c87e284cbf2b9e39710fb5e263abafcc3633c059812ba588864fbb59c1a3abc8416e69a80313a2901deeff4d1083af195cb83b0ca2dba2befaddc11a92d3a87638b1e835e3b3a60af23219547333af195e064e04b2ebaabec7e5e12dff2b9c07aed2da3d744baa77edf584dcef439976876a15bef433a912dd33c93ee37ba4cf4188b1a7f6b3a158bd317ff4b123a27426eb7eea83d3ad1aef803dcdc34ba91e5ad31cd052c3ad9216eb358bf143ac3885030c2b530ba1340f185aa9726babb185cc43fae043aa03bbc9cb0b6fbb9679c3149812ce1b9f9ee674f3203403a589ffae6caed3abac742de8877c143ba137f82b8249b493a0eee7d6f1c5e623a0b94172c077751bae7827a20afbe303ac7d0c3e1ed26443aec8730c03b932e3a4349642aa1d73cbaf704c3e6a734513ac57d931c97950b3a9bb11d058eaf30bab49caebd7a0e603a9c59a5811dbc4e3a232ec7af43155e3ac3bf9b75667b333a26403222778b613a4354b3d11e6644baa068939d26437eba1fd49446e818343adb6721e76c964f3ab120e60845246dba61dff43d487162ba2cd788819b40693ab5bf5cc129844a3afe15026df424a23a13e1bd7229ec533a08522dfb078a573a018ca6dcea9f57baf8aea41053fa3f3a8c741d8d0fd373ba6316775b85fb25ba239f9dadd95f8bbabbaf2cc2aba3813a6d8f84318cf138ba679487514a01163a81668e57992f6cba03f11228d66080ba5bfcb376497f93ba71ea64128b4f86ba63b570609ba3f23ad840b656082aa7ba9f5f1fb2134fe93a63395c6d469fcabac592063f710114bb780cea0b9100cfba354c0bfe0dbb25bb1b0a7a03ea3435bb5ec6a309b1d814bbbccfd6645f7695bb6382342fcccd203b6b97714a6024b23b286f7bfe38c76abb7341b621abaa23bc43f96d2673e2abbb4362e588cc85fcbb2f554b421c52da3ba72b956245fdcf3b0594af7c3c59d83b98839ca84c2bc83b3f4d9f3c20fa093c4ec0e79d4f99d03bb329517c768160bc83f65a52a7d5e0bbeb09a5cd61cf4c3c40dbb4e2b19c563c91349655c16fa03cf9f53c2d2b44e4bc31ff39f107b7cabc3096621e281806bd591920fa8462f1bced0ce455c5a1163df7119c387a4725bdf83309d0f9ab27bdacfe5a53ec3e58bdc58ef6d644713340",
+    "full_next_delta_float64le_hex": "e3869bf622bcb0bca3e90f4b20aacd3ca6e2e9031646adbc12f114c66404d0bc4d896d372f5fb33c066ad0c7f155dfbc220641a16138d3bc93d2a2d9c77a96bcf94d6808b4bec53c233420a183f7cc3ccf3235388a77c43c0064cf5bb832c3bc763a5cc8a4dca1bc550afef3007dbcbca592fa02db43ae3c5bfa417e59fca83c7a302d3f79e9a9bc8dd9c6764070933cc65bba1ebd88a5bcba5b17dfd811b6bc2e5bedba40709f3cbbe9c8595a0f8f3c5e3bc7a568d5ae3ca26fd102d4b5593cf687088a2aa5d83c094266d23286a33cf3bed01236eadbbc2a95e49794748b3ccb5e6c8ae76598bc35865c5f5c1f94bc82d9fd57abe0b0bcae28d20834ff10bcee3bd2cb8525b63c1d7a3ee4d96fc03cd5592ef3257bb9bc7f6f253e9bdaa83c9d32cd4bbc6b91bcd1c3f96f31ab9f3c979110e7d033b2bc31dfee0314f1b3bc06129a4e29c4943c2d26e6376986d83c0c5184de975595bc32d2e58ed29a87bc15f372720f48923c1a6c156bd3ffedbc46f428759fc38bbc090de669f431973c2d6a1d3d69bbf93ce0d9de1bba659f3c47309cef708baebca537a963bb13c1bc126cdbb1acbed83cea693d62c53bc7bc0a914e3bdba0fbbc3f228ef66c2ead3c13fffe997f11fbbc55d108d45b70bf3c506f73e861d4c2bca45e1fa0706bef3c26ad22f0dc3658bd4a394c892e1627bd514c261487b7f3bc32a97a076e392c3dd1db71a8c078a1bccef650b2689b05bdfd9f87593cec06bd380cfcc3f45cd8bc328cb5e75ea9003d4ccd670e9c7becbcca774479ad54313d4b15a806f3d75bbd11e9e54ad4e80dbd908a9bfc8bc4113d8e23ce9296ccb3bcb7ab6f034680fdbcbf356ed81fe3243df6e5769d102695bdf1002d78c27c41bd06f1e106fc46363df3fa7c76851d48bd902e4bc109c95abd9618e8006cac50bd562ecc00629cd9bd452d35fa7f49d2bd15ad9dcc95cbf2bdaeb555686477d5bdc0ce3d3c6bfa233e320b3b837bc3213e691e4452e5c8c43ec319abf15c0bbfbe025ce2eb9d97f13e7a0e82c024b6f2bed38a474a5a2b84bf433db9e58acd893fc795320d685bd73f4f48cff75c7ac53fe3bcb3b43251b0bfee545e5fda1083bf51786a6c491aa1bfd7da8cee376ce3bf0a00f0bdff28f33fbb34f47224ea1b40899432880979a1c09869a7be0b92d74035644dfb604f9940a5f5da32610f3cc19c039fc31cf6da41923f6f9d8933f241f85296cfebeee2418806850c4f5734c2f3e6e33e01c776c23c845103e544ba3de9c3c57a4caf0a3eed0ec3710be0f03d8f910b33942320be8a2be896cbbb0bbe9560cbe290574dbeaff6b865b69c353ec97350c641d73f3e079a9ba39fb732befc101e47c9d252bee836d5fa775938be144bdfc7f1224a3e68ddd453d5c1203e75803bf005b0433e14a4ce506d8f24be603e2b87b40932be50d691e00d431f3ef92e7d20798a1bbe1cb72e8b5dc4453e12a8c756ec9e483ee69c08d647c345be7d7edb14266224be5299ebf706284dbe27a1fbbe1f8b0cbea94093c435e479beb998eb65d97336be89c8d415bcea7f3e58106f3b072d3ebe246d5e65a0ff3f3e2ff825cf940b3f3eb9020015932e563e922a01a91f74123ee7b80dd45dcb5cbee808cdb8cacc6ebea3cb125e81e4553e1d79cdaac36259be1a586fdeb46a453e0863b7c4867553beeac468ab793b663e970926fd1e75683ea4a9abace1cc4ebecedf5f9b99918ebe8cbd587119024d3ec00e2aac2169403eaa9d5b759a854cbee456d9f4d3b9ac3eb20a3ecb00f3463ee2c54cb4848353beb545f5521ff5b7be478b56defd7b62be799782b1acbf713e490fe4920a307e3ec2d4aee14f5798be50e14b6e3c50893ef1292071b630c03e1f8691bc108a72be074e43e76719c33e45232a98aae68abeb53b56a268eb803e5e5cf3181e5ab3be1eef70eeb14c203fc05623982190f03ea808acd063adbd3e8f828296512af6bee2a12d1487cb6c3e78d7f4d492e9d23e9382c5dd8eecd53e4e0e5b39f5b2ab3e15a02d0020d5bbbe8d2a93cde76ab63e0db3d534e4fffdbe21b6ffa474ba293f9b731e8ee805dd3e1fa41297a2ffe1be32e9439fc221763e05995f0f3f5ecf3e69f0d48cec99f6be70b885af7595683f589803ec85c1153fc910eb28f35b0cbf350088201b96203fea058aec7674313ff37e8a1fd437273ff5b9871cbbeab13f2520880b8245aa3f24cf5a152cb1cb3feae3040869bfb13f38cacedc0f7efcbff1736e85c0bffbbf47d9431125e69dc0ada16b02191b954047ba2133362ed1c0fd9c1c743dfece40417823103d746041188c32cf98f764c1a5af03b32adbb2c1e5b9d99216f8a0c1664c226ee0a387418c60058fbbd575c125e12091e18d814144a70042b9aac1412f43da5e1601cbc1c929d364ec1e08c251bdc048a11185425ce5649754dabac2f7ad8ed69d997bc2ce296bb86fef1f43f5fd71c03560bec39c2b9a282c37d4c3ac4d153d9424fcc3fdcc6b15c28c1844cd31a43f8c2d5b44",
+    "current_delta_float64le_hex": "d3b507351fe330c4",
+    "residual_float64le_hex": "0000000000000000"
+  },
+  "all_original_rows_visited": true,
+  "exact_stored_finite_arrays_only": true,
+  "not_exact_derivative_of_nonlinear_flow": true,
+  "matrix_scope": "rawcell0-original-RK-step-expanded-system",
+  "new_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+  "wrapper_producer_source_sha256": "30a467e8f08d73fcdcd8a69b2d911e0d9f57489c3397c21c775ed1ec4f6cabe6",
+  "unqualified_original_equations_mean_unscaled_current_step_system": true,
+  "norm_scope": "All expanded rows use their explicit sigma; old-node sigma words are unchanged, the new all-row norm is not the old576 norm",
+  "original576_long_matrix_not_claimed_solved": true
+}
