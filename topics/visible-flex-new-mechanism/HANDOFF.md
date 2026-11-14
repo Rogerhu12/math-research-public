@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`120ebb0d11880f32c9dde714538eaee1eeb30644`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`ec771b9a4a0a2f2e166e9c1b5e867d6dc69e691d`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有22:02:43 UTC在公开Actions实际partialclone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话**进行中**。仅元数据已公开；下一私有pull不晚于23:01 UTC。
 
@@ -60,4 +60,4 @@ R112给L4导数权0/2/4；R113给pure m8响应≤46/四块≤22，单R110四块�
 
 曲率43645177423/source2f1b809c人工与actual success；publisher压缩前拒原大JSON。6件artifact14133787467/823379B待恢复；不重算，科学新值未读。publisher现修为原JSON≤64MB、压缩后<5MB；单.gz仍<5MB。
 
-fullm843645929555/source27905679新toy9项pass；actual0.00970s因v2模板字段original_third_sha256 KeyError，尚未算列。下一修实际字段消费，与曲率artifact恢复两lane并行。R114局部新consumer直接读导出并先模m0八函数。上述actual均本公开Actions；子题完接open，不因预算/设施/报告大小收尾。
+fullm843645929555/source27905679新toy9项pass；actual0.00970s因v2模板字段original_third_sha256 KeyError，尚未算列。新e66bf源码按v2 retained36索引读真实152原表字段，接重新请求；与曲率artifact恢复两lane并行。恢复只改名两旧操作回执、科学四件原字节保。R114新consumer已保但不激活旧NF；+1约束商化为h(k³−k)G，下一只做原G的7/8真实有理Volterra门。上述actual均本公开Actions；子题完接open，不因预算/设施/报告大小收尾。

@@ -396,7 +396,11 @@ def load_templates(args, limits, report):
     if (binding["receipt_sha256"] != dual.RECEIPT_SHA
             or binding["retained_original_indices"] != blocks.EXPECTED_KEPT):
         raise ValueError("the actual complete W36 basis changed")
-    wanted = [x["original_third_sha256"] for x in receipt["control_templates"]]
+    retained = receipt["pre_response_reduction"]["retained_original_indices"]
+    if retained != blocks.EXPECTED_KEPT:
+        raise ValueError("public v2 retained original indices changed")
+    wanted = [receipt["all_original_control_templates"][index]["original_template_sha256"]
+              for index in retained]
     got = [ring.digest(x) for x in templates]
     if len(wanted) != 36 or got != wanted or got != binding["raw_template_hashes"]:
         raise ValueError("portable roots do not equal the published original W36")
