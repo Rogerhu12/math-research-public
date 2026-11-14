@@ -29,8 +29,8 @@ env:
   OMP_NUM_THREADS: '1'
   MKL_NUM_THREADS: '1'
   NUMEXPR_NUM_THREADS: '1'
-  CUT_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-regular-cut-CI-pinned-inputs.json
-  CUT_MANIFEST_SHA: da5049f248e070aef21ed03d62ca92495e60a6f976b86698d903b5aad67aa4d7
+  CUT_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-regular-cut-CI-pinned-inputs-v2.json
+  CUT_MANIFEST_SHA: f8c27873466b88ce7b1d0497d1baeaaa6682ae6ebfa2840fb3c80d9baf3e0e2f
   REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
   REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
   REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
@@ -57,7 +57,7 @@ jobs:
             /README.md
             /topics/visible-flex-exact-nearby/README.md
             /topics/visible-flex-exact-nearby/scripts/
-            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-regular-cut-CI-pinned-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-regular-cut-CI-pinned-inputs-v2.json
             /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
       - name: Fetch only the exact complete background, cut and source inputs
         run: |
