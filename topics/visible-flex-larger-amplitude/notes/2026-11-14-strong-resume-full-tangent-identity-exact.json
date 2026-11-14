@@ -1,0 +1,48 @@
+{
+  "scope": "Exact typed-canonical comparison of old A optional tangent identity and newly solved r3 current-H tangent identity",
+  "old_manifest": {
+    "file": "2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response-full-tangent-call0003-manifest.json.gz",
+    "sha256": "3f63c69738fc171709a4cba47baeaf70c40778876e03f93436db56b302578e1f",
+    "identity_sha256": "87faa56945ad2a7fc32bd767f4bab6a62c79a90b41efacda5ffd0b5d1d06a53a"
+  },
+  "new_manifest": {
+    "file": "loop-margin325-actual-r3-tail-response-full-tangent-call0001-manifest.json.gz",
+    "sha256": "03a3ba3f36cbf0bd57efc33d63848673dfd8c76b1a292848accaa4a45f40c7c1",
+    "identity_sha256": "55fcdd14f3ef7f1cdde50dcf0dd1328320bc8ac37991781a5f816ef764818977"
+  },
+  "old_source_entries": 120,
+  "new_source_entries": 129,
+  "all_old_source_entries_bitwise_unchanged": true,
+  "added_sources": {
+    "adapter/exact_20261114_stored_depth_worker.mjs": "213306520cc269e58e427a4cf16089679d34a1f9f4c3409548ee5ec76d405b74",
+    "adapter/geometry_20261114_actual_A_tail_allnodes_firstjet_readout.mjs": "aa6678f2411b1f4f106b64c75c25a3961cb680d8ba80f23b6218a3694527b0d2",
+    "adapter/root_R167_M8_actual_root_coordinates.mjs": "a31f4a96d85ddba2228cf96f7053b78da316e01c30f9f4fcfc9bc933581bbe49",
+    "adapter/root_R167_M8_actual_root_coordinates_v2.mjs": "8376a57ac16b6819522b1bc672f4b6d3bbcbd1a9ace9f2fff1c37599fbfb5c76",
+    "adapter/root_R168_M20_actual_root_coordinates.mjs": "00123a49cb84baf5fb68f393d699b7a2774b11318405b1a4108b0db4c1a4cc88",
+    "adapter/root_R169_M20_split_root_derivatives.mjs": "36b71071d016a171fa0d1e6dcdaf54975b9804275080a89addf33d2efe5de3a9",
+    "adapter/root_actual_A_tail_allnodes_firstjet_readout.mjs": "32ffba06fd84d325afa1d9eda7c5391057733f281ba12036c80d54f4661ee1db",
+    "adapter/strong_frozen_tail_background_stats.mjs": "5f0af1d8f357087304b227613c22756504caa724c841ab56bbbf400eb7a214dc",
+    "adapter/strong_frozen_tail_background_stats_v2.mjs": "a2a8ff0dc398feafc252596e72f187f140799ce9d5a792585d50c9cedb79b548"
+  },
+  "missing_sources": [],
+  "changed_old_sources": [],
+  "root_fields_other_than_source_map_bitwise_identical": true,
+  "root_fields_compared": [
+    "backendIdentity",
+    "farGraph",
+    "parameters",
+    "physicalIdentity",
+    "radius",
+    "rawNode",
+    "stageLayout"
+  ],
+  "new_H_solved": true,
+  "new_tail_residual": 2.34189151390313e-10,
+  "new_tail_had_audit": false,
+  "new_prefix_accepted": false,
+  "identity_comparator_unchanged": true,
+  "archived_identity_manifest": "2026-11-14-strong-resume-r3-first-tail-tangent-identity-manifest.json.gz",
+  "complete_tangent_sidecars_archived": false,
+  "sidecars_retained_only_in_running_stable_runtime": true,
+  "archive_scope": "Identity comparison only; this is not a portable full tangent snapshot package"
+}

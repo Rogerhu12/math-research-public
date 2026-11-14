@@ -147,3 +147,6 @@ R235完整逐角Schur区间/barrier证明直接登记；真实84节点profile准
 
 ### 2026-11-14T07:30:56+00:00 — rawstart (local; public approval pending)
 margin325 r2真实51.74s因可选旧fullFlow snapshot身份失配退出，原52 MJS/ledger/ready均SHA同，当前另有9诊断MJS触发保守整树hash；未先断言其他identity字段全同。新wrapper只不预载可选旧snapshot，完整577×64 raw与原全部检查器/非线性H/J/audit保留。r3已实际进入新H原576-stage Newton，首全步norm5214→.03926；后续仍在原门内求解，不称新prefix接受态。新snapshot在同稳定树内可正常复用，不强制每轮重建。
+
+### 2026-11-14T07:30:57+00:00 — identity (local; public approval pending)
+新旧snapshot8顶层字段实比，仅sourceSha256因9个附加诊断MJS变化，其余physical/raw/layout/parameters相同；新完整快照已能原检查器复用，不要求每轮raw-start。
