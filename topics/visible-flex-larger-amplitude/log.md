@@ -398,3 +398,7 @@ v3独立20153B/f80608b3…全文读并AST核，保原v1 PIN七件；明确标量
 完整actual45 note16485B/44949a49…保存：R270真216front/256局部逆/一次原H恢复，完整同f43.8582164<C44.2768871，最终24576 slack全非负、原stationarity2.83518e−6、raw gap2.84e−14非严格包络；局部/全局radial均仅浮点级缩短。原H恢复残差5.83373e−10、local mismatch2.40613e−17，不冒factor未导出全审。原试步α1/32固定merit真降.0259467265；最近1/4、1/8、1/16仅mid482拒且既有12query全正，故下一只加mid482完整2048角/全node483依赖。
 
 新warm8ce98e5b…/status70be19b6…/实际FD7.0915952e−10；col仍.007110255989/BC7.68628e−8，非BVP/native。唯一ZIP实际核319064633B/a08478e3…，111B NPZ708数组/58condensedNPZ38全数组/observer与38源核完；另14root raw166244832B全核，两小audit随note存。无本地科学计算；新13query独立源由amplitude续写，47原native4A探针/精确三action并行接入。H压缩去旧重复，原结论全在历史和notes。
+
+## 2026-11-14 request48：只新增实际 midpoint482 的13-query完整局部QP
+
+从actual45完整warm/status双SHA续，保旧12完整2048角query，仅加原mid482，完整B支持470–483+p=4735且原C外部offset保470/483。动态R270库、全部g/外部条件响应/同模型C比较/600s256行200sweeps/原17试步和新FD均不变。新三源与[接口](notes/2026-11-14-thirteen-query-condensed-warm-interface.md)已冻；旧45四源逐字未改。工作流只更新既有public-condensed-qp-request.json，run与实际结果待回读，不冒已完成或native接受。root已读三源全部差异与工作流差异，代理实际AST/YAML检查；本地无科学计算。

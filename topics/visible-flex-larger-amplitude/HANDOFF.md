@@ -25,15 +25,15 @@ scalar .99/Connector/coast/bridge64Gauss7.5/cut r=.3/end2.271004035438285，完�
 
 45 run43627827085/source3689913753612b02021e439082eaf1c166091183/job132547603012/art14126039433，319064633B/ZIP a08478e30648b6f08f2d2d8716a891d8d128913f15d6b616505e6c99d253f876。
 父42双SHA3dd623e9…/26272c6c…；R270完整4397维局部QP保原g/pureglobal/外部physical及109core条件响应、全部24576行。原库84792d91…/QP ea93b88d…/warm5d398d3d…/FD461b0d48…冻结，独立visible-larger-public-condensed-qp.yml和public-condensed-qp-request.json。
-216 reversefront/256局部逆/一次完整恢复；helper74.9319s。局部末216个浮点级负slack，repair .9999999999989437；原全向量修复 .9999999999971445仍如实记改变条件响应。H同f43.85821639765896<C44.27688711321688；原gdot−.8324574348819488/modeldrop.42057688132810617；全slack最小8.32667e−16，原stationarity2.83518e−6，R267 raw gap2.84217e−14非严格包络。原H恢复L2 5.83373e−10，局部mismatch2.40613e−17；factor_input_identity=null不能冒唯一模型ID，完整factor没导出。
+216 reversefront/256局部逆/一次完整恢复；helper74.9319s。局部及全向量浮点级radial如实记改变条件响应。H同f43.85821639765896<C44.27688711321688；全slack最小8.32667e−16，原stationarity2.83518e−6，R267 raw gap2.84217e−14非严格包络。factor_input_identity=null不能冒唯一模型ID，完整factor未导出。
 真nonlinear α1/32：固定Wr merit44.278793278987024→44.252846552483554/drop.025946726503470074；原699node/698mid/两RMS全过，col.007110255988772191/BC7.686280188372218e−8，仍非BVP/native。最近1/4、1/8、1/16只mid482失败，12既选query全角均正；实际observer保完整原state/RHS/NaN，不能以线性slack替非线性域。
 **当前父**路径notes/public-actions-43627827085-1-condensedqp/condensed-warm/：
 warm-001.json.gz SHA 8ce98e5b325eae8188f8b4c707d1abfaa109e50a790c9abe5850ef1a52d08b75；
 driver-status.json SHA 70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842aade30d。
 新FD7.091595199583649e−10，报告SHA488dc5ca…，仍只零锚仿射边界。
 完整note=2026-11-14-actual-request45-condensed-QP-and-midpoint482-limit.md。ZIP、111B NPZ708数组、58condensedNPZ38全向量、observer、38源和producer已审；root另14raw/166244832B全SHA核，两个audit同note链接。factor未导出不冒独审。
-**48计划**：从45双SHA续，保旧12加唯一实际mid482全2048角→13query/26624行，完整局部470–483+p=4735。动态R270库不变；新domain/warm/FD独立，保同一次原J全部p/483依赖及旧C外部offset。预算600s/256工作行/200sweeps、原17trial/FD不变。amplitude正在实现，不等审批。
-42实际32行停止由46只读证实：run43628475946/source e19cc023…/v3 f80608b3…，摘要34482B/SHA350b9a95…。末未修复全r1.11e−8但1668负slack/min−30.72964，内部radial .007891269496944752后才r992702；外层1不代表没缩。44 v2超206693B失败保留，不冒success；46无重科学。
+**48已提交计算请求，run待实际回读**：从45双SHA续，保旧12加唯一实际mid482全2048角→13query/26624行，完整局部470–483+p=4735。动态R270库不变；新domain/warm/FD独立，保同一次原J全部p/483依赖及旧C外部offset。预算600s/256工作行/200sweeps、原17trial/FD不变。三新源domain d674a64e…/warm7785f4eb…/FD2cbd850a…及接口已冻；沿原condensed独立trigger，不重复dispatch。
+42的32行停止/内部radial .007891269496944752已由46真实原件读回并推送；外层1不代表没缩。44传输失败与46只读结果详两实际note，无重科学。
 
 ## Native：失败已保存，47只查原最坏一步
 
@@ -55,4 +55,4 @@ driver-status.json SHA 70be19b675c9f558cddbfa9532777a119a7bbe0629f505368e1588842
 R248强C²全相位、R241全部空间对/法锥嵌入reach、R238/254/258含反射同场标记，R251四Loewner实际operator都待真新场；16仅解析接口不重fixtures。held读所有活动块/两帽盘/全D，可独立于reach进度。无六/九jet机器门；九相位/N32显示网格<5MB但真2305尾节点保。
 旧小幅A幅度.063、RK24/48/三mesh/2157568pair/GW已封存；旧43提交恢复链/strongR6失败见notes，禁private取未迁raw。R238–272见results.md；R259备用未调度。
 
-规则同步记录：2026-11-14 18:56:36 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 d3a522203bbe1c30ed102c8271ebb9793fcd793f。
+规则同步记录：2026-11-14 19:03:06 UTC 真实 git pull --rebase origin main 后核双README；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 fc04b98351e3491f8cb3f775f33aee76ae62f4a1。
