@@ -21,11 +21,11 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀RMS域：request20正在运行
+### 前缀RMS域：request20已实降，下一三行方向待调度
 
-request17/run43598917532/source4b8b2bfd：原699 exact chart、全部physical collocation/112 Rφ，3个实际warm下降用λ10/30/90、α2^-14/2^-15/2^-15；原col仅到.007110547307，未BVP接受。warm003 SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；新FD9.5171e−10。全部输出已补出版，见actual-trust-warm-and-tiny-height-native-failure。原三求解源冻结。
-request18/run43602070499/sourcefd4f5619/publisher1e490cda：λ270、LSMR上限200在80步istop2；仍turn interval473/phi0 RMS失域，仅α2^-16实际下降1.63517e−5，col=.007110547287。新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3；新FD9.00098e−10，native0。真实回执见actual-request18-converged-linear-direction-domain-limit；不再只加LSMR/模型/λ。
-R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。独立protected_tangent_warm/response已全文读/AST，原三源及域源不改。request20/trustprotected实际run43603477207（14:10:32Z/source2501ebf616351245b398e6b3ef33c2e6c5546bff），job132473033066，正在构造模型；amplitude监视。只从18真warm接1模型/λ270/LSMR200，先完整域行实核，再原全A/JT、Pz/Bz、真实gdot/merit/全部node/mid/两RMS/rho及新FD。输出仍未接受，native0；不可因一个保护点省全域。
+request17/run43598917532的3步warm仍非解，warm003 SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；原col=.007110547307/新FD9.5171e−10。request18/run43602070499的λ270/LSMR200在80步istop2，仅α2^-16下降1.63517e−5；新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3，新FD9.00098e−10。原回执与source全在actual18/17 notes，不重复。
+R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。request20/trustprotected真run43603477207/source2501ebf6/job132473033066全success；完整artifact14117605862/ZIP0cee357c…已取。473/index0梯度complex3.7179e−13，投影伴随2.048e−18，Bz−8.88e−16；λ270/LSMR200仍80步istop2。预条件normal2.6137e−5但未预条件projected KKT344.921，勿称方向高精度。原collocation独立complex仅free core/global p方向，内部physical为0。
+20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；独立multiline源已冻结待根接线。所有原域/merit/最终门保留，不只加模型数或λ。
 
 ### Native冷启动：19已定位，21候选待执行
 
