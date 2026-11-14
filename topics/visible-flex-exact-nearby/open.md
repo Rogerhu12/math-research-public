@@ -208,3 +208,5 @@ R119 root graph完整density空间二阶与4/3费现已付，见 results/R119-su
 全5970连续projector工作已由互斥公开DAG接续，见 notes/2026-11-14-R133-complete-cut-projector-public-DAG.md 及 true-weighted两端合同。旧86输入和四实际成功格原样复用；其余5966格以16任务完成，最终只在唯一完整并集及所有anchor/jump/准确边界身份成立后授局部全覆盖。后续继续signed正Green、分布源、全high/背景费和真响应。
 
 实际strict斜率尺度证明已完成，见 results/R119-supplement-complete-strict-high-output-in-root-slope-units.md。它以完整generator差接径向高输出，保未知低输入、mean及所有C2接缝/新C4形状；不借裸FIO同阶差，不把局部P_L estimate认作网络逆。继续自由Airy全低频框架及负散射、有序根/正片全混频复合。
+
+完整moving根标量化已证并接独立公开数值预算，见 results/R133-supplement-complete-moving-root-scalarization.md。实际J=(1+η^-1 I L)^-1η^-1I的全频逆保均值之外所有模式；独立z方程和source flux全保，强Sobolev窗不偷用同阶常数。全部193方向在|δ|≤1e−8复根域支付，ν-bump在整个根germ准确为0。新宽带可至192，旧band64负窗反馈数值不能直接转授δ*；后续两行根/positive graph/真正背景另付。

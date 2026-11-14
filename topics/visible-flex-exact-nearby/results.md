@@ -85,3 +85,5 @@
 - [R133：四个实际完整193×96连续projector格的公开证书](results/R133-supplement-actual-four-complete-continuous-projector-cells.md)：已逐原过程及native核43591378059真实五个子进程return0：7个193状态约定门、四真实闭格0/76/3300/5969全部通过，完整Gram最小奇异值>.9995；signed μν、cross、normal残差、ρ′ρ、128primitive和末端投影跳逐项保留。四份成功原native后续唯一复用；全5970、weighted边界/Green/源/high反馈继续。
 
 - [R119：实际strict全输入高输出与根斜率单位完整余项](results/R119-supplement-complete-strict-high-output-in-root-slope-units.md)：纯解析完成实际strict全输入高输出<2，λ=2^32√(j+5)δ^-9/4、L=2^4200λ；全mean/低入高出/真实C4与原接缝BV/固定Hilbert窗均保，完整二阶余项<2^2048λ²、4/3阶<2^1400λ^(4/3)。根代理已核实际profile支集下界、旧完整generator差与有序Duhamel、隔带双Schur及全低输入费用；未授全网络cutoff。
+
+- [R133：完整moving根的无K除法标量化、全频逆与独立均值](results/R133-supplement-complete-moving-root-scalarization.md)：完成N1–24准确moving标量化：完整A逆、独立even mean、ordinary源弱flux、所有primitive、投影drift与radial commutator保留，无K除法；完整Wiener/Hilbert/普通L2与负阶Sobolev窗分别给界。公开13输入消费者覆盖原root复域、准确连续修复及全部193方向|δ|≤1e−8，原response仅part005逐字复用，真正两行root连接与PDE背景仍欠。

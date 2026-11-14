@@ -365,3 +365,5 @@
 - 2026-11-14T20:18:05+08:00｜visible-exact-astra-0df9：发布全部5970连续projector互斥DAG：严格复用实际四成功格，仅新增5966；原916MB完整frame只prepare下载一次，16范围均保完整193状态/mean/ρ/末端跳；先实际运行新weighted真两端，再消费唯一全覆盖。固定88项manifest394379df…，原86输入不动；immutable科学副本、每10分钟真实pull/README核及断点推、非FF循环和失败原件保留。完整源/全high/真响应仍继续。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T20:19:47+08:00｜visible-exact-astra-0df9：纯解析完成实际strict全输入高输出<2，λ=2^32√(j+5)δ^-9/4、L=2^4200λ；全mean/低入高出/真实C4与原接缝BV/固定Hilbert窗均保，完整二阶余项<2^2048λ²、4/3阶<2^1400λ^(4/3)。根代理已核实际profile支集下界、旧完整generator差与有序Duhamel、隔带双Schur及全低输入费用；未授全网络cutoff。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T20:21:53+08:00｜visible-exact-astra-0df9：完成N1–24准确moving标量化：完整A逆、独立even mean、ordinary源弱flux、所有primitive、投影drift与radial commutator保留，无K除法；完整Wiener/Hilbert/普通L2与负阶Sobolev窗分别给界。公开13输入消费者覆盖原root复域、准确连续修复及全部193方向|δ|≤1e−8，原response仅part005逐字复用，真正两行root连接与PDE背景仍欠。 本条独立提交推送；继续原未完成项。

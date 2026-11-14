@@ -1,0 +1,102 @@
+{
+  "kind": "complete_moving_current_root_scalarization_public_CI_input_manifest",
+  "public_repository": "Rogerhu12/math-research-public",
+  "manifest_prepared_from_public_checkout": "43c8a9c86f61f221d7a94410b4f8118a1ceb9982",
+  "scientific_inputs_selected_by_exact_hash": true,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "python_flint": "0.9.0"
+  },
+  "input_paths": {
+    "root_germ": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+    "repair": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+    "direction": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+    "trial_index": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full.json",
+    "trial_shard": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full-part005.npz.gz",
+    "strip_proof": "topics/visible-flex-exact-nearby/notes/phase_strip_refinement_ci/run-43588332723-1/consumers/R31-strip-refinement.json.gz"
+  },
+  "mathematical_parameters": {
+    "bits": 256,
+    "root_piece": 2549,
+    "whole_complex_parameter_radius": "1/100000000",
+    "outer_radial_radius": "1/100000",
+    "inner_radial_radius": "1/200000",
+    "moving_Wiener_strip": "1/1024",
+    "Neumann_gate": "3/20",
+    "all193_direction_components_and_full_mean": true,
+    "ordinary_L2_and_complete_analytic_Hilbert_and_Wiener_spaces": true
+  },
+  "no_full_phase_or_full_response_replay": true,
+  "original_completed_root_envelope_reused": true,
+  "only_original_response_shard005_consumed": true,
+  "original_response_shard_artificially_split": false,
+  "genuine_PDE_solution_or_full_root_return_not_claimed": true,
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+      "bytes": 7851
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-exact-continuous-value-repair-native.json.gz",
+      "sha256": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+      "bytes": 14226
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+      "sha256": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+      "bytes": 502954
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full.json",
+      "sha256": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6",
+      "bytes": 11295
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full-part005.npz.gz",
+      "sha256": "ce29c19c81e77cb2f2ea9b70edc59af96a869116fa96e2e5375ffa4d61927917",
+      "bytes": 2698707
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/phase_strip_refinement_ci/run-43588332723-1/consumers/R31-strip-refinement.json.gz",
+      "sha256": "dfb2a174a010d399775240b2bd07a0f547dfee5fc137e12141be9fd8a46e3854",
+      "bytes": 3356
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_root_scalarization_budget.py",
+      "sha256": "4a3ee217b21cabda6ae3dea052f27ff82f03b4218294145dc2f812891688e03e",
+      "bytes": 19473
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_root_scalarization_CI.py",
+      "sha256": "42f4f8f4e68d0bda1de3de2163e3f8ca40dc402abfd9f00f638874c5544d0e73",
+      "bytes": 4424
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-root-scalarization.md",
+      "sha256": "0645cf460507ea587056b6969b01dc532b6623179db5598e2bffe4f53a8275af",
+      "bytes": 15539
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_turning_complex_germ.py",
+      "sha256": "a3ad50b828c69d3e6f1e9254c1f266535171741ee2cd675d1569ef8f0fac0491",
+      "bytes": 13009
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_explicit_response_direction.py",
+      "sha256": "9c08e253d2b4cdd951392a31aafc190b2341793a162c46aaadd914780894bf5c",
+      "bytes": 12528
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_final_continuous_value_repair.py",
+      "sha256": "51a3f7968991ed85211b74c23befae7021bb192796daf0ae2d12ec5a1d45329b",
+      "bytes": 9076
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-negative-quadratic-density-and-full-frequency-transport.md",
+      "sha256": "622bb91df498f3221de6a9a7d5ebb760f2a98c9a2f6e872aee373b9a81013033",
+      "bytes": 20744
+    }
+  ]
+}

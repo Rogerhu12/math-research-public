@@ -1,19 +1,18 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 12:19 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 12:21 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
 唯一仓库 Rogerhu12/math-research-public；全部新数学直接用本公开仓库 Actions。
-blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 为 `/tmp/visible-exact-0df9-workspace/math-research-public` 的 symlink；`.git/objects` 为 `/tmp/visible-exact-0df9-git-objects` 的 symlink。
-先前共享磁盘ENOSPC，本任务文件逐字节核同迁到该/tmp目录，原入口保留。新临时输出仍放该/tmp。
+blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 指向 `/tmp/visible-exact-0df9-workspace/math-research-public`；objects指向 `/tmp/visible-exact-0df9-git-objects`。ENOSPC已逐字节同迁；新临时输出用同/tmp工作根。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：dfcca16ebb54b5b018ae6200e6e97f73c826ec18；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：32d72d0b70da56acf659caaa3072da6e8d3db7e0；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
-出版helper `/tmp/visible-exact-0df9-workspace/publish_visible_step.py` 先clean pull/READMEcheck，精确path/guarded document_updates，再独立commit/push循环；未知README差异必须亲读再继续。
+出版helper在同/tmp根的publish_visible_step.py；先pull/README差异核，再按plan精确path或guarded文档更新独立push；未知规则亲读。
 
 ## 同一对象和完成门
 
@@ -50,7 +49,7 @@ firstsymbol43589646508真实return1/native5167e64f…e1d；2838严格积分及�
 原外端QR因ENOSPC止于r约1.044，非活进程；新从真9/10到腰，全193×96、独立even mean、正ρ及ρ′/ρ。
 完整提案43588509643真实5970格，native6dbc3acfcfbd…c79639；916MB artifact14112195633留Actions。pilot43591378059真实7代数门和0/76/3300/5969四连续格全return0，完整原包cut-projector-pilot-complete-actual/，validator998e4112…/modelb30eb729…固定。原5970提案不重算，四份成功连续native后续排除复用；全5970互斥DAG已接visible-exact-complete-cut-projectors.yml，manifest394379df…原86不变加2；16段仅新增5966，prepare一次下载并运行weighted真两端，10min pull/README核及前缀push。成功格不得重跑。
 已证signed Riccati正Green比较及所有接口源；真实projector跳sec/tan，须逐格核有限ρ、正分母及D0ρ(0)<1。先等式正逆再slack，不对范数不等式直接减ρp′；particular源须保径向衰减，不能取全区间sup相乘。
-真weighted两端合同已审：全Gram腰D0²=L0²−1，cut全97行付ε/ρ、补空间Gram与mean右逆，腰零长跳必付；实际数值待prepare。旧无权重LR/DL不能照抄。全部5970连续覆盖、原ac1→repair背景、全high反馈与独立源、真qν−Z及ν-Schur仍欠。
+真weighted两端十门合同已审；全域run43594139132 prepare已成功、16段活跑，实际native仍须核。腰D0²=L0²−1、cut ε/ρ及全97行、腰零长跳必保。旧无权重LR/DL不能照抄。全部5970连续覆盖、原ac1→repair背景、全high反馈与独立源、真qν−Z及ν-Schur仍欠。
 原reviewed规则fdb83fd4…/driver7f8521cb…只管执行复用；科学manifest不得改。
 
 ## 全尾与网络
@@ -68,4 +67,4 @@ geometry43584188751真实26门return0、native88749e6d…6336b：条件为同一
 newton_source：连续regular Green/weighted两边/全源与high反馈、真qν−Z。phase_inverse：完整Xi有限部、moving自身根scalarization、两行匹配/β/j/strong。tail_connector：graph/strict/自由Airy框架/全混频网络。root逐条审证、独立推、接全非线性及最终几何。
 完整全频全源全mean逆、真ν-Schur、非线性F=0、真实外帽/尾matching及同一精确闭族尚未完成；子问题完接open下一项，阶段报告、时长和等待作业均非停止理由。
 
-两行Airy模型与完整strict首符号一致；当前waist由原degree5/simple-knot与精确奇偶结构证K′=b=S=0。当前root仍有有限对称off-diagonal (buv/η)|root，角均值0但不能删矩阵。13门独立公开audit已接，真正非局部根/positive匹配仍欠。
+两行Airy与strict一致，当前waist准确K′=b=S=0；root有限off-diagonal buv/η角均值0但矩阵保。13门audit43592219275 API成功待原件核。完整moving根scalarization已证，独立mean/弱flux/全部primitive/commutator保；全频Neumann/Sobolev合同及完整|δ|≤1e−8复根预算已接CI（manifestb1e47bdc…，原响应只消费part005），不授真PDE/两行root连接。
