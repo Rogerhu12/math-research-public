@@ -309,3 +309,5 @@ C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0�
 entry_paired_audit已部署：固定选中g/162数值，入口ell=.162新场，完整端口/五独立精化/原始对照，零优化。接实际后分辨leading截断/支持区与body/patch缺口，不能因人工Jacobian通过就重复求解。后续中段B7有明确帽高线性自由度，须先核准确支持/容量和新入口真实h，再决定height-feasible初始化或线性约束。
 
 固定原函数实际审计已完成，详notes/fixed-height-primitive-actual-audit-20261114.md。后续所有真实h/球/镜合门均用查询无关原函数；原稀疏h误差已隔离，不把新稀疏上升当几何抬高。接entry run43622984979的新场零步输出，再判断中段高度控制及入口支持/首项是否足够。
+
+中段高度方向和全局线性h约束已具备准确接口，详notes/entry-free-middle-height-control-20261114.md。entry实际h到达后核单列容量，若采取height-feasible初值须保存新的准确参数身份、公共原函数及全部实际E/F/曲率/球范围；不能将高度可达当等距/厚度可行。

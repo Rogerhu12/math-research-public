@@ -471,3 +471,5 @@ root全文核27261B frame_independent_height.py（SHAd7c52dd8…）及6379B说�
 - 2026-11-14 17:44 UTC，Astra-new-mechanism-9974ea84：部署entry_paired_audit唯一新lane。root/source全文核两新模块及22依赖，人工六jet/完整main/错误repo和notes外输入拒门通过；钉原selected/c0 raw SHA，先strict重放，再同fd5bc5fe固定g/同162数值解释新入口空间。ell=.162、均值1024，旧/新121×384及新768角对照，五单因素评价精化；无优化/无参数步，不声称修复尾patch。共享workflow仅增该40分钟步骤/允许值；publisher标新场设计非旧态精化，request不重复已完primitive/profile。首primitive实际新稀密h差2.78e−17，原metric/κ仍失败，完整审计正在整理。
 
 - 2026-11-14 17:47 UTC，Astra-new-mechanism-9974ea84：发布固定高度原函数完整实际审计。run43621210198的92来源/3原始输出/20直接源、167→162准确冻结、物理canonical924e7de与g fd5bc5fe均核。新稀密h同约.0522307355872674，差2.78e−17；分开的GL8→12和133→253panel只给约5.5e−13位置差，其余5jet与直接metric0。评价修复保原数学场，细网η.7120/κ105.79和负z/低h均未改善；R66代入仅数值后处理非连续证书。entry新场零步审计已在run43622984979/sourceac8ca043运行。
+
+- 2026-11-14 17:48 UTC，Astra-new-mechanism-9974ea84：发布中段高度准确控制接口，root/source全式核。第五活动列即完整N7,5，支撑[.198,.684]且积分81/1000；与入口ell=.162及自然patch.746互不干扰。原系数准确−1+2⁻⁵³，在原盒向上容量.081(2−2⁻⁵³)；给全位置二jet和E/F完整二次更新。全九列共同帽高为hbase+λᵀc；固定a/T时样本分离/球约束可线性写出，联合uv仍非线性。没有实际抬升/优化，先读entry新场共同h，尾patch与strip缺口不会靠该列修复。
