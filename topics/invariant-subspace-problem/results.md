@@ -191,3 +191,8 @@
 ### 同一加位源的完整右、bare与真实高返回Schur
 
 [完整证明](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)以原有限孔层有界幂右逆证明共同自然域、实际边界源满射与高零源像闭；不假设全孔D†有界。完整右Gram保持q/q−1两切口；full→bare规范J_a=(Qx+aR_hP_hy,Qy)中的R_d项在两个真实首源规范之间抵消，非直接投影为零。固定bare首源的真实最小完整能量是Hbare+E_ret，E_ret=Hret*(I−Π_Tfull kerJ)Hret≥0，故G=Bbare(Hbare+E_ret)⁻¹Bbare*、B⁻¹=Bbare Hbare⁻¹Bbare*。原flat次序LGL保留；高返回是硬核像与横向次数≥q+2的交集角度。旧四头实际例排仅凭头重构常数支付该角度，未排原连续尾/实际规范源。E_ret在原同窗源上的预算继续。
+
+
+### 原实际左域与同源Z逆：部分零模Gram
+
+[完整证明](notes/2026-11-14-actual-left-partial-zero-mode-gram-and-source-resolvent-budget-789f-next.md)由所有真实低输出行得到V_p内v=P≤p R_Ah、h=P0v，准确闭像Z_p^left保原硬核约束。按横向birth b的部分头Gram Σ_(j≤p−b)(A^j)*A^j/(S^j j!)给I≤H_p≤C_m，logC_m=O(m logm)；完整像压缩后才取逆。保同一实际边界和完整受限尾列，J=E H_p⁻¹E*及Z0⁻¹≤Z⁻¹≤C_m Z0⁻¹均成，亦给同一source splitting变分式。固定低物理测试的y_f=R_A*f不随p变、尾真空时为f；实际P0q_p=H_p⁻¹P_Z y_f，不声称反馈保持birth。保全左前缀的boson核延伸费用≤C_m，仍须原硬核/高返回修复。
