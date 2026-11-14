@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 13:02:12 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 13:04:33 UTC。**主目标未完成，持续研究。**
 
 ## 规则、位置、同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学全部直接用该公开仓库 Actions。
 最后实际本地 pull --rebase/两README差异核：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35起共享终端返回 No usable execution environment；未推小文本按根规矩8以已连接GitHub恢复，未传二进制或大数据。
-最新远端 main/两README blob 核：0802f4c1e09826a9fac2ee758f5d7239150232f8；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均未变。此为API读取，不冒称本地git pull；runner仍每10min真pull/README核。
+最新远端 main/两README blob 核：23d1a4e351c188bc0c988740e07c9c2259ad7ebf；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均未变。此为API读取，不冒称本地git pull；runner仍每10min真pull/README核。
 每条结论独立接最新base tree/parent，expected_sha且force=false；竞争立即重新读main和两README、保并发后续接。终端恢复即回终端git/pull。
 已亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542（新增new-mechanism课题）。PAT只瞬时CLI/env，绝不文件/输出/提交/connector参数。
 root独占branch/ref及H/open/results/log；代理仅保存<100KB新文本blob，不改branch。七件Green源已原字节恢复，不同重建稿不冒原SHA。
@@ -48,7 +48,7 @@ pilot43591378059真实7代数门及0/76/3300/5969四格全成；validator998e411
 全覆盖run43594139132：prepare成功，16互斥段活跑，仅新增5966；原四native逐字复用。manifest394379df…原86不变加2。各runner每10min真pull/README核、保存成功前缀，不重跑成功格。最终须exact5970唯一并集及全部anchor/jump核。
 真实weighted两端已根核十门全成：native56db8a34…dc25；腰L0<1016.779086/D0<1016.778594；cut LR<4.076853888/DL<.003613121034。全部97行/mean/ε÷ρ保。腰原frame在0−，必须先付最后0+→0−sec/tan跳再核D0ρ(0−)<1。详actual-complete-true-weighted-cut-and-waist-boundaries。
 signed Riccati正Green定理已证：先等式正逆再slack，逐片signed μν与无pole、每界面正分母、完整两向源及有序径向衰减。不能先对范数不等式减ρp′，不能全区间sup相乘。
-七件Green源/合同/workflow/93项manifest均原SHA已接公开CI；43596517945真实七代数门/child0已成，native60e69d61…08f3；full5970成功后workflow_run自动消费原完整body/mean，七门按完整SHA复用不重跑。四独立通道为残差、trial跳、左边界单位、右边界单位；全[0,.9]和phase所需负段L2分别保。未授未知high/原ac1→repair/帽独立源或真qν−Z。
+七件Green源/合同/workflow/93项manifest均原SHA已接公开CI；43596517945真实七代数门/child0已成，native60e69d61…08f3；full5970成功后workflow_run自动消费原完整body/mean，七门按完整SHA复用不重跑。四独立通道为残差、trial跳、左边界单位、右边界单位；全[0,.9]和phase所需负段L2分别保。未授未知high/帽独立源或真qν−Z。ac1→repair已知q*源差已另接公开123输入消费者，原117逐SHA不变；只算7721格Bernstein范数/完整DF与Fν差，保主部mean导数和新mean残差，原trial/body/mean不重算。
 
 ## 全尾与同一有序网络
 
