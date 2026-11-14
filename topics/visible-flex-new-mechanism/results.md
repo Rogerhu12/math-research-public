@@ -83,3 +83,5 @@
 - [R39：显式三矩圆、真实二阶路径与三阶相容通道](results/R39-explicit-moment-circle-and-third-order-range.md) — 四对分离光滑bump以准确权重给全部三矩相等与逐点交叉零，任意紧活动区可共同缩放；R37上真实Zd给Zθ=sin²θ Zd。固定gε误差明确为ε³及ε⁴两项；下一阶准确等价于两个完整range通道，其周期障碍不受二阶同collar profile gauge影响。两三阶通道尚未证明通过，不冒称有限族。
 
 - [R40：准确S11弯平尾、全尾法弦与球支持预算](results/R40-bent-flat-tail-normal-chord-and-ball-budget.md) — α为C5、P为C6并准确保平度量与rc内固定盘；全尾连续点对的法弦下界为768/9625，完整广义柱面有对应reach，但有限帽只据此支付尾内点对。真实幅1/4、宽.054使高度降≤27/4000。完整面若在半径1.01球及|y|≤.38内，则δhold/D≥31/101、Hdiam/D≥22/101，τ=.061足够；连接与其全域点对未付。
+
+- [R41：弯平尾的局部平角区间与有限解析类排除](results/R41-bent-tail-local-flat-sector-rigidity.md) — R38无需整圈周期；新尾在固定角条带仍平且右Hermite增量恒零，局部尾唯一性跨有限解析径向片迫入口旋转，违椭圆uθ(0)>0。准确Π重构若精确等距亦受限。未给正误差下界，未排一般C2或非解析精化极限。
