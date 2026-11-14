@@ -1,0 +1,23 @@
+{
+  "inputBindingSHA256": "f5a1740b9a0271e5371b440e09b14fddf125d0b7b7ec289dba4952d1d30af5c1",
+  "outputs": {
+    "inputs/original-integer-31squaredh0-mod28629151.txt": "2cc37d9863eb1035a2dfdfedb76e317b4ff170eed92e82587b2b431d47addd27",
+    "inputs/original-integer-31squaredh0-mod28629151.txt.json": "7c3647e643dc38f08e95dbbe143556697c8378186cb02bf1423b67c049c204f2"
+  },
+  "nativeStatistics": {
+    "format": "r150-same-original-integer-model-mod31five-v1",
+    "status": "completed",
+    "prime": 31,
+    "modulus": 28629151,
+    "target": "31^2*h0",
+    "all4433OriginalEquationResiduesVerified": true,
+    "all18OriginalRowScaleResiduesVerified": true,
+    "lowerMod31FourEquationModelAndDividedTargetVerified": true,
+    "exactIntegerJSONSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3",
+    "lowerModelSHA256": "0870eadfcae9f408e6a5ae38ea2322d535ed3703e93c04ed686ab020bc8898f3",
+    "modelSHA256": "2cc37d9863eb1035a2dfdfedb76e317b4ff170eed92e82587b2b431d47addd27",
+    "modelBytes": 34203,
+    "exactOriginalModelRegenerated": false,
+    "onlyExactSavedIntegerReductionPerformed": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "inputBindingSHA256": "8d086be4728932478e397d52a2e28c5f8b76b021b1a333d9250b37d89fe84876",
+  "outputs": {
+    "genuine-seven-normal/genuine-seven-normal-normal-forms.bin": "6c5fac276bb8d58c7176d5936d9bd7301e0b470deae344f1c9235d5016fe7acf",
+    "genuine-seven-normal/genuine-seven-normal-reduction.bin": "2f7c4215d79aefe294af1570a7b295026d77f468a99cf961f01c1f7b66f0fdd3",
+    "genuine-seven-normal/genuine-seven-normal-forward.bin": "66ab292e67681fa17d286fee516d830fa25017138e354f82dbb9c33e7f50976e",
+    "genuine-seven-normal/genuine-seven-normal-backward.bin": "cb396444652183924167e9cacaae888125c0e758e639af92b9784f7d1534132f"
+  },
+  "nativeStatistics": {
+    "status": "seven-augmented-second-normal-forms-complete",
+    "sources": 0,
+    "targets": 7,
+    "components": 1034,
+    "forwardOperations": 782976,
+    "backwardOperations": 1010703,
+    "normalOperations": 1150734,
+    "originalRHSCost": 88,
+    "originalRHSNonzeroCoefficients": 1544936,
+    "peakRSSKiB": 79228,
+    "elapsedSeconds": 6.22059
+  }
+}

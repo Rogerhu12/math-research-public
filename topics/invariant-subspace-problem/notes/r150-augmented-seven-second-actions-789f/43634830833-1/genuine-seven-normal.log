@@ -1,0 +1,16 @@
+{"phase":"forward-prebasis","mDegree":2,"pivots":11,"operations":11,"elapsedSeconds":0.00154961}
+{"phase":"same-degree-rref","mDegree":2,"operations":47,"elapsedSeconds":0.00158612}
+{"phase":"forward-prebasis","mDegree":3,"pivots":121,"operations":952,"elapsedSeconds":0.00280431}
+{"phase":"same-degree-rref","mDegree":3,"operations":2855,"elapsedSeconds":0.00394401}
+{"phase":"forward-prebasis","mDegree":4,"pivots":671,"operations":39010,"elapsedSeconds":0.0374013}
+{"phase":"same-degree-rref","mDegree":4,"operations":79679,"elapsedSeconds":0.0940882}
+{"phase":"forward-prebasis","mDegree":5,"pivots":2530,"operations":782976,"elapsedSeconds":1.95366}
+{"phase":"same-degree-rref","mDegree":5,"operations":1010703,"elapsedSeconds":4.11738}
+{"phase":"normal-form","sourceRow":0,"target":7001,"mDegree":5,"parameterDegree":86,"nonzeroComponents":1034,"nonzeroCoefficients":55269,"rowReductions":160642,"elapsedSeconds":4.45491}
+{"phase":"normal-form","sourceRow":0,"target":7002,"mDegree":5,"parameterDegree":87,"nonzeroComponents":1034,"nonzeroCoefficients":56370,"rowReductions":163938,"elapsedSeconds":4.74563}
+{"phase":"normal-form","sourceRow":0,"target":7003,"mDegree":5,"parameterDegree":88,"nonzeroComponents":1034,"nonzeroCoefficients":57350,"rowReductions":167219,"elapsedSeconds":5.04352}
+{"phase":"normal-form","sourceRow":0,"target":7004,"mDegree":5,"parameterDegree":87,"nonzeroComponents":1034,"nonzeroCoefficients":56303,"rowReductions":163932,"elapsedSeconds":5.33545}
+{"phase":"normal-form","sourceRow":0,"target":7005,"mDegree":5,"parameterDegree":87,"nonzeroComponents":1034,"nonzeroCoefficients":56308,"rowReductions":164028,"elapsedSeconds":5.62893}
+{"phase":"normal-form","sourceRow":0,"target":7006,"mDegree":5,"parameterDegree":88,"nonzeroComponents":1034,"nonzeroCoefficients":57370,"rowReductions":167024,"elapsedSeconds":5.92727}
+{"phase":"normal-form","sourceRow":0,"target":7007,"mDegree":5,"parameterDegree":87,"nonzeroComponents":1034,"nonzeroCoefficients":56346,"rowReductions":163951,"elapsedSeconds":6.22044}
+{"status":"seven-augmented-second-normal-forms-complete","sources":0,"targets":7,"components":1034,"forwardOperations":782976,"backwardOperations":1010703,"normalOperations":1150734,"originalRHSCost":88,"originalRHSNonzeroCoefficients":1544936,"peakRSSKiB":79228,"elapsedSeconds":6.22059}

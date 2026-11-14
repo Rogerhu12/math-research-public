@@ -1,0 +1,28 @@
+{
+  "inputBindingSHA256": "8aac3970963d274b56bed3da2582eaeb045b1c71b0070af0e2f1fc27bcf76a49",
+  "outputs": {
+    "genuine-seven-q-source/genuine-seven-q-source-standard-coefficients.bin": "8ebfb6cf57f2666c9f47c6dbaea5ad60d932863ba2de2c70bb03c4bf771deab8",
+    "genuine-seven-q-source/genuine-seven-q-source-source-certificate.json": "195552e19d42f077acd74e392fed7ee26e52e4955a7ccc9b31e9a6cdf4e5e89d",
+    "genuine-seven-q-source/genuine-seven-q-source-vq-checkpoint.bin": "afd50dc3aab39b0d4f35f5f4c6b9d9bb5e8affeb1f2ec3bb9d5737a8cba0fecf"
+  },
+  "nativeStatistics": {
+    "status": "packed-image-source-convolution-complete",
+    "fullNormalFormDecompositionIdentity": true,
+    "standardKernelNormalForm": true,
+    "completeRHSInImage": true,
+    "originalSeventeenEquationTransported": false,
+    "targetStandardSourceCosts": [
+      86,
+      87,
+      88,
+      87,
+      87,
+      88,
+      87
+    ],
+    "sourceMonomialProducts": 93312851,
+    "kernelReductions": 845842,
+    "peakRSSKiB": 111596,
+    "elapsedSeconds": 59.5765
+  }
+}
