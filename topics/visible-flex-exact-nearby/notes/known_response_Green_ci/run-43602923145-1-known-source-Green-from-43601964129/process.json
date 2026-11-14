@@ -1,0 +1,86 @@
+{
+  "kind": "actual_public_cached_complete_finite193_Green_known_source_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43602923145",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "c055125e31488bf21ebdfe7082a0e63400227eae",
+  "worker_source_sha256": "76ed6c616b262888606549af8558b3596a73f21858172930adaf08b3135248dd",
+  "started_utc": "2026-11-14T14:05:08.244452+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T14:05:09.122387+00:00",
+      "before": "c055125e31488bf21ebdfe7082a0e63400227eae",
+      "after": "97336ee5862ef4366cd4e7d3180f2c1d7c6fe72b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T14:05:09.484074+00:00",
+      "before": "97336ee5862ef4366cd4e7d3180f2c1d7c6fe72b",
+      "after": "97336ee5862ef4366cd4e7d3180f2c1d7c6fe72b",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": null,
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_complete_Green_run": 43601964129,
+  "actual_complete_repair_source_run": 43597921732,
+  "actual_complete_boundary_source_run": 43599771405,
+  "exact_affine_parameter_offset": "0",
+  "physical_parameter": "fixed original physical eta0 and nu",
+  "original_Riccati_ports_recomputed": 0,
+  "original_projector_cells_recomputed": 0,
+  "original_four_source_columns_recomputed": 0,
+  "original_mean_flows_recomputed": 0,
+  "original_cap_matrix_or_cap_trial_residual_recomputed": 0,
+  "complete_finite193_compressed_response_error_bound_proved": false,
+  "actual_full_PDE_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "24fb477b69e7d2ca2315417f61db3a0a00a37054271f62245bf8bb0af75395ff",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "97336ee5862ef4366cd4e7d3180f2c1d7c6fe72b",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-known-Green-work/science",
+  "failure": {
+    "type": "ValueError",
+    "message": "the original repair-source process bytes changed"
+  },
+  "finished_utc": "2026-11-14T14:05:09.193152+00:00",
+  "snapshot_utc": "2026-11-14T14:05:09.496765+00:00",
+  "wall_seconds": 1.2530210940000046,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-green-process.json",
+      "file": "evidence/original-green-process.json",
+      "bytes": 8548,
+      "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    }
+  ]
+}
