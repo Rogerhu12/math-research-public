@@ -1,0 +1,594 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T18:24:55.936167+00:00",
+  "source_commit": "5c6f45fcac65d96f6b64c8d97f842efcd280f342",
+  "run_id": "43626121246",
+  "run_attempt": "1",
+  "lane": "rawcell0gauge",
+  "files": [
+    {
+      "source": "actual28-artifact-fetch-receipt.json",
+      "bytes": 44420,
+      "sha256": "a9c4d9ca38df7676e52d4415364d55e1fa71a1c525896a87b14d297b092e71c9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/actual28-artifact-fetch-receipt.json",
+      "published_bytes": 44420,
+      "published_sha256": "a9c4d9ca38df7676e52d4415364d55e1fa71a1c525896a87b14d297b092e71c9"
+    },
+    {
+      "source": "actual41-artifact-fetch-receipt.json",
+      "bytes": 1235796,
+      "sha256": "aa972385acbdc07d3ab35eab54800e65439a11df0a0d71809068772440763a5e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/actual41-artifact-fetch-receipt.json.gz",
+      "published_bytes": 207954,
+      "published_sha256": "4760b64c2b1505fe35347b06a60c3788dc3165dbcc77ee8478fcf7f9504d5b1e"
+    },
+    {
+      "source": "rawcell0-gauge-correction/equilibration-00.json",
+      "bytes": 2501,
+      "sha256": "ac399756cffc8434e7b747a68a1d1f3bc25f289292ad0780b521e753da013f25",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/equilibration-00.json",
+      "published_bytes": 2501,
+      "published_sha256": "ac399756cffc8434e7b747a68a1d1f3bc25f289292ad0780b521e753da013f25"
+    },
+    {
+      "source": "rawcell0-gauge-correction/equilibration-01.json",
+      "bytes": 2497,
+      "sha256": "6c06b83ec96767e8ca6dea3bfb78cfb1fa44cd39aaae91ffd53cf0011e1dd1cf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/equilibration-01.json",
+      "published_bytes": 2497,
+      "published_sha256": "6c06b83ec96767e8ca6dea3bfb78cfb1fa44cd39aaae91ffd53cf0011e1dd1cf"
+    },
+    {
+      "source": "rawcell0-gauge-correction/equilibration.json",
+      "bytes": 6992,
+      "sha256": "754da2d87da94cb97e1a7d8d77cb1eb24d9284cbd98d38809be80ecefa3de979",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/equilibration.json",
+      "published_bytes": 6992,
+      "published_sha256": "754da2d87da94cb97e1a7d8d77cb1eb24d9284cbd98d38809be80ecefa3de979"
+    },
+    {
+      "source": "rawcell0-gauge-correction/factorization.json",
+      "bytes": 3977,
+      "sha256": "1e83b324a7a96724a752b723c6b2e370427094bb3a2aaf929ea86249c08eb5e0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/factorization.json",
+      "published_bytes": 3977,
+      "published_sha256": "1e83b324a7a96724a752b723c6b2e370427094bb3a2aaf929ea86249c08eb5e0"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-formation-progress.json",
+      "bytes": 2964,
+      "sha256": "437b9cb67c3e53cf448676bbb3e96d282d0d42ac482ce838dd9baefa19e052f9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-formation-progress.json",
+      "published_bytes": 2964,
+      "published_sha256": "437b9cb67c3e53cf448676bbb3e96d282d0d42ac482ce838dd9baefa19e052f9"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-formation-summary.json",
+      "bytes": 6214,
+      "sha256": "4edfa5c322d37094b022d3877d16cad08a82c858e5a1557a05e89d9a947cd9c8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-formation-summary.json",
+      "published_bytes": 6214,
+      "published_sha256": "4edfa5c322d37094b022d3877d16cad08a82c858e5a1557a05e89d9a947cd9c8"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-iteration-00.json",
+      "bytes": 16440,
+      "sha256": "0aab2c439cb59527abcc293ab69de7c85a89c19f79938ddcf768422aac2df682",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-iteration-00.json",
+      "published_bytes": 16440,
+      "published_sha256": "0aab2c439cb59527abcc293ab69de7c85a89c19f79938ddcf768422aac2df682"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-iteration-01.json",
+      "bytes": 16401,
+      "sha256": "20ce33e2519c4e3562bc34d423bcd58738cf958d36fdf1ea1220f4919cbf1fd6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-iteration-01.json",
+      "published_bytes": 16401,
+      "published_sha256": "20ce33e2519c4e3562bc34d423bcd58738cf958d36fdf1ea1220f4919cbf1fd6"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-iteration-02.json",
+      "bytes": 16409,
+      "sha256": "eb3ad76244e68ea8534ae7e9a7a7a7c16a8395f4e9e3a0b518a99b85f360ba8c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-iteration-02.json",
+      "published_bytes": 16409,
+      "published_sha256": "eb3ad76244e68ea8534ae7e9a7a7a7c16a8395f4e9e3a0b518a99b85f360ba8c"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-matrix-binding.json.gz",
+      "bytes": 157694,
+      "sha256": "00888ecfdcfae8e5e651b934e8e9486e743d3308784b9be40a80f404be410ab5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-matrix-binding.json.gz",
+      "published_bytes": 157694,
+      "published_sha256": "00888ecfdcfae8e5e651b934e8e9486e743d3308784b9be40a80f404be410ab5"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-original-direction-checkpoint.json.gz",
+      "bytes": 3277376,
+      "sha256": "680f838603ac3c6f08b99ed1845d373306dc170b8171be25f61d090934aa8f49",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-original-direction-checkpoint.json.gz",
+      "published_bytes": 3277376,
+      "published_sha256": "680f838603ac3c6f08b99ed1845d373306dc170b8171be25f61d090934aa8f49"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-original-direction-iteration-00.json.gz",
+      "bytes": 3277979,
+      "sha256": "591f0936882da2e42eec7b6c79bc8f4675c4266569a70b6edeae01040c249a0f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-original-direction-iteration-00.json.gz",
+      "published_bytes": 3277979,
+      "published_sha256": "591f0936882da2e42eec7b6c79bc8f4675c4266569a70b6edeae01040c249a0f"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-original-direction-iteration-01.json.gz",
+      "bytes": 3277376,
+      "sha256": "680f838603ac3c6f08b99ed1845d373306dc170b8171be25f61d090934aa8f49",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-original-direction-iteration-01.json.gz",
+      "published_bytes": 3277376,
+      "published_sha256": "680f838603ac3c6f08b99ed1845d373306dc170b8171be25f61d090934aa8f49"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-original-direction-iteration-02.json.gz",
+      "bytes": 3276745,
+      "sha256": "09c38aaacf02f80d01068ad5925f4ef0d1a356bdcf52283446e48e9faadac7a2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-original-direction-iteration-02.json.gz",
+      "published_bytes": 3276745,
+      "published_sha256": "09c38aaacf02f80d01068ad5925f4ef0d1a356bdcf52283446e48e9faadac7a2"
+    },
+    {
+      "source": "rawcell0-gauge-correction/gauge-restricted-original577-direction.json.gz",
+      "bytes": 1473203,
+      "sha256": "ff7027514d5ffed3930475c24e9ff583eb56dd7d06bc23dcd8b4bbef7ac36475",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/gauge-restricted-original577-direction.json.gz",
+      "published_bytes": 1473203,
+      "published_sha256": "ff7027514d5ffed3930475c24e9ff583eb56dd7d06bc23dcd8b4bbef7ac36475"
+    },
+    {
+      "source": "rawcell0-gauge-correction/initial-actual-gauge-rhs.json",
+      "bytes": 4038,
+      "sha256": "436f7ac03bcfab09578695de6de892b2ec02e73a3b2ae532933f8ac7752f1861",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/initial-actual-gauge-rhs.json",
+      "published_bytes": 4038,
+      "published_sha256": "436f7ac03bcfab09578695de6de892b2ec02e73a3b2ae532933f8ac7752f1861"
+    },
+    {
+      "source": "rawcell0-gauge-correction/initial-solve-and-recovery.json",
+      "bytes": 5078,
+      "sha256": "763f7484f7461733b368181c4f0119f8a11bc8a9a3c6e6bf555de72970f0c0ef",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/initial-solve-and-recovery.json",
+      "published_bytes": 5078,
+      "published_sha256": "763f7484f7461733b368181c4f0119f8a11bc8a9a3c6e6bf555de72970f0c0ef"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-00-actual-gauge-rhs.json",
+      "bytes": 4594,
+      "sha256": "1a01acae325d3bd0e9086ea833a230f7a6d29ace51ab1b417c1014381ca7a990",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-00-actual-gauge-rhs.json",
+      "published_bytes": 4594,
+      "published_sha256": "1a01acae325d3bd0e9086ea833a230f7a6d29ace51ab1b417c1014381ca7a990"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-00-exact-global-witness.json",
+      "bytes": 14419,
+      "sha256": "cff7cd9117d0bc4eec8de1cb315f0373d8ba8091d008e41dc50026c1325c6aa7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-00-exact-global-witness.json",
+      "published_bytes": 14419,
+      "published_sha256": "cff7cd9117d0bc4eec8de1cb315f0373d8ba8091d008e41dc50026c1325c6aa7"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-00-exact-residual-summary.json",
+      "bytes": 10903,
+      "sha256": "a46bc28821e2b59864ad9dfa81a1826ebd76e9f24cc8a22eeadaf0449595dadf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-00-exact-residual-summary.json",
+      "published_bytes": 10903,
+      "published_sha256": "a46bc28821e2b59864ad9dfa81a1826ebd76e9f24cc8a22eeadaf0449595dadf"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-01-actual-gauge-rhs.json",
+      "bytes": 4557,
+      "sha256": "31be7bef1e0742867a6ea6909f8d0b3d46cd308f78b29b5c4bbcbe839bcefe83",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-01-actual-gauge-rhs.json",
+      "published_bytes": 4557,
+      "published_sha256": "31be7bef1e0742867a6ea6909f8d0b3d46cd308f78b29b5c4bbcbe839bcefe83"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-01-exact-global-witness.json",
+      "bytes": 14488,
+      "sha256": "8ca47a9a5ece2ff807c2ad8310456aed99660f4d23f30359515f5a925b66d582",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-01-exact-global-witness.json",
+      "published_bytes": 14488,
+      "published_sha256": "8ca47a9a5ece2ff807c2ad8310456aed99660f4d23f30359515f5a925b66d582"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-01-exact-residual-summary.json",
+      "bytes": 10901,
+      "sha256": "bc63fa72bc6fe04c771a280d7a46bcc926b13ffcffb373cfd4d76d71c000ac5c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-01-exact-residual-summary.json",
+      "published_bytes": 10901,
+      "published_sha256": "bc63fa72bc6fe04c771a280d7a46bcc926b13ffcffb373cfd4d76d71c000ac5c"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-02-actual-gauge-rhs.json",
+      "bytes": 4557,
+      "sha256": "51a58f075676d8c5e23e45c41ae9f75d60cc14e531d58b4dcfb63eccc140b2d7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-02-actual-gauge-rhs.json",
+      "published_bytes": 4557,
+      "published_sha256": "51a58f075676d8c5e23e45c41ae9f75d60cc14e531d58b4dcfb63eccc140b2d7"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-02-exact-global-witness.json",
+      "bytes": 14494,
+      "sha256": "fb44b8e8bd0ca0a75d86a8147e16d9000f125b94cc2991a0527bce4eec1d2863",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-02-exact-global-witness.json",
+      "published_bytes": 14494,
+      "published_sha256": "fb44b8e8bd0ca0a75d86a8147e16d9000f125b94cc2991a0527bce4eec1d2863"
+    },
+    {
+      "source": "rawcell0-gauge-correction/iteration-02-exact-residual-summary.json",
+      "bytes": 10908,
+      "sha256": "8d3feae233202d7e8f3dad4fbc8b6f5f43163c23b94cae7aab0a72ba89d034bc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/iteration-02-exact-residual-summary.json",
+      "published_bytes": 10908,
+      "published_sha256": "8d3feae233202d7e8f3dad4fbc8b6f5f43163c23b94cae7aab0a72ba89d034bc"
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/complete-original1372-gauge-produced-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "10ed4f19b2ea2acf2b3a218d2ce8ee6a575b1982c0fcda431c850a524903b128",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/complete-original577-restricted-delta.f64le",
+      "bytes": 1033984,
+      "sha256": "62939e70eb366988c00623fc46645bb07c8a28f6619831916f69996a50c8aed7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/equilibration-00-column-step.i32le",
+      "bytes": 1230208,
+      "sha256": "18ae074e564f47dbc1e878d52a72f87a6953f8787353589e9e38092bf4b4ccc8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/equilibration-00-row-step.i32le",
+      "bytes": 1230208,
+      "sha256": "108e7b178c24e29efa5b91a995122628b74564013e29fe4e6ecee4f08c7a3907",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/equilibration-01-column-step.i32le",
+      "bytes": 1230208,
+      "sha256": "be49bbceef6e2c353f0dacf56d63677011a28dd2f42c5233e4996969a52dcfb9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/equilibration-01-row-step.i32le",
+      "bytes": 1230208,
+      "sha256": "be49bbceef6e2c353f0dacf56d63677011a28dd2f42c5233e4996969a52dcfb9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/final-column-dyadic-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "4fd41fb3525bc4fe701bc1af099f4a0ce7856c00877542ac7f3a3785399eafaf",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/final-row-dyadic-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "11aa113eef7dcf29548d1b2e7f3047561e2e4e7c9850112b70632a37fcb6a458",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/formed-column-max-absolute-entry.f64le",
+      "bytes": 2460416,
+      "sha256": "58cf0c5a54f1c22d2fafa2407252a9c81bf117bff86c10a8cec0a5f28cff1488",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/formed-gauge-changed-stage-J.f64le",
+      "bytes": 348823552,
+      "sha256": "f917692b01323f05e20801cd8b570fc98a0f422e4c89b725d60692348e72595e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/formed-row-max-absolute-entry.f64le",
+      "bytes": 2460416,
+      "sha256": "aae52046abe4714c16ace06ecaeb85e6744007c7bb239d1574dbfef315e371bb",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/gauge-alpha.f64le",
+      "bytes": 10984,
+      "sha256": "cd096c91b13679661e06c76fe251accb537c06cac819d1062e76f89b7185c660",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/gauge-beta.f64le",
+      "bytes": 1230208,
+      "sha256": "35c2357a79c33262d03513c5a885d26708b4f171442b697f77917f36460d7ea8",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/gauge-eta.f64le",
+      "bytes": 10984,
+      "sha256": "de1f78e6b4bae40d7f5412155b3ccc4a95bc104bf1fefbba4b0143e0de4f3e35",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/initial-actual-gauge-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "c451ccc282498937141b046e724a947f49bc57f9455628c2c8fb8c3e9115e8ff",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/initial-column-dyadic-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "e44d0408307728a9accc21438ea015197d5ec517db1857289bbefeee57a1f242",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/initial-dyadically-scaled-gauge-direction.f64le",
+      "bytes": 2460416,
+      "sha256": "c0eacb690d7d660c1fbf8a68a2ecec711a4c9c2ef0903c0413bc9ae10235a80d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/initial-node-dyadic-exponents.i32le",
+      "bytes": 5492,
+      "sha256": "b190f52911e3833ae8c79269e4ff90e078ee21dce6683e676d53647fa767325a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/initial-row-dyadic-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "89e291646f3b52173823b65dbf2808222d245a2c476731bcd16bb07fb90db44e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/initial-saved-G-coordinate-direction.f64le",
+      "bytes": 2460416,
+      "sha256": "2ed455cddbcbba83bba2dc067a9fb2db0698a2aa521364e7059abdfc34b55f33",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-00-actual-gauge-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "548eeadb85042702a61f6c69c1aa55bfa71a828b0c3ec80f4f424b30cb0cb226",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-00-exact-residuals.jsonl.gz",
+      "bytes": 8765846,
+      "sha256": "52f4b16bf81cea8e32e37160149059ccc86589d19b01efb0f9c3ddb433be45c7",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-00-original1372-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "ce3369e45e2793b6101e3e67e6f7b98cb94b93e572d237d409a2381c44fdd64a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-00-refinement-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "e010a0063630f5759ff178145a171347d584020eb7599f0828c9995452459789",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-01-actual-gauge-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "d1ec38b5d3dc7bb379bc5d7d4b481cf3760b7204e0d3ab60335c4c08411e6f9a",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-01-exact-residuals.jsonl.gz",
+      "bytes": 8705720,
+      "sha256": "7c53d29e9fd60376fc00cc8055cd9146defb12f017c7c94c743f0bcf7179f90b",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-01-original1372-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "10ed4f19b2ea2acf2b3a218d2ce8ee6a575b1982c0fcda431c850a524903b128",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-01-refinement-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "a25772d4df7193f804fa37c96615e9c0db206a12e184d7d7a5e317c15c83a301",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-02-actual-gauge-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "6e82d285927fc8301689117e5b5be165e8ba220a19e3c7d7b2a90e3a2de87da0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-02-exact-residuals.jsonl.gz",
+      "bytes": 8690486,
+      "sha256": "ac0e81f89f1f04e1dcff0cd78c6e843ef31e44e429a0206c1c4392bf06431aef",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-02-original1372-delta.f64le",
+      "bytes": 2460416,
+      "sha256": "c50e82d27ac3814ac071acd572821280de84040f3e80bb7dc487884498aaf69e",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/iteration-02-refinement-rhs.f64le",
+      "bytes": 2460416,
+      "sha256": "282b907a76daf67c14a108e809efbdfcec6008ca4b4044bcde358cf2aa300c4d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/lapack-pivots.i32le",
+      "bytes": 1230208,
+      "sha256": "d7299152f93928ce68a574feb40a2603bf62d8b2f9ef8c2113c18b8a761986ab",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/original-exact-evaluator-auxiliary-row-exponents.i32le",
+      "bytes": 1230208,
+      "sha256": "48400ad68d67ef45969f652ffc0543578f70b2a5307b0bfe28db9806b43110bc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/refinement-01-dyadically-scaled-gauge-direction.f64le",
+      "bytes": 2460416,
+      "sha256": "2efc932c5b6e95215cadc3f3b2d5fa04166691d9c324e4fba8b2c6f03d2bd2e4",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/refinement-01-original1372-increment.f64le",
+      "bytes": 2460416,
+      "sha256": "7c9414aeec46bdc09fc0ef1d6b78e25853b1cbfd977cfe12514e723e65a93eb0",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/refinement-01-saved-G-coordinate-direction.f64le",
+      "bytes": 2460416,
+      "sha256": "0a2192a3adb3520fd217d00128a56214b4f56531b93e9b2676487fe794541bd3",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/refinement-02-dyadically-scaled-gauge-direction.f64le",
+      "bytes": 2460416,
+      "sha256": "d28552e7c0a9fc36dee5f023c65aae1340bb9fcee97e53421aad9f607d6aef89",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/refinement-02-original1372-increment.f64le",
+      "bytes": 2460416,
+      "sha256": "ccebfcfc1ccd5d9a1ce2ad6370353be1a80b5cd9f217699745b6a06238a3d517",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/refinement-02-saved-G-coordinate-direction.f64le",
+      "bytes": 2460416,
+      "sha256": "ded20bc73952e31868fcb8cef782d0ff4cab6c5c2eec84788bed124720bf6a98",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-base-states.f64le",
+      "bytes": 2460416,
+      "sha256": "e36f5e5e4426587ff383790b8ff7c108de1c3723e56b11bc657eabf6c5327412",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-cut-residual.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-cut-target.f64le",
+      "bytes": 896,
+      "sha256": "e2ea4563e7afc7d993db2ebc29ef63a1d853355c9d1ceeaf10f296b84391a14d",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-end-residual.f64le",
+      "bytes": 896,
+      "sha256": "d54f02b97ed5bc2a642756268b41d4b8f7a077e73224e1580d22436834a14db5",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-original-far-graph.f64le",
+      "bytes": 896,
+      "sha256": "395804bb32582680dd544c6278862f51919c7598b3a1a526f1194f18deffda54",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-original-scales.f64le",
+      "bytes": 10984,
+      "sha256": "7b384c1a8e4354e9e0f8d416f11b387d8012bdba6547d6ab31a191b4592166e9",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-physical-height.f64le",
+      "bytes": 896,
+      "sha256": "c35972d038321acf6db273248189b1e1d2527aa6eb2b323d37fcde4da448682f",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-stage-out.f64le",
+      "bytes": 2458624,
+      "sha256": "0abf389f3a3b32ae8037481c29ede5b61945a613de6ffab45c8d5fa45e6578aa",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/large-arrays/step-system-stage-residuals.f64le",
+      "bytes": 2458624,
+      "sha256": "41c7e0bc65409c3dd27889abb0b464d4cdf8d6ec3cba01a04f96444a659befbc",
+      "not_published": "Complete reproducible native-model binary array retained in the Actions artifact. The public capture manifest records every chunk, original source/input identity, shape and raw-byte SHA."
+    },
+    {
+      "source": "rawcell0-gauge-correction/node-gauge-anchors.json.gz",
+      "bytes": 92943,
+      "sha256": "35b85261dc60e0930946b1a6d5c4b5731047217bf3a07f8878b99a44d115ae11",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/node-gauge-anchors.json.gz",
+      "published_bytes": 92943,
+      "published_sha256": "35b85261dc60e0930946b1a6d5c4b5731047217bf3a07f8878b99a44d115ae11"
+    },
+    {
+      "source": "rawcell0-gauge-correction/original-input-binding.json.gz",
+      "bytes": 158517,
+      "sha256": "04dc5a08970510ec4ee2c482514930d22e6b68aff85831762e2c1d75b1bf8d3c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/original-input-binding.json.gz",
+      "published_bytes": 158517,
+      "published_sha256": "04dc5a08970510ec4ee2c482514930d22e6b68aff85831762e2c1d75b1bf8d3c"
+    },
+    {
+      "source": "rawcell0-gauge-correction/output-array-manifest.json",
+      "bytes": 25042,
+      "sha256": "f0533e52327eff3789e41fea44077e711abf421138ef067069b660336067dbc4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/output-array-manifest.json",
+      "published_bytes": 25042,
+      "published_sha256": "f0533e52327eff3789e41fea44077e711abf421138ef067069b660336067dbc4"
+    },
+    {
+      "source": "rawcell0-gauge-correction/pre-factor-scientific-inputs.json",
+      "bytes": 4790,
+      "sha256": "6a429fb74823c4f5fd4eddd450f1bc706976b9f441f027408bdb12b0b4e1ec90",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/pre-factor-scientific-inputs.json",
+      "published_bytes": 4790,
+      "published_sha256": "6a429fb74823c4f5fd4eddd450f1bc706976b9f441f027408bdb12b0b4e1ec90"
+    },
+    {
+      "source": "rawcell0-gauge-correction/refinement-01-solve-and-recovery.json",
+      "bytes": 5159,
+      "sha256": "ca2fb391b74f8c2a2647a8b8a9747ed6476abfb83ac146320b6d67708535cae0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/refinement-01-solve-and-recovery.json",
+      "published_bytes": 5159,
+      "published_sha256": "ca2fb391b74f8c2a2647a8b8a9747ed6476abfb83ac146320b6d67708535cae0"
+    },
+    {
+      "source": "rawcell0-gauge-correction/refinement-02-solve-and-recovery.json",
+      "bytes": 5162,
+      "sha256": "e8bd716cdccbbcb409bdff3e53f49e6a93fcdb3989b39fbd7ddafeaef800ff55",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/refinement-02-solve-and-recovery.json",
+      "published_bytes": 5162,
+      "published_sha256": "e8bd716cdccbbcb409bdff3e53f49e6a93fcdb3989b39fbd7ddafeaef800ff55"
+    },
+    {
+      "source": "rawcell0-gauge-correction/result.json.gz",
+      "bytes": 13672,
+      "sha256": "cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/result.json.gz",
+      "published_bytes": 13672,
+      "published_sha256": "cf6e00345697ed8bd4a114c2d79f8625e49626d2263e83f42e7dc60e3020013e"
+    },
+    {
+      "source": "rawcell0-gauge-correction/summary.json",
+      "bytes": 23811,
+      "sha256": "a2db57bc44db85fa7d7ec2d431a1f20a79d88549ae356c945b64f741342d6f16",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43626121246-1-rawcell0gauge/rawcell0-gauge-correction/summary.json",
+      "published_bytes": 23811,
+      "published_sha256": "a2db57bc44db85fa7d7ec2d431a1f20a79d88549ae356c945b64f741342d6f16"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43626121246"
+}

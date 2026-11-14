@@ -1,0 +1,77 @@
+{
+  "iteration": 0,
+  "source": "exact binary64 entry exponents, no intermediate scaled matrix",
+  "before_row_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 76,
+    "zero_entries": 166021,
+    "entries": 307552
+  },
+  "before_column_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 76,
+    "zero_entries": 173293,
+    "entries": 307552
+  },
+  "after_row_step_row_floorlog2_max": {
+    "minimum": 0,
+    "maximum": 0,
+    "zero_entries": 307552,
+    "entries": 307552
+  },
+  "after_row_step_column_floorlog2_max": {
+    "minimum": -31,
+    "maximum": 0,
+    "zero_entries": 204878,
+    "entries": 307552
+  },
+  "row_step": {
+    "name": "equilibration-00-row-step",
+    "file": "large-arrays/equilibration-00-row-step.i32le",
+    "dtype": "<i4",
+    "order": "C",
+    "shape": [
+      307552
+    ],
+    "bytes": 1230208,
+    "sha256": "108e7b178c24e29efa5b91a995122628b74564013e29fe4e6ecee4f08c7a3907",
+    "role": "Exact integer exponent increment"
+  },
+  "column_step": {
+    "name": "equilibration-00-column-step",
+    "file": "large-arrays/equilibration-00-column-step.i32le",
+    "dtype": "<i4",
+    "order": "C",
+    "shape": [
+      307552
+    ],
+    "bytes": 1230208,
+    "sha256": "18ae074e564f47dbc1e878d52a72f87a6953f8787353589e9e38092bf4b4ccc8",
+    "role": "Exact integer exponent increment"
+  },
+  "cumulative_row_exponents": {
+    "minimum": -22,
+    "maximum": 97,
+    "zero_entries": 35,
+    "entries": 307552
+  },
+  "cumulative_column_exponents": {
+    "minimum": -97,
+    "maximum": -23,
+    "zero_entries": 0,
+    "entries": 307552
+  },
+  "wrapper_producer_source_sha256": "16fca40ec0ff21a119ce1563241692248005ec6587af000efb968c5158ad9a00",
+  "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+  "formed_gauge_matrix_identity_sha256": "29bd79753f857d81329270ebb01c23d9a2f90869f8af469891389b68cbf78a19",
+  "coordinate_identity_sha256": "2fa67b8265873150d631642d3ca57a0e36c8e0549c9750e1313d4275a643ba88",
+  "matrix_scope": "formed-binary64-gauge-matrix",
+  "native_accepted": false,
+  "task_completed": false,
+  "unqualified_original_matrix_in_reused_equilibration_means_saved_formed_gauge_matrix": true,
+  "original_matrix_not_replaced": false,
+  "formed_gauge_entries_are_not_changed_between_equilibration_passes": true,
+  "dyadic_scaling_has_separate_reversibility_ledger": true,
+  "exact_conjugacy_to_original1372_matrix_claimed": false,
+  "original1372_exact_sigma_residual_is_the_only_direction_comparison": true
+}

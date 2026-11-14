@@ -1,0 +1,154 @@
+{
+  "label": "initial",
+  "lapack_solve_info": 0,
+  "seconds": 0.15568706999999904,
+  "solved_scaled_direction": {
+    "name": "initial-dyadically-scaled-gauge-direction",
+    "file": "large-arrays/initial-dyadically-scaled-gauge-direction.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      1373,
+      224
+    ],
+    "bytes": 2460416,
+    "sha256": "c0eacb690d7d660c1fbf8a68a2ecec711a4c9c2ef0903c0413bc9ae10235a80d",
+    "role": "All solved coordinates before column power-of-two recovery",
+    "finite": 307552,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 0
+  },
+  "saved_G_direction": {
+    "name": "initial-saved-G-coordinate-direction",
+    "file": "large-arrays/initial-saved-G-coordinate-direction.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      1373,
+      224
+    ],
+    "bytes": 2460416,
+    "sha256": "2ed455cddbcbba83bba2dc067a9fb2db0698a2aa521364e7059abdfc34b55f33",
+    "role": "All xi words before the explicit triangular original-coordinate recovery",
+    "finite": 307552,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 0
+  },
+  "column_recovery": {
+    "entries": 307552,
+    "nonfinite": 0,
+    "nonzero_rounded_to_zero": 0,
+    "nonreversible_binary64_scalings": 0,
+    "examples": [],
+    "exact_real_dyadic_entry_scaling_verified": true,
+    "original_raw_entries_and_integer_exponents_reconstruct_every_formation_error": true,
+    "original_equations_rechecked_even_if_formation_loses_bits": true
+  },
+  "original_coordinate_recovery": {
+    "label": "initial",
+    "formula": "Q=xi_u/alpha; Pi=(xi_k-beta*Q)/eta, then binary64",
+    "active_nodes": [
+      0,
+      868
+    ],
+    "identity_nodes_copied_byte_for_byte": true,
+    "saved_G_raw_identity": "2fa67b8265873150d631642d3ca57a0e36c8e0549c9750e1313d4275a643ba88",
+    "formation": {
+      "entries": 194656,
+      "values_changed_by_final_binary64_cast": 194444,
+      "nonzero_rounded_to_zero": 0,
+      "nonfinite": 0,
+      "examples": [
+        {
+          "location": {
+            "kind": "restore-Q",
+            "label": "initial"
+          },
+          "flat_index": 112,
+          "longdouble_decimal_diagnostic": "-2.546231370347052722426681750424255910e-22",
+          "stored_float64le_hex": "54797eb4203d73bb"
+        },
+        {
+          "location": {
+            "kind": "restore-Q",
+            "label": "initial"
+          },
+          "flat_index": 113,
+          "longdouble_decimal_diagnostic": "-1.436055556222904137108700187419569774e-21",
+          "stored_float64le_hex": "aea6f3ab56209bbb"
+        },
+        {
+          "location": {
+            "kind": "restore-Q",
+            "label": "initial"
+          },
+          "flat_index": 114,
+          "longdouble_decimal_diagnostic": "-2.256534149261200780783719899962001246e-22",
+          "stored_float64le_hex": "cae8df96c50c71bb"
+        },
+        {
+          "location": {
+            "kind": "restore-Q",
+            "label": "initial"
+          },
+          "flat_index": 115,
+          "longdouble_decimal_diagnostic": "3.496378189417658018938737154615090201e-22",
+          "stored_float64le_hex": "ca440b9ffa6a7a3b"
+        },
+        {
+          "location": {
+            "kind": "restore-Q",
+            "label": "initial"
+          },
+          "flat_index": 116,
+          "longdouble_decimal_diagnostic": "8.519388172511695065192843543177203520e-23",
+          "stored_float64le_hex": "98ed37ad8ebf593b"
+        },
+        {
+          "location": {
+            "kind": "restore-Q",
+            "label": "initial"
+          },
+          "flat_index": 117,
+          "longdouble_decimal_diagnostic": "-2.254748125667767420195533716886267074e-22",
+          "stored_float64le_hex": "43937c31510971bb"
+        },
+        {
+          "location": {
+            "kind": "restore-Q",
+            "label": "initial"
+          },
+          "flat_index": 118,
+          "longdouble_decimal_diagnostic": "-2.122156563904388041637244679529088330e-22",
+          "stored_float64le_hex": "b67f3308d90870bb"
+        },
+        {
+          "location": {
+            "kind": "restore-Q",
+            "label": "initial"
+          },
+          "flat_index": 119,
+          "longdouble_decimal_diagnostic": "9.935236486635949099481789453175172087e-22",
+          "stored_float64le_hex": "2d7064b462c4923b"
+        }
+      ],
+      "NumPy": "2.3.5",
+      "longdouble_dtype": "<f16",
+      "longdouble_storage_bytes": 16,
+      "longdouble_significand_bits": 64,
+      "longdouble_minexp": -16382,
+      "longdouble_maxexp": 16384,
+      "longdouble_eps_decimal": "1.084202172485504434e-19",
+      "longdouble_padding_bytes_not_used_as_numeric_identity": true,
+      "exact_conjugacy_claimed": false,
+      "rigorous_roundoff_bound_claimed": false,
+      "actual_saved_binary64_coefficients_are_the_coordinate_definition": true
+    },
+    "recovered_original_delta_sha256": "ce3369e45e2793b6101e3e67e6f7b98cb94b93e572d237d409a2381c44fdd64a",
+    "original_full_exact_readback_required": true
+  }
+}

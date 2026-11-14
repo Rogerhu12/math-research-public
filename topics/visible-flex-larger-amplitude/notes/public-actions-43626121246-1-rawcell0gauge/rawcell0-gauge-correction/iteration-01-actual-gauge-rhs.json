@@ -1,0 +1,148 @@
+{
+  "schema": "native-gauge-exact-original-ledger-RHS-v1",
+  "label": "iteration-01",
+  "source": {
+    "kind": "complete-original-exact-ledger",
+    "file": {
+      "name": "iteration-01-exact-residuals",
+      "file": "large-arrays/iteration-01-exact-residuals.jsonl.gz",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        307552
+      ],
+      "bytes": 8705720,
+      "sha256": "7c53d29e9fd60376fc00cc8055cd9146defb12f017c7c94c743f0bcf7179f90b",
+      "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+    },
+    "original_delta_sha256": "10ed4f19b2ea2acf2b3a218d2ce8ee6a575b1982c0fcda431c850a524903b128"
+  },
+  "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+  "coordinate_identity_sha256": "2fa67b8265873150d631642d3ca57a0e36c8e0549c9750e1313d4275a643ba88",
+  "cut_multiplier": "saved alpha0",
+  "far_multiplier": "identity",
+  "stage_multiplier": "saved alpha,beta,eta applied exactly as dyadic coefficients",
+  "equation_rows": 307552,
+  "blocks": 1374,
+  "exact_dyadic_row_action_before_final_rounding": true,
+  "exact_transformed_unscaled_rows_canonical_jsonl_sha256": "2b054621dc3a4b4295be8318f3c995206217abb730314bd4fb29507b8f0d08ee",
+  "rounded_rows": 307328,
+  "underflow_to_zero_rows": 0,
+  "exact_zero_rows": 112,
+  "examples": [
+    {
+      "global_equation_row": 112,
+      "kind": "stage",
+      "node": 0,
+      "local_row": 0,
+      "exact_transformed_residual": [
+        "0xa1b90fda8ed88d05f958f19b10312704272d7421958b43",
+        -317
+      ],
+      "final_row_exponent": 48,
+      "rounded_rhs_float64le_hex": "12db51fb213794ba"
+    },
+    {
+      "global_equation_row": 113,
+      "kind": "stage",
+      "node": 0,
+      "local_row": 1,
+      "exact_transformed_residual": [
+        "0x41276d454b80f9cb80e779afab307b4cf1dc31956738b07",
+        -316
+      ],
+      "final_row_exponent": 48,
+      "rounded_rhs_float64le_hex": "3ee05251db49d0ba"
+    },
+    {
+      "global_equation_row": 114,
+      "kind": "stage",
+      "node": 0,
+      "local_row": 2,
+      "exact_transformed_residual": [
+        "0x51923facf6d7e697a82c4d39bec5d6919b5dad900b464e7",
+        -318
+      ],
+      "final_row_exponent": 48,
+      "rounded_rhs_float64le_hex": "fab53deb8f64b4ba"
+    },
+    {
+      "global_equation_row": 115,
+      "kind": "stage",
+      "node": 0,
+      "local_row": 3,
+      "exact_transformed_residual": [
+        "-0x2ebf18dad149444abb2e97d2226331b66f18881cff62a9",
+        -316
+      ],
+      "final_row_exponent": 48,
+      "rounded_rhs_float64le_hex": "a2a4686d8c5f873a"
+    },
+    {
+      "global_equation_row": 116,
+      "kind": "stage",
+      "node": 0,
+      "local_row": 4,
+      "exact_transformed_residual": [
+        "-0x150a191fc75a756dee35476d5f028709a735eea6de4c3",
+        -318
+      ],
+      "final_row_exponent": 48,
+      "rounded_rhs_float64le_hex": "755ac71f190a153a"
+    },
+    {
+      "global_equation_row": 117,
+      "kind": "stage",
+      "node": 0,
+      "local_row": 5,
+      "exact_transformed_residual": [
+        "0x3b5fdb76aceb34a78abf69a763055f02d7b6b227be87c67",
+        -318
+      ],
+      "final_row_exponent": 48,
+      "rounded_rhs_float64le_hex": "9a7556bbedafadba"
+    },
+    {
+      "global_equation_row": 118,
+      "kind": "stage",
+      "node": 0,
+      "local_row": 6,
+      "exact_transformed_residual": [
+        "0x89f7297e75014eeadbe29993a73633d3183b2ad652f9df",
+        -316
+      ],
+      "final_row_exponent": 48,
+      "rounded_rhs_float64le_hex": "2aa0ce2fe53ea1ba"
+    },
+    {
+      "global_equation_row": 119,
+      "kind": "stage",
+      "node": 0,
+      "local_row": 7,
+      "exact_transformed_residual": [
+        "0x3a7cbb6350e7a155385b4e3ebe3687d7160f5c444dd257",
+        -317
+      ],
+      "final_row_exponent": 48,
+      "rounded_rhs_float64le_hex": "d173a8b15d3e7dba"
+    }
+  ],
+  "actual_rhs": {
+    "name": "iteration-01-actual-gauge-rhs",
+    "file": "large-arrays/iteration-01-actual-gauge-rhs.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      307552
+    ],
+    "bytes": 2460416,
+    "sha256": "d1ec38b5d3dc7bb379bc5d7d4b481cf3760b7204e0d3ab60335c4c08411e6f9a",
+    "role": "One nearest/ties-even rounding of negative exact saved-G times original residual times final dyadic row scale",
+    "finite": 307552,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 0
+  },
+  "source_ledger_plus_saved_G_plus_row_exponents_reconstruct_all_rhs_values": true,
+  "native_accepted": false
+}

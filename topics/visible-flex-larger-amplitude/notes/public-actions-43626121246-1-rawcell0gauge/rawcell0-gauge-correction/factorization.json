@@ -1,0 +1,109 @@
+{
+  "lapack_factor_info": 0,
+  "factorization_seconds": 1.6088009510000063,
+  "LU_shares_input_storage": true,
+  "LU_retains_input_pointer": true,
+  "LU_Fortran_byte_sha256": "97e778e368d40ba1c7c13a010e594b27317d1921550ebbc7f6e436f7b8f14806",
+  "band_shape": [
+    560,
+    307552
+  ],
+  "band_bytes": 1377832960,
+  "matrix_formation": {
+    "entries": 69149136,
+    "nonfinite": 0,
+    "nonzero_rounded_to_zero": 0,
+    "nonreversible_binary64_scalings": 0,
+    "examples": [],
+    "exact_real_dyadic_entry_scaling_verified": true,
+    "original_raw_entries_and_integer_exponents_reconstruct_every_formation_error": true,
+    "original_equations_rechecked_even_if_formation_loses_bits": true
+  },
+  "formed_matrix_entry_scales": {
+    "row_maximum_range": [
+      {
+        "value": 1.0,
+        "float64le_hex": "000000000000f03f",
+        "classification": "finite"
+      },
+      {
+        "value": 1.9999999999999694,
+        "float64le_hex": "76ffffffffffff3f",
+        "classification": "finite"
+      }
+    ],
+    "column_maximum_range": [
+      {
+        "value": 1.0,
+        "float64le_hex": "000000000000f03f",
+        "classification": "finite"
+      },
+      {
+        "value": 1.9999999999999694,
+        "float64le_hex": "76ffffffffffff3f",
+        "classification": "finite"
+      }
+    ],
+    "zero_rows": 0,
+    "zero_columns": 0,
+    "extra_equilibration_applied": true
+  },
+  "pivot_array": {
+    "name": "lapack-pivots",
+    "file": "large-arrays/lapack-pivots.i32le",
+    "dtype": "<i4",
+    "order": "C",
+    "shape": [
+      307552
+    ],
+    "bytes": 1230208,
+    "sha256": "d7299152f93928ce68a574feb40a2603bf62d8b2f9ef8c2113c18b8a761986ab",
+    "role": "Complete saved-gauge system pivot vector"
+  },
+  "memory_budget": {
+    "actual_depth": 1372,
+    "actual_nodes": 1373,
+    "full_dimension": 307552,
+    "modes": 112,
+    "shape_dimension": 224,
+    "band_rows": 560,
+    "band_shape": [
+      560,
+      307552
+    ],
+    "band_bytes": 1377832960,
+    "declared_maximum_single_band_bytes": 4294967296,
+    "band_with_possible_LAPACK_copy_bytes": 2755665920,
+    "only_one_band_intended_and_overwrite_requested": true,
+    "largest_new_stage_J_array_bytes": 5218304,
+    "complete_new_J_virtual_bytes": 550731776,
+    "whole_new_J_not_held_or_copied": true,
+    "actual_step_node_input_arrays_bytes": 7393128,
+    "maximum_pending_exact_stage_jobs": 4,
+    "raw_J_bytes_per_exact_stage": 401408,
+    "Python_exact_integer_and_BLAS_workspace_not_in_this_array_budget": true,
+    "cgroup_memory_limit_readout": {},
+    "maximum_RSS_kib_before_band": 117264,
+    "budget_is_an_explicit_resource_limit_not_a_numerical_acceptance_threshold": true,
+    "no_row_mode_node_or_cusp_step_may_be_dropped_to_fit_budget": true,
+    "transformed_J_disk_budget_bytes": 536870912,
+    "transformed_J_is_streamed_one_full_block_at_a_time": true,
+    "longdouble_work_is_block_local": true,
+    "actual_LU_shares_input_storage": true,
+    "actual_LU_bytes": 1377832960,
+    "maximum_RSS_kib_after_factorization": 1519628
+  },
+  "wrapper_producer_source_sha256": "16fca40ec0ff21a119ce1563241692248005ec6587af000efb968c5158ad9a00",
+  "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+  "formed_gauge_matrix_identity_sha256": "29bd79753f857d81329270ebb01c23d9a2f90869f8af469891389b68cbf78a19",
+  "coordinate_identity_sha256": "2fa67b8265873150d631642d3ca57a0e36c8e0549c9750e1313d4275a643ba88",
+  "matrix_scope": "formed-binary64-gauge-matrix",
+  "native_accepted": false,
+  "task_completed": false,
+  "unqualified_original_matrix_in_reused_equilibration_means_saved_formed_gauge_matrix": true,
+  "original_matrix_not_replaced": false,
+  "formed_gauge_entries_are_not_changed_between_equilibration_passes": true,
+  "dyadic_scaling_has_separate_reversibility_ledger": true,
+  "exact_conjugacy_to_original1372_matrix_claimed": false,
+  "original1372_exact_sigma_residual_is_the_only_direction_comparison": true
+}

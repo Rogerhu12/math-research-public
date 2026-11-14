@@ -1,0 +1,329 @@
+{
+  "iteration": 2,
+  "direction_float64le_sha256": "c50e82d27ac3814ac071acd572821280de84040f3e80bb7dc487884498aaf69e",
+  "exact_rows": 307552,
+  "completed_stages": 1372,
+  "original_product_positions": 68841584,
+  "exact_global_original_sigma_norm": {
+    "kind": "stage",
+    "node": 519,
+    "row": 223,
+    "global_equation_row": 116591,
+    "component": "Pi",
+    "mode": 112,
+    "original_sigma_float64le_hex": "27c23cdad1aab53c",
+    "exact_unscaled_dyadic": [
+      "-0x22970ee3dc6b898a290f626a602321b3360f2a42d4fbdd51818da1b4dfe5fd7a3",
+      -237
+    ],
+    "exact_signed_scaled_residual": {
+      "numerator": "-250328536418916546900770780100336457857218303781261643736180333255983252887459",
+      "denominator": "66409972748808575561516303454453110659135077234100928512",
+      "decimal_display_64_significant_digits": "-3.769441938574015634509249565132710811608663625592442433418392534E+21",
+      "display_never_used_for_comparison": true
+    },
+    "exact_absolute_scaled_residual": {
+      "numerator": "250328536418916546900770780100336457857218303781261643736180333255983252887459",
+      "denominator": "66409972748808575561516303454453110659135077234100928512",
+      "decimal_display_64_significant_digits": "3.769441938574015634509249565132710811608663625592442433418392534E+21",
+      "display_never_used_for_comparison": true
+    },
+    "matrix_scope": "rawcell0-original-RK-step-expanded-system",
+    "new_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+    "source_stage": {
+      "newStage": 519,
+      "originalStage": 43,
+      "rawCell": 0,
+      "kind": "actual-original-RK-step",
+      "stepIndex": 11,
+      "originalStepCount": 12,
+      "schedule": {
+        "global_step": 11,
+        "profile_index": 0,
+        "grid_index": 11,
+        "grid_branch": "ordinary",
+        "x": {
+          "value": 0.9166666666666666,
+          "float64le_hex": "555555555555ed3f",
+          "classification": "finite"
+        },
+        "h": {
+          "value": 0.08333333333333333,
+          "float64le_hex": "555555555555b53f",
+          "classification": "finite"
+        },
+        "final_original_step": true,
+        "port_applied": true,
+        "port_ratio": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "field_calls": 4,
+        "full_state_row": 12,
+        "shape_output_row": 11,
+        "shape_J_row": 11,
+        "shape_J_statistics": {
+          "entries": 50176,
+          "finite": 50176,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 0,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 45618635198.779976,
+            "float64le_hex": "598f7d432a3e2542",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": 45618635198.779976,
+            "float64le_hex": "598f7d432a3e2542",
+            "classification": "finite"
+          }
+        },
+        "cumulative_minA": {
+          "value": 0.9999999999999967,
+          "float64le_hex": "e2ffffffffffef3f",
+          "classification": "finite"
+        },
+        "cumulative_minD": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "cumulative_maxRootRelative": {
+          "value": 1.6891386768061232e-15,
+          "float64le_hex": "3d3dd3f7c66dde3c",
+          "classification": "finite"
+        }
+      },
+      "port": "original-exit"
+    }
+  },
+  "exact_original_stored_base_sigma_norm": {
+    "kind": "stage",
+    "node": 120,
+    "row": 206,
+    "global_equation_row": 27198,
+    "component": "Pi",
+    "mode": 95,
+    "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+    "exact_unscaled_dyadic": [
+      "-0x3e3fb5",
+      -74
+    ],
+    "exact_signed_scaled_residual": {
+      "numerator": "-11407223422976",
+      "denominator": "273075959744683",
+      "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+      "display_never_used_for_comparison": true
+    },
+    "exact_absolute_scaled_residual": {
+      "numerator": "11407223422976",
+      "denominator": "273075959744683",
+      "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+      "display_never_used_for_comparison": true
+    },
+    "matrix_scope": "rawcell0-original-RK-step-expanded-system",
+    "new_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+    "source_stage": {
+      "newStage": 120,
+      "originalStage": 10,
+      "rawCell": 0,
+      "kind": "actual-original-RK-step",
+      "stepIndex": 11,
+      "originalStepCount": 12,
+      "schedule": {
+        "global_step": 11,
+        "profile_index": 0,
+        "grid_index": 11,
+        "grid_branch": "ordinary",
+        "x": {
+          "value": 0.9166666666666666,
+          "float64le_hex": "555555555555ed3f",
+          "classification": "finite"
+        },
+        "h": {
+          "value": 0.08333333333333333,
+          "float64le_hex": "555555555555b53f",
+          "classification": "finite"
+        },
+        "final_original_step": true,
+        "port_applied": true,
+        "port_ratio": {
+          "value": 1,
+          "float64le_hex": "000000000000f03f",
+          "classification": "finite"
+        },
+        "field_calls": 4,
+        "full_state_row": 12,
+        "shape_output_row": 11,
+        "shape_J_row": 11,
+        "shape_J_statistics": {
+          "entries": 50176,
+          "finite": 50176,
+          "nan": 0,
+          "positive_infinity": 0,
+          "negative_infinity": 0,
+          "zeros": 0,
+          "negative_zeros": 0,
+          "max_abs_finite": {
+            "value": 682889847154.235,
+            "float64le_hex": "85472e04eddf6342",
+            "classification": "finite"
+          },
+          "max_abs_finite_index": 50063,
+          "max_abs_finite_entry": {
+            "value": -682889847154.235,
+            "float64le_hex": "85472e04eddf63c2",
+            "classification": "finite"
+          }
+        },
+        "cumulative_minA": {
+          "value": 0.9999999999808199,
+          "float64le_hex": "295dfdffffffef3f",
+          "classification": "finite"
+        },
+        "cumulative_minD": {
+          "value": 0.9999999999999858,
+          "float64le_hex": "80ffffffffffef3f",
+          "classification": "finite"
+        },
+        "cumulative_maxRootRelative": {
+          "value": 6.917350858716319e-14,
+          "float64le_hex": "195b74027a78333d",
+          "classification": "finite"
+        }
+      },
+      "port": "original-exit"
+    }
+  },
+  "exact_witness": {
+    "file": "iteration-02-exact-global-witness.json",
+    "bytes": 14494,
+    "sha256": "fb44b8e8bd0ca0a75d86a8147e16d9000f125b94cc2991a0527bce4eec1d2863"
+  },
+  "all_exact_residual_rows": {
+    "name": "iteration-02-exact-residuals",
+    "file": "large-arrays/iteration-02-exact-residuals.jsonl.gz",
+    "dtype": "exact-dyadic-jsonl-gzip",
+    "shape": [
+      307552
+    ],
+    "bytes": 8690486,
+    "sha256": "ac0e81f89f1f04e1dcff0cd78c6e843ef31e44e429a0206c1c4392bf06431aef",
+    "role": "All original real binary-array e rows; each [hex coefficient,binary exponent] is exact"
+  },
+  "rounded_refinement_rhs": {
+    "name": "iteration-02-refinement-rhs",
+    "file": "large-arrays/iteration-02-refinement-rhs.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      307552
+    ],
+    "bytes": 2460416,
+    "sha256": "282b907a76daf67c14a108e809efbdfcec6008ca4b4044bcde358cf2aa300c4d",
+    "role": "Correctly rounded once: negative exact e times final dyadic row scale; original full row order",
+    "finite": 307552,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 153702
+  },
+  "rhs_rounding": {
+    "rounded_rows": 307440,
+    "underflow_to_zero_rows": 307440,
+    "exact_zero_rows": 112,
+    "examples": [
+      {
+        "row": 112,
+        "exact_residual": [
+          "0xb72b5f9741a3dcc153b342b3db4deffc3",
+          -258
+        ],
+        "row_scale_exponent": -2048,
+        "rounded_rhs_float64le_hex": "0000000000000080"
+      },
+      {
+        "row": 113,
+        "exact_residual": [
+          "0x3ed768ff47a2ef3cd4e8ac149b1dd46585",
+          -257
+        ],
+        "row_scale_exponent": -2048,
+        "rounded_rhs_float64le_hex": "0000000000000080"
+      },
+      {
+        "row": 114,
+        "exact_residual": [
+          "0x4ead0ecc5b1b08aec9164d622a94b071d7",
+          -259
+        ],
+        "row_scale_exponent": -2048,
+        "rounded_rhs_float64le_hex": "0000000000000080"
+      },
+      {
+        "row": 115,
+        "exact_residual": [
+          "-0x2d1656c991d26955ec28605accffc81e5",
+          -257
+        ],
+        "row_scale_exponent": -2048,
+        "rounded_rhs_float64le_hex": "0000000000000000"
+      },
+      {
+        "row": 116,
+        "exact_residual": [
+          "-0x144aecc6911a7dbe25a08d31f65ea80f",
+          -259
+        ],
+        "row_scale_exponent": -2048,
+        "rounded_rhs_float64le_hex": "0000000000000000"
+      },
+      {
+        "row": 117,
+        "exact_residual": [
+          "0x39445b2e1e13f35befea70f44fcc194edb",
+          -259
+        ],
+        "row_scale_exponent": -2048,
+        "rounded_rhs_float64le_hex": "0000000000000080"
+      },
+      {
+        "row": 118,
+        "exact_residual": [
+          "0x85118cc30e0d334437a47f51f30ba0839",
+          -257
+        ],
+        "row_scale_exponent": -2048,
+        "rounded_rhs_float64le_hex": "0000000000000080"
+      },
+      {
+        "row": 119,
+        "exact_residual": [
+          "0x38694adc3c343bbaaf110b357ae1f3f8f",
+          -258
+        ],
+        "row_scale_exponent": -2048,
+        "rounded_rhs_float64le_hex": "0000000000000080"
+      }
+    ]
+  },
+  "all_nonzero_finite_operands_retained": true,
+  "native_accepted": false,
+  "elapsed_seconds": 42.492336198000004,
+  "wrapper_producer_source_sha256": "16fca40ec0ff21a119ce1563241692248005ec6587af000efb968c5158ad9a00",
+  "original1372_matrix_identity_sha256": "e929e642a9738c98d97dc06129c396b8fdff09aac32430892a412701d5dd4521",
+  "formed_gauge_matrix_identity_sha256": "29bd79753f857d81329270ebb01c23d9a2f90869f8af469891389b68cbf78a19",
+  "coordinate_identity_sha256": "2fa67b8265873150d631642d3ca57a0e36c8e0549c9750e1313d4275a643ba88",
+  "matrix_scope": "original1372-exact-residual-readback",
+  "task_completed": false,
+  "exact_residuals_use_original1372_untransformed_arrays": true,
+  "norm_uses_original_explicit_sigma_words": true,
+  "auxiliary_evaluator_RHS_row_exponent": -2048,
+  "auxiliary_evaluator_RHS_is_never_used_in_a_solve": true,
+  "actual_refinement_RHS_is_rebuilt_from_exact_original_ledger_and_saved_dyadic_G": true
+}
