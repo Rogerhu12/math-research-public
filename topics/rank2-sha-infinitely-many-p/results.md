@@ -382,3 +382,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R576：原两单sigma完整深补项与三线单位余域](results/R576-original-single-sigma-complements-and-three-line-domain.md)：两个完整正交框架支付同一qℓ的所有c/d深补项与双参数首层，原log质量/第七矩均保；全算术分区只余c,d,u全unit的真实三线混合行，保完整两低度张量和四输入伴随，未由局部单位赋中央非零。
+
+
+- [R579：九坐标全普通差商范数与真实饱和jet成本](results/R579-nine-coordinate-ordinary-divided-difference-and-saturated-jet-budget.md)：实际有限阶分布的单位差商、导数和完整卷积界，连下降阶乘全部节点估值，支付同一九格所有D/k及全部普通p的3klogD+O(k+D)；无I零假设，原Dirac全保，九维严格门aI+9bI<21已可用，惰性(3,3)仍未过。

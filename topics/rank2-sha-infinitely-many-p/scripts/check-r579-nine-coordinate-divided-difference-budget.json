@@ -1,0 +1,69 @@
+{
+  "result": "all exact checks passed",
+  "checks": 12220,
+  "valuation_cases": 11890,
+  "shuffle": "sum over monotone lattice paths of the full order r+s divided difference",
+  "factorial_loss": "Lambda_p(n,R)=sum_a min(R,floor(n/p^a))",
+  "actual_nine_coordinate_bound": "v_p(r_k(P))>=-Lambda_p(6k,5 min(D,k)) on every true saturated prefix",
+  "examples": [
+    {
+      "n": 6,
+      "R": 5,
+      "local_losses": {
+        "2": 4,
+        "3": 2,
+        "5": 1,
+        "7": 0,
+        "13": 0,
+        "19": 0,
+        "31": 0,
+        "61": 0
+      }
+    },
+    {
+      "n": 18,
+      "R": 5,
+      "local_losses": {
+        "2": 12,
+        "3": 7,
+        "5": 3,
+        "7": 2,
+        "13": 1,
+        "19": 0,
+        "31": 0,
+        "61": 0
+      }
+    },
+    {
+      "n": 30,
+      "R": 10,
+      "local_losses": {
+        "2": 21,
+        "3": 14,
+        "5": 7,
+        "7": 4,
+        "13": 2,
+        "19": 1,
+        "31": 0,
+        "61": 0
+      }
+    },
+    {
+      "n": 60,
+      "R": 20,
+      "local_losses": {
+        "2": 46,
+        "3": 28,
+        "5": 14,
+        "7": 9,
+        "13": 4,
+        "19": 3,
+        "31": 1,
+        "61": 0
+      }
+    }
+  ],
+  "uses_measure_derivative_representation": false,
+  "requires_I4_I1_zero": false,
+  "scope": "Finite certificates of exact algebraic identities; general norms and all D,k,p are proved in the text."
+}
