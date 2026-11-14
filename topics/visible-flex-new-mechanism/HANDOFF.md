@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`d95cff5c28ce1a26559492c0fb563588f73015fd`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`4ae2f8df1645032b3774f3a289b28d8597324ae5`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -30,13 +30,11 @@ resume43635770962已拒接触warm/退f198，仅joint一次80iter/84nfev；新163
 
 新B仍用较低κ的原f198，不能处理中替换成81a163态。
 
-## 4. 新B=.37：局部新核心已有完整初态
+## 4. 新B=.37局部核心与成套leading
 
-全段语义抄系数actual43634358250曾η67、近退化/负z/条带/帽高失败，见notes/core-B037-semantic-transport-initial-actual-result-20261114.md；不是新核心一般排除。
+全段抄系数曾η67/退化失败，已改以原f198162态局部保外域。χ=1−S11在[.036,.198]，T*=Rz(χΔu)T、a*=a+χΔa0；新g **211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e**，不是旧g精化。初次局部actual43636741138 η1.185449、κ270.727，外域镜像/strip失败保留。
 
-改以f198整场为源，χ=1−S11在tc=.036到.198过渡，T*=Rz(χΔu)T、a*=a+χΔa0，b/zc/Π保；外域六jet准确恢复、a*>0。actual43636741138/source05ca5a96新人工pass，唯一初态无优化124.953s。新physical `5f036761897480b3ff8e7f68f7b5d8ff8a1c5771bd0926b03b4e4f74ccb12d85`，新g `211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e`，不是旧g精化。
-
-170×384/768 η1.183695/1.185449，κ270.727（旧同态149）；metriccost.0334642略高旧.0312192。外域sixjets/gjet/b/center差0。minz.01425708、镜像.01425979<.061与strip.393509都仍在未改外域；局部入口继续改也不变这些同点失败。新R66下界.069959984、帽高仍.1427042，必要裕量.0727442，不是reach。完整报告decoded1207649B SHA `6eaea1e47924b243d3685b4ea960633f88562484f0978b7a16e26a8fe8327c3a`；详notes/localized-core-B037-first-actual-and-exterior-obstacles-20261114.md。已识别旧自由项锁错新U4/V7/B6；独立leading工厂25ae74fb/driver62f2b3ec已请求人工→唯一f198初态。支撑.081成套改u4/v7，以紧支撑Δzc的导数改b6且总积0；完整新g211c仍保，新b0身份必须升级，原c0/源f198分列。无Q/优化，只付leading非全Cauchy；外域需后续共同变量修复。
+成套leading actual43638423274/sourcee11edd1a已complete245.363s/RSS524836KiB，人工pass、唯一初态无opt/Q/高度步。同新g/原162bits，U4/V7/B6差由支撑.081的Δzc/导数成套支付，总积0，外域恢复。新physical **8d9d505cacada07562d819792d8e1398638e89b680812d9702bde34a4439803a**，新b0 **df1a213907b0fec56ab4df10f974751bdac5e4c3ef7e60ed310530237eaad324**。170×384/768 η1.173056715/1.174996406，κ263.375808；仍在修复内s.093375/.100125。外域六jet0、metricjets0、帽高.1427042不变；镜像.01425979<.061、strip.393509仍在外域，入口修补不能改变它们。新R66下界.069959984仅必要门。bmax1.0004638保留非旧b0有界继承。完整raw1914549B SHA0e319c655569ae86af02ee4a4a0b27923ec86e2134b45452aae0dc6f4b361f96，详notes/localized-core-leading-repair-actual-result-20261114.md。未付全Cauchy或完整reach；下一优先旧g5d已改善全场，GC前缀只留有依据的备选。
 
 ## 5. 理论当前真实边界
 
