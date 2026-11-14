@@ -164,6 +164,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **新秩下界已提高。** [真实第八除列](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)由7003/cost87给rank_Q A87≥226090；旧最小秩226089前提已排。继续目标实际Q像与全部饱和，不把31³除源当作已证恰第三Smith层。
 
-**原尾嵌入与换权接口。** [完整原模型证明](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)给D,D*共同不可约及左/普通右/裸商的准确对角运输；flat仍L̃G̃L̃，负前缀仍用运输度量。实际祖先birth≈q且无标签截止，短段不reducing；继续同源Schur或真实标签局部化，不能免费分块/改等权。
+**原尾换权。** [完整接口](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)给D,D*共同不可约；左/右/裸商准确运输，但flat=L̃G̃L̃和负图度量不能分离比较。标签局部化与同源Schur仍开。
 
-**原primitive平移已计费。** [真核乘积证明](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)给远移核条件数≥(3/2)^(2s)、单移真源二次型~c_xs²。原s≈q/x≈m与新局部窗不匹配；这只排统一物理范数搬运，完整Γ/flat抵消及真实t_q特殊来源仍开。
+**原primitive平移。** [精确费用](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)给远移核条件数指数下界、单移二次型~c_xs²；只排统一范数搬运，实际t_q与Γ/flat抵消仍开。
+
+**真head-graph一位接合已付。** [完整Schur](notes/2026-11-14-one-bit-full-head-graph-schur-and-fixed-low-hole-feedback-789f-next.md)保Γ_q/Γ_(q−1)、顶边R及旧全核投影；新增余项是真(A+D)一次MP费。固定低孔s的增量及高孔最小反馈≤a²c_s²||y||²，不用全头条件数。下一付未来bare商及真实Z_q^-1后的源控制，不能直接代原joined图。

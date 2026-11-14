@@ -151,3 +151,7 @@
 ### 两个真实相容目标的原式续算已冻结并触发
 
 [冻结数值接口](notes/2026-11-14-r150-seven-compatible-pair-interface-789f.md)和[Actions清单](notes/2026-11-14-r150-seven-compatible-pair-actions-entry-manifest-789f.json)只续原j6/9：恢复已成16列NF/Q/rem/trace及来源，实际目标标签保持6/9，共享120秒/512MiB，四编译各30秒。完整矩阵后处理同时给c_i/J8及九raw在315、308、307空间的准确最小ann。七个负目标和全部已成七关系不重算，所有实际缓存/来源保留；启动不宣称两个原式已经通过。账号此时两其他job在算，新增仍低于根规则20并行上限。
+
+### 真首物理头graph加一位：完整Schur及固定低孔的均匀反馈
+
+[完整证明](notes/2026-11-14-one-bit-full-head-graph-schur-and-fixed-low-hole-feedback-789f-next.md)准确区分两孔截止，以R=d(D^d)†D^(d−1)给新源E_a(x,y)=(x−aRy,y)，完整Schur为Γ_(q−1)+a²K*(I−Π_q)K，K=P′−PR。顶边严格消去后CK=−P，余项是真(A+D)在完整旧前缀的最小原像费。固定低孔s≤d−2时R=0，旧全核投影仍保；其全部高孔反馈与增量≤a²[Σj≤s+1 j||Ve_j||ν^(j−1)]²||y||²，低V列一致故常数不依大头d/截止q。未来bare商、真实Z_q^-1源保持及完整双费graph继续。

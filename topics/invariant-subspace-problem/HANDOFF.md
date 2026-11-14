@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `07335868f0bdf5da6f34530136e2fdc3f03b6c0d`（2026-11-14 19:25:29 UTC，Actions run43632008735/job132560478650实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `53f77bc904aac8bbf8dc47fb9f215d16a1b624fb`（2026-11-14 19:28:17 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `fe0c3d75d8ce6dddcac2fab7e340fc4d7e16a357`（2026-11-14 19:28:31 UTC，Actions run43632271358/job132561306794实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `742daa968004e4d89db8b0ac0b72cda5a2e9099a`（2026-11-14 19:29:56 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -45,3 +45,5 @@
 - **[真实primitive平移费](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)：** 相邻双位primitive乘积给精确||R_s f_s||²/||f_s||²=∏[(x′+2l)⁴+(x′+2l+1)⁴]/[(x+2l)⁴+(x+2l+1)⁴]；x≤s/2,x′≥2s时≥(3/2)^(4s)，核上cond≥(3/2)^(2s)。单移一行该真源二次型~c_x s²。原s≈q、x≈m不满足Q≥2s+h与Q≤x；统一物理范数搬运不能免费付窗，不排真实Γ/flat抵消或特殊t_q。
 
 - **两正列续算已触发：** [冻结Actions入口](notes/2026-11-14-r150-seven-compatible-pair-actions-entry-manifest-789f.json)和[实际来源接口](notes/2026-11-14-r150-seven-compatible-pair-interface-789f.md)。只复用T96/all198/七关系artifact，4编译各30秒、数学共享120秒/512MiB。先从完整保存矩阵导c_i/J8及九raw在315/308/307上的最小ann，再仅6/9恢复真来源并原17式31h0 mod923521全乘回；不重七负列或七原关系。当前仅启动，按真实回执继续。
+
+- **[真head-graph一位Schur](notes/2026-11-14-one-bit-full-head-graph-schur-and-fixed-low-hole-feedback-789f-next.md)：** F_q=kerD^d∩H≤q，R=d(D^d)†D^(d−1)，新源E_a(x,y)=(x−aRy,y)、K=P′−PR。完整Schur=Γ_(q−1)+a²K*(I−Π_q)K，余项为真实(A+D)一次MP费。低孔s≤d−2时R=0，全部高孔反馈与Schur增量≤a²c_s(ν)²||y||²，c_s只用一致低V列，不依q/d。未来bare商和真Z_q^-1保持仍续，不删Π或顶边。
