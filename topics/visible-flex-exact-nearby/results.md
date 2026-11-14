@@ -35,3 +35,5 @@
 - [R133 complete-all-parameter-optical-speed-cancellation](results/R133-supplement-complete-all-parameter-optical-speed-cancellation.md)：恢复显式Qδ=Qbar+δZ、νδ=ν0+δ的完整光速消去恒等式和|δ|≤1e−6分支门；compact外高阶光速参数导数准确为零，不将该显式族称为PDE解支。
 
 - [R133 explicit-continuous-response-direction-and-true-strip-norms](results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md)：恢复原193状态有限响应的6143接口准确连续修补及完整Wiener范数，保留mean和宽strip的大高频费用；此明确方向Z不等于真qν，qν−Z与完整inverse仍未付。
+
+- [R133 complete-correlated-phase-twist-and-true-defect-corrections](results/R133-supplement-complete-correlated-phase-twist-and-true-defect-corrections.md)：恢复显式Z的3095完整交片及root带符号一阶phase积分，Γ0∈(.0018683485714,.0396275555859)；若真E≤1e−6且真Eφ≤1e−4则该显式族σphys>1/600。全ν-Schur仍需真实PDE响应误差和耦合。
