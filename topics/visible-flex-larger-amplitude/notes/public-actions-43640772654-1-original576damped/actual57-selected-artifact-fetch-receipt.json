@@ -1,0 +1,310 @@
+{
+  "completed_utc": "2026-11-14T21:04:42.007615+00:00",
+  "current_actions_run_attempt": "1",
+  "current_actions_run_id": "43640772654",
+  "directories_read_only_mode": "0555",
+  "download": {
+    "HTTPS_only": true,
+    "actual_sha256": "226227489fb0e4111061ac03c8bfe204a8a53cda16e6bb731d2656569288aec8",
+    "actual_size": 845612536,
+    "any_origin_change_removed_authorization": true,
+    "authorization_never_restored_after_origin_change": true,
+    "authorization_removed_on_every_origin_change": true,
+    "content_length": "845612536",
+    "http_status": 200,
+    "redirect_count": 1,
+    "redirect_origins": [
+      {
+        "destination_host": "productionresultssa2.blob.core.windows.net",
+        "next_request_authorization": false,
+        "origin_changed": true,
+        "source_host": "api.github.com"
+      }
+    ],
+    "request_timeout_seconds": 60,
+    "signed_redirect_urls_recorded": false
+  },
+  "existing_output_directory_replaced": false,
+  "extraction": {
+    "all_original_payloads_extracted": false,
+    "directories": [
+      "native-damped-chain-qr",
+      "native-damped-chain-qr/large-arrays"
+    ],
+    "directory_count": 2,
+    "file_count": 5,
+    "files": [
+      {
+        "bytes": 4712,
+        "crc32": "bf657c9b",
+        "final_mode": "0444",
+        "original_result_descriptor_key": null,
+        "path": "native-damped-chain-qr/result.json.gz",
+        "sha256": "c6feb54847e96778b076076ba17b4ccd666c2548c72f8c36414b2897d176cdc1",
+        "symlink": false
+      },
+      {
+        "bytes": 335715,
+        "crc32": "b5d7b06a",
+        "final_mode": "0444",
+        "original_result_descriptor_key": "input_binding",
+        "path": "native-damped-chain-qr/input-binding.json.gz",
+        "sha256": "32cb5a0b92ab4ce642b65c0b75ba010ff26dcab5cbf77b1b847b5b469ea5279f",
+        "symlink": false
+      },
+      {
+        "bytes": 133187,
+        "crc32": "a847809b",
+        "final_mode": "0444",
+        "original_result_descriptor_key": "array_manifest",
+        "path": "native-damped-chain-qr/output-array-manifest.json.gz",
+        "sha256": "8a77b6b6365562ae3d41b3ff4832576f0bd880f41f2b5ed0a8fdefa86a650401",
+        "symlink": false
+      },
+      {
+        "bytes": 1033984,
+        "crc32": "8149fa22",
+        "final_mode": "0444",
+        "original_result_descriptor_key": "restricted_old_node_delta",
+        "path": "native-damped-chain-qr/large-arrays/complete-old-node-restricted-delta.f64le",
+        "sha256": "5b6e7bb4205ce79c6d0f20b63e491def9747e95a3272e8add1712595ea1c4a85",
+        "symlink": false
+      },
+      {
+        "bytes": 1590751,
+        "crc32": "9f1a783a",
+        "final_mode": "0444",
+        "original_result_descriptor_key": "restricted_direction_checkpoint",
+        "path": "native-damped-chain-qr/restricted-original-node-direction.json.gz",
+        "sha256": "691d2b98bbd767c7c524bc9e7d6dd287067a0e9283939401d8b80bf028d72d84",
+        "symlink": false
+      }
+    ],
+    "original_archive_file_count": 2810,
+    "per_file_size_CRC_and_SHA256_verified": true,
+    "per_file_verification_scope": "only the five files in extraction.files",
+    "result_descriptor_binding": {
+      "decoded_result_bytes": 17605,
+      "descriptor_links_verified": true,
+      "original_descriptors": [
+        {
+          "bytes": 335715,
+          "descriptor_key": "input_binding",
+          "file": "input-binding.json.gz",
+          "sha256": "32cb5a0b92ab4ce642b65c0b75ba010ff26dcab5cbf77b1b847b5b469ea5279f"
+        },
+        {
+          "bytes": 133187,
+          "descriptor_key": "array_manifest",
+          "file": "output-array-manifest.json.gz",
+          "sha256": "8a77b6b6365562ae3d41b3ff4832576f0bd880f41f2b5ed0a8fdefa86a650401"
+        },
+        {
+          "bytes": 1033984,
+          "descriptor_key": "restricted_old_node_delta",
+          "file": "large-arrays/complete-old-node-restricted-delta.f64le",
+          "sha256": "5b6e7bb4205ce79c6d0f20b63e491def9747e95a3272e8add1712595ea1c4a85"
+        },
+        {
+          "bytes": 1590751,
+          "descriptor_key": "restricted_direction_checkpoint",
+          "file": "restricted-original-node-direction.json.gz",
+          "sha256": "691d2b98bbd767c7c524bc9e7d6dd287067a0e9283939401d8b80bf028d72d84"
+        }
+      ],
+      "original_result_schema": "complete-native-direct-LD-J1372-damped-square-root-direction-v1",
+      "original_result_sha256": "c6feb54847e96778b076076ba17b4ccd666c2548c72f8c36414b2897d176cdc1",
+      "result_and_descriptors_rewritten": false,
+      "result_archive_path": "native-damped-chain-qr/result.json.gz",
+      "unselected_manifest_array_payloads_checked": false
+    },
+    "selection_scope": {
+      "actual54_J_payloads_extracted": false,
+      "all_artifact_payloads_independently_audited": false,
+      "all_original_ZIP_member_paths_and_types_required": true,
+      "array_manifest_other_array_declarations_verified": false,
+      "complete_original_ZIP_size_and_SHA256_required": true,
+      "extraction_kind": "exactly-five-pinned-original-payload-files",
+      "full1373_direction_payload_extracted": false,
+      "full_factor_payloads_extracted": false,
+      "scientific_computation_performed": false,
+      "selected_payload_count": 5,
+      "selected_payload_size_CRC_and_SHA256_required": true,
+      "selected_payloads": [
+        {
+          "archive_path": "native-damped-chain-qr/result.json.gz",
+          "bytes": 4712,
+          "descriptor_key": null,
+          "file": "result.json.gz",
+          "sha256": "c6feb54847e96778b076076ba17b4ccd666c2548c72f8c36414b2897d176cdc1"
+        },
+        {
+          "archive_path": "native-damped-chain-qr/input-binding.json.gz",
+          "bytes": 335715,
+          "descriptor_key": "input_binding",
+          "file": "input-binding.json.gz",
+          "sha256": "32cb5a0b92ab4ce642b65c0b75ba010ff26dcab5cbf77b1b847b5b469ea5279f"
+        },
+        {
+          "archive_path": "native-damped-chain-qr/output-array-manifest.json.gz",
+          "bytes": 133187,
+          "descriptor_key": "array_manifest",
+          "file": "output-array-manifest.json.gz",
+          "sha256": "8a77b6b6365562ae3d41b3ff4832576f0bd880f41f2b5ed0a8fdefa86a650401"
+        },
+        {
+          "archive_path": "native-damped-chain-qr/large-arrays/complete-old-node-restricted-delta.f64le",
+          "bytes": 1033984,
+          "descriptor_key": "restricted_old_node_delta",
+          "file": "large-arrays/complete-old-node-restricted-delta.f64le",
+          "sha256": "5b6e7bb4205ce79c6d0f20b63e491def9747e95a3272e8add1712595ea1c4a85"
+        },
+        {
+          "archive_path": "native-damped-chain-qr/restricted-original-node-direction.json.gz",
+          "bytes": 1590751,
+          "descriptor_key": "restricted_direction_checkpoint",
+          "file": "restricted-original-node-direction.json.gz",
+          "sha256": "691d2b98bbd767c7c524bc9e7d6dd287067a0e9283939401d8b80bf028d72d84"
+        }
+      ],
+      "selected_result_four_descriptor_links_required": true,
+      "unselected_payload_CRC_checked": false,
+      "unselected_payloads_extracted": false
+    },
+    "total_extracted_bytes": 3098349,
+    "traversal_symlinks_special_files_duplicates_and_encryption_rejected": true,
+    "unselected_original_file_count": 2805,
+    "unselected_original_payloads_inflated_or_CRC_checked": false,
+    "zip_member_count": 2810,
+    "zip_paths_checked_before_any_extraction": true
+  },
+  "files_read_only_mode": "0444",
+  "output_directory": "/home/runner/work/_temp/original576-59-selected57-43640772654-1",
+  "pinned_input": {
+    "artifact_id": 14130547938,
+    "artifact_name": "visible-mainline-dampedchain-43637356027-1",
+    "expected_sha256": "226227489fb0e4111061ac03c8bfe204a8a53cda16e6bb731d2656569288aec8",
+    "expected_size": 845612536,
+    "run_id": 43637356027
+  },
+  "public_artifact_metadata": {
+    "created_at": "2026-11-14T20:41:24Z",
+    "digest": "sha256:226227489fb0e4111061ac03c8bfe204a8a53cda16e6bb731d2656569288aec8",
+    "expired": false,
+    "expires_at": "2026-12-14T20:40:55Z",
+    "id": 14130547938,
+    "local_pin_adapter_identity_not_GitHub_metadata": {
+      "actual_fixed_pin": {
+        "artifact_id": 14130547938,
+        "artifact_name": "visible-mainline-dampedchain-43637356027-1",
+        "expected_sha256": "226227489fb0e4111061ac03c8bfe204a8a53cda16e6bb731d2656569288aec8",
+        "expected_size": 845612536,
+        "run_id": 43637356027
+      },
+      "actual_receipt_schema": "pinned-public-actions-damped57-selected-five-artifact-fetch-v1",
+      "actual_source_commit": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8",
+      "adapter_does_not_read_GITHUB_TOKEN": true,
+      "kernel_main_network_output_guards_publication_and_sealing_unchanged": true,
+      "kernel_source_file": "exact_20261114_fetch_pinned_public_artifact.py",
+      "kernel_source_file_not_modified": true,
+      "kernel_source_sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+      "original_full_payload_extractor_replaced_by_selected_five_extractor": true,
+      "original_kernel_pin": {
+        "artifact_id": 14120548264,
+        "artifact_name": "visible-mainline-nativecorrection-43611175099-1",
+        "expected_sha256": "0ff8e6f597af60f19243b5457c28e8638096c775551b6f3d044dc2d2f1fabeee",
+        "expected_size": 235561097,
+        "run_id": 43611175099
+      },
+      "original_kernel_receipt_schema": "pinned-public-actions-artifact-fetch-v3",
+      "provenance_is_local_not_returned_by_GitHub": true,
+      "replaced_in_memory_names": [
+        "PIN",
+        "SCHEMA",
+        "public_metadata",
+        "read_metadata",
+        "extract_verified_archive"
+      ],
+      "schema": "actual57-fixed-pin-selected-five-adapter-provenance-v1",
+      "scientific_computation_performed": false,
+      "selection_scope": {
+        "actual54_J_payloads_extracted": false,
+        "all_artifact_payloads_independently_audited": false,
+        "all_original_ZIP_member_paths_and_types_required": true,
+        "array_manifest_other_array_declarations_verified": false,
+        "complete_original_ZIP_size_and_SHA256_required": true,
+        "extraction_kind": "exactly-five-pinned-original-payload-files",
+        "full1373_direction_payload_extracted": false,
+        "full_factor_payloads_extracted": false,
+        "scientific_computation_performed": false,
+        "selected_payload_count": 5,
+        "selected_payload_size_CRC_and_SHA256_required": true,
+        "selected_payloads": [
+          {
+            "archive_path": "native-damped-chain-qr/result.json.gz",
+            "bytes": 4712,
+            "descriptor_key": null,
+            "file": "result.json.gz",
+            "sha256": "c6feb54847e96778b076076ba17b4ccd666c2548c72f8c36414b2897d176cdc1"
+          },
+          {
+            "archive_path": "native-damped-chain-qr/input-binding.json.gz",
+            "bytes": 335715,
+            "descriptor_key": "input_binding",
+            "file": "input-binding.json.gz",
+            "sha256": "32cb5a0b92ab4ce642b65c0b75ba010ff26dcab5cbf77b1b847b5b469ea5279f"
+          },
+          {
+            "archive_path": "native-damped-chain-qr/output-array-manifest.json.gz",
+            "bytes": 133187,
+            "descriptor_key": "array_manifest",
+            "file": "output-array-manifest.json.gz",
+            "sha256": "8a77b6b6365562ae3d41b3ff4832576f0bd880f41f2b5ed0a8fdefa86a650401"
+          },
+          {
+            "archive_path": "native-damped-chain-qr/large-arrays/complete-old-node-restricted-delta.f64le",
+            "bytes": 1033984,
+            "descriptor_key": "restricted_old_node_delta",
+            "file": "large-arrays/complete-old-node-restricted-delta.f64le",
+            "sha256": "5b6e7bb4205ce79c6d0f20b63e491def9747e95a3272e8add1712595ea1c4a85"
+          },
+          {
+            "archive_path": "native-damped-chain-qr/restricted-original-node-direction.json.gz",
+            "bytes": 1590751,
+            "descriptor_key": "restricted_direction_checkpoint",
+            "file": "restricted-original-node-direction.json.gz",
+            "sha256": "691d2b98bbd767c7c524bc9e7d6dd287067a0e9283939401d8b80bf028d72d84"
+          }
+        ],
+        "selected_result_four_descriptor_links_required": true,
+        "unselected_payload_CRC_checked": false,
+        "unselected_payloads_extracted": false
+      },
+      "source_file": "root_20261114_fetch_pinned_damped57_selected.py",
+      "source_sha256": "f3184739b529908a7feec5f301d9fe939fad477b52d28c865e159f21b1ef4c75"
+    },
+    "name": "visible-mainline-dampedchain-43637356027-1",
+    "size_in_bytes": 845612536,
+    "updated_at": "2026-11-14T20:41:24Z",
+    "workflow_run": {
+      "head_branch": "main",
+      "head_repository_id": 1457408986,
+      "head_sha": "adbdf144b14ae7adc71df09948a5c05f8a30e8b8",
+      "id": 43637356027,
+      "repository_id": 1457408986
+    }
+  },
+  "publication": "Exclusive mkdir; verified child renames; receipt moved last; read-only sealing after moves; not atomic as a whole directory",
+  "repository": "Rogerhu12/math-research-public",
+  "runner_temp": "/home/runner/work/_temp",
+  "schema": "pinned-public-actions-damped57-selected-five-artifact-fetch-v1",
+  "scientific_computation_performed": false,
+  "source_file": "exact_20261114_fetch_pinned_public_artifact.py",
+  "source_sha256": "51224788078acff0a522b4850c8d971a29cbc6d3cecd1c7cd1a724aaa24aa859",
+  "success": true,
+  "temporary_zip_removed": true,
+  "token_or_authorization_or_signed_URL_serialized": false,
+  "token_source": "GITHUB_TOKEN environment only",
+  "whole_directory_publication_atomic": false,
+  "zip_verified_before_extraction": true
+}

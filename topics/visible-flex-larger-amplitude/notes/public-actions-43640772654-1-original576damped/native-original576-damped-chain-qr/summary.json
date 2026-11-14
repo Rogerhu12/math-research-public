@@ -1,0 +1,392 @@
+{
+  "source_sha256": "e1a35bd82433cfe6525047cb3ceb3d0c434c1ebaa62680cb0f1fdab0e76cfaec",
+  "system_source_sha256": "c78dfc6a5ef64a9de8bbbc857a927c6cd1078bbfb2281be62be4eb942014b207",
+  "factor_engine_source_sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+  "kernel_source_sha256": "0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f",
+  "eta_cli_text": "1",
+  "eta_binary64": {
+    "value": 1.0,
+    "float64le_hex": "000000000000f03f",
+    "classification": "finite"
+  },
+  "diagnostic_completed": true,
+  "linear_direction_computed": true,
+  "new_matrix_identity_sha256": "3c4583c83c5b91a6aab5e64ef74ba8ef0196047c50857f32f9e2cf1dd1bcc57d",
+  "input_binding": {
+    "file": "input-binding.json.gz",
+    "bytes": 61380,
+    "sha256": "b722d1c8cfd5a7a26b565f3392b1da505a47578c5b424f3db37838b30830566e"
+  },
+  "reference57_binding": {
+    "file": "reference57-binding.json",
+    "bytes": 3136,
+    "sha256": "e6e6b937b2d64f5adcd9b79d22c8d9f0054bc73b5ccbca79ce290a5e8ec281e5"
+  },
+  "factor_report": {
+    "file": "factor-report.json.gz",
+    "bytes": 2019,
+    "sha256": "96f26b29d975f48223450285b7124edd0e023af6b84c87b03c1c6ce744e6cdec"
+  },
+  "factor_summary": {
+    "complete": true,
+    "rows": 129248,
+    "columns": 129248,
+    "augmented_rows": 258496,
+    "stage_count": 576,
+    "node_count": 577,
+    "block_width": 224,
+    "node_penalty_blocks": 577,
+    "qr_calls": 1153,
+    "formation_calls": 1152,
+    "formation_underflow_to_binary64_zero": 0,
+    "pure_constant_rows": 129248,
+    "actual_factor_and_constant_bytes": 464891392,
+    "formed_model_identity_sha256": "e3f2ed49de8f57622775bf0039300157bb35d279b74e87ab4d0e264c526f4f95",
+    "pure_constant_energy_longdouble": {
+      "decimal_display": "2.764939924575972664e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "minimum_absolute_triangular_diagonal": {
+      "value": 1.1915065260525806,
+      "float64le_hex": "ccdca5256910f33f",
+      "classification": "finite"
+    },
+    "expected_factor_and_constant_bytes": 464891392,
+    "maximum_declared_factor_bytes": 2147483648,
+    "working_precision": {
+      "dtype": "float128",
+      "itemsize": 16,
+      "significand_bits": 64,
+      "minexp": -16382,
+      "maxexp": 16384,
+      "byteorder": "little",
+      "exact_rational_arithmetic_claimed": false
+    },
+    "elapsed_seconds": 33.49653665400001,
+    "maximum_RSS_kib": 155288
+  },
+  "factor_index": {
+    "file": "factor-index.json.gz",
+    "bytes": 58748,
+    "sha256": "b3cd4396131c0300dbed0e91980c8a083924f990d447e22eb0288f0d87b753fe"
+  },
+  "formed_stage_inventory": {
+    "file": "formed-stage-inventory.json.gz",
+    "bytes": 118011,
+    "sha256": "6cc2e7bc810f030224d97f89cf6d78ec1291470dd69627b6bf54277bd32af32b"
+  },
+  "formed_model_diagnostic": {
+    "arithmetic": "Longdouble numerical actions of exactly the same formed f64 coefficients; no exact certificate",
+    "model_identity_sha256": "e3f2ed49de8f57622775bf0039300157bb35d279b74e87ab4d0e264c526f4f95",
+    "scope": "Scaled z before actual sigma*z recovery; exact final delta rows are reported separately",
+    "base_objective": {
+      "decimal_display": "0.003420352300689565896",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "objective": {
+      "decimal_display": "1.3824699623572771189e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "model_drop": {
+      "decimal_display": "0.0034203523006895658823",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_residual_two_norm": {
+      "decimal_display": "1.1487494999300258599e-10",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_residual_infinity_norm": {
+      "decimal_display": "9.686175843129587578e-11",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "full_unpreconditioned_model_gradient_two_norm": {
+      "decimal_display": "24888563.660002361963",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "gradient_dimension": 129248,
+    "factor_variable_square": {
+      "decimal_display": "7.306775033277206174e-35",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "constant_square": {
+      "decimal_display": "2.764939924575972664e-20",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "formed_energy_minus_factor_energy": {
+      "decimal_display": "1.3857426679695070552e-30",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "factor_triangular_residual_infinity": {
+      "decimal_display": "4.2825985813177425143e-18",
+      "finite": true,
+      "zero": false,
+      "negative": false,
+      "arithmetic": "Recorded longdouble numerical readout, not an exact rational bound"
+    },
+    "model_gradient_is_not_native_acceptance": true,
+    "no_R273_posterior_certification_from_rounded_norms": true
+  },
+  "native_delta": {
+    "name": "complete-original-coordinate-delta",
+    "file": "large-arrays/complete-original-coordinate-delta.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      577,
+      224
+    ],
+    "bytes": 1033984,
+    "sha256": "22d79a989a13cc99a239735d184d63064751c141f05ded2f5131b198be3d80c0",
+    "role": "Actual full binary64 sigma*z product, no threshold or removed mode; original exact readback follows",
+    "finite": 129248,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 43
+  },
+  "native_direction_checkpoint": {
+    "file": "native-direction-checkpoint.json.gz",
+    "bytes": 1313524,
+    "sha256": "e29823d767219930639a57496b8547633820e92b52c59f1db489dbb8c9cd6d67"
+  },
+  "original_exact_readback": {
+    "full_report": {
+      "file": "current_damped-original576-exact-readback.json.gz",
+      "bytes": 164060,
+      "sha256": "cdf45fbf4d4145edd455872bf6e260e7a0bb1ad4f117b4583b7939c2ed7c36d1"
+    },
+    "direction_label": "current_damped",
+    "direction_float64le_sha256": "22d79a989a13cc99a239735d184d63064751c141f05ded2f5131b198be3d80c0",
+    "exact_global_original_sigma_norm": {
+      "kind": "stage",
+      "node": 9,
+      "row": 0,
+      "global_equation_row": 2128,
+      "component": "Q",
+      "mode": 1,
+      "original_sigma_float64le_hex": "14b8f8fa483ef73c",
+      "exact_unscaled_dyadic": [
+        "0x26adb46e57c8eada5ff8a417eac8e5dc6f4ab3bc9007babf0e58964bff4a6aef35a4a6bba56c75abd",
+        -402
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "5163553004125289300454258982891727006652584036118338561491433623078754777772087629020786644703933",
+        "denominator": "53308478885274434336056892118250514752936528579854643590235748299559045570577647127257142211629965960544256",
+        "decimal_display_64_significant_digits": "9.686175843129587936074652125210791129638012285038848823120572249E-11",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "5163553004125289300454258982891727006652584036118338561491433623078754777772087629020786644703933",
+        "denominator": "53308478885274434336056892118250514752936528579854643590235748299559045570577647127257142211629965960544256",
+        "decimal_display_64_significant_digits": "9.686175843129587936074652125210791129638012285038848823120572249E-11",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "actual28-original576-finite-binary64-complete-J-r-sigma-chain",
+      "new_matrix_identity_sha256": "3c4583c83c5b91a6aab5e64ef74ba8ef0196047c50857f32f9e2cf1dd1bcc57d",
+      "source_stage": {
+        "originalStage": 9,
+        "rawCell": 0,
+        "rawSegment": 7,
+        "kind": "original-native-macro-stage"
+      }
+    },
+    "exact_stored_base_sigma_norm": {
+      "kind": "stage",
+      "node": 10,
+      "row": 206,
+      "global_equation_row": 2558,
+      "component": "Pi",
+      "mode": 95,
+      "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+      "exact_unscaled_dyadic": [
+        "-0x3e3fb5",
+        -74
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "-11407223422976",
+        "denominator": "273075959744683",
+        "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "11407223422976",
+        "denominator": "273075959744683",
+        "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "actual28-original576-finite-binary64-complete-J-r-sigma-chain",
+      "new_matrix_identity_sha256": "3c4583c83c5b91a6aab5e64ef74ba8ef0196047c50857f32f9e2cf1dd1bcc57d",
+      "source_stage": {
+        "originalStage": 10,
+        "rawCell": 0,
+        "rawSegment": 7,
+        "kind": "original-native-macro-stage"
+      }
+    },
+    "exact_rows": 129248,
+    "completed_stages": 576,
+    "original_product_positions": 28901488,
+    "all_exact_residual_rows": {
+      "name": "current_damped-original576-all-exact-rows",
+      "file": "large-arrays/current_damped-original576-all-exact-rows.jsonl.gz",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        129248
+      ],
+      "bytes": 6188486,
+      "sha256": "e53811b55fee4bfbb71a3b10ac075d122788b52dc9a140f20a6a2a62dfc788b9",
+      "role": "Every original576 unscaled cut/stage/far residual, then exact division by original sigma; no eta rows"
+    },
+    "worst_witness": {
+      "file": "current_damped-original576-worst-witness.json",
+      "bytes": 10261,
+      "sha256": "37cff7f7857271f209e4f32907731aa10fc47632fe42184db7e7af59b1c8676f"
+    },
+    "used_as_new_nonlinear_acceptance_gate": false,
+    "no_float_refinement_RHS_formed": true
+  },
+  "reference57_original576_exact_readback": {
+    "full_report": {
+      "file": "reference57-original576-exact-readback.json.gz",
+      "bytes": 164292,
+      "sha256": "8b8301e278430f130e019dda3599f8437a69cdd2a399afd7629f97bc7bdb360e"
+    },
+    "direction_label": "reference57",
+    "direction_float64le_sha256": "5b6e7bb4205ce79c6d0f20b63e491def9747e95a3272e8add1712595ea1c4a85",
+    "exact_global_original_sigma_norm": {
+      "kind": "stage",
+      "node": 10,
+      "row": 206,
+      "global_equation_row": 2558,
+      "component": "Pi",
+      "mode": 95,
+      "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+      "exact_unscaled_dyadic": [
+        "-0x1f1fda7ffffffc3781b8685530075fde239bbf052cf4cf1526c142e567da52a325f4ce522798b388f",
+        -373
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "-4155085891965781057129065899206293944089448734313723430732913249148410239242096563753814026041487",
+        "denominator": "99468032289502707972158188816747260064699733924532956792531994259109184002478427922593355780849664",
+        "decimal_display_64_significant_digits": "-4.177307820740197006967472801205363140372575846205089504925633190E-2",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "4155085891965781057129065899206293944089448734313723430732913249148410239242096563753814026041487",
+        "denominator": "99468032289502707972158188816747260064699733924532956792531994259109184002478427922593355780849664",
+        "decimal_display_64_significant_digits": "4.177307820740197006967472801205363140372575846205089504925633190E-2",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "actual28-original576-finite-binary64-complete-J-r-sigma-chain",
+      "new_matrix_identity_sha256": "3c4583c83c5b91a6aab5e64ef74ba8ef0196047c50857f32f9e2cf1dd1bcc57d",
+      "source_stage": {
+        "originalStage": 10,
+        "rawCell": 0,
+        "rawSegment": 7,
+        "kind": "original-native-macro-stage"
+      }
+    },
+    "exact_stored_base_sigma_norm": {
+      "kind": "stage",
+      "node": 10,
+      "row": 206,
+      "global_equation_row": 2558,
+      "component": "Pi",
+      "mode": 95,
+      "original_sigma_float64le_hex": "08d0dad5aa48f73c",
+      "exact_unscaled_dyadic": [
+        "-0x3e3fb5",
+        -74
+      ],
+      "exact_signed_scaled_residual": {
+        "numerator": "-11407223422976",
+        "denominator": "273075959744683",
+        "decimal_display_64_significant_digits": "-4.177307820740198810865391958317089789308602682333899003945437350E-2",
+        "display_never_used_for_comparison": true
+      },
+      "exact_absolute_scaled_residual": {
+        "numerator": "11407223422976",
+        "denominator": "273075959744683",
+        "decimal_display_64_significant_digits": "4.177307820740198810865391958317089789308602682333899003945437350E-2",
+        "display_never_used_for_comparison": true
+      },
+      "matrix_scope": "actual28-original576-finite-binary64-complete-J-r-sigma-chain",
+      "new_matrix_identity_sha256": "3c4583c83c5b91a6aab5e64ef74ba8ef0196047c50857f32f9e2cf1dd1bcc57d",
+      "source_stage": {
+        "originalStage": 10,
+        "rawCell": 0,
+        "rawSegment": 7,
+        "kind": "original-native-macro-stage"
+      }
+    },
+    "exact_rows": 129248,
+    "completed_stages": 576,
+    "original_product_positions": 28901488,
+    "all_exact_residual_rows": {
+      "name": "reference57-original576-all-exact-rows",
+      "file": "large-arrays/reference57-original576-all-exact-rows.jsonl.gz",
+      "dtype": "exact-dyadic-jsonl-gzip",
+      "shape": [
+        129248
+      ],
+      "bytes": 6226508,
+      "sha256": "598f9c031ba5a967637eab1cf63c40ea7db4d32dfdde1c9da3e35fb38f52fdb3",
+      "role": "Every original576 unscaled cut/stage/far residual, then exact division by original sigma; no eta rows"
+    },
+    "worst_witness": {
+      "file": "reference57-original576-worst-witness.json",
+      "bytes": 10250,
+      "sha256": "7db799ecb703fdab3fa799f8f72a3a566289f8b9465d6235ac84d72146cf888e"
+    },
+    "used_as_new_nonlinear_acceptance_gate": false,
+    "no_float_refinement_RHS_formed": true
+  },
+  "array_manifest": {
+    "file": "output-array-manifest.json.gz",
+    "bytes": 57270,
+    "sha256": "b078dcffcdd382b2b0892d8f552c8cdfe58c022ba974e06ba35fda4ca8759e79"
+  },
+  "elapsed_seconds": 34.80095304400001,
+  "maximum_RSS_kib": 155288,
+  "schema": "native-original576-damped-chain-small-summary-v1",
+  "full_result": {
+    "file": "result.json.gz",
+    "bytes": 4659,
+    "sha256": "d22e21a926318f15cb2d38f1f657404c0684d8bc81fe54c32499b35713a83b97"
+  },
+  "native_accepted": false,
+  "task_completed": false,
+  "same_original576_target_for_both_exact_directions": true,
+  "no_linear_norm_threshold_is_a_native_trial_gate": true,
+  "L2_model_descent_does_not_imply_original_infinity_descent": true
+}

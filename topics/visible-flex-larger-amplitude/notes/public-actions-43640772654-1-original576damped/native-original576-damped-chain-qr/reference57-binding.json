@@ -1,0 +1,79 @@
+{
+  "schema": "actual57-original-node-direction-reference-binding-v1",
+  "result": {
+    "file": "result.json.gz",
+    "bytes": 4712,
+    "sha256": "c6feb54847e96778b076076ba17b4ccd666c2548c72f8c36414b2897d176cdc1"
+  },
+  "selected_files": {
+    "input_binding": {
+      "file": "input-binding.json.gz",
+      "bytes": 335715,
+      "sha256": "32cb5a0b92ab4ce642b65c0b75ba010ff26dcab5cbf77b1b847b5b469ea5279f"
+    },
+    "array_manifest": {
+      "file": "output-array-manifest.json.gz",
+      "bytes": 133187,
+      "sha256": "8a77b6b6365562ae3d41b3ff4832576f0bd880f41f2b5ed0a8fdefa86a650401"
+    },
+    "restricted_direction_checkpoint": {
+      "file": "restricted-original-node-direction.json.gz",
+      "bytes": 1590751,
+      "sha256": "691d2b98bbd767c7c524bc9e7d6dd287067a0e9283939401d8b80bf028d72d84"
+    },
+    "restricted_old_node_delta": {
+      "name": "complete-old-node-restricted-delta",
+      "file": "large-arrays/complete-old-node-restricted-delta.f64le",
+      "dtype": "<f8",
+      "order": "C",
+      "shape": [
+        577,
+        224
+      ],
+      "bytes": 1033984,
+      "sha256": "5b6e7bb4205ce79c6d0f20b63e491def9747e95a3272e8add1712595ea1c4a85",
+      "role": "Exact old577-node byte restriction of this new complete damped direction, not a new target H",
+      "finite": 129248,
+      "nan": 0,
+      "positive_infinity": 0,
+      "negative_infinity": 0,
+      "negative_zero": 39
+    }
+  },
+  "source_schema": "complete-native-direct-LD-J1372-damped-square-root-direction-v1",
+  "source_sha256": "9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33",
+  "source_matrix_identity_sha256": "76f30d775c0255dd127b08fa279e59fcaaa4a79a50b72bc7adc8231e436f6999",
+  "source_complete1373_delta_sha256": "2c5d9ffdf6caf815e8104c38df8f7e33451db00df0779d5614afab8eabcd6773",
+  "actual_restricted577_delta_sha256": "5b6e7bb4205ce79c6d0f20b63e491def9747e95a3272e8add1712595ea1c4a85",
+  "source_eta_binary64": {
+    "value": 1.0,
+    "float64le_hex": "000000000000f03f",
+    "classification": "finite"
+  },
+  "current_original576_matrix_identity_sha256": "3c4583c83c5b91a6aab5e64ef74ba8ef0196047c50857f32f9e2cf1dd1bcc57d",
+  "same_original_actual28_capture_binding": true,
+  "source_reference_direction_bytes_unchanged": true,
+  "current_exact_readback_is_on_the_original576_target_not_the_source1372_target": true,
+  "source_full1373_direction_not_reloaded": true,
+  "source_factors_not_reloaded": true,
+  "this_does_not_reaudit_the_original1373_to577_restriction_operation": true,
+  "reference_is_not_a_new_candidate_or_new_native_state": true,
+  "exported_reference_array": {
+    "name": "reference57-original-node-delta",
+    "file": "large-arrays/reference57-original-node-delta.f64le",
+    "dtype": "<f8",
+    "order": "C",
+    "shape": [
+      577,
+      224
+    ],
+    "bytes": 1033984,
+    "sha256": "5b6e7bb4205ce79c6d0f20b63e491def9747e95a3272e8add1712595ea1c4a85",
+    "role": "Unchanged saved actual57 original577-node restriction; read back here on the original576 matrix",
+    "finite": 129248,
+    "nan": 0,
+    "positive_infinity": 0,
+    "negative_infinity": 0,
+    "negative_zero": 39
+  }
+}
