@@ -339,3 +339,7 @@ recovery_development已部署：Gamma Node IO、height helper和bounded参考全
 ### O4 的 R72 更新：同scalar的frame调整不再增加二、三阶成本
 
 [R72](results/R72-same-state-zero-second-third-arbitrary-frame-bridge.md) 用真实M0桥与同k倒行、有限半角/Euler构造，准确实现同一scalar常germ下任意frame端目标且M=T=0。可先剥离frame端口成本；不同k/h/omega的基准转接第三T仍需整个函数支付，P0亦可能改变。中心线单桥位移未指定，不能从本定理推出嵌入、宏观厚度或有限族。
+
+### O2 的联合帽高约束更新
+
+[固定g线性帽高门](notes/fixed-metric-linear-cap-height-constrained-solve-design-20261114.md) 将当前新场族的共同帽高准确写成hbase+λᵀc，u/v行恒零；同一数值评价下保单行不等式及原系数盒。先等待short actual判明两初态/一次B7结果，再选联合求解；仅初始化抬高后又做普通box least_squares会失去帽高门。SLSQP中间试探、最佳帽高/盒可行点分别保存，最终完整几何/同态精化仍独立付。该硬门只是必要筛；metric、曲率及非局部reach继续是待解主项。

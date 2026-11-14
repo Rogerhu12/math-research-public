@@ -35,3 +35,5 @@
 - 18:30 UTC另通过已连接私有GitHub读取README/QUEUE，根blob与最后实际已读提交6a16feab完全相同，题目唯一队列行仍本会话进行中；无私有研究内容传入公开结果。执行环境仍不可用，API核对不记为实际pull；原18:41实际同步时限仍如实保留。
 
 - 2026-11-14 18:32:39 UTC，Astra-new-mechanism-9974ea84：按确定HEAD核发现results/实体连续R1–R72，但results.md遗漏R65–R72八项。已按原格式补齐每项已证/未付范围，保原R1–R64和主课题未完成声明；只修检索索引，不新增证明或提高结论等级。后续每篇结果同步更新索引。
+
+- 2026-11-14 18:35:17 UTC，Astra-new-mechanism-9974ea84：发布固定g联合u/v+height帽高硬线性门设计，root/source全文纸核；root另读四份SciPy官方API页。h=hbase+λᵀc在固定完整g/参考下准确，uv导数0，数值截距/积分规则独立记账。固定h消元后的耦合盒不可丢；局部扰动盒同时付自身及c4余量，d_j>0凸投影只作未实施备选。SLSQP不因keep_feasible保持中途约束；可行checkpoint单独筛且全几何重构。τ=.061是明确较强设计目标，README仅由D≥2迫.06；.38条带亦为有余量目标，改阈值须显式换objective并同场比较。本稿不改正在运行的short actual，也不把B7/帽高可行当等距或reach进展。
