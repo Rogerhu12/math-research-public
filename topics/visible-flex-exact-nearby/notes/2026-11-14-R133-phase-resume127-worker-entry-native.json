@@ -1,0 +1,18 @@
+{
+  "kind": "phase_resume_entry_and_immutable_staging_check",
+  "actual_producer_executed": false,
+  "git_actions_executed": false,
+  "entry_run_method_callable": true,
+  "verified_scientific_inputs": 345,
+  "original127_checkpoints_staged": 127,
+  "isolated_original_producer_import_exit": 0,
+  "worker_sha256": "9091af47242b09e1df7d141812539b4210a7748e9fc82986bdc29c7e0b256949",
+  "input_manifest_sha256": "0c23828770deca8dc9734ac33249e56f51c7560fc760989ae204b7fe5d8c4341",
+  "runtime": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  }
+}

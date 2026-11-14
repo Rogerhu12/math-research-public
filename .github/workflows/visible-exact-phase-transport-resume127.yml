@@ -1,0 +1,123 @@
+name: visible-exact full phase transport after completed127 germs
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-phase-transport-resume127.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-phase-transport-resume127
+  cancel-in-progress: false
+
+jobs:
+  complete-actual-remaining42:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 350
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - name: Install terminal Git for partial checkout and publication
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+
+      - name: Read exact public sources and the completed same-object prefix
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/data/phase_transport_resume127_20261114/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-transport-resume127-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-169-germ-phase-scalar-cover-native.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-final-phase-root-sliver-and-transport-contract-native.json.gz
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complete-Arb-high-scalar-Taylor-first-germ-native.json.gz
+            /topics/visible-flex-exact-nearby/notes/phase_scalar_high7_ci/
+            /topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Hydrate every exact path in the pinned scientific manifest
+        run: |
+          python - <<'PY'
+          import hashlib, json, subprocess
+          from pathlib import Path
+          path=Path('topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-transport-resume127-inputs.json')
+          expected='0c23828770deca8dc9734ac33249e56f51c7560fc760989ae204b7fe5d8c4341'
+          if hashlib.sha256(path.read_bytes()).hexdigest()!=expected:
+              raise SystemExit('The pinned exact scientific manifest changed')
+          manifest=json.loads(path.read_text())
+          patterns={'/README.md', '/topics/visible-flex-exact-nearby/README.md',
+                    '/topics/visible-flex-exact-nearby/scripts/',
+                    '/topics/visible-flex-exact-nearby/notes/phase_transport_complete_ci/',
+                    '/'+str(path)}
+          for name in manifest['files']:
+              item=Path(name)
+              if item.is_absolute() or '..' in item.parts:
+                  raise SystemExit('A pinned path escapes the authorized checkout')
+              patterns.add('/'+name)
+          subprocess.run(['git','-c','safe.directory='+str(Path.cwd()),
+                          'sparse-checkout','set','--no-cone','--stdin'],
+                         input='\n'.join(sorted(patterns))+'\n', text=True, check=True)
+          for name, digest in manifest['files'].items():
+              if hashlib.sha256(Path(name).read_bytes()).hexdigest()!=digest:
+                  raise SystemExit('A hydrated scientific input differs: '+name)
+          print('Hydrated all exact public scientific inputs:',len(manifest['files']))
+          PY
+
+      - name: Install the original exact arithmetic runtime
+        run: >-
+          python -m pip install --disable-pip-version-check
+          numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+          sympy==1.14.0 mpmath==1.3.0
+
+      - name: Verify the exact resume worker before execution
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          path=Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_transport_resume_CI_worker.py')
+          expected='9091af47242b09e1df7d141812539b4210a7748e9fc82986bdc29c7e0b256949'
+          if hashlib.sha256(path.read_bytes()).hexdigest()!=expected:
+              raise SystemExit('The pinned exact-source resume worker changed')
+          print('Exact resume worker identity verified')
+          PY
+
+      - name: Record the real container-visible artifact directory
+        id: artifact
+        run: |
+          artifact_dir="$RUNNER_TEMP/visible-exact-phase-transport-resume127"
+          mkdir -p "$artifact_dir"
+          printf 'path=%s\n' "$artifact_dir" >> "$GITHUB_OUTPUT"
+
+      - name: Reuse all completed127 germs and compute the remaining42
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_phase_transport_resume_CI_worker.py
+          --manifest topics/visible-flex-exact-nearby/notes/2026-11-14-R133-phase-transport-resume127-inputs.json
+          --manifest-sha 0c23828770deca8dc9734ac33249e56f51c7560fc760989ae204b7fe5d8c4341
+          --compute-minutes 310 --checkpoint-minutes 10
+          --artifact-dir "$RUNNER_TEMP/visible-exact-phase-transport-resume127"
+
+      - name: Preserve complete outputs and every real failed prefix
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-phase-transport-resume127-${{ github.run_attempt }}
+          path: ${{ steps.artifact.outputs.path }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn

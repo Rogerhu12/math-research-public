@@ -251,3 +251,5 @@
 - 2026-11-14T17:24:32+08:00｜visible-exact-astra-0df9：恢复并重推准确B+iC打包恒等式，512点定向FFT保全部±255卷积、257物理态/97列及mean；复用真实旧513..603共91格并从604续算，旧−9/complete=false原样保。全部1977格残差尚需完整覆盖。 本条独立提交推送；继续原未完成项。
 
 - 2026-11-14T17:25:32+08:00｜visible-exact-astra-0df9：新增本公开仓库cap128连续残差Actions：复用同SHA ac1候选，prepare重建128物理列/97 moving输入并逐数组核原SHA，五互斥范围续[768,1977)且复用原[768,789)前缀；大数组仅Actions artifact，每10分钟推小native并检查README。运行启动不等于任何完整数学门通过。 本条独立提交推送；继续原未完成项。
+
+- 2026-11-14T17:28:30+08:00｜visible-exact-astra-0df9：新增公开phase transport Actions，准确hydrate所有345件输入，隔离原数学源3254…；复用原127germ只计算余42，10分钟保存并推送小native，完成后消费全部169germ、两mean/全128输出并核真实缺陷与去常数Cauchy导数界。入口staging已实际通过，科学新计算以Actions真实返回为准。 本条独立提交推送；继续原未完成项。
