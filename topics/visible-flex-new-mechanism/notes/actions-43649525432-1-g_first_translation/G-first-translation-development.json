@@ -1,0 +1,231 @@
+{
+  "P0_or_ruling_paid": null,
+  "U4_quotient_nonzero_proved": null,
+  "all_derivative_weights_computed": null,
+  "checkpoint": null,
+  "coefficient_checkpoint": null,
+  "complete_U4_equals_R8_proved": null,
+  "complete_report_file": {
+    "filename": "G-first-translation-development-complete-report.json.gz",
+    "persisted": true,
+    "raw_bytes": 8005,
+    "raw_sha256": "bc6558311d8a83f98ee708ada8d9269e44e9775bc11ca3993e96c68a830fc976",
+    "stored_bytes": 2781,
+    "stored_sha256": "451b7b35592bf92714f5c642cd408f00852d985c4d7fa1e303a17ba11f76529c"
+  },
+  "complete_report_raw_exceeds_main_limit": false,
+  "completed_blocks": [],
+  "completion": "toy_passed",
+  "elapsed_seconds": 0.04384512699999732,
+  "error": null,
+  "finite_isometric_family_constructed": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43649525432",
+  "github_sha": "5852d7d4400859e53dde789b4d63f200d0e0acce",
+  "input": null,
+  "limits": {
+    "complete_report_bytes": 2500000,
+    "main_bytes": 90000,
+    "max_degree": 256,
+    "max_operations": 10000000,
+    "memory_polling_mib": 1024,
+    "seconds": 240
+  },
+  "peak_rss_mib": 27.19140625,
+  "phase": "small_artificial_translation_interfaces",
+  "reference_matrix": null,
+  "schema": "visible-flex-G-first-translation-original-v1",
+  "scope": "one original first-translation universal membership block, complete two modes",
+  "source_hashes": {
+    "G_input_producer": {
+      "bytes": 16444,
+      "filename": "literature_static_G_rational_dual.py",
+      "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+    },
+    "driver": {
+      "bytes": 26885,
+      "filename": "literature_G_first_translation.py",
+      "sha256": "331fea2c1aef154c4d5866e4708f067c555f9fb61f02a11ee32a7f44d25f01f5"
+    },
+    "original_producer_dependencies": {
+      "colored": {
+        "bytes": 15738,
+        "filename": "literature_colored_profile_algebra.py",
+        "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+      },
+      "driver": {
+        "bytes": 38857,
+        "filename": "literature_local_fourth_quotient.py",
+        "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+      },
+      "dual_receipt_reader": {
+        "bytes": 19492,
+        "filename": "literature_full_phase_rational_dual.py",
+        "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+      },
+      "endpoint": {
+        "bytes": 21532,
+        "filename": "literature_closed_c1_endpoint.py",
+        "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+      },
+      "exact": {
+        "bytes": 33718,
+        "filename": "literature_pure_bulk_exact_membership.py",
+        "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+      },
+      "formal": {
+        "bytes": 33169,
+        "filename": "literature_range_profile_algebra.py",
+        "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+      },
+      "local": {
+        "bytes": 30635,
+        "filename": "literature_local_third_bridge_decompose.py",
+        "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+      },
+      "scaling_interfaces": {
+        "bytes": 37293,
+        "filename": "literature_total_P1_scaling_blocks.py",
+        "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+      },
+      "v2_producer": {
+        "bytes": 35368,
+        "filename": "literature_full_phase_bridge_exact.py",
+        "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+      },
+      "words": {
+        "bytes": 32310,
+        "filename": "literature_pure_bulk_word_normal_form.py",
+        "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+      }
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "publication_identity_helper": {
+      "bytes": 32096,
+      "filename": "literature_full_m8_tail_response_projection.py",
+      "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+    },
+    "static_input_and_report_helper": {
+      "bytes": 24202,
+      "filename": "literature_constrained_static_fourth.py",
+      "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+    }
+  },
+  "toy": {
+    "all_passed": true,
+    "checks": {
+      "exact_coordinate_degree_bound": true,
+      "explicit_coordinate_and_nested_primitive_derivative": true,
+      "finite_shift_equals_true_nilpotent_exponential": true,
+      "finite_third_translation_zero": true,
+      "second_translation_not_full_profile_derivative": true,
+      "translation_lowers_true_affine_weight": true,
+      "true_translation_commutes_with_right_primitive": true,
+      "true_translation_commutes_with_total_derivative": true
+    },
+    "existing_small_interfaces": {
+      "all_passed": true,
+      "original_exterior_inner_slots_and_two_mode_factors": true,
+      "public_DAG_consumed": false,
+      "rational_evaluator": {
+        "all_passed": true,
+        "artificial_dual": {
+          "control_columns": 2,
+          "functional_over_Q": "ev_last - row_last(A) * inverse(A_pivot) * ev_pivot",
+          "modular_augmented_determinant": 2,
+          "modular_augmented_matrix": [
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              1,
+              1,
+              7
+            ]
+          ],
+          "modular_control_rank": 2,
+          "modular_functional_all_control_values": [
+            0,
+            0
+          ],
+          "modular_functional_coefficients": [
+            100,
+            100,
+            1
+          ],
+          "modular_functional_target_value": 2,
+          "modular_pivot_determinant": 1,
+          "nonzero_reason": "det(Augmented) has defined nonzero reduction modulo the checked prime",
+          "rational_functional_identity": "Lambda(A_j)=0 exactly for all original retained control columns",
+          "rational_nonmembership_certified": true,
+          "selected_augmented_rows": [
+            0,
+            1,
+            2
+          ],
+          "selected_control_rows": [
+            0,
+            1
+          ]
+        },
+        "checks": {
+          "deficient_rank_not_promoted": true,
+          "full_rank_nonzero_augmented_minor": true,
+          "modular_fit_not_positive_function_identity": true,
+          "ordinary_complex_square_not_norm_square": true,
+          "right_boundary_term_paid": true,
+          "right_endpoint_zero": true,
+          "signed_right_primitive_derivative": true,
+          "signed_right_shuffle": true,
+          "xi_derivative_has_true_interval_scale": true
+        },
+        "coefficient_arithmetic": {
+          "all_encountered_rational_denominators_invertible": true,
+          "encountered_denominator_count": 4,
+          "encountered_denominators": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "encountered_denominators_sha256": "f6bd10506e9a4daed7c03eda2f2fde54be3bd58eee49dab471c18a888ffbdb6f",
+          "max_polynomial_degree": 4,
+          "operation_check_calls": 39,
+          "prime": 101,
+          "prime_checked_by_trial_division": true,
+          "raw_atoms_evaluated": 0,
+          "raw_monomials_evaluated": 0
+        },
+        "research_compiler_called": false,
+        "research_profile_or_geometry_evaluated": false,
+        "scope": "small artificial polynomial/linear-algebra toys only"
+      },
+      "research_target_or_profile_evaluated": false,
+      "static_input_and_report": {
+        "R114_exact_Kronecker_coordinates": true,
+        "R114_exact_reference_matrix_inverse": true,
+        "artificial_hk_cubed_residual_hk_times_k_squared_minus_one": true,
+        "artificial_matrix_linear_density_zero": true,
+        "complete_large_artificial_report_gzip_roundtrip": true,
+        "main_source_run_and_actual_completion_retained": true,
+        "public_original_DAG_consumed": false,
+        "research_compiler_called": false,
+        "true_profile_or_geometry_evaluated": false
+      }
+    },
+    "original_G_read": false,
+    "research_compiler_called": false,
+    "research_profile_evaluated": false
+  }
+}
