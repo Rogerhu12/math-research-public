@@ -1,0 +1,136 @@
+{
+  "phase": "plan",
+  "native_sha256": "d8e0f9260b3dd0b1ba0fbd83891c54d4118f41e11e2a6e65783581ea31daf798",
+  "complete": true,
+  "gates": [
+    {
+      "name": "actual_successful_v3_eleven_gates_exact_true_inlet_and_original_inputs",
+      "passed": true
+    },
+    {
+      "name": "same_full_continuous_Z_and_whole_body_angular_offset_enclosure",
+      "passed": true
+    },
+    {
+      "name": "all_sixteen_completed_one_column_cells_reused_without_new_evaluations",
+      "passed": true
+    },
+    {
+      "name": "all_original1977_closed_cells_and_both_true_endpoint_ports_retained",
+      "passed": true
+    },
+    {
+      "name": "exact_four_disjoint_assignments_cover_only_the_remaining1961_cells",
+      "passed": true
+    },
+    {
+      "name": "same_continuous_Z_waist_mean_low_and_known_high_boundary_sources_are_finite",
+      "passed": true
+    }
+  ],
+  "seconds": 0.8597379550000142,
+  "common_input_sha256": {
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "proposal": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "object": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "repair-report": "6ee8b07fe94a8d9f87865a9ebb6650266b7eca792d435136ba533be92b1959fc",
+    "inlet": "119dedb2e62f23553b81dea9eb787d8298c1224eebc2cc38790ec50274df0ca7",
+    "q-vector": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+    "q-native": "2f2469091ae6893b56f869fc7753ed015cf9d7ebf2171ccd8c5a580dd770d4d2",
+    "hessian": "cf055cac05569701ebcb0df95fb064c94cec8c18bb28121292a3836b3862be26",
+    "cut": "528e2f47d4572d7b90878abc542c3389d76d5fb326d7ef7c3390ef086d6266ba",
+    "direction": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+    "cap": "69f55939742b26988690e54b7f5636eb591a351063b93187feeb38c1f6611ebe",
+    "cap-process": "b4cc859b9a1987da485cb4d7bc76aab00c2f009d9552bccbd1916d4a9d37f5fd",
+    "cap-cut": "36f498e3b0addbb46290c12fae6b63af7673db20ba230e22dd83809d18427104",
+    "cap-cut-process": "aa43c90bd4b2d8fe3a820fba7d0cf5e40d67d2952248cf0c33ebe0ec0c76bd7e",
+    "boundary": "b1adeea522b31efa2fc83a6436bc3fe52dbd04630c17d5436927b5872b05e263",
+    "boundary-process": "d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7",
+    "pilot": "f36831b1f5cc354548686c7d3e5f3fdfb10a456899d25f57d1be1b4cefccbe5c",
+    "pilot-process": "c6d87b7e9d5ca64c480c34853a5b17e3ca61f0e18417817591f11afa21879cb4"
+  },
+  "exact_continuous_direction_definition_sha256": "6a71cb8109b095cd242823d181e7c1ef525355b9b90bf8c59f88668b68231d04",
+  "reused_original_one_column_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    17,
+    18,
+    21,
+    22
+  ],
+  "new_one_column_cells_executed_in_this_child": 0,
+  "completed_new_range_cells": 0,
+  "complete_all_one_column_cells_computed": false,
+  "full_original_native_retained": true,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_inverse_proved": false,
+  "unknown_high_input_feedback_still_required": true,
+  "assignments": [
+    {
+      "first": 0,
+      "end": 512,
+      "requested_new_cells": 496
+    },
+    {
+      "first": 512,
+      "end": 1024,
+      "requested_new_cells": 512
+    },
+    {
+      "first": 1024,
+      "end": 1536,
+      "requested_new_cells": 512
+    },
+    {
+      "first": 1536,
+      "end": 1977,
+      "requested_new_cells": 441
+    }
+  ],
+  "retained_endpoint_and_bridge_budget_without_body_terms": "[1.3727409273599689176203249466019538151665328429907701305933973610100939245617472e-5 +/- 3.39e-85]",
+  "original_actual_fourteen_physical_error_contributions": {
+    "e_L": "[2.7136633198734233295925548094629792859183248106154798970545855571768859339702373e-12 +/- 2.78e-92]",
+    "e_D": "[7.8294287660251500489796411892202254380905826705780397472612857470032704016994216e-16 +/- 4.70e-96]",
+    "e_0": "[1.0126897463308391340219376188836225855310731793936862946126155588461488605500223e-17 +/- 1.89e-97]",
+    "e_B0": "0",
+    "r_B": "[7.3163428075380840366117005926206665236914297964390687063879621050593940305031960e-10 +/- 4.77e-90]",
+    "r_C": "[1.2222689535236705225216563922966730776534301674284770567754004471302548426047870e-7 +/- 1.12e-87]",
+    "d_B": "[2.2332717823875797650529385900540356481839211452885264474624066564751353117944043e-6 +/- 2.60e-86]",
+    "d_C": "[3.7806916356929531703451044375669502413734046014614173608947707677237446817732199e-8 +/- 4.54e-88]",
+    "j_B": "0",
+    "j_C": "0",
+    "f_B": "[8.1610944462265400230468579187461874193298094687754379232603776319969845345213256e-6 +/- 2.50e-86]",
+    "f_C": "[1.1873401514431134733495225819981230294768226598358732184482460753111734329535062e-5 +/- 2.22e-85]",
+    "f_B0": "[3.4810845927335231391954406536013427724038283450837400118135096266389504508465636e-160 +/- 4.70e-240]",
+    "f_C0": "[3.7613004029764567442380434175943011559385050242687328842861769957150076427844856e-10 +/- 1.69e-90]"
+  },
+  "same_Z_source_bounds": {
+    "left_waist_96_row_source_L2": "[1.1214830703357395378163368633113353962897915179809833280299975094275036763625724e-15 +/- 3.16e-95]",
+    "true_cut_96_odd_rows_L2": "[0.00011701036700242984603699343339422522436588671444711703499908131097798797191076844 +/- 2.31e-84]",
+    "true_cut_independent_mean_absolute": "[3.6242781454851040889971995829372573231502194572736886441663112446377596807813800e-5 +/- 1.22e-85]",
+    "true_cut_complete97_rows_L2": "[0.00012249475578010439008842178113371611463314943690497031412337795128269882864019142 +/- 4.76e-84]",
+    "true_cut_known_full_high_output": "[0.00011717068777762832359844044534329033466324352784033556676960866345155572223762126 +/- 3.41e-84]"
+  },
+  "whole_body_Z_minus_raw_pair_A0": "[2.2918873168673873935280231375055479108000000385845025237038936284290502140063665e-16 +/- 6.23e-97]",
+  "nominal_odd_map_Frobenius_gain": "[10.535301225002437935827057764661058683787558425780921084855744556518998075319607 +/- 4.00e-79]",
+  "nominal_mean_map_exact_row_gain": "[0.097206789639574187649692474454515185388926783869306070457559619515868066118128984 +/- 9.5e-84]",
+  "complete_Z_even_input_L2": "[0.41179735404357117942000751842314621449881274848696788149634878834753786887338390 +/- 4.81e-81]",
+  "complete_Z_even_minus_w0_L2": "[1.0726404458299006041000069649330099944627717582764544117908401790877114309424895e-13 +/- 3.46e-93]",
+  "original_complete_moving_error_operator_norm": "[0.00014655300474132963004432673026094168329749685016255132428969122846176570178246076 +/- 1.74e-84]",
+  "complete_w0_moving_cap_error": "[3.6242781250765274331343907646333457092941003360006052365545843942147485115494827e-5 +/- 4.77e-86]",
+  "complete_Z_moving_cap_error": "[3.6242781250780994199378252781476450356802540175333488714786223202467176388616242e-5 +/- 2.59e-85]",
+  "nominal_Z_odd_L2": "[5.8835876411472216980698888297279505148176294037399178542078989532608272770627138e-13 +/- 2.65e-93]",
+  "nominal_Z_mean_absolute": "[1.0026556263339993193180362803999056092876357618392581332779584333300393913857209e-15 +/- 5.08e-96]",
+  "boundary_source_convention": "p(0-minus)<=D0 q(0-minus)+L0 ||g0||; q(L)<=DL p(L)+LR ||gL||",
+  "original_high_output_norm_contract": "||(I-Pi96) S(HB_even-K_actual HC)|| <= recorded full high bound"
+}
