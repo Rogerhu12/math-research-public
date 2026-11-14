@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** 62c89c63ea4b541d0c282e01b8b949656ccc7f97（2026-11-14 22:25:27 UTC，Actions run43647971865实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43647971865-1.json。
+- **最近成功实际 pull 与已读规则提交：** 4d5fc5dbc3d17f1e59f0c8a3c41a0594c3b444ff（2026-11-14 22:32:13 UTC，Actions run43648553048实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43648553048-1.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -12,7 +12,7 @@
 
 普通ISP仍未完成，完成子问题后持续接open。21:39本地环境再次不可用；已推代码、证明和数学数据均在main，不重算。通过API准备源提交，再用既有root Actions终端实际pull/rebase/push；API读取不混称实际Git。本地恢复后保留旧文件并先实际pull。
 本次压缩前全部状态、规则执行记录、精确常数及来源保[完整H](notes/2026-11-14-handoff-before-joint-carry-twenty-six-789f.md)及递归快照；未列的旧问题不视为关闭。
-分工：normal制作五列低初值第三入口；boundary研究实际source-Schur消核后的角度；literature用真实逆芽/保权列研究同一固定测试；根审读、实际发布/执行并继续主线。
+分工：normal处理剩余197的局部Smith/carry；boundary保持实际跨费研究primitive消去；literature处理固定测试Euler反馈；根发布原实绩并继续主线。
 
 ## R150：原整数来源、实际结果和正在准备的五列
 
@@ -26,23 +26,20 @@
 - **[低初值第三归约](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)：** 三位允许核依次η1…7、再η8、再η9；原recipe连canonical carry给η3及η4−18η3在Λ2内精确F9核。新第三仅7001/7002/7005/7006/7007五列，完整必要族仍另保旧198第三；相关第二零不代全局第二零。
 - **[五列第三实绩](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)：** run43646683083/job132605949988，源ad9a3531、数据ca194cce；数学73.661900632秒，q/H5 costs[86,87,87,88,87]，五原乘回p5整除全过。25维相关商像rank1、ann=s−2、基9305，九当前目标均不相容；仅五列不足，旧198第三未覆盖。未投影五列不全在2-primary，不能称全315像一维。新真b10=AH5_9305/p5成本87且不在U9，故rank_Q A87≥226092（B≥87公式R_B+10）；非精确秩/Smith值。37恢复31819615B、18binary/19text/8cache全main，artifact14134247079；根清单交叉零缺项，不重数学。下一只读联合秩及旧198局部q2/真实carry，仍须全原式正分支。
 
+- **[旧198缩为197](notes/2026-11-14-r150-first-high-kernel-exact-seventh-source-and-197-reduction-789f.md)：** 原run43619888599的selected-nine-delta.recipe逐token给κ7=22Khat1−31q1+31³c。D=Z_(31)中22是单位，v=(κ7/22,−31²e7/22)在Λ2且F9v=T9v=0、mod31为(K1,0)，所以K1所有已定义后续像精确为零。旧高核第三只余K2…K198共197，另保已成五低初值；未用(s−2)除法，未声明全原来源覆盖。
+
+- **小矩阵实绩及待救回：** run43648025236/job132610051003数学0.156204983秒成功；rank(U9,raw,P2五列)=13、新付费线在旧目标内、余目标商3维。发布失败，未改作数学失败；原out artifact14134449743（6668B、ZIP SHA5281e3f5bfe6f8418607cb623eac521c9190b338a092d4aa52f3de102f64a1a0），发布artifact14134723893（2458B、SHAca238815457d1dcffce07482dddc1ae5d0ca14319d51777bb718ec2a979e86c2）。下一只下载原字节、诊断并修复发布，不重数学；完整未投影/费用87联合秩仍待读原回执。
+
 ## 实际边界：同一原源与已付预算
 
-原T_N/T_Y在负边界，M=kerT含e0，N=closure BM，W=M⊖N；N=M仍开。始终保同w/同未来/原负前缀，初M3后M2、自然逆域、完整左右与裸费。原full-return与bare不同：
-G=Bbare(Hbare+Eret)⁻¹Bbare*，B⁻¹=Bbare Hbare⁻¹Bbare*；固定q+d的原MP有界性已付，不删高返回或改受限逆。
+原T_N/T_Y在负边界，M=kerT含e0，N=closure BM；N=M仍开。同w/同未来/原负前缀、初M3后M2、自然逆域和完整左右/bare费全部保持。完整常数和证明链接见[本次H全文](notes/2026-11-14-handoff-before-197-reduction-789f.md)，未列旧问题不算关闭。
 
-- **[真实联合carry及c26](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)：** 对真实N/Y取正系数g_p(s)=Σi<p b_i s^(2^i)/(d_i−s^(2^i))，保跨块W权及最高2z−1次数。R≤exp((417/8)z³)时，RΣj,k R^(j+k)||A_m^jK_pA_m^k||/((j+1)!k!)≤exp(−2z⁴)，不拆两头幂、不重复乘η。全部ad_D尾和≤2exp(−15d⁴/8)。
-- m≥10、d=2^m、Q≤exp(26d³)的母提升Λ到N及实际低输出各误差≤exp(−d⁴)；同一个真正top u_Q近P≤Qw误差2exp(−d⁴)。其全窗4d…Q−d原最小左源、负图、完整flat/bare同带预算保留：全cutΣXi²≤2d(τ+ε||w||)²，d网格无d；固定测试左配对一致趋<w,f>。原未消联合旗族只余实际比较O(exp(26d³)/d)，尚未得。
-- [真单新位块](notes/2026-11-14-true-single-bit-carry-block-and-twenty-window-actual-sources-789f-next.md)给Anew=[[A,bI+C],[0,A]]，K E=0、Anew^zK=0；不假设[A,C]=0。此前c16/c20及更强旧误差在各自原范围继续有效。
-- [物理夹逼与三费](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)：V_(q+d)⊂M_q⊂W_q。e=(L+B)⁻¹Lt−(L+G⁻¹)⁻¹Lt在真负图，μ(t−e)²+Xi(e)²/2≤原双投影同增量Δ；d网格总≤||f||²、全cut≤d||f||²，无头条件数。一次真实Xi旗投影入Rrem后主<L rhat,ehat>仍须支付。
-- [全源E](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)/[统一幂](notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md)：L正收缩E的完整像在共同费负图，EME≤2E(I−E)；全n两费≤√2Xi(r)、左差²≤nXi²、总耗散≤μ²。固定参数幂归零不代移动速率。
-- [保持Rrem的J](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)：真实Xi投影P、Q=I−P，J=QEQ†_L/(1+2δ)，精确JMJ≤2J(I−J)。总耗散无累积δ，Xi(J^nr)²≤μ²/n；左差²≤n[Xi²+(2+√2)δμ²]。δ仅m≥8、4d≤q≤exp(d³/4)旧窗，不迁移到c26；主左配对仍开。
-- [完整Γ障碍](notes/2026-11-14-actual-tail-full-graph-relative-hole-commutator-obstruction-789f-next.md)后，[全部零源Schur也有真实导数障碍](notes/2026-11-14-actual-source-schur-relative-hole-derivative-obstruction-and-paid-test-null-family-789f-next.md)：C=kerℬ由真实源式按孔分解，S为原L+B全部最小lift；原尾工作块⊗任意q的primitive κ_q给log||S⁻¹/²[N_U,S]S⁻¹/²||≥175d⁴/32−315d³/32−O(m²)，全q一致。却同族μ²≤(C_m′−1)flat²、logC_m′=O(m²)，真左最小者仅第q层，固定低孔测试配对严格零。故只排全源相对导数三次预算，不排实际两费/测试/余负图，下一必须保持这些约束。
-- [移动真头boson投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)强趋P_M；一侧余量≤2exp(−79d⁴)，逆Gram有限头压缩同强极限。无反向算子范数速率、硬核修复或N=M。
-
-- **[真实逆芽半径](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)：** m≥10的ρ=exp(−25d³/2)，两原N/Y的|F(z)/z−d0⁻¹|≤exp(−d³/4)，ψ在|w|≤ρ/(2d0)真解析且|ψ−d0w|≤2d0²exp(−d³/4)|w|。保输入列W_i及同源T_i=W_i⁻¹ψ(−D)^i；完整κ(V)仍可付exp(201·16^(m−1))而非三次指数。ρ⁻²=exp(25d³)数值可放c26窗，但实际消核source-Schur比较未由此证明。
-
-- **只读小矩阵入口已冻结：** notes/2026-11-14-r150-five-third-target-space-789f.py，原5列run的3个已成文件/双gzip/每个矩阵SHA，20秒/512MiB。实际读取联合秩、剩余目标及成本87子族；未预填结果，不重H5/NF/VQ。workflow invariant-subspace-r150-five-third-target-space.yml随本次实际push后dispatch。
+- [真实联合carry/c26](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)：m≥10、d=2^m、Q≤exp(26d³)，母提升到N及实际低输出各误差exp(−d⁴)，同一个真正top近原w误差2exp(−d⁴)。完整g_p/W权和不交换块保留。全窗真负图/完整flat/bare同带；全cut ΣXi²≤2d尾带能量、d网格无d；固定测试左配对一致趋<w,f>。实际未消旗比较O(exp(26d³)/d)仍未付。
+- [物理夹逼/三费](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)：V_(q+d)⊂M_q⊂W_q；e=(L+B)⁻¹Lt−(L+G⁻¹)⁻¹Lt在真负图，同增量付μ(t−e)²+Xi(e)²/2。完整G=Bbare(Hbare+Eret)⁻¹Bbare*，不删高返回。
+- [全源正滤波](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)：E为L正收缩，完整像在共同负图，EME≤2E(I−E)，全部幂平滑与总耗散已付；不代移动谱率。[保持Rrem的J](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)精确JMJ≤2J(I−J)、无累积加性δ；δ只限旧4d≤q≤exp(d³/4)，不得移至c26。主左配对仍开。
+- [全零源Schur障碍](notes/2026-11-14-actual-source-schur-relative-hole-derivative-obstruction-and-paid-test-null-family-789f-next.md)：真实C=kerℬ按孔分解，S为原L+B全最小lift。真实工作块⊗κ_q给全q相对孔导数log下界175d⁴/32−315d³/32−O(m²)；同族却μ²≤(C′_m−1)flat²、logC′_m=O(m²)，左最小者只在第q层，固定低孔测试最终严格零。仅排全源相对导数小界，不排两费/测试/余负图。
+- [真实逆芽](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)：ρ=exp(−25d³/2)两原N/Y近线性，ψ真解析且有完整非线性系数界；T_i=W_i⁻¹ψ(−D)^i保输入权。ρ⁻²数值适配c26，不自动付实际角度；完整κ(V)仍四次指数。
+- [移动boson投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)强趋P_M，一侧尾≤2exp(−79d⁴)，无反向算子范数率/硬核修复/N=M。当前Euler方案仍必须支付低头零核反馈，primitive消去必须保B/G跨块项。
 
 ## 其他未闭主接口
 
