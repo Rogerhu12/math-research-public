@@ -550,3 +550,10 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 新trial c337d880…/hook c104ff11…全部差异及接口已读；保原十body603924d1…/数学evaluate9725a6c9…，两个声明只读观察插入保存实际全state及返回r/end/norm/argmax，cut明确只读同减法副本；真实instrumented evaluate/toString与恢复比较源分别记账，0新增baseline/J/RHS/试探。fetcher f3184739…及完整原transport/工作流已读，14pins/11bash/3inlinePython/AST/Node静态过，无本地科学。publisher仅增original576damped lane。
 
 60实际run43640358327/source da346d172…，job132586430139从21:00:13Z同17模型运行，父58恢复/源pins通过；尚无新数值。为后继原包仅撤本地57已审已推的2746个factor/constant payload1106785792B，显式partial marker/receipt保，完整公开artifact及参考五件和exactledger不变。
+
+
+## 2026-11-14 21:11 UTC：actual59首个完整步长接受，继续原native
+
+[根读原结果及即时决定](notes/2026-11-14-actual59-first-full-step-and-continuation.md)：原576新方向全部129248行exact9.686175843129587936…e−11；57限制方向在同原576仍.041773078207401970…。实际alpha1原noJ接受，norm .04177307820740199→.0001289424025918576，118878输入word确变，最坏stage11/raw0seg7/Pi76。1原noJ/0新baseline/J，无新增gate；fullgradient24888563.660…保诊断非认证。selected全原bytes384de298…/cp7659016c…保，但当前仍native=false且最终J/audit未做。61从真实selected每轮freshwithJ与全576 R273eta1继续原solve循环，禁止28缓存改标签及softcut投影。
+
+59完整artifact14132106883/368592441B/e8f48621…已唯一下载SHA/CRC核，重复ZIP删。两个纯stdlib byte reader d57c0114…/69c840dd…及exact接口已全文读+AST登记，不重算动作/范数/分数/候选；完整audit由真实包执行中，此处尚不冒PASS。为共享磁盘保全后续，58已推全审的大payload253件615399860B局部撤，保真实父pair/小件/11observer与原b/Az两NPZ、显式partial marker；公开artifact与完整审计不变。
