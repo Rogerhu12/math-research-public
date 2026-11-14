@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 16:48:41 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 16:50:24 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，不进文件、输出、提交或connector。
 本地最后真实pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35后终端失联，16:20重试仍失败。根规则8暂只用connector处理<100KB文本，禁二进制/大文件，先查size，新摘要≤60KB；API不冒称pull。runner长算≤10min真pull或短child前后pull；亲核43617150971于16:44:18拉到ada07519b8addf6a07ac45ab12fd2f15b86f7657，两README无差。恢复终端即回git。
-最新远端 main/两README blob 核：58be6ed98b813a2c4d51b14ba8815eb04c915232；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+最新远端 main/两README blob 核：37e066037ef754ac60c9cc86da7bdb8993baef4c；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。亲读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；独立rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次压缩前H完整字节：notes/2026-11-14-handoff-before-piecewise-root-resume-v2.md，前档链保全；open/log旧档2026-11-14-{open,log}-before-closed-leading-amplitudes.md。所有完整SHA、失败、源端口与复用合同查results/manifest，禁止重算已成数学。
 
@@ -48,6 +48,6 @@ forced M13–17真ray、branch V/V0积分及缝符号已独核；无奇性forced
 五盒Q1–31每窗5参/每层2窗，j≥8193，完整active链/无限low/浅prefix保。原Wcal²=2^-48J^-3M^-17/16D，||Wcal(I−U)^−1Wcal||≤1，Wcal^-2<2^864000J8330δ^-1073/16；坏测度并集<93/16384。
 修订H1–30：高E/F内部v权L2<2^-9000，高R损一阶；open内部Schur仅收缩，无外口且全列覆盖才onto-unitary。M/T仅内部low输入，CXxX仍须H1源，mean/Γ/全部输出保。
 V1–24完整rootwave共同酉差及adjoint H1→L2 <2^35000J40δ^-47 NX；真实high消元内部v^-1差<2^-6000000，余363/256。未消low的SL不是五盒effectiveU_M。
-tail新deep-low L1–28完整两侧Green/Poisson草案待核L11/13/14；F=2^4096J4δ^-5是明确source/state权，非裸L2逆；75/256深余量。仍欠129–8192真实浅前缀、最终原source/label权、mean与jointΓ联立。代理正继续浅前缀。
+deep-low L1–28已核推（ce72052e…）：完整真锥、两行root架/逆、真实W/z及K64邻胞均保；wF源→wF^-1状态真Green<2^66、双Poisson<2^130，F=2^4096J4δ^-5。全high长程在H12权下付；两外mixed v^-1差<2^-6000000，深余75/256。仍欠129–8192浅前缀、原source/label权、mean与jointΓ；tail继续新浅五盒。
 geometry43584188751/26门只条件充分：同η0真闭C²解、fullC0≤1e−4、|δν|≤1e−5与全部outer/matching⇒held/D>.05075888242、reach/D≥800/25039、Hdiam/D≥360/511，marker145..148保含反射δE>0。
 **真完整无限逆、νSchur、非线性存在/状态球/holonomy与所有物理matching未闭。** root管δ根图/发布；newton同Z全源/帽/Green响应；phase根域/strong；tail真实外消元/最终权。子题完即接open下一项；不以报告、等待或时长结束。

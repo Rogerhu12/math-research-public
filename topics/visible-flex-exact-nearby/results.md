@@ -333,3 +333,7 @@
 ## 2026-11-14 16:48:41 UTC — 全实δ正根七列图实际完成
 
 [实际10门与7×7完整系数](results/R133-supplement-actual-full-real-delta-positive-high-root-to-regular-graph.md)：43617150971 child0，新算术.001856572s；loop<.000581202629、rootreflection<.438072896309<1/2。全实δ1e−8、真同global reference、所有head/mean/普通源与jump保，原数学0重算。native `4e128cf91ce4e136d8574575704f1ebabf925953039eeb9219b00113436be2e9`；完整低高Schur/负返回/ν与非线性尚未授予。
+
+## 2026-11-14 16:50:24 UTC — 真正deep-low无限Green与两侧Poisson闭合
+
+[完整 L1–28](results/R119-supplement-complete-deep-low-Green-Poisson-and-mixed-elimination.md)以同实际背景/Γ构造全部$j\ge8193$非零low外侧，保两行根架、真实det/Green pairing与原允许线边界。$F_j=2^{4096}J^4\delta_j^{-5}$明定源/状态单位；加权Green<2^66、双Poisson<2^130。真实high已在所有所需层权下消去，其长程传播由完整Poisson付费；实际ΔU才使用有限邻接。两外消元后原$v^{-1}$加权差<2^-6000000，最坏δ幂1987/16与真实深余75/256已付。原weak/ordinary/mean/Γ及外输入输出全保，浅prefix与最终source标签权仍欠。

@@ -60,7 +60,7 @@ leading43612196888实际22门，完整复δ1e−8/root9e−6：a0/逆/两branch�
 
 [完整根波差V1–24](results/R119-supplement-complete-root-wave-network-and-high-Schur-difference.md)已给同Green/根单位的全差和adjoint H1→L2，以及真实high消元内部$v^{-1}$差<2^-6000000；联合坏测度<93/16384。未消low的内部Schur不是五盒effective $U_M$。
 
-tail正在完成真正deep-low的两向Green、双Poisson与完整mixed消元。已独立核完整两行架、W/z锥换算、真实K64邻胞及原$wF$源单位；最终稿待入库。这里$F=2^{4096}J^4\delta^{-5}$，不能冒称裸L2全源逆。下一项为129–8192真实浅前缀，保原浅K64与全部profile/Γ门；深五盒不能自动转授浅层。
+[deep-low L1–28](results/R119-supplement-complete-deep-low-Green-Poisson-and-mixed-elimination.md)已证明真正两向Green、双Poisson与完整mixed消元。独立核完整两行架、W/z锥换算、K64邻胞完整主项及原$wF$源单位；$F=2^{4096}J^4\delta^{-5}$，真实Green<2^66、双Poisson<2^130，两外消元后$v^{-1}$完整差<2^-6000000，深余75/256。不能冒称裸L2全源逆。下一项为129–8192真实浅前缀，保原浅K64与全部profile/Γ门；深五盒不能自动转授浅层。
 
 最后还须付全ordinary/weak源到label、物理mean、两列$D\Gamma^*$、共同参数选择逆与原最终层权，才可用于完整54/55闭合。
 
