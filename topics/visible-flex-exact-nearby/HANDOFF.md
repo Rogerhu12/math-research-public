@@ -1,11 +1,11 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-visible-exact-astra-ac0d，2026-11-14 07:12 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
+visible-exact-astra-ac0d，2026-11-14 07:14 UTC。主目标未完成；持续执行，不因时长、阶段或等待收尾。
 
 ## 正式迁移、规则与同步
 
 唯一工作仓库现在是 Rogerhu12/math-research-public，路径 topics/visible-flex-exact-nearby。新根与题README均全文已读；根blob 1d05db9ebc859a5fd9a8ef773ab05ef1e9de0598，题blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
-最后真实pull --rebase：2026-11-14 07:13 UTC，SHA c4e6b08b575c12378b2013ac25041057fe10ce0c；根/题README blobs未变，差异检查完成。
+最后真实pull --rebase：2026-11-14 07:14 UTC，SHA a9c3a233d473d71d34abc06faac95eec4ff820eb；根/题README blobs未变，差异检查完成。
 每次push前真pull；至少每小时pull；每次检查两README，只读变更并立即执行。每结论独立commit/push；非FF立刻pull --rebase再推成功，不force。自身公开repo Actions已允许；旧math-research-ci/ci-queue停用，不再派发。PAT只瞬时CLI/env，不入文件/提交；公开输出无秘密。
 root独占Git/H/open/results/log；代理只写自有新文件。H<10KB、md<100KB、open约30KB、单件≤5MB/>1MB压缩；大可重建数组留scratch；不freeze、独审、冗余核验；不动根LOG。只提交明确路径。
 新repo本地 /workspace/scratch/ac0d699811ad/math-research-public。旧math-research目录只供运行中进程读取原源/依赖，不再编辑提交；旧HEAD f5e4843b含未推cap96，旧origin/main 6caee8bb正式通知迁移，根/题差异均已读。新种子480a4313逐blob比对含全部旧已推结果，仅缺cap96五件；32个待推/恢复输入原样搬入新树，未重跑已成门。旧H归档 notes/2026-11-14-handoff-before-public-migration.md。旧stash唯一κ=M²/B修订已由新69提交接续；不pop旧树。
@@ -29,10 +29,10 @@ candidate=/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m
 ## 当前原生计算与准确继续点
 
 1. root径向directed session19425，/workspace/scratch/ac0d699811ad/geometry-verified-20261114/attempt04.json.gz；原源仍从旧目录读，勿改旧源。07:00约54/141blocks、3455/8966步；完整exact角点/operator norm/全η/真实单侧germ/三阶Taylor四阶余项；逐block原uint64回接。attempt01域拒/02float选片/03Wiener过粗全保。新树保verify_moving_geometry_grid.py SHA3347e061…与directed_jets b93fa88a…。61块/3903格准确快照SHA36f3185d…与tensor SHA706750a8…本条发表，后续仍需完整native。
-2. root完整mesh实际正常0/198.985s，141块8966格×512×8，全36,724,736分离向量；native SHA5ed344a8…，mesh R<1.275559740657、框架support>.901284727159、全凸包距>.129668021172。已单推d4af39c6；新tensor消费者实际0/5.03s消费3903格，部分连续半径<1.275713423；继续只增量消费径向误差+角二阶插值，准确w=Rzπ/4 F(0,0)。尚未精确曲面。
+2. root完整mesh实际正常0/198.985s，141块8966格×512×8，全36,724,736分离向量；native SHA5ed344a8…，mesh R<1.275559740657、框架support>.901284727159、全凸包距>.129668021172。已单推d4af39c6；新tensor消费者实际0/5.03s消费3903格，部分连续半径<1.275713423；径向理论/61块native已推a9c3a233，继续只增量消费径向误差+角二阶插值，准确w=Rzπ/4 F(0,0)。尚未精确曲面。
 3. newton双regular q/ψ均全部6144块193态，完整FFT2.590797e−11/3.166507e−11已旧1c7a7ec迁入；q/ψ fullindex SHAed42a71d…/c509df40…，均含所有outer Robin及mean，不是全inverse。body v2 session56409持续，约5031/7721系数；输出regular-head-consumers-20261114/body-native-v2.json.gz。旧plain/gzip零行错误与旧b4 FFT1e14失败均保。
 4. cap96原660块恢复后完整normal0/223.699s，FFT5.705156e−15。cap96五件本提交从旧未推HEAD迁入；661×193×96states及左右derivatives在/dev/shm/visible-exact-cap-DN-20261114/73c2f7cbe033dbd7c7ba789217d4bebd26f0486fb7129be898457818429c09b0/matrix-RHS。SIGBUS−7原process/175件SHA复制/预分配全保。v2首宽片ordinary weightedL2 B.048293197/C.037999149（原unweighted6.45/5.07），非全域。
-5. 原宽片高j边界层λh~1.26；真正局部加密proposal session54988已normal0/680.24s：1296块/96列fullFFT6.861356e−15，source d82119aa…，scratch physical-cap-DN-refined16-20261114.json。首2闭片已真成B/C1.480231e−4/3.735972e−6；phase物理C128尾<1.757236e−14，现session71138做257态/128输入提案，再接真实H128×97完整连续残差；不把finite门当连续证书。物理coefficient jets旧202793ad全η/full∞尾首tiny/wide成功，非每盒已成。
+5. 原宽片高j边界层λh~1.26；真正局部加密proposal session54988已normal0/680.24s：1296块/96列fullFFT6.861356e−15，source d82119aa…，scratch physical-cap-DN-refined16-20261114.json。首2闭片已真成B/C1.480231e−4/3.735972e−6；phase物理C128尾<1.757236e−14，现session71138做257态/128输入提案，H128×97实际12门39.71s全矩阵+mean+tail误差<6.518925e−12已成；再接完整连续残差；不把finite门当连续证书。物理coefficient jets旧202793ad全η/full∞尾首tiny/wide成功，非每盒已成。
 6. phase真实完整两ray复域3071strict+root+mean+repair、10门正常0/23.959s；σ1/4输入ρ>.1639445393，P′−1<.334292688，P″<3.257207/P‴<57.403329；native SHA91f1a3e5…已单推2147abff。完整distributed adjoint phase-source proof已单推9d78f797，square Jacobian/真mean/端项齐。Arb Laurent exp与root小格高精度flow新作业在phase-next-20261114；不得用double拟合残差充真共轭。
 phase旧817b4731/097ade1a：真response误差L2E0→C0≤1.273240，无q^-1；浮点qν Ω′≈.0202241584，direct+.0393631446/state−.0005213003/mean−.0186176859不可丢。目标二次CF根(612575−√5)/2228182、max partial7给四次单位根gap1/(36|j|)；尚无真rotation/β/j/ν Schur闭环，最终ν全族固定。
 
@@ -50,4 +50,5 @@ phase旧817b4731/097ade1a：真response误差L2E0→C0≤1.273240，无q^-1；�
 
 
 
-最新已单推实际结论：results/R133-supplement-directed-radial-ODE-error-and-tensor-native.md。
+
+最新已单推实际结论：results/R133-supplement-complete-moving96-physical128-C-port-matrix.md。
