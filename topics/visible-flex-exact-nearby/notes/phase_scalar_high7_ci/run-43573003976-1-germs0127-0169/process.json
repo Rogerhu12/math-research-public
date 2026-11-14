@@ -1,6 +1,6 @@
 {
   "kind": "actual_high7_scalar_cache_CI_process",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43573003976",
   "run_attempt": "1",
@@ -10,7 +10,7 @@
     127,
     169
   ],
-  "child_exit_code": null,
+  "child_exit_code": 0,
   "started_utc": "2026-11-14T07:51:38.339084+00:00",
   "readme_checks": [
     {
@@ -24,9 +24,21 @@
       "before": "6b2a926dbf051c0e07992d663a05dc22aeb5e863",
       "after": "acf9add890d52e193422c6d7abc07174fb056293",
       "changed": false
+    },
+    {
+      "time": "2026-11-14T08:01:57.380019+00:00",
+      "before": "acf9add890d52e193422c6d7abc07174fb056293",
+      "after": "55cbc195c475f383747452be66093cdb00ac70e6",
+      "changed": false
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T08:01:42.094950+00:00",
+      "commit": "55cbc195c475f383747452be66093cdb00ac70e6",
+      "final": false
+    }
+  ],
   "first_germ_reused_not_recomputed": true,
   "invalid_cap6_outputs_used": false,
   "input_manifest_sha256": "eb25464d038f44dc87a8214662ec9275250fc414c42ca04c9763bf08f8802535",
@@ -41,7 +53,7 @@
   "first_germ_sha256": "b6f1892d8d09749a7279e23c86d5cca622785b919891bf8a0e46c3add382aa01",
   "scientific_input_count": 52,
   "all_pinned_inputs_verified": true,
-  "last_read_commit": "acf9add890d52e193422c6d7abc07174fb056293",
+  "last_read_commit": "55cbc195c475f383747452be66093cdb00ac70e6",
   "command": [
     "/usr/local/bin/python",
     "-u",
@@ -54,8 +66,8 @@
     "--out-dir",
     "/__w/_temp/visible-exact-phase-high7-127-169/native"
   ],
-  "snapshot_utc": "2026-11-14T08:01:40.104200+00:00",
-  "wall_seconds": 601.765338036,
+  "snapshot_utc": "2026-11-14T08:01:57.398690+00:00",
+  "wall_seconds": 619.059826787,
   "native_files": [
     {
       "logical_file": "germ0127.json.gz",
@@ -304,17 +316,20 @@
       "sha256": "a6c4dba465ac322a0e17d46c7c775e05b32e928a11a3d4893c6ec4b63114b3c7"
     },
     {
-      "logical_file": "germ0168.partial.json.gz",
-      "file": "germ0168.partial.json.gz",
-      "bytes": 1047062,
-      "sha256": "d603df882b8f00420c51fd2021dca8217b910886586942bf6116407d3d29875e"
+      "logical_file": "germ0168.json.gz",
+      "file": "germ0168.json.gz",
+      "bytes": 1093937,
+      "sha256": "07ed52d7a5c9536c88d010700930214ac5365a698d0e1dcd6878f00c5fd59702"
     },
     {
       "logical_file": "manifest-0127-0169.json.gz",
       "file": "manifest-0127-0169.json.gz",
-      "bytes": 2533,
-      "sha256": "e2b6a80557c12f6ff9736db46f489d6b52e4fbd926cfa1dc2c3346449411107b"
+      "bytes": 2583,
+      "sha256": "339dc791b9c40dbd147e70096cb5faac8a40c694db979783379290a5936643dc"
     }
   ],
-  "observed_complete_germs": 41
+  "observed_complete_germs": 42,
+  "producer_manifest_complete": true,
+  "completed_utc": "2026-11-14T08:01:57.096124+00:00",
+  "all_native_failures_retained": true
 }
