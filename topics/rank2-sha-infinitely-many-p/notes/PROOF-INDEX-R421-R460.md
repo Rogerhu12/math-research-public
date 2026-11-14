@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R444：原首像最大时Miller修正的整来源吸收](../results/R444-maximal-first-image-integral-absorption-of-actual-miller-correction.md)：全部实际低轴修正经明确首像缺口；首像满w13理想时由同一来源I+p²C整基变换吸收，所有真第二核/左核的修正权逐项零，包括一维carry掉秩。完整原中央基准不变，非零机制必须付真首像缺口或原基准η。
+
 - [R445：保原sigma输入的三坐标核心与四态carry](../results/R445-original-sigma-retained-three-coordinate-core-and-four-state-carry.md)：原非零张量锚付整个7956平方与85680绝对二挠平方，四态保全部c/Q移动测试；完整carry及忘U返回均准确。A两层缩放将已知非零管送入同一原来源的真单位carry，值仍v5n，内部斜管补域未删。
 
 - [R442：原外部carry单位矩阵与全部中央补域](../results/R442-original-external-carry-matrix-and-complete-boundary-equations.md)：两条真单位carry的完整principal行经单位矩阵返回原中央，来源级奇奇余项与W/V深管差均保留；偶层carry有完整标量返回。R441之外的一单位支、环带、不相消双单位支及W外域全部列明，规范A/κ与原A测试不混用。
