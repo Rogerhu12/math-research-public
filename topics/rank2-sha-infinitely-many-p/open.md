@@ -286,4 +286,4 @@ R579完整C^r差商/导数/卷积、下降阶乘所有节点及最高阶乘消�
 
 ### R586：原Euler全部共振系数与指定p²窗口
 
-[R586：原Euler全部共振系数与指定p²窗口](results/R586-original-euler-resonant-coefficients-and-first-square-window.md)：完整两forcing给七原Euler坐标全部k的p^(L+e)L!准确主项，原首两g行单位使指定系数整条达到Gauss界；首p²共振族及最早两未知c4/c1完整保留。单列高阶非整不等原饱和jet非整，未以不同指标代指定中央。 **待做：** c4,p/c1,p真实约束与增长D的完整单项式/同一前缀运输；D1在固定有限阶后核为零，不能用p²单列坏系数冒认R581非整层。b17尺度a_b=b^s a_1、g_b=b^r g_1及全阶乘都保。
+原七Euler全k的p^(L+e)L!主项、指定p²精确赋值与最早c4/c1保[完整前检](notes/2026-11-14-open-after-r586-full.md)/正文。**待做：** 两首forcing真实约束及增长D的全单项式/同一前缀运输；固定D1大k核已0，单列非整不代φ非整。原全部尺度/阶乘保持。
