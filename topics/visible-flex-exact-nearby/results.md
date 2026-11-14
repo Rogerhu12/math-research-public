@@ -31,3 +31,5 @@
 - [R133全部141块连续模型几何与实际腰误差](results/R133-supplement-complete-141-block-continuous-model-geometry.md)：原径向141块8966格和完整张量消费者均真实return0；全[0,25/8]、连续角的η0模型R<1.275713422847、frame support>.900961392986，实际旋转腰到完整反射模型距离>.1292202659845；真实腰eQ/eF已付，可直接消费共同腰比较。保存原完整gzip的精确增量，不宣称GC零点或最终闭族。
 
 - [R133 cached-complete-scalar-derivatives-and-compact-parameter-column](results/R133-supplement-cached-complete-scalar-derivatives-and-compact-parameter-column.md)：恢复同一η0中心完整169 germ/626 scalar cells的既定标量导数及220个compact T模型；所有真Taylor误差保留，未扩展η或取得PDE响应。
+
+- [R133 complete-all-parameter-optical-speed-cancellation](results/R133-supplement-complete-all-parameter-optical-speed-cancellation.md)：恢复显式Qδ=Qbar+δZ、νδ=ν0+δ的完整光速消去恒等式和|δ|≤1e−6分支门；compact外高阶光速参数导数准确为零，不将该显式族称为PDE解支。
