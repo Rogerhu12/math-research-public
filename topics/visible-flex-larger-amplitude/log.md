@@ -268,3 +268,7 @@ v3真16读出08:37:18实际exit1/ENOSPC，写node-04712失败；完整RK48 Newto
 ### 2026-11-14T17:11:11+08:00 — public-successor-recovery
 用户直接授权公开仓库；从幸存旧公开clone恢复43个未推提交和R235–R237/真实RK24、RK48结果，未重跑已完成计算。
 新增本题外workflow为旧轮已写的visible-larger-public-actual-bvp.yml，用于本题计算；当前优先M96 .99 checkpoint及RK48源分区消费者。
+
+### 2026-11-14T17:14:05+08:00 — public checkpoint computation launch
+恢复423×290完整M96 .99第4次J检查点及原续算源；新驱动保M96/前32核/原1e−6与BC门。
+新增题外.github/workflows/visible-larger-public-resume.yml，纯公开输入并行M96续算和真实RK48共同网格/闭组装，结果小件普通push回本题；没有把准备当数值成功。

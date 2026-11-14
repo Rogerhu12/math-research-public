@@ -13,7 +13,7 @@
 用户本轮直接指定 Rogerhu12/math-research-public 并明确授权 CLI commit/push main 和本仓 Actions，旧轮因仅有私仓授权产生的公开发布阻塞已解除，不再等待确认。
 本轮部分克隆至 /workspace/scratch/e959e57ee07f/math-research-public；只窄检出本题源码/必要笔记/结果，重计算只用本仓Actions。旧 B=/workspace/scratch/ffc1334c1988 仍可只读，未推结果不必一律重做。
 已原样恢复旧公开clone 43 个本地提交，末端 e4e38a4fab4cadf9039640dc3495add7eb15eb36，合入最新公开main，不重写任何已推提交；仅本题323路径及一项本题workflow，R235–R237/原RK24、RK48完整solver已恢复。所有新增文件<5MB，未发现明文凭据。旧停止/排队描述是历史，不能当当前运行状态。
-优先恢复新球核心M96从.984到.99：旧真实退出1为ENOSPC，423节点checkpoint仍在；前三Newton步接受，尚无完成解。新Actions入口准备中。原A RK48求解已成功，但16层源节点common-grid和闭组装未完成，接续原状态，不重复已成功求解。
+优先恢复新球核心M96从.984到.99：旧真实退出1为ENOSPC，423节点checkpoint仍在；前三Newton步接受，尚无完成解。新Actions入口已提交：visible-larger-public-resume.yml，两线M96/rk48；本次先只解.99，成功后从实际输出递进。原A RK48求解已成功，但16层源节点common-grid和闭组装未完成，接续原状态，不重复已成功求解。
 
 ## 环境与恢复
 

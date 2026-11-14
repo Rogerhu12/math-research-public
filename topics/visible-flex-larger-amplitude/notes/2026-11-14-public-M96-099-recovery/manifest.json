@@ -1,0 +1,66 @@
+{
+  "scope": "Complete M96 .99 pre-fourth-Jacobian recovery. This is an unconverged Newton iterate, not a solved BVP.",
+  "files": [
+    {
+      "name": "newton-checkpoint.json.gz",
+      "original_name": "scaled-sphere-M96-continue099-r1-actual-newton-checkpoint.json.gz",
+      "bytes": 2395260,
+      "sha256": "e57dd148f64ce9e576227c478e0786e17d842726b84e9a251b0a6d3ba413ff39"
+    },
+    {
+      "name": "profile.json",
+      "original_name": "scaled-sphere-M96-continue099-r1-profile.json",
+      "bytes": 64153,
+      "sha256": "edb00ceec0e3a559fc5d4bea21bfdbdf867d606d79ce7a31bf44b81c3361b32a"
+    },
+    {
+      "name": "seed.json.gz",
+      "original_name": "scaled-sphere-M96-continue099-r1-seed.json.gz",
+      "bytes": 1315132,
+      "sha256": "4ecee35ab3101071c61c3cb16c1aa69b855bee5c0076b961571f36ee7396813f"
+    },
+    {
+      "name": "projector.json.gz",
+      "original_name": "scaled-sphere-M96-continue099-r1-projector.json.gz",
+      "bytes": 190885,
+      "sha256": "5f8e8912032890052795c391320f83f524cbdaf817a1cbeaf8fa959554777d3c"
+    },
+    {
+      "name": "original-plan.json",
+      "original_name": "scaled-sphere-M96-continue099-r1-plan.json",
+      "bytes": 4309,
+      "sha256": "6469b68029a70497a2a6661567cfde3a706e94b639ac84e2fee2ed1abbabf037"
+    },
+    {
+      "name": "original-resource.json",
+      "original_name": "scaled-sphere-M96-continue099-r1-resource.json",
+      "bytes": 2076,
+      "sha256": "80e4bdede35fcf78faae7ce66e560894b760dc8dd1919e00192bc6b90e484625"
+    },
+    {
+      "name": "original-run.log",
+      "original_name": "scaled-sphere-M96-continue099-r1.log",
+      "bytes": 56687,
+      "sha256": "299c39b6ed170de95333cb44906242801d75bbbcfc15faca32e8ae4c39d8c29b"
+    }
+  ],
+  "solver_source_sha256": {
+    "geometry_20261114_projected_core_bvp.py": "2326720f124d2edc40e63089f8e07d6671e053ff108281efb59091d919f15c5b",
+    "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+    "geometry_20261114_normal_terminal_projector.py": "d6c6f1308f678cae77750b33977d41f2bdb8d355f345d43bcb3f68b1e9e7d47d",
+    "geometry_20261114_normal_bvp_continue.py": "3baf49eea03a12baa3da452a53e57bfe6b25e1e77f6ceb8da066a2e7d63c1ce8"
+  },
+  "original_failure": {
+    "cause": "ENOSPC while writing QR interval 403/422 in the fourth global Jacobian",
+    "exitcode": 1,
+    "ended_utc": "2026-11-14T09:08:19.214942+00:00",
+    "wall_seconds": 1251.630209297,
+    "retained_states": 423,
+    "state_components": 290,
+    "previous_accepted_inner_steps": 3,
+    "last_inner_collocation_max": 5.421661622152492e-08,
+    "last_inner_boundary_max": 2.686682629572234e-21,
+    "nonlinear_solver_success": false
+  },
+  "next_action": "Run geometry_20261114_public_continuation.py on the public repository GitHub Actions; original first 32 core modes, all M96 states, frozen .99 profile/projector and tol=1e-6 are retained."
+}
