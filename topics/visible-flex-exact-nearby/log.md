@@ -595,3 +595,7 @@ root逐节核P1–37及真实global T根stable正号、完整mean源、density n
 ### 2026-11-14：精确 compact-bump 与 full Z 已缓存源消费者
 
 根完整读新producer/CI/合同/flow，逐项比较136manifest保旧131SHA全不变。新有理展开准确同bump及径向导数；先抵消再取系数范数，保Arb/binary各误差。原14格和已完成80 target jets全复用，新调用0；fullZ从raw两行含mean及完整offset/背景修补费出发，qstar另列。独立Actions将给实际改善，尚不记全cover或response成功。
+
+### 2026-11-14：完整连续 Z 的精确右端193审计提交
+
+新7-input消费者只读原末shard013（1,517,845B）、index、连续Z原native和实际旧outer summary。全193物理态无α缩放，末片Horner及原offset均用Fraction；有向Arb给6个strip、角0..4及两个δ半径的mean/p*和moving/angle预算。原物理无限Fourier C变化、真正outer/body inverse权限全部false，待实际结果后继续付清。原response/target/endpoint证书均不重算。

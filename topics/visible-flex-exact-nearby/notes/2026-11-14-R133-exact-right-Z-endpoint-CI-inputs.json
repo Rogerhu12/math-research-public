@@ -1,0 +1,86 @@
+{
+  "kind": "actual_exact_full193_right_continuous_Z_endpoint_public_CI_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "scientific_inputs_selected_by_exact_hash": true,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "python_flint": "0.9.0"
+  },
+  "input_paths": {
+    "trial_index": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full.json",
+    "trial_shard": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full-part013.npz.gz",
+    "direction": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+    "outer_summary": "topics/visible-flex-exact-nearby/notes/repaired_positive_ci/run-43601149891-1-exact-M32-repaired-positive/evidence/repaired-complete-regular-Hs-outer-summary.json"
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full.json",
+      "sha256": "ed42a71ddeb0420428f0313df321dc1f9b10525521d399cb1d666ae98fe410f6",
+      "bytes": 11295
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full-part013.npz.gz",
+      "sha256": "4a863085ec89c7d7104b4fdf566f9ae380d22eb7b4e4f8b2146cd190c3b4b037",
+      "bytes": 1517845
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-explicit-continuous-response-direction-native.json.gz",
+      "sha256": "87ed2f618bcaf77b0649abf561daea7225c9b7d667edc22afb91d86255da8f88",
+      "bytes": 502954
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/repaired_positive_ci/run-43601149891-1-exact-M32-repaired-positive/evidence/repaired-complete-regular-Hs-outer-summary.json",
+      "sha256": "1f8a0eb70945c15b25f94361fcee9e39730afbcfeed39917485139687c55dba6",
+      "bytes": 19738
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_right_Z_endpoint.py",
+      "sha256": "0e8904d935d83596040fede599ca60cbe7acdf5aba5249c8ddaa4ec3167a976f",
+      "bytes": 11924
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_right_Z_endpoint_CI.py",
+      "sha256": "5364fd2156b81f5300f549dceaeab6a00f647728cb21729ad17d7c157618acb6",
+      "bytes": 5703
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-exact-right-Z-endpoint-contract.md",
+      "sha256": "fd1b09eee599e2e9f711af3bcaa11d81d1b6c97a2bc6b85781d4f22b31e2b1b5",
+      "bytes": 2708
+    }
+  ],
+  "expected_native": "exact-right-Z-endpoint.json.gz",
+  "original_response_shards_consumed": [
+    13
+  ],
+  "complete193_states_and_independent_mean_retained": true,
+  "all_new_mathematics_only_in_public_Actions": true,
+  "original_response_or_target_recomputed": false,
+  "full_delta_outer_graph_or_body_inverse_claimed": false,
+  "mathematical_parameters": {
+    "bits": 320,
+    "exact_right_radius": "25/8",
+    "parameter_radius_diagnostics": [
+      "1/100000000",
+      "1/10000000000"
+    ],
+    "strip_widths": [
+      "0",
+      "1/128",
+      "1/64",
+      "1/32",
+      "1/16",
+      "1/8"
+    ],
+    "angular_orders": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "physical_frequency_factor": 4,
+    "background_amplitude_factor_applied_to_direction": false
+  }
+}
