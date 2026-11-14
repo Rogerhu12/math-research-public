@@ -34,6 +34,8 @@ R254已给完整物理共享节点Hermite前缀的逐cell精确有理四点证�
 
 ## 4. 严格存在差距、保全与执行
 
+R251 strict operator 消费者的重建源已在 request16/run43597596523 真编译并通过三个指定解析例（含完整z0与mixed term失败见证），实际回执见 [三解析场接口](notes/2026-11-14-actual-R251-operator-interface-check.md)。这是接口执行成功，尚未验证实际接受场、完整48/64有限Gauss scalar或全prefix；不重跑三个例子，也不把它列成新的候选验收门。
+
 完成数值标准后须明确无限尾、精确等距极限或其他仍欠严格证明之处；不要另加README没有要求的审批/独审门。未推的旧R179–224依赖若实际必要，按幸存源重做，不用排队记录补结论。已恢复的43提交、R235–237及真RK24/RK48不重复。
 
 每一条完成结论实际pull、检查双README差异、记录已读SHA、普通push；非快进立即rebase重试到成功，至少每小时同步。原自动publisher因README变动保留artifact并停止发布是正确行为，root读取差异后接手。手动workflow_dispatch因PAT权限403不可用，已改仓库既有push request明确选择geometry/cardinal/coupling，不重复已完成zeroH/free3。任何分项完成都继续下一项，不将阶段报告当任务结束。

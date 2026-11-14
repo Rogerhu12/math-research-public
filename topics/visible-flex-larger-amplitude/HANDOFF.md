@@ -52,7 +52,7 @@ R248有限C²已足相位C²强连续，准确反射parity、全t metric/κ归�
 R249只改共享node0的z/XY一导/z二导，首cell精确反射C²，cut九jet/mean/H/SE2不变；有理修补operator/κ成本仍待同场支付。可复用同场complete-4尾，新plan用新heights。
 R250连续及偶N>4M精确DFT材料P det>0，不给条件数。R253固定光滑正非恒rho的P_M超代数病态与其相容，不冒本次有限M因果。
 R251原φ四Loewner量等价operator<η；严格cell/full-prefix及同源scalar exporter已重建入库。原415五次/三六次bump/48与64有限Gauss不换g，实际bridge7.5非旧tag8，ap/app不冒有限和导数。
-request16/run43597596523/source89b0882已真SUCCESS：四源compile，恰三解析例及必要series API，flint0.9/160bit；完整z0圆柱通过、斜率错误及mixed主导失败被正确识别。artifact14115152863/publisher9eee945。这不是实际候选、完整finiteGauss或全prefix验证；不再重跑三个例子。
+request16/run43597596523/source89b0882已真SUCCESS：四源compile，恰三解析例及必要series API，flint0.9/160bit；完整z0圆柱通过、斜率错误及mixed主导失败被正确识别。artifact14115152863/publisher9eee945。实际回执见 actual-R251-operator-interface-check note；这不是实际候选、完整finiteGauss或全prefix验证，不再重跑三个例子。
 R252完整φ有限边界与全部core链式导数已证，是新有限方案，不是旧Rθ等价预条件。R254全物理共享Hermite每cell有理四点排平面、6×(4M+3)网格完备；消费者compile过，尚无新场数值，tail/collar/marker/含反射δE仍须同场。
 R255精确circle全模态线性等距、coast N²=apN及I+ΔsN/a0、强剪切非k²指数；bridge冻结尺度仅参照。
 
