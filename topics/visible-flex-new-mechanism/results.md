@@ -191,3 +191,5 @@
 - [R93：零二阶矩阵的真实几何能量与frame长度约束](results/R93-zero-matrix-geometric-energy-and-frame-length.md) — 完整M0与常端芽给∫kh=0和∫k²=L+∫(logh)′²，故真实光滑路径必换号且max|k|>1；给有界k下logh振幅门，结合frame闭合得L(2L+Elogh)≥4π²。恒h闭frame类实际L>√2π但无统一gap。都是实际驱动必要条件，未给第四action符号。
 
 - [R94：总P1成员门的真实整权分块与最高权泛函](results/R94-scaling-blocks-for-total-P1-membership.md) — 真36元W按权−5至1维数2/4/8/8/8/4/2，物理E按权−3至1为1/2/2/1/1并给两条平移Jordan链；252响应原列分11权块，最大48列。成员逐块等价，最高未付权真实泛函给Λ(b_Hd)=H^m。列数非秩，实际成员未决；只universal层，不排固定特殊圆。
+
+- [R96：有限仿射Volterra空间的同一光滑三矩圆忠实评价](results/R96-single-profile-faithfulness-for-affine-Volterra-spaces.md) — 独立正仿射搬移把分离packet排成互不交区间，右因果与四次齐次使幅多项式行列式有非零词典首项；一个profile即对完整有限V评价单射。左三bump准确补矩和共同归一保全部查询，得到合法C∞圆及无统一导数盒时的相对开稠密性。若总b非成员，R91同号泛函可转到同一圆，仍不排特殊圆或固定N的P0+NP1。

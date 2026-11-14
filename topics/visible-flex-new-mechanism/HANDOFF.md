@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`5d449359b2f078102ed1cc2e07f2c79d238c1f0f`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`af5d4aa7f1ca8c0f8bceb08c430f8bda203aa5f6`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -44,7 +44,7 @@ resume actual43635770962/sourcecc8a9c9d已complete175.069s，新人工pass，qua
 
 R87 actual43635287277原右Volterra同一有理f/g真实36/37非零子式，W真维数36；R86补矩/光滑化迁移到合法C∞圆，并有明确collar类相对开稠密障碍。只排该单pair P1，**不排特殊circle、多pair、固定N的P0+NP1**。完整证据在R87及对应notes。
 
-R89真实H²/x=Hξ+d全路径协变及W不变，物理A族恰span7。R90七明确常态给全响应≤252维，基准有限Laurent族；实际helper正成本、整数整圈不可省。R91 universal层二分：b若在全响应内则七helper各一正整圈可付P1；否则存在Λ(b_Hd)=H^n>0排任何正组合。成员尚未知，不能据单pair或两个pair阴性决定，也不能冒固定特殊profile排除。两state(1,0)/(1,1)actual43637269935/source665bd6e9在480.059s资源退、仅33/72列，RSS157.754MiB；没有依赖上界/匹配/原式评价，数学未定。回执30988B SHA3f3aa0999e7f2fca1ca3772967cdce31e04ea1ef27d2914173f112ea1512d970。R94证明真实W/E权分解及平移链，改总成员11块、最高2/6列、最大48列；新producer40ff1701已请求最高3raw权/240s/1GiB，块逐件保存可严格接续，正要原式身份、负要真实上界及原式子式，只universal层。
+R89真实仿射协变/W不变，R90全部常态控制由七state至多252列张成；helper正成本与整圈不可省。R91 universal二分b∈R_*或Λ(b_Hd)=H^n>0。R94真实权分解把全成员拆11块；两pair旧480s只33/72列非数学阴性。新actual43638896281/source5ba4eceb用37.240s完成最高3块：+2成员、+1目标0、0真实非成员；根/代理正消费原式子式作R98，不再盲续低权。R96完整纸证有限V有同一合法C∞三矩圆的单射评价：独立affine排包+右因果四次首项+左补矩；若总非成员，可转成该圆上全部正states同号障碍，且无统一导数盒下相对开稠密；不排特殊圆/固定N完整P0+NP1。
 
 R83真第四传递：M0倒行T−、V+；含Z0的真实基准上第四切向保P1，但基线/偶成本仍欠。R84 V只有限加法半群，frame长度L∫(1+k²)≥4π²；不授负成本或V正性。R85/R88证明pure尾4m−9、4m−8均准确端点势，M0已消；R88 consumer43636741138真I0/原DAG全0。
 
