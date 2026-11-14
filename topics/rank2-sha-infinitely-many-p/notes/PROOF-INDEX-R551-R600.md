@@ -26,3 +26,5 @@
 - [R560：原native全域单支与七个真实条件矩](../results/R560-native-single-branch-and-seven-conditional-moments.md)：纯C投影与原D14整个核心把同一native反对称积分准确写成β^n乘n无关五变量积分；完整保原Y/W对数及单位条件，两条带恰Zunit且X∓(2+ω)Zdeep，X=c−D/14、Z=d+(1+3ω)D/14。原六次P只读S14七个真实条件系数，第六矩质量校正−672bΩ6Λ0完整保留；未赋该条带积分非零。
 
 - [R559：原十二范数平方核心、native单支与完整六度双核](../results/R559-original-plane12-square-core-and-native-one-sided-carry.md)：whole S144的K²=B2含两负中心及σ(12z)锚，原两态B2=−Rc给D12任意偶深真实返回；五伴随、κ^(2m−n)、全部log质量和浅补域保持。纯C投影合法杀B1并将native平均约单支，原rho在保R/T四伴随下准确接R533两完整S6双核，K未遗忘。
+
+- [R562：原四单位域与负二矩的整单位关系](../results/R562-original-four-unit-domain-and-negative-two-unit-relation.md)：同一σ(c)⊗B(v)、H=δc−v/K=δc+v的四unit积分J=∫c³/H²满足完整非齐次式，主常数Ω(1−βκ)(1−3β)/(2δ²)为unit；两深补域分别p7及保首项后的p6。故(I4,J)=O，另P核在同域反对称测试严格零；真实伴随/原Y/W混合条件未被赋中央零。

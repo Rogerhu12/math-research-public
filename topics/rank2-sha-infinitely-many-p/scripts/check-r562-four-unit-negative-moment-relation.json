@@ -1,0 +1,103 @@
+{
+  "title": "R562 exact four-unit negative-moment relation",
+  "status": "passed",
+  "checks": 21,
+  "arithmetic": "BigInt exact polynomial and Q(omega) arithmetic; no prime sampling",
+  "variables": [
+    "beta",
+    "kappa",
+    "Omega",
+    "b",
+    "I4"
+  ],
+  "scaled_double_unit": "8 delta^2 J_D = 4 A0 A1 - 6 b A3 I4",
+  "scaled_four_unit_leading": [
+    {
+      "exponents": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "4"
+    },
+    {
+      "exponents": [
+        0,
+        0,
+        3,
+        1,
+        1
+      ],
+      "coefficient": "-36"
+    },
+    {
+      "exponents": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-12"
+    },
+    {
+      "exponents": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "-4"
+    },
+    {
+      "exponents": [
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "coefficient": "36"
+    },
+    {
+      "exponents": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "coefficient": "12"
+    }
+  ],
+  "exact_relation": "J_B = Omega(1-beta*kappa)(1-3*beta)/(2*delta^2) - 9*b*Omega^3(1-beta*kappa^3)*I4/(2*delta^2) - C_sigma - T_B",
+  "complement_orders": {
+    "sigma_deep": 7,
+    "B_deep_mass": 0,
+    "B_deep_tail": 6
+  },
+  "first_tail_coefficients": {
+    "sigma_deep": "120 b beta delta^4 kappa^7 Omega^7 m_B^unit(-6)",
+    "B_deep": "1512 b beta delta^-8 kappa^6 Omega^6 m_sigma^unit(-5)"
+  },
+  "full_core_inputs": [
+    "sigma",
+    "odd degree3 B",
+    "whole even degree6"
+  ],
+  "simultaneous_unit_domain": [
+    "c",
+    "v",
+    "H=delta*c-v",
+    "K=delta*c+v"
+  ],
+  "disjoint_removed_domains": [
+    "c in p; v unit",
+    "c unit; v in p"
+  ],
+  "unit_proof": "1-3 beta=0 mod p would imply Tr(pi0)=3; pi0=1 mod 2 gives even trace",
+  "scope": "At least one of I4 and J_B is a unit. No original S/T central zero is assigned to J_B."
+}
