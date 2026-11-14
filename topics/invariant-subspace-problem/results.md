@@ -1033,3 +1033,7 @@
 ### R297 附录：真实线性contrast的标量密度不必对数凹
 
 [精确原模型例子](notes/2026-11-14-balanced-star-actual-contrast-scalar-log-concavity-fails-789f.md)取Q4、小位权(2,2,1/2,1/2)、v=(1,−1,1,−1)，仍是原线性占据源。全部条件噪声与组内对称交叉保留后，真实密度F E[f²|t]/[t(1−t)]=5−2t+2t²，中心log曲率8/9>0。完整两个contrast的密度矩阵却仍满足M′M⁻¹M′−M″=diag(2,2)≥0，所以只排逐来源套标量log凹，不排矩阵曲率、真实相位或普通ISP。
+
+### R297 附录：真实完整矩阵曲率为负，固定端点幂也不能统一修复
+
+[完整解析族](notes/2026-11-14-balanced-star-actual-matrix-curvature-counterexample-789f-next.md)取两个互逆异常权和R个单位权；S_R对称使整个contrast源分成真实reducing的2维块与R−1维池块。Q5、权(6,1/6,1,1,1)的完整逆后中心曲率块恰diag(490/17,−25/74)，另两维正，不是压后逆假例。全R族沿同一来源的相对曲率趋−4(R−2)，故无维数一致K≥−CM；根追加完整微分式证明任意固定端点指数c也不能统一补齐N-log凹。只排把此密度直接送入要求正曲率的matrixBL路线，原J与ISP均未否。
