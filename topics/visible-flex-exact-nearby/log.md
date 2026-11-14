@@ -247,3 +247,7 @@ root全文核source16943B/CI12226B/contract7360B/flow8250B，tail独立核完整
 ### 2026-11-14 19:04:35 UTC — 补发 known-high 原成功字节，零数学重跑
 
 已逐字审两件 receipt-only worker/workflow，source SHA256 `74a00ec426b897222424ca6a9241d7aa1f2d3b9763529fa2fd6be31671caecee`，workflow `b6336c13accf5818505f8f7a53bd4cb8e6f0d5085ce12fa7211c4f14caa3a6cc`。保持原147 manifest和数学源，验证43628921664原child0/完整7721行8门/7,508,940B native/14,387B summary，另保原发布失败过程。新 worker 不运行任何数学子进程，六项receipt检查后复制原字节。19:05再次实际 git pull --rebase 仍终端失联；依根规则8仅小文本connector继续；最新两README核未变。主目标继续。
+
+### 2026-11-14 19:05:57 UTC — 独推 fixed-M32 known-high 实际科学结论
+
+报告 SHA256 `042519f55040293ec9635ed58b009f4404d2653ce9010b216f1153ebd1c9809f`，4,909B，root 已核原20569B process/14387B summary、全8门及实际artifact 14127291890完整可用。全7721行已知源实际改进，严格区分child成功与wrapper最后大诊断失败。全窗口、finite-support H1/3转换与δ非零/未知反馈限制均逐项写明；本结论独推。

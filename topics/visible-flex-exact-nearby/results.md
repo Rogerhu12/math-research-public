@@ -463,3 +463,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：原 I/J 余项的实际径向预算合同（2026-11-14）
 
 [B.1–B.13](results/R133-supplement-real-root-remainder-budgets-and-radial-matrix-parts.md) 给U.20–U.29的完整可执行费用：真实Fourier矩与mean分开保留，$H^{-1}$和$H_D$只减准确不依赖角的径向矩阵后作angular Cauchy，原径向变化仍在。四阶角导从原较宽条带付费，不造高径向intrinsic jet；所有Airy分支提取$|\rho|^{-1/4}$，按完整root bracket逐格积分平方。root-bracket内的$2\sqrt{\mathrm{length}}$仅授每个单侧，正负分别求和。新source已root/tail按U逐项复核，actual运行另记；非$L_0w_1$或全return结论。文本SHA256 `3bade0ac1358b845dbcbf16777baadc4f28437db4d31fcf1d227fdcb7db21bca`。
+
+### R133 补充：完整已知 high 源实际结果
+
+见[7721 行完整证书](results/R133-supplement-actual-complete-known-high-source-from-Z-tail.md)。43628921664 数学 child 0、8 门、56.609475s，全区已知 high 源 $L^2_rL^2_\varphi<1.456146059\times10^{-10}$、固定负窗 $<1.415385110\times10^{-10}$；原 low193/mean 不变。native `5ad8aaad…` 与小摘要 `74e7b40d…` 完整。workflow 因最后可选大诊断失败，原失败实录保持；零数学补发另行验收。仅固定 M32、$\delta=0$ 的已知外源，不授未知反馈或真全逆。
