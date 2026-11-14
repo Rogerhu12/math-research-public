@@ -447,3 +447,7 @@ visible-exact-astra-0df9全文核科学/CI/worker/flow和20pin；首跑前修a2�
 ### 2026-11-14 22:31:52 UTC — 同一F的完整三角/Gram合同与112pin消费者
 
 root全文读科学source33579B/CI19094B/flow7908B并核原105pins均未变，G1–18的endpoint patch、C_x=-CA同F逆、Legendre signed Gram、Loewner舍入、128方向cross的5/3 raw误差及degree4权积逐项保。新source2173281e0558cbbabf3a21d506ae3cf9b0253a9406aa2d9d15b8681e8faeaf44，manifesta24a9a7fec2f39e349e9f547ea4d5c33f72db10d41e3a77ed7030409161e7ad9。原大数组只由公开Actions下载，未经connector；全计算仍在public，10min真pull和publication非FF循环。压缩前H9974B归档。另已读v2实际process/worker，两真pull至5137a924…且README diff空；当前只读核e0c259072bfacf0b0c2a6d32352797641fdc3206不冒本机pull。
+
+### 2026-11-14 22:35:58 UTC — 原圆周mean恒等与完整第一修正I/J/mean预算
+
+独推Y1–14正文12186B SHA55baa5f04d83a170ed422b6266c51e31f55c6471e04a5ac1fcac138eb2406d0c。由DU(w)−∂φU(ηh)=U(gd)逐项消去nHDw，原circle Π准确保；没有假设ΠD=DΠ。新S密度九项source和独立evenmean完整展开，所有乘法系数用真Wiener范数，J只用已证nonmean域；给负窗两预算和radial/seam合同，无本机数值计算。只读核4063e3254c2569461564c3d2d3b802bb557b0bca两README无变，继续公开消费者与全部闭网络缺口。

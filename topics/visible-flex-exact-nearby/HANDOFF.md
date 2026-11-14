@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 22:31:52 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 22:35:58 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在 Rogerhu12/math-research-public 工作；新数学只在公开仓库Actions。每条结论独推，非FF立即真pull --rebase再推直到成功，禁force。root管main/H/open/results/log；代理只交正文/blob，勿碰共享checkout。PAT仅瞬时CLI/env，不入文件、输出、提交或connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近runner真pull：22:25 UTC 5137a924244d90e6d725ad5436df13296cdb57b0，两次两README实际diff空。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：e0c259072bfacf0b0c2a6d32352797641fdc3206；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：4063e3254c2569461564c3d2d3b802bb557b0bca；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 最近partial checkout在 /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；当前环境不可用。此前相关AGENTS皆无。runner长算10min真pull；phase45/50min前后真pull，非FF循环；成功数学与出版失败分记。
 本次前H全文9974B在 notes/2026-11-14-handoff-before-same-F.md；旧H/open/results及原152结论入口档案链完整。actual报告/manifest/native保对象、身份、参数、全部失败及逐行证明，不凭摘要重构。
 
@@ -37,7 +37,7 @@ C1–15/N1–12的精确H^-1HD=−iεQK(T)、gd=Dw−ηhφ及完整h/qv已证。
 F1–19锚定fold/直接leading二阶已证（SHA63e76681…）；43646714623 child1 nativea6f6225c…12763B，小域13门过，大域coeff过/selfmap失败。原小域Fb<516.515190375、Fa<1.537928496；9e−6物理邻域L0w1幅度<2262586.222/152555541189.154。报告R133-supplement-actual-anchored-auxiliary-fold-and-direct-leading-first-forcing.md。
 C1–7根积分交已推fc53baab；28pin v2 sourcee4720dc7…/manifest7f00e2a2…只续大域，小case/两coeff/rootanchor逐字保，旧fail另存。43647998272实际child0/6身份门、完整新大域14门已核process855730f8…46443B/worker e37a9741…2469B，native84e2bd1b…20319B；phase正交actual独立报告。两runner真pull均5137a924…无README差异。仍未授全IJ/mean/strong-return。
 D1–24同w1内外L0w1合同已证。J1–19（443da14d；R133-supplement-exact-first-Airy-root-jets-and-Taylor-tail-derivatives.md，SHA2429213d…）先除完整leading矩阵、精确递推再恢复c/d与X项，b1(0)=Fb，仅Taylor尾收Cauchy。phase只新增同root高阶jets及strict外片第三jet传递，全部成功域/低阶数据复用。
-root正在补任意w1的旧circle I/J及独立mean：完整U12–29与M16–19原算子保；已发现ΠDU(w)=ΠU(gd)可合并raw mean，须完整正文/消费者后授预算。原1079seam、fullδ mean、外片导数和全参数身份均不删。真正CE/Cs、充分cutoff/closed高逆仍缺。
+root Y1–14旧mean压缩/完整w1 I/J预算已证（R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md，SHA55baa5f0…）：ΠDU(w)=ΠU(gd)，原T密度rawmean可取M0(gd)；w1用真实S密度和完整z_K词，或旧g_K预算/(4J0)，两者合法取min。全evenmean/原1079seam/fullδ/外片与最终J窗口保。仅给负源窗口，正侧走原weighted合同；待公开新source积分，CE/Cs/充分cutoff/closed逆仍缺。
 
 ## 外返回、新简单根和闭网络：tail_connector
 

@@ -182,3 +182,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 同一F三角与完整方向Gram的四格新计算
 
 [G1–18合同](notes/2026-11-14-R133-same-F-triangular-matrix-Green-contract.md)已证并装112pin公开入口：复用原四F和43594139132原frame slices0/8/15，新97补空间、准确endpoint patch、同F真inverse误差、三通道signed193 Gram及全物理metric。原105pins逐项不变，旧成功数学不重算；完整source差另以edge_y Gram支付，不虚构独立输入。先核实际四格，再接全5970矩阵递推及真实跳/两边界缺陷，不能以local通过授全BVP。
+
+### 旧mean准确合并与w1非局部源合同已闭合
+
+[Y1–14](results/R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md)证明ΠDU(w)=ΠU(gd)，可把leading旧M_D改善为min{原费,M0(gd)}。firstcorrection直接S密度用原完整矩阵z_K，保九项I/J及独立mean；另保原g_K费/(4J0)选项。root接公开消费者，复用原1328矩阵words/全部旧profiles，只新相关mean包络和w1实际幅度源积分；不把正侧增长Airy当无权负侧算子。
