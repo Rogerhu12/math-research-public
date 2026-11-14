@@ -1,0 +1,267 @@
+{
+  "ODE_state_coefficients": 732,
+  "canonical_history_coefficients_real_and_shared_by_conjugation": true,
+  "canonical_initial_W": "zero once at the global s origin; retained across every later segment",
+  "coefficient_DAG_nodes": 267875,
+  "coefficient_DAG_sha256": "5405503abaade65dc82d7899b46ea2ebb5c7db74448f431423cc5bb054f7912a",
+  "completion": "complete",
+  "elapsed_seconds": 10.055273965000001,
+  "finite_family_certified": false,
+  "fixed_target": "g_X + epsilon^2 (dY_f)^2; f=(q+qbar)/2",
+  "fourth_modes": {
+    "-2": "P/8+Q/8+R/4+S/4-T/4-J/4",
+    "-4": "-P/16-R/4",
+    "0": "-(P+Pbar)/16-Q/4+(J+Jbar+T+Tbar-S-Sbar)/4",
+    "2": "conjugate of -2",
+    "4": "conjugate of -4"
+  },
+  "geometric_design_evaluated": false,
+  "geometry_derivative_depth": {
+    "h": 3,
+    "k": 3,
+    "omega": 0
+  },
+  "geometry_identity_required_for_future_evaluation": "R45 exact single P with frame endpoint D and M_P=0, then P,P,P_reverse,P_reverse; not the old Klein-eight-block experiment",
+  "github_actions_run": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43615655870",
+    "GITHUB_SHA": "218254b94ff7f51f92692f2f15c5f374af1990e7"
+  },
+  "kind": "exact_formal_profile_compilation_only",
+  "max_order": 4,
+  "max_profile_jet": 4,
+  "ordered_state_rhs_sha256": "85831fde07ccebb9cc8017f98b32d11319065c4c3073df2b1ca6c9d3fc9d87ec",
+  "physical_fourth_modes": {
+    "-2": {
+      "period_rhs": {
+        "sha256": "cc3af56ec1178c059e82827037539fe834de5d3fef13be4327a1e91fed9e01ee",
+        "terms": 14959
+      },
+      "ruling_integrand": {
+        "sha256": "7aabc0ebc01c32e3642d6dead40327dbc0af88755828aa352b52917ef6c04765",
+        "terms": 3476
+      }
+    },
+    "-4": {
+      "period_rhs": {
+        "sha256": "32ed2880a31d885aa1945f3c7924acb2db424b24c37767171236ef8bf76203b1",
+        "terms": 3186
+      },
+      "ruling_integrand": {
+        "sha256": "72fcd116c3c6c93158e7dec88d9112ee35abda443a485efd79d88d1ac3b56f9d",
+        "terms": 718
+      }
+    },
+    "0": {
+      "period_rhs": {
+        "sha256": "9a1336cbf8b8344d6974a7cdd2741cbb201e72283325a2025a12aab69e44e067",
+        "terms": 23195
+      },
+      "ruling_integrand": {
+        "sha256": "3c65b5d1ddbd2da5bed9e57287011bec9d0f41b126c974ac9774a54499efb167",
+        "terms": 5407
+      }
+    },
+    "2": {
+      "period_rhs": {
+        "sha256": "ecac02cd6237868a5a236b6148d2e98750dbe46a7ecd65c82743c2c26f3be682",
+        "terms": 14959
+      },
+      "ruling_integrand": {
+        "sha256": "49395517f8a439987455b4bb5d70ea224328512c2e3958673bfee09a7d85a66e",
+        "terms": 3476
+      }
+    },
+    "4": {
+      "period_rhs": {
+        "sha256": "ce66cadc4beb7216d106589ca613a3be1ea5182aafab9df6f49fe1202d48a50a",
+        "terms": 3186
+      },
+      "ruling_integrand": {
+        "sha256": "4b576ff1e78e9fd6325597df2f9199ce44aee9b9bc219ae46299bd3b39a882d4",
+        "terms": 718
+      }
+    }
+  },
+  "profile_atom_DAG_sha256": "5fa5ace77241b9739daaab7447c4fb7e6026d864f917f99fd0835bcf09fd4a4e",
+  "profile_atoms": 6365,
+  "profile_basis_independence_assumed": false,
+  "profile_integrals_evaluated": false,
+  "range_channels": [
+    {
+      "B_terms": 6,
+      "J_terms": 6,
+      "P_terms": 6,
+      "R_terms": 27,
+      "eta0_terms": 15,
+      "field_component_terms": [
+        30,
+        18,
+        36
+      ],
+      "mode": "B=anchored_recovery(H(A,A))",
+      "order": 2,
+      "period_rhs_sha256": "834a2c8c695a1b614b1dd4f44e84cb831eda301ae0ce2dfa9ad76a3f44451d88",
+      "recovered": true,
+      "ruling_integrand_sha256": "88bf7bc182679822d1a8f81e3756cede9ad8b954bf218ab49272f5f8ab49e37c",
+      "ruling_integrand_terms": 6,
+      "state_count": 27
+    },
+    {
+      "B_terms": 72,
+      "J_terms": 72,
+      "P_terms": 75,
+      "R_terms": 318,
+      "eta0_terms": 182,
+      "field_component_terms": [
+        296,
+        222,
+        323
+      ],
+      "mode": "U=anchored_recovery(H(A,B))",
+      "order": 3,
+      "period_rhs_sha256": "538ec9977dc67475e0759c072d2b97b0c663548c409b69812a0c93a4e12dfeed",
+      "recovered": true,
+      "ruling_integrand_sha256": "e560274f886c8e339f858b726be550ce4bddc9a5201b4cd0489e87dc0dae3088",
+      "ruling_integrand_terms": 75,
+      "state_count": 318
+    },
+    {
+      "B_terms": 84,
+      "J_terms": 84,
+      "P_terms": 93,
+      "R_terms": 387,
+      "eta0_terms": 239,
+      "field_component_terms": [
+        393,
+        270,
+        431
+      ],
+      "mode": "V=anchored_recovery(H(A,Bbar))",
+      "order": 3,
+      "period_rhs_sha256": "b4963a53775f6791e9035fe4b72e722d50e2d1a6c1adb5acf1e5bd0528141704",
+      "recovered": true,
+      "ruling_integrand_sha256": "a786dba97b326aac59476bdf6d00adcd3dbed02761e70799be0725acd144247b",
+      "ruling_integrand_terms": 93,
+      "state_count": 387
+    },
+    {
+      "B_terms": 348,
+      "J_terms": 348,
+      "P_terms": 418,
+      "R_terms": 1674,
+      "eta0_terms": 942,
+      "mode": "P=H(B,B)",
+      "order": 4,
+      "period_rhs_sha256": "6893d8d1e285de68aab43df505b73226190d71f2b694e21efbd2135575d47c00",
+      "recovered": false,
+      "ruling_integrand_sha256": "80430466408c210a8584d7dd37c2473c4fe54c6bc5f0946212cf119e4b70a6b4",
+      "ruling_integrand_terms": 418
+    },
+    {
+      "B_terms": 720,
+      "J_terms": 720,
+      "P_terms": 945,
+      "R_terms": 3699,
+      "eta0_terms": 2115,
+      "mode": "Q=H(B,Bbar)",
+      "order": 4,
+      "period_rhs_sha256": "6333bb3799e5b7cde47447a4eb4c147c59eb663dafde2e259b9d948b1ea29792",
+      "recovered": false,
+      "ruling_integrand_sha256": "04cb75b62a90bcf98e90d217cbb5666547bad279fab344810dffe93d1c90d523",
+      "ruling_integrand_terms": 945
+    },
+    {
+      "B_terms": 678,
+      "J_terms": 678,
+      "P_terms": 641,
+      "R_terms": 2804,
+      "eta0_terms": 1605,
+      "mode": "R=H(A,U)",
+      "order": 4,
+      "period_rhs_sha256": "95216218963da01f19f2bdb8cfa77e2376a93ff37432cf6841daa32c868e890a",
+      "recovered": false,
+      "ruling_integrand_sha256": "485a29acaad34296e55fbb16655a90a203ac68f21bec6604cb7f4650bd797a73",
+      "ruling_integrand_terms": 641
+    },
+    {
+      "B_terms": 923,
+      "J_terms": 923,
+      "P_terms": 1026,
+      "R_terms": 4262,
+      "eta0_terms": 2509,
+      "mode": "S=H(A,V)",
+      "order": 4,
+      "period_rhs_sha256": "2eb16b3ef2ac96325f9c779dee9ac5a403fe232c11d9e019ed72b67e22953363",
+      "recovered": false,
+      "ruling_integrand_sha256": "aaa125cb8f808d56051afd3a1ccea251d5afc4fc5480abf05e3ea69fd535495f",
+      "ruling_integrand_terms": 1026
+    },
+    {
+      "B_terms": 923,
+      "J_terms": 923,
+      "P_terms": 1008,
+      "R_terms": 4211,
+      "eta0_terms": 2488,
+      "mode": "T=H(A,Vbar)",
+      "order": 4,
+      "period_rhs_sha256": "b163bacd73361fd9d4f77e54191c1c216845b8103cde15610c8819ef2ff4ac44",
+      "recovered": false,
+      "ruling_integrand_sha256": "c8d732851cac5c2372164f3a459f222fa712c044d00b125f90232d967c4d2aee",
+      "ruling_integrand_terms": 1008
+    },
+    {
+      "B_terms": 755,
+      "J_terms": 755,
+      "P_terms": 762,
+      "R_terms": 3259,
+      "eta0_terms": 1979,
+      "mode": "J=H(Abar,U)",
+      "order": 4,
+      "period_rhs_sha256": "433540d580ebeca2ef5835729d3cc48fb11f293726b2757f832f781a8793e70c",
+      "recovered": false,
+      "ruling_integrand_sha256": "6711b14822f75667f0326464fd2c9cc70d1c1b745c9ff1ab07ca6a115116c66a",
+      "ruling_integrand_terms": 762
+    }
+  ],
+  "range_recovery_conditional_on_both_full_range_conditions": true,
+  "resource_limits": {
+    "max_atoms": 100000,
+    "max_nodes": 750000,
+    "max_seconds": 300,
+    "max_terms": 100000
+  },
+  "right_anchor": "one common fixed xi endpoint r",
+  "right_anchored_Volterra_atoms": 6355,
+  "s_anchor": "one actual initial state; no segment or packet resets",
+  "second_modes": {
+    "-2": "-B/4",
+    "0": "(B+Bbar)/4",
+    "2": "-Bbar/4"
+  },
+  "source_sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
+  "specific_P_geometry_supplied": false,
+  "third_gauge_reduction": "if actual whole geometry has zero quadratic period operator, fourth periods are gauge invariant; fourth rulings must lie in the same global three-dimensional w-space",
+  "third_modes": {
+    "-1": "(-U-V+Vbar)/4",
+    "-3": "U/4",
+    "1": "(-Ubar-Vbar+V)/4",
+    "3": "Ubar/4"
+  },
+  "toy_checks": {
+    "common_anchor_volterra_conjugation": true,
+    "phase_algebra": {
+      "all_five_fourth_modes_exact": true,
+      "exact_seed_corrections_zero": true,
+      "ordinary_bilinear_H_equals_S_over_2": true,
+      "second_modes_exact": true,
+      "third_modes_exact": true
+    },
+    "primitive_derivative": true,
+    "profile_conjugation_involution": true,
+    "profile_product_rule": true,
+    "state_rhs_derivative": true
+  },
+  "whole_range_conditions_satisfied": false
+}
