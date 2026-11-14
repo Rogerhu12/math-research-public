@@ -602,3 +602,5 @@
 - **R693（已证明）**：[实际三次族的精确Hermite theta平方公式](results/R693-actual-fixed-twist-Hermite-theta-square.md)。由实际周期6核、一般Poisson恒等式和ST一维特征空间，严格给全部k≡2mod3的Hermite theta平方，保留全部相位与R615周期。平方公式证明实际中心值非负并给准确零判据；未证明theta值非零或模p单位。
 
 - **R622（已证明）**：[SS_j0_12原规范高度与整盘排除](results/R622-SS_j0_12-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2约化二次式判别式41非平方，四同标签全无根。非CM SS累计50/105。
+
+- **R635（已证明）**：[SS_j36_01原规范高度与整盘排除](results/R635-SS_j36_01-actual-ramified-height-and-complete-disk-exclusion.md)。完整304位链、457主函数、真实Norm及全尾；F2约化二次式判别式45非平方，四同标签全无根。非CM SS累计51/105。
