@@ -1,0 +1,1483 @@
+{
+  "scope": "Check the full material-DN boundary glue and constant-state augmentation.\n\nThe actual public worker's ready.linearD is used only as an explicitly\nidentified original-linear-graph reference matrix. It is not reported as a\ncomputed nonlinear finite DN Jacobian. A nonzero-height trial at the real\nphysical cut makes core-angle derivatives visible in the response test.\nNo nonlinear BVP or tail acceptance is inferred from these checks.\n",
+  "direct_boundary": {
+    "directions": [
+      {
+        "direction": "core-angle-1",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.150224360202401e-11,
+            "relative_error": 1.150224360202401e-11,
+            "finite_response_max": 0.40000000001150227
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 1.150224360202401e-11,
+            "relative_error": 1.150224360202401e-11,
+            "finite_response_max": 0.40000000001150227
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.2382181250038759e-11,
+            "relative_error": 1.2382181250038759e-11,
+            "finite_response_max": 0.40000000001150227
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.150224360202401e-11,
+            "relative_error": 1.150224360202401e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.5712150110575853e-11,
+            "relative_error": 1.5712150110575853e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 1.0,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.9289351665715606,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.4
+      },
+      {
+        "direction": "core-angle-32",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 2.6211536196737995e-12,
+            "relative_error": 2.6211536196737995e-12,
+            "finite_response_max": 0.015621186233829631
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 9.906483999008037e-12,
+            "relative_error": 9.906483999008037e-12,
+            "finite_response_max": 0.015621186233829631
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.3572442594724649e-11,
+            "relative_error": 1.3572442594724649e-11,
+            "finite_response_max": 0.015621186233829631
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.2334927458786116e-11,
+            "relative_error": 1.2334927458786116e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.479442881136689e-11,
+            "relative_error": 1.479442881136689e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.26458969902300983,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.7298969164812308,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.015621186233829631
+      },
+      {
+        "direction": "core-angle-112",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 2.6149925120796426e-12,
+            "relative_error": 2.6149925120796426e-12,
+            "finite_response_max": 0.004464196743527911
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 3.005474700763875e-12,
+            "relative_error": 3.005474700763875e-12,
+            "finite_response_max": 0.004464196743527911
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.3295388688648949e-11,
+            "relative_error": 1.3295388688648949e-11,
+            "finite_response_max": 0.004464196743527911
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 3.135635431454663e-12,
+            "relative_error": 3.135635431454663e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.685733869930938e-11,
+            "relative_error": 1.685733869930938e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.8700763681075115,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.22605391772636363,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.004464196743527911
+      },
+      {
+        "direction": "radial-mean",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.5157953226818677e-05,
+            "relative_error": 1.4324475839564552e-06,
+            "finite_response_max": 10.581870575623757
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 3.789526491715378e-06,
+            "relative_error": 3.5811550452553786e-07,
+            "finite_response_max": 10.581859207197022
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 9.418267410410408e-07,
+            "relative_error": 8.90039320957168e-08,
+            "finite_response_max": 10.581856359497271
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 5.147295922824924e-10,
+            "relative_error": 4.864265971948084e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.406509183738308e-09,
+            "relative_error": 6.999253808902223e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.9999596941614817,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.02359194805475,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 10.58185541767053
+      },
+      {
+        "direction": "tangent-first",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0001781977545682878,
+            "relative_error": 8.849219733664494e-06,
+            "finite_response_max": 20.137293099578287
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 4.455033588968149e-05,
+            "relative_error": 2.212349490325786e-06,
+            "finite_response_max": 20.137159452159608
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.1123261224099679e-05,
+            "relative_error": 5.523761113908279e-07,
+            "finite_response_max": 20.137126025084942
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.6651990897287305e-09,
+            "relative_error": 8.269303213728605e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.916588843187128e-08,
+            "relative_error": 9.517693336564078e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.9999194396547972,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.005150557208767,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 20.13711490182372
+      },
+      {
+        "direction": "height-first",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.324302889571527e-10,
+            "relative_error": 1.324302889571527e-10,
+            "finite_response_max": 0.39353709249316887
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 2.3025714668278852e-10,
+            "relative_error": 2.3025714668278852e-10,
+            "finite_response_max": 0.39353709238752693
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 5.590951816097922e-10,
+            "relative_error": 5.590951816097922e-10,
+            "finite_response_max": 0.39353709243065105
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 2.711812441269501e-10,
+            "relative_error": 2.711812441269501e-10
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.76081306858023e-10,
+            "relative_error": 7.76081306858023e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.5751408408599538,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.4118389037441057,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.39353709241975054
+      },
+      {
+        "direction": "height-last",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 4.3929284831989435e-07,
+            "relative_error": 6.415489525172829e-08,
+            "finite_response_max": 6.8473789066134705
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 1.0997100829968076e-07,
+            "relative_error": 1.6060308163850098e-08,
+            "finite_response_max": 6.8473785772916305
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 2.7602272467674993e-08,
+            "relative_error": 4.031071540649886e-09,
+            "finite_response_max": 6.847378494922895
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 3.5001959143576844e-10,
+            "relative_error": 5.1117313451600554e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 5.229150445984487e-10,
+            "relative_error": 7.636718885834643e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.994624175153349,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 3.9841287860797605,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 6.847378467320622
+      },
+      {
+        "direction": "cut-fixed-scalar-control-0",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      },
+      {
+        "direction": "cut-fixed-scalar-control-1",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      },
+      {
+        "direction": "cut-fixed-scalar-control-2",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      }
+    ],
+    "finite_difference_definition": "Centered h, h/2, h/4 plus (4*D(h/2)-D(h))/3 at two consecutive levels",
+    "second_order_truncation_contracts": true
+  },
+  "separated_boundary": {
+    "directions": [
+      {
+        "direction": "right-constant-core-1",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 2.7080599691680068e-12,
+            "relative_error": 2.7080599691680068e-12,
+            "finite_response_max": 0.0045210721108223115
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 2.7860517170207044e-12,
+            "relative_error": 2.7860517170207044e-12,
+            "finite_response_max": 0.004521072109507716
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.2382181250038759e-11,
+            "relative_error": 1.2382181250038759e-11,
+            "finite_response_max": 0.004521072104960843
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 3.68824696329287e-12,
+            "relative_error": 3.68824696329287e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.5712150110575853e-11,
+            "relative_error": 1.5712150110575853e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.972006353156969,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.2250049212461644,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.004521072109353696
+      },
+      {
+        "direction": "right-constant-core-32",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 2.6211536196737995e-12,
+            "relative_error": 2.6211536196737995e-12,
+            "finite_response_max": 0.001027979896409705
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 9.906483999008037e-12,
+            "relative_error": 9.906483999008037e-12,
+            "finite_response_max": 0.0010279798967300952
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.3572442594724649e-11,
+            "relative_error": 1.3572442594724649e-11,
+            "finite_response_max": 0.0010279798945134098
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.2334927458786116e-11,
+            "relative_error": 1.2334927458786116e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.479442881136689e-11,
+            "relative_error": 1.479442881136689e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.26458969902300983,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.7298969164812308,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0010279798961315698
+      },
+      {
+        "direction": "right-constant-core-112",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 2.6149925120796426e-12,
+            "relative_error": 2.6149925120796426e-12,
+            "finite_response_max": 0.00017827786073570592
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 3.005474700763875e-12,
+            "relative_error": 3.005474700763875e-12,
+            "finite_response_max": 0.0001782778600817965
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.3295388688648949e-11,
+            "relative_error": 1.3295388688648949e-11,
+            "finite_response_max": 0.00017827785893999607
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 3.135635431454663e-12,
+            "relative_error": 3.135635431454663e-12
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.685733869930938e-11,
+            "relative_error": 1.685733869930938e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.8700763681075115,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.22605391772636363,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.00017827786103614786
+      },
+      {
+        "direction": "radial-mean",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.5157953226818677e-05,
+            "relative_error": 1.4324475839564552e-06,
+            "finite_response_max": 10.581870575623757
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 3.789526491715378e-06,
+            "relative_error": 3.5811550452553786e-07,
+            "finite_response_max": 10.581859207197022
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 9.418267410410408e-07,
+            "relative_error": 8.90039320957168e-08,
+            "finite_response_max": 10.581856359497271
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 5.147295922824924e-10,
+            "relative_error": 4.864265971948084e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.406509183738308e-09,
+            "relative_error": 6.999253808902223e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.9999596941614817,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.02359194805475,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 10.58185541767053
+      },
+      {
+        "direction": "tangent-first",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0001781977545682878,
+            "relative_error": 8.849219733664494e-06,
+            "finite_response_max": 20.137293099578287
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 4.455033588968149e-05,
+            "relative_error": 2.212349490325786e-06,
+            "finite_response_max": 20.137159452159608
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 1.1123261224099679e-05,
+            "relative_error": 5.523761113908279e-07,
+            "finite_response_max": 20.137126025084942
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 1.6651990897287305e-09,
+            "relative_error": 8.269303213728605e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 1.916588843187128e-08,
+            "relative_error": 9.517693336564078e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.9999194396547972,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 4.005150557208767,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 20.13711490182372
+      },
+      {
+        "direction": "height-first",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 1.324302889571527e-10,
+            "relative_error": 1.324302889571527e-10,
+            "finite_response_max": 0.39353709249316887
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 2.3025714668278852e-10,
+            "relative_error": 2.3025714668278852e-10,
+            "finite_response_max": 0.39353709238752693
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 5.590951816097922e-10,
+            "relative_error": 5.590951816097922e-10,
+            "finite_response_max": 0.39353709243065105
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 2.711812441269501e-10,
+            "relative_error": 2.711812441269501e-10
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 7.76081306858023e-10,
+            "relative_error": 7.76081306858023e-10
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 0.5751408408599538,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 0.4118389037441057,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.39353709241975054
+      },
+      {
+        "direction": "height-last",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 4.3929284831989435e-07,
+            "relative_error": 6.415489525172829e-08,
+            "finite_response_max": 6.8473789066134705
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 1.0997100829968076e-07,
+            "relative_error": 1.6060308163850098e-08,
+            "finite_response_max": 6.8473785772916305
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 2.7602272467674993e-08,
+            "relative_error": 4.031071540649886e-09,
+            "finite_response_max": 6.847378494922895
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 3.5001959143576844e-10,
+            "relative_error": 5.1117313451600554e-11
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 5.229150445984487e-10,
+            "relative_error": 7.636718885834643e-11
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": 3.994624175153349,
+            "contraction_test_applies": true,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": 3.9841287860797605,
+            "contraction_test_applies": true,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 6.847378467320622
+      },
+      {
+        "direction": "right-scalar-control-0",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      },
+      {
+        "direction": "right-scalar-control-1",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      },
+      {
+        "direction": "right-scalar-control-2",
+        "levels": [
+          {
+            "step": 2e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          },
+          {
+            "step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0,
+            "finite_response_max": 0.0
+          }
+        ],
+        "fourth_order_levels": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "absolute_error": 0.0,
+            "relative_error": 0.0
+          }
+        ],
+        "second_order_contraction": [
+          {
+            "coarse_step": 2e-06,
+            "fine_step": 1e-06,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          },
+          {
+            "coarse_step": 1e-06,
+            "fine_step": 5e-07,
+            "observed_error_ratio": null,
+            "contraction_test_applies": false,
+            "contracts": true
+          }
+        ],
+        "analytic_response_max": 0.0
+      }
+    ],
+    "finite_difference_definition": "Centered h, h/2, h/4 plus (4*D(h/2)-D(h))/3 at two consecutive levels",
+    "second_order_truncation_contracts": true,
+    "right_rows_depend_only_on_right_endpoint": true,
+    "left_right_jacobian_offblock_max": 0.0
+  },
+  "maximum_relative_directional_error": 9.517693336564078e-10,
+  "maximum_second_order_relative_directional_error": 8.849219733664494e-06,
+  "maximum_fourth_order_relative_directional_error": 9.517693336564078e-10,
+  "verification_threshold": 5e-05,
+  "verification_estimator": "two fourth-order Richardson levels",
+  "second_order_truncation_contracts": true,
+  "implementation_check_passed": true,
+  "linear_reference_source": "Actual public worker ready.linearD; original linear stable graphs",
+  "physical_cut": {
+    "radius": 0.30000000000000004,
+    "backgroundSlope": 0.08000000000000027,
+    "backgroundSecond": -1.866666666666673,
+    "E": 1.0064,
+    "Ep": -0.2986666666666687,
+    "height": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "slope": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "second": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "meanSlope": 0.08000000000000027,
+    "meanSecond": -1.866666666666673,
+    "meanSlopeCorrection": 0,
+    "meanSecondCorrection": 0,
+    "minLeading": 1,
+    "minD": 1,
+    "endpointFullD": 0,
+    "endpointPhi": 0,
+    "formalCurvature": 1.8488889638984891
+  },
+  "source_sha256": "c216d2a857670fc859c5edb567d10336482d617c984e2ad00793d271104fd5f7",
+  "accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+  "prepared_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+  "nonlinear_DN_evaluated": false,
+  "nonlinear_finite_DN_J_evaluated": false,
+  "full_BVP_solved": false,
+  "full_Cartesian_closed_surface": false,
+  "lifted_modes_implementation": {
+    "scalar_schema": "complete-prefix-controls-independent-field-modes-v3",
+    "field_schema": "finite-rotating-phi-fourier-full-state-v1",
+    "source_prefix_M": 96,
+    "field_modes": 112,
+    "tail_modes": 112,
+    "angular_quadrature": 2048,
+    "original_accepted_source_relabelled": false,
+    "adapter_source_sha256": "c216d2a857670fc859c5edb567d10336482d617c984e2ad00793d271104fd5f7",
+    "profile_source_sha256": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "original_boundary_check_source_sha256": "38d21971b3b0d462f8cf1b8f0a1cd174a28db3dcba450e89d0d0baecc5e26e74",
+    "original_RHS_source_sha256": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T12:50:30.259390+00:00",
+  "source_commit": "7b66e4482374e9328c4c67c94d373bad1d5bfce1",
+  "run_id": "43596465579",
+  "run_attempt": "1",
+  "lane": "coupling112physicalqr",
+  "files": [
+    {
+      "source": "T112-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/T112-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "source": "boundary112-response/response-check.json",
+      "bytes": 38794,
+      "sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/boundary112-response/response-check.json",
+      "published_bytes": 38794,
+      "published_sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f"
+    },
+    {
+      "source": "full-DN112/RMS-domain-preflight.json",
+      "bytes": 1396,
+      "sha256": "cf90548c45cce1df4e9456313e7bcf152e3aee6abb24bcb142277856b03f4bf2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/RMS-domain-preflight.json",
+      "published_bytes": 1396,
+      "published_sha256": "cf90548c45cce1df4e9456313e7bcf152e3aee6abb24bcb142277856b03f4bf2"
+    },
+    {
+      "source": "full-DN112/driver-status.json",
+      "bytes": 88200,
+      "sha256": "ddfeccc8c0b628d2feda492060c928d926942ff83b2303638ce504add6e01d39",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/driver-status.json",
+      "published_bytes": 88200,
+      "published_sha256": "ddfeccc8c0b628d2feda492060c928d926942ff83b2303638ce504add6e01d39"
+    },
+    {
+      "source": "full-DN112/lifted-modes-intent.json",
+      "bytes": 6257,
+      "sha256": "3f0443b041918139bfaecdf88f3808dae7d1352650246426323644fca3191786",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/lifted-modes-intent.json",
+      "published_bytes": 6257,
+      "published_sha256": "3f0443b041918139bfaecdf88f3808dae7d1352650246426323644fca3191786"
+    },
+    {
+      "source": "full-DN112/outer-00-anchor-tail.json.gz",
+      "bytes": 6815,
+      "sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/outer-00-anchor-tail.json.gz",
+      "published_bytes": 6815,
+      "published_sha256": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51"
+    },
+    {
+      "source": "full-DN112/outer-00-newton-checkpoint.json.gz",
+      "bytes": 4201925,
+      "sha256": "a5cd199a5fe03dece86816ec1266eae9454d72446119e799c6bbb8db167933bc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/outer-00-newton-checkpoint.json.gz",
+      "published_bytes": 4201925,
+      "published_sha256": "a5cd199a5fe03dece86816ec1266eae9454d72446119e799c6bbb8db167933bc"
+    },
+    {
+      "source": "full-DN112/outer-00-pending.json.gz",
+      "bytes": 5959614,
+      "sha256": "7ba1741992af376396004a7c7143e95a23a114c094ce29c019e9f6e00d1f3f27",
+      "not_published": "Reproducible intermediate or exceeds single-file limit; retained as Actions artifact"
+    },
+    {
+      "source": "full-DN112/physical-test-intent.json",
+      "bytes": 3368,
+      "sha256": "ab8a1def0d6d04a4a0f3f5cdea4b99707fbcaeae7216cb917bf825205d8e3283",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/physical-test-intent.json",
+      "published_bytes": 3368,
+      "published_sha256": "ab8a1def0d6d04a4a0f3f5cdea4b99707fbcaeae7216cb917bf825205d8e3283"
+    },
+    {
+      "source": "full-DN112/prepared.json.gz",
+      "bytes": 4221544,
+      "sha256": "bcff7a6ace598d2d3f1e95d5e7cd113db9435753dbf424175e27db6dcb00b4aa",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/prepared.json.gz",
+      "published_bytes": 4221544,
+      "published_sha256": "bcff7a6ace598d2d3f1e95d5e7cd113db9435753dbf424175e27db6dcb00b4aa"
+    },
+    {
+      "source": "full-DN112/reduced-001.json",
+      "bytes": 8150,
+      "sha256": "75c95a020334243572f8d82686263ccc938448e13ad64ef9431ec7605290aa8b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/reduced-001.json",
+      "published_bytes": 8150,
+      "published_sha256": "75c95a020334243572f8d82686263ccc938448e13ad64ef9431ec7605290aa8b"
+    },
+    {
+      "source": "full-DN112/reduced-001.npz",
+      "bytes": 1244643,
+      "sha256": "53616b7c71c06d3c4927c345a8867604d2e8d55eda3fc144b462b7f4e1cfb906",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/reduced-001.npz",
+      "published_bytes": 1244643,
+      "published_sha256": "53616b7c71c06d3c4927c345a8867604d2e8d55eda3fc144b462b7f4e1cfb906"
+    },
+    {
+      "source": "full-DN112/true-tail_capacity.json",
+      "bytes": 2525,
+      "sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/true-tail_capacity.json",
+      "published_bytes": 2525,
+      "published_sha256": "4f0f7aaab43f8ed90c478c2983026671f4c17ddcbe25d494746a4dafc96210dc"
+    },
+    {
+      "source": "full-DN112/true-tail_imported-zero-uses.jsonl",
+      "bytes": 1092,
+      "sha256": "8270bc5e422e69fabe66ff0897245d568c4d61aa7ad5c745fe0ee95b08a4a693",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/true-tail_imported-zero-uses.jsonl",
+      "published_bytes": 1092,
+      "published_sha256": "8270bc5e422e69fabe66ff0897245d568c4d61aa7ad5c745fe0ee95b08a4a693"
+    },
+    {
+      "source": "full-DN112/true-tail_imported-zero.json",
+      "bytes": 23381,
+      "sha256": "ea6d12a971aa5a55b9df08b849a5e3c29e1d4727e7727573d1cc1688d29cb5f1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/true-tail_imported-zero.json",
+      "published_bytes": 23381,
+      "published_sha256": "ea6d12a971aa5a55b9df08b849a5e3c29e1d4727e7727573d1cc1688d29cb5f1"
+    },
+    {
+      "source": "full-DN112/true-tail_intent.json",
+      "bytes": 25236,
+      "sha256": "536810abbd367201edae94d3998daa31a041f0507195bd18ca7f7f23c50a7e45",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/true-tail_intent.json",
+      "published_bytes": 25236,
+      "published_sha256": "536810abbd367201edae94d3998daa31a041f0507195bd18ca7f7f23c50a7e45"
+    },
+    {
+      "source": "full-DN112/true-tail_ready.json.gz",
+      "bytes": 6854,
+      "sha256": "6587441079ddf8c8026e73d085fc2124ae5a76be0287a783e1ff77981af5a779",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/true-tail_ready.json.gz",
+      "published_bytes": 6854,
+      "published_sha256": "6587441079ddf8c8026e73d085fc2124ae5a76be0287a783e1ff77981af5a779"
+    },
+    {
+      "source": "full-DN112/true-tail_runtime-config.json",
+      "bytes": 2534,
+      "sha256": "44b5213ec127a599ad37609046e6c4dcda0163b68ac9fbf4e76e5d4c5464e227",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/true-tail_runtime-config.json",
+      "published_bytes": 2534,
+      "published_sha256": "44b5213ec127a599ad37609046e6c4dcda0163b68ac9fbf4e76e5d4c5464e227"
+    },
+    {
+      "source": "full-DN112/true-tail_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/true-tail_stderr.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "full-DN112/true-tail_trace.jsonl",
+      "bytes": 158,
+      "sha256": "1552b746710aea1dbae3e4301b6624770e788832f59cf18d458a6645503f8acd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112/true-tail_trace.jsonl",
+      "published_bytes": 158,
+      "published_sha256": "1552b746710aea1dbae3e4301b6624770e788832f59cf18d458a6645503f8acd"
+    },
+    {
+      "source": "full-DN112-tail-diagnostics.json.gz",
+      "bytes": 2815,
+      "sha256": "be4e85507115dc8d0e1ae808c070258185b359c1896b91337963e73bdf6a5115",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/full-DN112-tail-diagnostics.json.gz",
+      "published_bytes": 2815,
+      "published_sha256": "be4e85507115dc8d0e1ae808c070258185b359c1896b91337963e73bdf6a5115"
+    },
+    {
+      "source": "physical-response/physical-test-small-condition.json",
+      "bytes": 91267,
+      "sha256": "c56ed91730df575bdf7624a54729545f11bbb8ec1c6e83ed55cb3dbd67c2aec6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/physical-response/physical-test-small-condition.json",
+      "published_bytes": 91267,
+      "published_sha256": "c56ed91730df575bdf7624a54729545f11bbb8ec1c6e83ed55cb3dbd67c2aec6"
+    },
+    {
+      "source": "physical-response/physical-test-small-operators.json.gz",
+      "bytes": 483082,
+      "sha256": "e08f3f0ab43f204827e6c9880b841e595dc286f0fac649408378053add74b6ad",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/physical-response/physical-test-small-operators.json.gz",
+      "published_bytes": 483082,
+      "published_sha256": "e08f3f0ab43f204827e6c9880b841e595dc286f0fac649408378053add74b6ad"
+    },
+    {
+      "source": "physical-response/response-check.json",
+      "bytes": 37970,
+      "sha256": "1fe3b4d18f84c8294f53e4621091b60584d4147169b6d898422c092f29c3590f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/physical-response/response-check.json",
+      "published_bytes": 37970,
+      "published_sha256": "1fe3b4d18f84c8294f53e4621091b60584d4147169b6d898422c092f29c3590f"
+    },
+    {
+      "source": "preparation112/prepared.json.gz",
+      "bytes": 4220043,
+      "sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/preparation112/prepared.json.gz",
+      "published_bytes": 4220043,
+      "published_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "2af617d185bfe98437e7893b9dfd63ad5111408acb104c27ee6f4e42c21e6c07",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43596465579-1-coupling112physicalqr/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "2af617d185bfe98437e7893b9dfd63ad5111408acb104c27ee6f4e42c21e6c07"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43596465579"
+}
