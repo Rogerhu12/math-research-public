@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-f85bddc8c1ac7e30a6790818fb52596c88e193fff9312cd4f2bfe20b07549759.json.gz",
+  "original_bytes": 7538124,
+  "original_sha256": "f85bddc8c1ac7e30a6790818fb52596c88e193fff9312cd4f2bfe20b07549759",
+  "native_kind": "actual_missing_cached_midpoint_Taylor_same_w0_Hessian_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 1341,
+  "original_source_sha256": "ebaa3caaca274b36e816dc4c1797cf7367a3ce06d5eb1d8778879e24c0349c3e",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-complete-missing-midpoint-Taylor-Hessian.json.gz-f85bddc8c1ac7e30-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "6fce261db5d5d07039de093790c679086511305a168525d9cc01878a9b441de2",
+      "compressed_bytes": 1926454,
+      "compressed_sha256": "6dd6c81351887d05e88e42fa6e89ad99e9417241427d952d6b0279beb5f0b6f4"
+    },
+    {
+      "file": "native-complete-missing-midpoint-Taylor-Hessian.json.gz-f85bddc8c1ac7e30-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "45d2c92a885770a5089a77a20b448e5c249d2a64b5acf8767a696c8b7b3d2264",
+      "compressed_bytes": 1892202,
+      "compressed_sha256": "8302c891af0345eec231758a8349e631d67c0a07f557074abb7ac6acff670eee"
+    },
+    {
+      "file": "native-complete-missing-midpoint-Taylor-Hessian.json.gz-f85bddc8c1ac7e30-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "c67547e33a7800a078d92dfacda4f2c8e1617a430a12624e1accb3ace4e2e65f",
+      "compressed_bytes": 1891457,
+      "compressed_sha256": "6bfb262988e87ec8edc9732b493ce459bb798de45a683b1e0769a9ce10fa5d63"
+    },
+    {
+      "file": "native-complete-missing-midpoint-Taylor-Hessian.json.gz-f85bddc8c1ac7e30-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 1538124,
+      "sha256": "bba9c1c88ee9d97736d08b329c13ffb46855bcf0c79ce7f7f7c74e217c0eae2e",
+      "compressed_bytes": 1444300,
+      "compressed_sha256": "a7c234cd0bc50df07d95077bef3f89999177070a0154bf73c47c2ad9b5ea7dcf"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
