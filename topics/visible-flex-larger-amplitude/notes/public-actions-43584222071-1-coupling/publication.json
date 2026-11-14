@@ -1,0 +1,228 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T10:16:29.521744+00:00",
+  "source_commit": "a47c0f96b7a5843deb8d8ffea181beab6eb6696e",
+  "run_id": "43584222071",
+  "run_attempt": "1",
+  "lane": "coupling",
+  "files": [
+    {
+      "source": "T96-config-preparation.json",
+      "bytes": 750,
+      "sha256": "7931e9fad82b8ad6660fd59ae3323f109a6771bf5826d41a08c9b00f7730d28d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/T96-config-preparation.json",
+      "published_bytes": 750,
+      "published_sha256": "7931e9fad82b8ad6660fd59ae3323f109a6771bf5826d41a08c9b00f7730d28d"
+    },
+    {
+      "source": "T96-config.json",
+      "bytes": 2160,
+      "sha256": "456d55c7f4a6cf3df8788c465a67b0774e53fa2fdc26f0d385b0556666cd6f53",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/T96-config.json",
+      "published_bytes": 2160,
+      "published_sha256": "456d55c7f4a6cf3df8788c465a67b0774e53fa2fdc26f0d385b0556666cd6f53"
+    },
+    {
+      "source": "boundary-response/original-linear-graph-reference_capacity.json",
+      "bytes": 2519,
+      "sha256": "1b32fd3705957b05c2d4a77d1f9be9c78a7ec7361028ccd62dc888f3d2a0abb2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/boundary-response/original-linear-graph-reference_capacity.json",
+      "published_bytes": 2519,
+      "published_sha256": "1b32fd3705957b05c2d4a77d1f9be9c78a7ec7361028ccd62dc888f3d2a0abb2"
+    },
+    {
+      "source": "boundary-response/original-linear-graph-reference_intent.json",
+      "bytes": 25251,
+      "sha256": "152c53980406c1984f073e6531508eec77d6bd86df9727dfb62a867b37762f4d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/boundary-response/original-linear-graph-reference_intent.json",
+      "published_bytes": 25251,
+      "published_sha256": "152c53980406c1984f073e6531508eec77d6bd86df9727dfb62a867b37762f4d"
+    },
+    {
+      "source": "boundary-response/original-linear-graph-reference_ready.json.gz",
+      "bytes": 6678,
+      "sha256": "ee371a8a446862f5c13c17c5cd943153da262f944e3150b91995a396e24dab5d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/boundary-response/original-linear-graph-reference_ready.json.gz",
+      "published_bytes": 6678,
+      "published_sha256": "ee371a8a446862f5c13c17c5cd943153da262f944e3150b91995a396e24dab5d"
+    },
+    {
+      "source": "boundary-response/original-linear-graph-reference_runtime-config.json",
+      "bytes": 2581,
+      "sha256": "3388c9ad8fe3ced7e5e002659bfeb03053fcd29bdfb65a624accbe79a5a8cfac",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/boundary-response/original-linear-graph-reference_runtime-config.json",
+      "published_bytes": 2581,
+      "published_sha256": "3388c9ad8fe3ced7e5e002659bfeb03053fcd29bdfb65a624accbe79a5a8cfac"
+    },
+    {
+      "source": "boundary-response/original-linear-graph-reference_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/boundary-response/original-linear-graph-reference_stderr.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "boundary-response/original-linear-graph-reference_trace.jsonl",
+      "bytes": 158,
+      "sha256": "f5fb7c6bba3f83c5f43bd5e7ae40ea42be54a08b8efc2b0cf82dd25d751f8f4c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/boundary-response/original-linear-graph-reference_trace.jsonl",
+      "published_bytes": 158,
+      "published_sha256": "f5fb7c6bba3f83c5f43bd5e7ae40ea42be54a08b8efc2b0cf82dd25d751f8f4c"
+    },
+    {
+      "source": "boundary-response/response-check.json",
+      "bytes": 37605,
+      "sha256": "faf082d5a88704e00b33442a25394a39c5fefb30cced2aaa9ea752e4abc2d1f6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/boundary-response/response-check.json",
+      "published_bytes": 37605,
+      "published_sha256": "faf082d5a88704e00b33442a25394a39c5fefb30cced2aaa9ea752e4abc2d1f6"
+    },
+    {
+      "source": "full-DN/driver-status.json",
+      "bytes": 76500,
+      "sha256": "dc2d88ac60892d888c317ecce6185918e6fa4e0544887f8e3754bbe2dcdf8b63",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/driver-status.json",
+      "published_bytes": 76500,
+      "published_sha256": "dc2d88ac60892d888c317ecce6185918e6fa4e0544887f8e3754bbe2dcdf8b63"
+    },
+    {
+      "source": "full-DN/outer-00-anchor-tail.json.gz",
+      "bytes": 6194,
+      "sha256": "3abed02dd338534a21b58537ca3294c479a696de075be8ea29f04bbc82b515c3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/outer-00-anchor-tail.json.gz",
+      "published_bytes": 6194,
+      "published_sha256": "3abed02dd338534a21b58537ca3294c479a696de075be8ea29f04bbc82b515c3"
+    },
+    {
+      "source": "full-DN/outer-00-newton-checkpoint.json.gz",
+      "bytes": 3693342,
+      "sha256": "fff08fd56cb6e41c6b16562730d30e1223b65f549e1fb79a3c1dc605a74935e5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/outer-00-newton-checkpoint.json.gz",
+      "published_bytes": 3693342,
+      "published_sha256": "fff08fd56cb6e41c6b16562730d30e1223b65f549e1fb79a3c1dc605a74935e5"
+    },
+    {
+      "source": "full-DN/outer-00-pending.json.gz",
+      "bytes": 4794967,
+      "sha256": "6064b03df181e425350b6923788ab10cf2d94588a8e97157849007d4cfb9f245",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/outer-00-pending.json.gz",
+      "published_bytes": 4794967,
+      "published_sha256": "6064b03df181e425350b6923788ab10cf2d94588a8e97157849007d4cfb9f245"
+    },
+    {
+      "source": "full-DN/prepared.json.gz",
+      "bytes": 3710417,
+      "sha256": "136ae9e2b0c30700224ea773fe51aa980313ea00436978d41d556e2a5f152225",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/prepared.json.gz",
+      "published_bytes": 3710417,
+      "published_sha256": "136ae9e2b0c30700224ea773fe51aa980313ea00436978d41d556e2a5f152225"
+    },
+    {
+      "source": "full-DN/true-tail_capacity.json",
+      "bytes": 2519,
+      "sha256": "1b32fd3705957b05c2d4a77d1f9be9c78a7ec7361028ccd62dc888f3d2a0abb2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/true-tail_capacity.json",
+      "published_bytes": 2519,
+      "published_sha256": "1b32fd3705957b05c2d4a77d1f9be9c78a7ec7361028ccd62dc888f3d2a0abb2"
+    },
+    {
+      "source": "full-DN/true-tail_imported-zero-uses.jsonl",
+      "bytes": 996,
+      "sha256": "d838e9ad2acacfa6f0442b7c4236cad0874f265733180b1439d204acbb036c55",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/true-tail_imported-zero-uses.jsonl",
+      "published_bytes": 996,
+      "published_sha256": "d838e9ad2acacfa6f0442b7c4236cad0874f265733180b1439d204acbb036c55"
+    },
+    {
+      "source": "full-DN/true-tail_imported-zero.json",
+      "bytes": 23331,
+      "sha256": "a8310746d6b9b1542b7f3d45097dd1ba3de4756c89139d48ea4e4176f3f05cfb",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/true-tail_imported-zero.json",
+      "published_bytes": 23331,
+      "published_sha256": "a8310746d6b9b1542b7f3d45097dd1ba3de4756c89139d48ea4e4176f3f05cfb"
+    },
+    {
+      "source": "full-DN/true-tail_intent.json",
+      "bytes": 25219,
+      "sha256": "b1383fe68f3aa733423e4fc4921d890399e7102d3673644e5139bd9365237b99",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/true-tail_intent.json",
+      "published_bytes": 25219,
+      "published_sha256": "b1383fe68f3aa733423e4fc4921d890399e7102d3673644e5139bd9365237b99"
+    },
+    {
+      "source": "full-DN/true-tail_ready.json.gz",
+      "bytes": 6661,
+      "sha256": "12c80504f227b49696680ba31785027678fdfe744cd74eb3c36d6d6d7d81c0c1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/true-tail_ready.json.gz",
+      "published_bytes": 6661,
+      "published_sha256": "12c80504f227b49696680ba31785027678fdfe744cd74eb3c36d6d6d7d81c0c1"
+    },
+    {
+      "source": "full-DN/true-tail_runtime-config.json",
+      "bytes": 2485,
+      "sha256": "a2371cc1e1ac85b8fc26d3b00ba0eef706b1e44f080fbb75598c6f0d2042ce32",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/true-tail_runtime-config.json",
+      "published_bytes": 2485,
+      "published_sha256": "a2371cc1e1ac85b8fc26d3b00ba0eef706b1e44f080fbb75598c6f0d2042ce32"
+    },
+    {
+      "source": "full-DN/true-tail_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/true-tail_stderr.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "full-DN/true-tail_trace.jsonl",
+      "bytes": 158,
+      "sha256": "e0a71ca4b7c17d6bcd4835aae7d69238c2b576cd603b25735f9dcd94c6301030",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN/true-tail_trace.jsonl",
+      "published_bytes": 158,
+      "published_sha256": "e0a71ca4b7c17d6bcd4835aae7d69238c2b576cd603b25735f9dcd94c6301030"
+    },
+    {
+      "source": "full-DN-tail-diagnostics.json.gz",
+      "bytes": 2793,
+      "sha256": "1e86a58d92851e4e30a2b3145847102a9a6efbf407da624fbf3c7d0a3f513dfc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/full-DN-tail-diagnostics.json.gz",
+      "published_bytes": 2793,
+      "published_sha256": "1e86a58d92851e4e30a2b3145847102a9a6efbf407da624fbf3c7d0a3f513dfc"
+    },
+    {
+      "source": "preparation/prepared.json.gz",
+      "bytes": 3710347,
+      "sha256": "c7641c5f72b4afaddc259fc2cca36b0d554b6d62372d22f3334dd375308145a0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/preparation/prepared.json.gz",
+      "published_bytes": 3710347,
+      "published_sha256": "c7641c5f72b4afaddc259fc2cca36b0d554b6d62372d22f3334dd375308145a0"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "5b8c0cbe7bb48f7139f78a55c0f9fd0f9bf2745429e7225401508b0e4d49cf8a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "5b8c0cbe7bb48f7139f78a55c0f9fd0f9bf2745429e7225401508b0e4d49cf8a"
+    },
+    {
+      "source": "scalar-RHS-response.json",
+      "bytes": 76607,
+      "sha256": "88b9285fe92ddf204cb020f21cc4fab54f97a0064e44e2ccafbe3c9e54ce365a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/scalar-RHS-response.json",
+      "published_bytes": 76607,
+      "published_sha256": "88b9285fe92ddf204cb020f21cc4fab54f97a0064e44e2ccafbe3c9e54ce365a"
+    },
+    {
+      "source": "zero-height-J-audit.json",
+      "bytes": 12175,
+      "sha256": "6399790a1d1565102767e4a3b6b418915082e309f4c2e0195395b613f9cd6c35",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43584222071-1-coupling/zero-height-J-audit.json",
+      "published_bytes": 12175,
+      "published_sha256": "6399790a1d1565102767e4a3b6b418915082e309f4c2e0195395b613f9cd6c35"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43584222071"
+}
