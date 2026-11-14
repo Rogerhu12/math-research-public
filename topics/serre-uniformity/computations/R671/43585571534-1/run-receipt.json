@@ -1,0 +1,176 @@
+{
+  "result": "R671",
+  "disk_id": "SS_j9_10",
+  "complete": true,
+  "exit_code": 0,
+  "error": null,
+  "stages": [
+    {
+      "stage": "resume_original_moved_stages",
+      "command": [
+        "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+        "-u",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts/p41_recover_R470_moved_j9_ss47.py",
+        "--script-dir",
+        "/home/runner/work/math-research-public/math-research-public/topics/serre-uniformity/scripts",
+        "--work-dir",
+        "/home/runner/work/_temp/serre-p41-nonelliptic/R671/work/f2",
+        "--output",
+        "/home/runner/work/_temp/serre-p41-nonelliptic/R671/output",
+        "--disk-id",
+        "SS_j9_10",
+        "--result-id",
+        "R671",
+        "--budget-minutes",
+        "320"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "F2_files": [
+    {
+      "file": "R470_recovery_checkpoint47.json",
+      "bytes": 22532,
+      "sha256": "2a3762c7912668f220dc6eedf7a53856d1e5469bc8232700028f31e05276a240"
+    },
+    {
+      "file": "SS_j9_10-moved-principal-Norm-independent-audit.json",
+      "bytes": 10783,
+      "sha256": "c4e2e3f0310c2a0d0d89700cadff403a9c423e4f3b377d53da669a8006441cf9"
+    },
+    {
+      "file": "SS_j9_10-principal-F2-independent-audit.json",
+      "bytes": 11797,
+      "sha256": "99adff74f0b200326fd8cde1fb12c7817a862a21255ea907bc97e654a9f497d8"
+    },
+    {
+      "file": "SS_j9_10_actual_F2_first_variable_norm47.json.gz",
+      "bytes": 281317,
+      "sha256": "59cc53d374e2b6cb22ba3e5c35051b90209d9915acf6a21d4ab1ed489d5fa1b6"
+    },
+    {
+      "file": "SS_j9_10_actual_F2_first_variable_norm47_finite_checkpoint.json.gz",
+      "bytes": 91456,
+      "sha256": "751d32e679f68a5ff63676ede78a6975c2218d81c9284de887ee9b2c44cfe82e"
+    },
+    {
+      "file": "SS_j9_10_actual_F2_first_variable_norm47_full106_checkpoint.json.gz",
+      "bytes": 189548,
+      "sha256": "4fb575c79d0495cecea4710418cb6edbdb262980603729e4824b26d32e48258d"
+    },
+    {
+      "file": "SS_j9_10_actual_T2_principal_norm47.json.gz",
+      "bytes": 23871,
+      "sha256": "2b9526b6a7a2aa1a93f4da09c5057b89bbfaece520d425c9782ca98c32ee6ef8"
+    },
+    {
+      "file": "SS_j9_10_actual_T2_support47.json.gz",
+      "bytes": 34910,
+      "sha256": "f545d5eb19af106f1257618b91e13da2f4b92551c6211d3f8d3c29651a0179c1"
+    },
+    {
+      "file": "SS_j9_10_actual_canonical_F2_height47.json.gz",
+      "bytes": 55767,
+      "sha256": "3b55109d07695dfdc94ffc587c8aa01847a73bdf3bcd2d22289e4105952c4c33"
+    },
+    {
+      "file": "SS_j9_10_actual_canonical_F2_polynomial47.json.gz",
+      "bytes": 32933,
+      "sha256": "b95b02f3e5736d99778bf819cc64098fa3c40e3b8b6c58c657217798503c205d"
+    },
+    {
+      "file": "SS_j9_10_actual_second_kind_integrals47.json.gz",
+      "bytes": 596229,
+      "sha256": "536740b4d937beeb0e0b2d83f7f0b0a4033b0a7e0046ff482b04bc43e52b760a"
+    },
+    {
+      "file": "SS_j9_10_principal_expression47.json.gz",
+      "bytes": 38856,
+      "sha256": "608f306db9572a77203adecdc3d44b8e0bcc866df2816ffae8e29b519a453c3c"
+    },
+    {
+      "file": "actual_F2_center.log",
+      "bytes": 1818,
+      "sha256": "4cf1d11c2324a5d97c93ceaaa07faecc616e853464b6690f763d4b3a569d1e89"
+    },
+    {
+      "file": "actual_F2_disk.log",
+      "bytes": 539,
+      "sha256": "8841fbd8c89f0bf04a843508e4cfb9115b6a887faf5c30b68527e18e94ea1e61"
+    },
+    {
+      "file": "actual_full_F2_Norm.log",
+      "bytes": 1382,
+      "sha256": "6ed70fb21b52bd09cca189d62cd0ef2f8089b4dac86501b7e7e71df8a428667f"
+    },
+    {
+      "file": "actual_moved_chain.log",
+      "bytes": 37557,
+      "sha256": "12df9d386311018e65161bd794c5e9cd709ef24340000cdf1d8de6871464e80c"
+    },
+    {
+      "file": "actual_terminal_and_nu.log",
+      "bytes": 471,
+      "sha256": "b81adcdc3141ac39c34e33bd2d2b7e94bcc2050dd4fff68d8de06784cd4ba65c"
+    },
+    {
+      "file": "actual_three_T2_branches.log",
+      "bytes": 378,
+      "sha256": "4db0e3ab4e82de26cfbf5bd04e327b24092dd7727204441ece24b476d7080ba4"
+    },
+    {
+      "file": "actual_three_branch_Norm.log",
+      "bytes": 269,
+      "sha256": "314c816335990a97e30865010372abea151380b00535b78453f24bdd4fe7bafe"
+    },
+    {
+      "file": "chain/SS_j9_10_Abel47.json.gz",
+      "bytes": 443060,
+      "sha256": "5926b4f1c1bc1689041733e8318c2cbe85447a3bae0252651d0e77aee93c4104"
+    },
+    {
+      "file": "chain/SS_j9_10_multiply47.json.gz",
+      "bytes": 376888,
+      "sha256": "c9dd2c891e4c8261c9148606f5b0aec48508d1f5891c316d3e3fe0f941da779b"
+    },
+    {
+      "file": "complete_actual_F2_certificate.log",
+      "bytes": 148,
+      "sha256": "a703d97fe9bfd878c6d58a1b25b9a8fb56296de305e859de81ea0753b6fcd3af"
+    },
+    {
+      "file": "complete_moved_principal_certificate.log",
+      "bytes": 126,
+      "sha256": "3c1054c453e8d00923da506a205e010f71563b7aebe59cc8aba31aa5ce44af76"
+    },
+    {
+      "file": "integer_principal_SLP.log",
+      "bytes": 177,
+      "sha256": "0cae616ce040955f8b43689a79884c67faa7ebe416b25dd3b6a96ed15adb5167"
+    },
+    {
+      "file": "p41_SS_j9_10_principal_transports47.tar.gz",
+      "bytes": 1783341,
+      "sha256": "9d6d583ce39734aabba84d2994e37c4846d1a319d18df44f5e613c4efc41431e"
+    },
+    {
+      "file": "p41_j9_remaining16_moved_based_points_block0247.json.gz",
+      "bytes": 2487719,
+      "sha256": "b3d0133fa0399170ba496ad02c382f12fcf39f8d13177f74a3974bb29711a623"
+    },
+    {
+      "file": "p41_j9_remaining16_moving_independent_audit_block0247.json",
+      "bytes": 4969,
+      "sha256": "bcd9a2e4e6bbc2e0bf62faf3ca06c484881278830769386403ba6c971f30c880"
+    }
+  ],
+  "F3_files": [],
+  "source_commit": "3ab54daede04e8d200784331f3753b26f7604771",
+  "execution_environment": "public-repository-github-actions",
+  "original_chain_repeated": false,
+  "prior_run": 43583417198,
+  "workflow_run_id": "43585571534",
+  "finished_at_utc": "2026-11-14T10:31:17.758436+00:00",
+  "F2_residual_roots": [],
+  "F2_entire_disk_excluded": true
+}
