@@ -1,0 +1,117 @@
+{
+  "kind": "actual_original_cap_artifacts_inspected_without_recomputation",
+  "original_run_id": 43580498603,
+  "artifacts": [
+    {
+      "artifact_id": 14108079844,
+      "native_sha256": "8633c6aec45a1fc3c3b90a0ac9d8b2eabfe171a3682c8b86903223e42adf4eb7",
+      "native_bytes": 1440796,
+      "process_sha256": "edfaf4eaa7b073c7bb89d8584c24a319c296251fca7db1be71001272ca7f626c",
+      "first": 1024,
+      "end": 1280,
+      "rows": 256,
+      "selected_cells_complete": true,
+      "whole_cap_complete": false,
+      "native_failure": null,
+      "wrapper_failure": {
+        "type": "RuntimeError",
+        "message": "new repository rules detected; preserve native prefix for the active researcher"
+      },
+      "wrapper_publication_failure": "actual git pull failed",
+      "children": [
+        {
+          "label": "complete_original_continuous_cells",
+          "actual_returncode": 0,
+          "finished_utc": "2026-11-14T09:45:39.125572+00:00"
+        }
+      ],
+      "same_scientific_identity": true,
+      "indices_exact": true,
+      "radial_continuity": true
+    },
+    {
+      "artifact_id": 14108088199,
+      "native_sha256": "c4f1f178c079d42d1c891352530485a0ae5c667335b9558c46abceb38244950e",
+      "native_bytes": 1447868,
+      "process_sha256": "a22b6d83eeec79c7e89dffe1c0c24f92c2fa1d04b82ab690dcb9242090830579",
+      "first": 1536,
+      "end": 1792,
+      "rows": 256,
+      "selected_cells_complete": true,
+      "whole_cap_complete": false,
+      "native_failure": null,
+      "wrapper_failure": {
+        "type": "RuntimeError",
+        "message": "new repository rules detected; preserve native prefix for the active researcher"
+      },
+      "wrapper_publication_failure": "actual git pull failed",
+      "children": [
+        {
+          "label": "complete_original_continuous_cells",
+          "actual_returncode": 0,
+          "finished_utc": "2026-11-14T09:46:14.857028+00:00"
+        }
+      ],
+      "same_scientific_identity": true,
+      "indices_exact": true,
+      "radial_continuity": true
+    },
+    {
+      "artifact_id": 14108612718,
+      "native_sha256": "8eddcb6bb66708908402297c2320c601e3dbf65d0251265a8f50614ef32a0665",
+      "native_bytes": 1439069,
+      "process_sha256": "1d7ff427e652c4de1c6db15aea2feede0302e3e6278cf6061df8772e1a08fd5d",
+      "first": 768,
+      "end": 1024,
+      "rows": 256,
+      "selected_cells_complete": true,
+      "whole_cap_complete": false,
+      "native_failure": null,
+      "wrapper_failure": {
+        "type": "RuntimeError",
+        "message": "new repository rules detected; preserve native prefix for the active researcher"
+      },
+      "wrapper_publication_failure": "actual git pull failed",
+      "children": [
+        {
+          "label": "complete_original_continuous_cells",
+          "actual_returncode": 0,
+          "finished_utc": "2026-11-14T09:48:04.758306+00:00"
+        }
+      ],
+      "same_scientific_identity": true,
+      "indices_exact": true,
+      "radial_continuity": true
+    },
+    {
+      "artifact_id": 14109165742,
+      "native_sha256": "55cdc364f8022ae8db62785bb4b4a870b00201c34873f51a00a187683f476ef8",
+      "native_bytes": 1443260,
+      "process_sha256": "9a990e7294302d809ed83d112f0ca20a3a6a3952b7e63f3ec413f5410951d0b0",
+      "first": 1280,
+      "end": 1536,
+      "rows": 256,
+      "selected_cells_complete": true,
+      "whole_cap_complete": false,
+      "native_failure": null,
+      "wrapper_failure": {
+        "type": "RuntimeError",
+        "message": "new repository rules detected; preserve native prefix for the active researcher"
+      },
+      "wrapper_publication_failure": "actual git pull failed",
+      "children": [
+        {
+          "label": "complete_original_continuous_cells",
+          "actual_returncode": 0,
+          "finished_utc": "2026-11-14T09:49:57.374433+00:00"
+        }
+      ],
+      "same_scientific_identity": true,
+      "indices_exact": true,
+      "radial_continuity": true
+    }
+  ],
+  "complete_rows_recovered": 1024,
+  "original_whole_cap_not_yet_complete": true,
+  "large_prepared_artifact_not_downloaded_locally": true
+}

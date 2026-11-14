@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：68c198bd7ae691f3c8e16c3807d194b7804266e0；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：f37ef996b8154ef2e852b913c96850727b27b7d5；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
@@ -20,7 +20,7 @@
 - 六步重构最终中心仍在 `replay-final-20261114/stage06`，含原五片及 restored-original；不用再次求解相同中心。
 - 径向 geometry 已实际完成141/141块、8966/8966格，源3347e061…未变，最后真实return0；完整tensor亦return0，源fd5fce9d…。全区间[0,25/8]/全部连续角合并范围严格η0。原gzip SHA c7685928…/84cd78f5…由108→141字节精确增量保存；实际腰eQ<.000101951532739、eF<.000220349475735，后续消费真实腰规范费用而不再等待积分。
 - phase 旧请求已正常结束127/169，原127检查点已经公开。公开Actions #43580721166用同一producer补余42；完整scalar169不等于完整transport，后者完成后须继续真conjugacy/全ν-Schur。
-- cap128 与全部97 moving输入预合成大数组仍在 `physical-cap-DN-padded128-refined16-20261114` / `physical-cap-precompose-20261114`。原 v3 范围[0,256)、[256,512)实际exit0，cell512亦完成；[513,768)真实−9后由同数学packed_v5继续，已到索引676且仍写。[768,1024)保21片前缀。旧失败不改成成功，下一新计算优先未覆盖范围，使用本仓库Actions。
+- cap128 原0..768四份真实return0现已完整保存并逐有理接点去重；公开43580498603的四段768..1792数学child也真实return0，失败发生在README变更后的发布步骤，原artifact已取回逐SHA/逐行核验。仅1792..1977的185格未算。新的恢复workflow直接消费原prepare artifact与四原native，不重建矩阵或重跑成功行。
 
 ## 当前分工及真正未完成项
 

@@ -1,0 +1,43 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_cap_matrix_residual_packed_v5.py",
+    "--candidate",
+    "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+    "--proposal",
+    "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114.json",
+    "--first",
+    "513",
+    "--count",
+    "255",
+    "--resume",
+    "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/continuous-v4-part002-after-profile-native.json.gz",
+    "--out",
+    "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/continuous-packed-v5-part002-resume91-native.json.gz"
+  ],
+  "cwd": "/workspace/scratch/ac0d699811ad/math-research-public/topics/visible-flex-exact-nearby",
+  "source_sha256": "953227cd8871a71ee0c5b9e7ed8a53c3099b1890eadfde3936d9de06067e455a",
+  "started_utc": "2026-11-14T08:56:45.152572+00:00",
+  "state": "finished",
+  "address_space_MiB": 1792,
+  "original_process_returncode": -9,
+  "original_saved_range": [
+    513,
+    604
+  ],
+  "original_declared_range": [
+    513,
+    768
+  ],
+  "consumed_prefix": {
+    "path": "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/continuous-v4-part002-after-profile-native.json.gz",
+    "sha256": "11204689bcbd84eafd155e7b15fb027fda05e1884f65ec5cc9c2ebe36002908d"
+  },
+  "new_packed_transform_kind": true,
+  "actual_returncode": 0,
+  "wall_seconds": 1888.5620472269984,
+  "maximum_child_RSS_KiB": 385684,
+  "finished_utc": "2026-11-14T09:28:13.724313+00:00",
+  "native_sha256": "36d8846a573ad4802245981c3cf933ab9e723bab0786a95b3c3989b093463fd5"
+}

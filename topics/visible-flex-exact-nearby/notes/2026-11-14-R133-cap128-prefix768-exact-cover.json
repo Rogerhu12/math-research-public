@@ -1,0 +1,134 @@
+{
+  "kind": "actual_same_object_first768_cap_exact_cover",
+  "complete_selected_cover": true,
+  "complete_whole1977_cap": false,
+  "checked_original_indices": [
+    0,
+    768
+  ],
+  "checked_rows": 768,
+  "whole_cap_cell_count": 1977,
+  "exact_radial_covered_interval": [
+    "9/10",
+    "286601144255265/281474976710656"
+  ],
+  "each_index_once": true,
+  "all_adjacent_exact_radial_endpoints_equal": true,
+  "all_original_processes_normal_zero": true,
+  "common_identity_after_proved_producer_equivalence": {
+    "base_candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "derived_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "proposal_sha256": "b9819522aceed06b73628d84b8bb80dbcc5b734971c6b3c20544e9876c23d78a",
+    "original_case": "fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536",
+    "exact_physical_inlet_matrix_sha256": "119dedb2e62f23553b81dea9eb787d8298c1224eebc2cc38790ec50274df0ca7",
+    "complete_input_basis": "1,sqrt(2)*cos(4*j*phi), j=1,...,96; normalized circle L2",
+    "physical_modes": 128,
+    "moving_even_input_columns": 97,
+    "full_matrix_inputs": {
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/state.npy": "007cb7045db455c2c9a3872b37db91933a676c164b52b81c940929c12648af31",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/derivative-left.npy": "d292fb049c3cc004f8ab711d5abff93f37e07c25b930d93167ad733d01791197",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/matrix-RHS/derivative-right.npy": "b4692b336b1961fe058a9882b8c093722f724fcbdda40776e8d34c99d11026fd",
+      "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114/fbf8b52269dd4a533ab79677ea9e13390b4b1ecc3ff286b73b9f9b2002708536/physical-endpoint-graph.npz": "8dd63545e8aea4f1add1fe1ffdc094308d510f80f9c031d0cc06157dee89da78"
+    },
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "cap_green_sha256": "35db98d4124d50ef3bd69f3ec3aa6906289e3f6083c3ba91c8197da7547830ff",
+    "q_vector_sha256": "8f2471f709d5350212c3bb12a2e180fef37cbd8ced72e7ed858d6687b5fa36d9",
+    "q_native_sha256": "2f2469091ae6893b56f869fc7753ed015cf9d7ebf2171ccd8c5a580dd770d4d2",
+    "full_reference_cap_sha256": "ad6efc2a226131245ff4197a0b5da2843578224368a340f7a50d383c03a1819b",
+    "parameter_half_width": "1/1000000000",
+    "analytic_width": "1/16",
+    "angles": 512,
+    "cutoff": 127,
+    "subdivide": 1,
+    "complete_original_cell_count": 1977,
+    "source_sha256": "953227cd8871a71ee0c5b9e7ed8a53c3099b1890eadfde3936d9de06067e455a",
+    "dependencies": {
+      "fourfold_codazzi_physical_cap_coefficient_jets.py": "a3d6b664703f217ffde8a9bc9b442314836badef9e33705839d1d20249dc7c89",
+      "fourfold_codazzi_reciprocal_continuous_residual_v3.py": "34e3d8db08c7eaf6ad38899705cadacaee65f687a78f64f508a6e0b944f41500",
+      "fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "fourfold_phase_root_interval.py": "07cde6d560bd2681b69bc4a4487178276a21bda8fd3e0a56cdd43800ddd0f840",
+      "fourfold_codazzi_physical_cap_precompose_moving_head.py": "c961749b3edfab663f35422f5efdef0f76b745899e6ca56b96c8d82ca17d62c1",
+      "fourfold_codazzi_physical_cap_DN_refined_proposal.py": "d82119aa5c5d5b74113c1b344b6b24702139118d35ac4717a2579e7bf5d0795c"
+    }
+  },
+  "original_producer_kinds_and_hashes_retained": true,
+  "same_row_identity_rule": "packed_v5 same_row_identity; only recognized v3/v4 producer source is replaced for comparison, no native field is changed",
+  "equivalence_proof": "results/R133-supplement-packed-cap-Fourier-residual-and-prefix-continuation.md",
+  "mathematical_rows_recomputed": 0,
+  "parts": [
+    {
+      "indices": [
+        0,
+        256
+      ],
+      "rows": 256,
+      "original_kind": "complete_repaired_physical128_cap_moving96_inlet_residual_v3",
+      "original_source_sha256": "9f80d0cb4a54db0e90921e35a8e79e610d2a7ba04f7f2fe46c91093fe436ecf7",
+      "original_native_complete": false,
+      "original_selected_cells_complete": true,
+      "original_actual_returncode": 0,
+      "native": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-0-256-v3-native.json.gz",
+      "native_sha256": "5e6fde38e48982919e6d95e936a264e5860f4c0b893e8a9ab969a3c1e5bcc816",
+      "process": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-0-256-v3-process.json",
+      "process_sha256": "67bda7af77705a6f0f24c218ade7257d04912ccfe05eb884a0a732c606cff82b"
+    },
+    {
+      "indices": [
+        256,
+        512
+      ],
+      "rows": 256,
+      "original_kind": "complete_repaired_physical128_cap_moving96_inlet_residual_v3",
+      "original_source_sha256": "9f80d0cb4a54db0e90921e35a8e79e610d2a7ba04f7f2fe46c91093fe436ecf7",
+      "original_native_complete": false,
+      "original_selected_cells_complete": true,
+      "original_actual_returncode": 0,
+      "native": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-256-512-v3-native.json.gz",
+      "native_sha256": "bb9ad75528f65b5a7803603ac25a02364fca96d975289d9339dd8325c19d12ad",
+      "process": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-256-512-v3-process.json",
+      "process_sha256": "338c7aa0b3abe427624861ab1418339534adff47b4496bfd039190712b23f4e5"
+    },
+    {
+      "indices": [
+        512,
+        513
+      ],
+      "rows": 1,
+      "original_kind": "complete_repaired_physical128_cap_moving96_inlet_residual_v4",
+      "original_source_sha256": "28cbc02bfe60d91e608728437f2c5dd2906c56aa3a892f5a2fffbaafe72c6046",
+      "original_native_complete": false,
+      "original_selected_cells_complete": true,
+      "original_actual_returncode": 0,
+      "native": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-512-513-v4-native.json.gz",
+      "native_sha256": "4cf5fbb4328a25489967d9c1ead0999c356eff688f1f16360ee5eea83ab0c9f2",
+      "process": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-512-513-v4-process.json",
+      "process_sha256": "f8846208696e7cd3b63da23a61af779fc708ecb6c6d27095b6bba4d84abb81d5"
+    },
+    {
+      "indices": [
+        513,
+        768
+      ],
+      "rows": 255,
+      "original_kind": "complete_repaired_physical128_cap_moving96_inlet_residual_packed_v5",
+      "original_source_sha256": "953227cd8871a71ee0c5b9e7ed8a53c3099b1890eadfde3936d9de06067e455a",
+      "original_native_complete": false,
+      "original_selected_cells_complete": true,
+      "original_actual_returncode": 0,
+      "native": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-513-768-packed-v5-native.json.gz",
+      "native_sha256": "36d8846a573ad4802245981c3cf933ab9e723bab0786a95b3c3989b093463fd5",
+      "process": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-513-768-packed-v5-process.json",
+      "process_sha256": "a3a7979837213d2d3a843869ecec972f6ddc681f1b7ffdbcff5b79c98120a35c"
+    }
+  ],
+  "files": {
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-0-256-v3-native.json.gz": "5e6fde38e48982919e6d95e936a264e5860f4c0b893e8a9ab969a3c1e5bcc816",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-0-256-v3-process.json": "67bda7af77705a6f0f24c218ade7257d04912ccfe05eb884a0a732c606cff82b",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-256-512-v3-native.json.gz": "bb9ad75528f65b5a7803603ac25a02364fca96d975289d9339dd8325c19d12ad",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-256-512-v3-process.json": "338c7aa0b3abe427624861ab1418339534adff47b4496bfd039190712b23f4e5",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-512-513-v4-native.json.gz": "4cf5fbb4328a25489967d9c1ead0999c356eff688f1f16360ee5eea83ab0c9f2",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-512-513-v4-process.json": "f8846208696e7cd3b63da23a61af779fc708ecb6c6d27095b6bba4d84abb81d5",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-513-768-packed-v5-native.json.gz": "36d8846a573ad4802245981c3cf933ab9e723bab0786a95b3c3989b093463fd5",
+    "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cap128-continuous-513-768-packed-v5-process.json": "a3a7979837213d2d3a843869ecec972f6ddc681f1b7ffdbcff5b79c98120a35c"
+  }
+}
