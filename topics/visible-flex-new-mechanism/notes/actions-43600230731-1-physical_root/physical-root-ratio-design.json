@@ -1,0 +1,1844 @@
+{
+  "schema": "physical-C-root-ratio-design-v1",
+  "source_sha256": "6fa9ce44bfe28cbafc1156c7c69227513fb6c5a480899b6b802dcfe27135f37f",
+  "input_sha256": "d274bc6336637d25d926ac07d4cd537b46fdd360e0d1c12fea65f9a5a31c50dd",
+  "arguments": {
+    "input": "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-new-mechanism/notes/actions-43591099281-1-closed_design/nine-coefficients-closed-design.json",
+    "out": "/home/runner/work/_temp/visible-new-mechanism/physical_root/physical-root-ratio-design.json",
+    "q": [
+      2
+    ],
+    "sides": [
+      "positive",
+      "negative"
+    ],
+    "parameter_state": "initial",
+    "modes": 12,
+    "theta_n": 768,
+    "validation_n": [
+      768,
+      1536,
+      3072
+    ],
+    "guard_angles": 192,
+    "max_nfev": 180,
+    "target_ratio": -1.75,
+    "derivative_floor": 0.1,
+    "physical_gap": 0.01,
+    "logh_bound": 1.0,
+    "speed_floor": 0.08,
+    "xi_bound": 4.0,
+    "developer_check": false
+  },
+  "designs": [
+    {
+      "q": 2,
+      "side": "positive",
+      "skipped": false,
+      "source_report_sha256": "d274bc6336637d25d926ac07d4cd537b46fdd360e0d1c12fea65f9a5a31c50dd",
+      "source_design_index": 1,
+      "source_parameter_state": "initial",
+      "initial_parameters": [
+        -0.10536051565782632,
+        0.6666666666666666,
+        -0.1111111111111111,
+        0.024691358024691332,
+        1.2,
+        4.625929269271486e-17,
+        1.850371707708594e-17,
+        3.700743415417188e-17,
+        1.850371707708594e-17,
+        0.016321053330695872,
+        3.700743415417188e-17,
+        0.0056421235503429715,
+        3.469446951953614e-17,
+        0.0010402452182409567,
+        9.830099697201906e-17,
+        2.7466455036299447e-17
+      ],
+      "final_parameters": [
+        -0.19392675199416312,
+        0.4875769840942301,
+        0.012702970619427276,
+        0.20971851222609716,
+        1.567034200601494,
+        0.0281336002009676,
+        0.09430478437752565,
+        -0.33512155718131803,
+        -0.1656425406053048,
+        0.021009430691867136,
+        0.05971142888675403,
+        0.24597880237888864,
+        -0.04182579173920919,
+        -0.19112092458339153,
+        0.06015957459772182,
+        0.03922774715520335
+      ],
+      "initial_root": {
+        "xi": 16.626281887146078,
+        "C": -4.656612873077393e-10,
+        "C_prime": -69132.23346517046,
+        "C_second": -5637.835970381388,
+        "W": -54840.018499432714,
+        "W_prime": -2994.37892665843,
+        "W_over_C_prime": 0.793262646823955,
+        "R26_exponent": null,
+        "R26_jet": [
+          1.0,
+          0.05346815652864908,
+          -0.00011243141676402152,
+          1.3101770967707578e-05
+        ],
+        "R26_K": -2.3427574138355807,
+        "root_and_nonzero_jet_certified": false,
+        "R26_L_quadratic_coefficient": 0.4528773446733763,
+        "side_by_validation_samples": "positive",
+        "denominator_min_sample": 11.861646401384762,
+        "denominator_max_sample": 43.9141431809403,
+        "continuous_physical_half_line_certified": false
+      },
+      "frozen_final_xi": 37.580846563248784,
+      "parameter_order": [
+        "rho0",
+        "rho1",
+        "rho2",
+        "rho3",
+        "b",
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12"
+      ],
+      "design_variable_last": "xi divided by the frozen xi scale",
+      "bounds_lower": [
+        -1.2,
+        0.05,
+        -0.8,
+        -0.7,
+        0.76,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        1e-05
+      ],
+      "bounds_upper": [
+        1.2,
+        1.8,
+        0.8,
+        0.7,
+        2.1,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        4.0
+      ],
+      "frozen_xi_scale": 32.05249677955554,
+      "frozen_derivative_scale": 69132.23346517046,
+      "derivative_sign": -1,
+      "frozen_coefficient_scales": [
+        1954.6156895246427,
+        205.6772881611779,
+        1.0,
+        665673.8996152633,
+        2591.91325691127,
+        25860.87919292606,
+        227.0406824201982,
+        375.1335811710686,
+        10.019412742675485
+      ],
+      "frozen_validation_data": {
+        "tilt": -0.4527559222626896,
+        "normalization": 2.797805379782453
+      },
+      "initial": {
+        "theta_n": 768,
+        "period_coefficients": {
+          "p0": -1954.6156895246427,
+          "p1": 205.6772881611779,
+          "p2": 0.2290748047530542,
+          "q0": -2591.913256910858,
+          "q1": 1204.3485271825016,
+          "r0": 665673.8996152633,
+          "r1": -2591.91325691127,
+          "s0": -25860.87919292606,
+          "s1": 227.0406824201982,
+          "t0": -375.1335811710686,
+          "t1": -10.019412742675485
+        },
+        "independent_scaled_l2": 2.8376883666415256,
+        "independent_scaled_max": 1.0,
+        "C_ascending_coefficients": [
+          665673.8996152633,
+          -28452.79244983733,
+          340.56102363029026,
+          -61.43873478296996,
+          -0.05726870118826355
+        ],
+        "C_complex_roots": [
+          [
+            -1078.7639489185954,
+            0.0
+          ],
+          [
+            -5.338781011780958,
+            -24.891132602839292
+          ],
+          [
+            -5.338781011780958,
+            24.891132602839292
+          ],
+          [
+            16.626281887146078,
+            0.0
+          ]
+        ],
+        "polynomial_identity_error": 4.656612873077393e-10,
+        "additional_identity_errors": [
+          4.120010999031365e-10,
+          -1.7962520360015333e-11
+        ],
+        "actual_curve_closure_vector": [
+          -1.812056680606047e-16,
+          -4.0846493831862964e-16,
+          -1.7621002307647776e-16
+        ],
+        "closure_over_length": 6.23777070996037e-17,
+        "asymptotic_half_period": -4.371461850837485e-14,
+        "speed_min": 0.23042135464175148,
+        "speed_max": 2.109366336399247,
+        "speed_contrast": 9.154387359968407,
+        "indicatrix_speed_min_sample": 0.35509407856352687,
+        "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+        "regularity_discriminant_numerator": 978916033305181442186492382400052700379053851406453180314440191009,
+        "regularity_discriminant_denominator": 2426395200043557401930710162610419494828540216141476327495984742400,
+        "omega_min_sample": -4.764635485761316,
+        "omega_max_sample": 27.287861293794226,
+        "projected_centerline_diameter_sample": 1.8470255730705656,
+        "projected_curve_is_diagnostic_until_closure_certified": true,
+        "formal_principal_radius_over_diameter_sample": 0.12475266071096691,
+        "reach_lower_certified": false,
+        "tilt": -0.46092805951360954,
+        "normalization": 2.5068228897293254,
+        "frozen_candidate_xi": 16.626281887146078,
+        "root_quantities_at_frozen_xi": {
+          "xi": 16.626281887146078,
+          "C": -4.656612873077393e-10,
+          "C_prime": -69132.23346517046,
+          "C_second": -5637.835970381388,
+          "W": -54840.018499432714,
+          "W_prime": -2994.37892665843,
+          "W_over_C_prime": 0.793262646823955,
+          "R26_exponent": null,
+          "R26_jet": [
+            1.0,
+            0.05346815652864908,
+            -0.00011243141676402152,
+            1.3101770967707578e-05
+          ],
+          "R26_K": -2.3427574138355807,
+          "root_and_nonzero_jet_certified": false,
+          "R26_L_quadratic_coefficient": 0.4528773446733763
+        },
+        "smooth_core_residual": [
+          -2.1014917106608973e-16,
+          -2.5432626468239548
+        ],
+        "smooth_core_residual_l2": 2.5432626468239548,
+        "frozen_ratio_target": -1.75,
+        "frozen_xi_scale": 32.05249677955554,
+        "frozen_derivative_scale": 69132.23346517046,
+        "derivative_sign": -1,
+        "signed_derivative_in_reference_units": 1.0,
+        "derivative_guard_passed": true,
+        "physical_side": "positive",
+        "denominator_min_sample": 11.861646401384762,
+        "denominator_max_sample": 43.9141431809403,
+        "physical_gap_in_reference_units_min_sample": 0.37006934227197646,
+        "physical_gap_guard_passed_at_samples": true,
+        "physical_half_line_at_all_validation_nodes": true,
+        "physical_u_range_sample": [
+          0.021785292315965488,
+          0.10343550369142615
+        ],
+        "all_real_polynomial_roots_diagnostic": [
+          {
+            "xi": -1078.7639489185954,
+            "C": 5.507608875632286e-06,
+            "C_prime": 72320797.2334213,
+            "C_second": -401396.33171747025,
+            "W": 61169779.48545442,
+            "W_prime": -246222.68300105847,
+            "W_over_C_prime": 0.8458117419256863,
+            "R26_exponent": null,
+            "R26_jet": [
+              1.0,
+              -0.0019168538657516037,
+              1.8341361933113037e-06,
+              -1.3829150963525203e-14
+            ],
+            "R26_K": -2.6919874525632714e-06,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": 5.000676113717395e-07,
+            "side_by_validation_samples": "negative",
+            "denominator_min_sample": -1083.5285844043567,
+            "denominator_max_sample": -1051.476087624801,
+            "continuous_physical_half_line_certified": false
+          },
+          {
+            "xi": 16.626281887146078,
+            "C": -4.656612873077393e-10,
+            "C_prime": -69132.23346517046,
+            "C_second": -5637.835970381388,
+            "W": -54840.018499432714,
+            "W_prime": -2994.37892665843,
+            "W_over_C_prime": 0.793262646823955,
+            "R26_exponent": null,
+            "R26_jet": [
+              1.0,
+              0.05346815652864908,
+              -0.00011243141676402152,
+              1.3101770967707578e-05
+            ],
+            "R26_K": -2.3427574138355807,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": 0.4528773446733763,
+            "side_by_validation_samples": "positive",
+            "denominator_min_sample": 11.861646401384762,
+            "denominator_max_sample": 43.9141431809403,
+            "continuous_physical_half_line_certified": false
+          }
+        ],
+        "frozen_xi_is_not_replaced_by_recomputed_root": true,
+        "continuous_physical_half_line_certified": false,
+        "exact_simple_C_root_certified": false,
+        "exact_negative_root_ratio_certified": false,
+        "complete_profile_constructed": false,
+        "finite_isometric_family_constructed": false
+      },
+      "validation": [
+        {
+          "theta_n": 768,
+          "period_coefficients": {
+            "p0": 7.864031340739417,
+            "p1": 36.14199307719185,
+            "p2": 0.5461904684852579,
+            "q0": 219.40889962087263,
+            "q1": 78.05148858310885,
+            "r0": -895.7052260981959,
+            "r1": 219.40889962087346,
+            "s0": -2661.516322547586,
+            "s1": 81.98350425347849,
+            "t0": 42.957759961924104,
+            "t1": 12.64080966120556
+          },
+          "independent_scaled_l2": 1.442981753253721,
+          "independent_scaled_max": 1.2616317927860994,
+          "C_ascending_coefficients": [
+            -895.7052260981959,
+            -2442.1074229267124,
+            122.97525638021773,
+            3.6053113919075983,
+            -0.13654761712131447
+          ],
+          "C_complex_roots": [
+            [
+              -28.073410072855317,
+              0.0
+            ],
+            [
+              -0.3603081785961262,
+              0.0
+            ],
+            [
+              17.256198732011725,
+              0.0
+            ],
+            [
+              37.58084656325398,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 3.183231456205249e-12,
+          "additional_identity_errors": [
+            -8.242295734817162e-13,
+            7.149836278586008e-14
+          ],
+          "actual_curve_closure_vector": [
+            -1.3715316229148527e-16,
+            9.182761858180848e-16,
+            6.289971184559837e-16
+          ],
+          "closure_over_length": 1.2220346761634272e-16,
+          "asymptotic_half_period": -2.976314451634032e-14,
+          "speed_min": 0.13533528323661273,
+          "speed_max": 4.575305241608188,
+          "speed_contrast": 33.80718709997434,
+          "indicatrix_speed_min_sample": 0.49727156081519486,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 150932343244362963401136270755659684115786772458269071324229175489,
+          "regularity_discriminant_denominator": 295547956279923845277560319084697569736050979344263098555437154304,
+          "omega_min_sample": -12.871615470610815,
+          "omega_max_sample": 12.887688950634612,
+          "projected_centerline_diameter_sample": 2.0026247068434384,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.06757895414659587,
+          "reach_lower_certified": false,
+          "tilt": -0.4527559222626896,
+          "normalization": 2.797805379782453,
+          "frozen_candidate_xi": 37.580846563248784,
+          "root_quantities_at_frozen_xi": {
+            "xi": 37.580846563248784,
+            "C": 3.590798769437242e-08,
+            "C_prime": -6913.22334652467,
+            "C_second": -1255.2927757533364,
+            "W": 12098.140856400776,
+            "W_prime": 231.89138231442632,
+            "W_over_C_prime": -1.7499999999974836,
+            "R26_exponent": 4.531128874146778,
+            "R26_jet": [
+              1.0,
+              0.056216546135715625,
+              0.001246022466921812,
+              3.7052237191522035e-07
+            ],
+            "R26_K": 0.006403759779822105,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": 0.001280751955966999
+          },
+          "smooth_core_residual": [
+            1.6204984297173936e-14,
+            -2.516454884142759e-13
+          ],
+          "smooth_core_residual_l2": 2.5216671738223333e-13,
+          "frozen_ratio_target": -1.75,
+          "frozen_xi_scale": 32.05249677955554,
+          "frozen_derivative_scale": 69132.23346517046,
+          "derivative_sign": -1,
+          "signed_derivative_in_reference_units": 0.10000000000011028,
+          "derivative_guard_passed": true,
+          "physical_side": "positive",
+          "denominator_min_sample": 24.70923109263797,
+          "denominator_max_sample": 50.468535513883396,
+          "physical_gap_in_reference_units_min_sample": 0.7708987933944222,
+          "physical_gap_guard_passed_at_samples": true,
+          "physical_half_line_at_all_validation_nodes": true,
+          "physical_u_range_sample": [
+            0.008726815827691308,
+            0.07802408566179606
+          ],
+          "all_real_polynomial_roots_diagnostic": [
+            {
+              "xi": -28.073410072855317,
+              "C": -8.810729923425242e-11,
+              "C_prime": 11261.963716888664,
+              "C_second": -1652.7147185040953,
+              "W": 11471.082269607265,
+              "W_prime": -1389.9614728534495,
+              "W_over_C_prime": 1.0185685692100928,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                -1.3779344623962513,
+                0.06641469438934744,
+                1.7951116490202218e-05
+              ],
+              "R26_K": 0.6140022907711256,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.10108241129514958,
+              "side_by_validation_samples": "negative",
+              "denominator_min_sample": -40.94502554346613,
+              "denominator_max_sample": -15.185721122220706,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": -0.3603081785961262,
+              "C": 4.547473508864641e-13,
+              "C_prime": -2529.295709612435,
+              "C_second": 237.94365108502862,
+              "W": -2719.889836195166,
+              "W_prime": 156.08544231049476,
+              "W_over_C_prime": 1.0753546237628087,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.013345943332380292,
+                -0.006960843372529544,
+                -0.00035653173142936
+              ],
+              "R26_K": 2.841228243836535,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.4508870893224866,
+              "side_by_validation_samples": "pole_band",
+              "denominator_min_sample": -13.23192364920694,
+              "denominator_max_sample": 12.527380772038486,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 17.256198732011725,
+              "C": 4.433786671143025e-12,
+              "C_prime": 2216.1998675122322,
+              "C_second": 131.30644643749255,
+              "W": 3670.197200314689,
+              "W_prime": 484.6276684409058,
+              "W_over_C_prime": 1.6560768070231064,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.27310231492462234,
+                0.010748613898401439,
+                2.8880904663183837e-05
+              ],
+              "R26_K": 0.27600308796292694,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.03200292854409072,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 4.384583261400911,
+              "denominator_max_sample": 30.143887682646337,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 37.58084656325398,
+              "C": 2.3646862246096134e-11,
+              "C_prime": -6913.223346531186,
+              "C_second": -1255.2927757538635,
+              "W": 12098.140856401984,
+              "W_prime": 231.89138231427535,
+              "W_over_C_prime": -1.749999999996009,
+              "R26_exponent": 4.531128874145314,
+              "R26_jet": [
+                1.0,
+                0.056216546135703316,
+                0.0012460224669215304,
+                3.7052237190757413e-07
+              ],
+              "R26_K": 0.006403759779688434,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 0.0012807519559417762,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 24.709231092643165,
+              "denominator_max_sample": 50.46853551388859,
+              "continuous_physical_half_line_certified": false
+            }
+          ],
+          "frozen_xi_is_not_replaced_by_recomputed_root": true,
+          "continuous_physical_half_line_certified": false,
+          "exact_simple_C_root_certified": false,
+          "exact_negative_root_ratio_certified": false,
+          "complete_profile_constructed": false,
+          "finite_isometric_family_constructed": false
+        },
+        {
+          "theta_n": 1536,
+          "period_coefficients": {
+            "p0": 7.86403134073955,
+            "p1": 36.14199307719181,
+            "p2": 0.5461904684851406,
+            "q0": 219.40889962087414,
+            "q1": 78.05148858310912,
+            "r0": -895.7052260981665,
+            "r1": 219.40889962087482,
+            "s0": -2661.516322547587,
+            "s1": 81.98350425347849,
+            "t0": 42.957759961924246,
+            "t1": 12.64080966120557
+          },
+          "independent_scaled_l2": 1.4429817532536775,
+          "independent_scaled_max": 1.2616317927861003,
+          "C_ascending_coefficients": [
+            -895.7052260981665,
+            -2442.1074229267124,
+            122.97525638021784,
+            3.605311391907616,
+            -0.13654761712128516
+          ],
+          "C_complex_roots": [
+            [
+              -28.073410072856902,
+              0.0
+            ],
+            [
+              -0.36030817859611286,
+              0.0
+            ],
+            [
+              17.256198732010475,
+              0.0
+            ],
+            [
+              37.5808465632626,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 2.2737367544323206e-12,
+          "additional_identity_errors": [
+            -6.821210263296962e-13,
+            4.0811798385220754e-13
+          ],
+          "actual_curve_closure_vector": [
+            -5.41686868619765e-16,
+            2.1909167455244245e-17,
+            7.824996643318845e-16
+          ],
+          "closure_over_length": 1.0373207283407721e-16,
+          "asymptotic_half_period": 1.488157225817016e-14,
+          "speed_min": 0.13533528323661273,
+          "speed_max": 4.575305241608188,
+          "speed_contrast": 33.80718709997434,
+          "indicatrix_speed_min_sample": 0.49727156081519486,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 150932343244362963401136270755659684115786772458269071324229175489,
+          "regularity_discriminant_denominator": 295547956279923845277560319084697569736050979344263098555437154304,
+          "omega_min_sample": -12.87258405683001,
+          "omega_max_sample": 12.887688950615031,
+          "projected_centerline_diameter_sample": 2.002624706843439,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.06757895414659586,
+          "reach_lower_certified": false,
+          "tilt": -0.4527559222626896,
+          "normalization": 2.797805379782453,
+          "frozen_candidate_xi": 37.580846563248784,
+          "root_quantities_at_frozen_xi": {
+            "xi": 37.580846563248784,
+            "C": 9.551251878292533e-08,
+            "C_prime": -6913.2233465183635,
+            "C_second": -1255.2927757528353,
+            "W": 12098.140856403938,
+            "W_prime": 231.8913823146772,
+            "W_over_C_prime": -1.7499999999995373,
+            "R26_exponent": 4.531128874148815,
+            "R26_jet": [
+              1.0,
+              0.05621654613572053,
+              0.0012460224669217273,
+              3.705223719271291e-07
+            ],
+            "R26_K": 0.006403759780032603,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": 0.0012807519560069946
+          },
+          "smooth_core_residual": [
+            4.310402688768345e-14,
+            -4.625604021667682e-14
+          ],
+          "smooth_core_residual_l2": 6.322640580059063e-14,
+          "frozen_ratio_target": -1.75,
+          "frozen_xi_scale": 32.05249677955554,
+          "frozen_derivative_scale": 69132.23346517046,
+          "derivative_sign": -1,
+          "signed_derivative_in_reference_units": 0.10000000000001906,
+          "derivative_guard_passed": true,
+          "physical_side": "positive",
+          "denominator_min_sample": 24.708262506418773,
+          "denominator_max_sample": 50.46853551386381,
+          "physical_gap_in_reference_units_min_sample": 0.7708685746496593,
+          "physical_gap_guard_passed_at_samples": true,
+          "physical_half_line_at_all_validation_nodes": true,
+          "physical_u_range_sample": [
+            0.008726815827681415,
+            0.0780811833327911
+          ],
+          "all_real_polynomial_roots_diagnostic": [
+            {
+              "xi": -28.073410072856902,
+              "C": 4.661160346586257e-12,
+              "C_prime": 11261.963716888726,
+              "C_second": -1652.714718504001,
+              "W": 11471.082269608185,
+              "W_prime": -1389.9614728534368,
+              "W_over_C_prime": 1.018568569210169,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                -1.3779344623908343,
+                0.0664146943890784,
+                1.7951116490126845e-05
+              ],
+              "R26_K": 0.6140022907685818,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.10108241129472571,
+              "side_by_validation_samples": "negative",
+              "denominator_min_sample": -40.94599412968691,
+              "denominator_max_sample": -15.18572112224187,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": -0.36030817859611286,
+              "C": -3.751665644813329e-12,
+              "C_prime": -2529.295709612432,
+              "C_second": 237.94365108502916,
+              "W": -2719.889836195165,
+              "W_prime": 156.0854423104955,
+              "W_over_C_prime": 1.0753546237628095,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.013345943332378526,
+                -0.006960843372529508,
+                -0.00035653173142931977
+              ],
+              "R26_K": 2.8412282438362126,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.45088708932243515,
+              "side_by_validation_samples": "pole_band",
+              "denominator_min_sample": -13.232892235426124,
+              "denominator_max_sample": 12.527380772018919,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 17.256198732010475,
+              "C": -1.5347723092418164e-11,
+              "C_prime": 2216.1998675126897,
+              "C_second": 131.306446437643,
+              "W": 3670.1972003143956,
+              "W_prime": 484.62766844095415,
+              "W_over_C_prime": 1.6560768070226322,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.27310231492472753,
+                0.010748613898406542,
+                2.8880904663197234e-05
+              ],
+              "R26_K": 0.2760030879630513,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.032002928544112165,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 4.383614675180464,
+              "denominator_max_sample": 30.143887682625504,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 37.5808465632626,
+              "C": 3.637978807091713e-11,
+              "C_prime": -6913.223346535699,
+              "C_second": -1255.2927757542377,
+              "W": 12098.140856407143,
+              "W_prime": 231.89138231427535,
+              "W_over_C_prime": -1.7499999999956126,
+              "R26_exponent": 4.531128874144921,
+              "R26_jet": [
+                1.0,
+                0.05621654613568783,
+                0.0012460224669209783,
+                3.705223719069743e-07
+              ],
+              "R26_K": 0.006403759779680218,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 0.0012807519559405389,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 24.708262506432586,
+              "denominator_max_sample": 50.468535513877626,
+              "continuous_physical_half_line_certified": false
+            }
+          ],
+          "frozen_xi_is_not_replaced_by_recomputed_root": true,
+          "continuous_physical_half_line_certified": false,
+          "exact_simple_C_root_certified": false,
+          "exact_negative_root_ratio_certified": false,
+          "complete_profile_constructed": false,
+          "finite_isometric_family_constructed": false
+        },
+        {
+          "theta_n": 3072,
+          "period_coefficients": {
+            "p0": 7.8640313407395555,
+            "p1": 36.14199307719187,
+            "p2": 0.546190468485162,
+            "q0": 219.4088996208739,
+            "q1": 78.05148858310898,
+            "r0": -895.7052260981637,
+            "r1": 219.40889962087516,
+            "s0": -2661.5163225475876,
+            "s1": 81.98350425347621,
+            "t0": 42.95775996192433,
+            "t1": 12.640809661205589
+          },
+          "independent_scaled_l2": 1.4429817532536848,
+          "independent_scaled_max": 1.2616317927861023,
+          "C_ascending_coefficients": [
+            -895.7052260981637,
+            -2442.1074229267124,
+            122.97525638021565,
+            3.6053113919076214,
+            -0.1365476171212905
+          ],
+          "C_complex_roots": [
+            [
+              -28.07341007285647,
+              0.0
+            ],
+            [
+              -0.36030817859610864,
+              0.0
+            ],
+            [
+              17.256198732010997,
+              0.0
+            ],
+            [
+              37.58084656326064,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 1.0913936421275139e-11,
+          "additional_identity_errors": [
+            -1.2505552149377763e-12,
+            2.5424107263916085e-12
+          ],
+          "actual_curve_closure_vector": [
+            -8.051503728394601e-16,
+            1.1403420076773059e-15,
+            1.415811203455978e-15
+          ],
+          "closure_over_length": 2.1665623502393376e-16,
+          "asymptotic_half_period": 1.6741768790441432e-14,
+          "speed_min": 0.13533528323661273,
+          "speed_max": 4.575305241608188,
+          "speed_contrast": 33.80718709997434,
+          "indicatrix_speed_min_sample": 0.4971178693109948,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 150932343244362963401136270755659684115786772458269071324229175489,
+          "regularity_discriminant_denominator": 295547956279923845277560319084697569736050979344263098555437154304,
+          "omega_min_sample": -12.884413213390028,
+          "omega_max_sample": 12.887688950615024,
+          "projected_centerline_diameter_sample": 2.0026247068434384,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.06757895414659587,
+          "reach_lower_certified": false,
+          "tilt": -0.4527559222626896,
+          "normalization": 2.797805379782453,
+          "frozen_candidate_xi": 37.580846563248784,
+          "root_quantities_at_frozen_xi": {
+            "xi": 37.580846563248784,
+            "C": 8.208269264287082e-08,
+            "C_prime": -6913.223346519635,
+            "C_second": -1255.2927757529285,
+            "W": 12098.14085640333,
+            "W_prime": 231.89138231463184,
+            "W_over_C_prime": -1.7499999999991276,
+            "R26_exponent": 4.5311288741484095,
+            "R26_jet": [
+              1.0,
+              0.05621654613571942,
+              0.0012460224669217483,
+              3.7052237192438165e-07
+            ],
+            "R26_K": 0.006403759779984197,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": 0.0012807519559977333
+          },
+          "smooth_core_residual": [
+            3.704325501804547e-14,
+            -8.724973228583637e-14
+          ],
+          "smooth_core_residual_l2": 9.478775514950266e-14,
+          "frozen_ratio_target": -1.75,
+          "frozen_xi_scale": 32.05249677955554,
+          "frozen_derivative_scale": 69132.23346517046,
+          "derivative_sign": -1,
+          "signed_derivative_in_reference_units": 0.10000000000003745,
+          "derivative_guard_passed": true,
+          "physical_side": "positive",
+          "denominator_min_sample": 24.696433349858758,
+          "denominator_max_sample": 50.468535513863806,
+          "physical_gap_in_reference_units_min_sample": 0.7704995189520214,
+          "physical_gap_guard_passed_at_samples": true,
+          "physical_half_line_at_all_validation_nodes": true,
+          "physical_u_range_sample": [
+            0.008726815827681414,
+            0.0780811833327911
+          ],
+          "all_real_polynomial_roots_diagnostic": [
+            {
+              "xi": -28.07341007285647,
+              "C": -2.618207872728817e-10,
+              "C_prime": 11261.963716888615,
+              "C_second": -1652.714718504007,
+              "W": 11471.082269607894,
+              "W_prime": -1389.9614728534316,
+              "W_over_C_prime": 1.0185685692101532,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                -1.3779344623919754,
+                0.06641469438913519,
+                1.795111649014092e-05
+              ],
+              "R26_K": 0.6140022907690508,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.10108241129480397,
+              "side_by_validation_samples": "negative",
+              "denominator_min_sample": -40.957823286246494,
+              "denominator_max_sample": -15.185721122241445,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": -0.36030817859610864,
+              "C": -1.2050804798491299e-11,
+              "C_prime": -2529.2957096124296,
+              "C_second": 237.94365108502484,
+              "W": -2719.889836195164,
+              "W_prime": 156.0854423104935,
+              "W_over_C_prime": 1.0753546237628102,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.01334594333237805,
+                -0.006960843372529493,
+                -0.0003565317314293225
+              ],
+              "R26_K": 2.841228243836233,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.4508870893224382,
+              "side_by_validation_samples": "pole_band",
+              "denominator_min_sample": -13.244721391986136,
+              "denominator_max_sample": 12.527380772018915,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 17.256198732010997,
+              "C": 4.581579560181126e-11,
+              "C_prime": 2216.199867512578,
+              "C_second": 131.3064464376019,
+              "W": 3670.197200314565,
+              "W_prime": 484.62766844094557,
+              "W_over_C_prime": 1.6560768070227923,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.2731023149246871,
+                0.010748613898404662,
+                2.888090466319172e-05
+              ],
+              "R26_K": 0.2760030879630051,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": -0.03200292854410444,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 4.371785518620969,
+              "denominator_max_sample": 30.143887682626023,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 37.58084656326064,
+              "C": 1.120952219935134e-10,
+              "C_prime": -6913.223346534519,
+              "C_second": -1255.2927757541327,
+              "W": 12098.14085640608,
+              "W_prime": 231.8913823142869,
+              "W_over_C_prime": -1.7499999999957576,
+              "R26_exponent": 4.5311288741450655,
+              "R26_jet": [
+                1.0,
+                0.05621654613569133,
+                0.0012460224669211067,
+                3.7052237190714876e-07
+              ],
+              "R26_K": 0.006403759779682883,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 0.0012807519559409233,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 24.696433349870617,
+              "denominator_max_sample": 50.468535513875665,
+              "continuous_physical_half_line_certified": false
+            }
+          ],
+          "frozen_xi_is_not_replaced_by_recomputed_root": true,
+          "continuous_physical_half_line_certified": false,
+          "exact_simple_C_root_certified": false,
+          "exact_negative_root_ratio_certified": false,
+          "complete_profile_constructed": false,
+          "finite_isometric_family_constructed": false
+        }
+      ],
+      "solver": {
+        "success": true,
+        "message": "`gtol` termination condition is satisfied.",
+        "nfev": 148,
+        "residual_evaluations": 148,
+        "optimality": 7.463245864535871e-12,
+        "initial_residual_l2": 2.5432626468239548,
+        "final_residual_l2": 2.5216671738223333e-13,
+        "elapsed_seconds": 6.49675912299999
+      },
+      "derivative_audit": {
+        "method": "smooth central columns then exact current hinge branch",
+        "column_step": "2e-5*max(1,abs(x[j]))",
+        "directional_step": 2e-06,
+        "core_direction_relative_difference": 3.329478579884238e-09,
+        "all_smooth_direction_relative_difference": 3.9716756188931694e-10,
+        "current_hinge_direction_relative_difference": 0.9284284052691036,
+        "directional_probe_branch_switch_count": 3,
+        "smooth_core_jacobian_singular_values": [
+          61.027515349653854,
+          1.13792224785092
+        ]
+      },
+      "actual_geometry_design_not_fixed_metric_refinement": true,
+      "no_simple_fourth_order_double_tail_profile_is_being_fitted": true,
+      "exact_negative_root_ratio_proved": false,
+      "complete_profile_constructed": false,
+      "finite_isometric_family_constructed": false,
+      "reach_lower_certified": false,
+      "task_complete": false
+    },
+    {
+      "q": 2,
+      "side": "negative",
+      "skipped": false,
+      "source_report_sha256": "d274bc6336637d25d926ac07d4cd537b46fdd360e0d1c12fea65f9a5a31c50dd",
+      "source_design_index": 1,
+      "source_parameter_state": "initial",
+      "initial_parameters": [
+        -0.10536051565782632,
+        0.6666666666666666,
+        -0.1111111111111111,
+        0.024691358024691332,
+        1.2,
+        4.625929269271486e-17,
+        1.850371707708594e-17,
+        3.700743415417188e-17,
+        1.850371707708594e-17,
+        0.016321053330695872,
+        3.700743415417188e-17,
+        0.0056421235503429715,
+        3.469446951953614e-17,
+        0.0010402452182409567,
+        9.830099697201906e-17,
+        2.7466455036299447e-17
+      ],
+      "final_parameters": [
+        -0.15254124989539797,
+        0.7860249746402631,
+        0.006329154366475685,
+        0.09068730937511653,
+        1.0199402221313734,
+        0.052907553828256106,
+        0.03622659220206525,
+        0.08165226201615744,
+        -0.02521897392777482,
+        -0.07042732657590679,
+        -0.07731444877664512,
+        0.23651534419228717,
+        0.10807382998528436,
+        0.06064392555103266,
+        -0.5760935847638766,
+        0.23054671246288355
+      ],
+      "initial_root": {
+        "xi": -1078.7639489185954,
+        "C": 5.507608875632286e-06,
+        "C_prime": 72320797.2334213,
+        "C_second": -401396.33171747025,
+        "W": 61169779.48545442,
+        "W_prime": -246222.68300105847,
+        "W_over_C_prime": 0.8458117419256863,
+        "R26_exponent": null,
+        "R26_jet": [
+          1.0,
+          -0.0019168538657516037,
+          1.8341361933113037e-06,
+          -1.3829150963525203e-14
+        ],
+        "R26_K": -2.6919874525632714e-06,
+        "root_and_nonzero_jet_certified": false,
+        "R26_L_quadratic_coefficient": 5.000676113717395e-07,
+        "side_by_validation_samples": "negative",
+        "denominator_min_sample": -1083.5285844043567,
+        "denominator_max_sample": -1051.476087624801,
+        "continuous_physical_half_line_certified": false
+      },
+      "frozen_final_xi": -575.3845774496123,
+      "parameter_order": [
+        "rho0",
+        "rho1",
+        "rho2",
+        "rho3",
+        "b",
+        "c1",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "c12"
+      ],
+      "design_variable_last": "xi divided by the frozen xi scale",
+      "bounds_lower": [
+        -1.2,
+        0.05,
+        -0.8,
+        -0.7,
+        0.76,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -0.7,
+        -4.0
+      ],
+      "bounds_upper": [
+        1.2,
+        1.8,
+        0.8,
+        0.7,
+        2.1,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        -1e-05
+      ],
+      "frozen_xi_scale": 1078.7639489185954,
+      "frozen_derivative_scale": 72320797.2334213,
+      "derivative_sign": 1,
+      "frozen_coefficient_scales": [
+        1954.6156895246427,
+        205.6772881611779,
+        1.0,
+        665673.8996152633,
+        2591.91325691127,
+        25860.87919292606,
+        227.0406824201982,
+        375.1335811710686,
+        10.019412742675485
+      ],
+      "frozen_validation_data": {
+        "tilt": -0.4110700512464136,
+        "normalization": 4.4889600122369595
+      },
+      "initial": {
+        "theta_n": 768,
+        "period_coefficients": {
+          "p0": -1954.6156895246427,
+          "p1": 205.6772881611779,
+          "p2": 0.2290748047530542,
+          "q0": -2591.913256910858,
+          "q1": 1204.3485271825016,
+          "r0": 665673.8996152633,
+          "r1": -2591.91325691127,
+          "s0": -25860.87919292606,
+          "s1": 227.0406824201982,
+          "t0": -375.1335811710686,
+          "t1": -10.019412742675485
+        },
+        "independent_scaled_l2": 2.8376883666415256,
+        "independent_scaled_max": 1.0,
+        "C_ascending_coefficients": [
+          665673.8996152633,
+          -28452.79244983733,
+          340.56102363029026,
+          -61.43873478296996,
+          -0.05726870118826355
+        ],
+        "C_complex_roots": [
+          [
+            -1078.7639489185954,
+            0.0
+          ],
+          [
+            -5.338781011780958,
+            -24.891132602839292
+          ],
+          [
+            -5.338781011780958,
+            24.891132602839292
+          ],
+          [
+            16.626281887146078,
+            0.0
+          ]
+        ],
+        "polynomial_identity_error": 4.656612873077393e-10,
+        "additional_identity_errors": [
+          4.120010999031365e-10,
+          -1.7962520360015333e-11
+        ],
+        "actual_curve_closure_vector": [
+          -1.812056680606047e-16,
+          -4.0846493831862964e-16,
+          -1.7621002307647776e-16
+        ],
+        "closure_over_length": 6.23777070996037e-17,
+        "asymptotic_half_period": -4.371461850837485e-14,
+        "speed_min": 0.23042135464175148,
+        "speed_max": 2.109366336399247,
+        "speed_contrast": 9.154387359968407,
+        "indicatrix_speed_min_sample": 0.35509407856352687,
+        "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+        "regularity_discriminant_numerator": 978916033305181442186492382400052700379053851406453180314440191009,
+        "regularity_discriminant_denominator": 2426395200043557401930710162610419494828540216141476327495984742400,
+        "omega_min_sample": -4.764635485761316,
+        "omega_max_sample": 27.287861293794226,
+        "projected_centerline_diameter_sample": 1.8470255730705656,
+        "projected_curve_is_diagnostic_until_closure_certified": true,
+        "formal_principal_radius_over_diameter_sample": 0.12475266071096691,
+        "reach_lower_certified": false,
+        "tilt": -0.46092805951360954,
+        "normalization": 2.5068228897293254,
+        "frozen_candidate_xi": -1078.7639489185954,
+        "root_quantities_at_frozen_xi": {
+          "xi": -1078.7639489185954,
+          "C": 5.507608875632286e-06,
+          "C_prime": 72320797.2334213,
+          "C_second": -401396.33171747025,
+          "W": 61169779.48545442,
+          "W_prime": -246222.68300105847,
+          "W_over_C_prime": 0.8458117419256863,
+          "R26_exponent": null,
+          "R26_jet": [
+            1.0,
+            -0.0019168538657516037,
+            1.8341361933113037e-06,
+            -1.3829150963525203e-14
+          ],
+          "R26_K": -2.6919874525632714e-06,
+          "root_and_nonzero_jet_certified": false,
+          "R26_L_quadratic_coefficient": 5.000676113717395e-07
+        },
+        "smooth_core_residual": [
+          7.059492184807908e-17,
+          2.595811741925686
+        ],
+        "smooth_core_residual_l2": 2.595811741925686,
+        "frozen_ratio_target": -1.75,
+        "frozen_xi_scale": 1078.7639489185954,
+        "frozen_derivative_scale": 72320797.2334213,
+        "derivative_sign": 1,
+        "signed_derivative_in_reference_units": 1.0,
+        "derivative_guard_passed": true,
+        "physical_side": "negative",
+        "denominator_min_sample": -1083.5285844043567,
+        "denominator_max_sample": -1051.476087624801,
+        "physical_gap_in_reference_units_min_sample": 0.9747045112870624,
+        "physical_gap_guard_passed_at_samples": true,
+        "physical_half_line_at_all_validation_nodes": true,
+        "physical_u_range_sample": [
+          -0.0013447624772569332,
+          -0.00044301761006790985
+        ],
+        "all_real_polynomial_roots_diagnostic": [
+          {
+            "xi": -1078.7639489185954,
+            "C": 5.507608875632286e-06,
+            "C_prime": 72320797.2334213,
+            "C_second": -401396.33171747025,
+            "W": 61169779.48545442,
+            "W_prime": -246222.68300105847,
+            "W_over_C_prime": 0.8458117419256863,
+            "R26_exponent": null,
+            "R26_jet": [
+              1.0,
+              -0.0019168538657516037,
+              1.8341361933113037e-06,
+              -1.3829150963525203e-14
+            ],
+            "R26_K": -2.6919874525632714e-06,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": 5.000676113717395e-07,
+            "side_by_validation_samples": "negative",
+            "denominator_min_sample": -1083.5285844043567,
+            "denominator_max_sample": -1051.476087624801,
+            "continuous_physical_half_line_certified": false
+          },
+          {
+            "xi": 16.626281887146078,
+            "C": -4.656612873077393e-10,
+            "C_prime": -69132.23346517046,
+            "C_second": -5637.835970381388,
+            "W": -54840.018499432714,
+            "W_prime": -2994.37892665843,
+            "W_over_C_prime": 0.793262646823955,
+            "R26_exponent": null,
+            "R26_jet": [
+              1.0,
+              0.05346815652864908,
+              -0.00011243141676402152,
+              1.3101770967707578e-05
+            ],
+            "R26_K": -2.3427574138355807,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": 0.4528773446733763,
+            "side_by_validation_samples": "positive",
+            "denominator_min_sample": 11.861646401384762,
+            "denominator_max_sample": 43.9141431809403,
+            "continuous_physical_half_line_certified": false
+          }
+        ],
+        "frozen_xi_is_not_replaced_by_recomputed_root": true,
+        "continuous_physical_half_line_certified": false,
+        "exact_simple_C_root_certified": false,
+        "exact_negative_root_ratio_certified": false,
+        "complete_profile_constructed": false,
+        "finite_isometric_family_constructed": false
+      },
+      "validation": [
+        {
+          "theta_n": 768,
+          "period_coefficients": {
+            "p0": -185.42533229183465,
+            "p1": 40.38869560306537,
+            "p2": 0.599302216521977,
+            "q0": 3624.8079865656605,
+            "q1": 235.31075644712877,
+            "r0": 29579.049207569187,
+            "r1": 3624.8079865656655,
+            "s0": -3021.1528622973615,
+            "s1": 142.5980903012114,
+            "t0": 24.942712077647013,
+            "t1": -97.3887730933055
+          },
+          "independent_scaled_l2": 9.861826432642122,
+          "independent_scaled_max": 9.720008107710688,
+          "C_ascending_coefficients": [
+            29579.049207569187,
+            603.655124268304,
+            213.89713545181706,
+            -107.48594699407184,
+            -0.14982555413049425
+          ],
+          "C_complex_roots": [
+            [
+              -719.3845810858105,
+              0.0
+            ],
+            [
+              -2.7722479657240546,
+              -5.366550615899329
+            ],
+            [
+              -2.7722479657240546,
+              5.366550615899329
+            ],
+            [
+              7.521772116158115,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 4.3655745685100555e-11,
+          "additional_identity_errors": [
+            -5.002220859751105e-12,
+            2.842170943040401e-14
+          ],
+          "actual_curve_closure_vector": [
+            -6.496609227085088e-16,
+            -1.251281338964547e-15,
+            5.545620081924923e-15
+          ],
+          "closure_over_length": 8.01358941893313e-16,
+          "asymptotic_half_period": -5.348065030279902e-15,
+          "speed_min": 0.12315712027375897,
+          "speed_max": 7.925986631082493,
+          "speed_contrast": 64.356706404504,
+          "indicatrix_speed_min_sample": 0.6025296559737705,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 137175228643155870533038753320352710094616622557546457767676301407,
+          "regularity_discriminant_denominator": 219108132251686904907708885191505113404184257474486345043334397952,
+          "omega_min_sample": -6.999970064007685,
+          "omega_max_sample": 8.834747347348863,
+          "projected_centerline_diameter_sample": 1.9304153681348062,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.06379824897102589,
+          "reach_lower_certified": false,
+          "tilt": -0.4110700512464136,
+          "normalization": 4.4889600122369595,
+          "frozen_candidate_xi": -575.3845774496123,
+          "root_quantities_at_frozen_xi": {
+            "xi": -575.3845774496123,
+            "C": 4123886619.880407,
+            "C_prime": 7160902.781667347,
+            "C_second": -223725.97000118074,
+            "W": -10860252.437884279,
+            "W_prime": -61658.15870528563,
+            "W_over_C_prime": -1.5166038094648695,
+            "R26_exponent": 4.292470233992477,
+            "R26_jet": [
+              1.0,
+              -0.004854987757235745,
+              -3.446271361980559e-06,
+              1.1632313310625999e-08
+            ],
+            "R26_K": -0.16936185323663167,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": -0.04164893237164391
+          },
+          "smooth_core_residual": [
+            0.05285877414586279,
+            0.02310991435339455
+          ],
+          "smooth_core_residual_l2": 0.05768984438897859,
+          "frozen_ratio_target": -1.75,
+          "frozen_xi_scale": 1078.7639489185954,
+          "frozen_derivative_scale": 72320797.2334213,
+          "derivative_sign": 1,
+          "signed_derivative_in_reference_units": 0.0990158164124622,
+          "derivative_guard_passed": false,
+          "physical_side": "negative",
+          "denominator_min_sample": -582.38454751362,
+          "denominator_max_sample": -566.5498301022634,
+          "physical_gap_in_reference_units_min_sample": 0.5251842450521266,
+          "physical_gap_guard_passed_at_samples": true,
+          "physical_half_line_at_all_validation_nodes": true,
+          "physical_u_range_sample": [
+            -0.004881016533125124,
+            -0.0006098635409281682
+          ],
+          "all_real_polynomial_roots_diagnostic": [
+            {
+              "xi": -719.3845810858105,
+              "C": 4.50732113677077e-06,
+              "C_prime": 55931603.34252705,
+              "C_second": -466071.985406729,
+              "W": 5390563.327331759,
+              "W_prime": -170261.17580692456,
+              "W_over_C_prime": 0.0963777722286945,
+              "R26_exponent": 1.7161323209957229,
+              "R26_jet": [
+                1.0,
+                -0.002778998633361465,
+                3.859221394799539e-06,
+                -8.273911882922124e-15
+              ],
+              "R26_K": -5.519752494659302e-07,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 2.3138657876331066e-07,
+              "side_by_validation_samples": "negative",
+              "denominator_min_sample": -726.3845511498182,
+              "denominator_max_sample": -710.5498337384616,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 7.521772116158115,
+              "C": 0.0,
+              "C_prime": -14677.32799303671,
+              "C_second": -4524.834787746614,
+              "W": -13292.063636029889,
+              "W_prime": -2940.4185316499097,
+              "W_over_C_prime": 0.9056187640104503,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.054962789686592996,
+                0.004378328303702631,
+                0.00019793760837634615
+              ],
+              "R26_K": -8.167193773300795,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 1.4525976001484415,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 0.5218020521504299,
+              "denominator_max_sample": 16.356519463506977,
+              "continuous_physical_half_line_certified": false
+            }
+          ],
+          "frozen_xi_is_not_replaced_by_recomputed_root": true,
+          "continuous_physical_half_line_certified": false,
+          "exact_simple_C_root_certified": false,
+          "exact_negative_root_ratio_certified": false,
+          "complete_profile_constructed": false,
+          "finite_isometric_family_constructed": false
+        },
+        {
+          "theta_n": 1536,
+          "period_coefficients": {
+            "p0": -185.42533229183417,
+            "p1": 40.388695603065486,
+            "p2": 0.5993022165214086,
+            "q0": 3624.807986565651,
+            "q1": 235.3107564471262,
+            "r0": 29579.049207569165,
+            "r1": 3624.807986565658,
+            "s0": -3021.15286229735,
+            "s1": 142.5980903012089,
+            "t0": 24.94271207764701,
+            "t1": -97.38877309330545
+          },
+          "independent_scaled_l2": 9.861826432642081,
+          "independent_scaled_max": 9.720008107710683,
+          "C_ascending_coefficients": [
+            29579.049207569165,
+            603.6551242683081,
+            213.89713545181445,
+            -107.48594699407181,
+            -0.14982555413035215
+          ],
+          "C_complex_roots": [
+            [
+              -719.3845810864907,
+              0.0
+            ],
+            [
+              -2.7722479657240635,
+              -5.366550615899312
+            ],
+            [
+              -2.7722479657240635,
+              5.366550615899312
+            ],
+            [
+              7.521772116158143,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 8.185452315956354e-12,
+          "additional_identity_errors": [
+            -7.275957614183426e-12,
+            2.1316282072803006e-13
+          ],
+          "actual_curve_closure_vector": [
+            -1.1679590898116795e-15,
+            1.784529186565316e-15,
+            6.053132197357819e-15
+          ],
+          "closure_over_length": 8.988097097994398e-16,
+          "asymptotic_half_period": -7.673310695618989e-15,
+          "speed_min": 0.12315712027375897,
+          "speed_max": 7.925986631082493,
+          "speed_contrast": 64.356706404504,
+          "indicatrix_speed_min_sample": 0.6025296559737705,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 137175228643155870533038753320352710094616622557546457767676301407,
+          "regularity_discriminant_denominator": 219108132251686904907708885191505113404184257474486345043334397952,
+          "omega_min_sample": -6.999970064007685,
+          "omega_max_sample": 8.83474734734886,
+          "projected_centerline_diameter_sample": 1.9304153681348064,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.06379824897102589,
+          "reach_lower_certified": false,
+          "tilt": -0.4110700512464136,
+          "normalization": 4.4889600122369595,
+          "frozen_candidate_xi": -575.3845774496123,
+          "root_quantities_at_frozen_xi": {
+            "xi": -575.3845774496123,
+            "C": 4123886619.8959775,
+            "C_prime": 7160902.781559104,
+            "C_second": -223725.97000061622,
+            "W": -10860252.437938392,
+            "W_prime": -61658.15870500341,
+            "W_over_C_prime": -1.516603809495351,
+            "R26_exponent": 4.292470234024627,
+            "R26_jet": [
+              1.0,
+              -0.004854987757245104,
+              -3.446271361973677e-06,
+              1.163231331047357e-08
+            ],
+            "R26_K": -0.16936185323693043,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": -0.04164893237046859
+          },
+          "smooth_core_residual": [
+            0.05285877414606237,
+            0.023109914350027065
+          ],
+          "smooth_core_residual_l2": 0.057689844387812474,
+          "frozen_ratio_target": -1.75,
+          "frozen_xi_scale": 1078.7639489185954,
+          "frozen_derivative_scale": 72320797.2334213,
+          "derivative_sign": 1,
+          "signed_derivative_in_reference_units": 0.09901581641096549,
+          "derivative_guard_passed": false,
+          "physical_side": "negative",
+          "denominator_min_sample": -582.38454751362,
+          "denominator_max_sample": -566.5498301022634,
+          "physical_gap_in_reference_units_min_sample": 0.5251842450521266,
+          "physical_gap_guard_passed_at_samples": true,
+          "physical_half_line_at_all_validation_nodes": true,
+          "physical_u_range_sample": [
+            -0.004881016533125124,
+            -0.0006098635409281682
+          ],
+          "all_real_polynomial_roots_diagnostic": [
+            {
+              "xi": -719.3845810864907,
+              "C": 1.0330604709452018e-05,
+              "C_prime": 55931603.34263248,
+              "C_second": -466071.98540716746,
+              "W": 5390563.327341797,
+              "W_prime": -170261.17580708445,
+              "W_over_C_prime": 0.09637777222869227,
+              "R26_exponent": 1.7161323209957302,
+              "R26_jet": [
+                1.0,
+                -0.0027789986333588376,
+                3.859221394792279e-06,
+                -8.273911876665865e-15
+              ],
+              "R26_K": -5.519752490495966e-07,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 2.3138657858878553e-07,
+              "side_by_validation_samples": "negative",
+              "denominator_min_sample": -726.3845511504984,
+              "denominator_max_sample": -710.5498337391418,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 7.521772116158143,
+              "C": -8.731149137020111e-11,
+              "C_prime": -14677.32799303663,
+              "C_second": -4524.83478774654,
+              "W": -13292.063636029856,
+              "W_prime": -2940.418531649875,
+              "W_over_C_prime": 0.905618764010453,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.05496278968658434,
+                0.004378328303701878,
+                0.00019793760837633355
+              ],
+              "R26_K": -8.167193773300246,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 1.452597600148341,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 0.5218020521504583,
+              "denominator_max_sample": 16.356519463507002,
+              "continuous_physical_half_line_certified": false
+            }
+          ],
+          "frozen_xi_is_not_replaced_by_recomputed_root": true,
+          "continuous_physical_half_line_certified": false,
+          "exact_simple_C_root_certified": false,
+          "exact_negative_root_ratio_certified": false,
+          "complete_profile_constructed": false,
+          "finite_isometric_family_constructed": false
+        },
+        {
+          "theta_n": 3072,
+          "period_coefficients": {
+            "p0": -185.42533229183556,
+            "p1": 40.38869560306581,
+            "p2": 0.5993022165226876,
+            "q0": 3624.8079865656555,
+            "q1": 235.3107564471316,
+            "r0": 29579.049207569067,
+            "r1": 3624.8079865656273,
+            "s0": -3021.1528622973447,
+            "s1": 142.59809030121096,
+            "t0": 24.94271207764703,
+            "t1": -97.38877309330533
+          },
+          "independent_scaled_l2": 9.861826432642147,
+          "independent_scaled_max": 9.720008107710672,
+          "C_ascending_coefficients": [
+            29579.049207569067,
+            603.6551242682826,
+            213.89713545181687,
+            -107.48594699407178,
+            -0.1498255541306719
+          ],
+          "C_complex_roots": [
+            [
+              -719.3845810849594,
+              0.0
+            ],
+            [
+              -2.7722479657240284,
+              -5.366550615899344
+            ],
+            [
+              -2.7722479657240284,
+              5.366550615899344
+            ],
+            [
+              7.5217721161580675,
+              0.0
+            ]
+          ],
+          "polynomial_identity_error": 1.7462298274040222e-10,
+          "additional_identity_errors": [
+            2.8194335754960775e-11,
+            2.8705926524708048e-12
+          ],
+          "actual_curve_closure_vector": [
+            -3.1966451029112313e-16,
+            -3.5271098570458787e-17,
+            6.155656456918424e-15
+          ],
+          "closure_over_length": 8.632627167788272e-16,
+          "asymptotic_half_period": -1.0231080927491986e-14,
+          "speed_min": 0.1230098731397039,
+          "speed_max": 7.935424993065763,
+          "speed_contrast": 64.51047213139874,
+          "indicatrix_speed_min_sample": 0.6025296559737705,
+          "continuous_indicatrix_regular_by_exact_rational_nonvanishing": true,
+          "regularity_discriminant_numerator": 137175228643155870533038753320352710094616622557546457767676301407,
+          "regularity_discriminant_denominator": 219108132251686904907708885191505113404184257474486345043334397952,
+          "omega_min_sample": -7.0004760199877865,
+          "omega_max_sample": 8.83474734734886,
+          "projected_centerline_diameter_sample": 1.930415368134806,
+          "projected_curve_is_diagnostic_until_closure_certified": true,
+          "formal_principal_radius_over_diameter_sample": 0.06372197153535808,
+          "reach_lower_certified": false,
+          "tilt": -0.4110700512464136,
+          "normalization": 4.4889600122369595,
+          "frozen_candidate_xi": -575.3845774496123,
+          "root_quantities_at_frozen_xi": {
+            "xi": -575.3845774496123,
+            "C": 4123886619.8609276,
+            "C_prime": 7160902.781802769,
+            "C_second": -223725.9700018867,
+            "W": -10860252.43781653,
+            "W_prime": -61658.15870563873,
+            "W_over_C_prime": -1.5166038094267276,
+            "R26_exponent": 4.292470233952248,
+            "R26_jet": [
+              1.0,
+              -0.004854987757224033,
+              -3.4462713619892287e-06,
+              1.1632313310816735e-08
+            ],
+            "R26_K": -0.1693618532362573,
+            "root_and_nonzero_jet_certified": false,
+            "R26_L_quadratic_coefficient": -0.04164893237311447
+          },
+          "smooth_core_residual": [
+            0.05285877414561311,
+            0.02310991435760822
+          ],
+          "smooth_core_residual_l2": 0.05768984439043776,
+          "frozen_ratio_target": -1.75,
+          "frozen_xi_scale": 1078.7639489185954,
+          "frozen_derivative_scale": 72320797.2334213,
+          "derivative_sign": 1,
+          "signed_derivative_in_reference_units": 0.09901581641433471,
+          "derivative_guard_passed": false,
+          "physical_side": "negative",
+          "denominator_min_sample": -582.3850534696,
+          "denominator_max_sample": -566.5498301022634,
+          "physical_gap_in_reference_units_min_sample": 0.5251842450521266,
+          "physical_gap_guard_passed_at_samples": true,
+          "physical_half_line_at_all_validation_nodes": true,
+          "physical_u_range_sample": [
+            -0.004883835958911285,
+            -0.0006095157620520169
+          ],
+          "all_real_polynomial_roots_diagnostic": [
+            {
+              "xi": -719.3845810849594,
+              "C": 7.491180440410972e-06,
+              "C_prime": 55931603.34239505,
+              "C_second": -466071.9854061797,
+              "W": 5390563.327319246,
+              "W_prime": -170261.17580672435,
+              "W_over_C_prime": 0.09637777222869821,
+              "R26_exponent": 1.7161323209957107,
+              "R26_jet": [
+                1.0,
+                -0.0027789986333647495,
+                3.859221394808634e-06,
+                -8.27391188918229e-15
+              ],
+              "R26_K": -5.519752498822639e-07,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 2.3138657893783518e-07,
+              "side_by_validation_samples": "negative",
+              "denominator_min_sample": -726.3850571049472,
+              "denominator_max_sample": -710.5498337376106,
+              "continuous_physical_half_line_certified": false
+            },
+            {
+              "xi": 7.521772116158063,
+              "C": -8.36735125631094e-11,
+              "C_prime": -14677.32799303679,
+              "C_second": -4524.834787746697,
+              "W": -13292.063636029863,
+              "W_prime": -2940.418531649945,
+              "W_over_C_prime": 0.9056187640104436,
+              "R26_exponent": null,
+              "R26_jet": [
+                1.0,
+                0.05496278968660318,
+                0.004378328303703491,
+                0.00019793760837636147
+              ],
+              "R26_K": -8.167193773301433,
+              "root_and_nonzero_jet_certified": false,
+              "R26_L_quadratic_coefficient": 1.4525976001485619,
+              "side_by_validation_samples": "positive",
+              "denominator_min_sample": 0.5212960961702766,
+              "denominator_max_sample": 16.35651946350692,
+              "continuous_physical_half_line_certified": false
+            }
+          ],
+          "frozen_xi_is_not_replaced_by_recomputed_root": true,
+          "continuous_physical_half_line_certified": false,
+          "exact_simple_C_root_certified": false,
+          "exact_negative_root_ratio_certified": false,
+          "complete_profile_constructed": false,
+          "finite_isometric_family_constructed": false
+        }
+      ],
+      "solver": {
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 180,
+        "residual_evaluations": 180,
+        "optimality": 0.6151724371507257,
+        "initial_residual_l2": 2.595811741925686,
+        "final_residual_l2": 0.05853803619427857,
+        "elapsed_seconds": 8.144037163000007
+      },
+      "derivative_audit": {
+        "method": "smooth central columns then exact current hinge branch",
+        "column_step": "2e-5*max(1,abs(x[j]))",
+        "directional_step": 2e-06,
+        "core_direction_relative_difference": 1.2248394481678626e-07,
+        "all_smooth_direction_relative_difference": 3.730024521258564e-09,
+        "current_hinge_direction_relative_difference": 5.009459519482116e-08,
+        "directional_probe_branch_switch_count": 0,
+        "smooth_core_jacobian_singular_values": [
+          50.55557715718621,
+          0.3455102570729763
+        ]
+      },
+      "actual_geometry_design_not_fixed_metric_refinement": true,
+      "no_simple_fourth_order_double_tail_profile_is_being_fitted": true,
+      "exact_negative_root_ratio_proved": false,
+      "complete_profile_constructed": false,
+      "finite_isometric_family_constructed": false,
+      "reach_lower_certified": false,
+      "task_complete": false
+    }
+  ],
+  "task_complete": false
+}
