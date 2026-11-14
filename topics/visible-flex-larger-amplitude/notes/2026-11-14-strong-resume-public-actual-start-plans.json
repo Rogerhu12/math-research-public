@@ -1,0 +1,49 @@
+{
+  "scope": "Four independent original full nonlinear candidate plans; prepared argv only, not execution or solution",
+  "repository": "Rogerhu12/math-research-public",
+  "plans": [
+    {
+      "file": "2026-11-14-strong-resume-loop-full-actual-actions-plan-r1.json",
+      "sha256": "11216ed78319dcb9e7ab805296e8ad67bf29082030b49e17b6198541a68a24b1",
+      "source_plan": "2026-11-14-strong-resume-loop-full-actual-ci-plan-r1.json",
+      "target_core": [
+        "0.13732455536077084",
+        "-0.010256552462686122",
+        "-0.0006764751770582023"
+      ]
+    },
+    {
+      "file": "2026-11-14-strong-resume-loop-half-actual-actions-plan-r1.json",
+      "sha256": "4321b175f6102521af506a00166c8bd0db6d8588cc6183fb426c44f76c67fb3e",
+      "source_plan": "2026-11-14-strong-resume-loop-half-actual-ci-plan-r1.json",
+      "target_core": [
+        "0.1316622766980846",
+        "-0.009756552462686117",
+        "-0.0006607527135150398"
+      ]
+    },
+    {
+      "file": "2026-11-14-strong-resume-loop-trust2-actual-actions-plan-r1.json",
+      "sha256": "4fa44db559852a4e37079c9bad26eef052f9eea15a336f12f028dc31496f858f",
+      "source_plan": "2026-11-14-strong-resume-loop-trust2-actual-ci-plan-r1.json",
+      "target_core": [
+        "0.13797560595620736",
+        "-0.010913574643540645",
+        "-0.0007453448639846468"
+      ]
+    },
+    {
+      "file": "2026-11-14-strong-resume-loop-trust2-fixedsize-actual-actions-plan-r1.json",
+      "sha256": "8b975daa841214f86f815b1891779b8f29625c9dddfb31e01066f31e4958d4e5",
+      "source_plan": "2026-11-14-strong-resume-loop-trust2-fixedsize-actual-ci-plan-r1.json",
+      "target_core": [
+        "0.13353500063514961",
+        "-0.010613008626782824",
+        "-0.0007319250368764865"
+      ]
+    }
+  ],
+  "local_margin325_r3_is_not_duplicated": true,
+  "deprecated_ci_queue_not_written": true,
+  "source_wrapper_sha256": "e1e6a3ddcf045ccd1d596afe88a0dfbc2cccd4ccd36b30cade76cf689db77604"
+}

@@ -1,0 +1,87 @@
+name: visible-larger public actual BVP
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  actual-bvp:
+    name: actual BVP ${{ matrix.lane }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        include:
+          - lane: r225-short-end
+            plan: 2026-11-14-geometry-resume-R225-short-end-actual-actions-plan-r2.json
+          - lane: full
+            plan: 2026-11-14-strong-resume-loop-full-actual-actions-plan-r1.json
+          - lane: half
+            plan: 2026-11-14-strong-resume-loop-half-actual-actions-plan-r1.json
+          - lane: trust2
+            plan: 2026-11-14-strong-resume-loop-trust2-actual-actions-plan-r1.json
+          - lane: trust2-fixedsize
+            plan: 2026-11-14-strong-resume-loop-trust2-fixedsize-actual-actions-plan-r1.json
+    concurrency:
+      group: visible-larger-public-actual-${{ matrix.lane }}
+      cancel-in-progress: false
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - name: Check out this topic and its current rules
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            topics/visible-flex-larger-amplitude
+          persist-credentials: false
+      - name: Avoid redundant automatic repository packing
+        run: |
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+      - name: Use the recorded Python runtime
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+          architecture: x64
+      - name: Use the recorded Node runtime
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.22.1'
+      - name: Install the recorded numerical dependencies
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Run the complete original nonlinear problem
+        timeout-minutes: 330
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+          LANE: ${{ matrix.lane }}
+          PLAN_FILE: ${{ matrix.plan }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TASK_OUT="$RUNNER_TEMP/visible-larger-public-results/$LANE"
+          mkdir -p "$TASK_OUT"
+          python -u topics/visible-flex-larger-amplitude/computations/root_20261114_public_job.py \
+            --plan "topics/visible-flex-larger-amplitude/notes/$PLAN_FILE" \
+            --out "$TASK_OUT" 2>&1 | tee "$TASK_OUT/run.log"
+      - name: Preserve actual outcomes and computed checkpoints
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: visible-larger-actual-${{ matrix.lane }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/visible-larger-public-results/${{ matrix.lane }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: warn

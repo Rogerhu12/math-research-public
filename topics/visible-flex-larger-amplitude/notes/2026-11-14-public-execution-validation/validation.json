@@ -1,0 +1,60 @@
+{
+  "scope": "Local syntax/hash/argv validation and real local prepare-only driver check, no external write or workflow execution",
+  "workflow_sha256": "9daf52b909e8a54cc55869413ff7ee7d27ef5654446d4bda0516207c112b24c5",
+  "plans": [
+    {
+      "lane": "r225-short-end",
+      "plan": "topics/visible-flex-larger-amplitude/notes/2026-11-14-geometry-resume-R225-short-end-actual-actions-plan-r2.json",
+      "sha256": "7501d9d6569c757061ffaf347f179edf375b20defd73573a2afde6ce3ca854dc",
+      "argv_items": 33,
+      "real_numerical_entry": true
+    },
+    {
+      "lane": "full",
+      "plan": "topics/visible-flex-larger-amplitude/notes/2026-11-14-strong-resume-loop-full-actual-actions-plan-r1.json",
+      "sha256": "11216ed78319dcb9e7ab805296e8ad67bf29082030b49e17b6198541a68a24b1",
+      "argv_items": 73,
+      "real_numerical_entry": true
+    },
+    {
+      "lane": "half",
+      "plan": "topics/visible-flex-larger-amplitude/notes/2026-11-14-strong-resume-loop-half-actual-actions-plan-r1.json",
+      "sha256": "4321b175f6102521af506a00166c8bd0db6d8588cc6183fb426c44f76c67fb3e",
+      "argv_items": 73,
+      "real_numerical_entry": true
+    },
+    {
+      "lane": "trust2",
+      "plan": "topics/visible-flex-larger-amplitude/notes/2026-11-14-strong-resume-loop-trust2-actual-actions-plan-r1.json",
+      "sha256": "4fa44db559852a4e37079c9bad26eef052f9eea15a336f12f028dc31496f858f",
+      "argv_items": 73,
+      "real_numerical_entry": true
+    },
+    {
+      "lane": "trust2-fixedsize",
+      "plan": "topics/visible-flex-larger-amplitude/notes/2026-11-14-strong-resume-loop-trust2-fixedsize-actual-actions-plan-r1.json",
+      "sha256": "8b975daa841214f86f815b1891779b8f29625c9dddfb31e01066f31e4958d4e5",
+      "argv_items": 73,
+      "real_numerical_entry": true
+    }
+  ],
+  "sources": {
+    "root_20261114_public_job.py": "13a48e03b2a6e3196f5f93209842c5b0ce751780f9375b2e0c64e42fa1837ce1",
+    "root_20261114_public_prepare.py": "f82dd58520938bc227e67ee060c6ee4d5f7c46b5fc7625dcba113c230b39eb4d"
+  },
+  "all_input_hashes_match": true,
+  "contents_permission": "read",
+  "workflow_dispatch_only": true,
+  "remote_action_executed": false,
+  "actual_local_driver": {
+    "phase": "finished",
+    "child_returncode": 0,
+    "seconds": 17.149776935577393,
+    "started": "2026-11-14T07:58:03+00:00",
+    "ended": "2026-11-14T07:58:20+00:00",
+    "plan_sha256": "720458e231abccabab82b0c6f3de5d3d0d7edbcb139965254b6e7d6fcdd44f34",
+    "source_sha256": "13a48e03b2a6e3196f5f93209842c5b0ce751780f9375b2e0c64e42fa1837ce1",
+    "mode": "prepare-only; no Jacobian or BVP solve"
+  },
+  "geometry_original_private_sources_requested": false
+}

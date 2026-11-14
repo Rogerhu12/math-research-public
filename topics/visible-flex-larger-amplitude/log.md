@@ -234,3 +234,6 @@ RK24完整八级与三整闭mesh七命令均真exit0，global metric4.7703317350
 
 ### 2026-11-14T08:26:14+00:00 — rk48sourcechain (local; public approval pending)
 冻结v3独立执行链、保32源knot背景及原longdouble六jet分区比较。RK48真Newton已到1.67236e−10，最终audit仍在运行；v3只消费真实成功终态，未完大包仅scratch，旧等待进程130不当solver失败。
+
+### 2026-11-14T08:26:15+00:00 — publicexecutionprep (local; public approval pending)
+题外新增.github/workflows/visible-larger-public-actual-bvp.yml，仅为本题五个实际BVP任务，dispatch-only/contents:read/并发4，无自动push；所有输入SHA/argv本地实核。91源+7raw恢复真exit0，R225自含输入driver prepare真0。只上传指定计算输出，恢复子进程凭证瞬时环境使用并在数值进程移除；公开push/Actions实际自动审批拒绝未解除，本次完全本地、无远端执行。
