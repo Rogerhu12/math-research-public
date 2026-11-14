@@ -271,3 +271,7 @@ A1–18保完整输入/输出/mean及真ray，可用同strip复sup替代旧C2符
 ### 真实径向profile的最小实际消费者已启动（2026-11-14 20:09:43 UTC）
 
 18pin新消费者 source10e96147…/manifest831bbaa7…已推：13个仍使用的旧pins逐字不变；实际e54f…六完整tensor和1328matrix原件、7662…完整moment原件直接复用。只新六profiles与4377准确径向积分；完整两侧root/正bodycut/mean及旧替代bound全保。root核全source/CI、workerdiff/flow/清单，tail独核数学和partial prefix。每个profile先checkpoint，已成case不重算；原root大artifact只在Actions取。待实际门，不预授改善或smallness。
+
+### 有限193同Z误差首次低于1/200，接完整无限反馈（2026-11-14 20:11:31 UTC）
+
+[实际报告](results/R133-supplement-actual-native-point-Hessian-same-Z-Green.md)：43635487128 child0/8门，完整6391片/接口/waist及真97 cap不变，固定负窗ordinary pair误差<.003509417445587<1/200；全内<.007490301792401。true97负荷<1.379019669555e−7，mean<4.079815735966e−8，已知完整high cut<2.920495224265e−7。root核9889B过程/25633B摘要、全部身份、8门及4真pull空diff。继续真high逆、body双向feedback和cap无限DN cross；有限q193不冒充真qν，full参数Schur仍未证。

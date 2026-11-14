@@ -571,3 +571,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### 原幅度tensor复用的径向Airy profile消费者（2026-11-14 20:09:43 UTC）
 
 [R1–15证明](results/R133-supplement-radial-reference-Airy-partition-and-central-series-bounds.md) 的独立18pin五件已推；source10e96147…、CIa0706b43…、worker d33f5075…、manifest831bbaa7…、flow29d6a50b…。root审全科学/CI及workerdiff/flow，13旧pins逐项相同；tail独核entire值/导数完整尾、j/g/profile、六tensor和4377积分恢复。只有新profile与源积分被授权执行，原成功数学不重算，数值结论待actual。
+
+### 有限193响应误差的实际1/200门通过（2026-11-14 20:11:31 UTC）
+
+[完整实际证据](results/R133-supplement-actual-native-point-Hessian-same-Z-Green.md) 已独推。公开43635487128：child0/8门，6391原profile仅完整右通道重标；负窗<.003509417445587，全内<.007490301792401，C0<.060889190964764。native7fcd5bec…3996581B/processad08b148…9889B/summary2fbdebed…25633B；root亲核全部实际门/源分量/mean/knownhigh及4真pull空README diff。只finite193通过1/200，未知high/body反馈/真实cap无限cross和完整νSchur继续。

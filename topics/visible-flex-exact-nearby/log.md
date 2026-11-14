@@ -341,3 +341,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:08:45 UTC：独立推43635264409原生64point实际报告；root全文核24048B process/29147B summary、26门、整套source比较及4真pull空README diff。只新64+64+16，旧whole/Taylor/7844/1325不重算；同w0 additive4.641143057402e−9。等待已运行后继43635487128真实Green，不预授finite/fullν门。
 
 - 2026-11-14 20:09:43 UTC：独立推径向Abar/完整中央级数18pin消费者五件，root/tail复核通过；13旧pins全同，六已成tensor/1328×2表只复用，新profile即时保存及partial积分恢复。45/50min真pull门、非FF rebase和非空artifact保留。只在公开Actions启动新数学，两README未变。
+
+- 2026-11-14 20:11:31 UTC：独立推native-point→Green43635487128真实结果：完整6391/8门/child0；固定负窗.003509417445587<1/200，科学5.133070s/child10.000707s。root核process/summary/source/287pin/native与4真pull空diff，保14物理费/6边界/mean/knownhigh。子问题达门后立即接无限反馈，未结束课题。
