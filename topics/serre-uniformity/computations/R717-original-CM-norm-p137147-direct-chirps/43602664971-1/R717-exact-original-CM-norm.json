@@ -1,0 +1,134 @@
+{
+  "configuration": {
+    "result": "R717",
+    "prime": 137147,
+    "n": 137148,
+    "D": "16950949224494125663770199202322730161405759062016",
+    "source_sha256": "c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835",
+    "python_flint": "0.9.0",
+    "prec_bits": 384,
+    "tail_bits": 256,
+    "cutoff": 49372920,
+    "cutoff_multiple": 360,
+    "a_max": 8113,
+    "shard_count": 4,
+    "finite_field": {
+      "basis": [
+        "1",
+        "zeta"
+      ],
+      "relation": "zeta^2+zeta+1=0",
+      "gamma": [
+        131992,
+        75276
+      ],
+      "order": 137148,
+      "prime_factors_order": [
+        2,
+        3,
+        11,
+        1039
+      ],
+      "gamma_to_n_over_3": [
+        0,
+        1
+      ],
+      "all_powers_sha256": "b0dc2c1c2541096b41158e75ed8249bd5d1a298a408c83e44c4d4145d86dfa95",
+      "projective_log_table_sha256": "838ef50a88f160565715b643cef1826d0f9aa404f7b623f3670fdef7825c253d"
+    },
+    "normalization": "R588 original chi6, theta_{-1}, S2*S3/C0^2; R717 v1",
+    "parameter_sha256": "11c4c2e75b3a34c0ce3639436c9eec1282d81f5cb28f495cb8ce03f9f1932938"
+  },
+  "complete": true,
+  "all_rows_covered": true,
+  "total_lattice_terms": 14925440,
+  "all_trace_roundings_unique": true,
+  "max_real_trace_radius": [
+    "597851749",
+    -82,
+    "0",
+    0
+  ],
+  "historical_expected_p2_product": null,
+  "padic_result": {
+    "P_exactly_zero": false,
+    "padic_digits": 6,
+    "modulus": "6654537439844969533983720123529",
+    "teichmueller_lift": [
+      "291966755832990292172716689527",
+      "5169731443431895126669136480072"
+    ],
+    "integer_polynomial_value": [
+      "5777613736444106705138118150518",
+      "0"
+    ],
+    "valuation_integer_numerator": 5,
+    "valuation_P": 0,
+    "valuation_M2": 0,
+    "normalized_P_leading_mod_p": 105522,
+    "normalized_M2_square_over_zeta2_mod_p": 53970,
+    "p2_S2S3_mod_p2": 0,
+    "C0_square_mod_p2": 14776627871,
+    "alpha_mod_p2": 3143521624,
+    "actual_M2_unit": true,
+    "height_or_Serre_exclusion_claimed": false
+  },
+  "artifacts": [
+    {
+      "file": "R717-bins-0.json.gz",
+      "sha256": "fae9b0aadc62a36f0a5d251a17c802d698af183145cccec7f0f3b6e4352a71d8"
+    },
+    {
+      "file": "R717-bins-1.json.gz",
+      "sha256": "eabe4b445631f071839f9cf45ec162620c0537ed1eb6e1d28d79b27d66316f6a"
+    },
+    {
+      "file": "R717-bins-2.json.gz",
+      "sha256": "5ef6d896e45f62d7ed24be78eb70b6913a6109ac044ae74a375daca969dfeea8"
+    },
+    {
+      "file": "R717-bins-3.json.gz",
+      "sha256": "fa90bcd9cfe7b392dbcd6ea526eb765ef819770418cbe2df1530a71a0773496b"
+    },
+    {
+      "file": "R717-reused-bin-compatibility.json",
+      "sha256": "de9adbb40d1a3b3ffdb07bfb8d905cb0658516ab83af7504b346ea2e95ac915d"
+    },
+    {
+      "file": "R717-original-binned-source.py.gz",
+      "sha256": "9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b"
+    },
+    {
+      "file": "R717-complex-embeddings.json.gz",
+      "sha256": "46257ffeb21d3b47f67511b922a0235713668c95e5c42367afb9dc59d7600697"
+    },
+    {
+      "file": "R717-integral-trace-balls.json.gz",
+      "sha256": "f2bfd1c46cde0e9c5e772f7c15392a66db146d4602ad8dfe2201d1e11b645fbe"
+    },
+    {
+      "file": "R717-exact-integer-polynomial.json.gz",
+      "sha256": "1bc59fb2e944a02e9cb6fdb9f5344f2858daee20544387f06978e9b3c435de14"
+    }
+  ],
+  "reused_legacy_bin_proof": {
+    "schema": "R717-fixed-bins-direct-chirps-v1",
+    "source_run_id": "43597802237",
+    "source_commit": "ffc69b45d58ea9aaafd1e0686fc55377701a00be",
+    "source_artifact_name": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1",
+    "old_core_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+    "new_core_sha256": "c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835",
+    "old_parameter_sha256": "1a174a52ff6037bd8b6c963884869b21b38240d1f54b9acf94ad338e2c5fef71",
+    "new_parameter_sha256": "11c4c2e75b3a34c0ce3639436c9eec1282d81f5cb28f495cb8ce03f9f1932938",
+    "entire_bin_producer_prefix_byte_equal": true,
+    "bin_producer_prefix_sha256": "cb32f448248aba486dd2cb83f7976e1be990b11edca697b92021b5df009c1930",
+    "fixed_bin_files_sha256": {
+      "R717-bins-0.json.gz": "fae9b0aadc62a36f0a5d251a17c802d698af183145cccec7f0f3b6e4352a71d8",
+      "R717-bins-1.json.gz": "eabe4b445631f071839f9cf45ec162620c0537ed1eb6e1d28d79b27d66316f6a",
+      "R717-bins-2.json.gz": "5ef6d896e45f62d7ed24be78eb70b6913a6109ac044ae74a375daca969dfeea8",
+      "R717-bins-3.json.gz": "fa90bcd9cfe7b392dbcd6ea526eb765ef819770418cbe2df1530a71a0773496b"
+    },
+    "all_numeric_configuration_fields_unchanged": true,
+    "completed_bins_recomputed": false
+  }
+}

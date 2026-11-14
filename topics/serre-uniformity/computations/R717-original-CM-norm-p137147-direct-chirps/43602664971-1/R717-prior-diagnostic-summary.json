@@ -1,0 +1,310 @@
+{
+  "complete": true,
+  "kind": "retained-ball-diagnostic",
+  "diagnostic_source_sha256": "1a0edc14b6f8af46468d27bdb3001a4a97930771667259ad1b8443bae56b14b6",
+  "request_sha256": "5467a1cb5a3393e9afe6764dd1368a150c0a87a72eb2a84c5c66f24237aaf631",
+  "configuration": {
+    "D": "16950949224494125663770199202322730161405759062016",
+    "a_max": 8113,
+    "cutoff": 49372920,
+    "cutoff_multiple": 360,
+    "finite_field": {
+      "all_powers_sha256": "b0dc2c1c2541096b41158e75ed8249bd5d1a298a408c83e44c4d4145d86dfa95",
+      "basis": [
+        "1",
+        "zeta"
+      ],
+      "gamma": [
+        131992,
+        75276
+      ],
+      "gamma_to_n_over_3": [
+        0,
+        1
+      ],
+      "order": 137148,
+      "prime_factors_order": [
+        2,
+        3,
+        11,
+        1039
+      ],
+      "projective_log_table_sha256": "838ef50a88f160565715b643cef1826d0f9aa404f7b623f3670fdef7825c253d",
+      "relation": "zeta^2+zeta+1=0"
+    },
+    "n": 137148,
+    "normalization": "R588 original chi6, theta_{-1}, S2*S3/C0^2; R717 v1",
+    "parameter_sha256": "1a174a52ff6037bd8b6c963884869b21b38240d1f54b9acf94ad338e2c5fef71",
+    "prec_bits": 384,
+    "prime": 137147,
+    "python_flint": "0.9.0",
+    "result": "R717",
+    "shard_count": 4,
+    "source_sha256": "75a81149a898e71ab33413ddd2cebc49a4b8abdbe6e8c0bc964a56092098d402",
+    "tail_bits": 256
+  },
+  "verified_inputs": [
+    {
+      "file": "R717-bins-0.json.gz",
+      "bytes": 35432597,
+      "sha256": "fae9b0aadc62a36f0a5d251a17c802d698af183145cccec7f0f3b6e4352a71d8",
+      "retained_source_artifact": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1"
+    },
+    {
+      "file": "R717-bins-1.json.gz",
+      "bytes": 35480949,
+      "sha256": "eabe4b445631f071839f9cf45ec162620c0537ed1eb6e1d28d79b27d66316f6a",
+      "retained_source_artifact": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1"
+    },
+    {
+      "file": "R717-bins-2.json.gz",
+      "bytes": 35440075,
+      "sha256": "5ef6d896e45f62d7ed24be78eb70b6913a6109ac044ae74a375daca969dfeea8",
+      "retained_source_artifact": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1"
+    },
+    {
+      "file": "R717-bins-3.json.gz",
+      "bytes": 35478665,
+      "sha256": "fa90bcd9cfe7b392dbcd6ea526eb765ef819770418cbe2df1530a71a0773496b",
+      "retained_source_artifact": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1"
+    },
+    {
+      "file": "R717-complex-embeddings.json.gz",
+      "bytes": 4079152,
+      "sha256": "90f4042b56e7cd803ccb031df8563350f9fd79cd9c12f3185099321d0d0ea57c",
+      "retained_source_artifact": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1"
+    },
+    {
+      "file": "R717-integral-trace-balls.json.gz",
+      "bytes": 17704260,
+      "sha256": "3747a7fb3b8dde5accd5f98bdd8bb34433c230becd56d39cececfb5795d8005c",
+      "retained_source_artifact": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1"
+    },
+    {
+      "file": "R717_certified_original_CM_norm.py.gz",
+      "bytes": 6963,
+      "sha256": "9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b",
+      "retained_source_artifact": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1"
+    }
+  ],
+  "trace_failure_counts": {
+    "complex_unique_integer_missing": 137148,
+    "real_unique_integer_missing": 137148,
+    "imaginary_interval_excludes_zero": 0,
+    "real_radius_not_strictly_below_quarter": 137148,
+    "real_interval_excludes_nearest_midpoint_integer": 0,
+    "imaginary_midpoint_nonzero": 137148,
+    "any_original_gate_failed": 137148
+  },
+  "trace_real_radii": {
+    "count": 137148,
+    "zeros": 0,
+    "minimum": {
+      "mantissa": "62255661",
+      "exponent": 278413,
+      "approx_log2_abs": 278438.89170169376
+    },
+    "maximum": {
+      "mantissa": "532573319",
+      "exponent": 278783,
+      "approx_log2_abs": 278811.98840491293
+    },
+    "median_lower": {
+      "mantissa": "620034573",
+      "exponent": 278410,
+      "approx_log2_abs": 278439.2077734212
+    },
+    "median_upper": {
+      "mantissa": "620034609",
+      "exponent": 278410,
+      "approx_log2_abs": 278439.207773505
+    }
+  },
+  "trace_imaginary_radii": {
+    "count": 137148,
+    "zeros": 0,
+    "minimum": {
+      "mantissa": "62255661",
+      "exponent": 278413,
+      "approx_log2_abs": 278438.89170169376
+    },
+    "maximum": {
+      "mantissa": "532573319",
+      "exponent": 278783,
+      "approx_log2_abs": 278811.98840491293
+    },
+    "median_lower": {
+      "mantissa": "620034573",
+      "exponent": 278410,
+      "approx_log2_abs": 278439.2077734212
+    },
+    "median_upper": {
+      "mantissa": "620034609",
+      "exponent": 278410,
+      "approx_log2_abs": 278439.207773505
+    }
+  },
+  "embedding_P_radii": {
+    "count": 20760,
+    "zeros": 0,
+    "minimum": {
+      "mantissa": "1030947461",
+      "exponent": 184998,
+      "approx_log2_abs": 185027.94132366613
+    },
+    "maximum": {
+      "mantissa": "1012394479",
+      "exponent": 185740,
+      "approx_log2_abs": 185769.91512439898
+    },
+    "median_lower": {
+      "mantissa": "627968637",
+      "exponent": 184999,
+      "approx_log2_abs": 185028.22611726666
+    },
+    "median_upper": {
+      "mantissa": "628029691",
+      "exponent": 184999,
+      "approx_log2_abs": 185028.2262575253
+    }
+  },
+  "bin_max_radii": [
+    [
+      {
+        "mantissa": "795027511",
+        "exponent": -400,
+        "approx_log2_abs": -370.43357045686065
+      },
+      {
+        "mantissa": "2659821",
+        "exponent": -391,
+        "approx_log2_abs": -369.6571022718297
+      },
+      {
+        "mantissa": "658183209",
+        "exponent": -399,
+        "approx_log2_abs": -369.7060860187558
+      },
+      {
+        "mantissa": "813534079",
+        "exponent": -400,
+        "approx_log2_abs": -370.4003724591403
+      }
+    ],
+    [
+      {
+        "mantissa": "626988553",
+        "exponent": -399,
+        "approx_log2_abs": -369.77613613707774
+      },
+      {
+        "mantissa": "860151149",
+        "exponent": -399,
+        "approx_log2_abs": -369.3199850430023
+      },
+      {
+        "mantissa": "498810393",
+        "exponent": -398,
+        "approx_log2_abs": -369.10608371604354
+      },
+      {
+        "mantissa": "223476251",
+        "exponent": -398,
+        "approx_log2_abs": -370.26445371770285
+      }
+    ],
+    [
+      {
+        "mantissa": "400767747",
+        "exponent": -399,
+        "approx_log2_abs": -370.4218088329555
+      },
+      {
+        "mantissa": "687430333",
+        "exponent": -399,
+        "approx_log2_abs": -369.6433617285811
+      },
+      {
+        "mantissa": "332556589",
+        "exponent": -398,
+        "approx_log2_abs": -369.69097538533043
+      },
+      {
+        "mantissa": "812405531",
+        "exponent": -400,
+        "approx_log2_abs": -370.4023751791116
+      }
+    ],
+    [
+      {
+        "mantissa": "463680803",
+        "exponent": -398,
+        "approx_log2_abs": -369.2114432424397
+      },
+      {
+        "mantissa": "940202515",
+        "exponent": -400,
+        "approx_log2_abs": -370.1916037012191
+      },
+      {
+        "mantissa": "969861403",
+        "exponent": -399,
+        "approx_log2_abs": -369.14679664565386
+      },
+      {
+        "mantissa": "794971585",
+        "exponent": -398,
+        "approx_log2_abs": -368.43367194643145
+      }
+    ]
+  ],
+  "chirp_first_radius_crossings": {
+    "-128": 2813,
+    "-64": 3183,
+    "-2": 3509,
+    "0": 3519,
+    "64": 3830,
+    "1024": 7220
+  },
+  "diagnostic_outputs": [
+    {
+      "file": "R717-bin-0-diagnostic.json",
+      "sha256": "a3f1f0cb9e300033e2c96fe92b12b223c0d9126cbd1c55ca1d9087871540de70",
+      "bytes": 10751
+    },
+    {
+      "file": "R717-bin-1-diagnostic.json",
+      "sha256": "7fb690a42b2362bb5283a650c469485fb2ad427b0b96e814fb2f51089a0d2092",
+      "bytes": 10762
+    },
+    {
+      "file": "R717-bin-2-diagnostic.json",
+      "sha256": "dec5e5be7c9c3533fc106e2cda3a87b704a1d15fdba93cc674eed2c3f15d2d6a",
+      "bytes": 10753
+    },
+    {
+      "file": "R717-bin-3-diagnostic.json",
+      "sha256": "f666cf9a860a957413a8c6747066a600f6a15df9b5b4a59cd35f555fd149f839",
+      "bytes": 10765
+    },
+    {
+      "file": "R717-chirp-diagnostic.json",
+      "sha256": "f0badfecd6e5a9bfb3a56b0f776864c4190a37e338ee933bc7197eef8e5f8011",
+      "bytes": 14870
+    },
+    {
+      "file": "R717-embedding-diagnostic.json",
+      "sha256": "8ebffa14f23e3357db3967ff64ed568181d0ff0159279c4a1795ce6e6c71136b",
+      "bytes": 9291
+    },
+    {
+      "file": "R717-trace-diagnostic.json",
+      "sha256": "2bd2c7213a37d5d07dd96b9f13631cda096b28d013f6605df437217c0dacd071",
+      "bytes": 12773
+    }
+  ],
+  "lattice_enumerations": 0,
+  "DFTs": 0,
+  "new_integer_trace_certificate": false,
+  "actual_M2_value_computed": false
+}

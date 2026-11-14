@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "result": "R717-original-CM-norm-p137147-direct-chirps",
+  "source_commit": "f63e0498a9d599342ee5af0f66f3a425edfd9fd2",
+  "execution_environment": "public-repository-github-actions",
+  "lattice_enumerations": 0,
+  "mathematical_completion_claimed": false,
+  "status": "RECOVERED_WITH_DIRECT_CHIRPS",
+  "core_receipt_sha256": "41940fcf1fde383e723c1b5c0265f23b04ed441cb86d8f1e946223ec721b1c2c",
+  "padic_result": {
+    "P_exactly_zero": false,
+    "padic_digits": 6,
+    "modulus": "6654537439844969533983720123529",
+    "teichmueller_lift": [
+      "291966755832990292172716689527",
+      "5169731443431895126669136480072"
+    ],
+    "integer_polynomial_value": [
+      "5777613736444106705138118150518",
+      "0"
+    ],
+    "valuation_integer_numerator": 5,
+    "valuation_P": 0,
+    "valuation_M2": 0,
+    "normalized_P_leading_mod_p": 105522,
+    "normalized_M2_square_over_zeta2_mod_p": 53970,
+    "p2_S2S3_mod_p2": 0,
+    "C0_square_mod_p2": 14776627871,
+    "alpha_mod_p2": 3143521624,
+    "actual_M2_unit": true,
+    "height_or_Serre_exclusion_claimed": false
+  },
+  "all_rows_covered": true,
+  "all_trace_roundings_unique": true,
+  "completed_lattice_terms_recomputed": 0
+}

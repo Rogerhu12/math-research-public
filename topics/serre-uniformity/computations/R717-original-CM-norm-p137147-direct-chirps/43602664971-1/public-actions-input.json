@@ -1,0 +1,95 @@
+{
+  "result": "R717-original-CM-norm-p137147-direct-chirps",
+  "source_commit": "f63e0498a9d599342ee5af0f66f3a425edfd9fd2",
+  "request": {
+    "result": "R717-original-CM-norm-p137147-direct-chirps",
+    "revision": 1,
+    "purpose": "Recover the original full CM norm using independently enclosed exact chirp phases, reusing all four completed public bins and the unchanged numerical configuration.",
+    "prime": 137147,
+    "shard_count": 4,
+    "prec_bits": 384,
+    "tail_bits": 256,
+    "cutoff_multiple": 360,
+    "python_flint_version": "0.9.0",
+    "timeout_seconds": 18000,
+    "arithmetic_sha256": "c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835",
+    "wrapper_sha256": "5d0ed1adeb595b65dccc8417d7b10d9c0d8d234c3f89894cd4271cb8832ad5d7",
+    "monitor_sha256": "be783e9912137acf85c037a5096a9402df7ab6b390aef6d3fb7ea4bd8caf1c12",
+    "compatibility_manifest_sha256": "de9adbb40d1a3b3ffdb07bfb8d905cb0658516ab83af7504b346ea2e95ac915d",
+    "source_run_id": "43597802237",
+    "source_artifact_name": "serre-cartier-R717-original-CM-norm-p137147-recover-43597802237-1",
+    "original_source_archive_sha256": "9524db636dc1e9d033186ec9ad9d1fc3ad00f366969db964dc48340a8915201b",
+    "diagnostic_summary_path": "topics/serre-uniformity/computations/R717-trace-diagnostics-p137147/43602040433-1/R717-diagnostic-summary.json",
+    "diagnostic_summary_sha256": "7177f7a2a698d20fb4bb7789f9cb95f73c7aba3af272848cfa0b118a2d51ecbb",
+    "prior_p41_calibration": {
+      "source_run_id": "43597163388",
+      "receipt_path": "topics/serre-uniformity/computations/R717-original-CM-norm-p41/43597163388-1/R717-exact-original-CM-norm.json",
+      "receipt_sha256": "fb4d9ffadacda241575ab92a49f66819d8ac077ececa8f5151adf4aea3751fa6",
+      "recompute": false
+    },
+    "completed_lattice_rows_recomputed": 0,
+    "failed_embeddings_and_traces_reused": false,
+    "original_integer_certificate_tests_unchanged": true,
+    "mathematical_completion_claimed": false
+  },
+  "sources": [
+    {
+      "path": "topics/serre-uniformity/scripts/R717_public_direct_chirp_recover.py",
+      "sha256": "5d0ed1adeb595b65dccc8417d7b10d9c0d8d234c3f89894cd4271cb8832ad5d7",
+      "archive": "sources/topics/serre-uniformity/scripts/R717_public_direct_chirp_recover.py.gz",
+      "archive_sha256": "d3ad1afec853bcffeae879b0394e13fbb6cbbf9aa5061d15a0e7858c4a4d927e"
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R717_certified_original_CM_norm.py",
+      "sha256": "c437d880dcea112f4e5b3f7d44cdfd37ad221b7f41a4d14d1359f11f010aa835",
+      "archive": "sources/topics/serre-uniformity/scripts/R717_certified_original_CM_norm.py.gz",
+      "archive_sha256": "7b8dda171ddc7da795e5c794f40a2d591961efc5a2ee97de7c793342ca59fd80"
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R717_public_original_cm_norm.py",
+      "sha256": "be783e9912137acf85c037a5096a9402df7ab6b390aef6d3fb7ea4bd8caf1c12",
+      "archive": "sources/topics/serre-uniformity/scripts/R717_public_original_cm_norm.py.gz",
+      "archive_sha256": "b2c59ef827b063fa136d8f12c7298904ed5a9487a4c9687702b6e144bdc3838a"
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R717-p137147-fixed-bin-compatibility.json",
+      "sha256": "de9adbb40d1a3b3ffdb07bfb8d905cb0658516ab83af7504b346ea2e95ac915d",
+      "archive": "sources/topics/serre-uniformity/notes/R717-p137147-fixed-bin-compatibility.json.gz",
+      "archive_sha256": "3cf257d88dd0c0b19703e9cdc0ed9b0ed8763f24e1bea39e474473f61bd65273"
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R717-direct-chirp-recover-request.json",
+      "sha256": "2ebf91ea419cdc47cfe2e376fb853a29bd239a5f857b55ad891ba3a5a4a32742",
+      "archive": "sources/topics/serre-uniformity/notes/R717-direct-chirp-recover-request.json.gz",
+      "archive_sha256": "48065a34bd928e1d550f4e3aa5034f444e47b7fc72f99a4a33c51cae45e98ad5"
+    },
+    {
+      "path": ".github/workflows/serre-R717-direct-chirp-recover.yml",
+      "sha256": "fb2012605d9ab267a62b6b961e2a9ba6a5f200e2e244c51f66c8b8df6b19415b",
+      "archive": "sources/.github/workflows/serre-R717-direct-chirp-recover.yml.gz",
+      "archive_sha256": "4f042acb87180fdc771a6e2d1ff3c7720ac0d6a4c1f5ca143c92ec86979c662c"
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/p41_public_actions_recovery.py",
+      "sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e",
+      "archive": "sources/topics/serre-uniformity/scripts/p41_public_actions_recovery.py.gz",
+      "archive_sha256": "5a3d0f17f819a646a94ab8eff6a48823db0edf0a7cdbcfd58f4a5dc25b472a2d"
+    },
+    {
+      "path": "README.md",
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "archive": "sources/README.md.gz",
+      "archive_sha256": "049816cbfe3110f2816d5d9f9a702f2ccbad1e2838538e60d0ddc681b96a4431"
+    },
+    {
+      "path": "topics/serre-uniformity/README.md",
+      "sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+      "archive": "sources/topics/serre-uniformity/README.md.gz",
+      "archive_sha256": "410f2f04782efdd16858f074149a398f9fa52b0d1f435eca70591466aefec7ab"
+    }
+  ],
+  "source_repository": "Rogerhu12/math-research-public",
+  "execution_environment": "public-repository-github-actions",
+  "mathematical_completion_claimed": false,
+  "request_sha256": "2ebf91ea419cdc47cfe2e376fb853a29bd239a5f857b55ad891ba3a5a4a32742"
+}
