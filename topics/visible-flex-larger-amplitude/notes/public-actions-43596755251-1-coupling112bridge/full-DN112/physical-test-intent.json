@@ -1,0 +1,36 @@
+{
+  "schema": "complete-physical-angle-Galerkin-DN-test-v1",
+  "finite_boundary_scheme": "physical-phi-complete-DN-v1",
+  "scope": "Solve the explicit R252 full physical-phi DN finite boundary problem.\n\nThe complete original field/constant-core/scalar ODE, real prepared699,\nactual native tail, original Newton and its 17 trials, RMS=1e-6 and\nBC=1e-11 are retained.  All M=T112 right rows instead test the pulled-back\nnative slope in physical phi.  This is a new finite discretization; an\naccepted R_phi is never relabelled as an accepted old R_theta.\n\nThe original complete pivoted band-LU backend solves the entire new\nlinearization.  Final fresh nonlinear native audit, fixed-p physical RMS,\nold material height seam and independent full-angle cut audit remain.\n",
+  "entry_source_sha256": "abbf1a53cb454effc7e90e97166a469b84eb61cd7d75832dc3c2ab0f81add10b",
+  "source_sha256": {
+    "geometry_20261114_physical_test_full_dn.py": "abbf1a53cb454effc7e90e97166a469b84eb61cd7d75832dc3c2ab0f81add10b",
+    "geometry_20261114_physical_test_boundary.py": "3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681",
+    "geometry_20261114_physical_test_response.py": "83ce387778fb90209e841fc841a81ed3d99e15181d6e86210ec1244fde017e79",
+    "geometry_20261114_physical_test_cut_audit.py": "7a548961ff0bd3e5171db18f1133d42f606be19e65e5d2e919432514042ba420",
+    "geometry_20261114_lifted_modes_banded_full_dn.py": "390387db4700f64302b76ee684f9a810a611c57c6617eb67d4597a9fa18905c4",
+    "geometry_20261114_banded_collocation.py": "0780dcc4e331f6cde64141b0fa9ebdd1325eec2af87d94fc455e72405a0524f1",
+    "geometry_20261114_lifted_modes_full_dn.py": "d885ebc8de5ebd02f006c4104d8b67e856047b4e58f0e125651b38187fb251a5",
+    "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2"
+  },
+  "response_check_sha256": "b7caca373ad778598caa6e222e4ebb9197e3ec2d6054c9b18913ba8772b70b9b",
+  "warm_sha256": "bd8d3fd33e3fbfc23d621014ed3cc1c990113cb979238653d6cbad3acb6721f4",
+  "tail_config_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+  "material_angles": 4096,
+  "physical_angles": 4096,
+  "boundary_residual_definition": "All original left rows and R_phi = v_nonmean - cut_scale*S*D(epsilon_h*P*z_nonmean)",
+  "original_material_boundary_residual_definition": "R_theta = P*v_nonmean - cut_scale*D(epsilon_h*P*z_nonmean), independently audited",
+  "old_material_test_equivalent": false,
+  "native_height_and_true_tail_unchanged": true,
+  "full_original_ODE_and_core_scalar_rows_retained": true,
+  "complete_band_LU_retained": true,
+  "original_17_Newton_trials_retained": true,
+  "unchanged_numeric_tolerances": {
+    "collocation_and_frozen_physical_RMS": 1e-06,
+    "boundary": 1e-11
+  },
+  "final_true_native_full_audit_required": true,
+  "full_angle_cut_audit_is_a_measurement_not_an_extra_Newton_gate": true
+}

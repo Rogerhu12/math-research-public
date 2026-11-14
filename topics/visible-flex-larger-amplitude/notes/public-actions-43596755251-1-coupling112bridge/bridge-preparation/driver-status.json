@@ -1,0 +1,18 @@
+{
+  "schema": "original-699-plus-analytic-last-bridge-refinement-v1",
+  "scope": "Resolve only the last bridge of the actual R252 M112 initial guess.\n\nAll original 699 nodes and their complete state values are preserved.\nAdditional points use the original zero-control analytic seed, including\nthe complete material-circle projection and the same full height mean.\nA sampled circular variational scale selects a mesh; it is not an exact\nfinite-Jacobian eigenvalue bound or a new scientific acceptance gate.\nThe original full finite RHS/domain/RMS queries and 1200-node budget remain.\n\nSubcommands: prepare, then response.  The latter performs the actual\ncomplete R252 FD again on the new mesh; the old source, true T112 anchor\nand native configuration remain strictly bound.\n",
+  "phase": "analytic-last-bridge-prepared",
+  "source_sha256": "038c319dc2dce09d38b0dd94ca21281a721e6023dccd6007b68d686050be7d15",
+  "source_prepared_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+  "source_accepted_sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+  "actual_failed_run": 43594985550,
+  "actual_step_sha256": "d7f6c5ec07990f2fc8948eb1371d54503d2ecaded978d7d7282a7640b487d2a2",
+  "actual_RHS_sha256": "ebc3c2343eced8c9c21c51a1519c124e6c120ed02b6e609fec5f9e32771c9560",
+  "original_math_sources_unchanged": true,
+  "new_coupled_finite_acceptance": false,
+  "nodes": 1073,
+  "prepared_sha256": "bd8d3fd33e3fbfc23d621014ed3cc1c990113cb979238653d6cbad3acb6721f4",
+  "initial_collocation_max": 0.0071105950777444905,
+  "local_comparison_completed": true,
+  "elapsed_seconds": 86.120038819
+}
