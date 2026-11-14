@@ -70,3 +70,6 @@
 
 - [R525：原多权Wronskian零估计与临界支持发散下界](../results/R525-original-multiweight-wronskian-and-growing-kernel-support.md)：原有限低轴的对数变量有任意X次数的resultant零估计，真实多权Wronskian最高项由权Vandermonde支付。完整M首核满足显示支持数门，二次临界至少常数N^(1/3)个非零权，低第三块至少((17/147)^(1/6)−o(1))p^(1/6)；原后两块/同一修正全保，未排更多权核。
 
+
+- [R529：原J/K小核、任意层S返回及真实W补偿](../results/R529-original-low-j-k-core-and-complete-st-carry.md)：半整J/K的whole6及E的odd9绝对β核、Kunit六次逆和四个T固定输出完整支付；任意J深返回原S，同一网格中央v5n且质量整条0，无新ray或大p门。旧W不在所保四输出，两个真实补偿全列；同域W−6δY差v5n+3。
+

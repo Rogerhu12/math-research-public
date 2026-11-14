@@ -6,21 +6,21 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：b43ee160d0c5b6c2fd65c04bb42fd172a635a82f；2026-11-14 14:58:13 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：fe21140ebe95bb8d439fb8374124b3e2460719f7；2026-11-14 15:03:13 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 现只在Rogerhu12/math-research-public；旧→公开迁移、全部规则差异与旧接口保完整归档链。规则11每次pull后核两README且至少每小时；12完整证明直接登记；13本库Actions；14公开库禁令牌。旧runner/ci-queue停用。
 - main逐条commit/push已授权；不强推、不改写已发表历史。非快进立即pull --rebase重推；当前API用expected_sha/force=false，拒绝后立即读新main、核规并基于新头追加。
 - 只写课题log，每轮≤5行，不动根LOG。令牌只终端临时环境，不入文件/提交/日志/回复。单文件<5MB、接口文本/Markdown<100KB、HANDOFF<10KB、open尽量<30KB；不加冻结/独审/机械复跑门槛。
 
 ## 当前发布、环境与分工
 
-R1–363、R365–528已登记，R364仍开。R523=cea16cf6，R524=c0d07f33，R522=4b3a60ca，R527=bf4198b1，R526=744b644b，R528=fdd8492c，R525本次登记；全部结论链接见results及分段索引。R513证书显示换基a+bδ=(a+b)+2bω修正已推795725ad；正文/δ矩阵不变。
+R1–363、R365–529已登记，R364仍开。R523=cea16cf6，R524=c0d07f33，R522=4b3a60ca，R527=bf4198b1，R526=744b644b，R528=fdd8492c，R525=59fb9e00，R529本次登记；全部结论链接见results及分段索引。R513证书显示换基a+bδ=(a+b)+2bω修正已推795725ad；正文/δ矩阵不变。
 执行环境12:35 UTC断连，14:02再确认无可用执行环境。现连接GitHub读main、核规则、非force追加，未称实际git pull；恢复后先pull --rebase/核规，再合并遗留，不覆盖API结果。
 R501原正文/脚本/JSON已恢复；R502重建脚本公开Actions run43596695716/job132452617972实测成功，来源1dafbfa7，p239/D40/81行；原生JSON/日志已推da54025b，不跨p声称。
-root统一元数据及逐条发布，代理仅建proof/script blobs。theta续R531隐藏二轴的真实carry/纤维补偿；deep续R530原p除连接/实际余核；literature续R529同一S/T实际混管；root续原多权零估计与真实三层/forcing的联合。完整结论随到随推。
+root统一元数据及逐条发布，代理仅建proof/script blobs。theta续R531隐藏二轴的真实carry/纤维补偿；deep续R530原p除连接/实际余核；literature续R532原A5核与J/A5真实二维张量；root续原多权零估计与真实三层/forcing的联合。完整结论随到随推。
 
 ## 完整归档与目标桥
 
-最新完整接口归档：[R525之前完整HANDOFF](notes/2026-11-14-frontier-before-r525.md)，链回全部前轮HANDOFF、open、旧规则/发布记录；压缩没有关闭旧支线。分段PROOF-INDEX-R501-R550继续。旧日志见notes/2026-11-14-log-through-r494.md。
+最新完整接口归档：[R529之前完整HANDOFF](notes/2026-11-14-frontier-before-r529.md)，链回全部前轮HANDOFF、open、旧规则/发布记录；压缩没有关闭旧支线。分段PROOF-INDEX-R501-R550继续。旧日志见notes/2026-11-14-log-through-r494.md。
 S34/T72/U136分别桥接固定y²=x³+17/+24/+2312，rank2见R294/R398/R469；通常Selmer保全Sha给2+corankSha≤2ordJ。原中央导数在无穷p上非零足够；有限曲线池须同一无穷p集至少一条。辅助来源、有限p或子域非零均不替代。
 原quartic E17:y²=x³−17x及E34/E136/E389、O4全Hilbert类迹低增广、O6真实单位Tor/评价仍开，详open/归档；高度、非p除及环境非零不代原类/真实单位条件。
 
@@ -37,7 +37,9 @@ R523隐藏B=103CH及D_H实际β、h中独立C/D五sigma与A/B换框、偶A深同
 
 R527共同H0/B六次逆保Π4=(Y,W,W′,D_H)；A偶深对h/8倍深对四态返回λr。Y/W′/E0均实际移权，旧W不动。原小管中央和新局部质量均v5n，完整七质量系数/1013固定大p门保正文；新质量不能借R522置0。
 
-R528 Dj=D0+(0,1+ω,1)H0是T循环的三个整Norm14轴，wholeK14=−I由Θ(γz)定号。正6/12/18测试各除1+λκ^(6k)，三个真实unit指示的加权平均（非交集）准确保π3=(Y,W,W′)全部联合，T及观察轴收缩固定。原D_n仅j0/2活，j1恒deep；完整I1/I7/I13及其log、尺度质量保正文。S/T局部归一差首5unit，质量是T5/T11/T17完整多项式；仅删固定非零常数有限坏集。与R522之差Kp满足π3_*Kp=0，故同一{Y,Wunit}混合行全0而原D_n v5n；隐藏纤维补集必须反号补偿，未成矛盾。
+R528三个整Norm14轴T循环，wholeβ和正6/12/18测试已付；真实unit平均保π3=(Y,W,W′)，原D_n仅两支活。全I1/I7/I13 log矩、T5/T11/T17质量、固定有限坏集保正文；与R522差Kp的π3推前全0，同域{Y,Wunit}混合行全0而D_n v5n，隐藏纤维补集未消。
+
+R529 J=C−x、K=C−ω²x正交Norm3/2，2J/2K wholeeven6 β；E=H0−2(1−ω)K/3 Norm1、3E odd9 β，无新ray。rawρ/h三核，未推广全部quarter。Πfix=(J,Y,ξ2,d0) Gramdet6，Kunit六次逆P_K完整回此四输出，T/J均固定测试；任意J深carry Γr={Jdeep r,Kunit}归一后βr原S，原四伴随/近相消条件全保。原五深/xunit网格测试质量0，首5准确三Euler分母、和αH unit，无新大p门；原真像中央v5n。旧W有K/E非零项，不由Πfix身份还原；完整T行另保Kdeep1的P0项及Kunit的P0−P_K项。原同域W−6δY差首Δ3 unit、赋值5n+3，全补域仍在。
 
 ## 惰性：原像、三层核与未付连接
 
@@ -48,7 +50,7 @@ R514 m3=Y³t(t−1)²h7³d²将e³forcing以三charge返回，十九角及同D�
 R521固定边界Q_c=H0(Dc,Lc|Dc)，Dc=3C∩cπ*S∞长3c(u+4b)，F³真核消常数维数；保15例外/全残数。最高f根t0重m给ρ=Res Gtop/(tM f³)dt，杀同m3切向像，对forcing=b²m(4t0−1)；保根存在/p∤bm/t0≠1/4，须杀真jet核及余列。
 R524真核三层A=N(cE)(−qP)、B=N²(cE)(−hP)、C=N³(cE)(−SP)非直和；同源连接α(v2)=[Em(H2)/(2eη)]∈cokerEq、β(v3)=[(g1+2ηg2)/(e+f2η)]∈cokerEm。最内F²层参数独立：q>κgeom+c d∞为0（等号未定）；q≤χ+3d∞−m−1时显示ρ在真核非零，不能延拓。真实二次临界仅该层负度，另两层及α/β联合像仍须付；三层边界jet不可独立选。
 
-负镜轴等价接口见notes/2026-11-14-deep-negative-residual-mirror-interface.md：3C内Hom(Iη,KX)=I_-⊗KX(S·Ptilde)，I_-=(tS,ζ+2η)，负轴ψ³/g²。仅重写首像对偶，不给α/β新秩限制，也不能提升到rawΓ/p²删ζ³/V1/carry；不占结果编号。
+负镜轴首像对偶等价见notes/2026-11-14-deep-negative-residual-mirror-interface.md；只重写I_-=(tS,ζ+2η)/ψ³g^-2，不给αβ新秩或rawΓ/p²删项。
 
 R526原低轴P logTheta_reg=2t/3 modt^s，P=6(1−t)δ²−(1+2t)δ。任意有理单位R与theta^a接触T≤s且p∤a时T≤2Δ_R+1，Δ只数有效非零有限log极，不随a增大。原B_m全部68余类：E_N=18q+max(0,floor11r/34−4)、C_N=ceilN/68；N<p、H=s−13−r_c>4E_N+C_N+7排单/两权首核，primitive p²/p³约化至少三权。保原完整M的必要第一块投影及固定conductor，临界覆盖N≈sqrtp，不排多权；R525正在用真实x=δlogtheta的Wronskian继续。
 
