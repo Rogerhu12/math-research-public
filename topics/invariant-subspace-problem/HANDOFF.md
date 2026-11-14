@@ -3,10 +3,10 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `5a1bc07d3ec6cf0bfefaf82612277a3a7d6444b7`（2026-11-14 16:11:54 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `e3dd12e4d48bb89f58809a278b4cb273cb774f1a`（2026-11-14 16:14:21 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
-- [上一完整H](notes/2026-11-14-handoff-before-full-spin-jacobi-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
+- [上一完整H](notes/2026-11-14-handoff-before-posterior-score-obstruction-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
 
 ## 工作区、真实数据与恢复
 
@@ -16,9 +16,7 @@ T96原图/DAG run43597823809恢复在 `/tmp/isp-t96-recovery-789f`，原model补
 
 ## 原问题的未付接口
 
-原Haar加权odometer A非零非紧、单射稠密像、拟幂零，W*(A)=B(H)、A′无非零紧。闭A不变M均closure AM=M，普通循环性未知；全部原权/算子/尾预算见上一完整H。Haar慢理想与负边界M=kerT、N=closure BM分开，N=M未证。R187/200有限像和R239合法窗口/权核已付，无权完整〈G⁻¹r,r〉增长、pure深jet、普通右费/跨birth仍缺。原graph保M3初次/M2以后、同w/同未来/真负前缀/自然逆域及左右费；primitive MP不代graph，固定birth不代移动birth。
-
-一般有限原秩正常湮灭者仍缺全链正距及下一尾理想距离m_j/单位锚；R276、R289/291不支付这些。R147/150其余mean秩/高ess、R176部分谱、R236慢核及R268–290其余条件全保open/归档，未列不等于关闭。
+原Haar A非零非紧、单射稠密、拟幂零，W*(A)=B(H)、A′无非零紧；普通循环性未知。完整原权与全部条件保上一H/open。Haar慢理想、负边界M=kerT与N=closure BM分开，N=M未证；R187/200有限像和R239合法窗口不付无权完整〈G⁻¹r,r〉增长、深jet/普通右费/跨birth。graph保同w/未来/负前缀、M3初次/M2以后、自然逆域及双费；固定birth或primitive MP不代moving-birth图。一般有限原秩正常湮灭者仍缺相容全链正距、真实下一尾距离m_j及单位锚；R276/289/291不付这些。其余R147/150/176/236/268–290范围全保open及归档，未列不算关闭。
 
 ## Boolean 相位与连续尾
 
@@ -28,9 +26,10 @@ R293/297全正权/出生/高度加强κ等价奇硬首边同κ，奇→偶全源
 - [平衡主组完整概率](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)：q0=Σ其余q，硬源U一维/低源V任意维，真实h/g/ell=c(H/G/L)、q=c(4G+yy*)来自同一Beta–binomial。全部条件噪声、完整硬源回归、均值运输及秩二位移保留；共同正块交叉mn*−G不等于目标HG⁻¹L−2G−yy*，统一κ仍开。
 - [任意三spin完整生成核](notes/2026-11-14-three-spin-all-triangle-full-source-gaussian-generator-789f-next.md)：三角参数(A,B,C)给硬源U一维及完整V维数=正边数≤3。固定3×3Gaussian有理核同时生成h/ell/q及硬源交叉；必须先取同一ABC系数再Schur。任意spin/权全保，统一相位界仍缺。
 - [倒数全谱](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)给T(z⁻¹)=T(z)*和整源三阶抵消。[完整Hessian](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)：BB*=(s+2)I/3，H=B*gB，h/ell/q全Ward交叉与真换位保留；相位等价A H† C+2H−Q联合块，不以逐坐标Schur替共同逆。
-- Johnson最高两通道非负、首低共同Schur/删位协方差已付，高birth条件均值尚缺。原无限尾算术2严格失败>2.89；正通道尺度2Var/k至160Var/(k+2)已付，均见上一H。
+- Johnson高通道/首低共同Schur及原尾旧矩全部保上一H；高birth条件均值仍缺。
 - [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)：b_j=j⁻²，所有x≥2/n≥1整个K2有明确有限κ=(337/162)Λ²。大n>2²¹算术λ=2³⁵，余小高度由head占据幂零完整右逆统一付；并给N≤(Λ/2)kP。全低阶条件Gram/真实Z三切片/原桥保留，不代graph。
 - [全部birth联合方差区](notes/2026-11-14-joint-birth-variance-common-slice-gram-and-strengthened-two-bound-789f-next.md)：同中心E≤s三切片Gram误差ε≤128s/√V；V≥2²⁰s²时真实加强κ≤4698/2401<2，保全回归/δ桥/同合同平方。原尾k≥2²³s²适用且有Γ条件数；实际短旗s=p−r≥q−d+1≈q、k≈q不在此区，不能以头长d代s。
+- [后验score真实对数障碍](notes/2026-11-14-balanced-star-posterior-score-logarithmic-residual-and-bounded-mixed-term-789f.md)：全qi=zi=1的完整contrast源，两个后验score经全部线性源回归后范数²均R_Q=(Q+1)/(Q−1)H_(Q−1)−5/2−1/Q，仍log Q发散；同一混合项却恰1/2−1/Q。真phase仍I，只排分开L²控制，继续共同两端预算。
 - [完整spin–Jacobi流](notes/2026-11-14-even-phase-full-spin-jacobi-flow-and-boolean-constraints-789f-next.md)：任意偶位/正权，所有磁层的实际A_j/R_j系数由三塔给出。中央X0零对角，相邻X−1保A_j/j；完整指数后取U/J1首块Schur S才给g=S/2。真实J=2hS⁻¹ell−Q−C*M⁻¹C及全部Boolean交换/二次约束保留；未得统一κ。
 
 
