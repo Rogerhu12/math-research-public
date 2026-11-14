@@ -1,0 +1,114 @@
+{
+  "kind": "actual_public_complete_finite_head_Green_and_source_component_process_v1",
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43596517945",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "d69ad0dc7720f439c1e1f24b67b1ffa191281094",
+  "worker_source_sha256": "6d3446499f8cad204aedd71142e9ba1b86d1f57af2394050af1681d040169770",
+  "started_utc": "2026-11-14T12:48:06.323887+00:00",
+  "children": [
+    {
+      "label": "actual_public_signed_positive_Green_and_interface_source_algebra_gates",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-complete-Green-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_signed_Green_public_algebra_gates.py",
+        "--out",
+        "/__w/_temp/visible-exact-complete-Green-output/native/public-signed-Green-algebra-gates.json.gz"
+      ],
+      "started_utc": "2026-11-14T12:48:06.937138+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 5.0005642120000005,
+      "finished_utc": "2026-11-14T12:48:11.937925+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T12:48:06.907455+00:00",
+      "before": "d69ad0dc7720f439c1e1f24b67b1ffa191281094",
+      "after": "d69ad0dc7720f439c1e1f24b67b1ffa191281094",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:48:12.177508+00:00",
+      "before": "d69ad0dc7720f439c1e1f24b67b1ffa191281094",
+      "after": "d69ad0dc7720f439c1e1f24b67b1ffa191281094",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T12:48:13.757752+00:00",
+      "before": "d69ad0dc7720f439c1e1f24b67b1ffa191281094",
+      "after": "27aa182d742b1ea58217caad7927ad509ad3244f",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T12:48:13.512088+00:00",
+      "final": false,
+      "commit": "27aa182d742b1ea58217caad7927ad509ad3244f"
+    }
+  ],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": null,
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_complete_projector_run": 0,
+  "phase": "algebra",
+  "original_complete_body_mean_run": 43586413510,
+  "original_matrix_cells_recomputed": 0,
+  "original_body_or_mean_cells_recomputed": 0,
+  "exact_affine_parameter_offset": "0",
+  "physical_parameter": "fixed original physical eta0 and original nu",
+  "complete_finite193_inverse_proved": false,
+  "complete_infinite_inverse_proved": false,
+  "actual_full_PDE_parameter_response_error_proved": false,
+  "true_parameter_Schur_proved": false,
+  "input_manifest_sha256": "da3e142168cb2a92d08548efe71ed4505e2e82d82cda965b128582e1acb22764",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "27aa182d742b1ea58217caad7927ad509ad3244f",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-complete-Green-work/science",
+  "snapshot_utc": "2026-11-14T12:48:13.776626+00:00",
+  "wall_seconds": 7.453291974999999,
+  "native_files": [
+    {
+      "logical_file": "native/public-signed-Green-algebra-gates.json.gz",
+      "file": "native/public-signed-Green-algebra-gates.json.gz",
+      "bytes": 3381,
+      "sha256": "60e69d61435b76232016fb49e9f3390d2f0b7c8a6e4b3184e777d50a404e08f3"
+    }
+  ],
+  "algebra_gates_executed_in_this_run": true,
+  "original_successful_algebra_run": "43596517945",
+  "algebra_gates_reused_without_execution": false,
+  "algebra_native_sha256": "60e69d61435b76232016fb49e9f3390d2f0b7c8a6e4b3184e777d50a404e08f3",
+  "complete_native_sha256": "60e69d61435b76232016fb49e9f3390d2f0b7c8a6e4b3184e777d50a404e08f3",
+  "actual_public_signed_port_algebra_gates": 7,
+  "finished_utc": "2026-11-14T12:48:13.514584+00:00"
+}
