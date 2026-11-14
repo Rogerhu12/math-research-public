@@ -667,3 +667,7 @@
 ### R292：两异常位短普通组的四维与整个物理出生二严格首边
 
 [完整证明](results/R292-short-group-two-exceptional-weight-birth-two-strict-first-edge.md)保Cform=H0H1⁻¹H0和非交换混合列的真实S2，五个合法短侧参数区的十个精确主子式全部严格正。与R288的S1及旧下birth1第二边合成真实严格SOS，再沿R275合同/Schur返回，付任意两异常权、min(q,L)=2的四维首边严格c1，含新高度二硬端。组内实际约化串保全部重数，进一步付整个物理K2；q,L≥3主区间、其他出生/内部高度及原graph仍开。
+
+### R291 附录：固定头的有限原矩距离证书与真实谱尾质量
+
+[完整证明](results/R291-appendix-fixed-head-finite-moment-distance-and-spectral-mass.md)把低算子Schmidt秩k<q化为deg P≤qk+q−1的真实多项式零式，原换基U和伴随矩阵给Trρ(pF)=Tr(ρ−σ)P(T)cF。Mahler系数界及可逆有限原幂矩阵给对所有此类σ共同的显式Γ>0；真实谱截断遂给尾/头谱质量≥Γ²/4。原有限秩相容链另有ν_m逆平方根至少sqrt((ceil(2^(m/2))−1)/δ_m)。没有隐藏U⁻¹、有限矩最小奇异值、正常阈值或原幂范数比，跨层一致性及一般见证仍开。

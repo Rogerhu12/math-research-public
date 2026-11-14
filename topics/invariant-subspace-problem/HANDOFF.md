@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `1d67f102b997fc997b92ed780d7376b3e16eed60`（2026-11-14 08:11:56 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `9086150c435f5cff7e1d168d717a1caf68ffb23f`（2026-11-14 08:14:22 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -38,8 +38,8 @@
 - **R288：** [逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部物理交叉。[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)以真实H2向量付birth1 ||T||²≤2/3及共同Yi；[S1已推ca7cd456](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)付真实对角减rank1式、次数9支持3–9全部35主子式严格正。全部M≥3正权birth1两加强条件与一位SOS已闭；[一般三塔消元](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保真实C²深塔正项并去上二阶逆，一般正性仍开。
 - **R288出生二S1：** [主证书](results/R288-appendix-two-group-singleton-birth-two-s1-positive-certificate.md)与[短侧/整层](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)合付任意两组大小≥2、任意三个正权的整个物理K2严格S1；保C²深塔、五个短参数区及N5硬顶C2=0，组内重数通过真约化完整拼合。S2主内部范围继续；短组已由R292完成。
 - **R289：** [熵与结构例](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付一般有限秩原态S(ν_m)=o(m)，尾熵仍可无界；任意慢δ可由统一秩二链实现，但该具体字符串族现被R291的原零式排除。
-- **R290：** [混合头/物理块对角](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)已排。固定原头矩detH=u^(q−1−K)p(u)消到z^d，真实单位和归一化高幂付迹锚；头对角相同给块对角情形。一般关联态改见R291。
-- **R291（已推17ae7d9d）：** [矩模与指数秩](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)。正常尾模对非零C[z]多项式无挠；只作代数扩域并运输R124真单位，q个头矩在C(z)上线性独立。任意M位切分的operator-Schmidt秩≥q=2^M；同一正链每M连续块及远尾rank≥ceil(2^(M/2))。排统一低Schmidt秩/字符串例，仍无特征值质量下界，与r2^m上界及熵o(m)不矛盾。
+- **R290：** 任意混合有限头×正常尾、物理头块对角均排除。真实头矩Hankel行列式和原单位把同一右零式归z^d，归一高幂付非零迹锚；一般关联态用R291继续，完整证明/范围保此前H。
+- **R291：** [矩模/指数秩](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)付q头矩C(z)独立、op-Schmidt≥2^M及连续块/尾rank≥ceil(2^(M/2))。[有限矩谱界](results/R291-appendix-fixed-head-finite-moment-distance-and-spectral-mass.md)给每cut共同正距离及谱尾≥Γ²/4，保σmin(H)、真实U⁻¹/所有来源费；ν_m逆平方根≥sqrt((ceil(2^(m/2))−1)/δ_m)。跨层一致预算仍缺，不推熵矛盾。
 - **R292：** [短组完整首边](results/R292-short-group-two-exceptional-weight-birth-two-strict-first-edge.md)：min(q,L)=2的五参数区给严格S2，配已证S1和旧下第二边，经真实SOS/Schur付两异常权的四维及整个物理K2严格c1，含新高度2端。q,L≥3继续。
 - **续接：** boundary 准备主q,L≥3的S2左右Actions；短侧S2/R292已登记。literature 续一般birth，normal 付有限原测试与谱质量费用；已闭R271范围不重开。
 
