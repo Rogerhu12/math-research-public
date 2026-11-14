@@ -45,4 +45,4 @@ request05/run43586618658/sourceb96924e0两lane均success；原bot发布，回执
 旧post43 geometry26件和strong90件已逐SHA归档，各有recovery-manifest；均历史非新Actions。R246完整证明旧.984有限场三分量<1e−6及浸入，直接operator仅<2e−6，明确不付新scalar/闭面门。强支旧完整H审计已成，但R6因磁盘SIGTERM143无接受步；全raw前缀分块未全迁，原只读索引仍在manifest，不重启旧支。旧18分钟strictmetric不重复；新场需自身公式适配。
 每结论普通pull/README差异检查/commit/push；非快进立即rebase到成功。公开源78件逐原91清单匹配，只读公开仓，无private secret。临时自有transport分支只帮助大blob送达繁忙main，仍普通push，禁止force。任何分项完成继续open下一项。
 
-规则同步记录：2026-11-14T10:45:54.085441+00:00 实际pull --rebase成功；双README自8522706无变化，已读提交 5b8efcf6bd2f1c63d9a2508d9e8ba9a3e95dc545。
+规则同步记录：2026-11-14T10:53:04.064705+00:00 实际pull --rebase成功；双README自8217b74无变化，已读提交 90c3c479b15ac6f0625e42b9aa541c88b0a3f2d0。
