@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -616,6 +616,28 @@ jobs:
           python -u "$VISIBLE_NEW_SCRIPTS/frame_collar_residual_audit.py" \
             --input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43602519926-1-ellipse_frame/frame-ellipse-positive-fixed.json" \
             --include-breakpoints --out "$VISIBLE_NEW_OUT/frame-ellipse-fixed-breakpoints.json"
+      - name: Warm enrich the frozen ellipse collar in the same exact metric
+        if: matrix.lane == 'ellipse_enriched'
+        timeout-minutes: 35
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_collar_enriched.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/frame-enriched-development-check.json"
+          python - <<'PYHASH'
+          import hashlib, os
+          from pathlib import Path
+          source = Path(os.environ['GITHUB_WORKSPACE']) / 'topics/visible-flex-new-mechanism/notes/actions-43602519926-1-ellipse_frame/frame-ellipse-positive-fixed.json'
+          expected = '735f8e68c5c83e1e3b7ac95c6cda921b7f7d3dbf0945d26883c6d5723b5a7806'
+          if hashlib.sha256(source.read_bytes()).hexdigest() != expected:
+              raise SystemExit('Frozen warm frame report hash mismatch')
+          PYHASH
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_collar_enriched.py" \
+            --input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43602519926-1-ellipse_frame/frame-ellipse-positive-fixed.json" \
+            --radial-free 9 --phi-modes 3 --radial-nodes 61 --angular-nodes 192 \
+            --quadrature-order 4 --max-nfev 250 --field-bound 6 \
+            --envelope disk-strip --strip-half-width .33 \
+            --audit-radial-nodes 121 --audit-angular-nodes 384 \
+            --checkpoint-every 10 --checkpoint-seconds 60 \
+            --out "$VISIBLE_NEW_OUT/frame-ellipse-enriched-fixed.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:
