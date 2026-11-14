@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import gzip
 import hashlib
+import io
 import json
 import os
 import re
@@ -94,18 +95,28 @@ def collect_outputs(results: Path) -> tuple[dict[str, bytes], list[dict]]:
         if not path.is_file() or path.name.startswith("publication-"):
             continue
         relative = path.relative_to(results)
-        if path.suffix != ".json":
+        precompressed = path.name.endswith(".json.gz")
+        if path.suffix != ".json" and not precompressed:
             # Logs, binary states, meshes and incidental files remain artifacts.
             continue
         if path.stat().st_size >= MAX_FILE:
             raise PublicationStopped(f"diagnostic is too large: {relative}")
-        raw = path.read_bytes()
+        stored = path.read_bytes()
+        if precompressed:
+            # Preserve an explicitly hashed complete symbolic DAG already packed
+            # by its producer, while validating its bounded decoded JSON.
+            with gzip.GzipFile(fileobj=io.BytesIO(stored)) as stream:
+                raw = stream.read(64_000_001)
+            if len(raw) > 64_000_000:
+                raise PublicationStopped(f"decoded diagnostic is too large: {relative}")
+        else:
+            raw = stored
         def reject_nonfinite(value):
             raise ValueError(f"nonfinite JSON constant in {relative}: {value}")
         json.loads(raw, parse_constant=reject_nonfinite)
         target = relative.as_posix()
-        packed = raw
-        if len(raw) > COMPRESS_AT:
+        packed = stored if precompressed else raw
+        if not precompressed and len(raw) > COMPRESS_AT:
             target += ".gz"
             packed = gzip.compress(raw, compresslevel=9, mtime=0)
         if len(packed) >= MAX_FILE:
@@ -147,7 +158,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--results", required=True, type=Path)
     parser.add_argument("--lane", required=True,
-                        choices=["eccentric", "seeds", "kernel", "core_folded", "second_order", "folded_bearing", "band_geometry", "band_newton", "inward", "codedesign", "inward_fixed", "ellipse_cont", "ellipse_phi", "inward_gc4", "star_core", "closed_design", "ruled_tail", "space_star", "closed_quartic", "star_lift", "space_refine", "warped_core", "warped_tube", "phase_shoot", "derivative_audit", "star_verify", "closed_branch", "global_profile", "warped_collar", "exact_D0", "cosine_core", "phase_D0", "physical_C", "cosine_endpoints", "cosine_feasible", "physical_root", "constant_h_exact", "ellipse_frame", "ellipse_audit", "ellipse_enriched", "zero_operator_exact", "ellipse_bent_tail", "zero_operator_instance", "third_order_exact", "fourth_order_exact", "fourth_sos_exact", "ellipse_saturated_heat", "overlap_fourth_exact", "range_numerator_exact", "full_range_compile", "natural_body_initial", "single_P_instance", "independent_height_solve", "full_fourth_evaluate", "fixed_height_primitive", "frozen_profile_gate", "entry_paired_audit", "recovery_development", "short_entry_development", "short_entry_audit", "p1_bulk_development", "p1_bulk_exact", "height_gate_development", "height_polytope_development", "height_polytope_audit", "higher_range_development", "p1_word_exact", "local_third_exact", "entry_single_q_development", "height_quartic_development", "linear_third_exact", "quartic_joint_development", "quartic_joint_audit", "closed_c1_endpoint", "full_phase_bridge_exact", "core_transport_development", "core_transport_initial_development", "core_transport_initial_audit"])
+                        choices=["eccentric", "seeds", "kernel", "core_folded", "second_order", "folded_bearing", "band_geometry", "band_newton", "inward", "codedesign", "inward_fixed", "ellipse_cont", "ellipse_phi", "inward_gc4", "star_core", "closed_design", "ruled_tail", "space_star", "closed_quartic", "star_lift", "space_refine", "warped_core", "warped_tube", "phase_shoot", "derivative_audit", "star_verify", "closed_branch", "global_profile", "warped_collar", "exact_D0", "cosine_core", "phase_D0", "physical_C", "cosine_endpoints", "cosine_feasible", "physical_root", "constant_h_exact", "ellipse_frame", "ellipse_audit", "ellipse_enriched", "zero_operator_exact", "ellipse_bent_tail", "zero_operator_instance", "third_order_exact", "fourth_order_exact", "fourth_sos_exact", "ellipse_saturated_heat", "overlap_fourth_exact", "range_numerator_exact", "full_range_compile", "natural_body_initial", "single_P_instance", "independent_height_solve", "full_fourth_evaluate", "fixed_height_primitive", "frozen_profile_gate", "entry_paired_audit", "recovery_development", "short_entry_development", "short_entry_audit", "p1_bulk_development", "p1_bulk_exact", "height_gate_development", "height_polytope_development", "height_polytope_audit", "higher_range_development", "p1_word_exact", "local_third_exact", "entry_single_q_development", "height_quartic_development", "linear_third_exact", "quartic_joint_development", "quartic_joint_audit", "closed_c1_endpoint", "full_phase_bridge_exact", "core_transport_development", "core_transport_initial_development", "core_transport_initial_audit", "full_phase_rational_dual", "pure_tail_period"])
     parser.add_argument("--repo", type=Path, default=Path.cwd())
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -185,8 +196,8 @@ def main() -> int:
                    "design_is_not_fixed_metric_refinement": args.lane in {"eccentric", "core_folded", "folded_bearing", "band_geometry", "inward", "codedesign", "ellipse_cont", "ellipse_phi", "star_core", "closed_design", "space_star", "closed_quartic", "star_lift", "warped_core", "phase_shoot", "closed_branch", "global_profile", "warped_collar", "cosine_core", "cosine_endpoints", "cosine_feasible", "physical_root", "ellipse_bent_tail", "zero_operator_instance", "ellipse_saturated_heat", "natural_body_initial", "single_P_instance", "independent_height_solve", "full_fourth_evaluate", "entry_paired_audit", "short_entry_audit", "height_polytope_audit", "quartic_joint_audit", "core_transport_initial_audit"},
                    "diagnostic_without_new_surface_or_profile_design": args.lane in {"fixed_height_primitive", "frozen_profile_gate", "recovery_development", "short_entry_development", "p1_bulk_development", "p1_bulk_exact", "height_gate_development", "height_polytope_development", "higher_range_development", "p1_word_exact", "entry_single_q_development", "height_quartic_development", "linear_third_exact", "quartic_joint_development", "closed_c1_endpoint", "full_phase_bridge_exact", "core_transport_development", "core_transport_initial_development"},
                    "artificial_development_only": args.lane in {"recovery_development", "short_entry_development", "p1_bulk_development", "height_gate_development", "height_polytope_development", "higher_range_development", "entry_single_q_development", "height_quartic_development", "quartic_joint_development", "core_transport_development", "core_transport_initial_development"},
-                   "complete_research_compilation_without_candidate_geometry": args.lane in {"p1_bulk_exact", "p1_word_exact", "local_third_exact", "linear_third_exact", "closed_c1_endpoint", "full_phase_bridge_exact"},
-                   "exact_profile_witness_without_candidate_geometry": args.lane == "local_third_exact",
+                   "complete_research_compilation_without_candidate_geometry": args.lane in {"p1_bulk_exact", "p1_word_exact", "local_third_exact", "linear_third_exact", "closed_c1_endpoint", "full_phase_bridge_exact", "full_phase_rational_dual", "pure_tail_period"},
+                   "exact_profile_witness_without_candidate_geometry": args.lane in {"local_third_exact", "full_phase_rational_dual"},
                    "task_complete": False, "source_files": {}, "outputs": manifest,
                    "pulls": [], "readmes_read_commit": source}
         script_root = f"{TOPIC}/scripts"

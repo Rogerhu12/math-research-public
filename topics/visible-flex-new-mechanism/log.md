@@ -95,3 +95,5 @@
 - 2026-11-14 20:00 UTC，Astra-new-mechanism-9974ea84：真实B=.37单selected审计43634358250已完成，无任何参数步。新g/新b0单列身份，139×384/768同态η67.0064、minarea约.00345、κ加密5.88e5→1.31e6、负z−.04488、条带.59391、帽高.05574及镜像6.4e−6失败。固定原函数与核心端口核正确，错误不是旧查询漂移；全段换角基后抄±8系数不保旧抵消。记录完整gzip/summary与门，下一局部核心修正并保外域物理场，不排新核心、不盲优化此初态。实际pull773d548b已比较两README无差。
 
 - 2026-11-14 20:00 UTC，Astra-new-mechanism-9974ea84：登记R85完整纸证：R56准确局部修正Wtilde=W+λP后，保真实b/u histories的pure第四幂尾4m−9系数为d(αb³+βbu)/ds；常端芽+M0已使其period为0，不要求完整T0。这排除了把该首项误当第四正成本的论证，未消下一项、未证V0。接独立tail adapter保全原式高阶系数，不本地编研究目标。
+
+- 2026-11-14 20:01:28 UTC，Astra-new-mechanism-9974ea84：已跑旧B修复actual的四次46eval/46iter，将metriccost降到.02828242但到接触边界，joint调用0。登记完整报告、准确镜像门导数及最小resume方案：消费旧四次、原accepted回退、正z工作裕量，原盒/g/预算保持。并请求两个新理论actual：独立原始Volterra有理/有限域分离子式；R56真实幂尾23–27阶全history编译。两者仅本公开Actions，已通过对应小人工新分支；publisher增加已压JSON保持原bytes及解压有效性，小人工压缩链通过，以保完整DAG而不丢成仅artifact。

@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`9e58f5accb3833fcd3eb5c31c57845c8c15f384a`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`25f60d28473a5d6d159cf950c4bfeaac94faef66`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有19:20:16 UTC实际pull至`7943e238737119df3b4a564b854335f4b226debc`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于20:19 UTC。
 
@@ -29,9 +29,9 @@ A1、B7/25、半宽1/50；L.9、握持rc.22、tc.036、tf.846、六帽R.274。16
 
 新joint全人工43632772378通过：当前z方向Jac1.86e−11、四callbacks共一次geometry、坏z/失败保best、四输入、零Q六jet0。首actual43633105146/source109cdd7f在poly数值b重放差3.89e−16（A差0）停，**未进quartic或joint**，完整失败保notes/quartic-joint-first-actual-replay-failure-20261114.md。
 
-修复helper `frame_published_height_rows.py` 6b59b765…与driver `frame_height_quartic_joint_audit.py` d2fc289a…保原A/b/帽截距/target/数值SHA逐位不变（原poly `fca55130a2c176eb6e882a65f6c26b37c895a130b5d8d04149fb6e5ce4e6cc12`）。当前X/目标数组另绑定；所有来源、准确状态、节点/I/盒/A严核，仅64eps×明示尺度核浮点评价末位，非连续误差界。此次同一job先跑唯一新数组分支check，再继续原actual，不重复整套人工。
+修复后actual43634358250/sourcefdc99b7d完成300.283s：保原A/b，固定T四次一次46eval使metriccost .03158755→.02828242；poststate86480e39…，零Q扩参d92e2e65…六jet同。却在t=.375 θ0到z=0（384）/3.52e−13（768），192工作网−1.34566e−8，原1e−9容差拒绝。因此**joint minimize调用0**，不能算联合失败。最终η1.27082693、κ158.139、strip.393509仍失败。完整证据见notes/quartic-height-contact-and-unstarted-joint-20261114.md，decoded full SHA `e344e6e0a62be10dfa8dad4f52e4b889191f462b97bb19dd4b1cc0283f6f33dc`。
 
-原一次流程保持：固定T高度四次120iter/300eval/30s→零Q准确含旧场→当前signed-z硬约束联合80iter/120eval/300s。u/v/Q盒[-8,8]、height[-1,1]；硬帽高沿用.1427042，工作基网61+结构+24入口细分×192，最后原fine×384/768同态。完整g/b0不变；uv动时不得沿用冻结T多面体。best需cap/box/当前z同时过，ball/strip仍原软目标与末门；帽高和signed-z都不替代全reach。
+下一独立resume复用已跑quartic，不重跑它；新当前网signed-z下界1/10000、仍1e−9容差，不合格warm拒绝并回退原accepted f198。原帽高.1427042、uv/Q盒[-8,8]、height[-1,1]、完整g/b0及一次joint80iter/120eval/300s不变；61+结构+24入口细分×192，最后原160×384/768同态。两初态都不合格则保存原因不优化；best同时过帽高/盒/当前z。镜像准确非线性门推导已存notes/exact-mirror-pair-nonlinear-gate-20261114.md，尚未强加进该resume，signed-z不替代reach。
 
 ## 4. 新B=.37：首真实输运初态失败，改可控初始化
 
@@ -53,4 +53,4 @@ R83给真实(w,u,v)传递、M0倒行T−而V+；真词Z恒M=T0，在含Z0的R45�
 
 ## 6. 持续推进
 
-当前request：`quartic_joint_audit`修复后原一次实际 + `core_transport_initial_audit`新B唯一单态。新B实际已登记；旧B实际发布后真正pull核两README、同步H/log/open；所有新的定理立即登记索引。子问题结束即接open，不等待用户阶段批准。原始文献及撤稿/成对等距/局部片边界见notes/literature-20261114.md；不以重复来源清单代替研究。
+当前request改为两个理论actual：原式有理profile/有限域非零37子式检验，与R56完整幂尾23–27系数编译。已跑v2与旧quartic不重跑。mechanism独立实现resume；几何新B随后接局部核心输运。新实际发布后真正pull核两README，同步H/log/open；每个完整定理立即索引。子问题接open不等阶段批准。原始文献/撤稿/成对等距/局部片边界见notes/literature-20261114.md，不重复来源清单代替研究。

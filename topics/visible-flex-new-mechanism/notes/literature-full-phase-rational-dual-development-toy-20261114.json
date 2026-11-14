@@ -1,0 +1,152 @@
+{
+  "P0_paid": false,
+  "all_geometries_excluded": false,
+  "all_profiles_excluded": false,
+  "completion": "toy_passed",
+  "elapsed_seconds": 0.0036369640001794323,
+  "embedding_or_reach_certified": false,
+  "finite_isometric_family_constructed": false,
+  "fourth_ruling_paid": false,
+  "github_repository": null,
+  "github_run_id": null,
+  "github_sha": null,
+  "limits": {
+    "memory_polling_mib": 1024,
+    "operations": 20000000,
+    "output_bytes": 300000,
+    "polynomial_degree": 256,
+    "seconds": 300
+  },
+  "max_rss_mib": 15.125,
+  "phase": "small_artificial_toys",
+  "primary_scope": "one original rational polynomial pair disproves a universal whole-function identity only if a full separating minor is certified",
+  "rational_nonmembership_certified": false,
+  "schema": "visible-flex-complete-P1-original-rational-dual-v1",
+  "source_hashes": {
+    "colored": {
+      "bytes": 15738,
+      "filename": "literature_colored_profile_algebra.py",
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    "driver": {
+      "bytes": 19492,
+      "filename": "literature_full_phase_rational_dual.py",
+      "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+    },
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "v2_producer": {
+      "bytes": 35368,
+      "filename": "literature_full_phase_bridge_exact.py",
+      "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+    },
+    "words": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  },
+  "specific_C_infinity_circle_certified": false,
+  "three_moment_circle_paid": false,
+  "toy": {
+    "all_passed": true,
+    "artificial_dual": {
+      "control_columns": 2,
+      "functional_over_Q": "ev_last - row_last(A) * inverse(A_pivot) * ev_pivot",
+      "modular_augmented_determinant": 2,
+      "modular_augmented_matrix": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          7
+        ]
+      ],
+      "modular_control_rank": 2,
+      "modular_functional_all_control_values": [
+        0,
+        0
+      ],
+      "modular_functional_coefficients": [
+        100,
+        100,
+        1
+      ],
+      "modular_functional_target_value": 2,
+      "modular_pivot_determinant": 1,
+      "nonzero_reason": "det(Augmented) has defined nonzero reduction modulo the checked prime",
+      "rational_functional_identity": "Lambda(A_j)=0 exactly for all original retained control columns",
+      "rational_nonmembership_certified": true,
+      "selected_augmented_rows": [
+        0,
+        1,
+        2
+      ],
+      "selected_control_rows": [
+        0,
+        1
+      ]
+    },
+    "checks": {
+      "deficient_rank_not_promoted": true,
+      "full_rank_nonzero_augmented_minor": true,
+      "modular_fit_not_positive_function_identity": true,
+      "nonzero_right_boundary_not_silently_removed": true,
+      "ordinary_complex_square_not_norm_square": true,
+      "original_DAG_without_IBP_rewrite": true,
+      "right_boundary_term_paid": true,
+      "right_endpoint_zero": true,
+      "signed_right_primitive_derivative": true,
+      "signed_right_shuffle": true,
+      "xi_derivative_has_true_interval_scale": true
+    },
+    "coefficient_arithmetic": {
+      "all_encountered_rational_denominators_invertible": true,
+      "encountered_denominator_count": 4,
+      "encountered_denominators": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "encountered_denominators_sha256": "f6bd10506e9a4daed7c03eda2f2fde54be3bd58eee49dab471c18a888ffbdb6f",
+      "max_polynomial_degree": 4,
+      "operation_check_calls": 39,
+      "prime": 101,
+      "prime_checked_by_trial_division": true,
+      "raw_atoms_evaluated": 0,
+      "raw_monomials_evaluated": 0
+    },
+    "research_compiler_called": false,
+    "research_profile_or_geometry_evaluated": false,
+    "scope": "small artificial polynomial/linear-algebra toys only"
+  },
+  "word_normalization_used_to_evaluate_values": false
+}

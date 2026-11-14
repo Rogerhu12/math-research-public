@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate, fixed_height_primitive, frozen_profile_gate, entry_paired_audit, recovery_development, short_entry_development, short_entry_audit, p1_bulk_development, p1_bulk_exact, height_gate_development, height_polytope_development, height_polytope_audit, higher_range_development, p1_word_exact, local_third_exact, entry_single_q_development, height_quartic_development, linear_third_exact, quartic_joint_development, quartic_joint_audit, closed_c1_endpoint, full_phase_bridge_exact, core_transport_development, core_transport_initial_development, core_transport_initial_audit]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate, fixed_height_primitive, frozen_profile_gate, entry_paired_audit, recovery_development, short_entry_development, short_entry_audit, p1_bulk_development, p1_bulk_exact, height_gate_development, height_polytope_development, height_polytope_audit, higher_range_development, p1_word_exact, local_third_exact, entry_single_q_development, height_quartic_development, linear_third_exact, quartic_joint_development, quartic_joint_audit, closed_c1_endpoint, full_phase_bridge_exact, core_transport_development, core_transport_initial_development, core_transport_initial_audit, full_phase_rational_dual, pure_tail_period]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate', 'fixed_height_primitive', 'frozen_profile_gate', 'entry_paired_audit', 'recovery_development', 'short_entry_development', 'short_entry_audit', 'p1_bulk_development', 'p1_bulk_exact', 'height_gate_development', 'height_polytope_development', 'height_polytope_audit', 'higher_range_development', 'p1_word_exact', 'local_third_exact', 'entry_single_q_development', 'height_quartic_development', 'linear_third_exact', 'quartic_joint_development', 'quartic_joint_audit', 'closed_c1_endpoint', 'full_phase_bridge_exact', 'core_transport_development', 'core_transport_initial_development', 'core_transport_initial_audit'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate', 'fixed_height_primitive', 'frozen_profile_gate', 'entry_paired_audit', 'recovery_development', 'short_entry_development', 'short_entry_audit', 'p1_bulk_development', 'p1_bulk_exact', 'height_gate_development', 'height_polytope_development', 'height_polytope_audit', 'higher_range_development', 'p1_word_exact', 'local_third_exact', 'entry_single_q_development', 'height_quartic_development', 'linear_third_exact', 'quartic_joint_development', 'quartic_joint_audit', 'closed_c1_endpoint', 'full_phase_bridge_exact', 'core_transport_development', 'core_transport_initial_development', 'core_transport_initial_audit', 'full_phase_rational_dual', 'pure_tail_period'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -95,6 +95,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43622984979-1-entry_paired_audit/
             /topics/visible-flex-new-mechanism/notes/actions-43627111925-1-short_entry_audit/
             /topics/visible-flex-new-mechanism/notes/actions-43630874689-1-height_polytope_audit/
+            /topics/visible-flex-new-mechanism/notes/actions-43633746055-1-full_phase_bridge_exact/
       - name: Prepare bounded public output directory
         run: |
           git config gc.auto 0
@@ -1159,6 +1160,19 @@ jobs:
             --expected-input-sha256 c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46 \
             --expected-anchor-sha256 6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3 \
             --out "$VISIBLE_NEW_OUT/core-B037-transported-selected-initial.json"
+      - name: Evaluate the original complete P1 with one exact rational profile pair
+        if: matrix.lane == 'full_phase_rational_dual'
+        timeout-minutes: 8
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_full_phase_rational_dual.py" \
+            --output "$VISIBLE_NEW_OUT/full-phase-rational-dual.json"
+      - name: Compile the genuine pure fourth tail coefficients with every history retained
+        if: matrix.lane == 'pure_tail_period'
+        timeout-minutes: 8
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_pure_tail_period.py" \
+            --out "$VISIBLE_NEW_OUT/pure-tail-period.json" \
+            --exponent 8 --next-orders 4 --max-seconds 240
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

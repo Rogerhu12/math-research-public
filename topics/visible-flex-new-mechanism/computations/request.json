@@ -1,47 +1,38 @@
 {
-  "request": "continue-original-constrained-joint-with-published-rows-and-one-new-core-initial-state",
-  "created_at": "2026-11-14 19:51:14 UTC",
+  "request": "original-volterra-rational-dual-and-genuine-next-pure-tail-coefficients",
+  "created_at": "2026-11-14 20:01:28 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "quartic_joint_audit",
-    "core_transport_initial_audit"
+    "full_phase_rational_dual",
+    "pure_tail_period"
   ],
   "source_sha256": {
-    "frame_published_height_rows.py": "6b59b7650604bb8031ba0214ff31e22e37e8214d40233f53a3cdf6b0a316f3d2",
-    "frame_height_quartic_joint_audit.py": "d2fc289a80e51a94b6481ddd06c3d649caac06c34227d77600f462dbb478ed15",
-    "frame_core_transport_audit.py": "fbe810c9b19a2bc56b8e91391f79debd314bf56b1deec11c59a4489eb85c03c9"
+    "literature_rational_volterra_polynomial.py": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22",
+    "literature_full_phase_rational_dual.py": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f",
+    "literature_pure_tail_period.py": "7cceb79aeffb7f6d0b67e333890e6502c8dd1042041e5edc22a580d5b174f528"
   },
-  "joint_repair": {
-    "prior_run": 43633105146,
-    "prior_status": "no quartic or joint optimizer reached; original polytope numerical b differed by 3.885780586188048e-16",
-    "published_constraint_sha256": "fca55130a2c176eb6e882a65f6c26b37c895a130b5d8d04149fb6e5ce4e6cc12",
-    "same_A_b_cap_target_and_boxes_retained_bitwise": true,
-    "only_new_array_replay_branch_check_before_original_actual": true,
-    "same_budgets_and_original_design": true
+  "full_phase": {
+    "original_v2_report_sha256": "7c2cb9fece518fb6fbb15b6b4e034565dfcc5a10cf0e103a7011cd56dc4ac960",
+    "same_real_profile_pair_all_rows_and_modes": true,
+    "negative_certificate_only_if_control_rank_36_and_nonzero_37_minor": true,
+    "generic_test_profiles_not_claimed_moment_admissible": true,
+    "max_seconds": 300
   },
-  "core_initial_development_pass": {
-    "run": 43633746055,
-    "source": "26c3f2c0308d179a094d3967cfb7189db426081e",
-    "report_sha256": "fa0f29cf557f41c7a962cbb4c8bbbcb5baa8c4209d28e89038a3c10de5970de2"
-  },
-  "new_core_scope": {
-    "A": "1",
-    "B": "37/100",
-    "single_original_selected_semantic_initializer": true,
-    "immutable_anchor_is_transported_original_234_c0": true,
-    "new_complete_metric_and_b0_not_old_g_refinement": true,
-    "optimizer_calls": 0,
-    "entry_repair_or_new_Q": false,
-    "uniform_radial_base_count": 121,
-    "additional_exact_structural_nodes": true,
-    "same_state_angular_nodes": [
-      384,
-      768
+  "tail": {
+    "exponent": 8,
+    "orders": [
+      23,
+      24,
+      25,
+      26,
+      27
     ],
-    "fixed_primitive": {
-      "uniform_panels": 120,
-      "GL": 8
-    }
+    "max_seconds": 240,
+    "unchanged_R56_forcing_called_directly": true,
+    "every_s_history_preserved": true,
+    "density_not_claimed_period_or_sign": true
   },
+  "old_full_phase_word_solve_not_repeated": true,
+  "old_quartic_optimizer_not_repeated": true,
   "task_complete": false
 }
