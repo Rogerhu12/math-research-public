@@ -168,3 +168,6 @@ margin325 r2真实51.74s因可选旧fullFlow snapshot身份失配退出，原52 
 
 ### 2026-11-14T07:30:59+00:00 — rk24solve (local; public approval pending)
 同原g/全32H的RK24 Newton/J/audit实际exit0/1575.81s，归一残差8.36178e−11。完整终态与J归档；cut jet稳定，但DN slope/second J相对差6.10e−5/8.13e−5，未达舍入稳定，继续RK48而不把audit冒连续整面误差。
+
+### 2026-11-14T07:30:59+00:00 — rrnegative (local; public approval pending)
+同原g/H/真实RK12四级节点，5/7点水平rr最坏区域实际误差1.03621e−7/1.43790e−7，均超过原三点全共同网格7.29228e−8；原默认保持，不追加无必要同类试验。
