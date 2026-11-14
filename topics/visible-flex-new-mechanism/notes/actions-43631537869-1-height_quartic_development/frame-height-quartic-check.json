@@ -1,0 +1,47 @@
+{
+  "schema": "fixed-T-height-quartic-artificial-check-v1",
+  "artificial_inputs_only": true,
+  "research_candidate_evaluated_or_optimized": false,
+  "gradient_directional_error": 8.616024560481605e-12,
+  "Hessian_directional_error": 2.6629795590871197e-11,
+  "factored_compressed_polynomial_differences": [
+    {
+      "cost": 2.7755575615628914e-17,
+      "gradient": 1.1102230246251565e-16,
+      "hessian": 1.5265566588595902e-16
+    },
+    {
+      "cost": 8.326672684688672e-17,
+      "gradient": 5.551115123125783e-17,
+      "hessian": 8.881784197001252e-16
+    },
+    {
+      "cost": 5.551115123125783e-17,
+      "gradient": 2.220446049250313e-16,
+      "hessian": 1.3322676295501878e-15
+    }
+  ],
+  "nonzero_q_nonuniform_weight_comparison": 1.1102230246251565e-16,
+  "known_positive_branch_solution_error": 6.752379997365665e-07,
+  "known_positive_branch_direct_metric_cost": 4.162135869820063e-13,
+  "nonconvex_Hessian_witness_min_eigenvalue": -0.8799999999999998,
+  "independent_row_known_zero_minimum_error": 2.2186712959340957e-31,
+  "reference_S_known_zero_error": 0.0,
+  "unchanged_polytope_and_box_independent_selection": true,
+  "ineligible_initial_no_solver": true,
+  "zero_budget_keeps_initial": true,
+  "injected_failure_keeps_initial": true,
+  "changed_reference_X_rejected": true,
+  "copied_arrays_read_only": true,
+  "checkpoint_statuses": [
+    "eligible-initial-before-quartic-stage",
+    "quartic-proposal-selected"
+  ],
+  "passed": true,
+  "source_files_sha256": {
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "frame_collar_residual_audit.py": "58d972ec1dbbaba35d1ed1600ea14f1cd5934601cf5f7a209e95795e5099b9ee",
+    "frame_height_polytope.py": "6babe655e5d2ae48a54a4b2dad24685c433bd0d8ea902e231ffe0a64cd0afd8c",
+    "frame_height_quartic.py": "e41054263108f2070f846be77920059c210b11f3286fe88046a7d90c217dd45f"
+  }
+}
