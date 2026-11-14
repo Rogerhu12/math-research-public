@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R476：原Ξ二倍完整桥与整八维来源基](results/R476-original-complete-xi-normtwo-bridge-and-integral-eight-source-basis.md)：全CM7/19八维块由实际秩零Href与七个W*轨道组成，Ξ2精确多项式及原五伴随各系数全付；单位整逆与七变量lift保整个新中央行，参考质量相消不替代导数，旧W混管/core仍需运输。
+
 - [R479：原M两条carry图形与同一修正的两个normal jet](results/R479-original-carry-graph-and-two-normal-jets.md)：原p²提升等价26行真实carry图形，边界由同一R决定；单位5/−2分别须h+k<s−13、r>2k+13。原p239整来源见证M可升而J不可升且carry真消−2；下一位仍须相对J及原余核。
 
 - [R478：原二倍连接新线差、log2质量与完整混合carry](results/R478-original-normtwo-connection-new-line-and-complete-mixed-carry.md)：同一C_X的完整二倍连接差投影准确回新曲线，principal比较保已知非零log2质量项。三个实际输出核心及q/C2不同输入尺度的所有进位全付，p级有理补项和六外谱均未删除。
