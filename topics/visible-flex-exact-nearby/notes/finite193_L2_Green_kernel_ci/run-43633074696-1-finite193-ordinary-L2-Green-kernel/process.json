@@ -8,7 +8,26 @@
   "workflow_commit": "d2ca8cd0f97588311288832a1834c4fa4960bf04",
   "worker_source_sha256": "368b9b0eb613fa7c508adcae6fb3fbd92193413ac879b1a7ab21d7721492f314",
   "started_utc": "2026-11-14T19:37:57.412776+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_complete6391_ordinary_L2_Green_kernel_integrals",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-finite193-kernel-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_finite193_L2_Green_kernel.py",
+        "--out",
+        "/__w/_temp/visible-exact-finite193-kernel-output/native/complete-finite193-ordinary-L2-Green-kernel.json.gz",
+        "--green",
+        "/__w/_temp/visible-exact-finite193-kernel-original/native/complete-finite-head-Green-and-distributed-known-sources.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-finite193-kernel-original/process.json"
+      ],
+      "started_utc": "2026-11-14T19:37:59.848722+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 185.005036227,
+      "finished_utc": "2026-11-14T19:41:04.854138+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T19:37:57.800528+00:00",
@@ -25,9 +44,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T19:41:06.395679+00:00",
+      "before": "109cdd7f25927645ea6d33045c037cc920a8bc5f",
+      "after": "586e136d1cb8f8dec6f8f5880e94528d72062581",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T19:37:59.846736+00:00",
+      "final": false,
+      "commit": "2f58f3815c8b35aed15be61464003f283f83f89c"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -59,20 +92,27 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "109cdd7f25927645ea6d33045c037cc920a8bc5f",
+  "last_read_commit": "586e136d1cb8f8dec6f8f5880e94528d72062581",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-finite193-kernel-work/science",
   "actual_input_sha256": {
     "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
     "green-process": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
   },
-  "snapshot_utc": "2026-11-14T19:37:58.247831+00:00",
-  "wall_seconds": 0.8356672390000028,
+  "snapshot_utc": "2026-11-14T19:41:07.882364+00:00",
+  "wall_seconds": 190.47020694399998,
   "native_files": [
     {
       "logical_file": "evidence/original-complete-finite193-Green-process.json",
       "file": "evidence/original-complete-finite193-Green-process.json",
       "bytes": 8548,
       "sha256": "297cb4c9b8f58bbaacbcf1d0be594f43ea385420f8ea58fbb14e83bf84a63a1c"
+    },
+    {
+      "logical_file": "native/complete-finite193-ordinary-L2-Green-kernel.json.gz",
+      "lossless_manifest": "native-complete-finite193-ordinary-L2-Green-kernel.json.gz-ac4441cb98afabbb-parts.json",
+      "bytes": 18075636,
+      "sha256": "ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448",
+      "parts": 10
     }
   ]
 }
