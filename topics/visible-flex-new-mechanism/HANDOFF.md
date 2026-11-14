@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`040ae46e696db1ad452db4aab81598a8b873c42b`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`e0996f6336e79dd66808c98299d742409bb7fbe9`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -28,11 +28,11 @@ A1/B7/25/半宽1/50，L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81
 
 R103已给真实I/K=qII的双PSD曲率门和完整2jet导数，正则性须另查，暂未加进optimizer。下一同g处理角向漏峰/strip余量与冗余约束矩阵成本；完整J282132480B，不能盲续同巨大matrix。若活跃行生成，须每次完整网格补违反/物理独立筛，保rawδ和真实状态；曲率与完整reach仍欠。
 
-## 4. 新B=.37局部核心与成套leading
+## 4. 新B=.37备选与GC接口
 
-全段抄系数曾η67/退化失败，已改以原f198162态局部保外域。χ=1−S11在[.036,.198]，T*=Rz(χΔu)T、a*=a+χΔa0；新g **211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e**，不是旧g精化。初次局部actual43636741138 η1.185449、κ270.727，外域镜像/strip失败保留。
+新B分支仍取原f198162态；旧全段抄系数actual43634358250细η67/退化失败，已改χ=1−S11局部替a/T且保外域。新g **211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e**，不同于旧g。成套U4/V7/B6 leading actual43638423274（245.363s，人工pass，无优化）给物理 **8d9d505cacada07562d819792d8e1398638e89b680812d9702bde34a4439803a**、b0df1a2139；170×768 η1.174996/κ263.3758，仍失败。支撑外六jet与gjet准确保，帽高不变；外域镜像.01425979/strip.393509失败不受入口修复影响。完整身份/输出见notes/localized-core-leading-repair-actual-result-20261114.md。
 
-成套leading actual43638423274/sourcee11edd1a已complete245.363s/RSS524836KiB，人工pass、唯一初态无opt/Q/高度步。同新g/原162bits，U4/V7/B6差由支撑.081的Δzc/导数成套支付，总积0，外域恢复。新physical **8d9d505cacada07562d819792d8e1398638e89b680812d9702bde34a4439803a**，新b0 **df1a213907b0fec56ab4df10f974751bdac5e4c3ef7e60ed310530237eaad324**。170×384/768 η1.173056715/1.174996406，κ263.375808；仍在修复内s.093375/.100125。外域六jet0、metricjets0、帽高.1427042不变；镜像.01425979<.061、strip.393509仍在外域，入口修补不能改变它们。新R66下界.069959984仅必要门。bmax1.0004638保留非旧b0有界继承。完整raw1914549B SHA0e319c655569ae86af02ee4a4a0b27923ec86e2134b45452aae0dc6f4b361f96，详notes/localized-core-leading-repair-actual-result-20261114.md。未付全Cauchy或完整reach；下一优先旧g5d已改善全场，GC前缀只留备选；完整局部CK/周期GW/二jet-Hermite/共同高度积分接口见notes/analytic-GC-prefix-and-finite-collar-interface-20261114.md，未支付数值前缀长度或外连接。
+准确局部CK/周期GW/二jet-Hermite/共同高度积分接口已纸证，见notes/analytic-GC-prefix-and-finite-collar-interface-20261114.md；未付可用前缀长度或外连接，a″<0径向特征非实不能冒稳定双曲推进。当前优先旧g全场，GC与新B保留备选。
 
 ## 5. 理论当前真实边界
 
@@ -42,7 +42,9 @@ R37/R45真实M0桥及四块几何闭合、R52完整三阶圆；仍不是有限�
 
 **R99/R101已支付该字符的一维真实第四成本**。actual43640085842的t1×W0四列两Jacobi准确0，τ_p1t1/h-shape(k)归一mod2054146430/721224600非零。R101真M0环L复制给T=nτ/V=nv，M=T0词Z的V=E(t)+n(2v+tK)，未知偶基准保留。先固定小A(s)、L和共同I，再对有限V+B_E8(W)用R96选同一合法圆/固定查询ℓ；A(t/m)^m不扩scalar包络，有限±T和n给ℓ(V)任意实值。保ℓ(P1)>0但可消固定N的一个ℓ(P0+NP1)；不是全函数/真实加法逆元/ruling或厚度。R84倒行V同号/长度门仍保。
 
-**R100已把m8 D25 c8缩成真实短action，符号未定**。R85/R88的4m−9/4m−8是M0已付零端势；R92第4m−7三primitive二次action真实原DAG已核。R95 actual43639240317把D25压1605项5组，const1375/linear139保，c10/c9准确零端势使period次数≤8。R100 actual43640085842完整34差式全0（11.634s/RSS96.859），保18+5=23真histories/完整参数族/原DAG。p=B4、η=ω−k/h、ell=B3−J2/2−ηp、zeta=B3−4ηp，真实p′=hk/8、ell′=−η′p、zeta′=(k²−1+hℓh)/8−4η′p，均零端。c8 period=(307328/15)∫[(2/5)p(zeta+10ell)zeta′−(2/5)(k/h)p²−p′zeta′/20−p′ell′/5]。完整端势见R100；31项系数化19项不授非零period。cert raw699591B SHA4b2fdc4d5210094575a14316a63705bb392d322aba862731d33727e79928f2df。
+**R100已把m8 D25 c8缩成真实短action，符号未定**。R85/88首两尾已是零端势；R95 actual43639240317把D25压1605项5组，c10/c9准确零端使period次数≤8。R100 actual43640085842完整34差式全0，保23真histories/完整参数族/原DAG；p=B4、ell=B3−J2/2−ηp、zeta=B3−4ηp均真实零端，短action与全端势见R100。raw699591B SHA4b2fdc4d5210094575a14316a63705bb392d322aba862731d33727e79928f2df。
+
+**R104已在真实闭合词消c8**。同(h0,0,0)端芽真M0桥B:I→D，σ=(h,−k,−ω)后四块B σB Bᴿ (σB)ᴿ，真实前缀位移V,DAV,−V,−DAV相消，frame回I、M=T0。共同正I先按有限包络选；c8倒行偶/反射奇、三primitive块间真实复位，故D25 period次数≤7。完整V仍2V_B+2V_σB；只有周期正则浸入环带，不给第四ruling/无边界嵌入。下一查原式低参数奇偶，不能从c8猜全V。
 
 R93/R97真实驱动约束：∫kh=0，K2=L+Elogh，∫hkω=K2，K2=−∫(F/h)kρ；平方给(S²−1)E≥L，故k换号/max|k|>1、h非恒/S>1。R100已把这些写成真正零端primitive，不能逐点置零或把p/ell/zeta独立化。k是frame参数非曲面主曲率。已核反射(h,k,ω)→(h,−k,−ω)：c8反号，但同一几何把正支映到负支；右Volterra变左锚产生真实ruling补偿。当前阶ruling付清时完整period只作ξ反射、保持同号，不能由c8反号得负V。详notes/pure-tail-c8-sign-reflection-and-right-anchor-20261114.md。
 
