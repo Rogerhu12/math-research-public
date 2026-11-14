@@ -159,3 +159,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **五列第三入口已冻结。** [接口](notes/2026-11-14-r150-five-third-interface-789f.md)/[实际入口](notes/2026-11-14-r150-five-third-actions-entry-789f.md)保六旧包50输入、原p6、五H5和所有正原17续算。共享300秒/512MiB，六编译各30秒；真实运行待回执，不重η8或九余。五列不足后接旧198第三，不能提前写完整低初值负结论。
 
 **全零源消去仍不容全源导数小界。** [实际source-Schur证明](notes/2026-11-14-actual-source-schur-relative-hole-derivative-obstruction-and-paid-test-null-family-789f-next.md)给任意q的四次指数下界；但同一真实坏族左最小者只在q层，固定低孔测试严格零，而且原μ²≤exp(O(m²))flat²已付。下一保固定物理测试/实际源或保费剥离；不能把导数反例冒充实际两费障碍。五列第三数学run43646683083已启动，回执待读。
+
+**五列第三实绩已成，198继续。** [完整实际结论](notes/2026-11-14-r150-five-third-rank-one-nine-current-obstructions-and-rational-rank-226092-789f.md)给新相关像rank1/ann=s−2、九目标全不相容，仅五列不足；未投影来源不全在2-primary。真b10=AH5_9305/p5成本87且类不在U9，原rank_Q A87≥226092，仍非精确秩。全部37恢复/8cache已main，不重算。接只读新像与旧四维目标联合秩，以及旧198的真实局部q2/Smith损失/carry；全低初值及全原整数来源未排。
