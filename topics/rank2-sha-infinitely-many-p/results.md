@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R474：原六sigma双输出核心与完整Riemann条件域](results/R474-original-six-sigma-two-output-core-and-exact-riemann-domains.md)：六sigma与Theta平方两压缩输入的真实core及整个K136=RB2给保Q两态，任意双深均完整返回。四sigma Hadamard的两真实分支、全部八输入域与转置同时付清；不把压缩输出深度或未投影行改作新曲线中央零。
+
 - [R465：原共同六sigma核心与完整五伴随新中央行](results/R465-original-common-six-sigma-core-and-new-conditional-central-row.md)：原T输出的真正两态保全部六输入，固定CM投影在原态全零、第二态准确为Snew⊗Λ且Λ质量52/3。第三中央零遂控制任意五伴随测试；所有四挠相位和混W移动管保留，不把条件穿过CM投影。
 
 - [R473：三来源全函数域、规范化与整conductor返回](results/R473-three-source-function-field-normalization-and-integral-conductor.md)：新增U消原102度覆盖，准确规范化基和所有权给整三源环；T的306次monic关系导数以固定权10980返回全部规范化，保p饱和、指数范数与实际Amice零阶。维数仍二，不赋产品中央零或预支严格预算。
