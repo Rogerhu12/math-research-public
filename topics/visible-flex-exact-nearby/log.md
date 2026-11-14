@@ -599,3 +599,7 @@ root逐节核P1–37及真实global T根stable正号、完整mean源、density n
 ### 2026-11-14：完整连续 Z 的精确右端193审计提交
 
 新7-input消费者只读原末shard013（1,517,845B）、index、连续Z原native和实际旧outer summary。全193物理态无α缩放，末片Horner及原offset均用Fraction；有向Arb给6个strip、角0..4及两个δ半径的mean/p*和moving/angle预算。原物理无限Fourier C变化、真正outer/body inverse权限全部false，待实际结果后继续付清。原response/target/endpoint证书均不重算。
+
+### 2026-11-14：cut v3 恢复原 true-inlet Hermite 语义
+
+receipt43610342605从真实v2原件确认前6门过、第7门错误要求binary64(.9)=9/10；实际0新格。v3同时修首node身份、第一格合法极短外推、真实9/10入口Hermite评价，绝非只放松拒绝门。140manifest保旧137逐SHA全不变；全部1977原界和16新单列格、原full97/mean/Robin/high/Hessian合同保留。新child失败亦导出小文本原failure和成功前缀。

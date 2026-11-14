@@ -1,0 +1,160 @@
+name: visible-exact actual known cut direction complete cap pilot v3
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-known-cut-direction-cap-pilot-v3.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-known-cut-direction-cap-pilot-v3
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  PILOT_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-known-cut-direction-cap-pilot-v3-CI-inputs.json
+  PILOT_MANIFEST_SHA: fb0971a3d5e471c7c8d13d009c7dd23b109e3c88e6875f3236373cd79e329f5a
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  actual-one-column-cap-source-pilot:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 75
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the immutable original source and new consumer
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-known-cut-direction-cap-pilot-v3-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate the unchanged cap inputs and separately pinned new known-direction source
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$PILOT_MANIFEST" --manifest-sha "$PILOT_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          git -c safe.directory="$GITHUB_WORKSPACE" sparse-checkout add /topics/visible-flex-exact-nearby/notes/known_cut_direction_v3_ci/
+      - name: Check the new exact Python source syntax without running mathematics
+        run: |
+          python - <<'PY_AST'
+          import ast,pathlib
+          root=pathlib.Path('topics/visible-flex-exact-nearby/scripts')
+          for name in ('fourfold_codazzi_known_cut_direction_cap_pilot_v3.py','fourfold_codazzi_known_cut_direction_cap_CI_v3.py'):
+              ast.parse((root/name).read_text(),filename=name)
+          print('New known-direction files passed Python AST parsing; no mathematics executed.')
+          PY_AST
+      - name: Install the pinned directed arithmetic environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set original artifact and actual output paths inside the container
+        id: paths
+        run: |
+          printf 'prepared=%s\n' "$RUNNER_TEMP/visible-exact-known-cut-original-prepared" >> "$GITHUB_OUTPUT"
+          printf 'cap=%s\n' "$RUNNER_TEMP/visible-exact-known-cut-original-cap" >> "$GITHUB_OUTPUT"
+          printf 'capcut=%s\n' "$RUNNER_TEMP/visible-exact-known-cut-original-capcut" >> "$GITHUB_OUTPUT"
+          printf 'boundary=%s\n' "$RUNNER_TEMP/visible-exact-known-cut-original-boundary" >> "$GITHUB_OUTPUT"
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-known-cut-direction-output" >> "$GITHUB_OUTPUT"
+          printf 'failed=%s\n' "$RUNNER_TEMP/visible-exact-known-cut-original-v2-failure" >> "$GITHUB_OUTPUT"
+      - name: Receive the exact original large matrix artifact without rebuilding any array
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43580498603
+          name: visible-exact-cap128-prepared-43580498603-1
+          path: ${{ steps.paths.outputs.prepared }}
+      - name: Receive the original complete1977 physical source certificate
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43583838015
+          name: visible-exact-cap128-recovered-complete-43583838015-1
+          path: ${{ steps.paths.outputs.cap }}
+      - name: Receive the complete Hessian and actual moving cut consumer
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43587619797
+          name: visible-exact-complete-cap-cut-43587619797-1
+          path: ${{ steps.paths.outputs.capcut }}
+      - name: Receive the actual complete mean-corrected known cut trace and sources
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43599771405
+          name: visible-exact-known-response-boundary-43599771405-1
+          path: ${{ steps.paths.outputs.boundary }}
+      - name: Preserve and audit the actual original zero-cell failure without rerunning it
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43609037484
+          name: visible-exact-known-cut-direction-cap-pilot-v2-43609037484-1
+          path: ${{ steps.paths.outputs.failed }}
+      - name: Compute only new selected one-column cells and consume the complete mixed cover
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_known_cut_direction_cap_CI_v3.py
+          --manifest "$PILOT_MANIFEST" --manifest-sha "$PILOT_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --prepared "$RUNNER_TEMP/visible-exact-known-cut-original-prepared"
+          --cap-artifact "$RUNNER_TEMP/visible-exact-known-cut-original-cap"
+          --cap-cut-artifact "$RUNNER_TEMP/visible-exact-known-cut-original-capcut"
+          --boundary-artifact "$RUNNER_TEMP/visible-exact-known-cut-original-boundary"
+          --failed-artifact "$RUNNER_TEMP/visible-exact-known-cut-original-v2-failure"
+          --work "$RUNNER_TEMP/visible-exact-known-cut-direction-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-known-cut-direction-output"
+          --compute-minutes 50 --checkpoint-minutes 10
+      - name: Require actual nonempty evidence before artifact publication
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_INVENTORY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):
+              raise RuntimeError('no actual nonempty process evidence exists')
+          entries=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(entries,indent=2)+'\n')
+          print(dict(actual_files=len(files),nonempty_output_verified=True))
+          PY_INVENTORY
+      - name: Preserve the actual complete outcome and every failed prefix
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-known-cut-direction-cap-pilot-v3-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error

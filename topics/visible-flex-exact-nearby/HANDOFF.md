@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 15:34:30 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 15:35:12 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：49e2165651e13aeeaa9f7ceb78eda24679fcde99；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：252461e8000ac9ca81001b61f8cef0445b4f5d64；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -28,7 +28,7 @@ body/mean43583838026/43586413510：7721rows/6143jumps全；signeddual跨0非Schu
 mean-v2 43589465579给||q*−Z||<4.572198020300e−6；必须真全逆付||qν−q*||≤.004995427801979700，才授ν真行>1/200。
 knownGreen v1实际回执失败及receipt43603364028均保。v2 43604003161真实10门：五源负窗<1.471767296（body .794760129/cut .677007170）、全窗<3.141134770；未过目标且非实际误差下界。
 原low193 pilot43605144072真实6门/14行，大格径向余项和小格IFFT均值相关丢失主导。新Fourier/fixedη43607383671真实7门/14缓存行/8×(1+4)新格/80target，nativea73382575ca2b14afb810c2ed43ae0aec9d59aef563635a19f6785b414111993（6,039,443B/4parts）。4子格1524 low<.000149789958006、1289<.000078025612511，3070~3.83e−7；有效收紧。新 exact-bump/fullZ pilot以Fraction展开原bump后取范数，复用14格及全部80 jets，0新target；保Z真mean/raw+offset费，qstar另诊断。136manifest原131全不变；待实际。newton扩compact约1156格新源、其余旧raw+mean正交界，完整7721混合cover与Green；尚非完整response。
-known-cut v1 43607861742因错误字段actual_complete_cap_cut_native_sha256失败，0新格；v2只换真实actual_cap_cut_native_sha256/原134输入不变。v2 43609037484仍child1/5.000557s，native9f8ed802456a6098e2b7ba03cb1f31f7dbcec62be426bd3d7c3d4ee0f14d42a4（1282B），第二原因未查明。新增receipt-only脚本只下载原小artifact，导出真实failure/gates/log；无新数学/无767MB下载。全部1977cover及方向/Hessian/mean/high合同不变，newton据实际failure修复。
+known-cut v1 43607861742因错误字段actual_complete_cap_cut_native_sha256失败，0新格；v2只换真实actual_cap_cut_native_sha256/原134输入不变。v2 43609037484仍child1/5.000557s，native9f8ed802456a6098e2b7ba03cb1f31f7dbcec62be426bd3d7c3d4ee0f14d42a4（1282B），receipt43610342605真实确认前6门过/第7门把binary64(.9)误当9/10，0新格。v3保原首dyadic/descriptor、首片极短外推并在真实9/10有向Hermite评价入口；140manifest保原137。旧失败全保，原1977/方向/Hessian/mean/high合同不变，待实际。
 
 ## 正区与完整根部
 
