@@ -1,0 +1,34 @@
+{
+  "result": "R656-SS_j36_02",
+  "disk_id": "SS_j36_02",
+  "request_item": {
+    "result": "R656-SS_j36_02",
+    "disk_id": "SS_j36_02",
+    "prior_run": 43580991103,
+    "prior_source": "c52ae41986e6f8d0714f897c2c62e1761da73c33",
+    "artifact": "serre-p41-remaining-R655-43580991103-1",
+    "scope": "Only missing actual CM4 T2 support, Norm, F2 center/polynomial and independent integer certificate. Original complete chain, terminal integrals and principal expression are reused. F3 follows only if actual F2 roots require it."
+  },
+  "source_commit": "1c0f82fde2b785afa266b5506e92942061070d3b",
+  "request_sha256": "99e2c8821651043ea6c97c28045456f0d7ba8d1a2358874a9f88df4cf663ef80",
+  "prior_receipt_sha256": "469c5e9ccf65629c2a90fbbf04fb40373bbcb2afdf2b7c20204709539627efde",
+  "prior_input_sha256": "8d560b27fabdcd45ce3c0aa593561058df2e3ff5eca4fae8494f72a716641a34",
+  "original_chain_bits_restored": 304,
+  "original_driver_log_prefix_and_exact_trailer": {
+    "file": "public-actions-run.log",
+    "sealed_prefix_bytes": 457,
+    "sealed_prefix_sha256": "fbc149a05ee3984a9c660fac8377c3468d8a55a3817263e0ab50c9415b191cfa",
+    "actual_bytes": 482,
+    "actual_sha256": "565ba71aa920fdfb049efa5c582478bbf90ada1fb2b90e90490a2a68292c2c35",
+    "exact_trailer": "SAVED R655 complete True\\n"
+  },
+  "clearing_result": "R554",
+  "joint_Laurent_certificate_sha256": "c21ddac95926d7b3c9ae77a1ddbf75eff990f6142ddf87fb9e3734f2d7c88220",
+  "joint_Laurent_audit_sha256": "7cf41823e8294fcd63546d99704ad2ae3351a5316a4ca9dbeefd6694a0c13b56",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "original_chain_or_terminal_or_principal_repeated": false,
+  "actual_T2_degree": 3,
+  "T2_repeated_coarse_target_retained": true,
+  "mathematical_completion_claimed": false
+}
