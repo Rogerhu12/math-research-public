@@ -216,3 +216,8 @@ R554原五输入同域差24Ω³I1=I4−18∫u e2/Y⁵ρ、R559保K/四伴随的�
 ### 完整六尾与首 Bockstein 剪切
 
 [完整六尾剪切及低ell边界](notes/2026-11-14-deep-six-tail-bockstein-shear-and-low-ell-boundary.md)：ell≥3时六尾均在原I13/G，βh=(γh,b)的b固定。若后三尾在K=kerb上由原真实首像吸收，Δγ经b(KA)因子化，完整C1可逆剪切使K2red在同一来源相等，并保持G2及模p² Smith型；不必再把一般KA的前三尾逐条吸收。**待做：** 原实际向量命中、ell1/2新增2/1条真实B行、同一整提升的d2及所有carry高尾。首剪切不推出第二障碍不变或非零。
+
+
+### R571：整个cd共同深补项及全部尾部
+
+[R571：原共同深补域的全部深度、双sigma消元与完整首层](results/R571-original-common-deep-complement-and-two-sigma-tail.md)：原In,m保q/carry/κ^-n，完整D/P/Z*与D4/c/d两套真矩形给统一H(s,t)；两个σ精确积分使H=st²K1+s²t²O，全部深度与环带尾保持。全算术首层另含3λ4K1及整个uunit补项，不据局部非零收尾。 **待做：** 原K1中E*/A*unit和四sigma条件权的实际比较，以及全uunit行Un；两者与C0/p的log质量都不能删。β^-nUn独立n只是完整身份，不给其零值。源多项式内原λ/κ系数固定，不随H的分析变量变动。

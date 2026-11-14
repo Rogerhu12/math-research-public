@@ -44,3 +44,6 @@
 - [R569：原五sigma真实六度边际、完整卷积单位与四unit桥](../results/R569-original-five-sigma-convolution-unit-and-four-unit-bridge.md)：三C共轭给(D4,d)=(ω²/84)f4⊗σ；明确正权使完整五/六维测度整可逆，所有混合cut保真实平移。R562四unit回同一ν5的显式单位行，并与原完整S/T行各自运输到同一词域；测试尚未等价；T7/T10完整边际−F5/84、−G5/42确定Λ_j总质量，非条件测度全零。
 
 - [R570：两指定负矩的全局三极点Cartier线与显式原函数](../results/R570-original-global-negative-moment-cartier-lines-and-polynomial-primitives.md)：原固定二/三挠全theta平移给P_i(0)=−2ba_i、P_i(−b)=3ba_i，完整C(P_i dlogτ)=−a_iΨ_b精确读取两原负矩首层；零值等价显示degree≤p−1多项式原函数，b17完整单位尺度保持，未赋联合非零。
+
+
+- [R571：原共同深补域的全部深度、双sigma消元与完整首层](../results/R571-original-common-deep-complement-and-two-sigma-tail.md)：原In,m保q/carry/κ^-n，完整D/P/Z*与D4/c/d两套真矩形给统一H(s,t)；两个σ精确积分使H=st²K1+s²t²O，全部深度与环带尾保持。全算术首层另含3λ4K1及整个uunit补项，不据局部非零收尾。

@@ -355,3 +355,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [完整六尾、首Bockstein剪切与低ell边界](notes/2026-11-14-deep-six-tail-bockstein-shear-and-low-ell-boundary.md)：ell≥3且原三尾在kerJ上被真首像吸收时，完整C1剪切统一全部首Bockstein，保同源K2red/G2/模p² Smith型；ell1/2的2/1条真实carry及同一d2仍保。
+
+
+- [R571：原共同深补域的全部深度、双sigma消元与完整首层](results/R571-original-common-deep-complement-and-two-sigma-tail.md)：原In,m保q/carry/κ^-n，完整D/P/Z*与D4/c/d两套真矩形给统一H(s,t)；两个σ精确积分使H=st²K1+s²t²O，全部深度与环带尾保持。全算术首层另含3λ4K1及整个uunit补项，不据局部非零收尾。
