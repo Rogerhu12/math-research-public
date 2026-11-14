@@ -1,0 +1,3052 @@
+{
+  "C3_modulus": "all Area and all cubic-velocity coefficient profiles; geometric reachability uses the separate R76/R77 theorem, never a numeric span test",
+  "P0_satisfied": false,
+  "R71_modulus": "original exact cubic diagonal commutators, not their pure-fourth response images",
+  "actual_sizes": {
+    "coefficient_DAG_nodes": 6288,
+    "history_states": 27,
+    "profile_atoms": 102
+  },
+  "all_fourth_phase_channels_paid": false,
+  "artificial_checks": {
+    "all_pivots_reduced_after_unmatched_row": true,
+    "deliberately_missing_geometry_coefficient_retained": true,
+    "h_plus_minus_exact_moments": {
+      "integral_dk": "-2",
+      "integral_h_dk": "-4",
+      "integral_inverse_h_dk": "-4",
+      "omega_increment": "-2"
+    },
+    "omega_contact_chain_rule_retained": true,
+    "profile_or_geometry_evaluated": false,
+    "research_compiler_called": false,
+    "three_moment_positive_relation_from_original_expressions": true
+  },
+  "c3_coefficient_columns_after_exact_duplicate_removal": 56,
+  "compiler_records": [
+    {
+      "B_terms": 6,
+      "J_terms": 6,
+      "P_terms": 6,
+      "R_terms": 27,
+      "eta0_terms": 15,
+      "field_component_terms": [
+        30,
+        18,
+        36
+      ],
+      "mode": "local_third_B",
+      "order": 2,
+      "period_rhs_sha256": "951208c24a6fa19f1b4b7931c50775dede51811e38a0c1b3b43feae0efd0e103",
+      "recovered": true,
+      "ruling_integrand_sha256": "85422022ecbcb7c8bc275966026b1095bf2af9858f02268ec0e6cd11383c3336",
+      "ruling_integrand_terms": 6,
+      "state_count": 27
+    },
+    {
+      "B_terms": 72,
+      "J_terms": 72,
+      "P_terms": 75,
+      "R_terms": 318,
+      "eta0_terms": 182,
+      "mode": "local_third_C",
+      "order": 3,
+      "period_rhs_sha256": "adf01351f54fe58f90d51576da584340401bc501a777d7b057e433421eee38e5",
+      "recovered": false,
+      "ruling_integrand_sha256": "de261def0dceeb84580a8f2bac343adae8cf5975c46e45a945a53b7d5343aff9",
+      "ruling_integrand_terms": 75
+    }
+  ],
+  "completion": "complete",
+  "decomposition": {
+    "area": {
+      "geometry_terms": 22,
+      "sha256": "8e4e5979cfb3357d2f99d81c4c8224ef47be251160a3861e639d5a80b26107b2",
+      "total_profile_terms": 94
+    },
+    "contact_closure": {
+      "geometry_terms": 34,
+      "sha256": "5a4e413045054680b28da78a9ec0f5ab3763f28a3fd1a28223165e56e723f27d",
+      "total_profile_terms": 189
+    },
+    "cubic": {
+      "geometry_terms": 60,
+      "sha256": "87003c995cd4366a735289f20439b63f647e2fc8d24e9140b71a29a7ddbc8106",
+      "total_profile_terms": 223
+    },
+    "h_shape_obstruction": {
+      "geometry_terms": 45,
+      "sha256": "fa34a7e3a983936a95d14b5edffbeabca26d041957605a5608d4da77e400967f",
+      "total_profile_terms": 250
+    },
+    "local": {
+      "geometry_terms": 316,
+      "sha256": "2d574bbc67ca65f74e59dd35210f2ec90ac03d050d520edbc03c262eb3552acb",
+      "total_profile_terms": 1506
+    },
+    "potential": {
+      "geometry_terms": 162,
+      "sha256": "ee82c9895be8ed3db47edc3e9860516fbd2f3ed347ba1110273dc7451622e9fe",
+      "total_profile_terms": 917
+    },
+    "potential_acc": {
+      "geometry_terms": 93,
+      "sha256": "48c4ffc7f34c9b999e13b80df9931486b74e9deea1c2f2854d8202448f084d41",
+      "total_profile_terms": 432
+    },
+    "potential_h": {
+      "geometry_terms": 69,
+      "sha256": "74ceed5a4884f4d537010af9f0f04a23a6394a289533fa5861f8f31d2c61e78b",
+      "total_profile_terms": 485
+    },
+    "remainder": {
+      "geometry_terms": 199,
+      "sha256": "d26fc61700c44075138fbe6d7a41efb4ceb69dcc43016d21897ade2664f35199",
+      "total_profile_terms": 1151
+    },
+    "residual_k": {
+      "geometry_terms": 95,
+      "sha256": "a10fac3d3c950c509c77afff487dd7bd59eaf347ecfca5585bd7b556241a9b4f",
+      "total_profile_terms": 740
+    }
+  },
+  "decomposition_identity": "C_s = Ds(P_acc+P_h) + Area*(k_s*h_ss-h_s*k_ss) + Cubic + k_s*R",
+  "dependencies": {
+    "exact": {
+      "bytes": 33718,
+      "filename": "literature_pure_bulk_exact_membership.py",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    "formal_compiler": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "local": {
+      "bytes": 30635,
+      "filename": "literature_local_third_bridge_decompose.py",
+      "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+    },
+    "word": {
+      "bytes": 32310,
+      "filename": "literature_pure_bulk_word_normal_form.py",
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    }
+  },
+  "elapsed_seconds": 1.125313817999995,
+  "exact_relation_artifact": {
+    "bytes": 134153,
+    "filename": "linear-third-quotient-relations.json",
+    "sha256": "3e9317bff0add48d4abb67426855c991908a010c36feabbf711e00d52cdeb448"
+  },
+  "expanded_coefficient_nodes": 2791,
+  "finite_isometric_family_certified": false,
+  "full_trilinear_identity_certified": false,
+  "geometry_relation": "h>0; omega_s=k_s/(2h); one compact physical xi interval and a common right collar",
+  "github": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43631537869",
+    "GITHUB_SHA": "4e60f25c3c145f715c5bde6f8ed7bf76b393cdc9"
+  },
+  "legacy_statistics": {
+    "cycle_fallbacks": 0,
+    "first_level_shuffle_rewrites": 4,
+    "power_shuffle_rewrites": 0,
+    "primitive_calls": 92,
+    "unique_high_jet_rewrites": 59,
+    "weight_zero_not_rewritten": 0
+  },
+  "negative_result_scope": "a nonzero rewritten coefficient does not prove actual functional nonmembership",
+  "normal_form_complete": false,
+  "peak_resident_mib_linux": 31.0859375,
+  "phase": "finished",
+  "potential_endpoint_scope": "constant endpoint germs remove P_acc; h=1 at both endpoints removes anchored P_h; otherwise retain its exact jump",
+  "profile_or_geometry_values_evaluated": false,
+  "quotients": {
+    "C3_and_R71": {
+      "coefficient_representation_not_unique_if_reference_profiles_are_dependent": true,
+      "extended_functions_are_not_asserted_equal_to_h_inverse_one_h": true,
+      "extended_scalar_functions": {
+        "-1": [
+          {
+            "coefficient": "1",
+            "geometry": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1"
+          },
+          {
+            "coefficient": "6",
+            "geometry": [
+              -1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*omega^2"
+          },
+          {
+            "coefficient": "-6",
+            "geometry": [
+              -1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*k*omega"
+          },
+          {
+            "coefficient": "1",
+            "geometry": [
+              -1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*k^2"
+          },
+          {
+            "coefficient": "-6",
+            "geometry": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "omega^2"
+          },
+          {
+            "coefficient": "4",
+            "geometry": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "k*omega"
+          }
+        ],
+        "0": [
+          {
+            "coefficient": "6",
+            "geometry": [
+              -1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*omega^2"
+          },
+          {
+            "coefficient": "-6",
+            "geometry": [
+              -1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*k*omega"
+          },
+          {
+            "coefficient": "1",
+            "geometry": [
+              -1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*k^2"
+          },
+          {
+            "coefficient": "1",
+            "geometry": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "1"
+          },
+          {
+            "coefficient": "-6",
+            "geometry": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "omega^2"
+          },
+          {
+            "coefficient": "4",
+            "geometry": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "k*omega"
+          }
+        ],
+        "1": []
+      },
+      "extended_three_profile_span_identity_verified": false,
+      "extended_unresolved": [
+        {
+          "geometry": [
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "65bd06947855a07200b7c2b8f7cb4c0c5b7f84661e8a9437e219c89767857bdc",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "4a3bf5d43b3448f212344df1be2bbd4b46665cf85abf474dbb9785f151c273e5",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega^3",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "362033141dd42213e2e38544487946858bf61bc1102cfb98941f259e7c61e8ba",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "748708bc914370acb4175d5a02d4db512b0d57bb9134cdcd7f05f1f73d6d4a9c",
+            "terms": 6
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "699efa7e20dc236c2ae2273da394b3b085ded1a32f582ea0df373f192b232d15",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "cadf49f0e5a7ab162c2afdd11d574e3a116f28c08e18e1a5e9cbd9fd2b2030ad",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "a10c3fa0b4653249399e86527a8480a05d097e63ab6fd563b6b3f54d83b15ed0",
+            "terms": 5
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k^2*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "3529cd976ec869585be52ca5a132ccdda8e4676810e0ed8b0d371a6a8540d314",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "143e08ea7bba244b1fed15cba53b9a2a676d028fa0ce2e7f99bc58d964d761e0",
+            "terms": 6
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "699efa7e20dc236c2ae2273da394b3b085ded1a32f582ea0df373f192b232d15",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega^3",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "e44ea3cc56f12e4a4fcf4c675a2d06b5f8f0105cf9d13635961d7b7c9c012ae4",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "41c1fc5aaada237cd4f5e4521625dc3343fdb7b6628a1295329ab507093b85e5",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "4d64cc460a6f353211d3b4bf639cd83a6e2b90757edd89bf28680ae1a5ea2f21",
+            "terms": 5
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "362033141dd42213e2e38544487946858bf61bc1102cfb98941f259e7c61e8ba",
+            "terms": 1
+          }
+        }
+      ],
+      "extended_verified_zero_rows": 81,
+      "geometry_coefficients_checked": 95,
+      "modulus": {
+        "actual_function_dimension_claimed": false,
+        "columns": 84,
+        "dependent_representatives": 66,
+        "independent_column_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          18,
+          20,
+          21,
+          24
+        ],
+        "representative_rank": 18
+      },
+      "modulus_labels": [
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "p1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "p2"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "r0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "r1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "r0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "r1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "r0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "r1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r0",
+            "r1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r0",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r0",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r0",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r1",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r1",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r1",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "s0",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "s0",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "s1",
+            "t1"
+          ]
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-6"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -6,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-6*k^2"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -5,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*k"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -5,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*k*omega"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -4,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*omega"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -4,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k^2"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k^2*omega"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -4,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k^2*omega^2"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*k"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*k*omega"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -3,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*k*omega^2"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-2"
+        },
+        {
+          "component": "area",
+          "geometry": [
+            -2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-2*omega"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -6,
+            1,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-6*k*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -6,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-6*k*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -6,
+            1,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-6*k*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -6,
+            1,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-6*k*omega*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -6,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-6*k*omega*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -6,
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-6*k*omega^2*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*k_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*omega*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*omega*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*omega*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*omega^2*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            2,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*omega^2*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            0,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*omega^3*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            2,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*k^2*k_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            2,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*k^2*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            2,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*k^2*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -5,
+            2,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-5*k^2*omega*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*k_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*omega*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*omega*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*omega*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            2,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*omega^2*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*omega^2*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*omega^2*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -4,
+            1,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-4*k*omega^3*h_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*k_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            1,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*omega*k_s^3"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            1,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*omega*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            1,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*omega*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            2,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*omega^2*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*omega^2*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            3,
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*omega^3*h_s*k_s^2"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*omega^3*h_s^2*k_s"
+        },
+        {
+          "component": "cubic",
+          "geometry": [
+            -3,
+            0,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0
+          ],
+          "kind": "weight_three_profile_coefficient",
+          "monomial": "h^-3*omega^4*h_s^2*k_s"
+        }
+      ],
+      "negative_is_not_actual_function_nonmembership": true,
+      "simple_three_moments": "R(h,k,omega) = h^-1*L_minus + L_zero + h*L_plus modulo the declared space",
+      "simple_three_moments_identity_verified": false,
+      "simple_unresolved": [
+        {
+          "geometry": [
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "65bd06947855a07200b7c2b8f7cb4c0c5b7f84661e8a9437e219c89767857bdc",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "b9d7be2c138e3e306383a016f2981ca41b24417480c8b0f5acfdf83654976872",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega^3",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "362033141dd42213e2e38544487946858bf61bc1102cfb98941f259e7c61e8ba",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "748708bc914370acb4175d5a02d4db512b0d57bb9134cdcd7f05f1f73d6d4a9c",
+            "terms": 6
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "11614ee95da285bf552724bd1ca6bc4a111e9aa263239172b15dd84a840ff05b",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "cadf49f0e5a7ab162c2afdd11d574e3a116f28c08e18e1a5e9cbd9fd2b2030ad",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "d2924e1a9bc37a8a497549cba051b2ff12a279d63c4169c1e0e1038d36cdc8f4",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k^2*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "3529cd976ec869585be52ca5a132ccdda8e4676810e0ed8b0d371a6a8540d314",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "143e08ea7bba244b1fed15cba53b9a2a676d028fa0ce2e7f99bc58d964d761e0",
+            "terms": 6
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "11614ee95da285bf552724bd1ca6bc4a111e9aa263239172b15dd84a840ff05b",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega^3",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "e44ea3cc56f12e4a4fcf4c675a2d06b5f8f0105cf9d13635961d7b7c9c012ae4",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "41c1fc5aaada237cd4f5e4521625dc3343fdb7b6628a1295329ab507093b85e5",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "79e579f515a398c2fc30940876862523839ff2b9368749132f0e8a753758a4e5",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "362033141dd42213e2e38544487946858bf61bc1102cfb98941f259e7c61e8ba",
+            "terms": 1
+          }
+        }
+      ],
+      "simple_verified_zero_rows": 81,
+      "with_three_reference_profiles": {
+        "actual_function_dimension_claimed": false,
+        "columns": 87,
+        "dependent_representatives": 67,
+        "independent_column_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          18,
+          20,
+          21,
+          24,
+          84,
+          85
+        ],
+        "representative_rank": 20
+      }
+    },
+    "R71_only": {
+      "coefficient_representation_not_unique_if_reference_profiles_are_dependent": true,
+      "extended_functions_are_not_asserted_equal_to_h_inverse_one_h": true,
+      "extended_scalar_functions": {
+        "-1": [
+          {
+            "coefficient": "1",
+            "geometry": [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1"
+          },
+          {
+            "coefficient": "6",
+            "geometry": [
+              -1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*omega^2"
+          },
+          {
+            "coefficient": "-6",
+            "geometry": [
+              -1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*k*omega"
+          },
+          {
+            "coefficient": "1",
+            "geometry": [
+              -1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*k^2"
+          },
+          {
+            "coefficient": "-6",
+            "geometry": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "omega^2"
+          },
+          {
+            "coefficient": "4",
+            "geometry": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "k*omega"
+          }
+        ],
+        "0": [
+          {
+            "coefficient": "6",
+            "geometry": [
+              -1,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*omega^2"
+          },
+          {
+            "coefficient": "-6",
+            "geometry": [
+              -1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*k*omega"
+          },
+          {
+            "coefficient": "1",
+            "geometry": [
+              -1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "h^-1*k^2"
+          },
+          {
+            "coefficient": "1",
+            "geometry": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "1"
+          },
+          {
+            "coefficient": "-6",
+            "geometry": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "omega^2"
+          },
+          {
+            "coefficient": "4",
+            "geometry": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "monomial": "k*omega"
+          }
+        ],
+        "1": []
+      },
+      "extended_three_profile_span_identity_verified": false,
+      "extended_unresolved": [
+        {
+          "geometry": [
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "65bd06947855a07200b7c2b8f7cb4c0c5b7f84661e8a9437e219c89767857bdc",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "4a3bf5d43b3448f212344df1be2bbd4b46665cf85abf474dbb9785f151c273e5",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega^3",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "362033141dd42213e2e38544487946858bf61bc1102cfb98941f259e7c61e8ba",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "748708bc914370acb4175d5a02d4db512b0d57bb9134cdcd7f05f1f73d6d4a9c",
+            "terms": 6
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "699efa7e20dc236c2ae2273da394b3b085ded1a32f582ea0df373f192b232d15",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "cadf49f0e5a7ab162c2afdd11d574e3a116f28c08e18e1a5e9cbd9fd2b2030ad",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "a10c3fa0b4653249399e86527a8480a05d097e63ab6fd563b6b3f54d83b15ed0",
+            "terms": 5
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k^2*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "3529cd976ec869585be52ca5a132ccdda8e4676810e0ed8b0d371a6a8540d314",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "143e08ea7bba244b1fed15cba53b9a2a676d028fa0ce2e7f99bc58d964d761e0",
+            "terms": 6
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "699efa7e20dc236c2ae2273da394b3b085ded1a32f582ea0df373f192b232d15",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega^3",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "e44ea3cc56f12e4a4fcf4c675a2d06b5f8f0105cf9d13635961d7b7c9c012ae4",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "41c1fc5aaada237cd4f5e4521625dc3343fdb7b6628a1295329ab507093b85e5",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "4d64cc460a6f353211d3b4bf639cd83a6e2b90757edd89bf28680ae1a5ea2f21",
+            "terms": 5
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "362033141dd42213e2e38544487946858bf61bc1102cfb98941f259e7c61e8ba",
+            "terms": 1
+          }
+        }
+      ],
+      "extended_verified_zero_rows": 81,
+      "geometry_coefficients_checked": 95,
+      "modulus": {
+        "actual_function_dimension_claimed": false,
+        "columns": 28,
+        "dependent_representatives": 10,
+        "independent_column_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          18,
+          20,
+          21,
+          24
+        ],
+        "representative_rank": 18
+      },
+      "modulus_labels": [
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "p1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "p2"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "r0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "r1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p0",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "r0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "r1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p1",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "r0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "r1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "p2",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r0",
+            "r1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r0",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r0",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r0",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r1",
+            "s0"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r1",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "r1",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "s0",
+            "s1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "s0",
+            "t1"
+          ]
+        },
+        {
+          "kind": "R71_diagonal_third_commutator",
+          "pair": [
+            "s1",
+            "t1"
+          ]
+        }
+      ],
+      "negative_is_not_actual_function_nonmembership": true,
+      "simple_three_moments": "R(h,k,omega) = h^-1*L_minus + L_zero + h*L_plus modulo the declared space",
+      "simple_three_moments_identity_verified": false,
+      "simple_unresolved": [
+        {
+          "geometry": [
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "65bd06947855a07200b7c2b8f7cb4c0c5b7f84661e8a9437e219c89767857bdc",
+            "terms": 7
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "b9d7be2c138e3e306383a016f2981ca41b24417480c8b0f5acfdf83654976872",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*omega^3",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "362033141dd42213e2e38544487946858bf61bc1102cfb98941f259e7c61e8ba",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "748708bc914370acb4175d5a02d4db512b0d57bb9134cdcd7f05f1f73d6d4a9c",
+            "terms": 6
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "11614ee95da285bf552724bd1ca6bc4a111e9aa263239172b15dd84a840ff05b",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "cadf49f0e5a7ab162c2afdd11d574e3a116f28c08e18e1a5e9cbd9fd2b2030ad",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "d2924e1a9bc37a8a497549cba051b2ff12a279d63c4169c1e0e1038d36cdc8f4",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            -1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "h^-1*k^2*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "3529cd976ec869585be52ca5a132ccdda8e4676810e0ed8b0d371a6a8540d314",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "143e08ea7bba244b1fed15cba53b9a2a676d028fa0ce2e7f99bc58d964d761e0",
+            "terms": 6
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "11614ee95da285bf552724bd1ca6bc4a111e9aa263239172b15dd84a840ff05b",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "omega^3",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "e44ea3cc56f12e4a4fcf4c675a2d06b5f8f0105cf9d13635961d7b7c9c012ae4",
+            "terms": 1
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "41c1fc5aaada237cd4f5e4521625dc3343fdb7b6628a1295329ab507093b85e5",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k*omega",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "79e579f515a398c2fc30940876862523839ff2b9368749132f0e8a753758a4e5",
+            "terms": 3
+          }
+        },
+        {
+          "geometry": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "k*omega^2",
+          "residual": {
+            "max_local_jet_order": 2,
+            "max_word_length": 1,
+            "sha256": "362033141dd42213e2e38544487946858bf61bc1102cfb98941f259e7c61e8ba",
+            "terms": 1
+          }
+        }
+      ],
+      "simple_verified_zero_rows": 81,
+      "with_three_reference_profiles": {
+        "actual_function_dimension_claimed": false,
+        "columns": 31,
+        "dependent_representatives": 11,
+        "independent_column_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          18,
+          20,
+          21,
+          24,
+          28,
+          29
+        ],
+        "representative_rank": 20
+      }
+    }
+  },
+  "raw_local": {
+    "geometry_terms": 316,
+    "sha256": "2b787ba4c40421922205154562c19edf97c95e358d3fa6c3306134f017bd195f",
+    "total_profile_terms": 3503
+  },
+  "readable_expressions": {
+    "bytes": 24190,
+    "filename": "linear-third-quotient-expressions.json",
+    "sha256": "f4497b778e230395dc29d3d3d966b06fbc570758235effc3f7cbbcc7ab46217e"
+  },
+  "reference_profiles": {
+    "-1": {
+      "exists_in_residual": true,
+      "geometry_key": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_sha256": "ce0740238cbdaf4756741351e06c4e2d4ea60690a8afb44cabfd79eceb413b97",
+      "word": {
+        "max_local_jet_order": 2,
+        "max_word_length": 1,
+        "sha256": "6d780f37d56bd2106f98b30102b98d210134802c028bda516500f8047bde56ad",
+        "terms": 27
+      }
+    },
+    "0": {
+      "exists_in_residual": true,
+      "geometry_key": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_sha256": "dc3a028d55ed77497043a8f3592065d35a907512f6def190bcafa219573ee4cf",
+      "word": {
+        "max_local_jet_order": 2,
+        "max_word_length": 1,
+        "sha256": "3b73f47aa20d299a3db2adb419efd60d0ba178b83cf5f6c1f5c3feea4f6070d9",
+        "terms": 28
+      }
+    },
+    "1": {
+      "exists_in_residual": true,
+      "geometry_key": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_sha256": "17a2c2aa847cd8f4f3b751c445453683501021b44a143af995e6ff3b540b9ad0",
+      "word": {
+        "max_local_jet_order": 2,
+        "max_word_length": 1,
+        "sha256": "4a22e19051b0273cce60bc48b72840a85f6679c879204fbeb607323de8907ab7",
+        "terms": 9
+      }
+    }
+  },
+  "resource_limits": {
+    "max_IBP_calls": 300000,
+    "max_coefficient_nodes": 600000,
+    "max_memory_mib": 2048,
+    "max_profile_atoms": 80000,
+    "max_rational_bits": 8192,
+    "max_seconds": 240,
+    "max_terms": 100000
+  },
+  "schema": "visible-flex-linear-third-diagonal-quotient-v1",
+  "scope": "diagonal cubic tau(q)=T(q;q,q), not unsymmetrized full T or all phase channels",
+  "source_sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2",
+  "true_bridge_constructed": false,
+  "word_statistics": {
+    "all_depth_shuffle_calls": 0,
+    "cycle_fallbacks": 0,
+    "max_shuffle_product_word_length": 0,
+    "max_word_length_seen": 1,
+    "nonempty_word_polynomial_IBP": 0,
+    "primitive_calls": 19,
+    "shuffle_cache_entries": 0,
+    "unique_high_jet_IBP": 0
+  }
+}
