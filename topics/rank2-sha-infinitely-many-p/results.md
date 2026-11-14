@@ -367,3 +367,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 
 - [R572：完整原C分离、简单极点单位行与真实arith比较](results/R572-original-c-splitting-and-simple-pole-unit.md)：全三sigma恒等式给µ0=σc⊗(BvΛB+σv³ΛP)，五次g5对全部(c,v)测试准确抽原σ⊗B。原四unit的简单极点φ积分由4−11β及两完整深尾为单位；原S/T中央精确回ΛB五输入，原q共同支、三carry补支与carry外余域全保。
+
+
+- [R577：同一原临界因子的Euler整提升与完整首forcing](results/R577-original-critical-factor-euler-lift-and-complete-first-forcing.md)：低ell、r=ν≤2的原相对首核，经全十九角因子提升和正权1/n真积分得到同预算Pcrit；整个JA准确为实际代数临界支三法向jet。首forcing给充要像判据，完整p³及同R的26carry/d2保全部二次高尾，未赋实际非零。

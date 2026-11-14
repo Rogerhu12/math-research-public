@@ -207,8 +207,7 @@ R554原五输入同域差24Ω³I1=I4−18∫u e2/Y⁵ρ、R559保K/四伴随的�
 
 ### 完整六尾与首 Bockstein 剪切
 
-[完整六尾剪切及低ell边界](notes/2026-11-14-deep-six-tail-bockstein-shear-and-low-ell-boundary.md)：ell≥3时六尾均在原I13/G，βh=(γh,b)的b固定。若后三尾在K=kerb上由原真实首像吸收，Δγ经b(KA)因子化，完整C1可逆剪切使K2red在同一来源相等，并保持G2及模p² Smith型；不必再把一般KA的前三尾逐条吸收。**待做：** 原实际向量命中、ell1/2新增2/1条真实B行、同一整提升的d2及所有carry高尾。首剪切不推出第二障碍不变或非零。
-
+ell≥3、后三尾在原kerJ上被真首像吸收时，完整C1剪切保持同源K2red/G2/模p² Smith型；ell1/2保2/1真实B行，全部条件见[完整前检](notes/2026-11-14-open-before-r577.md)。**待做：** 原实际命中和同一整提升的d2；首剪切不推出下一位不变。
 
 ### R571：整个cd共同深补项及全部尾部
 
@@ -228,3 +227,8 @@ R554原五输入同域差24Ω³I1=I4−18∫u e2/Y⁵ρ、R559保K/四伴随的�
 ### R572：原完整C来源与简单极点单位测试
 
 [R572：完整原C分离、简单极点单位行与真实arith比较](results/R572-original-c-splitting-and-simple-pole-unit.md)：全三sigma恒等式给µ0=σc⊗(BvΛB+σv³ΛP)，五次g5对全部(c,v)测试准确抽原σ⊗B。原四unit的简单极点φ积分由4−11β及两完整深尾为单位；原S/T中央精确回ΛB五输入，原q共同支、三carry补支与carry外余域全保。 **待做：** 式(29)同一原来源上全部真实测试差与混合补域；φ是明确log比导数加正一权，仍不是原Y/W中央。全g5提取只对(c,v)测试成立，原A0依赖Z/Q/r、q含v与κ^-n，不能删去这些条件；单位行不赋两指定负矩或原中央非零。
+
+
+### R577：同预算临界基准与全原forcing像
+
+[R577：同一原临界因子的Euler整提升与完整首forcing](results/R577-original-critical-factor-euler-lift-and-complete-first-forcing.md)：低ell、r=ν≤2的原相对首核，经全十九角因子提升和正权1/n真积分得到同预算Pcrit；整个JA准确为实际代数临界支三法向jet。首forcing给充要像判据，完整p³及同R的26carry/d2保全部二次高尾，未赋实际非零。 **待做：** 实际F_P与整个Tψ(W_D)的像比较；可解时用同一R读原d2，不能自由另配26carry或高尾。r1/ν2的非单位临界支仍开；提升可依赖p，未给全局新高度界，局部/来源可逆不赋物理像饱和。
