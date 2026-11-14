@@ -121,3 +121,5 @@
 - [R58：第四周期的全部低阶gauge不变性与准确单P约简](results/R58-fourth-period-gauge-invariance-and-single-P-reduction.md) — R45准确四块几何上，第四整个周期函数不受任意合法第二、第三profile gauge改变；第二gauge的第三ruling相容由真实差方程保证。保留第三primitive端值0→a→2a→a→0，标量加a使场减Y_a，单P的全零二阶算子准确消历史增量，故完整第四period等于4倍canonical单Pperiod。逐ruling仍需四块全历史，没有任何实际第四周期已支付。
 
 - [R59：中心速度准确消元与必要度量下界](results/R59-scalar-center-speed-elimination-and-metric-lower-bounds.md) — 固定T/Tt/a/a′时，真实径向切向U=W+bez、平均W=0；角均方直接metric目标准确为J(b)=b⁴/2+Ab²+2Bb+C/2，全部候选最小点由三次式b³+Ab+B=0及区间边界给出。F投影残量N−M²/D、E均值S≤1与b²=1−S给独立必要门，最大operator误差≥√min_R J；退化D0、ε近似的扩大b区间和离散三次项均保留。没有将逐圈根拼成合法C2中心或评价实际候选。
+
+- [R60：独立中心速度、固定端口与完整位置二jet](results/R60-independent-center-speed-fixed-ports-and-position-two-jets.md) — 以永久原c0自然场的准确角平均作固定b0，加入9个两端O3的一维b=z′样条，保b/b′与准确核心/尾；单一积分使尾只有一个共同竖直平移。去可变beta后153个u/v+9个b+5个body metric共167维，固定g162维；新空间不声称包含旧全部高度函数。给完整位置二jet和全部参数列、固定Nb评价身份，旧U−V=−ΠR不再未经核对沿用。没有等距、嵌入或reach结论。
