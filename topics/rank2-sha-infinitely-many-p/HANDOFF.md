@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 首次全文读旧库根/题README全部授权规则：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：a379d830740a3cffba39093b67ddaf8f3055952a；2026-11-14 22:05:55 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
+- 最近已读规则提交：ca194ccead4869f8548748a3fd792963e49d63b0；2026-11-14 22:13:29 UTC API核两README无变。最后实际pull成功21:35:50/7aa38f25e；21:39断连。最近实际重试2026-11-14 22:03:05 UTC仍无环境。最迟22:35再试。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:39再次断连后用已连GitHub原子非强制追加，恢复即实际pull接回。
@@ -15,8 +15,8 @@
 
 ## 已发布、归档与分工
 
-R1–363、R365–560、R562–596、R599已登记；R364仍开，R561/597/598/600/601进行中。
-完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r599.md)、[open](notes/2026-11-14-open-before-r585.md)；
+R1–363、R365–560、R562–596、R598–599已登记；R364仍开，R561/597/600/601/602进行中。
+完整前检：[HANDOFF](notes/2026-11-14-frontier-before-r598.md)、[open](notes/2026-11-14-open-before-r585.md)；
 沿归档链保全部旧条件，压缩不关闭问题。入口results.md、notes/PROOF-INDEX-R551-R600.md及前卷。
 R502公开Actions43596695716/job132452617972已成功，原生证书保da54025b，不复跑。
 root唯一metadata/ref写者；代理只写独有proof/script/data或immutable blob，持续推进。
@@ -24,7 +24,7 @@ root唯一metadata/ref写者；代理只写独有proof/script/data或immutable b
 - theta续R601实际外矩形+内部权差的同源补偿；R599已把完整深度差准确接回原I1，未得中央→I1零。
 - literature续R600原非齐次pole约束与九来源真前缀/Bockstein；R596已付同R40完整重建和全D强化矩阵，未把模p核当真核。
 - deep续R597：R593已付26carry完整延长、同R三块第二forcing和两像充要；继续真实z0/z1与前两块同像，R561仍开。
-- root续R598原完整Newton失败与真实同参数/全部高行；R595已付原四行固定单位比较和全部低K残差，未赋非零。
+- root续R602真实Gaussian余项整窗/全半径与原下一中央Bockstein；R598已付完整Newton导数的准确中央Euler解析条件。
 
 ## 固定曲线、普通规范与不可删的旧支线
 
@@ -80,11 +80,11 @@ R537–555真Schur/分歧像、全部原列仿射类、一般二重/t除法和S�
 R577/578低ell同格临界/整低行右逆及全核保正文；R593模p³原M提升 iff 同R先Dψ+S=G+（原两jet各延十三行），再H_P(R)∈im Dψ短。r=ell真两jet，(2,1)保Qquad最高行−2λγ；26carry、13自由行/整个U0保留。
 同R的Z+∈w^s、Z∈w^(s−r)，第二块S(η0Z)全消；第三块只读真实z0/z1及固定形状修正，全部L0/L1保两位（R593(29–35)）。固定Z末项单位在完成式内抵消，指定两像余类未证非零；一般二重/t除法、r1ν2和两连接仍开。
 
-R580/588：实际degree-p K_R内七塔独立；任意真正含塔的原P（全次数/依p系数）乘整数Gaussian仍准确S=p^-p/(p²−1)，闭S非Tate。边界/no-pole/常数全付，不改整格或给Smith/中央。[固定长塔增补](notes/2026-11-14-r588-fixed-long-tower-kummer-addendum.md)以p>12m+31、m=max(R4−1,R1−1)，用degree6m的真实y′³残差给非中央低单位行，推广至全部R4+R1塔及无Dirac子格；原七塔p>19范围保持。
+R580/588实际wild域、七塔独立及任意原P全非线性坏半径S/闭S非Tate保正文。[长塔增补](notes/2026-11-14-r588-fixed-long-tower-kummer-addendum.md)在p>12m+31推广全部固定塔/无Dirac子格，原七塔p>19保持。域投影不改整格/Smith/中央。
 
 R590原q6全even42/1638保现ray；μ6C只留B⊗νflat，νflat=(f1⊗Σ−f3⊗Θ)⊗σ³/42。所有C不动mixed测试回七实际coset矩W_n(F,G)，全κ/log/cut仍在；旧P3只在完整分区抵消。
 
-[2026新文献条件核对](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)：Banwait 3.8保逐p二次系数单位前提；Agboola 6.1/11.1/11.3保高度与受限秩条件，11.4负根p进导数仍期望。未新增无穷非消失输入。
+[2026文献](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)保逐p二次单位、高度/受限秩假设；未新增固定来源的无穷非消失输入。
 
 R591共同K,H,C和单位分母递推保正文；c4/c1为b^(s−1)乘KC/KH³同次系数，下一共振单位不替代目标。
 
@@ -101,3 +101,5 @@ R596从唯一R40首pole单位行重建K≤N−1，再由qN=−hp/3得kN=2hp/5+6E
 [有限F^p边界](notes/2026-11-14-finite-frobenius-power-and-true-prefix.md)：真前缀k≥s时F^p在原n<ps目标已0；k<s本来整。该有限幂整性不付新饱和层。
 
 R599同矩形未附权R_n=β4n d_p(c3Ω3κ3n I3+c5Ω5κ5n I1)+p9nO，全两角级数保正文。c5=(4312960+1031168ω)/117649单位（109已被原mod64排），相邻D_n=R_n+1−β4κ3R_n除d_p c5Ω5β4(n+1)κ^(5n+3)(κ²−1)以p4n误差回原I1。完整E_n=β^-n(O_n+K_n)=T−R_n在新旧q间不变；T=J′S−6δJ′T。两中央0时O/K各v=n，先抵消至3n再差读取I1，不能删补项或赋负矩零。
+
+R598原A_m(m34/72)、固定U_m=∫A_m dz/z、d=p+1、X=z^d，H_m=dE^-mΠ0U_m准确=−j_m e^-mcX+R_m，R_m∈T_{ρ^d}唯一且R_m(0)=完整j_m=J′_m(0)。所以j0 iff该中央零初值H延拓ρ（亦iff闭S Tate）。未投影U各有r6单位Stokes，两U在K_R独立但不排中央同零；Π0是p依赖真实z旋转，未赋原同预算列操作。全部尾/物理缩放保正文。
