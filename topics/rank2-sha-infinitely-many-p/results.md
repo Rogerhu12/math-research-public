@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R521：准确固定边界商与原三次forcing残数](results/R521-exact-fixed-boundary-quotient-and-cubic-forcing-residue.md)：固定清极的完整3C来源商准确是长3c(u+4b)的有限边界，真实F³核消去常数维数项；全局残数保全部例外分量。原最高系数非固定角根给杀全部同乘子切向来源的显示泛函，forcing值为b²m(4t0−1)；实际jet核和其余原列仍完整保留，未认作原余核非零。
+
 - [R520：第三共同伴随whole偶深核与真实三输入联合](results/R520-third-common-companion-even-core-and-true-three-input-source.md)：E*整化degree1090152的完整中心和固定Theta锚支付whole平方恒等，原四态三伴随全部(a,b,2c)矩形成立。共同偶深保原Y/W/W′三个观察，非对角联合和T物理下降完整给出；E/K及Tc/C隐藏项逐项保留，不赋一层scalar或删除B0条件。
 
 - [R519：C4的whole八层核心与原B0完整移权](results/R519-original-c4-eighth-core-and-complete-b0-transport.md)：原C4整化degree29664的完整中心与Theta绝对锚给whole八层返回，保全部十六quarter来源；C4/W/Q矩形及原反射交域同源返回全付。两条C正交伴随有共同核，原B0拉回三单位线/两测试参数完整显示；隐藏核仅作真实再表达，原外域未删。
