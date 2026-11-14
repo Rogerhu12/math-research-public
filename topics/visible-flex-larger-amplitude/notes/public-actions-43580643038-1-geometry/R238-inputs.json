@@ -1,0 +1,127 @@
+{
+  "checkpoint_sha256": "917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf",
+  "modes": 32,
+  "spans": 2589,
+  "polynomial_degree": 5,
+  "coefficient_chunks": [
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_00.npy.gz",
+      "sha256": "f520254b64d4b04bb23d58b628ab17e3c6fff5d4c018b685a04e1ecd6ea59dd3",
+      "state_first": 0,
+      "state_last_exclusive": 35
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_01.npy.gz",
+      "sha256": "30ac654e57312233469a804ba30882c60d78cd28bde9a79ceb7ee6d4483e39b9",
+      "state_first": 35,
+      "state_last_exclusive": 70
+    },
+    {
+      "file": "2026-11-13-strong-q126-m32-tail2-actual-r1_coeff_02.npy.gz",
+      "sha256": "cb59e0e2a06afd9e2794d2d41e00101dad95757c6746b7ac29a901770cf84b96",
+      "state_first": 70,
+      "state_last_exclusive": 97
+    }
+  ],
+  "all_height_polynomials_nonzero": true,
+  "uncovered_spans": [],
+  "algebraic_interpretation": "Binary64 values are exact dyadic rationals; nonzero is exact, not a tolerance test.",
+  "conditional_conclusion": "If the saved latitude circles are embedded, the parity and angular analyticity of SavedPrefix imply no planar open subset in this prefix (R238 section 5).",
+  "schema": "R238-exact-prefix-planar-germ-inputs-v1",
+  "source_sha256": "a8403ae178916d9b88f4f74b6dc126fa5a5939d412ed86b9587e1343bd856360",
+  "witness_file": "R238-inputs-witnesses.json.gz",
+  "witness_sha256": "575fe675c7871f56cec56d5715374b514c0fb919740e5a97d969dd1b11a1d2b3",
+  "witness_raw_sha256": "6fde844a045629130c34b583eed9d5bbb2717e2bb8ee0d46f8b8e28364e156cb",
+  "witnesses": 2589,
+  "actual_delta_E_certified": false,
+  "full_active_nonplanarity_certified": false,
+  "task_completed": false,
+  "fixed_markers": {
+    "plan_sha256": "3d4a7103e11b253ccaeda1e5d89fa5dd12a019c71f0fcf5f5db751dd3d3144a2",
+    "assembly_sha256": "ba049bb2966f7b380c494b663488d1197650a696a6c9de7c8b5e42043e190288",
+    "exact_support_circle_centers": [
+      [
+        "900719925474099/36028797018963968",
+        "0",
+        "4467912646118239/2251799813685248"
+      ],
+      [
+        "0",
+        "900719925474099/36028797018963968",
+        "4467912646118239/2251799813685248"
+      ],
+      [
+        "-900719925474099/36028797018963968",
+        "0",
+        "4467912646118239/2251799813685248"
+      ],
+      [
+        "0",
+        "0",
+        "-4467912646118239/2251799813685248"
+      ]
+    ],
+    "exact_radii": [
+      "900719925474099/144115188075855872",
+      "900719925474099/288230376151711744",
+      "300239975158033/144115188075855872",
+      "900719925474099/576460752303423488"
+    ],
+    "support_centers_affine_determinant": "3624801374476211106076992750117454889985488439/730750818665451459101842416358141509827966271488",
+    "pairwise_distinct_radii": true,
+    "per_marker": [
+      {
+        "index": 1,
+        "radius_positive": true,
+        "nonzero_height": true,
+        "strictly_inside_cap": true
+      },
+      {
+        "index": 2,
+        "radius_positive": true,
+        "nonzero_height": true,
+        "strictly_inside_cap": true
+      },
+      {
+        "index": 3,
+        "radius_positive": true,
+        "nonzero_height": true,
+        "strictly_inside_cap": true
+      },
+      {
+        "index": 4,
+        "radius_positive": true,
+        "nonzero_height": true,
+        "strictly_inside_cap": true
+      }
+    ],
+    "same_cap_pairs": [
+      {
+        "indices": [
+          1,
+          2
+        ],
+        "exact_squared_margin": "96544269713381908343720463554319/83076749736557242056487941267521536",
+        "disjoint": true
+      },
+      {
+        "indices": [
+          1,
+          3
+        ],
+        "exact_squared_margin": "3155041493901369553716355018115/1298074214633706907132624082305024",
+        "disjoint": true
+      },
+      {
+        "indices": [
+          2,
+          3
+        ],
+        "exact_squared_margin": "101592336103624099629666631583303/83076749736557242056487941267521536",
+        "disjoint": true
+      }
+    ],
+    "finite_marker_algebra_passed": true,
+    "unpaid": "Embedded full closed surface, annular active component with no planar open subset, and genuine continuous image change."
+  }
+}

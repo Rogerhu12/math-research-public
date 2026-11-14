@@ -445,3 +445,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R239. 材料切口的均值唯一性与共同平面配准](results/R239-material-cut-mean-and-planar-matching.md)：连续正分支、同完整高度/非均值斜率及同实际转角数下，均值唯一；同一非特征 Darboux 分支和共同刚体配准给完整六 jet。实际新候选尚未满足全部假设。
 
 - [R240. 共同材料角下的固定度量与完整 DN 精化计数](results/R240-canonical-material-metric-and-refinement.md)：证明固定完整a(s)后可释放核心而保持共同材料g，给C²坐标比较、设计/精化边界计数及帽图册限制；不冒完整解存在。
+
+- [R241. 由浸入参数块覆盖同时得到嵌入与reach](results/R241-immersion-cover-embedding-and-normal-cones.md)：完整短路径/分离/法向锥/平帽门同时排除自交与瓶颈，含对角路径界；实际v1未全过，v2待执行。

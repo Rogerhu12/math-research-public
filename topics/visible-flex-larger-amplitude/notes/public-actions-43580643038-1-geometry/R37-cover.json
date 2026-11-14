@@ -1,0 +1,5589 @@
+{
+  "schema": "R37-actual-closed-spatial-cover-budget-v1",
+  "finished": true,
+  "source_sha256": "e275c3e18e9c277921c785d72d348c7fcc4c5690ec5789a9887a8effaa09bbf3",
+  "input_sha256": {
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed/refined-A-closed-plan.json": "3d4a7103e11b253ccaeda1e5d89fa5dd12a019c71f0fcf5f5db751dd3d3144a2",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed/refined-A-closed-assembly.json": "ba049bb2966f7b380c494b663488d1197650a696a6c9de7c8b5e42043e190288",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed/refined-A-closed-phase0.ply.gz": "bc6f2f9bbb678bbf1a6337fd78d7c11f490cc61201313de9adf99691c176152c",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-RK24-radial4to8-closed-r1/closed/background.json": "03070d37b87ebef9bd2584941759fd13ab899e5ab1dc7f34ca13a7c346e2b7c3",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1.json.gz": "917d859e8a73fa663db1839e354909ae4f174bad1895f8717c20705cdd702aaf",
+    "topics/visible-flex-larger-amplitude/computations/alternative-neck-provider-smallcut30-port32-r2048.json": "7d3f77821453ccd81ca8eaba9634c899127455b76ec1b95ba27fb130503d4100"
+  },
+  "supplied_envelopes": {
+    "curvature": 8.35,
+    "relative_metric_operator": 1e-06,
+    "tail_abs_slope": 0.4,
+    "evaluation_position_error": 1e-12,
+    "reference_radius_lipschitz": 1.0
+  },
+  "actual_saved_samples": {
+    "curvature": 8.317665311320109,
+    "relative_metric_operator": 4.704061984387076e-08,
+    "tail_abs_slope": 0.4,
+    "reference_radius_lipschitz": 1.0
+  },
+  "supplied_envelopes_contain_saved_samples": true,
+  "grid": {
+    "radial_stride": 2,
+    "angular_stride": 1,
+    "active_rings": 337,
+    "angles": 96,
+    "cover_centers": 32354,
+    "maximum_intrinsic_active_radius": 0.07315725221422265
+  },
+  "conditional_diameter": {
+    "unmarked_upper": 3.9908569557485345,
+    "marked_upper": 3.9908570167836905,
+    "vertex_cloud_diameter": 3.977459266677549,
+    "rule": "At a global radius maximum in cell i: R<=|stored_center_i|+position_error+K*h_i^2/2. Caps use sqrt(H^2+r_c^2)."
+  },
+  "marker_budget": {
+    "height": 3.051757812499999e-08,
+    "gradient": 0.00015624999999999998,
+    "Hessian": 0.1,
+    "support_max_horizontal_radius": 0.031249999999999993,
+    "active_horizontal_radius_lower": 0.048360359987423496,
+    "support_separation": 0.017110359987423503,
+    "target_reach": 0.11972571050351072,
+    "required_unmarked_reach": 0.11999494314453202,
+    "curvature_times_required_reach": 1.0019577752568423,
+    "curvature_gate": false,
+    "marker_gate": true
+  },
+  "coverage": {
+    "total_center_pairs": 523374481,
+    "near_center_pairs_enumerated": 90674576,
+    "distance_pass_in_enumerated": 16588408,
+    "short_path_pass": 73180568,
+    "self_cells_uncovered": 0,
+    "uncovered": 889856,
+    "planar_cap_self_cells_excluded": 2,
+    "planar_cap_active_pairs_excluded": 15744,
+    "cap_active_uncovered": 0,
+    "non_cap_uncovered": 889856,
+    "uncovered_by_piece": {
+      "prefix--tail": 110892,
+      "prefix--prefix": 778964
+    },
+    "worst": [
+      {
+        "indices": [
+          14071,
+          14169
+        ],
+        "distance_slack": -0.20297565733611012,
+        "path_upper": 0.37636840403657773,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.599741582238305,
+          "source_vertex": 32503,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.730641276137879,
+          "source_vertex": 32697,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.2133976614377981,
+            -0.5881920032373048,
+            -1.1070504012545077
+          ],
+          [
+            -1.1169931069370305,
+            -0.7284844769978596,
+            -1.0399876520406834
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18201,
+          18295
+        ],
+        "distance_slack": -0.20297565733611012,
+        "path_upper": 0.3763684040365777,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.730641276137879,
+          "source_vertex": 40761,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.599741582238305,
+          "source_vertex": 40951,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.1169931069370305,
+            -0.7284844769978596,
+            1.0399876520406834
+          ],
+          [
+            -1.2133976614377981,
+            -0.5881920032373048,
+            1.1070504012545077
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14057,
+          14151
+        ],
+        "distance_slack": -0.2029756573361094,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.6834437249412812,
+          "source_vertex": 32489,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.5525440310417067,
+          "source_vertex": 32679,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.2133976614377981,
+            0.5881920032373051,
+            -1.1070504012545077
+          ],
+          [
+            -1.1169931069370298,
+            0.7284844769978602,
+            -1.0399876520406832
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18183,
+          18281
+        ],
+        "distance_slack": -0.2029756573361094,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.5525440310417067,
+          "source_vertex": 40743,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.6834437249412812,
+          "source_vertex": 40937,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.1169931069370298,
+            0.7284844769978602,
+            1.0399876520406832
+          ],
+          [
+            -1.2133976614377981,
+            0.5881920032373051,
+            1.1070504012545077
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14023,
+          14121
+        ],
+        "distance_slack": -0.20297565733610903,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.4581489286485115,
+          "source_vertex": 32455,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.5890486225480862,
+          "source_vertex": 32649,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.2133976614377984,
+            0.5881920032373046,
+            -1.1070504012545077
+          ],
+          [
+            1.1169931069370298,
+            0.72848447699786,
+            -1.0399876520406832
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18153,
+          18247
+        ],
+        "distance_slack": -0.20297565733610903,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.5890486225480862,
+          "source_vertex": 40713,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.4581489286485115,
+          "source_vertex": 40903,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.1169931069370298,
+            0.72848447699786,
+            1.0399876520406832
+          ],
+          [
+            1.2133976614377984,
+            0.5881920032373046,
+            1.1070504012545077
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14105,
+          14199
+        ],
+        "distance_slack": -0.20297565733610803,
+        "path_upper": 0.3763684040365795,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.825036378531075,
+          "source_vertex": 32537,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.694136684631499,
+          "source_vertex": 32727,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.2133976614377984,
+            -0.5881920032373047,
+            -1.1070504012545077
+          ],
+          [
+            1.1169931069370294,
+            -0.7284844769978611,
+            -1.0399876520406832
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18231,
+          18329
+        ],
+        "distance_slack": -0.20297565733610803,
+        "path_upper": 0.37636840403657945,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.694136684631499,
+          "source_vertex": 40791,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.825036378531075,
+          "source_vertex": 40985,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.1169931069370294,
+            -0.7284844769978611,
+            1.0399876520406832
+          ],
+          [
+            1.2133976614377984,
+            -0.5881920032373047,
+            1.1070504012545077
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14070,
+          14168
+        ],
+        "distance_slack": -0.2029747529562848,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.5342917352885173,
+          "source_vertex": 32502,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.665191429188092,
+          "source_vertex": 32696,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.2512148927444444,
+            -0.5095083340338382,
+            -1.1121156774086653
+          ],
+          [
+            -1.1653630318677894,
+            -0.6567461359805508,
+            -1.0456021656816248
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18200,
+          18294
+        ],
+        "distance_slack": -0.2029747529562848,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.665191429188092,
+          "source_vertex": 40760,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.5342917352885173,
+          "source_vertex": 40950,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.1653630318677894,
+            -0.6567461359805508,
+            1.0456021656816248
+          ],
+          [
+            -1.2512148927444444,
+            -0.5095083340338382,
+            1.1121156774086653
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14058,
+          14152
+        ],
+        "distance_slack": -0.20297475295628464,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.748893571891069,
+          "source_vertex": 32490,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.6179938779914944,
+          "source_vertex": 32680,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.2512148927444444,
+            0.5095083340338386,
+            -1.1121156774086653
+          ],
+          [
+            -1.1653630318677892,
+            0.6567461359805512,
+            -1.0456021656816248
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18184,
+          18282
+        ],
+        "distance_slack": -0.20297475295628464,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.6179938779914944,
+          "source_vertex": 40744,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.748893571891069,
+          "source_vertex": 40938,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.1653630318677892,
+            0.6567461359805512,
+            1.0456021656816248
+          ],
+          [
+            -1.2512148927444444,
+            0.5095083340338386,
+            1.1121156774086653
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14022,
+          14120
+        ],
+        "distance_slack": -0.20297475295628428,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.39269908169872414,
+          "source_vertex": 32454,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.5235987755982988,
+          "source_vertex": 32648,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.2512148927444442,
+            0.5095083340338384,
+            -1.1121156774086653
+          ],
+          [
+            1.165363031867789,
+            0.6567461359805515,
+            -1.0456021656816248
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18152,
+          18246
+        ],
+        "distance_slack": -0.20297475295628428,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.5235987755982988,
+          "source_vertex": 40712,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.39269908169872414,
+          "source_vertex": 40902,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.165363031867789,
+            0.6567461359805515,
+            1.0456021656816248
+          ],
+          [
+            1.2512148927444442,
+            0.5095083340338384,
+            1.1121156774086653
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14106,
+          14200
+        ],
+        "distance_slack": -0.20297475295628262,
+        "path_upper": 0.3763684040365795,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.8904862254808625,
+          "source_vertex": 32538,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.759586531581287,
+          "source_vertex": 32728,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.2512148927444444,
+            -0.5095083340338382,
+            -1.1121156774086653
+          ],
+          [
+            1.1653630318677881,
+            -0.6567461359805526,
+            -1.0456021656816246
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18232,
+          18330
+        ],
+        "distance_slack": -0.20297475295628262,
+        "path_upper": 0.37636840403657945,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.759586531581287,
+          "source_vertex": 40792,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.8904862254808625,
+          "source_vertex": 40986,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.1653630318677881,
+            -0.6567461359805526,
+            1.0456021656816246
+          ],
+          [
+            1.2512148927444444,
+            -0.5095083340338382,
+            1.1121156774086653
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14024,
+          14122
+        ],
+        "distance_slack": -0.2029741609705469,
+        "path_upper": 0.3763684040365786,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.5235987755982988,
+          "source_vertex": 32456,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.6544984694978736,
+          "source_vertex": 32650,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.1703875526893324,
+            0.6641316667026618,
+            -1.1015481228848638
+          ],
+          [
+            1.0640135182641033,
+            0.7968739711531326,
+            -1.0341847678110379
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18154,
+          18248
+        ],
+        "distance_slack": -0.2029741609705469,
+        "path_upper": 0.37636840403657856,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.6544984694978736,
+          "source_vertex": 40714,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.5235987755982988,
+          "source_vertex": 40904,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.0640135182641033,
+            0.7968739711531326,
+            1.0341847678110379
+          ],
+          [
+            1.1703875526893324,
+            0.6641316667026618,
+            1.1015481228848638
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14104,
+          14198
+        ],
+        "distance_slack": -0.20297416097045776,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.759586531581287,
+          "source_vertex": 32536,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.6286868376817125,
+          "source_vertex": 32726,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.1703875526893317,
+            -0.664131666702663,
+            -1.1015481228848638
+          ],
+          [
+            1.064013518264043,
+            -0.7968739711532056,
+            -1.0341847678110314
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18230,
+          18328
+        ],
+        "distance_slack": -0.20297416097045776,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.6286868376817125,
+          "source_vertex": 40790,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.759586531581287,
+          "source_vertex": 40984,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.064013518264043,
+            -0.7968739711532056,
+            1.0341847678110314
+          ],
+          [
+            1.1703875526893317,
+            -0.664131666702663,
+            1.1015481228848638
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14056,
+          14150
+        ],
+        "distance_slack": -0.20297416097045623,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.6179938779914944,
+          "source_vertex": 32488,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.4870941840919194,
+          "source_vertex": 32678,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.1703875526893324,
+            0.6641316667026613,
+            -1.1015481228848638
+          ],
+          [
+            -1.064013518264043,
+            0.7968739711532055,
+            -1.0341847678110314
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18182,
+          18280
+        ],
+        "distance_slack": -0.20297416097045623,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.4870941840919194,
+          "source_vertex": 40742,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.6179938779914944,
+          "source_vertex": 40936,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.064013518264043,
+            0.7968739711532055,
+            1.0341847678110314
+          ],
+          [
+            -1.1703875526893324,
+            0.6641316667026613,
+            1.1015481228848638
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14072,
+          14170
+        ],
+        "distance_slack": -0.20297416097045604,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.665191429188092,
+          "source_vertex": 32504,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.796091123087667,
+          "source_vertex": 32698,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.1703875526893326,
+            -0.6641316667026612,
+            -1.101548122884864
+          ],
+          [
+            -1.064013518264043,
+            -0.7968739711532054,
+            -1.0341847678110314
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18202,
+          18296
+        ],
+        "distance_slack": -0.20297416097045604,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.796091123087667,
+          "source_vertex": 40762,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.665191429188092,
+          "source_vertex": 40952,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.064013518264043,
+            -0.7968739711532054,
+            1.0341847678110314
+          ],
+          [
+            -1.1703875526893326,
+            -0.6641316667026612,
+            1.101548122884864
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14107,
+          14201
+        ],
+        "distance_slack": -0.20297114055890964,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.955936072430649,
+          "source_vertex": 32539,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.825036378531075,
+          "source_vertex": 32729,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.283622588146684,
+            -0.4284144948668001,
+            -1.1166315554694726
+          ],
+          [
+            1.2088519316080384,
+            -0.5819267919394515,
+            -1.0509185050588687
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18233,
+          18331
+        ],
+        "distance_slack": -0.20297114055890964,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.825036378531075,
+          "source_vertex": 40793,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.955936072430649,
+          "source_vertex": 40987,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.2088519316080384,
+            -0.5819267919394515,
+            1.0509185050588687
+          ],
+          [
+            1.283622588146684,
+            -0.4284144948668001,
+            1.1166315554694726
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14059,
+          14153
+        ],
+        "distance_slack": -0.20297114055890936,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.8143434188408563,
+          "source_vertex": 32491,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.6834437249412812,
+          "source_vertex": 32681,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.283622588146684,
+            0.4284144948668001,
+            -1.1166315554694726
+          ],
+          [
+            -1.2088519316080384,
+            0.5819267919394518,
+            -1.0509185050588687
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18185,
+          18283
+        ],
+        "distance_slack": -0.20297114055890936,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.6834437249412812,
+          "source_vertex": 40745,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.8143434188408563,
+          "source_vertex": 40939,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.2088519316080384,
+            0.5819267919394518,
+            1.0509185050588687
+          ],
+          [
+            -1.283622588146684,
+            0.4284144948668001,
+            1.1166315554694726
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14069,
+          14167
+        ],
+        "distance_slack": -0.20297114055890933,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.46884188833873,
+          "source_vertex": 32501,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.599741582238305,
+          "source_vertex": 32695,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.283622588146684,
+            -0.42841449486679983,
+            -1.1166315554694726
+          ],
+          [
+            -1.2088519316080384,
+            -0.5819267919394516,
+            -1.0509185050588687
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18199,
+          18293
+        ],
+        "distance_slack": -0.20297114055890933,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.599741582238305,
+          "source_vertex": 40759,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.46884188833873,
+          "source_vertex": 40949,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.2088519316080384,
+            -0.5819267919394516,
+            1.0509185050588687
+          ],
+          [
+            -1.283622588146684,
+            -0.42841449486679983,
+            1.1166315554694726
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14021,
+          14119
+        ],
+        "distance_slack": -0.20297114055890916,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.3272492347489368,
+          "source_vertex": 32453,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.4581489286485115,
+          "source_vertex": 32647,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.283622588146684,
+            0.42841449486679944,
+            -1.1166315554694726
+          ],
+          [
+            1.2088519316080384,
+            0.5819267919394514,
+            -1.0509185050588687
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18151,
+          18245
+        ],
+        "distance_slack": -0.20297114055890916,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.4581489286485115,
+          "source_vertex": 40711,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.3272492347489368,
+          "source_vertex": 40901,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.2088519316080384,
+            0.5819267919394514,
+            1.0509185050588687
+          ],
+          [
+            1.283622588146684,
+            0.42841449486679944,
+            1.1166315554694726
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14103,
+          14197
+        ],
+        "distance_slack": -0.20297064755018163,
+        "path_upper": 0.3763684040365771,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.694136684631499,
+          "source_vertex": 32535,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.563236990731926,
+          "source_vertex": 32725,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.1224197797331203,
+            -0.7370165730989161,
+            -1.095724449908602
+          ],
+          [
+            1.006701115928143,
+            -0.8616686259716766,
+            -1.028299540630181
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18229,
+          18327
+        ],
+        "distance_slack": -0.20297064755018163,
+        "path_upper": 0.3763684040365771,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.563236990731926,
+          "source_vertex": 40789,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.694136684631499,
+          "source_vertex": 40983,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.006701115928143,
+            -0.8616686259716766,
+            1.028299540630181
+          ],
+          [
+            1.1224197797331203,
+            -0.7370165730989161,
+            1.095724449908602
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14025,
+          14123
+        ],
+        "distance_slack": -0.20297064755017966,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.5890486225480862,
+          "source_vertex": 32457,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.7199483164476609,
+          "source_vertex": 32651,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.1224197797331215,
+            0.7370165730989148,
+            -1.0957244499086023
+          ],
+          [
+            1.0067011159281427,
+            0.8616686259716768,
+            -1.028299540630181
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18155,
+          18249
+        ],
+        "distance_slack": -0.20297064755017966,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.7199483164476609,
+          "source_vertex": 40715,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.5890486225480862,
+          "source_vertex": 40905,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.0067011159281427,
+            0.8616686259716768,
+            1.028299540630181
+          ],
+          [
+            1.1224197797331215,
+            0.7370165730989148,
+            1.0957244499086023
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14055,
+          14149
+        ],
+        "distance_slack": -0.20297064755017935,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.5525440310417067,
+          "source_vertex": 32487,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.421644337142132,
+          "source_vertex": 32677,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.122419779733121,
+            0.7370165730989149,
+            -1.0957244499086023
+          ],
+          [
+            -1.0067011159281423,
+            0.8616686259716773,
+            -1.0282995406301807
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18181,
+          18279
+        ],
+        "distance_slack": -0.20297064755017935,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.421644337142132,
+          "source_vertex": 40741,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.5525440310417067,
+          "source_vertex": 40935,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.0067011159281423,
+            0.8616686259716773,
+            1.0282995406301807
+          ],
+          [
+            -1.122419779733121,
+            0.7370165730989149,
+            1.0957244499086023
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14073,
+          14171
+        ],
+        "distance_slack": -0.2029706475501786,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.730641276137879,
+          "source_vertex": 32505,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.861540970037454,
+          "source_vertex": 32699,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.1224197797331217,
+            -0.7370165730989139,
+            -1.0957244499086023
+          ],
+          [
+            -1.0067011159281425,
+            -0.8616686259716769,
+            -1.0282995406301807
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18203,
+          18297
+        ],
+        "distance_slack": -0.2029706475501786,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.861540970037454,
+          "source_vertex": 40763,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.730641276137879,
+          "source_vertex": 40953,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.0067011159281425,
+            -0.8616686259716769,
+            1.0282995406301807
+          ],
+          [
+            -1.1224197797331217,
+            -0.7370165730989139,
+            1.0957244499086023
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14102,
+          14196
+        ],
+        "distance_slack": -0.20296553814743903,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.6286868376817125,
+          "source_vertex": 32534,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.497787143782138,
+          "source_vertex": 32724,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.0697447134469873,
+            -0.8065583994558496,
+            -1.08969496151603
+          ],
+          [
+            0.945336377754575,
+            -0.9226415366831906,
+            -1.022432767309917
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18228,
+          18326
+        ],
+        "distance_slack": -0.20296553814743903,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.497787143782138,
+          "source_vertex": 40788,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.6286868376817125,
+          "source_vertex": 40982,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.945336377754575,
+            -0.9226415366831906,
+            1.022432767309917
+          ],
+          [
+            1.0697447134469873,
+            -0.8065583994558496,
+            1.08969496151603
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14074,
+          14172
+        ],
+        "distance_slack": -0.2029655381474384,
+        "path_upper": 0.37636840403657773,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.796091123087667,
+          "source_vertex": 32506,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.926990816987241,
+          "source_vertex": 32700,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.0697447134469882,
+            -0.8065583994558486,
+            -1.0896949615160303
+          ],
+          [
+            -0.9453363777545757,
+            -0.9226415366831903,
+            -1.022432767309917
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18204,
+          18298
+        ],
+        "distance_slack": -0.2029655381474384,
+        "path_upper": 0.3763684040365777,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.926990816987241,
+          "source_vertex": 40764,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.796091123087667,
+          "source_vertex": 40954,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.9453363777545757,
+            -0.9226415366831903,
+            1.022432767309917
+          ],
+          [
+            -1.0697447134469882,
+            -0.8065583994558486,
+            1.0896949615160303
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14026,
+          14124
+        ],
+        "distance_slack": -0.2029655381474372,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.6544984694978736,
+          "source_vertex": 32458,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.7853981633974483,
+          "source_vertex": 32652,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.0697447134469882,
+            0.8065583994558487,
+            -1.0896949615160303
+          ],
+          [
+            0.9453363777545747,
+            0.922641536683191,
+            -1.0224327673099167
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18156,
+          18250
+        ],
+        "distance_slack": -0.2029655381474372,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.7853981633974483,
+          "source_vertex": 40716,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.6544984694978736,
+          "source_vertex": 40906,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.9453363777545747,
+            0.922641536683191,
+            1.0224327673099167
+          ],
+          [
+            1.0697447134469882,
+            0.8065583994558487,
+            1.0896949615160303
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14054,
+          14148
+        ],
+        "distance_slack": -0.20296553814743698,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.4870941840919194,
+          "source_vertex": 32486,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.356194490192345,
+          "source_vertex": 32676,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.0697447134469882,
+            0.8065583994558487,
+            -1.0896949615160303
+          ],
+          [
+            -0.9453363777545745,
+            0.9226415366831912,
+            -1.0224327673099167
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18180,
+          18278
+        ],
+        "distance_slack": -0.20296553814743698,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.356194490192345,
+          "source_vertex": 40740,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.4870941840919194,
+          "source_vertex": 40934,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.9453363777545745,
+            0.9226415366831912,
+            1.0224327673099167
+          ],
+          [
+            -1.0697447134469882,
+            0.8065583994558487,
+            1.0896949615160303
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14108,
+          14202
+        ],
+        "distance_slack": -0.202964633384662,
+        "path_upper": 0.3763684040365771,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 6.021385919380436,
+          "source_vertex": 32540,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.8904862254808625,
+          "source_vertex": 32730,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.3104265541941018,
+            -0.3452673492778422,
+            -1.1204925922596836
+          ],
+          [
+            1.2471969503888027,
+            -0.504318932760345,
+            -1.0558251848091438
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18234,
+          18332
+        ],
+        "distance_slack": -0.202964633384662,
+        "path_upper": 0.3763684040365771,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.8904862254808625,
+          "source_vertex": 40794,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 6.021385919380436,
+          "source_vertex": 40988,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.2471969503888027,
+            -0.504318932760345,
+            1.0558251848091438
+          ],
+          [
+            1.3104265541941018,
+            -0.3452673492778422,
+            1.1204925922596836
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14068,
+          14166
+        ],
+        "distance_slack": -0.20296463338466003,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.4033920413889427,
+          "source_vertex": 32500,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.5342917352885173,
+          "source_vertex": 32694,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.3104265541941025,
+            -0.3452673492778402,
+            -1.1204925922596838
+          ],
+          [
+            -1.2471969503888027,
+            -0.5043189327603449,
+            -1.0558251848091438
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18198,
+          18292
+        ],
+        "distance_slack": -0.20296463338466003,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.5342917352885173,
+          "source_vertex": 40758,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.4033920413889427,
+          "source_vertex": 40948,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.2471969503888027,
+            -0.5043189327603449,
+            1.0558251848091438
+          ],
+          [
+            -1.3104265541941025,
+            -0.3452673492778402,
+            1.1204925922596838
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14020,
+          14118
+        ],
+        "distance_slack": -0.2029646333846594,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.2617993877991494,
+          "source_vertex": 32452,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.39269908169872414,
+          "source_vertex": 32646,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.3104265541941025,
+            0.3452673492778402,
+            -1.1204925922596838
+          ],
+          [
+            1.2471969503888025,
+            0.5043189327603456,
+            -1.0558251848091438
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18150,
+          18244
+        ],
+        "distance_slack": -0.2029646333846594,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.39269908169872414,
+          "source_vertex": 40710,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.2617993877991494,
+          "source_vertex": 40900,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.2471969503888025,
+            0.5043189327603456,
+            1.0558251848091438
+          ],
+          [
+            1.3104265541941025,
+            0.3452673492778402,
+            1.1204925922596838
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14060,
+          14154
+        ],
+        "distance_slack": -0.20296463338465892,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.8797932657906435,
+          "source_vertex": 32492,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.748893571891069,
+          "source_vertex": 32682,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.3104265541941025,
+            0.3452673492778405,
+            -1.1204925922596838
+          ],
+          [
+            -1.247196950388802,
+            0.5043189327603461,
+            -1.0558251848091436
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18186,
+          18284
+        ],
+        "distance_slack": -0.20296463338465892,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.748893571891069,
+          "source_vertex": 40746,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.8797932657906435,
+          "source_vertex": 40940,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.247196950388802,
+            0.5043189327603461,
+            1.0558251848091436
+          ],
+          [
+            -1.3104265541941025,
+            0.3452673492778405,
+            1.1204925922596838
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14101,
+          14195
+        ],
+        "distance_slack": -0.20295926267353656,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.563236990731926,
+          "source_vertex": 32533,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.432337296832351,
+          "source_vertex": 32723,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.0126250864678878,
+            -0.8724901288309066,
+            -1.0835725367746418
+          ],
+          [
+            0.8802025332858229,
+            -0.9795824179804679,
+            -1.016679061979967
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18227,
+          18325
+        ],
+        "distance_slack": -0.20295926267353656,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.432337296832351,
+          "source_vertex": 40787,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.563236990731926,
+          "source_vertex": 40981,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.8802025332858229,
+            -0.9795824179804679,
+            1.016679061979967
+          ],
+          [
+            1.0126250864678878,
+            -0.8724901288309066,
+            1.0835725367746418
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14075,
+          14173
+        ],
+        "distance_slack": -0.20295926267325037,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.861540970037454,
+          "source_vertex": 32507,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.9924406639370287,
+          "source_vertex": 32701,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.012625086468094,
+            -0.8724901288306843,
+            -1.0835725367746631
+          ],
+          [
+            -0.8802025332858237,
+            -0.9795824179804675,
+            -1.0166790619799673
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18205,
+          18299
+        ],
+        "distance_slack": -0.20295926267325037,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.9924406639370287,
+          "source_vertex": 40765,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.861540970037454,
+          "source_vertex": 40955,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.8802025332858237,
+            -0.9795824179804675,
+            1.0166790619799673
+          ],
+          [
+            -1.012625086468094,
+            -0.8724901288306843,
+            1.0835725367746631
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14053,
+          14147
+        ],
+        "distance_slack": -0.2029592626732501,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.421644337142132,
+          "source_vertex": 32485,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.2907446432425576,
+          "source_vertex": 32675,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.0126250864680937,
+            0.8724901288306843,
+            -1.083572536774663
+          ],
+          [
+            -0.8802025332858232,
+            0.9795824179804677,
+            -1.016679061979967
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18179,
+          18277
+        ],
+        "distance_slack": -0.2029592626732501,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.2907446432425576,
+          "source_vertex": 40739,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.421644337142132,
+          "source_vertex": 40933,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.8802025332858232,
+            0.9795824179804677,
+            1.016679061979967
+          ],
+          [
+            -1.0126250864680937,
+            0.8724901288306843,
+            1.083572536774663
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14027,
+          14125
+        ],
+        "distance_slack": -0.2029592626732496,
+        "path_upper": 0.3763684040365786,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.7199483164476609,
+          "source_vertex": 32459,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.8508480103472357,
+          "source_vertex": 32653,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.012625086468094,
+            0.8724901288306839,
+            -1.0835725367746631
+          ],
+          [
+            0.8802025332858232,
+            0.9795824179804677,
+            -1.016679061979967
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18157,
+          18251
+        ],
+        "distance_slack": -0.2029592626732496,
+        "path_upper": 0.37636840403657856,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.8508480103472357,
+          "source_vertex": 40717,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.7199483164476609,
+          "source_vertex": 40907,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.8802025332858232,
+            0.9795824179804677,
+            1.016679061979967
+          ],
+          [
+            1.012625086468094,
+            0.8724901288306839,
+            1.0835725367746631
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14019,
+          14117
+        ],
+        "distance_slack": -0.2029552079116685,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.19634954084936207,
+          "source_vertex": 32451,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.3272492347489368,
+          "source_vertex": 32645,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.3314593309711873,
+            0.26044578453810946,
+            -1.1236043898605002
+          ],
+          [
+            1.280148011696705,
+            0.42424215399471754,
+            -1.0602118850468352
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18149,
+          18243
+        ],
+        "distance_slack": -0.2029552079116685,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.3272492347489368,
+          "source_vertex": 40709,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.19634954084936207,
+          "source_vertex": 40899,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.280148011696705,
+            0.42424215399471754,
+            1.0602118850468352
+          ],
+          [
+            1.3314593309711873,
+            0.26044578453810946,
+            1.1236043898605002
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14109,
+          14203
+        ],
+        "distance_slack": -0.20295520791166846,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 6.086835766330224,
+          "source_vertex": 32541,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.955936072430649,
+          "source_vertex": 32731,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.331459330971187,
+            -0.2604457845381101,
+            -1.1236043898605002
+          ],
+          [
+            1.2801480116967046,
+            -0.42424215399471815,
+            -1.0602118850468352
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18235,
+          18333
+        ],
+        "distance_slack": -0.20295520791166846,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.955936072430649,
+          "source_vertex": 40795,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 6.086835766330224,
+          "source_vertex": 40989,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.2801480116967046,
+            -0.42424215399471815,
+            1.0602118850468352
+          ],
+          [
+            1.331459330971187,
+            -0.2604457845381101,
+            1.1236043898605002
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14061,
+          14155
+        ],
+        "distance_slack": -0.20295520791166805,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.9452431127404313,
+          "source_vertex": 32493,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.8143434188408563,
+          "source_vertex": 32683,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.3314593309711873,
+            0.2604457845381094,
+            -1.1236043898605002
+          ],
+          [
+            -1.280148011696705,
+            0.424242153994718,
+            -1.0602118850468352
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18187,
+          18285
+        ],
+        "distance_slack": -0.20295520791166805,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.8143434188408563,
+          "source_vertex": 40747,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.9452431127404313,
+          "source_vertex": 40941,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.280148011696705,
+            0.424242153994718,
+            1.0602118850468352
+          ],
+          [
+            -1.3314593309711873,
+            0.2604457845381094,
+            1.1236043898605002
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14067,
+          14165
+        ],
+        "distance_slack": -0.20295520791166788,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.337942194439155,
+          "source_vertex": 32499,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.46884188833873,
+          "source_vertex": 32693,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.3314593309711873,
+            -0.2604457845381091,
+            -1.1236043898605002
+          ],
+          [
+            -1.280148011696705,
+            -0.4242421539947179,
+            -1.0602118850468352
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18197,
+          18291
+        ],
+        "distance_slack": -0.20295520791166788,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.46884188833873,
+          "source_vertex": 40757,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.337942194439155,
+          "source_vertex": 40947,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.280148011696705,
+            -0.4242421539947179,
+            1.0602118850468352
+          ],
+          [
+            -1.3314593309711873,
+            -0.2604457845381091,
+            1.1236043898605002
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14028,
+          14126
+        ],
+        "distance_slack": -0.20295223288522196,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.7853981633974483,
+          "source_vertex": 32460,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.916297857297023,
+          "source_vertex": 32654,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.951333830038217,
+            0.9345646963607123,
+            -1.0774652559479596
+          ],
+          [
+            0.8115854599184957,
+            1.032295617615176,
+            -1.0111262733448172
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18158,
+          18252
+        ],
+        "distance_slack": -0.20295223288522196,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.916297857297023,
+          "source_vertex": 40718,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.7853981633974483,
+          "source_vertex": 40908,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.8115854599184957,
+            1.032295617615176,
+            1.0111262733448172
+          ],
+          [
+            0.951333830038217,
+            0.9345646963607123,
+            1.0774652559479596
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14052,
+          14146
+        ],
+        "distance_slack": -0.20295223288522118,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.356194490192345,
+          "source_vertex": 32484,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.2252947962927703,
+          "source_vertex": 32674,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.9513338300382173,
+            0.9345646963607124,
+            -1.0774652559479596
+          ],
+          [
+            -0.8115854599184952,
+            1.0322956176151765,
+            -1.0111262733448172
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18178,
+          18276
+        ],
+        "distance_slack": -0.20295223288522118,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.2252947962927703,
+          "source_vertex": 40738,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.356194490192345,
+          "source_vertex": 40932,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.8115854599184952,
+            1.0322956176151765,
+            1.0111262733448172
+          ],
+          [
+            -0.9513338300382173,
+            0.9345646963607124,
+            1.0774652559479596
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14076,
+          14174
+        ],
+        "distance_slack": -0.20295223288522116,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.926990816987241,
+          "source_vertex": 32508,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 4.057890510886816,
+          "source_vertex": 32702,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.9513338300382177,
+            -0.9345646963607117,
+            -1.0774652559479596
+          ],
+          [
+            -0.8115854599184957,
+            -1.032295617615176,
+            -1.0111262733448172
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18206,
+          18300
+        ],
+        "distance_slack": -0.20295223288522116,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 4.057890510886816,
+          "source_vertex": 40766,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.926990816987241,
+          "source_vertex": 40956,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.8115854599184957,
+            -1.032295617615176,
+            1.0111262733448172
+          ],
+          [
+            -0.9513338300382177,
+            -0.9345646963607117,
+            1.0774652559479596
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14100,
+          14194
+        ],
+        "distance_slack": -0.20295223288522074,
+        "path_upper": 0.3763684040365795,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.497787143782138,
+          "source_vertex": 32532,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.3668874498825625,
+          "source_vertex": 32722,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.9513338300382168,
+            -0.9345646963607128,
+            -1.0774652559479596
+          ],
+          [
+            0.8115854599184944,
+            -1.0322956176151772,
+            -1.011126273344817
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18226,
+          18324
+        ],
+        "distance_slack": -0.20295223288522074,
+        "path_upper": 0.37636840403657945,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.3668874498825625,
+          "source_vertex": 40786,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.497787143782138,
+          "source_vertex": 40980,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.8115854599184944,
+            -1.0322956176151772,
+            1.011126273344817
+          ],
+          [
+            0.9513338300382168,
+            -0.9345646963607128,
+            1.0774652559479596
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14051,
+          14145
+        ],
+        "distance_slack": -0.2029448209724241,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.2907446432425576,
+          "source_vertex": 32483,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.159844949342983,
+          "source_vertex": 32673,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.8861525229991412,
+            0.9925536147999886,
+            -1.0714748350151253
+          ],
+          [
+            -0.7397741457670901,
+            1.0805987235004242,
+            -1.0058551537492517
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18177,
+          18275
+        ],
+        "distance_slack": -0.2029448209724241,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.159844949342983,
+          "source_vertex": 40737,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.2907446432425576,
+          "source_vertex": 40931,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.7397741457670901,
+            1.0805987235004242,
+            1.0058551537492517
+          ],
+          [
+            -0.8861525229991412,
+            0.9925536147999886,
+            1.0714748350151253
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14029,
+          14127
+        ],
+        "distance_slack": -0.2029448209724238,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.8508480103472357,
+          "source_vertex": 32461,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.9817477042468102,
+          "source_vertex": 32655,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.8861525229991413,
+            0.9925536147999886,
+            -1.0714748350151253
+          ],
+          [
+            0.73977414576709,
+            1.0805987235004244,
+            -1.0058551537492517
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18159,
+          18253
+        ],
+        "distance_slack": -0.2029448209724238,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.9817477042468102,
+          "source_vertex": 40719,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.8508480103472357,
+          "source_vertex": 40909,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.73977414576709,
+            1.0805987235004244,
+            1.0058551537492517
+          ],
+          [
+            0.8861525229991413,
+            0.9925536147999886,
+            1.0714748350151253
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14077,
+          14175
+        ],
+        "distance_slack": -0.20294482097242308,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.9924406639370287,
+          "source_vertex": 32509,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 4.123340357836604,
+          "source_vertex": 32703,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.8861525229991418,
+            -0.9925536147999882,
+            -1.0714748350151255
+          ],
+          [
+            -0.73977414576709,
+            -1.0805987235004244,
+            -1.0058551537492517
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18207,
+          18301
+        ],
+        "distance_slack": -0.20294482097242308,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 4.123340357836604,
+          "source_vertex": 40767,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.9924406639370287,
+          "source_vertex": 40957,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.73977414576709,
+            -1.0805987235004244,
+            1.0058551537492517
+          ],
+          [
+            -0.8861525229991418,
+            -0.9925536147999882,
+            1.0714748350151255
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14099,
+          14193
+        ],
+        "distance_slack": -0.2029448209724217,
+        "path_upper": 0.3763684040365795,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.432337296832351,
+          "source_vertex": 32531,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.301437602932776,
+          "source_vertex": 32721,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.8861525229991425,
+            -0.9925536147999876,
+            -1.0714748350151255
+          ],
+          [
+            0.7397741457670896,
+            -1.0805987235004249,
+            -1.0058551537492517
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18225,
+          18323
+        ],
+        "distance_slack": -0.2029448209724217,
+        "path_upper": 0.37636840403657945,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.301437602932776,
+          "source_vertex": 40785,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.432337296832351,
+          "source_vertex": 40979,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.7397741457670896,
+            -1.0805987235004249,
+            1.0058551537492517
+          ],
+          [
+            0.8861525229991425,
+            -0.9925536147999876,
+            1.0714748350151255
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14066,
+          14164
+        ],
+        "distance_slack": -0.202943044053525,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.272492347489368,
+          "source_vertex": 32498,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.4033920413889427,
+          "source_vertex": 32692,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.3465845823304454,
+            -0.1743485662192053,
+            -1.1258877942408934
+          ],
+          [
+            -1.3074733631683455,
+            -0.3420448582022283,
+            -1.0639730984143048
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18196,
+          18290
+        ],
+        "distance_slack": -0.202943044053525,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.4033920413889427,
+          "source_vertex": 40756,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.272492347489368,
+          "source_vertex": 40946,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.3074733631683455,
+            -0.3420448582022283,
+            1.0639730984143048
+          ],
+          [
+            -1.3465845823304454,
+            -0.1743485662192053,
+            1.1258877942408934
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14062,
+          14156
+        ],
+        "distance_slack": -0.20294304405352498,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.010692959690218,
+          "source_vertex": 32494,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.8797932657906435,
+          "source_vertex": 32684,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.3465845823304454,
+            0.1743485662192056,
+            -1.1258877942408934
+          ],
+          [
+            -1.3074733631683455,
+            0.34204485820222863,
+            -1.0639730984143048
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18188,
+          18286
+        ],
+        "distance_slack": -0.20294304405352498,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.8797932657906435,
+          "source_vertex": 40748,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.010692959690218,
+          "source_vertex": 40942,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.3074733631683455,
+            0.34204485820222863,
+            1.0639730984143048
+          ],
+          [
+            -1.3465845823304454,
+            0.1743485662192056,
+            1.1258877942408934
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14018,
+          14116
+        ],
+        "distance_slack": -0.20294304405352484,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.1308996938995747,
+          "source_vertex": 32450,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.2617993877991494,
+          "source_vertex": 32644,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.3465845823304454,
+            0.17434856621920514,
+            -1.1258877942408934
+          ],
+          [
+            1.3074733631683455,
+            0.3420448582022283,
+            -1.0639730984143048
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18148,
+          18242
+        ],
+        "distance_slack": -0.20294304405352484,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.2617993877991494,
+          "source_vertex": 40708,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.1308996938995747,
+          "source_vertex": 40898,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.3074733631683455,
+            0.3420448582022283,
+            1.0639730984143048
+          ],
+          [
+            1.3465845823304454,
+            0.17434856621920514,
+            1.1258877942408934
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14110,
+          14204
+        ],
+        "distance_slack": -0.20294304405352295,
+        "path_upper": 0.3763684040365795,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 6.152285613280012,
+          "source_vertex": 32542,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 6.021385919380436,
+          "source_vertex": 32732,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.3465845823304454,
+            -0.17434856621920525,
+            -1.1258877942408934
+          ],
+          [
+            1.307473363168345,
+            -0.3420448582022303,
+            -1.0639730984143045
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18236,
+          18334
+        ],
+        "distance_slack": -0.20294304405352295,
+        "path_upper": 0.37636840403657945,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 6.021385919380436,
+          "source_vertex": 40796,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 6.152285613280012,
+          "source_vertex": 40990,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.307473363168345,
+            -0.3420448582022303,
+            1.0639730984143045
+          ],
+          [
+            1.3465845823304454,
+            -0.17434856621920525,
+            1.1258877942408934
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14098,
+          14192
+        ],
+        "distance_slack": -0.2029373534797214,
+        "path_upper": 0.3763684040365771,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.3668874498825625,
+          "source_vertex": 32530,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.235987755982989,
+          "source_vertex": 32720,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.8173703812244703,
+            -1.0462457599256139,
+            -1.065695526592804
+          ],
+          [
+            0.6650615268065717,
+            -1.1243218391202763,
+            -1.0009391774439862
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18224,
+          18322
+        ],
+        "distance_slack": -0.2029373534797214,
+        "path_upper": 0.3763684040365771,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.235987755982989,
+          "source_vertex": 40784,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.3668874498825625,
+          "source_vertex": 40978,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.6650615268065717,
+            -1.1243218391202763,
+            1.0009391774439862
+          ],
+          [
+            0.8173703812244703,
+            -1.0462457599256139,
+            1.065695526592804
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14078,
+          14176
+        ],
+        "distance_slack": -0.2029373534797202,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 4.057890510886816,
+          "source_vertex": 32510,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 4.1887902047863905,
+          "source_vertex": 32704,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.8173703812244715,
+            -1.0462457599256125,
+            -1.065695526592804
+          ],
+          [
+            -0.665061526806572,
+            -1.124321839120276,
+            -1.0009391774439862
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18208,
+          18302
+        ],
+        "distance_slack": -0.2029373534797202,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 4.1887902047863905,
+          "source_vertex": 40768,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 4.057890510886816,
+          "source_vertex": 40958,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.665061526806572,
+            -1.124321839120276,
+            1.0009391774439862
+          ],
+          [
+            -0.8173703812244715,
+            -1.0462457599256125,
+            1.065695526592804
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14030,
+          14128
+        ],
+        "distance_slack": -0.20293735347971945,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.916297857297023,
+          "source_vertex": 32462,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 1.0471975511965976,
+          "source_vertex": 32656,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.8173703812244713,
+            1.0462457599256128,
+            -1.065695526592804
+          ],
+          [
+            0.665061526806571,
+            1.1243218391202765,
+            -1.0009391774439862
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18160,
+          18254
+        ],
+        "distance_slack": -0.20293735347971945,
+        "path_upper": 0.37636840403657845,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 1.0471975511965976,
+          "source_vertex": 40720,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.916297857297023,
+          "source_vertex": 40910,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.665061526806571,
+            1.1243218391202765,
+            1.0009391774439862
+          ],
+          [
+            0.8173703812244713,
+            1.0462457599256128,
+            1.065695526592804
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14050,
+          14144
+        ],
+        "distance_slack": -0.2029373534797189,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.2252947962927703,
+          "source_vertex": 32482,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.0943951023931953,
+          "source_vertex": 32672,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.817370381224471,
+            1.0462457599256128,
+            -1.065695526592804
+          ],
+          [
+            -0.6650615268065704,
+            1.124321839120277,
+            -1.0009391774439862
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18176,
+          18274
+        ],
+        "distance_slack": -0.2029373534797189,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.0943951023931953,
+          "source_vertex": 40736,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.2252947962927703,
+          "source_vertex": 40930,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.6650615268065704,
+            1.124321839120277,
+            1.0009391774439862
+          ],
+          [
+            -0.817370381224471,
+            1.0462457599256128,
+            1.065695526592804
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14079,
+          14177
+        ],
+        "distance_slack": -0.20293009516500884,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 4.123340357836604,
+          "source_vertex": 32511,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 4.254240051736178,
+          "source_vertex": 32705,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.7452836925856507,
+            -1.0954464415045264,
+            -1.0602134103491192
+          ],
+          [
+            -0.5877454844297898,
+            -1.1633075657136425,
+            -0.9964444261169514
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18209,
+          18303
+        ],
+        "distance_slack": -0.20293009516500884,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 4.254240051736178,
+          "source_vertex": 40769,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 4.123340357836604,
+          "source_vertex": 40959,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.5877454844297898,
+            -1.1633075657136425,
+            0.9964444261169514
+          ],
+          [
+            -0.7452836925856507,
+            -1.0954464415045264,
+            1.0602134103491192
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14097,
+          14191
+        ],
+        "distance_slack": -0.20293009516500868,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.301437602932776,
+          "source_vertex": 32529,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.170537909033201,
+          "source_vertex": 32719,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.7452836925856503,
+            -1.0954464415045266,
+            -1.0602134103491192
+          ],
+          [
+            0.5877454844297892,
+            -1.163307565713643,
+            -0.9964444261169514
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18223,
+          18321
+        ],
+        "distance_slack": -0.20293009516500868,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.170537909033201,
+          "source_vertex": 40783,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.301437602932776,
+          "source_vertex": 40977,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.5877454844297892,
+            -1.163307565713643,
+            0.9964444261169514
+          ],
+          [
+            0.7452836925856503,
+            -1.0954464415045266,
+            1.0602134103491192
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14031,
+          14129
+        ],
+        "distance_slack": -0.20293009516500765,
+        "path_upper": 0.37636840403657873,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.9817477042468102,
+          "source_vertex": 32463,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 1.1126473981463851,
+          "source_vertex": 32657,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.745283692585651,
+            1.0954464415045264,
+            -1.0602134103491192
+          ],
+          [
+            0.5877454844297889,
+            1.1633075657136431,
+            -0.9964444261169514
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18161,
+          18255
+        ],
+        "distance_slack": -0.20293009516500765,
+        "path_upper": 0.37636840403657873,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 1.1126473981463851,
+          "source_vertex": 40721,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.9817477042468102,
+          "source_vertex": 40911,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.5877454844297889,
+            1.1633075657136431,
+            0.9964444261169514
+          ],
+          [
+            0.745283692585651,
+            1.0954464415045264,
+            1.0602134103491192
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14049,
+          14143
+        ],
+        "distance_slack": -0.20293009516500757,
+        "path_upper": 0.37636840403657884,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.159844949342983,
+          "source_vertex": 32481,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.028945255443408,
+          "source_vertex": 32671,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.7452836925856505,
+            1.0954464415045264,
+            -1.0602134103491192
+          ],
+          [
+            -0.5877454844297884,
+            1.1633075657136431,
+            -0.9964444261169514
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18175,
+          18273
+        ],
+        "distance_slack": -0.20293009516500757,
+        "path_upper": 0.3763684040365789,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.028945255443408,
+          "source_vertex": 40735,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.159844949342983,
+          "source_vertex": 40929,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.5877454844297884,
+            1.1633075657136431,
+            0.9964444261169514
+          ],
+          [
+            -0.7452836925856505,
+            1.0954464415045264,
+            1.0602134103491192
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14065,
+          14163
+        ],
+        "distance_slack": -0.20292855928569212,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.2070425005395804,
+          "source_vertex": 32497,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 3.337942194439155,
+          "source_vertex": 32691,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.3557012701034885,
+            -0.08739093911020702,
+            -1.1272828547032647
+          ],
+          [
+            -1.328966328383115,
+            -0.2581047127047504,
+            -1.067012504646459
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18195,
+          18289
+        ],
+        "distance_slack": -0.20292855928569212,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 3.337942194439155,
+          "source_vertex": 40755,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.2070425005395804,
+          "source_vertex": 40945,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.328966328383115,
+            -0.2581047127047504,
+            1.067012504646459
+          ],
+          [
+            -1.3557012701034885,
+            -0.08739093911020702,
+            1.1272828547032647
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14017,
+          14115
+        ],
+        "distance_slack": -0.20292855928569206,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 0.06544984694978735,
+          "source_vertex": 32449,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 0.19634954084936207,
+          "source_vertex": 32643,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.3557012701034885,
+            0.08739093911020746,
+            -1.1272828547032647
+          ],
+          [
+            1.3289663283831146,
+            0.2581047127047508,
+            -1.067012504646459
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14063,
+          14157
+        ],
+        "distance_slack": -0.20292855928569206,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 3.076142806640006,
+          "source_vertex": 32495,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 2.9452431127404313,
+          "source_vertex": 32685,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -1.3557012701034885,
+            0.08739093911020732,
+            -1.1272828547032647
+          ],
+          [
+            -1.3289663283831146,
+            0.25810471270475066,
+            -1.067012504646459
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18147,
+          18241
+        ],
+        "distance_slack": -0.20292855928569206,
+        "path_upper": 0.3763684040365785,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 0.19634954084936207,
+          "source_vertex": 40707,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 0.06544984694978735,
+          "source_vertex": 40897,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.3289663283831146,
+            0.2581047127047508,
+            1.067012504646459
+          ],
+          [
+            1.3557012701034885,
+            0.08739093911020746,
+            1.1272828547032647
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18189,
+          18287
+        ],
+        "distance_slack": -0.20292855928569206,
+        "path_upper": 0.3763684040365783,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 2.9452431127404313,
+          "source_vertex": 40749,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 3.076142806640006,
+          "source_vertex": 40943,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -1.3289663283831146,
+            0.25810471270475066,
+            1.067012504646459
+          ],
+          [
+            -1.3557012701034885,
+            0.08739093911020732,
+            1.1272828547032647
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14111,
+          14205
+        ],
+        "distance_slack": -0.20292855928569098,
+        "path_upper": 0.3763684040365795,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 6.217735460229799,
+          "source_vertex": 32543,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 6.086835766330224,
+          "source_vertex": 32733,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            1.3557012701034885,
+            -0.08739093911020733,
+            -1.1272828547032647
+          ],
+          [
+            1.3289663283831146,
+            -0.25810471270475177,
+            -1.0670125046464587
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18237,
+          18335
+        ],
+        "distance_slack": -0.20292855928569098,
+        "path_upper": 0.37636840403657945,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 6.086835766330224,
+          "source_vertex": 40797,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 6.217735460229799,
+          "source_vertex": 40991,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            1.3289663283831146,
+            -0.25810471270475177,
+            1.0670125046464587
+          ],
+          [
+            1.3557012701034885,
+            -0.08739093911020733,
+            1.1272828547032647
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14032,
+          14130
+        ],
+        "distance_slack": -0.2029232429029636,
+        "path_upper": 0.3763684040365786,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 1.0471975511965976,
+          "source_vertex": 32464,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 1.1780972450961724,
+          "source_vertex": 32658,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.6701955831928538,
+            1.1399768470139904,
+            -1.0551059939547742
+          ],
+          [
+            0.508129817992717,
+            1.1974116349023856,
+            -0.9924294955135454
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18162,
+          18256
+        ],
+        "distance_slack": -0.2029232429029636,
+        "path_upper": 0.37636840403657856,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 1.1780972450961724,
+          "source_vertex": 40722,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 1.0471975511965976,
+          "source_vertex": 40912,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.508129817992717,
+            1.1974116349023856,
+            0.9924294955135454
+          ],
+          [
+            0.6701955831928538,
+            1.1399768470139904,
+            1.0551059939547742
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14048,
+          14142
+        ],
+        "distance_slack": -0.20292324290287891,
+        "path_upper": 0.3763684040365786,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 2.0943951023931953,
+          "source_vertex": 32480,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 1.9634954084936205,
+          "source_vertex": 32670,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.6701955831928536,
+            1.1399768470139906,
+            -1.0551059939547742
+          ],
+          [
+            -0.508129817992634,
+            1.197411634902418,
+            -0.9924294955135415
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18174,
+          18272
+        ],
+        "distance_slack": -0.20292324290287891,
+        "path_upper": 0.37636840403657856,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 1.9634954084936205,
+          "source_vertex": 40734,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 2.0943951023931953,
+          "source_vertex": 40928,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.508129817992634,
+            1.197411634902418,
+            0.9924294955135415
+          ],
+          [
+            -0.6701955831928536,
+            1.1399768470139906,
+            1.0551059939547742
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14096,
+          14190
+        ],
+        "distance_slack": -0.20292324290287825,
+        "path_upper": 0.3763684040365795,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 5.235987755982989,
+          "source_vertex": 32528,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 5.105088062083413,
+          "source_vertex": 32718,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            0.670195583192854,
+            -1.1399768470139904,
+            -1.0551059939547742
+          ],
+          [
+            0.5081298179926338,
+            -1.197411634902418,
+            -0.9924294955135415
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18222,
+          18320
+        ],
+        "distance_slack": -0.20292324290287825,
+        "path_upper": 0.37636840403657945,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 5.105088062083413,
+          "source_vertex": 40782,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 5.235987755982989,
+          "source_vertex": 40976,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            0.5081298179926338,
+            -1.197411634902418,
+            0.9924294955135415
+          ],
+          [
+            0.670195583192854,
+            -1.1399768470139904,
+            1.0551059939547742
+          ]
+        ]
+      },
+      {
+        "indices": [
+          14080,
+          14178
+        ],
+        "distance_slack": -0.20292324290287814,
+        "path_upper": 0.3763684040365795,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": -1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": -1,
+          "source_ring": 338,
+          "theta": 4.1887902047863905,
+          "source_vertex": 32512,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "right": {
+          "u": -1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": -1,
+          "source_ring": 340,
+          "theta": 4.319689898685966,
+          "source_vertex": 32706,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "center_points": [
+          [
+            -0.6701955831928544,
+            -1.13997684701399,
+            -1.0551059939547742
+          ],
+          [
+            -0.5081298179926342,
+            -1.197411634902418,
+            -0.9924294955135416
+          ]
+        ]
+      },
+      {
+        "indices": [
+          18210,
+          18304
+        ],
+        "distance_slack": -0.20292324290287814,
+        "path_upper": 0.37636840403657945,
+        "short_path_threshold": 0.3762386411484782,
+        "left": {
+          "u": 1.111230771752392,
+          "radius": 1.3249795730704825,
+          "kind": "prefix",
+          "coordinate": 1.111230771752392,
+          "side": 1,
+          "source_ring": 424,
+          "theta": 4.319689898685966,
+          "source_vertex": 40770,
+          "intrinsic_cover_radius": 0.07278542264826265
+        },
+        "right": {
+          "u": 1.1682169651755916,
+          "radius": 1.3363418419641235,
+          "kind": "prefix",
+          "coordinate": 1.1682169651755916,
+          "side": 1,
+          "source_ring": 426,
+          "theta": 4.1887902047863905,
+          "source_vertex": 40960,
+          "intrinsic_cover_radius": 0.07315725221422265
+        },
+        "center_points": [
+          [
+            -0.5081298179926342,
+            -1.197411634902418,
+            0.9924294955135416
+          ],
+          [
+            -0.6701955831928544,
+            -1.13997684701399,
+            1.0551059939547742
+          ]
+        ]
+      }
+    ],
+    "outside_query_ball_rule": "Center distance >2*tau+e_i+max(e) implies full patch separation >=2*tau."
+  },
+  "numerical_cover_budget_passed": false,
+  "entire_phase_circle_reduced_to_static_base": true,
+  "continuous_reach_interval_certificate": false,
+  "task_completed": false,
+  "limitations": [
+    "The supplied envelopes are numerical inputs; this run does not derive interval bounds for them.",
+    "Repeat on finer grids of the same map and compare uncovered blocks and margins; a different BVP design is not a refinement.",
+    "The static base is the closed finite map with all four marker heights set to zero; R24 pays the fixed marker cost.",
+    "C2 gluing and full embedding remain geometric inputs to R37; a watertight PLY alone does not establish them.",
+    "Passing this reach budget does not establish the required amplitude or an exact same-g limit."
+  ],
+  "seconds": 21.48386617699998
+}

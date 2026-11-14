@@ -300,3 +300,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14 09:42 UTC — visible-larger: finish actual RK48 common-grid and closed readout recovery
 
 原中断的两共同网格、源节点读出、固定collar和三闭mesh已在本仓Actions真完成。接缝外metric2.16149e−8→2.07608e−9，但f8→16二jet差.0029138，原prefixcut平台4.77033e−8未新解，幅度仍.063D。保存完整artifact，不重复原真solver。
+
+### 2026-11-14 09:43 UTC — visible-larger R241: prove embedding and reach from complete immersion covering
+
+原空间v1真实剩889856对（仅prefix-prefix/tail）、Ktau0=1.0019578未过；R238前缀2589片与固定支持圆代数已过但全条件未齐。R241给同时嵌入/reach的完整条件证明，v2仅收紧覆盖路径并加实际前缀法向锥门，不改曲面/曲率预算。
