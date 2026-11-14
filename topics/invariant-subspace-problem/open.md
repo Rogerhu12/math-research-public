@@ -110,9 +110,9 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)：两零模块与所列旧边/仿射/粗占据界不足以给S1/S2任意统一有限常数；该族非Boolean，原c1仍开。
 
-[R288 逐位共同Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部N_i压缩缺陷、碰撞零模交叉及creation三带。聚合碰撞是R284合同；一般S2尚须真实共同Y_i满足两矩与完整物理行收缩，单坐标粗估不能替代。
+[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保全部占据缺陷、碰撞交叉和creation三带；聚合碰撞属旧合同。[出生一S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)现已付任意正权M≥3的||T||²≤2/3，且共同Yi实际构造。一般birth两矩/物理行收缩及S1仍开。
 
-[R286 固定源全部高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源f的Ran X^(1/2)及能量；原慢尾固定出生/固定偏移块统一为C(m+1)^s[Λ/(m+1)]^j/(j!)²，原完整幂去阶乘后仍有几何尾和。实际流t_q的祖先出生随q增大，固定birth塔在q>d+s−2后无分量；原受限逆后的源不自动保有限支持/固定birth，所以跨出生graph、完整e_q和N=M保持开放。
+[R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 
 [R284 零模Gram](results/R284-cross-birth-zero-occupation-grams-and-exact-schur-lower-bound.md)付Q/R交叉、Γ2高birth与R Y3†R*下界、有限正权p≥2严格正；[Fischer/局部界](results/R284-appendix-fischer-remainder-and-local-inverse-square-root-control.md)付2/(M−1+2s)余量与不损外尾的物理块coercivity。仅给J*e_I的逆平方根能量，一般平方增长/graph识别仍开。
 

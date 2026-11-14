@@ -4,11 +4,11 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `3b54b2fb3c4f7c4ce651ffecd9162bfaa0f709ca`（2026-11-14 07:27:35 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `3078fefc0c7f991cada81a711ada000da30ea48a`（2026-11-14 07:35:30 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
-- **完整旧范围：** 本轮压缩前 [HANDOFF](notes/2026-11-14-handoff-before-R285-789f.md)、[open](notes/2026-11-14-open-before-R285-789f.md)；更早 1cf/0c 的队列和链接均在其中。未列接口没有关闭。
+- **完整旧范围：** 本轮压缩前 [HANDOFF](notes/2026-11-14-handoff-before-R288-s2-789f.md)、[open](notes/2026-11-14-open-before-R288-s2-789f.md)；更早 1cf/0c 的队列和链接均在其中。未列接口没有关闭。
 
 ## 模型及不可越过的范围
 
@@ -30,21 +30,21 @@
 - **原 graph 接口：** M3初次、M2以后、同 w/真负图/完整左右费必须保。双宽有效 Keff≥e^(59d³/256)/(2^19d)、真实同余商测试族及主配对已付，固定测试局部 Gram O(Keff)、pure 深 jet 总费与普通右费继续。原连续尾 birth1 全高度条件数≤(t+1)^17、D1*旧列≤(h+2)^61S；birth≥2及 Γ跨birth仍开。完整公式/原链接在 open 和本次归档。
 - **R277：** 原连续尾全部 ℓ1 一孔行 κ_c 可下降零源商 iff c=λb，甚至模任意 K≤d−2 前缀亦同。非比例有完整 d−1 头泄漏；C=Σb³E 未压缩 graph 小范数不付商作用，需要带真实修复。
 - **R273/275：** 两异常位完整3D/4D MP、任意一位添加全高度同源三角 Schur/顶硬端、实际同一三次桥 B 的创新已付。两对角可继承，交叉仍须实际正块。首边准确三块 M(t)≥0；S1/S2 加旧下出生第二边足所有 t 的 SOS，S1/S2 一般未证。大添加位上左必要块、联合占据四项已付。
-- **R278：** 实际两带 Serre 三阶递推、真实顶积分及跨birth加权迹身份已付；各桥在变化 G_k 度量为正，不免费改为 G1 序。
-- **R279：** X_n≥I+(n/r)(X_r−I)适用完整有限合法与无限ℓ²真MP；首边sδ≤1/(2√2)、原尾s≤(m+1)/(6√2)得c1。一般硬核余 M*M≥(L*L)²−2L*L−I仍缺；全annihilator非Boolean锐例不能代硬核。
-- **R281：** 全出生首边与全部高度最优普适常数相同，有限强权可回传严格违反；等权中央边迫C≥1，八位(4,4,1,1,1,1,1,1)首比22801/43836>1/2，未证上界1。
-- **R283：** 真实惰性反对称对把全部真MP/Γ精确嵌到任薄1/2<sδ<1/2+ε且δ任小的带内，出生费用不能删；该带已含一般常数难题。
+- **R278：** 全birth真实两带Serre三阶/顶积分和加权迹身份已付；变化G_k度量的正性不免费给G1序。
+- **R279：** 全合法有限/无限ℓ²真MP给X_n≥I+(n/r)(X_r−I)；首边sδ≤1/(2√2)得c1。一般联合硬核平方能量仍缺，非Boolean仿射锐例不能代硬核。
+- **R281：** 真极强位把全部高度回传首边，全部birth首边/全height最优普适常数相同且≥1；八位例首比22801/43836>1/2。未证上界1。
+- **R283：** 同权反对称对精确嵌全部真MP/Γ到任薄1/2<sδ<1/2+ε且δ任小的带，故小δ不免出生费用；一般常数仍开。
 - **R284（已推）：** 两个真实跨birth零模Gram把Q/Δ接到联合M能量，Γ2≥4Γ1−2I+Γ2 B_s B_s*Γ2+R Y3†R*；有限正权p≥2零模压缩严格正。另Fischer余量2/(M−1+2s)及局部物理F/单I的无外尾coercivity已付，J*e_I仅得Ran X^(1/2)和逆平方根能量。完整首边平方下界、S1/S2及原graph识别仍开。
 - **R285（已推e7cca4f）：** 明确标量正数据及x≥4参数族满足旧普通边、仿射界、两个R284严格零模块和粗占据界，却使两条更强S1/S2费用无界。只排该有限形式推理，不是Boolean反例。续逐坐标真实creation/Gauss系统。
 - **R286（已推a66ed0c）：** [完整证明](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)。双锚coherent常数与真实ℓ1 creation合成付固定有限源逆平方根能量，原慢尾全部height统一且原幂几何和已付。实际t_q只含祖先birth≥q−d+i+2；q>d+s−2时固定birth s塔分量为零，所以不能据此删除跨birth graph费用或推出N=M。
 - **R287（已推5ba5e1f）：** [完整证明](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)。真R_n和伴随均强近移动c_n（非共轭），R_n² WOT→I而N_nR_n²→−I/2。任意可和闭单位盘逐位参数的平方来源，B≤b·2^(4m)、b<770/64时真空比≤2exp((m+1)/2−π2^m/16)，无周期/最高位限制；未控全部κ_m或原有限秩见证。
-- **R288（已推37727c6）：** [逐位完整Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保N_i压缩投影缺陷、每个碰撞零模与两旧塔交叉、每个creation三带及全部行Gram。聚合碰撞仅旧R284合同。共同Y_i若满足两真实矩及物理收缩可付S2，但该提升尚未构造；不能把恒等式当一般正性完成。
+- **R288：** [逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保投影缺陷、碰撞零模、creation三带及全行交叉；聚合碰撞只旧合同。[本提交S2附录](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)以真实H2向量z付全部M≥3正权birth1的||T||²≤2/3，并构造Yi=θ_iRi*。一般birth的两矩/收缩及S1仍开。
 - **R289（已推3b54b2fb）：** [尾熵及非见证例](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)。同一有限秩ρ的S(ν_m)=o(m)，不可一般加强有界。单个秩一f可实现任意δ_m↓0而尾rank≤2/熵→0、每连续块rank≤3且非纯；慢例兼容列明旧能量/临界矩必要界。未满足原湮灭方程，真实Q_m/Z_m支撑增长仍开。
 - **代理后续：** boundary 转R273真实两异常位4D相邻序，literature 续S2逐物理坐标；normal回实际固定秩ν_m全链；R271 已闭任意 birth1 首/末边、两组＋一位等，不重复成新缺口。
 
 ## 3. R150 与其他主接口
 
-R150：全部rankAy8自然均值已分类，余g≠0、rankAy9有限Σ。原17式参数域slimgb/lift须特征0原I*C=T及实际分母；32003仅发现。入口[计划](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)，逐目标gcd分母覆盖已证，GB分母不能替lift分母。本地q0在BEGIN_BASIS后exitCode=null、旧版未录信号；32003明确1GiB耗尽，两者均无证书、回执已存。官方Singular4.4.0装于/tmp/isp-789f-singular-runtime。自有Actions运行43568673309：q0仍计算；32003于07:19收到runner shutdown、退出143，保留/上传步骤被跳过，原因未知，不能定为OOM。原输入/代码在库，可重放；本提交改为手动选分支，先传输入回执、镜像日志/45秒资源心跳，Singular限12GiB；接着32003用精确平移坐标重算。旧代跑不恢复。
+R150：全部rankAy8自然均值已分类，余g≠0、rankAy9有限Σ。原17式参数域slimgb/lift须特征0原I*C=T及实际分母；32003仅发现。入口[计划](notes/2026-11-14-rank-one-parameter-ideal-ci-plan-789f.md)，逐目标gcd分母覆盖已证，GB分母不能替lift分母。本地q0在BEGIN_BASIS后exitCode=null、旧版未录信号；32003明确1GiB耗尽，两者均无证书、回执已存。官方Singular4.4.0装于/tmp/isp-789f-singular-runtime。自有Actions运行43568673309：q0仍计算；32003于07:19收到runner shutdown、退出143，保留/上传步骤被跳过，原因未知，不能定为OOM。原输入/代码在库，可重放；本提交改为手动选分支，先传输入回执、镜像日志/45秒资源心跳，Singular限12GiB；手动dispatch返回403（PAT无该API权限），接着使用本库已授权的push触发重算32003平移分支。旧代跑不恢复。
 
 R176有界部分谱、R147实奇次/负正辅助、R236已排原指定慢二次全核与全部旧行/种子、R268–270快辅助/共振/不交乘积仅在原范围；一般慢Bell、自然幂/实际逆、双无界及共同自然域仍按 open。R12/R14指定紧夹积/硬截断失败不排所有外部紧交织。
 
