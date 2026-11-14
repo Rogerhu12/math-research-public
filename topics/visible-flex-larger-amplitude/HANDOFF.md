@@ -49,4 +49,4 @@ R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9
 request05—09全成功；10真实coupling112失败待诊断。准备/pending非接受；v4 same_metric_saved_prefix已接物理API。closed wrapper已修public_asset两条绝对路径；R249精确入口构造已付，其实际metric/κ与全局几何仍待新接受场。
 旧geometry26/strong90/GW35件已逐SHA保全；manifest是历史身份。strong R6磁盘SIGTERM143无接受步、raw未全迁，旧支封存。公开源78件匹配原91清单，不读private；自有transport分支只助大blob普通推送，无force。
 
-规则同步记录：2026-11-14T11:45:49.258115+00:00 实际pull --rebase成功；双README自71a755e无变化，已读提交 fc77a9b04bf9967006875bae2225254e35ed81ee。
+规则同步记录：2026-11-14T11:47:20.907842+00:00 实际pull --rebase成功；双README自fc77a9b无变化，已读提交 91ed27a72b21d381304dc16893c5f79b4582f6bb。
