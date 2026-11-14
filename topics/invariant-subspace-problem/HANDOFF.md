@@ -21,7 +21,7 @@
 
 - 原相位、全出生/height、Fock零占据与原矩/旋转的全部公式、常数、来源边界保[本次完整H](notes/2026-11-14-handoff-before-sixteen-actual-top-789f.md)；既有已付范围保持，实际跨birth及ordinary右费未闭。
 - **[移动真头核投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)：** P_m^B加尾误差几乎递减，真实carry和完整boson右逆给强极限P_M，有限头压缩i_mH_m⁻¹i_m*亦强趋P_M。一侧余量≤2exp(−79·16^m)，无反向算子范数速率、无硬核修复或N=M。完整闭域/常数保本次H。
-- **[完整右/高返回](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)：** 固定q+d有界MP及实际源闭；G=Bbare(Hbare+E_ret)⁻¹Bbare*、B⁻¹=Bbare Hbare⁻¹Bbare*，原flat保LGL。真实规范抵消、E_ret的硬核像/旗角度及R239/R271反例范围全保[本次H](notes/2026-11-14-handoff-before-eighth-second-entry-789f.md)，不得删回返或改受限逆。
+- [完整右/高返回](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)保同q+d有界MP、G=Bbare(Hbare+Eret)⁻¹Bbare*及B⁻¹=Bbare Hbare⁻¹Bbare*，不删真实高返回或改受限逆。所有域/旗角度/反例范围保[本次H](notes/2026-11-14-handoff-before-full-graph-commutator-789f.md)。
 
 旧准确零模Z/商Gram、滑动cut、boson双投影/两逆的完整证明与范围保本次H快照；像、因子次序及旧未付范围不变。当前主测试费用由下列物理Δ/E直接支付。
 
@@ -35,9 +35,9 @@
 - [F9完整第一像](notes/2026-11-14-r150-ninth-first-zero-image-all-nine-current-obstructions-and-p9-family-exclusion-789f.md)在全部primary的Q/U9中为零，原十列p6乘积/p5整除全过；当前九余均非零。另已用完整carry排P9∞九目标全部预算，不外推图外原有理来源。run43638830039、恢复run43640008833、77结果/40恢复/9cache及全部对偶保[本次完整H](notes/2026-11-14-handoff-before-low-initial-third-789f.md)，不重数学。Λ2与η8实绩见下。
 - 原射影B≥85有限商、仿射315及∞torsion u⁹⁶/length≤745继续保旧证明；其余mean秩/高本质/自然幂、同一相容全链与普通ISP全部仍开。子问题完成接open，不在阶段报告或时长处结束。
 
-- **[物理夹逼/同增量三费](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)：** W_q=kerP_<qC递减、M_q=K+H_hi,q闭，V_(q+d)⊂M_q⊂W_q。u_b=(L+B)⁻¹Lt、u_f=(L+G⁻¹)⁻¹Lt的差e满足μ(t−e)²+Xi(e)²/2≤Δ_q，Δ为原下降左/上升真核投影同增量，网格总≤||f||²、全cut≤d||f||²，无C_m/log。e自动在真实首头负图；沿已付Z作Xi投影得ehat仍在Rrem，μ(t−ehat)²≤(1+2δ²)Δ、Xi(ehat)²≤2Δ。原同一good-top直接付误差；仅余真实<L rhat,ehat>，两费小不删左配对。
+- [物理夹逼/同增量三费](notes/2026-11-14-physical-joined-sandwich-and-same-increment-three-fee-fixed-test-budget-789f-next.md)保V_(q+d)⊂M_q⊂W_q。e=u_b−u_f在真负图，μ(t−e)²+Xi(e)²/2≤原双投影同增量Δ；d网格总≤||f||²、全cut≤d||f||²。一次真Xi旗投影后仍在Rrem并付左误差；原主<L rhat,ehat>未付。完整两逆/同未来/准确正配对保本次H。
 
-- **[全源正gap滤波](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)/[统一幂](notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md)：** E=(L+B)⁻¹L−(L+G⁻¹)⁻¹L为L正收缩，像在全部共同费用负图；μ(r−Er)²+Xi(Er)²/2≤Xi(r)²。全n≥1有Xi(E^n r)≤√2Xi(r)、μ(r−E^n r)²≤nXi(r)²，完整总耗散≤μ(r)²。一次联合旗投影可入Rrem并保左近似。固定参数E幂归零，但原窗速率/主左配对未付，高谱过滤不反向当比较。
+- [全源正gap](notes/2026-11-14-physical-gap-all-source-positive-filter-and-paid-negative-range-789f-next.md)/[统一幂](notes/2026-11-14-physical-gap-uniform-powers-and-high-spectrum-source-filter-789f-next.md)：E=(L+B)⁻¹L−(L+G⁻¹)⁻¹L为L正收缩、像在共同费负图，EME≤2E(I−E)。全n两费≤√2Xi(r)、左差²≤nXi²、总耗散≤μ²；固定参数归零不代移动速率。
 
 - **[保持联合余负图的正滤波J](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)：** P为真Xi投影、Q=I−P，J=Q E Q†_L/(1+2δ)为L正收缩且像在Rrem。精确JMJ≤2J(I−J)，全n总耗散≤μ(r)²，无累积δ项；Xi(J^n r)²≤μ(r)²/n，左误差平方≤n[Xi(r)²+(2+√2)δμ(r)²]。δ仅m≥8、4d≤q≤exp(d³/4)原窗；新c16母窗不迁移该旗。测试滤波可自伴移到实际r，原主左配对/移动谱隙仍开。
 
@@ -46,3 +46,5 @@
 - **[真新位块与c20全实际源](notes/2026-11-14-true-single-bit-carry-block-and-twenty-window-actual-sources-789f-next.md)：** A_(p+1)=[[A_p,bI+C],[0,A_p]]，K E=0、Anew^zK=0，无[A,C]=0假设。真残量短修复只付52ηR H_p²；有限j<z给一步exp(−4z⁴)。m≥10、Q≤exp(20d³)母提升到N及实际低投影误差均exp(−3d⁴)，同一个u_Q误差2exp(−3d⁴)，全窗原负流/两费/固定测试同源预算保留。未消旗族只余实际比较O(exp(20d³)/d)；旧联合旗δ不迁移，普通ISP未闭。
 
 - **[Λ2低初值第三层](notes/2026-11-14-r150-low-initial-integer-lattice-third-layer-and-five-relations-789f.md)：** 原自然来源像=p²E+pκ1R+pκ2R+Σ3..9κiR，并非全部原来源。三位允许核依次K0=kerĀ⊕η1..7、K1再加η8、K2再加η9。原recipe/canonical carry给η3及η4−18η3在Λ2内精确F9核，故新第三仅五列7001/7002/7005/7006/7007；完整必要族仍保旧198第三，相关第二零不代全局第二零。新五列有完整9×5 C及原H5公式，含κ9常数补偿；先争取原p²h0模p6正证书，失败只称五列不足。实际2-primary商25维，正时全315回补U9，负时投影复合；预算原RHS522/来源618。入口正在冻结，不冒称数学已运行。
+
+- **[完整Γ相对孔交换子真障碍](notes/2026-11-14-actual-tail-full-graph-relative-hole-commutator-obstruction-789f-next.md)：** 在原连续尾前2(d−1)位构造等有效权真不变块，以物理核嵌入R及I≤R*R≤exp(O(m²))I付核内压缩；得全q≥d−1的log||Γ⁻¹/²[N,Γ]Γ⁻¹/²||≥175d⁴/32−315d³/32−O(m²)。因此全Γ不能付exp(O(d³))相对孔估计。证人全在K≤d−1低零核，源Schur会消去；实际源最小压缩、固定测试、余负图及N=M均未由此否定，继续该真商接口。
