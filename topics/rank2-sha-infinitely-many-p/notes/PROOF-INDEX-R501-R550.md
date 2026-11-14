@@ -110,3 +110,5 @@
 - [R545：原角平衡连接与完整物理单位块](../results/R545-angular-balanced-connection-and-full-physical-unit-block.md)：同一实际因子可取整数c平衡两边界，完整多项式连接保全部零阶/Euler项、十九角及固定两charge返回；准确有效极次数降为κ。原低ell强窗给核〈d^(2c),d^cF,F²〉、2κ+χ−2个真实单位Smith因子及全精度整Schur消元，原M十三/二十六carry保持；余下forcing与原中央未赋非零。
 
 - [R546：第三sigma支的完整五伴随CM转移](../results/R546-original-third-sigma-full-five-companion-cm-transfer.md)：原LH整数框架与全部半特征支付第三η支的完整CM13/19转移，三固定投影分离成S2/new/Href乘完整五伴随；质量−1/2、26(1−δ)/3、−1/(1008b)均单位。两原零中央控制任意独立五伴随测试，共同深核心与参考非零环带差全付；混合W/L及全部CM分支、参考/外谱仍保留。
+
+- [R540：原六度完整Schwartz与负二Katz点](../results/R540-original-degree-six-schwartz-full-weight-and-negative-two-katz.md)：原f4/f1的实际有限角色ξ、导子(6)、二/三处完整环面及Schwartz、Hermite/周期和全权平方已付；固定负二矩准确读取36c4·17^(3/2)Ωp I−2²的primitive Katz值。真实复反射ξ^-1ψ0³根数−1，与f1正一次的ξψ0³不同；全部普通Euler和同CM-type对偶保持，负矩非消失仍未付。

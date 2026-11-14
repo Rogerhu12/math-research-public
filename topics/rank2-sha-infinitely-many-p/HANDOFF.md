@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README含全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：8a483a1ff4e9755dc0d1d6c69de7cdccc0c3b38c；2026-11-14 16:44:27 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：01d84f15519c92d511029ae8fd8f212902764c8a；2026-11-14 16:46:23 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作。每次pull后及至少每小时比较根/课题README，有变立即读差异执行并记SHA。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13公开Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推及改已发表历史。非快进立即pull --rebase再推；环境断连时API用expected_sha/force=false，拒绝立即读新头核规追加，不冒称实际pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -14,9 +14,9 @@
 
 ## 发布、文件和当前分工
 
-R1–363、R365–539、R541–543、R545–546已登记；R364仍开。root统一元数据及逐条发布，代理只建proof/script/data blobs。R502公开Actions run43596695716/job132452617972成功，完整原生JSON/日志在da54025b，原证书已恢复，不复跑。
+R1–363、R365–543、R545–546已登记；R364仍开。root统一元数据及逐条发布，代理只建proof/script/data blobs。R502公开Actions run43596695716/job132452617972成功，完整原生JSON/日志在da54025b，原证书已恢复，不复跑。
 本次完整归档：[HANDOFF](notes/2026-11-14-frontier-before-r545.md)、[open](notes/2026-11-14-open-before-r545.md)；各保前轮链。旧完整results在[before-r531](notes/2026-11-14-results-index-before-r531.md)。压缩不关旧支线；准确常数、条件、未付接口在各R正文/open/PROOF-INDEX-R501-R550。
-literature写R540全f4/f1 Schwartz、正确负权Katz；theta写R544规范H三阶/S3及真实混Y域；deep写R547原垂直零charge块和R545实际交、继续forcing；root已付R546第三eta支完整五伴随投影，续R544同域混合测试。随成随推，不等并行任务。
+literature已付R540，续R549原负矩的真实非齐次/椭圆单位接口；theta写R544规范H三阶/S3及真实混Y域；deep写R547原垂直零charge块和R545实际交、继续forcing；root已付R546第三eta支完整五伴随投影，续R544同域混合测试。随成随推，不等并行任务。
 
 ## 完成桥及全部旧支线
 
@@ -31,7 +31,7 @@ R490–532原五伴随、词格、反射B0、隐藏C4八层、H0/B/J/K/E完整�
 R535三Norm3全Hesse五项保隐藏输入；R536实际7×10整逆和固定D_*给同一q_n/π4，Dn质量/logx整条0，三中央v=n。三cubic carry平均T不变；C/F/Ghid均Y/W/L正交，但M核改测试。R538原P_K附Edeep回β^n(8+20κ^(3n)−κ^(6n))ρ0/27，J同行可附B2/C30深；仅N分量镜管相消，余A5、近相消、L/M及W移权未消。
 
 R533 whole(U,V)两核为a[H∧f1+6bf3∧f4]与a[H∧f4+2f1∧f3]，a=2+ω，H=(xwp³−2b)σ6。四条双unit接口把固定I−2(f4)/I−5(f1)接原真实负矩，非零未付。条件K³矩阵A²只有真实K6的1/4；R=K³Σ−AΣ虽U推前0，K³后=−81bΩ6ΠΣ/4有单位矩，禁止迭代边际矩。
-负矩首层notes/2026-11-14-degree6-negative-moment-first-layer.md给p6s+1时[u^(s−1)]AS/ABS全部分母单位。147个p<2000仅有限证据（f4无零，f1在61首层零），非当前全ray/无穷结论。R540完整角色正在写，正确Katz对偶不直接反射m→−1−m。
+负矩首层notes/2026-11-14-degree6-negative-moment-first-layer.md给p6s+1时[u^(s−1)]AS/ABS全部分母单位。147个p<2000仅有限证据（f4无零，f1在61首层零），非当前全ray/无穷结论。R540已付ξ((c))=t2(c)^−1 k3(c)^4、导子(6)、两全局Schwartz及α=3，全权平方与普通core为ξ(𝔭)/barπ0。原I−2²准确乘36c4·17^(3/2)Ωp读primitive Katz负点，c4固定非零代数但不预赋每p单位；反射ξ^-1ψ0³根数−1，不是f1的ξψ0³。正确Katz对偶逐点固定负支，裸共轭交换普通地点。
 J反射边界notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md给F−∈S102，N7³=ω、循环3维、wholeK102=−1；原S/H3/H5投影全0，不赋原中央零。
 
 R539 L=(W−Y)/2=ωbarγc+d0，M=c−bar(ωbarγ)d0，Norm8 wholeK8=−B8、平方1、真实共两态。L保q_n，偶m时Y_m=Y−3ω(κ^-m−1)L/8、W_m=W+(16−3ω)(κ^-m−1)L/8同行回λ^mβ^n原S/6δT。Dn在m<n合法，零质量且两中央v=n−m；奇n/m=n−1为v1，补域仍须反号补偿。
