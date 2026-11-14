@@ -25,3 +25,5 @@
 - 2026-11-14 16:14:07 UTC：高外外口量词勘误独立推并保原正文档。Ω收益和双强窗限已覆盖内部列；未覆盖外口含任意高频，保真实H1源/外输出，开放内部Schur不虚称酉。phase/root交叉审查发现并立即修正。
 
 - 2026-11-14 16:14:11 UTC：独立推V1–24，phase/root核fullspace/Möbius/共同酉次序与内部压缩限制；bad-set相交真实保留，不把两端口resolvent范数直接等同。
+
+- 2026-11-14 16:14:14 UTC：独立推fullδ正区完整合同和19660B producer；tail核新预算及全部head/mean，newton核原H0/H1字段确raw Bernstein来源。旧目标/coeff不重算，继续组装公开CI。
