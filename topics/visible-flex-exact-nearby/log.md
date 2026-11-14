@@ -355,3 +355,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:34:41 UTC visible-exact-astra-0df9：安装G/H22pin最小消费者，补原复矩形258真导数和3个完整内根forcing/L0w1幅度case；原target/fold/leading0重算。题外新增 .github/workflows/visible-exact-complex-inner-root-first-Airy-forcing.yml，以公开Actions执行、双真pull及原prefix保留；继续完整外片与旧I/J余项。
 
 - 2026-11-14 20:41:40 UTC visible-exact-astra-0df9：证明P1–19完整moving帽边界、mean与Poisson接口，任意high和全部允许源/端口保留；无新本地数学计算。压缩94KB结果索引并保完整说明及152条入口；继续真实频率交叉和全返回。
+
+- 2026-11-14 20:43:59 UTC visible-exact-astra-0df9：登记weighted body实际13门/完整native，亲核4真pull空README diff；粗upper不作为障碍或收缩。继续频带/方向分辨的有限响应、正高两输出和真cap接口。

@@ -90,3 +90,7 @@ G/H原复域和全二阶chain已落实为a203227a…源码、4d76f6f1…清单�
 ### 2026-11-14 20:41:40 UTC：全频帽接口与完整Poisson列已证明
 
 P1–19准确接任意未知high和独立mean，g的inner非meanC为0，独立innerC变化经K列保留而不重复。反射odd/even固定primitive常数；未扩张到未固定gauge的类。帽内lowhead与R端trace用完整C0 Poisson支付，高cut值仍独立。当前粗交叉界尚须频率/方向锐化，继续实际全耦合。
+
+### 2026-11-14 20:43:59 UTC：主体加权真实13门已成，改进目标转频率方向
+
+新完整scalar上界很粗，保留作后续缺陷验证备用。A_LH输出只在33..96，当前全量cone未保该方向信息。下一步调查原Q锚和exact_new_reference_definition，构造新的frequency/128列matrix Green或controllability proposal，再用已成G_L认证其连续缺陷；原target、5970validator和6391Gram不重跑。
