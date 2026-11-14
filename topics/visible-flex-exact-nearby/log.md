@@ -159,3 +159,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:44:03 UTC — 大根区 Cauchy 全六R实际完成
 
 亲读11652B process、50621B summary，child0/8门/792commonrows/6radiicases全部通过，1.982108787秒。根球原宽9e−13，实际negative k_lo>49.1638；wholeKr_lo约−20.6187，仅远根加明确S_i，∫S<.034816267。已把全部directed数值向外加宽为报告六行表，ordinary源、affine jump、独立mean和原I次序完整。source9acc1e81…、manifestcc907dc3…，0原target/coef/root重复。真pull17:36:20到08e74aee…，四次两README空diff。
+
+### 2026-11-14 17:53:28 UTC：全帽四分 source 的实际 AST 失败及单字符修复
+
+公开 run 43622701396 / job 132531687633 在 AST 阶段因 source 第178行 gate 缺一个右括号退出；数学子进程、旧数组下载和新域运算均未开始，原64个已完成 quarter 不变。root 独读实际日志及三文件差异：source 仅补一个 `)`，SHA256 `54e5ec52033bb109618fde1c840730b4b589280382b2da196d3ea748af4490de`；160-pin manifest 仅该源pin改为 `6dc5bf2d8030d506c74dc29ef2cb3c1991cd5f7fb8c2a051b03b0ad89cb2fb69`；workflow 仅同步 manifest pin。CI worker/数学合同不变，仍先跑公开 AST，再只计算7844个尚未完成的新quarter域。不声称本地AST或任何数学已跑。

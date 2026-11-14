@@ -176,7 +176,7 @@ def range_run(a,doc):
     parents=plan_doc['original_parent_rows']
     cuts=sorted({LEFT,RIGHT}|{x for x in nodes+provider.knots+provider.target.cuts if LEFT<x<RIGHT})
     gate(doc,'same1977_parent_partition_with_only_new_fixed_parameter_quarter_domains',
-        len(cuts)==1978 and all(r['interval']==list(map(str,cuts[i:i+2])) for i,r in enumerate(parents))
+        len(cuts)==1978 and all(r['interval']==list(map(str,cuts[i:i+2])) for i,r in enumerate(parents)))
     doc.update(range=list(pair),rows=[],requested_new_domains=len(requests),
         requested_new_parent_count=len(assignment['actual_new_parent_indices']),
         original_array_sha256=identities,new_quarter_domains_executed_in_this_child=0)
