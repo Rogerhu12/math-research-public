@@ -117,3 +117,5 @@
 - [R56：完整变系数range的分子演算与有限第四系统](results/R56-full-variable-range-numerator-calculus-and-finite-fourth-system.md) — 任意二次forcing用Zi=FVi/(xi+omega)表示，真实变系数右锚rho=P+B/z；完整characteristic RHS、eta0与恢复分子的所有1/z项逐点消去。有限阶只需固定profile乘积/微分/Volterra及真实s系数积分，故全连接段、双collar及整个period均准确有限化。冗余生成元用真实Gram kernel，不能用采样代全函数。当前重叠pair六交叉密度满秩，固定六profile右逆使全部第三gauge一次支付ruling在同一全局W内的部分；完整第四恰还需全period零及全ruling属于W，尚未求得共同零解。
 
 - [R57：直接重构度量、准确误差范数与辅助框架空间限制](results/R57-direct-reconstructed-metric-and-auxiliary-frame-space.md) — 准确零角均值的单位T重构X=aΠT+zez，使G=a²；真实e=|Xt|²−1、q=Xt·T给最大相对算子误差η=(|e|+√(e²+4q²))/2，直接残差(e,√2q)与其等价。准确R0是充分条件；直接等距得到V*=Xt，但它未必属于旧有限beta和全部高端口jet类，故R55不得未经证明外推。全参数导数含δa/δa′/δb，保持同一中心锚。没有证明零点或任何完成门。
+
+- [R58：第四周期的全部低阶gauge不变性与准确单P约简](results/R58-fourth-period-gauge-invariance-and-single-P-reduction.md) — R45准确四块几何上，第四整个周期函数不受任意合法第二、第三profile gauge改变；第二gauge的第三ruling相容由真实差方程保证。保留第三primitive端值0→a→2a→a→0，标量加a使场减Y_a，单P的全零二阶算子准确消历史增量，故完整第四period等于4倍canonical单Pperiod。逐ruling仍需四块全历史，没有任何实际第四周期已支付。

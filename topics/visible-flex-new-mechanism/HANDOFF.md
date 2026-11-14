@@ -6,7 +6,7 @@
 
 闭连通C2嵌入族Ft、时间在C2拓扑连续，同一固定g；固定材料H有内点且diamH≥.2D；不作对齐的整像Hausdorff位移≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，且同g/物理参数/时间精化至机器或原容差。D是完整F0直径。δE可0但如实报。完整网格每件<5MB，明示数值与准确存在差距；达标后继续.5D或更强存在。
 
-- 根/本题README已完整读。公开仓库最后已读规则提交：`915e51d7c59cd92c7c86f667fa4d3beda8cbb630`。
+- 根/本题README已完整读。公开仓库最后已读规则提交：`e4af45f05417594ab7497d66a2824cb0cdd9f4a3`。
 - 每次实际pull --rebase核双README，有变只读diff并立即做；至少每小时pull。每完成结论立即提交推送；NFF立刻rebase、再核规则、再推直到成功，不强推。
 - 已授权公开main及本公开仓Actions。实际几何/ODE/积分/优化只此Actions；本地仅源码、纸面/准确代数、人工开发核及已公开输出分析。PAT只瞬时CLI/env，不写文件/提交/日志。
 - 私有仓16:09:36 UTC实际pull至`33ebdb638516e71e1b234a6340fe7b1a3d9ccc61`，双README无差，QUEUE唯一课题行仍本会话进行中；下一私有pull不晚于17:09 UTC。私有研究不发布。
@@ -50,7 +50,7 @@ R37零二阶算子→R45单P→D四块闭合/third period零→R46八packet七�
 
 R47固定二阶解时第四period不受第三gauge改变、ruling只能改同一全局span(w)。R49常段最高s²不受二/三gauge影响。R50完整SOS正界排所有不交profile平面及其常O2换基/任意固定混合目标，停止该子类。
 
-R53另一四相位58点/八外packet构造：三个复种子式零、6×6det−716636160，合法约束外延拓+IFT给真正重叠plane完整二三阶及一个标准常段全第四sigma²相位零。R54真实螺旋面/Möbius迁移与e/t/s局部式可复用各常状态，但必须同一原q；首常段零二阶锚使一次项零，一个全局第三gauge可清其常数，其他段未付。
+R53四相位58点/八外packet+6D IFT给真重叠plane完整二三阶与一个标准常段全部第四sigma²相位零。R54给真实常状态螺旋/Möbius迁移；必须同一原q，一个全局第三gauge只清首常段常数，其余未付。R58证明全部合法二/三gauge不改第四period；真实第三历史0→a→2a→a→0使完整period=4×canonical单P。逐ruling仍保四块历史，尚无实际零解。
 
 **R56**：Zi=FVi/(xi+omega)，rho=P+B/z，完整R/eta0/恢复有理项逐点相消，有限profile微分/乘积/右锚Volterra与真实s积分闭合。整个period与ruling用真实Gram/kernel，保冗余关系与跨packet尾。重叠pair六密度满秩给固定六profile全局右逆；全第四剩余恰为各整个period零、各整个ruling在同一W。**尚无共同零解。** 完整二/三/四阶compiler已冻结source a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52并部署；右锚与全s历史、五实际谐波保留，300秒/750000节点预算。真实全编译/积分只公开Actions；无具体P，未来须R45单P→D四块，不混旧实例。
 
