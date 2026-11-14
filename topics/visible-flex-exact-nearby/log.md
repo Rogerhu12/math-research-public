@@ -573,3 +573,9 @@ run43653825736数学10.637003360s/driver10.787922386s child0，native18990ac2…
 推送 E1–25 合同，正文 SHA256 557dd24e61fd7b6ab5b41c4d4164b508c46c51b16c5387ea5c716eb4f855dbd7。根核 DT=QXφ、DX=−QTTφ 后的矩阵顺序、f=(fa,fb)次序、M0逆分母G²B+²、forcing径向导负μ项以及k第三导号数。两次Z导数仅需一次Fρ；实际第三leading由同piece旧jets与正h_I取得，不索新K4/5/FFT。内窗固定[rlo−9e−6,rhi+9e−6]，外侧对所有真根ρ≥9e−6；未乘cutoff、不重置根正规化，真正物理seam单列。
 
 两README于 7f0ebec42c9a1c67703cd6006132c72204623e6f 只读核未变。继续公有Actions外段consumer与内窗全S九词/独立mean消费；该解析合同不冒称数值strong或cutoff闭合。
+
+## 2026-11-14 23:57:51 UTC 第一修正内窗全部旧圆源合同与真实runner同步
+
+新增I1–11合同 SHA256 77bfc0059ccd56a1814eca086bec47c5a83e8e4f3dbc816321c0f9e953fbd4e6，明确未除μ的local numerator经JP S进入首行、九词同空间费用κz而非旧κg；实/复Airy两套全频norm、窄条带尾起点、独立mean、真实dr平方积分完整。新P_Q顶右先准确化为−aρA^(1/3)，再作三阶角majorant；消费已成小辅助case和Taylor，不重跑任何原stage。
+
+根独读公开v4 group07 process blob0090d5f3bff08c3c91a3ca6756913b96f2d04b34，12638B/SHA8f6e6ecafbfac9c660569ee861c38f68511712b4076dcd836c25ed1f53ad4ccc；全16次真pull的两README实际diff为空，最近23:54:10.551205 UTC至f70c1a62be62c31f48d0b4a04e14e34844f6bffb。child仍运行，native前缀177044B/cecb93e9…已存，未按压缩大小猜完成格数。两README本次只读核 ca3ec48219ce243d05d7daf22b508f9157cbc14d 未变；继续新科学consumer与全矩阵实际计算。
