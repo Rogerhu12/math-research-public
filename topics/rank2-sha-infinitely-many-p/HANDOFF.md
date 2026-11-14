@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：6cbe68bc31b1b29f23dfeb4f5c6c022b2fd6daa1；2026-11-14 19:13:20 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：00cb862668434f4a91f296ff44e76e0f3b5ade6b；2026-11-14 19:16:01 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推/改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 根规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；文件<5MB、MD/接口单文件<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:55:59 UTC实际git pull --rebase重试仍无可用执行环境，随即API核main/两README无变。最迟19:55重试；恢复后先实际pull --rebase核规再接API历史。
@@ -21,7 +21,7 @@ root统一元数据/ref，代理只建proof/script/data blobs，结论随成随�
 
 - theta续R569原五sigma的type3/B0实际接四unit、全混合词及H̄偶深；实际原Y/W不自动选type3，不删val1环带。
 - literature续R570规范Cartier-zero与非exact配对，判断原两个指定最高线性值；非线性行不代目标值。
-- deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算t除法尾带已推，S³/周期H主体补充进行中。
+- deep续R561原τ≤2角边界、主体子格与完整forcing/同修正d2；同预算t除法及S³/周期H主体尾带已推，续真实边界和一般K1六尾。
 - root已付R567全正负首两行及同一五sigma消元，续R571真正同源相消/负矩比较；不以子域非零或时长收尾。
 
 ## 完成标准及旧支线
@@ -76,3 +76,5 @@ R552准确Dξ=(cokerEq/imα)/β0(kerβ̄)，再商全部原列上层共同核；
 R555全W_D=B_D十九角/ν=3κ+δ付高接触β13非零严格门，无实际F命中且不覆盖9/8临界。
 [一般二重及尾带](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：r=ell、FYY单位有二次Hensel奇点，判别式H<2T保原k扭曲。τ为原自由系数共同t含量，ν=ordW2；m0=max(0,min(τ,13)−(ν−ell))时真P/t^j覆盖原M最后m0第三行，U0/carry全保；ν=ell、τ≥3全吸收三高轴首次类，未声明实际向量存在。τ≤2、一般K1另外三carry尾及第二障碍仍开。
 [平均预算](notes/2026-11-14-deep-fixed-depth-tame-average-budget.md)固定三块仅O(MD)，真收益须>3MDlogD；[三源Stokes](notes/2026-11-14-deep-three-original-stokes-modules-and-common-charge-obstruction.md)排同charge亚纯相消，中央p依赖/wild仍开。
+
+[原乘子低角尾带](notes/2026-11-14-deep-original-source-multipliers-and-low-angle-tail-absorption.md)：S W_D⊂W_(D+1)、H W_(D−12)⊂W_D全角次数帽已付，H周期自由帽47且源商47D−200。真P∈kerJ各自落S³W_(D−3)或H W_(D−12)时，Q/SQ/S²Q同预算付末3−(ν−ell)第三尾，完整charge3/12、U0、13carry均保；τ≤2也适用。不把ker∩两个子格之和拆开，无新实际命中，余边界/一般K1六尾/d2未付。
