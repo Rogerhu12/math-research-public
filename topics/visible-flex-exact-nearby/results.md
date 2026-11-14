@@ -145,3 +145,7 @@
 ### R133 补充：精确repair完整regular外图实际完成
 
 **已证明。** [实际25门结果](results/R133-supplement-actual-exact-repair-complete-regular-outer-graph.md)由43601149891给真实新外graph：全高端口反馈<.000022100488421，低96到高<.000023400517152；完整物理无限尾、Hs/Hilbert/mean及独立高度/Robin/mean列均保。与新global reference准确同一pR，主体s=1右high仍独立。
+
+### R133 补充：精确repair背景上的实际4650正区高模逆
+
+**已证明。** [完整实际结果](results/R133-supplement-actual-exact-repair-whole-positive-N97-inverse.md)由43601149891两order/8门给所有|j|≥97的完整高逆：χ0<.303291579403含本次真外，χ1<.788277735610保独立右high。4650闭行、3594原接口和全部source/head/mean列保；新16.91MB原件9件无损保存，已与新repair root参考一致，仍不授全低head/负返回/δ96或Schur。
