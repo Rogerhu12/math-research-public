@@ -1,0 +1,433 @@
+{
+  "P0_satisfied": false,
+  "actual_baseline_bridge_parameters_produced": false,
+  "actual_sizes": {
+    "coefficient_DAG_nodes": 29402,
+    "history_states": 275,
+    "profile_atoms": 1016
+  },
+  "all_phase_P1_satisfied": false,
+  "artificial_checks": {
+    "actual_local_or_reciprocal_compiler_called": false,
+    "artificial_horizontal_potential_mod_control": true,
+    "plus_one_to_minus_one_endpoint_orientation": true,
+    "positive_relation_verified_from_original_expressions": true,
+    "profile_or_geometry_values_evaluated": false,
+    "pure_response_factor_one_eighth": true,
+    "target_plus_endpoint_plus_control_sign": true,
+    "two_integrals_and_right_endpoint_not_reset": true
+  },
+  "closed_C1_reachability_inferred_from_rank": false,
+  "compiler_records": [
+    {
+      "B_terms": 6,
+      "J_terms": 6,
+      "P_terms": 6,
+      "R_terms": 27,
+      "eta0_terms": 15,
+      "field_component_terms": [
+        30,
+        18,
+        36
+      ],
+      "mode": "local_third_B",
+      "order": 2,
+      "period_rhs_sha256": "6a9ef0996ff803bdc8627e4dad191d029b1747812354e30947277e16ce8b3bc0",
+      "recovered": true,
+      "ruling_integrand_sha256": "310a640db7358e4dcea58a42202f3afbd9fc00a3b1c5cd8dede50ecced3bc510",
+      "ruling_integrand_terms": 6,
+      "state_count": 27
+    },
+    {
+      "B_terms": 72,
+      "J_terms": 72,
+      "P_terms": 75,
+      "R_terms": 318,
+      "eta0_terms": 182,
+      "mode": "local_third_C",
+      "order": 3,
+      "period_rhs_sha256": "6dca278f597d4caaec08ec2d0f36238c6d69b976e7f63a86b16da6bb881ef1fa",
+      "recovered": false,
+      "ruling_integrand_sha256": "ce785f9a5da6621715b1acb3eebfcf05743c74e9809e6fa9bdcc2e484441af0a",
+      "ruling_integrand_terms": 75
+    }
+  ],
+  "completion": "complete",
+  "constant_compiler_records": [
+    {
+      "records": [
+        {
+          "B_terms": 4,
+          "J_terms": 4,
+          "P_terms": 4,
+          "R_terms": 13,
+          "eta0_terms": 0,
+          "field_component_terms": [
+            15,
+            12,
+            16
+          ],
+          "mode": "constant_1_B",
+          "order": 2,
+          "period_rhs_sha256": "1fa844f72aab729be8f209ab1a36f8a0163bccee41ed17737ea4c5e147980a57",
+          "recovered": true,
+          "ruling_integrand_sha256": "a81da979d55975ed503f6f701dff43cb12b52a030ba8d224700be6a188fa2bdd",
+          "ruling_integrand_terms": 4,
+          "state_count": 13
+        },
+        {
+          "B_terms": 31,
+          "J_terms": 31,
+          "P_terms": 35,
+          "R_terms": 111,
+          "eta0_terms": 87,
+          "field_component_terms": [
+            159,
+            101,
+            166
+          ],
+          "mode": "constant_1_U",
+          "order": 3,
+          "period_rhs_sha256": "d6317bb27240a7f4d6d838eabbffc87dcd5b97a3997124c7531fa4788af4bf3e",
+          "recovered": true,
+          "ruling_integrand_sha256": "6f0efdf540eca32fcb0dee70bb352fef8dda4f1d0f10d77bbca57ef3063317dd",
+          "ruling_integrand_terms": 35,
+          "state_count": 111
+        },
+        {
+          "B_terms": 397,
+          "J_terms": 397,
+          "P_terms": 385,
+          "R_terms": 1293,
+          "eta0_terms": 759,
+          "mode": "constant_1_pure_fourth",
+          "order": 4,
+          "period_rhs_sha256": "02a123fca1a1118d85108f0c9fe9da8c9c0e6fe62ae0db92bc780e9c88ba50d2",
+          "recovered": false,
+          "ruling_integrand_sha256": "95b967039dac0e1156f364a44adf97d08cfbbd751ade270fbd678214f7afd103",
+          "ruling_integrand_terms": 385
+        }
+      ],
+      "sign": 1
+    },
+    {
+      "records": [
+        {
+          "B_terms": 4,
+          "J_terms": 4,
+          "P_terms": 4,
+          "R_terms": 13,
+          "eta0_terms": 0,
+          "field_component_terms": [
+            15,
+            12,
+            16
+          ],
+          "mode": "constant_-1_B",
+          "order": 2,
+          "period_rhs_sha256": "ec3605efcc8087104bf01607d7031a49b077873c307fb4a3603613ca46fcee5a",
+          "recovered": true,
+          "ruling_integrand_sha256": "a81da979d55975ed503f6f701dff43cb12b52a030ba8d224700be6a188fa2bdd",
+          "ruling_integrand_terms": 4,
+          "state_count": 13
+        },
+        {
+          "B_terms": 31,
+          "J_terms": 31,
+          "P_terms": 35,
+          "R_terms": 111,
+          "eta0_terms": 87,
+          "field_component_terms": [
+            159,
+            101,
+            166
+          ],
+          "mode": "constant_-1_U",
+          "order": 3,
+          "period_rhs_sha256": "60d6cc76c040e2fdb7acc23a0985c26b6cf45f40668bacd2a6b1b4fb6876e513",
+          "recovered": true,
+          "ruling_integrand_sha256": "c05e7911d68cb6642d7625ac8952c09988e23c7b8c95f61a7aa3617a3e96c637",
+          "ruling_integrand_terms": 35,
+          "state_count": 111
+        },
+        {
+          "B_terms": 397,
+          "J_terms": 397,
+          "P_terms": 385,
+          "R_terms": 1293,
+          "eta0_terms": 759,
+          "mode": "constant_-1_pure_fourth",
+          "order": 4,
+          "period_rhs_sha256": "4b6ca5115d95fc9da85620d414cc862d740b7113f799d2a33c2800f2dde8367a",
+          "recovered": false,
+          "ruling_integrand_sha256": "6f4245751689e31edbdcb9c4da14e4012d0758cd48748579e3846f15807eb56d",
+          "ruling_integrand_terms": 385
+        }
+      ],
+      "sign": -1
+    }
+  ],
+  "control_theorems": [
+    "R71",
+    "R77",
+    "R79"
+  ],
+  "decomposition": {
+    "area": {
+      "geometry_terms": 22,
+      "sha256": "8e4e5979cfb3357d2f99d81c4c8224ef47be251160a3861e639d5a80b26107b2",
+      "total_profile_terms": 94
+    },
+    "contact_closure": {
+      "geometry_terms": 34,
+      "sha256": "5a4e413045054680b28da78a9ec0f5ab3763f28a3fd1a28223165e56e723f27d",
+      "total_profile_terms": 189
+    },
+    "cubic": {
+      "geometry_terms": 60,
+      "sha256": "87003c995cd4366a735289f20439b63f647e2fc8d24e9140b71a29a7ddbc8106",
+      "total_profile_terms": 223
+    },
+    "h_shape_obstruction": {
+      "geometry_terms": 45,
+      "sha256": "fa34a7e3a983936a95d14b5edffbeabca26d041957605a5608d4da77e400967f",
+      "total_profile_terms": 250
+    },
+    "local": {
+      "geometry_terms": 316,
+      "sha256": "2d574bbc67ca65f74e59dd35210f2ec90ac03d050d520edbc03c262eb3552acb",
+      "total_profile_terms": 1506
+    },
+    "potential": {
+      "geometry_terms": 162,
+      "sha256": "ee82c9895be8ed3db47edc3e9860516fbd2f3ed347ba1110273dc7451622e9fe",
+      "total_profile_terms": 917
+    },
+    "potential_acc": {
+      "geometry_terms": 93,
+      "sha256": "48c4ffc7f34c9b999e13b80df9931486b74e9deea1c2f2854d8202448f084d41",
+      "total_profile_terms": 432
+    },
+    "potential_h": {
+      "geometry_terms": 69,
+      "sha256": "74ceed5a4884f4d537010af9f0f04a23a6394a289533fa5861f8f31d2c61e78b",
+      "total_profile_terms": 485
+    },
+    "remainder": {
+      "geometry_terms": 199,
+      "sha256": "d26fc61700c44075138fbe6d7a41efb4ceb69dcc43016d21897ade2664f35199",
+      "total_profile_terms": 1151
+    },
+    "residual_k": {
+      "geometry_terms": 95,
+      "sha256": "a10fac3d3c950c509c77afff487dd7bd59eaf347ecfca5585bd7b556241a9b4f",
+      "total_profile_terms": 740
+    }
+  },
+  "dependencies": {
+    "mathematical_dependencies": {
+      "exact": {
+        "bytes": 33718,
+        "filename": "literature_pure_bulk_exact_membership.py",
+        "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+      },
+      "formal_compiler": {
+        "bytes": 33169,
+        "filename": "literature_range_profile_algebra.py",
+        "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+        "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+      },
+      "local": {
+        "bytes": 30635,
+        "filename": "literature_local_third_bridge_decompose.py",
+        "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+      },
+      "word": {
+        "bytes": 32310,
+        "filename": "literature_pure_bulk_word_normal_form.py",
+        "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+      }
+    },
+    "previous_C1_producer": {
+      "bytes": 24699,
+      "filename": "literature_linear_third_bridge_quotient.py",
+      "sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+    }
+  },
+  "elapsed_seconds": 6.840449718000002,
+  "endpoint_potential": {
+    "all_rows_verified_from_original_profiles": true,
+    "anchored_P_h_endpoint_jump_exactly_zero": true,
+    "base_state": {
+      "h": "1",
+      "k": "1",
+      "omega": "1"
+    },
+    "endpoint_class": {
+      "max_local_jet_order": 2,
+      "max_word_length": 1,
+      "sha256": "1d6ce84a91652d7296236ebc378d86dbd4b861d6663b01e3e388f33059f526a2",
+      "terms": 10
+    },
+    "endpoint_class_zero_verified": false,
+    "endpoint_raw_sha256": "dc908b2712fd238d1103af01601eef037d278e5a929e93863380dcd474e7153c",
+    "endpoint_raw_terms": 70,
+    "formula": "F=int_1^k a(1,v,1)dv + 2 int_1^omega b(1,k,u)du; a=R+hR_h, b=-h^2 R_h",
+    "horizontal_difference_geometry_rows": 101,
+    "nonzero_representative_is_not_a_nonzero_actual_function_certificate": true,
+    "raw_geometry_expression": {
+      "geometry_terms": 36,
+      "sha256": "6d46447e8cf8cc23ca4418a31d383f7f97ae21b83dd76b2ed46e628b2f53c57d",
+      "total_profile_terms": 610
+    },
+    "terminal_state": {
+      "h": "1",
+      "k": "-1",
+      "omega": "-1"
+    },
+    "unresolved": []
+  },
+  "expanded_coefficient_nodes": 2791,
+  "finite_isometric_family_certified": false,
+  "fourth_ruling_satisfied": false,
+  "geometry_relation": "omega_s=k_s/(2h), h>0; a common physical profile interval for all actual controls",
+  "github": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43632772378",
+    "GITHUB_SHA": "31a276f6f4b2361d10bea9a46fea307a951bb639"
+  },
+  "limits": {
+    "max_IBP_calls": 300000,
+    "max_coefficient_nodes": 600000,
+    "max_memory_mib": 2048,
+    "max_profile_atoms": 80000,
+    "max_rational_bits": 8192,
+    "max_seconds": 240,
+    "max_terms": 100000
+  },
+  "normalizer_complete": false,
+  "old_three_moment_comparison": {
+    "formal_expression": "endpoint - (-4*L_minus - 2*L_zero - 4*L_plus)",
+    "identity_mod_reachable_verified": true,
+    "residual": {
+      "max_local_jet_order": 0,
+      "max_word_length": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "terms": 0
+    }
+  },
+  "peak_resident_mib_linux": 53.6171875,
+  "phase": "finished",
+  "profile_or_geometry_values_evaluated": false,
+  "profile_scope": "ordinary complex diagonal q; no claim about complete unsymmetrized T(f;g,j)",
+  "pure_P1": {
+    "all_phase_channels_satisfied": false,
+    "effective_target": "original reciprocal pure P1 target + H_A(full plus-to-minus C1 endpoint representative)",
+    "effective_target_raw_sha256": "ad02b1b5916b4fa592ea7c9438b56f8393dd552051bdf88618f10e1c8074b9cf",
+    "effective_target_raw_terms": 1169,
+    "effective_target_word": {
+      "max_local_jet_order": 2,
+      "max_word_length": 2,
+      "sha256": "bf47c1869ad03f4e28e2d57bca535d75be792476f900490fdb9d723845abde2e",
+      "terms": 257
+    },
+    "endpoint_representative_verified_for_true_bridge": true,
+    "endpoint_source_sha256": "dc908b2712fd238d1103af01601eef037d278e5a929e93863380dcd474e7153c",
+    "fresh_original_zero_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "negative_is_not_function_nonmembership": true,
+    "original_target_sha256": "a4d4c092f3ff4582b9bfe386a9f176eb36c47f8a25dd03abace8c19fb1b35685",
+    "response_space": {
+      "actual_function_dimension_claimed": false,
+      "columns": 151,
+      "dependent_representatives": 133,
+      "independent_column_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        18,
+        20,
+        21,
+        24
+      ],
+      "representative_rank": 18
+    },
+    "span_remainder": {
+      "max_local_jet_order": 0,
+      "max_word_length": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "terms": 0
+    },
+    "verified_original_whole_function_identity": true
+  },
+  "raw_local": {
+    "geometry_terms": 316,
+    "sha256": "2b787ba4c40421922205154562c19edf97c95e358d3fa6c3306134f017bd195f",
+    "total_profile_terms": 3503
+  },
+  "reachable_space": {
+    "C3_coefficient_columns": 56,
+    "R71_columns": 28,
+    "actual_function_dimension_claimed": false,
+    "closed_C1_coefficient_columns": 67,
+    "columns": 151,
+    "dependent_representatives": 133,
+    "independent_column_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      18,
+      20,
+      21,
+      24
+    ],
+    "reachability_source": "R71, R77 and R79; not inferred from the representative rank",
+    "representative_rank": 18
+  },
+  "readable_expressions": {
+    "bytes": 45711,
+    "filename": "closed-C1-endpoint-expressions.json",
+    "sha256": "72d4683228defce15a4c09ac147b80ca47a8085246832d67e3cfb44004d2c1a9"
+  },
+  "relation_artifact": {
+    "bytes": 52278,
+    "filename": "closed-C1-endpoint-relations.json",
+    "sha256": "fa33f51a809c0b346a04f9b84304e6ce4287e77ff5ffe58c1f40c47c8386f45f"
+  },
+  "representative_rank_is_not_actual_dimension": true,
+  "right_anchor": "I=integral_r^xi, J=-I; all left tails retained",
+  "schema": "visible-flex-closed-C1-endpoint-and-pure-P1-v1",
+  "source_sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1",
+  "word_statistics": {
+    "all_depth_shuffle_calls": 13,
+    "cycle_fallbacks": 0,
+    "max_shuffle_product_word_length": 2,
+    "max_word_length_seen": 2,
+    "nonempty_word_polynomial_IBP": 45,
+    "primitive_calls": 138,
+    "shuffle_cache_entries": 13,
+    "unique_high_jet_IBP": 0
+  }
+}

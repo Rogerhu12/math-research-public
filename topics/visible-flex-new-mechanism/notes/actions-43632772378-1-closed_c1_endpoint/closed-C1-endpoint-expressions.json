@@ -1,0 +1,2151 @@
+{
+  "all_expression_rows_included": true,
+  "definition": "qj=d^j q/dx^j; I(f)(x)=integral_r^x f; ordinary complex products",
+  "expressions": {
+    "effective_pure_target": {
+      "rows": [
+        {
+          "coefficient": "1/128",
+          "local": "1",
+          "word": "W1"
+        },
+        {
+          "coefficient": "11/160",
+          "local": "1",
+          "word": "W2"
+        },
+        {
+          "coefficient": "-47/1440",
+          "local": "1",
+          "word": "W4"
+        },
+        {
+          "coefficient": "-109/960",
+          "local": "1",
+          "word": "W5"
+        },
+        {
+          "coefficient": "-871/11520",
+          "local": "1",
+          "word": "W7"
+        },
+        {
+          "coefficient": "11/3840",
+          "local": "1",
+          "word": "W56"
+        },
+        {
+          "coefficient": "11/7680",
+          "local": "1",
+          "word": "W57"
+        },
+        {
+          "coefficient": "11/7680",
+          "local": "1",
+          "word": "W59"
+        },
+        {
+          "coefficient": "11/2560",
+          "local": "1",
+          "word": "W10"
+        },
+        {
+          "coefficient": "-169/7680",
+          "local": "1",
+          "word": "W11"
+        },
+        {
+          "coefficient": "-1/2880",
+          "local": "1",
+          "word": "W13"
+        },
+        {
+          "coefficient": "267/2560",
+          "local": "1",
+          "word": "W60"
+        },
+        {
+          "coefficient": "1313/15360",
+          "local": "1",
+          "word": "W61"
+        },
+        {
+          "coefficient": "267/5120",
+          "local": "1",
+          "word": "W63"
+        },
+        {
+          "coefficient": "27/1280",
+          "local": "1",
+          "word": "W16"
+        },
+        {
+          "coefficient": "85/768",
+          "local": "1",
+          "word": "W17"
+        },
+        {
+          "coefficient": "-1/192",
+          "local": "1",
+          "word": "W18"
+        },
+        {
+          "coefficient": "-353/960",
+          "local": "1",
+          "word": "W19"
+        },
+        {
+          "coefficient": "709/11520",
+          "local": "1",
+          "word": "W21"
+        },
+        {
+          "coefficient": "47/2880",
+          "local": "1",
+          "word": "W23"
+        },
+        {
+          "coefficient": "-259/3840",
+          "local": "1",
+          "word": "W24"
+        },
+        {
+          "coefficient": "409/2880",
+          "local": "1",
+          "word": "W26"
+        },
+        {
+          "coefficient": "179/1920",
+          "local": "1",
+          "word": "W64"
+        },
+        {
+          "coefficient": "179/3840",
+          "local": "1",
+          "word": "W65"
+        },
+        {
+          "coefficient": "1/30",
+          "local": "1",
+          "word": "W66"
+        },
+        {
+          "coefficient": "179/3840",
+          "local": "1",
+          "word": "W67"
+        },
+        {
+          "coefficient": "-1627/92160",
+          "local": "1",
+          "word": "W29"
+        },
+        {
+          "coefficient": "1/256",
+          "local": "1",
+          "word": "W30"
+        },
+        {
+          "coefficient": "-173/640",
+          "local": "1",
+          "word": "W31"
+        },
+        {
+          "coefficient": "221/1920",
+          "local": "1",
+          "word": "W33"
+        },
+        {
+          "coefficient": "1/768",
+          "local": "1",
+          "word": "W34"
+        },
+        {
+          "coefficient": "1679/7680",
+          "local": "1",
+          "word": "W35"
+        },
+        {
+          "coefficient": "191/11520",
+          "local": "1",
+          "word": "W37"
+        },
+        {
+          "coefficient": "11/7680",
+          "local": "1",
+          "word": "W68"
+        },
+        {
+          "coefficient": "11/15360",
+          "local": "1",
+          "word": "W69"
+        },
+        {
+          "coefficient": "11/15360",
+          "local": "1",
+          "word": "W71"
+        },
+        {
+          "coefficient": "-5263/92160",
+          "local": "1",
+          "word": "W40"
+        },
+        {
+          "coefficient": "-1/128",
+          "local": "1",
+          "word": "W41"
+        },
+        {
+          "coefficient": "613/11520",
+          "local": "1",
+          "word": "W42"
+        },
+        {
+          "coefficient": "613/3840",
+          "local": "1",
+          "word": "W43"
+        },
+        {
+          "coefficient": "-503/3840",
+          "local": "1",
+          "word": "W45"
+        },
+        {
+          "coefficient": "-137/46080",
+          "local": "1",
+          "word": "W47"
+        },
+        {
+          "coefficient": "1/768",
+          "local": "1",
+          "word": "W48"
+        },
+        {
+          "coefficient": "1/256",
+          "local": "1",
+          "word": "W49"
+        },
+        {
+          "coefficient": "-707/11520",
+          "local": "1",
+          "word": "W50"
+        },
+        {
+          "coefficient": "557/23040",
+          "local": "1",
+          "word": "W52"
+        },
+        {
+          "coefficient": "-1/768",
+          "local": "1",
+          "word": "W53"
+        },
+        {
+          "coefficient": "89/10240",
+          "local": "1",
+          "word": "W54"
+        },
+        {
+          "coefficient": "1/6144",
+          "local": "1",
+          "word": "W55"
+        },
+        {
+          "coefficient": "17/720",
+          "local": "q0",
+          "word": "W9"
+        },
+        {
+          "coefficient": "17/480",
+          "local": "q0",
+          "word": "W12"
+        },
+        {
+          "coefficient": "-2/15",
+          "local": "q0",
+          "word": "W20"
+        },
+        {
+          "coefficient": "1/96",
+          "local": "q0",
+          "word": "W28"
+        },
+        {
+          "coefficient": "27/160",
+          "local": "q0",
+          "word": "W36"
+        },
+        {
+          "coefficient": "-49/1440",
+          "local": "q0",
+          "word": "W46"
+        },
+        {
+          "coefficient": "7/192",
+          "local": "q0^2",
+          "word": "W8"
+        },
+        {
+          "coefficient": "7/384",
+          "local": "q0^2",
+          "word": "W14"
+        },
+        {
+          "coefficient": "1/15",
+          "local": "q0^2",
+          "word": "W27"
+        },
+        {
+          "coefficient": "7/384",
+          "local": "q0^2",
+          "word": "W38"
+        },
+        {
+          "coefficient": "13/768",
+          "local": "q0^4",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/192",
+          "local": "q0^3*q1",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/24",
+          "local": "q0^2*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "51/640",
+          "local": "q0*q1",
+          "word": "W8"
+        },
+        {
+          "coefficient": "51/1280",
+          "local": "q0*q1",
+          "word": "W14"
+        },
+        {
+          "coefficient": "51/1280",
+          "local": "q0*q1",
+          "word": "W38"
+        },
+        {
+          "coefficient": "47/640",
+          "local": "q0*q1^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "-347/1920",
+          "local": "q1",
+          "word": "W3"
+        },
+        {
+          "coefficient": "-51/1280",
+          "local": "q1",
+          "word": "W6"
+        },
+        {
+          "coefficient": "5/384",
+          "local": "q1",
+          "word": "W9"
+        },
+        {
+          "coefficient": "163/1280",
+          "local": "q1",
+          "word": "W12"
+        },
+        {
+          "coefficient": "-1313/23040",
+          "local": "q1",
+          "word": "W15"
+        },
+        {
+          "coefficient": "7/192",
+          "local": "q1",
+          "word": "W20"
+        },
+        {
+          "coefficient": "347/5760",
+          "local": "q1",
+          "word": "W22"
+        },
+        {
+          "coefficient": "317/3840",
+          "local": "q1",
+          "word": "W25"
+        },
+        {
+          "coefficient": "-847/11520",
+          "local": "q1",
+          "word": "W28"
+        },
+        {
+          "coefficient": "-347/3840",
+          "local": "q1",
+          "word": "W32"
+        },
+        {
+          "coefficient": "-13/768",
+          "local": "q1",
+          "word": "W36"
+        },
+        {
+          "coefficient": "-41/1920",
+          "local": "q1",
+          "word": "W39"
+        },
+        {
+          "coefficient": "347/3840",
+          "local": "q1",
+          "word": "W44"
+        },
+        {
+          "coefficient": "-1/2304",
+          "local": "q1",
+          "word": "W46"
+        },
+        {
+          "coefficient": "-347/23040",
+          "local": "q1",
+          "word": "W51"
+        },
+        {
+          "coefficient": "-83/1280",
+          "local": "q1^2",
+          "word": "W8"
+        },
+        {
+          "coefficient": "-163/2560",
+          "local": "q1^2",
+          "word": "W14"
+        },
+        {
+          "coefficient": "17/960",
+          "local": "q1^2",
+          "word": "W27"
+        },
+        {
+          "coefficient": "-83/2560",
+          "local": "q1^2",
+          "word": "W38"
+        },
+        {
+          "coefficient": "-47/5760",
+          "local": "q1^4",
+          "word": "1"
+        },
+        {
+          "coefficient": "19/128",
+          "local": "x",
+          "word": "W1"
+        },
+        {
+          "coefficient": "67/1280",
+          "local": "x",
+          "word": "W2"
+        },
+        {
+          "coefficient": "-1/9",
+          "local": "x",
+          "word": "W4"
+        },
+        {
+          "coefficient": "-29/320",
+          "local": "x",
+          "word": "W5"
+        },
+        {
+          "coefficient": "-167/3840",
+          "local": "x",
+          "word": "W7"
+        },
+        {
+          "coefficient": "-11/128",
+          "local": "x",
+          "word": "W56"
+        },
+        {
+          "coefficient": "5/256",
+          "local": "x",
+          "word": "W57"
+        },
+        {
+          "coefficient": "-17/480",
+          "local": "x",
+          "word": "W58"
+        },
+        {
+          "coefficient": "-11/256",
+          "local": "x",
+          "word": "W59"
+        },
+        {
+          "coefficient": "47/2880",
+          "local": "x",
+          "word": "W10"
+        },
+        {
+          "coefficient": "47/960",
+          "local": "x",
+          "word": "W11"
+        },
+        {
+          "coefficient": "-1/36",
+          "local": "x",
+          "word": "W13"
+        },
+        {
+          "coefficient": "83/1280",
+          "local": "x",
+          "word": "W60"
+        },
+        {
+          "coefficient": "163/2560",
+          "local": "x",
+          "word": "W61"
+        },
+        {
+          "coefficient": "-17/960",
+          "local": "x",
+          "word": "W62"
+        },
+        {
+          "coefficient": "83/2560",
+          "local": "x",
+          "word": "W63"
+        },
+        {
+          "coefficient": "1321/92160",
+          "local": "x",
+          "word": "W16"
+        },
+        {
+          "coefficient": "7/64",
+          "local": "x",
+          "word": "W17"
+        },
+        {
+          "coefficient": "-19/192",
+          "local": "x",
+          "word": "W18"
+        },
+        {
+          "coefficient": "-637/1920",
+          "local": "x",
+          "word": "W19"
+        },
+        {
+          "coefficient": "47/1440",
+          "local": "x",
+          "word": "W21"
+        },
+        {
+          "coefficient": "1/18",
+          "local": "x",
+          "word": "W23"
+        },
+        {
+          "coefficient": "29/640",
+          "local": "x",
+          "word": "W24"
+        },
+        {
+          "coefficient": "29/1280",
+          "local": "x",
+          "word": "W26"
+        },
+        {
+          "coefficient": "41/960",
+          "local": "x",
+          "word": "W64"
+        },
+        {
+          "coefficient": "41/1920",
+          "local": "x",
+          "word": "W65"
+        },
+        {
+          "coefficient": "41/1920",
+          "local": "x",
+          "word": "W67"
+        },
+        {
+          "coefficient": "67/7680",
+          "local": "x",
+          "word": "W29"
+        },
+        {
+          "coefficient": "19/256",
+          "local": "x",
+          "word": "W30"
+        },
+        {
+          "coefficient": "-37/96",
+          "local": "x",
+          "word": "W31"
+        },
+        {
+          "coefficient": "109/960",
+          "local": "x",
+          "word": "W33"
+        },
+        {
+          "coefficient": "19/768",
+          "local": "x",
+          "word": "W34"
+        },
+        {
+          "coefficient": "961/3840",
+          "local": "x",
+          "word": "W35"
+        },
+        {
+          "coefficient": "-47/1440",
+          "local": "x",
+          "word": "W37"
+        },
+        {
+          "coefficient": "-11/256",
+          "local": "x",
+          "word": "W68"
+        },
+        {
+          "coefficient": "5/512",
+          "local": "x",
+          "word": "W69"
+        },
+        {
+          "coefficient": "-17/960",
+          "local": "x",
+          "word": "W70"
+        },
+        {
+          "coefficient": "-11/512",
+          "local": "x",
+          "word": "W71"
+        },
+        {
+          "coefficient": "-443/30720",
+          "local": "x",
+          "word": "W40"
+        },
+        {
+          "coefficient": "-19/128",
+          "local": "x",
+          "word": "W41"
+        },
+        {
+          "coefficient": "53/576",
+          "local": "x",
+          "word": "W42"
+        },
+        {
+          "coefficient": "53/192",
+          "local": "x",
+          "word": "W43"
+        },
+        {
+          "coefficient": "-91/576",
+          "local": "x",
+          "word": "W45"
+        },
+        {
+          "coefficient": "47/5760",
+          "local": "x",
+          "word": "W47"
+        },
+        {
+          "coefficient": "19/768",
+          "local": "x",
+          "word": "W48"
+        },
+        {
+          "coefficient": "19/256",
+          "local": "x",
+          "word": "W49"
+        },
+        {
+          "coefficient": "-23/192",
+          "local": "x",
+          "word": "W50"
+        },
+        {
+          "coefficient": "2867/92160",
+          "local": "x",
+          "word": "W52"
+        },
+        {
+          "coefficient": "-19/768",
+          "local": "x",
+          "word": "W53"
+        },
+        {
+          "coefficient": "85/4608",
+          "local": "x",
+          "word": "W54"
+        },
+        {
+          "coefficient": "19/6144",
+          "local": "x",
+          "word": "W55"
+        },
+        {
+          "coefficient": "-11/64",
+          "local": "x*q0",
+          "word": "W3"
+        },
+        {
+          "coefficient": "51/640",
+          "local": "x*q0",
+          "word": "W6"
+        },
+        {
+          "coefficient": "11/192",
+          "local": "x*q0",
+          "word": "W9"
+        },
+        {
+          "coefficient": "-83/640",
+          "local": "x*q0",
+          "word": "W12"
+        },
+        {
+          "coefficient": "89/1280",
+          "local": "x*q0",
+          "word": "W15"
+        },
+        {
+          "coefficient": "-7/96",
+          "local": "x*q0",
+          "word": "W20"
+        },
+        {
+          "coefficient": "11/192",
+          "local": "x*q0",
+          "word": "W22"
+        },
+        {
+          "coefficient": "-317/1920",
+          "local": "x*q0",
+          "word": "W25"
+        },
+        {
+          "coefficient": "607/5760",
+          "local": "x*q0",
+          "word": "W28"
+        },
+        {
+          "coefficient": "-11/128",
+          "local": "x*q0",
+          "word": "W32"
+        },
+        {
+          "coefficient": "61/384",
+          "local": "x*q0",
+          "word": "W36"
+        },
+        {
+          "coefficient": "41/960",
+          "local": "x*q0",
+          "word": "W39"
+        },
+        {
+          "coefficient": "11/128",
+          "local": "x*q0",
+          "word": "W44"
+        },
+        {
+          "coefficient": "-47/1152",
+          "local": "x*q0",
+          "word": "W46"
+        },
+        {
+          "coefficient": "-11/768",
+          "local": "x*q0",
+          "word": "W51"
+        },
+        {
+          "coefficient": "11/128",
+          "local": "x*q0^2",
+          "word": "W8"
+        },
+        {
+          "coefficient": "-347/3840",
+          "local": "x*q0^2",
+          "word": "W14"
+        },
+        {
+          "coefficient": "11/256",
+          "local": "x*q0^2",
+          "word": "W38"
+        },
+        {
+          "coefficient": "1/192",
+          "local": "x*q0^4",
+          "word": "1"
+        },
+        {
+          "coefficient": "-13/192",
+          "local": "x*q0^3*q1",
+          "word": "1"
+        },
+        {
+          "coefficient": "-11/384",
+          "local": "x*q0^2*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "-7/96",
+          "local": "x*q0*q1",
+          "word": "W8"
+        },
+        {
+          "coefficient": "-7/192",
+          "local": "x*q0*q1",
+          "word": "W14"
+        },
+        {
+          "coefficient": "-2/15",
+          "local": "x*q0*q1",
+          "word": "W27"
+        },
+        {
+          "coefficient": "-7/192",
+          "local": "x*q0*q1",
+          "word": "W38"
+        },
+        {
+          "coefficient": "557/2880",
+          "local": "x*q0*q1^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "-17/720",
+          "local": "x*q1",
+          "word": "W9"
+        },
+        {
+          "coefficient": "-17/480",
+          "local": "x*q1",
+          "word": "W12"
+        },
+        {
+          "coefficient": "2/15",
+          "local": "x*q1",
+          "word": "W20"
+        },
+        {
+          "coefficient": "-1/96",
+          "local": "x*q1",
+          "word": "W28"
+        },
+        {
+          "coefficient": "-27/160",
+          "local": "x*q1",
+          "word": "W36"
+        },
+        {
+          "coefficient": "49/1440",
+          "local": "x*q1",
+          "word": "W46"
+        },
+        {
+          "coefficient": "-317/3840",
+          "local": "x*q1^2",
+          "word": "W8"
+        },
+        {
+          "coefficient": "-317/7680",
+          "local": "x*q1^2",
+          "word": "W14"
+        },
+        {
+          "coefficient": "-317/7680",
+          "local": "x*q1^2",
+          "word": "W38"
+        },
+        {
+          "coefficient": "-199/7680",
+          "local": "x*q1^4",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/64",
+          "local": "x^2",
+          "word": "W1"
+        },
+        {
+          "coefficient": "-1/256",
+          "local": "x^2",
+          "word": "W2"
+        },
+        {
+          "coefficient": "-1/48",
+          "local": "x^2",
+          "word": "W4"
+        },
+        {
+          "coefficient": "-1/24",
+          "local": "x^2",
+          "word": "W5"
+        },
+        {
+          "coefficient": "167/5760",
+          "local": "x^2",
+          "word": "W7"
+        },
+        {
+          "coefficient": "-11/256",
+          "local": "x^2",
+          "word": "W56"
+        },
+        {
+          "coefficient": "347/7680",
+          "local": "x^2",
+          "word": "W57"
+        },
+        {
+          "coefficient": "-11/512",
+          "local": "x^2",
+          "word": "W59"
+        },
+        {
+          "coefficient": "31/4608",
+          "local": "x^2",
+          "word": "W10"
+        },
+        {
+          "coefficient": "141/2560",
+          "local": "x^2",
+          "word": "W11"
+        },
+        {
+          "coefficient": "-5/384",
+          "local": "x^2",
+          "word": "W13"
+        },
+        {
+          "coefficient": "51/2560",
+          "local": "x^2",
+          "word": "W60"
+        },
+        {
+          "coefficient": "51/5120",
+          "local": "x^2",
+          "word": "W61"
+        },
+        {
+          "coefficient": "51/5120",
+          "local": "x^2",
+          "word": "W63"
+        },
+        {
+          "coefficient": "-871/92160",
+          "local": "x^2",
+          "word": "W16"
+        },
+        {
+          "coefficient": "-13/256",
+          "local": "x^2",
+          "word": "W17"
+        },
+        {
+          "coefficient": "1/96",
+          "local": "x^2",
+          "word": "W18"
+        },
+        {
+          "coefficient": "-11/384",
+          "local": "x^2",
+          "word": "W19"
+        },
+        {
+          "coefficient": "329/11520",
+          "local": "x^2",
+          "word": "W21"
+        },
+        {
+          "coefficient": "1/96",
+          "local": "x^2",
+          "word": "W23"
+        },
+        {
+          "coefficient": "557/3840",
+          "local": "x^2",
+          "word": "W24"
+        },
+        {
+          "coefficient": "-1129/11520",
+          "local": "x^2",
+          "word": "W26"
+        },
+        {
+          "coefficient": "-7/384",
+          "local": "x^2",
+          "word": "W64"
+        },
+        {
+          "coefficient": "-7/768",
+          "local": "x^2",
+          "word": "W65"
+        },
+        {
+          "coefficient": "-1/30",
+          "local": "x^2",
+          "word": "W66"
+        },
+        {
+          "coefficient": "-7/768",
+          "local": "x^2",
+          "word": "W67"
+        },
+        {
+          "coefficient": "1129/92160",
+          "local": "x^2",
+          "word": "W29"
+        },
+        {
+          "coefficient": "-1/128",
+          "local": "x^2",
+          "word": "W30"
+        },
+        {
+          "coefficient": "9/128",
+          "local": "x^2",
+          "word": "W31"
+        },
+        {
+          "coefficient": "7/384",
+          "local": "x^2",
+          "word": "W33"
+        },
+        {
+          "coefficient": "-1/384",
+          "local": "x^2",
+          "word": "W34"
+        },
+        {
+          "coefficient": "109/1536",
+          "local": "x^2",
+          "word": "W35"
+        },
+        {
+          "coefficient": "-1229/11520",
+          "local": "x^2",
+          "word": "W37"
+        },
+        {
+          "coefficient": "-11/512",
+          "local": "x^2",
+          "word": "W68"
+        },
+        {
+          "coefficient": "347/15360",
+          "local": "x^2",
+          "word": "W69"
+        },
+        {
+          "coefficient": "-11/1024",
+          "local": "x^2",
+          "word": "W71"
+        },
+        {
+          "coefficient": "325/9216",
+          "local": "x^2",
+          "word": "W40"
+        },
+        {
+          "coefficient": "1/64",
+          "local": "x^2",
+          "word": "W41"
+        },
+        {
+          "coefficient": "-5/768",
+          "local": "x^2",
+          "word": "W42"
+        },
+        {
+          "coefficient": "-5/256",
+          "local": "x^2",
+          "word": "W43"
+        },
+        {
+          "coefficient": "-101/2304",
+          "local": "x^2",
+          "word": "W45"
+        },
+        {
+          "coefficient": "235/9216",
+          "local": "x^2",
+          "word": "W47"
+        },
+        {
+          "coefficient": "-1/384",
+          "local": "x^2",
+          "word": "W48"
+        },
+        {
+          "coefficient": "-1/128",
+          "local": "x^2",
+          "word": "W49"
+        },
+        {
+          "coefficient": "1/768",
+          "local": "x^2",
+          "word": "W50"
+        },
+        {
+          "coefficient": "163/18432",
+          "local": "x^2",
+          "word": "W52"
+        },
+        {
+          "coefficient": "1/384",
+          "local": "x^2",
+          "word": "W53"
+        },
+        {
+          "coefficient": "1/2048",
+          "local": "x^2",
+          "word": "W54"
+        },
+        {
+          "coefficient": "-1/3072",
+          "local": "x^2",
+          "word": "W55"
+        },
+        {
+          "coefficient": "-1/96",
+          "local": "x^2*q0^3*q1",
+          "word": "1"
+        },
+        {
+          "coefficient": "9/128",
+          "local": "x^2*q0^2*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "-11/128",
+          "local": "x^2*q0*q1",
+          "word": "W8"
+        },
+        {
+          "coefficient": "347/3840",
+          "local": "x^2*q0*q1",
+          "word": "W14"
+        },
+        {
+          "coefficient": "-11/256",
+          "local": "x^2*q0*q1",
+          "word": "W38"
+        },
+        {
+          "coefficient": "109/1152",
+          "local": "x^2*q0*q1^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "11/128",
+          "local": "x^2*q1",
+          "word": "W3"
+        },
+        {
+          "coefficient": "-51/1280",
+          "local": "x^2*q1",
+          "word": "W6"
+        },
+        {
+          "coefficient": "-11/384",
+          "local": "x^2*q1",
+          "word": "W9"
+        },
+        {
+          "coefficient": "83/1280",
+          "local": "x^2*q1",
+          "word": "W12"
+        },
+        {
+          "coefficient": "-89/2560",
+          "local": "x^2*q1",
+          "word": "W15"
+        },
+        {
+          "coefficient": "7/192",
+          "local": "x^2*q1",
+          "word": "W20"
+        },
+        {
+          "coefficient": "-11/384",
+          "local": "x^2*q1",
+          "word": "W22"
+        },
+        {
+          "coefficient": "317/3840",
+          "local": "x^2*q1",
+          "word": "W25"
+        },
+        {
+          "coefficient": "-607/11520",
+          "local": "x^2*q1",
+          "word": "W28"
+        },
+        {
+          "coefficient": "11/256",
+          "local": "x^2*q1",
+          "word": "W32"
+        },
+        {
+          "coefficient": "-61/768",
+          "local": "x^2*q1",
+          "word": "W36"
+        },
+        {
+          "coefficient": "-41/1920",
+          "local": "x^2*q1",
+          "word": "W39"
+        },
+        {
+          "coefficient": "-11/256",
+          "local": "x^2*q1",
+          "word": "W44"
+        },
+        {
+          "coefficient": "47/2304",
+          "local": "x^2*q1",
+          "word": "W46"
+        },
+        {
+          "coefficient": "11/1536",
+          "local": "x^2*q1",
+          "word": "W51"
+        },
+        {
+          "coefficient": "61/768",
+          "local": "x^2*q1^2",
+          "word": "W8"
+        },
+        {
+          "coefficient": "13/1536",
+          "local": "x^2*q1^2",
+          "word": "W14"
+        },
+        {
+          "coefficient": "27/320",
+          "local": "x^2*q1^2",
+          "word": "W27"
+        },
+        {
+          "coefficient": "61/1536",
+          "local": "x^2*q1^2",
+          "word": "W38"
+        },
+        {
+          "coefficient": "-415/4608",
+          "local": "x^2*q1^4",
+          "word": "1"
+        },
+        {
+          "coefficient": "1/64",
+          "local": "x^3*q0^2*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "-5/192",
+          "local": "x^3*q0*q1^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "11/256",
+          "local": "x^3*q1^2",
+          "word": "W8"
+        },
+        {
+          "coefficient": "-347/7680",
+          "local": "x^3*q1^2",
+          "word": "W14"
+        },
+        {
+          "coefficient": "11/512",
+          "local": "x^3*q1^2",
+          "word": "W38"
+        },
+        {
+          "coefficient": "-107/1536",
+          "local": "x^3*q1^4",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/96",
+          "local": "x^4*q0*q1^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "-3/512",
+          "local": "x^4*q1^4",
+          "word": "1"
+        },
+        {
+          "coefficient": "1/384",
+          "local": "x^5*q1^4",
+          "word": "1"
+        }
+      ],
+      "sha256": "bf47c1869ad03f4e28e2d57bca535d75be792476f900490fdb9d723845abde2e",
+      "total_terms": 257
+    },
+    "endpoint_class": {
+      "rows": [
+        {
+          "coefficient": "1/16",
+          "local": "x",
+          "word": "W12"
+        },
+        {
+          "coefficient": "-1/4",
+          "local": "x",
+          "word": "W20"
+        },
+        {
+          "coefficient": "-1/48",
+          "local": "x",
+          "word": "W28"
+        },
+        {
+          "coefficient": "1/4",
+          "local": "x",
+          "word": "W36"
+        },
+        {
+          "coefficient": "-1/24",
+          "local": "x",
+          "word": "W46"
+        },
+        {
+          "coefficient": "1/8",
+          "local": "x*q0*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/48",
+          "local": "x^2",
+          "word": "W15"
+        },
+        {
+          "coefficient": "1/8",
+          "local": "x^2",
+          "word": "W25"
+        },
+        {
+          "coefficient": "-1/16",
+          "local": "x^2",
+          "word": "W39"
+        },
+        {
+          "coefficient": "-5/48",
+          "local": "x^2*q1^3",
+          "word": "1"
+        }
+      ],
+      "sha256": "1d6ce84a91652d7296236ebc378d86dbd4b861d6663b01e3e388f33059f526a2",
+      "total_terms": 10
+    },
+    "endpoint_minus_old_three_moments": {
+      "rows": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "total_terms": 0
+    },
+    "endpoint_raw": {
+      "rows": [
+        {
+          "coefficient": "1/4",
+          "local": "1",
+          "word": "W3"
+        },
+        {
+          "coefficient": "-11/30",
+          "local": "1",
+          "word": "W6"
+        },
+        {
+          "coefficient": "-1/24",
+          "local": "1",
+          "word": "W9"
+        },
+        {
+          "coefficient": "19/15",
+          "local": "1",
+          "word": "W12"
+        },
+        {
+          "coefficient": "-281/480",
+          "local": "1",
+          "word": "W15"
+        },
+        {
+          "coefficient": "-1/6",
+          "local": "1",
+          "word": "W20"
+        },
+        {
+          "coefficient": "-1/12",
+          "local": "1",
+          "word": "W22"
+        },
+        {
+          "coefficient": "247/240",
+          "local": "1",
+          "word": "W25"
+        },
+        {
+          "coefficient": "-281/360",
+          "local": "1",
+          "word": "W28"
+        },
+        {
+          "coefficient": "1/8",
+          "local": "1",
+          "word": "W32"
+        },
+        {
+          "coefficient": "5/48",
+          "local": "1",
+          "word": "W36"
+        },
+        {
+          "coefficient": "-53/160",
+          "local": "1",
+          "word": "W39"
+        },
+        {
+          "coefficient": "-1/8",
+          "local": "1",
+          "word": "W44"
+        },
+        {
+          "coefficient": "-1/144",
+          "local": "1",
+          "word": "W46"
+        },
+        {
+          "coefficient": "1/48",
+          "local": "1",
+          "word": "W51"
+        },
+        {
+          "coefficient": "-1/2",
+          "local": "q0",
+          "word": "W8"
+        },
+        {
+          "coefficient": "49/60",
+          "local": "q0",
+          "word": "W14"
+        },
+        {
+          "coefficient": "-1/4",
+          "local": "q0",
+          "word": "W38"
+        },
+        {
+          "coefficient": "-1/6",
+          "local": "q0^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "13/24",
+          "local": "q0^2*q1",
+          "word": "1"
+        },
+        {
+          "coefficient": "-13/24",
+          "local": "q0*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "1",
+          "local": "q1",
+          "word": "W8"
+        },
+        {
+          "coefficient": "49/60",
+          "local": "q1",
+          "word": "W27"
+        },
+        {
+          "coefficient": "1/2",
+          "local": "q1",
+          "word": "W38"
+        },
+        {
+          "coefficient": "-241/720",
+          "local": "q1^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/2",
+          "local": "x",
+          "word": "W3"
+        },
+        {
+          "coefficient": "-11/24",
+          "local": "x",
+          "word": "W6"
+        },
+        {
+          "coefficient": "1/3",
+          "local": "x",
+          "word": "W9"
+        },
+        {
+          "coefficient": "16/15",
+          "local": "x",
+          "word": "W12"
+        },
+        {
+          "coefficient": "-19/45",
+          "local": "x",
+          "word": "W15"
+        },
+        {
+          "coefficient": "-11/24",
+          "local": "x",
+          "word": "W20"
+        },
+        {
+          "coefficient": "1/6",
+          "local": "x",
+          "word": "W22"
+        },
+        {
+          "coefficient": "43/24",
+          "local": "x",
+          "word": "W25"
+        },
+        {
+          "coefficient": "-611/720",
+          "local": "x",
+          "word": "W28"
+        },
+        {
+          "coefficient": "-1/4",
+          "local": "x",
+          "word": "W32"
+        },
+        {
+          "coefficient": "23/24",
+          "local": "x",
+          "word": "W36"
+        },
+        {
+          "coefficient": "-2/3",
+          "local": "x",
+          "word": "W39"
+        },
+        {
+          "coefficient": "1/4",
+          "local": "x",
+          "word": "W44"
+        },
+        {
+          "coefficient": "-35/144",
+          "local": "x",
+          "word": "W46"
+        },
+        {
+          "coefficient": "-1/24",
+          "local": "x",
+          "word": "W51"
+        },
+        {
+          "coefficient": "1",
+          "local": "x*q0",
+          "word": "W14"
+        },
+        {
+          "coefficient": "1/2",
+          "local": "x*q0",
+          "word": "W27"
+        },
+        {
+          "coefficient": "1/12",
+          "local": "x*q0^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "1/2",
+          "local": "x*q0^2*q1",
+          "word": "1"
+        },
+        {
+          "coefficient": "-17/24",
+          "local": "x*q0*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "1/2",
+          "local": "x*q1",
+          "word": "W8"
+        },
+        {
+          "coefficient": "-49/60",
+          "local": "x*q1",
+          "word": "W14"
+        },
+        {
+          "coefficient": "1/4",
+          "local": "x*q1",
+          "word": "W38"
+        },
+        {
+          "coefficient": "-5/12",
+          "local": "x*q1^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/8",
+          "local": "x^2",
+          "word": "W3"
+        },
+        {
+          "coefficient": "13/48",
+          "local": "x^2",
+          "word": "W6"
+        },
+        {
+          "coefficient": "1/12",
+          "local": "x^2",
+          "word": "W9"
+        },
+        {
+          "coefficient": "-13/48",
+          "local": "x^2",
+          "word": "W12"
+        },
+        {
+          "coefficient": "13/240",
+          "local": "x^2",
+          "word": "W15"
+        },
+        {
+          "coefficient": "1/4",
+          "local": "x^2",
+          "word": "W20"
+        },
+        {
+          "coefficient": "1/24",
+          "local": "x^2",
+          "word": "W22"
+        },
+        {
+          "coefficient": "-7/24",
+          "local": "x^2",
+          "word": "W25"
+        },
+        {
+          "coefficient": "1/16",
+          "local": "x^2",
+          "word": "W28"
+        },
+        {
+          "coefficient": "-1/16",
+          "local": "x^2",
+          "word": "W32"
+        },
+        {
+          "coefficient": "-1/8",
+          "local": "x^2",
+          "word": "W36"
+        },
+        {
+          "coefficient": "1/96",
+          "local": "x^2",
+          "word": "W39"
+        },
+        {
+          "coefficient": "1/16",
+          "local": "x^2",
+          "word": "W44"
+        },
+        {
+          "coefficient": "-1/96",
+          "local": "x^2",
+          "word": "W51"
+        },
+        {
+          "coefficient": "-1/8",
+          "local": "x^2*q0^2*q1",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/4",
+          "local": "x^2*q0*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/2",
+          "local": "x^2*q1",
+          "word": "W14"
+        },
+        {
+          "coefficient": "-1/4",
+          "local": "x^2*q1",
+          "word": "W27"
+        },
+        {
+          "coefficient": "-1/16",
+          "local": "x^2*q1^3",
+          "word": "1"
+        },
+        {
+          "coefficient": "1/8",
+          "local": "x^3*q0*q1^2",
+          "word": "1"
+        },
+        {
+          "coefficient": "-1/24",
+          "local": "x^4*q1^3",
+          "word": "1"
+        }
+      ],
+      "sha256": "4b34f3b476865e9d67c969526b1a3913cb5d34e3244cb0a325e14814bf7377dd",
+      "total_terms": 70
+    },
+    "pure_target_span_remainder": {
+      "rows": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "total_terms": 0
+    }
+  },
+  "normal_form_complete": false,
+  "relation": "endpoint and effective target are raw actual expressions; labelled span remainders are exact rewrites, not nonmembership certificates",
+  "right_boundary": "q is zero on a common open right collar; no left-tail reset",
+  "schema": "visible-flex-closed-C1-endpoint-and-pure-P1-v1-expressions",
+  "word_definitions": [
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q0^2*q1^2",
+      "name": "W1"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q0^2*q2^2",
+      "name": "W2"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q0*q1^2",
+      "name": "W3"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q0*q1^3",
+      "name": "W4"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q0*q1*q2^2",
+      "name": "W5"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q0*q2^2",
+      "name": "W6"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q0*q2^3",
+      "name": "W7"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q1^2",
+      "name": "W8"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q1^3",
+      "name": "W9"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q1^4",
+      "name": "W10"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q1^2*q2^2",
+      "name": "W11"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q1*q2^2",
+      "name": "W12"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q1*q2^3",
+      "name": "W13"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q2^2",
+      "name": "W14"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q2^3",
+      "name": "W15"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "q2^4",
+      "name": "W16"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q0^2*q2^2",
+      "name": "W17"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q0*q1^3",
+      "name": "W18"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q0*q1*q2^2",
+      "name": "W19"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q0*q2^2",
+      "name": "W20"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q0*q2^3",
+      "name": "W21"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q1^3",
+      "name": "W22"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q1^4",
+      "name": "W23"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q1^2*q2^2",
+      "name": "W24"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q1*q2^2",
+      "name": "W25"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q1*q2^3",
+      "name": "W26"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q2^2",
+      "name": "W27"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q2^3",
+      "name": "W28"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x*q2^4",
+      "name": "W29"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q0^2*q2^2",
+      "name": "W30"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q0*q1*q2^2",
+      "name": "W31"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q0*q2^2",
+      "name": "W32"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q0*q2^3",
+      "name": "W33"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q1^4",
+      "name": "W34"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q1^2*q2^2",
+      "name": "W35"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q1*q2^2",
+      "name": "W36"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q1*q2^3",
+      "name": "W37"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q2^2",
+      "name": "W38"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q2^3",
+      "name": "W39"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^2*q2^4",
+      "name": "W40"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^3*q0*q1*q2^2",
+      "name": "W41"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^3*q0*q2^3",
+      "name": "W42"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^3*q1^2*q2^2",
+      "name": "W43"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^3*q1*q2^2",
+      "name": "W44"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^3*q1*q2^3",
+      "name": "W45"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^3*q2^3",
+      "name": "W46"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^3*q2^4",
+      "name": "W47"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^4*q0*q2^3",
+      "name": "W48"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^4*q1^2*q2^2",
+      "name": "W49"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^4*q1*q2^3",
+      "name": "W50"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^4*q2^3",
+      "name": "W51"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^4*q2^4",
+      "name": "W52"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^5*q1*q2^3",
+      "name": "W53"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^5*q2^4",
+      "name": "W54"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "1",
+      "letter": "x^6*q2^4",
+      "name": "W55"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W8",
+      "letter": "q1^2",
+      "name": "W56"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W14",
+      "letter": "q1^2",
+      "name": "W57"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W27",
+      "letter": "q1^2",
+      "name": "W58"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W38",
+      "letter": "q1^2",
+      "name": "W59"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W8",
+      "letter": "q2^2",
+      "name": "W60"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W14",
+      "letter": "q2^2",
+      "name": "W61"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W27",
+      "letter": "q2^2",
+      "name": "W62"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W38",
+      "letter": "q2^2",
+      "name": "W63"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W8",
+      "letter": "x*q2^2",
+      "name": "W64"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W14",
+      "letter": "x*q2^2",
+      "name": "W65"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W27",
+      "letter": "x*q2^2",
+      "name": "W66"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W38",
+      "letter": "x*q2^2",
+      "name": "W67"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W8",
+      "letter": "x^2*q2^2",
+      "name": "W68"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W14",
+      "letter": "x^2*q2^2",
+      "name": "W69"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W27",
+      "letter": "x^2*q2^2",
+      "name": "W70"
+    },
+    {
+      "definition": "I(letter*inner)",
+      "inner": "W38",
+      "letter": "x^2*q2^2",
+      "name": "W71"
+    }
+  ]
+}
