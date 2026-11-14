@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 23:49:52 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 23:50:36 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步和恢复
 
 只在public仓库Rogerhu12/math-research-public；新数学只公开Actions。每条结论独推，非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交blob。PAT仅瞬时CLI/env，不入文件、输出、提交、connector。
 最后本机真pull：2026-11-14 21:26:11 UTC d882f7658383b555ff744e63192154921eb31ba9。最近已核runner真pull：23:34:08 UTC 481bb84991ff27a177f9524a38f8a4324dadefae；oldρ两次两README实际diff空，前各过程pull记录完整保。
 21:48环境unavailable，CLI报No usable execution environment。按根规8仅connector<100KB文本，不读binary/gzip；只读ref核不是git pull。成功native/源码均在public，新数学仅公开Actions；terminal恢复立即真pull并核README。根规12不另设冻结/独审门。
-最近只读README核：2fba8713aff3421ff14fe8bc63fb95199755abb2；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：388e7d690a31a9aa205bfb02157eead6aeccad8d；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 原partial checkout：/workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，当前不可用；原相关AGENTS无。runner10min真pull或phase45/50min前后pull；成功科学与出版失败分记。
 前H9885B完整在 notes/2026-11-14-handoff-before-old-rho-Taylor-actual.md；历史档案链完整。actual/manifest/native保对象、参数、全部失败及逐行证明，不凭摘要重构。
 
@@ -49,6 +49,7 @@ Y1–14（cdbadc21，SHA55baa5f0…）ΠDU(w)=ΠU(gd)，w1真实S九词或旧T/(
 新P1–32全正DN（80c21055，SHA3a2ad25d…，R119-supplement-new-simple-root-complete-positive-DN-Airy-return-and-sources.md）：root→B+真实long，mean/height gauge/EB/复型/Jacobian全保；Airy正逆L²<2，双侧4/3余项<2^6000b^(4/3)，|s|≤1，全源affine<2^512(P+B)。
 新N1–28 long完整Sobolev DN（cef30393，SHAf9ee747a…，actual-long-screening-complete-Sobolev-DN-and-cap-facing-port）：固定C_R的真实Φ_R反馈/全4Z/mean/awB齐，返回Hs差<2^160(n0+F+e^-7L/4)<2^-8388864，|s|≤2；独立Z、meanB/C/Robin保，未借偶帽图。
 
-新O1–32完整principal/KAM（SHA43dffeb2…）已付全旧行+外行同一无限mean/Fourier Newton、μ+<2^305A*。F1–39（b283b1dd…）新外两根/长strict强散射：I1<2^985/I2<2^1310、Λo2^2048；两strong窗2^12000、全传递正逆2^32768、βrad+1<2^1024，全mean/graphs/源保。J1–28联立两Γ与固定scalar已证：完整Γ2误差2^160057X/全导2^160092X，收缩2^160102X；受影响真两行1291/2余项2^24000、cut2^131072、无层权HH<2^-1024。真实DΓ控制项/低历史/CR/mean齐。tail续五盒/同表示weighted与真帽闭合。
+新O1–32全principal/KAM（43dffeb2…）、F1–39新外两根强散射（b283b1dd…）及J1–28双Γ（bf4d34c2…）已付。F两strong窗2^12000/全传递正逆2^32768/βrad+1<2^1024；J全Γ2误差2^160057X/全导2^160092X，收缩2^160102X；真两行1291/2余项2^24000，无层权HH<2^-1024，全控制导/低历史/mean/CR/源保。
+新C1–27（c6379d7a…）真实五盒全频公共点：中心到两root K2^33792、外generator D+=2^-65536D129；全浅层cut取max(Tj,2^131072)，深≥8193不变、相邻Ω比<2^20。全频径向inverse权v+=2^-464800J^-4165δ^(1073/32)，好测度>1−93/16384。真fixed-CR外线v_t=M²v/mean v0t=0与N参考差2^160ε单付；真实帽图另保。tail接同表示完整weighted Schur。
 
 每子问题完成即接open下一项。不得停在阶段报告、时限或“下一步建议”上。

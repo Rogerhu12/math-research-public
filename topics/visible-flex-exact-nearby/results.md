@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [新外五盒 generator、全频公共点及原层权](results/R119-supplement-new-outer-five-cube-generator-and-complete-radial-spectral-weights.md)：C1–27 以实际中心到两root常数 K_o=2^33792 支付外 generator；浅层统一 T_j^+=max(T_j,2^131072)，重新计数全部 retained 窗，保持相邻频率权；同一公共点给完整径向 weighted inverse，v_j^+=2^-464800 J^-4165 δ^(1073/32)。准确外线固定独立 C_R，v_t=M²v、mean v0t=0；与N的简化参考差另计，未代入真帽或宣称非径向闭合。
+
 - [新外双相位、固定标量表示与完整高反馈](results/R119-supplement-new-outer-joint-two-phase-scalar-normal-form-and-high-feedback.md)：J1–28 在新 fixed-stop 对象上联立全部 Γ1/Γ2；真实控制方向保留径向 inverse 的显式导数，完整 first-phase 同调与两个强窗付清，实际受影响两行 (129,1)/(129,2) 均取 2^24000，cut 2^131072 后无层权 HH<2^-1024。mean、低历史、CR、ν和全部源列仍在；加权中间系统与真帽尚待接合。
 
 - **旧ρ完整第一修正Taylor actual二十门**：run43653825736 child0，258新cubic根行与75自然stage完整保存，0旧FFT/intrinsic/aux；正确μ=Q²B+，|j|至1536、双ε和全部mean保。已验证真实9e−6内窗及完整尾，φ1/512局部两行sup<24.457019495/781421.481649；sup与Wiener分开，不冒作全source/strong/cutoff。见 [实际完整Taylor报告](results/R133-supplement-actual-complete-old-radial-first-Airy-Taylor-bounds.md)。
