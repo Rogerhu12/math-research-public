@@ -1,0 +1,38 @@
+{
+  "result": "R693",
+  "coefficient_basis": [
+    "1",
+    "sqrt(3)",
+    "i",
+    "i*sqrt(3)"
+  ],
+  "kernel_fourier_entries_checked": 36,
+  "theta_eigenvector_identities": true,
+  "odd_rank_minor": [
+    "0",
+    "-1/2",
+    "-3/2",
+    "1"
+  ],
+  "even_rank_minor": [
+    "0",
+    "-6",
+    "-18",
+    "-12"
+  ],
+  "odd_quadratic_scalar": [
+    "1",
+    "1/2",
+    "-1/2",
+    "0"
+  ],
+  "even_quadratic_scalar": [
+    "3/8",
+    "-3/8",
+    "-3/8",
+    "3/8"
+  ],
+  "all_finite_identities_verified": true,
+  "analytic_identities_inferred_from_computation": false,
+  "source_sha256": "5729b85692d9812cfe12f54b2330e38ed907d476f178873d13484c6f46bb38b3"
+}

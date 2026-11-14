@@ -4,8 +4,8 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：3365171370923a9f3164acf4be9dd708dd0ee021
-最近实际 pull：2026-11-14 17:58:01 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：bc04092b26f83308cff416a1ed66c113e53f3765
+最近实际 pull：2026-11-14 17:58:12 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
@@ -22,7 +22,7 @@
 - **R687已证算法**：R605原AC/log商在特征p的直接FLINT截断，先精确消去阶乘p；p101/1013短算已保存。R689四片全部完成，99素数无零；不把有限非零当普遍定理。
 - **R688/R690已证**：完整Picard修正下Ia=d、a(c0)=0给λ_q=a_v/e；实际完整水平的2处分量全度数零，故λ2,h≡0，Ω仅3处。3处κ_v和p处Λ jet仍待算。
 - **R686已证全塔**：真实Robert逐层Norm/整格/原q导数给A_Mn=RΓ/π^min(d,42n+1)；原m<43则全高层永久稳定。实际d/m/C/J/b仍未知。
-- **R692已证**：实际固定三次τ导子6、判别式−108，三格点权给完整周期归一的三点theta表达；模p单位仍待证。
+- **R692/R693已证**：实际τ导子6、判别式−108，三格点权给三点theta，再经精确Poisson/ST矩阵得全k Hermite theta平方；中心值非负，非零和模p单位仍待证。
 - 接着：cartier推进实际Cp·C_(p−3)结构/例外及精确有限窗口；global求真实高度jet/有限目标；O6求原普通单位Norm/首矩C/J。新结果立即登记，主目标未闭合继续。
 
 ## O5：固定 p41 的真实高度与全部129盘

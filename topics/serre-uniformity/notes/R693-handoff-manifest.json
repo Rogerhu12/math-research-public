@@ -1,0 +1,23 @@
+{
+  "result": "R693",
+  "status": "proved_analytic_identity",
+  "claim": "由实际周期6核、一般Poisson恒等式和ST一维特征空间，严格给全部k≡2mod3的Hermite theta平方，保留全部相位与R615周期。",
+  "boundary": "平方公式证明实际中心值非负并给准确零判据；未证明theta值非零或模p单位。",
+  "files": [
+    {
+      "file": "results/R693-actual-fixed-twist-Hermite-theta-square.md",
+      "bytes": 10428,
+      "sha256": "02572cb25ad92207b8a601e8f3c2d57fff2a97ebba6c7c98d070882516975ede"
+    },
+    {
+      "file": "scripts/R693_verify_theta_matrices.py",
+      "bytes": 3975,
+      "sha256": "5729b85692d9812cfe12f54b2330e38ed907d476f178873d13484c6f46bb38b3"
+    },
+    {
+      "file": "notes/R693-matrix-certificate.json",
+      "bytes": 657,
+      "sha256": "caf757e117760647cd4bafba39afed622ecae0033cafd253110f7a072fd03e64"
+    }
+  ]
+}
