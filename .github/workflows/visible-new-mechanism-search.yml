@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -339,6 +339,44 @@ jobs:
             --nodes 4096 --samples 1024 \
             --planar-report "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json" \
             --out "$VISIBLE_NEW_OUT/space-star-flat-a65-b12.json"
+      - name: Solve corrected closed designs then quartic support geometry
+        if: matrix.lane == 'closed_quartic'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_closed_codesign.py" \
+            --theta-n 768 --validation-n 768 1536 3072 --modes 12 --max-nfev 400 \
+            --out "$VISIBLE_NEW_OUT/absolute-jacobian-closed-design.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_quartic_codesign.py" \
+            --q 3 --sides positive negative --theta-n 768 --validation-n 768 1536 3072 \
+            --max-nfev 150 --warm-start "$VISIBLE_NEW_OUT/absolute-jacobian-closed-design.json" \
+            --out "$VISIBLE_NEW_OUT/quartic-support-closed-design.json"
+      - name: Optimize whole-angle spatial lifts with exact torsion constraints
+        if: matrix.lane == 'star_lift'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/space_star_lift_design.py" \
+            --a .60 --b .09 --height-modes 6 --half-width .02 \
+            --angles 384 --dense-angles 3072 --initial-lifts .10,.20,.30 \
+            --higher-coefficient-bound .08 --j-floor .15 --kappa-floor .04 \
+            --max-iterations 200 --certificate-nodes 4096 \
+            --planar-report "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json" \
+            --out "$VISIBLE_NEW_OUT/space-star-lift-design-a60-b09.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/space_star_lift_design.py" \
+            --a .65 --b .12 --height-modes 6 --half-width .02 \
+            --angles 384 --dense-angles 3072 --initial-lifts .10,.20,.30 \
+            --higher-coefficient-bound .08 --j-floor .15 --kappa-floor .04 \
+            --max-iterations 200 --certificate-nodes 4096 \
+            --planar-report "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json" \
+            --out "$VISIBLE_NEW_OUT/space-star-lift-design-a65-b12.json"
+      - name: Refine three frozen promising space-star cores by continuous interval bounds
+        if: matrix.lane == 'space_refine'
+        timeout-minutes: 35
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/space_star_frozen_refine.py" \
+            --a .65 --b .12 --height .30 --mixes .187,.20,valley-zero \
+            --widths .005,.01 --nodes 32768 \
+            --planar-report "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json" \
+            --out "$VISIBLE_NEW_OUT/space-star-frozen-refine-N32768.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

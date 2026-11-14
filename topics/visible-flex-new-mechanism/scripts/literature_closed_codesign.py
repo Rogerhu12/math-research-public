@@ -25,6 +25,35 @@ from literature_base_codesign import NAMES, extract_coefficients, reconstruct_co
 INDEPENDENT = np.array([0, 1, 2, 5, 6, 7, 8, 9, 10])
 
 
+def absolute_jacobian(function, x, step=2e-5):
+    """Central differences with an absolute floor for near-zero parameters.
+
+    A relative-only step at Fourier coefficients around 1e-16 can be 1e-21,
+    which is unsuitable for coefficients formed by quadrature cancellation.
+    These derivative probes do not change the reported geometric candidate.
+    """
+    x = np.asarray(x, dtype=float)
+    columns = []
+    for j in range(len(x)):
+        h = step*max(1., abs(x[j]))
+        plus, minus = x.copy(), x.copy()
+        plus[j] += h
+        minus[j] -= h
+        columns.append((function(plus)-function(minus))/(2*h))
+    return np.column_stack(columns)
+
+
+def jacobian_direction_check(function, x):
+    direction = np.random.default_rng(20261114).normal(size=len(x))
+    direction /= np.linalg.norm(direction)
+    predicted = absolute_jacobian(function, x) @ direction
+    h = 2e-6
+    observed = (function(x+h*direction)-function(x-h*direction))/(2*h)
+    return dict(column_step_floor=2e-5, directional_step=h,
+                relative_difference=float(np.linalg.norm(predicted-observed)/
+                                          max(np.linalg.norm(observed), 1e-30)))
+
+
 def radial_sphere(q, b, rho, n):
     theta = np.arange(n) * (2 * np.pi / n)
     x = q * theta
@@ -167,7 +196,8 @@ def one_design(args, q, a, b):
     lo = np.r_[-.8, .05, -.6, -.5, .76, np.full(args.modes-1, -.4)]
     hi = np.r_[.8, 1.4, .6, .5, 1.55, np.full(args.modes-1, .4)]
     fit = least_squares(residual, x0, bounds=(lo, hi), max_nfev=args.max_nfev,
-                        ftol=1e-11, xtol=1e-11, gtol=1e-10, x_scale='jac', diff_step=2e-5)
+                        jac=lambda x: absolute_jacobian(residual, x),
+                        ftol=1e-11, xtol=1e-11, gtol=1e-10, x_scale='jac')
     final = geometry(fit.x, q, args.modes, args.theta_n)
     frozen = dict(tilt=final['tilt'], normalization=final['normalization'])
     validations = [diagnostic(geometry(fit.x, q, args.modes, n, frozen), n, scales)
@@ -176,6 +206,8 @@ def one_design(args, q, a, b):
                 parameter_order=['rho0', 'rho1', 'rho2', 'rho3', 'b']+
                                 [f'c{j}' for j in range(1, args.modes+1) if j != 2],
                 independent_names=[NAMES[j] for j in INDEPENDENT], scales=scales.tolist(),
+                derivative_method='central differences; column step 2e-5*max(1,abs(parameter))',
+                final_directional_derivative_check=jacobian_direction_check(residual, fit.x),
                 frozen_validation_data=frozen, initial=diagnostic(g0, args.theta_n, scales),
                 validation=validations, solver=dict(success=bool(fit.success), message=str(fit.message),
                     nfev=int(fit.nfev), optimality=float(fit.optimality),
@@ -203,9 +235,16 @@ def developer_check():
     speed_error = float(np.max(abs(np.linalg.norm(data['B_theta'], axis=1)-data['sphere_speed'])))
     if max(abs(closure), cross_error, unit_error, speed_error) > 1e-12:
         raise AssertionError((closure, cross_error, unit_error, speed_error))
+    point = np.array([1e-16, .3])
+    synthetic = lambda x: np.array([np.sin(x[0])+x[1]**2, np.exp(x[1])+x[0]*x[1]])
+    exact = np.array([[np.cos(point[0]), 2*point[1]], [point[1], np.exp(point[1])+point[0]]])
+    jac_error = float(np.max(abs(absolute_jacobian(synthetic, point)-exact)))
+    if jac_error > 2e-9:
+        raise AssertionError(jac_error)
     print(json.dumps(dict(developer_check=True, no_optimization=True, closure_scalar=closure,
                           raw_z_identity=cross_error, sphere_unit=unit_error,
-                          analytic_speed=speed_error, tiny_quadrature_tilt=tilt)))
+                          analytic_speed=speed_error, tiny_quadrature_tilt=tilt,
+                          absolute_jacobian_synthetic_max_error=jac_error)))
 
 
 def main():

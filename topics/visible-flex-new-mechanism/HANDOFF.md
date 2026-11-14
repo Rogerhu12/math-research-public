@@ -6,7 +6,7 @@
 
 闭连通 C2 嵌入族 Ft、时间C2连续、同一固定g；固定材料开集H且diamH≥.2D；不对齐的真实像集Hausdorff位移≥.3D；全域全时reach≥.03D；最大相对metric≤1e−6且同g/物理参数/时间下加密改善；完整小网格、复现和严格存在性差距。D为初始完整曲面直径。δE不再必需，可为0但须如实报。达标后继续.5D或更强存在性。
 
-- 根与本题README已完整读。公开仓库最后已读规则提交：`ca623c4d9a04ded2070f9748f1c6b2f0448eeb37`；该次实际pull成功，两README差异为空。
+- 根与本题README已完整读。公开仓库最后已读规则提交：`3334e254c7212254d9ee388037d37148dfd76eb8`；该次实际pull成功，两README差异为空。
 - 每次pull后只读这两README的新差异并立即遵循；至少每小时pull。每结论提交推送，NFF立即pull --rebase并循环重推；不强推。
 - 作者指定QUEUE已领取并置进行中；私有研究内容不发布。最新私有队列复核（11:40 UTC）仍为本会话进行中，私有根规则diff为空。研究计算只用本公开仓库自己的Actions。
 - 令牌仅瞬时命令行认证，不入文件。根LOG不写；共享workflow修改理由记本题log。HANDOFF<10KB，其他MD<100KB，数据>1MB压缩、单件<5MB，不读取巨大数组进对话。
@@ -39,7 +39,7 @@
 2. **43590239302 / sourcebcf0043**：star_core已成功；.60/.09真星域距离下界1.0061146909、平面D上界3.0045326267，比例≥.33486562；.65/.12比例≥.34524838。仅为完整面保持投影/高度包络时的条件预算。原始`notes/actions-43590239302-1-star_core/`。ellipse_phi与inward_gc4仍运行。
 3. ellipse_cont：恒周长圆到椭圆1/.3，L1/1.1，J9/m12，接受metric1e−4只供设计；ellipse_phi仅换自由场到偏心角基，所有材料导数/尾对应保留。轴比改变时同系数不表示同场。目标固定后须重新同g精化。
 4. inward_fixed：真实端盘±.30，固定g，16controls/m12/128角；Cartesian+signed。inward_gc4保持同g/同规模，改S9桥及准确四阶Cauchy初值，比较material/ellipse基；不把设计g允许a3非零的情况强锁成零三阶。
-5. **43591099281 / sourcee04482e**：closed_design用R10准确闭合及九系数共同设计，冻结tilt/C后768/1536/3072验证；space_star用已发布星域证书，筛两(a,b)、5个h、6个lift-mix、4个宽度；ruled_tail用R44完整入口、固定整段a、J5/m8求实际连接。
+5. **43591099281 / sourcee04482e**三lane已成功：closed_design闭合约1e−16，但九项L2=.13276/.04521/.09978；相对FD在近零系数上不可靠，已改绝对步长并重跑。space_star60候选有52条由连续曲率严格排除；余8条未合格，.65/.12,h=.30的3条样本有希望，冻结后32768区间精查。ruled_tail真实metric=.99991、κsample≈121895，失败，不机械加密。新request将联跑修正closed+quartic，并做6模lift全角优化。
 6. R11证明原R44核心自身相位比≤.04627；完整像若强制C6则≤.25882。当前BVP不强制全C6，先作连接方法试验，不无限加密小幅结果。正推新ψ=θ+u sin3θ+v sin6θ的准确闭合C3 ruled核心，几何未计算。R44新固定参考精确保留入口.01段，再.04局部过渡，末.03开平领；metric未知数0，控制c=.17934855056978544，数值半径闭合1.6e−15，边界二jet2.2e−16，Jac3.55e−11。未优化metric1.701，圆参考κmax20.04不是reach合格面。代码`ruled_core_to_tail_bvp.py`，warm只许同fixed_metric_identity。
 7. 最简单space-star h=.2、mix0谷底κ已给reach/D≤.02002而否决。mixed lift保留对称，可准确消谷/尖挠率，但全κ、J、非局部距离需实际筛。矩形宽度J>0只保浸入，不是reach。
 
