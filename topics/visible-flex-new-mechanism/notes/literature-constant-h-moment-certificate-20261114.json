@@ -1,0 +1,51 @@
+{
+  "certificate": "constant-h-moments-and-Klein-closure-exact-v1",
+  "arithmetic": "Python Fraction sparse multivariate polynomials and Laurent polynomials",
+  "central_moment_variables": [
+    "a",
+    "v",
+    "t",
+    "z",
+    "w",
+    "D",
+    "J"
+  ],
+  "matrix_trace_exact_zero": true,
+  "determinant_central_moment_formula_exact": true,
+  "determinant_formula_nonzero_monomials": 8,
+  "det_M_equals_minus_32_det_B_exact": true,
+  "trigonometric_averages": {
+    "f2": "5/8",
+    "f3": "3/8",
+    "df2": "1",
+    "f_df2": "3/8"
+  },
+  "det_leading_over_D_epsilon_cubed": "3/4096",
+  "limit": {
+    "a": "20",
+    "e": "1/3",
+    "D": "20740/27",
+    "xi": "31/3",
+    "C": "0",
+    "C_prime": "679/36",
+    "W": "-1037/27",
+    "ratio": "-4148/2037",
+    "ratio_strictly_inside_R26_interval": true,
+    "limit_itself_has_zero_Kjet": true,
+    "limit_first_jet": "120/1237",
+    "limit_second_jet": "0"
+  },
+  "klein_group_sum_exact_zero": true,
+  "klein_euler_word_all_8_edges_exact": true,
+  "half_turn_sends_first_axis_to_negative_third_exact": true,
+  "geometry_evaluated": false,
+  "optimizer_called": false,
+  "research_ODE_run": false,
+  "finite_n_selected": false,
+  "finite_N_selected": false,
+  "smooth_connection_existence_is_proved_in_note_not_by_this_certificate": true,
+  "embedding_proved": false,
+  "reach_lower_certified": false,
+  "task_complete": false,
+  "source_sha256": "58b997fc49d1ffcd496866ccec49ef1f4976048a20fc074d74eea809d6f09563"
+}

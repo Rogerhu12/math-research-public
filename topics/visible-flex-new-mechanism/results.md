@@ -63,3 +63,5 @@
 - [R29：实际D0方程的C4相位刚性及双外尾排除](results/R29-C4-profile-phase-rigidity-and-two-tail-obstruction.md) — C非零处任意单侧C4续解不能从实三阶jet开复相位，涵盖任意阶/全平L退化。配合两简单非零四阶外尾及C至多四次，完整有限分片C4类必恒相位，与第一复总矩矛盾。仅C3且q4无有限极限、其他外尾/机制仍开放。
 
 - [R30：闭曲面近远点对的完整reach充分证书](results/R30-closed-surface-normal-chord-reach-certificate.md) — 在真实参数chart上用m/U/M及实际K证明稳健近对角法弦界，联合离对角连续片对与全部接缝覆盖可同时支付嵌入和完整reach；不把坐标二阶导数当曲率，也不以有限点云代证。尚未有完整候选执行此证书。
+
+- [R31：真实闭合几何实现负物理根比值与非退化局部相位](results/R31-closed-geometry-negative-physical-root-and-local-phase.md) — 明确高频球面曲线给负W/C′开条件和非零det，平滑非负框架连接与Klein八边精确消空间位移；有限C∞闭正则中心曲线真实实现R26全部局部门及满秩B。未证明嵌入、厚度、全局profile或有限等距族，R29排除不变。
