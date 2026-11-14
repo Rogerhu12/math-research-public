@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R464：固定δ除法来源的全算术投影与普通核心](../results/R464-fixed-delta-division-source-full-arithmetic-projection-and-core.md)：真实非恒范数−X/(4b)、完整三支迹及两固定degree102来源全付；18维CM7精确给15谱和原S/H3/H5投影。当前ray whole K102=−N7^9，完整单位质量为unit，保12外谱和参考尺度log，未以质量代中央非零。
+
 - [R467：全部tame分支接触与原全因子次数障碍](../results/R467-tame-branch-contact-and-all-factor-degree-barrier.md)：去掉横截与单因子假设，原ODE整数幂共振及完整Hensel判别式给任意接触因子有效界；全部小次数因子、多分支与重数不能替代所需高径向次数。全一次因子统一p≤138D+77，任意真原第二核也适用，仍保临界高次数和混j范围。
 
 - [R463：原连接π分布与完整division-log carry](../results/R463-original-connection-pi-core-and-exact-division-log-carry.md)：BFK完整分布付原q的π尺度，独立q/C全深carry消C′后保实际p级有理行；精确除子、原点整性、范数一与非零log3常数全付。pullback后全纯来源有全étale迹零和明确非齐次中央比较，保全部其余分支，不混同固定六维来源或原点中央。
