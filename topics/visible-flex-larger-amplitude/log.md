@@ -541,3 +541,12 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 ## 2026-11-14 20:59 UTC：request60从actual58同17模型重线性化
 
 58全文和三审计已归档，父warm4775328B/3911b642…与公开statusgzip163444B透明解压1276068B/64140c9f…再次按Git原bytes核同。request60/workflow两处父绑定同步换真实run43638348140/source ba8bc4f4…及17 own-schema，原22source pins/λ270/512/全部门/FD不变，只调用iterations1。未改17源中历史ACTUAL56初始分支，也未新增query。root已核完整diff、22pins、11bash及6inlinePython；实际新run待回读，科学仅公开Actions。
+
+
+## 2026-11-14 21:03 UTC：request59原576完整阻尼方向与真实试步记录
+
+原576适配器c78dfc6a…/QR入口e1a35bd8…已全文读，冻结9b95动态类不改；28原全部576 J/r/σ/H/cut/far直接R273 eta1，577罚块/全部常数和129248原行保。并在同一原576目标对57保存限制δ作第二份完整exact读回，非新gate。只取原28和完整验证57 ZIP后的五个原件，原41/54不再下载。
+
+新trial c337d880…/hook c104ff11…全部差异及接口已读；保原十body603924d1…/数学evaluate9725a6c9…，两个声明只读观察插入保存实际全state及返回r/end/norm/argmax，cut明确只读同减法副本；真实instrumented evaluate/toString与恢复比较源分别记账，0新增baseline/J/RHS/试探。fetcher f3184739…及完整原transport/工作流已读，14pins/11bash/3inlinePython/AST/Node静态过，无本地科学。publisher仅增original576damped lane。
+
+60实际run43640358327/source da346d172…，job132586430139从21:00:13Z同17模型运行，父58恢复/源pins通过；尚无新数值。为后继原包仅撤本地57已审已推的2746个factor/constant payload1106785792B，显式partial marker/receipt保，完整公开artifact及参考五件和exactledger不变。

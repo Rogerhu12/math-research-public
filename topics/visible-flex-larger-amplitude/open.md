@@ -35,7 +35,7 @@
 
 **58已完成：run43638348140/source ba8bc4f4acd547fd5219826da4f6e35f859bca56/job132580074075**：仅加left-RMS468全2048角→34816，B完整468..483+p/5411；C4059保外部468/469/470/483 offset。保512/dual200/600s/1200s/λ270/全部原门+新FD/只读colobserver，四新seventeen源冻结接线。[actual53](notes/2026-11-14-actual-request53-working512-and-midpoint481-limit.md)、51及更早完整存证不重跑。
 
-**最新58/下一60**：实际alpha1/4接受，本轮固定merit44.08450062286488→43.925384505081816，col.00710961172228531/BC4.4918924725999154e−8/FD7.108999873259166e−10。最近1/2失败的mid473/475/481均已建模，不能据较远alpha1的mid480盲加第18查询。60已接线待真实run回读，从58 warm3911b642…/原status64140c9f…（1276068B，gzip163444B）沿17 own-schema重线性化单个完整模型，保原λ/512/全部门。[最新58全文](notes/2026-11-14-actual-request58-quarter-step-existing-domain-limit.md)及prefix/observer/root14raw三审计已保存；完整新父SHA见H。
+**最新58/下一60**：实际alpha1/4接受，本轮固定merit44.08450062286488→43.925384505081816，col.00710961172228531/BC4.4918924725999154e−8/FD7.108999873259166e−10。最近1/2失败的mid473/475/481均已建模，不能据较远alpha1的mid480盲加第18查询。60已运行43640358327/source da346d172715761d7da23da84c92d97a92b438de，从58 warm3911b642…/原status64140c9f…（1276068B，gzip163444B）沿17 own-schema重线性化单个完整模型，保原λ/512/全部门。[最新58全文](notes/2026-11-14-actual-request58-quarter-step-existing-domain-limit.md)及prefix/observer/root14raw三审计已保存；完整新父SHA见H。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
@@ -59,7 +59,7 @@
 
 **57实际完成，原十norm全同**：[完整原试探](notes/2026-11-14-actual57-original-ten-trial-no-decrease.md)与[完整QR/exact行账](notes/2026-11-14-actual57-damped-chain-QR-and-original-exact-readback.md)及两组独立byte审计已保存。R273 eta1在54新1372矩阵上全部307552行exact最大4.062019449255373658…e−9；1373因子/1106785792B/全部常数与行账已完整审。原十noJ均完整返回、0guard，却十个norm bits全同base .04177307820740199；selected=null/native=false。577δ非零，不可由norm相同推所有trial state/r不变或唯一原因。
 
-**59源码编写中，尚未运行**：用同actual28原576完整J/r/σ/H/cut/far直接R273 η1，独立target/schema及完整129248行exact；同时计算57实际577限制δ在该原576目标的完整exact，均不是trial gate。原十loop/guard/strictnorm和cached28单次保，新增只读真实trial全state及返回r/cut/end/max定位，无额外RHS/J，不重复57。只取28和57五件实际方向文件，不再取41/54大包。未来若接受仍需真实新状态继续完整native/fresh audit。
+**59已接线，实际run待回读**：[原576方向合同](notes/2026-11-14-original576-damped-chain-and-actual57-comparison-interface.md)、[原十与完整观察](notes/2026-11-14-original576-damped-native-trial-and-readonly-residual-interface.md)、[57五件取入](notes/2026-11-14-actual57-selected-five-transport-interface.md)。用同actual28原576完整J/r/σ/H/cut/far直接R273 η1，独立target/schema及完整129248行exact；同时计算57实际577限制δ在该原576目标的完整exact，均不是trial gate。原十loop/guard/strictnorm和cached28单次保，新增只读真实trial全state及返回r/cut/end/max定位，无额外RHS/J，不重复57。只取28和57五件实际方向文件，不再取41/54大包。未来若接受仍需真实新状态继续完整native/fresh audit。
 
 原step与G的十trial组件已完成：直接消费正确producer的保存方向，保原十alpha/完整evaluate(false)/原guard/原σ严格下降，首接受保全state后STOP。它们不重形成G/J，当前未派43坏方向，也不冒native完成。
 

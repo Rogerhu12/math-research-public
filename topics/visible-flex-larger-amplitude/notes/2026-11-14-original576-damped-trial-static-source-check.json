@@ -1,0 +1,36 @@
+{
+  "scope": "Pure source-string transformation and syntax only; no native function/constructor, RHS, J, ODE, solver, norm or candidate arithmetic was run",
+  "source_sha256": "c104ff11b356cb3993ffd5ae97988259b2f27c91e492c7736d7a96a9ad450e36",
+  "original_runtime_core_sha256": "f29dc9c7f992fd773f96ca57ec1822f3e28365f653473ee424743801f1e6a96f",
+  "actual57_original_runtime_core_match": true,
+  "actual_original_trial_body_sha256": "603924d1d9c038596d41850b28bb80a9e70d69ccc882af518bfba4bb83444f99",
+  "actual_original_trial_body_byte_identical": true,
+  "original_evaluate_sha256": "9725a6c9af466913eb2ef25d7ba094b9d04937d7921295a7cc79b99ba51ad0e9",
+  "observed_evaluate_sha256": "cff3bf72887e95ead5623a60c4d04875ed7787cb5ec200dad6cf542fe5371606",
+  "exact_core_and_evaluate_source_reversal": true,
+  "generated_program_and_evaluate_and_solve_syntax": true,
+  "original_state_and_direction_data_not_read_or_calculated": true,
+  "native_or_scientific_module_not_imported": true,
+  "original_eval_math_source_without_observers_byte_identical": true,
+  "source_only_instrumented_core_sha256": "951d27fd556c455ead5a83d9d0e04dc904775ae160bb00313ee3ee295f503a75",
+  "Python_AST": true,
+  "Node_hook_syntax": true,
+  "Node_generated_core_syntax": true,
+  "actual28_validate_capture_source_byte_identical": true,
+  "original28_filename": "result.json",
+  "new_direction_filename": "result.json.gz",
+  "no_step_or_direct_directory_CLI": true,
+  "actual_scientific_binding_constructor_not_run": true,
+  "files": [
+    {
+      "file": "geometry_20261114_native_original576_damped_trial_replay.py",
+      "bytes": 28401,
+      "sha256": "c337d880c29aaa865b6516fd679ffffe9410d30c893ff2f8e0cc4092f6adbec7"
+    },
+    {
+      "file": "geometry_20261114_native_original576_damped_trial_replay_hook.mjs",
+      "bytes": 68273,
+      "sha256": "c104ff11b356cb3993ffd5ae97988259b2f27c91e492c7736d7a96a9ad450e36"
+    }
+  ]
+}
