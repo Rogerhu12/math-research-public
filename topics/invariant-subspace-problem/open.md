@@ -153,3 +153,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **完整Γ小相对导数路线已排。** [原物理反例](notes/2026-11-14-actual-tail-full-graph-relative-hole-commutator-obstruction-789f-next.md)给全q≥d−1的四次指数下界，真实核嵌入Gram仅exp(O(m²))。坏向量均属低孔零核，必须转向同一source-Schur消去后的实际压缩或固定测试；不能将完整Γ反例外推到已消零源，也不能再用全Γ的exp(O(d³))统一界。
 
 **同一原源可用窗已到c26。** [真实联合carry证明](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)保N/Y正系数、跨块权、全部D交换子及短右逆，给Q≤exp(26d³)的母提升和实际低输出误差各exp(−d⁴)，同top的全窗两费和固定测试继续。当前未消联合旗实际族所需比较为O(exp(26d³)/d)；该比较尚未证明，旧δ仍限原窗。全Γ的四次指数障碍迫使下一预算保持source-Schur消核或真正固定测试约束。
+
+**原头逆芽尺度已改善，真实商角度继续。** [ρ=exp(−25d³/2)](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)及ψ相对线性项的exp(−d³/4)小量均已证明，保全部真实W列权。若所需实际消核source-Schur估计能够只付多项式×ρ⁻²，则可落c26窗；该估计仍开，不能以完整κ(V)或全Γ相对孔导数替代。

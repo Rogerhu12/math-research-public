@@ -298,3 +298,7 @@
 ### 2026-11-14：保真实权的联合carry预算与exp(26d³)实际窗口（789f）
 
 [证明](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)用同一正系数g_p逐项支配N/Y，并在跨块系数中保全部W权、2z−1最高次数和双factorial。R≤exp((417/8)z³)的完整RΣj,k R^(j+k)||A_m^jK_pA_m^k||/((j+1)!k!)≤exp(−2z⁴)，没有另乘η或丢弃不交换项。全部真实ad_D尾和≤2exp(−15d⁴/8)；实际低输出通过同一联合预算和小吸收项修复，无再付两个粗H。对m≥10、Q≤exp(26d³)，母提升到N及实际低投影各误差exp(−d⁴)，一个真正top误差2exp(−d⁴)并保全窗原负图/两费/固定测试。旧联合旗δ不迁移；实际比较O(exp(26d³)/d)及N=M仍未证明。
+
+### 2026-11-14：真实逆芽半径exp(−25d³/2)及保权非线性系数（789f）
+
+[证明](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)保最高位完整负三次权，m≥10时两原N/Y在ρ=exp(−25d³/2)圆盘满足|F(z)/z−d0⁻¹|≤exp(−d³/4)。Rouché给ψ在|w|≤ρ/(2d0)的真实解析逆，且|ψ−d0w|≤2d0²exp(−d³/4)|w|；Cauchy进一步控制全部非线性系数。原K⁻¹每列仍除以真实输入W_n，T_i=W_i⁻¹ψ(−D)^i与完整Gram及B头作用保持同源。完整相似成本仍为exp(201·16^(m−1))的四次指数。ρ⁻²=exp(25d³)仅数值上能放已付c26窗，所需实际source-Schur/回返角度预算尚未证明。

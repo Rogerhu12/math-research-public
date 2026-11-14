@@ -41,6 +41,8 @@ G=Bbare(Hbare+Eret)⁻¹Bbare*，B⁻¹=Bbare Hbare⁻¹Bbare*；固定q+d的原
 - [完整Γ真障碍](notes/2026-11-14-actual-tail-full-graph-relative-hole-commutator-obstruction-789f-next.md)：原尾等有效权真核嵌入的Gram≤exp(O(m²))，给全q≥d−1的log||Γ⁻¹/²[Nholes,Γ]Γ⁻¹/²||≥175d⁴/32−315d³/32−O(m²)。全Γ三次指数相对导数路线已排；证人全在K≤d−1零核，实际source-Schur消核后、固定测试及余负图估计均未被否定。
 - [移动真头boson投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)强趋P_M；一侧余量≤2exp(−79d⁴)，逆Gram有限头压缩同强极限。无反向算子范数速率、硬核修复或N=M。
 
+- **[真实逆芽半径](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)：** m≥10的ρ=exp(−25d³/2)，两原N/Y的|F(z)/z−d0⁻¹|≤exp(−d³/4)，ψ在|w|≤ρ/(2d0)真解析且|ψ−d0w|≤2d0²exp(−d³/4)|w|。保输入列W_i及同源T_i=W_i⁻¹ψ(−D)^i；完整κ(V)仍可付exp(201·16^(m−1))而非三次指数。ρ⁻²=exp(25d³)数值可放c26窗，但实际消核source-Schur比较未由此证明。
+
 ## 其他未闭主接口
 
 原Haar A非零非紧、单射稠密拟幂零，W*(A)=B(H)、A′无非零紧；闭不变M均closure AM=M，普通循环性未知。正常有限原秩仍缺同一相容全链严格正距/实际下一完整尾上界；R289尾熵与R291指数秩未矛盾。原全birth、全部height、短旗、跨头完整费用及其余open均保持原边界；完整常数、来源和反例保本次H快照。任何有限模、候选排除或有限源预算均不替代ordinary ISP完成标准。
