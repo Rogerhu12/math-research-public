@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_cached_full193_matrix_pilot_process_v1",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43645186441",
   "run_attempt": "1",
@@ -56,6 +56,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T21:57:09.200517+00:00",
+      "before": "65960193d61ee81885c8e102f2189429f7014efa",
+      "after": "8ab16ca804845b340d537c5067ae1f679a5e8325",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -63,6 +71,11 @@
       "time": "2026-11-14T21:54:20.994920+00:00",
       "final": false,
       "commit": "e2d46e1e715eeb08a740fa1a4a7f45ff27e5529e"
+    },
+    {
+      "time": "2026-11-14T21:57:08.829956+00:00",
+      "final": false,
+      "commit": "8ab16ca804845b340d537c5067ae1f679a5e8325"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -103,7 +116,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "65960193d61ee81885c8e102f2189429f7014efa",
+  "last_read_commit": "8ab16ca804845b340d537c5067ae1f679a5e8325",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cached-full193-matrix-work/science",
   "actual_original_summary_sha256": {
     "0": "1fa04778469adb063456274d279f0bd3cbd6546bad005309d2e88b27d44e4d64",
@@ -111,14 +124,41 @@
     "3300": "7cf30d14cf26c62573c66666843dabea9ceebfc874a7eb0654a1265e7c510037",
     "5969": "8669aa0ec4610eae56fe787d38c4fcf4c34c23134a3fc7f4060cb353feb5d251"
   },
-  "snapshot_utc": "2026-11-14T21:57:07.187434+00:00",
-  "wall_seconds": 168.76948724500002,
+  "snapshot_utc": "2026-11-14T21:57:09.226102+00:00",
+  "wall_seconds": 170.80815682,
   "native_files": [
+    {
+      "logical_file": "evidence/actual-latest-full193-matrix-outcome.json",
+      "file": "evidence/actual-latest-full193-matrix-outcome.json",
+      "bytes": 18653,
+      "sha256": "aa9eafe1bb347fe24119c3d2edee6a1e8e2aba230e4c95c715f94e0c9538b39e"
+    },
+    {
+      "logical_file": "evidence/complete-cached-full193-matrix-pilot-summary.json",
+      "file": "evidence/complete-cached-full193-matrix-pilot-summary.json",
+      "bytes": 20275,
+      "sha256": "e595e2457d765e61052370032f7095643e0715f8d07fe4eeeabf8a087d912727"
+    },
+    {
+      "logical_file": "evidence/complete-matrix-array-origin-inventory.json",
+      "file": "evidence/complete-matrix-array-origin-inventory.json",
+      "bytes": 8604,
+      "sha256": "a9314ab0b6a69a694fcb45b14d45c7466ef01ef177e8b1dff0efa47402332290"
+    },
     {
       "logical_file": "native/complete-four-cached-full193-matrix-polynomials.json.gz",
       "file": "native/complete-four-cached-full193-matrix-polynomials.json.gz",
       "bytes": 29342,
       "sha256": "4328b19228049235aded13355585a6d9093a3621daa8d2018f84bc169437d317"
     }
-  ]
+  ],
+  "complete_native_sha256": "4328b19228049235aded13355585a6d9093a3621daa8d2018f84bc169437d317",
+  "actual_scientific_gates": 11,
+  "actual_complete_local_matrix_cells": 4,
+  "true_full193_local_matrix_polynomials_certified": true,
+  "actual_new_matrix_cells_this_child": 4,
+  "original_complete_success_reused_without_child": false,
+  "all_full_matrix_arrays_have_preserved_exact_origin_receipts": true,
+  "large_matrix_arrays_only_in_public_Actions_artifacts": true,
+  "finished_utc": "2026-11-14T21:57:08.888060+00:00"
 }

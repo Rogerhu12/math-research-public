@@ -1,0 +1,466 @@
+{
+  "complete": true,
+  "failure": null,
+  "gates": [
+    {
+      "name": "all_four_exact_original_native_rows_and_summaries",
+      "passed": true
+    },
+    {
+      "name": "all193_rows_and_all193_matrix_columns_not_rectangular_anchors",
+      "passed": true
+    },
+    {
+      "name": "entire128_primitive_intermediate_and_independent_mean_retained",
+      "passed": true
+    },
+    {
+      "name": "full_old_true_generator_errors_plus_new_dyadic_rounding_paid",
+      "passed": true
+    },
+    {
+      "name": "exact_Rprime_over_R_and_forward_reverse_coordinates_retained",
+      "passed": true
+    },
+    {
+      "name": "all_full_polynomial_recurrence_rounding_paid",
+      "passed": true
+    },
+    {
+      "name": "whole_continuous_full_matrix_invertibility_and_endpoint_inverse_identity",
+      "passed": true
+    },
+    {
+      "name": "both_orientation_full_matrix_consistency_not_scalar_norm_only",
+      "passed": true
+    },
+    {
+      "name": "all_new_arrays_have_exact_bytes_hashes_and_public_origin_receipts",
+      "passed": true
+    },
+    {
+      "name": "low65_and_edge128_preserve_true_even_mean_and_all193_outputs",
+      "passed": true
+    },
+    {
+      "name": "no_new_original_target_or_old_successful_cell_computation",
+      "passed": true
+    }
+  ],
+  "completed_indices": [
+    0,
+    76,
+    3300,
+    5969
+  ],
+  "new_matrix_cells_this_child": 4,
+  "reused_completed_new_matrix_cells": 0,
+  "original_target_calls": 0,
+  "actual_local_rows": [
+    {
+      "index": 0,
+      "interval": [
+        "4052614164685201/4503599627370496",
+        "9/10"
+      ],
+      "seconds": 40.105168514999974,
+      "new_true_generator_error": {
+        "ball": "[1.9808705371553324875668612074414590158754902627834010516309756674437422891030359e-8 +/- 2.91e-88]",
+        "lower": "[1.9808705371553324875668612074414590158754902627834010516309756674437422891030359e-8 +/- 2.91e-88]",
+        "upper": "[1.9808705371553324875668612074414590158754902627834010516309756674437422891030359e-8 +/- 2.91e-88]"
+      },
+      "forward_true_local_rational_error": {
+        "ball": "[1.9808860628816223162674769867739867852786304166682469032282932155661512696798701e-8 +/- 7.54e-89]",
+        "lower": "[1.9808860628816223162674769867739867852786304166682469032282932155661512696798701e-8 +/- 7.54e-89]",
+        "upper": "[1.9808860628816223162674769867739867852786304166682469032282932155661512696798701e-8 +/- 7.54e-89]"
+      },
+      "backward_true_local_rational_error": {
+        "ball": "[1.9808861969767865844688939402280601476178812772198571166584834154478580131238688e-8 +/- 3.57e-88]",
+        "lower": "[1.9808861969767865844688939402280601476178812772198571166584834154478580131238688e-8 +/- 3.57e-88]",
+        "upper": "[1.9808861969767865844688939402280601476178812772198571166584834154478580131238688e-8 +/- 3.57e-88]"
+      },
+      "forward_whole_inverse": {
+        "ball": "[1.2374209340720351585245520102496986660717231001255622975729189123376965668955856 +/- 4.49e-80]",
+        "lower": "[1.2374209340720351585245520102496986660717231001255622975729189123376965668955856 +/- 4.49e-80]",
+        "upper": "[1.2374209340720351585245520102496986660717231001255622975729189123376965668955856 +/- 4.49e-80]"
+      },
+      "backward_whole_inverse": {
+        "ball": "[1.2374479600820826478575547368471292304606321034094877143151768629888009677387982 +/- 3.78e-80]",
+        "lower": "[1.2374479600820826478575547368471292304606321034094877143151768629888009677387982 +/- 3.78e-80]",
+        "upper": "[1.2374479600820826478575547368471292304606321034094877143151768629888009677387982 +/- 3.78e-80]"
+      },
+      "array_receipt": {
+        "arrays": {
+          "backward_endpoint_inverse": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "562ebc8ce1e4520f82d656a2edd6e97a647cec45f3009a37b69832f39d1f697b",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "backward_fundamental_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "4ae26cee18a1aaae297e8292b05f8d1c19430e0a19e5e8742f2c911b62b4fc17",
+            "shape": [
+              25,
+              193,
+              193
+            ]
+          },
+          "forward_endpoint_inverse": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "6dfed1bf357395c69226b3004ad0b541f4c64ddaba09ee0b3950a7738ec9eebd",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "forward_fundamental_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "cce9cd9bd11e18b333f1bd63662c2e8d8dbbe05c26815d908636f6c8f21c8cc0",
+            "shape": [
+              25,
+              193,
+              193
+            ]
+          },
+          "generator_forward_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "5fcb237606faf71c77ba8b788287548ac2666b240f860e6a01f38c8139c4135a",
+            "shape": [
+              4,
+              193,
+              193
+            ]
+          }
+        },
+        "bytes": 15378083,
+        "exact_binary64_scientific_array_bytes_preserved": true,
+        "file": "full193-local-matrix-00000.npz",
+        "large_matrix_arrays_remain_in_public_Actions_artifact": true,
+        "original_public_array_origin": {
+          "artifact": "visible-exact-full193-matrix-pilot-43645186441-1",
+          "folder": "matrices",
+          "repository": "Rogerhu12/math-research-public",
+          "run_attempt": "1",
+          "run_id": "43645186441"
+        },
+        "sha256": "064fceafd9c5c03b3bb98b578e58afdb076b618b04af5d32b2f3c7a29dc59245"
+      }
+    },
+    {
+      "index": 76,
+      "interval": [
+        "7612717757055179/9007199254740992",
+        "119118646394079/140737488355328"
+      ],
+      "seconds": 40.53462425800001,
+      "new_true_generator_error": {
+        "ball": "[9.9526312560896769017096280959207996035439217306112917938529349141619830500617791e-5 +/- 2.03e-85]",
+        "lower": "[9.9526312560896769017096280959207996035439217306112917938529349141619830500617791e-5 +/- 2.03e-85]",
+        "upper": "[9.9526312560896769017096280959207996035439217306112917938529349141619830500617791e-5 +/- 2.03e-85]"
+      },
+      "forward_true_local_rational_error": {
+        "ball": "[9.9526315924305712736063122696791740226327517601778726069976348797353387199939323e-5 +/- 1.38e-85]",
+        "lower": "[9.9526315924305712736063122696791740226327517601778726069976348797353387199939323e-5 +/- 1.38e-85]",
+        "upper": "[9.9526315924305712736063122696791740226327517601778726069976348797353387199939323e-5 +/- 1.38e-85]"
+      },
+      "backward_true_local_rational_error": {
+        "ball": "[9.9526315838377085481284914840152088754369817397026006608130297314138389385820777e-5 +/- 2.94e-85]",
+        "lower": "[9.9526315838377085481284914840152088754369817397026006608130297314138389385820777e-5 +/- 2.94e-85]",
+        "upper": "[9.9526315838377085481284914840152088754369817397026006608130297314138389385820777e-5 +/- 2.94e-85]"
+      },
+      "forward_whole_inverse": {
+        "ball": "[5.9058484316532895280569170407325834439361104572540876775614560903671206437865924 +/- 1.46e-80]",
+        "lower": "[5.9058484316532895280569170407325834439361104572540876775614560903671206437865924 +/- 1.46e-80]",
+        "upper": "[5.9058484316532895280569170407325834439361104572540876775614560903671206437865924 +/- 1.46e-80]"
+      },
+      "backward_whole_inverse": {
+        "ball": "[5.9158172693932459294835289625196650655471584075204905726918180880282573563236640 +/- 2.71e-80]",
+        "lower": "[5.9158172693932459294835289625196650655471584075204905726918180880282573563236640 +/- 2.71e-80]",
+        "upper": "[5.9158172693932459294835289625196650655471584075204905726918180880282573563236640 +/- 2.71e-80]"
+      },
+      "array_receipt": {
+        "arrays": {
+          "backward_endpoint_inverse": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "8aa1022daaa0130bd6de980226c62a557da90eef07d9323e32cc7fb58a09d85f",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "backward_fundamental_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "1c74d0f108bbb5f11c011f23a4664f5247f959dd0678a4ed31f21c588c6e5c60",
+            "shape": [
+              25,
+              193,
+              193
+            ]
+          },
+          "forward_endpoint_inverse": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "ae6eb6ee3a2261f897799c47752c5039779f152896ff80e50fc7355ee93027ac",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "forward_fundamental_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "7e31c702fc7719bc9635f0acce637dedf3bbe6bdb97142b49cbf16a6e7de02e9",
+            "shape": [
+              25,
+              193,
+              193
+            ]
+          },
+          "generator_forward_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "a9f9f23c411c81cd80562af5aaf29feef264ad03005532b6453f67b39bcb435d",
+            "shape": [
+              4,
+              193,
+              193
+            ]
+          }
+        },
+        "bytes": 15388441,
+        "exact_binary64_scientific_array_bytes_preserved": true,
+        "file": "full193-local-matrix-00076.npz",
+        "large_matrix_arrays_remain_in_public_Actions_artifact": true,
+        "original_public_array_origin": {
+          "artifact": "visible-exact-full193-matrix-pilot-43645186441-1",
+          "folder": "matrices",
+          "repository": "Rogerhu12/math-research-public",
+          "run_attempt": "1",
+          "run_id": "43645186441"
+        },
+        "sha256": "013442412c03e893a4fba053da30ac26a6e069e0e81a3b991b8a9d291588ed79"
+      }
+    },
+    {
+      "index": 3300,
+      "interval": [
+        "2147184947341121/9007199254740992",
+        "4295308144604611/18014398509481984"
+      ],
+      "seconds": 40.837693375000015,
+      "new_true_generator_error": {
+        "ball": "[5.0521018130707315539238391707597986165831705906354808033097054611865325227790152e-6 +/- 9.60e-87]",
+        "lower": "[5.0521018130707315539238391707597986165831705906354808033097054611865325227790152e-6 +/- 9.60e-87]",
+        "upper": "[5.0521018130707315539238391707597986165831705906354808033097054611865325227790152e-6 +/- 9.60e-87]"
+      },
+      "forward_true_local_rational_error": {
+        "ball": "[5.0521018239526508797723372836916628281895089451178635915416301477763006096957727e-6 +/- 4.22e-86]",
+        "lower": "[5.0521018239526508797723372836916628281895089451178635915416301477763006096957727e-6 +/- 4.22e-86]",
+        "upper": "[5.0521018239526508797723372836916628281895089451178635915416301477763006096957727e-6 +/- 4.22e-86]"
+      },
+      "backward_true_local_rational_error": {
+        "ball": "[5.0521018239457388544760569596780854191874155960852001877917567060977898098535220e-6 +/- 4.27e-86]",
+        "lower": "[5.0521018239457388544760569596780854191874155960852001877917567060977898098535220e-6 +/- 4.27e-86]",
+        "upper": "[5.0521018239457388544760569596780854191874155960852001877917567060977898098535220e-6 +/- 4.27e-86]"
+      },
+      "forward_whole_inverse": {
+        "ball": "[1.0077491026891994511926203078805652744254564525332408861202762250051004896363799 +/- 1.22e-80]",
+        "lower": "[1.0077491026891994511926203078805652744254564525332408861202762250051004896363799 +/- 1.22e-80]",
+        "upper": "[1.0077491026891994511926203078805652744254564525332408861202762250051004896363799 +/- 1.22e-80]"
+      },
+      "backward_whole_inverse": {
+        "ball": "[1.0079193508570921666064427249831244296183655943074789267456548103817054697531574 +/- 1.62e-80]",
+        "lower": "[1.0079193508570921666064427249831244296183655943074789267456548103817054697531574 +/- 1.62e-80]",
+        "upper": "[1.0079193508570921666064427249831244296183655943074789267456548103817054697531574 +/- 1.62e-80]"
+      },
+      "array_receipt": {
+        "arrays": {
+          "backward_endpoint_inverse": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "a97a5091a3d81ade0fb566de788da1848082adfedce74107c3e72c947dfef079",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "backward_fundamental_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "09ee6733bdcc6393fedb110da384e9c4dd66ce9804a049174b120cf947875271",
+            "shape": [
+              25,
+              193,
+              193
+            ]
+          },
+          "forward_endpoint_inverse": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "98639d35b377fd283fb479fa3bbc6c10987501a2884d5daa12d65d3d5e75a360",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "forward_fundamental_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "3fe0a6a92a33878b0e9db1cd35004d4758274f9bdcb941a07d4498ec21e8d8e9",
+            "shape": [
+              25,
+              193,
+              193
+            ]
+          },
+          "generator_forward_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "35aefa8cd66ee6bdc189c5e5a3b84b1489a4143fb62012f99df562d0c2815f2d",
+            "shape": [
+              4,
+              193,
+              193
+            ]
+          }
+        },
+        "bytes": 15463443,
+        "exact_binary64_scientific_array_bytes_preserved": true,
+        "file": "full193-local-matrix-03300.npz",
+        "large_matrix_arrays_remain_in_public_Actions_artifact": true,
+        "original_public_array_origin": {
+          "artifact": "visible-exact-full193-matrix-pilot-43645186441-1",
+          "folder": "matrices",
+          "repository": "Rogerhu12/math-research-public",
+          "run_attempt": "1",
+          "run_id": "43645186441"
+        },
+        "sha256": "2c24c5b57a8dc201a05ed38969e3340ce721863f94a37e4a075c3e0b00d45b0a"
+      }
+    },
+    {
+      "index": 5969,
+      "interval": [
+        "0",
+        "7686143364045647/36893488147419103232"
+      ],
+      "seconds": 42.16990117199998,
+      "new_true_generator_error": {
+        "ball": "[1.8065162466455501072481583746335728058546485552318770761444752648067497967330268e-7 +/- 3.35e-87]",
+        "lower": "[1.8065162466455501072481583746335728058546485552318770761444752648067497967330268e-7 +/- 3.35e-87]",
+        "upper": "[1.8065162466455501072481583746335728058546485552318770761444752648067497967330268e-7 +/- 3.35e-87]"
+      },
+      "forward_true_local_rational_error": {
+        "ball": "[1.8065165999639700706277793682794634437114962444484925156850692936211401136069618e-7 +/- 1.79e-87]",
+        "lower": "[1.8065165999639700706277793682794634437114962444484925156850692936211401136069618e-7 +/- 1.79e-87]",
+        "upper": "[1.8065165999639700706277793682794634437114962444484925156850692936211401136069618e-7 +/- 1.79e-87]"
+      },
+      "backward_true_local_rational_error": {
+        "ball": "[1.8065166213573924783214840815769827665055394575723828726168238067008723780041345e-7 +/- 3.31e-87]",
+        "lower": "[1.8065166213573924783214840815769827665055394575723828726168238067008723780041345e-7 +/- 3.31e-87]",
+        "upper": "[1.8065166213573924783214840815769827665055394575723828726168238067008723780041345e-7 +/- 3.31e-87]"
+      },
+      "forward_whole_inverse": {
+        "ball": "[1.0855204549150194980022358319080228403194438116521470280941769940428300733212224 +/- 7.98e-81]",
+        "lower": "[1.0855204549150194980022358319080228403194438116521470280941769940428300733212224 +/- 7.98e-81]",
+        "upper": "[1.0855204549150194980022358319080228403194438116521470280941769940428300733212224 +/- 7.98e-81]"
+      },
+      "backward_whole_inverse": {
+        "ball": "[1.0855289784045655229329188418230841637775170793440792542279935973129441183835291 +/- 1.59e-80]",
+        "lower": "[1.0855289784045655229329188418230841637775170793440792542279935973129441183835291 +/- 1.59e-80]",
+        "upper": "[1.0855289784045655229329188418230841637775170793440792542279935973129441183835291 +/- 1.59e-80]"
+      },
+      "array_receipt": {
+        "arrays": {
+          "backward_endpoint_inverse": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "20388c670701dfd552e87f8a17560f8f7317355d956b5e603b206d093d4cb7be",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "backward_fundamental_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "53099ed84e44f2d3698eb73cb3e7fe15f5f60a42d208ade4b9779b8eaa7d0c5a",
+            "shape": [
+              25,
+              193,
+              193
+            ]
+          },
+          "forward_endpoint_inverse": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "d8024d87c4c37c46571fe2019221ed54d5e4461c44dfe8f2ab262d43c28446be",
+            "shape": [
+              193,
+              193
+            ]
+          },
+          "forward_fundamental_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "43697d045ad19f8d96352f330c78d286e8fc766906abbf5a33962ad9bc6fe845",
+            "shape": [
+              25,
+              193,
+              193
+            ]
+          },
+          "generator_forward_power": {
+            "dtype": "float64",
+            "raw_little_endian_array_sha256": "bbe01d2ced9f928f9a3100ec4e2b7b09f308122976905ad0492422a933202897",
+            "shape": [
+              4,
+              193,
+              193
+            ]
+          }
+        },
+        "bytes": 15467589,
+        "exact_binary64_scientific_array_bytes_preserved": true,
+        "file": "full193-local-matrix-05969.npz",
+        "large_matrix_arrays_remain_in_public_Actions_artifact": true,
+        "original_public_array_origin": {
+          "artifact": "visible-exact-full193-matrix-pilot-43645186441-1",
+          "folder": "matrices",
+          "repository": "Rogerhu12/math-research-public",
+          "run_attempt": "1",
+          "run_id": "43645186441"
+        },
+        "sha256": "2595add1aa51f2f665ea5c0884173f3a9e3626e3db9711e3cc2f9784e91e7afd"
+      }
+    }
+  ],
+  "directional_full_BVP_inverse_bound_proved": false,
+  "full5970_matrix_cover_claimed": false,
+  "native_sha256": "4328b19228049235aded13355585a6d9093a3621daa8d2018f84bc169437d317",
+  "seconds": 163.68048967200002,
+  "original_identity": {
+    "arithmetic_bits": 256,
+    "derived_continuous_centre_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "exact_affine_parameter_offset": "0",
+    "exact_pilot_indices": [
+      0,
+      76,
+      3300,
+      5969
+    ],
+    "full_state_dimension": 193,
+    "new_full_matrix_columns": 193,
+    "new_polynomial_degree": 24,
+    "no_new_target_candidate_or_old_projector_evaluations": true,
+    "original_interval_model_source_sha256": "b30eb7299d5803856712134947f3d7899961cc3ab7597ce961b9bf0cf5205183",
+    "original_row_sha256": {
+      "0": "99847ad091d233328b1b4188e5f0e87906d92c3d1f286ea6f2241f31715e42b5",
+      "3300": "5cdca1ad3e5e8fc4a2c75c1d35725a0f675633694e5f00f8ba4491ad5ac1df2e",
+      "5969": "01abd869a3f5e53618fa1b9ea0261e2b28485a87bcecac52ea5b88c0d86d2c06",
+      "76": "f0703991ba67222e247d92a63e3006ca95d44fe47fdea07e4c5fc2c6511de6f0"
+    },
+    "original_summary_sha256": {
+      "0": "1fa04778469adb063456274d279f0bd3cbd6546bad005309d2e88b27d44e4d64",
+      "3300": "7cf30d14cf26c62573c66666843dabea9ceebfc874a7eb0654a1265e7c510037",
+      "5969": "8669aa0ec4610eae56fe787d38c4fcf4c34c23134a3fc7f4060cb353feb5d251",
+      "76": "d70ac90cce4c58733ad92966a0a07dc9b8e954c5a410a6d1bfea08b18f12c98e"
+    },
+    "physical_parameter": "fixed physical eta0 and original nu",
+    "source_sha256": "c8fb7a4ea178fd7415848e36336995149fdfa8959f7cc0700a3efe48d8512b06"
+  },
+  "complete_native_retained": true,
+  "actual_new_matrix_cells_this_child": 4,
+  "original_complete_success_reused_without_child": false
+}
