@@ -224,6 +224,8 @@ R541第三η支的全部23坐标给N7^9Fη=Fη+S(2z)，原S投影−1/2、E2312�
 
 ### R547：同预算单位块与真实cube余列
 
+显示同前缀子格的最后cube因子现由原第三块单位严格定为p；相对k行/原M的13+k行均保。原低行右逆不被该行杀，加回后仍须完整forcing。
+
 原W_F(H)=F EH−2(EF)H在同一H3内零新增charge；T_J=s−r/T_M=s−r−13的强窗给2κ+χ个单位，且其像与全部ξ高epsilon尾交零。联原F²H1在q=T−h>κ时有(5κ+3χ)/2个单位，显示子格只剩原F³一条非单位来源；原其余列、全forcing/carry及与R545两像的联合交仍保留。见[R547：零charge垂直单位块与原cube单列余项](results/R547-zero-charge-vertical-unit-block-and-actual-cubic-schur-column.md)。**待做：** 同一Schur余矩阵中完整R502四项、原其余W_D列及R524连接的实际像；原ξ为[3eξ]∈coker E_q，单项不代完整类。R550继续(F,e)H2理想块与真交概形/镜接触，禁止把R545与垂直块单位数直接相加。
 
 ### R544：同一两态的实际S3与唯一余域

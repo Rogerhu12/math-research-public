@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README含全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：471a0165e6a687095b1fa26590776ef7e83b94d9；2026-11-14 16:54:33 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：093a4bcda83d2b28b2234031a3379770cf6f931d；2026-11-14 16:57:09 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作。每次pull后及至少每小时比较根/课题README，有变立即读差异执行并记SHA。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13公开Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推及改已发表历史。非快进立即pull --rebase再推；环境断连时API用expected_sha/force=false，拒绝立即读新头核规追加，不冒称实际pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -46,7 +46,7 @@ R479–526所有低行高尾、同一修正d2→G2保归档/正文。R502 rawζ�
 R537在p>max(83,8b²+4bu)排独立Jacobian零对；k(F)在k(t,Y)相对代数闭。H2切向核在f0(−1/8)=0时kF²，否则〈1,F,F²〉；角保持提升给来源p饱和，不自动给评价饱和。
 R543真实J/M切向额外核分两层注入O_C(2D_+−TP)、O_C(D_+−min(h,T)P)，K_+=κ+μd1²+μd2²；T_J=s−r−1、T_M=s−r−14。强窗给物理单位块；旧满主阶Clifford额外≤b²/64、单位≥1501b²/192，各保O(b)。
 R545已付新实际连接L_c(H)=d V_FH+c(δd)(F EH−2(EF)H)，可取c=μd1且μd1+μ∞1≤u；全部19角和固定2charge保留。有效平衡极次数正好κ，不把d^-c免费加入来源。全Γ三项包括零阶和Euler修正；原M保13/26carry。强门T_M>2κ,h>κ给真实核〈d^(2c),d^cF,F²〉，来源/物理均p饱和、2κ+χ−2个单位可整Schur消元。原低ell主阶两余量47b²/48、47b²/96为正；同D/扩大2charge成本仍逐候选读取。真forcing及剩余原列尚未非零。
-R547已付原垂直W_F(H)=F EH−2(EF)H零新增charge物理核kF²，T_J=s−r/T_M=s−r−13，强窗给2κ+χ单位；其像与整个ξ尾交零，接触coker E_q真正注入显示商。q=T−h>κ时联F²H1有(5κ+3χ)/2单位，显示子格只余原F³单列b_cub∈pΓrem。完整R502四项和原其余列同Schur运输；R545像单独也不吸尾，但两像相加的交仍未置零。
+R547已付原垂直W_F(H)=F EH−2(EF)H零新增charge物理核kF²，T_J=s−r/T_M=s−r−13，强窗给2κ+χ单位；其像与整个ξ尾交零，接触coker E_q真正注入显示商。q=T−h>κ时联F²H1有(5κ+3χ)/2单位，显示子格只余原F³单列，原第三块首商单位证明其Smith因子准确p；原低行右逆可取消该行，不能提升到全W_D。完整R502四项和原其余列同Schur运输；R545像单独也不吸尾，但两像相加的交仍未置零。
 R525/534全参数双接触与三Gauss行给primitive p²核至少(3/7)^(1/3)N^(1/3)权，低ell至少(68/147)^(1/6)p^(1/6)；仍允许O(N)权，不排原核。R530仅同一B或conductor·B的整Fermat连接，裸Q保A/像稳定未付。
 失败边界全留notes/results：Fermat移位只是j整对角核方程组合；normal局部修正清极升5C，不能付原3C连接；两份2026sigma/LT新稿只读摘要，实际LT字符未识别原source。继续原forcing、同一R、全carry及完整中央，不以容量或单位块收尾。
 

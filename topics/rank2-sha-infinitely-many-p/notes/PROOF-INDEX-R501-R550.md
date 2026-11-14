@@ -113,7 +113,7 @@
 
 - [R540：原六度完整Schwartz与负二Katz点](../results/R540-original-degree-six-schwartz-full-weight-and-negative-two-katz.md)：原f4/f1的实际有限角色ξ、导子(6)、二/三处完整环面及Schwartz、Hermite/周期和全权平方已付；固定负二矩准确读取36c4·17^(3/2)Ωp I−2²的primitive Katz值。真实复反射ξ^-1ψ0³根数−1，与f1正一次的ξψ0³不同；全部普通Euler和同CM-type对偶保持，负矩非消失仍未付。
 
-- [R547：零charge垂直单位块与原cube单列余项](../results/R547-zero-charge-vertical-unit-block-and-actual-cubic-schur-column.md)：原W_F(H)=F EH−2(EF)H在同一H3内零新增charge；T_J=s−r/T_M=s−r−13的强窗给2κ+χ个单位，且其像与全部ξ高epsilon尾交零。联原F²H1在q=T−h>κ时有(5κ+3χ)/2个单位，显示子格只剩原F³一条非单位来源；原其余列、全forcing/carry及与R545两像的联合交仍保留。
+- [R547：零charge垂直单位块与原cube单列余项](../results/R547-zero-charge-vertical-unit-block-and-actual-cubic-schur-column.md)：原W_F(H)=F EH−2(EF)H在同一H3内零新增charge；T_J=s−r/T_M=s−r−13的强窗给2κ+χ个单位，且其像与全部ξ高epsilon尾交零。联原F²H1在q=T−h>κ时有(5κ+3χ)/2个单位，显示子格只剩原F³一条非单位来源；原其余列、全forcing/carry及与R545两像的联合交仍保留。 显示同前缀子格的最后cube因子现由原第三块单位严格定为p；相对k行/原M的13+k行均保。原低行右逆不被该行杀，加回后仍须完整forcing。
 
 - [R544：原S3两态与三个真实环带补偿](../results/R544-original-s3-and-exact-mixed-unit-complement.md)：原第三η支与ρ0在带ω²的H及输入反射下成完整S3，三个旋转框架的whole核、逐步归一词域和六步混Y返回全付。Lunit精确拆成三不交环带与唯一全单位余域，原S/T双零接到一个明确η测试差；同一L-odd六输入有负矩单位，但原补域、混合权和外谱全部保留。
 
