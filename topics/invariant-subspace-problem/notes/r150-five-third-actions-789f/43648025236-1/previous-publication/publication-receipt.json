@@ -1,0 +1,41 @@
+{
+  "format": "r150-five-third-terminal-publication-v1",
+  "status": "publication-failed",
+  "run_id": "43648025236",
+  "run_attempt": "1",
+  "source_commit": "5137a924244d90e6d725ad5436df13296cdb57b0",
+  "allowedResultDirectory": "topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1",
+  "sharedResearchIndicesEdited": false,
+  "forcePushUsed": false,
+  "rulesAtSource": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "pulls": [
+    {
+      "beforeReadCommit": "5137a924244d90e6d725ad5436df13296cdb57b0",
+      "originMainAfterPull": "5137a924244d90e6d725ad5436df13296cdb57b0",
+      "exitCode": 0,
+      "rulesSHA256": {
+        "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+        "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+      },
+      "rulesDiffer": false,
+      "diffFile": "readme-diff-after-pull-1.patch"
+    }
+  ],
+  "pushes": [],
+  "actualOutputsPreservedBeforeGit": true,
+  "actualRecoveryPreservation": {
+    "allActualRecoveryFilesPreserved": true,
+    "allStageCachesIncluded": true,
+    "originalFiles": 1,
+    "originalBytes": 10376,
+    "fallbackFiles": 1
+  },
+  "preparedStoredFiles": 7,
+  "preparedOriginalBytes": 14923,
+  "lastRulesReadCommit": "5137a924244d90e6d725ad5436df13296cdb57b0",
+  "errorType": "RuntimeError",
+  "error": "terminal git failed: add -- topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1"
+}

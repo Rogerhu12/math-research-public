@@ -1,0 +1,103 @@
+{
+  "format": "r150-five-third-target-space-original-publication-recovery-inputs-v1",
+  "publicationRecoveryRunId": "43649083239",
+  "publicationRecoveryRunAttempt": "1",
+  "publicationRecoverySourceCommit": "1665099f60c067ae0b65fb2e6e78ae6be5a88b19",
+  "originalMathematicalSource": {
+    "source_commit": "5137a924244d90e6d725ad5436df13296cdb57b0",
+    "run_id": "43648025236",
+    "rules_sha256": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "readOnlyCompletedNativeData": true,
+    "sourceRun": 43646683083,
+    "sourceDataCommit": "ca194ccead4869f8548748a3fd792963e49d63b0",
+    "mathematicalSecondsLimit": 20,
+    "memoryMiBLimit": 512
+  },
+  "originalResultsFiles": [
+    {
+      "file": "actions-console.log",
+      "bytes": 175,
+      "sha256": "57cb2618f6a7700374da6f2e788a78ad400696e21d4719589f38b4e30d4ffc5a"
+    },
+    {
+      "file": "actions-outcome.json",
+      "bytes": 223,
+      "sha256": "ab5a7518c1dbf42d7af32fb1fa4ebd278eea9a4fc4a1394b9934f184b4ce45b7"
+    },
+    {
+      "file": "actions-source.json",
+      "bytes": 513,
+      "sha256": "c2d9a176194bcaa52e631da3a00f6c903a77576dbdffae33e3b4b52e25d7d637"
+    },
+    {
+      "file": "five-third-target-space-receipt.json",
+      "bytes": 10376,
+      "sha256": "912dcd0a4218c949326cc90b7d7e9d9cb3a84f6e01d9ee05749c35c2d9bc4404"
+    }
+  ],
+  "artifacts": {
+    "format": "r150-five-third-target-space-exact-artifact-recovery-v1",
+    "newMathematicalStagesExecuted": false,
+    "allCompleteZipHashesVerified": true,
+    "artifacts": [
+      {
+        "scope": "original-output",
+        "id": 14134449743,
+        "name": "isp-r150-five-third-target-space-43648025236-1",
+        "zipBytes": 6668,
+        "zipSHA256": "5281e3f5bfe6f8418607cb623eac521c9190b338a092d4aa52f3de102f64a1a0",
+        "metadata": {
+          "id": 14134449743,
+          "node_id": "MDg6QXJ0aWZhY3QxNDEzNDQ0OTc0Mw==",
+          "name": "isp-r150-five-third-target-space-43648025236-1",
+          "size_in_bytes": 6668,
+          "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14134449743",
+          "archive_download_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14134449743/zip",
+          "expired": false,
+          "digest": "sha256:5281e3f5bfe6f8418607cb623eac521c9190b338a092d4aa52f3de102f64a1a0",
+          "created_at": "2026-11-14T22:25:41Z",
+          "updated_at": "2026-11-14T22:25:41Z",
+          "expires_at": "2026-12-14T22:25:40Z",
+          "workflow_run": {
+            "id": 43648025236,
+            "repository_id": 1457408986,
+            "head_repository_id": 1457408986,
+            "head_branch": "main",
+            "head_sha": "5137a924244d90e6d725ad5436df13296cdb57b0"
+          }
+        }
+      },
+      {
+        "scope": "prior-publication",
+        "id": 14134723893,
+        "name": "isp-r150-five-third-target-space-publication-43648025236-1",
+        "zipBytes": 2458,
+        "zipSHA256": "ca238815457d1dcffce07482dddc1ae5d0ca14319d51777bb718ec2a979e86c2",
+        "metadata": {
+          "id": 14134723893,
+          "node_id": "MDg6QXJ0aWZhY3QxNDEzNDcyMzg5Mw==",
+          "name": "isp-r150-five-third-target-space-publication-43648025236-1",
+          "size_in_bytes": 2458,
+          "url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14134723893",
+          "archive_download_url": "https://api.github.com/repos/Rogerhu12/math-research-public/actions/artifacts/14134723893/zip",
+          "expired": false,
+          "digest": "sha256:ca238815457d1dcffce07482dddc1ae5d0ca14319d51777bb718ec2a979e86c2",
+          "created_at": "2026-11-14T22:25:42Z",
+          "updated_at": "2026-11-14T22:25:42Z",
+          "expires_at": "2026-12-14T22:25:42Z",
+          "workflow_run": {
+            "id": 43648025236,
+            "repository_id": 1457408986,
+            "head_repository_id": 1457408986,
+            "head_branch": "main",
+            "head_sha": "5137a924244d90e6d725ad5436df13296cdb57b0"
+          }
+        }
+      }
+    ]
+  },
+  "newMathematicalStagesExecuted": false
+}

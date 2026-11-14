@@ -1,0 +1,29 @@
+{
+  "format": "r150-five-third-target-space-complete-actual-recovery-publication-v1",
+  "allActualRecoveryFilesPreserved": true,
+  "allStageCachesIncluded": true,
+  "originalFiles": 1,
+  "originalBytes": 10376,
+  "fallbackFiles": 1,
+  "files": [
+    {
+      "originalFile": "five-third-target-space-receipt.json",
+      "originalBytes": 10376,
+      "originalSHA256": "912dcd0a4218c949326cc90b7d7e9d9cb3a84f6e01d9ee05749c35c2d9bc4404",
+      "allBytesPreserved": true,
+      "storage": "publication-lossless-fallback",
+      "resultFiles": [
+        "recovery-fallback/192deeab0d072f73e7ae4ddadc41a90f62a29040b7b07d787f6a87a3438f7358.gz"
+      ],
+      "compressedBytes": 2601,
+      "compressedSHA256": "0664885b547b5e47f12b421d67b1933a9e83ce5d674f732e9633a81f086fafdc",
+      "parts": [
+        {
+          "file": "recovery-fallback/192deeab0d072f73e7ae4ddadc41a90f62a29040b7b07d787f6a87a3438f7358.gz",
+          "bytes": 2601,
+          "sha256": "0664885b547b5e47f12b421d67b1933a9e83ce5d674f732e9633a81f086fafdc"
+        }
+      ]
+    }
+  ]
+}

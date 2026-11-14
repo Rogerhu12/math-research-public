@@ -1,0 +1,49 @@
+{
+  "format": "r150-five-third-target-space-prior-publication-diagnosis-v1",
+  "priorPublicationReceipt": {
+    "format": "r150-five-third-terminal-publication-v1",
+    "status": "publication-failed",
+    "run_id": "43648025236",
+    "run_attempt": "1",
+    "source_commit": "5137a924244d90e6d725ad5436df13296cdb57b0",
+    "allowedResultDirectory": "topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1",
+    "sharedResearchIndicesEdited": false,
+    "forcePushUsed": false,
+    "rulesAtSource": {
+      "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+    },
+    "pulls": [
+      {
+        "beforeReadCommit": "5137a924244d90e6d725ad5436df13296cdb57b0",
+        "originMainAfterPull": "5137a924244d90e6d725ad5436df13296cdb57b0",
+        "exitCode": 0,
+        "rulesSHA256": {
+          "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+          "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+        },
+        "rulesDiffer": false,
+        "diffFile": "readme-diff-after-pull-1.patch"
+      }
+    ],
+    "pushes": [],
+    "actualOutputsPreservedBeforeGit": true,
+    "actualRecoveryPreservation": {
+      "allActualRecoveryFilesPreserved": true,
+      "allStageCachesIncluded": true,
+      "originalFiles": 1,
+      "originalBytes": 10376,
+      "fallbackFiles": 1
+    },
+    "preparedStoredFiles": 7,
+    "preparedOriginalBytes": 14923,
+    "lastRulesReadCommit": "5137a924244d90e6d725ad5436df13296cdb57b0",
+    "errorType": "RuntimeError",
+    "error": "terminal git failed: add -- topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1"
+  },
+  "actualPriorTerminalGitLog": "$ git status --porcelain\nexit=0\n$ git switch -c isp-five-third-output-43648025236-1\nSwitched to a new branch 'isp-five-third-output-43648025236-1'\nexit=0\n$ git config user.name github-actions[bot]\nexit=0\n$ git config user.email 41898282+github-actions[bot]@users.noreply.github.com\nexit=0\n$ git pull --rebase origin main\nAlready up to date.\nFrom https://github.com/Rogerhu12/math-research-public\n * branch            main       -> FETCH_HEAD\n * [new branch]      main       -> origin/main\nexit=0\n$ git rev-parse origin/main\n5137a924244d90e6d725ad5436df13296cdb57b0\nexit=0\n$ git diff 5137a924244d90e6d725ad5436df13296cdb57b0 5137a924244d90e6d725ad5436df13296cdb57b0 -- README.md topics/invariant-subspace-problem/README.md\nexit=0\n$ git add -- topics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1\nThe following paths and/or pathspecs matched paths that exist\noutside of your sparse-checkout definition, so will not be\nupdated in the index:\ntopics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1/actions-console.log\ntopics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1/actions-outcome.json\ntopics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1/actions-source.json\ntopics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1/complete-actual-recovery-publication-manifest.json\ntopics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1/five-third-target-space-receipt.json\ntopics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1/publication-before-push.json\ntopics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1/publication-file-manifest.json\ntopics/invariant-subspace-problem/notes/r150-five-third-actions-789f/43648025236-1/recovery-fallback/192deeab0d072f73e7ae4ddadc41a90f62a29040b7b07d787f6a87a3438f7358.gz\nhint: If you intend to update such entries, try one of the following:\nhint: * Use the --sparse option.\nhint: * Disable or modify the sparsity rules.\nhint: Disable this message with \"git config set advice.updateSparsePath false\"\nexit=1\n",
+  "originalMathematicalRun": 43648025236,
+  "publicationRecoveryRunId": "43649083239",
+  "newMathematicalStagesExecuted": false,
+  "stagingAllowsExactResultPathOutsideSparseCheckout": true
+}
