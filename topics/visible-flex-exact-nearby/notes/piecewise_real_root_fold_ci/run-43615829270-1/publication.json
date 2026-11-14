@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 1,
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43615829270",
+  "reviewed_pull_history": [
+    {
+      "before": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+      "after": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+      "after": "782b584114c889039297b57530d9a5ed4b368f4e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/piecewise-real-root-fold.json.gz",
+      "bytes": 2717855,
+      "sha256": "feab71e2ba588e79f97f2beb821b5db29425bf7c69dceb010719ec0df6dd49cd",
+      "original_sha256": "feab71e2ba588e79f97f2beb821b5db29425bf7c69dceb010719ec0df6dd49cd"
+    },
+    {
+      "file": "consumers/piecewise-real-root-fold.stdout.log",
+      "bytes": 2027,
+      "sha256": "6724985e7cddb456005761de469738aeaf7b968cb03d13cd14757f437b409b4a",
+      "original_sha256": "6724985e7cddb456005761de469738aeaf7b968cb03d13cd14757f437b409b4a"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 4069,
+      "sha256": "d81e139a47ae981836663e71a8c24041d1c933697a254dea026a989f29aef404",
+      "original_sha256": "d81e139a47ae981836663e71a8c24041d1c933697a254dea026a989f29aef404"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 3683,
+      "sha256": "a459fb5b3ba704ea40f63f31ac41151376631c71e99b6156dd3d730a50227320",
+      "original_sha256": "a459fb5b3ba704ea40f63f31ac41151376631c71e99b6156dd3d730a50227320"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 3086,
+      "sha256": "114fd38e8752315c5d5ee6579398bb31c4dd63c0a347156654d6beca48614174",
+      "original_sha256": "114fd38e8752315c5d5ee6579398bb31c4dd63c0a347156654d6beca48614174"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

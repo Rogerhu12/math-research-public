@@ -1,0 +1,65 @@
+{
+  "kind": "actual_public_piecewise_real_root_fold_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43615829270",
+  "run_attempt": "1",
+  "workflow_commit": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+  "worker_sha256": "5163c0d607fb79937be24e7def316b8f414e158753cbeea1a691a5eb26000a5f",
+  "manifest_sha256": "ad82be1753e0d08259f930db8429d09e93c94ffc7411329950ca301f8377f6ab",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T16:29:38.232632+00:00",
+  "complete": false,
+  "readme_checks": [
+    {
+      "before": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+      "after": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+      "after": "782b584114c889039297b57530d9a5ed4b368f4e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 1,
+  "final_topic_complete": false,
+  "original_response_shards_reuse": {
+    "original_public_preparation_run": 43583838026,
+    "original_prepared_manifest_sha256": "fd7594990ecc126e63a79198e00bbaf5912537ff1db480ade8ac82ff8917c893",
+    "original_artifact_name": "visible-exact-body-prepared-43583838026-1",
+    "original_shards": [
+      {
+        "original_relative_file": "trials/response/response-full-part004.npz.gz",
+        "bytes": 2699786,
+        "sha256": "12f06fd89466659ddbcef6abdc52b561189f12bd67d55b0e5a73acd971bb9cee",
+        "persisted_same_bytes": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full-part004.npz.gz"
+      },
+      {
+        "original_relative_file": "trials/response/response-full-part006.npz.gz",
+        "bytes": 2700421,
+        "sha256": "68090bc73a3d099b9631b01419ac9607ff34cf4b0398518db242fec5ac32dc31",
+        "persisted_same_bytes": "topics/visible-flex-exact-nearby/data/current_root_phase_response_20261114/response-full-part006.npz.gz"
+      }
+    ],
+    "mathematical_reconstruction_executed": false,
+    "artificial_byte_splitting_performed": false
+  },
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-piecewise-real-root-fold-CI-inputs.json",
+    "--manifest-sha",
+    "ad82be1753e0d08259f930db8429d09e93c94ffc7411329950ca301f8377f6ab",
+    "--out-dir",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-output/consumers"
+  ],
+  "complete_original_inputs_verified": 199,
+  "actual_scientific_checkout_commit": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+  "mathematical_wall_seconds": 14.844810036000013
+}

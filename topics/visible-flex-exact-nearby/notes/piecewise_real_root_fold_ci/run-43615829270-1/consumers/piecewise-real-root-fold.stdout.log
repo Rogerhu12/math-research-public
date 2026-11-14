@@ -1,0 +1,20 @@
+{"accepted_closed_rows": 1, "right": "3935020174414971/18014398509481984", "seconds": 0.752014585000012}
+{"accepted_closed_rows": 65, "right": "249574479350115/1125899906842624", "seconds": 1.5156402590000084}
+{"accepted_closed_rows": 129, "right": "126458497349277/562949953421312", "seconds": 2.3232639549999874}
+{"accepted_closed_rows": 193, "right": "4100152160751889/18014398509481984", "seconds": 3.1746623880000016}
+{"accepted_closed_rows": 257, "right": "8293425626298887/36028797018963968", "seconds": 4.123416684999995}
+{"accepted_closed_rows": 321, "right": "8360432308254729/36028797018963968", "seconds": 5.088501425999993}
+{"accepted_closed_rows": 385, "right": "67373706822858497/288230376151711744", "seconds": 6.163089305}
+{"accepted_closed_rows": 449, "right": "8456759300284599/36028797018963968", "seconds": 7.2592043360000105}
+{"accepted_closed_rows": 513, "right": "2122634074372469/9007199254740992", "seconds": 8.427637584999985}
+{"accepted_closed_rows": 577, "right": "4261101116184913/18014398509481984", "seconds": 9.634125350999994}
+{"accepted_closed_rows": 641, "right": "267166665394531/1125899906842624", "seconds": 10.879511253000004}
+{"accepted_closed_rows": 705, "right": "41899776671269251162038003/175921860444160000000000000", "seconds": 12.200013224999992}
+Traceback (most recent call last):
+  File "/__w/_temp/visible-exact-piecewise-real-root-fold-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold.py", line 556, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "/__w/_temp/visible-exact-piecewise-real-root-fold-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold.py", line 344, in main
+    if not distance>0 or not vals["K"]>0: raise ValueError("positive divided curvature loses its true sign")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: positive divided curvature loses its true sign

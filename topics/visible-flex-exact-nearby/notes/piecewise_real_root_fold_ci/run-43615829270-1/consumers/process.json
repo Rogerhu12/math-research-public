@@ -1,0 +1,104 @@
+{
+  "kind": "actual_public_piecewise_real_root_fold_execution",
+  "complete": false,
+  "failure": {
+    "type": "SystemExit",
+    "message": "1"
+  },
+  "public_repository": "Rogerhu12/math-research-public",
+  "run_id": "43615829270",
+  "run_attempt": "1",
+  "workflow_event_commit": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+  "actual_scientific_checkout_commit": "1dff02f36977a5af4d9c94d4e5098b9d47f7efe8",
+  "source_sha256": "41d849492163791e32fb0b04a54e4b35291b97d8df206e4894894c96cb904a39",
+  "manifest_sha256": "ad82be1753e0d08259f930db8429d09e93c94ffc7411329950ca301f8377f6ab",
+  "original_169_germs_4650_rows_candidate_or_response_recomputed": 0,
+  "new_forced_amplitudes_CE_Cs_and_cutoff97_not_claimed": true,
+  "actual_returncode": 1,
+  "verified_input_files": 199,
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_piecewise_real_root_fold.py",
+    "--repo-root",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-piecewise-real-root-fold-CI-inputs.json",
+    "--out",
+    "/__w/_temp/visible-exact-piecewise-real-root-fold-output/consumers/piecewise-real-root-fold.json.gz"
+  ],
+  "mathematical_source_sha256": "7be49f6519cc27d7c21ae2439478f8b2674b3b0f24ed24f38c60c6b61f5e9557",
+  "mathematical_wall_seconds": 14.543639380999991,
+  "native_sha256": "feab71e2ba588e79f97f2beb821b5db29425bf7c69dceb010719ec0df6dd49cd",
+  "native_bytes": 2717855,
+  "mathematical_complete": false,
+  "mathematical_failure": {
+    "type": "ValueError",
+    "message": "positive divided curvature loses its true sign"
+  },
+  "mathematical_gates": [
+    {
+      "name": "the original exact continuous repair and all193 direction identities match",
+      "passed": true
+    },
+    {
+      "name": "the complete original complex intrinsic root germ and zero compact support are retained",
+      "passed": true
+    },
+    {
+      "name": "the entire larger real window is outside the exact compact metric support",
+      "passed": true
+    },
+    {
+      "name": "the exact original candidate and full193 physical response coordinates remain",
+      "passed": true
+    },
+    {
+      "name": "both original polynomial families cover the whole larger window with identical nodes",
+      "passed": true
+    },
+    {
+      "name": "all complete physical repair offsets are reused as exact value fees only",
+      "passed": true
+    },
+    {
+      "name": "the whole original scalar cover is actual eta0 with every accepted cell",
+      "passed": true
+    },
+    {
+      "name": "all626 original scalar identities were retained and their selected restriction is gap free",
+      "passed": true
+    },
+    {
+      "name": "the full original positive cache and exact root overlap cover the selected positive part",
+      "passed": true
+    },
+    {
+      "name": "the original root derivative supplies the complete real divided-curvature gap",
+      "passed": true
+    }
+  ],
+  "actual_case_outcomes": [],
+  "selected": null,
+  "exact_root_interval": null,
+  "exact_cover": null,
+  "exact_complex_parameter_radius": "1/100000000",
+  "accepted_closed_rows": 705,
+  "complete_original_seams": null,
+  "original_negative_scalar_cells": null,
+  "original_positive_rows": null,
+  "all_proposed_radii_passed": null,
+  "old_coefficient_width": null,
+  "old_characteristic_output_width": null,
+  "certified_original_circle_inverse_widths": null,
+  "full193_direction_and_independent_even_mean": true,
+  "radial_domain_is_real_and_original_piecewise_smooth": true,
+  "radial_holomorphic_continuation_across_original_seams_claimed": false,
+  "new_Airy_forcing_amplitudes_or_strong_remainder_norm_evaluated": false,
+  "numerical_cutoff97_return_inverse_claimed": false,
+  "actual_PDE_branch_claimed": false,
+  "actual_completed_prefix_interval": [
+    "1091984371497/5000000000000",
+    "1192029371497/5000000000000"
+  ]
+}
