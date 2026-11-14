@@ -1,8 +1,12 @@
 {
-  "request": "20261114-public-large-core-mainline-18",
+  "request": "20261114-public-large-core-mainline-19",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "trustresume"
+    "coldtailprobe"
   ],
-  "scope": "Resume exactly request17 warm-003, SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886, after verifying all nine unchanged producer source hashes. Use the unchanged original699 exact-constraint warm with one model, 200 LSMR iterations and damping270, following the actual previous damping rule. The specific question is whether further original linear minimization changes the measured turn-interval473 RMS domain-limited direction; do not infer progress from iteration count. Preserve original inputs, full collocation/Rphi, all original nonlinear node/mid/RMS domain checks and actual matched merit tests. Recompute the complete original boundary Richardson check on any new actual decreased warm. This lane is warm-only: do not repeat the failed native nonzero-H solve or claim a BVP/closure acceptance. All scientific computations remain in this public repository Actions."
+  "scope": "Replay exactly the retained request17 iteration0 failed cold tail. Verify all six actual input files and unchanged numerical source/config/ready/capacity identities, then one original dn.tail.evaluate(savedStates, originalTarget, false, originalScales). Retain all M112 modes, RK12, original far Robin graph, gains and scales. Record complete stage/component residuals and actual cold-initial identity. No nonlinear solve, full variational J, zero-anchor recomputation, changed boundary, height threshold, or new acceptance. This diagnostic determines the next actual initializer change; all scientific computation runs only in this public repository Actions.",
+  "source_sha256": {
+    "exact_20261114_tail_cold_residual_probe.py": "5baf4b5505da6e124420253996630f6ebe6ecbc019f26938fa5747b147598515",
+    "exact_20261114_tail_cold_residual_probe_hook.mjs": "ad64dbc9ac33bcb51d693445649bf15164df7742587087a50dfe4ddb5dc117bd"
+  }
 }

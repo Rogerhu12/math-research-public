@@ -559,3 +559,8 @@ bot发布只因并发main CAS拒绝被漏分类而终止；已补明确cannot-lo
 ### 2026-11-14 13:58 UTC — identify the true cold-start path without rounding away its input
 
 真实17的zero import明示未导入server predictor，首非零H走原tail.initial；原ready stage graphs用256步、实际state/J为RK12，归一化scales与H同时缩小，不能把1.34e7直接叫位置幅度。实际最坏stage/模式仍待无J原evaluate定位，未预断全部根因。MaterialTrace常数列已为零，保存的非mean扰动确实传到原H，不能阈值归零；完整源路径说明已保全。request18实际run43602070499的warm-only继续。
+
+
+### 2026-11-14 request19：只重放实际 cold-tail 的原无J残差
+
+新增 exact_20261114_tail_cold_residual_probe.py / hook.mjs 与接口说明，逐SHA绑定run43598917532六原输入；原TailClient source/config/ready/capacity全部先核。一次原evaluate(savedStates,target,false,scales)保留576stage×224分量、原far Robin/graphs/gains/scales；只替换请求循环，明确记录instrumentation身份，无solve/Newton/J/零锚复算或新接受。root全文读源码并核静态接口后接public coldtailprobe lane/request19；实际数值待Actions。request18已实际job success、两artifact取回，科学内容正在读取，未当BVP接受。
