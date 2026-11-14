@@ -407,3 +407,7 @@ run43615655870/source218254b9的80源/2输出全字节SHA核同；实际四阶�
 ## 2026-11-14 16:34 UTC — R58 完整第四period的真正单P目标
 
 R45准确四块几何上，第四整个周期函数不受任意合法第二、第三profile gauge改变；第二gauge的第三ruling相容由真实差方程保证。保留第三primitive端值0→a→2a→a→0，标量加a使场减Y_a，单P的全零二阶算子准确消历史增量，故完整第四period等于4倍canonical单Pperiod。逐ruling仍需四块全历史，没有任何实际第四周期已支付。 root核全局偶/奇恢复的端点锚、真实齐次分类、合法gauge差方程、四块历史及负号，source全文独核。compiler actual独立核同80源/2输出及732=27+318+387，未宣称从摘要独立重算DAG本体；不把冗余项数当条件秩。修正此前两条记录的估计时分，保日期和原事件内容。下一真实P/profile求解保同一支撑与全部函数关系。
+
+## 2026-11-14 16:34 UTC — 冻结并部署natural/body双初态直接度量审计
+
+root全文核三新源码、12KB数学说明及三人工输出全部来源SHA；source独立核主链/直接Jac与完整anchor绑定。R/shape全Jac≤4.20e−9、直接metric/shape全Jac≤8.54e−9、body列≤4.80e−9；设计后冻结7位置jet/R重放差0。旧13源冻结。共享workflow新增natural_body_initial唯一25min lane，先三人工check与c0/c1实际输入SHA门，再同原c0锚两初态；五body系数均0，原R与真实度量成本分开、仅未应用线性预测、GH和Pi同态加密。无非线性优化；所有真实评价仍仅公开Actions。

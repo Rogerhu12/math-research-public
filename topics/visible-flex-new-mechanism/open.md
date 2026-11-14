@@ -239,3 +239,5 @@ R56准确分子代数run43614455269已核79源/732B输出，六身份全0且原�
 ### R58 后的真实单P第四period
 
 R45准确四块几何上，第四整个周期函数不受任意合法第二、第三profile gauge改变；第二gauge的第三ruling相容由真实差方程保证。保留第三primitive端值0→a→2a→a→0，标量加a使场减Y_a，单P的全零二阶算子准确消历史增量，故完整第四period等于4倍canonical单Pperiod。逐ruling仍需四块全历史，没有任何实际第四周期已支付。 下一可只在canonical单P上评整个period后乘4；若其非零，不能靠合法低阶gauge修补。仍须实际设计同一P和profile消所有函数条件，四块ruling不能被单P缩并或各段重锚。
+
+natural_body_initial已冻结部署，具体三源/人工输出/数学身份见notes/natural-cap-body-metric-initial-audit-implementation-20261114.md与request。先全源审公开c0/c1初态、直接operator误差、两类线性预测及GH/Pi差；根据真实证据决定设计或固定g求解，不能把线性预测当实际下降，不能改锚。

@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -88,6 +88,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43597247312-1-cosine_core/
             /topics/visible-flex-new-mechanism/notes/actions-43602519926-1-ellipse_frame/
             /topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/
+            /topics/visible-flex-new-mechanism/notes/actions-43612971265-1-ellipse_saturated_heat/
       - name: Prepare bounded public output directory
         run: |
           git config gc.auto 0
@@ -758,6 +759,35 @@ jobs:
             --max-coefficient-nodes 750000 --max-profile-atoms 100000 \
             --max-separated-terms 100000 --max-seconds 300 \
             --out "$VISIBLE_NEW_OUT/full-fourth-profile-algebra.json"
+      - name: Audit natural cap initial fields and explicit body metric directions
+        if: matrix.lane == 'natural_body_initial'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_body_metric_design.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/body-metric-development-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/polygonal_tail_natural_extension.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/natural-cap-development-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_collar_natural_body_audit.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/natural-body-frame-development-check.json"
+          python - <<'PYHASH'
+          import hashlib, os
+          from pathlib import Path
+          notes = Path(os.environ['GITHUB_WORKSPACE']) / 'topics/visible-flex-new-mechanism/notes'
+          expected = {
+              'actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json': '6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3',
+              'actions-43612971265-1-ellipse_saturated_heat/frame-ellipse-six-cap-saturated-heat-fixed.json.gz': '969a144e05c3dd58b1aa46785fdb900229f3125e0f410c1337de889133d34959',
+          }
+          for name, sha in expected.items():
+              if hashlib.sha256((notes/name).read_bytes()).hexdigest() != sha:
+                  raise SystemExit('Natural body audit input hash mismatch: '+name)
+          PYHASH
+          python -u "$VISIBLE_NEW_SCRIPTS/frame_collar_natural_body_audit.py" \
+            --input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json" \
+            --compare-saturated-input "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43612971265-1-ellipse_saturated_heat/frame-ellipse-six-cap-saturated-heat-fixed.json.gz" \
+            --metric-free 5 --support-width 1/10 --plateau-fraction 1/3 --tau0 1/128 \
+            --heat-order 32 --radial-nodes 61 --angular-nodes 192 --quadrature-order 4 \
+            --audit-radial-nodes 121 --audit-angular-nodes 384 \
+            --out "$VISIBLE_NEW_OUT/frame-natural-body-initial-audit.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

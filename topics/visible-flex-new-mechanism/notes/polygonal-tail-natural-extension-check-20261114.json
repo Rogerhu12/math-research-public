@@ -1,0 +1,198 @@
+{
+  "schema": "natural-single-cap-flat-heat-development-v1",
+  "passed": true,
+  "artificial_inputs_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "checks": [
+    {
+      "side": 1,
+      "heat_scale_finite_difference_errors": {
+        "sigma_s": 4.279534504547655e-10,
+        "sigma_ss": 6.884002345941553e-08
+      },
+      "scalar_spatial_jet_relative_errors": {
+        "u_s": 1.6931815671750172e-10,
+        "u_ss": 1.8850356852691605e-09,
+        "u_theta": 1.0805207423247865e-11,
+        "u_st": 2.3123687295341882e-10,
+        "u_ss_theta": 3.4100242839342456e-10,
+        "u_ss_thetatheta": 2.5785626250116325e-10,
+        "v_s": 1.0090383936042215e-09,
+        "v_ss": 2.627806906842245e-09,
+        "v_theta": 7.752834485508231e-11,
+        "v_st": 1.2937924526668602e-10,
+        "v_ss_theta": 2.2570455681742376e-10,
+        "v_ss_thetatheta": 4.512894181985326e-10,
+        "beta_s": 7.099532409844408e-10,
+        "beta_ss": 5.512889484523881e-09,
+        "beta_theta": 3.1709765483674946e-10,
+        "beta_st": 8.25839336045213e-11,
+        "beta_ss_theta": 1.999007749538591e-10,
+        "beta_ss_thetatheta": 7.565112581399335e-10
+      },
+      "accurate_port_full_Jet22_error": 0.0,
+      "inside_R_independent_old_port_error": 0.0,
+      "twofold_and_reflection_error": 8.881784197001252e-16,
+      "endpoint_and_small_delta_scale_evaluation": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "plateau_cutoff_value_s_ss": [
+        [
+          0.0,
+          0.7334323199999985,
+          1.0,
+          1.0
+        ],
+        [
+          3.67546839848673e-58,
+          31.352832000000053,
+          0.0,
+          0.0
+        ],
+        [
+          4.965851432951058e-41,
+          -1567.6415999999904,
+          -0.0,
+          -0.0
+        ]
+      ],
+      "fixed_model_GH_differences": {
+        "16_to_32": {
+          "value": 0.00011727031514974229,
+          "s": 0.034504710984079257,
+          "ss": 11.471563332038187,
+          "theta": 0.006567123622050253,
+          "st": 1.8153640100843025,
+          "tt": 0.879866495997512,
+          "ss_theta": 1261.1799019191162,
+          "ss_thetatheta": 82580.70543351807
+        },
+        "32_to_64": {
+          "value": 8.924880278558811e-06,
+          "s": 0.0029669924626190003,
+          "ss": 2.177720985730325,
+          "theta": 0.0009683820462861314,
+          "st": 0.3828992228898578,
+          "tt": 0.10978103377653618,
+          "ss_theta": 188.32227157406157,
+          "ss_thetatheta": 19125.41321984839
+        }
+      },
+      "same_identity_under_GH_refinement": true,
+      "physical_identity_sha256": "5111a93dad2df10a96cff9f23fd6c6e9f2cc8ec0008017815c653f8f4f0b35ac"
+    },
+    {
+      "side": -1,
+      "heat_scale_finite_difference_errors": {
+        "sigma_s": 4.279534504547655e-10,
+        "sigma_ss": 6.884002345941553e-08
+      },
+      "scalar_spatial_jet_relative_errors": {
+        "u_s": 1.6931815671750172e-10,
+        "u_ss": 1.8850356852691605e-09,
+        "u_theta": 1.0805207423247865e-11,
+        "u_st": 2.3123687295341882e-10,
+        "u_ss_theta": 3.4100242839342456e-10,
+        "u_ss_thetatheta": 2.5785626250116325e-10,
+        "v_s": 1.0090383936042215e-09,
+        "v_ss": 2.627806906842245e-09,
+        "v_theta": 7.752834485508231e-11,
+        "v_st": 1.2937924526668602e-10,
+        "v_ss_theta": 2.2570455681742376e-10,
+        "v_ss_thetatheta": 4.512894181985326e-10,
+        "beta_s": 7.099532409844408e-10,
+        "beta_ss": 5.512889484523881e-09,
+        "beta_theta": 3.1709765483674946e-10,
+        "beta_st": 8.25839336045213e-11,
+        "beta_ss_theta": 1.999007749538591e-10,
+        "beta_ss_thetatheta": 7.565112581399335e-10
+      },
+      "accurate_port_full_Jet22_error": 0.0,
+      "inside_R_independent_old_port_error": 0.0,
+      "twofold_and_reflection_error": 8.881784197001252e-16,
+      "endpoint_and_small_delta_scale_evaluation": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "plateau_cutoff_value_s_ss": [
+        [
+          0.0,
+          0.7334323199999985,
+          1.0,
+          1.0
+        ],
+        [
+          3.67546839848673e-58,
+          31.352832000000053,
+          0.0,
+          0.0
+        ],
+        [
+          4.965851432951058e-41,
+          -1567.6415999999904,
+          -0.0,
+          -0.0
+        ]
+      ],
+      "fixed_model_GH_differences": {
+        "16_to_32": {
+          "value": 0.00011727031514974229,
+          "s": 0.034504710984079257,
+          "ss": 11.471563332038187,
+          "theta": 0.006567123622050253,
+          "st": 1.8153640100843025,
+          "tt": 0.879866495997512,
+          "ss_theta": 1261.1799019191162,
+          "ss_thetatheta": 82580.70543351807
+        },
+        "32_to_64": {
+          "value": 8.924880278558811e-06,
+          "s": 0.0029669924626190003,
+          "ss": 2.177720985730325,
+          "theta": 0.0009683820462861314,
+          "st": 0.3828992228898578,
+          "tt": 0.10978103377653618,
+          "ss_theta": 188.32227157406157,
+          "ss_thetatheta": 19125.41321984839
+        }
+      },
+      "same_identity_under_GH_refinement": true,
+      "physical_identity_sha256": "3c943399fbccd70a153045a701392c7eb2062c3724b5ec90f71772ec5d94327a"
+    }
+  ],
+  "passed_does_not_certify_GH_error_isometry_or_a_connector": true,
+  "source_files_sha256": {
+    "polygonal_tail_natural_extension.py": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
+    "polygonal_tail_heat_extension.py": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+    "polygonal_flat_tail_port.py": "3870844de95284c570839f489a6c6be74c825cbf6631d21684ff4374cae78797",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa"
+  }
+}

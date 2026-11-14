@@ -1,0 +1,118 @@
+{
+  "schema": "body-metric-design-development-v1",
+  "passed": true,
+  "artificial_parameters_only": true,
+  "research_geometry_evaluated": false,
+  "optimization_performed": false,
+  "analytic_parameter_jacobian_relative_errors": {
+    "a": 3.6936304006154963e-10,
+    "a_s": 2.64040303307061e-10,
+    "a_ss": 7.346717782091456e-11,
+    "K": 3.521712171949355e-11
+  },
+  "outside_support_bitwise_unchanged": {
+    "a": true,
+    "a_s": true,
+    "a_ss": true
+  },
+  "zero_controls_bitwise_replay_seed": true,
+  "support_boundary_two_jet_errors": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0
+  },
+  "sampled_fifth_order_ratios_not_a_continuous_certificate": {
+    "left": [
+      31.884698003122313,
+      31.94234115489485
+    ],
+    "right": [
+      31.884698003096254,
+      31.942341154909023
+    ]
+  },
+  "exact_family_definition": {
+    "schema": "body-only-positive-radial-metric-family-v1",
+    "seed_definition": {
+      "schema": "negative-K-open-port-radial-metric-v2",
+      "a0_source": {
+        "kind": "artificial-body-interface",
+        "exact_definition": "4/5"
+      },
+      "length": "11/10",
+      "cut_radius": "11/50",
+      "negative_curvature_drop": "3/10",
+      "core_fraction": "1/25",
+      "flat_fraction": "3/50",
+      "active_fractions": [
+        "1/4",
+        "7/20",
+        "2/5"
+      ],
+      "tail_smoothstep_order": 11,
+      "transition_orders": [
+        5,
+        5,
+        11
+      ],
+      "slope_definition": "d=-a_s: 0 -> mu -> nu -> 1 by the listed normalized smoothsteps",
+      "S5_definition": "10*x^3-15*x^4+6*x^5",
+      "S11_definition": "462*x^6-1980*x^7+3465*x^8-3080*x^9+1386*x^10-252*x^11",
+      "each_transition_integral_on_unit_interval": "1/2",
+      "nu_definition": "(((a0-rc)/L-flat_fraction)/active_fraction-A*gap-C)/(A+B)",
+      "mu_definition": "nu+gap; A=(f1+f2)/2,B=(f2+f3)/2,C=f3/2",
+      "whole_radius_positive_by_monotonicity": true,
+      "core_and_tail_are_open_exact_metric_regions": true,
+      "middle_integrated_Gaussian_curvature": "-2*pi*negative_curvature_drop",
+      "changing_any_parameter_is_metric_design_not_fixed_g_refinement": true,
+      "a_surface_realizing_this_metric_has_not_been_constructed": true,
+      "definition_sha256": "7527f6488c378b8f301d784156e1309cfb79a95be7633b11488b909c6fa464ca"
+    },
+    "body_support_exact": [
+      "11/250",
+      "467/500"
+    ],
+    "tail_patch_start_exact": "467/500",
+    "tail_start_exact": "517/500",
+    "tail_support_width_exact": "1/10",
+    "positive_radius_definition": "a_seed(t)*exp(sum_j(c_j*B_j(t)))",
+    "basis_degree": 5,
+    "basis_count": 4,
+    "clamped_knots_exact": [
+      "11/250",
+      "11/250",
+      "11/250",
+      "11/250",
+      "11/250",
+      "11/250",
+      "111/500",
+      "2/5",
+      "289/500",
+      "189/250",
+      "467/500",
+      "467/500",
+      "467/500",
+      "467/500",
+      "467/500",
+      "467/500"
+    ],
+    "retained_clamped_basis_indices": "3 through count+2 inclusive; first and last three discarded",
+    "endpoint_weight": "16*x^2*(1-x)^2 with x=(t-left)/(right-left)",
+    "zero_extension_outside_support": true,
+    "log_radius_vanishes_to_order_five_at_each_support_endpoint": true,
+    "core_radius_and_entry_a_prime_cubic_coefficient_unchanged": true,
+    "whole_tail_patch_metric_equals_seed": true,
+    "negative_curvature_integral_or_sign_not_inherited_from_seed": true,
+    "final_design_requires_freezing_the_complete_metric_before_refinement": true
+  },
+  "family_sha256": "3f1f441e6f9e64ca7b8373f198a6411fdffaefa30a7dd0bbafb196c1aaeb9765",
+  "frozen_binary64_rational_roundtrip": true,
+  "fifth_order_zero_also_follows_from_the_exact_basis_definition": true,
+  "source_files_sha256": {
+    "frame_body_metric_design.py": "8e4fd2b153be450e83e2eea8997847c84e40498307769e0fc01a29cb93430865",
+    "frame_collar_bvp.py": "64dffdbfc6456fe022105d264442d307c8f88022cdf755ec0a41ea97fff93d00",
+    "cosine_connector_radial_seed.py": "662292c1603a834e8295f7b36648f3c16f3b3904383c883dc8aa7faee4e40fc5",
+    "polygonal_tail_heat_extension.py": "abb965c27ce1aa19acd74a54cf301b3ff5589182a116d69819963717d56aa699",
+    "bent_flat_tail_port.py": "26f32a6ed77c82a2c67320ecbdf12031a3186fa5ae1a83b553ac722a7593dcfa"
+  }
+}
