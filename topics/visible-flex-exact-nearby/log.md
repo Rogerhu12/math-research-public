@@ -187,3 +187,7 @@ root完整读A1–14并核Schur+HS常数、反函数导数/adjoint Frobenius矩�
 ### 2026-11-14 18:10:33 UTC：根独读实际第一 forcing 14门并推结论
 
 根核36229B实际process全部14门、1328 exact cover、1/1327复用计数、真实原幂NaN/Horner probe、L0/两forced幅度/原mean-jump fees和全部scope false；报告8099B SHA edb1872d23000e2f3f51fddfb8ef26329fbc0c867a3cbf9f675e83924799a936。完成子题后立即接六R聚合/1079seam和positive负源窗，未停在阶段报告。四分区首range的精确9/10延拓guard失败另由独立恢复处理，保原1格及7活段。
+
+### 2026-11-14 18:18:04 UTC — 发布1079真实第一接缝与六半径消费者
+
+新五件 source9c71989fc069bb6cc35bcb18c03f5ca73b20a33d57387b6a2be2b5a48aefe71a、CI bba753481362704704edb9e86e89211e1e4f9d82845b75efe76942a06c825de7、manifest ffb042e48ee82ba6b9de068d87430fc27bfd8f4ad0b34b43807a3826c04eabaf（10pins）、worker fd03f66cb26c613d645f03f62557f5a25e786f8f78de7bcf4b8dd2ce235f624b、flow8ac3eedfe5d1ae2ba8672755e0b2fffd3f67369788133a0be92dbb04150c5add 已根全文核。只两个已成native，不重算任何原target/coef/transport/amplitude，新的1079算子和六窗口聚合仅公开Actions；45min child/50min wrapper前后真pull并核README。旧成功forcing14门及失败原首行保持。H9829B逐字归档，更新两端quarter失败与仅补缺恢复范围。
