@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`bdc58c8aa7ca8da9efee74919c7449e969a37f20`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`cdca66af222d3415960f1ff227655d89bfbe9823`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -42,7 +42,7 @@ R37/R45真实M0桥及四块几何闭合、R52完整三阶圆；仍不是有限�
 
 **R100已把m8 D25 c8缩成真实短action，符号未定**。R85/R88的4m−9/4m−8是M0已付零端势；R92第4m−7三primitive二次action真实原DAG已核。R95 actual43639240317把D25压1605项5组，const1375/linear139保，c10/c9准确零端势使period次数≤8。R100 actual43640085842完整34差式全0（11.634s/RSS96.859），保18+5=23真histories/完整参数族/原DAG。p=B4、η=ω−k/h、ell=B3−J2/2−ηp、zeta=B3−4ηp，真实p′=hk/8、ell′=−η′p、zeta′=(k²−1+hℓh)/8−4η′p，均零端。c8 period=(307328/15)∫[(2/5)p(zeta+10ell)zeta′−(2/5)(k/h)p²−p′zeta′/20−p′ell′/5]。完整端势见R100；31项系数化19项不授非零period。cert raw699591B SHA4b2fdc4d5210094575a14316a63705bb392d322aba862731d33727e79928f2df。
 
-R93/R97真实驱动约束：∫kh=0，K2=L+Elogh，∫hkω=K2，K2=−∫(F/h)kρ；平方给(S²−1)E≥L，故k换号/max|k|>1、h非恒/S>1。R100已把这些写成真正零端primitive，不能逐点置零或把p/ell/zeta独立化。k是frame参数非曲面主曲率。反射须保左右Volterra/ruling，不能由c8反号得负V。
+R93/R97真实驱动约束：∫kh=0，K2=L+Elogh，∫hkω=K2，K2=−∫(F/h)kρ；平方给(S²−1)E≥L，故k换号/max|k|>1、h非恒/S>1。R100已把这些写成真正零端primitive，不能逐点置零或把p/ell/zeta独立化。k是frame参数非曲面主曲率。已核反射(h,k,ω)→(h,−k,−ω)：c8反号，但同一几何把正支映到负支；右Volterra变左锚产生真实ruling补偿。当前阶ruling付清时完整period只作ξ反射、保持同号，不能由c8反号得负V。详notes/pure-tail-c8-sign-reflection-and-right-anchor-20261114.md。
 
 P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；完整证明与实际身份见results.md/notes/git。
 
