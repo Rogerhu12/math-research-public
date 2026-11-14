@@ -199,3 +199,7 @@ root完整读A1–14并核Schur+HS常数、反函数导数/adjoint Frobenius矩�
 ### 2026-11-14 18:21:17 UTC — 推送fullδ正侧s−1解析接口
 
 root/tail全文独核N1–15通过；补清raw mixed root输入9×17/16、输出9和Jc/Js/Ju单位，raw跳先付k*C，primitive完整H−1→L2的√17/4。只允许新消费者读取已成功的body summary/process、outer summary、collar process四小文本，保原4650kernel及其真实native身份；所有新scalar门只公开Actions。该结论为条件数值路线，actual inverse数值未运行不标完成。
+
+### 2026-11-14 18:25:04 UTC — 发布cached-quarter centre Hessian的精确恢复输入v2
+
+新source dfcc4dabe42638ba1ebd2af2b8a51cccd85dfb7f63738bbbae1b6fe38d3f28c7、CI b5029d5d69085114cef9219007488f1780e53e9d5ad73f44c3a0d88500ed9d64、184-pin manifest47ff50fc768a24269ea7dab3de284581fdf8be1abd04fb867d4a55be78b1368d；根核全部来源差异，原176与recovery164科学pins均零改。自residual_from_saved_cell至文件末数学逐字相同。原plan+6中段取43623547711，2恢复与finish用222b/cdae/b141，finish-only的range-run另从真实process读取；每range以finish所选process/native SHA绑定，所有7908/64pilot身份保。原缺midpoint局部整行fallback，末1001e−9目标包络如实保。flow仅接两端recovery真实success；数值结果未成不授新界。H9908B逐字归档并整理当前四支线。
