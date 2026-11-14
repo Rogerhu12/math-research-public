@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:04:12 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:04:49 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：8f9bbe4ac5158718e080fbc21523f0122a1b3e3a；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：c055125e31488bf21ebdfe7082a0e63400227eae；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -52,7 +52,7 @@ newton继续边界/repairδ正high/Green及真qν−Z；phase继续真root/β/st
 
 已部署cached Green已知源consumer（91输入）：复用43601964129全部ports/四原源，仅新repair第五通道和真g0/gR点态叠加；run由新workflow查真实complete artifact自动接。finite193已知误差仍与未知high/full qν分开；特定低193/cut方向收紧同步推进。
 
-尾中间块新增真实三compact控制曲线：原finite-e residual Wronskian给第三相位核A g2>2^-85；准确保持两phase且径向Γ不动，r0=2^-1000ρ^13、ρ=2^-40J^-2，真实θ导数>2^-2590J^-40，无B/δ半径损失。只授第三系数，有限κ散射余项/混频PSD继续；见exact-third-phase-kernel-and-local-two-phase-curve。
+尾中间块两phase精确曲线r0=2^-1000ρ^13、ρ=2^-40J^-2保径向Γ不动；第三核A g2>2^-85。新full两态高κ已证：κ≥2^4000J40，同一真实θ方向/全盒给完整负窗generator>2^-1800ρ20 B K_j^-2 M^-3；光学固定区间、三次振荡分部、interaction、物理B/Wronskian及全部mean/weak源已付。紧κ固定三维图待root审，实际非径向近簇/外响应/最终层权继续。
 
 M32 repair正根collar43600926806真实23门：native86d31a375d6ee07f3919cae565dc16e47361f24cbcd6ee3ef2df8b4f23946605，EH<32.041315545130、headloop<1e−6；source/port→全态1/12000、1/100，两trace1/36、9/2。新global reference/全193mean保，外侧body speed与δ96/根反射另付。
 

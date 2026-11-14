@@ -165,3 +165,7 @@
 ### 完整端口已知源的新消费入口
 
 [已知repair与真边界的严格消费合同](notes/2026-11-14-R133-cached-Green-known-source-contract.md)保留同一repair算子、全mean/weak source身份、两独立实际边界负荷与原high输出范数。新第五通道在原全部ports上运行，原四列直接复用；待实际run，不授完整PDE响应。
+
+### 同一精确两phase曲线的完整高κ两态正型
+
+[O1–43](results/R119-supplement-exact-two-phase-curve-complete-oscillatory-generator.md)：固定光学长度及∫V消去前相位，真crossing主项C3′/(2k³)I与完整O(k^-4)余项显式比较，整个有限曲线及全部径向混频共享同一方向。保持原参数半径、物理measure/Wronskian、mean及ordinary/weak两源行；非径向whole-cluster门不随之宣称。

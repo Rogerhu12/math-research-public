@@ -127,3 +127,7 @@ run43594139132 的16分段与最终消费全部成功，全部5970格/anchor/jum
 ### 原Green复用的真实已知源消费已部署
 
 [新源合同](notes/2026-11-14-R133-cached-Green-known-source-contract.md) 与91输入manifest/两源/workflow已发布。只新执行repair第五分布通道，加真g0/gR于旧完整列后逐格积分；无新Riccati/投影/mean/cap重算。预期粗界未足，实际结果必须原样记账，再做特定low193/cut方向新消费。
+
+### 实际高κ完整两态方向已证明
+
+[有限频完整振荡generator](results/R119-supplement-exact-two-phase-curve-complete-oscillatory-generator.md)把准确C1=C2=0曲线接到真实全两态矩阵；κ≥2^4000J40全盒/同一方向正型，无新增B或δ阈值。三次分部的非标量项和全interaction皆付，原物理B与canon/Wronskian转换明确。剩余1/4≤κ<阈值固定三维图、非径向近核定位/Γ*及邻区反馈/最终权另付。

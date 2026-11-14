@@ -475,3 +475,7 @@ T7后的物理M说明现明确C2=(β(Ξ)−β(0))/√B，因此物理第一相�
 ## 2026-11-14 14:04:12 UTC — 部署既成Green端口的新已知源消费
 
 完整审完newton五个冻结文本（合同/source/wrapper/91输入manifest/workflow），原blob发布。真实Green43601964129已成功，push选择其完整artifact；代数-only run不能替代。新执行仅已知repair第五通道与原四源+真边界点态组合；原ports/Riccati/mean/cap/投影不重跑，原18.34MBnative只在Actions内。成功相同六输入hash可直接复用。
+
+## 2026-11-14 14:04:49 UTC — 精确两phase曲线上的实际完整高振荡两态正型
+
+逐项审证O1–43：有限jet费用、固定s参数导数、三次无端项分部、det1近似frame及完整interaction；检查Wron/物理B和原两端port转换，原θ缩放保留。发布解析证明原blob，κ≥2^4000J40阈值不引入B/δ幂。只有径向full两态/混频正型；紧κ、非径向近簇与源到标签权继续。此纯解析结论没有伪称新数值运行。
