@@ -519,3 +519,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：原3/64条带的直接2×2角jets（2026-11-14 19:45:07 UTC）
 
 [J1–13 完整配方](results/R133-supplement-direct-angular-matrix-jets-for-analytic-Airy-sources.md)只消费已有L13/L14及leading角导表：H/Hinv/HD直接到角二阶，完整2×2非负矩阵相乘保非交换次序，Dfrak²不作标量替换。h/y/gd/qv及mean所需量全部原角jets可给；两个Airy分量分别进入A16–18，保b项真实R^(1/2)或R^(1/4)N^(−1/6)费用，不向a项计价。无新radial导数、target/ray/amplitude求解，也无额外Cauchy宽度损。root/tail全文独核，正文SHA `35025593b433132475f5b42065d9bcc01b33a501d5e932741df384eab33fbb3a`。待25pin公开消费者实际支付原逆phase宽(2−E)3/64及完整指数尾/六窗积分。
+
+### R133：实际完整有限193维普通L²逆核（2026-11-14 19:50:14 UTC）
+
+[实际报告](results/R133-supplement-actual-finite193-ordinary-L2-Green-kernel.md)：公开43633074696 child0/9门，185.005037s，6391新Gram及6391全cell核，原6391port/5970接口/virtual waist/独立mean和所有真实边界列不变。普通全[0,.9]L²体源→负窗L²<10488.564543774、→全内L²<22386.327560863、C0<181981.908212897；这些统一算子上界与特定ν源误差证书不同。native `ac4441cb98afabbbc646697434caebf464a22f702e2d0fa7d8e5910efd7ef448` 18075636B/10片，process `7689ee4fb3a99cdaa47c7cdb5262b0419a16964a99a1dcf12cbc97df6a68a3c8` 8121B、summary `fd88f3dd72c3983ca011d1a66520f91db0c7108118611c3a5b99f97f195fe9be` 20010B均root亲核。全部9门及4次真实pull至feb5a20e5e99b58515667500f7d5ce4fb61a8b82、README空diff已核。未知high BVP、真实cap无限cross-block、完整Schur及δ/非线性转移仍未付。

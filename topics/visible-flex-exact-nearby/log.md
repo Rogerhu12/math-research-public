@@ -307,3 +307,7 @@ root核完整lag权比、整数四fold不等式、复inverse strip、Volterra符
 ### 2026-11-14 19:45:07 UTC — 直接角矩阵jets独推
 
 root/tail核T三阶角导、Hinv二阶和Dfrak²乘法次序、h/y/gd/qv导数及两Airy分量完整性。原8159B证明未改，继续公开实际消费者。
+
+### 2026-11-14 19:50:14 UTC — 实际普通L²逆核九门独推
+
+root读取完整小process/summary、九门、两窗/C0及边界列，核四次真pull空README diff；18.1MB原native由Actions精确10片保存，无connector二进制。旧9769B HANDOFF完整归档，新H集中当前工作和所有未闭合门。
