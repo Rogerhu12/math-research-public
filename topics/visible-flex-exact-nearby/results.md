@@ -39,3 +39,5 @@
 - [R133 complete-correlated-phase-twist-and-true-defect-corrections](results/R133-supplement-complete-correlated-phase-twist-and-true-defect-corrections.md)：恢复显式Z的3095完整交片及root带符号一阶phase积分，Γ0∈(.0018683485714,.0396275555859)；若真E≤1e−6且真Eφ≤1e−4则该显式族σphys>1/600。全ν-Schur仍需真实PDE响应误差和耦合。
 
 - [R119 真实正片incoming包到完整两负窗中心型](results/R119-supplement-positive-Cayley-packets-to-complete-center-forms.md)：真实正片的低incoming包经完整双端Cayley、真实KAM角及两物理迹后满足成对中心定位门，保留全部高输出/mean/正片ordinary和weak源；两负窗正型下界已付，但任意全网近核定位与外部Schur仍未证。
+
+- [R119 负—正—负三段真实共同方向crossing](results/R119-supplement-complete-three-piece-physical-crossing-form.md)：把两负窗的低包正型补成同一真实共同profile方向的完整三段crossing，支付异窗两列Γ*响应、正片Cayley/端角导数并在两内根准确消项；三段外完整网络与任意近核定位仍未证。

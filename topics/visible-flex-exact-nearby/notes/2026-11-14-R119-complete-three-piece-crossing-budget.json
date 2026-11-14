@@ -1,0 +1,301 @@
+{
+  "status": "passed",
+  "utc": "2026-11-14T09:34:45.026036+00:00",
+  "producer": "Exact SymPy identities and Fraction inequalities; no sampled spectral, whole-network, or nonlinear claim",
+  "gate_count": 63,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "joint profile complex disk retains its full radius",
+      "passed": true
+    },
+    {
+      "name": "principal error is absorbed by the actual beta difference",
+      "passed": true
+    },
+    {
+      "name": "complete local E row",
+      "passed": true
+    },
+    {
+      "name": "actual second-row inverse",
+      "passed": true
+    },
+    {
+      "name": "both joint gamma coordinates retained",
+      "passed": true
+    },
+    {
+      "name": "full local gamma norm",
+      "passed": true
+    },
+    {
+      "name": "adjacent original scales in W",
+      "passed": true
+    },
+    {
+      "name": "remote radial compensation derivative is exactly zero",
+      "passed": true,
+      "premise": "Exact disjoint-support phase decomposition H.8; not a PDE decoupling"
+    },
+    {
+      "name": "full joint remote gamma Cauchy cost",
+      "passed": true
+    },
+    {
+      "name": "complete relative background Cauchy cost",
+      "passed": true
+    },
+    {
+      "name": "gauged field product and full bump derivative reserve",
+      "passed": true
+    },
+    {
+      "name": "actual local nonlinear norm is below one",
+      "passed": true
+    },
+    {
+      "name": "actual remote gamma remains small",
+      "passed": true,
+      "first_log2_upper": -1018598
+    },
+    {
+      "name": "complete gauged physical normalization",
+      "passed": true
+    },
+    {
+      "name": "whole-window low-state neighbor reserve",
+      "passed": true
+    },
+    {
+      "name": "whole-window high-state neighbor reserve",
+      "passed": true
+    },
+    {
+      "name": "complete strong energy is quadratic",
+      "passed": true
+    },
+    {
+      "name": "paired high-state threshold exponent",
+      "passed": true
+    },
+    {
+      "name": "paired high-state threshold powers",
+      "passed": true
+    },
+    {
+      "name": "low and high strong energy including cross terms",
+      "passed": true
+    },
+    {
+      "name": "all remote kernel factors",
+      "passed": true
+    },
+    {
+      "name": "all remote kernel polynomial powers",
+      "passed": true
+    },
+    {
+      "name": "whole positive Cayley derivative Cauchy reserve",
+      "passed": true
+    },
+    {
+      "name": "both KAM endpoint derivatives Cauchy reserve",
+      "passed": true
+    },
+    {
+      "name": "differentiated inverse angular map has true sign",
+      "passed": true
+    },
+    {
+      "name": "strong physical frame derivative reserve",
+      "passed": true
+    },
+    {
+      "name": "strong physical frame J power",
+      "passed": true
+    },
+    {
+      "name": "strong physical frame inverse-delta power",
+      "passed": true
+    },
+    {
+      "name": "full frame generator contains the actual inverse",
+      "passed": true
+    },
+    {
+      "name": "full frame generator polynomial weights",
+      "passed": true
+    },
+    {
+      "name": "reference density and normal shear are symplectic",
+      "passed": true
+    },
+    {
+      "name": "physical frame variation is a Hermitian coefficient form",
+      "passed": true
+    },
+    {
+      "name": "actual angular Jacobian preserves the integrated pairing",
+      "passed": true
+    },
+    {
+      "name": "complete two-endpoint Cayley crossing identity",
+      "passed": true
+    },
+    {
+      "name": "low incoming one-derivative factor",
+      "passed": true
+    },
+    {
+      "name": "complete graph H1 factor",
+      "passed": true
+    },
+    {
+      "name": "physical endpoint generator crossing factor",
+      "passed": true
+    },
+    {
+      "name": "both positive parameter terms fit the displayed coefficient",
+      "passed": true
+    },
+    {
+      "name": "complete positive parameter polynomial powers",
+      "passed": true
+    },
+    {
+      "name": "exact physical inner-root crossing cancellation",
+      "passed": true
+    },
+    {
+      "name": "paired center lower bound includes both inverse factors",
+      "passed": true
+    },
+    {
+      "name": "positive comparison keeps J weights",
+      "passed": true
+    },
+    {
+      "name": "positive comparison keeps delta weights",
+      "passed": true
+    },
+    {
+      "name": "remote comparison keeps constants",
+      "passed": true
+    },
+    {
+      "name": "remote comparison keeps J weights",
+      "passed": true
+    },
+    {
+      "name": "remote comparison keeps delta weights",
+      "passed": true
+    },
+    {
+      "name": "complete positive first-layer relative gate",
+      "passed": true,
+      "first_log2_upper": -523879
+    },
+    {
+      "name": "complete positive deep polynomial ratio",
+      "passed": true
+    },
+    {
+      "name": "complete positive infinite-tail decay",
+      "passed": true,
+      "decay_bits": "15731/256"
+    },
+    {
+      "name": "complete remote first-layer relative gate",
+      "passed": true,
+      "first_log2_upper": -679679
+    },
+    {
+      "name": "complete remote deep polynomial ratio",
+      "passed": true
+    },
+    {
+      "name": "complete remote infinite-tail decay",
+      "passed": true,
+      "decay_bits": "20339/256"
+    },
+    {
+      "name": "polynomial ratio logarithm paid by exact power",
+      "passed": true
+    },
+    {
+      "name": "assigned two-pocket form retains its reserve",
+      "passed": true
+    },
+    {
+      "name": "both actual missing terms absorbed",
+      "passed": true
+    },
+    {
+      "name": "true incoming positive constant",
+      "passed": true
+    },
+    {
+      "name": "true incoming J power",
+      "passed": true
+    },
+    {
+      "name": "true incoming delta power",
+      "passed": true
+    },
+    {
+      "name": "original left coordinate implements the common direction",
+      "passed": true
+    },
+    {
+      "name": "original right coordinate implements the common direction",
+      "passed": true
+    },
+    {
+      "name": "half-radius coordinate path stays in the original box",
+      "passed": true
+    },
+    {
+      "name": "complete inhomogeneous Hamiltonian source pairing",
+      "passed": true
+    },
+    {
+      "name": "bare flux source endpoint charge retained",
+      "passed": true
+    }
+  ],
+  "scope": {
+    "new": [
+      "local joint Gamma-star deviation on the already constructed profile complex ball",
+      "both cross-pocket full responses with both compensation columns",
+      "complete positive physical parameter form including the two moving KAM endpoint angles",
+      "actual homogeneous negative-positive-negative crossing on the true low incoming subspace",
+      "exact source and total-versus-bare boundary pairing identities retained"
+    ],
+    "not_granted": [
+      "all whole-network near-kernels have low incoming frequency support",
+      "the response of the rest of the network is zero or bounded by this three-piece state mass",
+      "outer good-parameter selection is differentiable or the physical stopping scale is free",
+      "full source-to-original-label inverse or nonlinear outer equation is solved"
+    ]
+  },
+  "bounds": {
+    "joint_local_deviation": "2^160 W_i X",
+    "remote_Gamma_derivative": "2^240 J^4 delta^-6 Npair X",
+    "remote_complete_form": "2^9200 J^24 delta^-40 Npair X ||centers_low||^2",
+    "positive_complete_physical_form": "2^520 J^5 delta^-6 Npair X ||incoming||^2",
+    "actual_three_piece_positive_form": "2^-25800 J^-94 delta^57 ||incoming_perp||^2"
+  },
+  "file_sha256": {
+    "results/R119-supplement-complete-three-piece-physical-crossing-form.md": "72a5e10cb79cd6e4de4ac2f173e00ea1b478ffdfc1a70cee983c87dd133731ff",
+    "results/R119-supplement-positive-Cayley-packets-to-complete-center-forms.md": "ddb05aec523a53175a267f5a0958b2e0c1a6e4a8f5e00d26f6680ef9517bda24",
+    "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88",
+    "results/R119-supplement-controlled-tail-actual-joint-phase-and-remainder.md": "27325857e088e8266a322bcabe82c59a6cc1f06f225b2616c8490b553af5d45c",
+    "results/R119-supplement-radial-phase-compensation-and-full-Wronskian-Hessian.md": "3da66560cf5dafd91b2b731400c1769d7042be9994e57a6f9fa81f5dfd1394c0",
+    "results/R119-supplement-actual-two-phase-compact-response-and-complete-pocket-form.md": "867a63d7a90729bb634d6ed503e84bf3aa950a3fd895723c938aa10389191066",
+    "results/R119-supplement-complete-low-cone-and-explicit-exterior-crossing-form.md": "9d4e4e9b45591f2549c8648e46cf81431453a482f89dcd60eb64e8e9bef89ca7",
+    "results/R119-supplement-actual-canonical-profile-generator-and-complete-weak-sources.md": "3b9899adaba350486def68d641e473bdd0dd2ab26075a38f1943780ed7dd4075",
+    "results/R119-supplement-controlled-profile-full-label-and-raw-ports.md": "ff11cb043128a5d66ee996bb174edda0d6537fe73f9a7a565ba143d2ab5c04d0",
+    "source": "73ea4075039ea6ed6be874afcfed95ae452c34a166c7bbcdd0a4004e66777e80"
+  }
+}
