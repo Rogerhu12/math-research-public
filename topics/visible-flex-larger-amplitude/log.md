@@ -516,3 +516,8 @@ request17/run43598917532/source4b8b2bf已于13:16:20Z实际启动，job132459290
 ### 2026-11-14 13:21 UTC — restore same-g physical-boundary refinement with one actual live client
 
 失联未推Rφ v4重建为三独立新源：真实新M/H完整native J与原FD后，完全同一个client/worker/predictor及FrozenProfile进入原same-g fullmain；可选原QR/完整band，全部原门、真实新H与最终fresh audit不变。接受后保原cut/旧Rθ/完整谱审计，导出actual live finite-Gauss scalar sidecar并接原v4消费者；没有非零跨进程cache、没有伪造parent。三源AST/路径/冻结源SHA已核，无import或数值执行；完整CLI/SHA在same-g-physical-DN-live-client-interface。
+
+### 2026-11-14 13:32 UTC — R257 finite constant-speed Fourier obstruction and exact material-circle blocks
+
+完整R257直接登记：有限平面Laurent的最高差频唯一项证明恒速闭曲线只能整数覆盖圆，闭合/简单/turning1逐一明确；真实材料入口core导数存在精确抵消及连续L²界。原Frenet frame完整微分和N>4M的DFT正交证明uniform材料圆的完整物理Jac保各K块、J²=(ν/a)J；非圆和全设计Jac不冒用。
+备用θ表示note明确纯有限投影入口的原metric成本与完整解析lift的显式core RHS、无穷角谱、reader/闭合/证书成本；没有切换当前request17或派新数值。

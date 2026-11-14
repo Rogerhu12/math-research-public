@@ -477,3 +477,5 @@ results/R178-rational-canonical-Y-candidate-and-lossless-recipe.md
 - [R255. 精确圆参考的线性等距模态与 coast 非正规剪切](results/R255-circle-reference-linear-isometry-and-coast-shear.md)（已证明，精确参考条件定理）：从完整三度量变分式推出全模态及正交P/Q系统；常斜率N²=pN给精确仿射传播与完整范数，谱与k无关而剪切可达k²，非k²指数增长。三分量扩展的固定g约束、零模态、刚体核及bridge冻结局部尺度均明确；不把理想圆代作当前有限φ Jacobian。
 
 - [R256. 完整有限collocation的精确约束坐标、伴随与正阻尼下降](results/R256-exact-constraint-collocation-and-damped-descent.md)（已证明，有限系统代数定理）：原全部增广ODE/左边界与exact inlet/constant chart零点双射；完整midpoint、global p、入口core及J/JT链式；正阻尼模型唯一、精确非零方向下降，显式列预条件不改罚项。截停LSMR必须实际测gdot及固定Wr真实下降，不推算法全程收敛、真实DN接受或闭面完成。
+
+- [R257. 有限恒速平面Fourier的圆障碍与材料角圆Jacobian](results/R257-finite-unit-speed-Fourier-and-material-circle-Jacobian.md)（已证明）：闭合有限Fourier且正恒速强制非零整数覆盖圆，simple/turning1明确排多重；真实材料入口core导数抵消及连续L²界。原Frenet完整物理微分在精确uniform材料圆及解析/解混叠DFT下保留全部K块，J²=(ν/a)J；不把其参考谱或入口连续界扩成实际非圆有限联解成功。非圆原core、精确单位速和纯有限θ入口不能同时保留，投影或解析lift须另付误差与接口。

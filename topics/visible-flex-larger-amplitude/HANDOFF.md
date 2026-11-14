@@ -47,13 +47,12 @@ R240共同材料g=ds²+a(s)²dθ²独立core。首v3定型后冻结完整p*/a/�
 
 ## 新证明与严格消费者
 
-R248有限C²已足相位C²强连续，准确反射parity、全t metric/κ归约；未标记reach可一次空间证据，marker仍付R24/R11；held帽扰动只损A。
-R249只改共享node0的z/XY一导/z二导，首cell精确反射C²，cut九jet/mean/H/SE2不变；有理修补operator/κ成本仍待同场支付。可复用同场complete-4尾，新plan用新heights。
-R250连续及偶N>4M精确DFT材料P det>0，不给条件数。R253固定光滑正非恒rho的P_M超代数病态与其相容，不冒本次有限M因果。
-R251原φ四Loewner量等价operator<η；严格cell/full-prefix及同源scalar exporter已重建入库。原415五次/三六次bump/48与64有限Gauss不换g，实际bridge7.5非旧tag8，ap/app不冒有限和导数。
-request16/run43597596523/source89b0882已真SUCCESS：四源compile，恰三解析例及必要series API，flint0.9/160bit；完整z0圆柱通过、斜率错误及mixed主导失败被正确识别。artifact14115152863/publisher9eee945。实际回执见 actual-R251-operator-interface-check note；这不是实际候选、完整finiteGauss或全prefix验证，不再重跑三个例子。
-R252完整φ有限边界与全部core链式导数已证，是新有限方案，不是旧Rθ等价预条件。R254全物理共享Hermite每cell有理四点排平面、6×(4M+3)网格完备；消费者compile过，尚无新场数值，tail/collar/marker/含反射δE仍须同场。
-R255精确circle/coast传播与强非正规剪切已证，不冒有限Jac。R256已完整登记原增广系统与exact约束坐标零点双射、完整J/JT及正阻尼精确解下降；截停LSMR/真实DN/闭面仍须各自实际门。
+完整证明及依赖见results.md；以下只是接续索引，不代原条件。
+R248：有限C²已足相位C²强连续及全t metric/κ归约；未标记reach可一次空间证据，marker仍付R24/R11。R249：只改入口z/XY一导/z二导的共享jets，首cell精确parity，cut/mean/H/SE2不变；真实operator/κ修补成本仍未付。
+R250/R253：材料P精确可逆与高频超代数病态相容，不冒当前有限M因果。R252：完整φ新有限边界及全部core链式已证，不是旧Rθ等价预条件。
+R251：四Loewner量给原operator门，strict cell/full-prefix及scalar exporter已重建。保原415五次/三bump/48、64有限Gauss，bridge实际7.5，ap/app不冒有限和导数。request16/run43597596523真success仅四源compile/三解析例/必要series接口；actual-R251-operator-interface-check note存回执，实际prefix/完整scalar仍未核，不重跑三例。
+R254：完整z0/shared-node Hermite每cell精确四点排平面及完备有理网格，消费者compile过但新场未跑；tail/collar/marker/含反射δE仍需同场。
+R255：精确circle/coast强非正规传播，不冒有限φ Jac。R256：exact约束坐标零点双射、完整J/JT及正阻尼精确解下降；截停LSMR/真DN仍实际测。R257：恒速有限平面Fourier只能圆；uniform材料圆有限Jac保R255块，但非圆core精确入口不能纯有限θ。换θ方案是有因备用，需付投影或解析lift及全部读出成本，当前主线未切换。
 
 ## 封存与恢复
 
