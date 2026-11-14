@@ -295,3 +295,5 @@
 
 
 - **R778（已证明）**：[原二十尖点轨道与143阶准确恢复](results/R778-original-cusp-orbit-and-short-exact-recovery.md)。原算术20cusps单L轨道，把准确函数关系的充分前缀缩至143个完整M值Laurent阶；基q142、实际e1原Hodge Q427均已够。M2/M6/M12的40坐标前缀13/41/82注入，真H³可用694阶Q子矩阵/14 RHS恢复；不把单有限域代值认作全球证书。
+
+- **R774（公开准确计算已完成）**：[原 Hodge 立方与真实尖点阶](results/R774-certified-original-Hodge-cube-and-cusp-order.md)。run43631427773/source93056f04实际24.706959837秒，原第4号d1206映射e=1，H³的qY0..820完整准确560坐标、26块/108stage全部完成，D289bits且v739(D)=0，原R771694基全821×7模比较通过。原模型分母2^24·3^1260；保原尺度、字段和零平移，未求char0基坐标/函数/β/高度。certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59，完整artifact14128247134；旧数学不重算。
