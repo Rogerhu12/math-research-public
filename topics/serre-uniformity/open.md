@@ -206,3 +206,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R775（K定义RR基公开工程）**：[方法](notes/R775-original-K-defined-RR-bases-method.md)直接读R771的85个完成stage，按真实40个det代表运输两个原标签，保odd d82和ξ82^(j d82)半线性权。四十节点Vandermonde在739可逆，故5840候选完整覆盖原146秩；实际选原recipe后接正常乘积及椭圆主部给694/1514的K基。新core8b02496a1809e1f11e90bad84df1a4fa3a39ac6ad615f7871115b0988d2af4ee，逐移像/批次断点、80分钟，大表artifact；未预称实际输出。随后R777继续真实L核，cusp系数仍M，不把K定义误作K系数展开。
+
+
+**R778（原20尖点轨道和143阶恢复已证明）**：[完整证明](results/R778-original-cusp-orbit-and-short-exact-recovery.md)。原H82的primitive列范数x²+xy+y²给20个n± cusp；精确GL2 Galois右diag公式给m⁻¹作用，原M/L40使其单L轨道。对真正L系数A,B，参考cusp的143个完整M系数−e..142−e全零，迫20个cusps零数比P外极点数多14，故A=yB全球成立；kernel308/rank2720不变。基只需q142、原h至426+e≤445，实际R774 e1只至Q427，已在旧R745800中。M2/M6/M12的完整40坐标前缀0..13/41/82已分别注入，真M6坐标只需694×694 Q矩阵和14 RHS准确解，不再重扩821。原cusp参数的切向Galois仍保，不能以单个modξ值/任意大字段候选代真实L方程。实际函数/β/高度继续。

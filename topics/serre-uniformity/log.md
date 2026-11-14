@@ -235,3 +235,8 @@
 - R774首run43630945978在数学核心前发现旧manifest不在artifact；原R745/R748代码仅publish时写Git小manifest。根实读并核1c9aa2d9/d21f97fc及输入/receipt SHA，显式加两Git路径，旧数据校验不放宽。
 - 只修包装/方法/请求/workflow，核心b7e8bf0f7b629881d973afaec01a2b905c4100573d46920841a9d48489e597fa不动；新requestea0aa21c1f5a64a792b6599cdc7bb509295d52129ea62f39e3103244d1b4aa41，core未启动故resume=null，没有已成新数学可重跑。
 - R775已推00295b27并在run43631335355执行；其首ref竞争后核404、重接main成功。H/open/index同步，终端不可用期间按根规矩8核最新main/两README、小文本非force继续。
+
+## 2026-11-15 03:29 Asia/Taipei · serre-public-resume-20261114
+- R778原20cusps的norm n±与精确Galois m⁻¹作用已证，M/L40保单L轨道；143个完整M系数迫全球A=yB，仍kernel308/rank2720，基q142/原h426+e。实际R774 e1仅Q427，旧R745800足够。
+- M2/M6/M12的完整40坐标前缀13/41/82注入，M6真实坐标可由694阶Q矩阵/14 RHS准确解；证明SHA76c20ead726cd9621f2510209398947e44508604ae4ce6ca482ca627cec8d317，根实读Zywina Lem5.2原cusp公式，无新数学计算。
+- R774修复后run43631427773/source93056f04成功24.706959837秒，certaea27ac34e9a82203f723af27265db3cbd8d75e615247e11e0591fb2ed249b59；正式结果由global写，R775仍运行，R777接短界。H/open/index同步，终端不可用继续核main/两README后非force。

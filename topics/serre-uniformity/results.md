@@ -292,3 +292,6 @@
 
 
 - **R775（方法已证明，公开工程已保存）**：[原商的实际K定义RR基](notes/R775-original-K-defined-RR-bases-method.md)。直接复用R77185阶段，40det半线性迹保odd d82与双标签；Vandermonde保证mod739全候选含原146秩，选原配方接694/1514高权基。逐coset断点，不重算旧E1/群/levelone，实际输出待run；后续原L系数函数恢复继续。
+
+
+- **R778（已证明）**：[原二十尖点轨道与143阶准确恢复](results/R778-original-cusp-orbit-and-short-exact-recovery.md)。原算术20cusps单L轨道，把准确函数关系的充分前缀缩至143个完整M值Laurent阶；基q142、实际e1原Hodge Q427均已够。M2/M6/M12的40坐标前缀13/41/82注入，真H³可用694阶Q子矩阵/14 RHS恢复；不把单有限域代值认作全球证书。
