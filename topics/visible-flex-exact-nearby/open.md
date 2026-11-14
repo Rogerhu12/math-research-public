@@ -98,3 +98,7 @@ P1–19准确接任意未知high和独立mean，g的inner非meanC为0，独立in
 ### 2026-11-14 20:44:02 UTC：G/H内根14门实际完成，继续去除小域径向Cauchy粗费
 
 全部258导数/coeff tensor/3cases原样保。当前巨大局部上界主要来自原9e−6域的leading径向Cauchy；不当作真实残差下界。phase优先同piece2549辅助解析扩域及真正复3阶/leading径向Taylor，只算新增域/阶，原piece交内由唯一性识别同一w1。外piece与完整I/J/mean仍欠。
+
+### 2026-11-14 20:44:49 UTC：精确fold消去给下一次leading源改进
+
+C1–15已证明。最小窗原RQJgd项仍主导；用新gd/qv恒等式只新增其完整幅度/角导预算并重新消费对应源积分，旧矩阵、幅度tensor和源上界全保。H^-1HD显式QK也可改进同w1局部项及其真径向导。未预先声明新界足够小。

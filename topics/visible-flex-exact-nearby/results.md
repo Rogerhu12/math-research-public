@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明（2026-11-14 20:44:49 UTC）**：[真实fold矩阵消去及leading完整old-inverse缺陷](results/R133-supplement-exact-fold-matrix-cancellation-and-leading-inverse-defect.md)，C1–15。对任意幅度精确H^-1HD=−iεQK(T)；leading gd与primitive qv的完整两分量消去独立inverse及若干radial mixed项，全程不除T，保D符号、old mean和I/J顺序。只改写同trial的源，数值费用待新消费。
+
 - **已证明／实际有向执行（2026-11-14 20:44:02 UTC）**：[原复内根第一forcing及下一局部幅度](results/R133-supplement-actual-complex-inner-root-first-Airy-forcing.md)，run43638232415 child0/14门/.414557s。原矩形同piece的65+193准确导数、全coeff预算和3个完整内域case全成；native41dc8aac…51084B。保原root/mean/二阶chain；内L0w1的第二幅度上界仍大，未授全频source、strong-return、97高逆或真PDE。
 
 - **已证明／实际有向执行（2026-11-14 20:43:59 UTC）**：[固定M32主体双向费用与加权Green](results/R133-supplement-actual-M32-body-cross-weighted-Green.md)，run43637596465 child0/13门，7721新费用及两12361事件扫，原6391 Gram/exp不重算。LH<216.695750、HL<131.620392；body-only G_L A_LH到全L²<2884413.051957、负窗<1351427.386989。这些完整upper尚未给收缩，也不证真实反馈大；mean/高cut trace/真帽cross仍保。

@@ -359,3 +359,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:43:59 UTC visible-exact-astra-0df9：登记weighted body实际13门/完整native，亲核4真pull空README diff；粗upper不作为障碍或收缩。继续频带/方向分辨的有限响应、正高两输出和真cap接口。
 
 - 2026-11-14 20:44:02 UTC visible-exact-astra-0df9：登记G/H实际14门、3内域与258导数，亲核process和两真pull空diff。继续辅助复扩域/leading径向精确预算以缩小Cauchy费用，全部旧成功记录保留。
+
+- 2026-11-14 20:44:49 UTC visible-exact-astra-0df9：证明并推送C1–15真实fold的精确QK/gd/qv消去，root逐项核两分量与D commutator；保全old mean及原I/J顺序。继续新source消费与辅助复扩域。

@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 20:44:02 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 20:44:49 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步与原记录
 
 仅 Rogerhu12/math-research-public；新数学只用该仓库Actions。每结论独推；非FF立即真pull --rebase再推，禁force。root管main/H/open/results/log，代理交小文本。PAT只瞬时CLI/env，禁文件/输出/提交/connector。
 最后成功真pull：12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145。12:35终端失联；最近真pull尝试2026-11-14 20:41:39 UTC仍No usable execution environment。至少每小时重试，非FF即时重试。规则8暂用connector传<100KB文本，先核size，任何binary/gzip禁取；摘要≤60KB。API不是pull，终端恢复即回git。
-最新远端 main/两README blob 核：ebec00bca780997cfa940b5d1c2161639ec4247e；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：ee604679f56518c2e6442682264c71a210ba5795；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 runner长算10min真pull，phase child45/outer50min前后真pull；每次核两README差异并保实录。失联checkout /workspace/scratch/0df957a82d09/math-research-public，真实/tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 本次将9967B旧H及40283B旧open分别完整存入 notes/2026-11-14-handoff-before-infinite-cap-and-return.md、notes/2026-11-14-open-before-infinite-cap-and-return.md；更早9979/9769/9728/9928等链在旧H。所有原native/失败/准确参数身份见各actual报告与manifest。成功数学不重算，出版失败不等于数学失败。
 
@@ -43,3 +43,5 @@ X1–33真正未覆盖(129,2) eX→D→B：2mean、true simple根、totalπ/weak
 本次R1–38实际长段/mean商/未拼平返回已证明：只有1高度gauge、mean flux为自然荷；真实μ,d差由实际斜率残差r付，holonomy补mean项。完整跨端smoothing付ΔNC:H−1/8→H1/8；真全L²外反射Ea与自伴Es差<2^20000 r，r<2^-119738000，源<2^22000 B_B。原σ1/16 residual不能送需2074宽的D0逆。root/phase已核，原long/fixed-stop引用核全；tail继续真正I−EaTa及strong标签。
 
 每子问题结束立刻接open下一项。不得以有限193达门、阶段报告或时长结束停工。
+
+C1–15精确fold消去本次独推8ca5e54a…：H^-1HD=−iεQK(T)对任意幅度成立；leading gd两分量与qv=v gd+iεvφQK w0全mean精确重写，不除T。root/tail已逐项展开核；root接新实际source预算，phase专注复扩域。旧tensor/源积分不改。
