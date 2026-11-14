@@ -50,4 +50,4 @@ actual40主note2884841d…及QR审计c12bb189…全文读：111 B NPZ708数组/6
 
 10–15全部旧QR/band/bridge无接受，不盲加点。R238–R269证明见results.md；R268完整QR（927d4b6f…）、R269零参考u/k与任意完整shooting块G变换已直接入results；保G_x/port/原σ及RK非交换界限，无实际gauge试算或新门；R259备用未调度。旧A幅度.063<.2，其RK24/48、三mesh、2157568空间对及旧GW精化已付封存。43提交/geometry26/strong90/GW35已恢复，strong R6失败且raw未全迁；历史notes保全，绝不读private。
 
-规则同步记录：2026-11-14T17:55:10.626220+00:00 实际pull --rebase成功；双README自0f31b337无变化，已读提交 d4c2655c6e196fe4f8f78c7489a3bddf540446f4。
+规则同步记录：2026-11-14T17:56:51.566266+00:00 实际pull --rebase成功；双README自d4c2655c无变化，已读提交 b202f09796ede72bb57cbb1d770dafd3987f987c。
