@@ -387,3 +387,9 @@ run43639514776 child0/11科学门；science30.811261698s、wrapper35.001307279s�
 ### 2026-11-14 21:02:06 UTC — 精确fold消去的完整源预算与旧积分复用契约已独推
 
 root从闭式G和C1–15逐项导出N1–12；只需原seam的A10/A11/A01/A02、k1及完整logEG_r，无需新target或k4。新gd一阶、h/y二阶、qv一阶保full v mean；仅六个同一完整算子项可与旧上界取min。旧正collar/body积分用严格正的旧数值上包络下界作分母，不误称真实source下界。原rawD/SV/V0及全seam保留。当前是证明合同，待新Actions数值。
+
+### 2026-11-14 21:15:16 UTC — 两个辅助复域成功及两失败门独推；终端恢复真pull
+
+run43640181602真child1/4.824215924s，四域全attempt，两个域完整proved；另两个域按声明gap失败。root全文核9708B报告、38267B过程的7身份门/四域/完整mean及774组件，核2345B worker两次真pull空diff至42292594b1b1ed6a72bfc377a0b32449d9c5b2b8。native6276b4b8bd117b3092ce633b7164ff99968100f10b09cbaef8850d4c03f6b24f；processa6783642ae2c49f66c3a7b54f1506389f24771790f3bd5a324646df8229f9728。失败不重标成功，成功域不重算。
+
+21:07本机终端恢复，原/tmp已失；按原symlink重做public partial clone/sparse checkout，21:08:55真pull至cdc59656ceeda2eeab6819a6f756bf9051dbf77d，两README blob原值，所有相关AGENTS路径均无文件。原functions.store在环境切换丢失；新科学source30b989…早已blob保存并按SHA恢复，旧结论/实际native均在public，无成功科学丢失。此条发布前再次真pull并核README（读提交03dc237a7290472b4daa5abaa04739abe1fac18e），随后terminal Git常规推送。恢复前H完整归档。

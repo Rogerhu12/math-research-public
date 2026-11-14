@@ -130,3 +130,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 精确fold源包络新消费者
 
 [N1–12](results/R133-supplement-exact-fold-source-envelopes-and-integral-reuse.md)已证：六个新G径向/混合jets、完整h/gd/qv两分量包络及全部mean；旧Abar profiles/leading tensors/1328矩阵moment表复用。正分窗费用以旧完整积分除旧上包络的严格正下界安全重用；rawD/原seam仍保。root继续构造消费者，所有新积分在公开Actions计算。
+
+### 辅助复根域actual：直接接已通过的两个域
+
+[实际报告](results/R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md)已核实：R=1e−4/5e−4通过；另两域gap失败而非对象不可能，原failed records与所有前缀保。新fold消费者使用真实根锚+这些已付complex导数收紧k/η/A，0 target重算；不要求先让最大域通过，也不删原物理seam。root终端已恢复并重新partial clone/真pull，两README无变，后续用terminal Git。

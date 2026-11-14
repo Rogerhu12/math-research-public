@@ -1,14 +1,15 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 21:02:06 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 21:15:16 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、同步、可恢复记录
 
 仅 Rogerhu12/math-research-public；新数学只用该仓库Actions。每结论独推；非FF立即真pull --rebase再推，禁force。root管main/H/open/results/log，代理交小文本。PAT只瞬时CLI/env，禁文件/输出/提交/connector。
-最后成功真pull：12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145。12:35终端失联；最近真pull尝试2026-11-14 20:56:00 UTC仍No usable execution environment。至少每小时重试，非FF即时重试。规则8暂用connector传<100KB文本，先核size，任何binary/gzip禁取；摘要≤60KB。API不是pull，终端恢复即回git。
-最新远端 main/两README blob 核：3a8d567051bdfa21cca5558eefe6b237988d7c94；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-runner长算10min真pull，phase child45/outer50min前后真pull；每次核两README差异并保实录。失联checkout /workspace/scratch/0df957a82d09/math-research-public，真实/tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
-原9601B H完整存 notes/2026-11-14-handoff-before-auxiliary-root-domain.md，旧9967B H/40283B open见 notes/2026-11-14-handoff-before-infinite-cap-and-return.md、notes/2026-11-14-open-before-infinite-cap-and-return.md；更早档案链在旧H。旧94540B results逐链接平移归档 notes/2026-11-14-results-before-infinite-cap-and-return.md；现索引保152旧入口。所有原native/失败/身份见档案、actual报告与manifest。成功数学不重算，出版失败不等于数学失败。
+最后成功真pull：2026-11-14 21:15:16 UTC 03dc237a7290472b4daa5abaa04739abe1fac18e；两README本次无变。
+21:07终端恢复；旧/tmp丢失，已在原symlink目标重做partial clone。现在只用terminal Git发布；至少每小时真pull，非FF立刻pull --rebase后再推，每次只读两README差异并立即照新规。失联期原记录保在H档案。
+最新真pull/两README blob 核：03dc237a7290472b4daa5abaa04739abe1fac18e；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+runner长算10min真pull，phase child45/outer50min前后真pull；每次核两README差异并保实录。恢复后checkout /workspace/scratch/0df957a82d09/math-research-public，真实/tmp/visible-exact-0df9-workspace/math-research-public，objects位于该目录.git/objects。
+终端恢复前H完整存 notes/2026-11-14-handoff-before-terminal-restoration.md；原9601B H完整存 notes/2026-11-14-handoff-before-auxiliary-root-domain.md，旧9967B H/40283B open见 notes/2026-11-14-handoff-before-infinite-cap-and-return.md、notes/2026-11-14-open-before-infinite-cap-and-return.md；更早档案链在旧H。旧94540B results逐链接平移归档 notes/2026-11-14-results-before-infinite-cap-and-return.md；现索引保152旧入口。所有原native/失败/身份见档案、actual报告与manifest。成功数学不重算，出版失败不等于数学失败。
 
 ## 同一对象与总门
 
@@ -33,7 +34,7 @@ given-head全δ≤1e−8正图43627228225/18门 native498a5f8b…：χ<.78878316
 A1–18/J1–13/M1–19已证；analytic43634456797/10门 nativee54f05c3…3445399B，R.001粗源3.385779e10。径向Abar R1–15已证，actual43635999157/9门/14.693845s，nativefec8740c…3434233B，6新profile/4377积分、6tensor与1328×2旧表全复用。R.001负源<715694.724049、primitive<108478.950298；R.02负源<5549241.466141。全报告/每项/每域/两真pull见R133-supplement-actual-radial-reference-Airy-old-circle-source-budgets.md；R.001主项RQJgd<632140.252773。
 C1–15已推ef2e82ef：H^-1HD=−iεQK(T)，gd两分量精确重写，qv=v gd+iεvφQK w0全mean、不除T。root N1–12新源契约已证，正在写仅新G/Gr/Grφ及h/gd/qv消费者；复用6tensor/Abar profile/1328旧矩阵moment和正分窗费用，原rawD/mean/IJ不删。proof R133-supplement-exact-fold-matrix-cancellation-and-leading-inverse-defect.md。
 G1–19分量分离与H1–10原复系数导数已证；G/Hactual43638232415 child0/14门/.414557s，258原cubic导数/三case，native41dc8aac…51084B、processf8ab9fbf…43790B。两真pull1667d34c…空diff；旧target/fold0重算。原R9e−6域 Cauchy使内L0w1第二幅度粗upper达6.46e18，不是lower。
-本次E1–12辅助解析延拓/完整复thirdjets已证明：同scalar原多项式+piece2549两原cubics；仅原piece上认作真对象。全6primitive→E4/A5→K/γ/β/s3及完整65/193/mean/无限tail；新四域1e−4/5e−4/1e−3/2e−3须Actions重付gaps，0旧成功科学重算。proof R133-supplement-auxiliary-root-piece-analytic-extension-and-complete-complex-third-jets.md (cfaf9234…)。57pin消费者已部署，source70f848ef…/manifest404e8352…；39真正递归源与旧97pin一致、2原NPZ齐，child45/outer50min及前后真pull。只新四复域及1032原cubic jets，0旧成功重跑，保每域失败/前缀。phase看actual并接真正新fold/leading/forcing，jets成功不授fold。
+本次E1–12辅助解析延拓/完整复thirdjets已证明：同scalar原多项式+piece2549两原cubics；仅原piece上认作真对象。全6primitive→E4/A5→K/γ/β/s3及完整65/193/mean/无限tail；新四域1e−4/5e−4/1e−3/2e−3须Actions重付gaps，0旧成功科学重算。proof R133-supplement-auxiliary-root-piece-analytic-extension-and-complete-complex-third-jets.md (cfaf9234…)。actual43640181602 child1/4.824216s：四域全attempt，1e−4和5e−4完整通过；1e−3的Re(η√k)与2e−3的Re K_r盒gap失败，全部失败/774组件前缀保，0旧成功重算。native6276b4b8…432808B，processa6783642…38267B；7身份门、两真pull至42292594…空diff。报告R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md。phase用真root锚+已付复导数接新fold/leading，局部认同仍只原piece；jets成功不授fold。
 D1–24 two-region L0w1已证，同一w1无人工seam，新内域鉴定需唯一性；旧全primitive/IJ/独立mean及原real seams齐。真实充分cutoff/CE/Cs仍缺。
 
 ## tail：真外返回及新单根候选
