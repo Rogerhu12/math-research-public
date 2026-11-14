@@ -931,3 +931,9 @@ R609恢复SS_j0_05原304位链、完整Norm、单位z高度和全部独审，四
 - 完整Arb256有限和加packing无穷尾给B<106516214032/10^12<1/2，原两primitive平均严格正；原R616指定非消失、β生成秩和log同构在137147闭合。
 - certificate SHA2d97169250b80abf8d4bf9d72ee7a65c5ff9ac609afdd9c9b3ffc1d65639ca3f；七份持久化小证书/输入/metadata逐字SHA全匹配27文件manifest，runner已校验全部数学输出及原来源。
 - 归一高度外积现可用该素数原前提，但实际高度与候选未排除；完成枚举不再重跑，R717原M2四片继续。压缩前交接存notes/2026-11-14-public-handoff-through-R717-target.md。
+
+
+## 2026-11-14 21:06 Asia/Taipei · serre-public-resume-20261114
+- 按原Ft/P0/t/P+和div X=P+P0、N_TX=P+αF重建首矩规范；加入j0极点单位部分后ΣL_j=0，Jℓ=Σj jL_j定义完整。
+- 原普通单位格证明主化选择无关；同一半线性τ给Jℓ∈F43，原Weil指数约定给Jr=−2Jℓ，未代辅助或pure-p数值。
+- 恢复笔记单独保存，SHA3bfdcc93e63227ed9940574d83ee8c100111dbc108d6b2be11020730513310b2；不是遗失R599的逐字恢复，实际J、b及其遗失比较系数继续求。

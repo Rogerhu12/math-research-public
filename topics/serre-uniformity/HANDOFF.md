@@ -4,8 +4,8 @@
 
 证明绝对常数C，使全部无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、数值验证均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：1f00227d3f8a5eca0f187209719505e27032fce4
-最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions run43597163388于20:55发布前实际pull并核两README，无差异。最近GitHub集成核查：2026-11-14 13:05:57 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
+已读规则提交：be6076812ac98b8801289c61cfea6817a4772043
+最近本地pull：2026-11-14 20:30:33 Asia/Taipei；两README无差异。之后公开Actions run43597163388于20:55发布前实际pull并核两README，无差异。最近GitHub集成核查：2026-11-14 13:07:16 UTC，两README无差异。执行环境unavailable，根规8允许仅通过集成传<100KB小文本；每次更新读最新main及两README，以最新父提交无强推，拒绝即读最新再合并重试。终端恢复立即部分克隆并pull。正式数学计算仅本公开仓库GitHub Actions；runner发布前实际pull并核规则。
 
 仅Rogerhu12/math-research-public；旧私库与“停公开runner”均作废。每条结论单独commit/push main已授权；终端推前pull，非快进立即pull --rebase并重推至成功。PAT只CLI，不写文件/提交。根独占tracked/git，辅助仅scratch或恢复小文本blob。单Markdown<100KB，HANDOFF<10KB，open/README<30KB；数据>1MBgzip、单文件<5MB；日志仅本题，≤5内容行，改共享workflow须说明。
 
@@ -54,7 +54,7 @@ core scripts/R717_certified_original_CM_norm.py SHA75a81149a898e71ab33413ddd2ceb
 R561原scalar-p²产物/普通类C，L=31−22iC。R613 C_r=C+34r；R619原Ct9、Cl(LF_t)_χ=k、T-Norm同构/扩张零，辅助Ct不可代C。R633完整普通单位presentation和kerNΓ自由秩一。
 R700原q-Frob本原性给X_L^(p)=O⊕RΓ；全P_n中U/X对O[P_n]自由秩86/43，但普通A为末商。R715以自然Γ线性两步Tate与E_L=R0y循环性强迫m43：较短m的H1(P,A)=k²矛盾，m43的N_S=−2π42杀第二线；N_SE=E_N、N_PE=(p,π)E_L，y真普通Norm。R718同法逐层得m_n=42n+1、d∞、普通类Norm逆极限RΓ；所有scalar普通Norm满射，全P_n Norm恒(p,π)E_L，紧纤维有限交给交Norm确为相容单位逆极限像。
 R695原Qκ=πDScs−κπDTct−11acq∈π²E iffκ=C/9，a=15i/7；所有κ域整除均成立，须实际普通输入。R704公开run43588220740原43个Γ嵌入mod1849矩阵det687，精度足够R701但原cs/cq坐标缺。R708全部已知局部Norm仍容许ηp遍F43，部分q同源仍需(q+1)/43商，不能局部替全局。
-R720现以同时整提升与真实NΓX自由像完成原链桥：C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)。Ω₂零iff b24；实际b/J/nT/原主化坐标仍未知。必须原X_t主化/首矩或普通互反，不能代pure-p24、一次10、辅助Ct9。
+R720现以同时整提升与真实NΓX自由像完成原链桥：C=9ib=−34ib，L=31+26b，r_y=25+9b，Ω₂=ε(22+17b)。Ω₂零iff b24；实际b/J/nT/原主化坐标仍未知。必须原X_t主化/首矩或普通互反，不能代pure-p24、一次10、辅助Ct9。首矩规范已从原div/Norm重建于notes/2026-11-14-r599-first-moment-normalization-reconstruction.md：Jℓ选择无关、取F43、Jr=−2Jℓ；数值和J→b系数仍缺，不冒称找回旧R599字节。
 
 ## 一般主目标
 
