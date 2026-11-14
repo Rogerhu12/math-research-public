@@ -1,0 +1,55 @@
+{
+  "kind": "actual_public_old_rho_first_Airy_Taylor_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43653825736",
+  "run_attempt": "1",
+  "workflow_commit": "f8716934760b57c9a412102231a7079b3ba01c15",
+  "worker_sha256": "ce8deef54cf1b37055a6e025e9a081c20fe59b2053e9d16c139c5e6f90706f7d",
+  "manifest_sha256": "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T23:33:56.765776+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "time": "2026-11-14T23:33:57.586210+00:00",
+      "before": "56951f9ddf8e661252b033af43f5d1d48e477150",
+      "after": "481bb84991ff27a177f9524a38f8a4324dadefae",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T23:34:08.658127+00:00",
+      "before": "481bb84991ff27a177f9524a38f8a4324dadefae",
+      "after": "481bb84991ff27a177f9524a38f8a4324dadefae",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "original_completed_auxiliary_domains_recomputed": 0,
+  "original_infinite_tail_evaluations_recomputed": 0,
+  "new_true_root_high_order_point_evaluation_requested": false,
+  "strict_original_completed_point_reuse_required": true,
+  "old_root_targets_and_auxiliary_domains_recomputed": 0,
+  "physical_background_identity_outside_original_piece_claimed": false,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-old-rho-first-Airy-Taylor-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_old_rho_first_Airy_Taylor_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-old-rho-first-Airy-Taylor-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-old-rho-first-Airy-Taylor-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-old-rho-first-Airy-Taylor-CI-inputs.json",
+    "--manifest-sha",
+    "226e5acac42026431acbd166f92d423b6292ba6f73e65f58f808647d4701f1ad",
+    "--out-dir",
+    "/__w/_temp/visible-exact-old-rho-first-Airy-Taylor-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-old-rho-first-Airy-Taylor-science/originals"
+  ],
+  "complete_original_inputs_verified": 23,
+  "actual_scientific_checkout_commit": "481bb84991ff27a177f9524a38f8a4324dadefae",
+  "mathematical_wall_seconds": 10.787922385999991
+}
