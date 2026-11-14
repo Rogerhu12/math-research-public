@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：7f7218262400a63d41f4cdd2475a994cb696b675；2026-11-14 07:12:23 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：cc318df5e1eaa02c687582a04c7cf37c9311465a；2026-11-14 07:13:02 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,9 +14,9 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–441及R443已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
+R1–363、R365–443已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
 当前路径`/workspace/scratch/4fe3fb9f2a50/math-research-public`，main部分/稀疏克隆，仅检出本课题。迁入快照含旧R1–436；旧库未推R437、R438及两批完整计算已搬入并发布，旧路径只读历史。
-新库R437推480a4313c5eb、R438推76936693f5a0、R439推f7fa9bee053b9、R440推877b1b8e8ad8、R441推6419030dca0d。R443在本次登记；R442完整稿待紧接登记，root续R445保原sigma的三坐标四态。theta续实际quarter闭包；literature续真实外部carry；deep续原Miller forcing/第二障碍，R444暂为未完成笔记，不计结论。
+新库R437推480a4313c5eb、R438推76936693f5a0、R439推f7fa9bee053b9、R440推877b1b8e8ad8、R441推6419030dca0d。R443已推cc318df5e1ea；R442在本次登记，root续R445保原sigma的三坐标四态。theta续实际quarter闭包；literature续真实外部carry；deep续原Miller forcing/第二障碍，R444暂为未完成笔记，不计结论。
 
 ## 固定对象、完整标准与可恢复检查点
 
@@ -38,7 +38,7 @@ R441合法X6完整中央=14976bΩ6 J′S，比例unit。原L0双输出同深n+cu
 
 R443给K1=σ26Q L1的完整S34⊗S18偶偶/奇奇张量，rank18（10+8），第一principal块rank4，Smith只含2/3。原S不在这四条A_j的饱和来源格；K1不能继承J′S=0。Y边际A3以−41z6/84起，X边际B18以11z6/252起，W/V全零。X6中央为Ω6(720J′A2−864bJ′A3)，对应单位质量为(1−λ)220Ω6/7，质量非零不等导数非零。全K34=R_Y、K18=−I；总Q core在K1、K1R间互换，二者W-core−λ且完整principal Y行相同，附W深则反射交换到V深。完整特征零脚本/JSON均随证明保存。
 
-R442完整待登记稿已付单位carry矩阵λ[[1,ηλ],[ηλ,1]]及全余项ηλ²(K1−K1R)；两层全carry归一化返回λ²(1−λ²)Ki。所有测试用真实A/κr，W深时余项成Γ1,W−Γ1,V，不能删。R441目标在A单位的一输入深支，与A深carry不交；完整一单位支、环带、不相消双单位支与W外域已列全。
+R442已付单位carry矩阵λ[[1,ηλ],[ηλ,1]]及全余项ηλ²(K1−K1R)；两层全carry归一化返回λ²(1−λ²)Ki。所有测试用真实A/κr，W深时余项成Γ1,W−Γ1,V，不能删。R441目标在A单位的一输入深支，与A深carry不交；完整一单位支、环带、不相消双单位支与W外域已列全。
 
 R436辅助U72=S B38完整四谱(N²−1)(N²−ω)已付，四质量∓1/(12096b)、四条core±λ及原尺度log保留；同T所在块仍质量非零，不能认作T倍数或新增rank2算术对象。
 

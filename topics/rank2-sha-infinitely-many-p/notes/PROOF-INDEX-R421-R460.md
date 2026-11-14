@@ -2,6 +2,8 @@
 
 主目标未完成。返回[总证明索引](PROOF-INDEX.md)及[结论索引](../results.md)。仅登记完整证明，原范围和未付条件均保留。
 
+- [R442：原外部carry单位矩阵与全部中央补域](../results/R442-original-external-carry-matrix-and-complete-boundary-equations.md)：两条真单位carry的完整principal行经单位矩阵返回原中央，来源级奇奇余项与W/V深管差均保留；偶层carry有完整标量返回。R441之外的一单位支、环带、不相消双单位支及W外域全部列明，规范A/κ与原A测试不混用。
+
 - [R443：原四挠第二残余态的完整张量与中央返回](../results/R443-original-residual-quarter-source-and-complete-central-return.md)：特征零完整偶偶/奇奇张量秩18，principal块秩4且原S不在其饱和来源格；真实两边际、X6中央及非零质量完整区分。总Q在K1/K1R间互换，完整principal行相同，附深管不免费消反射余项。
 
 - [R441：原第六矩中央行与每个固定同深域非零](../results/R441-original-sixth-moment-row-and-uniform-same-depth-nonvanishing.md)：完整X6行与原J′S相差显示单位；残余双深+cunit的首五阶单位及全尾界给每正偶深赋值5n。原Σ表示固定m=0后每四倍隐藏同深赋值7n，内部/外部补域准确区分，未据子域非零判主中央。
