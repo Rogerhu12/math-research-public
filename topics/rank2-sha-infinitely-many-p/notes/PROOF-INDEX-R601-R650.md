@@ -33,3 +33,6 @@
 
 
 - [R608：同一原修正的结点残数与被迫坐标极](../results/R608-original-common-correction-nodal-residue-and-forced-chart-escape.md)：两支真实二阶临界项的二阶极严格相消，余下简单极由同一R低行给出的局部残数精确读取，全T不改变。接触单位迫两支不能同时整延伸；完整原Taylor平方项仍相消，不把辅助临界坐标极代原d2或全余核非零。
+
+
+- [R611：原三sigma反射、同深负五返回与全carry转置](../results/R611-original-three-sigma-reflection-and-same-depth-negative-five.md)：同一全来源的精确负反射将原矩形送进三域外，完整原测试的负三首行在同深消去，负五和全中央系数在整个原ray为单位。原π4不保反射，故保F/G、七余类及两补偿的完整转置；真实三/四域外积分联立回I1，未赋余补非零或消失。
