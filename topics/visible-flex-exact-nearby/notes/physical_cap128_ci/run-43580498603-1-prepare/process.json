@@ -33,6 +33,24 @@
       "actual_returncode": 0,
       "wall_seconds": 300.00829619900003,
       "finished_utc": "2026-11-14T09:31:26.150331+00:00"
+    },
+    {
+      "label": "all97_true_moving_inputs",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-cap128-prepare-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_cap_precompose_moving_head.py",
+        "--proposal",
+        "/__w/_temp/visible-exact-cap128-prepare-work/science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-physical128-cap-refined-proposal-native.json",
+        "--work",
+        "/workspace/scratch/ac0d699811ad/physical-cap-precompose-20261114",
+        "--out",
+        "/__w/_temp/visible-exact-cap128-prepared/evidence/moving97-precomposition-actual.json"
+      ],
+      "started_utc": "2026-11-14T09:31:29.110139+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 10.000729246999981,
+      "finished_utc": "2026-11-14T09:31:39.143106+00:00"
     }
   ],
   "readme_checks": [
@@ -47,9 +65,21 @@
       "before": "858ac1b7aaf3f88993ad0a998e62f1ff180066e6",
       "after": "da8395ae3fd67b339dd5f75dfbb247793b13bc56",
       "changed": false
+    },
+    {
+      "time": "2026-11-14T09:31:39.449598+00:00",
+      "before": "da8395ae3fd67b339dd5f75dfbb247793b13bc56",
+      "after": "69896116743d6a2bef2becc86ca8118b82f97691",
+      "changed": false
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T09:31:28.473692+00:00",
+      "commit": "69896116743d6a2bef2becc86ca8118b82f97691",
+      "final": false
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "input_manifest_sha256": "867699a5e7f968f97d9a3f50267e310181023fdbe0b815a7f9c22c6b21585e32",
@@ -61,7 +91,7 @@
     "mpmath": "1.3.0"
   },
   "all_pinned_inputs_verified": true,
-  "last_read_commit": "da8395ae3fd67b339dd5f75dfbb247793b13bc56",
+  "last_read_commit": "69896116743d6a2bef2becc86ca8118b82f97691",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-cap128-prepare-work/science",
   "consumed_published_original_candidate": {
     "moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
@@ -71,9 +101,14 @@
     "moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part003.npz.gz": "7b67e5a4b11ae45476d1507e842ae23919ca44e4ed2d64bc81bdea78e0b4007c",
     "moving-m32-alpha0765-fullR-v2-tol2e9-candidate-part004.npz.gz": "314a6846ef2b5a257ddf20068332d105a7707b5aef27026f30477a47984eec4c"
   },
-  "snapshot_utc": "2026-11-14T09:31:27.190560+00:00",
-  "wall_seconds": 301.475807286,
+  "snapshot_utc": "2026-11-14T09:31:39.478751+00:00",
+  "wall_seconds": 313.763997011,
   "native_files": [
+    {
+      "path": "evidence/moving97-precomposition-actual.json",
+      "bytes": 9095,
+      "sha256": "5afd2f9bcfdfa2e32d0f23d9e3af833a1a5cf73468a26254cf0b08d698d87826"
+    },
     {
       "path": "evidence/physical128-proposal-actual.json",
       "bytes": 8002,
