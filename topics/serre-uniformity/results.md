@@ -217,3 +217,6 @@
 
 
 - **R752（已证明）**：[原Γ/scalar交换与保留二阶类作用](results/R752-exact-Gamma-scalar-exchange-with-the-retained-second-coefficient.md)。原全q交换、rational quadratic及全部local gauge给Lq(D_b)=21εσ₂；实际global flat quotient I₀选择无关且I₀=ε(21σ₂+2b(J−18))。保a₂实部、b=0与b24边界，未用socle/全塔强迫σ₂零；原J/b真桥及I₀/σ₂值仍须继续。
+
+
+- **R748（已证明并精确计算完成）**：[原signed实CM根与六有理Hodge首系数](results/R748-original-signed-real-CM-root-and-rational-Hodge-first-jet.md)。公开run43617493590给T精确β多项式、同一原signed共轭+−+−++及六coarse首系数，原CM严格球定符号、exact square证恒等式；复用R745/R717，核心0.397秒。实际ω0首项43719/(7·41²)，完整尾证明v41(s)>3仅center与闭41⁴盘等距；没有以Abel不回零代真实高度排除。
