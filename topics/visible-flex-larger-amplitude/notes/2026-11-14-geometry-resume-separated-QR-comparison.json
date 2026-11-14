@@ -1,0 +1,43 @@
+{
+  "scope": "Compare disk QR and full CSC on actual nonaxisymmetric M128 blocks.",
+  "n": 386,
+  "m": 3,
+  "stations": [
+    0.978,
+    0.981,
+    0.984
+  ],
+  "free_dimensions": 96,
+  "qr_residual_max": 8.0629947163402e-14,
+  "direct_residual_max": 2.5025554545310413e-15,
+  "rhs_max": 0.5172793806363516,
+  "qr_vs_direct_max": 4.318437751490989e-12,
+  "qr_known_solution_max": 5.794915545684343e-12,
+  "direct_known_solution_max": 1.4764777941933538e-12,
+  "projector_diagnostics": {
+    "gauss_min": 1.7190331852558938,
+    "gauss_max": 1.7205621740096908,
+    "det_II_min": 0.06415346500306439,
+    "II_phi_phi_min": 0.13694977925912905,
+    "II_phi_phi_max": 18.997492339962584,
+    "principal_decay_min": 0.3704098491078246,
+    "principal_decay_max": 2.018306113629829,
+    "normalized_row_singular_min": 0.011629738520330906,
+    "normalized_row_singular_max": 1.6006774926985037,
+    "normalized_row_condition": 137.6365848553024,
+    "matrix_shape": [
+      96,
+      386
+    ]
+  },
+  "nonlinear_BVP": false,
+  "source_dependencies": {
+    "geometry_20261114_separated_qr_compare.py": "d1b1745f13f3d4bdd0a43783145050e5a5a78f818fdd0bb6b7fefdb8e41320ea",
+    "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+    "geometry_20261114_normal_terminal_projector.py": "d6c6f1308f678cae77750b33977d41f2bdb8d355f345d43bcb3f68b1e9e7d47d",
+    "geometry_20261114_r225_free_core_bvp.py": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08",
+    "geometry_20261114_block_csc_bvp.py": "af91df83e0bbf255c79ae25d49f107f4967380bfcdaf56c689bdde54b344835e"
+  },
+  "input_sha256": "2a37bb486871d7b9271b6bf9090207767349827847e212df6f5510b5f3c9ff5d",
+  "profile_sha256": "2b6159f86591a82ee17f9b6d88242aef6344508bb140538c837fdaa0eb46a4c9"
+}

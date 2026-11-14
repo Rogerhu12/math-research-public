@@ -1,0 +1,256 @@
+{
+  "scope": "Actually converged native M96 two-end finite BVP, fixed first32 scaled core coefficients, free33..96, actual nonaxisymmetric principal affine terminal condition. No closed surface or all-time certificate.",
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "-u",
+    "computations/geometry_20261114_projected_core_bvp.py",
+    "--profile",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-turn-fixed-profile.json",
+    "--seed",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-turn-native-M96.json.gz",
+    "--M",
+    "96",
+    "--N",
+    "1024",
+    "--fixed-modes",
+    "32",
+    "--end",
+    ".984",
+    "--base-step",
+    ".005",
+    "--seed-interpolation",
+    "hermite",
+    "--seed-predictor",
+    "taylor2",
+    "--terminal-projector",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-M96-terminal-normal-r1.json.gz",
+    "--linear-solver",
+    "separated-qr",
+    "--linear-workdir",
+    "${WORK}/scaled-sphere-qr-blocks",
+    "--jac-workers",
+    "1",
+    "--jac-chunk",
+    "16",
+    "--tol",
+    "1e-6",
+    "--max-nodes",
+    "600",
+    "--out",
+    "${OUT_DIR}/scaled-sphere-M96-normal-BVP-r1.json.gz"
+  ],
+  "restart_command": [
+    "${PYTHON}",
+    "-u",
+    "computations/geometry_20261114_projected_core_bvp.py",
+    "--profile",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-turn-fixed-profile.json",
+    "--seed",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-turn-native-M96.json.gz",
+    "--M",
+    "96",
+    "--N",
+    "1024",
+    "--fixed-modes",
+    "32",
+    "--end",
+    ".984",
+    "--base-step",
+    ".005",
+    "--seed-interpolation",
+    "hermite",
+    "--seed-predictor",
+    "taylor2",
+    "--terminal-projector",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-M96-terminal-normal-r1.json.gz",
+    "--linear-solver",
+    "separated-qr",
+    "--linear-workdir",
+    "${WORK}/scaled-sphere-qr-blocks",
+    "--jac-workers",
+    "1",
+    "--jac-chunk",
+    "16",
+    "--tol",
+    "1e-6",
+    "--max-nodes",
+    "600",
+    "--warm",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-M96-normal-BVP-r1.json.gz",
+    "--out",
+    "${OUT_DIR}/scaled-sphere-M96-normal-BVP-restart.json.gz"
+  ],
+  "runtime_placeholders": [
+    "PYTHON",
+    "RUNTIME_TOPIC",
+    "OUT_DIR",
+    "WORK"
+  ],
+  "self_contained_topic_inputs": true,
+  "executed": true,
+  "actual_local_exitcode": 0,
+  "actual_result": "notes/2026-11-14-geometry-resume-scaled-sphere-M96-normal-BVP-r1.json.gz",
+  "actual_result_sha256": "3ac8c8efa20670342021487a197443f6e1b2ad60f35c7bf2864f355a06424b69",
+  "python_dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "source_manifest": [
+    {
+      "file": "computations/geometry_20261114_projected_core_bvp.py",
+      "sha256": "2326720f124d2edc40e63089f8e07d6671e053ff108281efb59091d919f15c5b"
+    },
+    {
+      "file": "computations/geometry_20261114_separated_qr_bvp.py",
+      "sha256": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39"
+    },
+    {
+      "file": "computations/geometry_20261114_normal_terminal_projector.py",
+      "sha256": "d6c6f1308f678cae77750b33977d41f2bdb8d355f345d43bcb3f68b1e9e7d47d"
+    },
+    {
+      "file": "computations/geometry_20261114_separated_qr_compare.py",
+      "sha256": "d1b1745f13f3d4bdd0a43783145050e5a5a78f818fdd0bb6b7fefdb8e41320ea"
+    },
+    {
+      "file": "computations/geometry_20261114_r225_free_core_bvp.py",
+      "sha256": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+    },
+    {
+      "file": "computations/geometry_20261114_block_csc_bvp.py",
+      "sha256": "af91df83e0bbf255c79ae25d49f107f4967380bfcdaf56c689bdde54b344835e"
+    },
+    {
+      "file": "computations/geometry_20261114_r225_high_core_bvp.py",
+      "sha256": "e12916dcf30dd2088ad59d2059647c8a03bed446aeee693b88f423730fa5a530"
+    },
+    {
+      "file": "computations/geometry_20261114_r225_fixed_profile.py",
+      "sha256": "478d0bf603ea05a9f20228ff2fd591e2f767e6ab0686a6129b1114aa831b0c6c"
+    },
+    {
+      "file": "computations/geometry_20261114_fft_frenet.py",
+      "sha256": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401"
+    },
+    {
+      "file": "computations/geometry_20261114_r225_outward_probe.py",
+      "sha256": "64a3fd482f6ee01f4d149971dff1212b2c2ca3bdb00f1b733c7b119b458bab5f"
+    },
+    {
+      "file": "computations/alternative-outward-probe.py",
+      "sha256": "cf163a5c42cff95137a78eefda058b6a18f5f226b4261b686a42e645f4002fcb"
+    },
+    {
+      "file": "computations/alternative-controlled-profile.py",
+      "sha256": "0af61a3bfccf093bfe6c255f864c658c37119b890f362d5d2e16429d2969e430"
+    },
+    {
+      "file": "computations/alternative-neck-flatturn.py",
+      "sha256": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd"
+    },
+    {
+      "file": "computations/alternative-neck-excursion.py",
+      "sha256": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c"
+    },
+    {
+      "file": "computations/alternative-angle-plateau-connector.py",
+      "sha256": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7"
+    },
+    {
+      "file": "computations/alternative-direct-tail-connector.py",
+      "sha256": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+    },
+    {
+      "file": "computations/root_profile_scan.py",
+      "sha256": "3d940a78d18f509b98caa4fb8782ea34ad54423a58bf94e0f386f4f20e2994db"
+    }
+  ],
+  "inputs": [
+    {
+      "file": "notes/2026-11-14-geometry-resume-scaled-sphere-turn-fixed-profile.json",
+      "sha256": "2b6159f86591a82ee17f9b6d88242aef6344508bb140538c837fdaa0eb46a4c9"
+    },
+    {
+      "file": "notes/2026-11-14-geometry-resume-scaled-sphere-turn-native-M96.json.gz",
+      "sha256": "4de488897e6a1f556f619fa04a6d5043e55de98d00aa7edd4943d61d946b50d9"
+    },
+    {
+      "file": "notes/2026-11-14-geometry-resume-scaled-sphere-M96-terminal-normal-r1.json.gz",
+      "sha256": "f2eefb82049214817ea1455e3dcd5324a3cd53c7c30aa130164593c65c05a3da"
+    }
+  ],
+  "public_actions_submitted": false,
+  "actual_wait4_resource": {
+    "scope": "Foreground owned-child wait4 and durable heartbeats, without a new session.\n\nThis separately identified lifecycle variant retains the original process group.\nOnly signals explicitly received by this supervisor are relayed to its Popen\nchild. It does not time out, restart, or modify numerical settings. It does not\nclaim any cause for earlier unknown signal9 terminations.\n",
+    "task_prefix": "geometry-scaled-sphere-M96-normal-BVP-r1",
+    "command": [
+      "python",
+      "-u",
+      "geometry-work/rounding-runtime/geometry_20261114_projected_core_bvp.py",
+      "--profile",
+      "geometry-work/scaled-sphere-turn-M128-r1-profile.json",
+      "--seed",
+      "geometry-work/scaled-sphere-turn-fixed-M96-r1.json.gz",
+      "--M",
+      "96",
+      "--N",
+      "1024",
+      "--fixed-modes",
+      "32",
+      "--end",
+      ".984",
+      "--base-step",
+      ".005",
+      "--seed-interpolation",
+      "hermite",
+      "--seed-predictor",
+      "taylor2",
+      "--terminal-projector",
+      "geometry-work/scaled-sphere-turn-terminal-normal-M96-s0984.json.gz",
+      "--linear-solver",
+      "separated-qr",
+      "--linear-workdir",
+      "geometry-work/scaled-sphere-qr-work",
+      "--jac-workers",
+      "1",
+      "--jac-chunk",
+      "16",
+      "--tol",
+      "1e-6",
+      "--max-nodes",
+      "600",
+      "--out",
+      "geometry-work/scaled-sphere-M96-normal-BVP-r1.json.gz"
+    ],
+    "started_utc": "2026-11-14T08:11:55.172760+00:00",
+    "finished_utc": "2026-11-14T08:25:35.663383+00:00",
+    "wall_seconds": 820.494244395999,
+    "exitcode": 0,
+    "termination_signal": null,
+    "wait4_observed": true,
+    "wait_status": 0,
+    "peak_rss_kib": 296844,
+    "user_seconds": 409.113039,
+    "system_seconds": 20.039397,
+    "resource_wrapper_sha256": "f8e30202f9f92dfb5911da2487c0ecc293eed4a189e98301be58af13aa1c0fcb",
+    "received_supervisor_signals": [],
+    "owned_child_pid": 6,
+    "supervisor_pid": 5,
+    "supervisor_pid_namespace": "pid:[4026532563]",
+    "automatic_restarts": 0
+  },
+  "linear_comparison_command": [
+    "${PYTHON}",
+    "-u",
+    "computations/geometry_20261114_separated_qr_compare.py",
+    "--input",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-turn-M128.json.gz",
+    "--profile",
+    "notes/2026-11-14-geometry-resume-scaled-sphere-turn-fixed-profile.json",
+    "--work",
+    "${WORK}/qr-check",
+    "--out",
+    "${OUT_DIR}/qr-check.json"
+  ]
+}

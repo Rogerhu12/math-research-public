@@ -243,3 +243,6 @@ RK24完整八级与三整闭mesh七命令均真exit0，global metric4.7703317350
 
 ### 2026-11-14T08:30:57+00:00 — largecoretailconnector (local; public approval pending)
 λ6/5新末态经单C²turn/coast接原finite bridge和原物理tail cut；K2.15276/2.5/3背景Dproxy3.630/3.537/3.444，全部scalar/背景XYZ二jet接口≤2.54e−14，求积精化差≤5.6e−16，真实exit0。仅几何预算：新非轴、材料角和全tail DN尚未匹配；64高核未知不足96条尾条件，须另付边界计数。
+
+### 2026-11-14T08:30:58+00:00 — sphereM96bvp (local; public approval pending)
+固定λ6/5前32核、自由33..96的完整M96/N1024两端前缀BVP真exit0/820.49s，2轮416节点，连续残差5.45707e−7/BC8.27e−23，峰296844KiB。原线性方程薄QR磁盘传播有实际CSC对照；末端64条非轴主部设计条件不是精确稳定流形或全tail DN。完整接受态/源/真实退出和restart归档，采样metric6.65963e−8、κ6.29532、球G≈.96；全新高核及g、连续C²场/闭合仍须验。
