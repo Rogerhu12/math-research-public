@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R482：原二输出完整五十一维空间与整伴随矩提取](results/R482-complete-two-output-companion-span-and-integral-moment-extraction.md)：全二/四挠约束准确给51维上界，六个固定有理minor达到全部六角块。实际伴随次数≤53在固定坏集外整提取整个第一测度，principal八基仅需0到42的六倍数；保真实周期/四倍尺度，不赋未投影中央零或新core。
+
 - [R481：原三高轴完整p³规范形与同一修正的d2](results/R481-full-third-precision-normal-form-and-common-correction.md)：全来源目标单位保低ell缺失行、两次s移位和完整高尾，真cube相对首缺陷缩成三组准确短尾；同一R解全首提升后给实际第二障碍并投原G2。单一p239原格证书同时实现5/−2且逐行核p³，未将环境尾秩当余核秩。
 
 - [R480：原同时CM转伴随与两条完整算术中央行](results/R480-original-simultaneous-cm-companion-transfer-and-two-arithmetic-rows.md)：原F两态与Theta平方的全CM7/19 trace经det17严格转到伴随轴；完整六格投影表抽新曲线及Href，保第一单位测试。参考伴随质量抵消但来源非零，中央关系保真实导数和测试质量项；全五伴随lift不预支旧core。
