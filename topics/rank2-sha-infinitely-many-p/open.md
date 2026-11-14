@@ -181,3 +181,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 ### R562：同一四unit域的实际单位关系
 
 [R562](results/R562-original-four-unit-domain-and-negative-two-unit-relation.md)已逐项支付σc/Bv两个深补集，给真实四线单位域J与I4的(I4,J)=O；同时用该域的c反对称测试严格杀另一个P核。**待做：** 由原S/T或R560同一七条件源条带合法控制J，保Y/W、全部R/T伴随及完整物理转置。I4∈p迫J单位不等于已证I4非零，也不能把依赖H/K的原中央权冒认独立伴随。
+
+### R563：同一双unit域的两个完整互补行
+
+[R563](results/R563-original-s24-three-state-and-native-unit-complement.md)已付整个S24三态、完整连续逆及真实Cunit交叉消失，把原native行准确分成D12unit·UKf和D12deep·UHf。浅环带只有指定第j项，深尾/常数质量与K侧p^r首项全部保。**待做：** 两条同域真实测试与原S/T、R562固定四unit行的合法比较，不能延旧gluing/−Rc至µ−，不能删独立原Y/W或额外伴随cut；原两零中央仅替换所显示的第一列完整补域。

@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：4e3d7e9996b36fc7ecc662cb60813a446aa843aa；2026-11-14 18:29:23 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：fdb11652a1e255ac2cd8dd8d9bb847371ccde78d；2026-11-14 18:40:31 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推及改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:00:10 UTC实际git pull --rebase重试仍报无可用执行环境，随后API核main/两README无变。最迟19:00重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,11 +14,11 @@
 
 ## 发布、归档和分工
 
-R1–363、R365–560、R562已登记；R364仍开，R561/563/564进行中。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
+R1–363、R365–560、R562–563已登记；R364仍开，R561/564/565进行中。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
 完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r562.md)、[open](notes/2026-11-14-open-before-r562.md)，沿各自归档链保全部旧条件；压缩不关闭任何问题。全部结论准确编号/标题见results.md和notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b及原证书保持，不复跑。
 
-- theta已付R559原D12的144两层核/全C投影单支，续R563低S24三态闭包及保K完整单位逆。
+- theta已付R559/563全三态及完整双unit两互补，续R566这两条原行的同源实际比较。
 - literature已付R554/562同域负矩及真实四unit单位关系，续R565与原native/算术行的完整比较，保pairedV指定上尾。
 - deep已付R555全原线性系/真实高接触forcing门，续9/8临界同一α/β指定类或wild。
 - root已付R560原native全域七条件矩，续这些同一条带与原负矩/算术行的实际比较；不以子域非零或时长收尾。
@@ -67,3 +67,5 @@ R560：PC投影后同一native Nn精确β^n/(bΩ6)乘五伴随积分，原混合
 R559：D12=F−c的wholeK144²=B2、原二态B2=−Rc付全部偶深；五伴随/κ^(2m−n)/四log边界/常数质量保留。PCrho=σc⊗(B0⊗Λ0+B3⊗Λ3)，Hout=δ(c−C)、Kout=δ(c+C)的两核准确−ω²FB/P(−h,k)，保全部R/T；原carry是Hout+δD12deep，不免费改Houtdeep。
 
 R562：原σc⊗Bv四unit域(c,v,H=δc−v,K=δc+v)的J=∫c³/H²，与I4满足整单位关系，常数Ω(1−βκ)(1−3β)/(2δ²)；cdeep补项p7、vdeep保βΩ(1−βκ)/δ²后余p6，故(I4,J)=O。反对称测试c³(H^-2+K^-2)/2严格杀另一P核；只对独立伴随成立，原Y/W混合cut未赋J零。
+
+R563：µ−=KH PCh留整个S24²，AH=diag(−1,X)、AK=diag(−1,−X)，D12²=diag(1,−1,−1)≠−Rc于µ−。全连续UH/UK有整常数逆；native Cunit迫SHSKf=0，同一H/K双unit域恰D12unit·UKf+D12deep·UHf。浅j<n只真第j支；深尾保全部常数log，K尾p^r而非p^(r+1)，准确首项见(32a)。
