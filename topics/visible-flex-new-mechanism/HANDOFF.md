@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，时间C²连续，同一固定g；固定材料H有内点、diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6并同g/状态/时间精化。D为完整F0直径；δE可0如实报；完整网格<5MB；明确数值/准确存在差距。达标后继续.5D或更强存在。现无完整合格候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`aa904ab0c351e7d8fca52dc59156f58c9d22d431`（API差异复核，非实际pull）。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`b633482a9ce4233c8c5fcb8fa4c8ab8f705e82c1`（API差异复核，非实际pull）。
 - 每次实际pull --rebase核双README；变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase/核规则/再推至成功，不强推。
 - 已授权本公开main/自身Actions。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、小人工开发核、源码和公开输出分析。PAT仅瞬时CLI/env，不入文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根无差、本题私有README不存在。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。18:30 API另核根README blob未变、QUEUE本题唯一行仍进行中；此非pull。

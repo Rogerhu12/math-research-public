@@ -131,3 +131,19 @@
 - [R63：水平角切向的准确C²条带分类](results/R63-horizontal-angular-tangent-C2-strip-classification.md) — C²准确g=ds²+a²dθ²且Tz在整个连通带恒零时，混合导数迫Ts=0及a′=−νk0(θ)。非恒定k0只能给同一非圆直柱；恒定k0=m∈Z非零给固定中心m重圆及a′²/m²+z′²=1，嵌入截面时|m|=1。零速度与换号均保留，无高阶Taylor假设；非圆到圆的准确连接必须某处Tz非零。当前72个空间角场列保留，不排一般非水平/近似解。
 
 - [R64：凸柱入口必要七阶切向、六阶中心与有限类限制](results/R64-convex-core-entry-seventh-tangent-and-sixth-center-jets.md) — 对C²接凸平面柱且另有明确可微Taylor余项的准确E/F/G解，a′=−Cx³迫X4=CN/(4k)、z7=−side C²/(14k²)，从而u4=C(k^−1)θ/(4a0)、v7=−side C²(k^−2)θ/(14a0)、b6=−side C²〈k^−2〉/2。当前首片v基场0加五次径向多项式不能含必要非零v7，因此该明确有限类无准确零；无给定容差下界，不排精化极限。给局部v7及条件b6基场修正，尚未评价原c0的b6，也未付全部Cauchy系列。
+
+- [R65：互反纯第四漂移的复profile唯一性](results/R65-reciprocal-pure-fourth-drift-complex-uniqueness.md) — 理想无桥的±1互反pair不能使非零复右零collar q的纯第四局部漂移恒零；双因子与Gronwall论证不借复平方正性或擅选根分支。不排真实桥、其他机制或有限容差近似。
+
+- [R66：核心与平帽双法向的reach高度必要门](results/R66-core-flat-cap-two-normal-reach-height-gate.md) — 核心点与平帽顶点的两法向给reach≤(d²+Δ²)/(2max(d,Δ))并完整反演两个高度分支；当前τ=.061迫正h≥(81+sqrt3685)/1000。只是必要门，浮点帽高非连续包围，不能反当reach充分证书。
+
+- [R67：完整第四周期的三次圈数与真实桥控制](results/R67-complete-fourth-period-cubic-bulk-count-and-bridge-control.md) — 固定控制词/profile和真实桥时，保全部原函数历史的第四周期准确为P0+NP1+N²P2+N³P3；桥可通过大历史影响高次项，N是设计变量而非固定几何精化。系数恒等不授共同零点或有限族。
+
+- [R68：互反bulk有效桥与联合第四周期条件IFT](results/R68-paired-bulk-effective-bridge-and-joint-fourth-period-IFT.md) — paired bulk的最高P3恒消，二阶八参数已占用后须支付有效P2−DP3 A⁻¹Mbridge；给保真实桥历史的条件降阶/IFT，尚未构造满足根与rank条件的完整第四解。
+
+- [R69：纯第四有效桥Gamma与有限充分矩条件](results/R69-pure-fourth-effective-bridge-gamma-and-finite-moment-targets.md) — 完整8矩算子重建给Ceff=4ΣΓ_Aj(Φ_Ej−ΠjMall/3)，准确Γ含5项、DP3=Γ/3、Γ_A(A)=0；各组7个共28个profile无关充分条件。自由双线性BigInt十恒等式已公开核，条件非必要且P1/P0/ruling仍欠。
+
+- [R70：真实零矩桥与全部第四周期的仿射圈数降阶](results/R70-zero-matrix-bridges-and-affine-complete-fourth-period.md) — 真实有限辅助圈数K及八维IFT实现任意frame/scalar端与sl3目标；所有桥选M0后，固定K独立外N，全部phase第四周期准确P0+NP1。共同正物理区间后选，R45闭合仅给浸入；低次/ruling/收敛/厚度未付。
+
+- [R71：真实第三交换子与完整第四P1响应](results/R71-third-holonomy-commutators-and-complete-fourth-P1.md) — 保内桥第三holonomy给全部phase P1，纯模式为局部漂移加quadratic/cubic向量场括号；同端对称词与真实倒行准确实现2t[P(f,Qgh)−Q(f,Pgh)]。八矩基至多28可达方向，r0/r1给非零∫q″³例；未证全函数可支付，P0与ruling仍欠。
+
+- [R72：同标量任意框架的准确零二三阶桥](results/R72-same-state-zero-second-third-arbitrary-frame-bridge.md) — M0桥B接同k真实倒行给frame A D AᵀD且T准确相消，x/z半角与有限x-z-x Euler实现任意SO(3)端口、同scalar且M=T=0。空间位移自由，不同scalar转接T、P0、高阶及嵌入厚度仍需另付。

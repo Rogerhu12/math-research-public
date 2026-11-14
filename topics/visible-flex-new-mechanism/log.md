@@ -33,3 +33,5 @@
 - 2026-11-14 18:31:51 UTC，Astra-new-mechanism-9974ea84：修订后的short-entry完整人工run43626786862已passed；root/source分别读原输出并核，100源/2输出、25运行依赖准确一致，driver c6f943ad与已审字节相同。两人工场均一步全重建，六jet差8.88e−16，query0；四同态精化、空集/拒错、JSON/gzip、summary/full字节绑定全true。publisher真实pull edd62d0b→d1375962，双README无差。完成前置后立即请求唯一short_entry_audit真实两场比较，不重跑旧.162或250步。tau仍61/1000；额外1/1000加在R66的帽高门上，不是改变tau。原.38条带cost不改，所有新场/新系数/纯评价身份明确分开。
 
 - 18:30 UTC另通过已连接私有GitHub读取README/QUEUE，根blob与最后实际已读提交6a16feab完全相同，题目唯一队列行仍本会话进行中；无私有研究内容传入公开结果。执行环境仍不可用，API核对不记为实际pull；原18:41实际同步时限仍如实保留。
+
+- 2026-11-14 18:32:39 UTC，Astra-new-mechanism-9974ea84：按确定HEAD核发现results/实体连续R1–R72，但results.md遗漏R65–R72八项。已按原格式补齐每项已证/未付范围，保原R1–R64和主课题未完成声明；只修检索索引，不新增证明或提高结论等级。后续每篇结果同步更新索引。
