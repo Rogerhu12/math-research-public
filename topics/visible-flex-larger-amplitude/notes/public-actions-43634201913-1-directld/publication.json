@@ -1,0 +1,1828 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T19:51:06.478724+00:00",
+  "source_commit": "61831d6a76b2a06e0c22f7fe03aad87d1b69d39f",
+  "run_id": "43634201913",
+  "run_attempt": "1",
+  "lane": "directld",
+  "files": [
+    {
+      "source": "actual28-artifact-fetch-receipt.json",
+      "bytes": 44418,
+      "sha256": "838ca58a1b0407ad56a361ac366021cefeca2a97da29a7d89b26cca99df3dc2b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/actual28-artifact-fetch-receipt.json",
+      "published_bytes": 44418,
+      "published_sha256": "838ca58a1b0407ad56a361ac366021cefeca2a97da29a7d89b26cca99df3dc2b"
+    },
+    {
+      "source": "actual28-fetch.log",
+      "bytes": 928,
+      "sha256": "bc62eee021de29b71018431b6290704396f0765f76069be2a602507199a64d1e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/actual28-fetch.log",
+      "published_bytes": 928,
+      "published_sha256": "bc62eee021de29b71018431b6290704396f0765f76069be2a602507199a64d1e"
+    },
+    {
+      "source": "actual41-artifact-fetch-receipt.json",
+      "bytes": 1235788,
+      "sha256": "cc72f35c3e9142a832b41f11315dfad44ae3bdc9157c6fdb5a1e2b6cfa71b1cd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/actual41-artifact-fetch-receipt.json.gz",
+      "published_bytes": 207954,
+      "published_sha256": "2f2a3e97f680b4df1391e449d3996d0fd1267eedc67548ad4d448c319d5466df"
+    },
+    {
+      "source": "actual41-fetch.log",
+      "bytes": 2413,
+      "sha256": "69f6f147a9bd978d590f989862d6758a1aa292175c1df0305d0c7f893037b9ba",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/actual41-fetch.log",
+      "published_bytes": 2413,
+      "published_sha256": "69f6f147a9bd978d590f989862d6758a1aa292175c1df0305d0c7f893037b9ba"
+    },
+    {
+      "source": "direct-ld-request-identity.json",
+      "bytes": 7439,
+      "sha256": "a3306a9425727e807d68fa3c644e3ab682c0917872a1c599b49e8629ecf06847",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/direct-ld-request-identity.json",
+      "published_bytes": 7439,
+      "published_sha256": "a3306a9425727e807d68fa3c644e3ab682c0917872a1c599b49e8629ecf06847"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/actual41-consumed-reference-packets.json",
+      "bytes": 832038,
+      "sha256": "b5467b04e10679250c39d346e91dc61c2d28a2a92bc71ccdedfdbd774c4e507c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/actual41-consumed-reference-packets.json",
+      "published_bytes": 832038,
+      "published_sha256": "b5467b04e10679250c39d346e91dc61c2d28a2a92bc71ccdedfdbd774c4e507c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/direct-ld-input-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/direct-ld-input-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/original-reference-packets.json",
+      "bytes": 131287,
+      "sha256": "9b3fe243bef0ac6106e7ae59780c6d6fdb8cc786cd593345412ac72d7a0cb8c6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/original-reference-packets.json",
+      "published_bytes": 131287,
+      "published_sha256": "9b3fe243bef0ac6106e7ae59780c6d6fdb8cc786cd593345412ac72d7a0cb8c6"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-000-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "e522bf638f07ea6fb28a48cafd7a2c55adae8277b934cfe873fdeb23b66774fd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-000-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "e522bf638f07ea6fb28a48cafd7a2c55adae8277b934cfe873fdeb23b66774fd"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-000-input.f64le",
+      "bytes": 1792,
+      "sha256": "4818f75178c3b45b4be5df006c038eda2f56ac0af35894a09f758c8a45da79ae",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-000-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "4818f75178c3b45b4be5df006c038eda2f56ac0af35894a09f758c8a45da79ae"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-000-output.f64le",
+      "bytes": 1792,
+      "sha256": "ab82904cd6caa7119884edebd3992693676739e1bf34a7acb6bd3cf459221f5a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-000-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "ab82904cd6caa7119884edebd3992693676739e1bf34a7acb6bd3cf459221f5a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-001-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "3862af2d0302ca757a64dca5e4bc733e925bbaa74902b1ec4d6c20b0dd00ed10",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-001-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "3862af2d0302ca757a64dca5e4bc733e925bbaa74902b1ec4d6c20b0dd00ed10"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-001-input.f64le",
+      "bytes": 1792,
+      "sha256": "99a7340237721b457de62ed27389c09b97c9561cc297597a833d3bff7d4ecaf2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-001-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "99a7340237721b457de62ed27389c09b97c9561cc297597a833d3bff7d4ecaf2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-001-output.f64le",
+      "bytes": 1792,
+      "sha256": "09c7b948de9ce2c1fa62e48894a9328087adb6350e851d0d0cf80818978d62b5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-001-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "09c7b948de9ce2c1fa62e48894a9328087adb6350e851d0d0cf80818978d62b5"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-002-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "33bdc39d607135a743d36ed5f71c1bc2958c5e0f804c460fa1828d908e5422ab",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-002-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "33bdc39d607135a743d36ed5f71c1bc2958c5e0f804c460fa1828d908e5422ab"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-002-input.f64le",
+      "bytes": 1792,
+      "sha256": "3ea9f400fc2753557dd6ff783dadcf6bdfe1080fa8611b3cd9e4ea547d1083df",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-002-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "3ea9f400fc2753557dd6ff783dadcf6bdfe1080fa8611b3cd9e4ea547d1083df"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-002-output.f64le",
+      "bytes": 1792,
+      "sha256": "7b909cae5d1895d05131a6b190ddc0adce9ea494d43e5f2ec7bf59828d2d822d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-002-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "7b909cae5d1895d05131a6b190ddc0adce9ea494d43e5f2ec7bf59828d2d822d"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-003-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "07abb9e081cb6f609c0b1d44a70b9045ee97fb65fd204c58c1d9ecb01417123b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-003-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "07abb9e081cb6f609c0b1d44a70b9045ee97fb65fd204c58c1d9ecb01417123b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-003-input.f64le",
+      "bytes": 1792,
+      "sha256": "e39529d0d6727c2fbd7be2068335e235f0f53b1256373a1c070fecdfd8ede683",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-003-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "e39529d0d6727c2fbd7be2068335e235f0f53b1256373a1c070fecdfd8ede683"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-003-output.f64le",
+      "bytes": 1792,
+      "sha256": "6585fa4cb77aa19d120a8626e290e5b6756f4ded642c3eaca7be03a5ff742934",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-003-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "6585fa4cb77aa19d120a8626e290e5b6756f4ded642c3eaca7be03a5ff742934"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-004-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "4c006fe9e0307ec169e6cc75f35412251690b4547aed90e2f0e262fcd7fc1db7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-004-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "4c006fe9e0307ec169e6cc75f35412251690b4547aed90e2f0e262fcd7fc1db7"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-004-input.f64le",
+      "bytes": 1792,
+      "sha256": "4ec25f0170a25293718e9a64f6ee430c7ac7dd69531082ea4a4e824467afab7c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-004-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "4ec25f0170a25293718e9a64f6ee430c7ac7dd69531082ea4a4e824467afab7c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-004-output.f64le",
+      "bytes": 1792,
+      "sha256": "1777a402b7bc1e78249c668d917f4d3a2385ac249714d8eb69585a5e572d57ee",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-004-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "1777a402b7bc1e78249c668d917f4d3a2385ac249714d8eb69585a5e572d57ee"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-005-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "b256a8b33917f5a49ccc1e1236c8e41d4fc2fc25f4716e00e677cab24782042b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-005-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "b256a8b33917f5a49ccc1e1236c8e41d4fc2fc25f4716e00e677cab24782042b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-005-input.f64le",
+      "bytes": 1792,
+      "sha256": "46ec0c17556ca2af445410c3fb8f9c9d0820b1d47853c6b66d96235977b28d04",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-005-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "46ec0c17556ca2af445410c3fb8f9c9d0820b1d47853c6b66d96235977b28d04"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-005-output.f64le",
+      "bytes": 1792,
+      "sha256": "08c005a7b2cd1a3ce6387b46db7f000553063ff30c3ccd4bb7f8b294b4da175e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-005-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "08c005a7b2cd1a3ce6387b46db7f000553063ff30c3ccd4bb7f8b294b4da175e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-006-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "cad5606fdea2fe78495524b38223d6c0757d69672336e6380677db8a24504a3e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-006-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "cad5606fdea2fe78495524b38223d6c0757d69672336e6380677db8a24504a3e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-006-input.f64le",
+      "bytes": 1792,
+      "sha256": "ac862c8ff00ddf9037498a1d6e169433cd202310515b48c3745d01b6fdaec4ae",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-006-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "ac862c8ff00ddf9037498a1d6e169433cd202310515b48c3745d01b6fdaec4ae"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-006-output.f64le",
+      "bytes": 1792,
+      "sha256": "1bd901cca870bb2ebe08cd69ddb84b50c6f3030c29bba35fab33d18d546b555f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-006-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "1bd901cca870bb2ebe08cd69ddb84b50c6f3030c29bba35fab33d18d546b555f"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-007-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "34b58939dd0a26e1e0626b0149c5fcdd5de1bb0535473a122216e19f656fa737",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-007-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "34b58939dd0a26e1e0626b0149c5fcdd5de1bb0535473a122216e19f656fa737"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-007-input.f64le",
+      "bytes": 1792,
+      "sha256": "aad7d05d92921b3a607e376c5b9a368b8c6923d592907290397b2fcaddea6465",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-007-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "aad7d05d92921b3a607e376c5b9a368b8c6923d592907290397b2fcaddea6465"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-007-output.f64le",
+      "bytes": 1792,
+      "sha256": "8266b4f93b9b9687800b39b71c9251b8af0041cb18cbb14c64f045409f39dd91",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-007-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "8266b4f93b9b9687800b39b71c9251b8af0041cb18cbb14c64f045409f39dd91"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-008-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "c482c97b7606d94f83fc3f1aaa0a3b888bdba961a09a79bf424f53db5be60e8a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-008-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "c482c97b7606d94f83fc3f1aaa0a3b888bdba961a09a79bf424f53db5be60e8a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-008-input.f64le",
+      "bytes": 1792,
+      "sha256": "3d00ef0c47302bf62cefeb92efea32bf2e868edc24a418011304549ae62ab18b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-008-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "3d00ef0c47302bf62cefeb92efea32bf2e868edc24a418011304549ae62ab18b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-008-output.f64le",
+      "bytes": 1792,
+      "sha256": "4d2add26246e374afcfd458ebc5c4f53d0ef44719383ae68abdf026ce8e9ca83",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-008-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "4d2add26246e374afcfd458ebc5c4f53d0ef44719383ae68abdf026ce8e9ca83"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-009-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "bfdddf1752dedcc6ecfac922ef5f89a9c5cb4fa3cf65dce3435597b40a12bdf2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-009-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "bfdddf1752dedcc6ecfac922ef5f89a9c5cb4fa3cf65dce3435597b40a12bdf2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-009-input.f64le",
+      "bytes": 1792,
+      "sha256": "e83556ac9e39bef2ebe62f97ab43c4284719d47990dfe37aca91744734909dfb",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-009-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "e83556ac9e39bef2ebe62f97ab43c4284719d47990dfe37aca91744734909dfb"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-009-output.f64le",
+      "bytes": 1792,
+      "sha256": "b7478ade9e35978584b38130fe06998b61410ea7006fb73f24461c794e82662d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-009-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "b7478ade9e35978584b38130fe06998b61410ea7006fb73f24461c794e82662d"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-010-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "4c3c1e145da6813ad6b672b8363b200f6e1fc6ed5c36416b842098a07d4a7a16",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-010-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "4c3c1e145da6813ad6b672b8363b200f6e1fc6ed5c36416b842098a07d4a7a16"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-010-input.f64le",
+      "bytes": 1792,
+      "sha256": "ad2e304a421d583281dad798ad28144f9616095b24a377d883e2e9c1698b075f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-010-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "ad2e304a421d583281dad798ad28144f9616095b24a377d883e2e9c1698b075f"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-010-output.f64le",
+      "bytes": 1792,
+      "sha256": "54044902004a0a4b9afc044f088c85108c49c6610fb0986ec1ce243dd3d7940e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-010-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "54044902004a0a4b9afc044f088c85108c49c6610fb0986ec1ce243dd3d7940e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-011-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "5d682432f6cae22659872260c56323a61f1ed0261accdb79b5277398892d839c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-011-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "5d682432f6cae22659872260c56323a61f1ed0261accdb79b5277398892d839c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-011-input.f64le",
+      "bytes": 1792,
+      "sha256": "44a1141bc852a6fc5e25f74a1a6f016a7f9c22969f9d7ecebae593b277d9be0a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-011-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "44a1141bc852a6fc5e25f74a1a6f016a7f9c22969f9d7ecebae593b277d9be0a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-011-output.f64le",
+      "bytes": 1792,
+      "sha256": "4677bec7d98d142a727bcc6767742001023d7b07e0acb4245124da74eb1446d2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-011-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "4677bec7d98d142a727bcc6767742001023d7b07e0acb4245124da74eb1446d2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-012-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "ebebb973b36ee994b6bf48b0f1eae9771b2b9918f6488a987446aee06b62a7b2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-012-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "ebebb973b36ee994b6bf48b0f1eae9771b2b9918f6488a987446aee06b62a7b2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-012-input.f64le",
+      "bytes": 1792,
+      "sha256": "70625eaf797a36ec325f860a5d0e653f093912e433159a8d5247c3bf380e3ab2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-012-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "70625eaf797a36ec325f860a5d0e653f093912e433159a8d5247c3bf380e3ab2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-012-output.f64le",
+      "bytes": 1792,
+      "sha256": "d4c87970b5aab3ef0062072865986c155ac7d6034fb6722645bfb6fabf1b5b8a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-012-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "d4c87970b5aab3ef0062072865986c155ac7d6034fb6722645bfb6fabf1b5b8a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-013-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "83968918be3bd8726352b0edca8daa6ff170d4cc278fe6c04ae0fbedd597b6be",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-013-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "83968918be3bd8726352b0edca8daa6ff170d4cc278fe6c04ae0fbedd597b6be"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-013-input.f64le",
+      "bytes": 1792,
+      "sha256": "92f5d3a414a10554db79b483fa580e7463da8d83755ed84a4aa2b16cf035a7d3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-013-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "92f5d3a414a10554db79b483fa580e7463da8d83755ed84a4aa2b16cf035a7d3"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-013-output.f64le",
+      "bytes": 1792,
+      "sha256": "73e59b0bc402c365f1b3d00c37973cb81d664ea9ef2437aadf5e6f840807870c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-013-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "73e59b0bc402c365f1b3d00c37973cb81d664ea9ef2437aadf5e6f840807870c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-014-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "7706d5ce69ad8b83831b241a843755d0f635d502734414fa4f3fcf2e006ae4a1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-014-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "7706d5ce69ad8b83831b241a843755d0f635d502734414fa4f3fcf2e006ae4a1"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-014-input.f64le",
+      "bytes": 1792,
+      "sha256": "83a24cc459917c3053e8dbd90e022ec6c29e2e7fdcd31bd087e7ac0a8367de95",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-014-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "83a24cc459917c3053e8dbd90e022ec6c29e2e7fdcd31bd087e7ac0a8367de95"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-014-output.f64le",
+      "bytes": 1792,
+      "sha256": "927558a465e71f7b53c863aadcf04bfb8ac7f05e18de00ecff266517da19c556",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-014-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "927558a465e71f7b53c863aadcf04bfb8ac7f05e18de00ecff266517da19c556"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-015-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "ac4d406ed93db633fdb08721bafac55eff82d0c4dd84d9a50aca232fd015f4f4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-015-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "ac4d406ed93db633fdb08721bafac55eff82d0c4dd84d9a50aca232fd015f4f4"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-015-input.f64le",
+      "bytes": 1792,
+      "sha256": "5f696bf91b54d0b8ebcfaa2ce89124b0688e4a5915db03be375d322aadf879c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-015-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "5f696bf91b54d0b8ebcfaa2ce89124b0688e4a5915db03be375d322aadf879c5"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-015-output.f64le",
+      "bytes": 1792,
+      "sha256": "86b40d62e1cd1adb2e66d8e218d6d74df359d849b7a13563e64dda462d838f2c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-015-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "86b40d62e1cd1adb2e66d8e218d6d74df359d849b7a13563e64dda462d838f2c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-016-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "1f7ce116a657cff9dbe821c6a7cdaa7c4acd73e064fe8dc2c2d5520f5471595c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-016-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "1f7ce116a657cff9dbe821c6a7cdaa7c4acd73e064fe8dc2c2d5520f5471595c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-016-input.f64le",
+      "bytes": 1792,
+      "sha256": "b71e8beb070f113ec302a843d4391c6f2d425ae1173ba7589854a376f57c3094",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-016-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "b71e8beb070f113ec302a843d4391c6f2d425ae1173ba7589854a376f57c3094"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-016-output.f64le",
+      "bytes": 1792,
+      "sha256": "ccc01050d30057e6a36493202306e07d779cfb9305a27352f7331f708b26b684",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-016-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "ccc01050d30057e6a36493202306e07d779cfb9305a27352f7331f708b26b684"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-017-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "3673e36dbc515581a00e80045d1f324808c04e3f4330544efe089d05ec7dd196",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-017-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "3673e36dbc515581a00e80045d1f324808c04e3f4330544efe089d05ec7dd196"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-017-input.f64le",
+      "bytes": 1792,
+      "sha256": "966ad6d56ceaba429480468d4c0cec2da929c316163f58390ff33fdc384bc64c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-017-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "966ad6d56ceaba429480468d4c0cec2da929c316163f58390ff33fdc384bc64c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-017-output.f64le",
+      "bytes": 1792,
+      "sha256": "b0e899ef325fc8d83fdb6dec12b93e36c68e32813fa0309e92c7d38725c7ed43",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-017-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "b0e899ef325fc8d83fdb6dec12b93e36c68e32813fa0309e92c7d38725c7ed43"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-018-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "5cbdd9b241b31a9a22987e5ca52da79e975ce1814decee1de0c667c19961b905",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-018-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "5cbdd9b241b31a9a22987e5ca52da79e975ce1814decee1de0c667c19961b905"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-018-input.f64le",
+      "bytes": 1792,
+      "sha256": "868def70dceafcdc9561aec9cb5717d8a7e98670caa6e3f019ec94c55226ddf9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-018-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "868def70dceafcdc9561aec9cb5717d8a7e98670caa6e3f019ec94c55226ddf9"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-018-output.f64le",
+      "bytes": 1792,
+      "sha256": "c2e23e970d04ecb6666f7652565c475fcc568fc9a1f1c6a98ea42de4896b977d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-018-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "c2e23e970d04ecb6666f7652565c475fcc568fc9a1f1c6a98ea42de4896b977d"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-019-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "3716001e32559b26b9cef2e697358ed4b7f16df5989d5b008be9caa3baa51055",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-019-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "3716001e32559b26b9cef2e697358ed4b7f16df5989d5b008be9caa3baa51055"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-019-input.f64le",
+      "bytes": 1792,
+      "sha256": "bd4f2d4095106c873ceaa39e62cf7d442b74c79bee9dacaeeecd819c042fef18",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-019-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "bd4f2d4095106c873ceaa39e62cf7d442b74c79bee9dacaeeecd819c042fef18"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-019-output.f64le",
+      "bytes": 1792,
+      "sha256": "4e04f31793315dcf437f71b6b9a16d85bbc1752b476995ba584a148850bb07f6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-019-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "4e04f31793315dcf437f71b6b9a16d85bbc1752b476995ba584a148850bb07f6"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-020-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "9f57aabac50f2ec572e03a365133183741c325c655e2da2ffc48cff82324dfa9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-020-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "9f57aabac50f2ec572e03a365133183741c325c655e2da2ffc48cff82324dfa9"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-020-input.f64le",
+      "bytes": 1792,
+      "sha256": "46f94237829aab8aebf6df28237ac6a80d626456e3baae692c00d1930518f2dc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-020-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "46f94237829aab8aebf6df28237ac6a80d626456e3baae692c00d1930518f2dc"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-020-output.f64le",
+      "bytes": 1792,
+      "sha256": "5e3a53bb42bca7365353728c3bb25c1db6c98c443fc7ce014b3f48ea4a6ed9cc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-020-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "5e3a53bb42bca7365353728c3bb25c1db6c98c443fc7ce014b3f48ea4a6ed9cc"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-021-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "90a2619c024c6c5c98914edbb8224001f7cf3efb769eda0085da05e7961245bf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-021-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "90a2619c024c6c5c98914edbb8224001f7cf3efb769eda0085da05e7961245bf"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-021-input.f64le",
+      "bytes": 1792,
+      "sha256": "2996ec76c8053324fdbac16e1c0a36b8c7d5f0e5e712c771dd74e2711b85b4c3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-021-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "2996ec76c8053324fdbac16e1c0a36b8c7d5f0e5e712c771dd74e2711b85b4c3"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-021-output.f64le",
+      "bytes": 1792,
+      "sha256": "58ea58b347349b54822d6b2638bbbcefad245339be7fd34249fae3faf732bd9b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-021-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "58ea58b347349b54822d6b2638bbbcefad245339be7fd34249fae3faf732bd9b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-022-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "6bc58b431db648b0b6641a675c6450275c642ab1c02553581703a38cc7f8aae9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-022-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "6bc58b431db648b0b6641a675c6450275c642ab1c02553581703a38cc7f8aae9"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-022-input.f64le",
+      "bytes": 1792,
+      "sha256": "216a766430769b8a1013f1d5317b6a090ce37038d0bff4e43ae304d5eb21dc20",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-022-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "216a766430769b8a1013f1d5317b6a090ce37038d0bff4e43ae304d5eb21dc20"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-022-output.f64le",
+      "bytes": 1792,
+      "sha256": "7cdc95164b9290006a089f4f0a69522b0ae002c3235bfde7bf71efa3d755c442",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-022-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "7cdc95164b9290006a089f4f0a69522b0ae002c3235bfde7bf71efa3d755c442"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-023-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "f6759a68fe36557a0a385bef8a67b7d4a90970a6a3358f9b98e99a8e43e269fa",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-023-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "f6759a68fe36557a0a385bef8a67b7d4a90970a6a3358f9b98e99a8e43e269fa"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-023-input.f64le",
+      "bytes": 1792,
+      "sha256": "2c4099f9b6cda7b38e620418c903c5c66b33719440df204ddf27332d43272c2a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-023-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "2c4099f9b6cda7b38e620418c903c5c66b33719440df204ddf27332d43272c2a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-023-output.f64le",
+      "bytes": 1792,
+      "sha256": "5d73cf6b491fc373263fb81a053263bdf777ecbc66f12f656449a59bcd5f7d94",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-023-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "5d73cf6b491fc373263fb81a053263bdf777ecbc66f12f656449a59bcd5f7d94"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-024-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "80fa82eff3c8af196e3c5ae5b1ad67a4ebcb8d0360206c8a9fc027d453bc37fc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-024-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "80fa82eff3c8af196e3c5ae5b1ad67a4ebcb8d0360206c8a9fc027d453bc37fc"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-024-input.f64le",
+      "bytes": 1792,
+      "sha256": "32800cc3262575630a970443f78cd60e5823fa104226dd0a68a4c77a688e90f9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-024-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "32800cc3262575630a970443f78cd60e5823fa104226dd0a68a4c77a688e90f9"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-024-output.f64le",
+      "bytes": 1792,
+      "sha256": "0b9a96cbe4527b149a4308dfbd8b1c17d99ffd194869a6143e366a9f025b81a6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-024-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "0b9a96cbe4527b149a4308dfbd8b1c17d99ffd194869a6143e366a9f025b81a6"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-025-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "f2808efe32390ecec01c72451863ee920757ccf50291b8688c8075a802ceb2b8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-025-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "f2808efe32390ecec01c72451863ee920757ccf50291b8688c8075a802ceb2b8"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-025-input.f64le",
+      "bytes": 1792,
+      "sha256": "90675474808a762019d461880feda4448688a844a2c2ad449cc430bec4e357aa",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-025-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "90675474808a762019d461880feda4448688a844a2c2ad449cc430bec4e357aa"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-025-output.f64le",
+      "bytes": 1792,
+      "sha256": "aeb275770bfd6f4bf063518f4caa7c713ba0e5bda47f124b35ef84946c96a1e0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-025-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "aeb275770bfd6f4bf063518f4caa7c713ba0e5bda47f124b35ef84946c96a1e0"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-026-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "219495093bce5190447909f8ca62f86a7dea90f60ee73fe4e33a1d808f3e470f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-026-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "219495093bce5190447909f8ca62f86a7dea90f60ee73fe4e33a1d808f3e470f"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-026-input.f64le",
+      "bytes": 1792,
+      "sha256": "b9e21e2f49542dccb7330065a1d9002d421dc82f784b472da4df483b7f069741",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-026-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "b9e21e2f49542dccb7330065a1d9002d421dc82f784b472da4df483b7f069741"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-026-output.f64le",
+      "bytes": 1792,
+      "sha256": "ffc7e32920e4052c7e95b75a01011a71a76e101e9f63cb0946ea5d743e0af3ae",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-026-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "ffc7e32920e4052c7e95b75a01011a71a76e101e9f63cb0946ea5d743e0af3ae"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-027-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "ca957288d7cf9b178f0c95ec592f83ba51bb9bf855e152849a566cd772fef5fc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-027-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "ca957288d7cf9b178f0c95ec592f83ba51bb9bf855e152849a566cd772fef5fc"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-027-input.f64le",
+      "bytes": 1792,
+      "sha256": "509d47022698838e436c6b2a4261c34edc9e8cb0e9c4211ad0dc0a1e48a51e2c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-027-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "509d47022698838e436c6b2a4261c34edc9e8cb0e9c4211ad0dc0a1e48a51e2c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-027-output.f64le",
+      "bytes": 1792,
+      "sha256": "837bc5c9075c729a23051cb6d5b12e42fa32ea69e493e38c01364d9385b318f0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-027-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "837bc5c9075c729a23051cb6d5b12e42fa32ea69e493e38c01364d9385b318f0"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-028-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "8d8505e22ce0a57244bb42d5ae84b123cd7866c3ac4b68ff537cf142574dee73",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-028-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "8d8505e22ce0a57244bb42d5ae84b123cd7866c3ac4b68ff537cf142574dee73"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-028-input.f64le",
+      "bytes": 1792,
+      "sha256": "96f110dc204ae2ab62c5d98a33a8e384efa13100d225021ce8d15f71559cb99b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-028-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "96f110dc204ae2ab62c5d98a33a8e384efa13100d225021ce8d15f71559cb99b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-028-output.f64le",
+      "bytes": 1792,
+      "sha256": "1d3f96e2ed087199abb8b5593c78fcca7c1a5a40a6f5f6639cdf28367c082605",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-028-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "1d3f96e2ed087199abb8b5593c78fcca7c1a5a40a6f5f6639cdf28367c082605"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-029-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "cbdec7df5165198e7faa938ca1610794f25aa91f0c0a205445a37aa8fac9a4b9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-029-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "cbdec7df5165198e7faa938ca1610794f25aa91f0c0a205445a37aa8fac9a4b9"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-029-input.f64le",
+      "bytes": 1792,
+      "sha256": "3c70a06add490f0d67f10d792065220d0b0e9312cd8c58ccf396ea8b0b45ce6e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-029-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "3c70a06add490f0d67f10d792065220d0b0e9312cd8c58ccf396ea8b0b45ce6e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-029-output.f64le",
+      "bytes": 1792,
+      "sha256": "c28cf13b6c29cda23e23a27ff38844e1a3afe8f0d2123e1a377c04e27ecbd3a2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-029-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "c28cf13b6c29cda23e23a27ff38844e1a3afe8f0d2123e1a377c04e27ecbd3a2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-030-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "dfcec65c78444c82b2a8e6816b051b89b0feff4e0ea1254419e431a02e07f399",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-030-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "dfcec65c78444c82b2a8e6816b051b89b0feff4e0ea1254419e431a02e07f399"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-030-input.f64le",
+      "bytes": 1792,
+      "sha256": "9e922b553ab4ac326dc25e28f4e92ca829f17829fe1b5452f916c5b847315e5b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-030-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "9e922b553ab4ac326dc25e28f4e92ca829f17829fe1b5452f916c5b847315e5b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-030-output.f64le",
+      "bytes": 1792,
+      "sha256": "935ea7681185d7350209326efbf0396c7975105fbf38cc35f2097c981916d320",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-030-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "935ea7681185d7350209326efbf0396c7975105fbf38cc35f2097c981916d320"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-031-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "0908049f2cc6aa96fade6e1fdfddf299c80e0cef8f1e38722ccd2c721c00a5ee",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-031-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "0908049f2cc6aa96fade6e1fdfddf299c80e0cef8f1e38722ccd2c721c00a5ee"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-031-input.f64le",
+      "bytes": 1792,
+      "sha256": "fa2ab3a2a4363eea4d70d991dff30ead3def35cf6c809e7e1b047fc105fb4fb9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-031-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "fa2ab3a2a4363eea4d70d991dff30ead3def35cf6c809e7e1b047fc105fb4fb9"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-031-output.f64le",
+      "bytes": 1792,
+      "sha256": "ff3ce4a03943cdde51d63140a7d62d03745ceff3d721f71c7df1e5ea63dbd57b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-031-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "ff3ce4a03943cdde51d63140a7d62d03745ceff3d721f71c7df1e5ea63dbd57b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-032-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "b12b3cdea210373448c88c7f4b06789e6775f980dca1ba54fdfb098f6168df28",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-032-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "b12b3cdea210373448c88c7f4b06789e6775f980dca1ba54fdfb098f6168df28"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-032-input.f64le",
+      "bytes": 1792,
+      "sha256": "4be900b4d69c13dbc15d11e5f3be43316c5c9040d71ff6374b9c4baa257554ad",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-032-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "4be900b4d69c13dbc15d11e5f3be43316c5c9040d71ff6374b9c4baa257554ad"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-032-output.f64le",
+      "bytes": 1792,
+      "sha256": "d4fb533a3fb20aabab3e9d210b4367040d7a9765a2b9803031b802437f42dfc3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-032-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "d4fb533a3fb20aabab3e9d210b4367040d7a9765a2b9803031b802437f42dfc3"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-033-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "3cc57d6a4a57384bdce6f0d46d02cda891dd9ee45d073ae128cb1180c994798a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-033-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "3cc57d6a4a57384bdce6f0d46d02cda891dd9ee45d073ae128cb1180c994798a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-033-input.f64le",
+      "bytes": 1792,
+      "sha256": "06c6165b039d1c47bf3fb20bbf410188e8348995fdf2ce0ed9ecf5da601b93cd",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-033-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "06c6165b039d1c47bf3fb20bbf410188e8348995fdf2ce0ed9ecf5da601b93cd"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-033-output.f64le",
+      "bytes": 1792,
+      "sha256": "bc5241ead048d97d30388af689194d52a6a5b4fd897a301820d3540fc4d5791a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-033-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "bc5241ead048d97d30388af689194d52a6a5b4fd897a301820d3540fc4d5791a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-034-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "ab127ae0cc1054bbbdc43e6a4d9178b2434b6d2eac7d11e1612a260bb2b1e284",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-034-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "ab127ae0cc1054bbbdc43e6a4d9178b2434b6d2eac7d11e1612a260bb2b1e284"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-034-input.f64le",
+      "bytes": 1792,
+      "sha256": "2f2e8135cdcb7e3f298bdc37c16a02e6513fc50639f40a9ba1dbf74e04c9ef65",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-034-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "2f2e8135cdcb7e3f298bdc37c16a02e6513fc50639f40a9ba1dbf74e04c9ef65"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-034-output.f64le",
+      "bytes": 1792,
+      "sha256": "2f1a13ecf6629b75c9b6f8e4afd3a2c05c8a7a63ec5e6b4626434066277c1a16",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-034-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "2f1a13ecf6629b75c9b6f8e4afd3a2c05c8a7a63ec5e6b4626434066277c1a16"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-035-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "9238ef87ca715cbdea77f9ed7fd026ab8deba8be591e38d3414b656a9f07dc39",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-035-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "9238ef87ca715cbdea77f9ed7fd026ab8deba8be591e38d3414b656a9f07dc39"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-035-input.f64le",
+      "bytes": 1792,
+      "sha256": "426b0392ee5872c11bee8c2e980bda7927310b5ad69af7da0585feb73d106352",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-035-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "426b0392ee5872c11bee8c2e980bda7927310b5ad69af7da0585feb73d106352"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-035-output.f64le",
+      "bytes": 1792,
+      "sha256": "d36c464e74e0df09593538b350621f1b2e3b3d82377ab17eb0749b83bb389a76",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-035-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "d36c464e74e0df09593538b350621f1b2e3b3d82377ab17eb0749b83bb389a76"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-036-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "c9c146587163139d01c9cdc404227884b663ddd2da06d6daa82461eb900b0c13",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-036-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "c9c146587163139d01c9cdc404227884b663ddd2da06d6daa82461eb900b0c13"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-036-input.f64le",
+      "bytes": 1792,
+      "sha256": "0b62fd9414a169ae08e8509b073490892ca4c315b075ed44728e5f95a886b17f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-036-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "0b62fd9414a169ae08e8509b073490892ca4c315b075ed44728e5f95a886b17f"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-036-output.f64le",
+      "bytes": 1792,
+      "sha256": "79868ec4e8c533713bac7c5c7675e425069a23055be79ebdc1fcf8238ac427c7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-036-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "79868ec4e8c533713bac7c5c7675e425069a23055be79ebdc1fcf8238ac427c7"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-037-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "3cbf17cebc542bf99992861e0ca9228fb8cff9a952d42840ab19016e2f156bbe",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-037-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "3cbf17cebc542bf99992861e0ca9228fb8cff9a952d42840ab19016e2f156bbe"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-037-input.f64le",
+      "bytes": 1792,
+      "sha256": "c8eecbaed5257b82015021b17065b204cf76ba5947faba822724065f03a0a3e6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-037-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "c8eecbaed5257b82015021b17065b204cf76ba5947faba822724065f03a0a3e6"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-037-output.f64le",
+      "bytes": 1792,
+      "sha256": "f49cc8eb5b0ddf84cc2b70bc3a41988da99482d30428027395b34650fae77186",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-037-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "f49cc8eb5b0ddf84cc2b70bc3a41988da99482d30428027395b34650fae77186"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-038-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "84c0d01e7229df61448e8a8e93de15a1f98553b559fc9f5fd82c765eccae6c9a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-038-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "84c0d01e7229df61448e8a8e93de15a1f98553b559fc9f5fd82c765eccae6c9a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-038-input.f64le",
+      "bytes": 1792,
+      "sha256": "bf4a20bb6282c0529eeced607d3149b241df828a25d37dddb75c2b3a5ca3d29c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-038-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "bf4a20bb6282c0529eeced607d3149b241df828a25d37dddb75c2b3a5ca3d29c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-038-output.f64le",
+      "bytes": 1792,
+      "sha256": "0de0f8061e2591902cfbfbc8f25aaa9d510f25866ce07516b8cc3cf8d53baa0b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-038-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "0de0f8061e2591902cfbfbc8f25aaa9d510f25866ce07516b8cc3cf8d53baa0b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-039-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "f09d83e0f404ba146cd67843a9308e7e88e2c366569138e055ddfc97e66a1b2b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-039-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "f09d83e0f404ba146cd67843a9308e7e88e2c366569138e055ddfc97e66a1b2b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-039-input.f64le",
+      "bytes": 1792,
+      "sha256": "80d21d5491e16c24699d770dcf494c08372ec49fa2a0a33a582cdb955ffda307",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-039-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "80d21d5491e16c24699d770dcf494c08372ec49fa2a0a33a582cdb955ffda307"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-039-output.f64le",
+      "bytes": 1792,
+      "sha256": "53c011cb498645b5dd0fc250eafaf855caa5b59ee73878eaf697221552e71b8d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-039-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "53c011cb498645b5dd0fc250eafaf855caa5b59ee73878eaf697221552e71b8d"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-040-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "49bfd36829ec1da78863c4e7be4464a8af24e08d10320ca0226baf3ec0797cb6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-040-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "49bfd36829ec1da78863c4e7be4464a8af24e08d10320ca0226baf3ec0797cb6"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-040-input.f64le",
+      "bytes": 1792,
+      "sha256": "3babc0693570e6e68516a523b0577a7b70ea04f729d52ae4801db9d54316ea59",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-040-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "3babc0693570e6e68516a523b0577a7b70ea04f729d52ae4801db9d54316ea59"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-040-output.f64le",
+      "bytes": 1792,
+      "sha256": "01664b2bd4fb9891e76a968d8a9784bf92dc715af2e015ab307e753a381a92d2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-040-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "01664b2bd4fb9891e76a968d8a9784bf92dc715af2e015ab307e753a381a92d2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-041-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "3e90c3acbd75f9666581917a46dd9c3093c7f0ba4ba3ddfbeb459e37899751e2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-041-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "3e90c3acbd75f9666581917a46dd9c3093c7f0ba4ba3ddfbeb459e37899751e2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-041-input.f64le",
+      "bytes": 1792,
+      "sha256": "6e981ca3fd1551e94e2eeafdb4bc465b59a93398e2853796ff5b36fafb11eac5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-041-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "6e981ca3fd1551e94e2eeafdb4bc465b59a93398e2853796ff5b36fafb11eac5"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-041-output.f64le",
+      "bytes": 1792,
+      "sha256": "c95614bf97bcfd9f3ffe88056c46fa5844d07243cfa72bec4f3452a77793344b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-041-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "c95614bf97bcfd9f3ffe88056c46fa5844d07243cfa72bec4f3452a77793344b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-042-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "8a4d50753ce01324da72e0b0c6d11ed3c8a21771c9ef9d944a319edc03e237f1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-042-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "8a4d50753ce01324da72e0b0c6d11ed3c8a21771c9ef9d944a319edc03e237f1"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-042-input.f64le",
+      "bytes": 1792,
+      "sha256": "02b01bbf68cfc2cf1cc1da4b7c33a95bb62feb29156f6dccdfb0e84ca8df04b1",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-042-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "02b01bbf68cfc2cf1cc1da4b7c33a95bb62feb29156f6dccdfb0e84ca8df04b1"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-042-output.f64le",
+      "bytes": 1792,
+      "sha256": "c3d54436531463f568547d3a912d05ffe803111ff733d523022d33a85bc11140",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-042-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "c3d54436531463f568547d3a912d05ffe803111ff733d523022d33a85bc11140"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-043-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "87fd4fe7147be0e44a30be4da617ea77b23d83c431813e0b552f46ea3ce238ec",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-043-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "87fd4fe7147be0e44a30be4da617ea77b23d83c431813e0b552f46ea3ce238ec"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-043-input.f64le",
+      "bytes": 1792,
+      "sha256": "084d984f9241469f339bfa73954f9fd435ce9b29938414f84c7c4046fe450bdb",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-043-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "084d984f9241469f339bfa73954f9fd435ce9b29938414f84c7c4046fe450bdb"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-043-output.f64le",
+      "bytes": 1792,
+      "sha256": "90bfaafffe40aa31ab47ce2f45867d4f9f714e2e546b471f21185836497c75b9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-043-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "90bfaafffe40aa31ab47ce2f45867d4f9f714e2e546b471f21185836497c75b9"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-044-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "92e801eb3da140ea1dc964609e51d5c85e765940f32497c302171f2b304f238b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-044-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "92e801eb3da140ea1dc964609e51d5c85e765940f32497c302171f2b304f238b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-044-input.f64le",
+      "bytes": 1792,
+      "sha256": "aa7bd36df9bdf3f5f5335236ecbd8075d25b572ff9f9db95bb79f6695af98f9f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-044-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "aa7bd36df9bdf3f5f5335236ecbd8075d25b572ff9f9db95bb79f6695af98f9f"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-044-output.f64le",
+      "bytes": 1792,
+      "sha256": "9eda09a65d59838c267614647fde040c99fd3a82175a182b971ab12d49538861",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-044-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "9eda09a65d59838c267614647fde040c99fd3a82175a182b971ab12d49538861"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-045-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "351ea9b7c80d72ef88c9325d09590664a7214d4c8f8ac2e6cd82ba50889eb474",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-045-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "351ea9b7c80d72ef88c9325d09590664a7214d4c8f8ac2e6cd82ba50889eb474"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-045-input.f64le",
+      "bytes": 1792,
+      "sha256": "885616f399e045e2dca24538cf0aae0b2edad2f0efb2d73f4da413bd7a04d609",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-045-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "885616f399e045e2dca24538cf0aae0b2edad2f0efb2d73f4da413bd7a04d609"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-045-output.f64le",
+      "bytes": 1792,
+      "sha256": "84e2c363491f39684374f8f22eb60736619f9609bd1506f981c2248b2ea6c66a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-045-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "84e2c363491f39684374f8f22eb60736619f9609bd1506f981c2248b2ea6c66a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-046-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "d43873e767eb0f1106ac761c582ac76b0abd275cc1e083857dee0a0d5c2f6efa",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-046-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "d43873e767eb0f1106ac761c582ac76b0abd275cc1e083857dee0a0d5c2f6efa"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-046-input.f64le",
+      "bytes": 1792,
+      "sha256": "b66234dab6d5673e348114a22dbf96bbf2581f50b53852667a58b6c6142afbbf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-046-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "b66234dab6d5673e348114a22dbf96bbf2581f50b53852667a58b6c6142afbbf"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-046-output.f64le",
+      "bytes": 1792,
+      "sha256": "162a6e76513a9d24d842c67b1d8d3df1791cb94ed9cbd4f3afac22d0caff114a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-046-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "162a6e76513a9d24d842c67b1d8d3df1791cb94ed9cbd4f3afac22d0caff114a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-047-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "de40d5e41026609790fdd50bcc063272905197ff23f11f6f498993eab37a26a5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-047-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "de40d5e41026609790fdd50bcc063272905197ff23f11f6f498993eab37a26a5"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-047-input.f64le",
+      "bytes": 1792,
+      "sha256": "21c0a0731a1145027a9ba6059a0a4554fe2cb9555c942b1c75ab950fdd430866",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-047-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "21c0a0731a1145027a9ba6059a0a4554fe2cb9555c942b1c75ab950fdd430866"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-047-output.f64le",
+      "bytes": 1792,
+      "sha256": "2d6e26278efaf6def07d17468923b58532b9904a8c859daf29db6f2427abd7c4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-047-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "2d6e26278efaf6def07d17468923b58532b9904a8c859daf29db6f2427abd7c4"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-048-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "b5e004092ff584b1a73e400a0e39cebb91e2c5b7678d0e2ee175fde1bdd375bb",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-048-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "b5e004092ff584b1a73e400a0e39cebb91e2c5b7678d0e2ee175fde1bdd375bb"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-048-input.f64le",
+      "bytes": 1792,
+      "sha256": "9e9c76259a22e334fc62cc109b5e3a80a8a90d94a2b3023d6c80134092ce1562",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-048-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "9e9c76259a22e334fc62cc109b5e3a80a8a90d94a2b3023d6c80134092ce1562"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-048-output.f64le",
+      "bytes": 1792,
+      "sha256": "f21385473b90846ede497b3ce5897f482e4005cd7b29a3d0c160061d73021500",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-048-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "f21385473b90846ede497b3ce5897f482e4005cd7b29a3d0c160061d73021500"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-049-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "77ebc8c19b0b70ffa70f0a84c87481365ba53a312b0b61cee8f1a5350f461660",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-049-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "77ebc8c19b0b70ffa70f0a84c87481365ba53a312b0b61cee8f1a5350f461660"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-049-input.f64le",
+      "bytes": 1792,
+      "sha256": "97f01d63580cab178b522c74e00663ca815c9429ba4c581e3736983476417d0f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-049-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "97f01d63580cab178b522c74e00663ca815c9429ba4c581e3736983476417d0f"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-049-output.f64le",
+      "bytes": 1792,
+      "sha256": "3673a63625b1a86446115f8516f94c31446f9add0319fdc5ce126354054cf7bc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-049-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "3673a63625b1a86446115f8516f94c31446f9add0319fdc5ce126354054cf7bc"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-050-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "e863997d8221b71893d5043f0a709493e27a6e5e1e8b54c73372ed84f7f52521",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-050-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "e863997d8221b71893d5043f0a709493e27a6e5e1e8b54c73372ed84f7f52521"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-050-input.f64le",
+      "bytes": 1792,
+      "sha256": "825345d4615e97b5cabc404a36fc7c0ded99e32a1e0d03cb14621203c7dfc718",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-050-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "825345d4615e97b5cabc404a36fc7c0ded99e32a1e0d03cb14621203c7dfc718"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-050-output.f64le",
+      "bytes": 1792,
+      "sha256": "04b4623247f2fbea9c620f99a0b78287604b34cc53c033b2f8d61ffd0896d0c2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-050-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "04b4623247f2fbea9c620f99a0b78287604b34cc53c033b2f8d61ffd0896d0c2"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-051-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "c702ed029059654c474e278255bc972babf752fd4ced00eceaea807f47be35bc",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-051-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "c702ed029059654c474e278255bc972babf752fd4ced00eceaea807f47be35bc"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-051-input.f64le",
+      "bytes": 1792,
+      "sha256": "207ff1727f11717349ca06312b1bb2f1957249c4f42893a5f406d628b0a1e5cf",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-051-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "207ff1727f11717349ca06312b1bb2f1957249c4f42893a5f406d628b0a1e5cf"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-051-output.f64le",
+      "bytes": 1792,
+      "sha256": "4d5f7434236a55953e1353222d4def9d1fd63eed2e59abffe0b12f20c49dab10",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-051-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "4d5f7434236a55953e1353222d4def9d1fd63eed2e59abffe0b12f20c49dab10"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-052-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "81dd3975482984915de25dfa9b80d8be11461889a1f188c45f851fd67eb70299",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-052-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "81dd3975482984915de25dfa9b80d8be11461889a1f188c45f851fd67eb70299"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-052-input.f64le",
+      "bytes": 1792,
+      "sha256": "e38494ec0ba1d957fb26ccdc3f88ca2807a8ec33daaa1c2523c3bf9c9f94b082",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-052-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "e38494ec0ba1d957fb26ccdc3f88ca2807a8ec33daaa1c2523c3bf9c9f94b082"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-052-output.f64le",
+      "bytes": 1792,
+      "sha256": "c0247cb57e1fca9b782a0281ec57f5dd1a91bd4e1f9efc8a8639bafae8d6d696",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-052-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "c0247cb57e1fca9b782a0281ec57f5dd1a91bd4e1f9efc8a8639bafae8d6d696"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-053-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "b0ca80c999197e6d7e9ae3419219357324f58750df236b1adb045c4acc3c2805",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-053-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "b0ca80c999197e6d7e9ae3419219357324f58750df236b1adb045c4acc3c2805"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-053-input.f64le",
+      "bytes": 1792,
+      "sha256": "192281445ee8f8c2746f9c6f52b65030e79a4355ecbd9cdb2fc83cd59588de39",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-053-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "192281445ee8f8c2746f9c6f52b65030e79a4355ecbd9cdb2fc83cd59588de39"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-053-output.f64le",
+      "bytes": 1792,
+      "sha256": "2eee7fe34483e5fa4b19e3212babcc00888534eead08d986d7826e96da806aef",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-053-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "2eee7fe34483e5fa4b19e3212babcc00888534eead08d986d7826e96da806aef"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-054-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "6497a04f6bd64dc2590cf95cce8ad997a32101105f813af5e7fef73235deb846",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-054-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "6497a04f6bd64dc2590cf95cce8ad997a32101105f813af5e7fef73235deb846"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-054-input.f64le",
+      "bytes": 1792,
+      "sha256": "10e5c4c60679403b547fef3252e0f14eb6fbf8a151327da403bd443d90f47744",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-054-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "10e5c4c60679403b547fef3252e0f14eb6fbf8a151327da403bd443d90f47744"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-054-output.f64le",
+      "bytes": 1792,
+      "sha256": "69df156874018b82370e84827df06cae35fa5d221a7423be2cfc30db0ed4b6d9",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-054-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "69df156874018b82370e84827df06cae35fa5d221a7423be2cfc30db0ed4b6d9"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-055-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "e13166b201f78f433ce14c7d8b7dbe12e01853a9b5fc293a5055d42a8368367b",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-055-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "e13166b201f78f433ce14c7d8b7dbe12e01853a9b5fc293a5055d42a8368367b"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-055-input.f64le",
+      "bytes": 1792,
+      "sha256": "d745566dc6efb302cf3b5c3aeb40baac1266015c583420fbd46c2e3660f6815e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-055-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "d745566dc6efb302cf3b5c3aeb40baac1266015c583420fbd46c2e3660f6815e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-055-output.f64le",
+      "bytes": 1792,
+      "sha256": "fc6bdf9fa4a3a9fb3a59633569e12c7fb7461a407bf7ca3e9437c5fdbe87387e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-055-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "fc6bdf9fa4a3a9fb3a59633569e12c7fb7461a407bf7ca3e9437c5fdbe87387e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-056-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "bb4fb9f4cf8f38075862efb91ccf410e31cde284b1109c45b4e1573f46a248ea",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-056-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "bb4fb9f4cf8f38075862efb91ccf410e31cde284b1109c45b4e1573f46a248ea"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-056-input.f64le",
+      "bytes": 1792,
+      "sha256": "f4aebad631eaba28e84f7df88cef8bc04e0611a2ff84f9a17041bedf52c55890",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-056-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "f4aebad631eaba28e84f7df88cef8bc04e0611a2ff84f9a17041bedf52c55890"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-056-output.f64le",
+      "bytes": 1792,
+      "sha256": "bd4f184566811df988793dd21f316b83d9f0a324a1781add0fa9245b4406f8db",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-056-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "bd4f184566811df988793dd21f316b83d9f0a324a1781add0fa9245b4406f8db"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-057-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "65c5d638b0b939c95a66e85ec309939859747586307a1d474c941db45bb30326",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-057-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "65c5d638b0b939c95a66e85ec309939859747586307a1d474c941db45bb30326"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-057-input.f64le",
+      "bytes": 1792,
+      "sha256": "013ac729ab62f366d88d00b50a2d5c999c427ad12aee15cc16064c2fa4679070",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-057-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "013ac729ab62f366d88d00b50a2d5c999c427ad12aee15cc16064c2fa4679070"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-057-output.f64le",
+      "bytes": 1792,
+      "sha256": "76aa2faab96ba9bd043b7bedc6141b5f63ba37b438d8131bab0e81bf45eadfe4",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-057-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "76aa2faab96ba9bd043b7bedc6141b5f63ba37b438d8131bab0e81bf45eadfe4"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-058-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "f60ae148458db2e4654866327c6aad69d27940d40b92f51acf1f955267b3bd4f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-058-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "f60ae148458db2e4654866327c6aad69d27940d40b92f51acf1f955267b3bd4f"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-058-input.f64le",
+      "bytes": 1792,
+      "sha256": "8eeeb83722f677741f26fc9aa37d71f589029b9ac8b0d6f5166707d82302c74c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-058-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "8eeeb83722f677741f26fc9aa37d71f589029b9ac8b0d6f5166707d82302c74c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-058-output.f64le",
+      "bytes": 1792,
+      "sha256": "fceed6ce39d66943d2535e714cb4c7616cdc467d944b7cc8d8ae85f7c2b75b1a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-058-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "fceed6ce39d66943d2535e714cb4c7616cdc467d944b7cc8d8ae85f7c2b75b1a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-059-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "8b064c9a3b16d7400da9840a5fd78c39c841b814a8b0dc37e423821d01a92b86",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-059-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "8b064c9a3b16d7400da9840a5fd78c39c841b814a8b0dc37e423821d01a92b86"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-059-input.f64le",
+      "bytes": 1792,
+      "sha256": "63ebf5d53557f85c292882f822731fa84800c7b95cbd4b0b41de08383cdc9c31",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-059-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "63ebf5d53557f85c292882f822731fa84800c7b95cbd4b0b41de08383cdc9c31"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-059-output.f64le",
+      "bytes": 1792,
+      "sha256": "31b04142c324231feaf0e8a64ab75d09b0db764a134ea002eef79f6752dfd75a",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-059-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "31b04142c324231feaf0e8a64ab75d09b0db764a134ea002eef79f6752dfd75a"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-060-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "b327ae0f2918b113f7f266d3c3a0346dd5f9a040b6a3f5cdeb2018dd9f666b50",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-060-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "b327ae0f2918b113f7f266d3c3a0346dd5f9a040b6a3f5cdeb2018dd9f666b50"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-060-input.f64le",
+      "bytes": 1792,
+      "sha256": "be25d617ec288887461138c7bf7b435a44684830efdd35d13fdb0f350e358e4e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-060-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "be25d617ec288887461138c7bf7b435a44684830efdd35d13fdb0f350e358e4e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-060-output.f64le",
+      "bytes": 1792,
+      "sha256": "3f2569e196e4703181ad768f0ba71bf2f31fa9f09f35464d6313400300823cfa",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-060-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "3f2569e196e4703181ad768f0ba71bf2f31fa9f09f35464d6313400300823cfa"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-061-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "4e51934dc5487d0bb12816e6533bb5f2cb98e32d65dc9d704881fdf23c346d3c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-061-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "4e51934dc5487d0bb12816e6533bb5f2cb98e32d65dc9d704881fdf23c346d3c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-061-input.f64le",
+      "bytes": 1792,
+      "sha256": "283ae51458ed9753a5f9eb8211d619b96ce8aea60ab313fc02ba768cedbfeb91",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-061-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "283ae51458ed9753a5f9eb8211d619b96ce8aea60ab313fc02ba768cedbfeb91"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-061-output.f64le",
+      "bytes": 1792,
+      "sha256": "6ad9a1fac1f19870e93e7da7ea5e01f84be699d5dad58b85fcbb30f6c5ef4c2c",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-061-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "6ad9a1fac1f19870e93e7da7ea5e01f84be699d5dad58b85fcbb30f6c5ef4c2c"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-062-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "d82868c76c8d20ff37bf1e22f9985b9a53ea3a5f0afac019ac3d7ce6a003ec92",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-062-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "d82868c76c8d20ff37bf1e22f9985b9a53ea3a5f0afac019ac3d7ce6a003ec92"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-062-input.f64le",
+      "bytes": 1792,
+      "sha256": "5a33993c49c378fb0eb4f71dee351b49eaea32b71e878b9525b2c49fc3862931",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-062-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "5a33993c49c378fb0eb4f71dee351b49eaea32b71e878b9525b2c49fc3862931"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-062-output.f64le",
+      "bytes": 1792,
+      "sha256": "4c11f403caca2535ad6bd1601fca1ac009636f624d0578c4679c229a7bbbb291",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-062-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "4c11f403caca2535ad6bd1601fca1ac009636f624d0578c4679c229a7bbbb291"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-063-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "f3cf5fe8ef060f723085d04d3ef1a659c3c042f7ac1ac7b8a5a3d91351e9f742",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-063-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "f3cf5fe8ef060f723085d04d3ef1a659c3c042f7ac1ac7b8a5a3d91351e9f742"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-063-input.f64le",
+      "bytes": 1792,
+      "sha256": "d4ab85d217867ce2f444c8c20492b9907c944df3cd91756538e0e26405ff860e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-063-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "d4ab85d217867ce2f444c8c20492b9907c944df3cd91756538e0e26405ff860e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-063-output.f64le",
+      "bytes": 1792,
+      "sha256": "037a7c5ba76b68a41afee8863ecb4d165b4ab14c5dfea85d017d2114ddcb52ab",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-063-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "037a7c5ba76b68a41afee8863ecb4d165b4ab14c5dfea85d017d2114ddcb52ab"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-064-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "021fb8d8830512e60083555a97842360fc73292e286318d71111afed9499d900",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-064-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "021fb8d8830512e60083555a97842360fc73292e286318d71111afed9499d900"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-064-input.f64le",
+      "bytes": 1792,
+      "sha256": "082a691724fe8140d5676a2413edf42d8dd58c2afb9e57752fb5ae3266868ddb",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-064-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "082a691724fe8140d5676a2413edf42d8dd58c2afb9e57752fb5ae3266868ddb"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-064-output.f64le",
+      "bytes": 1792,
+      "sha256": "0ab2a6affd71df81ac0234d0c1f84f44da43a80c2b7aaa6774769ececdd7b9af",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-064-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "0ab2a6affd71df81ac0234d0c1f84f44da43a80c2b7aaa6774769ececdd7b9af"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-065-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "d120f8f604e36468849cda83780864e0b365e0d564e4ef3adedc1f77194dfda7",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-065-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "d120f8f604e36468849cda83780864e0b365e0d564e4ef3adedc1f77194dfda7"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-065-input.f64le",
+      "bytes": 1792,
+      "sha256": "74037c84b3d4ccbadcfd9787eadeaa1e724e6afb97f0bb7761df18e5d1785855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-065-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "74037c84b3d4ccbadcfd9787eadeaa1e724e6afb97f0bb7761df18e5d1785855"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-065-output.f64le",
+      "bytes": 1792,
+      "sha256": "40db485af3f9319df2c6f9e97e0838490c112e84dca326b1855f01a329dbce5d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-065-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "40db485af3f9319df2c6f9e97e0838490c112e84dca326b1855f01a329dbce5d"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-066-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "a14c1da6f8f113a384636b219b20d07627984a4ea50275c075f3bcd5b8f6d031",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-066-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "a14c1da6f8f113a384636b219b20d07627984a4ea50275c075f3bcd5b8f6d031"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-066-input.f64le",
+      "bytes": 1792,
+      "sha256": "f28ef67658ea81975f397c333d35487e2354cdcfeea86b93ba78c4dffeab1635",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-066-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "f28ef67658ea81975f397c333d35487e2354cdcfeea86b93ba78c4dffeab1635"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-066-output.f64le",
+      "bytes": 1792,
+      "sha256": "2a5a066a7093f140982339f92efe24834b35e69687f3609bc2f1d3fd4e73a3b0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-066-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "2a5a066a7093f140982339f92efe24834b35e69687f3609bc2f1d3fd4e73a3b0"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-067-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "f1f046a5fb97e80ac50bdb1dc1c1dbb124e163d0dec6a036b8228b10816d578e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-067-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "f1f046a5fb97e80ac50bdb1dc1c1dbb124e163d0dec6a036b8228b10816d578e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-067-input.f64le",
+      "bytes": 1792,
+      "sha256": "d78760cb275069780d13550ea6919c2b67734efa9e94676366faa52e6790e6ff",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-067-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "d78760cb275069780d13550ea6919c2b67734efa9e94676366faa52e6790e6ff"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-067-output.f64le",
+      "bytes": 1792,
+      "sha256": "71a3b3966670a62564cf68fa25f16779044a73ccf1898b25c842daed90bfdbc0",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-067-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "71a3b3966670a62564cf68fa25f16779044a73ccf1898b25c842daed90bfdbc0"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-068-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "a6331c7a0e92699504ccd39921bea7e66cfa58292bf8e06c4e67b29dfecc34f3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-068-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "a6331c7a0e92699504ccd39921bea7e66cfa58292bf8e06c4e67b29dfecc34f3"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-068-input.f64le",
+      "bytes": 1792,
+      "sha256": "298ead8556d665da355e7fe96472ca02e588e9ae88e55567186405d38ffe886f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-068-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "298ead8556d665da355e7fe96472ca02e588e9ae88e55567186405d38ffe886f"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-068-output.f64le",
+      "bytes": 1792,
+      "sha256": "d29b4de49686dfdda6d9dbf1d0921bbbbdc3c953ffb201c7d97693db4e666c22",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-068-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "d29b4de49686dfdda6d9dbf1d0921bbbbdc3c953ffb201c7d97693db4e666c22"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-069-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "56e445ac5ed4c2fefeaabf4d5c69a4c0b6b23884dace8ba58e0cb67c8181b60e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-069-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "56e445ac5ed4c2fefeaabf4d5c69a4c0b6b23884dace8ba58e0cb67c8181b60e"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-069-input.f64le",
+      "bytes": 1792,
+      "sha256": "c5f5e958f5a1199dd25d40dbe55447c086017b95116d2dd65bf36fc8d8340882",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-069-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "c5f5e958f5a1199dd25d40dbe55447c086017b95116d2dd65bf36fc8d8340882"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-069-output.f64le",
+      "bytes": 1792,
+      "sha256": "6a72dd0c7dbe15c843b93ff07ef52651b10807b0bbe463c5ed2e12b6c88d83b8",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-069-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "6a72dd0c7dbe15c843b93ff07ef52651b10807b0bbe463c5ed2e12b6c88d83b8"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-070-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "97988161005ac98365571a07df90d45cca53446b708679af7adbe5a8b7c7ee1d",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-070-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "97988161005ac98365571a07df90d45cca53446b708679af7adbe5a8b7c7ee1d"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-070-input.f64le",
+      "bytes": 1792,
+      "sha256": "a31fd25c6f9c061a05c786b93e529f6285f13b71bc57d506b59a9b7cb22cb5af",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-070-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "a31fd25c6f9c061a05c786b93e529f6285f13b71bc57d506b59a9b7cb22cb5af"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-070-output.f64le",
+      "bytes": 1792,
+      "sha256": "9cde628655de370ac044d38f15837f0b5be0ff237db136cdc79f3d51834db1f6",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-070-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "9cde628655de370ac044d38f15837f0b5be0ff237db136cdc79f3d51834db1f6"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-071-guard-mean.f64le",
+      "bytes": 24,
+      "sha256": "c8b821b7c028c72b2d8e7754e838cfd90efaead8a4cbaaa0a10a8ad634da4486",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-071-guard-mean.f64le",
+      "published_bytes": 24,
+      "published_sha256": "c8b821b7c028c72b2d8e7754e838cfd90efaead8a4cbaaa0a10a8ad634da4486"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-071-input.f64le",
+      "bytes": 1792,
+      "sha256": "496ffca9ce1d2cf155c14a03fb2f0295d62ef649a98e57eb7f7f050bee9d7823",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-071-input.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "496ffca9ce1d2cf155c14a03fb2f0295d62ef649a98e57eb7f7f050bee9d7823"
+    },
+    {
+      "source": "native-rawcell0-direct-ld/reference-stage-071-output.f64le",
+      "bytes": 1792,
+      "sha256": "cd127ac55de945f195df5e0fa6daa05ef23d3c2af6f687497f3cc668bf8d3d37",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/native-rawcell0-direct-ld/reference-stage-071-output.f64le",
+      "published_bytes": 1792,
+      "published_sha256": "cd127ac55de945f195df5e0fa6daa05ef23d3c2af6f687497f3cc668bf8d3d37"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "5d57490068bf251fb1f5adb1fccf1c2b0f7119698de0f2165342f4dac1f2e0a2",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "5d57490068bf251fb1f5adb1fccf1c2b0f7119698de0f2165342f4dac1f2e0a2"
+    },
+    {
+      "source": "public-source-restore.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/public-source-restore.log",
+      "published_bytes": 0,
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "rawcell0-direct-ld-capture.log",
+      "bytes": 995,
+      "sha256": "cce44b13afa4272f972c1e4bc5d2125e2d258cad9aa974cb4441374b456b5400",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43634201913-1-directld/rawcell0-direct-ld-capture.log",
+      "published_bytes": 995,
+      "published_sha256": "cce44b13afa4272f972c1e4bc5d2125e2d258cad9aa974cb4441374b456b5400"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43634201913"
+}
