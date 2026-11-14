@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R462：原混合反射的无限level与来源轨道](results/R462-original-mixed-reflection-infinite-level-and-source-orbit.md)：同一H33⊗σ的两个真实反射乘积第m次分母恰17^m，原零除子稳定群准确确定，排除任何固定有限theta覆盖或有限维几何来源闭包。逐次p整运输与特定Riemann组合仍合法，未将结论套给未付的实际p-core轨道。
+
 - [R461：原径向ODE与真实首核因子的统一次数下界](results/R461-original-radial-ode-and-uniform-factor-degree-barrier.md)：原单位首共振给全部横截分支有效接触界，实际来源次数迫立方核径向次数随p/D增长；一次立方p≤80D+89，单一一次因子任意幂统一p≤138D+59。结论同步覆盖原真第二核，仍保高次数、多因子和混合Kummer部分。
 
 - [R460：原奇伴随正Tc提取与同域连接carry](results/R460-original-odd-companion-tests-and-same-domain-connection-carries.md)：完整六维奇矩阵抽原C13/C15，奇Euler、tame1移权及非零单位质量全保；同一两输入实现原qC连接。两个真实相消环带以单位行列式消移权未知，完整返回原S；物理p归一仍须非零质量修正，不将第一推前身份等同独立隐藏域。
