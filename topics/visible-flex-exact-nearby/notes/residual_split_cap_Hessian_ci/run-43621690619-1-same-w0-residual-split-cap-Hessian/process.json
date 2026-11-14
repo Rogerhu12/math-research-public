@@ -1,0 +1,87 @@
+{
+  "kind": "actual_public_same_w0_residual_split_Hessian_process_v1",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43621690619",
+  "run_attempt": "1",
+  "mode": "prepare",
+  "workflow_commit": "c12cb6cda69d4489e8c6a4c18aff0fa141c393f7",
+  "worker_source_sha256": "0f5bb7c3c747a5e62ac52b40d17ee7dda398f044c30c6c723dccc4b8e7eb0b9b",
+  "started_utc": "2026-11-14T17:33:35.441455+00:00",
+  "children": [],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T17:33:36.756791+00:00",
+      "before": "c12cb6cda69d4489e8c6a4c18aff0fa141c393f7",
+      "after": "4472086d891a421a0976db10110fc093261d40ab",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T17:33:37.259204+00:00",
+      "before": "4472086d891a421a0976db10110fc093261d40ab",
+      "after": "4472086d891a421a0976db10110fc093261d40ab",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": null,
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "original_large_array_reconstructions_executed": 0,
+  "original_target_primitive_trial_or_endpoint_computations_repeated": 0,
+  "original_complete_physical_cap_residual_cells_recomputed": 0,
+  "complete_true_cut_source_claimed": false,
+  "complete_finite193_response_error_proved": false,
+  "complete_infinite_BVP_inverse_proved": false,
+  "input_manifest_sha256": "a3b144b5a6e8c9d84c369f97aac1e849e3035bb7067c461ed574b53b1069d842",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "4472086d891a421a0976db10110fc093261d40ab",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-residual-split-Hessian-work/science",
+  "actual_input_sha256": {
+    "local": "bf42a295c892ec3bc606efaa9a94f2870609b73226f2034a9cbc172f187186bd",
+    "background": "35db98d4124d50ef3bd69f3ec3aa6906289e3f6083c3ba91c8197da7547830ff",
+    "particular": "9360555293def4b1803da05c5c432a8f737ed4f3d62ea2b84c89e7e236ff7650",
+    "particular-process": "0113de801ff7c0da2999bcfbf2e5e054560c2eb6dcd4278461305fc696213d5c",
+    "ordinary": "b1ffc21737ba45d1ef8823af9dccc0baba8b100a1169b60c69f6a7a5d1cfda6c",
+    "ordinary-process": "8bd696740f0f1d667487d349cd0ebb51fc2c8efbe9927d49584885388166ea75"
+  },
+  "snapshot_utc": "2026-11-14T17:33:37.292034+00:00",
+  "wall_seconds": 1.8512866309999936,
+  "native_files": [
+    {
+      "logical_file": "evidence/original-ordinary-process.json",
+      "file": "evidence/original-ordinary-process.json",
+      "bytes": 9265,
+      "sha256": "8bd696740f0f1d667487d349cd0ebb51fc2c8efbe9927d49584885388166ea75"
+    },
+    {
+      "logical_file": "evidence/original-particular-process.json",
+      "file": "evidence/original-particular-process.json",
+      "bytes": 8546,
+      "sha256": "0113de801ff7c0da2999bcfbf2e5e054560c2eb6dcd4278461305fc696213d5c"
+    }
+  ]
+}
