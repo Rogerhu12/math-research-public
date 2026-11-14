@@ -1,0 +1,115 @@
+{
+  "kind": "actual_public_correlated_regular_body_CI_process",
+  "complete": false,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43583838026",
+  "run_attempt": "1",
+  "mode": "consume",
+  "workflow_commit": "596f9681e978c4ff5f6641cba6ffe2a6a3f91a73",
+  "worker_source_sha256": "931a4866b6fc37d4978e07f6bf996b96a4be6b33c064377a468b24a1f85e1ad6",
+  "started_utc": "2026-11-14T10:11:04.971518+00:00",
+  "children": [
+    {
+      "label": "actual_body_rows_3066_3322",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-body-work-3066-4000/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
+        "--candidate",
+        "/workspace/scratch/ac0d699811ad/replay-final-20261114/stage06/moving-m32-alpha0765-fullR-v2-tol2e9-candidate.json",
+        "--mean",
+        "/workspace/scratch/ac0d699811ad/final-mean-20261114/attempt01/native.json.gz",
+        "--response",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/response/work/2087c0f1ee3c7d28de47af8866438c34d4e7f9741918adc5b1c25547fcd1bde3/trials/response-nonmean.json",
+        "--adjoint",
+        "/workspace/scratch/ac0d699811ad/regular-head-trials-20261114/adjoint/work/d03a4debec8cfb67a4cb2a73cf5b275c94da375444ba3ddbb288fa6b720e9901/trials/adjoint-nonmean.json",
+        "--first",
+        "3066",
+        "--count",
+        "256",
+        "--out",
+        "/__w/_temp/visible-exact-body-3066-4000/native/rows-03066-03322.json.gz"
+      ],
+      "started_utc": "2026-11-14T10:11:06.299064+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 385.010868133,
+      "finished_utc": "2026-11-14T10:17:31.310285+00:00"
+    }
+  ],
+  "readme_checks": [
+    {
+      "time": "2026-11-14T10:11:06.029242+00:00",
+      "before": "9c5e58c2c6ea8aaf925f1ab9b935911f7701cee5",
+      "after": "a2e629f83add8f560ec44c9a770abd8c7adc591e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:17:35.153089+00:00",
+      "before": "a2e629f83add8f560ec44c9a770abd8c7adc591e",
+      "after": "d9faa2596f0345482b7b1d6e9cad7f70b6975a61",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "published_checkpoints": [],
+  "original_scientific_sources_unchanged": true,
+  "whole_body_inverse_claimed": false,
+  "requested_rows": [
+    3066,
+    4000
+  ],
+  "original_ac1_operator_not_relabelled_as_repaired": true,
+  "complete_scalar_mean_error_flow_claimed": false,
+  "complete_BVP_inverse_claimed": false,
+  "whole_original_parameter_half_width": "1/1000000000",
+  "infrastructure_resume_source_sha256": "7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "explicit_readme_review_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542",
+  "original_scientific_input_manifest_preserved": true,
+  "input_manifest_sha256": "c214f800a5094c905c554e9053c52567d5ae5d76be41ac2e3fe9d673b396d784",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "all_pinned_inputs_verified": true,
+  "actual_reviewed_readme_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
+  },
+  "last_read_commit": "d9faa2596f0345482b7b1d6e9cad7f70b6975a61",
+  "immutable_scientific_copy": "/__w/_temp/visible-exact-body-work-3066-4000/science",
+  "actual_atomic_ranges": [
+    [
+      3066,
+      3322
+    ],
+    [
+      3322,
+      3578
+    ],
+    [
+      3578,
+      3834
+    ],
+    [
+      3834,
+      4000
+    ]
+  ],
+  "snapshot_utc": "2026-11-14T10:17:35.205185+00:00",
+  "wall_seconds": 390.234166494,
+  "native_files": [
+    {
+      "logical_file": "native/rows-03066-03322.json.gz",
+      "file": "native/rows-03066-03322.json.gz",
+      "bytes": 1167787,
+      "sha256": "ada966331fcabf90da9f17597cdd0c4e0a56cfaf6233787e69c2587b104a8a21"
+    }
+  ]
+}
