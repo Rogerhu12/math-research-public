@@ -107,3 +107,5 @@
 - [R593：原临界carry完整延拓与同一修正第二normal高尾](../results/R593-original-critical-carry-completion-and-actual-second-normal-tail.md)：原模p³提升先强迫整个J窗口模p²，将两条短jet真实延长十三行；唯一Qquad最高行保留。同R的完整三块第二forcing压成两实际像判据，第三块只读Z+下一至两行及固定形状修正；全部26carry/U0和整精度保持，尚未证指定余类非零。
 
 - [R595：原S34/T72对角、真实connection与四行整单位比较](../results/R595-original-central-diagonals-and-integral-four-row-comparison.md)：完整留数把两原算术首行与两指定forcing放到同一个K/H/C参数；不同charge和Jacobian全保。固定比较矩阵在共同好惰性p均单位，但完整低K卷积残差仍在；中央同零准确给仿射约束，不能改成两forcing同零。
+
+- [R594：同一六支双来源补偿与真实Z单位矩形](../results/R594-two-source-six-carry-compensation-and-unit-z-rectangle.md)：20个实际中性方向的9×20整右逆同时支付原ρ、B投影及其差在同Dn的单位首项，完整λκ和固定有限坏集保留。六真实网格并域准确下降为νflat的Zunit/其余四深矩形；其积分恰v=n，原整个中央及外矩形抵消仍保持。
