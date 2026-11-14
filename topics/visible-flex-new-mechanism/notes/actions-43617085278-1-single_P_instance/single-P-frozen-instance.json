@@ -1,0 +1,4747 @@
+{
+  "all_design_evaluations": 104,
+  "bulk_preconditioner_jacobian": [
+    [
+      0.0,
+      -1.3106854052547978,
+      0.0,
+      -2.6213708105095956,
+      0.0,
+      -2.6213708105095956,
+      0.0,
+      -0.6553427026273989
+    ],
+    [
+      4.308838313372102,
+      0.0,
+      8.617676626744204,
+      2.6213708105095956,
+      8.617676626744204,
+      -2.6213708105095956,
+      1.0772095783430256,
+      0.0
+    ],
+    [
+      -0.0,
+      1.3106854052547978,
+      -17.23535325348841,
+      -0.0,
+      17.23535325348841,
+      -0.0,
+      -0.0,
+      0.16383567565684973
+    ],
+    [
+      0.0,
+      -0.0,
+      0.0,
+      -2.6213708105095956,
+      -0.0,
+      2.6213708105095956,
+      0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      8.617676626744204,
+      2.6213708105095956,
+      -8.617676626744204,
+      2.6213708105095956,
+      0.0,
+      0.0
+    ],
+    [
+      -0.0,
+      0.0,
+      -17.23535325348841,
+      -0.0,
+      -17.23535325348841,
+      0.0,
+      -0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.3106854052547978,
+      0.0,
+      -1.3106854052547978,
+      0.0,
+      -1.3106854052547978,
+      0.0,
+      -2.6213708105095956
+    ],
+    [
+      4.308838313372102,
+      0.0,
+      4.308838313372102,
+      1.3106854052547978,
+      4.308838313372102,
+      -1.3106854052547978,
+      4.308838313372102,
+      0.0
+    ]
+  ],
+  "controls": {
+    "bridges": {
+      "2": {
+        "end_state": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.4219827716688146e-10,
+          "full_matrix_residual": 6.532127044824583e-14,
+          "nfev": 6,
+          "offsets": [
+            -0.6724052469971303,
+            -0.6218416718338114,
+            -0.2792835389835929
+          ],
+          "singular_values": [
+            1.689789569762437,
+            1.414201680092872,
+            1.0698807494034888
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.8,
+          "eta_plus": 0.8,
+          "gate_center": 0.8,
+          "gate_increment_identity": 0.0,
+          "input_cap_increment": -0.0,
+          "omega_gate_delta": 0.0,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.0,
+          "scalar_end_before_frame_fit": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "start": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "target": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "target_frame": "g2"
+        },
+        "name": "single_P_terminal_D",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.8,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.8,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 0.6333333333333333
+          },
+          {
+            "duration": 5.610780060182456,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 0.5
+          },
+          {
+            "duration": 7.232139962140671,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 0.5
+          },
+          {
+            "duration": 6.003901768195993,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 0.5
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 0.5
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "target_g2_left_x",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "target_g2_z_up1",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "target_g2_z_half1",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "target_g2_z_down1",
+            "omega0": 0.5
+          },
+          {
+            "duration": 3.141592653589793,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "target_g2_z_x",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "target_g2_z_up2",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "target_g2_z_half2",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "target_g2_z_down2",
+            "omega0": 0.5
+          },
+          {
+            "duration": 1.5707963267948966,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "target_g2_right_x",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": 0.0
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": 0.0
+          }
+        ]
+      }
+    },
+    "common": [
+      {
+        "end_state": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "frame_fit": {
+          "full_matrix_residual": 0.0,
+          "nfev": 0,
+          "offsets": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "singular_values": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "success": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.0,
+          "eta_plus": 0.0,
+          "omega_gate_delta": 0.0,
+          "omitted_identical_connector": true,
+          "start": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "target": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "name": "state0_zero_entry",
+        "segments": []
+      },
+      {
+        "h": 1.0,
+        "k": 0.0,
+        "kind": "bulk",
+        "name": "state0_zero_circles",
+        "omega": 0.0,
+        "prescribed_state": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          1.2638789175754703,
+          1.0,
+          1.2638789175754706
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.0390204223680231e-10,
+          "full_matrix_residual": 3.8812664253752497e-14,
+          "nfev": 7,
+          "offsets": [
+            -0.8887743080791725,
+            -0.6384267135680058,
+            -0.03781278637468632
+          ],
+          "singular_values": [
+            1.6986029699927483,
+            1.414202080933595,
+            1.0558316270195065
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.19296246427573416,
+          "eta_plus": 3.9845992170021454,
+          "gate_center": 2.0887808406389397,
+          "gate_increment_identity": 0.6319394587877353,
+          "input_cap_increment": -0.0,
+          "omega_gate_delta": 0.6319394587877352,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.6319394587877352,
+          "scalar_end_before_frame_fit": [
+            1.2638789175754703,
+            1.0,
+            1.2638789175754706
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            2.220446049250313e-16
+          ],
+          "start": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "target": [
+            1.2638789175754703,
+            1.0,
+            1.2638789175754703
+          ],
+          "target_frame": "I"
+        },
+        "name": "state0_plus_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 3.9845992170021454,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.19296246427573416,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 1.1640998695003577
+          },
+          {
+            "duration": 5.394410999100414,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": 0.6319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": 0.6319394587877354
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 1.1319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 1.1319394587877354
+          },
+          {
+            "duration": 7.215554920406477,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": 0.6319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": 0.6319394587877354
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 1.1319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 1.1319394587877354
+          },
+          {
+            "duration": 6.2453725208049,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": 0.6319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": 0.6319394587877354
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 1.1319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 1.1319394587877354
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": 0.6319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": 0.6319394587877354
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 1.1319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 1.1319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.2638789175754703,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": 0.6319394587877354
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 1.2638789175754703,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": 1.2638789175754706
+          }
+        ]
+      },
+      {
+        "h": 1.0,
+        "k": 1.2638789175754703,
+        "kind": "bulk",
+        "name": "state0_plus_circles",
+        "omega": 1.2638789175754706,
+        "prescribed_state": [
+          1.2638789175754703,
+          1.0,
+          1.2638789175754703
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          -1.3844703838225088,
+          1.0,
+          -1.3844703838225088
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.3766628285668057e-10,
+          "full_matrix_residual": 2.094195051577955e-14,
+          "nfev": 7,
+          "offsets": [
+            -0.8773178517758007,
+            -0.5701588319226677,
+            -0.049149184900460226
+          ],
+          "singular_values": [
+            1.661582739645267,
+            1.4142002037894186,
+            1.1131848826294573
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 8.065226828884246,
+          "eta_plus": 0.12017892469030755,
+          "gate_center": 4.092702876787277,
+          "gate_increment_identity": -1.3241746506989898,
+          "input_cap_increment": -0.6319394587877352,
+          "omega_gate_delta": -1.3241746506989898,
+          "omitted_identical_connector": false,
+          "output_cap_increment": -0.6922351919112544,
+          "scalar_end_before_frame_fit": [
+            -1.3844703838225088,
+            1.0,
+            -1.3844703838225088
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "start": [
+            1.2638789175754703,
+            1.0,
+            1.2638789175754706
+          ],
+          "target": [
+            -1.3844703838225088,
+            1.0,
+            -1.3844703838225088
+          ],
+          "target_frame": "I"
+        },
+        "name": "state0_minus_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 1.2638789175754703,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": 1.2638789175754706
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.2638789175754703,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": 1.2638789175754706
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.12017892469030755,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": 0.6319394587877354
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 8.065226828884246,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 1.1519692795694532
+          },
+          {
+            "duration": 5.4058674554037855,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": -0.6922351919112544
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": -0.6922351919112544
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": -0.19223519191125438
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": -0.19223519191125438
+          },
+          {
+            "duration": 7.283822802051815,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": -0.6922351919112544
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": -0.6922351919112544
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": -0.19223519191125438
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": -0.19223519191125438
+          },
+          {
+            "duration": 6.234036122279126,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": -0.6922351919112544
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": -0.6922351919112544
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": -0.19223519191125438
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": -0.19223519191125438
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": -0.6922351919112544
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": -0.6922351919112544
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": -0.19223519191125438
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": -0.19223519191125438
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": -1.3844703838225088,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": -0.6922351919112544
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": -1.3844703838225088,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": -1.3844703838225088
+          }
+        ]
+      },
+      {
+        "h": 1.0,
+        "k": -1.3844703838225088,
+        "kind": "bulk",
+        "name": "state0_minus_circles",
+        "omega": -1.3844703838225088,
+        "prescribed_state": [
+          -1.3844703838225088,
+          1.0,
+          -1.3844703838225088
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          0.0,
+          1.0,
+          0.9999999999999998
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 9.073389674225002e-11,
+          "full_matrix_residual": 5.266924629781219e-14,
+          "nfev": 6,
+          "offsets": [
+            -0.8667396827908639,
+            -0.5095248603685242,
+            -0.06852279748496827
+          ],
+          "singular_values": [
+            1.6270783360154317,
+            1.414197862287226,
+            1.1630393350060246
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.10510107521152356,
+          "eta_plus": 10.25851222667905,
+          "gate_center": 5.181806650945287,
+          "gate_increment_identity": 1.6922351919112544,
+          "input_cap_increment": 0.6922351919112544,
+          "omega_gate_delta": 1.6922351919112544,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.0,
+          "scalar_end_before_frame_fit": [
+            0.0,
+            1.0,
+            0.9999999999999998
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            -2.220446049250313e-16
+          ],
+          "start": [
+            -1.3844703838225088,
+            1.0,
+            -1.3844703838225088
+          ],
+          "target": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "target_frame": "I"
+        },
+        "name": "state1_zero_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": -1.3844703838225088,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": -1.3844703838225088
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": -1.3844703838225088,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": -1.3844703838225088
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 10.25851222667905,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": -0.6922351919112544
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.10510107521152356,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 1.517516845868587
+          },
+          {
+            "duration": 5.4164456243887225,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": 0.9999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": 0.9999999999999998
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 1.4999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 1.4999999999999998
+          },
+          {
+            "duration": 7.344456773605959,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": 0.9999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": 0.9999999999999998
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 1.4999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 1.4999999999999998
+          },
+          {
+            "duration": 6.214662509694618,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": 0.9999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": 0.9999999999999998
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 1.4999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 1.4999999999999998
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": 0.9999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": 0.9999999999999998
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 1.4999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 1.4999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": 0.9999999999999998
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": 0.9999999999999998
+          }
+        ]
+      },
+      {
+        "h": 1.0,
+        "k": 0.0,
+        "kind": "bulk",
+        "name": "state1_zero_circles",
+        "omega": 0.9999999999999998,
+        "prescribed_state": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          1.3700356249255192,
+          1.0,
+          2.370035624925519
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.280078770579595e-10,
+          "full_matrix_residual": 3.920915722080209e-14,
+          "nfev": 7,
+          "offsets": [
+            -0.889751873838899,
+            -0.643607506467447,
+            -0.03662755240823275
+          ],
+          "singular_values": [
+            1.701332169416299,
+            1.4142022000327055,
+            1.0514280701653518
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.18258104545417675,
+          "eta_plus": 4.292687920230735,
+          "gate_center": 2.2376344828424557,
+          "gate_increment_identity": 0.6850178124627598,
+          "input_cap_increment": -0.0,
+          "omega_gate_delta": 0.6850178124627596,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.6850178124627596,
+          "scalar_end_before_frame_fit": [
+            1.3700356249255192,
+            1.0,
+            2.370035624925519
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "start": [
+            0.0,
+            1.0,
+            0.9999999999999998
+          ],
+          "target": [
+            1.3700356249255192,
+            1.0,
+            2.370035624925519
+          ],
+          "target_frame": "I"
+        },
+        "name": "state1_plus_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": 0.9999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": 0.9999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 4.292687920230735,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": 0.9999999999999998
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.18258104545417675,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 2.215447986705122
+          },
+          {
+            "duration": 5.393433433340688,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": 1.6850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": 1.6850178124627595
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 2.1850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 2.1850178124627595
+          },
+          {
+            "duration": 7.210374127507036,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": 1.6850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": 1.6850178124627595
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 2.1850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 2.1850178124627595
+          },
+          {
+            "duration": 6.246557754771353,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": 1.6850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": 1.6850178124627595
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 2.1850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 2.1850178124627595
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": 1.6850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": 1.6850178124627595
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 2.1850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 2.1850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.3700356249255192,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": 1.6850178124627595
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 1.3700356249255192,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": 2.370035624925519
+          }
+        ]
+      },
+      {
+        "h": 1.0,
+        "k": 1.3700356249255192,
+        "kind": "bulk",
+        "name": "state1_plus_circles",
+        "omega": 2.370035624925519,
+        "prescribed_state": [
+          1.3700356249255192,
+          1.0,
+          2.370035624925519
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          -1.3442480859619146,
+          1.0,
+          -0.3442480859619147
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.1086378815807964e-10,
+          "full_matrix_residual": 2.2285553688820602e-14,
+          "nfev": 7,
+          "offsets": [
+            -0.878562825468331,
+            -0.5772661131243699,
+            -0.04736617601517743
+          ],
+          "singular_values": [
+            1.6655278693497992,
+            1.4142004303370268,
+            1.1072732541037658
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 8.261353843750328,
+          "eta_plus": 0.1185027110880279,
+          "gate_center": 4.189928277419178,
+          "gate_increment_identity": -1.357141855443717,
+          "input_cap_increment": -0.6850178124627596,
+          "omega_gate_delta": -1.3571418554437167,
+          "omitted_identical_connector": false,
+          "output_cap_increment": -0.6721240429809573,
+          "scalar_end_before_frame_fit": [
+            -1.3442480859619146,
+            1.0,
+            -0.3442480859619147
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            -1.1102230246251565e-16
+          ],
+          "start": [
+            1.3700356249255192,
+            1.0,
+            2.370035624925519
+          ],
+          "target": [
+            -1.3442480859619146,
+            1.0,
+            -0.3442480859619146
+          ],
+          "target_frame": "I"
+        },
+        "name": "state1_minus_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 1.3700356249255192,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": 2.370035624925519
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.3700356249255192,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": 2.370035624925519
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.1185027110880279,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": 1.6850178124627595
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 8.261353843750328,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 2.204768264310764
+          },
+          {
+            "duration": 5.404622481711256,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": 0.3278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": 0.3278759570190426
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 0.8278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 0.8278759570190426
+          },
+          {
+            "duration": 7.276715520850113,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": 0.3278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": 0.3278759570190426
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 0.8278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 0.8278759570190426
+          },
+          {
+            "duration": 6.2358191311644084,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": 0.3278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": 0.3278759570190426
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 0.8278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 0.8278759570190426
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": 0.3278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": 0.3278759570190426
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 0.8278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 0.8278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": -1.3442480859619146,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": 0.3278759570190426
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": -1.3442480859619146,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": -0.3442480859619147
+          }
+        ]
+      },
+      {
+        "h": 1.0,
+        "k": -1.3442480859619146,
+        "kind": "bulk",
+        "name": "state1_minus_circles",
+        "omega": -0.3442480859619147,
+        "prescribed_state": [
+          -1.3442480859619146,
+          1.0,
+          -0.3442480859619146
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          0.0,
+          1.0,
+          -1.0
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.1667344282038605e-10,
+          "full_matrix_residual": 5.3523691436222486e-14,
+          "nfev": 6,
+          "offsets": [
+            -0.8670405251805955,
+            -0.511478049083734,
+            -0.06803915908546677
+          ],
+          "singular_values": [
+            1.6282132876202275,
+            1.4141979513791412,
+            1.1614498027602091
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 8.087242432786343,
+          "eta_plus": 0.11998669067208745,
+          "gate_center": 4.1036145617292155,
+          "gate_increment_identity": -1.3278759570190426,
+          "input_cap_increment": 0.6721240429809573,
+          "omega_gate_delta": -1.3278759570190426,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.0,
+          "scalar_end_before_frame_fit": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "start": [
+            -1.3442480859619146,
+            1.0,
+            -0.3442480859619147
+          ],
+          "target": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "target_frame": "I"
+        },
+        "name": "state2_zero_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": -1.3442480859619146,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": -0.3442480859619147
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": -1.3442480859619146,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": -0.3442480859619147
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.11998669067208745,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": 0.3278759570190426
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 8.087242432786343,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 0.8478737387977239
+          },
+          {
+            "duration": 5.416144781998991,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": -1.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": -1.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": -0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": -0.5
+          },
+          {
+            "duration": 7.342503584890749,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": -1.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": -1.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": -0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": -0.5
+          },
+          {
+            "duration": 6.215146148094119,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": -1.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": -1.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": -0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": -0.5
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": -1.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": -1.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": -0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": -0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": -1.0
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": -1.0
+          }
+        ]
+      },
+      {
+        "h": 1.0,
+        "k": 0.0,
+        "kind": "bulk",
+        "name": "state2_zero_circles",
+        "omega": -1.0,
+        "prescribed_state": [
+          0.0,
+          1.0,
+          -1.0
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          1.3765517954025974,
+          1.0,
+          0.3765517954025974
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.413220774847082e-10,
+          "full_matrix_residual": 3.7876783753562286e-14,
+          "nfev": 7,
+          "offsets": [
+            -0.8898121945475213,
+            -0.6439254817279849,
+            -0.0365545130692091
+          ],
+          "singular_values": [
+            1.7014993046274618,
+            1.4142022072521963,
+            1.0511575682812955
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.18199123484823643,
+          "eta_plus": 4.311646621056029,
+          "gate_center": 2.2468189279521327,
+          "gate_increment_identity": 0.6882758977012987,
+          "input_cap_increment": -0.0,
+          "omega_gate_delta": 0.6882758977012987,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.6882758977012987,
+          "scalar_end_before_frame_fit": [
+            1.3765517954025974,
+            1.0,
+            0.3765517954025974
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "start": [
+            0.0,
+            1.0,
+            -1.0
+          ],
+          "target": [
+            1.3765517954025974,
+            1.0,
+            0.3765517954025974
+          ],
+          "target_frame": "I"
+        },
+        "name": "state2_plus_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": -1.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": -1.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 4.311646621056029,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": -1.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.18199123484823643,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 0.21860777017600475
+          },
+          {
+            "duration": 5.393373112632065,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": -0.3117241022987013
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": -0.3117241022987013
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 0.1882758977012987
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 0.1882758977012987
+          },
+          {
+            "duration": 7.210056152246498,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": -0.3117241022987013
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": -0.3117241022987013
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 0.1882758977012987
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 0.1882758977012987
+          },
+          {
+            "duration": 6.246630794110377,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": -0.3117241022987013
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": -0.3117241022987013
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 0.1882758977012987
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 0.1882758977012987
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": -0.3117241022987013
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": -0.3117241022987013
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 0.1882758977012987
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 0.1882758977012987
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.3765517954025974,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": -0.3117241022987013
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 1.3765517954025974,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": 0.3765517954025974
+          }
+        ]
+      },
+      {
+        "h": 1.0,
+        "k": 1.3765517954025974,
+        "kind": "bulk",
+        "name": "state2_plus_circles",
+        "omega": 0.3765517954025974,
+        "prescribed_state": [
+          1.3765517954025974,
+          1.0,
+          0.3765517954025974
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          -1.3533850656405126,
+          1.0,
+          -2.3533850656405124
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 8.278679822735877e-11,
+          "full_matrix_residual": 2.023555637104882e-14,
+          "nfev": 7,
+          "offsets": [
+            -0.8785429931957254,
+            -0.57713486986015,
+            -0.04737588478444055
+          ],
+          "singular_values": [
+            1.6654552088485755,
+            1.4142004262292298,
+            1.1073825453618475
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 8.307926952195832,
+          "eta_plus": 0.11811636906650325,
+          "gate_center": 4.213021660631168,
+          "gate_increment_identity": -1.3649684305215548,
+          "input_cap_increment": -0.6882758977012987,
+          "omega_gate_delta": -1.364968430521555,
+          "omitted_identical_connector": false,
+          "output_cap_increment": -0.6766925328202563,
+          "scalar_end_before_frame_fit": [
+            -1.3533850656405126,
+            1.0,
+            -2.3533850656405124
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            4.440892098500626e-16
+          ],
+          "start": [
+            1.3765517954025974,
+            1.0,
+            0.3765517954025974
+          ],
+          "target": [
+            -1.3533850656405126,
+            1.0,
+            -2.353385065640513
+          ],
+          "target_frame": "I"
+        },
+        "name": "state2_minus_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 1.3765517954025974,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": 0.3765517954025974
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.3765517954025974,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": 0.3765517954025974
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.11811636906650325,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": -0.3117241022987013
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 8.307926952195832,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 0.20796195921238259
+          },
+          {
+            "duration": 5.404642313983861,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": -1.676692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": -1.676692532820256
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": -1.176692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": -1.176692532820256
+          },
+          {
+            "duration": 7.276846764114333,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": -1.676692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": -1.676692532820256
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": -1.176692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": -1.176692532820256
+          },
+          {
+            "duration": 6.235809422395146,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": -1.676692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": -1.676692532820256
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": -1.176692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": -1.176692532820256
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": -1.676692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": -1.676692532820256
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": -1.176692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": -1.176692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": -1.3533850656405126,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": -1.676692532820256
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": -1.3533850656405126,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": -2.3533850656405124
+          }
+        ]
+      },
+      {
+        "h": 1.0,
+        "k": -1.3533850656405126,
+        "kind": "bulk",
+        "name": "state2_minus_circles",
+        "omega": -2.3533850656405124,
+        "prescribed_state": [
+          -1.3533850656405126,
+          1.0,
+          -2.353385065640513
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          0.0,
+          2.0,
+          -4.440892098500626e-16
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.4541177688157628e-10,
+          "full_matrix_residual": 5.315268768067425e-14,
+          "nfev": 6,
+          "offsets": [
+            -0.8669720764031554,
+            -0.5110343712368834,
+            -0.06814910702164655
+          ],
+          "singular_values": [
+            1.627955613128441,
+            1.4141979312355013,
+            1.161810971273982
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.10560629326282722,
+          "eta_plus": 10.165761490184362,
+          "gate_center": 5.135683891723595,
+          "gate_increment_identity": 1.6766925328202558,
+          "input_cap_increment": 0.6766925328202563,
+          "omega_gate_delta": 1.676692532820256,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.0,
+          "scalar_end_before_frame_fit": [
+            0.0,
+            2.0,
+            -4.440892098500626e-16
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            -4.440892098500626e-16
+          ],
+          "start": [
+            -1.3533850656405126,
+            1.0,
+            -2.3533850656405124
+          ],
+          "target": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "target_frame": "I"
+        },
+        "name": "state3_zero_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": -1.3533850656405126,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": -2.3533850656405124
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": -1.3533850656405126,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": -2.3533850656405124
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 10.165761490184362,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": -1.676692532820256
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.10560629326282722,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 0.5176010488771374
+          },
+          {
+            "duration": 5.416213230776431,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": -4.440892098500626e-16
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": -4.440892098500626e-16
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 0.49999999999999956
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 0.49999999999999956
+          },
+          {
+            "duration": 7.342947262737599,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": -4.440892098500626e-16
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": -4.440892098500626e-16
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 0.49999999999999956
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 0.49999999999999956
+          },
+          {
+            "duration": 6.21503620015794,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": -4.440892098500626e-16
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": -4.440892098500626e-16
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 0.49999999999999956
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 0.49999999999999956
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": -4.440892098500626e-16
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": -4.440892098500626e-16
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 0.49999999999999956
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 0.49999999999999956
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.25,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": -4.440892098500626e-16
+          },
+          {
+            "duration": 0.02,
+            "h": 2.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": -4.440892098500626e-16
+          }
+        ]
+      },
+      {
+        "h": 2.0,
+        "k": 0.0,
+        "kind": "bulk",
+        "name": "state3_zero_circles",
+        "omega": -4.440892098500626e-16,
+        "prescribed_state": [
+          0.0,
+          2.0,
+          0.0
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          1.406998122839416,
+          2.0,
+          0.703499061419708
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.288421905305645e-10,
+          "full_matrix_residual": 3.88891515971864e-14,
+          "nfev": 7,
+          "offsets": [
+            -0.8900945246046816,
+            -0.6454111436469566,
+            -0.03621279978731407
+          ],
+          "singular_values": [
+            1.7022796333300882,
+            1.4142022408471553,
+            1.0498933621717124
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.4393748303240367,
+          "eta_plus": 1.4946234224536012,
+          "gate_center": 0.9669991263888189,
+          "gate_increment_identity": 0.17587476535492744,
+          "input_cap_increment": -0.0,
+          "omega_gate_delta": 0.1758747653549274,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.527624296064781,
+          "scalar_end_before_frame_fit": [
+            1.406998122839416,
+            2.0,
+            0.703499061419708
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "start": [
+            0.0,
+            2.0,
+            -4.440892098500626e-16
+          ],
+          "target": [
+            1.406998122839416,
+            2.0,
+            0.703499061419708
+          ],
+          "target_frame": "I"
+        },
+        "name": "state3_plus_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 2.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": -4.440892098500626e-16
+          },
+          {
+            "b0": 0.25,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": -4.440892098500626e-16
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 1.4946234224536012,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": -4.440892098500626e-16
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.4393748303240367,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 0.7491039037422664
+          },
+          {
+            "duration": 5.393090782574904,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": 0.17587476535492697
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": 0.17587476535492697
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 0.675874765354927
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 0.675874765354927
+          },
+          {
+            "duration": 7.208570490327526,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": 0.17587476535492697
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": 0.17587476535492697
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 0.675874765354927
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 0.675874765354927
+          },
+          {
+            "duration": 6.246972507392272,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": 0.17587476535492697
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": 0.17587476535492697
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 0.675874765354927
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 0.675874765354927
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": 0.17587476535492697
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": 0.17587476535492697
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 0.675874765354927
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 0.675874765354927
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.25,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.406998122839416,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": 0.17587476535492697
+          },
+          {
+            "duration": 0.02,
+            "h": 2.0,
+            "k": 1.406998122839416,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": 0.703499061419708
+          }
+        ]
+      },
+      {
+        "h": 2.0,
+        "k": 1.406998122839416,
+        "kind": "bulk",
+        "name": "state3_plus_circles",
+        "omega": 0.703499061419708,
+        "prescribed_state": [
+          1.406998122839416,
+          2.0,
+          0.703499061419708
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          -1.3693353685372378,
+          2.0,
+          -0.6846676842686188
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.1568782149146393e-10,
+          "full_matrix_residual": 2.224600719874902e-14,
+          "nfev": 7,
+          "offsets": [
+            -0.8786734482890974,
+            -0.5778290928543206,
+            -0.04714558553158957
+          ],
+          "singular_values": [
+            1.6658394717345364,
+            1.4142004479261354,
+            1.1068043853800802
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 2.374262382015506,
+          "eta_plus": 0.2920122634830167,
+          "gate_center": 1.3331373227492616,
+          "gate_increment_identity": -0.3470416864220816,
+          "input_cap_increment": -0.527624296064781,
+          "omega_gate_delta": -0.34704168642208166,
+          "omitted_identical_connector": false,
+          "output_cap_increment": -0.5135007632014642,
+          "scalar_end_before_frame_fit": [
+            -1.3693353685372378,
+            2.0,
+            -0.6846676842686188
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            1.1102230246251565e-16
+          ],
+          "start": [
+            1.406998122839416,
+            2.0,
+            0.703499061419708
+          ],
+          "target": [
+            -1.3693353685372378,
+            2.0,
+            -0.6846676842686189
+          ],
+          "target_frame": "I"
+        },
+        "name": "state3_minus_entry",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 2.0,
+            "k": 1.406998122839416,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": 0.703499061419708
+          },
+          {
+            "b0": 0.25,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.406998122839416,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": 0.703499061419708
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.2920122634830167,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": 0.17587476535492697
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 2.374262382015506,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 0.7245434759354298
+          },
+          {
+            "duration": 5.404511858890489,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": -0.1711669210671546
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": -0.1711669210671546
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 0.3288330789328454
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 0.3288330789328454
+          },
+          {
+            "duration": 7.276152541120162,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": -0.1711669210671546
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": -0.1711669210671546
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 0.3288330789328454
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 0.3288330789328454
+          },
+          {
+            "duration": 6.236039721647996,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": -0.1711669210671546
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": -0.1711669210671546
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 0.3288330789328454
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 0.3288330789328454
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": -0.1711669210671546
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": -0.1711669210671546
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 0.3288330789328454
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 0.3288330789328454
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.25,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": -1.3693353685372378,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": -0.1711669210671546
+          },
+          {
+            "duration": 0.02,
+            "h": 2.0,
+            "k": -1.3693353685372378,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": -0.6846676842686188
+          }
+        ]
+      },
+      {
+        "h": 2.0,
+        "k": -1.3693353685372378,
+        "kind": "bulk",
+        "name": "state3_minus_circles",
+        "omega": -0.6846676842686188,
+        "prescribed_state": [
+          -1.3693353685372378,
+          2.0,
+          -0.6846676842686189
+        ],
+        "turns": 16384
+      },
+      {
+        "end_state": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "frame_fit": {
+          "analytic_jacobian_relative_difference": 1.1238276570529875e-10,
+          "full_matrix_residual": 5.35915973533772e-14,
+          "nfev": 6,
+          "offsets": [
+            -0.8668527396501894,
+            -0.5102598311362351,
+            -0.06834092372807253
+          ],
+          "singular_values": [
+            1.6275055921159922,
+            1.41419789593795,
+            1.162441335618965
+          ],
+          "success": true,
+          "within_numeric_gate": true
+        },
+        "kind": "connector",
+        "metadata": {
+          "eta_minus": 0.4454453484071871,
+          "eta_plus": 1.4724468748101147,
+          "gate_center": 0.9589461116086508,
+          "gate_increment_identity": 0.17116692106715461,
+          "input_cap_increment": 0.5135007632014642,
+          "omega_gate_delta": 0.1711669210671546,
+          "omitted_identical_connector": false,
+          "output_cap_increment": 0.0,
+          "scalar_end_before_frame_fit": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "scalar_target_error": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "start": [
+            -1.3693353685372378,
+            2.0,
+            -0.6846676842686188
+          ],
+          "target": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "target_frame": "I"
+        },
+        "name": "common_return",
+        "segments": [
+          {
+            "duration": 0.02,
+            "h": 2.0,
+            "k": -1.3693353685372378,
+            "kind": "constant",
+            "name": "left_constant_germ",
+            "omega": -0.6846676842686188
+          },
+          {
+            "b0": 0.25,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": -1.3693353685372378,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "input_cap",
+            "omega0": -0.6846676842686188
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 1.4724468748101147,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "omega_up",
+            "omega0": -0.1711669210671546
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.25,
+            "eta": 0.4454453484071871,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "omega_down",
+            "omega0": 0.5742408914011978
+          },
+          {
+            "duration": 5.4163325675293965,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_alpha",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up1",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half1",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down1",
+            "omega0": 0.5
+          },
+          {
+            "duration": 7.343721802838248,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_beta_x",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "free_beta_up2",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "free_beta_half2",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "free_beta_down2",
+            "omega0": 0.5
+          },
+          {
+            "duration": 6.2148443834515135,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "free_gamma",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up1",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half1",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down1",
+            "omega0": 0.5
+          },
+          {
+            "duration": 4.71238898038469,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_x",
+            "omega": 0.0
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 1.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_up2",
+            "omega0": 0.0
+          },
+          {
+            "duration": 2.221441469079183,
+            "h": 1.0,
+            "k": 1.0,
+            "kind": "constant",
+            "name": "fixed_inverse_z_half2",
+            "omega": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 1.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "fixed_inverse_z_down2",
+            "omega0": 0.5
+          },
+          {
+            "b0": 0.5,
+            "b_end": 0.5,
+            "duration": 0.06,
+            "eta": 0.0,
+            "k0": 0.0,
+            "k1": 0.0,
+            "kind": "ramp",
+            "name": "output_cap",
+            "omega0": 0.0
+          },
+          {
+            "duration": 0.02,
+            "h": 1.0,
+            "k": 0.0,
+            "kind": "constant",
+            "name": "right_constant_germ",
+            "omega": 0.0
+          }
+        ]
+      }
+    ],
+    "complete_period_rule": "N*2*pi/sqrt(1+k^2), exact complete-frame identity with retained displacement",
+    "format": "R45-single-P-flat-ramp-controls-v1",
+    "normalization": "none; fixed h states and durations",
+    "omega_global_definition": "one primitive of k_s/(2h); segment omega0 entries are floating caches",
+    "parameters": [
+      -0.033422613152574665,
+      -0.06029573312351929,
+      -0.00045540840784708887,
+      0.012893769481802238,
+      0.0073711666699909995,
+      0.011583364881042323,
+      0.03056948183676285,
+      0.01883137715108904
+    ],
+    "physical_strip_xi": [
+      3.3533850656405124,
+      4.353385065640513
+    ],
+    "reverse_definition": "reverse segment order and time, retaining u and xi signs",
+    "scalar_extrema": {
+      "bounds_from_algebraic_extrema": true,
+      "h_max": 2.0,
+      "h_min": 0.16315193581544596,
+      "interval_certified": false,
+      "k_abs_max": 1.406998122839416,
+      "omega_max": 2.370035624925519,
+      "omega_min": -2.3533850656405124
+    },
+    "scalar_formula": "k=k0+dk*S; b=b0*(1-S)+b_end*S+eta*S*(1-S); h=1/(2b)",
+    "start_state": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "target": "M_P=0, not old Klein total M=0",
+    "target_frame": "D=diag(-1,1,-1)",
+    "turns": 16384,
+    "word": [
+      "P",
+      "P",
+      "P_reverse",
+      "P_reverse"
+    ]
+  },
+  "derivative_check": {
+    "completed": true,
+    "directional_step": 2e-06,
+    "relative_difference": 1.040907549319325e-09,
+    "singular_values": [
+      1.1033837716302937,
+      1.0125221164833074,
+      1.006766406033775,
+      0.9977598850922107,
+      0.9892072336339877,
+      0.9828575047094936,
+      0.9703634070271765,
+      0.9516905696090259
+    ]
+  },
+  "design_identity_sha256": "79501ce96f224138311a43c49b2b3a29865d9f660c67b22124f9d2c1fb57d04f",
+  "design_seconds": 11.584745924000003,
+  "exact_R45_existence_separate_from_numerical_root": true,
+  "explicit_scope": "operator experiment only; long complete circles are not a thick closed-surface candidate",
+  "fourth_period_evaluated": false,
+  "github": {
+    "GITHUB_REPOSITORY": "Rogerhu12/math-research-public",
+    "GITHUB_RUN_ATTEMPT": "1",
+    "GITHUB_RUN_ID": "43617085278",
+    "GITHUB_SHA": "4ee618ceb7cf30d481fa0d35539e59981bc3d26e"
+  },
+  "imported_control_source_sha256": "f0d25654580e91ec43a2acdb498ed363bb58c5ec424e102b67ecae0d9a448cbe",
+  "initial_parameters": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_preconditioned_single_P_l2": 0.08310385141021562,
+  "no_old_Klein_parameters_or_output_reused": true,
+  "profile_constructed": false,
+  "schema": "R45-single-P-instance-v1",
+  "selected_frame_fit_max": 6.532127044824583e-14,
+  "selected_frame_numeric_gate_passed": true,
+  "selected_parameters": [
+    -0.033422613152574665,
+    -0.06029573312351929,
+    -0.00045540840784708887,
+    0.012893769481802238,
+    0.0073711666699909995,
+    0.011583364881042323,
+    0.03056948183676285,
+    0.01883137715108904
+  ],
+  "selected_preconditioned_single_P_l2": 4.936281534983494e-15,
+  "settings": {
+    "design_seconds": 300.0,
+    "end_pad": 0.02,
+    "frame_gate": 2e-09,
+    "frame_max_nfev": 50,
+    "frame_n": 96,
+    "gate_duration": 0.25,
+    "gate_eta_floor": 0.05,
+    "gate_smoothing": 0.25,
+    "jacobian_step": 2e-05,
+    "max_nfev": 32,
+    "out": "/home/runner/work/_temp/visible-new-mechanism/single_P_instance/single-P-frozen-instance.json",
+    "parameter_bound": 0.2,
+    "quadrature_n": 64,
+    "ramp_duration": 0.06,
+    "toy_only": false,
+    "turns": 16384,
+    "validation_multipliers": [
+      1,
+      2,
+      4
+    ]
+  },
+  "solver": {
+    "message": "`gtol` termination condition is satisfied.",
+    "nfev": 6,
+    "optimality": 6.434379479229479e-16,
+    "success": true
+  },
+  "source_sha256": "93951271bc9207bcf3a2b027f993a41e0ffcde3c380b17112c39554945fd5053",
+  "task_complete": false,
+  "validation": [
+    {
+      "carried_matrix_difference_from_four_MP": 5.875243240892994e-10,
+      "carried_omega_boundary_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "carried_omega_closure": 0.0,
+      "carried_omega_offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "centerline_length": 6281683.637718119,
+      "connectors": [
+        {
+          "current_frame_error": 0.0,
+          "frozen_fit_residual": 0.0,
+          "name": "state0_zero_entry"
+        },
+        {
+          "current_frame_error": 3.8812664253752497e-14,
+          "frozen_fit_residual": 3.8812664253752497e-14,
+          "name": "state0_plus_entry"
+        },
+        {
+          "current_frame_error": 2.094195051577955e-14,
+          "frozen_fit_residual": 2.094195051577955e-14,
+          "name": "state0_minus_entry"
+        },
+        {
+          "current_frame_error": 5.266924629781219e-14,
+          "frozen_fit_residual": 5.266924629781219e-14,
+          "name": "state1_zero_entry"
+        },
+        {
+          "current_frame_error": 3.920915722080209e-14,
+          "frozen_fit_residual": 3.920915722080209e-14,
+          "name": "state1_plus_entry"
+        },
+        {
+          "current_frame_error": 2.2285553688820602e-14,
+          "frozen_fit_residual": 2.2285553688820602e-14,
+          "name": "state1_minus_entry"
+        },
+        {
+          "current_frame_error": 5.3523691436222486e-14,
+          "frozen_fit_residual": 5.3523691436222486e-14,
+          "name": "state2_zero_entry"
+        },
+        {
+          "current_frame_error": 3.7876783753562286e-14,
+          "frozen_fit_residual": 3.7876783753562286e-14,
+          "name": "state2_plus_entry"
+        },
+        {
+          "current_frame_error": 2.023555637104882e-14,
+          "frozen_fit_residual": 2.023555637104882e-14,
+          "name": "state2_minus_entry"
+        },
+        {
+          "current_frame_error": 5.315268768067425e-14,
+          "frozen_fit_residual": 5.315268768067425e-14,
+          "name": "state3_zero_entry"
+        },
+        {
+          "current_frame_error": 3.88891515971864e-14,
+          "frozen_fit_residual": 3.88891515971864e-14,
+          "name": "state3_plus_entry"
+        },
+        {
+          "current_frame_error": 2.224600719874902e-14,
+          "frozen_fit_residual": 2.224600719874902e-14,
+          "name": "state3_minus_entry"
+        },
+        {
+          "current_frame_error": 5.35915973533772e-14,
+          "frozen_fit_residual": 5.35915973533772e-14,
+          "name": "common_return"
+        },
+        {
+          "current_frame_error": 6.532127044824583e-14,
+          "frozen_fit_residual": 6.532127044824583e-14,
+          "name": "single_P_terminal_D"
+        }
+      ],
+      "embedding_checked": false,
+      "exact_four_block_closure_certified": false,
+      "exact_frame_D_certified": false,
+      "exact_single_P_zero_operator_certified": false,
+      "floating_cache_joins_certified_exact": false,
+      "fourth_range_evaluated": false,
+      "frame_steps_per_ramp": 96,
+      "interval_bounds_certified": false,
+      "maximum_carried_omega_offset": 0.0,
+      "natural_carried_four_block_matrix": [
+        [
+          -8.040489871130596e-10,
+          1.6732562731214262e-10,
+          -8.337739387798138e-10
+        ],
+        [
+          -3.416584792859112e-10,
+          1.526236789728408e-09,
+          2.9242741561574803e-10
+        ],
+        [
+          5.495193883264804e-11,
+          -1.192465397259479e-11,
+          -1.0675826368766739e-09
+        ]
+      ],
+      "natural_carried_four_block_matrix_norm": 2.245931714885355e-09,
+      "natural_four_block_alpha_closure": [
+        0.0,
+        1.8434889170748647e-09,
+        -2.4076598492683843e-09
+      ],
+      "natural_four_block_alpha_closure_norm": 3.0323715697712437e-09,
+      "natural_four_block_alpha_closure_over_centerline_length": 4.827322967306869e-16,
+      "natural_four_block_frame_error": 1.8137495736962371e-12,
+      "natural_four_block_frame_orthogonality": 3.6274989868246194e-12,
+      "normalized_single_P_matrix": [
+        [
+          -1.0543649286987034e-14,
+          1.6861512186494565e-15,
+          -1.7361112547575885e-14
+        ],
+        [
+          -7.836613302725226e-16,
+          2.1597307275911248e-14,
+          4.440892098500626e-16
+        ],
+        [
+          -3.703634621210483e-16,
+          -1.321859288694327e-15,
+          -1.2583684094735759e-14
+        ]
+      ],
+      "ordered_sum_vs_bulk_formula": 1.5093100034597847e-10,
+      "physical_omega_gap": 1.0,
+      "physical_strip_xi": [
+        3.3533850656405124,
+        4.353385065640513
+      ],
+      "physical_u_bounds": [
+        0.024266209616240823,
+        2.0
+      ],
+      "preconditioned_single_P_l2": 4.936281534983494e-15,
+      "profile_evaluated": false,
+      "quadrature_n": 64,
+      "reach_lower_certified": false,
+      "reversal_displacement_identity_error": 1.718864497433868e-07,
+      "reversal_frame_identity_error": 1.0343961457542668e-14,
+      "reverse_displacement": [
+        -1015988.0400911041,
+        -168.79661202080874,
+        -1339.0105155611311
+      ],
+      "reverse_end_state": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "reverse_frame": [
+        [
+          -0.9999999999998399,
+          -4.5582505018465754e-14,
+          -3.234353867650972e-14
+        ],
+        [
+          -8.944396716642303e-14,
+          0.9999999999996096,
+          8.712345076529688e-14
+        ],
+        [
+          -2.7686934478091808e-14,
+          7.725128424243505e-14,
+          -0.9999999999998351
+        ]
+      ],
+      "reverse_same_matrix_error": 1.964026924342181e-11,
+      "scalar_cache_join_max": 2.220446049250313e-16,
+      "single_P_displacement": [
+        1015988.0400911001,
+        168.79661195647833,
+        1339.0105155616407
+      ],
+      "single_P_end_state": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "single_P_frame": [
+        [
+          -0.9999999999998399,
+          9.602483089769634e-14,
+          -2.5753546116586425e-14
+        ],
+        [
+          3.896412361862754e-14,
+          0.9999999999996126,
+          -7.628257098324082e-14
+        ],
+        [
+          -3.002855508664235e-14,
+          -8.78701008412239e-14,
+          -0.9999999999998357
+        ]
+      ],
+      "single_P_frame_target_error": 4.780358992725025e-13,
+      "single_P_matrix": [
+        [
+          -1.7274714991799556e-10,
+          2.7625901566352695e-11,
+          -2.844444679794833e-10
+        ],
+        [
+          -1.283950723518501e-11,
+          3.538502824085299e-10,
+          7.275957614183426e-12
+        ],
+        [
+          -6.0680349633912556e-12,
+          -2.1657342585967854e-11,
+          -2.0617108020815067e-10
+        ]
+      ],
+      "single_P_matrix_norm": 5.291064300521363e-10,
+      "single_P_trace_without_correction": -2.5067947717616335e-11,
+      "sphere_length": 3602171.2860230254,
+      "task_complete": false,
+      "validation_refit": false
+    },
+    {
+      "carried_matrix_difference_from_four_MP": 5.628848967480315e-10,
+      "carried_omega_boundary_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "carried_omega_closure": 0.0,
+      "carried_omega_offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "centerline_length": 6281683.637718119,
+      "connectors": [
+        {
+          "current_frame_error": 0.0,
+          "frozen_fit_residual": 0.0,
+          "name": "state0_zero_entry"
+        },
+        {
+          "current_frame_error": 2.0965726563626236e-13,
+          "frozen_fit_residual": 3.8812664253752497e-14,
+          "name": "state0_plus_entry"
+        },
+        {
+          "current_frame_error": 2.0376577910324716e-13,
+          "frozen_fit_residual": 2.094195051577955e-14,
+          "name": "state0_minus_entry"
+        },
+        {
+          "current_frame_error": 1.8487267312470948e-13,
+          "frozen_fit_residual": 5.266924629781219e-14,
+          "name": "state1_zero_entry"
+        },
+        {
+          "current_frame_error": 2.0967742904967216e-13,
+          "frozen_fit_residual": 3.920915722080209e-14,
+          "name": "state1_plus_entry"
+        },
+        {
+          "current_frame_error": 2.0586210533308445e-13,
+          "frozen_fit_residual": 2.2285553688820602e-14,
+          "name": "state1_minus_entry"
+        },
+        {
+          "current_frame_error": 1.8739283177731842e-13,
+          "frozen_fit_residual": 5.3523691436222486e-14,
+          "name": "state2_zero_entry"
+        },
+        {
+          "current_frame_error": 2.0960381596311812e-13,
+          "frozen_fit_residual": 3.7876783753562286e-14,
+          "name": "state2_plus_entry"
+        },
+        {
+          "current_frame_error": 2.035041280049608e-13,
+          "frozen_fit_residual": 2.023555637104882e-14,
+          "name": "state2_minus_entry"
+        },
+        {
+          "current_frame_error": 1.8535224095189678e-13,
+          "frozen_fit_residual": 5.315268768067425e-14,
+          "name": "state3_zero_entry"
+        },
+        {
+          "current_frame_error": 2.1050438649463082e-13,
+          "frozen_fit_residual": 3.88891515971864e-14,
+          "name": "state3_plus_entry"
+        },
+        {
+          "current_frame_error": 2.0459345004365409e-13,
+          "frozen_fit_residual": 2.224600719874902e-14,
+          "name": "state3_minus_entry"
+        },
+        {
+          "current_frame_error": 1.8499409846870127e-13,
+          "frozen_fit_residual": 5.35915973533772e-14,
+          "name": "common_return"
+        },
+        {
+          "current_frame_error": 2.340843935683968e-13,
+          "frozen_fit_residual": 6.532127044824583e-14,
+          "name": "single_P_terminal_D"
+        }
+      ],
+      "embedding_checked": false,
+      "exact_four_block_closure_certified": false,
+      "exact_frame_D_certified": false,
+      "exact_single_P_zero_operator_certified": false,
+      "floating_cache_joins_certified_exact": false,
+      "fourth_range_evaluated": false,
+      "frame_steps_per_ramp": 192,
+      "frozen_changes": {
+        "four_block_closure": 5.22268443148233e-07,
+        "single_P_frame": 2.590536492484419e-12,
+        "single_P_matrix": 1.6375950743047543e-11
+      },
+      "interval_bounds_certified": false,
+      "maximum_carried_omega_offset": 0.0,
+      "natural_carried_four_block_matrix": [
+        [
+          -8.040482030180485e-10,
+          1.653717388722109e-10,
+          -9.056315697364425e-10
+        ],
+        [
+          -3.416594542005047e-10,
+          1.5264313008023223e-09,
+          2.753193228954842e-10
+        ],
+        [
+          5.495158494905894e-11,
+          -4.545674600620053e-12,
+          -1.067772689711255e-09
+        ]
+      ],
+      "natural_carried_four_block_matrix_norm": 2.2715001980871464e-09,
+      "natural_four_block_alpha_closure": [
+        -3.725290298461914e-09,
+        -1.9346657609276008e-10,
+        5.198435246711597e-07
+      ],
+      "natural_four_block_alpha_closure_norm": 5.19856908542782e-07,
+      "natural_four_block_alpha_closure_over_centerline_length": 8.275757559984747e-14,
+      "natural_four_block_frame_error": 3.833008064534432e-12,
+      "natural_four_block_frame_orthogonality": 7.666015844366351e-12,
+      "normalized_single_P_matrix": [
+        [
+          -1.0543649286987034e-14,
+          1.2351231148954867e-15,
+          -1.6930901125533637e-14
+        ],
+        [
+          -7.836613302725226e-16,
+          2.1615955553278e-14,
+          -3.3306690738754696e-16
+        ],
+        [
+          -3.703634621210483e-16,
+          -1.2455314557513475e-15,
+          -1.2602766052971504e-14
+        ]
+      ],
+      "ordered_sum_vs_bulk_formula": 1.488767054349518e-10,
+      "physical_omega_gap": 1.0,
+      "physical_strip_xi": [
+        3.3533850656405124,
+        4.353385065640513
+      ],
+      "physical_u_bounds": [
+        0.024266209616240823,
+        2.0
+      ],
+      "preconditioned_single_P_l2": 5.199873723200288e-15,
+      "profile_evaluated": false,
+      "quadrature_n": 128,
+      "reach_lower_certified": false,
+      "reversal_displacement_identity_error": 4.848726653488507e-07,
+      "reversal_frame_identity_error": 1.1115126328145201e-14,
+      "reverse_displacement": [
+        -1015988.0400909707,
+        -168.7966120273549,
+        -1339.0105156707327
+      ],
+      "reverse_end_state": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "reverse_frame": [
+        [
+          -0.9999999999995448,
+          -7.90575340325286e-14,
+          2.5913490568922933e-13
+        ],
+        [
+          -1.6177412191892025e-13,
+          0.9999999999992392,
+          -1.6206354989974998e-12
+        ],
+        [
+          -2.5356322257327193e-13,
+          -1.7633319168746487e-12,
+          -0.9999999999996336
+        ]
+      ],
+      "reverse_same_matrix_error": 3.15586192119708e-11,
+      "scalar_cache_join_max": 2.220446049250313e-16,
+      "single_P_displacement": [
+        1015988.0400909478,
+        168.7966119042668,
+        1339.0105154062724
+      ],
+      "single_P_end_state": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "single_P_frame": [
+        [
+          -0.9999999999995479,
+          1.642240257886854e-13,
+          -2.544184194645836e-13
+        ],
+        [
+          7.536350367344649e-14,
+          0.9999999999992392,
+          1.7699668509761161e-12
+        ],
+        [
+          2.5754103870709085e-13,
+          1.6140184732226219e-12,
+          -0.9999999999996354
+        ]
+      ],
+      "single_P_frame_target_error": 2.61107732299841e-12,
+      "single_P_matrix": [
+        [
+          -1.7274714991799556e-10,
+          2.0236257114447653e-11,
+          -2.773958840407431e-10
+        ],
+        [
+          -1.283950723518501e-11,
+          3.5415581578490674e-10,
+          -5.4569682106375694e-12
+        ],
+        [
+          -6.0680349633912556e-12,
+          -2.0406787371030077e-11,
+          -2.0648371901188511e-10
+        ]
+      ],
+      "single_P_matrix_norm": 5.252707091852804e-10,
+      "single_P_trace_without_correction": -2.5075053144973936e-11,
+      "sphere_length": 3602171.2860230254,
+      "task_complete": false,
+      "validation_refit": false
+    },
+    {
+      "carried_matrix_difference_from_four_MP": 5.604025232458244e-10,
+      "carried_omega_boundary_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "carried_omega_closure": 0.0,
+      "carried_omega_offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "centerline_length": 6281683.637718119,
+      "connectors": [
+        {
+          "current_frame_error": 0.0,
+          "frozen_fit_residual": 0.0,
+          "name": "state0_zero_entry"
+        },
+        {
+          "current_frame_error": 2.1486751746992723e-13,
+          "frozen_fit_residual": 3.8812664253752497e-14,
+          "name": "state0_plus_entry"
+        },
+        {
+          "current_frame_error": 2.2189356544256905e-13,
+          "frozen_fit_residual": 2.094195051577955e-14,
+          "name": "state0_minus_entry"
+        },
+        {
+          "current_frame_error": 1.8853059365179105e-13,
+          "frozen_fit_residual": 5.266924629781219e-14,
+          "name": "state1_zero_entry"
+        },
+        {
+          "current_frame_error": 2.148272118750768e-13,
+          "frozen_fit_residual": 3.920915722080209e-14,
+          "name": "state1_plus_entry"
+        },
+        {
+          "current_frame_error": 2.1983751232789501e-13,
+          "frozen_fit_residual": 2.2285553688820602e-14,
+          "name": "state1_minus_entry"
+        },
+        {
+          "current_frame_error": 1.8631112589716197e-13,
+          "frozen_fit_residual": 5.3523691436222486e-14,
+          "name": "state2_zero_entry"
+        },
+        {
+          "current_frame_error": 2.1487565026946254e-13,
+          "frozen_fit_residual": 3.7876783753562286e-14,
+          "name": "state2_plus_entry"
+        },
+        {
+          "current_frame_error": 2.2180855763514286e-13,
+          "frozen_fit_residual": 2.023555637104882e-14,
+          "name": "state2_minus_entry"
+        },
+        {
+          "current_frame_error": 1.8716248008432672e-13,
+          "frozen_fit_residual": 5.315268768067425e-14,
+          "name": "state3_zero_entry"
+        },
+        {
+          "current_frame_error": 2.1539556852425094e-13,
+          "frozen_fit_residual": 3.88891515971864e-14,
+          "name": "state3_plus_entry"
+        },
+        {
+          "current_frame_error": 2.2261974721928383e-13,
+          "frozen_fit_residual": 2.224600719874902e-14,
+          "name": "state3_minus_entry"
+        },
+        {
+          "current_frame_error": 1.8982551117341414e-13,
+          "frozen_fit_residual": 5.35915973533772e-14,
+          "name": "common_return"
+        },
+        {
+          "current_frame_error": 2.1231195601934644e-13,
+          "frozen_fit_residual": 6.532127044824583e-14,
+          "name": "single_P_terminal_D"
+        }
+      ],
+      "embedding_checked": false,
+      "exact_four_block_closure_certified": false,
+      "exact_frame_D_certified": false,
+      "exact_single_P_zero_operator_certified": false,
+      "floating_cache_joins_certified_exact": false,
+      "fourth_range_evaluated": false,
+      "frame_steps_per_ramp": 384,
+      "frozen_changes": {
+        "four_block_closure": 3.7345579024656584e-08,
+        "single_P_frame": 1.6177147524565747e-12,
+        "single_P_matrix": 1.4346419149257045e-11
+      },
+      "interval_bounds_certified": false,
+      "maximum_carried_omega_offset": 0.0,
+      "natural_carried_four_block_matrix": [
+        [
+          -8.040489871130596e-10,
+          1.6729722988884088e-10,
+          -8.900324921512492e-10
+        ],
+        [
+          -3.41658566022085e-10,
+          1.5261879468542183e-09,
+          2.877840188375558e-10
+        ],
+        [
+          5.4951876382602904e-11,
+          -4.638013931246299e-12,
+          -1.0675950713745497e-09
+        ]
+      ],
+      "natural_carried_four_block_matrix_norm": 2.266768911151523e-09,
+      "natural_four_block_alpha_closure": [
+        -5.471520125865936e-09,
+        -6.939501417946303e-09,
+        5.565332230617059e-07
+      ],
+      "natural_four_block_alpha_closure_norm": 5.56603379960873e-07,
+      "natural_four_block_alpha_closure_over_centerline_length": 8.860735625378684e-14,
+      "natural_four_block_frame_error": 2.7687232767269825e-12,
+      "natural_four_block_frame_orthogonality": 5.5374464916563685e-12,
+      "normalized_single_P_matrix": [
+        [
+          -1.0543649286987034e-14,
+          1.6514567491299204e-15,
+          -1.7284784714632906e-14
+        ],
+        [
+          -7.836613302725226e-16,
+          2.159427150982829e-14,
+          3.469446951953614e-16
+        ],
+        [
+          -3.703634621210483e-16,
+          -1.3149203947904198e-15,
+          -1.2581082009521793e-14
+        ]
+      ],
+      "ordered_sum_vs_bulk_formula": 1.5101760021442537e-10,
+      "physical_omega_gap": 1.0,
+      "physical_strip_xi": [
+        3.3533850656405124,
+        4.353385065640513
+      ],
+      "physical_u_bounds": [
+        0.024266209616240823,
+        2.0
+      ],
+      "preconditioned_single_P_l2": 4.975179146334649e-15,
+      "profile_evaluated": false,
+      "quadrature_n": 256,
+      "reach_lower_certified": false,
+      "reversal_displacement_identity_error": 5.518916715346581e-07,
+      "reversal_frame_identity_error": 1.479038456506927e-14,
+      "reverse_displacement": [
+        -1015988.040091415,
+        -168.7966119336151,
+        -1339.0105156978934
+      ],
+      "reverse_end_state": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "reverse_frame": [
+        [
+          -1.0000000000004763,
+          -2.741957011609875e-13,
+          2.401068323356941e-13
+        ],
+        [
+          2.193154730632242e-14,
+          1.0000000000004623,
+          -1.9628994401603325e-12
+        ],
+        [
+          -3.1071223491221995e-13,
+          -1.64554637939819e-12,
+          -0.999999999999814
+        ]
+      ],
+      "reverse_same_matrix_error": 3.8675666256971575e-11,
+      "scalar_cache_join_max": 2.220446049250313e-16,
+      "single_P_displacement": [
+        1015988.0400914513,
+        168.79661179504578,
+        1339.0105154182688
+      ],
+      "single_P_end_state": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "single_P_frame": [
+        [
+          -1.000000000000481,
+          -3.1031627614327656e-14,
+          -3.140617495015511e-13
+        ],
+        [
+          2.834286119628789e-13,
+          1.0000000000004605,
+          1.6461094895088237e-12
+        ],
+        [
+          2.3646482800792223e-13,
+          1.962896095574628e-12,
+          -0.999999999999815
+        ]
+      ],
+      "single_P_frame_target_error": 2.6974218710008147e-12,
+      "single_P_matrix": [
+        [
+          -1.7274714991799556e-10,
+          2.7057467377744615e-11,
+          -2.8319391276454553e-10
+        ],
+        [
+          -1.283950723518501e-11,
+          3.538005444170267e-10,
+          5.6843418860808015e-12
+        ],
+        [
+          -6.0680349633912556e-12,
+          -2.1543655748246238e-11,
+          -2.0612844764400506e-10
+        ]
+      ],
+      "single_P_matrix_norm": 5.283316700430981e-10,
+      "single_P_trace_without_correction": -2.5075053144973936e-11,
+      "sphere_length": 3602171.2860230254,
+      "task_complete": false,
+      "validation_refit": false
+    }
+  ],
+  "validation_seconds": 101.50041385199998
+}
