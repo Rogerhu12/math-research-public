@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-5ad8aaada967f4626a33e978b1c81adf640ee1abaf0876f54ffd22d6dbd107fd.json.gz",
+  "original_bytes": 7508940,
+  "original_sha256": "5ad8aaada967f4626a33e978b1c81adf640ee1abaf0876f54ffd22d6dbd107fd",
+  "native_kind": "actual_complete_repaired_M32_known_high_source_from_Z_tail_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 7721,
+  "original_source_sha256": "f9104cce14a3f04ebe3271ed19085d9bf4bdc7f9f7c215ed79dd99244e7034bf",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "parts": [
+    {
+      "file": "native-complete-repaired-M32-known-high-tail-source.json.gz-5ad8aaada967f462-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "11c02e9d870227ec5d09fe1dc11d87927b53455e6bfba543cce889a64f9b98c9",
+      "compressed_bytes": 1952740,
+      "compressed_sha256": "e517b145ceec21159aade32db088f949ac8a2a1911d06c097a3183d599c866e8"
+    },
+    {
+      "file": "native-complete-repaired-M32-known-high-tail-source.json.gz-5ad8aaada967f462-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "d83bb7d4b386125970e19c4a32516d40c684c355b48d5ce090fa22fd5af5b16a",
+      "compressed_bytes": 1927344,
+      "compressed_sha256": "5aa312486c6784faef51998f39a4c561661fddd93e0ccfc7322fa0eec3e05e88"
+    },
+    {
+      "file": "native-complete-repaired-M32-known-high-tail-source.json.gz-5ad8aaada967f462-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "b0e12b0d6c89066ea313ae1fba30d20b351904cb9e6580ef79d8b51c4bb41f48",
+      "compressed_bytes": 1957788,
+      "compressed_sha256": "04ae7d0e0dfb00a5906f1c0f99bd2b053a06aae819b2088878eb9a1f7ae49d06"
+    },
+    {
+      "file": "native-complete-repaired-M32-known-high-tail-source.json.gz-5ad8aaada967f462-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 1508940,
+      "sha256": "0e560b5c60cc028fe7b835a6b82706082ad089432b71485d386aa5d5f8b67501",
+      "compressed_bytes": 1485826,
+      "compressed_sha256": "81245fc65090351f9b352248c052301d489a22a442c09c12bfe55904a4547042"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
