@@ -135,3 +135,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:33:51 UTC — 开放网络分数矩与 actual 非零内部逆
 
 根完整核 B1–33（19853B，SHA6ef3aac35bd9f5001b24f3309e2e497c4c2fb07d488a6cc382e4fe7dcb8280fc）：finite exceptional ζ与纯外酉解耦、q<1盘内逆、弱尾只损log(a)、分数矩/次调和/Fatou、公共坏集、所有新层权与浅/深合账逐式通过。deep新净幂327/1280>0，mixed<2^-6000000；actual非零内部真逆<2。保留正确源域ν^-1/状态ν，以及mean/exterior/所有有序源；tail接真实平端flux=0域mean Green，不以弱权默认边界。该解析结论不需新数值实验。
+
+### 2026-11-14 17:35:21 UTC — 大根区真实非单调性费用与新消费
+
+43621351216实际child1/5输入门/0commonrows，native8ac080899915ced52d6002aa471d1aa4ca2f482df111078640b3bdbac9dd2db2；whole Kr>1失败完整保留。根与phase独核 $-w_\rho/w=(e^{-x}-K_r)/(2w^2)$ 的正部：原k下界和真实cell距r_-给远根S_i，根附近若门不满足仍严失败。source 9acc1e8187663b91845347878034a384f5ff25b939e7faa0a1ab72f7f8738de9，proof 60ceb9c93e80984c67c2e9847e08815f83bc772f7bf2b8f397a57095617ef78b，manifest cc907dc35cd1d71703910ee6cc8fda7bb90f677867f43b0752d0719d899d4846。只新增从未完成的共同格scalar，0旧target/array/primitive重算。

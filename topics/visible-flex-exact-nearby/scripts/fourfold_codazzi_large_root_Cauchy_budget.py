@@ -115,8 +115,15 @@ def validate(a,doc):
 def budget(rootrow,intrinsic_row,left,right,rlo,rhi):
     jets=intrinsic_row["intrinsic_whole_third_jets"]
     kr=box(jets["K1"]).lower()
-    if not kr>1:raise ValueError("the actual whole K_r lower bound does not exceed1")
-    rb=rootrow["bounds"];eta=up(box(rb["eta_upper"]))
+    rb=rootrow["bounds"];kl=box(rb["k_lower"]).lower()
+    if not kl>1:raise ValueError("the actual root-ratio lower bound does not exceed1")
+    distance=rlo-right
+    if kr>=1:weight_fee=arb(0)
+    elif distance>0:
+        weight_fee=((1-kr)/(2*kl*ex(distance))).upper()
+    else:
+        raise ValueError("nonpositive Kprime weight fee reaches the actual root ball")
+    eta=up(box(rb["eta_upper"]))
     if not eta<=ex(Q(13,10)):raise ValueError("the full-family angular speed exceeds13over10")
     rho=max(abs(rlo-left),abs(rlo-right),abs(rhi-left),abs(rhi-right))
     # Both quantities independently bound |K| on this true intersection.
@@ -133,16 +140,18 @@ def budget(rootrow,intrinsic_row,left,right,rlo,rhi):
     B1=b*(2*U[0]*U[1]+6*q2*V[0]*V[1])
     L0=2*b*U[0]*V[0];L1=2*b*(U[1]*V[0]+U[0]*V[1])
     CI=arb(17).sqrt()/4
-    zero={"transport":ex(Q(21,2))*D1,
+    zero={"nonmonotone_weight":weight_fee,"transport":ex(Q(21,2))*D1,
         "local":10*(A0+B0)+4*(q+W)*L0,
         "primitive":8*b*(W*U[0]+q2*V[0])*(ex(Q(41,100))*(U[1]+U[2])+V[1]/4),
         "independent_mean":4*gamma*(q2*(V[1]+V[2])+U[1])}
-    minus={"transport":D1/2+ex(Q(40,3))*(D1+D2),
+    minus={"nonmonotone_weight":weight_fee,"transport":D1/2+ex(Q(40,3))*(D1+D2),
         "local":10*(A0+A1+B0+B1)+4*(q+W)*(L0+L1),
         "primitive":8*b*CI*(U[1]+V[1])*(W*(U[0]+U[1])+q2*(V[0]+V[1])),
         "independent_mean":4*gamma*(q2*V[1]+U[1])}
     zero={k:v.upper() for k,v in zero.items()};minus={k:v.upper() for k,v in minus.items()}
-    return {"K_r_lower":rec(kr),"eta_upper":rec(eta),"q_squared_upper":rec(q2),
+    return {"K_r_lower":rec(kr),"k_ratio_lower":rec(kl),
+        "nonmonotone_weight_growth":rec(weight_fee),"root_distance_lower":str(distance),
+        "eta_upper":rec(eta),"q_squared_upper":rec(q2),
         "W_upper":rec(W),"H0_growth_components":{k:rec(v) for k,v in zero.items()},
         "Hminus1_growth_components":{k:rec(v) for k,v in minus.items()},
         "H0_growth":rec(sum(zero.values(),arb(0)).upper()),
@@ -192,7 +201,7 @@ def run(a,doc):
         doc["new_common_rows_in_this_child"]+=1
         if len(doc["rows"])%128==0:
             save(a.out,doc);print(json.dumps({"complete_common_rows":len(doc["rows"]),"total":len(requests)}),flush=True)
-    gate(doc,"every_actual_common_interval_retained_with_Kprime_and_eta_gates",
+    gate(doc,"every_actual_common_interval_retained_with_root_ratio_and_full_weight_fee",
         len(doc["rows"])==len(requests) and bool(doc["rows"])
         and doc["rows"][0]["interval"][0]==str(left)
         and doc["rows"][-1]["interval"][1]==str(right))
@@ -222,14 +231,19 @@ def run(a,doc):
             "full_root_bracket_to_L2":rec((CI*rawminus).upper()),
             "ordinary_L2_radial_source_to_L2":rec((CI*rawminus*ex(radius).sqrt()).upper())}
         kr=min(box(r["bounds"]["K_r_lower"]).lower() for r in selected)
+        kl=min(box(r["bounds"]["k_ratio_lower"]).lower() for r in selected)
+        fee=sum((ex(Q(r["interval"][1])-Q(r["interval"][0]))
+            *up(box(r["bounds"]["nonmonotone_weight_growth"])) for r in selected),arb(0)).upper()
         eta=max(up(box(r["bounds"]["eta_upper"])) for r in selected)
-        okay=bool(kr>1 and eta<=ex(Q(13,10)) and all(
+        okay=bool(kl>1 and fee.is_finite() and eta<=ex(Q(13,10)) and all(
             box(C[k]["full_root_to_state"]).is_finite() for k in ("H0","Hminus1")))
         if not okay:raise ValueError("a complete numerical Cauchy constant is not finite")
         doc["cases"].append(dict(exact_radius=str(radius),
             exact_enclosing_negative_interval=[str(lo),str(rhi)],
             actual_true_rho_interval=["0",str(radius)],common_rows=len(selected),
-            K_r_lower=rec(kr),eta_upper=rec(eta),q_squared_upper=rec(Qmax),
+            K_r_lower=rec(kr),k_ratio_lower=rec(kl),
+            integrated_nonmonotone_weight_growth=rec(fee),
+            eta_upper=rec(eta),q_squared_upper=rec(Qmax),
             W_upper=rec(W),bounds=C,passed=True))
     gate(doc,"all_six_real_radii_include_complete_both_energy_and_source_windows",
         len(doc["cases"])==6 and all(c["passed"] for c in doc["cases"]))

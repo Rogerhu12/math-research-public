@@ -78,7 +78,7 @@ root负责全δ根图/科学核对/发布；newton负责同Z全源/真帽边界/
 
 ### 2026-11-14 大根窗Cauchy新门
 
-[完整实根E1–12](results/R133-supplement-full-real-large-root-Cauchy-two-source-windows.md)给原正则Fourier能量的全窗延伸：只需真实K_r>1与ηopt≤13/10，完整s=0、−1/普通源/mean/实际跳逐格积分。16input公开消费者已推，复用同一1300行native及六原whole-jet parts；尚未授实际数值通过或CE/cutoff。原root宽度和νδ零compact support同对象保持。
+[完整实根E1–12](results/R133-supplement-full-real-large-root-Cauchy-two-source-windows.md)的首版全域 $K_r>1$ 门实际在43621351216失败，0commonrow；不得算通过。修订保同一正则Fourier权，改由已认证 $k=-K/\rho>1$ 保主部，远根负 $w_\rho/w$ 显式收 $S_i=[1-(K_r)_{\rm lo}]_+/(2k_{\rm lo}(r_--u_i))$，近根仍须真实正导数门。根/phase独核该费对s=0、−1同适用，全部ordinary/mean/jump真dr积分保。16pin新CI待actual，不授CE/cutoff；原1300行和六片只读消费，0原target重算。
 
 ### 已核固定参数 pilot；接全父格四分（2026-11-14）
 

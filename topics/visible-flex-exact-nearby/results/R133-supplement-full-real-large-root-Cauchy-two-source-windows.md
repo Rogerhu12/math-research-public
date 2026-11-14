@@ -4,12 +4,14 @@
 
 **Analytic conclusion with explicit new numerical gates.** The regular
 Fourier energy used on the original root germ extends to the full real
-radius $R=1/50$ if the original whole intrinsic jets certify
-$K_r>1$ and the actual full-family angular speed is at most $13/10$
-there. The companion public consumer checks those gates and integrates
-the complete two-row growth on the common refinement of the saved
-root rows and original intrinsic rows. No numerical pass is asserted
-by this proof.
+radius $R=1/50$ when the saved root ratio $k=-K/\rho$ is at least one,
+the actual full-family angular speed is at most $13/10$, and the
+explicit nonmonotone weight fee below is finite. The original attempted
+gate $K_r>1$ on the whole window failed in public run43621351216;
+that failure is retained. This theorem pays the actual negative
+weight derivative instead of discarding it. The companion consumer
+integrates the complete two-row growth on the original common
+refinement. No numerical pass is asserted by this proof.
 
 The result concerns the same explicit repaired family, all angular
 frequencies, the independent physical even mean, ordinary sources and
@@ -38,11 +40,13 @@ Let $r_*\in[r_-,r_+]$ be the true simple root certified in the original
 native. Set $\rho=r_*-r$ and $q^2=-K$. The numerical hypotheses on
 the actual real cover $[r_--R,r_+]$ are
 $$
- K(r_*)=0,\qquad K_r>1,\qquad |\eta|\le a_*:=13/10.
+ K(r_*)=0,\qquad q^2=\rho k,\quad k\ge1,\qquad
+ |\eta|\le a_*:=13/10.
  \tag{E.1}
 $$
 Then for $0\le\rho\le R$, $q^2(0)=0$,
-$(q^2)_\rho=K_r>1$ and $q^2\ge\rho$.
+$(q^2)_\rho=K_r$ and $q^2\ge\rho$. The derivative $K_r$
+is allowed to have either sign away from the root.
 Both root endpoints are retained; a fixed cut at $r_--h$ is not
 identified with $\rho=h$. The use of the larger fixed interval only
 enlarges nonnegative integrals by a certified amount.
@@ -70,9 +74,28 @@ Since $x+e^{-x}\ge1$ and (E.1) holds,
 $$
  w\ge\Lambda^{-1/3},\quad w\ge q,\quad
  w\le W:=\sqrt{1+q_{\max}^2},\quad \theta^{-1}<4,\quad
- (w^2)_\rho=K_r-e^{-x}>0.
+ (w^2)_\rho=K_r-e^{-x}.
  \tag{E.3}
 $$
+On a common row $I_i=[l_i,u_i]$, let $k_i$ be its proved
+root-ratio lower bound and $\kappa_i$ its original whole $K_r$
+lower bound. Use the following nonnegative constant:
+$$
+ S_i=\begin{cases}
+ 0,&\kappa_i\ge1,\\
+ \dfrac{1-\kappa_i}{2k_i(r_--u_i)},&
+       \kappa_i<1\ \hbox{and}\ u_i<r_-.
+ \end{cases}                                      \tag{E.3a}
+$$
+If neither case applies, this consumer must fail; it may not remove
+that row. On the actual negative part of the row,
+$\rho\ge r_--u_i$ in the second case, and
+$$
+ \max\{-w_\rho/w,0\}
+ =\max\{(e^{-x}-K_r)/(2w^2),0\}\le S_i.
+$$
+Near the root the first case uses the actual positive $K_r$ gate;
+the root ball is not replaced by a single decimal.
 Here $e^{13/10}<4$. Also $2a_*/(3e)<1/3$.
 The two logarithmic multiplier derivatives still satisfy
 $$
@@ -101,8 +124,10 @@ The first term is skew-adjoint for real parameters.
 The second has norm at most $a_*\Lambda^{2/3}e^{-x}$;
 the equal negative scalar $\theta_\rho/\theta$ appears on both
 diagonals. Their total real energy contribution is nonpositive.
-The remaining first-row term $-w_\rho/w$ is also nonpositive.
-No divergent frequency supremum is integrated near the root.
+The remaining first-row term $-w_\rho/w$ contributes at most $S_i$.
+This bound applies to $Z_0$ and $Z_{-1}$ because all radial scalar
+multipliers commute with $\Lambda^s$. No divergent frequency
+supremum is integrated near the root.
 
 The data and output maps are
 $$
@@ -145,7 +170,7 @@ $$
 For $s=0$ a sufficient total growth is
 $$
 \begin{split}
- G_0={}&\tfrac{21}{2}D_1+10(A_0+B_0)
+ G_0={}&S_i+\tfrac{21}{2}D_1+10(A_0+B_0)
             +4(q_++W_+)L_0\\
  &+8b_+(W_+U_0+QV_0)
            \{(41/100)(U_1+U_2)+V_1/4\}\\
@@ -155,7 +180,7 @@ $$
 For $s=-1$ a sufficient total growth is
 $$
 \begin{split}
- G_{-1}={}&\tfrac12D_1+\tfrac{40}{3}(D_1+D_2)
+ G_{-1}={}&S_i+\tfrac12D_1+\tfrac{40}{3}(D_1+D_2)
        +10(A_0+A_1+B_0+B_1)\\
  &+4(q_++W_+)(L_0+L_1)\\
  &+8b_+C_I(U_1+V_1)
@@ -185,9 +210,11 @@ Finally $\gamma\Pi h_2(Kv_\phi,-u_\phi)$ gives the final line.
 The bound $|\Pi h_2|\le4\|Z_{s,2}\|$ holds for both values of $s$
 because $\Lambda_0=1$. No mean or response to it has been set to zero.
 
-These are precisely the old complete growth arguments with a local
-$Q,W_+,b_+,\gamma_+$, rather than a tiny-germ numerical maximum.
-They include no derivative of a radial interval bound.
+These are the old complete growth arguments with local
+$Q,W_+,b_+,\gamma_+$ and the additional nonnegative fee $S_i$.
+They include no derivative of a radial interval bound. The values
+$\kappa_i$ are original genuine whole derivatives; $k_i$ is a
+root-ratio bound and is never mistaken for $K_r$.
 
 ## 4. Ordered propagation, ordinary sources and actual seam impulses
 
@@ -241,8 +268,10 @@ original parts listed in
 all from public run43583838026. SHA, original row identity, actual
 closed intervals and full successful cover are checked before use.
 
-The saved whole $K_r$ values check (E.1); the saved full-family
-$\eta$ bounds check $13/10$. The complete $U_0,U_1,U_2$,
+The saved root-ratio lower bounds check $k_i\ge1$, the original
+whole $K_r$ derivatives and exact row-to-root distances pay (E.3a),
+and the saved full-family $\eta$ bounds check $13/10$.
+The complete $U_0,U_1,U_2$,
 $V_0,V_1,V_2,D_1,D_2$ come from the existing $1/64$ strip rows.
 Only the common refinement, scalar arithmetic in (E.7)--(E.11)
 and the six prescribed-radius totals are new. The same native

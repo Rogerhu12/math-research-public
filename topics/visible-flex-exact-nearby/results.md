@@ -389,3 +389,7 @@
 ### 同一真实公共参数的开放非零尾内部逆
 
 [完整 B1–33](results/R119-supplement-open-radial-network-fractional-moment-and-actual-nonmean-inverse.md)已独核。真实有限unitary colligation的开放压缩用辅助圆周参数、$q<1$ 和 $p=255/256$ 分数矩直接反演；完整原自伴关系谱流保，未把闭外反射矩阵冒作开放矩阵。全 $M\in4\mathbb N$ 的同一公共好点存在；新权 $\nu_j=2^{-432064}J^{-4166}\delta_j^{671/20}$ 下，所有高外与deep-low费用重新求和，实际全非零内部 $\|\nu R_{N,a}\nu\|<2$。真实mean Schur、外输入/输出、ordinary/weak/两Γ列有完整公式，尚未授完整source-to-label或非线性PDE。
+
+### 大根窗 Cauchy 能量的非单调权费用
+
+[修订 E1–12](results/R133-supplement-full-real-large-root-Cauchy-two-source-windows.md)在全域 $K_r>1$ 实门失败后保留原 Fourier 权，利用真 $k=-K/\rho\ge1$ 维持频率导数与全部源窗口；远根第一行 $-w_\rho/w$ 的正部显式按 $S_i$ 收费，近根须正导数门。两个Sobolev窗口都加同一非负径向积分；所有输入/output/mean/jump合同不变。这是解析修订，实际数值由新公开CI决定。
