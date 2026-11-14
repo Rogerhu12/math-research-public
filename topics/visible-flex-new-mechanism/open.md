@@ -319,3 +319,5 @@ entry_paired_audit已部署：固定选中g/162数值，入口ell=.162新场，�
 N系数直接传播接口已完成开发核：notes/literature-range-n-polynomial-engine-design-20261114.md。后续Ceff实际须直接合成同一profile整函数、全四块历史和full−4single差，不能对L2或绝对值拟合次数；pure目标DAG规模与128MiB中间缓冲限制显式记录。当前尚无真实响应值。
 
 单列高度初始化接口已发布：notes/frame-height-feasible-initializer-design-20261114.md。先读entry实际，再用同一个g/场/原函数的C/I/h生成可审候选；空区间明确失败，完整smooth objective/曲率/嵌入仍重建。工作区17:58失联后通过GitHub接口保全已完成结论，API规则比较不是实际pull；恢复即补实际pull，未通过人工check的bounded-height模块不作真实部署。
+
+短collar/下一jet/有界参考完整接口已发布：notes/entry-collar-localization-and-next-jets-20261114.md。以entry真实输出定位多项式或支持范围失真，再选择独立新模型；窄层审计必须加固定比例节点，不能因均匀网格漏峰而报告改善。bounded新源码仅静态通过，先公开check-only。

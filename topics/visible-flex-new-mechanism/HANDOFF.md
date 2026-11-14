@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不对齐整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，并同g/状态/时间精化。D为完整F0直径；δE可0但如实报；完整网格<5MB，明确数值与准确存在差距。达标后继续.5D或更强存在。现无合格完整候选。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`bb453c48d12a08ee28e94a6ca1959d9011ef0882`（18:04后API比较复核，非实际pull）。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`c4e46c04bd7dcbe765b3a1233884b9cb03faeb59`（API差异复核，非实际pull）。
 - 每次实际pull --rebase核双README，变则只读diff立即执行；至少每小时pull。每结论立即提交推送；NFF立即rebase、核规则、再推至成功，不强推。
 - 本公开main/Actions已授权。真实几何/ODE/积分/优化/完整研究编译只在本公开Actions；本地仅纸面代数、人工开发核、源码/公开输出分析。PAT仅瞬时CLI/env，不写文件/提交/日志。
 - 私有17:41:10 UTC实际pull至`6a16feab8e6c164b260239abede559e93e44aa3d`；根README无差，本题私有README不存在。QUEUE唯一行仍本会话进行中；下一pull不晚于18:41 UTC。私有研究不公开。
@@ -16,13 +16,13 @@
 
 ## 2. 冻结原输入与当前状态
 
-准确核心A1、B7/25、wc1/50；L.9、rc.22、tc.036、tf.846，a0为准确椭圆周长/(2pi)。原c0：`notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json`，987644B SHA `6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3`。原234列u81/v72/beta81；旧模型源码和来源全部冻结不覆写。
+准确核心A1、B7/25、wc1/50；L.9、rc.22、tc.036、tf.846，a0为准确椭圆周长/(2pi)。原c0：`notes/actions-43604231319-1-ellipse_enriched/frame-ellipse-enriched-fixed.json`，987644B SHA `6ff0b179af88589c1d87ee3408f068f14b02c310e2a9b300759426fa4550f1e3`。旧模型源码/来源冻结不覆写。
 
 R60原c0角平均固定b0，153uv+9height+5body=167；body支持[tc,tf−.1]不动尾patch。当前selected由run43618467921/sourcebccf1787返回，主425422B SHA `c1d81da9640c4fa2598a94e54b1e203e028c3bf914afeba5e25944b4360c6f46`，位于notes/actions-43618467921-1-independent_height_solve/。
 
 selected canonical `924e7de417ec8fbf9419942e5cf45a7eff58336972b7cac4224edaee4c4229ee`；完整固定g `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。88源/2输出、全部167 Fraction/binary64/canonical和冻结162六jet0已核。详notes/independent-height-bounded-actual-audit-20261114.md。
 
-唯一TRF250成本.0767496→.00477736，max_nfev未收敛；fine121×768 η.7136261/κ106.0103，max|y|.39350935、Xzmin−.02657888、h=.05223073559。入口t.105和patch .77均有真大残差；3u贴界8、1height贴界1。高jet精化非连续误差界，不能盲加旧250。
+原167唯一250次未收敛：fine η.7136/κ106、Xz<0、h=.05223；入口与尾patch均失败，不盲加旧预算，详完整实际审计。
 
 ## 3. 评价修复已完成，入口新场正在实测
 
@@ -64,6 +64,6 @@ literature/source已进一步纸核Γ有效桥约简及profile无关28个充分�
 
 单列height初始化helper已忠实恢复并发布：frame_height_feasible_initializer.py，SHA fa379eb6…，人工check失联前通过，四次与直接数组差2.71e−20；完整成功/失败JSON往返、正负side、不可达帽高/固定水平超球均核。只消费同态X/Xs/T/C/I，返回候选表、实际新binary64及准确差，不改state、不调用geometry；实际driver须完整smooth目标/曲率/几何重审。
 
-mechanism的短collar/nextjet纸稿已保全blob8beac8e4，原SHA61a1ae3b…一致，待root正式发布。bounded-height源码blob a1d68ab4/SHAdeac1dbb…已静态核，但失联人工session没有passed，先在公开Actions check-only，绝不把它冒作已验真实修复。
+短collar/下一组成套jets已发布：notes/entry-collar-localization-and-next-jets-20261114.md。缩ell仅使新场C²趋旧；准确u5/v8/b7必须用完整g的D=15μ/L1⁴+5a0F5，并同步升自由项权重。有界atan高度base只付固定b6/b7，非等距。代码blob a1d68ab4/SHAdeac1dbb…已三方静态核、未有人工passed，先公开check-only。
 
 接entry真实回执核全部源/同g与新场/五精化/metricκh，选择短collar、有界base及高度初值，继续完整连接。新增证书/driver可以经明确来源的API提交后在公开Actions开发核与真算；每次写入基于当前head，不强推、不覆盖并发文件。规则变则先读差异。17:54前后复核三个相关公开H仍无可借完整大振幅厚族，私有研究不外泄。任何阶段结果或环境时长都不是课题完成。
