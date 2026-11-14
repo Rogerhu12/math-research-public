@@ -198,3 +198,6 @@ R236显示的全部十进开区间以Fraction逐项交叉相乘实核，并核rh
 
 ### 2026-11-14T08:26:08+00:00 — sphereprefix (local; public approval pending)
 完整λ6/5核从core球控制到.95真exit0/848.78s，球样本约.96未遮挡；冻结381节点/1140准确接缝，同g冷M96/M192粗时步误差非单调，M192时步减半/tol加严后2.12719e−13真exit0。仅开放前缀；完整六jet、闭面/全t/reach未完成。紧凑checkpoint结构修正为末态与全部读数分离，旧scaled-core数值未改。
+
+### 2026-11-14T08:26:08+00:00 — shortendprepare (local; public approval pending)
+M128/N1536短端.99475/264节点prepare真实0，原tol1e−5，BC0/col5.88685e−9；准确同值逐块CSC消除冗余组装副本、旧LU/J顺序释放。当前包没有BVP接受解。计划仅增加自含输入元数据，argv和全部数值不变。

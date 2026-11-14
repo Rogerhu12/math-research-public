@@ -1,0 +1,182 @@
+{
+  "scope": "Actual two-end finite Frenet BVP. Keep the original first three R225 core coefficients; the other 125 core coefficients are unknown. A solved core defines a new metric. This is not a fixed-g refinement or a closed surface.",
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "-u",
+    "computations/geometry_20261114_r225_free_core_bvp.py",
+    "--profile",
+    "notes/2026-11-14-geometry-resume-R225-balanced-turn-fixed-profile.json",
+    "--seed",
+    "notes/2026-11-14-geometry-resume-R225-free-core-M128-seed.json.gz",
+    "--M",
+    "128",
+    "--N",
+    "1536",
+    "--fixed-modes",
+    "3",
+    "--end",
+    ".99475",
+    "--base-step",
+    ".005",
+    "--extension-step",
+    ".00025",
+    "--seed-interpolation",
+    "hermite",
+    "--seed-predictor",
+    "taylor2",
+    "--terminal-reference",
+    "seed",
+    "--jac-workers",
+    "4",
+    "--tol",
+    "1e-5",
+    "--max-nodes",
+    "480",
+    "--out",
+    "${OUT_DIR}/R225-free3-M128-to099475-actual-r2.json.gz"
+  ],
+  "runtime_placeholders": [
+    "PYTHON",
+    "RUNTIME_TOPIC",
+    "OUT_DIR",
+    "WORK"
+  ],
+  "stage": "actual",
+  "execution_target": "Rogerhu12/math-research-public own GitHub Actions; no old queue",
+  "executed": false,
+  "not_submitted": true,
+  "new_nonlinear_solution": false,
+  "python_dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "expected_cpu_workers": 4,
+  "runner_memory_gib": 16,
+  "timeout_minutes": 330,
+  "source_manifest": [
+    {
+      "file": "computations/geometry_20261114_r225_free_core_bvp.py",
+      "sha256": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08"
+    },
+    {
+      "file": "computations/geometry_20261114_block_csc_bvp.py",
+      "sha256": "af91df83e0bbf255c79ae25d49f107f4967380bfcdaf56c689bdde54b344835e"
+    },
+    {
+      "file": "computations/geometry_20261114_r225_high_core_bvp.py",
+      "sha256": "e12916dcf30dd2088ad59d2059647c8a03bed446aeee693b88f423730fa5a530"
+    },
+    {
+      "file": "computations/geometry_20261114_r225_fixed_profile.py",
+      "sha256": "478d0bf603ea05a9f20228ff2fd591e2f767e6ab0686a6129b1114aa831b0c6c"
+    },
+    {
+      "file": "computations/geometry_20261114_fft_frenet.py",
+      "sha256": "973898fcea1e8706d0ff9f87bbe72cde3576bc0055149af0a2e2058b144ac401"
+    },
+    {
+      "file": "computations/geometry_20261114_r225_outward_probe.py",
+      "sha256": "64a3fd482f6ee01f4d149971dff1212b2c2ca3bdb00f1b733c7b119b458bab5f"
+    },
+    {
+      "file": "computations/alternative-outward-probe.py",
+      "sha256": "cf163a5c42cff95137a78eefda058b6a18f5f226b4261b686a42e645f4002fcb"
+    },
+    {
+      "file": "computations/alternative-controlled-profile.py",
+      "sha256": "0af61a3bfccf093bfe6c255f864c658c37119b890f362d5d2e16429d2969e430"
+    },
+    {
+      "file": "computations/alternative-neck-flatturn.py",
+      "sha256": "c0578ed401a2433c72ec99702c9c32a8412c66264a7fb81a8b8c74ba054fbbdd"
+    },
+    {
+      "file": "computations/alternative-neck-excursion.py",
+      "sha256": "f70571b8356e33cb89eabae2dba4e173e6612dac4d65d5df74f5ec14c34ad53c"
+    },
+    {
+      "file": "computations/alternative-angle-plateau-connector.py",
+      "sha256": "d9b1a9b9822664fb466942ccab13d2319c9d0f23c7ccacef2aae193b5e7b9ad7"
+    },
+    {
+      "file": "computations/alternative-direct-tail-connector.py",
+      "sha256": "9a6462c60bc8b3607decca6aab894210011b40903b0406c233090ff7856d4241"
+    },
+    {
+      "file": "computations/root_profile_scan.py",
+      "sha256": "3d940a78d18f509b98caa4fb8782ea34ad54423a58bf94e0f386f4f20e2994db"
+    }
+  ],
+  "inputs": [
+    {
+      "file": "notes/2026-11-14-geometry-resume-R225-balanced-turn-fixed-profile.json",
+      "sha256": "9b5edb6d1e834942319cfe3f76279fbde8d207ed646bdfd092c71dbd902f184c"
+    },
+    {
+      "file": "notes/2026-11-14-geometry-resume-R225-free-core-M128-seed.json.gz",
+      "sha256": "1d5fa224bd79122d9e82aa39f2f9928ac8b6f0c96442ad82080cf2a7a534f205"
+    }
+  ],
+  "prepared_actual": {
+    "nodes": 264,
+    "M": 128,
+    "N": 1536,
+    "end": 0.99475,
+    "initial_boundary_max": 0.0,
+    "initial_collocation_max": 5.88685331308781e-09,
+    "metric_sample": 3.364085878632128e-05,
+    "kappa_sample": 7.413432773774794,
+    "point_domain_min": 0.2597082161337274,
+    "maximum_RSS_kib": 179972,
+    "source_sha256": "a1e5486a3b5bfa4e8a52923335e7d7cb507f372c399cf6aaa72bde58fa1f8b08",
+    "assembly_source_sha256": "af91df83e0bbf255c79ae25d49f107f4967380bfcdaf56c689bdde54b344835e",
+    "seed_sha256": "1d5fa224bd79122d9e82aa39f2f9928ac8b6f0c96442ad82080cf2a7a534f205",
+    "profile_sha256": "9b5edb6d1e834942319cfe3f76279fbde8d207ed646bdfd092c71dbd902f184c"
+  },
+  "output_contract": "Retain complete solution or unconverged checkpoint, all core coefficients, point-domain/metric/curvature diagnostics, actual success/status/residuals and RSS events. External termination is a resource result, not mathematical rejection.",
+  "acceptance": "Original unfiltered full finite Frenet equation; tol=1e-5 and bc_tol=1e-11; no accepted solution unless solve_bvp succeeds. A successful finite BVP alone does not satisfy the topic completion criteria.",
+  "obsolete_storage_release": "Release prior LU/J before recomputation and input J after factorization; line search and equations unchanged.",
+  "preparation_reproduction": {
+    "command": [
+      "${PYTHON}",
+      "-u",
+      "computations/geometry_20261114_r225_free_core_bvp.py",
+      "--profile",
+      "notes/2026-11-14-geometry-resume-R225-balanced-turn-fixed-profile.json",
+      "--seed",
+      "notes/2026-11-14-geometry-resume-R225-free-core-M128-seed.json.gz",
+      "--M",
+      "128",
+      "--N",
+      "1536",
+      "--fixed-modes",
+      "3",
+      "--end",
+      ".99475",
+      "--base-step",
+      ".005",
+      "--extension-step",
+      ".00025",
+      "--seed-interpolation",
+      "hermite",
+      "--seed-predictor",
+      "taylor2",
+      "--terminal-reference",
+      "seed",
+      "--jac-workers",
+      "4",
+      "--tol",
+      "1e-5",
+      "--max-nodes",
+      "480",
+      "--prepare-only",
+      "--out",
+      "${WORK}/R225-short-end-prepared.json.gz"
+    ]
+  },
+  "previous_plan": "2026-11-14-geometry-resume-R225-free-core-BVP-execution.json",
+  "previous_plan_status": "Historical far-end experiment, external SIGKILL at 169 nodes; superseded for the next attempt by this short-end plan.",
+  "self_contained_topic_inputs": true,
+  "source_preparation": "Only checked-out public topic sources and native-frequency input files are needed; no pinned private-source restoration or accepted-A raw restoration."
+}
