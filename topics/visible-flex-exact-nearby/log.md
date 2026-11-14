@@ -151,3 +151,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 17:40:21 UTC — residual-split Hessian 实际9门
 
 亲读11901B process/19477B summary/5192B报告，逐核child0/9门、source/164pin/1341与1977身份、完整三种表示比较。实际数学2.042509057秒、四次README diff空；新add9.33316914410231e−7，完整all-new最小。process542eb0344e5f87aaf61b3071e4803f9bb0b91ff1eae255cf75d85ccf1c218f9f，summarybcdc7998f6a620230ab323fe51bdbb8f920b160d8169d946a3f6ce8299b05e7e。未执行旧target/trial/norm，未知erroroperator和完整逆义务保。
+
+### 2026-11-14 17:44:00 UTC — 全固定η quarter公开DAG
+
+根完整审26041B source、18556B CI、7195B合同、31607B manifest、21360B三阶段flow；tail独核数学。156原pin0变，新160pin/source f7817f4277f89e798175179fbe9832978e361f2e6dafe530ce0365f190045d35 / manifest d02bed751f7257e477e3a2d487a00b72a9d4d5310c4c5157db8c1341121797e4。64quarter原字节复用，7844新域分八互斥范围，保存已算midpoint不增加target调用。各range每8域prefix/10min真pull，两README每pull核diff；完成native即使publication失败也按原child0恢复。17:42根终端仍No usable execution environment，继续规则8小文本通道。

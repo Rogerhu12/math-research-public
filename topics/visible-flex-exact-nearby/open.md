@@ -99,3 +99,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 残差导数分部 Hessian actual 已成（2026-11-14）
 
 [43621690619 实际报告](results/R133-supplement-actual-residual-derivative-split-cap-Hessian.md)：child0、9门、1341旧local/1977已成trial交集全复用，完整all-new四源additive $<9.333170\,10^{-7}$。local混合虽逐格选小score，完整加性略大，未误称最优。当前divergence两源主导该上界；续实际真cut/Green及更紧raw残差包络，不以已知方向改进覆盖未知input算子。
+
+### 全1977父格的固定参数 quarter 继续计算（2026-11-14）
+
+[Q1–5合同](notes/2026-11-14-R133-complete-quarter-cap-contract.md)与160pin公开DAG已根/tail独核。原64个已成quarter逐字复用，仅补7844个新固定参数quarter；plan/finish只消费原结果，8range保真9/10入口、全部257状态/完整255乘积输出、独立mean与14费。只对完整八源表示和完整cap总界择优。新域已算midpoint和whole intrinsic jets都保存，供后继Hessian零新target消费。待全部实际成功收据，不先称完整结果。

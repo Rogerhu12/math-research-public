@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 17:40:21 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 17:44:00 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则与同步
 
 仅 Rogerhu12/math-research-public；所有新数学代码仅公开 Actions。每结论独立推；非快进立即接新main/rebase再推至成功，不force。root管ref/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
-本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，17:16重试仍失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。reviewed runner长算每10min真pull；phase独立child≤50min且前后pull。root亲核43621351216于17:30:12拉到0c3df44898d44b94125ac9a5234345ca045a7c6b，三次两README diff均空。终端恢复即回git。
-最新远端 main/两README blob 核：b680f6b3e8f7149090fc28166fa7351d1bf0a369；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
+本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，17:42重试仍失败。根规则8暂只connector <100KB文本，禁二进制/大文件；先查size，新摘要≤60KB；API不冒称pull。reviewed runner长算每10min真pull；phase独立child≤50min且前后pull。root亲核43621351216于17:30:12拉到0c3df44898d44b94125ac9a5234345ca045a7c6b，三次两README diff均空。终端恢复即回git。
+最新远端 main/两README blob 核：5594d697c981d748d804adb9688487c357ac16da；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。根diff已读ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
 本次9774B原H完整归档 notes/2026-11-14-handoff-before-residual-split-Hessian.md；早期H/open归档链保全。完整SHA、失败、源端口、零重算合同在各results/manifest及归档；禁止重算已成数学。
 
@@ -23,7 +23,7 @@ repair定义440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47；�
 repair/source全7721及fixed负Z源已成，原105167B exactbump摘要禁再取；旧particular/Green/小根能源和deep五盒详归档，所有原数据只复用。
 完整cut43615251195：11门，只1961新格/旧16保；native8bc061ec…，原physical<2.418183102e−6、moving<1.615491167e−5。全193/mean/未知high/六边界/14gain合同保。
 ordinary-only Hessian43618931236实际11门/114.579596s成功，nativeb1ffc217…，process989e72f6…、summaryf6640ebc…。1341原tB/tC范数复用，只新1977交集tθ；完整普通两源add<1.348921723e−6，旧1.033484771e−5；只完整总add取min，未知erroroperator不变。
-fixedηpilot43619535345实际6门/443.609966s、336新域全成，nativeb5a157d4…；16父格各1/4/16细分，1977父完整八源整组选择/六端点/14gain保。physical<1.508953388222e−6（direct旧2.418183101946e−6），dB<1.382810857749e−6。固定η单独效果小，径向四分显著；续全1977四分仅7844新域，原64quarter精确复用。
+fixedηpilot43619535345实际6门/443.609966s、336新域全成，nativeb5a157d4…；16父格各1/4/16细分，1977父完整八源整组选择/六端点/14gain保。physical<1.508953388222e−6（direct旧2.418183101946e−6），dB<1.382810857749e−6。固定η单独效果小，径向四分显著；全1977四分160pin DAG已核推：plan→8互斥range→finish，仅7844新域，原64quarter逐字复用。保存已算whole+midpoint供Hessian，0额外target；sourcef7817f42…/manifestd02bed75…待actual。
 
 无Rθ43621690619实际9门/2.042509s/1341行+1977交集，native85b6bbb8…、process542eb034…、summarybcdc7998…。完整四源add<9.333170e−7；all-new优于local混合9.634153e−7，只有整组加性取小。raw joint原producer/repair193槽/完整mean全保；旧t/tθ/module0重算，未知input erroroperator不变。续真cut/Green及残差包络收紧。
 
