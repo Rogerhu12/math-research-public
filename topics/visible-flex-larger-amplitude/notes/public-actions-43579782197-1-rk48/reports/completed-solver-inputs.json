@@ -1,0 +1,111 @@
+{
+  "new": {
+    "finished": true,
+    "success": true,
+    "actual_exit_code": 0,
+    "seconds": 4114.7467434049995,
+    "baseline_steps": 12,
+    "previous_steps": 24,
+    "new_steps": 48,
+    "source_sha256_at_start": {
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_fixedH_RK_refine.py": "c8a9057f79d1edecb1156bf327d911a8bb1335e0cd644156c73affa702636353",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_fixedH_RK24.py": "68bfebef1fc312c1dabb26a38da4fc5984e7126d7aad8f90b218043b2872d172",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz": "018d19c6ca8c27acc5cc1dde6d396ee783e34ae25e5b525158c5bb37086520d9",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/A-RK24-solve-r1/response.json.gz": "b4dcf3649619fa655cdf4e6cf3b0499d8d9db69a3c12ff26f391a6ba8d942e86",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d"
+    },
+    "messages": [],
+    "complete_H_unchanged": true,
+    "all_physical_and_source_parameters_unchanged": true,
+    "ready_received": true,
+    "response_received": true,
+    "requested_full_DN_Jacobian": true,
+    "requested_full_finite_audit": true,
+    "output_files": {
+      "intent.json": "1fbd55102c74078f71d9ca28da22851a9b6a336a2d887caa56c804981132c557",
+      "trials.jsonl": "b525959e9f7bbbe3081d9797469ad1243898cacceb1f7dfa5c2c60de06f04eef",
+      "ready.json.gz": "2f9356e265df6333160b6eee79a8bd81287de759285e48e081fbf6eddd985c8e",
+      "request.json": "5a73eab0c2fcb6dddb3ccca572aa2b63ae6a6636f5f168b00e0da07a9602864c",
+      "trace.jsonl": "9cb56d8a89cc33f9a9523e2f11e7eb432d713c913df89be95487beefcd5a9a57",
+      "response.json.gz": "8943eb28a1913a7b9cbd390607c4dadfc6fc8eefa8604e403b798c494221dd92",
+      "iteration.json.gz": "30ed95a1e796af024a69002bb1a465bd296035b6b1d66ccb278947d9afe2897d",
+      "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "config.json": "2ffc5c2bf35caef2066e6137a78bcf8a24dd0ee008c9b8c3d8f01b0c30092ef4"
+    },
+    "scope": "Finite fixed-H RK refinement. No new accepted prefix, infinite nonlinear solution or complete-task claim.",
+    "residual": 1.6723555785869715e-10,
+    "converged": true,
+    "audit": {
+      "fullD": 3.6147840431595007e-12,
+      "normalizedFullDefect": 1.9453290025931227e-13,
+      "minLeading": 0.8635103083329754,
+      "minD": 0.9999284957696485,
+      "formalCurvature": 7.994260716974354,
+      "maxPhysicalPV": 5.651311493468282e-05,
+      "actualMetric": 7.994359041041177e-15,
+      "holonomy": 9.480441077562133e-20
+    },
+    "failed": null
+  },
+  "old": {
+    "finished": true,
+    "success": true,
+    "actual_exit_code": 0,
+    "seconds": 1575.8113338069998,
+    "old_steps": 12,
+    "new_steps": 24,
+    "source_sha256_at_start": {
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/exact_20261114_fixedH_RK24.py": "68bfebef1fc312c1dabb26a38da4fc5984e7126d7aad8f90b218043b2872d172",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz": "018d19c6ca8c27acc5cc1dde6d396ee783e34ae25e5b525158c5bb37086520d9",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/tail_frozen_worker.mjs": "3788050920ea7a585b03d1f86b33efef262b3169b9d8907e07abff5e3d382054",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/tail_frozen_geometry.mjs": "db6664fcd7be618d2b684c39c01c53d97833d11e14af206b12c71e4b058713e3",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/computations/tail_resumable_engine.mjs": "1a39c6a074a957b4044c78befcaaf97fa4c4fabb351c59e7db1b602f0d683de8",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json": "563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6",
+      "/workspace/scratch/ffc1334c1988/exact-work/closed-local-r1/repo/topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json": "c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d"
+    },
+    "messages": [],
+    "complete_H_unchanged": true,
+    "all_physical_and_source_parameters_unchanged": true,
+    "ready_received": true,
+    "response_received": true,
+    "requested_full_DN_Jacobian": true,
+    "requested_full_finite_audit": true,
+    "output_files": {
+      "intent.json": "a31925cfb4231b92d0a0ce2fc0d1cc7cc42c45225ae897a15901cb04dd59d126",
+      "trials.jsonl": "666ab7683fa07c4275f79514ac26d6249fccd69cfc1e608f0295a08147fdaa27",
+      "ready.json.gz": "c43deeea5105d2ff7c3b647994d36a28e0dd3d75b52408be4d7c5720afe92a74",
+      "request.json": "5a73eab0c2fcb6dddb3ccca572aa2b63ae6a6636f5f168b00e0da07a9602864c",
+      "trace.jsonl": "db61f4c4797624e0d217ed4651702b9a9705bf604cf1b26377bf1124b0be99b2",
+      "response.json.gz": "b4dcf3649619fa655cdf4e6cf3b0499d8d9db69a3c12ff26f391a6ba8d942e86",
+      "iteration.json.gz": "49147eefa4f497128fd681a44cf71d1744ef991fdf0adcc67427e98286c17917",
+      "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "config.json": "0641054a5b0dbb19271444807d6641f7b2e71f010cab0052582c79692043636e"
+    },
+    "scope": "A finite discretization refinement at the same exact original metric and all32 fixed heights, not a new accepted prefix or infinite solution.",
+    "residual": 8.361777892934857e-11,
+    "converged": true,
+    "audit": {
+      "fullD": 3.6140230122452866e-12,
+      "normalizedFullDefect": 1.9441768344969496e-13,
+      "minLeading": 0.8635125235436262,
+      "minD": 0.9999284957696983,
+      "formalCurvature": 7.994260716974354,
+      "maxPhysicalPV": 5.651311493468282e-05,
+      "actualMetric": 7.994359035019858e-15,
+      "holonomy": 7.263803831073157e-20
+    },
+    "failed": null
+  },
+  "response_sha256": {
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK48-r1/config.json": "2ffc5c2bf35caef2066e6137a78bcf8a24dd0ee008c9b8c3d8f01b0c30092ef4",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK48-r1/response.json.gz": "8943eb28a1913a7b9cbd390607c4dadfc6fc8eefa8604e403b798c494221dd92",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK24-r1/config.json": "0641054a5b0dbb19271444807d6641f7b2e71f010cab0052582c79692043636e",
+    "/home/runner/work/math-research-public/math-research-public/topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK24-r1/response.json.gz": "b4dcf3649619fa655cdf4e6cf3b0499d8d9db69a3c12ff26f391a6ba8d942e86"
+  }
+}

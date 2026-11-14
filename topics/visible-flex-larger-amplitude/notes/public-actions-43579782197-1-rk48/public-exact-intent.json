@@ -1,0 +1,24 @@
+{
+  "schema": "public-fixed-H-RK24-RK48-resume-intent-v1",
+  "started_utc": "2026-11-14T09:17:21.563926+00:00",
+  "source_sha256": {
+    "topics/visible-flex-larger-amplitude/computations/exact_20261114_public_resume.py": "11399783f01b145ee3f23d88213af368daee9c16dfb858b40dd7316870b300a5",
+    "topics/visible-flex-larger-amplitude/computations/exact_20261114_RK48_cusp_pipeline_v3.py": "8cccbce9e45f952ee5c73303dd2b3dcc324f84478be4ab2fac59090530fd973b",
+    "topics/visible-flex-larger-amplitude/computations/exact_20261114_resolved_radial_readout.mjs": "d72f5a67ca8af8af77f4ea86c14b062bda43e09b1946bf43f430a594ac7bc757",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-config.json": "3b0deaaf0cdc65a34a8e4652e0a04d96a840db354ccada71d9cba5e4cd228e23",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-tail-response_0003.json.gz": "018d19c6ca8c27acc5cc1dde6d396ee783e34ae25e5b525158c5bb37086520d9",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK24-r1/result.json": "e908e29e7b58a0ebda2f333544594707906c9fc05dd7acf858641896813d571e",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK24-r1/config.json": "0641054a5b0dbb19271444807d6641f7b2e71f010cab0052582c79692043636e",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK24-r1/response.json.gz": "b4dcf3649619fa655cdf4e6cf3b0499d8d9db69a3c12ff26f391a6ba8d942e86",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK48-r1/result.json": "300822df5cd5ed3546cd57b72e37f99c0d2ad2857103108734f657ad822b0d01",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK48-r1/config.json": "2ffc5c2bf35caef2066e6137a78bcf8a24dd0ee008c9b8c3d8f01b0c30092ef4",
+    "topics/visible-flex-larger-amplitude/notes/2026-11-14-exact-resume-fixedH-RK48-r1/response.json.gz": "8943eb28a1913a7b9cbd390607c4dadfc6fc8eefa8604e403b798c494221dd92"
+  },
+  "repository": "Rogerhu12/math-research-public",
+  "actions_run_id": "43579782197",
+  "actions_sha": "ca96fb9e1102328c80a2c8db7998f34f2ce10a7b",
+  "working_directory": "/home/runner/work/_temp/visible-flex-exact-resume-7gylpye3",
+  "comparison_processes": 2,
+  "repeated_shooting_solves": false,
+  "scope": "Complete the interrupted RK24/RK48 common-grid and closed-assembly work.\n\nRun on this public repository's GitHub Actions. The two genuine fixed-H\nshooting solves are already complete and archived; this driver does not\nrepeat them. It rebuilds their Cartesian node readouts in RUNNER_TEMP and\nruns the existing source-knot-preserving comparison pipeline. Large,\nreproducible node arrays stay on the runner. Only compact reports, hashes,\nthe three closed meshes, and their normal samples are returned in --out.\n\nThese are finite numerical calculations. Completing this job does not\ncertify a continuous reach bound, an exact limit, or the amplitude goal.\n"
+}

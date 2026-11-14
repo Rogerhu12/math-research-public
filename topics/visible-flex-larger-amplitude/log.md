@@ -296,3 +296,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14 09:42 UTC — visible-larger: record complete material spectral tail at accepted 0.984
 
 公开材料谱实算：N4096/T96高度C²截断误差.00253633，T768约5.92449e−9但无第二角网证明；旧.984非native上尾cut，不能把原φ96模当完整θ96H。源pack已由原bot普通push。
+
+### 2026-11-14 09:42 UTC — visible-larger: finish actual RK48 common-grid and closed readout recovery
+
+原中断的两共同网格、源节点读出、固定collar和三闭mesh已在本仓Actions真完成。接缝外metric2.16149e−8→2.07608e−9，但f8→16二jet差.0029138，原prefixcut平台4.77033e−8未新解，幅度仍.063D。保存完整artifact，不重复原真solver。
