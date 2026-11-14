@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`e2d46e1e715eeb08a740fa1a4a7f45ff27e5529e`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`4e2d99f74bd3d032ed2a3f7a9c5dbe018ea1ebe0`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有21:30:00 UTC实际pull至`7c0afa98cea4f65d821cd2f6acb123ee9e6df113`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于22:29 UTC。
 
@@ -56,10 +56,8 @@ R107给a8=0后a7正仿射不变。R110 actual43643100132完整8项给K=B_t1(τ_p
 
 ## 6. 持续推进
 
-continuation actual请求run43645177423/source2f1b809c0b0abb7a26303d36940edc203815f872，两lane均先py_compile/新人工再真实；未出回执不冒pass。Actions研究前和publisher实际pull/rebase核双README；源SHA绑定、完整数据与<95KB语义简报保留。
+R112已证L4导数权仅0/2/4；真实cov先求导，时长变化也改M/frame。R113已证R8完整pure m8尾秩≤46，反射四块≤22；R110单轨道四块像恰4维，各r层由D25四查询耦合。不能给U4套响应支撑，完整成本商/ruling欠。
 
-曲率：同g/e407、eta_bar167/625、scale100，11组全值/16径向+0/L批完整二jet导，20轮共80major/120phys/300优化秒，最终384/768与.061门。局部L4：导数权0、完整−4/−2、仿射权2/1/0先未决即停，300s/1GiB；先保W36原式gzip，再保局部原式。预置fullm8consumer待W导出即接287新列+R110已存列，不重编W。
+run43645177423/source2f1b809c两lane：曲率仍运行，同g/e407/eta_bar167/625；11组全值/16径向+0/L批二jet导，20轮共80major/120phys/300优化秒，最终384/768与.061门。local新toy通过；导数权0实际+2成员1，+1已付1/未决2；主正文194340B超95KB而output_limit，完整W7377B与local657195B gzip均已保。main3982B SHA19228a0aecf40416cf7ba7b8a7fa4e0180ed924a4bd04435b0e6e6e4a0b1b28a。fullm8下一用伴随receipt补fallback缺run/source，消费W而不重编；局部商下一先模m0八几何函数，不重复逐系数失败。
 
-R112已纸证L4几何导数权仅0/2/4，真实cov先求导再置历史值0；时长公式δL0+δ^-1L2+δ^-3L4同时改M/frame，不授独立控制。完整成本商与ruling欠。
-
-子题完接open；不重跑已定quartic/P1，不因预算或设施中断收尾。文献范围及完整实际证据在results.md/notes/git。
+Actions实际pull核双README；子题完接open，不因预算/设施中断收尾。文献范围/完整实际证据在results.md/notes/git。

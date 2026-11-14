@@ -227,3 +227,5 @@
 - [R111：四个真实方向支付整个D25尾参数周期](results/R111-complete-D25-tail-polynomial-by-four-real-controls.md) — R110的D25(K)=κc7经H=1、d=0/1/2/3真实同锚输运为κ(c+d)^7；四奇系数矩阵为d²的Vandermonde，det22226400κ⁴≠0。同germ真桥成本入v_j、先固定共同I、完整E(t)+n(2Σv+Kt)以Brouwer同时支付基准连接四项，再R104/R106闭合使整个m8 pure D25(c)恒0。单个固定有限几何适用全部c；无新计算，其他尾层/mixed/ruling/完整闭嵌入与reach仍欠。
 
 - [R112：局部第四密度的几何导数权只有零、二、四](results/R112-local-fourth-geometric-derivative-weights.md) — 从R56/R73/R76的完整场分子与真实history微分逐层证明v仅含0/2/4权，R109局部势N只含0/2且m只含0/2，故L4=v−B_mN同样只有0/2/4。先真cov微分再置累计值0，保frame连接权零。实际改时长使局部积分为δL0+δ⁻¹L2+δ⁻³L4，但M与frame同步改变，不授三块独立真实控制；未解完整成本商/ruling。
+
+- [R113：完整m8纯尾响应的46/22维上界与单轨道耦合](results/R113-full-m8-tail-response-dimension-bounds-and-orbit-coupling.md) — R105真实成本span使全部R8继承R85/R88的r<25零及R95的c9r25端势；E8×W36全288原列按总次数32+w分11块，准确逐块上界和为46，四块保偶w故至多22。R110单方向完整正仿射尾轨道未反射恰8维、四块后恰4维，并给每一其他r层与D25四查询的准确耦合。界与响应支撑不外推一般U4基准，不冒实际秩或完整尾已付。

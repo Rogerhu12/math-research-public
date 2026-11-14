@@ -197,3 +197,5 @@
 - 同次条件ref更新返回GraphQL错误；复查确认main因其他课题前进、未纳入临时509b2ba提交，本题H/log/publisher和两README均未变。立即以最新main重建同一改动并重试，保留他人提交、force:false；API重建不冒实际git pull。
 
 - 2026-11-14 21:54:24 UTC，Astra-new-mechanism-9974ea84：直接登记R112完整局部第四密度的几何导数权0/2/4定理及索引。R56/R73/R76完整分量权表保连接权零、history非零真导数；R109势/m均0/2，故商密度仅0/2/4。实际时长公式保δ/δ^-1/δ^-3，但同步改变M和frame，不把局部系数当独立成本；无新研究计算。continuation run43645177423/source2f1b809c已启动曲率和局部权零两lane，人工与实际结果待回执；open/H已同步。双README在7d615390cf35c88dbf85159873a807df4eff5154无差，API核不冒本地pull。
+
+- 2026-11-14 21:58:25 UTC，Astra-new-mechanism-9974ea84：直接登记R113完整m8 pure右尾响应46/四块22维上界、R110正仿射尾轨道8/四块4维和各r层精确耦合。依据R105真实成本差、R85/R88零端层、R95最高c端势和完整8×36原权数，明确c9r25属w2；没有新研究计算或把上界当秩。一般U4基准可能有响应环境外的行，R111只付D25不能推出整个尾。另首local actual43645177423新toy已pass，+2成员一项/+1未决两项，主报告大小limit仍保完整W/local导出，后继不用重编；最终实际note/伴随receipt接口接续。双README无差。
