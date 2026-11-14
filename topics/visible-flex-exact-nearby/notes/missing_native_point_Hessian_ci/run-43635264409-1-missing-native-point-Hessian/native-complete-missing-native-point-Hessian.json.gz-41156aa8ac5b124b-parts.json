@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-41156aa8ac5b124b2ccca96e2f52b210edf1a3f5c170fdf839e66bf0602725b8.json.gz",
+  "original_bytes": 7797760,
+  "original_sha256": "41156aa8ac5b124b2ccca96e2f52b210edf1a3f5c170fdf839e66bf0602725b8",
+  "native_kind": "actual_missing_native_point_same_w0_Hessian_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 1341,
+  "original_source_sha256": "5845549dd474d744be2dae5ef3f0c608ea61eb7a2c97c6cedebd3b73d0b159e5",
+  "candidate_sha256": null,
+  "parts": [
+    {
+      "file": "native-complete-missing-native-point-Hessian.json.gz-41156aa8ac5b124b-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "7f0a422e36a9df2c9d325513c4f721665f65ca9bd03f641de35c5064244cc3dd",
+      "compressed_bytes": 1944345,
+      "compressed_sha256": "65e6790f0a5cbcabbb147939551ae83df7e9b9ce2e439bec29dd0f7950727be6"
+    },
+    {
+      "file": "native-complete-missing-native-point-Hessian.json.gz-41156aa8ac5b124b-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "74aa7a8afc450450beee3164c9387c54b6f7ea525dcc4bc3e3fd7b9169e43d18",
+      "compressed_bytes": 1898852,
+      "compressed_sha256": "3f255ebc14200d3baf07c4693ea871dab30596b63c665c68b229d2de3a597c47"
+    },
+    {
+      "file": "native-complete-missing-native-point-Hessian.json.gz-41156aa8ac5b124b-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "8e6535738304417a24092b4a795d1ef546f79e366ad56722609e7e810b42f782",
+      "compressed_bytes": 1894544,
+      "compressed_sha256": "a66c8470816dfe67130f80a1c95b574a075b209d691736d0078b04a050fb8ccc"
+    },
+    {
+      "file": "native-complete-missing-native-point-Hessian.json.gz-41156aa8ac5b124b-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 1797760,
+      "sha256": "72fd3627e3987d88d810487fd14255ccc2a852ad6f5df87e2c05ce231a42e789",
+      "compressed_bytes": 1688302,
+      "compressed_sha256": "a9e02d3a017edc4b781ddfc9cedcf6406b791817be84956a90e1cb5978ca283b"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}
