@@ -335,3 +335,7 @@ recovery_development已部署：Gamma Node IO、height helper和bounded参考全
 ### O2 的入口真实审计更新：ell=.162 失败，转短入口和有界参考
 
 [完整审计](notes/frame-entry-paired-repair-actual-audit-20261114.md) 已核run43622984979的全部源/原输出/旧162系数/完整g/c0；表示改变得到新场，不是同场精化。121×768 η79.3414、κ样本226.7835，61×192另有295.24，cost55.14953，入口速度最高7.576。入口外所有五导数未改善，strip及尾patch缺陷继续。下一只试ell=.081 paired与同ell bounded，先同态评价，再各至多一次保明确阈值与系数盒的B7提案，实际重新构建几何；不以大帽高、局部首项或稀疏近零替代完整度量/嵌入/reach。
+
+### O4 的 R72 更新：同scalar的frame调整不再增加二、三阶成本
+
+[R72](results/R72-same-state-zero-second-third-arbitrary-frame-bridge.md) 用真实M0桥与同k倒行、有限半角/Euler构造，准确实现同一scalar常germ下任意frame端目标且M=T=0。可先剥离frame端口成本；不同k/h/omega的基准转接第三T仍需整个函数支付，P0亦可能改变。中心线单桥位移未指定，不能从本定理推出嵌入、宏观厚度或有限族。

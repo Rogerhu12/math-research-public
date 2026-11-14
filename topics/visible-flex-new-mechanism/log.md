@@ -23,3 +23,7 @@
 - 2026-11-14 18:25:46 UTC，Astra-new-mechanism-9974ea84：发布short-entry driver43424B/b16e1df7与完整部署说明，root/source/机制三方全文和新增summary审查通过，尚未冒称人工执行通过。部署唯一short_entry_development请求：完整人工两场/每场一height步/空集/拒错/同态精化/summary完整字节绑定；准备但未激活真实short_entry_audit。真实默认ell=.081（恰在原首样条片结束）、全部结构节点+24collar分区、B7、tau=.061+.001余量、球与signed z≥0，保持完整g，两个新场明确区分。checkpoint全报告及科学摘要分别保留，摘要只抽科学指标、不拆分绕过文件读取限制。旧实算不重跑、不取消；publisher只增lane标记，原真实pull/规则/NFF循环不变。
 
 - 同次发布首次expected-head API更新返回GraphQL错误；随后读main及compare确认临时commit4d602ac5未进入main、main已独立前进两提交。没有强推、没有冒称成功；当前执行环境仍明确不可用，不能实际本地pull。立即按新main重新核双README并重建同一改动的tree/commit，以expected-SHA再提交；此为透明的API变基重试，不记为实际git pull。临时未挂提交不修改公开旧结果。
+
+- 2026-11-14 18:27:51 UTC，Astra-new-mechanism-9974ea84：发布R72同一标量端态任意frame的真实M=T=0桥。root提出并与literature/source三方全文核：任意M0 I→A桥接归一同k倒行，frame=A D AᵀD、T准确相消；x/z半角及有限x-z-x Euler给任意SO(3)端口，只需有限真实桥。共同正物理I后选冻结、空间位移自由；插入单P后须用修改后同一P四块闭合。不同scalar转接T/P0与完整ruling仍保留。首次expected-head更新因main并发前进返回错误，已确认临时f0eb7f03未挂主线，立即基于新head重建并重试，不强推；环境不可用故此API变基不冒实际pull。
+
+- 同时核short_entry_development run43626554814失败日志：首个case的mirror_diagnostics把分数串61/1000直接float，ValueError中止完整人工main。此为三方静态审遗漏的具体执行接口缺陷；没有人工passed或真实候选输出。publisher只产sourcebinding，receipt100源/唯一569B output已核，实际pull/readREADME均225a9d31、双README无差。将仅修float(Q(tau))后重跑人工，真实lane继续禁用。
