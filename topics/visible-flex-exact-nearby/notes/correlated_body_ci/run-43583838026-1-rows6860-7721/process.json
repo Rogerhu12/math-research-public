@@ -1,6 +1,6 @@
 {
   "kind": "actual_public_correlated_regular_body_CI_process",
-  "complete": false,
+  "complete": true,
   "repository": "Rogerhu12/math-research-public",
   "run_id": "43583838026",
   "run_attempt": "1",
@@ -244,6 +244,14 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T10:33:13.691837+00:00",
+      "before": "6e551e9ae5ee9015c0e40d6d5d1d23e34dabe678",
+      "after": "10ef3a45fee8b12f7c067642b97b092bc18c474c",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
   "published_checkpoints": [
@@ -291,6 +299,11 @@
       "time": "2026-11-14T10:33:11.733144+00:00",
       "final": false,
       "commit": "6e551e9ae5ee9015c0e40d6d5d1d23e34dabe678"
+    },
+    {
+      "time": "2026-11-14T10:33:13.367325+00:00",
+      "final": false,
+      "commit": "10ef3a45fee8b12f7c067642b97b092bc18c474c"
     }
   ],
   "original_scientific_sources_unchanged": true,
@@ -320,7 +333,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "6e551e9ae5ee9015c0e40d6d5d1d23e34dabe678",
+  "last_read_commit": "10ef3a45fee8b12f7c067642b97b092bc18c474c",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-body-work-6860-7721/science",
   "actual_atomic_ranges": [
     [
@@ -344,8 +357,8 @@
       7721
     ]
   ],
-  "snapshot_utc": "2026-11-14T10:33:12.081056+00:00",
-  "wall_seconds": 1315.2277233030002,
+  "snapshot_utc": "2026-11-14T10:33:13.755817+00:00",
+  "wall_seconds": 1316.902484914,
   "native_files": [
     {
       "logical_file": "native/rows-06860-07116.json.gz",
@@ -419,5 +432,8 @@
       "sha256": "f300c70daa985691b190cf5871b5a12ad8c9c3c40519f5e349f4fff28e0d384a",
       "rows": 1
     }
-  ]
+  ],
+  "completed_rows": 860,
+  "complete_full_body_cover_claimed": false,
+  "finished_utc": "2026-11-14T10:33:13.370216+00:00"
 }
