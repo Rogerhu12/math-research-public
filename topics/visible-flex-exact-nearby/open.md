@@ -211,3 +211,7 @@ D1–21已证并部署19-input CI，只消费原完整germ/rootbudget，不重�
 ### 2026-11-14 actual repaired-centre root finite part and strong class
 
 [P1–37](results/R133-supplement-actual-moving-root-parametrix-and-scalar-finite-part.md)已证：真原N双幅有限递归、old mean、完整J重构、同对象正图误差及负Cauchy付后，基点δ0 given-head root scalar有限部分为0。P.23a明确消另一canonical graph的一阶串扰，P.33只为未合并规范项；density n7/6及全输出Hilbert–Schmidt给强4/3类。不要再把基点有限常数本身列未识别；δ* whole-positive转移、具体C_E/C_s、可用数值阈值、有限补窗及完整return继续。独立15-inputCI只审真实接口费用/有限代数，不冒充全幅数值预算。
+
+### 2026-11-14 known-cut identity lookup correction
+
+v1 43607861742真实child1/5s，0个新direction cell；原failure/native保。成功known-boundary的真实键为actual_cap_cut_native_sha256，v1多写complete。独立v2 producer仅这一键不同，137manifest原134逐项0变，wrapper另收原失败artifact并导出actual failure/gates纯文本receipt。新workflow采用container内GITHUB_OUTPUT路径。修复后继续完整1977 mixed cover，不更改任何数学公式或原边界source。

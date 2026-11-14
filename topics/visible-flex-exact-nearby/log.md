@@ -571,3 +571,7 @@ root完整读Q1–31并核：实际窗口计数、无限low真实消元、串联
 ### 2026-11-14 15:11:27 UTC — actual root parametrix proof and scoped interface CI
 
 root逐节核P1–37及真实global T根stable正号、完整mean源、density n7/6、全输出HS强窗；新P.23a补精确wrong-branch串扰消去，P.33不再单独冒作全非均值符号。两处新增display分隔符修为双美元，manifest对应原字节hash同步。发布新版proof/15-input manifest及源/CI/公开worker/workflow；原未发布旧稿未覆盖任何已发结论。小consumer只审5实际原process/summary的源接口/有限代数，完整C_E/C_s仍false。
+
+### 2026-11-14 15:13:41 UTC — known-cut v2 after actual zero-cell failure
+
+亲读43607861742 process：实际child1、5.000610242s、native1170B/3102485dba9c6f30970bb5e06357d2589d334d7d7a98ed20ad533840d38e7bda。v2源8df26cef87a2eef12638d9bb374a973497512056ed656a7d0ef5bb4601474c34与v1逐字差仅真实键名；原134SHA全部不变。新的失败artifact路径用container内$RUNNER_TEMP写GITHUB_OUTPUT，避免host路径假设。原失败不删，receipt由Actions实际读原native，继续原16新一列计算。

@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 15:11:27 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 15:13:41 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：21c00027747c5ca87b9913525893971f3ab9b1ed；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：2a251065ca5ebbccc0c5571227af737fa6b65961；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -28,7 +28,7 @@ body/mean43583838026/43586413510：40parts/7721rows/6143jumps全；signeddual跨
 mean-v2 43589465579给||q*−Z||<4.572198020300e−6；必须真全逆付||qν−q*||≤.004995427801979700，才授ν真行>1/200。
 knownGreen v1在数学前因repo/artifact回执身份失败；receipt-only43603364028查明仅final回执多出，所有失败原件保。v2 43604003161真实10门，nativec35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89：五源负窗<1.471767296（body .794760129/cut .677007170）、全窗<3.141134770，未过目标且非实际误差下界。
 原low193 pilot43605144072真实6门/14行，大格径向余项和小格IFFT均值相关丢失主导。新Fourier/fixedη43607383671真实7门/14缓存行/8×(1+4)新格/80target，nativea73382575ca2b14afb810c2ed43ae0aec9d59aef563635a19f6785b414111993（6,039,443B/4parts）。4子格1524 low<.000149789958006、1289<.000078025612511，3070~3.83e−7；有效收紧，newton按完整贡献扩混合cover及signedGreen，已成子格/jet全部复用。尚非完整response。
-known-cut方向五件f049e198789656bd646779dddeb0454d3447f923已推：原43580498603的767MB矩阵只在Actions复用；16新一列格+全部1977旧HS界合完整cover，w−w0/Hessian additive/mean/Robin/high全付，待实际结果，旧边界算子不改。
+known-cut方向v1 43607861742 child1/5s止于不存在的actual_complete_cap_cut_native_sha256，0新格；实际native3102485dba9c6f30970bb5e06357d2589d334d7d7a98ed20ad533840d38e7bda保。v2新137manifest保原134，producer只改真实actual_cap_cut_native_sha256；另导出原失败receipt。原767MB矩阵只在Actions复用，16新一列格+全部1977旧界合完整cover，w−w0/Hessian additive/mean/Robin/high全付，待实际。
 
 ## 正区与完整根部
 

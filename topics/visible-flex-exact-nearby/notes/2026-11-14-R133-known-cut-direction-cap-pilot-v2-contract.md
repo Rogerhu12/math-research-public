@@ -1,0 +1,9 @@
+# Known-cut directional pilot v2: exact artifact field and failure receipt
+
+The complete mathematical contract is unchanged from `2026-11-14-R133-known-cut-direction-cap-pilot-contract.md`. The new producer changes exactly one input-field lookup: the successful known-boundary native stores `actual_cap_cut_native_sha256`, while v1 requested the nonexistent key `actual_complete_cap_cut_native_sha256`. No cap source, physical array, true boundary, mean, high output, norm or mathematical formula changes.
+
+Public run 43607861742 failed before a completed new one-column cell was published. Its original native has SHA256 `3102485dba9c6f30970bb5e06357d2589d334d7d7a98ed20ad533840d38e7bda`; the old producer and wrapper have SHA256 `765ca6f13f2358a017062bd863c26986f59a4e37e50bee3c3f2c4c7213d7ef96` and `d26bdadf80cf9ba4c0d8daff9079e2fabc4f91b20288f66c45ff4a1a359ea830`. Those sources, the original native and real process remain unchanged.
+
+Before new mathematics, v2 downloads that original failure artifact through Actions, verifies its exact native and process identity, verifies that its actual completed-cell list is empty, and publishes a small plaintext receipt with the original native failure and gates. The receipt reports the failure actually stored by v1; it does not infer a mathematical cause from the workflow status. All original prepared arrays are separately verified against the same successful large artifact. No matrix or completed scientific cell is rebuilt.
+
+The v2 manifest retains every one of the 134 v1 scientific file hashes and adds the new source, wrapper and this note under new paths. Actual outcomes use a separate notes directory. The scope remains a complete mixed known-source cap bound, with only sixteen new directional cells, all other old cells retained, and no unknown-operator, finite-response or infinite-inverse conclusion.
