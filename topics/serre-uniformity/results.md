@@ -81,3 +81,5 @@
 - **R680（已证明）**：[SS_j9_21原规范高度与整盘排除](results/R680-SS_j9_21-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、459主函数、真实Norm及全尾；F2模47根[0, 1]与四同标签F3不相交。非CM SS累计101/105。
 
 - **R681（已证明）**：[SS_j9_22原规范高度与整盘排除](results/R681-SS_j9_22-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、459主函数、真实Norm及全尾；F2模47根[0, 13]与四同标签F3不相交。非CM SS累计102/105。
+
+- **R671（已证明）**：[SS_j9_10原规范高度与整盘排除](results/R671-SS_j9_10-actual-nonelliptic-height-and-complete-disk-exclusion.md)。完整304位链、459主函数、真实Norm及全尾；F2约化二次式判别式46非平方，四同标签全无根。非CM SS累计103/105。
