@@ -1,14 +1,14 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 18:54:49 UTC。**主目标未完成，继续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 18:57:42 UTC。**主目标未完成，继续研究，不等用户。**
 
 ## 授权、规则、同步
 
 仅 Rogerhu12/math-research-public；所有新数学只在其Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理只小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
-本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，18:52非FF后真rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核quarter finish43626024582真pull至d006d04987a0f948568757fb0c61dd03534553b8；全部8range process与负窗43627228225的README diff均空。终端恢复即回git；每小时重试，nonFF立即再试。
-最新远端 main/两README blob 核：5c82c7a5ca1168a970424fe6ee3237d4a2b82a0a；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+本地最后真pull a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（12:34）；12:35终端失联，18:52非FF后真rebase仍No usable execution environment。根规则8暂只connector<100KB文本，禁任何binary/gzip，先查size；新摘要≤60KB。API不冒称pull；reviewed runner长算每10min真pull，phase child≤50min前后pull。root亲核knownhigh43628921664真pull至964fa923c5204baabecadac3e014d64a4c9bd4e9；该4次、quarter8range/finish和负窗所有README diff均空。终端恢复即回git；每小时重试，nonFF立即再试。
+最新远端 main/两README blob 核：ffc4719d7884d4fea4d1b7201fd3fc91eefd6327；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542；rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1，driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
-本次9821B H逐字归档 notes/2026-11-14-handoff-before-actual-negative-one-graph.md；此前9908B/9829B/9596B和更早H/open归档链均保。所有历史SHA/失败/源口/零重算合同在results/manifest与H归档；禁重算已成数学。
+本次9831B H逐字归档 notes/2026-11-14-handoff-before-leading-old-circle-remainder-run.md；此前全部H/open归档链保。历史SHA/失败/源口/零重算合同见results/manifest/H归档，禁止重算已成数学。
 
 ## 对象、完成门与已知数值差距
 
@@ -30,8 +30,7 @@ cached-quarter Hessian v2 c3eed/184pin：sourcedfcc4dab…/manifest47ff50fc…�
 
 ## 当前 root：fullδ正侧负源窗
 
-fullδ96 collar43606747196实际19门；原qc750/749、完整band192/output288/mean。fullδ body/outer43615531666实际11+25门，4650行/3594接口/7721envelope，χ0<.303291625133、χ1<.788277869833。原native1f3e5fa630f39a667a96102f103ac8977d00e580f698a83904f361c5a05c6f3c（25507783B，禁connector），outer5ab1d1b8…；原coef/target/reference sweep零重算。
-原七列givenhead rootgraph43617150971/10门，loop<.000581202629、reflection<.438072896309<1/2，native4e128cf9…；非fullSchur。
+fullδ96 collar43606747196/19门、body/outer43615531666/11+25门已成；原4650行/3594接口/7721envelope与全部mean保。body native1f3e5fa6…25507783B禁connector；原target/reference/kernel零重算。base七列graph43617150971/10门，reflection<.438072897，非全Schur。
 N1–15证明0f1383da…已root/tail逐式核：Y=M−1Z下M32原18/9/8和M96 40/84/9均保；H−2/3源→rawH−1需k*，outer adjoint H−5/6与mean全保。24pin scalar/source16ffa1a5…/manifest4c4f8456…只4小text receipts，0旧kernel。
 43627228225实际child0/18门/.002645s；native498a5f8b…6676B、summary0a3fb8e1…41797B、processf4ac3753…16380B，root全文已核。χ<.788783161039，λ<.014997875526，Yroot reflection<3.825862632653；given-head新负窗成立。七源八输出、outer3mean保；physical mixed根输入9×17/16、输出9，primitive√17/4，body rawjump→Y<4.952408975；完整head/high Schur未成。actual报告本提交。
 
@@ -39,12 +38,12 @@ fullδ B1–13已成：同νδ族b_rootfin=0，β*=−Xiδ*/4，|δ*|<9.36825985
 
 ## 当前 phase_inverse：真root/forcing/seams与I/J余项
 
-rootfold43616813816 v2实际15+6×7门/36.750470s，1300行=766旧+534新、1079seams；native dbaaf9f7…（5923431B只artifact）。R1/50 |T|<.05120020790294，Jac>1.506157，μ>2.321309；2/3阶seam费用不可0。原v1失败/prefix全保。
+rootfold43616813816 v2/15+6×7门/1300行/1079seams，native dbaaf9f7…5923431B只artifact。R1/50真fold已成；原2/3阶seam与全部失败prefix保。
 L1–25/J1–19已root/tail核。forcing43624260519/14门/39.161969s，1328格=旧1+新1327；native54a79bf8…6577892B只artifact，process0f4d1dd4…36229B。L0pair<268394.856050/a1<7731800.525026/b1<11178348.024174；不授N97。两旧失败/原首行保，跨零arb_pow NaN已Horner修。
-大窗negative Cauchy43621934843实际8门/792新commonrow/1.982109s，全6R成，native3a214897…process82bf0467…summary238a8515…。R1/50非单调∫S<.034816267，C−1<1514.952276、I后<1561.577063；R1/200 I后<11.272695。fullmean/ordinary/jump窗保，0旧target。
+negative Cauchy43621934843/8门/792行/1.982109s，全6R；native3a214897…/process82bf0467…/summary238a8515…。R1/50 I后<1561.577063，R1/200<11.272695；fullmean/ordinary/jump窗保，0旧target。
 A1–14已独核：C² symbol近Schur/远HS，真Airy全argument，j1=n−1JP U([a1r],[b1r]),j2=0，density n7/6；完整H−4/3→H−2/3×H−1 mixedjump。mean/P/J顺序不可换。
 seam新10pin/源9c71989f…/manifestffb042e4…已72b951e推；run43625828234实际child0/39门/3.120060s/1079（负576正503），native871aa54d…904977B，process d7cea34e…40085B；root亲核全门/worker，actual report已推。负mixedsum<.001410784445846，正raw<8.4384155779e−5；R1/1000/1/200/1/50的负I后分别<.006640943889/.015796407566/2.203048631221。只两原native、六R聚合1328旧行；仅firstseam强窗，正源待frame，CE/Cs未授。
-U1–29完整old-circle I/J余项已root/tail逐式复核推：证明SHA3e02303a…；修正SV中−Rb0,dφ，原ordered O9/O12/O15及moving N11–15回核。真实mean/M0/M1/MD与负窗J/J*均保，只值/一阶radial/有限angular矩，无新四五阶jet；B1–13真实radial常矩阵相消/完整angular矩/逐格ρ^-1/2积分亦已核；待1328格actual，不授N97。
+U1–29 proof3e02303a…/B1–13 proof3bade0ac…已root/tail核：SV负rank符号正确、J/J*负窗与M0/M1/MD全mean保；只原一阶radial+付angular，不造高radialjet。新15pin leading消费者本次推：source56b68983…/manifest7290cbb0…/worker e894b3ff…，只3已成native，1328格×6R；真实矩阵常部相消/逐格ρ^-1/2积分/positive collar-body分列。待actual；L0w1与全return未授。
 
 ## 当前 tail_connector：全mean开放逆已成，真实外闭合未成
 
@@ -53,4 +52,4 @@ M1–30真实mean已1f00f推：eX为129胞元第二positive外真根，明定flu
 E1–35真实q≥−1末平台C→B全频两端逆已root/tail核推，SHA4d3cfe70…；含两零曲率平台/长q2/双bump，内端L2 DN满足2^-373 I<NCC<2^8 I，原μ0=1/(4ω)、Piola及全部mean保。L2/L1weak/finite jumps完整affine源，实际Cayley由能量逆推得。仍欠eX→cut128→C负段/三阶退化turning、原根波/强标签转换及最终returned闭合；unitarity不授全逆。
 子问题完成即接open下一项；禁止阶段报告、等待用户或时长结束。
 
-fixedM32 known-high新147pin已双核部署：sourcef9104cce…/manifestde4bd52b…，旧143零变。只Z33–96已知tail新Bernstein与完整源H4；0target/旧residual，low/mean保。待actual，δ≠0/未知high未授。
+fixedM32 knownhigh147pin/sourcef9104cce…/manifestde4bd52b…旧143不改。43628921664数学child0/8门/7721行/56.609475s；native5ad8aaad…7508940B/4片，summary74e7b40d…14387B，root亲核全区L2<1.456146059e−10/负窗<1.415385110e−10。仅最后largest20诊断>60000B令workflow失败，process60031fee…；原数学全保，newton写0数学receipt-only收尾。low/mean未变，δ≠0/未知high未授。
