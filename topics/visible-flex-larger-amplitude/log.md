@@ -186,3 +186,6 @@ R236完整有限核心缩放与球外保持证明直接登记；λ=6/5全32有�
 
 ### 2026-11-14T07:48:10+00:00 — tailhalfsquare (local; public approval pending)
 两次真实尾完整H/J/raw包保存；H半步恒等差3.39e−21，相对A原J的slope/second/两mean非线性余项full/half约4。只说明已求尾的有限二阶行为，不称新prefix接受或消除RK高模J离散误差。
+
+### 2026-11-14T07:48:11+00:00 — halfsigkill (local; public approval pending)
+半步完整tail已解，但首prefix J第195/216批在07:38:45被SIGKILL；原supervisor wait4 −9/峰498652KiB/无收到信号，工具外层137。无完整J/因子/Newton试步，非数学失败；27件完整恢复包保留，现做本轮H原audit后释放闲置Node续同半步。
