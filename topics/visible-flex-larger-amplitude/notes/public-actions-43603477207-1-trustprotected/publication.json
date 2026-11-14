@@ -1,0 +1,108 @@
+{
+  "scope": "Publish bounded computed outputs with ordinary Git, preserving failures.\n\nThis publishes numerical evidence, never a claim that the research goal is\ncomplete. Credentials live only in the child Git process environment.\n",
+  "recorded_at": "2026-11-14T14:14:07.204814+00:00",
+  "source_commit": "2501ebf616351245b398e6b3ef33c2e6c5546bff",
+  "run_id": "43603477207",
+  "run_attempt": "1",
+  "lane": "trustprotected",
+  "files": [
+    {
+      "source": "T112-config.json",
+      "bytes": 2161,
+      "sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/T112-config.json",
+      "published_bytes": 2161,
+      "published_sha256": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+    },
+    {
+      "source": "boundary112-response/response-check.json",
+      "bytes": 38794,
+      "sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/boundary112-response/response-check.json",
+      "published_bytes": 38794,
+      "published_sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f"
+    },
+    {
+      "source": "physical-response/response-check.json",
+      "bytes": 57198,
+      "sha256": "c14e8aab63723746ff3bce2e7b0e91c7aae4abe176af7b525fe7aa886c359496",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/physical-response/response-check.json",
+      "published_bytes": 57198,
+      "published_sha256": "c14e8aab63723746ff3bce2e7b0e91c7aae4abe176af7b525fe7aa886c359496"
+    },
+    {
+      "source": "preparation112/prepared.json.gz",
+      "bytes": 4220043,
+      "sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/preparation112/prepared.json.gz",
+      "published_bytes": 4220043,
+      "published_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714"
+    },
+    {
+      "source": "protected-warm/direction-00.json.gz",
+      "bytes": 4654992,
+      "sha256": "8cf00daf0855156b850d27a1fc5ee827dbf5f8387eaa3ee7a278277c4db5e3b3",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/direction-00.json.gz",
+      "published_bytes": 4654992,
+      "published_sha256": "8cf00daf0855156b850d27a1fc5ee827dbf5f8387eaa3ee7a278277c4db5e3b3"
+    },
+    {
+      "source": "protected-warm/domain-row.json",
+      "bytes": 25870,
+      "sha256": "1b9dc813e6444e340d00c3a102c1b124c42e7972523245e6a6fc149b69b6713e",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/domain-row.json",
+      "published_bytes": 25870,
+      "published_sha256": "1b9dc813e6444e340d00c3a102c1b124c42e7972523245e6a6fc149b69b6713e"
+    },
+    {
+      "source": "protected-warm/driver-status.json",
+      "bytes": 56463,
+      "sha256": "7abb890a6d1ce6e9862a4d76d65c0d66ddbbc906497a6e5af478ed544a116a57",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/driver-status.json",
+      "published_bytes": 56463,
+      "published_sha256": "7abb890a6d1ce6e9862a4d76d65c0d66ddbbc906497a6e5af478ed544a116a57"
+    },
+    {
+      "source": "protected-warm/model-000-operator-check.json",
+      "bytes": 1263,
+      "sha256": "62bda074c0f8021436b48f2f23cede40398563b235e1dcbb59aa3ebf1a1fd771",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/model-000-operator-check.json",
+      "published_bytes": 1263,
+      "published_sha256": "62bda074c0f8021436b48f2f23cede40398563b235e1dcbb59aa3ebf1a1fd771"
+    },
+    {
+      "source": "protected-warm/model-000.json",
+      "bytes": 41116,
+      "sha256": "a143788e61e16f2d9d219dd1cfef3b71a015d517f7188ba24f4962a53eddb42f",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/model-000.json",
+      "published_bytes": 41116,
+      "published_sha256": "a143788e61e16f2d9d219dd1cfef3b71a015d517f7188ba24f4962a53eddb42f"
+    },
+    {
+      "source": "protected-warm/optimization-intent.json",
+      "bytes": 10417,
+      "sha256": "e9e624b58b0093464cffa1e8868fd0d2e152dfae027f1527a8661f349d8a9730",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/optimization-intent.json",
+      "published_bytes": 10417,
+      "published_sha256": "e9e624b58b0093464cffa1e8868fd0d2e152dfae027f1527a8661f349d8a9730"
+    },
+    {
+      "source": "protected-warm/warm-001.json.gz",
+      "bytes": 4704470,
+      "sha256": "0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/warm-001.json.gz",
+      "published_bytes": 4704470,
+      "published_sha256": "0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71"
+    },
+    {
+      "source": "public-source-preparation.json",
+      "bytes": 20424,
+      "sha256": "4fd7fcae500d5728a020ddf5564474f154140725b4a602678d086c50322e9039",
+      "published": "topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/public-source-preparation.json",
+      "published_bytes": 20424,
+      "published_sha256": "4fd7fcae500d5728a020ddf5564474f154140725b4a602678d086c50322e9039"
+    }
+  ],
+  "research_goal_completed": false,
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43603477207"
+}
