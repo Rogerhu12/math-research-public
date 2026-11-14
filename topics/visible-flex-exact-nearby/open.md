@@ -159,3 +159,7 @@ receipt-only43603364028实际成功。root逐字段比较原artifact和repo proc
 ### 2026-11-14 14:28 known-source actual budget
 
 43604003161 已真实完成完整五源 Green（十门/child0），负窗 <1.471767296、整窗 <3.141134770。主要损失是旧体源整体范数和右端 cut 单位列；新增 repair/waist/jump 很小。继续保留特定 low193 Fourier/径向符号及完整 true-cut 方向，再接未知 high 反馈；不能把这条过大的严格上界当实际失败下界，也不能宣称 qν−Z 或 Schur 已成。见 actual-cached-Green-known-source-budget。
+
+### 2026-11-14 known low193 signed-source pilot
+
+已部署 cached-scalar-low193-source-pilot 五文件。复用原40part的全部7721 scalar jets和完成mean，逐part完整SHA同时匹配原body/repair native。新计算只投影选出的高贡献行及六个代表半径，完整先解160已知输出模态，再保 low193 径向多项式符号、uniform A0余项和97..160高尾。R−C e_z 使用原整行 mean 包络，repair新增mean仍留在已付完整fee。需先看选行实际收紧效果，再接全覆盖和 signed Green；本pilot不授完整response。

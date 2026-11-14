@@ -507,3 +507,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:28:47 UTC — actual cached known-source Green v2
 
 43604003161 success；十门、数学 child0，13.965179105s 数学 /20.000808148s 实际子进程。完整 native c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89，7,900,000B/4无损parts；summary3173ad3c340e39a1bf15d3544768743e5f69dcf4d0eb6587bf298c40489e0599，repo process2efc7a8190dd8f49714373438cbc8f4bb3a3394ad07730b713274ffcf194d49a。负窗整体1.471767296>目标.004995427801979700，体源.794760129/cut .677007170；原件全保，不把估计粗解释成真误差下界。已发布独立 actual 结论，转保符号 low193 和 true-cut 方向。
+
+## 2026-11-14 14:29:44 UTC — cached scalar low193 source pilot deployed
+
+部署新source/CI/contract/128-file manifest；原40parts/7721rows全部字节身份匹配，目标scalar/mean/old residual均不重跑。新算选行low193/high97..160投影并保存193径向多项式和uniform余项。改课题外 .github/workflows/visible-exact-cached-scalar-low193-source-pilot.yml，直接在本公开库复用原8残差artifact。等实际结果期间继续root/尾证明。
