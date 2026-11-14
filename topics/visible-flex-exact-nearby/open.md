@@ -74,3 +74,7 @@ E/T/S已分别接实际非负C→B、真实三阶C→D和正buffer跨端平滑�
 ### 2026-11-14 20:27:30 UTC：175pin主体双向加权消费者已接公开Actions
 
 producer cbcfcaf8…、CI17b01cfc…、manifestfecb0119…，完整旧147/97pin不变。只新增7721 nonmean cubic/交叉标量和两条12361事件加权扫；旧6391 Gram与scalar exp复用。body L²、高cut trace及真cap cross仍独立；待actual成功后逐项接全反馈。
+
+### 2026-11-14 20:27:34 UTC：原复矩形的准确导数合同已证明
+
+H1–10已写入results；root亲核原source确实在所声明完整矩形评值，而非从disk界外推。phase继续原2 cubic片的新导数/Gforcing实际消费；旧复target、flow、leading证书不重算。

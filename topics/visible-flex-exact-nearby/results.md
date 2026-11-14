@@ -577,3 +577,5 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 [完整实际证据](results/R133-supplement-actual-native-point-Hessian-same-Z-Green.md) 已独推。公开43635487128：child0/8门，6391原profile仅完整右通道重标；负窗<.003509417445587，全内<.007490301792401，C0<.060889190964764。native7fcd5bec…3996581B/processad08b148…9889B/summary2fbdebed…25633B；root亲核全部实际门/源分量/mean/knownhigh及4真pull空README diff。只finite193通过1/200，未知high/body反馈/真实cap无限cross和完整νSchur继续。
 
 - **已证明（2026-11-14 20:26:25 UTC）**：[实际长段mean商及未拼平外返回](results/R119-supplement-actual-long-mean-quotient-and-unmatched-exterior-return.md)，R1–38。完整natural mean flux、唯一高度gauge、真实μ/d匹配与holonomy行；跨端平滑及原三阶/root链给全部L²波返回Ea，与自伴Es差<2^20000 r；同σ1/16实际r<2^-119738000。帽/long完整仿射源<2^22000 B_B。仍须真I−EaTa及强标签逆。
+
+- **已证明（2026-11-14 20:27:34 UTC）**：[原复root矩形的准确系数导数](results/R133-supplement-exact-complex-root-coefficient-derivatives-for-first-Airy-forcing.md)，H1–10。只取同piece2549的两原cubic片，原实际复矩形上准确微分；付u_r/v_r、intrinsic导数及全部L0系数产品、原mean与Hinv/HD顺序，供G1–19实际第一forcing消费。数值常数仍待公开有向执行。

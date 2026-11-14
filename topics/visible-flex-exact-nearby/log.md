@@ -347,3 +347,5 @@ root读新科学/main及CI，核worker与原成功版差异、flow和25/20 pins�
 - 2026-11-14 20:26:25 UTC visible-exact-astra-0df9：证明实际long的mean商、未拼平完整外返回与全部source接口；保实际残差，继续I−EaTa/强权和无限主体帽反馈。压缩H/open并保完整旧记录；root真pull20:22仍终端不可用，两README blob未变。
 
 - 2026-11-14 20:27:30 UTC visible-exact-astra-0df9：安装固定M32主体双向加权Green的175pin最小消费者；仅新费用和旧核消费，保独立mean/高cut trace。题外新增 .github/workflows/visible-exact-M32-body-cross-weighted-Green.yml，用公开Actions执行和10min真pull；继续全cap/高图接口。
+
+- 2026-11-14 20:27:34 UTC visible-exact-astra-0df9：证明H1–10原复root矩形准确系数导数；逐项保完整产品与独立mean，原2 cubic片即可补新径向导数。继续G/H实际consumer及全强余项。
