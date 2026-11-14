@@ -1,0 +1,32 @@
+{
+  "session": "serre-public-resume-20261114",
+  "job": {
+    "result": "R771-p41-original-quotient-RR-bases",
+    "p": 41,
+    "prime": 739,
+    "max_exponent_qY": 1640,
+    "budget_minutes": 80,
+    "core": "R771_original_quotient_RR_bases.py",
+    "core_sha256": "9cda269687a01c95c9c20695be771706bbddd37b1b8fedc8b9258386c3965d46",
+    "method": "notes/R771-original-quotient-RR-bases-method.md",
+    "method_sha256": "3ff0f1aa3da867d1898ff968911ec5837c34ae5d7e873b378645c8fa67a0e36d",
+    "proof": "results/R767-original-quotient-low-weight-RR-basis-and-cusp-order-bound.md",
+    "proof_sha256": "33fb32458eaf62e1499de092b6139672304ceefe096eef4a5253a2d7637a940d",
+    "workflow": ".github/workflows/serre-p41-quotient-rr-bases.yml",
+    "retained": {
+      "R745": {
+        "path": "computations/R745-p41-original-Hodge-input/43616027318-1/p41-original-Hodge-input-certificate.json",
+        "sha256": "7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be",
+        "run_id": "43616027318",
+        "source_commit": "1768f05c524e2e3d2e01822c0a4f376382c5e608"
+      },
+      "R759": {
+        "path": "computations/R759-original-integral-period-lattice-and-map-degrees/43625474728-1/p41-original-integral-period-lattice-and-degree-certificate.json",
+        "sha256": "7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0",
+        "run_id": "43625474728",
+        "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e"
+      }
+    },
+    "resume": null
+  }
+}

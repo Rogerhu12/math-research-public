@@ -226,3 +226,6 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 
 
 **R769（原格degree≤693已精确排除）**：[实际证明](results/R769-certified-original-degree-cutoff-exclusion.md)run43628341694/source4faaf06d，385精确事件/空DFS栈/唯一leaf0，完整原格无非零degree≤693；核心0.013587秒、cert97e1949ef4dfc890c5ac975533cfaa9ff73682321b1b4030ac6723259a4fc26a、artifact14126529570。R764全格尖点像给degree为3倍，故非零degree≥696。此项已关闭，不把次数界排除外推所有特殊小除子；继续已定d1206与R771 dim1514基、函数/β/高度。
+
+
+**R771（原146/694/1514基工程已提交）**：[方法](notes/R771-original-quotient-RR-bases-method.md)完整原H82/126半trace与40×3360标签候选，以模739真实非零minor选原E1配方，逐乘积/椭圆主部得M2/M6/M12具体char0基；保全部精确recipe，不猜升单个mod系数。真R745/R759小cert和R767 proof SHA绑定，80分钟逐行/批次断点，大表仅artifact。实际基待run返回，继R774原H³、R772 K/L下降及原函数/β/高度。

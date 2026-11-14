@@ -274,3 +274,6 @@
 
 
 - **R769（已证明并精确穷尽）**：[原完整次数格的693界排除](results/R769-certified-original-degree-cutoff-exclusion.md)。公开run43628341694完整exact LDL/整数区间搜索385事件，空栈且唯一零叶子，原完整格无非零degree≤693；结合原全格尖点像得degree≥696。核心0.013587秒，关闭此较小次数保证路线，继续d1206/1514维函数恢复。
+
+
+- **R771（方法已证明，公开工程已保存）**：[原商146/694/1514维基的有限秩计算](notes/R771-original-quotient-RR-bases-method.md)。原全label trace、准确Fourier公式、正常乘积及椭圆主部补方向，以实际mod739非零minor认证特征零符号基；只读R745/R759，完整断点及recipe留artifact。尚未登记实际基或原映射结果。
