@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -84,6 +84,7 @@ jobs:
             /topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/
             /topics/visible-flex-new-mechanism/notes/actions-43592270686-1-closed_quartic/
             /topics/visible-flex-new-mechanism/notes/actions-43592270686-1-star_lift/
+            /topics/visible-flex-new-mechanism/notes/actions-43591099281-1-closed_design/
       - name: Prepare bounded public output directory
         run: |
           git config gc.auto 0
@@ -454,6 +455,42 @@ jobs:
         run: |
           python -u "$VISIBLE_NEW_SCRIPTS/literature_D0_phase_certificate.py" \
             --order 12 --out "$VISIBLE_NEW_OUT/D0-phase-Fraction-certificate.json"
+      - name: Check and design one zero-framing cosine core then verify its exact frozen parameters
+        if: matrix.lane == 'cosine_core'
+        timeout-minutes: 40
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/space_star_cosine_design.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/cosine-design-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/space_star_cosine_verify.py" \
+            --check-only --out "$VISIBLE_NEW_OUT/cosine-verifier-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/space_star_cosine_design.py" \
+            --a .65 --b .12 --height-modes 6 --half-width .02 --initial-lift .15 \
+            --angles 768 --dense-angles 6144 --j-floor .3 --kappa-floor .1 \
+            --height-reserve .02 --max-iterations 400 \
+            --checkpoint-every 10 --checkpoint-seconds 60 \
+            --planar-report "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json" \
+            --out "$VISIBLE_NEW_OUT/cosine-core-a65-b12-h15.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/space_star_cosine_verify.py" \
+            --input "$VISIBLE_NEW_OUT/cosine-core-a65-b12-h15.json" \
+            --planar-report "$GITHUB_WORKSPACE/topics/visible-flex-new-mechanism/notes/actions-43590239302-1-star_core/star-core-geometry-grid.json" \
+            --nodes 32768 --out "$VISIBLE_NEW_OUT/cosine-core-a65-b12-h15-N32768.json"
+      - name: Check and continue the actual D0 Puiseux germ with fixed phase normalization
+        if: matrix.lane == 'phase_D0'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_D0_phase_shoot.py" \
+            --developer-check --out "$VISIBLE_NEW_OUT/D0-phase-interface-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_D0_phase_shoot.py" \
+            --out "$VISIBLE_NEW_OUT/D0-phase-fixed-germ-and-shoot.json"
+      - name: Re-evaluate C on one published frozen geometric base without optimizing
+        if: matrix.lane == 'physical_C'
+        timeout-minutes: 15
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_physical_C_sign.py" \
+            --developer-check --out "$VISIBLE_NEW_OUT/physical-C-interface-check.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_physical_C_sign.py" \
+            --theta-n 768 1536 3072 6144 \
+            --out "$VISIBLE_NEW_OUT/physical-C-frozen-q2-signs.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:
