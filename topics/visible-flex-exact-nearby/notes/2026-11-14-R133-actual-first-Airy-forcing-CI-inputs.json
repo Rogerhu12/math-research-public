@@ -95,13 +95,13 @@
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing_CI.py",
-      "sha256": "6aac7163043c382d9e3085cb86fc9493c023aeb96979f106175aa39ef4e496e5",
-      "bytes": 6533
+      "sha256": "eb6ac89d60a378f9d9b66e5a32da4e52ab5655b79c8ae646ffad73df7fb88cff",
+      "bytes": 6576
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_actual_first_Airy_forcing.py",
-      "sha256": "e75dda60562fb51c0db637f42e5864fbe983baa481eb266eb0057ae104c1915a",
-      "bytes": 35837
+      "sha256": "ba25934f0f6e147f293644edc93b2adf1c33d5935f86596d96355cf063c95fa6",
+      "bytes": 37219
     },
     {
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_correlated_head_residual_rows.py",
@@ -179,5 +179,6 @@
       "immutable_original_inputs_unchanged": true
     }
   ],
-  "whole_jet_intersection": "Intersect each directed midpoint Taylor enclosure with the independent same-function original whole derivative enclosure. Preserve and reuse the one wider valid accepted row without recomputation."
+  "whole_jet_intersection": "Intersect each directed midpoint Taylor enclosure with the independent same-function original whole derivative enclosure. Preserve and reuse the one wider valid accepted row without recomputation.",
+  "cross_zero_polynomial_evaluation": "Actual bounded Horner multiplication, avoiding the general arb_pow entry on zero-centred intervals; ordinary derivatives and complete third-derivative Taylor remainder unchanged."
 }

@@ -43,9 +43,14 @@ def restricted_jets(row,name,left,right):
     for j in range(4):
         if j==3:
             result.append(box(whole[name+"3"]));continue
-        value=sum((box(centre[name+(str(k) if k else "")])*X**(k-j)/math.factorial(k-j)
-                   for k in range(j,3)),arb(0))
-        value+=box(whole[name+"3"])*X**(3-j)/math.factorial(3-j)
+        # Use only bounded multiplication. The original arb_pow entry can
+        # return nan on an exactly zero-centred nonzero interval even for
+        # a positive integer exponent; no real logarithm is needed here.
+        value=box(whole[name+"3"])/math.factorial(3-j)
+        for k in range(2,j-1,-1):
+            value=value*X+box(centre[name+(str(k) if k else "")])/math.factorial(k-j)
+        if not value.is_finite():
+            raise ValueError("nonfinite actual midpoint Horner jet: "+name+str(j))
         certified=box(whole[name+(str(j) if j else "")])
         lo=max(value.lower(),certified.lower());hi=min(value.upper(),certified.upper())
         if lo>hi:
@@ -284,6 +289,21 @@ def main():
             if not p.is_file() or sha(p)!=entry["sha256"] or p.stat().st_size!=entry["bytes"]:
                 raise ValueError("a pinned original file or scientific source changed: "+entry["path"])
         report["input_manifest_sha256"]=sha(args.manifest)
+        probe=old.interval(Q(-1,8),Q(1,8))
+        point={"gamma":rec(1),"gamma1":rec(2),"gamma2":rec(6),"gamma3":rec(24)}
+        whole={"gamma":rec(old.interval(0,2)),"gamma1":rec(old.interval(0,4)),
+               "gamma2":rec(old.interval(3,9)),"gamma3":rec(24)}
+        audit_row=dict(interval=["-1/8","1/8"],intrinsic_midpoint_jets=point,
+                       intrinsic_whole_third_jets=whole)
+        checked_jets=restricted_jets(audit_row,"gamma",Q(-1,8),Q(1,8))
+        report["cross_zero_taylor_audit"]=dict(
+            actual_general_power_entry={str(k):rec(probe**k) for k in range(4)},
+            actual_Horner_intersection_jets=[rec(x) for x in checked_jets],
+            exact_test_polynomial="1+2X+3X^2+4X^3",
+            new_scientific_rule="bounded Horner products with the same original whole third derivative")
+        check("the actual zero-crossing Horner Taylor entry is finite and preserves all midpoint derivatives",
+            all(x.is_finite() and x.contains(y) for x,y in zip(checked_jets,(1,2,6,24)))
+            and checked_jets[0]>0)
         shared=read(paths["intrinsic_parts"])
         if shared["original_source"]["sha256"]!=BODY_SOURCE:raise ValueError("wrong original jet producer")
         rootpath=args.prepared/"root"/"consumers"/"piecewise-real-root-fold-resumed-v2.json.gz"

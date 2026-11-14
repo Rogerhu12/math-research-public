@@ -84,7 +84,8 @@ def main():
                 "exact_real_delta_radius","original_closed_rows_reused","new_closed_rows",
                 "original_completed_prefix_sha256","original_completed_prefix_run_id",
                 "prefix_global_accepted_rows","explicit_historical_prefix_reused",
-                "last_attempted_common_cell","last_accepted_common_cell","complete_strong_return_norm_evaluated",
+                "last_attempted_common_cell","last_accepted_common_cell","cross_zero_taylor_audit",
+                "complete_strong_return_norm_evaluated",
                 "numerical_cutoff97_return_inverse_claimed","actual_PDE_branch_claimed"):
                 state[key]=doc.get(key)
             if doc.get("rows"):

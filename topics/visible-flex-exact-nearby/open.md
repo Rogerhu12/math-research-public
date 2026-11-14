@@ -119,3 +119,7 @@ H.1–8 已根/tail逐式独核：$-t_\theta e_h=\partial_\theta(-te_h)+t(Ch_2-\
 ### 2026-11-14 18:00:23 UTC：保存的 quarter jets → 已知方向 Hessian 消费者已核并接公开 DAG
 
 新合同 [cached quarter centre residuals](notes/2026-11-14-R133-cached-quarter-centre-residual-Hessian-contract.md) 及176-pin消费者只从 quarter真success的完整plan/8range/finish精确收据读取既有whole+midpoint jets；不再调用目标，不复算1341个旧trial范数。重新包住同一原moving残差，pointwise最大与joint逐mode最大严格分开，完整uniform error逐子片求和；α一次、193槽repair、物理mean及原4个Green增益全保。64旧quarter没保存midpoint所涉原local行整体用旧界。ordinary/split四源只整组选择，再比较完整global界；剩余Z−w0仍用旧完整未知误差operator。source `7fb8c19c20e0bd722845521a4fa75f5ad4566beaeeab5fd5e6a8d65031a4b830`、manifest `3a87a8c8cf8530a476b13851ee184d91614ea633195294a2354bbdf321795d3d`。root已完整读数学/CI/flow及old164、quarter160全部不变pins；公开实际数学尚待上游完成，不能先记改善数值。
+
+### 2026-11-14 18:01:21 UTC：第一 forcing 的真实 NaN 已定位，继续同一前缀
+
+43623626229 实际 child1、5门通过、复用原1格、0新格，失败 native `7830eac86254b46d43842fb203bb04b32ea6aeec9777d868ebb25e2a4a8f2735`/12448B；main process `586307446b839616a3d3d7cd7f1b5d612908ee3fa42b913a4cd251887120e260`/28411B。root亲读全部诊断：common2457的原gamma midpoint和whole均严格正，Taylor0–2却是NaN，whole3有限；该完整原row的X跨0。v4改为严格同一Taylor式的有界Horner乘法，再交同函数wholejet；保ordinary derivatives/factorial/third remainder，禁止abs或改符号门。新公开child先保存原整数幂入口与Horner的实际cross-zero对照，再从原ac235e成功1格继续，未把v3 NaN算成功前缀。

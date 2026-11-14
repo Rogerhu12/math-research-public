@@ -175,3 +175,7 @@ root逐字核P1–29及原U14–17/Q10–31，复核窗口计数、三generator�
 ### 2026-11-14 18:00:23 UTC：推176-pin cached-quarter centre-Hessian 后继
 
 newton实现、tail独核原 directed FFT/Box/reduce_box与完整残差/两种范数，root全文独读合同、26606B producer、14643B worker、8552B flow并逐pin核old164与quarter160无变。workflow_run只接同公开仓库quarter成功；保存每32新残差格/每10min真pull，精确同输入prefix/原成功native复用；每个新文本摘要≤60000B，大native原字节/无损分片。此次只部署与证明消费合同，未声称新actual门、真cut或ν闭合。
+
+### 2026-11-14 18:01:21 UTC：第一 forcing 跨零 Taylor Horner 修复与真实pull记录
+
+source `ba25934f0f6e147f293644edc93b2adf1c33d5935f86596d96355cf063c95fa6`，CI `eb6ac89d60a378f9d9b66e5a32da4e52ab5655b79c8ae646ffad73df7fb88cff`，24-pin manifest `a7790a87932a22997e29dfa2085982ac7adbbef9fd36512918eec975dd3c5341`；worker/原manifest归档/唯一历史1格证书不变。root亲读v3 process和worker：CI数学墙时1.015842637s，worker总child墙时1.216494263s；实际before/after pull均 `8b1b2692982db0c6f81add24c2c8515f1c7a966e`、两README diff空。v4静态逐阶核Horner等价，不声称本地执行；新的runtime probe与真正forcing仍只在公开Actions运行。
