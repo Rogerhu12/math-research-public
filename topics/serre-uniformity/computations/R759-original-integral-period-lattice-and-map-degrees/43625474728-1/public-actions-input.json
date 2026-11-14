@@ -1,0 +1,66 @@
+{
+  "result": "R759-original-integral-period-lattice-and-map-degrees",
+  "p": 41,
+  "source_commit": "4728e6868e2509556e5c60e138fd97c9b4120d8e",
+  "source_repository": "Rogerhu12/math-research-public",
+  "core_sha256": "17403f45f74e03e5a138376068e64e54c9bf6b2622a7b91bb178747d407708e0",
+  "method_sha256": "fe08b7f1b994984b61c08bfb68147383556b68d6b7b11bca4a22b91eec6c4c66",
+  "driver_sha256": "78c2dc81fb23f29666607a23c74e7646edf924494cab731e0b5ddf4a4438c2a5",
+  "request_sha256": "bec5f5a0da04cfe153a57330092e783bf9e8008f08b498ddd88c85eafe590dc2",
+  "root_readme_sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+  "topic_readme_sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8",
+  "dependencies": [
+    {
+      "file": "results/R732-original-CM-period-kernel-and-bounded-rational-function-recovery.md",
+      "sha256": "360bf5eff42ca81e618c107dd9b3421095a01d1e0aebe1234acd29af9e12a19a"
+    },
+    {
+      "file": "results/R735-exact-original-p41-CM-model-and-Neron-input.md",
+      "sha256": "8b4ad8ea5a27527b0d6f5ac6092d0752d06d4dd0276edefe321ffc611ddbb408"
+    },
+    {
+      "file": "results/R738-certified-original-p41-period-input.md",
+      "sha256": "410c3bfb6e09d3fad355b1a9536d4405d7db1cac2aeb7765ada54c25a15674ad"
+    },
+    {
+      "file": "results/R745-certified-original-p41-Hodge-and-adelic-input.md",
+      "sha256": "0ff9401eaeb6a958ac27dce00d4152487cd2ec89fda175476ac606a13aec581a"
+    },
+    {
+      "file": "results/R751-original-period-compression-in-the-retained-degree-280-field.md",
+      "sha256": "0f12e10bb6074ec2fdf64bc266d7414ea726564990e92533b767177eb2170e87"
+    },
+    {
+      "file": "notes/R754-original-periods-and-Hom-kernel-method.md",
+      "sha256": "fdbe8bbd0e09afadddcb9cd2f13dc0f27c2eabab2d31fe449cd173bd28a59122"
+    }
+  ],
+  "retained": {
+    "R754": {
+      "run_id": "43620862489",
+      "source_commit": "b36d2c58b39f42a694236d48f64444bb6fe1d0af",
+      "artifact_name": "serre-global-R754-original-p41-periods-and-Hom-kernel-43620862489-1",
+      "artifact_id": 14125735974,
+      "artifact_zip_sha256": "9a58e842bc80654f77800f6e0db7f90655483e6c6469fc7791addb0db40c4ed1",
+      "manifest_sha256": "fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53",
+      "files": {
+        "p41-original-period-and-Hom-kernel-certificate.json": "da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c",
+        "R754-all-original-closed-period-verification.json.gz": "fc300cb79a3299bb896ce6ae5a1ec577248750692202d1993c27a69d3886672b"
+      }
+    },
+    "R738": {
+      "run_id": "43612108090",
+      "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+      "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+      "files": {
+        "integral-compact-Manin-cycles.json.gz": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf"
+      }
+    }
+  },
+  "resume": null,
+  "budget_minutes": 60,
+  "arithmetic": "exact integer lattices and rational Gram arithmetic",
+  "run_url": "https://github.com/Rogerhu12/math-research-public/actions/runs/43625474728",
+  "prepared_at_utc": "2026-11-14T18:14:35.935432+00:00",
+  "mathematical_completion_claimed": false
+}

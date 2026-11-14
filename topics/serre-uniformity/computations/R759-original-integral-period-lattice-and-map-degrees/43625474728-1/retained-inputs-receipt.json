@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "label": "R754",
+      "run_id": "43620862489",
+      "source_commit": "b36d2c58b39f42a694236d48f64444bb6fe1d0af",
+      "artifact_name": "serre-global-R754-original-p41-periods-and-Hom-kernel-43620862489-1",
+      "files": [
+        {
+          "file": "p41-original-period-and-Hom-kernel-certificate.json",
+          "sha256": "da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c"
+        },
+        {
+          "file": "R754-all-original-closed-period-verification.json.gz",
+          "sha256": "fc300cb79a3299bb896ce6ae5a1ec577248750692202d1993c27a69d3886672b"
+        }
+      ],
+      "producer_manifest_sha256": "fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53",
+      "producer_completed": true
+    },
+    {
+      "label": "R738",
+      "run_id": "43612108090",
+      "source_commit": "651aa3f7eaac6f97bfd7f87ec25b210eb7d6f4ca",
+      "artifact_name": "serre-global-R738-p41-original-period-input-43612108090-1",
+      "files": [
+        {
+          "file": "integral-compact-Manin-cycles.json.gz",
+          "sha256": "d4dcbac16cc24cefd378fc7afea02fcd34b8043d255c1e84407ff7d21bd257cf"
+        }
+      ],
+      "producer_manifest_sha256": null,
+      "producer_completed": null
+    }
+  ],
+  "old_model_topology_periods_or_Hom_kernel_recomputed": false
+}
