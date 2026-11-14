@@ -1,0 +1,40 @@
+{
+  "scope": "Run this topic directly in math-research-public Actions; this is not a request to the disabled old queue.",
+  "working_directory": "topics/visible-flex-larger-amplitude",
+  "python_dependencies": [
+    "numpy",
+    "scipy"
+  ],
+  "expected_cpu_workers": 4,
+  "runner_memory_gib": 16,
+  "timeout_minutes": 330,
+  "argv": [
+    "python",
+    "computations/geometry_20261114_r225_free_core_bvp.py",
+    "--profile",
+    "notes/2026-11-14-geometry-resume-R225-BVP-extension-profile.json",
+    "--seed",
+    "notes/2026-11-14-geometry-resume-R225-free-core-M128-seed.json.gz",
+    "--M",
+    "128",
+    "--N",
+    "1536",
+    "--fixed-modes",
+    "3",
+    "--terminal-reference",
+    "seed",
+    "--jac-workers",
+    "4",
+    "--tol",
+    "1e-5",
+    "--max-nodes",
+    "480",
+    "--out",
+    "notes/2026-11-14-geometry-resume-R225-free3-M128-to10005-actual-BVP.json.gz"
+  ],
+  "result_contract": "Report actual success/status/residual/core and all geometry samples. Partial or failed runs are not accepted candidates.",
+  "frozen_source_sha256": "510b5eef5d829eef162099490963994c34eb5ffea12579ec4fa533645164a3bd",
+  "seed_reached_s": 0.9945,
+  "target_end": 1.0005,
+  "assembly_source_sha256": "af91df83e0bbf255c79ae25d49f107f4967380bfcdaf56c689bdde54b344835e"
+}

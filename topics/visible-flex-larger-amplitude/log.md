@@ -201,3 +201,6 @@ R236显示的全部十进开区间以Fraction逐项交叉相乘实核，并核rh
 
 ### 2026-11-14T08:26:08+00:00 — shortendprepare (local; public approval pending)
 M128/N1536短端.99475/264节点prepare真实0，原tol1e−5，BC0/col5.88685e−9；准确同值逐块CSC消除冗余组装副本、旧LU/J顺序释放。当前包没有BVP接受解。计划仅增加自含输入元数据，argv和全部数值不变。
+
+### 2026-11-14T08:26:09+00:00 — historicalbvpprovenance (local; public approval pending)
+旧M48原启动源码准确SHA32b38b24与完整失败输出重存；旧M128−9的启动源未逐字保存，明确现a1e5486和中间510b版本不能冒充该旧运行源码。169节点和真实资源记录可靠，失败不冒几何不存在。
