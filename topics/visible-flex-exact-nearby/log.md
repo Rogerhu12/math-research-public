@@ -523,3 +523,7 @@ receipt-only43603364028 success/children=[]，真实receipt331dfd81c7cf148c0c58a
 ## 2026-11-14 14:33:47 UTC — repaired positive high interface theorem and consumer
 
 发布同global Z 的P1–15，把全4650 body与rootcollar按真端点反射拼接，保全七输入及普通源。新source/CI/87-file manifest只读三个原小记录，实际门为loop<1/6000、给定head根反射<1/2。课题外新增 .github/workflows/visible-exact-repaired-positive-high-root-graph.yml，仅本公开Actions执行新小算术。
+
+## 2026-11-14 14:37:47 UTC — actual fourteen-row low193 pilot
+
+43605144072 success，六门/14行，child0 25.001079743s；native1f5f2e82b4cdf52fae6b8d3495245ac76235af5450da9656ea14aa0ba99a6e2b，summary791b4485d20895fd1445983e3bd23a8915c1abd41525f2ca42cdeba73b6db125。大行由uniform径向余项主导、mean整格乘列另变宽；只发布真实选行证书，不授全源或response。继续紧径向/mean相关和actual cut。

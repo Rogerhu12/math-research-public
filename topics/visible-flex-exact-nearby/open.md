@@ -175,3 +175,7 @@ I1–21已证并接公开CI：original Iρ U(v)=WN−ΠρWN−n^-N IρU(YvN−1)
 ### 2026-11-14 positive high root-to-regular interface
 
 已证P1–15并部署独立87-file public CI。使用原repair同一global Z、真实body端点零互补分量，把body反射压到χ/(1−χ)，与collar交叉1/2999闭合接口。所有七输入（root port、两ordinary source、body外口/head/mean/jumps、collar jump、cut双jump）保全。待新实际算术门，不重跑已成4650或collar；δ96/low-high Schur/negative仍需继续。
+
+### 2026-11-14 actual low193 pilot: radial and mean correlations remain
+
+43605144072六门/14行真实成功，native1f5f2e82b4cdf52fae6b8d3495245ac76235af5450da9656ea14aa0ba99a6e2b。新投影未收紧高贡献行，1524 uniform A0 .03822513634与low .038380504253同量级；3070/6375的整行e_z乘列也比uncorrected宽。下一先付tighter径向scalar余项/mean关联，再考虑完整source cover；true-cut方向并行继续。所有实际选行保留复用，不把上界比较当误差下界。

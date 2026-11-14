@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 14:33:47 UTC。**主目标未完成，持续研究。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 14:37:47 UTC。**主目标未完成，持续研究。**
 
 ## 授权、规则和同步
 
 唯一仓库 Rogerhu12/math-research-public；新数学只用本公开仓库 Actions。
 最后实际本地 pull --rebase：a9c7fc8c12d3e5f43b6632ed24ebef40aced5145（2026-11-14 12:34 UTC）。
 12:35 起共享终端无执行环境；根规矩8允许已连接GitHub只操作<100KB文本。不得经connector传二进制或大数据。
-最新远端 main/两README blob 核：421b1b0966b6cf049ff1a121b52b976a220a33dd；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
+最新远端 main/两README blob 核：bf4198b18cecfc45a065e891dc5ed48d7db6d126；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12未变。API读取不冒称git pull；runner每10min真pull/核差异，终端恢复即回本地git。
 亲读根差异ee26c0a65a2e63c15f2ccfba6714181584416542。每结论独立推；API接最新base/parent且expected_sha、force=false，竞争立即接新main再推。PAT只瞬时CLI/env，不进文件/输出/提交/connector。
 root独占branch/ref/H/open/results/log；代理只存小文本blob。旧ac0d699811ad只读。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public；objects /tmp/visible-exact-0df9-git-objects。
@@ -28,7 +28,7 @@ signed Green 43601964129真实10门：6391连续ports/5970含腰接口，suffix>
 body/mean43583838026/43586413510完整40parts/7721rows/6143jumps；signed dual跨0非Schur。repair源43597921732真实47门，新增L2<5.597282e−16、完整残差<.001284069679776281；mean及主部mean变化完整保，未知h仍一阶扰动。边界43599771405真实10门：g0<8.922944e−16、true97 gR<.000203975908607、已知high<.000195001650779；准确0+/.9−，全193及mean保。
 mean-v2 43589465579：||q*−Z||<4.572198020300e−6。仍须真全逆给||qν−q*||≤.004995427801979700，才授真ν行>1/200。
 cached Green v1 43602923145因repo/artifact过程身份在数学前失败，原件保；receipt-only43603364028核仅多final回执。v2 43604003161真实10门：nativec35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89，7,900,000B/4parts。五源负窗<1.471767296，body .794760129/cut .677007170，未过目标且不是实际误差下界。见 actual-cached-Green-known-source-budget。
-low193 pilot 已部署commit16255b739279669b601ad0cfce4ade2472a99fde：128files，原40parts双hash核，不重跑scalar/mean；只算约14选行新的low193/high97..160投影，非全覆盖。新source8e9dc20c0f1a00b702db4be16fe27666039fa5478191b7aef3e7a81652083701。newton接true-cut方向pilot和完整已知源Green。
+low193 pilot43605144072真实6门/14行：native1f5f2e82b4cdf52fae6b8d3495245ac76235af5450da9656ea14aa0ba99a6e2b（1,402,964B）。原40parts/7721行双hash，未重跑scalar/mean。大行没有收紧：1524 low .038380504253由uniform余项.03822513634主导；小行mean整格乘法亦变宽。仅选行，非完整源/response；先改径向余项/mean相关，并推进true-cut方向，不盲扩全覆盖。
 
 ## 正区与根部
 

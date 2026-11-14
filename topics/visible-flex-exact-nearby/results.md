@@ -201,3 +201,7 @@
 ### 2026-11-14 complete supplied-head positive high interface
 
 [R133-supplement-repaired-positive-high-root-to-regular-graph](results/R133-supplement-repaired-positive-high-root-to-regular-graph.md): proved P1–15 in the exact same repaired global Z frame. The body endpoint trace has the sharper χ/(1−χ) reflection, and the collar cross-port map has 1/2999. The resulting interface and root graph retain all seven head/source/mean/jump input columns. An 87-file public consumer checks the actual loop and root-reflection bounds from the original small success records; the full low/high Schur problem remains separate.
+
+### 2026-11-14 actual fourteen-row low193 source pilot
+
+[R133-supplement-actual-fourteen-row-low193-source-projection-pilot](results/R133-supplement-actual-fourteen-row-low193-source-projection-pilot.md): run43605144072 completed six gates and fourteen exact selected rows using the original forty scalar-jet parts. The new polynomial/source coordinates are certified, but the large-cell bounds did not tighten: row1524 low193 <.038380504253 remains dominated by its .03822513634 uniform remainder. Whole-cell mean multiplication also widens several small-source rows. This is a selected diagnostic, not a full source cover or response bound.
