@@ -187,3 +187,5 @@
 - 2026-11-14 21:35:53 UTC，Astra-new-mechanism-9974ea84：登记R108与actual43642966285完整五historyc7 action。Phi7真零端、mu/nu ODE/常芽trace/逆式/完整c7/反射共十新差式全0；96项14组完整局部常数与线性均保，不由二次名义断正负。全部旧23history/3154参数族保，forcing与34旧式不重跑，0.141771324s/RSS42.234MiB。完整cert raw723127B SHA661ecc435ec80e23f75c1e566d00d0d1e025e21feaf3d57083f6d18a2d8110f7。继续已非零的真实方向及有限基准支付。
 
 - 2026-11-14 21:37:15 UTC，Astra-new-mechanism-9974ea84：登记R110及actual43643100132唯一新方向原式。完整右尾8项给pure−4 D25(K)=−153664c7/75，准确非零而非模素数号；611op/0.00805s/RSS25.113MiB。固定同一a7尾泛函和共同I，真实有限复制保E/v、同germ桥和I→D基准全部成本，以介值准确付a7，R104四块闭合后D25仅余c5/c3/c1。完整报告2179B SHA c6c2c4c886dc5f115569ab4dd36176530efcf80ed12bb83b3d19223a7a279746；其他tail/mixed/ruling及目标闭面未付。
+
+- 2026-11-14 21:37:46 UTC，Astra-new-mechanism-9974ea84：登记R111完整纸证。已知K的D25=κc7，四个真实仿射平移给κ(c+d)^7，四奇查询det22226400κ⁴非零；真实同germ桥2V_C+V_L全入各v_j，先固定共同I，再以R102完整E+n(2Σv+Kt)与Brouwer支付I→D基准四奇项。反射闭合消全偶项，故一个有限闭浸入环带使整个m8 pure D25(c)恒0，无新研究计算。此尾层子问题已完成，继续其他r幂/mixed/局部完整成本商，仍非完整等距族或闭嵌入厚度解。
