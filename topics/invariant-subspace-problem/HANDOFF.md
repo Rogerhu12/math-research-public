@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** affa7610bcdacad3134bdbba892dba55c8f2eb24（2026-11-14 21:24:28 UTC，本地实际pull --rebase成功，两README无差异）。记录：notes/2026-11-14-local-main-pull-checkpoint-789f.json。
+- **最近成功实际 pull 与已读规则提交：** 97cfd2a8fbf77ccd2c99eaf66e40054491f66b83（2026-11-14 21:25:47 UTC，本地实际pull --rebase成功，两README无差异）。记录：notes/2026-11-14-local-main-pull-checkpoint-789f.json。
 - **最新规则读取（GitHub API，非实际pull）：** `c61725631d20191bd5e02054cefa41cc1af5f245`（2026-11-14 21:03:51 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
@@ -20,8 +20,7 @@
 
 ## 原尾、全出生与真实graph
 
-- 原相位：固定正权区间平衡star全范围、全出生中央/极平已闭；[连续尾宽窗](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)对偶Q≤x给Φ≤25exp(80Q²/x)。原s≈q/x≈m不直接套窗；换权/primitive平移保全费和LGL，特殊t_q抵消未排。全部旧birth/height范围、常数与原链接保[本次H](notes/2026-11-14-handoff-before-actual-double-projection-789f.md)。
-- [真核Fock重构](notes/2026-11-14-full-boolean-kernel-bosonic-zero-occupation-and-head-only-budget-789f-next.md)给完整零占据Gram、logC_m=O(m logm)、准确闭像Z_A；[占据矩/旋转](notes/2026-11-14-true-kernel-collective-occupation-moments-and-one-bit-rotation-789f-next.md)的原矩/尾与硬核距离全保本次H，新物理核交集不免费。
+- 原相位、全出生/height、Fock零占据与原矩/旋转的全部公式、常数、来源边界保[本次完整H](notes/2026-11-14-handoff-before-sixteen-actual-top-789f.md)；既有已付范围保持，实际跨birth及ordinary右费未闭。
 - **[移动真头核投影](notes/2026-11-14-moving-true-head-bosonic-projections-and-inverse-gram-strong-limit-789f-next.md)：** 同一全Fock上完整右逆成本≤sqrt(h_d C_m/S_m)，真实carry给P_(m+1)^B≤P_m^B+δ_mI、δ_m≤exp(−79·16^m)。几乎递减极限准确为P_M；原物理有限头i_m H_m⁻¹i_m*强收敛P_M，正方向余量≤2exp(−79·16^m)。无反向范数速率、无N=M，未把boson右逆送入硬核。
 - **[普通完整右与高返回](notes/2026-11-14-one-bit-complete-right-bare-source-and-actual-return-schur-789f-next.md)：** 固定q+d层有界右逆/闭实际源已付。full→bare的J_a=(Qx+aR_hP_hy,Qy)保真实规范抵消；G_a=Bbare(Hbare+E_ret)⁻¹Bbare*，B_a⁻¹=Bbare Hbare⁻¹Bbare*，E_ret=Hret*(I−Π_Tfull kerJ)Hret。原flat仍LGL。E_ret是硬核像/横向旗角度，头预算不能删；旧R271四头反例限定该外推，非原连续尾反例。R239联合gap不替受限逆。
 
@@ -44,3 +43,5 @@
 - **[母窗口扩大到exp(16d³)](notes/2026-11-14-extended-linear-mother-window-sixteen-and-true-stable-lift-789f-next.md)：** m≥10、1≤Q≤exp(16d³)，完整原有限核有线性Λ入N，||Λk−k||≤exp(−7d⁴)||k||。保同一实际核的全部D导数，以真实H_p(R)H_(p+1)(R)和精确carry付每步exp(−8·16^p)，极限在全部指数孔域。旧75指数不迁移；实际低输出、联合旗δ与角度仍各核原条件。下一继续同w顶部/整窗两费，未得N=M。
 
 - **[保持联合余负图的正滤波J](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)：** P为真Xi投影、Q=I−P，J=Q E Q†_L/(1+2δ)为L正收缩且像在Rrem。精确JMJ≤2J(I−J)，全n总耗散≤μ(r)²，无累积δ项；Xi(J^n r)²≤μ(r)²/n，左误差平方≤n[Xi(r)²+(2+√2)δμ(r)²]。δ仅m≥8、4d≤q≤exp(d³/4)原窗；新c16母窗不迁移该旗。测试滤波可自伴移到实际r，原主左配对/移动谱隙仍开。
+
+- **[c16窗同一实际顶部/全切口两费](notes/2026-11-14-extended-sixteen-window-actual-defect-top-and-common-two-fee-sources-789f-next.md)：** Q=floor(exp(16d³))，一个u_Q投影到V_Q⊖K_Q，||u_Q−P≤Qw||≤ε||w||，ε=exp(−8d⁴)+exp(−7d⁴)。全部4d≤p≤Q−d的r_p=A(u_Q)_p在真负流图，U_pr_p=P≤p u_Q；Xi_p²≤2||P_[p+1,p+d]u_Q||²，全cut总≤2d(τ+ε||w||)²，d网格无d。原固定测试左配对全窗一致趋<w,f>，不付κ(V)；未消旗族只缺实际比较O(exp(16d³)/d)。旧联合旗δ未迁移。

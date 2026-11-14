@@ -139,3 +139,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **扩展原线性母窗口。** [完整证明](notes/2026-11-14-extended-linear-mother-window-sixteen-and-true-stable-lift-789f-next.md)对m≥10、Q≤exp(16d³)给原完整有限核到N的有界线性近恒等提升，误差exp(−7d⁴)。使用同源全部导数与两真实头幂；旧exp(−75d⁴)不迁移。继续核实际w/top和整窗两费，联合旗δ、原物理Schur角度、一次ρ⁻¹与ρ⁻²的区别仍保，未证N=M。
 
 **联合余负图的精确正耗散。** [证明](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)用真Xi旗投影P、L伴随Q†构造J=QEQ†/(1+2δ)，像始终在原Rrem，JMJ≤2J(I−J)无δI余项。全幂完整总耗散≤μ(r)²，Xi(J^n r)²≤μ(r)²/n；把测试滤波移到实际r只付√{n[Xi(r)²+(2+√2)δμ(r)²]}。δ仍限原exp(d³/4)窗，c16不自动付旗；主L配对及温和移动谱隙继续。
+
+**c16整窗原实际来源。** [完整接线](notes/2026-11-14-extended-sixteen-window-actual-defect-top-and-common-two-fee-sources-789f-next.md)以一个u_Q（Q=floor(exp(16d³))）给全窗口真负图源r_p，左像一致趋同w、固定测试左配对一致趋<w,f>；原bare/flat同未来带的投影给Xi_p²≤2带能量，全cut≤2d(τ+ε||w||)²，间距d网格无d，不支付κ(V)。只对未消联合旗的这一个实际族，若比较常数O(exp(16d³)/d)即足排w；该角度界仍未证明，旧δ旗范围不迁移。

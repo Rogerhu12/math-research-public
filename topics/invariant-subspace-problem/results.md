@@ -270,3 +270,7 @@
 ### 2026-11-14：保持同一联合余负图的正滤波与无误差总耗散（789f）
 
 [证明](notes/2026-11-14-remaining-negative-graph-positive-filter-and-exact-dissipation-789f-next.md)在L单位坐标中取真实M=Xi²、M正交投影P与Q=I−P。已付||Pv||≤δ||v||_M及EME≤2E(I−E)给F=QEQ*的FMF≤2D_Q；同一向量的Young交叉项准确给D_Q≤(1+2δ)F−F²，故J=F/(1+2δ)正收缩、JMJ≤2J(I−J)，完整像属于Rrem。全幂总耗散没有加性δ项；两费平滑≤μ(r)²/n，左近似保真实初始βδ=(2+√2)δ费用。L自伴可将固定测试的滤波移到实际来源支付误差，原t不需先付两费。δ应用仍限旧4d≤q≤exp(d³/4)；主左配对与移动谱速率未闭。
+
+### 2026-11-14：exp(16d³)窗口内同一实际顶部和全切口两费用（789f）
+
+[证明](notes/2026-11-14-extended-sixteen-window-actual-defect-top-and-common-two-fee-sources-789f-next.md)重新代入全部carry导数得εcarry≤exp(−79d⁴)、H_m(R)≤exp(35d⁴)，低输出投影误差exp(−8d⁴)。对w⊥N，单位范数的真核投影经母提升给||P_KQw||≤exp(−7d⁴)||w||，所以一个u_Q∈V_Q⊖K_Q近P≤Qw。其所有截断都是原最小左源；完整右链及裸低旗的两个真实投影分别由同一未来带控制，Xi_p²≤2带能量，全cut总≤2d尾能量、d网格无d。左像和同一固定测试配对在整个扩大窗一致趋原w，未用头相似条件数。未消旗实际族仍缺O(exp(16d³)/d)比较；联合旗δ与N=M没有自动扩大或闭合。
