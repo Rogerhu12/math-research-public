@@ -275,4 +275,6 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 ## 其他完整子结论及范围核查
 
+- [新sigma与Lubin–Tate文献入口及已读范围](notes/2026-11-14-deep-new-sigma-and-lubin-tate-literature-entry.md)：保存2026新稿与官方讲座入口；未取全文的结果不作原中央或forcing输入。已读LT精确系数赋值的坐标与对象边界完整记录。
+
 完整证明导航及各条适用范围移至[补充证明索引](notes/PROOF-INDEX.md)，原条目和链接完整保留。
