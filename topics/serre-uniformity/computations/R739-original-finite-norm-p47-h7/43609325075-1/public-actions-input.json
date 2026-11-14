@@ -1,0 +1,59 @@
+{
+  "mathematical_completion_claimed": false,
+  "request": {
+    "arithmetic_sha256": "a18c040311e13990b46523943d44aadb937c129a84987b3333830be2ff61954d",
+    "completed_results_must_be_reused": true,
+    "digits": 4,
+    "execution_environment": "public-repository-github-actions",
+    "h": 7,
+    "mathematical_completion_claimed": false,
+    "norm_formula": "Original R727 Weyl pairing with same e_0 and T_zeta; theta_h(y)=[y]^(-h*(p-1))",
+    "prime": 47,
+    "result": "R739-original-finite-norm-p47-h7",
+    "revision": 1,
+    "valuation_if_zero": "Report only v_p(N_h)>=4; do not infer parity",
+    "workflow_sha256": "94653b045b4f620bcf904742657a809aea663cec860d68dcbd93ed2ee47f4e42"
+  },
+  "request_sha256": "0722a9d644e69aa827e733de61638176ba0c90891e9080b13162cc16a032f33c",
+  "result": "R739-original-finite-norm-p47-h7",
+  "source_commit": "fd54e412b675291cd86d91df401d3e030e4eeca8",
+  "source_repository": "Rogerhu12/math-research-public",
+  "sources": [
+    {
+      "archive": "sources/topics/serre-uniformity/scripts/R739_original_toric_norm.py.gz",
+      "archive_sha256": "86eead986816a53eea820f89b746713e2fb88304942fcad4458b23ffc02b7b26",
+      "path": "topics/serre-uniformity/scripts/R739_original_toric_norm.py",
+      "sha256": "a18c040311e13990b46523943d44aadb937c129a84987b3333830be2ff61954d"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/notes/R739-p47-h7-request.json.gz",
+      "archive_sha256": "475e0c248340f8f5ea660dd4bc745cbacd57bebdbd02f3fd75254b0dc03578c1",
+      "path": "topics/serre-uniformity/notes/R739-p47-h7-request.json",
+      "sha256": "0722a9d644e69aa827e733de61638176ba0c90891e9080b13162cc16a032f33c"
+    },
+    {
+      "archive": "sources/.github/workflows/serre-R739-p47-h7-norm.yml.gz",
+      "archive_sha256": "a24929b843d3ba58b2811fa8ff40d5610fcbed84d2f1d4aa408b9f839672245a",
+      "path": ".github/workflows/serre-R739-p47-h7-norm.yml",
+      "sha256": "94653b045b4f620bcf904742657a809aea663cec860d68dcbd93ed2ee47f4e42"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/scripts/p41_public_actions_recovery.py.gz",
+      "archive_sha256": "5a3d0f17f819a646a94ab8eff6a48823db0edf0a7cdbcfd58f4a5dc25b472a2d",
+      "path": "topics/serre-uniformity/scripts/p41_public_actions_recovery.py",
+      "sha256": "39de279d30ad1493f1727c2e3c650b47b2bb0191765770b32a17ae2adb97c49e"
+    },
+    {
+      "archive": "sources/README.md.gz",
+      "archive_sha256": "049816cbfe3110f2816d5d9f9a702f2ccbad1e2838538e60d0ddc681b96a4431",
+      "path": "README.md",
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2"
+    },
+    {
+      "archive": "sources/topics/serre-uniformity/README.md.gz",
+      "archive_sha256": "410f2f04782efdd16858f074149a398f9fa52b0d1f435eca70591466aefec7ab",
+      "path": "topics/serre-uniformity/README.md",
+      "sha256": "9b9f2c24c44c569deb70234be688fd6b59740ee19746fffecf0133f73978cfd8"
+    }
+  ]
+}

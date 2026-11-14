@@ -1,0 +1,42 @@
+{
+  "N_h_mod_p4": [
+    0,
+    0
+  ],
+  "all_conjugation_count_checks_passed": true,
+  "artifacts": [
+    {
+      "file": "R739-p47-h7-original-fibers.json.gz",
+      "sha256": "e01a1fda63168d8d32124199b06bf5627cb2ce68911eccaf8fb5ab3bdd0daa01"
+    }
+  ],
+  "complete": true,
+  "configuration": {
+    "arithmetic_sha256": "a18c040311e13990b46523943d44aadb937c129a84987b3333830be2ff61954d",
+    "digits": 4,
+    "fiber_summand": "theta_h(y)^(-1)",
+    "field_relation": "t^2=-3",
+    "h": 7,
+    "prime": 47,
+    "split_vector": "original e_0",
+    "theta_direction": "theta_h(y)=[y]^(-h*(p-1))",
+    "torus": "[[a,-1],[1,a+1]] and identity"
+  },
+  "leading_unit_mod_p": null,
+  "legendre_P6_exact": "-47/9",
+  "legendre_check_used_only_mod_p": true,
+  "mathematical_completion_claimed": false,
+  "modulus": 4879681,
+  "norm_valuation_inferred_from_mod_p_square": false,
+  "original_split_vector_preserved": true,
+  "original_torus_rows": 47,
+  "parity_determined": false,
+  "teichmuller_order_verified": 48,
+  "theta_on_sqrt_minus_three": [
+    4879680,
+    0
+  ],
+  "valuation_exact": null,
+  "valuation_lower_bound": 4,
+  "valuation_parity": null
+}
