@@ -214,7 +214,7 @@
 
 - [R106：完整pure幂尾递归的反射奇偶律](results/R106-full-pure-tail-reflection-parity.md) — 从R56整套分子/forcing/恢复递归与移动尾端锚I_c反对易逐式归纳，得D_j^σ(c)=(-1)^jD_j(-c)，全部真实s历史保留。R104真四块的D25因此为4(a7c7+a5c5+a3c3+a1c)，所有偶参数项准确消；不靠c8猜测。仅有限尾多项式身份，固定全带右锚的ruling缺陷和完整第四函数仍欠。
 
-- [R105：完整canonical第四成本的有限函数空间与真实响应商](results/R105-finite-canonical-fourth-cost-space-and-response-quotient.md) — R56完整R/eta逐点消全部移动ξ分母，固定第四阶递推先给所有真实路径共用的有限四次模板；时间非有理历史只入实系数。真实MT0成本span U4由两实际桥成本差证端口无关、全仿射不变，含R8=B_E8(W)，亦可用M0未付T原料生成。R96给同一合法圆忠实表示整个U4，但U4/R8未确定；仅未来证U4=R8才可把R102升级成整函数控制，ruling仍欠。
+- [R105：完整canonical第四成本的有限函数空间与真实响应商](results/R105-finite-canonical-fourth-cost-space-and-response-quotient.md) — R56完整R/eta逐点消全部移动ξ分母，固定第四阶递推先给所有真实路径共用的有限四次模板；时间非有理历史只入实系数。真实MT0成本span U4由两实际桥成本差证端口无关、全仿射不变，含R8=B_E8(W)，亦可用M0未付T原料生成。R96给同一合法圆忠实表示整个U4，当时未定的商现由R118证明非零；完整period须继续控制新增商方向，ruling仍欠。
 
 - [R107：c⁸消去后的c⁷成本在真实仿射变换下不变](results/R107-affine-invariant-leading-odd-tail-cost.md) — 完整同锚profile协变与四次齐次给m8尾D25的真实变换 A_Hd(c)=H⁻⁷A(Hc+d)，故a8→Ha8、a7→a7+8da8。a8准确消去后a7正仿射不变，反射及倒行保持它，R104四块为4a7(B)。未授同号、非零或消R8，连接基准仍须计入；下一直接研究真实c7 action及控制方向。
 
@@ -237,3 +237,5 @@
 - [R117：静态权一只剩单G函数门与互反圈带成本控制](results/R117-static-weight-one-reduction-and-reciprocal-costs.md) — R115完整块hkF+hk³G+h²k²ωH中H已付，hk=−2p2和8基准态k0/1使R114商准确为h(k³−k)G，故只剩G是否属真权一7维响应门。k2一整圈+−1/2两整圈准确M0/frameI，成本因子15hτ(2)/2；相反k给负号。若G真非成员，真实M0连接/有限重复/倒行给非零实际商，并用紧h族与IVT保完整E(h)支付一新增查询。非成员前提待原7/8子式，不拿206项NF余充证。
 
 - [R116：完整m8纯尾秩31、四块15与真实有限查询支付](results/R116-full-m8-tail-response-rank-and-finite-query-control.md) — actual43646543691消费完整W原式与R110一列，新算287列；全部288有理多项式/257依赖给投影秩31，四块15，低degree25–30满层。C6连续光滑化把投影独立升级真实dimR8≥31，R96/R102保共同I/同合法圆和v/E基准支付31查询。四块另选15尾查询包含D25四奇行，真实桥/Brouwer/闭合同时保整个D25为零再付11行；未认基准属于响应像或完整尾已零。
+
+- [R118：G的精确有理分离与真实第四成本商非零](results/R118-static-G-exact-separation-and-nonzero-fourth-cost-quotient.md) — actual43647225907用完整两mode原式和7控制列，合法分母的模素数非零7/8子式定义真Q-Cramer分离泛函；控制秩7、加G秩8，G不属真R8。R114/R117实际正配平圈与桥成本把它升级成R8严格包含于U4，dimU4≥dimR8+1≥32；激活一个额外权一查询的真实任意支付。结束U4=R8路线；未冒31+1联合支付、完整成本锥或所有profile不可解。

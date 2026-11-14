@@ -1,65 +1,60 @@
 # HANDOFF：大振幅新机制
 
-**进行中，未完成；没有满足README全部标准的完整候选。不得以阶段报告、时长或运行预算结束。** 会话 `Astra-new-mechanism-9974ea84`。root负责Git/公开Actions/日志；mechanism负责几何，literature负责完整相位与第四传递，tail_cost接续原repo_sources的真实尾成本。完整证据见[结果](results.md)、[open](open.md)、各实际notes和git历史。
+**进行中，未完成；没有满足README全部标准的完整候选。不得以阶段报告、时长或预算结束。** 会话 `Astra-new-mechanism-9974ea84`。root负责Git/Actions/日志，mechanism几何，literature成本商，tail_cost原式尾投影与联调。完整证据见[结果](results.md)、[open](open.md)、notes与git历史。
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`4ae73c0ac3ccbddf9cec7ddb8ed93cd974e0bda3`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`8093d86a4d39b31d6eb0bdc9a064711cea4831c4`。每次真正pull --rebase后立刻核双README，有变只读差异即执行并记SHA；至少每小时pull。每个有意义结论立即commit/push，NFF立刻pull/rebase核规则再推至成功，绝不force。根README blob6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题目d0432faff569c8e9af7ed4809847e12880976c11。
 
-私有22:02:43 UTC在公开Actions实际partialclone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差，本题私有README不存在；QUEUE唯一行本会话**进行中**。仅元数据已公开；下一私有pull不晚于23:01 UTC。
+私有22:02:43 UTC在公开Actions实际partial clone/pull至`7b57afc0a2b3910fca1c21b601ba7b18d1ccc2ae`，双规则路径无差；根blob5ba164843b1f5802184178a82d786264404873a3，本题README不存在。QUEUE唯一行本会话**进行中**。仅公开元数据；下一私有pull不晚23:01 UTC。回执在actions-43645929555-1-full_m8_tail_response_projection。
 
-真实几何、ODE/积分、优化与完整研究符号编译仅用本公开仓库GitHub Actions。本地只纸面代数、小人工开发、源码/公开输出解析；不伪造Actions环境。PAT仅瞬时CLI/env，绝不文件/提交/日志。根规则12：不以冻结、独立复核、逐字归档、重复清单或重跑作机械前置；完整证明直接登记结果/索引。
+研究几何、积分/ODE、优化、完整符号计算仅本公开GitHub Actions。本地限纸面代数/源码与公开输出解析，不伪造Actions。PAT仅瞬时CLI/env，不文件/提交/日志/API参数。根12禁止把冻结、独立复核、重复归档/重跑设机械门；完整证明直接登记。
 
-H<10KB，MD<100KB，open尽量<30KB；数据>1MB gzip/单件<5MB。只明确stage，不git add .或写根LOG。**21:39 UTC本地executor再次不可用**，已推结果安全；新源码由代理保留。根8准许仅GitHub集成时传每件<100KB文本，现用此例外存源码/小workflow，不传大数据或PAT；非force条件更新并核最新main/双README，真实pull与计算在公开Actions。恢复terminal后回到partial clone/pull/rebase；旧/tmp和scratch路径不能假定仍存在。
+H<10KB，MD<100KB，open尽量<30KB；数据>1MB gzip/单件<5MB。明确stage，不git add .，不写根LOG。**21:39起executor unavailable，未收到恢复通知，不再调用exec_command**；旧scratch不可假定存在。依根8仅GitHub集成例外传每件<100KB文本，不分块大数据。非force条件ref更新前核最新main/双README；冲突重读并重建于最新head，不冒actual pull。真实pull由公开Actions研究前与publisher终端执行，恢复terminal后复归partial clone/pull。
 
 ## 2. 完成门
 
-闭连通材料面，每时刻C²嵌入且t∈[0,1]在C²拓扑连续，**同一固定g**；固定材料H有内点、diam F0(H)≥.2D；无刚体对齐整像δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，且同g/参数/时间范围空间/频率/时间精化继续下降。完整网格每件<5MB，严格存在差距如实报，δE可0。基本达标后继续.5D或严格存在。
+闭连通材料面，每时刻C²嵌入，t∈[0,1]在C²拓扑连续，**同一固定g**。固定材料H有内点、diam F0(H)≥.2D；无刚体对齐整像δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，同g/参数/时间范围空间/频率/时间精化继续下降。完整网格每件<5MB，如实报严格存在差距，δE可0。基本达标后继续.5D或严格存在。
 
-## 3. 旧B固定g：当前最佳物理试探态
+## 3. 几何当前状态
 
-A1/B7/25/半宽1/50，L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81u+72v+9height+5body；冻结g后162、单Q后163。永久enriched c0不可用selected替换。七原输入完整路径/decoded SHA见notes/metric-epigraph-saved-trial-readonly-audit-20261114.md（最前四及后quartic/resume/epigraph），本次只读报告为后续第八输入。
+主线准确椭圆core A1/B7/25/半宽1/50，L.9、rc.22、tc.036、tf.846、六帽R.274。固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**，同b0/163参数；永久enriched c0不可换selected。全部输入/历史见metric-epigraph-saved-trial-readonly-audit及后续actual notes。
 
-完整固定g **fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6**。新B分支仍用原162态f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56，不换当前163态。旧quartic到z0故joint0；resume43635770962拒warm/退f198仅joint一次，80iter后81a154d3细η.8882/κ354/镜像.01571。minimax43637739532唯一54trial/304.967s budget退出，物理门全过而δ门仅初点过，原final仍81a；未改旧run接受事实。
+当前最佳物理态 **e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4**，来自43642966285/source d891604e。384/768 η .266411174/.267146532、κ73.359843/73.359830；fine strip.389989992779，镜像.1016723303，minq.8563692921，球范数².9906263485，minz.02，盒0。内门.38999余7.22e−9，外门.39余1.00072e−5。帽重建余−2.78e−17在1e−9tol内而非严格非负。旧rawδ.26640845723两网失败不抬；同态η差2.11e−6不是连续证书。曲率峰patch s=.7875，metric入口t=.1425。
 
-旧5d/81a的失败与输入历史见notes/metric-epigraph-saved-trial-first-fine-result-20261114.md，不重跑。
+曲率新actual **43645177423/source2f1b809c**：固定ηbar167/625=.2672、ζ=λ/100、真实I完整二jet与法向导数，160×384全值、16径向+0/L≤18批Jac。新人工方向导差1.424e−10。20轮全2major，40major/41物理/61aux，池2080→3866；优化113.733s/总329.486s，RSS1571880KiB，普通/分批jet差3.55e−15。最后仍e407、λ73.359917402，无曲率改善；.061目标要求κ≤16.39344262未达。原raw5220015B在publisher压缩前5MB门失败；**43646786908仅恢复六原文件成功**，完整gz与SHA见notes/curvature-epigraph-first-actual-and-recovery-20261114.md。不得复算来代替已成输出。
 
-dense actual43640503728/source509a1caf的028c同g/b0/163，细η.268197874/κ73.102607；细strip.390000019476及rawδ失败，原报告与notes保。
+只读诊断 **43647629532/source6fcdcdb2** 成功：20次交换时当前池也仍违反（首124/末216行），末24遗漏仅metric_minus；最低κ39.2818的η1.1700失败，后期κ53.6252/η.267206645仍失败。只有初点满足固定metric+物理门。旧触发metric tol1e−5与实际1e−9不同。**新策略复用learned3866池，从合格e407出发，仅池内按原实际tol恢复可行后才换池；池内违约让同次SLSQP继续，出口也严格查遗漏。** 原20round/80major/120phys/300优化秒不变；不单纯加轮数，不放宽门。
 
-**当前exchange物理态** e407a21488257097f60073f7e46e19f987dc963760957040ee7254a02889beb4，actual43642966285/source d891604e。新人工pass；6轮/12major/13物理/19epi/12Jac因轮数上限退出，末仍16遗漏行，不是收敛。总127.514s、初始化96.095/优化15.623s、RSS3224932KiB，池1440→2152/J2.823MB但全几何Jac瞬时大。384/768 η.266411174/.267146532、κ73.359843/73.359830，曲率略恶化；fine strip.389989992779新内门过，外门余1.00072e−5，镜像.1016723303、其余物理全过。rawδ.26640845723两网仍失败（fine缺.000738075）不抬，辅助best另0eeec190。共同帽重建余−2.78e−17在tol但非严格非负；Π公共η差2.11e−6。raw2111864B SHA c7b6b195cab755b425ccce41bf738ba05a30b65d329ed9b14b93f5211866d78e；全部身份/细表见notes/full-grid-exchange-first-actual-result-20261114.md。
+备选B=.37仍从原162态f198ba74dcf3644569bf1ed78eecbc48a0f21ec421205d46a6b159cb00ff0f56另建g211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e。局部leading43638423274的8d9d/b0df1a，fineη1.174996/κ263.3758、外镜像.01426/strip.39351仍失败；不与当前g混。准确CK/周期GW/二jet-Hermite接口已纸证，可用长度/外带未付，a″<0非稳定双曲。优先当前旧g。
 
-R103给实际I的双PSD/完整二jet参数导数，独立正则门不可删；helper人工16图jet已pass，尚未用于研究optimizer。曲率与全点对reach仍欠；新分批λ接口正在接入。
+## 4. 理论已付边界
 
-## 4. 新B=.37备选与GC接口
+R37/R45真M0桥/四块闭合、R52完整三阶圆仍非有限等距族。R56完整变系数/全右锚；R70消N³/N²；R71–R80给真第三，R87 W真维36。旧完整原式已保存，不重复编译。
 
-新B=.37仍取原f198162态，独立g **211c1b193eeb38b50933083821b3d32ed8e7bbf6bd627aab64630dd8a6c22a5e**。全段抄系数失败后χ=1−S11局部修复，leading actual43638423274给物理8d9d505cacada07562d819792d8e1398638e89b680812d9702bde34a4439803a/b0df1a2139；fineη1.174996/κ263.3758，外域镜像.01425979/strip.393509仍失败且不受entry局部修复影响，帽高/外域六jet保。详notes/localized-core-leading-repair-actual-result-20261114.md。
+**R98结束universal正states P1路线**：权零14/15有理分离使任意正组合4Σℓ>0，R96给同一合法C∞三矩圆及相对开稠密障碍。停止低权/同类states扩张；特殊圆、固定N完整P0+NP1未排。R84真成本是加法半群，倒行V同号，不冒取负。
 
-准确CK/周期GW/二jet-Hermite/共同积分接口见notes/analytic-GC-prefix-and-finite-collar-interface-20261114.md；未付可用长度或外连接，a″<0不能冒稳定双曲推进。当前优先旧g全场，此支保留备选。
+R105所有canonical路径共用有限第四函数空间；真MT0成本span U4端口独立/仿射不变，含R8=B_E8(W)，R96可在同一合法圆忠实表示。R109真实局部势n−N′∈W给
+V=∫(v−B_mN)−∫B_mH−(1/6)∫B_A[A,m]，后两项在R8；保N(0)至总M0消，v先真s微分再置累计值0。R112局部密度几何导数权仅0/2/4；改时长同步改M/frame，不授独立控制。
 
-## 5. 理论当前真实边界
+R101/R102真有限词V=E(t)+n(2Σv+tK)，共同germ/I/合法圆先固定，保v/E，以Brouwer支付R8满秩有限查询。R116完整m8尾actual43646543691/sourcef0652a01：288=287新+1复用，11权块秩0/1/2/3/4/5/6/6/3/1/0，总31，四块15，所有有理依赖差零；2.710s/RSS29.465MiB。真实dimR8≥31，31查询可联付；另15闭四块查询含整个D25。不是31+15合并，未给一般基准套响应支撑。
 
-R37/R45真M0桥/四块位置闭合、R52完整三阶圆仍非有限等距族。R56全变系数/同右锚，R70第四=P0+NP1；R71/76/77/79给真第三，R80为Tend+W，R87原36/37子式已证W真维36。全部原式/实际身份见results，不重跑。
+R114八矩常态rank-one公式、20正态锥E8、8有理基准与整数floor圈/固定桥/IFT付准确M0，倒行付T0。配平商全零当且仅当L0模R8线性因子经m0。R115完整local静态430根/36W已导出；最高+2已付，+1=hkF+hk³G+h²k²ωH，H已付。R117用hk=−2p2及基准k0/1得受约束+1=h(k³−k)G；k2/−1/2整数互反圈及反号对付±leading，完整桥成本保。
 
-**R98结束universal正states P1路线**。actual43638896281的权2成员/权1零、权0原16列两真依赖降14；Q-Cramer/真实权零投影给Λ(R*)=0、Λ(b_Hd)=1，任意正组合4Σℓ>0。R96同profile忠实评价+左补矩给同一合法C∞圆及无统一导数盒的相对开稠密障碍。停止低权/同类更多states；特殊圆与固定N完整P0+NP1仍开放。
+**R118：G不属于R8，U4/R8非零，dimU4≥dimR8+1≥32。** actual43647225907/sourceb466c378，完整两mode原G与7真控制列有理Volterra评价秩7/增广8；原7/8子式模2147483647分别1896063777/2093208697，真Q-Cramer泛函ΛG≠0。6.594s/RSS123.914MiB；不重做NF。R114/R117已把此提升成实际成本商，原程序保守flag不改。R117的单个额外权一查询已可真实任意支付；**尚未由此声称31+1联付**。U4=R8路线结束，继续新增商方向及完整控制。
 
-**R99–R102已付至少15个真第四查询**。t1×W0四列actual43640085842两Jacobi准确0、两扩展字符非零。真M0第三环L复制有T=nτ/V=nv，M=T0词Z的V=E(t)+n(2v+tK)，未知偶基准保。固定小A(s)重复不扩scalar包络；同I/合法圆/固定Q满秩时，有限词串联E(t)+n(2Σv+Kt)，中心立方体+Brouwer支付任意查询向量。R8=B_E8(W)真维15≤r≤288，可含原正字符并保P1；这不是凭有限采样认全函数。R84倒行V同号/加法半群/长度门仍保。
+## 5. 尾、ruling与未付范围
 
-**R105共同有限化，R109已消成本商的累计历史。** R56全恢复消移动ξ极点，canonical全部路径共用有限四次Volterra模板；真MT0成本span U4端口独立/仿射不变，含R8，M0未付T原料亦生成。R96同一合法圆可忠实表示U4，但U4/R8未定。R109由R77/79原式给逐点n−N′∈W，完整composition得V=∫(v−B_mN)−∫B_mH−(1/6)∫B_A[A,m]；后两项属R8，N(0)只靠总矩阵0消，v先真s微分再置累计值0。下一消费局部密度L4=v−B_mN，不重跑长路径。未证商零；仅未来U4=R8才授R102完整period，ruling另欠。
+R104 B σB Bᴿ(σB)ᴿ真frame/位置闭合、M=T0、共同正I，只有周期正则浸入环带；V=2VB+2VσB。R106全递归/移动尾锚给D_j^σ(c)=(-1)^jD_j(-c)，四块D25只余c7/c5/c3/c1；不是完整函数反号，固定全带右锚ruling不消。
 
-**R100/R104/R106已消D25全部偶参数项**。R85/88首两尾是零端势，R95压缩action后c10/c9零端使次数≤8。R100 actual43640085842完整34差式全0，23真histories/原DAG保；p/ell/zeta真实零端的c8短action见R100。R104同(h0,0,0)真M0桥B:I→D，经σ=(h,−k,−ω)组成B σB Bᴿ (σB)ᴿ；前缀位移V,DAV,−V,−DAV相消，frameI、M=T0、同一正I，只得周期正则浸入环带。R106完整R56递归/移动尾锚证D_j^σ(c)=(-1)^jD_j(-c)，四块D25=4(a7c7+a5c5+a3c3+a1c)。完整V仍2V_B+2V_σB，固定全带右锚ruling缺陷不消；不得冒全函数反号。
+R110 K=B_t1τ_p1t1完整8项尾D25=−153664c7/75；R111平移d0/1/2/3的四奇查询det22226400κ⁴≠0，保桥/基准以Brouwer付整个D25(c)，不再重跑此层。R113单轨道各r层耦合/响应上界，R116其他尾查询已扩至15而完整尾与mixed仍欠。R108五history96项14组/十新差式零，常数线性项全保。R93/R97真驱动∫kh=0、K2=L+E=∫hkω=−∫(F/h)kρ、(S²−1)E≥L，history不可独立指定。
 
-R93/97真驱动给∫kh=0、K2=L+Elogh、K2=−∫(F/h)kρ及(S²−1)E≥L，故h非恒/S>1。这些是积分/端式，不可逐点置零或独立任取primitive；k为frame参数非曲面主曲率。R108 actual43642966285十新差式全0：Phi7=(64/5)p²B1+8p²J0真零端，五history96项14组完整含常数/线性，mu_s=−3eta_s zeta、nu_s=k/(8h)−eta_s(zeta+2ell)；23旧history/3154参数族保，不重编旧34式。
-
-完整第四ruling、先前双collar、更高阶/收敛、闭嵌入与宏观厚度仍欠。
-
-R107给a8=0后a7正仿射不变。R110 actual43643100132完整8项给K=B_t1(τ_p1t1)的D25=κc7，κ=−153664/75。R111同锚H1/d0,1,2,3得κ(c+d)^7，四奇查询矩阵det22226400κ⁴≠0；同germ桥成本入v_j，先固定I，保E+n(2Σv+Kt)以Brouwer同时付I→D基准连接四项，再反射四块使整个m8 pure D25(c)恒0。一个有限几何适用全部c，其他r幂/mixed/完整V/ruling仍欠。
+完整第四period/ruling、更高阶收敛、有限连续族、闭嵌入与宏观reach均未付；有限查询/闭凸锥/半群要分清。文献核对已保原来源：Engman只S1等变，Freese–Weber另要主曲率旋转不变；不外推非轴对称一般刚性。
 
 ## 6. 持续推进
 
-R112导数权0/2/4；R114正锥E8/真配平门；R115+2已付、+1未决且原式已保。R117把约束+1准确化为h(k³−k)G；k2/−1/2整数互反对与反号给真leading及条件IVT。下一新原G七列/增广8有理评价，不重复206项NF，尚未新toy/actual。
-
-fullm8 actual43646543691/sourcef0652a01：288=287新+1复用，pure尾rank31/四块15，依赖差全0；2.710s/RSS29.465MiB，证书gzip44576B。R116已证真实dimR8≥31/同圆31查询；另15闭四块查询保整个D25。基准/完整尾/mixed/ruling欠。
-
-曲率原43645177423已由43646786908恢复六原文件，raw5220015B/5b04d6a7（完整SHA见原note/恢复回执）。最终仍e407，κ73.35984、fineη.2671465，无合格改善。20轮全2major即交换，41物理/61辅助、优化113.733s/total329.486/RSS1571880KiB；batch≤18、jet差3.55e−15有效。实际note已登记。只读trial首43647225907因语义JSON>95KB停止；新303de源码改共用列名+逐行数组保全部值/组/顺序，单件<95KB门不变，仅重试读取。G probe原run43647225907继续，不重算几何。
-
-子题完接open，不因预算或设施收尾。
+1. 直接登记R119静态非负锥的八矩乘子充要门（对完整真实路径仅必要），再推进R120真实成本闭锥的G lineality与R121中央补偿后的联调；未读完整证明前不提前报结论。
+2. tail_cost新静态pure m8 consumer已备，只消费local430根和R116完整尾证书，检查G投影及受约束局部尾商，不重算288列。新源码公开py_compile→toy→actual；完整残差gz/紧凑main。
+3. mechanism实现池先恢复可行的策略；保持原旧源码与失败事实，新的同g/e407/learned3866消费者单独保存并跑新人工→actual。
+4. continuation最多两并行lane。所有新输入有SHA/原run/source绑定，publisher真实pull核规则、gzip后<5MB、终端NFF循环。23:01前再次真实私有pull/QUEUE核对，不重算已成研究仅为sync。
+5. 子题结束接open下一个，不因预算、设施或阶段报告收尾。
