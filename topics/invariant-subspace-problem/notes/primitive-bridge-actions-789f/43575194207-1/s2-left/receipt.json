@@ -1,0 +1,63 @@
+{
+  "child_pid": 2546,
+  "elapsed_seconds": 26.984,
+  "error": null,
+  "exit_code": 0,
+  "finished_at_utc": "2026-11-14T08:19:15.957417+00:00",
+  "last_finalized_at_utc": "2026-11-14T08:19:16.048835+00:00",
+  "limits": {
+    "calculation_seconds": 18600,
+    "child_address_space_bytes": 12884901888,
+    "heartbeat_seconds": 45
+  },
+  "markers": {
+    "complete_markers": true,
+    "final_events": [
+      {
+        "all_passed": true,
+        "event": "singleton_coefficient_run_complete",
+        "seconds": 26.866,
+        "target": "s2-left"
+      }
+    ],
+    "leading_minors": {
+      "1": {
+        "den_degree": 57,
+        "den_terms": 48902,
+        "event": "singleton_leading_minor",
+        "negative_coefficients": 0,
+        "negative_examples": [],
+        "num_degree": 56,
+        "num_terms": 44149,
+        "numerator_sha256": "740e4a9a0c28d66c07ca6086bd8330bfdcd88c596a16fc44871a41f3c67a491f",
+        "passed": true,
+        "positive_v_only": true,
+        "seconds": 1.213,
+        "size": 1,
+        "target": "s2-left"
+      },
+      "2": {
+        "den_degree": 58,
+        "den_terms": 48902,
+        "event": "singleton_leading_minor",
+        "negative_coefficients": 0,
+        "negative_examples": [],
+        "num_degree": 56,
+        "num_terms": 47944,
+        "numerator_sha256": "b4a65d1fb3a25ea550f9731bfb89f1c2bb7295fe91f35b84beb74fd04b20f2bd",
+        "passed": true,
+        "positive_v_only": true,
+        "seconds": 26.866,
+        "size": 2,
+        "target": "s2-left"
+      }
+    },
+    "rejections": []
+  },
+  "mathematical_success": true,
+  "started_at_utc": "2026-11-14T08:18:48.968557+00:00",
+  "status": "coefficient_certificate_passed",
+  "target": "s2-left",
+  "timed_out": false,
+  "workflow_compute_step_outcome": "success"
+}

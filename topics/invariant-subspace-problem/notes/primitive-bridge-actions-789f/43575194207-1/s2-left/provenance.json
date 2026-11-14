@@ -1,0 +1,66 @@
+{
+  "argv": [
+    "/opt/hostedtoolcache/Python/3.12.16/x64/bin/python",
+    "-u",
+    "topics/invariant-subspace-problem/notes/2026-11-14-two-group-singleton-bridge-certificates-789f-next.py",
+    "--target",
+    "s2-left"
+  ],
+  "limits": {
+    "calculation_seconds": 18600,
+    "child_address_space_bytes": 12884901888,
+    "heartbeat_seconds": 45
+  },
+  "prepared_at_utc": "2026-11-14T08:18:39.554634+00:00",
+  "python": "3.12.16 (main, Oct 26 2026, 02:48:44) [GCC 15.2.0]",
+  "readme_sha256": {
+    "README.md": "3569f8887c4a9fe87c8160f2d75ece18ae1d8156348a0a7b8742219c7ac50843",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "request": {
+    "determinant_mode": "reduced",
+    "limits": {
+      "calculation_seconds": 18600,
+      "child_address_space_bytes": 12884901888,
+      "heartbeat_seconds": 45
+    },
+    "parameters": {
+      "L": "3+R",
+      "domain": "Q,R,Z >= 0; V > 0",
+      "q": "3+Q",
+      "w": "V",
+      "z": "1+Z"
+    },
+    "request_id": "789f-20261114-main-parameter-s2-columns-1",
+    "requested_at_utc": "2026-11-14T08:10:51Z",
+    "schema": "isp-primitive-bridge-v1",
+    "scope": "Exact coefficient certificates for the two stronger S2 column contractions in the actual upper-birth-two/lower-birth-one model. Each target must emit two passed leading minors and a matching final all_passed event with process exit zero. Exit zero alone is not a proof certificate.",
+    "targets": [
+      "s2-left",
+      "s2-right"
+    ],
+    "versions": {
+      "python-flint": "0.9.0",
+      "sympy": "1.14.0"
+    }
+  },
+  "run_attempt": "1",
+  "run_id": "43575194207",
+  "schema": "isp-primitive-bridge-provenance-v1",
+  "scope": "Exact coefficient criteria; both minors and final success are mandatory.",
+  "source_commit": "73eb10623d1b4301431aab5586c4f1394642e3ee",
+  "source_sha256": {
+    ".github/workflows/invariant-subspace-primitive-bridge.yml": "84b94371db620be2389329a558fad6b8905f99ff67d20976013f0ab0c5a08a1a",
+    "topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-actions-publish-789f.py": "a973802a825a6e06d6a0cee10d759c9532fc2da3df00b1b9f53a4823e671f59d",
+    "topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-actions-runner-789f.py": "d3e1e89a9c0af82420474cd323aa0027c246b49ebff363ade7a16df320fc93ac",
+    "topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-ci-request-789f.json": "8bfebbf0f122a6d2a6c11cca17176236831e737eca7e37291ff0852b80c03ed7",
+    "topics/invariant-subspace-problem/notes/2026-11-14-two-exceptional-aggregate-polynomial-789f-next.py": "5022c9439fbb165e0e09aa091f45da4b24fcf572d60640ef3aec05e701c35ce8",
+    "topics/invariant-subspace-problem/notes/2026-11-14-two-exceptional-first-edge-polynomial-certificate-789f-next.py": "9f094e4b0a4ac76b7dcbb4c23cce1c0b0b567cfd6c34fd4cc7a3ecaf2aea475b",
+    "topics/invariant-subspace-problem/notes/2026-11-14-two-group-singleton-bridge-certificates-789f-next.py": "eacd0fecad94547a6d4469dbeddd42065e5bc45c6142ffbc8032811f5b056a8d"
+  },
+  "target": "s2-left",
+  "versions_required": {
+    "python-flint": "0.9.0",
+    "sympy": "1.14.0"
+  }
+}
