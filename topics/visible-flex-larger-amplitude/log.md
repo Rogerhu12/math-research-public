@@ -310,3 +310,8 @@ request42接真实两路：原QR入口从40 warmc62a7f12…/status30f19320…续
 ### 2026-11-14 18:01 UTC：节点G合同与终端失联fallback
 
 重建节点合同12471B/d24b6ee7…全文读并发表；原未推15164B/e658c7不冒用。唯一868首field0/cut末field3保原μ/port、0..868局部G/后段I、stage72接口/全耦合/边界/原σ恢复。约17:58执行环境transport disconnected/unavailable，末次G提交命令未创建进程；依根Rule8仅connector<100KB文本，API不冒真pull，PAT不进connector，恢复即回终端。42仍公开Actions；native小报告已给1.22e22→1.26e22坏方向，下一详细记录并接表示变化；大阵未本地全审，不夸核验范围。
+
+
+### 2026-11-14 18:05 UTC：actual42逐原步系统方向失败
+
+公开43623850723/native132535274009完成，两个固定artifact取入过；1372段/307552全exact初1.2206670683664557454e22、修正1.2562775415316530606e22更坏，同new518=旧42/step0/Pi112，保初delta ed6a8027…。LUinfo0/无尺度形成损失/行列max[1,2)不能代原尺度准确。详细note列全部原报告/矩阵e929e642…/result741fb34e…/artifact14124997721和真实未做的大阵独立审计；0新ODE/J/trial/native。下一R269实际节点G表示及原1372完整恢复读回，不用旧long门，不盲重算旧失败；prefix42仍在原32行warm。

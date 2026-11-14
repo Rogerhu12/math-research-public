@@ -89,9 +89,14 @@ R251四Loewner/完整Gram消费者已在request16通过三个解析例，但尚�
 
 [actual41完整捕获](notes/2026-11-14-actual-request41-rawcell0-step-capture.md) 已实际完成：868原步/3472field，72原出口与[minA,minD,原mean和]全逐位同28；四cusp各13、其余12。新布局1372stage/1373node/N307552；所有3999文件、新289数组3545chunks、72原geometry包、原28完整数组、旧577映射和明确σ均字节核。新J最大已报条目1.573959534e13不等于新系统改善；0native/trial/endpoint/audit。
 
-request42并行两条：前缀从真实40继续冻结QR入口active32；native按[逐原步新系统与完整exact接口](notes/2026-11-14-rawcell0-original-step-system-interface.md)消费原504 J和868新局部J，一次LU/3次幂二均衡/最多3严格改善精确残差修正，完整cut/所有stage/far行读回及577restriction。原28与41以真实public artifact PIN取入，见[41取入合同](notes/2026-11-14-pinned-actual41-artifact-fetch-interface.md)。旧long-J残差仅诊断，不用它增门；真正后继仍是原nonlinear完整noJ/原十alpha/原guard及严格原σ下降。两条实际结果均待产生。
+request42并行两条：前缀从真实40继续冻结QR入口active32；native按[逐原步新系统与完整exact接口](notes/2026-11-14-rawcell0-original-step-system-interface.md)消费原504 J和868新局部J，一次LU/3次幂二均衡/最多3严格改善精确残差修正，完整cut/所有stage/far行读回及577restriction。原28与41以真实public artifact PIN取入，见[41取入合同](notes/2026-11-14-pinned-actual41-artifact-fetch-interface.md)。旧long-J残差仅诊断，不用它增门；真正后继仍是原nonlinear完整noJ/原十alpha/原guard及严格原σ下降。前缀结果仍待；native实际失败见下列actual42记录。
 
 [R269](results/R269-native-zero-reference-height-slope-gauge.md) 已完整证明原native零形状参考的可逆u/k坐标、可变w完整方程与常w精确仿射传播，及任意保存shooting矩阵的完整节点G/边界/原缺陷恢复式。尚未在actual28/41实施；实际非零H、port和节点geometry不能以理想参考替代，连续变换再RK也不冒原离散映射。下一G节点合同只读真实已存root.g，不阻塞42实际读回。
 
 
 [实际41节点G合同](notes/2026-11-14-rawcell0-height-slope-node-gauge-contract.md) 已只读绑定：节点0..868取唯一首field0、cut末field3几何及原port，之后I；6个内部及3个旧边界两侧r/w bits不同，禁止混用同节点G。全dense模间条目、stage72左G右I、cut target/far/原σ恢复和原1372矩阵exact读回保全。尚未形成G或求解；终端失联后重建新SHA d24b6ee7…不冒未推e658c7原文。
+
+
+### actual42 native：新1372系统自身仍失败
+
+[实际42完整失败记录](notes/2026-11-14-actual-request42-native-original-step-direction-failed.md) 亲读公开小报告：307552行exact初1.220667068e22→修正1.256277542e22更坏，最坏new518＝旧42/step0/Pi112。行列max[1,2)、69149136形成项无所报尺度丢失、LUinfo0并不足够；保初delta ed6a8027…，不是旧long-J门拒绝。artifact14124997721/64948461B/ZIP4b48e8dc…、result741fb34e…保全，终端失联未独立审全部大阵，不能夸审计范围。不盲加同修正或派坏方向；下一独立节点G形成/恢复后仍原1372全行exact，原ODE/J/g/验收不变。
