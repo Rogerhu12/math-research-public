@@ -4,23 +4,20 @@
 
 证明绝对常数 C，使全部无 CM 的 E/Q 在 p>C 时模 p 满射；或构造 p→∞ 的完整反例族。**主目标 OPEN，未达到 README 完成标准。** 固定p、条件结论、数值验证都不算完成。会话 serre-public-resume-20261114；日志 Asia/Taipei。
 
-已读规则提交：fd2a39dd2aafccbcd9b297c6db4b13f1efac3a22
-最近实际 pull：2026-11-14 18:41:12 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
+已读规则提交：8f7f353a6a555e2fdd8dad32ef4dafb15ad859c1
+最近实际 pull：2026-11-14 18:47:21 Asia/Taipei；两 README 对已读基线无差异；每次 pull 检查，间隔≤1小时。
 
 仅在 Rogerhu12/math-research-public 工作，长计算用本仓库 Actions；旧“停用公开runner/转本地”作废。每条结论终端commit/push main已授权；推前pull，非快进立即pull --rebase循环，不force。令牌仅CLI临时环境。根代理独占tracked/git；辅助在仓库外agent-global/、agent-cartier/、agent-o6/。单Markdown<100KB，HANDOFF<10KB，open/README<30KB，数据>1MBgzip，单文件<5MB。日志只追加本题log，≤5内容行；改共享文件须在log说明。
 
-部分克隆仅检出本题源码/证明/小JSON；大型scripts/data/*.gz按需git show，避免共享盘ENOSPC。所有Git对象仍在本地。迁移前与本轮压缩前交接完整保存于 notes/2026-11-14-public-takeover-handoff.md、notes/2026-11-14-public-handoff-through-R683.md；R693后压缩前交接见notes/2026-11-14-public-handoff-through-R693.md；当前open旧逐条更新保全于notes/2026-11-14-open-before-public-wave02-results.md；恢复更早依赖见这些文件的归档链，不把旧摘要当缺失证书。
+部分克隆仅检出本题源码/证明/小JSON；大型scripts/data/*.gz按需git show，避免共享盘ENOSPC。所有Git对象仍在本地。迁移前与本轮压缩前交接完整保存于 notes/2026-11-14-public-takeover-handoff.md、notes/2026-11-14-public-handoff-through-R683.md；后续压缩前交接见notes/2026-11-14-public-handoff-through-R693.md及notes/2026-11-14-public-handoff-through-R700.md；当前open旧逐条更新保全于notes/2026-11-14-open-before-public-wave02-results.md；恢复更早依赖见这些文件的归档链，不把旧摘要当缺失证书。
 
-## 本轮已完成与立即执行
+## 当前执行检查点
 
-- **R620/R621已整盘排除（49/105）**：.github/workflows/serre-p41-prefix-recovery.yml 已推，公开Actions run 43579710818，从已保存189/182位续原304位链。源码 p41_public_actions_recovery.py / p41_resume_ramified_local47.py，请求 notes/public-p41-recovery-request.json。完整结果在computations/，各自同分量F2/F3无共同根。R620准备已匹配290份原文件SHA。
-- **R685/R687/R689/R698**：run43580270602原四片证实41..2000全部99素数Cp·C_(p−3)非零；R698把两根降至同一N=(p−5)/6的TC/TZ³系数。新scalar-window四片只求2001..200000，逐p检查点，结果待返回；全p单位未证。
-- **公开恢复wave02运行中（43580991103）**：serre-p41-remaining-recovery.yml，55作业/最多4并发；54个普通缺失盘求完整F2及必要F3，R655另续两个CM4粗盘原链，完整高度仍待R656。请求public-p41-remaining-recovery-request.json，已完成receipt自动跳过。已返回完整证书逐盘登记于执行表；R659入口误传R435给R379引擎，前五阶段保全；nonelliptic-resume.yml已配置按指定result从原artifact续算，手动dispatch被PAT权限403拒绝；已加显式activation的push触发，R659/R666尾段run43582927030已完成全F2/F3；第二批12盘11成功、R671实际T2极点只碰I2而不碰微积分I1；保ηC全部校准及完整迹方程，按真实积分域接续；第三批R673–681已激活；R641有限平坦尾段run43585123331成功，待登记。R671新尾段单独激活。
-- **R688/R690/R694已证**：完整修正Ia=d给λ=a_v/e；2处全零。3处T=X(6p)/Q8中心加椭圆尾、边长1/4，唯一CM项链尾零，c0,c1在零轨道，故ω0=0；R696更以同一实际Φ证明所有真候选λ2=λ3=0，即Ω_actual={0}；一般局部点不全零。p处Λ jet/赋值/全尾仍缺。
-- **R686已证全塔**：真实Robert逐层Norm/整格/原q导数给A_Mn=RΓ/π^min(d,42n+1)；原m<43则全高层永久稳定。实际d/m/C/J/b仍未知。
-- **R692/R693/R697已证**：实际τ导子6、判别式−108及准确Hermite theta平方；同一σ⁶六截面给A_k∈Z[1/6]，Cp=−3A_p²、C_(p−3)=−3A_(p−3)² modp。无除p Bell递推/原六同源初值保全，全p非零仍缺。
-- **分歧尾段已返回**：run43583860809的R625/R636均成功，完整原链/Norm/中心复用；R636真实支撑rank7及820交叉恒等式换分母已封存。R625二重根28无模47²提升已封存。R641原链/Norm完成，T2支撑与u残点碰撞；接入R372完整四位有限平坦约束，只续缺失中心/多项式，已提交公开runner。
-- 接着：cartier推进实际Cp·C_(p−3)结构/例外及精确有限窗口；global求真实高度jet/有限目标；O6求原普通单位Norm/首矩C/J。新结果立即登记，主目标未闭合继续。
+- 固定p41已登记81/105个非CM SS排除。全部原普通/分歧尾计算成功；待登记R641（43585123331，源f70377b9）、R660–665/R667–670/R672（43583417198，源ea891031）、R673–681（43585123297，源f70377b9）、R671（43585571534，源3ab54dae）。后者保留ηC的全部I2校准；实际T2极点只在I2，真正积分域I1分母单位，完整迹方程保持。逐条核验/证明/推送后将到103/105。
+- 两个CM4粗图j36_02/06的R655原304位链及457主函数已完整返回（43580991103，源c52ae419）；高度R656尚未算。按R554原z中j/ηB联合Laurent消极；真实T2为另一CM4点加同一j44点两次，须保留三分支重数，有限平坦约束保持长度4。新适配器在scratch/cm4-r656准备，须提交公开Actions只算缺失高度。
+- R698新窗口四片run43585949869（源0202228f）完整返回2001..200000，共5893素数。唯一返回零为p137147：Cp=80155，Cp−3=0；完整零通道证书已在computations/R698-window-0/。独立核定与R706正式结果待写，不能再把全p两系数单位当目标事实。此前R689的41..2000共99素数全非零仍成立。
+- 待审读/登记：agent-global的R699真实高度有限jet/外积全尾（已含v(z)≥3，正在补μ3降维）；agent-o6的R701原标记43维p-local scalar；agent-cartier的R702第一极点块全p移位单位。未审读草稿不计定理。
+- 后续分工：cartier R705对接原Abel更高项并核p137147；global R703求实际外积非零jet；O6 R704求原Γ标记p-local向量。root占R691/R706，R655/656用于两CM4恢复。所有新结论即时单独commit/push；主目标仍OPEN。
 
 ## O5：固定 p41 的真实高度与全部129盘
 
