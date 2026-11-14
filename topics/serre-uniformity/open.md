@@ -365,3 +365,6 @@ $\langle[D_{0,p}],(d_0)_p\rangle=26\varepsilon b=\varepsilon(\mathcal L-31)$。
 cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，
 两张完整表78852/658317B只artifact。真正待继续是同一有限表示压缩后的CM周期值、
 原Hom格/q函数/β及高度；Hodge基不替代这些输入。
+
+
+**R748（原signed CM根公开计算请求）**：以[R747](results/R747-global-real-square-root-of-original-toric-period-product.md)的T²=2NP及整分母为输入，复用R745原N和R717精确P；严格CM二阶导数球选择原有符号根，exact square验证，再给原六Hodge基的coarse首系数(9/14)Tr(β^jT)。[方法](notes/R748-original-signed-real-CM-root-and-p41-Hodge-first-jet-method.md)已完整写出，实际结论待公开Actions返回；不推断原q、β或高度。

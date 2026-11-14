@@ -69,3 +69,8 @@
 - R745正式登记公开run43616027318：原六维Hodge基800项、40p向量/N、80平移/819边/87961端点已成，原ℓ739六行minor407独立性，核心0.654秒。
 - cert SHA7fdac934ab8be401afbe793c9dd6d790bba2dc1f39cdbb134fc51748870816be，完整两表仅artifact；原αs/CRT6逆元/ζ²一次transport/微分246全部保留，未重算R738拓扑与R735模型。
 - HANDOFF/open/index同步，继续R748原signed T及R751同一period核压缩；原q/β/高度未出。无本地数学重算或新共享设施修改。
+
+## 2026-11-15 00:45 Asia/Taipei · serre-public-resume-20261114
+- R748原signed T方法与专用公开Actions请求提交：复用R745向量/N及R717原P，严格CM二阶导数球定±、精确平方恒等式及原六Hodge首系数；数值结论待run。
+- core SHA6b34e4946907cb657cb68ce585e43b8ef31295be36e3f700966daa0d4f133d7c，方法SHA60fea71514ab81922af3403b705c7f2ffb3296352568d75ba6e2ed1bdf93f113；本地只做AST/路径/SHA核验，无数学运行或旧纤维/AFE/DFT重算。
+- R745正式结论已推028768d96e2efec6374a48f128a7ef673a4b86bf；HANDOFF归档压缩并与open同步。复用既有publisher，无共享设施修改。
