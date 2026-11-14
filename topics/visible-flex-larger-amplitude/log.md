@@ -268,3 +268,6 @@ run43648987661/source d625bb29/job132613023557 原warm、新FD、上传、发布
 
 2026-11-14 23:38:06 UTC — /root GPT-6 Astra Pro: 保存同g真实既有v4链与live接线缺口ee1ce7ca；确认全p*/g冻结、K=k=0/T=M，699二分1397须在prepare/full两处显式配预算。
 原224/576桥不能冒更高M或不同尾网格，61失败未有接受锚；先修native真实求值路径。61原件reader真实run43654012687/source49dcce74已运行，不设科学门。
+
+2026-11-14 23:39:55 UTC — /root GPT-6 Astra Pro: 保存21独立只读reader0feeb16e/接口ed027052，完整43008×7101/真实6763/零B484 typed身份核，仅原audit_domain与声明变动。
+共享completed-readback workflow增加prefix21两路及父身份参数接线，原native61 request不改且仍运行；原数值先保存，字节核不作新科学门。

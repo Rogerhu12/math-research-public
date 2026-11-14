@@ -1,0 +1,60 @@
+{
+  "scope": "Source/AST/literal checks only, no mathematical or receipt execution",
+  "source": "root_20261114_read_completed_twenty_one_prefix.py",
+  "bytes": 49785,
+  "sha256": "0feeb16e350d06ed03abb93c8ff80dd6e9e10a2703d47135f3c36ee3c289ea3a",
+  "frozen_parent_reader_sha256": "cf93537dadafa72cbe042a453cbe9a1cec0aca4cf1a25a0d979cca3cdb0b2f2f",
+  "identical_function_AST_names": [
+    "require",
+    "sha",
+    "json_bytes",
+    "canonical",
+    "write",
+    "decoded_bytes",
+    "read",
+    "original_json_path",
+    "receipt",
+    "safe_path",
+    "scalars",
+    "compact",
+    "walk",
+    "subset",
+    "descriptor_file",
+    "fetch_original",
+    "midpoint_view",
+    "collocation_view",
+    "selected_domain",
+    "selected_angle_view",
+    "trial_view",
+    "preserve_original_reports",
+    "readout",
+    "array_header",
+    "array_identity",
+    "check_array",
+    "npz_file",
+    "combine_parts",
+    "source_audit",
+    "audit_condensed",
+    "audit_root_raw",
+    "audit_observers",
+    "main"
+  ],
+  "only_audit_domain_function_changed": true,
+  "current_source_pins": {
+    "geometry_20261114_twenty_one_query_domain_operator.py": "0007a3dd345cb60172c75ef6490fa3f0bbcfdc178be90e532120302fc6c15a65",
+    "geometry_20261114_twenty_one_query_condensed_warm.py": "b7956525ce484c4ed17724c2d84c04b6080688e2d0afc8367c5ba46cbf8626f2",
+    "geometry_20261114_twenty_one_query_condensed_response.py": "d1da3a179bc05d346406961b81fc233e6edd098810bd6834537bc50d33901301",
+    "geometry_20261114_twenty_one_query_collocation_observer_warm.py": "b99c6e4d40abaf426c189b241b718b8847562e92a7cdb90b6fdb31d6505587de"
+  },
+  "expected_full_shape": [
+    43008,
+    236036
+  ],
+  "expected_local_shape": [
+    43008,
+    7101
+  ],
+  "actual_query_column_union": 6763,
+  "declared_zero_B_node484_retained": true,
+  "no_actual68_artifact_identity_invented": true
+}
