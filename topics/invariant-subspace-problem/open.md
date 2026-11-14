@@ -156,18 +156,17 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 
 **原文续查边界。** [完整记录](notes/2026-11-14-current-isp-literature-refresh-789f-next.md)及Garayev第二分支必零构造已付；这些原文仍不支付同源预算、原graph或真实最终零矩。
 
-**原尾中央窗口与实际增长率。** [平方根窗](notes/2026-11-14-original-continuous-tail-square-root-windows-full-central-phase-bound-789f-next.md)给任意固定c下Q≤c√x的统一κ_c；[宽窗定量定理](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)进一步给偶Q≤x时Φ≤25exp(80Q²/x)，同Q≈x仍有明确指数费。真实整个V/U与两逆均保；原祖先宽度/起点和无限尾Schur须准确接线，跨段与两侧费继续。
 
-**七真关系下一位已实际完成。** [完整回执结论](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)：A+新完整β秩1，j6/9相容、其余七仅在固定mod31初值(x0,0)下受阻；九原余均非零。两正列已全乘回mod31⁴，剩余接完整相关第二像；不外推全部有理来源。全部38恢复/七阶段cache已入主线，无需重七列。
+## 最新完整接续
 
-**固定标准＋七常数除列路线已排。** [九目标实际有理排除](notes/2026-11-14-r150-all-nine-targets-outside-fixed-standard-seven-rational-family-789f.md)由单位子式和真carry公式，将九raw modU非零升为h0t_j∉im_Q P∞，所有费用B皆失败。只提高旧标准族预算无效；继续sB调整、新除列和完整增广来源，不把固定族外推原全部A的有理像。
+**原连续尾与真实graph。** [宽窗相位](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)已付原偶段Q≤x的完整中央源Φ≤25exp(80Q²/x)，任意c平方根窗另有统一κ_c。原s≈q/x≈m不直接满足窗；[完整换权](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)保左/普通右/裸商及flat=L̃G̃L̃，[真primitive平移](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)排统一范数免费搬运。D,D*共同不可约不排普通不变空间。真实t_q、同源Γ/flat抵消仍开。
 
-**新秩下界已提高。** [真实第八除列](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)由7003/cost87给rank_Q A87≥226090；旧最小秩226089前提已排。继续目标实际Q像与全部饱和，不把31³除源当作已证恰第三Smith层。
+**真head-graph加位。** [完整左Schur](notes/2026-11-14-one-bit-full-head-graph-schur-and-fixed-low-hole-feedback-789f-next.md)保Γ_q/Γ_(q−1)、顶边R及旧全核Π；余项是真(A+D)一次MP费。固定低孔s的增量及全部高孔最小反馈≤a²c_s²||y||²，不依大头d/截止q。下一必须把未来bare商、普通右G/flat及真Z_q^-1后的来源共同接上，不把固定低孔界当moving birth已付。
 
-**原尾换权。** [完整接口](notes/2026-11-14-original-tail-star-interface-irreducibility-and-full-cost-transport-789f-next.md)给D,D*共同不可约；左/右/裸商准确运输，但flat=L̃G̃L̃和负图度量不能分离比较。标签局部化与同源Schur仍开。
+**R150最新实际来源与下一完整初值。** [七关系run](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)给A+完整β秩1，七固定初值障碍；[pair实际成功](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)已付j6/9的原31h0模31⁴/cost87。九raw全315最小ann(s−1)(s−2)²，商U8后剩七列为一维s−2。全部结果/来源/阶段cache均已入主线，不重已成七列或两正列。
 
-**原primitive平移。** [精确费用](notes/2026-11-14-original-tail-primitive-translation-cost-and-phase-window-mismatch-789f-next.md)给远移核条件数指数下界、单移二次型~c_xs²；只排统一范数搬运，实际t_q与Γ/flat抵消仍开。
+[固定单位列族](notes/2026-11-14-r150-all-nine-targets-outside-fixed-standard-seven-rational-family-789f.md)的九目标所有预算有理像已排，仅限旧全部标准来源＋七常数除列；[第八真除列](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)给rank_Q A87≥226090，旧226089前提已排。完整原有理像、Smith恰层和精确秩仍开。
 
-**真head-graph一位接合已付。** [完整Schur](notes/2026-11-14-one-bit-full-head-graph-schur-and-fixed-low-hole-feedback-789f-next.md)保Γ_q/Γ_(q−1)、顶边R及旧全核投影；新增余项是真(A+D)一次MP费。固定低孔s的增量及高孔最小反馈≤a²c_s²||y||²，不用全头条件数。下一付未来bare商及真实Z_q^-1后的源控制，不能直接代原joined图。
+[七新核与相关第二像完备性](notes/2026-11-14-r150-seven-augmented-second-kernel-and-primary-completeness-789f.md)把全部A+初值自由在1/2部分缩为七φ。真实c已给，剩余目标确在该部分；只新VQ7/K4和原模31⁵计算，正向先尝试完整315无投影身份，必要才保真谱投影及其费用，最后原17式乘回31²h0。两正列直接乘p复用。负结论限A+所有初值，不扩原全部有理来源。普通ISP完成标准不变。
 
-**两正列与准确下一空间。** [实际pair成功](notes/2026-11-14-r150-targets6-and9-full-original-mod923521-and-exact-eighth-action-789f.md)给j6/9原31h0模31⁴/cost87；九raw完整ann(s−1)(s−2)²，商U8后剩七列为一维s−2。只新七φ的相关δ2，正向恢复全部原式31²h0模31⁵；两正列乘p复用。
+本节此前逐条状态和所有数据入口保[本次完整open快照](notes/2026-11-14-open-before-augmented-second-interface-789f.md)。
