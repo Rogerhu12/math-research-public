@@ -34,7 +34,7 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 21工厂12/92合并det失败，evaluate0，未留T不能反填。22/v2 run43604874829全部576stage工厂成功、41有限rounded det0；261→262第112模真实−5e−324/u275.882…→0被新私有veto拒；candidate=false/evaluate0。全部原件及实际notes已保，publisher漏lane已补，不重算。原native没有此内部非零保持门；R264完整舍入损失账已证。
 23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已取核。完整577×224候选、原noJ一次、576stage全部guard过，norm **0.04177307820740199**（旧1.3414e7），仍远于原2e−9。最坏stage10/raw0/seg7/Pi95，res−2.1596910e−16/原scale5.1700548e−15；零线性块norm1.67490e−5另计，不能互代。cut/far112行皆浮点0；API不返回minA/minD，不伪造。native solve/J/audit尚0。
 51真下溢=47除/4乘、25负零；完整operand/result/双原scale bits保全。恢复9546负零后candidate完整binary64 SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8，原scale SHAecbfd55d…；71chunk SHA/顺序/维数核。summary aa93fb8a…，完整note public-same-RK-candidate-v3-actual23。
-25/nativeseed已推source4d384dc5：独立native_candidate_seeded_solve.py afa2588d…/hook22fa88aa…，root全文读。只首次同17 H注入23完整candidate、predicted=true；原solve/retainIteration/trials/J/audit/容差不改。保17/19/21/22/23源/config/live方法/graphs/gains/far身份，6144MB，单次原TailClient.solve(J=True,audit=True)。不走checkpoint remesh/零幅比预测/cache，不接prefix outer，不以probe冒接受；原trace/checkpoint/完整J审计失败仍保失败。
+25/nativeseed真run43607404925/source4d384dc5/job132484959081正在原完整求解：独立native_candidate_seeded_solve.py afa2588d…/hook22fa88aa…，仅首次同17 H注入23完整candidate、predicted=true；原solve/retainIteration/trials/J/audit/容差不改。保17/19/21/22/23源/config/live方法/graphs/gains/far身份，6144MB，单次原TailClient.solve(J=True,audit=True)。不走checkpoint remesh/零幅比预测/cache，不接prefix outer，不以probe冒接受；原trace/checkpoint/完整J审计失败仍保失败。
 
 ## 之后的完整闭合与同g精化
 
