@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：95c7357ed99e5792b43fe52085ece838b944d197；2026-11-14 08:20:45 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：cd2c2b616b6c28fab8f3fdd89a59865f947fbf2a；2026-11-14 08:29:22 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -14,9 +14,9 @@
 
 ## 当前发布、环境与分工
 
-R1–363、R365–456已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
+R1–363、R365–456、R458已登记；R364仍开；R235/R237丢失检查点已重做推送。results.md与notes/PROOF-INDEX.md保全部证明导航。
 当前路径`/workspace/scratch/4fe3fb9f2a50/math-research-public`，main部分/稀疏克隆，仅检出本课题。迁入快照含旧R1–436；旧库未推R437、R438及两批完整计算已搬入并发布，旧路径只读历史。
-迁入后的R437–450均已逐条推送，完整提交记录见本课题log；最近R448=d3b46744f179、R447=0574420e8ec8、R449=f32cf015bf32、R450=add08fd0e283。R451已推4a80fc15eb9c，R452已推e436b217ed51；R453已推770024d97344，R454已推dd304ca09623；R455已推238a95abdded，R456本次登记。theta与literature续混合Y的原Z/c补域及真实算术导数关系；deep续实际ℓ1逃逸/一般因子的真正相对第二层；theta R457、literature R458预留，保完整中央基准。
+迁入后的R437–450均已逐条推送，完整提交记录见本课题log；最近R448=d3b46744f179、R447=0574420e8ec8、R449=f32cf015bf32、R450=add08fd0e283。R451已推4a80fc15eb9c，R452已推e436b217ed51；R453已推770024d97344，R454已推dd304ca09623；R455已推238a95abdded，R456及即时范围更正已推d35f2c1238df/a72491f91294；R458本次登记。theta与literature续混合Y的原Z/c补域及真实算术导数关系；deep续实际ℓ1逃逸/一般因子的真正相对第二层；theta R457真实五sigma输入、deep R459原t因子；literature续参考非齐次差向S的真实混Y关系，保完整中央基准。
 
 ## 固定对象、完整标准与可恢复检查点
 
@@ -34,15 +34,15 @@ R454现固定rayπ0≡1428552127+2161889730ω mod2793510720，为原ray加π0≡
 
 R445/448完整三坐标、真实RY及联合carry整逆；R441/450原X6和正U六矩、全法向五阶与原同深管，全部显示常数/逆变换/补域在notes/2026-11-14-frontier-through-r453.md。核心接口：Y=Z+c、X=H−c、W=Z+H、Q=9Z−17H、A=Q+26c、U=Q−280c，Ψi=KAΦi=RYΦi且固定X/U；D_n={Xunit,Wdeep n,U−280Xdeep n}。同一来源完整两层carry回原JS′，内部v5n但不删补域。
 
-R451真L+=L0+(L1−LR)/2有D特征+且忘U principal仍K0；Γ+的U-core q=−ηλ标量。于是所有Udeep r/精确环带的完整h(X)行都是JS的已付单位倍，JS′=0确实传至Uunit。L+ H边际全零、第五项−800dΩ5I1σ/7unit，故同D_n每n≥1均v5n；余下抵消全在Y/Uunit内。固定j1..6三态六矩不含精确S的特征零完整证书已保存，不冒称每modp同秩。
-
-R452把R450真正限制到Uunit：Bp=M0+ηλM1diag(κ^j)为原整可逆微扰，有限逆给三个指定测试1_Uunit Pk,p，完整抽S/H3/H5。S测试与hS差p，新logc质量βc=−ηλe6ᵀM1Δκc∈p保留，首五阶仍unit，同D_n每正偶n仍v5n。用一次A核送入Ψ0的真第一层单位carry：整个同测试=λJS′，内部斜管=λC×_n、v5n；所有补域在同一来源和同一测试中保留。
+R451/452完整D+原行、所有U环带零传播和真实Uunit提取/第一carry检查点见notes/2026-11-14-frontier-through-r456.md。L+=L0+(L1−LR)/2保原principal且D特征+，U-core=−ηλ；同原D_n所有n均v5n。R452保新logc质量，不把内部非零或源提取当主非零。
 
 R453已付完整T/V计算格及一次p饱和原返回：m=ceil(6J/47)、c=12m≤36、物理w^(3m)全单位及至多18条carry均保；原两来源次数二连接全部十二类余量一，k次总D+2k+c，真K2/d2按整交换图运输。原S/T完整中央不变，全局门仍aI+2bI<3；新增角列和来源饱和未赋物理相对p²类。
 
 R454已付Vres=Z−33H、Gram33/18480；g=1 mod66给全odd33实际χ，两个norm12/21原sigma联合锚付χ²=1。Z/Vres核心为χλ、−ηχλ；保原c后Vres核严格保Y。Tc=Z−33c的核心在principal行为−χλ，Vres/Tc所有矩形深域/环带真实标量返回。H轴=9Vres、J轴=9Tc，X=(J−H)/297；H深n取规范X=(J−H/κ^n)/297才回原任意h(X)，原X6须保完整剪切。无权管首项Iσ,−5仍未付。
 
 R455已付Tc=Z−33c的六个正次数6k（k1..6）完整六维矩阵，固定h=Σc_k b^(−k)(Tc/Ω)^(6k)抽原S；单位修正分母1+χλκ^(6k)仍全源抽S。Vres核心保持Y/Tc，因此{Vresdeep n,Tcunit}完整中央=βT^n JS′，βT=−ηχλ。真实D_n={Z,Vresdeep n,cunit}内同测试首五阶模p=dα/b，α是证明式35显示非零有理数；删固定E={p|17 L numα}（L及α完整在R455）后每n≥1值v5n。全部log正矩保留；唯一剩余补域是该slab内Z∉p^n、Z=(33Y+Tc)/34。不能再免费把完整零分配给Z深度。
+
+R458原两输入ρ=σ(c)⊗(−2S/3σ)(Z)全保，σ/Z core分别−λ、χλ。六Tc行Γk质量μk=(1−λ)M5k b^(k−1)，E_k=1+χλκ^(6k)。实际全单位行EΓ=aA(κ)+sB(κ)+C；A为Z深（首阶5），B为c深（新固定β/b单位首阶1），C为双单位且Y/Tc不相消。Y相消环带按Y/p^r归一为λ^r exp(rℓu)EΓ，Tc相消按Tc/κ^r为(−χλ)^rEΓ，ℓ=dlog(κ/p)非零。正Tc测试同时抽S/H3/H5，两个参考真实环带差=rℓ(1−λ)非零，未知参考导数全消；S对应质量零故右端零。删显示固定有限坏集（R455加β/δ与参考分母），S零时C′恰v1，C质量也v1；原v5n管不独占。需真混Y来源关系接参考差，不删无限Y深尾。
 
 ## 当前惰性原矩阵与其余开放线
 

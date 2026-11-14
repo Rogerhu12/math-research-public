@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R458：原两输入完整补域与参考相消支非齐次差](results/R458-original-two-input-boundary-and-nonhomogeneous-reference-carries.md)：六条固定来源、真实Z/c单单位支、两近相消支与双单位主块全对齐；两参考真实环带差消掉未知导数，留下非零r dlog(κ/p)(1−λ)。原c深支首阶一、S零时双单位主块亦首阶一，完整补偿和无限Y深尾均保，尚须真混Y关系接回S。
+
 - [R456：完整来源饱和与原首核的强迫角因子](results/R456-actual-cubic-contact-and-two-carry-first-lift-obstruction.md)：次数二来源饱和加强到fD<p；原三块最低行严格迫每个真实首核被t整除。所附单位余因子三次局部提升引理代数正确，但在当前原格无实例，已纠正此前非空排除表述；下一步须处理真实t^r因子及其逐角层电荷。
 
 - [R455：纯伴随正次数原S提取与保斜轴完整中央](results/R455-original-pure-companion-test-and-slope-core-arithmetic-return.md)：六条正Tc矩完整张成六维来源，固定无常数degree36测试精确抽S；真Tc单位修正后仍保持Vres核心，原零确传全部深slab。全法向五阶只含六个正sigma矩，删显示固定有限坏集后同D_n每正n值v5n，余项准确为同slab内Z外域。
