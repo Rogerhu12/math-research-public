@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43638232415",
+  "reviewed_pull_history": [
+    {
+      "before": "1667d34cf3f96c1c6fd0fd826518246396897495",
+      "after": "1667d34cf3f96c1c6fd0fd826518246396897495",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "1667d34cf3f96c1c6fd0fd826518246396897495",
+      "after": "1667d34cf3f96c1c6fd0fd826518246396897495",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/complex-inner-root-first-Airy-forcing.json.gz",
+      "bytes": 51084,
+      "sha256": "41dc8aace27c9eaa7e10154c1ec0f5f590d945a66f2c1b4d8765ab213cb0063f",
+      "original_sha256": "41dc8aace27c9eaa7e10154c1ec0f5f590d945a66f2c1b4d8765ab213cb0063f"
+    },
+    {
+      "file": "consumers/complex-inner-root-first-Airy-forcing.stdout.log",
+      "bytes": 118,
+      "sha256": "f48db5510b84e03e0db2638f5fccb9904881cd220ec584f0d9e3bf53e297c2dc",
+      "original_sha256": "f48db5510b84e03e0db2638f5fccb9904881cd220ec584f0d9e3bf53e297c2dc"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 43790,
+      "sha256": "f8ab9fbf35c39df97f7318e3b71d1c1f08dba6a62290a8ab3144fe7f7446a274",
+      "original_sha256": "f8ab9fbf35c39df97f7318e3b71d1c1f08dba6a62290a8ab3144fe7f7446a274"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 33880,
+      "sha256": "acf151191a0ff172ff56fe2634b5d8c5a40113cee7664a554269dfabf3d6576c",
+      "original_sha256": "acf151191a0ff172ff56fe2634b5d8c5a40113cee7664a554269dfabf3d6576c"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2356,
+      "sha256": "0095009ea377af94c727b8dc0ddc923270c40149f2241186290abbe58d21ab0a",
+      "original_sha256": "0095009ea377af94c727b8dc0ddc923270c40149f2241186290abbe58d21ab0a"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}

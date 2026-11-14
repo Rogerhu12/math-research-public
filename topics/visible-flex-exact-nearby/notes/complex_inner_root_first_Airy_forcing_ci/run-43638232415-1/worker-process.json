@@ -1,0 +1,49 @@
+{
+  "kind": "actual_public_complex_inner_root_first_Airy_forcing_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43638232415",
+  "run_attempt": "1",
+  "workflow_commit": "242092cfc86d1b506b0c81f12b4e329fde5dcbee",
+  "worker_sha256": "2bd1308cc6658df59fae911251b51c23ad106aa8f1df4d672f6e69d33781d8c0",
+  "manifest_sha256": "4d76f6f1379fde842a9c58ec30943e0af463d1e34e0b5b9dd709c3c0c9791a73",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T20:35:16.829418+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "1667d34cf3f96c1c6fd0fd826518246396897495",
+      "after": "1667d34cf3f96c1c6fd0fd826518246396897495",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "1667d34cf3f96c1c6fd0fd826518246396897495",
+      "after": "1667d34cf3f96c1c6fd0fd826518246396897495",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_fold_ray_and_leading_amplitude_solves_recomputed": 0,
+  "original_completed_zeroth_order_coefficient_values_recomputed": 0,
+  "original_artifact_receipts": [],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-complex-inner-root-first-Airy-forcing-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complex_inner_root_first_Airy_forcing_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-complex-inner-root-first-Airy-forcing-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-complex-inner-root-first-Airy-forcing-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-complex-inner-root-first-Airy-forcing-CI-inputs.json",
+    "--manifest-sha",
+    "4d76f6f1379fde842a9c58ec30943e0af463d1e34e0b5b9dd709c3c0c9791a73",
+    "--out-dir",
+    "/__w/_temp/visible-exact-complex-inner-root-first-Airy-forcing-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-complex-inner-root-first-Airy-forcing-science/originals"
+  ],
+  "complete_original_inputs_verified": 22,
+  "actual_scientific_checkout_commit": "1667d34cf3f96c1c6fd0fd826518246396897495",
+  "mathematical_wall_seconds": 0.5647182949999987
+}
