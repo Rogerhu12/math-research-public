@@ -43,3 +43,5 @@
 - [R19：C4 外尾相位唯一性与非负 D 的正 C 分支排除](results/R19-C4-outer-tail-rigidity-and-D-sign.md) — 已将解析外尾唯一性推广到任意非零四阶首项的 C4 输入，并用不除 L 的积分恒等式排除 C>0、D≥0 的双端归零。不是一般曲面刚性定理。
 
 - [R20：实际几何 D 恒零与八系数限制](results/R20-geometric-D-zero-identity.md) — 已证明全 profile 坐标上的点态恒等式及仿射不变性；R13 固定 D=−8 不可几何实现。结合 R19 严格排除内部 C 不变号的简单端根四阶分支，未排除其他机制。
+
+- [R21：D=0、C恒零的有限光滑 profile 刚性](results/R21-zero-C-profile-rigidity.md) — 已对全局 C3、有限分片 C4、双端 q/q′零证明：非零解只能落在全部八个几何系数同时零的算子分支。保留零算子例外，不外推内部变号 C。
