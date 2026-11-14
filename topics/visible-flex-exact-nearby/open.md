@@ -150,3 +150,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 锚定辅助fold与直接leading二阶合同已证，执行两成功复域
 
 [F1–19](results/R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md)把原准确root锚与已成complex thirdjets合用，按R=3Ra/4两case重付完整flow、Jacobian和inverse域，再用有限mixed jets直接付leading二阶，避免常数项的小域R^-2 Cauchy费用。拟域未先声明通过，phase继续最小scalar consumer。原base mean只加一次exact repair，方向用完整repaired Z[96]；原1079物理seam、全IJ/独立mean和外片L0w1继续保留。
+
+### 四格完整矩阵actual已成，接同一生成元的方向核
+
+[实际报告](results/R133-supplement-actual-four-full193-cached-local-matrices.md)核43645186441的11门/child0与61.75MB完整artifact，4个原系数格均通过。后续复用全部4个矩阵文件；用完整[Q96,N97] frame和同一F的endpoint patch建立连续三角块，再保signed矩阵递推和source Gram cross项。真实primitive/mean、两端waist/97帽列与浮点坐标跳完整付原Green；不能直接把局部inverse或4格判为全BVP。

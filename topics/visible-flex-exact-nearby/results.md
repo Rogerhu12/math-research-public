@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **四格完整193方阵的实际连续证书**：[报告](results/R133-supplement-actual-four-full193-cached-local-matrices.md)。43645186441 child0/11门；原0/76/3300/5969四格全193输入、两方向degree24、全部新舍入/整格inverse/真实生成元差已付。完整4数组保实际公开artifact14133504273与逐数组hash，0旧target/validator/Green；后继使用同一patched F及真逆或保全部差/跳，尚非5970全Green。
+
 - **真根锚定的辅助fold与完整直接leading导数（F1–19）**：[证明](results/R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md)。利用原真根锚、完整δ均值和两已付复三阶域，给k/η相关缩域、A−a*的3/5径向费及完整flow/inverse门；直接支付leading全部二阶与QK完整forcing两行。只在原piece交内识别物理解，辅助零seam不删除全局原seams；新数值门待Actions。
 
 - **精确fold消去后六窗完整源的实际界**：[报告](results/R133-supplement-actual-exact-fold-cancelled-source-budgets.md)。公开43642808159 child0/8门，6scalar jets/4377新积分；全部旧profiles/tensors/1328矩阵moment/权和接缝0重算。最小窗负源<713579.527495、负primitive<108158.346702，最大窗负源<5093852.021530；完整mean/正collar和body分别保。此为完整upper改进，不授强返回或cutoff97。
