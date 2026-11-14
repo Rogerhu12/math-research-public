@@ -527,3 +527,7 @@ finish12门/child0/6.851227657s；native `770106a925812df4fc380785ca3e715b2a30a6
 ### R133：实际64个同germ Taylor缺点及完整Hessian（2026-11-14 19:51:06 UTC）
 
 [实际报告](results/R133-supplement-actual-missing-midpoint-Taylor-Hessian.md)：43633412397 child0/26门，40.001434s（native32.561317s）；64派生中点、64新残差、16local更新，0target，原7844及1325未受影响行逐字保。真实诊断16fallback原预算占selected数值majorant约.99988877662；按完整四源比较后选tight-split，additive<5.884046519508e−7（原6.417342110712e−7），物理Hessian源<5.861450832307e−7，原resolvent不变。native `f85bddc8c1ac7e30a6790818fb52596c88e193fff9312cd4f2bfe20b07549759` 7538124B/4片；process `2fbb9f43f25d99e8bedccc0ddcde1993c8d15f45385121411928bcba5104c23e` 26846B、summary `3b04068d298d303d4ebc58f6003fc5a3b326ad8905a9c5f0ee3b4d812e4526df` 29251B均root亲核。26门/4真pull至365e1c40c0ff0357a8915fda4c3ec5427842c0e1、README空diff保。尚未执行本次同Z Green转换，未声称响应1/200；继续只补真正缺失的原生点，不重算已有whole域。
+
+### R133：实际Taylor Hessian到同Z Green的279pin后继（2026-11-14 19:52:32 UTC）
+
+[合同](notes/2026-11-14-R133-Taylor-Hessian-cached-Green-contract.md)及五件已推。root/tail比较新source与原成功270pin消费者：真实cut转换、14项完整物理费、原unknown误差operator差、independent mean/odd96/完整97/knownhigh及6391右通道正性重标定公式均保持；只换完整Taylor输入身份和元数据。279pin完整继承原270及Taylor189各pin零改。source `0412a33c1c99e91ea749269af63372b39c9b1cc8182c790f5a9681e64d29dca7`，最终manifest `1546435f370d1e8433544a02a9d2b166ee357e31a4fff02a0a3fb4a80b9ce89a`。原Taylor已完成，新增push入口准确读43633412397/1，仍必核真实成功process/child0/native科学身份；未重跑Taylor。仅新界消费，实际结果待核。

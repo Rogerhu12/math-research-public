@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-14 19:51:06 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-14 19:52:32 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权与真实同步
 
 只在 Rogerhu12/math-research-public；一切新数学只在该仓库Actions。每结论独推；非FF立即真pull --rebase再推循环，禁force。root管main/H/open/results/log，代理交小blob。PAT仅瞬时CLI/env，禁文件/输出/提交/connector。
 本地最后成功真pull为12:34 a9c7fc8c12d3e5f43b6632ed24ebef40aced5145，12:35终端失联。root最近真pull尝试：2026-11-14 19:44:20 UTC，No usable execution environment。每小时再试；非FF即时再试。规则8暂准connector<100KB文本，先查size，任何binary/gzip禁取；新摘要≤60KB。API不冒称pull，终端恢复即回git。
-最新远端 main/两README blob 核：e82acf5c9c5576221cf877b3e0abfde5ac7b781d；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542。rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1；driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最新远端 main/两README blob 核：9b2f8c54c8ce12f714516acfd5aa66f9d18aff6f；根6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读根diff ee26c0a65a2e63c15f2ccfba6714181584416542。rules fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1；driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 reviewed runner长算每10min真pull；phase child45/outer50min，前后真pull/README差异核；每次真实检查及失败/native全部保。root已亲核下列actual process的真实pull及空README diff。
 失联checkout /workspace/scratch/0df957a82d09/math-research-public → /tmp/visible-exact-0df9-workspace/math-research-public，objects /tmp/visible-exact-0df9-git-objects。
 此前9769B H逐字归档 notes/2026-11-14-handoff-before-kernel-and-Taylor-actual-results.md，内有9728/9928/9806等全部更早链。完整历史SHA/失败/参数和合同见results索引、相应actual报告及manifest。**已成数学不重算，不能把publication失败当math失败。**
@@ -27,7 +27,7 @@ geometry43584188751/26门仍条件：同η0真闭C²解、fullC0≤1e−4、|δ�
 quarter43626024582：1977×4=7908全cover，native770106a9…/12门/6.851228s，physical<3.601796223643e−8及14fees。仅恢复首1023+末100，旧641+6中段逐字保，两旧失败保留。原6段/whole target禁重launch。
 Hessian43628443697：184pin/child0/21门，7844残差/0target，1341local/1977交集，16行64缺mid fallback；native8d652d25…28761355B/15片，add<6.417342110712e−7。root核7真pull至f52c1b2f1bb4cd1ad3fb136a70282c504ce89d08。
 Taylor189pin43633412397：child0/26门/40.001434s，64派生点+64新残差/16local、0target，旧7844/1325未影响行逐字保。16fallback原数值majorant占.99988877662；tight-split整套add<5.884046519508e−7仍不足。nativef85bddc8…7538124B/4片，process2fbb9f43…26846B/summary3b04068d…29251B。root核4真pull至365e1c40c0ff0357a8915fda4c3ec5427842c0e1、空diff；本次actual报告独推。继续只补真正未保存的64原生point，保7908 whole/7844及Taylor64新残差。
-270pin Green43630194680：child0/8门/6391原profile仅重标定右通道；nativeff198229…3992860B，负窗body<.003051713268/right<.007604530152/总<.010656243445033（1/200 false），全内<.022744910832106。真97负荷2.291173591508e−6，physical3.601796223643e−8/moving6.778910212877e−7、14fees/mean/knownhigh全保。root核4真pull至73a16af68481e342d6194ecd7705fbb160afaa4b。Taylor→Green279pin五件已独核待推，只换新的完整Hessian输入；旧6391传播/其他三源不算。
+270pin Green43630194680：child0/8门/6391原profile仅重标定右通道；nativeff198229…3992860B，负窗body<.003051713268/right<.007604530152/总<.010656243445033（1/200 false），全内<.022744910832106。真97负荷2.291173591508e−6，physical3.601796223643e−8/moving6.778910212877e−7、14fees/mean/knownhigh全保。root核4真pull至73a16af68481e342d6194ecd7705fbb160afaa4b。Taylor→Green279pin五件本次推：source0412a33c…/manifest1546435f…，原270/189pin零改。push准确消费既成43633412397/1，仍强核child0/source/native；只换完整Hessian输入，旧6391传播/其他三源不算，待actual。
 普通L²核97pin43633074696：child0/9门/185.005037s，6391新4×4Gram+6391全cell核，原93pin/5970接口/virtual waist/独立mean不变，0旧Riccati/target。nativeac4441cb…18075636B/10片，process7689ee4f…8121B/summaryfd88f3dd…20010B。普通L²输入→负窗L²<10488.564543774，全内L²<22386.327560863，C0<181981.908212897；真实边界单位列另保。root核4真pull至feb5a20e5e99b58515667500f7d5ce4fb61a8b82、空diff。本次actual报告独推。只有限193逆；未知high BVP与真cap无限cross-block未付。
 fixedM32 knownhigh43628921664数学child0/8门/7721行，native5ad8aaad…7508940B/4片，负源<1.415385110e−10/全<1.456146059e−10。发布大诊断失败保；receipt43630093667真6门/children=[]/0数学原样补发。两报告已推；δ≠0/未知反馈仍欠。真实内区M32交叉只high97..160↔low33..96，不能给真cap DN套有限带宽。
 

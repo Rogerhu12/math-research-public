@@ -315,3 +315,7 @@ root读取完整小process/summary、九门、两窗/C0及边界列，核四次�
 ### 2026-11-14 19:51:06 UTC — 实际Taylor二十六门结果独推
 
 root核小process/summary/完整26门、16行diagnostic、五整套分解与所选tight-split四源，真实四次pull/README差异均空。原生和派生midpoint分别记账，继续同一响应与最小必要point-only改进。
+
+### 2026-11-14 19:52:32 UTC — Taylor到Green279pin独推
+
+root已核source/CI差异、完整flow及全部旧pins；tail独核数学无改。connector没有dispatch入口，终端仍失联，故已授权新flow的首次push直接消费既成43633412397/1。root将manifest事件来源元数据改为实际成功event或明确核验run，并相应更新flow摘要；数学source/CI/合同未改。
