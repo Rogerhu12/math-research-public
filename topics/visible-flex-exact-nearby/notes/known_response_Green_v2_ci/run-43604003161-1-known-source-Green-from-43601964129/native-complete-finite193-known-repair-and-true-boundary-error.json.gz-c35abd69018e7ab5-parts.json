@@ -1,0 +1,52 @@
+{
+  "kind": "complete_native_lossless_container_binary_parts_v2",
+  "original_file": "snapshot-c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89.json.gz",
+  "original_bytes": 7900000,
+  "original_sha256": "c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89",
+  "native_kind": "actual_cached_complete_finite193_Green_known_repair_and_true_boundary_sources_v1",
+  "native_complete": true,
+  "native_failure": null,
+  "complete_native_rows": 0,
+  "original_source_sha256": "922ad9c03d4f272d4aeb03ab046f4c32d15b823e05073be3cd64b70fd8951c03",
+  "candidate_sha256": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+  "parts": [
+    {
+      "file": "native-complete-finite193-known-repair-and-true-boundary-error.json.gz-c35abd69018e7ab5-parts-part000.bin.gz",
+      "index": 0,
+      "offset": 0,
+      "bytes": 2000000,
+      "sha256": "72a3992a798c1b5eef5ea2e4069b1e8ec15cd3f7fff0fbff8f549955b65ff510",
+      "compressed_bytes": 1806087,
+      "compressed_sha256": "25c782b1155a3322dc14071f3ca8863013917ed9f77443150f35954c422453a5"
+    },
+    {
+      "file": "native-complete-finite193-known-repair-and-true-boundary-error.json.gz-c35abd69018e7ab5-parts-part001.bin.gz",
+      "index": 1,
+      "offset": 2000000,
+      "bytes": 2000000,
+      "sha256": "9b584e2b4a9c24b3f2491a2b9fbdfb17ab2fefc5c2040aace20285b8b50e3ce6",
+      "compressed_bytes": 1932890,
+      "compressed_sha256": "c57ec30245848dd59f55c0786f75496ba62f3ef8cf378867e4bc76bcef438d45"
+    },
+    {
+      "file": "native-complete-finite193-known-repair-and-true-boundary-error.json.gz-c35abd69018e7ab5-parts-part002.bin.gz",
+      "index": 2,
+      "offset": 4000000,
+      "bytes": 2000000,
+      "sha256": "b9fd6bf07272cc4a098588b235a8a8c06872c389bcf6ec30180d43773c7c70c2",
+      "compressed_bytes": 1919764,
+      "compressed_sha256": "b31f1c2fb24a4ae506f0109a09dbc7821dfc30154e13e19f840e9379837ceddb"
+    },
+    {
+      "file": "native-complete-finite193-known-repair-and-true-boundary-error.json.gz-c35abd69018e7ab5-parts-part003.bin.gz",
+      "index": 3,
+      "offset": 6000000,
+      "bytes": 1900000,
+      "sha256": "e94d8cd63947a5d5d75e6c46e6d46bf6dd32eb733e2fb7a69d625a7705218ca5",
+      "compressed_bytes": 1800774,
+      "compressed_sha256": "2d1fd83fc337a3d7431365d82713eb704f860335b1f156a14e3c3526e7ae959b"
+    }
+  ],
+  "no_numerical_record_changed": true,
+  "original_container_restored_exactly": true
+}

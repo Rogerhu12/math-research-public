@@ -8,7 +8,36 @@
   "workflow_commit": "9bdcff39f3b41d2ec23957758b57b64274a98512",
   "worker_source_sha256": "90e99c182e041aef0604906e3c11f7c73dd21110212eb8d31a486aed3459e5f7",
   "started_utc": "2026-11-14T14:17:17.873425+00:00",
-  "children": [],
+  "children": [
+    {
+      "label": "actual_cached_complete_finite193_Green_new_known_repair_and_true_boundary_sources",
+      "command": [
+        "/usr/local/bin/python",
+        "-u",
+        "/__w/_temp/visible-exact-known-Green-v2-work/science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_cached_Green_known_response_sources_v2.py",
+        "--green-run",
+        "43601964129",
+        "--out",
+        "/__w/_temp/visible-exact-known-Green-v2-output/native/complete-finite193-known-repair-and-true-boundary-error.json.gz",
+        "--green",
+        "/__w/_temp/visible-exact-known-Green-v2-original/native/complete-finite-head-Green-and-distributed-known-sources.json.gz",
+        "--green-process",
+        "/__w/_temp/visible-exact-known-Green-v2-original/process.json",
+        "--repair-source",
+        "/__w/_temp/visible-exact-known-Green-v2-repair/native/complete-known-response-centre-repair-source.json.gz",
+        "--repair-process",
+        "/__w/_temp/visible-exact-known-Green-v2-repair/process.json",
+        "--boundary-source",
+        "/__w/_temp/visible-exact-known-Green-v2-boundary/native/known-waist-and-true-cap-sources.json.gz",
+        "--boundary-process",
+        "/__w/_temp/visible-exact-known-Green-v2-boundary/process.json"
+      ],
+      "started_utc": "2026-11-14T14:17:20.344780+00:00",
+      "actual_returncode": 0,
+      "wall_seconds": 20.00080814799999,
+      "finished_utc": "2026-11-14T14:17:40.345894+00:00"
+    }
+  ],
   "readme_checks": [
     {
       "time": "2026-11-14T14:17:18.350831+00:00",
@@ -25,9 +54,23 @@
       "changed": false,
       "actual_diff": "",
       "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "time": "2026-11-14T14:17:41.392999+00:00",
+      "before": "9bdcff39f3b41d2ec23957758b57b64274a98512",
+      "after": "cface6556de70d522b09c32ead0ccd881e57404e",
+      "changed": false,
+      "actual_diff": "",
+      "separately_read_rules_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
     }
   ],
-  "published_checkpoints": [],
+  "published_checkpoints": [
+    {
+      "time": "2026-11-14T14:17:20.342582+00:00",
+      "final": false,
+      "commit": "bf9752295bcd50fe77f18cd15811a06253bd10bc"
+    }
+  ],
   "original_scientific_sources_unchanged": true,
   "whole_body_inverse_claimed": false,
   "requested_rows": null,
@@ -66,7 +109,7 @@
     "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
     "topics/visible-flex-exact-nearby/README.md": "81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"
   },
-  "last_read_commit": "9bdcff39f3b41d2ec23957758b57b64274a98512",
+  "last_read_commit": "cface6556de70d522b09c32ead0ccd881e57404e",
   "immutable_scientific_copy": "/__w/_temp/visible-exact-known-Green-v2-work/science",
   "actual_input_sha256": {
     "green": "fd6c1f4baa4ec86aab08d4925a0ec9565c3791cbe470b77c2e41549d8f071de6",
@@ -77,8 +120,8 @@
     "boundary-process": "d81f87fb08dde8d1a8501cf4ac2dc71b71f08c542fc39870c0ac8cb0f13f57c7"
   },
   "all_original_completed_source_and_Green_outcomes_verified": true,
-  "snapshot_utc": "2026-11-14T14:17:18.754264+00:00",
-  "wall_seconds": 0.8813254530000023,
+  "snapshot_utc": "2026-11-14T14:17:41.842653+00:00",
+  "wall_seconds": 23.96971236600001,
   "native_files": [
     {
       "logical_file": "evidence/original-boundary-process.json",
@@ -97,6 +140,13 @@
       "file": "evidence/original-repair-process.json",
       "bytes": 22379,
       "sha256": "16de872ce106e05b6add99d8406598de3cc87b94f4533a9fc3bb46294c66366a"
+    },
+    {
+      "logical_file": "native/complete-finite193-known-repair-and-true-boundary-error.json.gz",
+      "lossless_manifest": "native-complete-finite193-known-repair-and-true-boundary-error.json.gz-c35abd69018e7ab5-parts.json",
+      "bytes": 7900000,
+      "sha256": "c35abd69018e7ab5a9fc4b7f5bcc32d5dae4ba5078520fba728376602019cc89",
+      "parts": 4
     }
   ]
 }
