@@ -1,0 +1,69 @@
+{
+  "format": "r150-unscaled197-selector-fixed-request-v1",
+  "author": "Astra-ISP-789f; AI-assisted GPT-6 Astra Pro",
+  "created_utc": "2026-11-14 23:43:40 UTC",
+  "source_mathematical_run": 43653360404,
+  "source_data_commit": "21ebea18a0fcfa9daea95cfef6601e898aaf9ccc",
+  "mathematical_seconds": 10,
+  "memory_mib": 512,
+  "inputs": {
+    "prepared_system": {
+      "path": "topics/invariant-subspace-problem/notes/r150-197-third-actions-789f/43653360404-1/certificates/prepared-197__prepared-197-third.bin.gz.gz",
+      "stored_bytes": 72436,
+      "stored_sha256": "cb12c5a66c57d97ce3221beb9baa24c5e09b8fc48aef838f97d87faae8b752f7",
+      "decode_outer_gzip": true,
+      "bytes": 72393,
+      "sha256": "9aa1b6e3fd97a3502d1929633656364277711991ae452e7a1d6c8e63a1823ece",
+      "local_name": "prepared-system.bin.gz"
+    },
+    "complete_system": {
+      "path": "topics/invariant-subspace-problem/notes/r150-197-third-actions-789f/43653360404-1/certificates/complete-197-third__complete-197-third-image.bin.gz.gz",
+      "stored_bytes": 60914,
+      "stored_sha256": "056c2b3d7ea4160858feb03cb5d0d111c75a596e775874a2a14d6d1a1e0f66a2",
+      "decode_outer_gzip": true,
+      "bytes": 61947,
+      "sha256": "d62a5e1705d0cbc0ce0544e65ff47f2c1c76208e5843de0ab9d812e7aebd9796",
+      "local_name": "complete-system.bin.gz"
+    },
+    "prepared_receipt": {
+      "path": "topics/invariant-subspace-problem/notes/r150-197-third-actions-789f/43653360404-1/prepared-197__prepared-197-third-receipt.json",
+      "stored_bytes": 4938,
+      "stored_sha256": "afdc1b2495b22111ae04b25f9d0ddec7c10b803ebb029ffab0257788532b1e32",
+      "decode_outer_gzip": false,
+      "bytes": 4938,
+      "sha256": "afdc1b2495b22111ae04b25f9d0ddec7c10b803ebb029ffab0257788532b1e32",
+      "local_name": "prepared-receipt.json"
+    },
+    "complete_receipt": {
+      "path": "topics/invariant-subspace-problem/notes/r150-197-third-actions-789f/43653360404-1/complete-197-third__complete-197-third-image-receipt.json",
+      "stored_bytes": 21288,
+      "stored_sha256": "c1e2b8e1fcf4c31972e1cc34b253824b39cb3c6a724baac69766761d9f129739",
+      "decode_outer_gzip": false,
+      "bytes": 21288,
+      "sha256": "c1e2b8e1fcf4c31972e1cc34b253824b39cb3c6a724baac69766761d9f129739",
+      "local_name": "complete-receipt.json"
+    }
+  },
+  "source_sha256": {
+    ".github/workflows/invariant-subspace-r150-unscaled197-selector.yml": "f73703df937230600053fab29abff0ca2f36415e1584ae6ab00586ac43ee0543",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-selector-actions-prepare-789f.py": "11d2137caf822f431b5507a281404898a52c30f957cf6f62809224e6d4d4060e",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-selector-actions-publish-789f.py": "d7a38ca8ea6e12914245e2d14fe04d292202dae1128098f5154d09cead834cb4",
+    "topics/invariant-subspace-problem/notes/2026-11-14-r150-unscaled197-first-carry-source-space-789f.py": "e9d03b212662e960e598a56826d495bf326ccb21511e5f2738c5647a29502094"
+  },
+  "rules_sha256": {
+    "README.md": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+    "topics/invariant-subspace-problem/README.md": "40a65616e7a2cdcdc9916585c048b3f66547e71f0627b4abf58e5d3487ce1929"
+  },
+  "account_concurrency_snapshot": {
+    "atUtc": "2026-11-14 23:43:09 UTC",
+    "ownedNonarchivedRepositories": 12,
+    "runningRuns": 2,
+    "activeJobs": 2,
+    "queuedJobs": 0,
+    "queryErrors": 0
+  },
+  "old_original_products_recomputed": false,
+  "full_original_s2_membership_claimed": false,
+  "characteristic_zero_identity_asserted": false,
+  "local_execution_performed": false
+}
