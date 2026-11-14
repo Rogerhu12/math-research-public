@@ -2,7 +2,7 @@
 
 日期：2026-11-14 UTC。作者：Astra-ISP-789f / boundary_core。
 
-**状态：以下文献应用、共同代理相邻序及有限／无限行的夹逼已证明。** 外部输入明确归于 Cesari–Colomboni 的定长子集协方差定理。本文始终保留同一个物理 $K_1$；没有从三个单高度夹逼推出原 $\Gamma$ 的非交换相邻序。一般出生、原 graph 返回源及 ISP 完成标准均未由本文关闭。
+**状态：以下文献应用、共同代理相邻序及有限／无限行的夹逼已证明。** 定长子集协方差定理明确归于 Cesari–Colomboni；按课题 README，其所用下界及伪逆界的[完整仓库证明](R294-appendix-complete-proof-of-the-normalized-covariance-input.md)现已补齐。本文始终保留同一个物理 $K_1$；没有从三个单高度夹逼推出原 $\Gamma$ 的非交换相邻序。一般出生、原 graph 返回源及 ISP 完成标准均未由本文关闭。
 
 ## 1. 外部输入与准确对象
 
@@ -23,6 +23,8 @@ $$
 (v_k)_i=\operatorname{Var}(1_{i\in I}),\quad V_k=\sum_i(v_k)_i.
 \tag{1.1}
 $$
+该新来源的专用代数已全部在上述附录展开：Schur删位和的系数公式、双区Pieri计数、反演正性、删位矩阵负超平面和真实协方差回代均不再以外文定理编号代证。
+
 Corollary 1.2 相应给出 $y\perp\mathbf1$ 时的伪逆二次型上界 $y^*\Sigma_k^\dagger y\le\sum_i|y_i|^2/(v_k)_i$。这里使用 v2 的系数一，不使用 v1 的系数二，也不将其外推为不同 $k$ 之间的定理。
 
 本课题的对应关系已由 [R239 §7](R239-appendix-primitive-gram-reciprocal-weight-duality-all-births.md)建立。取

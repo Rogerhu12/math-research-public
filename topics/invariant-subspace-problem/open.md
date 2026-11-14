@@ -108,7 +108,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R288逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation完整交叉；任意正权birth1首阶S1/S2及两组＋一位整个birth2 S1/S2已付，完整原链接与精确范围保[本次前open](notes/2026-11-14-open-before-turan-all-height-789f.md)。[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆和C²深塔；[五位局部正frame障碍](results/R288-appendix-five-site-obstruction-to-local-positive-primitive-frames.md)排局部张成⇒正Parseval捷径，未否一般泄漏或相邻序。[R293全高度强传输](results/R293-appendix-all-height-strengthened-s1-heavy-bit-equivalence.md)保任意κ>0：全birth首阶加强式等价全部高度同κ加强式，亦足普通相邻κ；[单异常权全birth/全height](results/R293-appendix-one-exceptional-weight-all-births-all-heights-strengthened-s1.md)已经严格c1。全birth统一κ仍未得，普通相邻不反推加强式；S2与原graph各自缺口保留。
 
-[R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)应用定长协方差v2定理，付任意正权birth1全高度½A_n≤Γ_n≤A_n及同源A的Newton块，亦付实际端点/中间A的常数4式与无限正ℓ²固定高度。单高度夹逼本身不补真实Γ中间项；所用新外部定理按README需补完整仓库证明。
+[R294共同对角比较](results/R294-birth-one-uniform-diagonal-gram-comparison-and-common-newton-blocks.md)应用定长协方差v2定理，付任意正权birth1全高度½A_n≤Γ_n≤A_n及同源A的Newton块，亦付实际端点/中间A的常数4式与无限正ℓ²固定高度。单高度夹逼本身不补真实Γ中间项；所用新外部定理的[完整仓库证明](results/R294-appendix-complete-proof-of-the-normalized-covariance-input.md)已补齐，来源正性不再悬空。
 
 [R295 Turán余量](results/R295-birth-one-turan-remainder-law-and-all-height-strengthened-s1.md)完全以实际子集对子分拆证明同源协方差混合和完整平方分解，付所有有限正权birth1全height加强S1的κ=ρ（有限严格）；原连续平方尾j⁻⁴另有统一κ=674/81，含无限物理极限和真正Γ相邻序。[统一常数附录](results/R295-appendix-universal-birth-one-strengthened-s1-by-atomic-splitting.md)进一步以最大原子分区与同源加权扰动付任意正权整个birth1/全height加强κ=1024，有限严格、无限正ℓ²非严格；不依赖外部协方差下界。一般高birth与原graph仍开。
 
