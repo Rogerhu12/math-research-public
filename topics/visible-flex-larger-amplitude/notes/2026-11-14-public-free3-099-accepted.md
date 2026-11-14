@@ -26,7 +26,7 @@
 
 [core-certificate.json](public-actions-43580643038-1-free3/stage-00/core-certificate.json) 用全部96个实际 binary64 系数作为精确有理数，应用 R237 的完整界；没有沿用旧核心的下界。它给出
 
-$$ho(\phi)>0.163850119893507701819938,$$
+$$\rho(\phi)>0.163850119893507701819938,$$
 
 以及准确轴见证差
 

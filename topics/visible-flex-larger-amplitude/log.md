@@ -292,3 +292,7 @@ R238仅条件定理；新有理系数输入检查器待Actions，实际活动tai
 ### 2026-11-14 09:39 UTC — free3 actual 0.99 accepted
 
 公开run43580643038第一段实际接受M96/N1024、423节点、RMS5.45704e−7/BC3.46945e−18，完整两档材料C² metric5.77368e−7、全96核rho>0.1638501198935/G≈.960000980454准确证书保存。第二段只因Taylor2 projector正性初猜失败未启动Newton；保存真实fixed32不接受对照并准备自适应步长，不重复成功第一段。
+
+### 2026-11-14 09:42 UTC — visible-larger: record complete material spectral tail at accepted 0.984
+
+公开材料谱实算：N4096/T96高度C²截断误差.00253633，T768约5.92449e−9但无第二角网证明；旧.984非native上尾cut，不能把原φ96模当完整θ96H。源pack已由原bot普通push。
