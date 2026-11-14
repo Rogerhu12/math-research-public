@@ -87,3 +87,5 @@
 - [R41：弯平尾的局部平角区间与有限解析类排除](results/R41-bent-tail-local-flat-sector-rigidity.md) — R38无需整圈周期；新尾在固定角条带仍平且右Hermite增量恒零，局部尾唯一性跨有限解析径向片迫入口旋转，违椭圆uθ(0)>0。准确Π重构若精确等距亦受限。未给正误差下界，未排一般C2或非解析精化极限。
 
 - [R42：准确尾原函数、共同高度与评价误差](results/R42-exact-tail-primitive-and-common-height-error.md) — 显式Q0/Q1/Q2评价同一准确Π；单h由同一前缀积分锚定。当前同h比较消掉共同高度误差，球与跨片认证必须另证h区间。
+
+- [R43：弓形角点的解析Gauss符号门](results/R43-cap-corner-analytic-Gauss-sign-obstruction.md) — 桥侧K>0时单侧联合解析延拓不容尾IIθθ奇阶换号；S11五阶被排，S9偶四阶避此窄门。不是一般C2障碍。
