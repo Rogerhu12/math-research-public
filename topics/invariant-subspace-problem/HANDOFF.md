@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `95dbbe3f3bd47b0c9d94f1099fd1f6812b35b46a`（2026-11-14 15:23:32 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `b22eb735e03d371e1529014f4141535d4255cc18`（2026-11-14 15:26:37 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-birth-two-full-height-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -47,6 +47,6 @@ T96原图/DAG来自run43597823809 artifact14114364261，恢复在 `/tmp/isp-t96-
 
 ## 当前分工与马上接续
 
-normal固定h0整数任意次数路线已逐目标排除，继续H0=(s−2)h0的原mod961来源：复用旧两β/r1，先九列G商再打包VQ，保全原预基补偿及6188行完整乘回，不重建旧图。literature完整Hessian/三对全权已付，转一般三权组spin与固定frame跨坐标运输，不再逐小尺寸堆叠。boundary原连续尾birth2全height已闭，继续E≤s完整商的联合V/s定量及原moving-birth接口。根逐条整合推送，恢复实际数据并继续；主ISP未完成。
+normal固定h0整数任意次数已排；H0的[实际完整GQ身份](notes/2026-11-14-r150-h25-complete-image-and-vq-budget-789f.md)已核1034分量/九余全零，Q/NF可恢复约0.92MB已存。共享60秒在VQ700/1021行终止，未保存partial数组，不能从701续；后继从已完成Q开始，不重做NF/GQ。正准备带实际来源数组checkpoint的单次本库300秒/512MiB VQ＋原6188mod961全乘回。literature完整Hessian/三对全权已付，转一般三权组spin与固定frame跨坐标运输，不再逐小尺寸堆叠。boundary原连续尾birth2全height已闭，继续E≤s完整商的联合V/s定量及原moving-birth接口。根逐条整合推送，恢复实际数据并继续；主ISP未完成。
 
 文献原条件、Garayev强制零、balanced两层度量失配及所有失败保open/归档，不重复已排路线。

@@ -1,0 +1,341 @@
+{
+  "format": "r150-h25-normal-source-pipeline-v1",
+  "status": "failed-or-incomplete",
+  "field": 31,
+  "originalTargetMultiplier": "H0=(s-2)*h0",
+  "originalSeventeenEquationTransported": false,
+  "oldNFGraphOrBocksteinsRecomputed": false,
+  "sharedMathematicalSecondsLimit": 60,
+  "perChildAddressSpaceMiBLimit": 512,
+  "perCompilationSecondsLimit": 30,
+  "deadlineRule": "After input validation and separately bounded compilation, NF combination, full image quotient and packed9-source convolution share one mathematical deadline. Each child receives the actual remaining time with10-second forced-kill grace. Final hash/manifests are bookkeeping outside that deadline.",
+  "inputs": {
+    "graph": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+      "bytes": 101365853,
+      "sha256": "bb2b36e3b083bf3b66e692f3fdef603941ef3c9c0a1b8fa7a74fad6722fb56ce"
+    },
+    "original_nf": {
+      "file": "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-normal-forms.bin",
+      "bytes": 32916190,
+      "sha256": "eeba714c9a9675a8fdac31bf3cd105f50bc5b26de7940301549d903d964d3840"
+    },
+    "first_normal_form": {
+      "file": "/tmp/isp-first-padic-789f/rhs-normal-form/rhs-normal-forms.bin",
+      "bytes": 522422,
+      "sha256": "5016b8e42f2ef1b36c9107b95616a190a47697b640599cb9eb98b2476be8f317"
+    },
+    "beta_normal_form": {
+      "file": "/tmp/isp-high-kernel-bockstein-43605503242/recovery/normal/beta-normal-forms.bin",
+      "bytes": 10865128,
+      "sha256": "c1b0e2e79a52e312acb9a9b89a03c031a5d6bbd5afc34c862ff7c2ff35479b2b"
+    },
+    "beta_metadata": {
+      "file": "/tmp/isp-high-kernel-bockstein-43605503242/recovery/original/kernel-original-bockstein.json",
+      "bytes": 7435,
+      "sha256": "730ee02d91e53cbfc1463fbfb366ee35edaa908775af30f97dedef8cae1749e9"
+    },
+    "common_g_result": {
+      "file": "/tmp/isp-known-bockstein-module-789f/known-bockstein-module-and-h-correction.json",
+      "bytes": 8235,
+      "sha256": "d5ce008439820c4ed9ff33f58ca33267f4e3badf429ab581311818d1fb5b3a76"
+    }
+  },
+  "sources": {
+    "2026-11-14-r150-h25-combined-normal-form-789f.py": "bcbe512b80c77d2a8ba923839d755a603d55502f25ea72172ab288338aa3efd5",
+    "2026-11-14-r150-h25-normal-source-runner-789f.py": "b9d8bca000cc87a0a731b69065b07e01ea2ce1aab847aa43c1cc2f62cc2ef463",
+    "2026-11-14-r150-h25-combined-image-789f.cpp": "e191e857bd62032e8780d3952fd418952cf7a4974f79e680f710ffb18372b701",
+    "2026-11-14-r150-packed-image-source-convolution-789f.cpp": "673f5a1431de64e8b82c3e192d7ef071c10ccf455885c969eb7c6d47c491dcba",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+  },
+  "compilations": {
+    "image": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-h25-combined-image-789f.cpp",
+        "-o",
+        "/tmp/isp-h25-normal-source-789f/bin/image"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 1.9093276810017414,
+      "binarySHA256": "a21837ff853f33416224b069a906f93ae1efeeec0129aa89101772a20720fee1"
+    },
+    "source": {
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "30s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "g++",
+        "-O2",
+        "-std=c++17",
+        "-I",
+        "/workspace/scratch/789f3e887d7c/math-research-public/topics/invariant-subspace-problem/notes",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-packed-image-source-convolution-789f.cpp",
+        "-o",
+        "/tmp/isp-h25-normal-source-789f/bin/source"
+      ],
+      "exitCode": 0,
+      "elapsedSeconds": 4.568600626997068,
+      "binarySHA256": "75bd12c39d03319fc6fd62b34d93b8b4521a0b057102d98a4514dac01d9ede41"
+    }
+  },
+  "stages": {
+    "combine": {
+      "status": "completed",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "60.000s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "python3",
+        "/dev/shm/isp-789f-agent-incoming/normal/2026-11-14-r150-h25-combined-normal-form-789f.py",
+        "--first-normal-form",
+        "/tmp/isp-first-padic-789f/rhs-normal-form/rhs-normal-forms.bin",
+        "--beta-normal-form",
+        "/tmp/isp-high-kernel-bockstein-43605503242/recovery/normal/beta-normal-forms.bin",
+        "--beta-metadata",
+        "/tmp/isp-high-kernel-bockstein-43605503242/recovery/original/kernel-original-bockstein.json",
+        "--common-g-result",
+        "/tmp/isp-known-bockstein-module-789f/known-bockstein-module-and-h-correction.json",
+        "--out",
+        "/tmp/isp-h25-normal-source-789f/recovery/combined-normal-form"
+      ],
+      "remainingSecondsAtStart": 59.99977423100063,
+      "lastProgress": {
+        "status": "h25-combined-normal-form-complete",
+        "actualTargets": 9,
+        "actualOriginalKernelHeads": [
+          2275,
+          2276
+        ],
+        "originalRightHandSideCostBound": 86,
+        "sourceTransported": false,
+        "elapsedSeconds": 0.5201906099973712
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 0.5790261579968501,
+      "nativeStatistics": {
+        "status": "h25-combined-normal-form-complete",
+        "actualTargets": 9,
+        "actualOriginalKernelHeads": [
+          2275,
+          2276
+        ],
+        "originalRightHandSideCostBound": 86,
+        "sourceTransported": false,
+        "elapsedSeconds": 0.5201906099973712
+      }
+    },
+    "image": {
+      "status": "completed",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "59.419s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/tmp/isp-h25-normal-source-789f/bin/image",
+        "/tmp/isp-t96-recovery-789f/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "/tmp/isp-h25-normal-source-789f/recovery/combined-normal-form/combined-rhs-normal-forms.bin",
+        "/tmp/isp-h25-normal-source-789f/recovery/image/image"
+      ],
+      "remainingSecondsAtStart": 59.419012787999236,
+      "lastProgress": {
+        "status": "h25-combined-residual-complete-image-certificate",
+        "fullImageQuotientIdentity": true,
+        "everyRemainderIsIrreducible": true,
+        "completeRHSInImage": true,
+        "combinedRHSOutsideInfiniteImage": false,
+        "remainderNonzeroCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "firstNonzeroCoordinates": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "peakRSSKiB": 6144,
+        "elapsedSeconds": 2.56123
+      },
+      "exitCode": 0,
+      "elapsedSeconds": 2.570110382999701,
+      "nativeStatistics": {
+        "status": "h25-combined-residual-complete-image-certificate",
+        "fullImageQuotientIdentity": true,
+        "everyRemainderIsIrreducible": true,
+        "completeRHSInImage": true,
+        "combinedRHSOutsideInfiniteImage": false,
+        "remainderNonzeroCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "firstNonzeroCoordinates": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "peakRSSKiB": 6144,
+        "elapsedSeconds": 2.56123
+      }
+    },
+    "source": {
+      "status": "failed-or-incomplete",
+      "command": [
+        "timeout",
+        "--kill-after=10s",
+        "56.848s",
+        "prlimit",
+        "--as=536870912",
+        "--core=0",
+        "--",
+        "/tmp/isp-h25-normal-source-789f/bin/source",
+        "/tmp/isp-t96-recovery-789f/isp-r150-reweighted-graph-work/t96/reweighted-basis.bin",
+        "/tmp/isp-t96-recovery-789f/isp-r150-native-nf/nf-normal-forms.bin",
+        "/tmp/isp-h25-normal-source-789f/recovery/combined-normal-form/combined-rhs-normal-forms.bin",
+        "/tmp/isp-h25-normal-source-789f/recovery/image/image-image-quotients.bin",
+        "/tmp/isp-h25-normal-source-789f/recovery/image/image-image-remainders.bin",
+        "/tmp/isp-h25-normal-source-789f/recovery/source/source"
+      ],
+      "remainingSecondsAtStart": 56.84805267400225,
+      "lastProgress": {
+        "phase": "packed-nine-source-VQ",
+        "imageRows": 700,
+        "sourceMonomialProducts": 64389866,
+        "elapsedSeconds": 55.5549
+      },
+      "exitCode": 124,
+      "elapsedSeconds": 56.88299153999833,
+      "nativeStatistics": {
+        "phase": "packed-nine-source-VQ",
+        "imageRows": 700,
+        "sourceMonomialProducts": 64389866,
+        "elapsedSeconds": 55.5549
+      }
+    }
+  },
+  "outputs": {},
+  "mathematicalElapsedSeconds": 60.03518191599869,
+  "errorType": "RuntimeError",
+  "error": "actual mathematical stage incomplete: source",
+  "recoveryFiles": 5,
+  "recoveryBytes": 1352755
+}

@@ -1,0 +1,31 @@
+{
+  "format": "r150-h25-normal-source-recovery-v1",
+  "pipelineStatus": "failed-or-incomplete",
+  "files": [
+    {
+      "file": "recovery/combined-normal-form/combined-normal-form-receipt.json",
+      "bytes": 2662,
+      "sha256": "2654d9ebc37615168201d8cd985f582e5bb564b7d90eeadfec4d439c8445d2ba"
+    },
+    {
+      "file": "recovery/combined-normal-form/combined-rhs-normal-forms.bin",
+      "bytes": 542640,
+      "sha256": "581ce943262ba4dea66e9562889ec8cdd62e3808e34a8aeff33afb966c84bdf4"
+    },
+    {
+      "file": "recovery/image/image-image-certificate.json",
+      "bytes": 1238,
+      "sha256": "9c9601385719ada0ea91707544fe8fe0a10ef1605a961d76198e0707536c5d91"
+    },
+    {
+      "file": "recovery/image/image-image-quotients.bin",
+      "bytes": 806105,
+      "sha256": "c3dc4656e8cf56b579913002c4b210775420eeb7870d68993f135965b075a99c"
+    },
+    {
+      "file": "recovery/image/image-image-remainders.bin",
+      "bytes": 110,
+      "sha256": "09bc43a84b590f93e885b57ead50f48a4047b2a5498c664d1e4a7a835193dd6a"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "format": "r150-h25-combined-normal-form-v1",
+  "status": "completed",
+  "field": 31,
+  "combination": "(s-2)*(NF(r1_j)-c1_j*NF(beta2275)-c2_j*NF(beta2276))",
+  "originalTargetMultiplier": "H0=(s-2)*h0",
+  "originalRightHandSideCostBound": 86,
+  "firstNormalFormSHA256": "5016b8e42f2ef1b36c9107b95616a190a47697b640599cb9eb98b2476be8f317",
+  "all200BetaNormalFormSHA256": "c1b0e2e79a52e312acb9a9b89a03c031a5d6bbd5afc34c862ff7c2ff35479b2b",
+  "originalBetaMetadataSHA256": "730ee02d91e53cbfc1463fbfb366ee35edaa908775af30f97dedef8cae1749e9",
+  "commonGSolutionSHA256": "d5ce008439820c4ed9ff33f58ca33267f4e3badf429ab581311818d1fb5b3a76",
+  "sourceSHA256": "bcbe512b80c77d2a8ba923839d755a603d55502f25ea72172ab288338aa3efd5",
+  "baseKernelLabels": [
+    [
+      2192,
+      2275,
+      85,
+      1241,
+      3485
+    ],
+    [
+      2193,
+      2276,
+      85,
+      1242,
+      3497
+    ]
+  ],
+  "kernelCoefficients": [
+    [
+      2,
+      23,
+      3,
+      6,
+      7,
+      19,
+      24,
+      2,
+      14
+    ],
+    [
+      3,
+      22,
+      14,
+      20,
+      15,
+      28,
+      11,
+      18,
+      7
+    ]
+  ],
+  "profile": [
+    {
+      "target": 2,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55320,
+      "maximumParameterDegree": 86
+    },
+    {
+      "target": 3,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55280,
+      "maximumParameterDegree": 86
+    },
+    {
+      "target": 4,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55348,
+      "maximumParameterDegree": 86
+    },
+    {
+      "target": 5,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55332,
+      "maximumParameterDegree": 86
+    },
+    {
+      "target": 6,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55350,
+      "maximumParameterDegree": 86
+    },
+    {
+      "target": 7,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55381,
+      "maximumParameterDegree": 86
+    },
+    {
+      "target": 8,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55326,
+      "maximumParameterDegree": 86
+    },
+    {
+      "target": 9,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55401,
+      "maximumParameterDegree": 86
+    },
+    {
+      "target": 10,
+      "nonzeroComponents": 1034,
+      "nonzeroCoefficients": 55367,
+      "maximumParameterDegree": 86
+    }
+  ],
+  "sourceTransported": false,
+  "output": {
+    "file": "/tmp/isp-h25-normal-source-789f/recovery/combined-normal-form/combined-rhs-normal-forms.bin",
+    "bytes": 542640,
+    "sha256": "581ce943262ba4dea66e9562889ec8cdd62e3808e34a8aeff33afb966c84bdf4"
+  },
+  "elapsedSeconds": 0.5201906099973712
+}
