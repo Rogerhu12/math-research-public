@@ -456,3 +456,7 @@ request12仅banddirection，入口0149e7f1…消费真band run的完整step/rhs/
 ### 2026-11-14 12:20 UTC — actual saved-direction projection diagnosis and next complete physical test
 
 公开run43593855655/source8a764c65真success，41.907s，artifact14113836291六件已完整取回并由81338496归档。实际P约1.14e17且小矩阵均衡不治；实际方向完整θ L2=4942、1..112仅7.10，到2^-40仍坏mid，无Taylor/新接受步。完整事实与输入输出SHA已写actual-direction-projection-and-physical-test-next note。依据实际高谱开始R252新φ有限边界全Jac/FD/真联解；原Rθ/缺项/均值/高谱继续如实审计，不只改容差或回溯次数。
+
+### 2026-11-14 12:24 UTC — R253 fixed-map superalgebraic projection conditioning
+
+完整R253直接登记：固定光滑正非恒材料密度下，严格有限载波窗构造同一单位输入，对连续及所有偶N≥(4+ε)M的精确DFT投影和均值均超代数小；统一非驻相付全部alias、源截频及√M代价，固定正P11给条件数增长。与R250可逆无矛盾，不当作本次实际失败因果证书；新的R252完整φ实际入口继续接线。
