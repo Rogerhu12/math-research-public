@@ -190,3 +190,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 较大辅助fold已实际成功，继续同w1的准确根项
 
 [新actual报告](results/R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md)核43647998272 child0与新14门，全部旧前缀零重算。两域在原germ交内是同一个w1，可在共同物理cover上逐分量取合法min；不能把小域sup搬到整个大域。第二L0w1局部upper已降到1.9108e10，仍由Cauchy径向二阶主导；phase接准确root jets/Taylor尾，root接Y1–14全I/J/mean。原seam/外片/正低mean/有限头反馈仍需完整预算。
+
+### 5970真实接口跳的方向后验费用已具合同并部署
+
+[I1–11](notes/2026-11-14-R133-cached-signed-Green-all-interface-impulse-contract.md)与101pin公开入口复用原finite193 Green和6391 L²缓存，只新左右平方扫与5970单位跳费用。signed负rate不乘积分upper来假造exp，metric/mean/sec-tan两列/虚waist均保。供新矩阵V舍入真实jump消费；多个跳作用同一source必须合法三角或完整相关界，不能免费平方相加。原两完整成功artifact只读，待actual。

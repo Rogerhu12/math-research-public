@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **既成signed Green的全部5970真实接口impulse合同（I1–11）**：[证明](notes/2026-11-14-R133-cached-signed-Green-all-interface-impulse-contract.md)。复用6391缓存signed积分，用两方向平方递推支付单个加权状态跳到普通全/负窗L²的费用，真sec/tan、两源列、独立mean和最后waist接口齐；同一跳的左右输出支集可平方合并，不同跳响应不冒作正交。101pin消费者已装，原97未变，0新exp/Gram/target；尚待实际全5970结果。
+
 - **较大辅助复fold的实际成功与全部旧前缀复用**：[报告](results/R133-supplement-actual-larger-anchored-auxiliary-fold-with-preserved-prefix.md)。43647998272 child0/6身份门、新大域14门；有效canonical半径27/32000为原小域五倍。原成功小域/两coeff/根锚逐对象一致，旧child1和失败门仍保。完整Fb<1335.043146479/Fa<2.089387252，原物理9e−6内L0w1幅度<6977483.057/19107989810.304；均仅局部幅度界，继续真实根Taylor与全非局部/返回预算。
 
 - **准确旧圆周平均模压缩与第一修正的完整非局部预算（Y1–14）**：[证明](results/R133-supplement-exact-old-mean-compression-and-first-correction-nonlocal-budgets.md)。准确ΠDU(w)=ΠU(gd)在取绝对值前合并raw mean，保留独立evenmean与全部I/J投影。对w1给实际n^(1/6)密度的完整z_K算子词预算，以及原n^(7/6)预算右乘1/n的独立cutoff界；两者付全后可取min。负源窗口需要w三阶角导/w_r二阶，完整输出与最终J窗口不删；数值积分及全返回尚待执行。

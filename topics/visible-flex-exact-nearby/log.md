@@ -455,3 +455,7 @@ root全文读科学source33579B/CI19094B/flow7908B并核原105pins均未变，G1
 ### 2026-11-14 22:38:54 UTC — 较大辅助fold实际成功独推
 
 root亲读46443B process和2469B worker，核数学.2141971180000013s、child0/6global+14case gates、native84e2bd1b7637299e94428b22cc19aba290d0b661f9dbe18dae918bf752f10077（20319B）。核报告十进制均对实际ball外舍入；scope句明确固定η0，其余原报告不改，最终7584B/SHA34e50180bfd17b4077ef2c1c9e4542e2845dcfccf4c0b833b650150cf658c1e0。两实际pull均5137a924…，README diff空；旧小case/两coeff/rootanchor确实逐对象复用。当前只读核c69562728ce9d0f5115ad2710d45bcff15762693，继续真实root高阶jets与完整非局部预算。
+
+### 2026-11-14 22:41:36 UTC — 全5970接口impulse合同与101pin公开续算
+
+root全文读新source19054B/CI13235B/flow7040B及I1–11合同7924B；亲读原97manifest18477B，核SHAfb233679…和全部97项逐项不变，核原kernel的positive是确定有向upper。完整保原12361事件顺序、signed I2p/I2z、waist与sourcea/b，左/右输出仅在真实不交区间平方加。source12e40b3849f4c1f29b1c0da0a52825afd710ab4cb70e09b539760d6672295439，manifest75b9039039a663a5fb8aad5a7f719e5fcea9edf648096441bc0777e25240a44c；全部新算只public Actions。当前只读核611382d7bcb9e4dfef7bba8358bd6aa6009dbf20两README无变；待实际成功，继续全球方向核/closed网络。
