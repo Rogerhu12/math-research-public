@@ -93,3 +93,5 @@
 - [R133：实际完整moving首符号有限部及真实续算终点](results/R133-supplement-actual-complete-moving-first-symbol-finite-part.md)：实际run43591721337 return0、六门全过，严格复用失败run原2838积分与2个成功root步，仅新增248 midpoint和2 rootjets，3146行完整到cut。Xi有限部严格在(−73.913337474666793,−73.913314715519692)，宽<2.275915e−5；−Xi/4在(18.478328678879919,18.478334368666702)。主代理逐原native/process及rootTaylor公式核对，正确D第二项无额外η。仅η0/δ=0，不授完整β或真PDE。
 
 - [R133：实际完整moving根全频逆、Sobolev与参数圆盘预算](results/R133-supplement-actual-full-frequency-moving-root-budget.md)：公开43594466882真实13门全过、child/wrapper0；原event b84d985与science f61ca978分别保。完整|δ|≤1e−8根复域全频Neumann c<.131785809731，J0<.229690263530；负5/3→负2/3<1.787479366938。全部193方向/真mean/repair/弱flux/投影drift与径向commutator付，未借旧band64门，不授真PDE或两行root连接。
+
+- [R133实际完整true-weighted切口与腰端](results/R133-supplement-actual-complete-true-weighted-cut-and-waist-boundaries.md)：公开43594139132 prepare实际十门全过；完整193×96 Gram及97低行/mean给L0<1016.779086、D0<1016.778594、LR<4.076853888、DL<.003613121034，腰0−及最终sec/tan跳保留。全区间Green、未知high、独立源和真响应仍待。

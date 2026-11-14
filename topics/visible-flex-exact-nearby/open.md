@@ -220,3 +220,5 @@ root一次相位35门实际原件已根核，见 notes/2026-11-14-R119-root-firs
 两行Airy/当前腰端13门原native与实际process已根核，见 notes/2026-11-14-R133-airy-two-row-audit-public-outcome.md。当前root有限对称cross虽角均值为0仍不得删矩阵；继续真实根连接及返回首系数。
 
 完整moving根预算实际13门全过，详 results/R133-supplement-actual-full-frequency-moving-root-budget.md；同阶与强负阶Sobolev窗分别付，整个|δ|≤1e−8显式族及真实mean保持。inner径向commutator门只在半径5e−6内；真实root连接/positive highinput/最终PDE背景仍欠。
+
+真实weighted两端公开43594139132 prepare十门原件已核，见 [实际两端](results/R133-supplement-actual-complete-true-weighted-cut-and-waist-boundaries.md)。完整权重/97行及mean给L0<1016.779086、D0<1016.778594、LR<4.076853888、DL<.003613121034；必须在最后0+→0−跳之后核闭合，不能照抄旧无权费。共享终端12:35失联，按根规矩8使用已连接GitHub只发小文本；全5970 runner仍真实pull/README核/保存前缀，根H区分最后实际pull与远端API读取。继续完整Green/high/cap/repair。
