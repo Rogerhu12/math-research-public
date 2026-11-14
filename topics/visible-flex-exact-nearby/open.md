@@ -191,3 +191,7 @@ A1–27已证并推：同当前Γ*及非径向背景，root H3与strict F1分开
 ### 2026-11-14 actual repaired positive root graph complete
 
 43605513540真实10门，完整positive high接口loop<.000145155277，root reflection<.436007718096，七完整输入response列均存。原同Z collar+4650 body已接成；不能再把这个给定head高图列待算。仍须完整low/high联立、负return、真response；δ96 rootcollar和δbody/outer转移另付。
+
+### 2026-11-14 full delta96 positive root collar contract
+
+D1–21已证并部署19-input CI，只消费原完整germ/rootbudget，不重跑旧M32 collar。真实band192/两高符号、比例<3、primitive中间index≥1全部新付；完整head193/mean回馈与输出至288、普通源H1/3及两端trace保。待actual矩阵门。global参考只要求任意正speedextension和p*∈(1/8,1/5)，不可宣称δbody/实际outer已转授。

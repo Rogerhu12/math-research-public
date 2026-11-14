@@ -217,3 +217,7 @@
 ### 2026-11-14 actual complete supplied-head positive high root graph
 
 [R133-supplement-actual-repaired-positive-high-root-to-regular-graph](results/R133-supplement-actual-repaired-positive-high-root-to-regular-graph.md): run43605513540 passed all ten actual gates. In the same repaired global Z frame, the cut loop is <.000145155277 and the complete supplied-head root reflection is <.436007718096<1/2. Seven full port/ordinary-source/mean/jump columns are explicitly retained, including raw L2 and whole positive suprema. Nonzero-δ body/outer transfer and the full low/high Schur system are separate.
+
+### 2026-11-14 full real delta96 positive root collar
+
+[R133-supplement-full-real-delta96-positive-root-collar](results/R133-supplement-full-real-delta96-positive-root-collar.md): proved D1–21 for the complete real |δ|≤1e−8 family. Band192 is paid with frequency ratio<3 and true primitive intermediate index1, giving absolute high kernel<144; all193 head coordinates couple to the new output range through288. The complete four source/port columns, both endpoint traces and angular bootstrap through order4 remain. A new nineteen-input public consumer checks the actual product and Frobenius gates. The theorem is uniform over allowed positive speed extensions and p*∈(1/8,1/5); actual nonzero-δ body/outer transfer remains separate.

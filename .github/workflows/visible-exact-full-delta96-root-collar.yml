@@ -1,0 +1,79 @@
+name: visible-exact actual full real delta96 positive root collar
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-full-delta96-root-collar.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-full-delta96-root-collar
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  PHASE_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta96-root-collar-CI-inputs.json
+  PHASE_MANIFEST_SHA: 38d76e08d2d92b2d2395ec13c5c61817ace7da6bd6a1856061156a2b377bc76f
+  PHASE_PIPELINE_SHA: 220143dddbf33efaa2e228f850341e26ff7477dc21f2e18407ee9057093d5874
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+
+jobs:
+  complete-full-delta96-root-collar:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 65
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the exact consumer entry points
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-full-delta96-root-collar-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate the nineteen exact original root and proof inputs
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_public_worker.py
+          --mode hydrate --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Install the pinned original numerical environment
+        run: >-
+          python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Set the original artifact path
+        id: paths
+        run: |
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-full-delta96-root-collar-output" >> "$GITHUB_OUTPUT"
+      - name: Compute only the full real delta96 positive root-collar budget and publish the outcome
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_public_worker.py
+          --mode run --manifest "$PHASE_MANIFEST" --manifest-sha "$PHASE_MANIFEST_SHA"
+          --pipeline-sha "$PHASE_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-full-delta96-root-collar-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-full-delta96-root-collar-output"
+      - name: Preserve every true native and failure record
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-full-delta96-root-collar-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 6
+          retention-days: 30
+          if-no-files-found: error
