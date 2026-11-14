@@ -473,3 +473,8 @@ request12仅banddirection，入口0149e7f1…消费真band run的完整step/rhs/
 
 run43594985550真FD9.65016e−10通过，新切口条件明显改善；全带LU相对残差8.22590e−7/方向352.439，17trial仍全坏、零接受、新H请求0。30件artifact已公开publisher成功e61dbf4，失败note/H/open按真实终态更新。
 12:35:50共享执行环境不可用，终端实测失败；按根Rule8用连接GitHub小文本同步，未把API读取冒实际pull。下一公开Actions检末bridge原解析seed加密/实际传播，全部原门保留；未推R254/operator源码按幸存上下文重建。
+
+### 2026-11-14 12:46 UTC — test original complete QR after the measured physical-boundary repair
+
+request14仅coupling112physicalqr：新Rφ×旧同Uend实测cond1.20e5，故原699/原完整QR检验具有直接依据；与末bridge补点分开。新独立入口绕过banded.main，保完整R252/真尾/原17trial/RMS/BC及全部闭包审计；未预填接受。
+修改共享.github/workflows/visible-larger-public-mainline.yml增加该lane与原接受后全链，publisher同步支持；新入口在公开Actions编译/实际运行。每次远端快进前核双README，无本地pull冒记。

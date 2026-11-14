@@ -26,7 +26,8 @@ request12/run43593855655/source8a764c65真success：实际P cond1.14478e17、均
 
 request13/run43594985550/source821fded1，job132447496553已终态FAILURE；artifact14113948667，30件/23,886,772B，publisher成功e61dbf4。原输出 notes/public-actions-43594985550-1-coupling112physical/。
 真实T112全J/非零H的R252完整φ边界FD真过：Richardson9.650162479919298e−10、17.774s。新右块cond621945/均衡2956.89，同旧Uend方块119589.8；切口明显改善不代全局稳定。完整带LU info0、5.995s/RSS5733092KiB，保留一次校正后原相对残差8.22590205e−7、方向max352.439；第二次变差弃。17trial全非finite，2^-16仍78坏node/124mid；966插值19坏mid，零接受、新H请求0，readout/closure/R249跳过。详见 actual-physical-test-failure-and-bridge-resolution note，不能把旧Rθ warm≈1.3378e−8写成新进展。
-下一计算检查末bridge分辨率/真实局部L/R：保留699旧点，仅新点用原p=0解析圆投影与完整均值重新评价，绝不插值失败966。圆参照k²条目强非正规，不当作k²特征增长；以k√(|app|/(a(1−ap²)))及坐标旋转作选网格参照，必须与当前有限Jac比较。仍用新Rφ、真实T112、全部原方程/容差/max1200，不原样重跑或只抬上限。新入口正重建为小文本blob，尚无新数值。
+request14已接coupling112physicalqr：实测新右块×同旧Uend cond1.20e5，故原699+新Rφ改回原完整QR作直接检验，非重跑旧Rθ；FD/全尾/原门均保。独立入口physical_test_qr_full_dn，详细接口见new-physical-test-original-QR note，尚未预报结果。
+并行检查末bridge分辨率/真实局部L/R：保留699旧点，仅新点用原p=0解析圆投影与完整均值重新评价，绝不插值失败966。圆参照k²条目强非正规，不当作k²特征增长；以k√(|app|/(a(1−ap²)))及坐标旋转作选网格参照，必须与当前有限Jac比较。仍用新Rφ、真实T112、全部原方程/容差/max1200，不原样重跑或只抬上限。新入口正重建为小文本blob，尚无新数值。
 
 ## 尾、接缝与同g精化
 
@@ -50,4 +51,4 @@ full_state_continuous_cover和full_state_held_hausdorff已支持完整v3/v4、R2
 旧A幅度.0630146<.2；真RK24/48、三mesh、R241 q8的2157568子对uncovered0已付（连续包络仍输入）。旧GW原stage28/RK48六节点同raw/mean/g，局部metric f8/16/48降1.18e−8/1.26e−9/1.62e−10，κ7.646；旧A/GW封存，不重跑或追额外机器六jet门。
 旧geometry26/strong90/GW35与43提交已保全；strong R6磁盘SIGTERM143无接受、raw未全迁照实，不复活旧支。公开源78件匹配原91清单；不读private。环境恢复先核未推R254、operator cell、未完成Rφ v4三源；不能因本地曾有文件就记远端已推。
 
-规则同步记录：2026-11-14 12:42:20 UTC GitHub小文本fallback读取最新main并核对双README内容SHA与此前相同；无差异。此为远端API同步，非终端pull；已读提交 51236ba2279e6337760b264ba593d93aac228264。
+规则同步记录：2026-11-14 12:46:34 UTC GitHub小文本fallback基于最新main；双README内容SHA不变、无差异。非终端pull；已读提交 0a911f86f9f9e857f709e406e1b6069be77375b1。
