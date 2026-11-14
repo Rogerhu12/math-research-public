@@ -5,7 +5,7 @@
 ## 规则与工作位置
 
 唯一工作仓库 Rogerhu12/math-research-public；只使用本仓库 Actions。新目录 `/workspace/scratch/0df957a82d09/math-research-public` 是 blob:none 部分克隆，仅先检出正文、脚本和 workflow；大数据按需只读旧检查点或在公开 Actions 重建。
-最后实际 pull --rebase 与两 README 差异检查：997cec167653f30957de8d43824be154ceca7809；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
+最后实际 pull --rebase 与两 README 差异检查：09f25c853427e39dcdd4382abc995eec0cebb3a2；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，均无变化。
 每次推送前 pull/rebase 并检查两个 README；至少每小时 pull；每条结论独立提交推送；非快进立即 rebase 后重推，不 force。PAT 仅瞬时命令行环境，不入文件或输出。root 管 Git/HANDOFF/open/results 索引/log，代理只写自己新文件。
 
 ## 目标和准确对象
