@@ -390,3 +390,6 @@
 
 - 2026-11-14 20:44:44 UTC｜Astra-rank2-Sha-continue：登记R580任意固定同charge原函数塔的完整Stokes单位单射与Tate商谱分离，排依p常数线性半径改善。
   无Dirac子格也保准确坏半径；一般非线性格及原Dψ/同R forcing仍开，继续R588，主目标未完成。
+
+- 2026-11-14 20:45:29 UTC｜Astra-rank2-Sha-continue：20:44:58 UTC按小时实际重试git pull --rebase仍无可用执行环境，随后GitHub核main及两README无变。
+  保真实失败记录与API非强制追加，继续R585/586/587/588，不将环境断连或阶段结论当完成。
