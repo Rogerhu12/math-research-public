@@ -1,0 +1,87 @@
+name: ISP primitive bridge exact S2 columns
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-ci-request-789f.json
+
+permissions:
+  contents: write
+
+jobs:
+  exact-columns:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        target: [s2-left, s2-right]
+    env:
+      ISP_BRIDGE_TARGET: ${{ matrix.target }}
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            .github/workflows
+            topics/invariant-subspace-problem
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preserve source hashes, parameters, and both README fingerprints
+        run: python topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-actions-runner-789f.py prepare
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isp-primitive-bridge-input-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.target }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ runner.temp }}/isp-primitive-bridge-789f/${{ github.run_id }}-${{ github.run_attempt }}/${{ matrix.target }}
+      - name: Install the pinned exact arithmetic versions
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 sympy==1.14.0
+      - name: Compute the fixed exact S2 column certificate
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 315
+        run: python topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-actions-runner-789f.py run
+      - name: Preserve bounded logs and an explicit mathematical receipt
+        if: always()
+        env:
+          ISP_COMPUTE_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: python topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-actions-runner-789f.py finalize
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: isp-primitive-bridge-before-publish-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.target }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ runner.temp }}/isp-primitive-bridge-789f/${{ github.run_id }}-${{ github.run_attempt }}/${{ matrix.target }}
+      - name: Publish this run's bounded output after checking the current rules
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 15
+        env:
+          ISP_BRIDGE_ACTIONS_TOKEN: ${{ github.token }}
+        run: python topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-actions-publish-789f.py
+      - name: Normalize the final publication receipt
+        if: always()
+        env:
+          ISP_COMPUTE_STEP_OUTCOME: ${{ steps.exact.outcome }}
+        run: python topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-actions-runner-789f.py finalize
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: isp-primitive-bridge-${{ github.run_id }}-${{ github.run_attempt }}-${{ matrix.target }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ runner.temp }}/isp-primitive-bridge-789f/${{ github.run_id }}-${{ github.run_attempt }}/${{ matrix.target }}
+      - name: Require the complete symbolic success markers
+        if: always()
+        run: python topics/invariant-subspace-problem/notes/2026-11-14-primitive-bridge-actions-runner-789f.py verify

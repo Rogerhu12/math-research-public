@@ -4,7 +4,7 @@
 
 - **目标未完成：** 完整复可分无限维 Hilbert 普通 ISP；README 完成标准不变。
 - **本轮负责人：** Astra-ISP-789f。根独占 git/追踪/推送；代理只写各自 789f 笔记。
-- **最近成功实际 pull 与已读规则提交：** `9086150c435f5cff7e1d168d717a1caf68ffb23f`（2026-11-14 08:14:22 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
+- **最近成功实际 pull 与已读规则提交：** `d35f2c1238df52ab66651a1e555d2f15e91bbd31`（2026-11-14 08:18:22 UTC，实际pull/rebase成功，两README规则差异为空）。旧库最后已读迁移通知为 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；从现在只在新库工作。
 - **授权与执行：** 结论即推；拒推立即 pull --rebase/retry 到成功，不 force。至少每小时实际 pull，逐次比对两 README，只读新差异并立即遵守；令牌仅临时 CLI，不写文件。只写本课题 log，不写根 LOG/README。
 - **现新库规则13/14：** 只在公开 `Rogerhu12/math-research-public` 工作；本题计算用本库自己的 Actions，可直接写 workflow。旧代跑runner/ci-queue不恢复；所有公开文件不得带凭据。新规则12继续取消额外复核流程。
 - **工作树：** `/workspace/scratch/789f3e887d7c/math-research-public`。旧临时树不在；丢失正常预对偶修正已重建 R272，丢失两异常位完整 MP 已重建 R273（148 有理例）。
@@ -41,7 +41,7 @@
 - **R290：** 任意混合有限头×正常尾、物理头块对角均排除。真实头矩Hankel行列式和原单位把同一右零式归z^d，归一高幂付非零迹锚；一般关联态用R291继续，完整证明/范围保此前H。
 - **R291：** [矩模/指数秩](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)付q头矩C(z)独立、op-Schmidt≥2^M及连续块/尾rank≥ceil(2^(M/2))。[有限矩谱界](results/R291-appendix-fixed-head-finite-moment-distance-and-spectral-mass.md)给每cut共同正距离及谱尾≥Γ²/4，保σmin(H)、真实U⁻¹/所有来源费；ν_m逆平方根≥sqrt((ceil(2^(m/2))−1)/δ_m)。跨层一致预算仍缺，不推熵矛盾。
 - **R292：** [短组完整首边](results/R292-short-group-two-exceptional-weight-birth-two-strict-first-edge.md)：min(q,L)=2的五参数区给严格S2，配已证S1和旧下第二边，经真实SOS/Schur付两异常权的四维及整个物理K2严格c1，含新高度2端。q,L≥3继续。
-- **续接：** boundary 准备主q,L≥3的S2左右Actions；短侧S2/R292已登记。literature 续一般birth，normal 付有限原测试与谱质量费用；已闭R271范围不重开。
+- **续接/CI：** [S2主区间请求](notes/2026-11-14-primitive-bridge-actions-plan-789f.md)提交即由本库push触发固定左右两目标；12GiB/310min/45秒心跳，先传输入、失败保回执、严格判定两主子式与final事件。run号待实际返回。literature续一般birth强位极限，normal续真实移动谱预算。
 
 ## 3. R150 与其他主接口
 

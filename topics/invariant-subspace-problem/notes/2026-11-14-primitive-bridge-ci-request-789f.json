@@ -1,0 +1,11 @@
+{
+  "schema": "isp-primitive-bridge-v1",
+  "request_id": "789f-20261114-main-parameter-s2-columns-1",
+  "requested_at_utc": "2026-11-14T08:10:51Z",
+  "targets": ["s2-left", "s2-right"],
+  "parameters": {"q": "3+Q", "L": "3+R", "z": "1+Z", "w": "V", "domain": "Q,R,Z >= 0; V > 0"},
+  "versions": {"python-flint": "0.9.0", "sympy": "1.14.0"},
+  "limits": {"calculation_seconds": 18600, "child_address_space_bytes": 12884901888, "heartbeat_seconds": 45},
+  "determinant_mode": "reduced",
+  "scope": "Exact coefficient certificates for the two stronger S2 column contractions in the actual upper-birth-two/lower-birth-one model. Each target must emit two passed leading minors and a matching final all_passed event with process exit zero. Exit zero alone is not a proof certificate."
+}
