@@ -419,3 +419,7 @@ root全文核三新源码、12KB数学说明及三人工输出全部来源SHA；
 ## 2026-11-14 16:40 UTC — natural/body部分真实结果全核及具体接口修复
 
 run43616419217/source2641fce0三人工过，原c0粗审与directJac已存，但fine distribution误把grid传作radial导致TypeError；83源/4输出全SHA核，只有1个partial case，无fine/c1证据。direct成本.07675，5body预测.04059/步max.1336；239列预测.00433却步max66082.7/rank212，不能作可行下降。新适配器传实际坐标数组，人工两侧真实跑同API且R摘要差0，全Jac继续过；旧13源/物理g/系数不变。只重跑这条已定位的接口故障，完整audit保存错误、真实scope及修复SHA。
+
+## 2026-11-14 16:42 UTC — 部署R45真正单P输入，不沿用旧八块目标
+
+root全文核20KB独立runner与4KB说明、旧冻结控制API以及小Fraction toy；source独立核全部控制倒行/真实omega/一般A端点自然四块，补正数预算guard后冻结93951271…。共享workflow新增single_P_instance唯一20min lane，八参数从0解MP/N、只D桥，N16384/64阶/96步，选定后1/2/4加密不refit。旧Klein数据/参数不读；长圈只高阶算子输入，不当厚度候选。近似P必须保全四块实际历史，不能无条件用R58四倍式。自然初态接口修复另run43616949465/source7b46d360已于16:41:11UTC启动，不取消或重跑。
