@@ -6,17 +6,17 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：b0ca14a20563fda53d77919d1eb2a7dd5dfc2739；2026-11-14 13:24:17 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：be5c42403b4265df3199e857d72385c665e01bb9；2026-11-14 13:25:21 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 旧→公开仓库迁移及全部差异读取记录保本次完整归档；现只在Rogerhu12/math-research-public。规则11每次pull后核两README且至少每小时，12完整证明直接登记，13本库Actions，14公开库禁令牌。旧runner/ci-queue停用。
 - main逐条commit/push已授权；不强推、不改写已发表历史。非快进立即pull --rebase重推；当前API用expected_sha/force=false，拒绝后立即读新main、核规并重新基于新头追加。
 - 只写课题log，每轮≤5行；不动根LOG。令牌只终端临时环境，不入文件/提交/日志/回复。单文件<5MB，接口文本/Markdown<100KB，HANDOFF<10KB，open尽量<30KB；不加冻结/独审/机械复跑门槛。
 
 ## 当前发布、环境与分工
 
-R1–363、R365–509已登记；R364仍开。旧R235/R237及迁移R437/R438已全部重做推送。最新：R501=55c85e26，R502=0a911f86，R503=0eb4c7db，R505=d08b296f，R508=ee4e2a11，R506=21a304a8，R504=c6d3c5b8，R507=ec0a1bdc；R509本次登记。
+R1–363、R365–509及R511已登记；R364仍开。旧R235/R237及迁移R437/R438已全部重做推送。最新：R501=55c85e26，R502=0a911f86，R503=0eb4c7db，R505=d08b296f，R508=ee4e2a11，R506=21a304a8，R504=c6d3c5b8，R507=ec0a1bdc；R509=aef650c1；R511本次登记。
 执行环境12:35 UTC断连，随后再次确认无可用执行环境；现用连接GitHub读main、核规则和非force追加，未称实际pull。恢复后先pull --rebase/核规，再合并遗留，不能覆盖API结果。
 R501原正文/脚本/JSON精确恢复；R502明确重建脚本在公开Actions run43596695716/job132452617972成功，来源1dafbfa7，p239/D40/81行，ξ1=175、V1首行70/系数55、第三块40及全Q运输。原生JSON/全日志已推da54025b，无扫描，无跨p声称。
-root统一元数据及逐条发布；代理仅建proof/script blobs。theta续R510原S/T全条件及新15轴；deep的R511已完整待登记，继续原镜轴/来源；literature续R513四输入B0真实联立。新证明随到随登记。
+root统一元数据及逐条发布；代理仅建proof/script blobs。theta续R510原S/T全条件及新15轴；deep的R511已登记，继续原镜轴/来源；literature续R513四输入B0真实联立。新证明随到随登记。
 
 ## 完整旧接口与目标桥
 
@@ -63,6 +63,8 @@ R502低ell≤r<h、k=2h+r−s<ell，原全首Bockstein保V=d^-C_DQ(F/ζ)^3、η=
 R505完整ξ=3Tβcont(F)，q=h−k；实际一倍格/接触Eq和全三块Jbarι=T Eqbar，对偶H0(C,KX|C(qP))。q<χ由真实F²H吸收，等号/高b不覆盖，barT核及剩余carry未消。
 R507原P=6(1−t)δ²−(1+2t)δ=B N(6N−1)，B=h_elliptic^-2整单位；N(w^jε^i)=(j+is)w^jε^i保全Γ。目标Smith仅一p(ε行sp)和一零(常量)，不等于J/M。Gaussian准确恢复Pζ=R−Plogψ、[ε]B^-1forcing=psa modp²；ξ短窗由原因子代数forcing整商和保极帽P*逆给。全U0/13非交换连接保留，P(imJ)⊂imJ尚未付。
 
+R511真实H2=H0(X,O(2C))经FH2返回同一原预算；镜轴g²/ψ、长度S=s−r<s，Jbarι2=T2 E_mir且T2原目标单射，余核不一定单射。实际βmir(F²)=8e²ηξ、βξ=(3/4)T2βmir。完整2C对偶/蛇列给βmir=0 iff βcont∈im∂η，其中∂η从H0(C,N²(−hP))实际提升后除2eη得到；不据维数推满射。h<κ+χ仅消蛇列最右余核，carry/V1/低尾/M/d2及首共振边界均保。
+
 ## 继续
 
-R510实际W2/Q/B15完整联合及算术条件；R511同预算F·H2的镜接触/全ξ返回已完成待登记；R513四输入B0与旧W/R联立。完成任一子问题即继续open下一个，不等回复，不以时间、有限证书或辅助非零收尾。主目标未完成，QUEUE不改完成。
+R510实际W2/Q/B15完整联合及算术条件；R511同预算F·H2的镜接触/全ξ返回已登记，接续其真实边界同态；R513四输入B0与旧W/R联立。完成任一子问题即继续open下一个，不等回复，不以时间、有限证书或辅助非零收尾。主目标未完成，QUEUE不改完成。

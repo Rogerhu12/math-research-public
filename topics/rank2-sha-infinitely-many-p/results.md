@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- [R511：同预算二倍来源、真实镜接触与完整ξ返回](results/R511-actual-mirror-contact-and-full-double-source-return.md)：原FH²格在全目标经指定镜轴g²/ψ准确因子化，完整ξ向量是实际F²镜Bockstein的3/4倍像；整/p饱和来源、全2C对偶及与一倍接触的蛇列全部付清。吸收等价于特定接触类落实际边界同态像，不以维数推满射；原V1/carry/低尾/M及第三精度保持。
+
 - [R509：同一五sigma双纯Y框架与原S/T共同四输入](results/R509-original-five-sigma-two-y-frames-and-common-st-source.md)：完整Z/V/H与Z/J/K框架保两残余伴随，odd符号真实关联、even核心绝对定标；两个Q共同核λ²后合法压为四输入。旧Y/W/W′/W2/R均在该空间，四态和第一轴CM/算术条件完整下降；T/U仍混隐藏Q，只保六维真实运输，原B0补域未删。
 
 - [R507：完整原Γ的唯一Euler共振与实际forcing转置](results/R507-original-euler-resonance-and-actual-forcing-transpose.md)：原P=B N(6N−1)在全部三块整目标准确成立，唯一p因子是原ε行sp，Gaussian共振在下一精度恢复；实际ξ由同一因子代数forcing整商及保极帽有限P*逆计算。完整U0/13与非交换连接运输保留；这只是目标算子Smith，未假定原J/M像稳定或中央非零。
