@@ -207,3 +207,6 @@ M128/N1536短端.99475/264节点prepare真实0，原tol1e−5，BC0/col5.88685e�
 
 ### 2026-11-14T08:26:09+00:00 — sphereturn (local; public approval pending)
 新λ6/5球入口接真实M128短turn到.984，冻结415节点/1242接缝新g；原生M96同g冷重解exit0/169.9s，metric6.6398e−8、κ6.29532、Dproxy3.49295。完整native seed及入口保存，不把裁频warm、背景尺寸或开放前缀当闭面。
+
+### 2026-11-14T08:26:10+00:00 — halfaudit (local; public approval pending)
+本轮实际半步H原全尾audit真实exit0/232.18s、原残差1.49960e−9；完整审计packet/ready/snapshot和可移植计划保留，后续prefix精确身份复用后无闲置Node。不以尾已解替代前缀接受。

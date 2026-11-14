@@ -1,0 +1,22 @@
+{
+  "cwd": "${RUNTIME_TOPIC}",
+  "command": [
+    "${PYTHON}",
+    "-u",
+    "computations/strong_20261114_audit_complete_tail_packet_raw.py",
+    "--packet",
+    "notes/2026-11-14-strong-resume-tail-half-scaling-r1/loop-margin325-half-actual-r1-tail-response_0001.json.gz",
+    "--accepted-reference",
+    "notes/2026-11-13-strong-q126-m32-fixed-view-r1.json.gz",
+    "--source-topic",
+    "${SOURCE_TOPIC}",
+    "--frozen-reference-ready",
+    "notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json",
+    "--frozen-calibration-ledger",
+    "notes/2026-11-12-closure-scaled-endpoint-q003-m8-d12-f225-exclusive-ready.json",
+    "--stage-cache-directory",
+    "${WORK}/full-tangent-stage-cache",
+    "--out-prefix",
+    "${OUT_DIR}/half-H-full-audit"
+  ]
+}
