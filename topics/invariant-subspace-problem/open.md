@@ -161,3 +161,5 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 **七真关系下一位已实际完成。** [完整回执结论](notes/2026-11-14-r150-seven-real-relations-complete-next-bockstein-rank-one-789f.md)：A+新完整β秩1，j6/9相容、其余七仅在固定mod31初值(x0,0)下受阻；九原余均非零。下一立即恢复两正列完整原式并接第八真实除源，不把固定族/固定初值失败外推全部有理来源。全部38恢复/七阶段cache已入主线，无需重七列。
 
 **固定标准＋七常数除列路线已排。** [九目标实际有理排除](notes/2026-11-14-r150-all-nine-targets-outside-fixed-standard-seven-rational-family-789f.md)由单位子式和真carry公式，将九raw modU非零升为h0t_j∉im_Q P∞，所有费用B皆失败。只提高旧标准族预算无效；继续sB调整、新除列和完整增广来源，不把固定族外推原全部A的有理像。
+
+**新秩下界已提高。** [真实第八除列](notes/2026-11-14-r150-eighth-true-divided-column-and-rational-rank-226090-789f.md)由7003/cost87给rank_Q A87≥226090；旧最小秩226089前提已排。继续目标实际Q像与全部饱和，不把31³除源当作已证恰第三Smith层。
