@@ -55,3 +55,8 @@ R265完整证明已登记：所有声明角行的一阶不等式模型有唯一�
 
 
 request25/nativeseed独立原完整尾求解已接推送：精确恢复23完整577×224 candidate并保全部负零，只首次同17 H赋原initial；原完整solve/J/fresh audit/容差保持，失败与接受按原客户端。入口两源已全文读/静态语法，未本地科学计算。
+
+
+request26/angleprojection已接公开Actions：从最新22 warm新建唯一原完整模型和全10240角约束，C度量局部Hildreth、全行径向修复、可行原射线后备与同f线段选择；原A/gdot/merit/17trial/全部域和新FD保持。只是可行优化方向构造，非R265完整QP最优，仍非true native/BVP接受。见[全角算子](notes/2026-11-14-full-angle-domain-operator-interface.md)及[可行投影warm](notes/2026-11-14-full-angle-feasible-projection-warm-interface.md)。
+
+request25原完整solve已真实失败：run43607404925/job132484959081，iter0 norm=.04177307820740199，chartCondition8.810946110232247e59，原multiple-shooting line search failed，完整cut J/fresh audit未返回。先读取全部原试步定位，不直接接fullDN新H。

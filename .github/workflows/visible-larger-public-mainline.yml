@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2, zerorkprobev3, angledomain, nativeseed, angleprojection]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2', 'zerorkprobev3', 'angledomain', 'nativeseed', 'angleprojection'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -142,7 +142,7 @@ jobs:
         with:
           python-version: '3.12.14'
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
-        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline' && matrix.lane != 'angledomain'
+        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline' && matrix.lane != 'angledomain' && matrix.lane != 'angleprojection'
         with:
           node-version: '24.22.1'
       - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
@@ -309,7 +309,7 @@ jobs:
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/boundary112-response"
       - name: Restore the actual completed M112 preparation and full boundary response
-        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume' || matrix.lane == 'trustprotected' || matrix.lane == 'trustmultiline' || matrix.lane == 'angledomain'
+        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume' || matrix.lane == 'trustprotected' || matrix.lane == 'trustmultiline' || matrix.lane == 'angledomain' || matrix.lane == 'angleprojection'
         run: |
           export PREPARED112="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112"
           python - <<'PY112'
@@ -480,6 +480,43 @@ jobs:
         run: |
           python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_multiline_tangent_response.py" \
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_MULTILINE_WARM" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
+      - name: Construct one original warm step with all selected angular halfspaces
+        if: matrix.lane == 'angleprojection'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_angle_projection_warm.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/preparation112/prepared.json.gz" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" \
+            --resume "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43604874829-1-trustmultiline/multiline-warm/warm-001.json.gz" \
+            --expected-resume-sha 03ca9477cbb759cdbf07117f2540aa51dbe07545985c957289d0f0a3079f4be8 \
+            --out "$VISIBLE_OUT/full-angle-warm" --iterations 1 --lsmr-iterations 200 \
+            --damping 270 --projection-sweeps 200 --line-search-steps 17 \
+            --budget-seconds 1200 --jac-workers 2 --angles 4096
+          python - <<'PYANGLE'
+          import hashlib, json, os
+          from pathlib import Path
+          directory = Path(os.environ['VISIBLE_OUT'])/'full-angle-warm'
+          status = json.loads((directory/'driver-status.json').read_text())
+          if not status.get('optimization_progress') or status.get('accepted_warm_steps') != 1:
+              raise ValueError('One actual decreased complete original warm is required')
+          name = status['latest_warm_file']
+          if Path(name).name != name:
+              raise ValueError('Keep the actual warm in its declared output directory')
+          path = directory/name
+          if hashlib.sha256(path.read_bytes()).hexdigest() != status['latest_warm_sha256']:
+              raise ValueError('The actual full-angle warm identity changed')
+          with open(os.environ['GITHUB_ENV'], 'a') as stream:
+              stream.write('VISIBLE_ANGLE_WARM='+str(path)+'\n')
+          PYANGLE
+      - name: Recheck the original full Rphi derivatives on the actual full-angle warm
+        if: matrix.lane == 'angleprojection'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_full_angle_projection_response.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_ANGLE_WARM" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
       - name: Preserve the actual warm and derivative receipt before the native tail solve

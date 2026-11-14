@@ -659,3 +659,12 @@ root全文读独立launcher afa2588d…、hook22fa88aa…及CLI；原请求loop�
 ### 2026-11-14 request24真实全角首失域与非线性余项
 
 run43606770409/job132483017505全success，artifact14119155118/ZIPc4c59d92…已取核，summary5abd72ed…。原base20+22方向逐值重建接受699态，五处×2048角完整方向complex差2.65–5.52e−13、旧坏点逐值重放0。480 first-exit=.00237428794正夹原接受/拒绝，2^-8全部4实际负角与linear负角同集；最坏余项+.00299206。2^-6的475/477/479却有6/10/2实际负而linear全正，不能以线性可行冒实际。R263 E=.79462908/Delta=.53502717比1.48521本次Actions首次真存。完整note已全文读；下一以全角不等式投影产生候选并重算原A z/gdot/merit与全部真实域，非QP最优/新BVP接受。
+
+
+### 2026-11-14 request26：完整角不等式的实际可行下降候选
+
+三独立源operator af7966fa…/warm7d75a44a…/FD90e7adde…及两接口已全文读、静态AST/依赖SHA核；唯一原fullJac捕获9/10端点J/P，完整q.jet Γ/Π、B/Bᵀ、共享节点和S/C尺度保留。新模型从最新22 warm开始，λ270/LSMR200、β/2全10240行Hildreth≤200sweep、径向可行后备与同f线段选择，原全A/gdot/merit/17trial/所有域及新FD保持。独立angleprojection lane接入本题workflow（三名单同步），无本地数学执行；按根规则10，大可再生domain-operator NPZ仅存Actions artifact，完整manifest/输入/源/哈希入Git，避免数十MB优化中间阵进库。未预设warm或native成功。
+
+本次并将R263–R265及两新接口的公式分隔符改为根规则4规定的$与$$；只改Markdown排版，不改证明内容或数值源。
+
+request25终态补记：原身份验证通过，原Newton iter0 norm=.04177307820740199、minA=.9999999999759498/minD=.9999999999999858，chartCondition8.810946110232247e59；原线搜索失败，fresh calls1且完整cut J/audit未返回。artifact14118968502/ZIP480f69d0…取回后读全部trial，不以23初猜进步冒原solver接受。
