@@ -1,0 +1,2036 @@
+{
+  "all_distinct_stage_interfaces_explicit": true,
+  "array_manifest": {
+    "bytes": 49663,
+    "file": "array-manifest.json",
+    "sha256": "e41e2a0f597647fc08db0477d8fd727ddb76ed7f00c25ae191ccfd99e788da22"
+  },
+  "balanced_work": {
+    "after_left_recovery": {
+      "bytes": 809984,
+      "dtype": "<f16",
+      "encoding": {
+        "active_bytes": 10,
+        "actual_precision_is_recorded_not_assumed": true,
+        "explicit_fraction_bits": 63,
+        "itemsize": 16,
+        "machine_epsilon_decimal": "1.084202172485504434e-19",
+        "max_exponent": 16384,
+        "numpy_dtype": "<f16",
+        "numpy_finfo_nmant": 63,
+        "padding_is_canonicalized_without_changing_the_numeric_value": true,
+        "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+        "significand_bits": 64,
+        "storage_padding_bytes": 6
+      },
+      "entries": 50624,
+      "file": "large-arrays/balanced-output-after-left-recovery.longdouble-le",
+      "finite_entries": 50624,
+      "name": "balanced-output-after-left-recovery",
+      "negative_zero_entries": 0,
+      "order": "C",
+      "role": "Output restored to original engine Q/Pi; input still in H_input coordinates",
+      "sha256": "9a75b5745df72abd3f84deee4fbe5381b73d65af4175d7b3989e8f6844d7112e",
+      "shape": [
+        226,
+        224
+      ]
+    },
+    "continuous_G_derivative_equation_not_used": true,
+    "local_similarities": [
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/similarity-a.longdouble-le",
+        "finite_entries": 50624,
+        "name": "similarity-a",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "diag(H_stage,I2) saved_A H_stage^-1, full 226 by 224",
+        "sha256": "fc2af7b7cdfe1b81a6843bc8bddbf17a5acb2e36d2cb76b6b188200613e3f860",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/similarity-b.longdouble-le",
+        "finite_entries": 50624,
+        "name": "similarity-b",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "diag(H_stage,I2) saved_A H_stage^-1, full 226 by 224",
+        "sha256": "862ab803d38cdda452687b462be5bff1512b940c0d839d8c5efa0ce4970e7f0a",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/similarity-c.longdouble-le",
+        "finite_entries": 50624,
+        "name": "similarity-c",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "diag(H_stage,I2) saved_A H_stage^-1, full 226 by 224",
+        "sha256": "1b2d2ab7c221fe39bee3b901173b4f8738595bc8d8d186db6ab9bafedff92316",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/similarity-d.longdouble-le",
+        "finite_entries": 50624,
+        "name": "similarity-d",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "diag(H_stage,I2) saved_A H_stage^-1, full 226 by 224",
+        "sha256": "0ca07dffee01dc1ae1e8df97cae036a2b2830d7d4462bd3e20e1832540c9e860",
+        "shape": [
+          226,
+          224
+        ]
+      }
+    ],
+    "mean_stage_rows_preserved_and_not_used_as_feedback": true,
+    "original_engine_output": {
+      "bytes": 809984,
+      "dtype": "<f16",
+      "encoding": {
+        "active_bytes": 10,
+        "actual_precision_is_recorded_not_assumed": true,
+        "explicit_fraction_bits": 63,
+        "itemsize": 16,
+        "machine_epsilon_decimal": "1.084202172485504434e-19",
+        "max_exponent": 16384,
+        "numpy_dtype": "<f16",
+        "numpy_finfo_nmant": 63,
+        "padding_is_canonicalized_without_changing_the_numeric_value": true,
+        "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+        "significand_bits": 64,
+        "storage_padding_bytes": 6
+      },
+      "entries": 50624,
+      "file": "large-arrays/balanced-original-engine-output.longdouble-le",
+      "finite_entries": 50624,
+      "name": "balanced-original-engine-output",
+      "negative_zero_entries": 0,
+      "order": "C",
+      "role": "Complete original-coordinate engine map before the single original exit port",
+      "sha256": "6be2e92fa313f58f29baf01a9fa84edd2c1c9bc6047f33cdf6b0df53ca863c8f",
+      "shape": [
+        226,
+        224
+      ]
+    },
+    "original_stored_output": {
+      "bytes": 809984,
+      "dtype": "<f16",
+      "encoding": {
+        "active_bytes": 10,
+        "actual_precision_is_recorded_not_assumed": true,
+        "explicit_fraction_bits": 63,
+        "itemsize": 16,
+        "machine_epsilon_decimal": "1.084202172485504434e-19",
+        "max_exponent": 16384,
+        "numpy_dtype": "<f16",
+        "numpy_finfo_nmant": 63,
+        "padding_is_canonicalized_without_changing_the_numeric_value": true,
+        "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+        "significand_bits": 64,
+        "storage_padding_bytes": 6
+      },
+      "entries": 50624,
+      "file": "large-arrays/balanced-original-stored-output.longdouble-le",
+      "finite_entries": 50624,
+      "name": "balanced-original-stored-output",
+      "negative_zero_entries": 0,
+      "order": "C",
+      "role": "Complete original-coordinate map with final Pi port applied exactly once",
+      "sha256": "6be2e92fa313f58f29baf01a9fa84edd2c1c9bc6047f33cdf6b0df53ca863c8f",
+      "shape": [
+        226,
+        224
+      ]
+    },
+    "recovery_order": "inverse_left_output_frame_then_right_input_frame_then_original_Pi_port",
+    "stage_derivatives": [
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/balanced-stage-a-derivative.longdouble-le",
+        "finite_entries": 50624,
+        "name": "balanced-stage-a-derivative",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Full transformed stage derivative C_i eta_i, all mode couplings retained",
+        "sha256": "fc2af7b7cdfe1b81a6843bc8bddbf17a5acb2e36d2cb76b6b188200613e3f860",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/balanced-stage-b-derivative.longdouble-le",
+        "finite_entries": 50624,
+        "name": "balanced-stage-b-derivative",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Full transformed stage derivative C_i eta_i, all mode couplings retained",
+        "sha256": "8ba5c37535bff9651b2e6f9282b40b754efdb2a0ed61948bf154badaaa979aa8",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/balanced-stage-c-derivative.longdouble-le",
+        "finite_entries": 50624,
+        "name": "balanced-stage-c-derivative",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Full transformed stage derivative C_i eta_i, all mode couplings retained",
+        "sha256": "2097a0748e61679f197215dac2cdd52919fe60f457fac5b466e55eb00eea4764",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/balanced-stage-d-derivative.longdouble-le",
+        "finite_entries": 50624,
+        "name": "balanced-stage-d-derivative",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Full transformed stage derivative C_i eta_i, all mode couplings retained",
+        "sha256": "16697ee6b01d796a6876f527207fb2c7aed953d0d940e2d5f8e4e76cbd042fe4",
+        "shape": [
+          226,
+          224
+        ]
+      }
+    ],
+    "stage_inputs": [
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/balanced-stage-a-input.longdouble-le",
+        "finite_entries": 50624,
+        "name": "balanced-stage-a-input",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Full 226 by 224 stage tangent; mean rows retained but never fed into A",
+        "sha256": "70fbe8c0a210b104a87256e97327af384f594e916d83152c86675eb1bcadcd9d",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/balanced-stage-b-input.longdouble-le",
+        "finite_entries": 50624,
+        "name": "balanced-stage-b-input",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Full 226 by 224 stage tangent; mean rows retained but never fed into A",
+        "sha256": "a28dddbaba43645b0d75cdceb6bb8bdd80045ccf5470538556da087aab4f2f59",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/balanced-stage-c-input.longdouble-le",
+        "finite_entries": 50624,
+        "name": "balanced-stage-c-input",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Full 226 by 224 stage tangent; mean rows retained but never fed into A",
+        "sha256": "1e9df6ecce20f3ae3179a6a464dd9afedc40fb2592af932834ec86c0f8cb10fe",
+        "shape": [
+          226,
+          224
+        ]
+      },
+      {
+        "bytes": 809984,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 50624,
+        "file": "large-arrays/balanced-stage-d-input.longdouble-le",
+        "finite_entries": 50624,
+        "name": "balanced-stage-d-input",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Full 226 by 224 stage tangent; mean rows retained but never fed into A",
+        "sha256": "ef6639383c035ca41f5f2e34baaa92a5a75633b605a7dbc79f2e1baf94c46300",
+        "shape": [
+          226,
+          224
+        ]
+      }
+    ],
+    "transformed_output": {
+      "bytes": 809984,
+      "dtype": "<f16",
+      "encoding": {
+        "active_bytes": 10,
+        "actual_precision_is_recorded_not_assumed": true,
+        "explicit_fraction_bits": 63,
+        "itemsize": 16,
+        "machine_epsilon_decimal": "1.084202172485504434e-19",
+        "max_exponent": 16384,
+        "numpy_dtype": "<f16",
+        "numpy_finfo_nmant": 63,
+        "padding_is_canonicalized_without_changing_the_numeric_value": true,
+        "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+        "significand_bits": 64,
+        "storage_padding_bytes": 6
+      },
+      "entries": 50624,
+      "file": "large-arrays/balanced-output-before-recovery.longdouble-le",
+      "finite_entries": 50624,
+      "name": "balanced-output-before-recovery",
+      "negative_zero_entries": 0,
+      "order": "C",
+      "role": "Engine output in field-d frame and input field-a coordinates, full mean rows",
+      "sha256": "815c5ac12e59ae40fe8b693f044e9be2590f24f63a3996d4664158fb122842be",
+      "shape": [
+        226,
+        224
+      ]
+    },
+    "transports": [
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-a-from-input.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-a-from-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "9723101eff97bba90566d6e299f9365893c849d74b0eeb63fad9ed4cf9bc04c1",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "a",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": true,
+        "source": "input"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-b-from-input.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-b-from-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "a98c5f4c16800c4c6cb83d145c5dd654f3103ec9415dde80df73b093e85af38d",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "b",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "input"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-b-from-a.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-b-from-a",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "a98c5f4c16800c4c6cb83d145c5dd654f3103ec9415dde80df73b093e85af38d",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "b",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "a"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-c-from-input.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-c-from-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "a98c5f4c16800c4c6cb83d145c5dd654f3103ec9415dde80df73b093e85af38d",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "c",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "input"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-c-from-b.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-c-from-b",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "9723101eff97bba90566d6e299f9365893c849d74b0eeb63fad9ed4cf9bc04c1",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "c",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": true,
+        "source": "b"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-d-from-input.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-d-from-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "890818b9199d0fb91835d6fbc45d372bb09ccded33d7f3d296f844972a123cca",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "d",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "input"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-d-from-c.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-d-from-c",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "60d966b8ebcb425260c4fea6520e9359544df30caf56d9a753887a8cb90f0054",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "d",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "c"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-output-from-input.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-output-from-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "890818b9199d0fb91835d6fbc45d372bb09ccded33d7f3d296f844972a123cca",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "output",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "input"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-output-from-a.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-output-from-a",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "890818b9199d0fb91835d6fbc45d372bb09ccded33d7f3d296f844972a123cca",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "output",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "a"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-output-from-b.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-output-from-b",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "60d966b8ebcb425260c4fea6520e9359544df30caf56d9a753887a8cb90f0054",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "output",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "b"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-output-from-c.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-output-from-c",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "60d966b8ebcb425260c4fea6520e9359544df30caf56d9a753887a8cb90f0054",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "output",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": false,
+        "source": "c"
+      },
+      {
+        "coefficients": {
+          "bytes": 5376,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 336,
+          "file": "large-arrays/transport-output-from-d.longdouble-le",
+          "finite_entries": 336,
+          "name": "transport-output-from-d",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "H_destination H_source^-1 triangular coefficients",
+          "sha256": "9723101eff97bba90566d6e299f9365893c849d74b0eeb63fad9ed4cf9bc04c1",
+          "shape": [
+            112,
+            3
+          ]
+        },
+        "destination": "output",
+        "distinct_field_A_not_merged": true,
+        "exact_same_saved_frame_identity_used": true,
+        "source": "d"
+      }
+    ]
+  },
+  "candidate_components": {
+    "direct-original-coordinates-longdouble": {
+      "all_224_original_input_columns_retained": true,
+      "binary64_negative_zero_entries": 0,
+      "candidate_is_new_array_not_actual41_frozen_J": true,
+      "complete_original_output_rows": 226,
+      "mean_rows": {
+        "bytes": 3584,
+        "dtype": "<f8",
+        "encoding": {
+          "active_bytes": 8,
+          "itemsize": 8,
+          "representation": "IEEE754-binary64-little-endian",
+          "storage_padding_bytes": 0
+        },
+        "entries": 448,
+        "file": "large-arrays/direct-original-coordinates-longdouble-mean.f64le",
+        "finite_entries": 448,
+        "name": "direct-original-coordinates-longdouble-mean",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Both original-coordinate mean rows, no final port scaling",
+        "sha256": "abe575585c25896e5f95515140d93c252a45d1bde76327b37101e6484a5f0d23",
+        "shape": [
+          2,
+          224
+        ]
+      },
+      "mean_rows_not_port_scaled": true,
+      "original_Pi_exit_port_already_applied": true,
+      "shape_J": {
+        "bytes": 401408,
+        "dtype": "<f8",
+        "encoding": {
+          "active_bytes": 8,
+          "itemsize": 8,
+          "representation": "IEEE754-binary64-little-endian",
+          "storage_padding_bytes": 0
+        },
+        "entries": 50176,
+        "file": "large-arrays/direct-original-coordinates-longdouble-shape.f64le",
+        "finite_entries": 50176,
+        "name": "direct-original-coordinates-longdouble-shape",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Complete original-coordinate shape block; all columns",
+        "sha256": "68341a8888d101e7cad7526b370bc3fae1bacbb023c50be97d5a63bdcfce936f",
+        "shape": [
+          224,
+          224
+        ]
+      },
+      "working_nonzero_to_binary64_zero_entries": 0
+    },
+    "r271-frequency-balanced-longdouble": {
+      "all_224_original_input_columns_retained": true,
+      "binary64_negative_zero_entries": 0,
+      "candidate_is_new_array_not_actual41_frozen_J": true,
+      "complete_original_output_rows": 226,
+      "mean_rows": {
+        "bytes": 3584,
+        "dtype": "<f8",
+        "encoding": {
+          "active_bytes": 8,
+          "itemsize": 8,
+          "representation": "IEEE754-binary64-little-endian",
+          "storage_padding_bytes": 0
+        },
+        "entries": 448,
+        "file": "large-arrays/r271-frequency-balanced-longdouble-mean.f64le",
+        "finite_entries": 448,
+        "name": "r271-frequency-balanced-longdouble-mean",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Both original-coordinate mean rows, no final port scaling",
+        "sha256": "778f5352cd7f061bbe19160928f3ed3bf7f00923a3e658ee785320c930992510",
+        "shape": [
+          2,
+          224
+        ]
+      },
+      "mean_rows_not_port_scaled": true,
+      "original_Pi_exit_port_already_applied": true,
+      "shape_J": {
+        "bytes": 401408,
+        "dtype": "<f8",
+        "encoding": {
+          "active_bytes": 8,
+          "itemsize": 8,
+          "representation": "IEEE754-binary64-little-endian",
+          "storage_padding_bytes": 0
+        },
+        "entries": 50176,
+        "file": "large-arrays/r271-frequency-balanced-longdouble-shape.f64le",
+        "finite_entries": 50176,
+        "name": "r271-frequency-balanced-longdouble-shape",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Complete original-coordinate shape block; all columns",
+        "sha256": "9b30f321b55d1bd1fbad084efafef3479ded0d8347064d3c093d57e4a6c33ae0",
+        "shape": [
+          224,
+          224
+        ]
+      },
+      "working_nonzero_to_binary64_zero_entries": 0
+    }
+  },
+  "candidate_maps": {
+    "direct-original-coordinates-longdouble": {
+      "bytes": 404992,
+      "dtype": "<f8",
+      "encoding": {
+        "active_bytes": 8,
+        "itemsize": 8,
+        "representation": "IEEE754-binary64-little-endian",
+        "storage_padding_bytes": 0
+      },
+      "entries": 50624,
+      "file": "large-arrays/direct-original-coordinates-longdouble-full.f64le",
+      "finite_entries": 50624,
+      "name": "direct-original-coordinates-longdouble-full",
+      "negative_zero_entries": 0,
+      "order": "C",
+      "role": "Same-working-precision direct RK4 control in original coordinates and original port",
+      "sha256": "29edc4a6fb630f26a645e1f7a9be17e5ea80cbfbb607844d742e6df61eba7232",
+      "shape": [
+        226,
+        224
+      ]
+    },
+    "r271-frequency-balanced-longdouble": {
+      "bytes": 404992,
+      "dtype": "<f8",
+      "encoding": {
+        "active_bytes": 8,
+        "itemsize": 8,
+        "representation": "IEEE754-binary64-little-endian",
+        "storage_padding_bytes": 0
+      },
+      "entries": 50624,
+      "file": "large-arrays/r271-frequency-balanced-longdouble-full.f64le",
+      "finite_entries": 50624,
+      "name": "r271-frequency-balanced-longdouble-full",
+      "negative_zero_entries": 0,
+      "order": "C",
+      "role": "Full226x224 R271 candidate restored to original Q/Pi/mean coordinates and original port",
+      "sha256": "71d9c953a990623e844cb9e6e4ebbfe1c18d3befb5b6a38d1f0c9133f84662bc",
+      "shape": [
+        226,
+        224
+      ]
+    }
+  },
+  "capture_result_sha256": "da9715ef1685c04210d5c3d8bbfb40629fd4bf810455b497e5e25630ac0aa403",
+  "changed_arithmetic_representation_not_changed_nonlinear_equations": true,
+  "columns": 224,
+  "complete_mean_rows_retained": true,
+  "completed": true,
+  "direct_work": {
+    "original_engine_output": {
+      "bytes": 809984,
+      "dtype": "<f16",
+      "encoding": {
+        "active_bytes": 10,
+        "actual_precision_is_recorded_not_assumed": true,
+        "explicit_fraction_bits": 63,
+        "itemsize": 16,
+        "machine_epsilon_decimal": "1.084202172485504434e-19",
+        "max_exponent": 16384,
+        "numpy_dtype": "<f16",
+        "numpy_finfo_nmant": 63,
+        "padding_is_canonicalized_without_changing_the_numeric_value": true,
+        "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+        "significand_bits": 64,
+        "storage_padding_bytes": 6
+      },
+      "entries": 50624,
+      "file": "large-arrays/direct-original-engine-output.longdouble-le",
+      "finite_entries": 50624,
+      "name": "direct-original-engine-output",
+      "negative_zero_entries": 0,
+      "order": "C",
+      "role": "Working-precision original-coordinate RK4 map before the exit port",
+      "sha256": "c075177511cfe3aed941f53bed2ffd837ba95c0ba6613a9b91c0285ed3e4aa58",
+      "shape": [
+        226,
+        224
+      ]
+    },
+    "original_stored_output": {
+      "bytes": 809984,
+      "dtype": "<f16",
+      "encoding": {
+        "active_bytes": 10,
+        "actual_precision_is_recorded_not_assumed": true,
+        "explicit_fraction_bits": 63,
+        "itemsize": 16,
+        "machine_epsilon_decimal": "1.084202172485504434e-19",
+        "max_exponent": 16384,
+        "numpy_dtype": "<f16",
+        "numpy_finfo_nmant": 63,
+        "padding_is_canonicalized_without_changing_the_numeric_value": true,
+        "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+        "significand_bits": 64,
+        "storage_padding_bytes": 6
+      },
+      "entries": 50624,
+      "file": "large-arrays/direct-original-stored-output.longdouble-le",
+      "finite_entries": 50624,
+      "name": "direct-original-stored-output",
+      "negative_zero_entries": 0,
+      "order": "C",
+      "role": "Working-precision original-coordinate RK4 map after the single Pi port",
+      "sha256": "c075177511cfe3aed941f53bed2ffd837ba95c0ba6613a9b91c0285ed3e4aa58",
+      "shape": [
+        226,
+        224
+      ]
+    },
+    "stages": [
+      {
+        "derivative": {
+          "bytes": 809984,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 50624,
+          "file": "large-arrays/direct-stage-0-derivative.longdouble-le",
+          "finite_entries": 50624,
+          "name": "direct-stage-0-derivative",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "Original saved A_i times the complete shape tangent, two means retained",
+          "sha256": "7c71b84eda95bd6b2cf8f0f25f34eec99e89dcd9cac51762fcaeef79eeb101c6",
+          "shape": [
+            226,
+            224
+          ]
+        },
+        "field_index": 0,
+        "input": {
+          "bytes": 809984,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 50624,
+          "file": "large-arrays/direct-stage-0-input.longdouble-le",
+          "finite_entries": 50624,
+          "name": "direct-stage-0-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "Same-precision ordinary original-coordinate RK4 full stage tangent",
+          "sha256": "70fbe8c0a210b104a87256e97327af384f594e916d83152c86675eb1bcadcd9d",
+          "shape": [
+            226,
+            224
+          ]
+        }
+      },
+      {
+        "derivative": {
+          "bytes": 809984,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 50624,
+          "file": "large-arrays/direct-stage-1-derivative.longdouble-le",
+          "finite_entries": 50624,
+          "name": "direct-stage-1-derivative",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "Original saved A_i times the complete shape tangent, two means retained",
+          "sha256": "9763849af04a786967baa54c1991b6ed0ef408528b2e52440f0dde097733aa9a",
+          "shape": [
+            226,
+            224
+          ]
+        },
+        "field_index": 1,
+        "input": {
+          "bytes": 809984,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 50624,
+          "file": "large-arrays/direct-stage-1-input.longdouble-le",
+          "finite_entries": 50624,
+          "name": "direct-stage-1-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "Same-precision ordinary original-coordinate RK4 full stage tangent",
+          "sha256": "ebaa3b72ee9638529529a281b40c5fa1829af6ddc5a984900154b7077a6ca20c",
+          "shape": [
+            226,
+            224
+          ]
+        }
+      },
+      {
+        "derivative": {
+          "bytes": 809984,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 50624,
+          "file": "large-arrays/direct-stage-2-derivative.longdouble-le",
+          "finite_entries": 50624,
+          "name": "direct-stage-2-derivative",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "Original saved A_i times the complete shape tangent, two means retained",
+          "sha256": "449ebfcb5914a3ebe3cf48da2915b0999ddc04d1428baca5f50e4306a0d6468b",
+          "shape": [
+            226,
+            224
+          ]
+        },
+        "field_index": 2,
+        "input": {
+          "bytes": 809984,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 50624,
+          "file": "large-arrays/direct-stage-2-input.longdouble-le",
+          "finite_entries": 50624,
+          "name": "direct-stage-2-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "Same-precision ordinary original-coordinate RK4 full stage tangent",
+          "sha256": "7d156c9db95f7092755f9ed48cace600015798114bd806b160d66a1383ae72f8",
+          "shape": [
+            226,
+            224
+          ]
+        }
+      },
+      {
+        "derivative": {
+          "bytes": 809984,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 50624,
+          "file": "large-arrays/direct-stage-3-derivative.longdouble-le",
+          "finite_entries": 50624,
+          "name": "direct-stage-3-derivative",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "Original saved A_i times the complete shape tangent, two means retained",
+          "sha256": "4323d52efdacab39eb45b119bbce1c1ea40e226585d459cc52e61d8410d7b048",
+          "shape": [
+            226,
+            224
+          ]
+        },
+        "field_index": 3,
+        "input": {
+          "bytes": 809984,
+          "dtype": "<f16",
+          "encoding": {
+            "active_bytes": 10,
+            "actual_precision_is_recorded_not_assumed": true,
+            "explicit_fraction_bits": 63,
+            "itemsize": 16,
+            "machine_epsilon_decimal": "1.084202172485504434e-19",
+            "max_exponent": 16384,
+            "numpy_dtype": "<f16",
+            "numpy_finfo_nmant": 63,
+            "padding_is_canonicalized_without_changing_the_numeric_value": true,
+            "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+            "significand_bits": 64,
+            "storage_padding_bytes": 6
+          },
+          "entries": 50624,
+          "file": "large-arrays/direct-stage-3-input.longdouble-le",
+          "finite_entries": 50624,
+          "name": "direct-stage-3-input",
+          "negative_zero_entries": 0,
+          "order": "C",
+          "role": "Same-precision ordinary original-coordinate RK4 full stage tangent",
+          "sha256": "eec60385338978d1420a65acde1f63abaf02d7a3ab554b457da83a551e71fb79",
+          "shape": [
+            226,
+            224
+          ]
+        }
+      }
+    ]
+  },
+  "elapsed_seconds": 1.0034859379999972,
+  "exact_reference_comparison_is_a_separate_consumer": true,
+  "fixed_input_node": 520,
+  "fixed_new_stage": 519,
+  "fixed_stage": 43,
+  "fixed_step": 11,
+  "formed_complete_linear_maps": 2,
+  "frame_aliases": {
+    "input": "a",
+    "output": "d"
+  },
+  "frame_coefficients_are_saved_finite_working_precision_constants": true,
+  "frame_mean_extension": "diag(H_shape,I2)",
+  "frame_parameters_are_frozen_at_saved_field_geometry": true,
+  "frames": [
+    {
+      "H_definition": "r^4 * [[1,0],[m/sqrt(7), b/(sqrt(7)*m)]], b=sqrt(12)*mu/(r^7*w)",
+      "coefficients": {
+        "bytes": 5376,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 336,
+        "file": "large-arrays/frame-field-0.longdouble-le",
+        "finite_entries": 336,
+        "name": "frame-field-0",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Per-mode rows [alpha,beta,eta] of H=[[alpha,0],[beta,eta]]",
+        "sha256": "c6ed6e07d8cca23ccea746f8f0d5cbea1df475d16bc4612c56cfcf399a52cdb7",
+        "shape": [
+          112,
+          3
+        ]
+      },
+      "complete_original_geometry": {
+        "E": {
+          "classification": "finite",
+          "float64le_hex": "aa625e083f03f03f",
+          "value": 1.0007925345327444
+        },
+        "chi": {
+          "classification": "finite",
+          "float64le_hex": "000000000000f03f",
+          "value": 1
+        },
+        "dlogwdx": {
+          "classification": "finite",
+          "float64le_hex": "00f0a9c807a5f7bf",
+          "value": -1.4777906263761906
+        },
+        "drdx": {
+          "classification": "finite",
+          "float64le_hex": "70a3def522ea753f",
+          "value": 0.0053502431527839706
+        },
+        "logw": {
+          "classification": "finite",
+          "float64le_hex": "1949ea1ca48f0cc0",
+          "value": -3.5701372393606445
+        },
+        "oldDrdx": {
+          "classification": "finite",
+          "float64le_hex": "51bd0c5e274cd23e",
+          "value": 4.3624581571999064e-06
+        },
+        "oldR": {
+          "classification": "finite",
+          "float64le_hex": "38c8386788caa93f",
+          "value": 0.050373327827756886
+        },
+        "r": {
+          "classification": "finite",
+          "float64le_hex": "aa8d0ed3a492cd3f",
+          "value": 0.23103771501074039
+        },
+        "w": {
+          "classification": "finite",
+          "float64le_hex": "c662f60ee0d39c3f",
+          "value": 0.028151989854083202
+        },
+        "w2": {
+          "classification": "finite",
+          "float64le_hex": "914f15f342f8493f",
+          "value": 0.0007925345327444035
+        }
+      },
+      "field_index": 0,
+      "frozen_at_saved_stage_geometry": true,
+      "input_mu": {
+        "classification": "finite",
+        "float64le_hex": "55c738449518a63d",
+        "value": 1.0048110027994864e-11
+      },
+      "input_r": {
+        "classification": "finite",
+        "float64le_hex": "aa8d0ed3a492cd3f",
+        "value": 0.23103771501074039
+      },
+      "input_w": {
+        "classification": "finite",
+        "float64le_hex": "c662f60ee0d39c3f",
+        "value": 0.028151989854083202
+      },
+      "label": "a",
+      "original_h": {
+        "classification": "finite",
+        "float64le_hex": "555555555555b53f",
+        "value": 0.08333333333333333
+      },
+      "original_w2_retained_as_input_metadata_not_replaced_by_w_squared": true,
+      "original_x": {
+        "classification": "finite",
+        "float64le_hex": "555555555555ed3f",
+        "value": 0.9166666666666666
+      }
+    },
+    {
+      "H_definition": "r^4 * [[1,0],[m/sqrt(7), b/(sqrt(7)*m)]], b=sqrt(12)*mu/(r^7*w)",
+      "coefficients": {
+        "bytes": 5376,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 336,
+        "file": "large-arrays/frame-field-1.longdouble-le",
+        "finite_entries": 336,
+        "name": "frame-field-1",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Per-mode rows [alpha,beta,eta] of H=[[alpha,0],[beta,eta]]",
+        "sha256": "49b98b8b1d79455b089ff844434864e6db832e3db848f7fc812dd51c16654974",
+        "shape": [
+          112,
+          3
+        ]
+      },
+      "complete_original_geometry": {
+        "E": {
+          "classification": "finite",
+          "float64le_hex": "561a7b2edf02f03f",
+          "value": 1.000701123777295
+        },
+        "chi": {
+          "classification": "finite",
+          "float64le_hex": "000000000000f03f",
+          "value": 1
+        },
+        "dlogwdx": {
+          "classification": "finite",
+          "float64le_hex": "1de3a78ba669f7bf",
+          "value": -1.4632935958199547
+        },
+        "drdx": {
+          "classification": "finite",
+          "float64le_hex": "48e33dd67377743f",
+          "value": 0.004996731269664441
+        },
+        "logw": {
+          "classification": "finite",
+          "float64le_hex": "e99ef149220d0dc0",
+          "value": -3.6314130570279883
+        },
+        "oldDrdx": {
+          "classification": "finite",
+          "float64le_hex": "60d383e8274cd23e",
+          "value": 4.362460124908467e-06
+        },
+        "oldR": {
+          "classification": "finite",
+          "float64le_hex": "ae19652a89caa93f",
+          "value": 0.05037335054889823
+        },
+        "r": {
+          "classification": "finite",
+          "float64le_hex": "e3beb45fb499cd3f",
+          "value": 0.23125319169184086
+        },
+        "w": {
+          "classification": "finite",
+          "float64le_hex": "1411854b3e1d9b3f",
+          "value": 0.02647874198852758
+        },
+        "w2": {
+          "classification": "finite",
+          "float64le_hex": "56b3d2d873f9463f",
+          "value": 0.0007011237772950134
+        }
+      },
+      "field_index": 1,
+      "frozen_at_saved_stage_geometry": true,
+      "input_mu": {
+        "classification": "finite",
+        "float64le_hex": "55c738449518a63d",
+        "value": 1.0048110027994864e-11
+      },
+      "input_r": {
+        "classification": "finite",
+        "float64le_hex": "e3beb45fb499cd3f",
+        "value": 0.23125319169184086
+      },
+      "input_w": {
+        "classification": "finite",
+        "float64le_hex": "1411854b3e1d9b3f",
+        "value": 0.02647874198852758
+      },
+      "label": "b",
+      "original_h": {
+        "classification": "finite",
+        "float64le_hex": "555555555555b53f",
+        "value": 0.08333333333333333
+      },
+      "original_w2_retained_as_input_metadata_not_replaced_by_w_squared": true,
+      "original_x": {
+        "classification": "finite",
+        "float64le_hex": "aaaaaaaaaaaaee3f",
+        "value": 0.9583333333333333
+      }
+    },
+    {
+      "H_definition": "r^4 * [[1,0],[m/sqrt(7), b/(sqrt(7)*m)]], b=sqrt(12)*mu/(r^7*w)",
+      "coefficients": {
+        "bytes": 5376,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 336,
+        "file": "large-arrays/frame-field-2.longdouble-le",
+        "finite_entries": 336,
+        "name": "frame-field-2",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Per-mode rows [alpha,beta,eta] of H=[[alpha,0],[beta,eta]]",
+        "sha256": "49b98b8b1d79455b089ff844434864e6db832e3db848f7fc812dd51c16654974",
+        "shape": [
+          112,
+          3
+        ]
+      },
+      "complete_original_geometry": {
+        "E": {
+          "classification": "finite",
+          "float64le_hex": "561a7b2edf02f03f",
+          "value": 1.000701123777295
+        },
+        "chi": {
+          "classification": "finite",
+          "float64le_hex": "000000000000f03f",
+          "value": 1
+        },
+        "dlogwdx": {
+          "classification": "finite",
+          "float64le_hex": "1de3a78ba669f7bf",
+          "value": -1.4632935958199547
+        },
+        "drdx": {
+          "classification": "finite",
+          "float64le_hex": "48e33dd67377743f",
+          "value": 0.004996731269664441
+        },
+        "logw": {
+          "classification": "finite",
+          "float64le_hex": "e99ef149220d0dc0",
+          "value": -3.6314130570279883
+        },
+        "oldDrdx": {
+          "classification": "finite",
+          "float64le_hex": "60d383e8274cd23e",
+          "value": 4.362460124908467e-06
+        },
+        "oldR": {
+          "classification": "finite",
+          "float64le_hex": "ae19652a89caa93f",
+          "value": 0.05037335054889823
+        },
+        "r": {
+          "classification": "finite",
+          "float64le_hex": "e3beb45fb499cd3f",
+          "value": 0.23125319169184086
+        },
+        "w": {
+          "classification": "finite",
+          "float64le_hex": "1411854b3e1d9b3f",
+          "value": 0.02647874198852758
+        },
+        "w2": {
+          "classification": "finite",
+          "float64le_hex": "56b3d2d873f9463f",
+          "value": 0.0007011237772950134
+        }
+      },
+      "field_index": 2,
+      "frozen_at_saved_stage_geometry": true,
+      "input_mu": {
+        "classification": "finite",
+        "float64le_hex": "55c738449518a63d",
+        "value": 1.0048110027994864e-11
+      },
+      "input_r": {
+        "classification": "finite",
+        "float64le_hex": "e3beb45fb499cd3f",
+        "value": 0.23125319169184086
+      },
+      "input_w": {
+        "classification": "finite",
+        "float64le_hex": "1411854b3e1d9b3f",
+        "value": 0.02647874198852758
+      },
+      "label": "c",
+      "original_h": {
+        "classification": "finite",
+        "float64le_hex": "555555555555b53f",
+        "value": 0.08333333333333333
+      },
+      "original_w2_retained_as_input_metadata_not_replaced_by_w_squared": true,
+      "original_x": {
+        "classification": "finite",
+        "float64le_hex": "aaaaaaaaaaaaee3f",
+        "value": 0.9583333333333333
+      }
+    },
+    {
+      "H_definition": "r^4 * [[1,0],[m/sqrt(7), b/(sqrt(7)*m)]], b=sqrt(12)*mu/(r^7*w)",
+      "coefficients": {
+        "bytes": 5376,
+        "dtype": "<f16",
+        "encoding": {
+          "active_bytes": 10,
+          "actual_precision_is_recorded_not_assumed": true,
+          "explicit_fraction_bits": 63,
+          "itemsize": 16,
+          "machine_epsilon_decimal": "1.084202172485504434e-19",
+          "max_exponent": 16384,
+          "numpy_dtype": "<f16",
+          "numpy_finfo_nmant": 63,
+          "padding_is_canonicalized_without_changing_the_numeric_value": true,
+          "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+          "significand_bits": 64,
+          "storage_padding_bytes": 6
+        },
+        "entries": 336,
+        "file": "large-arrays/frame-field-3.longdouble-le",
+        "finite_entries": 336,
+        "name": "frame-field-3",
+        "negative_zero_entries": 0,
+        "order": "C",
+        "role": "Per-mode rows [alpha,beta,eta] of H=[[alpha,0],[beta,eta]]",
+        "sha256": "447ad5540ce9f80430e1e6c082bdd2aa12b389bad45537a8ad1e1461a4155307",
+        "shape": [
+          112,
+          3
+        ]
+      },
+      "complete_original_geometry": {
+        "E": {
+          "classification": "finite",
+          "float64le_hex": "aa3c43328b02f03f",
+          "value": 1.000621029222922
+        },
+        "chi": {
+          "classification": "finite",
+          "float64le_hex": "000000000000f03f",
+          "value": 1
+        },
+        "dlogwdx": {
+          "classification": "finite",
+          "float64le_hex": "aa7d9890ae2af7bf",
+          "value": -1.447920384241892
+        },
+        "drdx": {
+          "classification": "finite",
+          "float64le_hex": "0857aefde61d733f",
+          "value": 0.00466718893848906
+        },
+        "logw": {
+          "classification": "finite",
+          "float64le_hex": "54c748025a890dc0",
+          "value": -3.692066209646251
+        },
+        "oldDrdx": {
+          "classification": "finite",
+          "float64le_hex": "88edfa72284cd23e",
+          "value": 4.362462092617917e-06
+        },
+        "oldR": {
+          "classification": "finite",
+          "float64le_hex": "ec7091ed89caa93f",
+          "value": 0.05037337327004984
+        },
+        "r": {
+          "classification": "finite",
+          "float64le_hex": "4681f2954ca0cd3f",
+          "value": 0.23145444223065165
+        },
+        "w": {
+          "classification": "finite",
+          "float64le_hex": "9b5d109fbf84993f",
+          "value": 0.024920457919589727
+        },
+        "w2": {
+          "classification": "finite",
+          "float64le_hex": "304fe5199259443f",
+          "value": 0.0006210292229220423
+        }
+      },
+      "field_index": 3,
+      "frozen_at_saved_stage_geometry": true,
+      "input_mu": {
+        "classification": "finite",
+        "float64le_hex": "55c738449518a63d",
+        "value": 1.0048110027994864e-11
+      },
+      "input_r": {
+        "classification": "finite",
+        "float64le_hex": "4681f2954ca0cd3f",
+        "value": 0.23145444223065165
+      },
+      "input_w": {
+        "classification": "finite",
+        "float64le_hex": "9b5d109fbf84993f",
+        "value": 0.024920457919589727
+      },
+      "label": "d",
+      "original_h": {
+        "classification": "finite",
+        "float64le_hex": "555555555555b53f",
+        "value": 0.08333333333333333
+      },
+      "original_w2_retained_as_input_metadata_not_replaced_by_w_squared": true,
+      "original_x": {
+        "classification": "finite",
+        "float64le_hex": "000000000000f03f",
+        "value": 1
+      }
+    }
+  ],
+  "frozen_input_reader_sha256": "9c42982291bd1a7b7cf21c472d8aae877136fb884708a8310ca6bb882c1d103e",
+  "full_actual_couplings_retained": true,
+  "full_original_output": {
+    "bytes": 404992,
+    "dtype": "<f8",
+    "encoding": {
+      "active_bytes": 8,
+      "itemsize": 8,
+      "representation": "IEEE754-binary64-little-endian",
+      "storage_padding_bytes": 0
+    },
+    "entries": 50624,
+    "file": "large-arrays/r271-frequency-balanced-longdouble-full.f64le",
+    "finite_entries": 50624,
+    "name": "r271-frequency-balanced-longdouble-full",
+    "negative_zero_entries": 0,
+    "order": "C",
+    "role": "Full226x224 R271 candidate restored to original Q/Pi/mean coordinates and original port",
+    "sha256": "71d9c953a990623e844cb9e6e4ebbfe1c18d3befb5b6a38d1f0c9133f84662bc",
+    "shape": [
+      226,
+      224
+    ]
+  },
+  "input_binding": {
+    "bytes": 67216,
+    "file": "input-binding.json",
+    "sha256": "1f8a09d4a12f1a1a686b1ed56661e51bfcada8ecae441d4be122e3b43fcfd578"
+  },
+  "maximum_RSS_kib": 90216,
+  "mean_rows": {
+    "bytes": 3584,
+    "dtype": "<f8",
+    "encoding": {
+      "active_bytes": 8,
+      "itemsize": 8,
+      "representation": "IEEE754-binary64-little-endian",
+      "storage_padding_bytes": 0
+    },
+    "entries": 448,
+    "file": "large-arrays/r271-frequency-balanced-longdouble-mean.f64le",
+    "finite_entries": 448,
+    "name": "r271-frequency-balanced-longdouble-mean",
+    "negative_zero_entries": 0,
+    "order": "C",
+    "role": "Both original-coordinate mean rows, no final port scaling",
+    "sha256": "778f5352cd7f061bbe19160928f3ed3bf7f00923a3e658ee785320c930992510",
+    "shape": [
+      2,
+      224
+    ]
+  },
+  "modes": 112,
+  "native_accepted": false,
+  "new_ODE_steps": 0,
+  "new_RHS_calls": 0,
+  "new_local_J_calls": 0,
+  "new_native_solves": 0,
+  "new_nonlinear_trials": 0,
+  "new_root_calls": 0,
+  "no_actual43_direction_used_as_an_acceptance_gate": true,
+  "no_claim_of_true_DF_or_global_system_accuracy": true,
+  "omitted_modes": 0,
+  "original_h": {
+    "classification": "finite",
+    "float64le_hex": "555555555555b53f",
+    "value": 0.08333333333333333
+  },
+  "original_port_ratio": {
+    "classification": "finite",
+    "float64le_hex": "000000000000f03f",
+    "value": 1
+  },
+  "original_sigma": {
+    "classification": "finite",
+    "float64le_hex": "27c23cdad1aab53c",
+    "value": 3.0069370042341896e-16
+  },
+  "rows": 226,
+  "runtime": {
+    "byteorder": "little",
+    "machine": "x86_64",
+    "numpy": "2.3.5",
+    "platform": "Linux-7.0.0-1019-azure-x86_64-with-glibc2.43",
+    "public_run": "43632067148",
+    "public_run_attempt": "1",
+    "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+    "working_precision": {
+      "active_bytes": 10,
+      "actual_precision_is_recorded_not_assumed": true,
+      "explicit_fraction_bits": 63,
+      "itemsize": 16,
+      "machine_epsilon_decimal": "1.084202172485504434e-19",
+      "max_exponent": 16384,
+      "numpy_dtype": "<f16",
+      "numpy_finfo_nmant": 63,
+      "padding_is_canonicalized_without_changing_the_numeric_value": true,
+      "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+      "significand_bits": 64,
+      "storage_padding_bytes": 6
+    }
+  },
+  "schema": "saved-four-local-A-R271-frequency-balanced-RK4-candidates-v1",
+  "shape_J": {
+    "bytes": 401408,
+    "dtype": "<f8",
+    "encoding": {
+      "active_bytes": 8,
+      "itemsize": 8,
+      "representation": "IEEE754-binary64-little-endian",
+      "storage_padding_bytes": 0
+    },
+    "entries": 50176,
+    "file": "large-arrays/r271-frequency-balanced-longdouble-shape.f64le",
+    "finite_entries": 50176,
+    "name": "r271-frequency-balanced-longdouble-shape",
+    "negative_zero_entries": 0,
+    "order": "C",
+    "role": "Complete original-coordinate shape block; all columns",
+    "sha256": "9b30f321b55d1bd1fbad084efafef3479ded0d8347064d3c093d57e4a6c33ae0",
+    "shape": [
+      224,
+      224
+    ]
+  },
+  "source_sha256": "01ec3476ce8d2331b49122ce3d001908eb427d52ea52d367a978cd6de9dde548",
+  "task_completed": false,
+  "working_frequency_and_constants": {
+    "bytes": 1824,
+    "dtype": "<f16",
+    "encoding": {
+      "active_bytes": 10,
+      "actual_precision_is_recorded_not_assumed": true,
+      "explicit_fraction_bits": 63,
+      "itemsize": 16,
+      "machine_epsilon_decimal": "1.084202172485504434e-19",
+      "max_exponent": 16384,
+      "numpy_dtype": "<f16",
+      "numpy_finfo_nmant": 63,
+      "padding_is_canonicalized_without_changing_the_numeric_value": true,
+      "representation": "x87-binary80-little-endian-with-zeroed-storage-padding",
+      "significand_bits": 64,
+      "storage_padding_bytes": 6
+    },
+    "entries": 114,
+    "file": "large-arrays/frame-frequency-and-square-roots.longdouble-le",
+    "finite_entries": 114,
+    "name": "frame-frequency-and-square-roots",
+    "negative_zero_entries": 0,
+    "order": "C",
+    "role": "112 exact even frequencies followed by the two actual working-precision square roots",
+    "sha256": "32c5be0506487646377ce675586d36263ccb960f8d8db1f19fa8ab1ee9ef52d1",
+    "shape": [
+      114
+    ]
+  }
+}
