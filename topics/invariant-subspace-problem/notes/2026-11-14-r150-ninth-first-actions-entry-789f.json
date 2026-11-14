@@ -1,0 +1,106 @@
+{
+  "format": "r150-ninth-first-actions-frozen-entry-v1",
+  "date": "2026-11-14",
+  "files": [
+    {
+      "path": ".github/workflows/invariant-subspace-r150-ninth-first.yml",
+      "blob": "82e31e0d35c3be59640f90a7c4120206ba92dd04",
+      "bytes": 17239,
+      "sha256": "040da5224a2fe65852bbc472ac80dadb6a0cf1cc8640c98ab8e19cd1484cd5d2"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py",
+      "blob": "c52f9477caac03cadcb5674af154b15c629239f7",
+      "bytes": 19220,
+      "sha256": "19c26c7320e453d071de5941f2d1e9af0c91b787b86f8caaf281ecb327871fac"
+    }
+  ],
+  "requestPath": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-ci-request-789f.json",
+  "exactRequestFields": {
+    "format": "r150-ninth-first-fixed-request-v1",
+    "new_direction_labels": [
+      9001
+    ],
+    "actual_new_rhs_labels": [
+      9001,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "target_labels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "original_raw_rows": 6188,
+    "integer_modulus": 887503681,
+    "new_kernel_divisor": 28629151,
+    "target_multiplier": "31^2*h0",
+    "shared_mathematical_seconds": 300,
+    "per_child_memory_mib": 512,
+    "per_compilation_seconds": 30,
+    "native_compilations": 6,
+    "t96_run_id": 43597823809,
+    "t96_artifact_id": 14114364261,
+    "all198_run_id": 43619888599,
+    "all198_artifact_id": 14124017685,
+    "seven_run_id": 43630666145,
+    "seven_artifact_id": 14127663630,
+    "current_run_id": 43634830833,
+    "current_artifact_id": 14130166013,
+    "old1834_kernel_recomputed": false,
+    "old_eight_first_directions_recomputed": false,
+    "partial_positive_continuation_required": true,
+    "complete_higher_initial_freedom_computed": false,
+    "characteristic_zero_identity_asserted": false,
+    "source_manifest_file": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-frozen-manifest-789f.json",
+    "source_manifest_sha256": "8221ff61314167f38a559cb91ba03c8df73666301707179e6d75ef5bd71f10c6",
+    "workflow_source_sha256": {
+      ".github/workflows/invariant-subspace-r150-ninth-first.yml": "040da5224a2fe65852bbc472ac80dadb6a0cf1cc8640c98ab8e19cd1484cd5d2",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py": "19c26c7320e453d071de5941f2d1e9af0c91b787b86f8caaf281ecb327871fac"
+    },
+    "entry_python_files": [
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-integer-model-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-runner-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-source-action-and-kernel-789f.py",
+      "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-actions-publish-789f.py"
+    ]
+  },
+  "rootMustAddRequestField": {
+    "rules_sha256": {
+      "README.md": "root must insert actual current byte SHA256 after reading rules",
+      "topics/invariant-subspace-problem/README.md": "root must insert actual current byte SHA256 after reading rules"
+    }
+  },
+  "additionalRootBudgetFieldsAllowed": true,
+  "actualDispatch": {
+    "endpoint": "/repos/Rogerhu12/math-research-public/actions/workflows/invariant-subspace-r150-ninth-first.yml/dispatches",
+    "body": {
+      "ref": "main"
+    },
+    "inputsRequired": false,
+    "rootOnlyAfterTerminalMainPublication": true
+  },
+  "publisherCLI": "--checkout GITHUB_WORKSPACE --results OUTPUT/results --recovery OUTPUT/recovery --work RUNNER_TEMP/isp-r150-ninth-first-publication",
+  "publisherScope": "topics/invariant-subspace-problem/notes/r150-ninth-first-actions-789f/<run>-<attempt>/",
+  "completeActualRecoveryCoverage": "Every actual recovery file is matched to a verified exact text or complete decompressed gzip stream; missing exports receive full4.5MB-part fallback. All stage-cache bytes included.",
+  "mainIndexMutations": false,
+  "tokenWrittenToFile": false,
+  "localPythonASTExecuted": false,
+  "localWorkflowParsed": false,
+  "numericalTaskTriggered": false,
+  "isolatedBlobsOnly": true
+}

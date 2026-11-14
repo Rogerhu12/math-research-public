@@ -1,0 +1,124 @@
+{
+  "format": "r150-ninth-single-first-continuous-frozen-source-manifest-v1",
+  "date": "2026-11-14",
+  "repository": "Rogerhu12/math-research-public",
+  "mainReceipt": "ninth-first-pipeline-receipt.json",
+  "sourceRun": 43634830833,
+  "workflowDispatchRequired": true,
+  "executionPerformedAtFreeze": false,
+  "localASTParsePerformed": false,
+  "localCompilationPerformed": false,
+  "sharedMathematicalSeconds": 300,
+  "perChildMemoryMiB": 512,
+  "compileSecondsEach": 30,
+  "nativeCompilations": 6,
+  "target": "31^2*h0 modulo31^6=887503681",
+  "inputContractSHA256": "45c66d8c34b57490a0dd81812c29eba75a3276b3eed230d4d600d9509ccc9891",
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-789f.hpp",
+      "bytes": 11306,
+      "sha256": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531",
+      "blob": "37c69d325fa302b50634bea67a0836a320e5fa9c"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-original-789f.cpp",
+      "bytes": 14791,
+      "sha256": "5ecdddbc16d1f033fb6fe7f268ae780b6499ca173b7da04c4b8088c94fa9e6d2",
+      "blob": "7ce5ed11f58f72d4c51a1fa496871f26b68739a3"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-normal-789f.cpp",
+      "bytes": 13737,
+      "sha256": "88b71d03c21043730a196328004db6f871e045ab4dccfd75ee5f718deac0399e",
+      "blob": "aa56ce64d2eeaa9a256a7050c5bc5bfad6789149"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-source-one-789f.cpp",
+      "bytes": 21940,
+      "sha256": "af9839c51b7736eccee9af59ac4cf524234cd03f275f31aa1aa2df6edc10a291",
+      "blob": "83b93e3bbb7b8a084b6fee332bfff9a5cd171791"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-target-source-789f.cpp",
+      "bytes": 21937,
+      "sha256": "5aede47a4a7a56d922e868e11567c28fb4339de48015d9ba55f400a6bd9d471b",
+      "blob": "13574f36c0836d89d54b1fc1a8c2941057341cd3"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-image-789f.cpp",
+      "bytes": 6798,
+      "sha256": "ff694c1482b8b38e89e42a30c708434ca5f814631a6ddd9554377f2fa4766a45",
+      "blob": "c754f7e38639ad8973fc8391be7e9b89ae8e0bf3"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-transport-789f.cpp",
+      "bytes": 8725,
+      "sha256": "05a60d6eb0f004d1028e0de76ae413983b0868ec2beccd7604645c32a40e6638",
+      "blob": "2f6efa7911d854c487dc86d5757e441bbbf27ee8"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-integer-model-789f.py",
+      "bytes": 4359,
+      "sha256": "14b4ad141fe29a9a3cfa537ea7afe73ba013b85a34001e94bb95b3f6f7754486",
+      "blob": "55c0c6f1bd563c4e1de0fdc2cf997e932dfa503f"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+      "bytes": 15194,
+      "sha256": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a",
+      "blob": "a1b600e6c5f77491920c1b324f390e5358a6100b"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-runner-789f.py",
+      "bytes": 29072,
+      "sha256": "27c2da44b4766671b6d1ca99d3a6c32653c2679f070fdb874a5af8fa78ccc9fe",
+      "blob": "4f4150d9d593f01de6da504a9ae5c8306a10b9af"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-source-action-and-kernel-789f.py",
+      "bytes": 8472,
+      "sha256": "0675b9ee553261a0639d9b2abbdf503ee660e95374f8dba394beaa3471cacd78",
+      "blob": "3890b0941a2851f7b7788825538d4665e08387a6"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-contract-789f.json",
+      "bytes": 15117,
+      "sha256": "45c66d8c34b57490a0dd81812c29eba75a3276b3eed230d4d600d9509ccc9891",
+      "blob": "cbb8c19b91aa4ba705d55c65c24add1486f3d2fc"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-interface-789f.md",
+      "bytes": 9464,
+      "sha256": "d423fad2d707b6fd93c88590d26970787b4b7818f01d883ab5d68f64e5c85c7f",
+      "blob": "1a831fef11824238933bccdb0e0d53179c411fc8"
+    }
+  ],
+  "reusedDependencies": {
+    "2026-11-14-r150-four-second-bockstein-runner-789f.py": "9fc1d9e6f64f520365bddea2d0d3387a32d42123f38efcf36f8798c9f36e6cba",
+    "2026-11-14-r150-f31-bitplane-789f.hpp": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec",
+    "2026-11-14-r150-torsion-characteristic-789f.py": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2",
+    "2026-11-14-r150-augmented-seven-second-matrices-789f.py": "5e77a941ddd9fd624b838071006f6e1105842ffabf28276ce0254107ee89a7d7"
+  },
+  "existingInputArtifactScopes": [
+    "t96",
+    "all198",
+    "seven",
+    "current"
+  ],
+  "allNewBinaryAndTextStageCachesSaved": true,
+  "completeHigherInitialFreedomClaimed": false,
+  "completeCharacteristicZeroIdentityClaimed": false,
+  "completionRequired": {
+    "status": "completed",
+    "newNinthDirectionComputed": true,
+    "newDirectionOriginalDivisibilityVerified": true,
+    "fullF9FirstImageComplete": true,
+    "allCompatibleTargetsOriginalIdentityVerified": true
+  },
+  "completedOutcomes": [
+    "all-nine-full-original31squaredh0-mod887503681-certificates",
+    "complete-ninth-first-obstruction-with-positive-original-certificates",
+    "complete-ninth-first-obstruction-no-compatible-current-source"
+  ]
+}
