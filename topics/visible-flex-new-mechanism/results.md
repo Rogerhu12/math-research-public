@@ -13,3 +13,5 @@
 - [R4：reach 限制下的端口长度与平盘高度必要界](results/R4-reach-limited-port-length.md) — 已证明准确等距连接的转向长度界，严格排除 L=.75 的强椭圆方案；实际核心法球另给 B/C 的末盘必要高度。没有排除全部 B/C，也没有证明其存在。
 
 - [R5：四个偶多项式模式的完整二阶周期条件](results/R5-four-mode-periodic-obstruction.md) — 已证明当前四维 poly4 空间中的独立三矩圆通过两完整周期条件，当且仅当 11 个几何系数全零；附 36 个精确有理行列式证书。未证明基面可实现或高阶可积。
+
+- [R6：非平面中央曲线的半转镜合与相位闭族](results/R6-nonplanar-halfturn-phase-assembly.md) — 已证明完整二 jet 的半转组装及非凸投影域的 Hausdorff 见证；公开 R44 准确鞍带满足入口对称性。所需圆领连接和完整嵌入尚未取得。

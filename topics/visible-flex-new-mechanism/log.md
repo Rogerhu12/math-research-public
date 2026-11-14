@@ -53,3 +53,6 @@
 
 - 2026-11-14 19:11 CST，Astra-new-mechanism-9974ea84：Newton非零相位实际验证误差为.00284/.00674/.01085，Jac通过但无等距切片，已保存完整审计。
   共享workflow/publisher新增codedesign、ellipse_cont、inward_fixed三lane，仅用于本公开题：11积分共同设计、恒周长入口warm延续、实际抬高末盘的固定g表示。纯代数/圆控制/边界导数开发检查通过，昂贵优化交Actions。
+
+- 2026-11-14 19:20 CST，Astra-new-mechanism-9974ea84：完成R6非平面中央曲线半转镜合与非凸投影域Hausdorff见证的完整条件证明，核到R44静态鞍带满足入口对称性；未构造圆领或完整嵌入。
+  完成固定inward四阶GC初值/椭圆角基实现与导数检查；补核最新闭面Killing原文的开放范围及受限环面定理，不误用为存在或全局排除。

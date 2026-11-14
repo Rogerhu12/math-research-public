@@ -1,0 +1,53 @@
+{
+  "status": "cheap_representation_derivative_check_no_optimization",
+  "physical_core_axes": [
+    1.0,
+    0.3
+  ],
+  "angular_modes": 3,
+  "geometry_derivative_checks": {
+    "Xs": {
+      "max_absolute": 2.709569235648246e-10,
+      "relative_l2": 1.7914798007931997e-10
+    },
+    "Xss": {
+      "max_absolute": 7.916627353665717e-09,
+      "relative_l2": 1.0755924675803824e-09
+    },
+    "Xsu_from_s": {
+      "max_absolute": 2.8730395840170786e-10,
+      "relative_l2": 3.242123973038953e-10
+    },
+    "Xu": {
+      "max_absolute": 5.850416817665405e-10,
+      "relative_l2": 2.6858467840747764e-10
+    },
+    "Xsu_from_u": {
+      "max_absolute": 1.0942603351216107e-09,
+      "relative_l2": 5.331989538812661e-10
+    },
+    "Xuu": {
+      "max_absolute": 1.923398773584495e-09,
+      "relative_l2": 3.141560720633896e-10
+    }
+  },
+  "exact_ellipse_angle_basis_reproduction_error_by_angular_derivative_order": {
+    "gamma_normalized": [
+      4.440892098500626e-16,
+      1.2212453270876722e-15,
+      5.329070518200751e-15
+    ],
+    "h_gc_correction": [
+      2.6645352591003757e-15,
+      8.881784197001252e-15,
+      3.197442310920451e-14
+    ],
+    "normal_over_normalized_curvature": [
+      2.886579864025407e-15,
+      9.325873406851315e-15,
+      3.019806626980426e-14
+    ]
+  },
+  "script_sha256": "88b3d2703d7d81955583177c06f2ad7b9fbf0a3217dc24e1a350c0bdba139ae0",
+  "continuous_numerical_certificate": false
+}
