@@ -3,8 +3,8 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `d9fd15b2e15268e9782aa6e424969a5167f638c7`（2026-11-14 19:14:45 UTC，Actions run43631018244/job132557408956实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
-- **最新规则读取（GitHub API，非实际pull）：** `d5c99bef58700db0da1a3de2faba3e94d60b1dc1`（2026-11-14 19:17:43 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
+- **最近成功实际 pull 与已读规则提交：** `f0ff6457bb8ae85161adc73f4e13cbd59e7053e2`（2026-11-14 19:17:57 UTC，Actions run43631319214/job132558342503实际pull --rebase成功，两README无差异）。旧库迁移授权5b8cbd10993f9e66c67e0d686c72aab113406c5b；历次见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最新规则读取（GitHub API，非实际pull）：** `fef23d2f20b104d4ecf47326cca502a5b3d3866f`（2026-11-14 19:18:25 UTC），两README与上条实际pull完全相同。API读取与真实pull分别记录。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -47,4 +47,5 @@ normal接扩增七列后的完整31饱和与特征零秩判据；literature接�
 
 - **[全出生物理中央/极平坦定理](notes/2026-11-14-all-birth-physical-central-and-extreme-flat-phase-bounds-789f.md)：** 上述E_d/U_d已满足共同Gram全部条件，k=d+1、完整硬Schur及真实等权H0=L0=2G0/R0=0均保。固定d和a/b/D0/S0时κ=(2Θ²+3Θ)²不依Q或源维数；若max|zi−1|≤η/k、kS≤C0、|D|≤D0，则Θ≤exp[4D0+4C0+12η+(2+√2)√C0]，κ连d也统一。q0=0覆盖完整偶Boolean中央源，下一接原尾窗口/全graph费。
 
-- **[原尾平方根窗](notes/2026-11-14-original-continuous-tail-square-root-windows-full-central-phase-bound-789f-next.md)：** 原b_i=(x+i)⁻²，偶Q≤c√x，完整中央V/U及真正两个逆相位Φ≤κ_c。共同归一Σzi=Q且缩放phase不变；k=d+1随Q增也已支付。κ_c=(2e^(2C_c)+3e^C_c)²，C_c=24c²+8(1+c²/2)^7c²+8(1+c²/2)^14c⁴。不是无限尾reducing块/任意高度，继续宽窗及原graph同源费。
+- **[原尾完整中央窗口](notes/2026-11-14-original-continuous-tail-wide-window-exponential-phase-budget-789f-next.md)：** 原b_i=(x+i)⁻²，偶2≤Q≤x时Φ≤25exp(80Q²/x)；Q≤√x/4可取25e⁵。全部V/U、真实逆及硬Schur全保。均值归一、对称S_sym=Σ(zi−1)²/zi和P=∏zi给logΘ≤−2logP+2klogρ+2√(kS_sym)；原权S_sym≤4Q³/x²。任意c的平方根窗另见[前稿](notes/2026-11-14-original-continuous-tail-square-root-windows-full-central-phase-bound-789f-next.md)。未付无限尾reducing/全height/graph同源费。
+
