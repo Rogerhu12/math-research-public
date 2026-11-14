@@ -1,0 +1,18 @@
+{
+  "entry_file": "geometry_20261114_lifted_modes_banded_full_dn.py",
+  "entry_sha256": "390387db4700f64302b76ee684f9a810a611c57c6617eb67d4597a9fa18905c4",
+  "complete_band_backend_sha256": "0780dcc4e331f6cde64141b0fa9ebdd1325eec2af87d94fc455e72405a0524f1",
+  "reused_full_DN_driver_sha256": "d885ebc8de5ebd02f006c4104d8b67e856047b4e58f0e125651b38187fb251a5",
+  "original_separated_block_builder_sha256": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39",
+  "original_Newton_sha256": "2326720f124d2edc40e63089f8e07d6671e053ff108281efb59091d919f15c5b",
+  "input_prepared_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+  "equation_row_permutation_only": true,
+  "unknowns_or_Fourier_modes_removed": false,
+  "native_tail_changed": false,
+  "mathematical_BC_changed": false,
+  "original_RMS": 1e-06,
+  "original_BC": 1e-11,
+  "original_17_trial_backtracking_retained": true,
+  "true_final_native_audit_retained": true,
+  "linear_accuracy_target_is_not_a_new_nonlinear_acceptance_gate": true
+}

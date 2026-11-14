@@ -1,0 +1,32 @@
+{
+  "scope": "Run the original full-DN/Newton problem from a real higher-mode preflight.\n\nThe accepted input remains the original M96/N1024 field.  This adapter\nchanges the new problem's field, angular and tail dimensions to those of\nthe separately prepared M112/T112/N2048 initial guess.  All physical/core\nrows and the same three scalar controls are retained.  It calls the full\noriginal outer true-tail loop, inner Newton/line-search/QR, tolerances,\nfrozen-physical RMS, complete final tail audit and height-seam readout.\n\nNo existing mathematical source is edited.  This adapter records its\nsetup bindings and the actual small QR system/SVD/linear residual.  The\nunchanged original routine alone decides its finite acceptance; a closed\nsurface or a continuous-frequency certificate is not inferred from it.\n",
+  "source_sha256": "d885ebc8de5ebd02f006c4104d8b67e856047b4e58f0e125651b38187fb251a5",
+  "original_and_adapter_sources_sha256": {
+    "geometry_20261114_full_dn_solve.py": "c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162",
+    "geometry_20261114_full_dn_augmented.py": "f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e",
+    "geometry_20261114_full_dn_boundary.py": "4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2",
+    "geometry_20261114_full_dn_prefix_controls.py": "7bb30855e5f0f5111ef55bbf9fafad8f6f0e8cdc26243780eda5b96600a3255a",
+    "geometry_20261114_lifted_modes_profile.py": "13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5",
+    "geometry_20261114_lifted_modes_prepare.py": "9a1ae018d71e38ff901c4b9156b23502a4efde44f812c1ff4e03323878b659db",
+    "geometry_20261114_lifted_modes_response.py": "c216d2a857670fc859c5edb567d10336482d617c984e2ad00793d271104fd5f7",
+    "geometry_20261114_separated_qr_bvp.py": "c76bde190ff67a9e148d230c8e5e7d7a7899324c055e67faac6679b8fba10e39"
+  },
+  "source_accepted_prefix": {
+    "M": 96,
+    "N": 1024,
+    "sha256": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff"
+  },
+  "field_modes": 112,
+  "angular_quadrature": 2048,
+  "tail_modes": 112,
+  "scalar_controls": 3,
+  "warm_sha256": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+  "complete_BC_response_sha256": "4bacf0bdbf00fd919e4de48f0b36c8322d2ea26539abeac9b9ddcf7c0db6bf7f",
+  "unchanged_acceptance": {
+    "RMS": 1e-06,
+    "BC": 1e-11,
+    "original_Newton_and_line_search": true,
+    "true_new_dimension_tail_and_final_audit_required": true
+  },
+  "source_prefix_relabelled": false
+}

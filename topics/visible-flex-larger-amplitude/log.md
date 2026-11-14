@@ -436,3 +436,7 @@ request11已实际启动run43592195185/source4f0af15c（11:54:08Z），完整带
 ### 2026-11-14 11:57 UTC — complete whole-image Hausdorff dispatch for the new full field
 
 独立full_state_held_hausdorff只替旧A路径派发并绑定新producer/packet互指SHA、五闭文件/五actual/完整节点/规范形/SE2/均值；原全活动块与两完整帽盘距离、整面D和.2判据直接复用，reach未全过也可合法读幅度见证。AST/源接口已核，未重解BVP/尾/空间对、无新幅度数值。新run43592195185仍在带LU solve。
+
+### 2026-11-14 12:07 UTC — actual band LU improved residual but all original trials still left the domain
+
+run43592195185真LU info0/共享指针，13.274s/RSS5717864KiB；残差/RHS降至3.27382e−4而方向max5832.77，校正更坏未采用。17trial均非finite，最小α仍52坏node/122mid/112右BC；零接受步、新H请求0。artifact26件已逐SHA取回，publisher漏新lane已修，25件限额内补归档、超5MB失败pending保artifact/manifest。下一次只读真方向做域/Taylor/P诊断，不重建Jac或零尾、不改门。

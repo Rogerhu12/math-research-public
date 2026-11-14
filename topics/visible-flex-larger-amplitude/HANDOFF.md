@@ -24,7 +24,8 @@ M112/T112/N2048是原有限Frenet方程，M96仅初猜且来源身份保留。v3
 request08/run43588155190 prepare112真success：699节点全部node/mid/两RMS域过，min beta²=.005082723249；col=.007110595仍初猜。prepared SHA0f94dd88…（4220043B）；scalar原RHS0，完整453行FD Richardson9.51769e−10<原5e−5，参考明确为ready非真DN。精确SHA和输入见M112-complete-preflight-and-BC-response note/workflow。
 同run tailzero112真SUCCESS/artifact14111343237：1351.741789s、resid/fullD0、全338×112 J/577×224states/raw/audit；strict源码/config/capacity同prepare。response SHA6b4ff3e5…，J-second相对1.524e−12、ready差.035157884、chart condition3.856e20均保留，不冒稳定。完整七件身份见actual-T112-zero-anchor-and-J-audit note。
 request10/run43590496434/sourceeef66c97真failure，artifact14112675738已取回22件、bot归档小包。实际QR699/453首线性残差.006494337572/RHS=.913332499，最坏interval697/z110，方向max9658；17回溯全非finite、无接受步，随后966点invalid。core/p/左BC仍近roundoff，rightBC1.996e−7；小方块几十方向在浮点噪声，不能称仅3控制核。零锚strict复用一次、整个anchor/J同原实际，新H worker请求0。详见actual-M112-first-QR-failure-and-banded-next及zero-cache-boundary两note。
-request11/run43592195185/source4f0af15c（11:54:08Z）仅coupling112banded，现运行。完整原矩阵按[左341,interval453,右112]换行、不换未知；kl793/ku564、699点AB5.45GB/1200点9.35GB，F-order原地LU及原块longdouble残差/至多4次改进。backend0780dcc4…/wrapper390387db…；原17回溯/RMS1e−6/BC1e−11/max1200/真实尾全留。复用真699/FD/112锚，不用失败966。成功同run接原闭包再R249 audit+规范化、复用complete-4，不重DN。完整CLI/排列见complete-band-LU-continuation note。
+request11/run43592195185/source4f0af15c真failure：完整带LU info0、共享指针、13.274s、RSS5717864KiB；原残差/RHS降至3.27382357e−4但方向max5832.77，normwise backward2.13e−18不代相对残差。一次校正变差未采用。17trial全非finite，α=2^-16仍52坏node/122mid/112右BC；无接受步，966插值再invalid。真零锚复用1、新H request0。26件artifact14113206288已取回，publisher漏lane已修，25件限额内补归档。详见actual-complete-band-LU-result-and-direction-next note。
+下一仅消费本次真step/rhs/699warm/实际anchor作方向域+Taylor及当前P/完整rightBC条件诊断，α延至2^-40仅诊断，不改原17回溯/RMS/BC/max1200门、不重建Jac/尾。amplitude正写独立入口。带LU源0780dcc4…/wrapper390387db…冻结；完整排列/CLI见complete-band-LU-continuation。尚无新接受场，后续同run原闭包+R249复用complete4链已接。
 
 ## 尾、接缝、同g身份
 
@@ -45,7 +46,7 @@ R238/R242为含反射非全等及精确warped角解析无平片条件；R243真9
 
 ## 保全及接续
 
-request05—09全成功；10首线性失败已定位，11带LU实际运行。准备/pending非接受；public_asset绝对路径已修。966点pending5,958,652B仅artifact，Git保SHA/复现身份。
+request05—09全成功；10/11实际首步失败已定位，下一诊断消费真方向。准备/pending非接受；public_asset路径和publisher新lane均已修。966点pending超5MB仅artifact，Git保SHA/复现身份。
 旧geometry26/strong90/GW35件已逐SHA保全；manifest是历史身份。strong R6磁盘SIGTERM143无接受步、raw未全迁，旧支封存。公开源78件匹配原91清单，不读private；自有transport分支只助大blob普通推送，无force。
 
 规则同步记录：2026-11-14T12:02:02.615957+00:00 实际pull --rebase成功；双README自2fe100b无变化，已读提交 f7ed734d1b7d817451395563bb9f2ab55d2456b7。
