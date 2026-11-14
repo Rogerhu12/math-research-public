@@ -90,13 +90,13 @@ R707完整分类已推入当前结论链，121盘排除及八CM点身份/唯一�
 
 R561完整原scalar-p² Robert范数和外支撑Hilbert90给L=31−22iC；R613同祖先mixed方向C_r=C+34r、42个主化方向。R619辅助anti-p Ct=9、A_N=k、T-Norm同构及扩张零，不能代原C。R633补足辅助N中的普通整单位presentation及真实Norm像；R591的实际最大整环与局部基保持。
 
-R657实际混合普通类模A_LB=RΓ/π^m，1≤m≤43，m≥2时s=1+iπ modπ²。m=43 iff原y为普通单位Norm_S；域Norm在所有分支均成立，不能判断此事。R684保留全部普通单位/除子项证明所有纯p方向coinvariant Norm下降，42 mixed类群均=k；各非scalar单位Norm满射iff m=43。scalar扩张注入iff m=nT=43，届时C=0、L=31；未判实际端点，也未证明C=−34ib。
+R657实际混合普通类模A_LB=RΓ/π^m，1≤m≤43，m≥2时s=1+iπ modπ²。m=43 iff原y为普通单位Norm_S；域Norm在所有分支均成立，不能判断此事。R684保留全部普通单位/除子项证明所有纯p方向coinvariant Norm下降，42 mixed类群均=k；各非scalar单位Norm满射iff m=43。scalar扩张注入iff m=nT=43，届时C=0、L=31；R715现已用自然Tate维移和原循环单位格确定m=43，普通S-Norm满射；nT、C=−34ib仍未求。
 
-继续原m、C/J/b/λ/n/L及忠实Norm。固定776-bit q已被Gaussian5排除，不是主问题反例；该算术模型的求值仍不能外推一般曲线统一性。
+原m=43已由R715证明，继续C/J/b/λ/n/L及忠实Norm。固定776-bit q已被Gaussian5排除，不是主问题反例；该算术模型的求值仍不能外推一般曲线统一性。
 
 所有支线都服务于O1；主要完成标准始终是全部非CM E/Q的绝对常数或完整无界反例族。
 
-- **R686 已证全塔增长律**：同一原q与Robert标记下，A_Mn=RΓ/π^min(d,42n+1)，存在唯一d∈正整数∪{∞}。原m<43会在所有更高纯p层永久稳定，不能通过提高层数自动强迫ordinary Norm。实际d/m/C/J/b/L仍待求。
+- **R686 已证全塔增长律**：同一原q与Robert标记下，A_Mn=RΓ/π^min(d,42n+1)，存在唯一d∈正整数∪{∞}。R715现排除原m<43，故d≥43；一般高层端点正沿自然Tate维移复核。实际d及C/J/b/L仍待求。
 
 R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=πDScs−κπDTct−11acq∈π²E iff κ=C/9，a=15i/7；测试表达式消去未知y，不需m=43。43个iF43值中恰一项通过，但实际通过值未求。所有κ都通过域整除，故该替代不能解决普通单位缺口；C=−34ib仍未证。
 
@@ -106,7 +106,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 
 ### R700：p分歧自由表示保留普通类群
 
-原χ分量已证明X_L^(p)=O⊕RΓ，U_L/E_L=O[Γ]；全纯p层X_Mn^(p)、U_Mn分别对O[P_n]自由秩43、86。完整普通序列0→E→U→X^(p)→A→0的有限末商仍是原A_Mn，未把p分歧无挠误认为普通类群消失。下一步用实际局部互反映射/原Robert局部向量求R695的普通Γ²整除；C/m/b仍未知。
+原χ分量已证明X_L^(p)=O⊕RΓ，U_L/E_L=O[Γ]；全纯p层X_Mn^(p)、U_Mn分别对O[P_n]自由秩43、86。完整普通序列0→E→U→X^(p)→A→0的有限末商仍是原A_Mn，未把p分歧无挠误认为普通类群消失。下一步用实际局部互反映射/原Robert局部向量求R695的普通Γ²整除；m已由R715确定43，C/b仍未知。
 
 ### R698：同一N阶标量系数问题
 
@@ -130,7 +130,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 
 ### R704 后的原单位输入
 
-原Γ方向全部43个p处嵌入已公开算出，完整模43²线性评价矩阵可将实际普通整基坐标转至R701所需43分支。当前缺口是同一标记c_s/c_q的p局部坐标，须保留s^11、P+、原q/Weil/Γ相位；既有pure-p在q的值不能替代。需证明对应原单位的快速部分Norm公式，不能枚举42(q²−1)/43项。实际C/m/L仍未知。详见[R704](results/R704-actual-original-Gamma-p-split-embedding-matrix.md)。
+原Γ方向全部43个p处嵌入已公开算出，完整模43²线性评价矩阵可将实际普通整基坐标转至R701所需43分支。当前缺口是同一标记c_s/c_q的p局部坐标，须保留s^11、P+、原q/Weil/Γ相位；既有pure-p在q的值不能替代。需证明对应原单位的快速部分Norm公式，不能枚举42(q²−1)/43项。m已由R715确定43，实际C/L仍未知。详见[R704](results/R704-actual-original-Gamma-p-split-embedding-matrix.md)。
 
 ### R705：实际高阶Abel已经接通
 
@@ -138,7 +138,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 
 ### R708：局部Norm条件不能选择原C
 
-原部分q-Robert积有精确degree-q同源分布，但需(q+1)/43个真实商曲线，不能冒认为43项或一个小核。更强地，保持原Γ与τ、纯p祖先和真实c_q/c_t的共同祖先局部变形，使R701的η_p取遍F43，所有q局部输入亦可固定。继续只解这些局部/域Norm不会决定C；必须求原c_s/c_q全局坐标、真正普通单位Norm见证或原X_t主化/首矩。详见[R708](results/R708-exact-isogeny-compression-and-the-43-valued-local-norm-fiber.md)；不赋C、m、L数值。
+原部分q-Robert积有精确degree-q同源分布，但需(q+1)/43个真实商曲线，不能冒认为43项或一个小核。更强地，保持原Γ与τ、纯p祖先和真实c_q/c_t的共同祖先局部变形，使R701的η_p取遍F43，所有q局部输入亦可固定。继续只解这些局部/域Norm不会决定C；必须求原c_s/c_q全局坐标、真正普通单位Norm见证或原X_t主化/首矩。详见[R708](results/R708-exact-isogeny-compression-and-the-43-valued-local-norm-fiber.md)；该局部结论不决定C/L，普通长度已另由R715确定43。
 
 ### R710：完整原Abel深盘的精确剩余零数
 
@@ -155,3 +155,7 @@ R695进一步把原C精确化为同一Robert祖先的二次Γ普通整除：Qκ=
 ### R703：实际非零jet提取与相对全尾已闭合
 
 在原R616非消失前提下，同一E_ij属于6(g+g(Y))+8个独立代数Taylor函数空间；八个U×I或U×I²系数严格为±2/L_a、±1/L_a²。仅由代数模型构造可逆有限jet矩阵，即可得到Σa_s[z^s]E_ij=−2/L_j≠0及真实jet赋值上界。相同逆矩阵给所有尾相对于真实有限前缀的完整下界，N_h纯代数可计算，且所有n≥N_h的系数严格高于前缀最小赋值；无需d_i、第二类周期、Y规范高度常数或L_j的赋值。h=3含完整边界，h=4含原候选，总零重数≤N_h−1、非中心≤N_h−m−2。尚未执行一般p原代数jet矩阵或求真实有限前缀；计数不等于无根，下一步继续原模型与规范前缀。详见[R703](results/R703-algebraic-jet-extractors-and-height-free-relative-tails.md)。
+
+### R715：原普通长度43与真实单位Norm已证明
+
+实际完整序列0→E→U→X^(p)→A→0在两个中项P自由，给自然R0线性同构E_L/N_PE≅H_1(P,A)。整数周期分辨率保留真实N_S/N_T：所有m≤42均得Γ平凡k²，与E_L=R0 y循环商矛盾；m43的非零N_S=−2π^42边界恰消第二线。故A=RΓ/π^43、N_SE=E_N、N_PE=(p,π)E_L，原y有普通单位Norm原像。完整链级Θ给C=9a_s/a_t，a_s/a_t必须经原互反映射求值；同调切线(ib,1)不自动是原Robert cocycle桥。C/J/b/L仍待求；高层R718与实际桥继续。见[R715](results/R715-natural-Tate-dimension-shift-and-the-forced-ordinary-endpoint.md)。
