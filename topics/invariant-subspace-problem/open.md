@@ -157,3 +157,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **原头逆芽尺度已改善，真实商角度继续。** [ρ=exp(−25d³/2)](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)及ψ相对线性项的exp(−d³/4)小量均已证明，保全部真实W列权。若所需实际消核source-Schur估计能够只付多项式×ρ⁻²，则可落c26窗；该估计仍开，不能以完整κ(V)或全Γ相对孔导数替代。
 
 **五列第三入口已冻结。** [接口](notes/2026-11-14-r150-five-third-interface-789f.md)/[实际入口](notes/2026-11-14-r150-five-third-actions-entry-789f.md)保六旧包50输入、原p6、五H5和所有正原17续算。共享300秒/512MiB，六编译各30秒；真实运行待回执，不重η8或九余。五列不足后接旧198第三，不能提前写完整低初值负结论。
+
+**全零源消去仍不容全源导数小界。** [实际source-Schur证明](notes/2026-11-14-actual-source-schur-relative-hole-derivative-obstruction-and-paid-test-null-family-789f-next.md)给任意q的四次指数下界；但同一真实坏族左最小者只在q层，固定低孔测试严格零，而且原μ²≤exp(O(m²))flat²已付。下一保固定物理测试/实际源或保费剥离；不能把导数反例冒充实际两费障碍。五列第三数学run43646683083已启动，回执待读。
