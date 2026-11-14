@@ -37,3 +37,5 @@
 - [R133 explicit-continuous-response-direction-and-true-strip-norms](results/R133-supplement-explicit-continuous-response-direction-and-true-strip-norms.md)：恢复原193状态有限响应的6143接口准确连续修补及完整Wiener范数，保留mean和宽strip的大高频费用；此明确方向Z不等于真qν，qν−Z与完整inverse仍未付。
 
 - [R133 complete-correlated-phase-twist-and-true-defect-corrections](results/R133-supplement-complete-correlated-phase-twist-and-true-defect-corrections.md)：恢复显式Z的3095完整交片及root带符号一阶phase积分，Γ0∈(.0018683485714,.0396275555859)；若真E≤1e−6且真Eφ≤1e−4则该显式族σphys>1/600。全ν-Schur仍需真实PDE响应误差和耦合。
+
+- [R119 真实正片incoming包到完整两负窗中心型](results/R119-supplement-positive-Cayley-packets-to-complete-center-forms.md)：真实正片的低incoming包经完整双端Cayley、真实KAM角及两物理迹后满足成对中心定位门，保留全部高输出/mean/正片ordinary和weak源；两负窗正型下界已付，但任意全网近核定位与外部Schur仍未证。

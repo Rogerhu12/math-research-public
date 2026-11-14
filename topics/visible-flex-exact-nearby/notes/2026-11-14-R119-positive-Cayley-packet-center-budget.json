@@ -1,0 +1,301 @@
+{
+  "status": "passed",
+  "utc": "2026-11-14T09:20:37.782220+00:00",
+  "producer": "Exact SymPy identities and Fraction inequalities; no sampled spectral or PDE claim",
+  "gate_count": 60,
+  "all_passed": true,
+  "gates": [
+    {
+      "name": "actual normalized prefix seam q=0",
+      "passed": true,
+      "upper": "-20126",
+      "target": "-19500"
+    },
+    {
+      "name": "actual normalized prefix seam q=1",
+      "passed": true,
+      "upper": "-20130",
+      "target": "-5023867/256"
+    },
+    {
+      "name": "actual normalized prefix seam q=2",
+      "passed": true,
+      "upper": "-20134",
+      "target": "-2527867/128"
+    },
+    {
+      "name": "complete deep seven-cell envelope",
+      "passed": true,
+      "upper": "-2545285/128"
+    },
+    {
+      "name": "fourteen actual nonnegative terms",
+      "passed": true
+    },
+    {
+      "name": "positive local DN coefficient after Sobolev conversion",
+      "passed": true
+    },
+    {
+      "name": "positive neighboring-cell reserves",
+      "passed": true
+    },
+    {
+      "name": "KAM endpoint neighboring-cell reserve",
+      "passed": true
+    },
+    {
+      "name": "actual endpoint Jacobian is small with six derivatives",
+      "passed": true
+    },
+    {
+      "name": "physical two-trace frame includes the exact Jacobian",
+      "passed": true
+    },
+    {
+      "name": "reference frame is symplectic and invertible",
+      "passed": true
+    },
+    {
+      "name": "height row recovers the correct physical square-root density",
+      "passed": true
+    },
+    {
+      "name": "total flux row retains reference normal shear",
+      "passed": true
+    },
+    {
+      "name": "paired graph norm before invoking unitarity",
+      "passed": true
+    },
+    {
+      "name": "complete graph Sobolev bound with Cayley norm below two",
+      "passed": true
+    },
+    {
+      "name": "affine outgoing column has unit graph norm",
+      "passed": true
+    },
+    {
+      "name": "ordered telescope retains one derivative loss",
+      "passed": true
+    },
+    {
+      "name": "sixth derivative Cauchy factor",
+      "passed": true
+    },
+    {
+      "name": "inverse angle Cauchy factor",
+      "passed": true
+    },
+    {
+      "name": "integer composition chain-rule reserve",
+      "passed": true
+    },
+    {
+      "name": "frame multiplier and three-block reserve",
+      "passed": true
+    },
+    {
+      "name": "strong frame and density difference reserve",
+      "passed": true
+    },
+    {
+      "name": "actual root frame common bound",
+      "passed": true
+    },
+    {
+      "name": "actual root frame strong common bound",
+      "passed": true
+    },
+    {
+      "name": "complete ordered term 0",
+      "passed": true,
+      "bits": 12221,
+      "J_power": 23,
+      "inverse_delta_power": 42
+    },
+    {
+      "name": "complete ordered term 1",
+      "passed": true,
+      "bits": 8401,
+      "J_power": 17,
+      "inverse_delta_power": 27
+    },
+    {
+      "name": "complete ordered term 2",
+      "passed": true,
+      "bits": 8421,
+      "J_power": 17,
+      "inverse_delta_power": 28
+    },
+    {
+      "name": "reference paired inverse constant",
+      "passed": true
+    },
+    {
+      "name": "paired inverse complete powers",
+      "passed": true
+    },
+    {
+      "name": "whole actual paired map constant",
+      "passed": true
+    },
+    {
+      "name": "finite input H5 cost",
+      "passed": true
+    },
+    {
+      "name": "packet strong-difference constant",
+      "passed": true
+    },
+    {
+      "name": "packet strong-difference powers",
+      "passed": true
+    },
+    {
+      "name": "two complete inverse factors in leakage",
+      "passed": true
+    },
+    {
+      "name": "leakage actual powers",
+      "passed": true
+    },
+    {
+      "name": "actual paired inverse absorbs the strong error",
+      "passed": true,
+      "first_log2_upper": -456618
+    },
+    {
+      "name": "entire paired packet enters the center threshold",
+      "passed": true,
+      "first_log2_upper": -131644
+    },
+    {
+      "name": "largest polynomial deep ratio",
+      "passed": true
+    },
+    {
+      "name": "polynomial ratio exponent",
+      "passed": true
+    },
+    {
+      "name": "infinite deep localization decays",
+      "passed": true,
+      "excess": "3699/256"
+    },
+    {
+      "name": "full common positive coefficient retains original ramp scale",
+      "passed": true
+    },
+    {
+      "name": "full exterior high coefficient",
+      "passed": true
+    },
+    {
+      "name": "paired threshold square has exact 200-bit reserve",
+      "passed": true
+    },
+    {
+      "name": "paired threshold square keeps all polynomial weights",
+      "passed": true
+    },
+    {
+      "name": "complete two-pocket positive remainder",
+      "passed": true
+    },
+    {
+      "name": "positive incoming coefficient includes both inverse factors",
+      "passed": true
+    },
+    {
+      "name": "positive incoming J and delta powers",
+      "passed": true
+    },
+    {
+      "name": "source two-center constant",
+      "passed": true
+    },
+    {
+      "name": "no source mean or total-flux charge is removed",
+      "passed": true,
+      "contract": "Both positive endpoints, both graph rows, outgoing mean, and both total flux charges retained"
+    },
+    {
+      "name": "full form continuity constant",
+      "passed": true
+    },
+    {
+      "name": "full form continuity J power",
+      "passed": true
+    },
+    {
+      "name": "complete low-input H4 state constant",
+      "passed": true
+    },
+    {
+      "name": "complete low-input H4 powers",
+      "passed": true
+    },
+    {
+      "name": "complete source crossing coefficient",
+      "passed": true
+    },
+    {
+      "name": "complete source crossing powers",
+      "passed": true
+    },
+    {
+      "name": "Young negative source coefficient",
+      "passed": true
+    },
+    {
+      "name": "Young negative source complete powers",
+      "passed": true
+    },
+    {
+      "name": "affine diagonal source fee",
+      "passed": true
+    },
+    {
+      "name": "affine diagonal source powers fit the same fee",
+      "passed": true
+    },
+    {
+      "name": "sum of both negative source terms",
+      "passed": true
+    }
+  ],
+  "scope": {
+    "new": [
+      "one-derivative strong map from full positive Cayley incoming to both actual centers",
+      "actual zero-mean low incoming packet gives paired infinite-output localization",
+      "sum of the two existing pocket forms is positive on that actual image",
+      "complete positive ordinary/weak affine source and independent incoming mean costs"
+    ],
+    "not_granted": [
+      "all whole-network near-kernels are low incoming packets",
+      "sum of the two assigned pocket forms equals a single global profile generator",
+      "positive interior parameter form or off-site pocket responses vanish",
+      "full source-to-original-label inverse or nonlinear outer equation"
+    ]
+  },
+  "bounds": {
+    "root_to_centers_H5_H4": "2^12300 J^23 delta^-42 Npair X",
+    "paired_localization": "2^-12800 J^-42 delta^38",
+    "assigned_two_pocket_form": "2^-25800 J^-94 delta^57 ||incoming_perp||^2",
+    "complete_positive_affine_source": "2^8360 J^15 delta^-26 (||incoming_mean||+S4)",
+    "inhomogeneous_form_source_fee": "2^66600 J^110 delta^-227 (||incoming_mean||+S4)^2"
+  },
+  "file_sha256": {
+    "results/R119-supplement-positive-Cayley-packets-to-complete-center-forms.md": "ddb05aec523a53175a267f5a0958b2e0c1a6e4a8f5e00d26f6680ef9517bda24",
+    "results/R119-supplement-actual-positive-DN-to-full-Airy-Cayley-and-sources.md": "6ca70b578531fd77edbc65cfe0f04f1859182c19b2e43446069c8a5ef0f5ca88",
+    "results/R119-supplement-actual-positive-transmission-and-weighted-affine-source.md": "9a7b80ed242edaee24376314e98c2400e2a1c2b624d3f49b4032fdc2e90fdc99",
+    "results/R119-supplement-common-low-scaled-direction-and-complete-mixed-pocket-form.md": "0e2260050262302a94d582097a0b8e9c5b50159d5639893d102ebe7a61d06e92",
+    "results/R119-supplement-complete-low-cone-and-explicit-exterior-crossing-form.md": "9d4e4e9b45591f2549c8648e46cf81431453a482f89dcd60eb64e8e9bef89ca7",
+    "results/R119-supplement-actual-physical-root-packets-and-center-localization.md": "980e1844a1875c58db86874b24c021c3cc4384d8fb8737c00d93cfd8866ac1bc",
+    "results/R119-supplement-complete-negative-pocket-fixed-parameter-positive-form.md": "8c883e951c8b3771417ea4d0c6285b7f29902d38c636f051200848e65b3335fe",
+    "results/R119-supplement-actual-low-scaled-full-local-nonradial-positive-form.md": "5d979b6d2916ec426f79b24c8cf45f8dd8170e6b0d3a4b060e933b66201eeb63",
+    "source": "a52b23736d48d9db9c78bfddb6c6cacad197eea7121dd84194acfb76fc28293a"
+  }
+}
