@@ -639,3 +639,8 @@ run43604874829/job132477286262实际工厂全部576stage成功，41个有限roun
 ### 2026-11-14 request22三行真实下降与完整角向限制
 
 trustmultiline job132477286177数值warm/新FD/两artifact实际success，只有旧checkout publisher漏lane失败，完整12件原件与清单已补保（artifact14117443482/ZIP01f26518…）。rank3、梯度≤1.062e−12、原行leak≤1.400e−17；λ270/LSMR80 istop2，原KKT340.3776。α2^-9/同模型merit降.00208986985，原col=.007110543370/BC9.57847e−8；新warm03ca9477…/新FD8.17330e−10/native0。三个保护点自身在全trial均正，剩余480的角最小值移动，较大步五处RMS/另有mid失败。下一全角方向probe锁原base20与22真方向，不重解、不只追第四点；完整note已读。
+
+
+### 2026-11-14 request23完整初猜原noJ成功与request24全角诊断
+
+run43605912092/job132480432221实际success，artifact14117693541/ZIP385bfef9…已取核。完整577×224候选恢复9546负零后binary64 SHA6b01b385…匹配；51内部真下溢/71主要chunk完整保全。原evaluate(false)一次全部576stage guard过，norm从1.3414e7降至.0417730782074，最坏stage10/Pi95；线性块norm1.67490e−5独立，原2e−9未达。原solve/J/fresh audit尚未运行；下一仅注入该完整candidate进入同17 H原solve，所有门不改。完整actual23 note已读。前缀全角probe794788a1…已全文读及AST，request24只复用20base+22真实方向在5处N2048全角重放，不新增LSMR/native/warm或接受门；三处lane名单同步检查，原输入精确重建受核。

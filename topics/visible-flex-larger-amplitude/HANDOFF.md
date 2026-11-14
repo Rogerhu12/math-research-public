@@ -6,7 +6,7 @@
 
 仅公开 Rogerhu12/math-research-public；用户已授权commit/push main及本仓Actions。PAT只瞬时CLI环境，禁文件/日志/提交；不强推。根README授权及14条已读。每次push前、至少每小时实际pull --rebase，核根/本题README，变化只读diff并立即执行，记录已读SHA；非快进立即rebase/push循环到成功。root负责Git/H/open/log/workflow；同步helper运行时不要改tracked文件。
 科学计算只本仓Actions；本地仅源码、静态核对、读取与取回实际输出。Rule12完整证明直接results，不设审批/独审门。H<10KB、MD<100KB、数据>1MB gzip、每Git文件<5MB；不写根LOG，禁完整clone/gc/maintenance/大树ls-tree -l。
-12:35旧tmpfs丢失，12:58恢复窄clone=/tmp/vl-public-20261114-1257/math-research-public；原cwd失效，exec必须显式workdir，shell=/bin/bash/login=false。上层sync_public.py用MR_PUSH_TOKEN瞬时CLI；actions_public.py用MR_READ_TOKEN，--run ID --download --logs安全核ZIP/取包至actions-debug；脚本无凭据。未推Rφ v4已按新身份重建，旧失联SHA不用。手动dispatch权限403，不再重试；只改public-mainline-request.json推送精确lane。
+窄clone=/tmp/vl-public-20261114-1257/math-research-public；exec显式workdir，/bin/bash/login=false。上层sync_public.py用MR_PUSH_TOKEN；actions_public.py用MR_READ_TOKEN，--run ID --download --logs取包至actions-debug，均无保存凭据。手动dispatch403；仅改public-mainline-request.json推送lane。
 
 ## 完成标准（仍未满足）
 
@@ -21,20 +21,21 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ## 当前两个实际阻断与并行计算
 
-### 前缀RMS域：22三行实降后，准备同模型全角方向诊断
+### 前缀RMS域：22三行实降后，24同模型全角方向诊断
 
 17原三步warm、18λ270/80次istop2仅α2^-16、20单点保护α2^-10均未BVP接受，完整真实源/回执在actual17/18/20 notes。R262完整Hermite域梯度/两端RHS/p/入口chart链和λP伴随已证；R263区分原r与C^-1r并给λ²强凸后验界，非新接受门。
 22/trustmultiline实际run43604874829/sourcefb32e240/job132477286177：原699/fullM112/T112/N2048；三条(473,0)/(480,0)/(473,11)、左fraction.17267316464601146均实梯度≤1.062e−12，归一SVD rank3，原行leak≤1.400e−17。λ270/上限200仍80次istop2，预条件normal2.60323e−5但projected KKT340.3776；不能冒内层高精度。
 同模型merit44.44622147747905→44.44413160763212，α2^-9、下降.00208986984693、ratio1.0003776，原全域通过。原col=.007110543370039259/BC9.578466474387895e−8仍非解；新warm SHA03ca9477cbb759cdbf07117f2540aa51dbe07545985c957289d0f0a3079f4be8，新真实完整Rφ FD8.17330e−10/原5e−5门；全112项Hmax9.1434e−16保留/native0。原件已取补出版，完整artifact14117443482/ZIP01f26518…；note actual-request22-multiline-tangent-and-angular-domain-limit。
-三个被保护点在所有trial自身β均正且略增；α2^-8仅480/index11 β−.016338，2^-7仅480的phi3.0740975 β−.05954；2^-6是473/475/477/479/480五处左RMS，≥2^-4另有原mid坏点。不能只追第四角点。amplitude写独立全角方向probe，锁同模型base20 warm0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71和22真实保存direction/model；在5处原N2048输出全部β/Dβ、线性first-exit和已试α整角margin，复用完整局部链不新解LSMR/BVP/native；据真结果再定全角约束/域余量恢复。
+三个被保护点在所有trial自身β均正且略增；α2^-8仅480/index11 β−.016338，2^-7仅480的phi3.0740975 β−.05954；2^-6是473/475/477/479/480五处左RMS，≥2^-4另有原mid坏点。不能只追第四角点。独立全角方向probe已冻结794788a1…并全文读，request24/angledomain已接推送请求，锁同模型base20 warm0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71和22真实保存direction/model；在5处原N2048输出全部β/Dβ、线性first-exit和已试α整角margin，复用完整局部链不新解LSMR/BVP/native；据真结果再定全角约束/域余量恢复。
 
-### Native冷启动：22已过工厂，仅私有深处下溢保护拒绝
+### Native初猜：23原无J成功，下一原完整solve/J/fresh audit
 
-17首次真非零Hmax4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒；outer_history空，无新H/J/audit。H是真非mean z，不能归零；zero cache未导worker predictor，zero checkpoint不恢复stage tangent。原linearSteps还定义far/graphs/gains/scales，不能全局改它冒只改初猜。
-19/run43602823170实际原无J576stage全guard过，norm13414069.968482966；最坏stage11/raw0/seg7/Pi104，而cut/far全112行0。saved与cold initial129248项数值相等；完整actual-cold-tail-no-J-stage-replay已推，不重跑。
-21/run43603818345工厂在stage12/index92的合并det检查失败，evaluate0；summary SHA0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481。旧件未留T，不反填v2值为v1观测。
-22/zerorkprobev2实际run43604874829/sourcefb32e240/job132477286262：全部576stage工厂成功，41个有限rounded det0；该12/92在本次明确ad=bc=−3400707242096343。2.451s预测在261→262第112模因Q=−5e−324/u275.8821411118115→0，被私有underflow veto拒；candidate=false/evaluate0，无新norm/J/audit。1427完整事件/块已取，artifact14118131680/ZIPf885ff4f…，summary SHA4d09183f4afd7838d80ad707042e52bd2212d8ae846ad15ce2c25a1754634ea7。publisher仅因lane漏白名单失败，root补救全部原产物并修两lane，不重算。
-原native initial本就允许普通有限binary64舍入为0，该veto是新初猜器自加。23实际run43605912092/sourceac0fcc22/14:38:23Z，zerorkprobev3已排队，保cut全部H/模式/far/graphs/gains/scales/域/容差，只记录并允许真实深处乘除underflow；非finite/零u仍拒。候选完整才原noJ，不自动Newton；R264完整误差账已登记，不添科学门。22三行warm/新FD已真success并补出版。
+17首次真非零Hmax4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒；outer_history空，无新H/J/audit。全部112非均值H不能归零；zero cache未导worker predictor，zero checkpoint不恢复stage tangent。原linearSteps还定义far/graphs/gains/scales，不能全局改它冒只改初猜。
+19/run43602823170实际原noJ576stage全guard过，norm13414069.968482966；最坏stage11/raw0/seg7/Pi104，cut/far全112行0；saved与cold initial129248项数值相等，不重跑。
+21工厂12/92合并det失败，evaluate0，未留T不能反填。22/v2 run43604874829全部576stage工厂成功、41有限rounded det0；261→262第112模真实−5e−324/u275.882…→0被新私有veto拒；candidate=false/evaluate0。全部原件及实际notes已保，publisher漏lane已补，不重算。原native没有此内部非零保持门；R264完整舍入损失账已证。
+23/zerorkprobev3 run43605912092/sourceac0fcc22/job132480432221实际success，artifact14117693541/ZIP385bfef9…已取核。完整577×224候选、原noJ一次、576stage全部guard过，norm **0.04177307820740199**（旧1.3414e7），仍远于原2e−9。最坏stage10/raw0/seg7/Pi95，res−2.1596910e−16/原scale5.1700548e−15；零线性块norm1.67490e−5另计，不能互代。cut/far112行皆浮点0；API不返回minA/minD，不伪造。native solve/J/audit尚0。
+51真下溢=47除/4乘、25负零；完整operand/result/双原scale bits保全。恢复9546负零后candidate完整binary64 SHA6b01b385de34af22094bc47fd7c8c2c2da9ac6d07bc40b5ce6362fea241218b8，原scale SHAecbfd55d…；71chunk SHA/顺序/维数核。summary aa93fb8a…，完整note public-same-RK-candidate-v3-actual23。
+geometry正写独立native seeded solve，只对首次同17 H注入23完整candidate，原solve主体/retainIteration/trials/J/audit/容差不改；保完整17/19/21/22/23源/config/live graphs/gains/far身份，原6144MB，单次TailClient.solve(jacobian=True,audit=True)。不走checkpoint几何remesh/零幅比预测，不接prefix outer到这一入口，不以probe冒接受。
 
 ## 之后的完整闭合与同g精化
 
@@ -46,6 +47,6 @@ R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core�
 
 ## 旧失败、证明和封存
 
-request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R264完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A δhold/D≈.063<.2，RK24/48/三mesh/R241 q8全部2157568对已付；旧GW同g/raw/mean局部f8/16/48已付并封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁，公开78件匹配91源；绝不读private。详见历史notes。
+request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R264完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A幅度.063<.2；RK24/48/三mesh/2157568空间对与旧GW f8/16/48已付封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁；历史见notes，绝不读private。
 
 规则同步记录：2026-11-14T14:39:58.915061+00:00 实际pull --rebase成功；双README自a1f80df4无变化，已读提交 931a36e2c736d86df0241ca61309833660a7e5b9。
