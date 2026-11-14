@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。子问题做完接open，有限模型/候选排除/阶段报告不算完成。
-- **最近成功实际 pull 与已读规则提交：** 9a793ddab07bb4b4e16759aac2613681594bff44（2026-11-14 23:38:22 UTC，Actions run43654176210实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43654176210-1.json。
+- **最近成功实际 pull 与已读规则提交：** 92452b3dfc87f8706c51c5ba0bb0751ec7ca01b2（2026-11-14 23:41:35 UTC，Actions run43654441502实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43654441502-1.json。
 - 根独占main及H/open/results/log，代理只写自己的稿。每结论立即推，每推前及至少每小时实际pull，逐次比较两README，只读新差异并立即遵守；非快进立即pull --rebase再推至成功，不force。
 - 根README迁移授权仅Rogerhu12/math-research-public；token只在CLI临时环境，不落文件/提交/日志。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；>1MB数据压缩、每文件≤5MB，十进制。
 - 本轮压缩前全部状态/来源/常数保[完整H](notes/2026-11-14-handoff-before-complete197-original-s2-789f.md)及递归快照；[open快照](notes/2026-11-14-open-before-five-third-target-space-789f.md)保旧接口。未列问题不视为关闭。
@@ -24,7 +24,7 @@
 
 **全部恢复已保，不重算。** 135文件188295295B=91binary+44text，13stage-cache；184存储文件，root[清单对应](notes/2026-11-14-r150-197-third-publication-manifest-crosscheck-789f.json)零差。恢复artifact14137650288，128795358B，ZIP SHA3e60384f11ad8d1379f2fc7f808eef1511e98944e0af192e47559faf6250fc0c。原完整系统raw467485B/SHA3ad7520e9e6b272fb69fa22517baf6d88ddfc7207df51437ba3af76618af8204，gzip61947B/SHAd62a5e1705d0cbc0ce0544e65ff47f2c1c76208e5843de0ab9d812e7aebd9796。原五列run43646683083的37恢复/8cache及小矩阵run43648025236救回adea54ef仍全保。
 
-**当前下一：[全部原S2来源商](notes/2026-11-14-r150-original-p2-source-saturation-and-finite-column-envelope-789f.md)。** S2={x:Ax∈p²V}，C=coker_D[s]A；S2/(Hnat+kerA)≅C[p²]/<b1…b7,pb8,p²b9>，有限p6再商p⁴C[p⁶]。完整S2由p²E、pKhat和完整β1源核Z的κ(c)=Khat chat+p qhat生成；Z以已成像C/J及原来源T给(I−TC)、T(sI−J)。旧198未乘p²的κ̃=Khat−p q1是真新入口，已成197的p²倍不代它。normal/literature正在把这包按1632真整数核、κ3…6和κ7真关系缩成同197未缩放源，再执行真正新增来源/高carry，不重复自然图同层。
+**当前下一：[全部原S2来源商](notes/2026-11-14-r150-original-p2-source-saturation-and-finite-column-envelope-789f.md)。** S2={x:Ax∈p²V}，C=coker_D[s]A；S2/(Hnat+kerA)≅C[p²]/<b1…b7,pb8,p²b9>，有限p6再商p⁴C[p⁶]。完整S2由p²E、pKhat和完整β1源核Z的κ(c)=Khat chat+p qhat生成；Z以已成像C/J及原来源T给(I−TC)、T(sI−J)。旧198未乘p²的κ̃=Khat−p q1是真新入口，已成197的p²倍不代它。[全原197包证明](notes/2026-11-14-r150-full-p2-source-envelope-by-197-unscaled-columns-789f.md)已成：S2=Hnat+Klow+Σj2..198 κ̃_jD[s]，Klow是1632真整数核。原四κ3…6确提升全部四个β源核基、κ7bar=22K1；先覆盖kerβ再付pS1，两次有限消去给全包，不套p-adic Nakayama。于是Bsat=[A,b1…7,pb8,p²b9,b̃2…198]的像恰(imA:p²)，全原modp6等价Bsat y=h0t modp4。当前先只读已成两组矩阵的10×197真系数及模U7/U8/U9作用，选下一准确入口；新membership尚未算。
 
 [十项完整入口](notes/2026-11-14-r150-197-third-local-jet-interface-789f.md)含68输入/7旧工件、10编译各30秒/512MiB、共享数学300秒；现已真实成功。双倍jet先真像/free后10→5，q1规范t lift/carry同步，13自由行不删。原正分支[两P/765费用](notes/2026-11-14-r150-197-third-positive-two-projectors-original-cost765-789f.md)及宽NF/trace/真实数组恢复代码已编译，但本次无正目标所以未执行全局正分支；不得记为已核九原正证书。源码hash与全部7artifact身份保本次H快照、contract和manifest。
 
