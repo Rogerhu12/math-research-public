@@ -659,3 +659,7 @@
 ### R273 附录：八维完整多项式核与四维共同整数源
 
 [完整证明](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)在真实计数Hilbert范数中去权聚合，全部合法高度先取八维多项式Gram逆，再压到同一四维整数primitive源。与原MP只差共同正标量及固定同余；逐行因子可移除但右端物理逆度量必须保留。q,L≥3首边的非负计数核付全部主分母严格正，全部短端的身份仍合法；相邻差分子尚未证明正。精确生成器保无余数消元及完整层核对。
+
+### R288 附录：两普通组加一异常位的整个物理出生二严格 S1
+
+[主参数证明](results/R288-appendix-two-group-singleton-birth-two-s1-positive-certificate.md)与[短侧/硬顶/整层拼合](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)从实际三塔式保C²深源，在q,L≥3生成两个完整正系数主子式；五个合法短侧参数区另付十个严格主子式。任意两个原组大小≥2、任意三个正权的整个物理K2均严格满足S1：实际组内串同时约化D/D*/C及完整逆，相对出生1用既证任意权S1、出生0直接付真空。N5硬顶取C2=0，全部源度量保留；S2与更高出生仍按各自范围继续。

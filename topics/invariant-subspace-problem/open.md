@@ -16,8 +16,6 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 旧接口见[归档](notes/2026-11-13-open-after-R262-rebase-before-condense-1cf8.md)及results.md。
 
-0c本次压缩前的完整接口、H和队列见[全文](notes/2026-11-14-handoff-open-queue-before-next-birth-checkpoint-0c.md)；闭合的出生一大权比已移出当前缺口，双方边界/R150的新结果及全部旧范围均保留。
-
 ## 共同适用边界
 
 已证闭域/共同正则器只按原范围使用：全H稠密不传未知限制/有限旗，G不扩一般慢Acal，UHF不运输未知Haar格。正常态/边界奇异态、固定次数/全部向量不同；C未必保M，全等向不代局部等向，不能删域或压缩中央耦合。所有结果仍为中间结论。
@@ -112,7 +110,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)：两零模块与所列旧边/仿射/粗占据界不足以给S1/S2任意统一有限常数；该族非Boolean，原c1仍开。
 
-[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。该出生的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆，一般正性仍开。
+[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。两组＋一位的整个物理birth2也已付[严格S1](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)，含短组/硬顶；S2主内部范围继续。该出生一的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆，一般正性仍开。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 

@@ -1,0 +1,42 @@
+{
+  "date_utc": "2026-11-14",
+  "target": "Actual upper birth-two S1 physical quadratic form, two ordinary groups plus one exceptional bit",
+  "substitution": {"q": "3+Q", "L": "3+R", "z": "1+Z", "w": "V"},
+  "domain": "Q,R,Z >= 0; V > 0; the fifth algebra variable U is unused",
+  "script": "2026-11-14-two-group-singleton-bridge-certificates-789f-next.py",
+  "command_arguments": ["--target", "s1-direct"],
+  "complete_layer_check": {
+    "q": 3,
+    "L": 4,
+    "a": 2,
+    "u": 3,
+    "upper_dimension": 5,
+    "lower_dimension": 3,
+    "original_and_eliminated_S1_forms_equal": true,
+    "physical_cubic_bridge_equal": true
+  },
+  "leading_minors": [
+    {
+      "size": 1,
+      "numerator_terms": 14040,
+      "denominator_terms": 10297,
+      "numerator_total_degree": 40,
+      "denominator_total_degree": 38,
+      "negative_coefficients": 0,
+      "strict_positive_V_only_monomial": true,
+      "numerator_sha256": "adb06b67833688372befc3abc54e7099a34deed76e2183c07341b5ea823976b1"
+    },
+    {
+      "size": 2,
+      "numerator_terms": 23778,
+      "denominator_terms": 13296,
+      "numerator_total_degree": 46,
+      "denominator_total_degree": 42,
+      "negative_coefficients": 0,
+      "strict_positive_V_only_monomial": true,
+      "numerator_sha256": "72b66b43024233b4caa9f5847af40c0e6353d46dd3b717cf67a77fb1b8f410cc"
+    }
+  ],
+  "elapsed_seconds": 17.751,
+  "status": "Both exact leading-minor coefficient certificates passed; S2 and the full two-exceptional-bit adjacent inequality are not claimed"
+}
