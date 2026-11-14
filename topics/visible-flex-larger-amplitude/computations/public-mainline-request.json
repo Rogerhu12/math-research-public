@@ -1,13 +1,13 @@
 {
-  "request": "20261114-public-large-core-mainline-26",
+  "request": "20261114-public-large-core-mainline-27",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "angleprojection"
+    "sevenprojection"
   ],
-  "scope": "Continue actual22 warm03ca9477 with one original complete positive-damping model and all five selected original Hermite queries times N2048 physical angles. Capture the needed original endpoint J/P during the same single full Jacobian construction; compile complete B and transpose with all physical/control chains. Use lambda270 original unprojected LSMR200 and C-diagonal local Hildreth projection onto beta+Bz>=beta/2, at most200 sweeps; retain a radially feasible original descent ray and select on the feasible segment in the same original damped model. Recompute full A z, gdot, model decrease and all10240 slacks; no full-QP optimality claim. Original17 real backtracks, fixed merit, node/midpoint/two-RMS/rho gates and original fresh full Rphi FD remain. All actual outputs or failure preserved; large reproducible optimizer arrays only in Actions artifacts with public manifests. No new native, accepted coupled field or geometry claim. Public repository Actions only.",
+  "scope": "Continue the actual26 warm4e2ee245 with the frozen original full-angle projection engine; add the actual left-RMS failures472 and481 to the five prior original queries, retaining every2048 original angle at all seven14336 rows. Same full A, lambda270, LSMR200, C-Hildreth200, radial feasibility repair and same-model segment selection; preserve original17 real trials, complete node/midpoint/two-RMS/rho domains, fixed-weight actual merit and fresh original complete Rphi FD. Eleven selected nodes and all global coordinates/chains retained. Bind the complete unchanged parent producer and exact actual26 bytes. Large reproducible B/J/Gamma arrays stay Actions artifacts with manifests/hashes in Git. No native call, full-QP optimality or new BVP/closed-surface claim. Only this public repository Actions.",
   "source_sha256": {
-    "geometry_20261114_full_angle_domain_operator.py": "af7966fa1417d9cae3481238397314037c656492ff8005cfc6ba2b4cdb3082f7",
-    "geometry_20261114_full_angle_projection_warm.py": "7d75a44a2e5a736c68e440ffc1a55533f9ea7aa6bbed4430980dc0ad974b0152",
-    "geometry_20261114_full_angle_projection_response.py": "90e7addef0e03375b40968f54fb55ce85dc02c3f5cb123f895f100af663f2e92"
+    "geometry_20261114_seven_query_projection_warm.py": "f6598a5e4738f6c2c310eccc9fd791b68c3731ad3fc3adfd83414450d95c8394",
+    "geometry_20261114_seven_query_projection_response.py": "d05df1fd00eab33774ad34ff15a0988250fc49c6aca474656add0cc716d48c6e",
+    "geometry_20261114_full_angle_domain_operator.py": "af7966fa1417d9cae3481238397314037c656492ff8005cfc6ba2b4cdb3082f7"
   }
 }

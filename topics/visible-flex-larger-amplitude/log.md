@@ -680,3 +680,7 @@ run43608931469/source2a251065/job132489481146全success，artifact14119626920 10
 ### 2026-11-14 R266完整原native缺陷与缩放证明
 
 按原core ac2fc999…逐符号证明全部stage/cut/far线性缺陷、原σ无穷范数模型下降和完整非线性/浮点误差身份；任意可逆行列变换精确等价而须回原方程复核，Riccati完整递推/唯一性及chart奇异但全A可逆反例明确。root全文读并明确下降判据步长0<λ≤1，直接results登记，无独审或数值审批门；没有新计算或对actual25因果的超额结论。
+
+### 2026-11-14 request27：从actual26继续七query全角约束
+
+新增两薄入口f6598a5e…/d05df1fd…与接口全文读，原完整A/捕获B/投影/径向修复/同模型线段选择/17trial/全部原域/FD逐式调用冻结26源。新增query仅为26真实拒绝的472、481，14336完整行/11node/local3721；actual26 parent SHA、全部旧producer及同问题身份锁定，metadata保旧父树原样。新lane七query名单/Node跳过/准备恢复/唯一真实warm验证/新FD接齐，未本地执行科学计算。

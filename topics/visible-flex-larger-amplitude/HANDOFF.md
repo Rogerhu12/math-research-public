@@ -23,11 +23,11 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 ### 前缀RMS域：26全角投影真实下降，接新增邻接query
 
-17/18/20/22均仅warm实降，BVP未接受；全部失败/梯度/原件详actual notes。24已核22方向五处×2048完整complex差≤5.52e−13；最近480一阶失域夹原接受/拒绝，但大步非线性余项不能忽略，R263 E/Delta1.48521不冒高精度QP。
+旧17/18/20/22仅warm，完整失败/梯度/原件详actual notes。24已核22方向五处×2048完整complex差≤5.52e−13；最近480一阶失域夹原接受/拒绝，但大步非线性余项不能忽略，R263 E/Delta1.48521不冒高精度QP。
 26/angleprojection run43608931469/source2a251065/job132489481146全部success；artifact14119626920 108924237B/ZIPe0c1e49b…取核。原699/M112/T112/N2048；完整B实际LSMR complex6.563e−13、adjoint2.273e−18，所有原数组身份核。三源保持，详完整actual26 note。
 λ270/200 LSMR在80步istop2，原gradient345.6423（非小预条件normal）。C度量Hildreth200sweep未收敛，74负slack经径向factor.8606834326670906修正，最终10240slack≥1.353e−16；同f线段τ1确选投影，不用6.499e−6微小backup。方向gdot−.8769409414/阻尼模型Delta.4990204300，完整gradient166834.2/零dual E190902.95，非R265最优。
 实际α2^-6，同一新模型固定权重merit44.44434208099914→44.43069444899323，drop.013647632005913124/ratio.9990257931；node/mid/两RMS全合法，rho.16604058243275。col=.007110525392946708/BC9.449358469183357e−8仍非解。新warm `notes/public-actions-43608931469-1-angleprojection/full-angle-warm/warm-001.json.gz`，SHA4e2ee245a3c931210eed8a9a67a4202397eb709b3e5aacc7271418d76d4098c1。新完整Rφ FD8.658996438962446e−10过原5e−5门，全部112 H保留（首项4.89164e−15非零），native0。不同迭代merit权重刷新不可跨模型相减。
-原五query所有角在α2^-5/2^-4已实际正，但前者左RMS481/φ0/β²−.00820413失败，后者472/481两处失败；右RMS0。更大步midpoint只存计数不造位置。amplitude接独立七query(472,473,475,477,479,480,481)同λ/投影/原17回溯/新FD，原B参数接口复用，冻结26生产者。大B/J/Γ NPZ仅artifact、manifest/input/source/hash入Git。
+原五query所有角在α2^-5/2^-4已实际正，但前者左RMS481/φ0/β²−.00820413失败，后者472/481两处失败；右RMS0。更大步midpoint只存计数不造位置。27/sevenprojection已接push：七query(472,473,475,477,479,480,481)同λ/投影/原17回溯/新FD，两薄入口f6598a5e…/d05df1fd…复用冻结26引擎与B，父producer原样。大B/J/Γ NPZ仅artifact、manifest/input/source/hash入Git。
 
 ### Native：23初猜成功，25原Newton线搜索仍失败
 

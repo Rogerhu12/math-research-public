@@ -66,3 +66,5 @@ actual25完整失败点已保：[原生全部试步实录](notes/2026-11-14-publ
 request26已全success并逐实际包核：[全角投影实录](notes/2026-11-14-actual-request26-full-angle-projection-warm.md)。α2^-6、同新固定权重drop.0136476320，新warm4e2ee245…/新FD8.659e−10；仍col.007110525/BC9.449e−8/native0。5query全部实际正后限制移到左RMS472/481，接同一新warm七query完整角不等式；原真实全域回溯不变。Hildreth200未内收敛而已径向修到全行可行，非完整QP最优。
 
 R266完整证明已入results：原stage/cut/far缺陷与原σ下降、computedJ/参考导数及全部算术差分开；可逆缩放保持原线性解，极大chart condition不代完整缺陷、chart失效也不等于全A奇异。用其解释下一实际25校正捕获，不额外加运行门。
+
+request27/sevenprojection已接推送：锁actual26 warm4e2ee245…，新增实际坏RMS472/481得到七query×2048=14336行；同λ270/LSMR200/Hildreth200、完整原回溯与新FD。独立薄入口f6598a5e…/d05df1fd…不改26冻结源/父producer，详[七query接口](notes/2026-11-14-seven-query-projection-warm-interface.md)。
