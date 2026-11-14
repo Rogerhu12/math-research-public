@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** `73e38a7be42e9080c0e0651a788be1ba5e29950d`（2026-11-14 17:12:53 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `92bddefea643b9f7893cdf731e0ab5cd61796dc6`（2026-11-14 17:14:09 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -26,6 +26,8 @@
 - [实际完整矩阵曲率反例](notes/2026-11-14-balanced-star-actual-matrix-curvature-counterexample-789f-next.md)含Q5正权的真reducing负块；一般R池相对负曲率趋−4(R−2)，任何固定端点幂补偿亦不统一。只排该充分路线，原J未否。
 - [曲率点态三列](notes/2026-11-14-balanced-star-curvature-three-column-defect-and-mean-curve-789f-next.md)：完整Lorentz逆与normal Schur给K/F=E*DcurvE+[u,−u′]R2[u,−u′]*，负指数≤3；u=−E*p/(1−t)是真均值，列随t移动/幅度不统一，不能跳过积分及全G回归。
 
+- [固定内峰完整相位极限](notes/2026-11-14-balanced-star-macroscopic-interior-full-phase-projection-limit-789f-next.md)：固定m≥2、正组比例和严格非退化内峰，整个m维star源的Φ=H⁻¹/²J*L⁻¹JH⁻¹/²谱趋1^(m−1),0。完整共同因式分解消高阶逆，暗块真实归一是两超平面交叉Gram；紧内峰profile有κ≤1+C/√Q。不含端峰/退化/消失组/无界权/增长组数，有限Q的κ1未证。
+
 ## R150 原十七式与第二提升
 
 原11N＋6Γ、M5的6188来源/4367输出、泛秩4354。rankAy8和0/2/−6/∞已闭；rankAy9余有限Σ/char0来源。h0=s³(s−2)F+²F−²E8度24、mod31=25h31；Dlin46不免费降24。原多项式、指标、权成本及所有其它高ess/mean层保open/旧证书。
@@ -38,9 +40,9 @@
 - [四真实第二方向](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)：run43615783424/job132510414734，数学59.569477415秒；原来源cost86/86/86/87及原961整除全核。四δ＋W的完整多项式像6维，九r2各失败。**仅四列不足，余198未算。**45恢复/16生成流已保存至notes/r150-four-second-bockstein-actions-789f/43615783424-1/；本地 `/tmp/isp-four-delta2-43615783424`。不重跑4VQ。
 - [37维/真转置](notes/2026-11-14-r150-second-bockstein-primary37-and-dual-transport-789f.md)：1/2主部分39维，扣W得37；P=q(q⁻¹ modg)、degP≤189，正来源必须付该成本。余198成本≤81、第一校正预算177；须实际解μA0=(λhat A/31)mod31，才能用(λhat−31μhat)A/961配对。少数dual相容不代完整向量成功。
 - [两Taylor环真实商](notes/2026-11-14-r150-two-taylor-ring-complete-quotient-789f.md)：小任务4.579560896秒，rank g(A_g)=677，820→143中完整保104自由检验、39挠与37商；实际P次数189。源码/181038B完整映射/回执在notes/r150-second-bockstein-jet-quotient-map-789f/，198尚未算。必须同一原κ取mod29791 jet、同一全局q取jet；lift差31c只改原像。
-- **余198已冻结待Actions实际执行：** [接口](notes/2026-11-14-r150-all198-second-bockstein-jet-interface-789f.md)，16新文件manifest SHA51a62496…a7db；全任务共享300秒、各子512MiB。旧T96/200恢复仅读，四列/H25/r2由已存gzip还原；143→39→37全检验。九目标若全相容自动接全部原6188/17模29791，不以局部相容结束；负分支只排回执列出的目标。完整真实可续数组均留，准备仅编译无新数学。
+- **余198已提交Actions执行：** [接口](notes/2026-11-14-r150-all198-second-bockstein-jet-interface-789f.md)，16新文件manifest SHA51a62496…a7db；全任务共享300秒、各子512MiB。旧T96/200恢复仅读，四列/H25/r2由已存gzip还原；143→39→37全检验。九目标若全相容自动接全部原6188/17模29791，不以局部相容结束；负分支只排回执列出的目标。完整真实可续数组均留，准备仅编译无新数学。
 - 射影/∞条件仍保：有限B≥85商是H⁰(C(B))，仿射315之外另有∞torsion；真T96给u⁹⁶T∞=0/length≤745。已有实际原来源直接支付成本，仿射必要成功不代有限充分条件。char0来源、31饱和与主ISP仍开。
 
 ## 当前分工与继续
 
-normal已冻结198同源8jet与正结果原6188/17连续恢复，根发布CI并监控实际数据；normal接核基过滤及后继31饱和解析。boundary保均值曲线/总数共同Schur，曲率点态负部≤3但无积分统一界；literature已冻结固定内点峰形的完整相位极限，根接整合，端峰/过渡仍开。根逐结论立即整合推送、逐pull检查README并保持H最新，不在阶段结果停。
+normal已冻结198同源8jet与正结果原6188/17连续恢复，根发布CI并监控实际数据；normal接核基过滤及后继31饱和解析。boundary保均值曲线/总数共同Schur，曲率点态负部≤3但无积分统一界；literature已完成固定内峰完整相位极限，接端峰/过渡；根监控198原式任务。根逐结论立即整合推送、逐pull检查README并保持H最新，不在阶段结果停。
