@@ -44,15 +44,13 @@ R129真X=∂h、Y=∂k+(2h)⁻¹∂ω水平IBP：L2消加速度后Q2，L4消第�
 
 R116完整m8响应288=287新+1复用，true pure像T秩31/偶15。R123静态raw商3，G九项尾=原列10/128，所以该投影遗漏完整障碍。R124准确M0规范化支付全部静态pure，18个Δ2 packet的商2/even1；真实period只余∫Π8(L2+Δ2+L4)，N2=Pacc不可删。
 
-完整因子43651096112/source2259b57已成：raw N0=79/N2=93、两mode各v2=665/v4=1236，共3974根/3521可达atoms，10几何键且最高jet3；433.384s/RSS587.926MiB。完整gzip2132064B/SHA9daddeaf（raw11864540B/58e450c4），main42289590、receipt6857ea6e；详细notes/complete-original-derivative-factor-export-actual-20261114.md。
-
-R132 actual43652134080/source6e2f99ce完整计算1901新pure v根、885新N响应及18Δ2，所有P=A·旧列+R准确差零。raw商24/even13，完整degree≤33结合端势/逐权先给真实商≤7/even5；后继IBP已确定实际商为零。完整gz1089774B/68a764d0，main20157415、receipt192a945b。
+完整因子43651096112保3974原根/3521atoms、N0/N2及全部v2/v4，冻结gzip9daddeaf/raw58e450c4；1901新pure v/885 N响应与18Δ2的43652134080已付原差零，R132先界商7/even5。全部来源、资源和文件身份见R132及完整因子actual note，不重编。
 
 **IBP actual43653293263/source2f0add61已complete**：源2347633b保全部P/A/R边界恒等式，Q2=519、L4=490共1009正规packet，全部余项准确0（含148加速度二次、168area、174速度四次）。全部原P实际min_r25/maxdegree33，无裁剪；4387非零原系数、45行。1.612911694s/RSS83.125MiB，0 profile/0 response formula，6toy全过。由R124/R129/R130严格Π8(U4)=T，真实pure秩31/偶15、额外商0，不能外推完整mixed。证书483512B/a62173b3（raw4472950B/3e0b01e2），main15625B/3711ccef、receipt28ecf527；R133已登记；R116同一四块C原15尾查询为0，现C∈U4且像为evenT，查询在此同构，故整个Π8V_C(c,r)≡0，保全部桥/基准，无新求根。
 
 R137已登记：真实正泛函λ杀R；固定单位矩路径+有界残差给局部补偿成本O(1+‖M‖)，先准确补M/frame及倒行去T，再快缩得任意平端水平P有∫λL4≥0。故三Abar组成状态PSD矩阵；整个矩阵为0时H1/H2必须0，全状态A=0才推出Q4点态非负。不能以局部成本界替换非零M段完整高阶历史界，不授固定窄域或几何族。
 
-43654534244/source1177f251的N⁵G与五族已实际成功，root接R139、literature接R136；后者仍须原式真上界与新子式才判非成员。R140全action乘子等价纸证待登记。当前request只有R138新general_pure_G_identity：源a6731a1c，唯一任意profile原差G[-4]−B_p2(W1)[-4]/128，完整相位1/8、同右锚；先存原差再sound IBP。非零代表只未决，不跑m8/mixed/旧列；六新人工后public actual。
+43654534244/source1177f251的N⁵G与五族已实际成功，root接R139、literature接R136；后者仍须原式真上界与新子式才判非成员。R140已证明完整正性iff：λ杀R且存在同一实八矩μ，使所有开平端水平P的∫(λL−μm)≥0。真实PiPi^R、floor正表和有界剩余矩/frame先付，有限次线性包络HB取μ；不是原密度逐点非负。时间缩放给每条P的A≥0、C4≥0、B+2√(AC4)≥0，B不可单独判正。当前request只有R138新general_pure_G_identity：源a6731a1c，唯一任意profile原差G[-4]−B_p2(W1)[-4]/128，完整相位1/8、同右锚；先存原差再sound IBP。非零代表只未决，不跑m8/mixed/旧列；六新人工后public actual。
 
 
 ## 6. 未付终局

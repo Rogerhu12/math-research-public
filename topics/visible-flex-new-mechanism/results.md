@@ -277,3 +277,5 @@
 - [R137：真实快速水平脉冲与加速度PSD必要门](results/R137-real-fast-pulse-positivity-and-acceleration-PSD.md) — 已先用正时长真实补偿付M/frame/T，证明任意平端水平路径的最高导数层积分对真实正泛函非负，继而Aλ逐状态PSD；整矩阵为零迫面积H为零，A恒零才得Q4点态非负。只universal成本锥必要门，未授有限几何族。
 
 - [固定70短步首轮实际](notes/curvature-fixed-target-first-actual-result-20261114.md) — run43653520539同g/163参数，三次原门双网接纳使κ73.359843→70.722781；全步曾低于70但违反768奇角metric而拒绝。06a603全系数保存，下一付真实细网Jac；70与连续reach均未达。
+
+- [R140：真实成本正性与一个完整八矩action乘子等价](results/R140-full-action-multiplier-equivalence-for-real-cost-positivity.md) — 对任意λ，真实闭成本锥正性iff杀R并存在同一个μ使所有开平端水平路径∫(λL−μm)≥0。用真实倒行/进出桥/floor重复/紧矩阵frame补偿证明零矩正表非负，再由有限次线性包络取统一μ。三个导数权满足A≥0、C4≥0、B+2√(AC4)≥0；没有逐项要求B非负或密度逐点非负，不授实际逆元。
