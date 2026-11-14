@@ -1,0 +1,641 @@
+{
+  "status": "exact rational calculation completed",
+  "scope": "Original integral axes, full projections and half-character data; no sampled-prime or nonvanishing inference.",
+  "basis": "a+b delta",
+  "V": [
+    {
+      "real": "1/2",
+      "delta": "1/2"
+    },
+    {
+      "real": "1/2",
+      "delta": "-1/2"
+    },
+    {
+      "real": "2",
+      "delta": "0"
+    },
+    {
+      "real": "0",
+      "delta": "0"
+    },
+    {
+      "real": "1",
+      "delta": "-1"
+    },
+    {
+      "real": "1",
+      "delta": "-1"
+    }
+  ],
+  "normV": {
+    "real": "14",
+    "delta": "0"
+  },
+  "orthogonalDV": {
+    "real": "0",
+    "delta": "0"
+  },
+  "axisIdentityZero": true,
+  "coefficients": {
+    "D": {
+      "real": "0",
+      "delta": "0"
+    },
+    "E": {
+      "real": "-1/2",
+      "delta": "1/2"
+    },
+    "G": {
+      "real": "-1/2",
+      "delta": "5/2"
+    },
+    "Y": {
+      "real": "13/28",
+      "delta": "11/28"
+    },
+    "W": {
+      "real": "-3/28",
+      "delta": "19/28"
+    },
+    "Wprime": {
+      "real": "9/14",
+      "delta": "13/14"
+    },
+    "X": {
+      "real": "1/14",
+      "delta": "1/14"
+    },
+    "Z": {
+      "real": "1/14",
+      "delta": "1/14"
+    },
+    "L": {
+      "real": "-2/7",
+      "delta": "1/7"
+    },
+    "C": {
+      "real": "-1/28",
+      "delta": "1/28"
+    }
+  },
+  "conjugates": [
+    {
+      "j": 0,
+      "V": [
+        {
+          "real": "1/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "2",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        }
+      ],
+      "VH": [
+        {
+          "real": "1/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "2",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-5/2",
+          "delta": "-1/2"
+        }
+      ],
+      "norm": {
+        "real": "14",
+        "delta": "0"
+      },
+      "odd": 2,
+      "oddH": 4
+    },
+    {
+      "j": 1,
+      "V": [
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        }
+      ],
+      "VH": [
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-5/2",
+          "delta": "-1/2"
+        }
+      ],
+      "norm": {
+        "real": "14",
+        "delta": "0"
+      },
+      "odd": 4,
+      "oddH": 6
+    },
+    {
+      "j": 2,
+      "V": [
+        {
+          "real": "3/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        },
+        {
+          "real": "1",
+          "delta": "-1"
+        }
+      ],
+      "VH": [
+        {
+          "real": "3/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-5/2",
+          "delta": "-1/2"
+        }
+      ],
+      "norm": {
+        "real": "14",
+        "delta": "0"
+      },
+      "odd": 4,
+      "oddH": 6
+    }
+  ],
+  "U35": [
+    {
+      "real": "1/2",
+      "delta": "1/2"
+    },
+    {
+      "real": "1/2",
+      "delta": "-1/2"
+    },
+    {
+      "real": "2",
+      "delta": "0"
+    },
+    {
+      "real": "0",
+      "delta": "0"
+    },
+    {
+      "real": "-5/4",
+      "delta": "9/4"
+    },
+    {
+      "real": "13/4",
+      "delta": "-3/4"
+    }
+  ],
+  "normU": {
+    "real": "35",
+    "delta": "0"
+  },
+  "twiceU": [
+    {
+      "real": "1",
+      "delta": "1"
+    },
+    {
+      "real": "1",
+      "delta": "-1"
+    },
+    {
+      "real": "4",
+      "delta": "0"
+    },
+    {
+      "real": "0",
+      "delta": "0"
+    },
+    {
+      "real": "-5/2",
+      "delta": "9/2"
+    },
+    {
+      "real": "13/2",
+      "delta": "-3/2"
+    }
+  ],
+  "UH": [
+    {
+      "real": "1/2",
+      "delta": "1/2"
+    },
+    {
+      "real": "1/2",
+      "delta": "-1/2"
+    },
+    {
+      "real": "2",
+      "delta": "0"
+    },
+    {
+      "real": "0",
+      "delta": "0"
+    },
+    {
+      "real": "5",
+      "delta": "0"
+    },
+    {
+      "real": "2",
+      "delta": "0"
+    }
+  ],
+  "K42": [
+    {
+      "real": "1/2",
+      "delta": "1/2"
+    },
+    {
+      "real": "1/2",
+      "delta": "-1/2"
+    },
+    {
+      "real": "2",
+      "delta": "0"
+    },
+    {
+      "real": "0",
+      "delta": "0"
+    },
+    {
+      "real": "-9/2",
+      "delta": "3/2"
+    },
+    {
+      "real": "3",
+      "delta": "0"
+    }
+  ],
+  "gramDVK": [
+    [
+      {
+        "real": "14",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      }
+    ],
+    [
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "14",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      }
+    ],
+    [
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "0",
+        "delta": "0"
+      },
+      {
+        "real": "42",
+        "delta": "0"
+      }
+    ]
+  ],
+  "ZprojectedEqualsKover14": true,
+  "Kconjugates": [
+    {
+      "j": 0,
+      "K": [
+        {
+          "real": "1/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "2",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "-9/2",
+          "delta": "3/2"
+        },
+        {
+          "real": "3",
+          "delta": "0"
+        }
+      ],
+      "KH": [
+        {
+          "real": "1/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "2",
+          "delta": "0"
+        },
+        {
+          "real": "0",
+          "delta": "0"
+        },
+        {
+          "real": "9/2",
+          "delta": "3/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "3/2"
+        }
+      ],
+      "norm": {
+        "real": "42",
+        "delta": "0"
+      },
+      "odd": 4,
+      "oddH": 4
+    },
+    {
+      "j": 1,
+      "K": [
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "-9/2",
+          "delta": "3/2"
+        },
+        {
+          "real": "3",
+          "delta": "0"
+        }
+      ],
+      "KH": [
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "9/2",
+          "delta": "3/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "3/2"
+        }
+      ],
+      "norm": {
+        "real": "42",
+        "delta": "0"
+      },
+      "odd": 6,
+      "oddH": 6
+    },
+    {
+      "j": 2,
+      "K": [
+        {
+          "real": "3/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "-9/2",
+          "delta": "3/2"
+        },
+        {
+          "real": "3",
+          "delta": "0"
+        }
+      ],
+      "KH": [
+        {
+          "real": "3/2",
+          "delta": "1/2"
+        },
+        {
+          "real": "1/2",
+          "delta": "-1/2"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "1",
+          "delta": "0"
+        },
+        {
+          "real": "9/2",
+          "delta": "3/2"
+        },
+        {
+          "real": "3/2",
+          "delta": "3/2"
+        }
+      ],
+      "norm": {
+        "real": "42",
+        "delta": "0"
+      },
+      "odd": 6,
+      "oddH": 6
+    }
+  ],
+  "coreData": {
+    "D": {
+      "degree": 14,
+      "g_mod_28": [
+        15,
+        0
+      ],
+      "anchor": "Theta(gamma z)",
+      "anchor_norm": 7
+    },
+    "V": {
+      "degree": 14,
+      "g_mod_28": [
+        15,
+        0
+      ],
+      "anchor": "Theta(gamma z)",
+      "anchor_norm": 7
+    },
+    "K": {
+      "degree": 42,
+      "g_mod_84": [
+        43,
+        0
+      ],
+      "anchor": "Theta(delta gamma z)",
+      "anchor_norm": 21
+    }
+  },
+  "tripleDeterminant": {
+    "det": {
+      "real": "7",
+      "delta": "-21"
+    },
+    "norm": "1372"
+  }
+}

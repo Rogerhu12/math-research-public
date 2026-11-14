@@ -30,3 +30,5 @@
 - [R562：原四单位域与负二矩的整单位关系](../results/R562-original-four-unit-domain-and-negative-two-unit-relation.md)：同一σ(c)⊗B(v)、H=δc−v/K=δc+v的四unit积分J=∫c³/H²满足完整非齐次式，主常数Ω(1−βκ)(1−3β)/(2δ²)为unit；两深补域分别p7及保首项后的p6。故(I4,J)=O，另P核在同域反对称测试严格零；真实伴随/原Y/W混合条件未被赋中央零。
 
 - [R563：原S24完整三态与native双unit两互补行](../results/R563-original-s24-three-state-and-native-unit-complement.md)：wholeK24²=I付μ0/μ+/μ−饱和三态，H/K及D12偶深矩形、全连续整单位逆完整成立。真实Cunit使双缩小交叉项为零，同一native行在H/K双unit内精确分成D12unit的UKf与D12deep的UHf；全部浅环带、深尾及常数log质量保留，K侧尾准确p^r并列出首项，不把新态认旧gluing。
+
+- [R564：原负条带的三正交全核与实际四伴随返回](../results/R564-original-negative-strip-orthogonal-cores-and-complete-return.md)：原D14、另一V14和K42为同格正交三轴，当前射线的whole中心/Theta锚及全部C共轭支付三个β核。原负strip恰Vdeep/K42unit，完整返回保原E/G/Y/W移动；给全六次多项式、常数log质量、实际线性项及p²尾，正strip及同阶相消仍开。

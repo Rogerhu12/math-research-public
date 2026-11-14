@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：56ca37a46ab44b8a6170b928ef3f837c3b502e06；2026-11-14 18:40:56 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：43bf8d63d53618be4006d2ec32e8c0c67dfaa396；2026-11-14 18:47:24 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作；main逐条commit/push已授权，禁强推及改已发表历史。每次pull后及至少每小时比两README，仅读新差异并立即执行、记SHA。
 - 规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13改用公开Actions，旧runner/ci-queue停用。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35执行环境断连；18:00:10 UTC实际git pull --rebase重试仍报无可用执行环境，随后API核main/两README无变。最迟19:00重试；恢复后先实际pull --rebase核规再接API历史。
@@ -14,14 +14,14 @@
 
 ## 发布、归档和分工
 
-R1–363、R365–560、R562–563已登记；R364仍开，R561/564/565进行中。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
-完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-general-double-note.md)、[open](notes/2026-11-14-open-before-r562.md)，沿各自归档链保全部旧条件；压缩不关闭任何问题。全部结论准确编号/标题见results.md和notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
+R1–363、R365–560、R562–564已登记；R364仍开，R561/565/566进行中。root统一元数据/ref，代理只建proof/script/data blobs；完整结论随成随推。
+完整前一检查点：[HANDOFF](notes/2026-11-14-frontier-before-r564.md)、[open](notes/2026-11-14-open-before-r562.md)，沿各自归档链保全部旧条件；压缩不关闭任何问题。全部结论准确编号/标题见results.md和notes/PROOF-INDEX-R501-R550.md、PROOF-INDEX-R551-R600.md；旧全索引notes/2026-11-14-results-index-before-r531.md。
 R502公开Actions43596695716/job132452617972已成功，原生JSON/日志da54025b及原证书保持，不复跑。
 
 - theta已付R559/563全三态及完整双unit两互补，续R566这两条原行的同源实际比较。
 - literature已付R554/562同域负矩及真实四unit单位关系，续R565与原native/算术行的完整比较，保pairedV指定上尾。
 - deep已付R555全原线性系/真实高接触forcing门，续9/8临界同一α/β指定类或wild。
-- root已付R560原native全域七条件矩，续这些同一条带与原负矩/算术行的实际比较；不以子域非零或时长收尾。
+- root已付R560/564全native七条件矩及整个负strip返回，续R567正负同域首项/完整算术比较，不以子域非零或时长收尾。
 
 ## 完成标准与全部旧支线
 
@@ -34,11 +34,7 @@ S34/T72/U136桥接固定 $y^2=x^3+17,+24,+2312$，rank2见R294/398/469；通常S
 λ=−barπ0^-1、β=−λ、κ=pλ²，原输入(ξ1,ξ2,ξ3,x,c,d0)，ρ0=−νσ^⊗6/84。η=ω²H_*ρ0，**新h=η+ρ0/2**；R536旧h不能套用。γ=3+ω、barγ=2−ω不能交换。
 A=δξ1+2δξ2+γξ3+barγx，Y=A+c+2d0、W=A+3δc+4d0；L=(1+3ω)c+d0、M=c+(2+3ω)d0。原T/U物理18群与CM来源96群不同；四态/16quarter及所有参考未知质量/导数保留。
 
-R490–553全部旧五伴随、词格、四态/CM群、逆权与参考量保[前一完整交接](notes/2026-11-14-frontier-before-r560.md)及正文，均未关闭。R536同一7×10整逆q严格π4中性，Dn质量/logx零；R538只N分量镜管相消。R539/541保全G/H/R三源和奇偶逆权，R544保实际S3/唯一V余域；R548全17谱及另外5角保持，P1/Rc不交换。R551 Norm5保Y连续unit逆仍移动W/q；R553双Theta的V域和全部Y/W/q移动保持，独立对偶不能穿混合cut。
-
-R557：同一q的C/F/Dj/Ej whole β核延η/h，严格π4中性；Dn上每个自由x测试零质量。η/h三中央准确v=n；η未归一Y−W首项消、h差v=n。native uj条带非π4。
-R558：同一q真实L3 modp=−a3+(a3+b3)barπ0。清分母后固定仿射CM范数法付共同无限单位ray。η原Y−W二次项准确为d(1+λκ)(−96−158ω)L3/(343b)，同一Dn所有n赋值恰2n；完整补域未付。
-R556：Δ=ρ0−η，Δ(a−aRc)=3βn(JS′−6δJT′)，hPhi差=(2λ)^−1Δ_{u1deep,Lunit}(a−aRc)。补域u1unit/原ρ0双深完整保。q交支两Jτ=(1−τ)F−2c，norm37、wholeβ；两轴非正交。归一成五伴随事件和自由J，常数质量、完整37基、四Mellin边界与q全部κ^-n平移均保。J深n+r、H1/Z*深r时原残差≡2dqcZ*/(WYc)modp^(r+1)，积分单位未付。
+R490–558全部旧五伴随、词格、四态/CM群、逆权及所有未付补域，准确保[前一完整交接](notes/2026-11-14-frontier-before-r564.md)与原正文，均未关闭。R539/541/544保原G/H/R三态、实际S3与唯一V域；R548全17谱和另5角/参考外谱保留，P1/Rc不交换。R551保Y连续逆仍移动W/q，R553双Theta对偶不能穿混合cut。R557同q π4中性延η/h、Dn自由x质量零；R558只在Dn付η差恰2n及共同无限单位ray。R556 whole原算术总行与两个J37交支/四unit边界仍保，R560已把该native完整行另整理成七条件源，不把旧局部非零当全中央。
 
 ## 固定负矩
 
@@ -68,3 +64,5 @@ R562：原σc⊗Bv四unit域(c,v,H=δc−v,K=δc+v)的J=∫c³/H²，与I4满足
 R563：µ−=KH PCh留整个S24²，AH=diag(−1,X)、AK=diag(−1,−X)，D12²=diag(1,−1,−1)≠−Rc于µ−。全连续UH/UK有整常数逆；native Cunit迫SHSKf=0，同一H/K双unit域恰D12unit·UKf+D12deep·UHf。浅j<n只真第j支；深尾保全部常数log，K尾p^r而非p^(r+1)，准确首项见(32a)。
 
 [一般二重接触](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)：r=ell、局部FYY单位的原首核可有二次Hensel因子，判别式H<2T给几何δ=floor(H/2)及原k二次扭曲；不是全局cube。原三高轴源端三角unit，是否读到完整余核尾类仍未付，无实际候选命中。
+
+R564：D14、V=(-ω²,−ω,2,0,−2ω,−2ω)、K42=(-ω²,−ω,2,0,−3+3ω,3)两两正交，whole三β核保PC原二态。负strip=Vdeep/K42unit；其整个J−=βF−(κ)，原E/G/Y/W全部移动，F0含常数log质量、F1含真实log一阶，两者同为p阶可相消，尾p²。正strip仍开，规范K42非R563六度K。

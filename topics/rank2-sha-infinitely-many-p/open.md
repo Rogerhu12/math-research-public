@@ -189,3 +189,7 @@ R522、R525–536与R538的全部准确公式、预算和未付接口完整保�
 ### 一般首核的局部二重接触
 
 [工作记录](notes/2026-11-14-deep-general-double-contact-and-actual-high-axis-tail-port.md)保r=ell且FYY(0,1)单位的一般原向量：二次Hensel因子的A0/A1均深T，判别式H<2T给几何两分支/尖点及δ=floor(H/2)，原k上保二次扭曲。临界分支接触T不等于F=0支接触T；不以cube范围覆盖它。**待做：** R468三高轴所落的实际三条第三块尾行在完整原首余核中是否非零，并保原forcing/同一修正；源端三角unit不支付此像，尚无实际低预算向量命中声明。
+
+### R564：整个原负strip的真实返回
+
+[R564](results/R564-original-negative-strip-orthogonal-cores-and-complete-return.md)已付原D14/V14/K42正交三轴的全部β核及C投影；负strip精确Vdeep/K42unit，完整J−=βF−(κ)保E/G/Y/W移动与四伴随。**待做：** 原正strip及F−的真实常数log质量/线性项如何与原算术零行联立；二者同阶p，不能删一项或直接从局部单元推出非零。R566续正框架，原R562四unit测试不能直接替代此P·log。
