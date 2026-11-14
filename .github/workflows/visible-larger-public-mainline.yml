@@ -11,7 +11,7 @@ on:
         description: Actual numerical calculation
         type: choice
         default: all
-        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe]
+        options: [all, free3, geometry, coupling, couplingcheck, tailzero, tailzero112, prepare112, cardinal, gwcompat, circleprobe, gwvelocity, stage28, coupling112, coupling112banded, banddirection, coupling112physical, coupling112physicalqr, coupling112bridge, operatorcheck, coupling112trust, trustresume, coldtailprobe, trustprotected, zerorkprobe, trustmultiline, zerorkprobev2]
 
 permissions:
   contents: write
@@ -39,7 +39,7 @@ jobs:
           python - <<'PYLANES'
           import json, os
           from pathlib import Path
-          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe'}
+          allowed = {'free3', 'geometry', 'coupling', 'couplingcheck', 'tailzero', 'tailzero112', 'prepare112', 'cardinal', 'gwcompat', 'circleprobe', 'gwvelocity', 'stage28', 'coupling112', 'coupling112banded', 'banddirection', 'coupling112physical', 'coupling112physicalqr', 'coupling112bridge', 'operatorcheck', 'coupling112trust', 'trustresume', 'coldtailprobe', 'trustprotected', 'zerorkprobe', 'trustmultiline', 'zerorkprobev2'}
           if os.environ['EVENT_NAME'] == 'workflow_dispatch':
               selected = os.environ['DISPATCH_LANE'] or 'all'
               lanes = ['free3', 'geometry', 'coupling', 'tailzero', 'cardinal'] if selected == 'all' else [selected]
@@ -96,6 +96,8 @@ jobs:
             /topics/visible-flex-larger-amplitude/notes/public-actions-43602070499-1-trustresume/constrained-warm/warm-001.json.gz
             /topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/warm-001.json.gz
+            /topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json
             /topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-tailzero112/zero-H-T112/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/
             /topics/visible-flex-larger-amplitude/notes/public-actions-43594985550-1-coupling112physical/full-DN112/banded-linear/factor-001-first-step.json.gz
@@ -127,7 +129,7 @@ jobs:
         with:
           python-version: '3.12.14'
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
-        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected'
+        if: matrix.lane != 'banddirection' && matrix.lane != 'operatorcheck' && matrix.lane != 'trustresume' && matrix.lane != 'trustprotected' && matrix.lane != 'trustmultiline'
         with:
           node-version: '24.22.1'
       - run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
@@ -173,6 +175,16 @@ jobs:
             --cold-probe-summary "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json" \
             --source-topic "$VISIBLE_SOURCE_TOPIC" \
             --out "$VISIBLE_OUT/same-RK-candidate-native-probe" --node-heap 1536
+      - name: Retain actual zero-RK block diagnostics and evaluate a v2 candidate only if constructed
+        if: matrix.lane == 'zerorkprobev2'
+        timeout-minutes: 20
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_zero_rk_native_probe_v2.py" \
+            --failed-directory "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43598917532-1-coupling112trust/full-DN112" \
+            --cold-probe-summary "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43602823170-1-coldtailprobe/cold-tail-residual/summary.json" \
+            --first-candidate-summary "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43603818345-1-zerorkprobe/same-RK-candidate-native-probe/summary.json" \
+            --source-topic "$VISIBLE_SOURCE_TOPIC" \
+            --out "$VISIBLE_OUT/same-RK-candidate-native-probe-v2" --node-heap 1536
       - name: Continue the accepted 0.99 field with adaptive prediction steps
         if: matrix.lane == 'free3'
         timeout-minutes: 315
@@ -261,7 +273,7 @@ jobs:
             --tail-source-root "$VISIBLE_SOURCE_TOPIC/repro/source-root" \
             --node-heap 6144 --out "$VISIBLE_OUT/boundary112-response"
       - name: Restore the actual completed M112 preparation and full boundary response
-        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume' || matrix.lane == 'trustprotected'
+        if: matrix.lane == 'coupling112' || matrix.lane == 'coupling112banded' || matrix.lane == 'coupling112physical' || matrix.lane == 'coupling112physicalqr' || matrix.lane == 'coupling112bridge' || matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume' || matrix.lane == 'trustprotected' || matrix.lane == 'trustmultiline'
         run: |
           export PREPARED112="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43588155190-1-prepare112"
           python - <<'PY112'
@@ -386,14 +398,52 @@ jobs:
             --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_PROTECTED_WARM" \
             --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
             --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
+      - name: Construct one actual warm direction tangent to three observed Hermite RMS queries
+        if: matrix.lane == 'trustmultiline'
+        timeout-minutes: 30
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_multiline_tangent_warm.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_OUT/preparation112/prepared.json.gz" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" \
+            --resume "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43603477207-1-trustprotected/protected-warm/warm-001.json.gz" \
+            --expected-resume-sha 0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71 \
+            --out "$VISIBLE_OUT/multiline-warm" --iterations 1 --lsmr-iterations 200 \
+            --damping 270 --damping-attempts 5 --line-search-steps 17 \
+            --budget-seconds 1200 --jac-workers 2 --angles 4096
+          python - <<'PYMULTILINE'
+          import hashlib, json, os
+          from pathlib import Path
+          directory = Path(os.environ['VISIBLE_OUT'])/'multiline-warm'
+          status = json.loads((directory/'driver-status.json').read_text())
+          if not status.get('optimization_progress') or status.get('accepted_warm_steps') != 1:
+              raise ValueError('One actual decreased unaccepted multiline warm is required')
+          name = status['latest_warm_file']
+          if Path(name).name != name:
+              raise ValueError('The actual warm stays in its own output directory')
+          path = directory/name
+          if hashlib.sha256(path.read_bytes()).hexdigest() != status['latest_warm_sha256']:
+              raise ValueError('The actual multiline warm identity changed')
+          with open(os.environ['GITHUB_ENV'], 'a') as stream:
+              stream.write('VISIBLE_MULTILINE_WARM='+str(path)+'\n')
+          PYMULTILINE
+      - name: Recheck the original full Rphi derivatives on the actual multiline warm
+        if: matrix.lane == 'trustmultiline'
+        timeout-minutes: 25
+        run: |
+          python -u "$VISIBLE_COMPUTATIONS/geometry_20261114_multiline_tangent_response.py" \
+            --accepted "$VISIBLE_ACCEPTED" --prepared "$VISIBLE_MULTILINE_WARM" \
+            --tail-anchor "$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/notes/public-actions-43592195185-1-coupling112banded/full-DN112/outer-00-anchor-tail.json.gz" \
+            --tail-config "$VISIBLE_OUT/T112-config.json" --out "$VISIBLE_OUT/physical-response" --angles 4096
       - name: Preserve the actual warm and derivative receipt before the native tail solve
-        if: always() && (matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume' || matrix.lane == 'trustprotected')
+        if: always() && (matrix.lane == 'coupling112trust' || matrix.lane == 'trustresume' || matrix.lane == 'trustprotected' || matrix.lane == 'trustmultiline')
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: visible-mainline-warm-${{ matrix.lane }}-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
             ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/constrained-warm/
             ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/protected-warm/
+            ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/multiline-warm/
             ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/physical-response/
             ${{ runner.temp }}/visible-mainline/${{ matrix.lane }}/T112-config.json
           compression-level: 1

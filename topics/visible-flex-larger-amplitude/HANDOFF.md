@@ -25,14 +25,14 @@ request08/run43588155190的prepared：699nodes全部node/mid/两RMS域过，初c
 
 request17/run43598917532的3步warm仍非解，warm003 SHA5d1c452291099ad18b1a619ba3794614b04a0c620b8ed0f28887a84731ef7886；原col=.007110547307/新FD9.5171e−10。request18/run43602070499的λ270/LSMR200在80步istop2，仅α2^-16下降1.63517e−5；新warm SHA1dbdcc8fbb9dd7d4571259679a97dca5ee635fab88dece584d3a44727da477c3，新FD9.00098e−10。原回执与source全在actual18/17 notes，不重复。
 R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降及λP伴随已证并推送。request20/trustprotected真run43603477207/source2501ebf6/job132473033066全success；完整artifact14117605862/ZIP0cee357c…已取。473/index0梯度complex3.7179e−13，投影伴随2.048e−18，Bz−8.88e−16；λ270/LSMR200仍80步istop2。预条件normal2.6137e−5但未预条件projected KKT344.921，勿称方向高精度。原collocation独立complex仅free core/global p方向，内部physical为0。
-20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；独立multiline源已冻结待根接线。所有原域/merit/最终门保留，不只加模型数或λ。
+20同模型merit44.447162239996→44.446116127468，α2^-10/下降.001046112528/ratio1.0001444；原全node/mid/两RMS/rho过。col=.007110545981/BC9.59725e−8仍非解。新warm SHA0036063ff99e7b3624e494b29430b9a3a8ec3eaae15f277447efcc71b8cc5e71，新真实完整Rφ FD9.07968e−10；Hmax3.35792e−16保全部112项/native0。详细actual-request20-protected-query-and-next-domain-rows。下一从此warm一模型λ270/200，保护原已观察(473,0)/(480,0)/(473,11)三点，同左fraction.17267316464601146；独立multiline源已接request22/trustmultiline待实跑。所有原域/merit/最终门保留，不只加模型数或λ。
 
 ### Native冷启动：21工厂失败，独立v2待调度
 
 17首次真非零Hmax4.1760413061806626e−17，native iteration0 norm1.3414e7/chartCond1.3312e60，10trial全D/S/A拒（raw0/seg7、stage13/14）；outer_history空，没进入prefix inner，无新H/J/audit。MaterialTrace早已P[:,0]=0，H是真非mean z，不许归零。zero cache没导worker predictor，仅zero checkpoint也不恢复stage tangent。原linearSteps2048同时定义far/graphs/gains/scales，不能全局改它冒只改初猜。详见actual-tiny-H-native-tail-cold-start-failure。
 19/run43602823170/source25d2/job132471064124/publishere84c1d79：saved与原cold initial129248项数值相等；原无J576stage全guard过/70.779s，norm13414069.968482966，最坏stage11/raw0/seg7/Pi104；cut/far全112行0。原summary SHA5c9203ce46b44de31d187c3dce43f94f30524cb25c9beaf31b9d893f05d640b1，完整actual-cold-tail-no-J-stage-replay已推，不重跑。
 21/zerorkprobe真run43603818345/source3b5a584e/job132474070289：约.217s工厂报stage12/index92 determinant检查；factory/candidate均false，evaluate_calls=0/native0。四T项有限，但旧合并分支不足区分det非finite或有限0；不是已见下溢/原native guard失败。artifact14117411488/ZIP4d546160…，summary SHA0c69d072f25c927e32322021e65b717ef6d68089d6332ed4c69c793fec87b481。见public-same-RK-candidate-probe-actual21。
-独立v2 initializer/probe/hook已冻结，root已读diff/接口；同17全H及原17/19/21字节锁。仅私有图不再以有限rounded det0否决（实际只除u=a+bγnext），不宣称块可逆/准确；非finite/零u/非零传播下溢仍拒。逐stage所有T/ad/bc/det在失败前保全，21失败块留逐RK子步。候选成功才一次原evaluate(false)，原far/graphs/gains/scales/RK/guard/tol全不改，无自动Newton/J/audit。下一request22与三行方向并行，真实回执决定后继native。
+独立v2 initializer/probe/hook已冻结，root已读diff/接口；同17全H及原17/19/21字节锁。仅私有图不再以有限rounded det0否决（实际只除u=a+bγnext），不宣称块可逆/准确；非finite/零u/非零传播下溢仍拒。逐stage所有T/ad/bc/det在失败前保全，21失败块留逐RK子步。候选成功才一次原evaluate(false)，原far/graphs/gains/scales/RK/guard/tol全不改，无自动Newton/J/audit。request22/zerorkprobev2已与trustmultiline并行接push请求；数值尚未运行，真实回执决定后继native。
 
 ## 之后的完整闭合与同g精化
 
@@ -42,10 +42,8 @@ R262完整Hermite两端RHS/global p/入口chart域梯度、投影正阻尼下降
 R240固定共同材料g后冻结全部p*/scalar/尾帽/区间/t，释放全core取K=k=0/T=M再精化，v4维450/514。新Rφ v4 response/fullDN/after_accept三源已按新身份重建推送（same-g-physical-DN-live-client-interface）：同一live TailClient/predictor/FrozenProfile→新H/J→原FD→fullmain→fresh audit，live scalar sidecar绑定。无parent未执行；二分预算至少2*(nodes−1)+1（699→1397），勿抄1200。
 全状态continuous cover/held均保R241空间门、完整活动块/两帽盘及全D/.2；连续包络仍须付。R251四Loewner直接operator，request16仅三个解析接口成功，实际新scalar/prefix未核，不重跑fixture。R249入口修补费用、R254完整prefix/R258同场全FFT非平面消费者均待实际场。R258共同背景变化保持四角差，帽高保持marker，但不继承旧全几何。显示N32/九相位mesh<5MB，实际2305tail nodes不删。
 
-## 旧失败、定理和封存
+## 旧失败、证明和封存
 
-request10–12旧Rθ/全线性及P诊断，13新Rφ band、14新Rφ QR、15末bridge699→1073，均无接受/新H0。15仍17trial全坏、原全线相对2.936e−6；实际cell谱1.61e5/宏传播2.22e23，不能据理想circle盲加点或只抬1200。全原回执/输入SHA在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure。
-R238–R262完整证明与假设见results.md；不增机器jet门。R259备用小核诊断已冻结未调度，直线条件不加给λ^j，不无据并开新支。
-旧A δhold/D≈.063<.2；真RK24/48/三mesh/R241 q8全部2157568对uncovered0已付，连续包络仍条件。旧GW同raw/mean/g六节点f8/16/48 metric1.18e−8/1.26e−9/1.62e−10，κ7.646封存。43提交、geometry26/strong90/GW35已保全；strong R6失败无接受/raw未全迁，公开78件匹配原91源清单；不读private。不重复历史已完成实验。
+request10–15全QR/band/bridge失败无接受，完整原回执在actual-physical-test-failure、actual-physical-test-QR-failure、actual-bridge-resolution-failure；不盲加点/只抬1200。R238–R262完整证明与假设见results.md，无机器jet新门；R259备用小核诊断冻结未调度。旧A δhold/D≈.063<.2，RK24/48/三mesh/R241 q8全部2157568对已付；旧GW同g/raw/mean局部f8/16/48已付并封存，不重跑。43提交/geometry26/strong90/GW35已恢复，strong R6失败/raw未全迁，公开78件匹配91源；绝不读private。详见历史notes。
 
 规则同步记录：2026-11-14T14:24:41.298606+00:00 实际pull --rebase成功；双README自38fc9779无变化，已读提交 32829c307ef54b9dd584c927a5e4c8289ece678f。

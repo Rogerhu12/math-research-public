@@ -609,3 +609,8 @@ run43603477207/job132473033066全success，完整artifact14117605862/ZIP0cee357c
 ### 2026-11-14 request21实际工厂失败及独立诊断续接
 
 run43603818345/job132474070289真实失败，artifact14117411488/ZIP4d546160…已取核。stage12/index92（频率186）在同RK候选工厂det检查失败，四T项有限但旧分支未区分det非finite/有限0；factory/candidate false、evaluate_calls/native0。原方法/graphs/gains/far/layout身份未变，无新norm/J/audit；实际note public-same-RK-candidate-probe-actual21已完整保全。独立v2源已冻结并读差异：先保全部T/ad/bc/det与失败操作数，私有图只除u，有限det0不再单独veto；其余失败和原native全部不改，真实结果另算。
+
+
+### 2026-11-14 request22：三条真实域查询与完整零RK失败证据并行
+
+两个独立新lane已接push请求：trustmultiline从实际20/warm0036063f…保473/0、480/0、473/11，一模型λ270/LSMR200，逐行梯度/SVD秩/所有原行泄漏/多乘子KKT、原全域与新FD均留；zerorkprobev2硬锁实际17/19/21，逐块det证据先留，有限det0仅移除初猜新增veto，候选完成才原noJ。root读五新源差异/薄入口和两接口，AST/冻结SHA及公开Git中真实20/21输入字节已核；不作本地数值。所有原方程/固定g/真实H/native门均保，候选未接受。
