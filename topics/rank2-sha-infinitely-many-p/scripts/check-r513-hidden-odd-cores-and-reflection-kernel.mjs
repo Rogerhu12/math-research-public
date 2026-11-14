@@ -46,7 +46,7 @@ const assertmat=(A,B,msg)=>{for(let i=0;i<A.length;i++)for(let j=0;j<A[0].length
 assertmat(mm(F,Fi),I,"inverse right");assertmat(mm(Fi,F),I,"inverse left");
 const Gram=F.map(r=>F.map(s=>dot(r,s)));
 assertmat(Gram,I.map((r,i)=>r.map(t=>cm(c(norms[i]),t))),"diagonal Gram");
-function Ocoeff(z){const b=mul(q(2),z[1]),a=sub(z[0],z[1]);return {a:qs(a),omega:qs(b),integral:a[1]===1n&&b[1]===1n}}
+function Ocoeff(z){const b=mul(q(2),z[1]),a=add(z[0],z[1]);return {a:qs(a),omega:qs(b),integral:a[1]===1n&&b[1]===1n}}
 const clearQ=[Q0,Qb].map(r=>r.map(x=>Ocoeff(cm(c(7),x))));
 if(clearQ.flat().some(x=>!x.integral))throw Error("CM integral clearing");
 const C=[c(q(1,2)),c(),cm(c(q(1,2)),cp(omega,2)),cm(c(q(-1,2)),omega),c(q(-1,2)),c()];

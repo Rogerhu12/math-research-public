@@ -6,14 +6,14 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：b233febbb3e6636ff7649c8551bcb049d417cce3；2026-11-14 14:06:20 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：3230db673d1e74c6b62fabafa740282c469c7548；2026-11-14 14:08:28 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 旧→公开仓库迁移及全部差异读取记录保本次完整归档；现只在Rogerhu12/math-research-public。规则11每次pull后核两README且至少每小时，12完整证明直接登记，13本库Actions，14公开库禁令牌。旧runner/ci-queue停用。
 - main逐条commit/push已授权；不强推、不改写已发表历史。非快进立即pull --rebase重推；当前API用expected_sha/force=false，拒绝后立即读新main、核规并重新基于新头追加。
 - 只写课题log，每轮≤5行；不动根LOG。令牌只终端临时环境，不入文件/提交/日志/回复。单文件<5MB，接口文本/Markdown<100KB，HANDOFF<10KB，open尽量<30KB；不加冻结/独审/机械复跑门槛。
 
 ## 当前发布、环境与分工
 
-R1–363、R365–517已登记；R364仍开。R513=bc671140，R512=fd3b2d1e；R516=8f9bbe4a；R517本次登记。旧全部提交号及重做记录保完整归档。
+R1–363、R365–517已登记；R364仍开。R513=bc671140，R512=fd3b2d1e；R516=8f9bbe4a；R517本次登记。R513证书CM显示换基a+bδ=(a+b)+2bω已纠正；正文/δ矩阵不变，旧提交保归档。
 执行环境12:35 UTC断连，14:02 UTC再确认无可用执行环境；现用连接GitHub读main、核规则和非force追加，未称实际pull。恢复后先pull --rebase/核规，再合并遗留，不能覆盖API结果。
 R501原正文/脚本/JSON精确恢复；R502明确重建脚本在公开Actions run43596695716/job132452617972成功，来源1dafbfa7，p239/D40/81行，ξ1=175、V1首行70/系数55、第三块40及全Q运输。原生JSON/全日志已推da54025b，无扫描，无跨p声称。
 root统一元数据及逐条发布；代理仅建proof/script blobs。theta的R515已登记，续R518原混管交域；deep的R517已登记，续R521固定清极的实际边界商；literature的R513已登记，续R519原C/B0真实反射核；root的R516已登记，续R520第三共同伴随的完整偶深核心。新证明随到随登记。
