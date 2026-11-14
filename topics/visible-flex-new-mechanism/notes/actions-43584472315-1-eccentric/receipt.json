@@ -1,0 +1,112 @@
+{
+  "schema": "visible-new-mechanism-actions-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_commit": "3d2ac176f32bb9aa0ef292733c9d7769da9d0cb9",
+  "run_id": "43584472315",
+  "run_attempt": "1",
+  "lane": "eccentric",
+  "destination": "topics/visible-flex-new-mechanism/notes/actions-43584472315-1-eccentric",
+  "design_is_not_fixed_metric_refinement": true,
+  "task_complete": false,
+  "source_files": {
+    "README.md": {
+      "sha256": "8fec34716cd4464b55ef546022bd4eb06ea8f50b2040f4025b7383d043db99f2",
+      "bytes": 8842
+    },
+    "topics/visible-flex-new-mechanism/README.md": {
+      "sha256": "e685cff0e67e6851a7911d4e9efbae0e7d326e093927af177f716f059b8c566b",
+      "bytes": 3725
+    },
+    ".github/workflows/visible-new-mechanism-search.yml": {
+      "sha256": "22833e5ed516bfe4f2fd99f2c9898d6e29d794616b1800c18ffe044f05a37366",
+      "bytes": 6325
+    },
+    "topics/visible-flex-new-mechanism/scripts/eccentric_collar_search.py": {
+      "sha256": "aba9a55dec98f713433a15a885578c79993005ce6b2df4dd1515271866131489",
+      "bytes": 23325
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_seed.py": {
+      "sha256": "503409a725cd0c931bcf01ed0f396090df2a3a98b3c3baa33ad4cf71ae9169ce",
+      "bytes": 9561
+    },
+    "topics/visible-flex-new-mechanism/scripts/literature_band_kernel.py": {
+      "sha256": "d74aa6dfa8311a043a8b825272e78cdf8b3567b5d811a0b3ffd7f6c6c5c915ed",
+      "bytes": 13425
+    },
+    "topics/visible-flex-new-mechanism/scripts/mixed_mode_gc_flow.py": {
+      "sha256": "5f979125ed130570e49cd4ad1a7375801c5be95be0abd5dbd0d60ebdf4e5e05a",
+      "bytes": 9580
+    },
+    "topics/visible-flex-new-mechanism/scripts/publish_actions.py": {
+      "sha256": "511d11f559e5448938bcf029972f6dcde0424804f386dfe44a98f8b3eedc1cbf",
+      "bytes": 13006
+    },
+    "topics/visible-flex-new-mechanism/notes/eccentric-search-design-002-curvature-seed.json": {
+      "sha256": "74e963198867c8e97257398449f38e0fcaf4ea73324e44237f5bc1ddcde02b30",
+      "bytes": 18089
+    },
+    "topics/visible-flex-new-mechanism/computations/request.json": {
+      "sha256": "92d10c1043b00a7961ebdfc1e90cc0560decbad521d04c22cca81e865185f802",
+      "bytes": 624
+    }
+  },
+  "outputs": [
+    {
+      "path": "continuation-summary.json",
+      "bytes": 12287,
+      "sha256": "d808817fc3cf1c530c13c3132f93378fa6803f8a4b775c277161838530a5cca9",
+      "raw_bytes": 12287,
+      "raw_sha256": "d808817fc3cf1c530c13c3132f93378fa6803f8a4b775c277161838530a5cca9"
+    },
+    {
+      "path": "design-01-offset-0.05.json",
+      "bytes": 18272,
+      "sha256": "d5dea07670787630c7b834c26dad0791b691c9b16f0001746a03c5e798cbf9ec",
+      "raw_bytes": 18272,
+      "raw_sha256": "d5dea07670787630c7b834c26dad0791b691c9b16f0001746a03c5e798cbf9ec"
+    },
+    {
+      "path": "design-02-offset-0.10.json",
+      "bytes": 18227,
+      "sha256": "8bf3d4ff44dacbb10911607b105a21f8917268d2ebc1070c137388ff938ddda7",
+      "raw_bytes": 18227,
+      "raw_sha256": "8bf3d4ff44dacbb10911607b105a21f8917268d2ebc1070c137388ff938ddda7"
+    },
+    {
+      "path": "design-03-offset-0.20.json",
+      "bytes": 17906,
+      "sha256": "01ef34ff5d95da9e540d5c6fa59e9a1d1bf8b5d779903a6c8f86024cd17b60fa",
+      "raw_bytes": 17906,
+      "raw_sha256": "01ef34ff5d95da9e540d5c6fa59e9a1d1bf8b5d779903a6c8f86024cd17b60fa"
+    },
+    {
+      "path": "design-04-offset-0.30.json",
+      "bytes": 17843,
+      "sha256": "ec6ee0487f7b2e14452e61135a924070f74b7c91e49ce4a48a9ca18bd4f1974a",
+      "raw_bytes": 17843,
+      "raw_sha256": "ec6ee0487f7b2e14452e61135a924070f74b7c91e49ce4a48a9ca18bd4f1974a"
+    },
+    {
+      "path": "design-05-offset-0.45.json",
+      "bytes": 17772,
+      "sha256": "ba813420f7d687ffb555fce5a3afd82b0da8fce4db6ffde4dc6bb8f5dcfa96b2",
+      "raw_bytes": 17772,
+      "raw_sha256": "ba813420f7d687ffb555fce5a3afd82b0da8fce4db6ffde4dc6bb8f5dcfa96b2"
+    }
+  ],
+  "pulls": [
+    {
+      "before": "3d2ac176f32bb9aa0ef292733c9d7769da9d0cb9",
+      "after": "5d436694f8fee19ef124d2ac0c07862e642f5dd0",
+      "remote_main": "5d436694f8fee19ef124d2ac0c07862e642f5dd0",
+      "readmes_unchanged": true
+    },
+    {
+      "before": "194a7fdb968db666598e86a71494845d77a33c78",
+      "after": "a78b15dc45c3e558ed8311fb251ce85173eb8acc",
+      "remote_main": "3ab54daede04e8d200784331f3753b26f7604771",
+      "readmes_unchanged": true
+    }
+  ],
+  "readmes_read_commit": "3ab54daede04e8d200784331f3753b26f7604771"
+}
