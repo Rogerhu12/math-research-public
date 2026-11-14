@@ -1,0 +1,146 @@
+{
+  "completion": "toy_passed",
+  "elapsed_seconds": 0.003535391999996307,
+  "finite_isometric_family_constructed": false,
+  "function_nonmembership_proved": false,
+  "github_repository": "Rogerhu12/math-research-public",
+  "github_run_id": "43654909901",
+  "github_sha": "82a3dae98e471c80b1fa5f50ce752584626fb399",
+  "limits": {
+    "IBP_calls": 250000,
+    "atoms": 100000,
+    "certificate_bytes": 2500000,
+    "full_report_bytes": 2000000,
+    "main_bytes": 90000,
+    "memory_polling_mib": 1024,
+    "nodes": 400000,
+    "rational_bits": 8192,
+    "seconds": 180,
+    "terms": 100000
+  },
+  "peak_rss_mib": 26.640625,
+  "phase": "small_artificial_interfaces",
+  "schema": "visible-flex-general-pure-G-fixed-identity-v1",
+  "scope": "one arbitrary-profile pure identity; neither full mixed membership nor all pure costs",
+  "source_hashes": {
+    "driver": {
+      "bytes": 18430,
+      "filename": "literature_general_pure_G_identity.py",
+      "sha256": "a6731a1c0b4940aadc689f97b9d516029518697619986aa7577b79a71ba5bcc7"
+    },
+    "original_G_input_helper": {
+      "bytes": 16444,
+      "filename": "literature_static_G_rational_dual.py",
+      "sha256": "0872f0fc8b561a547342d530239e35c6ac9a37a5bddc5c472bf16c0df73ac477"
+    },
+    "original_producer_dependencies": {
+      "colored": {
+        "bytes": 15738,
+        "filename": "literature_colored_profile_algebra.py",
+        "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+      },
+      "driver": {
+        "bytes": 38857,
+        "filename": "literature_local_fourth_quotient.py",
+        "sha256": "9aa5b1360032bfebeb379d965873dc5b877c41885d8834fc1945d44d44a4dcf0"
+      },
+      "dual_receipt_reader": {
+        "bytes": 19492,
+        "filename": "literature_full_phase_rational_dual.py",
+        "sha256": "bcfb26b85918a8648ad98bbde7643c4cf6d01d34b35c53bc06c3dbaff31de84f"
+      },
+      "endpoint": {
+        "bytes": 21532,
+        "filename": "literature_closed_c1_endpoint.py",
+        "sha256": "b0c9c5a74cdc50935f97fbe1641b705155dbec82e42750393da2a34f38357bd1"
+      },
+      "exact": {
+        "bytes": 33718,
+        "filename": "literature_pure_bulk_exact_membership.py",
+        "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+      },
+      "formal": {
+        "bytes": 33169,
+        "filename": "literature_range_profile_algebra.py",
+        "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+      },
+      "local": {
+        "bytes": 30635,
+        "filename": "literature_local_third_bridge_decompose.py",
+        "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+      },
+      "scaling_interfaces": {
+        "bytes": 37293,
+        "filename": "literature_total_P1_scaling_blocks.py",
+        "sha256": "40ff170136838907ecb4d2557c2ba3b4d06b5f3fcf63746697f3d5248e92d0fa"
+      },
+      "v2_producer": {
+        "bytes": 35368,
+        "filename": "literature_full_phase_bridge_exact.py",
+        "sha256": "d7513321bea70248851e9b71b02c97b7e869531097f290de40257c94507fed0e"
+      },
+      "words": {
+        "bytes": 32310,
+        "filename": "literature_pure_bulk_word_normal_form.py",
+        "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+      }
+    },
+    "polynomial_evaluator": {
+      "bytes": 19803,
+      "filename": "literature_rational_volterra_polynomial.py",
+      "sha256": "6bf16dd5c6cc8157fd53b20b58b504a5c3ea56ade9db9b62a30d385e5e69fd22"
+    },
+    "publication_identity_helper": {
+      "bytes": 32096,
+      "filename": "literature_full_m8_tail_response_projection.py",
+      "sha256": "e66bf0d2f41570526d5e6b05aedc28118a18a492a299e097d341cc71e804e345"
+    },
+    "pure_normalizer": {
+      "bytes": 24699,
+      "filename": "literature_linear_third_bridge_quotient.py",
+      "sha256": "0627875fe06950c9e7c360baaf0429451697a460e2cf10aa6b3434c501363bd2"
+    },
+    "pure_normalizer_dependencies": {
+      "exact": {
+        "bytes": 33718,
+        "filename": "literature_pure_bulk_exact_membership.py",
+        "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+      },
+      "formal_compiler": {
+        "bytes": 33169,
+        "filename": "literature_range_profile_algebra.py",
+        "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+        "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+      },
+      "local": {
+        "bytes": 30635,
+        "filename": "literature_local_third_bridge_decompose.py",
+        "sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0"
+      },
+      "word": {
+        "bytes": 32310,
+        "filename": "literature_pure_bulk_word_normal_form.py",
+        "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+      }
+    },
+    "static_input_and_report_helper": {
+      "bytes": 24202,
+      "filename": "literature_constrained_static_fourth.py",
+      "sha256": "814e1338679914b32542f8b360978281002ee02a2c4e8c03912aa40c876786f4"
+    }
+  },
+  "toy": {
+    "all_passed": true,
+    "checks": {
+      "asymmetric_outer_inner_slots_and_K_minus_L_over_16": true,
+      "colored_diagonal_and_pure_color_scope": true,
+      "complete_original_DAG_roundtrip": true,
+      "complete_pure_factor_one_eighth": true,
+      "one_over_128_and_unmatched_terms_retained": true,
+      "signed_right_primitive_and_zero_right_collar": true
+    },
+    "old_forcing_or_response_compiled": false,
+    "published_research_DAG_loaded": false,
+    "research_target_or_profile_evaluated": false
+  }
+}
