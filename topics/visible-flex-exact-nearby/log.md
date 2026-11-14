@@ -371,3 +371,7 @@ root全文核 E1–12，tail已核原degree20/Horner/Nyquist与新完整bilinear
 ### 2026-11-14 20:57:04 UTC — 四个辅助复根域57pin入口部署
 
 root全文读科学source/CI、核worker相对成功G/H版本全部差异及flow，39源共享原pins无差异；tail核六jets/complex bilinear/完整mean。修后的response shard64字符SHA和原index一致。manifest404e8352112f38cd5b96dc42ebe49c9c11ebab3a2f2fc53db3f1e247314285da共57文件6742246B；数学source70f848effb2e57c64b2c9e8100d6ac0af01968c13c939a4874c6f44b0a759d21。四新域逐域及32component checkpoint；45min child/50min wrapper，公开runner前后真pull，出版非FF循环。此条只记部署，待actual，不授新fold/完整逆。
+
+### 2026-11-14 20:57:36 UTC — 新单根固定stop对象与转移门逐项落盘
+
+root已全文读 fc676d548e889f83bade6a34e1dbda855c257bc4（17683B，SHA5b26a62fcbfe89ba77de83eca6159f4bbab96245b0d09b2cda79dde013ce1380），固定一次ell0、后续不再restop；q2→−8 quintic+q−8平台给真正简单终根。新几何/尺度/端口门以新常数重付；保原R/参数/two bumps。此为显式新候选，原三阶根逆/返回不直接转授；完整新DN和强闭合未成。每条结论独推，旧路线原证据保留。

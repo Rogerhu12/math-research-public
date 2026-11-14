@@ -114,3 +114,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 辅助复域57pin消费者已装
 
 公开Actions新入口 `visible-exact-auxiliary-root-complex-third-jets.yml`：四复矩形，完整6primitive/E4/A5和K/γ/β/s三阶，65/193原cubic及true mean；39递归源/2原NPZ完整、旧97pin共享字节均一致。source70f848ef…、manifest404e8352…，0外部artifact/0旧成功域重算。保四域成功与失败；phase检查实际结果后继续真正辅助fold/leading。
+
+### 新单根固定stop候选的独立路线
+
+[对象与transfer门](notes/2026-11-14-R119-simple-root-fixed-stop-new-object-and-transfer-gates.md)已写成并独推：固定ell0，参数导数为0；新ω/H/曲率/源尺度及原Γ输入资格逐项付费。它保主体R=25/8和原η/参数，改末端外接对象。原三阶根X/T/R证据保留，不把其特定native/Poisson列转授。tail继续真正新简单根、完整正区DN、联合相位及闭网络；new candidate尚非原课题完成对象。
