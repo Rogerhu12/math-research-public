@@ -1,0 +1,63 @@
+{
+  "kind": "actual_public_leading_old_circle_remainder_sources_execution_and_publication",
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43629465215",
+  "run_attempt": "1",
+  "workflow_commit": "2e4825ab88e542428702c5a432d93f186b55d9fc",
+  "worker_sha256": "e894b3ffb4c76de42fd45887cb2c8013619d50732ee30b4dd5fb022b6262067a",
+  "manifest_sha256": "7290cbb07293c15a239ffafb0e342e6c1b7ea812106f569e88bbe4d2502180df",
+  "reviewed_rules_sha256": "fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1",
+  "started_utc": "2026-11-14T18:58:19.571282+00:00",
+  "complete": true,
+  "readme_checks": [
+    {
+      "before": "2e4825ab88e542428702c5a432d93f186b55d9fc",
+      "after": "2e4825ab88e542428702c5a432d93f186b55d9fc",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "2e4825ab88e542428702c5a432d93f186b55d9fc",
+      "after": "46d6140c760b58a111c15ef8aef1ca808e713275",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "actual_returncode": 0,
+  "final_topic_complete": false,
+  "all_original_target_coefficient_ray_and_amplitude_solves_recomputed": 0,
+  "original_artifact_receipts": [
+    {
+      "name": "root",
+      "run_id": "43616813816",
+      "path": "root/consumers/piecewise-real-root-fold-resumed-v2.json.gz",
+      "sha256": "dbaaf9f7866fceae9583d6cb639441365a64b3ac0d381291fa6d1a5afe247212",
+      "bytes": 5923431
+    },
+    {
+      "name": "forcing",
+      "run_id": "43624260519",
+      "path": "forcing/consumers/actual-first-Airy-forcing.json.gz",
+      "sha256": "54a79bf80df641797b28f998fe547c93d64b58ea329b675f3d62d23d4f161d47",
+      "bytes": 6577892
+    }
+  ],
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "/__w/_temp/visible-exact-leading-old-circle-remainder-sources-science/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_leading_old_circle_remainder_sources_CI.py",
+    "--repo",
+    "/__w/_temp/visible-exact-leading-old-circle-remainder-sources-science",
+    "--manifest",
+    "/__w/_temp/visible-exact-leading-old-circle-remainder-sources-science/topics/visible-flex-exact-nearby/notes/2026-11-14-R133-leading-old-circle-remainder-sources-CI-inputs.json",
+    "--manifest-sha",
+    "7290cbb07293c15a239ffafb0e342e6c1b7ea812106f569e88bbe4d2502180df",
+    "--out-dir",
+    "/__w/_temp/visible-exact-leading-old-circle-remainder-sources-output/consumers",
+    "--prepared",
+    "/__w/_temp/visible-exact-leading-old-circle-remainder-sources-science/originals"
+  ],
+  "complete_original_inputs_verified": 15,
+  "actual_scientific_checkout_commit": "2e4825ab88e542428702c5a432d93f186b55d9fc",
+  "mathematical_wall_seconds": 52.77303362799999
+}

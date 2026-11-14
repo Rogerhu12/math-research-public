@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43629465215",
+  "reviewed_pull_history": [
+    {
+      "before": "2e4825ab88e542428702c5a432d93f186b55d9fc",
+      "after": "2e4825ab88e542428702c5a432d93f186b55d9fc",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "2e4825ab88e542428702c5a432d93f186b55d9fc",
+      "after": "46d6140c760b58a111c15ef8aef1ca808e713275",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/leading-old-circle-remainder-sources.json.gz",
+      "bytes": 4837715,
+      "sha256": "7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c",
+      "original_sha256": "7662350ac2cf5c0838e545fb6ba4994c118b985b5a133b869b3ca5486b70563c"
+    },
+    {
+      "file": "consumers/leading-old-circle-remainder-sources.stdout.log",
+      "bytes": 114,
+      "sha256": "e6842a8d169359af468b26b5770b127ca18aa8fcd86511cf44ea0db106f88827",
+      "original_sha256": "e6842a8d169359af468b26b5770b127ca18aa8fcd86511cf44ea0db106f88827"
+    },
+    {
+      "file": "consumers/process.json",
+      "bytes": 48987,
+      "sha256": "f888e47e69f41b4b5c73656ac9afd321289a806ce948816d9612111a045d99e4",
+      "original_sha256": "f888e47e69f41b4b5c73656ac9afd321289a806ce948816d9612111a045d99e4"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 39577,
+      "sha256": "2f6e743f29e1809ddce7b1e68eb79093903d742558b25b58d714ca60b3dbf9d6",
+      "original_sha256": "2f6e743f29e1809ddce7b1e68eb79093903d742558b25b58d714ca60b3dbf9d6"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 2772,
+      "sha256": "5938996acf66b44ee3f8adf06955a53a06a0fadc685e663f6883ef5e2864fdb6",
+      "original_sha256": "5938996acf66b44ee3f8adf06955a53a06a0fadc685e663f6883ef5e2864fdb6"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
