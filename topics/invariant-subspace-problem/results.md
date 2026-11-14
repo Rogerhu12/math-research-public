@@ -1001,3 +1001,7 @@
 ### R297 附录：平衡star唯一负方向与权一致的明确正补偿
 
 [完整自足证明](notes/2026-11-14-balanced-star-one-negative-direction-and-positive-compensation-789f-next.md)将真实G−nm*准确自伴化为Khat=D−W，D为完整binomial噪声、W=E[t(1−t)ff*]。一维方差完成平方在实际ω∝t(1−t)F中给W−ww*/Ea≤θD；进一步按正负权组长M±得到Khat+ww*/Ea≥D/(M±+1)≥D/(Q+1)，对全部正权一致。Q>1时真实Khat恰一负/其余严格正且无零，Q1严格另列；推出m*G⁻¹n>1但不声称统一上界。全部噪声、物理源和补偿保留，不能由惯性或依赖Q的gap代一般相位κ。
+
+### R297 附录：全部线性源的单侧真投影也有规模障碍
+
+[后验score稿新增§6](notes/2026-11-14-balanced-star-posterior-score-logarithmic-residual-and-bounded-mixed-term-789f.md)在真实qi=1、全部小组zi=z→0、主组权1的整个contrast空间，以三个L_z^(Q−2)多项式积分给g/z→1/Q、h/z→1、ell/z→2/[Q(Q−1)]。完整常数＋所有X回归为PF=(h/g)Y、PB=−(ell/g)Y，故单侧投影平方/H→Q；总数及均值项在该空间均为零，不能单独修复。与此同时混合投影归一仅趋√(2Q/(Q−1))≤2，真相位趋2/[Q(Q−1)]。只排单侧统一预算，不把解析极限扩大为一般共同界。

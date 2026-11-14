@@ -146,3 +146,55 @@ mathsf J=mathsf Hmathsf G^{-1}mathsf L-2mathsf G-yy^*
 Phi=I.
 ]
 本稿只否定**分别**统一估计这两个真实后验 score 余量的方案。它同时给出不丢交叉项的准确有界混合量，支持继续处理共同两端预算；没有否定有限统一相位常数、已证全等权情形或原 ISP。
+
+
+## 6. 连单侧的真实投影也不能有独立统一预算
+
+本节采用并行 boundary 给出的实际族，补全全源回归与解析极限。仍令所有小组 (q_i=1)、组数 (Qge2)，但令所有小组平方权为同一个 (z>0)，主组仍为 (1)。记
+[
+L_z(t)=1-t+zt,qquad Z_z=int_0^1L_z(t)^Q,dt,qquad
+
+ho_z=L_z^Q/Z_z.
+]
+取同样的任意单位 contrast (v)，(Y=v^*X)。由完全交换对称性，全部源的 (mathsf H,mathsf G,mathsf L) 在整个 contrast 子空间都是标量，分别记为 (h_z,g_z,ell_z)。共同条件均值 (p(T)mathbf1) 在该子空间消失，但真实 binomial 噪声仍全部保留。因此准确有
+[
+oxed{
+egin{aligned}
+g_z&=rac z{Z_z}int_0^1t(1-t)L_z(t)^{Q-2},dt,\
+h_z&=rac z{Z_z}int_0^1(1-t)^2L_z(t)^{Q-2},dt,\
+ell_z&=rac z{Z_z}int_0^1t^2L_z(t)^{Q-2},dt.
+end{aligned}}	ag{6.1}
+]
+这里 (Q-2ge0)，所以直接取 (zdownarrow0) 是有限多项式积分的极限，不需要未付的支配条件。因 (Z_0=1/(Q+1))，三个 Beta 积分分别给
+[
+oxed{rac{g_z}zlongrightarrowrac1Q,qquad
+rac{h_z}zlongrightarrow1,qquad
+rac{ell_z}zlongrightarrowrac2{Q(Q-1)}.}	ag{6.2}
+]
+
+仍定义真实后验 (F=a_SY)、(B=-b_SY)，并对整个 (mathcal E=operatorname{span}{1,X_i}) 回归。条件均值、(mathbb EF)、(mathbb EB) 的 contrast 全为零；完整交叉矩给
+[
+PF=rac{h_z}{g_z}Y,qquad PB=-rac{ell_z}{g_z}Y.	ag{6.3}
+]
+所以
+[
+oxed{rac{|PF|_2^2}{v^*mathsf H v}=rac{h_z}{g_z}longrightarrow Q.}	ag{6.4}
+]
+取任意大 (Q)，再取足够小而严格正的 (z)，即排除与权、组数同时无关的单侧真投影上界。这一族的总数方向 (oldsymbol q=mathbf1) 以及全部均值秩一项都与 contrast 正交，故仅保它们的一次扣除不能修复 (6.4)。倒数权交换两侧，给另一端相同的障碍。
+
+同一两投影的混合项却具有不同尺度：
+[
+oxed{rac{|langle PF,PB
+angle|}{sqrt{h_zell_z}}
+=rac{sqrt{h_zell_z}}{g_z}longrightarrow
+sqrt{rac{2Q}{Q-1}}le2.}	ag{6.5}
+]
+这里只声称所示实际极限，不由此推一般异权或所有 (z) 的共同界。更直接地，真实相位在整个 contrast 上为
+[
+Phi_z=rac{(h_zell_z/g_z-2g_z)^2}{h_zell_z},I,
+]
+故
+[
+oxed{Phi_zlongrightarrowrac2{Q(Q-1)}I.}	ag{6.6}
+]
+因此 (6.4) 不是相位增长的反例；它再次说明必须保两个真实投影的乘积和原共同抵消，不能分别估计后再相乘。
