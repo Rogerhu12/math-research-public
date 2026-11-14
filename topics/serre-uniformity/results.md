@@ -262,3 +262,6 @@
 
 
 - **R766（已证明）**：[原T下降与四十层普通交换](results/R766-original-T-descent-and-the-forty-step-ordinary-exchange.md)。原任意d的双Norm/含极点phase推广与DT完整Taylor给同一Xt见证，RΓS/43在(t−1)^40普通格且三Norm全零，L在(t−1)^41；实标记/η/J不变。下一原divisor确由非零q socle阻断；dual两对角项与实际Kummer class仍保留。
+
+
+- **R764（已证明并精确计算完成）**：[原全部尖点像与基点平移](results/R764-certified-original-cusp-images-and-base-translation.md)。公开run43626804312完整十九树边/20×12标签与degree模3均通过，十二整数格基全部cusps及c0均映O，原全格平移泛函全0；所选degree1206的fP即原f0。核心0.441秒，原函数/β/高度尚待恢复。

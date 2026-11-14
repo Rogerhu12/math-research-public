@@ -170,3 +170,8 @@
 - R759实际run43625474728完整1600行给整数格rank12/O_K6，原degree/ζ/正定/LLL全过，十二基选index4、d1206，8.629秒；cert7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0及全阶段来源正式登记。
 - R764真实两producer已绑定，core a2e77a39369d3021718e246087c532838da3da345f3335e12023a6960e5f3d97、request c97146b149687fdc56d5b438cc92ccd068c2bef85681b023ebf1e838f261972c；新增专用workflow，复用既有publisher，15分钟逐边断点，仅公开Actions新算术。
 - R766已推dba4e901c65a10918222d99dd66047b7e8a1620e；HANDOFF/open完整归档压缩，终端仍不可用，按根规矩8核main/两README并非force小文本继续，未预称R764成功或原函数/β/高度完成。
+
+## 2026-11-15 02:33 Asia/Taipei · serre-public-resume-20261114
+- R764实际run43626804312/source6d685485精确完成，十九树边/全部240个cusp标签/12个c0纤维余数/ζ恒等式全过；完整整格所有cusps和c0均送O，平移泛函全0，所选d1206有fP=f0。
+- 核心0.440895936秒，cert f23a1e1ee3059d5608edffc3e53d739fce6bb553c9449e04330b267e4b7c588a、artifact14127135207及全部两stage SHA保存；旧模型/周期/格/degree未重算，函数/β/高度仍缺。
+- R759实际结论及R764工程已推6d685485fe4a6b186355d2482deb6fb5ba8144d9；HANDOFF/open/index同步。终端仍不可用，按根规矩8核最新main/两README后以小文本非force继续。

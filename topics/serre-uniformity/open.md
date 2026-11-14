@@ -216,4 +216,4 @@ R749用原us相位25、Frq²=s32及完整p² gauge独立给scalar ecq=26K0、〈
 **R766（原T方向40层ordinary下降已证明）**：[完整证明](results/R766-original-T-descent-and-the-forty-step-ordinary-exchange.md)任意d的完整ordinary/极点相位推广后，以原DT的c0..c40∈43O，从单一Y40向下构造同一Xt的Y0，NTY0=21Aα；H=RΓS/43∈(t−1)^40E_M且三Norm全0，LΓS∈(t−1)^41E_M。原实平均保全部性质和η/J；下一d41的真实q socle非主化，不能同法再剥。两对角π²L/S²L仍真实存在，原dual限制还须保κ(Xt)可能的ideal-class提升；继续R768而不预称J/b/σ₂已求。
 
 
-**R764（工程已保存，正式实际输入已提交）**：[方法](notes/R764-original-cusp-periods-and-base-translation-method.md)直接读取R754相对period及R759十二原微分/degree，仅算十九原树边、20×12尖点标签及c0平移泛函。真producer run/source/manifest/每文件SHA已绑定；core a2e77a39369d3021718e246087c532838da3da345f3335e12023a6960e5f3d97，15分钟断点，无已算数值声明。后续继续商RR基、原函数/β/高度。
+**R764（全部原尖点像和c0平移已精确完成）**：[正式结果](results/R764-certified-original-cusp-images-and-base-translation.md)公开run43626804312/source6d685485、0.440895936秒，十九原树边精确K周期及完整20×12标签均过；每个完整整数格基的cusp计数(20,0,0)，实际degree余数(1,0,0)，c0平移泛函全0并满足ζ不变。因此所选d1206及全格均fP=f0、全部cusps送O。cert f23a1e1ee3059d5608edffc3e53d739fce6bb553c9449e04330b267e4b7c588a，完整artifact14127135207。实际函数/β/高度继续。

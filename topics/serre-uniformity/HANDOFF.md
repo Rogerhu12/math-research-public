@@ -4,9 +4,9 @@
 
 证明绝对常数C，使所有无CM的E/Q在p>C时模p满射；或构造p→∞的完整反例族。**主目标OPEN，未达README完成标准。** 固定p、条件定理、有限数值均不算完成。会话serre-public-resume-20261114；日志Asia/Taipei。
 
-已读规则提交：edd62d0b9ca9b039bf34b54392922c26092ca51f
+已读规则提交：e04458e1999c7120410721c3e1f5606d952ae0cb
 最近已确认本地pull：2026-11-15约01:56 Asia/Taipei，main=b202f09796ede72bb57cbb1d770dafd3987f987c，两README未变。随后终端transport断连且environment unavailable；R762两次非快进后失联，远端404确认未推。按根规矩8以GitHub小文本API继续，每次取最新main/核两README、expected_sha且force=false；不把API核对称实际pull。终端恢复先保留本地旧R762分支，再pull/rebase并处理已重建重复，不能重推旧元数据。
-远端规则核对：2026-11-14 18:28:37 UTC，main=edd62d0b9ca9b039bf34b54392922c26092ca51f，两README blob均未变；本次为终端不可用期间的API核对。
+远端规则核对：2026-11-14 18:31:46 UTC，main=e04458e1999c7120410721c3e1f5606d952ae0cb，两README blob均未变；本次为终端不可用期间的API核对。
 
 仅公开Rogerhu12/math-research-public及其Actions；正式数学计算仅该Actions。每结论单独推main已授权。终端可用时每推前且至少每小时实际pull --rebase，非快进立即循环重拉再推；PAT只CLI、不入文件。根独占commit/ref，代理只稿/blob。Markdown<100KB、H<10KB、open<30KB，>1MB数据gzip、文件<5MB，大可复现表只artifact。日志本题≤5行，不设冻结/独立审查审批门。
 最新完整旧H/open分别存[before-R759-actual](notes/2026-11-14-public-handoff-before-R759-actual.md)、[before-R759-actual](notes/2026-11-14-open-before-R759-actual.md)，内接R766/R762等完整归档。完成计算不重跑；未推稿按记录重建。
@@ -14,9 +14,9 @@
 ## 已完成实际计算与直接后继
 
 - **R754实际成功**：run43620862489/sourceb36d2c58b39f42a694236d48f64444bb6fe1d0af，2183.258616秒。40原加法period、819边、4800×42秩36/K核6，800×6闭链独立代回通过；整数清分母位长336/628/917/1210/1502/1791，未称p单位。正式结果R754-certified-original-p41-periods-and-Hom-kernel.md已推4728e686。cert da4ef0eeac285da5cf32ad1372155dbb9d03917c18044b81b8236fac6e51107c；完整artifact14125735974，manifest fd2bece7381df111a03ad6f3a7585e8c442196f2772aebd3d5f50e2aa3422c53，relative510a6928725df736d29d812513110c8d2542f191d8ca9bfcf0feb14ac1931ec2。
-- **R759实际成功，本次正式登记**：run43625474728/source4728e6868e2509556e5c60e138fd97c9b4120d8e，8.629164621秒。全部1600行HNF、完整Z格rank12/O_K6、原Ωsolve/正定/ζ/exact LLL全通过。十二degree=[1485,1602,2448,1521,1206,1836,1206,1485,1521,1485,1206,1206]，选index4、d1206，非全局最小。原RR m4/M5692/基8104/微分9310。cert7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0；artifact14125233728、manifest fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa；原map输入037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc。完整来源/阶段见正式R759结果，不重算。
+- **R759实际成功，已推6d685485**：run43625474728/source4728e6868e2509556e5c60e138fd97c9b4120d8e，8.629164621秒。全部1600行HNF、完整Z格rank12/O_K6、原Ωsolve/正定/ζ/exact LLL全通过。十二degree=[1485,1602,2448,1521,1206,1836,1206,1485,1521,1485,1206,1206]，选index4、d1206，非全局最小。原RR m4/M5692/基8104/微分9310。cert7c2c611b9a5f43bc3a2a0007bf2cb5dd2fa8d10f133b663dbca0d054e1515de0；artifact14125233728、manifest fb61ded80deb7f6904de7e0aa2e7a3f3b161a0ecd2f5f0c329e96935c4e9f1aa；原map输入037b56d016d502408173319d76a3067a65dd50250c31bc2225c0fca598396ecc。完整来源/阶段见正式R759结果，不重算。
 - **R762 v2已推bbb8fd2e**：原21固定点给μ3商Y genus127、deg t820；正等变f的y∈M(Y)、degree=d，x=a·3(y²−b)(h/a)/dy。M=L(ξ)=K(U)、原b_half=−U20S³/8、qY=Q³/¼因子均保；MY=820ceil((d+127)/820)+d。十九树周期ν1对应−b_half，实际d−nν mod3唯一余数1给原c0平移。证明SHA40bd9da5046db41ee4ce9618c9676a626921c19e993ca5e7aa35ee86cfbd45ea；旧未推稿不同SHA，恢复时勿覆盖v2。
-- **R764工程本次提交/触发**：十九原树边×十二实际微分，20尖点标签、全格F3平移泛函与原c0平移。真R754/R759成功run/source/manifest绑定，request c97146b149687fdc56d5b438cc92ccd068c2bef85681b023ebf1e838f261972c；core a2e77a39369d3021718e246087c532838da3da345f3335e12023a6960e5f3d97；method5d6e283bd8262af8cc6280a411850280b7ad6d4573b8c3674ab596deb36ba9aa。实际run待推后读取；15分钟核心/逐边断点，旧模型/格/degree不重算，未称实际结果。
+- **R764实际成功**：run43626804312/source6d685485fe4a6b186355d2482deb6fb5ba8144d9，0.440895936秒。十九原树边×十二原微分全精确落K，(1−ζ)period全整；全部20×12 cusp标签0，十二c0平移泛函全0，degree余数皆(1,0,0)，ζ全核通过。因此完整原整数格所有映射把全部cusps送O，所选d1206的fP=f0。cert f23a1e1ee3059d5608edffc3e53d739fce6bb553c9449e04330b267e4b7c588a，artifact14127135207/manifest eb360b3a963a0cc32401bdc22536c050dc44bb0b27a09b11463b558f3fb7626f；原两stage/SHA详正式R764结果。旧period/格/degree未重算，实际函数/β/高度仍缺。
 - **R767正在构造**：原商低weight RR基及较短严格截断，实际degree1206已知；全生成/实际有限minor与原cusp Hodge早期minor待完整登记及Actions。完成后直接恢复原函数、原β，再实际高度；不以准备算法代算出函数。
 
 ## 原ordinary问题及最新结论
