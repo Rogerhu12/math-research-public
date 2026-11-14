@@ -538,3 +538,7 @@ request17/run43598917532/source4b8b2bf已于13:16:20Z实际启动，job132459290
 ### 2026-11-14 13:40 UTC — preserve future actual warm checkpoints before long native tail work
 
 共享workflow在后续coupling112trust的真实warm/FD后立即上传独立artifact，便于native fullDN继续运行时核取已产出场；原完整artifact/publisher及数值门不动。不修改request JSON、不派新运行，不把这项后续保全回填到当前17。三冻结数值源未改。
+
+### 2026-11-14 13:45 UTC — retain the independent R259 diagnostic without scheduling it
+
+small_core_resonance新源与接口冻结，保原699/完整scalar三控制/真112零J身份；圆collocation和三模原2×2链、完整112右漏量、3×3响应/独立差分、原FFT/node/mid/RMS及同实表达a/ap全区间Arb分别记录。仅完全对角真J且三个目标非零时允许显式可选三共振候选搜索；高块Schur/非共振/真实非零尾/大幅续接均不冒已付。root全文读源、AST/复用签名核；无本地计算、无新Actions，当前17仍原fullDN。
