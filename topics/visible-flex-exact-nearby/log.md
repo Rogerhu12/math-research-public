@@ -487,3 +487,7 @@ T7后的物理M说明现明确C2=(β(Ξ)−β(0))/√B，因此物理第一相�
 ## 2026-11-14 14:08:14 UTC — 紧κ完整三维实际相位图
 
 审完N1–36并直接代回核N5/N6完整恢复恒等式；亲读旧all-scaled-five-function §1 B2/B3确认所复用逆的精确空间与2^1365Δ4L4常数。核L1/Frobenius对偶、同支集补偿、新finite-box误差和原physical BΔ/Wronskian两端归一。独立发布原blob；三个方向全κ共用，各邻包有同一完整两态PSD，但未把径向Parseval移作实际非径向近簇定位。
+
+## 2026-11-14 14:09:13 UTC — 新源v1未进数学，独立导出真实artifact过程身份
+
+亲读run43602923145原失败process：children=[]，报the original repair-source process bytes changed。原artifact最后回执与已发布repo snapshot字节不同，既成native/source并未失败。部署receipt-only两原blob：核43597921732/43599771405成功过程与原native完整SHA、source、47/10门，仅复制两个小process原字节及receipt元数据，零新数学child。旧v1/失败/manifest全部保留；真实身份查明才创建v2，禁止猜期望值。

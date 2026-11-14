@@ -1,0 +1,130 @@
+name: visible-exact original known source artifact receipts only
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-known-source-receipts.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-original-known-source-receipts
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+  NUMEXPR_NUM_THREADS: '1'
+  RECEIPT_INPUT_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cached-Green-known-source-CI-inputs.json
+  RECEIPT_INPUT_MANIFEST_SHA: 24fb477b69e7d2ca2315417f61db3a0a00a37054271f62245bf8bb0af75395ff
+  RECEIPT_WORKER_SHA: e8ee87fa2aba06c0ce53684bcdf461e5f5bc0b6e834a332e88510ff92eae97b6
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+  REVIEWED_RULES_SHA: fdb83fd44505b84955d81b1e070ea45001ef9064880b2b4613a8a67e26e3e0d1
+  REVIEWED_DRIVER_SHA: 7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5
+
+jobs:
+  original-receipts-only:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 25
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out the unchanged existing reviewed input closure
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-cached-Green-known-source-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-14-R133-reviewed-public-CI-rules.json
+      - name: Hydrate the unchanged prior manifest and parse the new receipt source
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_reviewed_CI_resume.py \
+            --kind body --mode hydrate --manifest "$RECEIPT_INPUT_MANIFEST" --manifest-sha "$RECEIPT_INPUT_MANIFEST_SHA" \
+            --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          python - <<'PY_SOURCE'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_original_known_source_receipts_CI.py')
+          if hashlib.sha256(p.read_bytes()).hexdigest()!=os.environ['RECEIPT_WORKER_SHA']:
+              raise ValueError('the separately reviewed receipt source changed')
+          ast.parse(p.read_text(),filename=str(p))
+          print('exact receipt source verified; no mathematical source executed')
+          PY_SOURCE
+      - name: Install only the unchanged worker's pinned environment
+        run: >-
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+          python-flint==0.9.0 sympy==1.14.0 mpmath==1.3.0
+      - name: Set container-visible original artifact and receipt paths
+        id: paths
+        run: |
+          printf 'repair=%s\n' "$RUNNER_TEMP/visible-exact-receipt-original-repair" >> "$GITHUB_OUTPUT"
+          printf 'boundary=%s\n' "$RUNNER_TEMP/visible-exact-receipt-original-boundary" >> "$GITHUB_OUTPUT"
+          printf 'output=%s\n' "$RUNNER_TEMP/visible-exact-original-receipt-output" >> "$GITHUB_OUTPUT"
+      - name: Receive the exact original completed source artifact
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43597921732
+          name: visible-exact-complete-response-repair-source-43597921732-1
+          path: ${{ steps.paths.outputs.repair }}
+      - name: Receive the exact original completed boundary-source artifact
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          repository: Rogerhu12/math-research-public
+          run-id: 43599771405
+          name: visible-exact-known-response-boundary-43599771405-1
+          path: ${{ steps.paths.outputs.boundary }}
+      - name: Preserve only original receipt bytes and metadata with no mathematical child
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_original_known_source_receipts_CI.py
+          --manifest "$RECEIPT_INPUT_MANIFEST" --manifest-sha "$RECEIPT_INPUT_MANIFEST_SHA"
+          --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA" --driver-sha "$REVIEWED_DRIVER_SHA"
+          --receipt-worker-sha "$RECEIPT_WORKER_SHA"
+          --repair-artifact "$RUNNER_TEMP/visible-exact-receipt-original-repair"
+          --boundary-artifact "$RUNNER_TEMP/visible-exact-receipt-original-boundary"
+          --work "$RUNNER_TEMP/visible-exact-original-receipt-work"
+          --artifact-dir "$RUNNER_TEMP/visible-exact-original-receipt-output"
+          --compute-minutes 10 --checkpoint-minutes 10
+      - name: Require actual nonempty receipt evidence
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        env:
+          ACTUAL_OUTPUT: ${{ steps.paths.outputs.output }}
+        run: |
+          python - <<'PY_RECEIPTS'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path(os.environ['ACTUAL_OUTPUT'])
+          files=sorted(p for p in root.rglob('*') if p.is_file()) if root.exists() else []
+          if not files or not any(p.stat().st_size for p in files):raise RuntimeError('no actual original receipt evidence exists')
+          records=[dict(path=str(p.relative_to(root)),bytes=p.stat().st_size,
+              sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]
+          (root/'artifact-inventory.json').write_text(json.dumps(records,indent=2)+'\n')
+          print(dict(actual_files=len(files),new_mathematical_children_executed=0))
+          PY_RECEIPTS
+      - name: Preserve the exact original receipts and actual infrastructure outcome
+        if: ${{ always() && steps.paths.outputs.output != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: visible-exact-original-known-source-receipts-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ steps.paths.outputs.output }}/
+          compression-level: 1
+          retention-days: 30
+          if-no-files-found: error

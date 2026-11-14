@@ -139,3 +139,7 @@ run43594139132 的16分段与最终消费全部成功，全部5970格/anchor/jum
 ### 紧κ统一三维实际盒已证明
 
 [三参数相位图N1–36](results/R119-supplement-compact-scaled-three-parameter-phase-chart.md)复用准确五函数逆，独立推自然态的全Sym2三jet恢复，给全部κ∈[1/4,2^4000J40]共用的三个固定方向和准确两phase补偿。每个明确小κ包有同一正方向，真实参数半径无B/δ损失；与高κ曲线可支集不交共存。下一低κ重付、actual mixed near-kernel频率定位/Γ*/相邻片及最终权，不能把不同包方向误称whole-cluster同向。
+
+### 新源v1过程身份失败与原artifact收据导出
+
+run43602923145 在数学child前止于repair-source process SHA检查；children=[]，全失败过程保于notes/known_response_Green_ci。原Green artifact process297cb4…与仓库snapshot8be40…同样不同，前者已有原字节evidence。现仅新部署receipt-only Action导出43597921732/43599771405原artifact process，并交叉核原native/source/manifest及47/10真实门。不能猜SHA；查明后仅新v2身份消费者接续，原v1文件/91manifest不变。
