@@ -155,3 +155,5 @@ e自动在原首源头负图；沿已付联合旗作真正Xi正交消元得ehat�
 **同一原源可用窗已到c26。** [真实联合carry证明](notes/2026-11-14-joint-positive-carry-budget-and-twenty-six-window-actual-sources-789f-next.md)保N/Y正系数、跨块权、全部D交换子及短右逆，给Q≤exp(26d³)的母提升和实际低输出误差各exp(−d⁴)，同top的全窗两费和固定测试继续。当前未消联合旗实际族所需比较为O(exp(26d³)/d)；该比较尚未证明，旧δ仍限原窗。全Γ的四次指数障碍迫使下一预算保持source-Schur消核或真正固定测试约束。
 
 **原头逆芽尺度已改善，真实商角度继续。** [ρ=exp(−25d³/2)](notes/2026-11-14-true-head-inverse-germ-twelve-half-radius-and-weighted-coefficients-789f-next.md)及ψ相对线性项的exp(−d³/4)小量均已证明，保全部真实W列权。若所需实际消核source-Schur估计能够只付多项式×ρ⁻²，则可落c26窗；该估计仍开，不能以完整κ(V)或全Γ相对孔导数替代。
+
+**五列第三入口已冻结。** [接口](notes/2026-11-14-r150-five-third-interface-789f.md)/[实际入口](notes/2026-11-14-r150-five-third-actions-entry-789f.md)保六旧包50输入、原p6、五H5和所有正原17续算。共享300秒/512MiB，六编译各30秒；真实运行待回执，不重η8或九余。五列不足后接旧198第三，不能提前写完整低初值负结论。

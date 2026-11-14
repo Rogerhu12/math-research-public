@@ -1,0 +1,150 @@
+name: ISP R150 five genuine lower-initial third directions modulo31six
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: isp-r150-five-third-lift-789f
+  cancel-in-progress: false
+
+jobs:
+  five-third:
+    if: github.repository == 'Rogerhu12/math-research-public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout: |
+            topics/invariant-subspace-problem
+            .github/workflows
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Freeze the five genuine directions, both rules and every source hash
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-prepare-789f.py --mode source
+      - name: Restore the completed t96 artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-t96-graph-recovery-43597823809-1
+          run-id: 43597823809
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-five-third-t96-download
+      - name: Restore the completed all198 artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-all198-second-bockstein-recovery-43619888599-1
+          run-id: 43619888599
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-five-third-all198-download
+      - name: Restore the completed seven artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-seven-saturation-recovery-43630666145-1
+          run-id: 43630666145
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-five-third-seven-download
+      - name: Restore the completed current artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-augmented-seven-second-recovery-43634830833-1
+          run-id: 43634830833
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-five-third-current-download
+      - name: Restore the completed ninth artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-ninth-first-recovery-43638830039-1
+          run-id: 43638830039
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-five-third-ninth-download
+      - name: Restore the completed eighth artifact without rerunning its mathematics
+        uses: actions/download-artifact@v4
+        with:
+          name: isp-r150-eighth-second-recovery-43644262244-1
+          run-id: 43644262244
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/isp-r150-five-third-eighth-download
+      - name: Require all50 exact saved inputs and retain only48 artifact inputs
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-prepare-789f.py --mode restore
+      - name: Install the exact finite-field dependency and record the compiler
+        run: |
+          python3 -m pip install python-flint==0.9.0
+          python3 -m pip show python-flint > "$ISP_FIVE_THIRD_OUT/results/python-flint-version.txt"
+          g++ --version > "$ISP_FIVE_THIRD_OUT/results/compiler-version.txt"
+      - name: Execute the five new directions with one shared300-second mathematical clock
+        id: exact
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          set -o pipefail
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-runner-789f.py \
+            --notes-root topics/invariant-subspace-problem/notes \
+            --t96-recovery "$ISP_FIVE_THIRD_T96" \
+            --all198-recovery "$ISP_FIVE_THIRD_ALL198" \
+            --seven-recovery "$ISP_FIVE_THIRD_SEVEN" \
+            --current-recovery "$ISP_FIVE_THIRD_CURRENT" \
+            --ninth-recovery "$ISP_FIVE_THIRD_NINTH" \
+            --eighth-recovery "$ISP_FIVE_THIRD_EIGHTH" \
+            --out "$ISP_FIVE_THIRD_OUT" \
+            --math-seconds 300 --memory-mib 512 --compile-seconds 30 \
+            2>&1 | tee "$ISP_FIVE_THIRD_OUT/results/actions-console.log"
+      - name: Record the complete five-direction image and every positive original identity
+        if: always() && env.ISP_FIVE_THIRD_OUT != ''
+        env:
+          ISP_EXACT_OUTCOME: ${{ steps.exact.outcome }}
+        run: python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-prepare-789f.py --mode outcome
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_FIVE_THIRD_OUT != ''
+        with:
+          name: isp-r150-five-third-results-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error
+          path: ${{ env.ISP_FIVE_THIRD_OUT }}/results
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_FIVE_THIRD_OUT != ''
+        with:
+          name: isp-r150-five-third-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          compression-level: 1
+          if-no-files-found: warn
+          path: ${{ env.ISP_FIVE_THIRD_OUT }}/recovery
+      - name: Publish this actual result directory with real pull and immediate rebase retries
+        id: publication
+        if: always() && env.ISP_FIVE_THIRD_OUT != ''
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 topics/invariant-subspace-problem/notes/2026-11-14-r150-five-third-actions-publish-789f.py \
+            --checkout "$GITHUB_WORKSPACE" \
+            --results "$ISP_FIVE_THIRD_OUT/results" \
+            --recovery "$ISP_FIVE_THIRD_OUT/recovery" \
+            --work "$RUNNER_TEMP/isp-r150-five-third-publication"
+      - uses: actions/upload-artifact@v4
+        if: always() && env.ISP_FIVE_THIRD_OUT != ''
+        with:
+          name: isp-r150-five-third-publication-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: warn
+          path: ${{ env.ISP_FIVE_THIRD_OUT }}/results/publication
+      - name: Require complete five-direction image and every compatible target multiplied back
+        if: always() && env.ISP_FIVE_THIRD_OUT != ''
+        run: |
+          python3 - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          p=Path(os.environ['ISP_FIVE_THIRD_OUT'])/'results/actions-outcome.json'
+          r=json.loads(p.read_text()) if p.exists() else {}
+          if r.get('complete') is not True:
+              raise SystemExit('Five-direction continuation incomplete; all actual outputs and checkpoints retained')
+          PYCODE
