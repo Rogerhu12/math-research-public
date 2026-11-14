@@ -1,0 +1,53 @@
+{
+  "actual_returncode": 0,
+  "complete": true,
+  "repository": "Rogerhu12/math-research-public",
+  "run_id": "43600926806",
+  "reviewed_pull_history": [
+    {
+      "before": "453c76f11bf1c1548fcebd54915fb3b84427d15e",
+      "after": "453c76f11bf1c1548fcebd54915fb3b84427d15e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    },
+    {
+      "before": "453c76f11bf1c1548fcebd54915fb3b84427d15e",
+      "after": "453c76f11bf1c1548fcebd54915fb3b84427d15e",
+      "actual_diff": "",
+      "explicitly_reviewed_commit": "ee26c0a65a2e63c15f2ccfba6714181584416542"
+    }
+  ],
+  "files": [
+    {
+      "file": "consumers/process.json",
+      "bytes": 12540,
+      "sha256": "7ac4224cf5260137e98e941b9816baf06058025ef0c1963b47098f2f4a1ae25c",
+      "original_sha256": "7ac4224cf5260137e98e941b9816baf06058025ef0c1963b47098f2f4a1ae25c"
+    },
+    {
+      "file": "consumers/repaired-global-root-collar.json.gz",
+      "bytes": 9400,
+      "sha256": "86d31a375d6ee07f3919cae565dc16e47361f24cbcd6ee3ef2df8b4f23946605",
+      "original_sha256": "86d31a375d6ee07f3919cae565dc16e47361f24cbcd6ee3ef2df8b4f23946605"
+    },
+    {
+      "file": "consumers/repaired-global-root-collar.stdout.log",
+      "bytes": 2332,
+      "sha256": "19137ec903ae49e564106d051c7eb7ed0ee875d0d780b006eb3166d634f6fb86",
+      "original_sha256": "19137ec903ae49e564106d051c7eb7ed0ee875d0d780b006eb3166d634f6fb86"
+    },
+    {
+      "file": "driver.stdout.log",
+      "bytes": 11070,
+      "sha256": "6a984cf11a4cfc3fa431680a0668246d671808fba9c76b966c262f1541e89326",
+      "original_sha256": "6a984cf11a4cfc3fa431680a0668246d671808fba9c76b966c262f1541e89326"
+    },
+    {
+      "file": "worker-process.json",
+      "bytes": 1997,
+      "sha256": "333ae6f05870fdd5209b643153dfc12c9fa12c9d66377c470177e43ac21f85c4",
+      "original_sha256": "333ae6f05870fdd5209b643153dfc12c9fa12c9d66377c470177e43ac21f85c4"
+    }
+  ],
+  "true_PDE_branch_or_final_family_claimed": false
+}
