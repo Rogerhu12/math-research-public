@@ -134,7 +134,7 @@ def main():
             '--script-dir',str(S),'--work-dir',str(f2),'--disk-id',disk,'--result-id',args.result_id,
             '--canonical',str(D/'p41_canonical_SS_robust47_raw.json.gz'),
             '--canonical-certificate',str(D/'p41_canonical_SS_robust47_certificate.json.gz'),
-            '--derivative',str(D/'p41_serre_clearing_126_disks47.json.gz'),
+            '--derivative',str(D/'p41_serre_clearing_nonelliptic_disks47.json.gz'),
             '--based-points',str(based),'--rebuild-chain'])
         poly=read(f2/(disk+'_actual_canonical_F2_polynomial47.json.gz'))
         if poly['residual_QC_roots']:
@@ -143,7 +143,7 @@ def main():
                 '--chain-dir',str(f2/'chain'),'--transport-directory',str(f2/'SS-principal-transports'/disk),
                 '--recovery-dir',str(f2/'recovery-inputs'),'--based-points',str(f2/based.name),
                 '--canonical',str(D/'p41_canonical_SS_robust47_raw.json.gz'),
-                '--derivative',str(D/'p41_serre_clearing_126_disks47.json.gz'),
+                '--derivative',str(D/'p41_serre_clearing_nonelliptic_disks47.json.gz'),
                 '--f2-polynomial',str(f2/(disk+'_actual_canonical_F2_polynomial47.json.gz')),
                 '--f2-audit',str(f2/(disk+'-principal-F2-independent-audit.json')),
                 '--support-source',str(S/'p41_selected_shifted_SS_T3_support47.py'),

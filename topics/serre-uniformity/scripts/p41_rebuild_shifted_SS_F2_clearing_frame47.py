@@ -30,6 +30,7 @@ def main():
  ap.add_argument('--polynomial-engine',default='p41_selected_SS_F2_polynomial_clearing_frame47.py')
  ap.add_argument('--audit-engine',default='verify_selected_SS_F2_clearing_frame47.py')
  ap.add_argument('--based-points',type=Path);ap.add_argument('--rebuild-chain',action='store_true')
+ ap.add_argument('--resume-stages',action='store_true')
  args=ap.parse_args();S=args.script_dir.resolve();D=S/'data';W=args.work_dir.resolve();d=args.disk_id
  assert re.fullmatch(r'SS_j44_[0-9]+',d);W.mkdir(parents=True,exist_ok=True)
  assert Path(args.polynomial_engine).name==args.polynomial_engine and Path(args.audit_engine).name==args.audit_engine
@@ -48,11 +49,19 @@ def main():
  based=(args.based_points or D/(args.result_id+'_'+d+'_based_points47.json.gz')).resolve(strict=True)
  based_local=W/based.name;copy(based,based_local)
  chain=W/'chain';transport=W/'SS-principal-transports';chain.mkdir(exist_ok=True)
+ checkpoint=W/'rebuild_checkpoint47.json'
+ previous=read(checkpoint) if args.resume_stages and checkpoint.exists() else None
+ if previous:assert previous['disk_id']==d and previous['result']==args.result_id
+ old_stages={x['stage']:x for x in previous['completed_stages']} if previous else {}
  completed=[]
  def run(label,name,argv,output):
   src=S/name;command=[sys.executable,'-u',str(src)]+list(map(str,argv));log=W/(label+'.log')
-  with log.open('w') as stream:subprocess.run(command,env=env,stdout=stream,stderr=subprocess.STDOUT,check=True)
-  assert output.exists();completed.append({'stage':label,'command':command,'source_sha256':sha(src),'output':str(output),'sha256':sha(output),'log':str(log)})
+  old=old_stages.get(label)
+  if old:
+   assert old['source_sha256']==sha(src) and old['sha256']==sha(output)
+  else:
+   with log.open('w') as stream:subprocess.run(command,env=env,stdout=stream,stderr=subprocess.STDOUT,check=True)
+  assert output.exists();completed.append({'stage':label,'command':command,'source_sha256':sha(src),'output':str(output),'sha256':sha(output),'log':str(log),'reused_complete_stage':bool(old)})
   p=W/'rebuild_checkpoint47.json';tmp=p.with_suffix('.new');tmp.write_text(json.dumps({'disk_id':d,'result':args.result_id,'completed_stages':completed},indent=2)+'\n');tmp.replace(p)
   print('PASS',label,sha(output),flush=True)
  mult=chain/(d+'_multiply47.json.gz');abel=chain/(d+'_Abel47.json.gz')

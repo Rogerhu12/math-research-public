@@ -112,7 +112,7 @@ def main():
     full=W/(disk+'_actual_F2_first_variable_norm47.json.gz');center=W/(disk+'_actual_canonical_F2_height47.json.gz')
     poly=W/(disk+'_actual_canonical_F2_polynomial47.json.gz');audit=W/(disk+'-principal-F2-independent-audit.json')
     canonical=D/'p41_canonical_SS_robust47_raw.json.gz';certificate=D/'p41_canonical_SS_robust47_certificate.json.gz'
-    derivative=D/'p41_serre_clearing_126_disks47.json.gz'
+    derivative=D/'p41_serre_clearing_nonelliptic_disks47.json.gz'
     cp=W/'R470_recovery_checkpoint47.json'
     previous=read(cp) if cp.exists() else {'result':result,'disk_id':disk,'completed_stages':[]}
     assert previous['result']==result and previous['disk_id']==disk

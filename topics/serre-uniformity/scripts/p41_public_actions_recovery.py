@@ -166,7 +166,7 @@ def publish(item, out, artifact_prefix='serre-p41', omit_derived_based_points=Fa
     git('config', 'user.name', 'github-actions[bot]')
     git('config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com')
     git('add', '--sparse', str(relative))
-    git('commit', '-m', 'serre: preserve ' + item['result'] + ' actual public Actions outputs')
+    git('commit', '--quiet', '-m', 'serre: preserve ' + item['result'] + ' actual public Actions outputs')
     while True:
         git('pull', '--rebase', 'origin', 'main')
         difference = git('diff', source, 'origin/main', '--', 'README.md',
@@ -181,7 +181,9 @@ def publish(item, out, artifact_prefix='serre-p41', omit_derived_based_points=Fa
             save(out / 'publication-receipt.json', {'published': True, 'commit': commit,
                  'repository_path': str(relative)})
             return 0
-        if '[rejected]' not in result.stdout or not any(x in result.stdout for x in ['fetch first', 'non-fast-forward']):
+        retryable = (any(x in result.stdout for x in ['fetch first', 'non-fast-forward']) or
+                     ('cannot lock ref' in result.stdout and 'but expected' in result.stdout))
+        if not retryable:
             save(out / 'publication-receipt.json', {'published': False, 'reason': result.stdout})
             return result.returncode
 
