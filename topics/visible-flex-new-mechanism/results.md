@@ -97,3 +97,5 @@
 - [R46：八平移packet的完整三阶固定度量圆](results/R46-eight-packet-complete-third-order-circle.md) — 配平packet使二阶恢复局部化；规范第三ruling对平移次数≤6，七阶有限差分的八立方幅度准确消两ruling。联合R45给真实周期浸入带完整三阶，误差Oε4；四阶/收敛/宏观几何未付。
 
 - [R47：四阶完整 range 与第三阶 gauge 的准确作用](results/R47-fourth-order-range-and-third-gauge.md) — 固定 R46 的二阶解时，第三阶全部 profile gauge 不改变三条四阶周期函数；沿母线只能改三列 w 的常系数跨度。交叉矩的三密度严格线性独立，Gram 右逆使分离 f/g 的六矩准确可调，故三周期恒零与三 ruling 属于 span(w) 是完整必要充分条件。尚未证明本构造实际支付这些条件，改变二阶解不在排除范围。
+
+- [R48：六帽反射外延的角跳障碍与保二jet热平滑](results/R48-six-cap-angular-jump-and-heat-extension.md) — 准确六帽顶点的 beta 第五角导跳是两正幅度之和；原固定角反射外延保留此跳，且任意背景下 Vv 与 Vbeta 正交，不能被解析自由列抵消。乘积邻域中 (aT)t 为角 C4，故该明确有限类无准确 R=0。无限周期热时间 O(delta^6) 消此门并保完整端口二jet/tttheta；Gaussian 路径式避免小热时间除法。未给近似误差下界，也未证明热修正后存在连接。
