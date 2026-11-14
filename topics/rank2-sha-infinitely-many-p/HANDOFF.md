@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。持续跨上下文，不等阶段确认。**
 
 - 旧库首次全文读根/课题README含授权全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：8d7c5025479a2dead5f5fe800967dadb1ce6948a；2026-11-14 21:28:50 UTC 实际git pull --rebase完成后比较根/课题README，无变。
+- 最近已读规则提交：8efadbda14ed483c3393227d62bed4d3dea89087；2026-11-14 21:29:49 UTC 实际git pull --rebase完成后比较根/课题README，无变。
 - 只在Rogerhu12/math-research-public/main工作；逐结论commit/push已授权，禁强推/改已发表历史。每次pull后核根/课题README，至少每小时pull一次，仅读新差异并立刻执行。
 - 根规则12完整证明即登记，不设冻结/独审/机械复跑；规则13只用公开Actions。仅课题log每轮≤5行；单MD/API文件<100KB、HANDOFF<10KB、open尽量<30KB、文件<5MB。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。12:35–21:05断连期API历史已接回终端；21:05恢复后实际pull成功，后续均终端git。21:22实际再pull；最迟22:22重拉。
@@ -135,3 +135,5 @@ S=p^-p/(p²−1)，ρ=p^-1/(2p)；E^p为Tate单位、E闭S非Tate。
 继续原Dψ、同R高尾及全算术缺口。
 
 R590原q6=(q3+q3∘rC)/2，负三支用完整even42/1638，现ray不增条件。μ6C平均给B⊗νflat，νflat=(f1⊗Σ−f3⊗Θ)⊗σ³/42；原全部C不动测试准确回同一五变量权W_n(F,G)，仅七个B同coset矩b_n,s(F)，保所有a_kjl/u_j/log/cut/κ逆。π4*(W_nνflat)=βnπ4*νflat，不能加强全源相等；R585八条带和四单深−3共同深全在该来源，旧P3只在完整分区相消。原ρ0/Dn中q6=q1/6、零质量及v=n仍在，但B源同Dn是六个原像之和，不赋非零。
+
+[2026新文献条件核对](notes/2026-11-14-banwait-agboola-exact-nonvanishing-hypotheses.md)：Banwait 3.8保逐p二次系数单位前提；Agboola 6.1/11.1/11.3保高度与受限秩条件，11.4负根p进导数仍期望。未新增无穷非消失输入。
