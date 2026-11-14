@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **旧ρ完整第一修正Taylor actual二十门**：run43653825736 child0，258新cubic根行与75自然stage完整保存，0旧FFT/intrinsic/aux；正确μ=Q²B+，|j|至1536、双ε和全部mean保。已验证真实9e−6内窗及完整尾，φ1/512局部两行sup<24.457019495/781421.481649；sup与Wiener分开，不冒作全source/strong/cutoff。见 [实际完整Taylor报告](results/R133-supplement-actual-complete-old-radial-first-Airy-Taylor-bounds.md)。
+
 - **新外两根完整强散射和真实首相位**：F1–39重新支付真实长strict与simple-root/truegraph，保全mean、低模、真实正逆及有序word；两个4/3 strong窗<2^12000，β包含两根/新平台/真实窄图区，新增完整第二参数行保全Γ*交叉响应。原短4δ/旧三阶根数值未转授；尚不授closed网络。见 [新外strong与β](results/R119-supplement-new-outer-two-root-strong-scattering-and-complete-first-phase.md)。
 
 - **全32矩阵首格失败的准确端点消去**：run43652855824 plan精确复用成功，32range均child1/0新格，实际原失败完整保。E1–4先消同一canonical F0，端点身份化为SRT(SLinv SL−I)，原1e−35门及Δ全部误差费用不改；原宽球只作诊断。见 [准确消去与actual32](notes/2026-11-14-R133-canonical-same-F-endpoint-cancellation-and-actual32-failures.md) 和 [逐组原证据](notes/2026-11-14-R133-complete-same-F-actual32-empty-prefix-receipts.json)。

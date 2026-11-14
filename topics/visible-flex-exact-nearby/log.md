@@ -551,3 +551,7 @@ v2 run43652855824精确复用d893成功plan，32组均首格child1、完成格0�
 ## 2026-11-14 23:41:37 UTC — 全矩阵prepare生命周期的最小修复
 
 run43654145060/job132628852951真实prepare失败，root独读完整52412B UTF8 log（SHAe14360b5341ff115945937843074ac8a6d70e2d81f2b6ca0675745fb9c6c78ea）：reviewed_CI_resume:157 check_inputs在science_copy前执行，新增32收据校验误读尚未建的science路径，FileNotFound；0数学child/0新格。旧v3/失败artifact14137236849原保。v4只import REPO和check_inputs四处读源改成已逐pin核过的REPO；后续immutable science/科学sourcee2/合同1f69/32receipt61b全部不改。225pins中旧223逐项相同，root全diff核；CI71b203d5…/manifest8d334ee7…独立推。cfa8e8de7ad0e0a108bf5df478c98431a2e3d7ec两README只读核未变。
+
+## 2026-11-14 23:43:06 UTC — oldρ Taylor actual20门/75完整自然stage
+
+run43653825736数学10.637003360s/driver10.787922386s child0，native18990ac2…52843B、process eebbbf37…48844B、worker8b5b958a…2575B。root读全部gates/实际域/三宽完整表和报告10a52b74…，所有hash核一致；258新cubic根行、75完整Fourier stages，旧FFT/高根/aux0重算。正确B+/B−，full|j|≤1536，双ε/独立mean/完整radial+angular tails保；局部L0w1显著收紧但仅strip sup。固定内窗和root bracket已实际含盖，外段同解切分积分、不造人工端口，原真seams保。root接Y内窗九词/mean，phase接严格外段F0r及w1rr。runner真实pull23:33:57/23:34:08、末481bb84991ff27a177f9524a38f8a4324dadefae，两README实际diff空；ea21df64f3250d3055842dd27f93fb10628128ff只读核未变。H9885B完整归档。
