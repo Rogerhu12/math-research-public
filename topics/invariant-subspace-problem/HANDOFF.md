@@ -3,7 +3,7 @@
 ## 目标、授权与同步
 
 - **未完成：** 普通复可分无限维 Hilbert ISP；全体有界算子的存在定理或完整反例才可收尾。有限模型、候选排除和阶段结果不算完成；持续接 open。
-- **最近成功实际 pull 与已读规则提交：** 4d5fc5dbc3d17f1e59f0c8a3c41a0594c3b444ff（2026-11-14 22:32:13 UTC，Actions run43648553048实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43648553048-1.json。
+- **最近成功实际 pull 与已读规则提交：** 693a3a176e5961ab9268c845443cb48551d78c95（2026-11-14 22:35:34 UTC，Actions run43648853642实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43648853642-1.json。
 - 根独占Git/main与H/open/results/log，代理只写自己的稿。每条结论立即推；每推前及至少每小时实际pull，逐次只读两README新差异并立刻照做。非快进立即pull --rebase再推至成功，不force。
 - 已读旧库迁移授权，只操作Rogerhu12/math-research-public；token仅CLI临时环境。不改根README/LOG、不问重复授权。规则12取消额外独立审核门槛；规则13本库Actions约4核16GB、单job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-mixed-generator-789f.md)及[最近open快照](notes/2026-11-14-open-before-cofactor-kernel-789f.md)保全部旧条件/证明/数据入口。未列条目仍保持原状态，不能视为关闭。
@@ -28,7 +28,7 @@
 
 - **[旧198缩为197](notes/2026-11-14-r150-first-high-kernel-exact-seventh-source-and-197-reduction-789f.md)：** 原run43619888599的selected-nine-delta.recipe逐token给κ7=22Khat1−31q1+31³c。D=Z_(31)中22是单位，v=(κ7/22,−31²e7/22)在Λ2且F9v=T9v=0、mod31为(K1,0)，所以K1所有已定义后续像精确为零。旧高核第三只余K2…K198共197，另保已成五低初值；未用(s−2)除法，未声明全原来源覆盖。
 
-- **小矩阵实绩及待救回：** run43648025236/job132610051003数学0.156204983秒成功；rank(U9,raw,P2五列)=13、新付费线在旧目标内、余目标商3维。发布失败，未改作数学失败；原out artifact14134449743（6668B、ZIP SHA5281e3f5bfe6f8418607cb623eac521c9190b338a092d4aa52f3de102f64a1a0），发布artifact14134723893（2458B、SHAca238815457d1dcffce07482dddc1ae5d0ca14319d51777bb718ec2a979e86c2）。下一只下载原字节、诊断并修复发布，不重数学；完整未投影/费用87联合秩仍待读原回执。
+- **小矩阵实绩及待救回：** run43648025236/job132610051003数学0.156204983秒成功；rank(U9,raw,P2五列)=13、新付费线在旧目标内、余目标商3维。发布失败，未改作数学失败；原out artifact14134449743（6668B、ZIP SHA5281e3f5bfe6f8418607cb623eac521c9190b338a092d4aa52f3de102f64a1a0），发布artifact14134723893（2458B、SHAca238815457d1dcffce07482dddc1ae5d0ca14319d51777bb718ec2a979e86c2）。救回入口已冻结：2026-11-14-r150-five-third-target-space-recovery-{prepare,publish}-789f.py及专用workflow；核两个原ZIP与每个来源身份，读取原失败日志，允许精确结果路径的git add --sparse，实际pull/规则差异/非快进立即rebase，不改原actions-source、不重数学。完整未投影/费用87联合秩仍待读原回执。
 
 ## 实际边界：同一原源与已付预算
 
