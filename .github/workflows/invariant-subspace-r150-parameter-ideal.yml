@@ -1,6 +1,10 @@
 name: ISP R150 exact parameter ideal
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - topics/invariant-subspace-problem/notes/2026-11-14-r150-ci-request-789f.json
   workflow_dispatch:
     inputs:
       characteristic:
@@ -23,22 +27,62 @@ permissions:
   contents: write
 
 concurrency:
-  group: isp-r150-parameter-ideal-${{ inputs.coordinates }}-${{ inputs.characteristic }}
+  group: isp-r150-parameter-ideal-${{ github.event_name }}-${{ inputs.coordinates }}-${{ inputs.characteristic }}
   cancel-in-progress: false
 
 jobs:
+  select-input:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      characteristics: ${{ steps.select.outputs.characteristics }}
+      coordinates: ${{ steps.select.outputs.coordinates }}
+      algorithm: ${{ steps.select.outputs.algorithm }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: topics/invariant-subspace-problem/notes/2026-11-14-r150-ci-request-789f.json
+      - name: Select the explicitly requested branch
+        id: select
+        env:
+          ISP_REQUEST_CHARACTERISTIC: ${{ inputs.characteristic }}
+          ISP_REQUEST_COORDINATES: ${{ inputs.coordinates }}
+          ISP_REQUEST_ALGORITHM: ${{ inputs.algorithm }}
+        run: |
+          python - <<'PYSELECT'
+          import json,os
+          from pathlib import Path
+          if os.environ['GITHUB_EVENT_NAME']=='push':
+              request=json.loads(Path('topics/invariant-subspace-problem/notes/2026-11-14-r150-ci-request-789f.json').read_text())
+          else:
+              request={k:os.environ['ISP_REQUEST_'+k.upper()] for k in ['characteristic','coordinates','algorithm']}
+          characteristic=str(request['characteristic'])
+          coordinates=request['coordinates'];algorithm=request['algorithm']
+          if characteristic not in ['0','32003','both'] or coordinates not in ['original','translated'] or algorithm not in ['slimgb','std']:
+              raise SystemExit('Unsupported computation request')
+          selected=[0,32003] if characteristic=='both' else [int(characteristic)]
+          with open(os.environ['GITHUB_OUTPUT'],'a') as out:
+              out.write('characteristics='+json.dumps(selected,separators=(',',':'))+'\n')
+              out.write('coordinates='+coordinates+'\nalgorithm='+algorithm+'\n')
+          print(json.dumps({'characteristics':selected,'coordinates':coordinates,'algorithm':algorithm}))
+          PYSELECT
   parameter-ideal:
+    needs: select-input
     runs-on: ubuntu-latest
     timeout-minutes: 350
     strategy:
       fail-fast: false
       max-parallel: 2
       matrix:
-        characteristic: ${{ fromJSON(inputs.characteristic == '0' && '[0]' || inputs.characteristic == '32003' && '[32003]' || '[0,32003]') }}
+        characteristic: ${{ fromJSON(needs.select-input.outputs.characteristics) }}
     env:
       ISP_CHARACTERISTIC: ${{ matrix.characteristic }}
-      ISP_COORDINATES: ${{ inputs.coordinates }}
-      ISP_ALGORITHM: ${{ inputs.algorithm }}
+      ISP_COORDINATES: ${{ needs.select-input.outputs.coordinates }}
+      ISP_ALGORITHM: ${{ needs.select-input.outputs.algorithm }}
       ISP_SINGULAR_MEMORY_MIB: '12288' 
       PYTHONDONTWRITEBYTECODE: "1"
     steps:

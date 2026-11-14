@@ -67,7 +67,7 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [R289 尾熵](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)付S(ν_m)=o(m)；同一秩一态可有任意慢δ、尾rank≤2及全块rank≤3/非纯，并兼容列明旧能量界。该例不是ann，仍须真实零式给秩/熵增长或正距离。
 
-[R287 非周期逐位来源](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)付真R_n及伴随的同移动角色强近似，R_n²→I但N_nR_n²→−I/2仅WOT，不能换固定慢左因子。任意单位盘逐位平方乘积在Σ|1−z_j|≤b·2^(4m)、b<770/64内真空比指数趋零，允许无限参数/无限跨度；全部κ_m、超预算、非此乘积及真密度专属源仍开。
+[R287 非周期来源](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)付R_n/伴随的同角色强近似、R_n²→I且N_nR_n²→−I/2仅WOT。全部单位盘逐位平方积在Σ|1−z_j|≤b·2^(4m)、b<770/64内真空比指数趋零；全部κ_m、超预算及非此族仍开。
 
 ## 当前接口二：实际边界的除法饱和
 
