@@ -9,7 +9,7 @@ blob:none checkout `/workspace/scratch/0df957a82d09/math-research-public` 为 `/
 先前共享磁盘ENOSPC，本任务文件逐字节核同迁到该/tmp目录，原入口保留。新临时输出仍放该/tmp。
 旧 `/workspace/scratch/ac0d699811ad` 只读，不能修改其repo/native/进程；新的数学不在本地运行。
 
-最后实际 pull --rebase 与两 README 差异检查：a216bb468dc546a3c3da1605327db0845d6a503c；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
+最后实际 pull --rebase 与两 README 差异检查：409ca5fdf95b9b9d7eda5eee7c6770698869c24b；根 blob 6183b7f3eaa5edf22cd1a62fa19d84bf4ab3ba09，题 blob 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。
 已亲读ee26c0a65a2e63c15f2ccfba6714181584416542根差异：新增visible-flex-new-mechanism，课题数改按表，其余规则和题目标未变。
 每次push前实际pull/rebase并读两个README的新增diff，至少每小时pull；每条结论独立推；非FF立即rebase重推至成功，不force。
 PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/results/log；三代理交付新文件后冻结，避免manifest失配。
@@ -39,7 +39,7 @@ PAT只在瞬时CLI/env，不落文件/输出/提交。root独占Git/H/open/resul
 公开九步43586895661真实全成，11个R31门全真；fresh R31 d6e59dfa…/post48 a44d6a6b…/sharp ec0fe6b1…。全误差<5.856e−13<门9.158e−12，明确Qδ=Qbar+δZ、νδ=ν0+δ族存在实参数改变量<9.369e−11；不授真PDE族。全部14文件在/tmp/visible-exact-0df9-workspace/phase-small-actions-original/run-43586895661-1。
 独立缩损43588332723真实return0，native dfb2a174a010d399775240b2bd07a0f547dfee5fc137e12141be9fd8a46e3854。8试验完整保，loss1/250同时过小量与物理域；normalized宽93/2000，真正物理moving-label A1/128已付，逆复合margin>.0013726400239022。ℋ−G<2.210026409642e−7，ℋ′−G′<.000224623568308，ℋ′_A<1.016384090833。只授可选δ*，不声称不同loss参数唯一。原6文件在/tmp/visible-exact-0df9-workspace/phase-strip-actions-original/。
 完整L2参数行已实付：同背景qν−Z普通L2或E0≤1/200足保真物理ν行>1/200；这个误差仍须真正全逆给出。背景变化另付。
-完整moving strict首符号与root两个减项已证，保primitive/两mean/真R0和全<u²>；公开strict-first-symbol10条恒等门已发布24ae6240，尚待实际run。实际有限部、两行Airy/positive匹配、β/j和strong仍欠。
+完整moving strict首符号/root两减项保primitive/两mean/真R0/全<u²>；公开43588623881真实10/10恒等门return0，native83b87357…5182d。真density ray共轭首符号均值准确不变，half-density角二导均值0，strict scalar不用重算ray。当前有限部、两行Airy/positive匹配、β/j和strong仍欠。
 
 ## 正在推进的计算与全尾
 
