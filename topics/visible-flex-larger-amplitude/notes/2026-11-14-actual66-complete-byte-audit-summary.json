@@ -1,0 +1,196 @@
+{
+  "schema": "actual66-existing-byte-audits-union-v1",
+  "science_run": 43651436427,
+  "science_source_commit": "cf3a8ff94fae3f7009f85047c69db3aeb8eb320a",
+  "science_artifact": {
+    "id": 14136283207,
+    "name": "visible-followup-condensedqp-43651436427-1",
+    "bytes": 562089949,
+    "sha256": "96444f8c03257bb817a0367d73a094567eac5cdf895dfb38a7695646f454385b"
+  },
+  "scope": "Union of already completed original-byte readbacks; only existing report metadata was compared for this union. No payload audit repeated, no matrix action, norm, RHS, Jacobian, optimizer, tail or scientific run.",
+  "complete_B_model_sha256": "e6928853c2a125212dc4909a3b2fefada07e7320d23ee0d4817634afec89d511",
+  "original_audit_files": {
+    "2026-11-14-actual66-prefix-byte-audit.json.gz": {
+      "stored_bytes": 77227,
+      "stored_sha256": "25b4ccf705f74ef69b53c40d0a07e33b2e8543e2fe852ecc09fb287214a759fb",
+      "original_JSON_bytes": 657748,
+      "original_JSON_sha256": "b553bf721e01b09990e3c75476e46c83d2204f2b167ed17bf6efa427b3d4e48d",
+      "original_JSON_reserialized": false
+    },
+    "2026-11-14-actual66-baseline-root-byte-audit.json.gz": {
+      "stored_bytes": 54606,
+      "stored_sha256": "74cb59651a3908ba2dea664775ff76fde2bcb9f7e268579d4c80c366f5bca6aa",
+      "original_JSON_bytes": 428556,
+      "original_JSON_sha256": "c7b03aa2b6254c31a49d77cf3ebbd19d30e81b95718790f920adde2f0a3388bb",
+      "original_JSON_reserialized": false
+    }
+  },
+  "domain": {
+    "file_count": 181,
+    "NPY_array_count": 1168,
+    "typed_query_count": 20,
+    "rows": 40960,
+    "full_columns": 236036,
+    "local_columns": 6763,
+    "actual_block_column_union_columns": 6425,
+    "zero_layout_node": 484,
+    "complete_B_Gamma_Pi_parts_reassembled_and_hashed": true
+  },
+  "condensed": {
+    "file_count": 103,
+    "NPY_array_count": 103,
+    "references": 42,
+    "unique_complete_arrays": 38,
+    "all_parts_present": true
+  },
+  "observers": {
+    "collocation_report_count": 14,
+    "midpoint_NPZ_count": 12,
+    "midpoint_NPY_count": 36,
+    "every_midpoint_file_originally_described": true,
+    "all_collocation_original_return_flags_and_bytes_unchanged": true
+  },
+  "root_raw": {
+    "file_count": 14,
+    "bytes": 377613808,
+    "auditor": "exact_refinement",
+    "already_verified_report_matches_original_output_descriptors": true,
+    "files": {
+      "original-g": {
+        "file": "original-g.f64le",
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "bytes": 1888288,
+        "sha256": "55886e4a3befa6a341f30b78dd976a38892eb618aa376889727bfc959c76f28a"
+      },
+      "local-indices": {
+        "file": "local-indices.i64le",
+        "shape": [
+          6763
+        ],
+        "dtype": "<i8",
+        "bytes": 54104,
+        "sha256": "7098cd0f4f4f90a060f2cb093fd3a235f1a56c15011584a99095a95e60dcf4c6"
+      },
+      "affine-original-linear-term-error": {
+        "file": "affine-original-linear-term-error.f64le",
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "bytes": 1888288,
+        "sha256": "6a6c5aac9d295873c2307d5b2564953d1b9debae6037b13aa44d5819cb113741"
+      },
+      "complete-affine-column": {
+        "file": "complete-affine-column.f64le",
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "bytes": 1888288,
+        "sha256": "ba55f37338bbe53dac2698e59a230d64826398682e890951b7fd0cab3db86827"
+      },
+      "local-root": {
+        "file": "local-root.f64le",
+        "shape": [
+          6763,
+          6763
+        ],
+        "dtype": "<f8",
+        "bytes": 365905352,
+        "sha256": "19bb3a9ce90982908198b321925f5af7224aa8f4341e8ab2131b4109b60831c4"
+      },
+      "local-affine": {
+        "file": "local-affine.f64le",
+        "shape": [
+          6763
+        ],
+        "dtype": "<f8",
+        "bytes": 54104,
+        "sha256": "f6c1ffb048336431bed2dbe0121b0ce98270334ccd2b839963d2ca7988a8b643"
+      },
+      "local-gradient": {
+        "file": "local-gradient.f64le",
+        "shape": [
+          6763
+        ],
+        "dtype": "<f8",
+        "bytes": 54104,
+        "sha256": "2d8352761a2986ffdca3a3b41f16642bcad2bcc5f5dfa469922ac70aa4bd97a9"
+      },
+      "local-center": {
+        "file": "local-center.f64le",
+        "shape": [
+          6763
+        ],
+        "dtype": "<f8",
+        "bytes": 54104,
+        "sha256": "f2b0a7040386e08500de28d358639c9828b937170581d48687b32bf3de487d82"
+      },
+      "recovery-000-requested-local": {
+        "file": "recovery-000-requested-local.f64le",
+        "shape": [
+          6763
+        ],
+        "dtype": "<f8",
+        "bytes": 54104,
+        "sha256": "33e6706e9e6afc921341738e8709b3e7c7b160374e3f5108f1cd7e4bfa71bb2f"
+      },
+      "recovery-000-actual-full": {
+        "file": "recovery-000-actual-full.f64le",
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "bytes": 1888288,
+        "sha256": "5fa0ccf24118e8b74c64c20a90df0a92c7bd29a16e13827b437f7df30e875fd0"
+      },
+      "recovery-000-original-H-residual": {
+        "file": "recovery-000-original-H-residual.f64le",
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "bytes": 1888288,
+        "sha256": "2142afd13c19c4aac40adc2469c90d7ce990fa49587e0363bcafc6e0c2f319eb"
+      },
+      "recovery-000-local-mismatch": {
+        "file": "recovery-000-local-mismatch.f64le",
+        "shape": [
+          6763
+        ],
+        "dtype": "<f8",
+        "bytes": 54104,
+        "sha256": "19343f23d2a03b0d6ce83b87507266e78c5f475717101065be50b5a8188fe2fe"
+      },
+      "recovery-000-rhs": {
+        "file": "recovery-000-rhs.f64le",
+        "shape": [
+          236036
+        ],
+        "dtype": "<f8",
+        "bytes": 1888288,
+        "sha256": "00b5f29e243e69c48096d4176bd33f15da0bafaecdf5b7c21b4caed22fb46bfe"
+      },
+      "recovery-000-rhs-embedding-error": {
+        "file": "recovery-000-rhs-embedding-error.f64le",
+        "shape": [
+          6763
+        ],
+        "dtype": "<f8",
+        "bytes": 54104,
+        "sha256": "6fb1c87a277255f3c12fdc3e3fed418c1ba5957cfaff653db338b0259dce3fcb"
+      }
+    }
+  },
+  "limits": {
+    "full_QR_factor_files_independently_audited": false,
+    "original_full_QR_factor_RAM_only": true,
+    "nine_complete_A_input_arrays_only_original_report_hashes": true,
+    "no_new_QP_optimality_or_BVP_acceptance": true
+  },
+  "overlap_policy": "The two original receipts overlap on B payloads; those files are counted once here, not added as independent new payloads."
+}

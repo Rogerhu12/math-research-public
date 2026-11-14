@@ -30,7 +30,9 @@
 
 66完整H目标43.54762860298343优于C43.78367038262821；最终40960条slack最小1.6653345369377348e−16、负数0，global radial .9999999999076136。512预算停止的原局部违例仅浮点规模；最终stationarity3.6856250700402916e−5/raw R267 gap1.0160761121369433e−12不是认证最优性。最大原col仍row155819/interval461/radial1/frequency2，原W199.05303333486015非零，始终在完整A/H中，不因B局部支撑外而删除。
 
-66实际B端点467..483及485/486，共6425列；连续R270局部467..486+p为6763列，484的338列在B为零而仍保留完整H耦合。**68继续λ270支线只加left466全2048角**，从66真实warm/status80b4590f/04ace795出发；14left+7mid共43008行，连续466..486+p为7101列，真实20端点6763列，零B484仍保留。C4059/全部outside offset、所有原预算/验收/新warm FD不变。独立21源及完整接口已读并派发，39源pins/11shell/6inlinePython静态核同；不把字节核设为科学前置门。
+66实际B端点467..483及485/486，共6425列；连续R270局部467..486+p为6763列，484的338列在B为零而仍保留完整H耦合。**68继续λ270支线只加left466全2048角**，从66真实warm/status80b4590f/04ace795出发；14left+7mid共43008行，连续466..486+p为7101列，真实20端点6763列，零B484仍保留。C4059/全部outside offset、所有原预算/验收/新warm FD不变。独立21源及完整接口已读并派发，39源pins/11shell/6inlinePython静态核同；不把字节核设为科学前置门。实际run43653811809/source9ad4c5d56a85ba952d6e9a538c49fbd3aae4fa14已开始。
+
+66的[完整字节附记](notes/2026-11-14-actual66-complete-byte-audit-addendum.md)合并两份已付回执，无重审：181domain/1168NPY、103condensed/38完整数组/42引用、14raw377613808B及全部observer均核同；完整QR因子和九A输入payload未独立导出，未冒全审或科学证明。
 
 **67单λ27同父对照**继续用与66完全相同actual64父3b25ea84/037fb9ee、20query、6763连续布局及40960行，只把270改27并重建C/fullQR/localroot。17trial及原domain/RMS/merit门不改，不作λ扫描或保证改善。首run43652246030因提前写metadata触发原fresh-output检查（setup/pack/initial_projection已运行，evaluate/weights均0），并暴露publisher稀疏H缺失；[原失败及精确修复](notes/2026-11-14-actual67-output-order-failure-and-exact-retry.md)保全。revision2 warm7de5e7d0/observere75ba931、publisher627393d1已修顺序；实际run43652955632/source721edbfcacb28d6e7cfd4d139cc9bb6c939786b4/job132625243515正在原模型step11。必须读原返回；科学数组可逐字对比，producer身份差不能冒科学数组变化，也不增跨run接受门。
 
