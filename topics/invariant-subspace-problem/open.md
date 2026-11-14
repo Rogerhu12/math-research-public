@@ -23,39 +23,19 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-R273-moments-789f.md)及其中各轮归档；未列条目不算关闭。
 
-**原来源预算：** [射影/∞96阶接口](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)给B≥85完整商=仿射315＋∞torsion；[完整B85 mod961不可解](notes/2026-11-14-r150-complete-b85-bockstein-obstruction-789f.md)已含全部初值核自由；[已知β闭包与唯一g](notes/2026-11-14-r150-known-bockstein-module-primary-correction-789f.md)已付；先补唯二cost86，再做固定h0或保根集H0的原来源/31饱和。
+**原来源预算：** [完整1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)已排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)实际九源全cost86。继续真实第二余量/完整第二Bockstein及31饱和，不排31分母Q来源；[射影/∞96阶接口](notes/2026-11-14-r150-finite-budget-projective-cokernel-and-infinity96-789f.md)的有限预算条件保留。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
-令S_N=Σ(j+1)⁻²N_j、S_Y=Σ(j+1)⁻²N_j(I+N_j)⁻¹。两者全H单射稠密已证；是否在所有不变限制及有限放大子商中单射稠密仍开。强主理想失败准确等价于存在正有限秩Haar正常态ρ使φρ(SAcal)=0。不能任意降秩一，也不能以WOT/SOT代ultraweak。
+原定义、全部已排范围和未付预算保[压缩前完整接口](notes/2026-11-14-open-before-balanced-star-789f.md)。S_N=Σ(j+1)⁻²N_j、S_Y=Σ(j+1)⁻²N_j(I+N_j)⁻¹在全H单射稠密；未知不变限制/有限放大子商上仍开。强主理想失败等价存在正有限秩Haar正常态ρ使φρ(SAcal)=0，不能免费降秩一或以WOT/SOT代ultraweak。
 
-**已排范围与未付部分。** R235/R237/R255已排连续/a.e.+双边UI、保函数非负锥、Walsh对角/有限带/entrywise-ℓ1、合格乘积基块正态及E_√3范围；一般正常正有限秩仍开。R228的C平均可保同泛函而增秩，R229不许一般秩一纯化。真实右矩仍须ε_m||G_m||→0且φρ(T_mG_m)/h_m不消失，普通L²逼近不付此预算。完整原稿链接及端点保本次归档。
+**仍须支付的正常来源。** 已排连续/a.e.+双边UI、Walsh对角/有限带、指定乘积块、混合有限头×任意尾及物理头块对角；一般有限原秩仍开。R230/244/236保同ρ锚源、hp/vp、原carry与双侧Walsh泄漏，正常性仅给无速率尾量。真实右矩仍需ε_m||G_m||→0且φρ(T_mG_m)/h_m不消失；固定起点理想、移动右测、未知子商和增长单位逆不得互换。R272单侧非零修复必失自伴，R274第q个raw矩−νQ_P非零；固定行可修不付移动q费用。
 
-**正常源与物理度量。** R230/R244同ρ保锚源、hp/vp区分及无速率δ，R236同ζ/ρ高幂MP与原carry预算全部保[完整接口](notes/2026-11-14-open-before-serre-ci-789f.md)；双侧正合同不能免费跨次数，MP上界失败不作费用下界。
+**二次核与图域。** 原慢正族、逐位N/Y任意复相位及合格相对辅助族已排，精确参数与全证明保归档；κ>2更快辅助、非该来源及未知子商仍开。任意秩正常柱尾给q_P/τ≥(a_-/A)²/[9·2³⁰P³]、TrρM³=∞；只排已付双侧M^(3/2)费用的固定来源。R236完整有限行/纯尾正常闭像保全C_P右源，原低头依赖及b_iB_j真实N源费用未付；不移作商逆。R200负边界线性T含e0，其N=M另列下节。
 
-**既有首列/正常尾接口。** 全树完整good列WOT0、原坏列与指数修复下界、固定尾normal/cb距离发散、单位逆及各层原上型/聚合量词均保[完整快照](notes/2026-11-14-open-before-serre-ci-789f.md)。精确支持、预算内修复、固定原理想廉价全层及统一正常锚仍未付，不把变化起点族当固定理想或用移动右测因式化。
+**全链正性与下一尾距离。** [R276](results/R276-positive-head-completion-and-compact-numerical-radius-criterion.md)给实际正完成X=√νK√ν、w(K)≤1/2及迹范数紧性，原零式ν(Z²−t)∈N、νZ+X+X*t∈N须同一相容ν链；尚缺某步严格正距离，raw Stein只为特例。[R289](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)给尾熵o(m)，[R291](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)给全部头op-Schmidt≥2^M及尾rank≥ceil2^(M/2)，二者未矛盾。[正谱压缩](results/R291-appendix-positive-spectral-compression-and-full-tail-quotient-cost.md)要求实际下一完整尾理想距离m_j上界，已有ε_(j+1)≥[128(1+m_j)]⁻²、liminf m_j√ε_(j+1)≥1/16不代此上界。
 
-**完整尾接口。** U坐标、固定起点全层生成元、normal/cb余式与原源费用保[0c全文](open-archive-2026-11-14-0055-0c.md)。下述指定二次核已排，但一般迟首行、其他辅助系数及无该核来源的正常见证仍须逐族证明。
-
-**已排的原Haar二次核。** [固定慢正族](results/R236-appendix-actual-slow-positive-quadratic-kernel-exclusion-by-joint-inverse.md)及[逐位N/Y、任意复相位族](results/R236-appendix-complex-mixed-cayley-quadratic-joint-inverse.md)在 |ai|=(i+1)^−2 下已单射稠密，指定first-flip真核/图分支关闭。[相对辅助扩展](results/R236-appendix-polynomial-relative-auxiliary-quadratic-exclusion.md)保 |ai|双侧比较(i+1)^−2、b∈ℓ1且高位|bi/ai|≥c(i+1)^−2，允许有限首位例外；κ>2更快辅助未自动覆盖。证明费用及全部旧范围保[本次压缩前全文](notes/2026-11-14-open-before-R274-789f.md)。这些是全H结果，不传未知子商；R200负边界线性T_N/T_Y仍含e0，其N=M仍开。
-
-**R236 已付来源与仍缺预算。** 原Acal右源、同ρ正常商联合逆、廉价尾lift、固定二阶强单位、完整局部矩阵及真实来源部分迹的全部公式/来源链接保[本次前open](notes/2026-11-14-open-before-general-residual-regression-789f.md)。这些结论保固定原源、端点/中段及双向Walsh泄漏；正常性仅给尾量趋零，没有可乘增长逆费的速率。移动右测不能免费因式化，商像界不能代物理双侧界，原两行零式仍须联合处理。
-
-[任意秩正常正源柱尾](results/R236-appendix-polynomial-cylinder-tail-for-all-normal-positive-annihilators.md)给双侧|a_i|≈(i+1)⁻²时 q_P/τ≥(a_-/A)²/[9·2³⁰P³]，阈值与秩/放大无关，故TrρM³=∞；p>1推广的临界位置矩2p−1也发散。[统一高位集合能量](results/R236-appendix-uniform-high-bit-set-energy-for-normal-positive-annihilators.md)保每个有限I的完整ell2泄漏及实际正压缩；原N源b_iB_j仍未付，不能移作商逆。
-
-[双侧源/临界图域](results/R236-appendix-true-twosided-normal-sources-and-critical-position-graph-obstruction.md)仅排已付双侧M^(3/2)费用的固定H,K来源；无此预算仍开。[固定有限行/纯尾闭像](results/R236-appendix-fixed-finite-rows-complete-tail-source-embedding-and-normal-closed-range.md)保全C_P右源cb下界、每层正常闭像及递减交；原低头依赖来源仍开。上述旧范围的精确常数和全部剩余条件没有被删除或视为已闭。
-
-[R272 修复](results/R272-normal-predual-tail-repair-and-exact-positivity-obstruction.md)的非零单侧修正必失自伴；[R274](results/R274-full-commutant-basis-and-last-raw-moment-obstruction.md)保第q个raw矩−νQ_P≠0及整个A′尾基。固定行可修复，移动q/单位逆费用仍开，完整范围在既有归档。
-
-[R290](results/R290-mixed-finite-head-product-and-physical-block-diagonal-normal-annihilator-exclusion.md)排任意混合有限头×任意正常尾及物理头块对角；固定q预算已付，未给移动q的统一费用。
-
-[R276 正头完成紧凸判据](results/R276-positive-head-completion-and-compact-numerical-radius-criterion.md)：原S=[[Z,t],[I,Z]]的单位规范化后，同一正尾ν的全部正完成非对角块为X=√νK√ν、w(K)≤1/2。原全理想零式iff ν(Z²−t)∈N且νZ+X+X*t∈N；X集迹范数紧，最小商距离达到，完整数值半径对偶式(5.2)可给严格排除证书。raw唯一Stein解仅为额外特例；须对实际相容ν_m链证明某步距离>0，不能把N内非零缺陷删零或免费移动Z_m/单位逆成本。
-
-**余正常接口。** 固定正常矩仅c0/o(m^(k/2))；carry×聚合费须趋零，非UHF强单位不付未知限制。真ann迫q_m↓0；旧周期滤波、平方选择器、张量、热球、纠缠及原预算保归档。
-
-[R289有限原秩尾熵](results/R289-finite-rank-tail-entropy-density-and-compatible-arbitrarily-slow-rank-two-chains.md)给S(ν_m)=o(m)，其指定字符串例现被R291真实矩独立排除；一般有限秩仍开。[R291](results/R291-normal-moment-module-independence-and-exponential-support-rank-growth.md)付任意M头op-Schmidt≥2^M、尾rank≥ceil2^(M/2)；[正谱压缩](results/R291-appendix-positive-spectral-compression-and-full-tail-quotient-cost.md)给ε_(j+1)≥[128(1+m_j)]⁻²及liminf m_j√ε_(j+1)≥1/16。m_j为同一完整下一尾理想距离，上界未付；固定矩Γ/来源费和完整旧范围保[本次前open](notes/2026-11-14-open-before-graded-module-789f.md)，不推出熵矛盾。
-
-[R287 非周期来源](results/R287-two-sided-moving-character-limits-and-nonperiodic-disk-source-budget.md)付R_n/伴随的同角色强近似、R_n²→I且N_nR_n²→−I/2仅WOT。全部单位盘逐位平方积在Σ|1−z_j|≤b·2^(4m)、b<770/64内真空比指数趋零；全部κ_m、超预算及非此族仍开。
+**其余完整接口。** 真ann迫q_m↓0；固定正常矩仅c0/o(m^(k/2))。R287同角色强近似、R_n²→I与N_nR_n²→−I/2仅WOT分清；单位盘平方积的指定预算族已排，超预算及其它族仍开。旧周期滤波/平方选择器/张量/热球/纠缠/全树good列与指数修复、normal/cb尾距离及所有固定原理想量词均保归档，未列不算关闭。
 
 ## 当前接口二：实际边界的除法饱和
 
@@ -127,6 +107,8 @@ R279真硬核联合平方费仍开；已付低占据/仿射MP范围见[此前ope
 [R275一位MP](results/R275-one-bit-full-primitive-schur-recursion-and-innovation.md)与R278联合Serre式均保[此前全文](notes/2026-11-14-open-before-all-height-strengthened-s1-789f.md)。高birth创新、同G1运输和graph仍缺；变化度量的迹不能消去负桥。
 
 **其余已付的原头、完整图和共同费用接口。** 两物理头/两下降真 MP、同未来负图、全尾近共同前缀、逐列立方根对数头预算、统一左核图/低头反馈、完整接合正 Gram、Boolean 两带/Γ 收缩、固定低行四次费用、D2 三次权顶锚、全深度宽源带及增长模型核幂的准确公式、常数和每条原稿链接，保 [压缩前全文](notes/2026-11-14-open-before-R279-789f.md)。它们均保同一未来/同源/真正负图及原累计费，仍不支付固定测试局部 Gram O(Keff)、ordinary 右费、pure 深段与高 birth D1*/Γ 合并；不能把裸/完整 Schur 或坐标截断互换。
+
+**平衡主组的完整共同相位：** [任意多组Beta–binomial运输](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)处理q0=Σ其余q、硬源U一维/低源V维数任意。h/g/ell=c(H/G/L)，G是全部占据协方差，q=c(4G+yy*)；共同正Gram、同系数均值运输与秩二位移均准确。仍须界完整非交换J=HG⁻¹L−2G−yy*，不能以共同正块的另一交叉自动替目标；任意有硬源模块与原graph继续。
 
 ## 当前接口三：一般系数行、多个模式与中央域
 

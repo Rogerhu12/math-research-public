@@ -3,7 +3,7 @@
 ## 目标、规则与同步
 
 - **未完成：** 普通复可分无限维Hilbert ISP；全体有界算子存在定理或完整反例才可收尾。有限模型/候选排除不算完成。
-- **最近成功实际 pull 与已读规则提交：** `623407bb153e75585232490902443499484511b4`（2026-11-14 15:48:38 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
+- **最近成功实际 pull 与已读规则提交：** `ae4f3a4f8ff2e41b340a723671d804b209fdd880`（2026-11-14 15:56:26 UTC，实际pull/rebase成功，两README差异为空）；旧库已读迁移授权 `5b8cbd10993f9e66c67e0d686c72aab113406c5b`；历次同步见 notes/2026-11-14-root-git-sync-checks-789f.json。
 - 根Astra-ISP-789f独占Git/main与H/open/results/log；代理只写自己的稿。每结论立即推；每推前和至少每小时实际pull，逐次只读两README新差异并立刻遵守。非快进立即pull --rebase再推至成功，不force。
 - 旧库迁移授权已读，只用Rogerhu12/math-research-public；token仅CLI临时环境，不入文件。不改根README/LOG、不问重复授权。规则12无额外独立审核门槛；规则13本库Actions约4核16GB、每job≤6h、账号≤20并行。Markdown≤100KB、H≤10000字节、log每条≤5行；数据>1MB gzip、每文件≤5MB。
 - [上一完整H](notes/2026-11-14-handoff-before-joint-three-slice-bound-789f.md)保所有旧细节/链接，[原open归档](notes/2026-11-14-open-before-all-birth-second-variation-789f.md)保旧缺口。未列不等于关闭。
@@ -26,6 +26,7 @@ R293/297全正权/出生/高度加强κ等价奇硬首边同κ，奇→偶全源
 
 - [任意两权全位数](notes/2026-11-14-two-weight-all-size-complete-even-phase-bound-789f-next.md)已付全源Φ≤1，异权等号恰单组spin1/余singlet。[六位三对全权](notes/2026-11-14-three-pairs-all-weight-complete-even-phase-bound-789f-next.md)付整个9维，三个主子式3558项全正、等号维数3/5/9。四位全部分类与固定方向局部界亦已付；一般多权/更高组spin开。
 - [任意多权主spin边界](notes/2026-11-14-arbitrarily-many-weight-dominant-spin-phase-bound-789f-next.md)：若j0=1+Σ其余j，完整有效模块U=0、V一维但全部原多重性保留；真h/g/ell=3π⁻¹(B,C,A)，正log凹密度的自足AB≤4C²给Φ≤1，异有效权严格。[完整空硬源分类](notes/2026-11-14-empty-hard-source-spin-blocks-complete-classification-789f.md)证明V非零/U零恰此主组条件；max q≤Σq/2则有实际中央差乘积primitive。所有空硬源块已付，余有硬源区。
+- [平衡主组完整概率](notes/2026-11-14-balanced-star-full-source-beta-binomial-phase-transport-789f-next.md)：q0=Σ其余q，硬源U一维/低源V任意维，真实h/g/ell=c(H/G/L)、q=c(4G+yy*)来自同一Beta–binomial。全部条件噪声、完整硬源回归、均值运输及秩二位移保留；共同正块交叉mn*−G不等于目标HG⁻¹L−2G−yy*，统一κ仍开。
 - [倒数全谱](notes/2026-11-14-even-phase-reciprocal-transfer-adjoint-and-logarithmic-cubic-cancellation-789f-next.md)给T(z⁻¹)=T(z)*和整源三阶抵消。[完整Hessian](notes/2026-11-14-central-partition-full-hessian-frame-and-phase-ward-block-789f-next.md)：BB*=(s+2)I/3，H=B*gB，h/ell/q全Ward交叉与真换位保留；相位等价A H† C+2H−Q联合块，不以逐坐标Schur替共同逆。
 - Johnson最高两通道非负、首低共同Schur/删位协方差已付，高birth条件均值尚缺。原无限尾算术2严格失败>2.89；正通道尺度2Var/k至160Var/(k+2)已付，均见上一H。
 - [原尾birth2全height](notes/2026-11-14-original-tail-birth-two-uniform-strengthened-all-height-bound-789f-next.md)：b_j=j⁻²，所有x≥2/n≥1整个K2有明确有限κ=(337/162)Λ²。大n>2²¹算术λ=2³⁵，余小高度由head占据幂零完整右逆统一付；并给N≤(Λ/2)kP。全低阶条件Gram/真实Z三切片/原桥保留，不代graph。
