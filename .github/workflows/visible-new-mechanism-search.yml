@@ -11,7 +11,7 @@ on:
         description: Public numerical lane (all uses request.json)
         type: choice
         default: all
-        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate, fixed_height_primitive, frozen_profile_gate, entry_paired_audit, recovery_development, short_entry_development, short_entry_audit, p1_bulk_development, p1_bulk_exact, height_gate_development, height_polytope_development, height_polytope_audit]
+        options: [all, eccentric, seeds, kernel, core_folded, second_order, band_geometry, band_newton, folded_bearing, inward, codedesign, inward_fixed, ellipse_cont, ellipse_phi, inward_gc4, star_core, closed_design, ruled_tail, space_star, closed_quartic, star_lift, space_refine, warped_core, warped_tube, phase_shoot, derivative_audit, star_verify, closed_branch, global_profile, warped_collar, exact_D0, cosine_core, phase_D0, physical_C, cosine_endpoints, cosine_feasible, physical_root, constant_h_exact, ellipse_frame, ellipse_audit, ellipse_enriched, zero_operator_exact, ellipse_bent_tail, zero_operator_instance, third_order_exact, fourth_order_exact, fourth_sos_exact, ellipse_saturated_heat, overlap_fourth_exact, range_numerator_exact, full_range_compile, natural_body_initial, single_P_instance, independent_height_solve, full_fourth_evaluate, fixed_height_primitive, frozen_profile_gate, entry_paired_audit, recovery_development, short_entry_development, short_entry_audit, p1_bulk_development, p1_bulk_exact, height_gate_development, height_polytope_development, height_polytope_audit, higher_range_development, p1_word_exact, local_third_exact]
 
 permissions:
   contents: write
@@ -40,7 +40,7 @@ jobs:
           request = json.loads(Path('topics/visible-flex-new-mechanism/computations/request.json').read_text())
           chosen = os.environ.get('REQUESTED_LANE')
           lanes = [chosen] if chosen and chosen != 'all' else request['lanes']
-          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate', 'fixed_height_primitive', 'frozen_profile_gate', 'entry_paired_audit', 'recovery_development', 'short_entry_development', 'short_entry_audit', 'p1_bulk_development', 'p1_bulk_exact', 'height_gate_development', 'height_polytope_development', 'height_polytope_audit'}
+          allowed = {'eccentric', 'seeds', 'kernel', 'core_folded', 'second_order', 'band_geometry', 'band_newton', 'folded_bearing', 'inward', 'codedesign', 'inward_fixed', 'ellipse_cont', 'ellipse_phi', 'inward_gc4', 'star_core', 'closed_design', 'ruled_tail', 'space_star', 'closed_quartic', 'star_lift', 'space_refine', 'warped_core', 'warped_tube', 'phase_shoot', 'derivative_audit', 'star_verify', 'closed_branch', 'global_profile', 'warped_collar', 'exact_D0', 'cosine_core', 'phase_D0', 'physical_C', 'cosine_endpoints', 'cosine_feasible', 'physical_root', 'constant_h_exact', 'ellipse_frame', 'ellipse_audit', 'ellipse_enriched', 'zero_operator_exact', 'ellipse_bent_tail', 'zero_operator_instance', 'third_order_exact', 'fourth_order_exact', 'fourth_sos_exact', 'ellipse_saturated_heat', 'overlap_fourth_exact', 'range_numerator_exact', 'full_range_compile', 'natural_body_initial', 'single_P_instance', 'independent_height_solve', 'full_fourth_evaluate', 'fixed_height_primitive', 'frozen_profile_gate', 'entry_paired_audit', 'recovery_development', 'short_entry_development', 'short_entry_audit', 'p1_bulk_development', 'p1_bulk_exact', 'height_gate_development', 'height_polytope_development', 'height_polytope_audit', 'higher_range_development', 'p1_word_exact', 'local_third_exact'}
           if not lanes or len(lanes) > 4 or len(set(lanes)) != len(lanes) or any(x not in allowed for x in lanes):
               raise SystemExit('Invalid bounded public request lanes')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
@@ -1062,6 +1062,28 @@ jobs:
             --case bounded_short --height-lower=-1 --height-upper=1 \
             --tau 61/1000 --height-margin 1/1000 --minimum-signed-height 0 \
             --out "$VISIBLE_NEW_OUT/height-polytope-bounded-audit.json"
+      - name: Check nested right words and local third decomposition on small exact toys
+        if: matrix.lane == 'higher_range_development'
+        timeout-minutes: 5
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_pure_bulk_word_normal_form.py" \
+            --toy-only --out "$VISIBLE_NEW_OUT/p1-word-development.json"
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_local_third_bridge_decompose.py" \
+            --toy-only --out "$VISIBLE_NEW_OUT/local-third-development.json"
+      - name: Normalize the whole pure target with full nested right shuffle
+        if: matrix.lane == 'p1_word_exact'
+        timeout-minutes: 8
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_pure_bulk_word_normal_form.py" \
+            --max-seconds 240 --max-memory-mib 2048 \
+            --out "$VISIBLE_NEW_OUT/p1-bulk-word-normal-form.json"
+      - name: Decompose the actual local third bridge cost and its formal response upper space
+        if: matrix.lane == 'local_third_exact'
+        timeout-minutes: 8
+        run: |
+          python -u "$VISIBLE_NEW_SCRIPTS/literature_local_third_bridge_decompose.py" \
+            --include-pure-upper-span --max-seconds 240 --max-memory-mib 2048 \
+            --out "$VISIBLE_NEW_OUT/local-third-decomposition.json"
       - name: Publish small diagnostics after rebase and README checks
         if: always()
         env:

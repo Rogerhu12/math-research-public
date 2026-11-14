@@ -1,0 +1,53 @@
+{
+  "P0_satisfied": false,
+  "baseline_bridge_constructed": false,
+  "completion": "toy_only",
+  "dependencies": {
+    "formal_compiler": {
+      "bytes": 33169,
+      "filename": "literature_range_profile_algebra.py",
+      "git_blob_sha1": "01c7424af3a96f2c2a0f0cb0c782b2037ff3ec74",
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    "membership": {
+      "bytes": 33718,
+      "git_blob": "f1b4f5fc69dd14c72fbbd02fd7e5347b0345657a",
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    }
+  },
+  "elapsed_seconds": 0.006290897996223066,
+  "finite_isometric_family_certified": false,
+  "full_fourth_range_satisfied": false,
+  "geometry_relation": "omega_s=k_s/(2h), h>0",
+  "github": {
+    "GITHUB_REPOSITORY": null,
+    "GITHUB_RUN_ATTEMPT": null,
+    "GITHUB_RUN_ID": null,
+    "GITHUB_SHA": null
+  },
+  "local_density_columns_proved_reachable": false,
+  "ordinary_complex_bilinear_products": true,
+  "phase": "small_exact_toys",
+  "research_profile_witness_scope": "fixed exact polynomial counterexamples only; no profile fitting",
+  "resource_limits": {
+    "IBP_calls": 300000,
+    "RSS_polling_mib": 2048,
+    "coefficient_nodes": 600000,
+    "profile_atoms": 80000,
+    "rational_span_bits": 8192,
+    "seconds": 240,
+    "terms": 100000
+  },
+  "right_anchor": "I(F)=integral_r^xi F; every left tail retained",
+  "schema": "visible-flex-local-third-bridge-exact-decomposition-v1",
+  "source_sha256": "08ada4219df23e50dff2c784c2457dab3c732cd82cacc1477389fdc53fbb6ee0",
+  "target": "R73 C_s(q;q,q)=local third RHS after full actual derivatives and then zero history values",
+  "toy_checks": {
+    "exact_piecewise_right_primitive": true,
+    "manual_base_potential_reconstructed": true,
+    "manual_cubic_velocity": true,
+    "manual_symmetric_acceleration_potential": true,
+    "manual_velocity_area": true,
+    "no_research_compiler_called": true
+  }
+}

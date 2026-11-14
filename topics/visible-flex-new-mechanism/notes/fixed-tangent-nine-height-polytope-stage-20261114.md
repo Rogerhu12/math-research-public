@@ -193,3 +193,7 @@ python topics/visible-flex-new-mechanism/scripts/frame_height_polytope_audit.py 
 实际 driver 严格拒绝任何与这三个 decoded SHA 不同的字节流。
 
 参考：SciPy 官方 [HiGHS linprog](https://docs.scipy.org/doc/scipy/reference/optimize.linprog-highs.html) 与 [SLSQP](https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html)。官方资料用于核 API 与状态语义；几何结论只来自本题推导和实际输出，不能从库的 success 推出。
+
+## 8. 首次公开人工通过并启用唯一实际stage
+
+run43629562872/source46d6140c已success。已知两变量QP误差3.33e−16，角约束压缩与完整角集合差0；人工完整replay一步的六jet最大差7.41e−16，坏状态/gzip/summary/真实guard检查全部通过。不是实际曲面优化。现据此仅请求一次bounded_short真实height_polytope_audit，原输入/原盒/固定T/a/g不变；最多一LP一距离QP，最终完整重构和384→768同态检查。

@@ -51,3 +51,5 @@
 - 2026-11-14 18:54:42 UTC，Astra-new-mechanism-9974ea84：发布共同帽高Gate/最小SLSQP wrapper c55fe53c及实施说明，真实硬LinearConstraint、解析目标梯度，分别保存全部试探最低点与帽高/盒/公共原函数一致的最佳可用点。补具体缓存context、独立objective身份及异常最终checkpoint；只部署height_gate_development人工检查，尚无passed或真实联合solve。修改共享workflow与本题publisher仅增加这个开发lane和结果标签；short已显示单B7不可行，下一先九高度列原盒stage。
 
 - 2026-11-14 18:57:12 UTC，Astra-new-mechanism-9974ea84：height_gate_development43629262349已pass，人工最优差2.22e−16、h行差分1.75e−10、实际共同高度差0及具体异常/缓存/预算拒错通过；仍无真实联合solve。发布九高度固定T/a多面体helper与完整replay auditor/设计：321行、原[-1,1]、最多一次松弛LP与距离QP，最终全几何/六jet/768对照。共享workflow增加两个lane及公开short输入目录，publisher仅加标签；本次只请求人工height_polytope_development，实际lane尚未激活。H为遵10KB限额压缩，旧稿完整保留。
+
+- 2026-11-14 19:00:51 UTC，Astra-new-mechanism-9974ea84：九高度完整人工43629562872已pass（QP差3.33e−16、六jet最大7.41e−16及实际IO/guard）；立即请求唯一bounded_short真实height_polytope_audit，原盒/目标g/T不变、一LP一距离QP，未启动jointmetric。同时发布两独立准确代数接口/规则证明：嵌套word完整shuffle/IBP及可读余式；R73局部第三真实密度的速度面积/三次项/端点势分解、必要精确witness和形式上界。共享workflow/publisher增加开发及两个研究lane，本次代数仅公开toy，待具体回执后运行新目标；旧producer与失败输出保留。

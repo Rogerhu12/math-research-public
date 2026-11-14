@@ -6,7 +6,7 @@
 
 闭连通材料面，$F_t$逐时$C^2$嵌入、时间$C^2$连续，同一固定g；固定H有内点、$\operatorname{diam}F_0(H)\ge.2D$；不作刚体对齐的整像 $\delta_{hold}\ge.3D$；全时全域reach$\ge.03D$；最大相对metric$\le10^{-6}$且同g/参数/时间范围加密持续下降；完整网格每件<5MB，明确严格存在差距。$\delta_E$可0如实报；达标后继续.5D或严格存在。
 
-- 根/本题README已全文读。公开仓库最后已读规则提交：`32c5c7c5a27afddbd77a6791151670cacd85787a`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
+- 根/本题README已全文读。公开仓库最后已读规则提交：`41d3cfb683b6e043e8c25f83cafe7db2fb90d134`（实际pull后双README差异为空）。每次pull --rebase立即比双README；变则只读差异执行；至少每小时一次。每个有意义结果及时push，NFF立即pull --rebase/核规则/再推至成功，不强推。
 - 私有恢复后实际pull至`44a3ba9432709e1260b4277d05d64c6775ca6589`，与旧6a16feab双规则路径无差，本题私有README不存在；QUEUE唯一行仍本会话进行中。下一实际pull不晚于19:45 UTC。
 - 真实几何/ODE/积分/优化/完整研究符号编译只在本公开仓库Actions；本地纸面代数、小人工接口测试、源码/公开输出解析。PAT仅瞬时CLI/env，不写任何文件/提交/日志。
 - 根规则12：不把冻结、独立审查、重复清单或重复运行设为推进前置。完整证明直接登记results并更新索引。保针对具体风险的验证及README要求的同态精化。
@@ -33,7 +33,7 @@ R57直接metric残差使用e=|Xs|²−1、q=Xs·T，operator eta=(|e|+sqrt(e²+4
 
 本轮第三输入：`notes/actions-43627111925-1-short_entry_audit/frame-entry-short-bounded-initial-audit.json.gz`，压缩340222B；decoded2618547B SHA `9d64a1ea03745405bd72fce6078eace92e02f3987be6ae079b75f0b71f69502c`。摘要176429B SHA2b61fe65…；本地只解压解析，没重算研究几何。
 
-现在**九列高度stage**：固定bounded_short的T/a/完整g，全部signed-z/球角样本准确压成每径向行两条线性界，另帽高行+原[-1,1]^9。一次统一松弛LP，若可行再一次严格凸最小系数改变量QP；有候选只应用一次9列变化、完整几何重建、六jet及同态384→768角精化。失败零步、不自动扩盒、不运行联合u/v。当前部署height_polytope_development人工完整入口；实际lane准备但尚未请求。
+现在**九列高度stage**：固定bounded_short的T/a/完整g，全部signed-z/球角样本准确压成每径向行两条线性界，另帽高行+原[-1,1]^9。一次统一松弛LP，若可行再一次严格凸最小系数改变量QP；有候选只应用一次9列变化、完整几何重建、六jet及同态384→768角精化。失败零步、不自动扩盒、不运行联合u/v。height_polytope_development43629562872已pass：人工QP最优差3.33e−16、完整六jet最大7.41e−16、gzip/状态/summary/guard均通过；当前已请求唯一height_polytope_audit真实bounded_short。
 
 代码：`frame_height_polytope.py` 6babe655…；`frame_height_polytope_audit.py` 4e6fdead…。设计和完整3SHA/CLI在 notes/fixed-tangent-nine-height-polytope-stage-20261114.md。若实际可行后metric很差，可用固定T下准确四次metric做廉价9维后续；再据实际选择一次联合u/v+height求解，不能把高度可行当metric/reach通过。
 
@@ -55,8 +55,8 @@ R71真实同scalar/frameI、M0词准确实现2t[P(f,Qgh)−Q(f,Pgh)]，八基至
 
 **R73已证明**：R56二阶密度逐s点属于同一sl3八矩，变量profile有必须保留的链式Ψ。M0桥第三history为反对称八矩迭代积分，落R71可达交换子空间并可准确消；真正还剩明确局部三次密度∫C_s。literature正在按真实R56导数取history0编译该局部项，分离端点势与真实新控制；不宣称局部项已消。
 
-**pure bulk actual43628716304/sourcee42c78ff complete**：2.121s/36.7MiB，28响应形式代表秩18，target473→59项，余76项，无关系。不是资源失败；不完备右IBP不能当非成员定理。详 notes/p1-bulk-whole-function-actual-result-20261114.md，主报告16529B SHA `abb3d2afdb3622cc0314eeffb5769d250c4808cd4e301e1a359fb1fb8ab627ce`。source正补任意嵌套Volterra word shuffle/IBP与可读余项，不重跑无变化预算。正关系须回原式验证；局部桥T、全部phase/P0/ruling、收敛有限族与全部宏观几何继续欠。
+**pure bulk actual43628716304/sourcee42c78ff complete**：2.121s/36.7MiB，28响应形式代表秩18，target473→59项，余76项，无关系。不是资源失败；不完备右IBP不能当非成员定理。详 notes/p1-bulk-whole-function-actual-result-20261114.md，主报告16529B SHA `abb3d2afdb3622cc0314eeffb5769d250c4808cd4e301e1a359fb1fb8ab627ce`。新word层d39482c9已实现任意嵌套shuffle/IBP并输出可读余项；新local第三分解08ada421保真实Ψ/全部导数后history0、速度面积与三次项、必要端点势及有限形式上界。两者当前仅请求higher_range_development公开toy，实际lane待回执；不重跑无变化预算。正关系须回原式验证；局部桥T、全部phase/P0/ruling、收敛有限族与全部宏观几何继续欠。
 
 ## 6. 当前操作
 
-先接九高度人工回执，成功即实际跑唯一bounded_short高度stage；同时推进新嵌套正规化和真实局部第三编译。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。
+先接唯一bounded_short真实九高度stage；新嵌套正规化/真实局部第三公开toy通过后立即分别实际编译。全部完成结果即时commit/push并同步H/open；最新公开Actions输出自行pull，核双README。已读来源及经典文献范围在 notes/literature-20261114.md；撤稿局部刚性、成对等距、局部片都不是本题完成。
