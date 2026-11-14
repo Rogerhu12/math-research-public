@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明／实际有向执行（2026-11-14 20:44:02 UTC）**：[原复内根第一forcing及下一局部幅度](results/R133-supplement-actual-complex-inner-root-first-Airy-forcing.md)，run43638232415 child0/14门/.414557s。原矩形同piece的65+193准确导数、全coeff预算和3个完整内域case全成；native41dc8aac…51084B。保原root/mean/二阶chain；内L0w1的第二幅度上界仍大，未授全频source、strong-return、97高逆或真PDE。
+
 - **已证明／实际有向执行（2026-11-14 20:43:59 UTC）**：[固定M32主体双向费用与加权Green](results/R133-supplement-actual-M32-body-cross-weighted-Green.md)，run43637596465 child0/13门，7721新费用及两12361事件扫，原6391 Gram/exp不重算。LH<216.695750、HL<131.620392；body-only G_L A_LH到全L²<2884413.051957、负窗<1351427.386989。这些完整upper尚未给收缩，也不证真实反馈大；mean/高cut trace/真帽cross仍保。
 
 - **已证明（2026-11-14 20:41:40 UTC）**：[同连续中心的完整全频moving帽边界与Poisson接口](results/R133-supplement-full-frequency-moving-cap-boundary-and-Poisson-interface.md)，P1–19。全odd/even L²的精确换图、HC同构和mean标量，真实帽两行的充分必要性；未知无限高输入、全部源/端口及帽内lowhead/终端trace均有完整Poisson列。使用原全频G与Hessian一次resolvent；保守交叉预算尚未闭合Schur。

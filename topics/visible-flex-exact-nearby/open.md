@@ -94,3 +94,7 @@ P1–19准确接任意未知high和独立mean，g的inner非meanC为0，独立in
 ### 2026-11-14 20:43:59 UTC：主体加权真实13门已成，改进目标转频率方向
 
 新完整scalar上界很粗，保留作后续缺陷验证备用。A_LH输出只在33..96，当前全量cone未保该方向信息。下一步调查原Q锚和exact_new_reference_definition，构造新的frequency/128列matrix Green或controllability proposal，再用已成G_L认证其连续缺陷；原target、5970validator和6391Gram不重跑。
+
+### 2026-11-14 20:44:02 UTC：G/H内根14门实际完成，继续去除小域径向Cauchy粗费
+
+全部258导数/coeff tensor/3cases原样保。当前巨大局部上界主要来自原9e−6域的leading径向Cauchy；不当作真实残差下界。phase优先同piece2549辅助解析扩域及真正复3阶/leading径向Taylor，只算新增域/阶，原piece交内由唯一性识别同一w1。外piece与完整I/J/mean仍欠。
