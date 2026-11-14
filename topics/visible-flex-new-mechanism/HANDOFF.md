@@ -6,7 +6,7 @@
 
 闭连通C²嵌入族Ft，t在C²拓扑连续，同一固定g；固定材料H有内点且diamF0(H)≥.2D；不作对齐的整像Hausdorff δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6，并同g/物理参数/时间精化至机器或原容差。D为完整F0直径。δE可0但如实报；完整网格每件<5MB，明示数值与准确存在差距。达标后继续.5D或更强存在。现无完整候选。
 
-- 根/本题README完整读过。公开仓库最后已读规则提交：`4ac99b6c2400fd8f5e724cb8b40930e45755c26f`。
+- 根/本题README完整读过。公开仓库最后已读规则提交：`c0e6f29771d619cce3612df06a034cdfec176b49`。
 - 每次实际pull --rebase后核双README，有变只读diff并立即执行；至少每小时pull。每结论立即提交推送，NFF立即rebase、再核规则、再推至成功，不强推。
 - 公开main和本仓Actions已授权。实际几何/ODE/积分/优化/完整研究编译只本公开Actions；本地仅源码、纸面代数、人工开发核、已公开输出分析。PAT只瞬时CLI/env，不写文件/提交/日志。
 - 私有16:54:17 UTC实际pull至`f8b14a696d8d591013e5996b24c4f5e81a26aa95`，双README无差、QUEUE唯一课题行仍本会话进行中；下一pull不晚于17:54 UTC。私有研究不公开。
@@ -55,6 +55,6 @@ R62新准确分解：固定h,d时Rk=(k²−1)A+kB，±1两整圈零bulk仍保八
 
 R57以e=|Xs|²−1、q=Xs·T给准确operatorη=(|e|+√(e²+4q²))/2；辅助R0充分，旧有限beta类不能自动等同所有直接metric解。R59逐圈b quartic和F投影是必要松弛，根不能拼作合法中心；R61联合放开a′/b给真实L2下界，消F还欠全角E及S′=−2xS。R63仅C²就分类Tz恒0整带：非圆只直柱，圆固定轴，故非圆到圆须某处空间角场，当前v列保留。R48/R51/R55旧尾表示排除均不授一般C²或正误差下界。
 
-**R64**：在明确可微Taylor/一侧解析条件下，凸核心a′=−Cx³迫v7=−side C²(k^−2)θ/(14a0)、b6=−side C²〈k^−2〉/2。当前首片vbase0且径向五次，因此该有限类无准确零；无1e−6下界，不排精化。给局部v7和条件b6补偿，原c0的b6尚未评价；leading不付全部Cauchy系列。mechanism继续正向成套入口基场设计，待实际误差位置才决定实现，不改首轮。
+**R64**：在明确可微Taylor/一侧解析条件下，凸核心a′=−Cx³迫v7=−side C²(k^−2)θ/(14a0)、b6=−side C²〈k^−2〉/2。当前首片vbase0且径向五次，因此该有限类无准确零；无1e−6下界，不排精化。给局部v7和条件b6补偿，原c0的b6尚未评价；leading不付全部Cauchy系列。[成套设计](notes/elliptic-entry-paired-base-repair-design-20261114.md)已三方核：局部Taylor替换及W2/W5/W4锁u5/v8/b7，仍167维新空间；未选ell_e或实现，R2仅给窄GC germ。待实际误差决定，不改首轮。
 
 立即接独立高度lane原始回执（full4已审）：全源/输出SHA及状态/g身份核，区别success与几何通过。按真实残差选择下一open子问题，继续全时/全域metric、嵌入/reach/幅度而非中间报告。16:58按bccf1787读larger-amplitude/exact-nearby公开H，均仍无可借用完整达标族。不得读私有研究补公开结果。
