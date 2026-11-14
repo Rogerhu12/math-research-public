@@ -613,3 +613,8 @@ actual56完整note23172B/1f6d2e98…和三byte审计已推fd7ad46bae4e705803e157
 
 63原完整ZIP494657224B/c90869cd核size/SHA/CRC，原8trial确认1/128实际接受；same-W merit43.794243580548255→43.79041968996707，col.0071092556155250685/BC3.2903722327075875e−8/FD7.094809478749229e−10。最近1/64全18/node合法，仅原mid480观测失败，RMS未执行；64只加mid480，原B5749/C4059和λ/512/全部门不动。新warm6934054f/原status8785231f保持完整原producer。
 新增共享visible-larger-public-completed-readback.yml及显式原63 artifact请求，复用已成功transport，纯I/O reader e3810833先保原结果后核导出byte，不重数学/不增推进门；original reports和完整账只artifact。61只读reader79130024亦保存，large-arrays匹配现publisher；原native尚在运行。新workflow/YAML、6shell、3inline Python、source pins静态通过；63全数组审计尚未冒PASS。
+
+
+## 2026-11-14 22:36 UTC：request64仅补实际最近mid480并保持原求解
+
+四19源94511479/63ec6bd0/6b497dde/7fee2874及接口f5af5423已核完整差异和AST不变范围。只增mid480全2048角至38912行；B5749/C4059与outside offsets不动，typed查询索引不误沿旧flat行号。真正63 warm6934054f/原status8785231f字节绑定，31源pins、原λ270/512/17trials/预算及新FD保持。workflowe30102a1/requestdb723721随本提交触发，尚不冒实际run或结果。61仍在完整原生延拓；课题未完成。

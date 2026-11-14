@@ -48,7 +48,7 @@
 
 最近1/64，原18查询和nodes均合法，仅已观测mid480原RHS非finite，β²最小−.011295551381192093/angle162/4负角；其后完整RMS未执行，亦无完整finite merit，不能冒称其全域都好或merit下降。**64只新增mid480完整2048角**，不由更远试探盲增485/486。mid480两端已在现支持内，B467..483+p5749、原C4059/全部outside offset保持；λ270/512/所有预算与原门保持。
 
-64真正parent目录为 notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/：warm4799943B/SHA6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a，原status1810333B/SHA8785231faf9785c29dffc37bf4415d235d4dbb78d249a06f7cdbe658aef76f46，publicgzip231286B，透明解压原字节。新19独立源码与接口在做，原18不改。63原完整H objective43.54719205984342优C43.79357494676784，final36864slack正、globalradial.9999999999684314；浮点KKT不称认证。最大col仍461/radial1/row155819，W199.05455376436257非零，不漏行、不归因唯一λ。新完整byte reader e3810833从已完成原artifact运行；后续数值工作不等待这项读取形成额外门。
+64真正parent目录为 notes/public-actions-43646179305-1-condensedqp/eighteen-condensed-warm/：warm4799943B/SHA6934054f06c42ab20bc0401133d91bffe9cf90ca4b8f42c14524091d15f82b0a，原status1810333B/SHA8785231faf9785c29dffc37bf4415d235d4dbb78d249a06f7cdbe658aef76f46，publicgzip231286B，透明解压原字节。四19独立源码94511479/63ec6bd0/6b497dde/7fee2874及[完整接口](notes/2026-11-14-nineteen-query-condensed-interface.md)已冻结；38912行，MID=(473,475,477,480,481,482)，插入后的旧mid481/482按typed query重新索引。原18不改。64 workflowe30102a1/requestdb723721绑定31源和真正63父对，随本提交触发；实际run待查询。63原完整H objective43.54719205984342优C43.79357494676784，final36864slack正、globalradial.9999999999684314；浮点KKT不称认证。最大col仍461/radial1/row155819，W199.05455376436257非零，不漏行、不归因唯一λ。新完整byte reader e3810833从已完成原artifact运行；后续数值工作不等待这项读取形成额外门。
 
 ### 1B. Native：先分清保存矩阵、传播与求解误差
 
