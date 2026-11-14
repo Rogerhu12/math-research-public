@@ -675,3 +675,7 @@
 ### R291 附录：固定次数的真实归一化尾矩与显式非纯谱质量
 
 [完整证明](results/R291-appendix-normalized-tail-moments-and-explicit-spectral-mass.md)用原归一化二进制幂和Cayley右测试，得到明确三角Kronecker极限及非二幂首主块逆界7^L；carry误差和正常迹距离给固定D的一致δ阈值。原矩最小奇异值遂至少||N_j^(qD)||/(2·7^L)，所有进位因子用η的准确整数指数写出。q=2时尾非纯质量至少[η_j³η_(j+1)/(62720(1+||Z_j||))]²；真实商费用保留，极小下界不加强旧δ速率，也不与熵o(m)矛盾。
+
+### R293：加强S1/S2的真实强位传输与完整联合必要块
+
+[完整证明](results/R293-heavy-bit-transfer-of-strengthened-first-edge-sos.md)保缩放后的非单位源Gram与新增三次桥tI增长。S1完整同余极限经上单位块Schur准确消去AA*，强迫旧第二高度的三次桥强化序；S2得到含同源M的联合必要块。顶硬端省去不存在的精度，严格负见证可传到有限新增权。未证明一般加强式也未给实际反例；[有限定向探索](notes/2026-11-14-higher-bridge-actual-search-789f.md)仅记录520个完整层样本未见负候选，程序和参数可重建。

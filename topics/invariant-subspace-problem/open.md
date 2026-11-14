@@ -102,13 +102,11 @@ A非零、非紧、单射、稠密像、拟幂零，C*(I,A)为二进UHF，W*(A)=
 
 [两组＋一位全出生全高度](results/R239-appendix-two-weight-groups-one-exceptional-all-births-all-heights-strict-bound.md)的严格c1已闭。[R273](results/R273-two-exceptional-weights-complete-schur-recovery.md)恢复两组＋两异常位：出生一3D及2≤t≤min(q,L)的4D完整MP/单参数Schur，保两硬端；[R292](results/R292-short-group-two-exceptional-weight-birth-two-strict-first-edge.md)已闭min(q,L)=2的相对birth2四维及整个物理K2严格首边；q,L≥3与其他出生/内部高度仍开。[共同低阶矩/真实桥](results/R273-appendix-shared-low-moment-normal-form-and-physical-cubic-bridge.md)及[8D多项式核](results/R273-appendix-eight-dimensional-aggregate-polynomial-gram.md)保同源/完整逆与硬端；正分母不代相邻分子正性。
 
-[R281 极强位全高度传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)把旧第n+1边回传至新第n边，保完整同源PSD块与有限强权阈值。全出生首边与全高度的最优普适常数相同；等权中央边迫该常数≥1，真实八位birth2首比22801/43836>1/2。一般上界1仍开；不能用强等权池压δ而省掉内部出生，真实密度只趋1/2上方。
-
-[R283 精确配对填充](results/R283-exact-singlet-padding-and-half-density-universality.md)以同时被D,D*消去的真实反对称对，令全部旧Γ成为新共同约化块，最高合法高度不变。对任意ε,δ0>0，全部有限问题均可精确嵌入δ<δ0且1/2<sδ<1/2+ε；因此该薄带的最优普适首边常数已与一般问题相同。未进入R279已付低占据区，不能省掉新增出生。
+[R281强位传输](results/R281-heavy-bit-height-transfer-and-sharp-universal-first-edge-lower-bound.md)与[R283惰性配对](results/R283-exact-singlet-padding-and-half-density-universality.md)保真实完整逆：全height与首边最优普适常数相同且≥1，八位birth2首比22801/43836>1/2；全部有限问题精确嵌任薄δ小、1/2<sδ<1/2+ε的带。因此一般上界1和大出生费用仍开，不能通过强池或稀释省掉内部出生。
 
 [R285 形式约束不足](results/R285-two-zero-mode-blocks-do-not-control-the-stronger-first-edge-sos.md)及[无界族](results/R285-appendix-unbounded-formal-sos-costs-with-strict-zero-mode-positivity.md)：两零模块与所列旧边/仿射/粗占据界不足以给S1/S2任意统一有限常数；该族非Boolean，原c1仍开。
 
-[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。两组＋一位的整个物理birth2也已付[严格S1](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)，含短组/硬顶；短侧S2亦闭，主内部范围继续。该出生一的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆，一般正性仍开。
+[R288 逐位Gram](results/R288-coordinate-occupation-collision-and-creation-joint-grams.md)保占据/碰撞/creation全部交叉；[S2](results/R288-appendix-birth-one-s2-contraction-and-weighted-coordinate-lift.md)及[S1](results/R288-appendix-birth-one-s1-diagonal-reduction-and-degree-nine-integer-certificate.md)现已付M≥3全部正权birth1，分别有真实2/3收缩和次数9完整整数严格正证书。两组＋一位的整个物理birth2也已付[严格S1](results/R288-appendix-birth-two-s1-short-sides-hard-top-and-full-physical-layer.md)，含短组/硬顶；短侧S2亦闭，主内部范围继续。该出生一的一位SOS已闭；[一般三塔式](results/R288-appendix-general-birth-three-tower-s1-schur-cancellation.md)保完整F3逆顺序及C²深塔，去掉上出生二阶逆，一般正性仍开。[R293](results/R293-heavy-bit-transfer-of-strengthened-first-edge-sos.md)现付强位S1的第二高度桥强化必要式与S2联合必要块，完整上分支不可删；未获一般正性或实际负见证。
 
 [R286 固定源全高度](results/R286-fixed-source-l1-zero-mode-energy-and-uniform-all-height-tail-bounds.md)付真实ℓ1尾有限源逆平方根能量和原慢尾全height/几何和。实际t_q祖先出生随q上移，固定birth塔最终无分量；受限逆后不自动保有限支持/固定birth，跨出生graph、完整e_q和N=M仍开。
 
