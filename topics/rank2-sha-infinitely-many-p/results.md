@@ -4,7 +4,7 @@
 
 ## 新增结论
 
-- [R456：真实三次接触方向的两carry首提升不相容](results/R456-actual-cubic-contact-and-two-carry-first-lift-obstruction.md)：来源次数二饱和加强到fD<p；同格三次因子F³Q在明确保F²修正条件下，两真实Gaussian carry分别要求系数六与一，读到同一项即差出单位五，排该相对p²提升。结式预算和全部严格窗口已列，未覆盖一般临界来源或原十三行carry类。
+- [R456：完整来源饱和与原首核的强迫角因子](results/R456-actual-cubic-contact-and-two-carry-first-lift-obstruction.md)：次数二来源饱和加强到fD<p；原三块最低行严格迫每个真实首核被t整除。所附单位余因子三次局部提升引理代数正确，但在当前原格无实例，已纠正此前非空排除表述；下一步须处理真实t^r因子及其逐角层电荷。
 
 - [R455：纯伴随正次数原S提取与保斜轴完整中央](results/R455-original-pure-companion-test-and-slope-core-arithmetic-return.md)：六条正Tc矩完整张成六维来源，固定无常数degree36测试精确抽S；真Tc单位修正后仍保持Vres核心，原零确传全部深slab。全法向五阶只含六个正sigma矩，删显示固定有限坏集后同D_n每正n值v5n，余项准确为同slab内Z外域。
 

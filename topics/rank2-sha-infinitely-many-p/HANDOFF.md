@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE仍进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧仓库首次全文读根及课题README（含授权、全部规矩）：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：285a366b2c852af1fb318b34ca75e372f8bfb8aa；2026-11-14 08:17:50 UTC 实际pull/rebase后比较两README，无变。
+- 最近已读规则提交：95c7357ed99e5792b43fe52085ece838b944d197；2026-11-14 08:20:45 UTC 实际pull/rebase后比较两README，无变。
 - 每次pull后及至少每小时同步并比较两README；普通push前也pull，非快进立即rebase重试。
 - 旧仓库2566086397c795b56177e9d8b0c4bb8fe39aab56迁移差异已读；新库首次09faf47d11ebbe12b7ff71d14f89cc4fcd972176与旧规完整差异已读。本课题现只在Rogerhu12/math-research-public工作。新规则11每pull核规；12完整证明直接登记；13用本库Actions；14公开库不得存令牌。旧代跑runner停用，不投ci-queue。
 - main commit/push已授权；不强推、不改写已发表历史。02776e4cd9e08c608f6c806bd1095b3d86453eb4持续执行规则、41bd74e09ab69b38abb61d66c4339a12f0fb7de5日志规则已读；只写课题log，每轮≤5行，不写/归档根LOG。
@@ -50,7 +50,7 @@ R425/428/434两完整中央的唯一真实Hensel参数、Miller常数/q_p(2)、�
 
 R444/449的同预算矩阵J=(JA,JB)、M=(JA,pJB)始终保两条13行、P134/U0和真首次提升。令C=cokerJbar、H=im(B→C)、G=cokerJAbar，则0→H→C→G→0，δA=πβJ；原K2red=kerδA，真正可见G2=C2(J)/Hbar。d2的H投影=βJ，在K2red(J)上等于相对d2投G2。全部p²A0修正通过G2；相对J全Smith≤p时修正全吸收，即使γ>0与真carry P2并存。原Smith为L−26−γ单位、26+γ−h个p、h个p²。要有新机制须相对J已有p²且C2未被carry覆盖，原两中央基准不变；纯forcing扩张不能越过该界。
 
-R456原次数二来源饱和已加强至fD=floor(9D/2)+4<p。对实际P0=F³Q、FΘ与Q原点unit、接触h<s，首核恰2h≥s,h≥ℓ；首次修正R须有R轴阶≥s、ER轴阶≥h。同预算真空间若迫F²|R（显示结式充分界s>bF M+aF N、h>bF M+aF N−2aF bF），两完整carry归一为6aξe+w^(2h−s)u²、aξe+w^(2h−s)u²；2h−s<min(s−h,ℓ)时相差unit5，故βJ(P0)非零。原M carry投影仍保；未覆盖一般临界因子，奇s/ℓ1最小接触尚逃逸。
+R456更正：次数二来源饱和fD=floor(9D/2)+4<p仍有效。真原格在t=0只留0/1/2三条电荷，原三块第零行迫它们全零，所以每个相对首核都被t整除。原F³Q且FΘ/Q原点unit的局部两carry系数6/1引理虽正确，在当前格范围为空；不得称已排实际p²方向。该结论初推d35f2c1238df后即以新提交纠正，历史未改写。deep正处理真正t^rF^mQ与逐角层电荷，R459预留；相对J/原M的carry区别及两完整中央仍保。
 
 R444先行Padé笔记未完成：τ为固定原三层相邻子式比、Schur=D/(D+U*E)；指定p约化非零仍开，角导数V极须D+3清除，不是同方阵闭合。
 
