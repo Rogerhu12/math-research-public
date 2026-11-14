@@ -190,3 +190,6 @@
 
 
 - **R738（已证明并完成精确计算）**：[原p41带标记整数闭周期输入](results/R738-certified-original-p41-period-input.md)。完整Q8图式/4920陪集/整SL2Z端点给819相对基、800闭基及原定向交配det1；原c1=C/index4424和c0粗轨道、deck与反线性全部保持。公开run43612108090，完整表仅artifact；后续原Hodge/period/q/β和高度仍须实际生成。
+
+
+- **R742（已证明）**：[原全部flat jets未分歧下降与深度七Abel等距](results/R742-unramified-original-first-jets-and-depth-seven-Abel-isometry.md)。原Serre导数/weight0函数、完整GL2 determinant与支持于p的Shimura reciprocity保全部tame标记；所有允许jet在同一p未分歧CM域，原本原M2赋值整数≥−2、P赋值偶数。R737整数rounding给大p某η≤1及完整$16I_h(p^7u)/(p^7M_{2,h})=u+pH$，p≥2^512超过g/16标签可用。深度4–6、同h两Cartier单位与真实高度仍开。

@@ -54,7 +54,7 @@ R171固定p43、776bitq的真实自局部λq=16已算，但该q早被Gaussian5�
 
 R219真实忠实普通U及H90接口，原像X须生成上域实子域（次数1892）；真K子域乘积/43次幂不能产生。R239给V7/V42等明确小目标；R243以完全饱和单位求元素Norm核三维，仍非上域普通单位Norm。R250精确射线Γ作用与长度2结构已证，ρ/长度/L仍未实测。普通非单位见证外支撑正Artin修正不可省。继续忠实Norm或等价后阶可积性；小11次特征结果不能代替χ±1。
 
-## 当前执行与精确缺口（R734、R733、R732、R731）
+## 当前执行与精确缺口（R742、R741、R738、R736）
 
 压缩前全部公式、来源及路线边界保存于[完整检查点](notes/2026-11-14-open-checkpoint-through-R721.md)；
 以下以最新已证接口继续，已完成计算不重跑。
@@ -99,100 +99,47 @@ $B<106516214032/10^{12}<1/2$。
 
 ### 原 sigma 临界系数与完整 Abel 函数
 
-R697/R698 已给原 sigma 六截面、实际 Gaussian 和准确算术平方根。
-R706 的5992素数窗口中，137147是 $C_{p-3}$ 的真实零，
-且 $C_p=80155$；原 R710 数组后两权为117309/122674，
-$v_p(M_8)=-7$、残余次数 $r=3$。
-R711 的原 $\mathbb Q$-下降和全换参给全部 jet 整数赋值。
-R722 现认证此处 $v_p(M_2)=0$，并保留 $v_p(M_5)\ge-3$、$v_p(M_8)=-7$；
-原 coarse Abel 在 $v_p(a-1)>7/2$ 只有中心零，$p^4$ 闭盘准确等距。
-两非中心 scalar 零的赋值恰 $7/2$，不在 $\mathbb Q_p$；
-已成5992素数窗口的候选 $\mathbb Q_p$ 深盘均无非中心 scalar 零，仍非高度排除。
+截至R741的完整原式保留于[本次归档](notes/2026-11-14-open-before-R742.md)。
+[R742](results/R742-unramified-original-first-jets-and-depth-seven-Abel-isometry.md)
+以原Serre导数构造weight0函数：$M_{2,h}=-864\mathfrak J_h(\zeta)$。
+完整算术GL2 determinant、支持于p的idele与原CM torus使全部允许flat jets
+同处一个p未分歧有限CM域，包括非本原正标签与M2可能为零的情形。
+保原R588标度、tame向量和原c1的运输；不把额外$\zeta^2$相位乘两次。
+原本原M2非零时$\eta_h=v_p(M_{2,h})\in\mathbf Z$且$\eta_h\ge-2$。
+结合R740，原$P_h=S_{2,h}S_{3,h}/C_0^2$非零时赋值为偶数。
 
-[参数路线边界](notes/critical-sigma-jet-parameter-boundary.md)
-保持同一六同源/二挠点而改 Gaussian 参数 $c$，
-有 $F_p=0$、$F_{p+1}=6B$ 恒单位而 $F_{p-1}(c)$ 有根。
-因此仅凭这些超奇异/Cartier/移位数据不能推出临界单位；
-原固定 $c=s$ 的 CM 约束仍须使用，未给原 $C_p$ 反例。
+R729对全部充分大允许p给原M2非零，R726同时给原秩/log接口；
+R682遂有原共同Abel阶m1，仅得真实高度被$s^2$整除，未得首项单位。
+R730完整Hodge界$v(M_m/m!)\ge-1-mp/(p+1)$和原jet比值在$\mathbf Q_p$
+控制全部阶乘及无限尾。R737的原均方平均给
+$$
+\frac1g\sum_h2\eta_h<3+\delta_p,\qquad
+\delta_p=\frac{134\log2+\log(1+\log p)+2\log(2+\log_2p)}{\log p}.
+$$
+R742整数rounding得$p\ge2^{160}$某实际本原$\eta_h\le1$；
+$p\ge2^{512}$时这类标签超过$g/16$。对这样的同一原组件，完整Tate恒等式为
+$$
+\frac{16I_h(p^7u)}{p^7M_{2,h}}=u+pH_h(u),\qquad H_h\in u^2\mathbf Z_p\langle u\rangle.
+$$
+其在每个完整值域上均为等距自同构；真实KS标量$\gamma_h$只保非零，未设单位。
+尚未覆盖全部候选$p^4$盘或深度4–6；更不将正秩有理点条件替成Abel回零。
 
-[R721](results/R721-uniform-conditional-deep-Abel-isometry.md) 已证：
-若原 $C_p$ 和完整 $M_2$ 均单位，原 $I$ 在 $v_p(a-1)>7/2$ 只有中心零，
-并在 $p^4$ 闭盘给准确缩放的等距自同构；
-$v_p(M_2)=h\ge0$ 有限时有 $p^{h+4}$ 深盘版本。
-原 KS 标量保留；完整 Abel 结论不能代 $\Lambda,\ell_h$ 或实际高度。
-R712 严格 LT 两块给另一路下一位公式；实际 $D_{137147}$ 数值仍未展开，
-但原完整 $M_2$ 的单位性已由 R722 另一完整算法解决，不再等待该值。
+R740用真实循环整格Gram商及T不变线证明$v_p(N_h)$非负偶数，
+R741据R733几何均值给原单位标签占比$U/g>(1-\epsilon_p)/2$，
+$\epsilon_p=\log(5(2+\log_2p))/\log p\to0$，无M2非零前提。
+R734还对每个$p\ge41$、$p\equiv5\bmod6$给某$h>1$真本原N单位。
+两个比例界未强迫N单位集与低Abel赋值集相交。
 
+R727保同一原向量/torus及全部Fourier尾：同一真本原h的
+$N_h,C_{h-2},C_{p-h-2}$三单位给$\eta_h=-2$、整个$v_p(a-1)>3$仅中心、
+$p^4$闭盘等距。两个Cartier系数同h非零仍缺；固定有限h>1可被CRT全部排成本原。
+[参数边界](notes/critical-sigma-jet-parameter-boundary.md)说明超奇异/移位数据不能代原固定CM参数。
 
-[R729](results/R729-uniform-full-Abel-nonvanishing-and-valuation-bound.md)
-进一步证明原 weight-five/weight-seven 的 full 与 primitive 四均值均趋于
-$\pi/\sqrt3$，通过原有限 CM 和的同一 Galois 轨道得全部充分大允许 $p$
-的指定完整 $M_2\ne0$。结合 R726/R682，原共同 Abel 阶为 $m=1$。
-若 $h=v_p(M_2)$，则
-$5+2h<g(9+115\log2/\log p)$；对 $p\ge2^{115}$ 有 $h\le5g-3$。
-无 $C_p$ 单位前提的完整整 Tate 级数给 $v_p(s)>h+4$ 的线性占优，
-以及 $p^{h+5}$ 闭盘的缩放等距。故充分大 $p$ 的深度 $5g+2$ 盘仅有中心。
-此深度仍随 $p$ 增长，不覆盖候选整个 $p^4$ 盘；高度外积仅知 $s^2$ 整除，
-不知恰二阶或共同无根。
-
-
-[R727](results/R727-other-primitive-embeddings-toric-norm-and-original-M2.md)
-保留同一 split 向量与原 $\zeta$-CM torus，给任意实际本原
-$h\equiv1\bmod6$、$7\le h\le p-4$ 的
-$N_h\equiv-P_{h-1}(1/\sqrt{-3})^2$。
-两条完整 Fourier 尾及原范数给：
-若 $N_h,C_{h-2},C_{p-h-2}$ 均单位，则 $v_p(M_{2,h})=-2$。
-一般 cuspidal Bruhat 公式只损一个 $p$，结合原有理 Abel 直线控制全部阶乘/无穷尾，
-从而整个 $v_p(a-1)>3$ 盘只有中心，$p^4$ 闭盘准确等距。
-$h=7$ 时 $N_7\equiv-(47/9)^2$；
-须分别保留 $7\nmid p+1$ 与 $p\ne47$。
-实际137147的旧 $C_{p-9}=122674$ 给这一组件的完整盘结论；
-并未由此证明全 $p$ 存在可用 $h$ 或实际高度排除。
-[固定标签限制](notes/fixed-finite-h-primitivity-obstruction.md) 进一步用 CRT/Dirichlet 证明：
-任何固定有限组 $h>1$、$h\equiv1\bmod6$，在两个允许素数类各有无穷多个 $p$
-使全部 $h\mid p+1$，因而全非本原。须允许 $h$ 随 $p$ 变或保留 $h=1$ 的补充，
-不能用这条限制冒称原 Cartier 系数已零。
-
-
-[R730](results/R730-fixed-depth-original-Abel-isometry-by-all-embedding-norm.md)
-把单嵌入的随次数增长界改为固定深度。
-原 AFE 的完整二维格点界给所有 $L_5<2^9\sqrt p$、$L_7<2^{11}\sqrt p$；
-原 finite toric norm 为全正代数整数且每个复值 $\le p^2-1$。
-对 $DN\mathcal P$ 的全部嵌入取同一全局范数，度数在平均中消去，
-得某个实际本原 $h$ 满足
-$2v_p(M_{2,h})<5+125\log2/\log p$；
-当 $p\ge2^{125}$ 且原 $M_{2,1}\ne0$ 时可取 $v_p(M_{2,h})\le5/2$。
-同一 KS 标量下的原有理 jet 比值与完整一次 $p$ Hodge 界给
-$16I_h(p^9u)/(p^9M_{2,h})=u+pH_h(u)$，$H_h\in u^2\mathbb Z_p\langle u\rangle$。
-结合 R729，全充分大允许 $p$ 的原 Abel 映射在固定 $p^9$ 深盘有一实际等距组件，
-故不回到中心。选取的 $h$ 可随 $p$ 变；仍未覆盖整个 $p^4$ 候选盘，
-更未把正秩有理点条件替换为 Abel 回零。
-
-
-[R733](results/R733-averaged-original-toric-norms-and-depth-eight-Abel-isometry.md)
-继续把固定盘改善到 $p^8$。
-对全部正六标签作有限角色平均，只剩六条 $\mathbb F_p$ 直线，
-每个原 torus fiber 至多十二个点，故 $\sum_{\mathcal H}N_h<13mp$。
-正性、AMGM 与初等 $n/\varphi(n)\le1+\log_2n$ 给
-原本原 norm 的几何均值 $<5p(2+\log_2p)$。
-同一全局整数范数遂给
-$\min_h2v_p(M_{2,h})<4+[128\log2+\log(2+\log_2p)]/\log p$；
-$p\ge2^{136}$ 且原 $M_2\ne0$ 时某实际本原 $h$ 有 $v_p(M_{2,h})\le2$。
-完整有理 jet 比值和 Hodge 尾得
-$16I_h(p^8u)/(p^8M_{2,h})=u+pH_h(u)$。
-结合 R729，全充分大允许素数已有固定深度八的原 Abel 等距；
-原深度四候选及高度方程仍未排。
-
-
-[R734](results/R734-primitive-unit-toric-norm-at-every-prime.md)
-现对每个 $p\ge41$、$p\equiv5\pmod6$ 消去有限 norm 筛选的存在性障碍：
-总有一个 $h>1$ 的实际本原嵌入使 $N_h$ 为单位，且数量至少
-$\lceil(K(m)-4)/2\rceil$，
-$K(m)=m\prod_{q\mid m,\ q\ge5}(1-2/q)$、$m=(p+1)/6$。
-完整六步 Legendre 递推在实际 $d=6j$ 集合至多允许两个相邻零对，
-而准确 CRT 计数至少给三个本原相邻对，故结论覆盖全部素数，无扫描外推。
-同一个 $h$ 的 $C_{h-2}$、$C_{p-h-2}$ 共同非零仍未证明；
-因此本条没有新增全素数 $M_{2,h}$ 单位或深度四排除。
+R739公开run43610788824只复用原五SHA输入：p47/h7原N赋值4、首单位38，
+同h两C单位故M2单位；p41/h37原P赋值−2、首单位23、N≡33，故M2赋值−1。
+准确圆分Norm决定9/21位精度，零纤维/格点/DFT重算。
+R706的5992素数完整窗口仅137147的Cp−3为零；R722已闭合其原M2单位，
+两非中心scalar根深度7/2非Qp，完整p4等距；仍非高度排除。
 
 ### R717/R722 原精确范数：137147 目标完成
 
@@ -330,22 +277,10 @@ R704 原43嵌入矩阵及R708局部Norm歧义已处理；
 仅局部条件不能替全局普通输入。
 
 
-**R737（已证明）**：完整原L5/L7全字符均方为O(logp)，signed整数倍、逐visible index-p格、六线block相位全保留。原DN·P的几何均值<2^134 p8(1+logp)(2+log2p)²，故mean 2vM2<3+δp；在原非零前提下，p≥2^160存在vM2≤3/2，p≥2^512超过g/18原本原标签满足。R729给全充分大前提。只知2v整数，归一有理jet尾仍给p8；一般半整数可能性、候选p4和原高度未由此排除。详[R737](results/R737-original-central-second-moments-and-abundant-low-Abel-slopes.md)。
-
-
 **R736（已证明）**：同原p43/q标记，NS kerΓE_M=(π,N_T)kerΓE_N等于全部原q直接相位核。原Fr=s32给s在μp²上指数1+2p及rμ(ct)=ell(ut)，R207实一致化元保含极点双Norm相位零。故存在原divY=D_Tq、NΓY=NSY=D_TXt；Z=Xt−(t−1)Y同时NΓ/NS/NT=Aα，原直接相位rμ((s−1)Y)=−4J，flat=−4(J−18)。完整普通校正已证，真正与R720原b的T/Γ链及J/b数值仍缺。详[R736](results/R736-original-three-norm-exchange-and-minus-four-moment-phase.md)。
 
 
 **R735（已完成原模型输入）**：公开run43608152850首次生成原p41同一b=r0⁶的完整七次F41，在原280维除法商代数完整核F41(b)=0、七个低阶系数v41=1、disc41=6和F41'逆。原b是唯一实正根，目标Néron格b^j/F41'(b)ω已具体，本原仍投e42；完整小cert SHA752aa03f9cbe7d3174a7c508fce3043e21e8e85fd087e01acc4bca82a5cbd574。原q函数/β/Manin尺度/高度仍待继续，原4920coset/800闭周期输入已由R738完成，继续原Hodge/adelic矩阵，勿重算模型。详[R735](results/R735-exact-original-p41-CM-model-and-Neron-input.md)。
-
-
-**R740（已证明）**：每个真本原原N_h的p赋值为非负偶数。用原Weyl/Bruhat模型得到实际循环整格和准确Sym^(2r)det^(−r) Gram商，再由T不变维数一排除radical；完整整数恒等式N_h=(p+1)c_h²G(w_h,w_h)、后因子为单位。原P_h=S2,hS3,h/C0²的奇偶仍独立，未由模p平方同余推出高精度结论。详[R740](results/R740-even-valuations-of-original-finite-toric-norms.md)。
-
-
-**R739（精确结论已证明）**：公开run43610788824复用原p47全部计数及R717旧p41整数多项式，准确圆分Norm给足够精度。原p47/h7有v47(N7)=4、N7/47⁴≡38，同h原C5/C38单位故M2单位；原p41/h37有v41(P37)=−2、41²P37≡23、N37≡33，故v41(M2,37)=−1。无新纤维/格点/DFT。仅关闭两个原嵌入的精度/赋值问题；全部P_h奇偶及原高度仍另需证明。详[R739](results/R739-exact-original-p47-and-p41-valuation-continuation.md)。
-
-
-**R741（已证明）**：原本原有限范数N_h单位占比U/g>(1−εp)/2，εp=log(5(2+log2p))/logp→0；p≥2^64、2^160、2^512分别>3/7、15/32、125/256。证明使用真实全嵌入整数Norm、p在实系数域完全分裂、R740每个非单位赋值至少二及R733完整平均，无M2非零前提。仍须同h两个C单位；与R737的低Abel赋值集合不可直接假定相交。详[R741](results/R741-abundant-original-primitive-unit-toric-norms.md)。
 
 
 **R738（原带标记闭周期输入已完成）**：公开run43612108090在原六层Q8图式和同一p项链上生成4920陪集及每条整SL2Z代表；g400、20个宽246尖点、819整数相对基、800整数闭基与交配det1。原c1唯一实标签C为4424，deck[4424,0,1258]对应[1,ζ,ζ²]；c0三轨道是同一个粗点。两完整大表只artifact，cert SHAa853f36bf5d6f7d238e805a5c2134b2f7b3db17528195d56d980e66c9c769009。真正待继续的是原正CM因子的Hodge/完整adelic表及周期求值；原q函数/β/高度未出。详[R738](results/R738-certified-original-p41-period-input.md)。
