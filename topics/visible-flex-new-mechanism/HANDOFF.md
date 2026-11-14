@@ -4,7 +4,7 @@
 
 ## 1. 规则与操作
 
-根/本题README已全文读。公开仓库最后已读规则提交：`5d445ffe2800c4673947536df0c2c3e0b45d2830`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
+根/本题README已全文读。公开仓库最后已读规则提交：`09666e6e9f8adf195f500939d8d26b831bf01609`。每次真正pull --rebase后立刻比根与本题README；有变只读差异立即执行并记SHA。至少每小时pull。每个有意义结论即时commit/push；NFF立刻pull/rebase、核两README、重推至成功，绝不force。
 
 私有20:42:44 UTC实际pull至`a0de3f9fcfb21e9db3e6863a8b48a665b9b5f0a3`，双规则路径无差，本题私有README不存在；QUEUE本题唯一行本会话**进行中**。下一私有pull不晚于21:41 UTC。
 
@@ -24,7 +24,7 @@ A1/B7/25/半宽1/50，L.9、握持rc.22、tc.036、tf.846、六帽R.274。167=81
 
 **当前完整物理trial** 5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea。七input独立只读actual43639240317/sourceaf5d4aa7已complete193.203s/RSS573204KiB、人工pass、优化0/δ重赋0。原δ=.2651667068964935保持。work100×192 η.265282719；fine160×384/768 η.367912434/.368054494，漏峰s=.7875自然帽patch，κ87.5702225/87.5702066；入口κ35.099/body31.864。镜像已.102711905621>.061，minz.02、y.389999964713<.39、球norm².990461956、帽高.1427042008798/硬行裕3.67e−11；三网物理门全过，旧δ均失败/细缺.102888。公共Πη差2.01e−6不解释.1漏峰。完整raw732167B SHA169e6cb8fa1bf2c5bb5c1821ee09903b344467fff66d7243cede4c938d66e05f，详notes/metric-epigraph-saved-trial-first-fine-result-20261114.md。
 
-下一新dense续求正在实现：旧100径向是fine160子集，160×192工作消漏峰；明确新δ=新工作η+裕量，旧δ/旧报告不改。保同g/b0/163/帽高/盒/z≥1e−4/球1.01/strip.39；加τ.061镜像必要行z²|Xs×T|²−τ²(Xs×T)z²≥0及独立正则/直接法弦筛。一次80iter/120物理eval/300s，分别保best物理η与aux可行态，最终选前者，同参数384/768诊断；曲率仍末诊断，完整reach远未付。
+新dense源码7a62290e/driverc0fe3a6c已请求同job人工→唯一实际：旧100径向是fine160子集，160×192工作消漏峰；明确新δ=新工作η+裕量，旧δ/旧报告不改。保同g/b0/163/帽高/盒/z≥1e−4/球1.01/strip.39；加τ.061镜像必要行z²|Xs×T|²−τ²(Xs×T)z²≥0及独立正则/直接法弦筛。一次80iter/120物理eval/300s，分别保best物理η与aux可行态，最终选前者，同参数384/768诊断；曲率仍末诊断，完整reach远未付。
 
 ## 4. 新B=.37局部核心与成套leading
 
@@ -50,4 +50,6 @@ P0、逐s第四ruling、更高阶/收敛、完整宏观嵌入厚度仍欠；resu
 
 ## 6. 持续推进
 
-已完成的公开run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。当前三项：mechanism实现5d同g密径向minimax；当前request已部署literature的t1×W0四列/旧15行R98查询扩展（120s/768MiB，不重评旧14列），与repo_sources的真实D25 c8端势consumer（240s，保23histories/原DAG）。两小人工新分支已过不重复。R95压缩actual已完成；所有新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md。
+当前request为metric_epigraph_dense：同5d旧g/160×192/新增镜像必要筛，单次300s，结果后按真实峰与曲率续。theory run43640085842/sourcebccbbe27两lane已complete：c8原DAG/全部真实系数ODE/端势/R97两primitive全0（11.634s），R100正登记；t1×W0四列2.406s，两Jacobi列0、另两归一余2054146430/721224600非零，给真实第四切向、不授负基准成本，R99正登记。literature续固定小M族重复与真实成本复制两号lemma，必须先付共同物理I；repo_sources续反射左右锚/真实c8符号。
+
+已完成run和完整历史在results.md/notes/git，不重跑旧quartic或已定全state P1。新计算仍只公开Actions。每个实际结果及时pull核两README、更新H/log/open并推，子题完成即接open不等阶段批准。原始来源边界见notes/literature-20261114.md。

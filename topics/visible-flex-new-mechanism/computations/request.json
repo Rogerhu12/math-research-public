@@ -1,26 +1,41 @@
 {
-  "request": "true-c8-action-and-transverse-fourth-character-response",
-  "created_at": "2026-11-14 20:55:46 UTC",
+  "request": "dense-radial-fixed-metric-minimax-with-mirror-screen-and-physical-best",
+  "created_at": "2026-11-14 21:00:35 UTC",
   "repository": "Rogerhu12/math-research-public",
   "lanes": [
-    "pure_tail_c8_reduce",
-    "fourth_character_transverse"
+    "metric_epigraph_dense"
   ],
   "source_sha256": {
-    "literature_pure_tail_c8_reduce.py": "1f4dfb341ee76e5cb2cbc9ca9b36f0153838572a5e354d1c64bed27ce49bad0d",
-    "literature_fourth_character_transverse_probe.py": "84a8ea232536263af398f781b5647ab540e06e21e9c2a83005d4cee2708451c3"
+    "frame_metric_epigraph_dense.py": "7a62290ec82a7a1499fcfd5a029cf0b4a33e044af2f74f80f478fe12aab38b9e",
+    "frame_metric_epigraph_dense_audit.py": "c0fe3a6c085681c8608b1e9a00733891575600d98fb1855c52ea3e6dcd0b573d"
   },
-  "c8_input_run": 43639240317,
-  "c8_max_seconds": 240,
-  "c8_true_coefficient_histories_and_original_DAG_required": true,
-  "transverse_input_run": 43638896281,
-  "transverse_max_seconds": 120,
-  "transverse_memory_polling_mib": 768,
-  "transverse_only_new_original_columns": 4,
-  "transverse_saved_rows": 15,
-  "transverse_old_columns_target_rank_not_rerun": true,
-  "transverse_extension_not_old_space_membership_claim": true,
-  "toy_checks_already_passed_no_repeat": true,
-  "period_sign_or_complete_P0_claimed": false,
+  "original_inputs": 8,
+  "saved_trial_physical_sha256": "5d383918734118c105af3cfc2571731cdbefc2ad23939a4eb43a973e50b472ea",
+  "complete_metric_sha256": "fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6",
+  "physical_parameter_count": 163,
+  "new_work_radial_union": 160,
+  "new_work_angular": 192,
+  "targeted_artificial_before_actual": true,
+  "old_auxiliary_delta_and_old_run_unchanged": true,
+  "new_initial_delta_from_new_grid_with_explicit_margin": true,
+  "mirror_target_exact": "61/1000",
+  "mirror_row_requires_independent_direct_and_regularity_screen": true,
+  "maximum_optimizer_calls": 1,
+  "max_iterations": 80,
+  "max_physical_evaluations": 120,
+  "max_seconds": 300,
+  "final_selection": "best_physical_max_eta_point",
+  "selected_raw_auxiliary_delta_not_inflated": true,
+  "final_fine_grids": [
+    [
+      160,
+      384
+    ],
+    [
+      160,
+      768
+    ]
+  ],
+  "curvature_final_diagnostic_only": true,
   "task_complete": false
 }
