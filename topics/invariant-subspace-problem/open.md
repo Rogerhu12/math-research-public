@@ -23,7 +23,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-R273-moments-789f.md)及其中各轮归档；未列条目不算关闭。
 
-**原式来源与完整第二提升：** [1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)九源cost86。[真实r2](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)排固定X mod31全部mod29791提升；[四真实δ2](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)连β像维数6仍逐目标失败。余198接[37维/实际转置](notes/2026-11-14-r150-second-bockstein-primary37-and-dual-transport-789f.md)，保P次数≤189与有限原预算177；完整第二像及31饱和继续；1632低方向真提升已付，不排Q31分母或称char0。有限预算/∞条件与全部细节保[本次前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
+**原式来源与完整第二提升：** [1834核β](notes/2026-11-14-r150-complete-polynomial-bockstein-obstruction-789f.md)排任意次数31整数h0来源；[保根集H0原17式mod961](notes/2026-11-14-r150-h25-full-original-seventeen-mod961-cost86-789f.md)九源cost86。[真实r2](notes/2026-11-14-r150-h25-second-original-residual-obstruction-789f.md)排固定X mod31全部mod29791提升；[四真实δ2](notes/2026-11-14-r150-four-genuine-second-bockstein-insufficiency-789f.md)连β像维数6仍逐目标失败。余198接[真实两Taylor环143/39/37商](notes/2026-11-14-r150-two-taylor-ring-complete-quotient-789f.md)，104自由检验/P次数189/原carry全保；完整第二像及31饱和继续；1632低方向真提升已付，不排Q31分母或称char0。有限预算/∞条件与全部细节保[本次前全文](notes/2026-11-14-open-before-cofactor-kernel-789f.md)。
 
 ## 当前接口一：原 Haar 慢符号的正常湮灭者
 
