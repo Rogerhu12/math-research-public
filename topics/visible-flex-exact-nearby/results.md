@@ -9,3 +9,5 @@
 - [R133完整帽残差的双实场FFT与同源前缀继续](results/R133-supplement-packed-cap-Fourier-residual-and-prefix-continuation.md)：恢复并重推准确B+iC打包恒等式，512点定向FFT保全部±255卷积、257物理态/97列及mean；复用真实旧513..603共91格并从604续算，旧−9/complete=false原样保。全部1977格残差尚需完整覆盖。
 
 - [R119同一低κ方向控制完整混合中心型](results/R119-supplement-common-low-scaled-direction-and-complete-mixed-pocket-form.md)：恢复第73束共同低κ方向的完整证明；重新执行91个准确门，包括6792个Bernstein系数严格正，C_e>2^-48 κ² I保e>0而不损e/κ²。仅中心低band与flux mean的完整型，常高度为null，未授全网络。
+
+- [R119完整低锥与显式外块crossing费用](results/R119-supplement-complete-low-cone-and-explicit-exterior-crossing-form.md)：恢复第74束同一方向的完整低锥/外块负项估计；重新执行76准确门，保全H4范数和Young交叉费及明确高频定位门。尚须证明整个网络近核满足该定位条件。
