@@ -6,7 +6,7 @@
 **主目标未完成；QUEUE进行中（Astra-rank2-Sha-continue / 2026-11-14）。跨上下文继续，不等阶段确认。**
 
 - 旧库首次全文读根及课题README含全部规矩：789d22af7199385c25aa905e9ed144370b484152。
-- 最近已读规则提交：4ebbc2e0efe848e6e241ea30bfb600367880bdd9；2026-11-14 17:43:03 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
+- 最近已读规则提交：e7a4cae6bad31add0ffc7626bee1e0cd07ace8f7；2026-11-14 17:43:48 UTC 通过GitHub读取main并比较两README，无变；执行环境断连，未冒称实际git pull。
 - 只在Rogerhu12/math-research-public工作。每次pull后及至少每小时比较根/课题README，有变立即读差异执行并记SHA。规则12完整证明直接登记，不设冻结/独审/机械复跑；规则13公开Actions，旧runner/ci-queue停用。
 - main逐条commit/push已授权；禁强推及改已发表历史。非快进立即pull --rebase再推；环境断连时API用expected_sha/force=false，拒绝立即读新头核规追加，不冒称实际pull。
 - 令牌只终端临时环境，不入文件/提交/日志/回复。仅本课题log每轮≤5行；单文件<5MB、Markdown/接口<100KB、HANDOFF<10KB、open尽量<30KB。
@@ -62,3 +62,5 @@ R553 U=c+ωd,V=c−ωd whole双ThetaΣ张量：ρ0=ω(X−Y2)/84，η=(ω²X−Y
 R548 whole P2,Yη=−ρ0/2；N13,Y^9=−B2,Y而K136=RY B2,Y，RY不能在whole删。原五伴随B13^9实现Rc，故h=η+ρ0/2满足P2h0、Bh=h、Rc h=h，S伴随Aη=−A0/2。principal全17条均有真实卷积单位伴随，12外谱范数分子1；其余五角各17维ambient保留，不称实际rank皆17。h wholeQcore−χ65λ，Q=(Z2−Z1)/30；h(Phi1−Phi2)=h((f−fRc)P1)，P1不与Rc交换。全CM纤维读A_j D_a及Rc A1 D_a原序，全部Y/W/q/cut和参考导数保。
 
 R557 MH=2ω(c−d)使C/F/Dj/Ej whole β核心在η/h完整保持；同R536 q严格π4中性βn，无需qH=q。原Dn上所有自由x测试质量严格0，rη=−(12+8ω)/7，rh=−(17+16ω)/14。η首项Y/W同(−36+72ω)/49、W2(−12+24ω)/49；h首项(−54+45ω)/49,(−18+3ω)/7,(−6+3ω)/7，均unit、中央v=n。η未归一Y−W≥2n，h差v=n；native uj cut非π4仍另付。此h与R536旧ω²Tρ不同。
+
+平均预算[已付尺度引理](notes/2026-11-14-deep-fixed-depth-tame-average-budget.md)：同一饱和jet归一det收益须Σg_p,D logp>3M_D logD；固定三块只省O(M_D)，全p>cD整性也仅(3,0)临界。deep转wild p≲D/原完整Euler primitive；R62旧Stokes已付，禁止换符号重登记。R555仍保实际forcing，root下一R558。

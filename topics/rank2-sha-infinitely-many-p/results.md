@@ -311,6 +311,8 @@ R130–R399 的完整原条目与链接见[本次完整结论索引归档](notes
 
 ## 其他完整子结论及范围核查
 
+- [固定三块及全部tame整性在平均斜率中的准确尺度](notes/2026-11-14-deep-fixed-depth-tame-average-budget.md)：同一原饱和jet方阵的归一行列式收益g_p,D准确读取全部限制映射范数，足够门是总收益超过3M_D logD主阶。固定三Gaussian块即便全整也只省O(M_D)；全部p>cD整性仍只到(aI,bI)=(3,0)临界。正单位秩下界不等于行列式正收益，继续实际wild位或大p额外整除。
+
 - [原六度固定负矩的普通第一层与有限计算](notes/2026-11-14-degree6-negative-moment-first-layer.md)：给两负矩准确的固定级数prime diagonal及无p分母递推；147个普通p<2000仅有限证据，f4首层全非零、f1在61首层为零。没有无穷非零或全ray命中结论。
 
 - [原J反射的三维CM块与算术投影边界](notes/2026-11-14-j-reflection-three-dimensional-cm-boundary.md)：保全六sigma来源及十八维精确CM矩阵，反射源循环恰三维、N7³=ω，原三算术投影全零；无法直接从原S/H3/H5中央取回这条反射源。
