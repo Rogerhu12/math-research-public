@@ -460,3 +460,7 @@ request12仅banddirection，入口0149e7f1…消费真band run的完整step/rhs/
 ### 2026-11-14 12:24 UTC — R253 fixed-map superalgebraic projection conditioning
 
 完整R253直接登记：固定光滑正非恒材料密度下，严格有限载波窗构造同一单位输入，对连续及所有偶N≥(4+ε)M的精确DFT投影和均值均超代数小；统一非驻相付全部alias、源截频及√M代价，固定正P11给条件数增长。与R250可逆无矛盾，不当作本次实际失败因果证书；新的R252完整φ实际入口继续接线。
+
+### 2026-11-14 12:27 UTC — request13 complete physical-angle boundary, true-J response and actual full solve
+
+新增R252四独立源及两说明；明确新finite Rφ，保全部物理/core/scalar/真实tail和原数值门。response用已付真T112 J及非零H检两个核心链式项，通过即原全带LU联解；新旧R/缺项/正确均值/全角谱固定同一实际尾审计。根修改共享.github/workflows/visible-larger-public-mainline.yml增加coupling112physical并接完整readout/closure/R249，publisher同时增加lane，request13只选此项；全部数值只公开Actions，尚无新接受。
