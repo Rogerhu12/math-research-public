@@ -30,7 +30,7 @@ request08/run43588155190的prepare112已真success：690+6支持点+3taper RMS�
 已完成T96 anchor：run43582043166/artifact14109122474，notes/public-actions-43582043166-1-tailzero/zero-H-T96/；真805.484s/exit0/resid0/metric9.992e−16，全27840 J。chart condition1.391e17，真mode96 slopeJ589.6397 vs ready587.3800；零残差不证J稳定。run43584222071实际J代数二阶相对差1.32053e−12、height I/mean0/跨模0，ready相对差.011685保留。
 seeded_zero_tail_client原7件严格bundle校验已泛化：只对同M/N、全部数值config/source/capacity/ready/完整rawState的exact零H且audit=False首响应复用，worker仍初始化；任何新H或audit=True真求解。112须完成自己的新目录后再配置env，96会被拒绝；勿重复已完成96求解。
 R239连续均值唯一/单SE2六jet是条件定理，有限DFT不自动满足。physical已含z0，不再加旧A mean；φ有限频可含无限θ谱。材料包必须读取真实完整scalar schema及全p*/supports；新场要自己的实际最终H尾。large_core_saved_prefix/closed_assembly已支持完整mean、单SE2、全角cut0/1/2jet修补；v3 dispatch由geometry接续。core witness也随SE2变，G≈.96不能直接冒新像距离。
-R240：材料g=ds²+a(s)²dθ²与core c无关。设计定型后冻结完整a(s;p*)/尾帽g/区间/t范围，释放全部core，K0/k0/T=M，增广4M+2（左3M+2/右M）同g精化。先按原design维数/p*/支持重建scalar，再升field modes；新H实际重算不padding旧H。Ntail>8M，帽中心固定图册。尚无新完整DN接受场。
+R240：材料g=ds²+a(s)²dθ²与core c无关。设计定型后冻结完整a(s;p*)/尾帽g/区间/t范围，释放全部core，K0/k0/T=M，增广4M+2（左3M+2/右M）同g精化。先按原design维数/p*/支持重建scalar，再升field modes；新H实际重算不padding旧H。Ntail>8M，帽中心固定图册。尚无新完整DN接受场。独立same_metric_profile/prepare/response/full_dn四入口已备：v4永久嵌套原v3完整p*及canonical SHA，K=k=0、450/514维，真parent及final-audit/config逐字绑定；尚未运行，命令见same-metric-refinement-executable-interface note。
 
 ## 已付工具、旧A与GW剩项
 

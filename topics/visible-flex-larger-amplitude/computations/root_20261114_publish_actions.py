@@ -47,6 +47,17 @@ def main():
         within = src.relative_to(a.results)
         row = dict(source=str(within), bytes=src.stat().st_size, sha256=sha(src))
         target = dest / within
+        # These native radial point arrays are reproducible from the complete
+        # accepted response/config and the pinned readout code. A new M112
+        # readout has over 450 MB of raw points; Rule 10 keeps these large
+        # intermediates in the already uploaded artifact, not in Git.
+        radial_nodes = any(parent.endswith('-actual-tail-readout') and child == 'nodes'
+                           for parent, child in zip(within.parts, within.parts[1:]))
+        if radial_nodes:
+            row['not_published'] = ('Reproducible actual-tail radial point node; retained in the Actions artifact. '
+                                    'Regenerate with the accepted response, original config, pinned source and stored readout intent.')
+            rows.append(row)
+            continue
         if src.stat().st_size > 1000000 and src.suffix in ('.json', '.jsonl', '.log'):
             content = gzip.compress(src.read_bytes(), mtime=0)
             target = target.with_name(target.name+'.gz')
@@ -68,7 +79,14 @@ def main():
                     source_commit=os.environ.get('GITHUB_SHA'), run_id=run, run_attempt=attempt,
                     lane=a.lane, files=rows, research_goal_completed=False,
                     run_url='https://github.com/Rogerhu12/math-research-public/actions/runs/'+run)
-    (dest/'publication.json').write_text(json.dumps(manifest, indent=2)+'\n')
+    manifest_bytes = (json.dumps(manifest, indent=2)+'\n').encode('utf-8')
+    if len(manifest_bytes) > 1000000:
+        compressed = gzip.compress(manifest_bytes, mtime=0)
+        if len(compressed) >= 5000000:
+            raise RuntimeError('Publication metadata exceeds the repository bound; original artifact remains available')
+        (dest/'publication.json.gz').write_bytes(compressed)
+    else:
+        (dest/'publication.json').write_bytes(manifest_bytes)
     env = os.environ.copy()
     token = env['GH_TOKEN']
     config = [('credential.helper', ''), ('http.https://github.com/.extraheader', ''),

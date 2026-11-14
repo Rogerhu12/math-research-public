@@ -388,3 +388,7 @@ R247证明仿射coast上原有限Frenet RHS常值、Hermite中点消去及真实
 ### 2026-11-14 11:23 UTC — R248 finite C2 phase action and honest all-time reductions
 
 完整证明R248直接登记：仅有限C²载体及准确两阶接缝即可得t↦F_t的C²强连续，不加C³门；明确反射三parity、全相位metric/operator与κ恒等、未标记空间reach归约和固定marker独立条件。真实held始终对完整像，改共同帽仅损其Hausdorff差A；含反射δE仍须实际标记识别输入。新112场尚未接受，inlet有限规范形与固定g精化接口并行继续。
+
+### 2026-11-14 11:26 UTC — prepare genuine fixed-metric refinement and bound archived intermediates
+
+R240的四个独立入口已接：只接受真实完整parent/final-audit/config，永久冻结首v3全部p*与canonical scalar SHA，K=k=0保全部物理/core，原FD/outer/QR/所有接受门不变；仅静态通过，未在699初猜上伪造运行。命令及输入身份见same-metric-refinement-executable-interface note。按根Rule10，publisher不提交可再生actual-tail-readout/nodes大中间点数组，保完整artifact及逐件参数/哈希；publication元数据>1MB自动gz，数学计算不变。
