@@ -1,0 +1,112 @@
+{
+  "status": "all exact checks passed",
+  "checks": 41,
+  "actual_original_p23_frames": [
+    {
+      "quadratic_W40_row_at_2p": 3,
+      "p": 23,
+      "b": 1,
+      "a": 21,
+      "hp": 8,
+      "full_R40_pole": [
+        {
+          "r": 0,
+          "epsilon": 17,
+          "w": 1,
+          "physical_index": 69,
+          "value": 18
+        },
+        {
+          "r": 1,
+          "epsilon": 11,
+          "w": 2,
+          "physical_index": 46,
+          "value": 16
+        },
+        {
+          "r": 2,
+          "epsilon": 5,
+          "w": 3,
+          "physical_index": 23,
+          "value": 16
+        }
+      ],
+      "reconstructed_K": [
+        1,
+        18,
+        7
+      ],
+      "actual_K_top": 16,
+      "forcing_normalized": [
+        6,
+        12
+      ],
+      "central_normalized": [
+        1,
+        20
+      ],
+      "original_linear_difference": 6,
+      "L": 18,
+      "B": 18,
+      "E": 3,
+      "lower_L": 10,
+      "lower_B": 4
+    },
+    {
+      "quadratic_W40_row_at_2p": 3,
+      "p": 23,
+      "b": 17,
+      "a": 7,
+      "hp": 8,
+      "full_R40_pole": [
+        {
+          "r": 0,
+          "epsilon": 17,
+          "w": 1,
+          "physical_index": 69,
+          "value": 4
+        },
+        {
+          "r": 1,
+          "epsilon": 11,
+          "w": 2,
+          "physical_index": 46,
+          "value": 19
+        },
+        {
+          "r": 2,
+          "epsilon": 5,
+          "w": 3,
+          "physical_index": 23,
+          "value": 16
+        }
+      ],
+      "reconstructed_K": [
+        1,
+        18,
+        7
+      ],
+      "actual_K_top": 16,
+      "forcing_normalized": [
+        6,
+        12
+      ],
+      "central_normalized": [
+        1,
+        20
+      ],
+      "original_linear_difference": 15,
+      "L": 18,
+      "B": 18,
+      "E": 3,
+      "lower_L": 10,
+      "lower_B": 4
+    }
+  ],
+  "previous_fibre_only": true,
+  "pole_rows_taken_from_exact_high_rational_coefficients": true,
+  "full_target_pole_polynomials_not_multiplied_in_square_zero_ideal": true,
+  "no_free_source_column": true,
+  "central_nonvanishing_claim": false,
+  "main_target_complete": false
+}

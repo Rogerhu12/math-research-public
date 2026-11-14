@@ -111,3 +111,5 @@
 - [R594：同一六支双来源补偿与真实Z单位矩形](../results/R594-two-source-six-carry-compensation-and-unit-z-rectangle.md)：20个实际中性方向的9×20整右逆同时支付原ρ、B投影及其差在同Dn的单位首项，完整λκ和固定有限坏集保留。六真实网格并域准确下降为νflat的Zunit/其余四深矩形；其积分恰v=n，原整个中央及外矩形抵消仍保持。
 
 - [R588固定长塔增补](2026-11-14-r588-fixed-long-tower-kummer-addendum.md)：p>12m+31时，用原y的三次微分方程和degree6m多项式残差支付全部长塔任意常数组合的低非中央单位行；Lüroth含不可分、整个Stokes尾和闭边界全保，全部R4+R1塔在同wild域独立并继承全非线性半径障碍。原七塔p>19不变，未改整格或中央条件。
+
+- [R596：原首极部重建、两中央非齐次约束与全前缀矩阵](../results/R596-original-pole-reconstruction-and-full-prefix-central-constraints.md)：唯一R40首pole经单位线性变元及原log连接完整重建两forcing和原S/T两对角，同时零等价显示L=0、B=−hp/3单位目标。真实Cauchy进位进一步给全部D/n<ps的九来源强化矩阵模p，保原列和真前缀；未把非线性观测添列、平方零相乘或模p核当可提升核。
