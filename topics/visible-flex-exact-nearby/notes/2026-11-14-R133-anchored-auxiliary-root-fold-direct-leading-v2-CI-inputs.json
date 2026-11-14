@@ -1,0 +1,203 @@
+{
+  "kind": "anchored_auxiliary_root_characteristic_refinement_v2_exact_public_CI_inputs",
+  "public_repository": "Rogerhu12/math-research-public",
+  "topic": "topics/visible-flex-exact-nearby",
+  "runtime": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "arb_precision_bits": 320
+  },
+  "input_paths": {
+    "root_germ": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+    "root_budget": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+    "auxiliary_native": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/auxiliary-root-complex-third-jets.json.gz",
+    "auxiliary_process": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/process.json",
+    "original_scientific_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "original_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-anchored-auxiliary-root-fold-direct-leading-CI-inputs.json",
+    "original_prefix_native": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_ci/run-43646714623-1/consumers/anchored-auxiliary-root-fold-direct-leading.json.gz",
+    "original_prefix_process": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_ci/run-43646714623-1/consumers/process.json",
+    "original_prefix_worker": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_ci/run-43646714623-1/worker-process.json"
+  },
+  "external_completed_natives": [],
+  "mathematical_parameters": {
+    "same_original_piece": 2549,
+    "exact_complex_delta_radius": "1/100000000",
+    "completed_auxiliary_radii": [
+      "1/10000",
+      "1/2000"
+    ],
+    "new_fold_radius_fraction": "3/4",
+    "coefficient_strip": "1/32",
+    "old_leading_strip": "3/128",
+    "canonical_inverse_strip": "1/64",
+    "forcing_amplitude_strip": "3/256",
+    "quotient_angular_Cauchy_margin": "1/1024",
+    "inner_canonical_strip": "1/128",
+    "original_physical_output_strip": "1/512",
+    "original_physical_inner_radius": "9/1000000",
+    "radial_inverse_reference": "9/2"
+  },
+  "new_scientific_work": "Reuse the complete original root anchor, both accepted coefficient stages and the entire smaller case byte-semantically. Only refine the larger characteristic speed by the already paid root derivative, then compute its unresolved fold, leading and forcing stages.",
+  "original_targets_primitives_cubics_and_completed_domain_jets_recomputed": 0,
+  "original_auxiliary_audit_returncode": 1,
+  "original_auxiliary_global_proved": false,
+  "selected_auxiliary_cases_each_actually_proved": true,
+  "prefix_recovery": "Pin the one explicitly authorized old source/manifest/native process with its real return 1. Copy accepted original payloads exactly, preserve the failed case separately. Resume newly accepted stages only under identical v2 source/manifest/runtime/original-prefix identities.",
+  "scope": {
+    "physical_identity_only_on_original_scalar_and_cubic_intersection": true,
+    "all_original_physical_seams_and_mean_equations_retained": true,
+    "complete_old_I_J_on_w1_paid": false,
+    "full_strong_return_or_cutoff97_inverse_paid": false
+  },
+  "files": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz",
+      "bytes": 7851,
+      "sha256": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-anchored-auxiliary-root-fold-direct-leading-CI-inputs.json",
+      "bytes": 7513,
+      "sha256": "1f5de8e5f2a877bad414ec50d50b47ca8ac816a05ef1e90303e3dc79edecbdb9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-auxiliary-root-complex-third-jets-CI-inputs.json",
+      "bytes": 18861,
+      "sha256": "404e8352112f38cd5b96dc42ebe49c9c11ebab3a2f2fc53db3f1e247314285da"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_ci/run-43646714623-1/consumers/anchored-auxiliary-root-fold-direct-leading.json.gz",
+      "bytes": 12763,
+      "sha256": "a6f6225cd993718f48b9d35533b81134f966f350b1c9ce704e61e38b34855807"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_ci/run-43646714623-1/consumers/process.json",
+      "bytes": 29348,
+      "sha256": "69b410c192ed7445c97d13420672844fdf6f73e6548e9febf220645bc13ad04b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/anchored_auxiliary_root_fold_direct_leading_ci/run-43646714623-1/worker-process.json",
+      "bytes": 2447,
+      "sha256": "23e720ae23afd5e3b9ef91f7d3764564ca7c6bc36d6fdc12477cee120d135523"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/auxiliary-root-complex-third-jets.json.gz",
+      "bytes": 432808,
+      "sha256": "6276b4b8bd117b3092ce633b7164ff99968100f10b09cbaef8850d4c03f6b24f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/consumers/process.json",
+      "bytes": 38267,
+      "sha256": "a6783642ae2c49f66c3a7b54f1506389f24771790f3bd5a324646df8229f9728"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/auxiliary_root_complex_third_jets_ci/run-43640181602-1/worker-process.json",
+      "bytes": 2345,
+      "sha256": "6e0a857df0aacb8900e4d3ef6c86d437a46f84af7a55f3df2787d10328d23ae4"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz",
+      "bytes": 30595,
+      "sha256": "10ff6db82cece6c72ae8a6726c07c188922cf6b307f5af5f50a691ade0abb33f"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-anchored-auxiliary-fold-and-direct-leading-first-forcing.md",
+      "bytes": 9857,
+      "sha256": "87e954289a1b22c3be33615c7bc730a8662b39b4d4bc0c7f4f100106ec6895ad"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-auxiliary-root-domains-and-complete-complex-third-jets.md",
+      "bytes": 9708,
+      "sha256": "fa3b9bfd53e2b0e3ebe92586b5056cd0cea9f791ab96a3e1a2b202286760ccf5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-moving-analytic-principal-fold.md",
+      "bytes": 13563,
+      "sha256": "c191e654a5fe2d48098195f8d6a7d2909161f0254efc047f761481194bcd224b"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-anchored-auxiliary-fold-and-direct-complex-leading-derivatives.md",
+      "bytes": 14489,
+      "sha256": "63e76681a33b5dd319e7de0c14a6812a3d6ec5aede641fe066af25f28bf06d10"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-auxiliary-root-piece-analytic-extension-and-complete-complex-third-jets.md",
+      "bytes": 11394,
+      "sha256": "cfaf9234c4fbdaf5515a299194762232a802312fd3fd2c4699e608c47c33ea64"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-closed-leading-Airy-amplitudes-and-exact-seam-transmission.md",
+      "bytes": 11462,
+      "sha256": "679ab82202a4d65b8ce47db1ab353e51553e19b6cc1831a745e48c704b3e86a1"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-moving-root-scalarization.md",
+      "bytes": 15539,
+      "sha256": "0645cf460507ea587056b6969b01dc532b6623179db5598e2bffe4f53a8275af"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-exact-fold-matrix-cancellation-and-leading-inverse-defect.md",
+      "bytes": 8721,
+      "sha256": "8ca5e54a1072e801acb3622cce8c6f04c6240691d000453804f46899d57a96a5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-explicit-first-Airy-forcing-and-real-radial-inverse-jets.md",
+      "bytes": 15780,
+      "sha256": "a798e93d73aa64115cb43313985054e0d682a41fd1393f4efea4704301699e3a"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-old-root-product-and-separated-first-Airy-amplitude-budgets.md",
+      "bytes": 13623,
+      "sha256": "fca8fcdda1d284011b540535d494f8f81dbdb8fd83e03ca8540496d0274fafa3"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-root-anchored-characteristic-refinement-and-preserved-prefix.md",
+      "bytes": 5970,
+      "sha256": "06f8bdc643d3d931bec8b8d7de472825003b82ca98891ec693bd3374a710016d"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading_CI.py",
+      "bytes": 8419,
+      "sha256": "a5b48952053d6ff619b7c1056e2c9e6e43103d450397d6acf56ec9c4e20cfde7"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading_v2_CI.py",
+      "bytes": 10073,
+      "sha256": "4e32040a5e0294822056808bf94a4b20555366693b6fd7a2d32ffdef3682c3b5"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading_v2.py",
+      "bytes": 15648,
+      "sha256": "e4720dc7430f9f4be7dfdb901ec5ac7cf1f0bb260ed9298fc250c58d3c8fdeb9"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+      "bytes": 32009,
+      "sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_auxiliary_root_complex_third_jets.py",
+      "bytes": 22601,
+      "sha256": "70f848effb2e57c64b2c9e8100d6ac0af01968c13c939a4874c6f44b0a759d21"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_current_root_scalarization_budget.py",
+      "bytes": 19473,
+      "sha256": "4a3ee217b21cabda6ae3dea052f27ff82f03b4218294145dc2f812891688e03e"
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_moving_turning_complex_germ.py",
+      "bytes": 13009,
+      "sha256": "a3ad50b828c69d3e6f1e9254c1f266535171741ee2cd675d1569ef8f0fac0491"
+    }
+  ],
+  "original_failed_anchored_run": {
+    "run_id": "43646714623",
+    "actual_returncode": 1,
+    "native_sha256": "a6f6225cd993718f48b9d35533b81134f966f350b1c9ce704e61e38b34855807",
+    "source_sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783",
+    "manifest_sha256": "1f5de8e5f2a877bad414ec50d50b47ca8ac816a05ef1e90303e3dc79edecbdb9",
+    "whole_smaller_case_recomputed": 0,
+    "old_coefficient_stages_recomputed": 0
+  }
+}

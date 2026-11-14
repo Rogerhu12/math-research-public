@@ -170,3 +170,7 @@ E1–12 已证明同piece辅助解析延拓及六primitive→E4/A5→完整复K/
 ### 新完整正DN与双侧强Airy余项已证，接真正long Schur与联合相位
 
 [P1–32](results/R119-supplement-new-simple-root-complete-positive-DN-Airy-return-and-sources.md)对新固定stop对象付整个正区、真实long/mean、未匹配EB及完整源；没有在根collar外端补条件。实际Airy正逆<2，余项双侧4/3强窗已含low/mean与全角lag。tail继续原long的远端screening及完整Frechet列，转为同空间Schur小量并保帽反馈，再接第五形状盒/两Γ/联合相位；旧对象证据全部留用原范围。
+
+### 较大域v2续算已装，零重算所有已成前缀
+
+28pins834136B中原20path/bytes/SHA逐项不变；新sourcee4720dc7430f9f4be7dfdb901ec5ac7cf1f0bb260ed9298fc250c58d3c8fdeb9直接import原已实跑410675源。固定旧native a6f622与child1过程，整小case/两coeff/rootanchor做对象及hash一致性门；原failedcase另全保。仅新大域特征速度积分交与fold/leading/forcing，逐stage存盘；原域、inverse门和物理cover不改。待公开Actions实际，不先授通过。
